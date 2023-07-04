@@ -1,0 +1,15 @@
+Guard Sarethi Manor Add-on - Morag Tong Hit Squad.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AthynSarethiAssassins)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    athyn sarethi
+	morrowind.esm       DIAL    make amends
+	morrowind.esm       NPC_    arsyn salas
+	morrowind.esm       NPC_    gragus lleran
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hr_guardsarethi
+
+[MOD-INF]: ID=26083136888685713(Greeting:greeting 5)
+  morrowind.esm----------------------------------------->|DATA|ONAM:athyn sarethi|NAME:You're here to guard me? Thank the Tribunal! The assassins have already taken my guards. I fear there will be more. Stay alert, %PCRace.|SCVR:34JX3HR_GuardSarethi|INTV: |SCVR:44JX4HR_GuardSarethi|INTV:d|BNAM:"Arsyn Salas"->Enable  "Arsyn Salas"->StartCombat Player  "Arsyn Salas"->StartCombat "Athyn Sarethi"  "Gragus Lleran"->Enable  "Gragus Lleran"->StartCombat Player  "Gragus Lleran"->StartCombat "Athyn Sarethi"  Goodbye
+  Guard Sarethi Manor Add-on - Morag Tong Hit Squad.ESP->|DATA|ONAM:athyn sarethi|NAME:You're here to guard me? Thank the Tribunal! The assassins have already taken my guards. I fear there will be more. Stay alert, %PCRace.|SCVR:34JX3HR_GuardSarethi|INTV: |SCVR:44JX4HR_GuardSarethi|INTV:d|BNAM:Journal HR_GuardSarethi 30  "Arsyn Salas"->Enable  "Arsyn Salas"->StartCombat Player  "Gragus Lleran"->Enable  "Gragus Lleran"->StartCombat "Athyn Sarethi"  Goodbye

@@ -1,0 +1,42 @@
+From Ash to Frost.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Caer_AppearScript01)
+	SCPT(Caer_AppearScript02)
+	SCPT(Caer_DeadNord)
+	SCPT(Caer_DisappearScript01)
+	SCPT(Caer_DisappearScript02)
+	SCPT(Caer_LieutenantScript01)
+	SCPT(Caer_LieutenantScript02)
+	SCPT(Caer_LieutenantScript03)
+	SCPT(Caer_RRAppearScript01)
+	SCPT(Caer_RRAppearScript02)
+	SCPT(Caer_SHNote01Script)
+	SCPT(Caer_SHNote02Script)
+	SCPT(hs_SkaalAttack)
+	SCPT(hs_ashfrost_start)
+	SCPT(hs_ashfrost_start2)
+	SCPT(hs_bearattack)
+	SCPT(hs_honorguard_enable)
+	SCPT(hs_minedoor)
+	SCPT(hs_sadoshouse)
+	SCPT(hs_sadoskey_journal)
+	SCPT(hs_skaalbattle)
+	SCPT(hs_wolfattack)
+	SCPT(hs_wolfattack2)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       NPC_    bm_berserker_f4
+	bloodmoon.esm       PGRD    solstheim, domme
+	bloodmoon.esm       PGRD    solstheim, gronn
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

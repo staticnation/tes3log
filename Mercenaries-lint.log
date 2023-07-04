@@ -1,0 +1,38 @@
+Mercenaries.esp: DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (141) != Actual count (139)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Mercfollow)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-14, 2)             0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ALCH    potion_ancient_brandy
+	morrowind.esm       LTEX    sand
+	morrowind.esm       NPC_    baleni salavel
+	morrowind.esm       STAT    in_c_stone_room_corner
+	morrowind.esm       STAT    in_redoran_hut_01
+	morrowind.esm       STAT    in_stronghold_roofext00
+	morrowind.esm       STAT    in_velothismall_room_09
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    com_chest_01
+	morrowind.esm       CONT    com_sack_01
+	morrowind.esm       CONT    de_p_closet_02
+	morrowind.esm       CONT    de_p_desk_01_pos
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	tribunal.esm        CONT    crate_01
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=12131319582389432117(Greeting:greeting 9)
+  |DATA|NAME:It is truly a pleasure to see you.|SCVR:03sX3NoLore|INTV:|BNAM:;added to prevent some bad no lore greetings.

@@ -1,0 +1,34 @@
+Lord's Mail and Morningstars.ESP: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    stalhrim weapons
+	bloodmoon.esm       WEAP    bm ice mace
+	bloodmoon.esm       WEAP    bm nordic silver mace
+	morrowind.esm       ENCH    lord's praise
+	morrowind.esm       WEAP    daunting mace
+	morrowind.esm       WEAP    demon mace
+	morrowind.esm       WEAP    ebony mace
+
+[MOD-INF]: ID=19584140238819085(Topic:stalhrim weapons)
+  bloodmoon.esm-------------------->|DATA|ONAM:hidar|NAME:Here's your mace, %PCName. Use it well.|SCVR:03sX0s_mace|INTV|SCVR:13sX3localdaysPassed|INTV|BNAM:player->additem "BM ice mace" 1  set s_mace to 0  set busy to 0  set localdayspassed to 0
+  Lord's Mail and Morningstars.ESP->|DATA|ONAM:hidar|NAME:Here's your morningstar, %PCName. Use it well.|SCVR:03sX0s_mace|INTV|SCVR:13sX3localdaysPassed|INTV|BNAM:player->additem "BM ice mace" 1  set s_mace to 0  set busy to 0  set localdayspassed to 0
+
+[MOD-INF]: ID=124894535130144186(Topic:stalhrim weapons)
+  bloodmoon.esm-------------------->|DATA|ONAM:hidar|NAME:Your mace isn't ready yet. I need more time to finish it.|SCVR:03sX0s_mace|INTV
+  Lord's Mail and Morningstars.ESP->|DATA|ONAM:hidar|NAME:Your morningstar isn't ready yet. I need more time to finish it.|SCVR:03sX0s_mace|INTV
+
+[MOD-INF]: ID=189502546285199736(Topic:stalhrim weapons)
+  bloodmoon.esm-------------------->|DATA|ONAM:hidar|NAME:I'll get started on a mace for you. Come back in two days, and it'll be ready.|SCVR:01500|INTV|SCVR:15IX3ingred_raw_Stalhrim_01|INTV|BNAM:player->removeitem "ingred_raw_stalhrim_01" 1  set busy to 1  set s_mace to 1  Goodbye
+  Lord's Mail and Morningstars.ESP->|DATA|ONAM:hidar|NAME:I'll get started on a morningstar for you. Come back in two days, and it'll be ready.|SCVR:01500|INTV|SCVR:15IX3ingred_raw_Stalhrim_01|INTV|BNAM:player->removeitem "ingred_raw_stalhrim_01" 1  set busy to 1  set s_mace to 1  Goodbye
+
+[MOD-INF]: ID=900847722160227203(Topic:stalhrim weapons)
+  bloodmoon.esm-------------------->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Nevermind" 5
+  Lord's Mail and Morningstars.ESP->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Morningstar" 4 "Nevermind" 5
+
+[MOD-INF]: ID=1052431962138491563(Topic:stalhrim weapons)
+  bloodmoon.esm-------------------->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Nevermind" 6
+  Lord's Mail and Morningstars.ESP->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Morningstar" 5 "Nevermind" 6
+
+[MOD-INF]: ID=4212243272010916286(Topic:stalhrim weapons)
+  bloodmoon.esm-------------------->|DATA|ONAM:hidar|NAME:You don't have enough raw Stalhrim for me to forge you a Mace.|SCVR:01500|INTV|SCVR:15IX4ingred_raw_Stalhrim_01|INTV
+  Lord's Mail and Morningstars.ESP->|DATA|ONAM:hidar|NAME:You don't have enough raw Stalhrim for me to forge you a Morningstar.|SCVR:01500|INTV|SCVR:15IX4ingred_raw_Stalhrim_01|INTV

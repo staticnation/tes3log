@@ -1,0 +1,12 @@
+GhostRevenge.ESP: DUP-REC MENUMOD MISSAUT MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(REVENGE_Sc_CheckDead)
+	SCPT(REVENGE_Sc_RemoveItems)
+	SCPT(REVENGE_Sc_Template)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle

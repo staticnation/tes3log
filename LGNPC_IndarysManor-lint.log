@@ -1,0 +1,376 @@
+LGNPC_IndarysManor.esp: DUP-INF DUP-REC MENUMOD OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(HFStatueMamaea)
+	SCPT(jo_ArvsWifeTimer)
+	SCPT(jo_BhusariScript)
+	SCPT(jo_BroderGarilScript)
+	SCPT(jo_GarisaLlethriScript)
+	SCPT(jo_GuardTower1Script)
+	SCPT(jo_IMVampScript)
+	SCPT(jo_SloadRecipeScript)
+	SCPT(jo_TwinLampsTimer_FG)
+	SCPT(jo_TwinLampsTimer_VG)
+	SCPT(jo_UveleWifeTimer)
+	SCPT(jo_VedasTimer)
+	SCPT(jo_VirasTimer)
+	SCPT(jo_VirasWifeTimer)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    blades
+	bloodmoon.esm       DIAL    imperial law
+	bloodmoon.esm       DIAL    smuggling
+	morrowind.esm       DIAL    abolitionists
+	morrowind.esm       DIAL    absorption spells
+	morrowind.esm       DIAL    affairs of honor
+	morrowind.esm       DIAL    ahemmusa camp
+	morrowind.esm       DIAL    alchemy
+	morrowind.esm       DIAL    ald sotha
+	morrowind.esm       DIAL    ald velothi
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    alembic
+	morrowind.esm       DIAL    alit hide
+	morrowind.esm       DIAL    alteration
+	morrowind.esm       DIAL    alteration potions
+	morrowind.esm       DIAL    alteration spells
+	morrowind.esm       DIAL    altmer
+	morrowind.esm       DIAL    ampoule pod
+	morrowind.esm       DIAL    ancestors
+	morrowind.esm       DIAL    animal products
+	morrowind.esm       DIAL    apparatus
+	morrowind.esm       DIAL    aquatic potions
+	morrowind.esm       DIAL    arethan mandas
+	morrowind.esm       DIAL    armor repair
+	morrowind.esm       DIAL    armor styles
+	morrowind.esm       DIAL    armor types
+	morrowind.esm       DIAL    ash salts
+	morrowind.esm       DIAL    ash statue
+	morrowind.esm       DIAL    ash yam
+	morrowind.esm       DIAL    ashlander challenges
+	morrowind.esm       DIAL    ashlander courtesy
+	morrowind.esm       DIAL    ashlander culture
+	morrowind.esm       DIAL    ashlander customs
+	morrowind.esm       DIAL    ashlander gifts
+	morrowind.esm       DIAL    ashlander nomadic camp style
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    ashlanders and foreigners
+	morrowind.esm       DIAL    ashlanders hate foreigners
+	morrowind.esm       DIAL    ashlanders in war
+	morrowind.esm       DIAL    ashlands
+	morrowind.esm       DIAL    athletics
+	morrowind.esm       DIAL    athyn sarethi
+	morrowind.esm       DIAL    attract more settlers
+	morrowind.esm       DIAL    attribute-damaging
+	morrowind.esm       DIAL    attribute-draining
+	morrowind.esm       DIAL    axes
+	morrowind.esm       DIAL    bad daedra
+	morrowind.esm       DIAL    banden indarys
+	morrowind.esm       DIAL    bandits
+	morrowind.esm       DIAL    battle axe
+	morrowind.esm       DIAL    betty netch
+	morrowind.esm       DIAL    bitter coast
+	morrowind.esm       DIAL    bitter cup
+	morrowind.esm       DIAL    bittergreen petals
+	morrowind.esm       DIAL    black anther
+	morrowind.esm       DIAL    black lichen
+	morrowind.esm       DIAL    blessings
+	morrowind.esm       DIAL    blight diseases
+	morrowind.esm       DIAL    blighted creatures
+	morrowind.esm       DIAL    bloat
+	morrowind.esm       DIAL    blunt weapons
+	morrowind.esm       DIAL    body armor
+	morrowind.esm       DIAL    bolvyn venim
+	morrowind.esm       DIAL    bonemeal
+	morrowind.esm       DIAL    bound armor spells
+	morrowind.esm       DIAL    bound weapons spells
+	morrowind.esm       DIAL    brara morvayn
+	morrowind.esm       DIAL    breton
+	morrowind.esm       DIAL    broadsword
+	morrowind.esm       DIAL    bull netch
+	morrowind.esm       DIAL    bungler's bane
+	morrowind.esm       DIAL    buoyant armigers
+	morrowind.esm       DIAL    calcinator
+	morrowind.esm       DIAL    chitin
+	morrowind.esm       DIAL    chokeweed
+	morrowind.esm       DIAL    claymore
+	morrowind.esm       DIAL    cleaver of st. felms
+	morrowind.esm       DIAL    cliff racer
+	morrowind.esm       DIAL    club
+	morrowind.esm       DIAL    coda flower
+	morrowind.esm       DIAL    comberry
+	morrowind.esm       DIAL    commercial potions
+	morrowind.esm       DIAL    conjuration
+	morrowind.esm       DIAL    conjuration spells
+	morrowind.esm       DIAL    corkbulb root
+	morrowind.esm       DIAL    corprus in ald'ruhn
+	morrowind.esm       DIAL    corprus weepings
+	morrowind.esm       DIAL    crab meat
+	morrowind.esm       DIAL    crosier of st. llothis
+	morrowind.esm       DIAL    crossbow
+	morrowind.esm       DIAL    cure potions
+	morrowind.esm       DIAL    cure spells
+	morrowind.esm       DIAL    cyrodiilic brandy
+	morrowind.esm       DIAL    daedra
+	morrowind.esm       DIAL    daedra cults
+	morrowind.esm       DIAL    daedra skin
+	morrowind.esm       DIAL    daedra's heart
+	morrowind.esm       DIAL    daedric
+	morrowind.esm       DIAL    dagger
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    dai-katana
+	morrowind.esm       DIAL    dart
+	morrowind.esm       DIAL    destination
+	morrowind.esm       DIAL    destruction
+	morrowind.esm       DIAL    destruction spells
+	morrowind.esm       DIAL    detect potions
+	morrowind.esm       DIAL    diamond
+	morrowind.esm       DIAL    diseased creatures
+	morrowind.esm       DIAL    disintegration
+	morrowind.esm       DIAL    domination spells
+	morrowind.esm       DIAL    dreugh wax
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    dwemer
+	morrowind.esm       DIAL    dwemer artifacts
+	morrowind.esm       DIAL    ebony
+	morrowind.esm       DIAL    ectoplasm
+	morrowind.esm       DIAL    elemental damage
+	morrowind.esm       DIAL    emerald
+	morrowind.esm       DIAL    endurance
+	morrowind.esm       DIAL    erabenimsun camp
+	morrowind.esm       DIAL    exotic armor types
+	morrowind.esm       DIAL    exotic products
+	morrowind.esm       DIAL    fighters guild
+	morrowind.esm       DIAL    fines and compensation
+	morrowind.esm       DIAL    fire petals
+	morrowind.esm       DIAL    fire salts
+	morrowind.esm       DIAL    flin
+	morrowind.esm       DIAL    fort buckmoth
+	morrowind.esm       DIAL    fortify potions
+	morrowind.esm       DIAL    fortify spells
+	morrowind.esm       DIAL    frost salts
+	morrowind.esm       DIAL    garisa llethri
+	morrowind.esm       DIAL    geographic regions
+	morrowind.esm       DIAL    geography of morrowind
+	morrowind.esm       DIAL    get cured
+	morrowind.esm       DIAL    ghoul heart
+	morrowind.esm       DIAL    glass
+	morrowind.esm       DIAL    gnisis
+	morrowind.esm       DIAL    gold kanet
+	morrowind.esm       DIAL    good daedra
+	morrowind.esm       DIAL    gravedust
+	morrowind.esm       DIAL    great houses
+	morrowind.esm       DIAL    greef
+	morrowind.esm       DIAL    green lichen
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       DIAL    guar hide
+	morrowind.esm       DIAL    hackle-lo leaf
+	morrowind.esm       DIAL    halberd
+	morrowind.esm       DIAL    halls of the dead
+	morrowind.esm       DIAL    hand to hand
+	morrowind.esm       DIAL    heather
+	morrowind.esm       DIAL    heavy armor
+	morrowind.esm       DIAL    heavy armor styles
+	morrowind.esm       DIAL    herd animals
+	morrowind.esm       DIAL    hlaren ramoran
+	morrowind.esm       DIAL    homemade potions
+	morrowind.esm       DIAL    hortator
+	morrowind.esm       DIAL    hound meat
+	morrowind.esm       DIAL    house dres
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    house indoril
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    house wars
+	morrowind.esm       DIAL    illusion potions
+	morrowind.esm       DIAL    illusion spells
+	morrowind.esm       DIAL    imperial corruption
+	morrowind.esm       DIAL    imperial legion
+	morrowind.esm       DIAL    imperial neighbors
+	morrowind.esm       DIAL    ingredients
+	morrowind.esm       DIAL    inner sea
+	morrowind.esm       DIAL    iron
+	morrowind.esm       DIAL    kagouti hide
+	morrowind.esm       DIAL    katana
+	morrowind.esm       DIAL    khuul
+	morrowind.esm       DIAL    killing and murder
+	morrowind.esm       DIAL    kresh fiber
+	morrowind.esm       DIAL    kwama cuttle
+	morrowind.esm       DIAL    kwama egg
+	morrowind.esm       DIAL    law in morrowind
+	morrowind.esm       DIAL    light armor
+	morrowind.esm       DIAL    light armor styles
+	morrowind.esm       DIAL    long blades
+	morrowind.esm       DIAL    longsword
+	morrowind.esm       DIAL    lost kogoruhn
+	morrowind.esm       DIAL    maar gan
+	morrowind.esm       DIAL    mabrigash
+	morrowind.esm       DIAL    mace
+	morrowind.esm       DIAL    magicka
+	morrowind.esm       DIAL    marksman weapons
+	morrowind.esm       DIAL    marshmerrow
+	morrowind.esm       DIAL    martial arts
+	morrowind.esm       DIAL    masque of clavicus vile
+	morrowind.esm       DIAL    material and craft
+	morrowind.esm       DIAL    mazte
+	morrowind.esm       DIAL    medium armor
+	morrowind.esm       DIAL    medium armor styles
+	morrowind.esm       DIAL    mercantile skills
+	morrowind.esm       DIAL    mercenaries
+	morrowind.esm       DIAL    miner arobar
+	morrowind.esm       DIAL    mineral products
+	morrowind.esm       DIAL    molag mar
+	morrowind.esm       DIAL    moon sugar
+	morrowind.esm       DIAL    moon-and-star
+	morrowind.esm       DIAL    more blight storms
+	morrowind.esm       DIAL    morrowind
+	morrowind.esm       DIAL    mortar and pestle
+	morrowind.esm       DIAL    muck
+	morrowind.esm       DIAL    mysticism potions
+	morrowind.esm       DIAL    mysticism spells
+	morrowind.esm       DIAL    necromancy
+	morrowind.esm       DIAL    need wives
+	morrowind.esm       DIAL    nerevarine cult
+	morrowind.esm       DIAL    netch leather
+	morrowind.esm       DIAL    nord
+	morrowind.esm       DIAL    nordic
+	morrowind.esm       DIAL    nudity
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    ordinators
+	morrowind.esm       DIAL    other cults
+	morrowind.esm       DIAL    other mysticism spells
+	morrowind.esm       DIAL    padomaic ocean
+	morrowind.esm       DIAL    pearl
+	morrowind.esm       DIAL    pilgrimages
+	morrowind.esm       DIAL    potions
+	morrowind.esm       DIAL    racer plumes
+	morrowind.esm       DIAL    raw ebony
+	morrowind.esm       DIAL    raw glass
+	morrowind.esm       DIAL    raynasa rethan
+	morrowind.esm       DIAL    recall the legions
+	morrowind.esm       DIAL    red lichen
+	morrowind.esm       DIAL    red mountain
+	morrowind.esm       DIAL    redoran councilors
+	morrowind.esm       DIAL    redoran hortator
+	morrowind.esm       DIAL    requirements
+	morrowind.esm       DIAL    resin
+	morrowind.esm       DIAL    resist potions
+	morrowind.esm       DIAL    resist spells
+	morrowind.esm       DIAL    restoration spells
+	morrowind.esm       DIAL    restore potions
+	morrowind.esm       DIAL    restore spells
+	morrowind.esm       DIAL    retort
+	morrowind.esm       DIAL    reynel uvirith
+	morrowind.esm       DIAL    ring of the wind
+	morrowind.esm       DIAL    rogue telvanni
+	morrowind.esm       DIAL    roobrush
+	morrowind.esm       DIAL    rothan tomb
+	morrowind.esm       DIAL    ruby
+	morrowind.esm       DIAL    rules
+	morrowind.esm       DIAL    saber
+	morrowind.esm       DIAL    sadrith mora
+	morrowind.esm       DIAL    saints
+	morrowind.esm       DIAL    saltrice
+	morrowind.esm       DIAL    scales
+	morrowind.esm       DIAL    scamp skin
+	morrowind.esm       DIAL    scathecraw
+	morrowind.esm       DIAL    scrap metal
+	morrowind.esm       DIAL    scrib jelly
+	morrowind.esm       DIAL    scrib jerky
+	morrowind.esm       DIAL    scuttle
+	morrowind.esm       DIAL    sealed daedric ruin
+	morrowind.esm       DIAL    settlements in morrowind
+	morrowind.esm       DIAL    shalk resin
+	morrowind.esm       DIAL    shein
+	morrowind.esm       DIAL    shield potions
+	morrowind.esm       DIAL    shields
+	morrowind.esm       DIAL    shoes of st. rilms
+	morrowind.esm       DIAL    short blades
+	morrowind.esm       DIAL    shortsword
+	morrowind.esm       DIAL    shrines
+	morrowind.esm       DIAL    silt strider
+	morrowind.esm       DIAL    silver
+	morrowind.esm       DIAL    silver staff of shaming
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       DIAL    sload soap
+	morrowind.esm       DIAL    soul sickness
+	morrowind.esm       DIAL    spore pod
+	morrowind.esm       DIAL    staff
+	morrowind.esm       DIAL    steel
+	morrowind.esm       DIAL    stoneflower petals
+	morrowind.esm       DIAL    sujamma
+	morrowind.esm       DIAL    summoning spells
+	morrowind.esm       DIAL    suran
+	morrowind.esm       DIAL    tanto
+	morrowind.esm       DIAL    tear
+	morrowind.esm       DIAL    telvanni bug musk
+	morrowind.esm       DIAL    telvanni tower
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    the blight
+	morrowind.esm       DIAL    the empire
+	morrowind.esm       DIAL    throwing knife
+	morrowind.esm       DIAL    throwing star
+	morrowind.esm       DIAL    toxic potions
+	morrowind.esm       DIAL    trama root
+	morrowind.esm       DIAL    transport spells
+	morrowind.esm       DIAL    tribunal temple
+	morrowind.esm       DIAL    troubles for house redoran
+	morrowind.esm       DIAL    twin lamps
+	morrowind.esm       DIAL    urshilaku camp
+	morrowind.esm       DIAL    vampire dust
+	morrowind.esm       DIAL    vampires
+	morrowind.esm       DIAL    vampirism cure
+	morrowind.esm       DIAL    vegetable products
+	morrowind.esm       DIAL    violet coprinus
+	morrowind.esm       DIAL    visiting an ashlander camp
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       DIAL    void salts
+	morrowind.esm       DIAL    vulnerability
+	morrowind.esm       DIAL    vvardenfell
+	morrowind.esm       DIAL    wakizashi
+	morrowind.esm       DIAL    war axe
+	morrowind.esm       DIAL    warhammer
+	morrowind.esm       DIAL    weapon types
+	morrowind.esm       DIAL    west gash
+	morrowind.esm       DIAL    wickwheat
+	morrowind.esm       DIAL    willow anther
+	morrowind.esm       DIAL    worn armor
+	morrowind.esm       DIAL    worn weapons
+	morrowind.esm       DIAL    zainab camp
+	morrowind.esm       NPC_    garisa llethri
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    b5_redoranbook
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    boots of the apostle
+	tribunal.esm        DIAL    bow of shadows
+	tribunal.esm        DIAL    chrysamere
+	tribunal.esm        DIAL    cuirass of the savior's hide
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    dragonbone cuirass
+	tribunal.esm        DIAL    ebony mail
+	tribunal.esm        DIAL    eleidon's ward
+	tribunal.esm        DIAL    goldbrand
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    ice blade of the monarch
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    lord's mail
+	tribunal.esm        DIAL    mace of molag bal
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    skull-crusher
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    sotha sil
+	tribunal.esm        DIAL    spear of bitter mercy
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        DIAL    spell breaker
+	tribunal.esm        DIAL    staff of magnus
+	tribunal.esm        DIAL    trueflame
+	tribunal.esm        DIAL    warlock's ring
+
+[DUP-INF]: ID=2797922446197547893(Topic:ashlanders and foreigners)
+  |DATA|ONAM:hassour zainsubani|NAME:Most Ashlanders wish all foreigners and their false gods could be driven from Morrowind. At very least, Ashlanders wish the foreign devils would leave them in peace. Ashlanders think it shameful to attack unarmed persons, but they will kill without hesitation an armed person who offends them or their clan laws. No Ashlander is fool enough to make war against the Empire. However, if such a war might be won, many Ashlanders might cheerfully give their lives to win such a war.|SCVR:34JX3A1_11_ZainsubaniInformant|INTV

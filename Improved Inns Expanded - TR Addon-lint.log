@@ -1,0 +1,46 @@
+Improved Inns Expanded - TR Addon.ESP: DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             7824672 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            131296817 (plugin)  163244128 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BINN_start_message)
+	SCPT(TR_m1_Pub_Avenue)
+	SCPT(TR_m1_Pub_Black_Ogre)
+	SCPT(TR_m1_Pub_Dancing_Jug)
+	SCPT(TR_m1_Pub_Howling_Noose)
+	SCPT(TR_m1_Pub_Queens_Cutlass)
+	SCPT(TR_m1_Pub_Waters_Shadow)
+	SCPT(TR_m2_Pub_Akamora_Gob)
+	SCPT(TR_m2_Pub_Helnim_Drake)
+	SCPT(TR_m2_Pub_Helnim_Flower)
+	SCPT(TR_m2_Pub_Helnim_Racer)
+	SCPT(TR_m2_Pub_Hlersis_LeakingSpore)
+	SCPT(TR_m2_Pub_InnBetween)
+	SCPT(TR_m2_Pub_Mothrivra_Goblet1)
+	SCPT(TR_m2_Pub_Necrom_Hostel)
+	SCPT(TR_m3_A8_Dralin_Belvayn_S)
+	SCPT(TR_m3_A8_Sulerri_Tharyon_S)
+	SCPT(TR_m3_Pub_AT_HC)
+	SCPT(TR_m3_Pub_AT_LS)
+	SCPT(TR_m3_Pub_AT_TS)
+	SCPT(TR_m3_Pub_Aimrah_Inn)
+	SCPT(TR_m3_Pub_Darnim_Windbrk)
+	SCPT(TR_m3_Pub_Empress_Katariah)
+	SCPT(TR_m3_Pub_HuntedHound)
+	SCPT(TR_m3_Pub_Meralag_Glade)
+	SCPT(TR_m3_Pub_Moth_and_Tiger)
+	SCPT(TR_m3_Pub_Sailen_Toiling)
+	SCPT(TR_m3_Pub_Salty_Futtocks)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 7
+
+[MOD-INF]: ID=1271813945413015993(Topic:beds)
+  morrowind.esm------------------------->|DATA|ONAM:banor seran|CNAM:Publican|NAME:Very good. Go down the stairs. The room on the right is yours. I'd avoid the left room, the man there wishes to be undisturbed..|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ;BALMORA COUNCIL CLUB  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - TR Addon.ESP->|DATA|ONAM:banor seran|CNAM:Publican|NAME:Yes, the room down the stairs on the right is available. It's better to avoid the left room, the man there wishes to be undisturbed. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=8192288701696813519(Topic:beds)
+  tr_mainland.esm----------------------->|DATA|ONAM:TR_m2_Llania Darvani|NAME:There are no beds here. I only sell drinks.
+  Improved Inns Expanded - TR Addon.ESP->|DATA|ONAM:TR_m2_Llania Darvani|NAME:There are no beds here. I only sell drinks.

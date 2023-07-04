@@ -1,0 +1,52 @@
+GoldbrandReforged.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DQHilbonHammerScript)
+	SCPT(DQShaKeyScript)
+	SCPT(DQSiriFight)
+	SCPT(DQSiriVampCheckScript)
+	SCPT(blueScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    quarra blood potion
+	morrowind.esm       DIAL    someone killed
+	morrowind.esm       MISC    key_shashev
+	tribunal.esm        CREA    golden saint_staada
+	tribunal.esm        DIAL    goldbrand
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=9825322466812215(Topic:someone killed)
+  morrowind.esm--------->|DATA|NAME:Excellent. Sometimes I wonder if it is not a good thing your kind exists. You may keep whatever else you found on his corpse. I'm sure that the fool had something of use to you. If you are still looking for something to do, I require some vampire dust for a spell I'm researching.|SCVR:06DX2shashev|INTV:|SCVR:14JX0VA_Shashev|INTV:|SCVR:25IX2key_shashev|INTV:|BNAM:Journal "VA_Shashev" 100  Player->RemoveItem "key_shashev" 1  AddItem "key_shashev" 1  StartScript blueScript
+  GoldbrandReforged.ESP->|DATA|ONAM:a shady smuggler|NAME|DUMMIED O|UTSC|INTV:|SCVR:14JX0VA_Shashev|INTV:|SCVR:25IX2key_shashev|INTV:|BNAM:Journal "VA_Shashev" 100  Player->RemoveItem "key_shashev" 1  AddItem "key_shashev" 1  StartScript blueScript
+
+[MOD-INF]: ID=233381851916610348(Topic:someone killed)
+  morrowind.esm--------->|DATA|NAME:My rival is dead by your hands.|SCVR:04JX0VA_Shashev|INTV:d|BNAM:Journal VA_Shashev 10
+  GoldbrandReforged.ESP->|DATA|NAME:My former partner is dead by your hands.|SCVR:04JX3DQ_Elton|INTV
+
+[MOD-INF]: ID=263351794215120912(Topic:someone killed)
+  morrowind.esm--------->|DATA|NAME:Excellent. Sometimes I wonder if it is not a good thing your kind exists. You may keep whatever else you found on his corpse. I'm sure that the fool had something of use to you. If you are still looking for something to do, I require some vampire dust for a spell I'm researching.|SCVR:06DX2shashev|INTV:|SCVR:14JX0VA_Shashev|INTV: |SCVR:25IX2key_shashev|INTV:|BNAM:Journal "VA_Shashev" 100  Player->RemoveItem "key_shashev" 1  AddItem "key_shashev" 1  StartScript blueScript
+  GoldbrandReforged.ESP->|DATA|NAME:Excellent. You may keep whatever else you found on his corpse. I'm sure that the fool had something of use to you. [Sirilonwe twists the key's handle off, revealing a hollowed compartment within containing a note.] Always the predictible one, Shashev. Let's see here...  according to this, there is a way to reforge Goldbrand.|SCVR:06DX2shashev|INTV:|SCVR:14JX0DQ_Elton|INTV|SCVR:25IX2key_shashev|INTV:|BNAM:Journal "DQ_Elton" 30  Player->RemoveItem "key_shashev" 1  AddItem "key_shashev" 1
+
+[MOD-INF]: ID=299354959860027837(Greeting:greeting 2)
+  morrowind.esm--------->|DATA|NAME:I wanted to have someone killed. Did you do it, creature?|SCVR:01600|INTV|SCVR:14JX0VA_Shashev|INTV: 
+  GoldbrandReforged.ESP->|DATA|NAME:I want to have someone killed. What do you say, %PCRace?|SCVR:14JX0DQ_Elton|INTV
+
+[MOD-INF]: ID=1104444413038726341(Topic:someone killed)
+  morrowind.esm--------->|DATA|NAME:Yes. I need to have a rival eliminated, but I don't wish to be directly involved in the affair. His name is Shashev, and my informants tell me he is at the Ald-Skar Inn in Ald'ruhn. Kill him for me, vampire, and return with his key.|SCVR:06DX0shashev|INTV:|SCVR:11600|INTV|BNAM:Journal VA_Shashev 10
+  GoldbrandReforged.ESP->|DATA|NAME:Yes. A former partner of mine has absconded with my research. His name is Shashev, and my informants tell me he is at the Ald-Skar Inn in Ald'ruhn. Kill him for me, and return with his key.|SCVR:06DX0shashev|INTV:|BNAM:Journal DQ_Elton 10
+
+[MOD-INF]: ID=2811024839205246927(Topic:someone killed)
+  morrowind.esm--------->|DATA|NAME:He is dead, but you do not have his key! Stupid creature. I need that key if I am to gain access to all of his research.|SCVR:06DX2shashev|INTV:|SCVR:14JX0VA_Shashev|INTV: |SCVR:25IX4key_shashev|INTV:|BNAM:Journal VA_Shashev 10
+  GoldbrandReforged.ESP->|DATA|NAME:He is dead, but you do not have his key! Stupid %PCRace! I need that key if I am to gain access to all of his research.|SCVR:06DX2shashev|INTV:|SCVR:14JX3DQ_Elton|INTV: |SCVR:25IX4key_shashev|INTV:
+
+[MOD-INF]: ID=3024723747100571902(Topic:someone killed)
+  morrowind.esm--------->|DATA|NAME:You've already killed Shashev, Dark One? Well done indeed. But I need his key from him. Get it for me.|SCVR:06DX2shashev|INTV:|SCVR:11600|INTV|SCVR:25IX0key_shashev|INTV:
+  GoldbrandReforged.ESP->|DATA|NAME:You've already killed Shashev, %PCRace? Well done indeed. But I need his key from him. Get it for me.|SCVR:06DX2shashev|INTV:|SCVR:25IX0key_shashev|INTV:
+
+[MOD-INF]: ID=9240273352055117689(Greeting:greeting 2)
+  morrowind.esm--------->|DATA|NAME:Though I find your kind abhorrent, you can serve a purpose for me. I wish to have someone killed.|SCVR:01600|INTV|SCVR:14JX0VA_Shashev|INTV:
+  GoldbrandReforged.ESP->|DATA|NAME:Hold, %PCRace. Would you lend me your katana for a moment?|SCVR:05IX0katana_goldbrand_unique|INTV|SCVR:14JX0DQ_Elton|INTV:|BNAM:Choice, "My katana?" 1, "Sure." 2, "No." 3
+
+[MOD-INF]: ID=22382137861203922950(Topic:someone killed)
+  morrowind.esm--------->|DATA|NAME:You've already killed Shashev, Dark One? Well done indeed. And it is good you brought me the key as well. If you are still looking for something to do, I require some vampire dust for a spell I'm researching.|SCVR:06DX2shashev|INTV:|SCVR:11600|INTV|SCVR:25IX0key_shashev|INTV|BNAM:Journal "VA_Shashev" 100  Player->RemoveItem "key_shashev" 1  AddItem "key_shashev" 1
+  GoldbrandReforged.ESP->|DATA|NAME:You've already killed Shashev, %PCRace? Well done indeed. And it is good you brought me the key as well. [Sirilonwe twists the key's handle off, revealing a hollowed compartment within containing a note.] Always the predictible one, Shashev. Let's see here...  according to this, there is a way to reforge Goldbrand.|SCVR:06DX2shashev|INTV:|SCVR:25IX0key_shashev|INTV|BNAM:Journal "DQ_Elton" 30  Player->RemoveItem "key_shashev" 1  AddItem "key_shashev" 1

@@ -1,0 +1,71 @@
+Adanumuran Reclaimed.esp: DUP-INF DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(ST_PracDummy_Scr)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(aa_backpack_full_script)
+	SCPT(aa_backpack_script)
+	SCPT(aa_th_Auger)
+	SCPT(aa_th_BM_amulets)
+	SCPT(aa_th_BM_books)
+	SCPT(aa_th_BM_cards)
+	SCPT(aa_th_BM_gems)
+	SCPT(aa_th_BM_rings)
+	SCPT(aa_th_DipArrows)
+	SCPT(aa_th_DumpIngredients)
+	SCPT(aa_th_FletchingAlchemyExp)
+	SCPT(aa_th_FletchingArmorerExp)
+	SCPT(aa_th_SkoomaMaker)
+	SCPT(aa_th_UseAuger)
+	SCPT(aa_th_book_raids)
+	SCPT(aa_th_bosskilled)
+	SCPT(aa_th_bosskilled_any)
+	SCPT(aa_th_chest_script)
+	SCPT(aa_th_door_in)
+	SCPT(aa_th_hammer_raids)
+	SCPT(aa_th_helperScript)
+	SCPT(aa_th_ledger_Abu)
+	SCPT(aa_th_ledger_Caldera)
+	SCPT(aa_th_ledger_Dissa)
+	SCPT(aa_th_raiders10)
+	SCPT(aa_th_raiders15)
+	SCPT(aa_th_raiders20)
+	SCPT(aa_th_raiders25)
+	SCPT(aa_th_raiders30)
+	SCPT(aa_th_raiders31)
+	SCPT(aa_th_raiders5)
+	SCPT(aa_th_raids_timer)
+	SCPT(aa_th_stolengoods_script)
+	SCPT(aa_th_target)
+	SCPT(aa_th_teleport)
+	SCPT(gaw_alchemyset)
+	SCPT(gaw_alchemyset_permanent)
+	SCPT(gaw_replace_warning)
+	SCPT(jjs_pplant_firefern1)
+	SCPT(jjs_pplant_firefern2)
+	SCPT(jjs_pplant_rdlichen1)
+	SCPT(jjs_pplant_rdlichen2)
+	SCPT(jjs_pplant_russula1)
+	SCPT(jjs_pplant_russula2)
+	SCPT(jjs_shoot)
+	SCPT(jjs_soil_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       BOOK    bk_calderarecordbook1
+	morrowind.esm       LEVI    random_dwarven_misc
+	morrowind.esm       LIGH    light_tikitorch00
+	morrowind.esm       LIGH    light_tikitorch003
+	morrowind.esm       NPC_    boss crito
+	morrowind.esm       NPC_    dro'zhirr
+	morrowind.esm       WEAP    bonemold arrow
+	tribunal.esm        CONT    stolen_goods
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=16043312532573123088(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You say you've been attacked by assassins? From your description, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart about this matter.|SCVR:02sX0DBAttack|INTV|SCVR:17XX0apelles matius|INTV|SCVR:24JX4TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 30  set DBAttack to -1
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

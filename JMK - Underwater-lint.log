@@ -1,0 +1,64 @@
+JMK - Underwater.esp: AUTOSPL DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	jmkunwasumnbwolf               Necromancer's Bonewolf
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKUnWaBeaconDisplay)
+	SCPT(JMKUnWaBonePReturner)
+	SCPT(JMKUnWaBonePillar1)
+	SCPT(JMKUnWaBonePillar10)
+	SCPT(JMKUnWaBonePillar11)
+	SCPT(JMKUnWaBonePillar2)
+	SCPT(JMKUnWaBonePillar3)
+	SCPT(JMKUnWaBonePillar4)
+	SCPT(JMKUnWaBonePillar5)
+	SCPT(JMKUnWaBonePillar6)
+	SCPT(JMKUnWaBonePillar7)
+	SCPT(JMKUnWaBonePillar8)
+	SCPT(JMKUnWaBonePillar9)
+	SCPT(JMKUnWaBoxDelivery)
+	SCPT(JMKUnWaCalNecroDude)
+	SCPT(JMKUnWaCalderaBiffoGuard)
+	SCPT(JMKUnWaFacilityOutDoor)
+	SCPT(JMKUnWaFolvusSCPT)
+	SCPT(JMKUnWaIntoDoorChk)
+	SCPT(JMKUnWaMCharmDSCPT)
+	SCPT(JMKUnWaMarduk2SCPT)
+	SCPT(JMKUnWaMardukSCPT)
+	SCPT(JMKUnWaMeriStatueSCPT)
+	SCPT(JMKUnWaMeridiaSCPT)
+	SCPT(JMKUnWaNTombDoor)
+	SCPT(JMKUnWaOuttoDoorChk)
+	SCPT(JMKUnWaPortalsSCPT)
+	SCPT(JMKUnWaRedDoorChecker10)
+	SCPT(JMKUnWaRedDoorChecker11)
+	SCPT(JMKUnWaRedDoorChecker2)
+	SCPT(JMKUnWaRedDoorChecker3)
+	SCPT(JMKUnWaRedDoorChecker4)
+	SCPT(JMKUnWaRedDoorChecker5)
+	SCPT(JMKUnWaRedDoorChecker6)
+	SCPT(JMKUnWaRedDoorChecker7)
+	SCPT(JMKUnWaRedDoorChecker8)
+	SCPT(JMKUnWaRedDoorChecker9)
+	SCPT(JMKUnWaRedDoorLast)
+	SCPT(JMKUnWaSkellyFollower)
+	SCPT(JMKUnWaSpikyOuch)
+	SCPT(JMKUnWaTondorioNoteSCPT)
+	SCPT(JMKUnWaTondorioOwnSCPT)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (-2, -4)           0x02
+	Ashlands Region (3, 0)                   0x02
+	Azura's Coast Region (11, -13)           0x02
+	Bitter Coast Region (-1, -15)            0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (11, -14)
+	morrowind.esm       LAND    (12, -14)
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=178746771563025110(Greeting:greeting 5)
+  |DATA|ONAM:zabamund|NAME:Talk, outlander. Speak with respect, and I will listen.|BNAM:;Zabamund
+
+[DUP-INF]: ID=212361274617362418(Greeting:greeting 5)
+  |DATA|ONAM:nibani maesa|NAME:Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. If it had been part of the traditional struggles for tribal leadership, it would not have been dishonorable. But you slew a tribal leader for your own interests, not for the good of the tribe, and the Ashlanders will not accept such a foul murderer as their Nerevarine. It is over. Once again, the Incarnate has failed.|SCVR:04JX3B8_Failed_Nerevarine|INTV|SCVR:14JX3A2_6_Incarnate|INTV:2|BNAM:;Nibani Maesa ;  Goodbye

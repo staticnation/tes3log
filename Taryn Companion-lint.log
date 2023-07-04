@@ -1,0 +1,25 @@
+Taryn Companion.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1269934 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CompanionCombat)
+	SCPT(CompanionCombat2)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tamriel_data.esm    DIAL    fighters guild
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=19137490125553988(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+  Taryn Companion.esp->|DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=1007531851272425485(Greeting:greeting 1)
+  |DATA|CNAM:Guard|FNAM:Temple|ANAM:Mournhold, Plaza Brindisi Dorom|NAME:Fedris Hler must be told of this attack. Get yourself to the Temple and let him know! Go!|SCVR:02sX0MournholdAttack|INTV|SCVR:14JX5TR_MHAttack|INTV:i|SCVR:24JX0TR_Bamz|INTV:|BNAM:Journal TR_MHAttack 105  goodbye
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  Taryn Companion.esp->|DATA|NAME:[You have failed your Oath of Silence)|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=23349198911001418656(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Were you able to help Shunari, %PCName?|SCVR:04JX0MS_CrimsonPlague|INTV:n

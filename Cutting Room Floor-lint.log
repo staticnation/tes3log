@@ -1,0 +1,589 @@
+Cutting Room Floor.esp: AUTOSPL DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID NUMRECS OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	absorb acrobatics              Absorb Acrobatics
+	absorb acrobatics [ranged]     Absorb Acrobatics [Ranged]
+	absorb alchemy                 Absorb Alchemy
+	absorb alchemy [ranged]        Absorb Alchemy [Ranged]
+	absorb alteration              Absorb Alteration
+	absorb alteration [ranged]     Absorb Alteration [Ranged]
+	absorb armorer [ranged]        Absorb Armorer [Ranged]
+	absorb armorer                 Absorb Armorer
+	absorb athletics               Absorb Athletics
+	absorb athletics [ranged]      Absorb Athletics [Ranged]
+	absorb axe                     Absorb Axe
+	absorb axe [ranged]            Absorb Axe [Ranged]
+	absorb block                   Absorb Block
+	absorb block [ranged]          Absorb Block [Ranged]
+	absorb blunt weapons           Absorb Blunt Weapons
+	absorb blunt weapons [ranged]  Absorb Blunt Weapons [Ranged]
+	absorb conjuration             Absorb Conjuration
+	absorb conjuration [ranged]    Absorb Conjuration [Ranged]
+	absorb destruction             Absorb Destruction
+	absorb destruction [ranged]    Absorb Destruction [Ranged]
+	absorb enchant                 Absorb Enchant
+	absorb enchant [ranged]        Absorb Enchant [Ranged]
+	absorb hand-to-hand            Absorb Hand-to-Hand
+	absorb hand-to-hand [ranged]   Absorb Hand-to-Hand [Ranged]
+	absorb heavy armor             Absorb Heavy Armor
+	absorb heavy armor [ranged]    Absorb Heavy Armor [Ranged]
+	absorb illusion                Absorb Illusion
+	absorb illusion [ranged]       Absorb Illusion [Ranged]
+	absorb light armor             Absorb Light Armor
+	absorb light armor [ranged]    Absorb Light Armor [Ranged]
+	absorb long blade              Absorb Long Blade
+	absorb long blade [ranged]     Absorb Long Blade [Ranged]
+	absorb marksman                Absorb Marksman
+	absorb marksman [ranged]       Absorb Marksman [Ranged]
+	absorb medium armor            Absorb Medium Armor
+	absorb medium armor [ranged]   Absorb Medium Armor [Ranged]
+	absorb mercantile              Absorb Mercantile
+	absorb mercantile [ranged]     Absorb Mercantile [Ranged]
+	absorb mysticism               Absorb Mysticism
+	absorb mysticism [ranged]      Absorb Mysticism [Ranged]
+	absorb restoration             Absorb Restoration
+	absorb restoration [ranged]    Absorb Restoration [Ranged]
+	absorb security                Absorb Security
+	absorb security [ranged]       Absorb Security [Ranged]
+	absorb short blade             Absorb Short Blade
+	absorb short blade [ranged]    Absorb Short Blade [Ranged]
+	absorb sneak                   Absorb Sneak
+	absorb sneak [ranged]          Absorb Sneak [Ranged]
+	absorb spear                   Absorb Spear
+	absorb spear [ranged]          Absorb Spear [Ranged]
+	absorb speechcraft             Absorb Speechcraft
+	absorb speechcraft [ranged]    Absorb Speechcraft [Ranged]
+	absorb unarmored               Absorb Unarmored
+	absorb unarmored [ranged]      Absorb Unarmored [Ranged]
+	damage alchemy                 Damage Alchemy
+	damage acrobatics              Damage Acrobatics
+	damage alteration              Damage Alteration
+	damage block                   Damage Block
+	damage armorer                 Damage Armorer
+	damage axe                     Damage Axe
+	damage blunt weapons           Damage Blunt Weapons
+	damage long blade              Damage Long Blade
+	damage conjuration             Damage Conjuration
+	damage destruction             Damage Destruction
+	damage enchant                 Damage Enchant
+	damage hand-to-hand            Damage Hand-to-Hand
+	damage heavy armor             Damage Heavy Armor
+	damage illusion                Damage Illusion
+	damage light armor             Damage Light Armor
+	damage marksman                Damage Marksman
+	damage medium armor            Damage Medium Armor
+	damage mercantile              Damage Mercantile
+	damage mysticism               Damage Mysticism
+	damage restoration             Damage Restoration
+	damage security                Damage Security
+	damage short blade             Damage Short Blade
+	damage sneak                   Damage Sneak
+	damage spear                   Damage Spear
+	damage speechcraft             Damage Speechcraft
+	damage unarmored               Damage Unarmored
+	damage athletics               Damage Athletics
+	resist normal weapons          Resist Normal Weapons
+	weakness to normal weapons     Weakness to Normal Weapons
+	restore acrobatics             Restore Acrobatics
+	restore alchemy                Restore Alchemy
+	restore alteration             Restore Alteration
+	restore armorer                Restore Armorer
+	restore athletics              Restore Athletics
+	restore axe                    Restore Axe
+	restore block                  Restore Block
+	restore blunt weapons          Restore Blunt Weapons
+	restore conjuration            Restore Conjuration
+	restore destruction            Restore Destruction
+	restore enchant                Restore Enchant
+	restore hand-to-hand           Restore Hand-to-Hand
+	restore heavy armor            Restore Heavy Armor
+	restore illusion               Restore Illusion
+	restore light armor            Restore Light Armor
+	restore long blade             Restore Long Blade
+	restore marksman               Restore Marksman
+	restore medium armor           Restore Medium Armor
+	restore mercantile             Restore Mercantile
+	restore mysticism              Restore Mysticism
+	restore restoration            Restore Restoration
+	restore security               Restore Security
+	restore short blade            Restore Short Blade
+	restore sneak                  Restore Sneak
+	restore spear                  Restore Spear
+	restore speechcraft            Restore Speechcraft
+	restore unarmored              Restore Unarmored
+	devourer                       Devourer
+    [NUMRECS]: number of records in TES3.HEDR (799) != Actual count (780)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ColonyHidar)
+	SCPT(Pub_Smora_Gateway)
+	SCPT(Pub_Vivec_Lizard)
+	SCPT(Startup)
+	SCPT(TelBranoraSlaveScript)
+	SCPT(brallionScript)
+	SCPT(diseaseUndead)
+	SCPT(gatewaySlaveScript)
+	SCPT(molagMarSlaveScript)
+	SCPT(suranSlaveScript)
+	SCPT(telaruhnSlaveScript)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    dagoth velos
+	tribunal.esm        ARMO    steel_cuirass
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       APPA    apparatus_j_calcinator_01
+	bloodmoon.esm       ARMO    fur_colovian_helm_red
+	bloodmoon.esm       ARMO    steel_cuirass_ancient
+	bloodmoon.esm       CONT    com_chest_01_hircine
+	bloodmoon.esm       CONT    com_chest_01_hircine2
+	bloodmoon.esm       CONT    com_chest_01_pos
+	bloodmoon.esm       CREA    rat
+	bloodmoon.esm       DIAL    flee
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       DIAL    stalhrim weapons
+	bloodmoon.esm       INGR    ingred_gravetar_01
+	bloodmoon.esm       LEVC    bm_frysehag_all
+	bloodmoon.esm       LEVC    bm_in_icecaves
+	bloodmoon.esm       LEVC    bm_in_icecaves_40
+	bloodmoon.esm       LEVC    bm_in_icecaves_60
+	bloodmoon.esm       LEVC    bm_in_nordburial
+	bloodmoon.esm       LEVI    bm_random_nordhuntweap
+	bloodmoon.esm       LEVI    bm_random_nordsilver
+	bloodmoon.esm       LEVI    bm_randomwpn_smugglers
+	bloodmoon.esm       MGEF    138
+	bloodmoon.esm       MGEF    139
+	bloodmoon.esm       MGEF    140
+	bloodmoon.esm       NPC_    basks_in_the_sun
+	bloodmoon.esm       NPC_    hallvaror
+	bloodmoon.esm       NPC_    rolf long-tooth
+	bloodmoon.esm       NPC_    veresa alver
+	bloodmoon.esm       NPC_    wind_in_his_hair
+	morrowind.esm       APPA    apparatus_a_mortar_01
+	morrowind.esm       ARMO    chitin pauldron - left
+	morrowind.esm       ARMO    chitin pauldron - right
+	morrowind.esm       ARMO    templar_pauldron_left
+	morrowind.esm       ARMO    templar_pauldron_right
+	morrowind.esm       CONT    chest_small_llethri
+	morrowind.esm       CONT    urn_ash00
+	morrowind.esm       CONT    urn_ash_nan00_unique
+	morrowind.esm       CREA    alit_diseased
+	morrowind.esm       CREA    ash_ghoul_fgr
+	morrowind.esm       CREA    bonelord
+	morrowind.esm       CREA    bonewalker
+	morrowind.esm       CREA    bonewalker_greater
+	morrowind.esm       CREA    cliff racer_diseased
+	morrowind.esm       CREA    corprus_lame
+	morrowind.esm       CREA    corprus_stalker
+	morrowind.esm       CREA    dagoth vemyn
+	morrowind.esm       CREA    dreugh
+	morrowind.esm       CREA    guar
+	morrowind.esm       CREA    guar_pack_tarvyn_unique
+	morrowind.esm       CREA    kagouti_diseased
+	morrowind.esm       CREA    netch_betty
+	morrowind.esm       CREA    netch_bull
+	morrowind.esm       CREA    nix-hound
+	morrowind.esm       CREA    shalk_diseased
+	morrowind.esm       CREA    skeleton
+	morrowind.esm       CREA    slaughterfish_small
+	morrowind.esm       CREA    winged twilight_grunda_
+	morrowind.esm       DIAL    anumidium
+	morrowind.esm       DIAL    get me out
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    intruder
+	morrowind.esm       DIAL    master neloth
+	morrowind.esm       DIAL    tarvyn faren
+	morrowind.esm       DIAL    writ
+	morrowind.esm       LEVC    ex_ascadianisles_lev+0
+	morrowind.esm       LEVC    ex_ascadianisles_lev+2
+	morrowind.esm       LEVC    ex_ascadianisles_lev-1
+	morrowind.esm       LEVC    ex_ascadianisles_sleep
+	morrowind.esm       LEVC    ex_azurascoast_lev+0
+	morrowind.esm       LEVC    ex_azurascoast_lev+2
+	morrowind.esm       LEVC    ex_azurascoast_lev-1
+	morrowind.esm       LEVC    ex_azurascoast_sleep
+	morrowind.esm       LEVC    ex_bittercoast_lev+0
+	morrowind.esm       LEVC    ex_bittercoast_lev+2
+	morrowind.esm       LEVC    ex_bittercoast_lev-1
+	morrowind.esm       LEVC    ex_bittercoast_sleep
+	morrowind.esm       LEVC    ex_grazelands_lev+0
+	morrowind.esm       LEVC    ex_grazelands_lev+2
+	morrowind.esm       LEVC    ex_grazelands_lev-1
+	morrowind.esm       LEVC    ex_grazelands_sleep
+	morrowind.esm       LEVC    ex_molagmar_lev+0
+	morrowind.esm       LEVC    ex_molagmar_lev+2
+	morrowind.esm       LEVC    ex_molagmar_lev-1
+	morrowind.esm       LEVC    ex_molagmar_sleep
+	morrowind.esm       LEVC    ex_sheogorad_lev+0
+	morrowind.esm       LEVC    ex_sheogorad_lev+2
+	morrowind.esm       LEVC    ex_sheogorad_lev-1
+	morrowind.esm       LEVC    ex_sheogorad_sleep
+	morrowind.esm       LEVC    ex_westgash_lev+0
+	morrowind.esm       LEVC    ex_westgash_lev+2
+	morrowind.esm       LEVC    ex_westgash_lev-1
+	morrowind.esm       LEVC    ex_westgash_sleep
+	morrowind.esm       LEVC    ex_wild_all_lev+0
+	morrowind.esm       LEVC    ex_wild_all_lev+2
+	morrowind.esm       LEVC    ex_wild_all_lev-1
+	morrowind.esm       LEVC    ex_wild_all_sleep
+	morrowind.esm       LEVC    ex_wild_rat_lev+0
+	morrowind.esm       LEVC    ex_wild_rat_lev+2
+	morrowind.esm       LEVC    ex_wild_rat_lev-2
+	morrowind.esm       LEVC    in_cave_all_lev+0
+	morrowind.esm       LEVC    in_cave_all_lev+2
+	morrowind.esm       LEVC    in_cave_all_lev-1
+	morrowind.esm       LEVC    in_cave_nix_lev+0
+	morrowind.esm       LEVC    in_cave_nix_lev+2
+	morrowind.esm       LEVC    in_cave_nix_lev-1
+	morrowind.esm       LEVC    in_dae_all_lev+0
+	morrowind.esm       LEVC    in_dae_all_lev+2
+	morrowind.esm       LEVC    in_dae_all_lev-2
+	morrowind.esm       LEVC    in_dae_dremora_lev+0
+	morrowind.esm       LEVC    in_dae_dremora_lev+2
+	morrowind.esm       LEVC    in_dae_dremora_lev-2
+	morrowind.esm       LEVI    l_m_armor_gauntlet
+	morrowind.esm       LEVI    l_m_armor_helmet
+	morrowind.esm       LEVI    l_m_armor_shields
+	morrowind.esm       LEVI    l_m_enchantitem_telvanni_rank6
+	morrowind.esm       LEVI    l_m_enchantitem_temple_rank0_1
+	morrowind.esm       LEVI    l_m_enchantitem_temple_rank0_2
+	morrowind.esm       LEVI    l_m_rings
+	morrowind.esm       LEVI    l_n_wpn_melee_spear
+	morrowind.esm       LEVI    l_n_wpn_missle_arrow
+	morrowind.esm       LEVI    l_n_wpn_missle_bolt
+	morrowind.esm       LEVI    l_n_wpn_missle_xbow
+	morrowind.esm       LEVI    random excellent melee weapon
+	morrowind.esm       LEVI    random_com_kitchenware
+	morrowind.esm       LEVI    random_daedric_weapon
+	morrowind.esm       LEVI    random_de_pos_01
+	morrowind.esm       LEVI    random_de_pos_01_nc
+	morrowind.esm       LEVI    random_dwemer_weapon
+	morrowind.esm       LEVI    random_iron_weapon
+	morrowind.esm       LEVI    random_loot_special
+	morrowind.esm       LEVI    random_loot_special_marksman
+	morrowind.esm       LEVI    random_pos
+	morrowind.esm       LEVI    random_weapon_melee_basic
+	morrowind.esm       MGEF    101
+	morrowind.esm       MGEF    102
+	morrowind.esm       MGEF    103
+	morrowind.esm       MGEF    104
+	morrowind.esm       MGEF    105
+	morrowind.esm       MGEF    106
+	morrowind.esm       MGEF    107
+	morrowind.esm       MGEF    108
+	morrowind.esm       MGEF    109
+	morrowind.esm       MGEF    110
+	morrowind.esm       MGEF    111
+	morrowind.esm       MGEF    112
+	morrowind.esm       MGEF    113
+	morrowind.esm       MGEF    114
+	morrowind.esm       MGEF    115
+	morrowind.esm       MGEF    116
+	morrowind.esm       MGEF    118
+	morrowind.esm       MGEF    119
+	morrowind.esm       MGEF    120
+	morrowind.esm       MGEF    121
+	morrowind.esm       MGEF    122
+	morrowind.esm       MGEF    123
+	morrowind.esm       MGEF    124
+	morrowind.esm       MGEF    125
+	morrowind.esm       MGEF    127
+	morrowind.esm       MGEF    128
+	morrowind.esm       MGEF    129
+	morrowind.esm       MGEF    130
+	morrowind.esm       MGEF    131
+	morrowind.esm       MGEF    134
+	morrowind.esm       MGEF    14
+	morrowind.esm       MGEF    27
+	morrowind.esm       MGEF    3
+	morrowind.esm       MGEF    4
+	morrowind.esm       MGEF    5
+	morrowind.esm       MGEF    6
+	morrowind.esm       NPC_    abelle chriditte
+	morrowind.esm       NPC_    aldaril
+	morrowind.esm       NPC_    amarie charien
+	morrowind.esm       NPC_    arethan mandas
+	morrowind.esm       NPC_    aunius autrus
+	morrowind.esm       NPC_    aurane frernis
+	morrowind.esm       NPC_    brallion
+	morrowind.esm       NPC_    chaplain ogrul
+	morrowind.esm       NPC_    cinia urtius
+	morrowind.esm       NPC_    clibergus urgelian
+	morrowind.esm       NPC_    danso indules
+	morrowind.esm       NPC_    delvam andarys
+	morrowind.esm       NPC_    dileno lloran
+	morrowind.esm       NPC_    diren vendu
+	morrowind.esm       NPC_    dranas sarathram
+	morrowind.esm       NPC_    dulian
+	morrowind.esm       NPC_    elynu saren
+	morrowind.esm       NPC_    eraamion
+	morrowind.esm       NPC_    erer darothril
+	morrowind.esm       NPC_    ervona barys
+	morrowind.esm       NPC_    estirdalin
+	morrowind.esm       NPC_    estoril
+	morrowind.esm       NPC_    fanildil
+	morrowind.esm       NPC_    farena arelas
+	morrowind.esm       NPC_    felara andrethi
+	morrowind.esm       NPC_    felen maryon
+	morrowind.esm       NPC_    ferise varo
+	morrowind.esm       NPC_    fevasa saryon
+	morrowind.esm       NPC_    fevyn ralen
+	morrowind.esm       NPC_    folvys andalor
+	morrowind.esm       NPC_    galero andaram
+	morrowind.esm       NPC_    gils drelas
+	morrowind.esm       NPC_    goler andrethi
+	morrowind.esm       NPC_    guls llervu
+	morrowind.esm       NPC_    halof
+	morrowind.esm       NPC_    hecerinde
+	morrowind.esm       NPC_    heem_la
+	morrowind.esm       NPC_    idonea munia
+	morrowind.esm       NPC_    j'rasha
+	morrowind.esm       NPC_    j'zhirr
+	morrowind.esm       NPC_    lalatia varian
+	morrowind.esm       NPC_    llarara omayn
+	morrowind.esm       NPC_    llorayna sethan
+	morrowind.esm       NPC_    lloros sarano
+	morrowind.esm       NPC_    manara othan
+	morrowind.esm       NPC_    marayn dren
+	morrowind.esm       NPC_    merta
+	morrowind.esm       NPC_    mertisi andavel
+	morrowind.esm       NPC_    mogak gra-ugruma
+	morrowind.esm       NPC_    nalion
+	morrowind.esm       NPC_    nebia amphia
+	morrowind.esm       NPC_    neloth
+	morrowind.esm       NPC_    nilvyn drothan
+	morrowind.esm       NPC_    niras farys
+	morrowind.esm       NPC_    orrent geontene
+	morrowind.esm       NPC_    pellecia aurrus
+	morrowind.esm       NPC_    relms gilvilo
+	morrowind.esm       NPC_    rilvase avani
+	morrowind.esm       NPC_    rirnas athren
+	morrowind.esm       NPC_    salen ravel
+	morrowind.esm       NPC_    salver lleran
+	morrowind.esm       NPC_    saras orelu
+	morrowind.esm       NPC_    savile imayn
+	morrowind.esm       NPC_    scelian plebo
+	morrowind.esm       NPC_    sedris omalen
+	morrowind.esm       NPC_    sharn gra-muzgob
+	morrowind.esm       NPC_    sinyaramen
+	morrowind.esm       NPC_    solea nuccusius
+	morrowind.esm       NPC_    somutis vunnis
+	morrowind.esm       NPC_    sonummu zabamat
+	morrowind.esm       NPC_    synnolian tunifus
+	morrowind.esm       NPC_    teegla
+	morrowind.esm       NPC_    telis salvani
+	morrowind.esm       NPC_    therana
+	morrowind.esm       NPC_    thervul serethi
+	morrowind.esm       NPC_    tsiya
+	morrowind.esm       NPC_    tunila omavel
+	morrowind.esm       NPC_    ulmiso maloren
+	morrowind.esm       NPC_    urtiso faryon
+	morrowind.esm       NPC_    urzoth gra-bargamph
+	morrowind.esm       NPC_    uvele berendas
+	morrowind.esm       NPC_    vaval selas
+	morrowind.esm       NPC_    yakov
+	morrowind.esm       NPC_    ygfa
+	morrowind.esm       NPC_    zabarbael
+	morrowind.esm       NPC_    zanmulk sammalamus
+	morrowind.esm       RACE    breton
+	morrowind.esm       RACE    dark elf
+	morrowind.esm       SOUN    flag
+	morrowind.esm       WEAP    iron tanto
+	morrowind.esm       WEAP    steel throwing knife
+	morrowind.esm       WEAP    sunder_fake
+	morrowind.esm       WEAP    throwing knife of sureflight
+	tribunal.esm        CONT    dwrv_chest_bam
+	tribunal.esm        CREA    rat_diseased
+	tribunal.esm        CREA    slaughterfish
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    mt_writneloth
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        LEVC    in_goblins
+	tribunal.esm        MGEF    137
+	tribunal.esm        MISC    misc_potion_cheap_01
+	tribunal.esm        NPC_    black dart adren
+	tribunal.esm        NPC_    black dart gilur
+	tribunal.esm        NPC_    black dart malar
+	tribunal.esm        NPC_    black dart urvyn
+	tribunal.esm        NPC_    mehra drora
+	tribunal.esm        NPC_    myn farr
+
+[MOD-INF]: ID=4324141266358109(Topic:anumidium)
+  morrowind.esm---------->|DATA|ONAM:general darius|NAME:I am glad you are still loyal. We will need %PCRaces like you for the troubles ahead. In exchange for these plans, I offer you [REWARD].|SCVR:01500|INTV|BNAM:Journal IL_Blueprints 100  ;make a reward noise here  ModPCFacRep 15 "Imperial Legion"  ModDisposition 25
+  Cutting Room Floor.esp->|DATA|ONAM:general darius|NAME:I am glad you are still loyal. We will need %PCRaces like you for the troubles ahead.|SCVR:01500|INTV|BNAM:Journal IL_Blueprints 100  Player->AddItem"Gold_001" 500  Player->RemoveItem"misc_dwrv_artifact30" 1  ModPCFacRep 15 "Imperial Legion"  ModDisposition 25
+
+[MOD-INF]: ID=7242622142754312(Topic:go free)
+  morrowind.esm---------->|DATA|CNAM:Slave|ANAM:Tel Branora|NAME:No. There is no escape.
+  Cutting Room Floor.esp->|DATA|CNAM:Slave|ANAM:Tel Branora|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_telbranoraslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[MOD-INF]: ID=12455309123142642(Voice:flee)
+  bloodmoon.esm---------->|DATA|RNAM:Argonian|SNAM:vo\k\m\bFle_KM003.mp3|NAME|SCVR:02sX5Random100|INTV:K|SCVR:11650|INTV|BNAM:;annoyed
+  Cutting Room Floor.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\bFle_KM003.mp3|NAME|SCVR:02sX5Random100|INTV:K|SCVR:11650|INTV|BNAM:;annoyed
+
+[MOD-INF]: ID=17092177858528611(Voice:hello)
+  morrowind.esm---------->|DATA|RNAM:High Elf|CNAM:Trader Service|SNAM:Vo\h\m\Srv_HM020.mp3|NAME:I offer the best values in town.|BNAM:;Random100>=80 Trader Service
+  Cutting Room Floor.esp->|DATA|RNAM:High Elf|CNAM:Trader Service|SNAM:Vo\h\m\Srv_HM020.mp3|NAME:I offer the best values in town.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80 Trader Service
+
+[MOD-INF]: ID=34807678397810688(Topic:tarvyn faren)
+  morrowind.esm---------->|DATA|ONAM:edryno arethi|NAME:I'm glad Tarvyn Faren arrived safely. Take these 500 drakes for helping House Hlaalu's business.|SCVR:34JX3HH_EscortMerchant|INTV:F|BNAM:Journal HH_EscortMerchant 100  ModPCFacRep 5 "Hlaalu"  ModDisposition 10  Player->AddItem Gold_001 500  "Tarvyn Faren"->Disable
+  Cutting Room Floor.esp->|DATA|ONAM:edryno arethi|NAME:I'm glad Tarvyn Faren arrived safely. Take these 500 drakes for helping House Hlaalu's business.|SCVR:34JX3HH_EscortMerchant|INTV:F|BNAM:Journal HH_EscortMerchant 100  ModPCFacRep 5 "Hlaalu"  ModDisposition 10  Player->AddItem Gold_001 500  "Tarvyn Faren"->Disable  "guar_pack_tarvyn_unique"->Disable
+
+[MOD-INF]: ID=52529232386222232(Voice:attack)
+  bloodmoon.esm---------->|DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM003.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Cutting Room Floor.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\bAtk_KM003.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=117191885045914425(Topic:orders)
+  |DATA|ONAM:imsin the dreamer|NAME:I have no more orders for you. Check with the Knight Protectors in the other Legion forts.|SCVR:34JX3IL_MaidenToken|INTV:d
+
+[MOD-INF]: ID=121111175044661847(Topic:orders)
+  morrowind.esm---------->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:The Emperor Uriel Septim VII wants the plans for the Anumidium.|SCVR:04JX3IL_Blueprints|INTV|BNAM:;the journal entry here is set so that you never get this quest. It has been commented out for now.
+  Cutting Room Floor.esp->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:The Emperor Uriel Septim VII wants the plans for the Anumidium.|SCVR:04JX3IL_TalosTreason|INTV:d|BNAM:Journal "IL_Blueprints" 10
+
+[MOD-INF]: ID=152723220189968765(Topic:writ)
+  morrowind.esm---------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Due to the troubles in Vvardenfell recently, the Houses have negotiated several Writs. I have Writs for General Larrius Varro, Baladas Demnevanni, Dram Bero, and Mistress Therana if you want to take any of these yourself, %PCRank.|SCVR:24JX3C3_DestroyDagoth|INTV:2|SCVR:34JX3MT_WritNavil|INTV:d|SCVR:44JX3MT_WritBemis|INTV:d|SCVR:54JX3MT_WritBrilnosu|INTV:d
+  Cutting Room Floor.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Due to the troubles in Vvardenfell recently, the Houses have negotiated several Writs. I have Writs for General Larrius Varro, Baladas Demnevanni, Dram Bero, Mistress Therana, and Master Neloth if you want to take any of these yourself, %PCRank.|SCVR:24JX3C3_DestroyDagoth|INTV:2|SCVR:34JX3MT_WritNavil|INTV:d|SCVR:44JX3MT_WritBemis|INTV:d|SCVR:54JX3MT_WritBrilnosu|INTV:d
+
+[MOD-INF]: ID=238049935512512890(Greeting:greeting 5)
+  morrowind.esm---------->|DATA|ONAM:general darius|NAME:What do you need?|SCVR:04JX3IL_TalosTreason|INTV:d
+  Cutting Room Floor.esp->|DATA|ONAM:general darius|NAME:What do you need?|SCVR:04JX3IL_Blueprints|INTV:d
+
+[MOD-INF]: ID=238049935512512890(Greeting:greeting 5)
+  morrowind.esm---------->|DATA|ONAM:general darius|NAME:What do you need?|SCVR:04JX3IL_TalosTreason|INTV:d
+  Cutting Room Floor.esp->|DATA|ONAM:general darius|NAME:What do you need?|SCVR:04JX3IL_Blueprints|INTV:d
+[MOD-IID]: ID=26680144853039516338
+  Cutting Room Floor.esp->What do you need?
+
+[DUP-INF]: ID=286961629738253393(Topic:get me out)
+  |DATA|ANAM:Pelagiad, South Wall|NAME:You have the key. Will you free me, %PCName?|SCVR:05IX2key_standard_01_pel_fort_prison|INTV:|SCVR:13sX0prisonerFreed|INTV:|BNAM:Choice "Yes, I will free you." 1 "No, rot here in jail." 2
+
+[MOD-INF]: ID=291262664364422772(Voice:attack)
+  bloodmoon.esm---------->|DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Cutting Room Floor.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\bAtk_KM002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=344923501556916651(Topic:go free)
+  morrowind.esm---------->|DATA|CNAM|NAME:No, there is no escape.|SCVR:05IX3key_telaruhnslaves_01|INTV
+  Cutting Room Floor.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_telaruhnslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[MOD-INF]: ID=624284792753415499(Topic:go free)
+  morrowind.esm---------->|DATA|CNAM:Slave|ANAM:Suran, Suran Slave Market|NAME:No. There is no escape.
+  Cutting Room Floor.esp->|DATA|CNAM:Slave|ANAM:Suran, Suran Slave Market|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_suranslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[MOD-INF]: ID=842118503261137214(Journal:mt_writneloth)
+  tribunal.esm----------->|DATA|NAME:I executed the Writ on Master Neloth.|QSTF
+  Cutting Room Floor.esp->|DATA|NAME:I executed the Writ on Master Neloth.|QSTF
+
+[MOD-INF]: ID=900847722160227203(Topic:stalhrim weapons)
+  bloodmoon.esm---------->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Nevermind" 5
+  Cutting Room Floor.esp->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Stalhrim Spear" 5 "Stalhrim Shortsword" 6 "Nevermind" 7
+
+[MOD-INF]: ID=933224441298505104(Voice:flee)
+  bloodmoon.esm---------->|DATA|RNAM:Argonian|SNAM:vo\k\m\bFle_KM004.mp3|NAME|SCVR:01650|INTV|BNAM:;scared
+  Cutting Room Floor.esp->|DATA|RNAM:Argonian|SNAM:Vo\a\m\bFle_AM004.mp3|NAME|SCVR:01650|INTV|BNAM:;scared
+
+[MOD-INF]: ID=1052431962138491563(Topic:stalhrim weapons)
+  bloodmoon.esm---------->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Nevermind" 6
+  Cutting Room Floor.esp->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Stalhrim Spear" 6 "Stalhrim Shortsword" 7 "Nevermind" 8
+
+[MOD-INF]: ID=1163158491452716831(Voice:flee)
+  bloodmoon.esm---------->|DATA|RNAM:Argonian|SNAM:vo\k\m\bFle_KM002.mp3|NAME:Get away, beast!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;scared
+  Cutting Room Floor.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\bFle_KM002.mp3|NAME:Get away, beast!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;scared
+
+[MOD-INF]: ID=1231118170262285245(Voice:hello)
+  morrowind.esm---------->|DATA|RNAM:High Elf|CNAM:Healer Service|SNAM:Vo\h\m\Srv_HM014.mp3|NAME:Everything is priced to go!|BNAM:;Random100>=80 Healer
+  Cutting Room Floor.esp->|DATA|RNAM:High Elf|CNAM:Healer Service|SNAM:Vo\h\m\Srv_HM014.mp3|NAME:Everything is priced to go!|SCVR:02sX0Random100|INTV:P|BNAM:;Random100>=80 Healer
+
+[DUP-INF]: ID=1577061643167831582(Topic:get me out)
+  |DATA|NAME:You'll need the key to free me of my bonds.|SCVR:03sX0prisonerFreed|INTV:
+
+[MOD-INF]: ID=1589666621815410347(Voice:flee)
+  bloodmoon.esm---------->|DATA|RNAM:Argonian|SNAM:vo\k\m\bFle_KM001.mp3|NAME:Help! A beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;scared
+  Cutting Room Floor.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\bFle_KM001.mp3|NAME:Help! A beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;scared
+
+[MOD-INF]: ID=1668115217884521023(Topic:orders)
+  morrowind.esm---------->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:What can I do for a %PCRank? I am at your service.
+  Cutting Room Floor.esp->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:I don't have any more orders for you. Check with the Knight Protectors in each of the Forts, and, when you're ready, check with the Knight of the Imperial Dragon, Varus Vatinius in Ebonheart.|SCVR:04JX3IL_Blueprints|INTV:d
+
+[MOD-INF]: ID=1678614083236592942(Topic:orders)
+  morrowind.esm---------->|DATA|ONAM:general darius|NAME:You need further advancement. Talk to me again when you've earned the rank of Champion.|SCVR:04JX3IL_RescueRagash|INTV:d|BNAM:;should never get this, took out rank requirement for talos quest, todd 1/15/02
+  Cutting Room Floor.esp->|DATA|ONAM:general darius|NAME:You need further advancement. Talk to me again when you've earned the rank of Champion.|SCVR:04JX3IL_TalosTreason|INTV:d
+
+[MOD-INF]: ID=1785517126180158140(Topic:orders)
+  morrowind.esm---------->|DATA|ONAM:imsin the dreamer|NAME:I need you to bring me a maiden's token.|SCVR:34JX3IL_RescueKnight|INTV:d
+  Cutting Room Floor.esp->|DATA|ONAM:imsin the dreamer|NAME:I need you to find and kill Tonasi Belas.|SCVR:34JX3IL_RescueKnight|INTV:d
+
+[MOD-INF]: ID=2063323517166171236(Voice:attack)
+  bloodmoon.esm---------->|DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Cutting Room Floor.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\bAtk_KM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=2235920545589115316(Topic:master neloth)
+  |DATA|ONAM:aryon|NAME:He lives in Tel Naga, the tower in Sadrith Mora. He has a short temper, but he will listen to reason if you are persuasive enough. Do not expect him to be polite.|SCVR:06DX0neloth|INTV:
+
+[MOD-INF]: ID=2411283323124512985(Topic:go free)
+  morrowind.esm---------->|DATA|CNAM:Slave|ANAM:Sadrith Mora, Gateway Inn|NAME:No. There is no hope for us.
+  Cutting Room Floor.esp->|DATA|ONAM:s'rava|CNAM:Slave|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_GatewayInnslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[MOD-INF]: ID=2590123069223445779(Topic:go free)
+  morrowind.esm---------->|DATA|CNAM|NAME:No. There is no hope for us.
+  Cutting Room Floor.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_molagmarslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[MOD-INF]: ID=2710919751280131411(Voice:attack)
+  bloodmoon.esm---------->|DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM004.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, full of confidence
+  Cutting Room Floor.esp->|DATA|RNAM:Argonian|SNAM:Vo\a\m\bAtk_AM006.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=2814230862190327362(Voice:hello)
+  morrowind.esm---------->|DATA|RNAM:High Elf|CNAM:Clothier|SNAM:Vo\h\m\Srv_HM013.mp3|NAME:Interested in purchasing anything?|BNAM:;Random100>=80 Clothier; todd - wav = "It is certainly good to see you, outlander.'
+  Cutting Room Floor.esp->|DATA|RNAM:High Elf|CNAM:Clothier|SNAM:Vo\h\m\Srv_HM013.mp3|NAME:Interested in purchasing anything?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80 Clothier; todd - wav = "It is certainly good to see you, outlander.'
+
+[MOD-INF]: ID=2875515088485913682(Voice:hello)
+  morrowind.esm---------->|DATA|RNAM:High Elf|CNAM:Apothecary Service|SNAM:Vo\h\m\Srv_HM005.mp3|NAME:My prices are the best.|BNAM:;Random100>=80 Apothecary service
+  Cutting Room Floor.esp->|DATA|RNAM:High Elf|CNAM:Apothecary Service|SNAM:Vo\h\m\Srv_HM005.mp3|NAME:My prices are the best.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80 Apothecary service
+
+[MOD-INF]: ID=3244112941826315712(Voice:hello)
+  morrowind.esm---------->|DATA|RNAM:High Elf|CNAM:Battlemage Service|SNAM:Vo\h\m\Srv_HM008.mp3|NAME:I have the finest spells in town.|BNAM:;Random100>=80 Battlemage Service
+  Cutting Room Floor.esp->|DATA|RNAM:High Elf|CNAM:Battlemage Service|SNAM:Vo\h\m\Srv_HM008.mp3|NAME:I have the finest spells in town.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80 Battlemage Service
+
+[MOD-INF]: ID=3617247152366524760(Topic:orders)
+  morrowind.esm---------->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:We've been hired to find the Pudai Egg Mine.|SCVR:34JX3FG_EngaerBounty|INTV:d
+  Cutting Room Floor.esp->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:There is a contract to kill Dagoth Velos in Sanit.|SCVR:34JX3FG_EngaerBounty|INTV:d
+
+[MOD-INF]: ID=5350253781749717292(Topic:stalhrim weapons)
+  bloodmoon.esm---------->|DATA|ONAM:hidar|NAME:I'll be here if you change your mind.|SCVR:01500|INTV
+  Cutting Room Floor.esp->|DATA|ONAM:hidar|NAME:I'll be here if you change your mind.|SCVR:01500|INTV
+
+[MOD-INF]: ID=5371200022006114700(Topic:specific place)
+  morrowind.esm---------->|DATA|ANAM:Suran|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Suran
+  Cutting Room Floor.esp->|DATA|ANAM:Suran|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Suran
+
+[MOD-INF]: ID=6876249721214614834(Topic:tarvyn faren)
+  morrowind.esm---------->|DATA|ONAM:edryno arethi|NAME:Meet Tarvyn Faren on the road to Pelagiad, near the Silt Strider just north of the bridge to the Foreign Quarter. Escort him safely to Pelagiad.|SCVR:34JX3HH_BuriedTreasure|INTV:d|BNAM:Journal HH_EscortMerchant 10  "Tarvyn Faren"->Enable
+  Cutting Room Floor.esp->|DATA|ONAM:edryno arethi|NAME:Meet Tarvyn Faren on the road to Pelagiad, near the Silt Strider just north of the bridge to the Foreign Quarter. Escort him safely to Pelagiad.|SCVR:34JX3HH_BuriedTreasure|INTV:d|BNAM:Journal HH_EscortMerchant 10  "Tarvyn Faren"->Enable  "guar_pack_tarvyn_unique"->Enable
+
+[MOD-INF]: ID=8459248671574214855(Voice:hello)
+  morrowind.esm---------->|DATA|RNAM:High Elf|CNAM:Alchemist Service|SNAM:Vo\h\m\Srv_HM002.mp3|NAME:The finest potions and elixirs in town are right here.|BNAM:;Random100>=80;Alchemist service
+  Cutting Room Floor.esp->|DATA|RNAM:High Elf|CNAM:Alchemist Service|SNAM:Vo\h\m\Srv_HM002.mp3|NAME:The finest potions and elixirs in town are right here.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80;Alchemist service
+
+[MOD-INF]: ID=10582149753081915133(Voice:hello)
+  morrowind.esm---------->|DATA|RNAM:High Elf|CNAM:Nightblade Service|SNAM:Vo\h\m\Srv_HM017.mp3|NAME:I'm sure we can work out a fair price.|BNAM:;Random100>=80 Nightblade Service
+  Cutting Room Floor.esp->|DATA|RNAM:High Elf|CNAM:Nightblade Service|SNAM:Vo\h\m\Srv_HM017.mp3|NAME:I'm sure we can work out a fair price.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80 Nightblade Service
+
+[DUP-INF]: ID=12348153153023411292(Journal:mt_writneloth)
+  |DATA|NAME:I have been given a Writ for the honorable execution of Master Neloth. He may be found in the Tower of Tel Naga in Sadrith Mora.
+
+[MOD-INF]: ID=19651266562534313346(:orders)
+  morrowind.esm---------->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:I don't have any more orders for you. Check with the Knight Protectors in each of the Forts, and, when you're ready, check with the Knight of the Imperial Dragon, Varus Vatinius in Ebonheart.|SCVR:04JX3IL_TalosTreason|INTV:d
+  Cutting Room Floor.esp->|NAME:I don't have any more orders for you. Check with the Knight Protectors in each of the Forts, and, when you're ready, check with the Knight of the Imperial Dragon, Varus Vatinius in Ebonheart.|DELE:
+
+[MOD-INF]: ID=19690135432027614893(Topic:go free)
+  morrowind.esm---------->|DATA|CNAM:Slave|ANAM:Sadrith Mora|NAME:No. There is no hope for us.
+  Cutting Room Floor.esp->|DATA|CNAM:Slave|ANAM:Vivec, The Lizard's Head|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_viveclizardheadslave_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=25470175241169431036(Greeting:greeting 5)
+  |DATA|ONAM:aryon|DNAM:Telvanni|NAME:What brings the Archmagister here?
+
+[DUP-INF]: ID=27866315111250418194(Journal:mt_writneloth)
+  |DATA|NAME:Morag Tong: Writ for Master Neloth|QSTN
+
+[DUP-INF]: ID=31467123421945922957(Greeting:greeting 5)
+  |DATA|ONAM:imsin the dreamer|NAME:What is the situation with Drinar Varyon?|SCVR:04JX2IL_Smuggler|INTV:|SCVR:14JX4IL_Smuggler|INTV:d

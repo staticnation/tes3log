@@ -1,0 +1,57 @@
+Recovery of the Nomads.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ek_DeadKammu)
+	SCPT(ek_duta_sc)
+	SCPT(ek_kammu)
+	SCPT(ek_kwamaQueenSinamusa)
+	SCPT(ek_pearlmarker_sc)
+	SCPT(ek_sanitdag_sc)
+	SCPT(ek_sanniclear_sc)
+	SCPT(ek_sannidoor_sc)
+	SCPT(ek_sannitelv)
+	SCPT(ek_sen)
+	SCPT(ek_yen_sc)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    kwama queen_sinamusa
+	morrowind.esm       DIAL    get me out
+	morrowind.esm       NPC_    bravosi henim
+	morrowind.esm       NPC_    dutadalk
+	morrowind.esm       NPC_    kammu
+	morrowind.esm       NPC_    merard geves
+	morrowind.esm       NPC_    relie jeannie
+	morrowind.esm       NPC_    rianciene aurilie
+	morrowind.esm       NPC_    sen
+	morrowind.esm       NPC_    yenammu
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=115367971188439383(Greeting:greeting 5)
+  |DATA|ONAM:yenammu|NAME:If you have come to steal, we have nothing, outlander. If you have come to fight, then kill us, and be done with it.|BNAM:;Yenammu
+
+[MOD-INF]: ID=165941115545818798(Greeting:greeting 5)
+  morrowind.esm-------------->|DATA|ONAM:yenammu|NAME:Thank you, %PCName. You have made a safe place for the Ahemmusa. You have our gratitude, and our support.|SCVR:04JX3B2_AhemmusaSafe|INTV|BNAM:;Yenammu; Journal "A2-6_Incarnate" >= 50
+  Recovery of the Nomads.esp->|DATA|ONAM:yenammu|NAME:Thank you, %PCName. You have made a safe place for the Ahemmusa. You have our gratitude, and our support.|SCVR:04JX0B2_AhemmusaSafe|INTV:2|BNAM:;Yenammu; Journal "A2-6_Incarnate" >= 50
+
+[DUP-INF]: ID=269403021924703206(Greeting:greeting 5)
+  |DATA|ONAM:kurapli|NAME:Welcome, outlander. I have a few humble items to offer for sale. Or, perhaps, there is something you wish to discuss?
+
+[DUP-INF]: ID=990311851282486634(Topic:get me out)
+  |DATA|ONAM:new_shoes bragor|NAME:They said they'd kill me if I escaped from prison again.|SCVR:34JX4TG_BrotherBragor|INTV:2
+
+[MOD-INF]: ID=1484424243130328434(Greeting:greeting 5)
+  morrowind.esm-------------->|DATA|ONAM:dutadalk|NAME:Thank you, %PCName. You have made a safe place for the Ahemmusa. You have my thanks, and my support.|SCVR:04JX3B2_AhemmusaSafe|INTV|BNAM:; Dutadalk; Journal "A2-6_Incarnate" >= 50  modDisposition 20
+  Recovery of the Nomads.esp->|DATA|ONAM:dutadalk|NAME:Thank you, %PCName. You have made a safe place for the Ahemmusa. You have my thanks, and my support.|SCVR:04JX0B2_AhemmusaSafe|INTV:2|BNAM:; Dutadalk; Journal "A2-6_Incarnate" >= 50  modDisposition 20
+
+[MOD-INF]: ID=1636110886913210662(Greeting:greeting 5)
+  morrowind.esm-------------->|DATA|ONAM:dutadalk|NAME:Thank you, %PCName. You have made a safe place for the Ahemmusa. You have my thanks, and my support.|SCVR:04JX3B2_AhemmusaSafe|INTV|BNAM:; Dutadalk; Journal "A2-6_Incarnate" >= 50
+  Recovery of the Nomads.esp->|DATA|ONAM:dutadalk|NAME:Thank you, %PCName. You have made a safe place for the Ahemmusa. You have my thanks, and my support.|SCVR:04JX0B2_AhemmusaSafe|INTV:2|BNAM:; Dutadalk; Journal "A2-6_Incarnate" >= 50
+
+[MOD-INF]: ID=2431021911282905739(Greeting:greeting 5)
+  morrowind.esm-------------->|DATA|ONAM:yenammu|NAME:Thank you, %PCName. You have made a safe place for the Ahemmusa. You have our gratitude, and our support.|SCVR:04JX3B2_AhemmusaSafe|INTV|BNAM:;Yenammu; Journal "A2-6_Incarnate" >= 50  modDisposition 20
+  Recovery of the Nomads.esp->|DATA|ONAM:yenammu|NAME:Thank you, %PCName. You have made a safe place for the Ahemmusa. You have our gratitude, and our support.|SCVR:04JX0B2_AhemmusaSafe|INTV:2|BNAM:;Yenammu; Journal "A2-6_Incarnate" >= 50  modDisposition 20
+
+[DUP-INF]: ID=3097030880247557858(Greeting:greeting 5)
+  |DATA|ONAM:sinnammu mirpal|NAME:The Ahemmusa owe you great thanks, Nerevarine, and wish you well.|SCVR:04JX3B2_AhemmusaSafe|INTV:2|BNAM:; Sinnammu Mirpal; Journal "B2_AhemmusaSafe" >= 50;
+
+[DUP-INF]: ID=7200313642581020266(Greeting:greeting 5)
+  |DATA|ONAM|BNAM:; Falura Llervu

@@ -1,0 +1,620 @@
+Beautiful cities of MorrowindVMEdit.ESP: DUP-INF DUP-REC FOGBUG GETSND JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1103268 (plugin)    1567893 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Gnisis, Dinadad Hut
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(LLCS_bard_lute)
+	SCPT(LLCS_drummer_s)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AB_TelRootRetracting_s1)
+	SCPT(AST_rentArille)
+	SCPT(CliffDoor_Oneway)
+	SCPT(Dunmer_Music)
+	SCPT(LLCS_FG_bosmersaved_s)
+	SCPT(LLCS_FG_enable_s)
+	SCPT(LLCS_FG_neria_script)
+	SCPT(LLCS_FG_slavesaved_s)
+	SCPT(LLCS_bard_lute)
+	SCPT(LLCS_berwen_script)
+	SCPT(LLCS_cultist_forcegreet_s)
+	SCPT(LLCS_cup_script)
+	SCPT(LLCS_duneon_door_s)
+	SCPT(LLCS_gamer_script)
+	SCPT(LLCS_sload_forcegreet_s)
+	SCPT(LLCS_sload_report_s)
+	SCPT(LLCS_test_vidi)
+	SCPT(LLCS_underground_roots_s)
+	SCPT(MS_L_DoorOpen)
+	SCPT(MoveMehra)
+	SCPT(Pub_Suran_Ales)
+	SCPT(RPNR_boiling_s)
+	SCPT(RP_fake_script_ashfall_s)
+	SCPT(TG_LootMG)
+	SCPT(TG_LootMG2)
+	SCPT(_l2t_EdwinnaBookNchuleft)
+	SCPT(_l2t_EdwinnaPlans10)
+	SCPT(_l2t_EdwinnaPlans20)
+	SCPT(_l2t_EdwinnaTube)
+	SCPT(cr_vabdasscript)
+	SCPT(l2tDoor1)
+	SCPT(l2tDoor2)
+	SCPT(luce_cmg_rent)
+	SCPT(luce_esep_Dunmer_Chat)
+	SCPT(luce_msm_galarScript)
+	SCPT(luce_msm_relaraScript)
+	SCPT(luce_msm_setkhajiitfree)
+	SCPT(luce_rco_othanlampscript)
+	SCPT(rp_CharGenEnable)
+	SCPT(rp_CharGenUnlock)
+	SCPT(rp_SM_ladder01_script)
+	SCPT(rp_caldera_ladder01_s)
+	SCPT(rp_caldera_ladder02_s)
+	SCPT(rp_sn_ladder01_script)
+	SCPT(savileSlaveTrader)
+	SCPT(vivecArenaScript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (3, -8)            0x02
+	Ashlands Region (0, 0)                   0x02
+	Molag Mar Region (14, -2)                0x02
+	West Gash Region (-13, 10)               0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    ac_darkgravel
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    rm_grayrock
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       NPC_    arrille
+	morrowind.esm       NPC_    erla
+	oaab_data.esm       STAT    ab_ex_dedocksnethang
+	oaab_data.esm       STAT    ab_ex_deshackladder
+	oaab_data.esm       STAT    ab_furn_deplnrug00
+	oaab_data.esm       STAT    ab_furn_deplnrug06
+	oaab_data.esm       STAT    ab_furn_deplnrug07
+	oaab_data.esm       STAT    ab_furn_ropewashhalf01
+	oaab_data.esm       STAT    ab_furn_ropewashsusp01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    m'nashi
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       LTEX    rm_rock_03
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    wg_road
+	bloodmoon.esm       MISC    misc_com_bucket_01
+	bloodmoon.esm       MISC    misc_com_bucket_metal
+	morrowind.esm       ACTI    ac_maar_gan_magic_rock
+	morrowind.esm       ACTI    ac_shrine_assarnibibi
+	morrowind.esm       ACTI    active_velothi_altar_mephala
+	morrowind.esm       ACTI    ex_gg_portcullis_01
+	morrowind.esm       ACTI    ex_gg_portcullis_02
+	morrowind.esm       ACTI    ex_holamayan_cover_01
+	morrowind.esm       ACTI    furn_banner_hlaalu_vivec
+	morrowind.esm       ACTI    furn_banner_tavern_elven
+	morrowind.esm       ACTI    furn_banner_tavern_noname
+	morrowind.esm       ACTI    furn_bannerd_alchemy_hlaalu
+	morrowind.esm       ACTI    furn_bannerd_goods_hlaalu
+	morrowind.esm       ACTI    furn_bannerd_wa_shop_hlaalu
+	morrowind.esm       ACTI    furn_de_banner_pawn_hlaalu
+	morrowind.esm       BOOK    bk_guide_to_vivec
+	morrowind.esm       CONT    crate_01_eggs10
+	morrowind.esm       CONT    de_p_desk_01_bildren
+	morrowind.esm       DIAL    abolitionists
+	morrowind.esm       DIAL    ciralinde
+	morrowind.esm       DIAL    davina
+	morrowind.esm       DIAL    destination
+	morrowind.esm       DIAL    garisa llethri
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    gothren
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    household slaves
+	morrowind.esm       DIAL    jadier mannick
+	morrowind.esm       DIAL    join us
+	morrowind.esm       DIAL    manilian scerius
+	morrowind.esm       DIAL    menelras
+	morrowind.esm       DIAL    outlander
+	morrowind.esm       DIAL    patron
+	morrowind.esm       DIAL    plan
+	morrowind.esm       DIAL    s'bakha
+	morrowind.esm       DIAL    slander
+	morrowind.esm       DIAL    sload soap
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    tribunal temple
+	morrowind.esm       DIAL    varvur sarethi
+	morrowind.esm       LAND    (-1, -3)
+	morrowind.esm       LAND    (-1, 2)
+	morrowind.esm       LAND    (-1, 6)
+	morrowind.esm       LAND    (-1, 7)
+	morrowind.esm       LAND    (-10, 10)
+	morrowind.esm       LAND    (-10, 11)
+	morrowind.esm       LAND    (-10, 12)
+	morrowind.esm       LAND    (-10, 13)
+	morrowind.esm       LAND    (-11, 10)
+	morrowind.esm       LAND    (-11, 11)
+	morrowind.esm       LAND    (-11, 12)
+	morrowind.esm       LAND    (-12, 10)
+	morrowind.esm       LAND    (-12, 11)
+	morrowind.esm       LAND    (-12, 12)
+	morrowind.esm       LAND    (-2, -10)
+	morrowind.esm       LAND    (-2, -2)
+	morrowind.esm       LAND    (-2, -3)
+	morrowind.esm       LAND    (-2, -9)
+	morrowind.esm       LAND    (-2, 2)
+	morrowind.esm       LAND    (-2, 5)
+	morrowind.esm       LAND    (-2, 6)
+	morrowind.esm       LAND    (-2, 7)
+	morrowind.esm       LAND    (-3, -1)
+	morrowind.esm       LAND    (-3, -2)
+	morrowind.esm       LAND    (-3, -3)
+	morrowind.esm       LAND    (-3, 12)
+	morrowind.esm       LAND    (-3, 5)
+	morrowind.esm       LAND    (-3, 6)
+	morrowind.esm       LAND    (-4, -1)
+	morrowind.esm       LAND    (-4, -2)
+	morrowind.esm       LAND    (-4, -3)
+	morrowind.esm       LAND    (-4, 18)
+	morrowind.esm       LAND    (-6, -5)
+	morrowind.esm       LAND    (-7, -5)
+	morrowind.esm       LAND    (0, -13)
+	morrowind.esm       LAND    (0, -7)
+	morrowind.esm       LAND    (0, -8)
+	morrowind.esm       LAND    (1, -12)
+	morrowind.esm       LAND    (1, -13)
+	morrowind.esm       LAND    (1, 3)
+	morrowind.esm       LAND    (1, 4)
+	morrowind.esm       LAND    (1, 5)
+	morrowind.esm       LAND    (11, 16)
+	morrowind.esm       LAND    (13, -1)
+	morrowind.esm       LAND    (14, -4)
+	morrowind.esm       LAND    (14, -5)
+	morrowind.esm       LAND    (14, 5)
+	morrowind.esm       LAND    (14, 6)
+	morrowind.esm       LAND    (15, -14)
+	morrowind.esm       LAND    (15, -4)
+	morrowind.esm       LAND    (15, 5)
+	morrowind.esm       LAND    (15, 6)
+	morrowind.esm       LAND    (16, 4)
+	morrowind.esm       LAND    (16, 5)
+	morrowind.esm       LAND    (16, 6)
+	morrowind.esm       LAND    (17, 3)
+	morrowind.esm       LAND    (17, 4)
+	morrowind.esm       LAND    (17, 5)
+	morrowind.esm       LAND    (17, 6)
+	morrowind.esm       LAND    (18, 3)
+	morrowind.esm       LAND    (18, 4)
+	morrowind.esm       LAND    (18, 5)
+	morrowind.esm       LAND    (18, 6)
+	morrowind.esm       LAND    (19, -4)
+	morrowind.esm       LAND    (19, 3)
+	morrowind.esm       LAND    (19, 4)
+	morrowind.esm       LAND    (2, -10)
+	morrowind.esm       LAND    (2, -11)
+	morrowind.esm       LAND    (2, -12)
+	morrowind.esm       LAND    (2, -13)
+	morrowind.esm       LAND    (2, 3)
+	morrowind.esm       LAND    (2, 4)
+	morrowind.esm       LAND    (2, 5)
+	morrowind.esm       LAND    (3, -10)
+	morrowind.esm       LAND    (3, -11)
+	morrowind.esm       LAND    (3, -12)
+	morrowind.esm       LAND    (3, -13)
+	morrowind.esm       LAND    (3, -9)
+	morrowind.esm       LAND    (3, 4)
+	morrowind.esm       LAND    (3, 5)
+	morrowind.esm       LAND    (4, -10)
+	morrowind.esm       LAND    (4, -11)
+	morrowind.esm       LAND    (4, -12)
+	morrowind.esm       LAND    (4, -13)
+	morrowind.esm       LAND    (4, -9)
+	morrowind.esm       LAND    (6, -6)
+	morrowind.esm       LAND    (6, -7)
+	morrowind.esm       LAND    (7, -7)
+	morrowind.esm       LAND    (9, 10)
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_04
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    lavacrust02.tga
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava02
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sandstone02
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    ma_sulphur_rock08
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       MISC    key_tel_aruhn_slave1
+	morrowind.esm       NPC_    ababael timsar-dadisun
+	morrowind.esm       NPC_    abishpulu shand
+	morrowind.esm       NPC_    adondasi sadalvel
+	morrowind.esm       NPC_    ano andaram
+	morrowind.esm       NPC_    aren maren
+	morrowind.esm       NPC_    asha-ammu kutebani
+	morrowind.esm       NPC_    ashuma-nud matluberib
+	morrowind.esm       NPC_    athal nerano
+	morrowind.esm       NPC_    baleni salavel
+	morrowind.esm       NPC_    benunius agrudilius
+	morrowind.esm       NPC_    berwen
+	morrowind.esm       NPC_    blatta hateria
+	morrowind.esm       NPC_    bralis seralas
+	morrowind.esm       NPC_    celegorn
+	morrowind.esm       NPC_    clilias pullia
+	morrowind.esm       NPC_    dabienne mornardl
+	morrowind.esm       NPC_    dalse adren
+	morrowind.esm       NPC_    daras aryon
+	morrowind.esm       NPC_    darvame hleran
+	morrowind.esm       NPC_    dather manel
+	morrowind.esm       NPC_    dilami androm
+	morrowind.esm       NPC_    dronos llervu
+	morrowind.esm       NPC_    dul gro-dush
+	morrowind.esm       NPC_    dulnea ralaal
+	morrowind.esm       NPC_    dumbuk gro-bolak
+	morrowind.esm       NPC_    edwinna elbert
+	morrowind.esm       NPC_    elegal
+	morrowind.esm       NPC_    ertius fulbenus
+	morrowind.esm       NPC_    falvis tunel
+	morrowind.esm       NPC_    fandus puruseius
+	morrowind.esm       NPC_    fara
+	morrowind.esm       NPC_    felayn andral
+	morrowind.esm       NPC_    fendryn drelvi
+	morrowind.esm       NPC_    folsi thendas
+	morrowind.esm       NPC_    gals arethi
+	morrowind.esm       NPC_    gilvas barelo
+	morrowind.esm       NPC_    hainab lasamsi
+	morrowind.esm       NPC_    hannabi zabynatus
+	morrowind.esm       NPC_    hetman abelmawia
+	morrowind.esm       NPC_    hinammu shishara
+	morrowind.esm       NPC_    largakh gro-bulfim
+	morrowind.esm       NPC_    maeonius man-llu
+	morrowind.esm       NPC_    maline masolaude
+	morrowind.esm       NPC_    menelras
+	morrowind.esm       NPC_    mogak gra-ugruma
+	morrowind.esm       NPC_    molvirian palenix
+	morrowind.esm       NPC_    muriel sette
+	morrowind.esm       NPC_    navam veran
+	morrowind.esm       NPC_    nelyn sadri
+	morrowind.esm       NPC_    nevosi hlan
+	morrowind.esm       NPC_    nireli farys
+	morrowind.esm       NPC_    pilus amatius
+	morrowind.esm       NPC_    punibi yahaz
+	morrowind.esm       NPC_    rindral dralor
+	morrowind.esm       NPC_    savile imayn
+	morrowind.esm       NPC_    seldus nerendus
+	morrowind.esm       NPC_    selvil sareloth
+	morrowind.esm       NPC_    servant arg male
+	morrowind.esm       NPC_    shadbak gra-burbug
+	morrowind.esm       NPC_    shagdub gra-murz
+	morrowind.esm       NPC_    shulki ashunbabi
+	morrowind.esm       NPC_    shuzug gro-bug
+	morrowind.esm       NPC_    tivam sadri
+	morrowind.esm       NPC_    trebonius artorius
+	morrowind.esm       NPC_    tusamircil
+	morrowind.esm       NPC_    ughash gro-batul
+	morrowind.esm       NPC_    urtiso faryon
+	morrowind.esm       NPC_    urzoth gra-bargamph
+	morrowind.esm       NPC_    vatollia apo
+	morrowind.esm       NPC_    vevrana aryon
+	morrowind.esm       NPC_    volene llervu
+	morrowind.esm       NPC_    zanmulk sammalamus
+	morrowind.esm       NPC_    zebba benamamat
+	morrowind.esm       PGRD    ahemmusa camp
+	morrowind.esm       PGRD    ald velothi
+	morrowind.esm       PGRD    ald-ruhn
+	morrowind.esm       PGRD    ald-ruhn, council club
+	morrowind.esm       PGRD    ald-ruhn, redoran council hall
+	morrowind.esm       PGRD    ascadian isles region
+	morrowind.esm       PGRD    ashlands region
+	morrowind.esm       PGRD    balmora
+	morrowind.esm       PGRD    balmora, astius hanotepelus' house
+	morrowind.esm       PGRD    balmora, clagius clanler: outfitter
+	morrowind.esm       PGRD    balmora, dralosa athren's house
+	morrowind.esm       PGRD    balmora, drarayne thelas' house
+	morrowind.esm       PGRD    balmora, eight plates
+	morrowind.esm       PGRD    balmora, lucky lockup
+	morrowind.esm       PGRD    balmora, rithleen's house
+	morrowind.esm       PGRD    balmora, tsiya's house
+	morrowind.esm       PGRD    balmora, tyermaillin's house
+	morrowind.esm       PGRD    balmora, vori's house
+	morrowind.esm       PGRD    buckmoth legion fort
+	morrowind.esm       PGRD    buckmoth legion fort, interior
+	morrowind.esm       PGRD    caldera
+	morrowind.esm       PGRD    caldera, canodia felannus' house
+	morrowind.esm       PGRD    caldera, ghorak manor
+	morrowind.esm       PGRD    caldera, guild of mages
+	morrowind.esm       PGRD    caldera, hodlismod: armorer
+	morrowind.esm       PGRD    caldera, irgola: pawnbroker
+	morrowind.esm       PGRD    caldera, verick gemain: trader
+	morrowind.esm       PGRD    ebonheart
+	morrowind.esm       PGRD    ebonheart, grand council chambers
+	morrowind.esm       PGRD    erabenimsun camp
+	morrowind.esm       PGRD    ghostgate
+	morrowind.esm       PGRD    ghostgate, temple
+	morrowind.esm       PGRD    ghostgate, tower of dawn
+	morrowind.esm       PGRD    ghostgate, tower of dawn lower level
+	morrowind.esm       PGRD    ghostgate, tower of dusk
+	morrowind.esm       PGRD    ghostgate, tower of dusk lower level
+	morrowind.esm       PGRD    gnaar mok
+	morrowind.esm       PGRD    gnaar mok, druegh-jigger's rest
+	morrowind.esm       PGRD    gnisis
+	morrowind.esm       PGRD    gnisis, fort darius
+	morrowind.esm       PGRD    gnisis, madach tradehouse
+	morrowind.esm       PGRD    gnisis, temple
+	morrowind.esm       PGRD    hla oad
+	morrowind.esm       PGRD    hla oad, fatleg's drop off
+	morrowind.esm       PGRD    holamayan monastery
+	morrowind.esm       PGRD    khuul
+	morrowind.esm       PGRD    khuul, thongar's tradehouse
+	morrowind.esm       PGRD    maar gan
+	morrowind.esm       PGRD    molag mar
+	morrowind.esm       PGRD    molag mar, underworks
+	morrowind.esm       PGRD    moonmoth legion fort
+	morrowind.esm       PGRD    pelagiad
+	morrowind.esm       PGRD    pelagiad, ahnassi's house
+	morrowind.esm       PGRD    pelagiad, halfway tavern
+	morrowind.esm       PGRD    pelagiad, mebestien ence: trader
+	morrowind.esm       PGRD    red mountain region
+	morrowind.esm       PGRD    sadrith mora
+	morrowind.esm       PGRD    sadrith mora, dirty muriel's cornerclub
+	morrowind.esm       PGRD    sadrith mora, fara's hole in the wall
+	morrowind.esm       PGRD    sadrith mora, tel naga upper tower
+	morrowind.esm       PGRD    sadrith mora, telvanni council house, entry
+	morrowind.esm       PGRD    sadrith mora, wolverine hall: fighter's guild
+	morrowind.esm       PGRD    sadrith mora, wolverine hall: imperial shrine
+	morrowind.esm       PGRD    sadrith mora, wolverine hall: mage's guild
+	morrowind.esm       PGRD    seyda neen
+	morrowind.esm       PGRD    seyda neen, lighthouse
+	morrowind.esm       PGRD    suran
+	morrowind.esm       PGRD    tel aruhn
+	morrowind.esm       PGRD    tel aruhn, plot and plaster
+	morrowind.esm       PGRD    tel aruhn, underground
+	morrowind.esm       PGRD    tower of tel fyr, hall of fyr
+	morrowind.esm       PGRD    tower of tel fyr, onyx hall
+	morrowind.esm       PGRD    urshilaku camp
+	morrowind.esm       PGRD    urshilaku camp, wise woman's yurt
+	morrowind.esm       PGRD    vivec
+	morrowind.esm       PGRD    vivec, arena
+	morrowind.esm       PGRD    vivec, arena hidden area
+	morrowind.esm       PGRD    vivec, arena pit
+	morrowind.esm       PGRD    vivec, black shalk cornerclub
+	morrowind.esm       PGRD    vivec, foreign quarter
+	morrowind.esm       PGRD    vivec, guild of mages
+	morrowind.esm       PGRD    vivec, hlaalu
+	morrowind.esm       PGRD    vivec, hlaalu waistworks
+	morrowind.esm       PGRD    vivec, justice offices
+	morrowind.esm       PGRD    vivec, redoran
+	morrowind.esm       PGRD    vivec, redoran canalworks
+	morrowind.esm       PGRD    vivec, redoran waistworks
+	morrowind.esm       PGRD    vivec, st. delyn
+	morrowind.esm       PGRD    vivec, st. delyn canalworks
+	morrowind.esm       PGRD    vivec, st. delyn storage
+	morrowind.esm       PGRD    vivec, st. delyn waistworks
+	morrowind.esm       PGRD    vivec, st. olms
+	morrowind.esm       PGRD    vivec, st. olms waistworks
+	morrowind.esm       PGRD    vivec, telvanni
+	morrowind.esm       PGRD    vivec, telvanni canalworks
+	morrowind.esm       PGRD    vivec, telvanni upper storage
+	morrowind.esm       PGRD    vivec, telvanni waistworks
+	morrowind.esm       PGRD    vivec, temple
+	morrowind.esm       PGRD    west gash region
+	morrowind.esm       PGRD    wolverine hall
+	morrowind.esm       PGRD    yansirramus, shrine
+	morrowind.esm       PGRD    zainab camp
+	morrowind.esm       STAT    ex_gg_pylon_01
+	morrowind.esm       WEAP    chitin short bow
+	morrowind.esm       WEAP    iron arrow
+	morrowind.esm       WEAP    steel arrow
+	oaab_data.esm       LIGH    ab_light@_day1000
+	tamriel_data.esm    DIAL    dunmer
+	tamriel_data.esm    DIAL    greeting 3
+	tamriel_data.esm    DIAL    jobs
+	tamriel_data.esm    DIAL    join the mages guild
+	tamriel_data.esm    DIAL    mages guild
+	tamriel_data.esm    DIAL    orc
+	tribunal.esm        CONT    chest_small_02_rndgold
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        FACT    hands of almalexia
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+	tribunal.esm        NPC_    mehra drora
+
+[MOD-INF]: ID=994280566571240(Topic:slander)
+  morrowind.esm--------------------------->|DATA|ONAM:meril hlaano|NAME:Make me.
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:meril hlaano|NAME:Do you even know who you're talking to?
+
+[MOD-INF]: ID=10009858175861683(Topic:household slaves)
+  morrowind.esm--------------------------->|DATA|ONAM:savile imayn|NAME:The following slaves are available for purchase: S'Bakha, a Khajiit male; Manilian Scerius, an Imperial male; Menelras, a Bosmer male; Ciralinde, an Altmer female; Jadier Mannick, a Breton male, and Davina, a Redguard female.|BNAM:;in case the player has never had this topic added... rare  AddTopic "go free"
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:savile imayn|NAME:The following slaves are available for purchase: S'Bakha, a Khajiit male; Manilian Scerius, an Imperial male; Menelras, a Bosmer male; Ciralinde, an Altmer female; Jadier Mannick, a Breton male, and Davina, a Redguard female; Ubaairra, a Khajiit male; Nem-Rei, an Argonian female.|BNAM:;in case the player has never had this topic added... rare  AddTopic "go free"
+
+[DUP-INF]: ID=10846297472227562(Greeting:greeting 5)
+  |DATA|ONAM:ronerelie philulanie|NAME:You can look, but don't touch. Yes, it's all Dwarf-make. And it belongs to Master Aryon. So keep your hands to yourself.|BNAM:goodbye
+
+[MOD-INF]: ID=100781054114564566(Topic:davina)
+  morrowind.esm--------------------------->|DATA|ONAM:savile imayn|NAME:Davina is now yours. I will have her brought forth from the slavepit. She should be waiting just inside.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV|BNAM:Set davinaBought to 1  Player->RemoveItem Gold_001 1000  AddItem Gold_001 1000  "Davina"->PositionCell 1030 -2660 180 180 "Tel Aruhn, Underground"  Set "Davina".slaveStatus to 2
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:savile imayn|NAME:Davina is now yours. I will have her brought forth from the slave prison. She should be waiting inside.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV|BNAM:Set davinaBought to 1  Player->RemoveItem Gold_001 1000  AddItem Gold_001 1000  "Davina"->PositionCell 2961 -4618 1785 -90 "Tel Aruhn, Underground"  Set "Davina".slaveStatus to 2
+
+[MOD-INF]: ID=171343168140283456(Greeting:greeting 7)
+  morrowind.esm--------------------------->|DATA|ONAM:dulnea ralaal|NAME:Good day. I'm Dulnea Ralaal, publican of the Eight Plates here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Dulnea Ralaal
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:dulnea ralaal|NAME:Greetings traveller, what brings you to the Eight Plates? I'm %name, publican here. If you need a place for the night, I can set you up with one of my beds, and if you're wanting a drink, I'm sure I can fix you up something strong.|BNAM:;Dulnea Ralaal
+
+[MOD-INF]: ID=322422437341418749(Topic:services)
+  morrowind.esm--------------------------->|DATA|ANAM:Suran|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Suran
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ANAM:Suran|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Suran
+
+[MOD-INF]: ID=343022925183914544(Topic:slander)
+  morrowind.esm--------------------------->|DATA|ONAM:meril hlaano|NAME:Okay, okay. I, Meril Hlaano, withdraw the statements I made against House Redoran. There. I said it. Happy?|BNAM:Journal HR_HlaanoSlanders 50
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:meril hlaano|NAME:(Meril chuckles and takes a long drag on his cigar.)   Alright, %PCName. I, Meril Hlaano, withdraw the statements I made against House Redoran. Now get out of my sight before I have you killed.|BNAM:Journal HR_HlaanoSlanders 50
+
+[DUP-INF]: ID=495518295322716947(Greeting:greeting 7)
+  |DATA|ONAM:thaeril|NAME:Good day. I'm Thaeril, publican of The Covenant here in Tel Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Thaeril
+
+[MOD-INF]: ID=1215227585220936854(:greeting 1)
+  tribunal.esm---------------------------->|DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+  Beautiful cities of MorrowindVMEdit.ESP->|NAME:Who's there?|DELE:
+
+[DUP-INF]: ID=1316215144822713907(Greeting:greeting 7)
+  |DATA|ONAM:ery|NAME:Good day. I'm Ery, publican of the Gateway Inn here in Sadrith Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Ery
+
+[MOD-INF]: ID=1398821163861526653(Topic:slander)
+  morrowind.esm--------------------------->|DATA|ONAM:meril hlaano|NAME:I said I was sorry already. Just leave me alone.|SCVR:34JX3HR_HlaanoSlanders|INTV:2
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:meril hlaano|NAME:Don't push your luck, %PCName. If all House Redoran is able to do these days is rap me on the knuckles for slander, that's their problem. And if you want to serve under a family as impotent as that, then that's your problem. Now get out of my sight.|SCVR:34JX3HR_HlaanoSlanders|INTV:2
+
+[DUP-INF]: ID=1470721697254192970(Topic:little advice)
+  |DATA|ONAM:svenja_outside|NAME:Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't...something inside waiting for you. Be ready for a fight.
+
+[MOD-INF]: ID=1585629843039518751(Topic:join the mages guild)
+  morrowind.esm--------------------------->|DATA|ONAM:neminda|NAME:If you want to advance in House Redoran, you should pay more attention to your duties and make more use of our trainers.|SCVR:01020|INTV:
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|FNAM:Mages Guild|NAME:Hmm... Yes, you look like the sort we could use in the Mages Guild. Will you take The Mage's Oath and join the Guild?|SCVR:01020|INTV|SCVR:11460|INTV:|BNAM:Choice "Yes." 1 "What is the Mage's Oath?" 2
+
+[DUP-INF]: ID=1805121922893719179(Topic:business)
+  |DATA|ONAM:nileno dorvayn|NAME:If you want to talk business, you've come to the right place. Do you want to join House Hlaalu?
+
+[DUP-INF]: ID=1906014833141124249(Topic:specific place)
+  |DATA|ONAM:Carnius Magius|NAME:The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock, however, boasts a bar and a Trader's Outpost. All thanks to me, of course.|SCVR:02sX3ColonyState|INTV: |SCVR:12sX0ColonyService|INTV
+
+[MOD-INF]: ID=2976914359150945474(Topic:services)
+  morrowind.esm--------------------------->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0savile imayn|INTV|SCVR:37XX0Daynas Darys|INTV|SCVR:47XX0Drarayne Girith|INTV|SCVR:57XX0emusette bracques|INTV|BNAM:;Suran
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0savile imayn|INTV|SCVR:37XX0Daynas Darys|INTV|SCVR:4BLX0Tel Aruhn, Plot and Plaster|INTV|BNAM:;Suran
+
+[MOD-INF]: ID=3106740491031930021(Topic:services)
+  morrowind.esm--------------------------->|DATA|ANAM:Hla Oad|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Hla Oad;
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ANAM:Hla Oad|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Hla Oad;
+
+[DUP-INF]: ID=3223324127987614626(Greeting:greeting 5)
+  |DATA|ONAM:hanarai assutlanipal|NAME:It is the Hour of Wakening. Dagoth Ur awakes, and comes forth in his glory, and his people shall rejoice, and his enemies shall scatter like dust.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:14JX4C3_DestroyDagoth|INTV:2|BNAM:setdisposition 0  setfight 90  goodbye
+
+[DUP-INF]: ID=3748250542379720869(Topic:business)
+  |DATA|ONAM:Dovor Oren|NAME:It's no concern of yours, %PCRace.|SCVR:04JX3MS_Warlords|INTV
+
+[DUP-INF]: ID=9288304031305031448(Topic:gothren)
+  |DATA|NAME:Gothren lives in the tower. There's a south-facing door into the Upper Tower at the top of stairs from the upper terrace. You have to fly to get to the upper terrace. You can't get to Gothren through the Tower Entry or the Tower Living Quarters.|SCVR:06DX0gothren|INTV:|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=9560247611969014542(Topic:gothren)
+  |DATA|ANAM:Tel Aruhn, Upper Tower|NAME:Gothren is in the upper level, to the east.|SCVR:06DX0gothren|INTV:|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=10520313452757123850(Topic:m'nashi)
+  bloodmoon.esm--------------------------->|DATA|ONAM:uncle sweetshare|NAME:M'nashi was my assistant!  He helped me make my candy!  He so loved his sugar, M'nashi did.  Loved it a little too much, I'm afraid!  He died, you see.  His, ah, sweet tooth got the better of him.  I buried him, just outside.  We had a lovely little ceremony.  The horkers came and sang for him, they did!  He he he!  Ha ha ha ha ha!|SCVR:04JX3BM_MoonSugar|INTV:
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:uncle sweetshare|ANAM:Abaelun Mine|NAME:M'nashi was my assistant!  He helped me make my candy!  He so loved his sugar, M'nashi did.  Loved it a little too much, I'm afraid!  He died, you see.  His, ah, sweet tooth got the better of him.  I buried him, just outside.  We had a lovely little ceremony.  The horkers came and sang for him, they did!  He he he!  Ha ha ha ha ha!|SCVR:04JX3BM_MoonSugar|INTV:
+
+[MOD-INF]: ID=16212155803018311111(Topic:menelras)
+  morrowind.esm--------------------------->|DATA|ONAM:savile imayn|NAME:I'm sorry but you don't have enough gold to afford my fine slaves.|SCVR:01500|INTV
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:savile imayn|NAME:I'm sorry but you don't have enough gold to afford my fine slaves.|SCVR:01500|INTV|SCVR:15IX4Gold_001|INTV
+
+[MOD-INF]: ID=16212155803018311111(Topic:menelras)
+  morrowind.esm--------------------------->|DATA|ONAM:savile imayn|NAME:I'm sorry but you don't have enough gold to afford my fine slaves.|SCVR:01500|INTV
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:savile imayn|NAME:I'm sorry but you don't have enough gold to afford my fine slaves.|SCVR:01500|INTV|SCVR:15IX4Gold_001|INTV
+[MOD-IID]: ID=32242285152533521976(Topic:ubaairra),ID=12824243412585815675(Topic:nem-rei)
+  Beautiful cities of MorrowindVMEdit.ESP->I'm sorry but you don't have enough gold to afford my fine slaves.
+
+[MOD-INF]: ID=21432111501574114700(Topic:beds)
+  morrowind.esm--------------------------->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's all yours for the day. Down the stairs to the right.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:Excellent. It's all yours. Head down the stairs, the door's on your right. If you want to bring a guest in, I've no objection, as long as they're clean. None of my business, is it? Just keep in mind that if they cause trouble, it's you I'll charge for it.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+
+[MOD-INF]: ID=21822175281023014429(Topic:join the mages guild)
+  morrowind.esm--------------------------->|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:House Telvanni seeks candidates of high intelligence and dominant will. We value the arts of magic: Mysticism, Conjuration, Illusion, Alteration, and Destruction. We also expect members to be capable of enchanting items
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|FNAM:Mages Guild|NAME:Hmm... No, you are not a worthy candidate. A true wizard must know at least the basics of the magical arts. You should review our requirements.|SCVR:01460|INTV:
+
+[MOD-INF]: ID=24947188951810428436(Topic:slander)
+  morrowind.esm--------------------------->|DATA|ONAM:meril hlaano|NAME:Don't make me mad, %PCName, or I'll say what I think of you, too.
+  Beautiful cities of MorrowindVMEdit.ESP->|DATA|ONAM:meril hlaano|NAME:No, no you're absolutely right. I was wrong to call Fathasa Llethri a bloated Alit. I should have called her a dirty whore instead. What do you think of that, Redoran lapdog?
+
+[DUP-INF]: ID=25962153161759731313(Topic:beds)
+  |DATA|ONAM:Alcedonia Amnis|CNAM:Publican|NAME:Very well. Head upstairs, to the last room on the right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script RAVEN ROCK BAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2

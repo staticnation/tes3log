@@ -1,0 +1,70 @@
+RPNR_WHO.ESP: DUP-REC MASTERS MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1569948 (plugin)    1567893 (installed size)
+	Tamriel_Data.esm            10961425 (plugin)   11064795 (installed size)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    sand
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    blades
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       CONT    com_closet_01_mornardl
+	morrowind.esm       DIAL    arrange a meeting
+	morrowind.esm       LAND    (16, 4)
+	morrowind.esm       LAND    (17, 3)
+	morrowind.esm       LAND    (17, 4)
+	morrowind.esm       LAND    (17, 5)
+	morrowind.esm       LAND    (18, 2)
+	morrowind.esm       LAND    (18, 3)
+	morrowind.esm       LAND    (18, 4)
+	morrowind.esm       LAND    (19, 3)
+	morrowind.esm       LAND    (19, 4)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       NPC_    emelia duronia
+	morrowind.esm       NPC_    erranil
+	morrowind.esm       NPC_    flacassia fauseius
+	morrowind.esm       NPC_    masalinie merian
+	morrowind.esm       PGRD    sadrith mora, wolverine hall
+	morrowind.esm       PGRD    sadrith mora, wolverine hall: fighter's guild
+	morrowind.esm       PGRD    sadrith mora, wolverine hall: imperial shrine
+	morrowind.esm       PGRD    sadrith mora, wolverine hall: mage's guild
+	morrowind.esm       PGRD    wolverine hall
+	oaab_data.esm       ARMO    ab_a_impbmboots
+	oaab_data.esm       ARMO    ab_a_impbmcuirass
+	oaab_data.esm       ARMO    ab_a_impbmgreaves
+	oaab_data.esm       ARMO    ab_a_impbmhelm
+	oaab_data.esm       ARMO    ab_a_impbmpldleft
+	oaab_data.esm       ARMO    ab_a_impbmpldright
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=206847122036726324(Topic:background)
+  morrowind.esm->|DATA|NAME:I am %name, %class and %rank of the %faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+  RPNR_WHO.ESP-->|DATA|NAME:I am Furunius Julanianr, Lord Commander of Wolverine Hall and Knight Protector of the Imperial Legion. How may I assist you, citizen?|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=890925185785318981(Topic:arrange a meeting)
+  morrowind.esm->|DATA|ONAM:sinnammu mirpal|NAME:I know you speak the truth, %PCName. I do not need such as her for an apprentice. I will send her to talk with this Argonian.|SCVR:01500|INTV|BNAM:Journal MG_WiseWoman 80  ModDisposition 20  "Minabibi Assardarainat"->PositionCell 217 846 74 190 "Sadrith Mora, Wolverine Hall: Mage's Guild"
+  RPNR_WHO.ESP-->|DATA|ONAM:sinnammu mirpal|NAME:I know you speak the truth, %PCName. I do not need such as her for an apprentice. I will send her to talk with this Argonian.|SCVR:01500|INTV|BNAM:Journal MG_WiseWoman 80  ModDisposition 20  "Minabibi Assardarainat"->PositionCell 631 1094 455 -160 "Sadrith Mora, Wolverine Hall: Mage's Guild"
+
+[MOD-INF]: ID=1754695782235828776(Topic:blades)
+  morrowind.esm->|DATA|FNAM:Imperial Legion|NAME:The Blades are the Emperor's spies. They're everywhere, but no one knows who they are.|SCVR:0CsX0NoLore|INTV:
+  RPNR_WHO.ESP-->|DATA|FNAM:Imperial Legion|NAME:Blades? Yes. This is one of the Emperor's finest servants|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=11606108492451013071(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Battlemage|NAME:I am a Battlemage. Though arrayed as a Western knight with heavy armor, axes and long blades, my primary training is in the College of Alteration, the College of Destruction, and the College of Conjuration. To round out my education, I have mastered enchantments and alchemy. Potions made through alchemy, or purchased from alchemists, grant me the magics of the Restoration, Mysticism, and Illusion Colleges. And can there be any more terrible master of the science of war than a battlemage? I think not.|SCVR:0CsX0NoLore|INTV:|BNAM:;Battlemage; Potions, Alchemy
+  RPNR_WHO.ESP-->|DATA|CNAM:Battlemage|NAME:I am a Battlemage and Templar. Long time ago I studied magic arts in the Battlespire academy which is now destroyed by forces of Mehrunes Dagon.|SCVR:0CsX0NoLore|INTV:|BNAM:;Battlemage; Potions, Alchemy

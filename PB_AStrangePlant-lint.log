@@ -1,0 +1,19 @@
+PB_AStrangePlant.esp: DUP-INF DUP-REC GETSND MENUMOD MISSDSC MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (157) != Actual count (154)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(PB_ASP_Scr_Nirnroot)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(PB_ASP_Scr_Potted)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    summerset isle
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  |DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+
+[DUP-INF]: ID=1588813549227325295(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:All is silence. The road is straight, without turning, in darkness. Now let there be an end to all things.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:modDisposition -10  goodbye
+
+[DUP-INF]: ID=2135084312786513801(Topic:summerset isle)
+  |DATA|CNAM:Knight|FNAM:Imperial Legion|NAME:The Summerset Isle is a green and pleasant land of fertile farmlands, woodland parks, and ancient towers and manors. Most settlements are small and isolated, and dominated by ruling seats of the local wizard or warlord. The Isle has few good natural ports, and the natives are unwelcoming to foreigners, so the ancient, chivalric high culture of the Aldmer is little affected by modern Imperial mercantilism.|SCVR:0CsX0NoLore|INTV:|BNAM:;Imperial Legion; Imperial cult; bard, bookseller, savant;

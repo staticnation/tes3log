@@ -1,0 +1,62 @@
+Telos Rin Graveyard.ESP: AUTOSPL DUP-INF DUP-REC MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             7824672 (plugin)   11064795 (installed size)
+	Solstheim Tomb of The Snow Prince.esm   10509876 (plugin)   10637543 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	telos_grant_strength           Telos' Might
+	akirs fire storm               Fire Storm
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(telosAmuletLight)
+	SCPT(telosCentralChamberFreezeScript)
+	SCPT(telosKillMelos)
+	SCPT(telosMarksmanToggle)
+	SCPT(telosMelosAddTopic)
+	SCPT(telosNoteScript)
+	SCPT(telosNoteScript2)
+	SCPT(telosPassageTrapNewScript)
+	SCPT(telosPassageTrapScript)
+	SCPT(telosPleeForHelpScript1)
+	SCPT(telosPratAddTopic)
+	SCPT(telosRemoveWeaponsScript)
+	SCPT(telosRinRessurect)
+	SCPT(telosShieldScript)
+	SCPT(telosShrineScript)
+	SCPT(telosSkeleton1Script)
+	SCPT(telosSkeleton3Script)
+	SCPT(telosSkeleton4Script)
+	SCPT(telosSkeletonScript2)
+	SCPT(telosSothAddTopic)
+	SCPT(telosSwordScript)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	solstheim tomb of the snow prince.esm    LTEX    sand_02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+	solstheim tomb of the snow prince.esm    LAND    (-12, 31)
+	solstheim tomb of the snow prince.esm    LAND    (-12, 32)
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+
+[DUP-INF]: ID=120064012167910859(Topic:solstheim)
+  |DATA|ANAM:Skaal Village|NAME:This is the island of Solstheim, a jewel of an island and home to the Skaal. We settled here many generations ago.
+
+[DUP-INF]: ID=495518295322716947(Greeting:greeting 7)
+  |DATA|ONAM:thaeril|NAME:Good day. I'm Thaeril, publican of The Covenant here in Tel Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Thaeril
+
+[DUP-INF]: ID=1470721697254192970(Topic:little advice)
+  |DATA|ONAM:svenja_outside|NAME:Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't...something inside waiting for you. Be ready for a fight.
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[DUP-INF]: ID=10383195842825314349(Topic:little secret)
+  |DATA|ONAM:svenja_outside|NAME:The name of the wolf that killed Hrothmund is "Ondjage." You'll need to say his name to enter Hrothmund's Barrow. Say any other name and you'll NEVER be able to get in!

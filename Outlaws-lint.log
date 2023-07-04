@@ -1,0 +1,52 @@
+Outlaws.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BR_brigant_Script)
+	SCPT(aa_BR_brigant_Script)
+	SCPT(aa_outlaws_delaystart)
+	SCPT(aa_outlaws_setup)
+	SCPT(cmDisableBox)
+	SCPT(you_mask_Script)
+	SCPT(youscript2)
+	SCPT(youscript3)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LEVC    bm_ex_berserkers
+	bloodmoon.esm       LEVC    bm_ex_reaver_archers
+	bloodmoon.esm       LEVC    bm_ex_reavers
+	morrowind.esm       BODY    b_v_imperial_f_head_01
+	morrowind.esm       BODY    b_v_imperial_m_head_01
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    law in morrowind
+	morrowind.esm       LEVC    ex_ascadianisles_sleep
+	morrowind.esm       LEVC    ex_azurascoast_sleep
+	morrowind.esm       LEVC    ex_bittercoast_sleep
+	morrowind.esm       LEVC    ex_grazelands_sleep
+	morrowind.esm       LEVC    ex_molagmar_sleep
+	morrowind.esm       LEVC    ex_sheogorad_sleep
+	morrowind.esm       LEVC    ex_westgash_sleep
+	morrowind.esm       LEVC    ex_wild_all_sleep
+	morrowind.esm       LEVC    in_dwe_all_lev+0
+	morrowind.esm       LEVC    in_dwe_all_lev+2
+	morrowind.esm       LEVC    in_dwe_all_lev-2
+	morrowind.esm       LEVC    in_egg_kwama_lev+0
+	morrowind.esm       LEVC    in_egg_kwama_lev+2
+	morrowind.esm       LEVC    in_egg_kwama_lev-1
+	morrowind.esm       LEVC    in_egg_kwama_mined
+	morrowind.esm       LEVC    in_tomb_all_lev+0
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=7817111001232614388(Greeting:greeting 0)
+  tribunal.esm->|DATA|CNAM:Guard|NAME:You say you've been attacked by assassins? From your description, and the look of that dart you found, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart about this matter.|SCVR:02sX0DBAttack|INTV|SCVR:15IX2ebony dart_db_unique|INTV:|SCVR:27XX0apelles matius|INTV|SCVR:34JX4TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 30  set DBAttack to -1
+  Outlaws.esp-->|DATA|CNAM:Guard|NAME:You say you've been attacked by assassins? From your description, and the look of that dart you found, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though.|SCVR:02sX0DBAttack|INTV|SCVR:15IX2ebony dart_db_unique|INTV:|SCVR:27XX0apelles matius|INTV|SCVR:34JX4TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 30  set DBAttack to -1
+
+[MOD-INF]: ID=15382100702495829733(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Commoner|NAME:I am a commoner. I do whatever needs doing -- cooking, cleaning, building, baking, making, breaking. And, by your accent, I can tell YOU are an outlander. Since you're new to these parts, perhaps you'd like me to share a little local lore.|SCVR:0CsX0NoLore|INTV:|BNAM:;Commoner; Morrowind lore, local lore
+  Outlaws.esp--->|DATA|CNAM:Commoner|NAME:I'm a commoner. I do what I can to put food on my table and a roof over my head.|SCVR:0CsX0NoLore|INTV:|BNAM:;Commoner; Morrowind lore, local lore
+
+[MOD-INF]: ID=16043312532573123088(Greeting:greeting 0)
+  tribunal.esm->|DATA|CNAM:Guard|NAME:You say you've been attacked by assassins? From your description, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart about this matter.|SCVR:02sX0DBAttack|INTV|SCVR:17XX0apelles matius|INTV|SCVR:24JX4TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 30  set DBAttack to -1
+  Outlaws.esp-->|DATA|CNAM:Guard|NAME:You say you've been attacked by assassins? From your description, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart|SCVR:02sX0DBAttack|INTV|SCVR:17XX0apelles matius|INTV|SCVR:24JX4TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 30  set DBAttack to -1

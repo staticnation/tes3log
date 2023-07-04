@@ -1,0 +1,9 @@
+Opponent_Fatigue_Indicator.esp: EXP-DEP GETSND MENUMOD
+    [EXP-DEP] Expansion Dependency: Startup Script: opponent_fatigue_indicator
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(opponent_fatigue_indicator_bg)  getweapondrawn
+	SCPT(opponent_fatigue_indicator_bg)  getweapontype
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(opponent_fatigue_indicator_bg)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(opponent_fatigue_indicator)

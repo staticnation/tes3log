@@ -1,0 +1,23 @@
+Fishing (4).ESP: DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(a_fishing_combat_check)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(a_bait_bucket_scr)
+	SCPT(a_bait_firstnotice)
+	SCPT(a_bait_menu_meat)
+	SCPT(a_bait_menu_plants)
+	SCPT(a_bait_menu_start)
+	SCPT(a_fishing_combat_check)
+	SCPT(a_fishing_initiate)
+	SCPT(a_fishing_mod_initiate)
+	SCPT(a_fishing_pole_misc_scr)
+	SCPT(a_fishing_pole_replace)
+	SCPT(a_fishing_pole_scr)
+	SCPT(a_fishing_test)
+	SCPT(a_notice_bottle)
+	SCPT(a_notice_chest)
+	SCPT(a_notice_helm)
+	SCPT(a_open_bottle)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       MISC    misc_de_fishing_pole

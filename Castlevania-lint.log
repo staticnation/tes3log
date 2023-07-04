@@ -1,0 +1,410 @@
+Castlevania.esp: AUTOSPL DUP-INF DUP-REC FOGBUG JUNKCEL MENUMOD MISSVER OVR-REC SCRDOOR
+    [AUTOSPL] Auto-calced Spells:
+	dracula fireball               Dracula Fireball
+	dracula's drain blood          Dracula's Drain Blood
+	dracula summon                 Dracula Summon
+	shaft's spell of rust          Shaft's Spell of Rusting
+	shaft's spell of death         Shaft's Spell of Death
+	shaft's summon                 Shaft's Summon
+	c_spelloflight                 Spell of Light
+    [FOGBUG]: Cells with zero fog density setting:
+	Castlevania Catacombs
+	Castlevania Tower of Darkness
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(C_AlucardScript)
+	SCPT(C_BelmontHelpScript)
+	SCPT(C_rotategears)
+	SCPT(CastleEntranceMusic)
+	SCPT(CastleMusic)
+	SCPT(PAS)
+	SCPT(SRAlucard)
+	SCPT(SRBone)
+	SCPT(SRChitin)
+	SCPT(SRDeadric)
+	SCPT(SRDwemer)
+	SCPT(SRGlass)
+	SCPT(SRImp)
+	SCPT(SRIndoril)
+	SCPT(SRIron)
+	SCPT(SRNetch)
+	SCPT(SROrc)
+	SCPT(SRSteel)
+	SCPT(dracula)
+	SCPT(draculadoor)
+	SCPT(draculdag)
+	SCPT(drawbridge)
+	SCPT(firedamage)
+	SCPT(jewelsword)
+	SCPT(portcullis)
+	SCPT(randomweaponALU)
+	SCPT(randomweaponAOH)
+	SCPT(randomweaponCRI)
+	SCPT(randomweaponJWS)
+	SCPT(randomweaponMOP)
+	SCPT(randomweaponPAS)
+	SCPT(randomweaponRNB)
+	SCPT(randomweaponSOD)
+	SCPT(randomweaponSOH)
+	SCPT(randomweaponSWF)
+	SCPT(runeblade)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	ex_r_pcfort_d_02                     Strong2_Complete
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-5, -7)             0x02
+	Bitter Coast Region (-7, -10)            0x02
+	Bitter Coast Region (-7, -8)             0x02
+	Bitter Coast Region (-7, -9)             0x02
+	Bitter Coast Region (-8, -10)            0x02
+	Bitter Coast Region (-9, -10)            0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 9
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    com_closet_01_mclothes
+	bloodmoon.esm       DOOR    ex_r_trapdoor_01
+	bloodmoon.esm       DOOR    in_com_traptop_01
+	bloodmoon.esm       DOOR    in_v_s_trapdoor_01
+	bloodmoon.esm       MISC    misc_com_broom_01
+	bloodmoon.esm       MISC    misc_com_redware_pitcher
+	bloodmoon.esm       MISC    misc_imp_silverware_bowl
+	bloodmoon.esm       MISC    misc_imp_silverware_plate_02
+	bloodmoon.esm       MISC    misc_imp_silverware_plate_03
+	bloodmoon.esm       MISC    misc_quill
+	bloodmoon.esm       STAT    ex_de_shack_plank_03
+	bloodmoon.esm       STAT    furn_com_cauldron_02
+	bloodmoon.esm       STAT    furn_com_kegstand
+	bloodmoon.esm       STAT    furn_com_tapestry_04
+	bloodmoon.esm       STAT    furn_de_rug_big_04
+	bloodmoon.esm       STAT    in_nord_fireplace_01
+	morrowind.esm       ACTI    a_light_com_lantern_2
+	morrowind.esm       ACTI    active_com_bunk_01
+	morrowind.esm       ACTI    active_de_pr_bed_08
+	morrowind.esm       ACTI    ex_de_constr_06-2
+	morrowind.esm       ACTI    ex_gg_portcullis_01
+	morrowind.esm       ACTI    ex_scrapwood02
+	morrowind.esm       ACTI    ex_waterfall_mist_s_01
+	morrowind.esm       ACTI    furn_dwrv_beltdrive
+	morrowind.esm       ACTI    furn_dwrv_fitting40
+	morrowind.esm       ACTI    in_lava_1024
+	morrowind.esm       ACTI    in_velothi_platform_shishi
+	morrowind.esm       ARMO    bonemold_towershield
+	morrowind.esm       ARMO    chitin_towershield
+	morrowind.esm       ARMO    dwemer_shield
+	morrowind.esm       ARMO    glass_towershield
+	morrowind.esm       ARMO    imperial shield
+	morrowind.esm       ARMO    indoril shield
+	morrowind.esm       ARMO    iron_towershield
+	morrowind.esm       ARMO    lords_cuirass_unique
+	morrowind.esm       ARMO    netch_leather_towershield
+	morrowind.esm       ARMO    orcish_cuirass
+	morrowind.esm       ARMO    orcish_towershield
+	morrowind.esm       ARMO    steel_towershield
+	morrowind.esm       BODY    b_n_argonian_f_head_01
+	morrowind.esm       BODY    b_n_breton_f_chest
+	morrowind.esm       BODY    b_n_breton_f_hair_03
+	morrowind.esm       BODY    b_n_breton_f_hair_05
+	morrowind.esm       BODY    b_n_breton_f_head_02
+	morrowind.esm       BODY    b_n_breton_f_head_05
+	morrowind.esm       BODY    b_n_dark elf_m_chest
+	morrowind.esm       BODY    b_n_dark elf_m_hair_22
+	morrowind.esm       BODY    b_n_dark elf_m_head_05
+	morrowind.esm       BODY    b_n_dark elf_m_head_12
+	morrowind.esm       BODY    b_n_high elf_f_hair_04
+	morrowind.esm       BODY    b_n_high elf_f_head_01
+	morrowind.esm       BODY    b_n_high elf_m_head_03
+	morrowind.esm       BODY    b_n_imperial_m_hair_07
+	morrowind.esm       BODY    b_n_imperial_m_head_04
+	morrowind.esm       BODY    b_n_imperial_m_head_05
+	morrowind.esm       BODY    b_n_khajiit_f_hair05
+	morrowind.esm       BODY    b_n_khajiit_f_head_02
+	morrowind.esm       BODY    b_n_khajiit_m_head_04
+	morrowind.esm       BODY    b_n_nord_f_head_08
+	morrowind.esm       BODY    b_n_nord_m_chest
+	morrowind.esm       BODY    b_n_nord_m_hair05
+	morrowind.esm       BODY    b_n_nord_m_head_01
+	morrowind.esm       BODY    b_n_nord_m_head_03
+	morrowind.esm       BODY    b_n_orc_f_hair03
+	morrowind.esm       BODY    b_n_orc_f_head_03
+	morrowind.esm       BODY    b_n_orc_m_chest
+	morrowind.esm       BODY    b_n_orc_m_head_04
+	morrowind.esm       BODY    b_n_redguard_f_head_02
+	morrowind.esm       BODY    b_n_redguard_m_hair_03
+	morrowind.esm       BODY    b_n_redguard_m_head_01
+	morrowind.esm       BODY    b_n_redguard_m_head_05
+	morrowind.esm       BODY    b_n_wood elf_f_head_03
+	morrowind.esm       BODY    b_n_wood elf_m_head_08
+	morrowind.esm       BOOK    bk_brothersofdarkness
+	morrowind.esm       BOOK    bk_darkestdarkness
+	morrowind.esm       BOOK    bk_mysticism
+	morrowind.esm       BOOK    bk_nerevarmoonandstar
+	morrowind.esm       BOOK    bk_oldways
+	morrowind.esm       BOOK    bk_ordolegionis
+	morrowind.esm       BOOK    bk_originofthemagesguild
+	morrowind.esm       BOOK    bk_overviewofgodsandworship
+	morrowind.esm       BOOK    bk_pilgrimspath
+	morrowind.esm       BOOK    bk_realbarenziah3
+	morrowind.esm       BOOK    bk_reflectionsoncultworship...
+	morrowind.esm       BOOK    bk_spiritofthedaedra
+	morrowind.esm       BOOK    bk_vampiresofvvardenfell1
+	morrowind.esm       BOOK    bk_vampiresofvvardenfell2
+	morrowind.esm       CONT    com_cupboard_01_booze
+	morrowind.esm       CONT    com_cupboard_01_glasses
+	morrowind.esm       CONT    com_cupboard_01_goblets
+	morrowind.esm       CONT    com_drawers_01_expcloth
+	morrowind.esm       CONT    com_hutch_01_placemats
+	morrowind.esm       CONT    com_hutch_01_plates
+	morrowind.esm       CONT    contain_corpse00
+	morrowind.esm       CONT    contain_corpse10
+	morrowind.esm       CONT    contain_corpse10_silent
+	morrowind.esm       CONT    contain_corpse10_water
+	morrowind.esm       CONT    contain_corpse21_mage
+	morrowind.esm       CONT    contain_corpse_water
+	morrowind.esm       CONT    crate_01_empty
+	morrowind.esm       DOOR    chargen customs door
+	morrowind.esm       DOOR    ex_common_door_01
+	morrowind.esm       DOOR    ex_emp_tower_01_a
+	morrowind.esm       DOOR    ex_imp_loaddoor_01
+	morrowind.esm       DOOR    ex_t_door_02
+	morrowind.esm       DOOR    ex_vivec_grate_01
+	morrowind.esm       DOOR    in_c_door_arched
+	morrowind.esm       DOOR    in_c_door_wood_square
+	morrowind.esm       DOOR    in_com_trapbottom_01
+	morrowind.esm       DOOR    in_impsmall_d_hidden_01
+	morrowind.esm       DOOR    in_impsmall_door_jail_01
+	morrowind.esm       DOOR    in_impsmall_loaddoor_01
+	morrowind.esm       DOOR    in_r_trapdoor_01
+	morrowind.esm       DOOR    in_t_l_door_01
+	morrowind.esm       LIGH    blue candle bulb
+	morrowind.esm       LIGH    light_6th_brazier_01
+	morrowind.esm       LIGH    light_com_candle_10
+	morrowind.esm       LIGH    light_com_candle_10_64
+	morrowind.esm       LIGH    light_com_rm_chandelier_05
+	morrowind.esm       LIGH    light_com_rm_chandelier_05_l_01
+	morrowind.esm       LIGH    light_com_sconce_01
+	morrowind.esm       LIGH    light_com_sconce_02_128
+	morrowind.esm       LIGH    light_com_sconce_02_77
+	morrowind.esm       LIGH    light_fire
+	morrowind.esm       LIGH    light_logpile10
+	morrowind.esm       LIGH    light_sconce00_128
+	morrowind.esm       LIGH    light_sconce00_200
+	morrowind.esm       LIGH    light_sconce00_256
+	morrowind.esm       LIGH    light_tikilamp_256
+	morrowind.esm       LIGH    light_tikitorch00_256
+	morrowind.esm       LIGH    light_velothi_brazier_128
+	morrowind.esm       LIGH    red_512_pulse
+	morrowind.esm       MISC    misc_com_plate_05
+	morrowind.esm       MISC    misc_com_plate_08
+	morrowind.esm       MISC    misc_com_redware_plate
+	morrowind.esm       MISC    misc_com_silverware_fork
+	morrowind.esm       MISC    misc_com_silverware_knife
+	morrowind.esm       MISC    misc_com_silverware_spoon
+	morrowind.esm       STAT    dwrv_mechhead00
+	morrowind.esm       STAT    dwrv_mechlhand00
+	morrowind.esm       STAT    dwrv_mechrhand00
+	morrowind.esm       STAT    ex_coiled_rope
+	morrowind.esm       STAT    ex_common_building_03
+	morrowind.esm       STAT    ex_common_plat_lrg
+	morrowind.esm       STAT    ex_common_tower_thatch
+	morrowind.esm       STAT    ex_common_window_03
+	morrowind.esm       STAT    ex_dae_azura
+	morrowind.esm       STAT    ex_dae_b_bo_head
+	morrowind.esm       STAT    ex_dae_boethiah
+	morrowind.esm       STAT    ex_dae_malacath_attack
+	morrowind.esm       STAT    ex_dae_mehrunesdagon
+	morrowind.esm       STAT    ex_dae_molagbal
+	morrowind.esm       STAT    ex_de_docks_128
+	morrowind.esm       STAT    ex_de_shack_plank_02
+	morrowind.esm       STAT    ex_de_shack_plank_04
+	morrowind.esm       STAT    ex_de_shipwreck
+	morrowind.esm       STAT    ex_dwrv_cosmo00
+	morrowind.esm       STAT    ex_dwrv_ruin_tower00
+	morrowind.esm       STAT    ex_emp_tower_01
+	morrowind.esm       STAT    ex_imp_bridge_01
+	morrowind.esm       STAT    ex_imp_bridge_02
+	morrowind.esm       STAT    ex_imp_foundation_01
+	morrowind.esm       STAT    ex_imp_foundation_02
+	morrowind.esm       STAT    ex_imp_guardtower_01
+	morrowind.esm       STAT    ex_imp_guardtower_02
+	morrowind.esm       STAT    ex_imp_keep_01
+	morrowind.esm       STAT    ex_imp_mooring_01
+	morrowind.esm       STAT    ex_imp_plat_01
+	morrowind.esm       STAT    ex_imp_plaza
+	morrowind.esm       STAT    ex_imp_towerb_roof_pitch
+	morrowind.esm       STAT    ex_imp_wall_01
+	morrowind.esm       STAT    ex_imp_wall_arch_01
+	morrowind.esm       STAT    ex_imp_wallent_02
+	morrowind.esm       STAT    ex_nord_doorf_01
+	morrowind.esm       STAT    ex_ropebridge_1024_01
+	morrowind.esm       STAT    ex_t_stair_spiral
+	morrowind.esm       STAT    flora_bc_moss_16
+	morrowind.esm       STAT    flora_tree_gl_03
+	morrowind.esm       STAT    flora_tree_gl_11
+	morrowind.esm       STAT    furn_bone_rib_01
+	morrowind.esm       STAT    furn_bone_skull_01
+	morrowind.esm       STAT    furn_bone_stake00
+	morrowind.esm       STAT    furn_c_t_akatosh_01
+	morrowind.esm       STAT    furn_c_t_apprentice_01
+	morrowind.esm       STAT    furn_c_t_arkay_01
+	morrowind.esm       STAT    furn_c_t_dibella_01
+	morrowind.esm       STAT    furn_c_t_golem_01
+	morrowind.esm       STAT    furn_c_t_julianos_01
+	morrowind.esm       STAT    furn_c_t_kynareth_01
+	morrowind.esm       STAT    furn_c_t_lady_01
+	morrowind.esm       STAT    furn_c_t_lord_01
+	morrowind.esm       STAT    furn_c_t_lover_01
+	morrowind.esm       STAT    furn_c_t_mara_01
+	morrowind.esm       STAT    furn_c_t_ritual_01
+	morrowind.esm       STAT    furn_c_t_shadow_01
+	morrowind.esm       STAT    furn_c_t_steed_01
+	morrowind.esm       STAT    furn_c_t_theif_01
+	morrowind.esm       STAT    furn_com_coatofarms_01
+	morrowind.esm       STAT    furn_com_coatofarms_02
+	morrowind.esm       STAT    furn_com_p_table_01
+	morrowind.esm       STAT    furn_com_r_chair_01
+	morrowind.esm       STAT    furn_com_r_table_01
+	morrowind.esm       STAT    furn_com_rm_bench_02
+	morrowind.esm       STAT    furn_com_rm_table_04
+	morrowind.esm       STAT    furn_com_rm_winerack
+	morrowind.esm       STAT    furn_com_tapestry_01
+	morrowind.esm       STAT    furn_com_tapestry_05
+	morrowind.esm       STAT    furn_de_cushion_round_01
+	morrowind.esm       STAT    furn_de_cushion_square_07
+	morrowind.esm       STAT    furn_de_cushion_square_09
+	morrowind.esm       STAT    furn_de_lecturn
+	morrowind.esm       STAT    furn_de_pathspear_01
+	morrowind.esm       STAT    furn_de_practice_mat
+	morrowind.esm       STAT    furn_de_rope_07
+	morrowind.esm       STAT    furn_de_rug_big_02
+	morrowind.esm       STAT    furn_de_rug_big_08
+	morrowind.esm       STAT    furn_de_rug_big_09
+	morrowind.esm       STAT    furn_de_tapestry_11
+	morrowind.esm       STAT    furn_de_tapestry_13
+	morrowind.esm       STAT    furn_dwrv_well00
+	morrowind.esm       STAT    furn_imp_altar_01
+	morrowind.esm       STAT    furn_imp_stoneblock_01
+	morrowind.esm       STAT    furn_mist256
+	morrowind.esm       STAT    furn_scrapwood01
+	morrowind.esm       STAT    furn_web00
+	morrowind.esm       STAT    furn_web10
+	morrowind.esm       STAT    furn_woodbar_01
+	morrowind.esm       STAT    in_c_djamb_plain_arched
+	morrowind.esm       STAT    in_c_djamb_rich_arched
+	morrowind.esm       STAT    in_c_djamb_rp_arched
+	morrowind.esm       STAT    in_c_doorframe_01
+	morrowind.esm       STAT    in_c_pillar_stone
+	morrowind.esm       STAT    in_c_rich_room_center
+	morrowind.esm       STAT    in_c_rich_room_corner
+	morrowind.esm       STAT    in_c_rich_room_entry
+	morrowind.esm       STAT    in_c_rich_room_pcorner2
+	morrowind.esm       STAT    in_c_rich_room_pendside
+	morrowind.esm       STAT    in_c_rich_room_pendside2
+	morrowind.esm       STAT    in_c_rich_room_pside
+	morrowind.esm       STAT    in_c_rich_room_side
+	morrowind.esm       STAT    in_c_stair_plain_tall_02
+	morrowind.esm       STAT    in_c_stone_3way
+	morrowind.esm       STAT    in_c_stone_corner
+	morrowind.esm       STAT    in_c_stone_endcap
+	morrowind.esm       STAT    in_c_stone_hall_small
+	morrowind.esm       STAT    in_c_stone_room_center
+	morrowind.esm       STAT    in_c_stone_room_corner
+	morrowind.esm       STAT    in_c_stone_stair_short
+	morrowind.esm       STAT    in_c_wall_plain
+	morrowind.esm       STAT    in_common_tower_thatch3
+	morrowind.esm       STAT    in_dwrv_gear00
+	morrowind.esm       STAT    in_dwrv_scope30
+	morrowind.esm       STAT    in_dwrv_scope40
+	morrowind.esm       STAT    in_imp_fireplace_grand
+	morrowind.esm       STAT    in_impbig_4way_01
+	morrowind.esm       STAT    in_impbig_wall_01
+	morrowind.esm       STAT    in_impsmall_3way_01
+	morrowind.esm       STAT    in_impsmall_4way_01
+	morrowind.esm       STAT    in_impsmall_corner_01
+	morrowind.esm       STAT    in_impsmall_doorjam_01
+	morrowind.esm       STAT    in_impsmall_endcap_01
+	morrowind.esm       STAT    in_impsmall_hall_01
+	morrowind.esm       STAT    in_impsmall_r_corner_01
+	morrowind.esm       STAT    in_impsmall_r_pillar_01
+	morrowind.esm       STAT    in_impsmall_spiral_01
+	morrowind.esm       STAT    in_impsmall_spiral_bot_01
+	morrowind.esm       STAT    in_impsmall_spiral_end_01
+	morrowind.esm       STAT    in_impsmall_wall_01
+	morrowind.esm       STAT    in_lava_blacksquare
+	morrowind.esm       STAT    in_mudcave2_s_05
+	morrowind.esm       STAT    in_mudcave2_s_end
+	morrowind.esm       STAT    in_nord_house_01
+	morrowind.esm       STAT    in_nord_house_02
+	morrowind.esm       STAT    in_nord_house_03
+	morrowind.esm       STAT    in_nord_house_04
+	morrowind.esm       STAT    in_nord_ladder_02
+	morrowind.esm       STAT    in_r_l_int_column_01
+	morrowind.esm       STAT    in_vivec_grate_01
+	morrowind.esm       STAT    terrain_rock_ac_01
+	morrowind.esm       STAT    terrain_rock_ac_03
+	morrowind.esm       STAT    terrain_rock_ac_12
+	morrowind.esm       STAT    terrain_rock_ai_06
+	morrowind.esm       STAT    terrain_rock_bc_09
+	morrowind.esm       STAT    terrain_rock_ma_550
+	morrowind.esm       WEAP    iron dagger
+	morrowind.esm       WEAP    iron spear
+	morrowind.esm       WEAP    silver dagger
+	morrowind.esm       WEAP    steel axe
+	morrowind.esm       WEAP    steel dai-katana
+	morrowind.esm       WEAP    steel longsword
+	morrowind.esm       WEAP    steel spear
+	tribunal.esm        ACTI    active_6th_bell_01
+	tribunal.esm        ACTI    active_de_r_bed_01
+	tribunal.esm        ACTI    furn_de_bar_01
+	tribunal.esm        ACTI    furn_de_bar_04
+	tribunal.esm        BOOK    bk_childrensanuad
+	tribunal.esm        BOOK    bk_saryonissermons
+	tribunal.esm        DOOR    ex_nord_door_01
+	tribunal.esm        DOOR    ex_r_pcfort_d_02
+	tribunal.esm        DOOR    in_de_shack_door
+	tribunal.esm        DOOR    in_de_shack_trapdoor
+	tribunal.esm        DOOR    in_impsmall_d_cave_01
+	tribunal.esm        DOOR    in_impsmall_door_01
+	tribunal.esm        MISC    misc_skull00
+	tribunal.esm        MISC    misc_uni_pillow_01
+	tribunal.esm        STAT    ex_ship_plank
+	tribunal.esm        STAT    ex_vivec_p_water_01
+	tribunal.esm        STAT    furn_com_r_bookshelf_01
+	tribunal.esm        WEAP    steel battle axe
+	tribunal.esm        WEAP    steel broadsword
+	tribunal.esm        WEAP    steel mace
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    rm_rock_03
+	morrowind.esm       ACTI    a_ex_de_oar
+	morrowind.esm       ARMO    daedric_towershield
+	morrowind.esm       CREA    daedroth
+	morrowind.esm       CREA    ogrim
+	morrowind.esm       CREA    skeleton archer
+	morrowind.esm       LAND    (-10, -7)
+	morrowind.esm       LAND    (-10, -8)
+	morrowind.esm       LAND    (-10, -9)
+	morrowind.esm       LAND    (-8, -7)
+	morrowind.esm       LAND    (-8, -8)
+	morrowind.esm       LAND    (-8, -9)
+	morrowind.esm       LAND    (-9, -7)
+	morrowind.esm       LAND    (-9, -8)
+	morrowind.esm       LAND    (-9, -9)
+	morrowind.esm       LIGH    blue candle bulb_128
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       NPC_    berne vampire 5
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=190592792723126084(Greeting:greeting 1)
+  |DATA|ONAM:Furius Acilius|NAME:What are you doing here? Those bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay. And you will tell no one!|BNAM:SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=3832139402051823602(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.|SCVR:01433|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Go to Jail.", 2, "Resist Arrest.", 3
+
+[DUP-INF]: ID=12131319582389432117(Greeting:greeting 9)
+  |DATA|NAME:It is truly a pleasure to see you.|SCVR:03sX3NoLore|INTV:|BNAM:;added to prevent some bad no lore greetings.

@@ -1,0 +1,50 @@
+Suvanto's Wondrous Shop of Curious Creations.esp: AUTOSPL DUP-INF DUP-REC EXP-DEP GETSND MENUMOD MISSAUT MISSDSC MISSVER NUMRECS OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	sp_suvanto_inductor_0          Inductor Transferred Resistance
+    [NUMRECS]: number of records in TES3.HEDR (123) != Actual count (122)
+    [EXP-DEP] Expansion Dependency: Startup Script: sve_inductor_pc_script
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(sve_blackwoodword_script)       hasitemequipped
+	SCPT(sve_bookwormblade_script)       forcerun
+	SCPT(sve_bookwormblade_script)       hasitemequipped
+	SCPT(sve_dae3head_script)            hasitemequipped
+	SCPT(sve_exhaustingpauld_script)     hasitemequipped
+	SCPT(sve_inductor_cont_script)       setdelete
+	SCPT(sve_inductor_misc_script)       setdelete
+	SCPT(sve_mechastaff_script)          hasitemequipped
+	SCPT(sve_mechastaff_script)          setdelete
+	SCPT(sve_obstructingdoor_script)     setdelete
+	SCPT(sve_orgishmask_script)          hasitemequipped
+	SCPT(sve_railhammer_script)          hasitemequipped
+	SCPT(sve_sparkstick_script)          getscale
+	SCPT(sve_sparkstick_script)          hasitemequipped
+	SCPT(sve_sparkstick_script)          setscale
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(sve_bookwormblade_script)
+	SCPT(sve_mechastaff_script)
+	SCPT(sve_railhammer_script)
+	SCPT(sve_sparkstick_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Sound_Crab)
+	SCPT(sve_blackwoodword_script)
+	SCPT(sve_bookwormblade_script)
+	SCPT(sve_dae3head_script)
+	SCPT(sve_exhaustingpauld_script)
+	SCPT(sve_get_pc_soulgem_status)
+	SCPT(sve_inductor_misc_script)
+	SCPT(sve_inductor_pc_script)
+	SCPT(sve_mechastaff_script)
+	SCPT(sve_obstructingkey_script)
+	SCPT(sve_orgishmask_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       GMST    seffectweaknesstocorprusdisease
+	morrowind.esm       MGEF    34
+	morrowind.esm       NPC_    arrille
+	morrowind.esm       NPC_    clagius clanler
+	morrowind.esm       PGRD    bthanchend
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        GLOB    abelmawiacounter
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:

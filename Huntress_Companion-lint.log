@@ -1,0 +1,24 @@
+Huntress_Companion.ESP: DUP-INF DUP-REC GETSND MENUMOD MISSDSC MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(0s_huntress_companion_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(0s_yara_potion_script_fly)
+	SCPT(0s_yara_potion_script_heal)
+	SCPT(0s_yara_potion_script_light)
+	SCPT(0s_yara_star_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    travel together
+
+[DUP-INF]: ID=62342927712254319(Greeting:greeting 0)
+  |DATA|ONAM:agronian guy|NAME:I don't want to talk about it.|BNAM:Goodbye
+
+[DUP-INF]: ID=227322281661726892(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:What are you doing! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+
+[DUP-INF]: ID=311882790128006716(Topic:travel together)
+  |DATA|ONAM:saenus lusius|NAME:We should continue to travel together, should we not?|SCVR:04JX3BM_Smugglers|INTV: |SCVR:12sX3luciuschosen|INTV|BNAM:Choice "Yes, we should." 1 "No. Wait here." 2
+
+[DUP-INF]: ID=1627714415913516768(Topic:travel together)
+  |DATA|ONAM:habasi|NAME:Habasi hears you broke our agreement. Habasi does not want to speak with you now.|SCVR:01390|INTV

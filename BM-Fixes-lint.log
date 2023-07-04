@@ -1,0 +1,22 @@
+BM-Fixes.esp: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (8) != Actual count (6)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    solstheim
+	tribunal.esm        NPC_    sjoring hard-heart
+
+[MOD-INF]: ID=1169922125955110917(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  BM-Fixes.esp-->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=2278720479126556737(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2
+  BM-Fixes.esp-->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2798917491184915920(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  BM-Fixes.esp-->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=3095424884419930413(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  BM-Fixes.esp-->|DATA|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50

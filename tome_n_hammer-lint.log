@@ -1,0 +1,13 @@
+tome_n_hammer.esp: DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(MU_ToSM_Rat_Scr)                setdelete
+	SCPT(MU_ToSM_Rat_Scr)                setscale
+	SCPT(eh_RatScr)                      setdelete
+	SCPT(eh_RatScr)                      setscale
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MU_ToSM_Port_Scr)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       GMST    snotifymessage12
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 9

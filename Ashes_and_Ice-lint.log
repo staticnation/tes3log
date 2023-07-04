@@ -1,0 +1,53 @@
+Ashes_and_Ice.ESP: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MM_SelesDeath)
+	SCPT(MM_base1door1)
+	SCPT(MM_base1door2)
+	SCPT(MM_base1door3)
+	SCPT(MM_door01_script)
+	SCPT(MM_door02_script)
+	SCPT(MM_door03_script)
+	SCPT(MM_doorout)
+	SCPT(MM_dooroutFinal)
+	SCPT(MM_idol01)
+	SCPT(MM_idol01_spawn)
+	SCPT(MM_idol02)
+	SCPT(MM_idol03)
+	SCPT(MM_idol03_spawn)
+	SCPT(MM_lesserdamage)
+	SCPT(MM_note01_script)
+	SCPT(MM_note02_script)
+	SCPT(MM_note03_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LEVC    bm_ex_berserkers
+	bloodmoon.esm       LEVC    bm_ex_hirforest
+	bloodmoon.esm       LEVC    bm_ex_hirforest_40
+	bloodmoon.esm       LEVC    bm_ex_hirforest_60
+	bloodmoon.esm       LEVC    bm_ex_hirforest_sleep
+	bloodmoon.esm       LEVC    bm_ex_isinplains
+	bloodmoon.esm       LEVC    bm_ex_isinplains_40
+	bloodmoon.esm       LEVC    bm_ex_isinplains_60
+	bloodmoon.esm       LEVC    bm_ex_isinplains_sleep
+	bloodmoon.esm       LEVC    bm_ex_wolfpack
+	bloodmoon.esm       LEVC    bm_ex_wolfpack_20
+	bloodmoon.esm       LEVC    bm_ex_wolfpack_40
+	bloodmoon.esm       LEVC    bm_ex_wolfpack_60
+	bloodmoon.esm       LEVC    bm_in_berserker_20
+	bloodmoon.esm       LEVC    bm_in_berserker_40
+	bloodmoon.esm       LEVC    bm_in_berserker_60
+	morrowind.esm       LAND    (5, 9)
+	morrowind.esm       LTEX    ma_crackedearth
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

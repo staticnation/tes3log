@@ -1,0 +1,105 @@
+UADF.ESP: DUP-INF DUP-REC JUNKCEL MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    solstheim
+	morrowind.esm       DIAL    aengoth the jeweler
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+
+[MOD-INF]: ID=6923112947019593(Topic:latest rumors)
+  bloodmoon.esm->|DATA|RNAM:Imperial|NAME:My son was recently shipped up to Fort Frostmoth on the island of Solstheim. I don't know what he did to deserve that, but it couldn't have been good.|SCVR:04JX4BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+  UADF.ESP------>|DATA|ONAM:imperial templar_ebon|NAME:My son was recently shipped up to Fort Frostmoth on the island of Solstheim. I don't know what he did to deserve that, but it couldn't have been good.|SCVR:04JX4BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+
+[MOD-INF]: ID=175649058167116682(Topic:almalexia)
+  tribunal.esm->|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:14JX3C3_DestroyDagoth|INTV:2|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia, Sotha Sil, and Vivec dead." 5 "I found Sotha Sil dead, and killed Almalexia and Vivec." 6 "Thank you, but I must be going." 4
+  UADF.ESP----->|DATA|FNAM:Temple|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:14JX3C3_DestroyDagoth|INTV:2|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia, Sotha Sil, and Vivec dead." 5 "I found Sotha Sil dead, and killed Almalexia and Vivec." 6 "Thank you, but I must be going." 4
+
+[DUP-INF]: ID=204742720878185776(Topic:solstheim)
+  |DATA|ANAM:Khuul|NAME:You want to go to Solstheim? Look around the docks for S'virr. His boat can get you there.|SCVR:04JX4BM_Rumors|INTV:d
+
+[MOD-INF]: ID=1169922125955110917(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  UADF.ESP------>|DATA|CNAM:Agent|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=1629530673227419863(Topic:almalexia)
+  tribunal.esm->|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:06DX3vivec_god|INTV|BNAM:Choice "I killed Vivec." 7 "[Lie] I found Vivec dead." 8 "Thank you, but I must be going." 4
+  UADF.ESP----->|DATA|FNAM:Temple|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:06DX3vivec_god|INTV|BNAM:Choice "I killed Vivec." 7 "[Lie] I found Vivec dead." 8 "Thank you, but I must be going." 4
+
+[MOD-INF]: ID=2066941002246624310(Topic:almalexia)
+  tribunal.esm->|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:04JX3TR_SothaSil|INTV:d|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia and Sotha Sil dead." 2 "Thank you, but I must be going." 4
+  UADF.ESP----->|DATA|FNAM:Temple|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:04JX3TR_SothaSil|INTV:d|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia and Sotha Sil dead." 2 "Thank you, but I must be going." 4
+
+[MOD-INF]: ID=2195033431462926284(Topic:almalexia)
+  tribunal.esm->|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:06DX3vivec_god|INTV|BNAM:Choice "I killed Vivec." 7 "[Lie] I found Vivec dead." 8 "Thank you, but I must be going." 4
+  UADF.ESP----->|DATA|RNAM:Dark Elf|FNAM:Temple|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:06DX3vivec_god|INTV|BNAM:Choice "I killed Vivec." 7 "[Lie] I found Vivec dead." 8 "Thank you, but I must be going." 4
+
+[MOD-INF]: ID=2278720479126556737(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2
+  UADF.ESP------>|DATA|ONAM:imperial templar_ebon|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2278720479126556737(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2
+  UADF.ESP------>|DATA|ONAM:imperial templar_ebon|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:
+[MOD-IID]: ID=118098841134884123
+  UADF.ESP------>A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.
+
+[MOD-INF]: ID=2798917491184915920(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  UADF.ESP------>|DATA|CNAM:Agent|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=3095424884419930413(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  UADF.ESP------>|DATA|ONAM:imperial templar_ebon|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=3103210864206706477(Topic:latest rumors)
+  bloodmoon.esm->|DATA|RNAM:Dark Elf|NAME:I've been told that the Empire has granted a new charter to do some mining on the island of Solstheim. Why anyone would want to go there is beyond me.|SCVR:04JX0BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:
+  UADF.ESP------>|DATA|ANAM:Khuul|NAME:I've been told that the Empire has granted a new charter to do some mining on the island of Solstheim. Why anyone would want to go there is beyond me.|SCVR:04JX0BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=10523257602618114965(Topic:aengoth the jeweler)
+  morrowind.esm->|DATA|ANAM:Ald-ruhn|DNAM:Thieves Guild|NAME:Check The Rat in the Pot. That's all I know.|SCVR:06DX0aengoth|INTV:
+  UADF.ESP------>|DATA|ANAM:Ald-ruhn|DNAM:Thieves Guild|NAME:Check The Rat in the Pot. That's all I know.|SCVR:06DX0aengoth|INTV:|SCVR:13sX0NoLore|INTV:
+
+[MOD-INF]: ID=10767237971994314567(Greeting:greeting 7)
+  tribunal.esm->|DATA|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:moddisposition 10
+  UADF.ESP----->|DATA|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:11630|INTV:|BNAM:moddisposition 10
+
+[MOD-INF]: ID=20015290041692611864(Topic:aengoth the jeweler)
+  morrowind.esm->|DATA|ANAM:Ald-ruhn|DNAM:Thieves Guild|NAME:I have nothing to say about that now.|SCVR:06DX0aengoth|INTV:
+  UADF.ESP------>|DATA|ANAM:Ald-ruhn|DNAM:Thieves Guild|NAME:I have nothing to say about that now.|SCVR:06DX0aengoth|INTV:|SCVR:13sX0NoLore|INTV:
+
+[MOD-INF]: ID=23494278341976926273(Greeting:greeting 7)
+  tribunal.esm->|DATA|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+  UADF.ESP----->|DATA|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:11630|INTV:
+
+[MOD-INF]: ID=27854294722000614405(Topic:almalexia)
+  tribunal.esm->|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:14JX3C3_DestroyDagoth|INTV:2|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia, Sotha Sil, and Vivec dead." 5 "I found Sotha Sil dead, and killed Almalexia and Vivec." 6 "Thank you, but I must be going." 4
+  UADF.ESP----->|DATA|RNAM:Dark Elf|FNAM:Temple|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:14JX3C3_DestroyDagoth|INTV:2|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia, Sotha Sil, and Vivec dead." 5 "I found Sotha Sil dead, and killed Almalexia and Vivec." 6 "Thank you, but I must be going." 4
+
+[MOD-INF]: ID=29678150921094025770(Topic:latest rumors)
+  bloodmoon.esm->|DATA|NAME:I heard there has been some trouble up at Fort Frostmoth. Never heard of it? It's on an island called Solstheim north of Vvardenfell.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+  UADF.ESP------>|DATA|CNAM:Agent|NAME:I heard there has been some trouble up at Fort Frostmoth. Never heard of it? It's on an island called Solstheim north of Vvardenfell.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+
+[MOD-INF]: ID=30990172302627631518(Topic:almalexia)
+  tribunal.esm->|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:04JX3TR_SothaSil|INTV:d|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia and Sotha Sil dead." 2 "Thank you, but I must be going." 4
+  UADF.ESP----->|DATA|RNAM:Dark Elf|FNAM:Temple|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:04JX3TR_SothaSil|INTV:d|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia and Sotha Sil dead." 2 "Thank you, but I must be going." 4

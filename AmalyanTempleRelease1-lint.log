@@ -1,0 +1,104 @@
+AmalyanTempleRelease1.esp: AUTOSPL DUP-INF DUP-REC JUNKCEL MASTERS MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tribunal.esm                 4554200 (plugin)    4565686 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	aa_amalyan_benediction         Amalyan Benediction
+	aa_amalyan_grace               Amalyan Grace
+	aa_amalyan_mercy               Amalyan Mercy
+	aa_amalyan_metta               Amalyan Metta
+    [NUMRECS]: number of records in TES3.HEDR (323) != Actual count (315)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CymricNoPocket)
+	SCPT(ElfredTopic)
+	SCPT(MasterBlock)
+	SCPT(Sound_Water)
+	SCPT(SwordStuck)
+	SCPT(masserkey)
+	SCPT(masserkey2)
+	SCPT(masserkey3)
+	SCPT(orddir)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (0, 15)                  0x02
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-12, 11)               0x02
+	West Gash Region (-14, 10)               0x02
+	West Gash Region (-14, 8)                0x02
+	West Gash Region (-14, 9)                0x02
+	West Gash Region (-15, 10)               0x02
+	West Gash Region (-15, 7)                0x02
+	Wilderness (-15, -8)                     0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    background
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    smora_fara_door
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       BOOK    bk_treasuryreport
+	morrowind.esm       DIAL    go free
+	morrowind.esm       LAND    (-14, 10)
+	morrowind.esm       LAND    (-14, 8)
+	morrowind.esm       LAND    (-14, 9)
+	morrowind.esm       LAND    (-15, 10)
+	morrowind.esm       LAND    (-15, 8)
+	morrowind.esm       LAND    (-15, 9)
+	morrowind.esm       LAND    (-16, 10)
+	morrowind.esm       LAND    (-16, 9)
+	morrowind.esm       LAND    (-17, 10)
+	morrowind.esm       LAND    (-17, 9)
+	morrowind.esm       LIGH    green light
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       NPC_    lloros sarano
+	morrowind.esm       NPC_    miraso seran
+	morrowind.esm       PGRD    west gash region
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        NPC_    danaronea daryon
+	tribunal.esm        NPC_    elbert nermarc
+
+[DUP-INF]: ID=128279104427445(Topic:latest rumors)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=170598881205997120(Greeting:greeting 7)
+  |DATA|CNAM:Buoyant Armiger|NAME:Greetings, %PCName. The Archcanon has announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. We have orders to provide maps and intelligence on conditions inside the Ghostfence. Tell me if you want someone in particular, services, or a specific place. I can help you if you are on pilgrimage here. Shall I tell you about my trade?|SCVR:04JX3B8_MeetVivec|INTV:2|SCVR:14JX4C3_DestroyDagoth|INTV:2|BNAM:;buoyant armigers; ghostfence; Journal B8_MeetVivec >= 50; disp 30
+
+[DUP-INF]: ID=267091420155215554(Topic:go free)
+  |DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_hlormarenslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=495518295322716947(Greeting:greeting 7)
+  |DATA|ONAM:thaeril|NAME:Good day. I'm Thaeril, publican of The Covenant here in Tel Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Thaeril
+
+[DUP-INF]: ID=666731499111789993(Topic:background)
+  |DATA|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=2847517866258810790(Topic:go free)
+  |DATA|CNAM:Slave|NAME:I am sorry. Please forgive me.|SCVR:01500|INTV
+
+[MOD-INF]: ID=5153114063062417325(Topic:little secret)
+  tribunal.esm-------------->|DATA|FNAM:Temple|NAME:I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  AmalyanTempleRelease1.esp->|DATA|FNAM:Temple|NAME:I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

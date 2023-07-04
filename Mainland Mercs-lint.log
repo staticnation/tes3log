@@ -1,0 +1,32 @@
+Mainland Mercs.ESP: DUP-REC GETSND MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             6773614 (plugin)   11064795 (installed size)
+	TR_Mainland.esm             95505614 (plugin)  163244128 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(0_merc_archer01_script)
+	SCPT(0_merc_monk01_script)
+	SCPT(0_merc_sorc01_script)
+	SCPT(0_merc_warr01_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(0_merc_arch01_stat)
+	SCPT(0_merc_archer01_Lvl)
+	SCPT(0_merc_archer01_failsafe)
+	SCPT(0_merc_guar01_cleanup)
+	SCPT(0_merc_guar01_lvl)
+	SCPT(0_merc_monk01_failsafe)
+	SCPT(0_merc_monk01_stat)
+	SCPT(0_merc_sorc01_Lvl)
+	SCPT(0_merc_sorc01_failsafe)
+	SCPT(0_merc_sorc01_stat)
+	SCPT(0_merc_warr01_Lvl)
+	SCPT(0_merc_warr01_failsafe)
+	SCPT(0_merc_warr01_stat)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CLOT    common_pants_01_e
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    available for hire
+	tribunal.esm        DIAL    change the plan
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    hello

@@ -1,0 +1,108 @@
+Compiled Bug Fixes.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Colony_Spriggan_Check)
+	SCPT(Colony_Spriggan_Count)
+	SCPT(CorkyScript)
+	SCPT(UAH_ALMSIVI)
+	SCPT(dinScript)
+	SCPT(drerel_indaren)
+	SCPT(fonus_rathryon)
+	SCPT(hannatScript)
+	SCPT(nevrasa_dralor)
+	SCPT(paur_maston)
+	SCPT(pemenieScript)
+	SCPT(rabinna_death)
+	SCPT(reeh_jahScript)
+	SCPT(rollie)
+	SCPT(slaveScript)
+	SCPT(tulScript)
+	SCPT(viatrix_petilia)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    colony flora_tree_bm_snow_05_s3
+	bloodmoon.esm       DIAL    solstheim
+	morrowind.esm       CREA    guar_llovyn_unique
+	morrowind.esm       NPC_    assaba-bentus
+	morrowind.esm       NPC_    botrir
+	morrowind.esm       NPC_    dandsa
+	morrowind.esm       NPC_    delyna mandas
+	morrowind.esm       NPC_    deval beleth
+	morrowind.esm       NPC_    din
+	morrowind.esm       NPC_    drerel indaren
+	morrowind.esm       NPC_    edras oril
+	morrowind.esm       NPC_    falura llervu
+	morrowind.esm       NPC_    fjorgeir
+	morrowind.esm       NPC_    fonus rathryon
+	morrowind.esm       NPC_    frelene acques
+	morrowind.esm       NPC_    hannat zainsubani
+	morrowind.esm       NPC_    hides_his_foot
+	morrowind.esm       NPC_    hlormar wine-sot
+	morrowind.esm       NPC_    huleeya
+	morrowind.esm       NPC_    itermerel
+	morrowind.esm       NPC_    j_saddha
+	morrowind.esm       NPC_    larienna macrina
+	morrowind.esm       NPC_    llovyn andus
+	morrowind.esm       NPC_    madura seran
+	morrowind.esm       NPC_    malexa
+	morrowind.esm       NPC_    mathis dalobar
+	morrowind.esm       NPC_    nartise arobar
+	morrowind.esm       NPC_    nevrasa dralor
+	morrowind.esm       NPC_    paur maston
+	morrowind.esm       NPC_    pemenie
+	morrowind.esm       NPC_    rabinna
+	morrowind.esm       NPC_    ragash gra-shuzgub
+	morrowind.esm       NPC_    reeh_jah
+	morrowind.esm       NPC_    saprius entius
+	morrowind.esm       NPC_    satyana
+	morrowind.esm       NPC_    sinnammu mirpal
+	morrowind.esm       NPC_    sondaale of shimmerene
+	morrowind.esm       NPC_    tarvyn faren
+	morrowind.esm       NPC_    tenyeminwe
+	morrowind.esm       NPC_    teres arothan
+	morrowind.esm       NPC_    teris raledran
+	morrowind.esm       NPC_    tul
+	morrowind.esm       NPC_    ulyne henim
+	morrowind.esm       NPC_    varvur sarethi
+	morrowind.esm       NPC_    vedelea othril
+	morrowind.esm       NPC_    viatrix petilia
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    missing hand
+	tribunal.esm        DIAL    travel together
+
+[MOD-INF]: ID=6923112947019593(Topic:latest rumors)
+  bloodmoon.esm---------->|DATA|RNAM:Imperial|NAME:My son was recently shipped up to Fort Frostmoth on the island of Solstheim. I don't know what he did to deserve that, but it couldn't have been good.|SCVR:04JX4BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+  Compiled Bug Fixes.ESP->|DATA|ONAM:imperial templar_ebon|NAME:My son was recently shipped up to Fort Frostmoth on the island of Solstheim. I don't know what he did to deserve that, but it couldn't have been good.|SCVR:04JX4BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+
+[MOD-INF]: ID=124283934202030553(Greeting:greeting 5)
+  morrowind.esm---------->|DATA|ONAM:Satyana|NAME:Great. Thanks, %PCName. I'm going to stay here and explore a bit. Good luck to you.|SCVR:01500|INTV|SCVR:34JX3MS_ArenimTomb|INTV:2|BNAM:Journal MS_ArenimTomb 100  ModDisposition 15  Player->RemoveItem "amulet_Agustas_unique" 1  AddItem "amulet_Agustas_unique" 1  AiWander 256 0 0 40 30 20 0 0 0 0 0 0
+  Compiled Bug Fixes.ESP->|DATA|ONAM:Satyana|NAME:Great. Thanks, %PCName. I'm going to stay here and explore a bit. Good luck to you.|SCVR:01500|INTV|SCVR:34JX3MS_ArenimTomb|INTV:2|BNAM:Journal MS_ArenimTomb 100  ModDisposition 15  Player->RemoveItem "amulet_Agustas_unique" 1  AddItem "amulet_Agustas_unique" 1  SetSpeed 75  AiWander 256 0 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=1169922125955110917(Topic:solstheim)
+  bloodmoon.esm---------->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  Compiled Bug Fixes.ESP->|DATA|CNAM:Agent|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=2798917491184915920(Topic:solstheim)
+  bloodmoon.esm---------->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  Compiled Bug Fixes.ESP->|DATA|CNAM:Agent|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=3059216781478229821(:missing hand)
+  tribunal.esm----------->|DATA|NAME:One of my most faithful guards, one of my very own Hands of Almalexia, pledged to honor and protect and serve me in all ways, has lost his mind. Salas Valor has abandoned me, and now spews vile and slanderous untruths about me to any who would listen. I pity him, and know he is not responsible for his actions. To view the splendor of a god may drive even the strongest mortal mad. But now he presents a threat to us, and he is very dangerous. I fear you may not be able to spare his life.|BNAM:Choice "Continue" 1
+  Compiled Bug Fixes.ESP->|NAME:One of my most faithful guards, one of my very own Hands of Almalexia, pledged to honor and protect and serve me in all ways, has lost his mind. Salas Valor has abandoned me, and now spews vile and slanderous untruths about me to any who would listen. I pity him, and know he is not responsible for his actions. To view the splendor of a god may drive even the strongest mortal mad. But now he presents a threat to us, and he is very dangerous. I fear you may not be able to spare his life.|DELE:
+
+[MOD-INF]: ID=3083031291644815712(Greeting:greeting 5)
+  morrowind.esm---------->|DATA|ONAM:Satyana|NAME:Thanks, %PCName. It was a real pleasure working with you.|SCVR:34JX3MS_ArenimTomb|INTV:d|BNAM:AiWander 256 0 0 40 30 20 0 0 0 0 0 0
+  Compiled Bug Fixes.ESP->|DATA|ONAM:Satyana|NAME:Thanks, %PCName. It was a real pleasure working with you.|SCVR:34JX3MS_ArenimTomb|INTV:d|BNAM:SetSpeed 75  AiWander 256 0 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=3103210864206706477(Topic:latest rumors)
+  bloodmoon.esm---------->|DATA|RNAM:Dark Elf|NAME:I've been told that the Empire has granted a new charter to do some mining on the island of Solstheim. Why anyone would want to go there is beyond me.|SCVR:04JX0BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:
+  Compiled Bug Fixes.ESP->|DATA|ANAM:Khuul|NAME:I've been told that the Empire has granted a new charter to do some mining on the island of Solstheim. Why anyone would want to go there is beyond me.|SCVR:04JX0BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=6646139771281410558(Topic:missing hand)
+  tribunal.esm----------->|DATA|NAME:Salas Valor is already dead? The pain is almost more than I can bear... but somehow, you have anticipated my need and served me faithfully! It is a sign! This miracle compels me to grant you a divine blessing. Would you like skin as tough as iron? Would you like the terrible force of lightning tamed as your protector? Or would you wish to always bask in warm comfort of my reflected glory? Quick, now! Choose! You must not keep your Deity waiting!|SCVR:01500|INTV|SCVR:14JX0TR_MissingHand_01|INTV:Z|BNAM:Choice "Skin like iron, please!" 2 "Tamed lightning, please!" 3 "Warm, reflected glory, please!" 4 "Uh... nothing for me, right now... but thanks." 5
+  Compiled Bug Fixes.ESP->|DATA|NAME:Salas Valor is already dead? The pain is almost more than I can bear... but somehow, you have anticipated my need and served me faithfully! It is a sign! This miracle compels me to grant you a divine blessing. Would you like skin as tough as iron? Would you like the terrible force of lightning tamed as your protector? Or would you wish to always bask in warm comfort of my reflected glory? Quick, now! Choose! You must not keep your Deity waiting!|SCVR:01500|INTV|SCVR:14JX0TR_MissingHand_01|INTV:Z|BNAM:Choice "Skin like iron, please!" 2 "Protection against paralysis, please!" 3 "Warm, reflected glory, please!" 4 "Uh... nothing for me, right now... but thanks." 5 "Tamed lightning, please!" 6
+
+[MOD-INF]: ID=29678150921094025770(Topic:latest rumors)
+  bloodmoon.esm---------->|DATA|NAME:I heard there has been some trouble up at Fort Frostmoth. Never heard of it? It's on an island called Solstheim north of Vvardenfell.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+  Compiled Bug Fixes.ESP->|DATA|CNAM:Agent|NAME:I heard there has been some trouble up at Fort Frostmoth. Never heard of it? It's on an island called Solstheim north of Vvardenfell.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10

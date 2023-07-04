@@ -1,0 +1,37 @@
+OdaiManor.ESP: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(00_OM_CedraneSaleScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_ice_03.dds
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       LAND    (-3, -2)
+	morrowind.esm       LAND    (-3, -3)
+	morrowind.esm       LAND    (-4, -2)
+	morrowind.esm       LAND    (-4, -3)
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    rm_grayrock
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

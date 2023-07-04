@@ -1,0 +1,36 @@
+Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP: DUP-REC MASTERS MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            163703637 (plugin)  163244128 (installed size)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	tamriel_data.esm    DIAL    greeting 2
+
+[MOD-INF]: ID=22915213339387850(Greeting:greeting 2)
+  tamriel_data.esm-------------------------------->|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |SCVR:23sX0T_Local_N|PCIN:|BNAM:ModFight 50  Goodbye
+  Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP->|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |SCVR:23sX0T_Local_N|PCIN:|SCVR:32sX0vampire_detected_dd|INTV|BNAM:ModFight 50  Goodbye
+
+[MOD-INF]: ID=203229044211003409(Persuasion:service refusal)
+  tamriel_data.esm-------------------------------->|DATA|FNAM:T_Cyr_MagesGuild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV|SCVR:13sX0T_Local_N|PCIN:
+  Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP->|DATA|FNAM:T_Cyr_MagesGuild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV|SCVR:13sX0T_Local_N|PCIN:|SCVR:22sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=1284248281501931197(Greeting:greeting 2)
+  tamriel_data.esm-------------------------------->|DATA|CNAM:Sorcerer|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|SCVR:01603|INTV|SCVR:13sX3TR_Map|INTV:
+  Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP->|DATA|CNAM:Sorcerer|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|SCVR:01603|INTV|SCVR:13sX3TR_Map|INTV:|SCVR:22sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=12526138981147514739(Greeting:greeting 2)
+  tamriel_data.esm-------------------------------->|DATA|CNAM:Mage|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|SCVR:01603|INTV|SCVR:13sX3TR_Map|INTV:
+  Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP->|DATA|CNAM:Mage|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|SCVR:01603|INTV|SCVR:13sX3TR_Map|INTV:|SCVR:22sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=15122230312417228636(Persuasion:service refusal)
+  tamriel_data.esm-------------------------------->|DATA|FNAM:T_Sky_MagesGuild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV|SCVR:13sX0T_Local_N|PCIN:
+  Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP->|DATA|FNAM:T_Sky_MagesGuild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV|SCVR:13sX0T_Local_N|PCIN:|SCVR:22sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=25392141901625525163(Greeting:greeting 2)
+  tamriel_data.esm-------------------------------->|DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|SCVR:13sX0T_Local_N|PCIN:|BNAM:Goodbye  ModFlee 100  ModDisposition -50
+  Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP->|DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|SCVR:13sX0T_Local_N|PCIN:|SCVR:22sX0vampire_detected_dd|INTV|BNAM:Goodbye  ModFlee 100  ModDisposition -50
+
+[MOD-INF]: ID=27335207842245712443(Persuasion:service refusal)
+  tamriel_data.esm-------------------------------->|DATA|FNAM:T_Ham_MagesGuild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV|SCVR:13sX0T_Local_N|PCIN:
+  Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP->|DATA|FNAM:T_Ham_MagesGuild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV|SCVR:13sX0T_Local_N|PCIN:|SCVR:22sX0vampire_detected_dd|INTV

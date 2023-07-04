@@ -1,0 +1,265 @@
+FGI_FinalQuests.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FGI_EydisVasTimer)
+	SCPT(FGI_LorbumolArrestTimer)
+	SCPT(FGI_LorbumolArrestedScript)
+	SCPT(FGI_PerciusLoseTrust)
+	SCPT(FGI_SjoringLoseTrust)
+	SCPT(FGI_SjoringTimer)
+	SCPT(eydisScript)
+	SCPT(lorbumolScript)
+	SCPT(sjoringScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    adraria vandacia
+	morrowind.esm       DIAL    allies
+	morrowind.esm       DIAL    eydis fire-eye
+	morrowind.esm       DIAL    fighters guild
+	morrowind.esm       DIAL    join the thieves guild
+	morrowind.esm       DIAL    lorbumol gro-aglakh
+	morrowind.esm       DIAL    master thief
+	morrowind.esm       DIAL    orvas dren
+	morrowind.esm       DIAL    rufinus alleius
+	morrowind.esm       DIAL    sjoring hard-heart
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    thieves guild bosses
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    fg_bigbosses
+	tribunal.esm        DIAL    fg_killbosses
+	tribunal.esm        DIAL    fg_silencemagistrate
+	tribunal.esm        DIAL    fg_silencetaxgirl
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        NPC_    sjoring hard-heart
+
+[MOD-INF]: ID=2248484191897682(Topic:fighters guild)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring Hard-Heart is trying to make deals with the Camonna Tong. He thinks he's using them, but I think its the other way around. These Camonna Tong bosses have been working here in Morrowind since before the Empire came. I don't think we can fool them. When I was the Master of the Fighters Guild here, I stayed out of local politics.|SCVR:34JX3FG_KillCronies|INTV: 
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring Hard-Heart is trying to make deals with the Camonna Tong. He thinks he's using them, but I think its the other way around. These Camonna Tong bosses have been working here in Morrowind since before the Empire came. I don't think we can fool them. When I was the Master of the Fighters Guild here, I stayed out of local politics.|SCVR:34JX3FG_ElithPalSupply|INTV:d
+
+[MOD-INF]: ID=4880184866772598(Topic:lorbumol gro-aglakh)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Lorbumol is in the Guild of Fighters in Vivec. Kill him and report back to me.|BNAM:Journal FG_KillCronies 15
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Lorbumol is in the Guild of Fighters in Vivec. Kill him and report back to me.|SCVR:04JX0FGI_DialogueKiller|INTV|BNAM:Journal FG_KillCronies 15
+
+[MOD-INF]: ID=18779117464824373(Topic:master thief)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|NAME:That information will help a great deal when I take over the Thieves Guild and the Camonna Tong myself. Now who's the "Master Thief," %PCName?|SCVR:01500|INTV|BNAM:Journal FG_BigBosses 110  SetFight 100  StartCombat Player  Goodbye
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|NAME:That information will help a great deal when I take over the Thieves Guild and the Camonna Tong myself. Now who's the "Master Thief," %PCName?|SCVR:01500|INTV|BNAM:Journal FG_BigBosses 95  StartScript FGI_SjoringLoseTrust  SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=120212398643415761(Topic:eydis fire-eye)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You can find her at the Guild of Fighters in Balmora. Kill her and report back to me.|SCVR:34JX3FG_ElithPalSupply|INTV:d|BNAM:Journal FG_KillCronies 10
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You can find her at the Guild of Fighters in Balmora. Kill her and report back to me.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_ElithPalSupply|INTV:d|BNAM:Journal FG_KillCronies 10
+
+[MOD-INF]: ID=132761327679524796(Topic:rufinus alleius)
+  morrowind.esm------->|DATA|ONAM:lorbumol gro-aglakh|NAME:You already killed him? I don't know if I ought to believe that. Well, here's the bounty I owe you.|SCVR:34JX0FG_SilenceMagistrate|INTV:|SCVR:56DX3Rufinus Alleius|INTV|BNAM:Journal FG_SilenceMagistrate 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+  FGI_FinalQuests.esp->|DATA|ONAM:lorbumol gro-aglakh|NAME:You already killed him? I don't know if I ought to believe that. Well, here's the bounty I owe you. And take this ring as a personal gift from me. Nar gro-Shagramph fetched it for me not long ago, but I think you deserve it more.|SCVR:34JX0FG_SilenceMagistrate|INTV:|SCVR:44JX0FG_SilenceTaxgirl|INTV:d|SCVR:56DX3Rufinus Alleius|INTV|BNAM:Journal FG_SilenceMagistrate 200  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000  player->additem "FGI domination ring" 1
+
+[MOD-INF]: ID=171276422094322320(Topic:orvas dren)
+  morrowind.esm------->|DATA|ONAM:persius mercius|NAME:Orvas Dren is the real head of the Camonna Tong. If you don't act soon, he'll control the Fighters Guild as well.|SCVR:34JX3FG_KillHardHeart|INTV: 
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Orvas Dren is the real head of the Camonna Tong. If you don't act soon, he'll control the Fighters Guild as well.|SCVR:34JX3FG_ElithPalSupply|INTV:d
+
+[MOD-INF]: ID=172029969243517829(Topic:eydis fire-eye)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Now that Eydis Fire-Eye and Lorbumol gro-Aglakh are dead, you must take the battle to Sjoring Hard-Heart.|SCVR:34JX3FG_KillCronies|INTV: |SCVR:46DX3lorbumol gro-aglakh|INTV|SCVR:56DX3eydis fire-eye|INTV|BNAM:Journal FG_KillCronies 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 20
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Now that Eydis Fire-Eye and Lorbumol gro-Aglakh are dead, you must take the battle to Sjoring Hard-Heart.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_KillCronies|INTV: |SCVR:46DX3lorbumol gro-aglakh|INTV|SCVR:56DX3eydis fire-eye|INTV|BNAM:Journal FG_KillCronies 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 20
+
+[MOD-INF]: ID=195781222524312234(Topic:eydis fire-eye)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Don't let your conscience trouble you, %PCName. You did the right thing.|SCVR:34JX3FG_KillCronies|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Don't let your conscience trouble you, %PCName. You did the right thing.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_KillCronies|INTV:d
+
+[MOD-INF]: ID=239495628700830035(Topic:sjoring hard-heart)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring is already dead? I'm glad to hear it, %PCName. You've saved the Fighters Guild from the corruption of the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX0FG_KillHardHeart|INTV:|SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring is dead? I'm glad to hear it, %PCName. You've saved the Fighters Guild from the corruption of the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX0FG_KillHardHeart|INTV:|SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25  Player->ModReputation 3
+
+[MOD-INF]: ID=257141186027216693(Topic:adraria vandacia)
+  morrowind.esm------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:You killed her already? Good work. These 500 septims are yours.|SCVR:34JX0FG_SilenceTaxgirl|INTV:|SCVR:56DX3adraria vandacia|INTV|BNAM:Journal FG_SilenceTaxgirl 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 500
+  FGI_FinalQuests.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:You killed her already? Good work. These 500 septims are yours.|SCVR:04JX3FG_DebtStoine|INTV:d|SCVR:34JX0FG_SilenceTaxgirl|INTV:|SCVR:56DX3adraria vandacia|INTV|BNAM:Journal FG_SilenceTaxgirl 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=263291179158107458(Journal:fg_bigbosses)
+  tribunal.esm-------->|DATA|NAME:Fighters Guild: Kill the Master Thief|QSTN
+  FGI_FinalQuests.esp->|DATA|NAME:Fighters Guild: The Master Thief|QSTN
+
+[MOD-INF]: ID=272228573618720353(Topic:master thief)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:I hear you killed the Master Thief. Great work, %PCName. Thanks for taking care of the Thieves Guild for me. Now the only one who can threaten my position...is you. You showed promise, but a bit too much ambition. You will not be missed.|SCVR:06DX3stacey|INTV|BNAM:Journal FG_BigBosses 100  SetFight 100  StartCombat Player  Goodbye
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:I hear you killed the Master Thief. Great work, %PCName. Thanks for taking care of the Thieves Guild for me. Now the only one who can threaten my position...is you. You showed promise, but a bit too much ambition. You will not be missed.|SCVR:06DX3stacey|INTV|SCVR:54JX3FG_KillBosses|INTV:d|BNAM:Player->ModReputation 2  StartScript FGI_PerciusLoseTrust  Journal FG_BigBosses 100  SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=297439947228448298(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|NAME:Have you done what I asked? Are the Thieves Guild Bosses taken care of yet?|SCVR:04JX3FG_KillBosses|INTV: |SCVR:14JX4FG_KillBosses|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|NAME:Have you done what I asked? Are the Thieves Guild Bosses taken care of yet?|SCVR:04JX3FG_KillBosses|INTV: |SCVR:14JX4FG_KillBosses|INTV:P
+
+[MOD-INF]: ID=299822978625620016(Topic:lorbumol gro-aglakh)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work, %PCName. You must also kill Eydis Fire-Eye.|SCVR:34JX3FG_KillCronies|INTV: |SCVR:56DX3lorbumol gro-aglakh|INTV|BNAM:Journal FG_KillCronies 60
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work, %PCName. You must also kill Eydis Fire-Eye.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_KillCronies|INTV: |SCVR:56DX3lorbumol gro-aglakh|INTV|BNAM:Journal FG_KillCronies 60
+
+[MOD-INF]: ID=310313571241262418(Topic:adraria vandacia)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Adraria Vandacia is an Imperial tax agent. I don't know why Lorbumol gro-Aglakh would give you a bounty on her. I can only suggest that you disobey orders and do not kill her. If you decide not to kill her, you will likely get no further orders from Lorbumol. He is cruel, petty, and single-minded.|BNAM:Journal FG_SilenceTaxGirl 50
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Adraria Vandacia is an Imperial tax agent. I don't know why Lorbumol gro-Aglakh would give you a bounty on her. I can only suggest that you disobey orders, refuse your contract and do not kill her. If you decide not to kill her, you will likely get no further orders from Lorbumol. He is cruel, petty, and single-minded.|SCVR:04JX3FG_SilenceTaxgirl|INTV: |BNAM:Journal FG_SilenceTaxGirl 50
+
+[MOD-INF]: ID=419314420283384079(Topic:lorbumol gro-aglakh)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Now that Lorbumol gro-Aglakh is dead, you must take this battle to Sjoring Hard-Heart.|SCVR:34JX3FG_KillCronies|INTV: |SCVR:44JX3TG_BitterBribe|INTV:d|SCVR:56DX3lorbumol gro-aglakh|INTV|BNAM:Journal FG_KillCronies 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 20
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Now that Lorbumol gro-Aglakh is dead, you must take this battle to Sjoring Hard-Heart.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_KillCronies|INTV: |SCVR:44JX3TG_BitterBribe|INTV:d|SCVR:56DX3lorbumol gro-aglakh|INTV|BNAM:Journal FG_KillCronies 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 20
+
+[MOD-INF]: ID=604202253078327746(Topic:adraria vandacia)
+  morrowind.esm------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Good work. Here's the 500 septims. I got more orders for you.|SCVR:56DX3adraria vandacia|INTV|BNAM:Journal FG_SilenceTaxgirl 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 500
+  FGI_FinalQuests.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Good work. Here's the 500 septims. I got more orders for you.|SCVR:04JX3FG_SilenceTaxgirl|INTV: |SCVR:56DX3adraria vandacia|INTV|BNAM:Journal FG_SilenceTaxgirl 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=645431634233125478(Topic:orvas dren)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|NAME:Since Orvas Dren died, I've been thinking I might want to look somewhere else for allies.|SCVR:06DX2Orvas Dren Druglord|INTV:
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:Since Orvas Dren died, I've been thinking I might want to look somewhere else for allies.|SCVR:06DX2Orvas Dren Druglord|INTV:
+
+[DUP-INF]: ID=668916962192327734(Journal:fg_silencemagistrate)
+  |DATA|NAME:Fighters Guild: Alleius' Bounty|QSTN
+
+[MOD-INF]: ID=679917671276097269(Topic:rufinus alleius)
+  morrowind.esm------->|DATA|ONAM:lorbumol gro-aglakh|NAME:Good work. I hope the guards didn't give you any trouble. Here's the 1000 septims I owe you.|SCVR:56DX3Rufinus Alleius|INTV|BNAM:Journal FG_SilenceMagistrate 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+  FGI_FinalQuests.esp->|DATA|ONAM:lorbumol gro-aglakh|NAME:Good work. I hope the guards didn't give you any trouble. Here's the 1000 septims I owe you. And take this ring as a personal gift from me. Nar gro-Shagramph fetched it for me not long ago, but I think you deserve it more.|SCVR:04JX3FG_SilenceMagistrate|INTV: |SCVR:56DX3Rufinus Alleius|INTV|BNAM:Journal FG_SilenceMagistrate 200  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000  player->additem "FGI domination ring" 1
+
+[MOD-INF]: ID=726618815414722443(Topic:orders)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:You did quite a job on the local heads of the Thieves Guild. Now it's time to take care of the Master Thief in Vivec.|SCVR:34JX3FG_BigBosses|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:You did quite a job on the local heads of the Thieves Guild. Now it's time to take care of the Master Thief in Vivec.|SCVR:34JX3FG_KillBosses|INTV:d
+
+[MOD-INF]: ID=830160843218527715(Topic:sjoring hard-heart)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:There is one more step to freeing the Fighters Guild from corruption. You must kill the Guildmaster Sjoring Hard-Heart. Take this key, %PCName. It will let you into my private rooms. In the chests you will find two suits of armor. They were mine from years ago. They may help you fight Sjoring Hard-Heart. In spite of his faults, he's one of the best warriors in Vvardenfell, so be careful. He'll likely be in the Fighters Guild in Vivec, and he'll be expecting you.|SCVR:04JX4FG_KillHardHeart|INTV: |SCVR:34JX3FG_KillCronies|INTV:d|BNAM:Player->AddItem "Key_Persius Mercius" 1  Journal FG_KillHardHeart 10
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:There is one more step to freeing the Fighters Guild from corruption. You must kill the Guildmaster Sjoring Hard-Heart. I'm afraid there is no other way. Take this key, %PCName. It will let you into my private rooms. In the chests you will find two suits of armor. They were mine from years ago. They may help you fight Sjoring Hard-Heart. In spite of his faults, he's one of the best warriors in Vvardenfell, so be careful. He'll likely be in the Fighters Guild in Vivec, and he'll be expecting you.|SCVR:04JX4FG_KillHardHeart|INTV: |SCVR:34JX3FGI_KillEydis|INTV:d|BNAM:Player->AddItem "Key_Persius Mercius" 1  Journal FG_KillHardHeart 10
+
+[MOD-INF]: ID=905225522281931281(Topic:adraria vandacia)
+  morrowind.esm------->|DATA|ONAM:persius mercius|NAME:Adraria committed no crime. There was no reason to kill her.|SCVR:06DX3adraria vandacia|INTV|BNAM:ModDisposition -10
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|NAME:Adraria committed no crime. There was no reason to kill her.|SCVR:06DX3adraria vandacia|INTV|SCVR:14JX3FG_SilenceTaxgirl|INTV: |BNAM:ModDisposition -10
+
+[MOD-INF]: ID=924320927304872608(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:persius mercius|NAME:We've spoken about the problems with Eydis Fire-Eye already, as well as with Lorbumol gro-Aglakh. Tell me what you have done about the situation.|SCVR:04JX3FG_KillCronies|INTV: |SCVR:14JX4FG_KillCronies|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|NAME:We've spoken about the problems with Eydis Fire-Eye already, as well as with Lorbumol gro-Aglakh. Tell me what you have done about the situation.|SCVR:04JX3FGI_KillLorbumol|INTV: |SCVR:14JX4FGI_KillLorbumol|INTV:d
+
+[MOD-INF]: ID=936319538248841994(Topic:eydis fire-eye)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Eydis Fire-Eye used to be one of Sjoring Hard-Heart's supporters, but something changed her mind. We don't have to worry about her anymore, just kill Lorbumol gro-Aglakh.|SCVR:34JX3FG_ElithPalSupply|INTV:d|SCVR:44JX3TG_BitterBribe|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Eydis Fire-Eye used to be one of Sjoring Hard-Heart's supporters, but something changed her mind. We don't have to worry about her anymore, just kill Lorbumol gro-Aglakh.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_ElithPalSupply|INTV:d|SCVR:44JX3TG_BitterBribe|INTV:d
+
+[MOD-INF]: ID=938316462171328617(Topic:lorbumol gro-aglakh)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:The Fighters Guild is better off without him.|SCVR:34JX3FG_KillCronies|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:The Fighters Guild is better off without him.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_KillCronies|INTV:d
+
+[MOD-INF]: ID=1012612753153523248(Topic:allies)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:Like I said our allies are the Camonna Tong. If we get rid of the Thieves Guild by killing the Master Thief, they'll be free to help the Fighters Guild here in Vvardenfell survive the hard times ahead.|SCVR:34JX3FG_KillBosses|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:Like I said, our allies are the Camonna Tong. If we get rid of the Thieves Guild by killing the Master Thief, they'll be free to help the Fighters Guild here in Vvardenfell survive the hard times ahead.|SCVR:34JX3FG_KillBosses|INTV:d
+
+[MOD-INF]: ID=1108822922702429812(Topic:master thief)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|DNAM:Thieves Guild|NAME:What? You're the Master Thief? Well, why didn't you say so from the start? Tell you what, %PCName, between you and me and Camonna Tong, we've got a good deal here. Let's start by you telling me everything you know about the Thieves Guild operations in Vvardenfell.|BNAM:Choice "Tell All" 1 "Refuse" 2
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:What? You're the Master Thief? Well, why didn't you say so from the start? Tell you what, %PCName, between you and me and Camonna Tong, we've got a good deal here. Let's start by you telling me everything you know about the Thieves Guild operations in Vvardenfell.|SCVR:04JX0FG_BigBosses|INTV:F|SCVR:16DX0stacey|INTV:|BNAM:Player->ModReputation 2  Choice "Tell everything you know." 1 "[Lie] Tell everything you know." 1 "Refuse to tell." 2
+
+[MOD-INF]: ID=1476619648114041888(Topic:orvas dren)
+  morrowind.esm------->|DATA|ONAM:persius mercius|NAME:Orvas Dren used the be the head of the Camonna Tong. Since no one has taken his place, now is a good time to strike back at the Camonna Tong before they can get their act together.|SCVR:06DX2Orvas Dren Druglord|INTV:|SCVR:34JX3FG_KillHardHeart|INTV: 
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Orvas Dren used the be the head of the Camonna Tong. Since no one has taken his place, now is a good time to strike back at the Camonna Tong before they can get their act together.|SCVR:06DX2Orvas Dren Druglord|INTV:|SCVR:34JX3FG_ElithPalSupply|INTV:d
+
+[MOD-INF]: ID=1684411597677626113(Topic:orders)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:The only way to save the Fighters Guild from the corruption of the Camonna Tong is to get rid of Sjoring Hard-Heart and those loyal to him. I heard Eydis Fire-Eye was no longer one of his chief supporters, but Lorbumol gro-Aglakh still needs to be dealt with.|SCVR:34JX3FG_ElithPalSupply|INTV:d|SCVR:44JX3TG_BitterBribe|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:The only way to save the Fighters Guild from the corruption of the Camonna Tong is to get rid of Sjoring Hard-Heart and those loyal to him. I heard Eydis Fire-Eye was no longer one of his chief supporters, but Lorbumol gro-Aglakh still needs to be dealt with.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_ElithPalSupply|INTV:d|SCVR:44JX3TG_BitterBribe|INTV:d
+
+[MOD-INF]: ID=1812813558178515839(Journal:fg_bigbosses)
+  tribunal.esm-------->|DATA|NAME:I told Sjoring the truth: That I am the new Master Thief of Vvardenfell. Upon hearing the news, he attacked me.|QSTF
+  FGI_FinalQuests.esp->|DATA|NAME:I told Sjoring Hard-Heart about killing the Master Thief. He promoted me to his second in command and asked me to wait for several days while he contacts the Camonna Tong to get the payment and the next orders.|QSTF
+
+[MOD-INF]: ID=1911410961396931476(Topic:rufinus alleius)
+  morrowind.esm------->|DATA|ONAM:persius mercius|NAME:Killing an Imperial Magistrate is a serious offense. All I can suggest is to disobey orders and refuse this contract.
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|NAME:Killing an Imperial Magistrate is a serious offense. All I can suggest is to disobey orders and refuse this contract. I'll tell you more when I can, but you should know that Rufinus Alleius might help the Guild in the future.|SCVR:04JX3FG_SilenceMagistrate|INTV: |BNAM:Journal FG_SilenceMagistrate 30
+
+[MOD-INF]: ID=2033281602346423871(Journal:fg_silencemagistrate)
+  tribunal.esm-------->|DATA|NAME:Lorbumol gro-Aglakh paid me the bounty on Rufinus Alleius.|QSTF
+  FGI_FinalQuests.esp->|DATA|NAME:Lorbumol gro-Aglakh paid me the bounty on Rufinus Alleius.|QSTF
+
+[MOD-INF]: ID=2088116236291913216(Topic:master thief)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|NAME:That's too bad, %PCName. We could have worked together. Instead, you'll die alone.|SCVR:01500|INTV|BNAM:Journal FG_BigBosses 110  SetFight 100  StartCombat Player  Goodbye
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|NAME:That's too bad, %PCName. We could have worked together. Instead, you'll die alone.|SCVR:01500|INTV|BNAM:Journal FG_BigBosses 95  StartScript FGI_PerciusLoseTrust  SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=2244531533295620046(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|NAME:Our time is almost upon us. What have you done about the Master Thief?|SCVR:04JX3FG_BigBosses|INTV: |SCVR:14JX4FG_BigBosses|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|NAME:Our time is almost upon us. What have you done about the Master Thief?|SCVR:04JX3FG_BigBosses|INTV: |SCVR:14JX4FG_BigBosses|INTV:P
+
+[MOD-INF]: ID=2357520923220930356(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I see you've risen to %PCRank, %PCName. I'm the only one who'll be taking over as Guildmaster. I won't let you take my rank in the Guild!|BNAM:StartCombat Player  Goodbye
+  FGI_FinalQuests.esp->|DATA|ONAM:lorbumol gro-aglakh|NAME:I know what you've done, %PCName. I won't let you go away after you killed Sjoring Hard-Heart!|SCVR:06DX2sjoring hard-heart|INTV:|BNAM:ModDisposition -100  setfight 90  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=2601311142807014922(Topic:sjoring hard-heart)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX3FG_KillHardHeart|INTV: |SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX3FG_KillHardHeart|INTV: |SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25  Player->ModReputation 3
+
+[MOD-INF]: ID=2665319200174794018(Topic:rufinus alleius)
+  morrowind.esm------->|DATA|ONAM:lorbumol gro-aglakh|NAME:I don't have any more contracts for a %PCRank right now.|SCVR:34JX0FG_SilenceMagistrate|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:lorbumol gro-aglakh|NAME:I don't have any more contracts for a %PCRank right now.|SCVR:34JX0FG_SilenceMagistrate|INTV
+
+[MOD-INF]: ID=2714128743174428550(Journal:fg_silencetaxgirl)
+  morrowind.esm------->|DATA|NAME:Percius Mercius doesn't believe there is a reason to kill Adraria Vandacia. If I decide not to, though, I should expect no further orders from Lorbumol.
+  FGI_FinalQuests.esp->|DATA|NAME:Percius Mercius doesn't believe there is a reason to kill Adraria Vandacia. If I decide to refuse the contract, though, I should expect no further orders from Lorbumol.
+
+[MOD-INF]: ID=2940914149935422219(Topic:thieves guild bosses)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:What? You already killed the bosses of the Thieves Guild? You deserve the rank of %NextPCRank even more than I thought. Congratulations, %PCName, I'm making you my second in command. Now we need to take care of the Master Thief himself.|SCVR:06DX3big helende|INTV|SCVR:16DX3habasi|INTV|SCVR:26DX3aengoth|INTV|SCVR:34JX0FG_KillBosses|INTV:|BNAM:PCRaiseRank  Journal FG_KillBosses 100  ModPCFacRep 15 "Fighters Guild"  ModDisposition 25
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:What? You already killed the bosses of the Thieves Guild? You deserve the rank of %NextPCRank even more than I thought. Now we need to take care of the Master Thief himself.|SCVR:06DX3big helende|INTV|SCVR:16DX3habasi|INTV|SCVR:26DX3aengoth|INTV|SCVR:34JX0FG_KillBosses|INTV:|BNAM:Journal FG_KillBosses 100  ModPCFacRep 15 "Fighters Guild"  ModDisposition 25  addtopic "master thief"
+
+[DUP-INF]: ID=2947815097119619743(Topic:orders)
+  |DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:What do you want, %PCRank?|SCVR:34JX3FG_SilenceMagistrate|INTV:d
+
+[MOD-INF]: ID=3199124815949424497(Topic:rufinus alleius)
+  morrowind.esm------->|DATA|ONAM:persius mercius|NAME:You shouldn't have killed him, %PCName.|SCVR:56DX3Rufinus Alleius|INTV|BNAM:ModDisposition -10
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|NAME:You shouldn't have killed him, %PCName.|SCVR:04JX3FG_SilenceMagistrate|INTV: |SCVR:56DX3Rufinus Alleius|INTV|BNAM:ModDisposition -10
+
+[MOD-INF]: ID=6500325681567321531(Topic:master thief)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:The Master Thief and his second-in-command are in Simine Fralinie's bookstore. Get rid of Gentleman Jim Stacey, the Redguard. He's in charge. I wouldn't mind if you took out his lackey as well. Once you have crippled the Thieves Guild, I will make you the new Guildmaster and retire.|BNAM:Journal FG_BigBosses 10
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:The Master Thief and his second-in-command are in Simine Fralinie's bookstore. Gentleman Jim Stacey, the Redguard, is in charge. Our allies want us to get rid of him, but I have my own plans on the Master Thief. Offer him a deal. Tell him that the Thieves Guild will work for us in exchange of our assistance during the hard times ahead. If he refuses this offer, feel free to dispose of him. Once you have crippled the Thieves Guild, I will make you my second in command.|SCVR:04JX3FG_KillBosses|INTV:d|BNAM:Journal FG_BigBosses 10
+
+[MOD-INF]: ID=10238289422125820051(Topic:orders)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:There is one more thing you must do, %PCName. Once you have done this, I will name you Guildmaster. You must kill Sjoring Hard-Heart.|SCVR:34JX3FG_KillCronies|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:There is one more thing you must do, %PCName. Once you have done this, I will name you Guildmaster. You must kill Sjoring Hard-Heart.|SCVR:34JX3FGI_KillEydis|INTV:d|SCVR:44JX3FGI_KillLorbumol|INTV:d
+
+[MOD-INF]: ID=10615135202472210185(Topic:lorbumol gro-aglakh)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Now that Eydis Fire-Eye and Lorbumol gro-Aglakh are dead, you must take this battle to Sjoring Hard-Heart.|SCVR:34JX3FG_KillCronies|INTV: |SCVR:46DX3eydis fire-eye|INTV|SCVR:56DX3lorbumol gro-aglakh|INTV|BNAM:Journal FG_KillCronies 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 20
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Now that Eydis Fire-Eye and Lorbumol gro-Aglakh are dead, you must take this battle to Sjoring Hard-Heart.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_KillCronies|INTV: |SCVR:46DX3eydis fire-eye|INTV|SCVR:56DX3lorbumol gro-aglakh|INTV|BNAM:Journal FG_KillCronies 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 20
+
+[MOD-INF]: ID=10883256021598227631(Topic:thieves guild bosses)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:Good work, %PCName. I'm making you my second in command. Now our allies want us to take care of the Master Thief himself.|SCVR:06DX3big helende|INTV|SCVR:16DX3habasi|INTV|SCVR:26DX3aengoth|INTV|SCVR:34JX3FG_KillBosses|INTV: |BNAM:PCRaiseRank  Journal FG_KillBosses 100  ModPCFacRep 15 "Fighters Guild"  ModDisposition 15
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:Good work, %PCName. Now our allies want us to take care of the Master Thief himself.|SCVR:06DX3big helende|INTV|SCVR:16DX3habasi|INTV|SCVR:26DX3aengoth|INTV|SCVR:34JX3FG_KillBosses|INTV: |BNAM:Journal FG_KillBosses 100  ModPCFacRep 15 "Fighters Guild"  ModDisposition 15  addtopic "master thief"
+
+[MOD-INF]: ID=11400304301303320456(Topic:orders)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You've already done more than I could have hoped for.|SCVR:34JX3FG_KillHardHeart|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:What can I do for you, %PCRank?
+
+[MOD-INF]: ID=12086118183258213153(Topic:orders)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You've already done more than I could have hoped for.
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You've already done more than I could have hoped for.|SCVR:44JX3FG_KillHardHeart|INTV:d
+
+[MOD-INF]: ID=14862105102587224443(Topic:eydis fire-eye)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work, %PCName. You must also kill Lorbumol gro-Aglakh before the Fighters Guild can free itself from corruption.|SCVR:34JX3FG_KillCronies|INTV: |SCVR:56DX3eydis fire-eye|INTV|BNAM:Journal FG_KillCronies 40
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work, %PCName. You must also kill Lorbumol gro-Aglakh before the Fighters Guild can free itself from corruption.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_KillCronies|INTV: |SCVR:56DX3eydis fire-eye|INTV|BNAM:Journal FG_KillCronies 40
+
+[MOD-INF]: ID=16562308982341117012(Topic:rufinus alleius)
+  morrowind.esm------->|DATA|ONAM:lorbumol gro-aglakh|NAME:One of the Magistrates has been giving our client trouble. Go to the Grand Council in Ebonheart and kill Rufinus Alleius, and this 1000 septim bounty is yours.|BNAM:Journal FG_SilenceMagistrate 10
+  FGI_FinalQuests.esp->|DATA|ONAM:lorbumol gro-aglakh|NAME:One of the Magistrates has been giving trouble to us and our client. Go to the Grand Council in Ebonheart and kill Rufinus Alleius, and this 1000 septim bounty is yours.|SCVR:04JX0FG_SilenceTaxgirl|INTV:d|BNAM:Journal FG_SilenceMagistrate 10
+
+[MOD-INF]: ID=16835272701424723734(Topic:orvas dren)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|NAME:He's strong, but tough and fair. With his help, I'm sure the Fighters Guild here in Vvardenfell will survive.
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:He's strong, but tough and fair. With his help, I'm sure the Fighters Guild here in Vvardenfell will survive.
+
+[MOD-INF]: ID=19432132541818417698(Topic:orvas dren)
+  morrowind.esm------->|DATA|ONAM:persius mercius|NAME:We don't have to worry about Orvas Dren's influence anymore, thanks to you.|SCVR:06DX2Orvas Dren Druglord|INTV:
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:We don't have to worry about Orvas Dren's influence anymore, thanks to you.|SCVR:06DX2Orvas Dren Druglord|INTV:|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=20614234792904519769(Topic:master thief)
+  morrowind.esm------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:First you need to advance to the rank of Champion.
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:First you need to take care of the local heads of the Thieves Guild.
+
+[MOD-INF]: ID=20905124411528620205(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I see you've risen to %PCRank, %PCName. I also heard you've been sent to kill me. I'm the only one who'll be taking over as Guildmaster. I won't let you take my rank in the Guild!|SCVR:04JX3FG_KillCronies|INTV|BNAM:StartCombat Player  Goodbye
+  FGI_FinalQuests.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I see you've risen to %PCRank, %PCName. I'm the only one who'll be taking over as Guildmaster. I won't let you take my rank in the Guild!|BNAM:ModDisposition -100  setfight 90  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=23381200092502722414(Topic:adraria vandacia)
+  morrowind.esm------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I have a bounty contract for 500 septims for Adraria Vandacia. She's at one of the Census and Excise buildings in Seyda Neen. There might be some guards around, so watch out.|BNAM:Journal FG_SilenceTaxgirl 10
+  FGI_FinalQuests.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I have a bounty contract for 500 septims for Adraria Vandacia. She's at one of the Census and Excise buildings in Seyda Neen. There might be some guards around, so watch out.|SCVR:04JX3FG_DebtStoine|INTV:d|BNAM:Journal FG_SilenceTaxgirl 10
+
+[MOD-INF]: ID=24879245252386425050(Journal:fg_bigbosses)
+  tribunal.esm-------->|DATA|NAME:Sjoring Hard-Heart asked me to kill the Master Thief, Gentleman Jim Stacey. He can be found in Simine Fralinie's bookstore in Vivec.
+  FGI_FinalQuests.esp->|DATA|NAME:Sjoring Hard-Heart asked me to offer his deal to the Master Thief, Gentleman Jim Stacey. He can be found in Simine Fralinie's bookstore in Vivec. If he refuses, I'll have to kill him.
+
+[MOD-INF]: ID=28588310542639430523(Topic:orders)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:The only way to save the Fighters Guild from the corruption of the Camonna Tong is to get rid of Sjoring Hard-Heart and those loyal to him. If you kill his chief supporters, Eydis Fire-Eye and Lorbumol gro-Aglakh, I'll put my own life on the line and support you as the new Guildmaster.|SCVR:34JX3FG_ElithPalSupply|INTV:d
+  FGI_FinalQuests.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:The reason behind the questionable activity of Sjoring Hard-Heart is the influence of the Camonna Tong. The only way to save the Fighters Guild from the corruption of the Camonna Tong is to get rid of Sjoring Hard-Heart and those loyal to him. If you deal with his chief supporters, Eydis Fire-Eye and Lorbumol gro-Aglakh, I'll put my own life on the line and support you as the new Guildmaster.|SCVR:34JX3FG_ElithPalSupply|INTV:d
+
+[MOD-INF]: ID=28628277191475320214(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:sjoring hard-heart|NAME:Die, thief!|SCVR:34JX0FG_BigBosses|INTV:n|BNAM:;sjoring should always attack if you admit you're the master thief.  SetFight 100  StartCombat Player  Goodbye
+  FGI_FinalQuests.esp->|DATA|ONAM:sjoring hard-heart|NAME:Die, thief!|SCVR:34JX0FG_BigBosses|INTV:_|BNAM:;sjoring should always attack if you admit you're the master thief.  SetFight 100  StartCombat Player  Goodbye

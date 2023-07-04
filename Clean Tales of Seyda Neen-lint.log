@@ -1,0 +1,108 @@
+Clean Tales of Seyda Neen.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(argoush_wander_script)
+	SCPT(den_argoush_wander_script)
+	SCPT(den_nallaia_rewards)
+	SCPT(den_nallaia_script)
+	SCPT(nallaia_talkscript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    altmer
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    imperial
+	morrowind.esm       DIAL    indrele rathryon
+	morrowind.esm       DIAL    mudcrab
+	morrowind.esm       DIAL    murder of processus vitellius
+	morrowind.esm       PGRD    ashlands region
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+
+[DUP-INF]: ID=32281390961219948(Topic:my trade)
+  |DATA|ONAM:Vedam Dren|NAME:I am a noble, a leader and diplomat.
+
+[DUP-INF]: ID=35532057162868574(Topic:imperial)
+  |DATA|ONAM:chargen captain|NAME:I'm proud to be an Imperial. Through our legions and rule of law, we've brought peace and civilization to the provinces of Tamriel.
+
+[DUP-INF]: ID=49172112360667706(Topic:latest rumors)
+  |DATA|ONAM:heddvild|NAME:House Hlaalu must have a spy in Ald'ruhn. They always seem to know what the Redoran Council is planning.
+
+[DUP-INF]: ID=51402605238438277(Topic:someone in particular)
+  |DATA|ANAM:Pelagiad|NAME:Angoril of Vulkhel Guard is the boss of Fort Pelagiad. Drelasa Ramothran is the publican of the Halfway Tradehouse. Nobody else important I can think of. And if you're looking for someone in jail, you need to look in the fort. Of course.|SCVR:07XX0angoril|INTV|SCVR:17XX0drelasa ramothran|INTV|INTV|SCVR:3CsX0NoLore|INTV:|BNAM:;Pelagiad
+
+[DUP-INF]: ID=239262796738311794(Topic:altmer)
+  |DATA|ONAM:tyermaillin|ANAM:Balmora|NAME:There aren't many of us here in Balmora. Just me, Estirdalin, Imare, Nalcarya the Alchemist, Hecerinde, and Culumaire. Why do you ask?|SCVR:34JX3TG_BalmoraDefenses|INTV: |SCVR:44JX4TG_BalmoraDefenses|INTV:d
+
+[MOD-INF]: ID=273938299215761706(Topic:someone in particular)
+  morrowind.esm----------------->|DATA|FNAM:Camonna Tong|NAME:I mind my own business. Why don't you mind yours, outlander?|SCVR:0CsX0nolore|INTV:
+  Clean Tales of Seyda Neen.esp->|DATA|FNAM:Camonna Tong|NAME:I mind my own business. Why don't you mind yours, outlander?|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=440036312672719594(Topic:morrowind lore)
+  |DATA|ONAM:Vedam Dren|NAME:We have grown too complacent about the threat of Dagoth Ur and Red Mountain. For ages we've relied on the Tribunal to contain the menace. But Dagoth Ur's power is waxing as the Tribunal's power is waning. The Legion garrisons here are insufficient to protect our settlements, and there's no hope for reinforcements. Our people have always relied on a charismatic leader to rally squabbling factions against a common foe. You are that leader. Now we must rely on you.|SCVR:04JX3B8_All_Hortator|INTV:2
+
+[DUP-INF]: ID=691324607602111370(Topic:services)
+  |DATA|ONAM:adusamsi assurnarairan|NAME:You can find Imperial cult services in Fort Buckmoth, Fort Moonmoth, Fort Pelagiad, Fort Darius, Wolverine Hall in Sadrith Mora, Vivec Foreign Quarter, and Imperial chapels in Ebonheart. Seek training at Wolverine Hall, Fort Buckmoth, Fort Moonmoth, Ebonheart Imperial Chapels, Governor's Hall in Caldera, and Ald Velothi Outpost. Many Imperial cult locations have healing altars.
+
+[DUP-INF]: ID=749914731240121175(Topic:specific place)
+  |DATA|ONAM:elone|NAME:Pelagiad is the next town up the road. Cross the bridge out of town and just stay on the road. From Pelagiad, take the road north to Balmora and Caldera, or east to Ebonheart and Vivec. If you have the cash, and are in a hurry, or afraid of getting lost, take the silt strider to Balmora or Vivec. Speak to Darvame Hleran at the silt strider landing, across the bridge and south along the shore. And if you plan to travel widely, get a copy of 'Guide to Vvardenfell' from Arrille. It's got maps.
+
+[DUP-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  |DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+
+[DUP-INF]: ID=1616720351991631356(Topic:murder of processus vitellius)
+  |DATA|ONAM:chargen class|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor.|SCVR:04JX0MV_DeadTaxman|INTV:(
+
+[DUP-INF]: ID=1656921162306334539(Topic:little secret)
+  |DATA|CNAM:Miner|ANAM:Dissapla Mine|NAME:Smuggling raw glass is a crime. All raw glass belongs to the Emperor, so it's the crime of treason, and punished by death. But... there's so much money to be made selling black market raw glass that it's a rare merchant who'll refuse to buy a piece from you. Of course, if the mine guards catch you stealing raw glass, they just kill you. Which is why we don't steal raw glass.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=1707111432143424827(Topic:background)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:I am %name. I was called to the prophecies, but I was not the one.|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=2520193102282412339(Topic:argonian)
+  |DATA|FNAM:Ashlanders|NAME:Argonians are the savage half-men of the southern marshes. Our peoples used to keep them as slaves, but they are useless. The settled people still keep them as slaves to grub in the soil. They are dirty and wicked, and we should drive them all back into the swamps they came from.|SCVR:0CsX0NoLore|INTV:|BNAM:; Ashlanders
+
+[DUP-INF]: ID=2768358951609618900(Topic:dunmer)
+  |DATA|ONAM:Vedam Dren|NAME:It will be difficult to overcome the Dunmer's lingering resentment of Imperial occupation. Ironically, it is now, in the face of the menace of Dagoth Ur and Red Mountain, that we have a great opportunity to unite natives and colonists against a common threat. When the Dunmer fight side by side with outlanders like you against the hosts of Dagoth Ur, our common peril and purpose must unite us.
+
+[DUP-INF]: ID=3154228361751410315(Topic:little advice)
+  |DATA|ANAM:Pelagiad|NAME:Things are pretty tame hereabouts. But get off the roads and head northwest into the Bitter Coast, or northeast into the Ashlanders, and things get a lot more interesting in a hurry.|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Pelagiad; random100 <= 33;
+
+[DUP-INF]: ID=4724201062304617772(Topic:little secret)
+  |DATA|ONAM:Vedam Dren|NAME:Orvas Dren is my brother. I don't know what you've heard of him. I won't defend everything he's done. But don't become his enemy.
+
+[DUP-INF]: ID=6643274893123421616(Topic:specific place)
+  |DATA|FNAM:Camonna Tong|NAME:I'm not here to give you directions, outlander. Go ask your friends.|SCVR:0CsX0nolore|INTV:
+
+[MOD-INF]: ID=14610155733087714119(Topic:little secret)
+  tribunal.esm------------------>|DATA|FNAM:Ashlanders|NAME:Kushtashpi, that is the name of old Daedric stones west of Ahemmusa camp. No one goes there. It is a deep and dark place.|SCVR:0CsX0nolore|INTV:
+  Clean Tales of Seyda Neen.esp->|DATA|FNAM:Ashlanders|NAME:Kushtashpi, that is the name of old Daedric stones west of Ahemmusa camp. No one goes there. It is a deep and dark place.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=16890297712091512590(Topic:little advice)
+  |DATA|ONAM:arrille|NAME:If you need directions, talk to our local scout, Elone the Redguard. She's here in the tradehouse somewhere. And you might want a copy of 'Guide to Vvardenfell' -- I think I still have a copy for sale.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=18464205812393025930(Topic:services)
+  morrowind.esm----------------->|DATA|FNAM:Camonna Tong|NAME:Ask around. Like everyone else.|SCVR:0CsX0nolore|INTV:
+  Clean Tales of Seyda Neen.esp->|DATA|FNAM:Camonna Tong|NAME:Ask around. Like everyone else.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=23994244042821528660(Topic:indrele rathryon)
+  |DATA|ONAM:stacey|NAME:Without the land deed, perhaps Velanda Omani will leave Indrele Rathryon alone.|SCVR:34JX3TG_SS_Generosity2|INTV:d
+
+[DUP-INF]: ID=27872140243030921995(Topic:mudcrab)
+  |DATA|ONAM:neminda|NAME:Of course, as an outlander like myself you must know very little about mudcrabs. They are small creatures with a hard shell. They live mostly along the coast and they're usually not aggressive... but if they ever get the taste of meat, they become hunters. Some naturalists believe they are related to the Emperor Crab.
+
+[DUP-INF]: ID=28484177362871719293(Topic:latest rumors)
+  |DATA|FNAM:Camonna Tong|NAME:It may come as a surprise to you, but some of us don't like outlanders. And don't want to talk to them.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=29111316121916220558(Topic:background)
+  |DATA|ONAM:falura llervu|NAME:I am Falura Llervu, bride of the Ashkhan Kaushad of the Zainab Ashlanders.|SCVR:04JX3B3_ZainabBride|INTV:2|BNAM:ClearInfoActor

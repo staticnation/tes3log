@@ -1,0 +1,115 @@
+Scripted_Spells.esp: DUP-INF DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(vmet_formmoveanimground)
+	SCPT(vmet_formmoveflying)
+	SCPT(vmet_formmovestrike)
+	SCPT(vmet_globolscript)
+	SCPT(vmet_hitnpcattackedscript)
+	SCPT(vmet_hitnpcscript)
+	SCPT(vmet_pcgroundactivatorscript)
+	SCPT(vmet_pcoldgroundactivatorscript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(vmet_chargedstrike)
+	SCPT(vmet_face)
+	SCPT(vmet_facetest)
+	SCPT(vmet_formdelete)
+	SCPT(vmet_formmaintwaitendload)
+	SCPT(vmet_formplace)
+	SCPT(vmet_hitnpcattackedscript)
+	SCPT(vmet_pcgroundsmooth)
+	SCPT(vmet_startscript)
+	SCPT(vmet_strikemain)
+	SCPT(vmet_test)
+	SCPT(vmet_wallrangeset)
+	SCPT(vmet_zspellget01)
+	SCPT(vmet_zspellget02)
+	SCPT(vmet_zspellget03)
+	SCPT(vmet_zspellget04)
+	SCPT(vmet_zspellget05)
+	SCPT(vmet_zspellget06)
+	SCPT(vmet_zspellget07)
+	SCPT(vmet_zspellget08)
+	SCPT(vmet_zspellget09)
+	SCPT(vmet_zspellget10)
+	SCPT(vmet_zspellget11)
+	SCPT(vmet_zspellput01)
+	SCPT(vmet_zspellput02)
+	SCPT(vmet_zspellput03)
+	SCPT(vmet_zspellput04)
+	SCPT(vmet_zspellput05)
+	SCPT(vmet_zspellput06)
+	SCPT(vmet_zspellput07)
+	SCPT(vmet_zspellput08)
+	SCPT(vmet_zspellput09)
+	SCPT(vmet_zspellput10)
+	SCPT(vmet_zspellput11)
+	SCPT(vmet_zspellwipe01)
+	SCPT(vmet_zspellwipe02)
+	SCPT(vmet_zspellwipe03)
+	SCPT(vmet_zspellwipe04)
+	SCPT(vmet_zspellwipe05)
+	SCPT(vmet_zspellwipe06)
+	SCPT(vmet_zspellwipe07)
+	SCPT(vmet_zspellwipe08)
+	SCPT(vmet_zspellwipe09)
+	SCPT(vmet_zspellwipe10)
+	SCPT(vmet_zspellwipe11)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       STAT    in_impbig_4way_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    greeting 2
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+
+[DUP-INF]: ID=143615274198053934(Greeting:greeting 2)
+  |DATA|ONAM:mastrius|NAME:Leave this place. You should not be here.|SCVR:01601|INTV
+
+[DUP-INF]: ID=227322281661726892(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:What are you doing! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+
+[DUP-INF]: ID=289151215526575827(Voice:hello)
+  |DATA|ONAM:clendil|SNAM:vo\w\m\Hlo_WM088.mp3|NAME:I'm listening.|BNAM:;clendil
+
+[DUP-INF]: ID=820150711636218997(Persuasion:service refusal)
+  |DATA|ONAM:Carnius Magius|NAME:I'm not willing to do anything special for you. You've certainly done nothing special for me.|SCVR:02sX0ColonySide|INTV:
+
+[DUP-INF]: ID=861622254451322094(Persuasion:service refusal)
+  |DATA|ONAM:Carnius Magius|NAME:You think I'd lift a finger to help you? Think again, %PCRank. Be thankful you still have a job.|SCVR:02sX0ColonySide|INTV
+
+[DUP-INF]: ID=1232025441586514082(Greeting:greeting 2)
+  |DATA|ONAM:mastrius|NAME:Night walker, it is good you have come. Perhaps you will be able to free me from my imprisonment.|SCVR:01600|INTV|SCVR:14JX4VA_VampCurse|INTV|BNAM:Journal "VA_VampCurse" 10
+
+[DUP-INF]: ID=1246294513112414596(Voice:hello)
+  |DATA|ONAM:clendil|SNAM:vo\w\m\Hlo_WM088.mp3|NAME:I'm listening.|SCVR:01630|INTV:|BNAM:;clendil  ForceGreeting
+
+[DUP-INF]: ID=1401422095305635000(Voice:hit)
+  |DATA|ONAM:aundae vampire 3|SNAM:Vo\v\Hit_vHF005.mp3|NAME:Hiss!
+
+[DUP-INF]: ID=2635854042288319000(Voice:attack)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF003.mp3|NAME:Hugggnh!|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=2970332381283527826(Persuasion:service refusal)
+  |DATA|ONAM:ienas sarandas|NAME:No. There must be some mistake. I do not have time to waste on training anyone. I have some very promising investments that need my constant attention.|BNAM:;Ienas Sarandas;
+
+[DUP-INF]: ID=3039729642278829468(Persuasion:service refusal)
+  |DATA|ONAM:elone|NAME:You must have been misinformed. I don't offer services to the public.|SCVR:01460|INTV:|BNAM:;Rithleeen; SameFaction = 0;
+
+[DUP-INF]: ID=5527130882712616609(Voice:hello)
+  |DATA|ONAM:quarra vampire 5
+
+[DUP-INF]: ID=5532282632337618941(Greeting:greeting 0)
+  |DATA|CNAM:Guard|ANAM:Chun-Ook, Lower Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+
+[DUP-INF]: ID=12790295461330422855(Voice:hello)
+  |DATA|ONAM:quarra vampire 4
+
+[DUP-INF]: ID=13500177932814824645(Voice:attack)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF002.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=15912223092960525234(Voice:hit)
+  |DATA|ONAM:aundae vampire 2|SNAM:Vo\v\Hit_vOM003.mp3|NAME:Raragh!

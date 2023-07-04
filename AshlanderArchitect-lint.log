@@ -1,0 +1,59 @@
+AshlanderArchitect.esp: BM-DEP DUP-INF DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (257) != Actual count (256)
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(zhac_s_doorfix_redoran)         setdelete
+	SCPT(zhac_s_doorfix_velothi)         setdelete
+	SCPT(zhac_soundplay_doorheavyopen)   setdelete
+    [BM-DEP] Bloodmoon Dependency: Bloodmoon Functions:
+	INFO(145526421395931841)             placeatme
+	INFO(179292015624038497)             placeatme
+	INFO(2421692471091618843)            placeatme
+	SCPT(zhac_s_doorfix_redoran)         placeatme
+	SCPT(zhac_s_doorfix_velothi)         placeatme
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(zhac_aa_npcscript_1)
+	SCPT(zhac_dialogCloseScript)
+	SCPT(zhac_s_doorfix_redoran)
+	SCPT(zhac_s_doorfix_velothi)
+	SCPT(zhac_soundplay_doorheavyopen)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       LAND    (-3, -2)
+	morrowind.esm       LAND    (-4, -2)
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=611830938156582687(Persuasion:service refusal)
+  |DATA|RNAM:Khajiit|FNAM:Thieves Guild|NAME:You turned in Elmussa Damori who was %Name's friend. %Name gives you nothing until %Name forgives you.|SCVR:01475|INTV:|SCVR:34JX3HH_CaptureSpy|INTV:n
+
+[MOD-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  tribunal.esm----------->|DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+  AshlanderArchitect.esp->|DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[MOD-INF]: ID=2890220726556429297(Persuasion:service refusal)
+  morrowind.esm---------->|DATA|NAME:You're not the type I like to deal with.
+  AshlanderArchitect.esp->|DATA|NAME:You're not the type I like to deal with.
+
+[MOD-INF]: ID=3053416069775816458(Greeting:greeting 0)
+  tribunal.esm----------->|DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AiWander 0 0 0 40 30 20 0 0 0 0 0 0
+  AshlanderArchitect.esp->|DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AiWander 0 0 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  AshlanderArchitect.esp->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

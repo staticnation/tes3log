@@ -1,0 +1,76 @@
+Cutting Room Floor - Items.esp: AUTOSPL DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	devourer                       Devourer
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ColonyHidar)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        ARMO    steel_cuirass
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       APPA    apparatus_j_calcinator_01
+	bloodmoon.esm       ARMO    steel_cuirass_ancient
+	bloodmoon.esm       CONT    com_chest_01_pos
+	bloodmoon.esm       DIAL    stalhrim weapons
+	bloodmoon.esm       INGR    ingred_gravetar_01
+	bloodmoon.esm       LEVI    bm_random_nordhuntweap
+	bloodmoon.esm       LEVI    bm_random_nordsilver
+	bloodmoon.esm       LEVI    bm_randomwpn_smugglers
+	bloodmoon.esm       NPC_    rolf long-tooth
+	morrowind.esm       APPA    apparatus_a_mortar_01
+	morrowind.esm       ARMO    chitin pauldron - left
+	morrowind.esm       ARMO    chitin pauldron - right
+	morrowind.esm       ARMO    templar_pauldron_left
+	morrowind.esm       ARMO    templar_pauldron_right
+	morrowind.esm       CONT    chest_small_llethri
+	morrowind.esm       CREA    winged twilight_grunda_
+	morrowind.esm       LEVI    l_m_armor_gauntlet
+	morrowind.esm       LEVI    l_m_armor_helmet
+	morrowind.esm       LEVI    l_m_armor_shields
+	morrowind.esm       LEVI    l_m_enchantitem_telvanni_rank6
+	morrowind.esm       LEVI    l_m_enchantitem_temple_rank0_1
+	morrowind.esm       LEVI    l_m_enchantitem_temple_rank0_2
+	morrowind.esm       LEVI    l_m_rings
+	morrowind.esm       LEVI    l_n_wpn_melee_spear
+	morrowind.esm       LEVI    l_n_wpn_missle_arrow
+	morrowind.esm       LEVI    l_n_wpn_missle_bolt
+	morrowind.esm       LEVI    l_n_wpn_missle_xbow
+	morrowind.esm       LEVI    random excellent melee weapon
+	morrowind.esm       LEVI    random_com_kitchenware
+	morrowind.esm       LEVI    random_daedric_weapon
+	morrowind.esm       LEVI    random_de_pos_01
+	morrowind.esm       LEVI    random_de_pos_01_nc
+	morrowind.esm       LEVI    random_dwemer_weapon
+	morrowind.esm       LEVI    random_iron_weapon
+	morrowind.esm       LEVI    random_loot_special
+	morrowind.esm       LEVI    random_loot_special_marksman
+	morrowind.esm       LEVI    random_pos
+	morrowind.esm       LEVI    random_weapon_melee_basic
+	morrowind.esm       NPC_    abelle chriditte
+	morrowind.esm       NPC_    arethan mandas
+	morrowind.esm       NPC_    delvam andarys
+	morrowind.esm       NPC_    fevasa saryon
+	morrowind.esm       NPC_    hecerinde
+	morrowind.esm       NPC_    merta
+	morrowind.esm       NPC_    tsiya
+	morrowind.esm       WEAP    iron tanto
+	morrowind.esm       WEAP    steel throwing knife
+	morrowind.esm       WEAP    throwing knife of sureflight
+	tribunal.esm        CONT    dwrv_chest_bam
+	tribunal.esm        MISC    misc_potion_cheap_01
+	tribunal.esm        NPC_    black dart adren
+	tribunal.esm        NPC_    black dart gilur
+	tribunal.esm        NPC_    black dart malar
+	tribunal.esm        NPC_    black dart urvyn
+
+[MOD-INF]: ID=900847722160227203(Topic:stalhrim weapons)
+  bloodmoon.esm------------------>|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Nevermind" 5
+  Cutting Room Floor - Items.esp->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Stalhrim Spear" 5 "Stalhrim Shortsword" 6 "Nevermind" 7
+
+[MOD-INF]: ID=1052431962138491563(Topic:stalhrim weapons)
+  bloodmoon.esm------------------>|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Nevermind" 6
+  Cutting Room Floor - Items.esp->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Stalhrim Spear" 6 "Stalhrim Shortsword" 7 "Nevermind" 8
+
+[MOD-INF]: ID=5350253781749717292(Topic:stalhrim weapons)
+  bloodmoon.esm------------------>|DATA|ONAM:hidar|NAME:I'll be here if you change your mind.|SCVR:01500|INTV
+  Cutting Room Floor - Items.esp->|DATA|ONAM:hidar|NAME:I'll be here if you change your mind.|SCVR:01500|INTV

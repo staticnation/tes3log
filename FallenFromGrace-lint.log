@@ -1,0 +1,13 @@
+FallenFromGrace.esp: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_berenorDead)
+	SCPT(_berenorFight)
+	SCPT(_berenorFly)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    agronian guy
+	tribunal.esm        DIAL    greeting 0
+
+[MOD-INF]: ID=62342927712254319(:greeting 0)
+  morrowind.esm------->|DATA|ONAM:agronian guy|NAME:I don't want to talk about it.|BNAM:Goodbye
+  FallenFromGrace.esp->|NAME:I don't want to talk about it.|DELE:

@@ -1,0 +1,30 @@
+Jaree-Zaw Master of Medium Armor.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER OVR-REC
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    training
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    wayn
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    little secret
+
+[DUP-INF]: ID=29730187151442596(Greeting:greeting 1)
+  |DATA|ONAM:svenja snow-song|NAME:All hail %PCName, the chieftain of Thirsk! What can I do for you, my lord. Perhaps there is some mead hall business you'd like to tend to? Or maybe you'd rather just go upstairs and rest in your quarters?|SCVR:04JX3BM_MeadHall|INTV:d
+
+[DUP-INF]: ID=58336082777117486(Topic:training)
+  |DATA|ONAM:ladia flarugrius|NAME:I can train you. Standard Guild rates, discount for your rank, same old, same old. You want the training I don't got, you go to the South Wall in Balmora.|SCVR:01460|INTV|BNAM:; Ladia Flarugrius; Same Faction = 1
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=1656921162306334539(Topic:little secret)
+  |DATA|CNAM:Miner|ANAM:Dissapla Mine|NAME:Smuggling raw glass is a crime. All raw glass belongs to the Emperor, so it's the crime of treason, and punished by death. But... there's so much money to be made selling black market raw glass that it's a rare merchant who'll refuse to buy a piece from you. Of course, if the mine guards catch you stealing raw glass, they just kill you. Which is why we don't steal raw glass.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=3211614329290709018(Greeting:greeting 1)
+  |DATA|ONAM:erna the quiet|NAME:You killed my Brandr! Why?!|SCVR:06DX0brandr|INTV|BNAM:SetDisposition 0  Goodbye
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=25693272922242731603(Topic:little secret)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.

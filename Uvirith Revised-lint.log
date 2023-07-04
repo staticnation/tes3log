@@ -1,0 +1,225 @@
+Uvirith Revised.ESP: DUP-INF DUP-REC EVLGMST JUNKCEL MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [EVLGMST] Tribunal(11) Bloodmoon(61):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfalarmmessage
+	BM swerewolfpopup
+	BM swerewolfrefusal
+	BM swerewolfrestmessage
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+	TB steleportdisabled
+    [JUNKCEL] Junk Cells:                        Flags
+	Molag Mar Region (10, 0)                 0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       STAT    furn_de_rug_big_01
+	morrowind.esm       ACTI    active_de_p_bed_03
+	morrowind.esm       ARMO    dust_adept_helm
+	morrowind.esm       BOOK    bk_homiliesofblessedalmalexia
+	morrowind.esm       BOOK    bk_invocationofazura
+	morrowind.esm       CONT    de_p_closet_02_gavin
+	morrowind.esm       LIGH    light_de_candle_blue_01_64
+	morrowind.esm       LIGH    light_de_paper_lantern_01_128
+	morrowind.esm       STAT    furn_de_p_bookshelf_01
+	morrowind.esm       STAT    furn_de_r_shelf_01
+	morrowind.esm       STAT    furn_de_rug_big_07
+	morrowind.esm       STAT    furn_de_tapestry_11
+	morrowind.esm       STAT    in_t_doorjamb_hall_small
+	morrowind.esm       STAT    in_t_edge_01
+	morrowind.esm       STAT    in_t_housepod_01
+	morrowind.esm       STAT    in_t_housepod_2flr_stair
+	morrowind.esm       STAT    in_t_l_room_floor
+	morrowind.esm       STAT    in_t_manor01_entry_left
+	morrowind.esm       STAT    in_t_s_hall_3way
+	morrowind.esm       STAT    in_t_s_pillar_02
+	morrowind.esm       STAT    in_t_s_plain_hall_endcap
+	morrowind.esm       STAT    in_t_s_room_entry
+	morrowind.esm       STAT    in_t_s_room_side_01
+	morrowind.esm       STAT    in_t_s_shaft_01
+	morrowind.esm       STAT    in_t_s_shaft_6way
+	morrowind.esm       STAT    in_t_s_turret_03
+	tribunal.esm        ACTI    active_de_r_bed_18
+	tribunal.esm        ARMO    dreugh_shield
+	tribunal.esm        CONT    com_sack_01_saltrice_10
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    com_sack_02_ingred
+	bloodmoon.esm       CONT    crate_01_random_pos
+	morrowind.esm       CONT    de_p_closet_02_mguild
+	morrowind.esm       CONT    de_p_closet_02_mollimo
+	morrowind.esm       DIAL    go free
+	morrowind.esm       NPC_    telvanni guard
+	morrowind.esm       PGRD    tel uvirith, tower lower
+	morrowind.esm       PGRD    tel uvirith, tower upper
+	tribunal.esm        CONT    chest_small_01_soulgem
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage
+
+[MOD-INF]: ID=5161469619064654(Topic:go free)
+  morrowind.esm------->|DATA|CNAM:Slave|NAME:You must find the key to these bracers before I can be freed.|SCVR:03sX3slaveStatus|INTV:
+  Uvirith Revised.ESP->|DATA|CNAM:Slave|NAME:You must find the key to these bracers before I can be freed.|SCVR:03sX3slaveStatus|INTV:
+
+[DUP-INF]: ID=79436122621222157(Topic:go free)
+  |DATA|CNAM:Slave|ANAM:Shushan|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_shushanslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=306708653098526208(Topic:go free)
+  |DATA|CNAM:Slave|NAME:Free? You are letting me go free?|SCVR:03sX0slaveStatus|INTV|BNAM:Choice "Set your slave free." 1 "Nevermind." 2
+
+[DUP-INF]: ID=310925605225324217(Greeting:greeting 5)
+  |DATA|DNAM:Hlaalu|NAME:You're not supposed to be here, Hlaalu|SCVR:03sX0strongService|INTV|BNAM:ModDisposition -10  ModFight 10  Goodbye
+
+[DUP-INF]: ID=626832206718828325(Topic:go free)
+  |DATA|CNAM:Slave|NAME:You freed me, %PCName. Are you in the Twin Lamps?|SCVR:03sX0slaveStatus|INTV|SCVR:12sX2FreedSlavesCounter|INTV
+
+[DUP-INF]: ID=1224319899288117550(Greeting:greeting 0)
+  |DATA|CNAM:Guard|ANAM:Chun-Ook, Upper Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+
+[DUP-INF]: ID=1364230960270223245(Topic:go free)
+  |DATA|CNAM:Slave|ANAM:Assarnud|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_assarnudslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=4707327003275325712(Greeting:greeting 5)
+  |DATA|DNAM:Telvanni|NAME:You're not supposed to be here, Telvanni|SCVR:03sX0strongService|INTV|BNAM:ModDisposition -10  ModFight 10  Goodbye
+
+[DUP-INF]: ID=7420205293098727794(Greeting:greeting 5)
+  |DATA|DNAM:Redoran|NAME:You're not supposed to be here, Redoran.|SCVR:03sX0strongService|INTV|BNAM:ModDisposition -10  ModFight 10  Goodbye
+
+[DUP-INF]: ID=19690135432027614893(Topic:go free)
+  |DATA|CNAM:Slave|ANAM:Sadrith Mora|NAME:No. There is no hope for us.

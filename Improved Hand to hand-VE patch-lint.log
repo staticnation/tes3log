@@ -1,0 +1,4 @@
+Improved Hand to hand-VE patch.esp: GETSND MISSAUT MISSDSC MISSVER NUMRECS
+    [NUMRECS]: number of records in TES3.HEDR (3) != Actual count (2)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(ih_on_target)

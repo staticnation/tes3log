@@ -1,0 +1,96 @@
+CAC_ShadyOrcs.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(bugrolScript)
+	SCPT(bugrolScript2)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    help me
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    note from bashuk
+	morrowind.esm       DIAL    note from bugrol
+	morrowind.esm       DIAL    present
+	morrowind.esm       NPC_    bugrol gro-bagul
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    mv_bugrol
+
+[DUP-INF]: ID=1822523079911950(Topic:help me)
+  |DATA|ONAM:bugrol gro-bagul|NAME:Good, good. I guess you know how those townbosses can be, too. Mean, mean. Good thing I'm smarter than them. You take the note to Bashuk gra-Bat in Caldera. She's good friend of Bugrol. She help me out. You're okay by me.|SCVR:01500|INTV|BNAM:RemoveItem "bk_NoteFromBugrol" 1  player->AddItem "bk_NoteFromBugrol" 1  Journal "MV_Bugrol" 20  Goodbye
+
+[DUP-INF]: ID=2631628153225366(Topic:help me)
+  |DATA|ONAM:bugrol gro-bagul|NAME:P'lah! You just like the rest. No present for you, stinkweed. You go now.|SCVR:01500|INTV|BNAM:ModDisposition -30  Journal "MV_Bugrol" 25  Goodbye
+
+[MOD-INF]: ID=90098216319059077(Topic:present)
+  morrowind.esm----->|DATA|ONAM:bugrol gro-bagul|NAME:Here's your present. Hehe...I'm sure you'll like it. It a nice rock! Hahahaha! Stupid hero.|SCVR:04JX0MV_Bugrol|INTV:(|BNAM:RemoveItem "Ingred_Diamond_01" 1  player->addItem "Ingred_Diamond_01" 1  Journal "MV_Bugrol" 100  Goodbye
+  CAC_ShadyOrcs.ESP->|DATA|ONAM:bugrol gro-bagul|NAME:Here's your present. Hehe...I'm sure you'll like it. It a nice rock! Hahahaha!|SCVR:04JX0MV_Bugrol|INTV:(|BNAM:RemoveItem "Ingred_Diamond_01" 1  player->addItem "Ingred_Diamond_01" 1  Journal "MV_Bugrol" 100  Goodbye
+
+[MOD-INF]: ID=124041023204012221(Topic:present)
+  morrowind.esm----->|DATA|ONAM:bugrol gro-bagul|NAME:Yeah, a present! A good one, too. Really! Smart guy like me not try to cheat brave hero like you! Come on!|SCVR:04JX0MV_Bugrol|INTV: 
+  CAC_ShadyOrcs.ESP->|DATA|ONAM:bugrol gro-bagul|NAME:Yeah, a present! A good one, too. Really!|SCVR:04JX0MV_Bugrol|INTV: 
+
+[MOD-INF]: ID=130487198321634154(Journal:mv_bugrol)
+  morrowind.esm----->|DATA|NAME:Bashuk gra-Bat gave me a note to bring back to Bugrol, assuming the little coward hasn't run off somewhere. This is so demeaning.
+  CAC_ShadyOrcs.ESP->|DATA|NAME:Bashuk gra-Bat gave me a note to bring back to Bugrol.
+
+[MOD-INF]: ID=206761854481713449(Topic:help me)
+  morrowind.esm----->|DATA|ONAM:bugrol gro-bagul|NAME:You wanna help? Sure you do, good friend. Look--those guys in Caldera think I did something bad, so they're looking for me. I'm too smart for them, though. I can hide real good. My friend can help me. Maybe you bring her a note for me? I can give you a present. Really!|SCVR:04JX4MV_Bugrol|INTV|BNAM:Choice "Take note from Bugrol." 1 "Don't take note from Bugrol." 2
+  CAC_ShadyOrcs.ESP->|DATA|ONAM:bugrol gro-bagul|NAME:You wanna help? Sure you do, good friend. Look--those guys in Caldera think I did something bad, so they're looking for me. I'm too smart for them, though. I can hide real good. My friend can help me. Maybe you bring her a note for me? I can give you a present. Really!|SCVR:04JX4MV_Bugrol|INTV|BNAM:AddTopic "Bugrol gro-Bagul"  Choice "Take note from Bugrol." 1 "Don't take note from Bugrol." 2
+
+[DUP-INF]: ID=403322501421313164(Topic:note from bugrol)
+  |DATA|ONAM:bashuk gra-bat|NAME:Yeah, I know I got note! And you gave him mine! Good for you, Big Hero. I find him when I damn good and ready!|SCVR:04JX3MV_Bugrol|INTV:d
+
+[MOD-INF]: ID=604422173542215240(Topic:note from bugrol)
+  morrowind.esm----->|DATA|ONAM:bashuk gra-bat|NAME:Yeah, yeah, I got Bugrol's note, and you've got mine for him! What, you can't find him? You not a good finder like me?|SCVR:14JX3MV_Bugrol|INTV:#
+  CAC_ShadyOrcs.ESP->|DATA|ONAM:bashuk gra-bat|NAME:Yeah, yeah, I got Bugrol's note, and you've got mine for him! What, you can't find him? You not a good finder like me?|SCVR:14JX0MV_Bugrol|INTV:#
+
+[MOD-INF]: ID=768822733593229045(Journal:mv_bugrol)
+  tribunal.esm------>|DATA|NAME:Bugrol wanted me to deliver a note he gave me to his friend Bashuk gra-Bat in Caldera. I couldn't imagine a bigger waste of time.|QSTF
+  CAC_ShadyOrcs.ESP->|DATA|NAME:I declined to help Bugrol.
+
+[MOD-INF]: ID=990018003060119768(Journal:mv_bugrol)
+  morrowind.esm----->|DATA|NAME:Delivered Bugrol's note to Bashuk in Caldera. Quite a pair these two are.
+  CAC_ShadyOrcs.ESP->|DATA|NAME:I delivered Bugrol's note to Bashuk in Caldera.
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=1438925101452826378(Topic:present)
+  |DATA|ONAM:bugrol gro-bagul|NAME:You got your present! Now go away!|SCVR:04JX0MV_Bugrol|INTV:d
+
+[DUP-INF]: ID=1619018371671630615(Topic:help me)
+  |DATA|ONAM:bugrol gro-bagul|NAME:Hey, you got my note, so go! Don't want to stay out here all day. No fun to sleep on rocks.|SCVR:04JX0MV_Bugrol|INTV
+
+[MOD-INF]: ID=2167613119690512555(Journal:mv_bugrol)
+  morrowind.esm----->|DATA|NAME:Gave Bugrol the note from Bashuk. I can't believe I'm playing messenger for these two.
+  CAC_ShadyOrcs.ESP->|DATA|NAME:I gave Bugrol the note from Bashuk.
+
+[DUP-INF]: ID=2267528022103868317(Persuasion:intimidate success)
+  |DATA|ONAM:cunius pelelius|NAME:Alright, alright. I'll tell you this because I trust you. Take this key. There's a record book in Odral's Helvi chest on the second floor. Stendar have mercy on me if anyone finds out about this.|SCVR:03sX0givenKey|INTV:|SCVR:34JX3HR_CalderaCorrupt|INTV: |BNAM:Player->AddItem key_odral_helvi 1  Set givenKey to 1  Journal HR_CalderaCorrupt 30
+
+[MOD-INF]: ID=2315126544231858736(Topic:note from bugrol)
+  morrowind.esm----->|DATA|ONAM:bashuk gra-bat|NAME:Yeah, that Bugrol always getting in trouble. Not me, though. I'm too smart. He a good hider, but I'm a better finder. I'll find him near tree and rock and other rock. No problem. He feel better if you take this note to him, if you can find him. I bet you not as good a finder as me. Not even close, I bet. But, give it a try, big shot.|SCVR:04JX3MV_Bugrol|INTV|SCVR:14JX4MV_Bugrol|INTV:#|BNAM:player->addItem "bk_NoteFromBashuk" 1  Journal "MV_Bugrol" 35  Goodbye
+  CAC_ShadyOrcs.ESP->|DATA|ONAM:bashuk gra-bat|NAME:Yeah, that Bugrol always getting in trouble. Not me, though. I'm too smart. He a good hider, but I'm a better finder. I'll find him near tree and rock and other rock. No problem. He feel better if you take this note to him, if you can find him. I bet you not as good a finder as me. Not even close, I bet. But, give it a try, big shot.|SCVR:04JX3MV_Bugrol|INTV|SCVR:14JX4MV_Bugrol|INTV:#|BNAM:player->addItem "bk_NoteFromBashuk" 1  Journal "MV_Bugrol" 35  AddTopic "Note from Bashuk"  Goodbye
+
+[DUP-INF]: ID=2640199572654020499(Greeting:greeting 5)
+  |DATA|ONAM:bugrol gro-bagul|NAME:Hey, you. You're not one of them townbosses, right? How about you help me? Huh? I'll give you a present.|SCVR:06DX0bashuk gra-bat|INTV:|SCVR:14JX4MV_Bugrol|INTV: |BNAM:Journal "MV_Bugrol" 10  AddTopic "help me"
+
+[MOD-INF]: ID=5280127351902424230(Topic:present)
+  morrowind.esm----->|DATA|ONAM:bugrol gro-bagul|NAME:You get present when I get help! Come on, Big Hero! Let's go...get my note to Bashuk!|SCVR:05IX0bk_notefrombugrol|INTV
+  CAC_ShadyOrcs.ESP->|DATA|ONAM:bugrol gro-bagul|NAME:You get present when I get help! Come on, let's go...get my note to Bashuk!|SCVR:05IX0bk_notefrombugrol|INTV
+
+[DUP-INF]: ID=7466327432458532550(Topic:note from bashuk)
+  |DATA|ONAM:bugrol gro-bagul|NAME:Whew! Good thing you got my note to her. She'll help. I suppose you want your present?|SCVR:04JX0MV_Bugrol|INTV:#|BNAM:AddItem "bk_NoteFromBashuk" 1  player->RemoveItem "bk_NoteFromBashuk" 1  Journal "MV_Bugrol" 40
+
+[MOD-INF]: ID=9155322791675011351(Journal:mv_bugrol)
+  tribunal.esm------>|DATA|NAME:There don't seem to be any more notes to pass between Bugrol and Bashuk, thank the gods. I feel I'm actually a bit stupider for ever having talked to either one of them. But, the fool did give me a diamond as his "present." Apparently he thought it was just a shiny rock. Probably found it while he was "hiding."|QSTF
+  CAC_ShadyOrcs.ESP->|DATA|NAME
+
+[DUP-INF]: ID=17146179082337728636(Persuasion:intimidate fail)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:Speak with disrespect to the spirits, and you will regret it.
+
+[MOD-INF]: ID=29189265603191117985(Journal:mv_bugrol)
+  morrowind.esm----->|DATA|NAME:Bugrol wants me to deliver a note he gave me to his friend Bashuk gra-Bat in Caldera. He promises me a present if I do so. I can only imagine what that might be.
+  CAC_ShadyOrcs.ESP->|DATA|NAME:Bugrol wants me to deliver a note he gave me to his friend Bashuk gra-Bat in Caldera. He promises me a present if I do so.
+
+[DUP-INF]: ID=30131212003095030407(Greeting:greeting 5)
+  |DATA|ONAM:duma gro-lag2|NAME:What you need now? Very busy here. Big rock, you know!

@@ -1,0 +1,15 @@
+lack_balmorawitchhunter.esp: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(LACK_fb_DoorScript)
+	SCPT(LACK_fb_EndilScript)
+	SCPT(LACK_fb_FelmsScript)
+	SCPT(LACK_fb_HelmScript)
+	SCPT(LACK_fb_PTScript)
+	SCPT(LACK_fb_SarasScript)
+	SCPT(LACK_fb_TrapDoorScript)
+	SCPT(LACK_fb_VampireScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    progress of truth

@@ -1,0 +1,12 @@
+No one is Above the law - Go To Jail Patch.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+
+[MOD-INF]: ID=2768210666929210763(Greeting:greeting 0)
+  morrowind.esm---------------------------------->|DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 GetPCCrimeLevel  SetPCCrimeLevel 0  PayFine
+  No one is Above the law - Go To Jail Patch.ESP->|DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 GetPCCrimeLevel  SetPCCrimeLevel 0  StartScript NoOneAboveTheLaw  StartScript RFDFactionKickOut  PayFine
+
+[MOD-INF]: ID=20172142971264027114(Greeting:greeting 0)
+  morrowind.esm---------------------------------->|DATA|CNAM:Guard|NAME:Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:GotoJail  Goodbye
+  No one is Above the law - Go To Jail Patch.ESP->|DATA|CNAM:Guard|NAME:Then you must serve a sentence in prison. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:StartScript NoOneAboveTheLaw  StartScript RFDFactionKickOut  startscript gtj_main_script  ADDTOPIC "Let me out"  Goodbye

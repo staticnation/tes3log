@@ -1,0 +1,159 @@
+HELLUVA_Balanced_Merged.esp: DUP-REC GETSND MENUMOD MISSVER MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(SHAP_ME_ArcaneScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(SM_disabled_fix)
+	SCPT(smap_fhv_fhlink_warlock_effect)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ARMO    bm bear boots
+	bloodmoon.esm       ARMO    bm bear cuirass
+	bloodmoon.esm       ARMO    bm bear greaves
+	bloodmoon.esm       ARMO    bm bear left pauldron
+	bloodmoon.esm       ARMO    bm bear right pauldron
+	bloodmoon.esm       ARMO    bm_bear_boots_snow
+	bloodmoon.esm       ARMO    bm_bear_cuirass_snow
+	bloodmoon.esm       ARMO    bm_bear_greaves_snow
+	bloodmoon.esm       ARMO    bm_bear_left_pauldron_snow
+	bloodmoon.esm       ARMO    bm_bear_right_pauldron_snow
+	bloodmoon.esm       ARMO    steel_boots_ancient
+	bloodmoon.esm       ARMO    steel_cuirass_ancient
+	bloodmoon.esm       ARMO    steel_gauntlet_left_ancient
+	bloodmoon.esm       ARMO    steel_gauntlet_right_ancient
+	bloodmoon.esm       ARMO    steel_greaves_ancient
+	bloodmoon.esm       ARMO    steel_helm_ancient
+	bloodmoon.esm       ARMO    steel_pauldron_left_ancient
+	bloodmoon.esm       ARMO    steel_pauldron_right_ancient
+	bloodmoon.esm       ARMO    steel_towershield_ancient
+	bloodmoon.esm       CONT    barrel_01_arrows
+	bloodmoon.esm       CONT    bm_dungeonlloot_chest
+	bloodmoon.esm       CONT    com_chest_bm_armor_01
+	bloodmoon.esm       CONT    com_chest_bm_armor_02
+	h.e.l.l.u.v.a._merchant_containers.esm    LEVI    _hell_hrs_mc_armor
+	h.e.l.l.u.v.a._merchant_containers.esm    LEVI    _hell_hrs_mc_enchanted_items
+	h.e.l.l.u.v.a._merchant_containers.esm    LEVI    _hell_hrs_mc_marksman
+	h.e.l.l.u.v.a._merchant_containers.esm    LEVI    _hell_hrs_mc_weapons
+	morrowind.esm       ARMO    bonemold_armun-an_cuirass
+	morrowind.esm       ARMO    bonemold_armun-an_pauldron_l
+	morrowind.esm       ARMO    bonemold_armun-an_pauldron_r
+	morrowind.esm       ARMO    bonemold_gah-julan_cuirass
+	morrowind.esm       ARMO    bonemold_gah-julan_pauldron_l
+	morrowind.esm       ARMO    bonemold_gah-julan_pauldron_r
+	morrowind.esm       ARMO    bonemold_greaves
+	morrowind.esm       ARMO    bound_helm
+	morrowind.esm       ARMO    chest of fire
+	morrowind.esm       ARMO    chitin pauldron - left
+	morrowind.esm       ARMO    chitin pauldron - right
+	morrowind.esm       ARMO    cuirass_savior_unique
+	morrowind.esm       ARMO    daedric_cuirass
+	morrowind.esm       ARMO    daedric_greaves_htab
+	morrowind.esm       ARMO    dragonbone_cuirass_unique
+	morrowind.esm       ARMO    dragonscale_cuirass
+	morrowind.esm       ARMO    dreugh_cuirass
+	morrowind.esm       ARMO    dreugh_cuirass_ttrm
+	morrowind.esm       ARMO    dwemer_cuirass
+	morrowind.esm       ARMO    dwemer_greaves
+	morrowind.esm       ARMO    dwemer_pauldron_left
+	morrowind.esm       ARMO    dwemer_pauldron_right
+	morrowind.esm       ARMO    ebon_plate_cuirass_unique
+	morrowind.esm       ARMO    ebony_cuirass
+	morrowind.esm       ARMO    ebony_pauldron_left
+	morrowind.esm       ARMO    ebony_pauldron_right
+	morrowind.esm       ARMO    erur_dan_cuirass_unique
+	morrowind.esm       ARMO    fur_bearskin_cuirass
+	morrowind.esm       ARMO    fur_cuirass
+	morrowind.esm       ARMO    fur_greaves
+	morrowind.esm       ARMO    glass_cuirass
+	morrowind.esm       ARMO    heart wall
+	morrowind.esm       ARMO    indoril cuirass
+	morrowind.esm       ARMO    indoril pauldron left
+	morrowind.esm       ARMO    indoril pauldron right
+	morrowind.esm       ARMO    iron_greaves
+	morrowind.esm       ARMO    iron_pauldron_left
+	morrowind.esm       ARMO    iron_pauldron_right
+	morrowind.esm       ARMO    lords_cuirass_unique
+	morrowind.esm       ARMO    merisan_cuirass
+	morrowind.esm       ARMO    mountain spirit
+	morrowind.esm       ARMO    netch_leather_boiled_cuirass
+	morrowind.esm       ARMO    newtscale_cuirass
+	morrowind.esm       ARMO    nordic_iron_cuirass
+	morrowind.esm       ARMO    nordic_ringmail_cuirass
+	morrowind.esm       ARMO    orcish_boots
+	morrowind.esm       ARMO    orcish_cuirass
+	morrowind.esm       ARMO    orcish_greaves
+	morrowind.esm       ARMO    silver_cuirass
+	morrowind.esm       ARMO    silver_dukesguard_cuirass
+	morrowind.esm       ARMO    templar_cuirass
+	morrowind.esm       ARMO    templar_greaves
+	morrowind.esm       ARMO    templar_pauldron_left
+	morrowind.esm       ARMO    templar_pauldron_right
+	morrowind.esm       ARMO    tenpaceboots
+	morrowind.esm       ARMO    the_chiding_cuirass
+	morrowind.esm       ARMO    trollbone_cuirass
+	morrowind.esm       ARMO    wraithguard_jury_rig
+	morrowind.esm       BODY    a_dreugh_cuirass
+	morrowind.esm       CONT    barrel_bandit_01
+	morrowind.esm       CONT    barrel_smuggler_01
+	morrowind.esm       CONT    chest_tomb_large02
+	morrowind.esm       CONT    chest_tomb_small00
+	morrowind.esm       CONT    com_chest_02_l_weap_02
+	morrowind.esm       CONT    com_chest_02_vault_01
+	morrowind.esm       CONT    com_chest_02_vault_02
+	morrowind.esm       CONT    com_chest_02_vault_03
+	morrowind.esm       CONT    com_chest_02_vault_tel
+	morrowind.esm       CONT    crate_bandit_01
+	morrowind.esm       CONT    crate_smuggler_01
+	morrowind.esm       CONT    dwrv_chest_arrows_bolts
+	morrowind.esm       NPC_    a shady smuggler
+	tribunal.esm        ARMO    adamantium_cuirass
+	tribunal.esm        ARMO    adamantium_greaves
+	tribunal.esm        ARMO    bonemold_cuirass
+	tribunal.esm        ARMO    chitin cuirass
+	tribunal.esm        ARMO    chitin greaves
+	tribunal.esm        ARMO    darkbrotherhood cuirass
+	tribunal.esm        ARMO    ebony_cuirass_soscean
+	tribunal.esm        ARMO    fur_pauldron_left
+	tribunal.esm        ARMO    fur_pauldron_right
+	tribunal.esm        ARMO    helsethguard_cuirass
+	tribunal.esm        ARMO    helsethguard_greaves
+	tribunal.esm        ARMO    imperial cuirass_armor
+	tribunal.esm        ARMO    imperial_chain_greaves
+	tribunal.esm        ARMO    imperial_studded_cuirass
+	tribunal.esm        ARMO    indoril_almalexia_cuirass
+	tribunal.esm        ARMO    indoril_almalexia_pauldron_l
+	tribunal.esm        ARMO    indoril_almalexia_pauldron_r
+	tribunal.esm        ARMO    indoril_mh_guard_cuirass
+	tribunal.esm        ARMO    indoril_mh_guard_greaves
+	tribunal.esm        ARMO    indoril_mh_guard_pauldron_l
+	tribunal.esm        ARMO    indoril_mh_guard_pauldron_r
+	tribunal.esm        ARMO    iron_cuirass
+	tribunal.esm        ARMO    steel_cuirass
+	tribunal.esm        ARMO    steel_gauntlet_left
+	tribunal.esm        ARMO    tenpaceboots_x
+	tribunal.esm        DIAL    boots of blinding speed
+	tribunal.esm        DIAL    boots of the apostle
+	tribunal.esm        DIAL    ten pace boots
+
+[MOD-INF]: ID=153811795188222585(Topic:boots of the apostle)
+  tribunal.esm---------------->|DATA|ONAM:Torasa Aram|NAME:I am truly honored, %PCName. Thank you.|SCVR:01500|INTV|SCVR:15IX0boots_apostle_unique|INTV|BNAM:set bootsapostle to 2  player->removeitem "boots_apostle_unique" 1  set MuseumDonations to MuseumDonations + 1  "boots_apostle_unique_x"->Enable  moddisposition 5
+  HELLUVA_Balanced_Merged.esp->|DATA|ONAM:Torasa Aram|NAME:I am truly honored, %PCName. Thank you.|SCVR:01500|INTV|BNAM:set bootsapostle to 2  player->removeitem "SAP_BT_boots_apostle_unique" 1  set MuseumDonations to MuseumDonations + 1  "boots_apostle_unique_x"->Enable  moddisposition 5
+
+[MOD-INF]: ID=298729528207731191(Topic:boots of blinding speed)
+  tribunal.esm---------------->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. They'll certainly be one of our more amusing artifacts, I'm sure.|SCVR:01500|INTV|SCVR:15IX0boots of blinding speed[unique]|INTV|BNAM:set bootsblinding to 2  player->removeitem "boots of blinding speed[unique]" 1  player->additem "gold_001" 250  "boots of blinding speed_x"->Enable
+  HELLUVA_Balanced_Merged.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. They'll certainly be one of our more amusing artifacts, I'm sure.|SCVR:01500|INTV|BNAM:set bootsblinding to 2  player->removeitem "SAP_BT_BOBS_uni" 1  player->additem "gold_001" 250  "boots of blinding speed_x"->Enable
+
+[MOD-INF]: ID=684714322212789860(Topic:ten pace boots)
+  tribunal.esm---------------->|DATA|ONAM:Torasa Aram|NAME:I hope they are content to be here in the museum, rather than running through Morrowind's countryside. Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX0tenpaceboots|INTV|BNAM:set bootstenpace to 2  player->removeitem "tenpaceboots" 1  set MuseumDonations to MuseumDonations + 1  "tenpaceboots_x"->Enable  moddisposition 5
+  HELLUVA_Balanced_Merged.esp->|DATA|ONAM:Torasa Aram|NAME:I hope they are content to be here in the museum, rather than running through Morrowind's countryside. Thank you, %PCName.|SCVR:01500|INTV|BNAM:set bootstenpace to 2  player->removeitem "SAP_BT_tenpaceboots" 1  set MuseumDonations to MuseumDonations + 1  "tenpaceboots_x"->Enable  moddisposition 5
+
+[MOD-INF]: ID=2051315960798828772(Topic:boots of the apostle)
+  tribunal.esm---------------->|DATA|ONAM:Torasa Aram|NAME:I am truly honored, %PCName. Thank you.|SCVR:01500|INTV|SCVR:15IX0boots_apostle_unique|INTV|BNAM:set bootsapostle to 2  player->removeitem "boots_apostle_unique" 1  player->additem "gold_001" 27500  "boots_apostle_unique_x"->Enable
+  HELLUVA_Balanced_Merged.esp->|DATA|ONAM:Torasa Aram|NAME:I am truly honored, %PCName. Thank you.|SCVR:01500|INTV|BNAM:set bootsapostle to 2  player->removeitem "SAP_BT_boots_apostle_unique" 1  player->additem "gold_001" 27500  "boots_apostle_unique_x"->Enable
+
+[MOD-INF]: ID=3096922269256759809(Topic:ten pace boots)
+  tribunal.esm---------------->|DATA|ONAM:Torasa Aram|NAME:I hope they are content to be here in the museum, rather than running through Morrowind's countryside. Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX0tenpaceboots|INTV|BNAM:set bootstenpace to 2  player->removeitem "tenpaceboots" 1  player->additem "gold_001" 30000  "tenpaceboots_x"->Enable
+  HELLUVA_Balanced_Merged.esp->|DATA|ONAM:Torasa Aram|NAME:I hope they are content to be here in the museum, rather than running through Morrowind's countryside. Thank you, %PCName.|SCVR:01500|INTV|BNAM:set bootstenpace to 2  player->removeitem "SAP_BT_tenpaceboots" 1  player->additem "gold_001" 30000  "tenpaceboots_x"->Enable
+
+[MOD-INF]: ID=3172719255142929570(Topic:boots of blinding speed)
+  tribunal.esm---------------->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. They'll certainly be one of our more amusing artifacts, I'm sure.|SCVR:01500|INTV|SCVR:15IX0boots of blinding speed[unique]|INTV|BNAM:set bootsblinding to 2  player->removeitem "boots of blinding speed[unique]" 1  set MuseumDonations to MuseumDonations + 1  "boots of blinding speed_x"->Enable
+  HELLUVA_Balanced_Merged.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. They'll certainly be one of our more amusing artifacts, I'm sure.|SCVR:01500|INTV|BNAM:set bootsblinding to 2  player->removeitem "SAP_BT_BOBS_uni" 1  set MuseumDonations to MuseumDonations + 1  "boots of blinding speed_x"->Enable

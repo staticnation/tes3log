@@ -1,0 +1,19 @@
+Census_and_Excise_Office_Faction.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AAA_Immigrant)
+	SCPT(Checkiftheresaweakspot)
+	SCPT(ZZZ_Immi)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    moon sugar
+	morrowind.esm       DIAL    murder of processus vitellius
+	morrowind.esm       DIAL    raw ebony
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       FACT    census and excise
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    task
+
+[MOD-INF]: ID=30336310151096819196(Topic:murder of processus vitellius)
+  morrowind.esm------------------------>|DATA|ONAM:chargen class|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor.|SCVR:04JX3MV_DeadTaxman|INTV:d
+  Census_and_Excise_Office_Faction.ESP->|DATA|ONAM:chargen class|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor. With his death, we need to hire someone to take over his tasks. You have demonstrated your ability and your loyalty to the Empire. Would you like to join the Census and Excise Office?|SCVR:04JX3MV_DeadTaxman|INTV:d|BNAM:AddTopic "join the Census and Excise Office"

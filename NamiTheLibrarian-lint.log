@@ -1,0 +1,16 @@
+NamiTheLibrarian.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(11naminote)
+	SCPT(1naminote)
+	SCPT(marcLibrarianScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    morrowind
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+
+[DUP-INF]: ID=1709302711210241(Voice:hello)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you
+
+[DUP-INF]: ID=1816415572264858065(Topic:morrowind)
+  |DATA|ANAM:Cavern of the Incarnate|NAME:A darkness is on the land, and only you can bring the light.

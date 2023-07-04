@@ -1,0 +1,652 @@
+MWGO 2.0.esp: DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CharGen)
+	SCPT(CharGenDagger)
+	SCPT(CharGenDoorEnterCaptain)
+	SCPT(CharGenDoorExitCaptain)
+	SCPT(Tal_StateBasedHP)
+	SCPT(dbattackScript)
+	SCPT(vivec_voice)
+	SCPT(yagrum_talkscript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    solstheim
+	morrowind.esm       ARMO    ebony_shield_auriel
+	morrowind.esm       ARMO    lords_cuirass_unique
+	morrowind.esm       CONT    crate_01_arrille
+	morrowind.esm       CONT    de_p_chest_percius_01
+	morrowind.esm       CONT    de_p_chest_percius_02
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    blades trainers
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    zallay subaddamael
+	morrowind.esm       ENCH    crescent moon
+	morrowind.esm       ENCH    dragon aura
+	morrowind.esm       ENCH    lord's praise
+	morrowind.esm       ENCH    spell breaker
+	morrowind.esm       ENCH    warlock's sphere
+	morrowind.esm       ENCH    wrath of magnus
+	morrowind.esm       GMST    fathleticsrunbonus
+	morrowind.esm       GMST    fbaserunmultiplier
+	morrowind.esm       GMST    fencumberedmoveeffect
+	morrowind.esm       GMST    ffallacromult
+	morrowind.esm       GMST    ffatigueattackbase
+	morrowind.esm       GMST    ffatiguejumpbase
+	morrowind.esm       GMST    ffatiguereturnbase
+	morrowind.esm       GMST    ffatiguerunbase
+	morrowind.esm       GMST    ffatigueswimrunbase
+	morrowind.esm       GMST    ffatigueswimwalkbase
+	morrowind.esm       GMST    fjumpacrobaticsbase
+	morrowind.esm       GMST    fjumpencumbrancebase
+	morrowind.esm       GMST    fmaxhandtohandmult
+	morrowind.esm       GMST    fminhandtohandmult
+	morrowind.esm       GMST    fprojectilemaxspeed
+	morrowind.esm       GMST    fprojectileminspeed
+	morrowind.esm       GMST    fprojectilethrownstorechance
+	morrowind.esm       GMST    fsneakspeedmultiplier
+	morrowind.esm       GMST    fswimrunathleticsmult
+	morrowind.esm       GMST    fswimwalkathleticsmult
+	morrowind.esm       GMST    fthrownweaponmaxspeed
+	morrowind.esm       GMST    fthrownweaponminspeed
+	morrowind.esm       GMST    fweaponfatiguemult
+	morrowind.esm       GMST    ilevelup01mult
+	morrowind.esm       GMST    ilevelup02mult
+	morrowind.esm       GMST    ilevelup03mult
+	morrowind.esm       GMST    ilevelup04mult
+	morrowind.esm       GMST    ilevelup08mult
+	morrowind.esm       GMST    ilevelup09mult
+	morrowind.esm       GMST    ilevelup10mult
+	morrowind.esm       GMST    itrainingmod
+	morrowind.esm       GMST    sagidesc
+	morrowind.esm       GMST    senddesc
+	morrowind.esm       GMST    sfatdesc
+	morrowind.esm       GMST    shealthdesc
+	morrowind.esm       GMST    sintdesc
+	morrowind.esm       GMST    slucdesc
+	morrowind.esm       GMST    smagdesc
+	morrowind.esm       GMST    sperdesc
+	morrowind.esm       GMST    sspddesc
+	morrowind.esm       GMST    sstrdesc
+	morrowind.esm       GMST    swildesc
+	morrowind.esm       MGEF    13
+	morrowind.esm       MGEF    7
+	morrowind.esm       MGEF    8
+	morrowind.esm       NPC_    agronian guy
+	morrowind.esm       NPC_    ergnir
+	morrowind.esm       PGRD    samarys ancestral tomb
+	morrowind.esm       SKIL    0
+	morrowind.esm       SKIL    1
+	morrowind.esm       SKIL    10
+	morrowind.esm       SKIL    11
+	morrowind.esm       SKIL    12
+	morrowind.esm       SKIL    13
+	morrowind.esm       SKIL    14
+	morrowind.esm       SKIL    15
+	morrowind.esm       SKIL    16
+	morrowind.esm       SKIL    17
+	morrowind.esm       SKIL    18
+	morrowind.esm       SKIL    19
+	morrowind.esm       SKIL    2
+	morrowind.esm       SKIL    20
+	morrowind.esm       SKIL    21
+	morrowind.esm       SKIL    22
+	morrowind.esm       SKIL    23
+	morrowind.esm       SKIL    24
+	morrowind.esm       SKIL    25
+	morrowind.esm       SKIL    26
+	morrowind.esm       SKIL    3
+	morrowind.esm       SKIL    4
+	morrowind.esm       SKIL    5
+	morrowind.esm       SKIL    6
+	morrowind.esm       SKIL    7
+	morrowind.esm       SKIL    8
+	morrowind.esm       SKIL    9
+	morrowind.esm       WEAP    dwarven_hammer_volendrung
+	morrowind.esm       WEAP    ebony_bow_auriel
+	morrowind.esm       WEAP    iron spear
+	morrowind.esm       WEAP    steel broadsword of hewing
+	tribunal.esm        ARMO    imperial_chain_pauldron_left
+	tribunal.esm        ARMO    imperial_chain_pauldron_right
+	tribunal.esm        ARMO    lords_cuirass_unique_x
+	tribunal.esm        CREA    ancestor_ghost_summon
+	tribunal.esm        CREA    atronach_flame_summon
+	tribunal.esm        CREA    atronach_frost_summon
+	tribunal.esm        CREA    atronach_storm_summon
+	tribunal.esm        CREA    bonelord_summon
+	tribunal.esm        CREA    bonewalker_greater_summ
+	tribunal.esm        CREA    bonewalker_summon
+	tribunal.esm        CREA    clannfear_summon
+	tribunal.esm        CREA    daedroth_summon
+	tribunal.esm        CREA    dremora_summon
+	tribunal.esm        CREA    golden saint_summon
+	tribunal.esm        CREA    hunger_summon
+	tribunal.esm        CREA    scamp_summon
+	tribunal.esm        CREA    skeleton_summon
+	tribunal.esm        CREA    winged twilight_summon
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        ENCH    bipolar blade_en
+	tribunal.esm        ENCH    robe_lich_en
+	tribunal.esm        WEAP    steel broadsword
+	tribunal.esm        WEAP    stendar_hammer_unique
+
+[MOD-INF]: ID=2230212457795429(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Temple|NAME:Don't be in such a hurry when you're traveling. Take your time. Keep your eyes open. Learn from your experiences. You're on the road to learn about yourself and the world around you.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Temple|NAME:There is no surer sign of decay in a land than to see the rites of religion held in contempt.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=5284501933053078(Topic:morrowind lore)
+  morrowind.esm->|DATA|FNAM:Imperial Cult|NAME:The Daedra and the Saints are worshipped as ancestors by the Temple, and each family maintains a shrine dedicated to the remains and spirits of the clan's dead.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Imperial cult; default;
+  MWGO 2.0.esp-->|DATA|FNAM:Imperial Cult|NAME:The Daedra and the Saints are worshipped as ancestors by the Temple, and each family maintains a shrine dedicated to the remains and spirits of the clan's dead.|SCVR:02sX4Random100|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:;Imperial cult; default;
+
+[MOD-INF]: ID=6923112947019593(Topic:latest rumors)
+  bloodmoon.esm->|DATA|RNAM:Imperial|NAME:My son was recently shipped up to Fort Frostmoth on the island of Solstheim. I don't know what he did to deserve that, but it couldn't have been good.|SCVR:04JX4BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+  MWGO 2.0.esp-->|DATA|ONAM:imperial templar_ebon|NAME:My son was recently shipped up to Fort Frostmoth on the island of Solstheim. I don't know what he did to deserve that, but it couldn't have been good.|SCVR:04JX4BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+
+[MOD-INF]: ID=11947179366161203(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Telvanni|NAME:Just because your lord gives you a task, don't assume you should be able to do it. Your lord doesn't really know what you can or can't handle. And most Telvanni lords don't care.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Telvanni|NAME:Just because your lord gives you a task, don't assume you should be able to do it. Your lord doesn't really know what you can or can't handle. And most Telvanni lords don't care.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=13077967166187028(Topic:little secret)
+  tribunal.esm->|DATA|ANAM:Ald-ruhn|NAME:Have you heard about poor Ienas Sarandas? He lost his patrimony betting on the guar. Sold every piece of the family silverware to pay his debts. A pity. I think it's driven him a bit mad. Wears clothes fit for a lord, and hasn't got a drake for a meal.|SCVR:04JX4Town_Aldruhn|INTV:-|SCVR:1CsX0nolore|INTV:|BNAM:;Ald-ruhn; Journal Ald'ruhn_Saradnus < 45;   Journal town_ald_ienas 1
+  MWGO 2.0.esp->|DATA|ANAM:Ald-ruhn|NAME:Have you heard about poor Ienas Sarandas? He lost his patrimony betting on the guar. Sold every piece of the family silverware to pay his debts. A pity. I think it's driven him a bit mad. Wears clothes fit for a lord, and hasn't got a drake for a meal.|SCVR:04JX4Town_Aldruhn|INTV:-|SCVR:1CsX0NoLore|INTV:|BNAM:;Ald-ruhn; Journal Ald'ruhn_Saradnus < 45;   Journal town_ald_ienas 1
+
+[MOD-INF]: ID=20075696663035558(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Fighters Guild|NAME:How do you judge a job, decide if it's too tough for you? Good question. Me, I check three things: location, opposition, and payoff. First, if it's a long walk, I worry. If it's a Daedric ruin, or a Dunmer stronghold, or a Telvanni tower, I worry. If it's way up north, or near Red Mountain, I worry. Second, if the opposition is tough, I worry. Daedra worry me. Vampires worry me. Telvanni wizards worry me. Third, if the reward is fat, I worry. Nobody pays you a crate of gold for a walk in the park.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Fighters Guild|NAME:How do you judge a job, decide if it's too tough for you? Good question. Me, I check three things: location, opposition, and payoff. First, if it's a long walk, I worry. If it's a Daedric ruin, or a Dunmer stronghold, or a Telvanni tower, I worry. If it's way up north, or near Red Mountain, I worry. Second, if the opposition is tough, I worry. Daedra worry me. Vampires worry me. Telvanni wizards worry me. Third, if the reward is fat, I worry. Nobody pays you a crate of gold for a walk in the park.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=25326318635610711(Topic:little advice)
+  tribunal.esm->|DATA|CNAM:Trader|ANAM:Seyda Neen|NAME:You can read, can't you? Well, read some books. That's what they write 'em for. Got all the damn advice anyone could want in 'em. Buy 'em, read 'em, sell 'em back. Most folks don't mind if you take a peek at what books they got. Proud of being book-learned. Of course, if the f'lah is SELLING books, he wants you to buy 'em, THEN read 'em. It stands to reason.|SCVR:02sX5Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Seyda Neen; random100 <= 65;
+  MWGO 2.0.esp->|DATA|CNAM:Commoner|ANAM:Seyda Neen|NAME:You can read, can't you? Well, read some books. That's what they write 'em for. Got all the damn advice anyone could want in 'em. Buy 'em, read 'em, sell 'em back. Most folks don't mind if you take a peek at what books they got. Proud of being book-learned. Of course, if the f'lah is SELLING books, he wants you to buy 'em, THEN read 'em. It stands to reason.|SCVR:02sX5Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Seyda Neen; random100 <= 65;
+
+[MOD-INF]: ID=28647462266757668(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:Noble families often aren't around to watch their manors so they lock everything up. This makes them a wonderful opportunity to practice your skill at picking locks in the privacy of someone else's house. And of course, don't neglect to check the contents of that chest after you pick it.|SCVR:12sX4Random100|INTV|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:Noble families often aren't around to watch their manors so they lock everything up. This makes them a wonderful opportunity to practice your skill at picking locks in the privacy of someone else's house. And of course, don't neglect to check the contents of that chest after you pick it.|SCVR:12sX4Random100|INTV:#|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=30111573026704475(Topic:little advice)
+  tribunal.esm->|DATA|CNAM:Thief|FNAM:Thieves Guild|NAME:Look. If you're the bloody-minded type, tries to complete every task a boss gives you, you're in for a world of hurt. Happens all the time. You breeze through a couple of jobs, then you hit one you can't budge. I can't tell you what to do, but me, I go find something else to do for a while. Sure, nobody likes to admit you can't do a job. You brood over it, lie awake nights figuring how your gonna crack that nut. But patience and good sense is as important as blood and courage in this business.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|CNAM:Thief|FNAM:Thieves Guild|NAME:Look. If you're the bloody-minded type, tries to complete every task a boss gives you, you're in for a world of hurt. Happens all the time. You breeze through a couple of jobs, then you hit one you can't budge. I can't tell you what to do, but me, I go find something else to do for a while. Sure, nobody likes to admit you can't do a job. You brood over it, lie awake nights figuring how your gonna crack that nut. But patience and good sense is as important as blood and courage in this business.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=30684416329734873(Topic:services)
+  morrowind.esm->|DATA|NAME|INTV|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;Ghostgate;
+  MWGO 2.0.esp-->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;Ghostgate;
+
+[MOD-INF]: ID=31356284898699424(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:You can't be a successful thief if you always steal from the same merchant, or even stay in the same town. After you've picked them clean, explore somewhere else to give them a chance to restock.|SCVR:12sX4Random100|INTV:(|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:You can't be a successful thief if you always steal from the same merchant, or even stay in the same town. After you've picked them clean, explore somewhere else to give them a chance to restock.|SCVR:12sX4Random100|INTV:-|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=31644168978961655(Topic:services)
+  morrowind.esm->|DATA|ANAM:Vos|NAME|INTV|SCVR:17XX0eldrilu dalen|INTV:|SCVR:27XX0burcanius varo|INTV:|SCVR:3CsX0nolore|INTV:|BNAM:;Vos ;
+  MWGO 2.0.esp-->|DATA|ANAM:Vos|NAME|INTV|SCVR:17XX0eldrilu dalen|INTV:|SCVR:27XX0burcanius varo|INTV:|SCVR:3CsX0NoLore|INTV:|BNAM:;Vos ;
+
+[MOD-INF]: ID=31740478173384819(Greeting:greeting 7)
+  morrowind.esm->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:What are you doing here? Can you let %Name go free?|SCVR:03sX0slaveStatus|INTV:
+  MWGO 2.0.esp-->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:What are you doing here? Can you let %Name go free?|SCVR:03sX0slaveStatus|INTV:
+
+[MOD-INF]: ID=33523429197013181(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Fighters Guild|NAME:Nobody is going to coddle you in the Fighters Guild. In the Imperial cult, they give you stuff that old ladies could do in their sleep. But here, you get in line for work, and if something comes to you that is out of your depth, you're supposed to be smart enough to back off and come at it again later when you have the equipment and chops.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Fighters Guild|NAME:Nobody is going to coddle you in the Fighters Guild. In the Imperial cult, they give you stuff that old ladies could do in their sleep. But here, you get in line for work, and if something comes to you that is out of your depth, you're supposed to be smart enough to back off and come at it again later when you have the equipment and chops.|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=53217046150488862(Topic:blades trainers)
+  morrowind.esm->|DATA|ONAM:gildan|DNAM:Blades|NAME:Certainly I offer basic training at low prices to colleagues. But even at my low prices, advanced training isn't cheap. Sorry, but that's the way it is. Look. Can I make a suggestion? Go see Wayn at the Balmora Guild of Fighters. Know what a jink blade is? It has a Paralyze enchantment. And a spider blade has a Poison enchantment. They're not considered honorable weapons, and most smiths don't sell them. But they sure come in handy.|SCVR:01065|INTV|BNAM:journal blades_Gildan 1
+  MWGO 2.0.esp-->|DATA|ONAM:gildan|DNAM:Blades|NAME:Certainly I offer basic training at low prices to colleagues. But even at my low prices, advanced training isn't cheap. Sorry, but that's the way it is. Look. Can I make a suggestion? Go see Wayn at the Balmora Guild of Fighters. Know what a jink blade is? It has a Paralyze enchantment. And a spider blade has a Poison enchantment. They're not considered honorable weapons, and most smiths don't sell them. But they sure come in handy.|BNAM:journal blades_Gildan 1
+
+[DUP-INF]: ID=58336082777117486(Topic:train)
+  |DATA|ONAM:ladia flarugrius|NAME:I can train you. Standard Guild rates, discount for your rank, same old, same old. You want the training I don't got, you go to the South Wall in Balmora.|SCVR:01460|INTV|BNAM:; Ladia Flarugrius; Same Faction = 1
+
+[MOD-INF]: ID=61475781385732581(Topic:little secret)
+  tribunal.esm->|DATA|CNAM:Miner|NAME:Kwama foragers and warriors won't attack us, since they're used to our smell. But they attack intruders. And you smell like an intruder. But don't worry. The queen squirts out foragers and warriors like seeds. If the foragers and warriors bother you, kill them, or run past, whichever is easier. But do us a favor, and don't kill the workers. They won't bother you, and we need them to keep the queen laying and the eggs ripening.|SCVR:01064|INTV|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|CNAM:Miner|NAME:Kwama foragers and warriors won't attack us, since they're used to our smell. But they attack intruders. And you smell like an intruder. But don't worry. The queen squirts out foragers and warriors like seeds. If the foragers and warriors bother you, kill them, or run past, whichever is easier. But do us a favor, and don't kill the workers. They won't bother you, and we need them to keep the queen laying and the eggs ripening.|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=96322164076299436(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Redoran|NAME:If you accept a task from a superior, you are honor-bound to complete it. But unless there is a deadline, or an issue of honor, you are NOT supposed to die trying. Use common sense. If you find you are not yet ready to face a challenge, be patient, train, outfit yourself, and revisit the task at a later date.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Redoran|NAME:If you accept a task from a superior, you are honor-bound to complete it. But unless there is a deadline, or an issue of honor, you are NOT supposed to die trying. Use common sense. If you find you are not yet ready to face a challenge, be patient, train, outfit yourself, and revisit the task at a later date.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=97491760517649967(Topic:morrowind lore)
+  morrowind.esm->|DATA|FNAM:Fighters Guild|NAME:When choosing body armor, get a cuirass first for the chest, then greaves for the legs, helm for the head, and boots for the feet. Add left and right pauldrons for upper arms and gauntlets or bracers for lower arms.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; default; Imperial Legion; default;
+  MWGO 2.0.esp-->|DATA|FNAM:Fighters Guild|NAME:When choosing body armor, get a cuirass first for the chest, then greaves for the legs, helm for the head, and boots for the feet. Add left and right pauldrons for upper arms and gauntlets or bracers for lower arms.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; default; Imperial Legion; default;
+
+[MOD-INF]: ID=103812235184709891(Topic:morrowind lore)
+  morrowind.esm->|DATA|FNAM:Fighters Guild|NAME:Shields and tower shields give good protection, but you can only use one-handed weapons with them.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; default; Imperial Legion; default;
+  MWGO 2.0.esp-->|DATA|FNAM:Fighters Guild|NAME:Shields and tower shields give good protection, but you can only use one-handed weapons with them.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; default; Imperial Legion; default;
+
+[MOD-INF]: ID=111731783792425412(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Mages Guild|NAME:Join the Mages Guild. Rise ranks to get good rates for services. And stay in their good graces by minding their rules and performing the required duties.|SCVR:12sX4Random100|INTV|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Mages Guild|NAME:Join the Mages Guild. Rise ranks to get good rates for services. And stay in their good graces by minding their rules and performing the required duties.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=113651937587262962(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Thief Service|NAME:I'm a thief. I was born to be a thief. I love to sneak around in rich people's houses, and liberate their possessions. I enjoy puzzling out the security provisions on doors and chests, thrilling to the challenge and suspense of picking locks and disarming traps. I can sell you the tools of the trade -- the lockpick and probe. I can train you to be a better thief yourself, but you must make a generous contribution to my retirement fund.|SCVR:0CsX0NoLore|INTV:|BNAM:;Thief; SERVICE; Sneak, Security. Imperial law
+  MWGO 2.0.esp-->|DATA|CNAM:Thief Service|NAME:I'm a thief. I was born to be a thief. I love to sneak around in rich people's houses, and liberate their possessions. I enjoy puzzling out the security provisions on doors and chests, thrilling to the challenge and suspense of picking locks and disarming traps. I can sell you the tools of the trade -- the lockpick and probe. I can train you to be a better thief yourself, but you must make a generous contribution to my retirement fund.|SCVR:0CsX0NoLore|INTV:|BNAM:;Thief; SERVICE; Sneak, Security. Imperial law
+
+[MOD-INF]: ID=125096360577018710(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:Merchants know their own inventories far better than you do. Never attempt to trick them into buying something you stole from them.|SCVR:12sX4Random100|INTV|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:Merchants know their own inventories far better than you do. Never attempt to trick them into buying something you stole from them.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=139087729187305848(Topic:morrowind lore)
+  morrowind.esm->|DATA|FNAM:Morag Tong|NAME:Constrained by ancient traditions and rigid codes of conduct, the Morag Tong only recruits candidates of proven skill and honor.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV
+  MWGO 2.0.esp-->|DATA|FNAM:Morag Tong|NAME:Constrained by ancient traditions and rigid codes of conduct, the Morag Tong only recruits candidates of proven skill and honor.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV
+
+[MOD-INF]: ID=140611308994321843(Topic:little secret)
+  tribunal.esm->|DATA|NAME:Buy from merchants and traders who like you. You get better prices. Members of your own factions usually like you best.|SCVR:02sX4Random100|INTV:<|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|RNAM:Dark Elf|NAME:We don't much love foreigners here in Vvardenfell, and we don't thank you for interfering. A people should keep to their own, if you take my meaning. And that's not the Empire's way. I look around, I don't see much benefit from uniting the provinces, unless you're a fatcat merchant, or maybe a soldier.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Imperial Legion|INTV|SCVR:38FX0Hlaalu|INTV|SCVR:48FX0Imperial Cult|INTV|SCVR:58FX0Thieves Guild|INTV
+
+[MOD-INF]: ID=164951480229794220(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Mages Guild|ANAM:Ald-ruhn|NAME|INTV|SCVR:12sX4Random100|INTV:K|SCVR:2CsX0NoLore|INTV:|BNAM:;Ald'ruhn; mages;
+  MWGO 2.0.esp->|DATA|FNAM:Mages Guild|ANAM:Ald-ruhn|NAME|INTV|SCVR:12sX4Random100|INTV:U|SCVR:2CsX0NoLore|INTV:|BNAM:;Ald'ruhn; mages;
+
+[MOD-INF]: ID=168363113941948225(Topic:services)
+  morrowind.esm->|DATA|ANAM:Maar Gan|NAME|INTV|SCVR:1CsX0nolore|INTV
+  MWGO 2.0.esp-->|DATA|ANAM:Maar Gan|NAME|INTV|SCVR:1CsX0NoLore|INTV
+
+[MOD-INF]: ID=168717852551231052(Topic:services)
+  morrowind.esm->|DATA|FNAM:Temple|ANAM:Sadrith Mora, Telvanni Council House, Chambers|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Sadrith Mora;
+  MWGO 2.0.esp-->|DATA|FNAM:Temple|ANAM:Sadrith Mora, Telvanni Council House, Chambers|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Sadrith Mora;
+
+[MOD-INF]: ID=191352994964974413(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Mages Guild|NAME:Everybody can learn a few spells. You don't need to be a wizard to cast spells. It makes life easier. And when you learn a spell, practice. It's the only way to learn, and it helps to pass the time.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Mages Guild|NAME:Ranis Athrys has something against wizards who aren't in the guild. It's no a surprise really - her parents were murdered by the old Telvanni Archmagister, the one before Gothren.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0ranis athrys|INTV
+
+[MOD-INF]: ID=197633482189119760(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Crusader|NAME:I'm what they call a crusader. Crusaders used to be warriors in service to a cult, but now any heavily armored warrior with a good cause calls himself a crusader. My good cause is hunting down necromancers and witches and bandits and other malefactors. And I do well by doing good -- salvage on arms, armor, and goods taken from malefactors earns me a good living. I'm tough and strong, so I wear heavy armor and use blunt weapons. And I won't fight with worn weapons or worn armor, so I'm my own armorer.|SCVR:0CsX0NoLore|INTV:|BNAM:;Crusader; Blunt, Heavy Armor, Armorer
+  MWGO 2.0.esp-->|DATA|CNAM:Crusader|NAME:I'm what they call a crusader. Crusaders used to be warriors in service to a cult, but now any heavily armored warrior with a good cause calls himself a crusader. My good cause is hunting down necromancers and witches and bandits and other malefactors. And I do well by doing good -- salvage on arms, armor, and goods taken from malefactors earns me a good living.|SCVR:0CsX0NoLore|INTV:|BNAM:;Crusader; Blunt, Heavy Armor, Armorer
+
+[MOD-INF]: ID=197689157159159184(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Imperial Legion|NAME:Don't carry those cheap armorer's hammers around with you. Hammers are dead weight. Buy them, and use them on the spot. If you're a shortblade specialist, and you like to travel light, it's often cheaper to own and carry backup weapons.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Imperial Legion|NAME:Every warrior worth his salt wants a suit of Ebony mail. The locals call it 'Godsblood' for good reason - you'll be defended as if the Divines themselves were watching over you. Of course, they say Daedric plate is even tougher - but evil spirits are trapped inside the metal during forging, and I want no part of that.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=199125112316114851(Topic:blades trainers)
+  morrowind.esm->|DATA|ONAM:tyermaillin|DNAM:Blades|NAME:Basic skill training is cheap. We give you discounts for higher rank in the Blades, and we keep our prices low. But advanced training is never cheap, even from us. Look. To get you started, here's my old alembic. Maybe you can get a few gold for it, or use it yourself.|SCVR:01065|INTV|BNAM:player->additem apparatus_j_alembic_01 1  journal blades_tyermaillin 1
+  MWGO 2.0.esp-->|DATA|ONAM:tyermaillin|DNAM:Blades|NAME:Basic skill training is cheap. We give you discounts for higher rank in the Blades, and we keep our prices low. But advanced training is never cheap, even from us. Look. To get you started, here's my old alembic. Maybe you can get a few gold for it, or use it yourself.|BNAM:player->additem apparatus_j_alembic_01 1  journal blades_tyermaillin 1
+
+[MOD-INF]: ID=199322001358817888(Topic:little secret)
+  tribunal.esm->|DATA|NAME:If someone attacks you first, you have the right to defend yourself. If someone DOESN'T attack you first, you're going to break the law if you attack him.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|CNAM:Archer|NAME:Darts and throwing knives don't pack much of a punch, but they're lightweight, easily concealed and leave you with a hand free to carry a shield or torch.|SCVR:02sX4Random100|INTV:_|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=213433271370314666(Topic:morrowind lore)
+  morrowind.esm->|DATA|FNAM:Imperial Cult|NAME:Ancestor worship is the religion of the Ashlanders. The Tribunal Temple still practices ancestor worship, but only as a minor part of their faith.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Imperial cult; default;
+  MWGO 2.0.esp-->|DATA|FNAM:Imperial Cult|NAME:Ancestor worship is the religion of the Ashlanders. The Tribunal Temple still practices ancestor worship, but only as a minor part of their faith.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Imperial cult; default;
+
+[MOD-INF]: ID=215501840788733974(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:Keep a good sense of your surroundings, no matter how good you are sneaking, you're always better off if no one is around.|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:Keep a good sense of your surroundings, no matter how good you are sneaking, you're always better off if no one is around.|SCVR:12sX4Random100|INTV:7|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=223772975612938954(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Assassin Service|NAME:I'm an assassin. Killing is my profession. I am discrete, efficient, and reliable. In Morrowind, the assassin's trade is an ancient and honorable profession, restricted by a rigid code of conduct, and operating strictly within the law. Because I am discreet, I prefer short blades for swift, close-and personal work, while the marksman weapons like throwing stars and throwing knives are more suitable for stealth and surprise. I charge fair prices to train apprentices in the assassin's skills.|SCVR:0CsX0NoLore|INTV:|BNAM:;Assassin; SERVICE; Short Blade, Misc. Missile
+  MWGO 2.0.esp-->|DATA|CNAM:Assassin Service|NAME:I'm an assassin. Killing is my profession. I am discrete, efficient, and reliable. In Morrowind, the assassin's trade is an ancient and honorable profession, restricted by a rigid code of conduct, and operating strictly within the law. Because I am discreet, I prefer short blades for swift, close-and personal work, while the marksman weapons like throwing stars and throwing knives are more suitable for stealth and surprise. I charge fair prices to train apprentices in the assassin's skills.|SCVR:0CsX0NoLore|INTV:|BNAM:;Assassin; SERVICE; Short Blade, Misc. Missile
+
+[MOD-INF]: ID=238503076378412623(Topic:services)
+  morrowind.esm->|DATA|ANAM:Balmora|NAME|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;Balmora
+  MWGO 2.0.esp-->|DATA|ANAM:Balmora|NAME|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Balmora
+
+[MOD-INF]: ID=259942865635092117(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Imperial Legion|NAME:Nobody is going to hold your hand in the Legion. In the Imperial cult, they just test your faith and your shoe leather. But here, your superior gives you orders, and you find you're out of your depth, you're supposed to be smart enough to be patient, get some training, experience, and new equipment, and try it again later when you're better prepared.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Imperial Legion|NAME:Nobody is going to hold your hand in the Legion. In the Imperial cult, they just test your faith and your shoe leather. But here, your superior gives you orders, and you find you're out of your depth, you're supposed to be smart enough to be patient, get some training, experience, and new equipment, and try it again later when you're better prepared.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=268212608920701313(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:Practice stealing and pickpocketing by taking cheap things from small merchants. Don't go after the big stuff until you're experienced.|SCVR:12sX4Random100|INTV:A|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:Practice stealing and pickpocketing by taking cheap things from small merchants. Don't go after the big stuff until you're experienced.|SCVR:12sX4Random100|INTV:F|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=273388995142705141(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:If possible, always take a single item at a time. It increases the risk, but it's excellent practice.|SCVR:12sX4Random100|INTV:7|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:If possible, always take a single item at a time. It increases the risk, but it's excellent practice.|SCVR:12sX4Random100|INTV:<|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=276181128340255511(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Fighters Guild|NAME:You like to poke your nose into doors out in the backcountry? A little suggestion. The places that look like they're made of a golden metal? With spires and towers? Those are Dwarven ruins. They're kinda dangerous -- partly because of the old Dwarven machines in them, and partly because of the kind of things that like to hide out in such old ruins. All the old ruins inside the Ghostfence, for example, are ancient Dwarven ruins. And I hear that vampires like them, too.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Fighters Guild|NAME:You like to poke your nose into doors out in the backcountry? A little suggestion. The places that look like they're made of a golden metal? With spires and towers? Those are Dwarven ruins. They're kinda dangerous -- partly because of the old Dwarven machines in them, and partly because of the kind of things that like to hide out in such old ruins. All the old ruins inside the Ghostfence, for example, are ancient Dwarven ruins. And I hear that vampires like them, too.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=279211377419581643(Topic:services)
+  morrowind.esm->|DATA|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Molag Mar;
+  MWGO 2.0.esp-->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Molag Mar;
+
+[MOD-INF]: ID=297416033127723972(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Mages Guild|NAME:Use illusion spells like invisibility to scout an area before you go on the offensive. Often a cunning spellcaster can simply avoid opponents and obstacles, move right to the objective, and leave without taking a scratch.|SCVR:12sX4Random100|INTV: |SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Mages Guild|NAME:Use illusion spells like invisibility to scout an area before you go on the offensive. Often a cunning spellcaster can simply avoid opponents and obstacles, move right to the objective, and leave without taking a scratch.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=299520821674915083(Topic:blades trainers)
+  morrowind.esm->|DATA|ONAM:rithleen|DNAM:Blades|NAME:Yes. We aren't trying to make a profit off our fellow Blades, and as you rise in rank, your discount increases. Still, we have to live, and training isn't cheap. Well... basic skill training -- if you don't know very much -- can be pretty cheap. But advanced skill training -- for example, in your major specialties, that can get expensive. Here. I don't use this cuirass and helm any more. Maybe you can get a few drakes for it, and put them in your personal training fund.|SCVR:01065|INTV|BNAM:player->additem steel_cuirass 1  player->additem steel_helm 1  journal blades_rithleen 1
+  MWGO 2.0.esp-->|DATA|ONAM:rithleen|DNAM:Blades|NAME:Yes. We aren't trying to make a profit off our fellow Blades, and as you rise in rank, your discount increases. Still, we have to live, and training isn't cheap. Well... basic skill training -- if you don't know very much -- can be pretty cheap. But advanced skill training -- for example, in your major specialties, that can get expensive. Here. I don't use this cuirass and helm any more. Maybe you can get a few drakes for it, and put them in your personal training fund.|BNAM:player->additem steel_cuirass 1  player->additem steel_helm 1  journal blades_rithleen 1
+
+[MOD-INF]: ID=315271751263117992(Topic:services)
+  morrowind.esm->|DATA|ANAM:Ald Velothi|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Ald Velothi;
+  MWGO 2.0.esp-->|DATA|ANAM:Ald Velothi|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Ald Velothi;
+
+[MOD-INF]: ID=387544811797528689(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Redoran|NAME:If you help someone, they'll remember. If you're loyal to others, they'll be loyal to you. Do the right thing. You know the right thing. Do the right thing, so you'll never regret what you've done.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Redoran|NAME:Did you hear Bolvyn Venim killed another outlander in a duel? The man was an officer in the House Guard, but Bolvyn Venim insulted his ancestors at a meal, so of course the officer had to demand satisfaction. And of course he had no chance against Venim. He may be lacking in honour - but certainly not courage.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:|SCVR:26DX0bolvyn venim|INTV:
+
+[MOD-INF]: ID=389521061191299872(Topic:little secret)
+  tribunal.esm->|DATA|NAME:Vampires are not as much of a problem here as back in the West. Here, the Dark Elves burned them out centuries ago, and the Temple makes sure they don't come back.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|SCVR:3ARX0Dark Elf|INTV
+  MWGO 2.0.esp->|DATA|NAME:It's bad enough with the blight storms this year, but the Ashlanders are also going crazy, jumping caravans and pilgrims, raiding villages. They ought to send the Legions out and teach them a lesson.|SCVR:02sX4Random100|INTV:#|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|SCVR:34JX4C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=396613601281755130(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Hlaalu|NAME:Just because your superior gives you a task, don't assume you should be able to do it. Your superior doesn't really know what you can or can't handle. And some superiors don't care.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Hlaalu|NAME:Just because your superior gives you a task, don't assume you should be able to do it. Your superior doesn't really know what you can or can't handle. And some superiors don't care.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=452027941264710687(Topic:little secret)
+  tribunal.esm->|DATA|NAME:How do you recognize a Daedric shrine? Well, they've got long, funny names, like Ashurnibibi or Zaintiraris. Some are well-known sites, like Ald Sotha and Bal Fell. And stone and architecture is unmistakable. Big, dark, grey-green stone ruins, funny angles, funny markings and patterns on the stone. Weird oval crooked doors. And inside, all funny angles.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0nolore|INTV:|SCVR:52sX4Random100|INTV:2
+  MWGO 2.0.esp->|DATA|NAME:How do you recognize a Daedric shrine? Well, they've got long, funny names, like Ashurnibibi or Zaintiraris. Some are well-known sites, like Ald Sotha and Bal Fell. And stone and architecture is unmistakable. Big, dark, grey-green stone ruins, funny angles, funny markings and patterns on the stone. Weird oval crooked doors. And inside, all funny angles.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0NoLore|INTV:|SCVR:52sX4Random100|INTV
+
+[MOD-INF]: ID=666731499111789993(Topic:background)
+  morrowind.esm->|DATA|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+  MWGO 2.0.esp-->|DATA|RNAM:Breton|CNAM:Spellsword|NAME:I travel from place to place, searching for adventure, and an opportunity to hone my deadly arts. I have heard of an unkillable warrior called Umbra, and have a mind to try her mettle.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=677730684800612826(Topic:train)
+  |DATA|ONAM:ahnassi|NAME:Ahnassi is sorry she must charge Guild rates to train a friend, but Ahnassi gave her word, so Ahnassi is good and follows the rules.|SCVR:04JX3Romance_Ahnassi|INTV|BNAM:;Ahnassi; Journal Romance_Ahnassi >= 30
+
+[MOD-INF]: ID=703916010385010941(Topic:little secret)
+  tribunal.esm->|DATA|RNAM:Dark Elf|NAME:You're an outlander, maybe you don't know about the kinds of Daedric ruins we have here in Morrowind. Daedra cults worship the Bad Daedra. You can learn more about that at the Temple. Anyway, long ago, before the Temple put a stop to it, people used to worship bad Daedra -- Molag Bal, Malacath, Sheogorath, and Mehrunes Dagon -- at Daedra shrines. But lately, since the Empire came in, some people have taken up worshipping the bad Daedra at these old sites. And I warn you. These are dangerous places.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0nolore|INTV:|SCVR:52sX4Random100|INTV:2
+  MWGO 2.0.esp->|DATA|RNAM:Dark Elf|NAME:You're an outlander, maybe you don't know about the kinds of Daedric ruins we have here in Morrowind. Daedra cults worship the Bad Daedra. You can learn more about that at the Temple. Anyway, long ago, before the Temple put a stop to it, people used to worship bad Daedra -- Molag Bal, Malacath, Sheogorath, and Mehrunes Dagon -- at Daedra shrines. But lately, since the Empire came in, some people have taken up worshipping the bad Daedra at these old sites. And I warn you. These are dangerous places.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0NoLore|INTV:|SCVR:52sX4Random100|INTV
+
+[MOD-INF]: ID=716021976685527181(Topic:services)
+  morrowind.esm->|DATA|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Ebonheart;
+  MWGO 2.0.esp-->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Ebonheart;
+
+[MOD-INF]: ID=783617424428217896(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:If you have the patience, sneak around everywhere you go. It will take longer, and may arouse suspicion, but it's excellent practice.|SCVR:12sX4Random100|INTV: |SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:If you have the patience, sneak around everywhere you go. It will take longer, and may arouse suspicion, but it's excellent practice.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=840468963001823562(Topic:services)
+  morrowind.esm->|DATA|ANAM:Gnisis|NAME:In the center of the village, try the merchants outside the Temple, or see Mehra Drora at the Temple for Temple services. Get Imperial Legions and Imperial cult services at Fort Darius east of the village. Madach is the publican at Madach's Tradehouse here in the village.|SCVR:07XX0fenas madach|INTV|INTV|SCVR:2CsX0nolore|INTV:|SCVR:37XX0mehra drora|INTV|BNAM:;Gnisis;
+  MWGO 2.0.esp-->|DATA|ANAM:Gnisis|NAME:In the center of the village, try the merchants outside the Temple, or see Mehra Drora at the Temple for Temple services. Get Imperial Legions and Imperial cult services at Fort Darius east of the village. Madach is the publican at Madach's Tradehouse here in the village.|SCVR:07XX0fenas madach|INTV|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:37XX0mehra drora|INTV|BNAM:;Gnisis;
+
+[DUP-INF]: ID=899782862635614603(Topic:train)
+  |DATA|ONAM:ahnassi|NAME:For the Guild, Ahnassi trains, for Guild rates.|SCVR:01460|INTV|BNAM:; Ahnassi; SameFaction = 1;
+
+[MOD-INF]: ID=961610326284295759(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Merchant|NAME:I am a merchant. I look for goods that are well-made, that people want to buy, that I can buy and sell at a profit. There are many different kinds of materials I can buy and sell -- animal products, vegetable products, mineral products, even exotic products. Crafts and manufactured goods I deal in include weapons, armor, clothing, books, potions, enchanted items, and various housewares. I travel, talk with people I meet, buy what I like, and sell what people like.|SCVR:0CsX0NoLore|INTV:|BNAM:;Merchant; generic merchants do not have services, and do not buy and sell; they are just merchant quest and scenery characters
+  MWGO 2.0.esp-->|DATA|NAME:I don't see how the details of my trade concern you.|SCVR:0CsX0NoLore|INTV|INTV
+
+[MOD-INF]: ID=1169922125955110917(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  MWGO 2.0.esp-->|DATA|CNAM:Agent|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=1248319992938512979(Topic:little advice)
+  tribunal.esm->|DATA|ONAM:arrille|NAME:If you want to live to a ripe old age, buy a weapon and as much armor as you can wear and still run from trouble. Buy a spell or two. And practice your skills. Don't practice on citizens. We call that foul murder, and we don't like it. But you can kill smugglers and bandits and other outlaws all you like. Outlaws have no rights. Plenty of adventurers make a living from killing and looting outlaws. That smuggler scum down in Addamasartus, for instance. The cave down near the silt strider platform.
+  MWGO 2.0.esp->|DATA|ONAM:arrille|NAME:If you want to live to a ripe old age, buy a weapon and as much armor as you can wear and still run from trouble. Buy a spell or two. And practice your skills. Don't practice on citizens. We call that foul murder, and we don't like it. But you can kill smugglers and bandits and other outlaws all you like. Outlaws have no rights. Plenty of adventurers make a living from killing and looting outlaws. That smuggler scum down in Addamasartus, for instance. The cave down near the silt strider platform.|SCVR:02sX2Random100|INTV:2
+
+[MOD-INF]: ID=1291253561123713562(Topic:services)
+  morrowind.esm->|DATA|ANAM:Tel Mora|NAME|INTV|SCVR:1CsX0nolore|INTV
+  MWGO 2.0.esp-->|DATA|ANAM:Tel Mora|NAME|INTV|SCVR:1CsX0NoLore|INTV
+
+[MOD-INF]: ID=1360165051119330796(Topic:specific place)
+  morrowind.esm->|DATA|ANAM:Balmora|NAME|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;Balmora   Choice "Continue" 1
+  MWGO 2.0.esp-->|DATA|ANAM:Ald Velothi|NAME|INTV|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1547883511924722057(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Imperial Cult|NAME:Remember: there's always a welcome for you in the Imperial cult. If you're having a hard time here in Morrowind, outlander, come home to the Imperial cult shrine. We'll find a use for you, and help you feel good while doing good.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Imperial Cult|NAME:We welcome all races within the Imperial Cult. But most Dunmer natives cling to their worship of the Temple. I suppose they are more comfortable with Gods who can be seen, and speak to them in person. But Gods who take human form must also take on human imperfections. The Divines have no such flaws.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1584133641041224652(Topic:little advice)
+  tribunal.esm->|DATA|NAME:If you take a job that's too hard for you, don't kill yourself. Wait until you're bigger and stronger, then try again.|SCVR:02sX4Random100|INTV:F|SCVR:11630|INTV:|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+  MWGO 2.0.esp->|DATA|NAME:If you take a job that's too hard for you, don't kill yourself. Wait until you're bigger and stronger, then try again.|SCVR:02sX0Random100|INTV:A|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=1588253092529329077(Topic:little secret)
+  tribunal.esm->|DATA|RNAM:Dark Elf|NAME:What are the most dangerous places in Morrowind? Well, probably the ash vampire citadels inside the Ghost Fence, on Red Mountain. But outside the Ghostfence? I guess the Daedric ruins would be the worst. They're all over the place, and full of bad Daedra, and the crazy folks who summon them. I hear vampires are pretty bad, too, but I've never seen any, personally. And the Dwemer sites are pretty bad, too.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0nolore|INTV:|SCVR:52sX4Random100|INTV:2
+  MWGO 2.0.esp->|DATA|RNAM:Dark Elf|NAME:What are the most dangerous places in Morrowind? Well, probably the ash vampire citadels inside the Ghost Fence, on Red Mountain. But outside the Ghostfence? I guess the Daedric ruins would be the worst. They're all over the place, and full of bad Daedra, and the crazy folks who summon them. I hear vampires are pretty bad, too, but I've never seen any, personally. And the Dwemer sites are pretty bad, too.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0NoLore|INTV:|SCVR:52sX4Random100|INTV
+
+[MOD-INF]: ID=1599615223071730442(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Mages Guild|NAME:The farther from civilization you go, the worse the dangers. But there're exceptions to that rule. Ald Sotha is a short walk from Vivec. But only a five-year veteran with full kit ought to be peeking into that hole. And I hear there's a couple of spots in Vivec's sewers where you wouldn't send a team of Ordinators. But it's your call. You see something you don't like, back out, and find something else to do while you train and build up your kit.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Mages Guild|NAME:The farther from civilization you go, the worse the dangers. But there're exceptions to that rule. Ald Sotha is a short walk from Vivec. But only a five-year veteran with full kit ought to be peeking into that hole. And I hear there's a couple of spots in Vivec's sewers where you wouldn't send a team of Ordinators. But it's your call. You see something you don't like, back out, and find something else to do while you train and build up your kit.|SCVR:12sX4Random100|INTV: |SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1626620931573329528(Topic:my trade)
+  morrowind.esm->|DATA|ONAM:ienas sarandas|NAME:Trade? I'm afraid I have no trade. I shall have to think what to do.|BNAM:;Ienas Sarandas;
+  MWGO 2.0.esp-->|DATA|ONAM:ienas sarandas|NAME:Trade? I'm afraid I have no trade. I shall have to think what to do.|SCVR:04JX3Town_Aldruhn|INTV:#|BNAM:;Ienas Sarandas;
+
+[MOD-INF]: ID=1723323910251136085(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Telvanni|NAME:Sadrith Mora is the best town to shop for spells.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Telvanni|NAME:It is safer to be feared than loved, if you cannot be both.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1876222912775829177(Topic:morrowind lore)
+  morrowind.esm->|DATA|NAME:Worn-out weapons and armor work poorly. Repair them yourself, if you have some skill, or take them to a smith for repair.|SCVR:0CsX0nolore|INTV:
+  MWGO 2.0.esp-->|DATA|NAME:Ask the local Dunmer - I'm sure they could tell you more.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1915820015225438668(Topic:blades trainers)
+  morrowind.esm->|DATA|ONAM:surane leoriane|DNAM:Blades|NAME:Of course we can train you. You pay, of course, but much less than you would outside the Blades. And may I suggest you find someone to teach you the Detect Enchantment spell? Whenever you're exploring, it's good to know where enchanted items are. Sometimes that's where dangerous enemies are... HOLDING the enchanted items. And sometimes that shows items hidden from view in deep pools or on high ledges. See Llaros Uvayn the Nightblade at the Caldera Governor's Hall.|SCVR:01065|INTV|BNAM:journal blades_Surane 1
+  MWGO 2.0.esp-->|DATA|ONAM:surane leoriane|DNAM:Blades|NAME:Of course we can train you. You pay, of course, but much less than you would outside the Blades. And may I suggest you find someone to teach you the Detect Enchantment spell? Whenever you're exploring, it's good to know where enchanted items are. Sometimes that's where dangerous enemies are... HOLDING the enchanted items. And sometimes that shows items hidden from view in deep pools or on high ledges. See Llaros Uvayn the Nightblade at the Caldera Governor's Hall.|BNAM:journal blades_Surane 1
+
+[MOD-INF]: ID=1950436122867025594(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Rogue|NAME:I'm a lovable rogue, a silver-tongued devil with a taste for the better things in life. But lovable as I am, some people get upset with me, and so I must fight -- purely in self-defense, you understand. I like light armor and short blades for self defense; heavy armor and heavy weapons just tire you out. But I train with various different weapon types and armor types, so I can improvise when the situation demands it.|SCVR:0CsX0NoLore|INTV:|BNAM:;Rogue; Light Armor, Short Blade
+  MWGO 2.0.esp-->|DATA|CNAM:Rogue|NAME:I'm a lovable rogue, a silver-tongued devil with a taste for the better things in life. But lovable as I am, some people get upset with me, and so I must fight -- purely in self-defense, you understand. I'm quick on my feet and I can improvise when the situation demands it.|SCVR:0CsX0NoLore|INTV:|BNAM:;Rogue; Light Armor, Short Blade
+
+[MOD-INF]: ID=2000312422216396611(Topic:morrowind lore)
+  morrowind.esm->|DATA|FNAM:Redoran|NAME:Three Dunmer Great Houses dominate Vvardenfell politics. Only House Redoran honors the ancient noble traditions and faith of our ancestors. House Hlaalu is infected with the greed of the West. They fawn over their Imperial masters. The Telvanni are, as always, heartless, predatory, and unpredictable.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV
+  MWGO 2.0.esp-->|DATA|FNAM:Redoran|NAME:Three Dunmer Great Houses dominate Vvardenfell politics. Only House Redoran honors the ancient noble traditions and faith of our ancestors. House Hlaalu is infected with the greed of the West. They fawn over their Imperial masters. The Telvanni are, as always, heartless, predatory, and unpredictable.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV: 
+
+[MOD-INF]: ID=2018520112243419605(Topic:little advice)
+  tribunal.esm->|DATA|CNAM:Rogue|ANAM:Seyda Neen|NAME:You look like a f'lah who knows his way around, eh? Looking for what others are looking for. Well, they don't have an Imperial charter, but there's honor among thieves, if you know what I mean. Look in the tradehouses and cornerclubs, talk around. If you look likely, and talk likely, they'll give you the word.|SCVR:02sX5Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Seyda Neen; random100 <= 35;
+  MWGO 2.0.esp->|DATA|CNAM:Commoner|ANAM:Seyda Neen|NAME:You look like a f'lah who knows his way around, eh? Looking for what others are looking for. Well, they don't have an Imperial charter, but there's honor among thieves, if you know what I mean. Look in the tradehouses and cornerclubs, talk around. If you look likely, and talk likely, they'll give you the word.|SCVR:02sX5Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV|INTV|BNAM:;Seyda Neen; random100 <= 35;
+
+[MOD-INF]: ID=2313110342475128931(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Mages Guild|NAME:How do you know when you've got a quest too tough for you? If it sounds too tough for you, it probably is. You must use your own judgement. Guild stewards don't really get to know your abilities. All they know is that a guy never comes back. They don't know if he got lost interest, or got eaten.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Mages Guild|NAME:How do you know when you've got a quest too tough for you? If it sounds too tough for you, it probably is. You must use your own judgement. Guild stewards don't really get to know your abilities. All they know is that a guy never comes back. They don't know if he got lost, lost interest or got eaten.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2322012302362129478(Topic:blades trainers)
+  morrowind.esm->|DATA|DNAM:Blades|NAME:The basics we can teach you, won't cost much. Advanced training, though... that's expensive. If you're already skilled, you're much harder to teach. Maybe I can help you out. Here's a little moon sugar, on the house. You do know that trade in moon sugar and skooma is against the law, and most alchemists and apothecaries won't buy it. But Khajiit generally will. Try Ajira at the Balmora Mages Guild, or Ra'Virr, the trader in Balmora. Sell the sugar, and start saving for training.|SCVR:01065|INTV|BNAM:player->additem ingred_moon_sugar_01 4  journal blades_Nine_Toes 1
+  MWGO 2.0.esp-->|DATA|DNAM:Blades|NAME:The basics we can teach you, won't cost much. Advanced training, though... that's expensive. If you're already skilled, you're much harder to teach. Maybe I can help you out. Here's a little moon sugar, on the house. You do know that trade in moon sugar and skooma is against the law, and most alchemists and apothecaries won't buy it. But Khajiit generally will. Try Ajira at the Balmora Mages Guild, or Ra'Virr, the trader in Balmora. Sell the sugar, and start saving for training.|BNAM:player->additem ingred_moon_sugar_01 4  journal blades_Nine_Toes 1
+
+[MOD-INF]: ID=2329222061989721693(Topic:morrowind lore)
+  morrowind.esm->|DATA|FNAM:Fighters Guild|NAME:When choosing body armor, balance protection against weight. You can't fight if you're exhausted by the weight of your armor.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; default; Imperial Legion; default;
+  MWGO 2.0.esp-->|DATA|FNAM:Fighters Guild|NAME:When choosing body armor, balance protection against weight. You can't fight if you're exhausted by the weight of your armor.|SCVR:02sX4Random100|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; default; Imperial Legion; default;
+
+[MOD-INF]: ID=2428276092813615516(Topic:morrowind lore)
+  morrowind.esm->|DATA|FNAM:Morag Tong|NAME:According to the Morag Tong, killing civilians is wrong, and grounds for expulsion. Killing anyone but a victim marked by writ is dishonorable and incompetent. Killing a victim marked by a writ is sacred and honorable.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;MoragTong; random100 <= 50;
+  MWGO 2.0.esp-->|DATA|FNAM:Morag Tong|NAME:According to the Morag Tong, killing civilians is wrong, and grounds for expulsion. Killing anyone but a victim marked by writ is dishonorable and incompetent. Killing a victim marked by a writ is sacred and honorable.|SCVR:02sX4Random100|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:;MoragTong; random100 <= 50;
+
+[MOD-INF]: ID=2567811702119319067(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Assassin|NAME:I'm an assassin. Killing is my profession. I am discrete, efficient, and reliable. In Morrowind, the assassin's trade is an ancient and honorable profession, restricted by a rigid code of conduct, and operating strictly within the law. Because I am discreet, I prefer short blades for swift, close-and personal work, while the marksman weapons like throwing stars and throwing knives are more suitable for stealth and surprise.|SCVR:0CsX0NoLore|INTV:|BNAM:;Assassin; Short Blade, Misc. Missile
+  MWGO 2.0.esp-->|DATA|CNAM:Assassin|NAME:What I do is my own affair.|SCVR:0CsX0NoLore|INTV:|BNAM:;Assassin; Short Blade, Misc. Missile
+
+[MOD-INF]: ID=2576933592066224959(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:Higher quality picks and probes are definitely worth their higher price. But keep cheaper ones around as well for the easier locks and traps. Also be sure to find a good source for buying these instruments.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:Higher quality picks and probes are definitely worth their higher price. But keep cheaper ones around as well for the easier locks and traps. Also be sure to find a good source for buying these instruments.|SCVR:12sX4Random100|INTV: |SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2590513238756122625(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:Don't risk a frontal confrontation with anything. When in doubt, sneak.|SCVR:12sX4Random100|INTV|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:Don't risk a frontal confrontation with anything. When in doubt, sneak.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2749718563149568542(Topic:services)
+  morrowind.esm->|DATA|ANAM:Vivec|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Vivec;
+  MWGO 2.0.esp-->|DATA|ANAM:Vivec|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Vivec;
+
+[MOD-INF]: ID=2798917491184915920(Topic:solstheim)
+  bloodmoon.esm->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  MWGO 2.0.esp-->|DATA|CNAM:Agent|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=2929716067276717856(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:The elite of Morrowind may not have all the armor and equipment you need as an adventurer. But don't overlook precious stones or fine jewelry and clothing; to the right merchant those items can be worth more and be more easy to carry than some heavy iron armor.|SCVR:12sX4Random100|INTV:#|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:The elite of Morrowind may not have all the armor and equipment you need as an adventurer. But don't overlook precious stones or fine jewelry and clothing; to the right merchant those items can be worth more and be more easy to carry than some heavy iron armor.|SCVR:12sX4Random100|INTV:(|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2976914359150945474(Topic:services)
+  morrowind.esm->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0savile imayn|INTV|SCVR:37XX0Daynas Darys|INTV|SCVR:47XX0Drarayne Girith|INTV|SCVR:57XX0emusette bracques|INTV|BNAM:;Suran
+  MWGO 2.0.esp-->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0savile imayn|INTV|SCVR:37XX0Daynas Darys|INTV|SCVR:47XX0Drarayne Girith|INTV|SCVR:57XX0emusette bracques|INTV|BNAM:;Suran
+
+[MOD-INF]: ID=3029810224114315641(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Morag Tong|NAME:Never take a life carelessly. It cheapens you, and diminishes you. Take life seriously, if taking life is your profession.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Morag Tong|NAME:The Great Houses are in a state of silent, shadowed war, of secret poisons, artful daggers and sleeping men strangled in their beds.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3078911023292535132(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:Always study your target, and take a good inventory of what he has before attempting to steal anything. If he has his eye on that shiny silver claymore, he won't notice you pocketing a few tarnished throwing stars.|SCVR:12sX4Random100|INTV:<|SCVR:2CsX0NoLore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:Always study your target, and take a good inventory of what he has before attempting to steal anything. If he has his eye on that shiny silver claymore, he won't notice you pocketing a few tarnished throwing stars.|SCVR:12sX4Random100|INTV:A|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3103210864206706477(Topic:latest rumors)
+  bloodmoon.esm->|DATA|RNAM:Dark Elf|NAME:I've been told that the Empire has granted a new charter to do some mining on the island of Solstheim. Why anyone would want to go there is beyond me.|SCVR:04JX0BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:
+  MWGO 2.0.esp-->|DATA|ANAM:Khuul|NAME:I've been told that the Empire has granted a new charter to do some mining on the island of Solstheim. Why anyone would want to go there is beyond me.|SCVR:04JX0BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3106740491031930021(Topic:services)
+  morrowind.esm->|DATA|ANAM:Hla Oad|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Hla Oad;
+  MWGO 2.0.esp-->|DATA|ANAM:Hla Oad|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0Perien Aurelie|INTV|SCVR:37XX0Pallia Ceno|INTV|BNAM:;Hla Oad;
+
+[MOD-INF]: ID=3219120251791225772(Topic:little advice)
+  tribunal.esm->|DATA|NAME:If you kill yourself trying to complete a job that's too difficult for you, it's nobody's fault but your own.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:P|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+  MWGO 2.0.esp->|DATA|NAME:If you kill yourself trying to complete a job that's too difficult for you, it's nobody's fault but your own.|SCVR:12sX4Random100|INTV:K|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=3241323702538914393(Topic:little secret)
+  tribunal.esm->|DATA|NAME:If you're thinking of traveling up country, near Sheogorad, or out Molag Amur way, or inside the Ghostfence, you need to know about corprus. It's a disease that turns normal creatures into beasts. Turns men into twisted, mad lumps of flesh, superhumanly strong, and full of hatred. You get corprus from fighting with diseased creatures. It's hard to get corprus, but harder to get rid of it. In fact, I hear there is no cure.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|NAME:The Great Houses tend to favour certain races as mercenaries. House Hlaalu employs the brute muscle of Nords and Orcs. The Redoran admire the skill and discipline of the Redguard. Even the reclusive Telvanni have many Altmer and Bosmer in their pay.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Telvanni|INTV|SCVR:38FX0Hlaalu|INTV|SCVR:48FX0Redoran|INTV
+
+[MOD-INF]: ID=3274427414239830699(Topic:background)
+  morrowind.esm->|DATA|ONAM:vadusa sathryon|NAME:I am %name, a %class. What's it to you?|BNAM:ClearInfoActor
+  MWGO 2.0.esp-->|DATA|FNAM:Camonna Tong|NAME:I am %name, a %class. What's it to you?|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=5153114063062417325(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Temple|NAME:I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Temple|NAME:I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=5563164692855523760(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Fighters Guild|NAME:Keep your weapons sharp, your armor in good shape. If you can't afford to have others do it, learn to do it yourself. Get the best quality you can afford. You can be no better than the quality of your tools.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Fighters Guild|NAME:Keep your weapons sharp, your armor in good shape. If you can't afford to have others do it, learn to do it yourself. Get the best quality you can afford. You can be no better than the quality of your tools.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=10141134311208414374(Topic:blades trainers)
+  morrowind.esm->|DATA|ONAM:elone|DNAM:Blades|NAME:Normally I don't offer training, but since you're one of us, I'll just charge you for my time and effort. But the best way to learn is to teach yourself. Why don't I give you my old copy of 'Guide to Vvardenfell'. If you're going to work with us here, you'd best know something about the land and the people.|SCVR:01065|INTV|BNAM:player->additem bk_guide_to_vvardenfell 1  journal blades_Elone 1
+  MWGO 2.0.esp-->|DATA|ONAM:elone|DNAM:Blades|NAME:Normally I don't offer training, but since you're one of us, I'll just charge you for my time and effort. But the best way to learn is to teach yourself. Why don't I give you my old copy of 'Guide to Vvardenfell'. If you're going to work with us here, you'd best know something about the land and the people.|BNAM:player->additem bk_guide_to_vvardenfell 1  journal blades_Elone 1
+
+[MOD-INF]: ID=10875196402581832525(Topic:morrowind lore)
+  morrowind.esm->|DATA|NAME:Though some Dunmer are Imperial cult initiates, most of them are also members of the Tribunal Temple. Religious fervor is exceptional in the Empire, compared with Morrowind's more passionate Temple worshippers, and Dunmer who adopt the Imperial cult often share the moderation and religious tolerance of Imperial culture.|SCVR:02sX4Random100|INTV|SCVR:1ARX0Dark Elf|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Hlaalu; random100 <= 70;
+  MWGO 2.0.esp-->|DATA|CNAM:Savant|NAME:Though some Dunmer are Imperial cult initiates, most of them are also members of the Tribunal Temple. Religious fervor is exceptional in the Empire, compared with Morrowind's more passionate Temple worshippers, and Dunmer who adopt the Imperial cult often share the moderation and religious tolerance of Imperial culture.|SCVR:02sX4Random100|INTV|SCVR:1ARX0Dark Elf|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Hlaalu; random100 <= 70;
+
+[MOD-INF]: ID=11144107502954827501(Topic:services)
+  morrowind.esm->|DATA|ANAM:Sadrith Mora|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Sadrith Mora;
+  MWGO 2.0.esp-->|DATA|ANAM:Sadrith Mora|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Sadrith Mora;
+
+[MOD-INF]: ID=13640318562211919306(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Temple|NAME:Let me warn you. The quests for the Temple at lower ranks are not too difficult. But suddenly after you reach Curate rank, the quests get very, very difficult. Don't be surprised if you have to do a lot of skill-building outside the Temple before you can handle the higher rank quests. These tasks are tests of faith, yes, but they are also tests of good judgement and common sense.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Temple|NAME:Let me warn you. The quests for the Temple at lower ranks are not too difficult. But suddenly after you reach Curate rank, the quests get very, very difficult. Don't be surprised if you have to do a lot of skill-building outside the Temple before you can handle the higher rank quests. These tasks are tests of faith, yes, but they are also tests of good judgement and common sense.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=16027228191418416208(Topic:latest rumors)
+  tribunal.esm->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0nolore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+  MWGO 2.0.esp->|DATA|NAME:I don't gossip with the likes of you.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=16890297712091512590(Topic:little advice)
+  tribunal.esm->|DATA|ONAM:arrille|NAME:If you need directions, talk to our local scout, Elone the Redguard. She's here in the tradehouse somewhere. And you might want a copy of 'Guide to Vvardenfell' -- I think I still have a copy for sale.|SCVR:01630|INTV:
+  MWGO 2.0.esp->|DATA|ONAM:arrille|NAME:If you need directions, talk to our local scout, Elone the Redguard. She's here in the tradehouse somewhere. And you might want a copy of 'Guide to Vvardenfell' -- I think I still have a copy for sale.
+
+[MOD-INF]: ID=17088166803242222430(Topic:services)
+  morrowind.esm->|DATA|ANAM:Ald-ruhn|NAME|INTV|SCVR:1CsX0nolore|INTV
+  MWGO 2.0.esp-->|DATA|ANAM:Ald-ruhn|NAME|INTV|SCVR:1CsX0NoLore|INTV
+
+[MOD-INF]: ID=17222130182467313190(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:You will get slaughtered if you start acting like a warrior. Always sneak up to your target and take advantage of your stealth. Even a dagger is effective if used in the right way at the right time.|SCVR:12sX4Random100|INTV:-|SCVR:2CsX0NoLore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:You will get slaughtered if you start acting like a warrior. Always sneak up to your target and take advantage of your stealth. Even a dagger is effective if used in the right way at the right time.|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=20217129901075023978(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Hlaalu|NAME:If you're having trouble persuading someone, offer a bribe. Don't be so stuffy. Bribes are the lubricant of honest commerce.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Hlaalu|NAME:We've cast our lot with the Empire. Our fortunes will wax and wane with theirs. The Telvanni, on the other hand, have simply ignored Imperial law to secure their position. I'm talking about these rogue settlements, where mages disguised as pilgrims are dropped by caravans all over the Ashlands.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=20611295471551616711(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Mages Guild|ANAM:Ald-ruhn|NAME|INTV|SCVR:12sX4Random100|INTV:K|SCVR:2CsX0NoLore|INTV:|BNAM:;Ald'ruhn; mages;
+  MWGO 2.0.esp->|DATA|FNAM:Mages Guild|ANAM:Ald-ruhn|NAME|INTV|SCVR:12sX4Random100|INTV:Z|SCVR:2CsX0NoLore|INTV:|BNAM:;Ald'ruhn; mages;
+
+[MOD-INF]: ID=20730227071288310091(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:Always carry a jug of sujamma with you. That burst of strength, and the ability to penetrate armor and deal serious damage, will give you the one-time punch to face an opponent you normally can't handle.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:Always carry a jug of sujamma with you. That burst of strength, and the ability to penetrate armor and deal serious damage, will give you the one-time punch to face an opponent you normally can't handle.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=21533210391263926032(Greeting:greeting 7)
+  morrowind.esm->|DATA|FNAM:Redoran|NAME:Hello, %PCName. I was happy to hear that Councilor Sarethi has given you his support for the title of Hortator. This conflict between House policy and Temple doctrine is unfortunate, and I hope it is resolved swiftly. Now. How can I help you? Are you looking for someone in particular? Do you need services? Is there some specific place you'd like to visit? Did you want to know about my trade? Do you need a little advice, or the latest rumors? Or a little secret?|SCVR:01460|INTV:|SCVR:14JX3B5_SarethiHort|INTV:2|BNAM:;Redoran; Samefaction = 0; Journal "B5_SarethiHort" >= 50; disp 70
+  MWGO 2.0.esp-->|DATA|FNAM:Redoran|NAME:Hello, %PCName. I was happy to hear that Councilor Sarethi has given you his support for the title of Hortator. This conflict between House policy and Temple doctrine is unfortunate, and I hope it is resolved swiftly. Now. How can I help you? Are you looking for someone in particular? Do you need services? Is there some specific place you'd like to visit? Did you want to know about my trade? Do you need a little advice, or the latest rumors? Or a little secret?|SCVR:01460|INTV:|SCVR:14JX3B5_SarethiHort|INTV:2|BNAM:;Redoran; Samefaction = 0; Journal "B5_SarethiHort" >= 50; disp 70
+
+[MOD-INF]: ID=22109176162271620109(Topic:little secret)
+  tribunal.esm->|DATA|CNAM:Miner|NAME:We miners don't grow the eggs. We just harvest them. The queen lays the eggs, the workers plant them, tend them, and nourish them, and we harvest them. Doesn't hurt the colony. They grow far more than they need.|SCVR:01064|INTV|SCVR:1CsX0NoLore|INTV:
+  MWGO 2.0.esp->|DATA|CNAM:Miner|NAME:We miners don't grow the eggs. We just harvest them. The queen lays the eggs, the workers plant them, tend them, and nourish them, and we harvest them. Doesn't hurt the colony. They grow far more than they need.|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=22674205512708112924(Topic:services)
+  morrowind.esm->|DATA|ANAM:Tel Fyr|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Tel Fyr;
+  MWGO 2.0.esp-->|DATA|ANAM:Tel Fyr|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Tel Fyr;
+
+[MOD-INF]: ID=22696183362373513973(Topic:little secret)
+  tribunal.esm->|DATA|NAME:Have you heard of this new secret cult, the Sixth House? They say they sit around in caves, cutting off pieces of their own flesh and eating it. It's that corprus disease -- makes the flesh grow wild and crazy. Cut a piece off, and another piece grows back, bigger and better. Guards say, 'We're looking into it.' Right. That makes me feel better.|SCVR:02sX4Random100|INTV:(|SCVR:14JX3A1_2_AntabolisInformant|INTV: |SCVR:24JX4C3_DestroyDagoth|INTV:2|SCVR:3CsX0nolore|INTV:|SCVR:48FX0Ashlanders|INTV
+  MWGO 2.0.esp->|DATA|NAME:Have you heard of this new secret cult, the Sixth House? They say they sit around in caves, cutting off pieces of their own flesh and eating it. It's that corprus disease -- makes the flesh grow wild and crazy. Cut a piece off, and another piece grows back, bigger and better. Guards say, 'We're looking into it.' Right. That makes me feel better.|SCVR:02sX4Random100|INTV:(|SCVR:14JX3A1_2_AntabolisInformant|INTV: |SCVR:24JX4C3_DestroyDagoth|INTV:2|SCVR:3CsX0NoLore|INTV:|SCVR:48FX0Ashlanders|INTV
+
+[MOD-INF]: ID=22717215581011324700(Topic:services)
+  morrowind.esm->|DATA|ANAM:Khuul|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Khuul;
+  MWGO 2.0.esp-->|DATA|ANAM:Khuul|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Khuul;
+
+[MOD-INF]: ID=23461272711692331735(Topic:little advice)
+  tribunal.esm->|DATA|CNAM:Trader|ANAM:Seyda Neen|NAME:Where to start. Probably in Balmora. That's the House Hlaalu district seat. They've got a Fighters Guild and Mages Guild there, and a legion fort -- though I don't know if they're recruiting. They have all the services you need -- trainers, smiths, outfitters -- and if you join a guild and work your way up, the discounts and perks are worthwhile.|SCVR:02sX5Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Seyda Neen; PCLevel <2;  random100 <= 80;
+  MWGO 2.0.esp->|DATA|CNAM:Commoner|ANAM:Seyda Neen|NAME:Where to start. Probably in Balmora. That's the House Hlaalu district seat. They've got a Fighters Guild and Mages Guild there, and a legion fort -- though I don't know if they're recruiting. They have all the services you need -- trainers, smiths, outfitters -- and if you join a guild and work your way up, the discounts and perks are worthwhile.|SCVR:02sX5Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Seyda Neen; PCLevel <2;  random100 <= 80;
+
+[MOD-INF]: ID=25082122392266923658(Greeting:greeting 7)
+  morrowind.esm->|DATA|RNAM:Khajiit|NAME:What are you doing here? Would you let me go free?|SCVR:03sX0slaveStatus|INTV:
+  MWGO 2.0.esp-->|DATA|CNAM:Slave|NAME:What are you doing here? Would you let me go free?|SCVR:03sX0slaveStatus|INTV:
+
+[MOD-INF]: ID=25542222582866522193(Topic:morrowind lore)
+  morrowind.esm->|DATA|FNAM:Morag Tong|NAME:Morag Tong will only accept legally approved contracts called 'writs.' There's no truth to rumors of secret extralegal 'grey writs.'|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV
+  MWGO 2.0.esp-->|DATA|FNAM:Morag Tong|NAME:Morag Tong will only accept legally approved contracts called 'writs.' There's no truth to rumors of secret extralegal 'grey writs.'|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV
+
+[MOD-INF]: ID=26162168161972518968(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Morag Tong|NAME:In principle, a member is not be given tasks that exceed the member's rank or abilities. In practice, sometimes mistakes are made. You are not expected to fail and die for those mistakes. Use judgement. Be patient. Take the initiative. Train yourself. Equip yourself. Study your target and situation more carefully. Then return to your task when you are ready, and succeed.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0NoLore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Morag Tong|NAME:In principle, a member is not be given tasks that exceed the member's rank or abilities. In practice, sometimes mistakes are made. You are not expected to fail and die for those mistakes. Use judgement. Be patient. Take the initiative. Train yourself. Equip yourself. Study your target and situation more carefully. Then return to your task when you are ready, and succeed.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=26241148101455412669(Topic:services)
+  morrowind.esm->|DATA|ANAM:Caldera|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Caldera;
+  MWGO 2.0.esp-->|DATA|ANAM:Caldera|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Caldera;
+
+[MOD-INF]: ID=28177259642621728771(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Imperial Cult|NAME:The services required at lower ranks in the Imperial cult are not very difficult or dangerous. But any task you do for the Oracle, Lalatia Varian, will be very difficult, very dangerous, and suited only for experienced, powerful, well-equipped adventurers.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Imperial Cult|NAME:The services required at lower ranks in the Imperial cult are not very difficult or dangerous. But any task you do for the Oracle, Lalatia Varian, will be very difficult, very dangerous, and suited only for experienced, powerful, well-equipped adventurers.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=28363313712193027607(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Thief|NAME:I'm a thief. I was born to be a thief. I love to sneak around in rich people's houses, and liberate their possessions. I enjoy puzzling out the security provisions on doors and chests, thrilling to the challenge and suspense of picking locks and disarming traps. And I've always had an interest in Imperial law -- property rights, criminal justice, bribes and graft. Me and the guards, we're old friends. And punitive labor isn't all that bad -- free food and board, fresh air, and good fellowship.|SCVR:0CsX0NoLore|INTV:|BNAM:;Thief; Sneak, Security. Imperial law
+  MWGO 2.0.esp-->|DATA|CNAM:Thief|NAME:I do a little of this, a little of that.|SCVR:0CsX0NoLore|INTV:|BNAM:;Thief; Sneak, Security. Imperial law
+
+[MOD-INF]: ID=28846221251116526872(Topic:little secret)
+  tribunal.esm->|DATA|FNAM:Camonna Tong|NAME:So, you think House Hlaalu is just an Imperial puppet? Shows what you know. Who really runs House Hlaalu? Not the house council. Those posers do what Orvas Dren tells them. Orvas Dren is the Camonna Tong kingpin. And one day, when the time is right, Orvas Dren, the Camonna Tong, and all right-thinking Dunmer will rise up, murder you outlanders in your beds, and restore Morrowind to its ancient glory.|SCVR:0CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Camonna Tong|NAME:So, you think House Hlaalu is just an Imperial puppet? Shows what you know. Who really runs House Hlaalu? Not the house council. Those posers do what Orvas Dren tells them. Orvas Dren is the Camonna Tong kingpin. And one day, when the time is right, Orvas Dren, the Camonna Tong, and all right-thinking Dunmer will rise up, murder you outlanders in your beds, and restore Morrowind to its ancient glory.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=29678150921094025770(Topic:latest rumors)
+  bloodmoon.esm->|DATA|NAME:I heard there has been some trouble up at Fort Frostmoth. Never heard of it? It's on an island called Solstheim north of Vvardenfell.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+  MWGO 2.0.esp-->|DATA|CNAM:Agent|NAME:I heard there has been some trouble up at Fort Frostmoth. Never heard of it? It's on an island called Solstheim north of Vvardenfell.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+
+[MOD-INF]: ID=29800122882732621844(Topic:morrowind lore)
+  morrowind.esm->|DATA|FNAM:Morag Tong|NAME:The Morag Tong is an assassins guild sanctioned by the Empire to provide three varieties of execution: public executions, private executions, and House Wars executions.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV
+  MWGO 2.0.esp-->|DATA|FNAM:Morag Tong|NAME:The Morag Tong is an assassins guild sanctioned by the Empire to provide three varieties of execution: public executions, private executions, and House Wars executions.|SCVR:02sX4Random100|INTV:(|SCVR:1CsX0NoLore|INTV
+
+[MOD-INF]: ID=29891187491864825331(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Mages Guild|NAME:A good strategy is to paralyze your opponent, cast some kind of touch spell that does damage for awhile, like poison, then retreat to a farther range to cast your targeted, long range spells. Recast paralyze if the creature isn't dead by the time they reach you again.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Mages Guild|NAME:A good strategy is to paralyze your opponent, cast some kind of touch spell that does damage for awhile, like poison, then retreat to a farther range to cast your targeted, long range spells. Recast paralyze if the creature isn't dead by the time they reach you again.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=29947208481420612081(Topic:little advice)
+  tribunal.esm->|DATA|FNAM:Thieves Guild|NAME:Alchemists are easy targets for inexperienced thieves. They have far too many ingredients for them to keep an eye on all of them all of the time.|SCVR:12sX4Random100|INTV|SCVR:2CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|FNAM:Thieves Guild|NAME:Alchemists are easy targets for inexperienced thieves. They have far too many ingredients for them to keep an eye on all of them all of the time.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=30065136011644315896(Topic:little advice)
+  tribunal.esm->|DATA|NAME:When you take a job, you have to have the good sense to hold off until you're stronger if it seems too hard for you.|SCVR:02sX4Random100|INTV:Z|SCVR:11630|INTV:|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+  MWGO 2.0.esp->|DATA|NAME:When you take a job, you have to have the good sense to hold off until you're stronger if it seems too hard for you.|SCVR:02sX4Random100|INTV:U|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=31218253942640724410(Topic:blades trainers)
+  morrowind.esm->|DATA|ONAM:sjorvar horse-mouth|DNAM:Blades|NAME:Yes, I can train you. And maybe offer a suggestion. If you're going exploring, get yourself an enchanted weapon, or some scrolls, or both. Can't harm a ghost without an enchanted weapon or magic. Galbedir at the Balmora Mages Guild usually has a selection, and can also enchant items for you -- IF you can afford the charged soul gems she sells, and IF you can afford her enchanting service.|SCVR:01065|INTV|BNAM:journal blades_Sjorvar 1
+  MWGO 2.0.esp-->|DATA|ONAM:sjorvar horse-mouth|DNAM:Blades|NAME:Yes, I can train you. And maybe offer a suggestion. If you're going exploring, get yourself an enchanted weapon, or some scrolls, or both. Can't harm a ghost without an enchanted weapon or magic. Galbedir at the Balmora Mages Guild usually has a selection, and can also enchant items for you -- IF you can afford the charged soul gems she sells, and IF you can afford her enchanting service.|BNAM:journal blades_Sjorvar 1
+
+[MOD-INF]: ID=31437326142699821404(Topic:little secret)
+  tribunal.esm->|DATA|NAME:Talk to everyone. Talk is cheap. Ask questions. You don't ask, you never learn.|SCVR:0CsX0nolore|INTV:
+  MWGO 2.0.esp->|DATA|NAME:Why would I share my secrets with you?|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=31888257401381920474(Topic:train)
+  |DATA|ONAM:ahnassi|NAME:Ahnassi trains, yes, but not you. You are not a member, and Ahnassi is a member, and that is the way it must be.|SCVR:01460|INTV:|BNAM:; Ahnassi; SameFaction = 0;

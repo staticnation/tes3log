@@ -1,0 +1,38 @@
+Mournhold Clockmaker 1.0.esp: DUP-INF DUP-REC MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (371) != Actual count (370)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mcm_quest_off)
+	SCPT(mcm_quest_on)
+	SCPT(mcm_script_clock01_trade)
+	SCPT(mcm_script_clock02_trade)
+	SCPT(mcm_script_clock02d_trade)
+	SCPT(mcm_script_clock03_trade)
+	SCPT(mcm_script_clock04_trade)
+	SCPT(mcm_script_clock05_trade)
+	SCPT(mcm_script_clock05d_trade)
+	SCPT(mcm_script_clock06_trade)
+	SCPT(mcm_script_clock07_trade)
+	SCPT(mcm_script_clock08_trade)
+	SCPT(mcm_script_clock09_trade)
+	SCPT(mcm_script_commission_d_done)
+	SCPT(mcm_script_commission_done)
+	SCPT(mcm_script_messenger_cue)
+	SCPT(mcm_script_removecargo)
+	SCPT(mcm_script_startup)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        PGRD    mournhold, craftsmen's hall
+
+[DUP-INF]: ID=89118641342614358(Greeting:greeting 7)
+  |DATA|FNAM:Fighters Guild|NAME:Your troubles with the law are none of my business, but don't try anything with me.|SCVR:01433|INTV:d|BNAM:;Hlaalu, Telvanni; Mages Guild, Thieves Guild; Fighters Guild; PCCrime >=100
+
+[DUP-INF]: ID=785113791011226478(Greeting:greeting 7)
+  |DATA|CNAM:Guild Guide|NAME:I'm %Name the %race, guild guide. I provide instantaneous transport between various Mages Guild halls on Vvardenfell. What is your destination? I can also help with local information. Do you need services? Are you looking for some specific place? Or for someone in particular?
+
+[DUP-INF]: ID=1664768421354719114(Greeting:greeting 1)
+  |DATA|ONAM:bakh gro-sham|NAME:What do you want?
+
+[DUP-INF]: ID=28444148402683010010(Greeting:greeting 1)
+  |DATA|ONAM:plitinius mero|NAME:Hello! What can I do for you?

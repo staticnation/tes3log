@@ -1,0 +1,16 @@
+NIR.ESP: DUP-INF DUP-REC GETSND MENUMOD MISSAUT MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(0s_rest_distress_sc)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(0s_ri_Aundae)
+	SCPT(0s_ri_Berne)
+	SCPT(0s_ri_Quarra)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+
+[DUP-INF]: ID=7685828493065609(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:Stop! You are a known criminal as well as a werewolf. Though you say you have cured yourself of this foul curse, you will spend some time in jail until that is certain.|SCVR:01490|INTV|SCVR:11433|INTV|SCVR:22sX0PCKnownWerewolf|INTV|SCVR:32sX0PCWerewolf|INTV|BNAM:Set PCKnownReset to 0  Choice "Go to Jail" 2
+
+[DUP-INF]: ID=6534313421794514813(Greeting:greeting 0)
+  |DATA|CNAM:Guard|ANAM:Skaal Village|NAME:You have violated laws of the Skaal. As you are not of our people, you will pay for your crimes.|SCVR:01433|INTV|BNAM:StartCombat Player  Goodbye

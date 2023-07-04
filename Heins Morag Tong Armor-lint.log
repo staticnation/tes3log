@@ -1,0 +1,11 @@
+Heins Morag Tong Armor.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CS_MTChestScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    grandmaster
+	morrowind.esm       NPC_    eno hlaalu
+
+[MOD-INF]: ID=20465231451806230869(Topic:grandmaster)
+  morrowind.esm-------------->|DATA|ONAM:eno hlaalu|NAME:So be it. I will leave here soon. You are the new Grandmaster of the Morag Tong. Always watch for the Dark Brotherhood, for I am sure they will soon try to regain what you have taken from them here.|SCVR:01500|INTV|BNAM:Journal MT_Grandmaster 110  PCRaiseRank  Player->ModReputation 3
+  Heins Morag Tong Armor.esp->|DATA|ONAM:eno hlaalu|NAME:So be it. I will leave here soon. You are the new Grandmaster of the Morag Tong. Always watch for the Dark Brotherhood, for I am sure they will soon try to regain what you have taken from them here. Take this key too. It will unlock the chest in front of the bed in this room.|SCVR:01500|INTV|BNAM:Journal MT_Grandmaster 110  PCRaiseRank  Player->ModReputation 3  Player->Additem CS_MTChestKey 1  "Eno Hlaalu"->RemoveItem CS_MTChestKey 1

@@ -1,0 +1,21 @@
+Creatures Merged Objects Fix.esp: GETSND MENUMOD MISSVER NUMRECS
+    [NUMRECS]: number of records in TES3.HEDR (2136) != Actual count (74)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(plx_DreughCrab_Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(__halo_timeOfDayFixup)
+	SCPT(ashvampire)
+	SCPT(plx_FleshCurseArmor_Boots)
+	SCPT(plx_FleshCurseArmor_Curaiss)
+	SCPT(plx_FleshCurseArmor_Greaves)
+	SCPT(plx_FleshCurseArmor_Helm)
+	SCPT(plx_FleshCurseArmor_Others)
+	SCPT(plx_NoVampireEmbrace)
+	SCPT(plx_Scrib_AI)
+	SCPT(plx_dagothdeath)
+	SCPT(plx_diseaseBrownRot)
+	SCPT(plx_diseaserotbone)
+	SCPT(plx_smalldeer)
+	SCPT(plx_smallscarab)
+	SCPT(plx_stat_randomiser)
+	SCPT(plx_vermin_rat_AI)

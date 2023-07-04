@@ -1,0 +1,121 @@
+Improved Inns Expanded - LGNPC Seyda Neen.esp: DUP-INF DUP-REC MENUMOD MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AST_rentArille)
+	SCPT(BINN_start_message)
+	SCPT(HessionScript)
+	SCPT(Pub_AldVelothi_Outpost)
+	SCPT(Pub_Aldruhn_Council)
+	SCPT(Pub_Aldruhn_Skar)
+	SCPT(Pub_Balmora_Council)
+	SCPT(Pub_Balmora_Eight)
+	SCPT(Pub_Balmora_Lucky)
+	SCPT(Pub_Balmora_South)
+	SCPT(Pub_Caldera_Shenk)
+	SCPT(Pub_DagonFel_End)
+	SCPT(Pub_Ebon_Six)
+	SCPT(Pub_Ghost_Dusk)
+	SCPT(Pub_Gnisis_Madach)
+	SCPT(Pub_Khuul_Thongar)
+	SCPT(Pub_Maargan_Andus)
+	SCPT(Pub_MolagMar_Hostel)
+	SCPT(Pub_MolagMar_Pilgrim)
+	SCPT(Pub_Pelagiad_Halfway)
+	SCPT(Pub_RavenRock)
+	SCPT(Pub_SMora_Faras)
+	SCPT(Pub_Smora_Gateway)
+	SCPT(Pub_Suran_Desele)
+	SCPT(Pub_Suran_Trade)
+	SCPT(Pub_TelAruhn_Plot)
+	SCPT(Pub_TelBran_Sethan)
+	SCPT(Pub_TelMora_Covenant)
+	SCPT(Pub_Vivec_Black)
+	SCPT(Pub_Vivec_Flower)
+	SCPT(Pub_Vivec_Lizard)
+	SCPT(Pub_Vos_Varo)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    ashumanu eraishah
+	morrowind.esm       NPC_    athal nerano
+	morrowind.esm       NPC_    darvam hlaren
+	morrowind.esm       NPC_    drarayne girith
+	morrowind.esm       NPC_    fenas madach
+	morrowind.esm       NPC_    helviane desele
+	morrowind.esm       NPC_    hjotra the peacock
+	morrowind.esm       NPC_    orns omaren
+	morrowind.esm       NPC_    selkirnemus
+	morrowind.esm       NPC_    thongar
+	morrowind.esm       NPC_    tolvise othralen
+	morrowind.esm       NPC_    trivura arenim
+	morrowind.esm       PGRD    ald-ruhn, council club
+	morrowind.esm       PGRD    gnisis, madach tradehouse
+	morrowind.esm       PGRD    molag mar, the pilgrim's rest
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=792795413069525055(Topic:beds)
+  |DATA|CNAM:Publican|NAME:I hope everything is adequate.|SCVR:03sX0rent|INTV|BNAM:;called first if you are already renting a room
+
+[MOD-INF]: ID=962731613265082404(Topic:beds)
+  morrowind.esm--------------------------------->|DATA|CNAM:Publican|NAME:Ok. Just ask again if you change your mind.|SCVR:01500|INTV|BNAM:;choice 2 is for no to the room rental
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|CNAM:Publican|NAME|DELETE |MESC|INTV|BNAM:;choice 2 is for no to the room rental
+
+[MOD-INF]: ID=1271813945413015993(Topic:beds)
+  morrowind.esm--------------------------------->|DATA|ONAM:banor seran|CNAM:Publican|NAME:Very good. Go down the stairs. The room on the right is yours. I'd avoid the left room, the man there wishes to be undisturbed..|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ;BALMORA COUNCIL CLUB  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:banor seran|CNAM:Publican|NAME:Yes, the room down the stairs on the right is available. It's better to avoid the left room, the man there wishes to be undisturbed. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=1281821504188985983(Topic:beds)
+  morrowind.esm--------------------------------->|DATA|ONAM:bacola closcius|CNAM:Publican|NAME:Very well, the bed is yours for the day. You'll find the door over there unlocked. I trust Balmora will treat you well..|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script BALMORA, South Wall  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:bacola closcius|CNAM:Publican|NAME:Yes, the room over there is available. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=1425616576295610166(Greeting:greeting 7)
+  morrowind.esm--------------------------------->|DATA|ONAM:benunius agrudilius|NAME:Good day. I'm Benunius Agrudilius, publican of the Lucky Lockup here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Benunius Agrudilius
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:benunius agrudilius|NAME:Good day. I'm Benunius Agrudilius, publican of the Lucky Lockup here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Benunius Agrudilius
+
+[MOD-INF]: ID=1594025613149529658(Topic:beds)
+  tribunal.esm---------------------------------->|DATA|ONAM:boderi farano|CNAM:Publican|NAME:Very well. Go down the stairs, and use the first room on your right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ALDRUHN ALD SKAR INN  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:boderi farano|CNAM:Publican|NAME:Yes, we have a bed available. It's the first one on your right, at the bottom of the stairs. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=1614216812759915904(Topic:beds)
+  morrowind.esm--------------------------------->|DATA|CNAM:Publican|NAME:Sorry. Doesn't look like you can afford it. Maybe another time.|SCVR:01500|INTV|SCVR:15IX4Gold_001|INTV: 
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|CNAM:Publican|NAME:Ok. Just ask again if you change your mind.|SCVR:01500|INTV|BNAM:;choice 2 is for no to the room rental
+
+[MOD-INF]: ID=1614216812759915904(Topic:beds)
+  morrowind.esm--------------------------------->|DATA|CNAM:Publican|NAME:Sorry. Doesn't look like you can afford it. Maybe another time.|SCVR:01500|INTV|SCVR:15IX4Gold_001|INTV: 
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|CNAM:Publican|NAME:Ok. Just ask again if you change your mind.|SCVR:01500|INTV|BNAM:;choice 2 is for no to the room rental
+[MOD-IID]: IDs=8823124431996827500,142919540203120715,18667129453018720390,609721359324143688
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->Sorry. Doesn't look like you can afford it. Maybe another time.
+
+[MOD-INF]: ID=2394122532865625896(Topic:beds)
+  morrowind.esm--------------------------------->|DATA|ONAM:ery|CNAM:Publican|NAME:Good. You can use the second floor loft.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script, SADRITH MORA  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:ery|CNAM:Publican|NAME:Yes, the second floor loft is available. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=2467420241504626206(Topic:beds)
+  tribunal.esm---------------------------------->|DATA|ONAM:hession|NAME:Very well, the bed is yours for the day. You'll find the room on the bottom floor, at the North end of the bar.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script MOURNHOLD WINGED GUAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:hession|NAME:Yes, a bed in the room on the bottom floor is available. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=6803319322889519433(Greeting:greeting 7)
+  morrowind.esm--------------------------------->|DATA|ONAM:banor seran|NAME:Good day. I'm Banor Seran, publican of the Council Club here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Banor Seran
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:banor seran|NAME:Good day. I'm Banor Seran, publican of the Council Club here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Banor Seran
+
+[MOD-INF]: ID=13139129622269431723(Topic:beds)
+  morrowind.esm--------------------------------->|DATA|ONAM:drelasa ramothran|CNAM:Publican|NAME:Great. The bed is yours. At the end of the hall upstairs, you'll find it unlocked. Enjoy your stay in Pelagiad.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:shenk|CNAM:Publican|NAME:Yes, we have a room available upstairs. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=21432111501574114700(Topic:beds)
+  morrowind.esm--------------------------------->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's all yours for the day. Down the stairs to the right.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:Yes, the room down the stairs to the right is available. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=25962153161759731313(Topic:beds)
+  bloodmoon.esm--------------------------------->|DATA|ONAM:Alcedonia Amnis|CNAM:Publican|NAME:Very well. Head upstairs, to the last room on the right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script RAVEN ROCK BAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:Alcedonia Amnis|CNAM:Publican|NAME:Yes, a room on the top floor is available. It's the one at the end of the corridor. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=26036209202016629907(Topic:beds)
+  morrowind.esm--------------------------------->|DATA|ONAM:benunius agrudilius|CNAM:Publican|NAME:It's all yours. Up the stairs to the left. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script BALMORA LUCKY LOCKUP  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|ONAM:benunius agrudilius|CNAM:Publican|NAME:Yes, the room up the stairs to the left is available. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=28002112342703720123(Topic:beds)
+  morrowind.esm--------------------------------->|DATA|CNAM:Publican|NAME:Great. The bed is yours. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - LGNPC Seyda Neen.esp->|DATA|CNAM:Publican|NAME:Great. The bed is yours. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 1

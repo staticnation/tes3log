@@ -1,0 +1,27 @@
+DrakesPride.ESP: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    drake's pride
+	tribunal.esm        DIAL    ht_drakepride
+
+[DUP-INF]: ID=65101772312807088(Journal:ht_drakepride)
+  |DATA|NAME:Master Neloth thanked me for delivering the Robe of Drake's Pride.|QSTF
+
+[DUP-INF]: ID=143101437367061686(Topic:drake's pride)
+  |DATA|ONAM:senise thindo|NAME:Yes, this is the Drake's Pride that I wear. It is not for sale.
+
+[DUP-INF]: ID=153227411508118960(Topic:drake's pride)
+  |DATA|ONAM:neloth|NAME:Yes, now the robe is in the proper hands. Here, take these ten drakes for your trouble.|SCVR:01500|INTV|BNAM:Journal HT_DrakePride 100  Player->AddItem Gold_001 10  Player->RemoveItem "exquisite_robe_drake's pride" 1  AddItem "exquisite_robe_drake's pride" 1  ModPCFacRep 5 "Telvanni"  ModDisposition 10
+
+[DUP-INF]: ID=1957554642047311325(Topic:drake's pride)
+  |DATA|ONAM:neloth|NAME:Yes, it is a fine and marvelous robe when worn by the rare wizard who is worthy of it.|SCVR:34JX3HT_DrakePride|INTV:d
+
+[DUP-INF]: ID=2145425348324619427(Topic:drake's pride)
+  |DATA|ONAM:neloth|NAME:Were you expelled for getting me the robe? How unfortunate. I will take care of this for you. It's the least I can do. And take these ten drakes for your trouble.|SCVR:01500|INTV|SCVR:11390|INTV|BNAM:Journal HT_DrakePride 100  Player->AddItem Gold_001 10  Player->RemoveItem "exquisite_robe_drake's pride" 1  AddItem "exquisite_robe_drake's pride" 1  ModPCFacRep 5 "Telvanni"  ModDisposition 5  PCClearExpelled
+
+[MOD-INF]: ID=3199888722703229870(Topic:drake's pride)
+  morrowind.esm--->|DATA|ONAM:neloth|NAME:Oh, is that the Robe of Drake's Pride?|SCVR:05IX2exquisite_robe_drake's pride|INTV:|SCVR:34JX3HT_DrakePride|INTV: |BNAM:Choice "Yes, here it is" 1 "No" 2
+  DrakesPride.ESP->|DATA|ONAM:neloth|NAME:Oh, is that the Robe of Drake's Pride?|SCVR:05IX2exquisite_robe_drake's pride|INTV:|SCVR:34JX3HT_DrakePride|INTV: |BNAM:Choice "Yes, here it is" 1 "No" 2 "Yes, and I'm keeping it" 3
+
+[DUP-INF]: ID=31935280161180629009(Journal:ht_drakepride)
+  |DATA|NAME:Master Neloth asked me to recover the Robe of the Drake's Pride from Sinise Thindo, a servant of Master Gothren.

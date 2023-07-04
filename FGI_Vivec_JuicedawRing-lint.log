@@ -1,0 +1,38 @@
+FGI_Vivec_JuicedawRing.esp: DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (11) != Actual count (10)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    juicedaw feather ring
+
+[MOD-INF]: ID=8786793340314081(Topic:juicedaw feather ring)
+  morrowind.esm-------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:What? Nar's already dead? Well, serves him right. You want more orders, I got 'em.|SCVR:06DX2nar gro-shagramph|INTV:|SCVR:34JX0FG_DebtOrc|INTV:|BNAM:Journal FG_DebtOrc 200
+  FGI_Vivec_JuicedawRing.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:What? Nar's already dead? Well, serves him right. You want more orders, I got 'em.|SCVR:06DX2nar gro-shagramph|INTV:|SCVR:34JX0FG_DebtOrc|INTV:|BNAM:Journal FG_DebtOrc 200
+
+[MOD-INF]: ID=23042181156722337(Topic:juicedaw feather ring)
+  morrowind.esm-------------->|DATA|ONAM:nar gro-shagramph|NAME:I don't got any ring. I don't know what you're talking about.
+  FGI_Vivec_JuicedawRing.esp->|DATA|ONAM:nar gro-shagramph|NAME:I don't got any ring. I don't know what you're talking about.|SCVR:04JX3FG_DebtOrc|INTV: 
+
+[MOD-INF]: ID=90852076372625148(Topic:juicedaw feather ring)
+  morrowind.esm-------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:Nar gro-Shagramph said he'd get a Juicedaw Feather Ring for our client. Nar says he doesn't have the ring, but he's a liar. Find him in the Hlaalu Canton Plaza and bring me that ring.|BNAM:Journal FG_DebtOrc 10
+  FGI_Vivec_JuicedawRing.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Nar gro-Shagramph said he'd get a Juicedaw Feather Ring for our client. Nar says he doesn't have the ring, but he's a liar. Find him in the Hlaalu Canton Plaza and bring me that ring.|BNAM:Journal FG_DebtOrc 10
+
+[MOD-INF]: ID=381366572423214427(Topic:juicedaw feather ring)
+  morrowind.esm-------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:Nar's dead? I like your style, %PCRace. Give me the ring and I'll get your pay.|SCVR:05IX2juicedaw ring|INTV:|SCVR:16DX2nar gro-shagramph|INTV:|BNAM:Choice "Give him the ring." 1 "Keep the ring." 2
+  FGI_Vivec_JuicedawRing.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Nar's dead? I like your style, %PCRace. Give me the ring and I'll get your pay.|SCVR:05IX2juicedaw ring|INTV:|SCVR:16DX2nar gro-shagramph|INTV:|BNAM:Choice "Give him the ring." 1 "Keep the ring." 2
+
+[MOD-INF]: ID=1937259083260119688(Topic:orders)
+  morrowind.esm-------------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Nar gro-Shagramph said he'd deliver a ring to Ranes Ienith, but he hasn't delivered. Go talk to Ranes Ienith and bring the Juicedaw Feather Ring to me.
+  FGI_Vivec_JuicedawRing.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Nar gro-Shagramph said he'd deliver a ring to Navil Ienith, but he hasn't delivered. Go talk to Nar gro-Shagramph and bring the Juicedaw Feather Ring to me.
+
+[MOD-INF]: ID=2978729673242626386(Topic:juicedaw feather ring)
+  morrowind.esm-------------->|DATA|ONAM:nar gro-shagramph|NAME:Fine. Take it. Never liked the stupid ring anyway.|BNAM:Journal FG_DebtOrc 50  RemoveItem "juicedaw ring" 1  Player->AddItem "juicedaw ring" 1
+  FGI_Vivec_JuicedawRing.esp->|DATA|ONAM:nar gro-shagramph|NAME:Fine. I'll be honest to you. I lied to the Fighters Guild because I got cold feet to deliver the ring. You see, Navil Ienith and his friends have always been hostile to outlanders like you and me. I'm afraid it might be my last delivery, if you know what I mean. You can take that stupid ring. Never liked it anyway.|SCVR:04JX3FG_DebtOrc|INTV: |BNAM:Journal FG_DebtOrc 50  RemoveItem "juicedaw ring" 1  Player->AddItem "juicedaw ring" 1
+
+[MOD-INF]: ID=17662152241512620165(Topic:juicedaw feather ring)
+  morrowind.esm-------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:You have the ring? Good. Give me the ring and I'll get your pay.|SCVR:05IX2juicedaw ring|INTV:|BNAM:Choice "Give him the ring." 1 "Keep the ring." 2
+  FGI_Vivec_JuicedawRing.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:You have the ring? Good. Give me the ring and I'll get your pay.|SCVR:05IX2juicedaw ring|INTV:|BNAM:Choice "Give him the ring." 1 "Keep the ring." 2
+
+[MOD-INF]: ID=24130260953192126206(Topic:juicedaw feather ring)
+  morrowind.esm-------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:Here's 100 septims, %PCRank. Easy money. You want more orders, I got them.|SCVR:01500|INTV|BNAM:Journal FG_DebtOrc 100  Player->AddItem Gold_001 100  Player->RemoveItem "juicedaw ring" 1  AddItem "juicedaw ring" 1  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  FGI_Vivec_JuicedawRing.esp->|DATA|ONAM:lorbumol gro-aglakh|NAME:Here's 100 septims, %PCRank. Easy money. You want more orders, I got them.|SCVR:01500|INTV|BNAM:Journal FG_DebtOrc 100  Player->AddItem Gold_001 100  Player->RemoveItem "juicedaw ring" 1  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10    if ( getDeadCount, "navil ienith" > 0 )  AddItem "juicedaw ring" 1  else  "navil ienith"->AddItem "juicedaw ring" 1  endif

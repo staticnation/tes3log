@@ -1,0 +1,9 @@
+abotAlt.esp: DUP-REC MENUMOD OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01MenuTest0Script)
+	SCPT(ab01altFacePlayerScript)
+	SCPT(ab01tmpBumpScript)
+	SCPT(ab01tmpMoveAwayScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       GMST    iblockmaxchance

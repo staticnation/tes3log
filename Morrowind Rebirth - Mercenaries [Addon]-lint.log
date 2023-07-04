@@ -1,0 +1,48 @@
+Morrowind Rebirth - Mercenaries [Addon].ESP: AUTOSPL DUP-INF DUP-REC GETSND MENUMOD MISSDSC MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	rm_healthrest                  Mabrel's Restoration
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(RM_MR_merc1)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(RM_MR_merc1)
+	SCPT(RM_MabrelRemove)
+	SCPT(RM_armour)
+	SCPT(RM_global_check_merc)
+	SCPT(RM_lvl_up)
+	SCPT(RM_merc_01)
+	SCPT(RM_merc_02)
+	SCPT(RM_merc_03)
+	SCPT(RM_merc_04)
+	SCPT(RM_merc_05)
+	SCPT(RM_merc_06)
+	SCPT(RM_merc_07)
+	SCPT(RM_merc_08)
+	SCPT(RM_merc_09)
+	SCPT(RM_merc_10)
+	SCPT(RM_merc_level)
+	SCPT(face_fix)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       DIAL    black marsh
+	morrowind.esm       DIAL    light armor
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=22321827592455738(Topic:light armor)
+  |DATA|CNAM:Savant|NAME:The light armor discipline is the study and mastery of leather, boiled leather, chitin, and glass armor styles. To use any style of armor effectively, the wearer must be trained, conditioned, and skilled in its use.|SCVR:0CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[DUP-INF]: ID=62342927712254319(Greeting:greeting 0)
+  |DATA|ONAM:agronian guy|NAME:I don't want to talk about it.|BNAM:Goodbye
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=1883316893198517213(Greeting:greeting 0)
+  |DATA|ONAM:phane rielle|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:I've heard you've got a price on your head, %PCRank. For a small fee, I can take care of that.|SCVR:11433|INTV|SCVR:21391|INTV
+
+[DUP-INF]: ID=2978719872133784745(Greeting:greeting 4)
+  |DATA|ONAM:Ranes Ienith|NAME:We've been expecting you.|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=28752302141094929250(Topic:black marsh)
+  |DATA|CNAM:Savant|NAME:Most of the native Argonian population of Black Marsh is confined to the great inland waterways and impenetrable swamps of the southern interior. There are few roads here, and most travel is by boat. The coasts and the northwestern upland forests are largely uninhabited. For ages the Dunmer have raided Black Marsh for slaves; though the Empire has made this illegal, the practice persists, and Dunmer and Argonians have a long-standing and bitter hatred for one another.|SCVR:0CsX0NoLore|INTV:|BNAM:;Imperial Legion; Imperial cult; bard, bookseller, savant;

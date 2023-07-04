@@ -1,0 +1,454 @@
+Dark Brotherhood.ESP: AUTOSPL DUP-INF DUP-REC EVLGMST MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	db_the_unwelcome_guest         The Unwelcome Guest
+    [EVLGMST] Tribunal(11) Bloodmoon(61):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfalarmmessage
+	BM swerewolfpopup
+	BM swerewolfrefusal
+	BM swerewolfrestmessage
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+	TB steleportdisabled
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DB_Dedaenc)
+	SCPT(DB_Dungeon)
+	SCPT(DB_Topic)
+	SCPT(db_attack_slave)
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    town_vivec
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       BOOK    bk_miungei
+	morrowind.esm       DIAL    agrippina herrenia
+	morrowind.esm       DIAL    athyn sarethi
+	morrowind.esm       DIAL    bosmer
+	morrowind.esm       DIAL    citizens of the empire
+	morrowind.esm       DIAL    feruren oran
+	morrowind.esm       DIAL    get me out
+	morrowind.esm       DIAL    grandmaster
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    join the imperial cult
+	morrowind.esm       DIAL    join the morag tong
+	morrowind.esm       DIAL    make amends
+	morrowind.esm       DIAL    mehrunes dagon
+	morrowind.esm       DIAL    morag tong
+	morrowind.esm       DIAL    murderer's description
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    ralen hlaalo
+	morrowind.esm       DIAL    requirements
+	morrowind.esm       DIAL    shoes of st. rilms
+	morrowind.esm       DIAL    work
+	morrowind.esm       FACT    morag tong
+	morrowind.esm       NPC_    anel rethelas
+	morrowind.esm       NPC_    carecalmo
+	morrowind.esm       NPC_    domba
+	morrowind.esm       NPC_    dro'zaymar
+	morrowind.esm       NPC_    durus marius
+	morrowind.esm       NPC_    earmil
+	morrowind.esm       NPC_    erundil
+	morrowind.esm       NPC_    gnaw tooth
+	morrowind.esm       NPC_    guril retheran
+	morrowind.esm       NPC_    hrordis
+	morrowind.esm       NPC_    llandrale varam
+	morrowind.esm       NPC_    meryaran
+	morrowind.esm       NPC_    mindeli saren
+	morrowind.esm       NPC_    movis darys
+	morrowind.esm       NPC_    nidara herandus
+	morrowind.esm       NPC_    relas arothan
+	morrowind.esm       NPC_    severa magia
+	morrowind.esm       NPC_    shotherra
+	morrowind.esm       NPC_    sovisa adas
+	morrowind.esm       NPC_    talis veran
+	morrowind.esm       NPC_    thovasi alen
+	morrowind.esm       NPC_    tsrazami
+	tribunal.esm        CREA    ancestor_guardian_fgdd
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    contract
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hh_retaliation
+	tribunal.esm        DIAL    hr_guardsarethi
+	tribunal.esm        DIAL    ic28_urjorad
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage
+
+[DUP-INF]: ID=2830442713314981(Topic:murderer's description)
+  |DATA|RNAM:Dark Elf|ANAM:Balmora|NAME:That could be Thanelen Velas at the Council Club over by the Silt Strider.|SCVR:04JX4HH_Retaliation|INTV:d|SCVR:1CsX0NoLore|INTV:|BNAM:Journal HH_Retaliation 60
+
+[MOD-INF]: ID=16847192888244229(Topic:murderer's description)
+  morrowind.esm-------->|DATA|RNAM:Imperial|ANAM:Balmora|NAME:Hmm... I believe Thanelen Velas over at the Council Club might fit that description.|SCVR:04JX4HH_Retaliation|INTV:d|SCVR:1CsX0nolore|INTV:|BNAM:Journal HH_Retaliation 60
+  Dark Brotherhood.ESP->|DATA|RNAM:Imperial|ANAM:Balmora|NAME:Hmm... I believe Thanelen Velas over at the Council Club might fit that description.|SCVR:04JX4HH_Retaliation|INTV:d|SCVR:1CsX0NoLore|INTV:|BNAM:Journal HH_Retaliation 60
+
+[DUP-INF]: ID=17838616529388421(Topic:murderer's description)
+  |DATA|ANAM:Balmora, Council Club|NAME:Why, no. I don't know anyone like that. Everyone here at the Council Club thinks that Nine-Toes murdered Ralen Hlaalo.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX4HH_Retaliation|INTV:d
+
+[MOD-INF]: ID=20542384186359985(Topic:athyn sarethi)
+  morrowind.esm-------->|DATA|ONAM:neminda|DNAM:Redoran|NAME:I hope Athyn is okay. He and my father were close friends, and the Sarethi family has had enough trouble recently. Guard duties pays in drakes, %PCName. It's not much, but perhaps you can put it to good use.|SCVR:34JX3HR_GuardSarethi|INTV:2|BNAM:Journal HR_GuardSarethi 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Redoran"  ModDisposition 20  "gragus lleran"->disable  "arsyn salas"->disable
+  Dark Brotherhood.ESP->|DATA|ONAM:neminda|DNAM:Brotherhood|NAME:Thank you, outlander. You saved Athyn Sarethi's life. He and my father were close friends, and the Sarethi family has had enough trouble recently. Eventhough you are no Redoran, take these drakes, %PCRace. It's not much, but perhaps you can put it to good use.|SCVR:34JX3HR_GuardSarethi|INTV:2|BNAM:Journal HR_GuardSarethi 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Redoran"  ModDisposition 20  "gragus lleran"->disable  "arsyn salas"->disable
+
+[DUP-INF]: ID=20779198768267276(Topic:ralen hlaalo)
+  |DATA|ONAM:thanelen velas|NAME:Me? No, you are mistaken. It was that Argonian, Nine-Toes.
+
+[DUP-INF]: ID=25546226536338831(Topic:dark brotherhood)
+  |DATA|ONAM:miun_gei|NAME:You want to hire the Dark Brotherhood? How do I know I can trust you?
+
+[DUP-INF]: ID=27050156118185519(Topic:athyn sarethi)
+  |DATA|ONAM:neminda|NAME:You have been expelled from House Redoran. Make amends and perhaps we can speak again.|SCVR:01390|INTV
+
+[DUP-INF]: ID=27380594163115117(Topic:requirements)
+  |DATA|FNAM:Morag Tong|NAME:Swift and agile are the Morag Tong. Silent and unseen they move. Illusions they supply to misdirect their prey. Close and sure they strike with shortblade, or distant and secure they strike from afar with accurate missile fire. Light armor protects them from harm, and the acrobatic discipline finds for them the unseen and unlooked-for path. Have you these virtues? Then, perhaps, your oath and service may please the Morag Tong.
+
+[DUP-INF]: ID=31007180320018927(Greeting:greeting 5)
+  |DATA|ONAM:yakum hairshashishi|NAME:Hello. Yakum. Speak Ashland. Old Elf, not so good speak.|BNAM:; Yakummu Hairshashishi
+
+[MOD-INF]: ID=40549300124732275(Topic:duties)
+  morrowind.esm-------->|DATA|ONAM:neminda|NAME:I don't have any more duties for you. If you want to advance in House Redoran, you will need one of the Councilors to sponsor you. Talk to each of them, and see if any are willing to sponsor an outlander. You might also want to speak with Faral Retheran in Vivec. She may have more duties for you as well.|SCVR:34JX3HR_GuardSarethi|INTV:d
+  Dark Brotherhood.ESP->|DATA|ONAM:neminda|NAME:I don't have any more duties for you. If you want to advance in House Redoran, you will need one of the Councilors to sponsor you. Talk to each of them, and see if any are willing to sponsor an outlander. You might also want to speak with Faral Retheran in Vivec. She may have more duties for you as well.|SCVR:34JX3HR_GuardSarethi|INTV:d|SCVR:44JX3HR_GuardGuarHerds|INTV:d
+
+[DUP-INF]: ID=53254245230021937(Topic:work)
+  |DATA|ONAM:elam andas|NAME:The helm and cuirass are heavy armor, and useful only to a strong fighter. These items belonged to one of the Ordinators who were killed, and it is fitting that they should reward the one who avenged his murder. However, we ask that you not wear this armor in Vivec City, for you may be mistaken for an Ordinator and guard. Alternatively, the Belt of the Armor of God provides magical armor and improves resistance against hostile spells, and should be useful for any adventurer. Which would you like?|SCVR:01500|INTV|BNAM:;Elam Andas: CHOICE 3;   Choice "I'd like the helm and cuirass." 4 "I'd like the belt." 5
+
+[MOD-INF]: ID=64302461337817558(Journal:hh_retaliation)
+  tribunal.esm--------->|DATA|NAME:Nileno Dorvayn thanked me for killing Thanelen Velas for Larrius Varro. Apparently Thanelen was the murderer of Ralen Hlaalo.|QSTF
+  Dark Brotherhood.ESP->|DATA|NAME:Nileno Dorvayn thanked me for killing Thanelen Velas for Larrius Varro. Apparently Thanelen was the murderer of Ralen Hlaalo.
+
+[MOD-INF]: ID=72392188172573143(Topic:dark brotherhood)
+  morrowind.esm-------->|DATA|ONAM:miun_gei|NAME:You don't act like a guard, so I'll tell you. My contact in the Brotherhood is Tsrazami, a Khajiit. She's in the Plaza here in the Foreign Quarter. Tell her I sent you.|BNAM:Journal MT_DB_Contact 50
+  Dark Brotherhood.ESP->|DATA|ONAM:miun_gei|NAME:You don't act like a guard, so I'll tell you. My contact in the Brotherhood is Tsrazami, a Khajiit. She's in the Plaza here in the Foreign Quarter. Tell her I sent you.
+
+[MOD-INF]: ID=83172224776130996(Topic:requirements)
+  morrowind.esm-------->|DATA|ONAM:neminda|NAME:It's a long walk. I'd suggest taking the Silt Strider to Gnisis and making the journey from there. Ald Velothi is directly north of Gnisis.|BNAM:Journal HR_Courier 20  ShowMap "Ald Velothi"
+  Dark Brotherhood.ESP->|DATA|FNAM:Mages Guild|NAME:The Guild of Mages only accepts candidates of keen intelligence and dominant will. Candidates must exhibit mastery in the great schools of magic: Destruction, Alteration, Illusion, and Mysticism. Candidates must also display practical knowledge of enchantments and alchemical processes.
+
+[MOD-INF]: ID=89002161171687025(Topic:dark brotherhood)
+  morrowind.esm-------->|DATA|ONAM:tsrazami|NAME:What does the %PCRace want with the Dark Brotherhood?|BNAM:Choice "I want someone dead." 1 "You will tell me of the Dark Brotherhood." 2 "Nevermind." 3
+  Dark Brotherhood.ESP->|DATA|ONAM:tsrazami|NAME:What does the %PCRace want with the Dark Brotherhood? Does it want to join the Dark Brotherhood? Does it want to hear about the requirements?|SCVR:01460|INTV:
+
+[DUP-INF]: ID=96122919404920193(Greeting:greeting 4)
+  |DATA|FNAM:Temple|NAME:We will have nothing to do with a notorious outlaw. Until you have cleared your name, or paid your debt to society, don't talk to us.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+
+[MOD-INF]: ID=103529874438814500(Topic:make amends)
+  morrowind.esm-------->|DATA|FNAM:Morag Tong|NAME:You should speak with one of the Masters of the Morag Tong. They may allow you to clear your name.|SCVR:01390|INTV
+  Dark Brotherhood.ESP->|DATA|FNAM:Brotherhood|NAME:You should speak with one of the leaders of the %Faction. They may allow you to clear your name.|SCVR:01390|INTV
+
+[MOD-INF]: ID=103529874438814500(Topic:make amends)
+  morrowind.esm-------->|DATA|FNAM:Morag Tong|NAME:You should speak with one of the Masters of the Morag Tong. They may allow you to clear your name.|SCVR:01390|INTV
+  Dark Brotherhood.ESP->|DATA|FNAM:Brotherhood|NAME:You should speak with one of the leaders of the %Faction. They may allow you to clear your name.|SCVR:01390|INTV
+[MOD-IID]: ID=98726359275948244
+  Dark Brotherhood.ESP->You should speak with one of the Masters of the Morag Tong. They may allow you to clear your name.
+
+[DUP-INF]: ID=113969096129124138(Greeting:greeting 5)
+  |DATA|ONAM:Lalatia Varian|NAME:%PCRank %PCName, I believe it is your fate to recover the long-lost artifact Skull-Crusher. When you have this legendary weapon in hand, bring it to me so I may bless it.|SCVR:04JX3IC29_Crusher|INTV
+
+[DUP-INF]: ID=127752360555217824(Topic:ralen hlaalo)
+  |DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:Once you think you know who the murderer is, you should kill them and report back to me.|SCVR:34JX3HH_Retaliation|INTV: 
+
+[DUP-INF]: ID=137014233828513376(Topic:make amends)
+  |DATA|FNAM:Morag Tong|NAME:Your actions of late have not gone unnoticed. There is currently a writ against you. I can have it rescinded, but I must have your word that this was an isolated incident and nothing of the sort will ever happen again. Do I have your word?|SCVR:01390|INTV|BNAM:Choice "Yes, Master. You have my word." 1 "No." 2
+
+[DUP-INF]: ID=157997456106822924(Persuasion:intimidate success)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:Among mortals, you are indeed great. Among the ancestors, you are of little account.
+
+[MOD-INF]: ID=178121420026479920(Topic:dark brotherhood)
+  morrowind.esm-------->|DATA|ONAM:miun_gei|NAME:Look, I only had one contact in the Brotherhood, a Khajiit named Tsrazami. But she's dead, and I'm not a member myself.|SCVR:06DX3tsrazami|INTV|BNAM:Journal MT_DB_Contact 60
+  Dark Brotherhood.ESP->|DATA|ONAM:miun_gei|NAME:Look, I only had one contact in the Brotherhood, a Khajiit named Tsrazami. But she's dead, and I'm not a member myself.|SCVR:06DX3tsrazami|INTV
+
+[MOD-INF]: ID=191481641302813414(Greeting:greeting 5)
+  morrowind.esm-------->|DATA|ONAM:Lalatia Varian|NAME:%PCRank %PCName, Stendarr has granted me a vision of the artifact Skull-Crusher.|SCVR:04JX3IC28_Urjorad|INTV:2
+  Dark Brotherhood.ESP->|DATA|ONAM:Lalatia Varian|NAME:%PCRank %PCName, Stendarr has granted me a vision of the artifact Skull-Crusher.|SCVR:04JX3IC28_Urjorad|INTV:2|SCVR:14JX3IC27_Oracle_|AINT|SCVR:24JX3IC25_JonHawker|INTV:2|SCVR:34JX3IC26_AmaNin|INTV:2
+
+[MOD-INF]: ID=191481641302813414(Greeting:greeting 5)
+  morrowind.esm-------->|DATA|ONAM:Lalatia Varian|NAME:%PCRank %PCName, Stendarr has granted me a vision of the artifact Skull-Crusher.|SCVR:04JX3IC28_Urjorad|INTV:2
+  Dark Brotherhood.ESP->|DATA|ONAM:Lalatia Varian|NAME:%PCRank %PCName, Stendarr has granted me a vision of the artifact Skull-Crusher.|SCVR:04JX3IC28_Urjorad|INTV:2|SCVR:14JX3IC27_Oracle_|AINT|SCVR:24JX3IC25_JonHawker|INTV:2|SCVR:34JX3IC26_AmaNin|INTV:2
+[MOD-IID]: IDs=2006313383255527193,95022415263835916
+  Dark Brotherhood.ESP->%PCRank %PCName, Stendarr has granted me a vision of the artifact Skull-Crusher.
+
+[MOD-INF]: ID=256278940312044066(Topic:dark brotherhood)
+  morrowind.esm-------->|DATA|CNAM:Assassin|FNAM:Hlaalu|NAME:The Dark Brotherhood is an ancient secret association of assassins. They do not advertise their services or their creed, but they are an outlawed secret society with an evil reputation, and are often associated with Daedra worship. The Morag Tong claims the Dark Brotherhood is a depraved perversion of their ancient law-abiding order of assassins, and the Morag Tong is the sworn enemy of the Dark Brotherhood.|SCVR:0CsX0NoLore|INTV:|BNAM:;assassins; agents;
+  Dark Brotherhood.ESP->|DATA|CNAM:Savant|NAME:The Dark Brotherhood is an ancient secret association of assassins. They do not advertise their services or their creed, but they are an outlawed secret society with an evil reputation, and are often associated with Daedra worship. The Morag Tong claims the Dark Brotherhood is a depraved perversion of their ancient law-abiding order of assassins, and the Morag Tong is the sworn enemy of the Dark Brotherhood.|SCVR:0CsX0NoLore|INTV:|BNAM:;assassins; agents;
+
+[DUP-INF]: ID=256993512447710148(Topic:advancement)
+  |DATA|FNAM:Thieves Guild|NAME:No one questions your loyalty, but you must practice your skills to become %PCName the %NextPCRank.|SCVR:01020|INTV
+
+[MOD-INF]: ID=272469058115119097(Topic:citizens of the empire)
+  morrowind.esm-------->|DATA|FNAM:Camonna Tong|NAME:Sure. We're citizens. We don't have much choice, do we?|SCVR:0CsX0nolore|INTV:|BNAM:;Dunmer; Balmora
+  Dark Brotherhood.ESP->|DATA|FNAM:Camonna Tong|NAME:Sure. We're citizens. We don't have much choice, do we?|SCVR:0CsX0NoLore|INTV:|BNAM:;Dunmer; Balmora
+
+[DUP-INF]: ID=309562366329224942(Topic:ralen hlaalo)
+  |DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:I believe that Thanelen Velas was the murderer. If so, you have already taken care of the matter. My thanks from House Hlaalu.|SCVR:34JX3town_balmora|INTV|BNAM:Journal HH_Retaliation 200  ModPCFacRep 10 "Hlaalu"  ModDisposition 15
+
+[DUP-INF]: ID=481758991057512523(Greeting:greeting 5)
+  |DATA|ONAM:Lalatia Varian|DNAM:Imperial Cult|NAME:By killing Carecalmo and Meryaran you have avenged the deaths of the healer Urjorad and his master Dro'farahn Stiff-Neck, and rid the world of a great evil. You have served the Imperial cult well. Please take these Gauntlets of Glory, and put them to good use. Speak to me again when you are ready to undertake another of the Oracle's Quests.|SCVR:04JX3IC28_Urjorad|INTV|SCVR:16DX3carecalmo|INTV|SCVR:26DX3meryaran|INTV|BNAM:Journal IC28_Urjorad 55  player->additem Gauntlet_of_Glory_left 1  player->additem gauntlet_of_glory_right 1  ModPCFacRep, 10, "Imperial Cult"  player->modReputation 2  modDisposition 10  Goodbye
+
+[MOD-INF]: ID=616821394220310825(Topic:ralen hlaalo)
+  morrowind.esm-------->|DATA|ONAM:thanelen velas|NAME:Thanks for trusting me, %PCName.|SCVR:34JX3HH_Retaliation|INTV:d
+  Dark Brotherhood.ESP->|DATA|ONAM:thanelen velas|DNAM:Brotherhood|NAME:If I trusted outlanders like yourself, perhaps I would believe such a story about Ethasi Rilvayn, but I still believe Nine-Toes to be the murderer.|SCVR:04JX4HH_Retaliation|INTV:d|SCVR:24JX4DB_MT_Balmora|INTV:2|SCVR:34JX3DB_MT_Balmora|INTV: 
+
+[DUP-INF]: ID=634827443204810172(Topic:join the morag tong)
+  |DATA|ONAM:eno hlaalu|NAME:You belong to us already, %PCRank %PCName.|SCVR:34JX3MT_WritOran|INTV:d
+
+[DUP-INF]: ID=711211223005210331(Topic:shoes of st. rilms)
+  |DATA|ONAM:endryn llethan|NAME:In a dream, a priest had a vision of the Shoes of St. Rilms lying neglected in the depths of Ald Sotha, just northeast of Vivec. Go to Ald Sotha and, if this is a true vision, return this sacred relic to the Temple. Ald Sotha may be too difficult for you, %PCName, but you might make it through with the aid of these potions. In the priests' vision, the shoes were in a chest, behind a statue of Mehrunes Dagon.|BNAM:Journal TT_RilmsShoes 10  Player->AddItem "p_heroism_s" 1  Player->AddItem "p_restore_health_e" 4  Player->AddItem "p_invisibility_q" 2
+
+[DUP-INF]: ID=1099210664101907450(Greeting:greeting 5)
+  |DATA|ONAM:hrordis|NAME:What do you think you're doing in here? Go away. Now.|SCVR:01630|INTV:|BNAM:;Hrordis  Goodbye
+
+[DUP-INF]: ID=1471322831213057918(Persuasion:intimidate success)
+  |DATA|NAME:It's ok, really. I didn't mean it.
+
+[DUP-INF]: ID=1557323984507231624(Topic:bosmer)
+  |DATA|FNAM:Ashlanders|NAME:The Bosmer are foreigners, outlanders. They live in trees and eat nothing but meat. We have no forests here. Why don't they go back where they came from?|SCVR:0CsX0NoLore|INTV:|BNAM:;ashlanders
+
+[DUP-INF]: ID=1651986161721322751(Topic:grandmaster)
+  |DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:To become the Grandmaster of the Morag Tong, you must slay the current Grandmaster, Eno Hlaalu.
+
+[MOD-INF]: ID=1747624039121546856(Greeting:greeting 6)
+  morrowind.esm-------->|DATA|FNAM:Thieves Guild|NAME:Are you looking for me? You want to join the Thieves Guild?|SCVR:01460|INTV:
+  Dark Brotherhood.ESP->|DATA|FNAM:Brotherhood|NAME:Greetings, Sister.|SCVR:01460|INTV|SCVR:11380|INTV
+
+[MOD-INF]: ID=1747624039121546856(Greeting:greeting 6)
+  morrowind.esm-------->|DATA|FNAM:Thieves Guild|NAME:Are you looking for me? You want to join the Thieves Guild?|SCVR:01460|INTV:
+  Dark Brotherhood.ESP->|DATA|FNAM:Brotherhood|NAME:Greetings, Sister.|SCVR:01460|INTV|SCVR:11380|INTV
+[MOD-IID]: ID=224236282682532321
+  Dark Brotherhood.ESP->Are you looking for me? You want to join the Thieves Guild?
+
+[DUP-INF]: ID=2170927635195427214(Topic:get me out)
+  |DATA|NAME:I'll make my escape as soon as I can.|SCVR:03sX0prisonerFreed|INTV
+
+[DUP-INF]: ID=2475714417414921439(Greeting:greeting 6)
+  |DATA|FNAM:Thieves Guild|NAME:What is it, %PCRank? Are you here looking for jobs, or are you ready for advancement?|SCVR:01460|INTV
+
+[DUP-INF]: ID=2585332132899910599(Topic:join the imperial cult)
+  |DATA|FNAM:Imperial Cult|NAME:Speak with Ygfa at Fort Pelagiad, Syloria Siruliulus at Fort Buckmoth, Somutis Vunnis at Fort Moonmoth, Ruccia Conician in the Grand Council Chambers in Ebonheart, or Lalatia Varian in the Imperial Chapels at Ebonheart. And here's my copy of 'For my Gods and Emperor'. It's a handbook for members of the Imperial cult. Keep it. Read it. It may help you decide whether you should join the Imperial cult.|SCVR:01460|INTV:|SCVR:17XX0ygfa|INTV|SCVR:27XX0somutis vunnis|INTV|SCVR:37XX0syloria siruliulus|INTV|SCVR:47XX0Ruccia Conician|INTV|SCVR:57XX0Lalatia Varian|INTV|BNAM:player->additem bk_formygodsandemperor 1  journal IC_guide 1
+
+[DUP-INF]: ID=3078924726341810015(Topic:ralen hlaalo)
+  |DATA|ONAM:uryne nirith|NAME:You murdered Nine-Toes. I'm not fond of your kind, but the murderer was a Dunmer, not an Argonian.|SCVR:06DX2nine_toes|INTV:|SCVR:12sX0PCRace|INTV|SCVR:34JX3HH_Retaliation|INTV: |BNAM:;pc is argonian
+
+[DUP-INF]: ID=3165631492113962783(Topic:ralen hlaalo)
+  |DATA|NAME:I heard you found the real murderer. I am grateful to you, soft-skin.|SCVR:34JX3HH_Retaliation|INTV:d
+
+[DUP-INF]: ID=6355199152927027935(Topic:morag tong)
+  |DATA|ONAM:caius cosades|NAME:The Morag Tong is a guild of executioners and assassins, completely legal, and guided by a strict code of conduct. It's an ancient Dunmer society, steeped in  tradition, but I know and respect a few Westerners who belong to the Morag Tong. They are nothing like the Dark Brotherhood. I have no idea how to join them.|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[DUP-INF]: ID=6845170651501226134(Topic:dark brotherhood)
+  |DATA|ONAM:eno hlaalu|NAME:We are still at war with the Dark Brotherhood. Do not forget that.|SCVR:34JX3MT_DB_Contact|INTV:d
+
+[DUP-INF]: ID=7236257792293914681(Topic:work)
+  |DATA|ONAM:elam andas|NAME:According to your report, the Dunmer woman you killed matches the description given us. We'll dispatch Ordinators to follow up, but I believe you have identified and executed the killer. On behalf of the city, and of the Office of the Watch, thank you. And now, for the reward I promised. I'll give you a choice. You may either have an Indoril helm and cuirass, or a Belt of the Armor of God.|SCVR:06DX0dreamer prophet|INTV|BNAM:;Elam Andas; dead = Dreamer Prophet;   Choice "Continue" 3
+
+[MOD-INF]: ID=9036156472772618059(Journal:hr_guardsarethi)
+  tribunal.esm--------->|DATA|NAME:Neminda asked me to guard Sarethi Manor.
+  Dark Brotherhood.ESP->|DATA|NAME:Movis Darys asked me to guard Sarethi Manor from the Morag Tong.
+
+[DUP-INF]: ID=9480320081615822943(Topic:mehrunes dagon)
+  |DATA|ONAM:hrordis|NAME:That is a beautiful name. Far too beautiful a name to be found in the mouth of a contemptible worm like you. It will give me great pleasure to beat that beautiful name right out of your maggoty mouth.|BNAM:;Hrordis;  ModFight 100  Goodbye
+
+[MOD-INF]: ID=10144175852044614336(Journal:ic28_urjorad)
+  tribunal.esm--------->|DATA|NAME:The Oracle says that by killing Carecalmo and Meryaran I have avenged the deaths of the healer Urjorad and his master Dro'farahn Stiff-Neck, and rid the world of a great evil. As a reward she gave me the Gauntlets of Glory. She told me to speak to her again when I am ready to undertake another of the Oracle's Quests.|QSTF
+  Dark Brotherhood.ESP->|DATA|NAME:The Oracle says that by killing Carecalmo and Meryaran I have avenged the deaths of the healer Urjorad and his master Dro'farahn Stiff-Neck, and rid the world of a great evil. As a reward she gave me the Gauntlets of Glory. She told me to speak to her again when I am ready to undertake another of the Oracle's Quests.
+
+[DUP-INF]: ID=11512151672907625273(Topic:ralen hlaalo)
+  |DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:You killed Thanelen Velas. House Hlaalu will not soon forget this act of vengeance. Take these 1000 drakes as a reward for solving this murder.|SCVR:06DX2thanelen velas|INTV:|SCVR:34JX3HH_Retaliation|INTV: |BNAM:Journal HH_Retaliation 110  ModPCFacRep 10 "Hlaalu"  ModDisposition 15  Player->AddItem Gold_001 1000  Player->ModReputation 1
+
+[DUP-INF]: ID=12276284861507021461(Topic:dark brotherhood)
+  |DATA|FNAM:Morag Tong|NAME:The Dark Brotherhood is a depraved perversion of the ancient law-abiding order of the Morag Tong. They do not advertise their services or their creed, but they are an outlawed secret society of assassins with an evil reputation, and are often associated with Daedra worship. The Morag Tong is the sworn enemy of the Dark Brotherhood.|SCVR:0CsX0NoLore|INTV:|BNAM:;Morag Tong;
+
+[MOD-INF]: ID=12560149042482210158(Greeting:greeting 4)
+  morrowind.esm-------->|DATA|FNAM:Morag Tong|NAME:The Morag Tong does not respect those who debase the sacred art of murder.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+  Dark Brotherhood.ESP->|DATA|FNAM:Brotherhood|DNAM:Brotherhood|NAME:You have a bounty on your head, %PCRank. I suggest doing something about that. The %Faction prefers to stay low.|SCVR:01433|INTV
+
+[DUP-INF]: ID=12784258021907518332(Topic:agrippina herrenia)
+  |DATA|ANAM:Vivec|NAME:She's a clothier in the Foreign Quarter; I think her shop is in the Canalworks. Nice merchandise, actually.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=13853215691958416767(Topic:ralen hlaalo)
+  |DATA|NAME:I have heard the rumors, but I am not a murderer. I believe someone is spreading these rumors because I am a foreigner and an Argonian.
+
+[DUP-INF]: ID=14063306481078030426(Topic:dark brotherhood)
+  |DATA|ONAM:tsrazami|NAME:Fine with %Name.|SCVR:01500|INTV
+
+[DUP-INF]: ID=14537224102804521957(Topic:orc)
+  |DATA|ONAM:ra'gruzgob|NAME:Orc? Ra'Gruzgob is no Orc!
+
+[MOD-INF]: ID=15762241253205011873(Topic:athyn sarethi)
+  morrowind.esm-------->|DATA|ONAM:neminda|DNAM:Redoran|NAME:He is a good man and was a close friend of my father. You will find no better sponsor in all of House Redoran.|SCVR:34JX3HR_GuardSarethi|INTV:d
+  Dark Brotherhood.ESP->|DATA|ONAM:neminda|DNAM:Brotherhood|NAME:House Redoran is indebted to you for saving Athyn Sarethi's life, %PCRace.|SCVR:34JX3HR_GuardSarethi|INTV:d
+
+[DUP-INF]: ID=15871201801537426826(Topic:feruren oran)
+  |DATA|ONAM:eno hlaalu|NAME:He may be found at the Elven Nations Cornerclub in the Hlaalu Plaza here in Vivec. Slay him honorably and you may join the Morag Tong.
+
+[DUP-INF]: ID=16672167983165910426(Topic:murderer's description)
+  |DATA|RNAM:Khajiit|ANAM:Balmora|NAME:%Name thinks %Name saw someone like that over at the Council Club, just across from the Silt Strider.|SCVR:04JX4HH_Retaliation|INTV:d|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=17814103293101015617(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:Then pay with your blood, outlaw!|SCVR:01500|INTV|BNAM:;SetDisposition 0  ;commented out, should not fight here or set disp  ;SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=20091141873226020884(Topic:ralen hlaalo)
+  |DATA|ONAM:nileno dorvayn|NAME:You solved the murder of Ralen Hlaalo.|SCVR:34JX3HH_Retaliation|INTV:d
+
+[DUP-INF]: ID=20172142971264027114(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:GotoJail  Goodbye
+
+[MOD-INF]: ID=22580190852053612072(Greeting:greeting 3)
+  morrowind.esm-------->|DATA|FNAM:Morag Tong|NAME:Traitors to the %Faction must die.|SCVR:01390|INTV|SCVR:12sX0ExpMoragTong|INTV|BNAM:ModDisposition -50  Goodbye
+  Dark Brotherhood.ESP->|DATA|FNAM:Brotherhood|NAME:Traitors to the %Faction must die.|SCVR:01390|INTV|SCVR:14JX3DB_Expelled|INTV: |BNAM:ModDisposition -50  SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=25044327452001718262(Topic:get me out)
+  |DATA|NAME:Thank you, %PCName. I'll make my escape as soon as the coast is clear.|SCVR:01500|INTV|SCVR:13sX0prisonerFreed|INTV:|BNAM:Set prisonerFreed to 1  ModDisposition 25
+
+[MOD-INF]: ID=26171111263194021999(Topic:advancement)
+  morrowind.esm-------->|DATA|FNAM:Thieves Guild|NAME:Congratulations, %PCName. You are now %PCName the %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank
+  Dark Brotherhood.ESP->|DATA|FNAM:Brotherhood|DNAM:Brotherhood|NAME:Congratulations, %PCName. You are now %PCName the %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank
+
+[DUP-INF]: ID=27338256343161121090(Journal:town_vivec)
+  |DATA|NAME:Two Ordinators and five outlanders have been killed in Vivec, their throats slit. The rumor is that the Office of the Watch at the Hall of Justice is looking for outside help.
+
+[MOD-INF]: ID=27787171622323417104(Greeting:greeting 5)
+  morrowind.esm-------->|DATA|ONAM:Lalatia Varian|DNAM:Imperial Cult|NAME:I am glad you were able to recover this scroll. It is an item of terrible power, and I am glad it has not fallen into evil hands. Thank you for completing this task. As to the matter of Carecalmo and Meryaran, I leave that matter to your judgement. As opponents, they may be too great for you. Speak to me again when you are ready to undertake another of the Oracle's Quests.|SCVR:04JX3IC28_Urjorad|INTV|SCVR:15IX3sc_FiercelyRoastThyEnemy_unique|INTV|BNAM:Journal IC28_Urjorad 50  player->removeitem sc_FiercelyRoastThyEnemy_unique 1  ModPCFacRep, 5, "Imperial Cult"  player->modReputation 1  modDisposition 5  Goodbye
+  Dark Brotherhood.ESP->|DATA|ONAM:Lalatia Varian|DNAM:Brotherhood|NAME:You have brought me The Scroll of Fiercly Roasting and the news of the fiend Carecalmo's death? You may not be a lay servant of the Imperial Cult, yet you have earned my greatest gratitude. Take these gauntlets as your reward, %PCName. If you ever wish to join the Imperial Cult, please let me or another member of the Cult know.|SCVR:15IX3sc_FiercelyRoastThyEnemy_unique|INTV|SCVR:24JX3DB_RucciaConician|INTV: |BNAM:Journal IC28_Urjorad 60  Journal DB_RucciaConician 75  player->removeitem sc_FiercelyRoastThyEnemy_unique 1  player->additem Gauntlet_of_Glory_left 1  player->additem gauntlet_of_glory_right 1  ModPCFacRep, 10, "Imperial Cult"  player->modReputation 2  modDisposition 10  Goodbye
+
+[DUP-INF]: ID=28522295582749318395(Topic:murderer's description)
+  |DATA|ONAM:uryne nirith|NAME:You killed Nine-Toes. He was not the murderer.|SCVR:06DX2nine_toes|INTV:|SCVR:34JX3HH_Retaliation|INTV:2
+
+[DUP-INF]: ID=29275303911992717160(Topic:dark brotherhood)
+  |DATA|ONAM:miun_gei|NAME:I don't know anything. I swear.

@@ -1,0 +1,67 @@
+Bantam_Farmers_and_Hunter's_Delight.esp: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 9
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CREA    rat
+	bloodmoon.esm       DIAL    barbarian's sad tale
+	morrowind.esm       CREA    cliff racer
+	morrowind.esm       CREA    dead_mudcrab
+	morrowind.esm       CREA    guar
+	morrowind.esm       CREA    guar_pack
+	morrowind.esm       CREA    kagouti
+	morrowind.esm       CREA    kagouti_diseased
+	morrowind.esm       CREA    kagouti_hrk
+	morrowind.esm       CREA    kagouti_mating
+	morrowind.esm       CREA    kwama forager
+	morrowind.esm       CREA    kwama forager blighted
+	morrowind.esm       CREA    kwama worker diseased
+	morrowind.esm       CREA    mudcrab
+	morrowind.esm       CREA    mudcrab-diseased
+	morrowind.esm       CREA    mudcrab_hrmudcrabnest
+	morrowind.esm       CREA    mudcrab_unique
+	morrowind.esm       CREA    netch_betty
+	morrowind.esm       CREA    netch_betty_ilgn
+	morrowind.esm       CREA    netch_betty_ranched
+	morrowind.esm       CREA    netch_bull
+	morrowind.esm       CREA    netch_bull_dead
+	morrowind.esm       CREA    netch_bull_dead_2
+	morrowind.esm       CREA    netch_bull_ilgn
+	morrowind.esm       CREA    netch_bull_ranched
+	morrowind.esm       CREA    nix-hound
+	morrowind.esm       CREA    scamp
+	morrowind.esm       CREA    shalk
+	morrowind.esm       CREA    skeleton
+	morrowind.esm       CREA    skeleton entrance
+	morrowind.esm       CREA    skeleton hero dead
+	morrowind.esm       DIAL    alarm
+	morrowind.esm       LEVI    random_food
+	morrowind.esm       LEVI    random_ingredient
+	morrowind.esm       LEVI    random_ingredient_diff
+	tribunal.esm        CREA    scrib
+	tribunal.esm        CREA    slaughterfish
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=78102235536611098(Voice:alarm)
+  morrowind.esm--------------------------->|DATA|ONAM:yagrum bagarn|SNAM:Vo\Misc\Yagrum_2.mp3|NAME:Noooo!
+  Bantam_Farmers_and_Hunter's_Delight.esp->|DATA|ONAM:yagrum bagarn|NAME:Noooo!
+
+[MOD-INF]: ID=191342994444195886(Topic:barbarian's sad tale)
+  bloodmoon.esm--------------------------->|DATA|ONAM:ulfgar the unending|NAME:I came to Solstheim with four of my brothers-in-arms.  We were on a quest, you see.  We were getting close...we could feel it.  But then, one of our fellowship -- a powerful sorceror named Grimkell -- betrayed the rest of us.  He laid an ambush, and assailed us with powerful magicka.  I managed to slay Grimkell, but not before my three other companions were turned to stone. You may have seen them, for they are the three standing stones of Brodir Grove, not far from here.|SCVR:04JX3BM_BrodirGrove|INTV:|BNAM:Journal BM_BrodirGrove 10
+  Bantam_Farmers_and_Hunter's_Delight.esp->|DATA|NAME:I came to Solstheim with four of my brothers-in-arms.  We were on a quest, you see.  We were getting close...we could feel it.  But then, one of our fellowship -- a powerful sorceror named Grimkell -- betrayed the rest of us.  He laid an ambush, and assailed us with powerful magicka.  I managed to slay Grimkell, but not before my three other companions were turned to stone. You may have seen them, for they are the three standing stones of Brodir Grove, not far from here.
+
+[DUP-INF]: ID=666731499111789993(Topic:background)
+  |DATA|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=961610326284295759(Topic:my trade)
+  |DATA|CNAM:Merchant|NAME:I am a merchant. I look for goods that are well-made, that people want to buy, that I can buy and sell at a profit. There are many different kinds of materials I can buy and sell -- animal products, vegetable products, mineral products, even exotic products. Crafts and manufactured goods I deal in include weapons, armor, clothing, books, potions, enchanted items, and various housewares. I travel, talk with people I meet, buy what I like, and sell what people like.|SCVR:0CsX0NoLore|INTV:|BNAM:;Merchant; generic merchants do not have services, and do not buy and sell; they are just merchant quest and scenery characters
+
+[MOD-INF]: ID=18404305671714828172(Topic:almalexia)
+  tribunal.esm---------------------------->|DATA|NAME:Farewell.|SCVR:21500|INTV|BNAM:goodbye
+  Bantam_Farmers_and_Hunter's_Delight.esp->|DATA|NAME:Farewell.
+
+[DUP-INF]: ID=18705125102254928778(Greeting:greeting 9)
+  |DATA|ANAM:Mournhold, Craftsmen's Hall|NAME:You killed Trels Varis? He was the only one with the courage to tell the truth. I don't understand how you could do such a thing.|SCVR:04JX0TR09_Journalist|INTV:Z

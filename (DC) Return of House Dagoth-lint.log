@@ -1,0 +1,608 @@
+(DC) Return of House Dagoth.ESP: DUP-INF DUP-REC FOGBUG JUNKCEL MENUMOD MISSDSC MISSVER MOD-INF OVR-REC SCRDOOR
+    [FOGBUG]: Cells with zero fog density setting:
+	Balmora, Undercity
+	Dark Pestilence
+	Kogoruhn, Hall of the Watchful Touch
+	Silgrad Tower, Temple
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BAR_PackGuar_scr)
+	SCPT(BAR_PackRat_scr)
+	SCPT(BE_bladeScript2)
+	SCPT(BE_bladeScript3)
+	SCPT(BE_bladeScript4)
+	SCPT(ColonyGraring)
+	SCPT(ColonyWolfKill)
+	SCPT(aaaordinator)
+	SCPT(bladeScript)
+	SCPT(geo2)
+	SCPT(haven)
+	SCPT(hyc_cyborgnpc)
+	SCPT(indoril)
+	SCPT(script)
+	SCPT(sltw_ch_reichtemple_door)
+	SCPT(sltw_ea_weaponblindScript)
+	SCPT(sltw_rw_dualwield_phij_l)
+	SCPT(sltw_rw_scr_SHIP_NPC_9)
+	SCPT(sltw_za_border)
+	SCPT(sltw_za_ratking_sc)
+	SCPT(unknown)
+	SCPT(void)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	ex_co_ship_trapdoor                  ColonyShipwreckDoor
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (-3, -4)           0x02
+	Ashlands Region (-3, 16)                 0x02
+	Ashlands Region (-4, 12)                 0x02
+	Ashlands Region (-4, 8)                  0x02
+	Ashlands Region (2, 2)                   0x02
+	Ashlands Region (2, 3)                   0x02
+	Azura's Coast Region (11, 21)            0x02
+	Azura's Coast Region (11, 22)            0x02
+	Azura's Coast Region (12, 22)            0x02
+	Bitter Coast Region (-10, -7)            0x02
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	Bitter Coast Region (-2, -12)            0x02
+	Bitter Coast Region (-4, -12)            0x02
+	Sheogorad (-4, 26)                       0x02
+	Sheogorad (-5, 23)                       0x02
+	Sheogorad (6, 22)                        0x02
+	West Gash Region (-14, 9)                0x02
+	West Gash Region (-15, 10)               0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	West Gash Region (-4, -3)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    join house hlaalu
+	tribunal.esm        DIAL    almalexia
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    active_de_bedroll
+	bloodmoon.esm       ACTI    active_de_p_bed_14
+	bloodmoon.esm       APPA    apparatus_a_spipe_01
+	bloodmoon.esm       ARMO    steel_greaves
+	bloodmoon.esm       BOOK    sc_paper plain
+	bloodmoon.esm       CLOT    extravagant_robe_01
+	bloodmoon.esm       CONT    barrel_01_cheapfood5
+	bloodmoon.esm       CONT    barrel_01_pos
+	bloodmoon.esm       CONT    barrel_01_random_pos
+	bloodmoon.esm       CONT    com_sack_01_chpfood5
+	bloodmoon.esm       CONT    com_sack_01_ingred
+	bloodmoon.esm       CONT    com_sack_02_chpfood3
+	bloodmoon.esm       CONT    com_sack_02_ingred
+	bloodmoon.esm       CONT    com_sack_03_ingredients
+	bloodmoon.esm       CONT    crate_01_de_mclothes
+	bloodmoon.esm       CONT    crate_02_food
+	bloodmoon.esm       DOOR    ex_co_ship_trapdoor
+	bloodmoon.esm       DOOR    ex_dae_door_load_oval
+	bloodmoon.esm       INGR    ingred_emerald_01
+	bloodmoon.esm       INGR    ingred_moon_sugar_01
+	bloodmoon.esm       LIGH    light_com_candle_09_128
+	bloodmoon.esm       MISC    misc_com_bottle_01
+	bloodmoon.esm       MISC    misc_com_bottle_03
+	bloodmoon.esm       MISC    misc_com_bottle_04
+	bloodmoon.esm       MISC    misc_com_bottle_05
+	bloodmoon.esm       MISC    misc_com_bottle_06
+	bloodmoon.esm       MISC    misc_com_bottle_07
+	bloodmoon.esm       MISC    misc_com_bottle_08
+	bloodmoon.esm       MISC    misc_com_bottle_12
+	bloodmoon.esm       MISC    misc_com_broom_01
+	bloodmoon.esm       MISC    misc_com_bucket_01
+	bloodmoon.esm       MISC    misc_com_metal_plate_04
+	bloodmoon.esm       MISC    misc_com_metal_plate_05
+	bloodmoon.esm       MISC    misc_com_pitcher_metal_01
+	bloodmoon.esm       MISC    misc_com_redware_flask
+	bloodmoon.esm       MISC    misc_com_redware_pitcher
+	bloodmoon.esm       MISC    misc_com_tankard_01
+	bloodmoon.esm       MISC    misc_com_wood_bowl_02
+	bloodmoon.esm       MISC    misc_com_wood_cup_01
+	bloodmoon.esm       MISC    misc_com_wood_fork
+	bloodmoon.esm       MISC    misc_com_wood_knife
+	bloodmoon.esm       MISC    misc_com_wood_spoon_01
+	bloodmoon.esm       MISC    misc_de_bowl_glass_yellow_01
+	bloodmoon.esm       MISC    misc_de_bowl_redware_01
+	bloodmoon.esm       MISC    misc_de_bowl_redware_02
+	bloodmoon.esm       MISC    misc_de_drum_01
+	bloodmoon.esm       MISC    misc_de_pot_mottled_01
+	bloodmoon.esm       MISC    misc_de_tankard_01
+	bloodmoon.esm       MISC    misc_quill
+	bloodmoon.esm       REPA    repair_prongs
+	bloodmoon.esm       STAT    ex_dae_wall_512_01
+	bloodmoon.esm       STAT    ex_dwrv_bridge10
+	bloodmoon.esm       STAT    furn_com_kegstand
+	bloodmoon.esm       STAT    furn_de_rug_big_01
+	bloodmoon.esm       STAT    furn_de_rug_big_04
+	bloodmoon.esm       STAT    furn_de_shack_hook
+	morrowind.esm       ACTI    active_com_bed_04
+	morrowind.esm       ACTI    active_de_bar_door
+	morrowind.esm       ACTI    active_de_p_bed_09
+	morrowind.esm       ACTI    active_de_p_bed_13
+	morrowind.esm       ACTI    active_de_p_bed_28
+	morrowind.esm       ACTI    active_de_r_bed_20
+	morrowind.esm       ACTI    furn_de_bar_02
+	morrowind.esm       ACTI    furn_de_bar_05
+	morrowind.esm       ACTI    sound_boat_creak00
+	morrowind.esm       ALCH    p_reflection_s
+	morrowind.esm       ALCH    p_restore_health_q
+	morrowind.esm       ALCH    potion_comberry_brandy_01
+	morrowind.esm       ALCH    potion_comberry_wine_01
+	morrowind.esm       ALCH    potion_cyro_brandy_01
+	morrowind.esm       ALCH    potion_cyro_whiskey_01
+	morrowind.esm       ALCH    potion_local_liquor_01
+	morrowind.esm       ALCH    potion_skooma_01
+	morrowind.esm       ALCH    potion_t_bug_musk_01
+	morrowind.esm       APPA    apparatus_a_alembic_01
+	morrowind.esm       APPA    apparatus_a_mortar_01
+	morrowind.esm       APPA    apparatus_m_alembic_01
+	morrowind.esm       APPA    apparatus_m_calcinator_01
+	morrowind.esm       APPA    apparatus_m_mortar_01
+	morrowind.esm       APPA    apparatus_m_retort_01
+	morrowind.esm       ARMO    bonemold_armun-an_helm
+	morrowind.esm       ARMO    bonemold_bracer_left
+	morrowind.esm       ARMO    bonemold_bracer_right
+	morrowind.esm       ARMO    dwemer_pauldron_left
+	morrowind.esm       ARMO    redoran_master_helm
+	morrowind.esm       BOOK    bk_aedraanddaedra
+	morrowind.esm       BOOK    bk_briefhistoryempire1
+	morrowind.esm       BOOK    bk_briefhistoryempire2
+	morrowind.esm       BOOK    bk_briefhistoryempire3
+	morrowind.esm       BOOK    bk_briefhistoryempire4
+	morrowind.esm       BOOK    bk_cantatasofvivec
+	morrowind.esm       BOOK    bk_frontierconquestaccommodat
+	morrowind.esm       BOOK    bk_guylainesarchitecture
+	morrowind.esm       BOOK    bk_truenoblescode
+	morrowind.esm       BOOK    bk_varietiesoffaithintheempire
+	morrowind.esm       BOOK    sc_healing
+	morrowind.esm       BOOK    text_paper_roll_01
+	morrowind.esm       CLOT    expensive_robe_01
+	morrowind.esm       CLOT    expensive_robe_02
+	morrowind.esm       CLOT    expensive_robe_03
+	morrowind.esm       CLOT    expensive_shirt_01
+	morrowind.esm       CLOT    extravagant_robe_01_b
+	morrowind.esm       CLOT    extravagant_robe_01_c
+	morrowind.esm       CLOT    extravagant_robe_01_h
+	morrowind.esm       CLOT    extravagant_robe_01_r
+	morrowind.esm       CLOT    extravagant_shirt_01
+	morrowind.esm       CLOT    hunter's belt
+	morrowind.esm       CONT    barrel_02_cheapfood5
+	morrowind.esm       CONT    barrel_02_ingred
+	morrowind.esm       CONT    com_basket_01_chpfood
+	morrowind.esm       CONT    com_basket_01_chpfood5
+	morrowind.esm       CONT    com_hutch_01_misc
+	morrowind.esm       CONT    com_sack_02_saltrice_10
+	morrowind.esm       CONT    com_sack_03_chpfood5
+	morrowind.esm       CONT    crate_01_de_fclothes
+	morrowind.esm       CONT    crate_01_eggs
+	morrowind.esm       CONT    crate_01_empty
+	morrowind.esm       CONT    de_r_closet_01_empty
+	morrowind.esm       CONT    de_r_drawers_01_empty
+	morrowind.esm       CONT    flora_bc_mushroom_08
+	morrowind.esm       CONT    flora_corkbulb
+	morrowind.esm       CONT    flora_fire_fern_01
+	morrowind.esm       CONT    kollop_03_pearl
+	morrowind.esm       CONT    tramaroot_04
+	morrowind.esm       CONT    urn_02_ingred
+	morrowind.esm       CONT    urn_03_ingred
+	morrowind.esm       CONT    urn_04_ingred
+	morrowind.esm       DOOR    door_dwrv_inner00
+	morrowind.esm       DOOR    door_dwrv_loaddown00
+	morrowind.esm       DOOR    ex_ashl_door_01
+	morrowind.esm       DOOR    ex_ashl_door_02
+	morrowind.esm       DOOR    in_ashl_door_01
+	morrowind.esm       DOOR    in_hlaalu_loaddoor_01
+	morrowind.esm       DOOR    in_strong_vaultdoor00
+	morrowind.esm       INGR    ingred_crab_meat_01
+	morrowind.esm       INGR    ingred_green_lichen_01
+	morrowind.esm       INGR    ingred_marshmerrow_01
+	morrowind.esm       LIGH    dark_128
+	morrowind.esm       LIGH    dark_64
+	morrowind.esm       LIGH    light_com_candle_07_128
+	morrowind.esm       LIGH    light_com_lantern_02
+	morrowind.esm       LIGH    light_de_candle_06
+	morrowind.esm       LIGH    light_de_candle_06_64
+	morrowind.esm       LIGH    light_de_candle_09_64
+	morrowind.esm       LIGH    light_de_candle_10
+	morrowind.esm       LIGH    light_de_candle_12
+	morrowind.esm       LIGH    light_de_candle_23
+	morrowind.esm       LIGH    light_de_lamp_01_128
+	morrowind.esm       LIGH    light_de_lamp_03_256
+	morrowind.esm       LIGH    light_de_lamp_09_red
+	morrowind.esm       LIGH    light_de_lantern_02
+	morrowind.esm       LIGH    light_logpile10
+	morrowind.esm       LIGH    light_torch_01
+	morrowind.esm       MISC    gold_001
+	morrowind.esm       MISC    key_gatewayinnslaves_01
+	morrowind.esm       MISC    misc_com_iron_ladle
+	morrowind.esm       MISC    misc_com_plate_04
+	morrowind.esm       MISC    misc_com_redware_bowl
+	morrowind.esm       MISC    misc_com_wood_bowl_01
+	morrowind.esm       MISC    misc_de_bowl_redware_03
+	morrowind.esm       MISC    misc_de_drum_02
+	morrowind.esm       MISC    misc_de_glass_yellow_01
+	morrowind.esm       MISC    misc_de_goblet_05
+	morrowind.esm       MISC    misc_de_goblet_06
+	morrowind.esm       MISC    misc_de_goblet_07
+	morrowind.esm       MISC    misc_de_goblet_08
+	morrowind.esm       MISC    misc_de_lute_01
+	morrowind.esm       MISC    misc_de_pot_green_01
+	morrowind.esm       MISC    misc_de_pot_redware_01
+	morrowind.esm       MISC    misc_dwrv_artifact00
+	morrowind.esm       MISC    misc_dwrv_artifact60
+	morrowind.esm       MISC    misc_imp_silverware_cup_01
+	morrowind.esm       MISC    misc_inkwell
+	morrowind.esm       NPC_    aundae vampire 1
+	morrowind.esm       NPC_    missun akin
+	morrowind.esm       STAT    collision wall - inviso!!
+	morrowind.esm       STAT    ex_ashl_tent_02
+	morrowind.esm       STAT    ex_dae_pillar_03
+	morrowind.esm       STAT    ex_dae_wall_512_03
+	morrowind.esm       STAT    ex_dae_wall_512_06
+	morrowind.esm       STAT    ex_de_railing_02
+	morrowind.esm       STAT    ex_dwrv_alcove10
+	morrowind.esm       STAT    ex_dwrv_block20
+	morrowind.esm       STAT    ex_dwrv_boulder00
+	morrowind.esm       STAT    ex_dwrv_bridge00
+	morrowind.esm       STAT    ex_dwrv_enter00
+	morrowind.esm       STAT    ex_dwrv_observ00
+	morrowind.esm       STAT    ex_dwrv_ruin20
+	morrowind.esm       STAT    ex_dwrv_ruin40
+	morrowind.esm       STAT    ex_dwrv_ruin70
+	morrowind.esm       STAT    ex_dwrv_ruin_tower00
+	morrowind.esm       STAT    ex_dwrv_statue00
+	morrowind.esm       STAT    ex_dwrv_walker00
+	morrowind.esm       STAT    ex_dwrv_wall60
+	morrowind.esm       STAT    ex_gg_gatetriolith_01
+	morrowind.esm       STAT    ex_hlaalu_b_13
+	morrowind.esm       STAT    ex_hlaalu_b_14
+	morrowind.esm       STAT    ex_hlaalu_b_15
+	morrowind.esm       STAT    ex_hlaalu_b_22
+	morrowind.esm       STAT    ex_hlaalu_b_23
+	morrowind.esm       STAT    ex_hlaalu_canal_01
+	morrowind.esm       STAT    ex_ruin_00
+	morrowind.esm       STAT    ex_ruin_10
+	morrowind.esm       STAT    ex_ruin_30
+	morrowind.esm       STAT    ex_stronghold_window00
+	morrowind.esm       STAT    ex_strongruin_dome00
+	morrowind.esm       STAT    ex_strongruin_enter00
+	morrowind.esm       STAT    ex_strongruin_fort02
+	morrowind.esm       STAT    flora_ashtree_03
+	morrowind.esm       STAT    flora_bc_grass_01
+	morrowind.esm       STAT    flora_bc_grass_02
+	morrowind.esm       STAT    flora_bush_01
+	morrowind.esm       STAT    flora_grass_01
+	morrowind.esm       STAT    flora_kelp_01
+	morrowind.esm       STAT    flora_kelp_02
+	morrowind.esm       STAT    flora_kelp_03
+	morrowind.esm       STAT    flora_kelp_04
+	morrowind.esm       STAT    flora_tree_ai_02
+	morrowind.esm       STAT    furn_bone_skull_01
+	morrowind.esm       STAT    furn_com_rm_chair_03
+	morrowind.esm       STAT    furn_de_ex_stool_02
+	morrowind.esm       STAT    furn_de_ex_table_01
+	morrowind.esm       STAT    furn_de_ex_table_02
+	morrowind.esm       STAT    furn_de_lecturn
+	morrowind.esm       STAT    furn_de_p_bookshelf_01
+	morrowind.esm       STAT    furn_de_p_chair_01
+	morrowind.esm       STAT    furn_de_p_chair_02
+	morrowind.esm       STAT    furn_de_p_stool_02
+	morrowind.esm       STAT    furn_de_p_table_02
+	morrowind.esm       STAT    furn_de_p_table_04
+	morrowind.esm       STAT    furn_de_p_table_05
+	morrowind.esm       STAT    furn_de_practice_mat
+	morrowind.esm       STAT    furn_de_r_bench_01
+	morrowind.esm       STAT    furn_de_r_bench_02
+	morrowind.esm       STAT    furn_de_r_bookshelf_02
+	morrowind.esm       STAT    furn_de_r_chair_03
+	morrowind.esm       STAT    furn_de_r_shelf_01
+	morrowind.esm       STAT    furn_de_r_table_03
+	morrowind.esm       STAT    furn_de_r_table_07
+	morrowind.esm       STAT    furn_de_r_table_09
+	morrowind.esm       STAT    furn_de_r_wallscreen_01
+	morrowind.esm       STAT    furn_de_r_wallscreen_02
+	morrowind.esm       STAT    furn_de_rope_04
+	morrowind.esm       STAT    furn_de_rug_02
+	morrowind.esm       STAT    furn_de_rug_big_05
+	morrowind.esm       STAT    furn_de_rug_big_09
+	morrowind.esm       STAT    furn_de_table10
+	morrowind.esm       STAT    furn_de_tapestry_09
+	morrowind.esm       STAT    furn_de_tapestry_12
+	morrowind.esm       STAT    furn_de_tapestry_13
+	morrowind.esm       STAT    furn_de_tray_01
+	morrowind.esm       STAT    furn_dwrv_fitting00
+	morrowind.esm       STAT    furn_planter_01
+	morrowind.esm       STAT    in_dae_room_l_corner_02
+	morrowind.esm       STAT    in_dae_room_r_corner_02
+	morrowind.esm       STAT    in_dae_rubble_06
+	morrowind.esm       STAT    in_de_shack_04
+	morrowind.esm       STAT    in_dwrv_corr2_00
+	morrowind.esm       STAT    in_dwrv_corr2_04
+	morrowind.esm       STAT    in_dwrv_corr4_01
+	morrowind.esm       STAT    in_dwrv_doorjam00
+	morrowind.esm       STAT    in_dwrv_hall4_00
+	morrowind.esm       STAT    in_dwrv_wall10
+	morrowind.esm       STAT    in_hlaalu_doorjamb_load
+	morrowind.esm       STAT    in_hlaalu_platform_01
+	morrowind.esm       STAT    in_imp_fireplace_grand
+	morrowind.esm       STAT    in_mud_rock_17
+	morrowind.esm       STAT    in_mudcave_doorway00
+	morrowind.esm       STAT    in_mudtrans_00
+	morrowind.esm       STAT    in_strong_wall
+	morrowind.esm       STAT    in_strongruin_hall00
+	morrowind.esm       STAT    in_strongruin_hall01
+	morrowind.esm       STAT    in_strongruin_hall02
+	morrowind.esm       STAT    in_strongruin_wall00
+	morrowind.esm       STAT    in_strongruin_wall10
+	morrowind.esm       STAT    terrain_ashland_rock_10
+	morrowind.esm       STAT    terrain_rock_bc_16
+	morrowind.esm       STAT    terrain_rock_bc_17
+	morrowind.esm       STAT    terrain_rock_bc_18
+	morrowind.esm       STAT    terrain_rock_rm_18
+	morrowind.esm       STAT    terrain_rock_wg_13
+	morrowind.esm       STAT    terrain_rocks_wg_03
+	morrowind.esm       WEAP    dwarven claymore
+	morrowind.esm       WEAP    ebony longsword
+	morrowind.esm       WEAP    ebony spear
+	morrowind.esm       WEAP    silver claymore
+	morrowind.esm       WEAP    silver spear
+	morrowind.esm       WEAP    steel axe
+	tribunal.esm        ACTI    act_dwe_weather00
+	tribunal.esm        ACTI    active_de_r_bed_06
+	tribunal.esm        ACTI    ex_waterfall_mist_01
+	tribunal.esm        ACTI    furn_de_bar_01
+	tribunal.esm        ACTI    furn_de_bar_04
+	tribunal.esm        ALCH    potion_local_brew_01
+	tribunal.esm        ARMO    bonemold_boots
+	tribunal.esm        ARMO    bonemold_helm
+	tribunal.esm        BOOK    bk_ancestorsandthedunmer
+	tribunal.esm        BOOK    bk_annotatedanuad
+	tribunal.esm        BOOK    bk_anticipations
+	tribunal.esm        BOOK    bk_bookdawnanddusk
+	tribunal.esm        BOOK    bk_bookofdaedra
+	tribunal.esm        BOOK    bk_childrensanuad
+	tribunal.esm        BOOK    bk_consolationsofprayer
+	tribunal.esm        CONT    com_basket_01_pos
+	tribunal.esm        CONT    com_sack_01_saltrice_10
+	tribunal.esm        CONT    crate_01
+	tribunal.esm        DOOR    door_cavern_doors10
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    door_dwrv_loadup00
+	tribunal.esm        DOOR    ex_cave_door_01
+	tribunal.esm        DOOR    ex_de_ship_trapdoor
+	tribunal.esm        DOOR    ex_h_trapdoor_01
+	tribunal.esm        DOOR    hlaal_loaddoor_01
+	tribunal.esm        DOOR    hlaalu_loaddoor_ 02
+	tribunal.esm        DOOR    in_de_shack_door
+	tribunal.esm        DOOR    in_h_trapdoor_01
+	tribunal.esm        DOOR    in_hlaalu_door
+	tribunal.esm        DOOR    in_velothismall_ndoor_01
+	tribunal.esm        MISC    misc_com_bottle_02
+	tribunal.esm        MISC    misc_com_bottle_09
+	tribunal.esm        MISC    misc_com_bottle_10
+	tribunal.esm        MISC    misc_com_bottle_11
+	tribunal.esm        MISC    misc_com_bottle_13
+	tribunal.esm        MISC    misc_com_bottle_14
+	tribunal.esm        MISC    misc_com_bottle_15
+	tribunal.esm        MISC    misc_com_redware_cup
+	tribunal.esm        MISC    misc_com_redware_vase
+	tribunal.esm        MISC    misc_de_bowl_01
+	tribunal.esm        MISC    misc_de_bowl_bugdesign_01
+	tribunal.esm        MISC    misc_de_bowl_glass_peach_01
+	tribunal.esm        MISC    misc_de_bowl_white_01
+	tribunal.esm        MISC    misc_de_foldedcloth00
+	tribunal.esm        MISC    misc_de_goblet_02
+	tribunal.esm        MISC    misc_de_goblet_04
+	tribunal.esm        MISC    misc_de_pitcher_01
+	tribunal.esm        MISC    misc_de_pot_glass_peach_02
+	tribunal.esm        MISC    misc_skull00
+	tribunal.esm        MISC    misc_uni_pillow_01
+	tribunal.esm        STAT    furn_com_r_bookshelf_01
+	tribunal.esm        STAT    furn_com_torch_ring_01
+	tribunal.esm        STAT    furn_throne_01
+	tribunal.esm        STAT    in_hlaalu_room_entry
+	tribunal.esm        STAT    in_hlaalu_room_side
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    com_closet_01_mclothes
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       INGR    ingred_saltrice_01
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       ARMO    dragonscale_helm
+	morrowind.esm       CLOT    common_pants_01
+	morrowind.esm       CLOT    common_pants_01_a
+	morrowind.esm       CLOT    common_pants_01_e
+	morrowind.esm       CLOT    common_pants_01_u
+	morrowind.esm       CLOT    common_pants_01_z
+	morrowind.esm       CLOT    common_pants_02
+	morrowind.esm       CLOT    common_pants_03
+	morrowind.esm       CLOT    common_pants_03_b
+	morrowind.esm       CLOT    common_shirt_02
+	morrowind.esm       CLOT    common_shirt_02_hh
+	morrowind.esm       CLOT    common_shirt_gondolier
+	morrowind.esm       CLOT    common_shoes_02
+	morrowind.esm       CLOT    common_shoes_02_surefeet
+	morrowind.esm       CLOT    common_shoes_03
+	morrowind.esm       CLOT    common_skirt_01
+	morrowind.esm       CLOT    common_skirt_02
+	morrowind.esm       CLOT    common_skirt_03
+	morrowind.esm       CLOT    common_skirt_04
+	morrowind.esm       CLOT    common_skirt_04_c
+	morrowind.esm       CLOT    common_skirt_05
+	morrowind.esm       CLOT    expensive_shirt_03
+	morrowind.esm       CLOT    extravagant_shoes_01
+	morrowind.esm       CLOT    extravagant_skirt_01
+	morrowind.esm       CLOT    maras_blouse
+	morrowind.esm       CLOT    maras_skirt
+	morrowind.esm       CONT    de_p_desk_01
+	morrowind.esm       CREA    dagoth girer
+	morrowind.esm       CREA    vivec_god
+	morrowind.esm       DIAL    greeting 8
+	morrowind.esm       DIAL    price on your head
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       FACT    temple
+	morrowind.esm       INGR    ingred_black_anther_01
+	morrowind.esm       INGR    ingred_bonemeal_01
+	morrowind.esm       INGR    ingred_comberry_01
+	morrowind.esm       INGR    ingred_hound_meat_01
+	morrowind.esm       INGR    ingred_resin_01
+	morrowind.esm       LAND    (-1, 14)
+	morrowind.esm       LAND    (-1, 15)
+	morrowind.esm       LAND    (-2, -2)
+	morrowind.esm       LAND    (-3, -1)
+	morrowind.esm       LAND    (-3, -11)
+	morrowind.esm       LAND    (-3, -12)
+	morrowind.esm       LAND    (-3, -2)
+	morrowind.esm       LAND    (-3, -3)
+	morrowind.esm       LAND    (-3, 8)
+	morrowind.esm       LAND    (-3, 9)
+	morrowind.esm       LAND    (-4, -11)
+	morrowind.esm       LAND    (-4, -12)
+	morrowind.esm       LAND    (-4, 14)
+	morrowind.esm       LAND    (-4, 15)
+	morrowind.esm       LAND    (-4, 16)
+	morrowind.esm       LAND    (-4, 8)
+	morrowind.esm       LAND    (-6, -5)
+	morrowind.esm       LAND    (0, 13)
+	morrowind.esm       LAND    (0, 14)
+	morrowind.esm       LAND    (0, 15)
+	morrowind.esm       LAND    (1, 14)
+	morrowind.esm       LAND    (1, 15)
+	morrowind.esm       LIGH    light_6th_brazier
+	morrowind.esm       LIGH    light_6th_candle_06
+	morrowind.esm       LIGH    torch
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       NPC_    aurnie vanne
+	morrowind.esm       NPC_    breton dancer girl
+	morrowind.esm       NPC_    codus callonus
+	morrowind.esm       NPC_    dondos driler
+	morrowind.esm       NPC_    dreamer
+	morrowind.esm       NPC_    dreamer_02
+	morrowind.esm       NPC_    dreamer_f_01
+	morrowind.esm       NPC_    falvel arenim
+	morrowind.esm       NPC_    helviane desele
+	morrowind.esm       NPC_    levus musilchiotus
+	morrowind.esm       NPC_    nileno dorvayn
+	morrowind.esm       NPC_    sondaale of shimmerene
+	morrowind.esm       PGRD    gnisis
+	tribunal.esm        CONT    de_r_closet_01
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DOOR    ex_de_shack_door
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=2232578973982204(Topic:price on your head)
+  |DATA|ONAM:tongue_toad|NAME:That's not a problem for you now.|SCVR:01430|INTV:
+
+[DUP-INF]: ID=6923112947019593(Topic:latest rumors)
+  |DATA|RNAM:Imperial|NAME:My son was recently shipped up to Fort Frostmoth on the island of Solstheim. I don't know what he did to deserve that, but it couldn't have been good.|SCVR:04JX4BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+
+[DUP-INF]: ID=10131919635644927(Topic:latest rumors)
+  |DATA|FNAM:Skaal|NAME:Have you seen it? The raven? It's been spotted at the Altar of Thrond. It's huge, and black as midnight. Some say it's a sign that witches have come to Solstheim.|SCVR:02sX0PCWerewolf|INTV|BNAM:Journal BM_WolfGiver 10
+
+[DUP-INF]: ID=15917326493337369(Greeting:greeting 8)
+  |DATA|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 12000
+
+[DUP-INF]: ID=22217791936755969(Greeting:greeting 8)
+  |DATA|NAME:Only someone very successful could afford an outfit like that, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 40; PCClothingMod >= 3000
+
+[DUP-INF]: ID=37028346479318744(Greeting:greeting 8)
+  |DATA|NAME:Only someone very successful could afford an outfit like that, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 6000
+
+[DUP-INF]: ID=1572968893026920615(Topic:business)
+  |DATA|ONAM:Dovor Oren|NAME:Hmm.  At a second glance, perhaps I shouldn't be so dismissive.  You seem a rather resourceful sort.  We're, ah, investing in the future, you see.  The city right now exists under a blanket of fear; a blind guar can see that the tension between the Imperials and the Temple will soon be boiling over into the streets.  When that happens, it's going to be every %PCRace for himself, yes?  Well, we're stockpiling for just that occasion, which is certainly inevitable at this point.  And maybe you can assist us.|SCVR:06DX0Felvan Ienith|INTV:|SCVR:16DX0Olvyne Dobar|INTV:|BNAM:Journal MS_Warlords 10
+
+[DUP-INF]: ID=2283721782216812426(Greeting:greeting 8)
+  |DATA|NAME:You poor fellow. This outfit... is that all you can afford?|SCVR:01424|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod < 2000
+
+[MOD-INF]: ID=2285569511578711146(Topic:latest rumors)
+  tribunal.esm-------------------->|DATA|NAME:I hear you're in a little trouble with the law. Why don't you pay the magistrate? You know you owe it. Why don't you pay it?|SCVR:01433|INTV:d|SCVR:1BLX0Cavern of the Incarnate|INTV|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV
+  (DC) Return of House Dagoth.ESP->|DATA|NAME:I hear you're in a little trouble with the law. Why don't you pay the magistrate? You know you owe it. Why don't you pay it?|SCVR:01433|INTV:d|SCVR:1BLX0Cavern of the Incarnate|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|SCVR:47XX0...aaaresident 7|INTV
+
+[DUP-INF]: ID=2337936691289623607(Topic:latest rumors)
+  |DATA|ANAM:Solstheim, Thirsk|NAME:Have you seen it? The raven? It's been spotted at the Altar of Thrond. It's huge, and black as midnight. Some say it's a sign that witches have come to Solstheim.|SCVR:02sX0PCWerewolf|INTV|BNAM:Journal BM_WolfGiver 10
+
+[DUP-INF]: ID=2339222421725821174(Topic:almalexia)
+  |DATA|CNAM:Priest|FNAM:Temple|NAME:Almalexia was the virtuous wife of Lord Nerevar, and later the Consort of Lord Vivec.|SCVR:02sX4Random100|INTV:2|BNAM:;Temple; priests; monks; healers;
+
+[MOD-INF]: ID=2555865252055214313(Topic:latest rumors)
+  tribunal.esm-------------------->|DATA|NAME:At first, it seemed the fuss about the Nerevarine prophecy was just silly superstition. Then I learned that the Dunmer have been waiting for Lord Nerevar to come back for centuries. The 'Incarnate', they call it. Every few years an Ashlander appears, and the tribes call him the Incarnate. Then the Temple goes out, hunts him down, and reveals him as a fake. Why does the Temple worry so much about it?|SCVR:0ARX0Dark Elf|INTV|SCVR:14JX4C3_DestroyDagoth|INTV:2|SCVR:2CsX0NoLore|INTV:
+  (DC) Return of House Dagoth.ESP->|DATA|NAME:At first, it seemed the fuss about the Nerevarine prophecy was just silly superstition. Then I learned that the Dunmer have been waiting for Lord Nerevar to come back for centuries. The 'Incarnate', they call it. Every few years an Ashlander appears, and the tribes call him the Incarnate. Then the Temple goes out, hunts him down, and reveals him as a fake. Why does the Temple worry so much about it?|SCVR:0ARX0Dark Elf|INTV|SCVR:14JX4C3_DestroyDagoth|INTV:2|SCVR:2CsX0NoLore|INTV:|SCVR:37XX0...aaaresident 7|INTV|SCVR:47XX0....aaadagoth dainleln1|INTV
+
+[DUP-INF]: ID=4715135021278523560(Topic:business)
+  |DATA|NAME:[There is a brief sensation of motion in total darkness, floating, but without a sense of weight or direction.] ...you know it. Now. I will notify the Temple that you are our champion. There shall be no more persecution of the Dissident Priests, and I hope both sides shall swiftly be reconciled. We have time for questions, if you like. Or you may leave, as you wish.  But I think there are at least two things you ought to know before you leave: how to use Wraithguard, and how to defeat Dagoth Ur.|SCVR:01500|INTV|SCVR:15IX3misc_wraithguard_no_equip|INTV|BNAM:;Vivec; CHOICE 8; ;   Journal "B8_MeetVivec" 50  player->additem "Wraithguard" 1  modFactionReaction Temple Nerevarine 10  modFactionReaction Redoran Nerevarine 2  modFactionReaction Hlaalu Nerevarine 2  wulf->enable  player->removeitem "misc_Wraithguard_no_equip" 1  player->modReputation 5
+
+[DUP-INF]: ID=4740252483254216877(Greeting:greeting 8)
+  |DATA|NAME:You look very impressive in that outfit, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 4000
+
+[MOD-INF]: ID=16027228191418416208(Topic:latest rumors)
+  tribunal.esm-------------------->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0nolore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+  (DC) Return of House Dagoth.ESP->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2|SCVR:27XX0...aaaresident 7|INTV|SCVR:37XX0....aaadagoth dainleln1|INTV
+
+[MOD-INF]: ID=17098122791121329328(Topic:price on your head)
+  morrowind.esm------------------->|DATA|NAME:Well, that's your choice. Let me know if you change your mind, %PCRank.|SCVR:01500|INTV
+  (DC) Return of House Dagoth.ESP->|DATA|NAME:Well, that's your choice. Let me know if you change your mind, %PCRank.|SCVR:01500|INTV
+
+[DUP-INF]: ID=19168109821570928829(Topic:price on your head)
+  |DATA|ONAM:arantamo|NAME:That's not a problem for you now.|SCVR:01430|INTV:
+
+[DUP-INF]: ID=19816109801401511688(Topic:join house hlaalu)
+  |DATA|ONAM:nileno dorvayn|NAME:Are you sure? Remember that once you are bound by oath to House Hlaalu, no other Great House will accept you as a member. You may also wish to know our rules. If you are sure you want to join our House, say yes.|SCVR:01500|INTV|BNAM:Choice "Yes, I would like to join." 1 "No, nevermind." 3 "Hear the rules of House Hlaalu." 4
+
+[DUP-INF]: ID=20296323721601031672(Greeting:greeting 8)
+  |DATA|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 40; PCClothingMod >= 6000
+
+[DUP-INF]: ID=22053304572540420424(Topic:business)
+  |DATA|DNAM:Temple|NAME:[There is a brief sensation of motion in total darkness, floating, but without a sense of weight or direction.] ...you know it. Now. I will notify the Temple that you are our champion. There shall be no more persecution of the Dissident Priests, and I hope both sides shall swiftly be reconciled. We have time for questions, if you like. Or you may leave, as you wish.  But I think there are at least two things you ought to know before you leave: how to use Wraithguard, and how to defeat Dagoth Ur.|SCVR:01500|INTV|BNAM:;Vivec; CHOICE 8; ;   Journal "B8_MeetVivec" 50  player->additem "Wraithguard" 1  modFactionReaction Temple Nerevarine 6  modFactionReaction Redoran Nerevarine 2  modFactionReaction Hlaalu Nerevarine 2  wulf->enable  player->removeitem "misc_Wraithguard_no_equip" 1  player->modReputation 5
+
+[DUP-INF]: ID=22838144922953728258(Topic:business)
+  |DATA|ONAM:Dovor Oren|NAME:Yes, let's discuss what you can do to assist my, err, our cause.|SCVR:04JX3MS_Warlords|INTV: 
+
+[DUP-INF]: ID=23400124302873729725(Topic:almalexia)
+  |DATA|CNAM:Healer|FNAM:Temple|NAME:Blessed Almalexia the Warden is one of the three Immortals God-Kings of Morrowind, a Pillar of the Tribunal, and the patron of Healers and Teachers.|BNAM:;Temple; priests; monks; healers;
+
+[MOD-INF]: ID=29678150921094025770(Topic:latest rumors)
+  bloodmoon.esm------------------->|DATA|NAME:I heard there has been some trouble up at Fort Frostmoth. Never heard of it? It's on an island called Solstheim north of Vvardenfell.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+  (DC) Return of House Dagoth.ESP->|DATA|NAME:I heard there has been some trouble up at Fort Frostmoth. Never heard of it? It's on an island called Solstheim north of Vvardenfell.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0...aaaresident 7|INTV|BNAM:Journal BM_Rumors 10

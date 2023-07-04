@@ -1,0 +1,28 @@
+Gladiator.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ArenaChampionScript)
+	SCPT(ArenaFighterAstralScript)
+	SCPT(ArenaFighterScript)
+	SCPT(ArenaFinalScript)
+	SCPT(ArenaMaster2Script)
+	SCPT(ArenaMasterScript)
+	SCPT(AstralArenaScript)
+	SCPT(AstralPortal)
+	SCPT(TribunalMain)
+	SCPT(amuletSanctumScript)
+	SCPT(miniScript)
+	SCPT(summon_Script)
+	SCPT(vivecArenaScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

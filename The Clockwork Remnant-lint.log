@@ -1,0 +1,33 @@
+The Clockwork Remnant.ESP: DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(clockworkspider)
+    [JUNKCEL] Junk Cells:                        Flags
+	Sheogorad (4, 24)                        0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    door_sotha_load
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    help me
+	tribunal.esm        DIAL    clockwork city
+	tribunal.esm        DIAL    sotha sil
+
+[DUP-INF]: ID=23739682074468576(Topic:clockwork city)
+  |DATA|NAME:His lair is as puzzling as the mind of the Sorcerer himself. Ever-moving, ever-changing, its levers and gears responding to its master's will alone. It is here he performs his profane experiments, aided by his magic and tainted by his madness.
+
+[DUP-INF]: ID=206761854481713449(Topic:help me)
+  |DATA|ONAM:bugrol gro-bagul|NAME:You wanna help? Sure you do, good friend. Look--those guys in Caldera think I did something bad, so they're looking for me. I'm too smart for them, though. I can hide real good. My friend can help me. Maybe you bring her a note for me? I can give you a present. Really!|SCVR:04JX4MV_Bugrol|INTV|BNAM:Choice "Take note from Bugrol." 1 "Don't take note from Bugrol." 2
+
+[DUP-INF]: ID=242672632452579098(Greeting:greeting 2)
+  |DATA|NAME:Cover yourself! Are you mad? Have you no decency?|SCVR:01425|INTV:|SCVR:1ARX0Khajiit|INTV|SCVR:2ARX0Argonian|INTV|SCVR:37XX0crassius curio|INTV:|SCVR:4CsX0nolore|INTV:
+
+[DUP-INF]: ID=14482273921433116415(Topic:sotha sil)
+  |DATA|CNAM:Priest|FNAM:Temple|NAME:Lord Sotha Sil the Magus is one of the three Immortal God-Kings of Morrowind, a Pillar of the Tribunal, and the patron of Artificers and Wizards. Sotha Sil was the mightiest wizard and most wise counselor of the First Council. Companion and teacher of Nerevar and Vivec, Sotha Sil is the Light of Knowledge and the Inspiration of Craft and Sorcery.|BNAM:;Temple; priests; monks; healers;
+
+[DUP-INF]: ID=16043312532573123088(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You say you've been attacked by assassins? From your description, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart about this matter.|SCVR:02sX0DBAttack|INTV|SCVR:17XX0apelles matius|INTV|SCVR:24JX4TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 30  set DBAttack to -1

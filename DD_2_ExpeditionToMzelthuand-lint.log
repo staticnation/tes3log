@@ -1,0 +1,57 @@
+DD_2_ExpeditionToMzelthuand.esp: DUP-REC GETSND JUNKCEL MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(DD_2_FlimDarr_AI)
+	SCPT(DD_2_FlimFlin_S)
+	SCPT(DD_2_FlimGear_S)
+	SCPT(DD_2_TeleDevice_S)
+	SCPT(DD_2_act_dwrv_vent_S)
+	SCPT(DD_2_coilroom_magnet_S)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DD_2_Calibrate)
+	SCPT(DD_2_CohererActivate)
+	SCPT(DD_2_DisposalDoor2_S)
+	SCPT(DD_2_DisposalDoor_S)
+	SCPT(DD_2_FakeChamber_S)
+	SCPT(DD_2_FakeHallway_S)
+	SCPT(DD_2_FanOn)
+	SCPT(DD_2_FlimDarr_S)
+	SCPT(DD_2_FlimDarrsHouse_S)
+	SCPT(DD_2_FlimDart_S)
+	SCPT(DD_2_FlimFlin_S)
+	SCPT(DD_2_FlimGear2_S)
+	SCPT(DD_2_FlimGear_S)
+	SCPT(DD_2_FlimKey_S)
+	SCPT(DD_2_GetEyePos)
+	SCPT(DD_2_Grinder_S)
+	SCPT(DD_2_LevitationBlock)
+	SCPT(DD_2_Music_LoopingWater_S)
+	SCPT(DD_2_Mzelthuand_Lift2_S)
+	SCPT(DD_2_Mzelthuand_Lift_S)
+	SCPT(DD_2_Mzelthuand_Lift_S2)
+	SCPT(DD_2_Startup)
+	SCPT(DD_2_Startup_S)
+	SCPT(DD_2_TeleShader)
+	SCPT(DD_2_act_door_massive_S)
+	SCPT(DD_2_act_dwrv_dimdoor_01_S)
+	SCPT(DD_2_act_dwrv_dimdoor_02_S)
+	SCPT(DD_2_act_dwrv_vent_S)
+	SCPT(DD_2_door_dwrv_blocked_S)
+	SCPT(DD_2_dreugh_clockwork_S)
+	SCPT(DD_2_dwrv_grate_fence_S)
+	SCPT(DD_2_grate_lever_S)
+	SCPT(DD_2_misc_coherer_powered_s)
+	SCPT(DD_2_puzzle_ice)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (0, 0)                   0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    dwemer artifacts
+	morrowind.esm       DIAL    hla oad
+	morrowind.esm       LAND    (-9, -6)
+	morrowind.esm       LAND    (-9, -7)
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       PGRD    ashlands region
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors

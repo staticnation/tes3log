@@ -1,0 +1,88 @@
+Animated_Morrowind - merged - OpenMW_2426162967.esp: DUP-REC FOGBUG GETSND MASTERS MENUMOD MISSAUT MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1433626 (plugin)    1567893 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Suran, Ascadian Ales - Brewery Pub
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(AM_Bard1_script)
+	SCPT(AM_BardBMThirsk1_script)
+	SCPT(AM_BardBMThirsk2_script)
+	SCPT(AM_Drummer_script)
+	SCPT(AM_FishermanDay_script)
+	SCPT(AM_FishermanMorning_script)
+	SCPT(AM_Fisherman_script)
+	SCPT(LLCS_bard_lute)
+	SCPT(LLCS_drummer_s)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AMBard9PosFix)
+	SCPT(AM_BanditScript)
+	SCPT(AM_Bard1_EightPlates_script)
+	SCPT(AM_Bard1_script)
+	SCPT(AM_Bard2_script)
+	SCPT(AM_BardBMThirsk1_script)
+	SCPT(AM_BardBMThirsk2_script)
+	SCPT(AM_DreamerA_Script)
+	SCPT(AM_LM_Bard1_lute4_script)
+	SCPT(AM_LM_Bard_lute1_script)
+	SCPT(AM_MinerEbonyScript)
+	SCPT(AM_MinerEggScript)
+	SCPT(AM_StopMusic2_Script)
+	SCPT(AM_StopMusic_Script)
+	SCPT(BILL_TT_Lette)
+	SCPT(Dunmer_Chat)
+	SCPT(Dunmer_Music)
+	SCPT(LLCS_bard_lute)
+	SCPT(ab01amBeggarBowl10Script)
+	SCPT(ab01amBeggarBowl11Script)
+	SCPT(ab01amBeggarBowl12Script)
+	SCPT(ab01amBeggarBowl13Script)
+	SCPT(ab01amBeggarBowl14Script)
+	SCPT(ab01amBeggarBowl17Script)
+	SCPT(ab01amBeggarBowl1Script)
+	SCPT(ab01amBeggarBowl21Script)
+	SCPT(ab01amBeggarBowl22Script)
+	SCPT(ab01amBeggarBowl23Script)
+	SCPT(ab01amBeggarBowl24Script)
+	SCPT(ab01amBeggarBowl2Script)
+	SCPT(ab01amBeggarBowl5Script)
+	SCPT(ab01amBeggarBowl7Script)
+	SCPT(ab01amBeggarBowl8Script)
+	SCPT(ab01amBeggarBowl9Script)
+	SCPT(ab01amDrum8Script)
+	SCPT(luce_esep_Dunmer_Chat)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    alms for the poor
+	morrowind.esm       DIAL    founder's helm
+	morrowind.esm       LIGH    light_de_lantern_10_128
+	morrowind.esm       NPC_    ababael timsar-dadisun
+	morrowind.esm       NPC_    alvis teri
+	morrowind.esm       NPC_    dather manel
+	morrowind.esm       NPC_    dulnea ralaal
+	morrowind.esm       NPC_    lette
+	morrowind.esm       NPC_    menelras
+	morrowind.esm       NPC_    volene llervu
+	morrowind.esm       PGRD    balmora, eight plates
+	tamriel_data.esm    DIAL    greeting 3
+	tribunal.esm        NPC_    granny varis
+
+[MOD-INF]: ID=1379208962960222606(Topic:founder's helm)
+  morrowind.esm--------------------------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:Fine. Take the stupid helm. Just like the Redorans to send a girl to do a man's job.|SCVR:01440|INTV:|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50
+  Animated_Morrowind - merged - OpenMW_2426162967.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:You want a.... helm, prretty girl? Alvis has a sshpecial treat.... yes, very sshecret, just between us.|SCVR:01440|INTV:|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50
+
+[MOD-INF]: ID=16951265192546817007(Topic:founder's helm)
+  morrowind.esm--------------------------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:I don't think so. I like the way it fits.
+  Animated_Morrowind - merged - OpenMW_2426162967.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:My head......(Alvis groans and lurches violently to one side)
+
+[MOD-INF]: ID=21216156192437416722(Topic:founder's helm)
+  morrowind.esm--------------------------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:I stole it fair and square.
+  Animated_Morrowind - merged - OpenMW_2426162967.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:I.... sshtole it... fair and square. Didn't I?
+
+[MOD-INF]: ID=22310236883224415224(Topic:founder's helm)
+  morrowind.esm--------------------------------------->|DATA|ONAM:alvis teri|NAME:I gave you the helm so just shut up about it. Go away.|SCVR:34JX3HR_FoundersHelm|INTV:2
+  Animated_Morrowind - merged - OpenMW_2426162967.esp->|DATA|ONAM:alvis teri|NAME:(Alvis makes a gargling sound. You suspect he is retching inside his helmet.)|SCVR:34JX3HR_FoundersHelm|INTV:2
+
+[MOD-INF]: ID=27798215811479714359(Topic:founder's helm)
+  morrowind.esm--------------------------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:Fine. Take the stupid helm. But you're a momma's boy and so is your stupid Founder.|SCVR:01440|INTV|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50
+  Animated_Morrowind - merged - OpenMW_2426162967.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:Fine, fine! Just sshtop talking, my head.... my head hurts so bad.....|SCVR:01440|INTV|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50

@@ -1,0 +1,24 @@
+JMK-Inner_Depths-4_.esp: AUTOSPL DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	jmkid4delynstatty              St. Delyn's Blessing
+	jmkid4sheogomad                Sheogorath's Insanity
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKID4BlueCryssy)
+	SCPT(JMKID4BreastTrap)
+	SCPT(JMKID4DaeDoorChk)
+	SCPT(JMKID4DelynBless)
+	SCPT(JMKID4DwemerTrapDoor)
+	SCPT(JMKID4GateCheck)
+	SCPT(JMKID4JebbyScript)
+	SCPT(JMKID4RedCryssy)
+	SCPT(JMKID4SheogBless)
+	SCPT(JMKID4UrnSummon)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=2881991314324159(Greeting:greeting 5)
+  |DATA|ONAM:Fjol|NAME:Greetings. You should take care while in these parts. There are murderous outlaws about. No telling what might happen to an unwary traveler.|SCVR:04JX5MV_Bastard|INTV: 
+
+[DUP-INF]: ID=10575313451653717284(Greeting:greeting 5)
+  |DATA|ONAM:bashuk gra-bat|NAME:You gonna go give him that note or what? He can't hide forever! Go on!|SCVR:05IX3bk_notefrombashuk|INTV

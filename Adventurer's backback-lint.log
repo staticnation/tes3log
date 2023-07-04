@@ -1,0 +1,28 @@
+Adventurer's backback.ESP: DUP-REC MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tribunal.esm                 4565578 (plugin)    4565686 (installed size)
+	Bloodmoon.esm                9631726 (plugin)    9631798 (installed size)
+	Wares-base.esm                102158 (plugin)      82499 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(A_BedRoll_Script)
+	SCPT(BN_BedrollPackedScript)
+	SCPT(BN_TentPackedScript)
+	SCPT(NOM_bedroll)
+	SCPT(NOM_firekit)
+	SCPT(NOM_frying)
+	SCPT(a_crafting)
+	SCPT(a_drop_covered_bedroll)
+	SCPT(a_fire_kit_script)
+	SCPT(aa_backpack_comp_script)
+	SCPT(aa_backpack_script)
+	SCPT(aa_backpack_script_BN)
+	SCPT(aa_backpack_script_FW)
+	SCPT(aa_backpack_script_IAN)
+	SCPT(aa_backpack_script_NOM)
+	SCPT(aa_bpackchoice01)
+	SCPT(aa_bpackchoice02)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    blades trainers
+	wares-base.esm      LEVI    aa_backpack_list
+	wares-base.esm      LEVI    aa_trader_misc

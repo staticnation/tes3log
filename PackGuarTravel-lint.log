@@ -1,0 +1,12 @@
+PackGuarTravel.ESP: DUP-REC MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (101) != Actual count (26)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       STAT    furn_guarcart00
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=496627295199233926(Topic:my trade)
+  tribunal.esm------->|DATA|NAME:We are the Ashlander witch-warriors, women who defy the man's rules of behavior for women, mastering the man's weapons of war and the sorcerer's powerful magics. Craven men whine that we steal their vital essences to feed our dark purposes. But men are fools and cowards. Only women can understand the secrets of the ghost snake and its hidden mysteries that make men tremble like maidens.|SCVR:0CsX0NoLore|INTV:
+  PackGuarTravel.ESP->|DATA|CNAM|PGTClass|NAME:I am a Guar leader. We travel short distances with our pack guars, mostly transporting goods. However we sometimes transport people on our carts or even our pack guars themselves.

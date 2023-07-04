@@ -1,0 +1,23 @@
+The Ebony Blade.ESP: DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             7824672 (plugin)   11064795 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DaedraMephala)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    grandmaster
+	morrowind.esm       NPC_    eno hlaalu
+	tribunal.esm        DIAL    da_mephala
+	tribunal.esm        DIAL    mt_grandmaster
+
+[MOD-INF]: ID=2124160673266220521(Journal:da_mephala)
+  tribunal.esm-------->|DATA|NAME:I've returned to the Mephala Shrine. Upon arriving, the Daedra spoke to me, and was pleased with what I had done. As a reward, I was given the Ring of Khajiit. It seems a powerful artifact, and well suited for the Morag Tong.|QSTF
+  The Ebony Blade.ESP->|DATA|NAME:I've returned to the Mephala Shrine. Upon arriving, the Daedra spoke to me, and was pleased with what I had done. As a reward, I was given the Ebony Blade. It seems a powerful artifact, and well suited for the Morag Tong.|QSTF
+
+[MOD-INF]: ID=6396188222377024696(Journal:mt_grandmaster)
+  tribunal.esm-------->|DATA|NAME:Grandmaster Eno Hlaalu thanked me for allowing him to retire. I am the new Grandmaster of the Morag Tong.|QSTF
+  The Ebony Blade.ESP->|DATA|NAME:Grandmaster Eno Hlaalu thanked me and gave me the Ring of Khajiit for allowing him to retire. I am the new Grandmaster of the Morag Tong.|QSTF
+
+[MOD-INF]: ID=20465231451806230869(Topic:grandmaster)
+  morrowind.esm------->|DATA|ONAM:eno hlaalu|NAME:So be it. I will leave here soon. You are the new Grandmaster of the Morag Tong. Always watch for the Dark Brotherhood, for I am sure they will soon try to regain what you have taken from them here.|SCVR:01500|INTV|BNAM:Journal MT_Grandmaster 110  PCRaiseRank  Player->ModReputation 3
+  The Ebony Blade.ESP->|DATA|ONAM:eno hlaalu|NAME:So be it. I will leave here soon. You are the new Grandmaster of the Morag Tong. Always watch for the Dark Brotherhood, for I am sure they will soon try to regain what you have taken from them here. Oh, and take this ring; I got it from Mephala herself and I won't have any need for it anymore.|SCVR:01500|INTV|BNAM:Journal MT_Grandmaster 110  PCRaiseRank  Player->ModReputation 3  Player->additem "ring_khajiit_unique" 1

@@ -1,0 +1,29 @@
+sm_mt_armor_eng.esp: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MT_AddPCArmor_Script)
+	SCPT(MT_ClosedHelmet_script)
+	SCPT(MT_OpenHelmet_Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    join the morag tong
+	morrowind.esm       NPC_    alven salas
+	morrowind.esm       NPC_    angahran
+	morrowind.esm       NPC_    arsyn salas
+	morrowind.esm       NPC_    dunsalipal dun-ahhe
+	morrowind.esm       NPC_    eno hlaalu
+	morrowind.esm       NPC_    gilyan sedas
+	morrowind.esm       NPC_    gluronk gra-shula
+	morrowind.esm       NPC_    gragus lleran
+	morrowind.esm       NPC_    minnibi selkin-adda
+	morrowind.esm       NPC_    nachael
+	morrowind.esm       NPC_    namanian facian
+	morrowind.esm       NPC_    rogdul gro-bularz
+	morrowind.esm       NPC_    serul dathren
+	morrowind.esm       NPC_    shannat pansamsi
+	morrowind.esm       NPC_    taros dral
+	morrowind.esm       NPC_    ulmesi baryon
+	morrowind.esm       NPC_    vaveli dralas
+
+[MOD-INF]: ID=1709420591376330367(Topic:join the morag tong)
+  morrowind.esm------->|DATA|ONAM:eno hlaalu|NAME:Feruren Oran is dead? Then welcome %PCName, to the Morag Tong. Any Master of the Morag Tong can tell you what writs are available and weather you are a candidate for advancement. When you have proven yourself, I will have special duties for you.|SCVR:16DX3feruren oran|INTV|SCVR:34JX3MT_WritOran|INTV: |BNAM:Journal MT_WritOran 100  StartScript TopicsWebspinner
+  sm_mt_armor_eng.esp->|DATA|ONAM:eno hlaalu|NAME:Feruren Oran is dead? Then welcome %PCName, to the Morag Tong. Any Master of the Morag Tong can tell you what writs are available and weather you are a candidate for advancement. When you have proven yourself, I will have special duties for you.|SCVR:16DX3feruren oran|INTV|SCVR:34JX3MT_WritOran|INTV: |BNAM:Journal MT_WritOran 100  StartScript TopicsWebspinner  StartScript MT_AddPCArmor_Script

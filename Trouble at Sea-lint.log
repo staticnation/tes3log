@@ -1,0 +1,41 @@
+Trouble at Sea.esp: DUP-INF DUP-REC EXP-DEP MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (352) != Actual count (280)
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(TS_beacon_remove)               placeitemcell
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(TS_Waypoint_1_script)
+	SCPT(TS_Waypoint_1a_script)
+	SCPT(TS_barrel_beacon)
+	SCPT(TS_beacon_remove)
+	SCPT(TS_boulder_script)
+	SCPT(TS_crate_skooma_script)
+	SCPT(TS_distance_return_script)
+	SCPT(TS_door_script)
+	SCPT(TS_fire_script)
+	SCPT(TS_guard_move)
+	SCPT(TS_healme_script)
+	SCPT(TS_mushroom_journal)
+	SCPT(TS_remove_skooma)
+	SCPT(TS_return_rope)
+	SCPT(TS_skooma_sortout)
+	SCPT(TS_steer_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    skooma
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    someone in particular
+
+[DUP-INF]: ID=22181768139641505(Topic:go free)
+  |DATA|ONAM:hides_his_foot|NAME:Go free? No, I am old and could not make it on my own.
+
+[DUP-INF]: ID=174264622797529038(Greeting:greeting 1)
+  |DATA|ONAM:tul|NAME:Here our journey ends, %PCRace. For bringing me to this place, I thank you. It has been a thorn in the side of the Camonna Tong for too long, too long. Be on your way, outlander, or with this Redguard, you will die. That is the choice I give you.|SCVR:04JX0MV_FakeSlave|INTV:<
+
+[DUP-INF]: ID=520421455239399130(Topic:go free)
+  |DATA|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=16325102782849326701(Topic:latest rumors)
+  |DATA|FNAM:Ashlanders|NAME:The skies are clear all over Morrowind? Even on Red Mountain? I cannot believe it.|SCVR:14JX3C3_DestroyDagoth|INTV:2

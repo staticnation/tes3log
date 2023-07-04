@@ -1,0 +1,594 @@
+RV EcoAdj Crime_2539087798.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BILL_MT_calc_legit_kills)
+	SCPT(BILL_MT_redeem_writs)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       GLOB    crimegolddiscount
+	morrowind.esm       GLOB    crimegoldturnin
+	morrowind.esm       GLOB    mt_newcrimelevel
+	morrowind.esm       GMST    fcrimegolddiscountmult
+	morrowind.esm       GMST    fcrimestealing
+	morrowind.esm       GMST    icrimeattack
+	morrowind.esm       GMST    icrimekilling
+	morrowind.esm       GMST    icrimepickpocket
+	morrowind.esm       GMST    icrimethreshold
+	morrowind.esm       GMST    icrimetresspass
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    hello
+
+[MOD-INF]: ID=4807569499128243(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM019.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM019.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=7856665937578052(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM105.mp3|NAME:Trouble surrounds you. I think we should not be seen together.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM105.mp3|NAME:Trouble surrounds you. I think we should not be seen together.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=9968690113263650(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF019.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF019.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=10892597398701449(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Morag Tong|NAME:If you have been seen carrying out the Morag Tong's orders, you should speak with a guard and present your writs. Your crimes will be cleared.|SCVR:01433|INTV|SCVR:11460|INTV
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Morag Tong|NAME:If you have been seen carrying out the Morag Tong's orders, you should speak with a guard and present your writs. Your crimes will be cleared.|SCVR:01433|INTV|SCVR:11460|INTV
+
+[MOD-INF]: ID=12651410050793764(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:Vo\b\f\Hlo_BF020.mp3|NAME:I don't socialize with thieves. Good day.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:Vo\b\f\Hlo_BF020.mp3|NAME:I don't socialize with thieves. Good day.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=13465642775431335(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM063.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM063.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=14694273568753152(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM106.mp3|NAME:I know of your taste for crime. Be warned.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM106.mp3|NAME:I know of your taste for crime. Be warned.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=17094568397801406(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF165.mp3|NAME:There are better ways than theft to earn a coin, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF165.mp3|NAME:There are better ways than theft to earn a coin, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=17772755227103419(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Ashlanders|NAME:You are a notorious outlaw among your people. That means nothing to us. We know killing very well. But you walk a thin line with us, outlander. So walk very carefully.|SCVR:01433|INTV|BNAM:;Ashlanders; ;PCCrime >=1000;   ModDisposition -10
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Ashlanders|NAME:You are a notorious outlaw among your people. That means nothing to us. We know killing very well. But you walk a thin line with us, outlander. So walk very carefully.|SCVR:01433|INTV|BNAM:;Ashlanders; ;PCCrime >=1000;   ModDisposition -10
+
+[MOD-INF]: ID=19360860753619013(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF046.mp3|NAME:You're too much trouble. Move on.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF046.mp3|NAME:You're too much trouble. Move on.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=20012122119862152(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM019.mp3|NAME:Petty thieves aren't on my guest list. Get lost.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM019.mp3|NAME:Petty thieves aren't on my guest list. Get lost.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=21869591358823837(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM105.mp3|NAME:You're quite notorious, I'm not sure I should be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM105.mp3|NAME:You're quite notorious, I'm not sure I should be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=23426492170581113(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF046.mp3|NAME:We cut off the hand that steals. Know this, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF046.mp3|NAME:We cut off the hand that steals. Know this, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=23639204752291093(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF106.mp3|NAME:You are too easily caught.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF106.mp3|NAME:You are too easily caught.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=28747795748431438(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Fighters Guild|NAME:With such a high price on your head, everyone assumes you are a murderer. I don't know the details, and don't want to know. But %Faction won't be pleased. We're judged by your actions, and we don't need thugs like you getting us a reputation as murderers.|SCVR:01433|INTV|BNAM:;Hlaalu, Thieves Guild; Fighters Guild; PCCrime >=1000;   ModDisposition -10
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Fighters Guild|NAME:With such a high price on your head, everyone assumes you are a murderer. I don't know the details, and don't want to know. But %Faction won't be pleased. We're judged by your actions, and we don't need thugs like you getting us a reputation as murderers.|SCVR:01433|INTV|BNAM:;Hlaalu, Thieves Guild; Fighters Guild; PCCrime >=1000;   ModDisposition -10
+
+[MOD-INF]: ID=29740926543638194(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF105.mp3|NAME:Your crimes are known to us. Perhaps you should leave.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000;
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF105.mp3|NAME:Your crimes are known to us. Perhaps you should leave.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000;
+
+[MOD-INF]: ID=45330817173794249(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF105.mp3|NAME:You've made quite a name for yourself. I don't know if we should be talking.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF105.mp3|NAME:You've made quite a name for yourself. I don't know if we should be talking.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=55174483241332445(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM106.mp3|NAME:I won't tolerate any thievery if that's what you're thinking.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM106.mp3|NAME:I won't tolerate any thievery if that's what you're thinking.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=58028831233554797(Greeting:greeting 0)
+  morrowind.esm------------------>|DATA|CNAM:Guard|NAME:You've earned a death warrant for your crimes, outlaw. May the gods have mercy upon your soul.|SCVR:01433|INTV|BNAM:SetDisposition 0  SetFight 100  StartCombat Player  Goodbye
+  RV EcoAdj Crime_2539087798.esp->|DATA|CNAM:Guard|NAME:You've earned a death warrant for your crimes, outlaw. May the gods have mercy upon your soul.|SCVR:01433|INTV|BNAM:;SetDisposition 0  ;SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=62773153919433452(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Mages Guild|NAME:What are you? A savage barbarian? The Mages Guild is a civilized society of scholars, not a dark coven of necromancers and outlaws. We are very disappointed in you. Either you clear your name of these crimes, or pay your debt to society, or we will have to deny you shelter or services.|SCVR:01433|INTV|BNAM:; Mages Guild; PCCrime >=1000;  ModDisposition -20
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Mages Guild|NAME:What are you? A savage barbarian? The Mages Guild is a civilized society of scholars, not a dark coven of necromancers and outlaws. We are very disappointed in you. Either you clear your name of these crimes, or pay your debt to society, or we will have to deny you shelter or services.|SCVR:01433|INTV|BNAM:; Mages Guild; PCCrime >=1000;  ModDisposition -20
+
+[MOD-INF]: ID=64262202887432566(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF019.mp3|NAME:They should hang the lot of you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF019.mp3|NAME:They should hang the lot of you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=79162379514454044(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF070.mp3|NAME:Don't try anything funny.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF070.mp3|NAME:Don't try anything funny.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=96122919404920193(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Temple|NAME:We will have nothing to do with a notorious outlaw. Until you have cleared your name, or paid your debt to society, don't talk to us.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Temple|NAME:We will have nothing to do with a notorious outlaw. Until you have cleared your name, or paid your debt to society, don't talk to us.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+
+[MOD-INF]: ID=98266831758322239(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM019.mp3|NAME:You prey on the weak. There is no honor in this.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM019.mp3|NAME:You prey on the weak. There is no honor in this.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=135638152896610022(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM046.mp3|NAME:Crime doesn't suit you, friend.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM046.mp3|NAME:Crime doesn't suit you, friend.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=145229042245307477(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM047.mp3|NAME:I don't think you can be trusted.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM047.mp3|NAME:I don't think you can be trusted.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=159243643300279189(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF019.mp3|NAME:You prey on the weak. There is no honor in this.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF019.mp3|NAME:You prey on the weak. There is no honor in this.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=180509829735226082(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF018.mp3|NAME:Get away, criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF018.mp3|NAME:Get away, criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=184873177552429220(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM064.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM064.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=212403159750086488(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM046.mp3|NAME:I don't associate with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM046.mp3|NAME:I don't associate with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=214771514161046015(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF106.mp3|NAME:You make a name for yourself, criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF106.mp3|NAME:You make a name for yourself, criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=216395382804324739(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM045.mp3|NAME:You bring danger with you. We should not talk.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM045.mp3|NAME:You bring danger with you. We should not talk.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=226261939522032155(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM105.mp3|NAME:I've heard of your crimes. Maybe you should talk to someone else.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM105.mp3|NAME:I've heard of your crimes. Maybe you should talk to someone else.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=232803165253426060(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF019.mp3|NAME:You hardly seem worth the trouble, criminal.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF019.mp3|NAME:You hardly seem worth the trouble, criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=234062858210319067(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|NAME:I know you. You're %PCName. The notorious outlaw.... Let me outta here.|SCVR:01433|INTV|SCVR:11615|INTV|SCVR:28FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;   ModFlee 100  ModDisposition -30
+  RV EcoAdj Crime_2539087798.esp->|DATA|NAME:I know you. You're %PCName. The notorious outlaw.... Let me outta here.|SCVR:01433|INTV|SCVR:11615|INTV|SCVR:28FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;   ModFlee 100  ModDisposition -30
+
+[MOD-INF]: ID=235473113517332631(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM018.mp3|NAME:Avoid the guards, thief, and you might live til tommorrow.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM018.mp3|NAME:Avoid the guards, thief, and you might live til tommorrow.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=250521547016951079(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM046.mp3|NAME:I don't consort with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM046.mp3|NAME:I don't consort with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=260449253189130915(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM018.mp3|NAME:I can see you'll bring a lot of trouble. Go away.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM018.mp3|NAME:I can see you'll bring a lot of trouble. Go away.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=275115202623629008(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF063.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF063.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=287852205820437635(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF006.mp3|NAME:What a pathetic excuse for a criminal.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF006.mp3|NAME:What a pathetic excuse for a criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=294672147258421458(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM018.mp3|NAME:Get away, criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM018.mp3|NAME:Get away, criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=295937765471428980(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM019.mp3|NAME:They should hang the lot of you.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM019.mp3|NAME:They should hang the lot of you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=511813397160725122(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF018.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF018.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=610058841409012606(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM046.mp3|NAME:You're too much trouble. Move on.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM046.mp3|NAME:You're too much trouble. Move on.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=727018341610727066(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF005.mp3|NAME:Vile criminal. Get away from me.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF005.mp3|NAME:Vile criminal. Get away from me.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=918184162430515996(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF019.mp3|NAME:I sense great hostility -- mine.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF019.mp3|NAME:I sense great hostility -- mine.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=929199051420129252(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF126.mp3|NAME:I've heard of your crimes. You should watch your step.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF126.mp3|NAME:I've heard of your crimes. You should watch your step.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=957482611817825802(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM018.mp3|NAME:You bloody thieves are all the same. Worthless.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM018.mp3|NAME:You bloody thieves are all the same. Worthless.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=1134345791055217599(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF047.mp3|NAME:Keep your hands where I can see them, thief.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF047.mp3|NAME:Keep your hands where I can see them, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=1175934981399817532(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM019.mp3|NAME:You're a disgrace.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM019.mp3|NAME:You're a disgrace.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=1220925689207522757(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM046.mp3|NAME:Khajiit do not steal... and get caught.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM046.mp3|NAME:Khajiit do not steal... and get caught.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=1258572691525916804(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:Vo\o\f\Hlo_OF046.mp3|NAME:We cut off the hand that steals. Know this, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:Vo\o\f\Hlo_OF046.mp3|NAME:We cut off the hand that steals. Know this, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=1289528971268912174(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM046.mp3|NAME:The laws are harsh for thieves. Including yourself.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM046.mp3|NAME:The laws are harsh for thieves. Including yourself.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=1325813489292264986(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF053.mp3|NAME:I see you favor a little crime. Hmm. Perhaps I should let the authorities know.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF053.mp3|NAME:I see you favor a little crime. Hmm. Perhaps I should let the authorities know.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=1350744191754930600(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF018.mp3|NAME:You're a walking crimewave. Get away from me.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF018.mp3|NAME:You're a walking crimewave. Get away from me.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=1401011972212414346(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM045.mp3|NAME:Khajiit do not murder... and get caught.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM045.mp3|NAME:Khajiit do not murder... and get caught.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=1405623581293053334(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM018.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM018.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=1462214961303712429(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF064.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF064.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=1619532525284326607(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF069.mp3|NAME:I'm not sure if I should be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF069.mp3|NAME:I'm not sure if I should be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=1644922168957813128(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM105.mp3|NAME:You've made quite a name for yourself. I don't know if we should be talking.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM105.mp3|NAME:You've made quite a name for yourself. I don't know if we should be talking.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=1658326124240134650(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF046.mp3|NAME:The laws are harsh for thieves. You'd be wise to leave me alone.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF046.mp3|NAME:The laws are harsh for thieves. You'd be wise to leave me alone.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=1761623156148938047(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF047.mp3|NAME:I don't associate with criminals.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF047.mp3|NAME:I don't associate with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=1829420179119584061(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM106.mp3|NAME:You might consider a less hazardous profession, thief.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM106.mp3|NAME:You might consider a less hazardous profession, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=1883429165142575421(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM047.mp3|NAME:I've got no patience for petty criminals. Move on.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM047.mp3|NAME:I've got no patience for petty criminals. Move on.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=1978614598308081579(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM107.mp3|NAME:Your crimes are known to us.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM107.mp3|NAME:Your crimes are known to us.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=2020327851523129398(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF105.mp3|NAME:Trouble surrounds you. I think we should not be seen together.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF105.mp3|NAME:Trouble surrounds you. I think we should not be seen together.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=2118970791704128723(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Redoran|NAME:We will have nothing to do with a notorious outlaw. Until you have cleared your name, or paid your debt to society, don't talk to us.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Redoran|NAME:We will have nothing to do with a notorious outlaw. Until you have cleared your name, or paid your debt to society, don't talk to us.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+
+[MOD-INF]: ID=2142238361497612558(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM127.mp3|NAME:Greetings. Just keep your hands out of my purse, I know what you're up to.|SCVR:01433|INTV:d
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM127.mp3|NAME:Greetings. Just keep your hands out of my purse, I know what you're up to.|SCVR:01433|INTV
+
+[MOD-INF]: ID=2218325766105547705(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:Vo\k\m\Hlo_KM019.mp3|NAME:You are trouble. Khajiit know this.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:Vo\k\m\Hlo_KM019.mp3|NAME:You are trouble. Khajiit know this.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=2220428641184757927(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM047.mp3|NAME:You prey on the weak. There is no honor in this.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM047.mp3|NAME:You prey on the weak. There is no honor in this.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=2268730554112539033(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|FNAM|FFFF|SNAM:Vo\i\m\Hlo_IM053.mp3|NAME:I see you favor a little crime. Hmm, perhaps I should let the authorities know.|SCVR:01433|INTV:d
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|FNAM|FFFF|SNAM:Vo\i\m\Hlo_IM053.mp3|NAME:I see you favor a little crime. Hmm, perhaps I should let the authorities know.|SCVR:01433|INTV
+
+[MOD-INF]: ID=2281243721598832600(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF047.mp3|NAME:You prey on the weak. There is no honor in this.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF047.mp3|NAME:You prey on the weak. There is no honor in this.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=2398012492203493483(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM019.mp3|NAME:Petty thieves aren't worth talking to. Good day.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM019.mp3|NAME:Petty thieves aren't worth talking to. Good day.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=2400726498161771165(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF164.mp3|NAME:I find your crimes distasteful, outlander. Perhaps you should leave.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF164.mp3|NAME:I find your crimes distasteful, outlander. Perhaps you should leave.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=2416218459903226761(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF047.mp3|NAME:If you value your freedom you'll mend your ways, thief.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF047.mp3|NAME:If you value your freedom you'll mend your ways, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=2417221022352131888(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF046.mp3|NAME:Crime doesn't suit you, friend.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF046.mp3|NAME:Crime doesn't suit you, friend.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=2487219107717122917(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|FNAM:Fighters Guild|NAME:With such a high price on your head, everyone assumes you are a murderer. %Name don't know the details, and don't want to know. But %Faction won't be pleased. We're judged by your actions, and we don't need thugs like you getting us a reputation as murderers.|SCVR:01433|INTV|BNAM:;Hlaalu, Thieves Guild; Fighters Guild; PCCrime >=1000;   ModDisposition -10
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|FNAM:Fighters Guild|NAME:With such a high price on your head, everyone assumes you are a murderer. %Name don't know the details, and don't want to know. But %Faction won't be pleased. We're judged by your actions, and we don't need thugs like you getting us a reputation as murderers.|SCVR:01433|INTV|BNAM:;Hlaalu, Thieves Guild; Fighters Guild; PCCrime >=1000;   ModDisposition -10
+
+[MOD-INF]: ID=2512820593304778209(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF046.mp3|NAME:I don't want any part of this. Whatever it is.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF046.mp3|NAME:I don't want any part of this. Whatever it is.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=2591227408173299954(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM047.mp3|NAME:I don't associate with criminals.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM047.mp3|NAME:I don't associate with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=2605131512188323420(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Redoran|NAME:Personally, %PCName, I really respect you. But you are a notorious outlaw, and until you have cleared your name, or paid your debt to society, I will become increasingly reluctant to associate with you.|SCVR:01433|INTV|BNAM:;Redoran, Legion; Temple; Morag Tong; Census and Excise; Disposition 70; PCCrime >=1000;  ModDisposition -20
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Redoran|NAME:Personally, %PCName, I really respect you. But you are a notorious outlaw, and until you have cleared your name, or paid your debt to society, I will become increasingly reluctant to associate with you.|SCVR:01433|INTV|BNAM:;Redoran, Legion; Temple; Morag Tong; Census and Excise; Disposition 70; PCCrime >=1000;  ModDisposition -20
+
+[MOD-INF]: ID=2654439602245224760(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF046.mp3|NAME:I don't think we should be seen together.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF046.mp3|NAME:I don't think we should be seen together.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=2668319348285427694(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM126.mp3|NAME:I've heard of your crimes. You should watch your step.|SCVR:01433|INTV
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM126.mp3|NAME:I've heard of your crimes. You should watch your step.|SCVR:01433|INTV
+
+[MOD-INF]: ID=2689112858236774173(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Census and Excise|NAME:We will have nothing to do with a notorious outlaw. Until you have cleared your name, or paid your debt to society, don't talk to us.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Census and Excise|NAME:We will have nothing to do with a notorious outlaw. Until you have cleared your name, or paid your debt to society, don't talk to us.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+
+[MOD-INF]: ID=2713117172612110286(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Imperial Legion|NAME:We will have nothing to do with a notorious outlaw. Until you have cleared your name, or paid your debt to society, don't talk to us.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Imperial Legion|NAME:We will have nothing to do with a notorious outlaw. Until you have cleared your name, or paid your debt to society, don't talk to us.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+
+[MOD-INF]: ID=2935497152068432394(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF019.mp3|NAME:Petty thieves aren't on my guest list. Get lost.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF019.mp3|NAME:Petty thieves aren't on my guest list. Get lost.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=2970022611516814472(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF127.mp3|NAME:Just keep your hands of my purse, I know what you're up to.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF127.mp3|NAME:Just keep your hands of my purse, I know what you're up to.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=3134028020260168750(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Census and Excise|NAME:Personally, %PCName, I really respect you. But you are a notorious outlaw, and until you have cleared your name, or paid your debt to society, I will become increasingly reluctant to associate with you.|SCVR:01433|INTV|BNAM:;Redoran, Legion; Temple; Morag Tong; Census and Excise; Disposition 70; PCCrime >=1000;  ModDisposition -20
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Census and Excise|NAME:Personally, %PCName, I really respect you. But you are a notorious outlaw, and until you have cleared your name, or paid your debt to society, I will become increasingly reluctant to associate with you.|SCVR:01433|INTV|BNAM:;Redoran, Legion; Temple; Morag Tong; Census and Excise; Disposition 70; PCCrime >=1000;  ModDisposition -20
+
+[MOD-INF]: ID=3138821915607811304(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF019.mp3|NAME:You are trouble. Khajiit know this.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF019.mp3|NAME:You are trouble. Khajiit know this.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=3191229574352622206(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM046.mp3|NAME:I don't want any part of this. Whatever it is.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM046.mp3|NAME:I don't want any part of this. Whatever it is.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=3194815061658315470(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF047.mp3|NAME:I've got no patience for petty criminals. Move on.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF047.mp3|NAME:I've got no patience for petty criminals. Move on.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=3227219824225171598(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM106.mp3|NAME:You make a name for yourself, criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM106.mp3|NAME:You make a name for yourself, criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=3657304872951229124(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM106.mp3|NAME:You are too easily caught.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM106.mp3|NAME:You are too easily caught.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=3665238111141220321(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM052.mp3|NAME:You've got to be kidding. Everyone knows you're nothing but trouble.|SCVR:01433|INTV
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM052.mp3|NAME:You've got to be kidding. Everyone knows you're nothing but trouble.|SCVR:01433|INTV
+
+[MOD-INF]: ID=3808111752588121589(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF046.mp3|NAME:Khajiit do not steal... and get caught.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF046.mp3|NAME:Khajiit do not steal... and get caught.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=3827285623220426460(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM019.mp3|NAME:You hardly seem worth the trouble, criminal.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM019.mp3|NAME:You hardly seem worth the trouble, criminal.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=4721102351771416078(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF045.mp3|NAME:You bring danger with you. We should not talk.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF045.mp3|NAME:You bring danger with you. We should not talk.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=4726323112609921573(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM019.mp3|NAME:I sense great hostility -- mine.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM019.mp3|NAME:I sense great hostility -- mine.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=5811175371299318931(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF019.mp3|NAME:You're a disgrace.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF019.mp3|NAME:You're a disgrace.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=6175167642345230562(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF047.mp3|NAME:I don't think you can be trusted.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF047.mp3|NAME:I don't think you can be trusted.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=6246119692169527846(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF018.mp3|NAME:You bring danger. You should leave.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF018.mp3|NAME:You bring danger. You should leave.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=6455221362978917570(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM046.mp3|NAME:We cut of the hand that steals. Know this, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM046.mp3|NAME:We cut of the hand that steals. Know this, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=6827315902938912377(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM018.mp3|NAME:We cut of the hand that steals. Know this, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM018.mp3|NAME:We cut of the hand that steals. Know this, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=7324245462460320100(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF106.mp3|NAME:You would be wise to give up crime. It doesn't suit you.|SCVR:02sX3Random100|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF106.mp3|NAME:You would be wise to give up crime. It doesn't suit you.|SCVR:01430|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=8408233791909328993(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF105.mp3|NAME:I've heard of you. Maybe you should talk to someone else.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF105.mp3|NAME:I've heard of you. Maybe you should talk to someone else.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=9505200141496612963(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM164.mp3|NAME:I find your crimes distasteful, outlander. Perhaps you should leave.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM164.mp3|NAME:I find your crimes distasteful, outlander. Perhaps you should leave.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=9826104452295731815(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF018.mp3|NAME:Avoid the guards, thief, and you might live til tommorrow.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF018.mp3|NAME:Avoid the guards, thief, and you might live til tommorrow.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=10031110392089117292(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM018.mp3|NAME:You bring danger. You should leave.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM018.mp3|NAME:You bring danger. You should leave.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=10250111892567316092(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF106.mp3|NAME:Hmm. You're not here to start trouble, are you?|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF106.mp3|NAME:Hmm. You're not here to start trouble, are you?|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=11128184332371713781(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Telvanni|NAME:You have a price on your head. A very high price. Go see a guard and see your name is cleared. If you're going to be stupid, or careless, be prepared to pay the price.|SCVR:01433|INTV|BNAM:; Telvanni; PCCrime >=1000;
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Telvanni|NAME:You have a price on your head. A very high price. Go see a guard and see your name is cleared. If you're going to be stupid, or careless, be prepared to pay the price.|SCVR:01433|INTV|BNAM:; Telvanni; PCCrime >=1000;
+
+[MOD-INF]: ID=11339160892159422745(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Hlaalu|NAME:With such a high price on your head, everyone assumes you are a murderer. I don't know the details, and don't want to know. But %Faction won't be pleased. We're judged by your actions, and we don't need thugs like you getting us a reputation as murderers.|SCVR:01433|INTV|BNAM:;Hlaalu, Thieves Guild; Fighters Guild; PCCrime >=1000;   ModDisposition -10
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Hlaalu|NAME:With such a high price on your head, everyone assumes you are a murderer. I don't know the details, and don't want to know. But %Faction won't be pleased. We're judged by your actions, and we don't need thugs like you getting us a reputation as murderers.|SCVR:01433|INTV|BNAM:;Hlaalu, Thieves Guild; Fighters Guild; PCCrime >=1000;   ModDisposition -10
+
+[MOD-INF]: ID=11977190643172824946(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM018.mp3|NAME:I do not wish to consort with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM018.mp3|NAME:I do not wish to consort with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=12560149042482210158(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Morag Tong|NAME:The Morag Tong does not respect those who debase the sacred art of murder.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Morag Tong|NAME:The Morag Tong does not respect those who debase the sacred art of murder.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+
+[MOD-INF]: ID=13510314842227028387(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM165.mp3|NAME:There are better ways than theft to earn a coin, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM165.mp3|NAME:There are better ways than theft to earn a coin, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=13666162131264821855(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Temple|NAME:Personally, %PCName, I really respect you. But you are a notorious outlaw, and until you have cleared your name, or paid your debt to society, I will become increasingly reluctant to associate with you.|SCVR:01433|INTV|BNAM:;Redoran, Legion; Temple; Morag Tong; Census and Excise; Disposition 70; PCCrime >=1000;  ModDisposition -20
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Temple|NAME:Personally, %PCName, I really respect you. But you are a notorious outlaw, and until you have cleared your name, or paid your debt to society, I will become increasingly reluctant to associate with you.|SCVR:01433|INTV|BNAM:;Redoran, Legion; Temple; Morag Tong; Census and Excise; Disposition 70; PCCrime >=1000;  ModDisposition -20
+
+[MOD-INF]: ID=13755195242855731538(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF106.mp3|NAME:You might consider a less hazardous profession, thief.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF106.mp3|NAME:You might consider a less hazardous profession, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=14064224683174427359(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Imperial Legion|NAME:Personally, %PCName, I really respect you. But you are a notorious outlaw, and until you have cleared your name, or paid your debt to society, I will become increasingly reluctant to associate with you.|SCVR:01433|INTV|BNAM:;Redoran, Legion; Temple; Morag Tong; Census and Excise; Disposition 70; PCCrime >=1000;  ModDisposition -20
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Imperial Legion|NAME:Personally, %PCName, I really respect you. But you are a notorious outlaw, and until you have cleared your name, or paid your debt to society, I will become increasingly reluctant to associate with you.|SCVR:01433|INTV|BNAM:;Redoran, Legion; Temple; Morag Tong; Census and Excise; Disposition 70; PCCrime >=1000;  ModDisposition -20
+
+[MOD-INF]: ID=14273326262665030879(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF046.mp3|NAME:I don't consort with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF046.mp3|NAME:I don't consort with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=15278102631861329342(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF107.mp3|NAME:Your crimes are known to us.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100; todd -- known pronounced 'know-un'
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF107.mp3|NAME:Your crimes are known to us.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100; todd -- known pronounced 'know-un'
+
+[MOD-INF]: ID=17311307841996924105(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF157.mp3|NAME:It's hard to believe that one can be so notorious and charming at the same time.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF157.mp3|NAME:It's hard to believe that one can be so notorious and charming at the same time.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=17584262311635512842(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM006.mp3|NAME:What a pathetic excuse for a criminal!|SCVR:01433|INTV:d
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM006.mp3|NAME:What a pathetic excuse for a criminal!|SCVR:01433|INTV
+
+[DUP-INF]: ID=17814103293101015617(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:Then pay with your blood, outlaw!|SCVR:01500|INTV|BNAM:;SetDisposition 0  ;commented out, should not fight here or set disp  ;SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=20090185371518611628(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF018.mp3|NAME:You bloody thieves are all the same. Worthless.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF018.mp3|NAME:You bloody thieves are all the same. Worthless.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=20426198213104028103(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM107.mp3|NAME:Your claws are sharp. You cut many purses.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM107.mp3|NAME:Your claws are sharp. You cut many purses.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=21160225191022830390(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM105.mp3|NAME:Your crimes are known to us. Perhaps you should leave.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM105.mp3|NAME:Your crimes are known to us. Perhaps you should leave.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=22287139623266315014(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM106.mp3|NAME:You would be wise to give up crime. It doesn't suit you.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM106.mp3|NAME:You would be wise to give up crime. It doesn't suit you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=24757150332648318318(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM106.mp3|NAME:Hello. Hmm. You're not here to start trouble, are you?|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM106.mp3|NAME:Hello. Hmm. You're not here to start trouble, are you?|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=24917280932530412711(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM105.mp3|NAME:You'd be wise to stay out of trouble, friend.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM105.mp3|NAME:You'd be wise to stay out of trouble, friend.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=25044215512484215955(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|FNAM:Mages Guild|NAME:What are you? A savage barbarian? The Mages Guild is a civilized society of scholars, not a dark coven of necromancers and outlaws. We are very disappointed in you. Either you clear your name of these crimes, or pay your debt to society, or we will have to deny you shelter or services.|SCVR:01433|INTV|BNAM:; Mages Guild; PCCrime >=1000;
+  RV EcoAdj Crime_2539087798.esp->|DATA|FNAM:Mages Guild|NAME:What are you? A savage barbarian? The Mages Guild is a civilized society of scholars, not a dark coven of necromancers and outlaws. We are very disappointed in you. Either you clear your name of these crimes, or pay your debt to society, or we will have to deny you shelter or services.|SCVR:01433|INTV|BNAM:; Mages Guild; PCCrime >=1000;
+
+[MOD-INF]: ID=25401106312916119510(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF017.mp3|NAME:Talk to you? You're a lot of trouble. Go away.|SCVR:01433|INTV|BNAM:;ClothingMod<=0
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF017.mp3|NAME:Talk to you? You're a lot of trouble. Go away.|SCVR:01433|INTV|BNAM:;ClothingMod<=0
+
+[MOD-INF]: ID=25565308491000422213(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|FNAM:Hlaalu|NAME:With such a high price on your head, everyone assumes you are a murderer. %Name don't know the details, and don't want to know. But %Faction won't be pleased. We're judged by your actions, and we don't need thugs like you getting us a reputation as murderers.|SCVR:01433|INTV|BNAM:;Hlaalu, Thieves Guild; Fighters Guild; PCCrime >=1000;   ModDisposition -10
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|FNAM:Hlaalu|NAME:With such a high price on your head, everyone assumes you are a murderer. %Name don't know the details, and don't want to know. But %Faction won't be pleased. We're judged by your actions, and we don't need thugs like you getting us a reputation as murderers.|SCVR:01433|INTV|BNAM:;Hlaalu, Thieves Guild; Fighters Guild; PCCrime >=1000;   ModDisposition -10
+
+[MOD-INF]: ID=25792325082521632533(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF052.mp3|NAME:You've got to be kidding. Everyone knows you're nothing but trouble.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF052.mp3|NAME:You've got to be kidding. Everyone knows you're nothing but trouble.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=26088221171563722505(Greeting:greeting 4)
+  morrowind.esm------------------>|DATA|NAME:I know you. You're %PCName, the notorious outlaw. Look. I don't want any trouble. But you're scaring me. And I can't think straight when I'm scared.|SCVR:01433|INTV|SCVR:18FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;
+  RV EcoAdj Crime_2539087798.esp->|DATA|NAME:I know you. You're %PCName, the notorious outlaw. Look. I don't want any trouble. But you're scaring me. And I can't think straight when I'm scared.|SCVR:01433|INTV|SCVR:18FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;
+
+[MOD-INF]: ID=26167158001569830616(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF045.mp3|NAME:Khajiit do not murder... and get caught.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF045.mp3|NAME:Khajiit do not murder... and get caught.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=26356265893066725393(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM047.mp3|NAME:Keep your hands where I can see them, thief.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM047.mp3|NAME:Keep your hands where I can see them, thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=26980149241696531431(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF105.mp3|NAME:There are many who don't appreciate your crimes.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF105.mp3|NAME:There are many who don't appreciate your crimes.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=27979272042603124910(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM047.mp3|NAME:If you value your freedom, you'll mend your ways thief.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM047.mp3|NAME:If you value your freedom, you'll mend your ways thief.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=28429283362639816260(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM005.mp3|NAME:Vile criminal! Get away from me!|SCVR:01433|INTV
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM005.mp3|NAME:Vile criminal! Get away from me!|SCVR:01433|INTV
+
+[MOD-INF]: ID=28553105861991622585(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Imperial|FNAM|FFFF|SNAM:Vo\i\m\Hlo_IM156.mp3|NAME:It's hard to believe one can be so notorious and charming at the same time.|SCVR:01433|INTV
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Imperial|FNAM|FFFF|SNAM:Vo\i\m\Hlo_IM156.mp3|NAME:It's hard to believe one can be so notorious and charming at the same time.|SCVR:01433|INTV
+
+[MOD-INF]: ID=28637176291788929543(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF106.mp3|NAME:I know of your taste for crime. Be warned.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF106.mp3|NAME:I know of your taste for crime. Be warned.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=28973189842167916187(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF106.mp3|NAME:Criminals should dealt with harshly, don't you think?|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF106.mp3|NAME:Criminals should dealt with harshly, don't you think?|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=30033120282055314738(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM106.mp3|NAME:Criminals should dealt with harshly, don't you think?|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM106.mp3|NAME:Criminals should dealt with harshly, don't you think?|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[MOD-INF]: ID=30567187842055623993(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF018.mp3|NAME:I do not wish to consort with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF018.mp3|NAME:I do not wish to consort with criminals.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=31352191933192826412(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM018.mp3|NAME:You're a walking crimewave. Get away from me.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM018.mp3|NAME:You're a walking crimewave. Get away from me.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[MOD-INF]: ID=31622301543031218297(Voice:hello)
+  morrowind.esm------------------>|DATA|RNAM:Khajiit|SNAM:Vo\k\f\Hlo_KF107.mp3|NAME:Your claws are sharp. You cut many purses.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=100
+  RV EcoAdj Crime_2539087798.esp->|DATA|RNAM:Khajiit|SNAM:Vo\k\f\Hlo_KF107.mp3|NAME:Your claws are sharp. You cut many purses.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100

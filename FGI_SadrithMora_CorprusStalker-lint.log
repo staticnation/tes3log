@@ -1,0 +1,24 @@
+FGI_SadrithMora_CorprusStalker.esp: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    corprus stalker
+
+[MOD-INF]: ID=9144905415397421(Topic:corprus stalker)
+  morrowind.esm---------------------->|DATA|ONAM:berwen|NAME:We were able to trap it upstairs, but no one wants to risk disease by getting close to it. Normally Master Aryon would take care of it, but he's been so busy recently. Please hurry. It's wrecking my shop!|SCVR:34JX0FG_CorprusStalker|INTV: |BNAM:Journal FG_CorprusStalker 30
+  FGI_SadrithMora_CorprusStalker.esp->|DATA|ONAM:berwen|NAME:The stalker went loose after the experiments of Mistress Dratha. We were able to trap it upstairs, but no one wants to risk disease by getting close to it. Normally Master Aryon would take care of it, but he's been so busy recently. Please hurry. It's wrecking my shop!|SCVR:34JX0FG_CorprusStalker|INTV: |BNAM:Journal FG_CorprusStalker 30
+
+[MOD-INF]: ID=425214413154137902(Topic:corprus stalker)
+  morrowind.esm---------------------->|DATA|ONAM:berwen|NAME:We were able to trap it upstairs, but no one wants to risk disease by getting close to it. Normally Master Aryon would take care of it, but he's been so busy recently. Are you saying that you're up to the challenge?|SCVR:34JX0FG_CorprusStalker|INTV:|BNAM:Choice "Yes, I am." 1, "No, sorry." 2
+  FGI_SadrithMora_CorprusStalker.esp->|DATA|ONAM:berwen|NAME:The stalker went loose after the experiments of Mistress Dratha. We were able to trap it upstairs, but no one wants to risk disease by getting close to it. Normally Master Aryon would take care of it, but he's been so busy recently. Are you saying that you're up to the challenge?|SCVR:34JX0FG_CorprusStalker|INTV:|BNAM:Choice "Yes, I am." 1, "No, sorry." 2
+
+[MOD-INF]: ID=1548825772284502192(Topic:corprus stalker)
+  morrowind.esm---------------------->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:You already killed that Corprus Stalker? Good work, %PCRank. Here's your 500 septims.|SCVR:34JX0FG_CorprusStalker|INTV:Z|SCVR:56DX0corprus_stalker_fgcs|INTV|BNAM:Journal FG_CorprusStalker 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+  FGI_SadrithMora_CorprusStalker.esp->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:You already killed that Corprus Stalker? The Telvanni are truly unpredictable in their way of life. Good work, %PCRank. Here's your 200 septims.|SCVR:02sX0FGI_CorprusStalkerFlag|INTV:|SCVR:34JX3FG_DissaplaMine|INTV:d|SCVR:56DX0corprus_stalker_fgcs|INTV|BNAM:Journal FG_CorprusStalker 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 200
+
+[MOD-INF]: ID=26737280952461529716(Topic:corprus stalker)
+  morrowind.esm---------------------->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:I heard you killed the Corprus Stalker in Tel Mora. Good work, %PCRank. Here's your 500 septims.|SCVR:56DX0corprus_stalker_fgcs|INTV|BNAM:Journal FG_CorprusStalker 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+  FGI_SadrithMora_CorprusStalker.esp->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:I heard you killed the Corprus Stalker in Tel Mora. The Telvanni are truly unpredictable in their way of life. Good work, %PCRank. Here's your 200 septims.|SCVR:04JX3FG_DissaplaMine|INTV:d|SCVR:56DX0corprus_stalker_fgcs|INTV|BNAM:Journal FG_CorprusStalker 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 200
+
+[MOD-INF]: ID=31540265352542315899(Topic:corprus stalker)
+  morrowind.esm---------------------->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Go to Tel Mora. The Corprus Stalker was trapped in Berwen the Trader's shop last I heard.|SCVR:34JX3FG_DissaplaMine|INTV:d|BNAM:Journal FG_CorprusStalker 10
+  FGI_SadrithMora_CorprusStalker.esp->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Go to Tel Mora. The Corprus Stalker was trapped in Berwen the Trader's shop last I heard.|SCVR:34JX3FG_DissaplaMine|INTV:d|BNAM:Journal FG_CorprusStalker 10  set FGI_CorprusStalkerFlag to 1  ShowMap "Tel Mora"

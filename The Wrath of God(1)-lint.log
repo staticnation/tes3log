@@ -1,0 +1,18 @@
+The Wrath of God(1).esp: DUP-REC MASTERS MENUMOD MISSVER OVR-REC SCRDOOR
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(no_escape)
+	SCPT(vivec_bossfight)
+	SCPT(vivecclone)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	in_velothismall_ndoor_01             no_escape
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    vivec_god
+	morrowind.esm       MGEF    10
+	tamriel_data.esm    ARMO    t_de_uni_vivecshield
+	tamriel_data.esm    ENCH    t_strike_muatra
+	tamriel_data.esm    ENCH    t_use_vivec_shield
+	tamriel_data.esm    WEAP    t_de_uni_muatra
+	tribunal.esm        DOOR    in_velothismall_ndoor_01

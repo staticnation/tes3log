@@ -1,0 +1,16 @@
+Continue Bal Molagmer After TG Questline (2).esp: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (10) != Actual count (9)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(staceyScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    gentleman jim stacey
+	morrowind.esm       DIAL    jobs
+
+[MOD-INF]: ID=214594804292603296(Topic:jobs)
+  morrowind.esm------------------------------------>|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:Actually, this is the final job I'll give you. Take care of the Guild. You've done great things, %PCName. With you here, I think it's safe for me to take a little vacation. Maybe go back to Hammerfell, see the old family. Until I get back, I'm leaving the Guild in your capable hands.|SCVR:34JX3TG_KillHardHeart|INTV:d|BNAM:PCRaiseRank
+  Continue Bal Molagmer After TG Questline (2).esp->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:Actually, this is the final job I'll give you. Take care of the Guild. You've done great things, %PCName. I'm leaving the Guild in your capable hands. With you here, I think it's safe for me to take a little vacation. Maybe go back to Hammerfell, see the old family. But before I go there, I have to remain here until we rekindle the fires of the Bal Molagmer.|SCVR:34JX3TG_KillHardHeart|INTV:d|BNAM:PCRaiseRank
+
+[MOD-INF]: ID=3015328287626727848(Topic:gentleman jim stacey)
+  morrowind.esm------------------------------------>|DATA|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:He's gone, %PCRank.
+  Continue Bal Molagmer After TG Questline (2).esp->|DATA|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:He's gone, %PCRank.|SCVR:02sX0balMolagmerDone|INTV

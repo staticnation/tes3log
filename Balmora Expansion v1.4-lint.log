@@ -1,0 +1,298 @@
+Balmora Expansion v1.4.esp: AUTOSPL DUP-INF DUP-REC FOGBUG GETSND MASTERS MENUMOD MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tribunal.esm                 4554200 (plugin)    4565686 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	_ar_crn_insanity               Insanity 
+	_ar_crn_elemental_storm        Elemental Storm
+	_ar_crn_acid_bath              Acid Bath
+    [FOGBUG]: Cells with zero fog density setting:
+	Balmora, Undercity
+	Balmora, Undercity Dark Club
+	Balmora, Zarkis' Special Goods
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(BE_GBG_lute1)
+	SCPT(BE_GongHit)
+	SCPT(ajrb_CalcArrows_GL)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BAR_PackGuar_scr)
+	SCPT(BAR_PackRat_scr)
+	SCPT(BE_FPcape_bk1st)
+	SCPT(BE_FPcape_bk1st2)
+	SCPT(BE_FPcape_re1st)
+	SCPT(BE_FPcape_re1st2)
+	SCPT(BE_GBG_drum1)
+	SCPT(BE_GBG_lute1)
+	SCPT(BE_IceBGWEHair4k1st)
+	SCPT(BE_IceBGWEHair4k1st2)
+	SCPT(BE_IceBGWEHair4r1st)
+	SCPT(BE_IceBGWEHair4r1st2)
+	SCPT(BE_IceBGWEhair5k1st)
+	SCPT(BE_IceBGWEhair5k1st2)
+	SCPT(BE_IceBGWEhair5r1st)
+	SCPT(BE_IceBGWEhair5r1st2)
+	SCPT(BE_IceFPBrHair03k1st)
+	SCPT(BE_IceFPBrHair03k1st2)
+	SCPT(BE_IceFPBrHair03r1st)
+	SCPT(BE_IceFPBrHair03r1st2)
+	SCPT(BE_IceFPHair11k1st)
+	SCPT(BE_IceFPHair11k1st2)
+	SCPT(BE_IceFPHair11r1st)
+	SCPT(BE_IceFPHair11r1st2)
+	SCPT(BE_IceFPHair14k1st)
+	SCPT(BE_IceFPHair14k1st2)
+	SCPT(BE_IceFPHair14r1st)
+	SCPT(BE_IceFPHair14r1st2)
+	SCPT(BE_IceFPMOBraidk1st)
+	SCPT(BE_IceFPMOBraidk1st2)
+	SCPT(BE_IceFPMOBraidr1st)
+	SCPT(BE_IceFPMOBraidr1st2)
+	SCPT(BE_IceFPNoHair05k1st)
+	SCPT(BE_IceFPNoHair05k1st2)
+	SCPT(BE_IceFPNoHair05r1st)
+	SCPT(BE_IceFPNoHair05r1st2)
+	SCPT(BE_IceGoldRobe1st)
+	SCPT(BE_IceGoldRobe1st2)
+	SCPT(BE_IceSnakeRobe1st)
+	SCPT(BE_IceSnakeRobe1st2)
+	SCPT(BE_IceWSatin1st)
+	SCPT(BE_IceWSatin1st2)
+	SCPT(BE_IceZebRobe1st)
+	SCPT(BE_IceZebRobe1st2)
+	SCPT(BE_LuckyBugger)
+	SCPT(BE_PocketWatch)
+	SCPT(BE_RopeScript)
+	SCPT(BE_Sound_Waterfall_Big)
+	SCPT(BE_YourPrize)
+	SCPT(BE_ZeRoDancingGirl)
+	SCPT(BE_ZeRoDrunk)
+	SCPT(BE_ZeRoDrunk1)
+	SCPT(BE_ZeRoNolore)
+	SCPT(BE_ZeroServantVampire)
+	SCPT(BE_bladeScript2)
+	SCPT(BE_bladeScript3)
+	SCPT(BE_bladeScript4)
+	SCPT(BE_busy)
+	SCPT(BE_daynight_outsidedoor_script)
+	SCPT(BE_j_band_billybob)
+	SCPT(BE_j_band_bodunk)
+	SCPT(BE_j_band_charles)
+	SCPT(BE_j_band_malamar)
+	SCPT(BE_j_maidscript)
+	SCPT(BE_j_moniah_father_script)
+	SCPT(BE_j_moniah_mother_script)
+	SCPT(BE_j_valerie_follow)
+	SCPT(BE_j_valerie_moniah)
+	SCPT(BE_lezring_betty)
+	SCPT(BE_lezring_lina)
+	SCPT(BE_lezring_naga)
+	SCPT(BE_lezring_wanda)
+	SCPT(BE_lovescript)
+	SCPT(BE_lovescript1)
+	SCPT(BE_lovescript2)
+	SCPT(BE_lovescript3)
+	SCPT(BE_lovescript_move)
+	SCPT(BE_manniquin)
+	SCPT(BE_meryntScript)
+	SCPT(BE_pantyscript)
+	SCPT(BE_returndancers)
+	SCPT(BE_rumors)
+	SCPT(BE_script_beddrollplace)
+	SCPT(BE_secret_passage)
+	SCPT(BE_sltw_PS_ensloScript)
+	SCPT(BE_sltw_PS_freakScript)
+	SCPT(BE_tavern_insidedoor_script)
+	SCPT(BE_tavern_outsidedoor_script)
+	SCPT(GBG_Remove_Sittingpants_03)
+	SCPT(GBG_Remove_Sittingpants_05)
+	SCPT(GBG_Remove_Sittingpants_14)
+	SCPT(GBG_Remove_Sittingpants_18)
+	SCPT(GBG_Remove_Sittingpants_21)
+	SCPT(GBG_Remove_Sittingpants_24)
+	SCPT(WI_make_Arrows1)
+	SCPT(WI_make_Bolts1)
+	SCPT(WI_make_PArrows1)
+	SCPT(WI_make_PBolts1)
+	SCPT(WI_make_RazorArrows1)
+	SCPT(WI_make_RazorBolts1)
+	SCPT(_ar_crn_drop_disabler)
+	SCPT(ajrb_CalcArrows_GL)
+	SCPT(ajrb_CalcFletcherArrows2_GL)
+	SCPT(ajrb_CalcFletcherArrows_GL)
+	SCPT(ajrb_QuiverSwitch_GL)
+	SCPT(dh_furn_AddTopics)
+	SCPT(dhcsr_furn_magicbox_02)
+	SCPT(dhscr_StartPlantCounter)
+	SCPT(dhscr_furn_magicbox_01)
+	SCPT(dhscr_furn_magicbox_03)
+	SCPT(dhscr_furn_magicbox_04)
+	SCPT(dhscr_furn_magicbox_05)
+	SCPT(dhscr_furn_magicbox_06)
+	SCPT(dhscr_furn_magicbox_07)
+	SCPT(dhscr_furn_magicbox_08)
+	SCPT(dhscr_furn_magicbox_09)
+	SCPT(dhscr_furn_magicbox_10)
+	SCPT(dhscr_furn_magicbox_old)
+	SCPT(dhscr_furn_plant_24)
+	SCPT(dhscr_furn_plant_25)
+	SCPT(dhscr_furn_plant_26)
+	SCPT(dhscr_furn_plant_27)
+	SCPT(dhscr_furn_plant_28)
+	SCPT(dhscr_furn_plant_29)
+	SCPT(dhscr_furn_plant_30)
+	SCPT(dhscr_furn_plant_31)
+	SCPT(dhscr_furn_plant_32)
+	SCPT(dhscr_furn_plant_33)
+	SCPT(dhscr_furn_plant_34)
+	SCPT(dhscr_furn_plant_35)
+	SCPT(dhscr_furn_plant_36)
+	SCPT(dhscr_furn_plant_37)
+	SCPT(dhscr_furn_plant_38)
+	SCPT(dhscr_furn_plant_39)
+	SCPT(dhscr_furn_plant_40)
+	SCPT(dhscr_furn_plant_41)
+	SCPT(dhscr_furn_plant_42)
+	SCPT(dhscr_furn_plant_43)
+	SCPT(dhscr_furn_plant_44)
+	SCPT(dhscr_furn_plant_45)
+	SCPT(dhscr_furn_plant_46)
+	SCPT(dhscr_furn_plant_47)
+	SCPT(dhscr_furn_plant_48)
+	SCPT(dhscr_furn_plant_49)
+	SCPT(dhscr_furn_plant_50)
+	SCPT(dhscr_furn_plant_51)
+	SCPT(farrp_AlchemyTip_exp)
+	SCPT(farrp_CalcAlchArrows1_GL)
+	SCPT(farrp_CalcAlchArrows2_GL)
+	SCPT(farrp_make_AlchArrows1)
+	SCPT(farrp_make_AlchBolts1)
+	SCPT(farrp_make_AlchemyTips1)
+	SCPT(gp_stonePlaceholder_a_f)
+	SCPT(gp_stonePlaceholder_a_m)
+	SCPT(gp_stonePlaceholder_e_f)
+	SCPT(gp_stonePlaceholder_e_m)
+	SCPT(gp_stonePlaceholder_f)
+	SCPT(gp_stonePlaceholder_k_f)
+	SCPT(gp_stonePlaceholder_k_m)
+	SCPT(gp_stonePlaceholder_m)
+	SCPT(gp_woodenPlaceholder_a_f)
+	SCPT(gp_woodenPlaceholder_a_m)
+	SCPT(gp_woodenPlaceholder_e_f)
+	SCPT(gp_woodenPlaceholder_e_m)
+	SCPT(gp_woodenPlaceholder_f)
+	SCPT(gp_woodenPlaceholder_k_f)
+	SCPT(gp_woodenPlaceholder_k_m)
+	SCPT(gp_woodenPlaceholder_m)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    wg_scrub plain
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    clothes
+	morrowind.esm       DIAL    enchantments
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    murderer's description
+	morrowind.esm       DIAL    ralen hlaalo
+	morrowind.esm       DIAL    shields
+	morrowind.esm       LAND    (-2, -1)
+	morrowind.esm       LAND    (-2, -2)
+	morrowind.esm       LAND    (-2, -3)
+	morrowind.esm       LAND    (-3, -1)
+	morrowind.esm       LAND    (-3, -2)
+	morrowind.esm       LAND    (-3, -3)
+	morrowind.esm       LAND    (-4, -1)
+	morrowind.esm       LAND    (-4, -2)
+	morrowind.esm       LAND    (-4, -3)
+	morrowind.esm       LAND    (-5, -1)
+	morrowind.esm       LEVI    l_m_potion
+	morrowind.esm       LEVI    random_loot_special_marksman
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rm_grayrock
+
+[MOD-INF]: ID=43631973834029895(Topic:my trade)
+  morrowind.esm-------------->|DATA|NAME:I'm a caravaner. I can transport you by silt strider to various destinations for a modest fee.|SCVR:0CsX0NoLore|INTV:|BNAM:;Caravaner; Destinations [like location infos], Silt Strider,
+  Balmora Expansion v1.4.esp->|DATA|ONAM|NAME:I'm a transport business director. Which means I own ships, silt striders, guar caravans and trade carts. I am in charge of most of the silt strider services here in Morrowind, although it is profitable, most of my income comes from shipping. The Empire's Trading Company has a monopoly on shipping to and from Cyrodiil province, but I make enough money shipping to the other provinces in Tamriel. Did you know that I have a monopoly on guar hide shipments out of Morrowind.|BNAM:;Caravaner; Destinations [like location infos], Silt Strider,
+
+[MOD-INF]: ID=50716010272305400(Greeting:greeting 1)
+  tribunal.esm--------------->|DATA|NAME:If you want a job here, you'll have to talk to Helviane. Excuse me.|SCVR:03sX0dancingGirl|INTV|SCVR:11440|INTV|BNAM:Goodbye
+  Balmora Expansion v1.4.esp->|DATA|ANAM:Balmora, Morgana's House of Earthly Delights|NAME:Excuse me, I'm working. Address any questions you might have to Morgana.|SCVR:03sX0dancingGirl|INTV|SCVR:11440|INTV|SCVR:22sX0BE_MakeLovePay|INTV:|BNAM:Goodbye
+
+[MOD-INF]: ID=311292777396029520(Topic:my trade)
+  morrowind.esm-------------->|DATA|CNAM:Trader Service|NAME:I am a trader, a general merchant. I buy and sell a little of everything -- weapons ,armor, clothes, books, miscellaneous items of all kinds. Take a look around; let me know what you want. Or if you have things you'd like to sell, let me take a look at them, and I'll give you a price.|SCVR:0CsX0NoLore|INTV:|BNAM:;Trader;
+  Balmora Expansion v1.4.esp->|DATA|ONAM:BE_falco_maximus|CNAM:Trader Service|NAME:I used to be a Marshall in the Imperial Knights, but I retired. By order of the Emperor, I now run this museum. I also manage the bar here and the oddities shop. I sell rare armour and weapons, however I must warn you the prices can be as exclusive as the merchandise. I also sell various special drinks at the bar.|SCVR:0CsX0NoLore|INTV:|BNAM:;Trader;
+
+[MOD-INF]: ID=939423851316845892(Topic:balmora)
+  morrowind.esm-------------->|DATA|ANAM:Balmora|NAME:Balmora is the Council Seat of Great House Hlaalu, and the largest town on Vvardenfell except for Vivec City. Located on the Odai River, and sitting astride the Ald'ruhn-Vivec road, Balmora is an important mercantile trade and travel center. High Town is the administrative center, with the Temple and manor houses. The shops, guilds, and tradehouses of the Commercial District are north of the river; Labor Town's modest cornerclubs and homes are south of the river.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap Balmora  ;Balmora
+  Balmora Expansion v1.4.esp->|DATA|ANAM:Balmora|NAME:Balmora is the Council Seat of Great House Hlaalu, and the largest town on Vvardenfell except for Vivec City. Located on the Odai River, and sitting astride the Ald'ruhn-Vivec road, Balmora is an important mercantile trade and travel center. High Town is the administrative center, with the Temple and manor houses. The shops, guilds, and trade houses of the Commercial District are north of the river; Labor Town's modest corner clubs and homes are south of the river. The Business District sets up on the hill.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap Balmora  ;Balmora
+
+[MOD-INF]: ID=1360165051119330796(Topic:specific place)
+  morrowind.esm-------------->|DATA|ANAM:Balmora|NAME|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;Balmora   Choice "Continue" 1
+  Balmora Expansion v1.4.esp->|DATA|ANAM:Balmora|NAME|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Balmora   Choice "Continue" 1
+
+[DUP-INF]: ID=1970915763165106390(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=3053416069775816458(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AiWander 0 0 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=11606108492451013071(Topic:my trade)
+  morrowind.esm-------------->|DATA|CNAM:Battlemage|NAME:I am a Battlemage. Though arrayed as a Western knight with heavy armor, axes and long blades, my primary training is in the College of Alteration, the College of Destruction, and the College of Conjuration. To round out my education, I have mastered enchantments and alchemy. Potions made through alchemy, or purchased from alchemists, grant me the magics of the Restoration, Mysticism, and Illusion Colleges. And can there be any more terrible master of the science of war than a battlemage? I think not.|SCVR:0CsX0NoLore|INTV:|BNAM:;Battlemage; Potions, Alchemy
+  Balmora Expansion v1.4.esp->|DATA|ONAM|BE_Star_caretaker|NAME:I started this museum after retiring from the life of adventure. I've always loved Morrowinds history, so I started this establishment to try and preserve some of its wonderful and mystifying history|SCVR:0CsX0NoLore|INTV:

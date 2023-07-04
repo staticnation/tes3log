@@ -1,0 +1,25 @@
+Thelas' Pillows Overhaul.ESP: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    pillow shipment
+	morrowind.esm       NPC_    drarayne thelas
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=1405027892721525098(Greeting:greeting 5)
+  |DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:I may have jobs for you, but you might be interested in something a bit different: the Bal Molagmer.|SCVR:06DX0salyn sarethi|INTV:|SCVR:34JX0TG_SS_Generosity1|INTV:
+
+[MOD-INF]: ID=1806026616964426083(Topic:pillow shipment)
+  morrowind.esm---------------->|DATA|ONAM:drarayne thelas|NAME:A shipwreck? That's horrible! Oh, all of those wonderful pillows.... Well, I thank you, %PCName. It is good to know what became of my shipment, though the loss of pillows saddens me. A few of those were stuffed with racer plumes. A real shame. Still, thank you for your help with this. Take this as a token of my appreciation. It has served me well.|SCVR:05IX2bk_pillowinvoice|INTV:|BNAM:Player->removeitem "bk_pillowinvoice" 1  Player->AddItem "misc_uni_pillow_unique" 1  RemoveItem "misc_uni_pillow_unique" 1
+  Thelas' Pillows Overhaul.ESP->|DATA|ONAM:drarayne thelas|NAME:A shipwreck? That's horrible! Oh, all of those wonderful pillows.... Well, I thank you, %PCName. It is good to know what became of my shipment, though the loss of pillows saddens me. A few of those were stuffed with racer plumes. A real shame. Still, thank you for your help with this. Take this as a token of my appreciation. It has served me well.|SCVR:05IX2bk_pillowinvoice|INTV:|SCVR:14JX4AA_Pillow|INTV:d|BNAM:Player->removeitem "bk_pillowinvoice" 1  Player->AddItem "misc_uni_pillow_unique" 1  RemoveItem "misc_uni_pillow_unique" 1  Journal "AA_Pillow" 100
+
+[MOD-INF]: ID=1982748741803812127(Greeting:greeting 5)
+  morrowind.esm---------------->|DATA|ONAM:drarayne thelas|NAME:Are you the one they sent to take care of the cave rats?|SCVR:04JX4FG_RatHunt|INTV:2
+  Thelas' Pillows Overhaul.ESP->|DATA|ONAM:drarayne thelas|NAME:Are you the one they sent to take care of the cave rats?|SCVR:04JX4FG_RatHunt|INTV:2|SCVR:15IX0bk_pillowinvoice|INTV:
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[MOD-INF]: ID=9523291201261418953(Greeting:greeting 5)
+  morrowind.esm---------------->|DATA|ONAM:drarayne thelas|NAME:You say you've found out what happened to my pillow shipment?|SCVR:04JX0FG_RatHunt|INTV:d|SCVR:15IX2bk_pillowinvoice|INTV:
+  Thelas' Pillows Overhaul.ESP->|DATA|ONAM:drarayne thelas|NAME:You say you've found out what happened to my pillow shipment?|SCVR:04JX3FG_RatHunt|INTV:d|SCVR:15IX2bk_pillowinvoice|INTV:

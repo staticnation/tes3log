@@ -1,0 +1,168 @@
+MT_Writs.ESP: AUTOSPL DUP-INF DUP-REC GETSND MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1570138 (plugin)    1567893 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	mt_frost_trap                  Frost Trap
+	mt_fire_trap                   Fire Trap
+	mt_paralyze_trap               Paralyze Trap
+	mt_lightning_trap              Lightning Strike
+	mt_lightning_trap2             Lightning Strike
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(MT_DrenimFireTrap_Script)
+	SCPT(MT_DrenimFrostTrap_Script)
+	SCPT(MT_DrenimLightningTrap_Script)
+	SCPT(MT_Skeleton_Belvayn_Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MT_AppearEffect_Script)
+	SCPT(MT_BarrelsUnstack_Script)
+	SCPT(MT_BelvaynAltar_Script)
+	SCPT(MT_BlockedPassage_Script)
+	SCPT(MT_DrenimFireTrap_Script)
+	SCPT(MT_DrenimFrostTrap_Script)
+	SCPT(MT_DrenimParalyzeTrap_Script)
+	SCPT(MT_FallCollisionDoor_Script)
+	SCPT(MT_PseudoTeleport_Script)
+	SCPT(MT_SarenManorDoor_Script)
+	SCPT(MT_SarenRepairsPlank_Script)
+	SCPT(MT_SarenRepairs_Script)
+	SCPT(MT_Skeleton_Belvayn_Script)
+	SCPT(MT_SneakScale_Script)
+	SCPT(MT_UnexpectedEntrance_Script)
+	SCPT(MT_WritBelvaynInit_Script)
+	SCPT(MT_WritGalasaInit_Script)
+	SCPT(MT_WritMavonInit_Script)
+	SCPT(MT_WritSarenInit_Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    brilnosu llarys
+	morrowind.esm       DIAL    feruren oran
+	morrowind.esm       DIAL    galasa uvayn
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    mavon drenim
+	morrowind.esm       DIAL    sujamma
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    tirer belvayn
+	morrowind.esm       DIAL    toris saren
+	morrowind.esm       DIAL    writ
+	morrowind.esm       NPC_    arkming the flayer
+	morrowind.esm       NPC_    arns saren
+	morrowind.esm       NPC_    broris fals
+	morrowind.esm       NPC_    dals sadri
+	morrowind.esm       NPC_    danasi ralen
+	morrowind.esm       NPC_    guril retheran
+	morrowind.esm       NPC_    mathyn bemis
+	morrowind.esm       NPC_    mavon drenim
+	morrowind.esm       NPC_    nurisea selarys
+	morrowind.esm       NPC_    odaishah yasalmibaal
+	morrowind.esm       NPC_    orakh gro-badbu
+	morrowind.esm       NPC_    salora salobar
+	morrowind.esm       NPC_    sarayn sadus
+	morrowind.esm       NPC_    thoryn samori
+	morrowind.esm       NPC_    toris saren
+	morrowind.esm       PGRD    vivec, telvanni tower
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    mt_writoran
+	tribunal.esm        DIAL    mt_writsaren
+
+[DUP-INF]: ID=3617953217396693(Journal:mt_writsaren)
+  |DATA|NAME:Morag Tong: Writ for Toris Saren|QSTN
+
+[DUP-INF]: ID=5978126236608624(Greeting:greeting 4)
+  |DATA|ONAM:dals sadri|NAME:Don't give me a reason, %PCName.|SCVR:34JX2MT_WritMavon|INTV:|SCVR:44JX4MT_WritMavon|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  Goodbye
+
+[MOD-INF]: ID=6812526555353372(Greeting:greeting 4)
+  morrowind.esm->|DATA|ANAM:Vivec, Saren Manor|NAME:You... you're from the Morag Tong. You... you must be here to kill Toris.|SCVR:34JX2MT_WritSaren|INTV:|SCVR:44JX4MT_WritSaren|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  ;don't set fight on these ones  StartCombat Player  ModDisposition -30  Goodbye
+  MT_Writs.ESP-->|DATA|ANAM:Vivec, Saren Manor|NAME:You... you're from the Morag Tong. You... you must be here to kill Toris.|SCVR:34JX2MT_WritSaren|INTV:|SCVR:44JX4MT_WritSaren|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  ;don't set fight on these ones  StopScript MT_SarenTresspassing_Script  ModDisposition -30  Goodbye  "thoryn samori"->StartCombat Player  "danasi ralen"->StartCombat Player  "arns saren"->StartCombat Player  "toris saren"->StartCombat Player  set "thoryn samori".Flag to 1  set "danasi ralen".Flag to 1  set "arns saren".Flag to 1  set "toris saren".Flag to 1
+
+[MOD-INF]: ID=27268823331843134(Greeting:greeting 4)
+  morrowind.esm->|DATA|ONAM:tirer belvayn|NAME:You're no match for me!|SCVR:34JX3MT_WritBelvayn|INTV: |BNAM:Goodbye
+  MT_Writs.ESP-->|DATA|ONAM:tirer belvayn|NAME:Wait, Morag Tong. Before we continue this fight, let's make a deal.|SCVR:34JX3MT_WritBelvayn|INTV: |BNAM:Choice "I'm listening" 1 "You'll get no mercy for me" 2  Set greeting to -1
+
+[DUP-INF]: ID=32383357016832965(Persuasion:taunt success)
+  |DATA|NAME:That does it.|SCVR:01710|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=42861608154112508(Greeting:greeting 4)
+  |DATA|ONAM:galasa uvayn|NAME:What are you doing here?|SCVR:34JX3MT_WritGalasa|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=74942758379332376(Greeting:greeting 4)
+  |DATA|ONAM:odaishah yasalmibaal|NAME:Die, outlander!|SCVR:34JX3MT_WritYasalmibaal|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=184181963819476965(Greeting:greeting 4)
+  |DATA|ANAM:Vivec, Telvanni Tower|NAME:I want no part of this. Good day.|SCVR:06DX2mavon drenim|INTV:|SCVR:34JX2MT_WritMavon|INTV:|SCVR:44JX4MT_WritMavon|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  Goodbye
+
+[DUP-INF]: ID=287761030513677239(Topic:feruren oran)
+  |DATA|ONAM:eno hlaalu|NAME:Yes, you have slain Feruren Oran. You belong to the Morag Tong.|SCVR:34JX3MT_WritOran|INTV:d
+
+[DUP-INF]: ID=375111226211453250(Greeting:greeting 4)
+  |DATA|ONAM:mavon drenim|NAME:Die, Morag Tong scum!|SCVR:34JX3MT_WritMavon|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=501815288981727742(Persuasion:admire success)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:You do right to honor the ancestors.
+
+[DUP-INF]: ID=1332431357116903820(Topic:galasa uvayn)
+  |DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[DUP-INF]: ID=1458830178786919518(Persuasion:bribe success)
+  |DATA|ONAM:Canctunian Ponius|NAME:Yes, money. Exactly what I wanted. How did you know?
+
+[MOD-INF]: ID=1478925705354615614(Greeting:greeting 4)
+  morrowind.esm->|DATA|ONAM:toris saren|NAME:What? No... You're from the Morag Tong! You won't take me!|SCVR:34JX3MT_WritSaren|INTV: |BNAM:SetFight 100  StartCombat Player  Goodbye
+  MT_Writs.ESP-->|DATA|ONAM:toris saren|NAME:What? No... You're from the Morag Tong! You won't take me!|SCVR:34JX3MT_WritSaren|INTV
+
+[DUP-INF]: ID=1560723523409227902(Journal:mt_writoran)
+  |DATA|NAME:Feruren Oran has been slain according to the traditional and honorable doctrine of the Morag Tong. The execution was reported as a crime.
+
+[MOD-INF]: ID=2180567281021329577(Journal:mt_writoran)
+  tribunal.esm->|DATA|NAME:I have been given a Writ for the honorable execution of Feruren Oran. He may be found in the Elven Nations Cornerclub in the Hlaalu Plaza here in Vivec.
+  MT_Writs.ESP->|DATA|NAME:Feruren Oran won't mind drinking some sujamma with me.
+
+[DUP-INF]: ID=2267528022103868317(Persuasion:intimidate success)
+  |DATA|ONAM:cunius pelelius|NAME:Alright, alright. I'll tell you this because I trust you. Take this key. There's a record book in Odral's Helvi chest on the second floor. Stendar have mercy on me if anyone finds out about this.|SCVR:03sX0givenKey|INTV:|SCVR:34JX3HR_CalderaCorrupt|INTV: |BNAM:Player->AddItem key_odral_helvi 1  Set givenKey to 1  Journal HR_CalderaCorrupt 30
+
+[DUP-INF]: ID=2363816523715520806(Greeting:greeting 4)
+  |DATA|ONAM:sarayn sadus|NAME:You're no match for me, Morag Tong puppy!|SCVR:34JX3MT_WritSadus|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=2640828008313613006(Journal:mt_writsaren)
+  tribunal.esm->|DATA|NAME:I have been given a Writ for the honorable execution of Toris Saren. He is in his home, Saren Manor, in the Plaza of the Redoran Canton here in Vivec.
+  MT_Writs.ESP->|DATA|NAME:Toris Saren has invited me upstairs.
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=3137517782452216666(Greeting:greeting 4)
+  |DATA|ANAM:Raven Rock|NAME:You've got the corprus! There's no cure for that, is there?|SCVR:01580|INTV
+
+[MOD-INF]: ID=3953214983021829582(Greeting:greeting 4)
+  morrowind.esm->|DATA|ONAM:tirer belvayn|NAME:The Morag Tong is weak! I shall defeat you!|SCVR:34JX3MT_WritBemis|INTV: |BNAM:Goodbye
+  MT_Writs.ESP-->|DATA|ONAM:mathyn bemis|NAME:The Morag Tong is weak! I shall defeat you!|SCVR:34JX3MT_WritBemis|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=5147196212838221077(Topic:sujamma)
+  |DATA|ONAM:lustidrike|NAME:Fine. You're the guest. Whatever you want.|SCVR:01500|INTV|BNAM:;Lustidrike; CHOICE 2;   Goodbye
+
+[DUP-INF]: ID=6585289123239516948(Topic:mavon drenim)
+  |DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[DUP-INF]: ID=8824108712253426672(Topic:brilnosu llarys)
+  |DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[DUP-INF]: ID=11187305203207113531(Topic:writ)
+  |DATA|FNAM:Morag Tong|NAME:You are a traitor to the Morag Tong. We have issued a Writ in your name.|SCVR:01390|INTV|SCVR:12sX0ExpMoragTong|INTV|BNAM:;Note to self: enable assassins here
+
+[DUP-INF]: ID=12272303532466530055(Topic:tirer belvayn)
+  |DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[MOD-INF]: ID=18027327602606020970(Greeting:greeting 4)
+  morrowind.esm->|DATA|ONAM:guril retheran|NAME:The Morag Tong! They found me! Help! Please... spare me!|SCVR:34JX3MT_WritGuril|INTV: |BNAM:Goodbye
+  MT_Writs.ESP-->|DATA|ONAM:guril retheran|NAME:So. Morag Tong has tracked me down. A pity. Care for a drink before we begin? My treat.|SCVR:34JX3MT_WritGuril|INTV: |BNAM:Choice "Sure" 1 "Maybe next time" 2
+
+[DUP-INF]: ID=18510119522785722450(Persuasion:taunt success)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:Indeed, mortal, death is bitter. But your time will come.
+
+[DUP-INF]: ID=21852304721520812418(Journal:mt_writoran)
+  |DATA|NAME:Morag Tong: Writ for Feruren Oran|QSTN
+
+[DUP-INF]: ID=31622245761269217751(Topic:toris saren)
+  |DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV

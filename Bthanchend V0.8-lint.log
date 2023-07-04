@@ -1,0 +1,885 @@
+Bthanchend V0.8.ESP: DUP-INF DUP-REC FOGBUG JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	Bthanchend Tomb of the Kings
+	Sotha Sil, Dome of Serlyn
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DW_Centurian)
+	SCPT(DW_Companion)
+	SCPT(GDR_boom_spider_death)
+	SCPT(gr_aetherglowshrink)
+	SCPT(gr_aetherium_cuirass_script)
+	SCPT(gr_aetherium_helm_script)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (-1, -7)           0x02
+	Ashlands Region (-1, 4)                  0x02
+	Ashlands Region (-1, 6)                  0x02
+	Ashlands Region (0, 0)                   0x02
+	Ashlands Region (0, 17)                  0x02
+	Azura's Coast Region (14, 11)            0x02
+	Azura's Coast Region (14, 5)             0x02
+	Azura's Coast Region (15, 6)             0x02
+	Azura's Coast Region (16, -9)            0x02
+	Azura's Coast Region (17, -5)            0x02
+	Azura's Coast Region (18, 0)             0x02
+	Azura's Coast Region (19, 4)             0x02
+	Azura's Coast Region (20, 4)             0x02
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	Bitter Coast Region (-7, -5)             0x02
+	Bitter Coast Region (-8, -2)             0x02
+	Bitter Coast Region (-8, -4)             0x02
+	Bitter Coast Region (-8, 0)              0x02
+	Grazelands Region (11, 13)               0x02
+	Grazelands Region (9, 16)                0x02
+	Isinfier Plains Region (-22, 23)         0x02
+	Moesring Mountains Region (-27, 23)      0x02
+	Molag Mar Region (14, -2)                0x02
+	Molag Mar Region (3, -3)                 0x02
+	Molag Mar Region (7, -7)                 0x02
+	Red Mountain Region (1, 8)               0x02
+	Red Mountain Region (2, 11)              0x02
+	Sheogorad (-1, 21)                       0x02
+	Sheogorad (-1, 22)                       0x02
+	Sheogorad (0, 20)                        0x02
+	Sheogorad (0, 21)                        0x02
+	West Gash Region (-1, -2)                0x02
+	West Gash Region (-11, 12)               0x02
+	West Gash Region (-11, 14)               0x02
+	West Gash Region (-12, 13)               0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	West Gash Region (-2, -1)                0x02
+	West Gash Region (-3, 1)                 0x02
+	West Gash Region (-6, 13)                0x02
+	West Gash Region (-8, 16)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    active_com_bed_03
+	bloodmoon.esm       BODY    a_bear2_helmet
+	bloodmoon.esm       BOOK    bk_mixedunittactics
+	bloodmoon.esm       BOOK    sc_paper plain
+	bloodmoon.esm       CLOT    bm_nordic01_glovel
+	bloodmoon.esm       CLOT    bm_nordic01_glover
+	bloodmoon.esm       CLOT    bm_nordic02_shirt
+	bloodmoon.esm       CONT    barrel_01_arrows
+	bloodmoon.esm       CONT    barrel_01_drinks
+	bloodmoon.esm       CONT    chest_small_01_goldr500
+	bloodmoon.esm       CONT    com_sack_02_chpfood3
+	bloodmoon.esm       CONT    com_sack_02_ingred
+	bloodmoon.esm       CONT    flora_bm_holly_05
+	bloodmoon.esm       INGR    ingred_bread_01
+	bloodmoon.esm       INGR    ingred_eyeball
+	bloodmoon.esm       INGR    ingred_saltrice_01
+	bloodmoon.esm       INGR    ingred_wolf_heart
+	bloodmoon.esm       MISC    misc_com_bottle_01
+	bloodmoon.esm       MISC    misc_com_bottle_05
+	bloodmoon.esm       MISC    misc_com_bottle_07
+	bloodmoon.esm       MISC    misc_com_bottle_12
+	bloodmoon.esm       MISC    misc_com_broom_01
+	bloodmoon.esm       MISC    misc_com_bucket_01
+	bloodmoon.esm       MISC    misc_com_bucket_metal
+	bloodmoon.esm       MISC    misc_com_metal_plate_04
+	bloodmoon.esm       MISC    misc_com_tankard_01
+	bloodmoon.esm       MISC    misc_com_wood_fork
+	bloodmoon.esm       MISC    misc_com_wood_knife
+	bloodmoon.esm       MISC    misc_com_wood_spoon_01
+	bloodmoon.esm       MISC    misc_de_basket_01
+	bloodmoon.esm       MISC    misc_de_bellows10
+	bloodmoon.esm       MISC    misc_de_drum_01
+	bloodmoon.esm       MISC    misc_de_tankard_01
+	bloodmoon.esm       MISC    misc_flask_01
+	bloodmoon.esm       MISC    misc_imp_silverware_pitcher
+	bloodmoon.esm       MISC    misc_imp_silverware_plate_03
+	bloodmoon.esm       MISC    misc_quill
+	bloodmoon.esm       REPA    repair_journeyman_01
+	bloodmoon.esm       REPA    repair_master_01
+	bloodmoon.esm       REPA    repair_prongs
+	bloodmoon.esm       STAT    ex_dwrv_bridge10
+	bloodmoon.esm       STAT    ex_s_bear
+	bloodmoon.esm       STAT    ex_s_wolf
+	bloodmoon.esm       STAT    flora_bm_shrub_01
+	bloodmoon.esm       STAT    flora_bm_shrub_02
+	bloodmoon.esm       STAT    flora_bm_shrub_03
+	bloodmoon.esm       STAT    furn_bm_t_torchstand
+	bloodmoon.esm       STAT    furn_cliffracer
+	bloodmoon.esm       STAT    furn_colony_wolfrug01
+	bloodmoon.esm       STAT    furn_com_cauldron_02
+	bloodmoon.esm       STAT    furn_com_kegstand
+	bloodmoon.esm       STAT    furn_com_tapestry_02
+	bloodmoon.esm       STAT    furn_com_tapestry_04
+	bloodmoon.esm       STAT    furn_rope_hook
+	bloodmoon.esm       WEAP    bm nordic silver claymore
+	bloodmoon.esm       WEAP    bm nordic silver longsword
+	bloodmoon.esm       WEAP    bm nordic silver mace
+	bloodmoon.esm       WEAP    bm riekling sword
+	bloodmoon.esm       WEAP    miner's pick
+	morrowind.esm       ACTI    active_chimney_smoke02
+	morrowind.esm       ACTI    active_com_bed_02
+	morrowind.esm       ACTI    active_com_bed_04
+	morrowind.esm       ACTI    active_com_bed_05
+	morrowind.esm       ACTI    active_com_bed_06
+	morrowind.esm       ACTI    active_com_bed_07
+	morrowind.esm       ACTI    active_com_bunk_01
+	morrowind.esm       ACTI    active_de_p_bed_04
+	morrowind.esm       ACTI    active_de_p_bed_12
+	morrowind.esm       ACTI    active_de_p_bed_13
+	morrowind.esm       ACTI    active_de_p_bed_16
+	morrowind.esm       ACTI    active_de_pr_bed_08
+	morrowind.esm       ACTI    active_de_pr_bed_27
+	morrowind.esm       ACTI    active_de_r_bed_20
+	morrowind.esm       ACTI    ex_v_ban_stolms_01
+	morrowind.esm       ACTI    ex_vivec_waterfall_01
+	morrowind.esm       ACTI    ex_waterfall_mist_s_01
+	morrowind.esm       ACTI    in_ci_mummy_03
+	morrowind.esm       ACTI    in_dwrv_corr2_06
+	morrowind.esm       ACTI    in_dwrv_corr2_07
+	morrowind.esm       ACTI    in_dwrv_crank_00
+	morrowind.esm       ACTI    in_lava_1024
+	morrowind.esm       ACTI    in_lava_1024_01
+	morrowind.esm       ACTI    in_lava_256
+	morrowind.esm       ACTI    in_lava_512
+	morrowind.esm       ACTI    sound_crystal_chime
+	morrowind.esm       ACTI    sound_dwemer_ruin00
+	morrowind.esm       ACTI    sound_generator
+	morrowind.esm       ACTI    sound_lave_vat
+	morrowind.esm       ACTI    steam_bluegreen
+	morrowind.esm       ALCH    p_cure_blight_s
+	morrowind.esm       ALCH    p_cure_common_s
+	morrowind.esm       ALCH    p_cure_paralyzation_s
+	morrowind.esm       ALCH    p_detect_key_s
+	morrowind.esm       ALCH    p_fortify_health_e
+	morrowind.esm       ALCH    p_mark_s
+	morrowind.esm       ALCH    p_recall_s
+	morrowind.esm       ALCH    p_restore_agility_q
+	morrowind.esm       ALCH    p_restore_endurance_e
+	morrowind.esm       ALCH    p_restore_fatigue_s
+	morrowind.esm       ALCH    p_restore_health_s
+	morrowind.esm       ALCH    p_restore_intelligence_s
+	morrowind.esm       ALCH    p_restore_magicka_e
+	morrowind.esm       ALCH    p_restore_personality_s
+	morrowind.esm       ALCH    p_restore_speed_c
+	morrowind.esm       ALCH    p_restore_willpower_q
+	morrowind.esm       ALCH    p_silence_e
+	morrowind.esm       ALCH    p_vintagecomberrybrandy1
+	morrowind.esm       ALCH    potion_comberry_brandy_01
+	morrowind.esm       ALCH    potion_cyro_brandy_01
+	morrowind.esm       ALCH    potion_cyro_whiskey_01
+	morrowind.esm       APPA    apparatus_g_alembic_01
+	morrowind.esm       APPA    apparatus_g_calcinator_01
+	morrowind.esm       APPA    apparatus_g_mortar_01
+	morrowind.esm       APPA    apparatus_g_retort_01
+	morrowind.esm       ARMO    cephalopod_helm
+	morrowind.esm       ARMO    chitin helm
+	morrowind.esm       ARMO    chitin_shield
+	morrowind.esm       ARMO    chitin_towershield
+	morrowind.esm       ARMO    dwemer_boots
+	morrowind.esm       ARMO    dwemer_cuirass
+	morrowind.esm       ARMO    dwemer_helm
+	morrowind.esm       ARMO    dwemer_shield
+	morrowind.esm       ARMO    nordic_iron_helm
+	morrowind.esm       BODY    a_dwemer_boots_a
+	morrowind.esm       BODY    a_dwemer_boots_f
+	morrowind.esm       BODY    a_dwemer_bracer_w
+	morrowind.esm       BODY    a_dwemer_cuirass_c
+	morrowind.esm       BODY    a_trollbone_helm
+	morrowind.esm       BOOK    bk_briefhistoryempire1
+	morrowind.esm       BOOK    bk_briefhistoryempire2
+	morrowind.esm       BOOK    bk_briefhistoryempire3
+	morrowind.esm       BOOK    bk_briefhistoryempire4
+	morrowind.esm       BOOK    bk_corpsepreperation3_c
+	morrowind.esm       BOOK    bk_dwemermuseumwelcome
+	morrowind.esm       BOOK    bk_fivesongsofkingwulfharth
+	morrowind.esm       BOOK    bk_great_houses
+	morrowind.esm       BOOK    bk_guide_to_ald_ruhn
+	morrowind.esm       BOOK    bk_guide_to_balmora
+	morrowind.esm       BOOK    bk_guide_to_sadrithmora
+	morrowind.esm       BOOK    bk_guide_to_vivec
+	morrowind.esm       BOOK    bk_nchunaksfireandfaith
+	morrowind.esm       BOOK    bk_oldways
+	morrowind.esm       BOOK    bk_onmorrowind
+	morrowind.esm       BOOK    bk_onoblivion
+	morrowind.esm       BOOK    bk_provinces_of_tamriel
+	morrowind.esm       BOOK    bk_red_mountain_map
+	morrowind.esm       BOOK    bk_specialfloraoftamriel
+	morrowind.esm       BOOK    bk_spiritofthedaedra
+	morrowind.esm       BOOK    bk_vampiresofvvardenfell1
+	morrowind.esm       BOOK    bk_warehouse_log
+	morrowind.esm       BOOK    bk_wildelves
+	morrowind.esm       BOOK    bookskill_alteration2
+	morrowind.esm       BOOK    bookskill_alteration5
+	morrowind.esm       BOOK    bookskill_block1
+	morrowind.esm       BOOK    bookskill_enchant3
+	morrowind.esm       BOOK    bookskill_enchant5
+	morrowind.esm       BOOK    bookskill_heavy armor3
+	morrowind.esm       BOOK    bookskill_mercantile1
+	morrowind.esm       BOOK    sc_hellfire
+	morrowind.esm       BOOK    text_paper_roll_01
+	morrowind.esm       CLOT    amulet of mighty blows
+	morrowind.esm       CLOT    common_robe_03_a
+	morrowind.esm       CLOT    common_shirt_01
+	morrowind.esm       CLOT    common_shoes_05
+	morrowind.esm       CLOT    common_skirt_01
+	morrowind.esm       CLOT    common_skirt_02
+	morrowind.esm       CLOT    common_skirt_05
+	morrowind.esm       CLOT    expensive_pants_01
+	morrowind.esm       CLOT    expensive_pants_02
+	morrowind.esm       CLOT    expensive_robe_02
+	morrowind.esm       CLOT    expensive_robe_03
+	morrowind.esm       CLOT    expensive_shirt_02
+	morrowind.esm       CLOT    expensive_shirt_03
+	morrowind.esm       CLOT    expensive_shoes_03
+	morrowind.esm       CLOT    expensive_skirt_03
+	morrowind.esm       CLOT    exquisite_belt_01
+	morrowind.esm       CLOT    exquisite_ring_02
+	morrowind.esm       CLOT    extravagant_ring_01
+	morrowind.esm       CLOT    extravagant_robe_02
+	morrowind.esm       CLOT    extravagant_shoes_02
+	morrowind.esm       CLOT    extravagant_skirt_02
+	morrowind.esm       CLOT    feather belt
+	morrowind.esm       CLOT    frostguard robe
+	morrowind.esm       CLOT    frostmirror robe
+	morrowind.esm       CLOT    second barrier ring
+	morrowind.esm       CLOT    summon ancestor amulet
+	morrowind.esm       CLOT    templar belt
+	morrowind.esm       CLOT    third barrier belt
+	morrowind.esm       CONT    barrel_01_ahnassi_drink
+	morrowind.esm       CONT    barrel_01_ahnassi_food
+	morrowind.esm       CONT    barrel_01_float_food20
+	morrowind.esm       CONT    barrel_01_ingredients
+	morrowind.esm       CONT    barrel_01_ingredients_f
+	morrowind.esm       CONT    barrel_02_ingred
+	morrowind.esm       CONT    barrel_smuggler_01
+	morrowind.esm       CONT    cavern_spore00
+	morrowind.esm       CONT    chest_01_v_potion_ap_03
+	morrowind.esm       CONT    chest_small_01_ingredie
+	morrowind.esm       CONT    chest_small_02_ingfine3
+	morrowind.esm       CONT    com_chest_01_misc01
+	morrowind.esm       CONT    com_chest_02_v_armor03
+	morrowind.esm       CONT    com_chest_11_clothing
+	morrowind.esm       CONT    contain_corpse00
+	morrowind.esm       CONT    crate_01_eggs10
+	morrowind.esm       CONT    crate_01_empty
+	morrowind.esm       CONT    de_r_closet_01_fcloth02
+	morrowind.esm       CONT    de_r_drawers_01_mcloth
+	morrowind.esm       CONT    dwrv_barrel00
+	morrowind.esm       CONT    dwrv_barrel00_empty
+	morrowind.esm       CONT    dwrv_barrel10_empty
+	morrowind.esm       CONT    dwrv_cabinet10
+	morrowind.esm       CONT    dwrv_chest00
+	morrowind.esm       CONT    dwrv_chest_fals
+	morrowind.esm       CONT    dwrv_chest_missile
+	morrowind.esm       CONT    dwrv_desk00
+	morrowind.esm       CONT    dwrv_drawers00
+	morrowind.esm       CONT    dwrv_table00
+	morrowind.esm       CONT    flora_bc_mushroom_01
+	morrowind.esm       CONT    flora_bc_mushroom_02
+	morrowind.esm       CONT    flora_bc_mushroom_03
+	morrowind.esm       CONT    flora_bc_mushroom_06
+	morrowind.esm       CONT    flora_bc_mushroom_07
+	morrowind.esm       CONT    flora_bc_mushroom_08
+	morrowind.esm       CONT    flora_bc_podplant_04
+	morrowind.esm       CONT    flora_comberry_01
+	morrowind.esm       CONT    flora_corkbulb
+	morrowind.esm       CONT    flora_fire_fern_01
+	morrowind.esm       CONT    flora_fire_fern_02
+	morrowind.esm       CONT    flora_gold_kanet_01_uni
+	morrowind.esm       CONT    flora_gold_kanet_02_uni
+	morrowind.esm       CONT    flora_rm_scathecraw_02
+	morrowind.esm       CONT    flora_saltrice_01
+	morrowind.esm       CONT    flora_saltrice_02
+	morrowind.esm       CONT    flora_wickwheat_01
+	morrowind.esm       CONT    flora_wickwheat_04
+	morrowind.esm       CONT    rock_diamond_02
+	morrowind.esm       CONT    rock_diamond_05
+	morrowind.esm       CONT    rock_diamond_06
+	morrowind.esm       CONT    rock_diamond_07
+	morrowind.esm       CONT    rock_glass_01
+	morrowind.esm       CONT    rock_glass_05
+	morrowind.esm       CONT    rock_glass_06
+	morrowind.esm       CONT    rock_glass_07
+	morrowind.esm       DOOR    door_dwrv_double00
+	morrowind.esm       DOOR    door_dwrv_double01
+	morrowind.esm       DOOR    door_dwrv_inner00
+	morrowind.esm       DOOR    door_dwrv_loaddown00
+	morrowind.esm       INGR    food_kwama_egg_02
+	morrowind.esm       INGR    ingred_chokeweed_01
+	morrowind.esm       INGR    ingred_comberry_01
+	morrowind.esm       INGR    ingred_corkbulb_root_01
+	morrowind.esm       INGR    ingred_diamond_01
+	morrowind.esm       INGR    ingred_ghoul_heart_01
+	morrowind.esm       INGR    ingred_hound_meat_01
+	morrowind.esm       INGR    ingred_resin_01
+	morrowind.esm       INGR    ingred_scrap_metal_01
+	morrowind.esm       LIGH    blue_128_01
+	morrowind.esm       LIGH    blue_night_lite_1024
+	morrowind.esm       LIGH    green light_128
+	morrowind.esm       LIGH    lava_light_1024
+	morrowind.esm       LIGH    lava_light_4096
+	morrowind.esm       LIGH    light_com_candle_08_64
+	morrowind.esm       LIGH    light_com_chandelier_03
+	morrowind.esm       LIGH    light_de_candle_blue_01_64
+	morrowind.esm       LIGH    light_dwrv_neon00
+	morrowind.esm       LIGH    light_dwrv_neonbroke00
+	morrowind.esm       LIGH    light_dwrv_neonbroke01
+	morrowind.esm       LIGH    light_dwrv_neonbroke_off
+	morrowind.esm       LIGH    light_fire
+	morrowind.esm       LIGH    light_fire_400
+	morrowind.esm       LIGH    light_fire_nosmoke
+	morrowind.esm       LIGH    light_fire_nosmoke_128
+	morrowind.esm       LIGH    light_fire_nosmoke_400
+	morrowind.esm       LIGH    light_fire_small
+	morrowind.esm       LIGH    light_logpile10
+	morrowind.esm       LIGH    red_128
+	morrowind.esm       LIGH    red_256
+	morrowind.esm       MISC    misc_clothbolt_02
+	morrowind.esm       MISC    misc_clothbolt_03
+	morrowind.esm       MISC    misc_com_basket_01
+	morrowind.esm       MISC    misc_com_iron_ladle
+	morrowind.esm       MISC    misc_com_redware_bowl
+	morrowind.esm       MISC    misc_com_silverware_fork
+	morrowind.esm       MISC    misc_com_silverware_knife
+	morrowind.esm       MISC    misc_de_cloth10
+	morrowind.esm       MISC    misc_de_drum_02
+	morrowind.esm       MISC    misc_de_lute_01
+	morrowind.esm       MISC    misc_de_muck_shovel_01
+	morrowind.esm       MISC    misc_dwrv_artifact00
+	morrowind.esm       MISC    misc_dwrv_artifact10
+	morrowind.esm       MISC    misc_dwrv_artifact20
+	morrowind.esm       MISC    misc_dwrv_artifact30
+	morrowind.esm       MISC    misc_dwrv_artifact50
+	morrowind.esm       MISC    misc_dwrv_artifact60
+	morrowind.esm       MISC    misc_dwrv_artifact70
+	morrowind.esm       MISC    misc_dwrv_artifact80
+	morrowind.esm       MISC    misc_dwrv_bowl00
+	morrowind.esm       MISC    misc_dwrv_coin00
+	morrowind.esm       MISC    misc_dwrv_gear00
+	morrowind.esm       MISC    misc_dwrv_goblet00
+	morrowind.esm       MISC    misc_dwrv_goblet10
+	morrowind.esm       MISC    misc_dwrv_mug00
+	morrowind.esm       MISC    misc_dwrv_pitcher00
+	morrowind.esm       MISC    misc_flask_02
+	morrowind.esm       MISC    misc_flask_04
+	morrowind.esm       MISC    misc_goblet_dagoth
+	morrowind.esm       MISC    misc_inkwell
+	morrowind.esm       MISC    misc_lw_bowl
+	morrowind.esm       MISC    misc_lw_cup
+	morrowind.esm       MISC    misc_lw_platter
+	morrowind.esm       MISC    misc_spool_01
+	morrowind.esm       MISC    misc_wraithguard_no_equip
+	morrowind.esm       REPA    repair_grandmaster_01
+	morrowind.esm       STAT    dwrv_mechhead00
+	morrowind.esm       STAT    dwrv_mechhips00
+	morrowind.esm       STAT    dwrv_mechlarm00
+	morrowind.esm       STAT    dwrv_mechlfoot00
+	morrowind.esm       STAT    dwrv_mechlfrarm00
+	morrowind.esm       STAT    dwrv_mechlhand00
+	morrowind.esm       STAT    dwrv_mechrarm00
+	morrowind.esm       STAT    dwrv_mechrfarm00
+	morrowind.esm       STAT    dwrv_mechrhand00
+	morrowind.esm       STAT    dwrv_mechrthigh00
+	morrowind.esm       STAT    dwrv_mechtorso00
+	morrowind.esm       STAT    ex_de_scaffold_01a
+	morrowind.esm       STAT    ex_de_scaffold_03a
+	morrowind.esm       STAT    ex_dwrv_block00
+	morrowind.esm       STAT    ex_dwrv_block10
+	morrowind.esm       STAT    ex_dwrv_block20
+	morrowind.esm       STAT    ex_dwrv_block30
+	morrowind.esm       STAT    ex_dwrv_bridge00
+	morrowind.esm       STAT    ex_dwrv_enter00
+	morrowind.esm       STAT    ex_dwrv_header00
+	morrowind.esm       STAT    ex_dwrv_observ00
+	morrowind.esm       STAT    ex_dwrv_pipe00
+	morrowind.esm       STAT    ex_dwrv_pipe10
+	morrowind.esm       STAT    ex_dwrv_pipefitting00
+	morrowind.esm       STAT    ex_dwrv_ruin20
+	morrowind.esm       STAT    ex_dwrv_ruin50
+	morrowind.esm       STAT    ex_dwrv_ruin80
+	morrowind.esm       STAT    ex_dwrv_ruin_tower00
+	morrowind.esm       STAT    ex_dwrv_statue00
+	morrowind.esm       STAT    ex_dwrv_steamstack00
+	morrowind.esm       STAT    ex_dwrv_walker10
+	morrowind.esm       STAT    ex_dwrv_walker20
+	morrowind.esm       STAT    flora_bc_fern_02
+	morrowind.esm       STAT    flora_bush_01
+	morrowind.esm       STAT    flora_emp_parasol_01
+	morrowind.esm       STAT    flora_grass_01
+	morrowind.esm       STAT    flora_ivy_01
+	morrowind.esm       STAT    flora_ivy_02
+	morrowind.esm       STAT    flora_muckpod_05
+	morrowind.esm       STAT    flora_tree_ac_01
+	morrowind.esm       STAT    flora_tree_ac_03
+	morrowind.esm       STAT    furn_anvil00
+	morrowind.esm       STAT    furn_bone_01
+	morrowind.esm       STAT    furn_bone_rib_01
+	morrowind.esm       STAT    furn_c_t_apprentice_01
+	morrowind.esm       STAT    furn_c_t_lady_01
+	morrowind.esm       STAT    furn_c_t_lover_01
+	morrowind.esm       STAT    furn_c_t_wizard_01
+	morrowind.esm       STAT    furn_cart00
+	morrowind.esm       STAT    furn_coalpile00
+	morrowind.esm       STAT    furn_com_cauldron_01
+	morrowind.esm       STAT    furn_com_coatofarms_01
+	morrowind.esm       STAT    furn_com_fence_03
+	morrowind.esm       STAT    furn_com_planter
+	morrowind.esm       STAT    furn_com_r_chair_01
+	morrowind.esm       STAT    furn_com_tapestry_03
+	morrowind.esm       STAT    furn_com_torch_ring_02
+	morrowind.esm       STAT    furn_de_basket_01
+	morrowind.esm       STAT    furn_de_bellows_01
+	morrowind.esm       STAT    furn_de_cushion_round_05
+	morrowind.esm       STAT    furn_de_cushion_round_07
+	morrowind.esm       STAT    furn_de_firepit_01
+	morrowind.esm       STAT    furn_de_kegstand
+	morrowind.esm       STAT    furn_de_lecturn
+	morrowind.esm       STAT    furn_de_loom_01
+	morrowind.esm       STAT    furn_de_pathspear_04
+	morrowind.esm       STAT    furn_de_rope_05
+	morrowind.esm       STAT    furn_de_rope_07
+	morrowind.esm       STAT    furn_de_rug_01
+	morrowind.esm       STAT    furn_de_rug_big_02
+	morrowind.esm       STAT    furn_de_rug_big_03
+	morrowind.esm       STAT    furn_de_rug_big_05
+	morrowind.esm       STAT    furn_de_rug_big_08
+	morrowind.esm       STAT    furn_de_rug_big_09
+	morrowind.esm       STAT    furn_de_screen_guar_01
+	morrowind.esm       STAT    furn_de_tapestry_02
+	morrowind.esm       STAT    furn_dwrv_bed00
+	morrowind.esm       STAT    furn_dwrv_bench00
+	morrowind.esm       STAT    furn_dwrv_bench10
+	morrowind.esm       STAT    furn_dwrv_bucket00
+	morrowind.esm       STAT    furn_dwrv_cabinet00
+	morrowind.esm       STAT    furn_dwrv_chair00
+	morrowind.esm       STAT    furn_dwrv_fitting00
+	morrowind.esm       STAT    furn_dwrv_fitting10
+	morrowind.esm       STAT    furn_dwrv_fitting20
+	morrowind.esm       STAT    furn_dwrv_fitting30
+	morrowind.esm       STAT    furn_dwrv_fitting50
+	morrowind.esm       STAT    furn_dwrv_stool00
+	morrowind.esm       STAT    furn_dwrv_stool10
+	morrowind.esm       STAT    furn_dwrv_stove00
+	morrowind.esm       STAT    furn_dwrv_stove10
+	morrowind.esm       STAT    furn_dwrv_table00
+	morrowind.esm       STAT    furn_dwrv_table10
+	morrowind.esm       STAT    furn_dwrv_table20
+	morrowind.esm       STAT    furn_dwrv_tranny01
+	morrowind.esm       STAT    furn_dwrv_well00
+	morrowind.esm       STAT    furn_hook_01
+	morrowind.esm       STAT    furn_imp_flagpole_01
+	morrowind.esm       STAT    furn_log_01
+	morrowind.esm       STAT    furn_log_02
+	morrowind.esm       STAT    furn_log_03
+	morrowind.esm       STAT    furn_log_04
+	morrowind.esm       STAT    furn_planter_01
+	morrowind.esm       STAT    furn_planter_03
+	morrowind.esm       STAT    furn_planter_04
+	morrowind.esm       STAT    furn_pottedplant
+	morrowind.esm       STAT    furn_practice_dummy
+	morrowind.esm       STAT    furn_rail_cart00
+	morrowind.esm       STAT    furn_rail_elbow00
+	morrowind.esm       STAT    furn_rail_straight00
+	morrowind.esm       STAT    furn_scrapwood02
+	morrowind.esm       STAT    furn_spinningwheel_01
+	morrowind.esm       STAT    furn_web00
+	morrowind.esm       STAT    furn_woodpole_01
+	morrowind.esm       STAT    in_akulacave00
+	morrowind.esm       STAT    in_ar_01
+	morrowind.esm       STAT    in_ar_08
+	morrowind.esm       STAT    in_ar_10
+	morrowind.esm       STAT    in_cave_plant00
+	morrowind.esm       STAT    in_cave_plant10
+	morrowind.esm       STAT    in_dagoth_plate00
+	morrowind.esm       STAT    in_dagoth_plate10
+	morrowind.esm       STAT    in_dwr_tower_int00
+	morrowind.esm       STAT    in_dwrv_corr2_00
+	morrowind.esm       STAT    in_dwrv_corr2_01
+	morrowind.esm       STAT    in_dwrv_corr2_02
+	morrowind.esm       STAT    in_dwrv_corr2_03
+	morrowind.esm       STAT    in_dwrv_corr2_04
+	morrowind.esm       STAT    in_dwrv_corr3_00
+	morrowind.esm       STAT    in_dwrv_corr3_01
+	morrowind.esm       STAT    in_dwrv_corr3_02
+	morrowind.esm       STAT    in_dwrv_corr4_00
+	morrowind.esm       STAT    in_dwrv_corr4_01
+	morrowind.esm       STAT    in_dwrv_corr4_02
+	morrowind.esm       STAT    in_dwrv_corr4_03
+	morrowind.esm       STAT    in_dwrv_corr4_04
+	morrowind.esm       STAT    in_dwrv_door_static00
+	morrowind.esm       STAT    in_dwrv_doorjam00
+	morrowind.esm       STAT    in_dwrv_gear00
+	morrowind.esm       STAT    in_dwrv_gear10
+	morrowind.esm       STAT    in_dwrv_gear20
+	morrowind.esm       STAT    in_dwrv_hall2_00
+	morrowind.esm       STAT    in_dwrv_hall3_00
+	morrowind.esm       STAT    in_dwrv_hall4_00
+	morrowind.esm       STAT    in_dwrv_hall4_01
+	morrowind.esm       STAT    in_dwrv_hall4_02
+	morrowind.esm       STAT    in_dwrv_hall4_03
+	morrowind.esm       STAT    in_dwrv_lift00
+	morrowind.esm       STAT    in_dwrv_oilslick00
+	morrowind.esm       STAT    in_dwrv_scope10
+	morrowind.esm       STAT    in_dwrv_wall00
+	morrowind.esm       STAT    in_dwrv_wall10
+	morrowind.esm       STAT    in_lava_blacksquare
+	morrowind.esm       STAT    in_lava_rock_08
+	morrowind.esm       STAT    in_lava_rock_09
+	morrowind.esm       STAT    in_lava_rock_15
+	morrowind.esm       STAT    in_lava_rock_28
+	morrowind.esm       STAT    in_lavaboulder00
+	morrowind.esm       STAT    in_lavaboulder01
+	morrowind.esm       STAT    in_lavaboulder02
+	morrowind.esm       STAT    in_lavaboulder03
+	morrowind.esm       STAT    in_lavaboulder04
+	morrowind.esm       STAT    in_lavaboulder05
+	morrowind.esm       STAT    in_lavacave2_s_00
+	morrowind.esm       STAT    in_lavacave_form10
+	morrowind.esm       STAT    in_lavacave_sroom2_00
+	morrowind.esm       STAT    in_lavacave_sroom3_00
+	morrowind.esm       STAT    in_lavacave_sroom3_01
+	morrowind.esm       STAT    in_lavacave_sroom4_01
+	morrowind.esm       STAT    in_lavacave_sroom4_05
+	morrowind.esm       STAT    in_moldboulder02
+	morrowind.esm       STAT    in_mudboulder00
+	morrowind.esm       STAT    in_py_rock_01
+	morrowind.esm       STAT    in_py_rock_02
+	morrowind.esm       STAT    in_py_rock_03
+	morrowind.esm       STAT    in_py_rock_08
+	morrowind.esm       STAT    in_pyboulder00
+	morrowind.esm       STAT    in_pyboulder01
+	morrowind.esm       STAT    in_pyboulder02
+	morrowind.esm       STAT    in_pyboulder03
+	morrowind.esm       STAT    in_pyboulder04
+	morrowind.esm       STAT    in_pyboulder05
+	morrowind.esm       STAT    in_pycave2_s_end
+	morrowind.esm       STAT    in_pycave_00
+	morrowind.esm       STAT    in_pycave_26
+	morrowind.esm       STAT    in_pycave_stal20
+	morrowind.esm       STAT    terrain_rock_rm_11
+	morrowind.esm       STAT    terrain_rock_rm_19
+	morrowind.esm       STAT    terrain_rock_rm_23
+	morrowind.esm       STAT    vfx_lightningshield
+	morrowind.esm       WEAP    bonemold bolt
+	morrowind.esm       WEAP    chitin dagger
+	morrowind.esm       WEAP    chitin shortsword
+	morrowind.esm       WEAP    chitin spear
+	morrowind.esm       WEAP    chitin throwing star
+	morrowind.esm       WEAP    chitin war axe
+	morrowind.esm       WEAP    daedric dagger_soultrap
+	morrowind.esm       WEAP    dwarven axe_soultrap
+	morrowind.esm       WEAP    dwarven halberd
+	morrowind.esm       WEAP    dwarven mace
+	morrowind.esm       WEAP    dwarven shortsword
+	morrowind.esm       WEAP    dwarven spear
+	morrowind.esm       WEAP    dwarven war axe
+	morrowind.esm       WEAP    dwarven warhammer
+	morrowind.esm       WEAP    dwemer jinksword
+	morrowind.esm       WEAP    ebony spear
+	morrowind.esm       WEAP    glass throwing star
+	morrowind.esm       WEAP    iron bolt
+	morrowind.esm       WEAP    iron warhammer
+	tribunal.esm        ACTI    act_crystal_01_pulse
+	tribunal.esm        ACTI    act_dwe_cavein00
+	tribunal.esm        ACTI    act_dwe_fan00
+	tribunal.esm        ACTI    act_dwe_lever_a
+	tribunal.esm        ACTI    active_de_r_bed_01
+	tribunal.esm        ACTI    active_de_r_bed_18
+	tribunal.esm        ACTI    chimney_smoke_green
+	tribunal.esm        ACTI    ex_vivec_waterfall_03
+	tribunal.esm        ACTI    furn_dwrv_beltdrive
+	tribunal.esm        ACTI    furn_dwrv_dynamo
+	tribunal.esm        ACTI    furn_dwrv_fitting40
+	tribunal.esm        ACTI    furn_dwrv_steam_00
+	tribunal.esm        ACTI    furn_dwrv_tranny00
+	tribunal.esm        ACTI    in_om_waterfall
+	tribunal.esm        ACTI    sound_cave_wind00
+	tribunal.esm        ACTI    sound_power_hum
+	tribunal.esm        ACTI    sound_sotha_sparks
+	tribunal.esm        ACTI    sound_waterfall00
+	tribunal.esm        ACTI    steam_lavariver
+	tribunal.esm        ALCH    p_dwemer_lubricant00
+	tribunal.esm        BOOK    bk_bookofdaedra
+	tribunal.esm        BOOK    bk_chroniclesnchuleft
+	tribunal.esm        BOOK    bk_easternprovincesimpartial
+	tribunal.esm        BOOK    book_dwe_boom00
+	tribunal.esm        BOOK    book_dwe_cogs00
+	tribunal.esm        BOOK    book_dwe_mach00
+	tribunal.esm        BOOK    book_dwe_metal_fab00
+	tribunal.esm        BOOK    book_dwe_pipe00
+	tribunal.esm        BOOK    book_dwe_power_con00
+	tribunal.esm        BOOK    book_dwe_water00
+	tribunal.esm        CLOT    common_robe_eot
+	tribunal.esm        CLOT    common_shoes_06
+	tribunal.esm        CONT    chest_small_01_ingred10
+	tribunal.esm        CONT    chest_small_01_soulgem
+	tribunal.esm        CONT    com_basket_01_pos
+	tribunal.esm        CONT    dwrv_closet00
+	tribunal.esm        CONT    flora_plant_01
+	tribunal.esm        CONT    flora_plant_07
+	tribunal.esm        CONT    flora_plant_08
+	tribunal.esm        DOOR    door_dwe_00_exp
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    door_dwrv_loadup00
+	tribunal.esm        INGR    ingred_adamantium_ore_01
+	tribunal.esm        LIGH    green light_256
+	tribunal.esm        LIGH    light_dwe_bulb00
+	tribunal.esm        LIGH    purple_1600
+	tribunal.esm        MISC    dwemer_satchel00
+	tribunal.esm        MISC    misc_com_bottle_09
+	tribunal.esm        MISC    misc_com_bottle_10
+	tribunal.esm        MISC    misc_com_bottle_11
+	tribunal.esm        MISC    misc_com_bottle_13
+	tribunal.esm        MISC    misc_com_bottle_14
+	tribunal.esm        MISC    misc_de_bowl_01
+	tribunal.esm        MISC    misc_de_foldedcloth00
+	tribunal.esm        MISC    misc_de_goblet_04
+	tribunal.esm        MISC    misc_flask_grease
+	tribunal.esm        MISC    misc_skull00
+	tribunal.esm        MISC    misc_uni_pillow_01
+	tribunal.esm        STAT    furn_de_rug_big_06
+	tribunal.esm        STAT    furn_dwrv_bookshelf00
+	tribunal.esm        STAT    furn_throne_01
+	tribunal.esm        STAT    in_dwe_archway00_end
+	tribunal.esm        STAT    in_dwe_archway00_exp
+	tribunal.esm        STAT    in_dwe_corr2_00_exp
+	tribunal.esm        STAT    in_dwe_corr4_exp
+	tribunal.esm        STAT    in_dwe_end00_exp
+	tribunal.esm        STAT    in_dwe_hall00_exp
+	tribunal.esm        STAT    in_dwe_hall_enter_00
+	tribunal.esm        STAT    in_dwe_hall_wall00_exp
+	tribunal.esm        STAT    in_dwe_pill_bk00
+	tribunal.esm        STAT    in_dwe_pill_bk01
+	tribunal.esm        STAT    in_dwe_pill_bk02
+	tribunal.esm        STAT    in_dwe_pill_bk03
+	tribunal.esm        STAT    in_dwe_pillar00_exp
+	tribunal.esm        STAT    in_dwe_pipe00_exp
+	tribunal.esm        STAT    in_dwe_ramp00_exp
+	tribunal.esm        STAT    in_dwe_rod00_exp
+	tribunal.esm        STAT    in_dwe_rod01_exp
+	tribunal.esm        STAT    in_dwe_slate00
+	tribunal.esm        STAT    in_dwe_slate01
+	tribunal.esm        STAT    in_dwe_slate02
+	tribunal.esm        STAT    in_dwe_slate03
+	tribunal.esm        STAT    in_dwe_slate04
+	tribunal.esm        STAT    in_dwe_slate05
+	tribunal.esm        STAT    in_dwe_slate06
+	tribunal.esm        STAT    in_dwe_slate08
+	tribunal.esm        STAT    in_dwe_slate09
+	tribunal.esm        STAT    in_dwe_utilcorr00_exp
+	tribunal.esm        STAT    in_dwe_utilcorr01_exp
+	tribunal.esm        STAT    in_dwe_weathmach00_exp
+	tribunal.esm        STAT    in_dwrv_corr1_00
+	tribunal.esm        STAT    in_moldboulder05
+	tribunal.esm        WEAP    centurion_projectile_dart
+	tribunal.esm        WEAP    centurion_projectile_dart_shock
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       PGRD    fort frostmoth
+	bloodmoon.esm       PGRD    raven rock
+	bloodmoon.esm       PGRD    raven rock, supply ship
+	bloodmoon.esm       PGRD    skaal village
+	bloodmoon.esm       PGRD    solstheim, castle karstaag, caverns of karstaag
+	bloodmoon.esm       PGRD    solstheim, connorflenge barrow
+	bloodmoon.esm       PGRD    solstheim, fjell
+	bloodmoon.esm       PGRD    solstheim, gronn
+	bloodmoon.esm       PGRD    solstheim, isinfier plains
+	bloodmoon.esm       PGRD    solstheim, kjolver's dwelling
+	bloodmoon.esm       PGRD    solstheim, lake fjalding
+	bloodmoon.esm       PGRD    solstheim, moesring mountains
+	bloodmoon.esm       PGRD    solstheim, mortrag glacier: outer ring
+	bloodmoon.esm       PGRD    solstheim, rimhull
+	bloodmoon.esm       PGRD    solstheim, sjobal
+	bloodmoon.esm       PGRD    solstheim, thirsk
+	bloodmoon.esm       PGRD    solstheim, tombs of skaalara
+	morrowind.esm       CONT    crate_01_dwrv_stuff
+	morrowind.esm       CONT    crate_02_foodmult
+	morrowind.esm       CONT    dwrv_barrel10
+	morrowind.esm       CREA    centurion_steam_dead
+	morrowind.esm       LEVI    random_diamond
+	morrowind.esm       LEVI    random_ebony
+	morrowind.esm       LEVI    random_rawglass
+	morrowind.esm       LIGH    green light_256_2
+	morrowind.esm       LIGH    light_dwrv_neon01
+	morrowind.esm       PGRD    ahallaraddon egg mine
+	morrowind.esm       PGRD    aharunartus
+	morrowind.esm       PGRD    ahemmusa camp
+	morrowind.esm       PGRD    ainab
+	morrowind.esm       PGRD    ald daedroth
+	morrowind.esm       PGRD    ald daedroth, inner shrine
+	morrowind.esm       PGRD    ald daedroth, left wing
+	morrowind.esm       PGRD    ald daedroth, right wing
+	morrowind.esm       PGRD    ald sotha
+	morrowind.esm       PGRD    ald velothi
+	morrowind.esm       PGRD    ald-ruhn
+	morrowind.esm       PGRD    ald-ruhn, venim manor right wing
+	morrowind.esm       PGRD    arkngthand, weepingbell hall
+	morrowind.esm       PGRD    arvel plantation
+	morrowind.esm       PGRD    ascadian isles region
+	morrowind.esm       PGRD    ashalmawia
+	morrowind.esm       PGRD    ashalmawia, shrine, sunken vaults
+	morrowind.esm       PGRD    ashalmimilkala, shrine
+	morrowind.esm       PGRD    ashinabi, smuggler den
+	morrowind.esm       PGRD    ashir-dan
+	morrowind.esm       PGRD    ashlands region
+	morrowind.esm       PGRD    ashurnabitashpi
+	morrowind.esm       PGRD    ashurnibibi
+	morrowind.esm       PGRD    ashurnibibi, shrine
+	morrowind.esm       PGRD    azura's coast region
+	morrowind.esm       PGRD    bal fell
+	morrowind.esm       PGRD    bal isra
+	morrowind.esm       PGRD    bal ur
+	morrowind.esm       PGRD    balmora
+	morrowind.esm       PGRD    balmora, morag tong guild
+	morrowind.esm       PGRD    balmora, temple
+	morrowind.esm       PGRD    bitter coast region
+	morrowind.esm       PGRD    buckmoth legion fort
+	morrowind.esm       PGRD    buckmoth legion fort, prison
+	morrowind.esm       PGRD    caldera
+	morrowind.esm       PGRD    clutter warehouse - everything must go!
+	morrowind.esm       PGRD    dagon fel
+	morrowind.esm       PGRD    derelict shipwreck, upper level
+	morrowind.esm       PGRD    desolate shipwreck, cabin
+	morrowind.esm       PGRD    dren plantation
+	morrowind.esm       PGRD    ebonheart
+	morrowind.esm       PGRD    ebonheart, imperial guard garrison
+	morrowind.esm       PGRD    erabenimsun camp
+	morrowind.esm       PGRD    ghostgate
+	morrowind.esm       PGRD    gnaar mok
+	morrowind.esm       PGRD    gnisis
+	morrowind.esm       PGRD    gnisis, bethamez
+	morrowind.esm       PGRD    gnisis, lower eggmine
+	morrowind.esm       PGRD    grazelands region
+	morrowind.esm       PGRD    hinnabi
+	morrowind.esm       PGRD    hla oad
+	morrowind.esm       PGRD    ilunibi, blackened heart
+	morrowind.esm       PGRD    ilunibi, carcass of the saint
+	morrowind.esm       PGRD    ilunibi, tainted marrow
+	morrowind.esm       PGRD    khuul
+	morrowind.esm       PGRD    kogoruhn
+	morrowind.esm       PGRD    kora-dur
+	morrowind.esm       PGRD    kushtashpi, shrine
+	morrowind.esm       PGRD    maar gan
+	morrowind.esm       PGRD    maba-ilu
+	morrowind.esm       PGRD    mamaea, sanctum of awakening
+	morrowind.esm       PGRD    mannammu
+	morrowind.esm       PGRD    molag amur region
+	morrowind.esm       PGRD    molag mar
+	morrowind.esm       PGRD    moonmoth legion fort
+	morrowind.esm       PGRD    mount kand, cavern
+	morrowind.esm       PGRD    nammu
+	morrowind.esm       PGRD    nchurdamz
+	morrowind.esm       PGRD    odibaal
+	morrowind.esm       PGRD    odrosal
+	morrowind.esm       PGRD    pelagiad
+	morrowind.esm       PGRD    pelagiad, south wall
+	morrowind.esm       PGRD    piran
+	morrowind.esm       PGRD    prelude shipwreck, lower level
+	morrowind.esm       PGRD    prelude shipwreck, upper level
+	morrowind.esm       PGRD    red mountain region
+	morrowind.esm       PGRD    sadrith mora
+	morrowind.esm       PGRD    salmantu
+	morrowind.esm       PGRD    seyda neen
+	morrowind.esm       PGRD    shallit
+	morrowind.esm       PGRD    shara
+	morrowind.esm       PGRD    sheogorad region
+	morrowind.esm       PGRD    shurinbaal
+	morrowind.esm       PGRD    subdun
+	morrowind.esm       PGRD    sud
+	morrowind.esm       PGRD    suran
+	morrowind.esm       PGRD    tel aruhn
+	morrowind.esm       PGRD    tel branora
+	morrowind.esm       PGRD    tel fyr
+	morrowind.esm       PGRD    tel mora
+	morrowind.esm       PGRD    tel vos
+	morrowind.esm       PGRD    tel vos, central tower
+	morrowind.esm       PGRD    telasero, lower level
+	morrowind.esm       PGRD    tukushapal
+	morrowind.esm       PGRD    tureynulal
+	morrowind.esm       PGRD    urshilaku camp
+	morrowind.esm       PGRD    urshilaku, astral burial
+	morrowind.esm       PGRD    urshilaku, fragile burial
+	morrowind.esm       PGRD    urshilaku, kakuna burial
+	morrowind.esm       PGRD    urshilaku, karma burial
+	morrowind.esm       PGRD    urshilaku, laterus burial
+	morrowind.esm       PGRD    uvirith's grave
+	morrowind.esm       PGRD    valenvaryon, propylon chamber
+	morrowind.esm       PGRD    vas
+	morrowind.esm       PGRD    vas, tower
+	morrowind.esm       PGRD    vemynal
+	morrowind.esm       PGRD    vivec, arena underworks
+	morrowind.esm       PGRD    vivec, foreign quarter
+	morrowind.esm       PGRD    vivec, foreign quarter plaza
+	morrowind.esm       PGRD    vivec, foreign quarter underworks
+	morrowind.esm       PGRD    vivec, hall underworks
+	morrowind.esm       PGRD    vivec, hlaalu underworks
+	morrowind.esm       PGRD    vivec, redoran
+	morrowind.esm       PGRD    vivec, redoran underworks
+	morrowind.esm       PGRD    vivec, st. delyn underworks
+	morrowind.esm       PGRD    vivec, st. olms underworks
+	morrowind.esm       PGRD    vivec, telvanni
+	morrowind.esm       PGRD    vivec, telvanni underworks
+	morrowind.esm       PGRD    vivec, temple
+	morrowind.esm       PGRD    vos
+	morrowind.esm       PGRD    west gash region
+	morrowind.esm       PGRD    wolverine hall
+	morrowind.esm       PGRD    yansirramus
+	morrowind.esm       PGRD    yasamsi
+	morrowind.esm       PGRD    zainab camp
+	morrowind.esm       PGRD    zaintiraris
+	morrowind.esm       PGRD    zanabi
+	morrowind.esm       PGRD    zebabi
+	morrowind.esm       PGRD    zenarbael
+	morrowind.esm       PGRD    zergonipal
+	morrowind.esm       WEAP    chitin arrow
+	morrowind.esm       WEAP    dire flamearrow
+	morrowind.esm       WEAP    dwarven crossbow
+	morrowind.esm       WEAP    iron arrow
+	morrowind.esm       WEAP    sunder_fake
+	tribunal.esm        CREA    centurion_steam
+	tribunal.esm        CREA    centurion_steam_advance
+	tribunal.esm        CREA    centurion_steam_exhibit
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        PGRD    bamz-amschend, hall of wails
+	tribunal.esm        PGRD    bamz-amschend, hearthfire hall
+	tribunal.esm        PGRD    bamz-amschend, king's walk
+	tribunal.esm        PGRD    mournhold, godsreach
+	tribunal.esm        PGRD    mournhold, great bazaar
+	tribunal.esm        PGRD    mournhold, temple courtyard
+	tribunal.esm        PGRD    norenen-dur
+	tribunal.esm        PGRD    norenen-dur, the grand stair
+	tribunal.esm        PGRD    norenen-dur, the teeth that gnash
+	tribunal.esm        PGRD    norenen-dur, the wailingdelve
+	tribunal.esm        PGRD    old mournhold: abandoned crypt
+	tribunal.esm        PGRD    old mournhold: armory ruins
+	tribunal.esm        PGRD    old mournhold: bazaar sewers
+	tribunal.esm        PGRD    old mournhold: city gate
+	tribunal.esm        PGRD    old mournhold: forgotten sewer
+	tribunal.esm        PGRD    old mournhold: manor district
+	tribunal.esm        PGRD    old mournhold: moril manor, courtyard
+	tribunal.esm        PGRD    old mournhold: palace sewers
+	tribunal.esm        PGRD    old mournhold: residential ruins
+	tribunal.esm        PGRD    old mournhold: residential sewers
+	tribunal.esm        PGRD    old mournhold: tears of amun-shae
+	tribunal.esm        PGRD    old mournhold: temple crypt
+	tribunal.esm        PGRD    old mournhold: temple gardens
+	tribunal.esm        PGRD    old mournhold: temple sewers
+	tribunal.esm        PGRD    old mournhold: west sewers
+	tribunal.esm        PGRD    sotha sil, dome of serlyn
+	tribunal.esm        PGRD    sotha sil, inner flooded halls
+	tribunal.esm        PGRD    sotha sil, outer flooded halls
+
+[DUP-INF]: ID=13568231434823734(Greeting:greeting 1)
+  |DATA|ONAM:lich_relvel|NAME:Weakling! You dare to cross my threshold? You, then, will be the first to fall, before the undead army sweeps across this land like a plague, cleansing it of your flesh.  Die, mortal!|BNAM:StartCombat Player  SetFight 100  Goodbye

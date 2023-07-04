@@ -1,0 +1,50 @@
+Reign of Fire v1.92BETA [Razhkul, Rev. Gluby].esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ra_script_placePC)
+	SCPT(ra_tu_anudnabia_exit_script)
+	SCPT(ra_tu_bs_cinematic)
+	SCPT(raz_akhekhu_script)
+	SCPT(raz_anudnabia_door_script)
+	SCPT(raz_arkaghmul_door_script)
+	SCPT(raz_azhknurabi_door_script)
+	SCPT(raz_dakgorim_lair_script)
+	SCPT(raz_dragons_position_script)
+	SCPT(raz_dragonspos_script)
+	SCPT(raz_dragonstate_script)
+	SCPT(raz_escape_trap_script)
+	SCPT(raz_faric_script)
+	SCPT(raz_fire_hla_script)
+	SCPT(raz_gem_peryite_script)
+	SCPT(raz_guard_script)
+	SCPT(raz_julius_corpse_script)
+	SCPT(raz_julius_journal_script)
+	SCPT(raz_lairdoor02_script)
+	SCPT(raz_plxy_script)
+	SCPT(raz_salus_script)
+	SCPT(raz_scripted_items_replace)
+	SCPT(raz_unthoiz_lair_script)
+	SCPT(raz_unthoiz_lairdoor_script)
+	SCPT(raz_urn1_script)
+	SCPT(raz_urn2_script)
+	SCPT(raz_urn3_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       SNDG    
+	morrowind.esm       DIAL    dragons
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+
+[MOD-INF]: ID=35278835236106445(Topic:latest rumors)
+  bloodmoon.esm------------------------------------->|DATA|ANAM:Fort Frostmoth|NAME:Locals say berserkers aren't normal, they've gone wild and roam among the animals on the island.|SCVR:02sX3Random100|INTV
+  Reign of Fire v1.92BETA [Razhkul, Rev. Gluby].esp->|DATA|ANAM:Fort Frostmoth|NAME:Locals say berserkers aren't normal. They've gone wild and roam among the animals on the island.|SCVR:02sX3Random100|INTV
+
+[MOD-INF]: ID=137152282879213361(Topic:dragons)
+  morrowind.esm------------------------------------->|DATA|ONAM:m'aiq|NAME:Dragons? Oh, they're everywhere! You must fly very high to see most of them, though. The ones nearer the ground are very hard to see, being invisible.
+  Reign of Fire v1.92BETA [Razhkul, Rev. Gluby].esp->|DATA|ONAM:m'aiq|NAME:Dragons? Oh, they are everywhere! You must fly very high to see most of them, though. The ones nearer to the ground are very hard to see, being invisible.
+
+[DUP-INF]: ID=215411858828613531(Topic:latest rumors)
+  |DATA|ANAM:Fort Frostmoth|NAME:Watch yourself at Thirsk. Nothing but a bunch of drunken barbarians, I tell you.
+
+[DUP-INF]: ID=27518247831477521212(Greeting:greeting 5)
+  |DATA|ONAM:Geon Auline|NAME:Hello.  I am Geon Auline, collector of fine artifacts.|SCVR:04JX0MS_EstateSale|INTV:

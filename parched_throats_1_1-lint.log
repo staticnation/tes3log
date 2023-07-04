@@ -1,0 +1,11 @@
+parched_throats_1_1.ESP: DUP-INF DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(alcohol_detection_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(alcohol_detection_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    hello
+
+[DUP-INF]: ID=1709302711210241(Voice:hello)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you

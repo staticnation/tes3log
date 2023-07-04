@@ -1,0 +1,89 @@
+Shipyards of Vvardenfell.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1384891 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Arasscript)
+	SCPT(Arenimscript)
+	SCPT(Arenimscript2)
+	SCPT(DisappearMe)
+	SCPT(DisappearMyShip)
+	SCPT(DisappearMyShip2)
+	SCPT(Gergioscript)
+	SCPT(Lalainescript)
+	SCPT(Mavassa)
+	SCPT(Salvani_global_script)
+	SCPT(Salvaniscript)
+	SCPT(Shipyarddoor1)
+	SCPT(Shipyarddoor2)
+	SCPT(Shipyarddoor3)
+	SCPT(Tirnurscript)
+	SCPT(Ulvon2script)
+	SCPT(Ulvon3script)
+	SCPT(Ulvonscript)
+	SCPT(Varusscript)
+	SCPT(dreughappear)
+	SCPT(wind-in-ears-script)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    rm_rock_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       DIAL    slaves
+	morrowind.esm       LAND    (17, 4)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_scrub plain
+	tamriel_data.esm    DIAL    greeting 2
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+	tribunal.esm        NPC_    eno romari
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=68043514740020060(Greeting:greeting 1)
+  |DATA|ONAM:Alvan Llarys|NAME:Have you any news, %PCName?|SCVR:04JX2MS_Thief|INTV|SCVR:14JX4MS_Thief|INTV:Z
+
+[DUP-INF]: ID=787419786402628286(Topic:background)
+  |DATA|ONAM:bugdul gro-kharbush|NAME:I'm the building foreman for Indarys Manor.
+
+[DUP-INF]: ID=1009424795316348028(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Have you any news about the Crimson Plague, %PCName?|SCVR:04JX3MS_CrimsonPlague|INTV:x
+
+[DUP-INF]: ID=3073727345798427030(Topic:background)
+  |DATA|ONAM:brara morvayn|NAME:My husband was a Councilor of House Redoran. He died defending our manor from blighted monsters. I now hold his seat on the Council.
+
+[DUP-INF]: ID=11086177241786024123(Greeting:greeting 2)
+  |DATA|ONAM:marara|NAME:All I wish is to be finished with this living death.|SCVR:01600|INTV|SCVR:14JX2VA_VampMarara|INTV: 
+
+[DUP-INF]: ID=23349198911001418656(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Were you able to help Shunari, %PCName?|SCVR:04JX0MS_CrimsonPlague|INTV:n
+
+[DUP-INF]: ID=28288248112506910274(Greeting:greeting 2)
+  |DATA|ONAM:mastrius|NAME:I must escape this dungeon. It has been too long since I have tasted the blood of man or mer.|SCVR:01600|INTV|SCVR:14JX2VA_VampCurse|INTV

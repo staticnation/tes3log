@@ -1,0 +1,44 @@
+BE_HousesForSale.esp: DUP-INF DUP-REC MASTERS MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tribunal.esm                 4554200 (plugin)    4565686 (installed size)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       PGRD    caldera
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       LAND    (-12, 10)
+	morrowind.esm       LAND    (-12, 11)
+	morrowind.esm       LAND    (0, -7)
+	morrowind.esm       LAND    (2, -14)
+	morrowind.esm       LAND    (2, -15)
+	morrowind.esm       LAND    (3, -14)
+	morrowind.esm       LAND    (6, -7)
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rm_grayrock
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0

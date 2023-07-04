@@ -1,0 +1,106 @@
+veg-TotW-books.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(veg-domba_add_letter)
+	SCPT(veg-earmil_add_journal)
+	SCPT(veg-gnawtooth_add_letter)
+	SCPT(veg-thovasi_add_letter)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ald sotha
+	morrowind.esm       DIAL    assernerairan
+	morrowind.esm       DIAL    mt_s_glibspeech
+	morrowind.esm       DIAL    mt_s_golden
+	morrowind.esm       DIAL    mt_s_green
+	morrowind.esm       DIAL    mt_s_impaling
+	morrowind.esm       DIAL    mt_s_leaping
+	morrowind.esm       DIAL    mt_s_safekeeping
+	morrowind.esm       DIAL    mt_s_silver
+	morrowind.esm       DIAL    mt_s_smiting
+	morrowind.esm       DIAL    mt_s_stalking
+	morrowind.esm       DIAL    mt_s_sublime
+	morrowind.esm       DIAL    mt_s_unseen
+	morrowind.esm       DIAL    sanguine balanced armor
+	morrowind.esm       DIAL    sanguine deep biting
+	morrowind.esm       DIAL    sanguine denial
+	morrowind.esm       DIAL    sanguine enterprise
+	morrowind.esm       DIAL    sanguine fluid evasion
+	morrowind.esm       DIAL    sanguine glib speech
+	morrowind.esm       DIAL    sanguine golden wisdom
+	morrowind.esm       DIAL    sanguine green wisdom
+	morrowind.esm       DIAL    sanguine hewing
+	morrowind.esm       DIAL    sanguine horny fist
+	morrowind.esm       DIAL    sanguine impaling thrust
+	morrowind.esm       DIAL    sanguine leaping
+	morrowind.esm       DIAL    sanguine martial craft
+	morrowind.esm       DIAL    sanguine nimble armor
+	morrowind.esm       DIAL    sanguine red wisdom
+	morrowind.esm       DIAL    sanguine safekeeping
+	morrowind.esm       DIAL    sanguine silver wisdom
+	morrowind.esm       DIAL    sanguine smiting
+	morrowind.esm       DIAL    sanguine stalking
+	morrowind.esm       DIAL    sanguine stolid armor
+	morrowind.esm       DIAL    sanguine sublime wisdom
+	morrowind.esm       DIAL    sanguine sureflight
+	morrowind.esm       DIAL    sanguine swiftblade
+	morrowind.esm       DIAL    sanguine transcendence
+	morrowind.esm       DIAL    sanguine transfiguring
+	morrowind.esm       DIAL    sanguine unseen wisdom
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    mt_db_aldsotha
+	tribunal.esm        DIAL    mt_db_assernerairan
+
+[MOD-INF]: ID=2353518456423470(Journal:mt_s_impaling)
+  morrowind.esm------>|DATA|NAME:I have returned the Belt of Sanguine Impaling, one of the 27 Threads of the Webspinner.
+  veg-TotW-books.esp->|DATA|NAME:I have returned the Belt of Sanguine Impaling Thrust, one of the 27 Threads of the Webspinner.
+
+[MOD-INF]: ID=22997706194302552(Topic:assernerairan)
+  morrowind.esm------>|DATA|ONAM:eno hlaalu|NAME:Assernerairan is in the Underworks of the St. Olms Canton here in Vivec City. Find this foul place and honorably execute Durus Marius, the leader of these Mehrunes Dagon cultists.|SCVR:44JX3MT_S_Sublime|INTV:d|BNAM:Journal MT_DB_Assernerairan 10
+  veg-TotW-books.esp->|DATA|ONAM:eno hlaalu|NAME:Assernerairan is in the Underworks of the St. Olms Canton here in Vivec City. Find this foul place and honorably execute Durus Marius, the leader of these Mehrunes Dagon cultists. If you should see Relas Arothan, be sure to deal with him as well.|SCVR:44JX3MT_S_Sublime|INTV:d|BNAM:Journal MT_DB_Assernerairan 10  addtopic "Relas Arothan"  addtopic "Durus Marius"
+
+[MOD-INF]: ID=25637956482522538(Topic:sanguine sublime wisdom)
+  morrowind.esm------>|DATA|ONAM:eno hlaalu|NAME:The Ring of Sanguine Sublime Wisdom is held by Anel Rethelas. He may be found in the Daedric ruins of Yasammidan west of Ald Velothi, past the Dwemer ruins.|SCVR:34JX3MT_S_Fleetness|INTV:d|SCVR:44JX3MT_DB_Carecalmo|INTV:d|BNAM:Journal MT_S_Sublime 10
+  veg-TotW-books.esp->|DATA|ONAM:eno hlaalu|NAME:The Ring of Sanguine Sublime Wisdom is held by Anel Rethelas. He may be found in the Daedric ruins of Yasammidan west of Ald Velothi, past the Dwemer ruins. My source tells me that Rethelas may have more than one item of interest. If so, they may not all be with him. Search the ruin well if you can.|SCVR:34JX3MT_S_Fleetness|INTV:d|SCVR:44JX3MT_DB_Carecalmo|INTV:d|BNAM:Journal MT_S_Sublime 10  addtopic "Anel Rethelas"
+
+[MOD-INF]: ID=138341861636321048(Topic:ald sotha)
+  morrowind.esm------>|DATA|ONAM:eno hlaalu|NAME:Ald Sotha is northeast of Vivec. Somewhere in Ald Sotha you will find Severa Magia, the Night Mother of the Dark Brotherhood in Vvardenfell. Slay her and return to me.|SCVR:44JX3MT_DB_Assernerairan|INTV:d|BNAM:ShowMap "Ald Sotha"  Journal MT_DB_AldSotha 10
+  veg-TotW-books.esp->|DATA|ONAM:eno hlaalu|NAME:Ald Sotha is northeast of Vivec. Somewhere in Ald Sotha you will find Severa Magia, the Night Mother of the Dark Brotherhood in Vvardenfell. And look out for Llandrale Varam while you're there. She's been one of Severa's top agents for years, and her death would deal a significant second blow to the Dark Brotherhood. Slay them and return to me.|SCVR:44JX3MT_DB_Assernerairan|INTV:d|BNAM:ShowMap "Ald Sotha"  Journal MT_DB_AldSotha 10  addtopic "Severa Magia"  addtopic "Llandrale Varam"
+
+[MOD-INF]: ID=244782590612424749(Topic:sanguine impaling thrust)
+  morrowind.esm------>|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:You have been expelled from the Morag Tong... But I see you have one of the Threads of the Webspinner. Will you return this Thread?|SCVR:01390|INTV|SCVR:15IX3sanguineshoesstalking|INTV|BNAM:Choice "Yes, here it is" 1 "No" 2
+  veg-TotW-books.esp->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:You have been expelled from the Morag Tong... But I see you have one of the Threads of the Webspinner. Will you return this Thread?|SCVR:01390|INTV|SCVR:15IX3sanguinebeltimpaling|INTV|BNAM:Choice "Yes, here it is" 1 "No" 2
+
+[MOD-INF]: ID=261262802229034686(Topic:sanguine enterprise)
+  morrowind.esm------>|DATA|ONAM:eno hlaalu|NAME:The amulet of Sanguine Enterprise is one of the threads of the Webspinner. I already have this thread. Perhaps you will find other threads. When you do, bring them to me.
+  veg-TotW-books.esp->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:The Amulet of Sanguine Enterprise is one of the Threads of the Webspinner. I already have this Thread. Perhaps you will find other Threads. When you do, bring them to me.
+
+[MOD-INF]: ID=596087961075116800(Topic:latest rumors)
+  tribunal.esm------->|DATA|ONAM:raig|NAME:Dro'Zaymar, a Khajiit in St. Delyn, can jump higher than anyone I know. I wonder what his secret is.
+  veg-TotW-books.esp->|DATA|ONAM:raig|DNAM:Morag Tong|NAME:Dro'Zaymar, a Khajiit in St. Delyn, can jump higher than anyone I know. I wonder what his secret is.|SCVR:05IX0sanguineshoesleaping|INTV:|SCVR:24JX2MT_S_Leaping|INTV:|SCVR:34JX5MT_S_Leaping|INTV|BNAM:Journal MT_S_Leaping 30
+
+[MOD-INF]: ID=3156031323715728928(Journal:mt_s_sublime)
+  morrowind.esm------>|DATA|NAME:I have returned the Ring of Sanguine Sublime Wisdom, one of the 27 Threads of the Webspinner.
+  veg-TotW-books.esp->|DATA|NAME:I have returned the Ring of Sanguine Sublime Wisdom, one of the 27 Threads of the Webspinner. The Grandmaster said that if I ask him about the remaining Threads of the Webspinner, he will share what little he knows about them with me.
+
+[MOD-INF]: ID=12456269712089918557(Journal:mt_s_sublime)
+  morrowind.esm------>|DATA|NAME:Grandmaster Eno Hlaalu asked me to return the Ring of Sublime Wisdom, one of the 27 Threads of the Webspinner. It is being held by Anel Rethelas in Yasammidan, which is west of Ald Velothi, past the Dwemer ruins.
+  veg-TotW-books.esp->|DATA|NAME:Grandmaster Eno Hlaalu asked me to return the Ring of Sublime Wisdom, one of the 27 Threads of the Webspinner. It is being held by Anel Rethelas in Yasammidan, which is west of Ald Velothi, past the Dwemer ruins. I should search the ruin well... Rethelas may be in possession of more than the ring.
+
+[MOD-INF]: ID=16939167562660710021(Topic:sanguine enterprise)
+  morrowind.esm------>|DATA|ONAM:eno hlaalu|NAME:You have returned all the Threads of the Webspinner.|SCVR:02sX3ThreadsWebspinner|INTV
+  veg-TotW-books.esp->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:You have returned all the Threads of the Webspinner.|SCVR:02sX3ThreadsWebspinner|INTV
+
+[MOD-INF]: ID=25481185491349019796(Journal:mt_db_aldsotha)
+  tribunal.esm------->|DATA|NAME:The Dark Brotherhood in Vvardenfell keep their headquarters in the ruins of Ald Sotha, which is northeast of Vivec City. I must go there and honorably execute the local Night Mother of the Dark Brotherhood, Severa Magia.
+  veg-TotW-books.esp->|DATA|NAME:The Dark Brotherhood in Vvardenfell keep their headquarters in the ruins of Ald Sotha, which is northeast of Vivec City. I must go there and honorably execute the local Night Mother of the Dark Brotherhood, Severa Magia. I should also slay Llandrale Varam if I can find her. Taking them both out will deal a significant blow to the Dark Brotherhood.
+
+[MOD-INF]: ID=25647174842010328702(Topic:sanguine sublime wisdom)
+  morrowind.esm------>|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:So the Threads return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_HornyFist 100  Player->RemoveItem SanguineRGloveHornyFist 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  veg-TotW-books.esp->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:So the Threads return to us one by one. Now that you have returned the few Threads I knew the whereabouts of, I will share what I know about the remaining Threads with you. Ask me about them, and I will tell you everything I know.|SCVR:01500|INTV|BNAM:Journal MT_S_Sublime 100  Player->RemoveItem SanguineRingSublimeW 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10  addtopic "remaining Threads"
+
+[MOD-INF]: ID=29288324391209824912(Journal:mt_db_assernerairan)
+  tribunal.esm------->|DATA|NAME:One of the Dark Brotherhood's bases is in Assernerairan, which is beneath St. Olms Canton here in Vivec City. I must honorably execute the leader, Durus Marius, and report back to Grandmaster Eno Hlaalu.
+  veg-TotW-books.esp->|DATA|NAME:One of the Dark Brotherhood's bases is in Assernerairan, which is beneath St. Olms Canton here in Vivec City. I must honorably execute the leader, Durus Marius, and report back to Grandmaster Eno Hlaalu. The Grandmaster warned me to look out for Relas Arothan, who may be protecting Marius.
+
+[MOD-INF]: ID=29464191702272012639(Topic:latest rumors)
+  tribunal.esm------->|DATA|ONAM:fandus puruseius|NAME:An Orc over at the Gateway Inn in Sadrith Mora by the name of Gluronk was bragging about how her boss gave her a "sanguine belt."|SCVR:06DX0gluronk gra-shula|INTV:
+  veg-TotW-books.esp->|DATA|ONAM:fandus puruseius|DNAM:Morag Tong|NAME:An Orc over at the Gateway Inn in Sadrith Mora by the name of Gluronk was bragging about how someone gave her a "sanguine belt."|SCVR:06DX0gluronk gra-shula|INTV:|BNAM:Journal MT_S_Impaling 20

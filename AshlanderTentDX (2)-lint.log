@@ -1,0 +1,57 @@
+AshlanderTentDX (2).esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_at_banner_script)
+	SCPT(_at_cali_mann_PHF1)
+	SCPT(_at_cali_mann_PHF10)
+	SCPT(_at_cali_mann_PHF2)
+	SCPT(_at_cali_mann_PHF3)
+	SCPT(_at_cali_mann_PHF4)
+	SCPT(_at_cali_mann_PHF5)
+	SCPT(_at_cali_mann_PHF6)
+	SCPT(_at_cali_mann_PHF7)
+	SCPT(_at_cali_mann_PHF8)
+	SCPT(_at_cali_mann_PHF9)
+	SCPT(_at_cali_mann_PHM1)
+	SCPT(_at_cali_mann_PHM10)
+	SCPT(_at_cali_mann_PHM2)
+	SCPT(_at_cali_mann_PHM3)
+	SCPT(_at_cali_mann_PHM4)
+	SCPT(_at_cali_mann_PHM5)
+	SCPT(_at_cali_mann_PHM6)
+	SCPT(_at_cali_mann_PHM7)
+	SCPT(_at_cali_mann_PHM8)
+	SCPT(_at_cali_mann_PHM9)
+	SCPT(_at_coe_approach)
+	SCPT(_at_coe_generic)
+	SCPT(_at_coe_vvardenfell_hi)
+	SCPT(_at_coe_vvardenfell_lo)
+	SCPT(_at_coe_vvardenfell_mid)
+	SCPT(_at_expansion_script)
+	SCPT(_at_flag_script)
+	SCPT(_at_ingredients_crystal_sc)
+	SCPT(_at_ingredients_urn_script)
+	SCPT(_at_norecall_script)
+	SCPT(_at_return_script)
+	SCPT(_at_setcell)
+	SCPT(_at_teleport)
+	SCPT(_at_tent_door_script)
+	SCPT(_at_tent_ex_door_scipt)
+	SCPT(_at_tent_placeholder_script)
+	SCPT(_at_tent_script)
+	SCPT(_at_timsar_build)
+	SCPT(_at_timsar_build_x)
+	SCPT(_at_timsar_check)
+	SCPT(_at_timsar_guar_script)
+	SCPT(_at_timsar_remove_hides)
+	SCPT(_at_timsar_remove_soul)
+	SCPT(_at_timsar_script)
+	SCPT(_at_x_ingredients_crystal_sc)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    koffutto gilgar
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=961610326284295759(Topic:my trade)
+  morrowind.esm----------->|DATA|CNAM:Merchant|NAME:I am a merchant. I look for goods that are well-made, that people want to buy, that I can buy and sell at a profit. There are many different kinds of materials I can buy and sell -- animal products, vegetable products, mineral products, even exotic products. Crafts and manufactured goods I deal in include weapons, armor, clothing, books, potions, enchanted items, and various housewares. I travel, talk with people I meet, buy what I like, and sell what people like.|SCVR:0CsX0NoLore|INTV:|BNAM:;Merchant; generic merchants do not have services, and do not buy and sell; they are just merchant quest and scenery characters
+  AshlanderTentDX (2).esp->|DATA|CNAM:Tent maker|NAME:I am an Ashlander tent maker. I have knowledge of the land and its creatures to create homes that are in harmony with the physical and spiritual world. Through my knowledge of mysticism my works can hold more than meets the eye.|SCVR:0CsX0NoLore|INTV:|BNAM:AddTopic, "Ashlander Tent"

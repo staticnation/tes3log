@@ -1,0 +1,60 @@
+The Raven 1.5.4.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Sorkvild_death)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dagon fel
+	morrowind.esm       DIAL    dwemer ruins
+	morrowind.esm       DIAL    errand
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    masque of clavicus vile
+	morrowind.esm       DIAL    sorkvild the raven
+	morrowind.esm       DIAL    thief
+	morrowind.esm       NPC_    gilse darethi
+	morrowind.esm       NPC_    hlora long-leg
+	morrowind.esm       NPC_    minedhel
+	morrowind.esm       NPC_    sorkvild the raven
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+
+[MOD-INF]: ID=23616259493678069(Topic:masque of clavicus vile)
+  morrowind.esm------->|DATA|ONAM:sorkvild the raven|NAME:I've heard of such a thing. No doubt it exists. But I have no idea where it might be.
+  The Raven 1.5.4.esp->|DATA|ONAM:sorkvild the raven|NAME:Clavicus Vile was the most vain of the Daedra Gods, and forged a masque that suited to his own personality.|SCVR:04JX0Sorka4_4|INTV
+
+[MOD-INF]: ID=51221362149622068(Persuasion:intimidate fail)
+  morrowind.esm------->|DATA|ONAM:ghost_npc_ane teria|NAME:Speak with disrespect to the spirits, and you will regret it.
+  The Raven 1.5.4.esp->|DATA|ONAM|NAME:If Sorkvild wanted to lean on me, he should have sent a proper thug.|SCVR:04JX0Sorka2_2|INTV: 
+
+[MOD-INF]: ID=119818862849716705(Topic:dagon fel)
+  morrowind.esm------->|DATA|ONAM:sorkvild the raven|NAME:The locals haven't shown an appreciation of my unique talents.
+  The Raven 1.5.4.esp->|DATA|ONAM:gilse darethi|NAME:I can't stand the place. Full of brash, noisy Nords who spend their time drinking and fighting.
+
+[MOD-INF]: ID=119818862849716705(Topic:dagon fel)
+  morrowind.esm------->|DATA|ONAM:sorkvild the raven|NAME:The locals haven't shown an appreciation of my unique talents.
+  The Raven 1.5.4.esp->|DATA|ONAM:gilse darethi|NAME:I can't stand the place. Full of brash, noisy Nords who spend their time drinking and fighting.
+[MOD-IID]: ID=494522521206245424
+  The Raven 1.5.4.esp->The locals haven't shown an appreciation of my unique talents.
+
+[MOD-INF]: ID=2026931390522213661(Topic:sorkvild the raven)
+  morrowind.esm------->|DATA|ONAM:sorkvild the raven|NAME:Speaking.
+  The Raven 1.5.4.esp->|DATA|FNAM|NAME:Are you suggesting what I think you're suggesting?|SCVR:04JX0Sorka2_2|INTV: 
+
+[DUP-INF]: ID=2267528022103868317(Persuasion:intimidate success)
+  |DATA|ONAM:cunius pelelius|NAME:Alright, alright. I'll tell you this because I trust you. Take this key. There's a record book in Odral's Helvi chest on the second floor. Stendar have mercy on me if anyone finds out about this.|SCVR:03sX0givenKey|INTV:|SCVR:34JX3HR_CalderaCorrupt|INTV: |BNAM:Player->AddItem key_odral_helvi 1  Set givenKey to 1  Journal HR_CalderaCorrupt 30
+
+[MOD-INF]: ID=31040289702998226325(Topic:someone in particular)
+  morrowind.esm------->|DATA|NAME:Fryfnhild is the publican and proprietor of the End of the World tradehouse. Sarnir the Clerk is an Imperial agent, here to investigate the disappearance of a scholar. A Nord wizard, Sorkvild the Raven, has occupied an old wizard's tower east of town.|SCVR:07XX0fryfnhild|INTV|SCVR:17XX0sarnir the clerk|INTV|SCVR:27XX0sorkvild the raven|INTV|INTV|SCVR:4CsX0nolore|INTV:|BNAM:;Dagon Fel;
+  The Raven 1.5.4.esp->|DATA|NAME:Fryfnhild is the publican and proprietor of the End of the World tradehouse. Sarnir the Clerk is an Imperial agent, here to investigate the disappearance of a scholar. A Nord wizard, Sorkvild the Raven, has occupied an old wizard's tower east of town.|SCVR:07XX0fryfnhild|INTV|SCVR:17XX0sarnir the clerk|INTV|SCVR:27XX0sorkvild the raven|INTV|INTV|SCVR:4CsX0NoLore|INTV:|SCVR:5BLX0Dagon Fel, Sorkvild's Tower|INTV|BNAM:;Dagon Fel;

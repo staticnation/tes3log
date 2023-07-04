@@ -1,0 +1,24 @@
+FGI_Balmora_Hunger.esp: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    hunger_fghl
+	morrowind.esm       DIAL    sarano tomb
+	tribunal.esm        DIAL    fg_hungerloose
+
+[MOD-INF]: ID=32478233302529384(Topic:sarano tomb)
+  morrowind.esm---------->|DATA|ONAM:eydis fire-eye|NAME:You already killed the Hunger? Then take the 1000 septims for this contract.|SCVR:06DX3hunger_fghl|INTV|SCVR:34JX0FG_HungerLoose|INTV:|BNAM:Journal FG_HungerLoose 100  Player->AddItem Gold_001 1000  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10
+  FGI_Balmora_Hunger.esp->|DATA|ONAM:eydis fire-eye|NAME:You already killed the Hunger? Then take the 1000 septims for this contract.|SCVR:06DX3hunger_fghl|INTV|SCVR:34JX0FG_HungerLoose|INTV:|SCVR:44JX3FG_VerethiGang|INTV:d|BNAM:Journal FG_HungerLoose 100  Player->AddItem Gold_001 1000  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10  Player->ModReputation 1
+
+[DUP-INF]: ID=63713957387728219(Topic:sarano tomb)
+  |DATA|ONAM:eydis fire-eye|NAME:You've been expelled from the Fighters Guild. Until you make amends, I cannot discuss contracts with you.|SCVR:01390|INTV
+
+[MOD-INF]: ID=477917962517610214(Topic:sarano tomb)
+  morrowind.esm---------->|DATA|ONAM:eydis fire-eye|NAME:A Hunger has violated the Sarano Tomb. Go to this tomb, which is over the hills southeast of Fort Moonmoth between the Ashlands and Lake Amaya, and kill the Hunger.|BNAM:Journal FG_HungerLoose 10
+  FGI_Balmora_Hunger.esp->|DATA|ONAM:eydis fire-eye|NAME:A Hunger has violated the Sarano Tomb. Go to this tomb, which is over the hills southeast of Fort Moonmoth between the Ashlands and Lake Amaya, and kill the Hunger. If you need more precise directions to the tomb, try asking in Fort Moonmoth.|SCVR:04JX3FG_VerethiGang|INTV:d|BNAM:Journal FG_HungerLoose 10
+
+[DUP-INF]: ID=1670290122322126271(Topic:sarano tomb)
+  |DATA|ONAM:eydis fire-eye|NAME:Everyone is grateful to you for clearing the Tomb of the Hunger.|SCVR:34JX3FG_HungerLoose|INTV:d
+
+[MOD-INF]: ID=15865178062262113089(Topic:sarano tomb)
+  morrowind.esm---------->|DATA|ONAM:eydis fire-eye|NAME:I am sure the Sarano family is grateful. In the meantime, here's some more tangible gratitude: 1000 septims.|SCVR:06DX3hunger_fghl|INTV|SCVR:14JX0FG_HungerLoose|INTV: |BNAM:Journal FG_HungerLoose 100  Player->AddItem Gold_001 1000  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10
+  FGI_Balmora_Hunger.esp->|DATA|ONAM:eydis fire-eye|NAME:I am sure the Sarano family is grateful. In the meantime, here's some more tangible gratitude: 1000 septims.|SCVR:06DX3hunger_fghl|INTV|SCVR:14JX0FG_HungerLoose|INTV: |BNAM:Journal FG_HungerLoose 100  Player->AddItem Gold_001 1000  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10  Player->ModReputation 1

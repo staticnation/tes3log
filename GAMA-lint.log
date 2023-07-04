@@ -1,0 +1,772 @@
+GAMA.esp: DUP-INF DUP-REC MENUMOD MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(GAMA_deadPemenie)
+	SCPT(GAMA_disableBotrir)
+	SCPT(GAMA_disableDin)
+	SCPT(GAMA_disableFalanu)
+	SCPT(GAMA_disableHlormar)
+	SCPT(GAMA_disableLucan)
+	SCPT(GAMA_disableMalexa)
+	SCPT(GAMA_disableMarsus)
+	SCPT(GAMA_disableMaurrie)
+	SCPT(GAMA_disablePaur)
+	SCPT(GAMA_disablePaurVanjirra_40)
+	SCPT(GAMA_disableRasha)
+	SCPT(GAMA_disableRollieTeris_25)
+	SCPT(GAMA_disableSason)
+	SCPT(GAMA_disableTeris)
+	SCPT(GAMA_disableTinos)
+	SCPT(GAMA_disableVanjirra)
+	SCPT(GAMA_disableViatrix)
+	SCPT(GAMA_disableedras)
+	SCPT(GAMA_disablethoronor)
+	SCPT(GAMA_drerel_indaren)
+	SCPT(GAMA_falanu_indaren)
+	SCPT(GAMA_hisin_deep_raed)
+	SCPT(GAMA_killMalexa)
+	SCPT(GAMA_killMalexa_02)
+	SCPT(GAMA_killMaurrie)
+	SCPT(GAMA_moveAeta)
+	SCPT(GAMA_moveAthanden)
+	SCPT(GAMA_moveBotrir)
+	SCPT(GAMA_moveDelyna)
+	SCPT(GAMA_moveDin)
+	SCPT(GAMA_moveFonus)
+	SCPT(GAMA_moveHlormar)
+	SCPT(GAMA_moveLouis)
+	SCPT(GAMA_moveLucan)
+	SCPT(GAMA_moveMalexa)
+	SCPT(GAMA_moveMarcel)
+	SCPT(GAMA_moveMarsus)
+	SCPT(GAMA_moveMaurrie)
+	SCPT(GAMA_moveMaurrie02)
+	SCPT(GAMA_moveNelos)
+	SCPT(GAMA_movePaur)
+	SCPT(GAMA_movePemenie)
+	SCPT(GAMA_moveRasha)
+	SCPT(GAMA_moveSason)
+	SCPT(GAMA_moveSosia)
+	SCPT(GAMA_moveSosia_02)
+	SCPT(GAMA_moveTinos)
+	SCPT(GAMA_moveTul)
+	SCPT(GAMA_moveVanjirra)
+	SCPT(GAMA_moveViatrix)
+	SCPT(GAMA_nevrasa_dralor)
+	SCPT(GAMA_paur_maston)
+	SCPT(GAMA_rollie)
+	SCPT(GAMA_rollie_02)
+	SCPT(GAMA_rollie_03)
+	SCPT(GAMA_teris_02)
+	SCPT(GAMA_thoronor)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       NPC_    louis beauchamp
+	morrowind.esm       CREA    guar_rollie_unique
+	morrowind.esm       DIAL    agrippina herrenia
+	morrowind.esm       DIAL    annoying fool
+	morrowind.esm       DIAL    bandit nearby
+	morrowind.esm       DIAL    be of some use
+	morrowind.esm       DIAL    bloody lies
+	morrowind.esm       DIAL    bounty
+	morrowind.esm       DIAL    business partner
+	morrowind.esm       DIAL    cloudcleaver
+	morrowind.esm       DIAL    dangerous trip
+	morrowind.esm       DIAL    do me a favor
+	morrowind.esm       DIAL    enchantment
+	morrowind.esm       DIAL    escort
+	morrowind.esm       DIAL    family heirlooms
+	morrowind.esm       DIAL    festering witch
+	morrowind.esm       DIAL    girith's guar hides
+	morrowind.esm       DIAL    guar hide shipment
+	morrowind.esm       DIAL    jewels
+	morrowind.esm       DIAL    kagouti
+	morrowind.esm       DIAL    kindly redguard
+	morrowind.esm       DIAL    koal cave
+	morrowind.esm       DIAL    lucan's shipment
+	morrowind.esm       DIAL    making a deal
+	morrowind.esm       DIAL    marsus tullius' hides
+	morrowind.esm       DIAL    maurrie aurmine
+	morrowind.esm       DIAL    molag mar
+	morrowind.esm       DIAL    muddled
+	morrowind.esm       DIAL    my friend
+	morrowind.esm       DIAL    my locket
+	morrowind.esm       DIAL    nelos onmar
+	morrowind.esm       DIAL    note from nelos
+	morrowind.esm       DIAL    pemenie the trader
+	morrowind.esm       DIAL    potion of cure common disease
+	morrowind.esm       DIAL    pressing business
+	morrowind.esm       DIAL    rasha's shirts
+	morrowind.esm       DIAL    reward
+	morrowind.esm       DIAL    robbed me
+	morrowind.esm       DIAL    some notorious thieves
+	morrowind.esm       DIAL    spell to cure disease
+	morrowind.esm       DIAL    stole all my goods
+	morrowind.esm       DIAL    taking cloudcleaver
+	morrowind.esm       DIAL    the choice i give you
+	morrowind.esm       DIAL    thieving ashlanders
+	morrowind.esm       DIAL    unholy ritual
+	morrowind.esm       DIAL    vanjirra
+	morrowind.esm       DIAL    witch nearby
+	morrowind.esm       NPC_    aeta wave-breaker
+	morrowind.esm       NPC_    botrir
+	morrowind.esm       NPC_    din
+	morrowind.esm       NPC_    drerel indaren
+	morrowind.esm       NPC_    edras oril
+	morrowind.esm       NPC_    falanu indaren
+	morrowind.esm       NPC_    fonus rathryon
+	morrowind.esm       NPC_    hisin deep-raed
+	morrowind.esm       NPC_    hlormar wine-sot
+	morrowind.esm       NPC_    lucan ostorius
+	morrowind.esm       NPC_    marcel maurard
+	morrowind.esm       NPC_    maurrie aurmine
+	morrowind.esm       NPC_    miun_gei
+	morrowind.esm       NPC_    nelos onmar
+	morrowind.esm       NPC_    nevrasa dralor
+	morrowind.esm       NPC_    paur maston
+	morrowind.esm       NPC_    rasha
+	morrowind.esm       NPC_    sosia caristiana
+	morrowind.esm       NPC_    teris raledran
+	morrowind.esm       NPC_    thoronor
+	morrowind.esm       NPC_    tinos drothan
+	morrowind.esm       NPC_    viatrix petilia
+	morrowind.esm       NPC_    yak gro-skandar
+	tribunal.esm        DIAL    compensation
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    mv_abusedhealer
+	tribunal.esm        DIAL    mv_angrytrader
+	tribunal.esm        DIAL    mv_fakeslave
+	tribunal.esm        DIAL    mv_monsterdisease
+	tribunal.esm        DIAL    mv_richpilgrim
+	tribunal.esm        DIAL    mv_richtrader
+	tribunal.esm        DIAL    mv_traderabandoned
+	tribunal.esm        DIAL    mv_tradermissed
+	tribunal.esm        DIAL    travel together
+
+[MOD-INF]: ID=185051072051301(Topic:business partner)
+  morrowind.esm->|DATA|ONAM:vanjirra|NAME:Paur Maston and I are business partners and have been for years.
+  GAMA.esp------>|DATA|ONAM:vanjirra|NAME:Paur Maston and I are business partners, and have been for years.
+
+[MOD-INF]: ID=1714778128639621(Journal:mv_richtrader)
+  morrowind.esm->|DATA|NAME:On the way to Vivec, Rollie the guar met an unfortunate end. It was sad to see the big animal die, and I'm sure Teris will never be the same.
+  GAMA.esp------>|DATA|NAME:On the way to Vivec, Rollie the guar met an unfortunate end. It was sad to see the big animal die, and I'm sure Teris will never be the same.
+
+[MOD-INF]: ID=4398001642310675(Topic:rasha's shirts)
+  morrowind.esm->|DATA|ONAM:bivale teneran|NAME:Ah...you've brought the shirts from Rasha. Wonderful! He does such fine work, and he sells them to me for very reasonable prices. He's a careful sort, but that's just smart business if you ask me. Thank you for your help, and here's your payment.|SCVR:05IX0exquisite_shirt_01_rasha|INTV|BNAM:Player->RemoveItem "Exquisite_Shirt_01_Rasha" 5  AddItem "Exquisite_Shirt_01_Rasha" 5  Player->AddItem "Belt of Iron Will" 1  Journal "MV_TraderLate" 100
+  GAMA.esp------>|DATA|ONAM:bivale teneran|NAME:Ah...you've brought the shirts from Rasha. Wonderful! He does such fine work, and he sells them to me for very reasonable prices. He's a careful sort, but that's just smart business if you ask me. Thank you for your help, and here's your payment.|SCVR:05IX0exquisite_shirt_01_rasha|INTV|BNAM:Player->RemoveItem "Exquisite_Shirt_01_Rasha" 5  AddItem "Exquisite_Shirt_01_Rasha" 5  Player->AddItem "Belt of Iron Will" 1  Journal "MV_TraderLate" 100  startscript "GAMA_moveRasha"  Goodbye
+
+[DUP-INF]: ID=6575430265445966(Greeting:greeting 5)
+  |DATA|ONAM:viatrix petilia|NAME:You there! Yes, you. I'm in need of an escort. You'll do in a pinch.|SCVR:04JX4MV_RichPilgrim|INTV: 
+
+[MOD-INF]: ID=9079474731225595(Topic:muddled)
+  morrowind.esm->|DATA|ONAM:din|NAME:Yes, but everything is so much clearer now. Thank you for bringing me here. I'd really like to reward you for your generosity. I have very little, but please take this gold. Even during all my days in the legion, I've never felt anything so strange. I'll make sure to mention to my Legion friends how helpful you were. Thank you again. If you ever need anything, don't hesitate to ask.|SCVR:04JX0MV_MonsterDisease|INTV:2|BNAM:Journal "MV_MonsterDisease" 60  RemoveItem "Gold_001" 30  Player->AddItem "Gold_001" 30  ModPCFacRep 5 "Imperial Legion"  Goodbye
+  GAMA.esp------>|DATA|ONAM:din|NAME:Yes, but everything is so much clearer now. Thank you for bringing me here. I'd really like to reward you for your generosity. I have very little, but please take this gold. Even during all my days in the legion, I've never felt anything so strange. I'll make sure to mention to my Legion friends how helpful you were. Thank you again. If you ever need anything, don't hesitate to ask.|SCVR:04JX0MV_MonsterDisease|INTV:2|BNAM:RemoveItem "Gold_001" 30  Player->AddItem "Gold_001" 30  ModPCFacRep 5 "Imperial Legion"  Journal "MV_MonsterDisease" 60  Goodbye
+
+[DUP-INF]: ID=12034159261009064(Journal:mv_richtrader)
+  |DATA|NAME:We've gotten near Vivec, and Teris has told me that the Rollie isn't allowed to enter the city proper. He'll have to wait outside while we continue on.
+
+[MOD-INF]: ID=12955751791531361(Topic:stole all my goods)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:You've gotten my glass back. Excellent. Too bad you didn't kill them both, but one is better than none. Well, a deal's a deal, so let me tell you a little about the merchant trade....|SCVR:05IX3ingred_raw_glass_tinos|INTV: |SCVR:16DX0dondir|INTV:|SCVR:26DX2alvur hleran|INTV:|BNAM:Player->RemoveItem "Ingred_Raw_Glass_Tinos" 10  AddItem "Ingred_Raw_Glass_Tinos" 10  Player->ModMercantile 3  MessageBox "Your Mercantile skill has increased."  Journal "MV_AngryTrader" 105  Goodbye
+  GAMA.esp------>|DATA|ONAM:tinos drothan|NAME:You've gotten my glass back. Excellent. Too bad you didn't kill them both, but one is better than none. Well, a deal's a deal, so let me tell you a little about the merchant trade....|SCVR:05IX3ingred_raw_glass_tinos|INTV: |SCVR:16DX0dondir|INTV:|SCVR:26DX2alvur hleran|INTV:|BNAM:Player->RemoveItem "Ingred_Raw_Glass_Tinos" 10  AddItem "Ingred_Raw_Glass_Tinos" 10  Player->ModMercantile 3  MessageBox "Your Mercantile skill has increased."  Journal "MV_AngryTrader" 105  startscript "GAMA_moveTinos"  Goodbye
+
+[MOD-INF]: ID=13367950927332461(Topic:annoying fool)
+  morrowind.esm->|DATA|ONAM:miun_gei|NAME:You've done it! I admire your persuasiveness, friend. Thank you for your help. Allow me to give you this as a token of my appreciation.|SCVR:04JX0EB_Actor|INTV:F|BNAM:Journal "EB_Actor" 80  ModDisposition 15  RemoveItem "Iron Shardskewer" 1  Player->AddItem "Iron Shardskewer" 1  "marcel maurard"->Disable
+  GAMA.esp------>|DATA|ONAM:miun_gei|NAME:You've done it! I admire your persuasiveness, friend. Thank you for your help. Allow me to give you this as a token of my appreciation.|SCVR:04JX0EB_Actor|INTV:F|BNAM:Journal "EB_Actor" 80  ModDisposition 15  RemoveItem "Iron Shardskewer" 1  Player->AddItem "Iron Shardskewer" 1
+
+[DUP-INF]: ID=13568231434823734(Greeting:greeting 1)
+  |DATA|ONAM:lich_relvel|NAME:Weakling! You dare to cross my threshold? You, then, will be the first to fall, before the undead army sweeps across this land like a plague, cleansing it of your flesh.  Die, mortal!|BNAM:StartCombat Player  SetFight 100  Goodbye
+
+[MOD-INF]: ID=13851579598829437(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:guar_rollie_unique|NAME:[Rollie says nothing to you at this time.]|SCVR:03sX0rollievar|INTV:|BNAM:set rollievar to 1
+  GAMA.esp----->|DATA|ONAM|GAMA_rollie02|NAME:[Rollie says nothing to you at this time.]|SCVR:03sX0rollievar|INTV:|BNAM:set rollievar to 1
+
+[MOD-INF]: ID=26459992112686338(Journal:mv_fakeslave)
+  morrowind.esm->|DATA|NAME:It seems Tul is an escaped slave from the Dren Plantation. He would like help getting to a nearby abolitionist wayhouse he has heard rumors of. He does not know the location of this place, and would like my help finding it. The wayhouse is he is probably talking about is Sterdecan's farm, not too far from here.
+  GAMA.esp------>|DATA|NAME:It seems Tul is an escaped slave from the Dren Plantation. He would like help getting to a nearby abolitionist wayhouse he has heard rumors of. He does not know the location of this place, and would like my help finding it. The wayhouse that he is probably talking about is Sterdecan's farm, not too far from here.
+
+[MOD-INF]: ID=36289612230810856(Topic:family heirlooms)
+  morrowind.esm->|DATA|ONAM:aeta wave-breaker|NAME:You've found them! I'm so relieved. Here, please take this gold as payment. I was able to keep it hidden when the outlaws robbed me, and I'd be glad for you to have it. Thank you again!|SCVR:04JX3MV_BanditVictim|INTV|SCVR:15IX2expensive_amulet_aeta|INTV:|SCVR:25IX2expensive_ring_aeta|INTV:|SCVR:34JX1MV_BanditVictim|INTV:2|BNAM:Journal "MV_BanditVictim" 100  RemoveItem "Gold_001" 300  Player->AddItem "Gold_001" 300  Player->RemoveItem "expensive_amulet_aeta" 1  Player->RemoveItem "expensive_ring_aeta" 1  AddItem "expensive_amulet_aeta" 1  AddItem "expensive_ring_aeta" 1  Goodbye
+  GAMA.esp------>|DATA|ONAM:aeta wave-breaker|NAME:You've found them! I'm so relieved. Here, please take this gold as payment. I was able to keep it hidden when the outlaws robbed me, and I'd be glad for you to have it. Thank you again!|SCVR:04JX3MV_BanditVictim|INTV|SCVR:15IX2expensive_amulet_aeta|INTV:|SCVR:25IX2expensive_ring_aeta|INTV:|SCVR:34JX1MV_BanditVictim|INTV:2|BNAM:RemoveItem "Gold_001" 300  Player->AddItem "Gold_001" 300  Player->RemoveItem "expensive_amulet_aeta" 1  Player->RemoveItem "expensive_ring_aeta" 1  AddItem "expensive_amulet_aeta" 1  AddItem "expensive_ring_aeta" 1  Journal "MV_BanditVictim" 100  startscript "GAMA_moveAeta"  Goodbye
+
+[MOD-INF]: ID=45701188175111396(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:viatrix petilia|NAME:I should have expected as much from the likes of you. I'll be on my way now.|SCVR:04JX0MV_RichPilgrim|INTV:<|SCVR:13fX0annoyed|FLTV|BNAM:AiWander 512,0,0,60,30,10,0,0,0,0,0,0  Goodbye
+  GAMA.esp----->|DATA|ONAM:viatrix petilia|NAME:I should have expected as much from the likes of you. I'll be on my way now.|SCVR:04JX0MV_RichPilgrim|INTV:<|SCVR:13fX0annoyed|FLTV|BNAM:AiWander 512,0,0,60,30,10,0,0,0,0,0,0  startscript "GAMA_disableViatrix"  Goodbye
+
+[MOD-INF]: ID=58882709432450534(Topic:cloudcleaver)
+  morrowind.esm->|DATA|ONAM:sosia caristiana|NAME:Oh, I don't think he's ready to get it back quite yet. I can still see the rage burning in those tiny Nord eyes of his. However, if he meets me in three days at the Mage's Guild Hall in Caldera I will return everything I have of his, but not a minute sooner. Tell him that is Sosia's offer.|SCVR:04JX3MV_AbusedHealer|INTV|SCVR:14JX4MV_AbusedHealer|INTV:2|BNAM:Journal "MV_AbusedHealer" 50  AddTopic "Sosia's offer"
+  GAMA.esp------>|DATA|ONAM:sosia caristiana|NAME:Oh, I don't think he's ready to get it back quite yet. I can still see the rage burning in those tiny Nord eyes of his. However, if he meets me in three days at the Mage's Guild Hall in Caldera I will return everything I have of his, but not a minute sooner. Tell him that is Sosia's offer.|SCVR:04JX3MV_AbusedHealer|INTV|SCVR:14JX4MV_AbusedHealer|INTV:2|SCVR:24JX1MV_AbusedHealer|INTV:#|BNAM:Journal "MV_AbusedHealer" 50  AddTopic "Sosia's offer"
+
+[MOD-INF]: ID=61247831742318017(Topic:be of some use)
+  morrowind.esm->|DATA|ONAM:teris raledran|NAME:There's a good fellow! See, Rollie, I told you there are still some good folks in these lands! Rollie's become such a pessimist in his old age, but I told him we'd find someone to help! When we get there, I'll reward you. I think 100 septims seems fair. How about the three of us get going?|SCVR:01500|INTV|BNAM:Journal "MV_RichTrader" 20  "Teris Raledran"->AiFollow Player 0,0,0,0,0
+  GAMA.esp------>|DATA|ONAM:teris raledran|NAME:There's a good fellow! See, Rollie, I told you there are still some good folks in these lands! Rollie's become such a pessimist in his old age, but I told him we'd find someone to help! When we get there, I'll reward you. I think 200 septims seems fair. How about the three of us get going?|SCVR:01500|INTV|BNAM:Journal "MV_RichTrader" 20  "Teris Raledran"->AiFollow Player 0,0,0,0,0
+
+[DUP-INF]: ID=63218205885411599(Greeting:greeting 5)
+  |DATA|ONAM:paur maston|NAME:I must meet my partner as soon as possible.|SCVR:04JX3MV_TraderMissed|INTV: |SCVR:14JX4MV_TraderMissed|INTV:d
+
+[MOD-INF]: ID=66539999174912632(Topic:molag mar)
+  morrowind.esm->|DATA|ONAM:paur maston|NAME:Vanjirra should be around Molag Mar somewhere.|SCVR:04JX3MV_TraderMissed|INTV:_
+  GAMA.esp------>|DATA|ONAM:paur maston|NAME:Vanjirra should be around Molag Mar somewhere.|SCVR:04JX4MV_TraderMissed|INTV:d|SCVR:14JX2MV_TraderMissed|INTV
+
+[MOD-INF]: ID=75769062165320288(Topic:cloudcleaver)
+  morrowind.esm->|DATA|ONAM:sosia caristiana|NAME:Hlormar's obsession with that axe led to his death. I'll leave it with someone who can use it well. I thank you for your help stranger. I think that hothead would've killed me had you not intervened. Here, take these potions as my gift to you, and seek me out if you ever require my services in the future.|SCVR:04JX0MV_AbusedHealer|INTV:F|BNAM:;Sosia Caristiana  Journal "MV_AbusedHealer" 75  player->additem "P_Restore_Health_E" 1  player->additem "P_Restore_Fatigue_Q" 1  player->additem "P_Fortify_Health_Q" 1  removeitem "P_Restore_Health_E" 1  removeitem "P_Restore_Fatigue_Q" 1  removeitem "P_Fortify_Health_Q" 1
+  GAMA.esp------>|DATA|ONAM:sosia caristiana|NAME:Hlormar's obsession with that axe led to his death. I'll leave it with someone who can use it well. I thank you for your help stranger. I think that hothead would've killed me had you not intervened. Here, take these potions as my gift to you, and seek me out if you ever require my services in the future.|SCVR:04JX0MV_AbusedHealer|INTV:F|SCVR:14JX1MV_AbusedHealer|INTV:#|BNAM:;Sosia Caristiana  player->additem "P_Restore_Health_E" 1  player->additem "P_Restore_Fatigue_Q" 1  player->additem "P_Fortify_Health_Q" 1  removeitem "P_Restore_Health_E" 1  removeitem "P_Restore_Fatigue_Q" 1  removeitem "P_Fortify_Health_Q" 1  ModDisposition 15  Journal "MV_AbusedHealer" 75  startscript "GAMA_moveSosia"  Goodbye
+
+[MOD-INF]: ID=101374530252772328(Topic:vanjirra)
+  morrowind.esm->|DATA|ONAM:paur maston|NAME:She is my business partner. I assume she's gone ahead to Molag Mar.|SCVR:06DX0vanjirra|INTV:
+  GAMA.esp------>|DATA|ONAM:paur maston|NAME:She is my business partner.|SCVR:06DX0vanjirra|INTV:
+
+[MOD-INF]: ID=103891005352293535(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:maurrie aurmine|NAME:If there's anything I can ever do for you, I would be happy to. Soon, I will be with Nelos, and all will be well.|SCVR:06DX0nelos onmar|INTV:|SCVR:14JX3MV_VictimRomance|INTV:d|BNAM:Journal "MV_VictimRomance" 10
+  GAMA.esp------>|DATA|ONAM:maurrie aurmine|NAME:If there's anything I can ever do for you, I would be happy to. Soon, I will be with Nelos, and all will be well.|SCVR:06DX0nelos onmar|INTV:|SCVR:14JX3MV_VictimRomance|INTV:d
+
+[MOD-INF]: ID=124578435416012955(Topic:stole all my goods)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:My glass, and those fetchers left to rot...excellent! Teach criminals like that to meddle with an honest trader. Now, let me tell you about a few tricks of the trade. I think they'll come in handy for you....|SCVR:05IX3ingred_raw_glass_tinos|INTV: |SCVR:16DX2dondir|INTV:|SCVR:26DX2alvur hleran|INTV:|BNAM:Player->RemoveItem "Ingred_Raw_Glass_Tinos" 10  AddItem "Ingred_Raw_Glass_Tinos" 10  Player->ModMercantile 5  MessageBox "Your Mercantile skill has increased."  Journal "MV_AngryTrader" 110  Goodbye
+  GAMA.esp------>|DATA|ONAM:tinos drothan|NAME:My glass, and those fetchers left to rot...excellent! Teach criminals like that to meddle with an honest trader. Now, let me tell you about a few tricks of the trade. I think they'll come in handy for you....|SCVR:05IX3ingred_raw_glass_tinos|INTV: |SCVR:16DX2dondir|INTV:|SCVR:26DX2alvur hleran|INTV:|BNAM:Player->RemoveItem "Ingred_Raw_Glass_Tinos" 10  AddItem "Ingred_Raw_Glass_Tinos" 10  Player->ModMercantile 5  MessageBox "Your Mercantile skill has increased."  Journal "MV_AngryTrader" 110  startscript "GAMA_moveTinos"  Goodbye
+
+[DUP-INF]: ID=127315238149928159(Journal:mv_richtrader)
+  |DATA|NAME:I've arrived at Agrippina Herrenia's shop in Vivec with Teris Raledran.
+
+[MOD-INF]: ID=128146812269236497(Topic:girith's guar hides)
+  morrowind.esm->|DATA|ONAM:athanden girith|NAME:Yeah, those bastard Ashlanders took my entire shipment. It's easy to identify mine; they have my mark on them.
+  GAMA.esp------>|DATA|ONAM:athanden girith|NAME:Yeah, those bastard Ashlanders took my entire shipment. It's easy to identify mine: they have my mark on them.
+
+[MOD-INF]: ID=134621379120365388(Topic:pemenie the trader)
+  morrowind.esm->|DATA|ANAM:Caldera|NAME:Oh, I heard she met an untimely end while on one of her "trade" excursions. Some trader...all she ever sold was low-quality and poorly enchanted. Only a real scuttlehead would deal with that thief.|SCVR:06DX2pemenie|INTV:|SCVR:1CsX0NoLore|INTV:
+  GAMA.esp------>|DATA|ANAM:Caldera|NAME:Oh, I heard she met an untimely end while on one of her "trade" excursions. Some trader...all she ever sold was low-quality and poorly enchanted. Only a real scuttlehead would deal with that thief.|SCVR:06DX2pemenie|INTV:|SCVR:1CsX0NoLore|INTV|INTV:
+
+[DUP-INF]: ID=135431470238981985(Greeting:greeting 5)
+  |DATA|ONAM:falanu indaren|NAME:Please, can you help me? My husband and I were traveling through here, and we were attacked by a pack of wild nix hounds.|SCVR:04JX0MV_MissingCompanion|INTV:|SCVR:16DX0drerel indaren|INTV:|BNAM:Journal "MV_MissingCompanion" 10
+
+[MOD-INF]: ID=139545371908222455(Topic:guar hide shipment)
+  morrowind.esm->|DATA|ONAM:marsus tullius|NAME:They were from the Erabenimsun herds? I had no idea! I hope you sent my apologies, friend. I have no quarrel with those people, and I do not wish one. I suppose I'll have to find some other guar, then. I'd tell you to visit my father for your reward, but he was the one paying for this trip. Without those hides, I don't think he'll be able to pay you. Thank you again.|SCVR:04JX0MV_InnocentAshlanders|INTV:P|BNAM:AddTopic "Marsus Tullius' hides"  Journal "MV_InnocentAshlanders" 110
+  GAMA.esp------>|DATA|ONAM:marsus tullius|NAME:They were from the Erabenimsun herds? I had no idea! I hope you sent my apologies, friend. I have no quarrel with those people, and I do not wish one. I suppose I'll have to find some other guar, then. I'd tell you to visit my father for your reward, but he was the one paying for this trip. Without those hides, I don't think he'll be able to pay you. Thank you again.|SCVR:04JX0MV_InnocentAshlanders|INTV:P|BNAM:AddTopic "Marsus Tullius' hides"  Journal "MV_InnocentAshlanders" 110  startscript "GAMA_moveMarsus"  Goodbye
+
+[DUP-INF]: ID=164421771336314246(Greeting:greeting 5)
+  |DATA|ONAM:pemenie|NAME:Good that I'm finally here. Thanks for your help.|SCVR:04JX3MV_TraderAbandoned|INTV:d
+
+[DUP-INF]: ID=172441041297037182(Topic:molag mar)
+  |DATA|CNAM|NAME:The outpost at Molag Mar is a fortified stronghold on the southeastern edge of the desolate Molag Amur region.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap "Molag Mar"  ;scout; savant;
+
+[DUP-INF]: ID=178888538859121031(Topic:kindly redguard)
+  |DATA|ONAM:morning_clouds|NAME:To the north and west I have heard, but it is just stories that are told.|SCVR:04JX5MV_FakeSlave|INTV:7
+
+[MOD-INF]: ID=183417041261652726(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:sosia caristiana|NAME:Hello there stranger, I see you've already met my good friend Hlormar. My name is Sosia Caristiana, the healer. How can I be of assistance to the two of you?|SCVR:01630|INTV:|SCVR:14JX2MV_AbusedHealer|INTV: 
+  GAMA.esp------>|DATA|ONAM:sosia caristiana|NAME:Hello there stranger, I see you've already met my good friend Hlormar. My name is Sosia Caristiana, the healer. How can I be of assistance to the two of you?|SCVR:01630|INTV:|SCVR:14JX2MV_AbusedHealer|INTV: |SCVR:24JX1MV_AbusedHealer|INTV:#
+
+[MOD-INF]: ID=192047750232949576(Topic:koal cave)
+  morrowind.esm->|DATA|ONAM:fonus rathryon|NAME:We are here. Thank you for your help.|SCVR:04JX3MV_PoorPilgrim|INTV:d
+  GAMA.esp------>|DATA|ONAM:fonus rathryon|NAME:Thank you for your help.|SCVR:04JX0MV_PoorPilgrim|INTV:d
+
+[MOD-INF]: ID=196461299188713836(Topic:the choice i give you)
+  morrowind.esm->|DATA|ONAM:tul|NAME:That is wise, %PCRace. Go now. Leave this one to me.|SCVR:01500|INTV|BNAM:Journal "MV_FakeSlave" 70  Goodbye
+  GAMA.esp------>|DATA|ONAM:tul|NAME:That is wise, %PCRace. Go now. Leave this one to me.|SCVR:01500|INTV|BNAM:Journal "MV_FakeSlave" 70  Sterdecan->StartCombat Tul  Goodbye
+
+[MOD-INF]: ID=205733683299535436(Topic:muddled)
+  morrowind.esm->|DATA|ONAM:din|NAME:Yes, everything was so confusing there for a while. You've got to watch those slaughterfish bites. I'd heard they can cause disease, but I didn't realize how severely.|SCVR:04JX3MV_MonsterDisease|INTV:<
+  GAMA.esp------>|DATA|ONAM:din|NAME:Yes, everything was so confusing there for a while. You've got to watch those slaughterfish bites. I'd heard they can cause disease, but I didn't realize how severely.|SCVR:04JX0MV_MonsterDisease|INTV:<
+
+[MOD-INF]: ID=206530333281032270(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:teris raledran|NAME:Okay, %PCName, we've made it. I thank you for your help, and Rollie would if he were allowed in the city. I really must speak with someone about that. Think how much he'd enjoy visiting this place. He'd be talking about it for days. Oh, I suppose you're wondering about compensation for your trouble?|SCVR:04JX0MV_RichTrader|INTV:Z
+  GAMA.esp----->|DATA|ONAM:teris raledran|NAME:Okay, %PCName, we've made it. I thank you for your help. Oh, I suppose you're wondering about compensation for your trouble?|SCVR:04JX0MV_RichTrader|INTV:Z
+
+[MOD-INF]: ID=210892729748049952(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:sason|NAME:I can't believe she's gone. What will I do without her?|SCVR:04JX0MV_CultistVictim|INTV:n
+  GAMA.esp------>|DATA|ONAM:sason|NAME:I can't believe she's gone. What will I do without her?|SCVR:04JX0MV_CultistVictim|INTV:n|BNAM:startscript "GAMA_disableSason"
+
+[DUP-INF]: ID=221321110190924103(Greeting:greeting 5)
+  |DATA|ONAM:edras oril|NAME:Oh, thank heavens you found me! I don't know what I would have done if you hadn't shown up. I've been trapped here by some kagouti since my friend and I were separated.|SCVR:04JX4MV_StrayedPilgrim|INTV: |BNAM:Journal "MV_StrayedPilgrim" 15
+
+[DUP-INF]: ID=234261118832512224(Topic:enchantment)
+  |DATA|ONAM:hisin deep-raed|NAME:I can't wait to wrap my hands around the neck of that witch!!!|SCVR:04JX3MV_ParalyzedBarbarian|INTV:d
+
+[MOD-INF]: ID=237646521367726311(Topic:agrippina herrenia)
+  morrowind.esm->|DATA|ONAM:teris raledran|NAME:She's a clothier in Vivec. Her shop is in the Canalworks of the Foreign Quarter. Sells a nice selection of fine clothing, some provided by yours truly, and transported with care by Rollie.
+  GAMA.esp------>|DATA|ONAM:teris raledran|NAME:She's a clothier in Vivec. Her shop is in the Canalworks of the Foreign Quarter. Sells a nice selection of fine clothing, some provided by yours truly, and transported with care by Rollie.|SCVR:04JX4MV_RichTrader|INTV:Z
+
+[MOD-INF]: ID=245311060310745346(Topic:stole all my goods)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:Lord, Mother, and Wizard! What are you still doing here? Go away!|SCVR:01500|INTV|BNAM:Journal "MV_AngryTrader" 25  ModDisposition -10
+  GAMA.esp------>|DATA|ONAM:tinos drothan|NAME:Lord, Mother, and Wizard! What are you still doing here? Go away!|SCVR:01500|INTV|BNAM:ModDisposition -10  Journal "MV_AngryTrader" 25  startscript "GAMA_disableTinos"  Goodbye
+
+[MOD-INF]: ID=247051467517838384(Topic:stole all my goods)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:Yes, a whole shipment of raw glass. If you can return my goods, and kill those bastards who took them, I'd be willing to teach you a couple trader's secrets that could save you plenty of money in the future. My "guards," Alvur Hleran and Dondir, probably haven't gone far. Stupid fetchers are probably holed up somewhere near here, counting my loot! Check to the southeast. That's the direction they headed.|BNAM:Journal "MV_AngryTrader" 20  Choice "I can help you recover your goods." 1 "Sorry, I don't have time for you right now." 2
+  GAMA.esp------>|DATA|ONAM:tinos drothan|NAME:Yes, a whole shipment of raw glass. If you can return my goods, and kill those bastards who took them, I'd be willing to teach you a couple trader's secrets that could save you plenty of money in the future. My "guards," Alvur Hleran and Dondir, probably haven't gone far. Stupid fetchers are probably holed up somewhere near here, counting my loot! Check to the southeast. That's the direction they headed.|SCVR:04JX1MV_AngryTrader|INTV|BNAM:Journal "MV_AngryTrader" 20  Choice "I can help you recover your goods." 1 "Sorry, I don't have time for you right now." 2
+
+[MOD-INF]: ID=251241723426664399(Topic:unholy ritual)
+  morrowind.esm->|DATA|ONAM:sason|NAME:Malexa dead? This can't be! What will I do without her?|SCVR:04JX2MV_CultistVictim|INTV:(|SCVR:14JX4MV_CultistVictim|INTV:d|SCVR:26DX2malexa|INTV:|BNAM:Journal "MV_CultistVictim" 110  ModPCFacRep 3 "Redoran"  Goodbye
+  GAMA.esp------>|DATA|ONAM:sason|NAME:Malexa dead? This can't be! What will I do without her?|SCVR:04JX2MV_CultistVictim|INTV:(|SCVR:14JX4MV_CultistVictim|INTV:d|SCVR:26DX2malexa|INTV:|BNAM:ModPCFacRep 3 "Redoran"  Journal "MV_CultistVictim" 110  startscript "GAMA_disableSason"  Goodbye
+
+[MOD-INF]: ID=254096044339517071(Topic:travel together)
+  morrowind.esm->|DATA|ONAM:delyna mandas|NAME:Thank you, %PCName. I have duties I must attend to, and then I must find a way to reach my father. Until then, please deliver my locket to my father, Arethan Mandas.|SCVR:34JX3HR_RansomMandas|INTV:F
+  GAMA.esp------>|DATA|ONAM:delyna mandas|NAME:Thank you, %PCName. I have duties I must attend to in Ald Velothi, and then I must find a way to reach my father. Until then, please deliver my locket to my father, Arethan Mandas.|SCVR:34JX3HR_RansomMandas|INTV:F
+
+[MOD-INF]: ID=261631255676123743(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:teris raledran|NAME:Well, shall we travel together to our destination?|SCVR:04JX0MV_RichTrader|INTV
+  GAMA.esp------>|DATA|ONAM:teris raledran|NAME:Well, shall we travel together to our destination?|SCVR:04JX5MV_RichTrader|INTV:P|SCVR:14JX3MV_RichTrader|INTV
+
+[MOD-INF]: ID=271922323160425907(Journal:mv_richpilgrim)
+  morrowind.esm->|DATA|NAME:I've decided not to escort Viatrix Petilia to Ghostgate. No amount of money is enough to spend any extended period of time with this woman.
+  GAMA.esp------>|DATA|NAME:I've decided not to escort Viatrix Petilia to Ghostgate. No amount of money is enough to spend any extended period of time with this woman.|QSTF
+
+[MOD-INF]: ID=276425104824718235(Topic:business partner)
+  morrowind.esm->|DATA|ONAM:vanjirra|NAME:Yes, I'll miss him terribly. He was a good partner and a good friend.|SCVR:04JX0MV_TraderMissed|INTV
+  GAMA.esp------>|DATA|ONAM:vanjirra|NAME:Yes, I'll miss him terribly. He was a good partner and a good friend.|SCVR:04JX0MV_TraderMissed|INTV|BNAM:startscript "GAMA_disableVanjirra"
+
+[MOD-INF]: ID=295288997707431674(Topic:my friend)
+  morrowind.esm->|DATA|ONAM:edras oril|NAME:Fantastic! Let's go. Did you happen to notice anything interesting about the kagouti while you were slaying them? Any distinctive colorations...mating calls? No? Ah, well....|SCVR:01500|INTV: |BNAM:Journal "MV_StrayedPilgrim" 45  "Edras Oril"->AiFollow Player 0 0 0 0 0 0
+  GAMA.esp------>|DATA|ONAM:edras oril|NAME:Fantastic! Let's go. Did you happen to notice anything interesting about the kagouti while you were slaying them? Any distinctive colorations...mating calls? No? Ah, well....|SCVR:01500|INTV: |SCVR:15IX0bk_notes-kagouti mating habits|INTV:|BNAM:Journal "MV_StrayedPilgrim" 45  "Edras Oril"->AiFollow Player 0 0 0 0 0 0
+
+[DUP-INF]: ID=312058211465427363(Topic:bounty)
+  |DATA|ANAM:Caldera|NAME:There's a price on her head, though I don't know how much. People don't take kindly to being sold shoddy goods.|SCVR:06DX0pemenie|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:Journal MV_TraderAbandoned 40
+
+[DUP-INF]: ID=319553027389314909(Topic:vanjirra)
+  |DATA|NAME:The trader? I think I saw her on the west side of town, near the entrance. Looked like she was waiting for someone.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=371643611115519171(Topic:kagouti)
+  morrowind.esm->|DATA|ONAM:edras oril|NAME:Magnificent beasts, aren't they. Truly gorgeous creatures!|SCVR:14JX3MV_StrayedPilgrim|INTV:Z
+  GAMA.esp------>|DATA|ONAM:edras oril|NAME:Magnificent beasts, aren't they. Truly gorgeous creatures!|SCVR:05IX0bk_notes-kagouti mating habits|INTV:|SCVR:14JX3MV_StrayedPilgrim|INTV:Z
+
+[MOD-INF]: ID=390021445518619439(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:tul|NAME:Here our journey ends, %PCRace. For bringing me to this place, I thank you. It has been a thorn in the side of the Camonna Tong for too long, too long. It seems the Redguard is dead already. That is acceptable. I have no further business with you.|SCVR:04JX0MV_FakeSlave|INTV:<|SCVR:16DX2sterdecan|INTV:
+  GAMA.esp----->|DATA|ONAM:tul|NAME:Here our journey ends, %PCRace. For bringing me to this place, I thank you. It has been a thorn in the side of the Camonna Tong for too long, too long. It seems the Redguard is dead already. That is acceptable. I have no further business with you.|SCVR:04JX0MV_FakeSlave|INTV:<|SCVR:16DX2sterdecan|INTV:|BNAM:Journal "MV_FakeSlave" 110  startscript "GAMA_moveTul"  Goodbye
+
+[MOD-INF]: ID=424180812175323698(Topic:molag mar)
+  morrowind.esm->|DATA|ONAM:paur maston|NAME:We'll need to head to the east part of Vvardenfell. Here, I'll mark it on your map.|BNAM:ShowMap "Molag Mar"
+  GAMA.esp------>|DATA|ONAM:paur maston|NAME:We'll need to head to the east part of Vvardenfell. Here, I'll mark it on your map.|SCVR:04JX5MV_TraderMissed|INTV|BNAM:ShowMap "Molag Mar"
+
+[DUP-INF]: ID=425710892074220971(Greeting:greeting 5)
+  |DATA|ONAM:nelos onmar|NAME:Hello, my friend. I'll be off to find Maurrie soon. Thank you for your help.|SCVR:04JX3MV_VictimRomance|INTV:d
+
+[MOD-INF]: ID=482124058322145462(Topic:maurrie aurmine)
+  morrowind.esm->|DATA|ONAM:barnand erelie|NAME:Ah...so you're the one who brought Maurrie and Nelos together. Nothing has been seen or heard of them since then, but the bards are singing songs of their love. Well, done %PCName! Please, take these as a token of my gratitude.|SCVR:01380|INTV|SCVR:14JX0MV_VictimRomance|INTV:d|BNAM:ModDisposition 20  AddTopic "Maurrie and Nelos"  Journal "MV_VictimRomance" 110  Player->AddItem "p_restore_health_e" 3  StartScript maurrieScript
+  GAMA.esp------>|DATA|ONAM:barnand erelie|NAME:Ah...so you're the one who brought Maurrie and Nelos together. Nothing has been seen or heard of them since then, but the bards are singing songs of their love. Well, done %PCName! Please, take these as a token of my gratitude.|SCVR:01380|INTV|SCVR:14JX0MV_VictimRomance|INTV:d|BNAM:ModDisposition 20  AddTopic "Maurrie and Nelos"  Journal "MV_VictimRomance" 110  Player->AddItem "p_restore_health_e" 3
+
+[MOD-INF]: ID=485623526105921775(Topic:girith's guar hides)
+  morrowind.esm->|DATA|ONAM:athanden girith|NAME:Good to finally have them back. Don't know how I would have made it without them. Shame you couldn't get rid of those two Ashlanders, but I thank you for your help. Remember to talk to my friend Berwen in Tel Mora. I'll send word to her to keep an eye out for you, %PCName.|SCVR:05IX3ingred_guar_hide_girith|INTV: |SCVR:16DX0emul-ran|INTV:|SCVR:26DX0kashtes ilabael|INTV:|SCVR:34JX4MV_OutcastAshlanders|INTV:d|BNAM:Journal "MV_OutcastAshlanders" 102  Player->RemoveItem "Ingred_Guar_Hide_Girith" 10  AddItem "Ingred_Guar_Hide_Girith" 10
+  GAMA.esp------>|DATA|ONAM:athanden girith|NAME:Good to finally have them back. Don't know how I would have made it without them. Shame you couldn't get rid of those two Ashlanders, but I thank you for your help. Remember to talk to my friend Berwen in Tel Mora. I'll send word to her to keep an eye out for you, %PCName.|SCVR:05IX3ingred_guar_hide_girith|INTV: |SCVR:16DX0emul-ran|INTV:|SCVR:26DX0kashtes ilabael|INTV:|SCVR:34JX4MV_OutcastAshlanders|INTV:d|BNAM:Player->RemoveItem "Ingred_Guar_Hide_Girith" 10  AddItem "Ingred_Guar_Hide_Girith" 10  Journal "MV_OutcastAshlanders" 102  startscript "GAMA_moveAthanden"
+
+[DUP-INF]: ID=518019333166316223(Greeting:greeting 5)
+  |DATA|ONAM:hisin deep-raed|NAME:Well, do your magic, outlander! Cast your spell to Cure Disease! Or have you found a potion of Cure Common Disease?|SCVR:04JX0MV_ParalyzedBarbarian|INTV:<|BNAM:Journal "MV_ParalyzedBarbarian" 10
+
+[DUP-INF]: ID=535518496471122057(Topic:my friend)
+  |DATA|ONAM:edras oril|NAME:You'll get rid of them? Excellent! Although, they're such marvelous beasts. Quite interesting, you know.|SCVR:01500|INTV|BNAM:Journal "MV_StrayedPilgrim" 25  Goodbye
+
+[MOD-INF]: ID=619426221163612816(Topic:bounty)
+  morrowind.esm->|DATA|ONAM:pemenie|NAME:You've offended me for the last time.|SCVR:04JX3MV_TraderAbandoned|INTV:F|SCVR:13sX0pemannoy|INTV|BNAM:SetFight 100  StartCombat Player  Goodbye
+  GAMA.esp------>|DATA|ONAM:pemenie|NAME:You've offended me for the last time.|SCVR:04JX3MV_TraderAbandoned|INTV:F|SCVR:13sX0pemannoy|INTV|BNAM:SetFight 100  StartCombat Player  startscript "GAMA_deadPemenie"  Goodbye
+
+[MOD-INF]: ID=638623577129476627(Journal:mv_monsterdisease)
+  morrowind.esm->|DATA|NAME:I've decided to take my leave of the madman Din. Whatever disease he has, I don't want to catch it.
+  GAMA.esp------>|DATA|NAME:I've decided to take my leave of the madman Din. Whatever disease he has, I don't want to catch it.|QSTF
+
+[MOD-INF]: ID=905232419206199259(Topic:reward)
+  morrowind.esm->|DATA|ONAM:vanjirra|NAME:Well, I suppose I could give you something for your troubles. Please take this as a token of my appreciation.|SCVR:04JX3MV_TraderMissed|INTV:Z|SCVR:16DX2paur maston|INTV:|SCVR:24JX4MV_TraderMissed|INTV:d|BNAM:RemoveItem "Gold_001" 50  Player->AddItem "Gold_001" 50  Journal "MV_TraderMissed" 130  Goodbye
+  GAMA.esp------>|DATA|ONAM:vanjirra|NAME:Well, I suppose I could give you something for your troubles. Please take this as a token of my appreciation.|SCVR:04JX0MV_TraderMissed|INTV:Z|BNAM:RemoveItem "Gold_001" 50  Player->AddItem "Gold_001" 50  Journal "MV_TraderMissed" 130  startscript "GAMA_disableVanjirra"  Goodbye
+
+[MOD-INF]: ID=954930174679211073(Topic:escort)
+  morrowind.esm->|DATA|ONAM:viatrix petilia|NAME:Hmmmph. I should have expected as much from the likes of you.|SCVR:01500|INTV|BNAM:Journal "MV_RichPilgrim" 30  Goodbye
+  GAMA.esp------>|DATA|ONAM:viatrix petilia|NAME:Hmmmph. I should have expected as much from the likes of you.|SCVR:01500|INTV|BNAM:Journal "MV_RichPilgrim" 30  startscript "GAMA_disableViatrix"  Goodbye
+
+[MOD-INF]: ID=967013834339425374(Topic:festering witch)
+  morrowind.esm->|DATA|ONAM:hlormar wine-sot|NAME:That she is. She must pay for what she's done to me!|SCVR:04JX3MV_AbusedHealer|INTV:(|SCVR:24JX4MV_AbusedHealer|INTV:<
+  GAMA.esp------>|DATA|ONAM:hlormar wine-sot|NAME:That she is. She must pay for what she's done to me!|SCVR:04JX3MV_AbusedHealer|INTV:(|SCVR:14JX4MV_AbusedHealer|INTV:<
+
+[MOD-INF]: ID=1016458152883123224(Topic:stole all my goods)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:You've gotten my glass back. Excellent. Too bad you didn't kill them both, but one is better than none. Well, a deal's a deal, so let me tell you a little about the merchant trade....|SCVR:05IX3ingred_raw_glass_tinos|INTV: |SCVR:16DX2dondir|INTV:|SCVR:26DX0alvur hleran|INTV:|BNAM:Player->RemoveItem "Ingred_Raw_Glass_Tinos" 10  AddItem "Ingred_Raw_Glass_Tinos" 10  Player->ModMercantile 3  MessageBox "Your Mercantile skill has increased."  Journal "MV_AngryTrader" 105  Goodbye
+  GAMA.esp------>|DATA|ONAM:tinos drothan|NAME:You've gotten my glass back. Excellent. Too bad you didn't kill them both, but one is better than none. Well, a deal's a deal, so let me tell you a little about the merchant trade....|SCVR:05IX3ingred_raw_glass_tinos|INTV: |SCVR:16DX2dondir|INTV:|SCVR:26DX0alvur hleran|INTV:|BNAM:Player->RemoveItem "Ingred_Raw_Glass_Tinos" 10  AddItem "Ingred_Raw_Glass_Tinos" 10  Player->ModMercantile 3  MessageBox "Your Mercantile skill has increased."  Journal "MV_AngryTrader" 105  startscript "GAMA_moveTinos"  Goodbye
+
+[MOD-INF]: ID=1107513008174245499(Topic:unholy ritual)
+  morrowind.esm->|DATA|ONAM:malexa|NAME:You'd leave me in the hands of these monsters?|SCVR:01500|INTV|BNAM:Journal "MV_CultistVictim" 46  ModPCFacRep -5 "Redoran"  Goodbye
+  GAMA.esp------>|DATA|ONAM:malexa|NAME:You'd leave me in the hands of these monsters?|SCVR:01500|INTV|BNAM:Journal "MV_CultistVictim" 46  ModPCFacRep -5 "Redoran"  startscript "GAMA_killMalexa_02"  Goodbye
+
+[MOD-INF]: ID=1305721498373519320(Topic:the choice i give you)
+  morrowind.esm->|DATA|ONAM:tul|NAME:The only choice. Go now, and forget about all of this. Or, die where you stand. It matters not to me.|BNAM:Choice "I cannot let you kill this man." 1 "I do not wish to interfere." 2
+  GAMA.esp------>|DATA|ONAM:tul|NAME:The only choice. Go now, and forget about all of this. Or, die where you stand. It matters not to me.|SCVR:06DX0sterdecan|INTV:|BNAM:Choice "I cannot let you kill this man." 1 "I do not wish to interfere." 2
+
+[DUP-INF]: ID=1395826468202086011(Greeting:greeting 5)
+  |DATA|ONAM:lucan ostorius|NAME:Damn! Where is that guy? He made me promise to meet me here with these goods, and now he's late. I'm a busy man! You wouldn't by any chance be heading toward Ald'ruhn, would you? Maybe you could do me a favor.|SCVR:04JX4MV_ThiefTrader|INTV: |SCVR:16DX0yak gro-skandar|INTV:
+
+[DUP-INF]: ID=1398274991231928110(Journal:mv_traderabandoned)
+  |DATA|NAME:Pemenie and I have arrived in Gnaar Mok.
+
+[MOD-INF]: ID=1443620190184347433(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:falanu indaren|NAME:My husband Drerel is dead? No! I can't speak about this anymore.|SCVR:06DX2drerel indaren|INTV:|BNAM:Goodbye
+  GAMA.esp------>|DATA|ONAM:falanu indaren|NAME:My husband Drerel is dead? No! I can't speak about this anymore.|SCVR:06DX2drerel indaren|INTV:|BNAM:Goodbye  startscript GAMA_disableFalanu
+
+[DUP-INF]: ID=1458144672876011025(Greeting:greeting 5)
+  |DATA|ONAM:bugrol gro-bagul|NAME:Good, you back! You got a note from Bashuk? Gimme!|SCVR:05IX3bk_notefrombashuk|INTV
+
+[MOD-INF]: ID=1499628033784910528(Topic:my friend)
+  morrowind.esm->|DATA|ONAM:edras oril|NAME:Ah...you've met Thoronor! Yes, he and I became separated when I went off to investigate some sounds I heard. Of course, it turned out to be a pack of kagouti that trapped me here. But, I see you've taken care of them. Did you notice any distinctive sounds they may have made when you were battling them? They have the most fascinating vocalizations. But, enough of that for now. Shall we go back and meet Thoronor?|SCVR:04JX3MV_StrayedPilgrim|INTV|SCVR:16DX3kagouti_mating|INTV|SCVR:24JX4MV_StrayedPilgrim|INTV:Z|SCVR:34JX1MV_StrayedPilgrim|INTV:-|BNAM:Journal "MV_StrayedPilgrim" 30  "Edras Oril"->AiFollow Player 0 0 0 0 0 0 0  Goodbye
+  GAMA.esp------>|DATA|ONAM:edras oril|NAME:Ah...you've met Thoronor! Yes, he and I became separated when I went off to investigate some sounds I heard. Of course, it turned out to be a pack of kagouti that trapped me here. But, I see you've taken care of them. Did you notice any distinctive sounds they may have made when you were battling them? They have the most fascinating vocalizations. But, enough of that for now. Shall we go back and meet Thoronor?|SCVR:04JX3MV_StrayedPilgrim|INTV|SCVR:16DX3kagouti_mating|INTV|SCVR:24JX4MV_StrayedPilgrim|INTV:Z|SCVR:34JX1MV_StrayedPilgrim|INTV:-|SCVR:45IX0bk_notes-kagouti mating habits|INTV:|BNAM:Journal "MV_StrayedPilgrim" 30  "Edras Oril"->AiFollow Player 0 0 0 0 0 0 0  Goodbye
+
+[MOD-INF]: ID=1504370591030625983(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:din|NAME:Yes. This is the place I need to be. They can help me here. Take this as payment, and I'll make sure to tell my friends in the Legion about your help. Thank you, friend--you have been a big help. You know, for a slaughterfish.|SCVR:04JX0MV_MonsterDisease|INTV:2|BNAM:RemoveItem "Gold_001" 30  Player->AddItem "Gold_001" 30  ModPCFacRep 5 "Imperial Legion"  Journal "MV_MonsterDisease" 60
+  GAMA.esp----->|DATA|ONAM:din|NAME:Yes. This is the place I need to be. They can help me here. Take this as payment, and I'll make sure to tell my friends in the Legion about your help. Thank you, friend. You have been a big help. You know, for a slaughterfish.|SCVR:04JX0MV_MonsterDisease|INTV:2|BNAM:RemoveItem "Gold_001" 30  Player->AddItem "Gold_001" 30  ModPCFacRep 5 "Imperial Legion"  Journal "MV_MonsterDisease" 60  Goodbye
+
+[MOD-INF]: ID=1552162352469212461(Journal:mv_angrytrader)
+  morrowind.esm->|DATA|NAME:Tinos Drothan has told me if I can find the guards who stole his glass, kill them, and return the glass, he'd teach me some trader's tricks that could save me money in the future. The guards' names are Alvur Hleran and Dondiir, and he believes they are still in the area, perhaps holed up in a cave southeast of here.
+  GAMA.esp------>|DATA|NAME:Tinos Drothan has told me if I can find the guards who stole his glass, kill them, and return the glass, he'd teach me some trader's tricks that could save me money in the future. The guards' names are Alvur Hleran and Dondir, and he believes they are still in the area, perhaps holed up in a cave southeast of here.
+
+[MOD-INF]: ID=1582818284250414443(Topic:marsus tullius' hides)
+  morrowind.esm->|DATA|ONAM:stentus tullius|NAME:Ah, yes, my son told me how you helped him out with that business. Nice of you to do so. I know you saved me a load of money. Here, take this as a reward. Thank you again, friend.|SCVR:04JX3MV_InnocentAshlanders|INTV:d|SCVR:14JX4MV_InnocentAshlanders|INTV:n|BNAM:Journal MV_InnocentAshlanders 115
+  GAMA.esp------>|DATA|ONAM:stentus tullius|NAME:Ah, yes, my son told me how you helped him out with that business. Nice of you to do so. I know you saved me a load of money. Here, take this as a reward. Thank you again, friend.|SCVR:04JX3MV_InnocentAshlanders|INTV:d|SCVR:14JX4MV_InnocentAshlanders|INTV:n|BNAM:RemoveItem "Gold_001" 200  Player->AddItem "Gold_001" 200  Journal MV_InnocentAshlanders 115
+
+[DUP-INF]: ID=1617827039871927543(Greeting:greeting 5)
+  |DATA|ONAM:edras oril|NAME:It's good to be away from those kagouti, though they're really marvelous beasts. Did you notice the coloration? And the larger one was a real ripper!|SCVR:04JX3MV_StrayedPilgrim|INTV:Z
+
+[MOD-INF]: ID=1637761982177931739(Topic:compensation)
+  morrowind.esm->|DATA|ONAM:teris raledran|NAME:Certainly! The two of us are more than glad to give you your fee. We'd like to thank you again for your companionship. It gets a bit lonely on the road, and sometimes Rollie gets awfully quiet on long trips. (He's getting a little moody in his old age.) Take care, stranger!|SCVR:04JX0MV_RichTrader|INTV:Z|SCVR:16DX0guar_rollie_unique|INTV:|BNAM:RemoveItem "Gold_001" 200  Player->AddItem "Gold_001" 200  Journal "MV_RichTrader" 100  Goodbye
+  GAMA.esp------>|DATA|ONAM:teris raledran|NAME:Certainly! The two of us are more than glad to give you your fee. We'd like to thank you again for your companionship. It gets a bit lonely on the road, and sometimes Rollie gets awfully quiet on long trips. (He's getting a little moody in his old age.) Take care, stranger!|SCVR:06DX0guar_rollie_unique|INTV:|SCVR:14JX0MV_RichTrader|INTV:Z|BNAM:RemoveItem "Gold_001" 200  Player->AddItem "Gold_001" 200  Journal "MV_RichTrader" 100  startscript "GAMA_rollie_02"  startscript "GAMA_teris_02"  Goodbye
+
+[MOD-INF]: ID=1686216588272753343(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:fonus rathryon|NAME:Clearly, you don't know where you're going. You've wasted two days of my time, and now I won't make it to Koal Cave on time. Thanks for nothing.|SCVR:04JX0MV_PoorPilgrim|INTV:#|SCVR:13sX0fonusGreet|INTV|BNAM:Journal "MV_PoorPilgrim" 110  AiWander 128,0,0,60,30,10,0,0,0,0,0,0  Goodbye
+  GAMA.esp----->|DATA|ONAM:fonus rathryon|NAME:Clearly, you don't know where you're going. You've wasted two days of my time, and now I won't make it to Koal Cave on time. Thanks for nothing.|SCVR:04JX0MV_PoorPilgrim|INTV:#|SCVR:13sX0fonusGreet|INTV|BNAM:AiWander 128,0,0,60,30,10,0,0,0,0,0,0  Journal "MV_PoorPilgrim" 110  startscript "GAMA_moveFonus"  Goodbye
+
+[DUP-INF]: ID=1690280142105732407(Topic:compensation)
+  |DATA|ONAM:Torasa Aram|NAME:I'm always looking for new pieces for the Museum of Artifacts. Unique items, armor and weapons of lore--you know the stuff. If you would be willing to donate a couple to the Museum, I'd be willing to part with the shield.|SCVR:05IX0bladepiece_03|INTV:|SCVR:14JX4TR_Blade|INTV:(|SCVR:24JX2TR_Blade|INTV:|BNAM:Journal TR_Blade 40
+
+[MOD-INF]: ID=1765115840259158564(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:guar_rollie_unique|NAME:[Rollie seems about to speak, but then thinks better of it.]|SCVR:03sX0rollievar|INTV|BNAM:set rollievar to 2
+  GAMA.esp----->|DATA|ONAM|GAMA_rollie02|NAME:[Rollie seems about to speak, but then thinks better of it.]|SCVR:03sX0rollievar|INTV|BNAM:set rollievar to 2
+
+[MOD-INF]: ID=1774643442223216683(Topic:note from nelos)
+  morrowind.esm->|DATA|ONAM:maurrie aurmine|NAME:He gave you a letter to give to me? Wonderful! Thank you so! I knew that he cared. You know, you didn't have to do all of this for me, and I really appreciate it. You're clearly a wonderful person. You should visit my friend Emusette Bracques in Tel Aruhn. She's a wonderful person, and I think the two of you would get along famously.|SCVR:04JX0MV_VictimRomance|INTV:<|SCVR:15IX2bk_notefromnelos|INTV:|SCVR:21380|INTV:|BNAM:Journal "MV_VictimRomance" 105  AddTopic "Maurrie Aurmine"  AddItem "bk_notefromnelos" 1  Player->RemoveItem "bk_notefromnelos" 1
+  GAMA.esp------>|DATA|ONAM:maurrie aurmine|NAME:He gave you a letter to give to me? Wonderful! Thank you so! I knew that he cared. You know, you didn't have to do all of this for me, and I really appreciate it. You're clearly a wonderful person. You should visit my friend Emusette Bracques in Tel Aruhn. She's a wonderful person, and I think the two of you would get along famously.|SCVR:04JX0MV_VictimRomance|INTV:<|SCVR:15IX2bk_notefromnelos|INTV:|SCVR:21380|INTV:|BNAM:Journal "MV_VictimRomance" 105  AddTopic "Maurrie Aurmine"  AddItem "bk_notefromnelos" 1  Player->RemoveItem "bk_notefromnelos" 1  startscript "GAMA_moveNelos"
+
+[MOD-INF]: ID=1810328139569724665(Journal:mv_traderabandoned)
+  tribunal.esm->|DATA|NAME:I met Pemenie, a Redguard trader, while traveling west of Balmora. She would like help getting a shipment of goods to Gnaar Mok. Seems her escort abandoned her on the trip.
+  GAMA.esp----->|DATA|NAME:I met Pemenie, a Redguard trader, while traveling northwest of Caldera. She would like help getting a shipment of goods to Gnaar Mok. Seems her escort abandoned her on the trip.
+
+[MOD-INF]: ID=1884424960106661918(Topic:vanjirra)
+  morrowind.esm->|DATA|ONAM:paur maston|NAME:I can't believe she's dead!|SCVR:06DX2vanjirra|INTV:
+  GAMA.esp------>|DATA|ONAM:paur maston|NAME:I can't believe she's dead!|SCVR:06DX2vanjirra|INTV:|SCVR:14JX0MV_TraderMissed|INTV:_|BNAM:RemoveItem "Gold_001" 50  Player->AddItem "Gold_001" 50  Journal "MV_TraderMissed" 110  startscript "GAMA_disablePaur"  Goodbye
+
+[MOD-INF]: ID=1957926327240137506(Topic:thieving ashlanders)
+  morrowind.esm->|DATA|ONAM:marsus tullius|NAME:Well, can't say I blame you much. It's gotta be pretty tough to track down a couple of Ashlanders out here. They're tough bastards, I'll give them that.|SCVR:01500|INTV|BNAM:Journal "MV_InnocentAshlanders" 40
+  GAMA.esp------>|DATA|ONAM:marsus tullius|NAME:Well, can't say I blame you much. It's gotta be pretty tough to track down a couple of Ashlanders out here. They're tough bastards, I'll give them that.|SCVR:01500|INTV|BNAM:Journal "MV_InnocentAshlanders" 40  startscript "GAMA_disableMarsus"
+
+[MOD-INF]: ID=1967357992556332213(Topic:girith's guar hides)
+  morrowind.esm->|DATA|ONAM:athanden girith|NAME:Thank you for getting them back. It's good to hear you were able to make at least one of those fetchers pay as well. Make sure to see Berwen in Tel Mora for your reward. I'll send word along the trade routes to make sure she keeps an eye out for %PCName.|SCVR:05IX3ingred_guar_hide_girith|INTV: |SCVR:16DX0emul-ran|INTV:|SCVR:26DX2kashtes ilabael|INTV:|SCVR:34JX4MV_OutcastAshlanders|INTV:d|BNAM:Journal "MV_OutcastAshlanders" 105  Player->RemoveItem "Ingred_Guar_Hide_Girith" 10  AddItem "Ingred_Guar_Hide_Girith" 10
+  GAMA.esp------>|DATA|ONAM:athanden girith|NAME:Thank you for getting them back. It's good to hear you were able to make at least one of those fetchers pay as well. Make sure to see Berwen in Tel Mora for your reward. I'll send word along the trade routes to make sure she keeps an eye out for %PCName.|SCVR:05IX3ingred_guar_hide_girith|INTV: |SCVR:16DX0emul-ran|INTV:|SCVR:26DX2kashtes ilabael|INTV:|SCVR:34JX4MV_OutcastAshlanders|INTV:d|BNAM:Player->RemoveItem "Ingred_Guar_Hide_Girith" 10  AddItem "Ingred_Guar_Hide_Girith" 10  Journal "MV_OutcastAshlanders" 105  startscript "GAMA_moveAthanden"
+
+[MOD-INF]: ID=1995922121184619591(Topic:some notorious thieves)
+  morrowind.esm->|DATA|ONAM:aeta wave-breaker|NAME:Well! I'm sorry you're too busy to help out someone in need. Goodbye to you, then!|SCVR:01500|INTV|BNAM:Journal "MV_BanditVictim" 40  Goodbye
+  GAMA.esp------>|DATA|ONAM:aeta wave-breaker|NAME:Well! I'm sorry you're too busy to help out someone in need. Goodbye to you, then!|SCVR:01500|INTV|BNAM:Journal "MV_BanditVictim" 40  startscript "GAMA_moveAeta"  Goodbye
+
+[MOD-INF]: ID=2186419384304659958(Topic:spell to cure disease)
+  morrowind.esm->|DATA|ONAM:hisin deep-raed|NAME:I need no spell now, friend! I'll eat that witches eyes in my soup!|SCVR:04JX3MV_ParalyzedBarbarian|INTV:d
+  GAMA.esp------>|DATA|ONAM:hisin deep-raed|NAME:I need no spell now, friend! I'll eat that witch's eyes in my soup!|SCVR:04JX3MV_ParalyzedBarbarian|INTV:d|SCVR:1BLX0Solstheim|INTV:
+
+[MOD-INF]: ID=2211478082729315767(Topic:be of some use)
+  morrowind.esm->|DATA|ONAM:teris raledran|NAME:No? I'm sorry to hear that. Well, Rollie, it looks like we're on our own. Maybe we'll find someone else to help us.|SCVR:01500|INTV|BNAM:Journal "MV_RichTrader" 25  Goodbye
+  GAMA.esp------>|DATA|ONAM:teris raledran|NAME:No? I'm sorry to hear that. Well, Rollie, it looks like we're on our own. Maybe we'll find someone else to help us.|SCVR:01500|INTV|BNAM:Journal "MV_RichTrader" 25  startscript "GAMA_disableRollieTeris_25"  Goodbye
+
+[MOD-INF]: ID=2211828993356731823(Topic:stole all my goods)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:You've gotten my glass back. Excellent. Damn shame you didn't kill those traitorous sons of bitches, but I'll take what I can get. Well, a deal's a deal, so let me tell you a little about the merchant trade....|SCVR:05IX3ingred_raw_glass_tinos|INTV: |SCVR:16DX0alvur hleran|INTV:|SCVR:26DX0dondir|INTV:|BNAM:Player->RemoveItem "Ingred_Raw_Glass_Tinos" 10  AddItem "Ingred_Raw_Glass_Tinos" 10  Player->ModMercantile 2  MessageBox "Your Mercantile skill has increased."  Journal "MV_AngryTrader" 100  Goodbye
+  GAMA.esp------>|DATA|ONAM:tinos drothan|NAME:You've gotten my glass back. Excellent. Damn shame you didn't kill those traitorous sons of bitches, but I'll take what I can get. Well, a deal's a deal, so let me tell you a little about the merchant trade....|SCVR:05IX3ingred_raw_glass_tinos|INTV: |SCVR:16DX0alvur hleran|INTV:|SCVR:26DX0dondir|INTV:|BNAM:Player->RemoveItem "Ingred_Raw_Glass_Tinos" 10  AddItem "Ingred_Raw_Glass_Tinos" 10  Player->ModMercantile 2  MessageBox "Your Mercantile skill has increased."  Journal "MV_AngryTrader" 100  startscript "GAMA_moveTinos"  Goodbye
+
+[MOD-INF]: ID=2244928392473729022(Topic:taking cloudcleaver)
+  morrowind.esm->|DATA|ONAM:hlormar wine-sot|NAME:Methinks that a poor, poor decision on your part friend.|SCVR:01500|INTV|BNAM:;Hlormar Wine-Sot  Journal "MV_AbusedHealer" 80  ModDisposition -100  StartCombat Player  Goodbye
+  GAMA.esp------>|DATA|ONAM:hlormar wine-sot|NAME:Methinks that is a poor, poor decision on your part, friend.|SCVR:01500|INTV|BNAM:;Hlormar Wine-Sot  Journal "MV_AbusedHealer" 80  ModDisposition -100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=2363022826309765808(Greeting:greeting 5)
+  |DATA|ONAM:thoronor|NAME:Hello again. I'm afraid my travels will have to continue without dear Edras. It will simply not be the same.|SCVR:04JX3MV_StrayedPilgrim|INTV:d|SCVR:16DX2edras oril|INTV:
+
+[MOD-INF]: ID=2481769841740918543(Journal:mv_abusedhealer)
+  morrowind.esm->|DATA|NAME:Sosia Caristiana was so grateful to me for my protection that she gave me three potions as a reward. I'm glad to see that she can live another day to help those in need.
+  GAMA.esp------>|DATA|NAME:Sosia Caristiana was so grateful to me for my protection that she gave me three potions as a reward. I'm glad to see that she can live another day to help those in need.|QSTF
+
+[MOD-INF]: ID=2513430664228633970(Topic:be of some use)
+  morrowind.esm->|DATA|ONAM:teris raledran|NAME:I've got to get my shipment to Vivec.|SCVR:04JX2MV_RichTrader|INTV: |SCVR:14JX4MV_RichTrader|INTV:d
+  GAMA.esp------>|DATA|ONAM:teris raledran|NAME:I've got to get my shipment to Vivec.|SCVR:04JX4MV_RichTrader|INTV:d|SCVR:14JX2MV_RichTrader|INTV: 
+
+[DUP-INF]: ID=2539925923169101785(Topic:nelos onmar)
+  |DATA|ANAM:Pelagiad|NAME:Certainly, I know who he is. Handsome fellow. Quiet, though. I don't think he actually lives around here, but he's often around. You might check in the Halfway Tavern. Quite a few folks gather in that place.|SCVR:04JX4MV_VictimRomance|INTV:d|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2542930563131077074(Topic:family heirlooms)
+  morrowind.esm->|DATA|ONAM:aeta wave-breaker|NAME:You've found them! I'm so relieved. Here, please take this gold as payment. I was able to keep it hidden when the outlaws robbed me, and I'd be glad for you to have it. Thank you again!|SCVR:04JX0MV_BanditVictim|INTV:2|SCVR:15IX2expensive_amulet_aeta|INTV:|SCVR:25IX2expensive_ring_aeta|INTV:|BNAM:Journal "MV_BanditVictim" 110  RemoveItem "Gold_001" 300  Player->RemoveItem "expensive_amulet_aeta" 1  Player->RemoveItem "expensive_ring_aeta" 1  AddItem "expensive_amulet_aeta" 1  AddItem "expensive_ring_aeta" 1  Player->AddItem "Gold_001" 300  Goodbye
+  GAMA.esp------>|DATA|ONAM:aeta wave-breaker|NAME:You've found them! I'm so relieved. Here, please take this gold as payment. I was able to keep it hidden when the outlaws robbed me, and I'd be glad for you to have it. Thank you again!|SCVR:04JX0MV_BanditVictim|INTV:2|SCVR:15IX2expensive_amulet_aeta|INTV:|SCVR:25IX2expensive_ring_aeta|INTV:|BNAM:RemoveItem "Gold_001" 300  Player->RemoveItem "expensive_amulet_aeta" 1  Player->RemoveItem "expensive_ring_aeta" 1  AddItem "expensive_amulet_aeta" 1  AddItem "expensive_ring_aeta" 1  Player->AddItem "Gold_001" 300  Journal "MV_BanditVictim" 110  startscript "GAMA_moveAeta"  Goodbye
+
+[MOD-INF]: ID=2715912549403922083(Topic:muddled)
+  morrowind.esm->|DATA|ONAM:din|NAME:Fine! Can't trust you slaughterfish anyway! Are you threatening me? Go away!|SCVR:01500|INTV|BNAM:Journal "MV_MonsterDisease" 48
+  GAMA.esp------>|DATA|ONAM:din|NAME:Fine! Can't trust you slaughterfish anyway! Are you threatening me? Go away!|SCVR:01500|INTV|BNAM:Journal "MV_MonsterDisease" 48  startscript "GAMA_disableDin"  Goodbye
+
+[MOD-INF]: ID=2726430470123701099(Topic:pemenie the trader)
+  morrowind.esm->|DATA|NAME:Oh, that one. She's got a bounty on her head, I believe, although no one would bother trying to collect on it. She's a slippery one. Often deals in shoddy items. Great promise, but low reward. You know?|SCVR:06DX0pemenie|INTV:|SCVR:1CsX0NoLore|INTV:
+  GAMA.esp------>|DATA|NAME:Oh, that one. She's got a bounty on her head, I believe, although no one would bother trying to collect on it. She's a slippery one. Often deals in shoddy items. Great promise, but low reward. You know?|SCVR:06DX0pemenie|INTV:|SCVR:1CsX0NoLore|INTV|INTV:
+
+[MOD-INF]: ID=2730917146129921276(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:hlormar wine-sot|NAME:You have Cloudcleaver, my friend. I would like it back.|SCVR:15IX2cloudcleaver_unique|INTV:
+  GAMA.esp----->|DATA|ONAM:hlormar wine-sot|NAME:You have Cloudcleaver, my friend. I would like it back.|SCVR:05IX2cloudcleaver_unique|INTV:
+
+[MOD-INF]: ID=2790127598728831388(Topic:pemenie the trader)
+  morrowind.esm->|DATA|NAME:Oh, I heard she met an untimely end while on one of her "trade" excursions. Some trader...all she ever sold was low-quality and poorly enchanted. Only a real scuttlehead would deal with that thief.|SCVR:06DX2pemenie|INTV:|SCVR:1CsX0NoLore|INTV:
+  GAMA.esp------>|DATA|NAME:Oh, I heard she met an untimely end while on one of her "trade" excursions. Some trader...all she ever sold was low-quality and poorly enchanted. Only a real scuttlehead would deal with that thief.|SCVR:06DX2pemenie|INTV:|SCVR:1CsX0NoLore|INTV|INTV:
+
+[MOD-INF]: ID=2814559022850731348(Topic:lucan's shipment)
+  morrowind.esm->|DATA|ONAM:yak gro-skandar|NAME:Supposed to meet me with shipment. Didn't show. Don't like that. Good that you brought them, though. Good weapons. Here.|SCVR:04JX3MV_ThiefTrader|INTV|SCVR:14JX5MV_ThiefTrader|INTV|SCVR:25IX3silver war axe|INTV|SCVR:35IX3silver flameblade|INTV|SCVR:45IX3steel shortsword|INTV|SCVR:55IX3steel staff|INTV|BNAM:Journal "MV_ThiefTrader" 100  ModPCFacRep 5 "Thieves Guild"  Player->RemoveItem "Silver War Axe" 1  Player->RemoveItem "Silver Flameblade" 1  Player->RemoveItem "Steel Shortsword" 1  Player->RemoveItem "Steel Staff" 1  AddItem "Silver War Axe" 1  AddItem "Silver Flameblade" 1  AddItem "Steel Staff" 1  AddItem "Steel Shortsword" 1  RemoveItem "Gold_001" 100  Player->AddItem "Gold_001" 100  Goodbye
+  GAMA.esp------>|DATA|ONAM:yak gro-skandar|NAME:Supposed to meet me with shipment. Didn't show. Don't like that. Good that you brought them, though. Good weapons. Here.|SCVR:04JX3MV_ThiefTrader|INTV|SCVR:14JX5MV_ThiefTrader|INTV|SCVR:25IX3silver war axe|INTV|SCVR:35IX3silver flameblade|INTV|SCVR:45IX3steel shortsword|INTV|SCVR:55IX3steel staff|INTV|BNAM:Journal "MV_ThiefTrader" 100  ModPCFacRep 5 "Thieves Guild"  Player->RemoveItem "Silver War Axe" 1  Player->RemoveItem "Silver Flameblade" 1  Player->RemoveItem "Steel Shortsword" 1  Player->RemoveItem "Steel Staff" 1  AddItem "Silver War Axe" 1  AddItem "Silver Flameblade" 1  AddItem "Steel Staff" 1  AddItem "Steel Shortsword" 1  RemoveItem "Gold_001" 100  Player->AddItem "Gold_001" 100  startscript "GAMA_moveLucan"  Goodbye
+
+[MOD-INF]: ID=2829522118217825567(Topic:note from nelos)
+  morrowind.esm->|DATA|ONAM:maurrie aurmine|NAME:He gave you a letter to give to me? Wonderful! Thank you so! I knew that he cared. You know, you didn't have to do all of this for me, and I really appreciate it. You're clearly a wonderful person. You should visit my friend Barnand Erelie in Tel Branora. He's a wonderful person, and I think the two of you would get along famously.|SCVR:04JX0MV_VictimRomance|INTV:<|SCVR:15IX2bk_notefromnelos|INTV:|SCVR:21380|INTV|BNAM:Journal "MV_VictimRomance" 100  AddTopic "Maurrie Aurmine"  AddItem "bk_notefromnelos" 1  Player->RemoveItem "bk_notefromnelos" 1
+  GAMA.esp------>|DATA|ONAM:maurrie aurmine|NAME:He gave you a letter to give to me? Wonderful! Thank you so! I knew that he cared. You know, you didn't have to do all of this for me, and I really appreciate it. You're clearly a wonderful person. You should visit my friend Barnand Erelie in Tel Branora. He's a wonderful person, and I think the two of you would get along famously.|SCVR:04JX0MV_VictimRomance|INTV:<|SCVR:15IX2bk_notefromnelos|INTV:|SCVR:21380|INTV|BNAM:Journal "MV_VictimRomance" 100  AddTopic "Maurrie Aurmine"  AddItem "bk_notefromnelos" 1  Player->RemoveItem "bk_notefromnelos" 1  startscript "GAMA_moveNelos"
+
+[MOD-INF]: ID=2967828969255723460(Topic:kagouti)
+  morrowind.esm->|DATA|ONAM:edras oril|NAME:You've killed the kagouti! I thought that might have been the case. I could no longer hear their calls anymore. You know... the kagouti have a very distinctive call. One type of vocalization you'll hear is used for mating, another for territorial disputes. And the coloration on them is beautiful! The one who chased me here was a real ripper! Well, I could go on all day about this. I'll just follow you back to Thoronor now.|SCVR:06DX3kagouti_mating|INTV|SCVR:14JX2MV_StrayedPilgrim|INTV|SCVR:24JX4MV_StrayedPilgrim|INTV:Z|BNAM:Journal "MV_StrayedPilgrim" 48  "Edras Oril"->AiFollow Player 0,17153,-30966,795,0
+  GAMA.esp------>|DATA|ONAM:edras oril|NAME:You've killed the kagouti! I thought that might have been the case. I could no longer hear their calls anymore. You know... the kagouti have a very distinctive call. One type of vocalization you'll hear is used for mating, another for territorial disputes. And the coloration on them is beautiful! The one who chased me here was a real ripper! Well, I could go on all day about this. I'll just follow you back to Thoronor now.|SCVR:06DX3kagouti_mating|INTV|SCVR:14JX2MV_StrayedPilgrim|INTV|SCVR:24JX4MV_StrayedPilgrim|INTV:Z|SCVR:35IX0bk_notes-kagouti mating habits|INTV:|BNAM:Journal "MV_StrayedPilgrim" 48  "Edras Oril"->AiFollow Player 0,17153,-30966,795,0
+
+[MOD-INF]: ID=3046519316269584068(Topic:guar hide shipment)
+  morrowind.esm->|DATA|ONAM:marsus tullius|NAME:Oh, my. I didn't realize...I just figured it was a herd of wild guar. Well, no danger of me heading back that way. I've no desire to make any more enemies with those folk. Thanks for your help. Make sure you visit my father, Stents Tullius, in Tel Aruhn. I'll make sure to send word ahead about what a help you were to me. I'm sure he'll reward you well.|SCVR:04JX0MV_InnocentAshlanders|INTV:U|BNAM:AddTopic "Marsus Tullius' hides"  Journal "MV_InnocentAshlanders" 100  Player->RemoveItem "Ingred_Guar_Hide_Marsus" 10  AddItem "Ingred_Guar_Hide_Marsus" 10
+  GAMA.esp------>|DATA|ONAM:marsus tullius|NAME:Oh, my. I didn't realize...I just figured it was a herd of wild guar. Well, no danger of me heading back that way. I've no desire to make any more enemies with those folk. Thanks for your help. Make sure you visit my father, Stentus Tullius, in Tel Aruhn. I'll make sure to send word ahead about what a help you were to me. I'm sure he'll reward you well.|SCVR:04JX0MV_InnocentAshlanders|INTV:U|BNAM:AddTopic "Marsus Tullius' hides"  Player->RemoveItem "Ingred_Guar_Hide_Marsus" 10  AddItem "Ingred_Guar_Hide_Marsus" 10  Journal "MV_InnocentAshlanders" 100  startscript "GAMA_moveMarsus"
+
+[DUP-INF]: ID=3081131253116599307(Topic:bandit nearby)
+  |DATA|ONAM:maurrie aurmine|NAME:Yes, I was just walking along here, minding my own business. Suddenly, a bandit jumped at me from behind. He was a dark elf--a strong, dashing dark elf. He didn't harm me in any way, although he did take my jewels. He was quite gentle, and he talked to me for what seemed like forever.|BNAM:Journal "MV_VictimRomance" 20
+
+[DUP-INF]: ID=3095424884419930413(Topic:solstheim)
+  |DATA|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=3113587232413124358(Topic:compensation)
+  morrowind.esm->|DATA|ONAM:teris raledran|NAME:Well, I'm afraid I can't pay you all of what I promised, with the loss of my beloved Rollie. Here, take this. I'll use the rest to have a proper burial for my one true friend, perhaps build him a memorial. At least most of the goods got here, though. He would have wanted it that way. Farewell.|SCVR:04JX0MV_RichTrader|INTV:Z|SCVR:16DX2guar_rollie_unique|INTV:|BNAM:RemoveItem "Gold_001" 100  Player->AddItem "Gold_001" 100  Journal "MV_RichTrader" 105  Goodbye
+  GAMA.esp------>|DATA|ONAM:teris raledran|NAME:Well, I'm afraid I can't pay you all of what I promised, with the loss of my beloved Rollie. Here, take this. I'll use the rest to have a proper burial for my one true friend, perhaps build him a memorial. At least most of the goods got here, though. He would have wanted it that way. Farewell.|SCVR:06DX0guar_rollie_unique|INTV|SCVR:14JX0MV_RichTrader|INTV:Z|BNAM:RemoveItem "Gold_001" 100  Player->AddItem "Gold_001" 100  Journal "MV_RichTrader" 105  startscript "GAMA_disableTeris"  Goodbye
+
+[MOD-INF]: ID=3178719032449412014(Topic:my friend)
+  morrowind.esm->|DATA|ONAM:edras oril|NAME:You've gotten rid of them? Excellent! Well, let's head back to Thoronor then, shall we?|SCVR:04JX3MV_StrayedPilgrim|INTV:(|SCVR:16DX3kagouti_mating|INTV|SCVR:24JX4MV_StrayedPilgrim|INTV:Z|SCVR:34JX1MV_StrayedPilgrim|INTV:0|SCVR:44JX1MV_StrayedPilgrim|INTV:-|BNAM:Journal "MV_StrayedPilgrim" 30  "Edras Oril"->AiFollow Player 0 0 0 0 0 0 0  Goodbye
+  GAMA.esp------>|DATA|ONAM:edras oril|NAME:You've gotten rid of them? Excellent! Well, let's head back to Thoronor then, shall we?|SCVR:04JX3MV_StrayedPilgrim|INTV:(|SCVR:16DX3kagouti_mating|INTV|SCVR:24JX4MV_StrayedPilgrim|INTV:Z|SCVR:34JX1MV_StrayedPilgrim|INTV:0|SCVR:44JX1MV_StrayedPilgrim|INTV:-|SCVR:55IX0bk_notes-kagouti mating habits|INTV:|BNAM:Journal "MV_StrayedPilgrim" 30  "Edras Oril"->AiFollow Player 0 0 0 0 0 0 0  Goodbye
+
+[DUP-INF]: ID=3220046292198632075(Greeting:greeting 5)
+  |DATA|ONAM:tarer braryn|NAME:Hello %PCName! I hope you'll be able to speak to Trebonius soon and offer my apologies. This rash is killing me!|SCVR:04JX3MS_Apologies|INTV|SCVR:14JX4MS_Apologies|INTV:d
+
+[DUP-INF]: ID=3234527739451724238(Topic:bounty)
+  |DATA|ONAM:pemenie|NAME:A bounty? On my head? Preposterous! It must be a case of mistaken identity. I can't imagine why anyone would want to arrest me. I've always been an honest trader.|SCVR:04JX3MV_TraderAbandoned|INTV:(|SCVR:13sX0pemannoy|INTV:|BNAM:Journal "MV_TraderAbandoned" 50  ModDisposition -10  set pemannoy to 1
+
+[MOD-INF]: ID=3246023492512728471(Topic:jewels)
+  morrowind.esm->|DATA|ONAM:maurrie aurmine|NAME:You'll try? Thank you so! I'm sure you'll be able to find him. He mentioned something about having to head north, so I imagine he might be found in Pelagiad. Please, if you find him, give him this glove for me, as a token of my love. I'm certain he will want to find me again.|SCVR:01500|INTV|BNAM:Journal "MV_VictimRomance" 40  AddTopic "Maurrie's glove"  RemoveItem "Extravagant_Glove_Left_Maur" 1  Player->AddItem "Extravagant_Glove_Left_Maur" 1
+  GAMA.esp------>|DATA|ONAM:maurrie aurmine|NAME:You'll try? Thank you so! I'm sure you'll be able to find him. He mentioned something about having to head south, so I imagine he might be found in Pelagiad. Please, if you find him, give him this glove for me, as a token of my love. I'm certain he will want to find me again.|SCVR:01500|INTV|BNAM:Journal "MV_VictimRomance" 40  AddTopic "Maurrie's glove"  RemoveItem "Extravagant_Glove_Left_Maur" 1  Player->AddItem "Extravagant_Glove_Left_Maur" 1
+
+[DUP-INF]: ID=3864279993112710732(Journal:mv_richtrader)
+  |DATA|NAME:While on our way to Vivec, Teris Raledran met his end. It was sad to see the end of the eccentric trader, and I'm sure Rollie feels the pain of his death.|QSTF
+
+[MOD-INF]: ID=4191137851581027134(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:teris raledran|NAME:I've really got to get my goods to Vivec. It's not cheap trying to feed old Rollie!|SCVR:04JX3MV_RichTrader|INTV: |SCVR:14JX4MV_RichTrader|INTV:Z
+  GAMA.esp------>|DATA|ONAM:teris raledran|NAME:I've really got to get my goods to Vivec. It's not cheap trying to feed old Rollie!|SCVR:04JX5MV_RichTrader|INTV:P|SCVR:14JX3MV_RichTrader|INTV: 
+
+[MOD-INF]: ID=5362326491184315061(Topic:pressing business)
+  morrowind.esm->|DATA|ONAM:rasha|NAME:No? Very sad for both of us. We both stood to gain much. Perhaps you are already cursed by Zenithar, yes? Perhaps he will not accept your oath. I must go. I don't want your curse to be rubbing off on me. No, not on me.|SCVR:01500|INTV|BNAM:Journal "MV_TraderLate" 40  Goodbye
+  GAMA.esp------>|DATA|ONAM:rasha|NAME:No? Very sad for both of us. We both stood to gain much. Perhaps you are already cursed by Zenithar, yes? Perhaps he will not accept your oath. I must go. I don't want your curse to be rubbing off on me. No, not on me.|SCVR:01500|INTV|BNAM:Journal "MV_TraderLate" 40  startscript "GAMA_disableRasha"  Goodbye
+
+[MOD-INF]: ID=6086255182550620740(Topic:my locket)
+  morrowind.esm->|DATA|ONAM:delyna mandas|NAME:I am safe, but I have duties that cannot be ignored. I will go visit my father when I can. In the meantime, please take this locket to my Father. I do not know where he is now, but perhaps his old friend Athyn Sarethi in Ald'ruhn can tell you.|SCVR:34JX3HR_RansomMandas|INTV:F|BNAM:Journal HR_RansomMandas 90  Player->AddItem "expensive_amulet_delyna" 1
+  GAMA.esp------>|DATA|ONAM:delyna mandas|NAME:I am safe, but I have duties that cannot be ignored. I will go visit my father when I can. In the meantime, please take this locket to my Father. I do not know where he is now, but perhaps his old friend Athyn Sarethi in Ald'ruhn can tell you.|SCVR:34JX3HR_RansomMandas|INTV:F|BNAM:Player->AddItem "expensive_amulet_delyna" 1  Journal HR_RansomMandas 90  startscript "GAMA_moveDelyna"
+
+[DUP-INF]: ID=6206269942324316438(Greeting:greeting 5)
+  |DATA|ONAM:thoronor|NAME:Hello! Please, might you be of some assistance? My friend is lost, and I'm very worried about him.|SCVR:04JX4MV_StrayedPilgrim|INTV: 
+
+[MOD-INF]: ID=6620313491186629988(Topic:making a deal)
+  morrowind.esm->|DATA|ONAM:pemenie|NAME:No? Well, no matter. I'm sure someone else will be along shortly to take me up on my offer. Good day.|SCVR:01500|INTV|BNAM:Journal "MV_TraderAbandoned" 30  Goodbye
+  GAMA.esp------>|DATA|ONAM:pemenie|NAME:No? Well, no matter. I'm sure someone else will be along shortly to take me up on my offer. Good day.|SCVR:01500|INTV|BNAM:Journal "MV_TraderAbandoned" 30  startscript "GAMA_movePemenie"  Goodbye
+
+[MOD-INF]: ID=8919111062172329828(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:fonus rathryon|NAME:It is good to finally be at my destination.|SCVR:04JX2MV_PoorPilgrim|INTV:Z
+  GAMA.esp------>|DATA|ONAM:fonus rathryon|NAME:It is good to finally be at my destination.|SCVR:04JX0MV_PoorPilgrim|INTV:Z
+
+[MOD-INF]: ID=8919111062172329828(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:fonus rathryon|NAME:It is good to finally be at my destination.|SCVR:04JX2MV_PoorPilgrim|INTV:Z
+  GAMA.esp------>|DATA|ONAM:fonus rathryon|NAME:It is good to finally be at my destination.|SCVR:04JX0MV_PoorPilgrim|INTV:Z
+[MOD-IID]: ID=252951032850816668
+  GAMA.esp------>It is good to finally be at my destination.
+
+[MOD-INF]: ID=9126137691851022437(Topic:cloudcleaver)
+  morrowind.esm->|DATA|ONAM:hlormar wine-sot|NAME:Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight.|SCVR:01500|INTV|BNAM:;Hlormar Wine-Sot  Player->RemoveItem "cloudcleaver_unique" 1  AddItem "cloudcleaver_unique" 1  Player->ModStrength 2  AiWander 0,0,60,30,10,0,0,0,0,0,0  MessageBox "Your Strength has increased by 2."  Journal "MV_abusedhealer" 85
+  GAMA.esp------>|DATA|ONAM:hlormar wine-sot|NAME:Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight.|SCVR:01500|INTV|BNAM:;Hlormar Wine-Sot  Player->RemoveItem "cloudcleaver_unique" 1  AddItem "cloudcleaver_unique" 1  Player->ModStrength 2  AiWander 0,0,60,30,10,0,0,0,0,0,0  MessageBox "Your Strength has increased by 2."  Journal "MV_abusedhealer" 85  startscript "GAMA_moveHlormar"
+
+[MOD-INF]: ID=10602291441046027734(Topic:lucan's shipment)
+  morrowind.esm->|DATA|ONAM:yak gro-skandar|DNAM:Thieves Guild|NAME:Expected Lucan a while back. Good he send you, though, brother. Not bad stuff. Here's your gold.|SCVR:04JX3MV_ThiefTrader|INTV|SCVR:14JX5MV_ThiefTrader|INTV|SCVR:25IX3silver staff|INTV|SCVR:35IX3silver flameblade|INTV|SCVR:45IX3silver war axe|INTV|SCVR:55IX3steel shortsword|INTV|BNAM:Journal "MV_ThiefTrader" 105  ModPCFacRep 5 "Thieves Guild"  Player->RemoveItem "Silver War Axe" 1  Player->RemoveItem "Silver Flameblade" 1  Player->RemoveItem "Steel Shortsword" 1  Player->RemoveItem "Steel Staff" 1  AddItem "Silver War Axe" 1  AddItem "Silver Flameblade" 1  AddItem "Steel Staff" 1  AddItem "Steel Shortsword" 1  RemoveItem "Gold_001" 100  Player->AddItem "Gold_001" 100  Goodbye
+  GAMA.esp------>|DATA|ONAM:yak gro-skandar|DNAM:Thieves Guild|NAME:Expected Lucan a while back. Good he send you, though, brother. Not bad stuff. Here's your gold.|SCVR:04JX3MV_ThiefTrader|INTV|SCVR:14JX5MV_ThiefTrader|INTV|SCVR:25IX3silver staff|INTV|SCVR:35IX3silver flameblade|INTV|SCVR:45IX3silver war axe|INTV|SCVR:55IX3steel shortsword|INTV|BNAM:Journal "MV_ThiefTrader" 105  ModPCFacRep 5 "Thieves Guild"  Player->RemoveItem "Silver War Axe" 1  Player->RemoveItem "Silver Flameblade" 1  Player->RemoveItem "Steel Shortsword" 1  Player->RemoveItem "Steel Staff" 1  AddItem "Silver War Axe" 1  AddItem "Silver Flameblade" 1  AddItem "Steel Staff" 1  AddItem "Steel Shortsword" 1  RemoveItem "Gold_001" 100  Player->AddItem "Gold_001" 100  startscript "GAMA_moveLucan"  Goodbye
+
+[MOD-INF]: ID=11082198441326114665(Topic:guar hide shipment)
+  morrowind.esm->|DATA|ONAM:marsus tullius|NAME:You've already got my hides? Amazing! Thanks for your help. Don't know what I would have done without this shipment. Would have taken quite a loss. Make sure you visit my father, Stentus Tullius, in Tel Aruhn. I'll make sure to send word ahead about what a help you were to me. I'm sure he'll reward you well.|SCVR:04JX4MV_InnocentAshlanders|INTV:K|SCVR:15IX3ingred_guar_hide_marsus|INTV: |BNAM:AddTopic "Marsus Tullius' hides"  Journal "MV_InnocentAshlanders" 105  Player->RemoveItem "Ingred_Guar_Hide_Marsus" 10  AddItem "Ingred_Guar_Hide_Marsus" 10
+  GAMA.esp------>|DATA|ONAM:marsus tullius|NAME:You've already got my hides? Amazing! Thanks for your help. Don't know what I would have done without this shipment. Would have taken quite a loss. Make sure you visit my father, Stentus Tullius, in Tel Aruhn. I'll make sure to send word ahead about what a help you were to me. I'm sure he'll reward you well.|SCVR:04JX4MV_InnocentAshlanders|INTV:K|SCVR:15IX3ingred_guar_hide_marsus|INTV: |BNAM:AddTopic "Marsus Tullius' hides"  Player->RemoveItem "Ingred_Guar_Hide_Marsus" 10  AddItem "Ingred_Guar_Hide_Marsus" 10  Journal "MV_InnocentAshlanders" 105  startscript "GAMA_moveMarsus"
+
+[MOD-INF]: ID=11577176101811226318(Topic:guar hide shipment)
+  morrowind.esm->|DATA|ONAM:marsus tullius|NAME:Thanks for your help. Don't know what I would have done without this shipment. Would have taken quite a loss. Make sure you visit my father, Stentus Tullius, in Tel Aruhn. I'll make sure to send word ahead about what a help you were to me. I'm sure he'll reward you well.|SCVR:04JX0MV_InnocentAshlanders|INTV:K|SCVR:15IX3ingred_guar_hide_marsus|INTV: |BNAM:AddTopic "Marsus Tullius' hides"  Journal "MV_InnocentAshlanders" 105  Player->RemoveItem "Ingred_Guar_Hide_Marsus" 10  AddItem "Ingred_Guar_Hide_Marsus" 10
+  GAMA.esp------>|DATA|ONAM:marsus tullius|NAME:Thanks for your help. Don't know what I would have done without this shipment. Would have taken quite a loss. Make sure you visit my father, Stentus Tullius, in Tel Aruhn. I'll make sure to send word ahead about what a help you were to me. I'm sure he'll reward you well.|SCVR:04JX0MV_InnocentAshlanders|INTV:K|SCVR:15IX3ingred_guar_hide_marsus|INTV: |BNAM:AddTopic "Marsus Tullius' hides"  Player->RemoveItem "Ingred_Guar_Hide_Marsus" 10  AddItem "Ingred_Guar_Hide_Marsus" 10  Journal "MV_InnocentAshlanders" 105  startscript "GAMA_moveMarsus"
+
+[DUP-INF]: ID=11587251332087013163(Journal:mv_traderabandoned)
+  |DATA|NAME:Pemenie became so enraged when I asked her again about the bounty that she declined to follow me any further. That woman is clearly not the simple trader she claims to be.
+
+[MOD-INF]: ID=11953306463129123950(Topic:stole all my goods)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:Come back when you've got all my glass.|SCVR:04JX3MV_AngryTrader|INTV|SCVR:14JX4MV_AngryTrader|INTV:d|SCVR:25IX4ingred_raw_glass_tinos|INTV: 
+  GAMA.esp------>|DATA|ONAM:tinos drothan|NAME:Come back when you've got all my glass.|SCVR:04JX4MV_AngryTrader|INTV:d|SCVR:14JX3MV_AngryTrader|INTV|SCVR:24JX1MV_AngryTrader|INTV|SCVR:35IX4ingred_raw_glass_tinos|INTV: 
+
+[DUP-INF]: ID=12784258021907518332(Topic:agrippina herrenia)
+  |DATA|ANAM:Vivec|NAME:She's a clothier in the Foreign Quarter; I think her shop is in the Canalworks. Nice merchandise, actually.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=13208253592373917440(Topic:kagouti)
+  morrowind.esm->|DATA|ONAM:edras oril|NAME:Oh, I can still hear them out there. I think I'll stay put. And take notes, of course. Have you noticed the various vocalizations they make? And the posturing is quite fascinating....|SCVR:06DX4kagouti_mating|INTV|SCVR:14JX2MV_StrayedPilgrim|INTV|SCVR:24JX4MV_StrayedPilgrim|INTV:d|BNAM:Goodbye
+  GAMA.esp------>|DATA|ONAM:edras oril|NAME:Oh, I can still hear them out there. I think I'll stay put. And take notes, of course. Have you noticed the various vocalizations they make? And the posturing is quite fascinating....|SCVR:06DX4kagouti_mating|INTV|SCVR:14JX2MV_StrayedPilgrim|INTV|SCVR:24JX4MV_StrayedPilgrim|INTV:d|SCVR:35IX0bk_notes-kagouti mating habits|INTV:|BNAM:Goodbye
+
+[MOD-INF]: ID=14020289441792720814(Journal:mv_richtrader)
+  tribunal.esm->|DATA|NAME:As promised, Teris has paid me 200 septims. Rollie had little to say to me on the matter.|QSTF
+  GAMA.esp----->|DATA|NAME:As promised, Teris has paid me 200 septims.|QSTF
+
+[DUP-INF]: ID=14041162441059131169(Greeting:greeting 5)
+  |DATA|ONAM:nevrasa dralor|NAME:It is good to finally be here. Thank you for your help, my friend.|SCVR:04JX0MV_WanderingPilgrim|INTV:d
+
+[MOD-INF]: ID=14320322931265718888(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:If you know what's good for you, %PCRace, you'll leave me alone and be on your way.|BNAM:Journal "MV_AngryTrader" 5
+  GAMA.esp------>|DATA|ONAM:tinos drothan|NAME:If you know what's good for you, %PCRace, you'll leave me alone and be on your way.|SCVR:04JX1MV_AngryTrader|INTV|BNAM:Journal "MV_AngryTrader" 5
+
+[DUP-INF]: ID=14496281543190528927(Topic:bloody lies)
+  |DATA|ONAM:hlormar wine-sot|NAME:Then let's show this witch the way to her grave together!|SCVR:01500|INTV|BNAM:;Hlormar Wine-Sot  Journal "MV_AbusedHealer" 60  "sosia caristiana"->ModDisposition -50  "sosia caristiana"->SetFight 100
+
+[DUP-INF]: ID=16044133311674231376(Greeting:greeting 5)
+  |DATA|NAME:What do you want?|SCVR:01630|INTV
+
+[DUP-INF]: ID=16937111981711427434(Topic:my friend)
+  |DATA|ONAM:thoronor|NAME:Yes, my friend Edras Oril and I were traveling to Vivec, and he heard a strange animal sound nearby. He's sort of an amateur naturalist, and he felt compelled to seek out what was making the noises. That was hours ago, and I'm afraid something terrible has happened to him. If you could find him, and bring him back safely, I'd really appreciate it. I'd go myself, but I'm really more of a scholar, as is he. That's why we were traveling together--a little safety in numbers, you know. Can you help?|SCVR:04JX4MV_StrayedPilgrim|INTV: |BNAM:Journal "MV_StrayedPilgrim" 10  Choice "I'll try and find your friend." 1 "I've not got time for that now." 2
+
+[MOD-INF]: ID=17343287881318820021(Topic:dangerous trip)
+  morrowind.esm->|DATA|ONAM:paur maston|NAME:No? Well, maybe I'll be able to make it on my own. Good luck to you, then.|SCVR:01500|INTV|BNAM:Journal "MV_TraderMissed" 40  Goodbye
+  GAMA.esp------>|DATA|ONAM:paur maston|NAME:No? Well, maybe I'll be able to make it on my own. Good luck to you, then.|SCVR:01500|INTV|BNAM:Journal "MV_TraderMissed" 40  startscript "GAMA_disablePaurVanjirra_40"  Goodbye
+
+[DUP-INF]: ID=17946135232584117895(Greeting:greeting 1)
+  |DATA|ONAM:guar_rollie_unique|NAME:[Rollie gazes at you with soulful eyes, but says nothing.]|SCVR:03sX0rollievar|INTV|BNAM:set rollievar to 3
+
+[MOD-INF]: ID=18467256072786617284(Topic:maurrie aurmine)
+  morrowind.esm->|DATA|ONAM:emusette bracques|NAME:Ah...so you're the one who brought Maurrie and Nelos together. Nothing has been seen or heard of them since then, but the bards are singing songs of their love. Well, done %PCName! Please, take these as a token of my gratitude.|SCVR:14JX0MV_VictimRomance|INTV:i|BNAM:ModDisposition 20  AddTopic "Maurrie and Nelos"  Journal "MV_VictimRomance" 115  Player->AddItem "p_restore_health_e" 3  StartScript maurrieScript
+  GAMA.esp------>|DATA|ONAM:emusette bracques|NAME:Ah...so you're the one who brought Maurrie and Nelos together. Nothing has been seen or heard of them since then, but the bards are singing songs of their love. Well, done %PCName! Please, take these as a token of my gratitude.|SCVR:01380|INTV:|SCVR:14JX0MV_VictimRomance|INTV:i|BNAM:ModDisposition 20  AddTopic "Maurrie and Nelos"  Journal "MV_VictimRomance" 115  Player->AddItem "p_restore_health_e" 3
+
+[MOD-INF]: ID=18500209911864819544(Topic:business partner)
+  morrowind.esm->|DATA|ONAM:vanjirra|NAME:What's that? Oh, no! I can't believe he's gone! It is good of you to come all this way to tell me of his passing, though.|SCVR:04JX0MV_TraderMissed|INTV:Z|BNAM:RemoveItem "Gold_001" 50  Player->AddItem "Gold_001" 50  Journal "MV_TraderMissed" 130
+  GAMA.esp------>|DATA|ONAM:vanjirra|NAME:What's that? Oh, no! I can't believe he's gone! It is good of you to come all this way to tell me of his passing, though.|SCVR:04JX0MV_TraderMissed|INTV:Z|BNAM:RemoveItem "Gold_001" 50  Player->AddItem "Gold_001" 50  Journal "MV_TraderMissed" 130  startscript "GAMA_disableVanjirra"  Goodbye
+
+[MOD-INF]: ID=18539173202809929520(Topic:do me a favor)
+  morrowind.esm->|DATA|ONAM:lucan ostorius|NAME:No? Damn. I really could have used the help.|SCVR:01500|INTV|BNAM:Journal "MV_ThiefTrader" 30  Goodbye
+  GAMA.esp------>|DATA|ONAM:lucan ostorius|NAME:No? Damn. I really could have used the help.|SCVR:01500|INTV|BNAM:Journal "MV_ThiefTrader" 30  startscript "GAMA_disableLucan"  Goodbye
+
+[MOD-INF]: ID=18785221863248311369(Topic:witch nearby)
+  morrowind.esm->|DATA|ONAM:botrir|NAME:Bah! I'll find her myself then!|SCVR:01500|INTV|BNAM:Journal "MV_RecoverWidowmaker" 40  Goodbye
+  GAMA.esp------>|DATA|ONAM:botrir|NAME:Bah! I'll find her myself then!|SCVR:01500|INTV|BNAM:Journal "MV_RecoverWidowmaker" 40  startscript "GAMA_moveBotrir"  Goodbye
+
+[MOD-INF]: ID=19440298672556929048(Topic:reward)
+  morrowind.esm->|DATA|ONAM:vanjirra|NAME:Certainly! Thank you for helping Paur to get here safely. I hope you'll find this adequate compensation.|SCVR:04JX0MV_TraderMissed|INTV:_|SCVR:16DX0paur maston|INTV:|BNAM:RemoveItem "Light Amulet" 1  Player->AddItem "Light Amulet" 1  Journal "MV_TraderMissed" 100
+  GAMA.esp------>|DATA|ONAM:vanjirra|NAME:Certainly! Thank you for helping Paur to get here safely. I hope you'll find this adequate compensation.|SCVR:04JX0MV_TraderMissed|INTV:_|BNAM:RemoveItem "Light Amulet" 1  Player->AddItem "Light Amulet" 1  Journal "MV_TraderMissed" 100  startscript "GAMA_moveVanjirra"  Goodbye
+
+[MOD-INF]: ID=19953314722543224383(Topic:bloody lies)
+  morrowind.esm->|DATA|ONAM:hlormar wine-sot|NAME:That's right, they're all damn lies!  Is that a doubting look I see in your eye, friend?  Whose side are you on here?|SCVR:04JX3MV_AbusedHealer|INTV:2|BNAM:;Hlormar Wine-Sot  Choice "I'll side with you." 4 "I believe Sosia." 5
+  GAMA.esp------>|DATA|ONAM:hlormar wine-sot|NAME:That's right, they're all damn lies! Is that a doubting look I see in your eye, friend? Whose side are you on here?|SCVR:04JX3MV_AbusedHealer|INTV:2|BNAM:;Hlormar Wine-Sot  Choice "I'll side with you." 4 "I believe Sosia." 5
+
+[MOD-INF]: ID=20269221761713214532(Topic:unholy ritual)
+  morrowind.esm->|DATA|ONAM:sason|NAME:No? You have no soul! I will not forget this.|SCVR:01500|INTV|BNAM:Journal "MV_CultistVictim" 46  ModPCFacRep -5 "Redoran"  Goodbye
+  GAMA.esp------>|DATA|ONAM:sason|NAME:No? You have no soul! I will not forget this.|SCVR:01500|INTV|BNAM:ModPCFacRep -5 "Redoran"  Journal "MV_CultistVictim" 46  startscript "GAMA_disableSason"  startscript "GAMA_killMalexa"  Goodbye
+
+[DUP-INF]: ID=20486297913023010416(Greeting:greeting 5)
+  |DATA|ONAM:botrir|NAME:Hail, stranger! Have you seen a witch nearby? I'll tear out her heart and feed it to a nix hound!|SCVR:04JX4MV_RecoverWidowmaker|INTV: |SCVR:16DX0iveri llothri|INTV:|BNAM:Journal "MV_RecoverWidowmaker" 10
+
+[MOD-INF]: ID=21902236681720919358(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:fonus rathryon|NAME:Thank you for your help, %PCName. As promised, here is your payment.|SCVR:04JX0MV_PoorPilgrim|INTV:Z|BNAM:Journal MV_PoorPilgrim 100  AiWander 128,0,0,60,30,10,0,0,0,0,0,0  RemoveItem "Gold_001" 150  Player->AddItem "Gold_001" 150  Goodbye
+  GAMA.esp----->|DATA|ONAM:fonus rathryon|NAME:Thank you for your help, %PCName. As promised, here is your payment.|SCVR:04JX0MV_PoorPilgrim|INTV:Z|BNAM:AiWander 128,0,0,60,30,10,0,0,0,0,0,0  RemoveItem "Gold_001" 150  Player->AddItem "Gold_001" 150  Journal MV_PoorPilgrim 100  startscript "GAMA_moveFonus"  Goodbye
+
+[DUP-INF]: ID=22686184191432125180(Greeting:greeting 5)
+  |DATA|ONAM:fonus rathryon|NAME:Pardon me, can you help a poor pilgrim?|SCVR:04JX4MV_PoorPilgrim|INTV: 
+
+[MOD-INF]: ID=24392234561425027149(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:Listen up, if you really care. My former "guards" just ran off and stole all my goods.|SCVR:01490|INTV:|BNAM:Journal "MV_AngryTrader" 10
+  GAMA.esp------>|DATA|ONAM:tinos drothan|NAME:Listen up, if you really care. My former "guards" just ran off and stole all my goods.|SCVR:01490|INTV:|SCVR:14JX1MV_AngryTrader|INTV|BNAM:Journal "MV_AngryTrader" 10
+
+[MOD-INF]: ID=24896255492698126446(Topic:reward)
+  morrowind.esm->|DATA|ONAM:paur maston|NAME:Oh...well, like I told you, I don't have much. But, since Vanjirra doesn't seem to be around, I'll give you what I can. I certainly hope she's not in any trouble.|SCVR:04JX0MV_TraderMissed|INTV:_|SCVR:16DX2vanjirra|INTV:
+  GAMA.esp------>|DATA|ONAM:paur maston|NAME:Oh...well, like I told you, I don't have much. I'll give you what I can. Thank you for your help.|SCVR:04JX0MV_TraderMissed|INTV:_|SCVR:16DX2vanjirra|INTV:|BNAM:RemoveItem "Gold_001" 50  Player->AddItem "Gold_001" 50  Journal "MV_TraderMissed" 110  startscript "GAMA_disablePaur"  Goodbye
+
+[MOD-INF]: ID=25166277721472414893(Topic:festering witch)
+  morrowind.esm->|DATA|ONAM:hlormar wine-sot|NAME:It is good she is dead.|SCVR:04JX3MV_AbusedHealer|INTV: |SCVR:16DX2sosia caristiana|INTV:|SCVR:24JX1MV_AbusedHealer|INTV:#
+  GAMA.esp------>|DATA|ONAM:hlormar wine-sot|NAME:It is good she is dead.|SCVR:04JX3MV_AbusedHealer|INTV: |SCVR:16DX2sosia caristiana|INTV:|SCVR:24JX1MV_AbusedHealer|INTV:#|BNAM:startscript "GAMA_moveHlormar"
+
+[MOD-INF]: ID=25411176202983810436(Topic:family heirlooms)
+  morrowind.esm->|DATA|ONAM:aeta wave-breaker|NAME:You've found them! I'm so relieved. Here, please take this gold as payment. I was able to keep it hidden when the outlaws robbed me, and I'd be glad for you to have it. Thank you again!|SCVR:04JX4MV_BanditVictim|INTV: |SCVR:15IX2expensive_amulet_aeta|INTV:|SCVR:25IX2expensive_ring_aeta|INTV:|BNAM:Journal "MV_BanditVictim" 105  Player->RemoveItem "expensive_amulet_aeta" 1  Player->RemoveItem "expensive_ring_aeta" 1  AddItem "expensive_amulet_aeta" 1  AddItem "expensive_ring_aeta" 1  RemoveItem "Gold_001" 300  Player->AddItem "Gold_001" 300  Goodbye
+  GAMA.esp------>|DATA|ONAM:aeta wave-breaker|NAME:You've found them! I'm so relieved. Here, please take this gold as payment. I was able to keep it hidden when the outlaws robbed me, and I'd be glad for you to have it. Thank you again!|SCVR:04JX4MV_BanditVictim|INTV: |SCVR:15IX2expensive_amulet_aeta|INTV:|SCVR:25IX2expensive_ring_aeta|INTV:|BNAM:Player->RemoveItem "expensive_amulet_aeta" 1  Player->RemoveItem "expensive_ring_aeta" 1  AddItem "expensive_amulet_aeta" 1  AddItem "expensive_ring_aeta" 1  RemoveItem "Gold_001" 300  Player->AddItem "Gold_001" 300  Journal "MV_BanditVictim" 105  startscript "GAMA_moveAeta"  Goodbye
+
+[MOD-INF]: ID=26065253482426819473(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:vanjirra|NAME:Oh, hello! I see you've found Paur! Please, allow me to give you some reward for your efforts.|SCVR:04JX0MV_TraderMissed|INTV:_|SCVR:16DX0paur maston|INTV:|BNAM:"Paur Maston"->AiFollow Vanjirra 0 0 0 0 0 0
+  GAMA.esp------>|DATA|ONAM:vanjirra|NAME:Oh, hello! I see you've found Paur! Please, allow me to give you some reward for your efforts.|SCVR:04JX0MV_TraderMissed|INTV:_|BNAM:"Paur Maston"->AiFollow Vanjirra 0 0 0 0 0 0
+
+[MOD-INF]: ID=26332259411248911020(Topic:taking cloudcleaver)
+  morrowind.esm->|DATA|ONAM:hlormar wine-sot|NAME:Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight.|SCVR:01500|INTV|BNAM:;Hlormar Wine-Sot  Player->ModStrength 2  Journal MV_abusedhealer 85  AiWander 0,0,60,30,10,0,0,0,0,0,0
+  GAMA.esp------>|DATA|ONAM:hlormar wine-sot|NAME:Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight.|SCVR:01500|INTV|BNAM:;Hlormar Wine-Sot  Player->ModStrength 2  Journal MV_abusedhealer 85  AiWander 0,0,60,30,10,0,0,0,0,0,0  startscript "GAMA_moveHlormar"
+
+[MOD-INF]: ID=26508111573117819097(Journal:mv_richtrader)
+  morrowind.esm->|DATA|NAME:I've agreed to escort Teris Raledran, and Rollie the Guar, to Vivec. In return, he has agreed to pay me 100 septims for my time.
+  GAMA.esp------>|DATA|NAME:I've agreed to escort Teris Raledran, and Rollie the Guar, to Vivec. In return, he has agreed to pay me 200 septims for my time.
+
+[DUP-INF]: ID=27518247831477521212(Greeting:greeting 5)
+  |DATA|ONAM:Geon Auline|NAME:Hello.  I am Geon Auline, collector of fine artifacts.|SCVR:04JX0MS_EstateSale|INTV:
+
+[DUP-INF]: ID=28163300022327818228(Greeting:greeting 5)
+  |DATA|ONAM:hlormar wine-sot|NAME:Seems a bit chilly today, doesn't it?
+
+[MOD-INF]: ID=28434250861022425021(Topic:robbed me)
+  morrowind.esm->|DATA|ONAM:athanden girith|NAME:Figures. No one left in this world willing to help an honest trader.|SCVR:01500|INTV|BNAM:Journal "MV_OutcastAshlanders" 40
+  GAMA.esp------>|DATA|ONAM:athanden girith|NAME:Figures. No one left in this world willing to help an honest trader.|SCVR:01500|INTV|BNAM:Journal "MV_OutcastAshlanders" 40  startscript "GAMA_moveAthanden"  Goodbye
+
+[DUP-INF]: ID=28491118892498420120(Greeting:greeting 5)
+  |DATA|ONAM:hlormar wine-sot|NAME:Hail and well met stranger!  As ye can plainly see, I require some assistance if ye be kind enough to grant it. I need help finding the festering witch who has robbed me blind and left me for dead.|SCVR:04JX4MV_AbusedHealer|INTV: |BNAM:Journal "MV_AbusedHealer" 1
+
+[MOD-INF]: ID=28756282991358614509(Topic:my friend)
+  morrowind.esm->|DATA|ONAM:edras oril|NAME:Thoronor is dead? That can't be! Well, I have no reason to go on. Good day.|SCVR:16DX2thoronor|INTV:|BNAM:Journal MV_StrayedPilgrim 115  AiWander 128 0 0 0 0 0 0  Goodbye
+  GAMA.esp------>|DATA|ONAM:edras oril|NAME:Thoronor is dead? That can't be! Well, I have no reason to go on. Good day.|SCVR:0BLX0Suran, Desele's House of Earthly Delights|INTV:|SCVR:16DX2thoronor|INTV:|SCVR:25IX0bk_notes-kagouti mating habits|INTV:|BNAM:Journal MV_StrayedPilgrim 115  AiWander 128 0 0 0 0 0 0  Goodbye
+
+[MOD-INF]: ID=29267265082254930396(Journal:mv_tradermissed)
+  tribunal.esm->|DATA|NAME:I arrived in Molag Mar with Paur Maston. Of course, I knew that Vanjirra was already dead, but didn't figure that Paur needed to know that as well. The fool still paid me what he could for escorting him here.|QSTF
+  GAMA.esp----->|DATA|NAME:I arrived in Molag Mar with Paur Maston. Unfortunately, Vanjirra had died. Paur, though quite upset over the loss of his business partner, still paid me what he could for escorting him here.|QSTF
+
+[MOD-INF]: ID=29300200673009117112(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:pemenie|NAME:Well, this is close enough. Thanks for your help. I suppose it's only fair that I give you your reward. Here, take them. Though it pains me to give them, you are now the owner of the Boots of Blinding Speed.|SCVR:04JX0MV_TraderAbandoned|INTV:Z|BNAM:RemoveItem "boots of blinding speed[unique]" 1  Player->AddItem "boots of blinding speed[unique]" 1  Journal "MV_TraderAbandoned" 100  Goodbye
+  GAMA.esp----->|DATA|ONAM:pemenie|NAME:Well, this is close enough. Thanks for your help. I suppose it's only fair that I give you your reward. Here, take them. Though it pains me to give them, you are now the owner of the Boots of Blinding Speed.|SCVR:04JX0MV_TraderAbandoned|INTV:Z|BNAM:RemoveItem "boots of blinding speed[unique]" 1  Player->AddItem "boots of blinding speed[unique]" 1  Journal "MV_TraderAbandoned" 100  startscript "GAMA_movePemenie"  Goodbye
+
+[MOD-INF]: ID=29454110363241224469(Topic:girith's guar hides)
+  morrowind.esm->|DATA|ONAM:athanden girith|NAME:Thank you for getting them back. It's good to hear you were able to make at least one of those fetchers pay as well. Make sure to see Berwen in Tel Mora for your reward. I'll send word along the trade routes to make sure she keeps an eye out for %PCName.|SCVR:05IX3ingred_guar_hide_girith|INTV: |SCVR:16DX2emul-ran|INTV:|SCVR:26DX0kashtes ilabael|INTV:|SCVR:34JX4MV_OutcastAshlanders|INTV:d|BNAM:Journal "MV_OutcastAshlanders" 105  Player->RemoveItem "Ingred_Guar_Hide_Girith" 10  AddItem "Ingred_Guar_Hide_Girith" 10
+  GAMA.esp------>|DATA|ONAM:athanden girith|NAME:Thank you for getting them back. It's good to hear you were able to make at least one of those fetchers pay as well. Make sure to see Berwen in Tel Mora for your reward. I'll send word along the trade routes to make sure she keeps an eye out for %PCName.|SCVR:05IX3ingred_guar_hide_girith|INTV: |SCVR:16DX2emul-ran|INTV:|SCVR:26DX0kashtes ilabael|INTV:|SCVR:34JX4MV_OutcastAshlanders|INTV:d|BNAM:Player->RemoveItem "Ingred_Guar_Hide_Girith" 10  AddItem "Ingred_Guar_Hide_Girith" 10  Journal "MV_OutcastAshlanders" 105  startscript "GAMA_moveAthanden"
+
+[MOD-INF]: ID=29712207392309926898(Topic:festering witch)
+  morrowind.esm->|DATA|ONAM:hlormar wine-sot|NAME:Bah, I took you for a coward the moment I saw you!  Stand aside then and make way for any real warriors who be walking this path.|SCVR:01500|INTV|BNAM:;Hlormar Wine-Sot  Journal "MV_AbusedHealer" 35  ModDisposition -10
+  GAMA.esp------>|DATA|ONAM:hlormar wine-sot|NAME:Bah, I took you for a coward the moment I saw you!  Stand aside then and make way for any real warriors who be walking this path.|SCVR:01500|INTV|BNAM:;Hlormar Wine-Sot  Journal "MV_AbusedHealer" 35  ModDisposition -10  startscript "GAMA_disableHlormar"  startscript "GAMA_moveSosia_02"  Goodbye
+
+[MOD-INF]: ID=30054265372752523561(Topic:potion of cure common disease)
+  morrowind.esm->|DATA|ONAM:hisin deep-raed|NAME:I need no potion now, friend! I'll feed that witch's entrails to the nix-hounds!|SCVR:04JX3MV_ParalyzedBarbarian|INTV:d
+  GAMA.esp------>|DATA|ONAM:hisin deep-raed|NAME:I need no potion now, friend! I'll feed that witch's entrails to the nix-hounds!|SCVR:04JX3MV_ParalyzedBarbarian|INTV:d|SCVR:1BLX0Solstheim|INTV:
+
+[MOD-INF]: ID=30448140721617019032(Topic:muddled)
+  morrowind.esm->|DATA|ONAM:din|NAME:What's this? I...I...thank you. I'm not sure what happened. Everything is sort of hazy after that slaughterfish bite. Thank you so much for your help. I'd like to reward you for your generosity. I have very little, but please take this gold. Even during all my days in the legion, I've never felt anything so strange. I'll make sure to mention to my Legion friends how helpful you were. Thank you again. If you ever need anything, don't hesitate to ask.|SCVR:04JX3MV_MonsterDisease|INTV:1|SCVR:14JX4MV_MonsterDisease|INTV:2|BNAM:Journal "MV_MonsterDisease" 60  RemoveItem "Gold_001" 30  Player->AddItem "Gold_001" 30  ModPCFacRep 5 "Imperial Legion"  Goodbye
+  GAMA.esp------>|DATA|ONAM:din|NAME:What's this? I...I...thank you. I'm not sure what happened. Everything is sort of hazy after that slaughterfish bite. Thank you so much for your help. I'd like to reward you for your generosity. I have very little, but please take this gold. Even during all my days in the legion, I've never felt anything so strange. I'll make sure to mention to my Legion friends how helpful you were. Thank you again. If you ever need anything, don't hesitate to ask.|SCVR:04JX3MV_MonsterDisease|INTV:1|SCVR:14JX4MV_MonsterDisease|INTV:2|BNAM:RemoveItem "Gold_001" 30  Player->AddItem "Gold_001" 30  ModPCFacRep 5 "Imperial Legion"  Journal "MV_MonsterDisease" 60  startscript "GAMA_moveDin"  Goodbye
+
+[MOD-INF]: ID=30762243651249824115(Topic:cloudcleaver)
+  morrowind.esm->|DATA|ONAM:hlormar wine-sot|NAME:Yes, let me hold her in my hands. Ah, my pretty, I've missed you so....|SCVR:15IX2cloudcleaver_unique|INTV:|BNAM:;Hlormar Wine-Sot  Choice "Here's your axe, Hlormar." 6 "It belongs with a true warrior. Me." 7
+  GAMA.esp------>|DATA|ONAM:hlormar wine-sot|NAME:Yes, let me hold her in my hands. Ah, my pretty, I've missed you so....|SCVR:05IX2cloudcleaver_unique|INTV:|BNAM:;Hlormar Wine-Sot  Choice "Here's your axe, Hlormar." 6 "It belongs with a true warrior. Me." 7
+
+[MOD-INF]: ID=31028122012571721616(Topic:pemenie the trader)
+  morrowind.esm->|DATA|ANAM:Caldera|NAME:Oh, that one. She's got a bounty on her head, I believe, although no one would bother trying to collect on it. She's a slippery one. Often deals in shoddy items. Great promise, but low reward. You know?|SCVR:06DX0pemenie|INTV:|SCVR:1CsX0NoLore|INTV:
+  GAMA.esp------>|DATA|ANAM:Caldera|NAME:Oh, that one. She's got a bounty on her head, I believe, although no one would bother trying to collect on it. She's a slippery one. Often deals in shoddy items. Great promise, but low reward. You know?|SCVR:06DX0pemenie|INTV:|SCVR:1CsX0NoLore|INTV|INTV:
+
+[DUP-INF]: ID=31194280763126725939(Topic:bounty)
+  |DATA|NAME:There's a price on her head, though I don't know how much. People don't take kindly to being sold shoddy goods.|SCVR:06DX0pemenie|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:Journal MV_TraderAbandoned 40
+
+[MOD-INF]: ID=31321322362777327434(Topic:my friend)
+  morrowind.esm->|DATA|ONAM:thoronor|NAME:What? Edras didn't make it? Oh, my. I, I...I don't know what to say. He did love the outdoors, though, and it seems only fitting that he meet his end here. Such a kind, gentle soul to meet such a bitter end. I'll miss my friend greatly. Well, %PCName, I thank you for your time, even if it turned out so poorly. Please, take this. It was...Edras'. I must go now...it just seems pointless to continue my journey without my dear friend. Goodbye.|SCVR:14JX4MV_StrayedPilgrim|INTV:d|SCVR:26DX2edras oril|INTV:|BNAM:Journal "MV_StrayedPilgrim" 110  Player->AddItem "BookSkill_Speechcraft3" 1  RemoveItem "BookSkill_Speechcraft3" 1  Goodbye
+  GAMA.esp------>|DATA|ONAM:thoronor|NAME:What? Edras didn't make it? Oh, my. I, I...I don't know what to say. He did love the outdoors, though, and it seems only fitting that he meet his end here. Such a kind, gentle soul to meet such a bitter end. I'll miss my friend greatly. Well, %PCName, I thank you for your time, even if it turned out so poorly. Please, take this. It was...Edras'. I must go now...it just seems pointless to continue my journey without my dear friend. Goodbye.|SCVR:0BLX0Suran, Desele's House of Earthly Delights|INTV:|SCVR:14JX4MV_StrayedPilgrim|INTV:d|SCVR:26DX2edras oril|INTV:|SCVR:35IX0bk_notes-kagouti mating habits|INTV:|BNAM:Journal "MV_StrayedPilgrim" 110  Player->AddItem "BookSkill_Speechcraft3" 1  RemoveItem "BookSkill_Speechcraft3" 1  Goodbye
+
+[MOD-INF]: ID=31423124081892923466(Greeting:greeting 1)
+  tribunal.esm->|DATA|ONAM:viatrix petilia|NAME:Well, we've arrived...surprisingly enough. Here's your tip. Now leave me.|SCVR:04JX0MV_RichPilgrim|INTV:_|BNAM:RemoveItem "Gold_001" 100  Player->AddItem "Gold_001" 100  Journal "MV_RichPilgrim" 100  AiWander 128,0,0,60,30,10,0,0,0,0,0,0  Goodbye
+  GAMA.esp----->|DATA|ONAM:viatrix petilia|NAME:Well, we've arrived...surprisingly enough. Here's your tip. Now leave me.|SCVR:04JX0MV_RichPilgrim|INTV:_|BNAM:RemoveItem "Gold_001" 100  Player->AddItem "Gold_001" 100  AiWander 128,0,0,60,30,10,0,0,0,0,0,0  Journal "MV_RichPilgrim" 100  startscript "GAMA_moveViatrix"  Goodbye
+
+[MOD-INF]: ID=31430220782394327972(Topic:girith's guar hides)
+  morrowind.esm->|DATA|ONAM:athanden girith|NAME:Thank you for getting them back. It's good to hear you were able to make those fetchers pay as well. Make sure to see Berwen in Tel Mora for your reward. I'll send word along the trade routes to make sure she keeps an eye out for %PCName.|SCVR:05IX0ingred_guar_hide_girith|INTV: |SCVR:16DX2emul-ran|INTV:|SCVR:26DX2kashtes ilabael|INTV:|SCVR:34JX4MV_OutcastAshlanders|INTV:d|BNAM:Journal "MV_OutcastAshlanders" 100  Player->RemoveItem "Ingred_Guar_Hide_Girith" 10  AddItem "Ingred_Guar_Hide_Girith" 10
+  GAMA.esp------>|DATA|ONAM:athanden girith|NAME:Thank you for getting them back. It's good to hear you were able to make those fetchers pay as well. Make sure to see Berwen in Tel Mora for your reward. I'll send word along the trade routes to make sure she keeps an eye out for %PCName.|SCVR:05IX0ingred_guar_hide_girith|INTV: |SCVR:16DX2emul-ran|INTV:|SCVR:26DX2kashtes ilabael|INTV:|SCVR:34JX4MV_OutcastAshlanders|INTV:d|BNAM:Player->RemoveItem "Ingred_Guar_Hide_Girith" 10  AddItem "Ingred_Guar_Hide_Girith" 10  Journal "MV_OutcastAshlanders" 100  startscript "GAMA_moveAthanden"
+
+[MOD-INF]: ID=31636170671217310457(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:sason|NAME:Thank the gods you've found her! I can only imagine what those bastards had planned for my Malexa. Please, take your reward, and I'll make sure to let House Redoran know of the service you've performed for me today. Thank you again!|SCVR:04JX0MV_CultistVictim|INTV:2|SCVR:16DX0malexa|INTV:|BNAM:Journal "MV_CultistVictim" 100  ModPCFacRep 5 "Redoran"  RemoveItem "Gold_001" 200  Malexa->AiFollow Sason 0 0 0 0 0 0 0 0 0 0 0 0  Player->AddItem "Gold_001" 200  Goodbye
+  GAMA.esp------>|DATA|ONAM:sason|NAME:Thank the gods you've found her! I can only imagine what those bastards had planned for my Malexa. Please, take your reward, and I'll make sure to let House Redoran know of the service you've performed for me today. Thank you again!|SCVR:04JX0MV_CultistVictim|INTV:2|SCVR:16DX0malexa|INTV:|BNAM:RemoveItem "Gold_001" 200  Malexa->AiFollow Sason 0 0 0 0 0 0 0 0 0 0 0 0  Player->AddItem "Gold_001" 200  ModPCFacRep 5 "Redoran"  Journal "MV_CultistVictim" 100  startscript "GAMA_moveSason"  startscript "GAMA_moveMalexa"  Goodbye
+
+[DUP-INF]: ID=32435277573201314330(Topic:koal cave)
+  |DATA|ONAM:deval beleth|NAME:The Koal Cave is south of Gnisis. Cross the river, the Ouada Samsi, and head southwest towards the coast.|SCVR:34JX3HR_KoalCave|INTV:2|BNAM:ShowMap "Koal Cave Entrance"

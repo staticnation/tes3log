@@ -1,0 +1,31 @@
+LGNPC_NoLore - Patch for Purists.esp: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dura gra-bol
+	morrowind.esm       DIAL    fedris tharen
+	morrowind.esm       DIAL    woman with a dagger
+	tribunal.esm        DIAL    greeting 7
+
+[MOD-INF]: ID=173965674313098995(Topic:dura gra-bol)
+  morrowind.esm------------------------>|DATA|ANAM:Balmora|NAME:He lives in town somewhere. Look around, you lazy fetcher.|SCVR:0CsX0nolore|INTV:
+  LGNPC_NoLore - Patch for Purists.esp->|DATA|ANAM:Balmora|NAME:She lives in town somewhere. Look around, you lazy fetcher.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX0FG_OrcBounty|INTV: |BNAM:; LGNPC NoLore  ; refiltered by Less Lore
+
+[MOD-INF]: ID=524923532212965617(Topic:fedris tharen)
+  morrowind.esm------------------------>|DATA|RNAM:Dark Elf|ANAM:Gnisis|NAME:Fedris Tharen the Pilgrim? I saw him leave Gnisis a few days ago. I haven't seen him since. He left south to the Koal Cave.|SCVR:0CsX0NoLore|INTV:
+  LGNPC_NoLore - Patch for Purists.esp->|DATA|RNAM:Dark Elf|ANAM:Gnisis|NAME:Fedris Tharen the Pilgrim? I saw him leave Gnisis a few days ago. I haven't seen him since. He left south to the Koal Cave.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX4HR_FindTharen|INTV:d|BNAM:; LGNPC NoLore  ; re-filtered by Unofficial Patch
+
+[MOD-INF]: ID=2732010266116258577(Topic:woman with a dagger)
+  morrowind.esm------------------------>|DATA|ANAM:Vivec, Agrippina Herennia: Clothier|NAME:A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that. But I recall someone -- maybe one of the sewer cleaners -- saying something about seeing a Dunmer woman down in the Underworks. Not that odd, really, though Dunmer are not seen as much in the Foreign Quarter. But in the Underworks. That's odd. Nothing down there but rats and sewers.|SCVR:0CsX0NoLore|INTV:|BNAM:;Vivec, Foreign Quarter; Journal town_Vivec < 50;   Journal town_Vivec 25
+  LGNPC_NoLore - Patch for Purists.esp->|DATA|ANAM:Vivec, Agrippina Herennia: Clothier|NAME:A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that. But I recall someone -- maybe one of the sewer cleaners -- saying something about seeing a Dunmer woman down in the Underworks. Not that odd, really, though Dunmer are not seen as much in the Foreign Quarter. But in the Underworks. That's odd. Nothing down there but rats and sewers.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX4town_Vivec|INTV:2|BNAM:; LGNPC NoLore  ; re-filtered by Unofficial Patch  ;Vivec, Foreign Quarter; Journal town_Vivec < 50;   Journal town_Vivec 25
+
+[MOD-INF]: ID=10767237971994314567(Greeting:greeting 7)
+  tribunal.esm------------------------->|DATA|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:moddisposition 10
+  LGNPC_NoLore - Patch for Purists.esp->|DATA|CNAM:Pauper|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:11630|INTV:|BNAM:; re-filtered for LGNPC NoLore  ModDisposition 10
+
+[MOD-INF]: ID=23494278341976926273(Greeting:greeting 7)
+  tribunal.esm------------------------->|DATA|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+  LGNPC_NoLore - Patch for Purists.esp->|DATA|CNAM:Pauper|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:11630|INTV:|BNAM:; re-filtered for LGNPC NoLore
+
+[MOD-INF]: ID=26697146411173217957(Topic:dura gra-bol)
+  morrowind.esm------------------------>|DATA|ANAM:Balmora|NAME:I think he lives by the river, on the east side of town.|SCVR:0CsX0nolore|INTV:
+  LGNPC_NoLore - Patch for Purists.esp->|DATA|ANAM:Balmora|NAME:I think she lives by the river, on the east side of town.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX0FG_OrcBounty|INTV: |BNAM:; LGNPC NoLore  ; refiltered by Less Lore

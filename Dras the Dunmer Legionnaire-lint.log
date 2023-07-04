@@ -1,0 +1,647 @@
+Dras the Dunmer Legionnaire.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(q_DrasCensoredScript)
+	SCPT(q_DrasCompanionScript)
+	SCPT(q_DrasCompanionStop)
+	SCPT(q_DrasCompanionWarp)
+	SCPT(q_DrasController)
+	SCPT(q_DrasDialogue1)
+	SCPT(q_DrasDialogue2)
+	SCPT(q_DrasDialogue3)
+	SCPT(q_DrasDialogue4)
+	SCPT(q_DrasIneoneTimer0)
+	SCPT(q_DrasPrioryScript)
+	SCPT(q_DrasTimer0a)
+	SCPT(q_DrasTimer0b)
+	SCPT(q_DrasTimer0c)
+	SCPT(q_DrasTimer0d)
+	SCPT(q_DrasTimer1)
+	SCPT(q_DrasTimer2)
+	SCPT(q_DrasTimer3)
+	SCPT(q_KoalRapier)
+	SCPT(q_Nightmare)
+	SCPT(q_NightmareEnd)
+	SCPT(q_VariroyDeath)
+	SCPT(q_WraithDialogue)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    assignment
+	bloodmoon.esm       DIAL    attack on the imperial fort
+	bloodmoon.esm       DIAL    bears
+	bloodmoon.esm       DIAL    beast must be stopped
+	bloodmoon.esm       DIAL    blades
+	bloodmoon.esm       DIAL    bloodmoon prophecy
+	bloodmoon.esm       DIAL    captain carius
+	bloodmoon.esm       DIAL    carnius magius
+	bloodmoon.esm       DIAL    castle karstaag
+	bloodmoon.esm       DIAL    dark business
+	bloodmoon.esm       DIAL    disturbance on the lake
+	bloodmoon.esm       DIAL    drastic measures
+	bloodmoon.esm       DIAL    east empire company
+	bloodmoon.esm       DIAL    eternal wakefulness
+	bloodmoon.esm       DIAL    extra payment
+	bloodmoon.esm       DIAL    falco galenus
+	bloodmoon.esm       DIAL    graring
+	bloodmoon.esm       DIAL    hire an explorer
+	bloodmoon.esm       DIAL    hire guards
+	bloodmoon.esm       DIAL    hroldar the strange
+	bloodmoon.esm       DIAL    imperial matter
+	bloodmoon.esm       DIAL    investigate a crime
+	bloodmoon.esm       DIAL    mead
+	bloodmoon.esm       DIAL    mirisa never returned
+	bloodmoon.esm       DIAL    morale has been low
+	bloodmoon.esm       DIAL    my airship
+	bloodmoon.esm       DIAL    my only friend
+	bloodmoon.esm       DIAL    old man's anguish
+	bloodmoon.esm       DIAL    oneness
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       DIAL    ristaag
+	bloodmoon.esm       DIAL    ritual of the gifts
+	bloodmoon.esm       DIAL    seler favelnim
+	bloodmoon.esm       DIAL    skaal
+	bloodmoon.esm       DIAL    skaal attack
+	bloodmoon.esm       DIAL    snow
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       DIAL    sovngarde
+	bloodmoon.esm       DIAL    stalhrim
+	bloodmoon.esm       DIAL    tharsten heart-fang
+	bloodmoon.esm       DIAL    totem of claw and fang
+	bloodmoon.esm       DIAL    uryn maren
+	bloodmoon.esm       DIAL    valbrandr draugr
+	bloodmoon.esm       DIAL    weapons being smuggled
+	bloodmoon.esm       DIAL    werewolves
+	bloodmoon.esm       DIAL    wergild
+	bloodmoon.esm       DIAL    who are you
+	bloodmoon.esm       DIAL    wolves
+	morrowind.esm       DIAL    abolitionists
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    adraria vandacia
+	morrowind.esm       DIAL    aid a poor argonian
+	morrowind.esm       DIAL    alchemical formulas
+	morrowind.esm       DIAL    alms for the poor
+	morrowind.esm       DIAL    amulet of unity
+	morrowind.esm       DIAL    anareren's devil tanto
+	morrowind.esm       DIAL    ancestors
+	morrowind.esm       DIAL    andasreth
+	morrowind.esm       DIAL    andrano ancestral tomb
+	morrowind.esm       DIAL    annoying fool
+	morrowind.esm       DIAL    anumidium
+	morrowind.esm       DIAL    apologies
+	morrowind.esm       DIAL    arethan mandas
+	morrowind.esm       DIAL    argonian mission
+	morrowind.esm       DIAL    argonians
+	morrowind.esm       DIAL    armor repair debts
+	morrowind.esm       DIAL    arrange a meeting
+	morrowind.esm       DIAL    ascadian isles
+	morrowind.esm       DIAL    ash ghoul
+	morrowind.esm       DIAL    ash statue
+	morrowind.esm       DIAL    ash vampire
+	morrowind.esm       DIAL    ashimanu mine
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    assantus hansar
+	morrowind.esm       DIAL    athyn sarethi
+	morrowind.esm       DIAL    attacked while sleeping
+	morrowind.esm       DIAL    aundae
+	morrowind.esm       DIAL    axes
+	morrowind.esm       DIAL    bad people
+	morrowind.esm       DIAL    bal molagmer
+	morrowind.esm       DIAL    baladas
+	morrowind.esm       DIAL    banden indarys
+	morrowind.esm       DIAL    bandit nearby
+	morrowind.esm       DIAL    bandits in suran
+	morrowind.esm       DIAL    bastard ashlanders
+	morrowind.esm       DIAL    be of some use
+	morrowind.esm       DIAL    because of my son
+	morrowind.esm       DIAL    beden giladren
+	morrowind.esm       DIAL    beluelle's silver bowl
+	morrowind.esm       DIAL    berne
+	morrowind.esm       DIAL    bethamez
+	morrowind.esm       DIAL    bitter coast
+	morrowind.esm       DIAL    bitter cup
+	morrowind.esm       DIAL    bivale teneran
+	morrowind.esm       DIAL    black jinx
+	morrowind.esm       DIAL    blueprints
+	morrowind.esm       DIAL    boethiah's pillow book
+	morrowind.esm       DIAL    bolvyn venim
+	morrowind.esm       DIAL    brallion's ring
+	morrowind.esm       DIAL    breeding netch
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    brilnosu llarys
+	morrowind.esm       DIAL    buoyant armigers
+	morrowind.esm       DIAL    bureaucracy
+	morrowind.esm       DIAL    business partner
+	morrowind.esm       DIAL    caius cosades
+	morrowind.esm       DIAL    caldera ebony mines
+	morrowind.esm       DIAL    caldera mining contracts
+	morrowind.esm       DIAL    carecalmo
+	morrowind.esm       DIAL    careless travelers
+	morrowind.esm       DIAL    cast that spell
+	morrowind.esm       DIAL    ceramic bowl
+	morrowind.esm       DIAL    change her luck
+	morrowind.esm       DIAL    chapel limeware bowl
+	morrowind.esm       DIAL    chimarvamidium
+	morrowind.esm       DIAL    cleaver of st. felms
+	morrowind.esm       DIAL    cliff racer
+	morrowind.esm       DIAL    code book
+	morrowind.esm       DIAL    coded message
+	morrowind.esm       DIAL    compassion
+	morrowind.esm       DIAL    control the ordinators
+	morrowind.esm       DIAL    corprus
+	morrowind.esm       DIAL    corprus stalker
+	morrowind.esm       DIAL    corruption
+	morrowind.esm       DIAL    courtesy
+	morrowind.esm       DIAL    crassius curio
+	morrowind.esm       DIAL    crosier of st. llothis
+	morrowind.esm       DIAL    cunius pelelius
+	morrowind.esm       DIAL    current events
+	morrowind.esm       DIAL    daedra
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    dahrk mezalf
+	morrowind.esm       DIAL    dance
+	morrowind.esm       DIAL    dandsa
+	morrowind.esm       DIAL    darius
+	morrowind.esm       DIAL    darts of judgement
+	morrowind.esm       DIAL    debt money
+	morrowind.esm       DIAL    deliver this slave
+	morrowind.esm       DIAL    delvam andarys
+	morrowind.esm       DIAL    detect creatures potion
+	morrowind.esm       DIAL    diamond
+	morrowind.esm       DIAL    disappearance of the dwarves
+	morrowind.esm       DIAL    dissapla mine
+	morrowind.esm       DIAL    disturbing dreams
+	morrowind.esm       DIAL    divayth fyr
+	morrowind.esm       DIAL    divine metaphysics
+	morrowind.esm       DIAL    donate cyrodilic brandy
+	morrowind.esm       DIAL    dragons
+	morrowind.esm       DIAL    drake's pride
+	morrowind.esm       DIAL    dreams and visions
+	morrowind.esm       DIAL    dren plantation
+	morrowind.esm       DIAL    dreugh
+	morrowind.esm       DIAL    dro'sakhar
+	morrowind.esm       DIAL    duel
+	morrowind.esm       DIAL    dumac
+	morrowind.esm       DIAL    dunirai caverns
+	morrowind.esm       DIAL    dura gra-bol
+	morrowind.esm       DIAL    dwarven limeware
+	morrowind.esm       DIAL    dwemer artifacts
+	morrowind.esm       DIAL    dwemer goblet
+	morrowind.esm       DIAL    dwemer puzzle box
+	morrowind.esm       DIAL    dwemer tube
+	morrowind.esm       DIAL    ebony trade
+	morrowind.esm       DIAL    egg of time
+	morrowind.esm       DIAL    egg poachers
+	morrowind.esm       DIAL    elith-pal mine
+	morrowind.esm       DIAL    enamor
+	morrowind.esm       DIAL    enchantment
+	morrowind.esm       DIAL    engaer
+	morrowind.esm       DIAL    erroneous documents
+	morrowind.esm       DIAL    escort
+	morrowind.esm       DIAL    essential supplies
+	morrowind.esm       DIAL    ethal seloth
+	morrowind.esm       DIAL    evidence of corruption
+	morrowind.esm       DIAL    eydis fire-eye
+	morrowind.esm       DIAL    fake soul gem
+	morrowind.esm       DIAL    false incarnate
+	morrowind.esm       DIAL    fargoth's hiding place
+	morrowind.esm       DIAL    father's amulet
+	morrowind.esm       DIAL    fedris tharen
+	morrowind.esm       DIAL    felen maryon's staff
+	morrowind.esm       DIAL    feruren oran
+	morrowind.esm       DIAL    festering witch
+	morrowind.esm       DIAL    fines and compensation
+	morrowind.esm       DIAL    flesh made whole
+	morrowind.esm       DIAL    flowers
+	morrowind.esm       DIAL    food
+	morrowind.esm       DIAL    food and drink
+	morrowind.esm       DIAL    forged land deed
+	morrowind.esm       DIAL    fork of horripilation
+	morrowind.esm       DIAL    founder's helm
+	morrowind.esm       DIAL    four corners
+	morrowind.esm       DIAL    galasa uvayn
+	morrowind.esm       DIAL    galur rithari's papers
+	morrowind.esm       DIAL    game rats
+	morrowind.esm       DIAL    gateway haunting
+	morrowind.esm       DIAL    generous pledge
+	morrowind.esm       DIAL    get that contract
+	morrowind.esm       DIAL    ghostfence
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    gnaar mok
+	morrowind.esm       DIAL    gnisis
+	morrowind.esm       DIAL    gold kanet
+	morrowind.esm       DIAL    golden saints
+	morrowind.esm       DIAL    gone missing
+	morrowind.esm       DIAL    grandmaster's retort
+	morrowind.esm       DIAL    guar
+	morrowind.esm       DIAL    guar hides
+	morrowind.esm       DIAL    guild dues
+	morrowind.esm       DIAL    gurak gro-bagrat
+	morrowind.esm       DIAL    guril retheran
+	morrowind.esm       DIAL    hannat zainsubani
+	morrowind.esm       DIAL    hasphat antabolis
+	morrowind.esm       DIAL    hassour
+	morrowind.esm       DIAL    hassour zainsubani
+	morrowind.esm       DIAL    haunted house
+	morrowind.esm       DIAL    heather
+	morrowind.esm       DIAL    help a poor pilgrim
+	morrowind.esm       DIAL    help me
+	morrowind.esm       DIAL    help us fight
+	morrowind.esm       DIAL    hire a wizard
+	morrowind.esm       DIAL    history books
+	morrowind.esm       DIAL    hla oad
+	morrowind.esm       DIAL    hlaalu hortator
+	morrowind.esm       DIAL    hlervu locket
+	morrowind.esm       DIAL    holy place
+	morrowind.esm       DIAL    honthjolf
+	morrowind.esm       DIAL    horses
+	morrowind.esm       DIAL    hostile mudcrabs
+	morrowind.esm       DIAL    house dagoth
+	morrowind.esm       DIAL    house dres
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    house indoril
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    hrundi's woman
+	morrowind.esm       DIAL    huleen's hut
+	morrowind.esm       DIAL    idroso vendu
+	morrowind.esm       DIAL    ienas sarandas
+	morrowind.esm       DIAL    ienith
+	morrowind.esm       DIAL    ilmeni dren
+	morrowind.esm       DIAL    imperial legion
+	morrowind.esm       DIAL    inanius egg mine
+	morrowind.esm       DIAL    info refusal
+	morrowind.esm       DIAL    information gathering
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    itermerel's notes
+	morrowind.esm       DIAL    jewels
+	morrowind.esm       DIAL    jocien ancois
+	morrowind.esm       DIAL    join the council
+	morrowind.esm       DIAL    join the imperial legion
+	morrowind.esm       DIAL    join us
+	morrowind.esm       DIAL    joncis dalomax
+	morrowind.esm       DIAL    juicedaw feather ring
+	morrowind.esm       DIAL    kagouti den
+	morrowind.esm       DIAL    khartag point
+	morrowind.esm       DIAL    koal cave
+	morrowind.esm       DIAL    kogoruhn
+	morrowind.esm       DIAL    lady in distress
+	morrowind.esm       DIAL    land deed
+	morrowind.esm       DIAL    last living dwarf
+	morrowind.esm       DIAL    leaflet
+	morrowind.esm       DIAL    lette
+	morrowind.esm       DIAL    long blades
+	morrowind.esm       DIAL    lorbumol gro-aglakh
+	morrowind.esm       DIAL    lord irarak
+	morrowind.esm       DIAL    lost kogoruhn
+	morrowind.esm       DIAL    love letter
+	morrowind.esm       DIAL    lucan's shipment
+	morrowind.esm       DIAL    lugrub gro-ogdum
+	morrowind.esm       DIAL    mabrigash
+	morrowind.esm       DIAL    made invisible
+	morrowind.esm       DIAL    madura seran
+	morrowind.esm       DIAL    mages guild monopoly
+	morrowind.esm       DIAL    magister
+	morrowind.esm       DIAL    maiden's token
+	morrowind.esm       DIAL    mask of vivec
+	morrowind.esm       DIAL    master aryon
+	morrowind.esm       DIAL    master thief
+	morrowind.esm       DIAL    mathis dalobar
+	morrowind.esm       DIAL    mathyn bemis
+	morrowind.esm       DIAL    mavon drenim
+	morrowind.esm       DIAL    mazte
+	morrowind.esm       DIAL    mehra milo
+	morrowind.esm       DIAL    mehrunes dagon
+	morrowind.esm       DIAL    meow
+	morrowind.esm       DIAL    merta
+	morrowind.esm       DIAL    ministry of truth
+	morrowind.esm       DIAL    moon sugar
+	morrowind.esm       DIAL    moon-and-star
+	morrowind.esm       DIAL    morag tong
+	morrowind.esm       DIAL    morvayn manor
+	morrowind.esm       DIAL    mount kand
+	morrowind.esm       DIAL    mouth
+	morrowind.esm       DIAL    mouth of the cave
+	morrowind.esm       DIAL    mudan-mul egg mine
+	morrowind.esm       DIAL    murder of processus vitellius
+	morrowind.esm       DIAL    murudius flaeus
+	morrowind.esm       DIAL    mushrooms
+	morrowind.esm       DIAL    must get home
+	morrowind.esm       DIAL    my friend
+	morrowind.esm       DIAL    my imprisonment
+	morrowind.esm       DIAL    nads tharen
+	morrowind.esm       DIAL    nalvilie saren
+	morrowind.esm       DIAL    name is unimportant
+	morrowind.esm       DIAL    nchuleft
+	morrowind.esm       DIAL    nchuleftingth
+	morrowind.esm       DIAL    nchurdamz
+	morrowind.esm       DIAL    need wives
+	morrowind.esm       DIAL    nels llendo
+	morrowind.esm       DIAL    nerano ancestral tomb
+	morrowind.esm       DIAL    nerano manor
+	morrowind.esm       DIAL    nerer beneran
+	morrowind.esm       DIAL    nerevar
+	morrowind.esm       DIAL    nerevarine prophecies
+	morrowind.esm       DIAL    nevena ules
+	morrowind.esm       DIAL    new clothes
+	morrowind.esm       DIAL    new play
+	morrowind.esm       DIAL    new-shoes bragor
+	morrowind.esm       DIAL    nix-hound
+	morrowind.esm       DIAL    nords
+	morrowind.esm       DIAL    odaishah yasalmibaal
+	morrowind.esm       DIAL    odirniran
+	morrowind.esm       DIAL    okur
+	morrowind.esm       DIAL    old blue fin
+	morrowind.esm       DIAL    orcs at a daedric ruin
+	morrowind.esm       DIAL    oreyn bearclaw
+	morrowind.esm       DIAL    orphan of arnesia
+	morrowind.esm       DIAL    orvas dren
+	morrowind.esm       DIAL    pants
+	morrowind.esm       DIAL    peakstar
+	morrowind.esm       DIAL    pemenie the trader
+	morrowind.esm       DIAL    people cannot read
+	morrowind.esm       DIAL    personal vengeance
+	morrowind.esm       DIAL    potion recipe
+	morrowind.esm       DIAL    prelude
+	morrowind.esm       DIAL    pressing business
+	morrowind.esm       DIAL    pudai egg mine
+	morrowind.esm       DIAL    quarra
+	morrowind.esm       DIAL    quarra blood potion
+	morrowind.esm       DIAL    ragash gra-shuzgub
+	morrowind.esm       DIAL    ralen hlaalo
+	morrowind.esm       DIAL    ralen tilvur
+	morrowind.esm       DIAL    rat infestation
+	morrowind.esm       DIAL    raw ebony
+	morrowind.esm       DIAL    raw glass
+	morrowind.esm       DIAL    raw materials
+	morrowind.esm       DIAL    raynasa rethan
+	morrowind.esm       DIAL    red mountain
+	morrowind.esm       DIAL    redas tomb
+	morrowind.esm       DIAL    redoran cooking secrets
+	morrowind.esm       DIAL    redoran hortator
+	morrowind.esm       DIAL    redoran master helm
+	morrowind.esm       DIAL    rels tenim
+	morrowind.esm       DIAL    rent and taxes
+	morrowind.esm       DIAL    reynel uvirith
+	morrowind.esm       DIAL    rid me of this unlife
+	morrowind.esm       DIAL    rimintil
+	morrowind.esm       DIAL    ring in darkness
+	morrowind.esm       DIAL    ring of equity
+	morrowind.esm       DIAL    rufinus alleius
+	morrowind.esm       DIAL    running an errand
+	morrowind.esm       DIAL    sadrith mora
+	morrowind.esm       DIAL    sanctus shrine
+	morrowind.esm       DIAL    saprius entius
+	morrowind.esm       DIAL    sarano tomb
+	morrowind.esm       DIAL    sarayn sadus
+	morrowind.esm       DIAL    scrap metal
+	morrowind.esm       DIAL    sealed orders
+	morrowind.esm       DIAL    sealed report
+	morrowind.esm       DIAL    sensitive matters
+	morrowind.esm       DIAL    seven graces
+	morrowind.esm       DIAL    sharn gra-muzgob
+	morrowind.esm       DIAL    sheogorath
+	morrowind.esm       DIAL    shipment of ebony
+	morrowind.esm       DIAL    shirt and vest
+	morrowind.esm       DIAL    shishi
+	morrowind.esm       DIAL    shishi report
+	morrowind.esm       DIAL    shoes of st. rilms
+	morrowind.esm       DIAL    short blades
+	morrowind.esm       DIAL    shurinbaal
+	morrowind.esm       DIAL    silt strider
+	morrowind.esm       DIAL    silver staff of shaming
+	morrowind.esm       DIAL    sixth house
+	morrowind.esm       DIAL    sixth house base
+	morrowind.esm       DIAL    sjoring hard-heart
+	morrowind.esm       DIAL    skin of the pearl
+	morrowind.esm       DIAL    skooma pipe
+	morrowind.esm       DIAL    slander
+	morrowind.esm       DIAL    slave rebellion
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       DIAL    some notorious thieves
+	morrowind.esm       DIAL    someone killed
+	morrowind.esm       DIAL    sondaale of shimmerene
+	morrowind.esm       DIAL    sorkvild the raven
+	morrowind.esm       DIAL    soul sickness
+	morrowind.esm       DIAL    south wall
+	morrowind.esm       DIAL    special duties
+	morrowind.esm       DIAL    staff of the silver dawn
+	morrowind.esm       DIAL    statue book
+	morrowind.esm       DIAL    stole all my goods
+	morrowind.esm       DIAL    stolen reports
+	morrowind.esm       DIAL    strange man
+	morrowind.esm       DIAL    stronghold
+	morrowind.esm       DIAL    stupid slaves
+	morrowind.esm       DIAL    suran
+	morrowind.esm       DIAL    talos cult
+	morrowind.esm       DIAL    tanusea veloth
+	morrowind.esm       DIAL    tarvyn faren
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    taxes from gnisis
+	morrowind.esm       DIAL    teeth of the wind
+	morrowind.esm       DIAL    telvanni agents
+	morrowind.esm       DIAL    telvanni bride
+	morrowind.esm       DIAL    telvanni hortator
+	morrowind.esm       DIAL    telvanni spy
+	morrowind.esm       DIAL    tenyeminwe
+	morrowind.esm       DIAL    the blight
+	morrowind.esm       DIAL    thelsa dral
+	morrowind.esm       DIAL    therana
+	morrowind.esm       DIAL    thieves guild bosses
+	morrowind.esm       DIAL    thieving ashlanders
+	morrowind.esm       DIAL    three questions
+	morrowind.esm       DIAL    tirer belvayn
+	morrowind.esm       DIAL    tongue-toad
+	morrowind.esm       DIAL    toris saren
+	morrowind.esm       DIAL    trade goods wanted
+	morrowind.esm       DIAL    trebonius
+	morrowind.esm       DIAL    tribunal
+	morrowind.esm       DIAL    trouble with bandits
+	morrowind.esm       DIAL    twin lamps
+	morrowind.esm       DIAL    underworks
+	morrowind.esm       DIAL    unsanctioned training
+	morrowind.esm       DIAL    urshilaku burial caverns
+	morrowind.esm       DIAL    vampire dust
+	morrowind.esm       DIAL    vampires of vvardenfell
+	morrowind.esm       DIAL    varvur sarethi
+	morrowind.esm       DIAL    vas
+	morrowind.esm       DIAL    vassir didanat mine
+	morrowind.esm       DIAL    vedam dren
+	morrowind.esm       DIAL    velanda omani
+	morrowind.esm       DIAL    velfred the outlaw
+	morrowind.esm       DIAL    verethi gang
+	morrowind.esm       DIAL    very special friend
+	morrowind.esm       DIAL    vilandon
+	morrowind.esm       DIAL    vintage brandy
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       DIAL    vodunius nuccius
+	morrowind.esm       DIAL    vvardenfell
+	morrowind.esm       DIAL    war-loving erabenimsun
+	morrowind.esm       DIAL    white guar
+	morrowind.esm       DIAL    who to talk to
+	morrowind.esm       DIAL    wild nix hounds
+	morrowind.esm       DIAL    witch nearby
+	morrowind.esm       DIAL    withershins
+	morrowind.esm       DIAL    wizard spells
+	morrowind.esm       DIAL    wizard's staff
+	morrowind.esm       DIAL    woman with a dagger
+	morrowind.esm       DIAL    writ
+	morrowind.esm       DIAL    wulf
+	morrowind.esm       DIAL    yngling half-troll
+	tamriel_data.esm    DIAL    altmer
+	tamriel_data.esm    DIAL    birthsign
+	tamriel_data.esm    DIAL    black marsh
+	tamriel_data.esm    DIAL    bosmer
+	tamriel_data.esm    DIAL    breton
+	tamriel_data.esm    DIAL    cave rat
+	tamriel_data.esm    DIAL    chimer
+	tamriel_data.esm    DIAL    cyrodiil
+	tamriel_data.esm    DIAL    destruction
+	tamriel_data.esm    DIAL    dunmer
+	tamriel_data.esm    DIAL    dwemer
+	tamriel_data.esm    DIAL    elsweyr
+	tamriel_data.esm    DIAL    fighters guild
+	tamriel_data.esm    DIAL    flin
+	tamriel_data.esm    DIAL    hammerfell
+	tamriel_data.esm    DIAL    heavy armor
+	tamriel_data.esm    DIAL    high rock
+	tamriel_data.esm    DIAL    imperial
+	tamriel_data.esm    DIAL    imperial cult
+	tamriel_data.esm    DIAL    join the thieves guild
+	tamriel_data.esm    DIAL    khajiit
+	tamriel_data.esm    DIAL    mages guild
+	tamriel_data.esm    DIAL    marksman
+	tamriel_data.esm    DIAL    morrowind
+	tamriel_data.esm    DIAL    necromancy
+	tamriel_data.esm    DIAL    nine divines
+	tamriel_data.esm    DIAL    orc
+	tamriel_data.esm    DIAL    price on your head
+	tamriel_data.esm    DIAL    redguard
+	tamriel_data.esm    DIAL    shrines
+	tamriel_data.esm    DIAL    skooma
+	tamriel_data.esm    DIAL    skyrim
+	tamriel_data.esm    DIAL    summerset isle
+	tamriel_data.esm    DIAL    talos
+	tamriel_data.esm    DIAL    the empire
+	tamriel_data.esm    DIAL    thieves guild
+	tamriel_data.esm    DIAL    uriel septim
+	tamriel_data.esm    DIAL    valenwood
+	tamriel_data.esm    DIAL    vampires
+	tribunal.esm        DIAL    ald daedroth
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    altmer trainers
+	tribunal.esm        DIAL    anonymous writer
+	tribunal.esm        DIAL    antecedents of dwemer law
+	tribunal.esm        DIAL    ashstorms in mournhold
+	tribunal.esm        DIAL    assist
+	tribunal.esm        DIAL    athyn llethan
+	tribunal.esm        DIAL    auriel's bow
+	tribunal.esm        DIAL    auriel's shield
+	tribunal.esm        DIAL    b6_curiohort
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    barenziah
+	tribunal.esm        DIAL    barilzar's mazed band
+	tribunal.esm        DIAL    become an adventurer
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    black dart gang
+	tribunal.esm        DIAL    boots of blinding speed
+	tribunal.esm        DIAL    boots of the apostle
+	tribunal.esm        DIAL    bow of shadows
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    chronicles of nchuleft
+	tribunal.esm        DIAL    chrysamere
+	tribunal.esm        DIAL    cuirass of the savior's hide
+	tribunal.esm        DIAL    cure disease potion
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    dilborn
+	tribunal.esm        DIAL    discontent in the temple
+	tribunal.esm        DIAL    disloyalty among the guards
+	tribunal.esm        DIAL    dissident priests
+	tribunal.esm        DIAL    don't belong here
+	tribunal.esm        DIAL    dram bero
+	tribunal.esm        DIAL    droth dagger
+	tribunal.esm        DIAL    durzogs
+	tribunal.esm        DIAL    ebony mail
+	tribunal.esm        DIAL    end of times
+	tribunal.esm        DIAL    evidence of conspiracy
+	tribunal.esm        DIAL    fang of haynekhtnamet
+	tribunal.esm        DIAL    favor
+	tribunal.esm        DIAL    fight my champion
+	tribunal.esm        DIAL    fire and faith
+	tribunal.esm        DIAL    future rewards
+	tribunal.esm        DIAL    gedna relvel
+	tribunal.esm        DIAL    goblin army
+	tribunal.esm        DIAL    goblins
+	tribunal.esm        DIAL    goldbrand
+	tribunal.esm        DIAL    golena sadri
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    had my revenge
+	tribunal.esm        DIAL    hands of almalexia
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    helseth
+	tribunal.esm        DIAL    ic13_rumor
+	tribunal.esm        DIAL    ice blade of the monarch
+	tribunal.esm        DIAL    investigate the disturbance
+	tribunal.esm        DIAL    karrod
+	tribunal.esm        DIAL    larrius varro
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    learn more about the attacks
+	tribunal.esm        DIAL    looks like tarvus
+	tribunal.esm        DIAL    lord's mail
+	tribunal.esm        DIAL    mace of molag bal
+	tribunal.esm        DIAL    mace of slurring
+	tribunal.esm        DIAL    meet someone new
+	tribunal.esm        DIAL    missing hand
+	tribunal.esm        DIAL    mournhold
+	tribunal.esm        DIAL    ms_warlords
+	tribunal.esm        DIAL    museum of artifacts
+	tribunal.esm        DIAL    must be stopped
+	tribunal.esm        DIAL    mv_3_charming
+	tribunal.esm        DIAL    mv_bugrol
+	tribunal.esm        DIAL    mv_innocentashlanders
+	tribunal.esm        DIAL    mv_lostring
+	tribunal.esm        DIAL    mv_skoomacorpse
+	tribunal.esm        DIAL    mv_slavemule
+	tribunal.esm        DIAL    mv_traderabandoned
+	tribunal.esm        DIAL    my collection
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    my unfortunate brother
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    plans for you
+	tribunal.esm        DIAL    plot
+	tribunal.esm        DIAL    progress of truth
+	tribunal.esm        DIAL    repair my bots
+	tribunal.esm        DIAL    royal guard
+	tribunal.esm        DIAL    saryoni's sermons
+	tribunal.esm        DIAL    see my husband
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    shrine of the dead
+	tribunal.esm        DIAL    skull-crusher
+	tribunal.esm        DIAL    some work
+	tribunal.esm        DIAL    sotha sil
+	tribunal.esm        DIAL    spear of bitter mercy
+	tribunal.esm        DIAL    special offers
+	tribunal.esm        DIAL    spell breaker
+	tribunal.esm        DIAL    staff of hasedoki
+	tribunal.esm        DIAL    staff of magnus
+	tribunal.esm        DIAL    talen vandas
+	tribunal.esm        DIAL    temple informant
+	tribunal.esm        DIAL    the common tongue
+	tribunal.esm        DIAL    the mainland
+	tribunal.esm        DIAL    town_balmora
+	tribunal.esm        DIAL    tr_champion
+	tribunal.esm        DIAL    travel together
+	tribunal.esm        DIAL    trueflame
+	tribunal.esm        DIAL    umbra sword
+	tribunal.esm        DIAL    vampire hunter
+	tribunal.esm        DIAL    warlock's ring
+	tribunal.esm        DIAL    you are the one
+
+[DUP-INF]: ID=17386185960882720(Topic:soul sickness)
+  |DATA|ONAM:mehra milo|NAME:Now that Dagoth Ur is gone, we hope that soul sickness will be gone with him.|SCVR:04JX3C3_DestroyDagoth|INTV:2

@@ -1,0 +1,17 @@
+ImprovedVampires.esp: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (41) != Actual count (40)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ImpVamp_AundaeInfection)
+	SCPT(ImpVamp_BerneInfection)
+	SCPT(ImpVamp_QuarraInfection)
+	SCPT(ImpVamp_RatScript)
+	SCPT(Vampire_Cure_PC)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    derar hlervu
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    ms_vampirecure
+
+[MOD-INF]: ID=216594519137006200(Journal:ms_vampirecure)
+  tribunal.esm--------->|DATA|NAME:I've returned to the Shrine of Molag Bal and spoken with the Daedra Lord. He was pleased with my efforts, and has retrieved the cure from the Daedra Vaermina.|QSTF
+  ImprovedVampires.esp->|DATA|NAME:I've returned to the Shrine of Molag Bal and spoken with the Daedra Lord. He was pleased with my efforts, and has retrieved the cure from the Daedra Vaermina. After being cured Derar Hlervu waved me over, I think she may have something for me.|QSTF

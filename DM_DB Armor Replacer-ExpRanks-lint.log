@@ -1,0 +1,50 @@
+DM_DB Armor Replacer-ExpRanks.esp: DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Morrowind.esm               79764287 (plugin)   79837557 (installed size)
+	Tribunal.esm                 6616539 (plugin)    4565686 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DB_Hissyo)
+	SCPT(DB_HissyoSP_Script)
+	SCPT(DB_HissyoS_Script)
+	SCPT(DB_Hissyo_P)
+	SCPT(dbattackScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        ARMO    darkbrotherhood boots
+	tribunal.esm        ARMO    darkbrotherhood cuirass
+	tribunal.esm        ARMO    darkbrotherhood gauntlet_l
+	tribunal.esm        ARMO    darkbrotherhood gauntlet_r
+	tribunal.esm        ARMO    darkbrotherhood greaves
+	tribunal.esm        ARMO    darkbrotherhood helm
+	tribunal.esm        ARMO    darkbrotherhood pauldron_l
+	tribunal.esm        ARMO    darkbrotherhood pauldron_r
+	tribunal.esm        BODY    a_darkbrotherhood_boot_a
+	tribunal.esm        BODY    a_darkbrotherhood_boot_f
+	tribunal.esm        BODY    a_darkbrotherhood_cuirass
+	tribunal.esm        BODY    a_darkbrotherhood_gauntlet
+	tribunal.esm        BODY    a_darkbrotherhood_gauntlet.1st
+	tribunal.esm        BODY    a_darkbrotherhood_greav_g
+	tribunal.esm        BODY    a_darkbrotherhood_greav_k
+	tribunal.esm        BODY    a_darkbrotherhood_greav_ul
+	tribunal.esm        BODY    a_darkbrotherhood_helmet
+	tribunal.esm        BODY    a_darkbrotherhood_pauldron_fa
+	tribunal.esm        BODY    a_darkbrotherhood_pauldron_ua
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        NPC_    dandras vules
+	tribunal.esm        NPC_    db_assassin1
+	tribunal.esm        NPC_    db_assassin1a
+	tribunal.esm        NPC_    db_assassin1b
+	tribunal.esm        NPC_    db_assassin1c
+	tribunal.esm        NPC_    db_assassin2
+	tribunal.esm        NPC_    db_assassin2a
+	tribunal.esm        NPC_    db_assassin3
+	tribunal.esm        NPC_    db_assassin3a
+	tribunal.esm        NPC_    db_assassin4
+	tribunal.esm        NPC_    db_assassin4a
+	tribunal.esm        NPC_    hels_assassin1
+	tribunal.esm        NPC_    hels_assassin2
+	tribunal.esm        NPC_    hels_assassin3
+
+[MOD-INF]: ID=2736297202775214789(Greeting:greeting 1)
+  tribunal.esm---------------------->|DATA|ONAM:dandras vules|NAME:No...tell my liege...I have...failed h....|SCVR:03sX0deathbed|INTV|BNAM:"dandras vules"->SetHealth 0  Journal TR_DBHunt 100  set deathbed to -1  Goodbye
+  DM_DB Armor Replacer-ExpRanks.esp->|DATA|ONAM:dandras vules|NAME|SCVR:03sX0deathbed|INTV|BNAM:"dandras vules"->SetHealth 0  Journal TR_DBHunt 100  set deathbed to -1  removeitem "DB_va_oakatana01" 1  additem "DB_va_oakatana_sheathed" 1  Goodbye

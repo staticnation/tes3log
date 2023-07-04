@@ -1,0 +1,193 @@
+Hlaalu Business v1.0.esp: DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(4L_Bero1_CEAgent)
+	SCPT(4L_Bero1_Feris)
+	SCPT(4L_Bero1_Gethrim1)
+	SCPT(4L_Bero1_Gethrim2)
+	SCPT(4L_Bero1_Hjorvaldrscript)
+	SCPT(4L_Bero1_Imp1)
+	SCPT(4L_Bero1_Imp2)
+	SCPT(4L_Bero1_Imp3)
+	SCPT(4L_Bero1_Imp4)
+	SCPT(4L_Bero1_Imp5)
+	SCPT(4L_Bero1_Imp6)
+	SCPT(4L_Bero1_PackGuars)
+	SCPT(4L_Bero1_Smuggler1)
+	SCPT(4L_Bero1_Smuggler2)
+	SCPT(4L_Bero1_Smuggler3)
+	SCPT(4L_Bero1_Ungringscript)
+	SCPT(4L_Bero2_Telvanni)
+	SCPT(4L_Bero3_Sailor_01b_Script)
+	SCPT(4L_Bero3_Stowaway)
+	SCPT(4L_Bero3_stage1)
+	SCPT(4L_Bero3_stage2)
+	SCPT(4L_Jollo)
+	SCPT(4L_SN_Guard)
+	SCPT(4L_SeaspriteCaptain1)
+	SCPT(4L_SeaspriteCaptain2)
+	SCPT(4L_Ules1_Bandits)
+	SCPT(4L_Ules2_ManorThugScript)
+	SCPT(4L_Ules2thugsScript)
+	SCPT(4L_Ules3BuildTime)
+	SCPT(4L_Ules3_ArgHH)
+	SCPT(4L_Ules3_Arg_mg)
+	SCPT(4L_Ules3_Build1_script)
+	SCPT(4L_Ules3_Build2_script)
+	SCPT(4L_Ules3_Buttress)
+	SCPT(4L_Ules3_ImpHH)
+	SCPT(4L_Ules3_Imp_mg)
+	SCPT(4L_Ules3_KhajHH)
+	SCPT(4L_Ules3_Khaj_mg)
+	SCPT(4L_slaveScript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (2, -8)            0x02
+	Ascadian Isles Region (6, -12)           0x02
+	Bitter Coast Region (-8, -4)             0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    odai
+	morrowind.esm       LAND    (-8, -6)
+	morrowind.esm       LAND    (-8, -7)
+	morrowind.esm       LAND    (-9, -6)
+	morrowind.esm       LAND    (-9, -7)
+	morrowind.esm       LAND    (7, -12)
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       NPC_    belos falos
+	morrowind.esm       NPC_    fargoth
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+
+[DUP-INF]: ID=22181768139641505(Topic:go free)
+  |DATA|ONAM:hides_his_foot|NAME:Go free? No, I am old and could not make it on my own.
+
+[DUP-INF]: ID=58028831233554797(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You've earned a death warrant for your crimes, outlaw. May the gods have mercy upon your soul.|SCVR:01433|INTV|BNAM:SetDisposition 0  SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=62342927712254319(Greeting:greeting 0)
+  |DATA|ONAM:agronian guy|NAME:I don't want to talk about it.|BNAM:Goodbye
+
+[DUP-INF]: ID=67239647320757300(Greeting:greeting 0)
+  |DATA|ONAM:rissinia|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:I've heard you've got a price on your head, %PCRank. For a small fee, I can take care of that.|SCVR:11433|INTV|SCVR:21391|INTV
+
+[DUP-INF]: ID=199641425381905494(Topic:go free)
+  |DATA|ONAM:eleedal_lei|NAME:Yes, I will free the others. Soon we will return to Black Marsh.|SCVR:34JX3HT_SlaveRebellion|INTV:2
+
+[DUP-INF]: ID=226226374475914643(Greeting:greeting 0)
+  |DATA|ONAM:arantamo|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:I've heard you've got a price on your head, %PCRank. For a small fee, I can take care of that.|SCVR:11433|INTV|SCVR:21391|INTV
+
+[DUP-INF]: ID=227322281661726892(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:What are you doing! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+
+[DUP-INF]: ID=520421455239399130(Topic:go free)
+  |DATA|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=875317795149451008(Greeting:greeting 0)
+  |DATA|FNAM:Royal Guard|NAME:Halt!  The King suspected you might try something treacherous with his champion. He cannot allow this to continue. By order of His Royal Highness King Hlaalu Helseth, Duke of Mournhold, you are ordered to accompany me to the prison until His Highness deems you fit to engage in the agreed-upon contest.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+
+[DUP-INF]: ID=1046442603030210731(Greeting:greeting 0)
+  |DATA|ONAM:tongue_toad|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:I've heard you've got a price on your head, %PCRank. For a small fee, I can take care of that.|SCVR:11433|INTV|SCVR:21391|INTV
+
+[DUP-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  |DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+
+[DUP-INF]: ID=1224319899288117550(Greeting:greeting 0)
+  |DATA|CNAM:Guard|ANAM:Chun-Ook, Upper Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=1553958902285827759(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 CrimeGoldTurnIn  SetPCCrimeLevel 0  PayFine
+
+[DUP-INF]: ID=1588813549227325295(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:All is silence. The road is straight, without turning, in darkness. Now let there be an end to all things.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:modDisposition -10  goodbye
+
+[DUP-INF]: ID=1805121922893719179(Topic:business)
+  |DATA|ONAM:nileno dorvayn|NAME:If you want to talk business, you've come to the right place. Do you want to join House Hlaalu?
+
+[DUP-INF]: ID=1883316893198517213(Greeting:greeting 0)
+  |DATA|ONAM:phane rielle|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:I've heard you've got a price on your head, %PCRank. For a small fee, I can take care of that.|SCVR:11433|INTV|SCVR:21391|INTV
+
+[DUP-INF]: ID=1970915763165106390(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2
+
+[DUP-INF]: ID=2026826774301919649(Greeting:greeting 0)
+  |DATA|ONAM:Rat_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AiWander 0 0 0 40 30 20 0 0 0 0 0 0
+
+[DUP-INF]: ID=2530620179628421004(Topic:business)
+  |DATA|NAME:Actually, I believe we've finished our business. I will notify the Temple that you are our champion. There shall be no more persecution of the Dissident Priests, and I hope both sides shall swiftly be reconciled. Now you are my guest, I am your host, and we have time for explanations. Or counsel. Or questions. Or bitter recriminations, if you like. Or you may leave, if you wish. As you wish. But I think before you leave you should hear how to defeat Dagoth Ur, and how you must use the artifact Wraithguard.|SCVR:04JX3B8_MeetVivec|INTV:2|BNAM:;Vivec; Journal "B8_MeetVivec" >= 50
+
+[DUP-INF]: ID=2768210666929210763(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 GetPCCrimeLevel  SetPCCrimeLevel 0  PayFine
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=3053416069775816458(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AiWander 0 0 0 40 30 20 0 0 0 0 0 0
+
+[DUP-INF]: ID=5532282632337618941(Greeting:greeting 0)
+  |DATA|CNAM:Guard|ANAM:Chun-Ook, Lower Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+
+[DUP-INF]: ID=6616188451705521079(Greeting:greeting 7)
+  |DATA|CNAM|NAME:Do you have the key to these bracers? Will you let me go free?|SCVR:05IX2key_hlormarenslaves_01|INTV:
+
+[DUP-INF]: ID=8010271431137827579(Greeting:greeting 7)
+  |DATA|CNAM:Slave|NAME:Yes, you have freed me, %PCName. I am in your debt.|SCVR:03sX0slavestatus|INTV
+
+[DUP-INF]: ID=11115191771879031203(Topic:business)
+  |DATA|FNAM:Hlaalu|ANAM:Balmora|NAME:If you want to talk business, speak with Nileno Dorvayn.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=14849203321598615886(Greeting:greeting 1)
+  |DATA|ONAM:Thelsa Dral|NAME:Well. Someone finally found me. Your bad luck, really.|BNAM:StartCombat Player  SetFight 90  SetDisposition 0  Goodbye
+
+[DUP-INF]: ID=17814103293101015617(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:Then pay with your blood, outlaw!|SCVR:01500|INTV|BNAM:;SetDisposition 0  ;commented out, should not fight here or set disp  ;SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=20172142971264027114(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:GotoJail  Goodbye
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=21575208122898025542(Greeting:greeting 0)
+  |DATA|ONAM:Rat_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=24846235093016113632(Topic:odai)
+  |DATA|ONAM:ajira|NAME:The Odai is the river here in Balmora. Goes right through middle of town.
+
+[DUP-INF]: ID=31089205411193327763(Greeting:greeting 0)
+  |DATA|ONAM:Rat_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2
+
+[MOD-INF]: ID=32241292111148011934(Topic:odai)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|ANAM:Balmora|NAME:The River Odai flows through the center of Balmora to the coast near Hla Oad.|SCVR:0BLX0Balmora, Council Club|INTV|SCVR:1CsX0nolore|INTV:
+  Hlaalu Business v1.0.esp->|DATA|RNAM:Dark Elf|NAME:The River Odai flows through the center of Balmora to the coast near Hla Oad.|SCVR:04JX34L_HH_Bero1|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:24JX44L_HH_Bero1|INTV:d
+
+[MOD-INF]: ID=32241292111148011934(Topic:odai)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|ANAM:Balmora|NAME:The River Odai flows through the center of Balmora to the coast near Hla Oad.|SCVR:0BLX0Balmora, Council Club|INTV|SCVR:1CsX0nolore|INTV:
+  Hlaalu Business v1.0.esp->|DATA|RNAM:Dark Elf|NAME:The River Odai flows through the center of Balmora to the coast near Hla Oad.|SCVR:04JX34L_HH_Bero1|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:24JX44L_HH_Bero1|INTV:d
+[MOD-IID]: ID=27101626084862137
+  Hlaalu Business v1.0.esp->The River Odai flows through the center of Balmora to the coast near Hla Oad.

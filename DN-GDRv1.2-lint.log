@@ -1,0 +1,538 @@
+DN-GDRv1.2.esp: DUP-REC FOGBUG JUNKCEL MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	RedMountainReborn.esp        3529597 (plugin)    3531838 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Dagoth Ur, Hall of Passage
+	Dagoth Ur, Lower East Passage
+	Odrosal, Tower
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DNO_Hotdoor)
+	SCPT(DNO_Ladder_Script)
+	SCPT(DNO_Ladder_dn_Script)
+	SCPT(DNO_Snd_lava_layer)
+	SCPT(DNO_door_NT)
+	SCPT(DNO_floorfall)
+	SCPT(DNO_lava_swell)
+	SCPT(DNO_lavadoor00)
+	SCPT(DNO_oil_spill_script)
+	SCPT(DNO_pitdoor_state)
+	SCPT(DNO_pitdoor_switch)
+	SCPT(DNV_6th_top_script)
+	SCPT(DNV_Ball_Roll_Sound)
+	SCPT(DNV_Robo_Cpanel_green)
+	SCPT(DNV_Robo_Cpanel_red)
+	SCPT(DNV_Robo_fight)
+	SCPT(DNV_electrocute)
+	SCPT(DNV_force_robo)
+	SCPT(DNV_force_robo2)
+	SCPT(DNV_robo_door00)
+	SCPT(DNV_torque_hall_amb_script)
+	SCPT(DN_AK_dagoth_bridge)
+	SCPT(DN_AK_delete)
+	SCPT(DN_AK_hotdoor00)
+	SCPT(DN_AK_lavadoor00)
+	SCPT(DN_AK_lavafall_trig)
+	SCPT(DN_AK_rock28)
+	SCPT(DN_AK_stop_end)
+	SCPT(DN_AK_welldoor)
+	SCPT(DN_AKlava)
+	SCPT(DN_DU_dead_npc)
+	SCPT(DN_DU_playgroup)
+	SCPT(DN_DU_wake_trig)
+	SCPT(DN_Enable_Teleporting)
+	SCPT(DN_Hell_racer_trig)
+	SCPT(DN_LocalState)
+	SCPT(DN_Portal_key)
+	SCPT(DN_Portal_key_outside)
+	SCPT(DN_Snd_lava_layer)
+	SCPT(DN_Sound_Cave_Wind_lo)
+	SCPT(DN_Sound_portalhum)
+	SCPT(DN_air_trap)
+	SCPT(DN_creature_act00)
+	SCPT(DN_creature_act01)
+	SCPT(DN_disable_Teleporting)
+	SCPT(DN_door_LR)
+	SCPT(DN_door_NP)
+	SCPT(DN_door_snow)
+	SCPT(DN_fight_corprus_lame00)
+	SCPT(DN_fight_dreamer)
+	SCPT(DN_fight_dreamer2)
+	SCPT(DN_fight_goblin00)
+	SCPT(DN_fight_goblin01)
+	SCPT(DN_fight_staker)
+	SCPT(DN_fight_tomb_raider00)
+	SCPT(DN_fight_tomb_raider01)
+	SCPT(DN_force_cage_act01)
+	SCPT(DN_force_cage_act01a)
+	SCPT(DN_force_cage_act02)
+	SCPT(DN_gyro)
+	SCPT(DN_impeller)
+	SCPT(DN_lava)
+	SCPT(DN_passageScript)
+	SCPT(DN_portal_glow)
+	SCPT(DN_quest_key)
+	SCPT(DN_rockwall001)
+	SCPT(DN_sound_dwrv_ambience)
+	SCPT(DN_turn_portal_off)
+	SCPT(DN_turn_portal_on)
+	SCPT(DN_vaultdoor00)
+	SCPT(DN_vaultdoor01)
+	SCPT(DN_warn_note)
+	SCPT(DN_water_trap)
+	SCPT(DagothUrSpeak)
+	SCPT(Enable_Levitation)
+	SCPT(EndGame)
+	SCPT(Sound_DN_Wind)
+	SCPT(Sound_DN_portal_hum)
+	SCPT(disable_Levitation)
+	SCPT(passageScript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (-2, 9)                  0x02
+	Ashlands Region (-3, 10)                 0x02
+	Ashlands Region (0, 12)                  0x02
+	Ashlands Region (0, 4)                   0x02
+	Ashlands Region (0, 5)                   0x02
+	Ashlands Region (0, 6)                   0x02
+	Ashlands Region (0, 7)                   0x02
+	Ashlands Region (0, 8)                   0x02
+	Ashlands Region (1, 4)                   0x02
+	Ashlands Region (4, 12)                  0x02
+	Ashlands Region (4, 4)                   0x02
+	Ashlands Region (4, 5)                   0x02
+	Ashlands Region (5, 12)                  0x02
+	Ashlands Region (5, 6)                   0x02
+	Red Mountain Region (-2, 10)             0x02
+	Red Mountain Region (0, 9)               0x02
+	Red Mountain Region (1, 10)              0x02
+	Red Mountain Region (1, 11)              0x02
+	Red Mountain Region (1, 5)               0x02
+	Red Mountain Region (1, 6)               0x02
+	Red Mountain Region (1, 9)               0x02
+	Red Mountain Region (2, 10)              0x02
+	Red Mountain Region (2, 11)              0x02
+	Red Mountain Region (2, 6)               0x02
+	Red Mountain Region (2, 9)               0x02
+	Red Mountain Region (3, 6)               0x02
+	Red Mountain Region (4, 11)              0x02
+	Red Mountain Region (4, 8)               0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    active_de_bedroll
+	bloodmoon.esm       STAT    bm_ic_cavern_03
+	bloodmoon.esm       STAT    bm_ic_cavern_03_04
+	bloodmoon.esm       STAT    bm_ic_seem_01
+	bloodmoon.esm       STAT    ex_dwrv_bridge10
+	bloodmoon.esm       STAT    flora_root_wg_01
+	bloodmoon.esm       STAT    in_bm_cave_28_1
+	bloodmoon.esm       WEAP    bm_ebonyarrow_s
+	gdr_masterfile.esm    ACTI    gdr_dwrv_crank
+	gdr_masterfile.esm    ACTI    gdr_dwrv_ctrllever01
+	gdr_masterfile.esm    ACTI    gdr_dwrv_lift
+	gdr_masterfile.esm    ACTI    gdr_spider_gas
+	gdr_masterfile.esm    ACTI    gdr_steam_trap_192
+	gdr_masterfile.esm    ACTI    gdr_steam_trap_96
+	gdr_masterfile.esm    ARMO    gdr_a_dwrv_twrshield
+	gdr_masterfile.esm    BOOK    gdr_dwrv_book_arch_manual_01
+	gdr_masterfile.esm    BOOK    gdr_dwrv_book_sph_manual_01
+	gdr_masterfile.esm    BOOK    gdr_dwrv_book_stm_manual_01
+	gdr_masterfile.esm    BOOK    gdr_nchuleft_map
+	gdr_masterfile.esm    DOOR    gdr_dwrv_dsphere
+	gdr_masterfile.esm    LIGH    gdr_dwrv_lcrystal
+	gdr_masterfile.esm    LIGH    gdr_dwrv_lneonbroke
+	gdr_masterfile.esm    MISC    gdr_dwrv_key_01
+	gdr_masterfile.esm    MISC    gdr_dwrv_key_02
+	gdr_masterfile.esm    MISC    gdr_dwrv_key_03
+	gdr_masterfile.esm    STAT    gdr_dwrv_aship_ballon
+	gdr_masterfile.esm    STAT    gdr_dwrv_aship_gblock
+	gdr_masterfile.esm    STAT    gdr_dwrv_aship_prop
+	gdr_masterfile.esm    STAT    gdr_dwrv_aship_wing
+	gdr_masterfile.esm    STAT    gdr_dwrv_aship_wingtube
+	gdr_masterfile.esm    STAT    gdr_dwrv_beam256
+	gdr_masterfile.esm    STAT    gdr_dwrv_beam512
+	gdr_masterfile.esm    STAT    gdr_dwrv_beam_01
+	gdr_masterfile.esm    STAT    gdr_dwrv_beamclamp
+	gdr_masterfile.esm    STAT    gdr_dwrv_beamcross
+	gdr_masterfile.esm    STAT    gdr_dwrv_ceiling
+	gdr_masterfile.esm    STAT    gdr_dwrv_cistern01
+	gdr_masterfile.esm    STAT    gdr_dwrv_crystal_holder
+	gdr_masterfile.esm    STAT    gdr_dwrv_ctrlleverbar
+	gdr_masterfile.esm    STAT    gdr_dwrv_ctrlpanel01
+	gdr_masterfile.esm    STAT    gdr_dwrv_ctrlpanel02
+	gdr_masterfile.esm    STAT    gdr_dwrv_ctrlpanel03
+	gdr_masterfile.esm    STAT    gdr_dwrv_ctrlstool
+	gdr_masterfile.esm    STAT    gdr_dwrv_dj_sphere
+	gdr_masterfile.esm    STAT    gdr_dwrv_drill_walker
+	gdr_masterfile.esm    STAT    gdr_dwrv_grate_01
+	gdr_masterfile.esm    STAT    gdr_dwrv_grate_02
+	gdr_masterfile.esm    STAT    gdr_dwrv_grate_03
+	gdr_masterfile.esm    STAT    gdr_dwrv_hallpit2_00
+	gdr_masterfile.esm    STAT    gdr_dwrv_hallpit3_00
+	gdr_masterfile.esm    STAT    gdr_dwrv_hallpit4_00
+	gdr_masterfile.esm    STAT    gdr_dwrv_hallpit4_01
+	gdr_masterfile.esm    STAT    gdr_dwrv_hallpit4_02
+	gdr_masterfile.esm    STAT    gdr_dwrv_handrail
+	gdr_masterfile.esm    STAT    gdr_dwrv_handrail_256
+	gdr_masterfile.esm    STAT    gdr_dwrv_handrail_512
+	gdr_masterfile.esm    STAT    gdr_dwrv_handrail_64
+	gdr_masterfile.esm    STAT    gdr_dwrv_mezz_c2
+	gdr_masterfile.esm    STAT    gdr_dwrv_mezzanine
+	gdr_masterfile.esm    STAT    gdr_dwrv_panel_01
+	gdr_masterfile.esm    STAT    gdr_dwrv_panel_04
+	gdr_masterfile.esm    STAT    gdr_dwrv_part_02
+	gdr_masterfile.esm    STAT    gdr_dwrv_part_03
+	gdr_masterfile.esm    STAT    gdr_dwrv_part_04
+	gdr_masterfile.esm    STAT    gdr_dwrv_part_07
+	gdr_masterfile.esm    STAT    gdr_dwrv_pipe20
+	gdr_masterfile.esm    STAT    gdr_dwrv_pipecolumn
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit2_00
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit2_02
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit2_03
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit2_04
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit3_00
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit4_00
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit4_01
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit4_02
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit4_04
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit4_06
+	gdr_masterfile.esm    STAT    gdr_dwrv_pit_col
+	gdr_masterfile.esm    STAT    gdr_dwrv_plat256
+	gdr_masterfile.esm    STAT    gdr_dwrv_plat512
+	gdr_masterfile.esm    STAT    gdr_dwrv_platform
+	gdr_masterfile.esm    STAT    gdr_dwrv_shaft20
+	gdr_masterfile.esm    STAT    gdr_dwrv_shaft30
+	gdr_masterfile.esm    STAT    gdr_dwrv_smokestack
+	gdr_masterfile.esm    STAT    gdr_dwrv_stair_spiral
+	gdr_masterfile.esm    STAT    gdr_dwrv_stair_spiral02
+	gdr_masterfile.esm    STAT    gdr_dwrv_window
+	gdr_masterfile.esm    WEAP    gdr_w_dwrv_longsword
+	morrowind.esm       ACTI    akhul_steam
+	morrowind.esm       ACTI    blight cloud
+	morrowind.esm       ACTI    in_lava_1024
+	morrowind.esm       ACTI    in_lava_1024_01
+	morrowind.esm       ARMO    dwemer_shield
+	morrowind.esm       CLOT    common_robe_05_c
+	morrowind.esm       CONT    dwrv_closet00_arms
+	morrowind.esm       DOOR    door_dwrv_loaddown00
+	morrowind.esm       LIGH    blue_256_pulse_512
+	morrowind.esm       LIGH    light_6th_brazier
+	morrowind.esm       LIGH    light_6th_brazier_01
+	morrowind.esm       LIGH    light_dwrv_neon02
+	morrowind.esm       LIGH    orange_256_01_d
+	morrowind.esm       MISC    misc_dwrv_artifact80
+	morrowind.esm       MISC    misc_dwrv_gear00
+	morrowind.esm       STAT    collision wall - inviso!!
+	morrowind.esm       STAT    dwrv_mechhead00
+	morrowind.esm       STAT    dwrv_mechhips00
+	morrowind.esm       STAT    ex_dwrv_alcove00
+	morrowind.esm       STAT    ex_dwrv_block10
+	morrowind.esm       STAT    ex_dwrv_block20
+	morrowind.esm       STAT    ex_dwrv_block30
+	morrowind.esm       STAT    ex_dwrv_pipe00
+	morrowind.esm       STAT    ex_dwrv_pipe10
+	morrowind.esm       STAT    ex_dwrv_ruin00
+	morrowind.esm       STAT    ex_dwrv_ruin50
+	morrowind.esm       STAT    ex_dwrv_ruin_tower00
+	morrowind.esm       STAT    flora_ashtree_07
+	morrowind.esm       STAT    flora_bc_moss_19
+	morrowind.esm       STAT    flora_bc_vine_01
+	morrowind.esm       STAT    flora_bc_vine_05
+	morrowind.esm       STAT    flora_root_wg_02
+	morrowind.esm       STAT    flora_root_wg_04
+	morrowind.esm       STAT    flora_root_wg_05
+	morrowind.esm       STAT    furn_6th_ashaltar
+	morrowind.esm       STAT    furn_6th_ashpillar
+	morrowind.esm       STAT    furn_6th_ashstatue
+	morrowind.esm       STAT    furn_6th_banner
+	morrowind.esm       STAT    furn_6th_corprus_plate_01
+	morrowind.esm       STAT    furn_6th_dagothsymbol
+	morrowind.esm       STAT    furn_6th_troth_01
+	morrowind.esm       STAT    furn_6th_troth_02
+	morrowind.esm       STAT    furn_anvil00
+	morrowind.esm       STAT    furn_dwrv_fitting00
+	morrowind.esm       STAT    furn_dwrv_fitting20
+	morrowind.esm       STAT    furn_dwrv_fitting30
+	morrowind.esm       STAT    furn_dwrv_fitting50
+	morrowind.esm       STAT    furn_dwrv_well00
+	morrowind.esm       STAT    furn_mist512
+	morrowind.esm       STAT    furn_web00
+	morrowind.esm       STAT    furn_web10
+	morrowind.esm       STAT    in_6th_chalk00
+	morrowind.esm       STAT    in_6th_chalk10
+	morrowind.esm       STAT    in_6th_chalk20
+	morrowind.esm       STAT    in_6th_chalk30
+	morrowind.esm       STAT    in_cavern_roots00
+	morrowind.esm       STAT    in_cavern_roots10
+	morrowind.esm       STAT    in_dwrv_corr2_00
+	morrowind.esm       STAT    in_dwrv_corr2_02
+	morrowind.esm       STAT    in_dwrv_corr2_03
+	morrowind.esm       STAT    in_dwrv_corr2_04
+	morrowind.esm       STAT    in_dwrv_corr3_00
+	morrowind.esm       STAT    in_dwrv_corr3_02
+	morrowind.esm       STAT    in_dwrv_corr4_00
+	morrowind.esm       STAT    in_dwrv_corr4_01
+	morrowind.esm       STAT    in_dwrv_corr4_03
+	morrowind.esm       STAT    in_dwrv_corr4_04
+	morrowind.esm       STAT    in_dwrv_corr4_05
+	morrowind.esm       STAT    in_dwrv_doorjam00
+	morrowind.esm       STAT    in_dwrv_shaft10
+	morrowind.esm       STAT    in_dwrv_wall00
+	morrowind.esm       STAT    in_dwrv_wall10
+	morrowind.esm       STAT    in_lava_blacksquare
+	morrowind.esm       STAT    in_mold_rock_24
+	morrowind.esm       STAT    in_moldcave2_s_05
+	morrowind.esm       STAT    in_mud_rock_04
+	morrowind.esm       STAT    in_mud_rock_05
+	morrowind.esm       STAT    in_mud_rock_12
+	morrowind.esm       STAT    in_mud_rock_14
+	morrowind.esm       STAT    in_mud_rock_17
+	morrowind.esm       STAT    in_mud_rock_23
+	morrowind.esm       STAT    in_mud_rock_24
+	morrowind.esm       STAT    in_mudboulder00
+	morrowind.esm       STAT    in_mudboulder01
+	morrowind.esm       STAT    in_mudboulder02
+	morrowind.esm       STAT    in_mudboulder03
+	morrowind.esm       STAT    in_mudboulder04
+	morrowind.esm       STAT    in_mudboulder05
+	morrowind.esm       STAT    in_mudcave2_00
+	morrowind.esm       STAT    in_mudcave2_01
+	morrowind.esm       STAT    in_mudcave2_06
+	morrowind.esm       STAT    in_mudcave2_end
+	morrowind.esm       STAT    in_mudcave2_s_01
+	morrowind.esm       STAT    in_mudcave2_s_end
+	morrowind.esm       STAT    in_mudcave_08
+	morrowind.esm       STAT    in_mudcave_10
+	morrowind.esm       STAT    in_mudcave_28_1
+	morrowind.esm       STAT    in_mudtrans_00
+	morrowind.esm       STAT    in_py_rock_02
+	morrowind.esm       STAT    in_py_rock_03
+	morrowind.esm       STAT    in_py_rock_17
+	morrowind.esm       STAT    in_pyboulder05
+	morrowind.esm       STAT    in_pycave2_02
+	tribunal.esm        ACTI    act_dwe_fan00
+	tribunal.esm        ACTI    act_hot_oil_512
+	tribunal.esm        ACTI    active_chimney_smoke02_ovis2
+	tribunal.esm        ACTI    furn_dwrv_beltdrive
+	tribunal.esm        ACTI    furn_dwrv_dynamo
+	tribunal.esm        ACTI    furn_dwrv_fitting40
+	tribunal.esm        ACTI    furn_dwrv_tranny00
+	tribunal.esm        ACTI    inviso_wall
+	tribunal.esm        ACTI    sound_cave_wind00
+	tribunal.esm        ACTI    steam_lavariver
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    door_dwrv_loadup00
+	tribunal.esm        LIGH    light_sotha_sparks
+	tribunal.esm        STAT    in_dwrv_corr1_00
+	tribunal.esm        STAT    in_mold_rock_17
+	tribunal.esm        STAT    in_py_rock_07
+	tribunal.esm        STAT    in_sotha_gear_chamber00
+	tribunal.esm        STAT    in_sotha_lab00
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    in_akulakhan00
+	morrowind.esm       ACTI    in_dagoth_bridge00
+	morrowind.esm       ACTI    in_dagoth_taunt1
+	morrowind.esm       ACTI    in_dagoth_taunt2
+	morrowind.esm       ACTI    in_dagoth_taunt3
+	morrowind.esm       ACTI    in_dagoth_taunt5
+	morrowind.esm       ACTI    in_dagoth_taunt6
+	morrowind.esm       ACTI    in_dagoth_taunt7
+	morrowind.esm       ACTI    in_dwrv_crank_akula00
+	morrowind.esm       ARMO    dwemer_boots of flying
+	morrowind.esm       CONT    contain_corpse00
+	morrowind.esm       CREA    bonewalker_greater
+	morrowind.esm       CREA    dagoth araynys
+	morrowind.esm       CREA    dagoth gilvoth
+	morrowind.esm       CREA    dagoth odros
+	morrowind.esm       CREA    dagoth rather
+	morrowind.esm       CREA    dagoth tureynul
+	morrowind.esm       CREA    dagoth uthol
+	morrowind.esm       CREA    dagoth vaner
+	morrowind.esm       CREA    dagoth vemyn
+	morrowind.esm       CREA    dagoth_ur_1
+	morrowind.esm       CREA    dagoth_ur_2
+	morrowind.esm       CREA    heart_akulakhan
+	morrowind.esm       DIAL    come unprepared
+	morrowind.esm       DIAL    final questions
+	morrowind.esm       DIAL    our business
+	morrowind.esm       DIAL    parting words
+	morrowind.esm       LIGH    light_dwrv_neon00
+	morrowind.esm       LIGH    light_dwrv_neon01
+	morrowind.esm       LIGH    light_dwrv_neonbroke00
+	morrowind.esm       NPC_    dreamer_dead
+	morrowind.esm       NPC_    thief dead 00
+	morrowind.esm       NPC_    warrior dead 03
+	morrowind.esm       PGRD    akulakhan's chamber
+	morrowind.esm       PGRD    dagoth ur, facility cavern
+	morrowind.esm       PGRD    odrosal, dwemer training academy
+	morrowind.esm       PGRD    vemynal, hall of torque
+	morrowind.esm       SNDG    corprus_stalker0004
+	morrowind.esm       SNDG    dagoth_ur_10005
+	morrowind.esm       SNDG    dagoth_ur_10006
+	morrowind.esm       WEAP    dwarven crossbow
+	redmountainreborn.esp    LAND    (2, 8)
+	redmountainreborn.esp    LAND    (2, 9)
+	redmountainreborn.esp    LAND    (3, 8)
+	redmountainreborn.esp    LAND    (3, 9)
+	redmountainreborn.esp    LTEX    ma_crackedearth
+	redmountainreborn.esp    LTEX    ma_lavaflow
+	redmountainreborn.esp    LTEX    ma_lavarock
+	redmountainreborn.esp    LTEX    ma_rock04
+	redmountainreborn.esp    LTEX    rm_rock_02
+	redmountainreborn.esp    LTEX    rm_whiterock
+	tribunal.esm        CREA    dagoth endus
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        LIGH    green light_400
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[MOD-INF]: ID=308555305285313(Topic:come unprepared)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:I am glad that this time you did not come unprepared.|SCVR:05IX3wraithguard_jury_rig|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; not all tools;   Goodbye
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:I am glad that this time you did not come unprepared.|SCVR:05IX3wraithguard_jury_rig|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; not all tools;   Goodbye  Set MrTSVoiceID to 19  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=10223562561024949(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:I have no idea what happened to the Dwemer. I have been denied the opportunity to study Wraithguard, and I am not sure how much of Kagrenac's lore was invested in his tools, and how much in his own sorcery and mastery. I have long studied Kagrenac, and have come to admire his wisdom and craft. Someday, after the campaigns of the Sixth House are secure, I hope to have time to dedicate to this mystery.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 22;     Choice "Continue" 16
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:I have no idea what happened to the Dwemer. I have been denied the opportunity to study Wraithguard, and I am not sure how much of Kagrenac's lore was invested in his tools, and how much in his own sorcery and mastery. I have long studied Kagrenac, and have come to admire his wisdom and craft. Someday, after the campaigns of the Sixth House are secure, I hope to have time to dedicate to this mystery.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 22;     Choice "Continue" 16  Set MrTSVoiceID to 21  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=15571891510054331(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:I believe we've said all there is to be said. Now only deeds can resolve this matter.|SCVR:04JX3C3_DestroyDagoth|INTV
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:I believe we've said all there is to be said. Now only deeds can resolve this matter.|SCVR:04JX3C3_DestroyDagoth|INTV|BNAM:Set MrTSVoiceID to 20  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=22753549287659774(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:My first question is: Are you really Nerevar reborn?|BNAM:;Dagoth Ur:   Choice "By the grace of gods and fate, I am Nerevar reborn." 4 "I'm a loyal servant of the Emperor." 5 "I am a self-willed hero, and I make my own fate." 6 "I know no more than you do." 7
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:My first question is: Are you really Nerevar reborn?|BNAM:;Dagoth Ur:   Choice "By the grace of gods and fate, I am Nerevar reborn." 4 "I'm a loyal servant of the Emperor." 5 "I am a self-willed hero, and I make my own fate." 6 "I know no more than you do." 7  Set MrTSVoiceID to 30  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=42011261613880933(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:A noble ambition. And anyone who would make war upon the Septims should be my friend. A pity we cannot trust one another as allies.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 9;   Choice "Continue" 3
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:A noble ambition. And anyone who would make war upon the Septims should be my friend. A pity we cannot trust one another as allies.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 9;   Choice "Continue" 3  Set MrTSVoiceID to 1  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=52072529196855721(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:My second question is: if you win, what do you plan to do with the power from the Heart? Will you make yourself a god, and establish a thearchy? Or will you complete Akulakhan, and dispute control of Tamriel with the Septims? Or will you share the Heart with your followers, as I have, and breed a new race of divine immortals?|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 2;   Choice "Make myself a god." 8 "Complete Akulakhan." 9 "Share the Heart." 10 "I have my own, secret plan for the Heart." 11
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:My second question is: if you win, what do you plan to do with the power from the Heart? Will you make yourself a god, and establish a thearchy? Or will you complete Akulakhan, and dispute control of Tamriel with the Septims? Or will you share the Heart with your followers, as I have, and breed a new race of divine immortals?|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 2;   Choice "Make myself a god." 8 "Complete Akulakhan." 9 "Share the Heart." 10 "I have my own, secret plan for the Heart." 11  Set MrTSVoiceID to 28  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=74921738309882758(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:I will free the Dunmer from the Imperial yoke, and cast down the false gods of the Temple. I will lead them out of their ancient superstitions, and gift them with intimate knowledge of the divine. Then, perhaps, when Morrowind is once again restored to its ancient glories, it will be time to consider whether the Dunmer should cultivate ambitions of empire.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 20;     Choice "Continue" 16
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:I will free the Dunmer from the Imperial yoke, and cast down the false gods of the Temple. I will lead them out of their ancient superstitions, and gift them with intimate knowledge of the divine. Then, perhaps, when Morrowind is once again restored to its ancient glories, it will be time to consider whether the Dunmer should cultivate ambitions of empire.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 20;     Choice "Continue" 16  Set MrTSVoiceID to 11  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=161812158673301622(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:You will follow the model of the Tribunal? That is a dull and unenterprising ambition. See what the Tribunal have done. They've sacrificed the honor and dignity of the Dunmer race, and handed over our ancient land to the mongrel dogs of the Empire. You may mean well, but you lack vision. You are not worthy of the Heart.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 8;   Choice "Continue" 3
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:You will follow the model of the Tribunal? That is a dull and unenterprising ambition. See what the Tribunal have done. They've sacrificed the honor and dignity of the Dunmer race, and handed over our ancient land to the mongrel dogs of the Empire. You may mean well, but you lack vision. You are not worthy of the Heart.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 8;   Choice "Continue" 3  Set MrTSVoiceID to 9  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=234077946420010245(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:You have a noble spirit. I share the power I have from the Heart to help free mortals from their ancient fears of the gods. Who knows what we may be capable of once we not longer fear death? Your goal is worthy, and I honor you for it.|SCVR:01500|INTV: |BNAM:;Dagoth Ur: CHOICE 10;   Choice "Continue" 3
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:You have a noble spirit. I share the power I have from the Heart to help free mortals from their ancient fears of the gods. Who knows what we may be capable of once we not longer fear death? Your goal is worthy, and I honor you for it.|SCVR:01500|INTV: |BNAM:;Dagoth Ur: CHOICE 10;   Choice "Continue" 3  Set MrTSVoiceID to 32  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=247972647285714517(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:I will continue to draw divine power from the Heart and distribute it to my kin and followers. I will continue to broadcast divine power upon the blight winds, so that it will touch each soul on Vvardenfell, and then more broadly, across the waters to the rest of Morrowind and Tamriel. In time, every mortal in Tamriel shall feel the liberating contact with the divine.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 18;    Choice "Continue" 16
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:I will continue to draw divine power from the Heart and distribute it to my kin and followers. I will continue to broadcast divine power upon the blight winds, so that it will touch each soul on Vvardenfell, and then more broadly, across the waters to the rest of Morrowind and Tamriel. In time, every mortal in Tamriel shall feel the liberating contact with the divine.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 18;    Choice "Continue" 16  Set MrTSVoiceID to 23  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=299342755425514106(Topic:parting words)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:Now that you have come to me here, there can be but one result. Many times I have rehearsed speeches offering to share this place with you. 'If you dare to defy the gods, take my hand.' 'To seal our oath of alliance, you shall give me Wraithguard.' 'You have ability. Special gifts you don't even understand. Serve me, and I can help you master those gifts.'|SCVR:05IX3wraithguard_jury_rig|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; has tools;   Choice "Continue" 1
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Now that you have come to me here, there can be but one result. Many times I have rehearsed speeches offering to share this place with you. 'If you dare to defy the gods, take my hand.' 'To seal our oath of alliance, you shall give me Wraithguard.' 'You have ability. Special gifts you don't even understand. Serve me, and I can help you master those gifts.'|SCVR:05IX3wraithguard_jury_rig|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; has tools;   Choice "Continue" 1  Set MrTSVoiceID to 33  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=305361363183812110(Greeting:greeting 1)
+  tribunal.esm--->|DATA|ONAM:dagoth_ur_1|NAME:Strange. This outcome I did not foresee. That you would come unprepared.|SCVR:01630|INTV:
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Strange. This outcome I did not foresee. That you would come unprepared.|SCVR:01630|INTV:|BNAM:Set MrTSVoiceID to 41  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=309361049185221584(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:That is bitter. The gods and fates are cruel. I served you faithfully once, Lord Nerevar, and you repaid me with death. I hope this time it will be you who pays for your faithlessness.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 4;   Choice "Continue" 2
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:That is bitter. The gods and fates are cruel. I served you faithfully once, Lord Nerevar, and you repaid me with death. I hope this time it will be you who pays for your faithlessness.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 4;   Choice "Continue" 2  Set MrTSVoiceID to 45  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=335528375683928239(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:Well. Perhaps there may be surprises in store for me yet. Or perhaps you obscure your plans on principle. Or perhaps you are an instinctive bluffer. No matter.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 11;   Choice "Continue" 3
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Well. Perhaps there may be surprises in store for me yet. Or perhaps you obscure your plans on principle. Or perhaps you are an instinctive bluffer. No matter.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 11;   Choice "Continue" 3  Set MrTSVoiceID to 55  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=382730072399829283(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:What a world.... Perhaps we shall never know. But as I have sympathy for you, and the melancholy fate of all mortals, I shall weep for your death.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 7;   Choice "Continue" 2
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:What a world.... Perhaps we shall never know. But as I have sympathy for you, and the melancholy fate of all mortals, I shall weep for your death.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 7;   Choice "Continue" 2  Set MrTSVoiceID to 57  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=610086641422821251(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:If, by my crimes, you mean the inevitable suffering and destruction caused by war, then I accept the burden of leadership. The Sixth House cannot be restored without war. Enlightenment cannot grow without the risk of upsetting the tradition-bound and complacent herd. And the mongrel armies of the Empire cannot be expelled from Morrowind without bloodshed. As I have charity and compassion, I grieve. But our mission is just and noble.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 21;     Choice "Continue" 16
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:If, by my crimes, you mean the inevitable suffering and destruction caused by war, then I accept the burden of leadership. The Sixth House cannot be restored without war. Enlightenment cannot grow without the risk of upsetting the tradition-bound and complacent herd. And the mongrel armies of the Empire cannot be expelled from Morrowind without bloodshed. As I have charity and compassion, I grieve. But our mission is just and noble.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 21;     Choice "Continue" 16  Set MrTSVoiceID to 24  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=872112015739415948(Topic:parting words)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:Now that you have come to me here, there can be but one result. Many times I have considered offering to share this place with you. I considered offering to accept your oath of service. You might try to buy my trust by giving me Wraithguard, Keening, and Sunder. I thought we might once again be friends... comrades... brothers in arms.|SCVR:05IX3wraithguard|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; has tools;   Choice "Continue" 1
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Now that you have come to me here, there can be but one result. Many times I have considered offering to share this place with you. I considered offering to accept your oath of service. You might try to buy my trust by giving me Wraithguard, Keening, and Sunder. I thought we might once again be friends... comrades... brothers in arms.|SCVR:05IX3wraithguard|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; has tools;   Choice "Continue" 1  Set MrTSVoiceID to 34  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=1042923846217663637(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:Yes, of course. I doubt that any cunning plan would have been of much use once I had the tools in hand. But now we'll never know. Pity. But now, if you have any questions, ask them. Otherwise, you are the challenger. I await your first blow.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 15;   Choice "Ask questions" 16 "End the dialog and prepare to attack." 17
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Yes, of course. I doubt that any cunning plan would have been of much use once I had the tools in hand. But now we'll never know. Pity. But now, if you have any questions, ask them. Otherwise, you are the challenger. I await your first blow.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 15;   Choice "Ask questions" 16 "End the dialog and prepare to attack." 17  Set MrTSVoiceID to 63  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=1242484951770522450(Topic:parting words)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:It will all be decided here. I believe I will prevail. But I cannot be sure, and I am vain enough that, should I fall, I would wish to be remembered in my own words. So, if you have final questions you would ask, ask them now. I have final questions I would ask you, if you would answer.|SCVR:01500|INTV|BNAM:;Dagoth Ur; has tools; CHOICE 2;
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:It will all be decided here. I believe I will prevail. But I cannot be sure, and I am vain enough that, should I fall, I would wish to be remembered in my own words. So, if you have final questions you would ask, ask them now. I have final questions I would ask you, if you would answer.|SCVR:01500|INTV|BNAM:;Dagoth Ur; has tools; CHOICE 2;  Set MrTSVoiceID to 2  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=1420472953113629985(Topic:come unprepared)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:This is the place of destiny. And destiny may only be shaped by the holder of Kagrenac's Tools. I do not know what you think to accomplish. But raise your hand against me, and I shall destroy you.|BNAM:;Dagoth Ur; not all tools;   Goodbye
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:This is the place of destiny. And destiny may only be shaped by the holder of Kagrenac's Tools. I do not know what you think to accomplish. But raise your hand against me, and I shall destroy you.|BNAM:;Dagoth Ur; not all tools;   Goodbye  Set MrTSVoiceID to 50  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=1453257882975315967(Greeting:greeting 1)
+  tribunal.esm--->|DATA|ONAM:dagoth_ur_1|NAME:Have you something more to say?|SCVR:05IX3wraithguard_jury_rig|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; has tools
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Have you something more to say?|SCVR:05IX3wraithguard_jury_rig|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; has tools  Set MrTSVoiceID to 39  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=1596578642857022587(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:You are bold. I honor your independence. You are one to teach the gods their limits. I hope the bards will praise the glory of your death in song.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 6;   Choice "Continue" 2
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:You are bold. I honor your independence. You are one to teach the gods their limits. I hope the bards will praise the glory of your death in song.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 6;   Choice "Continue" 2  Set MrTSVoiceID to 65  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=1671715344190492888(Greeting:greeting 1)
+  tribunal.esm--->|DATA|ONAM:dagoth_ur_1|NAME:It began here. It will end here. Have you any parting words? Or would you prefer to skip the speeches, and get to our business. You are the challenger here, after all. So to you goes the courtesy of the first blow.|SCVR:05IX3wraithguard_jury_rig|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|SCVR:31630|INTV:|BNAM:;Dagoth Ur; has tools
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:It began here. It will end here. Have you any parting words? Or would you prefer to skip the speeches, and get to our business. You are the challenger here, after all. So to you goes the courtesy of the first blow.|SCVR:05IX3wraithguard_jury_rig|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|SCVR:31630|INTV:|BNAM:;Dagoth Ur; has tools  Set MrTSVoiceID to 26  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=1892818683088716091(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:Since it hardly matters, let me assure you... there are no guarantees that would help you once I had my hands on those tools. Pity I didn't try to bargain with you. It might have made things so much easier. But now, if you have any questions, ask them. Otherwise, you are the challenger. I await your first blow.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 14;   Choice "Ask questions" 16 "End the dialog and prepare to attack." 17
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Since it hardly matters, let me assure you... there are no guarantees that would help you once I had my hands on those tools. Pity I didn't try to bargain with you. It might have made things so much easier. But now, if you have any questions, ask them. Otherwise, you are the challenger. I await your first blow.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 14;   Choice "Ask questions" 16 "End the dialog and prepare to attack." 17  Set MrTSVoiceID to 17  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=1908263561298011864(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:My final question is: if I had offered to let you join me, would you have surrendered Wraithguard, Sunder, and Keening to me to seal your oath?|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 3;   Choice "No, I would never join you." 12 "No, I would never surrender the tools." 13 "Yes, perhaps, with the right guarantees." 14 "Yes, if I had a cunning plan." 15
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:My final question is: if I had offered to let you join me, would you have surrendered Wraithguard, Sunder, and Keening to me to seal your oath?|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 3;   Choice "No, I would never join you." 12 "No, I would never surrender the tools." 13 "Yes, perhaps, with the right guarantees." 14 "Yes, if I had a cunning plan." 15  Set MrTSVoiceID to 29  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=1911720131643125956(Topic:come unprepared)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:I am glad that this time you did not come unprepared.|SCVR:05IX3wraithguard|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; not all tools;   Goodbye
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:I am glad that this time you did not come unprepared.|SCVR:05IX3wraithguard|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; not all tools;   Goodbye  Set MrTSVoiceID to 19  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=2038308431655529886(Topic:parting words)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:But I have won this place and power by right of conquest. By right of daring and enterprise. I will not risk it to cunning and deceit. I offer you no deals. If you are my enemy, I cannot trust you. And even if you are not my enemy, I cannot let you live.|SCVR:01500|INTV|BNAM:;Dagoth Ur; has tools; CHOICE 1;   Choice "Continue" 2
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:But I have won this place and power by right of conquest. By right of daring and enterprise. I will not risk it to cunning and deceit. I offer you no deals. If you are my enemy, I cannot trust you. And even if you are not my enemy, I cannot let you live.|SCVR:01500|INTV|BNAM:;Dagoth Ur; has tools; CHOICE 1;   Choice "Continue" 2  Set MrTSVoiceID to 62  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=2190322223223052000(Greeting:greeting 1)
+  tribunal.esm--->|DATA|ONAM:dagoth_ur_1|NAME:Have you something more to say?|SCVR:05IX3wraithguard|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; has tools
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Have you something more to say?|SCVR:05IX3wraithguard|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|BNAM:;Dagoth Ur; has tools  Set MrTSVoiceID to 39  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=2571748642982115907(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:Very well. If you are impatient to begin. Go ahead. You are the challenger. To you goes the first blow.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 17;  setfight 90  Journal "C3_DestroyDagoth" 5
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Very well. If you are impatient to begin. Go ahead. You are the challenger. To you goes the first blow.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 17;  setfight 90  Journal "C3_DestroyDagoth" 5  Set MrTSVoiceID to 54  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=3183226707231774121(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:Thank you for your forthright response. And now, if you have any questions, ask them. Otherwise, you are the challenger. I await your first blow.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 12;   Choice "Ask questions." 16 "End the dialog and prepare to attack." 17
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Thank you for your forthright response. And now, if you have any questions, ask them. Otherwise, you are the challenger. I await your first blow.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 12;   Choice "Ask questions." 16 "End the dialog and prepare to attack." 17  Set MrTSVoiceID to 44  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=4677250821318325371(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:Akulakhan will serve three purposes. First, it will be the champion of my armies, liberating first Vvardenfell, then Morrowind, and then, perhaps the rest of Tamriel. Second, it will serve as a sower and cultivator of the divine substance derived from the Heart. Three, it will serve as the prominent banner and symbol of our cause -- to defy the Empire, to liberate mortals from ancient superstitions, and to glorify our crusade against the gods.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 23;     Choice "Continue" 16
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Akulakhan will serve three purposes. First, it will be the champion of my armies, liberating first Vvardenfell, then Morrowind, and then, perhaps the rest of Tamriel. Second, it will serve as a sower and cultivator of the divine substance derived from the Heart. Three, it will serve as the prominent banner and symbol of our cause -- to defy the Empire, to liberate mortals from ancient superstitions, and to glorify our crusade against the gods.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 23;     Choice "Continue" 16  Set MrTSVoiceID to 61  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=6675157001582314861(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:An interesting response. You might have been willing to join me, but never to surrender the tools. Very interesting. I'm glad I didn't try to bargain with you. And now, if you have any questions, ask them. Otherwise, you are the challenger. I await your first blow.|SCVR:01500|INTV: |BNAM:;Dagoth Ur: CHOICE 13;   Choice "Ask questions" 16 "End the dialog and prepare to attack." 17
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:An interesting response. You might have been willing to join me, but never to surrender the tools. Very interesting. I'm glad I didn't try to bargain with you. And now, if you have any questions, ask them. Otherwise, you are the challenger. I await your first blow.|SCVR:01500|INTV: |BNAM:;Dagoth Ur: CHOICE 13;   Choice "Ask questions" 16 "End the dialog and prepare to attack." 17  Set MrTSVoiceID to 38  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=14273114471633523981(Topic:our business)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:You are the challenger here, after all. So to you goes the courtesy of the first blow. I'm waiting....|BNAM:;Dagoth Ur; has tools
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:You are the challenger here, after all. So to you goes the courtesy of the first blow. I'm waiting....|BNAM:;Dagoth Ur; has tools  Set MrTSVoiceID to 46  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=19642283041589325887(Greeting:greeting 1)
+  tribunal.esm--->|DATA|ONAM:dagoth_ur_1|NAME:Until I see you better prepared, we have nothing to discuss.|BNAM:;Dagoth Ur; not all tools;
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Until I see you better prepared, we have nothing to discuss.|BNAM:;Dagoth Ur; not all tools;  Set MrTSVoiceID to 53  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=19991221522926427904(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:What are your questions?|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 16;    Choice "What is your plan for the Heart?" 18 "What is your plan for the Sixth House?" 19 "What is your plan for the Dunmer?" 20 "How do you justify your crimes?" 21 "What happened to the Dwemer?" 22 "Why are you building Akulakhan?" 23 "I'm finished talking, Defend yourself." 17
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:What are your questions?|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 16;    Choice "What is your plan for the Heart?" 18 "What is your plan for the Sixth House?" 19 "What is your plan for the Dunmer?" 20 "How do you justify your crimes?" 21 "What happened to the Dwemer?" 22 "Why are you building Akulakhan?" 23 "I'm finished talking, Defend yourself." 17  Set MrTSVoiceID to 58  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=20453221411984831239(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:The Sixth House will serve as the elite cadre of our movement. As cultists evolve through various stages of enlightenment, they will become, as suits their abilities, either holy warriors or priests. Their duty is to prepare themselves for service; their joy and liberation is to enter ever-more-deeply into the profound enlightenment of the divine dreamworld.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 19  Choice "Continue" 16
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:The Sixth House will serve as the elite cadre of our movement. As cultists evolve through various stages of enlightenment, they will become, as suits their abilities, either holy warriors or priests. Their duty is to prepare themselves for service; their joy and liberation is to enter ever-more-deeply into the profound enlightenment of the divine dreamworld.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 19  Choice "Continue" 16  Set MrTSVoiceID to 47  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=22112111712176419568(Greeting:greeting 1)
+  tribunal.esm--->|DATA|ONAM:dagoth_ur_1|NAME:It began here. It will end here. Have you any parting words? Or would you prefer to skip the speeches, and get to our business. You are the challenger here, after all. So to you goes the courtesy of the first blow.|SCVR:05IX3wraithguard|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|SCVR:31630|INTV:|BNAM:;Dagoth Ur; has tools
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:It began here. It will end here. Have you any parting words? Or would you prefer to skip the speeches, and get to our business. You are the challenger here, after all. So to you goes the courtesy of the first blow.|SCVR:05IX3wraithguard|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|SCVR:31630|INTV:|BNAM:;Dagoth Ur; has tools  Set MrTSVoiceID to 26  StartScript DagothUrSpeak
+
+[MOD-INF]: ID=28643110711167622166(Topic:final questions)
+  morrowind.esm-->|DATA|ONAM:dagoth_ur_1|NAME:Then I salute you for your faithful service to your lord. And I curse you and your Emperors as my enemies, for your stealing and spoiling Morrowind and degrading the Dunmer race. Your death and humiliation will give me special pleasure.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 5;   Choice "Continue" 2
+  DN-GDRv1.2.esp->|DATA|ONAM:dagoth_ur_1|NAME:Then I salute you for your faithful service to your lord. And I curse you and your Emperors as my enemies, for your stealing and spoiling Morrowind and degrading the Dunmer race. Your death and humiliation will give me special pleasure.|SCVR:01500|INTV|BNAM:;Dagoth Ur: CHOICE 5;   Choice "Continue" 2  Set MrTSVoiceID to 48  StartScript DagothUrSpeak

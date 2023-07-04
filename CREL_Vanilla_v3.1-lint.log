@@ -1,0 +1,46 @@
+CREL_Vanilla_v3.1.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CREL_Comp_Bars)
+	SCPT(CREL_Comp_Heal)
+	SCPT(CREL_Comp_Level)
+	SCPT(CREL_Comp_MageSpells)
+	SCPT(CREL_Comp_PetSpawn)
+	SCPT(CREL_Comp_Special)
+	SCPT(CREL_Comp_Status)
+	SCPT(CharGen)
+	SCPT(CharGenDoorEnterCaptain)
+	SCPT(CharGenDoorExit)
+	SCPT(CharGenDoorExitCaptain)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    chargen door guard
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hello
+
+[MOD-INF]: ID=28358841968027303(Topic:duties)
+  morrowind.esm--------->|DATA|ONAM:chargen captain|NAME:You know your duties. Take that package to Caius Cosades in Balmora.|SCVR:04JX4A1_1_FindSpymaster|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV|BNAM:;journal gets set to 12 when you give spymaster package. Captian is in legion so he should mention other stuff after this ;that is part of legion.
+  CREL_Vanilla_v3.1.esp->|DATA|ONAM:chargen captain|NAME:You know your duties. Take that package on the table to Caius Cosades in Balmora.|SCVR:14JX4A1_1_FindSpymaster|INTV|SCVR:24JX3A1_1_FindSpymaster|INTV|BNAM:;journal gets set to 12 when you give spymaster package. Captian is in legion so he should mention other stuff after this ;that is part of legion.
+
+[MOD-INF]: ID=31191105114705102(Greeting:greeting 5)
+  morrowind.esm--------->|DATA|ONAM:fargoth|NAME:Are you the one that boat dropped off? Odd to see a boat arrive at that time of the day. Hope the Imperials treated you okay. I swear they took my ring.|SCVR:04JX0MS_FargothRing|INTV:
+  CREL_Vanilla_v3.1.esp->|DATA|ONAM:fargoth|NAME:Oh, hello, I didn't see you there.. Say, would you happened to have found a ring by any chance? The guards are always harassing me, and I swear they took my ring.|SCVR:04JX0MS_FargothRing|INTV:
+
+[MOD-INF]: ID=129361129595524164(Voice:hello)
+  morrowind.esm--------->|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11393|INTV|BNAM:;PC Expelled>=-2
+  CREL_Vanilla_v3.1.esp->|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11390|INTV|BNAM:;PC Expelled=1
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[MOD-INF]: ID=621226933340724157(Voice:hello)
+  morrowind.esm--------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF083.mp3|NAME:You dare betray the clan?|SCVR:01460|INTV|SCVR:11393|INTV|BNAM:;SameFaction;ExpFaction>=-2
+  CREL_Vanilla_v3.1.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF083.mp3|NAME:You dare betray the clan?|SCVR:01460|INTV|SCVR:11390|INTV|BNAM:;SameFaction;ExpFaction=1
+
+[MOD-INF]: ID=1729913769476329813(Topic:duties)
+  morrowind.esm--------->|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX0A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+  CREL_Vanilla_v3.1.esp->|DATA|ONAM:chargen captain|NAME:That package on the table came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX0A1_1_FindSpymaster|INTV:|SCVR:14JX0A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  ;player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

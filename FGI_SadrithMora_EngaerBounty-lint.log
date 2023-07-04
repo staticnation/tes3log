@@ -1,0 +1,18 @@
+FGI_SadrithMora_EngaerBounty.esp: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    engaer
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       NPC_    engaer
+	tribunal.esm        DIAL    fg_engaerbounty
+
+[DUP-INF]: ID=63745851461018789(Topic:engaer)
+  |DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Good work, %PCName. Here's the 1000 septims for this bounty.|SCVR:34JX3FG_EngaerBounty|INTV: |SCVR:56DX3engaer|INTV|BNAM:Journal FG_EngaerBounty 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=6254295691298930079(Topic:engaer)
+  morrowind.esm-------------------->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:You already killed Engaer? I'm impressed, %PCName. Here's the 1000 septims for the bounty.|SCVR:34JX0FG_EngaerBounty|INTV:|SCVR:56DX3engaer|INTV|BNAM:Journal FG_EngaerBounty 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 1000
+  FGI_SadrithMora_EngaerBounty.esp->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:You already killed Engaer? I'm impressed, %PCName. Here's the 1000 septims for the bounty.|SCVR:04JX0FG_Telasero|INTV:d|SCVR:34JX0FG_EngaerBounty|INTV:|SCVR:56DX3engaer|INTV|BNAM:Journal FG_EngaerBounty 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=31508145581416228727(Topic:engaer)
+  morrowind.esm-------------------->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Engaer is a Bosmer mercenary for Master Neloth. One of our clients wants him dead. Engaer is in Tel Naga, the tower here in Sadrith Mora. Try to avoid the other guards, and just kill Engaer. We don't need more trouble with House Telvanni. I'll give you half the bounty if you take care of this.|BNAM:Journal FG_EngaerBounty 10
+  FGI_SadrithMora_EngaerBounty.esp->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Engaer is a Bosmer mercenary for Master Neloth. One of our clients wants him dead. Engaer is hiding in Tel Naga, the tower here in Sadrith Mora. Try to avoid the other guards, and just kill Engaer. We don't need more trouble with House Telvanni. I'll give you half the bounty if you take care of this. Besides, I have something personal against Engaer. I would highly appreciate it if you help me settle my revenge against him.|SCVR:04JX0FG_Telasero|INTV:d|BNAM:Journal FG_EngaerBounty 10

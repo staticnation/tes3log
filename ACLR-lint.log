@@ -1,0 +1,772 @@
+ACLR.esp: AUTOSPL DUP-INF DUP-REC FOGBUG MENUMOD MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	light                          Light
+    [NUMRECS]: number of records in TES3.HEDR (1311) != Actual count (1310)
+    [FOGBUG]: Cells with zero fog density setting:
+	Vivec, Alusaron: Smith
+	Vivec, Jeanne: Trader
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ColonyHidar)
+	SCPT(devourer)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    mandran indrano
+	morrowind.esm       NPC_    nilvyn drothan
+	morrowind.esm       NPC_    ra'virr
+	morrowind.esm       NPC_    sovisa adas
+	morrowind.esm       WEAP    dreugh staff
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ARMO    bm bear boots
+	bloodmoon.esm       ARMO    bm bear cuirass
+	bloodmoon.esm       ARMO    bm bear greaves
+	bloodmoon.esm       ARMO    bm bear helmet
+	bloodmoon.esm       ARMO    bm bear helmet eddard
+	bloodmoon.esm       ARMO    bm bear helmet_ber
+	bloodmoon.esm       ARMO    bm bear left gauntlet
+	bloodmoon.esm       ARMO    bm bear left pauldron
+	bloodmoon.esm       ARMO    bm bear right gauntlet
+	bloodmoon.esm       ARMO    bm bear right pauldron
+	bloodmoon.esm       ARMO    bm bear shield
+	bloodmoon.esm       ARMO    bm wolf boots
+	bloodmoon.esm       ARMO    bm wolf cuirass
+	bloodmoon.esm       ARMO    bm wolf greaves
+	bloodmoon.esm       ARMO    bm wolf helmet
+	bloodmoon.esm       ARMO    bm wolf left gauntlet
+	bloodmoon.esm       ARMO    bm wolf left pauldron
+	bloodmoon.esm       ARMO    bm wolf right gauntlet
+	bloodmoon.esm       ARMO    bm wolf right pauldron
+	bloodmoon.esm       ARMO    bm wolf shield
+	bloodmoon.esm       ARMO    bm_bear_boots_snow
+	bloodmoon.esm       ARMO    bm_bear_cuirass_snow
+	bloodmoon.esm       ARMO    bm_bear_greaves_snow
+	bloodmoon.esm       ARMO    bm_bear_helmet_snow
+	bloodmoon.esm       ARMO    bm_bear_left_gauntlet_snow
+	bloodmoon.esm       ARMO    bm_bear_left_pauldron_snow
+	bloodmoon.esm       ARMO    bm_bear_right_gauntlet_snow
+	bloodmoon.esm       ARMO    bm_ice_boots
+	bloodmoon.esm       ARMO    bm_ice_cuirass
+	bloodmoon.esm       ARMO    bm_ice_gauntletl
+	bloodmoon.esm       ARMO    bm_ice_gauntletr
+	bloodmoon.esm       ARMO    bm_ice_greaves
+	bloodmoon.esm       ARMO    bm_ice_helmet
+	bloodmoon.esm       ARMO    bm_ice_pauldronl
+	bloodmoon.esm       ARMO    bm_ice_pauldronr
+	bloodmoon.esm       ARMO    bm_ice_shield
+	bloodmoon.esm       ARMO    bm_nordicmail_gauntletl
+	bloodmoon.esm       ARMO    bm_nordicmail_gauntletr
+	bloodmoon.esm       ARMO    bm_nordicmail_pauldronl
+	bloodmoon.esm       ARMO    bm_nordicmail_pauldronr
+	bloodmoon.esm       ARMO    bm_wolf_boots_snow
+	bloodmoon.esm       ARMO    bm_wolf_helmet_snow
+	bloodmoon.esm       ARMO    bm_wolf_left_gauntlet_snow
+	bloodmoon.esm       ARMO    bm_wolf_left_pauldron_snow
+	bloodmoon.esm       ARMO    bm_wolf_right_gauntlet_snow
+	bloodmoon.esm       ARMO    bm_wolf_right_pauldron_snow
+	bloodmoon.esm       ARMO    steel_boots_ancient
+	bloodmoon.esm       ARMO    steel_cuirass_ancient
+	bloodmoon.esm       ARMO    steel_gauntlet_left_ancient
+	bloodmoon.esm       ARMO    steel_gauntlet_right_ancient
+	bloodmoon.esm       ARMO    steel_greaves_ancient
+	bloodmoon.esm       ARMO    steel_helm_ancient
+	bloodmoon.esm       ARMO    steel_pauldron_left_ancient
+	bloodmoon.esm       ARMO    steel_pauldron_right_ancient
+	bloodmoon.esm       ARMO    steel_towershield_ancient
+	bloodmoon.esm       ARMO    wolfwalkers
+	bloodmoon.esm       BOOK    bk_bm_aevar
+	bloodmoon.esm       BOOK    sc_paper plain
+	bloodmoon.esm       CONT    com_chest_bm_armor_02
+	bloodmoon.esm       CONT    contain_bm_hollowstump
+	bloodmoon.esm       CREA    bm_udyrfrykte
+	bloodmoon.esm       CREA    draugr_aesliip
+	bloodmoon.esm       DIAL    stalhrim weapons
+	bloodmoon.esm       ENCH    severedleg_en
+	bloodmoon.esm       ENCH    snowprince_en
+	bloodmoon.esm       LEVC    bm_frysehag_all
+	bloodmoon.esm       LEVI    bm_random_enchanted
+	bloodmoon.esm       LEVI    bm_random_nordhuntweap
+	bloodmoon.esm       LEVI    bm_random_nordsilver
+	bloodmoon.esm       LEVI    bm_random_reaver_helm
+	bloodmoon.esm       LEVI    bm_randomboots_smugglers
+	bloodmoon.esm       LEVI    bm_randomcuirass_smugglers
+	bloodmoon.esm       LEVI    bm_randomgreaves_smugglers
+	bloodmoon.esm       LEVI    bm_randomhelmet_smugglers
+	bloodmoon.esm       LEVI    bm_randomleft_smugglers
+	bloodmoon.esm       LEVI    bm_randomright_smugglers
+	bloodmoon.esm       LEVI    bm_randomshield_smugglers
+	bloodmoon.esm       LEVI    bm_randomweapon_berserker
+	bloodmoon.esm       LEVI    bm_randomwpn_smugglers
+	bloodmoon.esm       LIGH    light_com_lantern_bm_unique
+	bloodmoon.esm       NPC_    aenar
+	bloodmoon.esm       NPC_    alvring whitebeard
+	bloodmoon.esm       NPC_    apronia alfena
+	bloodmoon.esm       NPC_    bm_berserker_f1
+	bloodmoon.esm       NPC_    bm_berserker_f1_lvl5
+	bloodmoon.esm       NPC_    bm_berserker_f2
+	bloodmoon.esm       NPC_    bm_berserker_f4
+	bloodmoon.esm       NPC_    bm_berserker_m1_lvl5
+	bloodmoon.esm       NPC_    bm_berserker_m3
+	bloodmoon.esm       NPC_    bm_ice_witch_nord
+	bloodmoon.esm       NPC_    bm_imperial guard
+	bloodmoon.esm       NPC_    bm_reaver_archer_10
+	bloodmoon.esm       NPC_    bm_reaver_archer_30
+	bloodmoon.esm       NPC_    bm_reaver_archer_50
+	bloodmoon.esm       NPC_    bm_werewolf_wild01
+	bloodmoon.esm       NPC_    bm_werewolf_wild02
+	bloodmoon.esm       NPC_    bm_werewolf_wild03
+	bloodmoon.esm       NPC_    bm_werewolf_wild04
+	bloodmoon.esm       NPC_    bm_werewolf_wild05
+	bloodmoon.esm       NPC_    bm_werewolf_wild06
+	bloodmoon.esm       NPC_    bm_werewolf_wild07
+	bloodmoon.esm       NPC_    bm_werewolf_wild08
+	bloodmoon.esm       NPC_    bm_werewolf_wild09
+	bloodmoon.esm       NPC_    bm_werewolf_wildernessc
+	bloodmoon.esm       NPC_    bm_wind_witch_nord
+	bloodmoon.esm       NPC_    carnius magius
+	bloodmoon.esm       NPC_    cingor
+	bloodmoon.esm       NPC_    engar ice-mane
+	bloodmoon.esm       NPC_    gamin girith
+	bloodmoon.esm       NPC_    gidar verothan
+	bloodmoon.esm       NPC_    graring
+	bloodmoon.esm       NPC_    grerid axe-wife
+	bloodmoon.esm       NPC_    gualtierus spurius
+	bloodmoon.esm       NPC_    hagrad the stone
+	bloodmoon.esm       NPC_    hallvaror
+	bloodmoon.esm       NPC_    hidar
+	bloodmoon.esm       NPC_    horski tallowhand
+	bloodmoon.esm       NPC_    kili the long
+	bloodmoon.esm       NPC_    mazorn gro-gar
+	bloodmoon.esm       NPC_    mol gro-shat
+	bloodmoon.esm       NPC_    mus roscius
+	bloodmoon.esm       NPC_    rigmor halfhand
+	bloodmoon.esm       NPC_    risi ice-mane
+	bloodmoon.esm       NPC_    rolf long-tooth
+	bloodmoon.esm       NPC_    sabinus oranius
+	bloodmoon.esm       NPC_    sattir the bold
+	bloodmoon.esm       NPC_    skaal_guard
+	bloodmoon.esm       NPC_    skaal_guard2
+	bloodmoon.esm       NPC_    skaal_guard_a1
+	bloodmoon.esm       NPC_    skaal_guard_a2
+	bloodmoon.esm       NPC_    skaal_guard_a3
+	bloodmoon.esm       NPC_    skaal_guard_a4
+	bloodmoon.esm       NPC_    sorian
+	bloodmoon.esm       NPC_    svenja snow-song
+	bloodmoon.esm       NPC_    tharsten heart-fang2
+	bloodmoon.esm       NPC_    zeno faustus
+	bloodmoon.esm       WEAP    bm nord leg
+	bloodmoon.esm       WEAP    silver shardskewer
+	bloodmoon.esm       WEAP    silver throwing star
+	bloodmoon.esm       WEAP    steel spear snow prince
+	morrowind.esm       ARMO    bonemold_founders_helm
+	morrowind.esm       ARMO    boots of blinding speed[unique]
+	morrowind.esm       ARMO    boots_apostle_unique
+	morrowind.esm       ARMO    bound_helm
+	morrowind.esm       ARMO    chitin helm
+	morrowind.esm       ARMO    chitin_mask_helm
+	morrowind.esm       ARMO    chitin_watchman_helm
+	morrowind.esm       ARMO    dragonbone_cuirass_unique
+	morrowind.esm       ARMO    dragonscale_cuirass
+	morrowind.esm       ARMO    dreugh_cuirass
+	morrowind.esm       ARMO    dreugh_cuirass_ttrm
+	morrowind.esm       ARMO    ebon_plate_cuirass_unique
+	morrowind.esm       ARMO    ebony_shield_auriel
+	morrowind.esm       ARMO    feather_shield
+	morrowind.esm       ARMO    fur_bearskin_cuirass
+	morrowind.esm       ARMO    gauntlet_fists_l_unique
+	morrowind.esm       ARMO    gauntlet_fists_r_unique
+	morrowind.esm       ARMO    heavy_leather_boots
+	morrowind.esm       ARMO    holy_shield
+	morrowind.esm       ARMO    holy_tower_shield
+	morrowind.esm       ARMO    indoril boots
+	morrowind.esm       ARMO    indoril cuirass
+	morrowind.esm       ARMO    indoril left gauntlet
+	morrowind.esm       ARMO    indoril pauldron left
+	morrowind.esm       ARMO    indoril pauldron right
+	morrowind.esm       ARMO    indoril right gauntlet
+	morrowind.esm       ARMO    indoril shield
+	morrowind.esm       ARMO    newtscale_cuirass
+	morrowind.esm       ARMO    shadow_shield
+	morrowind.esm       ARMO    shield_of_light
+	morrowind.esm       ARMO    silver_cuirass
+	morrowind.esm       BODY    a_dreugh_cuirass
+	morrowind.esm       BOOK    bk_boethiahpillowbook
+	morrowind.esm       BOOK    note to hrisskar
+	morrowind.esm       BOOK    sc_summondaedroth_hto
+	morrowind.esm       BOOK    text_paper_roll_01
+	morrowind.esm       CLOT    common_glove_l_balmolagmer
+	morrowind.esm       CLOT    common_glove_r_balmolagmer
+	morrowind.esm       CLOT    maras_skirt
+	morrowind.esm       CLOT    zenithar_frock
+	morrowind.esm       CONT    barrel_01_manicky
+	morrowind.esm       CONT    chest_andrano01
+	morrowind.esm       CONT    chest_small_llethri
+	morrowind.esm       CONT    com_chest_02_v_armor02
+	morrowind.esm       CONT    com_chest_02_v_armor10
+	morrowind.esm       CONT    com_chest_02_v_clanler
+	morrowind.esm       CONT    com_chest_02_v_shadbak
+	morrowind.esm       CONT    com_chest_02_vault_hlaa
+	morrowind.esm       CONT    com_chest_02_vault_tel
+	morrowind.esm       CONT    crate_01_dandera
+	morrowind.esm       CONT    crate_01_de_weaponsmult
+	morrowind.esm       CONT    crate_01_sirollus_01
+	morrowind.esm       CONT    crate_02_lagius
+	morrowind.esm       CONT    de_drawers_02_mcommonde
+	morrowind.esm       CONT    de_p_chest_02_aryne
+	morrowind.esm       CONT    de_p_chest_02_meldor
+	morrowind.esm       CONT    de_p_chest_arms
+	morrowind.esm       CONT    de_p_desk_01_ajira
+	morrowind.esm       CONT    de_r_chest_01_maulinie
+	morrowind.esm       CONT    dwrv_barrel00
+	morrowind.esm       CONT    dwrv_barrel10
+	morrowind.esm       CONT    dwrv_cabinet10
+	morrowind.esm       CONT    dwrv_chest00
+	morrowind.esm       CONT    dwrv_chest00_common
+	morrowind.esm       CONT    dwrv_chest00_kjeld
+	morrowind.esm       CONT    dwrv_chest10
+	morrowind.esm       CONT    dwrv_chest10_rare
+	morrowind.esm       CONT    dwrv_chest_fals
+	morrowind.esm       CONT    dwrv_chest_small
+	morrowind.esm       CONT    dwrv_desk00
+	morrowind.esm       CONT    dwrv_drawers00
+	morrowind.esm       CONT    dwrv_table00
+	morrowind.esm       CONT    test_crate_all_weapons
+	morrowind.esm       CREA    clannfear
+	morrowind.esm       CREA    daedroth
+	morrowind.esm       CREA    dagoth malan
+	morrowind.esm       CREA    dremora
+	morrowind.esm       CREA    dremora_gothren_guard1
+	morrowind.esm       CREA    dremora_gothren_guard2
+	morrowind.esm       CREA    dremora_lord
+	morrowind.esm       CREA    dremora_ttmg
+	morrowind.esm       CREA    dreugh_koal
+	morrowind.esm       CREA    hunger
+	morrowind.esm       CREA    ogrim
+	morrowind.esm       CREA    ogrim titan
+	morrowind.esm       CREA    scamp
+	morrowind.esm       CREA    skeleton
+	morrowind.esm       CREA    skeleton archer
+	morrowind.esm       CREA    skeleton champion
+	morrowind.esm       CREA    skeleton entrance
+	morrowind.esm       CREA    skeleton warrior
+	morrowind.esm       CREA    skeleton_aldredaynia
+	morrowind.esm       CREA    skeleton_vemynal
+	morrowind.esm       ENCH    aura of khajiit
+	morrowind.esm       ENCH    azura's servant_en
+	morrowind.esm       ENCH    blood feast_en
+	morrowind.esm       ENCH    caius' chameleon
+	morrowind.esm       ENCH    caius' sloppy luck
+	morrowind.esm       ENCH    caius' subtlety
+	morrowind.esm       ENCH    cephalopod_htnk_en
+	morrowind.esm       ENCH    cruel viper_en
+	morrowind.esm       ENCH    daedric bite_en
+	morrowind.esm       ENCH    dagger_mtas
+	morrowind.esm       ENCH    dart_of_judgement_en
+	morrowind.esm       ENCH    fleshmadewhole_uniq
+	morrowind.esm       ENCH    foe-grinder_en
+	morrowind.esm       ENCH    foe-quern_en
+	morrowind.esm       ENCH    goldbrand
+	morrowind.esm       ENCH    hasedoki's hand
+	morrowind.esm       ENCH    light_en
+	morrowind.esm       ENCH    light_ens
+	morrowind.esm       ENCH    lord's praise
+	morrowind.esm       ENCH    mace of molag bal_en
+	morrowind.esm       ENCH    madstone_en
+	morrowind.esm       ENCH    nuccius_curse_en
+	morrowind.esm       ENCH    racerbeak_en
+	morrowind.esm       ENCH    saint's black sword_en
+	morrowind.esm       ENCH    stfelms_en
+	morrowind.esm       ENCH    stllothis_en
+	morrowind.esm       ENCH    vivec's kiss_en
+	morrowind.esm       ENCH    warlock's sphere
+	morrowind.esm       ENCH    wind whisper
+	morrowind.esm       ENCH    wrath of magnus
+	morrowind.esm       LEVI    l_m_armor_gauntlet
+	morrowind.esm       LEVI    l_m_armor_shields
+	morrowind.esm       LEVI    l_m_enchantitem_hlaalu_rank4
+	morrowind.esm       LEVI    l_m_enchantitem_telvanni_rank6
+	morrowind.esm       LEVI    l_m_enchantitem_telvanni_rank8
+	morrowind.esm       LEVI    l_m_enchantitem_temple_rank0_1
+	morrowind.esm       LEVI    l_m_enchantitem_temple_rank6
+	morrowind.esm       LEVI    l_m_enchantitem_temple_rank8_1
+	morrowind.esm       LEVI    l_m_enchantitem_temple_rank8_2
+	morrowind.esm       LEVI    l_n_armor_gauntlet
+	morrowind.esm       LEVI    l_n_wpn_melee_spear
+	morrowind.esm       LEVI    l_n_wpn_missle
+	morrowind.esm       LEVI    l_n_wpn_missle_arrow
+	morrowind.esm       LEVI    l_n_wpn_missle_bolt
+	morrowind.esm       LEVI    l_n_wpn_missle_xbow
+	morrowind.esm       LEVI    random ebony weapon
+	morrowind.esm       LEVI    random excellent melee weapon
+	morrowind.esm       LEVI    random_daedric_weapon
+	morrowind.esm       LEVI    random_de_pos_01
+	morrowind.esm       LEVI    random_de_pos_01_nc
+	morrowind.esm       LEVI    random_dwemer_weapon
+	morrowind.esm       LEVI    random_golden_saint_shield
+	morrowind.esm       LEVI    random_golden_saint_weapon
+	morrowind.esm       LEVI    random_ingredient
+	morrowind.esm       LEVI    random_ingredient_diff
+	morrowind.esm       LEVI    random_loot_special
+	morrowind.esm       LEVI    random_loot_special_marksman
+	morrowind.esm       LEVI    random_pos
+	morrowind.esm       LEVI    random_scroll_all
+	morrowind.esm       LEVI    random_weapon_melee_basic
+	morrowind.esm       MISC    misc_dwrv_coin00
+	morrowind.esm       MISC    misc_dwrv_cursed_coin00
+	morrowind.esm       NPC_    abelle chriditte
+	morrowind.esm       NPC_    aebondeius jucanis
+	morrowind.esm       NPC_    aengoth
+	morrowind.esm       NPC_    aglaril
+	morrowind.esm       NPC_    agronian guy
+	morrowind.esm       NPC_    aleri duro
+	morrowind.esm       NPC_    alfhedil elf-hewer
+	morrowind.esm       NPC_    alusaron
+	morrowind.esm       NPC_    anes vendu
+	morrowind.esm       NPC_    angahran
+	morrowind.esm       NPC_    ano dran
+	morrowind.esm       NPC_    anora
+	morrowind.esm       NPC_    ardarume
+	morrowind.esm       NPC_    arethan mandas
+	morrowind.esm       NPC_    arielle phiencel
+	morrowind.esm       NPC_    aroa nethalen
+	morrowind.esm       NPC_    arver rethul
+	morrowind.esm       NPC_    aryon
+	morrowind.esm       NPC_    baladas demnevanni
+	morrowind.esm       NPC_    balyn omavel
+	morrowind.esm       NPC_    balyn omavel-dead
+	morrowind.esm       NPC_    banden indarys
+	morrowind.esm       NPC_    berel sala
+	morrowind.esm       NPC_    bervaso thenim
+	morrowind.esm       NPC_    birer indaram
+	morrowind.esm       NPC_    bolvyn venim
+	morrowind.esm       NPC_    buoyant armiger_wander
+	morrowind.esm       NPC_    caius cosades
+	morrowind.esm       NPC_    camandil
+	morrowind.esm       NPC_    carecalmo
+	morrowind.esm       NPC_    chargen boat guard 1
+	morrowind.esm       NPC_    chargen boat guard 2
+	morrowind.esm       NPC_    chargen boat guard 3
+	morrowind.esm       NPC_    chargen class
+	morrowind.esm       NPC_    chargen door guard
+	morrowind.esm       NPC_    chargen name
+	morrowind.esm       NPC_    chulz
+	morrowind.esm       NPC_    cinia urtius
+	morrowind.esm       NPC_    clecentor aerius
+	morrowind.esm       NPC_    clilias pullia
+	morrowind.esm       NPC_    crazy_batou
+	morrowind.esm       NPC_    dandera selaro
+	morrowind.esm       NPC_    danso indules
+	morrowind.esm       NPC_    daris adram
+	morrowind.esm       NPC_    darvasa vedas
+	morrowind.esm       NPC_    daynila valas
+	morrowind.esm       NPC_    dead random female
+	morrowind.esm       NPC_    dead random male
+	morrowind.esm       NPC_    dead warlock
+	morrowind.esm       NPC_    dead we male_01
+	morrowind.esm       NPC_    dinere hlen
+	morrowind.esm       NPC_    diren vendu
+	morrowind.esm       NPC_    divayth fyr
+	morrowind.esm       NPC_    dratha
+	morrowind.esm       NPC_    dreamer
+	morrowind.esm       NPC_    dreamer_02
+	morrowind.esm       NPC_    dreamer_f_01
+	morrowind.esm       NPC_    drelyne llenim
+	morrowind.esm       NPC_    dreyns nelas
+	morrowind.esm       NPC_    duke's guard
+	morrowind.esm       NPC_    duke's guard_tomb
+	morrowind.esm       NPC_    duke's guard_tomb2
+	morrowind.esm       NPC_    dumbuk gro-bolak
+	morrowind.esm       NPC_    durus marius
+	morrowind.esm       NPC_    earmil
+	morrowind.esm       NPC_    elvil vidron
+	morrowind.esm       NPC_    enar dralor
+	morrowind.esm       NPC_    endar drenim
+	morrowind.esm       NPC_    endring
+	morrowind.esm       NPC_    endroni dalas
+	morrowind.esm       NPC_    engaer
+	morrowind.esm       NPC_    eno hlaalu
+	morrowind.esm       NPC_    erer darothril
+	morrowind.esm       NPC_    eris telas
+	morrowind.esm       NPC_    ernand thierry
+	morrowind.esm       NPC_    ervesa romandas
+	morrowind.esm       NPC_    estalenya
+	morrowind.esm       NPC_    estinan
+	morrowind.esm       NPC_    faric panoit
+	morrowind.esm       NPC_    felisa ulessen
+	morrowind.esm       NPC_    felmena falavel
+	morrowind.esm       NPC_    fenas madach
+	morrowind.esm       NPC_    feril salmyn
+	morrowind.esm       NPC_    ferone veran
+	morrowind.esm       NPC_    fevasa saryon
+	morrowind.esm       NPC_    fiiriel
+	morrowind.esm       NPC_    fjol
+	morrowind.esm       NPC_    flaenia amiulusus
+	morrowind.esm       NPC_    fothyna herothran
+	morrowind.esm       NPC_    frink ruuz
+	morrowind.esm       NPC_    frinnius posuceius
+	morrowind.esm       NPC_    furius acilius
+	morrowind.esm       NPC_    gadasu serothan
+	morrowind.esm       NPC_    gah_julan
+	morrowind.esm       NPC_    galas drenim
+	morrowind.esm       NPC_    galdal omayn
+	morrowind.esm       NPC_    galdiir
+	morrowind.esm       NPC_    galos farethi
+	morrowind.esm       NPC_    garalo andalas
+	morrowind.esm       NPC_    garisa llethri
+	morrowind.esm       NPC_    gathal llethri
+	morrowind.esm       NPC_    general darius
+	morrowind.esm       NPC_    gerrilgor
+	morrowind.esm       NPC_    ghost_npc_conoon chodal
+	morrowind.esm       NPC_    gilas inlador
+	morrowind.esm       NPC_    giras indaram
+	morrowind.esm       NPC_    gordol
+	morrowind.esm       NPC_    gothren
+	morrowind.esm       NPC_    grand inquisitor
+	morrowind.esm       NPC_    gurak gro-bagrat
+	morrowind.esm       NPC_    haakon
+	morrowind.esm       NPC_    habasi
+	morrowind.esm       NPC_    haening
+	morrowind.esm       NPC_    hasphat antabolis
+	morrowind.esm       NPC_    hlaalu guard
+	morrowind.esm       NPC_    hlaalu guard_outside
+	morrowind.esm       NPC_    hlaalu sharpshooter
+	morrowind.esm       NPC_    hlendrisa seleth
+	morrowind.esm       NPC_    hlormar wine-sot
+	morrowind.esm       NPC_    honthjolf
+	morrowind.esm       NPC_    hrargal the crow
+	morrowind.esm       NPC_    hrordis
+	morrowind.esm       NPC_    ienaso adren
+	morrowind.esm       NPC_    ilfhild
+	morrowind.esm       NPC_    im_kilaya
+	morrowind.esm       NPC_    imare
+	morrowind.esm       NPC_    imperial archer
+	morrowind.esm       NPC_    imperial guard
+	morrowind.esm       NPC_    imperial guard captain
+	morrowind.esm       NPC_    imperial guard_ebonhear
+	morrowind.esm       NPC_    imperial guard_prisoner
+	morrowind.esm       NPC_    imperial templar_ebon
+	morrowind.esm       NPC_    ingokning
+	morrowind.esm       NPC_    ingwold
+	morrowind.esm       NPC_    irer nervion
+	morrowind.esm       NPC_    irvama othrelas
+	morrowind.esm       NPC_    irwaen
+	morrowind.esm       NPC_    iveri llothri
+	morrowind.esm       NPC_    ken
+	morrowind.esm       NPC_    kharzug gra-gat
+	morrowind.esm       NPC_    kjeld
+	morrowind.esm       NPC_    llandris thirandus
+	morrowind.esm       NPC_    llaro llethri
+	morrowind.esm       NPC_    llevana salaren
+	morrowind.esm       NPC_    llevena sendas
+	morrowind.esm       NPC_    llondryn hlaalo
+	morrowind.esm       NPC_    lugrub gro-ogdum
+	morrowind.esm       NPC_    mals faralen
+	morrowind.esm       NPC_    manos othreleth
+	morrowind.esm       NPC_    maren uvaren
+	morrowind.esm       NPC_    masque
+	morrowind.esm       NPC_    mavus ules
+	morrowind.esm       NPC_    mendel eves
+	morrowind.esm       NPC_    merta
+	morrowind.esm       NPC_    mertis falandas
+	morrowind.esm       NPC_    missun akin
+	morrowind.esm       NPC_    miun_gei
+	morrowind.esm       NPC_    mollimo of cloudrest
+	morrowind.esm       NPC_    molvirian palenix
+	morrowind.esm       NPC_    monsey
+	morrowind.esm       NPC_    moranarg
+	morrowind.esm       NPC_    morn gra-khatub
+	morrowind.esm       NPC_    mororurg
+	morrowind.esm       NPC_    movis darys
+	morrowind.esm       NPC_    murzol gro-ulfimph
+	morrowind.esm       NPC_    nalosi alari
+	morrowind.esm       NPC_    nash gro-khazor
+	morrowind.esm       NPC_    nelacar
+	morrowind.esm       NPC_    ninimilk addinibi
+	morrowind.esm       NPC_    noleon sele
+	morrowind.esm       NPC_    nush
+	morrowind.esm       NPC_    odron omoran
+	morrowind.esm       NPC_    ordinator stationary
+	morrowind.esm       NPC_    ordinator wander
+	morrowind.esm       NPC_    ordinator wander_ilpe_1
+	morrowind.esm       NPC_    ordinator wander_ilpe_2
+	morrowind.esm       NPC_    ordinator_high fane
+	morrowind.esm       NPC_    oritius maro
+	morrowind.esm       NPC_    orval llaren
+	morrowind.esm       NPC_    orvas dren druglord
+	morrowind.esm       NPC_    pemenie
+	morrowind.esm       NPC_    peregrina cnisia
+	morrowind.esm       NPC_    pustula baenius
+	morrowind.esm       NPC_    radd hard-heart
+	morrowind.esm       NPC_    radene hlaalu
+	morrowind.esm       NPC_    ragash gra-shuzgub
+	morrowind.esm       NPC_    ralyn othravel
+	morrowind.esm       NPC_    rangela
+	morrowind.esm       NPC_    rasha
+	morrowind.esm       NPC_    rayna drolan
+	morrowind.esm       NPC_    redoran guard female
+	morrowind.esm       NPC_    redoran guard male
+	morrowind.esm       NPC_    redoran guard shooter
+	morrowind.esm       NPC_    relen hlaalu
+	morrowind.esm       NPC_    rilas arethan
+	morrowind.esm       NPC_    rogdul gro-bularz
+	morrowind.esm       NPC_    roggvar blue-tooth
+	morrowind.esm       NPC_    ronerelie philulanie
+	morrowind.esm       NPC_    rufinus alleius
+	morrowind.esm       NPC_    salyn sarethi
+	morrowind.esm       NPC_    sanvyn llethri
+	morrowind.esm       NPC_    saras orelu
+	morrowind.esm       NPC_    sedam omalen
+	morrowind.esm       NPC_    selman relas
+	morrowind.esm       NPC_    selmen relas
+	morrowind.esm       NPC_    senilias cadiusus
+	morrowind.esm       NPC_    severa magia
+	morrowind.esm       NPC_    sevilo othan
+	morrowind.esm       NPC_    silasson
+	morrowind.esm       NPC_    siltalaure
+	morrowind.esm       NPC_    skinkintreesshade
+	morrowind.esm       NPC_    smokeskin_killer
+	morrowind.esm       NPC_    snowy granius
+	morrowind.esm       NPC_    sorcalin
+	morrowind.esm       NPC_    sorkvild the raven
+	morrowind.esm       NPC_    stacey
+	morrowind.esm       NPC_    suryn athones
+	morrowind.esm       NPC_    telvanni guard
+	morrowind.esm       NPC_    telvanni guard_stand
+	morrowind.esm       NPC_    telvanni sharpshooter
+	morrowind.esm       NPC_    tens nolar
+	morrowind.esm       NPC_    thalestris
+	morrowind.esm       NPC_    thanelen velas
+	morrowind.esm       NPC_    tharer rotheloth
+	morrowind.esm       NPC_    therana
+	morrowind.esm       NPC_    thief dead 01
+	morrowind.esm       NPC_    thoromlallor
+	morrowind.esm       NPC_    tidros indaram
+	morrowind.esm       NPC_    tiram gadar
+	morrowind.esm       NPC_    tirer belvayn
+	morrowind.esm       NPC_    todd_khajiit
+	morrowind.esm       NPC_    todwendy
+	morrowind.esm       NPC_    tonasi belas
+	morrowind.esm       NPC_    toranu rothalnim
+	morrowind.esm       NPC_    trebonius artorius
+	morrowind.esm       NPC_    treras dres
+	morrowind.esm       NPC_    tsiya
+	morrowind.esm       NPC_    tsrazami
+	morrowind.esm       NPC_    turedus talanian
+	morrowind.esm       NPC_    ughash gro-batul
+	morrowind.esm       NPC_    ulms drathen
+	morrowind.esm       NPC_    ulwaen
+	morrowind.esm       NPC_    ulyne henim
+	morrowind.esm       NPC_    uresa omoril
+	morrowind.esm       NPC_    ureval dralayn
+	morrowind.esm       NPC_    varnis stieve
+	morrowind.esm       NPC_    vatollia apo
+	morrowind.esm       NPC_    vedam dren
+	morrowind.esm       NPC_    velsa salaron
+	morrowind.esm       NPC_    vevul alver
+	morrowind.esm       NPC_    vinnus laecinnius
+	morrowind.esm       NPC_    viraninde
+	morrowind.esm       NPC_    virene mene
+	morrowind.esm       NPC_    vistha_kai
+	morrowind.esm       NPC_    volanaro
+	morrowind.esm       NPC_    voruse bethrimo
+	morrowind.esm       NPC_    warrior dead 01
+	morrowind.esm       NPC_    warrior dead 02
+	morrowind.esm       NPC_    warrior dead 03
+	morrowind.esm       NPC_    waylas
+	morrowind.esm       NPC_    wizard dead 01
+	morrowind.esm       NPC_    wulf
+	morrowind.esm       NPC_    ygfa
+	morrowind.esm       SPEL    light
+	morrowind.esm       WEAP    6th bell hammer
+	morrowind.esm       WEAP    axe_queen_of_bats_unique
+	morrowind.esm       WEAP    azura_star_unique
+	morrowind.esm       WEAP    chargen dagger
+	morrowind.esm       WEAP    chitin spear
+	morrowind.esm       WEAP    chitin throwing star
+	morrowind.esm       WEAP    claymore_agustas
+	morrowind.esm       WEAP    crosierstllothis
+	morrowind.esm       WEAP    cruel viper bolt
+	morrowind.esm       WEAP    daedric claymore
+	morrowind.esm       WEAP    daedric club
+	morrowind.esm       WEAP    daedric dagger_soultrap
+	morrowind.esm       WEAP    daedric dart
+	morrowind.esm       WEAP    daedric staff
+	morrowind.esm       WEAP    daedric wakizashi_hhst
+	morrowind.esm       WEAP    daedric_club_tgdc
+	morrowind.esm       WEAP    dart_uniq_judgement
+	morrowind.esm       WEAP    daunting mace
+	morrowind.esm       WEAP    dwarven halberd
+	morrowind.esm       WEAP    dwarven halberd_soultrap
+	morrowind.esm       WEAP    dwarven_hammer_volendrung
+	morrowind.esm       WEAP    ebony mace
+	morrowind.esm       WEAP    ebony spear_hrce_unique
+	morrowind.esm       WEAP    ebony staff
+	morrowind.esm       WEAP    ebony throwing star
+	morrowind.esm       WEAP    ebony wizard's staff
+	morrowind.esm       WEAP    ebony_bow_auriel
+	morrowind.esm       WEAP    erur_dan_spear_unique
+	morrowind.esm       WEAP    false_sunder
+	morrowind.esm       WEAP    foeburner
+	morrowind.esm       WEAP    glass staff
+	morrowind.esm       WEAP    glass throwing star
+	morrowind.esm       WEAP    glass_dagger_enamor
+	morrowind.esm       WEAP    greed
+	morrowind.esm       WEAP    iron fork
+	morrowind.esm       WEAP    iron long spear
+	morrowind.esm       WEAP    iron shardmauler
+	morrowind.esm       WEAP    katana_goldbrand_unique
+	morrowind.esm       WEAP    long bow
+	morrowind.esm       WEAP    saint's black sword
+	morrowind.esm       WEAP    staff of the forefathers
+	morrowind.esm       WEAP    steel axe
+	morrowind.esm       WEAP    steel club
+	morrowind.esm       WEAP    steel stormsword
+	morrowind.esm       WEAP    steel throwing star
+	morrowind.esm       WEAP    sunder_fake
+	morrowind.esm       WEAP    throwing knife of sureflight
+	morrowind.esm       WEAP    we_illkurok
+	morrowind.esm       WEAP    we_stormforge
+	morrowind.esm       WEAP    wooden staff
+	tribunal.esm        ARMO    adamantium boots
+	tribunal.esm        ARMO    adamantium_bracer_left
+	tribunal.esm        ARMO    adamantium_bracer_right
+	tribunal.esm        ARMO    adamantium_cuirass
+	tribunal.esm        ARMO    adamantium_greaves
+	tribunal.esm        ARMO    adamantium_pauldron_left
+	tribunal.esm        ARMO    adamantium_pauldron_right
+	tribunal.esm        ARMO    boots of blinding speed_x
+	tribunal.esm        ARMO    darkbrotherhood boots
+	tribunal.esm        ARMO    darkbrotherhood cuirass
+	tribunal.esm        ARMO    darkbrotherhood gauntlet_l
+	tribunal.esm        ARMO    darkbrotherhood gauntlet_r
+	tribunal.esm        ARMO    darkbrotherhood greaves
+	tribunal.esm        ARMO    darkbrotherhood helm
+	tribunal.esm        ARMO    darkbrotherhood pauldron_l
+	tribunal.esm        ARMO    darkbrotherhood pauldron_r
+	tribunal.esm        ARMO    ebony_shield_auriel_x
+	tribunal.esm        ARMO    goblin_shield_durgok_uni
+	tribunal.esm        ARMO    helsethguard_boots
+	tribunal.esm        ARMO    helsethguard_cuirass
+	tribunal.esm        ARMO    helsethguard_gauntlet_left
+	tribunal.esm        ARMO    helsethguard_gauntlet_right
+	tribunal.esm        ARMO    helsethguard_greaves
+	tribunal.esm        ARMO    helsethguard_helmet
+	tribunal.esm        ARMO    helsethguard_pauldron_left
+	tribunal.esm        ARMO    helsethguard_pauldron_right
+	tribunal.esm        ARMO    imperial_chain_pauldron_left
+	tribunal.esm        ARMO    imperial_chain_pauldron_right
+	tribunal.esm        ARMO    imperial_studded_cuirass
+	tribunal.esm        ARMO    indoril helmet
+	tribunal.esm        CLOT    helseth's robe
+	tribunal.esm        CONT    dwrv_closet00
+	tribunal.esm        CREA    centurion_projectile
+	tribunal.esm        CREA    centurion_sphere
+	tribunal.esm        CREA    dremora_summon
+	tribunal.esm        CREA    goblin_warchief1
+	tribunal.esm        CREA    goblin_warchief2
+	tribunal.esm        CREA    golden saint_staada
+	tribunal.esm        CREA    lich
+	tribunal.esm        CREA    lich_barilzar
+	tribunal.esm        CREA    lich_relvel
+	tribunal.esm        DIAL    boots of blinding speed
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        ENCH    bipolar blade_en
+	tribunal.esm        ENCH    her scimitar_en
+	tribunal.esm        ENCH    mace_slurring_en
+	tribunal.esm        ENCH    robe_lich_en
+	tribunal.esm        LEVI    goblin_weapons_random
+	tribunal.esm        MISC    misc_potion_cheap_01
+	tribunal.esm        NPC_    aleri aren
+	tribunal.esm        NPC_    alusannah
+	tribunal.esm        NPC_    apelles matius
+	tribunal.esm        NPC_    black dart adren
+	tribunal.esm        NPC_    black dart gilur
+	tribunal.esm        NPC_    black dart malar
+	tribunal.esm        NPC_    black dart urvyn
+	tribunal.esm        NPC_    calvus horatius
+	tribunal.esm        NPC_    catia sosia
+	tribunal.esm        NPC_    dandras vules
+	tribunal.esm        NPC_    db_assassin1
+	tribunal.esm        NPC_    db_assassin1a
+	tribunal.esm        NPC_    db_assassin1b
+	tribunal.esm        NPC_    db_assassin1c
+	tribunal.esm        NPC_    db_assassin2
+	tribunal.esm        NPC_    db_assassin2a
+	tribunal.esm        NPC_    db_assassin3
+	tribunal.esm        NPC_    db_assassin3a
+	tribunal.esm        NPC_    db_assassin4
+	tribunal.esm        NPC_    diradeni farano
+	tribunal.esm        NPC_    dravil indrano
+	tribunal.esm        NPC_    drusus gratus
+	tribunal.esm        NPC_    edre retene
+	tribunal.esm        NPC_    elbert nermarc
+	tribunal.esm        NPC_    ervis verano
+	tribunal.esm        NPC_    evo othreloth
+	tribunal.esm        NPC_    fedris hler
+	tribunal.esm        NPC_    galsa andrano
+	tribunal.esm        NPC_    gavis velas
+	tribunal.esm        NPC_    golena sadri_a
+	tribunal.esm        NPC_    guard_helseth
+	tribunal.esm        NPC_    guard_helseth_attack
+	tribunal.esm        NPC_    hels_assassin1
+	tribunal.esm        NPC_    hels_assassin2
+	tribunal.esm        NPC_    hels_assassin3
+	tribunal.esm        NPC_    hulgarth
+	tribunal.esm        NPC_    imperial guard_m_sadri
+	tribunal.esm        NPC_    ivulen irano
+	tribunal.esm        NPC_    karrod
+	tribunal.esm        NPC_    king hlaalu helseth
+	tribunal.esm        NPC_    milvela dralen
+	tribunal.esm        NPC_    myn farr
+	tribunal.esm        NPC_    ordinator_mh_stationary
+	tribunal.esm        NPC_    ordinator_mournhold
+	tribunal.esm        NPC_    sirollus saccus
+	tribunal.esm        NPC_    sjoring hard-heart
+	tribunal.esm        NPC_    tienius delitian
+	tribunal.esm        WEAP    adamantium_axe
+	tribunal.esm        WEAP    adamantium_claymore
+	tribunal.esm        WEAP    adamantium_mace
+	tribunal.esm        WEAP    adamantium_shortsword
+	tribunal.esm        WEAP    adamantium_shortsword_db
+	tribunal.esm        WEAP    adamantium_spear
+	tribunal.esm        WEAP    centurion_projectile_dart
+	tribunal.esm        WEAP    centurion_projectile_dart_shock
+	tribunal.esm        WEAP    ebony scimitar
+	tribunal.esm        WEAP    ebony scimitar_her
+	tribunal.esm        WEAP    ebony_bow_auriel_x
+	tribunal.esm        WEAP    goblin_club
+	tribunal.esm        WEAP    katana_goldbrand_unique_x
+	tribunal.esm        WEAP    king's_oath
+	tribunal.esm        WEAP    mace of slurring
+	tribunal.esm        WEAP    mace of slurring_x
+	tribunal.esm        WEAP    stendar_hammer_unique
+	tribunal.esm        WEAP    stendar_hammer_unique_x
+
+[MOD-INF]: ID=281708650205096268(Topic:boots of blinding speed)
+  tribunal.esm->|DATA|ONAM:Torasa Aram|NAME:You don't have the Boots of Blinding Speed with you? Then come back with them, and we'll settle the deal.|SCVR:01500|INTV|SCVR:15IX0boots of blinding speed[unique]|INTV:
+  ACLR.esp----->|DATA|ONAM:Torasa Aram|NAME:You don't have the Belt of Blinding Speed with you? Then come back with them, and we'll settle the deal.|SCVR:01500|INTV|SCVR:15IX0boots of blinding speed[unique]|INTV:
+
+[MOD-INF]: ID=743628527306374240(Topic:boots of blinding speed)
+  tribunal.esm->|DATA|ONAM:pemenie|NAME:A wondrous pair of boots indeed. The name says it all! I would hate to ever part with them.
+  ACLR.esp----->|DATA|ONAM:pemenie|NAME:A wondrous belt indeed. The name says it all! I would hate to ever part with it.
+
+[MOD-INF]: ID=900847722160227203(Topic:stalhrim weapons)
+  bloodmoon.esm->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Nevermind" 5
+  ACLR.esp------>|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Stalhrim Spear" 5 "Stalhrim Shortsword" 6 "Nevermind" 7
+
+[MOD-INF]: ID=1052431962138491563(Topic:stalhrim weapons)
+  bloodmoon.esm->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Nevermind" 6
+  ACLR.esp------>|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Stalhrim Spear" 6 "Stalhrim Shortsword" 7 "Nevermind" 8
+
+[DUP-INF]: ID=2632427741322528929(Topic:latest rumors)
+  |DATA|ONAM:holmar|NAME:Wha?
+
+[DUP-INF]: ID=19327158352756725056(Topic:latest rumors)
+  |DATA|ONAM:effe_tei|NAME:The old king, Athyn Llethan, is dead. Long live King Hlaalu Helseth. Things are pretty grim here in the City of Light since the troubles with Dagoth Ur. Mournhold is Almalexia's city, and she's become more of a Warrior Queen than a Lady of Mercy. And there's always been hostility between the Temple and the Imperial administration, but since Helseth's accession, the tension between Imperial-leaning Dunmer and Almalexia's supporters is much worse.
+
+[MOD-INF]: ID=21669193581310723691(Topic:boots of blinding speed)
+  tribunal.esm->|DATA|ONAM:Torasa Aram|NAME:You don't have the Boots of Blinding Speed with you? Then come back with them, and we'll settle the deal.|SCVR:01500|INTV|SCVR:15IX0boots of blinding speed[unique]|INTV:
+  ACLR.esp----->|DATA|ONAM:Torasa Aram|NAME:You don't have the Belt of Blinding Speed with you? Then come back with them, and we'll settle the deal.|SCVR:01500|INTV|SCVR:15IX0boots of blinding speed[unique]|INTV:
+
+[MOD-INF]: ID=27417258742904223576(Topic:boots of blinding speed)
+  morrowind.esm->|DATA|ONAM:pemenie|NAME:Wondrous boots indeed. Never seen a pair like them.|SCVR:04JX2MV_TraderAbandoned|INTV:Z
+  ACLR.esp------>|DATA|ONAM:pemenie|NAME:Wondrous belt indeed. Never seen a pair like them.|SCVR:04JX2MV_TraderAbandoned|INTV:Z

@@ -1,0 +1,70 @@
+Taros Dral.2.0.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    sensitive matters
+	morrowind.esm       DIAL    woman with a dagger
+	morrowind.esm       NPC_    rogdul gro-bularz
+	morrowind.esm       NPC_    taros dral
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    dissident priests
+
+[MOD-INF]: ID=24478207291628603(Topic:background)
+  morrowind.esm------>|DATA|CNAM:Assassin|NAME:You may call me %Name. What I do is my own affair.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|CNAM:Assassin|NAME:The names Taros Dral the Greatest Assassin Ever... and I assure you. I live up to the hype.... Im damn immortal.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=167835806235413657(Topic:sensitive matters)
+  morrowind.esm------>|DATA|ONAM:taros dral|NAME:Unfortunately, you were seen going into the house of Balyn Omavel. Mephala is not pleased. No matter. I will find someone more competent to complete this task. Goodbye.|SCVR:04JX0DA_Mephala|INTV:7
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|NAME:Ok wise guy, ya dun goofed... Ill do it I guess, yeesh... fuckin Swit.|SCVR:04JX0DA_Mephala|INTV:7
+
+[MOD-INF]: ID=206847122036726324(Topic:background)
+  morrowind.esm------>|DATA|NAME:I am %name, %class and %rank of the %faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|NAME:Taros... Dral...|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+
+[MOD-INF]: ID=524426342189474603(Topic:background)
+  morrowind.esm------>|DATA|FNAM:Morag Tong|NAME:You may call me %Name. What I do is my own affair.|BNAM:ClearInfoActor
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|FNAM:Morag Tong|NAME:The names Taros Dral the Greatest Assassin Ever... and I assure you. I live up to the hype.... Im damn immortal.|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=640110986418626260(Topic:sensitive matters)
+  morrowind.esm------>|DATA|ONAM:taros dral|NAME:Excellent. There is a member of our brotherhood living in Balmora, Balyn Omavel. He has been...freelancing, if you will. This is unacceptable, and he must be removed. Unfortunately, his brother is a rather important member of our brotherhood, so it would be difficult to bring it to the attention of the others. Use this poison in his food. It acts swiftly, as should you.|SCVR:01500|INTV|BNAM:RemoveItem "ingred_treated_bittergreen_uniq" 5  Player->AddItem "ingred_treated_bittergreen_uniq" 5  Journal "DA_Mephala" 40
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|NAME:Excellent. There is a member of our Guild living in Balmora, Balyn Omavel. He's been...freelancing... Like the Goddam Dark Brotherhood! So poison him with this now get to it broski.|SCVR:01500|INTV|BNAM:RemoveItem "ingred_treated_bittergreen_uniq" 5  Player->AddItem "ingred_treated_bittergreen_uniq" 5  Journal "DA_Mephala" 40
+
+[MOD-INF]: ID=666731499111789993(Topic:background)
+  morrowind.esm------>|DATA|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|NAME:Taros... Dral...|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=910887013066421075(Topic:sensitive matters)
+  morrowind.esm------>|DATA|ONAM:taros dral|NAME:You've killed him in a way other than was described? That was unwise. Mephala is not pleased. Leave here.|SCVR:04JX2DA_Mephala|INTV:|SCVR:16DX2balyn omavel|INTV:|SCVR:24JX4DA_Mephala|INTV:9|BNAM:Journal DA_Mephala 57  ModDisposition -20
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|NAME:You've killed him not as told? Tuff shit... Mephala is steamed, get the fuck outta here.|SCVR:04JX2DA_Mephala|INTV:|SCVR:16DX2balyn omavel|INTV:|SCVR:24JX4DA_Mephala|INTV:9|BNAM:Journal DA_Mephala 57  ModDisposition -20
+
+[MOD-INF]: ID=1053123401240582096(Topic:sensitive matters)
+  morrowind.esm------>|DATA|ONAM:taros dral|NAME:The great Daedra Mephala has given me information that must be acted on. If you would be willing to work with me, I'm certain Mephala would be grateful.|SCVR:04JX4DA_Mephala|INTV: |BNAM:Journal "DA_Mephala" 10  Choice "I would like to help." 1 "I do not wish to become involved." 2
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|NAME:The great Lady Mephala is happy with that, now lets get to it...|SCVR:04JX4DA_Mephala|INTV: |BNAM:Journal "DA_Mephala" 10  Choice "I would like to help." 1 "I do not wish to become involved." 2
+
+[MOD-INF]: ID=1228230000377717685(Topic:sensitive matters)
+  morrowind.esm------>|DATA|ONAM:taros dral|NAME:I understand. I trust you will speak to no one about this. Mephala would be most displeased, and her reach is great.|SCVR:01500|INTV|BNAM:Journal "DA_Mephala" 30
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|NAME:Yeah ok fuck you too ill just do it myself...|SCVR:01500|INTV|BNAM:Journal "DA_Mephala" 30
+
+[MOD-INF]: ID=1308638141804531535(Topic:woman with a dagger)
+  morrowind.esm------>|DATA|ANAM:Vivec, Arena|NAME:A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that.|SCVR:04JX4town_Vivec|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:;Vivec, Arena; Journal town_Vivec < 50;
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|ANAM:Vivec, Arena|NAME:A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that.... clothed...|SCVR:04JX4town_Vivec|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:;Vivec, Arena; Journal town_Vivec < 50;
+
+[MOD-INF]: ID=2029520333370719468(Topic:sensitive matters)
+  morrowind.esm------>|DATA|ONAM:taros dral|NAME:Well done. Mephala wishes to speak to you directly. This is a great honor for you. Approach her altar.|SCVR:04JX0DA_Mephala|INTV:2
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|NAME:Aw Shit Lady Mephala herself wants to speak with ya... E X P E R I E N C E   H E R !|SCVR:04JX0DA_Mephala|INTV:2
+
+[MOD-INF]: ID=6182187442282824457(Topic:sensitive matters)
+  morrowind.esm------>|DATA|ONAM:taros dral|NAME:There is no more to say about this matter.|SCVR:24JX0DA_Mephala|INTV:9
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|NAME:There is no more to say about this matter... shutup|SCVR:24JX0DA_Mephala|INTV:9
+
+[MOD-INF]: ID=12276284861507021461(Topic:dark brotherhood)
+  morrowind.esm------>|DATA|FNAM:Morag Tong|NAME:The Dark Brotherhood is a depraved perversion of the ancient law-abiding order of the Morag Tong. They do not advertise their services or their creed, but they are an outlawed secret society of assassins with an evil reputation, and are often associated with Daedra worship. The Morag Tong is the sworn enemy of the Dark Brotherhood.|SCVR:0CsX0NoLore|INTV:|BNAM:;Morag Tong;
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|FNAM:Morag Tong|NAME:The Dark Brotherhood is a losely organized group of emo edgelord gimpbitches... I hate them so much I can kick a fucking baby witch is what they are so I do it often, damn Finger Painters... [Taros Proceeds to go on a 30m rant about The Dark Brotherhood and then forgets what he was doing]|SCVR:0CsX0NoLore|INTV:|BNAM:;Morag Tong;
+
+[MOD-INF]: ID=17859252753236823838(Topic:dissident priests)
+  morrowind.esm------>|DATA|ANAM:Vivec|NAME:Did you hear they stuck that Dissident Priests guy Malur Omayn in the Ministry of Truth? I guess the Temple Priests and Ordinators figure they can straighten him out in there. I'll bet they can.|SCVR:04JX4B8_MeetVivec|INTV:2|SCVR:1CsX0NoLore|INTV:
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|ANAM:Vivec|NAME:Did you hear they stuck that Dissident Priests guy Malur Omayn in the Ministry of Truth? I guess the Temple Priests and Ordinators figure they can straighten him out in there. I'll bet they can... suck. ha burned.|SCVR:04JX4B8_MeetVivec|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=27538310523058411201(Topic:sensitive matters)
+  morrowind.esm------>|DATA|ONAM:taros dral|NAME:You have been given your task, %PCName. You should complete it before Mephala is angered.|SCVR:04JX0DA_Mephala|INTV:(
+  Taros Dral.2.0.ESP->|DATA|ONAM:taros dral|NAME:You have been given your super duper mission, %PCName. You should complete it before Mephala gets pissy... you dont want that man.|SCVR:04JX0DA_Mephala|INTV:(

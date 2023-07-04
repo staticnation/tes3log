@@ -1,0 +1,50 @@
+Rise To Power.esp: DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(1AAAADemodoor1script)
+	SCPT(1AAAANote1Script)
+	SCPT(1AAAAddNoteScript1)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-10, -1)            0x02
+	Bitter Coast Region (-11, -1)            0x02
+	Bitter Coast Region (-8, 2)              0x02
+	Bitter Coast Region (-9, -1)             0x02
+	Bitter Coast Region (-9, -3)             0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       DOOR    ex_dae_door_load_oval
+	bloodmoon.esm       STAT    in_dae_platform_512_01
+	morrowind.esm       NPC_    processus vitellius
+	tribunal.esm        DOOR    door_cavern_doors10
+	tribunal.esm        DOOR    ex_de_ship_cabindoor
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    morrowind
+	morrowind.esm       DOOR    ex_dae_door_static
+	morrowind.esm       LAND    (-10, -1)
+	morrowind.esm       LAND    (-10, -2)
+	morrowind.esm       LAND    (-10, -3)
+	morrowind.esm       LAND    (-11, -1)
+	morrowind.esm       LAND    (-9, -1)
+	morrowind.esm       LAND    (-9, -2)
+	morrowind.esm       LAND    (-9, -3)
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       NPC_    valveli arelas
+	tribunal.esm        BOOK    bk_bookofdaedra
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        NPC_    high_pockets
+	tribunal.esm        NPC_    player
+
+[DUP-INF]: ID=29730187151442596(Greeting:greeting 1)
+  |DATA|ONAM:svenja snow-song|NAME:All hail %PCName, the chieftain of Thirsk! What can I do for you, my lord. Perhaps there is some mead hall business you'd like to tend to? Or maybe you'd rather just go upstairs and rest in your quarters?|SCVR:04JX3BM_MeadHall|INTV:d
+
+[DUP-INF]: ID=390119807270132179(Greeting:greeting 1)
+  |DATA|ONAM:louis beauchamp|NAME:You...you mean to tell me you found the entrance to...to Hrothmund's Barrow...and...and uttered the WRONG name? You...you idiot! Get away from me.... You...you're obviously completely incompetent!|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 10  SetDisposition 0  Goodbye
+
+[MOD-INF]: ID=3253423749290424070(Topic:morrowind)
+  morrowind.esm----->|DATA|ONAM:chargen captain|NAME:Yes. You're in Morrowind. I don't know why you're here. Or why you were released from prison and shipped here. But your authorization comes directly from Emperor Uriel Septim VII himself. And I don't need to know any more than that. When you leave this office, you are a free man. But before you go, I have instructions on your duties. Instructions from the Emperor. So pay careful attention.
+  Rise To Power.esp->|DATA|ONAM:chargen captain|NAME:Yes. You're in Morrowind. I don't know why you're here. Or why you were released from prison and shipped here. But your authorization comes directly from Emperor Uriel Septim VII himself. And I don't need to know any more than that. When you leave this office, you are a free man. But before you go, I have instructions on your duties. Instructions from the Emperor. So pay careful attention. Oh, and before I forget. This letter arrived yesterday. It has your name on it.|BNAM:journal "1AAAANoteQuest1" 1

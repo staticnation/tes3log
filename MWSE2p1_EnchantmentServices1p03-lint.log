@@ -1,0 +1,14 @@
+MWSE2p1_EnchantmentServices1p03.esp: DUP-REC EXP-DEP MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (59) != Actual count (58)
+    [EXP-DEP] Expansion Dependency: Startup Script: sve_item_ench_services_start
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(sve_item_enchantment_services)  setdelete
+	SCPT(sve_nigedo_exit_mm)             setdelete
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(sve_item_delayed_gold_sound)
+	SCPT(sve_item_service_helper)
+	SCPT(sve_menutest)
+	SCPT(sve_nigedo_exit_mm)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal

@@ -1,0 +1,42 @@
+FullRevisedImperialDragonscaleArmor.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    com_chest_daed_ruin_01
+	morrowind.esm       CONT    crate_01_de_weaponsmult
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       ARMO    dragonscale_cuirass
+	morrowind.esm       ARMO    dragonscale_helm
+	morrowind.esm       ARMO    dragonscale_towershield
+	morrowind.esm       CONT    com_chest_02_v_armor11
+	morrowind.esm       CONT    de_p_chest_02_meldor
+	morrowind.esm       CONT    dwrv_chest00_kjeld
+	morrowind.esm       LEVI    l_n_armor_boots
+	morrowind.esm       LEVI    l_n_armor_bracers
+	morrowind.esm       LEVI    l_n_armor_greaves
+	morrowind.esm       NPC_    arnskar
+	morrowind.esm       NPC_    cavortius albuttian
+	morrowind.esm       NPC_    gogrek
+	morrowind.esm       NPC_    hlora long-leg
+	morrowind.esm       NPC_    meldor
+	morrowind.esm       NPC_    sorkvild the raven
+	morrowind.esm       NPC_    yatur gro-shak
+
+[MOD-INF]: ID=1721214471250220723(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  FullRevisedImperialDragonscaleArmor.ESP->|DATA|ONAM:Cavortius Albuttian|RNAM:Imperial|FNAM:Imperial Legion|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:08FX0Imperial Legion|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=3304296813014031811(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|RNAM:Wood Elf|FNAM:Imperial Legion|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  FullRevisedImperialDragonscaleArmor.ESP->|DATA|FNAM:Imperial Legion|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=14621298361081628819(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|RNAM:Redguard|FNAM:Imperial Legion|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  FullRevisedImperialDragonscaleArmor.ESP->|DATA|FNAM:Imperial Legion|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[DUP-INF]: ID=18977317001260911679(Persuasion:service refusal)
+  |DATA|NAME:Not this time %PCName. You've been expelled from the %Faction.|SCVR:01390|INTV
+
+[DUP-INF]: ID=27079147542329119696(Persuasion:service refusal)
+  |DATA|RNAM:Wood Elf|FNAM:Imperial Cult|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4

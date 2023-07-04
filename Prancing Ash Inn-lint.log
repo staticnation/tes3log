@@ -1,0 +1,180 @@
+Prancing Ash Inn.ESP: DUP-INF DUP-REC FOGBUG EVLGMST MENUMOD MISSVER MOD-INF OVR-REC
+    [EVLGMST] Tribunal(11) Bloodmoon(61):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfalarmmessage
+	BM swerewolfpopup
+	BM swerewolfrefusal
+	BM swerewolfrestmessage
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+	TB steleportdisabled
+    [FOGBUG]: Cells with zero fog density setting:
+	Seyda Neen, Prancing Ash Inn
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CH_Prancing_Ash_Bed_Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage
+
+[MOD-INF]: ID=5553705712003887(Topic:someone in particular)
+  morrowind.esm-------->|DATA|ANAM:Seyda Neen|NAME:The Altmer Arrille runs Arrille's Tradehouse. Socucius Ergalla is the chief agent at the Census and Excise offices.|SCVR:07XX0arrille|INTV|SCVR:17XX0chargen class|INTV|SCVR:2CsX0NoLore|INTV|INTV|BNAM:;Seyda Neen;
+  Prancing Ash Inn.ESP->|DATA|ANAM:Seyda Neen|NAME:The Altmer Arrille runs Arrille's Tradehouse. Izidor Bervala owns Prancing Ash Inn. Socucius Ergalla is the chief agent at the Census and Excise offices.|SCVR:07XX0arrille|INTV|SCVR:17XX0chargen class|INTV|SCVR:2CsX0NoLore|INTV|INTV|SCVR:47XX0CH_izidor_bervala|INTV|BNAM:;Seyda Neen;
+
+[MOD-INF]: ID=749914731240121175(Topic:specific place)
+  tribunal.esm--------->|DATA|ONAM:elone|NAME:Pelagiad is the next town up the road. Cross the bridge out of town and just stay on the road. From Pelagiad, take the road north to Balmora and Caldera, or east to Ebonheart and Vivec. If you have the cash, and are in a hurry, or afraid of getting lost, take the silt strider to Balmora or Vivec. Speak to Darvame Hleran at the silt strider landing, across the bridge and south along the shore. And if you plan to travel widely, get a copy of 'Guide to Vvardenfell' from Arrille. It's got maps.
+  Prancing Ash Inn.ESP->|DATA|ONAM:elone|NAME:Pelagiad is the next town up the road. Cross the bridge out of town and just stay on the road. From Pelagiad, take the road north to Balmora and Caldera, or east to Ebonheart and Vivec. If you have the cash, and are in a hurry, or afraid of getting lost, take the silt strider to Balmora or Vivec. Speak to Darvame Hleran at the silt strider landing. And if you plan to travel widely, get a copy of 'Guide to Vvardenfell' from Arrille or Izidor at his Inn. Both of them sell maps.
+
+[DUP-INF]: ID=5935281021213222942(Greeting:greeting 7)
+  |DATA|ONAM:sorosi radobar|NAME:Good day. I'm Sorosi Radobar, publican of The Flowers of Gold here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Sorosi Radobar
+
+[DUP-INF]: ID=17241302462420210952(Greeting:greeting 7)
+  |DATA|ONAM:shenk|NAME:Good day. I'm Shenk, publican of the Shenk's Shovel here in Caldera. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Shenk
+
+[DUP-INF]: ID=21432111501574114700(Topic:beds)
+  |DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's all yours for the day. Down the stairs to the right.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+
+[DUP-INF]: ID=26036209202016629907(Topic:beds)
+  |DATA|ONAM:benunius agrudilius|CNAM:Publican|NAME:It's all yours. Up the stairs to the left. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script BALMORA LUCKY LOCKUP  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+
+[MOD-INF]: ID=28173136561170913399(Topic:specific place)
+  morrowind.esm-------->|DATA|ANAM:Seyda Neen|NAME:Not much here. Arrille's Tradehouse, the Census and Excise offices -- that's the Coast Guard, too -- and a lighthouse. And that's it. Silt strider service goes to Vivec, Balmora, Gnisis, and Suran. The road goes north past Pelagiad to Balmora, and east to Vivec, and southeast to Ebonheart.|SCVR:07XX0arrille|INTV|SCVR:1CsX0nolore|INTV:|SCVR:27XX0darvame hleran|INTV|INTV|BNAM:;Seyda Neen;
+  Prancing Ash Inn.ESP->|DATA|ANAM:Seyda Neen|NAME:Not much here. Arrille's Tradehouse, Prancing Ash Inn if you need a place to crash, the Census and Excise offices -- that's the Coast Guard, too -- and a lighthouse. And that's it. Silt strider service goes to Vivec, Balmora, Gnisis, and Suran. The road goes north past Pelagiad to Balmora, and east to Vivec, and southeast to Ebonheart.|SCVR:07XX0arrille|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0darvame hleran|INTV|INTV|SCVR:47XX0CH_izidor_bervala|INTV|BNAM:;Seyda Neen;

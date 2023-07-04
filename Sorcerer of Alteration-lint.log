@@ -1,0 +1,25 @@
+Sorcerer of Alteration.ESP: AUTOSPL DUP-INF DUP-REC MENUMOD MISSVER NUMRECS OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	soa_dispel_100_targ            Purge Magic
+    [NUMRECS]: number of records in TES3.HEDR (204) != Actual count (203)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(SOA_book)
+	SCPT(soa_ardarumegrimoire)
+	SCPT(soa_glovescheat_scr)
+	SCPT(soa_glovetheft)
+	SCPT(soa_magicalcrystal)
+	SCPT(soa_nc_return_door_scpt)
+	SCPT(soa_openpassage)
+	SCPT(soa_serynescroll)
+	SCPT(soa_sounds)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       DIAL    alteration
+	morrowind.esm       PGRD    tel branora, seryne relas's house
+
+[DUP-INF]: ID=1980928079138795518(Topic:alteration)
+  |DATA|CNAM:Savant|NAME:The alteration discipline is the mastery of the spell effects of the College of Alteration. The alteration spells involve manipulation of the physical world and its natural properties. Alteration effects include water breathing and walking, jumping, levitating, opening locks, and shield barriers against physical damage.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[DUP-INF]: ID=3137517782452216666(Greeting:greeting 4)
+  |DATA|ANAM:Raven Rock|NAME:You've got the corprus! There's no cure for that, is there?|SCVR:01580|INTV

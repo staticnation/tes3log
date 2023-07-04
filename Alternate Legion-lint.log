@@ -1,0 +1,78 @@
+Alternate Legion.ESP: DUP-INF DUP-REC JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BWDisableKannickaElrin)
+	SCPT(BWDivawil1)
+	SCPT(BWElriinS1)
+	SCPT(BWElriinS3)
+	SCPT(BWElriinScript1)
+	SCPT(BWElrinandKannickActivate)
+	SCPT(BWGreeting1)
+	SCPT(BWGreeting2)
+	SCPT(BWGreeting3)
+	SCPT(BWGreeting4)
+	SCPT(BWKannickaElrinActivate1)
+	SCPT(BWLS380)
+	SCPT(BWLS4101)
+	SCPT(BWLS490S1)
+	SCPT(BWLarriusS1)
+	SCPT(BWLarriusS2)
+	SCPT(BWLastActivateScript)
+	SCPT(BWLegionSP310Script2)
+	SCPT(BWLegionSP340Script1)
+	SCPT(BWLegionSP340Script2)
+	SCPT(BWLegionSP360S1)
+	SCPT(BWLegionSP3Script1)
+	SCPT(BWLegionSpearmanQuest3-1)
+	SCPT(BWLegionSpearmanQuest3-2)
+	SCPT(BWRaddScript1)
+	SCPT(BWSCRIPTROOM)
+	SCPT(BWScript1)
+	SCPT(BWScript2)
+	SCPT(BWTest1)
+	SCPT(BWTest2)
+	SCPT(BWTravelCoinDisable)
+	SCPT(BWTravelKannick1)
+	SCPT(BWVirisiS1)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (-3, -6)           0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    in_redoran_ladder_01
+	morrowind.esm       NPC_    erla
+	morrowind.esm       NPC_    ra'zhid
+	morrowind.esm       NPC_    radd hard-heart
+	tribunal.esm        DOOR    in_impsmall_door_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       DIAL    join us
+	morrowind.esm       LAND    (-1, -3)
+	morrowind.esm       LIGH    light_de_streetlight_01_223
+	morrowind.esm       LIGH    light_torch_01
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       NPC_    addut-lamanu
+	morrowind.esm       NPC_    imperial guard
+	morrowind.esm       NPC_    solea nuccusius
+	morrowind.esm       PGRD    west gash region
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=12324175062324920581(Topic:join us)
+  |DATA|ONAM:llarar Bereloth|NAME:Yes, I am a member now. Just leave me to my research.|SCVR:34JX3MG_JoinUs|INTV:d
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

@@ -1,0 +1,41 @@
+abotRiverStridersTR2101.esp: DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8846501 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            131136864 (plugin)  163244128 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01bogBoat3Script)
+	SCPT(ab01bogConfigScript)
+	SCPT(ab01bogWeatherTalk2bScript)
+	SCPT(ab01bogWeatherTalk3bScript)
+	SCPT(ab01bogWeatherTalkbScript)
+	SCPT(ab01bogWingsUpScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tamriel_data.esm    ACTI    t_mw_fauna_riverstrider_01
+	tr_mainland.esm     DIAL    local area
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=25200570528394688(Topic:local area)
+  tr_mainland.esm------------->|DATA|RNAM|NAME:Llothanis spans the Nebet Bay, lying between the Ouadavohr area of mainland Sunad Mora and the Nebet Peninsula. The scenic valley of Khosdran lies to the east. The road west from Llothanis takes you past the Molkadh Mounts and on to Ranyon-ruhn.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  abotRiverStridersTR2101.esp->|DATA|RNAM|NAME:Llothanis spans the Nebet Bay, lying between the Ouadavohr area of mainland Molagreahd and the Nebet Peninsula. The scenic valley of Khosdran lies to the east. The road east from Llothanis takes you past the Molkadh Mounts and on to Ranyon-ruhn.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=100148015698317644(Topic:- scenic travel)
+  tr_mainland.esm------------->|DATA|ONAM:TR_m1_Mordinara_Valethi|NAME:My strider and I assure speedy travel between the Plantation and Port Telvannis.|BNAM:; Sadas Plantation Stridermaster
+  abotRiverStridersTR2101.esp->|DATA|ONAM:TR_m1_Mordinara_Valethi|NAME:My strider and I assure speedy travel between the Plantation and Port Telvannis.|BNAM:; Sadas Plantation Stridermaster
+
+[MOD-INF]: ID=560430913173242261(Topic:local area)
+  tr_mainland.esm------------->|DATA|FNAM|NAME:Llothanis spans the Nebet Bay, lying between the Ouadavohr area of mainland Sunad Mora and the Nebet Peninsula. The scenic valley of Khosdran lies to the east. The road west from Llothanis takes you past the Molkadh Mounts and on to Ranyon-ruhn. Across the water to the east lie the Telvanni Isles, our magnificent homeland, and where you will find the much-famed city of Port Telvannis.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  abotRiverStridersTR2101.esp->|DATA|FNAM|NAME:Llothanis spans the Nebet Bay, lying between the Ouadavohr area of mainland Molagreahd and the Nebet Peninsula. The scenic valley of Khosdran lies to the east. The road east from Llothanis takes you past the Molkadh Mounts and on to Ranyon-ruhn. Across the water to the east lie the Telvanni Isles, our magnificent homeland, and where you will find the much-famed city of Port Telvannis.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1885227490926727960(Topic:my trade)
+  tr_mainland.esm------------->|DATA|CNAM:Miner|NAME:I am an egg miner. Scrib jerky and scrib jelly, kwama eggs and kwama cuttle are the basis of the economy in Telvannis District. There are other types of mines in the region, where we extract ebony, iron, even gold and diamond! But it's the eggminers that feed Morrowind, and bring cash from all over the Empire. Kwama colonies only prosper in Morrowind, but their eggs are eaten everywhere.|SCVR:03sX0TR_Map|INTV|SCVR:5CsX0T_Local_NoLore|INTV:|BNAM:;Miner; egg mines ecology
+  abotRiverStridersTR2101.esp->|DATA|CNAM:Miner|NAME:I am an eggminer. Scrib jerky and scrib jelly, kwama eggs and kwama cuttle are the basis of the economy in the Molagreahd and the Boethian Mountains. There are other types of mines in the region, where we extract ebony, iron, even gold and diamond! But it's the eggminers that feed Morrowind, and bring cash from all over the Empire. Kwama colonies only prosper in Morrowind, but their eggs are loved everywhere!|SCVR:03sX0TR_Map|INTV|SCVR:5CsX0NoLore|INTV:|BNAM:;Miner; egg mines ecology
+
+[MOD-INF]: ID=1992174411486720265(Topic:- scenic travel)
+  tr_mainland.esm------------->|DATA|ONAM:TR_m1_Dedave_Atherayn|NAME:If you want to go to Tel Ouada, Alt Bosara or Port Telvannis comfortably and for a fair price, climb atop my strider.|BNAM:; Llothanis Stridermaster
+  abotRiverStridersTR2101.esp->|DATA|ONAM:TR_m1_Dedave_Atherayn|NAME:If you want to go to Tel Ouada or Port Telvannis comfortably and for a fair price, climb atop my strider.|BNAM:; Llothanis Stridermaster
+
+[MOD-INF]: ID=15702176731853326937(Voice:hello)
+  morrowind.esm--------------->|DATA|RNAM|SNAM:vo\d\m\Hlo_DM131.mp3|NAME:Where would you like to go?|BNAM:;Class=Caravaner
+  abotRiverStridersTR2101.esp->|DATA|RNAM:Dark Elf|CNAM:T_Mw_RiverstriderService|SNAM:vo\d\m\Hlo_DM131.mp3|NAME:Where would you like to go?|SCVR:02sX2Random100|INTV:F|BNAM:;Class=Caravaner

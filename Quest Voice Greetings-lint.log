@@ -1,0 +1,47 @@
+Quest Voice Greetings.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF MOD-IID NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (992) != Actual count (944)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(galbedirScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+
+[DUP-INF]: ID=1709302711210241(Voice:hello)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you
+
+[DUP-INF]: ID=86432018149367490(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM012.mp3|NAME:This is pointless, give in!|BNAM:;
+
+[DUP-INF]: ID=265463211842905016(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF010.mp3|NAME:Your pain is nearing an end!|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:2|BNAM:;PCRace=10[WoodElf]Dialog is placeholder - experiment
+
+[DUP-INF]: ID=1434813789653322684(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM014.mp3|NAME:I shall enjoy watching you take your last breath.|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+
+[DUP-INF]: ID=1884812464213920678(Voice:attack)
+  |DATA|ONAM:clasomo|SNAM:Vo\v\CrAtk_vIM005.mp3|NAME:Die!
+
+[DUP-INF]: ID=2183917571133326458(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\CrAtk_DF005.mp3|NAME:Die!|SCVR:01650|INTV
+
+[DUP-INF]: ID=2753017911425526969(Voice:idle)
+  |DATA|ONAM:yagrum bagarn|SNAM:Vo\Misc\Yagrum_3.mp3|NAME:Now... if I could just figure a scheme of classifying manifolds for TRI-PLY-connected surfaces... or even MORE complex surfaces...
+
+[DUP-INF]: ID=2899587252111412890(Voice:hit)
+  |DATA|ONAM:toranu rothalnim|SNAM:Vo\v\Hit_vDF001.mp3|NAME:Rarrrgh!
+
+[DUP-INF]: ID=8126301621219914218(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\i\m\CrAtk_IM001.mp3|NAME:Hurrgh!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV:P
+
+[MOD-INF]: ID=21438215381609827872(Voice:hit)
+  morrowind.esm------------->|DATA|ONAM:volrina quarra|SNAM:Vo\v\Hit_vIF006.mp3|NAME:Rarrrgh!
+  Quest Voice Greetings.ESP->|DATA|ONAM:umbra|SNAM:Vo\VDQuest\Umbrahurt1.mp3|NAME:Nyah.
+
+[MOD-INF]: ID=21438215381609827872(Voice:hit)
+  morrowind.esm------------->|DATA|ONAM:volrina quarra|SNAM:Vo\v\Hit_vIF006.mp3|NAME:Rarrrgh!
+  Quest Voice Greetings.ESP->|DATA|ONAM:umbra|SNAM:Vo\VDQuest\Umbrahurt1.mp3|NAME:Nyah.
+[MOD-IID]: ID=24851117701087616198
+  Quest Voice Greetings.ESP->Rarrrgh!

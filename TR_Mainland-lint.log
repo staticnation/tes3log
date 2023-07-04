@@ -1,0 +1,2899 @@
+TR_Mainland.esm: DUP-REC FOGBUG GETSND MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Arvud, Hlavora Tilvur: Trader
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(TR_m1_q50_GO5_cultist_scpt)
+	SCPT(TR_m1_q_RR_MQ_MithrasDouble)
+	SCPT(TR_m2_445_sc_underdoors)
+	SCPT(TR_m2_445_sc_vaultdoors)
+	SCPT(TR_m2_q_18_Hjotra_Script)
+	SCPT(TR_m2_q_22_CursedShield_Script)
+	SCPT(TR_m2_q_38_s_Gilasmove)
+	SCPT(TR_m2_q_38_s_ritright)
+	SCPT(TR_m2_q_38_s_ritwrong)
+	SCPT(TR_m2_q_5_Staron)
+	SCPT(TR_m3_Kha_Sound_Loop)
+	SCPT(TR_m3_OE_MG_FlyingChairFlySc)
+	SCPT(TR_m4_NPC_Cornelius_Vulpo)
+	SCPT(TR_m4_NPC_VeersInBrine)
+	SCPT(TR_m4_NPC_malmotulgor_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT("TR_m1_NPC_Ainssa_scr")
+	SCPT("TR_m1_NPC_Gindaman_scr")
+	SCPT("TR_m1_NPC_Jula_Minthri_scr")
+	SCPT("TR_m1_NPC_MG_SoulSwipe_scr")
+	SCPT("TR_m4_NPC_Ano_Forondas")
+	SCPT("TR_m4_TrollFrost_q_scr")
+	SCPT("TR_m4_q_AAB_containerscript")
+	SCPT("TR_m4_q_AAB_startscript")
+	SCPT("TR_m4_q_TMM_bolsscript")
+	SCPT("TR_m4_q_TMM_cratescript")
+	SCPT(TR_AD_Summon_Daedra)
+	SCPT(TR_M1_IC_Lesa-Script)
+	SCPT(TR_M1_Q66_El1_Timer)
+	SCPT(TR_M2_EnseldaScript)
+	SCPT(TR_M2_MG_Areanne2Script)
+	SCPT(TR_M2_MzankhFuseboxSignal_sc)
+	SCPT(TR_M2_MzankhPipeSignal_sc)
+	SCPT(TR_M2_MzankhPowerboxSignal_sc)
+	SCPT(TR_M3_q_Llaryno)
+	SCPT(TR_M4_And_holst)
+	SCPT(TR_M4_IL_Dreughscript)
+	SCPT(TR_MT_writ_startscript)
+	SCPT(TR_RothRoryn_Monastery_AlmSc)
+	SCPT(TR_Sir_Aar_Scpt_StuckDoor)
+	SCPT(TR_amuletOrlukhScript)
+	SCPT(TR_expelledMG)
+	SCPT(TR_i2_303_poisonbarrel)
+	SCPT(TR_i3-280_CursedDiamondSummon)
+	SCPT(TR_i3_531_eggcrate_scn)
+	SCPT(TR_i4-385-HlaSummon)
+	SCPT(TR_m1_Aranyon_Creature)
+	SCPT(TR_m1_Argilscript)
+	SCPT(TR_m1_BO_muskflies_fire_scr)
+	SCPT(TR_m1_BO_muskfly_script)
+	SCPT(TR_m1_BO_swarm_script)
+	SCPT(TR_m1_BthalagCrystal1_sc)
+	SCPT(TR_m1_BthalagCrystal2_sc)
+	SCPT(TR_m1_BthalagCrystal3_sc)
+	SCPT(TR_m1_BthalagCrystal4_sc)
+	SCPT(TR_m1_BthalagCrystal5_sc)
+	SCPT(TR_m1_BthalagCrystal6_sc)
+	SCPT(TR_m1_EEC4_ZarenPackExt)
+	SCPT(TR_m1_EEC4_ZarenPackSCN)
+	SCPT(TR_m1_EEC_Lora2_crate)
+	SCPT(TR_m1_EEC_Zaren_HealGuar)
+	SCPT(TR_m1_FG1_Egg1Script)
+	SCPT(TR_m1_FG1_Egg2Script)
+	SCPT(TR_m1_FG3_constructdeadcount)
+	SCPT(TR_m1_FG_Drobascript)
+	SCPT(TR_m1_FG_Gamras_script)
+	SCPT(TR_m1_FG_Mashugteleport)
+	SCPT(TR_m1_FG_Nalascript)
+	SCPT(TR_m1_FW_BidsiScript)
+	SCPT(TR_m1_FW_BrazenCrateSc)
+	SCPT(TR_m1_FW_FedrinShipmentScript)
+	SCPT(TR_m1_FW_Gummidge_Script)
+	SCPT(TR_m1_FW_IC3_GreetScr)
+	SCPT(TR_m1_FW_IC3_RingScr)
+	SCPT(TR_m1_FW_IC4_RingDisable)
+	SCPT(TR_m1_FW_IC5_PotmanMove)
+	SCPT(TR_m1_FW_IC5_PotmanSc)
+	SCPT(TR_m1_FW_IC5_SwordEnable)
+	SCPT(TR_m1_FW_NPC_UdrasiEdram)
+	SCPT(TR_m1_FW_SenillosTulnusMove)
+	SCPT(TR_m1_FW_TG2_FrielaDead)
+	SCPT(TR_m1_FW_TG3_HrongalDrink)
+	SCPT(TR_m1_FW_TG4_LetterTake)
+	SCPT(TR_m1_FW_TG6_BoneFragScr)
+	SCPT(TR_m1_FW_TG6_MuseumChange)
+	SCPT(TR_m1_FW_TG6_StoneAdd)
+	SCPT(TR_m1_FW_TG6_StoneRep)
+	SCPT(TR_m1_FW_TG6_Timer)
+	SCPT(TR_m1_FW_TulnusScript)
+	SCPT(TR_m1_GS_MQ_2_EarlyStuff)
+	SCPT(TR_m1_GS_MQ_2_LateStuff)
+	SCPT(TR_m1_GS_MQ_2_Melie)
+	SCPT(TR_m1_GS_MQ_2_Mjording)
+	SCPT(TR_m1_GS_MQ_2_MjordingDead)
+	SCPT(TR_m1_GS_MQ_2_Weird)
+	SCPT(TR_m1_GS_MQ_5_CompanionA)
+	SCPT(TR_m1_GS_MQ_5_CompanionB)
+	SCPT(TR_m1_GS_MQ_5_Fence)
+	SCPT(TR_m1_GS_MQ_5_Fernil)
+	SCPT(TR_m1_GS_MQ_5_INQ)
+	SCPT(TR_m1_GS_MQ_5_INQNoLore)
+	SCPT(TR_m1_GS_MQ_5_Ilwen)
+	SCPT(TR_m1_GS_MQ_5_NoTeleport)
+	SCPT(TR_m1_GS_MQ_5_WrapUp)
+	SCPT(TR_m1_GoriniasDoorScript)
+	SCPT(TR_m1_HesseiScript)
+	SCPT(TR_m1_IC6_Wisewomanscript)
+	SCPT(TR_m1_IL_ArloSc)
+	SCPT(TR_m1_IL_Cultistscript)
+	SCPT(TR_m1_IL_Cultistscript_2)
+	SCPT(TR_m1_IL_Darnell_teleportscript)
+	SCPT(TR_m1_IL_GralaSc)
+	SCPT(TR_m1_IL_JailedKrulTeiscript)
+	SCPT(TR_m1_IL_JailedPoliusscript)
+	SCPT(TR_m1_IL_JailedVyciusscript)
+	SCPT(TR_m1_IL_Olfinscript)
+	SCPT(TR_m1_IL_Skoomadoorscript)
+	SCPT(TR_m1_IL_bodyscript)
+	SCPT(TR_m1_IL_deadguar)
+	SCPT(TR_m1_IL_teleportscript)
+	SCPT(TR_m1_IL_teleportscript2)
+	SCPT(TR_m1_KhifzahGuardScript)
+	SCPT(TR_m1_Lornie_Slave_scpt)
+	SCPT(TR_m1_MinTalScript)
+	SCPT(TR_m1_Minkis_SCN)
+	SCPT(TR_m1_NPC_Aligae_script)
+	SCPT(TR_m1_NPC_Devas_Terano)
+	SCPT(TR_m1_NPC_Iveru)
+	SCPT(TR_m1_NPC_Outlaw)
+	SCPT(TR_m1_NPC_Q71_Bandits)
+	SCPT(TR_m1_NPC_Saliraz)
+	SCPT(TR_m1_Niv_Arlo_Ajaxus_Quest)
+	SCPT(TR_m1_Niv_JustASipDoor_Script)
+	SCPT(TR_m1_Niv_JustASipDoor_gblsc)
+	SCPT(TR_m1_Niv_axe_scr)
+	SCPT(TR_m1_Nivalis_VaynthStone_scp)
+	SCPT(TR_m1_No_Activation)
+	SCPT(TR_m1_PT_CouncilHouse_CrystalNoise)
+	SCPT(TR_m1_Pub_Avenue)
+	SCPT(TR_m1_Pub_Black_Ogre)
+	SCPT(TR_m1_Pub_Dancing_Jug)
+	SCPT(TR_m1_Pub_Howling_Noose)
+	SCPT(TR_m1_Pub_Queens_Cutlass)
+	SCPT(TR_m1_Pub_Waters_Shadow)
+	SCPT(TR_m1_Q59_ADH_script_7)
+	SCPT(TR_m1_Q59_ADH_script_8)
+	SCPT(TR_m1_Q59_HaO_Move_script)
+	SCPT(TR_m1_Q59_HaO_scpt_Brendu)
+	SCPT(TR_m1_Q59_HaO_scpt_ogrim)
+	SCPT(TR_m1_Q59_MaI_Script_2)
+	SCPT(TR_m1_Q59_MaI_Script_8)
+	SCPT(TR_m1_Q59_MaI_Script_9)
+	SCPT(TR_m1_Q59_PR_script_1)
+	SCPT(TR_m1_Q59_PR_script_2)
+	SCPT(TR_m1_Q66_Ra1_Agent)
+	SCPT(TR_m1_Q66_Ra2_Agent_scpt)
+	SCPT(TR_m1_Q66_Ra2_blood_scpt)
+	SCPT(TR_m1_Q_AshPitOfferingsScript)
+	SCPT(TR_m1_Q_DeadAlvarScript)
+	SCPT(TR_m1_Q_Dead_UneleasScript)
+	SCPT(TR_m1_Q_KhifzahCorpseScript)
+	SCPT(TR_m1_Q_KhifzahScript)
+	SCPT(TR_m1_Q_KiRalisScript)
+	SCPT(TR_m1_Q_KobKAssasinScript)
+	SCPT(TR_m1_Q_NinarisNoteScript)
+	SCPT(TR_m1_Q_RGirthOfferingScript_BR)
+	SCPT(TR_m1_Q_RGirthOfferingScript_NS)
+	SCPT(TR_m1_Q_RGirthOfferingScript_TP)
+	SCPT(TR_m1_Q_RangirthChestScript)
+	SCPT(TR_m1_Q_RangirthNoteScript)
+	SCPT(TR_m1_Q_Uneleas_SkelScript)
+	SCPT(TR_m1_Q_bah_widowscript)
+	SCPT(TR_m1_Q_uneleasdeadmarkerscript)
+	SCPT(TR_m1_RinarScript)
+	SCPT(TR_m1_SP_SickStriderTimer)
+	SCPT(TR_m1_SageaGuardscript)
+	SCPT(TR_m1_T_CouncilorSc)
+	SCPT(TR_m1_T_DralSc)
+	SCPT(TR_m1_T_FactionMap)
+	SCPT(TR_m1_TathoScript)
+	SCPT(TR_m1_ThazlorakisScript)
+	SCPT(TR_m1_Vero_Renim_sc)
+	SCPT(TR_m1_bthalastaff_sc)
+	SCPT(TR_m1_bthalight_sc)
+	SCPT(TR_m1_hernes_soul_scr)
+	SCPT(TR_m1_lud_crce1)
+	SCPT(TR_m1_npc_MarvusTermianscript)
+	SCPT(TR_m1_q50_GO1_Ansuma_scpt)
+	SCPT(TR_m1_q50_GO1_gscpt)
+	SCPT(TR_m1_q50_GO2_gscript)
+	SCPT(TR_m1_q50_GO5_Axe_scpt)
+	SCPT(TR_m1_q67_Fa2_gscript1)
+	SCPT(TR_m1_q67_Fa2_scamp_scpt)
+	SCPT(TR_m1_q71_smuggler)
+	SCPT(TR_m1_q_57_AttackCrabScript)
+	SCPT(TR_m1_q_57_MudlapScript)
+	SCPT(TR_m1_q_57_MudlapTimer)
+	SCPT(TR_m1_q_ArtifactCounterScript)
+	SCPT(TR_m1_q_AshamulGuardScript)
+	SCPT(TR_m1_q_AttackCartScript)
+	SCPT(TR_m1_q_AttackCreaNPCScript)
+	SCPT(TR_m1_q_Azariah)
+	SCPT(TR_m1_q_Bah_FishermansRing)
+	SCPT(TR_m1_q_CartilScript)
+	SCPT(TR_m1_q_CompareLedgers)
+	SCPT(TR_m1_q_DeliveryPicks)
+	SCPT(TR_m1_q_DisableScroll)
+	SCPT(TR_m1_q_Door_Barred_Script)
+	SCPT(TR_m1_q_Dr2StartTimer)
+	SCPT(TR_m1_q_Dr2Timer)
+	SCPT(TR_m1_q_DresLetter)
+	SCPT(TR_m1_q_DreughGreaves_Script)
+	SCPT(TR_m1_q_DrinksChest_Script)
+	SCPT(TR_m1_q_FGShipPrisonDoor_Script)
+	SCPT(TR_m1_q_FG_BoatStuffDisable)
+	SCPT(TR_m1_q_FG_CaptainScript)
+	SCPT(TR_m1_q_FG_JanaBreakIn)
+	SCPT(TR_m1_q_FG_JanaMarker_Script)
+	SCPT(TR_m1_q_FG_NassudanRugScript)
+	SCPT(TR_m1_q_FW_MG08_script)
+	SCPT(TR_m1_q_FakeSlaveTraderScript)
+	SCPT(TR_m1_q_FakeSlavesHitmenBScript)
+	SCPT(TR_m1_q_FakeSlavesHitmenScript)
+	SCPT(TR_m1_q_FallHole)
+	SCPT(TR_m1_q_FirestaffScript)
+	SCPT(TR_m1_q_GahOuadaruhn_D)
+	SCPT(TR_m1_q_GaldasiGuard_SCN)
+	SCPT(TR_m1_q_Garrulus_Script)
+	SCPT(TR_m1_q_GuarThief)
+	SCPT(TR_m1_q_HT_Mi_BreakTimer)
+	SCPT(TR_m1_q_HasiliusDrunk)
+	SCPT(TR_m1_q_HasiliusScript)
+	SCPT(TR_m1_q_JanaBurglar_Script)
+	SCPT(TR_m1_q_KhifzahNPC)
+	SCPT(TR_m1_q_KobK_AssassinShowdown)
+	SCPT(TR_m1_q_KobK_Assassin_Double)
+	SCPT(TR_m1_q_KobinDeliveryTimer)
+	SCPT(TR_m1_q_Manari)
+	SCPT(TR_m1_q_Mashug)
+	SCPT(TR_m1_q_MashugShowTrap)
+	SCPT(TR_m1_q_MithrasTimer1)
+	SCPT(TR_m1_q_MithrasTimer2)
+	SCPT(TR_m1_q_MithrasTimer3)
+	SCPT(TR_m1_q_MorvinGirith_Script)
+	SCPT(TR_m1_q_NassudanNoTeleport)
+	SCPT(TR_m1_q_Natayasword)
+	SCPT(TR_m1_q_Nedheleg_Script)
+	SCPT(TR_m1_q_Nevrile)
+	SCPT(TR_m1_q_New_Hindas)
+	SCPT(TR_m1_q_OduniaHareDisappearance)
+	SCPT(TR_m1_q_PalisnabatDoor)
+	SCPT(TR_m1_q_PickDeliveryCartScript)
+	SCPT(TR_m1_q_PickRobberyNPCScript)
+	SCPT(TR_m1_q_Pilgrim1_Script)
+	SCPT(TR_m1_q_Pilgrim2_Script)
+	SCPT(TR_m1_q_Poliusjob)
+	SCPT(TR_m1_q_RR_MQ_AzaTrapdoor)
+	SCPT(TR_m1_q_RR_MQ_CatacombsTrapdoor)
+	SCPT(TR_m1_q_RR_MQ_Goras)
+	SCPT(TR_m1_q_RanSwords)
+	SCPT(TR_m1_q_Ratagos)
+	SCPT(TR_m1_q_Shavra_Gra)
+	SCPT(TR_m1_q_ShrineBandit_Script)
+	SCPT(TR_m1_q_SilnielLogbookScript)
+	SCPT(TR_m1_q_Simeth_Faked)
+	SCPT(TR_m1_q_Sinsal)
+	SCPT(TR_m1_q_SlaveDiseased)
+	SCPT(TR_m1_q_SlaveReassign)
+	SCPT(TR_m1_q_TO_ACK_30timer)
+	SCPT(TR_m1_q_TO_ACK_molagsaber)
+	SCPT(TR_m1_q_TO_ACK_nogalocal)
+	SCPT(TR_m1_q_TTShrine1_Script)
+	SCPT(TR_m1_q_TTShrine2_Script)
+	SCPT(TR_m1_q_TTShrine3_Script)
+	SCPT(TR_m1_q_TT_7_VampNPCA)
+	SCPT(TR_m1_q_TT_7_VampNPCD)
+	SCPT(TR_m1_q_TT_7_VampNPCV)
+	SCPT(TR_m1_q_TT_7_Vamps_Script)
+	SCPT(TR_m1_q_TT_AoSW_Script)
+	SCPT(TR_m1_q_TT_Timer)
+	SCPT(TR_m1_q_Telaras)
+	SCPT(TR_m1_q_TelynVedrith)
+	SCPT(TR_m1_q_TidrilVenimDead)
+	SCPT(TR_m1_q_VeroVerdict1)
+	SCPT(TR_m1_q_VeroVerdict2)
+	SCPT(TR_m1_q_YishiniVamp_Script)
+	SCPT(TR_m1_q_Yishini_Script)
+	SCPT(TR_m1_scpt_i2_Drekhva)
+	SCPT(TR_m1_scpt_i2_Glaive)
+	SCPT(TR_m1_script_c_curse_i62)
+	SCPT(TR_m1_script_curse_i62_a)
+	SCPT(TR_m1_script_curse_i62_b)
+	SCPT(TR_m1_script_curse_i62_c)
+	SCPT(TR_m1_script_curse_i62_d)
+	SCPT(TR_m1_script_curse_i62_e)
+	SCPT(TR_m1_treasurehunt_1_script)
+	SCPT(TR_m1_treasurehunt_2_script)
+	SCPT(TR_m1_treasurehunt_3_script)
+	SCPT(TR_m1_treasurehunt_4_script)
+	SCPT(TR_m1_treasurehunt_5_script)
+	SCPT(TR_m2_445_exodusshrine)
+	SCPT(TR_m2_445_resdaynshrine)
+	SCPT(TR_m2_445_sc_AyemFX)
+	SCPT(TR_m2_445_sc_ControlDoor)
+	SCPT(TR_m2_445_sc_Enable_Teleport)
+	SCPT(TR_m2_445_sc_Glow_A)
+	SCPT(TR_m2_445_sc_Glow_S)
+	SCPT(TR_m2_445_sc_Glow_V)
+	SCPT(TR_m2_445_sc_MainBlueMoveBack)
+	SCPT(TR_m2_445_sc_SethFX)
+	SCPT(TR_m2_445_sc_Skull)
+	SCPT(TR_m2_445_sc_StairsFX)
+	SCPT(TR_m2_445_sc_StairsFX_2)
+	SCPT(TR_m2_445_sc_StairsFX_3)
+	SCPT(TR_m2_445_sc_StairsFX_4)
+	SCPT(TR_m2_445_sc_StairsFX_5)
+	SCPT(TR_m2_445_sc_StairsFX_6)
+	SCPT(TR_m2_445_sc_StairsFX_7)
+	SCPT(TR_m2_445_sc_StairsFX_8)
+	SCPT(TR_m2_445_sc_VehkFX)
+	SCPT(TR_m2_445_sc_coreouterdoor)
+	SCPT(TR_m2_445_sc_exhaust)
+	SCPT(TR_m2_445_sc_exhaust_2)
+	SCPT(TR_m2_445_sc_fan)
+	SCPT(TR_m2_445_sc_loadsavedetect)
+	SCPT(TR_m2_56_ancestoroath_out)
+	SCPT(TR_m2_Adren_Alari)
+	SCPT(TR_m2_Aljef)
+	SCPT(TR_m2_Areanne_sc)
+	SCPT(TR_m2_Cantorius_sc)
+	SCPT(TR_m2_DaelaSendu_sc)
+	SCPT(TR_m2_DragonGlade_DayNight_ambie)
+	SCPT(TR_m2_DrolarManor_Skel_sc)
+	SCPT(TR_m2_DunAkafelldoors)
+	SCPT(TR_m2_DunAkafelldoors2)
+	SCPT(TR_m2_EnsaldaNoteScript)
+	SCPT(TR_m2_FG_Arfilgoback)
+	SCPT(TR_m2_FG_Arfilscript)
+	SCPT(TR_m2_FG_Centurionscript)
+	SCPT(TR_m2_FG_Cultist_deathcount)
+	SCPT(TR_m2_FG_Guuljkhascript)
+	SCPT(TR_m2_FG_Hartisescript)
+	SCPT(TR_m2_FG_Hermeascript)
+	SCPT(TR_m2_FG_Joran_Teleportscript)
+	SCPT(TR_m2_FG_Joranscript)
+	SCPT(TR_m2_FG_Rethynscript)
+	SCPT(TR_m2_FG_Selynscript)
+	SCPT(TR_m2_Godred_sc)
+	SCPT(TR_m2_He_MG_LamplitHouseCheck)
+	SCPT(TR_m2_He_M_GaroScript)
+	SCPT(TR_m2_He_M_TemisScript)
+	SCPT(TR_m2_He_TG2_NPC_NevalScript)
+	SCPT(TR_m2_He_TG2_TimerScript)
+	SCPT(TR_m2_He_TG4_VaultScript)
+	SCPT(TR_m2_He_TG_CaedanBetray)
+	SCPT(TR_m2_Helnim_InscrStone_scp)
+	SCPT(TR_m2_Jeela)
+	SCPT(TR_m2_KaishiDeadScript)
+	SCPT(TR_m2_KaishiScript)
+	SCPT(TR_m2_Kamlen_sc)
+	SCPT(TR_m2_NPC_GovesLiran_sc)
+	SCPT(TR_m2_NPC_LucretePonius_sc)
+	SCPT(TR_m2_Necrom_Corpse_sc)
+	SCPT(TR_m2_Nm_BrokenFamilyScript)
+	SCPT(TR_m2_Norem_Inte_Outl1_sc)
+	SCPT(TR_m2_Norem_Inte_Outl2_sc)
+	SCPT(TR_m2_Norem_Inte_Vamp1_sc)
+	SCPT(TR_m2_Norem_Inte_Vamp2_sc)
+	SCPT(TR_m2_Norem_Sanc_Outl_sc)
+	SCPT(TR_m2_Norem_Sanc_Vamp_sc)
+	SCPT(TR_m2_O_MM2_Lliranit)
+	SCPT(TR_m2_Pub_Akamora_Gob)
+	SCPT(TR_m2_Pub_Helnim_Drake)
+	SCPT(TR_m2_Pub_Hlersis_LeakingSpore)
+	SCPT(TR_m2_Pub_InnBetween)
+	SCPT(TR_m2_Pub_Mothrivra_Goblet1)
+	SCPT(TR_m2_Pub_Necrom_Hostel)
+	SCPT(TR_m2_Pub_TelGilan_Racer)
+	SCPT(TR_m2_Renie_Cierraise_sc)
+	SCPT(TR_m2_Sevra_SlaveTrader)
+	SCPT(TR_m2_Sound_Machinery_sc)
+	SCPT(TR_m2_T_CouncilorSc)
+	SCPT(TR_m2_Velyn_Alari)
+	SCPT(TR_m2_Venymlan_switch_sc)
+	SCPT(TR_m2_WindbreakerSmugglerScript)
+	SCPT(TR_m2_ak_flaw_ainabscript)
+	SCPT(TR_m2_ak_flaw_amuletscript)
+	SCPT(TR_m2_fourcornersMA)
+	SCPT(TR_m2_fourcornersMB)
+	SCPT(TR_m2_fourcornersMD)
+	SCPT(TR_m2_fourcornersSH)
+	SCPT(TR_m2_kmlz_Azm_Light_sc)
+	SCPT(TR_m2_kmlz_ChefB_WaterObject_sc)
+	SCPT(TR_m2_kmlz_ChefB_WaterSquare_sc)
+	SCPT(TR_m2_kmlz_Chef_Water_sc)
+	SCPT(TR_m2_kmlz_Chun_Exit_sc)
+	SCPT(TR_m2_kmlz_King_PowerOff_sc)
+	SCPT(TR_m2_kmlz_King_PowerOn_sc)
+	SCPT(TR_m2_kwamaqueen_telgilan)
+	SCPT(TR_m2_necromshrine_SCN)
+	SCPT(TR_m2_necshrineimpwar)
+	SCPT(TR_m2_necshrineoflovers)
+	SCPT(TR_m2_necshrinesharmat)
+	SCPT(TR_m2_q_10_IlverothLeave)
+	SCPT(TR_m2_q_10_IlverothScript)
+	SCPT(TR_m2_q_10_SaveSlaveCheeseIt)
+	SCPT(TR_m2_q_10_SaveSlaveEscape)
+	SCPT(TR_m2_q_10_SaveSlaveKill)
+	SCPT(TR_m2_q_11_FavanaScript)
+	SCPT(TR_m2_q_11_FelmoScript)
+	SCPT(TR_m2_q_12_BanditScript)
+	SCPT(TR_m2_q_12_Counter)
+	SCPT(TR_m2_q_12_FactoryScript)
+	SCPT(TR_m2_q_12_GalseahCultists)
+	SCPT(TR_m2_q_12_JerasTicedo)
+	SCPT(TR_m2_q_12_Nedheleg)
+	SCPT(TR_m2_q_12_Tarbus)
+	SCPT(TR_m2_q_14_NalethChest_sc)
+	SCPT(TR_m2_q_18_DaranoSword_Script)
+	SCPT(TR_m2_q_18_Hjotra_Script)
+	SCPT(TR_m2_q_18_NecroScript)
+	SCPT(TR_m2_q_18_Nevera_Script)
+	SCPT(TR_m2_q_18_Orenin_Script)
+	SCPT(TR_m2_q_18_PriestScript)
+	SCPT(TR_m2_q_22_CursedShieldEx2_sc)
+	SCPT(TR_m2_q_22_CursedShield_Script)
+	SCPT(TR_m2_q_22_WedRing_Script)
+	SCPT(TR_m2_q_22_lw_platter2_sc)
+	SCPT(TR_m2_q_22_lw_platter_Script)
+	SCPT(TR_m2_q_27_AmiroSCN)
+	SCPT(TR_m2_q_27_HozgubSCN)
+	SCPT(TR_m2_q_27_KeySCN)
+	SCPT(TR_m2_q_27_LaalalvoSCN)
+	SCPT(TR_m2_q_27_SeranaSCN)
+	SCPT(TR_m2_q_27_TedrilSCN)
+	SCPT(TR_m2_q_27_mineguard_SCN)
+	SCPT(TR_m2_q_28_Miros_SCN)
+	SCPT(TR_m2_q_29_2_Ass2Script)
+	SCPT(TR_m2_q_29_2_Ass3Script)
+	SCPT(TR_m2_q_29_2_GuvonScrip)
+	SCPT(TR_m2_q_29_4_Dridrea_Script)
+	SCPT(TR_m2_q_29_4_GuardScript)
+	SCPT(TR_m2_q_29_AkaStatScript)
+	SCPT(TR_m2_q_29_Irano2to3Script)
+	SCPT(TR_m2_q_29_RefugeeSCN)
+	SCPT(TR_m2_q_30_MGtarrySCN)
+	SCPT(TR_m2_q_30_finishglobal)
+	SCPT(TR_m2_q_30_plants)
+	SCPT(TR_m2_q_30_potionchest)
+	SCPT(TR_m2_q_35_Ranosa)
+	SCPT(TR_m2_q_35_rewardtimer)
+	SCPT(TR_m2_q_35_undead)
+	SCPT(TR_m2_q_35_vampires)
+	SCPT(TR_m2_q_36_ArvsChestScript)
+	SCPT(TR_m2_q_38_s_Favryn)
+	SCPT(TR_m2_q_38_s_Ilmenireward)
+	SCPT(TR_m2_q_38_s_ashbonemeal)
+	SCPT(TR_m2_q_38_s_candles)
+	SCPT(TR_m2_q_38_s_clone)
+	SCPT(TR_m2_q_38_s_decline)
+	SCPT(TR_m2_q_38_s_door)
+	SCPT(TR_m2_q_38_s_ectoplasm)
+	SCPT(TR_m2_q_38_s_ghost)
+	SCPT(TR_m2_q_38_s_purebonemeal)
+	SCPT(TR_m2_q_38_s_ritend)
+	SCPT(TR_m2_q_38_s_timer)
+	SCPT(TR_m2_q_38_s_wall2)
+	SCPT(TR_m2_q_38_s_walls)
+	SCPT(TR_m2_q_4_AlaudUveran)
+	SCPT(TR_m2_q_4_AnnaveneScript)
+	SCPT(TR_m2_q_4_AttiaMarkerScript)
+	SCPT(TR_m2_q_4_AttiaScript)
+	SCPT(TR_m2_q_4_BrelynDeathScript)
+	SCPT(TR_m2_q_4_GadelaScript)
+	SCPT(TR_m2_q_4_NIYENewGuests)
+	SCPT(TR_m2_q_4_SimundScript)
+	SCPT(TR_m2_q_4_SorenDremora_sc)
+	SCPT(TR_m2_q_4_SorenUveran)
+	SCPT(TR_m2_q_4_SorenUveranLocal)
+	SCPT(TR_m2_q_4_TanyelieMarkerScript)
+	SCPT(TR_m2_q_4_TanyelieScript)
+	SCPT(TR_m2_q_4_VidamScript)
+	SCPT(TR_m2_q_5_Drulusa)
+	SCPT(TR_m2_q_5_OrdReaction)
+	SCPT(TR_m2_q_6_FelresChestScript)
+	SCPT(TR_m2_q_6_Poems)
+	SCPT(TR_m2_q_6_Wait)
+	SCPT(TR_m2_q_9_EyeScript)
+	SCPT(TR_m2_q_9_MessScript)
+	SCPT(TR_m2_q_9_MithasDead_SCN)
+	SCPT(TR_m2_q_9_NilenoScript)
+	SCPT(TR_m2_q_9_PetalsScript)
+	SCPT(TR_m2_q_A8_1_EnnodiusScript)
+	SCPT(TR_m2_q_A8_1_HlorgirScript1)
+	SCPT(TR_m2_q_A8_1_HlorgirScript2)
+	SCPT(TR_m2_q_A8_1_HlorgirScript3)
+	SCPT(TR_m2_q_A8_1_IndalasTimer)
+	SCPT(TR_m2_q_A8_1_TredynScript)
+	SCPT(TR_m2_q_A8_1_VuvilRepScr)
+	SCPT(TR_m2_q_A8_1_VuvilScript)
+	SCPT(TR_m2_q_A8_1_VuvilScript2)
+	SCPT(TR_m2_q_A8_2_NoburaScript)
+	SCPT(TR_m2_q_A8_2_RilasScript)
+	SCPT(TR_m2_q_A8_2_SeindaScript)
+	SCPT(TR_m2_q_A8_4_DridreaScript)
+	SCPT(TR_m2_q_A8_4_MatriarchScript)
+	SCPT(TR_m2_q_A8_5_Dras_Varethi)
+	SCPT(TR_m2_q_A8_5_Midave_Larys)
+	SCPT(TR_m2_q_A8_5_Shamirr_Corpse)
+	SCPT(TR_m2_q_A8_5_Undead)
+	SCPT(TR_m2_q_A8_6_HozgubGlobalScript)
+	SCPT(TR_m2_q_A8_6_SaberRemove)
+	SCPT(TR_m2_q_A8_6_SaberScript)
+	SCPT(TR_m2_q_A8_6_globNPC)
+	SCPT(TR_m2_q_A9_1_IndrysN_scr)
+	SCPT(TR_m2_q_A9_1_SathysN_scr)
+	SCPT(TR_m2_q_A9_2_NedimGhostsScript)
+	SCPT(TR_m2_q_A9_2_NedimScript)
+	SCPT(TR_m2_q_A9_3_DorilScript)
+	SCPT(TR_m2_q_A9_4_VorithScript)
+	SCPT(TR_m2_q_A9_5_Dagger)
+	SCPT(TR_m2_q_A9_5_GhostLeave)
+	SCPT(TR_m2_q_A9_6_DaedrothScript)
+	SCPT(TR_m2_q_A9_6_GhostScript)
+	SCPT(TR_m2_q_A9_6_SkullScript)
+	SCPT(TR_m2_q_AB_Adrosu)
+	SCPT(TR_m2_q_AB_end)
+	SCPT(TR_m2_q_AB_regrowthpotionSCN)
+	SCPT(TR_m2_q_BelMus_Aarlen_scr)
+	SCPT(TR_m2_q_BelMus_Aarlenmove_scr)
+	SCPT(TR_m2_q_BelMus_act_scr)
+	SCPT(TR_m2_q_IL_cliffracerswarm)
+	SCPT(TR_m2_q_Nm_Wake_ethasodeath)
+	SCPT(TR_m2_q_Nm_Wake_logscript)
+	SCPT(TR_m2_q_Nm_Wake_timer)
+	SCPT(TR_m2_q_Nm_Wake_travindeath)
+	SCPT(TR_m2_q_Nm_Wake_vanrythdeath)
+	SCPT(TR_m2_q_Nm_Wake_vanrythscr)
+	SCPT(TR_m2_q_sc_ErvulScript)
+	SCPT(TR_m2_q_sc_NisirelChest)
+	SCPT(TR_m2_removetaintedscrolls_scr)
+	SCPT(TR_m2_script_rocks_i324)
+	SCPT(TR_m2_script_sound_i324)
+	SCPT(TR_m2_shambalu_dridreas_script)
+	SCPT(TR_m2_shambalu_trap_SCRIPT)
+	SCPT(TR_m2_swordscript_i2_326)
+	SCPT(TR_m3-239_rugs)
+	SCPT(TR_m3-239_tapestry)
+	SCPT(TR_m3-591_TGdoor2_script)
+	SCPT(TR_m3-591_TGdoor_script)
+	SCPT(TR_m3-591_moraelynurn_script)
+	SCPT(TR_m3-718_DecorativeArmor_sc)
+	SCPT(TR_m3-718_DecorativeAxe_sc)
+	SCPT(TR_m3_16thbar_scr)
+	SCPT(TR_m3_1912DummyCellsScript)
+	SCPT(TR_m3_A8_Dralin_Belvayn_S)
+	SCPT(TR_m3_A8_Sedaves_Adrendil_S)
+	SCPT(TR_m3_A8_Sulerri_Tharyon_S)
+	SCPT(TR_m3_AT_DrelegorTollmerTimer)
+	SCPT(TR_m3_AT_Literacy_Tilresi)
+	SCPT(TR_m3_AT_Literacy_booksc)
+	SCPT(TR_m3_AT_SilentNight_Timer)
+	SCPT(TR_m3_Aar_Script_Spear)
+	SCPT(TR_m3_AillijarDistractionEscape)
+	SCPT(TR_m3_AillijarMajordomo)
+	SCPT(TR_m3_Aim_BarandasTriggerScript)
+	SCPT(TR_m3_Aim_IvonGone_scp)
+	SCPT(TR_m3_Aim_IvonSerynthul)
+	SCPT(TR_m3_Aim_LHFrontDoor_Scp)
+	SCPT(TR_m3_Aim_ParuddmaTriggerScript)
+	SCPT(TR_m3_Aim_WarehouseTrapScp)
+	SCPT(TR_m3_AimrahDreughExt_Script)
+	SCPT(TR_m3_AimrahGrottoDreugh_Script)
+	SCPT(TR_m3_Aimrah_GilaWall_Script)
+	SCPT(TR_m3_Aimrah_WareHCrank_Script)
+	SCPT(TR_m3_B_Aesithal)
+	SCPT(TR_m3_B_Turedus_scp)
+	SCPT(TR_m3_BloodstoneShrineScript)
+	SCPT(TR_m3_Bo1_FernardScript)
+	SCPT(TR_m3_Bo1_TatteredJournal)
+	SCPT(TR_m3_Brother_IndorilHelm_sc)
+	SCPT(TR_m3_Casik_scr)
+	SCPT(TR_m3_Dilav_Explo)
+	SCPT(TR_m3_DilavesaUndeadScript)
+	SCPT(TR_m3_DulandosNoTeleport)
+	SCPT(TR_m3_Dulandos_door1scn)
+	SCPT(TR_m3_Dulandos_door2scn)
+	SCPT(TR_m3_Dulandos_exitdoorSCN)
+	SCPT(TR_m3_Elimiran_Sc)
+	SCPT(TR_m3_FelmsVelk_sc)
+	SCPT(TR_m3_IL_AdalerineSc)
+	SCPT(TR_m3_IL_PrisonersScript)
+	SCPT(TR_m3_IL_luciascript)
+	SCPT(TR_m3_IL_qyntosguardscript)
+	SCPT(TR_m3_IL_ratscript)
+	SCPT(TR_m3_IL_thiefscript)
+	SCPT(TR_m3_KaladasHammerScript)
+	SCPT(TR_m3_Kha_10_Heart_Sound_Sc)
+	SCPT(TR_m3_Kha_9_Saber_Cursed_Sc)
+	SCPT(TR_m3_Kha_AtroLordDis_sc)
+	SCPT(TR_m3_Kha_Black_Heart_Script)
+	SCPT(TR_m3_Kha_ClannLordDis_sc)
+	SCPT(TR_m3_Kha_DremoraSmith_sc)
+	SCPT(TR_m3_Kha_Enable_Teleport)
+	SCPT(TR_m3_Kha_Exit_Block)
+	SCPT(TR_m3_Kha_Exit_Block_Curse)
+	SCPT(TR_m3_Kha_FireScamp_sc)
+	SCPT(TR_m3_Kha_InactiveShrine_sc)
+	SCPT(TR_m3_Kha_Int_ExSound_Sc)
+	SCPT(TR_m3_Kha_Loop_Global)
+	SCPT(TR_m3_Kha_Methats_sc)
+	SCPT(TR_m3_Kha_Myrahaz_Script)
+	SCPT(TR_m3_Kha_SY_convinced_sc)
+	SCPT(TR_m3_Kha_SY_hand_sc)
+	SCPT(TR_m3_Kha_Sound_Loop)
+	SCPT(TR_m3_Kha_Whisp_Flame_sc)
+	SCPT(TR_m3_Kha_Whisp_Fountain)
+	SCPT(TR_m3_Kha_Zraal_Script)
+	SCPT(TR_m3_LA_HengorTrapScript)
+	SCPT(TR_m3_LlandoraNPC)
+	SCPT(TR_m3_LocketRemove)
+	SCPT(TR_m3_LocketSmash)
+	SCPT(TR_m3_MaesabunMummyContainer)
+	SCPT(TR_m3_MaesabunMummySurprise)
+	SCPT(TR_m3_NPC_Aillijar)
+	SCPT(TR_m3_NPC_Aim_IndGrd_scp)
+	SCPT(TR_m3_NPC_Aim_Nidara_Drelvi)
+	SCPT(TR_m3_NPC_Anara2Aimrah)
+	SCPT(TR_m3_NPC_AnaraAimrah)
+	SCPT(TR_m3_NPC_Carmana)
+	SCPT(TR_m3_NPC_Clone_Marlene)
+	SCPT(TR_m3_NPC_Dava_Arenim)
+	SCPT(TR_m3_NPC_Derlethir)
+	SCPT(TR_m3_NPC_Diranya)
+	SCPT(TR_m3_NPC_DolynVolor)
+	SCPT(TR_m3_NPC_DrelegorUlesseth)
+	SCPT(TR_m3_NPC_HlarvenBerend)
+	SCPT(TR_m3_NPC_HorravFillipian)
+	SCPT(TR_m3_NPC_HvaldurScript)
+	SCPT(TR_m3_NPC_IlleneBoatGuy)
+	SCPT(TR_m3_NPC_IlleneOrd2_scp)
+	SCPT(TR_m3_NPC_IlleneOrd_scp)
+	SCPT(TR_m3_NPC_IndorilDanvas)
+	SCPT(TR_m3_NPC_Indoril_Beroth_sc)
+	SCPT(TR_m3_NPC_JaJabba)
+	SCPT(TR_m3_NPC_Jalor_Indo)
+	SCPT(TR_m3_NPC_Jebyn)
+	SCPT(TR_m3_NPC_Llahrena_Androthi)
+	SCPT(TR_m3_NPC_LlarenIlvi)
+	SCPT(TR_m3_NPC_Llendyl)
+	SCPT(TR_m3_NPC_Llevari_Uvelar)
+	SCPT(TR_m3_NPC_Marlene)
+	SCPT(TR_m3_NPC_NerasaVeran)
+	SCPT(TR_m3_NPC_Nerlis)
+	SCPT(TR_m3_NPC_Nirmeni_Ieneth)
+	SCPT(TR_m3_NPC_OE_AetiaNemesia)
+	SCPT(TR_m3_NPC_OE_Alju-Deekus)
+	SCPT(TR_m3_NPC_OE_AntioFlorane)
+	SCPT(TR_m3_NPC_OE_BrallusMele)
+	SCPT(TR_m3_NPC_OE_CapnFentus)
+	SCPT(TR_m3_NPC_OE_Caros_Cocceius)
+	SCPT(TR_m3_NPC_OE_DalvorScript)
+	SCPT(TR_m3_NPC_OE_DelagiaGuard)
+	SCPT(TR_m3_NPC_OE_EnixDead)
+	SCPT(TR_m3_NPC_OE_Grin)
+	SCPT(TR_m3_NPC_OE_Hhontjulf)
+	SCPT(TR_m3_NPC_OE_Hlarsis)
+	SCPT(TR_m3_NPC_OE_KarandiaCorrux)
+	SCPT(TR_m3_NPC_OE_Kelkemmello)
+	SCPT(TR_m3_NPC_OE_Kelkemmello_WT)
+	SCPT(TR_m3_NPC_OE_Medemilian)
+	SCPT(TR_m3_NPC_OE_Missa_Rhyle)
+	SCPT(TR_m3_NPC_OE_Nagheen)
+	SCPT(TR_m3_NPC_OE_Ninnethel)
+	SCPT(TR_m3_NPC_OE_OtrebusDelagia)
+	SCPT(TR_m3_NPC_OE_Prince_Ji'Morashu-ri)
+	SCPT(TR_m3_NPC_OE_Rothur)
+	SCPT(TR_m3_NPC_OE_Ruma)
+	SCPT(TR_m3_NPC_OE_Saturius)
+	SCPT(TR_m3_NPC_OE_StabbyJak)
+	SCPT(TR_m3_NPC_OE_StabbyJakPrison)
+	SCPT(TR_m3_NPC_OE_Svarr)
+	SCPT(TR_m3_NPC_OE_ThreeScales)
+	SCPT(TR_m3_NPC_OE_Velmu)
+	SCPT(TR_m3_NPC_OE_WryEyeMoranie)
+	SCPT(TR_m3_NPC_OE_Yggulf)
+	SCPT(TR_m3_NPC_OE_Zissicheeiva)
+	SCPT(TR_m3_NPC_OE_common)
+	SCPT(TR_m3_NPC_OE_commonNoLore)
+	SCPT(TR_m3_NPC_OE_poor)
+	SCPT(TR_m3_NPC_OE_poorNoLore)
+	SCPT(TR_m3_NPC_OE_rich)
+	SCPT(TR_m3_NPC_OE_richNoLore)
+	SCPT(TR_m3_NPC_OE_tower)
+	SCPT(TR_m3_NPC_OE_towerNoLore)
+	SCPT(TR_m3_NPC_Obedur_Marvus)
+	SCPT(TR_m3_NPC_Raleth_Falveno)
+	SCPT(TR_m3_NPC_RomitGilith)
+	SCPT(TR_m3_NPC_SeranDreth)
+	SCPT(TR_m3_NPC_Ulvo_Telvor)
+	SCPT(TR_m3_NPC_Velms)
+	SCPT(TR_m3_NPC_WhereStars)
+	SCPT(TR_m3_NPC_Zadathys_Aldrethi)
+	SCPT(TR_m3_OE_BeruTimer1)
+	SCPT(TR_m3_OE_BeruTimer2)
+	SCPT(TR_m3_OE_BeruTimer3)
+	SCPT(TR_m3_OE_BeruTimer4)
+	SCPT(TR_m3_OE_CuriaVaultInscribeSCP)
+	SCPT(TR_m3_OE_DieDremoraDie)
+	SCPT(TR_m3_OE_DukeTimer)
+	SCPT(TR_m3_OE_ETCensusDoorScript)
+	SCPT(TR_m3_OE_ETCensusRepair1)
+	SCPT(TR_m3_OE_ETCensusRepair2)
+	SCPT(TR_m3_OE_ETCensusRepair3)
+	SCPT(TR_m3_OE_ETCensusRepair4)
+	SCPT(TR_m3_OE_ETCensusRepair5)
+	SCPT(TR_m3_OE_ETCensusRepair6a)
+	SCPT(TR_m3_OE_ETCensusRepair6b)
+	SCPT(TR_m3_OE_ETCensusRepair6c)
+	SCPT(TR_m3_OE_ETCensusRepair7)
+	SCPT(TR_m3_OE_ETCensusRepair8)
+	SCPT(TR_m3_OE_ETCensus_RepairScript)
+	SCPT(TR_m3_OE_FG_MargiaT_scr)
+	SCPT(TR_m3_OE_FG_Margia_scr)
+	SCPT(TR_m3_OE_FG_TideAmuGlob)
+	SCPT(TR_m3_OE_FG_UnendingScr)
+	SCPT(TR_m3_OE_FG_cr_Velkscr)
+	SCPT(TR_m3_OE_FG_foedus)
+	SCPT(TR_m3_OE_FG_p_uncurse_scr)
+	SCPT(TR_m3_OE_FG_q_AmuBTScr)
+	SCPT(TR_m3_OE_FG_q_AmuGTScr)
+	SCPT(TR_m3_OE_FG_q_AmuWTScr)
+	SCPT(TR_m3_OE_FG_q_AurelDoorScr)
+	SCPT(TR_m3_OE_FG_q_AurelGhostScr)
+	SCPT(TR_m3_OE_FG_q_ConstAxeScr)
+	SCPT(TR_m3_OE_FG_q_ConstSkeScr)
+	SCPT(TR_m3_OE_FG_q_KamaraNoteScr)
+	SCPT(TR_m3_OE_FG_q_LenwynScr)
+	SCPT(TR_m3_OE_FG_q_LenwynSkelScr)
+	SCPT(TR_m3_OE_FG_q_VermaiScr)
+	SCPT(TR_m3_OE_Fentus2_scp)
+	SCPT(TR_m3_OE_GalugScript)
+	SCPT(TR_m3_OE_HauntPatrol)
+	SCPT(TR_m3_OE_KaladShrine_scp)
+	SCPT(TR_m3_OE_MGGemReward_sc)
+	SCPT(TR_m3_OE_MGGemReward_sc_m1)
+	SCPT(TR_m3_OE_MGGemReward_sc_m2)
+	SCPT(TR_m3_OE_MGGemReward_sc_m3)
+	SCPT(TR_m3_OE_MGGemReward_sc_m4)
+	SCPT(TR_m3_OE_MGGemReward_sc_m5)
+	SCPT(TR_m3_OE_MGGemReward_sc_sheog)
+	SCPT(TR_m3_OE_MG_Amelphia)
+	SCPT(TR_m3_OE_MG_AstienGreeting)
+	SCPT(TR_m3_OE_MG_DaedricStaff_remove)
+	SCPT(TR_m3_OE_MG_DeadAtronach)
+	SCPT(TR_m3_OE_MG_GeodeMiningCrystal)
+	SCPT(TR_m3_OE_MG_PuzzleBedKing4)
+	SCPT(TR_m3_OE_MG_PuzzleEnableTele)
+	SCPT(TR_m3_OE_MG_PuzzleExitSCN)
+	SCPT(TR_m3_OE_MG_PuzzleHallRedguard)
+	SCPT(TR_m3_OE_MG_PuzzleJournalBodySc)
+	SCPT(TR_m3_OE_MG_PuzzleStudyGhost)
+	SCPT(TR_m3_OE_MG_Rest)
+	SCPT(TR_m3_OE_MG_StudyTrapFire)
+	SCPT(TR_m3_OE_MG_StudyTrapFrost)
+	SCPT(TR_m3_OE_MG_StudyTrapShock)
+	SCPT(TR_m3_OE_MG_WearingColdRobe)
+	SCPT(TR_m3_OE_MG_placeguar1)
+	SCPT(TR_m3_OE_MG_ralaniscr)
+	SCPT(TR_m3_OE_MG_stopflying)
+	SCPT(TR_m3_OE_MageChallenge_End)
+	SCPT(TR_m3_OE_MageChallenge_Failure)
+	SCPT(TR_m3_OE_Pack_Guar_return)
+	SCPT(TR_m3_OE_Pack_Guar_sc)
+	SCPT(TR_m3_OE_Phyrious_sc)
+	SCPT(TR_m3_OE_PrisonIronNails_SCRIPT)
+	SCPT(TR_m3_OE_RaathimT01SCP)
+	SCPT(TR_m3_OE_RaathimT02SCP)
+	SCPT(TR_m3_OE_RaathimTeleportGlobSc)
+	SCPT(TR_m3_OE_RaathimTeleportScript)
+	SCPT(TR_m3_OE_RaathimUndead_SCP)
+	SCPT(TR_m3_OE_Robe_NoTake)
+	SCPT(TR_m3_OE_RotherNerevyn_Sc)
+	SCPT(TR_m3_OE_RumaDisableSCP)
+	SCPT(TR_m3_OE_RumaDoor01SCP)
+	SCPT(TR_m3_OE_RumaDoor02SCP)
+	SCPT(TR_m3_OE_RumaDoor03SCP)
+	SCPT(TR_m3_OE_RumaDoor04SCP)
+	SCPT(TR_m3_OE_RumaGDisableSCP)
+	SCPT(TR_m3_OE_RumorCount_sc)
+	SCPT(TR_m3_OE_ScNPC_DarhejoDisable)
+	SCPT(TR_m3_OE_ScNPC_NeelGymont)
+	SCPT(TR_m3_OE_SewerEastStoneSCP)
+	SCPT(TR_m3_OE_SvarrDisableSCP)
+	SCPT(TR_m3_OE_TG_AntioBookNDagger)
+	SCPT(TR_m3_OE_TG_AntioDeadChecker_sc)
+	SCPT(TR_m3_OE_TG_AntioHelped)
+	SCPT(TR_m3_OE_TG_AntioKilled)
+	SCPT(TR_m3_OE_TG_CartSCP)
+	SCPT(TR_m3_OE_TG_ChunzefkBlockSCP)
+	SCPT(TR_m3_OE_TG_ChunzefkRockSCP)
+	SCPT(TR_m3_OE_TG_DelaGoon_scp)
+	SCPT(TR_m3_OE_TG_DummyCrank_SCP)
+	SCPT(TR_m3_OE_TG_DungeonD01SCP)
+	SCPT(TR_m3_OE_TG_DungeonD02SCP)
+	SCPT(TR_m3_OE_TG_EmpressGateSCP)
+	SCPT(TR_m3_OE_TG_EnableUndead_SCP)
+	SCPT(TR_m3_OE_TG_FentusBoat_scp)
+	SCPT(TR_m3_OE_TG_InnScript)
+	SCPT(TR_m3_OE_TG_KatariahDisp01_SCP)
+	SCPT(TR_m3_OE_TG_KatariahDisp02_SCP)
+	SCPT(TR_m3_OE_TG_MaskCheck_SCP)
+	SCPT(TR_m3_OE_TG_MedeRane2_scp)
+	SCPT(TR_m3_OE_TG_PlaceGuards)
+	SCPT(TR_m3_OE_TG_PoisonWineScript)
+	SCPT(TR_m3_OE_TG_SaldroLibraryScript)
+	SCPT(TR_m3_OE_TG_Undead_SCP)
+	SCPT(TR_m3_OE_TG_YggulfKeyScript)
+	SCPT(TR_m3_OE_TarhielManager_script)
+	SCPT(TR_m3_OE_TelvanniDaedraScript)
+	SCPT(TR_m3_OE_TiberDaggerStoneSCP)
+	SCPT(TR_m3_OE_TindalosScript)
+	SCPT(TR_m3_OE_Tomb5PermaOpen_scp)
+	SCPT(TR_m3_OE_TombCrush_scp)
+	SCPT(TR_m3_OE_TombPermaOpenSmoke_scp)
+	SCPT(TR_m3_OE_TombPermaOpen_scp)
+	SCPT(TR_m3_OE_VaultApparatus2SCP)
+	SCPT(TR_m3_OE_VaultCrystalSCP)
+	SCPT(TR_m3_OE_VivecDaggerStoneSCP)
+	SCPT(TR_m3_OE_chapel_chant)
+	SCPT(TR_m3_OE_fiendchest_scr)
+	SCPT(TR_m3_OE_fiendgem_scr)
+	SCPT(TR_m3_OE_maingate_enable_script)
+	SCPT(TR_m3_OE_plaza_spout_script)
+	SCPT(TR_m3_OE_q_AshlanderSainat)
+	SCPT(TR_m3_OE_q_AshlanderYavan)
+	SCPT(TR_m3_OE_q_MurderousKnight)
+	SCPT(TR_m3_OE_q_MurderousKnight2)
+	SCPT(TR_m3_OE_q_StabbyTimer)
+	SCPT(TR_m3_OE_q_TBrassDwemer)
+	SCPT(TR_m3_OE_q_TBrassSack)
+	SCPT(TR_m3_OE_q_TBrassStuff)
+	SCPT(TR_m3_OE_q_TWoodenSack)
+	SCPT(TR_m3_OE_q_TheftBrass)
+	SCPT(TR_m3_OE_q_TownKnight)
+	SCPT(TR_m3_OE_q_kwamasmug_remove)
+	SCPT(TR_m3_OE_q_kwamasmug_scr)
+	SCPT(TR_m3_OE_removeBowlScript)
+	SCPT(TR_m3_O_Akindal_SCN)
+	SCPT(TR_m3_Pub_AT_HC)
+	SCPT(TR_m3_Pub_AT_LS)
+	SCPT(TR_m3_Pub_AT_TS)
+	SCPT(TR_m3_Pub_Aimrah_Inn)
+	SCPT(TR_m3_Pub_Darnim_Windbrk)
+	SCPT(TR_m3_Pub_Empress_Katariah)
+	SCPT(TR_m3_Pub_HuntedHound)
+	SCPT(TR_m3_Pub_Meralag_Glade)
+	SCPT(TR_m3_Pub_Moth_and_Tiger)
+	SCPT(TR_m3_Pub_Sailen_Toiling)
+	SCPT(TR_m3_Pub_Salty_Futtocks)
+	SCPT(TR_m3_Pub_Vhul_HowlHound)
+	SCPT(TR_m3_RDDorogGroDurin-Script)
+	SCPT(TR_m3_RDHlesVervul-Script)
+	SCPT(TR_m3_RDSuladaSyrivis-Script)
+	SCPT(TR_m3_RD_q_EJP_EveshiSC)
+	SCPT(TR_m3_RD_q_EJP_SackSC)
+	SCPT(TR_m3_RD_q_EJP_TGT1SC)
+	SCPT(TR_m3_RD_q_EJP_TGT2SC)
+	SCPT(TR_m3_RD_q_EJP_TalenSC)
+	SCPT(TR_m3_RalethDead)
+	SCPT(TR_m3_RalethNPC)
+	SCPT(TR_m3_Relamscript)
+	SCPT(TR_m3_Reynardscript)
+	SCPT(TR_m3_RoaDyrFieldSlave_Sc)
+	SCPT(TR_m3_RoaDyrHetman_Sc)
+	SCPT(TR_m3_Sa_BlindCurse)
+	SCPT(TR_m3_Sa_CurseEffect)
+	SCPT(TR_m3_Sabinescript)
+	SCPT(TR_m3_SubfuscousNoTeleport)
+	SCPT(TR_m3_SummonZymelKaazGem)
+	SCPT(TR_m3_TT_BloodstoneAct_script)
+	SCPT(TR_m3_TT_Dis_deadpauper_scr)
+	SCPT(TR_m3_TT_Dis_kraskira_khscr)
+	SCPT(TR_m3_TT_Dis_roadyrflame_sc)
+	SCPT(TR_m3_TT_Dis_summonscr_sc)
+	SCPT(TR_m3_TT_FS_body_sc)
+	SCPT(TR_m3_TT_FS_chimerascr)
+	SCPT(TR_m3_TT_FS_chimerascr_2)
+	SCPT(TR_m3_TT_FS_chimerauniscr)
+	SCPT(TR_m3_TT_FS_dae_scr)
+	SCPT(TR_m3_TT_FS_facelessscr)
+	SCPT(TR_m3_TT_FS_helm_scr)
+	SCPT(TR_m3_TT_FS_msngr_sc)
+	SCPT(TR_m3_TT_Flood_ashenable)
+	SCPT(TR_m3_TT_IlleneAssa01_NPC)
+	SCPT(TR_m3_TT_IlleneAssa02_NPC)
+	SCPT(TR_m3_TT_IlleneAssa03_NPC)
+	SCPT(TR_m3_TT_InquisitorMantleScript)
+	SCPT(TR_m3_TT_Lloris5_Calitia_scp)
+	SCPT(TR_m3_TT_Lloris5_NPC_Ordinator)
+	SCPT(TR_m3_TT_RIP_dala_sc)
+	SCPT(TR_m3_TT_RIP_fedura_sc)
+	SCPT(TR_m3_TT_RIP_garvs_sc)
+	SCPT(TR_m3_TT_RIP_garvsdead_sc)
+	SCPT(TR_m3_TT_RIP_note_sc)
+	SCPT(TR_m3_TT_RIP_ord_sc)
+	SCPT(TR_m3_TT_RIP_ritualcandle_sc)
+	SCPT(TR_m3_TT_SY_speaker_Mover_sc)
+	SCPT(TR_m3_Urien_script)
+	SCPT(TR_m3_Vh_BardsMonsterDeath)
+	SCPT(TR_m3_Vh_BardsVampire)
+	SCPT(TR_m3_Vh_HonnsNPC)
+	SCPT(TR_m3_Vh_OnvosNPC)
+	SCPT(TR_m3_Wavebreak_gate1scn)
+	SCPT(TR_m3_Zanammu_LichSCN)
+	SCPT(TR_m3_ZymelKaazSummon)
+	SCPT(TR_m3_act_OE_LegHQnails_scpt)
+	SCPT(TR_m3_diamondxaxmir)
+	SCPT(TR_m3_dwemeroreprobe_scr)
+	SCPT(TR_m3_dwepuz_brksteam)
+	SCPT(TR_m3_dwepuz_broke)
+	SCPT(TR_m3_dwepuz_winstm)
+	SCPT(TR_m3_elysanadiamondscr)
+	SCPT(TR_m3_embedspear)
+	SCPT(TR_m3_fallroomsnd)
+	SCPT(TR_m3_fightersduel_1)
+	SCPT(TR_m3_fightersduel_2)
+	SCPT(TR_m3_i589_BlockedDoor_Script)
+	SCPT(TR_m3_i589_Claws2_Script)
+	SCPT(TR_m3_i589_Claws_Script)
+	SCPT(TR_m3_mzginthlegfth_doorscr)
+	SCPT(TR_m3_oe_eecq1_scr)
+	SCPT(TR_m3_q_10_Axe_Yaga_Script)
+	SCPT(TR_m3_q_10_cultists_script)
+	SCPT(TR_m3_q_11_Berelas_Script)
+	SCPT(TR_m3_q_11_guards_script)
+	SCPT(TR_m3_q_12_KriepsDeath)
+	SCPT(TR_m3_q_12_KriepsTimer)
+	SCPT(TR_m3_q_13_LaastaScript)
+	SCPT(TR_m3_q_13_StarCountScript)
+	SCPT(TR_m3_q_14_Delamus_Script)
+	SCPT(TR_m3_q_14_staff_script)
+	SCPT(TR_m3_q_3_BalamusDoor_sc)
+	SCPT(TR_m3_q_3_Balamus_sc)
+	SCPT(TR_m3_q_3_Prisoner_sc)
+	SCPT(TR_m3_q_3_Relamus_sc)
+	SCPT(TR_m3_q_3_VaultDoor_sc)
+	SCPT(TR_m3_q_3_VaultWatcher_sc)
+	SCPT(TR_m3_q_3_global)
+	SCPT(TR_m3_q_3_guard)
+	SCPT(TR_m3_q_4_KiseenScript)
+	SCPT(TR_m3_q_4_SlaveScript)
+	SCPT(TR_m3_q_4_SmugglersScript)
+	SCPT(TR_m3_q_5_Julie_script)
+	SCPT(TR_m3_q_5_escort_script)
+	SCPT(TR_m3_q_6_Edryon)
+	SCPT(TR_m3_q_9_velk_dag)
+	SCPT(TR_m3_q_A5_Ashlanders)
+	SCPT(TR_m3_q_A5_Ashlanders2)
+	SCPT(TR_m3_q_A5_AthryilScript)
+	SCPT(TR_m3_q_A5_MEChestSCN)
+	SCPT(TR_m3_q_A5_Mahhjat)
+	SCPT(TR_m3_q_A5_MarcusReprus)
+	SCPT(TR_m3_q_A5_SmugglerNote)
+	SCPT(TR_m3_q_A5_SmugglerSack)
+	SCPT(TR_m3_q_A5_SmugglerScript)
+	SCPT(TR_m3_q_A5_VerosDilthimScript)
+	SCPT(TR_m3_q_A5_WineCrate)
+	SCPT(TR_m3_q_A5_spoiledwine_SCN)
+	SCPT(TR_m3_q_A7_DiremScript)
+	SCPT(TR_m3_q_A7_ErdwulfScript)
+	SCPT(TR_m3_q_A7_NethrilLights)
+	SCPT(TR_m3_q_A7_NirmimmiScript)
+	SCPT(TR_m3_q_A7_RithreScript)
+	SCPT(TR_m3_q_A7_SeiTimer)
+	SCPT(TR_m3_q_A7_YannibScript)
+	SCPT(TR_m3_q_A7_ashinanibibiSaintSc)
+	SCPT(TR_m3_q_A7_harrumatGateScript)
+	SCPT(TR_m3_q_A7_harrumatKeyScript)
+	SCPT(TR_m3_q_A9_Bonelord_Script)
+	SCPT(TR_m3_q_A9_Bonewalker_Script)
+	SCPT(TR_m3_q_A9_DalamMarys)
+	SCPT(TR_m3_q_A9_EthasiBalvel)
+	SCPT(TR_m3_q_A9_GhostTombScript)
+	SCPT(TR_m3_q_A9_Ghost_Script)
+	SCPT(TR_m3_q_A9_GolvesoDarys)
+	SCPT(TR_m3_q_A9_IdrosoMenas)
+	SCPT(TR_m3_q_A9_Lati-An_Script)
+	SCPT(TR_m3_q_A9_WitchCombat)
+	SCPT(TR_m3_q_A9_Witchhunter)
+	SCPT(TR_m3_q_A9_WitchhunterDisappear)
+	SCPT(TR_m3_q_A9_daedrothreward_em)
+	SCPT(TR_m3_q_A9_daedrothreward_sc)
+	SCPT(TR_m3_q_A9_relicboxscript)
+	SCPT(TR_m3_q_A9_rescueparty)
+	SCPT(TR_m3_q_A9_strandedpilgrim)
+	SCPT(TR_m3_q_A9_witchhuntermove)
+	SCPT(TR_m3_q_AT_recipe_script)
+	SCPT(TR_m3_q_Azarien)
+	SCPT(TR_m3_q_Deed_Script_01)
+	SCPT(TR_m3_q_Deed_Script_Slaves)
+	SCPT(TR_m3_q_Deed_Spy_Script_01)
+	SCPT(TR_m3_q_FerilTradeRecordsScript)
+	SCPT(TR_m3_q_IenasaJug_Script)
+	SCPT(TR_m3_q_Kha_ThulSummon_sc)
+	SCPT(TR_m3_q_Kha_ThulSummon_sc2)
+	SCPT(TR_m3_q_Kha_ogrim_script)
+	SCPT(TR_m3_q_Kha_teleport_amulet_sc)
+	SCPT(TR_m3_q_Kha_uridimmu_script)
+	SCPT(TR_m3_q_NelynFathis)
+	SCPT(TR_m3_q_NelynFathisAfm)
+	SCPT(TR_m3_q_OE_MG_AmuletScript)
+	SCPT(TR_m3_q_OE_MG_DremLordScript)
+	SCPT(TR_m3_q_OE_MG_GemScript1)
+	SCPT(TR_m3_q_OE_MG_GemScript2)
+	SCPT(TR_m3_q_OE_MG_PuzzleDoor_sc)
+	SCPT(TR_m3_q_OE_MG_RemoveGems)
+	SCPT(TR_m3_q_OE_MG_VeneDoor_sc)
+	SCPT(TR_m3_q_OE_Ulka_gamble_p_sc)
+	SCPT(TR_m3_q_OE_Ulka_gamble_u_sc)
+	SCPT(TR_m3_q_OE_Urien_Crab_sc)
+	SCPT(TR_m3_q_OE_Urien_Crate_sc)
+	SCPT(TR_m3_q_OE_Urien_Journal_sc)
+	SCPT(TR_m3_q_Rils_Grotto_Shipmaster)
+	SCPT(TR_m3_q_Rils_Grotto_Timer)
+	SCPT(TR_m3_q_STPurge)
+	SCPT(TR_m3_q_SY_Ienni2_sc)
+	SCPT(TR_m3_q_SY_ancestor_sc)
+	SCPT(TR_m3_q_TheRiftBk)
+	SCPT(TR_m3_q_TheRiftBodies)
+	SCPT(TR_m3_q_TheRiftCage)
+	SCPT(TR_m3_q_TheRiftEnableTeleport)
+	SCPT(TR_m3_q_TheRiftFloodCandleOff)
+	SCPT(TR_m3_q_TheRiftFloodDisable)
+	SCPT(TR_m3_q_TheRiftFloodLampOff)
+	SCPT(TR_m3_q_TheRiftSpawn)
+	SCPT(TR_m3_q_TheRiftVictim)
+	SCPT(TR_m3_q_TheRiftWaterfallScript)
+	SCPT(TR_m3_q_a9_pilgrimsupplieschest)
+	SCPT(TR_m3_q_counterfeiter_scr)
+	SCPT(TR_m3_q_counterfeiterlead_scr)
+	SCPT(TR_m3_q_eecguard_scr)
+	SCPT(TR_m3_q_eechint_scr)
+	SCPT(TR_m3_q_eecminetime_scr)
+	SCPT(TR_m3_q_fakedwemercoin_scr)
+	SCPT(TR_m3_q_fiend2_scr)
+	SCPT(TR_m3_q_fiend3_scr)
+	SCPT(TR_m3_q_fiend3clones_scr)
+	SCPT(TR_m3_q_fiend4_scr)
+	SCPT(TR_m3_q_fiend5_scr)
+	SCPT(TR_m3_q_fiend6_scr)
+	SCPT(TR_m3_q_fiendbladeempty_scr)
+	SCPT(TR_m3_q_fiendbladefull_scr)
+	SCPT(TR_m3_q_fiendscrib_scr)
+	SCPT(TR_m3_q_guardcall)
+	SCPT(TR_m3_q_hideseekcleanup)
+	SCPT(TR_m3_q_hideseekdrink)
+	SCPT(TR_m3_q_kharg)
+	SCPT(TR_m3_q_llandesa_1_scr)
+	SCPT(TR_m3_q_llandesa_2_scr)
+	SCPT(TR_m3_q_theril)
+	SCPT(TR_m3_q_vampambush)
+	SCPT(TR_m3_vaden_noface_scr)
+	SCPT(TR_m3_vadenbaro_scr)
+	SCPT(TR_m3_velothmiracle_i3_138_tri)
+	SCPT(TR_m3_vontusclothing_scr)
+	SCPT(TR_m3_zan_indoskelScript)
+	SCPT(TR_m4-349_WaterTrap_Lever_Sc)
+	SCPT(TR_m4_AA_Agarinnu_sc)
+	SCPT(TR_m4_AA_Ahaatu_sc)
+	SCPT(TR_m4_AA_BanditCart_sc)
+	SCPT(TR_m4_AA_BorderBarrier_scp)
+	SCPT(TR_m4_AA_DamiloCrate_scp)
+	SCPT(TR_m4_AA_DisableOnce_Scp)
+	SCPT(TR_m4_AA_Ganahiru_Script)
+	SCPT(TR_m4_AA_MarUtu_sc)
+	SCPT(TR_m4_AA_OutpostGate_scp)
+	SCPT(TR_m4_AA_Senipal_sc)
+	SCPT(TR_m4_AA_ShanAhheKagouti_scp)
+	SCPT(TR_m4_AA_Tomb_2_Marqureth_Sc)
+	SCPT(TR_m4_AA_Vf_NPC_NoLoresc)
+	SCPT(TR_m4_AA_Vf_NPCsc)
+	SCPT(TR_m4_AA_q_SehutuTrapDoor)
+	SCPT(TR_m4_AizuhrSuurScript)
+	SCPT(TR_m4_AlynuChestScript)
+	SCPT(TR_m4_AlynuPile0Script)
+	SCPT(TR_m4_AlynuPileScript)
+	SCPT(TR_m4_And_GavrosDeskScript)
+	SCPT(TR_m4_AndasPaint_scp)
+	SCPT(TR_m4_AndasVaultCheckerScript)
+	SCPT(TR_m4_AndoHH_CrateDisable)
+	SCPT(TR_m4_AndoHH_MilnsLetterScript)
+	SCPT(TR_m4_AndoHH_OfficeEggControl)
+	SCPT(TR_m4_AndoHH_SealedLetter_sc)
+	SCPT(TR_m4_AndoHH_ShipTimer)
+	SCPT(TR_m4_AndoHH_SujammaCrate)
+	SCPT(TR_m4_AndoHH_VelkScript)
+	SCPT(TR_m4_Ando_MG_8_FocusLensFix)
+	SCPT(TR_m4_Ando_MG_8a_JournalUpdate)
+	SCPT(TR_m4_Ando_MG_CasterSc)
+	SCPT(TR_m4_AndothDweAcid01_scp)
+	SCPT(TR_m4_AndothDweBanners01_scp)
+	SCPT(TR_m4_AndothDweBarDart1_scp)
+	SCPT(TR_m4_AndothDweBarFlin_scp)
+	SCPT(TR_m4_AndothDweBarGreef_scp)
+	SCPT(TR_m4_AndothDweBarMug_scp)
+	SCPT(TR_m4_AndothDweBarPlate1_scp)
+	SCPT(TR_m4_AndothDweBarPlate2_scp)
+	SCPT(TR_m4_AndothDweBarSet01_scp)
+	SCPT(TR_m4_AndothDweBarSet02_scp)
+	SCPT(TR_m4_AndothDweBarSuja_scp)
+	SCPT(TR_m4_AndothDweBarrel01_scp)
+	SCPT(TR_m4_AndothDweBed01_scp)
+	SCPT(TR_m4_AndothDweChest01_scp)
+	SCPT(TR_m4_AndothDweChest02_scp)
+	SCPT(TR_m4_AndothDweCoinPurse01_scp)
+	SCPT(TR_m4_AndothDweDoor01_scp)
+	SCPT(TR_m4_AndothDweDoor02_scp)
+	SCPT(TR_m4_AndothDweDummy01_scp)
+	SCPT(TR_m4_AndothDweGear02_scp)
+	SCPT(TR_m4_AndothDweGear04_scp)
+	SCPT(TR_m4_AndothDweHammer01_scp)
+	SCPT(TR_m4_AndothDweLight01_scp)
+	SCPT(TR_m4_AndothDweLock01_scp)
+	SCPT(TR_m4_AndothDwePick01_scp)
+	SCPT(TR_m4_AndothDwePillow01_scp)
+	SCPT(TR_m4_AndothDwePlants01_scp)
+	SCPT(TR_m4_AndothDwePlants02_scp)
+	SCPT(TR_m4_AndothDwePoolSide01_scp)
+	SCPT(TR_m4_AndothDweProbe01_scp)
+	SCPT(TR_m4_AndothDweProng01_scp)
+	SCPT(TR_m4_AndothDweRug01_scp)
+	SCPT(TR_m4_AndothDweStatue01_scp)
+	SCPT(TR_m4_AndothDweStove_scp)
+	SCPT(TR_m4_AndothDweTable03_scp)
+	SCPT(TR_m4_AndothDweTrap01_scp)
+	SCPT(TR_m4_AndothWharfCheck2_scp)
+	SCPT(TR_m4_AndothWharfCheck_scp)
+	SCPT(TR_m4_AndothWharfDoor_scp)
+	SCPT(TR_m4_Andoth_AlmalexiaShrine_sc)
+	SCPT(TR_m4_Andoth_AndasCrusher_scp)
+	SCPT(TR_m4_Andoth_VendicciDoor02_scp)
+	SCPT(TR_m4_Armun_Dead_Caravan_script)
+	SCPT(TR_m4_Baumi_sc)
+	SCPT(TR_m4_Bd_Wesencolm_s)
+	SCPT(TR_m4_Bk_BuffleheadLog_scp)
+	SCPT(TR_m4_Bounty_RunatDeaths)
+	SCPT(TR_m4_Bounty_VyperDeaths)
+	SCPT(TR_m4_Cr_Issmi_Script)
+	SCPT(TR_m4_Cr_MenaanAlit_scp)
+	SCPT(TR_m4_Cr_OmaynisKobold_scp)
+	SCPT(TR_m4_Cr_Vyssar_scp)
+	SCPT(TR_m4_Darron_Marceau_scr)
+	SCPT(TR_m4_DawnDoor02_Script)
+	SCPT(TR_m4_DawnDoor_Script)
+	SCPT(TR_m4_DuskDoor02_Script)
+	SCPT(TR_m4_DuskDoor_Script)
+	SCPT(TR_m4_FA_FortAnc_Axe)
+	SCPT(TR_m4_FG_Andas_Tomb_Act_sc)
+	SCPT(TR_m4_FG_CliffracerCritter_scp)
+	SCPT(TR_m4_FG_CliffracerMirror_scp)
+	SCPT(TR_m4_FG_CorpseDisable)
+	SCPT(TR_m4_FG_ShalmuratIron_scp)
+	SCPT(TR_m4_FG_UshuDimmuCrea02_scp)
+	SCPT(TR_m4_FG_UshuDimmuCrea_scp)
+	SCPT(TR_m4_FG_UshuGuar_scp)
+	SCPT(TR_m4_FG_UshuKurExp_scp)
+	SCPT(TR_m4_FelmsCargoCrush_scp)
+	SCPT(TR_m4_FortAncylisJailDoor_scp)
+	SCPT(TR_m4_Gavros_Falas_sc)
+	SCPT(TR_m4_HH_AshStatue)
+	SCPT(TR_m4_HH_CorneliusRelocate)
+	SCPT(TR_m4_HH_DeadGavros_Script)
+	SCPT(TR_m4_HH_DelayedCaravanSc)
+	SCPT(TR_m4_HH_GalesaAmulet)
+	SCPT(TR_m4_HH_GerardusRelocate)
+	SCPT(TR_m4_HH_GreefCrate)
+	SCPT(TR_m4_HH_GreefDisable)
+	SCPT(TR_m4_HH_HearChest)
+	SCPT(TR_m4_HH_HearingScript)
+	SCPT(TR_m4_HH_RamaranTrespassing)
+	SCPT(TR_m4_HH_SavrethiDeskScript)
+	SCPT(TR_m4_HH_SavrethiRelocate)
+	SCPT(TR_m4_HH_TeraniCapture)
+	SCPT(TR_m4_HH_TeraniRelease)
+	SCPT(TR_m4_HauthPearlRemove)
+	SCPT(TR_m4_HauthPearlSmash)
+	SCPT(TR_m4_IL_Jizirrscript)
+	SCPT(TR_m4_IL_Marciusscript)
+	SCPT(TR_m4_IL_Orzukscript)
+	SCPT(TR_m4_IL_Raynilscript)
+	SCPT(TR_m4_IL_Stultideadscript)
+	SCPT(TR_m4_IL_axescript)
+	SCPT(TR_m4_Lechlaud_Rorielle_sc)
+	SCPT(TR_m4_LostTransit_Ashlander_sc)
+	SCPT(TR_m4_LostTransit_Control_sc)
+	SCPT(TR_m4_LostTransit_ReturnSword)
+	SCPT(TR_m4_LostTransit_illusion)
+	SCPT(TR_m4_LostTransit_parent_sc)
+	SCPT(TR_m4_MG_Adric2_Sc)
+	SCPT(TR_m4_MG_Adric_Sc)
+	SCPT(TR_m4_MG_EthalvoraSc)
+	SCPT(TR_m4_MG_Nelos1_Sc)
+	SCPT(TR_m4_MG_NotesScript)
+	SCPT(TR_m4_MG_ShockGotOut)
+	SCPT(TR_m4_MG_Sorus_Sc)
+	SCPT(TR_m4_MG_ThugsScript)
+	SCPT(TR_m4_MG_WeirLens_Sc)
+	SCPT(TR_m4_MN_Assassin_VandoDead)
+	SCPT(TR_m4_MN_Assassin_keyfound)
+	SCPT(TR_m4_MannuDoor01_scp)
+	SCPT(TR_m4_MenaanNadrasWrit_Scp)
+	SCPT(TR_m4_MenaanTowerDoor_scp)
+	SCPT(TR_m4_MundrethiSlave_Sc)
+	SCPT(TR_m4_NPC_AAGuarCollector)
+	SCPT(TR_m4_NPC_Agronak)
+	SCPT(TR_m4_NPC_Algus)
+	SCPT(TR_m4_NPC_AlomonJuspethe)
+	SCPT(TR_m4_NPC_Als_Bavani)
+	SCPT(TR_m4_NPC_Alvuru_Omayn)
+	SCPT(TR_m4_NPC_Anara_Medri_script)
+	SCPT(TR_m4_NPC_AndoCTThug01)
+	SCPT(TR_m4_NPC_AndoCTThug02)
+	SCPT(TR_m4_NPC_Anjirra)
+	SCPT(TR_m4_NPC_Aphisphagus2)
+	SCPT(TR_m4_NPC_Apisphagus_Thryx)
+	SCPT(TR_m4_NPC_Armas_Tyravel)
+	SCPT(TR_m4_NPC_ArmunBandit_Scp)
+	SCPT(TR_m4_NPC_Arvena)
+	SCPT(TR_m4_NPC_Assemmus_Todros)
+	SCPT(TR_m4_NPC_Atreno_Drenim)
+	SCPT(TR_m4_NPC_Balvene_Uvayn)
+	SCPT(TR_m4_NPC_BoneEater)
+	SCPT(TR_m4_NPC_Bormundir)
+	SCPT(TR_m4_NPC_Bormundir2)
+	SCPT(TR_m4_NPC_BthuangthuvSquatter)
+	SCPT(TR_m4_NPC_BthuangthuvThug)
+	SCPT(TR_m4_NPC_Captain_Borgga)
+	SCPT(TR_m4_NPC_Danwendy)
+	SCPT(TR_m4_NPC_Dels_Ravyn)
+	SCPT(TR_m4_NPC_Delu)
+	SCPT(TR_m4_NPC_Delvenu_Bavani)
+	SCPT(TR_m4_NPC_Dervara_Diron)
+	SCPT(TR_m4_NPC_DiceGambler)
+	SCPT(TR_m4_NPC_DroQosha)
+	SCPT(TR_m4_NPC_Erilul_Munderyn)
+	SCPT(TR_m4_NPC_FatherToMany)
+	SCPT(TR_m4_NPC_Faylena_Bevel)
+	SCPT(TR_m4_NPC_Folcard)
+	SCPT(TR_m4_NPC_Galvur_Irano)
+	SCPT(TR_m4_NPC_Gildaraen)
+	SCPT(TR_m4_NPC_HH_DelayedGuard)
+	SCPT(TR_m4_NPC_HisHeartClay_Scp)
+	SCPT(TR_m4_NPC_HjaskarTheSharp)
+	SCPT(TR_m4_NPC_Honon_Falas)
+	SCPT(TR_m4_NPC_Hyrrik)
+	SCPT(TR_m4_NPC_Ibelard2)
+	SCPT(TR_m4_NPC_Ilnara_Hlen)
+	SCPT(TR_m4_NPC_Ilvys_Hleeri)
+	SCPT(TR_m4_NPC_IssarbaddonBandit)
+	SCPT(TR_m4_NPC_Jerra)
+	SCPT(TR_m4_NPC_JoKaar)
+	SCPT(TR_m4_NPC_Joscus)
+	SCPT(TR_m4_NPC_Jubal_D)
+	SCPT(TR_m4_NPC_Kalmaron)
+	SCPT(TR_m4_NPC_Kalmaron2)
+	SCPT(TR_m4_NPC_Kassius)
+	SCPT(TR_m4_NPC_Kilgore)
+	SCPT(TR_m4_NPC_Kuvat)
+	SCPT(TR_m4_NPC_Lethys_Mundrethi)
+	SCPT(TR_m4_NPC_Lissandir)
+	SCPT(TR_m4_NPC_Llaros_Sadas)
+	SCPT(TR_m4_NPC_Llayno2)
+	SCPT(TR_m4_NPC_MaAshissiri)
+	SCPT(TR_m4_NPC_Maalalmo_Nethan)
+	SCPT(TR_m4_NPC_Marsilion)
+	SCPT(TR_m4_NPC_Marug_Meridius)
+	SCPT(TR_m4_NPC_MasterBelbetu)
+	SCPT(TR_m4_NPC_Meldresi)
+	SCPT(TR_m4_NPC_Meldresi2)
+	SCPT(TR_m4_NPC_Milns_Lloran)
+	SCPT(TR_m4_NPC_Milur)
+	SCPT(TR_m4_NPC_Molsa_Ervethi)
+	SCPT(TR_m4_NPC_NadrasArvel)
+	SCPT(TR_m4_NPC_Nakhragob)
+	SCPT(TR_m4_NPC_Nals_Tobor)
+	SCPT(TR_m4_NPC_Naru_Ouradas)
+	SCPT(TR_m4_NPC_Narusea_Verenim_pub)
+	SCPT(TR_m4_NPC_Nevrasa_Drans)
+	SCPT(TR_m4_NPC_Nevusa_Lladri)
+	SCPT(TR_m4_NPC_Nols_Alver)
+	SCPT(TR_m4_NPC_OmaynisInnForeman)
+	SCPT(TR_m4_NPC_Orblos)
+	SCPT(TR_m4_NPC_OstralaScript)
+	SCPT(TR_m4_NPC_Othrys_Rorivel)
+	SCPT(TR_m4_NPC_PlantationOverseer)
+	SCPT(TR_m4_NPC_RR_TeleportBandit_scp)
+	SCPT(TR_m4_NPC_Ralan_Varos)
+	SCPT(TR_m4_NPC_Rondo)
+	SCPT(TR_m4_NPC_Sag_groNimug)
+	SCPT(TR_m4_NPC_Salrym_Helseri)
+	SCPT(TR_m4_NPC_Saylenus_Ramaril)
+	SCPT(TR_m4_NPC_Semmo)
+	SCPT(TR_m4_NPC_Semmo2)
+	SCPT(TR_m4_NPC_ShalmuratScouts)
+	SCPT(TR_m4_NPC_Shei)
+	SCPT(TR_m4_NPC_ShenjirraCC)
+	SCPT(TR_m4_NPC_Slave_Rethil)
+	SCPT(TR_m4_NPC_Soron_Nadril)
+	SCPT(TR_m4_NPC_Surmas_Tolvor)
+	SCPT(TR_m4_NPC_Tattara)
+	SCPT(TR_m4_NPC_Tholer_Andas)
+	SCPT(TR_m4_NPC_ThreeEyesFence)
+	SCPT(TR_m4_NPC_Tola_Serevam)
+	SCPT(TR_m4_NPC_Tulsi_Rethraryn)
+	SCPT(TR_m4_NPC_Ubarassour_Dan)
+	SCPT(TR_m4_NPC_UshuDead)
+	SCPT(TR_m4_NPC_UshuKurG02)
+	SCPT(TR_m4_NPC_UshuKurG03)
+	SCPT(TR_m4_NPC_Vals_Varano)
+	SCPT(TR_m4_NPC_Vals_Varano2)
+	SCPT(TR_m4_NPC_Varzan)
+	SCPT(TR_m4_NPC_Varzan_after)
+	SCPT(TR_m4_NPC_VeersInBrine)
+	SCPT(TR_m4_NPC_Veres_Hlaari)
+	SCPT(TR_m4_NPC_Vermilius_Vendicci)
+	SCPT(TR_m4_NPC_Vilungil)
+	SCPT(TR_m4_NPC_Vodunius_Nuccius)
+	SCPT(TR_m4_NPC_VysAssaCultist)
+	SCPT(TR_m4_NPC_Wulfus)
+	SCPT(TR_m4_NPC_Zalan)
+	SCPT(TR_m4_NPC_awfully_swift)
+	SCPT(TR_m4_NPC_gandas_maluvi)
+	SCPT(TR_m4_NPC_krog_groborbul)
+	SCPT(TR_m4_NPC_liskliss_kur)
+	SCPT(TR_m4_NPC_mirranzij)
+	SCPT(TR_m4_NPC_muamu_sayrano)
+	SCPT(TR_m4_NPC_parnilla_marard)
+	SCPT(TR_m4_NPC_rothilviryon_guard)
+	SCPT(TR_m4_NPC_rowdy_rilmas)
+	SCPT(TR_m4_NPC_teynsmuggler)
+	SCPT(TR_m4_NirnboundBoulder_Scp)
+	SCPT(TR_m4_NirnboundDisabled_Scp)
+	SCPT(TR_m4_NirnboundMist_Scp)
+	SCPT(TR_m4_ObainatKill_sc)
+	SCPT(TR_m4_Om_AncientBowl_sc)
+	SCPT(TR_m4_Om_Indoril_Rathes)
+	SCPT(TR_m4_Om_ReRe_Ghosts)
+	SCPT(TR_m4_Om_ReRe_OrdinatorAction)
+	SCPT(TR_m4_Om_ReRe_OrdinatorWait)
+	SCPT(TR_m4_Oma_NalvosFood)
+	SCPT(TR_m4_Oma_OlvysFood)
+	SCPT(TR_m4_OmaynisInnScript)
+	SCPT(TR_m4_OmaynisInn_C2)
+	SCPT(TR_m4_OmaynisInn_D1)
+	SCPT(TR_m4_OmaynisInn_D2)
+	SCPT(TR_m4_OmaynisInn_E1)
+	SCPT(TR_m4_OmaynisInn_E2)
+	SCPT(TR_m4_OmaynisInn_E3)
+	SCPT(TR_m4_OranSlave_Sc)
+	SCPT(TR_m4_Pub_Ando_Council_Club)
+	SCPT(TR_m4_Pub_Bodrum)
+	SCPT(TR_m4_Pub_Dancing_Cup)
+	SCPT(TR_m4_Pub_Golden_Moons)
+	SCPT(TR_m4_Pub_Grey_Lodge)
+	SCPT(TR_m4_Pub_Guar_No_Name)
+	SCPT(TR_m4_Pub_Lucky_Shalaasa)
+	SCPT(TR_m4_Pub_Teyn)
+	SCPT(TR_m4_Pub_Uman)
+	SCPT(TR_m4_Q_EmmurbalpituActScript)
+	SCPT(TR_m4_RR_BodrumShrineScript)
+	SCPT(TR_m4_RR_CC_NixMount_scp)
+	SCPT(TR_m4_RR_CliviusStuff_scp)
+	SCPT(TR_m4_RR_PryaiMist)
+	SCPT(TR_m4_TG_AndoFinalQuest_scp)
+	SCPT(TR_m4_TG_BaseImprovements_scp)
+	SCPT(TR_m4_TG_BaseNPCMover_scp)
+	SCPT(TR_m4_TG_DironLetterCheck_scp)
+	SCPT(TR_m4_TG_ElarFandas_scp)
+	SCPT(TR_m4_TG_ElsweyrSmuggle_scp)
+	SCPT(TR_m4_TG_GeldrasUrnBrk_scp)
+	SCPT(TR_m4_TG_GeldrasUrn_scp)
+	SCPT(TR_m4_TG_JinkbladeTrack_scp)
+	SCPT(TR_m4_TG_SheiWalkTrack01_scp)
+	SCPT(TR_m4_TG_SheiWalkTrack02_scp)
+	SCPT(TR_m4_TG_ThoriclesAxe2_scp)
+	SCPT(TR_m4_TG_ThoriclesAxe_scp)
+	SCPT(TR_m4_TG_VendicciCoach01_scp)
+	SCPT(TR_m4_TG_VendicciCoach02_scp)
+	SCPT(TR_m4_TG_VendicciDoor03_scp)
+	SCPT(TR_m4_TG_WharfCheck_scp)
+	SCPT(TR_m4_TJ_Court_Collision_sc)
+	SCPT(TR_m4_TJ_Court_GFence_sc)
+	SCPT(TR_m4_TJ_Dridrea_M_sc)
+	SCPT(TR_m4_TJ_GhostFence_sc)
+	SCPT(TR_m4_TJ_IntroScamp_sc)
+	SCPT(TR_m4_TJ_Ogrim_sc)
+	SCPT(TR_m4_TJ_web00_sc)
+	SCPT(TR_m4_TT_ArmunAdvC_sc)
+	SCPT(TR_m4_TT_CrateRatMeat_sc)
+	SCPT(TR_m4_TT_Felani_Vathri_sc)
+	SCPT(TR_m4_TT_Fire_sc)
+	SCPT(TR_m4_TT_GoldIngot1Script)
+	SCPT(TR_m4_TT_GoldIngot2Script)
+	SCPT(TR_m4_TT_GoldScript)
+	SCPT(TR_m4_TT_LastWillDisable_sc)
+	SCPT(TR_m4_TT_LastWillEnable_sc)
+	SCPT(TR_m4_TT_Marja_Iannus_sc)
+	SCPT(TR_m4_TT_MoveFelaniScript)
+	SCPT(TR_m4_TT_OlmsDoor_sc)
+	SCPT(TR_m4_TT_OlmsGuardDis_sc)
+	SCPT(TR_m4_TT_OlmsGuard_sc)
+	SCPT(TR_m4_TT_OrcCultist_sc)
+	SCPT(TR_m4_TT_OrcVivecBookSc)
+	SCPT(TR_m4_TT_ShrineOlmsReflct_sc)
+	SCPT(TR_m4_TT_ShrineOlmsRest_sc)
+	SCPT(TR_m4_TT_SpawnBittergreen_sc)
+	SCPT(TR_m4_TT_SpawnHackleLo_sc)
+	SCPT(TR_m4_TT_TriolithShrine)
+	SCPT(TR_m4_TT_Ulmon_Dead_sc)
+	SCPT(TR_m4_TT_Uls_Edralo_sc)
+	SCPT(TR_m4_TT_VathriDoorLocked)
+	SCPT(TR_m4_TT_VathriDoorOrig)
+	SCPT(TR_m4_T_MotherInLaw_script)
+	SCPT(TR_m4_T_Nuccius_mover_1_sc)
+	SCPT(TR_m4_TirasaMelvos_scr)
+	SCPT(TR_m4_UshuKurLandlsdScp)
+	SCPT(TR_m4_UshuKurOre01_scp)
+	SCPT(TR_m4_UshuKurOre02_scp)
+	SCPT(TR_m4_UshuKurOre03_scp)
+	SCPT(TR_m4_UshuKurOreB_scp)
+	SCPT(TR_m4_UshuKurOre_scp)
+	SCPT(TR_m4_UshuKur_SoundMine_01_sc)
+	SCPT(TR_m4_UshuKur_SoundMine_02_sc)
+	SCPT(TR_m4_UttumilkDridreaScript)
+	SCPT(TR_m4_VA_andashead_scr)
+	SCPT(TR_m4_VA_budakAtt_scr)
+	SCPT(TR_m4_VA_guardspa_scr)
+	SCPT(TR_m4_VA_hlaaluexp2_scr)
+	SCPT(TR_m4_VA_hlaaluexp_scr)
+	SCPT(TR_m4_VA_hlaaluguar_scr)
+	SCPT(TR_m4_VA_orlukhmove_scr)
+	SCPT(TR_m4_VA_q_orlukhnotes_scr)
+	SCPT(TR_m4_VA_qdeadcattle)
+	SCPT(TR_m4_VA_resetorlukh_scr)
+	SCPT(TR_m4_VA_varosmove2_scr)
+	SCPT(TR_m4_VA_varosmove_scr)
+	SCPT(TR_m4_VA_vaultguard_scr)
+	SCPT(TR_m4_VabalAjunta_sc)
+	SCPT(TR_m4_Velms_Braven_sc)
+	SCPT(TR_m4_Vf_daytimer)
+	SCPT(TR_m4_athryn_llendo_scr)
+	SCPT(TR_m4_cr_AizuhrSuur2Script)
+	SCPT(TR_m4_door_helserifarm_script)
+	SCPT(TR_m4_drozel_guar_script)
+	SCPT(TR_m4_immetarca_path_script)
+	SCPT(TR_m4_orlukh_killcheck_scr)
+	SCPT(TR_m4_orlukhgate01_scr)
+	SCPT(TR_m4_orlukhgate02_scr)
+	SCPT(TR_m4_q_AAB_Llavaliscript)
+	SCPT(TR_m4_q_AG_MassurDanKill_sc)
+	SCPT(TR_m4_q_AG_UliTravel_sc)
+	SCPT(TR_m4_q_AG_ghosts_sc)
+	SCPT(TR_m4_q_AG_summonCheck_sc)
+	SCPT(TR_m4_q_Amandin2_sc)
+	SCPT(TR_m4_q_ArvenasHelmet_Script)
+	SCPT(TR_m4_q_CredibilityGoon)
+	SCPT(TR_m4_q_CredibilityStart)
+	SCPT(TR_m4_q_Eleanor)
+	SCPT(TR_m4_q_FG_Darvasscript)
+	SCPT(TR_m4_q_IceSpike_Script)
+	SCPT(TR_m4_q_MP_SW_disappear_sc)
+	SCPT(TR_m4_q_MP_SW_wait_sc)
+	SCPT(TR_m4_q_Moryn_sword_sc)
+	SCPT(TR_m4_q_PW_DrinkPoison)
+	SCPT(TR_m4_q_PW_HibdunKill)
+	SCPT(TR_m4_q_PW_poisonhelper)
+	SCPT(TR_m4_q_TMM_ChestdisableSc)
+	SCPT(TR_m4_q_TTSAnAmuletScrpt)
+	SCPT(TR_m4_q_TTSBoneWalkerscrpt)
+	SCPT(TR_m4_q_T_Nuccius_Lanette_sc)
+	SCPT(TR_m4_q_T_Nuccius_Wager_a_sc)
+	SCPT(TR_m4_q_T_Nuccius_Wager_p_sc)
+	SCPT(TR_m4_q_Treram)
+	SCPT(TR_m4_q_Treram_Chest)
+	SCPT(TR_m4_q_Tuls_Varalaryn)
+	SCPT(TR_m4_q_Uvisea_Dead)
+	SCPT(TR_m4_q_VarzanBonew_pq_SCN)
+	SCPT(TR_m4_q_bloodybone_script)
+	SCPT(TR_m4_q_bloodyskull_script)
+	SCPT(TR_m4_q_deadorlukh)
+	SCPT(TR_m4_q_drowned_timer)
+	SCPT(TR_m4_q_flameatronach_scr)
+	SCPT(TR_m4_q_invader_scr)
+	SCPT(TR_m4_q_mm_AshvubabiSC)
+	SCPT(TR_m4_q_mm_AtribanDerasSc)
+	SCPT(TR_m4_q_mm_AtribugSC)
+	SCPT(TR_m4_q_mm_LlalsSC)
+	SCPT(TR_m4_q_mm_MindSlaveSC)
+	SCPT(TR_m4_q_receivedGift)
+	SCPT(TR_m4_q_skeletonambush_scr)
+	SCPT(TR_m4_sc_Statue1d)
+	SCPT(TR_m4_sc_Statue2d)
+	SCPT(TR_m4_sc_Statue2w)
+	SCPT(TR_m4_sc_WWW)
+	SCPT(TR_m4_sc_dialogueChoice)
+	SCPT(TR_m4_sc_helserinote_script)
+	SCPT(TR_m4_teyn_ilvaalmu_script)
+	SCPT(TR_m4_wil_Hauth_OirMovSCN)
+	SCPT(TR_namirasshroud_scr)
+	SCPT(T_ScVamp_Dreams_Sky)
+	SCPT(tr_m2_q_conjur)
+	SCPT(tr_m4_q_IR_vanithalive)
+	SCPT(tr_m4_q_IR_vanithdead)
+	SCPT(tr_m4_sheo_guar_realSCN)
+	SCPT(tr_m4_sheo_mini_statue)
+	SCPT(tr_m4_sheo_statue_door)
+	SCPT(tr_m4_sheo_summon_Guar)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    ac_darkgravel
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_clover
+	morrowind.esm       LTEX    ai_dirt
+	morrowind.esm       LTEX    ai_dirtroad
+	morrowind.esm       LTEX    ai_grass
+	morrowind.esm       LTEX    ai_grass_02
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_dirt
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    ai_tilled_dirt
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_04
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava02
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sandstone02
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock03
+	morrowind.esm       LTEX    ma_sulphur_rock05
+	morrowind.esm       LTEX    ma_sulphur_rock06
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    ma_sulphur_rock08
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    rm_grayrock
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_rock_03
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    sand_02
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_road
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	tamriel_data.esm    CLOT    t_imp_uni_ring_respite
+	tamriel_data.esm    WEAP    t_imp_uni_taldeussword
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    assignment
+	bloodmoon.esm       DIAL    assist you
+	bloodmoon.esm       DIAL    blades
+	bloodmoon.esm       DIAL    east empire company
+	bloodmoon.esm       DIAL    flee
+	bloodmoon.esm       DIAL    forts
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    imperial law
+	bloodmoon.esm       DIAL    join the east empire company
+	bloodmoon.esm       DIAL    mead
+	bloodmoon.esm       DIAL    my husband
+	bloodmoon.esm       DIAL    my story
+	bloodmoon.esm       DIAL    my tale
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       DIAL    promotion
+	bloodmoon.esm       DIAL    re-hire
+	bloodmoon.esm       DIAL    seler favelnim
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    smuggling
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_02.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_04.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_05.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_06.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_rock_01.dds
+	morrowind.esm       DIAL    abolitionists
+	morrowind.esm       DIAL    accomplishments are few
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    affairs of honor
+	morrowind.esm       DIAL    ahemmusa camp
+	morrowind.esm       DIAL    ald sotha
+	morrowind.esm       DIAL    ald velothi
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    alembic
+	morrowind.esm       DIAL    almoners
+	morrowind.esm       DIAL    alteration potions
+	morrowind.esm       DIAL    ancestors
+	morrowind.esm       DIAL    animal products
+	morrowind.esm       DIAL    apparatus
+	morrowind.esm       DIAL    arena
+	morrowind.esm       DIAL    argonian mission
+	morrowind.esm       DIAL    argonian neighbors
+	morrowind.esm       DIAL    argonians
+	morrowind.esm       DIAL    ascadian isles
+	morrowind.esm       DIAL    ash statue
+	morrowind.esm       DIAL    ash vampire
+	morrowind.esm       DIAL    ashlander challenges
+	morrowind.esm       DIAL    ashlander courtesy
+	morrowind.esm       DIAL    ashlander culture
+	morrowind.esm       DIAL    ashlander customs
+	morrowind.esm       DIAL    ashlander gifts
+	morrowind.esm       DIAL    ashlander nomadic camp style
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    ashlanders hate foreigners
+	morrowind.esm       DIAL    ashlands
+	morrowind.esm       DIAL    ataxia
+	morrowind.esm       DIAL    atrocities of war
+	morrowind.esm       DIAL    azura's coast
+	morrowind.esm       DIAL    bad daedra
+	morrowind.esm       DIAL    bad people
+	morrowind.esm       DIAL    bal fell
+	morrowind.esm       DIAL    bal molagmer
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    big helende
+	morrowind.esm       DIAL    bitter coast
+	morrowind.esm       DIAL    black anther
+	morrowind.esm       DIAL    blight diseases
+	morrowind.esm       DIAL    bonewalker
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    brown rot
+	morrowind.esm       DIAL    buoyant armigers
+	morrowind.esm       DIAL    caius cosades
+	morrowind.esm       DIAL    calcinator
+	morrowind.esm       DIAL    challenges
+	morrowind.esm       DIAL    chills
+	morrowind.esm       DIAL    choosing a great house
+	morrowind.esm       DIAL    clannfear
+	morrowind.esm       DIAL    collywobbles
+	morrowind.esm       DIAL    common disease
+	morrowind.esm       DIAL    council club
+	morrowind.esm       DIAL    crab meat
+	morrowind.esm       DIAL    cure potions
+	morrowind.esm       DIAL    current events
+	morrowind.esm       DIAL    daedra
+	morrowind.esm       DIAL    daedra cults
+	morrowind.esm       DIAL    daedra lords
+	morrowind.esm       DIAL    daedra skin
+	morrowind.esm       DIAL    daedra worship
+	morrowind.esm       DIAL    daedra's heart
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    dampworm
+	morrowind.esm       DIAL    destination
+	morrowind.esm       DIAL    destruction spells
+	morrowind.esm       DIAL    detect potions
+	morrowind.esm       DIAL    die like a warrior
+	morrowind.esm       DIAL    disturbing dreams
+	morrowind.esm       DIAL    divine intervention scrolls
+	morrowind.esm       DIAL    dreugh
+	morrowind.esm       DIAL    drinar varyon
+	morrowind.esm       DIAL    droops
+	morrowind.esm       DIAL    dumac
+	morrowind.esm       DIAL    dunmer metropolitan style
+	morrowind.esm       DIAL    dunmer urban style
+	morrowind.esm       DIAL    dunmer village style
+	morrowind.esm       DIAL    duty
+	morrowind.esm       DIAL    dwemer artifacts
+	morrowind.esm       DIAL    dwemer ruins
+	morrowind.esm       DIAL    dwemer sites
+	morrowind.esm       DIAL    ebonheart
+	morrowind.esm       DIAL    ebony
+	morrowind.esm       DIAL    echo of souls
+	morrowind.esm       DIAL    enchantments
+	morrowind.esm       DIAL    equipment chest
+	morrowind.esm       DIAL    erabenimsun camp
+	morrowind.esm       DIAL    errand
+	morrowind.esm       DIAL    escort
+	morrowind.esm       DIAL    family heirlooms
+	morrowind.esm       DIAL    fines
+	morrowind.esm       DIAL    fines and compensation
+	morrowind.esm       DIAL    fire salts
+	morrowind.esm       DIAL    flowers
+	morrowind.esm       DIAL    food
+	morrowind.esm       DIAL    foreigners
+	morrowind.esm       DIAL    fortune
+	morrowind.esm       DIAL    foyada
+	morrowind.esm       DIAL    frost atronach
+	morrowind.esm       DIAL    frost salts
+	morrowind.esm       DIAL    gang war
+	morrowind.esm       DIAL    gentleman jim stacey
+	morrowind.esm       DIAL    geographic regions
+	morrowind.esm       DIAL    geography of morrowind
+	morrowind.esm       DIAL    geography of vvardenfell
+	morrowind.esm       DIAL    get cured
+	morrowind.esm       DIAL    get me out
+	morrowind.esm       DIAL    ghostfence
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    gnaar mok
+	morrowind.esm       DIAL    gnisis
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    gold kanet
+	morrowind.esm       DIAL    gone missing
+	morrowind.esm       DIAL    good daedra
+	morrowind.esm       DIAL    grazelands
+	morrowind.esm       DIAL    great houses
+	morrowind.esm       DIAL    greater saints
+	morrowind.esm       DIAL    greef
+	morrowind.esm       DIAL    guar
+	morrowind.esm       DIAL    hackle-lo leaf
+	morrowind.esm       DIAL    healer
+	morrowind.esm       DIAL    holy place
+	morrowind.esm       DIAL    homemade potions
+	morrowind.esm       DIAL    hortator
+	morrowind.esm       DIAL    hospitality papers
+	morrowind.esm       DIAL    house dres
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    house indoril
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    house wars
+	morrowind.esm       DIAL    household slaves
+	morrowind.esm       DIAL    illusion potions
+	morrowind.esm       DIAL    imperial cult ranks
+	morrowind.esm       DIAL    imperial legion
+	morrowind.esm       DIAL    imperial neighbors
+	morrowind.esm       DIAL    imperial urban style
+	morrowind.esm       DIAL    info refusal
+	morrowind.esm       DIAL    ingredients
+	morrowind.esm       DIAL    inner sea
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    join house hlaalu
+	morrowind.esm       DIAL    join house telvanni
+	morrowind.esm       DIAL    join the imperial cult
+	morrowind.esm       DIAL    join the imperial legion
+	morrowind.esm       DIAL    join the temple
+	morrowind.esm       DIAL    joining great houses
+	morrowind.esm       DIAL    kill me
+	morrowind.esm       DIAL    killing and murder
+	morrowind.esm       DIAL    kwama egg
+	morrowind.esm       DIAL    kwama warrior
+	morrowind.esm       DIAL    law in morrowind
+	morrowind.esm       DIAL    lay member
+	morrowind.esm       DIAL    lay servant
+	morrowind.esm       DIAL    long blades
+	morrowind.esm       DIAL    longsword
+	morrowind.esm       DIAL    maar gan
+	morrowind.esm       DIAL    mabrigash
+	morrowind.esm       DIAL    magicka
+	morrowind.esm       DIAL    martial arts
+	morrowind.esm       DIAL    mazte
+	morrowind.esm       DIAL    mehra milo
+	morrowind.esm       DIAL    mehrunes dagon
+	morrowind.esm       DIAL    ministry of truth
+	morrowind.esm       DIAL    molag amur
+	morrowind.esm       DIAL    molag mar
+	morrowind.esm       DIAL    moon sugar
+	morrowind.esm       DIAL    morag tong
+	morrowind.esm       DIAL    morrowind cultures
+	morrowind.esm       DIAL    morrowind history
+	morrowind.esm       DIAL    morrowind's economy
+	morrowind.esm       DIAL    morrowind's neighbors
+	morrowind.esm       DIAL    mortar and pestle
+	morrowind.esm       DIAL    muck
+	morrowind.esm       DIAL    mudcrab
+	morrowind.esm       DIAL    murder of processus vitellius
+	morrowind.esm       DIAL    mushrooms
+	morrowind.esm       DIAL    mystery of the dwarves
+	morrowind.esm       DIAL    mysticism potions
+	morrowind.esm       DIAL    name is unimportant
+	morrowind.esm       DIAL    native dunmer culture
+	morrowind.esm       DIAL    nerevar
+	morrowind.esm       DIAL    nerevarine cult
+	morrowind.esm       DIAL    nord neighbors
+	morrowind.esm       DIAL    nothing left
+	morrowind.esm       DIAL    ogrim
+	morrowind.esm       DIAL    ordinators
+	morrowind.esm       DIAL    our dark powers
+	morrowind.esm       DIAL    outlander
+	morrowind.esm       DIAL    pilgrimages
+	morrowind.esm       DIAL    potions
+	morrowind.esm       DIAL    present
+	morrowind.esm       DIAL    proof
+	morrowind.esm       DIAL    proposition
+	morrowind.esm       DIAL    racer plumes
+	morrowind.esm       DIAL    rat
+	morrowind.esm       DIAL    rattles
+	morrowind.esm       DIAL    recruit some miners
+	morrowind.esm       DIAL    red mountain
+	morrowind.esm       DIAL    resist potions
+	morrowind.esm       DIAL    restore health potions
+	morrowind.esm       DIAL    restore potions
+	morrowind.esm       DIAL    retort
+	morrowind.esm       DIAL    riddle
+	morrowind.esm       DIAL    robbed me
+	morrowind.esm       DIAL    rockjoint
+	morrowind.esm       DIAL    rust chancre
+	morrowind.esm       DIAL    sadrith mora
+	morrowind.esm       DIAL    saint aralor
+	morrowind.esm       DIAL    saint delyn
+	morrowind.esm       DIAL    saint felms
+	morrowind.esm       DIAL    saint llothis
+	morrowind.esm       DIAL    saint meris
+	morrowind.esm       DIAL    saint nerevar
+	morrowind.esm       DIAL    saint olms
+	morrowind.esm       DIAL    saint rilms
+	morrowind.esm       DIAL    saint roris
+	morrowind.esm       DIAL    saint seryn
+	morrowind.esm       DIAL    saint veloth
+	morrowind.esm       DIAL    saints
+	morrowind.esm       DIAL    scamp skin
+	morrowind.esm       DIAL    scrap metal
+	morrowind.esm       DIAL    scroll
+	morrowind.esm       DIAL    serpiginous dementia
+	morrowind.esm       DIAL    serving great houses
+	morrowind.esm       DIAL    seyda neen
+	morrowind.esm       DIAL    shalk
+	morrowind.esm       DIAL    shein
+	morrowind.esm       DIAL    sheogorath
+	morrowind.esm       DIAL    shipment of ebony
+	morrowind.esm       DIAL    shurinbaal
+	morrowind.esm       DIAL    silt strider
+	morrowind.esm       DIAL    silver longsword
+	morrowind.esm       DIAL    skeleton
+	morrowind.esm       DIAL    slander
+	morrowind.esm       DIAL    slave
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       DIAL    slaves
+	morrowind.esm       DIAL    soul sickness
+	morrowind.esm       DIAL    sujamma
+	morrowind.esm       DIAL    suran
+	morrowind.esm       DIAL    swamp fever
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    taunt the daedra
+	morrowind.esm       DIAL    tear
+	morrowind.esm       DIAL    tel aruhn
+	morrowind.esm       DIAL    tel branora
+	morrowind.esm       DIAL    tel fyr
+	morrowind.esm       DIAL    tel mora
+	morrowind.esm       DIAL    tel vos
+	morrowind.esm       DIAL    telvanni bug musk
+	morrowind.esm       DIAL    telvanni councilors
+	morrowind.esm       DIAL    telvanni mouths 
+	morrowind.esm       DIAL    telvanni tower
+	morrowind.esm       DIAL    telvanni tower urban style
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    temple's doctrine
+	morrowind.esm       DIAL    the blight
+	morrowind.esm       DIAL    the dark elven curse
+	morrowind.esm       DIAL    thoughtful gift
+	morrowind.esm       DIAL    toxic potions
+	morrowind.esm       DIAL    trader
+	morrowind.esm       DIAL    trebonius
+	morrowind.esm       DIAL    tribunal
+	morrowind.esm       DIAL    tribunal temple
+	morrowind.esm       DIAL    twin lamps
+	morrowind.esm       DIAL    unrest in cyrodiil city
+	morrowind.esm       DIAL    urshilaku camp
+	morrowind.esm       DIAL    vampirism cure
+	morrowind.esm       DIAL    varyon family
+	morrowind.esm       DIAL    vintage brandy
+	morrowind.esm       DIAL    visiting an ashlander camp
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       DIAL    vodunius nuccius
+	morrowind.esm       DIAL    void salts
+	morrowind.esm       DIAL    vvardenfell
+	morrowind.esm       DIAL    vvardenfell district
+	morrowind.esm       DIAL    war of the first council
+	morrowind.esm       DIAL    west gash
+	morrowind.esm       DIAL    who to talk to
+	morrowind.esm       DIAL    witbane
+	morrowind.esm       DIAL    work
+	morrowind.esm       DIAL    writ
+	morrowind.esm       DIAL    yellow tick
+	morrowind.esm       DIAL    zainab camp
+	morrowind.esm       LAND    (-1, -12)
+	morrowind.esm       LAND    (-1, -13)
+	morrowind.esm       LAND    (-1, -14)
+	morrowind.esm       LAND    (-1, -15)
+	morrowind.esm       LAND    (-1, -16)
+	morrowind.esm       LAND    (-1, -17)
+	morrowind.esm       LAND    (-2, -12)
+	morrowind.esm       LAND    (-2, -13)
+	morrowind.esm       LAND    (-2, -14)
+	morrowind.esm       LAND    (-2, -15)
+	morrowind.esm       LAND    (-3, -12)
+	morrowind.esm       LAND    (-3, -13)
+	morrowind.esm       LAND    (-3, -14)
+	morrowind.esm       LAND    (-4, -12)
+	morrowind.esm       LAND    (-4, -13)
+	morrowind.esm       LAND    (-4, -14)
+	morrowind.esm       LAND    (-5, -12)
+	morrowind.esm       LAND    (-5, -13)
+	morrowind.esm       LAND    (-5, -14)
+	morrowind.esm       LAND    (-6, -12)
+	morrowind.esm       LAND    (-6, -13)
+	morrowind.esm       LAND    (-6, -14)
+	morrowind.esm       LAND    (-7, -12)
+	morrowind.esm       LAND    (-7, -13)
+	morrowind.esm       LAND    (-7, -14)
+	morrowind.esm       LAND    (-8, -12)
+	morrowind.esm       LAND    (-8, -13)
+	morrowind.esm       LAND    (-8, -14)
+	morrowind.esm       LAND    (0, -14)
+	morrowind.esm       LAND    (0, -15)
+	morrowind.esm       LAND    (0, -16)
+	morrowind.esm       LAND    (0, -17)
+	morrowind.esm       LAND    (1, -14)
+	morrowind.esm       LAND    (1, -15)
+	morrowind.esm       LAND    (1, -16)
+	morrowind.esm       LAND    (1, -17)
+	morrowind.esm       LAND    (10, -16)
+	morrowind.esm       LAND    (10, -17)
+	morrowind.esm       LAND    (10, -18)
+	morrowind.esm       LAND    (10, 23)
+	morrowind.esm       LAND    (10, 24)
+	morrowind.esm       LAND    (10, 25)
+	morrowind.esm       LAND    (10, 26)
+	morrowind.esm       LAND    (11, -16)
+	morrowind.esm       LAND    (11, -17)
+	morrowind.esm       LAND    (11, -18)
+	morrowind.esm       LAND    (11, 22)
+	morrowind.esm       LAND    (11, 23)
+	morrowind.esm       LAND    (12, -15)
+	morrowind.esm       LAND    (12, -16)
+	morrowind.esm       LAND    (12, -17)
+	morrowind.esm       LAND    (12, 21)
+	morrowind.esm       LAND    (12, 22)
+	morrowind.esm       LAND    (13, -15)
+	morrowind.esm       LAND    (13, -16)
+	morrowind.esm       LAND    (13, -17)
+	morrowind.esm       LAND    (13, 18)
+	morrowind.esm       LAND    (13, 19)
+	morrowind.esm       LAND    (13, 20)
+	morrowind.esm       LAND    (13, 21)
+	morrowind.esm       LAND    (13, 22)
+	morrowind.esm       LAND    (14, -15)
+	morrowind.esm       LAND    (14, -16)
+	morrowind.esm       LAND    (14, -17)
+	morrowind.esm       LAND    (14, 16)
+	morrowind.esm       LAND    (14, 17)
+	morrowind.esm       LAND    (14, 18)
+	morrowind.esm       LAND    (14, 19)
+	morrowind.esm       LAND    (14, 20)
+	morrowind.esm       LAND    (14, 21)
+	morrowind.esm       LAND    (14, 22)
+	morrowind.esm       LAND    (15, -15)
+	morrowind.esm       LAND    (15, -16)
+	morrowind.esm       LAND    (15, -17)
+	morrowind.esm       LAND    (15, 13)
+	morrowind.esm       LAND    (15, 14)
+	morrowind.esm       LAND    (15, 15)
+	morrowind.esm       LAND    (15, 16)
+	morrowind.esm       LAND    (15, 17)
+	morrowind.esm       LAND    (15, 18)
+	morrowind.esm       LAND    (16, -15)
+	morrowind.esm       LAND    (16, -16)
+	morrowind.esm       LAND    (16, -17)
+	morrowind.esm       LAND    (16, 13)
+	morrowind.esm       LAND    (16, 14)
+	morrowind.esm       LAND    (16, 15)
+	morrowind.esm       LAND    (16, 16)
+	morrowind.esm       LAND    (16, 17)
+	morrowind.esm       LAND    (17, -11)
+	morrowind.esm       LAND    (17, -12)
+	morrowind.esm       LAND    (17, -13)
+	morrowind.esm       LAND    (17, -14)
+	morrowind.esm       LAND    (17, -15)
+	morrowind.esm       LAND    (17, -16)
+	morrowind.esm       LAND    (17, 11)
+	morrowind.esm       LAND    (17, 12)
+	morrowind.esm       LAND    (17, 13)
+	morrowind.esm       LAND    (17, 14)
+	morrowind.esm       LAND    (18, -11)
+	morrowind.esm       LAND    (18, -12)
+	morrowind.esm       LAND    (18, -13)
+	morrowind.esm       LAND    (18, -14)
+	morrowind.esm       LAND    (18, -15)
+	morrowind.esm       LAND    (18, -16)
+	morrowind.esm       LAND    (18, 10)
+	morrowind.esm       LAND    (18, 11)
+	morrowind.esm       LAND    (18, 12)
+	morrowind.esm       LAND    (18, 13)
+	morrowind.esm       LAND    (19, -10)
+	morrowind.esm       LAND    (19, -11)
+	morrowind.esm       LAND    (19, -12)
+	morrowind.esm       LAND    (19, 10)
+	morrowind.esm       LAND    (19, 11)
+	morrowind.esm       LAND    (19, 9)
+	morrowind.esm       LAND    (2, -15)
+	morrowind.esm       LAND    (2, -16)
+	morrowind.esm       LAND    (2, -17)
+	morrowind.esm       LAND    (20, -10)
+	morrowind.esm       LAND    (20, -11)
+	morrowind.esm       LAND    (20, -12)
+	morrowind.esm       LAND    (20, -9)
+	morrowind.esm       LAND    (20, 10)
+	morrowind.esm       LAND    (20, 8)
+	morrowind.esm       LAND    (20, 9)
+	morrowind.esm       LAND    (21, -1)
+	morrowind.esm       LAND    (21, -10)
+	morrowind.esm       LAND    (21, -11)
+	morrowind.esm       LAND    (21, -12)
+	morrowind.esm       LAND    (21, -2)
+	morrowind.esm       LAND    (21, -3)
+	morrowind.esm       LAND    (21, -4)
+	morrowind.esm       LAND    (21, -5)
+	morrowind.esm       LAND    (21, -6)
+	morrowind.esm       LAND    (21, -7)
+	morrowind.esm       LAND    (21, -8)
+	morrowind.esm       LAND    (21, -9)
+	morrowind.esm       LAND    (21, 10)
+	morrowind.esm       LAND    (21, 6)
+	morrowind.esm       LAND    (21, 7)
+	morrowind.esm       LAND    (21, 8)
+	morrowind.esm       LAND    (21, 9)
+	morrowind.esm       LAND    (22, -1)
+	morrowind.esm       LAND    (22, -10)
+	morrowind.esm       LAND    (22, -11)
+	morrowind.esm       LAND    (22, -12)
+	morrowind.esm       LAND    (22, -2)
+	morrowind.esm       LAND    (22, -3)
+	morrowind.esm       LAND    (22, -4)
+	morrowind.esm       LAND    (22, -5)
+	morrowind.esm       LAND    (22, -6)
+	morrowind.esm       LAND    (22, -7)
+	morrowind.esm       LAND    (22, -8)
+	morrowind.esm       LAND    (22, -9)
+	morrowind.esm       LAND    (22, 0)
+	morrowind.esm       LAND    (22, 1)
+	morrowind.esm       LAND    (22, 2)
+	morrowind.esm       LAND    (22, 3)
+	morrowind.esm       LAND    (22, 4)
+	morrowind.esm       LAND    (22, 5)
+	morrowind.esm       LAND    (22, 6)
+	morrowind.esm       LAND    (22, 7)
+	morrowind.esm       LAND    (22, 8)
+	morrowind.esm       LAND    (23, -1)
+	morrowind.esm       LAND    (23, -10)
+	morrowind.esm       LAND    (23, -11)
+	morrowind.esm       LAND    (23, -12)
+	morrowind.esm       LAND    (23, -2)
+	morrowind.esm       LAND    (23, -3)
+	morrowind.esm       LAND    (23, -4)
+	morrowind.esm       LAND    (23, -5)
+	morrowind.esm       LAND    (23, -6)
+	morrowind.esm       LAND    (23, -7)
+	morrowind.esm       LAND    (23, -8)
+	morrowind.esm       LAND    (23, -9)
+	morrowind.esm       LAND    (23, 0)
+	morrowind.esm       LAND    (23, 1)
+	morrowind.esm       LAND    (23, 2)
+	morrowind.esm       LAND    (23, 3)
+	morrowind.esm       LAND    (23, 4)
+	morrowind.esm       LAND    (23, 5)
+	morrowind.esm       LAND    (23, 6)
+	morrowind.esm       LAND    (23, 7)
+	morrowind.esm       LAND    (3, -15)
+	morrowind.esm       LAND    (3, -16)
+	morrowind.esm       LAND    (3, -17)
+	morrowind.esm       LAND    (4, -15)
+	morrowind.esm       LAND    (4, -16)
+	morrowind.esm       LAND    (4, -17)
+	morrowind.esm       LAND    (5, -15)
+	morrowind.esm       LAND    (5, -16)
+	morrowind.esm       LAND    (5, -17)
+	morrowind.esm       LAND    (6, -15)
+	morrowind.esm       LAND    (6, -16)
+	morrowind.esm       LAND    (6, -17)
+	morrowind.esm       LAND    (6, -18)
+	morrowind.esm       LAND    (7, -16)
+	morrowind.esm       LAND    (7, -17)
+	morrowind.esm       LAND    (7, -18)
+	morrowind.esm       LAND    (7, -19)
+	morrowind.esm       LAND    (8, -16)
+	morrowind.esm       LAND    (8, -17)
+	morrowind.esm       LAND    (8, -18)
+	morrowind.esm       LAND    (8, -19)
+	morrowind.esm       LAND    (9, -16)
+	morrowind.esm       LAND    (9, -17)
+	morrowind.esm       LAND    (9, -18)
+	morrowind.esm       LAND    (9, 24)
+	morrowind.esm       LAND    (9, 25)
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    lavacrust02.tga
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_mainroad_01
+	tamriel_data.esm    BOOK    t_bkgen_trademanifest
+	tamriel_data.esm    BOOK    t_news_bellman_41
+	tamriel_data.esm    BOOK    t_sc_keptubulldrawing01cnq
+	tamriel_data.esm    CLOT    t_dae_uni_robeshroud
+	tamriel_data.esm    DIAL    acrobatics
+	tamriel_data.esm    DIAL    alchemy
+	tamriel_data.esm    DIAL    aldmeri
+	tamriel_data.esm    DIAL    aldmeris
+	tamriel_data.esm    DIAL    altmer
+	tamriel_data.esm    DIAL    argonian
+	tamriel_data.esm    DIAL    arkay
+	tamriel_data.esm    DIAL    armorer
+	tamriel_data.esm    DIAL    athletics
+	tamriel_data.esm    DIAL    axe
+	tamriel_data.esm    DIAL    bandits
+	tamriel_data.esm    DIAL    betmeri
+	tamriel_data.esm    DIAL    birthsign
+	tamriel_data.esm    DIAL    black marsh
+	tamriel_data.esm    DIAL    blessings
+	tamriel_data.esm    DIAL    block
+	tamriel_data.esm    DIAL    blunt weapon
+	tamriel_data.esm    DIAL    bosmer
+	tamriel_data.esm    DIAL    breton
+	tamriel_data.esm    DIAL    chimer
+	tamriel_data.esm    DIAL    conjuration
+	tamriel_data.esm    DIAL    cyrodiil
+	tamriel_data.esm    DIAL    cyrodiilic brandy
+	tamriel_data.esm    DIAL    deposit funds
+	tamriel_data.esm    DIAL    destruction
+	tamriel_data.esm    DIAL    dibella
+	tamriel_data.esm    DIAL    dunmer
+	tamriel_data.esm    DIAL    dwemer
+	tamriel_data.esm    DIAL    elsweyr
+	tamriel_data.esm    DIAL    empire
+	tamriel_data.esm    DIAL    enchant
+	tamriel_data.esm    DIAL    enchanters
+	tamriel_data.esm    DIAL    enchanting items
+	tamriel_data.esm    DIAL    fighter disciplines
+	tamriel_data.esm    DIAL    fighters guild
+	tamriel_data.esm    DIAL    flin
+	tamriel_data.esm    DIAL    fortify potions
+	tamriel_data.esm    DIAL    greeting 2
+	tamriel_data.esm    DIAL    greeting 3
+	tamriel_data.esm    DIAL    greeting 6
+	tamriel_data.esm    DIAL    guild disciplines
+	tamriel_data.esm    DIAL    guild guide
+	tamriel_data.esm    DIAL    hammerfell
+	tamriel_data.esm    DIAL    hand to hand
+	tamriel_data.esm    DIAL    heavy armor
+	tamriel_data.esm    DIAL    high rock
+	tamriel_data.esm    DIAL    hlaalu company scrip
+	tamriel_data.esm    DIAL    humanoid races
+	tamriel_data.esm    DIAL    humans
+	tamriel_data.esm    DIAL    imperial
+	tamriel_data.esm    DIAL    imperial cult
+	tamriel_data.esm    DIAL    imperial culture
+	tamriel_data.esm    DIAL    imperial provinces
+	tamriel_data.esm    DIAL    jobs
+	tamriel_data.esm    DIAL    join the mages guild
+	tamriel_data.esm    DIAL    join the thieves guild
+	tamriel_data.esm    DIAL    khajiit
+	tamriel_data.esm    DIAL    light armor
+	tamriel_data.esm    DIAL    long blade
+	tamriel_data.esm    DIAL    mage disciplines
+	tamriel_data.esm    DIAL    mages guild
+	tamriel_data.esm    DIAL    make amends
+	tamriel_data.esm    DIAL    mara
+	tamriel_data.esm    DIAL    marksman
+	tamriel_data.esm    DIAL    medium armor
+	tamriel_data.esm    DIAL    mercantile
+	tamriel_data.esm    DIAL    mercantile skills
+	tamriel_data.esm    DIAL    morrowind
+	tamriel_data.esm    DIAL    necromancy
+	tamriel_data.esm    DIAL    nine divines
+	tamriel_data.esm    DIAL    nord
+	tamriel_data.esm    DIAL    orc
+	tamriel_data.esm    DIAL    padomaic ocean
+	tamriel_data.esm    DIAL    price on your head
+	tamriel_data.esm    DIAL    races
+	tamriel_data.esm    DIAL    redguard
+	tamriel_data.esm    DIAL    requirements
+	tamriel_data.esm    DIAL    rules
+	tamriel_data.esm    DIAL    sea of ghosts
+	tamriel_data.esm    DIAL    security
+	tamriel_data.esm    DIAL    short blade
+	tamriel_data.esm    DIAL    shrines
+	tamriel_data.esm    DIAL    skooma
+	tamriel_data.esm    DIAL    skyrim
+	tamriel_data.esm    DIAL    sneak
+	tamriel_data.esm    DIAL    spear
+	tamriel_data.esm    DIAL    speechcraft
+	tamriel_data.esm    DIAL    stealth disciplines
+	tamriel_data.esm    DIAL    summerset isle
+	tamriel_data.esm    DIAL    supply chests
+	tamriel_data.esm    DIAL    the empire
+	tamriel_data.esm    DIAL    the rules
+	tamriel_data.esm    DIAL    thief
+	tamriel_data.esm    DIAL    thieves guild
+	tamriel_data.esm    DIAL    unarmored
+	tamriel_data.esm    DIAL    uriel septim
+	tamriel_data.esm    DIAL    using enchantments
+	tamriel_data.esm    DIAL    valenwood
+	tamriel_data.esm    DIAL    vampires
+	tamriel_data.esm    DIAL    zenithar
+	tamriel_data.esm    FACT    t_mw_clan_baluath
+	tamriel_data.esm    FACT    t_mw_clan_orlukh
+	tamriel_data.esm    FACT    t_mw_housedres
+	tamriel_data.esm    FACT    t_mw_houseindoril
+	tamriel_data.esm    LTEX    t_ayl_dngruin_txfloor_01
+	tamriel_data.esm    LTEX    t_cyr_terrdirtch_01
+	tamriel_data.esm    LTEX    t_cyr_terrdirtgc_01
+	tamriel_data.esm    LTEX    t_cyr_terrdirtkp_01
+	tamriel_data.esm    LTEX    t_cyr_terrfarmlandch_01
+	tamriel_data.esm    LTEX    t_cyr_terrfarmlandgc_01
+	tamriel_data.esm    LTEX    t_cyr_terrgrasskp_01
+	tamriel_data.esm    LTEX    t_cyr_terrroaddirtch_01
+	tamriel_data.esm    LTEX    t_cyr_terrrockkp_01
+	tamriel_data.esm    LTEX    t_cyr_terrsalt_01
+	tamriel_data.esm    LTEX    t_cyr_terrsalt_02
+	tamriel_data.esm    LTEX    t_cyr_terrsalt_03
+	tamriel_data.esm    LTEX    t_de_setind_txcobblestone_01
+	tamriel_data.esm    LTEX    t_de_setind_txcobblestone_02
+	tamriel_data.esm    LTEX    t_de_setind_txornatefloor_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txcobblestone_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txfloor_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txfloor_02
+	tamriel_data.esm    LTEX    t_glb_terrwater_01
+	tamriel_data.esm    LTEX    t_imp_dngcolbarrow_txfloor_01
+	tamriel_data.esm    LTEX    t_imp_legionmw_txfloor_01
+	tamriel_data.esm    LTEX    t_mw_terrcloverat
+	tamriel_data.esm    LTEX    t_mw_terrcobblestoneat
+	tamriel_data.esm    LTEX    t_mw_terrcrackedearth_01
+	tamriel_data.esm    LTEX    t_mw_terrdaestoneat
+	tamriel_data.esm    LTEX    t_mw_terrdaestonesh
+	tamriel_data.esm    LTEX    t_mw_terrdirtgrassat
+	tamriel_data.esm    LTEX    t_mw_terrdirtmudsh
+	tamriel_data.esm    LTEX    t_mw_terrdirtow_01
+	tamriel_data.esm    LTEX    t_mw_terrdirtrocksh
+	tamriel_data.esm    LTEX    t_mw_terrdirtrocktv
+	tamriel_data.esm    LTEX    t_mw_terrdirtrr
+	tamriel_data.esm    LTEX    t_mw_terrdirtrr_02
+	tamriel_data.esm    LTEX    t_mw_terrdirtscrubow_01
+	tamriel_data.esm    LTEX    t_mw_terrdirtsh_01
+	tamriel_data.esm    LTEX    t_mw_terrdirtsh_02
+	tamriel_data.esm    LTEX    t_mw_terrdirttv
+	tamriel_data.esm    LTEX    t_mw_terrgrass_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassalma_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassat
+	tamriel_data.esm    LTEX    t_mw_terrgrasscm_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassdirttv
+	tamriel_data.esm    LTEX    t_mw_terrgrassgl_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassmosstv
+	tamriel_data.esm    LTEX    t_mw_terrgrassrr_01
+	tamriel_data.esm    LTEX    t_mw_terrgrasstv
+	tamriel_data.esm    LTEX    t_mw_terrgravelvm_01
+	tamriel_data.esm    LTEX    t_mw_terrmosscm_01
+	tamriel_data.esm    LTEX    t_mw_terrroaddirt_01
+	tamriel_data.esm    LTEX    t_mw_terrroadrr_01
+	tamriel_data.esm    LTEX    t_mw_terrroadsh_01
+	tamriel_data.esm    LTEX    t_mw_terrroadtv
+	tamriel_data.esm    LTEX    t_mw_terrrockac_03
+	tamriel_data.esm    LTEX    t_mw_terrrockaj_01
+	tamriel_data.esm    LTEX    t_mw_terrrockaj_02
+	tamriel_data.esm    LTEX    t_mw_terrrockbrown_01
+	tamriel_data.esm    LTEX    t_mw_terrrockgrassrr_01
+	tamriel_data.esm    LTEX    t_mw_terrrockmosstv
+	tamriel_data.esm    LTEX    t_mw_terrrockow_01
+	tamriel_data.esm    LTEX    t_mw_terrrockow_02
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_01
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_02
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_03
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_04
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_01
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_02
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_03
+	tamriel_data.esm    LTEX    t_mw_terrrocksnowac_01
+	tamriel_data.esm    LTEX    t_mw_terrrocksnowac_02
+	tamriel_data.esm    LTEX    t_mw_terrrocktv
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_01
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_02
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_03
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_04
+	tamriel_data.esm    LTEX    t_mw_terrscrubrr
+	tamriel_data.esm    LTEX    t_mw_terrscrubrr_02
+	tamriel_data.esm    LTEX    t_mw_terrscrubsh
+	tamriel_data.esm    LTEX    t_mw_terrscrubsnow_01
+	tamriel_data.esm    LTEX    t_nor_dngbarrowfort_txfloor_01
+	tamriel_data.esm    LTEX    t_sky_terrgravel_01
+	tamriel_data.esm    LTEX    t_sky_terrrockem_01
+	tamriel_data.esm    LTEX    t_sky_terrseaweed_01
+	tamriel_data.esm    LTEX    t_sky_terrseaweed_02
+	tamriel_data.esm    LTEX    t_sky_terrseaweed_03
+	tamriel_data.esm    WEAP    t_dae_uni_gwailo
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    anonymous writer
+	tribunal.esm        DIAL    antecedents of dwemer law
+	tribunal.esm        DIAL    assist
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    barenziah
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    chores
+	tribunal.esm        DIAL    chronicles of nchuleft
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    dissident priests
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    favor
+	tribunal.esm        DIAL    glass armor
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    guard
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    helseth
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my collection
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    saryoni's sermons
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    skull-crusher
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    sotha sil
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        DIAL    task
+	tribunal.esm        DIAL    travel together
+	tribunal.esm        DIAL    vampire hunter
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+
+[MOD-INF]: ID=620774077723(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=556159290627133(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2096869411354895(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2159786856325985(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF003.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF003.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2212451217613540(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAM005.mp3|NAME:Rrahsss!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAM005.mp3|NAME:Rrahsss!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=11092238265733034(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Argonian|SNAM:Vo\v\Hit_vAF010.mp3|NAME:Ooarrgh!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Argonian|SNAM:Vo\v\Hit_vAF010.mp3|NAME:Ooarrgh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=14527600662120339(Topic:my collection)
+  tribunal.esm---->|DATA|ONAM:detritus caria|NAME:Oh, that's truly a pity. I suppose I shall have to remain my own Champion of Clutter for now.|SCVR:01500|INTV|BNAM:Journal "MS_ClutterCollector" 100  ModDisposition -10
+  TR_Mainland.esm->|DATA|ONAM:detritus caria|NAME:Oh, that's truly a pity. I suppose I shall have to remain my own Champion of Clutter for now.|SCVR:01500|INTV|BNAM:Journal "MS_ClutterCollector" 100  ModDisposition -10
+
+[MOD-INF]: ID=16645841998628059(Voice:attack)
+  tamriel_data.esm->|DATA|SNAM:Vo\v\CrAtk_vKF003.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+  TR_Mainland.esm-->|DATA|RNAM:Khajiit|SNAM:Vo\v\CrAtk_vKF003.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=22352670919175723(Topic:requirements)
+  morrowind.esm--->|DATA|ONAM:athyn sarethi|NAME:House Redoran honors strength and endurance. We value all the skills of war, but especially the arts of long blade, spear, blocking, marksmanship, and athletics. Redorans must know how to use and repair heavy and medium armor. Only when armed with these skills can we perform our inherited duties as the warriors and defenders of the Dunmer.
+  TR_Mainland.esm->|DATA|ONAM:athyn sarethi|NAME:House Redoran honors strength and endurance. We value all the skills of war, but especially the arts of long blade, spear, blocking, marksmanship, and athletics. Redorans must know how to use and repair heavy and medium armor. Only when armed with these skills can we perform our inherited duties as the warriors and defenders of the Dunmer.
+
+[MOD-INF]: ID=24237235602705299(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Wood Elf|SNAM:Vo\v\Hit_vWM001.mp3|NAME:Graah!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Wood Elf|SNAM:Vo\v\Hit_vWM001.mp3|NAME:Graah!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=24347576814487650(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF003.mp3|NAME:Hurraggh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=24487325515277926(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Breton|SNAM:Vo\v\Hit_vBM011.mp3|NAME:Urgh!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Breton|SNAM:Vo\v\Hit_vBM011.mp3|NAME:Urgh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=26537734214961070(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM001.mp3|NAME:Rarrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM001.mp3|NAME:Rrrr!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=44661372323081456(Topic:caius cosades)
+  morrowind.esm--->|DATA|ONAM:mehra milo|NAME:Caius is a dear friend. Like me, he admires the best traditions of the Temple, charity for the poor, education for the ignorant, protection for the weak. He is a Westerner, but he has come to love our land and our people. But like me, he distrusts the arbitrary power of the Ordinators, and like the Dissident priests, he suspects the Temple is hiding something. He serves the Emperor, but he also loves Morrowind, and he sees the failing virtues of the Temple as a threat to Morrowind's political stability.|SCVR:04JX3A1_V_VivecInformants|INTV|BNAM:;Mehra Milo
+  TR_Mainland.esm->|DATA|FNAM:Blades|NAME:You must be looking for someone else.|SCVR:03sX3TR_Map|INTV
+
+[MOD-INF]: ID=45341331184509153(Topic:jobs)
+  morrowind.esm--->|DATA|FNAM:Thieves Guild|NAME:You broke the rules, %PCName. Maybe you can make amends, and maybe not.|SCVR:01390|INTV
+  TR_Mainland.esm->|DATA|FNAM:Thieves Guild|NAME:You broke the rules, %PCName. Maybe you can make amends, and maybe not.|SCVR:01390|INTV
+
+[MOD-INF]: ID=65902352969920584(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=81723882249159328(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=99793225311454241(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Argonian|SNAM:Vo\v\Hit_vAM004.mp3|NAME:Hhh-RGH!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Argonian|SNAM:Vo\v\Hit_vAM004.mp3|NAME:Hhh-RGH!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=104191852997159572(Topic:caius cosades)
+  morrowind.esm--->|DATA|ONAM:bacola closcius|NAME:What? Do I look like his mother? That I should know where he is?  I might know, yes. I might tell my pals, yes. But you are not my pal.
+  TR_Mainland.esm->|DATA|ONAM:bacola closcius|NAME:What? Do I look like his mother? That I should know where he is?  I might know, yes. I might tell my pals, yes. But you are not my pal.
+
+[MOD-INF]: ID=110397752666415586(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Nord|SNAM:Vo\v\Hit_vNM010.mp3|NAME:Hregh!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Nord|SNAM:Vo\v\Hit_vNM010.mp3|NAME:Hregh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=113433499122430928(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF002.mp3|NAME:Rreh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF002.mp3|NAME:Rreh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=120988066108817584(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM001.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM001.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=132716130317517856(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Breton|SNAM:Vo\v\Hit_vBF009.mp3|NAME:Ugh!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Breton|SNAM:Vo\v\Hit_vBF009.mp3|NAME:Ugh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=174120102307389584(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF001.mp3|NAME:Arh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF001.mp3|NAME:Arh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=182829917719530449(Topic:rules)
+  morrowind.esm--->|DATA|ONAM:caius cosades|NAME:The rules for the Blades are simple. Follow orders. My orders. Don't steal from the Blades. Don't attack anyone from the Blades. Simple rules. Follow them, or you'll be expelled. And once you're expelled, you're out forever.
+  TR_Mainland.esm->|DATA|ONAM:caius cosades|NAME:The rules for the Blades are simple. Follow orders. My orders. Don't steal from the Blades. Don't attack anyone from the Blades. Simple rules. Follow them, or you'll be expelled. And once you're expelled, you're out forever.
+
+[MOD-INF]: ID=195121616132722266(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAM001.mp3|NAME:Aahhragh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Argonian|SNAM|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=208619424218529186(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM001.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM001.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=234522145271172825(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=236194511102517048(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\Hit_vIF013.mp3|NAME:Augh!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\Hit_vIF013.mp3|NAME:Augh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=237912991321612259(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM003.mp3|NAME:Hurrragh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=260702512291366766(Voice:attack)
+  tamriel_data.esm->|DATA|SNAM:Vo\v\CrAtk_vKM004.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+  TR_Mainland.esm-->|DATA|RNAM:Khajiit|SNAM:Vo\v\CrAtk_vKM004.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=272244742963219090(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF002.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF002.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=279382872514415438(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF002.mp3|NAME:Growl!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF002.mp3|NAME:Growl!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=305177942911622058(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM003.mp3|NAME:Haha!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM003.mp3|NAME:Grrrrrr!|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=306229682843426157(Topic:thieves guild)
+  morrowind.esm--->|DATA|ONAM|BNAM:; savant; bard; rogue; thief; acrobat;
+  TR_Mainland.esm->|DATA|ONAM:larrius varro|NAME:In the Empire, the Thieves Guild is old and powerful, but here in Morrowind, the Thieves Guild is young and weak. The old and powerful criminal guild of Morrowind is the Camonna Tong. The Camonna Tong doesn't like the Thieves Guild. A lot. And the feeling is mutual.|BNAM:; savant; bard; rogue; thief; acrobat;
+
+[MOD-INF]: ID=310804332256975446(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF002.mp3|NAME:Rarrrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF002.mp3|NAME:Rarrrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=459149642213817056(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF001.mp3|NAME:Haargh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF001.mp3|NAME:Haargh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=516826639660720487(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=532668071293518337(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=559962251861921332(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=560922935117668051(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF001.mp3|NAME:Arragh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF001.mp3|NAME:Arragh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=601317415630627473(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=622328696144149529(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAM003.mp3|NAME:Huragh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAM003.mp3|NAME:Rrelfkh!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=623817503184044414(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=729728150172269286(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=777311933961518643(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\Hit_vRF006.mp3|NAME:Kh-rhm!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\Hit_vRF006.mp3|NAME:Kh-rhm!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=824626281811019302(Topic:requirements)
+  morrowind.esm--->|DATA|ONAM:Lalatia Varian|NAME:Congratulations, %PCName. You have been promoted to %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank  Goodbye
+  TR_Mainland.esm->|DATA|FNAM:Fighters Guild|NAME:The Guild selects for strength and endurance. Stewards accept only those proficient with long blade, axe, and blunt weapons. Guildsmen must know how to block and how to fight in heavy armor. Guildsmen must also provide for the repair and upkeep of their armor.
+
+[MOD-INF]: ID=874123149282428378(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Orc|SNAM:Vo\v\Hit_vOM004.mp3|NAME:Roaagg!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Orc|SNAM:Vo\v\Hit_vOM004.mp3|NAME:Roaagg!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=890285142708132315(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=977912944566130682(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF002.mp3|NAME:Rragh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF002.mp3|NAME:Rragh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=1011330441731415903(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM001.mp3|NAME:Arr!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM001.mp3|NAME:Arr!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=1131117772673512745(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Orc|SNAM:Vo\v\Hit_vOF007.mp3|NAME:Oomph!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Orc|SNAM:Vo\v\Hit_vOF007.mp3|NAME:Oomph!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=1139610832312735714(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Nord|SNAM:Vo\v\Hit_vNF008.mp3|NAME:Aoagrgh!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:12sX3Random100|INTV:Z
+  TR_Mainland.esm-->|DATA|RNAM:Nord|SNAM:Vo\v\Hit_vNF008.mp3|NAME:Aoagrgh!|SCVR:03sX0TR_Vamp|INTV|SCVR:12sX3Random100|INTV:Z
+
+[MOD-INF]: ID=1152123141125916332(Topic:mushrooms)
+  morrowind.esm--->|DATA|ONAM:ajira|NAME:Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.|SCVR:01390|INTV
+  TR_Mainland.esm->|DATA|ONAM:ajira|NAME:Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.|SCVR:01390|INTV
+
+[MOD-INF]: ID=1265277182069518927(Topic:rules)
+  tamriel_data.esm->|DATA|FNAM:T_Cyr_FightersGuild|NAME:Your duties are to your Lords and brethren. In all ways, proceed with honor and valor. Keep a keen and watchful mind and never succumb to the craven tricks of the weak. It is traitorous to fight or thieve from other members of your guild. If you break these rules, you must speak with at least a Warder of the Guild to redeem your standing.|SCVR:03sX0T_Local_N|PCIN:|BNAM:Journal rules_fighters 1
+  TR_Mainland.esm-->|DATA|FNAM:T_Cyr_FightersGuild|NAME:Your duties are to your Lords and brethren. In all ways, proceed with honor and valor. Keep a keen and watchful mind and never succumb to the craven tricks of the weak. It is traitorous to fight or thieve from other members of your guild. If you break these rules, you must speak with at least a Warder of the Guild to redeem your standing.|SCVR:03sX0T_Local_N|PCIN:|BNAM:Journal rules_fighters 1
+
+[MOD-INF]: ID=1345458251278612444(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Wood Elf|SNAM:Vo\v\Hit_vWM002.mp3|NAME:Eek!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:12sX3Random100|INTV:Z
+  TR_Mainland.esm-->|DATA|RNAM:Wood Elf|SNAM:Vo\v\Hit_vWM002.mp3|NAME:Eek!|SCVR:03sX0TR_Vamp|INTV|SCVR:12sX3Random100|INTV:Z
+
+[MOD-INF]: ID=1509962732148531448(Voice:attack)
+  tamriel_data.esm->|DATA|SNAM:Vo\v\CrAtk_vKM005.mp3|NAME:Arrgh!|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+  TR_Mainland.esm-->|DATA|RNAM:Khajiit|SNAM:Vo\v\CrAtk_vKM005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=1523318761721726471(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF003.mp3|NAME:Huragh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF003.mp3|NAME:Huragh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=1691319230221969360(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\Hit_vHM010.mp3|NAME:Raagh.|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM:Vo\v\Hit_vHM010.mp3|NAME:Raagh.|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=1726029525340429562(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF002.mp3|NAME:Rrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF002.mp3|NAME:Rrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=1866361712841815922(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM002.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM002.mp3|NAME:R|ARRR:|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=1991221324298042157(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM003.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM003.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2034515711143693670(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2075930912512726033(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2083516593162008808(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Wood Elf|SNAM:Vo\v\Hit_vWF004.mp3|NAME:Ueahgh!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Wood Elf|SNAM:Vo\v\Hit_vWF004.mp3|NAME:Ueahgh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2117551141342622677(Voice:attack)
+  tamriel_data.esm->|DATA|SNAM:Vo\v\CrAtk_vKF005.mp3|NAME:Hugggh!|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+  TR_Mainland.esm-->|DATA|RNAM:Khajiit|SNAM:Vo\v\CrAtk_vKF005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2123531549689031323(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM005.mp3|NAME:Rrahsss!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM002.mp3|NAME:Nwaargh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2144821972031822816(Voice:attack)
+  tamriel_data.esm->|DATA|SNAM:Vo\v\CrAtk_vKF002.mp3|NAME:Rarrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+  TR_Mainland.esm-->|DATA|RNAM:Khajiit|SNAM:Vo\v\CrAtk_vKF002.mp3|NAME:Rarrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2235589462101611339(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2239925731299108985(Voice:hit)
+  tamriel_data.esm->|DATA|SNAM:Vo\v\Hit_vKF002.mp3|NAME:Rooar!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:13sX0T_Local_Khajiit|INTV
+  TR_Mainland.esm-->|DATA|RNAM:Khajiit|SNAM:Vo\v\Hit_vKF002.mp3|NAME:Rooar!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2246413642157056586(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF003.mp3|NAME:Ghaah!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF003.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2297866592227230240(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2326573772601432317(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF003.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF003.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2419190451775918136(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM005.mp3|NAME:Harargh!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:12sX3Random100|INTV:P
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM005.mp3|NAME:Harargh!|SCVR:03sX0TR_Vamp|INTV|SCVR:12sX3Random100|INTV:P
+
+[MOD-INF]: ID=2442325911143559842(Voice:hit)
+  tamriel_data.esm->|DATA|SNAM:Vo\v\Hit_vKM015.mp3|NAME:Hharag!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:13sX0T_Local_Khajiit|INTV
+  TR_Mainland.esm-->|DATA|RNAM:Khajiit|SNAM:Vo\v\Hit_vKM015.mp3|NAME:Hharag!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2557547962571432177(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWM003.mp3|NAME:Wrooar!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWM003.mp3|NAME:Wrooar!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2659113511188323350(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2678924284533513248(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\Hit_vDF012.mp3|NAME:Uroagh!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\Hit_vDF012.mp3|NAME:Uroagh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2739375643256517662(Topic:join the thieves guild)
+  morrowind.esm--->|DATA|FNAM:Thieves Guild|NAME:You look like you may have some skill... You want to join? Or maybe you want to know what we're all about.|SCVR:01020|INTV|SCVR:11460|INTV:|BNAM:Choice "Yeah, yeah lemme in." 1 "Hear the rules." 2
+  TR_Mainland.esm->|DATA|FNAM:Thieves Guild|NAME:You look like you may have some skill... You want to join? Or maybe you want to know what we're all about.|SCVR:01020|INTV|SCVR:11460|INTV:|BNAM:Choice "Yeah, yeah lemme in." 1 "Hear the rules." 2
+
+[MOD-INF]: ID=2787862492733432415(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM005.mp3|NAME:Hahahaha!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM005.mp3|NAME:Fssst!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=2918324566173329564(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF003.mp3|NAME:Hugggnh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF003.mp3|NAME:Hugggnh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=3066626519188525519(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\Hit_vIF001.mp3|NAME:Aieeghgh!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:12sX3Random100|INTV:_
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM|SCVR:03sX0TR_Vamp|INTV|SCVR:12sX3Random100|INTV:_
+
+[MOD-INF]: ID=3084812080184745241(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM002.mp3|NAME:Rararah!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM002.mp3|NAME:Rararah!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=3133117681314269822(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=3222514357912418028(Topic:join the thieves guild)
+  morrowind.esm--->|DATA|FNAM:Thieves Guild|NAME:You're already a %PCRank in the Thieves Guild, %PCName.|SCVR:01460|INTV
+  TR_Mainland.esm->|DATA|FNAM:Thieves Guild|NAME:You're already a %PCRank in the Thieves Guild, %PCName.|SCVR:01460|INTV
+
+[MOD-INF]: ID=4456189381977813550(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Nord|SNAM:Vo\v\Hit_vNF006.mp3|NAME:Rugh!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Nord|SNAM:Vo\v\Hit_vNF006.mp3|NAME:Rugh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=4675146372215918663(Voice:attack)
+  tamriel_data.esm->|DATA|SNAM:Vo\v\CrAtk_vKF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+  TR_Mainland.esm-->|DATA|RNAM:Khajiit|SNAM:Vo\v\CrAtk_vKF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=5339141542103528419(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM003.mp3|NAME:Hurrragh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=5927190291671731091(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF004.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=7935282261420230465(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=7982310691398729731(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWM002.mp3|NAME:Wraharar!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Wood Elf|SNAM|SCVR:02sX3Random100|INTV:2|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=8236281771821925239(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM003.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM003.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=8669307881498726372(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=10812312323070910423(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF002.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF002.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=11754116652960411946(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=12815260561691318588(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=14121259122198413517(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM003.mp3|NAME:Arrrg!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM003.mp3|NAME:Arrrg!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=15006142391633423024(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=15162105121866623142(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Argonian|SNAM:Vo\v\Hit_vAM014.mp3|NAME:Aahhah-hhrgh.|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:12sX3Random100|INTV:Z
+  TR_Mainland.esm-->|DATA|RNAM:Argonian|SNAM:Vo\v\Hit_vAM014.mp3|NAME:Aahhah-hhrgh.|SCVR:03sX0TR_Vamp|INTV|SCVR:12sX3Random100|INTV:Z
+
+[MOD-INF]: ID=16230277862791719017(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF003.mp3|NAME:Hrah!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF003.mp3|NAME:Hrah!|SCVR:02sX3Random100|INTV:(|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=18022176023244512962(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF004.mp3|NAME:Harragh!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF004.mp3|NAME:Harragh!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=18255199463102731795(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM001.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM001.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=18688247552905317586(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\Hit_vDM009.mp3|NAME:U-urogh.|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\Hit_vDM009.mp3|NAME:U-urogh.|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=19164232771363014067(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=19673271021366213955(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM005.mp3|NAME:Die!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=19775196752997229243(Voice:attack)
+  tamriel_data.esm->|DATA|SNAM:Vo\v\CrAtk_vKF004.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+  TR_Mainland.esm-->|DATA|RNAM:Khajiit|SNAM:Vo\v\CrAtk_vKF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=20353186792139232066(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF001.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF001.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=20500232661154128246(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM004.mp3|NAME:Die!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM004.mp3|NAME:Hmm!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=20714135092371712032(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF003.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF003.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=21291250432457530367(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM001.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM001.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=21719139851400115484(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\Hit_vIM007.mp3|NAME:Ooargh!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\Hit_vIM007.mp3|NAME:Ooargh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=21888244032170024938(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=22620214482141326183(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM002.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM002.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=23491298982892413396(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:Redguard|SNAM:Vo\v\Hit_vRM008.mp3|NAME:Rrarh!|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Redguard|SNAM:Vo\v\Hit_vRM008.mp3|NAME:Rrarh!|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=25369226311747427199(Voice:hit)
+  tamriel_data.esm->|DATA|RNAM:High Elf|SNAM|SCVR:03sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:High Elf|SNAM:Vo\v\Hit_vHF009.mp3|NAME:Uh-hroagh.|SCVR:03sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=27404126251600410083(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=30357114392550523928(Voice:attack)
+  tamriel_data.esm->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF002.mp3|NAME:Rwaar!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+  TR_Mainland.esm-->|DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF002.mp3|NAME:Rwaar!|SCVR:02sX3Random100|INTV|SCVR:13sX0TR_Vamp|INTV
+
+[MOD-INF]: ID=30964140601384129840(Voice:attack)
+  tamriel_data.esm->|DATA|SNAM:Vo\v\CrAtk_vKM002.mp3|NAME:Rarrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+  TR_Mainland.esm-->|DATA|RNAM:Khajiit|SNAM:Vo\v\CrAtk_vKM002.mp3|NAME:Rarrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX0TR_Vamp|INTV

@@ -1,0 +1,101 @@
+AshlockMarket.ESP: DUP-INF DUP-REC GETSND MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(SlavecattleReplacer)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(SlaveCount)
+	SCPT(avSlaveCount)
+	SCPT(beverasSlaveTrader)
+	SCPT(savileSlaveTrader)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    active_de_bedroll
+	morrowind.esm       ACTI    active_de_p_bed_28
+	morrowind.esm       CONT    chargen_crate_01_empty
+	morrowind.esm       DOOR    in_impsmall_door_jail_01
+	morrowind.esm       LEVC    in_vamp_cattle_ber
+	morrowind.esm       SCPT    savileSlaveTrader
+	morrowind.esm       STAT    in_impsmall_corner_01
+	tribunal.esm        DOOR    in_impsmall_door_01
+	tribunal.esm        DOOR    in_velothismall_ndoor_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    household slaves
+	morrowind.esm       LAND    (-1, 17)
+	morrowind.esm       LAND    (-1, 18)
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       NPC_    anruin
+	morrowind.esm       NPC_    cattle_arg_f01
+	morrowind.esm       NPC_    cattle_arg_f02
+	morrowind.esm       NPC_    cattle_arg_m01
+	morrowind.esm       NPC_    cattle_bos_f01
+	morrowind.esm       NPC_    cattle_bos_m01
+	morrowind.esm       NPC_    cattle_bre_f01
+	morrowind.esm       NPC_    cattle_bre_m01
+	morrowind.esm       NPC_    cattle_dun_f01
+	morrowind.esm       NPC_    cattle_dun_m01
+	morrowind.esm       NPC_    cattle_imp_f01
+	morrowind.esm       NPC_    cattle_imp_m01
+	morrowind.esm       NPC_    cattle_kha_f01
+	morrowind.esm       NPC_    cattle_kha_f02
+	morrowind.esm       NPC_    cattle_kha_m01
+	morrowind.esm       NPC_    cattle_nor_f01
+	morrowind.esm       NPC_    cattle_nor_m01
+	morrowind.esm       NPC_    cattle_orc_f01
+	morrowind.esm       NPC_    cattle_orc_m01
+	morrowind.esm       NPC_    cattle_red_f01
+	morrowind.esm       NPC_    cattle_red_m01
+	morrowind.esm       NPC_    dhaunayne aundae
+	morrowind.esm       NPC_    imperial guard
+	morrowind.esm       NPC_    raxle berne
+	morrowind.esm       NPC_    ula
+	morrowind.esm       NPC_    volrina quarra
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=2038858512663100(Greeting:greeting 9)
+  |DATA|ANAM:Mournhold, Craftsmen's Hall|NAME:You killed Trels Varis? He was the only one with the courage to tell the truth. I don't understand how you could do such a thing.|SCVR:04JX0TR09_Journalist|INTV:P
+
+[DUP-INF]: ID=10009858175861683(Topic:household slaves)
+  |DATA|ONAM:savile imayn|NAME:The following slaves are available for purchase: S'Bakha, a Khajiit male; Manilian Scerius, an Imperial male; Menelras, a Bosmer male; Ciralinde, an Altmer female; Jadier Mannick, a Breton male, and Davina, a Redguard female.|BNAM:;in case the player has never had this topic added... rare  AddTopic "go free"
+
+[DUP-INF]: ID=260033079287338317(Greeting:greeting 9)
+  |DATA|ANAM:Tel Branora|NAME:Still in Tel Branora? Are you looking for a specific place here?|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=344923501556916651(Topic:go free)
+  |DATA|CNAM|NAME:No, there is no escape.|SCVR:05IX3key_telaruhnslaves_01|INTV
+
+[MOD-INF]: ID=452829757792223617(Topic:go free)
+  morrowind.esm----->|DATA|CNAM:Slave|ANAM:Caldera|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_calderaslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  AshlockMarket.ESP->|DATA|CNAM:Slave|ANAM:Caldera|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_calderaslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[DUP-INF]: ID=2332722652251524419(Greeting:greeting 9)
+  |DATA|ANAM:Mournhold, Craftsmen's Hall|NAME:You killed Trels Varis? He was the only one with the courage to tell the truth. Go away. I want nothing to do with you.|SCVR:04JX0TR09_Journalist|INTV:P|BNAM:Goodbye
+
+[MOD-INF]: ID=5625301911022612026(Topic:go free)
+  morrowind.esm----->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shushishislaves|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  AshlockMarket.ESP->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shushishislaves|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[DUP-INF]: ID=14547233552417125516(Greeting:greeting 9)
+  |DATA|ONAM:folsi thendas|ANAM:Suran|NAME:This is the silt strider port for the town of Suran, outlander, in the Ascadian Isles region. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Suran, I can help you with local services, or any specific place in Suran you're looking for. Or if you want someone in particular, maybe I know where to look.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=18705125102254928778(Greeting:greeting 9)
+  |DATA|ANAM:Mournhold, Craftsmen's Hall|NAME:You killed Trels Varis? He was the only one with the courage to tell the truth. I don't understand how you could do such a thing.|SCVR:04JX0TR09_Journalist|INTV:Z
+
+[DUP-INF]: ID=25143259422885620789(Greeting:greeting 9)
+  |DATA|ANAM:Tel Branora|NAME:You again. Looking for services here in Tel Branora?|SCVR:02sX4Random100|INTV:(
+
+[DUP-INF]: ID=27518247831477521212(Greeting:greeting 5)
+  |DATA|ONAM:Geon Auline|NAME:Hello.  I am Geon Auline, collector of fine artifacts.|SCVR:04JX0MS_EstateSale|INTV:
+
+[MOD-INF]: ID=28146221662688417841(Topic:go free)
+  morrowind.esm----->|DATA|CNAM:Slave|ANAM:Sha-Adnius|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shaadniusslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  AshlockMarket.ESP->|DATA|CNAM:Slave|ANAM:Sha-Adnius|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shaadniusslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2

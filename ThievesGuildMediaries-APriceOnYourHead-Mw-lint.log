@@ -1,0 +1,68 @@
+ThievesGuildMediaries-APriceOnYourHead-Mw.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF MOD-IID NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (102) != Actual count (29)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(PriceOnYourHeadTopic_scr)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    price on your head
+
+[MOD-INF]: ID=2232578973982204(Topic:price on your head)
+  morrowind.esm--------------------------------->|DATA|ONAM:tongue_toad|NAME:That's not a problem for you now.|SCVR:01430|INTV:
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->|DATA|ONAM:tongue_toad|NAME:Don't be concerned, there's no bounty on your head.|SCVR:01430|INTV:
+
+[DUP-INF]: ID=43231692294565986(Topic:price on your head)
+  |DATA|FNAM:Thieves Guild|NAME:You've been expelled from the guild, %PCName. Take care of that, and maybe we can talk.|SCVR:01390|INTV
+
+[DUP-INF]: ID=234512316206927033(Topic:price on your head)
+  |DATA|ONAM:arantamo|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2
+
+[MOD-INF]: ID=622121088244833816(Topic:price on your head)
+  morrowind.esm--------------------------------->|DATA|NAME:Smart thinking, %PCRank, but you don't have the gold to cover that. Come back to me when you do.|SCVR:01500|INTV
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->|DATA|NAME:Smart thinking, %PCName, but you don't have the gold to cover that. Come back to me when you do.|SCVR:01500|INTV
+
+[MOD-INF]: ID=622121088244833816(Topic:price on your head)
+  morrowind.esm--------------------------------->|DATA|NAME:Smart thinking, %PCRank, but you don't have the gold to cover that. Come back to me when you do.|SCVR:01500|INTV
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->|DATA|NAME:Smart thinking, %PCName, but you don't have the gold to cover that. Come back to me when you do.|SCVR:01500|INTV
+[MOD-IID]: ID=279421104997133530
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->Smart thinking, %PCRank, but you don't have the gold to cover that. Come back to me when you do.
+
+[DUP-INF]: ID=1328358151231324457(Topic:price on your head)
+  |DATA|ONAM:rissinia|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2
+
+[MOD-INF]: ID=1841853731897017756(Topic:price on your head)
+  morrowind.esm--------------------------------->|DATA|ONAM:phane rielle|NAME:That's not a problem for you now.|SCVR:01430|INTV:
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->|DATA|ONAM:phane rielle|NAME:Don't be concerned, there's no bounty on your head.|SCVR:01430|INTV:
+
+[DUP-INF]: ID=2609911192837624047(Topic:price on your head)
+  |DATA|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:If there's a price on your head, there are a few people who can make it go away. In Balmora, talk to Phane Rielle; in Ald'ruhn, it's Tongue-Toad; in Sadrith Mora, Rissinia; and you should speak to Crazy-Legs Arantamo in Vivec. They're the people who can take care of those nasty bounties, for a price.|SCVR:07XX0phane rielle|INTV:|SCVR:17XX0arantamo|INTV:|SCVR:27XX0rissinia|INTV:|SCVR:37XX0tongue_toad|INTV:
+
+[DUP-INF]: ID=3230295062686214647(Topic:price on your head)
+  |DATA|FNAM:Thieves Guild|NAME:There are those that can take care of that. We can explain more to you about that later.
+
+[MOD-INF]: ID=14101306333159624177(Topic:price on your head)
+  morrowind.esm--------------------------------->|DATA|ONAM:rissinia|NAME:That's not a problem for you now.|SCVR:01430|INTV:
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->|DATA|ONAM:rissinia|NAME:Don't be concerned, there's no bounty on your head.|SCVR:01430|INTV:
+
+[MOD-INF]: ID=17098122791121329328(Topic:price on your head)
+  morrowind.esm--------------------------------->|DATA|NAME:Well, that's your choice. Let me know if you change your mind, %PCRank.|SCVR:01500|INTV
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->|DATA|NAME:Well, that's your choice. Let me know if you change your mind, %PCName.|SCVR:01500|INTV
+
+[MOD-INF]: ID=17098122791121329328(Topic:price on your head)
+  morrowind.esm--------------------------------->|DATA|NAME:Well, that's your choice. Let me know if you change your mind, %PCRank.|SCVR:01500|INTV
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->|DATA|NAME:Well, that's your choice. Let me know if you change your mind, %PCName.|SCVR:01500|INTV
+[MOD-IID]: ID=31000522055216948
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->Well, that's your choice. Let me know if you change your mind, %PCRank.
+
+[MOD-INF]: ID=19168109821570928829(Topic:price on your head)
+  morrowind.esm--------------------------------->|DATA|ONAM:arantamo|NAME:That's not a problem for you now.|SCVR:01430|INTV:
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->|DATA|ONAM:arantamo|NAME:Don't be concerned, there's no bounty on your head.|SCVR:01430|INTV:
+
+[DUP-INF]: ID=24122315662111218808(Topic:price on your head)
+  |DATA|ONAM:phane rielle|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2
+
+[MOD-INF]: ID=28131227231632925176(Topic:price on your head)
+  morrowind.esm--------------------------------->|DATA|NAME:Smart thinking, %PCRank. I'll take care of everything.|SCVR:01500|INTV|SCVR:12sX0PCHasGoldDiscount|INTV|BNAM:Player->RemoveItem Gold_001 CrimeGoldDiscount  SetPCCrimeLevel 0  PayFineThief  ;StartScript TGDiscountScript
+  ThievesGuildMediaries-APriceOnYourHead-Mw.esp->|DATA|DNAM:Thieves Guild|NAME:Smart thinking, %PCRank. I'll take care of everything.|SCVR:01500|INTV|SCVR:12sX0PCHasGoldDiscount|INTV|BNAM:Player->RemoveItem Gold_001 CrimeGoldDiscount  SetPCCrimeLevel 0  PayFineThief  ;StartScript TGDiscountScript
+
+[DUP-INF]: ID=29318190191983331359(Topic:price on your head)
+  |DATA|ONAM:tongue_toad|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2

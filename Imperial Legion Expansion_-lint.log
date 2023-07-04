@@ -1,0 +1,103 @@
+Imperial Legion Expansion_.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(3193_legionuniscript)
+	SCPT(CS_CompanionScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       CREA    scamp_creeper
+	morrowind.esm       DIAL    breeding netch
+	morrowind.esm       DIAL    courtesy
+	morrowind.esm       DIAL    dandsa
+	morrowind.esm       DIAL    divine intervention
+	morrowind.esm       DIAL    drinar varyon
+	morrowind.esm       DIAL    dwemer boots
+	morrowind.esm       DIAL    eggmine
+	morrowind.esm       DIAL    errand
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    honthjolf
+	morrowind.esm       DIAL    jocien ancois
+	morrowind.esm       DIAL    join the imperial legion
+	morrowind.esm       DIAL    joncis dalomax
+	morrowind.esm       DIAL    land deed
+	morrowind.esm       DIAL    madura seran
+	morrowind.esm       DIAL    maiden's token
+	morrowind.esm       DIAL    ragash gra-shuzgub
+	morrowind.esm       DIAL    saprius entius
+	morrowind.esm       DIAL    scrap metal
+	morrowind.esm       DIAL    slander
+	morrowind.esm       DIAL    sorkvild the raven
+	morrowind.esm       DIAL    talos cult
+	morrowind.esm       NPC_    arius rulician
+	morrowind.esm       NPC_    calvario
+	morrowind.esm       NPC_    drelyne llenim
+	morrowind.esm       NPC_    general darius
+	morrowind.esm       NPC_    imperial archer
+	morrowind.esm       NPC_    maranique jolvanne
+	morrowind.esm       NPC_    oritius maro
+	morrowind.esm       NPC_    ralyn othravel
+	morrowind.esm       NPC_    varus vatinius
+	morrowind.esm       NPC_    zallay subaddamael
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    lord's mail
+	tribunal.esm        DIAL    travel together
+	tribunal.esm        NPC_    sirollus saccus
+
+[MOD-INF]: ID=18847342643332070(Topic:join the imperial legion)
+  morrowind.esm------------------>|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1
+  Imperial Legion Expansion_.esp->|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1  Player->additem, "bk_ordolegionis" , 1  AddTopic "Supply Chest"
+
+[MOD-INF]: ID=89619130211014407(Topic:ghostgate)
+  morrowind.esm------------------>|DATA|ONAM:wulf|NAME:That's very kind of you. Here's the coin. I've had it with me a long time, and it's always brought me luck. But I have no more use for it, and I'd like to pass it on to somebody younger. Somebody going places I can't go anymore. Your generation's shaper of history... an engine of destiny. That coin will bring you luck on the mountain. I promise. 'For Emperor and Empire,' as we say in the legions. Go with Kynareth.|SCVR:01500|INTV|BNAM:player->additem "lucky_coin" 1  Journal IC30_Imperial_veteran 1  player->addspell luck_of_the_emperor
+  Imperial Legion Expansion_.esp->|DATA|ONAM:wulf|NAME:That's very kind of you. Here's the coin. I've had it with me a long time, and it's always brought me luck. But I have no more use for it, and I'd like to pass it on to somebody younger. Somebody going places I can't go anymore. Your generation's shaper of history... an engine of destiny. That coin will bring you luck on the mountain. I promise. 'For Emperor and Empire,' as we say in the legions. Go with Kynareth. Also please take this amulet. Guard it well, as one day I fear it may become a curiosity...|SCVR:01500|INTV|BNAM:player->additem "lucky_coin" 1  Journal IC30_Imperial_veteran 1  player->addspell luck_of_the_emperor  player->additem "AmuletTalos01" 1
+
+[MOD-INF]: ID=124735414790028426(Topic:little advice)
+  tribunal.esm------------------->|DATA|ONAM:eldafire|NAME:You look like you can take care of yourself. Then why don't you do something about those smugglers in Addamasartus cave? It's right over there near the silt strider port. Yet these guards! Look at them. Just strutting around. Someone must have paid them to ignore the smuggling going on here.|SCVR:06DX0Melar Baram|INTV:|SCVR:16DX0Tanisie Verethi|INTV:|SCVR:26DX0Mulvisie Othril|INTV:
+  Imperial Legion Expansion_.esp->|DATA|ONAM:eldafire|NAME:You look like you can take care of yourself. Then why don't you do something about those smugglers in Addamasartus cave? It's right over there near the silt strider port. Yet these guards! Look at them. Just strutting around. Someone must have paid them to ignore the smuggling going on here.|SCVR:06DX0Melar Baram|INTV:|SCVR:16DX0Tanisie Verethi|INTV:|SCVR:26DX0Mulvisie Othril|INTV:|BNAM:AddTopic "Addamasartus"
+
+[MOD-INF]: ID=255104849150502170(Topic:orders)
+  morrowind.esm------------------>|DATA|ONAM:angoril|DNAM:Imperial Legion|NAME:Things have been very quiet here. Sorry, no pressing business. Check with the Knight Protectors of the other Legion forts.
+  Imperial Legion Expansion_.esp->|DATA|ONAM:angoril|DNAM:Imperial Legion|NAME:Things have been very quiet here. It is because Pelagiad is a proper Imperial town. But I warn you: Here in Vvardenfell our rule is not as accepted as in Cyrodiil or High Rock. We have many enemies. The Telvanni, Ashlanders and the Camonna Tong among others. But the biggest threat is the Sixth House Cultists.|SCVR:06DX0Dagoth Draven|INTV:
+
+[MOD-INF]: ID=326478402283706212(Topic:advancement)
+  morrowind.esm------------------>|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this armor.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "imperial cuirass_armor" 1
+  Imperial Legion Expansion_.esp->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this armor and clothes.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "imperial cuirass_armor" 1  Player->additem "imperial_greaves" 1  Player->additem "imperial belt" 1  Player->additem "imperial skirt_clothing" 1
+
+[MOD-INF]: ID=493197851392013947(Topic:divine intervention)
+  morrowind.esm------------------>|DATA|ONAM:Jon Hawker|NAME:Thank you, friend. And goodbye. But before I go, let me give you a gift. They took everything, but I managed to keep these gloves hidden. I've always been fond of them, and their maker. Wear them in good health, and in remembrance of me.|SCVR:05IX3sc_divineintervention|INTV|SCVR:11500|INTV|BNAM:Journal IC25_JonHawker_free 5  player->removeitem sc_divineintervention 1  player->additem "Zenithar's_Warning" 1  player->additem "Zenithar's_Wiles" 1  player->modReputation 1  disable
+  Imperial Legion Expansion_.esp->|DATA|ONAM:Jon Hawker|NAME:Thank you, friend. And goodbye. But before I go, let me give you a gift. They took everything, but I managed to keep these gloves and this amulet hidden. I've always been fond of them, and their maker. Wear them in good health, and in remembrance of me.|SCVR:05IX3sc_divineintervention|INTV|SCVR:11500|INTV|BNAM:Journal IC25_JonHawker_free 5  player->removeitem sc_divineintervention 1  player->additem "Zenithar's_Warning" 1  player->additem "Zenithar's_Wiles" 1  player->additem "AmuletZenithar01" 1  player->modReputation 1  disable
+
+[MOD-INF]: ID=2350315055279237208(Greeting:greeting 0)
+  tribunal.esm------------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform. Talk to me when you're serious.|SCVR:01475|INTV|SCVR:12sX0WearingLegionUni|INTV:|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+  Imperial Legion Expansion_.esp->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform. Talk to me when you're serious.|SCVR:01475|INTV|SCVR:12sX0WearingLegionUni|INTV:|SCVR:25IX23193_legionuni|INTV:|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+
+[MOD-INF]: ID=3162927018253629519(Topic:divine intervention)
+  morrowind.esm------------------>|DATA|ONAM:Ama Nin_DisguiseMara|NAME:Bless you, and all your endeavors. Farewell, and good fortune. But before I go, please -- let me at least give you a gift. All I have is this lucky change of clothes I've carried with me on my travels. I never wear them -- I just keep them as a good luck charm. Perhaps you can wear them in remembrance of me, and in token of your generosity to a stranger.|SCVR:05IX3sc_divineintervention|INTV|SCVR:11500|INTV|BNAM:Journal IC26_AmaNin_free 5  player->removeitem sc_divineintervention 1  player->additem Maras_Skirt 1  player->additem Maras_Blouse 1  player->modReputation 1  disable
+  Imperial Legion Expansion_.esp->|DATA|ONAM:Ama Nin_DisguiseMara|NAME:Bless you, and all your endeavors. Farewell, and good fortune. But before I go, please -- let me at least give you a gift. All I have is this lucky change of clothes I've carried with me on my travels. I never wear them -- I just keep them as a good luck charm. Perhaps you can wear them in remembrance of me, and in token of your generosity to a stranger.|SCVR:05IX3sc_divineintervention|INTV|SCVR:11500|INTV|BNAM:Journal IC26_AmaNin_free 5  player->removeitem sc_divineintervention 1  player->additem Maras_Skirt 1  player->additem Maras_Blouse 1  player->additem AmuletMara01 1  player->modReputation 1  disable
+
+[MOD-INF]: ID=3577298171310732405(Topic:advancement)
+  morrowind.esm------------------>|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this cuirass and greaves.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "templar_cuirass" 1  Player->additem "templar_greaves" 1
+  Imperial Legion Expansion_.esp->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this cuirass, greaves and clothes.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "templar_cuirass" 1  Player->additem "templar_greaves" 1  Player->additem "templar belt" 1  Player->additem "templar skirt obj" 1
+
+[MOD-INF]: ID=5304159542364922173(Topic:saprius entius)
+  morrowind.esm------------------>|DATA|ONAM:Frald the White|NAME:I'm glad you both got here safely. I'll find a way to get him out of the city. This helm was my father's when he served in the Legions. He had it enchanted and gave it to me. Now I'm giving it to you.|SCVR:34JX3IL_ProtectEntius|INTV:F|BNAM:Journal IL_ProtectEntius 100  Player->AddItem Imperial_Helm_Frald_uniq 1  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10  StartScript FraldCounter
+  Imperial Legion Expansion_.esp->|DATA|ONAM:Frald the White|NAME:I'm glad you both got here safely. I'll find a way to get him out of the city. This helm was my father's when he served in the Legions. He had it enchanted and gave it to me. Now I'm giving it to you. By the way... would you perhaps.... help me clear his name?|SCVR:34JX3IL_ProtectEntius|INTV:F|BNAM:Journal IL_ProtectEntius 100  Player->AddItem Imperial_Helm_Frald_uniq 1  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10  StartScript FraldCounter  AddTopic "clear his name"
+
+[MOD-INF]: ID=6618179852210128456(Topic:lord's mail)
+  tribunal.esm------------------->|DATA|ONAM:Varus Vatinius|NAME:Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 50  ModPCFacRep 5 "Imperial Legion"  ;PCRaiseRank "Imperial Legion" ;should not raise rank here Todd 4/02/02  AddItem "lords_cuirass_unique" 1  Player->RemoveItem "lords_cuirass_unique" 1  Player->Additem "silver_dukesguard_cuirass" 1
+  Imperial Legion Expansion_.esp->|DATA|ONAM:Varus Vatinius|NAME:Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 50  ModPCFacRep 5 "Imperial Legion"  ;PCRaiseRank "Imperial Legion" ;should not raise rank here Todd 4/02/02  AddItem "lords_cuirass_unique" 1  Player->RemoveItem "lords_cuirass_unique" 1  Player->Additem "silver_dukesguard_cuirass" 1  Player->Additem "A_duke_Gr_GND" 1  Player->Additem "A_duke_Boot_GND" 1  Player->Additem "a_duke_pauld_cl" 1  Player->Additem "a_duke_pauld_cl_left" 1  Player->Additem "A_duke_Bracer_W" 1  Player->Additem "A_duke_Bracer_W_Left" 1  Player->Additem "a_duke_helmet" 1
+
+[MOD-INF]: ID=11310263561489620560(Topic:dwemer boots)
+  morrowind.esm------------------>|DATA|ONAM:yagrum bagarn|NAME:Lord Fyr obtained these enchanted Dwemer boots from an unfortunate thief. And, given the quality of their craftsmanship, little wonder the fellow came a bad end. But I can do nothing for them. The fundamental enchantment is flawed. Might as well start over again... if such a pair of boots could still be fashioned in these benighted latter days. But I have done my best. Take them to Lord Fyr, with my sincere apologies.|SCVR:04JX3A2_3_CorprusCure|INTV|BNAM:;Yagrum Bagarn; Journal "A2_3_CorprusCure" >= 25  Player->AddItem "Dwemer_Boots of Flying" 1  Journal "A2_3_CorprusCure" 40
+  Imperial Legion Expansion_.esp->|DATA|ONAM:yagrum bagarn|NAME:Lord Fyr obtained these enchanted Dwemer boots from an unfortunate thief. And, given the quality of their craftsmanship, little wonder the fellow came a bad end. But I can do nothing for them. The fundamental enchantment is flawed. Might as well start over again... if such a pair of boots could still be fashioned in these benighted latter days. But I have done my best. Take them to Lord Fyr, with my sincere apologies. And please accept this amulet I found during my travels. It may be useful to you.|SCVR:04JX3A2_3_CorprusCure|INTV|BNAM:;Yagrum Bagarn; Journal "A2_3_CorprusCure" >= 25  Player->AddItem "Dwemer_Boots of Flying" 1  Player->AddItem "AmuletJulianos01" 1  Journal "A2_3_CorprusCure" 40
+
+[DUP-INF]: ID=16043312532573123088(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You say you've been attacked by assassins? From your description, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart about this matter.|SCVR:02sX0DBAttack|INTV|SCVR:17XX0apelles matius|INTV|SCVR:24JX4TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 30  set DBAttack to -1
+
+[MOD-INF]: ID=32709198381821212557(Topic:sorkvild the raven)
+  morrowind.esm------------------>|DATA|ONAM:radd hard-heart|NAME:Sorkvild the Raven is dead? Good work, %PCName.|SCVR:06DX3sorkvild the raven|INTV|SCVR:34JX3IL_Necromancer|INTV: |BNAM:Journal IL_Necromancer 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10
+  Imperial Legion Expansion_.esp->|DATA|ONAM:radd hard-heart|NAME:Sorkvild the Raven is dead? Good work, %PCName. However, there is a pressing matter which needs to be taken care of immediately. I need you to rescue a comrade.|SCVR:06DX3sorkvild the raven|INTV|SCVR:34JX3IL_Necromancer|INTV: |BNAM:Journal IL_Necromancer 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10

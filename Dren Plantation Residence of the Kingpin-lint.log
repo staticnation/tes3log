@@ -1,0 +1,87 @@
+Dren Plantation Residence of the Kingpin.esp: DUP-INF DUP-REC FOGBUG MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1570138 (plugin)    1567893 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Dren Plantation, Doves' Shack
+	Dren Plantation, Helvi's Shack
+	Dren Plantation, Hlevala's Shack
+	Dren Plantation, Verethi and Dralor
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DP_AccessChecker_Script)
+	SCPT(DP_CrateTravel_Script)
+	SCPT(DP_InteriorGuard_Script)
+	SCPT(DP_VilaDoor_Script)
+	SCPT(DP_VillaGuard_Script)
+	SCPT(drenSlaveOwners)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       STAT    furn_com_tapestry_04
+	morrowind.esm       CONT    crate_02_moonsugar
+	morrowind.esm       CONT    crate__02_skooma2
+	morrowind.esm       CONT    de_p_chest_02_dralor
+	morrowind.esm       CONT    de_p_chest_02_verethi
+	morrowind.esm       DOOR    in_hlaalu_loaddoor_01
+	oaab_data.esm       STAT    ab_in_hlasewerhalldj01
+	tribunal.esm        DOOR    hlaal_loaddoor_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    barrel_01
+	morrowind.esm       CONT    chest_small_llethri
+	morrowind.esm       CONT    de_drawers_helvi
+	morrowind.esm       CONT    de_helvi_chest
+	morrowind.esm       CONT    de_p_chest_dren
+	morrowind.esm       CONT    de_p_closet_dren
+	morrowind.esm       CONT    de_p_desk_dren
+	morrowind.esm       CONT    de_p_desk_hlevala
+	morrowind.esm       DIAL    go free
+	morrowind.esm       LAND    (2, -7)
+	morrowind.esm       NPC_    aebondeius jucanis
+	morrowind.esm       NPC_    arver rethul
+	morrowind.esm       NPC_    frinnius posuceius
+	morrowind.esm       NPC_    galos farethi
+	morrowind.esm       NPC_    gathal llethri
+	morrowind.esm       NPC_    guldrise dralor
+	morrowind.esm       NPC_    hlevala madavel
+	morrowind.esm       NPC_    hrargal the crow
+	morrowind.esm       NPC_    ivrosa verethi
+	morrowind.esm       NPC_    llaro llethri
+	morrowind.esm       NPC_    manos othreleth
+	morrowind.esm       NPC_    mash gro-burol
+	morrowind.esm       NPC_    mathesa helvi
+	morrowind.esm       NPC_    mavus ules
+	morrowind.esm       NPC_    navil ienith
+	morrowind.esm       NPC_    orvas dren druglord
+	morrowind.esm       NPC_    ranes ienith
+	morrowind.esm       NPC_    relyn sarano
+	morrowind.esm       NPC_    suvryn doves
+	morrowind.esm       NPC_    ushamph gro-shamub
+	morrowind.esm       NPC_    vaval orethi
+	morrowind.esm       NPC_    virene mene
+	morrowind.esm       PGRD    arvel plantation
+	morrowind.esm       PGRD    dren plantation
+	morrowind.esm       PGRD    dren plantation, dren's villa
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_tilled_dirt
+
+[DUP-INF]: ID=22181768139641505(Topic:go free)
+  |DATA|ONAM:hides_his_foot|NAME:Go free? No, I am old and could not make it on my own.
+
+[DUP-INF]: ID=520421455239399130(Topic:go free)
+  |DATA|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=3039836581354118459(Greeting:greeting 7)
+  |DATA|NAME:Do you have the key to these bracers? Will you let me go free?|SCVR:05IX2key_drenplantationslaves_01|INTV:
+
+[DUP-INF]: ID=18148107832227126618(Greeting:greeting 7)
+  |DATA|CNAM:Slave|ANAM:Zainsipilu|NAME:Do you have the key to these bracers? Will you let me go free?|SCVR:05IX2key_zainsipiluslaves_01|INTV:

@@ -1,0 +1,70 @@
+Blue_Devil_Of_Balmora.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    mantle of woe
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    altmer
+	morrowind.esm       DIAL    bacola closcius
+	morrowind.esm       DIAL    bad people
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    balmora fighters guild
+	morrowind.esm       DIAL    balmora mages guild
+	morrowind.esm       DIAL    balmora temple
+	morrowind.esm       DIAL    bet with galbedir
+	morrowind.esm       DIAL    bosmer
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    kiss
+	morrowind.esm       DIAL    law in morrowind
+	morrowind.esm       DIAL    mages guild
+	morrowind.esm       DIAL    magicka
+	morrowind.esm       DIAL    mysticism
+	morrowind.esm       DIAL    uriel septim
+	morrowind.esm       DIAL    valenwood
+	morrowind.esm       DIAL    vedam dren
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    anonymous writer
+	tribunal.esm        DIAL    antecedents of dwemer law
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    barenziah
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=13737223031182340(Topic:camonna tong)
+  |DATA|ONAM:Orvas Dren Druglord|NAME:We have a deal, friend.|SCVR:34JX3HH_WinCamonna|INTV:2
+
+[DUP-INF]: ID=38488615252471229(Topic:balmora)
+  |DATA|ONAM:chargen captain|NAME:Balmora is north of Seyda Neen. The road passes Pelagiad village and Fort Pelagiad, crosses a deep ravine, passes Fort Moonmoth, then turns west across the Odai River and into Balmora. The South Wall cornerclub is in southeast Balmora, on the east side of the river. For more detailed directions, talk to Elone the Scout at Arrille's Tradehouse here in Seyda Neen. But take my advice. You're new here. Take the silt strider to Balmora. Fast, cheap, safe. Cross the bridge and head east. Can't miss it.|BNAM:ShowMap Balmora  ShowMap Pelagiad  ShowMap "Moonmoth Legion Fort"
+
+[DUP-INF]: ID=137186796108155586(Topic:little advice)
+  |DATA|ONAM:Salas Valor|NAME:My advice... leave me alone.|BNAM:Goodbye
+
+[MOD-INF]: ID=209412776195423851(:kiss)
+  morrowind.esm------------->|DATA|ONAM:nels llendo|NAME:Yes, all I desire is a single kiss from beautiful lady such as yourself. Will you not grant Nels Llendo so simple a boon?|SCVR:04JX0MV_3_Charming|INTV:|BNAM:Choice "What harm could one kiss do?" 1 "I'd sooner kiss a guar." 2
+  Blue_Devil_Of_Balmora.ESP->|NAME:|YDEL:
+
+[MOD-INF]: ID=244446407314743471(Topic:balmora fighters guild)
+  morrowind.esm------------->|DATA|ANAM:Balmora|NAME:West of the Odai River, looking up towards the Temple, the Fighters Guild is halfway up on your right. They're always looking for people. If you're thinking of joining up, ask for Eydis Fire-Eye, the local Guild Steward.|SCVR:0BLX0Balmora, Guild of Fighters|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0nolore|INTV:
+  Blue_Devil_Of_Balmora.ESP->|DATA|ANAM:Balmora|NAME:West of the Odai River, looking up towards the Temple, the Fighters Guild is halfway up on your right. They're always looking for people. If you're thinking of joining up, ask for Eydis Fire-Eye, the local Guild Steward.|SCVR:0BLX0Balmora, Guild of Fighters|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0NoLore|INTV:
+
+[DUP-INF]: ID=1189814713726410206(Topic:anonymous writer)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=1321911584322527982(Topic:bet with galbedir)
+  |DATA|ONAM:ajira|NAME:Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and Ajira can speak with you again.|SCVR:01390|INTV
+
+[DUP-INF]: ID=3276711902536930469(Topic:bacola closcius)
+  |DATA|ONAM:bacola closcius|NAME:Speaking. I'm the owner and proprietor of the South Wall.
+
+[DUP-INF]: ID=19011276133174121216(Topic:antecedents of dwemer law)
+  |DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:You already brought me a copy of "Antecedents of Dwemer Law."|SCVR:34JX3HT_DwemerLaw|INTV:d
+
+[DUP-INF]: ID=23804136481296328694(Topic:balmora temple)
+  |DATA|ANAM:Balmora|NAME:The Balmora Temple stands on Rich Hill in the northwest part of town. The shrine there cures diseases and poison, and they offer various other services as well.|SCVR:0BLX0Balmora, Temple|INTV|SCVR:1CsX0NoLore|INTV:

@@ -1,0 +1,30 @@
+Find Jiub.ESP: DUP-INF DUP-REC GETSND MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(0s_juib_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(0s_juib_sc_activator0)
+	SCPT(0s_juib_sc_activator1)
+	SCPT(0s_juib_sc_activator2)
+	SCPT(0s_juib_sc_activator3)
+	SCPT(0s_juib_sc_activator4)
+	SCPT(0s_juib_sc_activator5)
+	SCPT(0s_juib_sc_activator6)
+	SCPT(0s_juib_sc_activator7)
+	SCPT(0s_juib_sc_activator8)
+	SCPT(0s_juib_sc_activator9)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+
+[DUP-INF]: ID=127902297244144444(Topic:latest rumors)
+  |DATA|ONAM:sjorvar horse-mouth|NAME:I monitor smuggling along the Bitter Coast. And the job's too big for me. They move moon sugar, skooma, raw ebony, Dwemer artifacts, you name it, through Hla Oad and Gnaar Mok. With the coast honeycombed with smuggler caves, and Camonna Tong locals carrying tiny packages overland by night, I'll never catch them. But maybe you'll have better luck.|SCVR:01460|INTV|BNAM:;Sjorvar Horse-Mouth; SameFaction = 1;
+
+[DUP-INF]: ID=1460882643163512764(Greeting:greeting 5)
+  |DATA|ONAM:Synnolian Tunifus|DNAM:Imperial Cult|NAME:Bring me five units of rat meat for cure poison potions. The best place to hunt rats is in the underworks of any of Vivec's cantons. Enter the underworks through trapdoors in the canalworks, or enter through the exterior outflow drains underwater along the sides of each canton -- if you don't mind a swim. And be careful. Sometimes bad things -- and bad people -- hide in the underworks. So don't go poking into anything you can't handle.|SCVR:04JX3IC5_corkbulb|INTV:2|SCVR:14JX4IC6_Rat|INTV|BNAM:;Synnolian Tunifus;  Journal IC6_rat 1
+
+[DUP-INF]: ID=2838824372109330145(Topic:latest rumors)
+  |DATA|ONAM:marcel maurard|NAME:Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.|SCVR:06DX0dreamer prophet|INTV:|SCVR:14JX4town_Vivec|INTV:2|BNAM:;Vivec; default; all others;   Journal town_Vivec 5
+
+[DUP-INF]: ID=3103019949187356597(Greeting:greeting 5)
+  |DATA|ONAM:Synnolian Tunifus|DNAM:Imperial Cult|NAME:Bring me one unit of netch leather for cure paralyzation potions. The Ascadian Isles is a good place to hunt. I suggest you start by looking around near Balur Salvu's house. He says he sees wild bull netch all the time. Now, stick with bull netch to start with. The betty netch are rather more dangerous.|SCVR:04JX3IC6_Rat|INTV:2|SCVR:14JX4IC7_netch|INTV|BNAM:;Synnolian Tunifus;  Journal IC7_netch 1

@@ -1,0 +1,638 @@
+Antares' Tribunal Main Quest 1.8.esp: DEP-LST DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [DEP-LST] Deprecated use of Leveled List functions on Bethesda Lists:
+	SCPT(TMQ_AssassinLeaderScript)       removefromlevcreature db_assassins
+	SCPT(TMQ_MynDhrur2Script)            removefromlevcreature, in_durzogs
+	SCPT(TMQ_MynDhrur2Script)            removefromlevcreature, in_goblins
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(TMQ_Assassin5Script)
+	SCPT(TMQ_AssassinDBScript)
+	SCPT(TMQ_AssassinLeaderScript)
+	SCPT(TMQ_BarilzarScript)
+	SCPT(TMQ_ChapelDoorsScript)
+	SCPT(TMQ_ClockDisLevTelScript)
+	SCPT(TMQ_ClockDoor0Script)
+	SCPT(TMQ_ClockDoorLockScript)
+	SCPT(TMQ_ClockDoorSothaScript)
+	SCPT(TMQ_ClockLever1Script)
+	SCPT(TMQ_ClockLever2Script)
+	SCPT(TMQ_ClockLever3Script)
+	SCPT(TMQ_ClockLever4Script)
+	SCPT(TMQ_ClockLever5Script)
+	SCPT(TMQ_ClockLever6Script)
+	SCPT(TMQ_DBscript)
+	SCPT(TMQ_DoorToPlazaScript)
+	SCPT(TMQ_EnoRomariScript)
+	SCPT(TMQ_Fedris1Script)
+	SCPT(TMQ_GobSoundScript)
+	SCPT(TMQ_GoblinScript)
+	SCPT(TMQ_GyroScript)
+	SCPT(TMQ_HandSadasScript)
+	SCPT(TMQ_HandSalasScript)
+	SCPT(TMQ_HandVeri2Script)
+	SCPT(TMQ_HandVeriScript)
+	SCPT(TMQ_IMperfectScript)
+	SCPT(TMQ_Lever1Script)
+	SCPT(TMQ_Lever2Script)
+	SCPT(TMQ_Lever3Script)
+	SCPT(TMQ_Lever4Script)
+	SCPT(TMQ_LockedDoorScript)
+	SCPT(TMQ_MoveKingScript)
+	SCPT(TMQ_MynDhrur2Script)
+	SCPT(TMQ_MynDhrur3Script)
+	SCPT(TMQ_MynDhrurScript)
+	SCPT(TMQ_OblivionDisLevTelScript)
+	SCPT(TMQ_OblivionLavaScript)
+	SCPT(TMQ_OrdinatorGuardScript)
+	SCPT(TMQ_PortalOblivionScript)
+	SCPT(TMQ_RadacScript)
+	SCPT(TMQ_RainScript)
+	SCPT(TMQ_RockBarilScript)
+	SCPT(TMQ_SothaDeadScript)
+	SCPT(TMQ_StartScript)
+	SCPT(TMQ_StatueCrScript)
+	SCPT(TMQ_Wait10Days)
+	SCPT(TMQ_WaitOneDayScript)
+	SCPT(bladeScript)
+	SCPT(dbattackScript)
+	SCPT(helsethScript)
+	SCPT(mazedbandEnd_Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    blight cloud
+	morrowind.esm       DIAL    disappearance of the dwarves
+	morrowind.esm       DIAL    kagrenac's tools
+	morrowind.esm       DIAL    mehrunes dagon
+	morrowind.esm       DIAL    tribunal
+	tribunal.esm        CLOT    mazed_band_end
+	tribunal.esm        CREA    fabricant_summon
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    barilzar's mazed band
+	tribunal.esm        DIAL    clockwork city
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    eno romari
+	tribunal.esm        DIAL    fedris hler
+	tribunal.esm        DIAL    fight my champion
+	tribunal.esm        DIAL    goblin army
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hands of almalexia
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    karrod
+	tribunal.esm        DIAL    karstangz-bcharn
+	tribunal.esm        DIAL    learn more about the attacks
+	tribunal.esm        DIAL    meralyn othan
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    official matter
+	tribunal.esm        DIAL    plans for you
+	tribunal.esm        DIAL    protect barenziah
+	tribunal.esm        DIAL    recent events
+	tribunal.esm        DIAL    salas valor
+	tribunal.esm        DIAL    service to our lady
+	tribunal.esm        DIAL    service to your king
+	tribunal.esm        DIAL    slight inconvenience
+	tribunal.esm        DIAL    sotha sil
+	tribunal.esm        DIAL    transport to mournhold
+	tribunal.esm        DIAL    trueflame
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        MGEF    137
+	tribunal.esm        PGRD    old mournhold: abandoned crypt
+	tribunal.esm        WEAP    nerevarblade_01_flame
+	tribunal.esm        WEAP    sword of almalexia
+
+[MOD-INF]: ID=1678137546137849(Topic:dark brotherhood)
+  tribunal.esm------------------------->|DATA|FNAM:Royal Guard|NAME:Why would you want anything to do with those scum?|BNAM:;[THIS WILL BE FOR ROYAL GUARDS]
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|CNAM|NAME:Why would you want anything to do with those scum?|BNAM:;[THIS WILL BE FOR ROYAL GUARDS]  ; modified by Tribunal Main QUest by ANtares
+
+[MOD-INF]: ID=2335245834621329(Topic:dark brotherhood)
+  tribunal.esm------------------------->|DATA|FNAM:Royal Guard|NAME:That's a touchy subject, and I'm not comfortable talking about it with someone I don't really trust.
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:dialog placeholder|FNAM:Royal Guard|NAME:That's a touchy subject, and I'm uncomfortable talking about it with someone I don't really trust.|BNAM:; Removed by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=2918312920832155(Topic:plans for you)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:All in good time. First you will prove yourself.|SCVR:04JX4TR_Champion|INTV:P
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:All in good time. First you will prove yourself.|SCVR:04JX4TR_Champion|INTV:P|BNAM:; removed by ANtares Tribunal Main Quest
+
+[MOD-INF]: ID=3174980240562025(Topic:dark brotherhood)
+  tribunal.esm------------------------->|DATA|ONAM:Tienius Delitian|NAME:There's no more to say about that at the moment. Let us speak of other things.|SCVR:04JX3TR05_People|INTV
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Tienius Delitian|ANAM:ToddTest|NAME:There is no more to say. Let us speak of other things.|SCVR:04JX3TR05_People|INTV|BNAM:; removed by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=7315914236221443(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:Galsa Andrano|NAME:Your story is unbelievable. But... there are rumors here that Almalexia is no longer here in Mournhold, and plans to be gone until Dagoth Ur is defeated. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Your story is unbelievable. But... there are rumors here that Almalexia is no longer here in Mournhold, and plans to be gone until Dagoth Ur is defeated. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|DELE:
+
+[MOD-INF]: ID=8086903206583467(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|NAME:Good day to you. How may I help you, %PCName?|SCVR:04JX2TR_MazedBand|INTV:
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ANAM:ToddTest|NAME:Good day to you. How may I help you, %PCName?|SCVR:04JX2TR_MazedBand|INTV:|BNAM:; removed by Anrares Tribunal  Main QUest
+
+[MOD-INF]: ID=12225917230914684(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:Galsa Andrano|NAME:Your story is unbelievable. But... there are rumors here that Almalexia is no longer here in Mournhold, and plans to be gone until Dagoth Ur is defeated. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Your story is unbelievable. But... there are rumors here that Almalexia is no longer here in Mournhold, and plans to be gone until Dagoth Ur is defeated. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|DELE:
+
+[MOD-INF]: ID=20190520926956713(Topic:mysterium xarxes)
+  tribunal.esm------------------------->|DATA|ONAM:eno romari|NAME:The goddess has created these storms to teach my group true power? They will come to me in droves! This madness is surely another sign of the troubles to come. Take care, %PCName. You have been warned.|SCVR:04JX0TR_ShowPower|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:eno romari|NAME:The goddess has conjured these storms? They will come to me in droves -- men and women, kings and priests! This madness is surely sign of the House of Troubles that come. Take care, %PCName. You have been warned.|SCVR:04JX0TR_ShowPower|INTV:d
+
+[MOD-INF]: ID=21502277353115102(Topic:learn more about the attacks)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:The attacks were Almalexia's doing? She murders Sotha Sil, and then tries to kill you as well. Astounding! With Vivec dead as well, this is truly the end of the Tribunal. I believe your tale, %PCName, but do not expect my people to be so accepting of it. You will find it is not so easy to kill these gods in the hearts and minds of their followers. It will take time, but this will be a new era for Morrowind, and I will lead them into it. You have done well, my friend. You have my gratitude.|SCVR:04JX3TR_SothaSil|INTV:n|SCVR:16DX2vivec_god|INTV:|BNAM:Journal TR_Champion 110  Player->AddItem "Helsethguard_boots" 1  Player->AddItem "Helsethguard_cuirass" 1  Player->AddItem "Helsethguard_gauntlet_left" 1  Player->AddItem "Helsethguard_gauntlet_right" 1  Player->AddItem "Helsethguard_greaves" 1  Player->AddItem "Helsethguard_Helmet" 1  Player->AddItem "Helsethguard_pauldron_left" 1  Player->AddItem "Helsethguard_pauldron_right" 1
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:The attacks were Almalexia's doing? She murders Sotha Sil, and then tries to kill you as well. Astounding! With Vivec dead as well, this is truly the end of the Tribunal. I believe your tale, %PCName, but do not expect my people to be so accepting of it. You will find it is not so easy to kill these gods in the hearts and minds of their followers. It will take time, but this will be a new era for Morrowind, and I will lead them into it. You have done well, my friend. You have my gratitude.|SCVR:04JX3TR_SothaSil|INTV:n|SCVR:16DX2vivec_god|INTV:|BNAM:Journal TR_Champion 110  ; removed by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=26299122037530091(:dark brotherhood)
+  tribunal.esm------------------------->|DATA|FNAM|NAME:You want to know who sent the Dark Brotherhood after you? Don't ask me. I don't want any trouble. Speak with Tienius Delitian. You'll find him in the Throne Room.|SCVR:04JX3TR_DBHunt|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:You want to know who sent the Dark Brotherhood after you? Don't ask me. I don't want any trouble. Speak with Tienius Delitian. You'll find him in the Throne Room.|DELE:
+
+[MOD-INF]: ID=26833042354743460(:dark brotherhood)
+  tribunal.esm------------------------->|DATA|CNAM:Guard|FNAM|NAME:You believe you've killed their leader? Maybe, maybe not. Perhaps you should speak with Fedris Hler about this.|SCVR:04JX3TR_DBHunt|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:You believe you've killed their leader? Maybe, maybe not. Perhaps you should speak with Fedris Hler about this.|DELE:
+
+[MOD-INF]: ID=29068919923063464(Topic:fight my champion)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Ahhh...you have come to meet Karrod in battle. Good for you. Karrod is looking a bit under the weather today, but no matter. Perhaps you've heard that Karrod has never been defeated in battle? It's true. Amazing, don't you think? Regardless, this will be a fair fight. You may both use whatever weapons are at your disposal. I wish you both luck. None are to interfere, and you will begin on my command.|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F|SCVR:22sX0karrodBribe|INTV|SCVR:32sX0KarrodFightStart|INTV|BNAM:Set KarrodFightStart to 3  Journal TR_Champion 70  Goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:Ahhh... you have come to meet Karrod in battle. Good for you. Have we mentioned that Karrod has never been defeated? Hmm-ah, perhaps we hadn't. This is to be a fair fight. Use whatever weapons or spells are at your disposal. We wish you both luck -- at least one of you will need it. None are to interfere! And you will begin at our command. Now, amuse us...|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F|SCVR:22sX0karrodBribe|INTV|SCVR:32sX0KarrodFightStart|INTV|BNAM:Set KarrodFightStart to 3  Journal TR_Champion 70  Goodbye
+
+[MOD-INF]: ID=29638582139344313(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:I have been hearing many stories about you, %PCName. And about the goddess. In fact,  I've been hearing stories about a great deal of strange happenings in my city. I sent you to learn more about the attacks. I will assume that the rumors I have heard relate to that.|SCVR:04JX3TR_SothaSil|INTV:n
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:I have been hearing many stories about you, %PCName. And about the goddess. In fact,  I've been hearing stories about a great deal of strange happenings in my city. I sent you to learn more about the attacks. I will assume that the rumors I have heard relate to that.|SCVR:04JX3TR_SothaSil|INTV:n|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=46516172717527852(Topic:eno romari)
+  tribunal.esm------------------------->|DATA|NAME:The leader of this little cult. He resides in Mournhold, though he is not known to have a permanent residence. He is dangerous, %PCName, as he spreads discontent among my people. He is not to be killed, though. I want no martyrs to this madman's cause.|SCVR:04JX5TR_ShowPower|INTV
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|NAME:The leader of this little cult. He resides in Mournhold, though he is not known to have a permanent residence. He is dangerous, %PCName, as he sows discontent among my people. He is not to be killed -- I want no martyrs to this madman's cause!|SCVR:04JX5TR_ShowPower|INTV
+
+[MOD-INF]: ID=50202308817126547(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:Galsa Andrano|NAME:Your story is unbelievable. But... rumors here say Almalexia is no longer in Mournhold, and she plans to be gone indefinitely. They say she exhausted her body and spirit in the war against Dagoth Ur, but now she plans to travel in disguise among the people, living the life of a mortal, and recovering her love for the world. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Your story is unbelievable. But... rumors here say Almalexia is no longer in Mournhold, and she plans to be gone indefinitely. They say she exhausted her body and spirit in the war against Dagoth Ur, but now she plans to travel in disguise among the people, living the life of a mortal, and recovering her love for the world. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|DELE:
+
+[MOD-INF]: ID=50241039637886880(Topic:karrod)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:I met him many years ago, a deaf and dumb child wandering the streets of Wayrest. The boy actually had the audacity to try and rob my stepsister, Elysana. I marveled at his courage, and took him into my employ. When a dog has been beaten, %PCName, it will lick the hand of one who feeds it even the most meager of scraps. Now he is my most loyal of servants, and one of my most deadly. I wish for you to fight my champion.|SCVR:04JX4TR_Champion|INTV: |BNAM:Journal TR_Champion 10
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:We met him many years ago, a poor child wandering the streets of Wayrest. The boy had the marbles to rob  Elysana. I marveled at his courage, and took him into my employ. When a dog has been beaten, %PCName, it will lick the hand of one who feeds it -- even the most meager of scraps! Now he is our most loyal of servants, and most deadly.|SCVR:04JX4TR_Champion|INTV: 
+
+[MOD-INF]: ID=51692265709314169(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:We don't communicate. Without the Heart, our divine powers must diminish. She takes her divinity very seriously, and the loss weighs heavily on her. She tends to brood, and I fear she will do herself and others harm.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:14JX3TR_SothaSil|INTV:d|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "I see...." 2
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:We don't communicate. Without the Heart, our divine powers must diminish. She takes her divinity very seriously, and the loss weighs heavily on her. She tends to brood, and I fear she will do herself and others harm.|DELE:
+
+[MOD-INF]: ID=67231010458197918(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Ahhh...%PCName. Have you learned more about that plot?|SCVR:04JX3TR_Assassins|INTV: 
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:Ahhh...%PCName. Have you learned more about that plot?|SCVR:04JX3TR_Assassins|INTV: |SCVR:14JX4TR_Assassins|INTV:P
+
+[MOD-INF]: ID=83485703714515887(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:gavas drin|NAME:Yes...have you come to be of service to our Lady?|SCVR:04JX3TR_ShrineDead|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:gavas drin|NAME:Yes...have you come to be of service to our Lady?|SCVR:04JX3TR_ShrineDead|INTV:d|BNAM:; modified by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=95284171320166654(Topic:service to our lady)
+  tribunal.esm------------------------->|DATA|ONAM:fedris hler|NAME:I spoke with the Lady earlier today, and there may be something that one of your skill will be able to help with. The Lady Almalexia would like you to retrieve a powerful artifact -- Barilzar's Mazed Band.|SCVR:04JX0TR_MazedBand|INTV: |BNAM:Journal TR_ShrineDead 20
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:fedris hler|ANAM:ToddTest|NAME:I spoke with the Lady earlier today, and there may be something that one of your skill can accomplish. The Lady Almalexia would like you to retrieve a powerful artifact -- Barilzar's Mazed Band.|SCVR:04JX0TR_MazedBand|INTV: |BNAM:Journal TR_ShrineDead 20  ; removed by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=110562582019886957(Topic:fight my champion)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:That is correct. I have come to know you a bit, %PCName. I believe you can be of some use to me. But the plans I have will require someone of great strength or wit. Perhaps both. The time has come for you to prove this to me. You will return here tomorrow, and you will duel Karrod. If you are able to defeat him, we will discuss my plans for you.|SCVR:04JX4TR_Champion|INTV|BNAM:Journal TR_Champion 20  Set FightDay to DaysPassed  StartScript KarrodMovement
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:That is correct. We have come to know you a bit, %PCName. We believe you can be of some use. But the plans we have will require someone of great strength or wit. Perhaps both. The time has come for you to prove yourself to us. You will return here tomorrow, and you will duel Karrod. If you are able to defeat him, we shall discuss your future.|SCVR:04JX4TR_Champion|INTV|BNAM:Journal TR_Champion 20  Set FightDay to DaysPassed  StartScript KarrodMovement
+
+[MOD-INF]: ID=111582369517121903(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:That is very sad. I presume she killed Sotha Sil. I thought she might harm me. And I presume she tried to kill you, Nerevarine. It is all very sad. But death comes to all mortals -- and we are all mortal now. In time, death will come to me, Nerevarine -- perhaps even at your hands. It is futile to deny one's fate. But, nonetheless, I'm afraid I find it all very, very sad that it should end this way, something that began in such glory and noble promise.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:14JX3TR_SothaSil|INTV:d|SCVR:21500|INTV
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:That is very sad. I presume she killed Sotha Sil. I thought she might harm me. And I presume she tried to kill you, Nerevarine. It is all very sad. But death comes to all mortals -- and we are all mortal now. In time, death will come to me, Nerevarine -- perhaps even at your hands. It is futile to deny one's fate. But, nonetheless, I'm afraid I find it all very, very sad that it should end this way, something that began in such glory and noble promise.|DELE:
+
+[MOD-INF]: ID=113559063167310419(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Have you come to be of service to your King?|SCVR:04JX3TR_Assassins|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:Have you come to be of service to your King?|SCVR:04JX3TR_Assassins|INTV:d
+
+[MOD-INF]: ID=127023503205033708(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:Tienius Delitian|NAME:I understand you've reported this attack on the city to Fedris Hler. I agree you should investigate the disturbance in the ruins of Bamz-Amschend and seek out the source of the attacks. You may report your findings to me. This is really a matter for the Empire to deal with.|SCVR:04JX0TR_Bamz|INTV: |BNAM:Journal TR_Bamz 12
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Tienius Delitian|ANAM:ToddTest|NAME:I understand you've reported this attack on the city to Fedris Hler. I agree you should investigate the disturbance in the ruins of Bamz-Amschend and seek out the source of the attacks. You may report your findings to me. This is really a matter for the Empire to deal with.|SCVR:04JX0TR_Bamz|INTV: |BNAM:; modified by ANtares Tribunal Main QUest.
+
+[MOD-INF]: ID=131962205913775101(Topic:service to our lady)
+  tribunal.esm------------------------->|DATA|ONAM:fedris hler|NAME:Yes. You are to retrieve Barilzar's Mazed Band.|SCVR:04JX3TR_MazedBand|INTV|SCVR:14JX4TR_MazedBand|INTV:F
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:fedris hler|ANAM:ToddTest|NAME:Yes. You are to retrieve Barilzar's Mazed Band.|SCVR:04JX3TR_MazedBand|INTV|SCVR:14JX4TR_MazedBand|INTV:F|BNAM:; removed by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=138824354247942595(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:[Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....|DELE:
+
+[MOD-INF]: ID=159071345247509958(Topic:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:We don't communicate. Without the Heart, our divine powers must diminish. She takes her divinity very seriously, and the loss weighs heavily on her. She tends to brood, and I fear she will do herself and others harm.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|NAME:We do not communicate. Without the Heart, our divine powers must diminish. She takes her divinity very seriously, and the loss weighs heavily on her.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=171474340393822257(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:fedris hler|NAME:[Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.|DELE:
+
+[MOD-INF]: ID=175023007656813368(Topic:learn more about the attacks)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:When you know more, come talk to me. For now, visit the "goddess."|SCVR:04JX3TR_Champion|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:When you know more, come talk to me. For now, visit the "goddess."|SCVR:04JX3TR_Champion|INTV:d|BNAM:; removed by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=175649058167116682(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:14JX3C3_DestroyDagoth|INTV:2|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia, Sotha Sil, and Vivec dead." 5 "I found Sotha Sil dead, and killed Almalexia and Vivec." 6 "Thank you, but I must be going." 4
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|DELE:
+
+[MOD-INF]: ID=228133901226988288(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:Tienius Delitian|NAME:Well, have you been able to investigate the disturbance?|SCVR:04JX3TR_Bamz|INTV|SCVR:14JX4TR_Bamz|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Tienius Delitian|ANAM:ToddTest|NAME:Well, have you been able to investigate the disturbance?|SCVR:04JX3TR_Bamz|INTV|SCVR:14JX4TR_Bamz|INTV:d|BNAM:; modified by ANtares Tribunal Main QUest.
+
+[MOD-INF]: ID=236123770298022747(:dark brotherhood)
+  tribunal.esm------------------------->|DATA|CNAM:Guard|FNAM|NAME:You believe you've killed their leader? I wouldn't count on that. You probably ought to speak to Tienius Delitian about it.|SCVR:04JX3TR_DBHunt|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:You believe you've killed their leader? I wouldn't count on that. You probably ought to speak to Tienius Delitian about it.|DELE:
+
+[DUP-INF]: ID=253227646864125858(Topic:almalexia)
+  |DATA|ONAM:Tienius Delitian|NAME:The goddess over in the Temple. She's surrounded by her Hands. Tough fighters from what I hear.|SCVR:04JX4TR_SothaSil|INTV:d
+
+[MOD-INF]: ID=254703156420208724(Topic:learn more about the attacks)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:The attacks were Almalexia's doing? And now you say that both she and Sotha Sil lie dead in the Clockwork City? She murders Sotha Sil, and then tries to kill you as well. Astounding! I believe your tale, %PCName, but do not expect my people to be so accepting of it. You will find it is not so easy to kill these gods in the hearts and minds of their followers. It will take time, but this will be a new era for Morrowind, and I will lead them into it. You have done well, my friend. You have my gratitude.|SCVR:04JX3TR_SothaSil|INTV:n|BNAM:Journal TR_Champion 110  Player->AddItem "Helsethguard_boots" 1  Player->AddItem "Helsethguard_cuirass" 1  Player->AddItem "Helsethguard_gauntlet_left" 1  Player->AddItem "Helsethguard_gauntlet_right" 1  Player->AddItem "Helsethguard_greaves" 1  Player->AddItem "Helsethguard_Helmet" 1  Player->AddItem "Helsethguard_pauldron_left" 1  Player->AddItem "Helsethguard_pauldron_right" 1
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:The attacks were Almalexia's doing? And now you say that both she and Sotha Sil lie dead in the Clockwork City? She murders Sotha Sil, and then tries to kill you as well. Astounding! I believe your tale, %PCName, but do not expect my people to be so accepting of it. You will find it is not so easy to kill these gods in the hearts and minds of their followers. It will take time, but this will be a new era for Morrowind, and I will lead them into it. You have done well, my friend. You have my gratitude.|SCVR:04JX3TR_SothaSil|INTV:n|BNAM:Journal TR_Champion 110  ; removed by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=260420140237076255(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:fedris hler|NAME:[Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.|DELE:
+
+[MOD-INF]: ID=273302711157818806(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:fedris hler|NAME:[Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.|DELE:
+
+[MOD-INF]: ID=285011769249286558(Topic:misfortune)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Yes...we have various sources throughout Vvardenfell that are paid well to provide us with information. Unfortunately, sometimes it proves to be incorrect. One of our informants had suggested that you could pose a threat to our monarchy. That cannot be allowed, as I'm sure you understand.|SCVR:02sX0HelAss|INTV:
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:Yes, we have contacts throughout Vvardenfell. Our informants had posed you as a threat to our monarchy. That cannot be allowed, as I'm sure you understand.|SCVR:02sX0HelAss|INTV:|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=307116005277014479(Topic:mysterium xarxes)
+  tribunal.esm------------------------->|DATA|ONAM:eno romari|NAME:We are a peaceful group, dedicated to relieving the suffering all are feeling in these troubled times. I teach my followers the way to enlightenment, through understanding of what is happening in our world and what is to come in the next. All of my people know the importance of preparedness for the coming troubles, and many are willing to make great sacrifice for our cause.|SCVR:04JX4TR_ShowPower|INTV:7|BNAM:Journal TR_ShowPower 55
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:eno romari|NAME:We are a peaceful cultus, dedicated to Liberty. These are troubled times, and we relieve the suffering of others. I preach the way of enlightenment, the way of change, the way for to reach the Mythic. For the House of Troubles looms large, though many are willing to make great sacrifice for passage.|SCVR:04JX4TR_ShowPower|INTV:7|BNAM:Journal TR_ShowPower 55
+
+[MOD-INF]: ID=314146950174295547(Topic:mysterium xarxes)
+  tribunal.esm------------------------->|DATA|NAME:A suicide cult? In my city? What have you learned about their beliefs?|SCVR:04JX0TR_ShowPower|INTV:<
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|NAME:In my city? What have you found in their beliefs?|SCVR:04JX0TR_ShowPower|INTV:<
+
+[MOD-INF]: ID=315673218710266857(Topic:learn more about the attacks)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:I have heard your story, my friend. I will not forget what you have done.|SCVR:04JX3TR_Champion|INTV:n
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:I have heard your story, my friend. I will not forget what you have done.|SCVR:04JX3TR_Champion|INTV:n|BNAM:; removed by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=323961726115479461(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:Salas Valor|NAME:I do not want company. Go away.|BNAM:addtopic "splendid armor"
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Salas Valor|NAME:I do not want company. Go away.|BNAM:; addtopic "splendid armor"  ; the addTopic is removed By Antares' Tribunal Main Quest.
+
+[MOD-INF]: ID=349877621101730320(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:[Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....|DELE:
+
+[MOD-INF]: ID=367250812126122308(Topic:fight my champion)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Ahhh...you have come to meet Karrod in battle. Good for you. Have I mentioned that Karrod has never been defeated? Perhaps I hadn't. This is to be a fair fight. Use whatever weapons or spells are at your disposal. I wish you both luck. At least one of you will need it. None are to interfere, and you will begin on my command.|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F|SCVR:22sX0karrodBribe|INTV:|SCVR:32sX0KarrodFightStart|INTV|BNAM:Set KarrodFightStart to 3  Journal TR_Champion 70  Goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:Ahhh... you have come to meet Karrod in battle. Good for you. Have we mentioned that Karrod has never been defeated? Hmm-ah, perhaps we hadn't. This is to be a fair fight. Use whatever weapons or spells are at your disposal. We wish you both luck -- at least one of you will need it. None are to interfere! And you will begin at our command. Now, amuse us...|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F|SCVR:22sX0karrodBribe|INTV:|SCVR:32sX0KarrodFightStart|INTV|BNAM:Set KarrodFightStart to 3  Journal TR_Champion 70  Goodbye
+
+[MOD-INF]: ID=477217101223864261(Topic:recent events)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:The attack on Mournhold was as unexpected to me as it was destructive to the city. And I make it my business to remain forewarned of this sort of event. Many believed the attacking creatures to have been Dwemer constructs, but we know now that this is not the case. These creatures were beyond anything dreamt of by the Dwarves, creatures it would take the power of a god to create. I would like you to learn more about the attacks.|SCVR:04JX3TR_Champion|INTV:P|SCVR:14JX4TR_Champion|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:The attack on Mournhold was as unexpected to me as it was destructive to the city. And I make it my business to remain forewarned of this sort of event. Many believed the attacking creatures to have been Dwemer constructs, but we know now that this is not the case. These creatures were beyond anything dreamt of by the Dwarves, creatures it would take the power of a god to create. I would like you to learn more about the attacks.|SCVR:04JX3TR_Champion|INTV:P|SCVR:14JX4TR_Champion|INTV:d
+
+[MOD-INF]: ID=547611362223313957(Topic:service to our lady)
+  tribunal.esm------------------------->|DATA|ONAM:fedris hler|NAME:I have nothing I need you to do. If something comes up, you'll be informed.|SCVR:04JX3TR_MazedBand|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:fedris hler|ANAM:ToddTest|NAME:I have nothing I need you to do. If this changes, you will be informed.|SCVR:04JX3TR_MazedBand|INTV:d|BNAM:; removed by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=621213521571122808(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:Tienius Delitian|NAME:There are no more official matters to discuss. You are to report directly to the King himself.|SCVR:04JX3TR_Bamz|INTV:d|SCVR:14JX3TR_Assassins|INTV: 
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Tienius Delitian|ANAM:ToddTest|NAME:There are no more official matters to discuss. You are to report directly to the King himself.|SCVR:04JX3TR_Bamz|INTV:d|SCVR:14JX3TR_Assassins|INTV: |BNAM:; modified by ANtares Tribunal Main QUest.
+
+[MOD-INF]: ID=672016509845110433(Topic:sotha sil)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:You have told me your story. The Tinkerer is no more.|SCVR:04JX3TR_Champion|INTV:n
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:You have told me your story. Mystery is dead.|SCVR:04JX3TR_Champion|INTV:n|BNAM:; removed by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=804810767183614665(Topic:eno romari)
+  tribunal.esm------------------------->|DATA|NAME:We know he is in the city, but little else about him.|SCVR:04JX2TR_ShowPower|INTV
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|NAME:We know he is in the city and little else.|SCVR:04JX2TR_ShowPower|INTV
+
+[MOD-INF]: ID=824813242109925283(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Yes, I sent you to her to learn more about the attacks.|SCVR:04JX0TR_Champion|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Yes, I sent you to her to learn more about the attacks.|DELE:
+
+[MOD-INF]: ID=833030635152358590(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:Galsa Andrano|NAME:Your story is unbelievable. But... there are rumors here that Almalexia is no longer here in Mournhold, and plans to be gone until Dagoth Ur is defeated. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Your story is unbelievable. But... there are rumors here that Almalexia is no longer here in Mournhold, and plans to be gone until Dagoth Ur is defeated. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|DELE:
+
+[MOD-INF]: ID=859022382304413877(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:[Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?|DELE:
+
+[MOD-INF]: ID=952756353062519086(Topic:misfortune)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:There are more interesting things to speak of.|SCVR:02sX2HelAss|INTV:
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:There are more interesting things to speak of.|SCVR:02sX2HelAss|INTV:|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=998863342261929877(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:Galsa Andrano|NAME:Your story is unbelievable. But... rumors here say Almalexia is no longer in Mournhold, and she plans to be gone indefinitely. They say she exhausted her body and spirit in the war against Dagoth Ur, but now she plans to travel in disguise among the people, living the life of a mortal, and recovering her love for the world. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Your story is unbelievable. But... rumors here say Almalexia is no longer in Mournhold, and she plans to be gone indefinitely. They say she exhausted her body and spirit in the war against Dagoth Ur, but now she plans to travel in disguise among the people, living the life of a mortal, and recovering her love for the world. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|DELE:
+
+[MOD-INF]: ID=1060915791226967812(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Have you come to fight my champion? Are you prepared to face Karrod?|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F|SCVR:22sX0KarrodFightStart|INTV
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:Have you come to fight my champion? Are you prepared to face Karrod?|SCVR:03sX0FightKarrod|INTV
+
+[MOD-INF]: ID=1228819430358418974(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Greetings, %PCName. There is much still to be done for the people of Morrowind, and I believe we will both be needed. How may I help you?|SCVR:04JX3TR_Champion|INTV:n
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:Greetings, %PCName. There is much still to be done for the people of Morrowind, and I believe we will both be needed. How may I help you?|SCVR:04JX3TR_Champion|INTV:n|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=1371921979280879346(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Your job is to protect Barenziah. See to it.|SCVR:04JX3TR_Assassins|INTV:P
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:Your job is to protect Barenziah. See to it.|SCVR:04JX3TR_Assassins|INTV:P|SCVR:14JX4TR_Assassins|INTV:d|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=1394527998664329382(Voice:hello)
+  tribunal.esm------------------------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\tHlo_DF015.mp3|NAME:The goddess is gone, yet you remain. You are a mystery, sera.|SCVR:04JX3TR_SothaSil|INTV:d|BNAM:;shrewd and keen-minded queen
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\tHlo_DF015.mp3|NAME:The goddess is gone, yet you remain. You are a mystery, sera.|SCVR:04JX0TMQ_Journal|INTV|SCVR:16DX2TMQ_Almalexia2|INTV:|BNAM:;shrewd and keen-minded queen  ; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=1426825874131012352(Topic:service to your king)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:By your actions so far, you have proven yourself to be both strong and loyal to our throne. It is now time for you to prove yourself to me. Personally. I have plans for you, %PCName, and it is almost time they were put into motion.|SCVR:04JX4TR_Champion|INTV: 
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:By your actions so far, you have proven yourself to be both strong and loyal to our throne. It is now time for you to prove yourself to me. Personally. I have plans for you, %PCName, and it is almost time they were put into motion.|SCVR:04JX4TR_Champion|INTV: |BNAM:; removed by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=1562112675466114564(Topic:plans for you)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:As I've said, they relate to the recent events in the city.|SCVR:04JX0TR_Champion|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:As I've said, they relate to the recent events in the city.|SCVR:04JX0TR_Champion|INTV:d|BNAM:; removed by ANtares Tribunal Main Quest
+
+[MOD-INF]: ID=1589878461519830507(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:gavas drin|NAME:I'm afraid that I have nothing for you, %PCName. You will need to speak with the Lady Almalexia if you have further questions.|SCVR:04JX3TR_Bamz|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:gavas drin|ANAM:ToddTest|NAME:I'm afraid that I have nothing for you, %PCName. You will need to speak with the Lady Almalexia if you have further questions.|SCVR:04JX3TR_Bamz|INTV:d|BNAM:; removed by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=1629530673227419863(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:06DX3vivec_god|INTV|BNAM:Choice "I killed Vivec." 7 "[Lie] I found Vivec dead." 8 "Thank you, but I must be going." 4
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|DELE:
+
+[MOD-INF]: ID=1660732249308423536(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:Tienius Delitian|NAME:Yes, %PCName. Is this an official matter? Or is there something else you want?|SCVR:04JX3TR_DBHunt|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Tienius Delitian|NAME:Yes, %PCName. Is this an official matter? Or is there something else you want?|BNAM:; modified by ANtares Tribunal Main QUest.
+
+[MOD-INF]: ID=1676287372038310389(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:gavas drin|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have found Almalexia and Sotha Sil 'dead'. That's simply... impossible.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have found Almalexia and Sotha Sil 'dead'. That's simply... impossible.|DELE:
+
+[MOD-INF]: ID=1685218202483410708(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:I understand you have told my son of the death of the goddess and the passing of Sotha Sil. Keep this information close, %PCName. The people of Morrowind will need time to accept what has happened. Until then, continue to watch over them.|SCVR:04JX3TR_SothaSil|INTV:n
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:I understand you have told my son of the death of the goddess and the passing of Sotha Sil. Keep this information close, %PCName. The people of Morrowind will need time to accept what has happened. Until then, continue to watch over them.|DELE:
+
+[MOD-INF]: ID=1731922095858032322(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:Galsa Andrano|NAME:Your story is unbelievable. But... rumors here say Almalexia is no longer in Mournhold, and she plans to be gone indefinitely. They say she exhausted her body and spirit in the war against Dagoth Ur, but now she plans to travel in disguise among the people, living the life of a mortal, and recovering her love for the world. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Your story is unbelievable. But... rumors here say Almalexia is no longer in Mournhold, and she plans to be gone indefinitely. They say she exhausted her body and spirit in the war against Dagoth Ur, but now she plans to travel in disguise among the people, living the life of a mortal, and recovering her love for the world. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|DELE:
+
+[MOD-INF]: ID=1953966751651218525(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:It is an amazing story you have told about the goddess, %PCName. I commend your efforts.|SCVR:04JX3TR_Champion|INTV:n
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:It is an amazing story you have told about the goddess, %PCName. I commend your efforts.|DELE:
+
+[MOD-INF]: ID=1969313694195622814(Topic:dark brotherhood)
+  tribunal.esm------------------------->|DATA|CNAM|NAME:I don't know why you'd want to go looking for those demons. Some say they live in the sewers beneath the Great Bazaar.|BNAM:Journal TR_DBAttack 100
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:dialog placeholder|CNAM|NAME:I don't know why you'd want to go looking for those demons. Some say they base in Old Mournhold, beneath the Great Bazaar.|BNAM:Journal TR_DBAttack 100  ; Removed by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=1973305802614219175(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Enough! I have seen you fight my champion, though I find it hard to imagine how you have succeeded. I did not believe anyone could best Karrod, but you have shown me otherwise. And he speaks! There are depths to you, %PCName, that I will fathom in time. For now, you have proven yourself to me.|SCVR:04JX0TR_Champion|INTV:F|SCVR:12sX0KarrodBeaten|INTV
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:Enough! I have seen you fight my champion, though I find it hard to imagine how you have succeeded. I did not believe anyone could best Karrod, but you have shown me otherwise. And he speaks! There are depths to you, %PCName, that I will fathom in time. For now, you have proven yourself to me.|SCVR:04JX0TR_Champion|INTV:F|SCVR:12sX0KarrodBeaten|INTV|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=1982919053165317100(Topic:service to our lady)
+  tribunal.esm------------------------->|DATA|ONAM:fedris hler|NAME:Hmmm...I have nothing for you at this time. Speak with Gavas Drin, the Lord Archcanon. He was in consultation with the Lady Almalexia this very morning. Perhaps he has something for you.|SCVR:04JX3TR_KillGoblins|INTV:d|BNAM:Journal TR_ShrineDead 10
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:fedris hler|ANAM:ToddTest|NAME:Hmmm...I have nothing for you at this time. Speak with Gavas Drin, the Lord Archcanon. He was in consultation with the Lady Almalexia this very morning. Perhaps he has something for you.|SCVR:04JX3TR_KillGoblins|INTV:d|BNAM:Journal TR_ShrineDead 10
+
+[MOD-INF]: ID=1990915359206984149(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:[Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?|DELE:
+
+[MOD-INF]: ID=2063281643195811127(Topic:dark brotherhood)
+  tribunal.esm------------------------->|DATA|CNAM|NAME:That's a touchy subject, and I'm not comfortable talking about it with someone I don't really trust.
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:dialog placeholder|CNAM|NAME:That's a touchy subject, and I'm not comfortable talking about it with someone I don't really trust.|BNAM:; Removed by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=2066941002246624310(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:04JX3TR_SothaSil|INTV:d|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia and Sotha Sil dead." 2 "Thank you, but I must be going." 4
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|DELE:
+
+[MOD-INF]: ID=2091416499312483497(Topic:karrod)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:I'm amazed you were able to defeat him. There may be the stuff of greatness in you, %PCName.|SCVR:04JX3TR_Champion|INTV:F|SCVR:12sX2KarrodBeaten|INTV:
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:We are indeed surprised. Hah, there may be the stuff of greatness in you, %PCRace!|SCVR:04JX3TR_Champion|INTV:F|SCVR:12sX2KarrodBeaten|INTV:|SCVR:24JX3TMQ_Journal|INTV|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=2143510411258486053(:dark brotherhood)
+  tribunal.esm------------------------->|DATA|CNAM|NAME:You've killed their leader, huh? Don't be so sure. You may have killed a high ranking officer around here, but there's always another to replace him. I don't know anything about who might have hired them, either. That's none of my business. Talk to one of the Royal Guard, or head over to the Temple.|SCVR:04JX3TR_DBHunt|INTV:d|SCVR:18FX0Royal Guard|INTV
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:You've killed their leader, huh? Don't be so sure. You may have killed a high ranking officer around here, but there's always another to replace him. I don't know anything about who might have hired them, either. That's none of my business. Talk to one of the Royal Guard, or head over to the Temple.|DELE:
+
+[MOD-INF]: ID=2195033431462926284(:almalexia)
+  tribunal.esm------------------------->|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:06DX3vivec_god|INTV|BNAM:Choice "I killed Vivec." 7 "[Lie] I found Vivec dead." 8 "Thank you, but I must be going." 4
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|DELE:
+
+[MOD-INF]: ID=2249167383152031300(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:gavas drin|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have 'killed' Almalexia. That's simply... impossible.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have 'killed' Almalexia. That's simply... impossible.|DELE:
+
+[MOD-INF]: ID=2267821049149864221(Topic:karrod)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:I'm amazed you were able to defeat him. There may be the stuff of greatness in you, %PCName.|SCVR:04JX3TR_Champion|INTV:P
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:We are indeed surprised. Hah, there may be the stuff of greatness in you, %PCRace!|SCVR:04JX3TR_Champion|INTV:P|SCVR:14JX3TMQ_Journal|INTV|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=2307721958258385187(Topic:service to our lady)
+  tribunal.esm------------------------->|DATA|ONAM:fedris hler|NAME:I am always aware of those who might be able to serve our Lady Almalexia. Few are worthy to do so. The Temple and the city is guarded by the High Ordinators, and the Hands fulfill other duties for the Lady. I am her Chief Steward, Fedris Hler. Now, if you wish to be of use, we have some matters to discuss.|SCVR:04JX4TR_KillGoblins|INTV: 
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:fedris hler|ANAM:ToddTest|NAME:I am always aware of those who might be able to serve our Lady Almalexia. Few are worthy to do so. The Temple and the city is guarded by the High Ordinators, and the Hands fulfill other duties for the Lady. I am her Chief Steward, Fedris Hler. Now, if you wish to be of use, we have some matters to discuss.|SCVR:04JX4TR_KillGoblins|INTV: |BNAM:; removed by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=2313474023071219119(Topic:mysterium xarxes)
+  tribunal.esm------------------------->|DATA|NAME:They will not continue to exist in my city.|SCVR:04JX3TR_ShowPower|INTV:<|SCVR:14JX4TR_ShowPower|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|NAME:They shall not persist in my city.|SCVR:04JX3TR_ShowPower|INTV:<|SCVR:14JX4TR_ShowPower|INTV:d
+
+[MOD-INF]: ID=2340447542946020638(Topic:almalexia)
+  tribunal.esm------------------------->|DATA|CNAM:Healer|FNAM:Temple|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:02sX4Random100|INTV|BNAM:;Temple; priests; monks; healers;
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|CNAM:Healer|FNAM:Temple|NAME:Ayem is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:02sX4Random100|INTV|BNAM:;Temple; priests; monks; healers;
+
+[MOD-INF]: ID=2380523389913919562(Voice:hello)
+  tribunal.esm------------------------->|DATA|RNAM:Dark Elf|CNAM:Guard|ANAM:Mournhold Temple|SNAM:Vo\d\m\tHlo_DM075.mp3|NAME:Almalexia knows and sees.|BNAM:;guard
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|RNAM:Dark Elf|CNAM:Guard|ANAM:Mournhold Temple|SNAM:Vo\d\m\tHlo_DM075.mp3|NAME:Almalexia knows and sees.|SCVR:06DX0TMQ_Almalexia2|INTV:|BNAM:;guard  ; modified by ANtares' Tribunal Main QUest
+
+[MOD-INF]: ID=2456069213170710951(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:It is not yet time to fight my champion. Return later, and we will have the battle.|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:It is not yet time to fight my champion. Return later, and we will have the battle.|SCVR:03sX0FightKarrod|INTV|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=2476891713141021412(Topic:official matter)
+  tribunal.esm------------------------->|DATA|ONAM:Tienius Delitian|NAME:We are quite satisfied with the way you handled the anonymous writer of 'The Common Tongue'. I haven't anything more for you, but I understand Lady Barenziah would like to speak with you.|SCVR:04JX3TR09_Journalist|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Tienius Delitian|NAME:We are quite satisfied with the way you handled the anonymous writer of 'The Common Tongue'. I haven't anything more for you, but I understand King Hlaalu Helseth would like to speak with you.|SCVR:04JX3TR09_Journalist|INTV:d|BNAM:; modified by Anrares Tribunal  Main QUest. Originally, was the King
+
+[MOD-INF]: ID=2483789722806727854(Topic:fight my champion)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:My champion is dead, %PCName. Your treachery will not go unpunished! Guards!|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F|SCVR:26DX2karrod|INTV:|BNAM:Set KingHit to 1  Goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:Your treachery will not go unpunished! Guards!|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F|SCVR:26DX2karrod|INTV:|BNAM:Set KingHit to 1  Goodbye
+
+[MOD-INF]: ID=2571717282110518638(Topic:dark brotherhood)
+  tribunal.esm------------------------->|DATA|FNAM:Royal Guard|NAME:You want to go looking for them? It's your funeral. Look, I've heard rumors that they have a hideout in the ruins of Old Mournhold. You can get there through the sewers in the Great Bazaar.|BNAM:Journal TR_DBAttack 100
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:dialog placeholder|FNAM:Royal Guard|NAME:You want to go looking for them? It's your funeral. Look, I've heard rumors that they have a hideout in the ruins of Old Mournhold. You can get there through the sewers in the Great Bazaar.|BNAM:Journal TR_DBAttack 100  ; Removed by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=2578570632817810139(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:fedris hler|NAME:[Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.|DELE:
+
+[MOD-INF]: ID=2729525686204243135(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:fedris hler|NAME:[Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.|DELE:
+
+[MOD-INF]: ID=2851132643188908373(Topic:service to your king)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Ah, yes. We were to discuss my plans for you. Let us do that.|SCVR:04JX3TR_Champion|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:Ah, yes. We were to discuss my plans for you. Let us do that.|SCVR:04JX3TR_Champion|INTV:d|BNAM:; removed by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=3075420660636421775(Topic:recent events)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:We've discussed this enough. You know what you must do.|SCVR:04JX3TR_Champion|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:We've discussed this enough. You know what you must do.|SCVR:04JX3TR_Champion|INTV:d
+
+[MOD-INF]: ID=3096117003171108600(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:Tienius Delitian|NAME:I have heard about the attack on the city, and I've dispatched guards to take care of it. Thank you for your report. You can help in another way. I'd like you to investigate the disturbance.|SCVR:04JX3TR_MHAttack|INTV|BNAM:Journal TR_MHAttack 110
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Tienius Delitian|ANAM:ToddTest|NAME:I have heard about the attack on the city, and I've dispatched guards to take care of it. Thank you for your report. You can help in another way. I'd like you to investigate the disturbance.|SCVR:04JX3TR_MHAttack|INTV|BNAM:; modified by ANtares Tribunal Main QUest.
+
+[MOD-INF]: ID=3124715213454712040(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|NAME:These are frightening times, friend %PCName. What is it you require?|SCVR:04JX2TR_Bamz|INTV:
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ANAM:ToddTest|NAME:These are frightening times, friend %PCName. What is it you require?|SCVR:04JX2TR_Bamz|INTV:|BNAM:; removed by Anrares Tribunal  Main QUest
+
+[MOD-INF]: ID=3193511784866211470(Topic:fight my champion)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:You will meet him tomorrow. Report back here tomorrow and be prepared to face Karrod.|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:You will meet him tomorrow. Report back here tomorrow and be prepared to face Karrod.|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F
+
+[MOD-INF]: ID=3253824403802415767(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:gavas drin|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have found Vivec 'dead'. That's simply... impossible.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have found Vivec 'dead'. That's simply... impossible.|DELE:
+
+[MOD-INF]: ID=3275253052964319925(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:[Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?|DELE:
+
+[MOD-INF]: ID=3275720755108593218(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:gavas drin|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have 'killed' Almalexia. That's simply... impossible.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have 'killed' Almalexia. That's simply... impossible.|DELE:
+
+[MOD-INF]: ID=3369274612467923446(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:Galsa Andrano|NAME:Your story is unbelievable. But... rumors here say Almalexia is no longer in Mournhold, and she plans to be gone indefinitely. They say she exhausted her body and spirit in the war against Dagoth Ur, but now she plans to travel in disguise among the people, living the life of a mortal, and recovering her love for the world. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Your story is unbelievable. But... rumors here say Almalexia is no longer in Mournhold, and she plans to be gone indefinitely. They say she exhausted her body and spirit in the war against Dagoth Ur, but now she plans to travel in disguise among the people, living the life of a mortal, and recovering her love for the world. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|DELE:
+
+[MOD-INF]: ID=6669136443097815563(Topic:slight inconvenience)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:We understand you were visited by some Dark Brotherhood assassins. A regrettable occurrence. They are a difficult lot, but they do have their usefulness. I'm certain that will no longer be a problem for you.|SCVR:02sX0HelAss|INTV:
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:We understand you were visited by assassins. A regrettable occurrence. I'm certain they will no longer be a problem for you.|SCVR:02sX0HelAss|INTV:|BNAM:; removed by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=6835145942178815328(Topic:plans for you)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:As I'm certain you know, Mournhold is one of the seats of power for the Tribunal. The goddess Almalexia resides here in her Temple, surrounded by her High Ordinators. I have no great love for Almalexia, her Ordinators, or the Tribunal of which she is a part. In light of recent events, I believe it is time to gather more information about them.|SCVR:04JX0TR_Champion|INTV:P
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:As I'm certain you know, Mournhold is one of the seats of power for the Tribunal. The goddess Almalexia resides here in her Temple, surrounded by her High Ordinators. I have no great love for Almalexia, her Ordinators, or the Tribunal of which she is a part. In light of recent events, I believe it is time to gather more information about them.|SCVR:04JX0TR_Champion|INTV:P|BNAM:; removed by ANtares Tribunal Main Quest
+
+[MOD-INF]: ID=7817111001232614388(:greeting 0)
+  tribunal.esm------------------------->|DATA|CNAM:Guard|NAME:You say you've been attacked by assassins? From your description, and the look of that dart you found, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart about this matter.|SCVR:02sX0DBAttack|INTV|SCVR:15IX2ebony dart_db_unique|INTV:|SCVR:27XX0apelles matius|INTV|SCVR:34JX4TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 30  set DBAttack to -1
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:You say you've been attacked by assassins? From your description, and the look of that dart you found, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart about this matter.|DELE:
+
+[MOD-INF]: ID=8167170083261331562(Topic:mysterium xarxes)
+  tribunal.esm------------------------->|DATA|NAME:Have you found out more information yet?|SCVR:04JX3TR_ShowPower|INTV|SCVR:14JX4TR_ShowPower|INTV:F
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|NAME:Have you more information yet?|SCVR:04JX3TR_ShowPower|INTV|SCVR:14JX4TR_ShowPower|INTV:F
+
+[MOD-INF]: ID=8549130601500917093(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:[Studies you carefully.] I see you know something that you choose not to say. That's your right. And perhaps I do not have to be a prophet to imagine what it is that you do not say, Nerevarine.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:14JX3TR_SothaSil|INTV:d|SCVR:21500|INTV
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Studies you carefully.] I see you know something that you choose not to say. That's your right. And perhaps I do not have to be a prophet to imagine what it is that you do not say, Nerevarine.|DELE:
+
+[MOD-INF]: ID=9480320081615822943(Topic:mehrunes dagon)
+  morrowind.esm------------------------>|DATA|ONAM:hrordis|NAME:That is a beautiful name. Far too beautiful a name to be found in the mouth of a contemptible worm like you. It will give me great pleasure to beat that beautiful name right out of your maggoty mouth.|BNAM:;Hrordis;  ModFight 100  Goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:hrordis|NAME:That is a beautiful name. Far too beautiful a name to be found in the mouth of a contemptible worm like you. It will give me great pleasure to cut that beautiful name right out of your maggoty mouth.|BNAM:;Hrordis;  ModFight 100  Goodbye
+
+[MOD-INF]: ID=12089231192216013739(Topic:protect barenziah)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:You were able to hold off the assassins. Interesting. Perhaps the threat was not as great as it seemed. We commend you. Take this as a show of our appreciation. We are impressed with your efforts so far. When you are ready, speak to me about further service to your king.|SCVR:04JX0TR_Assassins|INTV:Z|BNAM:Player->AddItem "Helseth's Collar" 1  Journal TR_Assassins 100
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:You were able to hold off the assassins. Interesting. Perhaps the threat was not as great as it seemed. We commend you. Take this as a show of our appreciation. We are impressed with your efforts so far.|SCVR:04JX0TR_Assassins|INTV:Z|BNAM:Player->AddItem "Helseth's Collar" 1  Journal TR_Assassins 100  ; modified by Antares Tribunal Main Quest
+
+[DUP-INF]: ID=12652210122557017686(Topic:mysterium xarxes)
+  |DATA|ONAM:meralyn othan|NAME:They are a suicide cult, plain and simple. Their beliefs are destructive, heretical, and frightening to me. I don't know how my brother ever got involved with them! I'm beginning to see them all over the city, but you'll most often find them in Godsreach, outside the Winged Guar.|BNAM:Journal TR_ShowPower 50
+
+[MOD-INF]: ID=13081256672324114807(Topic:learn more about the attacks)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:I believe that the only person who might shed more light on this situation is Almalexia herself. All indications are that these creatures must be the constructs of Sotha Sil, and only Almalexia is likely to have information about him. I wish for you to speak to her, learn what she knows about the creatures, and report to me. There is no reason for the goddess to suspect that you and I may be allied. Use this to your advantage. Do not approach me again until you have learned all that you can.|SCVR:04JX4TR_Champion|INTV:d|BNAM:Journal TR_Champion 100
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:I believe that the only person who might shed more light on this situation is Almalexia herself. All indications are that these creatures must be the constructs of Sotha Sil, and only Almalexia is likely to have information about him. I wish for you to speak to her, learn what she knows about the creatures, and report to me. There is no reason for the goddess to suspect that you and I may be allied. Use this to your advantage. Do not approach me again until you have learned all that you can.|SCVR:04JX4TR_Champion|INTV:d|BNAM:Journal TR_Champion 100  ; removed by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=14707155682221223996(Topic:fight my champion)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:I'm impressed, %PCName. None have ever defeated Karrod in battle, and I certainly didn't expect you to be the first. You continue to surprise me. You have proven your worth to me, as well as your loyalty. Take this as a token of my faith in our friendship. It was my father's ceremonial dagger, and I place it now in your possession. Do not disgrace his memory, %PCName. Now, let us discuss my plans for you.|SCVR:04JX0TR_Champion|INTV:F|SCVR:12sX2KarrodBeaten|INTV:|BNAM:Player->AddItem "glass dagger_symmachus_unique" 1  RemoveItem "glass dagger_symmachus_unique" 1  StartScript HelsMoveScript  Journal TR_Champion 80
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:We are impressed, %PCRace! Karrod was undefeated in battle, and we certainly had not expected you to change this. You continue to surprise!    Hmm-ah, you have proven your worth to us -- as well as loyalty. Take this as a token of our faith and our friendship. It was my father's ceremonial dagger, and we place it now in your possession. Do not disgrace his memory, %PCName. Now, let us discuss our plans for you.|SCVR:04JX0TR_Champion|INTV:F|SCVR:12sX2KarrodBeaten|INTV:|BNAM:Player->AddItem "glass dagger_symmachus_unique" 1  RemoveItem "glass dagger_symmachus_unique" 1  StartScript HelsMoveScript  Journal TR_Champion 80
+
+[MOD-INF]: ID=15555137371425430106(Topic:mysterium xarxes)
+  tribunal.esm------------------------->|DATA|NAME:Very little is known about them yet, but there is one very disturbing fact we have learned: many of their members have been found dead.|SCVR:04JX4TR_ShowPower|INTV|BNAM:Journal TR_ShowPower 20
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|NAME:Very little is known, yet there is one very disturbing fact: many of their members have been found dead.|SCVR:04JX4TR_ShowPower|INTV|BNAM:Journal TR_ShowPower 20
+
+[MOD-INF]: ID=15737167691727718177(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:[Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?|DELE:
+
+[MOD-INF]: ID=16043312532573123088(:greeting 0)
+  tribunal.esm------------------------->|DATA|CNAM:Guard|NAME:You say you've been attacked by assassins? From your description, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart about this matter.|SCVR:02sX0DBAttack|INTV|SCVR:17XX0apelles matius|INTV|SCVR:24JX4TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 30  set DBAttack to -1
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:You say you've been attacked by assassins? From your description, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart about this matter.|DELE:
+
+[MOD-INF]: ID=16061107653160313729(Topic:fight my champion)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:There is no need to speak of this further.|SCVR:04JX3TR_Champion|INTV:P
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:There is no need to speak of this further.|SCVR:04JX3TR_Champion|INTV:P
+
+[MOD-INF]: ID=17165130272509324906(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:Tienius Delitian|NAME:I sent you to investigate the disturbance, and you reported your findings to Hler. Disappointing. I have no more official matters to discuss with you, but His Royal Highness King Hlaalu Helseth wishes to speak with you.|SCVR:04JX0TR_Bamz|INTV:i
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Tienius Delitian|ANAM:ToddTest|NAME:I sent you to investigate the disturbance, and you reported your findings to Hler. Disappointing. I have no more official matters to discuss with you, but His Royal Highness King Hlaalu Helseth wishes to speak with you.|SCVR:04JX0TR_Bamz|INTV:i|BNAM:; modified by ANtares Tribunal Main QUest.
+
+[MOD-INF]: ID=17629275802324325528(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:Tienius Delitian|NAME:I'm the captain of King Helseth's Royal Guards. Is this an official matter? Or is there something else you want?|SCVR:01630|INTV:|SCVR:14JX3TR_DBHunt|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Tienius Delitian|NAME:I'm the captain of King Helseth's Royal Guards. Is this an official matter? Or is there something else you want?|SCVR:01630|INTV:|BNAM:; modified by ANtares Tribunal Main QUest.
+
+[MOD-INF]: ID=17791179462890825496(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:I understand you were able to protect Barenziah.|SCVR:04JX3TR_Assassins|INTV:Z
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:I understand you were able to protect Barenziah.|SCVR:04JX3TR_Assassins|INTV:Z|SCVR:14JX4TR_Assassins|INTV:d|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=18011325692587612722(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:[Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....|DELE:
+
+[MOD-INF]: ID=18404305671714828172(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:Farewell.|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Farewell.|DELE:
+
+[MOD-INF]: ID=18459277612740525523(:dark brotherhood)
+  tribunal.esm------------------------->|DATA|ONAM:Tienius Delitian|NAME:You wish to know who sent the assassins to kill you in your sleep? A reasonable desire. I won't deny my knowledge of it, but I believe it is more important now to speak about an official matter.|SCVR:04JX3TR_DBHunt|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:You wish to know who sent the assassins to kill you in your sleep? A reasonable desire. I won't deny my knowledge of it, but I believe it is more important now to speak about an official matter.|DELE:
+
+[MOD-INF]: ID=18931167982061718957(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:gavas drin|NAME:Hmmm...yes. You are the one that Hler mentioned. Interesting. You are to be of service to our Lady. It is essential, and all would be displeased were you to fail.|SCVR:04JX3TR_KillGoblins|INTV:d|SCVR:14JX0TR_ShrineDead|INTV: 
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:gavas drin|NAME:Hmmm...yes. You are the one that Hler mentioned. Interesting. You are to be of service to our Lady. It is essential, and all would be displeased were you to fail.|SCVR:14JX4TR_ShrineDead|INTV|BNAM:; modified by Antares Tribunal Main QUest
+
+[DUP-INF]: ID=19742144401495913234(Topic:nerevarine)
+  |DATA|ONAM:holmar|NAME:Wha?
+
+[MOD-INF]: ID=20388175531037128290(Topic:fight my champion)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:I see you are prepared to fight my champion, but you have your mercenary with you. Though I understand the value of a good sword at your side, this is to be a personal battle. Please escort your companion out of the Throne Room. He will be safe outside. When you return, we may begin.|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F|SCVR:22sX0MercenaryNear|INTV|SCVR:32sX0KarrodFightStart|INTV|BNAM:Goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:I see you are prepared, but you have your henchman with you. Though we understand the value of a second sword, this is to be a personal battle. Please, escort them out of the Throne Room. He will be safe outside. When you return, we may begin.|SCVR:04JX3TR_Champion|INTV|SCVR:14JX4TR_Champion|INTV:F|SCVR:22sX0MercenaryNear|INTV|SCVR:32sX0KarrodFightStart|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=20893143212411811961(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:[Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....|DELE:
+
+[MOD-INF]: ID=21024265233160711929(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:Yes, %PCName? I thought you were sent to learn more about the attacks. I also told you to stay away from the Royal Palace until you had learned all there is to know! Do not take this job lightly.|SCVR:04JX3TR_Champion|INTV:d|SCVR:12sX2KarrodBeaten|INTV:
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:Yes, %PCName? I thought you were sent to learn more about the attacks. I also told you to stay away from the Royal Palace until you had learned all there is to know! Do not take this job lightly.|SCVR:04JX3TR_Champion|INTV:d|SCVR:12sX2KarrodBeaten|INTV:|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=21772298992068413204(Voice:hello)
+  tribunal.esm------------------------->|DATA|ONAM:plitinius mero|RNAM:Imperial|SNAM:Vo\i\m\tHlo_IM014.mp3|NAME:You've returned from the Clockwork City! Perhaps I should write about you sometime....|SCVR:04JX3TR_SothaSil|INTV:d|BNAM:;Noble
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:plitinius mero|RNAM:Imperial|SNAM:Vo\i\m\tHlo_IM014.mp3|NAME:You've returned from the Clockwork City! Perhaps I should write about you sometime....|SCVR:04JX3TMQ_Journal|INTV|SCVR:14JX4TMQ_Journal|INTV|BNAM:;Noble  ; modified by Antares Tribunal Main QUest
+
+[MOD-INF]: ID=21977287891209022767(:almalexia)
+  tribunal.esm------------------------->|DATA|NAME:[Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....|DELE:
+
+[MOD-INF]: ID=22110144442459225358(:dark brotherhood)
+  tribunal.esm------------------------->|DATA|NAME:I don't know anything about who might have sent those people after you. If you're looking for help, try talking to Tienius Delitian at the Royal Palace. If you're a more religious sort, try speaking with Fedris Hler at the Temple. Either of them might be able to help you.|SCVR:04JX3TR_DBHunt|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:I don't know anything about who might have sent those people after you. If you're looking for help, try talking to Tienius Delitian at the Royal Palace. If you're a more religious sort, try speaking with Fedris Hler at the Temple. Either of them might be able to help you.|DELE:
+
+[MOD-INF]: ID=24624165422434317532(:dark brotherhood)
+  tribunal.esm------------------------->|DATA|ANAM:Mournhold Temple|NAME:You say you've killed the local Dark Brotherhood leader, have you? And he spoke of his "liege" before he died? Well, I can tell you that the new king, Helseth, has been rumored to use the Dark Brotherhood's services. If he's the one who's after you, you'd better investigate it immediately. Try speaking with Tienius Delitian, his Captain. He's a reasonable man.|SCVR:04JX3TR_DBHunt|INTV|INTV|SCVR:28FX0Temple|INTV
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:You say you've killed the local Dark Brotherhood leader, have you? And he spoke of his "liege" before he died? Well, I can tell you that the new king, Helseth, has been rumored to use the Dark Brotherhood's services. If he's the one who's after you, you'd better investigate it immediately. Try speaking with Tienius Delitian, his Captain. He's a reasonable man.|DELE:
+
+[MOD-INF]: ID=24762307961466221244(Topic:eno romari)
+  tribunal.esm------------------------->|DATA|NAME:I did not want him killed! You displease me, mortal fool.|SCVR:04JX3TR_ShowPower|INTV:d|SCVR:16DX2eno romari|INTV:
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|NAME:I did not want him killed! You displease me, mortal. Leave.|SCVR:04JX3TR_ShowPower|INTV:d|SCVR:16DX2eno romari|INTV:
+
+[MOD-INF]: ID=25199207051395824688(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:gavas drin|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have 'killed' Vivec. That's simply... impossible.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have 'killed' Vivec. That's simply... impossible.|DELE:
+
+[MOD-INF]: ID=25553166942428129646(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:Salas Valor|NAME:So. She has sent you for me. Now YOU are Her favorite. How convenient. Whichever of us dies... she will be well pleased. And if both of us die, so much the better. Well, I am content. Perhaps this is how it was meant to end. I ask the forgiveness of all the gods and spirits -- whoever they may be. And you, too, might make your peace with your gods, because at least one of us will not live to see another sunset.|SCVR:04JX3TR_MissingHand_02|INTV|BNAM:Journal TR_MissingHand_02 10  StartCombat Player  setdisposition 0  setfight 100  Goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:Salas Valor|ANAM:ToddTest|NAME:So. She has sent you for me. Now YOU are Her favorite. How convenient. Whichever of us dies... she will be well pleased. And if both of us die, so much the better. Well, I am content. Perhaps this is how it was meant to end. I ask the forgiveness of all the gods and spirits -- whoever they may be. And you, too, might make your peace with your gods, because at least one of us will not live to see another sunset.  ; REMOVED BY ANTARES TRIBUNAL MAIN QUEST, LEFT FOR REFERE|NCSC|INTV|BNAM:Journal TR_MissingHand_02 10  StartCombat Player  setdisposition 0  setfight 100  Goodbye
+
+[MOD-INF]: ID=26180161471138016613(Greeting:greeting 1)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:You have questions about my plans for you?|SCVR:04JX0TR_Champion|INTV:P|SCVR:12sX0KarrodBeaten|INTV
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|ONAM:King Hlaalu Helseth|ANAM:ToddTest|NAME:You have questions about my plans for you?|SCVR:04JX0TR_Champion|INTV:P|SCVR:12sX0KarrodBeaten|INTV|BNAM:; modified by Antares Tribunal Main Quest
+
+[MOD-INF]: ID=26528326041476628360(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:gavas drin|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have found Almalexia, Sotha Sil, and Vivec 'dead'. That's simply... impossible.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have found Almalexia, Sotha Sil, and Vivec 'dead'. That's simply... impossible.|DELE:
+
+[MOD-INF]: ID=27854294722000614405(:almalexia)
+  tribunal.esm------------------------->|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:14JX3C3_DestroyDagoth|INTV:2|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia, Sotha Sil, and Vivec dead." 5 "I found Sotha Sil dead, and killed Almalexia and Vivec." 6 "Thank you, but I must be going." 4
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|DELE:
+
+[MOD-INF]: ID=28919299633036421442(Topic:eno romari)
+  tribunal.esm------------------------->|DATA|NAME:I will take care of him.|SCVR:04JX3TR_ShowPower|INTV:d
+  Antares' Tribunal Main Quest 1.8.esp->|DATA|NAME:I shall visit him.|SCVR:04JX3TR_ShowPower|INTV:d
+
+[MOD-INF]: ID=30270294192087611037(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:Galsa Andrano|NAME:Your story is unbelievable. But... there are rumors here that Almalexia is no longer here in Mournhold, and plans to be gone until Dagoth Ur is defeated. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Your story is unbelievable. But... there are rumors here that Almalexia is no longer here in Mournhold, and plans to be gone until Dagoth Ur is defeated. The Temple plans to keep this a secret, for fear of starting a panic among the Faithful. Now... I don't know what to think.|DELE:
+
+[MOD-INF]: ID=30990172302627631518(:almalexia)
+  tribunal.esm------------------------->|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:04JX3TR_SothaSil|INTV:d|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia and Sotha Sil dead." 2 "Thank you, but I must be going." 4
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|DELE:
+
+[MOD-INF]: ID=31026257472124920356(:almalexia)
+  tribunal.esm------------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:[Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?|SCVR:21500|INTV|BNAM:goodbye
+  Antares' Tribunal Main Quest 1.8.esp->|NAME:[Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?|DELE:

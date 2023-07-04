@@ -1,0 +1,66 @@
+Main Quest for Divayth Fyr.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AL93_TeleportAzuraCavernFyr)
+	SCPT(CharGen)
+	SCPT(CharGenBed)
+	SCPT(CharGenBoatNPC)
+	SCPT(CharGenBoatWomen)
+	SCPT(CharGenClassNPC)
+	SCPT(CharGenCustomsDoor)
+	SCPT(CharGenDagger)
+	SCPT(CharGenDialogueMessage)
+	SCPT(CharGenDisable)
+	SCPT(CharGenDoorEnterCaptain)
+	SCPT(CharGenDoorExit)
+	SCPT(CharGenDoorExitCaptain)
+	SCPT(CharGenDoorGuardTalker)
+	SCPT(CharGenFatigueBarrel)
+	SCPT(CharGenJournalMessage)
+	SCPT(CharGenNameNPC)
+	SCPT(CharGenRaceNPC)
+	SCPT(CharGenStatsSheet)
+	SCPT(CharGenStuffRoom)
+	SCPT(CharGenWalkNPC)
+	SCPT(CharGen_ring_keley)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    daughters
+	morrowind.esm       DIAL    moon-and-star
+	morrowind.esm       DIAL    nerevarine prophecies
+	morrowind.esm       DIAL    plunder the dungeon
+	morrowind.esm       DIAL    the seven visions
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=12625656356661144(Greeting:greeting 1)
+  tribunal.esm------------------->|DATA|NAME:Have you come to plunder the dungeon? Or have you got corprus disease? Or did you come to see Divayth Fyr? I'm Beyte Fyr. I'm the wife of Divayth Fyr. One of them. Sort of.|SCVR:01440|INTV
+  Main Quest for Divayth Fyr.ESP->|DATA|NAME:You are the one who came earlier to plunder the dungeon? Are you okay? I hope you didn't get corprus disease. Or did you come to see Divayth Fyr? I'm Beyte Fyr. I'm the wife of Divayth Fyr. One of them. Sort of.|SCVR:01630|INTV:|BNAM:;Beyte Fyr  ModDisposition 30  AddTopic "are you okay"
+
+[MOD-INF]: ID=111099892177678622(Greeting:greeting 1)
+  tribunal.esm------------------->|DATA|NAME:You're new here, aren't you? My name is Uupse. Uupse Fyr. I take care of the corprus victims in the Corprusarium.|SCVR:01630|INTV
+  Main Quest for Divayth Fyr.ESP->|DATA|NAME:Welcome back among the living. My name is Uupse. Uupse Fyr. I take care of the corprus victims in the Corprusarium.|SCVR:01630|INTV:|BNAM:;Uupse Fyr  ModDisposition 30
+
+[MOD-INF]: ID=157421637923310026(Topic:plunder the dungeon)
+  morrowind.esm------------------>|DATA|ONAM:vistha_kai|NAME:For his own amusement, Divayth Fyr permits thieves to test their skills by attempting to steal the treasures he keeps below in the Corprusarium. The dangers are fearful. The inmates are savage, and they carry the most terrible disease on Tamriel. The treasures themselves are guarded by traps and terrors. And the guards, myself chief among them, will take great delight in trying to kill you. Those are the rules. Abide by them ,or leave.|BNAM:;Vistha-Kai;
+  Main Quest for Divayth Fyr.ESP->|DATA|ONAM:vistha_kai|NAME:For his own amusement, Divayth Fyr permits thieves to test their skills by attempting to steal the treasures he keeps below in the Corprusarium. The dangers are fearful. The inmates are savage, and they carry the most terrible disease on Tamriel. The treasures themselves are guarded by traps and terrors. And the guards, myself chief among them, will take great delight in trying to kill you again. Those are the rules. Abide by them, or leave.|BNAM:;Vistha-Kai;
+
+[MOD-INF]: ID=160313018218666260(Topic:plunder the dungeon)
+  morrowind.esm------------------>|DATA|ONAM:alfe fyr|NAME:You're smart. Get corprus disease. Get killed by corprus monsters. Get killed by Vistha-Kai. A very good plan. Plunder the dungeon of a 4000-year-old wizard. What could be easier?|BNAM:;Alfe Fyr
+  Main Quest for Divayth Fyr.ESP->|DATA|ONAM:alfe fyr|NAME:You're smart. Get corprus disease. Get killed by corprus monsters. Get killed by Vistha-Kai. A very good plan. Plunder the dungeon of a 4000-year-old wizard. What could be easier? Needless to say, just recently I saw you as a corpse.|BNAM:;Alfe Fyr
+
+[MOD-INF]: ID=898217268135824471(Topic:daughters)
+  morrowind.esm------------------>|DATA|ONAM:divayth fyr|NAME:Not bad for something born in a jar, eh? Charming and talented. Not daughters, really. A little project, a side benefit of my researches into corprus disease. Made them myself, from my own flesh. Nice, aren't they? Alfe Fyr, Beyte Fyr, Delte Fyr, and Uupse Fyr. Quite a comfort to me in my old age. Hah hah.
+  Main Quest for Divayth Fyr.ESP->|DATA|ONAM:divayth fyr|NAME:Not bad for something born in a jar, eh? They are practically your sisters, so be nice to them. Charming and talented. Not daughters, really. A little project, a side benefit of my researches into corprus disease. Made them myself, from my own flesh. Nice, aren't they? Alfe Fyr, Beyte Fyr, Delte Fyr, and Uupse Fyr. Quite a comfort to me in my old age. Hah hah.
+
+[MOD-INF]: ID=1729913769476329813(Topic:duties)
+  morrowind.esm------------------>|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX0A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+  Main Quest for Divayth Fyr.ESP->|DATA|ONAM:chargen captain|NAME:I don't have any duties for you, citizen.|SCVR:04JX0A1_1_FindSpymaster|INTV:
+
+[MOD-INF]: ID=2107527663693130155(Topic:plunder the dungeon)
+  morrowind.esm------------------>|DATA|NAME
+  Main Quest for Divayth Fyr.ESP->|DATA|NAME
+
+[MOD-INF]: ID=19263255231980924126(Topic:plunder the dungeon)
+  morrowind.esm------------------>|DATA|NAME
+  Main Quest for Divayth Fyr.ESP->|DATA|NAME

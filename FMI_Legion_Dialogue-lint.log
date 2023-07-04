@@ -1,0 +1,84 @@
+FMI_Legion_Dialogue.ESP: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    eggmine
+	morrowind.esm       DIAL    imperial legion
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    hello
+
+[MOD-INF]: ID=2169071376711768(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF109.mp3|NAME:How dare you show your face.|SCVR:02sX0ExpImperialLegion|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank=-3
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF109.mp3|NAME:How dare you show your face.|SCVR:01390|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank=-3
+
+[MOD-INF]: ID=2407391888046527(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM113.mp3|NAME:Your bidding, Knight?|SCVR:11473|INTV
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM113.mp3|NAME:Your bidding, Knight?|SCVR:01391|INTV|SCVR:11473|INTV
+
+[MOD-INF]: ID=46851633764555279(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF110.mp3|NAME:Your bidding, Agent?|SCVR:01470|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank=3
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF110.mp3|NAME:Your bidding, Agent?|SCVR:01470|INTV|SCVR:11391|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank=3
+
+[MOD-INF]: ID=100731452942808465(Topic:eggmine)
+  morrowind.esm----------->|DATA|ONAM:vatollia apo|DNAM:Imperial Legion|NAME|INTV:|BNAM:player->additem, "key_gnisis_eggmine", 1  removeitem, "key_gnisis_eggmine", 1  set state to 1
+  FMI_Legion_Dialogue.ESP->|DATA|ONAM:vatollia apo|DNAM:Imperial Legion|NAME|INTV:|SCVR:21391|INTV|BNAM:player->additem, "key_gnisis_eggmine", 1  removeitem, "key_gnisis_eggmine", 1  set state to 1
+
+[MOD-INF]: ID=291517144103026279(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF107.mp3|NAME:This is truly an honor.|SCVR:01470|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank=9
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF107.mp3|NAME:This is truly an honor.|SCVR:01470|INTV|SCVR:11391|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank=9
+
+[MOD-INF]: ID=940216941280823980(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF111.mp3|NAME:Your bidding, Trooper?|SCVR:01470|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank=2
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF111.mp3|NAME:Your bidding, Trooper?|SCVR:01470|INTV|SCVR:11391|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank=2
+
+[MOD-INF]: ID=963926337871820132(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM109.mp3|NAME:How dare you show your face.|SCVR:12sX0ExpImperialLegion|INTV
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM109.mp3|NAME:How dare you show your face.|SCVR:11390|INTV
+
+[MOD-INF]: ID=1315729296309661622(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM110.mp3|NAME:Your bidding, Agent?|SCVR:11473|INTV
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM110.mp3|NAME:Your bidding, Agent?|SCVR:01391|INTV|SCVR:11473|INTV
+
+[MOD-INF]: ID=1904368641859326109(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF114.mp3|NAME:Your bidding, sir?|SCVR:01473|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank>=1
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF114.mp3|NAME:Your bidding, sir?|SCVR:01473|INTV|SCVR:11391|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank>=1
+
+[MOD-INF]: ID=2068724817235435404(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM113.mp3|NAME:Your bidding, Knight?|SCVR:11473|INTV
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM113.mp3|NAME:Your bidding, Knight?|SCVR:01391|INTV|SCVR:11473|INTV
+
+[MOD-INF]: ID=2188011949537821140(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|ANAM:Gnisis|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM034.mp3|NAME:Why are you away from your post?|SCVR:01475|INTV
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|ANAM:Gnisis|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM034.mp3|NAME:Why are you away from your post?|SCVR:01475|INTV|SCVR:11390|INTV:
+
+[MOD-INF]: ID=2350315055279237208(Greeting:greeting 1)
+  tribunal.esm------------>|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform. Talk to me when you're serious.|SCVR:01475|INTV|SCVR:12sX0WearingLegionUni|INTV:|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+  FMI_Legion_Dialogue.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform. Talk to me when you're serious.|SCVR:01475|INTV|SCVR:12sX0WearingLegionUni|INTV:|SCVR:21390|INTV:|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+
+[MOD-INF]: ID=2417579642839613321(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM113.mp3|NAME:Your bidding, Knight?|SCVR:11473|INTV
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM113.mp3|NAME:Your bidding, Knight?|SCVR:01391|INTV|SCVR:11473|INTV
+
+[MOD-INF]: ID=2545016494536627392(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF106.mp3|NAME:At ease.|BNAM:;Faction=Legion;PCFaction=Legion;Rank=<
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF106.mp3|NAME:At ease.|SCVR:01391|INTV|BNAM:;Faction=Legion;PCFaction=Legion;Rank=<
+
+[MOD-INF]: ID=3375291193212815445(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM114.mp3|NAME:Your bidding, sir?|SCVR:01440|INTV:|SCVR:11473|INTV
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM114.mp3|NAME:Your bidding, sir?|SCVR:01440|INTV:|SCVR:11473|INTV|SCVR:21391|INTV
+
+[MOD-INF]: ID=8645145321005731260(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM113.mp3|NAME:Your bidding, Knight?|SCVR:11473|INTV
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM113.mp3|NAME:Your bidding, Knight?|SCVR:01391|INTV|SCVR:11473|INTV
+
+[MOD-INF]: ID=12534259291752817418(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM111.mp3|NAME:Your bidding, Trooper?|SCVR:11473|INTV
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM111.mp3|NAME:Your bidding, Trooper?|SCVR:01391|INTV|SCVR:11473|INTV
+
+[MOD-INF]: ID=17404190662003419447(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF113.mp3|NAME:Your bidding, Knight?|BNAM:;Faction=Legion;PCFaction=Legion;PCRank=Knight
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:vo\i\f\Hlo_IF113.mp3|NAME:Your bidding, Knight?|SCVR:01391|INTV|BNAM:;Faction=Legion;PCFaction=Legion;PCRank=Knight
+
+[MOD-INF]: ID=19165198251387824072(Voice:hello)
+  morrowind.esm----------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM175.mp3|NAME:Where's your uniform?|SCVR:02sX0WearingLegionUni|INTV:|SCVR:11475|INTV|BNAM:moddisposition -2
+  FMI_Legion_Dialogue.ESP->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM175.mp3|NAME:Where's your uniform?|SCVR:02sX0WearingLegionUni|INTV:|SCVR:11475|INTV|SCVR:21390|INTV:|BNAM:moddisposition -2

@@ -1,0 +1,29 @@
+MWCMD_SkyDiversity.esm: EXP-DEP MENUMOD MISSVER NUMRECS
+    [NUMRECS]: number of records in TES3.HEDR (338) != Actual count (337)
+    [EXP-DEP] Expansion Dependency: Startup Scripts: mwcmd_main, sve_skd_clr_variations, sve_skd_moon_and_star, sve_skd_regn_wthr_cntrl, sve_skd_sky_variations, sve_skd_regen_all
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(mwcmd_main)                     getscale
+	SCPT(mwcmd_main)                     setscale
+	SCPT(sve_skd_clr_variations)         getscale
+	SCPT(sve_skd_moon_and_star)          getscale
+	SCPT(sve_skd_moon_and_star)          getsquareroot
+	SCPT(sve_skd_regen_all)              getscale
+	SCPT(sve_skd_regn_wthr_cntrl)        getscale
+	SCPT(sve_skd_sky_variations)         getscale
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mwcmd_main)
+	SCPT(mwcmd_skd_global_overrides)
+	SCPT(sve_purgetextures)
+	SCPT(sve_skd_changeweather)
+	SCPT(sve_skd_changeweather0)
+	SCPT(sve_skd_changeweather1)
+	SCPT(sve_skd_changeweather2)
+	SCPT(sve_skd_changeweather3)
+	SCPT(sve_skd_changeweather4)
+	SCPT(sve_skd_changeweather5)
+	SCPT(sve_skd_changeweather6)
+	SCPT(sve_skd_changeweather7)
+	SCPT(sve_skd_changeweather8)
+	SCPT(sve_skd_changeweather9)
+	SCPT(sve_skd_regen_all)
+	SCPT(sve_skd_write_sky_fav_state)

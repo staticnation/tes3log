@@ -1,0 +1,57 @@
+Clean Webspinner_Rewards.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (125) != Actual count (53)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    sanguine balanced armor
+	morrowind.esm       DIAL    sanguine deep biting
+	morrowind.esm       DIAL    sanguine denial
+	morrowind.esm       DIAL    sanguine fleetness
+	morrowind.esm       DIAL    sanguine fluid evasion
+	morrowind.esm       DIAL    sanguine glib speech
+	morrowind.esm       DIAL    sanguine golden wisdom
+	morrowind.esm       DIAL    sanguine green wisdom
+	morrowind.esm       DIAL    sanguine hewing
+	morrowind.esm       DIAL    sanguine horny fist
+	morrowind.esm       DIAL    sanguine impaling thrust
+	morrowind.esm       DIAL    sanguine leaping
+	morrowind.esm       DIAL    sanguine martial craft
+	morrowind.esm       DIAL    sanguine nimble armor
+	morrowind.esm       DIAL    sanguine red wisdom
+	morrowind.esm       DIAL    sanguine safekeeping
+	morrowind.esm       DIAL    sanguine silver wisdom
+	morrowind.esm       DIAL    sanguine smiting
+	morrowind.esm       DIAL    sanguine stalking
+	morrowind.esm       DIAL    sanguine stolid armor
+	morrowind.esm       DIAL    sanguine sublime wisdom
+	morrowind.esm       DIAL    sanguine sureflight
+	morrowind.esm       DIAL    sanguine swiftblade
+	morrowind.esm       DIAL    sanguine transcendence
+	morrowind.esm       DIAL    sanguine transfiguring
+	morrowind.esm       DIAL    sanguine unseen wisdom
+
+[MOD-INF]: ID=229924319105306354(Topic:sanguine denial)
+  morrowind.esm---------------->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:Thus do Mephala's Threads return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_Denial 100  Player->RemoveItem SanguineBeltDenial 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Clean Webspinner_Rewards.ESP->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:Thus do Mephala's Threads return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_Denial 100  Player->RemoveItem SanguineBeltDenial 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=290953272132517159(Topic:sanguine hewing)
+  morrowind.esm---------------->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:The Belt of Sanguine Hewing will take its place with the rest of the Threads of the Webspinner. Soon all these Threads will be returned to us by the machinations of Mephala, for all Threads lead to her black hands.|SCVR:01500|INTV|BNAM:Journal MT_S_Hewing 100  Player->RemoveItem SanguineBeltHewing 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Clean Webspinner_Rewards.ESP->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:The Belt of Sanguine Hewing will take its place with the rest of the Threads of the Webspinner. Soon all these Threads will be returned to us by the machinations of Mephala, for all Threads lead to her black hands.|SCVR:01500|INTV|BNAM:Journal MT_S_Hewing 100  Player->RemoveItem SanguineBeltHewing 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=1014019669241521440(Topic:sanguine smiting)
+  morrowind.esm---------------->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:The Threads of the Webspinner return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_Smiting 100  Player->RemoveItem SanguineBeltSmiting 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Clean Webspinner_Rewards.ESP->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:The Threads of the Webspinner return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_Smiting 100  Player->RemoveItem SanguineBeltSmiting 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=1436670373263130998(Topic:sanguine leaping)
+  morrowind.esm---------------->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:The threads of the Webspinner return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_Leaping 100  Player->RemoveItem SanguineShoesLeaping 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Clean Webspinner_Rewards.ESP->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:The threads of the Webspinner return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_Leaping 100  Player->RemoveItem SanguineShoesLeaping 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=25647174842010328702(Topic:sanguine horny fist)
+  morrowind.esm---------------->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:So the Threads return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_HornyFist 100  Player->RemoveItem SanguineRGloveHornyFist 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Clean Webspinner_Rewards.ESP->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:So the Threads return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_HornyFist 100  Player->RemoveItem SanguineRGloveHornyFist 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=25977201352954931710(Topic:sanguine stalking)
+  morrowind.esm---------------->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:The Threads of the Webspinner return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_Stalking 100  Player->RemoveItem SanguineShoesStalking 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Clean Webspinner_Rewards.ESP->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:The Threads of the Webspinner return to us one by one.|SCVR:01500|INTV|BNAM:Journal MT_S_Stalking 100  Player->RemoveItem SanguineShoesStalking 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 5 "Morag Tong"  ModDisposition 10  Player->AddItem Gold_001 500
+
+[DUP-INF]: ID=31021275302309512454(Topic:sanguine fleetness)
+  |DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:With this, you have returned all the Threads of the Webspinner to the Morag Tong. You will be blessed by Mephala's skill.|SCVR:01500|INTV|SCVR:12sX3ThreadsWebspinner|INTV|BNAM:Journal MT_S_Fleetness 100  Player->RemoveItem SanguineBeltFleetness 1  Set ThreadsWebspinner to ThreadsWebspinner + 1  ModPCFacRep 25 "Morag Tong"  ModDisposition 25  Player->AddSpell SkillMephala_SP

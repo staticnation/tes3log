@@ -1,0 +1,21 @@
+tent.esp: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DGL_RT_Dummy_01_Scr)
+	SCPT(DGL_RT_Ex_01_Scr)
+	SCPT(DGL_RT_InFlap_01_Scr)
+	SCPT(DGL_RT_Lite_01_Scr)
+	SCPT(DGL_RT_NoRecall_01_Scr)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    de_p_chest_02
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=23042042403711932(:greeting 5)
+  morrowind.esm->|DATA|ONAM:ra'virr|NAME:Ra'Virr knows why you are here. You want to buy Ra'Virr's famous Daedric weapons.
+  tent.esp------>|NAME:Ra'Virr knows why you are here. You want to buy Ra'Virr's famous Daedric weapons.    Or perhaps ^PCRace would be interested in a wondrous tent?|DELE:
+
+[MOD-INF]: ID=23042042403711932(:greeting 5)
+  morrowind.esm->|DATA|ONAM:ra'virr|NAME:Ra'Virr knows why you are here. You want to buy Ra'Virr's famous Daedric weapons.
+  tent.esp------>|NAME:Ra'Virr knows why you are here. You want to buy Ra'Virr's famous Daedric weapons.    Or perhaps ^PCRace would be interested in a wondrous tent?|DELE:
+[MOD-IID]: ID=2326414115660819742(Greeting:greeting 5)
+  tent.esp------>Ra'Virr knows why you are here. You want to buy Ra'Virr's famous Daedric weapons.

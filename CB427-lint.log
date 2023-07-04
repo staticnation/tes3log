@@ -1,0 +1,16 @@
+CB427.esp: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CB427_HlaaluBookScript)
+	SCPT(CB427_HlaaluBookScriptStarter)
+	SCPT(CB427_RedoranBookScript)
+	SCPT(CB427_RedoranBookScriptStarter)
+	SCPT(CB427_TelvanniBookScript)
+	SCPT(CB427_TelvanniBookScriptStarter)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    hlaalu councilors
+	morrowind.esm       DIAL    redoran councilors
+	morrowind.esm       DIAL    telvanni councilors
+	tribunal.esm        DIAL    b5_redoranbook
+	tribunal.esm        DIAL    b6_hlaalubook
+	tribunal.esm        DIAL    b7_telvannibook

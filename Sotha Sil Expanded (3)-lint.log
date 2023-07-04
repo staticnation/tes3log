@@ -1,0 +1,676 @@
+Sotha Sil Expanded (3).ESP: AUTOSPL DUP-INF DUP-REC FOGBUG MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC SCRDOOR
+    [AUTOSPL] Auto-calced Spells:
+	sotha_purge                    Purge Body
+    [FOGBUG]: Cells with zero fog density setting:
+	Sotha Sil, Dome of Kasia
+	Sotha Sil, Dome of Serlyn
+	Sotha Sil, Dome of Udok
+	Sotha Sil, Sanctum of Serlyn
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Collide_damage_kill2)
+	SCPT(DNO_Ladder_Script)
+	SCPT(DNO_Ladder_dn_Script)
+	SCPT(DisableJumping)
+	SCPT(DisableLevitating)
+	SCPT(Fyr_servercode)
+	SCPT(Garden_Finish)
+	SCPT(Garden_Plant1)
+	SCPT(Garden_Plant2)
+	SCPT(Garden_Plant3)
+	SCPT(Garden_Plant4)
+	SCPT(Garden_Resurrect)
+	SCPT(Garden_Seed1)
+	SCPT(Garden_Seed2)
+	SCPT(Garden_Soil1)
+	SCPT(Garden_Sprout1)
+	SCPT(Garden_Sprout2)
+	SCPT(Garden_Tree1)
+	SCPT(Garden_Tree2)
+	SCPT(Garden_speak)
+	SCPT(MagnusLever)
+	SCPT(MagnusLever_destry)
+	SCPT(MagnusLever_restore)
+	SCPT(MagnusLine1)
+	SCPT(MagnusLine2)
+	SCPT(MagnusLine3)
+	SCPT(MagnusLine4)
+	SCPT(MagnusLine5)
+	SCPT(MagnusLine6)
+	SCPT(Magnus_ConjurItem)
+	SCPT(Magnus_ConjurItem2)
+	SCPT(Magnus_Doorlock)
+	SCPT(Magnus_FabricantDeath)
+	SCPT(Magnus_LightPlatform)
+	SCPT(Magnus_MystiLever1)
+	SCPT(Magnus_MystiLever2)
+	SCPT(Magnus_Restorationfabricant)
+	SCPT(Magnus_SpellAdd1)
+	SCPT(Magnus_SpellAdd2)
+	SCPT(Magnus_SpellAdd3)
+	SCPT(Magnus_SpellAdd4)
+	SCPT(Magnus_SpellAdd5)
+	SCPT(Magnus_SpellAdd6)
+	SCPT(Magnus_SpellRemove1)
+	SCPT(Magnus_SpellRemove2)
+	SCPT(Magnus_SpellRemove3)
+	SCPT(Magnus_SpellRemove4)
+	SCPT(Magnus_SpellRemove5)
+	SCPT(Magnus_SpellRemove6)
+	SCPT(NI_looping_creature)
+	SCPT(SothaAlmaDoor)
+	SCPT(SothaCataLever1)
+	SCPT(SothaCataLever2)
+	SCPT(SothaCataLever3)
+	SCPT(SothaCataLever4)
+	SCPT(SothaCatadoor)
+	SCPT(SothaDagothDoor)
+	SCPT(SothaInnerPuzzleLever1)
+	SCPT(SothaInnerPuzzleLever2)
+	SCPT(SothaInnerPuzzleLever3)
+	SCPT(SothaInnerPuzzleLever4)
+	SCPT(SothaInnerPuzzleLever5)
+	SCPT(SothaInnerPuzzleLever6)
+	SCPT(SothaInnerPuzzleLever7)
+	SCPT(SothaInnerPuzzleLever8)
+	SCPT(SothaLever1)
+	SCPT(SothaLever12)
+	SCPT(SothaLine1)
+	SCPT(SothaLine10)
+	SCPT(SothaLine11)
+	SCPT(SothaLine12)
+	SCPT(SothaLine13)
+	SCPT(SothaLine14)
+	SCPT(SothaLine15)
+	SCPT(SothaLine17)
+	SCPT(SothaLine17_1)
+	SCPT(SothaLine2)
+	SCPT(SothaLine3)
+	SCPT(SothaLine4)
+	SCPT(SothaLine5)
+	SCPT(SothaLine6)
+	SCPT(SothaLine7)
+	SCPT(SothaLine8)
+	SCPT(SothaLine9)
+	SCPT(SothaLine9_1)
+	SCPT(SothaLine9_2)
+	SCPT(SothaLine9_3)
+	SCPT(SothaSewerDoor1)
+	SCPT(SothaSewerDoor2)
+	SCPT(SothaSewerLever1)
+	SCPT(SothaSewerLever2)
+	SCPT(SothaSewerLever3)
+	SCPT(SothaSewerLever4)
+	SCPT(SothaSewerLever5)
+	SCPT(SothaSewerLever6)
+	SCPT(SothaSewerLever7)
+	SCPT(SothaSilScript)
+	SCPT(Sotha_Almadeathscript)
+	SCPT(Sotha_AntiWall1)
+	SCPT(Sotha_AntiWall2)
+	SCPT(Sotha_AntiWall3)
+	SCPT(Sotha_CubeFlower)
+	SCPT(Sotha_Fab_G_Light1)
+	SCPT(Sotha_Fab_G_Light2)
+	SCPT(Sotha_Fab_R_Light1)
+	SCPT(Sotha_Fab_R_Light2)
+	SCPT(Sotha_FactoryFix)
+	SCPT(Sotha_InnerCity_Teleport)
+	SCPT(Sotha_InnerDoorPuzzleLock)
+	SCPT(Sotha_InnerPuzzleWater1)
+	SCPT(Sotha_InnerPuzzleWater2)
+	SCPT(Sotha_InnerPuzzleWater3)
+	SCPT(Sotha_InnerPuzzleWater4)
+	SCPT(Sotha_LabRestrict)
+	SCPT(Sotha_M_G_Light1)
+	SCPT(Sotha_M_G_Light2)
+	SCPT(Sotha_M_G_Light3)
+	SCPT(Sotha_M_R_Light1)
+	SCPT(Sotha_M_R_Light2)
+	SCPT(Sotha_M_R_Light3)
+	SCPT(Sotha_MachineContain1)
+	SCPT(Sotha_MachineContain2)
+	SCPT(Sotha_MachineContain3)
+	SCPT(Sotha_MachineCurer)
+	SCPT(Sotha_MachineReset_Core)
+	SCPT(Sotha_MachineReset_Gears)
+	SCPT(Sotha_MachineReset_Main)
+	SCPT(Sotha_MachineReset_Welding)
+	SCPT(Sotha_MachineReset_switch)
+	SCPT(Sotha_PanelRaiseScript1)
+	SCPT(Sotha_Puzzle1)
+	SCPT(Sotha_Puzzle_Blue1)
+	SCPT(Sotha_Puzzle_Blue2)
+	SCPT(Sotha_Puzzle_Blue3)
+	SCPT(Sotha_Puzzle_Blue4)
+	SCPT(Sotha_Puzzle_Green1)
+	SCPT(Sotha_Puzzle_Green2)
+	SCPT(Sotha_Puzzle_Green3)
+	SCPT(Sotha_Puzzle_Green4)
+	SCPT(Sotha_Puzzle_Red1)
+	SCPT(Sotha_Puzzle_Red2)
+	SCPT(Sotha_Puzzle_Red3)
+	SCPT(Sotha_Puzzle_Red4)
+	SCPT(Sotha_Puzzle_part1)
+	SCPT(Sotha_Puzzle_part2)
+	SCPT(Sotha_Puzzle_part3)
+	SCPT(Sotha_Puzzle_part4)
+	SCPT(Sotha_SewerDoorLock)
+	SCPT(Sotha_Time_G1)
+	SCPT(Sotha_Time_G2)
+	SCPT(Sotha_Time_G3)
+	SCPT(Sotha_Time_G4)
+	SCPT(Sotha_Time_L1)
+	SCPT(Sotha_Time_L2)
+	SCPT(Sotha_Time_R1)
+	SCPT(Sotha_Time_R2)
+	SCPT(Sotha_Time_R3)
+	SCPT(Sotha_Time_R4)
+	SCPT(Sotha_TrapBladeScript)
+	SCPT(Sotha_TrapScript2)
+	SCPT(Sotha_TrashPuzzle1)
+	SCPT(Sotha_TrashPuzzle2)
+	SCPT(Sotha_TrashPuzzle3)
+	SCPT(Sotha_assassindead)
+	SCPT(Sotha_breakglass1)
+	SCPT(Sotha_breakglass2)
+	SCPT(Sotha_bridgemove)
+	SCPT(Sotha_clockvillainloot)
+	SCPT(Sotha_farmerdisable)
+	SCPT(Sotha_forcegreet)
+	SCPT(Sotha_hangedmove)
+	SCPT(Sotha_jumpcontrol)
+	SCPT(Sotha_lightscript1)
+	SCPT(Sotha_lightscript2)
+	SCPT(Sotha_lightscript3)
+	SCPT(Sotha_lightscript4)
+	SCPT(Sotha_minequartz)
+	SCPT(Sotha_music)
+	SCPT(Sotha_music2)
+	SCPT(Sotha_music3)
+	SCPT(Sotha_music4)
+	SCPT(Sotha_music5)
+	SCPT(Sotha_music6)
+	SCPT(Sotha_music7)
+	SCPT(Sotha_music8)
+	SCPT(Sotha_music9)
+	SCPT(Sotha_music_City)
+	SCPT(Sotha_nerescript1)
+	SCPT(Sotha_nerescript2)
+	SCPT(Sotha_nerevar_greet)
+	SCPT(Sotha_panelmove1)
+	SCPT(Sotha_panelmove2)
+	SCPT(Sotha_planetscript1)
+	SCPT(Sotha_planetscript2)
+	SCPT(Sotha_planetscript3)
+	SCPT(Sotha_portalactivate)
+	SCPT(Sotha_secretdooropen)
+	SCPT(Sotha_sehtlegsscript)
+	SCPT(Sotha_skeleattack)
+	SCPT(Sotha_travelhusbadscript)
+	SCPT(Sotha_unlockdisplay1)
+	SCPT(Sotha_unlockdisplay2)
+	SCPT(Sotha_unlockdisplay3)
+	SCPT(Sotha_unlockdisplay4)
+	SCPT(Sotha_watchprocess)
+	SCPT(Sound_SothaAmbient2)
+	SCPT(Sound_SothaFactory1)
+	SCPT(Sound_SothaFactory2)
+	SCPT(Sound_SothaFactory3)
+	SCPT(Sound_SothaStatic)
+	SCPT(TribunalMain)
+	SCPT(_1hoa_company)
+	SCPT(_1hoa_daedric)
+	SCPT(_1hoa_dagoth)
+	SCPT(_1hoa_fame)
+	SCPT(_1hoa_fighters)
+	SCPT(_1hoa_gold)
+	SCPT(_1hoa_hircine)
+	SCPT(_1hoa_house_T)
+	SCPT(_1hoa_house_h)
+	SCPT(_1hoa_house_r)
+	SCPT(_1hoa_legion)
+	SCPT(_1hoa_mages)
+	SCPT(_1hoa_sothasil)
+	SCPT(_1hoa_temple)
+	SCPT(_1hoa_thieves)
+	SCPT(_1hoa_tong)
+	SCPT(_2_mazedbandEnd_Script)
+	SCPT(_Imp_VaultOpen1)
+	SCPT(_Imp_VaultOpen2)
+	SCPT(__Sotha_fabricant_Gardender)
+	SCPT(__Sotha_fabricanttemp)
+	SCPT(__Sotha_fabricanttemp_ARMS)
+	SCPT(__Sotha_fabricanttemp_GUIDE)
+	SCPT(__Sotha_fabricanttemp_MUT)
+	SCPT(__Sotha_fabricanttemp_NOINIT)
+	SCPT(__Sotha_fabricanttemp_RIOT)
+	SCPT(__Sotha_fabricanttemp_TEMPLE)
+	SCPT(____sotha_slumsNPCtemplate)
+	SCPT(____sotha_slumsNPCtemplateNONT)
+	SCPT(__sotha_hightemp)
+	SCPT(_alma_deathlight)
+	SCPT(_alma_deathlight2)
+	SCPT(_catacombmodule)
+	SCPT(_fyr_door1)
+	SCPT(_fyr_door10)
+	SCPT(_fyr_door11)
+	SCPT(_fyr_door12)
+	SCPT(_fyr_door13)
+	SCPT(_fyr_door14)
+	SCPT(_fyr_door2)
+	SCPT(_fyr_door3)
+	SCPT(_fyr_door4)
+	SCPT(_fyr_door5)
+	SCPT(_fyr_door6)
+	SCPT(_fyr_door7)
+	SCPT(_fyr_door8)
+	SCPT(_fyr_door9)
+	SCPT(_imp_containlaser)
+	SCPT(_imp_containlaser2)
+	SCPT(_imp_deathcounter)
+	SCPT(_imp_explode)
+	SCPT(_imp_explode2)
+	SCPT(_imp_explode3)
+	SCPT(_imp_explode4)
+	SCPT(_imp_explode5)
+	SCPT(_imp_explode6)
+	SCPT(_imp_lightstage)
+	SCPT(_imp_marker)
+	SCPT(_imp_shield1)
+	SCPT(_imp_shield2)
+	SCPT(_imp_shield3)
+	SCPT(_impoil_rotate1)
+	SCPT(_impoil_rotate2)
+	SCPT(_impoil_rotate3)
+	SCPT(_impoil_rotate4)
+	SCPT(_pocket_explode)
+	SCPT(_pocket_fightmodule)
+	SCPT(_pocket_linecontrol)
+	SCPT(_power_deactivate_watchman)
+	SCPT(_power_door)
+	SCPT(_power_explode1)
+	SCPT(_power_explode2)
+	SCPT(_power_fabenable)
+	SCPT(_power_fabenable2)
+	SCPT(_power_notconvinced)
+	SCPT(_power_questexplode1)
+	SCPT(_power_questexplode2)
+	SCPT(_power_questexplode3)
+	SCPT(_power_radiation)
+	SCPT(_power_watchmandoor)
+	SCPT(_riot_enable)
+	SCPT(_riot_firstscript)
+	SCPT(_riot_fourthscript_1)
+	SCPT(_riot_fourthscript_2)
+	SCPT(_riot_secondscript_1)
+	SCPT(_riot_secondscript_2)
+	SCPT(_riot_thirdscript_1)
+	SCPT(_riot_thirdscript_2)
+	SCPT(_scene_move)
+	SCPT(_tree_controlmodule)
+	SCPT(_tree_enable)
+	SCPT(_tree_flowblock)
+	SCPT(_tree_inspect)
+	SCPT(_tree_lever1)
+	SCPT(_tree_trackcant)
+	SCPT(_war_crate)
+	SCPT(_war_forcegreet)
+	SCPT(_war_getknockedout)
+	SCPT(_war_light)
+	SCPT(_war_machine)
+	SCPT(_war_pamphletenable)
+	SCPT(deactivation)
+	SCPT(deactivation_watch)
+	SCPT(fyr_enchantspeak)
+	SCPT(fyr_fabpseak)
+	SCPT(fyr_portalscript)
+	SCPT(fyr_portalscript1)
+	SCPT(fyr_portalscript2)
+	SCPT(fyr_repairspeak)
+	SCPT(fyr_roomMonitor)
+	SCPT(fyr_spawnatronach)
+	SCPT(fyr_speak1)
+	SCPT(fyr_speak2)
+	SCPT(fyr_speak3)
+	SCPT(garden_overgrown1)
+	SCPT(mazedbandEnd_Script)
+	SCPT(pocket_cabalscript)
+	SCPT(sotha_SCP1)
+	SCPT(sotha_SCP2)
+	SCPT(sotha_SCP3)
+	SCPT(sotha_SCP4)
+	SCPT(sotha_SCP5)
+	SCPT(sotha_SCP6)
+	SCPT(sotha_SCP7)
+	SCPT(sotha_alarmonlinescript)
+	SCPT(sotha_archspeak)
+	SCPT(sotha_becomewatchman)
+	SCPT(sotha_bonespider)
+	SCPT(sotha_bonestoker)
+	SCPT(sotha_boneton)
+	SCPT(sotha_bonewelder)
+	SCPT(sotha_cart1)
+	SCPT(sotha_cart2)
+	SCPT(sotha_cart3)
+	SCPT(sotha_chronodisable)
+	SCPT(sotha_chronoscript)
+	SCPT(sotha_clocktowernotes)
+	SCPT(sotha_clocktowerteleport)
+	SCPT(sotha_clocktowerteleport2)
+	SCPT(sotha_containmentdeactivate1)
+	SCPT(sotha_containmentdeactivate2)
+	SCPT(sotha_containmentdeactivate3)
+	SCPT(sotha_containmentdeactivate4)
+	SCPT(sotha_containmentdeactivate5)
+	SCPT(sotha_cuttingspherescript)
+	SCPT(sotha_displaydisable1)
+	SCPT(sotha_displaydisable2)
+	SCPT(sotha_displaydisable3)
+	SCPT(sotha_displaydisable4)
+	SCPT(sotha_dontkillzombies)
+	SCPT(sotha_elderscrollscript)
+	SCPT(sotha_famercontain1)
+	SCPT(sotha_famercontain2)
+	SCPT(sotha_fightdoordisable)
+	SCPT(sotha_fightdoorenable)
+	SCPT(sotha_fightringdeath)
+	SCPT(sotha_fightringdeath2)
+	SCPT(sotha_fightringkill)
+	SCPT(sotha_fireworkplace)
+	SCPT(sotha_freefabricants)
+	SCPT(sotha_hangspeak)
+	SCPT(sotha_husbandenable)
+	SCPT(sotha_imperfectionscript1)
+	SCPT(sotha_imperfectionscript2)
+	SCPT(sotha_imperfectionscript3)
+	SCPT(sotha_imperfectionscript4)
+	SCPT(sotha_jailscript)
+	SCPT(sotha_judgespeak)
+	SCPT(sotha_knockWatchman)
+	SCPT(sotha_knockhimoutscript)
+	SCPT(sotha_labspeak)
+	SCPT(sotha_left4dead)
+	SCPT(sotha_lichscript)
+	SCPT(sotha_lighstate)
+	SCPT(sotha_machine1)
+	SCPT(sotha_mazeattack)
+	SCPT(sotha_measurebarrel)
+	SCPT(sotha_miriscript1)
+	SCPT(sotha_miriscript2)
+	SCPT(sotha_miriscript3)
+	SCPT(sotha_mithasanvil)
+	SCPT(sotha_numinarloot)
+	SCPT(sotha_openfabdoors)
+	SCPT(sotha_orgnum)
+	SCPT(sotha_passagescript)
+	SCPT(sotha_powerfound)
+	SCPT(sotha_rewound)
+	SCPT(sotha_rewound_unique)
+	SCPT(sotha_rewound_unique2)
+	SCPT(sotha_scrollwriter)
+	SCPT(sotha_secretlevelscript1)
+	SCPT(sotha_secretlevelscript2)
+	SCPT(sotha_secretlevelscript3)
+	SCPT(sotha_serverspeak)
+	SCPT(sotha_shrinescript)
+	SCPT(sotha_slumdoor)
+	SCPT(sotha_slumsfire)
+	SCPT(sotha_treespeak)
+	SCPT(sotha_undead)
+	SCPT(sotha_undead2)
+	SCPT(sotha_underdoorscript)
+	SCPT(sotha_vendingmachinescript)
+	SCPT(sotha_vivecdeathscript)
+	SCPT(sotha_walltate1)
+	SCPT(sotha_walltate2)
+	SCPT(sotha_walltate3)
+	SCPT(sotha_walltate3_m)
+	SCPT(sotha_watchgate)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	door_load_darkness00                 passageScript
+	door_sotha_imp_door                  SothaImperfectDoor
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    greeting 8
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    active_de_bedroll
+	bloodmoon.esm       INGR    ingred_wolf_pelt
+	bloodmoon.esm       MISC    misc_com_bottle_01
+	bloodmoon.esm       MISC    misc_com_bottle_05
+	bloodmoon.esm       REPA    repair_prongs
+	gdr_masterfile.esm    LIGH    gdr_dwrv_lcrystal
+	gdr_masterfile.esm    MISC    gdr_dwrv_key_05
+	gdr_masterfile.esm    MISC    gdr_misc_dwrv_spoon2
+	gdr_masterfile.esm    STAT    gdr_dwrv_aship_gblock
+	gdr_masterfile.esm    STAT    gdr_dwrv_aship_prop
+	gdr_masterfile.esm    STAT    gdr_dwrv_aship_wingtube
+	gdr_masterfile.esm    STAT    gdr_dwrv_cistern01
+	gdr_masterfile.esm    STAT    gdr_dwrv_ctrlpanel01
+	gdr_masterfile.esm    STAT    gdr_dwrv_ctrlstool
+	gdr_masterfile.esm    STAT    gdr_dwrv_grate_01
+	gdr_masterfile.esm    STAT    gdr_dwrv_pipe20
+	gdr_masterfile.esm    STAT    gdr_dwrv_platform
+	gdr_masterfile.esm    STAT    gdr_dwrv_shaft30
+	gdr_masterfile.esm    STAT    gdr_dwrv_window
+	morrowind.esm       ACTI    act_crystal_02_pulse
+	morrowind.esm       ACTI    ex_vivec_waterfall_01
+	morrowind.esm       ACTI    ex_waterfall_mist_s_01
+	morrowind.esm       ACTI    furn_shrine_aralor_cure_01
+	morrowind.esm       ACTI    furn_shrine_seryn_cure_01
+	morrowind.esm       ALCH    potion_comberry_brandy_01
+	morrowind.esm       BODY    b_n_high elf_m_head_01
+	morrowind.esm       CONT    com_closet_01
+	morrowind.esm       CONT    contain_corpse21_mage
+	morrowind.esm       CONT    crate_02_random_pos
+	morrowind.esm       CONT    flora_bc_mushroom_06
+	morrowind.esm       CONT    sack_small_(scale)00
+	morrowind.esm       MISC    misc_de_glass_green_01
+	morrowind.esm       MISC    misc_dwrv_gear00
+	morrowind.esm       STAT    collision wall - inviso!!
+	morrowind.esm       STAT    ex_dwrv_block00
+	morrowind.esm       STAT    ex_dwrv_block10
+	morrowind.esm       STAT    ex_dwrv_block20
+	morrowind.esm       STAT    ex_dwrv_cosmo00
+	morrowind.esm       STAT    ex_dwrv_statue00
+	morrowind.esm       STAT    ex_t_bigroot_01
+	morrowind.esm       STAT    ex_t_root_02
+	morrowind.esm       STAT    ex_t_root_lendsplit
+	morrowind.esm       STAT    ex_vivec_g_r_01
+	morrowind.esm       STAT    furn_de_kegstand
+	morrowind.esm       STAT    furn_de_practice_mat
+	morrowind.esm       STAT    furn_de_rm_winerack
+	morrowind.esm       STAT    furn_de_rug_big_03
+	morrowind.esm       STAT    in_icesheet_01
+	morrowind.esm       STAT    in_lava_blacksquare
+	tribunal.esm        ACTI    act_dwe_cavein00
+	tribunal.esm        ACTI    act_hot_oil_512
+	tribunal.esm        ACTI    act_sotha_clockwork
+	tribunal.esm        ACTI    act_sotha_dicer
+	tribunal.esm        ACTI    act_sotha_door10
+	tribunal.esm        ACTI    act_sotha_door3
+	tribunal.esm        ACTI    act_sotha_gear00
+	tribunal.esm        ACTI    act_sotha_gear01
+	tribunal.esm        ACTI    act_sotha_gear02
+	tribunal.esm        ACTI    act_sotha_gear03
+	tribunal.esm        ACTI    act_sotha_lever10a
+	tribunal.esm        ACTI    act_sotha_lever10b
+	tribunal.esm        ACTI    act_sotha_lever1a
+	tribunal.esm        ACTI    act_sotha_lever2a
+	tribunal.esm        ACTI    act_sotha_lever_bridge
+	tribunal.esm        ACTI    act_sotha_long_gear00
+	tribunal.esm        ACTI    act_sotha_long_gear01
+	tribunal.esm        ACTI    act_sotha_long_gear02
+	tribunal.esm        ACTI    act_sotha_long_gear03
+	tribunal.esm        ACTI    act_sotha_monster1
+	tribunal.esm        ACTI    act_sotha_monster2
+	tribunal.esm        ACTI    act_sotha_powertubes
+	tribunal.esm        ACTI    act_sotha_tenderizer
+	tribunal.esm        ACTI    ex_vivec_waterfall_05
+	tribunal.esm        ACTI    ex_waterfall_mist_01
+	tribunal.esm        ACTI    in_om_waterfall
+	tribunal.esm        ACTI    sound_sotha_amb
+	tribunal.esm        ALCH    p_dwemer_lubricant00
+	tribunal.esm        BOOK    bk_alchemistsformulary
+	tribunal.esm        CLOT    mazed_band_end
+	tribunal.esm        DOOR    door_load_darkness00
+	tribunal.esm        DOOR    door_sotha_imp_door
+	tribunal.esm        DOOR    door_sotha_load
+	tribunal.esm        DOOR    door_sotha_mach_door2
+	tribunal.esm        DOOR    door_sotha_pre_load
+	tribunal.esm        LIGH    light_sotha_lantern
+	tribunal.esm        LIGH    light_sotha_sparks
+	tribunal.esm        LIGH    light_sotha_sparks_hi
+	tribunal.esm        MISC    dwemer_satchel00
+	tribunal.esm        SCPT    TribunalMain
+	tribunal.esm        STAT    broken_imperfect
+	tribunal.esm        STAT    flora_grass_05
+	tribunal.esm        STAT    flora_grass_06
+	tribunal.esm        STAT    furn_planter_mh_01
+	tribunal.esm        STAT    furn_planter_mh_02
+	tribunal.esm        STAT    furn_planter_mh_04
+	tribunal.esm        STAT    in_om_casket
+	tribunal.esm        STAT    in_om_skullpile
+	tribunal.esm        STAT    in_sotha_altar00
+	tribunal.esm        STAT    in_sotha_bladeroom
+	tribunal.esm        STAT    in_sotha_corr2_01
+	tribunal.esm        STAT    in_sotha_corr4_00
+	tribunal.esm        STAT    in_sotha_corr_dj00
+	tribunal.esm        STAT    in_sotha_corr_wall00
+	tribunal.esm        STAT    in_sotha_dome00
+	tribunal.esm        STAT    in_sotha_doorjam00
+	tribunal.esm        STAT    in_sotha_dorjam_oil00
+	tribunal.esm        STAT    in_sotha_gear00
+	tribunal.esm        STAT    in_sotha_gear01
+	tribunal.esm        STAT    in_sotha_gear02
+	tribunal.esm        STAT    in_sotha_gear03
+	tribunal.esm        STAT    in_sotha_lab00
+	tribunal.esm        STAT    in_sotha_lab_panel00
+	tribunal.esm        STAT    in_sotha_mon_mach
+	tribunal.esm        STAT    in_sotha_pillars01
+	tribunal.esm        STAT    in_sotha_plank_oil00
+	tribunal.esm        STAT    in_sotha_pre2_02
+	tribunal.esm        STAT    in_sotha_pre2_wall00
+	tribunal.esm        STAT    in_sotha_pre4_00
+	tribunal.esm        STAT    in_sotha_pre_arch00
+	tribunal.esm        STAT    in_sotha_pre_load
+	tribunal.esm        STAT    in_sotha_resistor00
+	tribunal.esm        STAT    in_sotha_spiral_stair
+	tribunal.esm        STAT    in_sotha_stairs00
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    booze
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       SNDG    
+	gdr_masterfile.esm    LIGH    gdr_dwrv_lfloorlamp
+	morrowind.esm       DIAL    dwemer
+	morrowind.esm       DIAL    help me
+	morrowind.esm       DIAL    nerevar
+	morrowind.esm       DIAL    ring
+	morrowind.esm       DIAL    temple
+	morrowind.esm       NPC_    dralasa nithryon
+	tribunal.esm        ACTI    act_sotha_green00
+	tribunal.esm        ACTI    act_sotha_green10
+	tribunal.esm        ACTI    sound_sotha_sparks
+	tribunal.esm        CREA    imperfect
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    busy
+	tribunal.esm        DIAL    clockwork city
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    sotha sil
+	tribunal.esm        DIAL    tr_sothasil
+	tribunal.esm        DIAL    unstable
+	tribunal.esm        PGRD    sotha sil, dome of sotha sil
+	tribunal.esm        SNDG    imperfect0000
+	tribunal.esm        SNDG    imperfect0001
+	tribunal.esm        SOUN    fabbossleft
+	tribunal.esm        SOUN    fabbossright
+	tribunal.esm        SOUN    sothaambient
+
+[DUP-INF]: ID=1453930628980165(Topic:unstable)
+  |DATA|NAME:Once, Sotha Sil was like we are, the Lord Vivec and I. He spent time among these mortals, instructing them, counseling them, protecting them from harm. He may have loved them more than any of us, though I know not why. It has been many years since any have seen the Sorcerer, though. Many more since he took initiates into his service. I believe he grew weary of mortal imperfections, and retired to his Clockwork City, where he reshapes life, and some say the very world, into an image he finds pleasing.
+
+[DUP-INF]: ID=1709302711210241(Voice:hello)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you
+
+[DUP-INF]: ID=15917326493337369(Greeting:greeting 8)
+  |DATA|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 12000
+
+[DUP-INF]: ID=23739682074468576(Topic:clockwork city)
+  |DATA|NAME:His lair is as puzzling as the mind of the Sorcerer himself. Ever-moving, ever-changing, its levers and gears responding to its master's will alone. It is here he performs his profane experiments, aided by his magic and tainted by his madness.
+
+[DUP-INF]: ID=120064012167910859(Topic:solstheim)
+  |DATA|ANAM:Skaal Village|NAME:This is the island of Solstheim, a jewel of an island and home to the Skaal. We settled here many generations ago.
+
+[MOD-INF]: ID=121229930197212643(Journal:tr_sothasil)
+  tribunal.esm--------------->|DATA|NAME:I have been transported to Sotha Sil's Clockwork City.
+  Sotha Sil Expanded (3).ESP->|DATA|NAME:I have been transported to Sotha Sil's Clockwork City.|QSTF
+
+[DUP-INF]: ID=295869692980324969(Topic:sotha sil)
+  |DATA|ONAM:gavas drin|NAME:The Lord Sotha Sil is a great mage and a member of the Blessed Tribunal. He lives in his Clockwork City, and is rarely seen in Morrowind.
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[MOD-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  tribunal.esm--------------->|DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+  Sotha Sil Expanded (3).ESP->|DATA|ONAM:gindrala hleran|NAME:Pardon me, but there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[MOD-INF]: ID=1470721697254192970(Topic:little advice)
+  bloodmoon.esm-------------->|DATA|ONAM:svenja_outside|NAME:Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't...something inside waiting for you. Be ready for a fight.
+  Sotha Sil Expanded (3).ESP->|DATA|ONAM:svenja_outside|NAME:Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't something inside waiting for you. Be ready for a fight.
+
+[DUP-INF]: ID=1619018371671630615(Topic:help me)
+  |DATA|ONAM:bugrol gro-bagul|NAME:Hey, you got my note, so go! Don't want to stay out here all day. No fun to sleep on rocks.|SCVR:04JX0MV_Bugrol|INTV
+
+[DUP-INF]: ID=1958550751691917436(Topic:dwemer)
+  |DATA|ONAM:hasphat antabolis|NAME:The Dwemer are the fabled lost Dwarven race whose ruins and splendid artifacts are scattered across Tamriel. Elves use the term "Dwemer," connoting variously "deep-delving," "profound," and "close-counseled"; Imperial usage is "Dwarven," derived in fable from the affectionate regard of the Giant races for their "little" Dwemer friends. There are several Dwemer sites on Vvardenfell, and many have found Dwemer artifacts.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=3137517782452216666(Greeting:greeting 4)
+  |DATA|ANAM:Raven Rock|NAME:You've got the corprus! There's no cure for that, is there?|SCVR:01580|INTV
+
+[DUP-INF]: ID=3748250542379720869(Topic:business)
+  |DATA|ONAM:Dovor Oren|NAME:It's no concern of yours, %PCRace.|SCVR:04JX3MS_Warlords|INTV
+
+[DUP-INF]: ID=10383195842825314349(Topic:little secret)
+  |DATA|ONAM:svenja_outside|NAME:The name of the wolf that killed Hrothmund is "Ondjage." You'll need to say his name to enter Hrothmund's Barrow. Say any other name and you'll NEVER be able to get in!
+
+[DUP-INF]: ID=10819118262520816930(Voice:attack)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;this prevents werewolves from talking to you in combat
+
+[DUP-INF]: ID=10924273023043113826(Topic:my trade)
+  |DATA|ONAM:erich the unworthy|NAME:I'm a lover and a killer. What more is there in life?
+
+[DUP-INF]: ID=16157265272999626462(Topic:busy)
+  |DATA|ONAM:Marena Gilnith|NAME:There's so much to do.  I don't mean to complain, but I never have enough free time.  And all I really wanted to do when I came to Mournhold was to meet someone new...|SCVR:04JX0MS_MatchMaker|INTV:|BNAM:Journal MS_MatchMaker 10
+
+[DUP-INF]: ID=19082137452685917367(Topic:booze)
+  |DATA|ONAM:falx carius|NAME:I'm not a drinker myself.
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=25042165042180828560(Topic:temple)
+  |DATA|ONAM:caius cosades|NAME:The Tribunal Temple is the native religion. They worship three God-Kings, Almalexia, Sotha Sil, and Vivec, who are known together as the Tribunal. We usually just call it 'The Temple.' They're narrow-minded and superstitious, but I find a lot to admire -- particularly their concern for the poor. They accept outlanders as members, but few outlanders join except for the services. Talk to Feldrelo Sadri at the Balmora Temple if you're thinking about joining.|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[DUP-INF]: ID=27372153532436318414(Topic:nerevar)
+  |DATA|ONAM:gilvas barelo|NAME:I hope you find the books useful.|SCVR:04JX3A2_4_MiloGone_books|INTV

@@ -1,0 +1,154 @@
+The Ronin - Light Armor.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(OisynJournal)
+	SCPT(OisynKill)
+	SCPT(PCSignScript)
+	SCPT(moveOisyn)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    exile
+	bloodmoon.esm       REPA    hammer_repair
+	bloodmoon.esm       REPA    repair_prongs
+	morrowind.esm       ARMO    heavy_leather_boots
+	morrowind.esm       CONT    com_chest_02_v_armor02
+	morrowind.esm       CONT    test_crate_all_weapons
+	morrowind.esm       DIAL    false incarnate
+	morrowind.esm       DIAL    house indoril
+	morrowind.esm       DIAL    nerevar
+	morrowind.esm       DIAL    services and hospitality
+	morrowind.esm       LEVI    l_n_armor_helmet
+	morrowind.esm       LEVI    random ebony weapon
+	morrowind.esm       LEVI    random excellent melee weapon
+	morrowind.esm       LEVI    random_armor_netch_leather
+	morrowind.esm       LEVI    random_golden_saint_weapon
+	morrowind.esm       NPC_    dranos sandus
+	morrowind.esm       NPC_    lanabi
+	morrowind.esm       NPC_    madsu dreth
+	morrowind.esm       NPC_    ulves marvel
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    dissident priests
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    someone in particular
+
+[DUP-INF]: ID=98417052332465(Topic:false incarnate)
+  |DATA|ONAM:elvil vidron|NAME:You... The vision... The Moon-and-Star! It was you, not I. Forgive me, Nerevar, forgive! I meant only to prepare the way.|SCVR:01500|INTV|BNAM:Journal TT_Compassion 55
+
+[DUP-INF]: ID=13928406931728625(Topic:false incarnate)
+  |DATA|ONAM:sharn gra-muzgob|NAME:The Temple refers to any demented impostor who claims to be the Nerevarine as "the False Incarnate". The Temple treats such persons as insane, and Ordinators pursue and imprison them "for their own protection." The Temple has reported that the most recent False Incarnate, a girl child named Peakstar, has died, but they've produced no body, and skeptics are suspicious of Temple claims.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+
+[DUP-INF]: ID=16166129550895167(Topic:house indoril)
+  |DATA|ONAM:artisa arelas|NAME:House Indoril is one of the five Dunmer Great Houses, and one of the two houses without holdings or interest in Vvardenfell. The city of Almalexia is located in Indoril District, and the Indoril are orthodox and conservative supporters of the Temple and Temple authority. House Indoril is openly hostile to Imperial culture and religion, and preserves many traditional Dunmer customs and practices in defiance of Imperial law.|BNAM:;noble; savant; bard; bookseller;
+
+[DUP-INF]: ID=119292668938188446(Topic:latest rumors)
+  |DATA|ONAM:ashumanu eraishah|NAME:Well, I don't know if anyone else has seen him, but I saw some crazy guy wandering around the hills east of here recently. He was all decked out in armor and waving his sword, mumbling about there being no one to challenge him. I'd steer clear, stranger.|SCVR:04JX0MS_Umbra|INTV:|BNAM:Journal "MS_Umbra" 10
+
+[DUP-INF]: ID=123815797508925651(Topic:latest rumors)
+  |DATA|CNAM:Dreamers|NAME:It is not a rumor. It is the truth. Lord Dagoth, Dagoth Ur, Lord of the Sixth House, and Savior of the Dunmer people, has awakened. And with him shall all sleepers awaken, and Morrowind shall be cleansed of the stain of false gods and foreign rule.|SCVR:04JX4C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=141872093629788086(Topic:dissident priests)
+  |DATA|ONAM:mehra milo|NAME:The Dissident priests dispute Temple doctrine, and are outlawed and persecuted by the Temple. Ordinators arrest and imprison heretics, and the Empire cannot interfere. 'Progress of Truth' lists their beliefs. In brief, they challenge the purity and divinity of the Tribunal, suggesting their powers are sorcerous, not divine, and perhaps akin to the powers of Dagoth Ur. They also condemn the arbitrary power of the Ordinators, and accuse the Temple hierarchy of self-interest and corruption.|SCVR:04JX3A1_10_MehraMilo|INTV|SCVR:14JX4A2_4_MiloGone|INTV|BNAM:;Mehra Milo
+
+[MOD-INF]: ID=161778139520817330(Topic:false incarnate)
+  morrowind.esm--------------->|DATA|ONAM:elvil vidron|NAME:Who then, if not myself? You?! Before you make such claims, you must find a way to convince me.|SCVR:01500|INTV|BNAM:ModDisposition -5  Goodbye
+  The Ronin - Light Armor.ESP->|DATA|ONAM:indoril ronin|NAME:Who then, if not myself? You?! Before you make such claims, you must find a way to convince me.|SCVR:01500|INTV|BNAM:ModDisposition -5  Goodbye
+
+[DUP-INF]: ID=197862879897432133(Topic:latest rumors)
+  |DATA|ANAM:Vivec|NAME:Crassius Curio is quite a patron of the arts. He commissioned some artists to do a mural for him, and I heard that he has written a new play, and would like to have it performed.|SCVR:04JX2EB_Actor|INTV: |SCVR:14JX4EB_Actor|INTV:F|SCVR:2CsX0NoLore|INTV:
+
+[DUP-INF]: ID=236862164823713248(Topic:nerevarine)
+  |DATA|FNAM:Hlaalu|NAME:Welcome back, Nerevarine. And thank you for all you have done. Your name and deeds are on everyone's lips. Tell me... did you find much treasure on Red Mountain?|SCVR:14JX3C3_DestroyDagoth|INTV:2|SCVR:2CsX0NoLore|INTV:
+
+[DUP-INF]: ID=313921700382721226(Topic:nerevarine)
+  |DATA|FNAM:Redoran|NAME:Everything is changed. Now the Temple says you are the Incarnate and Nerevarine of prophecy. It takes some getting used to. But our hopes and prayers go with you to Red Mountain.|SCVR:04JX3B8_MeetVivec|INTV:2|SCVR:14JX4C3_DestroyDagoth|INTV:2|SCVR:2CsX0NoLore|INTV:
+
+[DUP-INF]: ID=495518295322716947(Greeting:greeting 7)
+  |DATA|ONAM:thaeril|NAME:Good day. I'm Thaeril, publican of The Covenant here in Tel Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Thaeril
+
+[MOD-INF]: ID=1010424767218039373(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|NAME:Everyone's saying you've got a price on your head. Some people are going to start looking at your skin like it might be a handy way to pay off a few debts.|SCVR:01433|INTV|SCVR:1BLX0Cavern of the Incarnate|INTV|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV
+  The Ronin - Light Armor.ESP->|DATA|NAME:Everyone's saying you've got a price on your head. Some people are going to start looking at your skin like it might be a handy way to pay off a few debts.|SCVR:01433|INTV|SCVR:1BLX0Cavern of the Incarnate|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV
+
+[DUP-INF]: ID=1189627307603725440(Topic:false incarnate)
+  |DATA|ONAM:elvil vidron|NAME:You disbelieve? I know my destiny. And you will have a hard time proving otherwise. I have seen the message in the dream. Have you not also experienced the waking dream?|SCVR:05IX2moon_and_star|INTV:|SCVR:34JX3TT_FalseIncarnate|INTV: |BNAM:Choice "I don't know what you're talking about." 1 "Yes. But you are not the one I envisioned." 2 "Show him the Moon-and-Star ring" 3
+
+[DUP-INF]: ID=1294929929145704464(Topic:false incarnate)
+  |DATA|ONAM:elvil vidron|NAME:You disbelieve? I know my destiny. And you will have a hard time proving otherwise. I have seen the message in the dream. Have you not also experienced the waking dream?|SCVR:34JX3TT_FalseIncarnate|INTV: |BNAM:Choice "I don't know what you're talking about." 1 "Yes. But you are not the one I envisioned." 2
+
+[MOD-INF]: ID=1452824297219661921(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|ANAM:Balmora|NAME:People don't realize how deeply the Dark Elves resent the Occupation. The real powers behind the Hlaalu council, Orvas Dren and his Camonna Tong syndicate, nurse those ancient resentments. They haven't a chance of challenging Imperial authority now, but if the stability of the Empire were threatened -- for example, if the legions were recalled because of some problem with the Septim succession -- Dren and the Tong might move openly to drive the Imperials out of Morrowind.|SCVR:0ARX0Dark Elf|INTV|SCVR:12sX4Random100|INTV:K|SCVR:2CsX0nolore|INTV
+  The Ronin - Light Armor.ESP->|DATA|ANAM:Balmora|NAME:People don't realize how deeply the Dark Elves resent the Occupation. The real powers behind the Hlaalu council, Orvas Dren and his Camonna Tong syndicate, nurse those ancient resentments. They haven't a chance of challenging Imperial authority now, but if the stability of the Empire were threatened -- for example, if the legions were recalled because of some problem with the Septim succession -- Dren and the Tong might move openly to drive the Imperials out of Morrowind.|SCVR:0ARX0Dark Elf|INTV|SCVR:12sX4Random100|INTV:K|SCVR:2CsX0NoLore|INTV
+
+[DUP-INF]: ID=1707111432143424827(Topic:background)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:I am %name. I was called to the prophecies, but I was not the one.|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=2122632088405013352(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|RNAM:Dark Elf|NAME:Have you noticed, for all its proclamations about protecting the rights of property and preserving law and order, the Imperial legion does little enough to capture and prosecute abolitionists? That's a bit hypocritical, don't you think?|SCVR:0CsX0nolore|INTV:
+  The Ronin - Light Armor.ESP->|DATA|RNAM:Dark Elf|NAME:Have you noticed, for all its proclamations about protecting the rights of property and preserving law and order, the Imperial legion does little enough to capture and prosecute abolitionists? That's a bit hypocritical, don't you think?|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=2189921308247030029(Topic:latest rumors)
+  |DATA|ANAM:Vivec, Foreign Quarter|NAME:I've heard that Balen Andrano over in the Redoran section has had a real tough time lately. He's losing a lot of business.|SCVR:04JX0EB_Bone|INTV:|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2285569511578711146(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|NAME:I hear you're in a little trouble with the law. Why don't you pay the magistrate? You know you owe it. Why don't you pay it?|SCVR:01433|INTV:d|SCVR:1BLX0Cavern of the Incarnate|INTV|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV
+  The Ronin - Light Armor.ESP->|DATA|NAME:I hear you're in a little trouble with the law. Why don't you pay the magistrate? You know you owe it. Why don't you pay it?|SCVR:01433|INTV:d|SCVR:1BLX0Cavern of the Incarnate|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV
+
+[MOD-INF]: ID=2322237471579918257(Topic:false incarnate)
+  morrowind.esm--------------->|DATA|ONAM:elvil vidron|NAME:Yes, Nerevar. I see clearly now. I shall repent at the Temple and preach in your name.|SCVR:34JX3TT_FalseIncarnate|INTV:7|SCVR:44JX3A2_6_Incarnate|INTV:2
+  The Ronin - Light Armor.ESP->|DATA|ONAM:indoril ronin|NAME:Yes, %PCName. You have elucidated the truth. I shall seek fulfillment among the Dissident priests.|SCVR:34JX30E_The_Ronin|INTV
+
+[MOD-INF]: ID=2322237471579918257(Topic:false incarnate)
+  morrowind.esm--------------->|DATA|ONAM:elvil vidron|NAME:Yes, Nerevar. I see clearly now. I shall repent at the Temple and preach in your name.|SCVR:34JX3TT_FalseIncarnate|INTV:7|SCVR:44JX3A2_6_Incarnate|INTV:2
+  The Ronin - Light Armor.ESP->|DATA|ONAM:indoril ronin|NAME:Yes, %PCName. You have elucidated the truth. I shall seek fulfillment among the Dissident priests.|SCVR:34JX30E_The_Ronin|INTV
+[MOD-IID]: ID=10355285661873612985
+  The Ronin - Light Armor.ESP->Yes, Nerevar. I see clearly now. I shall repent at the Temple and preach in your name.
+
+[DUP-INF]: ID=2334490831858019154(Topic:false incarnate)
+  |DATA|ONAM:elvil vidron|NAME:I have seen the error of my ways, %PCName. Your wisdom has guided me through this most disturbing time.|SCVR:34JX3TT_FalseIncarnate|INTV:2
+
+[DUP-INF]: ID=2412518277342713616(Topic:services and hospitality)
+  |DATA|ANAM:Holamayan Monastery|NAME:You're welcome to rest in our beds. Speak with the others here, and you may find they can be of service in various ways.|BNAM:;Holamayan; Holamayan Monastery;
+
+[MOD-INF]: ID=2943523480103622571(Topic:false incarnate)
+  morrowind.esm--------------->|DATA|ONAM:elvil vidron|NAME:I pity you, unbeliever. You will be swept away like ash before the storm.|SCVR:01500|INTV|BNAM:ModDisposition -5  Goodbye
+  The Ronin - Light Armor.ESP->|DATA|ONAM:indoril ronin|NAME:So you are a denialist? Foolish pawn, you'd make great fodder for the dying Ghostfence.|SCVR:01500|INTV|BNAM:ModDisposition -5  Goodbye
+
+[DUP-INF]: ID=2963712435680719868(Topic:someone in particular)
+  |DATA|ONAM:tsiya|NAME:What do you mean you're looking for me? I don't know you, do I? You say you have a note from Ernil?|SCVR:05IX2bk_notefromernil|INTV:|SCVR:14JX4MV_SkoomaCorpse|INTV: |BNAM:AddTopic "Note From Ernil"
+
+[DUP-INF]: ID=3147028438808011979(Topic:false incarnate)
+  |DATA|ONAM:elvil vidron|NAME:Who then, if not myself? The dreams are unyielding! Every day, every night!  I must be the one.... I must... No, your words are not convincing enough.|SCVR:01500|INTV|BNAM:ModDisposition -5  Goodbye
+
+[MOD-INF]: ID=5694109122576512014(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|ANAM:Balmora|NAME:Well, the Temple has always said that madness is a soul sickness, and a sign of sin. But in the Empire, they say it's just another kind of disease.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;random100 <= 30;
+  The Ronin - Light Armor.ESP->|DATA|ANAM:Balmora|NAME:Well, the Temple has always said that madness is a soul sickness, and a sign of sin. But in the Empire, they say it's just another kind of disease.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;random100 <= 30;
+
+[MOD-INF]: ID=16027228191418416208(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0nolore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+  The Ronin - Light Armor.ESP->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=16325102782849326701(Topic:latest rumors)
+  |DATA|FNAM:Ashlanders|NAME:The skies are clear all over Morrowind? Even on Red Mountain? I cannot believe it.|SCVR:14JX3C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=18942174661163931960(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|ANAM:Balmora|NAME:Everyone knows who really runs House Hlaalu. It's not the councilors. No one sits on that council unless it suits Orvas Dren.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;random100 <= 30;
+  The Ronin - Light Armor.ESP->|DATA|ANAM:Balmora|NAME:Everyone knows who really runs House Hlaalu. It's not the councilors. No one sits on that council unless it suits Orvas Dren.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;random100 <= 30;
+
+[MOD-INF]: ID=23897229372508420148(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|ANAM:Balmora|NAME:Yeah. Right. The Temple SAYS this Peakstar heretic is dead. But did they produce a body? I don't see no body.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:|SCVR:24JX4C3_DestroyDagoth|INTV:2|BNAM:;random100 <= 45;
+  The Ronin - Light Armor.ESP->|DATA|ANAM:Balmora|NAME:Yeah. Right. The Temple SAYS this Peakstar heretic is dead. But did they produce a body? I don't see no body.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:|SCVR:24JX4C3_DestroyDagoth|INTV:2|BNAM:;random100 <= 45;
+
+[MOD-INF]: ID=26600176262558618889(Topic:false incarnate)
+  morrowind.esm--------------->|DATA|ONAM:elvil vidron|NAME:You cannot harm me, pawn of the Temple! Leave before I prove the truth of my prophecies on your flesh!|SCVR:01500|INTV|BNAM:ModDisposition -10  ModFight 10  Goodbye
+  The Ronin - Light Armor.ESP->|DATA|ONAM:indoril ronin|NAME:Vacuous scrib, The Temple has you eating out of their hand! Be gone or feel the incarnate rage of the First Hortator!|SCVR:01500|INTV|BNAM:ModDisposition -10  ModFight 30  Goodbye
+
+[MOD-INF]: ID=27372153532436318414(Topic:nerevar)
+  morrowind.esm--------------->|DATA|ONAM:gilvas barelo|NAME:I hope you find the books useful.|SCVR:04JX3A2_4_MiloGone_books|INTV
+  The Ronin - Light Armor.ESP->|DATA|ONAM:gilvas barelo|ANAM:Abaelun Mine|NAME:I hope you find the books useful.|SCVR:04JX3A2_4_MiloGone_books|INTV
+
+[DUP-INF]: ID=29111316121916220558(Topic:background)
+  |DATA|ONAM:falura llervu|NAME:I am Falura Llervu, bride of the Ashkhan Kaushad of the Zainab Ashlanders.|SCVR:04JX3B3_ZainabBride|INTV:2|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=30883148731781118927(Topic:dissident priests)
+  |DATA|ONAM:mehra milo|NAME:Thanks to you, Vivec has proclaimed an end to the persecution of the Dissident priests. Now we must be patient. It will take time to resolve our conflicts with the Temple hierarchy. Change can only come with mutual trust, and with a renewal of our common purpose.|SCVR:04JX3B8_MeetVivec|INTV:2|BNAM:;Mehra Milo

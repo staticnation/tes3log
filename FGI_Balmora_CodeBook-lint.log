@@ -1,0 +1,67 @@
+FGI_Balmora_CodeBook.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FGI_CodeBookTimer)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    code book
+	tribunal.esm        DIAL    fg_sottilde
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=1161122457513862(Greeting:greeting 5)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:Have you recovered that code book yet? I've been waiting too long for it.|SCVR:04JX3FG_Sottilde|INTV: |SCVR:14JX4FG_Sottilde|INTV:d
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:eydis fire-eye|NAME:Have you recovered that code book yet? I've been waiting too long for it.|SCVR:04JX3FG_Sottilde|INTV: |SCVR:14JX4FG_Sottilde|INTV:d|BNAM:; This entry is dirtied by FGI because some other mod changes the filtering, making it disappear from the game
+
+[MOD-INF]: ID=26462204504029542(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:sottilde|NAME:What, *that* book? I just found it in the street. It's gibberish. Since it can't possibly be of any value to you, why not let me keep it?|SCVR:05IX3bk_sottildescodebook|INTV|BNAM:Choice "Return Book" 1 "Keep Book" 2
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:sottilde|NAME:What, *that* book? I just found it in the street. It's gibberish. Since it can't possibly be of any value to you, why not let me keep it?|SCVR:05IX3bk_sottildescodebook|INTV|SCVR:14JX4FG_Sottilde|INTV:A|BNAM:Choice "Return the code book." 1 "Keep the code book." 2
+
+[DUP-INF]: ID=104192271555732400(Topic:code book)
+  |DATA|ONAM:sottilde|DNAM:Fighters Guild|NAME:Look, you've got the book. Just leave me alone. It won't do you any good, anyway.|SCVR:34JX3FG_Sottilde|INTV:d
+
+[MOD-INF]: ID=113211106899917354(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:sottilde|DNAM:Thieves Guild|NAME:Look, %PCRank, I'll tell you what's going on. This code book has dirt on the Camonna Tong and the skooma trade. As soon as we get it figured out, we take it to the authorities and take over the trade ourselves. The Fighters Guild works for the Camonna Tong since Sjoring Hard-Heart took over. You have to decide where your loyalties lie, %PCRank.|SCVR:34JX3FG_Sottilde|INTV: 
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:sottilde|DNAM:Thieves Guild|NAME:Look, %PCRank, I'll tell you what's going on. This code book has dirt on the Camonna Tong and the skooma trade. As soon as we get it figured out, we take it to the authorities and take over the trade ourselves. The Fighters Guild works for the Camonna Tong since Sjoring Hard-Heart took over. You have to decide where your loyalties lie, %PCRank.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_Sottilde|INTV: 
+
+[MOD-INF]: ID=113211106899917354(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:sottilde|DNAM:Thieves Guild|NAME:Look, %PCRank, I'll tell you what's going on. This code book has dirt on the Camonna Tong and the skooma trade. As soon as we get it figured out, we take it to the authorities and take over the trade ourselves. The Fighters Guild works for the Camonna Tong since Sjoring Hard-Heart took over. You have to decide where your loyalties lie, %PCRank.|SCVR:34JX3FG_Sottilde|INTV: 
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:sottilde|DNAM:Thieves Guild|NAME:Look, %PCRank, I'll tell you what's going on. This code book has dirt on the Camonna Tong and the skooma trade. As soon as we get it figured out, we take it to the authorities and take over the trade ourselves. The Fighters Guild works for the Camonna Tong since Sjoring Hard-Heart took over. You have to decide where your loyalties lie, %PCRank.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_Sottilde|INTV: 
+[MOD-IID]: ID=52314809143478492
+  FGI_Balmora_CodeBook.esp->Look, %PCRank, I'll tell you what's going on. This code book has dirt on the Camonna Tong and the skooma trade. As soon as we get it figured out, we take it to the authorities and take over the trade ourselves. The Fighters Guild works for the Camonna Tong since Sjoring Hard-Heart took over. You have to decide where your loyalties lie, %PCRank.
+
+[MOD-INF]: ID=434787761740226599(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:sottilde|DNAM:Fighters Guild|NAME:Look, you've got the book. Just leave me alone. It won't do you any good, anyway.|SCVR:05IX2bk_sottildescodebook|INTV:|SCVR:34JX3FG_Sottilde|INTV: 
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:sottilde|DNAM:Fighters Guild|NAME:Look, you've got the book. Just leave me alone. It won't do you any good, anyway.|SCVR:05IX2bk_sottildescodebook|INTV:|SCVR:34JX0FG_Sottilde|INTV:2
+
+[MOD-INF]: ID=517217022759528166(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:Since you brought me the Bitter Cup, I'm not working against the Thieves Guild anymore. You have my word.|SCVR:34JX3TG_BitterBribe|INTV:d|SCVR:44JX3FG_RatHunt|INTV:d
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:eydis fire-eye|NAME:Since you brought me the Bitter Cup, I'm not working against the Thieves Guild anymore. You have my word.|SCVR:24JX5TG_BitterBribe|INTV:d|SCVR:34JX3TG_BitterBribe|INTV:2|SCVR:44JX3FG_Egg_Poachers|INTV:d|BNAM:Journal FG_Sottilde 200
+
+[MOD-INF]: ID=517217022759528166(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:Since you brought me the Bitter Cup, I'm not working against the Thieves Guild anymore. You have my word.|SCVR:34JX3TG_BitterBribe|INTV:d|SCVR:44JX3FG_RatHunt|INTV:d
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:eydis fire-eye|NAME:Since you brought me the Bitter Cup, I'm not working against the Thieves Guild anymore. You have my word.|SCVR:24JX5TG_BitterBribe|INTV:d|SCVR:34JX3TG_BitterBribe|INTV:2|SCVR:44JX3FG_Egg_Poachers|INTV:d|BNAM:Journal FG_Sottilde 200
+[MOD-IID]: ID=10874644419023712
+  FGI_Balmora_CodeBook.esp->Since you brought me the Bitter Cup, I'm not working against the Thieves Guild anymore. You have my word.
+
+[MOD-INF]: ID=1378723972228521171(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:You already have the code book? You have good instincts. Well, just hand it over and these 50 septims are yours.|SCVR:05IX3bk_sottildescodebook|INTV|SCVR:34JX0FG_Sottilde|INTV:|BNAM:Choice "Give Code Book" 1 "Keep Code Book" 2
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:You already have the code book? You have good instincts. Well, just hand it over and these 50 septims are yours.|SCVR:05IX3bk_sottildescodebook|INTV|SCVR:34JX0FG_Sottilde|INTV:|BNAM:Choice "Give the code book." 1 "Keep the code book." 2
+
+[MOD-INF]: ID=1903183792713931014(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Here's your 50 Septims, %PCName. The guild needs more like you -- obedient and efficient. If you want more orders, just ask.|SCVR:01500|INTV|BNAM:Player->RemoveItem "bk_SottildesCodeBook" 1  AddItem "bk_SottildesCodeBook" 1  Player->AddItem Gold_001 50  Journal FG_Sottilde 100  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep -10 "Thieves Guild"  ModDisposition 10
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Here's your 50 Septims, %PCName. The guild needs more like you -- obedient and efficient. If you want more orders, just ask.|SCVR:01500|INTV|BNAM:Player->RemoveItem "bk_SottildesCodeBook" 1  Player->AddItem Gold_001 50  Journal FG_Sottilde 100  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep -10 "Thieves Guild"  ModDisposition 10
+
+[MOD-INF]: ID=4061239002998913836(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:sottilde|DNAM:Thieves Guild|NAME:That code book belongs to the Thieves Guild now, %PCName. Put it down, walk away, and I'll forget about this.|SCVR:05IX3bk_sottildescodebook|INTV|BNAM:Choice "Return Book" 1 "Keep Book" 2
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:sottilde|DNAM:Thieves Guild|NAME:That code book belongs to the Thieves Guild now, %PCName. Put it down, walk away, and I'll forget about this.|SCVR:05IX3bk_sottildescodebook|INTV|SCVR:14JX4FG_Sottilde|INTV:A|BNAM:Choice "Return the code book." 1 "Keep the code book." 2
+
+[MOD-INF]: ID=18434310311958528613(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:These orders you've been given seem okay with me. Just try not to kill Sottilde to get that book. I've heard she's a pushover. I'm sure you can convince her to hand it over.
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:These orders you've been given seem okay with me. Just try not to kill Sottilde to get that book. I've heard she's a pushover. I'm sure you can convince her to hand it over.|SCVR:04JX3FG_Sottilde|INTV: 
+
+[MOD-INF]: ID=19824177531142629010(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:sottilde|NAME:Okay, friend. You know about the code book. I don't want any trouble with you, so just take it. Just don't tell anyone I gave it to you.|SCVR:34JX3FG_Sottilde|INTV: |BNAM:RemoveItem "bk_sottildescodebook" 1  Player->AddItem "bk_sottildescodebook" 1  Journal FG_Sottilde 50
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:sottilde|NAME:Okay, friend. You know about the code book. I don't want any trouble with you, so just take it. Just don't tell anyone I gave it to you.|SCVR:04JX4FG_Sottilde|INTV:<|SCVR:34JX3FG_Sottilde|INTV: |BNAM:RemoveItem "bk_sottildescodebook" 1  Player->AddItem "bk_sottildescodebook" 1  ModPCFacRep -10 "Thieves Guild"  Journal FG_Sottilde 50
+
+[MOD-INF]: ID=23811170001381413375(Topic:code book)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I'm glad to see that code book, %PCName. Hand it over and I'll get your payment.|SCVR:05IX3bk_sottildescodebook|INTV|SCVR:34JX3FG_Sottilde|INTV|BNAM:Choice "Give Code Book" 1 "Keep Code Book" 2
+  FGI_Balmora_CodeBook.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I'm glad to see that code book, %PCName. Hand it over and I'll get your payment.|SCVR:05IX3bk_sottildescodebook|INTV|SCVR:34JX3FG_Sottilde|INTV|BNAM:Choice "Give the code book." 1 "Keep the code book." 2

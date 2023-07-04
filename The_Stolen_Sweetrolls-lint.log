@@ -1,0 +1,28 @@
+The_Stolen_Sweetrolls.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1257273 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(NV_Baked_Goods_Script)
+	SCPT(NV_BakingHour_Script)
+	SCPT(NV_Box_Pickup)
+	SCPT(NV_Crate_P)
+	SCPT(NV_Gulmon_Baking_Script)
+	SCPT(NV_Gulmon_Script)
+	SCPT(NV_Nirasa_Baking_Script)
+	SCPT(NV_Nivos_Script)
+	SCPT(NV_Opening_Jewelry_Box)
+	SCPT(NV_PulliaDoor_Script)
+	SCPT(NV_Pullia_Death_Script)
+	SCPT(NV_Pullia_Script_02)
+	SCPT(NV_Pullia_Script_Baking)
+	SCPT(NV_SweetrollSN_Script)
+	SCPT(NV_Sweetroll_Cave_Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=1655560447774481(Greeting:greeting 1)
+  |DATA|ONAM:brandr|NAME:You've killed her! You've killed the only woman I've ever loved! Now you will pay!|SCVR:06DX0erna the quiet|INTV|BNAM:SetFight 100  Goodbye
+
+[DUP-INF]: ID=21781291132615826803(Greeting:greeting 1)
+  |DATA|ONAM:erna the quiet|NAME:Have you met my love, Brandr?|SCVR:06DX0brandr|INTV:

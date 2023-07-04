@@ -1,0 +1,930 @@
+TR_ShipalShin_v0022.ESP: DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(TR_m7_Armiger_Note_sc)
+	SCPT(T_ScNpc_Mw_Map1VampAundae)
+	SCPT(T_ScNpc_Mw_Map1VampBerne)
+	SCPT(T_ScNpc_Mw_Map1VampQuarra)
+	SCPT(T_ScNpc_Mw_Map2VampAundae)
+	SCPT(T_ScNpc_Mw_Map2VampBerne)
+	SCPT(T_ScNpc_Mw_Map2VampQuarra)
+	SCPT(T_ScNpc_Mw_Map3VampAundae)
+	SCPT(T_ScNpc_Mw_Map3VampBerne)
+	SCPT(T_ScNpc_Mw_Map3VampQuarra)
+	SCPT(T_ScNpc_Mw_Map4VampAundae)
+	SCPT(T_ScNpc_Mw_Map4VampBerne)
+	SCPT(T_ScNpc_Mw_Map4VampQuarra)
+	SCPT(T_ScNpc_Mw_Map5VampAundae)
+	SCPT(T_ScNpc_Mw_Map5VampBerne)
+	SCPT(T_ScNpc_Mw_Map5VampQuarra)
+	SCPT(T_ScNpc_Mw_Map6VampAundae)
+	SCPT(T_ScNpc_Mw_Map6VampBerne)
+	SCPT(T_ScNpc_Mw_Map6VampQuarra)
+	SCPT(T_ScNpc_Mw_Map7VampAundae)
+	SCPT(T_ScNpc_Mw_Map7VampBerne)
+	SCPT(T_ScNpc_Mw_Map7VampQuarra)
+	SCPT(T_ScObj_NamirasShroud)
+	SCPT(T_ScVamp_Baluath_Cure)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-100, -49)                   0x02
+	Wilderness (-100, -50)                   0x02
+	Wilderness (-100, -51)                   0x02
+	Wilderness (-100, -52)                   0x02
+	Wilderness (-100, -53)                   0x02
+	Wilderness (-100, -54)                   0x02
+	Wilderness (-100, -55)                   0x02
+	Wilderness (-104, -46)                   0x02
+	Wilderness (-104, -47)                   0x02
+	Wilderness (-104, -48)                   0x02
+	Wilderness (-104, -49)                   0x02
+	Wilderness (-104, -50)                   0x02
+	Wilderness (-105, -44)                   0x02
+	Wilderness (-105, -45)                   0x02
+	Wilderness (-105, -46)                   0x02
+	Wilderness (-105, -47)                   0x02
+	Wilderness (-105, -48)                   0x02
+	Wilderness (-105, -49)                   0x02
+	Wilderness (-105, -50)                   0x02
+	Wilderness (-106, -44)                   0x02
+	Wilderness (-106, -45)                   0x02
+	Wilderness (-106, -46)                   0x02
+	Wilderness (-106, -47)                   0x02
+	Wilderness (-106, -48)                   0x02
+	Wilderness (-106, -49)                   0x02
+	Wilderness (-106, -50)                   0x02
+	Wilderness (-107, -44)                   0x02
+	Wilderness (-107, -45)                   0x02
+	Wilderness (-107, -46)                   0x02
+	Wilderness (-107, -47)                   0x02
+	Wilderness (-107, -48)                   0x02
+	Wilderness (-107, -49)                   0x02
+	Wilderness (-107, -50)                   0x02
+	Wilderness (-108, -44)                   0x02
+	Wilderness (-108, -45)                   0x02
+	Wilderness (-108, -46)                   0x02
+	Wilderness (-108, -47)                   0x02
+	Wilderness (-108, -48)                   0x02
+	Wilderness (-108, -49)                   0x02
+	Wilderness (-108, -50)                   0x02
+	Wilderness (-109, -44)                   0x02
+	Wilderness (-109, -45)                   0x02
+	Wilderness (-109, -46)                   0x02
+	Wilderness (-109, -47)                   0x02
+	Wilderness (-109, -48)                   0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, -34)                    0x02
+	Wilderness (-19, -35)                    0x02
+	Wilderness (-19, -36)                    0x02
+	Wilderness (-19, -37)                    0x02
+	Wilderness (-19, -38)                    0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, -34)                    0x02
+	Wilderness (-20, -35)                    0x02
+	Wilderness (-20, -36)                    0x02
+	Wilderness (-20, -37)                    0x02
+	Wilderness (-20, -38)                    0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-21, -34)                    0x02
+	Wilderness (-21, -35)                    0x02
+	Wilderness (-21, -36)                    0x02
+	Wilderness (-21, -37)                    0x02
+	Wilderness (-21, -38)                    0x02
+	Wilderness (-22, -34)                    0x02
+	Wilderness (-22, -35)                    0x02
+	Wilderness (-22, -36)                    0x02
+	Wilderness (-22, -37)                    0x02
+	Wilderness (-22, -38)                    0x02
+	Wilderness (-23, -34)                    0x02
+	Wilderness (-23, -35)                    0x02
+	Wilderness (-23, -36)                    0x02
+	Wilderness (-23, -37)                    0x02
+	Wilderness (-23, -38)                    0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+	Wilderness (-96, -49)                    0x02
+	Wilderness (-96, -50)                    0x02
+	Wilderness (-96, -51)                    0x02
+	Wilderness (-96, -52)                    0x02
+	Wilderness (-96, -53)                    0x02
+	Wilderness (-96, -54)                    0x02
+	Wilderness (-96, -55)                    0x02
+	Wilderness (-97, -49)                    0x02
+	Wilderness (-97, -50)                    0x02
+	Wilderness (-97, -51)                    0x02
+	Wilderness (-97, -52)                    0x02
+	Wilderness (-97, -53)                    0x02
+	Wilderness (-97, -54)                    0x02
+	Wilderness (-97, -55)                    0x02
+	Wilderness (-98, -49)                    0x02
+	Wilderness (-98, -50)                    0x02
+	Wilderness (-98, -51)                    0x02
+	Wilderness (-98, -52)                    0x02
+	Wilderness (-98, -53)                    0x02
+	Wilderness (-98, -54)                    0x02
+	Wilderness (-98, -55)                    0x02
+	Wilderness (-99, -49)                    0x02
+	Wilderness (-99, -50)                    0x02
+	Wilderness (-99, -51)                    0x02
+	Wilderness (-99, -52)                    0x02
+	Wilderness (-99, -53)                    0x02
+	Wilderness (-99, -54)                    0x02
+	Wilderness (-99, -55)                    0x02
+	Wilderness (15, -19)                     0x02
+	Wilderness (15, -20)                     0x02
+	Wilderness (15, -21)                     0x02
+	Wilderness (15, -22)                     0x02
+	Wilderness (15, -23)                     0x02
+	Wilderness (16, -19)                     0x02
+	Wilderness (16, -20)                     0x02
+	Wilderness (16, -21)                     0x02
+	Wilderness (16, -22)                     0x02
+	Wilderness (16, -23)                     0x02
+	Wilderness (17, -19)                     0x02
+	Wilderness (17, -20)                     0x02
+	Wilderness (17, -21)                     0x02
+	Wilderness (17, -22)                     0x02
+	Wilderness (17, -23)                     0x02
+	Wilderness (18, -19)                     0x02
+	Wilderness (18, -20)                     0x02
+	Wilderness (18, -21)                     0x02
+	Wilderness (18, -22)                     0x02
+	Wilderness (18, -23)                     0x02
+	Wilderness (19, -19)                     0x02
+	Wilderness (19, -20)                     0x02
+	Wilderness (19, -21)                     0x02
+	Wilderness (19, -22)                     0x02
+	Wilderness (19, -23)                     0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    ac_darkgravel
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_clover
+	morrowind.esm       LTEX    ai_dirt
+	morrowind.esm       LTEX    ai_dirtroad
+	morrowind.esm       LTEX    ai_grass
+	morrowind.esm       LTEX    ai_grass_02
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_dirt
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    ai_tilled_dirt
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_04
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    lavacrust02.tga
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava02
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sandstone02
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock03
+	morrowind.esm       LTEX    ma_sulphur_rock05
+	morrowind.esm       LTEX    ma_sulphur_rock06
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    ma_sulphur_rock08
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    rm_grayrock
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_rock_03
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    sand_02
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mainroad_01.tga
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_road
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	tamriel_data.esm    ALCH    t_com_potion_devineintervetion
+	tamriel_data.esm    BOOK    t_bkgen_trademanifest
+	tamriel_data.esm    BOOK    t_news_bellman_41
+	tamriel_data.esm    CONT    t_mwcom_var_creecdrinks
+	tamriel_data.esm    CONT    t_mwcom_var_creecdwrv
+	tamriel_data.esm    CONT    t_mwcom_var_creecebony
+	tamriel_data.esm    CONT    t_mwcom_var_creeceggs
+	tamriel_data.esm    CONT    t_mwcom_var_creecempty
+	tamriel_data.esm    CONT    t_mwcom_var_creecflin
+	tamriel_data.esm    CONT    t_mwcom_var_creecglass
+	tamriel_data.esm    CONT    t_mwcom_var_creeciron
+	tamriel_data.esm    CONT    t_mwcom_var_creecmarshm
+	tamriel_data.esm    CONT    t_mwcom_var_creecsaltr
+	tamriel_data.esm    CONT    t_mwcom_var_creecsilver
+	tamriel_data.esm    DOOR    t_de_sngstrong_blockeddoor
+	tamriel_data.esm    MISC    t_de_hlaalucompanyscrip_01
+	tamriel_data.esm    MISC    t_de_hlaalucompanyscrip_02
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map1VampAundae
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map1VampBerne
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map1VampQuarra
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map2VampAundae
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map2VampBerne
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map2VampQuarra
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map3VampAundae
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map3VampBerne
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map3VampQuarra
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map4VampAundae
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map4VampBalAshwalker
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map4VampBaluath
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map4VampBerne
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map4VampOrlukh
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map4VampQuarra
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map5VampAundae
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map5VampBerne
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map5VampQuarra
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map6VampAundae
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map6VampBerne
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map6VampQuarra
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map7VampAundae
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map7VampBerne
+	tamriel_data.esm    SCPT    T_ScNpc_Mw_Map7VampQuarra
+	tamriel_data.esm    SCPT    T_ScObj_NamirasShroud
+	tamriel_data.esm    SCPT    T_ScVamp_Baluath_Cure
+	tamriel_data.esm    SCPT    T_ScVamp_Khulari_NPC
+	tamriel_data.esm    STAT    t_de_sethla_x_building_23
+	tamriel_data.esm    STAT    t_de_sethla_x_narsis_b_05
+	tamriel_data.esm    STAT    t_de_sethla_x_narsis_b_06
+	tamriel_data.esm    STAT    t_de_sethla_x_narsis_b_08
+	tamriel_data.esm    STAT    t_de_sethla_x_narsis_b_15
+	tamriel_data.esm    STAT    t_de_sethla_x_narsis_b_16
+	tamriel_data.esm    STAT    t_de_sethla_x_narsis_b_17
+	tamriel_data.esm    STAT    t_de_sethla_x_narsis_b_18
+	tamriel_data.esm    STAT    t_de_sethla_x_narsis_b_20
+	tribunal.esm        DOOR    hlaalu_loaddoor_ 02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_02.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_04.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_05.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_06.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_rock_01.dds
+	morrowind.esm       LTEX    tx_lavacrust00.tga
+	tamriel_data.esm    LTEX    t_ayl_dngruin_txfloor_01
+	tamriel_data.esm    LTEX    t_cyr_terrdirtgc_01
+	tamriel_data.esm    LTEX    t_cyr_terrfarmlandgc_01
+	tamriel_data.esm    LTEX    t_cyr_terrroaddirtch_01
+	tamriel_data.esm    LTEX    t_de_setind_txcobblestone_01
+	tamriel_data.esm    LTEX    t_de_setind_txcobblestone_02
+	tamriel_data.esm    LTEX    t_de_setind_txornatefloor_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txcobblestone_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txfloor_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txfloor_02
+	tamriel_data.esm    LTEX    t_imp_dngcolbarrow_txfloor_01
+	tamriel_data.esm    LTEX    t_imp_dngruincyr_txfloor_01
+	tamriel_data.esm    LTEX    t_imp_dngruincyr_txfloor_02
+	tamriel_data.esm    LTEX    t_imp_highway_txroaddry_01a
+	tamriel_data.esm    LTEX    t_imp_highway_txroaddry_01b
+	tamriel_data.esm    LTEX    t_imp_highway_txroadgrs_01a
+	tamriel_data.esm    LTEX    t_imp_highway_txroadlvs_02b
+	tamriel_data.esm    LTEX    t_imp_highway_txroadsnw_02b
+	tamriel_data.esm    LTEX    t_mw_terrcloverat
+	tamriel_data.esm    LTEX    t_mw_terrdaestoneat
+	tamriel_data.esm    LTEX    t_mw_terrdaestonesh
+	tamriel_data.esm    LTEX    t_mw_terrdirtgrassat
+	tamriel_data.esm    LTEX    t_mw_terrdirtmudsh
+	tamriel_data.esm    LTEX    t_mw_terrdirtow_01
+	tamriel_data.esm    LTEX    t_mw_terrdirtrocksh
+	tamriel_data.esm    LTEX    t_mw_terrdirtrocktv
+	tamriel_data.esm    LTEX    t_mw_terrdirtrr
+	tamriel_data.esm    LTEX    t_mw_terrdirtscrubow_01
+	tamriel_data.esm    LTEX    t_mw_terrdirtsh_01
+	tamriel_data.esm    LTEX    t_mw_terrdirtsh_02
+	tamriel_data.esm    LTEX    t_mw_terrdirttilledow_01
+	tamriel_data.esm    LTEX    t_mw_terrdirttilledsh_01
+	tamriel_data.esm    LTEX    t_mw_terrdirttv
+	tamriel_data.esm    LTEX    t_mw_terrgrass_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassalma_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassat
+	tamriel_data.esm    LTEX    t_mw_terrgrasscm_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassdirttv
+	tamriel_data.esm    LTEX    t_mw_terrgrassgl_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassmosstv
+	tamriel_data.esm    LTEX    t_mw_terrgrasstv
+	tamriel_data.esm    LTEX    t_mw_terrgravelvm_01
+	tamriel_data.esm    LTEX    t_mw_terrroaddirt_01
+	tamriel_data.esm    LTEX    t_mw_terrroadsh_01
+	tamriel_data.esm    LTEX    t_mw_terrroadtv
+	tamriel_data.esm    LTEX    t_mw_terrrockaj_01
+	tamriel_data.esm    LTEX    t_mw_terrrockaj_02
+	tamriel_data.esm    LTEX    t_mw_terrrockbrown_01
+	tamriel_data.esm    LTEX    t_mw_terrrockmosstv
+	tamriel_data.esm    LTEX    t_mw_terrrockow_01
+	tamriel_data.esm    LTEX    t_mw_terrrockow_02
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_01
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_02
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_03
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_01
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_01b
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_02
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_02b
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_03
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_03b
+	tamriel_data.esm    LTEX    t_mw_terrrocksnowac_03
+	tamriel_data.esm    LTEX    t_mw_terrrocksnowac_04
+	tamriel_data.esm    LTEX    t_mw_terrrocktv
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_01
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_02
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_03
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_04
+	tamriel_data.esm    LTEX    t_mw_terrscrubrr
+	tamriel_data.esm    LTEX    t_mw_terrscrubsh
+	tamriel_data.esm    LTEX    t_nor_dngbarrowfort_txfloor_01
+	tamriel_data.esm    LTEX    t_pi_po_terroceansilt_01.dds
+	tamriel_data.esm    LTEX    t_pi_po_terrrock_01.dds
+	tamriel_data.esm    LTEX    t_pi_po_terrrock_02
+	tamriel_data.esm    LTEX    t_pi_tm_terr_graveldirt
+	tamriel_data.esm    LTEX    t_pi_tm_terrdirt
+	tamriel_data.esm    LTEX    t_pi_tm_terrdirtgrass
+	tamriel_data.esm    LTEX    t_pi_tm_terrgrass
+	tamriel_data.esm    LTEX    t_pi_tm_terrgrassdirt
+	tamriel_data.esm    LTEX    t_pi_tm_terrgravel
+	tamriel_data.esm    LTEX    t_sky_terrfarmland_01
+	tamriel_data.esm    LTEX    t_sky_terrgrasshf_02
+	tamriel_data.esm    LTEX    t_sky_terrgrasshf_03
+	tamriel_data.esm    LTEX    t_sky_terrgrasshf_04
+	tamriel_data.esm    LTEX    t_sky_terrgravel_01
+	tamriel_data.esm    LTEX    t_sky_terrrockem_01
+	tamriel_data.esm    NPC_    t_aid_customspellsguy
+	tamriel_data.esm    NPC_    tr_baluath_npc
+	tamriel_data.esm    NPC_    tr_hla_canyon_guard
+	tamriel_data.esm    NPC_    tr_hla_canyon_guard_f
+	tamriel_data.esm    NPC_    tr_hla_canyon_guard_f_s
+	tamriel_data.esm    NPC_    tr_hla_canyon_guard_s
+	tamriel_data.esm    NPC_    tr_hla_canyon_shooter
+	tamriel_data.esm    NPC_    tr_vampire_baluath_01
+	tamriel_data.esm    NPC_    tr_vampire_baluath_02
+	tamriel_data.esm    NPC_    tr_vampire_baluath_03
+	tamriel_data.esm    NPC_    tr_vampire_baluath_04
+	tamriel_data.esm    NPC_    tr_vampire_baluath_05
+	tamriel_data.esm    REGN    falkheim region
+	tamriel_data.esm    REGN    gilded hills region
+	tamriel_data.esm    REGN    othreleth woods region
+
+[DUP-INF]: ID=620774077723(Voice:attack)
+  |DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=556159290627133(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2096869411354895(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2159786856325985(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF003.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2212451217613540(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAM005.mp3|NAME:Rrahsss!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=11092238265733034(Voice:hit)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\Hit_vAF010.mp3|NAME:Ooarrgh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=16645841998628059(Voice:attack)
+  |DATA|SNAM:Vo\v\CrAtk_vKF003.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=24237235602705299(Voice:hit)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\Hit_vWM001.mp3|NAME:Graah!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=24347576814487650(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF003.mp3|NAME:Hurraggh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=24487325515277926(Voice:hit)
+  |DATA|RNAM:Breton|SNAM:Vo\v\Hit_vBM011.mp3|NAME:Urgh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=26537734214961070(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM001.mp3|NAME:Rarrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=65902352969920584(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=81723882249159328(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=99793225311454241(Voice:hit)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\Hit_vAM004.mp3|NAME:Hhh-RGH!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=110397752666415586(Voice:hit)
+  |DATA|RNAM:Nord|SNAM:Vo\v\Hit_vNM010.mp3|NAME:Hregh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=113433499122430928(Voice:attack)
+  |DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF002.mp3|NAME:Rreh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=120988066108817584(Voice:attack)
+  |DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM001.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=132716130317517856(Voice:hit)
+  |DATA|RNAM:Breton|SNAM:Vo\v\Hit_vBF009.mp3|NAME:Ugh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=174120102307389584(Voice:attack)
+  |DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF001.mp3|NAME:Arh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=195121616132722266(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAM001.mp3|NAME:Aahhragh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=208619424218529186(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM001.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=234522145271172825(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=236194511102517048(Voice:hit)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\Hit_vIF013.mp3|NAME:Augh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=237912991321612259(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM003.mp3|NAME:Hurrragh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=260702512291366766(Voice:attack)
+  |DATA|SNAM:Vo\v\CrAtk_vKM004.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=272244742963219090(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF002.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=279382872514415438(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF002.mp3|NAME:Growl!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=305177942911622058(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM003.mp3|NAME:Haha!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=310804332256975446(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF002.mp3|NAME:Rarrrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=383870658344825862(Voice:attack)
+  |DATA|RNAM:T_Mw_Malahk_Orc|SNAM:Vo\v\CrAtk_vOF002.mp3|NAME:Harragh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=459149642213817056(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF001.mp3|NAME:Haargh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=516826639660720487(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=532668071293518337(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=559962251861921332(Voice:attack)
+  |DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=560922935117668051(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF001.mp3|NAME:Arragh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=601317415630627473(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=622328696144149529(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAM003.mp3|NAME:Huragh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=623817503184044414(Voice:attack)
+  |DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=729728150172269286(Voice:attack)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=777311933961518643(Voice:hit)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\Hit_vRF006.mp3|NAME:Kh-rhm!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=874123149282428378(Voice:hit)
+  |DATA|RNAM:Orc|SNAM:Vo\v\Hit_vOM004.mp3|NAME:Roaagg!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=890285142708132315(Voice:attack)
+  |DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=977912944566130682(Voice:attack)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF002.mp3|NAME:Rragh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=1011330441731415903(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM001.mp3|NAME:Arr!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=1131117772673512745(Voice:hit)
+  |DATA|RNAM:Orc|SNAM:Vo\v\Hit_vOF007.mp3|NAME:Oomph!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=1139610832312735714(Voice:hit)
+  |DATA|RNAM:Nord|SNAM:Vo\v\Hit_vNF008.mp3|NAME:Aoagrgh!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:12sX3Random100|INTV:Z
+
+[DUP-INF]: ID=1254326500916076315(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=1345458251278612444(Voice:hit)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\Hit_vWM002.mp3|NAME:Eek!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:12sX3Random100|INTV:Z
+
+[DUP-INF]: ID=1509962732148531448(Voice:attack)
+  |DATA|SNAM:Vo\v\CrAtk_vKM005.mp3|NAME:Arrgh!|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=1523318761721726471(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF003.mp3|NAME:Huragh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=1691319230221969360(Voice:hit)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\Hit_vHM010.mp3|NAME:Raagh.|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=1726029525340429562(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF002.mp3|NAME:Rrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=1866361712841815922(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM002.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=1991221324298042157(Voice:attack)
+  |DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM003.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2034515711143693670(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2075930912512726033(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2083516593162008808(Voice:hit)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\Hit_vWF004.mp3|NAME:Ueahgh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2117551141342622677(Voice:attack)
+  |DATA|SNAM:Vo\v\CrAtk_vKF005.mp3|NAME:Hugggh!|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=2123531549689031323(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM005.mp3|NAME:Rrahsss!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2144821972031822816(Voice:attack)
+  |DATA|SNAM:Vo\v\CrAtk_vKF002.mp3|NAME:Rarrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=2211446346207612360(Voice:attack)
+  |DATA|RNAM:T_Mw_Malahk_Orc|SNAM:Vo\v\CrAtk_vOM001.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2235589462101611339(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2239925731299108985(Voice:hit)
+  |DATA|SNAM:Vo\v\Hit_vKF002.mp3|NAME:Rooar!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:13sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=2246413642157056586(Voice:attack)
+  |DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF003.mp3|NAME:Ghaah!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2297866592227230240(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2326573772601432317(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF003.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2419190451775918136(Voice:hit)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM005.mp3|NAME:Harargh!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:12sX3Random100|INTV:P
+
+[DUP-INF]: ID=2442325911143559842(Voice:hit)
+  |DATA|SNAM:Vo\v\Hit_vKM015.mp3|NAME:Hharag!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:13sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=2557547962571432177(Voice:attack)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWM003.mp3|NAME:Wrooar!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2659113511188323350(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2678924284533513248(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\Hit_vDF012.mp3|NAME:Uroagh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2772011132397002083(Voice:attack)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\CrAtk_vOM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2775352492382494653(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:T_Glb_Miner|SNAM:vo\d\m\bHlo_DM002.mp3|NAME:Another day, another hundred piles of ore.|SCVR:02sX3Random100|INTV|SCVR:13sX0T_Local_N|PCIN:
+
+[DUP-INF]: ID=2787862492733432415(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM005.mp3|NAME:Hahahaha!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2907414444165922507(Voice:attack)
+  |DATA|RNAM:T_Mw_Malahk_Orc|SNAM:Vo\v\CrAtk_vOM003.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=2918324566173329564(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF003.mp3|NAME:Hugggnh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=3066626519188525519(Voice:hit)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\Hit_vIF001.mp3|NAME:Aieeghgh!|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:12sX3Random100|INTV:_
+
+[DUP-INF]: ID=3084812080184745241(Voice:attack)
+  |DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM002.mp3|NAME:Rararah!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=3133117681314269822(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=4205293144793476950(Voice:attack)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\CrAtk_vBF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=4250920932095975268(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF003.mp3|NAME:Arh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=4354270656314179521(Voice:attack)
+  |DATA|RNAM:T_Mw_Malahk_Orc|SNAM:Vo\v\CrAtk_vOF003.mp3|NAME:Ghaah!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=4456189381977813550(Voice:hit)
+  |DATA|RNAM:Nord|SNAM:Vo\v\Hit_vNF006.mp3|NAME:Rugh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=4590330564316321350(Voice:attack)
+  |DATA|RNAM:T_Mw_Malahk_Orc|SNAM:Vo\v\CrAtk_vOM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=4675146372215918663(Voice:attack)
+  |DATA|SNAM:Vo\v\CrAtk_vKF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=5339141542103528419(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM003.mp3|NAME:Hurrragh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=5538062038740401456(Voice:attack)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF001.mp3|NAME:Ungh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=5927190291671731091(Voice:attack)
+  |DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=6274709043213104093(Voice:attack)
+  |DATA|RNAM:T_Mw_Malahk_Orc|SNAM:Vo\v\CrAtk_vOF001.mp3|NAME:Agh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=6551459618026256091(Voice:attack)
+  |DATA|RNAM:T_Mw_Malahk_Orc|SNAM:Vo\v\CrAtk_vOF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=6572537785512098354(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAM004.mp3|NAME:Hugggnh!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=7015477408662071562(Voice:attack)
+  |DATA|SNAM:Vo\v\CrAtk_vKM001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=7664911237757036812(Voice:attack)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\CrAtk_vOM003.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=7935282261420230465(Voice:attack)
+  |DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=7982310691398729731(Voice:attack)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWM002.mp3|NAME:Wraharar!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=8236281771821925239(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM003.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=8381537438193395886(Voice:attack)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\CrAtk_vOM001.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=8428825962040674584(Voice:attack)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\CrAtk_vBF003.mp3|NAME:Hrah!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=8669307881498726372(Voice:attack)
+  |DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=8848399876181753781(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNF001.mp3|NAME:Harragh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=9216555896264122770(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=9643867778877659270(Voice:attack)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWM004.mp3|NAME:Wrt!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=9694573416585124721(Voice:attack)
+  |DATA|RNAM:T_Mw_Malahk_Orc|SNAM:Vo\v\CrAtk_vOM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=10154343782620098513(Voice:hit)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\Hit_vBF009.mp3|NAME:Ugh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=10431993355602561014(Voice:attack)
+  |DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM003.mp3|NAME:Huhh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=10811865909386855093(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM002.mp3|NAME:Nwaargh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=10812312323070910423(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF002.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=10971556878805713773(Voice:attack)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=11199029161107633319(Voice:hit)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\Hit_vOM004.mp3|NAME:Roaagg!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=11206072956372231783(Voice:hello)
+  |DATA|RNAM:Nord|CNAM:Smith|SNAM:vo\n\m\bHlo_NM035.mp3|NAME:What can this smith do for you? Armor, weapons? Some conversation?|SCVR:03sX0T_Local_N|PCIN:|SCVR:12sX3Random100|INTV:Z
+
+[DUP-INF]: ID=11354115243008429733(Voice:flee)
+  |DATA|SNAM:vo\k\m\bFle_KM001.mp3|NAME:Help! A beast!|SCVR:02sX5Random100|INTV|SCVR:11653|INTV|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=11609806610929636693(Voice:attack)
+  |DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF001.mp3|NAME:Agh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=11754116652960411946(Voice:attack)
+  |DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=12309842564521192524(Voice:attack)
+  |DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBM001.mp3|NAME:Wrahargh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=12329893014658396733(Voice:attack)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\CrAtk_vBF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=12815260561691318588(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=13030272842875729386(Voice:flee)
+  |DATA|SNAM:vo\k\m\bFle_KM002.mp3|NAME:Get away, beast!|SCVR:02sX5Random100|INTV:2|SCVR:11653|INTV|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=13334173504097072317(Voice:attack)
+  |DATA|RNAM:T_Mw_Malahk_Orc|SNAM:Vo\v\CrAtk_vOM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=13407651381410149169(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM004.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=13418404728392794111(Voice:attack)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\CrAtk_vBF001.mp3|NAME:Arh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=14121259122198413517(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:Vo\v\CrAtk_vNM003.mp3|NAME:Arrrg!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=14336367293336019899(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAM002.mp3|NAME:Rrelfkh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=14454880243489494558(Voice:attack)
+  |DATA|RNAM:T_Mw_Malahk_Orc|SNAM:Vo\v\CrAtk_vOF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=14743974842679513368(Voice:attack)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\CrAtk_vBF002.mp3|NAME:Rreh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=15006142391633423024(Voice:attack)
+  |DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=15162105121866623142(Voice:hit)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\Hit_vAM014.mp3|NAME:Aahhah-hhrgh.|SCVR:03sX3T_Local_Vampire|INTV:|SCVR:12sX3Random100|INTV:Z
+
+[DUP-INF]: ID=15553681617708188029(Voice:attack)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\CrAtk_vOM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=15710331073363959744(Voice:attack)
+  |DATA|RNAM:Orc|SNAM:Vo\v\CrAtk_vOF002.mp3|NAME:Harragh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=15789396055857272615(Voice:attack)
+  |DATA|RNAM:T_Sky_Reachman|SNAM:Vo\v\CrAtk_vOM002.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=15830899085383118491(Voice:attack)
+  |DATA|SNAM:Vo\v\CrAtk_vKM003.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=16204780390047824186(Voice:attack)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWM001.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=16230277862791719017(Voice:attack)
+  |DATA|RNAM:Breton|SNAM:Vo\v\CrAtk_vBF003.mp3|NAME:Hrah!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=16741574542313761840(Voice:attack)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWM005.mp3|NAME:Hiss!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=18022176023244512962(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRF004.mp3|NAME:Harragh!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=18255199463102731795(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vHM001.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=18688247552905317586(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\Hit_vDM009.mp3|NAME:U-urogh.|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=19164232771363014067(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=19673271021366213955(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM005.mp3|NAME:Die!|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=19775196752997229243(Voice:attack)
+  |DATA|SNAM:Vo\v\CrAtk_vKF004.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=20353186792139232066(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF001.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=20500232661154128246(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\CrAtk_vRM004.mp3|NAME:Die!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=20714135092371712032(Voice:attack)
+  |DATA|RNAM:Wood Elf|SNAM:Vo\v\CrAtk_vWF003.mp3|NAME:Hugggh!|SCVR:02sX3Random100|INTV:(|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=21291250432457530367(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\v\CrAtk_vHM001.mp3|NAME:Rarrrh!|SCVR:02sX3Random100|INTV:P|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=21719139851400115484(Voice:hit)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\Hit_vIM007.mp3|NAME:Ooargh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=21888244032170024938(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\v\CrAtk_vDF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=22620214482141326183(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIM002.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=23491298982892413396(Voice:hit)
+  |DATA|RNAM:Redguard|SNAM:Vo\v\Hit_vRM008.mp3|NAME:Rrarh!|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=23844212342062331854(Voice:flee)
+  |DATA|SNAM:vo\k\m\bFle_KM004.mp3|NAME:Don't infect me with your curse!|SCVR:01650|INTV|SCVR:13sX0T_Local_Khajiit|INTV
+
+[DUP-INF]: ID=25369226311747427199(Voice:hit)
+  |DATA|RNAM:High Elf|SNAM|SCVR:03sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=27404126251600410083(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\v\CrAtk_vIF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=30357114392550523928(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:Vo\v\CrAtk_vAF002.mp3|NAME:Rwaar!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:
+
+[DUP-INF]: ID=30964140601384129840(Voice:attack)
+  |DATA|SNAM:Vo\v\CrAtk_vKM002.mp3|NAME:Rarrgh!|SCVR:02sX3Random100|INTV:<|SCVR:13sX3T_Local_Vampire|INTV:|SCVR:23sX0T_Local_Khajiit|INTV

@@ -1,0 +1,36 @@
+Traveling_Guar_Riders.ESP: DUP-INF DUP-REC JUNKCEL MASTERS MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (6, -8)            0x02
+	Ashlands Region (-1, 6)                  0x02
+	Ashlands Region (-1, 7)                  0x02
+	Ashlands Region (-3, 18)                 0x02
+	Ashlands Region (1, 4)                   0x02
+	Ashlands Region (3, 4)                   0x02
+	Azura's Coast Region (14, 6)             0x02
+	Azura's Coast Region (15, -14)           0x02
+	Azura's Coast Region (15, 6)             0x02
+	Azura's Coast Region (17, 3)             0x02
+	Azura's Coast Region (17, 6)             0x02
+	Azura's Coast Region (18, 2)             0x02
+	Azura's Coast Region (18, 5)             0x02
+	Azura's Coast Region (19, 3)             0x02
+	Red Mountain Region (2, 5)               0x02
+	Red Mountain Region (3, 5)               0x02
+	West Gash Region (-10, 10)               0x02
+	West Gash Region (-10, 12)               0x02
+	West Gash Region (-11, 12)               0x02
+	West Gash Region (-12, 10)               0x02
+	West Gash Region (-12, 11)               0x02
+	West Gash Region (-12, 12)               0x02
+	West Gash Region (-13, 12)               0x02
+	West Gash Region (-3, -1)                0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       PGRD    ascadian isles region
+	morrowind.esm       PGRD    suran
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=13568231434823734(Greeting:greeting 1)
+  |DATA|ONAM:lich_relvel|NAME:Weakling! You dare to cross my threshold? You, then, will be the first to fall, before the undead army sweeps across this land like a plague, cleansing it of your flesh.  Die, mortal!|BNAM:StartCombat Player  SetFight 100  Goodbye

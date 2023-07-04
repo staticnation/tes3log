@@ -1,0 +1,25 @@
+QuickChar.esp: DUP-REC MENUMOD MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CharGen)
+	SCPT(CharGenBed)
+	SCPT(CharGenDagger)
+	SCPT(CharGenDisable)
+	SCPT(CharGenDoorEnterCaptain)
+	SCPT(CharGenDoorExit)
+	SCPT(CharGenDoorExitCaptain)
+	SCPT(ab01chargenAddStuffScript)
+	SCPT(ab01chargenAddTopicScript)
+	SCPT(ab01chargenDeleteStuff)
+	SCPT(ab01rsMovePlayer01Script)
+	SCPT(ab01rsMovePlayer02Script)
+	SCPT(ab01rsMovePlayer03Script)
+	SCPT(ab01rsMovePlayer04Script)
+	SCPT(ab01rsMovePlayer05Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dwemer puzzle box
+	tribunal.esm        DIAL    duties
+
+[MOD-INF]: ID=1729913769476329813(Topic:duties)
+  morrowind.esm->|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX0A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+  QuickChar.esp->|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:02sX0A11FindSpymaster|INTV:|BNAM:set A11FindSpymaster to 1 ; using a global short to avoid problems /abot  if ( GetJournalIndex A1_1_FindSpymaster )  else   Journal "A1_1_FindSpymaster" 1  endif  player->AddItem "bk_A1_1_DirectionsCaiusCosades" 1  player->AddItem  "bk_a1_1_caiuspackage" 1  player->Additem "Gold_001" 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"

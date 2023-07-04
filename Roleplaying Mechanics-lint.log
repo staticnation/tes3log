@@ -1,0 +1,25 @@
+Roleplaying Mechanics.ESP: AUTOSPL DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	_co_hearth_touch               Healer's Touch
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_CO_DetectClass)
+	SCPT(_CO_GiveBook)
+	SCPT(_CO_StartMod)
+	SCPT(_CO_WitchhunterLoot_01)
+	SCPT(_CO_WitchhunterLoot_02)
+	SCPT(unknown)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-2, -8)             0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    ex_ashl_door_01
+	morrowind.esm       STAT    ex_ashl_tent_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

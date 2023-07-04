@@ -1,0 +1,56 @@
+VB_EmynDB_Patch.ESP: DUP-REC MENUMOD MISSAUT MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(EMYN_SixthHouse_A)
+	SCPT(EMYN_Ularradallaku)
+	SCPT(P_AR_Hoki_D_Check)
+	SCPT(P_AR_Lassour_D_Check)
+	SCPT(P_AR_Salyni_D_Check)
+	SCPT(P_CyrodDBAttack_AldSotha)
+	SCPT(P_CyrodDB_AttacksPC)
+	SCPT(P_DB_PC_Banned)
+	SCPT(P_DB_PC_Banned_Two)
+	SCPT(P_DB_Smells_PC_Lies)
+	SCPT(P_DB_randomnumber)
+	SCPT(P_DroZaymar_CellCheck)
+	SCPT(P_DurusMarius_Enabler)
+	SCPT(P_EMYN_Intruder)
+	SCPT(P_EMYN_Lachance_Escape)
+	SCPT(P_EMYN_Lachance_SCR)
+	SCPT(P_Erval_Back_Pelagiad)
+	SCPT(P_Erval_Fist_Fight)
+	SCPT(P_Erval_Scroll_Engine)
+	SCPT(P_Erval_Teleport)
+	SCPT(P_Erval_Teleport_OpenMW)
+	SCPT(P_Erval_Teleport_SCR)
+	SCPT(P_FrusciaAbitius_Attacked)
+	SCPT(P_FrusciaAbitius_D)
+	SCPT(P_Intruder_HQ)
+	SCPT(P_NevenUles_Help)
+	SCPT(P_SeverMagia_Teleport)
+	SCPT(P_SeveraMagia_Greets)
+	SCPT(P_Skyrim_Mansion_SCR)
+	SCPT(P_SpecialDuty_Check)
+	SCPT(P_VV_Minni_D_Check)
+	SCPT(P_VV_Rogdul_D_Check)
+	SCPT(P_VV_Serul_D_Check)
+	SCPT(P_VV_Taros_D_Check)
+	SCPT(P_VV_Ulmesi_D_Check)
+	SCPT(P_Yasamsi_Spare)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    go fishing
+	morrowind.esm       NPC_    carecalmo
+	morrowind.esm       NPC_    durus marius
+	morrowind.esm       NPC_    meryaran
+	morrowind.esm       NPC_    relas arothan
+	morrowind.esm       NPC_    severa magia
+	morrowind.esm       NPC_    sovisa adas
+	morrowind.esm       NPC_    tappius esdrecus
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hello
+
+[MOD-INF]: ID=2785832256428816452(Topic:go fishing)
+  morrowind.esm------->|DATA|ONAM:Blatta Hateria|NAME:I'm ready to take you to Holamayan any time you're ready to travel.|SCVR:04JX3A2_4_Milo_hola_go|INTV
+  VB_EmynDB_Patch.ESP->|DATA|ONAM:bm skeleton champion gr|NAME:I'm ready to take you to Holamayan any time you're ready to travel.|SCVR:04JX3A2_4_Milo_hola_go|INTV

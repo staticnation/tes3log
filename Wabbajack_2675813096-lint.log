@@ -1,0 +1,55 @@
+Wabbajack_2675813096.esp: DUP-INF DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(wretch_w_SCRI)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Wretch_RitualDrumMessage)
+	SCPT(Wretch_Sound_Garden)
+	SCPT(Wretch_Sound_InsaneLaugh)
+	SCPT(Wretch_Sound_InsaneLaugh2)
+	SCPT(Wretch_Sound_QuietLaugh)
+	SCPT(Wretch_Sound_Spooky)
+	SCPT(wretch_PassTime)
+	SCPT(wretch_daedra_aggro)
+	SCPT(wretch_demonlute)
+	SCPT(wretch_invis)
+	SCPT(wretch_notele)
+	SCPT(wretch_pedastal_items)
+	SCPT(wretch_used_cloth)
+	SCPT(wretch_used_gold)
+	SCPT(wretch_used_roller)
+	SCPT(wretch_w_CREA)
+	SCPT(wretch_w_MGEF)
+	SCPT(wretch_w_NPC_)
+	SCPT(wretch_w_POLY)
+	SCPT(wretch_w_SSCR)
+	SCPT(wretch_w_TYPE)
+	SCPT(wretch_yestele)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       DIAL    questions
+	morrowind.esm       LAND    (7, 24)
+	morrowind.esm       LAND    (7, 25)
+	morrowind.esm       LAND    (8, 24)
+	morrowind.esm       LAND    (8, 25)
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       STAT    ex_dae_ruin_02_skew
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    latest rumors
+
+[DUP-INF]: ID=11288457349239882(Topic:questions)
+  |DATA|NAME:You are curious... what really happened at Red Mountain? what really happened to the Dwemer? what was the Dwemer's sin? what is it like to be a god? do I remember being mortal? how do I feel about the people of Morrowind?|SCVR:04JX3B8_MeetVivec|INTV:2|BNAM:;Vivec; Journal "B8_MeetVivec" = 50;
+
+[DUP-INF]: ID=13568231434823734(Greeting:greeting 1)
+  |DATA|ONAM:lich_relvel|NAME:Weakling! You dare to cross my threshold? You, then, will be the first to fall, before the undead army sweeps across this land like a plague, cleansing it of your flesh.  Die, mortal!|BNAM:StartCombat Player  SetFight 100  Goodbye
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[DUP-INF]: ID=25249198542886620984(Greeting:greeting 9)
+  |DATA|NAME:I STILL don't like you. And I STILL don't want to talk to you.|BNAM:;last greeting 9, below this unreachable code

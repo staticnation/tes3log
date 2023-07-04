@@ -1,0 +1,89 @@
+SG_werewolfclans.esp: DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(WolfenderInnocent)
+	SCPT(gold_wolf_clan_door)
+	SCPT(sg_arcticwolf)
+	SCPT(sg_blackwerepuppy)
+	SCPT(sg_blackwildwerewolf)
+	SCPT(sg_blackwolf)
+	SCPT(sg_goldwereamScript)
+	SCPT(sg_goldwerepuppy)
+	SCPT(sg_goldwildwerewolf)
+	SCPT(sg_redwerepuppy)
+	SCPT(sg_redwildwerewolf)
+	SCPT(sg_redwolf)
+	SCPT(sg_redwolf_clan)
+	SCPT(sg_startscript)
+	SCPT(sg_werecheck)
+	SCPT(sg_werecolor)
+	SCPT(sg_whitewerepuppy)
+	SCPT(sg_whitewildwerewolf)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (0, 0)                   0x02
+	Ashlands Region (0, 16)                  0x02
+	Ashlands Region (5, 12)                  0x02
+	Ashlands Region (6, 7)                   0x02
+	Azura's Coast Region (16, -6)            0x02
+	Azura's Coast Region (17, 8)             0x02
+	Azura's Coast Region (18, -4)            0x02
+	Azura's Coast Region (19, -9)            0x02
+	Azura's Coast Region (20, 3)             0x02
+	Felsaad Coast Region (-18, 23)           0x02
+	Hirstaang Forest Region (-19, 18)        0x02
+	Isinfier Plains Region (-22, 24)         0x02
+	Isinfier Plains Region (-23, 22)         0x02
+	Moesring Mountains Region (-24, 24)      0x02
+	Molag Mar Region (4, -1)                 0x02
+	Molag Mar Region (7, -1)                 0x02
+	Red Mountain Region (-1, 9)              0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       DOOR    bm_ic_door_pelt_dark
+	bloodmoon.esm       DOOR    bm_ka_door_dark_02
+	bloodmoon.esm       SCPT    WolfenderInnocent
+	morrowind.esm       INGR    ingred_hound_meat_01
+	morrowind.esm       MISC    misc_dwrv_bowl00
+	tribunal.esm        DOOR    door_cavern_doors10
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    ex_cave_door_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    werewolves
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    hello
+	tribunal.esm        GMST    iwerewolffightmod
+
+[DUP-INF]: ID=8530353148485107(Topic:werewolves)
+  |DATA|ONAM:falx carius|NAME:Terrible beasts, as I have come to learn. Though I thought they had been hunted to extinction, I see now that this is clearly not the case.|SCVR:04JX3BM_Smugglers|INTV:d
+
+[DUP-INF]: ID=30488426554729347(Voice:hello)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM117.mp3|NAME:Welcome, friend.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=264544691871122993(Voice:hello)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF116.mp3|NAME:Swift hunting, friend.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=791424403161478557(Voice:hello)
+  |DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF135.mp3|NAME:The pleasure is all mine.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=2489211522149417613(Voice:hello)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF139.mp3|NAME:Growls|SCVR:01600|INTV|BNAM:;PCVampirism=1
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=9201254721200117760(Voice:hello)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM116.mp3|NAME:Swift hunting, friend.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[MOD-INF]: ID=19841114782955816004(:hello)
+  morrowind.esm-------->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF138.mp3|NAME:Warmly greeted, friend. Welcome.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+  SG_werewolfclans.esp->|NAME:Warmly greeted, friend. Welcome.|DELE:
+
+[DUP-INF]: ID=20683111301811223893(Voice:hello)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF117.mp3|NAME:Welcome, friend.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=23295123702187725686(Persuasion:service refusal)
+  |DATA|ONAM:mirisa|SCVR:04JX4BM_Missionary|INTV:d
+
+[DUP-INF]: ID=26177132131997811420(Voice:hello)
+  |DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF134.mp3|NAME:I like what I see.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20

@@ -1,0 +1,43 @@
+abotGuars.esp: DUP-REC GETSND MENUMOD OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(ab01guGuarPackMountScript)
+	SCPT(ab01gutGuarBumpScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01guAddTopicsScript)
+	SCPT(ab01guDebugTeleportScript)
+	SCPT(ab01guDebugTravelScript)
+	SCPT(ab01guNPCRidingClothArgScript)
+	SCPT(ab01guNPCRidingClothKhaScript)
+	SCPT(ab01guNPCRidingClothScript)
+	SCPT(ab01guNPCRidingFeetScript)
+	SCPT(ab01guOnLoadScript)
+	SCPT(ab01guRidingClothArgScript)
+	SCPT(ab01guRidingClothKhaScript)
+	SCPT(ab01guRidingClothScript)
+	SCPT(ab01guRidingFeetScript)
+	SCPT(ab01guStopAllFollow)
+	SCPT(ab01guTestCompanionScript)
+	SCPT(ab01gufd)
+	SCPT(ab01gutCompBumpScript)
+	SCPT(ab01gutCompFollowStopScript)
+	SCPT(ab01gutCompMoveScript)
+	SCPT(ab01gutCreAutoEatScript)
+	SCPT(ab01gutCreSmarterScript)
+	SCPT(ab01gutCreStatsScript)
+	SCPT(ab01gutFemaleNPCInitScript)
+	SCPT(ab01gutFemalePCInitScript)
+	SCPT(ab01gutGiveHerbsScript)
+	SCPT(ab01gutMaleNPCInitScript)
+	SCPT(ab01gutMalePCInitScript)
+	SCPT(ab01gutNPCMountScript)
+	SCPT(ab01gutRideNPCScript)
+	SCPT(ab01gutSetMountPosScript)
+	SCPT(mel_CBR_AutoHealAddOther)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade

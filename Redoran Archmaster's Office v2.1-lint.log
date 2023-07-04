@@ -1,0 +1,24 @@
+Redoran Archmaster's Office v2.1.esp: DUP-REC MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (84) != Actual count (83)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(rao_cleaner_script)
+	SCPT(rao_secretary_script)
+	SCPT(rao_trader_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    bolvyn venim
+	morrowind.esm       PGRD    ald-ruhn, redoran council entrance
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=31490634401216(Topic:duties)
+  morrowind.esm------------------------>|DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:You are now %PCRank of House Redoran. May the Tribunal guide you to use your position wisely.
+  Redoran Archmaster's Office v2.1.esp->|DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:You are now %PCRank of House Redoran. Here is the key to the Archmaster's Office, which is behind the locked door in the Council Entrance. May the Tribunal guide you to use your position wisely.|SCVR:04JX0rao_quest|INTV:|BNAM:Player->AddItem rao_key 1  journal rao_quest 1
+
+[MOD-INF]: ID=13848608238057368(Topic:duties)
+  morrowind.esm------------------------>|DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:You defeated Bolvyn Venim in an honorable duel. You have proven yourself worthy of the title of %NextPCRank. Congratulations, %PCName, %NextPCRank of House Redoran.|SCVR:34JX3B5_VenimHort|INTV:2|BNAM:PCRaiseRank
+  Redoran Archmaster's Office v2.1.esp->|DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:You defeated Bolvyn Venim in an honorable duel. You have proven yourself worthy of the title of %NextPCRank. Congratulations, %PCName, %NextPCRank of House Redoran. Here is the key to the Archmaster's Office, which is behind the locked door in the Council Entrance|SCVR:04JX0rao_quest|INTV:|SCVR:34JX3B5_VenimHort|INTV:2|BNAM:PCRaiseRank  Player->AddItem rao_key 1  journal rao_quest 1
+
+[MOD-INF]: ID=39813040109528715(Topic:bolvyn venim)
+  morrowind.esm------------------------>|DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:You have won the duel against Bolvyn Venim. You are now the %PCRank of House Redoran. May Vivec guide you to glory.
+  Redoran Archmaster's Office v2.1.esp->|DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:You have won the duel against Bolvyn Venim. You are now the %PCRank of House Redoran. Here is the key to the Archmaster's office in the Redoran Council Entrance where you may oversee the running of our House. May Vivec guide you to glory.|SCVR:04JX0rao_quest|INTV:|BNAM:player->AddItem "rao_key" 1  Journal "rao_quest" 1

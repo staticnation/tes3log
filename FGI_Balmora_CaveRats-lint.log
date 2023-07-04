@@ -1,0 +1,41 @@
+FGI_Balmora_CaveRats.esp: DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (25) != Actual count (22)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    cave rat
+	morrowind.esm       DIAL    pillow shipment
+	morrowind.esm       NPC_    drarayne thelas
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=298932640111666(Topic:cave rat)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:So you killed the rats, %PCName? Not bad...for you. You ready for more orders?|SCVR:34JX0FG_RatHunt|INTV:d|BNAM:Journal FG_RatHunt 105
+  FGI_Balmora_CaveRats.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:So you killed the rats, %PCName? Not bad...for you. You ready for more orders?|SCVR:34JX3FG_RatHunt|INTV:d|BNAM:Journal FG_RatHunt 105
+
+[MOD-INF]: ID=8762061275771660(Greeting:greeting 5)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:Have you taken care of that cave rat problem yet? Surely you can handle even that.|SCVR:04JX3FG_RatHunt|INTV: |SCVR:14JX4FG_RatHunt|INTV:d
+  FGI_Balmora_CaveRats.esp->|DATA|ONAM:eydis fire-eye|NAME:Have you taken care of that cave rat problem yet? Surely you can handle even that.|SCVR:04JX3FG_RatHunt|INTV: |SCVR:14JX4FG_RatHunt|INTV:i
+
+[MOD-INF]: ID=173076926231895779(Topic:cave rat)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:There's nothing more to say about that.|SCVR:14JX0FG_RatHunt|INTV:n
+  FGI_Balmora_CaveRats.esp->|DATA|ONAM:eydis fire-eye|NAME:There's nothing more to say about that.|SCVR:14JX3FG_RatHunt|INTV:i
+
+[MOD-INF]: ID=234178531192911823(Topic:cave rat)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:Go to Drarayne Thelas' house. It's here in Balmora, along the river on the east side. Ask her where the rats are coming from. Kill the rats and get your payment from Drarayne Thelas. Report back to me once you've taken care of this.|SCVR:04JX4FG_RatHunt|INTV: |BNAM:Journal FG_RatHunt 10
+  FGI_Balmora_CaveRats.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Go to Drarayne Thelas' house. It's here in Balmora, along the river on the east side. Ask her where the rats are coming from. Kill the rats and get your payment from Drarayne Thelas. Report back to me once you've taken care of this.|BNAM:Journal FG_RatHunt 10
+
+[MOD-INF]: ID=1806026616964426083(Topic:pillow shipment)
+  morrowind.esm------------>|DATA|ONAM:drarayne thelas|NAME:A shipwreck? That's horrible! Oh, all of those wonderful pillows.... Well, I thank you, %PCName. It is good to know what became of my shipment, though the loss of pillows saddens me. A few of those were stuffed with racer plumes. A real shame. Still, thank you for your help with this. Take this as a token of my appreciation. It has served me well.|SCVR:05IX2bk_pillowinvoice|INTV:|BNAM:Player->removeitem "bk_pillowinvoice" 1  Player->AddItem "misc_uni_pillow_unique" 1  RemoveItem "misc_uni_pillow_unique" 1
+  FGI_Balmora_CaveRats.esp->|DATA|ONAM:drarayne thelas|NAME:A shipwreck? That's horrible! Oh, all of those wonderful pillows.... Well, I thank you, %PCName. It is good to know what became of my shipment, though the loss of pillows saddens me. A few of those were stuffed with racer plumes. A real shame. Still, thank you for your help with this. Take this as a token of my appreciation. It has served me well.|SCVR:05IX2bk_pillowinvoice|INTV:|SCVR:14JX4AA_Pillow|INTV:d|BNAM:Player->removeitem "bk_pillowinvoice" 1  Player->AddItem "misc_uni_pillow_unique" 1  RemoveItem "misc_uni_pillow_unique" 1  Journal "AA_Pillow" 100
+
+[MOD-INF]: ID=1982748741803812127(Greeting:greeting 5)
+  morrowind.esm------------>|DATA|ONAM:drarayne thelas|NAME:Are you the one they sent to take care of the cave rats?|SCVR:04JX4FG_RatHunt|INTV:2
+  FGI_Balmora_CaveRats.esp->|DATA|ONAM:drarayne thelas|NAME:Are you the one they sent to take care of the cave rats?|SCVR:04JX4FG_RatHunt|INTV:2|SCVR:15IX0bk_pillowinvoice|INTV:
+
+[MOD-INF]: ID=2355541851345424085(Topic:cave rat)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:Well, the first job is a bust, %PCName. I've learned something unfortunate happened to Drarayne Thelas. Are you ready for more orders?|SCVR:06DX0drarayne thelas|INTV|SCVR:14JX4FG_RatHunt|INTV:n|BNAM:Journal FG_RatHunt 110
+  FGI_Balmora_CaveRats.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Well, the first job is a bust, %PCName. I've learned something unfortunate happened to Drarayne Thelas. Are you ready for more orders?|SCVR:06DX0drarayne thelas|INTV|SCVR:14JX4FG_RatHunt|INTV:d|BNAM:Journal FG_RatHunt 110
+
+[MOD-INF]: ID=9523291201261418953(Greeting:greeting 5)
+  morrowind.esm------------>|DATA|ONAM:drarayne thelas|NAME:You say you've found out what happened to my pillow shipment?|SCVR:04JX0FG_RatHunt|INTV:d|SCVR:15IX2bk_pillowinvoice|INTV:
+  FGI_Balmora_CaveRats.esp->|DATA|ONAM:drarayne thelas|NAME:You say you've found out what happened to my pillow shipment?|SCVR:04JX3FG_RatHunt|INTV:d|SCVR:15IX2bk_pillowinvoice|INTV:

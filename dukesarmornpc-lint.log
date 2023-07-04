@@ -1,0 +1,15 @@
+dukesarmornpc.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (99) != Actual count (27)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    augurius sialius
+	morrowind.esm       NPC_    duke's guard
+	morrowind.esm       NPC_    duke's guard_tomb
+	morrowind.esm       NPC_    duke's guard_tomb2
+	morrowind.esm       NPC_    matus mido
+	morrowind.esm       NPC_    varus vatinius
+	tribunal.esm        DIAL    lord's mail
+
+[MOD-INF]: ID=6618179852210128456(Topic:lord's mail)
+  tribunal.esm------>|DATA|ONAM:Varus Vatinius|NAME:Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 50  ModPCFacRep 5 "Imperial Legion"  ;PCRaiseRank "Imperial Legion" ;should not raise rank here Todd 4/02/02  AddItem "lords_cuirass_unique" 1  Player->RemoveItem "lords_cuirass_unique" 1  Player->Additem "silver_dukesguard_cuirass" 1
+  dukesarmornpc.ESP->|DATA|ONAM:Varus Vatinius|NAME:Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 50  ModPCFacRep 5 "Imperial Legion"  ;PCRaiseRank "Imperial Legion" ;should not raise rank here Todd 4/02/02  AddItem "lords_cuirass_unique" 1  Player->RemoveItem "lords_cuirass_unique" 1  Player->Additem "silver_dukesguard_cuirass" 1  Player->Additem "A_duke_Gr_GND" 1  Player->Additem "A_duke_Boot_GND" 1  Player->Additem "a_duke_pauld_cl" 1  Player->Additem "a_duke_pauld_cl_left" 1  Player->Additem "A_duke_Bracer_W" 1  Player->Additem "A_duke_Bracer_W_Left" 1  Player->Additem "a_duke_helmet" 1

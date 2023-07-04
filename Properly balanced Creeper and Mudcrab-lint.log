@@ -1,0 +1,20 @@
+Properly balanced Creeper and Mudcrab.ESP: DUP-REC MENUMOD MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(rp_mudcrab_script)
+	SCPT(scampScript)
+	SCPT(scampScript2)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    mudcrab_unique
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    talking mudcrab merchant
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5

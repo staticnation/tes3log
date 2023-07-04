@@ -1,0 +1,503 @@
+legato.esp: DEP-LST DUP-INF DUP-REC FOGBUG JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER NUMRECS OVR-REC SCRDOOR
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tribunal.esm                 4554200 (plugin)    4565686 (installed size)
+    [NUMRECS]: number of records in TES3.HEDR (2178) != Actual count (2078)
+    [DEP-LST] Deprecated use of Leveled List functions on Bethesda Lists:
+	SCPT(ktx_waktivator_startscript)     addtolevitem "l_n_armor_shields"
+	SCPT(ktx_waktivator_startscript)     addtolevitem "random_armor_steel"
+	SCPT(ktx_waktivator_startscript)     addtolevitem "random_golden_saint_shield"
+    [FOGBUG]: Cells with zero fog density setting:
+	Senken, Dojo
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AhemmusaKill)
+	SCPT(db_grassflowing)
+	SCPT(ktx_gi_script)
+	SCPT(ktx_gi_swap_global)
+	SCPT(ktx_give_stuff)
+	SCPT(ktx_hakama_script)
+	SCPT(ktx_mask_script)
+	SCPT(ktx_ninjato_drawn_script)
+	SCPT(ktx_tabi_script)
+	SCPT(ktx_waktivator_startscript)
+	SCPT(leg_drawn_script)
+	SCPT(leg_equipped_script)
+	SCPT(leg_ktx_swap_global)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	door_load_darkness00                 passageScript
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (0, -16)           0x02
+	Ascadian Isles Region (0, -17)           0x02
+	Ascadian Isles Region (1, -17)           0x02
+	Ascadian Isles Region (2, -16)           0x02
+	Ascadian Isles Region (3, -16)           0x02
+	Ascadian Isles Region (3, -17)           0x02
+	Ascadian Isles Region (4, -17)           0x02
+	Ascadian Isles Region (5, -16)           0x02
+	Ascadian Isles Region (5, -17)           0x02
+	Ascadian Isles Region (6, -16)           0x02
+	Ascadian Isles Region (6, -17)           0x02
+	Ascadian Isles Region (6, -18)           0x02
+	Bitter Coast Region (-1, -16)            0x02
+	Bitter Coast Region (-1, -9)             0x02
+	Bitter Coast Region (-2, -15)            0x02
+	Bitter Coast Region (-3, -11)            0x02
+	Bitter Coast Region (-3, -12)            0x02
+	Bitter Coast Region (-3, -13)            0x02
+	Bitter Coast Region (-4, -11)            0x02
+	Bitter Coast Region (-4, -12)            0x02
+	Bitter Coast Region (-4, -13)            0x02
+	Bitter Coast Region (-4, -14)            0x02
+	Bitter Coast Region (-5, -11)            0x02
+	Bitter Coast Region (-5, -12)            0x02
+	Bitter Coast Region (-5, -13)            0x02
+	Bitter Coast Region (-5, -14)            0x02
+	Bitter Coast Region (-6, -10)            0x02
+	Bitter Coast Region (-6, -11)            0x02
+	Bitter Coast Region (-6, -12)            0x02
+	Bitter Coast Region (-6, -13)            0x02
+	Bitter Coast Region (-7, -10)            0x02
+	Bitter Coast Region (-7, -11)            0x02
+	Bitter Coast Region (-7, -12)            0x02
+	Bitter Coast Region (-8, -10)            0x02
+	Bitter Coast Region (-8, -11)            0x02
+	Bitter Coast Region (-9, -10)            0x02
+	Bitter Coast Region (-9, -11)            0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    background
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    barrel_01_cheapfood5
+	bloodmoon.esm       INGR    ingred_moon_sugar_01
+	bloodmoon.esm       MISC    misc_flask_01
+	bloodmoon.esm       STAT    ex_ropebridge_2048_01
+	morrowind.esm       ACTI    ex_de_constr_06
+	morrowind.esm       ACTI    ex_lavacave_spout00
+	morrowind.esm       ACTI    ex_vivec_waterfall_01
+	morrowind.esm       ACTI    in_lava_1024_01
+	morrowind.esm       ACTI    steam_nchuleftingth_02
+	morrowind.esm       CONT    barrel_01_moonsugar
+	morrowind.esm       CONT    flora_hackle-lo_01
+	morrowind.esm       CONT    flora_hackle-lo_02
+	morrowind.esm       CONT    flora_kreshweed_02
+	morrowind.esm       CONT    flora_marshmerrow_01
+	morrowind.esm       CONT    flora_marshmerrow_02
+	morrowind.esm       CONT    flora_marshmerrow_03
+	morrowind.esm       CONT    flora_rm_scathecraw_01
+	morrowind.esm       DOOR    pelagiad_halfway_room
+	morrowind.esm       LIGH    furn_de_firepit_f_400
+	morrowind.esm       LIGH    light_de_paper_lantern_04
+	morrowind.esm       LIGH    light_de_paper_lantern_04_177
+	morrowind.esm       LIGH    light_de_paper_lantern_04_off
+	morrowind.esm       LIGH    light_sconce00_256
+	morrowind.esm       LTEX    ac_darkgravel
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_clover
+	morrowind.esm       LTEX    ai_dirt
+	morrowind.esm       LTEX    ai_dirtroad
+	morrowind.esm       LTEX    ai_grass
+	morrowind.esm       LTEX    ai_grass_02
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_dirt
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    ai_tilled_dirt
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_04
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava02
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sandstone02
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock03
+	morrowind.esm       LTEX    rm_grayrock
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_rock_03
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    sand_02
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_road
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       MISC    misc_com_redware_plate
+	morrowind.esm       SCPT    AhemmusaKill
+	morrowind.esm       STAT    ex_ai_boulder08
+	morrowind.esm       STAT    ex_de_docks_128
+	morrowind.esm       STAT    ex_de_docks_center
+	morrowind.esm       STAT    ex_de_docks_centerb
+	morrowind.esm       STAT    ex_de_docks_centers
+	morrowind.esm       STAT    ex_de_docks_cleat
+	morrowind.esm       STAT    ex_de_docks_cornersb_02
+	morrowind.esm       STAT    ex_de_docks_gate
+	morrowind.esm       STAT    ex_de_docks_piling
+	morrowind.esm       STAT    ex_de_docks_pilings
+	morrowind.esm       STAT    ex_de_railing_01
+	morrowind.esm       STAT    ex_de_scaffold_01a
+	morrowind.esm       STAT    ex_dwrv_block00
+	morrowind.esm       STAT    ex_dwrv_block10
+	morrowind.esm       STAT    ex_dwrv_block20
+	morrowind.esm       STAT    ex_dwrv_block30
+	morrowind.esm       STAT    ex_dwrv_boulder20
+	morrowind.esm       STAT    ex_gg_gatetriolith_01
+	morrowind.esm       STAT    ex_hlaalu_pole_01
+	morrowind.esm       STAT    ex_imp_dragonstatue
+	morrowind.esm       STAT    ex_imp_plat_01
+	morrowind.esm       STAT    ex_rope_short
+	morrowind.esm       STAT    ex_ropebridge_01
+	morrowind.esm       STAT    ex_ropebridge_512_01
+	morrowind.esm       STAT    ex_ruin_rubble00
+	morrowind.esm       STAT    ex_t_rock_coastal_02
+	morrowind.esm       STAT    ex_v_stolms_01
+	morrowind.esm       STAT    ex_velothi_striderport_01
+	morrowind.esm       STAT    ex_vivec_w_g_01
+	morrowind.esm       STAT    flora_ash_log_03
+	morrowind.esm       STAT    flora_bc_fern_03
+	morrowind.esm       STAT    flora_bc_lilypad
+	morrowind.esm       STAT    flora_bc_lilypad_03
+	morrowind.esm       STAT    flora_bc_log_01
+	morrowind.esm       STAT    flora_bc_log_02
+	morrowind.esm       STAT    flora_bush_01
+	morrowind.esm       STAT    flora_ivy_01
+	morrowind.esm       STAT    flora_ivy_02
+	morrowind.esm       STAT    flora_kelp_02
+	morrowind.esm       STAT    flora_kelp_03
+	morrowind.esm       STAT    flora_tree_gl_09
+	morrowind.esm       STAT    flora_tree_gl_10
+	morrowind.esm       STAT    furn_com_r_table_01
+	morrowind.esm       STAT    furn_com_rm_bar_01
+	morrowind.esm       STAT    furn_com_rm_table_05
+	morrowind.esm       STAT    furn_de_p_table_04
+	morrowind.esm       STAT    furn_de_rope_04
+	morrowind.esm       STAT    furn_de_rope_05
+	morrowind.esm       STAT    furn_de_rope_06
+	morrowind.esm       STAT    furn_de_rope_06_unique
+	morrowind.esm       STAT    furn_de_roped_pole_01
+	morrowind.esm       STAT    furn_fireplace10
+	morrowind.esm       STAT    furn_guarcart00
+	morrowind.esm       STAT    in_c_pillar_wood
+	morrowind.esm       STAT    in_c_railing_01
+	morrowind.esm       STAT    in_c_stairs_rich_ptall_01
+	morrowind.esm       STAT    in_cavern_ramp00
+	morrowind.esm       STAT    in_cavern_stairs00
+	morrowind.esm       STAT    in_cavern_wallmount00
+	morrowind.esm       STAT    in_lava_rock_28
+	morrowind.esm       STAT    in_mudboulder05
+	morrowind.esm       STAT    in_pyboulder02
+	morrowind.esm       STAT    in_pyboulder03
+	morrowind.esm       STAT    in_pyboulder04
+	morrowind.esm       STAT    in_pyboulder05
+	morrowind.esm       STAT    in_pycave2_s_02
+	morrowind.esm       STAT    in_vivec_grate_01
+	morrowind.esm       STAT    terrain_ashland_rock_11
+	morrowind.esm       STAT    terrain_ma_30
+	morrowind.esm       STAT    terrain_natural_bridge_01
+	morrowind.esm       STAT    terrain_rock_ac_04
+	morrowind.esm       STAT    terrain_rock_ac_08
+	morrowind.esm       STAT    terrain_rock_ac_11
+	morrowind.esm       STAT    terrain_rock_ai_02
+	morrowind.esm       STAT    terrain_rock_ai_05
+	morrowind.esm       STAT    terrain_rock_ai_06
+	morrowind.esm       STAT    terrain_rock_ai_07
+	morrowind.esm       STAT    terrain_rock_ai_08
+	morrowind.esm       STAT    terrain_rock_ai_09
+	morrowind.esm       STAT    terrain_rock_ai_10
+	morrowind.esm       STAT    terrain_rock_ai_11
+	morrowind.esm       STAT    terrain_rock_ai_12
+	morrowind.esm       STAT    terrain_rock_bc_02
+	morrowind.esm       STAT    terrain_rock_bc_05
+	morrowind.esm       STAT    terrain_rock_bc_11
+	morrowind.esm       STAT    terrain_rock_bc_15
+	morrowind.esm       STAT    terrain_rock_bc_16
+	morrowind.esm       STAT    terrain_rock_bc_17
+	morrowind.esm       STAT    terrain_rock_bc_18
+	morrowind.esm       STAT    terrain_rock_gl_05
+	morrowind.esm       STAT    terrain_rock_gl_08
+	morrowind.esm       STAT    terrain_rock_gl_09
+	morrowind.esm       STAT    terrain_rock_gl_10
+	morrowind.esm       STAT    terrain_rock_gl_11
+	morrowind.esm       STAT    terrain_rock_gl_12
+	morrowind.esm       STAT    terrain_rock_ma_19
+	morrowind.esm       STAT    terrain_rock_rm_08
+	morrowind.esm       STAT    terrain_rock_rm_12
+	morrowind.esm       STAT    terrain_rock_rm_13
+	morrowind.esm       STAT    terrain_rock_rm_14
+	morrowind.esm       STAT    terrain_rock_rm_15
+	morrowind.esm       STAT    terrain_rock_rm_17
+	morrowind.esm       STAT    terrain_rock_rm_18
+	morrowind.esm       STAT    terrain_rock_rm_19
+	morrowind.esm       STAT    terrain_rock_rm_20
+	morrowind.esm       STAT    terrain_rock_rm_21
+	morrowind.esm       STAT    terrain_rock_rm_22
+	morrowind.esm       STAT    terrain_rock_rm_23
+	morrowind.esm       STAT    terrain_rock_wg_04
+	morrowind.esm       STAT    terrain_rock_wg_05
+	morrowind.esm       STAT    terrain_rock_wg_08
+	morrowind.esm       STAT    terrain_rock_wg_11
+	morrowind.esm       STAT    terrain_rock_wg_13
+	morrowind.esm       STAT    terrain_rock_wg_17
+	morrowind.esm       STAT    terrain_rock_wg_18
+	morrowind.esm       STAT    terrain_rock_wg_unique
+	morrowind.esm       STAT    terrain_rocks_ai_01
+	morrowind.esm       STAT    terrain_rocks_ai_03
+	morrowind.esm       STAT    terrain_rocks_ai_04
+	morrowind.esm       STAT    terrain_rocks_gl_01
+	morrowind.esm       STAT    terrain_rocks_gl_02
+	morrowind.esm       STAT    terrain_rocks_gl_03
+	morrowind.esm       STAT    terrain_rocks_gl_04
+	morrowind.esm       STAT    terrain_rocks_wg_01
+	morrowind.esm       STAT    terrain_rocks_wg_04
+	tribunal.esm        ACTI    ex_vivec_waterfall_03
+	tribunal.esm        ACTI    ex_vivec_waterfall_05
+	tribunal.esm        DOOR    door_load_darkness00
+	tribunal.esm        DOOR    ex_cave_door_01
+	tribunal.esm        DOOR    ex_h_trapdoor_01
+	tribunal.esm        DOOR    ex_mh_pav_ladder_01
+	tribunal.esm        STAT    ex_mh_canal_grate_01
+	tribunal.esm        STAT    ex_t_rock_coastal_01
+	tribunal.esm        STAT    ex_vivec_p_water_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    smuggling
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       BODY    b_n_wood elf_f_hair_01
+	morrowind.esm       BODY    b_n_wood elf_f_hair_02
+	morrowind.esm       BODY    b_n_wood elf_f_hair_03
+	morrowind.esm       BODY    b_n_wood elf_f_hair_04
+	morrowind.esm       BODY    b_n_wood elf_f_hair_05
+	morrowind.esm       BODY    b_n_wood elf_f_head_01
+	morrowind.esm       BODY    b_n_wood elf_f_head_02
+	morrowind.esm       BODY    b_n_wood elf_f_head_03
+	morrowind.esm       BODY    b_n_wood elf_f_head_04
+	morrowind.esm       BODY    b_n_wood elf_f_head_05
+	morrowind.esm       BODY    b_n_wood elf_f_head_06
+	morrowind.esm       BODY    b_n_wood elf_m_hair_01
+	morrowind.esm       BODY    b_n_wood elf_m_hair_02
+	morrowind.esm       BODY    b_n_wood elf_m_hair_03
+	morrowind.esm       BODY    b_n_wood elf_m_hair_04
+	morrowind.esm       BODY    b_n_wood elf_m_hair_05
+	morrowind.esm       BODY    b_n_wood elf_m_hair_06
+	morrowind.esm       BODY    b_n_wood elf_m_head_01
+	morrowind.esm       BODY    b_n_wood elf_m_head_02
+	morrowind.esm       BODY    b_n_wood elf_m_head_03
+	morrowind.esm       BODY    b_n_wood elf_m_head_04
+	morrowind.esm       BODY    b_n_wood elf_m_head_05
+	morrowind.esm       BODY    b_n_wood elf_m_head_06
+	morrowind.esm       BODY    b_n_wood elf_m_head_07
+	morrowind.esm       BODY    b_n_wood elf_m_head_08
+	morrowind.esm       CREA    slaughterfish_hr_sfavd
+	morrowind.esm       DIAL    help me
+	morrowind.esm       DIAL    talk
+	morrowind.esm       LAND    (-1, -16)
+	morrowind.esm       LAND    (-1, -17)
+	morrowind.esm       LAND    (-2, -15)
+	morrowind.esm       LAND    (-3, -11)
+	morrowind.esm       LAND    (-3, -12)
+	morrowind.esm       LAND    (-3, -13)
+	morrowind.esm       LAND    (-4, -11)
+	morrowind.esm       LAND    (-4, -12)
+	morrowind.esm       LAND    (-4, -13)
+	morrowind.esm       LAND    (-4, -14)
+	morrowind.esm       LAND    (-5, -11)
+	morrowind.esm       LAND    (-5, -12)
+	morrowind.esm       LAND    (-5, -13)
+	morrowind.esm       LAND    (-5, -14)
+	morrowind.esm       LAND    (-6, -10)
+	morrowind.esm       LAND    (-6, -11)
+	morrowind.esm       LAND    (-6, -12)
+	morrowind.esm       LAND    (-6, -13)
+	morrowind.esm       LAND    (-6, -14)
+	morrowind.esm       LAND    (-7, -10)
+	morrowind.esm       LAND    (-7, -11)
+	morrowind.esm       LAND    (-7, -12)
+	morrowind.esm       LAND    (-7, -13)
+	morrowind.esm       LAND    (-7, -14)
+	morrowind.esm       LAND    (-8, -10)
+	morrowind.esm       LAND    (-8, -11)
+	morrowind.esm       LAND    (-8, -12)
+	morrowind.esm       LAND    (-8, -13)
+	morrowind.esm       LAND    (-8, -14)
+	morrowind.esm       LAND    (-9, -10)
+	morrowind.esm       LAND    (-9, -11)
+	morrowind.esm       LAND    (-9, -12)
+	morrowind.esm       LAND    (-9, -13)
+	morrowind.esm       LAND    (-9, -14)
+	morrowind.esm       LAND    (0, -16)
+	morrowind.esm       LAND    (0, -17)
+	morrowind.esm       LAND    (1, -17)
+	morrowind.esm       LAND    (2, -16)
+	morrowind.esm       LAND    (2, -17)
+	morrowind.esm       LAND    (3, -16)
+	morrowind.esm       LAND    (3, -17)
+	morrowind.esm       LAND    (4, -17)
+	morrowind.esm       LAND    (5, -16)
+	morrowind.esm       LAND    (5, -17)
+	morrowind.esm       LAND    (6, -16)
+	morrowind.esm       LAND    (6, -17)
+	morrowind.esm       LAND    (6, -18)
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    lavacrust02.tga
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    tx_lavacrust00.tga
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       NPC_    fargoth
+	morrowind.esm       PGRD    ashlands region
+	morrowind.esm       RACE    wood elf
+	morrowind.esm       REGN    bitter coast region
+	morrowind.esm       WEAP    daedric dai-katana
+	morrowind.esm       WEAP    daedric katana
+	morrowind.esm       WEAP    daedric wakizashi
+	morrowind.esm       WEAP    daedric wakizashi_hhst
+	morrowind.esm       WEAP    demon katana
+	morrowind.esm       WEAP    devil katana
+	morrowind.esm       WEAP    fiend katana
+	morrowind.esm       WEAP    katana_bluebrand_unique
+	morrowind.esm       WEAP    katana_goldbrand_unique
+	morrowind.esm       WEAP    steel dai-katana
+	morrowind.esm       WEAP    steel katana
+	morrowind.esm       WEAP    steel wakizashi
+	tribunal.esm        CREA    goblin_bruiser
+	tribunal.esm        CREA    goblin_grunt
+	tribunal.esm        CREA    goblin_officer
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+
+[DUP-INF]: ID=128279104427445(Topic:latest rumors)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=696289923385693(Topic:little secret)
+  |DATA|NAME:Don't mess with the Hands of Almalexia. It's not a mistake you'll get to repeat.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX5Random100|INTV: 
+
+[DUP-INF]: ID=2500677723394663(Topic:little secret)
+  |DATA|ONAM:Salas Valor|NAME:Here's our little secret. I can kill you without quickening my pulse.|BNAM:Goodbye
+
+[DUP-INF]: ID=5178505957589111(Topic:little advice)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=11700302876608592(Topic:my trade)
+  |DATA|CNAM:Farmer|NAME:I am a farmer. I grow crops, and raise animals for food, and gather animal products and vegetable products from the land for my own use or for sale at the markets.|SCVR:0CsX0NoLore|INTV:|BNAM:;Farmer; animal products and vegetable products;
+
+[DUP-INF]: ID=24478207291628603(Topic:background)
+  |DATA|CNAM:Assassin|NAME:You may call me %Name. What I do is my own affair.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=25234166183211457(Topic:talk)
+  |DATA|FNAM:Ashlanders|ANAM:Urshilaku Camp|NAME:You want to speak to Sul-Matuul. You want to speak to Nibani Maesa. Have they sent for you?|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:17XX0sul-matuul|INTV:|SCVR:27XX0nibani maesa|INTV:|BNAM:;Ashlander, Urshilaku Camp;  Choice "Yes" 1 "No" 2
+
+[DUP-INF]: ID=178622957440379472(Topic:background)
+  |DATA|NAME:I am %Name, the %Rank of the %Faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll get this one if they are the highest rank in their faction  ClearInfoActor
+
+[DUP-INF]: ID=206761854481713449(Topic:help me)
+  |DATA|ONAM:bugrol gro-bagul|NAME:You wanna help? Sure you do, good friend. Look--those guys in Caldera think I did something bad, so they're looking for me. I'm too smart for them, though. I can hide real good. My friend can help me. Maybe you bring her a note for me? I can give you a present. Really!|SCVR:04JX4MV_Bugrol|INTV|BNAM:Choice "Take note from Bugrol." 1 "Don't take note from Bugrol." 2
+
+[DUP-INF]: ID=1138821410253995635(Topic:my trade)
+  |DATA|NAME:I am a vampire hunter. It is my life's work as it was my father's and his father before him. I seek out the dark ones wherever they may hide. With Light of Day in my hand and Darksun on my arm, I kill them, that they may no longer pray upon the innocent people of Tamriel. Fear these creatures, outlander. Destroy them if you can, run if you must, but never let their disease flow through your veins. Or I will find you.
+
+[DUP-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  |DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+
+[DUP-INF]: ID=1393122572769712662(Topic:little advice)
+  |DATA|ONAM:holmar|NAME:Wha?
+
+[DUP-INF]: ID=1441631215305195630(Topic:talk)
+  |DATA|FNAM:Ashlanders|ANAM:Urshilaku Camp|NAME:There is nothing in your words for me. Talk with someone else.|SCVR:04JX0A2_1_MeetSulMatuul|INTV:|SCVR:17XX0sul-matuul|INTV|SCVR:27XX0nibani maesa|INTV|BNAM:;Ashlander, Urshilaku Camp;; Journal "A2-1 Meet Sul-Matuul" = 0
+
+[DUP-INF]: ID=1533124976301628639(Topic:smuggling)
+  |DATA|FNAM:Imperial Legion|NAME:Smuggling is the most profitable and dangerous of criminal enterprises in Vvardenfell.|SCVR:0CsX0NoLore|INTV:|BNAM:;Imperial Legion;
+
+[DUP-INF]: ID=2009321524546510645(Topic:morrowind lore)
+  |DATA|ONAM:din|NAME:I don't know anything about that! I never even met Morrowind! Nosy fish, you are.|SCVR:04JX4MV_MonsterDisease|INTV:1
+
+[DUP-INF]: ID=2293815005305422806(Topic:my trade)
+  |DATA|CNAM:Herder|NAME:I am a herder. I watch over the tribe's herds of guar and shalk. I butcher the guar and shalk and preserve their meats to feed the tribe. I tan the guar hides, render the shalk resins, and season the shalk shells. Then the tribe's craftsmen take these things and make the things we need for ourselves, and the things we sell to traders and other tribes.|SCVR:0CsX0NoLore|INTV:|BNAM:;Herder; ashlands ecology
+
+[DUP-INF]: ID=2454723999293124932(Topic:morrowind lore)
+  |DATA|ONAM:Vedam Dren|NAME:We have grown too complacent about the threat of Dagoth Ur and Red Mountain. For ages we've relied on the Tribunal to contain the menace. But Dagoth Ur's power is waxing as the Tribunal's power is waning. The Legion garrisons here are insufficient to protect our settlements, and there's no hope for reinforcements. Our people have always relied on a charismatic leader to rally squabbling factions against a common foe. Now would be a good time for such a leader to emerge.
+
+[DUP-INF]: ID=2632427741322528929(Topic:latest rumors)
+  |DATA|ONAM:holmar|NAME:Wha?
+
+[DUP-INF]: ID=3020161092515718270(Topic:my trade)
+  |DATA|ONAM:arethan mandas|NAME:I'm a knight by night. Not the best night to be a knight. No horse, no title, no stronghold.
+
+[DUP-INF]: ID=15878199043072027956(Topic:my trade)
+  |DATA|ONAM:movis darys|NAME:I am a student here. At the school. I want to learn to read.|SCVR:34JX4MT_DB_Darys|INTV:2
+
+[DUP-INF]: ID=19327158352756725056(Topic:latest rumors)
+  |DATA|ONAM:effe_tei|NAME:The old king, Athyn Llethan, is dead. Long live King Hlaalu Helseth. Things are pretty grim here in the City of Light since the troubles with Dagoth Ur. Mournhold is Almalexia's city, and she's become more of a Warrior Queen than a Lady of Mercy. And there's always been hostility between the Temple and the Imperial administration, but since Helseth's accession, the tension between Imperial-leaning Dunmer and Almalexia's supporters is much worse.
+
+[DUP-INF]: ID=19669133342977420636(Topic:my trade)
+  |DATA|ONAM:viras guls|DNAM:Redoran|NAME:I am the Hetman of this new settlement at Indarys Manor. I handle disputes and enforce the law while you are away, %PCName.
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

@@ -1,0 +1,62 @@
+Nerano Vaults V1.4.ESP: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Bloodmoon.esm                9631289 (plugin)    9631798 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(RM_A_armourset)
+	SCPT(RM_A_books)
+	SCPT(RM_MoreBooks)
+	SCPT(RM_add_Adam_armour)
+	SCPT(RM_add_Clavius)
+	SCPT(RM_add_Glass_armour)
+	SCPT(RM_add_Goldbrand)
+	SCPT(RM_add_Ice)
+	SCPT(RM_add_Imp_armour)
+	SCPT(RM_add_Magnus)
+	SCPT(RM_add_Umbra)
+	SCPT(RM_add_bonemold_armour)
+	SCPT(RM_add_books)
+	SCPT(RM_add_chitin_armour)
+	SCPT(RM_add_dwemer)
+	SCPT(RM_add_ebony_armour)
+	SCPT(RM_add_indoril_armour)
+	SCPT(RM_add_iron)
+	SCPT(RM_add_mercy)
+	SCPT(RM_add_orc_armour)
+	SCPT(RM_add_scourge)
+	SCPT(RM_add_templar_armour)
+	SCPT(RM_add_unique_sword)
+	SCPT(RM_ingredients_away)
+	SCPT(RM_ingredients_away12)
+	SCPT(RM_ingredients_away14)
+	SCPT(RM_ingredients_away15)
+	SCPT(RM_ingredients_away2)
+	SCPT(RM_ingredients_away3)
+	SCPT(RM_ingredients_away4)
+	SCPT(RM_ingredients_away5)
+	SCPT(RM_ingredients_away6)
+	SCPT(RM_ingredients_away7)
+	SCPT(RM_ingredients_away8)
+	SCPT(RM_ingredients_away9)
+	SCPT(RM_keyneeded)
+	SCPT(RM_practice_lock)
+	SCPT(RM_ratty)
+	SCPT(RM_sermons)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    in_v_s_trapdoor_02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       BOOK    bk_houseoftroubles_o
+	morrowind.esm       ALCH    p_cure_poison_s
+	morrowind.esm       BOOK    bookskill_mercantile5
+	morrowind.esm       NPC_    ondres nerano
+	morrowind.esm       PGRD    balmora, nerano manor
+	morrowind.esm       WEAP    daedric_crescent_unique
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[MOD-INF]: ID=20677245321738228044(Greeting:greeting 5)
+  morrowind.esm---------->|DATA|ONAM:ondres nerano|NAME:A visitor! And an outlander, too! What brings you to Nerano Manor?
+  Nerano Vaults V1.4.ESP->|DATA|ONAM:ondres nerano|NAME:A visitor! And an outlander, too! What brings you to Nerano Manor? Have you heard about my room for rent?|SCVR:02sX0vaultkey|INTV:

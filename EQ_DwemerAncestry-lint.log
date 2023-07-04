@@ -1,0 +1,128 @@
+EQ_DwemerAncestry.ESP: AUTOSPL DUP-INF DUP-REC FOGBUG JUNKCEL MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	malacath curse                 Malacath's Curse
+    [NUMRECS]: number of records in TES3.HEDR (211) != Actual count (210)
+    [FOGBUG]: Cells with zero fog density setting:
+	Nzingthamd
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BloodReader)
+	SCPT(DeepestBlood)
+	SCPT(DwemerBloodreader)
+	SCPT(edwinnaScript)
+	SCPT(nzingthamdBridge)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (0, 5)                   0x02
+	Ashlands Region (1, 3)                   0x02
+	Ashlands Region (1, 4)                   0x02
+	Ashlands Region (3, 4)                   0x02
+	Red Mountain Region (3, 5)               0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       MISC    misc_quill
+	bloodmoon.esm       STAT    ex_dwrv_bridge10
+	bloodmoon.esm       STAT    furn_table_thirsk_over
+	bloodmoon.esm       STAT    in_dae_platform_512_01
+	bloodmoon.esm       WEAP    silver flameskewer
+	morrowind.esm       ACTI    sound_dwemer_ruin00
+	morrowind.esm       ARMO    dwemer_helm
+	morrowind.esm       BOOK    bookskill_speechcraft1
+	morrowind.esm       CONT    dwrv_chest00
+	morrowind.esm       DOOR    door_dwrv_inner00
+	morrowind.esm       DOOR    door_dwrv_loaddown00
+	morrowind.esm       INGR    ingred_daedras_heart_01
+	morrowind.esm       LIGH    lava_light_4096
+	morrowind.esm       LIGH    light_dwrv_neon02
+	morrowind.esm       LIGH    light_dwrv_neonbroke_off
+	morrowind.esm       MISC    misc_dwrv_bowl00
+	morrowind.esm       MISC    misc_dwrv_gear00
+	morrowind.esm       MISC    misc_dwrv_mug00
+	morrowind.esm       MISC    misc_inkwell
+	morrowind.esm       STAT    ex_dae_malacath_attack
+	morrowind.esm       STAT    ex_de_shack_awning_04
+	morrowind.esm       STAT    ex_dwrv_block30
+	morrowind.esm       STAT    ex_dwrv_boulder10
+	morrowind.esm       STAT    ex_dwrv_bridge00
+	morrowind.esm       STAT    ex_dwrv_cosmo00
+	morrowind.esm       STAT    ex_dwrv_ruin20
+	morrowind.esm       STAT    ex_dwrv_ruin30
+	morrowind.esm       STAT    ex_dwrv_ruin40
+	morrowind.esm       STAT    ex_dwrv_ruin50
+	morrowind.esm       STAT    ex_dwrv_ruin70
+	morrowind.esm       STAT    ex_dwrv_statue00
+	morrowind.esm       STAT    furn_de_practice_mat
+	morrowind.esm       STAT    furn_dwrv_fitting20
+	morrowind.esm       STAT    in_dae_platform_stairs
+	morrowind.esm       STAT    in_dwrv_corr2_00
+	morrowind.esm       STAT    in_dwrv_corr2_01
+	morrowind.esm       STAT    in_dwrv_corr2_02
+	morrowind.esm       STAT    in_dwrv_corr2_03
+	morrowind.esm       STAT    in_dwrv_corr2_04
+	morrowind.esm       STAT    in_dwrv_corr3_01
+	morrowind.esm       STAT    in_dwrv_corr3_02
+	morrowind.esm       STAT    in_dwrv_corr4_03
+	morrowind.esm       STAT    in_dwrv_corr4_04
+	morrowind.esm       STAT    in_dwrv_hall4_00
+	morrowind.esm       STAT    in_lava_rock_01
+	morrowind.esm       STAT    in_lava_rock_02
+	morrowind.esm       STAT    in_lava_rock_05
+	morrowind.esm       STAT    in_lava_rock_08
+	morrowind.esm       STAT    in_lava_rock_17
+	morrowind.esm       STAT    in_lava_rock_23
+	morrowind.esm       STAT    in_lava_rock_28
+	morrowind.esm       WEAP    dwarven halberd
+	tribunal.esm        CONT    chest_small_01_soulgem
+	tribunal.esm        MISC    misc_dwrv_pitcher00_uni
+	tribunal.esm        STAT    furn_dwrv_bookshelf00
+	tribunal.esm        STAT    in_dwe_pipe00_exp
+	tribunal.esm        STAT    in_dwrv_corr1_00
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    barrel_02
+	bloodmoon.esm       NPC_    bereditte jastal
+	bloodmoon.esm       NPC_    bereditte jastal_out
+	morrowind.esm       CLOT    belt of the armor of god
+	morrowind.esm       CONT    dwrv_chest10
+	morrowind.esm       CREA    ogrim
+	morrowind.esm       DIAL    dwemer artifacts
+	morrowind.esm       DIAL    orc
+	morrowind.esm       NPC_    codus callonus
+	morrowind.esm       NPC_    dorisa darvel
+	morrowind.esm       NPC_    edwinna elbert
+	morrowind.esm       NPC_    jobasha
+	morrowind.esm       NPC_    simine fralinie
+	morrowind.esm       NPC_    tarvyn faren
+	tribunal.esm        CREA    centurion_spider
+	tribunal.esm        CREA    centurion_spider_dead
+	tribunal.esm        DIAL    favor
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        NPC_    edre retene
+	tribunal.esm        NPC_    sanaso sarothran
+
+[DUP-INF]: ID=3375742770827395(Greeting:greeting 5)
+  |DATA|ONAM:omesu hlarys|NAME:I don't get paid to answer questions.|BNAM:goodbye
+
+[DUP-INF]: ID=57052426372648466(Topic:latest rumors)
+  |DATA|ANAM:Mournhold, The Winged Guar|NAME:Whatever you do, don't play cards with Galms Seles. He's a hustler just moved here from Vvardenfell. He thinks he can out-distance his reputation, but a friend in Sadrith Mora tipped me off. I wish he would leave. He's put a damper on the action.|SCVR:17XX0denegor|INTV|SCVR:27XX0galms seles|INTV|SCVR:37XX0hession|INTV|SCVR:4CsX0NoLore|INTV:|BNAM:set "galms seles".known to 1
+
+[DUP-INF]: ID=109197301008718284(Topic:latest rumors)
+  |DATA|ONAM:rerlas mon|NAME:If you're thinking of going down the sewers to explore Old Mournhold, watch out for the Black Dart Gang. They look like helpless paupers, but they are deadly. They prey on adventurers coming out of the ruins loaded with treasure. They call them the Black Dart Gang on account of the poisoned black darts they use -- deadly poison -- one is enough to kill you.
+
+[DUP-INF]: ID=164070102684613596(Topic:favor)
+  |DATA|ONAM:Gaenor|NAME:Heh. Umm, maybe I'm not being clear here. I'm trying to say that I'd REALLY appreciate it if you could just help me out a little bit. It's only a hundred gold. I'm sure you've got that much, and I'm sure you wouldn't even miss it. So come on. Really. Help me out!|SCVR:01500|INTV|BNAM:Choice: "Okay, here you go." 3 "No, really. I mean it." 8  moddisposition -5
+
+[MOD-INF]: ID=2619168382311721328(Topic:orc)
+  morrowind.esm--------->|DATA|RNAM:Orc|NAME:They call us barbarians because we are brave in war and we laugh at hardship. But we have earned our citizenship by service in the legions, and we are as civilized as any race. We make the finest weapons and armor in the world, and our warriors are the bravest and toughest in Tamriel.|SCVR:0CsX0NoLore|INTV:|BNAM:; Orc ;
+  EQ_DwemerAncestry.ESP->|DATA|RNAM:Orc|NAME:Well technically I may be an Orc, however do not let appearances deceive you. My ancestry traces back to the ancient forgotten people of the Dwemer. If you don't believe me, you can help me prove my ancestry.|SCVR:0CsX0NoLore|INTV:|BNAM:; Orc ;
+
+[DUP-INF]: ID=7960125311936721429(Topic:dwemer artifacts)
+  |DATA|ONAM:artisa arelas|NAME:Artifacts salvaged from Dwemer ruins are valuable, but protected under Imperial law, and trade in such artifacts is illegal. Most valuable are Dwarven weapons and armor, both for their superb craftsmanship, and for their value to collectors and scholars.|BNAM:; bard, bookseller, savant
+
+[DUP-INF]: ID=9350226882929132340(Topic:favor)
+  |DATA|ONAM:Gaenor|NAME:You really are something, %PCName. I can see we're going to get along famously! Okay, I'll be up front with you. If I could just have another, oh, thousand gold or so, I can really make it here. I just know it. You've been so good to me, and it's clear that you've got the money...  Just a little more help, that's all I ask for.  You'll do it, right?|SCVR:01500|INTV|SCVR:12lX3PCGold|INTV:d|BNAM:player->removeitem "gold_001" 100  StartScript GetPCGold  Choice: "Okay. Here you are." 5 "No, that's too much. Sorry." 6
+
+[DUP-INF]: ID=19115280293018318990(Greeting:greeting 5)
+  |DATA|ONAM:hloris farano|NAME:Welcome to the Sadrith Mora Temple. No... we are not Telvanni wizards. Look, I wear the vestments of the Temple. Though I understand your confusion. It is rather dark in here. And cramped. And it certainly doesn't look like a Temple, does it? But we do offers the standard Temple services here.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=30087211412896015428(Topic:dwemer artifacts)
+  |DATA|CNAM:Savant|NAME:Artifacts salvaged from Dwemer ruins are valuable, but protected under Imperial law, and trade in such artifacts is illegal. Most valuable are Dwarven weapons and armor, both for their superb craftsmanship, and for their value to collectors and scholars.|SCVR:0CsX0NoLore|INTV:|BNAM:; bard, bookseller, savant

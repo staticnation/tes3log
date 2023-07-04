@@ -1,0 +1,10 @@
+AllMakersBlessings.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(hmc_CursedHolly)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    the power of the skaal
+
+[MOD-INF]: ID=32392142562214631127(Topic:the power of the skaal)
+  bloodmoon.esm---------->|DATA|ONAM:tharsten heart-fang|NAME:You have completed the Ritual of the Gifts. I am impressed with your efforts, outlander. But there is more to be done. You have shown a certain loyalty to the Skaal, and it surprises me. Tradition dictates that you now hold this, the Mace of Aevar Stonesinger. This is a treasure of the Skaal that I do not relish giving to an outsider. Still, you have earned it. For now. Now it is time to prove your wisdom.|SCVR:04JX0BM_Stones|INTV:P|BNAM:player->AddItem BM_Mace_Aevar_UNI 1  Journal BM_Stones 100
+  AllMakersBlessings.ESP->|DATA|ONAM:tharsten heart-fang|NAME:You have completed the Ritual of the Gifts. I am impressed with your efforts, outlander. But there is more to be done. You have shown a certain loyalty to the Skaal, and it surprises me. Tradition dictates that you now hold this, the Mace of Aevar Stonesinger. This is a treasure of the Skaal that I do not relish giving to an outsider. Still, you have earned it. For now. Now it is time to prove your wisdom.|SCVR:04JX0BM_Stones|INTV:P|BNAM:player->AddItem BM_Mace_Aevar_UNI 1  addtopic "offerings"  Journal BM_Stones 100

@@ -1,0 +1,258 @@
+xNERS Continued.esp: AUTOSPL DUP-INF DUP-REC FOGBUG JUNKCEL MASTERS MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1246208 (plugin)    1567893 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	fire stormdremora              Wrath of Oblivion
+	bound macedremora              Daedric Mace
+	__dragon priest spell 1        Gahrot Lah
+	__dragon priest spell 2        Gahrot Laas
+	__dragon priest spell 3         Uznahgaar
+	__dragon priest spell 4        Strun Bel
+	__dragon priest spell 5        Diin
+    [FOGBUG]: Cells with zero fog density setting:
+	Castle Wayrest, Grand Hall
+	Snowhawk, Prison
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(__noblesword)
+	SCPT(__specialskoomascript)
+	SCPT(__tsaeciartifact)
+	SCPT(__wolflamhandkerchiefscript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (1, -12)           0x02
+	Sheogorad (8, 22)                        0x02
+	West Gash Region (-10, 10)               0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       DOOR    in_com_traptop_01
+	morrowind.esm       DOOR    in_c_door_wood_square
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    crate_01_random_pos
+	tamriel_data.esm    CONT    t_skynor_furn_ch1kitchen
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hit
+
+[MOD-INF]: ID=9772118981414541(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM|SCVR:02sX3Random100|INTV:_|BNAM:;Health Percent>=25;Random>=80
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM|SCVR:02sX3Random100|INTV:_|BNAM:;Health Percent>=25;Random>=80
+
+[MOD-INF]: ID=13206117723893161(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF007.mp3|NAME:Groan.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF007.mp3|NAME:Groan.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+
+[MOD-INF]: ID=13206117723893161(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF007.mp3|NAME:Groan.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF007.mp3|NAME:Groan.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+[MOD-IID]: ID=16907156202897618347
+  xNERS Continued.esp->Groan.
+
+[MOD-INF]: ID=17235552297223612(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM008.mp3|NAME:Ungh!|SCVR:02sX3Random100|INTV:A|BNAM:;Health Percent>=50;Random>=40
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM008.mp3|NAME:Ungh!|SCVR:02sX3Random100|INTV:A|BNAM:;Health Percent>=50;Random>=40
+
+[MOD-INF]: ID=27004650623388206(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF011.mp3|NAME:Grunt.|SCVR:01045|INTV
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF011.mp3|NAME:Grunt.|SCVR:01045|INTV
+
+[MOD-INF]: ID=27004650623388206(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF011.mp3|NAME:Grunt.|SCVR:01045|INTV
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF011.mp3|NAME:Grunt.|SCVR:01045|INTV
+[MOD-IID]: ID=3172866002329831337
+  xNERS Continued.esp->Grunt.
+
+[MOD-INF]: ID=29826894786630605(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF013.mp3|NAME:Hiss.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=25;Random>=40
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF013.mp3|NAME:Hiss.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=25;Random>=40
+
+[MOD-INF]: ID=31160374132074464(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM013.mp3|NAME:Humph!|SCVR:02sX3Random100|INTV:Z|BNAM:;Health Percent>=25;Random>=40
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM013.mp3|NAME:Humph!|SCVR:02sX3Random100|INTV:Z|BNAM:;Health Percent>=25;Random>=40
+
+[MOD-INF]: ID=95451119155704059(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM010.mp3|NAME:Aughph!|SCVR:02sX3Random100|INTV:K|BNAM:;Health Percent>=50;Random>=80
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM010.mp3|NAME:Aughph!|SCVR:02sX3Random100|INTV:K|BNAM:;Health Percent>=50;Random>=80
+
+[MOD-INF]: ID=152719019370123431(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM009.mp3|NAME:Ommph!|SCVR:02sX3Random100|INTV:F|BNAM:;Health Percent>=50;Random>=60
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM009.mp3|NAME:Ommph!|SCVR:02sX3Random100|INTV:F|BNAM:;Health Percent>=50;Random>=60
+
+[DUP-INF]: ID=174421161839674014(Voice:hit)
+  |DATA|RNAM:Imperial|SNAM:Vo\i\m\Hit_IM010.mp3|NAME:Umphf.
+
+[MOD-INF]: ID=182422884125579238(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF006.mp3|NAME:Groan.|SCVR:01045|INTV:2
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF006.mp3|NAME:Groan.|SCVR:01045|INTV:2
+
+[MOD-INF]: ID=182422884125579238(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF006.mp3|NAME:Groan.|SCVR:01045|INTV:2
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF006.mp3|NAME:Groan.|SCVR:01045|INTV:2
+[MOD-IID]: ID=16907156202897618347
+  xNERS Continued.esp->Groan.
+
+[MOD-INF]: ID=183671890048230524(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF009.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF009.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+
+[MOD-INF]: ID=183671890048230524(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF009.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF009.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+[MOD-IID]: ID=3172866002329831337
+  xNERS Continued.esp->Grunt.
+
+[MOD-INF]: ID=197751326349379691(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF001.mp3|NAME|AAAIIEE.|SCVR:01043|INTV:2
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF001.mp3|NAME|AAAIIEE.|SCVR:01043|INTV:2
+
+[MOD-INF]: ID=197751326349379691(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF001.mp3|NAME|AAAIIEE.|SCVR:01043|INTV:2
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF001.mp3|NAME|AAAIIEE.|SCVR:01043|INTV:2
+[MOD-IID]: ID=20031892756425134
+  xNERS Continued.esp->AAAIIEE.
+
+[MOD-INF]: ID=205281324454419165(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM004.mp3|NAME:Groan.|SCVR:02sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=60
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM004.mp3|NAME:Groan.|SCVR:02sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=60
+
+[MOD-INF]: ID=205281324454419165(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM004.mp3|NAME:Groan.|SCVR:02sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=60
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM004.mp3|NAME:Groan.|SCVR:02sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=60
+[MOD-IID]: ID=16907156202897618347
+  xNERS Continued.esp->Groan.
+
+[MOD-INF]: ID=235416944112387663(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF008.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF008.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+
+[MOD-INF]: ID=235416944112387663(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF008.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF008.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+[MOD-IID]: ID=3172866002329831337
+  xNERS Continued.esp->Grunt.
+
+[MOD-INF]: ID=245131847930554364(:hit)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF012.mp3|NAME:Groan.|SCVR:01043|INTV|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=25;Random>=20
+  xNERS Continued.esp->|NAME:Groan.|DELE:
+
+[MOD-INF]: ID=245131847930554364(:hit)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF012.mp3|NAME:Groan.|SCVR:01043|INTV|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=25;Random>=20
+  xNERS Continued.esp->|NAME:Groan.|DELE:
+[MOD-IID]: ID=16907156202897618347(Voice:hit)
+  xNERS Continued.esp->Groan.
+
+[MOD-INF]: ID=535423269352310731(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF003.mp3|NAME:Fetcher!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - not 'Fetcher!'
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF003.mp3|NAME:Fetcher!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - not 'Fetcher!'
+
+[MOD-INF]: ID=637969082380017715(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF014.mp3|NAME:Gasp.|SCVR:01043|INTV|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=25;Random>=60
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\d\f\Hit_DF014.mp3|NAME:Gasp.|SCVR:01043|INTV|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=25;Random>=60
+
+[MOD-INF]: ID=886519037145528264(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF004.mp3|NAME:Groan.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF004.mp3|NAME:Groan.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+
+[MOD-INF]: ID=886519037145528264(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF004.mp3|NAME:Groan.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF004.mp3|NAME:Groan.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+[MOD-IID]: ID=16907156202897618347
+  xNERS Continued.esp->Groan.
+
+[MOD-INF]: ID=969222755214829773(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM006.mp3|NAME:Argh!|SCVR:02sX3Random100|INTV
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM006.mp3|NAME:Argh!|SCVR:02sX3Random100|INTV
+
+[MOD-INF]: ID=969222755214829773(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM006.mp3|NAME:Argh!|SCVR:02sX3Random100|INTV
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM006.mp3|NAME:Argh!|SCVR:02sX3Random100|INTV
+[MOD-IID]: ID=1555013547755719269
+  xNERS Continued.esp->Argh!
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[MOD-INF]: ID=1317984601670831320(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF015.mp3|NAME:Hiss.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=25;Random>=80
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF015.mp3|NAME:Hiss.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=25;Random>=80
+
+[MOD-INF]: ID=1474073322154617091(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF014.mp3|NAME:Hiss.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=25;Random>=60
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF014.mp3|NAME:Hiss.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=25;Random>=60
+
+[MOD-INF]: ID=2435816744271593129(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF012.mp3|NAME:Grunt.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=25;Random>=20
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF012.mp3|NAME:Grunt.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=25;Random>=20
+
+[MOD-INF]: ID=2435816744271593129(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF012.mp3|NAME:Grunt.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=25;Random>=20
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF012.mp3|NAME:Grunt.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=25;Random>=20
+[MOD-IID]: ID=3172866002329831337
+  xNERS Continued.esp->Grunt.
+
+[MOD-INF]: ID=2514710954112691502(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM001.mp3|NAME:Arrrgh!
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM001.mp3|NAME:Arrrgh!
+
+[MOD-INF]: ID=2514710954112691502(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM001.mp3|NAME:Arrrgh!
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM001.mp3|NAME:Arrrgh!
+[MOD-IID]: ID=50803315256198039
+  xNERS Continued.esp->Arrrgh!
+
+[MOD-INF]: ID=2553528324384222543(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF005.mp3|NAME:Groan.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF005.mp3|NAME:Groan.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[MOD-INF]: ID=2553528324384222543(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF005.mp3|NAME:Groan.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF005.mp3|NAME:Groan.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+[MOD-IID]: ID=16907156202897618347
+  xNERS Continued.esp->Groan.
+
+[MOD-INF]: ID=2563910312399617551(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM012.mp3|NAME:Umph!|SCVR:02sX3Random100|INTV:U|BNAM:;Health Percent>=25;Random>=20
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM012.mp3|NAME:Umph!|SCVR:02sX3Random100|INTV:U|BNAM:;Health Percent>=25;Random>=20
+
+[MOD-INF]: ID=2833776061270628977(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM003.mp3|NAME:Ungha!|SCVR:02sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=40
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM003.mp3|NAME:Ungha!|SCVR:02sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=40
+
+[MOD-INF]: ID=13004267382992912012(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM011.mp3|NAME:Grunt!|SCVR:02sX3Random100|INTV:P
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM011.mp3|NAME:Grunt!|SCVR:02sX3Random100|INTV:P
+
+[MOD-INF]: ID=13004267382992912012(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM011.mp3|NAME:Grunt!|SCVR:02sX3Random100|INTV:P
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM011.mp3|NAME:Grunt!|SCVR:02sX3Random100|INTV:P
+[MOD-IID]: ID=3214120493245837202
+  xNERS Continued.esp->Grunt!
+
+[MOD-INF]: ID=13534301071938925050(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM005.mp3|NAME:Upmph!|SCVR:02sX3Random100|INTV:7|BNAM:;Health Percent>=50;Random>=80
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM005.mp3|NAME:Upmph!|SCVR:02sX3Random100|INTV:7|BNAM:;Health Percent>=50;Random>=80
+
+[MOD-INF]: ID=16016227891744325703(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF010.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF010.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[MOD-INF]: ID=16016227891744325703(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF010.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF010.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+[MOD-IID]: ID=3172866002329831337
+  xNERS Continued.esp->Grunt.
+
+[MOD-INF]: ID=17330290842396612179(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF002.mp3|NAME:Arrgh.|SCVR:01043|INTV:2|SCVR:12sX0Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\f\Hit_HF002.mp3|NAME:Arrgh.|SCVR:01043|INTV:2|SCVR:12sX0Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+
+[MOD-INF]: ID=19662154761063519037(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM002.mp3|NAME:Upmph!|SCVR:02sX3Random100|INTV: |BNAM:;Health Percent>=50;Random>=20
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM002.mp3|NAME:Upmph!|SCVR:02sX3Random100|INTV: |BNAM:;Health Percent>=50;Random>=20
+
+[MOD-INF]: ID=24824197252935521768(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF013.mp3|NAME:Growl.|SCVR:01043|INTV|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=25;Random>=40
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\d\f\Hit_DF013.mp3|NAME:Growl.|SCVR:01043|INTV|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=25;Random>=40
+
+[MOD-INF]: ID=29015277631241922519(Voice:hit)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hit_HM007.mp3|NAME:Ungh!|SCVR:02sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=20
+  xNERS Continued.esp->|DATA|RNAM:Chimer|SNAM:vo\h\m\Hit_HM007.mp3|NAME:Ungh!|SCVR:02sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=20

@@ -1,0 +1,45 @@
+abotBoatsTR2101.esp: DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8846501 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            131136864 (plugin)  163244128 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01boOnLoadScript)
+	SCPT(ab01boScenic02bScript)
+	SCPT(ab01bogBoat2Script)
+	SCPT(ab01bogBoat4Script)
+	SCPT(ab01bogBoatScript)
+	SCPT(ab01bogConfigScript)
+	SCPT(ab01bogDismount2Script)
+	SCPT(ab01bogDismountHereScript)
+	SCPT(ab01bogDismountScript)
+	SCPT(ab01bogEndScript)
+	SCPT(ab01bogEndTrip3Script)
+	SCPT(ab01bogWeatherChangeOffScript)
+	SCPT(ab01bogWeatherChangeOnScript)
+	SCPT(ab01bogWeatherTalk2Script)
+	SCPT(ab01bogWeatherTalk3Script)
+	SCPT(ab01bogWeatherTalkScript)
+	SCPT(ab01gCRTTendTripScript)
+	SCPT(mel_tpp_mainS)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tr_mainland.esm     DIAL    destination
+	tr_mainland.esm     NPC_    tr_m1_dunveri_rodran
+	tr_mainland.esm     NPC_    tr_m1_viania_claeni
+	tr_mainland.esm     NPC_    tr_m4_pien vene
+
+[MOD-INF]: ID=30563681130792377(Topic:- scenic travel)
+  tr_mainland.esm----->|DATA|ONAM:TR_m2_Selothril Llana|NAME:My ship, the 'Canyon Crawler,' can take you from Marog to Ammar, Darvonis, Helnim, or Sadrith Mora.|BNAM:;Marog; Selothril Llana; shipmaster  ;will need addition/correction
+  abotBoatsTR2101.esp->|DATA|ONAM:TR_m2_Selothril Llana|NAME:My ship, the Canyon Crawler, can take you from here in Marog to Helnim, and several other places.|BNAM:;Marog; Selothril Llana; shipmaster  ;will need addition/correction
+
+[MOD-INF]: ID=122513167926517331(Topic:- scenic travel)
+  tr_mainland.esm----->|DATA|ONAM:TR_m1_Marthen Redri|NAME:I can only take you up the coast to Nivalis or south to Bal Oyra, I'm afraid. My little sailboat can't handle the rough seas out on Nolubal Bay.|BNAM:;Bahrammu Shipmaster
+  abotBoatsTR2101.esp->|DATA|ONAM:TR_m1_Marthen Redri|NAME:Bal Oyra only, I'm afraid. It's not too far, and all my little rowboat can handle.|BNAM:; Bahrammu Shipmaster
+
+[MOD-INF]: ID=164701622324329905(Topic:destination)
+  tr_mainland.esm----->|DATA|ONAM:TR_m1_Dunveri_Rodran|NAME:My ship, the 'Wave-Render', can take you from Tel Ouada to Bal Oyra.
+  abotBoatsTR2101.esp->|DATA|ONAM:TR_m1_Dunveri_Rodran|NAME:I transport wares from Tel Ouada to many places onboard my ship, the 'Wave-Render.' No personal transports, not even for a %PCClass.|SCVR:02sX4ab01boVersion|INTV:|BNAM:; Tel Ouada Shipmaster  ; Does not exist anymore - keep dialogue for mods that add him back.
+
+[MOD-INF]: ID=31494279741266816040(Topic:destination)
+  tr_mainland.esm----->|DATA|ONAM:TR_m4_pien vene|NAME:My ship, the 'Morning Skylark,' can take you from Teyn to Andothren to the east or Castle Ebonheart on Vvardenfell.|BNAM:;Teyn; Pien Vene; shipmaster
+  abotBoatsTR2101.esp->|DATA|ONAM:TR_m4_pien vene|NAME:My ship, the Morning Skylark, can take you from Teyn to Andothren and Hla Oad, Seyda Neen, or Castle Ebonheart on Vvardenfell.|BNAM:;Teyn; Pien Vene; shipmaster

@@ -1,0 +1,28 @@
+BCOM_Suran Expansion.ESP: DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1569948 (plugin)    1567893 (installed size)
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(A_SH_Escape_Enable)
+	SCPT(A_SH_Stage03_Disable)
+	SCPT(Pub_Suran_Ales)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       LAND    (6, -7)
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       NPC_    blatta hateria
+	morrowind.esm       PGRD    suran
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    rm_grayrock

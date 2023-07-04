@@ -1,0 +1,1807 @@
+Kalendaar_V3.R02.esm: AUTOSPL DUP-INF DUP-REC FOGBUG GETSND EVLGMST JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Morrowind.esm               80681814 (plugin)   79837557 (installed size)
+	Tribunal.esm                 4668214 (plugin)    4565686 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	kal_alessia_intervention       Intervention d'ALESSIA
+    [EVLGMST] Tribunal(4) Bloodmoon(1):
+	BM seditnote
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB smagicfabricantid
+	TB smaxsale
+    [FOGBUG]: Cells with zero fog density setting:
+	Hãkao, Bains ducaux
+	Hãkao, Maison de Umma Lakle
+	Tharflãne, Maison des Soeurs Arnisia
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(kal_SarahMain)
+	SCPT(kal_SarahMskills2)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Kal_e_debut_main)
+	SCPT(TribunalMain)
+	SCPT(kal_S_A02_chest_key_Donnë)
+	SCPT(kal_S_A03_chest_key_Abundwã)
+	SCPT(kal_S_A04_chest_key_Lanãdge)
+	SCPT(kal_S_A05_chest_key_Dhãnge)
+	SCPT(kal_S_AK_01_chest_misc5)
+	SCPT(kal_S_AK_01_giant_Fish)
+	SCPT(kal_S_ArtefactsMain)
+	SCPT(kal_S_B01_ArmorScript)
+	SCPT(kal_S_B13_Dhãnge_key)
+	SCPT(kal_S_B15_Grotte_key)
+	SCPT(kal_S_B16_Grotte_key)
+	SCPT(kal_S_B18_Gedetout)
+	SCPT(kal_S_B20_ArenaRidles)
+	SCPT(kal_S_B26_laby_V_porte)
+	SCPT(kal_S_B28_ArenaRidles)
+	SCPT(kal_S_BlockedDoor)
+	SCPT(kal_S_BlockedGrate)
+	SCPT(kal_S_CollyWobbles_lev)
+	SCPT(kal_S_Corprus_lev)
+	SCPT(kal_S_D01_Ituribita)
+	SCPT(kal_S_D02_Yvanos)
+	SCPT(kal_S_D03_Tapaloeilos)
+	SCPT(kal_S_D04_Luciania)
+	SCPT(kal_S_D05_LavilNenith)
+	SCPT(kal_S_DaedraMalacath)
+	SCPT(kal_S_DaedraMehrunes)
+	SCPT(kal_S_DaedraMolagBal)
+	SCPT(kal_S_DampWorm_Lev)
+	SCPT(kal_S_Door_M49P04x2)
+	SCPT(kal_S_FG_BartabasMort)
+	SCPT(kal_S_FG_BartabasScript)
+	SCPT(kal_S_FG_IlseeAttente)
+	SCPT(kal_S_FG_IlseeFiltreNuit)
+	SCPT(kal_S_FG_IlseeFollow)
+	SCPT(kal_S_FG_IlseeFuite)
+	SCPT(kal_S_FG_IlseeFuite2)
+	SCPT(kal_S_FG_IlseeJourNuit)
+	SCPT(kal_S_FG_IlseeRencontre)
+	SCPT(kal_S_FG_IlseeScript)
+	SCPT(kal_S_FG_IlseeTeleportation)
+	SCPT(kal_S_FG_InvRang)
+	SCPT(kal_S_FG_IuleAmaq)
+	SCPT(kal_S_FG_MoritaniusFollow)
+	SCPT(kal_S_FG_MoritaniusGreeting)
+	SCPT(kal_S_FG_Refus)
+	SCPT(kal_S_FG_VoleursApparition)
+	SCPT(kal_S_FG_accord)
+	SCPT(kal_S_FG_banditsDisable)
+	SCPT(kal_S_FG_cambriolage)
+	SCPT(kal_S_FG_clefMoragTong)
+	SCPT(kal_S_FG_cris)
+	SCPT(kal_S_FG_duel)
+	SCPT(kal_S_FG_gaeth)
+	SCPT(kal_S_FG_gardeFou)
+	SCPT(kal_S_FG_gardienneNeant)
+	SCPT(kal_S_FG_guerriers)
+	SCPT(kal_S_FG_hakin)
+	SCPT(kal_S_FG_mortMoritanius)
+	SCPT(kal_S_FG_neant)
+	SCPT(kal_S_FG_negociations)
+	SCPT(kal_S_FG_nettoyage)
+	SCPT(kal_S_FG_noteMoragTong)
+	SCPT(kal_S_FG_porteGardienne)
+	SCPT(kal_S_FG_porteJejubãr)
+	SCPT(kal_S_FG_porteMoragTong)
+	SCPT(kal_S_FG_portePrison)
+	SCPT(kal_S_FG_porteShiyaazh)
+	SCPT(kal_S_FG_rang)
+	SCPT(kal_S_FG_repaireBandits)
+	SCPT(kal_S_FG_surveillance)
+	SCPT(kal_S_FG_vampireShiyaazh)
+	SCPT(kal_S_FG_vengeance)
+	SCPT(kal_S_FG_voleurs)
+	SCPT(kal_S_FG_zombies)
+	SCPT(kal_S_G01_Bibliothecius_death)
+	SCPT(kal_S_G01_Daemon)
+	SCPT(kal_S_G01_Donnetova_death)
+	SCPT(kal_S_G01_Ramaseva_death)
+	SCPT(kal_S_G01_allArmor)
+	SCPT(kal_S_G01_illuan_tree)
+	SCPT(kal_S_G01_skeletons)
+	SCPT(kal_S_G01_weapon_UNI)
+	SCPT(kal_S_G05_KrugloEquipment)
+	SCPT(kal_S_G05_KrugloEquipmentUNI)
+	SCPT(kal_S_G05_KrugloSkills)
+	SCPT(kal_S_G05_KrugloStopfight)
+	SCPT(kal_S_G05_KrugloUpSkills)
+	SCPT(kal_S_G05_activator_01)
+	SCPT(kal_S_G05_boulder_01)
+	SCPT(kal_S_G05_boulder_02)
+	SCPT(kal_S_G05_boulder_04)
+	SCPT(kal_S_G05_boulder_05)
+	SCPT(kal_S_G05_boulder_06)
+	SCPT(kal_S_G05_undead_script)
+	SCPT(kal_S_G08_KrugloAmuletUNI)
+	SCPT(kal_S_G08_KrugloRingUNI)
+	SCPT(kal_S_G09_porticullis_A)
+	SCPT(kal_S_G10_porticullis_A)
+	SCPT(kal_S_G11_BucheronTravel)
+	SCPT(kal_S_G11_porticullis_A)
+	SCPT(kal_S_G12_porticullis_A)
+	SCPT(kal_S_G13_porticullis_A)
+	SCPT(kal_S_G14_porticullis_A)
+	SCPT(kal_S_G15_porticullis_A)
+	SCPT(kal_S_GREUH)
+	SCPT(kal_S_H01_PassageM43p14_door)
+	SCPT(kal_S_InputString)
+	SCPT(kal_S_JN_Wander_monsters)
+	SCPT(kal_S_KalendaarOnce)
+	SCPT(kal_S_MG_BatonGilbertus)
+	SCPT(kal_S_MG_Bodyguard)
+	SCPT(kal_S_MG_Dasvidania)
+	SCPT(kal_S_MG_Denga)
+	SCPT(kal_S_MG_FantomeScript)
+	SCPT(kal_S_MG_Frost)
+	SCPT(kal_S_MG_KerinRemove)
+	SCPT(kal_S_MG_MariNuyDisable)
+	SCPT(kal_S_MG_Nis)
+	SCPT(kal_S_MG_NuyMorte)
+	SCPT(kal_S_MG_NuyVampire)
+	SCPT(kal_S_MG_Sargun)
+	SCPT(kal_S_MG_SlothEngaar)
+	SCPT(kal_S_MG_Valren)
+	SCPT(kal_S_MG_capitaineNid)
+	SCPT(kal_S_MG_coffreGraal)
+	SCPT(kal_S_MG_communication)
+	SCPT(kal_S_MG_cours)
+	SCPT(kal_S_MG_creature)
+	SCPT(kal_S_MG_demon)
+	SCPT(kal_S_MG_familer)
+	SCPT(kal_S_MG_gardeMaudit)
+	SCPT(kal_S_MG_gardeNid)
+	SCPT(kal_S_MG_graal)
+	SCPT(kal_S_MG_grimoire)
+	SCPT(kal_S_MG_idee)
+	SCPT(kal_S_MG_interrogateur)
+	SCPT(kal_S_MG_kerin)
+	SCPT(kal_S_MG_lettre1)
+	SCPT(kal_S_MG_lettre2)
+	SCPT(kal_S_MG_licheInvoquee)
+	SCPT(kal_S_MG_livreGilbertus)
+	SCPT(kal_S_MG_porteLanãdge)
+	SCPT(kal_S_MG_princeFroid)
+	SCPT(kal_S_MG_princeFroid2)
+	SCPT(kal_S_MG_princeFroid3)
+	SCPT(kal_S_MG_princeFroid4)
+	SCPT(kal_S_MG_rituel)
+	SCPT(kal_S_MG_seigneurFroid)
+	SCPT(kal_S_MG_sensitif)
+	SCPT(kal_S_MG_sortie)
+	SCPT(kal_S_MG_telepathie)
+	SCPT(kal_S_Magnus_Clone)
+	SCPT(kal_S_MarksDaedraSummon)
+	SCPT(kal_S_MystèreActDoors)
+	SCPT(kal_S_MystèreActSeyda)
+	SCPT(kal_S_Player)
+	SCPT(kal_S_Pub_2moines)
+	SCPT(kal_S_Pub_2tokdor)
+	SCPT(kal_S_Pub_Belphegor)
+	SCPT(kal_S_Pub_Bonnebouffe)
+	SCPT(kal_S_Pub_Genepï_South)
+	SCPT(kal_S_Pub_Jejubãr_Faraminos)
+	SCPT(kal_S_Pub_Lhyrene_council)
+	SCPT(kal_S_Pub_Loupcervier)
+	SCPT(kal_S_Pub_RedDagger)
+	SCPT(kal_S_Pub_Tãglios_Burkinius)
+	SCPT(kal_S_Pub_kinshassa)
+	SCPT(kal_S_Pub_laetitialanoire)
+	SCPT(kal_S_Pub_perdu)
+	SCPT(kal_S_QContainer)
+	SCPT(kal_S_QDoor01)
+	SCPT(kal_S_QDoor02)
+	SCPT(kal_S_QDoor03)
+	SCPT(kal_S_QDoor04)
+	SCPT(kal_S_QDoor05)
+	SCPT(kal_S_QDoor06)
+	SCPT(kal_S_QDoor07)
+	SCPT(kal_S_QDoor08)
+	SCPT(kal_S_QDoor09)
+	SCPT(kal_S_QDoor10)
+	SCPT(kal_S_QDoor100)
+	SCPT(kal_S_QDoor11)
+	SCPT(kal_S_QDoor12)
+	SCPT(kal_S_QDoor13)
+	SCPT(kal_S_QDoor14)
+	SCPT(kal_S_QDoor15)
+	SCPT(kal_S_QDoor16)
+	SCPT(kal_S_QDoor17)
+	SCPT(kal_S_QDoor18)
+	SCPT(kal_S_QDoor19)
+	SCPT(kal_S_QDoor20)
+	SCPT(kal_S_QDoor21)
+	SCPT(kal_S_QDoor22)
+	SCPT(kal_S_QDoor23)
+	SCPT(kal_S_QDoor24)
+	SCPT(kal_S_QDoor25)
+	SCPT(kal_S_QDoor26)
+	SCPT(kal_S_QDoor27)
+	SCPT(kal_S_QDoor28)
+	SCPT(kal_S_QDoor29)
+	SCPT(kal_S_QDoor30)
+	SCPT(kal_S_QDoor31)
+	SCPT(kal_S_QDoor32)
+	SCPT(kal_S_QDoor33)
+	SCPT(kal_S_QDoor34)
+	SCPT(kal_S_QDoor35)
+	SCPT(kal_S_QDoor36)
+	SCPT(kal_S_QDoor37)
+	SCPT(kal_S_QDoor38)
+	SCPT(kal_S_QDoor39)
+	SCPT(kal_S_QDoor40)
+	SCPT(kal_S_QDoor41)
+	SCPT(kal_S_QDoor42)
+	SCPT(kal_S_QDoor43)
+	SCPT(kal_S_QDoor44)
+	SCPT(kal_S_QDoor45)
+	SCPT(kal_S_QDoor46)
+	SCPT(kal_S_QDoor47)
+	SCPT(kal_S_QDoor48)
+	SCPT(kal_S_QDoor49)
+	SCPT(kal_S_QDoor50)
+	SCPT(kal_S_QDoor51)
+	SCPT(kal_S_QDoor52)
+	SCPT(kal_S_QDoor53)
+	SCPT(kal_S_QDoor54)
+	SCPT(kal_S_QDoor55)
+	SCPT(kal_S_QDoor56)
+	SCPT(kal_S_QDoor57)
+	SCPT(kal_S_QDoor58)
+	SCPT(kal_S_QDoor59)
+	SCPT(kal_S_QDoor60)
+	SCPT(kal_S_QDoor61)
+	SCPT(kal_S_QDoor62)
+	SCPT(kal_S_QDoor63)
+	SCPT(kal_S_QDoor64)
+	SCPT(kal_S_QDoor65)
+	SCPT(kal_S_QDoor66)
+	SCPT(kal_S_QDoor67)
+	SCPT(kal_S_QDoor68)
+	SCPT(kal_S_QDoor69)
+	SCPT(kal_S_QDoor70)
+	SCPT(kal_S_QDoor71)
+	SCPT(kal_S_QDoor72)
+	SCPT(kal_S_QDoor73)
+	SCPT(kal_S_QDoor74)
+	SCPT(kal_S_QDoor75)
+	SCPT(kal_S_QDoor76)
+	SCPT(kal_S_QDoor77)
+	SCPT(kal_S_QDoor78)
+	SCPT(kal_S_QDoor79)
+	SCPT(kal_S_QDoor80)
+	SCPT(kal_S_QDoor81)
+	SCPT(kal_S_QDoor82)
+	SCPT(kal_S_QDoor83)
+	SCPT(kal_S_QDoor84)
+	SCPT(kal_S_QDoor85)
+	SCPT(kal_S_QDoor86)
+	SCPT(kal_S_QDoor87)
+	SCPT(kal_S_QDoor88)
+	SCPT(kal_S_QDoor89)
+	SCPT(kal_S_QDoor90)
+	SCPT(kal_S_QDoor91)
+	SCPT(kal_S_QDoor92)
+	SCPT(kal_S_QDoor93)
+	SCPT(kal_S_QDoor94)
+	SCPT(kal_S_QDoor95)
+	SCPT(kal_S_QDoor96)
+	SCPT(kal_S_QDoor97)
+	SCPT(kal_S_QDoor98)
+	SCPT(kal_S_QDoor99)
+	SCPT(kal_S_QDungeon_gener01)
+	SCPT(kal_S_QDungeon_gener02)
+	SCPT(kal_S_QDungeon_gener03)
+	SCPT(kal_S_QDungeon_gener04)
+	SCPT(kal_S_QDungeon_gener05)
+	SCPT(kal_S_QDungeon_gener06)
+	SCPT(kal_S_QDungeon_gener07)
+	SCPT(kal_S_QDungeon_gener08)
+	SCPT(kal_S_QDungeon_gener09)
+	SCPT(kal_S_QDungeon_gener10)
+	SCPT(kal_S_QItem)
+	SCPT(kal_S_QItem_gener01)
+	SCPT(kal_S_QItem_gener02)
+	SCPT(kal_S_QItem_gener03)
+	SCPT(kal_S_QItem_gener04)
+	SCPT(kal_S_QItem_gener05)
+	SCPT(kal_S_QItem_gener06)
+	SCPT(kal_S_QItem_gener07)
+	SCPT(kal_S_QItem_gener08)
+	SCPT(kal_S_QItem_gener09)
+	SCPT(kal_S_QItem_gener10)
+	SCPT(kal_S_QMonster)
+	SCPT(kal_S_QQuestor001)
+	SCPT(kal_S_QQuestor002)
+	SCPT(kal_S_QQuestor003)
+	SCPT(kal_S_QQuestor004)
+	SCPT(kal_S_QQuestor005)
+	SCPT(kal_S_QQuestor006)
+	SCPT(kal_S_QQuestor007)
+	SCPT(kal_S_QQuestor008)
+	SCPT(kal_S_QQuestor009)
+	SCPT(kal_S_QQuestor011)
+	SCPT(kal_S_QQuestor012)
+	SCPT(kal_S_QQuestor013)
+	SCPT(kal_S_QQuestor014)
+	SCPT(kal_S_QQuestor015)
+	SCPT(kal_S_QQuestor016)
+	SCPT(kal_S_QQuestor017)
+	SCPT(kal_S_QQuestor018)
+	SCPT(kal_S_QQuestor019)
+	SCPT(kal_S_QQuestor020)
+	SCPT(kal_S_QQuestor021)
+	SCPT(kal_S_QQuestor022)
+	SCPT(kal_S_QQuestor023)
+	SCPT(kal_S_QQuestor024)
+	SCPT(kal_S_QQuestor025)
+	SCPT(kal_S_QQuestor026)
+	SCPT(kal_S_QQuestor027)
+	SCPT(kal_S_QQuestor028)
+	SCPT(kal_S_QQuestor029)
+	SCPT(kal_S_QQuestor030)
+	SCPT(kal_S_QQuestor031)
+	SCPT(kal_S_QQuestor032)
+	SCPT(kal_S_QQuestor033)
+	SCPT(kal_S_QQuestor034)
+	SCPT(kal_S_QQuestor035)
+	SCPT(kal_S_QQuestor036)
+	SCPT(kal_S_QQuestor037)
+	SCPT(kal_S_QQuestor038)
+	SCPT(kal_S_QQuestor039)
+	SCPT(kal_S_QQuestor040)
+	SCPT(kal_S_QQuestor041)
+	SCPT(kal_S_QQuestor042)
+	SCPT(kal_S_QQuestor043)
+	SCPT(kal_S_QQuestor044)
+	SCPT(kal_S_QQuestor045)
+	SCPT(kal_S_QQuestor046)
+	SCPT(kal_S_QQuestor047)
+	SCPT(kal_S_QQuestor048)
+	SCPT(kal_S_QQuestor049)
+	SCPT(kal_S_QQuestor050)
+	SCPT(kal_S_QQuestor051)
+	SCPT(kal_S_QQuestor052)
+	SCPT(kal_S_QQuestor053)
+	SCPT(kal_S_QQuestor054)
+	SCPT(kal_S_QQuestor055)
+	SCPT(kal_S_QQuestor056)
+	SCPT(kal_S_QQuestor057)
+	SCPT(kal_S_QQuestor058)
+	SCPT(kal_S_QQuestor059)
+	SCPT(kal_S_QQuestor060)
+	SCPT(kal_S_QQuestor061)
+	SCPT(kal_S_QQuestor062)
+	SCPT(kal_S_QQuestor063)
+	SCPT(kal_S_QQuestor064)
+	SCPT(kal_S_QQuestor065)
+	SCPT(kal_S_QQuestor066)
+	SCPT(kal_S_QQuestor067)
+	SCPT(kal_S_QQuestor068)
+	SCPT(kal_S_QQuestor069)
+	SCPT(kal_S_QQuestor070)
+	SCPT(kal_S_QQuestor071)
+	SCPT(kal_S_QQuestor072)
+	SCPT(kal_S_QQuestor073)
+	SCPT(kal_S_QQuestor074)
+	SCPT(kal_S_QQuestor075)
+	SCPT(kal_S_QQuestor076)
+	SCPT(kal_S_QQuestor077)
+	SCPT(kal_S_QQuestor078)
+	SCPT(kal_S_QQuestor079)
+	SCPT(kal_S_QQuestor080)
+	SCPT(kal_S_QQuestor081)
+	SCPT(kal_S_QQuestor082)
+	SCPT(kal_S_QQuestor083)
+	SCPT(kal_S_QQuestor084)
+	SCPT(kal_S_QQuestor085)
+	SCPT(kal_S_QQuestor086)
+	SCPT(kal_S_QQuestor087)
+	SCPT(kal_S_QQuestor088)
+	SCPT(kal_S_QQuestor089)
+	SCPT(kal_S_QQuestor090)
+	SCPT(kal_S_QQuestor091)
+	SCPT(kal_S_QQuestor092)
+	SCPT(kal_S_QQuestor093)
+	SCPT(kal_S_QQuestor094)
+	SCPT(kal_S_QQuestor095)
+	SCPT(kal_S_QQuestor096)
+	SCPT(kal_S_QQuestor097)
+	SCPT(kal_S_QQuestor098)
+	SCPT(kal_S_QQuestor099)
+	SCPT(kal_S_QQuestor100)
+	SCPT(kal_S_QQuestor101)
+	SCPT(kal_S_QQuestor102)
+	SCPT(kal_S_QQuestor103)
+	SCPT(kal_S_QQuestor104)
+	SCPT(kal_S_QQuestor105)
+	SCPT(kal_S_QQuestor106)
+	SCPT(kal_S_QQuestor107)
+	SCPT(kal_S_QQuestor108)
+	SCPT(kal_S_QQuestor109)
+	SCPT(kal_S_QQuestor110)
+	SCPT(kal_S_QQuestor111)
+	SCPT(kal_S_QQuestor112)
+	SCPT(kal_S_QQuestor113)
+	SCPT(kal_S_QQuestor114)
+	SCPT(kal_S_QQuestor115)
+	SCPT(kal_S_QQuestor116)
+	SCPT(kal_S_QQuestor117)
+	SCPT(kal_S_QQuestor118)
+	SCPT(kal_S_QQuestor119)
+	SCPT(kal_S_QQuestor120)
+	SCPT(kal_S_QQuestor121)
+	SCPT(kal_S_QQuestor122)
+	SCPT(kal_S_QQuestor123)
+	SCPT(kal_S_QQuestor124)
+	SCPT(kal_S_QQuestor125)
+	SCPT(kal_S_QQuestor126)
+	SCPT(kal_S_QQuestor127)
+	SCPT(kal_S_QQuestor128)
+	SCPT(kal_S_QQuestor129)
+	SCPT(kal_S_QQuestor130)
+	SCPT(kal_S_QQuestor131)
+	SCPT(kal_S_QQuestor132)
+	SCPT(kal_S_QQuestor133)
+	SCPT(kal_S_QQuestor134)
+	SCPT(kal_S_QQuestor135)
+	SCPT(kal_S_QQuestor136)
+	SCPT(kal_S_QQuestor137)
+	SCPT(kal_S_QQuestor138)
+	SCPT(kal_S_QQuestor139)
+	SCPT(kal_S_QQuestor140)
+	SCPT(kal_S_QQuestor141)
+	SCPT(kal_S_QQuestor142)
+	SCPT(kal_S_QQuestor143)
+	SCPT(kal_S_QQuestor144)
+	SCPT(kal_S_QQuestor145)
+	SCPT(kal_S_QQuestor146)
+	SCPT(kal_S_QQuestor147)
+	SCPT(kal_S_QQuestor148)
+	SCPT(kal_S_QQuestor149)
+	SCPT(kal_S_QQuestor150)
+	SCPT(kal_S_QQuestor151)
+	SCPT(kal_S_QQuestor152)
+	SCPT(kal_S_QQuestor153)
+	SCPT(kal_S_QQuestor154)
+	SCPT(kal_S_QQuestor155)
+	SCPT(kal_S_QQuestor156)
+	SCPT(kal_S_QQuestor157)
+	SCPT(kal_S_QQuestor158)
+	SCPT(kal_S_QQuestor159)
+	SCPT(kal_S_QQuestor160)
+	SCPT(kal_S_QQuestor161)
+	SCPT(kal_S_QQuestor162)
+	SCPT(kal_S_QQuestor163)
+	SCPT(kal_S_QQuestor164)
+	SCPT(kal_S_QQuestor165)
+	SCPT(kal_S_QQuestor166)
+	SCPT(kal_S_QQuestor167)
+	SCPT(kal_S_QQuestor168)
+	SCPT(kal_S_QQuestor169)
+	SCPT(kal_S_QQuestor170)
+	SCPT(kal_S_QQuestor171)
+	SCPT(kal_S_QQuestor172)
+	SCPT(kal_S_QQuestor173)
+	SCPT(kal_S_QQuestor174)
+	SCPT(kal_S_QQuestor175)
+	SCPT(kal_S_QQuestor176)
+	SCPT(kal_S_QQuestor177)
+	SCPT(kal_S_QQuestor178)
+	SCPT(kal_S_QQuestor179)
+	SCPT(kal_S_QQuestor180)
+	SCPT(kal_S_QQuestor181)
+	SCPT(kal_S_QQuestor182)
+	SCPT(kal_S_QQuestor183)
+	SCPT(kal_S_QQuestor184)
+	SCPT(kal_S_QQuestor185)
+	SCPT(kal_S_QQuestor186)
+	SCPT(kal_S_QQuestor187)
+	SCPT(kal_S_QQuestor188)
+	SCPT(kal_S_QQuestor189)
+	SCPT(kal_S_QQuestor190)
+	SCPT(kal_S_QQuestor191)
+	SCPT(kal_S_QQuestor192)
+	SCPT(kal_S_QQuestor193)
+	SCPT(kal_S_QQuestor194)
+	SCPT(kal_S_QQuestor195)
+	SCPT(kal_S_QQuestor196)
+	SCPT(kal_S_QQuestor197)
+	SCPT(kal_S_QQuestor198)
+	SCPT(kal_S_QQuestor199)
+	SCPT(kal_S_QQuestor200)
+	SCPT(kal_S_QQuestor201)
+	SCPT(kal_S_QQuestor202)
+	SCPT(kal_S_QQuestor203)
+	SCPT(kal_S_QQuestor204)
+	SCPT(kal_S_QQuestor205)
+	SCPT(kal_S_QQuestor206)
+	SCPT(kal_S_QQuestor208)
+	SCPT(kal_S_QQuestor209)
+	SCPT(kal_S_QQuestor210)
+	SCPT(kal_S_QQuestor211)
+	SCPT(kal_S_QQuestor212)
+	SCPT(kal_S_QQuestor213)
+	SCPT(kal_S_QQuestor214)
+	SCPT(kal_S_QQuestor215)
+	SCPT(kal_S_QQuestor_Gener01)
+	SCPT(kal_S_QQuestor_Gener02)
+	SCPT(kal_S_QQuestor_Gener03)
+	SCPT(kal_S_QQuestor_Gener04)
+	SCPT(kal_S_QQuestor_Gener05)
+	SCPT(kal_S_QQuestor_Gener06)
+	SCPT(kal_S_QQuestor_Gener07)
+	SCPT(kal_S_QQuestor_Gener08)
+	SCPT(kal_S_QQuestor_Gener09)
+	SCPT(kal_S_QQuestor_Gener10)
+	SCPT(kal_S_QQuestor_gener)
+	SCPT(kal_S_RoyalBoots)
+	SCPT(kal_S_RoyalCuirass)
+	SCPT(kal_S_RoyalGauntletLeft)
+	SCPT(kal_S_RoyalGauntletRight)
+	SCPT(kal_S_RoyalGreaves)
+	SCPT(kal_S_RoyalPauldronLeft)
+	SCPT(kal_S_RoyalPauldronRight)
+	SCPT(kal_S_RoyalShield)
+	SCPT(kal_S_ShiyaazhTransformation)
+	SCPT(kal_S_ShiyaazhVampirisme)
+	SCPT(kal_S_Swampfever_lev)
+	SCPT(kal_S_TGExcalibur)
+	SCPT(kal_S_TG_ChestDiam)
+	SCPT(kal_S_TG_CoffrePepita)
+	SCPT(kal_S_TG_CoffrePiege1)
+	SCPT(kal_S_TG_CoffrePiege2)
+	SCPT(kal_S_TG_CoffrePiege3)
+	SCPT(kal_S_TG_CoffrePiege4)
+	SCPT(kal_S_TG_CoffrePiege5)
+	SCPT(kal_S_TG_CoffrePiege6)
+	SCPT(kal_S_TG_CoffrePiege7)
+	SCPT(kal_S_TG_CoffrePiege8)
+	SCPT(kal_S_TG_CoffrePiege9)
+	SCPT(kal_S_TG_CompteurFaux)
+	SCPT(kal_S_TG_CompteurJoursMazina)
+	SCPT(kal_S_TG_DoigtsCrochus)
+	SCPT(kal_S_TG_GardeDiam1)
+	SCPT(kal_S_TG_GardeDiam2)
+	SCPT(kal_S_TG_Gera)
+	SCPT(kal_S_TG_GuardeCasse)
+	SCPT(kal_S_TG_GuildeEnable)
+	SCPT(kal_S_TG_GuildeEnable2)
+	SCPT(kal_S_TG_GuildeEnableVoleur2)
+	SCPT(kal_S_TG_GuildeEnableVoleur3)
+	SCPT(kal_S_TG_GuildeEnableVoleur4)
+	SCPT(kal_S_TG_GuildeEnableVoleur5)
+	SCPT(kal_S_TG_GuildeEnableVoleur6)
+	SCPT(kal_S_TG_GuildeEnableVoleur7)
+	SCPT(kal_S_TG_NoteDiam)
+	SCPT(kal_S_TG_Sceau)
+	SCPT(kal_S_TG_Trouvetou)
+	SCPT(kal_S_TG_Valderia)
+	SCPT(kal_S_TG_Vellia)
+	SCPT(kal_S_TG_boite)
+	SCPT(kal_S_TG_capitaineGyeth)
+	SCPT(kal_S_TG_daguerouillee)
+	SCPT(kal_S_TG_disable2)
+	SCPT(kal_S_TG_disable3)
+	SCPT(kal_S_TG_disable4)
+	SCPT(kal_S_TG_disable5)
+	SCPT(kal_S_TG_disable6)
+	SCPT(kal_S_TG_disable7)
+	SCPT(kal_S_TG_fournisseur)
+	SCPT(kal_S_TG_guildeScript)
+	SCPT(kal_S_TG_mission1)
+	SCPT(kal_S_TG_mission2)
+	SCPT(kal_S_TG_mission3)
+	SCPT(kal_S_TG_prisonniere)
+	SCPT(kal_S_TG_rabatteur1)
+	SCPT(kal_S_TG_rabatteur2)
+	SCPT(kal_S_TG_rabatteur3)
+	SCPT(kal_S_TG_sariScript)
+	SCPT(kal_S_VA_bouclier)
+	SCPT(kal_S_VA_gardeMecanique)
+	SCPT(kal_S_Wander_Affelgard)
+	SCPT(kal_S_Wander_Breton)
+	SCPT(kal_S_Wander_DarkElf)
+	SCPT(kal_S_Wander_Enemy)
+	SCPT(kal_S_Wander_HighElf)
+	SCPT(kal_S_Wander_Illuan)
+	SCPT(kal_S_Wander_Imperial)
+	SCPT(kal_S_Wander_Khajiit)
+	SCPT(kal_S_Wander_Monster)
+	SCPT(kal_S_Wander_Mstfly)
+	SCPT(kal_S_Wander_Nord)
+	SCPT(kal_S_Wander_Orc)
+	SCPT(kal_S_Wander_Ragnarok)
+	SCPT(kal_S_Wander_Redguard)
+	SCPT(kal_S_Wander_Sombreterre)
+	SCPT(kal_S_Wander_Vydromal)
+	SCPT(kal_S_Wander_WoodElf)
+	SCPT(kal_S_Wander_argonian)
+	SCPT(kal_S_bookPilgrimsPath)
+	SCPT(kal_S_cavein_satchel)
+	SCPT(kal_S_genericTrap)
+	SCPT(kal_S_mannequin2)
+	SCPT(kal_S_marksSaintSummon)
+	SCPT(kal_S_monster_lev)
+	SCPT(kal_S_n_os)
+	SCPT(kal_S_nenfeaAttaque)
+	SCPT(kal_S_nenfeaScript)
+	SCPT(kal_S_pir_ClonePlayer)
+	SCPT(kal_S_pir_PiratesSleep)
+	SCPT(kal_S_pir_RemoveBillets)
+	SCPT(kal_S_pir_StatueScript)
+	SCPT(kal_S_pir_UpdateMortsPirates)
+	SCPT(kal_S_pir_caissePirate)
+	SCPT(kal_S_pir_caisseScript)
+	SCPT(kal_S_pir_coffreVincentius)
+	SCPT(kal_S_pir_commande)
+	SCPT(kal_S_pir_demonMer)
+	SCPT(kal_S_pir_intermediaire)
+	SCPT(kal_S_pir_jepleinpognius)
+	SCPT(kal_S_pir_maitre)
+	SCPT(kal_S_pir_mortAppolinius)
+	SCPT(kal_S_pir_mortAuberon)
+	SCPT(kal_S_pir_mortAubki)
+	SCPT(kal_S_pir_mortAvancelas)
+	SCPT(kal_S_pir_mortBarnadic)
+	SCPT(kal_S_pir_mortCastelliana)
+	SCPT(kal_S_pir_mortGeplainfricius)
+	SCPT(kal_S_pir_mortGildaric)
+	SCPT(kal_S_pir_mortGorgia)
+	SCPT(kal_S_pir_mortHelena)
+	SCPT(kal_S_pir_mortIncognitos)
+	SCPT(kal_S_pir_mortJilian)
+	SCPT(kal_S_pir_mortLlenicev)
+	SCPT(kal_S_pir_mortMatrenach)
+	SCPT(kal_S_pir_mortMunnaba)
+	SCPT(kal_S_pir_mortNathalia)
+	SCPT(kal_S_pir_mortOnmapavu)
+	SCPT(kal_S_pir_mortPsaireGedrumme)
+	SCPT(kal_S_pir_mortRjythri)
+	SCPT(kal_S_pir_mortSilentiocia)
+	SCPT(kal_S_pir_mortVatendelas)
+	SCPT(kal_S_pir_mortVincentius)
+	SCPT(kal_S_pir_mortsUpdateGenepi)
+	SCPT(kal_S_pir_mortsUpdateTharflane)
+	SCPT(kal_S_pir_noteBarnadic)
+	SCPT(kal_S_pir_noteGorgia)
+	SCPT(kal_S_pir_noteMatrenach)
+	SCPT(kal_S_pir_penseBete)
+	SCPT(kal_S_pir_piece)
+	SCPT(kal_S_pir_piratesDisable)
+	SCPT(kal_S_pir_thenegeric)
+	SCPT(kal_S_railing_UP_02)
+	SCPT(kal_S_railing_UP_03)
+	SCPT(kal_S_railing_down_02)
+	SCPT(kal_S_railing_down_03)
+	SCPT(kal_S_swimming_NPC)
+	SCPT(kal_S_yellowBookScript)
+	SCPT(kal_SarahSkills)
+	SCPT(kal_SarahStopfight)
+	SCPT(kal_SarahTeleportDetection)
+	SCPT(kal_SarahTeleporteurScript)
+	SCPT(kal_SarahUPSkills)
+	SCPT(kal_SarahUpgrade)
+	SCPT(kal_Sarah_A01_End)
+	SCPT(kal_Sarah_Quit)
+	SCPT(kal_e_S_Perithia_Com)
+	SCPT(kal_e_S_Perithia_Dis)
+	SCPT(kal_e_S_Perithia_Mag)
+	SCPT(kal_e_Vampire_Aundae)
+	SCPT(kal_e_Vampire_Berne)
+	SCPT(kal_e_active_anc_tomb_01)
+	SCPT(kal_e_anc_Tom_porte_01)
+	SCPT(kal_e_anc_Tom_porte_02)
+	SCPT(kal_e_brown_Eyes)
+	SCPT(kal_e_brown_Eyes2)
+	SCPT(kal_e_damage_30)
+	SCPT(kal_e_pass_repaire_ext)
+	SCPT(kal_e_pass_repaire_switch)
+	SCPT(kal_e_script_fiole_vide)
+	SCPT(kal_e_scrpt_andrews)
+	SCPT(kal_e_temp_rdv)
+	SCPT(kal_e_test_activator_door)
+	SCPT(kal_laby_D_bonus_script)
+	SCPT(kal_laby_D_editor_3way_script)
+	SCPT(kal_laby_D_editor_closed_script)
+	SCPT(kal_laby_D_editor_corner_script)
+	SCPT(kal_laby_D_editor_endcap_script)
+	SCPT(kal_laby_D_editor_hall_script)
+	SCPT(kal_laby_D_gene_script)
+	SCPT(kal_laby_D_porte_script)
+	SCPT(kal_laby_D_sas_script)
+	SCPT(kal_laby_D_sortie_script)
+	SCPT(kal_laby_D_test)
+	SCPT(kal_laby_H_bonus_script)
+	SCPT(kal_laby_H_editor_3way_script)
+	SCPT(kal_laby_H_editor_closed_script)
+	SCPT(kal_laby_H_editor_corner_script)
+	SCPT(kal_laby_H_editor_endcap_script)
+	SCPT(kal_laby_H_editor_hall_script)
+	SCPT(kal_laby_H_gene_script)
+	SCPT(kal_laby_H_porte_script)
+	SCPT(kal_laby_H_sas_script)
+	SCPT(kal_laby_H_sortie_script)
+	SCPT(kal_laby_H_test)
+	SCPT(kal_laby_I_bonus_script)
+	SCPT(kal_laby_I_editor_3way_script)
+	SCPT(kal_laby_I_editor_closed_script)
+	SCPT(kal_laby_I_editor_corner_script)
+	SCPT(kal_laby_I_editor_endcap_script)
+	SCPT(kal_laby_I_editor_hall_script)
+	SCPT(kal_laby_I_gene_script)
+	SCPT(kal_laby_I_porte_script)
+	SCPT(kal_laby_I_sas_script)
+	SCPT(kal_laby_I_sortie_script)
+	SCPT(kal_laby_I_test)
+	SCPT(kal_laby_L_bonus_script)
+	SCPT(kal_laby_L_editor_3way_script)
+	SCPT(kal_laby_L_editor_closed_script)
+	SCPT(kal_laby_L_editor_corner_script)
+	SCPT(kal_laby_L_editor_endcap_script)
+	SCPT(kal_laby_L_editor_hall_script)
+	SCPT(kal_laby_L_gene_script)
+	SCPT(kal_laby_L_porte_script)
+	SCPT(kal_laby_L_sas_script)
+	SCPT(kal_laby_L_sortie_script)
+	SCPT(kal_laby_L_test)
+	SCPT(kal_laby_N_bonus_script)
+	SCPT(kal_laby_N_editor_3way_script)
+	SCPT(kal_laby_N_editor_closed_script)
+	SCPT(kal_laby_N_editor_corner_script)
+	SCPT(kal_laby_N_editor_endcap_script)
+	SCPT(kal_laby_N_editor_hall_script)
+	SCPT(kal_laby_N_gene_script)
+	SCPT(kal_laby_N_porte_script)
+	SCPT(kal_laby_N_sas_script)
+	SCPT(kal_laby_N_sortie_script)
+	SCPT(kal_laby_N_test)
+	SCPT(kal_laby_O_bonus_script)
+	SCPT(kal_laby_O_editor_3way_script)
+	SCPT(kal_laby_O_editor_closed_script)
+	SCPT(kal_laby_O_editor_corner_script)
+	SCPT(kal_laby_O_editor_endcap_script)
+	SCPT(kal_laby_O_editor_hall_script)
+	SCPT(kal_laby_O_gene_script)
+	SCPT(kal_laby_O_porte_script)
+	SCPT(kal_laby_O_sas_script)
+	SCPT(kal_laby_O_sortie_script)
+	SCPT(kal_laby_O_test)
+	SCPT(kal_laby_R_bonus_script)
+	SCPT(kal_laby_R_editor_3way_script)
+	SCPT(kal_laby_R_editor_closed_script)
+	SCPT(kal_laby_R_editor_corner_script)
+	SCPT(kal_laby_R_editor_endcap_script)
+	SCPT(kal_laby_R_editor_hall_script)
+	SCPT(kal_laby_R_gene_script)
+	SCPT(kal_laby_R_porte_script)
+	SCPT(kal_laby_R_sas_script)
+	SCPT(kal_laby_R_sortie_script)
+	SCPT(kal_laby_R_test)
+	SCPT(kal_laby_S_bonus_script)
+	SCPT(kal_laby_S_editor_3way_script)
+	SCPT(kal_laby_S_editor_closed_script)
+	SCPT(kal_laby_S_editor_corner_script)
+	SCPT(kal_laby_S_editor_endcap_script)
+	SCPT(kal_laby_S_editor_hall_script)
+	SCPT(kal_laby_S_gene_script)
+	SCPT(kal_laby_S_porte_script)
+	SCPT(kal_laby_S_sas_script)
+	SCPT(kal_laby_S_sortie_script)
+	SCPT(kal_laby_S_test)
+	SCPT(kal_laby_T_bonus_script)
+	SCPT(kal_laby_T_editor_3way_script)
+	SCPT(kal_laby_T_editor_closed_script)
+	SCPT(kal_laby_T_editor_corner_script)
+	SCPT(kal_laby_T_editor_endcap_script)
+	SCPT(kal_laby_T_editor_hall_script)
+	SCPT(kal_laby_T_gene_script)
+	SCPT(kal_laby_T_porte_script)
+	SCPT(kal_laby_T_sas_script)
+	SCPT(kal_laby_T_sortie_script)
+	SCPT(kal_laby_T_test)
+	SCPT(kal_laby_V_bonus_script)
+	SCPT(kal_laby_V_editor_3way_script)
+	SCPT(kal_laby_V_editor_closed_script)
+	SCPT(kal_laby_V_editor_corner_script)
+	SCPT(kal_laby_V_editor_endcap_script)
+	SCPT(kal_laby_V_editor_hall_script)
+	SCPT(kal_laby_V_gene_script)
+	SCPT(kal_laby_V_porte_script)
+	SCPT(kal_laby_V_sas_script)
+	SCPT(kal_laby_V_sortie_script)
+	SCPT(kal_laby_V_test)
+	SCPT(kal_laby_W_bonus_script)
+	SCPT(kal_laby_W_editor_3way_script)
+	SCPT(kal_laby_W_editor_closed_script)
+	SCPT(kal_laby_W_editor_corner_script)
+	SCPT(kal_laby_W_editor_endcap_script)
+	SCPT(kal_laby_W_editor_hall_script)
+	SCPT(kal_laby_W_gene_script)
+	SCPT(kal_laby_W_porte_script)
+	SCPT(kal_laby_W_sas_script)
+	SCPT(kal_laby_W_sortie_script)
+	SCPT(kal_laby_W_test)
+	SCPT(kal_laby_lights_script)
+	SCPT(kal_laby_monster_lev10_script)
+	SCPT(kal_laby_monster_lev20_script)
+	SCPT(kal_laby_monster_lev30_script)
+	SCPT(kal_laby_monster_lev40_script)
+	SCPT(kal_laby_monster_lev50_script)
+	SCPT(kal_laby_monster_lev60_script)
+	SCPT(kal_laby_monster_lev70_script)
+	SCPT(kal_laby_monster_lev99_script)
+	SCPT(kal_laby_monster_lev_D_script)
+	SCPT(kal_laby_monster_lev_script)
+	SCPT(kal_laby_monsters_script)
+	SCPT(kal_laby_nonfini_script)
+	SCPT(kal_labys_D_3wayScript)
+	SCPT(kal_labys_D_4wayScript)
+	SCPT(kal_labys_D_CornerScript)
+	SCPT(kal_labys_D_EndcapScript)
+	SCPT(kal_labys_D_HallScript)
+	SCPT(kal_labys_H_3wayScript)
+	SCPT(kal_labys_H_4wayScript)
+	SCPT(kal_labys_H_CornerScript)
+	SCPT(kal_labys_H_EndcapScript)
+	SCPT(kal_labys_H_HallScript)
+	SCPT(kal_labys_H_PartitionScript)
+	SCPT(kal_labys_I_3wayScript)
+	SCPT(kal_labys_I_4wayScript)
+	SCPT(kal_labys_I_CornerScript)
+	SCPT(kal_labys_I_EndcapScript)
+	SCPT(kal_labys_I_HallScript)
+	SCPT(kal_labys_L_3wayScript)
+	SCPT(kal_labys_L_4wayScript)
+	SCPT(kal_labys_L_CornerScript)
+	SCPT(kal_labys_L_EndcapScript)
+	SCPT(kal_labys_L_Hall1Script)
+	SCPT(kal_labys_L_Hall2Script)
+	SCPT(kal_labys_N_3wayScript)
+	SCPT(kal_labys_N_4wayScript)
+	SCPT(kal_labys_N_CornerScript)
+	SCPT(kal_labys_N_EndcapScript)
+	SCPT(kal_labys_N_HallScript)
+	SCPT(kal_labys_N_shaftcapScript)
+	SCPT(kal_labys_O_3wayScript)
+	SCPT(kal_labys_O_4wayScript)
+	SCPT(kal_labys_O_CornerScript)
+	SCPT(kal_labys_O_EndcapScript)
+	SCPT(kal_labys_O_HallScript)
+	SCPT(kal_labys_O_PartitionScript)
+	SCPT(kal_labys_R_3wayScript)
+	SCPT(kal_labys_R_4wayScript)
+	SCPT(kal_labys_R_CornerScript)
+	SCPT(kal_labys_R_EndcapScript)
+	SCPT(kal_labys_R_HallScript)
+	SCPT(kal_labys_R_PartitionScript)
+	SCPT(kal_labys_S_3wayScript)
+	SCPT(kal_labys_S_4wayScript)
+	SCPT(kal_labys_S_CornerScript)
+	SCPT(kal_labys_S_EndcapScript)
+	SCPT(kal_labys_S_Hall1Script)
+	SCPT(kal_labys_S_Hall2Script)
+	SCPT(kal_labys_T_3wayScript)
+	SCPT(kal_labys_T_4wayScript)
+	SCPT(kal_labys_T_CornerScript)
+	SCPT(kal_labys_T_EndcapScript)
+	SCPT(kal_labys_T_HallScript)
+	SCPT(kal_labys_T_PartitionScript)
+	SCPT(kal_labys_V_3wayScript)
+	SCPT(kal_labys_V_4wayScript)
+	SCPT(kal_labys_V_CornerScript)
+	SCPT(kal_labys_V_EndcapScript)
+	SCPT(kal_labys_V_HallScript)
+	SCPT(kal_labys_W_3wayScript)
+	SCPT(kal_labys_W_4wayScript)
+	SCPT(kal_labys_W_CornerScript)
+	SCPT(kal_labys_W_EndcapScript)
+	SCPT(kal_labys_W_HallScript)
+	SCPT(kal_labyt_D_3wayScript)
+	SCPT(kal_labyt_D_4wayScript)
+	SCPT(kal_labyt_D_CornerScript)
+	SCPT(kal_labyt_D_HallScript)
+	SCPT(kal_labyt_H_3wayScript)
+	SCPT(kal_labyt_H_4wayScript)
+	SCPT(kal_labyt_H_CornerScript)
+	SCPT(kal_labyt_H_HallScript)
+	SCPT(kal_labyt_HallScript)
+	SCPT(kal_labyt_I_3wayScript)
+	SCPT(kal_labyt_I_4wayScript)
+	SCPT(kal_labyt_I_CornerScript)
+	SCPT(kal_labyt_L_3wayScript)
+	SCPT(kal_labyt_L_4wayScript)
+	SCPT(kal_labyt_L_CornerScript)
+	SCPT(kal_labyt_L_Hall1Script)
+	SCPT(kal_labyt_N_3wayScript)
+	SCPT(kal_labyt_N_4wayScript)
+	SCPT(kal_labyt_N_CornerScript)
+	SCPT(kal_labyt_N_HallScript)
+	SCPT(kal_labyt_O_3wayScript)
+	SCPT(kal_labyt_O_4wayScript)
+	SCPT(kal_labyt_O_CornerScript)
+	SCPT(kal_labyt_O_HallScript)
+	SCPT(kal_labyt_R_3wayScript)
+	SCPT(kal_labyt_R_4wayScript)
+	SCPT(kal_labyt_R_CornerScript)
+	SCPT(kal_labyt_R_HallScript)
+	SCPT(kal_labyt_S_3wayScript)
+	SCPT(kal_labyt_S_4wayScript)
+	SCPT(kal_labyt_S_CornerScript)
+	SCPT(kal_labyt_S_Hall1Script)
+	SCPT(kal_labyt_T_3wayScript)
+	SCPT(kal_labyt_T_4wayScript)
+	SCPT(kal_labyt_T_CornerScript)
+	SCPT(kal_labyt_T_HallScript)
+	SCPT(kal_labyt_T_PartitionScript)
+	SCPT(kal_labyt_V_3wayScript)
+	SCPT(kal_labyt_V_4wayScript)
+	SCPT(kal_labyt_V_CornerScript)
+	SCPT(kal_labyt_V_HallScript)
+	SCPT(kal_labyt_W_3wayScript)
+	SCPT(kal_labyt_W_4wayScript)
+	SCPT(kal_labyt_W_CornerScript)
+	SCPT(kal_labyt_W_HallScript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    ac_darkgravel
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_clover
+	morrowind.esm       LTEX    ai_dirt
+	morrowind.esm       LTEX    ai_dirtroad
+	morrowind.esm       LTEX    ai_grass
+	morrowind.esm       LTEX    ai_grass_02
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_dirt
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    ai_tilled_dirt
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_04
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    lavacrust02.tga
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava02
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock03
+	morrowind.esm       LTEX    ma_sulphur_rock05
+	morrowind.esm       LTEX    ma_sulphur_rock06
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    ma_sulphur_rock08
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    rm_grayrock
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_rock_03
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    sand_02
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mainroad_01.tga
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_road
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       STAT    collision wall - inviso!!
+	morrowind.esm       STAT    ex_common_plat_lrg
+	morrowind.esm       STAT    ex_imp_wall_01
+	morrowind.esm       STAT    ex_velothi_temple_01
+	morrowind.esm       STAT    flora_tree_ai_01
+	morrowind.esm       STAT    flora_tree_ai_03
+	morrowind.esm       STAT    furn_de_overhang_07
+	morrowind.esm       STAT    in_c_stone_4way
+	morrowind.esm       STAT    in_c_stone_corner
+	morrowind.esm       STAT    in_impsmall_doorjam_01
+	morrowind.esm       STAT    in_impsmall_r_3way_01
+	morrowind.esm       STAT    in_lavaboulder00
+	morrowind.esm       STAT    in_lavaboulder02
+	morrowind.esm       STAT    in_lavaboulder05
+	morrowind.esm       STAT    in_moldboulder02
+	morrowind.esm       STAT    in_strong_corr2_01
+	morrowind.esm       STAT    in_strong_corr2_04
+	morrowind.esm       STAT    in_v_s_int_entrance_01
+	tribunal.esm        GLOB    abelmawiacounter
+	tribunal.esm        STAT    in_lava_rock_07
+	tribunal.esm        STAT    in_moldboulder05
+	tribunal.esm        STAT    in_py_rock_07
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    promotion
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DOOR    ex_nord_door_02
+	bloodmoon.esm       DOOR    in_de_ship_cabindoor
+	morrowind.esm       DIAL    akatosh
+	morrowind.esm       DIAL    arkay
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    dibella
+	morrowind.esm       DIAL    empire
+	morrowind.esm       DIAL    factions
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    julianos
+	morrowind.esm       DIAL    kynareth
+	morrowind.esm       DIAL    mara
+	morrowind.esm       DIAL    morag tong
+	morrowind.esm       DIAL    stendarr
+	morrowind.esm       DIAL    talos
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DOOR    door_cavern_doors00
+	morrowind.esm       DOOR    in_c_door_arched
+	morrowind.esm       GMST    imonthstorespawn
+	morrowind.esm       LTEX    ma_sandstone02
+	morrowind.esm       LTEX    tx_lavacrust00.tga
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    services
+	tribunal.esm        DOOR    ex_nord_door_01
+	tribunal.esm        DOOR    in_impsmall_door_01
+	tribunal.esm        DOOR    in_velothismall_ndoor_01
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+
+[MOD-INF]: ID=128279104427445(Topic:dernières rumeurs)
+  tribunal.esm--------->|DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:denegor|NAME
+
+[MOD-INF]: ID=2727843762091835(Topic:mon histoire)
+  bloodmoon.esm-------->|DATA|ONAM:ghost_npc_conoon chodal|NAME:I have failed. I was not the one.|SCVR:04JX3A2_6_Conoon|INTV:d|BNAM:; Conoon Chodala;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:ghost_npc_conoon chodal|NAME|SCVR:04JX3A2_6_Conoon|INTV:d|BNAM:; Conoon Chodala;
+
+[MOD-INF]: ID=2748533315676598(Topic:rejoindre la légion)
+  morrowind.esm-------->|DATA|ONAM:din|NAME:Join? Why would I want to do that? I already did! I don't think you'd fit in. Not a lot of slaughterfish in the Legion. Not even talking ones that look like a %PCRace.|SCVR:04JX4MV_MonsterDisease|INTV:1
+  Kalendaar_V3.R02.esm->|DATA|ONAM:din|NAME|SCVR:04JX4MV_MonsterDisease|INTV:1
+
+[MOD-INF]: ID=5178505957589111(Topic:petit conseil)
+  tribunal.esm--------->|DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:denegor|NAME
+
+[MOD-INF]: ID=7769002151568271(Topic:guilde des mages)
+  morrowind.esm-------->|DATA|ONAM:sharn gra-muzgob|NAME:A rat's nest. Unsound practices. Slipshod scholarship. Politics. Lamebrains and lunatics. But essential for research. And worthwhile for the discounts on services, if nothing else. Marayn Dren here, she's not so bad. Good intentions. And Edwinna Elbert, over in Ald'ruhn. Interesting projects. A bit out of touch, perhaps. But sound and sensible.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:sharn gra-muzgob|NAME
+
+[MOD-INF]: ID=13737223031182340(Topic:camonna tong)
+  morrowind.esm-------->|DATA|ONAM:Orvas Dren Druglord|NAME:We have a deal, friend.|SCVR:34JX3HH_WinCamonna|INTV:2
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Orvas Dren Druglord|NAME|SCVR:34JX3HH_WinCamonna|INTV:2
+
+[MOD-INF]: ID=16164203006753245(Topic:maison drès)
+  morrowind.esm-------->|DATA|ONAM:artisa arelas|NAME:Of the five Dunmer Great Houses, House Dres is one of two houses without holdings or interest in Vvardenfell. Dres District is in the south of Morrowind, bordering the swamps and marshes of Black Marsh. House Dres is an agrarian agricultural society, and its large saltrice plantations rely completely on slave labor for their economic viability. Always firm Temple supporters, House Dres is hostile to Imperial law and culture, and in particular opposed to any attempts to limit the institution of slavery.|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:artisa arelas|NAME|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=16166129550895167(Topic:maison indoril)
+  morrowind.esm-------->|DATA|ONAM:artisa arelas|NAME:House Indoril is one of the five Dunmer Great Houses, and one of the two houses without holdings or interest in Vvardenfell. The city of Almalexia is located in Indoril District, and the Indoril are orthodox and conservative supporters of the Temple and Temple authority. House Indoril is openly hostile to Imperial culture and religion, and preserves many traditional Dunmer customs and practices in defiance of Imperial law.|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:artisa arelas|NAME|BNAM:;noble; savant; bard; bookseller;
+
+[DUP-INF]: ID=16462055017136588(Voice:idle)
+  |DATA|SCVR:03sX0noidle|INTV:
+
+[MOD-INF]: ID=18847342643332070(Topic:rejoindre la légion)
+  morrowind.esm-------->|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1
+  Kalendaar_V3.R02.esm->|DATA|ONAM:general darius|NAME|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1
+
+[MOD-INF]: ID=19137490125553988(Greeting:greeting 1)
+  tribunal.esm--------->|DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Nerile Andaren|NAME|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[MOD-INF]: ID=22321827592455738(Topic:armure légère)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:The light armor discipline is the study and mastery of leather, boiled leather, chitin, and glass armor styles. To use any style of armor effectively, the wearer must be trained, conditioned, and skilled in its use.|SCVR:0CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[MOD-INF]: ID=22352670919175723(Topic:conditions requises)
+  morrowind.esm-------->|DATA|ONAM:athyn sarethi|NAME:House Redoran honors strength and endurance. We value all the skills of war, but especially the arts of long blade, spear, blocking, marksmanship, and athletics. Redorans must know how to use and repair heavy and medium armor. Only when armed with these skills can we perform our inherited duties as the warriors and defenders of the Dunmer.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:athyn sarethi|NAME
+
+[MOD-INF]: ID=27772346327573737(Voice:hello)
+  tribunal.esm--------->|DATA|ONAM:ancestor_ghost_Variner|RNAM:Dark Elf|SNAM:Vo\d\m\tHlo_DM001.mp3|NAME:Peace! Now I must be silent, and join my ancestors.|SCVR:04JX3MS_BlackDart|INTV|BNAM:;ghost; young male dark elf tragically slain in the flower of his youth
+  Kalendaar_V3.R02.esm->|DATA|ONAM:ancestor_ghost_Variner|RNAM:Dark Elf|SNAM:Vo\d\m\tHlo_DM001.mp3|NAME|SCVR:04JX3MS_BlackDart|INTV|BNAM:;ghost; young male dark elf tragically slain in the flower of his youth
+
+[MOD-INF]: ID=28358841968027303(Topic:mission)
+  morrowind.esm-------->|DATA|ONAM:chargen captain|NAME:You know your duties. Take that package to Caius Cosades in Balmora.|SCVR:04JX4A1_1_FindSpymaster|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV|BNAM:;journal gets set to 12 when you give spymaster package. Captian is in legion so he should mention other stuff after this ;that is part of legion.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:chargen captain|NAME|SCVR:04JX4A1_1_FindSpymaster|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV|BNAM:;journal gets set to 12 when you give spymaster package. Captian is in legion so he should mention other stuff after this ;that is part of legion.
+
+[MOD-INF]: ID=29205294936762893(Topic:empire)
+  morrowind.esm-------->|DATA|CNAM:Priest Service|FNAM:Imperial Cult|NAME:The Empire is the greatest achievement of Tamrielic civilization. This melting pot of contrasting cultures is held together by a strong hereditary emperor and bureaucracy, by the rule of law, by a powerful professional army, and by religious tolerance. Education and wealth is broadly distributed through all social classes where Imperial culture has flourished; many citizens are literate and protected under Imperial law.
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Priest Service|FNAM:Imperial Cult|NAME
+
+[MOD-INF]: ID=30961682816419891(Topic:guilde des mages)
+  morrowind.esm-------->|DATA|ONAM:estirdalin|NAME:The Mages Guild is a professional organization chartered by the Emperor to promote study of the arcane arts. And it's where you go to find wizards for hire. Training, goods, and services are cheaper for members, and the Guild Stewards know where to find work. If you're thinking of making wizardry your profession, you should join and work your way up the ranks. Look for guild halls in Balmora, Ald'ruhn, Wolverine Hall in Sadrith Mora, and the Foreign Quarter in Vivec.|BNAM:; savant; bard; mage; spellsword; nightblade; sorcerer;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:estirdalin|NAME|BNAM:; savant; bard; mage; spellsword; nightblade; sorcerer;
+
+[MOD-INF]: ID=32030551020854759(Topic:événements actuels)
+  morrowind.esm-------->|DATA|ONAM:hasphat antabolis|NAME:The Great Houses hate each other -- theft, murder, assassination, secret raids, standard stuff. The Temple is trying to kill off a rebellious faction called the Dissident priests. Ashlander nomads raid each other, attack traders and pilgrims. A secret cult is killing off Imperial citizens. All bad enough. The real problem, though, is the Blight. Monsters and diseases. The natives say it comes from Red Mountain. It's been a local problem for years, but lately it's gotten badly out of control.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:hasphat antabolis|NAME
+
+[MOD-INF]: ID=32243223831991640(Topic:ruines dwemers)
+  morrowind.esm-------->|DATA|ONAM:baladas demnevanni|NAME:You seem to truly have an interest in the Dwarves, so I will tell you this. Sneak into the Gnisis Eggmine. I heard they made a most unusual discovery recently.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:baladas demnevanni|NAME
+
+[MOD-INF]: ID=32281390961219948(Topic:mon métier)
+  bloodmoon.esm-------->|DATA|ONAM:Vedam Dren|NAME:I am a noble, a leader and diplomat.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Vedam Dren|NAME:Je suis un noble, un chef et un diplomate.
+
+[MOD-INF]: ID=45341331184509153(Topic:petits boulots)
+  morrowind.esm-------->|DATA|FNAM:Thieves Guild|NAME:You broke the rules, %PCName. Maybe you can make amends, and maybe not.|SCVR:01390|INTV
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Thieves Guild|NAME|SCVR:01390|INTV
+
+[MOD-INF]: ID=46662122842887030(Topic:conseillers rédorans)
+  morrowind.esm-------->|DATA|ONAM:nibani maesa|NAME:Go to Ald'ruhn, the chief town of the Redoran. They say the council meets under the shell of a giant Emperor crab. The Redoran are proud and haughty, known as great warriors and great worshippers of the Tribunal. Since they love the Temple and Vivec, they cannot love you. The Temple warriors hate the Nerevarine prophecies, and will kill you if they see you. Be careful.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:14JX4B5_RedoranHort|INTV:2
+  Kalendaar_V3.R02.esm->|DATA|ONAM:nibani maesa|NAME|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:14JX4B5_RedoranHort|INTV:2
+
+[MOD-INF]: ID=66794353038430875(Topic:bénédictions)
+  morrowind.esm-------->|DATA|ONAM:tralas rendas|NAME:Very well. Stand still.|SCVR:01500|INTV|BNAM:Cast "shrine_maargan_npc_sp" Player  Goodbye
+  Kalendaar_V3.R02.esm->|DATA|ONAM:tralas rendas|NAME|SCVR:01500|INTV|BNAM:Cast "shrine_maargan_npc_sp" Player  Goodbye
+
+[MOD-INF]: ID=67111699173578209(Persuasion:bribe success)
+  morrowind.esm-------->|DATA|ONAM:ghost_npc_peakstar|NAME:Your offering does you honor.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:ghost_npc_peakstar|NAME:Cette offre vous honore.
+
+[MOD-INF]: ID=68043514740020060(Greeting:greeting 1)
+  tribunal.esm--------->|DATA|ONAM:Alvan Llarys|NAME:Have you any news, %PCName?|SCVR:04JX2MS_Thief|INTV|SCVR:14JX4MS_Thief|INTV:Z
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Alvan Llarys|NAME:Quelles sont les nouvelles, %PCName ?|SCVR:04JX2MS_Thief|INTV|SCVR:14JX4MS_Thief|INTV:Z
+
+[MOD-INF]: ID=76348684226081278(Topic:factions)
+  morrowind.esm-------->|DATA|ONAM:artisa arelas|NAME:Observers of Vvardenfell's politics have identified eleven main factions, some aligned with Imperial interests, some aligned with native Dunmer interests. The primary Imperial factions are the Imperial cult, the Imperial legions, and the Fighters, Mages, and Thieves Guilds. The primary native Dunmer factions are the three Great Houses, Redoran, Hlaalu, and Telvanni, the Temple, and the Morag Tong. The Ashlander barbarians are native Dunmer, but are opposed to both the Empire and the settled Dunmer.|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:artisa arelas|NAME|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=87826514833613804(Topic:mara)
+  morrowind.esm-------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME:Mara, Goddess of Love, is the Mother-Goddess, patron of the bountiful earth, and source of mortal compassion and understanding. She is associated with Nir of the 'Anuad', the female principle of the cosmos that gave birth to creation.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=112626264101571051(Topic:acrobatie)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:The acrobatics discipline is the ability to jump long distances and to avoid damage when falling great distances.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[MOD-INF]: ID=113991839262842090(Topic:maison drès)
+  morrowind.esm-------->|DATA|CNAM:Noble|NAME:Dres District is in the south of Morrowind, bordering the swamps and marshes of Black Marsh. House Dres is an agrarian agricultural society, and its large saltrice plantations rely completely on slave labor for their economic viability.|SCVR:0ARX0Dark Elf|INTV|SCVR:12sX4Random100|INTV:B|SCVR:2CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Noble|NAME|SCVR:0ARX0Dark Elf|INTV|SCVR:12sX4Random100|INTV:B|SCVR:2CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=126415088200024412(Topic:entrer au temple)
+  morrowind.esm-------->|DATA|FNAM:Temple|ANAM:Molag Mar, Temple|NAME:Speak with Tharer Rotheloth here at the Temple.|SCVR:01460|INTV:
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Temple|ANAM:Molag Mar, temple|NAME|SCVR:01460|INTV:
+
+[MOD-INF]: ID=137637342899629067(Persuasion:service refusal)
+  bloodmoon.esm-------->|DATA|ONAM:vevrana aryon|NAME:I'm sorry. There must be some mistake. I'm not a gondolier or shipmaster.|SCVR:04JX4A2_4_Milo_hola_go|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:vevrana aryon|NAME:Je regrette, il doit y avoir erreur. Je ne suis ni gondolier ni capitaine de navire.|SCVR:04JX4A2_4_Milo_hola_go|INTV
+
+[MOD-INF]: ID=151342333724044790(Topic:rangs du culte impérial)
+  morrowind.esm-------->|DATA|ONAM:Iulus Truptor|NAME:The ten ranks of status in the Imperial cult are, from lowest rank to highest rank: Rank One, Layman; Rank Two, Novice; Rank Three, Initiate; Rank Four, Acolyte; Rank Five, Adept; Rank Six, Disciple; Rank Seven, Oracle; Rank Eight, Invoker; Rank Nine, Theurgist; and Rank Ten, Primate. You are currently at rank %PCRank, %PCName.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Iulus Truptor|NAME
+
+[MOD-INF]: ID=174371419272359025(Topic:morag tong)
+  morrowind.esm-------->|DATA|FNAM:Morag Tong|NAME:What can I do for you, brother?|SCVR:01460|INTV|SCVR:11380|INTV:|BNAM:;Morag Tong;
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Morag Tong|NAME|SCVR:01460|INTV|SCVR:11380|INTV:|BNAM:;Morag Tong;
+
+[MOD-INF]: ID=185649903810118615(Topic:maison indoril)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:House Indoril is one of the five Dunmer Great Houses, and one of the two houses without holdings or interest in Vvardenfell. The city of Almalexia is located in Indoril District, and the Indoril are orthodox and conservative supporters of the Temple and Temple authority. House Indoril is openly hostile to Imperial culture and religion, and preserves many traditional Dunmer customs and practices in defiance of Imperial law.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=199641425381905494(Topic:recouvrer la liberté)
+  morrowind.esm-------->|DATA|ONAM:eleedal_lei|NAME:Yes, I will free the others. Soon we will return to Black Marsh.|SCVR:34JX3HT_SlaveRebellion|INTV:2
+  Kalendaar_V3.R02.esm->|DATA|ONAM:eleedal_lei|NAME|SCVR:34JX3HT_SlaveRebellion|INTV:2
+
+[MOD-INF]: ID=205451407245156174(Topic:ancêtres)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:The Dunmer believe the spirits of the dead live on in our world. They can know and affect the future, and can speak with other spirits, and work great magic, so the Dunmer honor and gift them, and ask them for aid and protection. Strong spirits of heroes and wise women preserve the wisdom and honor of the race. The worst spirits are evil and harmful, called ghosts, and devils, and daemons. The oldest and greatest ancestor spirits are the Daedra. They are powerful, but dangerous, and hard to understand.|SCVR:0CsX0NoLore|INTV:
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=210147641289913738(Greeting:greeting 6)
+  morrowind.esm-------->|DATA|ONAM:tralas rendas|NAME:You have completed the Pilgrimage to the Shine of Maar Gan.|SCVR:34JX3TT_MaarGan|INTV:<
+  Kalendaar_V3.R02.esm->|DATA|ONAM:tralas rendas|NAME|SCVR:34JX3TT_MaarGan|INTV:<
+
+[MOD-INF]: ID=218051894382021198(Topic:culte impérial)
+  morrowind.esm-------->|DATA|ONAM:caius cosades|NAME:The Imperial cult worships the Nine Divines: the Aedra Akatosh, Dibella, Arkay, Zenithar, Mara, Stendarr, Kynareth, and Julianos, and Tiber Septim, founder and patron of the Empire. In Morrowind, it's partly maintaining the faith for outlanders like us, and partly a missionary cult, bringing enlightment to the heathen Dunmer. You can see Somutis Vunnis at Fort Moonmoth to join, but you have to go to Ebonheart if you want to become a lay servant.|SCVR:04JX3A1_1_FindSpymaster|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:caius cosades|NAME|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=229261378201620705(Voice:idle)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM|SNAM:Vo\d\m\tIdl_DM002.mp3|NAME:Try me, and you'll regret it.|SCVR:02sX3Random100|INTV:2
+  Kalendaar_V3.R02.esm->|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|ANAM:Longsanglot|SNAM:Vo\d\m\tIdl_DM002.mp3|NAME:Cherchez-moi et vous allez le regretter.|SCVR:02sX3Random100|INTV:2
+
+[MOD-INF]: ID=233406283899512682(Topic:talos)
+  morrowind.esm-------->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME:Tiber Septim was born on the continent of Atmora with the name 'Talos'. When he became Emperor of Tamriel, he took  a Cyrodilic name -- Tiber Septim, the Dragon of the North.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=252929159125117212(Topic:épée courte)
+  morrowind.esm-------->|DATA|ONAM:garothmuk gro-muzgub|NAME:Cheap iron and steel shortswords are standard issue for Legion troopers. The Imperial shortsword is a superior Legion guardsman's weapon. Retired Legion smiths settling in Morrowind have popularized Imperial shortswords with the growing Dunmer merchant class and with Hlaalu nobles and their retainers.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:garothmuk gro-muzgub|NAME
+
+[MOD-INF]: ID=279241671204724848(Topic:kynareth)
+  morrowind.esm-------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME:Kynareth, Goddess of Air, is the deity of the heavens, the winds, the elements, and the unseen spirits of the air. Patron of sailors and travelers, Kynareth is invoked for auspicious stars at birth and for good fortune in daily life.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=281397061275384625(Topic:pèlerinages)
+  morrowind.esm-------->|DATA|CNAM:Monk|FNAM:Temple|NAME:A book called The Pilgrim's Path describes many of the Temple's pilgrimages and their shrines.|SCVR:02sX4Random100|INTV:!|BNAM:;Temple; priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Monk|FNAM:Temple|NAME|SCVR:02sX4Random100|INTV:!|BNAM:;Temple; priests; monks; healers;
+
+[DUP-INF]: ID=291042261518712192(Voice:hello)
+  |DATA|SCVR:03sX0nohello|INTV:
+
+[MOD-INF]: ID=292531804432634565(Topic:entrer à la guilde des voleurs)
+  morrowind.esm-------->|DATA|FNAM:Thieves Guild|NAME:You are now a %PCRank in the Thieves Guild. Welcome, brother %PCName. Talk to me when you want some odd jobs to do and when you think you're ready for advancement. If you have a price on your head, there are those you can talk to as well.|SCVR:01500|INTV|BNAM:PCJoinFaction "Thieves Guild"  ModDisposition 5
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Thieves Guild|NAME|SCVR:01500|INTV|BNAM:PCJoinFaction "Thieves Guild"  ModDisposition 5
+
+[MOD-INF]: ID=299011057147519792(Topic:maison rédoran)
+  morrowind.esm-------->|DATA|ONAM:caius cosades|NAME:House Redoran is one of the three Dunmer Great Houses on Vvardenfell -- a very serious and honorable bunch. It's difficult for an outlander to join and rise in their ranks, but the Great Houses are where the power lies in Morrowind. Talk to Redoran councilors if you want to be become a Redoran retainer.|SCVR:04JX3A1_1_FindSpymaster|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:caius cosades|NAME|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=301206470309124948(Topic:entrer à la maison rédoran)
+  morrowind.esm-------->|DATA|ONAM:neminda|NAME:House Redoran does not tolerate traitors. Make amends, %PCName, if you still can.|SCVR:01390|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:neminda|NAME|SCVR:01390|INTV
+
+[MOD-INF]: ID=301358887217114138(Topic:entrer à la maison telvanni)
+  morrowind.esm-------->|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:Oh, you've been expelled? Nothing to fear. I will take care of this for you. What else did you want?|SCVR:01460|INTV|SCVR:11390|INTV|BNAM:PCClearExpelled
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, palais du Conseil telvanni|NAME|SCVR:01460|INTV|SCVR:11390|INTV|BNAM:PCClearExpelled
+
+[MOD-INF]: ID=306229682843426157(Topic:guilde des voleurs)
+  morrowind.esm-------->|DATA|ONAM|BNAM:; savant; bard; rogue; thief; acrobat;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:larrius varro|NAME|BNAM:; savant; bard; rogue; thief; acrobat;
+
+[MOD-INF]: ID=307481458477726961(Topic:promotion)
+  tribunal.esm--------->|DATA|ONAM:Vedam Dren|DNAM:Hlaalu|NAME:You are the Grandmaster of House Hlaalu, %PCName.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Vedam Dren|DNAM:Hlaalu|NAME
+
+[DUP-INF]: ID=321254531168523746(Voice:attack)
+  |DATA|SCVR:03sX0noattack|INTV:
+
+[MOD-INF]: ID=327111580245019527(Topic:guildes impériales)
+  morrowind.esm-------->|DATA|ANAM:Balmora|NAME:In the Western Empire, mercenaries and adventurers have organized themselves into guilds to promote the welfare of the members, to serve as a clearinghouse for information and employment opportunities, and to provide services and training for the members. The Fighters Guild and the Mages Guild are official trade guilds, chartered by the Emperor. The Thieves Guild is a private, informal, and semi-secret organization. Each of the Guilds provides training in what are called the Guild disciplines.|SCVR:0CsX0nolore|INTV:
+  Kalendaar_V3.R02.esm->|DATA|ANAM:Balmora|NAME|SCVR:0CsX0nolore|INTV:
+
+[MOD-INF]: ID=376428107172212760(Topic:dibella)
+  morrowind.esm-------->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME:Dibella, the Goddess of Beauty, is the most popular god of the Nine Divines. In Cyrodiil, she has nearly a dozen different cults, some devoted to women, some to artists and aesthetics, and others to erotic instruction.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=391531752249938332(Topic:guide de guilde)
+  morrowind.esm-------->|DATA|ONAM:caius cosades|NAME:A guild guide is a spellcaster of the Mages Guild who provides magical transport for a small fee. You can only travel from one Mages Guild to another, but it is the fastest way to travel between Vivec, Balmora, Ald'ruhn, Caldera, and Sadrith Mora.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:caius cosades|NAME
+
+[MOD-INF]: ID=414618375208125985(Topic:quêteurs)
+  morrowind.esm-------->|DATA|FNAM:Imperial Cult|DNAM:Imperial Cult|NAME:Almoners gather alms from members and friends of the faith. We depend on donations to fund most of our good works. Almoners who are successful at bringing in generous donations may rise in the ranks of Imperial cult service. If you are interested, speak to Iulus Truptor at the Imperial Chapels in Ebonheart.|SCVR:07XX0Iulus Truptor|INTV
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Imperial Cult|DNAM:Imperial Cult|NAME|SCVR:07XX0Iulus Truptor|INTV
+
+[MOD-INF]: ID=444923667335910796(Topic:conseillers telvannis)
+  morrowind.esm-------->|DATA|ONAM:therana|NAME:No, Telvanni make the worst councilors. I wouldn't listen to their advice if I were you.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:therana|NAME
+
+[DUP-INF]: ID=487276111250324150(Voice:attack)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P
+
+[MOD-INF]: ID=495518295322716947(Greeting:greeting 7)
+  morrowind.esm-------->|DATA|ONAM:thaeril|NAME:Good day. I'm Thaeril, publican of The Covenant here in Tel Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Thaeril
+  Kalendaar_V3.R02.esm->|DATA|ONAM:thaeril|NAME|BNAM:;Thaeril
+
+[MOD-INF]: ID=625222600830924946(Voice:hello)
+  tribunal.esm--------->|DATA|ONAM:ancestor_ghost_Variner|RNAM:Dark Elf|SNAM:Vo\d\m\tHlo_DM002.mp3|NAME:Stranger! Listen! I have a message I must tell you!|BNAM:;ghost; young male dark elf tragically slain in the flower of his youth
+  Kalendaar_V3.R02.esm->|DATA|ONAM:ancestor_ghost_Variner|RNAM:Dark Elf|SNAM:Vo\d\m\tHlo_DM002.mp3|NAME:Ecoutez ! J'ai un message...|BNAM:;ghost; young male dark elf tragically slain in the flower of his youth
+
+[MOD-INF]: ID=634827443204810172(Topic:entrer à la morag tong)
+  morrowind.esm-------->|DATA|ONAM:eno hlaalu|NAME:You belong to us already, %PCRank %PCName.|SCVR:34JX3MT_WritOran|INTV:d
+  Kalendaar_V3.R02.esm->|DATA|ONAM:eno hlaalu|NAME|SCVR:34JX3MT_WritOran|INTV:d
+
+[MOD-INF]: ID=635218764820424505(Topic:entrer au culte impérial)
+  morrowind.esm-------->|DATA|ONAM:ygfa|NAME:You are now a %NextPCRank in the Imperial Cult. Welcome, %PCName, to our community, and may your rejoice in its blessings. Can I tell you about our services? Or, if you can donate more time and effort, would you like to become a lay servant?|SCVR:01500|INTV|SCVR:14JX3MS_Piernette|INTV:d|SCVR:24JX3IC_guide|INTV|BNAM:PCJoinFaction "Imperial cult"  Journal IC0_ImperialCult 1
+  Kalendaar_V3.R02.esm->|DATA|ONAM:ygfa|NAME|SCVR:01500|INTV|SCVR:14JX3MS_Piernette|INTV:d|SCVR:24JX3IC_guide|INTV|BNAM:PCJoinFaction "Imperial cult"  Journal IC0_ImperialCult 1
+
+[MOD-INF]: ID=646119943318678334(Topic:quelqu'un de bien précis)
+  tribunal.esm--------->|DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:denegor|NAME
+
+[MOD-INF]: ID=666731499111789993(Topic:histoire personnelle)
+  morrowind.esm-------->|DATA|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+  Kalendaar_V3.R02.esm->|DATA|NAME:Je suis %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=687325283123591168(Topic:disciplines des guildes)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:In the West they speak of three guilds of mercenaries and adventurers: the Fighters Guild, the Mages Guild, and the Thieves Guild. Each of these guilds by tradition acknowledge nine different disciplines as their proper areas of study and mastery. Thus it is common to speak of the nine fighter disciplines, the nine mage disciplines, and the nine stealth disciplines.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[MOD-INF]: ID=714828109185914298(Topic:promotion)
+  tribunal.esm--------->|DATA|ONAM:Vedam Dren|DNAM:Hlaalu|NAME:Once our business is concluded, I will consider your advancement.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Vedam Dren|DNAM:Hlaalu|NAME:Une fois notre affaire conclue, je verrai s'il est opportun de vous donner une promotion.
+
+[MOD-INF]: ID=749914731240121175(Topic:lieu spécifique)
+  tribunal.esm--------->|DATA|ONAM:elone|NAME:Pelagiad is the next town up the road. Cross the bridge out of town and just stay on the road. From Pelagiad, take the road north to Balmora and Caldera, or east to Ebonheart and Vivec. If you have the cash, and are in a hurry, or afraid of getting lost, take the silt strider to Balmora or Vivec. Speak to Darvame Hleran at the silt strider landing, across the bridge and south along the shore. And if you plan to travel widely, get a copy of 'Guide to Vvardenfell' from Arrille. It's got maps.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:elone|NAME
+
+[MOD-INF]: ID=753818976300886755(Voice:idle)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM|SNAM:Vo\d\m\tIdl_DM001.mp3|NAME:The Lords' will be done. See to it.|SCVR:02sX3Random100|INTV:K
+  Kalendaar_V3.R02.esm->|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|ANAM:Longsanglot|SNAM:Vo\d\m\tIdl_DM001.mp3|NAME|SCVR:02sX3Random100|INTV:K
+
+[MOD-INF]: ID=782878881391515083(Topic:guilde des guerriers)
+  morrowind.esm-------->|DATA|ONAM:sjoring hard-heart|NAME:You've been expelled, %PCName. You must clear your name before I'll discuss Guild matters with you.|SCVR:01390|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:sjoring hard-heart|NAME|SCVR:01390|INTV
+
+[MOD-INF]: ID=824626281811019302(Topic:conditions requises)
+  morrowind.esm-------->|DATA|ONAM:Lalatia Varian|NAME:Congratulations, %PCName. You have been promoted to %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank  Goodbye
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Fighters Guild|NAME
+
+[MOD-INF]: ID=848511225348630444(Topic:autres cultes)
+  morrowind.esm-------->|DATA|CNAM:Priest Service|FNAM:Temple|NAME:The Ashlanders have a primitive cult that worships the Daedra and tribal ancestors; this is the faith of our ancient forefathers, and not evil, but their worship is ignorant and unenlightened.|SCVR:02sX4Random100|INTV:!|BNAM:;Temple; priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Priest Service|FNAM:Temple|NAME|SCVR:02sX4Random100|INTV:!|BNAM:;Temple; priests; monks; healers;
+
+[MOD-INF]: ID=996115245710614507(Topic:sanctuaires)
+  morrowind.esm-------->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME:Temple members and respectful guests may make offerings and receive blessings at shrines; the faithful of higher ranks need make no offering to receive blessings.|SCVR:02sX4Random100|INTV|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME|SCVR:02sX4Random100|INTV|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=1009424795316348028(Greeting:greeting 1)
+  tribunal.esm--------->|DATA|ONAM:Nerile Andaren|NAME:Have you any news about the Crimson Plague, %PCName?|SCVR:04JX3MS_CrimsonPlague|INTV:x
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Nerile Andaren|NAME|SCVR:04JX3MS_CrimsonPlague|INTV:x
+
+[MOD-INF]: ID=1248415032614120911(Topic:culte impérial)
+  morrowind.esm-------->|DATA|RNAM:Dark Elf|ANAM:Balmora, Council Club|NAME:This is a nice Dunmer establishment. For native Dunmer. We aren't interested in the Imperial cult, outlander. We aren't interested in anything Imperial here. Understand?|SCVR:0CsX0nolore|INTV:
+  Kalendaar_V3.R02.esm->|DATA|RNAM:Dark Elf|ANAM:Balmora, Club du Conseil|NAME|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1341756011233729353(Topic:membre laïque)
+  morrowind.esm-------->|DATA|FNAM:Imperial Cult|NAME:We accept all citizens of good character and earnest faith. We ask only a one-time pledge of 50 drakes to aid us in our good works. Thereafter, the only cost of membership comes when you use a healing altar -- modest and nominal fees which help us in our mission to bring the words and blessings of the Nine to those less fortunate than ourselves. Do you wish to join the Imperial Cult?|SCVR:01460|INTV:
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Imperial Cult|NAME|SCVR:01460|INTV:
+
+[DUP-INF]: ID=1352870573219920531(Voice:hit)
+  |DATA|ONAM:karrod
+
+[MOD-INF]: ID=1393122572769712662(Topic:petit conseil)
+  tribunal.esm--------->|DATA|ONAM:holmar|NAME:Wha?
+  Kalendaar_V3.R02.esm->|DATA|ONAM:holmar|NAME:Quoi ?
+
+[MOD-INF]: ID=1438925101452826378(Topic:cadeau)
+  morrowind.esm-------->|DATA|ONAM:bugrol gro-bagul|NAME:You got your present! Now go away!|SCVR:04JX0MV_Bugrol|INTV:d
+  Kalendaar_V3.R02.esm->|DATA|ONAM:bugrol gro-bagul|NAME:Vous avez cadeau. Filez, maintenant !|SCVR:04JX0MV_Bugrol|INTV:d
+
+[MOD-INF]: ID=1454194013118126798(Voice:hit)
+  morrowind.esm-------->|DATA|RNAM:Argonian|SNAM:Vo\a\f\Hit_AF001.mp3|NAME|AAAIIEE.|SCVR:01043|INTV:P|BNAM:;Health Percent>=80;Random>=80
+  Kalendaar_V3.R02.esm->|DATA|RNAM:Argonian|SNAM:Vo\a\f\Hit_AF001.mp3|NAME|AAAIIEE !|SCVR:01043|INTV:P|BNAM:;Health Percent>=80;Random>=80
+
+[MOD-INF]: ID=1458830178786919518(Persuasion:bribe success)
+  morrowind.esm-------->|DATA|ONAM:Canctunian Ponius|NAME:Yes, money. Exactly what I wanted. How did you know?
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Canctunian Ponius|NAME:Oui, de l'argent. Exactement ce que je voulais. Comment le saviez-vous ?
+
+[MOD-INF]: ID=1467018080350512134(Topic:entrer au temple)
+  morrowind.esm-------->|DATA|FNAM:Temple|ANAM:Gnisis, Temple|NAME:I'm sorry, but we have only a small chapel here in Gnisis. Speak with Tuls Valen in the Ald'ruhn Temple to the south.|SCVR:01460|INTV:
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Temple|ANAM:Gnisis, temple|NAME|SCVR:01460|INTV:
+
+[MOD-INF]: ID=1468197422790624076(Topic:entrer au temple)
+  morrowind.esm-------->|DATA|FNAM:Temple|ANAM:Balmora, Temple|NAME:Speak with Feldrelo Sadri here at the Temple.|SCVR:01460|INTV:
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Temple|ANAM:Balmora, temple|NAME|SCVR:01460|INTV:
+
+[MOD-INF]: ID=1548219692720823641(Topic:zénithar)
+  morrowind.esm-------->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME:Zenithar, Trader God, and Patron of Work and Commerce, is the deity of wealth, labor, commerce, and communication. His priests have shown that the way to peace and prosperity is through earnest work and honest profit, not through war and bloodshed.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=1566625622894013680(Topic:combat sans armure)
+  morrowind.esm-------->|DATA|CNAM:Savant|FNAM:Mages Guild|NAME:The unarmored discipline is the skill of avoiding or reducing injury during combat by evading, deflecting, or absorbing blows. This discipline is traditionally associated with the mystical martial arts disciplines of the Khajiit, but has been adapted in the West for use by mages whose spellcasting is adversely affected by encumbering armor and weapons.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|FNAM:Mages Guild|NAME|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[MOD-INF]: ID=1596014266109399564(Topic:petit secret)
+  tribunal.esm--------->|DATA|ONAM:holmar|NAME:Wha?
+  Kalendaar_V3.R02.esm->|DATA|ONAM:holmar|NAME:Quoi ?
+
+[MOD-INF]: ID=1606822183162028376(Topic:maison drès)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:Of the five Dunmer Great Houses, House Dres is one of two houses without holdings or interest in Vvardenfell. Dres District is in the south of Morrowind, bordering the swamps and marshes of Black Marsh. House Dres is an agrarian agricultural society, and its large saltrice plantations rely completely on slave labor for their economic viability. Always firm Temple supporters, House Dres is hostile to Imperial law and culture, and in particular opposed to any attempts to limit the institution of slavery.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=1622325503221994258(Persuasion:bribe fail)
+  morrowind.esm-------->|DATA|ONAM:ghost_npc_peakstar|NAME:What use does a spirit have for gold?
+  Kalendaar_V3.R02.esm->|DATA|ONAM:ghost_npc_peakstar|NAME:Pourquoi voulez-vous que l'or ait de l'attrait pour un esprit ?
+
+[MOD-INF]: ID=1652214684948825418(Topic:mercenaires)
+  morrowind.esm-------->|DATA|FNAM:Fighters Guild|NAME:Great Houses require loyalty from their mercenaries; they seldom hire those who serve other houses, and only for small, unimportant tasks.|SCVR:02sX4Random100|INTV|BNAM:;Fighters Guild;
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Fighters Guild|NAME|SCVR:02sX4Random100|INTV|BNAM:;Fighters Guild;
+
+[MOD-INF]: ID=1679429346157719330(Topic:contrat)
+  tribunal.esm--------->|DATA|ONAM:Calvus Horatius|NAME:I have no current contract.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Calvus Horatius|NAME
+
+[MOD-INF]: ID=1694522989515011196(Topic:communautés de morrowind)
+  morrowind.esm-------->|DATA|CNAM:Scout|NAME:In sparsely populated Telvanni District, the few Telvanni tower towns are essentially large villages dominated by monumental wizard tower complexes.|SCVR:08FX0Ashlanders|INTV|SCVR:12sX4Random100|INTV
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Scout|NAME|SCVR:08FX0Ashlanders|INTV|SCVR:12sX4Random100|INTV
+
+[MOD-INF]: ID=1709420591376330367(Topic:entrer à la morag tong)
+  morrowind.esm-------->|DATA|ONAM:eno hlaalu|NAME:Feruren Oran is dead? Then welcome %PCName, to the Morag Tong. Any Master of the Morag Tong can tell you what writs are available and weather you are a candidate for advancement. When you have proven yourself, I will have special duties for you.|SCVR:16DX3feruren oran|INTV|SCVR:34JX3MT_WritOran|INTV: |BNAM:Journal MT_WritOran 100  StartScript TopicsWebspinner
+  Kalendaar_V3.R02.esm->|DATA|ONAM:eno hlaalu|NAME|SCVR:16DX3feruren oran|INTV|SCVR:34JX3MT_WritOran|INTV: |BNAM:Journal MT_WritOran 100  StartScript TopicsWebspinner
+
+[MOD-INF]: ID=1729913769476329813(Topic:mission)
+  morrowind.esm-------->|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX0A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+  Kalendaar_V3.R02.esm->|DATA|ONAM:chargen captain|NAME|SCVR:04JX0A1_1_FindSpymaster|INTV:|BNAM
+
+[MOD-INF]: ID=1733911399141146687(Topic:entrer à la maison hlaalu)
+  morrowind.esm-------->|DATA|ONAM:nileno dorvayn|NAME:Very well. You are now a member of House Hlaalu. When you are ready, we can discuss business and advancement in House Hlaalu.|SCVR:01500|INTV|BNAM:PCJoinFaction "Hlaalu"
+  Kalendaar_V3.R02.esm->|DATA|ONAM:nileno dorvayn|NAME|SCVR:01500|INTV|BNAM:PCJoinFaction "Hlaalu"
+
+[MOD-INF]: ID=1771327817254703194(Topic:nécromanciens)
+  morrowind.esm-------->|DATA|ONAM:sharn gra-muzgob|NAME:As you wish. It's a simple matter, really. [Sharn takes you aside and teaches you how to summon a skeletal minion.] Now. Remember. You said you'd keep quiet about this.|SCVR:01500|INTV|BNAM:Journal MG_Sharn_Necro 10  player->addspell "summon skeletal minion"  Goodbye
+  Kalendaar_V3.R02.esm->|DATA|ONAM:sharn gra-muzgob|NAME|SCVR:01500|INTV|BNAM:Journal MG_Sharn_Necro 10  player->addspell "summon skeletal minion"  Goodbye
+
+[MOD-INF]: ID=1775230017174138696(Topic:julianos)
+  morrowind.esm-------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME:Julianos, God of Wisdom and Logic, is the deity of literature, law, history, sorcery, enchantment, and alchemy. Monastic orders founded by Tiber Septim and dedicated to Julianos are the keepers of the Elder Scrolls.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=1799429480260485692(Topic:maison rédoran)
+  morrowind.esm-------->|DATA|ONAM:sul-matuul|NAME:The khans of the Great Houses are called 'councilors.' The khans of House Redoran meet in a great crab shell in a place called Ald'ruhn. You must find these councilors and persuade them to name you Hortator. I know little of the settled people. You must go there and learn for yourself.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Sul-Matuul; Journal "A2-6_Incarnate" >= 50
+  Kalendaar_V3.R02.esm->|DATA|ONAM:sul-matuul|NAME|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Sul-Matuul; Journal "A2-6_Incarnate" >= 50
+
+[MOD-INF]: ID=1815625659876515747(Topic:entrer au temple)
+  morrowind.esm-------->|DATA|FNAM:Temple|ANAM:Sadrith Mora|NAME:I'm sorry, but we have only a small chapel here in Sadrith Mora. Speak with Tharer Rotheloth at the Temple in Molag Mar, or with Endryn Llethan at the High Fane in Vivec.|SCVR:01460|INTV:
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Temple|ANAM:Sadrith Mora|NAME|SCVR:01460|INTV:
+
+[MOD-INF]: ID=1887657331627526382(Topic:guérisseurs laïques)
+  morrowind.esm-------->|DATA|FNAM:Imperial Cult|DNAM:Imperial Cult|NAME:Lay healers gather ingredients for health and healing potions, and minister to the sick and hurt in poor and isolated communities. It is difficult and sometimes dangerous work, but the spiritual rewards are great. If you are interested, speak to Synnolian Tunifus at the Imperial Chapels in Ebonheart.
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Imperial Cult|DNAM:Imperial Cult|NAME
+
+[MOD-INF]: ID=1895417279972315126(Topic:maison hlaalu)
+  morrowind.esm-------->|DATA|ONAM:caius cosades|NAME:House Hlaalu is one of the three Dunmer Great Houses on Vvardenfell. They're loyal supporters of the Empire, open-minded in religious and cultural matters, and greedy and ambitious in the best Imperial tradition. It's difficult to rise in their ranks as an outlander, but the Great Houses hold the power in Morrowind. Talk to Hlaalu councilors if you want to become a Hlaalu retainer.|SCVR:04JX3A1_1_FindSpymaster|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:caius cosades|NAME|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=1974820615163814181(Topic:événements actuels)
+  morrowind.esm-------->|DATA|ONAM:artisa arelas|NAME:Let me tell you about current events. The Great Houses are always fighting each other in the Great House Wars. There's always trouble between outlanders -- non-Dunmer Imperial colonists -- and the Dunmer natives. The Temple is at war with a rebellious faction called the Dissident Priests. A secret cult called the Sixth House is killing Imperial citizens. Misshapen monsters and diseases called 'blight disease' are spreading from Red Mountain, a volcano where the Devil Dagoth Ur and his ash vampires live.|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:artisa arelas|NAME|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=2003118829227269455(Topic:serviteurs laïques)
+  morrowind.esm-------->|DATA|ONAM:caius cosades|NAME:Lay servants serve the Imperial cult by doing various tasks. Not a lot of excitement, but safe, honorable, and rewarding. First you have to join the Imperial cult, then go to the Imperial Chapels in Ebonheart to get work. See Synnolian Tunifus to become a lay healer. See Iulus Truptor to become an almoner -- a fund raiser. See Kaye to become a shrine sergeant -- they do the more dangerous jobs.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:caius cosades|NAME
+
+[MOD-INF]: ID=2076565943043228859(Topic:grandes maisons)
+  morrowind.esm-------->|DATA|ONAM:huleeya|NAME:In modern times Morrowind is ruled by five Great Houses: House Hlaalu, House Redoran, House Telvanni, House Indoril, and House Dres. Great Houses culture is partly defined by its roots in ancient Dunmer tribal clans, and partly by later Imperial  influences from other Western cultures. The Great Houses culture is only one of the native Dunmer cultures of Morrowind. The other native culture, the Ashlander culture, is a nomadic barbarian culture largely untouched by Imperial influences.|SCVR:34JX3A1_7HuleeyaInformant|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:huleeya|NAME|SCVR:34JX3A1_7HuleeyaInformant|INTV
+
+[MOD-INF]: ID=2117029124243013534(Topic:officiant)
+  morrowind.esm-------->|DATA|ONAM:Kaye|DNAM:Imperial Cult|NAME:A shrine sergeant helps keep order at the shrines, carries messages and packages, and sometimes escorts priests and lay servants on dangerous missions. This occasional service is ideal for bold, free-spirited adventurers like you. Supervising the shrine sergeants is my responsibility.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Kaye|DNAM:Imperial Cult|NAME
+
+[MOD-INF]: ID=2142931394263162839(Topic:choisir une grande maison)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:If you are thinking of joining a Great House, study all three Great Houses, and think carefully before you join, because once you've joined one house, no other house will ever consider you for membership. Loyalty is very important in the Great Houses. When you join, you become family, and, by Dunmer standards, it's a matter of blood and kin, and irreversible. Even if you get kicked out of one house, no other house will have you.|SCVR:0CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=2195928081229820053(Voice:hello)
+  tribunal.esm--------->|DATA|ONAM:Narissa Adus|RNAM:Dark Elf|SNAM:vo\d\f\tHlo_DF002.mp3|NAME:Beware the Black Dart gang, adventurer.|BNAM:;despondent female adventurer who has lost her lover; strong character, but emotionally drained
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Narissa Adus|RNAM:Dark Elf|SNAM:vo\d\f\tHlo_DF002.mp3|NAME|BNAM:;despondent female adventurer who has lost her lover; strong character, but emotionally drained
+
+[MOD-INF]: ID=2250770692576229666(Topic:empire)
+  morrowind.esm-------->|DATA|FNAM:Imperial Legion|NAME:The Empire is the greatest achievement of Tamrielic civilization. This melting pot of contrasting cultures is held together by a strong hereditary emperor and bureaucracy, by the rule of law, by a powerful professional army, and by religious tolerance. Education and wealth is broadly distributed through all social classes where Imperial culture has flourished; many citizens are literate and protected under Imperial law.
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Imperial Legion|NAME
+
+[MOD-INF]: ID=2302519516314225274(Topic:légion impériale)
+  morrowind.esm-------->|DATA|ONAM:chargen class|NAME:The Imperial legion provides security for the Census and Excise Offices here in Seyda Neen. The troopers you see here are assigned to guard duty here. And the troopers outside, in Seyda Neen, they're guards -- officers of the law.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:chargen class|NAME
+
+[MOD-INF]: ID=2388613752739223814(Topic:akatosh)
+  morrowind.esm-------->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME:Akatosh is the ultimate God of the Cyrodilic Empire, where he embodies the qualities of endurance, invincibility, and everlasting legitimacy.|SCVR:03sX0NoLore|INTV:|SCVR:12sX4Random100|INTV:!|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME|SCVR:03sX0NoLore|INTV:|SCVR:12sX4Random100|INTV:!|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=2449526353749510483(Topic:entrer au temple)
+  morrowind.esm-------->|DATA|FNAM:Temple|NAME:You are now a %PCRank in the %Faction. Welcome, brother %PCName. I am one of several Masters you can go to get your duties and if you perform well, advancement in the %Faction is not out of the question.|SCVR:01500|INTV|BNAM:PCRaiseRank  ModDisposition 5
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Temple|NAME|SCVR:01500|INTV|BNAM:PCRaiseRank  ModDisposition 5
+
+[MOD-INF]: ID=2463537441079428065(Topic:entrer à la maison rédoran)
+  morrowind.esm-------->|DATA|ONAM:neminda|NAME:You have already been adopted by House Redoran, %PCName.|SCVR:01460|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:neminda|NAME|SCVR:01460|INTV
+
+[MOD-INF]: ID=2498952861388531122(Topic:entrer à la guilde des guerriers)
+  morrowind.esm-------->|DATA|FNAM:Thieves Guild|NAME:Just remember there *is* honor among thieves. Do not steal from a brother thief. Everyone else is a mark. Do not attack a brother thief. Do what you will to everyone else. If you have a price on your head, we have ways of taking care of it. If you break these rules, you must speak with one of the Masterminds here in Vvardenfell to regain your good standing. Think you can handle it?|SCVR:01500|INTV|BNAM:Choice "Yes." 1 "No, nevermind." 4
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Fighters Guild|NAME|SCVR:01500|INTV|BNAM
+
+[MOD-INF]: ID=2583529070786213408(Topic:histoire personnelle)
+  tribunal.esm--------->|DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:vonos veri|NAME:Je suis %name et je sers Almalexia en faisant partie de Ses Mains.
+
+[MOD-INF]: ID=2638426514969013626(Topic:arkay)
+  morrowind.esm-------->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME:Arkay, God of the Cycle of Life and Death, is the deity associated with burials and funeral rites, and is responsible for the progression of the seasons. His priests are staunch opponents of necromancy and all forms of the undead.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=2664824441312567304(Topic:autres cultes)
+  morrowind.esm-------->|DATA|CNAM:Priest|FNAM:Temple|NAME:The Ashlanders have a primitive cult that worships the Daedra and tribal ancestors; this is the faith of our ancient forefathers, and not evil, but their worship is ignorant and unenlightened.|SCVR:02sX4Random100|INTV:!|BNAM:;Temple; priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Priest|FNAM:Temple|NAME|SCVR:02sX4Random100|INTV:!|BNAM:;Temple; priests; monks; healers;
+
+[MOD-INF]: ID=2677921808100214765(Topic:connaissances sur morrowind)
+  tribunal.esm--------->|DATA|ONAM:holmar|NAME:Wha?
+  Kalendaar_V3.R02.esm->|DATA|ONAM:holmar|NAME:Quoi ?
+
+[MOD-INF]: ID=2722197241389914985(Topic:arkay)
+  morrowind.esm-------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME:Arkay, God of the Cycle of Life and Death, is the deity associated with burials and funeral rites, and is responsible for the progression of the seasons. His priests are staunch opponents of necromancy and all forms of the undead.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=2773719852676918111(Topic:dogme du culte impérial)
+  morrowind.esm-------->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME:We also say -- do not harm one another. It is forbidden to attack another person of the Imperial cult, and of course, forbidden to kill another member. It is forbidden to steal from another member, whether by open theft or by covert pickpocketing. It is forbidden to trespass upon the private property of another member -- private property being understood to be anything behind a locked door. Break any one of these rules, and be expelled from the cult.|SCVR:01500|INTV
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME|SCVR:01500|INTV
+
+[MOD-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  tribunal.esm--------->|DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Rat_pack_rerlas|NAME:Squiii !|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[MOD-INF]: ID=2821432515202777039(Topic:factions)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:Observers of Vvardenfell's politics have identified eleven main factions, some aligned with Imperial interests, some aligned with native Dunmer interests. The primary Imperial factions are the Imperial cult, the Imperial legions, and the Fighters, Mages, and Thieves Guilds. The primary native Dunmer factions are the three Great Houses, Redoran, Hlaalu, and Telvanni, the Temple, and the Morag Tong. The Ashlander barbarians are native Dunmer, but are opposed to both the Empire and the settled Dunmer.|SCVR:0CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=2853524411223339493(Topic:services)
+  tribunal.esm--------->|DATA|ONAM:holmar|NAME:Wha?
+  Kalendaar_V3.R02.esm->|DATA|ONAM:holmar|NAME:Quoi ?
+
+[MOD-INF]: ID=2994610422769518426(Topic:pèlerinages)
+  morrowind.esm-------->|DATA|CNAM:Healer|FNAM:Temple|NAME:A book called The Pilgrim's Path describes many of the Temple's pilgrimages and their shrines.|SCVR:02sX4Random100|INTV:!|BNAM:;Temple; priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer|FNAM:Temple|NAME|SCVR:02sX4Random100|INTV:!|BNAM:;Temple; priests; monks; healers;
+
+[MOD-INF]: ID=3054394832316130557(Topic:rangs du culte impérial)
+  morrowind.esm-------->|DATA|ONAM:Synnolian Tunifus|NAME:The ten ranks of status in the Imperial cult are, from lowest rank to highest rank: Rank One, Layman; Rank Two, Novice; Rank Three, Initiate; Rank Four, Acolyte; Rank Five, Adept; Rank Six, Disciple; Rank Seven, Oracle; Rank Eight, Invoker; Rank Nine, Theurgist; and Rank Ten, Primate. You are currently at rank %PCRank, %PCName.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Synnolian Tunifus|NAME
+
+[MOD-INF]: ID=3214717717858924727(Topic:loi de morrowind)
+  morrowind.esm-------->|DATA|ONAM:chargen captain|NAME:Theft, Trespass, Assault, Foul Murder, and Contempt are serious crimes; criminals pay compensation or serve sentences of punitive labor. If you commit a crime, turn yourself in to any guard and pay your fine. If you don't have the gold, you'll have to do punitive labor. Take my word for it. You don't want to do punitive labor.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:chargen captain|NAME
+
+[MOD-INF]: ID=3236219618301486775(Topic:contrat)
+  tribunal.esm--------->|DATA|ONAM:Calvus Horatius|NAME:Our contract is for 30 days, starting %contractCalvusMonth / %contractCalvusDay. You have %Contract_Calvus_Days_Left days left in the contract.|SCVR:03sX2contract_Calvus|INTV:
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Calvus Horatius|NAME|SCVR:03sX2contract_Calvus|INTV:
+
+[MOD-INF]: ID=3371188753245419747(Topic:stendarr)
+  morrowind.esm-------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME:Stendarr, God of Justice and Mercy, is the patron of righteous might and merciful forbearance. He is the inspiration of magistrates and rulers, the patron of the Imperial Legions, and the comfort of the law-abiding citizen.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=3684149502795712191(Topic:choisir une grande maison)
+  morrowind.esm-------->|DATA|ONAM:artisa arelas|NAME:If you are thinking of joining a Great House, study all three Great Houses, and think carefully before you join, because once you've joined one house, no other house will ever consider you for membership. Loyalty is very important in the Great Houses. When you join, you become family, and, by Dunmer standards, it's a matter of blood and kin, and irreversible. Even if you get kicked out of one house, no other house will have you.|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:artisa arelas|NAME|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=5275104151157219106(Topic:entrer à la guilde des voleurs)
+  morrowind.esm-------->|DATA|FNAM:Thieves Guild|NAME:You are now a %PCRank in the Thieves Guild. Welcome, sister %PCName. Talk to me when you want some odd jobs to do and when you think you're ready for advancement. If you have a price on your head, there are those you can talk to as well.|SCVR:01500|INTV|SCVR:11380|INTV|BNAM:PCJoinFaction "Thieves Guild"  ModDisposition 5
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Thieves Guild|NAME|SCVR:01500|INTV|SCVR:11380|INTV|BNAM:PCJoinFaction "Thieves Guild"  ModDisposition 5
+
+[MOD-INF]: ID=5935281021213222942(Greeting:greeting 7)
+  morrowind.esm-------->|DATA|ONAM:sorosi radobar|NAME:Good day. I'm Sorosi Radobar, publican of The Flowers of Gold here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Sorosi Radobar
+  Kalendaar_V3.R02.esm->|DATA|ONAM:sorosi radobar|NAME|BNAM:;Sorosi Radobar
+
+[MOD-INF]: ID=6355199152927027935(Topic:morag tong)
+  morrowind.esm-------->|DATA|ONAM:caius cosades|NAME:The Morag Tong is a guild of executioners and assassins, completely legal, and guided by a strict code of conduct. It's an ancient Dunmer society, steeped in  tradition, but I know and respect a few Westerners who belong to the Morag Tong. They are nothing like the Dark Brotherhood. I have no idea how to join them.|SCVR:04JX3A1_1_FindSpymaster|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:caius cosades|NAME|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=6783262172341916499(Topic:loi de morrowind)
+  morrowind.esm-------->|DATA|ONAM:chargen class|NAME:Theft, Trespass, Assault, Foul Murder, and Contempt are serious crimes; criminals pay compensation or serve sentences of punitive labor. If you commit a crime, turn yourself in to any guard and pay your fine. Here in Seyda Neen the guards are all Imperial legion troopers. In other towns, they may be local Great House guards.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:chargen class|NAME
+
+[MOD-INF]: ID=7797188573262924269(Topic:zénithar)
+  morrowind.esm-------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME:Zenithar, Trader God, and Patron of Work and Commerce, is the deity of wealth, labor, commerce, and communication. His priests have shown that the way to peace and prosperity is through earnest work and honest profit, not through war and bloodshed.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=8096287201637231765(Topic:défis)
+  morrowind.esm-------->|DATA|ONAM:hassour zainsubani|NAME:When challenged for sport, it is acceptable to decline. When challenged for honor, it is shameful to decline. Honor challenges come from offense given in speech or action, or may represent customary formal challenges of status or ritual.|SCVR:34JX3A1_11_ZainsubaniInformant|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:hassour zainsubani|NAME|SCVR:34JX3A1_11_ZainsubaniInformant|INTV
+
+[MOD-INF]: ID=8133100723020318688(Topic:entrer à la maison telvanni)
+  morrowind.esm-------->|DATA|ONAM:therana|NAME:Join with the house? No thank you. I prefer to be in the house, not of the house.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:therana|NAME
+
+[MOD-INF]: ID=8798173232147814655(Topic:temple)
+  morrowind.esm-------->|DATA|ONAM:Iulus Truptor|NAME:The Tribunal Temple is the native religion of civilized Morrowind. They worship three God-Kings, Almalexia, Sotha Sil, and Vivec, who are known together as the Tribunal. We usually just call it 'The Temple.'|BNAM:;Temple; priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Iulus Truptor|NAME|BNAM:;Temple; priests; monks; healers;
+
+[MOD-INF]: ID=9000315993053628138(Persuasion:bribe fail)
+  morrowind.esm-------->|DATA|ONAM:ghost_npc_idrenie nerot|NAME:What use does a spirit have for gold?
+  Kalendaar_V3.R02.esm->|DATA|ONAM:ghost_npc_idrenie nerot|NAME:Pourquoi voulez-vous que l'or ait de l'attrait pour un esprit ?
+
+[MOD-INF]: ID=9174255052462011806(Topic:guilde des voleurs)
+  morrowind.esm-------->|DATA|ONAM:artisa arelas|NAME:They're like any trade guild, an organization of professionals, except the professionals are thieves and robbers and pickpockets and smugglers and other enterprising operators. They don't have public guild halls, but they do tend to gather at a single location -- usually a cornerclub or tradehouse -- in larger towns. Look for guild operatives in Balmora, Ald'ruhn, Sadrith Mora, and Vivec.|BNAM:; savant; bard; rogue; thief; acrobat;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:artisa arelas|NAME|BNAM:; savant; bard; rogue; thief; acrobat;
+
+[MOD-INF]: ID=9397279062618732489(Topic:sécurité)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:The security discipline involves defeating locks and traps designed to prevent access to locations and containers. This skill is essential for agents and thieves alike.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[MOD-INF]: ID=11113157842889816765(Topic:grandes maisons)
+  morrowind.esm-------->|DATA|CNAM:Monk|FNAM:Temple|NAME:The Yellow Party of Hlaalu honors and serves Fortune, Trade, and the Empire, and through such distractions they stray away from the narrow paths of duty, gravity, and piety.|SCVR:02sX4Random100|INTV:!|BNAM:;Temple; priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Monk|FNAM:Temple|NAME|SCVR:02sX4Random100|INTV:!|BNAM:;Temple; priests; monks; healers;
+
+[MOD-INF]: ID=12069268892143822915(Topic:dibella)
+  morrowind.esm-------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME:Dibella, the Goddess of Beauty, is the most popular god of the Nine Divines. In Cyrodiil, she has nearly a dozen different cults, some devoted to women, some to artists and aesthetics, and others to erotic instruction.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=12930289901453217560(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|ONAM:Blatta Hateria|NAME:I'm sorry. There must be some mistake. I'm a fisherwoman -- not a gondolier.|SCVR:04JX4A2_4_Milo_hola_go|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Blatta Hateria|NAME|SCVR:04JX4A2_4_Milo_hola_go|INTV
+
+[MOD-INF]: ID=13500177932814824645(Voice:attack)
+  morrowind.esm-------->|DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF002.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:<
+  Kalendaar_V3.R02.esm->|DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF002.mp3|NAME:Rarrh !|SCVR:02sX3Random100|INTV:<
+
+[MOD-INF]: ID=14623326412690123935(Topic:maison hlaalu)
+  morrowind.esm-------->|DATA|ONAM:artisa arelas|NAME:House Hlaalu is one of the three Dunmer Great Houses with holdings on Vvardenfell. House Hlaalu has always been loyal to the Emperor and the Empire. Hlaalu welcomes Imperial law and the Legions, and freedom of trade and religion. We still respect the old Dunmer ways, the ancestors, the Temple, and the noble houses. But times change, and the Empire changes with the times. House Hlaalu hopes to live in peace and harmony with the other races, and share in the growth and prosperity of the Empire.|BNAM:;noble; savant; bard; bookseller;
+  Kalendaar_V3.R02.esm->|DATA|ONAM:artisa arelas|NAME|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=15115114812138631024(Topic:quelqu'un de bien précis)
+  tribunal.esm--------->|DATA|ONAM:holmar|NAME:Wha?
+  Kalendaar_V3.R02.esm->|DATA|ONAM:holmar|NAME:Quoi ?
+
+[MOD-INF]: ID=15609247052386628366(Topic:sanctuaires)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:Shrines are sanctified objects where the humble and faithful may communicate more directly with their gods. In the Temple, shrines take the form of three-sided trioliths, with one side inscribed with the image of a saint of the Temple. In the Imperial cult, shrines take the form of altars consecrated to the Nine Divines. The faithful and respectful guests may make offerings and receive blessings at shrines; the faithful of higher ranks need make no offering to receive blessings.|SCVR:0CsX0NoLore|INTV:
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=17281197101776017263(Topic:nécromanciens)
+  morrowind.esm-------->|DATA|ONAM:sharn gra-muzgob|NAME:I can teach you more necromancy spells. For a price, of course. And as long as you keep quite about this.|SCVR:04JX3MG_Sharn_Necro|INTV: 
+  Kalendaar_V3.R02.esm->|DATA|ONAM:sharn gra-muzgob|NAME|SCVR:04JX3MG_Sharn_Necro|INTV: 
+
+[MOD-INF]: ID=17498218802788614295(Topic:rite d'initiation)
+  morrowind.esm-------->|DATA|ONAM:sul-matuul|NAME:You have already completed the initiation rite.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-
+  Kalendaar_V3.R02.esm->|DATA|ONAM:sul-matuul|NAME|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-
+
+[MOD-INF]: ID=18147300352431521191(Topic:discrétion)
+  morrowind.esm-------->|DATA|CNAM:Savant|NAME:The sneak discipline is the art of moving unseen and unheard by observers.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Savant|NAME|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[MOD-INF]: ID=19816109801401511688(Topic:entrer à la maison hlaalu)
+  morrowind.esm-------->|DATA|ONAM:nileno dorvayn|NAME:Are you sure? Remember that once you are bound by oath to House Hlaalu, no other Great House will accept you as a member. You may also wish to know our rules. If you are sure you want to join our House, say yes.|SCVR:01500|INTV|BNAM:Choice "Yes, I would like to join." 1 "No, nevermind." 3 "Hear the rules of House Hlaalu." 4
+  Kalendaar_V3.R02.esm->|DATA|ONAM:nileno dorvayn|NAME|SCVR:01500|INTV|BNAM
+
+[MOD-INF]: ID=20160125141604927941(Topic:akatosh)
+  morrowind.esm-------->|DATA|CNAM:Monk|FNAM:Imperial Cult|NAME:Akatosh is the ultimate God of the Cyrodilic Empire, where he embodies the qualities of endurance, invincibility, and everlasting legitimacy.|SCVR:12sX4Random100|INTV:!|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Monk|FNAM:Imperial Cult|NAME|SCVR:12sX4Random100|INTV:!|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=20296190472462631138(Topic:maison telvanni)
+  morrowind.esm-------->|DATA|ONAM:sul-matuul|NAME:The khans of the Great Houses are called 'councilors.' The khans of House Telvanni meet in a very strange place, I'm told. They call it 'Sadrith Mora,' which means 'forest of the mushrooms' in our tongue. I have heard the Telvanni live in giant mushrooms. I'm sure it is a very bad place. But you must go and find their councilors and persuade them to name you Hortator.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Sul-Matuul; Journal "A2-6_Incarnate" >= 50
+  Kalendaar_V3.R02.esm->|DATA|ONAM:sul-matuul|NAME|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Sul-Matuul; Journal "A2-6_Incarnate" >= 50
+
+[MOD-INF]: ID=20387168602971829199(Topic:entrer au temple)
+  morrowind.esm-------->|DATA|FNAM:Temple|NAME:You are now a %PCRank in the %Faction. Welcome, sister %PCName. I am one of several Masters you can go to get your duties and if you perform well, advancement in the %Faction is not out of the question.|SCVR:01500|INTV|SCVR:11380|INTV|BNAM:PCRaiseRank  ModDisposition 5
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Temple|NAME|SCVR:01500|INTV|SCVR:11380|INTV|BNAM:PCRaiseRank  ModDisposition 5
+
+[MOD-INF]: ID=20391136261965627596(Topic:mercenaires)
+  morrowind.esm-------->|DATA|FNAM:Fighters Guild|NAME:The Dunmer Great Houses also hire mercenaries, and though they are more particular about whom they hire, the rewards are considerable, both in coin and in access to training and other services.|SCVR:02sX4Random100|INTV:2|BNAM:;Fighters Guild;
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Fighters Guild|NAME|SCVR:02sX4Random100|INTV:2|BNAM:;Fighters Guild;
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm--------->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  Kalendaar_V3.R02.esm->|DATA|NAME:[Vous avez rompu votre voeu de silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[MOD-INF]: ID=22177255061131127667(Topic:maison telvanni)
+  morrowind.esm-------->|DATA|ONAM:caius cosades|NAME:House Telvanni is one of the three Dunmer Great Houses on Vvardenfell. Their nobles are thousand-year-old wizards. Telvanni are supposed to hate politics, foreigners, and just about everything else, but the Vvardenfell Telvanni are apparently more ambitious and adventurous than most. I don't know much about them, but they do hire Western mercenaries, and some even rise to higher ranks. Talk to Telvanni councilors if you want to be become a Telvanni retainer.|SCVR:04JX3A1_1_FindSpymaster|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:caius cosades|NAME|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=22761111983241720411(Topic:petits boulots)
+  morrowind.esm-------->|DATA|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:What do you want, %PCRank?
+  Kalendaar_V3.R02.esm->|DATA|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:Que voulez-vous, %PCRank ?
+
+[MOD-INF]: ID=23349198911001418656(Greeting:greeting 1)
+  tribunal.esm--------->|DATA|ONAM:Nerile Andaren|NAME:Were you able to help Shunari, %PCName?|SCVR:04JX0MS_CrimsonPlague|INTV:n
+  Kalendaar_V3.R02.esm->|DATA|ONAM:Nerile Andaren|NAME:Avez-vous pu aider Shunari, %PCName ?|SCVR:04JX0MS_CrimsonPlague|INTV:n
+
+[MOD-INF]: ID=23403290561736116141(Topic:conseillers telvannis)
+  morrowind.esm-------->|DATA|ONAM:nibani maesa|NAME:I am told that wizards who speak for the Telvanni councilors may be found in a strange building in Sadrith Mora. The councilors themselves are ageless sorcerers living in the towers scattered over Vvardenfell. I know nothing about them, except that they are old, terrible, and evil.|SCVR:04JX3A2_6_Incarnate|INTV:2
+  Kalendaar_V3.R02.esm->|DATA|ONAM:nibani maesa|NAME|SCVR:04JX3A2_6_Incarnate|INTV:2
+
+[MOD-INF]: ID=23581140912466830200(Topic:récompense)
+  morrowind.esm-------->|DATA|ONAM:vanjirra|NAME:I've already given you your reward. Thank you again.|SCVR:04JX3MV_TraderMissed|INTV:d
+  Kalendaar_V3.R02.esm->|DATA|ONAM:vanjirra|NAME|SCVR:04JX3MV_TraderMissed|INTV:d
+
+[MOD-INF]: ID=23791295661104930157(Topic:légion impériale)
+  morrowind.esm-------->|DATA|ONAM:caius cosades|NAME:The Imperial Legion has several fort garrisons here on Vvardenfell. The lower ranks handle law enforcement, escorts, rescues, dangerous predators, diseased and blighted beasts, and so forth. Only one fort accepts recruits -- Fort Darius in Gnisis. Gnisis is a frontier outpost, isolated, a little rough. But good experience. If you're interested, see General Darius in Gnisis.|SCVR:04JX3A1_1_FindSpymaster|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:caius cosades|NAME|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=24463198842591620919(Topic:entrer au culte impérial)
+  morrowind.esm-------->|DATA|ONAM:ygfa|NAME:You are now a %NextPCRank in the Imperial Cult. Welcome, %PCName, to our community, and may your rejoice in its blessings. Can I tell you about our services? Or, if you can donate more time and effort, would you like to become a lay servant?|SCVR:01500|INTV|SCVR:14JX3MS_Piernette|INTV:d|BNAM:PCJoinFaction "Imperial cult"  Journal IC0_ImperialCult 1  player->additem bk_formygodsandemperor 1  journal IC_guide 2
+  Kalendaar_V3.R02.esm->|DATA|ONAM:ygfa|NAME|SCVR:01500|INTV|SCVR:14JX3MS_Piernette|INTV:d|BNAM:PCJoinFaction "Imperial cult"  Journal IC0_ImperialCult 1  player->additem bk_formygodsandemperor 1  journal IC_guide 2
+
+[MOD-INF]: ID=24896141572776219752(Topic:guildes et factions)
+  morrowind.esm-------->|DATA|ONAM:caius cosades|NAME:Groups favoring Imperial interests are the Blades, the Imperial cult, the Imperial Legion, the Fighters Guild, the Mages Guild, and the Thieves Guild. Groups favoring native Dunmer interests are House Redoran, House Hlaalu, and House Telvanni, the Temple, the Morag Tong, the Camonna Tong, and the Ashlanders.|SCVR:04JX3A1_1_FindSpymaster|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:caius cosades|NAME|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=25042165042180828560(Topic:temple)
+  morrowind.esm-------->|DATA|ONAM:caius cosades|NAME:The Tribunal Temple is the native religion. They worship three God-Kings, Almalexia, Sotha Sil, and Vivec, who are known together as the Tribunal. We usually just call it 'The Temple.' They're narrow-minded and superstitious, but I find a lot to admire -- particularly their concern for the poor. They accept outlanders as members, but few outlanders join except for the services. Talk to Feldrelo Sadri at the Balmora Temple if you're thinking about joining.|SCVR:04JX3A1_1_FindSpymaster|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:caius cosades|NAME|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=25693272922242731603(Topic:petit secret)
+  tribunal.esm--------->|DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:denegor|NAME
+
+[MOD-INF]: ID=26379304711717322421(Topic:émeraude)
+  morrowind.esm-------->|DATA|ONAM:tendris vedran|NAME:The emerald is a transparent green gem with modest magical properties.|SCVR:0CsX0NoLore|INTV:|SCVR:1CsX0NoLore|INTV
+  Kalendaar_V3.R02.esm->|DATA|ONAM:tendris vedran|NAME|SCVR:0CsX0NoLore|INTV:|SCVR:1CsX0NoLore|INTV
+
+[MOD-INF]: ID=27746160923274624334(Topic:loi impériale)
+  bloodmoon.esm-------->|DATA|ONAM:artisa arelas|NAME:Fines and compensation are determined by magistrates, and may be paid to guards. In place of fines, the criminal may serve extended sentences of hard labor. The workcamps are hard places for hard men, and for each day served, expect to lose some hard-earned skill as a result of physical, mental, or emotional punishment.|SCVR:01500|INTV|BNAM:;Savant, bard, the old long one continued
+  Kalendaar_V3.R02.esm->|DATA|ONAM:artisa arelas|NAME|SCVR:01500|INTV|BNAM:;Savant, bard, the old long one continued
+
+[MOD-INF]: ID=28046133322349212652(Topic:stendarr)
+  morrowind.esm-------->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME:Stendarr, God of Justice and Mercy, is the patron of righteous might and merciful forbearance. He is the inspiration of magistrates and rulers, the patron of the Imperial Legions, and the comfort of the law-abiding citizen.|BNAM:;Imperial cult priests; monks; healers;
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer|FNAM:Imperial Cult|NAME|BNAM:;Imperial cult priests; monks; healers;
+
+[MOD-INF]: ID=29178295052931320816(Topic:escorte)
+  morrowind.esm-------->|DATA|ONAM:viatrix petilia|NAME:Yes, I need to get to Ghostgate Shrine.|SCVR:04JX3MV_RichPilgrim|INTV|SCVR:14JX4MV_RichPilgrim|INTV:d
+  Kalendaar_V3.R02.esm->|DATA|ONAM:viatrix petilia|NAME|SCVR:04JX3MV_RichPilgrim|INTV|SCVR:14JX4MV_RichPilgrim|INTV:d
+
+[MOD-INF]: ID=30398182271296118430(Topic:guilde des guerriers)
+  morrowind.esm-------->|DATA|ONAM:hasphat antabolis|NAME:Services are cheap, and get cheaper as you advance in rank. But since Sjoring Hard-Heart, the new Guildmaster, deposed my old friend, Percius Mercius, things have gone a bit sour. My advice is to watch yourself with Hard-Heart and his cronies. They got more ambition than sense. Go see Percius Mercius in Ald'ruhn. And listen to what he tells you.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:hasphat antabolis|NAME
+
+[MOD-INF]: ID=30825219281734727358(Topic:services)
+  tribunal.esm--------->|DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+  Kalendaar_V3.R02.esm->|DATA|ONAM:denegor|NAME
+
+[MOD-INF]: ID=31249114601316122882(Topic:conseillers hlaalus)
+  morrowind.esm-------->|DATA|ONAM:crassius curio|NAME:I am sure you can persuade Dram Bero to support you as Hortator... if you can find him. Orvas Dren has Nevena Ules and Velanda Omani in his pocket. You might want to make a little trip to the Dren Plantation before talking to them. And then there's Yngling Half-Troll.|SCVR:34JX3B6_CurioHort|INTV:2|SCVR:44JX4B6_HlaaluHort|INTV:2|BNAM:ShowMap Dren Plantation
+  Kalendaar_V3.R02.esm->|DATA|ONAM:crassius curio|NAME|SCVR:34JX3B6_CurioHort|INTV:2|SCVR:44JX4B6_HlaaluHort|INTV:2|BNAM:ShowMap Dren Plantation
+
+[MOD-INF]: ID=32766151232851324457(Topic:dogme du culte impérial)
+  morrowind.esm-------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME:We also say -- do not harm one another. It is forbidden to attack another person of the Imperial cult, and of course, forbidden to kill another member. It is forbidden to steal from another member, whether by open theft or by covert pickpocketing. It is forbidden to trespass upon the private property of another member -- private property being understood to be anything behind a locked door. Break any one of these rules, and be expelled from the cult.|SCVR:01500|INTV
+  Kalendaar_V3.R02.esm->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME|SCVR:01500|INTV

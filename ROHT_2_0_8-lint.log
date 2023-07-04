@@ -1,0 +1,764 @@
+ROHT_2_0_8.ESP: DUP-INF DUP-REC MASTERS MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	Rise of House Telvanni.esm    2283790 (plugin)    2283802 (installed size)
+	OAAB_Data.esm                1269934 (plugin)    1567893 (installed size)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	rise of house telvanni.esm    BOOK    roht_bk_onladyzafirbel
+	rise of house telvanni.esm    BOOK    roht_letter_zubadaiah
+	rise of house telvanni.esm    BOOK    roht_sc_mg_doornote
+	rise of house telvanni.esm    BOOK    roht_sc_mg_doornote2
+	rise of house telvanni.esm    CLOT    roht_archmagister_amulet
+	rise of house telvanni.esm    DIAL    background
+	rise of house telvanni.esm    DIAL    belatrinde
+	rise of house telvanni.esm    DIAL    chirsaedo
+	rise of house telvanni.esm    DIAL    control it all
+	rise of house telvanni.esm    DIAL    current focus
+	rise of house telvanni.esm    DIAL    disturbing incident
+	rise of house telvanni.esm    DIAL    eliminate the guild
+	rise of house telvanni.esm    DIAL    endalos
+	rise of house telvanni.esm    DIAL    equal opportunities policy
+	rise of house telvanni.esm    DIAL    find another master
+	rise of house telvanni.esm    DIAL    following items
+	rise of house telvanni.esm    DIAL    garos relvani
+	rise of house telvanni.esm    DIAL    greeting 1
+	rise of house telvanni.esm    DIAL    hello
+	rise of house telvanni.esm    DIAL    idle
+	rise of house telvanni.esm    DIAL    imprudent activity
+	rise of house telvanni.esm    DIAL    lady zubadaiah rethosa
+	rise of house telvanni.esm    DIAL    my history
+	rise of house telvanni.esm    DIAL    offer her a bribe
+	rise of house telvanni.esm    DIAL    oghma infinium
+	rise of house telvanni.esm    DIAL    only living descendant
+	rise of house telvanni.esm    DIAL    order of mages
+	rise of house telvanni.esm    DIAL    pergamaea
+	rise of house telvanni.esm    DIAL    roht_coupdetat
+	rise of house telvanni.esm    DIAL    roht_eastempirecompany
+	rise of house telvanni.esm    DIAL    roht_gothrensuccessor
+	rise of house telvanni.esm    DIAL    roht_initiation
+	rise of house telvanni.esm    DIAL    roht_magesguild
+	rise of house telvanni.esm    DIAL    roht_summoning
+	rise of house telvanni.esm    DIAL    roht_uvooquest
+	rise of house telvanni.esm    DIAL    roht_uvootower
+	rise of house telvanni.esm    DIAL    skink-in-tree's-shade
+	rise of house telvanni.esm    DIAL    skooma
+	rise of house telvanni.esm    DIAL    slavery
+	rise of house telvanni.esm    DIAL    sleep
+	rise of house telvanni.esm    DIAL    specific place
+	rise of house telvanni.esm    DIAL    summon zafirbel's spirit
+	rise of house telvanni.esm    DIAL    summoning chamber
+	rise of house telvanni.esm    DIAL    tel aruhn
+	rise of house telvanni.esm    DIAL    whole council
+	rise of house telvanni.esm    DIAL    zafirbel
+	rise of house telvanni.esm    NPC_    roht_advisor
+	rise of house telvanni.esm    NPC_    roht_cultist_dead1
+	rise of house telvanni.esm    NPC_    roht_cultist_dead2
+	rise of house telvanni.esm    NPC_    roht_sum_zafirbel
+	rise of house telvanni.esm    NPC_    roht_zubadaiah_1
+	rise of house telvanni.esm    NPC_    roht_zubadaiah_2
+
+[MOD-INF]: ID=662384670917167(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_ZubMouth|NAME:She is my patron. If you need to talk to her in person, you will find her in Tel Aruhn.
+  ROHT_2_0_8.ESP------------->|NAME:She is my patron. If you need to talk to her in person, you will find her in Tel Aruhn.|DELE:
+
+[MOD-INF]: ID=7553120747798253(Topic:disturbing incident)
+  rise of house telvanni.esm->|DATA|NAME:Lady Zubadaiah was attacked by a group of Mages! She was able to defeat them, but I hear that a few guards have lost their lives.|SCVR:04JX0RoHT_Summoning|INTV|SCVR:17XX0RoHT_Zubadaiah_2|INTV
+  ROHT_2_0_8.ESP------------->|DATA|NAME:Lady Rethosa was attacked recently. She was able to defeat them, but I hear that a few guards have lost their lives.|SCVR:04JX0RoHT_Summoning|INTV|SCVR:17XX0RoHT_Zubadaiah_2|INTV
+
+[MOD-INF]: ID=8323486196082784(:equal opportunities policy)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:I will join the House as soon as I can, friend %PCName.|SCVR:04JX0RoHT_MGRecruitSkink|INTV:d
+  ROHT_2_0_8.ESP------------->|NAME:I will join the House as soon as I can, friend %PCName.|DELE:
+
+[MOD-INF]: ID=8493886435519798(Topic:skink-in-tree's-shade)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:I hear that the Lizard has joined House Telvanni? Perfect. I'm sure you would want to know of his research topics. You may find him in Tel Aruhn somewhere.|SCVR:04JX0RoHT_MGRecruitSkink|INTV|SCVR:12sX1PCRace|INTV|SCVR:22sX1PCRace|INTV|BNAM:Journal, "RoHT_MGRecruitSkink", 100
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:I hear that he has joined House Telvanni. I'm sure you would want to know of his research topics. You may find him in Tel Aruhn somewhere.|SCVR:04JX0RoHT_MGRecruitSkink|INTV|SCVR:12sX1PCRace|INTV|SCVR:22sX1PCRace|INTV|BNAM:Journal, "RoHT_MGRecruitSkink", 100
+
+[MOD-INF]: ID=10044215344416501(Topic:skink-in-tree's-shade)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:He specializes in the remains of House Dagoth. Although we already have information on our old rivals, we believe the lizard has new knowledge of lost Dagoth soul-sorcery: the profane magicks with which they were once associated.|SCVR:04JX0RoHT_MagesGuild|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:He specializes in the study of House Dagoth. Although we already have information on them, we believe Skink has new knowledge of lost Dagoth soul-sorcery, the profane magicks they once practiced.|SCVR:04JX0RoHT_MagesGuild|INTV
+
+[MOD-INF]: ID=14033173264318041(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_1|NAME:I am she.|SCVR:04JX0RoHT_GothrenSuccessor|INTV
+  ROHT_2_0_8.ESP------------->|NAME:I am she.|DELE:
+
+[MOD-INF]: ID=14033173264318041(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_1|NAME:I am she.|SCVR:04JX0RoHT_GothrenSuccessor|INTV
+  ROHT_2_0_8.ESP------------->|NAME:I am she.|DELE:
+[MOD-IID]: ID=2263121014175858917(Topic:delasa rethosa),ID=2667724676253259515(Topic:delasa rethosa)
+  ROHT_2_0_8.ESP------------->I am she.
+
+[MOD-INF]: ID=14801525296018875(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|DNAM:Mages Guild|NAME:I had hoped you would say that. But before we bring the meddlesome Guild to its knees, I believe they do have some interesting research projects. Two strike me in particular. Edwinna Elbert and her Dwemer fascination. She can be found in Ald-ruhn. And a Lizard, interested in the Sixth House. It's the Guild steward of Wolverine Hall, Skink-in-Tree's-Shade. See if you can persuade them to join House Telvanni who will, of course, provide generous funding for their projects.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 10  AddTopic,"Skink-in-Tree's-Shade"  AddTopic, "Edwinna Elbert"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|DNAM:Mages Guild|NAME:I had hoped you would say that. Before we begin our operation, I believe they have some scholars we could poach from their ranks. Two strike me in particular. Edwinna Elbert in Ald-ruhn and her fascination with all things Dwemer, and Skink-in-Tree's-Shade here in Sadrith Mora researching the Sixth House. See if you can persuade them to join House Telvanni. We will, of course, provide generous funding for their projects.|SCVR:04JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 10  AddTopic,"Skink-in-Tree's-Shade"  AddTopic, "Edwinna Elbert"
+
+[MOD-INF]: ID=15384290273314238(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Now that the Imperial fools are leaderless, our spy, Tiram Gadar, will take hold of the Guild. He has been infiltrating the guild for a long time, Archmagister %PCName. What should he do?|SCVR:06DX2trebonius artorius|INTV:|SCVR:14JX3RoHT_MagesGuild|INTV|SCVR:24JX5RoHT_MagesGuild|INTV|SCVR:34JX1MG_SpyCatch|INTV:d|BNAM:Choice, "First, have him sell all the contracted Guildhalls to us, though make sure we cannot be traced. Then, order the finest Telvanni mercenaries to put the Guild out of business on Vvardenfell. Forever.", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Now that the Imperial fools are leaderless, our spy, Tiram Gadar, will take hold of the Guild. He has been infiltrating the guild for a long time, Archmagister %PCName. This matter is nearly taken care of, the only question left is whether we allow them to continue operation.|SCVR:06DX2trebonius artorius|INTV:|SCVR:14JX3RoHT_MagesGuild|INTV|SCVR:24JX5RoHT_MagesGuild|INTV|SCVR:34JX1MG_SpyCatch|INTV:d|BNAM:Choice, "They shall remain a puppet of the Telvanni.", 8, "Scorch the earth." 9
+
+[MOD-INF]: ID=15625862590113069(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|DNAM:Mages Guild|NAME:Well, think on it, Archmagister %PCName. I hope you remember that if we eliminate the Guild, it will be harder to use the services there, but what right-thinking Telvanni would use the Guild anyway? We have better services here.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 5
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|DNAM:Mages Guild|NAME:Well, think on it, Archmagister %PCName. I hope you remember that if we eliminate the Guild, it will be harder to use the services there, but what right-thinking Telvanni would use the Guild anyway? We have better services here.|SCVR:04JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 5
+
+[MOD-INF]: ID=28952947725272467(Topic:control it all)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Aryon and Zubadaiah had been forming a plan at Damania's suggestion. We even went as far as ordering every Telvanni who governs a territory to send a Mouth to the Council. Unfortunately, it involved the late Duke. Now that he's dead, even listening to that plan is a vain endeavour. We should forget about it and turn to the Council's next current focus.|SCVR:04JX3RoHT_TheranasRevenge|INTV|SCVR:14JX5RoHT_TheranasRevenge|INTV|SCVR:26DX2Vedam Dren|INTV:|BNAM:set RoHT_TelvanniCouncilExpansion to 3  Journal, "RoHT_CoupDEtat", 410
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Aryon and Delasa had been forming a plan at Damania's suggestion. We even went as far as ordering every Telvanni who governs a territory to send a Mouth to the Council. Unfortunately, it involved the late Duke. Now that he's dead, even listening to that plan is a vain endeavour. We should forget about it and turn to the Council's next current focus.|SCVR:04JX3RoHT_TheranasRevenge|INTV|SCVR:14JX5RoHT_TheranasRevenge|INTV|SCVR:26DX2Vedam Dren|INTV:|BNAM:set RoHT_TelvanniCouncilExpansion to 3  Journal, "RoHT_CoupDEtat", 410
+
+[MOD-INF]: ID=31513812443615505(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:edwinna elbert|NAME:As I have told you, %PCName: if you want me to defect to House Telvanni, you will have to bring me the following items: 10,000 gold and a Dwemer Coherer.|SCVR:04JX0RoHT_MGRecruitEdwinna|INTV: 
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:edwinna elbert|NAME:As I mentioned before, if  you want me to defect to House Telvanni, you will have to bring me some items for my research.|SCVR:04JX0RoHT_MGRecruitEdwinna|INTV: 
+
+[MOD-INF]: ID=35431627088321754(Topic:imprudent activity)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Consult Mehitabel Llaras, our spy on location, on how to remove Canctunian Ponius without causing too much of a furor. We can't yet afford to alienate the other houses completely.|SCVR:06DX0Canctunian Ponius|INTV:|SCVR:14JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:24JX4RoHT_EastEmpireCompany|INTV:Z|SCVR:31500|INTV|BNAM:StartScript, "RoHT_Canctunian_Script"  Journal, "RoHT_EastEmpireCompany", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Consult Mehitabel Llaras, our spy at the East Empire Company Hall in Ebonheart, on how to remove Canctunian Ponius without causing too much of a furor. We can't yet afford to alienate the other houses completely.|SCVR:06DX0Canctunian Ponius|INTV:|SCVR:14JX0RoHT_MagesGuild|INTV:d|SCVR:24JX4RoHT_EastEmpireCompany|INTV:Z|SCVR:31500|INTV|BNAM:StartScript, "RoHT_Canctunian_Script"  Journal, "RoHT_EastEmpireCompany", 1
+
+[MOD-INF]: ID=50034241245831876(Topic:zafirbel)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Zafirbel is one of my ancestors. When she was young, she ventured into many places that no one else dared to enter. On one of her excursions, she stumbled upon a beautiful bit of the Daedric Realm called Pergamaea. My mother used to tell me about it when I was young. I have even been to Sud once, but the entrance it blocked by a magical fence. Only Zafirbel would know how to enter Pergamaea.|SCVR:04JX3RoHT_Summoning|INTV: |BNAM:Choice, "But Zafirbel is dead, isn't she?", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Zafirbel is a legendary sorceress. When she was young, she ventured into many places that no one else dared to enter. On one of her excursions, she stumbled upon a beautiful Daedric Realm called Pergamaea. I've been to Sud once, but the entrance is blocked by powerful wards. Only Zafirbel herself would know how to enter Pergamaea.|SCVR:04JX3RoHT_Summoning|INTV: |BNAM:Choice, "But Zafirbel is dead, isn't she?", 1
+
+[MOD-INF]: ID=52951324919816513(Topic:pergamaea)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Pergamaea is a realm I forged from some lingering Chaos. When I died, I entrusted the care of my realm to an order of Mages who worship the Daedra Boethiah and Azura. They took my two colored face as a sign that I was a prophet of some kind. I didn't have the heart to tell them that I asked for the face and was not born with it. *sigh*. Pergamaea is extremely beautiful. There is an aperture to it in Sud, a cavern in Sheogorad.|BNAM:AddTopic, "Sud"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Pergamaea is a realm I found when exploring the outer reaches of Oblivion. Before I died, I entrusted the care of my realm to an order of mages who worship both Boethiah and Azura. The first time I passed through the portal, by mere circumstance the cosmic planes aligned and illuminated half of me with blinding light, while the other half remained in darkness. They thought I was some kind of prophet. Pergamaea is a beautiful realm to behold. There is an aperture to it in Sud, a cavern in Sheogorad.|BNAM:AddTopic, "Sud"
+
+[MOD-INF]: ID=67082991119178859(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|DNAM:Mages Guild|NAME:I know that you are Archmage of the Guild of Mages as well, Archmagister, so this is a delicate matter: most of the masters see the Guild of Mages as an Imperial blemish which only serves to hamper our research and disrupt the stability of magic-use with their foolish rules and bureaucracy. The masters have seen them as a potent threat ever since they arrived, but Gothren would not allow them to come to harm.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |BNAM:Choice, "Continue", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|DNAM:Mages Guild|NAME:I know that you are Archmage of the Guild of Mages as well, Archmagister, so this is a delicate matter. The Guild of Mages is an Imperial rival which only serves to hamper our research and disrupt the the stability of magic-use with their Imperial bureaucracy and oversight. They have been a threat since they arrived, but Gothren did not see the use in removing them. Aryon and the other Councilors think differently. There are two ways we could go about this, are you ready to begin, Archmagister?|SCVR:04JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |BNAM:Journal, "RoHT_MagesGuild", 2  Choice, "Let's hear it.", 3, "Let me decide first.", 4
+
+[MOD-INF]: ID=83489500272158509(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_ZubMouth|NAME:Greetings %PCName. I'm Runala Arothran, Mouth of Lady Zubadaiah Rethosa. If there is anything I can do for you, just name it.
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_ZubMouth|NAME:Greetings %PCName. I'm Runala Arothran, Mouth of Mistress Delasa Rethosa. If there is anything I can do for you, just name it.
+
+[MOD-INF]: ID=92662850950814853(Topic:disturbing incident)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:It seems that shortly after moving into Gothren's tower, she was attacked by a group of fanatic Mages who tried to abduct her. You should speak to her in person.|SCVR:04JX3RoHT_Summoning|INTV|SCVR:14JX5RoHT_Summoning|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:It seems that shortly after moving into Gothren's tower, she was attacked by a group of fanatic Mages. You should speak to her in person.|SCVR:04JX3RoHT_Summoning|INTV|SCVR:14JX5RoHT_Summoning|INTV
+
+[MOD-INF]: ID=96298694316094335(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Greetings and Congratulations, %PCName. You are House Telvanni's new Archmagister. I am %Name: I have served your predecessors as an advisor, and I will serve you with the same dedication. These are troublesome times, and there is lots of work to do. We should tackle it right now. Just tell me when you are ready to discuss the Council's current focus.|SCVR:04JX5RoHT_Initiation|INTV: |BNAM:AddTopic, "current focus"  Journal, "RoHT_Initiation", 100
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Greetings and salutations, %PCName. You are House Telvanni's new Archmagister. I am %Name. I have served your predecessors as an advisor, and I will serve you with the same dedication. These are troublesome times, and there is much work to be done. Tell me when you are ready to discuss the Council's current focus.|SCVR:04JX5RoHT_Initiation|INTV: |BNAM:AddTopic, "current focus"  Journal, "RoHT_Initiation", 100
+
+[MOD-INF]: ID=98325598172654534(Voice:hello)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:[Zubadaiah won't greet you with unnecessary chit-chat during the chamber restoration sequence.]|SCVR:04JX0RoHT_Summoning|INTV:(
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:[Delasa won't greet you with unnecessary chit-chat during the chamber restoration sequence.]|SCVR:04JX0RoHT_Summoning|INTV:(
+
+[MOD-INF]: ID=115327467142753804(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:As I have told you, %PCName: I will only join your house if you provide me with the following items: 15,000 gold and a Sixth House Amulet.|SCVR:04JX0RoHT_MGRecruitSkink|INTV: 
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:skinkintreesshade|NAME:As I have told you, I will only join your house if you provide me with the items for my research.|SCVR:04JX0RoHT_MGRecruitSkink|INTV: 
+
+[MOD-INF]: ID=147451432737519545(Topic:imprudent activity)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:We had a highly placed spy in the East Empire Company who was almost in a position to transfer the desirable aspects of the Company to House Telvanni while separating the Cyrodillic detritus. Unluckily, Canctunian Ponius has died of an unnatural cause which means that there will be an official inquiry, and an outsider will be appointed his successor. There's nothing we can do about it anymore. We might just as well turn our attention to the Council's next current focus.|SCVR:06DX2Canctunian Ponius|INTV:|SCVR:14JX0RoHT_Wards1ZafirbelsStar|INTV:d|BNAM:Journal, "RoHT_EastEmpireCompany", 110
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:We had a highly placed spy in the East Empire Company who was almost in a position to transfer the desirable aspects of the Company to House Telvanni while separating the Cyrodillic detritus. Unluckily, Canctunian Ponius has died of an unnatural cause which means that there will be an official inquiry, and an outsider will be appointed his successor. There's nothing we can do about it anymore. We might just as well turn our attention to the Council's next current focus.|SCVR:06DX2Canctunian Ponius|INTV:|SCVR:14JX0RoHT_MagesGuild|INTV:d|BNAM:Journal, "RoHT_EastEmpireCompany", 110
+
+[MOD-INF]: ID=175495307785030144(Journal:roht_gothrensuccessor)
+  rise of house telvanni.esm->|DATA|NAME:I visited my advisor in Sadrith Mora, and he spoke of the growing void that Gothren's death left. He said that I should appoint a new master for Tel Aruhn. He also gave me a limited selection of suitable candidates.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:I visited my advisor in Sadrith Mora, and he spoke of the void that Gothren's death left. He said that I should appoint a new master for Tel Aruhn. He also gave me a limited selection of suitable candidates: Bols Indayn at Sadrith Mora's Tel Naga Great Hall, Mallam Ryon at Fara's Hole in the Wall in Sadrith Mora, and Delasa Rethosa in Tel Mora.
+
+[MOD-INF]: ID=193872524022293566(Topic:delasa rethosa)
+  rise of house telvanni.esm->|DATA|ANAM:Tel Aruhn, Upper Tower|NAME:Zubadaiah is in the upper level, to the east.|SCVR:04JX3RoHT_GothrenSuccessor|INTV:d|SCVR:16DX0RoHT_Zubadaiah_2|INTV:|SCVR:2CsX0NoLore|INTV:
+  ROHT_2_0_8.ESP------------->|DATA|ANAM:Tel Aruhn, Upper Tower|NAME:Delasa is in the upper level, to the east.|SCVR:04JX3RoHT_GothrenSuccessor|INTV:d|SCVR:16DX0RoHT_Zubadaiah_2|INTV:|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=195513524249332404(Topic:zafirbel)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:That name brings back fond memories. When I was a child, my mother used to tell me of Zafirbel and how she created Pergamaea. I wanted to be just like her back then.|SCVR:04JX3RoHT_Summoning|INTV|BNAM:; This entry is only needed to make this topic be hyperlinked properly for the first time.
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:I've heard of her many exploits from my studies in Tel Ouada. Quite an interesting figure.|SCVR:04JX3RoHT_Summoning|INTV:c|BNAM:; This entry is only needed to make this topic be hyperlinked properly for the first time.
+
+[MOD-INF]: ID=202749353108617861(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Now that the Imperial fools are leaderless, our spy, Tiram Gadar, will take hold of the Guild. He has been infiltrating the guild for a long time, Archmagister %PCName. Yes, you have heard correctly. We have managed to extract Tiram Gadar from prison and clear his name. I won't bore you with the details, but expect some juicy bills from Suran in the next few days. What should he do?|SCVR:06DX2trebonius artorius|INTV:|SCVR:14JX3RoHT_MagesGuild|INTV|SCVR:24JX5RoHT_MagesGuild|INTV|SCVR:34JX0MG_SpyCatch|INTV:d|BNAM:Choice, "First, have him sell all the contracted Guildhalls to us, though make sure we cannot be traced. Then, order the finest Telvanni mercenaries to put the Guild out of business on Vvardenfell. Forever.", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Now that the Imperial fools are leaderless, our spy, Tiram Gadar, will take hold of the Guild. He has been infiltrating the guild for a long time, Archmagister %PCName. We have managed to extract Tiram Gadar from prison and clear his name. I won't bore you with the details, but expect some invoices from Suran in the next few days. This matter is nearly taken care of, the only question left is whether we allow them to continue operation.|SCVR:06DX2trebonius artorius|INTV:|SCVR:14JX3RoHT_MagesGuild|INTV|SCVR:24JX5RoHT_MagesGuild|INTV|SCVR:34JX0MG_SpyCatch|INTV:d|BNAM:Choice, "They shall remain a puppet of the Telvanni.", 8, "Scorch the earth." 9
+
+[MOD-INF]: ID=208431812786763077(Topic:skooma)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:I'm currently doing a little research into the hallucinogenic properties of Skooma. Very interesting. I might need to try some more...
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:I'm currently doing a little research into the hallucinogenic properties of Skooma. Very interesting. I might need to try some more.
+
+[MOD-INF]: ID=211321424739046098(Topic:specific place)
+  rise of house telvanni.esm->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:22sX0RoHT_Zubadaiah_status|INTV
+  ROHT_2_0_8.ESP------------->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:22sX0RoHT_Zubadaiah_status|INTV
+
+[MOD-INF]: ID=212121914373927650(Topic:delasa rethosa)
+  rise of house telvanni.esm->|DATA|NAME:She's quite an improvement over Gothren. Organized, open-minded, clever, and beautiful. What more could you ask for?|SCVR:04JX3RoHT_GothrenSuccessor|INTV:d|SCVR:16DX0RoHT_Zubadaiah_2|INTV:|SCVR:2CsX0NoLore|INTV:
+  ROHT_2_0_8.ESP------------->|DATA|NAME:She's quite an improvement over Gothren. Organized, open-minded, and clever. What more could you ask for?|SCVR:04JX3RoHT_GothrenSuccessor|INTV:d|SCVR:16DX0RoHT_Zubadaiah_2|INTV:|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=235892095026289198(Journal:roht_eastempirecompany)
+  rise of house telvanni.esm->|DATA|NAME:My advisor has told me that the Imperial chartered export controller, the East Empire Company, is causing too much trouble for House Telvanni. I should deal with this by "removing" the Imperial fool Cancturian Ponius from his post. We have a highly placed spy within the company itself who will take over his office, so we should be able to cause enough chaos to divert some or all of the company's recent profits into Sadrith Mora coffers.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:My advisor has told me that the Imperial chartered export controller, the East Empire Company, is causing too much trouble for House Telvanni. I should deal with this by "removing" the Imperial fool Cancturian Ponius from his post. Mehitabel Llaras at the East Empire Company Hall in Ebonheart will have more to say.
+
+[MOD-INF]: ID=236083103437512990(:following items)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:Find me a Sixth House Amulet and 15,000 gold. Then will I join the House of Telvanni.|SCVR:04JX3RoHT_MGRecruitSkink|INTV|SCVR:14JX4RoHT_MGRecruitSkink|INTV|BNAM:Journal, "RoHT_MGRecruitSkink", 10
+  ROHT_2_0_8.ESP------------->|NAME:Find me a Sixth House Amulet and 15,000 gold. Then will I join the House of Telvanni.|DELE:
+
+[MOD-INF]: ID=238513709211039797(Topic:control it all)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:If you are willing, we could put a plan into action that Aryon and Zubadaiah have been forming at Damania's suggestion. It involves the Duke, his daughter, and you.|SCVR:04JX0RoHT_TheranasRevenge|INTV:d|BNAM:; Check for Duke Dren's life from now on:  StartScript, "RoHT_VedamDrenDeadCounter_Scr"  Choice, "Continue", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:If you are willing, we could put a plan into action that Aryon and Delasa have been forming at Damania's suggestion. It involves the Duke, his daughter, and you.|SCVR:04JX0RoHT_TheranasRevenge|INTV:d|BNAM:; Check for Duke Dren's life from now on:  StartScript, "RoHT_VedamDrenDeadCounter_Scr"  Choice, "Continue", 1
+
+[MOD-INF]: ID=241896232313422777(Journal:roht_summoning)
+  rise of house telvanni.esm->|DATA|NAME:Zubadaiah says that she has the knowledge to reactivate the Summoning chamber, but she will require my powers. Also, we need a skull, some sload soap, 3 fire petals, 3 rubies, 2 diamonds, and some Dreugh wax. I will get the items and bring them to Zubadaiah.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:Delasa says that she has the knowledge to reactivate the Summoning chamber, but she will require my powers. Also, we need a skull, some sload soap, 3 fire petals, 3 rubies, 2 diamonds, and some Dreugh wax. I will get the items and bring them to her.
+
+[MOD-INF]: ID=244352128661102030(Journal:roht_initiation)
+  rise of house telvanni.esm->|DATA|NAME:Now that I'm Archmagister of House Telvanni, I should turn my attention towards strengthening its position in Vvardenfell. I have traveled to Sadrith Mora to see what awaits me in my quarters at the council.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:As Archmagister of House Telvanni I can turn my attention towards strengthening its position in Vvardenfell. I have traveled to Sadrith Mora to see what awaits me in my quarters at the council.
+
+[MOD-INF]: ID=256117423620523503(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:You have fulfilled your part of the deal, and I will fulfill mine, Archmagister. I will teleport to Tel Aruhn tonight.|SCVR:04JX0RoHT_MGRecruitSkink|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:skinkintreesshade|NAME:You have fulfilled your part of the deal, and I will fulfill mine, Archmagister. I will travel to Tel Aruhn tonight.|SCVR:04JX0RoHT_MGRecruitSkink|INTV
+
+[MOD-INF]: ID=272643648131625001(:following items)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:You have found me the items. I will join House Telvanni. Things will be better with the new equal opportunities policy you assured me of, won't they, Archmagister?|SCVR:04JX0RoHT_MGRecruitSkink|INTV: |SCVR:15IX3Gold_001|INTV|SCVR:25IX3amulet of 6th house|INTV|BNAM:Journal, "RoHT_MGRecruitSkink", 20  "player"->RemoveItem, "amulet of 6th house", 1  AddItem, "amulet of 6th house", 1  "player"->RemoveItem, "gold_001", 15000  AddItem, "gold_001", 15000
+  ROHT_2_0_8.ESP------------->|NAME:You have found me the items. I will join House Telvanni. Things will be better with the new equal opportunities policy you assured me of, won't they, Archmagister?|DELE:
+
+[MOD-INF]: ID=272961337926281366(:equal opportunities policy)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Maybe we should have taken that policy a tad more serious, %PCName.|SCVR:04JX3RoHT_SkinkQuests|INTV
+  ROHT_2_0_8.ESP------------->|NAME:Maybe we should have taken that policy a tad more serious, %PCName.|DELE:
+
+[MOD-INF]: ID=273473140032440741(Topic:tolerance policy)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:That? I thought you had finished with the ridiculous idea of "equal opportunities," %PCName. Ha!|SCVR:04JX0RoHT_MGRecruitSkink|INTV:d
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:That? I thought you had finished with the ridiculous idea of a "tolerance policy".|SCVR:04JX0RoHT_MGRecruitSkink|INTV:d
+
+[MOD-INF]: ID=276103139513930171(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:You don't feel it necessary to destroy the Guild in that way? Alright. You are the Archmagister, %PCName. Not me. I barely give advice. Anyway, more on the Council's current focus.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 110
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:You don't feel it necessary to destroy the Guild in that way? Alright. You are the Archmagister, %PCName. Not me. I barely give advice. Anyway, more on the Council's current focus.|SCVR:04JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 110  ;removed this option -mort
+
+[MOD-INF]: ID=288211752642820266(Topic:belatrinde)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Alighiere|NAME:As I already said, Archmagistrix: You shouldn't spend your time on this. Probably every second I even think about it will be wasted after all this time.|SCVR:04JX0RoHT_Misc_AlighiereQuest|INTV|SCVR:11440|INTV:|BNAM:Journal, "RoHT_Misc_AlighiereQuest", 2
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Alighiere|NAME:As I already said, Archmagister: You shouldn't spend your time on this. Probably every second I even think about it will be wasted after all this time.|SCVR:04JX0RoHT_Misc_AlighiereQuest|INTV|SCVR:11440|INTV:|BNAM:Journal, "RoHT_Misc_AlighiereQuest", 2
+
+[MOD-INF]: ID=303318845235716095(Topic:tolerance policy)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:You say that all are welcome, even amongst the lizard-haters? What did cause this drastic shift in House politics? Until recently, your House hasn't actually been welcoming to outlanders. You've been even enslaving my marshsiblings for generations.|SCVR:04JX3RoHT_MGRecruitSkink|INTV|SCVR:14JX4RoHT_MGRecruitSkink|INTV|BNAM:Choice, "I have been a prisoner myself. I have begun to change House Telvanni, and I will continue to do so. You have my word on this.", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:skinkintreesshade|NAME:You say that all are welcome, even amongst the most hostile House? Other than the Dres of course. [Skink shutters.] What caused this drastic shift in House politics? Until recently, your House hasn't actually been welcoming to outlanders. You've been enslaving my kin for generations.|SCVR:04JX3RoHT_MGRecruitSkink|INTV|SCVR:14JX4RoHT_MGRecruitSkink|INTV|BNAM:Choice, "I have been a prisoner myself. I have begun to change House Telvanni, and I will continue to do so. You have my word on this.", 1
+
+[MOD-INF]: ID=304102273077896324(Topic:endalos)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Uvoo2|NAME:[Uvoo is torn between pride, surprise, and gratitude. His face cannot seem to decide on an expression.] Thank you, Archmagister! You won't regret this decision, I promise. I cannot wait to tell Zubadaiah. Would you excuse me? I'll just pack my things and head back to Tel Llarelah. I need to prepare for my next expedition.|SCVR:04JX0RoHT_UvooQuest|INTV|SCVR:11500|INTV|BNAM:ModDisposition 20  "RoHT_Uvoo"->ModDisposition 20  Journal, "RoHT_UvooQuest", 180  GoodBye
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Uvoo2|NAME:[Uvoo is torn between pride, surprise, and gratitude. His face cannot seem to decide on an expression.] Thank you, Archmagister! You won't regret this decision, I promise. I cannot wait to tell Delasa. Would you excuse me? I'll just pack my things and head back to Tel Llarelah. I need to prepare for my next expedition.|SCVR:04JX0RoHT_UvooQuest|INTV|SCVR:11500|INTV|BNAM:ModDisposition 20  "RoHT_Uvoo"->ModDisposition 20  Journal, "RoHT_UvooQuest", 180  GoodBye
+
+[DUP-INF]: ID=321171271486324508(Journal:roht_magesguild)
+  |DATA|NAME:Trebonius is dead at my feet. I should now speak to my advisor.
+
+[MOD-INF]: ID=325736376889231830(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Well, think on it, Archmagister %PCName. I hope you remember that if we eliminate the Guild, it will be harder to use the services there, but what right-thinking Telvanni would use the Guild anyway? We have better services here.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 5
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Well, think on it, Archmagister %PCName. I hope you remember that if we eliminate the Guild, it will be harder to use the services there, but what right-thinking Telvanni would use the Guild anyway? We have better services here.|SCVR:04JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 5
+
+[MOD-INF]: ID=334291982009327566(Topic:offer her a bribe)
+  rise of house telvanni.esm->|DATA|ONAM:edwinna elbert|NAME:A bribe you say? Why, this could buy me the very part that I need. I'm so close to a working Animunculus. But first, if I'm to take my research to you, I want some of the following items.|SCVR:04JX0RoHT_MGRecruitEdwinna|INTV|BNAM:AddTopic, "following items"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:edwinna elbert|NAME:A bribe you say? Why, this could buy me the very part that I need. I'm so close to a working Animunculus. But first, if I'm to take my research to you, I need some items for my research.|SCVR:04JX0RoHT_MGRecruitEdwinna|INTV|BNAM:AddTopic, "items for my research"
+
+[MOD-INF]: ID=390612771439110381(Topic:tolerance policy)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:I will agree to your terms. I shall travel to Sadrith Mora immediately, using teleportation to avoid suspicion.|SCVR:04JX0RoHT_MGRecruitSkink|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:skinkintreesshade|NAME:I agree to your terms. I will make my way to Sadrith Mora proper immediately.|SCVR:04JX0RoHT_MGRecruitSkink|INTV
+
+[MOD-INF]: ID=408112002298319143(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Hello, %PCName. Take a look at this mess. They dashed in without warning, killed two of my guards, and shouted something in the way of: "Hail to you, two-faced Goddess! We have come to take you home to Pergamaea." Then they tried to grab me and take me with them. They were no match for me and my Guardians, but this is disturbing nevertheless.|SCVR:04JX3RoHT_Summoning|INTV|SCVR:14JX4RoHT_Summoning|INTV|BNAM:AddTopic, "Pergamaea"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Hello, %PCName. Take a look at this mess. They dashed in without warning, killed two of my guards, and shouted about someone being "back", then the word "Pergamaea". Certainly that first bit doesn't refer to me, I've only just arrived. They were no match for me and my Guardians, but this is an inconvenience nevertheless.|SCVR:04JX3RoHT_Summoning|INTV|SCVR:14JX4RoHT_Summoning|INTV|BNAM:AddTopic, "Pergamaea"
+
+[MOD-INF]: ID=462727479356224486(Topic:tel aruhn)
+  rise of house telvanni.esm->|DATA|CNAM:Scout|ANAM:Ahemmusa Camp|NAME:Tel Aruhn is the Telvanni tower of Mistress Zubadaiah, Telvanni Sorcereress-Lady and descendant of Lady Zafirbel herself. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+  ROHT_2_0_8.ESP------------->|DATA|CNAM:Scout|ANAM:Ahemmusa Camp|NAME:Tel Aruhn is the Telvanni tower of Mistress Rethosa, Telvanni Sorcereress-Lady. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+
+[MOD-INF]: ID=502924932923314794(Topic:tel aruhn)
+  rise of house telvanni.esm->|DATA|CNAM:Scout|ANAM:Ahemmusa Camp|NAME:Tel Aruhn is the Telvanni tower of Mistress Zubadaiah, Telvanni Sorcereress-Lady and descendant of Lady Zafirbel herself. The associated settlement is a sizable village, and the site of Savile Imayn's house servant school.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|SCVR:22sX0RoHT_TelAruhn_Abolition|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+  ROHT_2_0_8.ESP------------->|DATA|CNAM:Scout|ANAM:Ahemmusa Camp|NAME:Tel Aruhn is the Telvanni tower of Mistress Rethosa, Telvanni Sorcereress-Lady. The associated settlement is a sizable village, and the site of Savile Imayn's house servant school.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|SCVR:22sX0RoHT_TelAruhn_Abolition|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+
+[MOD-INF]: ID=543382913031032624(Journal:roht_magesguild)
+  rise of house telvanni.esm->|DATA|NAME:My advisor believes that House Telvanni will gain more power if the threat of the Guild of Mages is removed... permanently. This is a delicate situation, since I am the incumbent Archmage as well.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:My advisor believes that House Telvanni will gain more power if the Imperial Guild of Mages is dealt with. This is a delicate situation, since I am the incumbent Archmage as well.
+
+[MOD-INF]: ID=552928516317255046(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Alright, I have prepared this as far as I could. Yet the difficult part of it still lies before us. Let us waste no more time. Please hand me that skull and the soap.|SCVR:02sX0RoHT_ChamberStatus|INTV|BNAM:GoodBye  "player"->RemoveItem, "misc_skull00", 1  "player"->RemoveItem, "ingred_sload_soap_01", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Alright, I have prepared this as far as I could. Thankfully Gothren left some of the summoning ritual scrolls around. Yet the difficult part of it still lies before us. Let us waste no more time. Please hand me that skull and the soap.|SCVR:02sX0RoHT_ChamberStatus|INTV|BNAM:GoodBye  "player"->RemoveItem, "misc_skull00", 1  "player"->RemoveItem, "ingred_sload_soap_01", 1
+
+[MOD-INF]: ID=586625819602612213(Topic:my history)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:I was the first female Archmagister, the second ruler in total, and third founder of the House. I mastered the elements and had a great garden tower on the Shuderiah Plains. But my life was marked with tragedy. I lost my friends to each other, my home to the eruption of Red Mountain, and my life's work to the destruction that followed. I once was a great Queen of the Dunmer people. Now I am a shade, bodiless. So I pledged my spirit to helping the future Masters. Like my only living descendant.
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:I was one of the first of what you call Archmagisters. I mastered the elements and had a great garden tower on the Shuderiah Plains. I lost my friends to one another's schemes, my home to the eruption of Red Mountain, and my life's work to the destruction that followed. I once was a great leader of the my House. Now I am a shade, bodiless. For centuries I layed in wait for someone to ask for my help, which I am very grateful to be able to give.
+
+[MOD-INF]: ID=641218262509415644(Topic:current focus)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:I am glad that you could help Zubadaiah with her problem. Now that you have a working Summoning Chamber again, you should consult the former archmagisters on future occasions. And you have also retrieved Zafirbel's Star. Magnificent! You should keep it as a symbol of your power. And take this. These notes were compiled by Galos Mathendis, Aryon's old Mouth. They are especially focused on the beginnings of House Telvanni. Now, shall we turn our attention to the current focus of the Council?|SCVR:04JX0RoHT_Summoning|INTV:n|SCVR:14JX4RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:25IX2RoHT_Star_Zafirbel|INTV:|BNAM:Journal, "RoHT_Wards1ZafirbelsStar", 100  "player"->AddItem, "RoHT_bk_Mushroom_Hold", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:I am glad that you could help Mistress Rethosa with her problem. Now that you have a working Summoning Chamber again, you should consult the former archmagisters on future occasions. And you have also retrieved Zafirbel's Star. Magnificent! You should keep it as a symbol of your power. And take this. These notes were compiled by Galos Mathendis, Aryon's old Mouth. They are especially focused on the beginnings of House Telvanni. Now, shall we turn our attention to the current focus of the Council?|SCVR:04JX0RoHT_Summoning|INTV:n|SCVR:14JX4RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:25IX2RoHT_Star_Zafirbel|INTV:|BNAM:Journal, "RoHT_Wards1ZafirbelsStar", 100  "player"->AddItem, "RoHT_bk_Mushroom_Hold", 1
+
+[MOD-INF]: ID=646141501346918039(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Look at it now! The fire has not only cleansed the skull of all contamination, it has also turned it into a perfect portal for  the spirits!  And now comes the painful part. We - that means you - need to charge it with power. It must stand like a lighthouse in the void for the spirits to find it. Prepare yourself for an unpleasant experience.|SCVR:02sX0RoHT_ChamberStatus|INTV|BNAM:GoodBye
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Look at it now! The fire has not only cleansed the skull of all contamination, it has also turned it into a perfect portal for the spirits! And now comes the painful part. We - that means you - need to charge it with power. It must stand like a lighthouse in the void for the spirits to find it. Prepare yourself for an unpleasant experience.|SCVR:02sX0RoHT_ChamberStatus|INTV|BNAM:GoodBye
+
+[DUP-INF]: ID=769578492353832178(Topic:eliminate the guild)
+  |DATA|ONAM:RoHT_advisor|NAME:The Guild has been dealt with, Archmagister.|SCVR:04JX0RoHT_MagesGuild|INTV:d
+
+[MOD-INF]: ID=894010058262363211(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|NAME:Archmagister! Glad to see you! Have you heard about that disturbing incident at the tower?|SCVR:04JX0RoHT_Summoning|INTV
+  ROHT_2_0_8.ESP------------->|DATA|NAME:Archmagister! Glad to see you! Have you heard about that disturbing incident at the tower?|SCVR:04JX0RoHT_Summoning|INTV|BNAM:;unused line
+
+[MOD-INF]: ID=906101671400130272(Topic:current focus)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Some Councilors have become concerned about the level of Imperial encroachment on Telvanni territory. However, I have a plan that will stop any imprudent activity that might be going on.|SCVR:04JX0RoHT_Summoning|INTV:n|SCVR:14JX0RoHT_Wards1ZafirbelsStar|INTV:d|BNAM:AddTopic, "imprudent activity"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:I hear discontent about the Guild of Mages, and it is growing. The Councilors had to watch Gothren do nothing about the Guild's threatening behavior. If you want to make a statement about House Telvanni's impregnability, I suggest you eliminate the Guild.|SCVR:04JX0RoHT_Summoning|INTV:n|SCVR:14JX0RoHT_Wards1ZafirbelsStar|INTV:d|BNAM:AddTopic, "eliminate the Guild"
+
+[MOD-INF]: ID=1075078493030812552(Topic:current focus)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Zubadaiah's student, Master Uvoo, has moved into his Tower on Dagon Fel. He has caught word of her family history and asks permission to investigate Pergamaea.|SCVR:04JX0RoHT_Wards3TelvannisChalice|INTV:d|BNAM:Choice, "Master? I don't remember promoting him. And since when do Telvanni ask for permission? Tell him to go if he has the guts.", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Mistress Rethosa's student, Master Uvoo, has moved into his Tower on Dagon Fel. He has caught word of her family history and asks permission to investigate Pergamaea.|SCVR:04JX0RoHT_Wards3TelvannisChalice|INTV:d|BNAM:Choice, "Master? I don't remember promoting him. And since when do Telvanni ask for permission? Tell him to go if he has the guts.", 1
+
+[MOD-INF]: ID=1086620302979211315(Topic:current focus)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Mistress Zubadaiah contacted me personally in hopes that she could have your assistance.|SCVR:04JX0RoHT_EdwinnaTower|INTV:d|BNAM:AddTopic, "have your assistance"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Mistress Rethosa contacted me personally in hopes that she could have your assistance.|SCVR:04JX0RoHT_EdwinnaTower|INTV:d|BNAM:AddTopic, "have your assistance"
+
+[MOD-INF]: ID=1152431310236610192(Topic:sleep)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Gothren|NAME:With a simple incantation I can bring the mightiest of foes to the floor into the blissful realm of Dream. Then dost my power show, for in sleep they are subject to the fury of Vaermina and will cower in pain as their life-blood is taken by her Haruspexes and destroyed.
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Gothren|NAME:With a simple incantation I can bring the mightiest of foes to the floor into the blissful realm of Dream. Then dost my power show, for in sleep they are subject to the fury of Vaermina and will cower in pain as their life-blood is taken by her Haruspexes and destroyed.|SCVR:04JX011111 test journal|INTV|BNAM:;what are these supposed to be? -mort
+
+[MOD-INF]: ID=1188514096276258257(Topic:whole council)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Gothren|NAME:Whatever. Anyway, Dratha threw a massive fit, killed his children, and left the man, without his skin of course, as bait for some Daedra or another. Banned men from her tower. It gets worse. Meridia sees this all and sends this random Necromancer along to curse Dratha for her cruelty. She ends up living forever and a day in a body that never stops aging and hates men to this moment. So whenever she is practicing her Necromantic powers, she is trying to restore her body, not gain a few more years.|SCVR:01500|INTV|BNAM:Choice, "Anything else about the Council?", 2
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Gothren|NAME:Whatever. Anyway, Dratha threw a massive fit, killed his children, and left the man, without his skin of course, as bait for some Daedra or another. Banned men from her tower. It gets worse. Meridia sees this all and sends this random Necromancer along to curse Dratha for her cruelty. She ends up living forever and a day in a body that never stops aging and hates men to this moment. So whenever she is practicing her Necromantic powers, she is trying to restore her body, not gain a few more years.|SCVR:01500|INTV|BNAM:Choice, "Anything else about the Council?", 2  ;no, just no
+
+[MOD-INF]: ID=1225620081201710282(Topic:pergamaea)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:You have killed every one of the mages? Thank Azura, that really is good news. I admit that I have been worried a bit myself. Now I will sleep a whole lot better. You should tell Zafirbel the news: I think she wants to express her gratitude in person.|SCVR:04JX0RoHT_Summoning|INTV:Z|BNAM:Journal, "RoHT_Summoning", 100
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:You have killed every one of the mages? Thank Azura, that really is good news. I admit that I have been worried a bit myself. Now I will sleep a whole lot better. You should tell Zafirbel the news. I think she wants to express her gratitude in person.|SCVR:04JX0RoHT_Summoning|INTV:Z|BNAM:Journal, "RoHT_Summoning", 100
+
+[MOD-INF]: ID=1230714440546729070(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Mehitabel_2|NAME:Hello, Archmagister; business is flourishing. While House Telvanni gets the wheat, House Hlaalu is mostly left with the chaff, so to speak. So, what can I do for you?|SCVR:02sX0RoHT_StartedEECPayments|INTV|BNAM:AddTopic, "your royalty"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Mehitabel_2|NAME:Hello, Archmagister. Business is flourishing. While House Telvanni gets the wheat, House Hlaalu is mostly left with the chaff, so to speak. So, what can I do for you?|SCVR:02sX0RoHT_StartedEECPayments|INTV|BNAM:AddTopic, "your royalty"
+
+[MOD-INF]: ID=1245326536881411976(Journal:roht_coupdetat)
+  rise of house telvanni.esm->|DATA|NAME:Aryon, Zubadaiah, and Damania have come up with a plan to increase House Telvanni's influence at the Grand Council in Ebonheart. Unfortunately, Duke Dren was a central element of that plan. It's a pity he had to die so young.|QSTF
+  ROHT_2_0_8.ESP------------->|DATA|NAME:Aryon, Delasa, and Damania have come up with a plan to increase House Telvanni's influence at the Grand Council in Ebonheart. Unfortunately, Duke Dren was a central element of that plan. It's a pity he had to die so young.|QSTF
+
+[MOD-INF]: ID=1339252561963114893(Voice:idle)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:[Zubadaiah won't greet you with unnecessary chit-chat during the chamber restoration sequence.]|SCVR:04JX0RoHT_Summoning|INTV:(
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:[Delasa won't greet you with unnecessary chit-chat during the chamber restoration sequence.]|SCVR:04JX0RoHT_Summoning|INTV:(
+
+[MOD-INF]: ID=1361372362444116696(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_1|NAME:I am she. How can I help?|SCVR:04JX3RoHT_GothrenSuccessor|INTV|BNAM:Choice, "[Tell her about the vacant post at Tel Aruhn, offering the post to her.]", 1, "[Mumble about your Tower, and then leave.]", 2
+  ROHT_2_0_8.ESP------------->|NAME:EMP|TYDE:
+
+[MOD-INF]: ID=1361372362444116696(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_1|NAME:I am she. How can I help?|SCVR:04JX3RoHT_GothrenSuccessor|INTV|BNAM:Choice, "[Tell her about the vacant post at Tel Aruhn, offering the post to her.]", 1, "[Mumble about your Tower, and then leave.]", 2
+  ROHT_2_0_8.ESP------------->|NAME:EMP|TYDE:
+[MOD-IID]: ID=276499084924412553(Topic:delasa rethosa)
+  ROHT_2_0_8.ESP------------->I am she. How can I help?
+
+[MOD-INF]: ID=1372118156690425129(Topic:tel aruhn)
+  rise of house telvanni.esm->|DATA|ONAM:artisa arelas|NAME:Tel Aruhn is the Telvanni tower of Mistress Zubadaiah, Telvanni Sorcereress-Lady and descendant of Lady Zafirbel herself. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.|SCVR:02sX0RoHT_Zubadaiah_status|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:artisa arelas|NAME:Tel Aruhn is the Telvanni tower of Mistress Rethosa. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.|SCVR:02sX0RoHT_Zubadaiah_status|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+
+[MOD-INF]: ID=1581013644178473476(Topic:disturbing incident)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:It seems that shortly after moving into Gothren's tower, she was attacked by a group of fanatic Mages who tried to abduct her. You should speak to her in person.|SCVR:04JX3RoHT_MagesGuild|INTV:d|SCVR:14JX4RoHT_Summoning|INTV|BNAM:Journal, "RoHT_Summoning", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:It seems that shortly after moving into Gothren's tower, she was attacked by a group of fanatic Mages. You should speak to her in person.|SCVR:04JX3RoHT_GothrenSuccessor|INTV|SCVR:14JX4RoHT_Summoning|INTV|BNAM:Journal, "RoHT_Summoning", 1
+
+[MOD-INF]: ID=1619030617271568520(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:'Chra'kanton'thon Vro'hnant'heo old'heijnok'then... [You wish you could understand but one word, but Zubadaiah's words defy your every effort.]|SCVR:02sX0RoHT_ChamberStatus|INTV|BNAM:GoodBye
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:'Chra'kanton'thon Vro'hnant'heo old'heijnok'then...|SCVR:02sX0RoHT_ChamberStatus|INTV|BNAM:GoodBye
+
+[MOD-INF]: ID=1620519738534023039(Topic:order of mages)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:*Your* masters? Oh... I forgot for a moment that I am no longer Archmagister. I am only worried about my grandchild. So please accept my apology - I am grateful for your support. The entrance is secured by a force field that is protected by the password Chirsaedo.|SCVR:04JX0RoHT_Summoning|INTV:F|SCVR:11500|INTV|BNAM:AddTopic, "Chirsaedo"  Journal, "RoHT_Summoning", 80  StartScript, "RoHT_CultistsDeadCounter_Script"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Your masters? Oh, I forgot for a moment that I am no longer Archmagister. Please accept my apology, this is a lot to get used to. The entrance is secured by a force field that is protected by the password Chirsaedo.|SCVR:04JX0RoHT_Summoning|INTV:F|SCVR:11500|INTV|BNAM:AddTopic, "Chirsaedo"  Journal, "RoHT_Summoning", 80  StartScript, "RoHT_CultistsDeadCounter_Script"
+
+[MOD-INF]: ID=1666544732796712765(Journal:roht_magesguild)
+  rise of house telvanni.esm->|DATA|NAME:I have decided to leave the Guild of Mages alone: they pose little threat to the might of House Telvanni. I'm sure I can keep tabs on their actions through my spies and agents within the Guild. I should focus on the greater plans of House Telvanni.|QSTF
+  ROHT_2_0_8.ESP------------->|DATA|NAME:If you see this, something has gone wrong! I have decided to leave the Guild of Mages alone: they pose little threat to the might of House Telvanni. I'm sure I can keep tabs on their actions through my spies and agents within the Guild. I should focus on the greater plans of House Telvanni.|QSTF
+
+[MOD-INF]: ID=1668870803039523424(:following items)
+  rise of house telvanni.esm->|DATA|ONAM:edwinna elbert|NAME:You have found me the items. I will join House Telvanni. Although I'm sure you were told by some chauvinist pig to "offer her a bribe," I will overlook that. The objects you brought me could well lead to the first working Animunculus around, %PCName.|SCVR:04JX0RoHT_MGRecruitEdwinna|INTV: |SCVR:15IX3Gold_001|INTV|SCVR:25IX3misc_dwrv_artifact50|INTV|BNAM:Journal, "RoHT_MGRecruitEdwinna", 20  "player"->RemoveItem, "misc_dwrv_artifact50", 1  AddItem, "misc_dwrv_artifact50", 1  "player"->RemoveItem, "gold_001", 10000  AddItem, "gold_001", 10000
+  ROHT_2_0_8.ESP------------->|NAME:You have found me the items. I will join House Telvanni. Although I'm sure you were told by some chauvinist pig to "offer her a bribe," I will overlook that. The objects you brought me could well lead to the first working Animunculus around, %PCName.|DELE:
+
+[MOD-INF]: ID=1717916566454522428(Journal:roht_uvootower)
+  rise of house telvanni.esm->|DATA|NAME
+  ROHT_2_0_8.ESP------------->|DATA|NAME
+
+[MOD-INF]: ID=1736314149257816091(Topic:tel aruhn)
+  rise of house telvanni.esm->|DATA|CNAM:Scout|ANAM:Tel Mora|NAME:Tel Aruhn is the Telvanni tower of Mistress Zubadaiah, Telvanni Sorcereress-Lady and descendant of Lady Zafirbel herself. The associated settlement is a sizable village, and the site of Savile Imayn's house servant school.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|SCVR:22sX0RoHT_TelAruhn_Abolition|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+  ROHT_2_0_8.ESP------------->|DATA|CNAM:Scout|ANAM:Tel Mora|NAME:Tel Aruhn is the Telvanni tower of Mistress Rethosa, Telvanni Sorcereress-Lady. The associated settlement is a sizable village, and the site of Savile Imayn's house servant school.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|SCVR:22sX0RoHT_TelAruhn_Abolition|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+
+[MOD-INF]: ID=1772452692629614738(Journal:roht_uvooquest)
+  rise of house telvanni.esm->|DATA|NAME:Zubadaiah's student, the so-called "Master" Uvoo, has requested access to Pergamaea. I should pay him a visit in Dagon Fel and find out what he is up to.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:Delasa's student, the so-called "Master" Uvoo, has requested access to Pergamaea. I should pay him a visit in Dagon Fel and find out what he is up to.
+
+[MOD-INF]: ID=1797911835936019161(Journal:roht_summoning)
+  rise of house telvanni.esm->|DATA|NAME:Chirsaedo and every one of the deranged mages are dead. I should pay Zubadaiah a visit and tell her that she is safe.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:Chirsaedo and every one of the deranged mages are dead. I should pay Delasa a visit and tell her that she is safe.
+
+[MOD-INF]: ID=1888111312306077763(Topic:summon zafirbel's spirit)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Wouldn't you like to hear about Zafirbel before I tell you how to summon her spirit?|SCVR:04JX3RoHT_Summoning|INTV|SCVR:14JX4RoHT_Summoning|INTV|BNAM:; This entry is only needed to make this topic be hyperlinked properly for the first time.
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Wouldn't you like to hear about Zafirbel before I tell you how to summon her spirit?|SCVR:04JX3RoHT_Summoning|INTV:c|SCVR:14JX4RoHT_Summoning|INTV|BNAM:; This entry is only needed to make this topic be hyperlinked properly for the first time.
+
+[MOD-INF]: ID=1900696341599231428(Topic:find another master)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:You say you have found one, Archmagister %PCName? Excellent news! That should silence any grumbling in the Council. I shall make sure she has a Mouth on the Council at once!|SCVR:04JX0RoHT_GothrenSuccessor|INTV|BNAM:Journal, "RoHT_GothrenSuccessor", 100  ; Disable Gothren's Dremora Guards in case they are still alive  "dremora_gothren_guard1"->Disable  "dremora_gothren_guard2"->Disable
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:You say you have found one, Archmagister %PCName? Excellent news! That should silence any grumbling in the Council. I shall make sure they have a Mouth on the Council at once!|SCVR:04JX0RoHT_GothrenSuccessor|INTV|BNAM:Journal, "RoHT_GothrenSuccessor", 100  ; Disable Gothren's Dremora Guards in case they are still alive  "dremora_gothren_guard1"->Disable  "dremora_gothren_guard2"->Disable
+
+[MOD-INF]: ID=1914310950243484424(Topic:order of mages)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Those spells were quite useful to me in my days as a young adventuress. I'm sure that they will serve you well. And there is something more. Hold still.|SCVR:04JX0RoHT_Summoning|INTV:d|SCVR:11500|INTV|BNAM:Cast, "dispel", "player"  "player"->AddSpell, "RoHT_ZafirbelsGratitude"  Journal "RoHT_Summoning" 110  GoodBye
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Those spells were quite useful to me in my days as a Daedric realm traveller. I'm sure that they will serve you well. And there is something more. One moment.|SCVR:04JX0RoHT_Summoning|INTV:d|SCVR:11500|INTV|BNAM:Cast, "dispel", "player"  "player"->AddSpell, "RoHT_ZafirbelsGratitude"  Journal "RoHT_Summoning" 110  GoodBye
+
+[MOD-INF]: ID=1921786233160816141(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Gothren|DNAM:Telvanni|NAME:What do you want, %PCName? Or should that be Archmagister?
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Gothren|DNAM:Telvanni|NAME:What do you want, %PCName? Or should that be Archmagister %PCName?
+
+[MOD-INF]: ID=2001715042972527043(Topic:whole council)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Gothren|NAME:Yes. That's it. I've provided information. Now let me go back to my sleep.|SCVR:01500|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Gothren|NAME:Yes. That's it. I've provided information. Now let me go back to my sleep.|SCVR:01500|INTV|BNAM:;no, just no
+
+[MOD-INF]: ID=2011326351746410175(Topic:zafirbel)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Yes, she died centuries ago. But that isn't all too important. You see, she once was Archmagistrix of House Telvanni. That means she didn't die completely. By reactivating the summoning chamber in your quarters, we stand a chance to summon Zafirbel's spirit.|SCVR:04JX3RoHT_Summoning|INTV: |SCVR:11500|INTV|BNAM:Journal, "RoHT_Summoning", 20  AddTopic, "summon Zafirbel's spirit"  AddTopic, "summoning chamber"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Yes, she died centuries ago. But that isn't all too important. You see, she once was Archmagister of House Telvanni. There's a good chance her spirit is still lucid enough to hear our call. By reactivating the summoning chamber in your quarters, we stand a chance to summon Zafirbel's spirit.|SCVR:04JX3RoHT_Summoning|INTV: |SCVR:11500|INTV|BNAM:Journal, "RoHT_Summoning", 20  AddTopic, "summon Zafirbel's spirit"  AddTopic, "summoning chamber"
+
+[MOD-INF]: ID=2017626791124491295(Topic:order of mages)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Thanks again for dealing with them. Ah, if only I could have done it myself. They would have seen what it means to anger your "god."|SCVR:04JX0RoHT_Summoning|INTV:n
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Thanks again for dealing with them. Ah, if only I could have done it myself. They would have seen what it means to anger your "prophet".|SCVR:04JX0RoHT_Summoning|INTV:n
+
+[MOD-INF]: ID=2022514585107432214(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Ok'haniwej onk'hantin'ho do'hno'hri'khon al'hastond'he... [Zubadaiah starts chanting in a language unlike any other you have ever heard before.]|SCVR:02sX0RoHT_ChamberStatus|INTV|BNAM:GoodBye
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:[Delasa reads from a scroll.] Ok'haniwej onk'hantin'ho do'hno'hri'khon al'hastond'he...|SCVR:02sX0RoHT_ChamberStatus|INTV|BNAM:GoodBye
+
+[MOD-INF]: ID=2070121122220539946(Topic:oghma infinium)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:This alone has been unheard of until now. Zubadaiah has found it and read her chapter back at her stepmother's tower of Tel Ouada several years ago. And just this morning, she found it again. It was lying on her pillow, with your name hovering in glowing letters above its bindings.|SCVR:04JX0RoHT_FinalGratification|INTV:n|SCVR:11500|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Mistress Rethosa arrived back in her chambers to see it lying on her pillow. After what I can only imagine was a very exciting read, instead of vanishing the book glowed bright with your name on the bindings.|SCVR:04JX0RoHT_FinalGratification|INTV:n|SCVR:11500|INTV
+
+[MOD-INF]: ID=2093250762251113007(:following items)
+  rise of house telvanni.esm->|DATA|ONAM:edwinna elbert|NAME:I already told you. First I need at least 10,000 septims as a grant. And a Dwemer Coherer. You can find them in most Dwemer ruins. Only then will I consider your proposal.|SCVR:04JX0RoHT_MGRecruitEdwinna|INTV: 
+  ROHT_2_0_8.ESP------------->|NAME:I already told you. First I need at least 10,000 septims as a grant. And a Dwemer Coherer. You can find them in most Dwemer ruins. Only then will I consider your proposal.|DELE:
+
+[MOD-INF]: ID=2125827941158028327(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:An equal opportunities policy? What is that supposed to mean?|SCVR:04JX0RoHT_MGRecruitSkink|INTV|SCVR:11500|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:skinkintreesshade|NAME:A tolerance policy? What is that supposed to mean?|SCVR:04JX0RoHT_MGRecruitSkink|INTV|SCVR:11500|INTV
+
+[MOD-INF]: ID=2133712122921832432(Topic:slavery)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Well, to be honest, the slavery here isn't as bad as the kind of Markets one finds at Port Telvannis and Tear. But Festival Market is the biggest one on Vvardenfell: it simply has the greatest range of slaves.|SCVR:04JX4RoHT_TwinLamps|INTV|SCVR:14JX1RoHT_TwinLamps|INTV:d
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Well, to be honest, the slavery here isn't as bad as the kind of Markets one finds at Port Telvannis and Tear. But Festival Market is the biggest one on Vvardenfell, with the greatest variety of slaves.|SCVR:04JX4RoHT_TwinLamps|INTV|SCVR:14JX1RoHT_TwinLamps|INTV:d
+
+[MOD-INF]: ID=2162217450738410635(Topic:find another master)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:My advice regarding this would be to promote a Wizard to the rank of Master. If she or he is capable, they will undoubtedly provide an excellent pawn against the other Councilors. I have taken the liberty of making a list of promising Telvanni who would possibly take up the position.    Mallam Ryon  Bols Indayn  Lady Zubadaiah Rethosa|SCVR:04JX0RoHT_Initiation|INTV:d|SCVR:14JX4RoHT_GothrenSuccessor|INTV|BNAM:Journal, "RoHT_GothrenSuccessor", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:My advice regarding this would be to promote a Wizard to the rank of Master. If she or he is capable, they will undoubtedly provide an excellent pawn against the other Councilors. I have taken the liberty of making a list of promising Telvanni who would possibly take up the position.    Mallam Ryon  Bols Indayn  Delasa Rethosa|SCVR:04JX0RoHT_Initiation|INTV:d|SCVR:14JX4RoHT_GothrenSuccessor|INTV|BNAM:Journal, "RoHT_GothrenSuccessor", 1
+
+[MOD-INF]: ID=2173049103157717924(Topic:garos relvani)
+  rise of house telvanni.esm->|DATA|ONAM:ilmeni dren|NAME:You know about Garos and me? How did you... Oh, yes, you're Damania's Archmagistrix. Don't get me wrong, %PCName, but that's a private matter, and I'd like to keep it this way.|SCVR:04JX3RoHT_CoupDEtat|INTV:<|SCVR:14JX5RoHT_CoupDEtat|INTV|SCVR:21440|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:ilmeni dren|NAME:You know about Garos and me? How did you... Oh, yes, you're Damania's Archmagister. Don't get me wrong, %PCName, but that's a private matter, and I'd like to keep it this way.|SCVR:04JX3RoHT_CoupDEtat|INTV:<|SCVR:14JX5RoHT_CoupDEtat|INTV|SCVR:21440|INTV
+
+[MOD-INF]: ID=2204414762938330754(Journal:roht_summoning)
+  rise of house telvanni.esm->|DATA|NAME:The Conjuration Chamber is active once again. But the costs were high: when she said that she required my powers, Zubadaiah didn't tell me that the process would nearly kill me. I am in dire need of some rest.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:The Conjuration Chamber is active once again. But the costs were high: when she said that she required my powers, Delasa didn't tell me that the process would nearly kill me. I am in dire need of some rest.
+
+[MOD-INF]: ID=2224110282980813004(Journal:roht_magesguild)
+  rise of house telvanni.esm->|DATA|NAME:With both the researchers under our control, my advisor suggested that I ought to kill the Archmage in order to plunge the Guild into chaos.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:With both the researchers under our control, my advisor suggested that I ought to eliminate the Archmage.
+
+[MOD-INF]: ID=2237228047506813031(Journal:roht_summoning)
+  rise of house telvanni.esm->|DATA|NAME:Zubadaiah was relieved to hear about the order's demise. She still was a bit agitated about the attack. I should talk to Zafirbel now.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:Delasa was relieved to hear about the order's demise. She still was a bit agitated about the attack. I should talk to Zafirbel now.
+
+[MOD-INF]: ID=2242620886203614200(Topic:whole council)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Gothren|NAME:Now this I know about. I know ALL about the Masters of House Telvanni. Let's start with the oldest. Dratha. She was a thorn in my side many a time. But she knew what she wanted, and it wasn't men. I suppose you'd like to know what happened to cause her... peculiar hatred? Well, I don't know the full details, but apparently her lover, in a typical Dunmer way, fathered three children with some slave. A Breton slave. Secretly. Can you imagine the horror of Half-Mer children?|BNAM:Choice, "No!", 1 "Why yes, how terrible!", 1, "You are a racist pig. Or rather, you were...", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Gothren|NAME:I tried to keep our interactions to a minimum. Fools, the lot of them. Especially Aryon. To let an outlander make their way to the pinnacle of this House is disgraceful. Why he did not seize power himself is anyone's guess. Certainly the others are too wrapped up in their own dementia to interrupt his schemes.
+
+[MOD-INF]: ID=2270518379177815283(Topic:summoning chamber)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:That fool Gothren probably didn't even know what it is. He is said to have used that room as a study. One of his predecessors was more aware of it: did you notice the unusual lights in that room? They are rare artifacts found only in Skyrim. They help restless spirits to manifest in mundus.|SCVR:04JX3RoHT_Summoning|INTV: 
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Gothren either didn't even know what it is or didn't care. He used that room as a study. Did you notice the unusual lights in that room? They are rare artifacts found only in Skyrim. They help restless spirits to manifest in mundus.|SCVR:04JX3RoHT_Summoning|INTV: 
+
+[MOD-INF]: ID=2329815372604115424(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_1|NAME:Are you okay? Perhaps you need to lie down.|SCVR:04JX3RoHT_GothrenSuccessor|INTV|SCVR:11500|INTV|BNAM:GoodBye
+  ROHT_2_0_8.ESP------------->|NAME:Are you okay? Perhaps you need to lie down.|DELE:
+
+[MOD-INF]: ID=2352748061339319692(Topic:tolerance policy)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:Strange, I am inclined to agree with you. Very well. As proof of your sincerity, you will need to find me the following items.|SCVR:04JX3RoHT_MGRecruitSkink|INTV|SCVR:14JX4RoHT_MGRecruitSkink|INTV|SCVR:21500|INTV|BNAM:AddTopic, "following items"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:skinkintreesshade|NAME:Strange, I am inclined to agree with you. Very well. As proof of your sincerity, you will need to find me the following items for my research.|SCVR:04JX3RoHT_MGRecruitSkink|INTV|SCVR:14JX4RoHT_MGRecruitSkink|INTV|SCVR:21500|INTV|BNAM:AddTopic, "items for my research"
+
+[MOD-INF]: ID=2472139622154624438(Topic:tel aruhn)
+  rise of house telvanni.esm->|DATA|CNAM:Scout|ANAM:Sadrith Mora|NAME:Tel Aruhn is the Telvanni tower of Mistress Zubadaiah, Telvanni Sorcereress-Lady and descendant of Lady Zafirbel herself. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+  ROHT_2_0_8.ESP------------->|DATA|CNAM:Scout|ANAM:Sadrith Mora|NAME:Tel Aruhn is the Telvanni tower of Mistress Rethosa, Telvanni Sorcereress-Lady. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+
+[MOD-INF]: ID=2485129676273293485(Topic:chirsaedo)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Chirsaedo is a servant of Sheogorath. I entrusted her and that order of Mages to take care of Pergamaea. I even entrusted her with my Ward, Zafirbel's Star.|SCVR:04JX0RoHT_Summoning|INTV:P|BNAM:AddTopic, "order of Mages"  AddTopic, "Zafirbel's Star"  Journal, "RoHT_Wards1ZafirbelsStar", 10
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Chirsaedo is a servant of Sheogorath. I entrusted her and that order of Mages to take care of Pergamaea. But unlike his other followers, she was remarkably sane. Clearly that has proven not to be the case. I even entrusted her with my Ward, Zafirbel's Star.|SCVR:04JX0RoHT_Summoning|INTV:P|BNAM:AddTopic, "order of Mages"  AddTopic, "Zafirbel's Star"  Journal, "RoHT_Wards1ZafirbelsStar", 10
+
+[MOD-INF]: ID=2501118291710628980(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|DNAM:Mages Guild|NAME:Aryon and the other Councilors would love to see them removed. Would you hear of my ideas to remove the Guild of Mages, Archmagister? I'll have to warn you, though: before you choose, I advise that you finish any business with the Guild that you might have left.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 2  Choice, "I won't tolerate any assaults against the Guild. Tell the masters to see me personally if they have any problems with that decision.", 2, "I only joined the Guild to learn about their weaknesses. I have learned enough, it's time to dispose of them. What do you have to say, advisor?", 3, "Let me decide first.", 4
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|DNAM:Mages Guild|NAME:Aryon and the other Councilors would love to see them removed. Would you hear of my ideas to remove the Guild of Mages, Archmagister?|SCVR:04JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 2  Choice, "Let's hear it.", 3, "Let me decide first.", 4
+
+[MOD-INF]: ID=2566017340848618522(Journal:roht_summoning)
+  rise of house telvanni.esm->|DATA|NAME:My advisor has told me about an attempt to abduct Mistress Zubadaiah. She was able to defend herself, but she has requested to see me nonetheless.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:My advisor has told me about an attempt on Mistress Rethosa's life. She was able to defend herself, but she has requested to see me nonetheless.
+
+[MOD-INF]: ID=2576727298319548721(Topic:pergamaea)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Pergamaea is a small Outer Realm, between Boethiah's realm of Snake Mount and Azura's realm of Moonshadow. It was tamed by one of the founders of House Telvanni, Lady Zafirbel, and was used as a place of worship for the two Daedra who rule it, hence its bi-polar nature. Its entrance is located in the cavern of Sud.|SCVR:04JX0RoHT_Summoning|INTV:n
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Pergamaea is a small Outer Realm, between Boethiah's realm of Snake Mount and Azura's realm of Moonshadow. It was first explored by Archmagister Zafirbel, and was used as a place of worship for the two Daedra who rule it, hence its bi-polar nature. Its entrance is located in the cavern of Sud.|SCVR:04JX0RoHT_Summoning|INTV:n
+
+[MOD-INF]: ID=2630412960204248627(Topic:summon zafirbel's spirit)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Summoning a person's spirit is entirely different from summoning ghosts or Daedra. When you summon a ghost, you get a mindless minion; when you summon a spirit, you'll get ... well, a person's spirit. It looks like the person, but you can't touch it. It is without physical substance, yet it bears all the person's mind and soul. It takes a whole lot more to summon a spirit than a ghost.|SCVR:04JX0RoHT_Summoning|INTV|BNAM:Choice, "Continue", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:Summoning a person's spirit is entirely different from summoning ghosts or Daedra. When you summon a ghost, you get a mindless minion. When you summon a spirit you'll get, well, a person's spirit. It looks like the person, but you can't touch it. It is without physical substance, yet it bears all the person's mind and soul. It takes a whole lot more to summon a spirit than a ghost.|SCVR:04JX0RoHT_Summoning|INTV|BNAM:Choice, "Continue", 1
+
+[DUP-INF]: ID=2688626781244718446(Topic:current focus)
+  |DATA|ONAM:RoHT_advisor|NAME:First I would like to congratulate you: your respect within the Council grows. But let's get back to business. In a particular violent vision, Therana has found the location of another of the Wards of Trine, the Cube of Uvirith.|SCVR:04JX0RoHT_EastEmpireCompany|INTV:d|SCVR:16DX0therana|INTV:|BNAM:AddTopic, "Cube of Uvirith"
+
+[MOD-INF]: ID=2719819842704832328(Journal:roht_gothrensuccessor)
+  rise of house telvanni.esm->|DATA|NAME:Lady Zubadaiah of Tel Ouada has decided to become the new Mistress at Tel Aruhn. She will proceed there immediately. I should now speak to my Advisor.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:Lady Rethosa of Tel Ouada has decided to become the new Mistress at Tel Aruhn. She will proceed there immediately. I should now speak to my Advisor.
+
+[MOD-INF]: ID=2735622482826220610(Topic:sleep)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:With a simple incantation I can bring the mightiest of foes to the floor into the blissful realm of Dream. Then dost my power show, for in sleep they are subject to the fury of Vaermina and will cower in pain as their life-blood is taken by her Haruspexes and destroyed.
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:With a simple incantation I can bring the mightiest of foes to the floor into the blissful realm of Dream. Then dost my power show, for in sleep they are subject to the fury of Vaermina and will cower in pain as their life-blood is taken by her Haruspexes and destroyed.|SCVR:04JX011111 test journal|INTV|BNAM:;what are these supposed to be? -mort
+
+[MOD-INF]: ID=2768020297146031635(Topic:following items)
+  rise of house telvanni.esm->|DATA|ONAM:edwinna elbert|NAME:You have already brought me those items, %PCName.|SCVR:04JX0RoHT_MGRecruitEdwinna|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:a shady smuggler|NAME:delete|SCVR:04JX011111 test journal|INTV
+
+[MOD-INF]: ID=2812465191411223086(Topic:control it all)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Aryon and Zubadaiah had been forming a plan at Damania's suggestion. We even went as far as ordering every Telvanni who governs a territory to send a Mouth to the Council. Unfortunately, it involved the late Duke. Now that he's dead, even listening to that plan is a vain endeavour. We should forget about it and turn to the Council's next current focus.|SCVR:04JX0RoHT_TheranasRevenge|INTV:d|SCVR:16DX2Vedam Dren|INTV:|BNAM:set RoHT_TelvanniCouncilExpansion to 3  Journal, "RoHT_CoupDEtat", 410
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Aryon and Delasa had been forming a plan at Damania's suggestion. We even went as far as ordering every Telvanni who governs a territory to send a Mouth to the Council. Unfortunately, it involved the late Duke. Now that he's dead, even listening to that plan is a vain endeavour. We should forget about it and turn to the Council's next current focus.|SCVR:04JX0RoHT_TheranasRevenge|INTV:d|SCVR:16DX2Vedam Dren|INTV:|BNAM:set RoHT_TelvanniCouncilExpansion to 3  Journal, "RoHT_CoupDEtat", 410
+
+[MOD-INF]: ID=2831021302117129879(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:These help the spirits focus on their former shapes. They require an even stronger magical alignment. This might hurt a bit. Lay your hands on the skull: I will begin the magicka transfer now...  Achmotic'hon 'elejbine ud'hakot'he... [Zubadaiah continues to chant in a foreign language.]|SCVR:02sX0RoHT_ChamberStatus|INTV: |BNAM:GoodBye
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:These help the spirits focus on their former shapes. They require an even stronger magical alignment. This might hurt a bit. Lay your hands on the skull, I will begin the magicka transfer now...    Achmotic'hon 'elejbine ud'hakot'he...|SCVR:02sX0RoHT_ChamberStatus|INTV: |BNAM:GoodBye
+
+[MOD-INF]: ID=2854012127590111208(Topic:chirsaedo)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Chirsaedo was a servant of Sheogorath. But unlike his other followers, she was remarkably sane. I called her a friend once. But all those centuries of solitude in Pergamaea seem to have driven her mad as well. Thank you for killing her, %PCName. She had become a great risk for my family.|SCVR:04JX2RoHT_Summoning|INTV:P
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Chirsaedo was a servant of Sheogorath. Unlike his other followers, she was remarkably sane. I called her a friend once. But all those centuries of solitude in Pergamaea seem to have driven her mad as well. Thank you for killing her, %PCName. She had become a great risk for our House.|SCVR:04JX2RoHT_Summoning|INTV:P
+
+[MOD-INF]: ID=2998225025654623201(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_1|NAME:Hello, stranger. Can I help? Were you looking for someone in particular? Or just Lady Zubadaiah Rethosa?
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_1|NAME:Hello, stranger. Can I help? Were you looking for someone in particular?
+
+[MOD-INF]: ID=3031032514142394505(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_BolsIndayn|NAME:Not another Hormador? Why, I don't want any today! Unh-unh, None for me. I'm on a diet. If you feed me those Hormadors then I'm sure I'll put on weight. What with the spiders and all. But I know of a fellow who might, although I'm not sure he actually exists, you see, it is all a matter of Daedroth and Daedra... which one is the right word? Erh? I say, you don't happen to have seen any elves? I heard they stole my Mistress's Kwama eggs! You see, she has all run out now. [This continues for several minutes]|BNAM:GoodBye  Journal, "RoHT_GothrenSuccessor", 20
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_BolsIndayn|NAME:Not another Hormador? Why, I don't want any today! Unh-unh, None for me, thanks. If you feed me those Hormadors then I'm sure I'll put on weight. What with the spiders and all. But I know of a fellow who might, although I'm not sure he still walks this plain. Whoa there, watch your feet. Don't step on any eggs. The last %PCRace who did isn't here to talk about it. They're in Cyrodiil of course. Now, why would you bring up eggs? [This continues for several minutes.]|BNAM:GoodBye  Journal, "RoHT_GothrenSuccessor", 20
+
+[MOD-INF]: ID=3043589712986532523(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|NAME:But... but... [%name stares unbelievingly at you. The Masque of Namira seems to be working well.]|SCVR:02sX0RoHT_PCWearingMasqueOfNamira|INTV|SCVR:17XX0RoHT_Damania_2|INTV|SCVR:27XX0RoHT_ilmeni dren_2|INTV|SCVR:37XX0RoHT_advisor|INTV|SCVR:47XX0divayth fyr|INTV|SCVR:57XX0RoHT_Uvoo|INTV|BNAM:; This Greeting only exists for immersion. It would be unbelievable if NPCs wouldn't react to seeing Duke Dren's ghost.  GoodBye
+  ROHT_2_0_8.ESP------------->|DATA|NAME:But... [%name stares unbelievingly at you. The Masque of Namira seems to be working well.]|SCVR:02sX0RoHT_PCWearingMasqueOfNamira|INTV|SCVR:17XX0RoHT_Damania_2|INTV|SCVR:27XX0RoHT_ilmeni dren_2|INTV|SCVR:37XX0RoHT_advisor|INTV|SCVR:47XX0divayth fyr|INTV|SCVR:57XX0RoHT_Uvoo|INTV|BNAM:; This Greeting only exists for immersion. It would be unbelievable if NPCs wouldn't react to seeing Duke Dren's ghost.  GoodBye
+
+[MOD-INF]: ID=3118393342300314357(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ANAM:Tel Aruhn, Tower Entry|NAME:Archmagister! I'm glad to see you. We have had a very disturbing incident at the upper tower recently. Please go and see Lady Zubadaiah. She will want to speak with you.|SCVR:04JX0RoHT_Summoning|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ANAM:Tel Aruhn, Tower Entry|NAME:Archmagister! I'm glad to see you. We have had a very disturbing incident at the upper tower recently. Please go and see Mistress Rethosa. She will want to speak with you.|SCVR:04JX0RoHT_Summoning|INTV
+
+[MOD-INF]: ID=3168624524517230747(Topic:only living descendant)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:So Azura, in her mercy, left me half scarred. I was to be Vivec's consort, and together we bore a child. Only the females of my bloodline bear the twinned face: it is a symbol of power and of a two fold nature, of manifesting Severity and Mercy at once. I was the mediator between Telvanni and Uvirith. And now, I am the woman who refuses to die fully or live fully; to remain in-between.|SCVR:01500|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:A descendant? You thought between ruling a House and exploring Daedric realms I had time to reproduce?
+
+[MOD-INF]: ID=3173916208279811012(Topic:skink-in-tree's-shade)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:He specializes in the remains of House Dagoth. Although we already have information on our old rivals, we believe the lizard has new knowledge of lost Dagoth soul-sorcery: the profane magicks with which they were once associated. I would appeal to House Telvanni's equal opportunities policy. You know ... well ... we don't have one. Try and persuade him all the same, Archmagister %PCName.|SCVR:04JX3RoHT_MagesGuild|INTV|SCVR:14JX5RoHT_MagesGuild|INTV: |SCVR:24JX4RoHT_MGRecruitSkink|INTV|BNAM:Journal, "RoHT_MGRecruitSkink", 1  AddTopic, "equal opportunities policy"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:He specializes in the study of House Dagoth. Although we already have information on them, we believe Skink has new knowledge of lost Dagoth soul-sorcery, the profane magicks they once practiced. Perhaps if you told him of our new tolerance policy towards Argonians and Khajiit. A policy that doesn't yet exist, mind you, but don't let him know that.|SCVR:04JX3RoHT_MagesGuild|INTV|SCVR:14JX5RoHT_MagesGuild|INTV: |SCVR:24JX4RoHT_MGRecruitSkink|INTV|BNAM:Journal, "RoHT_MGRecruitSkink", 1  AddTopic, "tolerance policy"
+
+[MOD-INF]: ID=3221824977116705874(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:I am she.
+  ROHT_2_0_8.ESP------------->|NAME:I am she.|DELE:
+
+[MOD-INF]: ID=3221824977116705874(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:I am she.
+  ROHT_2_0_8.ESP------------->|NAME:I am she.|DELE:
+[MOD-IID]: ID=2263121014175858917(Topic:delasa rethosa),ID=2667724676253259515(Topic:delasa rethosa)
+  ROHT_2_0_8.ESP------------->I am she.
+
+[MOD-INF]: ID=3222927453248922118(Topic:control it all)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:If you are willing, we could put a plan into action that Aryon and Zubadaiah have been forming at Damania's suggestion. It involves the Duke, his daughter, and you.|SCVR:04JX3RoHT_TheranasRevenge|INTV|SCVR:14JX5RoHT_TheranasRevenge|INTV|BNAM:; Check for Duke Dren's life from now on:  StartScript, "RoHT_VedamDrenDeadCounter_Scr"  Choice, "Continue", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:If you are willing, we could put a plan into action that Aryon and Delasa have been forming at Damania's suggestion. It involves the Duke, his daughter, and you.|SCVR:04JX3RoHT_TheranasRevenge|INTV|SCVR:14JX5RoHT_TheranasRevenge|INTV|BNAM:; Check for Duke Dren's life from now on:  StartScript, "RoHT_VedamDrenDeadCounter_Scr"  Choice, "Continue", 1
+
+[MOD-INF]: ID=3247521738480229590(Journal:roht_magesguild)
+  rise of house telvanni.esm->|DATA|NAME:I have initiated the fall of the Guild of Mages in Vvardenfell. With Trebonius' death, Tiram Gadar will be placed as Archmage. He will then sell each of the Guildhalls to House Telvanni. With these in our possession, we can officially force the mages out or absorb them into the House. Ocato may raise an eyebrow at the speed of the transaction, but with all the strife in the Imperial City, I doubt he will care too much.|QSTF
+  ROHT_2_0_8.ESP------------->|DATA|NAME:del|QSTF
+
+[MOD-INF]: ID=3520247591145830888(Topic:tel aruhn)
+  rise of house telvanni.esm->|DATA|CNAM:Scout|ANAM:Tel Mora|NAME:Tel Aruhn is the Telvanni tower of Mistress Zubadaiah, Telvanni Sorcereress-Lady and descendant of Lady Zafirbel herself. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+  ROHT_2_0_8.ESP------------->|DATA|CNAM:Scout|ANAM:Tel Mora|NAME:Tel Aruhn is the Telvanni tower of Mistress Rethosa, Telvanni Sorcereress-Lady. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+
+[MOD-INF]: ID=4344248321547629849(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Both have agreed? The mark of a true wizard is knowing that their loyalty lies only with their research. Good work, Archmagister. With the Archmage dead already, %PCName, our spy, Tiram Gadar, will take hold of the Guild. Yes, you have heard correctly. We have managed to extract Tiram Gadar from prison and clear his name. I won't bore you with the details, but expect some juicy bills from Suran in the next few days. What should he do?|SCVR:06DX2trebonius artorius|INTV:|SCVR:14JX0RoHT_MagesGuild|INTV: |SCVR:24JX0RoHT_MGRecruitEdwinna|INTV:d|SCVR:34JX0RoHT_MGRecruitSkink|INTV:d|SCVR:44JX0MG_SpyCatch|INTV:d|BNAM:Choice, "First, have him sell all the contracted Guildhalls to us, though make sure we cannot be traced. Then, order the finest Telvanni mercenaries to put the Guild out of business on Vvardenfell. Forever.", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Both have agreed? The mark of a true wizard is knowing that their loyalty lies only with their research. Good work, Archmagister. With the Archmage dead already, %PCName, our spy, Tiram Gadar, will take hold of the Guild. We have managed to extract him from prison and clear his name. I won't bore you with the details, but expect some juicy bills from Suran in the next few days. This matter is nearly taken care of, the only question left is whether we allow them to continue operation.|SCVR:06DX2trebonius artorius|INTV:|SCVR:14JX0RoHT_MagesGuild|INTV: |SCVR:24JX0RoHT_MGRecruitEdwinna|INTV:d|SCVR:34JX0RoHT_MGRecruitSkink|INTV:d|SCVR:44JX0MG_SpyCatch|INTV:d|BNAM:Choice, "They shall remain a puppet of the Telvanni.", 8, "Scorch the earth." 9
+
+[MOD-INF]: ID=4643310672280613148(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Well planned, Archmagister %PCName. I shall order the spy and now Archmage, Tiram Gadar, to sell the designated Guildhalls to House Telvanni, under a clause of the Armistice which enables an owner to sell to an opposing faction to appease another. Ocato is bound by the Armistice to obey Dunmer custom. We can simply say this is one of those. The Guild will burn, Archmagister. And nobody will talk of House Telvanni's role in this, either. I have made a copy of the letter that Ocato is to receive. Here.|SCVR:06DX2trebonius artorius|INTV:|SCVR:14JX3RoHT_MagesGuild|INTV: |SCVR:24JX5RoHT_MagesGuild|INTV|SCVR:31500|INTV|BNAM:; The following variable will cause activators in all Guild Halls to disable the Mages Guild members.  set RoHT_MGIsDestroyed to 1  Journal, "RoHT_MagesGuild", 100  "player"->AddItem, "RoHT_bk_Ocato_01", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:It shall be done. Tiram Gadar will sell the designated Guildhalls to House Telvanni, under a clause of the Armistice which enables an Imperial Guild to sell property to a House to avoid war. Even Ocato himself is bound by the Armistice. The Guild is powerless, Archmagister. And nobody will talk of House Telvanni's role in this, either. I have made a copy of the letter that Ocato is to receive.|SCVR:06DX2trebonius artorius|INTV:|SCVR:14JX3RoHT_MagesGuild|INTV: |SCVR:24JX5RoHT_MagesGuild|INTV|SCVR:31500|INTV|BNAM:Journal, "RoHT_MagesGuild", 100
+
+[MOD-INF]: ID=4947174181783032371(Journal:roht_magesguild)
+  rise of house telvanni.esm->|DATA|NAME:My advisor believes that House Telvanni will gain more power if the threat of the Guild of Mages is removed... permanently.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:My advisor believes that House Telvanni will gain more power if the Imperial Guild of Mages is dealt with.
+
+[MOD-INF]: ID=5456110061237016890(Topic:order of mages)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Zubadaiah has already contacted me. Since you summoned me, she and I seem to have discovered some kind of innate telepathic link between us. She's such a sweet child. Thank you for providing her safety, %PCName. I'd like to teach you some useful spells in return. Here, listen... [Zafirbel teaches you some new spells.]|SCVR:04JX0RoHT_Summoning|INTV:d|BNAM:"player"->AddSpell, "RoHT_ZafirbelsArmor"  "player"->AddSpell, "RoHT_ZafirbelsBalm"  "player"->AddSpell, "RoHT_ZafirbelsWrath"  Choice "Continue", 2
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:Thank you for finally ending their petty revenge plot. I should have taken them out when I had the chance. I'd like to teach you some useful spells in return. Here, listen... [Zafirbel teaches you some new spells.]|SCVR:04JX0RoHT_Summoning|INTV:d|BNAM:"player"->AddSpell, "RoHT_ZafirbelsArmor"  "player"->AddSpell, "RoHT_ZafirbelsBalm"  "player"->AddSpell, "RoHT_ZafirbelsWrath"  Choice "Continue", 2
+
+[MOD-INF]: ID=5936259441373932369(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_1|NAME:I see. I would, of course, love to be the Mistress of Tel Aruhn. I know from my mother and her hold of Tel Ouada how to manage a Tower. I shall leave for Gothren's old fortress immediately.|SCVR:04JX3RoHT_GothrenSuccessor|INTV|SCVR:11500|INTV|BNAM:Journal, "RoHT_GothrenSuccessor", 30  set RoHT_Zubadaiah_status to 1  GoodBye
+  ROHT_2_0_8.ESP------------->|NAME:I see. I would, of course, love to be the Mistress of Tel Aruhn. I know from my mother and her hold of Tel Ouada how to manage a Tower. I shall leave for Gothren's old fortress immediately.|DELE:
+
+[MOD-INF]: ID=6198234561335129329(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:The Guild of Mages is an Imperial blemish which only serves to hamper our research and disrupt the the stability of magic-use with their foolish rules and bureaucracy. They have been a potent threat ever since they arrived, but Gothren would not allow them to come to harm. Aryon and the other Councilors say different. Would you hear of my ideas to remove the Guild of Mages, Archmagister? I'll have to warn you, though: before you choose, finish any business with the Guild that you might have left.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |BNAM:Journal, "RoHT_MagesGuild", 1  Choice, "I don't feel it is necessary to remove the Guild. I believe them to be perfectly containable.", 2, "I have long wanted the Guild destroyed. What do you have to say, advisor?", 3, "Let me decide first.", 4
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:The Guild of Mages is an Imperial rival which only serves to hamper our research and disrupt the the stability of magic-use with their Imperial bureaucracy and oversight. They have been a threat since they arrived, but Gothren did not see the use in removing them. Aryon and the other Councilors think differently. There are two ways we could go about this, are you ready to begin, Archmagister?|SCVR:04JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |BNAM:Journal, "RoHT_MagesGuild", 1  Choice, "Let's hear it.", 3, "Let me decide first.", 4
+
+[MOD-INF]: ID=6226153192983314953(Journal:roht_uvootower)
+  rise of house telvanni.esm->|DATA|NAME:I returned to my advisor in Sadrith Mora to find out that the Tower had been completed and Master Uvoo is settling in nicely. My links with both Mistress Zubadaiah and Master Uvoo will have been strengthened through this.|QSTF
+  ROHT_2_0_8.ESP------------->|DATA|NAME:I returned to my advisor in Sadrith Mora to find out that the Tower had been completed and Master Uvoo is settling in nicely. My links with both Mistress Rethosa and Master Uvoo will have been strengthened through this.|QSTF
+
+[MOD-INF]: ID=6229160311425412090(Topic:order of mages)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:I sense that the order lies in its own blood, but I can also feel that my grandchild is troubled. Please go to her, and calm her down. Come back to me after that: I would like to give you something for your troubles.|SCVR:04JX0RoHT_Summoning|INTV:Z
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:I sense that the order lies in its own blood. Have you told the Mistress of Tel Aruhn she is now safe? I'm sure that would put her at ease. Come back to me after that, I would like to give you something for your troubles.|SCVR:04JX0RoHT_Summoning|INTV:Z
+
+[MOD-INF]: ID=6811153832371028920(Topic:tolerance policy)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:I'm sure the Argonian will respond to your sincerity and charm, Archmagister. Speak with airs and graces; I've heard the betmer like that.|SCVR:04JX0RoHT_MagesGuild|INTV: 
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:I'm sure the Argonian will respond to your sincerity and charm, Archmagister. Should you wish it so, we can address it more seriously later.|SCVR:04JX0RoHT_MagesGuild|INTV: 
+
+[MOD-INF]: ID=8064118881774121444(Topic:equal opportunities policy)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_skinkintreesshade3|NAME:Come on, admit it. That was just propaganda, wasn't it?|SCVR:04JX3RoHT_SkinkQuests|INTV:2
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:a shady smuggler|NAME:delet|SCVR:04JX3RoHT_SkinkQuests|INTV
+
+[MOD-INF]: ID=8637172133232917197(Topic:current focus)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Mistress Zubudaiah has contacted me regarding a disturbing incident.|SCVR:04JX3RoHT_MagesGuild|INTV:d|BNAM:AddTopic, "disturbing incident"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Mistress Rethosa has contacted me regarding a disturbing incident.|SCVR:04JX3RoHT_GothrenSuccessor|INTV|BNAM:AddTopic, "disturbing incident"
+
+[MOD-INF]: ID=8743284591669311482(Topic:pergamaea)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:When I was a child, my mother used to tell me about it. It is a Daedric Realm created by one of my ancestors, former Archmagistrix Zafirbel. It is accessible from within the cavern of Sud. Unfortunately, no one can enter it without knowing the password, and that has been lost in the course of centuries. To learn more about Pergamaea, we need to contact Zafirbel.|SCVR:04JX3RoHT_Summoning|INTV|BNAM:Journal, "RoHT_Summoning", 10  AddTopic, "Zafirbel"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:I've heard about this from my work in Tel Ouada. It is a Daedric Realm discovered by Archmagister Zafirbel, accessible from within the cavern of Sud. Unfortunately, no one can enter it without knowing the password, and that has been lost to time. Of course, we could try contacting Zafirbel.|SCVR:04JX3RoHT_Summoning|INTV|BNAM:Journal, "RoHT_Summoning", 10  AddTopic, "Zafirbel"
+
+[MOD-INF]: ID=8897288141445620878(Topic:imprudent activity)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:We have a highly placed spy in the East Empire Company that will soon be in a position to transfer the desirable aspects of the Company to House Telvanni while separating the Cyrodillic detritus. In other words: we can soon acquire the entire profits of the Company. But first, we need a distraction. My advice to you would be to remove Canctunian Ponius. You can find him in the Company offices at Ebonheart. With him gone, our spy can cause as much chaos as she chooses.|SCVR:06DX0Canctunian Ponius|INTV:|SCVR:14JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:24JX4RoHT_EastEmpireCompany|INTV:Z|BNAM:Choice, "Continue", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:We have a highly placed spy in the East Empire Company that will soon be in a position to transfer the desirable aspects of the Company to House Telvanni while separating the Cyrodillic detritus. In other words: we can soon acquire the entire profits of the Company. But first, we need a distraction. My advice to you would be to remove Canctunian Ponius. You can find him in the Company offices at Ebonheart. With him gone, our spy can cause as much chaos as she chooses.|SCVR:06DX0Canctunian Ponius|INTV:|SCVR:14JX0RoHT_MagesGuild|INTV:d|SCVR:24JX4RoHT_EastEmpireCompany|INTV:Z|BNAM:Choice, "Continue", 1
+
+[MOD-INF]: ID=9643182293238911906(Topic:tel aruhn)
+  rise of house telvanni.esm->|DATA|ANAM:Sadrith Mora|NAME:Tel Aruhn is the Telvanni tower of Mistress Zubadaiah, Telvanni Sorcereress-Lady and descendant of Lady Zafirbel herself. The associated settlement is a sizable village, and the site of Savile Imayn's house servant school.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|SCVR:22sX0RoHT_TelAruhn_Abolition|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+  ROHT_2_0_8.ESP------------->|DATA|ANAM:Sadrith Mora|NAME:Tel Aruhn is the Telvanni tower of Mistress Rethosa. The associated settlement is a sizable village, and the site of Savile Imayn's house servant school.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX0RoHT_Zubadaiah_status|INTV|SCVR:22sX0RoHT_TelAruhn_Abolition|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+
+[MOD-INF]: ID=9761100741004424829(Topic:skink-in-tree's-shade)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Yes, he is gone. Two weeks ago, he was seen on Tel Aruhn's streets muttering something about "equal opportunities policy," "nonsense," "treachery," and the like. That was the last anyone has heard or seen of him. Now he's gone. Vanished into thin air. Usually I wouldn't care for some reptile, but this one has knowledge that could be of use to House Telvanni. You should go and search for him. You could start by asking the guards in Tel Aruhn if they know anything.|SCVR:04JX3RoHT_SkinkQuests|INTV|SCVR:14JX4RoHT_SkinkQuests|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Yes, he is gone. Two weeks ago, he was seen on Tel Aruhn's streets muttering something about "tolerance policy," "nonsense," "treachery," and the like. That was the last anyone has heard or seen of him. Now he's gone. Vanished into thin air. Usually I wouldn't care for some reptile, but this one has knowledge that could be of use to House Telvanni. You should go and search for him. You could start by asking the guards in Tel Aruhn if they know anything.|SCVR:04JX3RoHT_SkinkQuests|INTV|SCVR:14JX4RoHT_SkinkQuests|INTV
+
+[MOD-INF]: ID=9993240501115214806(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Before we bring the meddlesome Guild to its knees, I believe they do have some interesting research projects. Two strike me in particular. Edwinna Elbert and her Dwemer fascination. She can be found in Ald-ruhn. And a Lizard, interested in the Sixth House. It's the Guild steward of Wolverine Hall, Skink-in-Tree's-Shade. See if you can persuade them to join House Telvanni who will, of course, provide generous funding for their projects.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 10  AddTopic, "Skink-in-Tree's-Shade"  AddTopic, "Edwinna Elbert"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Before we begin our operation, I believe they have some scholars we could poach from their ranks. Two strike me in particular. Edwinna Elbert in Ald-ruhn and her fascination with all things Dwemer, and Skink-in-Tree's-Shade here in Sadrith Mora researching the Sixth House. See if you can persuade them to join House Telvanni. We will, of course, provide generous funding for their projects.|SCVR:04JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 10  AddTopic, "Skink-in-Tree's-Shade"  AddTopic, "Edwinna Elbert"
+
+[MOD-INF]: ID=10224198641796023948(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|DNAM:Mages Guild|NAME:I understand and respect your decision, Archmagister. But some of the masters will see this as a sign of weakness.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 110
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|DNAM:Mages Guild|NAME:I understand and respect your decision, Archmagister. But some of the masters will see this as a sign of weakness.|SCVR:04JX0RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:14JX4RoHT_MagesGuild|INTV: |SCVR:21500|INTV|BNAM:Journal, "RoHT_MagesGuild", 110  ;removed this option -mort
+
+[MOD-INF]: ID=10330259433274016847(Journal:roht_initiation)
+  rise of house telvanni.esm->|DATA|NAME:I have met my personal advisor, Llovyn Salvu. He seems like a capable person who will assist me with words and deeds. There is lots of work to do that doesn't bear any delay.|QSTF
+  ROHT_2_0_8.ESP------------->|DATA|NAME:I have met my personal advisor, Llovyn Salvu.|QSTF
+
+[MOD-INF]: ID=11272142641404124234(Topic:current focus)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Mistress Zubadaiah contacted me personally in hopes that she could have your assistance.|SCVR:04JX0RoHT_Wards2UvirithsCube|INTV:d|SCVR:14JX0RoHT_MagesGuild|INTV:n|BNAM:AddTopic, "have your assistance"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Mistress Rethosa contacted me personally in hopes that she could have your assistance.|SCVR:04JX0RoHT_Wards2UvirithsCube|INTV:d|SCVR:14JX0RoHT_MagesGuild|INTV:n|BNAM:AddTopic, "have your assistance"
+
+[MOD-INF]: ID=11986220583089725992(Topic:disturbing incident)
+  rise of house telvanni.esm->|DATA|ANAM:Tel Aruhn, Upper Tower|NAME:See for yourself, Archmagister. Two dead assassins in here and two more just outside the door. Mistress Zubadaiah's Guardians made quick work of them, but two of our guards were less lucky. You should speak to Zubadaiah at once. This needs to be cleared up.|SCVR:04JX0RoHT_Summoning|INTV|SCVR:17XX0RoHT_Zubadaiah_2|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ANAM:Tel Aruhn, Upper Tower|NAME:See for yourself, Archmagister. Two dead assassins in here and two more just outside the door. Mistress Rethosa's Guardians made quick work of them, but two of our guards were less lucky. You should speak to Mistress Rethosa at once. This needs to be cleared up.|SCVR:04JX0RoHT_Summoning|INTV|SCVR:17XX0RoHT_Zubadaiah_2|INTV
+
+[MOD-INF]: ID=12625291172856419273(Topic:oghma infinium)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:It is a strange book. It was written by Xarses, a wizard so powerful that he has defied death for aeons now. Some say that it in fact is not a book, but part of Xarses himself. It is fastidious about its readers, and it only grants every reader a once in a lifetime opportunity to read a single chapter of its own choice. Very few have found it, and so it's all the more astounding how it comes into your possession now. It was actually found by Lady Zubadaiah Rethosa - for the second time.|SCVR:04JX0RoHT_FinalGratification|INTV:n|BNAM:Choice, "Continue", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:It is a strange book. It was written by Xarses, a wizard so powerful that he has defied death for aeons now. Some say that it in fact is not a book, but part of Xarses himself. It is fastidious about its readers, and it only grants every reader a once in a lifetime opportunity to read a single chapter of its own choice. Very few have found it, and so it's all the more astounding how it comes into your possession now.|SCVR:04JX0RoHT_FinalGratification|INTV:n|BNAM:Choice, "Continue", 1
+
+[MOD-INF]: ID=13068197061369728765(Topic:specific place)
+  rise of house telvanni.esm->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:22sX0RoHT_Zubadaiah_status|INTV|SCVR:32sX0RoHT_TelAruhn_Abolition|INTV
+  ROHT_2_0_8.ESP------------->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:22sX0RoHT_Zubadaiah_status|INTV|SCVR:32sX0RoHT_TelAruhn_Abolition|INTV
+
+[MOD-INF]: ID=17420129802447528564(Topic:delasa rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Zubadaiah is the stepdaughter of Mistress Rathra of Tel Ouada on the mainland. She is a skilled enchantress and Tel Aruhn's new mistress. She catches anyone's eye rather quickly as she has both Altmer and Dunmer skin. A unique beauty. Be careful that she doesn't twist the other Councilors around her finger.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Delasa is the stepdaughter of Mistress Rathra of Tel Ouada on the mainland. She is a skilled enchantress and Tel Aruhn's new mistress.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d
+
+[MOD-INF]: ID=17437268121952928898(Topic:tel aruhn)
+  rise of house telvanni.esm->|DATA|ONAM:artisa arelas|NAME:Tel Aruhn is the Telvanni tower of Mistress Zubadaiah, Telvanni Sorcereress-Lady and descendant of Lady Zafirbel herself. The associated settlement is a sizable village, and the site of Savile Imayn's house servant school.|SCVR:02sX0RoHT_Zubadaiah_status|INTV|SCVR:12sX0RoHT_TelAruhn_Abolition|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:artisa arelas|NAME:Tel Aruhn is the Telvanni tower of Mistress Rethosa. The associated settlement is a sizable village, and the site of Savile Imayn's house servant school.|SCVR:02sX0RoHT_Zubadaiah_status|INTV|SCVR:12sX0RoHT_TelAruhn_Abolition|INTV|BNAM:ShowMap "Tel Aruhn"  ;scout; savant;
+
+[MOD-INF]: ID=17780233461993719317(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ANAM:Tel Aruhn, Tower Living Quarters|NAME:Archmagister! I'm glad to see you. We have had a very disturbing incident at the upper tower recently. Please go and see Lady Zubadaiah. She will want to speak with you.|SCVR:04JX0RoHT_Summoning|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ANAM:Tel Aruhn, Tower Living Quarters|NAME:Archmagister! I'm glad to see you. We have had a very disturbing incident at the upper tower recently. Please go and see Mistress Rethosa. She will want to speak with you.|SCVR:04JX0RoHT_Summoning|INTV
+
+[MOD-INF]: ID=18185278721352022390(Topic:pergamaea)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Pergamaea is a small Outer Realm, between Boethiah's realm of Snake Mount and Azura's realm of Moonshadow. It was tamed by one of the founders of House Telvanni, Lady Zafirbel, and was used as a place of worship for the two Daedra who rule it, hence its bi-polar nature. The Aldmeri Mages there are all extremely powerful. Its entrance is located in the cavern of Sud. Don't approach that realm without some magickal protection, as the Daedra and the Mages will attack you on sight.|SCVR:04JX3RoHT_Summoning|INTV
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Pergamaea is a small Outer Realm, between Boethiah's realm of Snake Mount and Azura's realm of Moonshadow. It was first explored by Archmagister Zafirbel, and was used as a place of worship for the two Daedra who rule it, hence its bi-polar nature. The Aldmeri who remain there are extremely powerful mages. Its entrance is located in the cavern of Sud. Don't approach that realm without some magical protection, as the Daedra and mages will attack you on sight.|SCVR:04JX3RoHT_Summoning|INTV
+
+[MOD-INF]: ID=19183177891522821579(Topic:whole council)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Gothren|NAME:Now that you mention it, Therana was said to have been a certain Daedra's love hussy. I wonder which one could it have been? Well anyway, those Daedra don't like being spurned. And away she was with the spurning and the rejecting. Her punishment? What do you think it is, idiot? It's nothing to do with her age, although she is getting on a bit. Not like Aryon. Young fool. I'm sure he'll find his place soon enough. In the Slave Market. [chuckles].|SCVR:01500|INTV|BNAM:Choice, "Is that all?", 3
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Gothren|NAME:Now that you mention it, Therana was said to have been a certain Daedra's love hussy. I wonder which one could it have been? Well anyway, those Daedra don't like being spurned. And away she was with the spurning and the rejecting. Her punishment? What do you think it is, idiot? It's nothing to do with her age, although she is getting on a bit. Not like Aryon. Young fool. I'm sure he'll find his place soon enough. In the Slave Market. [chuckles].|SCVR:01500|INTV|BNAM:Choice, "Is that all?", 3  ;no, just no
+
+[MOD-INF]: ID=19417131823102014596(Topic:eliminate the guild)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Both have agreed? The mark of a true wizard is knowing that their loyalty lies only with their research. Good work, Archmagister. With the Archmage dead already, %PCName, our spy, Tiram Gadar, will take hold of the Guild. He has been infiltrating the guild for a long time, Archmagister %PCName. What should he do?|SCVR:06DX2trebonius artorius|INTV:|SCVR:14JX0RoHT_MagesGuild|INTV: |SCVR:24JX0RoHT_MGRecruitEdwinna|INTV:d|SCVR:34JX0RoHT_MGRecruitSkink|INTV:d|SCVR:44JX1MG_SpyCatch|INTV:d|BNAM:Choice, "First, have him sell all the contracted Guildhalls to us, though make sure we cannot be traced. Then, order the finest Telvanni mercenaries to put the Guild out of business on Vvardenfell. Forever.", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Both have agreed? The mark of a true wizard is knowing that their loyalty lies only with their research. Good work, Archmagister. With the Archmage dead already, %PCName, our spy, Tiram Gadar, will take hold of the Guild. He has been infiltrating the guild for a long time, Archmagister %PCName. This matter is nearly taken care of, the only question left is whether we allow them to continue operation.|SCVR:06DX2trebonius artorius|INTV:|SCVR:14JX0RoHT_MagesGuild|INTV: |SCVR:24JX0RoHT_MGRecruitEdwinna|INTV:d|SCVR:34JX0RoHT_MGRecruitSkink|INTV:d|SCVR:44JX1MG_SpyCatch|INTV:d|BNAM:Choice, "They shall remain a puppet of the Telvanni.", 8, "Scorch the earth." 9
+
+[MOD-INF]: ID=20023291331275616598(Topic:background)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:My mother is the Wizard-Lady of Tel Ouada, on the mainland. I always wanted to be a Wizard-Mistress, and I'm so glad you asked me to be the Councilor in Tel Aruhn. It's much better than Tel Ouada. No silly, noisy river to disturb me.
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:My mother is the Mistress of Tel Ouada, on the mainland. I always wanted to be a Magister, and I'm so glad you asked me to be the Councilor in Tel Aruhn. It's much better than Tel Ouada. No noisy river to disturb my studies.
+
+[MOD-INF]: ID=20940254361029931782(Journal:roht_coupdetat)
+  rise of house telvanni.esm->|DATA|NAME:My special envoy to the Grand Council in Ebonheart, Damania, has contacted my advisor. She has been trying to influence Duke Dren in our interest, but he won't listen to her. Together with Aryon and Zubadaiah, she seems to have worked out a plan to make him abdicate. I should talk to her in person.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:My special envoy to the Grand Council in Ebonheart, Damania, has contacted my advisor. She has been trying to influence Duke Dren in our interest, but he won't listen to her. Together with Aryon and Delasa, she seems to have worked out a plan to make him abdicate. I should talk to her in person.
+
+[MOD-INF]: ID=21160252661064911456(Journal:roht_summoning)
+  rise of house telvanni.esm->|DATA|NAME:I have conjured Zafirbel's spirit. Those mages who attacked Zubadaiah seem to be descendants of the mages she entrusted to take care of Pergamaea. She was furious about their attack on her grandchild and asked me to wipe out their whole order. The password to access Pergamaea is "Chirsaedo" which is the name of a Golden Saint who is also guarding Zafirbel's Star there.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:I have conjured Zafirbel's spirit. Those mages who attacked Delasa seem to be descendants of the mages she entrusted to take care of Pergamaea. She was furious about their attack on her grandchild and asked me to wipe out their whole order. The password to access Pergamaea is "Chirsaedo" which is the name of a Golden Saint who is also guarding Zafirbel's Star there.
+
+[MOD-INF]: ID=23002269312780711272(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_BolsIndayn|NAME:Eggs, eggs, everywhere eggs. AHH! [Screams at the sight of your face] Get away from me, egghead! How did you manage to find me?!? I thought I fastened you and your brethren to the floor in Tel Branora. Go away and tell Therana to leave me alone! I won't come back to her. Never!|SCVR:04JX4RoHT_GothrenSuccessor|INTV|BNAM:GoodBye
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_BolsIndayn|NAME:Eggs, eggs, everywhere eggs. Get away from me, egghead! How did you manage to find me? I thought I fastened you and your brethren to the floor in Tel Branora. Go away and tell Therana to leave me alone! I won't come back to her. Never!|SCVR:04JX4RoHT_GothrenSuccessor|INTV|BNAM:GoodBye
+
+[MOD-INF]: ID=24169324232985530410(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|DNAM:Telvanni|NAME:Who disturbs my sleep? Ah, it's Archmagister %PCName. What do you want?|SCVR:04JX0RoHT_Summoning|INTV:F|BNAM:Choice, "Tell her that Zubadaiah proposed to contact her.", 1, "Ask about Zafirbel's Star", 2
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|DNAM:Telvanni|NAME:Who disturbs my sleep? Ah, it's Archmagister %PCName. What do you want?|SCVR:04JX0RoHT_Summoning|INTV:F|BNAM:Choice, "[Tell her that Mistress Rethosa proposed to contact her.]", 1, "[Ask about Zafirbel's Star.]", 2
+
+[MOD-INF]: ID=24178270951760811664(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|DNAM:Telvanni|NAME:Greetings, Archmagister. I am your advisor, %Name. Would you like to hear the Council's current focus?|BNAM:AddTopic, "current focus"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|DNAM:Telvanni|NAME:Greetings, Archmagister. I am your advisor, %Name. Are you ready to discuss the Council's current focus?|BNAM:AddTopic, "current focus"
+
+[MOD-INF]: ID=24753163332518811291(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_1|NAME:I am she. How can I help?|SCVR:04JX4RoHT_GothrenSuccessor|INTV
+  ROHT_2_0_8.ESP------------->|NAME:I am she. How can I help?|DELE:
+
+[MOD-INF]: ID=24753163332518811291(:lady zubadaiah rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_1|NAME:I am she. How can I help?|SCVR:04JX4RoHT_GothrenSuccessor|INTV
+  ROHT_2_0_8.ESP------------->|NAME:I am she. How can I help?|DELE:
+[MOD-IID]: ID=276499084924412553(Topic:delasa rethosa)
+  ROHT_2_0_8.ESP------------->I am she. How can I help?
+
+[MOD-INF]: ID=25125190863134426049(Journal:roht_magesguild)
+  rise of house telvanni.esm->|DATA|NAME:I have decided to eliminate the Guild of Mages. Their interference with House Telvanni's interest has to stop. First, however, my advisor suggests I absorb two of their best researchers into the body of House Telvanni: Edwinna Elbert from Ald'ruhn and Skink-In-Tree's-Shade from Sadrith Mora.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:I have reduce the influence of the Guild of Mages. First, however, my advisor suggests I absorb two of their best researchers into the body of House Telvanni: Edwinna Elbert from Ald'ruhn and Skink-In-Tree's-Shade from Sadrith Mora.
+
+[MOD-INF]: ID=25247280221738315181(Topic:current focus)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:I hear discontent about the Guild of Mages, and it is growing. The Councilors had to watch Gothren do nothing about the Guild's threatening behavior. If you want to make a statement about House Telvanni's impregnability, I suggest you eliminate the Guild.|SCVR:04JX0RoHT_GothrenSuccessor|INTV:d|BNAM:AddTopic, "eliminate the Guild"
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:I hear discontent about the Guild of Mages, and it is growing. The Councilors had to watch Gothren do nothing about the Guild's threatening behavior. If you want to make a statement about House Telvanni's impregnability, I suggest you eliminate the Guild.|SCVR:04JX0RoHT_GothrenSuccessor|INTV|BNAM:AddTopic, "eliminate the Guild"  ;delete, moved in order -mort
+
+[MOD-INF]: ID=25387197282526728868(Journal:roht_summoning)
+  rise of house telvanni.esm->|DATA|NAME:When I awoke, I found a letter from Zubadaiah. She had to leave for Tel Aruhn. Anyway, the Summoning Chamber is active once again. I should speak with my advisor.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:When I awoke, I found a letter from Delasa. She had to leave for Tel Aruhn. Anyway, the Summoning Chamber is active once again. I should speak with my advisor.
+
+[MOD-INF]: ID=25422208182717025994(Topic:current focus)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:I am glad that you could help Zubadaiah with her problem. But where is Zafirbel's Star? You are a young Archmagister, so you need every symbol of power you can get your hands on. I suggest that you go back to Pergamaea and look for it. Zafirbel said that she left it with that Golden Saint: it has to be there.|SCVR:04JX0RoHT_Summoning|INTV:n|SCVR:14JX4RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:25IX0RoHT_Star_Zafirbel|INTV:
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:I am glad that you could help Mistress Rethosa with her problem. But where is Zafirbel's Star? You are a young Archmagister, so you need every symbol of power you can get your hands on. I suggest that you go back to Pergamaea and look for it. Zafirbel said that she left it with that Golden Saint: it has to be there.|SCVR:04JX0RoHT_Summoning|INTV:n|SCVR:14JX4RoHT_Wards1ZafirbelsStar|INTV:d|SCVR:25IX0RoHT_Star_Zafirbel|INTV:
+
+[MOD-INF]: ID=25617168201261526097(Topic:delasa rethosa)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:Zubadaiah is the stepdaughter of Mistress Rathra of Tel Ouada on the mainland. She is a skilled enchantress and likely to be found at Tel Mora. Rumor has it that she has secretly managed Tel Ouada for a couple of years so that Rathra could indulge in her studies. You will recognize her as she has both Altmer and Dunmer skin. A unique beauty.|SCVR:04JX4RoHT_GothrenSuccessor|INTV:d
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:Delasa is the stepdaughter of Mistress Rathra of Tel Ouada on the mainland. She is a skilled enchantress and likely to be found at Tel Mora. Rumor has it that she has secretly managed Tel Ouada for a couple of years so that Rathra could indulge in her studies.|SCVR:04JX4RoHT_GothrenSuccessor|INTV:d
+
+[MOD-INF]: ID=25877237662252431460(:following items)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:You have already brought me those items, %PCName.|SCVR:04JX0RoHT_MGRecruitSkink|INTV
+  ROHT_2_0_8.ESP------------->|NAME:You have already brought me those items, %PCName.|DELE:
+
+[MOD-INF]: ID=25883195711280326196(Topic:current focus)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_advisor|NAME:You should resolve the situation in Pergamaea before we attend to other matters.|SCVR:04JX2RoHT_Summoning|INTV:F|SCVR:14JX4RoHT_Summoning|INTV:n
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_advisor|NAME:You should resolve the situation regarding Pergamaea before we attend to other matters.|SCVR:04JX3RoHT_Summoning|INTV:<|SCVR:14JX4RoHT_Summoning|INTV:n
+
+[MOD-INF]: ID=26933169582738429437(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|ONAM:skinkintreesshade|NAME:What does the Archmagister of House Telvanni want from me?|SCVR:04JX0RoHT_MGRecruitSkink|INTV|BNAM:Choice, "Let me tell you about House Telvanni's new equal opportunities policy.", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:skinkintreesshade|NAME:What does the Archmagister of House Telvanni want from me?|SCVR:04JX0RoHT_MGRecruitSkink|INTV|BNAM:Choice, "Let me tell you about House Telvanni's new tolerance policy.", 1
+
+[MOD-INF]: ID=27884104791220018833(Topic:chirsaedo)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:I once knew her. Why do you ask?|SCVR:04JX3RoHT_Summoning|INTV|BNAM:; This entry is only needed to make this topic be hyperlinked properly for the first time.
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:I once knew her. Why do you ask?|SCVR:04JX3RoHT_Summoning|INTV|BNAM:; This entry is only needed to make this topic be hyperlinked properly for the first time.
+
+[MOD-INF]: ID=28272150502147531079(Topic:only living descendant)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:You must have noticed the similarity between young Zubadaiah and myself? I was born Chimer. Gold-skinned, gold-eyed. The curse of Azura changed me, too, but because I had such a bond with the Lady of the Twilight, I begged that I might not be changed completely so as to show the Dunmer that there is still hope. We lacked hope then.|BNAM:Choice, "Continue", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:delete|BNAM:Choice, "Continue", 1
+
+[MOD-INF]: ID=28820182792077623399(Topic:order of mages)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:They did WHAT? They attacked my grandchild?! And they called her "goddess?" Oh, curse Chirsaedo! All those years spent in perfect harmony have clearly driven them mad. I can't go and deal with this personally, but could you go to Pergamaea for me? I want them killed, so they don't pose a threat anymore.|SCVR:04JX0RoHT_Summoning|INTV:F|BNAM:Choice, "I will do it. I won't tolerate assaults on my Telvanni masters as well.", 1
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_sum_Zafirbel|NAME:So they finally grew bold enough to escape their cell. I thought keeping the two sides at peace would sate them for at least a few more centuries. All those years spent in perfect harmony have clearly driven them mad. I can't go and deal with this personally, but could you go to Pergamaea for me? I want them killed, so they don't pose a threat anymore.|SCVR:04JX0RoHT_Summoning|INTV:F|BNAM:Choice, "I will do it. I won't tolerate assaults on my Telvanni masters as well.", 1
+
+[MOD-INF]: ID=28958312641545718317(Journal:roht_coupdetat)
+  rise of house telvanni.esm->|DATA|NAME:I can hardly believe it. I have found a framework contract (!) hidden in one of Therana's books. How many deaths has this woman ordered that she needed a framework contract? I should take this to my advisor.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:I can hardly believe it. I have found a framework contract hidden in one of Therana's books. How many deaths has this woman ordered that she needed a framework contract? I should take this to my advisor.
+
+[MOD-INF]: ID=29320104712037431847(Journal:roht_summoning)
+  rise of house telvanni.esm->|DATA|NAME:Zubadaiah told me that her attackers mistook her for their goddess and shouted something about a place named Pergamaea.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:Delasa told me that her attackers mistook her for their goddess and shouted something about a place named Pergamaea.
+
+[MOD-INF]: ID=29711290871757027218(Journal:roht_summoning)
+  rise of house telvanni.esm->|DATA|NAME:According to her family's history, Pergamaea is a place discovered by one of her ancestors, former Archmagistrix Zafirbel. Unfortunately, Zubadaiah doesn't know how to enter Pergamaea. There is a portal from the cavern of Sud on Dagon Fel, but it won't allow anyone to pass through. In order to find out more, we'll have to reactivate the unused Summoning Chamber in my Sadrith Mora quarters and summon Zafirbel's spirit.
+  ROHT_2_0_8.ESP------------->|DATA|NAME:Pergamaea is a place discovered by a former Archmagister named Zafirbel. There is a portal from the cavern of Sud on Dagon Fel, but it won't allow anyone to pass through. In order to find out more, we'll have to reactivate the unused Summoning Chamber in my Sadrith Mora quarters and summon Zafirbel's spirit.
+
+[MOD-INF]: ID=30112254332631321498(Topic:zafirbel)
+  rise of house telvanni.esm->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:It is so good to be able to speak with my ancestor. I enjoy hearing about her adventures as a young Sorceror.|SCVR:04JX3RoHT_Summoning|INTV:P
+  ROHT_2_0_8.ESP------------->|DATA|ONAM:RoHT_Zubadaiah_2|NAME:It is so good to speak to a Telvanni Archmagister who isn't afraid of being murdered. Besides you of course.|SCVR:04JX3RoHT_Summoning|INTV:P
+
+[MOD-INF]: ID=30742116452529331338(Greeting:greeting 1)
+  rise of house telvanni.esm->|DATA|HT_U:|NAME:Indeed. My mentor Zubadaiah and I have been discussing your brave deeds for her family, and ...|SCVR:04JX0RoHT_UvooQuest|INTV|SCVR:11500|INTV|BNAM:Choice, "Quit sugaring me, and get to the point. I'm sweet enough already. Someone who calls himself 'Master' should know how to behave in front of his Archmagister.", 2
+  ROHT_2_0_8.ESP------------->|DATA|HT_U:|NAME:Indeed. My mentor Rethasa and I have been discussing your brave deeds for her family, and ...|SCVR:04JX0RoHT_UvooQuest|INTV|SCVR:11500|INTV|BNAM:Choice, "Quit sugaring me, and get to the point. I'm sweet enough already. Someone who calls himself 'Master' should know how to behave in front of his Archmagister.", 2
+
+[MOD-INF]: ID=32082279182642030806(:following items)
+  rise of house telvanni.esm->|DATA|ONAM:edwinna elbert|NAME:Hmm... first I need at least 10,000 septims as a grant. And... a Dwemer Coherer. You can find them in most Dwemer ruins. Only then will I consider your proposal.|SCVR:04JX0RoHT_MGRecruitEdwinna|INTV|BNAM:Journal, "RoHT_MGRecruitEdwinna", 10
+  ROHT_2_0_8.ESP------------->|NAME:Hmm... first I need at least 10,000 septims as a grant. And... a Dwemer Coherer. You can find them in most Dwemer ruins. Only then will I consider your proposal.|DELE:

@@ -1,0 +1,10 @@
+Private Stash.esp: EXP-DEP MENUMOD MISSVER NUMRECS
+    [NUMRECS]: number of records in TES3.HEDR (98) != Actual count (26)
+    [EXP-DEP] Expansion Dependency: Startup Script: private_stash_start_script
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(private_stash_key_script)       getscale
+	SCPT(private_stash_key_script)       setscale
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(private_stash_container_script)
+	SCPT(private_stash_script)
+	SCPT(private_stash_start_script)

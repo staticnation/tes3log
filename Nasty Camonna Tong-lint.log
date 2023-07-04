@@ -1,0 +1,43 @@
+Nasty Camonna Tong.esp: DUP-INF DUP-REC MISSVER MOD-INF MOD-IID NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (199) != Actual count (127)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    council club
+	morrowind.esm       DIAL    fort moonmoth
+	morrowind.esm       DIAL    south wall
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    someone in particular
+
+[MOD-INF]: ID=87892486730416324(Topic:south wall)
+  morrowind.esm---------->|DATA|NAME:I never go there. It's a dirty place, visited only by thieves and swindlers.
+  Nasty Camonna Tong.esp->|DATA|FNAM:Camonna Tong|ANAM:Balmora|NAME:That flea infested rat-hole? You just stay away from there, if you know what's good for you.
+
+[MOD-INF]: ID=170598881205997120(Greeting:greeting 7)
+  morrowind.esm---------->|DATA|CNAM:Buoyant Armiger|NAME:Greetings, %PCName. The Archcanon has announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. We have orders to provide maps and intelligence on conditions inside the Ghostfence. Tell me if you want someone in particular, services, or a specific place. I can help you if you are on pilgrimage here. Shall I tell you about my trade?|SCVR:04JX3B8_MeetVivec|INTV:2|SCVR:14JX4C3_DestroyDagoth|INTV:2|BNAM:;buoyant armigers; ghostfence; Journal B8_MeetVivec >= 50; disp 30
+  Nasty Camonna Tong.esp->|DATA|FNAM:Camonna Tong|NAME:Beat it, scalebrain. Or there'll be trouble.|SCVR:02sX0PCRace|INTV|BNAM:;buoyant armigers; ghostfence; Journal B8_MeetVivec >= 50; disp 30
+
+[DUP-INF]: ID=1425616576295610166(Greeting:greeting 7)
+  |DATA|ONAM:benunius agrudilius|NAME:Good day. I'm Benunius Agrudilius, publican of the Lucky Lockup here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Benunius Agrudilius
+
+[MOD-INF]: ID=6803319322889519433(Greeting:greeting 7)
+  morrowind.esm---------->|DATA|ONAM:banor seran|NAME:Good day. I'm Banor Seran, publican of the Council Club here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Banor Seran
+  Nasty Camonna Tong.esp->|DATA|ONAM:banor seran|NAME:Banor Seran, at your service. This is a fine Dunmer place, for fine Dunmer people. Just keep it civil, we'll get along fine. Need beds for the night? Drink? I suppose we can work something out.|BNAM:;Banor Seran
+
+[MOD-INF]: ID=18080262001999711619(Voice:hello)
+  morrowind.esm---------->|DATA|ONAM:mastrius
+  Nasty Camonna Tong.esp->|DATA|RNAM:Dark Elf|FNAM:Camonna Tong|SNAM
+
+[MOD-INF]: ID=18080262001999711619(Voice:hello)
+  morrowind.esm---------->|DATA|ONAM:mastrius
+  Nasty Camonna Tong.esp->|DATA|RNAM:Dark Elf|FNAM:Camonna Tong|SNAM
+[MOD-IID]: IDs=30866225301080410639,680368831405012287
+  Nasty Camonna Tong.esp->
+
+[MOD-INF]: ID=22726317182703524416(Topic:camonna tong)
+  morrowind.esm---------->|DATA|ONAM:caius cosades|NAME:The Camonna Tong is Morrowind's native criminal syndicate. They're tough and ruthless, and have connections in the higher ranks of House Hlaalu. The Camonna Tong compete directly with the Thieves Guild for control of illegal trade, and Camonna Tong will not tolerate competition. Compared with the Camonna Tong, the Thieves Guild is relatively decent and honorable -- certainly less brutal. They don't accept outlanders as members. Forget about it.|SCVR:04JX3A1_1_FindSpymaster|INTV
+  Nasty Camonna Tong.esp->|DATA|FNAM:Camonna Tong|ANAM:Balmora|NAME:We're just natives, trying to get along. It isn't easy, with all the ignorant foreigners sticking their noses where they don't belong. Can I make it any clearer, outlander?
+
+[DUP-INF]: ID=30866225301080410639(Voice:hello)
+  |DATA|ONAM:Irarak

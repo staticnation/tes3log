@@ -1,0 +1,27 @@
+TGD03_TheLizardsHead.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(tgd03_BROctavo)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       NPC_    maesa gabinia
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+
+[MOD-INF]: ID=18011117566754553(Greeting:greeting 7)
+  morrowind.esm------------>|DATA|ONAM:manara othan|NAME:Good day. I'm Manara Othan, publican of The Lizard's Head here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Manara Othan
+  TGD03_TheLizardsHead.esp->|DATA|ONAM:manara othan|NAME:What? Speak quickly or go away.|SCVR:02sX2Random100|INTV:(|BNAM:PlaySound "tgd03_DFSpeakQuickly"
+
+[MOD-INF]: ID=1942430040302163712(Topic:go free)
+  morrowind.esm------------>|DATA|ONAM:eleedal_lei|NAME:If you want to set us free, look for the key to our bracers somewhere here in the egg mine or in Tel Branora.
+  TGD03_TheLizardsHead.esp->|DATA|ONAM:teegla|NAME:I don't wish to speak of that.|BNAM:ClearInfoActor

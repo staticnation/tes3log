@@ -1,0 +1,33 @@
+FG Nchurdamz Dark Deal.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    daedroth_fg_nchur
+	morrowind.esm       DIAL    nchurdamz
+	morrowind.esm       NPC_    larienna macrina
+	tribunal.esm        DIAL    fg_nchurdamz
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=2090302034490291(Topic:nchurdamz)
+  |DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:There's no more to say about this.|SCVR:04JX0FG_Nchurdamz|INTV:n
+
+[DUP-INF]: ID=29024290244592357(Topic:nchurdamz)
+  |DATA|ONAM:hrundi|NAME:You've been expelled from the Fighters Guild. Until you make amends name, I can't talk to you about this contract.|SCVR:01390|INTV
+
+[MOD-INF]: ID=199099318806422438(Journal:fg_nchurdamz)
+  tribunal.esm--------------->|DATA|NAME:Hrundi was furious that Larienna was dead. I will have to be more careful to earn his trust.|QSTF
+  FG Nchurdamz Dark Deal.ESP->|DATA|NAME:Hrundi was furious that Larienna was dead. I will have to be more careful to earn his trust.
+
+[DUP-INF]: ID=1465018717165559795(Journal:fg_nchurdamz)
+  |DATA|NAME:I declined to help Larienna on her crusade. Perhaps I'll reconsider.
+
+[DUP-INF]: ID=2734131280317383911(Journal:fg_nchurdamz)
+  |DATA|NAME:I agreed to help Larienna explore the ruins of Nchurdamz. She seeks a "great beast" deep within the ruins.
+
+[DUP-INF]: ID=6191207462704317148(Journal:fg_nchurdamz)
+  |DATA|NAME:Larienna fought boldly, but alas, she fell in battle. I should inform Hrundi.
+
+[DUP-INF]: ID=8986322072346728330(Journal:fg_nchurdamz)
+  |DATA|NAME:The Daedroth Hrelvesuu is slain. I should report back to Hrundi.
+
+[DUP-INF]: ID=21101133601380211667(Greeting:greeting 5)
+  |DATA|ONAM:general darius|NAME:Report on the land deed.|SCVR:04JX2IL_WidowLand|INTV:|SCVR:14JX4IL_WidowLand|INTV:d

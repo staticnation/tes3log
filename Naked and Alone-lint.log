@@ -1,0 +1,62 @@
+Naked and Alone.esp: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    popular scrolls
+	morrowind.esm       DIAL    transport spells
+	morrowind.esm       PGRD    gnisis, temple
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+
+[MOD-INF]: ID=19092221378783177(Topic:transport spells)
+  morrowind.esm------->|DATA|ONAM:ygfa|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Naked and Alone.esp->|DATA|ONAM:ygfa|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention. Recall is unique in transporting the caster with their belongings intact. Both divine and Almsivi intervention transport the caster to safety at the expense of leaving their earthly belongings behind.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=141069937166524149(Topic:transport spells)
+  morrowind.esm------->|DATA|ONAM:strillian macro|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Naked and Alone.esp->|DATA|ONAM:strillian macro|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention. Recall is unique in transporting the caster with their belongings intact. Both divine and Almsivi intervention transport the caster to safety at the expense of leaving their earthly belongings behind.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=151721995257886024(Topic:little advice)
+  tribunal.esm-------->|DATA|RNAM:Dark Elf|NAME:I've never seen a successful adventurer who didn't carry a couple of Almsivi Intervention scrolls with him on long expeditions. Two reasons. Emergency exit. And it lets you move a LOT more loot than you can carry on foot. And faster goes without saying.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+  Naked and Alone.esp->|DATA|RNAM:Dark Elf|NAME:I've never seen a successful adventurer who didn't carry a couple of Almsivi Intervention scrolls with him on long expeditions. You never know when you'll need an emergency exit. Just keep in mind that you're the ONLY thing being saved. You'll have to go back for your belongings.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=242672632452579098(Greeting:greeting 2)
+  morrowind.esm------->|DATA|NAME:Cover yourself! Are you mad? Have you no decency?|SCVR:01425|INTV:|SCVR:1ARX0Khajiit|INTV|SCVR:2ARX0Argonian|INTV|SCVR:37XX0crassius curio|INTV:|SCVR:4CsX0nolore|INTV:
+  Naked and Alone.esp->|DATA|NAME:Cover yourself! Are you mad? Have you no decency?|SCVR:01425|INTV:|SCVR:1ARX0Khajiit|INTV|SCVR:2ARX0Argonian|INTV|SCVR:37XX0crassius curio|INTV:|SCVR:4CsX0NoLore|INTV:
+
+[DUP-INF]: ID=263042661832839078(Greeting:greeting 2)
+  |DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+
+[MOD-INF]: ID=862425980289372497(Topic:transport spells)
+  morrowind.esm------->|DATA|ONAM:melvure rindu|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Naked and Alone.esp->|DATA|ONAM:melvure rindu|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention. Recall is unique in transporting the caster with their belongings intact. Both divine and Almsivi intervention transport the caster to safety at the expense of leaving their earthly belongings behind.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1830425214167636072(Topic:little advice)
+  tribunal.esm-------->|DATA|NAME:I've never seen a successful adventurer who didn't carry a couple of Divine Intervention scrolls with him on long expeditions. Two reasons. Emergency exit. And it lets you move a LOT more loot than you can carry on foot. And faster goes without saying.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+  Naked and Alone.esp->|DATA|NAME:I've never seen a successful adventurer who didn't carry a couple of Divine Intervention scrolls with him on long expeditions. You never know when you'll need an emergency exit. Just keep in mind that you're the ONLY thing being saved. You'll have to go back for your belongings.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=1900712879312329865(Topic:transport spells)
+  morrowind.esm------->|DATA|ONAM:smokey morth|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Naked and Alone.esp->|DATA|ONAM:smokey morth|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention. Recall is unique in transporting the caster with their belongings intact. Both divine and Almsivi intervention transport the caster to safety at the expense of leaving their earthly belongings behind.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2257238681580318844(Topic:transport spells)
+  morrowind.esm------->|DATA|ONAM:eraamion|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Naked and Alone.esp->|DATA|ONAM:eraamion|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention. Recall is unique in transporting the caster with their belongings intact. Both divine and Almsivi intervention transport the caster to safety at the expense of leaving their earthly belongings behind.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=10689201702225514679(Topic:transport spells)
+  morrowind.esm------->|DATA|ONAM:artisa arelas|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Naked and Alone.esp->|DATA|ONAM:artisa arelas|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention. Recall is unique in transporting the caster with their belongings intact. Both divine and Almsivi intervention transport the caster to safety at the expense of leaving their earthly belongings behind.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[DUP-INF]: ID=11657146863060720256(Greeting:greeting 2)
+  |DATA|RNAM:Dark Elf|NAME:No! A vampire! Get away, you foul creature!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+
+[MOD-INF]: ID=16746157653118729443(Topic:popular scrolls)
+  morrowind.esm------->|DATA|ONAM:arrille|NAME:Vigor and Vitality are our best-selling bargain items, restoring fatigue and health, respectively. Almsivi Intervention and Divine Intervention transport you instantly to the nearest Temple or nearest Imperial shrine -- good for routine or emergency transportation. Heartwise helps with persuasion. Summon Skeletal Minion brings help in a jiffy. And Drathis' Winter Guest does a lot of damage at a touch -- handy to whittle a too-tough opponent down to size.
+  Naked and Alone.esp->|DATA|ONAM:arrille|NAME:Vigor and Vitality are our best-selling bargain items, restoring fatigue and health, respectively. Almsivi Intervention and Divine Intervention transport you instantly to the nearest Temple or nearest Imperial shrine -- good for emergency transportation. Just keep in mind they only transport YOU. Not your belongings. Heartwise helps with persuasion. Summon Skeletal Minion brings help in a jiffy. And Drathis' Winter Guest does a lot of damage at a touch -- handy to whittle a too-tough opponent down to size.
+
+[MOD-INF]: ID=23119152142393726326(Topic:transport spells)
+  morrowind.esm------->|DATA|ONAM:estirdalin|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Naked and Alone.esp->|DATA|ONAM:estirdalin|NAME:Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention. Recall is unique in transporting the caster with their belongings intact. Both divine and Almsivi intervention transport the caster to safety at the expense of leaving their earthly belongings behind.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;

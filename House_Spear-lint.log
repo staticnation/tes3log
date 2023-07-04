@@ -1,0 +1,69 @@
+House_Spear.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ColonyHidar)
+	SCPT(HOS_CharmedScript)
+	SCPT(HOS_Daedra-trapScript)
+	SCPT(HOS_DeathLordScript)
+	SCPT(HOS_DraugrMinionScript01)
+	SCPT(HOS_DraugrMinionScript02)
+	SCPT(HOS_DraugrMinionScript03)
+	SCPT(HOS_ExitBlocker)
+	SCPT(HOS_QuestCompleteDisable)
+	SCPT(HOS_RubyStart)
+	SCPT(HOS_SpellTrapScript)
+	SCPT(HOS_ballistaPortScript)
+	SCPT(HOS_brokenLadder)
+	SCPT(HOS_onehspear)
+	SCPT(HOS_skelescript)
+	SCPT(HOS_wordwallscript)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    stalhrim weapons
+	bloodmoon.esm       LEVI    bm_random_nordhuntweap
+	bloodmoon.esm       LEVI    bm_random_nordsilver
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       DIAL    spears
+	morrowind.esm       LAND    (6, -6)
+	morrowind.esm       LEVI    l_m_wpn_melee_spear
+	morrowind.esm       LEVI    l_n_wpn_melee
+	morrowind.esm       LEVI    l_n_wpn_melee_spear
+	morrowind.esm       LEVI    l_n_wpn_missle_thrown
+	morrowind.esm       LEVI    random ashlander weapon
+	morrowind.esm       LEVI    random excellent melee weapon
+	morrowind.esm       LEVI    random_daedric_weapon
+	morrowind.esm       LEVI    random_dwemer_weapon
+	morrowind.esm       LEVI    random_glass_weapon
+	morrowind.esm       LEVI    random_golden_saint_weapon
+	morrowind.esm       LEVI    random_silver_weapon
+	morrowind.esm       LEVI    random_steel_weapon
+	morrowind.esm       LEVI    random_weapon_melee_basic
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        LEVI    goblin_weapons_random
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    rm_grayrock
+
+[DUP-INF]: ID=867346612130211168(Topic:spears)
+  |DATA|ONAM:garothmuk gro-muzgub|NAME:Two styles of spear are popular here, both used two-handed for thrusting attacks: the spear and the halberd, with the halberd the most effective. Spear weapons have the longest reach of any weapon -- except, of course, marksman weapons.|BNAM:;smith; warrior; crusader; knight; master-at-arms; drillmaster;
+
+[MOD-INF]: ID=900847722160227203(Topic:stalhrim weapons)
+  bloodmoon.esm--->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Nevermind" 5
+  House_Spear.esp->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Stalhrim One-Handed Spear" 6 "Nevermind" 5
+
+[MOD-INF]: ID=1052431962138491563(Topic:stalhrim weapons)
+  bloodmoon.esm--->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Nevermind" 6
+  House_Spear.esp->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5  "Stalhrim One-Handed  Spear" 7 "Nevermind" 6
+
+[DUP-INF]: ID=2449116841939919031(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:You don't have enough raw Stalhrim for me to forge you a War Axe.|SCVR:01500|INTV|SCVR:15IX4ingred_raw_Stalhrim_01|INTV
+
+[DUP-INF]: ID=2591629491315104787(Topic:stalhrim weapons)
+  |DATA|ONAM:Carnius Magius|NAME:Very well. Here you go.|SCVR:01500|INTV|BNAM:player->additem "BM ice war axe" 1   set "Carnius Magius".Stalhrimgiven to ( "Carnius Magius".Stalhrimgiven - 2 )

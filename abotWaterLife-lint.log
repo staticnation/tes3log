@@ -1,0 +1,407 @@
+abotWaterLife.esm: DUP-REC EXP-DEP GETSND MENUMOD MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Startup Script: ab01wlgonloadscript
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(ab01sextantScript)              getsquareroot
+	SCPT(ab01sextantScript)              getwaterlevel
+	SCPT(ab01wlBottleFloatScript)        setdelete
+	SCPT(ab01wlBubblesSmallScript)       setdelete
+	SCPT(ab01wlBubblesSmallScript)       setscale
+	SCPT(ab01wlFishingRodScript)         getweapondrawn
+	SCPT(ab01wlNOMwaterActScript)        setdelete
+	SCPT(ab01wlSonarScript)              getwaterlevel
+	SCPT(ab01wlSonarScript)              setdelete
+	SCPT(ab01wlSonarScript)              setscale
+	SCPT(ab01wlcrAlgaScript)             getscale
+	SCPT(ab01wlcrAlgaScript)             getwaterlevel
+	SCPT(ab01wlcrAlgaScript)             placeitem
+	SCPT(ab01wlcrAlgaScript)             setdelete
+	SCPT(ab01wlcrAlgaScript)             setscale
+	SCPT(ab01wlcrBubblesScript)          getscale
+	SCPT(ab01wlcrBubblesScript)          setdelete
+	SCPT(ab01wlcrBubblesScript)          setscale
+	SCPT(ab01wlcrChestMappedScript)      getscale
+	SCPT(ab01wlcrChestMappedScript)      getwaterlevel
+	SCPT(ab01wlcrChestMappedScript)      placeitem
+	SCPT(ab01wlcrChestMappedScript)      setdelete
+	SCPT(ab01wlcrChestMappedScript)      setscale
+	SCPT(ab01wlcrChestScript)            getscale
+	SCPT(ab01wlcrChestScript)            setdelete
+	SCPT(ab01wlcrChestScript)            setscale
+	SCPT(ab01wlcrChitonScript)           getscale
+	SCPT(ab01wlcrChitonScript)           getwaterlevel
+	SCPT(ab01wlcrChitonScript)           placeitem
+	SCPT(ab01wlcrChitonScript)           setdelete
+	SCPT(ab01wlcrChitonScript)           setscale
+	SCPT(ab01wlcrContainer2Script)       getscale
+	SCPT(ab01wlcrContainer2Script)       getwaterlevel
+	SCPT(ab01wlcrContainer2Script)       placeitem
+	SCPT(ab01wlcrContainer2Script)       setdelete
+	SCPT(ab01wlcrContainer2Script)       setscale
+	SCPT(ab01wlcrContainerScript)        getscale
+	SCPT(ab01wlcrContainerScript)        getwaterlevel
+	SCPT(ab01wlcrContainerScript)        placeitem
+	SCPT(ab01wlcrContainerScript)        setdelete
+	SCPT(ab01wlcrContainerScript)        setscale
+	SCPT(ab01wlcrCoralScript)            getscale
+	SCPT(ab01wlcrCoralScript)            getwaterlevel
+	SCPT(ab01wlcrCoralScript)            placeitem
+	SCPT(ab01wlcrCoralScript)            setdelete
+	SCPT(ab01wlcrCoralScript)            setscale
+	SCPT(ab01wlcrCorpseDeadScript)       placeitem
+	SCPT(ab01wlcrCorpseDeadScript)       setdelete
+	SCPT(ab01wlcrCorpseScript)           setdelete
+	SCPT(ab01wlcrCrabScript)             getscale
+	SCPT(ab01wlcrCrabScript)             getwaterlevel
+	SCPT(ab01wlcrCrabScript)             getweapontype
+	SCPT(ab01wlcrCrabScript)             setdelete
+	SCPT(ab01wlcrCrabScript)             setscale
+	SCPT(ab01wlcrDolphinScript)          getscale
+	SCPT(ab01wlcrDolphinScript)          getwaterlevel
+	SCPT(ab01wlcrDolphinScript)          setdelete
+	SCPT(ab01wlcrDolphinScript)          setscale
+	SCPT(ab01wlcrDreughScript)           getscale
+	SCPT(ab01wlcrDreughScript)           getwaterlevel
+	SCPT(ab01wlcrDreughScript)           setdelete
+	SCPT(ab01wlcrDreughScript)           setscale
+	SCPT(ab01wlcrDuckScript)             getscale
+	SCPT(ab01wlcrDuckScript)             getwaterlevel
+	SCPT(ab01wlcrDuckScript)             placeitem
+	SCPT(ab01wlcrDuckScript)             setdelete
+	SCPT(ab01wlcrDuckScript)             setscale
+	SCPT(ab01wlcrDuckSwimScript)         getscale
+	SCPT(ab01wlcrDuckSwimScript)         getwaterlevel
+	SCPT(ab01wlcrDuckSwimScript)         placeitem
+	SCPT(ab01wlcrDuckSwimScript)         setdelete
+	SCPT(ab01wlcrDuckSwimScript)         setscale
+	SCPT(ab01wlcrDucklingScript)         getscale
+	SCPT(ab01wlcrDucklingScript)         getwaterlevel
+	SCPT(ab01wlcrDucklingScript)         placeitem
+	SCPT(ab01wlcrDucklingScript)         setdelete
+	SCPT(ab01wlcrDucklingScript)         setscale
+	SCPT(ab01wlcrDucklingSwimScript)     getscale
+	SCPT(ab01wlcrDucklingSwimScript)     getwaterlevel
+	SCPT(ab01wlcrDucklingSwimScript)     placeitem
+	SCPT(ab01wlcrDucklingSwimScript)     setdelete
+	SCPT(ab01wlcrDucklingSwimScript)     setscale
+	SCPT(ab01wlcrFishFreshScript)        getscale
+	SCPT(ab01wlcrFishFreshScript)        getwaterlevel
+	SCPT(ab01wlcrFishFreshScript)        getweapontype
+	SCPT(ab01wlcrFishFreshScript)        setdelete
+	SCPT(ab01wlcrFishFreshScript)        setscale
+	SCPT(ab01wlcrFishSaltScript)         getscale
+	SCPT(ab01wlcrFishSaltScript)         getwaterlevel
+	SCPT(ab01wlcrFishSaltScript)         getweapontype
+	SCPT(ab01wlcrFishSaltScript)         setdelete
+	SCPT(ab01wlcrFishSaltScript)         setscale
+	SCPT(ab01wlcrFloatScript)            getscale
+	SCPT(ab01wlcrFloatScript)            getwaterlevel
+	SCPT(ab01wlcrFloatScript)            setdelete
+	SCPT(ab01wlcrFloatScript)            setscale
+	SCPT(ab01wlcrGenericScript)          getscale
+	SCPT(ab01wlcrGenericScript)          setdelete
+	SCPT(ab01wlcrGenericScript)          setscale
+	SCPT(ab01wlcrGondolier2Script)       getscale
+	SCPT(ab01wlcrGondolier2Script)       getwaterlevel
+	SCPT(ab01wlcrGondolier2Script)       setdelete
+	SCPT(ab01wlcrGondolier2Script)       setscale
+	SCPT(ab01wlcrGondolierScript)        getscale
+	SCPT(ab01wlcrGondolierScript)        getwaterlevel
+	SCPT(ab01wlcrGondolierScript)        setdelete
+	SCPT(ab01wlcrGondolierScript)        setscale
+	SCPT(ab01wlcrGooseScript)            getscale
+	SCPT(ab01wlcrGooseScript)            getwaterlevel
+	SCPT(ab01wlcrGooseScript)            placeitem
+	SCPT(ab01wlcrGooseScript)            setdelete
+	SCPT(ab01wlcrGooseScript)            setscale
+	SCPT(ab01wlcrGooseSwimScript)        getscale
+	SCPT(ab01wlcrGooseSwimScript)        getwaterlevel
+	SCPT(ab01wlcrGooseSwimScript)        placeitem
+	SCPT(ab01wlcrGooseSwimScript)        setdelete
+	SCPT(ab01wlcrGooseSwimScript)        setscale
+	SCPT(ab01wlcrKillerWhaleScript)      getscale
+	SCPT(ab01wlcrKillerWhaleScript)      getwaterlevel
+	SCPT(ab01wlcrKillerWhaleScript)      setdelete
+	SCPT(ab01wlcrKillerWhaleScript)      setscale
+	SCPT(ab01wlcrLightScript)            getscale
+	SCPT(ab01wlcrLightScript)            getwaterlevel
+	SCPT(ab01wlcrLightScript)            placeitem
+	SCPT(ab01wlcrLightScript)            setdelete
+	SCPT(ab01wlcrLightScript)            setscale
+	SCPT(ab01wlcrManateeScript)          getscale
+	SCPT(ab01wlcrManateeScript)          getwaterlevel
+	SCPT(ab01wlcrManateeScript)          setdelete
+	SCPT(ab01wlcrManateeScript)          setscale
+	SCPT(ab01wlcrPalaceScript)           getcollidingactor
+	SCPT(ab01wlcrPalaceScript)           getscale
+	SCPT(ab01wlcrPalaceScript)           placeitem
+	SCPT(ab01wlcrPalaceScript)           setdelete
+	SCPT(ab01wlcrPalaceScript)           setscale
+	SCPT(ab01wlcrPenguinScript)          getscale
+	SCPT(ab01wlcrPenguinScript)          getwaterlevel
+	SCPT(ab01wlcrPenguinScript)          setdelete
+	SCPT(ab01wlcrPenguinScript)          setscale
+	SCPT(ab01wlcrPredatorScript)         getscale
+	SCPT(ab01wlcrPredatorScript)         getwaterlevel
+	SCPT(ab01wlcrPredatorScript)         setdelete
+	SCPT(ab01wlcrPredatorScript)         setscale
+	SCPT(ab01wlcrRockBigScript)          getcollidingactor
+	SCPT(ab01wlcrRockBigScript)          getscale
+	SCPT(ab01wlcrRockBigScript)          setdelete
+	SCPT(ab01wlcrRockBigScript)          setscale
+	SCPT(ab01wlcrRockScript)             getcollidingactor
+	SCPT(ab01wlcrRockScript)             getscale
+	SCPT(ab01wlcrRockScript)             setdelete
+	SCPT(ab01wlcrRockScript)             setscale
+	SCPT(ab01wlcrSaltAmphibScript)       getscale
+	SCPT(ab01wlcrSaltAmphibScript)       getwaterlevel
+	SCPT(ab01wlcrSaltAmphibScript)       setdelete
+	SCPT(ab01wlcrSaltAmphibScript)       setscale
+	SCPT(ab01wlcrSaltPreyScript)         getscale
+	SCPT(ab01wlcrSaltPreyScript)         getwaterlevel
+	SCPT(ab01wlcrSaltPreyScript)         setdelete
+	SCPT(ab01wlcrSaltPreyScript)         setscale
+	SCPT(ab01wlcrSaltScript)             getscale
+	SCPT(ab01wlcrSaltScript)             getwaterlevel
+	SCPT(ab01wlcrSaltScript)             setdelete
+	SCPT(ab01wlcrSaltScript)             setscale
+	SCPT(ab01wlcrSandCoinScript)         getscale
+	SCPT(ab01wlcrSandCoinScript)         getwaterlevel
+	SCPT(ab01wlcrSandCoinScript)         placeitem
+	SCPT(ab01wlcrSandCoinScript)         setdelete
+	SCPT(ab01wlcrSandCoinScript)         setscale
+	SCPT(ab01wlcrSeaStarScript)          getscale
+	SCPT(ab01wlcrSeaStarScript)          getwaterlevel
+	SCPT(ab01wlcrSeaStarScript)          placeitem
+	SCPT(ab01wlcrSeaStarScript)          setdelete
+	SCPT(ab01wlcrSeaStarScript)          setscale
+	SCPT(ab01wlcrSealScript)             getscale
+	SCPT(ab01wlcrSealScript)             getwaterlevel
+	SCPT(ab01wlcrSealScript)             setdelete
+	SCPT(ab01wlcrSealScript)             setscale
+	SCPT(ab01wlcrShellScript)            getscale
+	SCPT(ab01wlcrShellScript)            getwaterlevel
+	SCPT(ab01wlcrShellScript)            placeitem
+	SCPT(ab01wlcrShellScript)            setdelete
+	SCPT(ab01wlcrShellScript)            setscale
+	SCPT(ab01wlcrShipWreckScript)        getcollidingactor
+	SCPT(ab01wlcrShipWreckScript)        getscale
+	SCPT(ab01wlcrShipWreckScript)        setdelete
+	SCPT(ab01wlcrShipWreckScript)        setscale
+	SCPT(ab01wlcrSkeletonDead2Script)    setdelete
+	SCPT(ab01wlcrSkeletonDeadScript)     placeitem
+	SCPT(ab01wlcrSkeletonDeadScript)     setdelete
+	SCPT(ab01wlcrSkeletonScript)         placeitem
+	SCPT(ab01wlcrSkeletonScript)         setdelete
+	SCPT(ab01wlcrSlaughterFishScript)    getscale
+	SCPT(ab01wlcrSlaughterFishScript)    getwaterlevel
+	SCPT(ab01wlcrSlaughterFishScript)    getweapontype
+	SCPT(ab01wlcrSlaughterFishScript)    setdelete
+	SCPT(ab01wlcrSlaughterFishScript)    setscale
+	SCPT(ab01wlcrSnailScript)            getscale
+	SCPT(ab01wlcrSnailScript)            getwaterlevel
+	SCPT(ab01wlcrSnailScript)            getweapontype
+	SCPT(ab01wlcrSnailScript)            placeitem
+	SCPT(ab01wlcrSnailScript)            setdelete
+	SCPT(ab01wlcrSnailScript)            setscale
+	SCPT(ab01wlcrSpongeScript)           getscale
+	SCPT(ab01wlcrSpongeScript)           getwaterlevel
+	SCPT(ab01wlcrSpongeScript)           placeitem
+	SCPT(ab01wlcrSpongeScript)           setdelete
+	SCPT(ab01wlcrSpongeScript)           setscale
+	SCPT(ab01wlcrSunkenBoatScript)       getcollidingactor
+	SCPT(ab01wlcrSunkenBoatScript)       getscale
+	SCPT(ab01wlcrSunkenBoatScript)       setdelete
+	SCPT(ab01wlcrSunkenBoatScript)       setscale
+	SCPT(ab01wlcrWhaleScript)            getscale
+	SCPT(ab01wlcrWhaleScript)            getwaterlevel
+	SCPT(ab01wlcrWhaleScript)            setdelete
+	SCPT(ab01wlcrWhaleScript)            setscale
+	SCPT(ab01wlgFreshColdScript)         placeitem
+	SCPT(ab01wlgFreshScript)             getwaterlevel
+	SCPT(ab01wlgFreshScript)             placeitem
+	SCPT(ab01wlgFreshShoreScript)        placeitem
+	SCPT(ab01wlgFreshStreamColdScript)   getwaterlevel
+	SCPT(ab01wlgFreshStreamColdScript)   placeitem
+	SCPT(ab01wlgFreshStreamScript)       getwaterlevel
+	SCPT(ab01wlgFreshStreamScript)       placeitem
+	SCPT(ab01wlgFreshStreamWarmScript)   placeitem
+	SCPT(ab01wlgFreshWarmScript)         placeitem
+	SCPT(ab01wlgGrottoScript)            placeitem
+	SCPT(ab01wlgMainScript)              getwaterlevel
+	SCPT(ab01wlgMainScript)              getweapondrawn
+	SCPT(ab01wlgMainScript)              hasitemequipped
+	SCPT(ab01wlgMainScript)              placeitem
+	SCPT(ab01wlgPoolScript)              placeitem
+	SCPT(ab01wlgSaltColdScript)          getwaterlevel
+	SCPT(ab01wlgSaltColdScript)          placeitem
+	SCPT(ab01wlgSaltDeepColdScript)      placeitem
+	SCPT(ab01wlgSaltDeepScript)          placeitem
+	SCPT(ab01wlgSaltDeepWarmScript)      placeitem
+	SCPT(ab01wlgSaltLowColdScript)       placeitem
+	SCPT(ab01wlgSaltLowScript)           getwaterlevel
+	SCPT(ab01wlgSaltLowScript)           placeitem
+	SCPT(ab01wlgSaltLowWarmScript)       getwaterlevel
+	SCPT(ab01wlgSaltLowWarmScript)       placeitem
+	SCPT(ab01wlgSaltScript)              getwaterlevel
+	SCPT(ab01wlgSaltScript)              placeitem
+	SCPT(ab01wlgSaltShoreColdScript)     placeitem
+	SCPT(ab01wlgSaltShoreScript)         placeitem
+	SCPT(ab01wlgSaltShoreWarmScript)     placeitem
+	SCPT(ab01wlgSaltWarmScript)          getwaterlevel
+	SCPT(ab01wlgSaltWarmScript)          placeitem
+	SCPT(ab01wlsAlga01Script)            placeitem
+	SCPT(ab01wlsAlga01Script)            setdelete
+	SCPT(ab01wlsAlga01Script)            setscale
+	SCPT(ab01wlsAlga02Script)            placeitem
+	SCPT(ab01wlsAlga02Script)            setdelete
+	SCPT(ab01wlsAlga02Script)            setscale
+	SCPT(ab01wlsAlga03Script)            placeitem
+	SCPT(ab01wlsAlga03Script)            setdelete
+	SCPT(ab01wlsAlga03Script)            setscale
+	SCPT(ab01wlsAlga04Script)            placeitem
+	SCPT(ab01wlsAlga04Script)            setdelete
+	SCPT(ab01wlsAlga04Script)            setscale
+	SCPT(ab01wlsBubblesScript)           placeitem
+	SCPT(ab01wlsBubblesScript)           setdelete
+	SCPT(ab01wlsBubblesScript)           setscale
+	SCPT(ab01wlsRndChitonScript)         placeitem
+	SCPT(ab01wlsRndChitonScript)         setdelete
+	SCPT(ab01wlsRndChitonScript)         setscale
+	SCPT(ab01wlsRndKollopScript)         placeitem
+	SCPT(ab01wlsRndKollopScript)         setdelete
+	SCPT(ab01wlsRndKollopScript)         setscale
+	SCPT(ab01wlsRndLightScript)          placeitem
+	SCPT(ab01wlsRndLightScript)          setdelete
+	SCPT(ab01wlsRndLightScript)          setscale
+	SCPT(ab01wlsRndPalaceScript)         placeitem
+	SCPT(ab01wlsRndPalaceScript)         setdelete
+	SCPT(ab01wlsRndPalaceScript)         setscale
+	SCPT(ab01wlsRndRockScript)           placeitem
+	SCPT(ab01wlsRndRockScript)           setdelete
+	SCPT(ab01wlsRndRockScript)           setscale
+	SCPT(ab01wlsRndSandCoinScript)       placeitem
+	SCPT(ab01wlsRndSandCoinScript)       setdelete
+	SCPT(ab01wlsRndSandCoinScript)       setscale
+	SCPT(ab01wlsRndSeaStarScript)        placeitem
+	SCPT(ab01wlsRndSeaStarScript)        setdelete
+	SCPT(ab01wlsRndSeaStarScript)        setscale
+	SCPT(ab01wlsRndShellScript)          placeitem
+	SCPT(ab01wlsRndShellScript)          setdelete
+	SCPT(ab01wlsRndShellScript)          setscale
+	SCPT(ab01wlsRndShipWreckScript)      getwaterlevel
+	SCPT(ab01wlsRndShipWreckScript)      placeitem
+	SCPT(ab01wlsRndShipWreckScript)      setdelete
+	SCPT(ab01wlsRndShipWreckScript)      setscale
+	SCPT(ab01wlsRndSpongeScript)         placeitem
+	SCPT(ab01wlsRndSpongeScript)         setdelete
+	SCPT(ab01wlsRndSpongeScript)         setscale
+	SCPT(ab01wlsRndWtrFloorScript)       placeitem
+	SCPT(ab01wlsRndWtrFloorScript)       setdelete
+	SCPT(ab01wlsRndWtrFloorScript)       setscale
+	SCPT(ab01wltHitchScript)             getscale
+	SCPT(ab01wltTripScript)              getpcjumping
+	SCPT(ab01wltTripScript)              getwaterlevel
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(ab01sextantScript)
+	SCPT(ab01wlBottleFloatScript)
+	SCPT(ab01wlcrBubblesScript)
+	SCPT(ab01wlcrContainer2Script)
+	SCPT(ab01wlcrCrabScript)
+	SCPT(ab01wlcrDolphinScript)
+	SCPT(ab01wlcrDreughScript)
+	SCPT(ab01wlcrDuckScript)
+	SCPT(ab01wlcrDuckSwimScript)
+	SCPT(ab01wlcrDucklingScript)
+	SCPT(ab01wlcrDucklingSwimScript)
+	SCPT(ab01wlcrFishFreshScript)
+	SCPT(ab01wlcrFishSaltScript)
+	SCPT(ab01wlcrFloatScript)
+	SCPT(ab01wlcrGooseScript)
+	SCPT(ab01wlcrGooseSwimScript)
+	SCPT(ab01wlcrKillerWhaleScript)
+	SCPT(ab01wlcrManateeScript)
+	SCPT(ab01wlcrPenguinScript)
+	SCPT(ab01wlcrPredatorScript)
+	SCPT(ab01wlcrSaltAmphibScript)
+	SCPT(ab01wlcrSaltPreyScript)
+	SCPT(ab01wlcrSaltScript)
+	SCPT(ab01wlcrSealScript)
+	SCPT(ab01wlcrShipWreckScript)
+	SCPT(ab01wlcrSlaughterFishScript)
+	SCPT(ab01wlcrSnailScript)
+	SCPT(ab01wlcrWhaleScript)
+	SCPT(ab01wlgMainScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(NOM_well_water)
+	SCPT(ab01_spawnScript)
+	SCPT(ab01companionVarScript)
+	SCPT(ab01timeScaleChangeScript)
+	SCPT(ab01wlAntiSpawnScript)
+	SCPT(ab01wlBookScript)
+	SCPT(ab01wlConfigRingScript)
+	SCPT(ab01wlFishingRodScript)
+	SCPT(ab01wlSonarScript)
+	SCPT(ab01wlgConfig)
+	SCPT(ab01wlgFreshColdScript)
+	SCPT(ab01wlgFreshScript)
+	SCPT(ab01wlgFreshShoreScript)
+	SCPT(ab01wlgFreshStreamColdScript)
+	SCPT(ab01wlgFreshStreamScript)
+	SCPT(ab01wlgFreshStreamWarmScript)
+	SCPT(ab01wlgFreshWarmScript)
+	SCPT(ab01wlgGrottoScript)
+	SCPT(ab01wlgInitScript)
+	SCPT(ab01wlgOnLoadScript)
+	SCPT(ab01wlgPoolScript)
+	SCPT(ab01wlgSaltColdScript)
+	SCPT(ab01wlgSaltDeepColdScript)
+	SCPT(ab01wlgSaltDeepScript)
+	SCPT(ab01wlgSaltDeepWarmScript)
+	SCPT(ab01wlgSaltLowColdScript)
+	SCPT(ab01wlgSaltLowScript)
+	SCPT(ab01wlgSaltLowWarmScript)
+	SCPT(ab01wlgSaltScript)
+	SCPT(ab01wlgSaltShoreColdScript)
+	SCPT(ab01wlgSaltShoreScript)
+	SCPT(ab01wlgSaltShoreWarmScript)
+	SCPT(ab01wlgSaltWarmScript)
+	SCPT(ab01wlgZoneCheckScript)
+	SCPT(ab01wlsAlga01Script)
+	SCPT(ab01wlsAlga02Script)
+	SCPT(ab01wlsAlga03Script)
+	SCPT(ab01wlsAlga04Script)
+	SCPT(ab01wlsBubblesScript)
+	SCPT(ab01wlsRndChitonScript)
+	SCPT(ab01wlsRndKollopScript)
+	SCPT(ab01wlsRndLightScript)
+	SCPT(ab01wlsRndPalaceScript)
+	SCPT(ab01wlsRndRockScript)
+	SCPT(ab01wlsRndSandCoinScript)
+	SCPT(ab01wlsRndSeaStarScript)
+	SCPT(ab01wlsRndShellScript)
+	SCPT(ab01wlsRndShipWreckScript)
+	SCPT(ab01wlsRndSpongeScript)
+	SCPT(ab01wlsRndWtrFloorScript)
+	SCPT(ab01wltBubblesDecayScript)
+	SCPT(ab01wltHitchScript)
+	SCPT(ab01wltPlayerHappyScript)
+	SCPT(ab01wltTripScript)
+	SCPT(sltw_za_silgradmusic_sc)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    dreugh
+	morrowind.esm       CREA    slaughterfish_small
+	morrowind.esm       LEVC    h2o_all_lev-2
+	morrowind.esm       LEVI    l_m_potion
+	morrowind.esm       LEVI    l_m_potion_h
+	morrowind.esm       LEVI    random_book_skill
+	morrowind.esm       LEVI    random_de_cheapfood_01_nc
+	morrowind.esm       LEVI    random_de_cheapfood_01_ne
+	morrowind.esm       LEVI    random_dwarven_misc
+	morrowind.esm       LEVI    random_gem
+	morrowind.esm       LEVI    random_ingredient
+	morrowind.esm       LEVI    random_loot_special
+	morrowind.esm       SOUN    underwater
+	tribunal.esm        CREA    slaughterfish
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    hit

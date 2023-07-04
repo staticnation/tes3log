@@ -1,0 +1,40 @@
+LGNPC_HlaOad_.esp: DUP-REC EXP-DEP MENUMOD OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(lgnpc_ho_ShurkulDead)           placeitem
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(lgnpc_ho_DalamsChestScript)
+	SCPT(lgnpc_ho_HrondarTimer)
+	SCPT(lgnpc_ho_RaZhidTimer)
+	SCPT(lgnpc_ho_ShurkulDead)
+	SCPT(lgnpc_ho_ShurkulLeft)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    bosmer
+	morrowind.esm       DIAL    breton
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    dwemer artifacts
+	morrowind.esm       DIAL    ebonheart
+	morrowind.esm       DIAL    gnaar mok
+	morrowind.esm       DIAL    hla oad
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    imperial
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    molag mar
+	morrowind.esm       DIAL    moon sugar
+	morrowind.esm       DIAL    nord
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    redguard
+	morrowind.esm       DIAL    vivec
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place

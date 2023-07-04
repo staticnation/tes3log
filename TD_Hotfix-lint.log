@@ -1,0 +1,47 @@
+TD_Hotfix.ESP: DUP-REC MASTERS MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tamriel_data.esm    CLOT    t_imp_uni_ring_respite
+	tamriel_data.esm    CONT    t_testtr_misc
+	tamriel_data.esm    LEVC    t_mw_cr_mouse
+	tamriel_data.esm    LEVC    t_sky_rstat_thereachrats
+	tamriel_data.esm    LEVI    t_cyr_lvl_daedraweaponmelee
+	tamriel_data.esm    LEVI    t_cyr_random_weaponnord
+	tamriel_data.esm    LEVI    t_cyr_random_weaponorc
+	tamriel_data.esm    LEVI    t_mw_lvl_weaponsnordic
+	tamriel_data.esm    LEVI    t_mw_random_weaponsdaedric
+	tamriel_data.esm    LEVI    t_mw_random_weaponslongimperial
+	tamriel_data.esm    LEVI    t_mw_random_weaponsshrtimperial
+	tamriel_data.esm    LEVI    t_mwimp_random_weapons
+	tamriel_data.esm    LEVI    t_sky_lvl_weaponsaxe
+	tamriel_data.esm    LEVI    t_sky_lvl_weaponsaxeguard
+	tamriel_data.esm    LEVI    t_sky_lvl_weaponsdagger
+	tamriel_data.esm    WEAP    t_de_6th_longsword_01
+	tamriel_data.esm    WEAP    t_de_dreugh_staffofdivine_01
+	tamriel_data.esm    WEAP    t_imp_uni_taldeussword
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	tamriel_data.esm    ARMO    t_de_bonemold_chuzei_pauldl
+	tamriel_data.esm    ARMO    t_imp_coliron_pauldronr_01
+	tamriel_data.esm    ARMO    t_imp_wood_shieldtower_01
+	tamriel_data.esm    BOOK    t_bkgen_trademanifest
+	tamriel_data.esm    BOOK    t_sc_mapcountyanvilpc
+	tamriel_data.esm    CONT    t_testpc_weapon
+	tamriel_data.esm    CONT    t_testshotn_weapons
+	tamriel_data.esm    CONT    t_testtr_armors
+	tamriel_data.esm    CONT    t_testtr_weapons
+
+[MOD-INF]: ID=11354115243008429733(Voice:flee)
+  tamriel_data.esm->|DATA|SNAM:vo\k\m\bFle_KM001.mp3|NAME:Help! A beast!|SCVR:02sX5Random100|INTV|SCVR:11653|INTV|SCVR:23sX0T_Local_Khajiit|INTV
+  TD_Hotfix.ESP---->|DATA|SNAM:vo\k\m\bFle_KM001.mp3|NAME:Help! A beast!|SCVR:02sX5Random100|INTV|SCVR:11653|INTV|SCVR:23sX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=13030272842875729386(Voice:flee)
+  tamriel_data.esm->|DATA|SNAM:vo\k\m\bFle_KM002.mp3|NAME:Get away, beast!|SCVR:02sX5Random100|INTV:2|SCVR:11653|INTV|SCVR:23sX0T_Local_Khajiit|INTV
+  TD_Hotfix.ESP---->|DATA|SNAM:vo\k\m\bFle_KM002.mp3|NAME:Get away, beast!|SCVR:02sX5Random100|INTV:2|SCVR:11653|INTV|SCVR:23sX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=23844212342062331854(Voice:flee)
+  tamriel_data.esm->|DATA|SNAM:vo\k\m\bFle_KM004.mp3|NAME:Don't infect me with your curse!|SCVR:01650|INTV|SCVR:13sX0T_Local_Khajiit|INTV
+  TD_Hotfix.ESP---->|DATA|SNAM:vo\k\m\bFle_KM004.mp3|NAME:Don't infect me with your curse!|SCVR:01650|INTV|SCVR:13sX0T_Local_Khajiit|INTV|BNAM:

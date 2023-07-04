@@ -1,0 +1,14 @@
+Inner Sea Trading Company.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Art_Combat)
+	SCPT(Art_Switchout)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    sack_small_(scale)00
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       PGRD    west gash region
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=190592792723126084(Greeting:greeting 1)
+  |DATA|ONAM:Furius Acilius|NAME:What are you doing here? Those bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay. And you will tell no one!|BNAM:SetFight 100  StartCombat Player  Goodbye

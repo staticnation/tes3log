@@ -1,0 +1,11 @@
+InventoryHelpers.esp: FOGBUG MENUMOD MISSVER
+    [FOGBUG]: Cells with zero fog density setting:
+	invhlp_container_cell
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(invhlp_give_script)
+	SCPT(invhlp_local_token_script)
+	SCPT(invhlp_remote_cont_script)
+	SCPT(invhlp_signal_script)
+	SCPT(invhlp_take_script)
+	SCPT(invhlp_token_watch_script)
+	SCPT(invhlp_topic_script)

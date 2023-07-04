@@ -1,0 +1,116 @@
+Sensible Spear Tweaks and Additions.ESP: DUP-INF DUP-REC MENUMOD MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ColonyHidar)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    stalhrim weapons
+	bloodmoon.esm       LEVI    bm_random_nordhuntweap
+	bloodmoon.esm       LEVI    bm_random_nordsilver
+	bloodmoon.esm       LEVI    bm_randomwpn_smugglers
+	bloodmoon.esm       WEAP    bm huntsman spear
+	bloodmoon.esm       WEAP    bm_hunterspear_unique
+	bloodmoon.esm       WEAP    silver flameskewer
+	bloodmoon.esm       WEAP    silver shardskewer
+	bloodmoon.esm       WEAP    silver sparkskewer
+	bloodmoon.esm       WEAP    silver spear
+	bloodmoon.esm       WEAP    silver viperskewer
+	bloodmoon.esm       WEAP    steel spear snow prince
+	morrowind.esm       LEVI    l_m_enchantitem_redoran_rank4
+	morrowind.esm       LEVI    l_m_wpn_melee_spear
+	morrowind.esm       LEVI    l_n_wpn_melee_spear
+	morrowind.esm       LEVI    random excellent melee weapon
+	morrowind.esm       LEVI    random_daedric_weapon
+	morrowind.esm       LEVI    random_dwemer_weapon
+	morrowind.esm       NPC_    arvs raram
+	morrowind.esm       NPC_    assemmus
+	morrowind.esm       NPC_    assurdan serdimapal
+	morrowind.esm       NPC_    elvas savel
+	morrowind.esm       NPC_    hairan mannanalit
+	morrowind.esm       NPC_    hirarend
+	morrowind.esm       NPC_    iratian albarnian
+	morrowind.esm       NPC_    ondi
+	morrowind.esm       NPC_    saryn sarothril
+	morrowind.esm       NPC_    sondryn irathi
+	morrowind.esm       NPC_    tenaru romoren
+	morrowind.esm       NPC_    theldyn virith
+	morrowind.esm       NPC_    ulyno uvirith
+	morrowind.esm       NPC_    vonden mano
+	morrowind.esm       WEAP    airan_ahhe's_spirit_spear_uniq
+	morrowind.esm       WEAP    chitin spear
+	morrowind.esm       WEAP    daedric spear
+	morrowind.esm       WEAP    devil spear
+	morrowind.esm       WEAP    dwarven halberd
+	morrowind.esm       WEAP    dwarven halberd_soultrap
+	morrowind.esm       WEAP    dwarven spear
+	morrowind.esm       WEAP    ebony spear
+	morrowind.esm       WEAP    ebony spear_hrce_unique
+	morrowind.esm       WEAP    erur_dan_spear_unique
+	morrowind.esm       WEAP    fiend spear
+	morrowind.esm       WEAP    fiend spear_dae_cursed
+	morrowind.esm       WEAP    glass halberd
+	morrowind.esm       WEAP    greed
+	morrowind.esm       WEAP    iron flamecleaver
+	morrowind.esm       WEAP    iron flameskewer
+	morrowind.esm       WEAP    iron halberd
+	morrowind.esm       WEAP    iron long spear
+	morrowind.esm       WEAP    iron shardcleaver
+	morrowind.esm       WEAP    iron shardskewer
+	morrowind.esm       WEAP    iron sparkcleaver
+	morrowind.esm       WEAP    iron sparkskewer
+	morrowind.esm       WEAP    iron spear
+	morrowind.esm       WEAP    iron vipercleaver
+	morrowind.esm       WEAP    iron viperskewer
+	morrowind.esm       WEAP    shockbite halberd
+	morrowind.esm       WEAP    spear_mercy_unique
+	morrowind.esm       WEAP    spear_of_light
+	morrowind.esm       WEAP    steel flamecleaver
+	morrowind.esm       WEAP    steel flameskewer
+	morrowind.esm       WEAP    steel halberd
+	morrowind.esm       WEAP    steel shardcleaver
+	morrowind.esm       WEAP    steel shardskewer
+	morrowind.esm       WEAP    steel sparkcleaver
+	morrowind.esm       WEAP    steel sparkskewer
+	morrowind.esm       WEAP    steel spear
+	morrowind.esm       WEAP    steel spear of impaling thrust
+	morrowind.esm       WEAP    steel vipercleaver
+	morrowind.esm       WEAP    steel viperskewer
+	morrowind.esm       WEAP    water spear
+	morrowind.esm       WEAP    we_illkurok
+	morrowind.esm       WEAP    we_stormforge
+	tribunal.esm        WEAP    adamantium_spear
+	tribunal.esm        WEAP    ebony spear_blessed_unique
+	tribunal.esm        WEAP    silver spear_uvenim
+	tribunal.esm        WEAP    spear_mercy_unique_x
+
+[DUP-INF]: ID=19584140238819085(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:Here's your mace, %PCName. Use it well.|SCVR:03sX0s_mace|INTV|SCVR:13sX3localdaysPassed|INTV|BNAM:player->additem "BM ice mace" 1  set s_mace to 0  set busy to 0  set localdayspassed to 0
+
+[DUP-INF]: ID=26781019436630147(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:Your war axe isn't ready yet. I need more time to finish it.|SCVR:03sX0s_waraxe|INTV
+
+[DUP-INF]: ID=189502546285199736(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:I'll get started on a mace for you. Come back in two days, and it'll be ready.|SCVR:01500|INTV|SCVR:15IX3ingred_raw_Stalhrim_01|INTV|BNAM:player->removeitem "ingred_raw_stalhrim_01" 1  set busy to 1  set s_mace to 1  Goodbye
+
+[DUP-INF]: ID=582528791829010781(Topic:stalhrim weapons)
+  |DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX0weaponwarning|INTV:|BNAM:set "Carnius Magius".weaponwarning to 1
+
+[MOD-INF]: ID=900847722160227203(Topic:stalhrim weapons)
+  bloodmoon.esm--------------------------->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Nevermind" 5
+  Sensible Spear Tweaks and Additions.ESP->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Stalhrim Spear" 5 "Nevermind" 6
+
+[MOD-INF]: ID=1052431962138491563(Topic:stalhrim weapons)
+  bloodmoon.esm--------------------------->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Nevermind" 6
+  Sensible Spear Tweaks and Additions.ESP->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Stahlrim Spear" 6 "Nevermind" 7
+
+[DUP-INF]: ID=1973430735196923071(Topic:stalhrim weapons)
+  |DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX4Stalhrimgiven|INTV
+
+[DUP-INF]: ID=2591629491315104787(Topic:stalhrim weapons)
+  |DATA|ONAM:Carnius Magius|NAME:Very well. Here you go.|SCVR:01500|INTV|BNAM:player->additem "BM ice war axe" 1   set "Carnius Magius".Stalhrimgiven to ( "Carnius Magius".Stalhrimgiven - 2 )
+
+[MOD-INF]: ID=5350253781749717292(Topic:stalhrim weapons)
+  bloodmoon.esm--------------------------->|DATA|ONAM:hidar|NAME:I'll be here if you change your mind.|SCVR:01500|INTV
+  Sensible Spear Tweaks and Additions.ESP->|DATA|ONAM:hidar|NAME:I'll be here if you change your mind.|SCVR:01500|INTV
+
+[DUP-INF]: ID=6431276253248726999(Topic:stalhrim weapons)
+  |DATA|ONAM:Carnius Magius|NAME:Very well. Here you go.|SCVR:01500|INTV|BNAM:player->additem "BM ice mace" 1   set "Carnius Magius".Stalhrimgiven to ( "Carnius Magius".Stalhrimgiven - 2 )

@@ -1,0 +1,150 @@
+The Lamp.esp: AUTOSPL DUP-INF DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	ct_lmp_fortifyspeed            Fortify Athletics Skill
+	ct_lmp_weavercomp_magicka      Restore Magicka
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(ct_LampActivate)                disablelevitation
+	SCPT(ct_LampActivate)                enablelevitation
+	SCPT(ct_PowerScript)                 disablelevitation
+	SCPT(ct_PowerScript)                 enablelevitation
+	SCPT(ct_Start_Throne_Script)         getcollidingpc
+	SCPT(ct_lmp_Bed_LibraryScript)       disablelevitation
+	SCPT(ct_lmp_Bed_LibraryScript)       enablelevitation
+	SCPT(ct_lmp_DaedricTunnelScript)     getscale
+	SCPT(ct_lmp_Unseen_Script)           hasitemequipped
+	SCPT(ct_lmp_Unseen_Script_BEAST)     hasitemequipped
+	SCPT(ct_lmp_candleactivatorscript)   hasitemequipped
+    [MENUMOD] Scripts not checking menumode:
+	SCPT("ct_lmp_NightlandsScript")
+	SCPT(ct_ExitKnowleddgeScript)
+	SCPT(ct_GnaarSlavehunter_Script)
+	SCPT(ct_GuardsFollowCorda_Script)
+	SCPT(ct_KnowledgeScript)
+	SCPT(ct_LampRepaired)
+	SCPT(ct_MinervaScript)
+	SCPT(ct_MovingLightsScript)
+	SCPT(ct_PotentateAtCeremonyScript)
+	SCPT(ct_Start_Throne_Script)
+	SCPT(ct_WalkThroughWalls)
+	SCPT(ct_WealthScript)
+	SCPT(ct_activate_RotateLibraryScript)
+	SCPT(ct_bookwithnote)
+	SCPT(ct_lmp_BookshelvesMove_Script)
+	SCPT(ct_lmp_CordaLimiter_Script)
+	SCPT(ct_lmp_DaedricTunnelScript)
+	SCPT(ct_lmp_DisableAfterSpeech_Script)
+	SCPT(ct_lmp_DownDoor)
+	SCPT(ct_lmp_DownDoor_R)
+	SCPT(ct_lmp_DremoraGreet)
+	SCPT(ct_lmp_DrenAtSea_Script)
+	SCPT(ct_lmp_DrenThug_script)
+	SCPT(ct_lmp_ENTERNIGHTLANDS_Script)
+	SCPT(ct_lmp_EXITLIBRARY_Script)
+	SCPT(ct_lmp_EnablePalaceNobles)
+	SCPT(ct_lmp_FPS_Limiter)
+	SCPT(ct_lmp_FlyingBoat_Script)
+	SCPT(ct_lmp_FlyingBooks_Script)
+	SCPT(ct_lmp_ForceGreetTwinLamps)
+	SCPT(ct_lmp_FugitiveSlaveScript)
+	SCPT(ct_lmp_GearActivated_Script)
+	SCPT(ct_lmp_GearLeft)
+	SCPT(ct_lmp_GearReset_Script)
+	SCPT(ct_lmp_GearRight)
+	SCPT(ct_lmp_Gear_Puzzle_Script)
+	SCPT(ct_lmp_Gears_ThirdStrike)
+	SCPT(ct_lmp_GoAway_Script)
+	SCPT(ct_lmp_GuardsDefend)
+	SCPT(ct_lmp_LeaveWell_Script)
+	SCPT(ct_lmp_LockedBox_NPC_Script)
+	SCPT(ct_lmp_MephalaCopy_Script)
+	SCPT(ct_lmp_MoragAttack)
+	SCPT(ct_lmp_MoragAttackPCScript)
+	SCPT(ct_lmp_MoragEnable)
+	SCPT(ct_lmp_NextLevel_Script)
+	SCPT(ct_lmp_OpenMechanismScript)
+	SCPT(ct_lmp_PotentateNobles_Script)
+	SCPT(ct_lmp_PuzzleTree_Script)
+	SCPT(ct_lmp_RevealConspiracy_Script)
+	SCPT(ct_lmp_SoundScript_Rumble)
+	SCPT(ct_lmp_SoundsMeph_1)
+	SCPT(ct_lmp_Stew_Script)
+	SCPT(ct_lmp_Test_ActivateBoatScript)
+	SCPT(ct_lmp_ThronePotentateMessenger)
+	SCPT(ct_lmp_Throne_Script)
+	SCPT(ct_lmp_TransportCyrodiil_Script)
+	SCPT(ct_lmp_Unseen_Script)
+	SCPT(ct_lmp_Unseen_Script_BEAST)
+	SCPT(ct_lmp_VorysDren_Script)
+	SCPT(ct_lmp_WeaverCompanion_MARK)
+	SCPT(ct_lmp_WeaverDescendLibraryScript)
+	SCPT(ct_lmp_WellEnable_Script)
+	SCPT(ct_lmp_candle_black)
+	SCPT(ct_lmp_candle_blackoff)
+	SCPT(ct_lmp_candle_blue)
+	SCPT(ct_lmp_candle_blueoff)
+	SCPT(ct_lmp_candle_green)
+	SCPT(ct_lmp_candle_greenoff)
+	SCPT(ct_lmp_candle_purple)
+	SCPT(ct_lmp_candle_purpleoff)
+	SCPT(ct_lmp_candle_red)
+	SCPT(ct_lmp_candle_redoff)
+	SCPT(ct_lmp_candle_white)
+	SCPT(ct_lmp_candle_whiteoff)
+	SCPT(ct_lmp_candleactivatorscript)
+	SCPT(ct_lmp_dbSTOP)
+	SCPT(ct_lmp_exitGuards_Script)
+	SCPT(ct_lmp_glaviuswalk_tomb_Script)
+	SCPT(ct_lmp_lockedbox_box_Script)
+	SCPT(ct_note_conspiracy)
+	SCPT(ct_slavehunters)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    messenger
+	morrowind.esm       CREA    clannfear
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    cyrodiil
+	morrowind.esm       DIAL    dren plantation
+	morrowind.esm       FACT    camonna tong
+	morrowind.esm       FACT    redoran
+	morrowind.esm       LEVI    l_m_potion
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    idle
+
+[DUP-INF]: ID=135231206120326170(Topic:argonian)
+  |DATA|RNAM:Dark Elf|CNAM:Noble|NAME:Argonians are cunning, savage beasts incapable of enlightenment. They are blasphemous travesties of nature, with unspeakable foulness in their private and family urges. When guided by a stern hand, they can be trained as passable servants and slaves. By Imperial law, free Argonians have the rights of citizens, but no law can ever make an Argonian human.|SCVR:02sX1PCRace|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Dunmer;
+
+[DUP-INF]: ID=310014210296214268(Topic:cyrodiil)
+  |DATA|CNAM:Knight|FNAM:Imperial Legion|NAME:Cyrodiil is the cradle of Human Imperial high culture on Tamriel. It is the largest region of the continent, and most is endless jungle. The Imperial City is in the heartland, the fertile Nibenay Valley. The densely populated central valley is surrounded by wild rain forests drained by great rivers into the swamps of Argonia and Topal Bay. The land rises gradually to the west and sharply to the north. Between its western coast and its central valley are deciduous forests and mangrove swamps.|SCVR:0CsX0NoLore|INTV:|BNAM:;Imperial Legion; Imperial cult; bard, bookseller, savant;
+
+[DUP-INF]: ID=487276111250324150(Voice:attack)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=787419786402628286(Topic:background)
+  |DATA|ONAM:bugdul gro-kharbush|NAME:I'm the building foreman for Indarys Manor.
+
+[DUP-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  |DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+
+[DUP-INF]: ID=1588813549227325295(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:All is silence. The road is straight, without turning, in darkness. Now let there be an end to all things.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:modDisposition -10  goodbye
+
+[DUP-INF]: ID=2823228763200130073(Voice:idle)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Idl_ORM001.mp3|NAME:Submit to the Three, the Spirits, and Thy Lords.|SCVR:02sX3Random100|INTV:K
+
+[DUP-INF]: ID=10120316912878713430(Voice:idle)
+  |DATA|ONAM:calvario
+
+[DUP-INF]: ID=10375105981331029861(Voice:hello)
+  |DATA|ONAM:eigma|SNAM:vo\n\f\Hlo_NF089.mp3|NAME:Today's your lucky day, outlander, so let's hear it.|SCVR:01630|INTV:|BNAM:;eigma; Todd - outlander edited from wav, but still in text  ForceGreeting
+
+[DUP-INF]: ID=14583197762507724587(Voice:hello)
+  |DATA|ONAM:je tee|SNAM:vo\n\m\Hlo_NM062.mp3|NAME:You new here?|BNAM:;je tee
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=32211263923028324412(Topic:dren plantation)
+  |DATA|ONAM:stacey|NAME:It's not hard to find, but it doesn't have to be. It's very well guarded, and they don't take kindly to trespassers. I'll mark the location on your map.|BNAM:ShowMap "Dren Plantation"

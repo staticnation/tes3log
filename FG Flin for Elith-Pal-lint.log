@@ -1,0 +1,25 @@
+FG Flin for Elith-Pal.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DrinkBottlesDebut)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    elith-pal mine
+	morrowind.esm       DIAL    flin
+	tribunal.esm        DIAL    fg_elithpalsupply
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=1733819314779529785(Topic:flin)
+  morrowind.esm------------->|DATA|ONAM:dangor|NAME:Are you here to deliver the flin?|SCVR:04JX0FG_ElithPalSupply|INTV: |SCVR:45IX3Potion_Cyro_Whiskey_01|INTV|BNAM:Choice "Yes." 1 "No." 2
+  FG Flin for Elith-Pal.ESP->|DATA|ONAM:dangor|NAME:Are you here to deliver the flin?|SCVR:04JX0FG_ElithPalSupply|INTV: |SCVR:14JX1FG_ElithPalSupply|INTV|SCVR:24JX1FG_ElithPalSupply|INTV|SCVR:45IX3Potion_Cyro_Whiskey_01|INTV|BNAM:Choice "Yes." 1 "No." 2
+
+[MOD-INF]: ID=2869728211889817692(Topic:elith-pal mine)
+  morrowind.esm------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Here's the flin. Deliver it to Dangor. He's a Bosmer who works at the Elith-Pal Mine which is on the base of Red Mountain just west of the Zainab camp.|SCVR:34JX3FG_SuranBandits|INTV:d|BNAM:Journal FG_ElithPalSupply 10  Player->AddItem Potion_Cyro_Whiskey_01 20
+  FG Flin for Elith-Pal.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Here's the flin. Deliver it to Dangor. He's a Bosmer who works at the Elith-Pal Mine which is on the base of Red Mountain just west of the Zainab camp.|SCVR:34JX3FG_SuranBandits|INTV:d|BNAM:Journal FG_ElithPalSupply 10  Player->AddItem Potion_Cyro_Whiskey_01 20  startscript AlcoholicKhajiitScript
+
+[MOD-INF]: ID=25126301662018720770(Topic:elith-pal mine)
+  morrowind.esm------------->|DATA|ONAM:persius mercius|NAME:No point in delivering any supplies if Dangor is dead.|SCVR:34JX3FG_ElithPalSupply|INTV
+  FG Flin for Elith-Pal.ESP->|DATA|ONAM:persius mercius|NAME:No point in delivering any supplies if Dangor is dead.|SCVR:34JX0FG_ElithPalSupply|INTV
+
+[MOD-INF]: ID=32329206492042016767(Greeting:greeting 5)
+  morrowind.esm------------->|DATA|ONAM:persius mercius|NAME:Have you delivered that flin to the Elith-Pal Mine yet? It is important that it be delivered there as soon as possible, %PCRank.|SCVR:04JX3FG_ElithPalSupply|INTV: |SCVR:14JX4FG_ElithPalSupply|INTV:d
+  FG Flin for Elith-Pal.ESP->|DATA|ONAM:persius mercius|NAME:Have you delivered that flin to the Elith-Pal Mine yet? It is important that it be delivered there as soon as possible, %PCRank.|SCVR:04JX3FG_ElithPalSupply|INTV: |SCVR:14JX4FG_ElithPalSupply|INTV:d|SCVR:24JX1FG_ElithPalSupply|INTV|SCVR:31391|INTV

@@ -1,0 +1,53 @@
+NickiesBossPack2.ESP: DUP-INF DUP-REC GETSND MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(JackHammerScript)
+	SCPT(NkarouAwakenedScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(GenosArmsForceScript)
+	SCPT(GenosArmsScript)
+	SCPT(HeroScript123)
+	SCPT(JackMeatScript)
+	SCPT(JackSteroidScript)
+	SCPT(MonsterScript123)
+	SCPT(MountainSizeScript)
+	SCPT(MusashiBookScript)
+	SCPT(MusashiWakizashiScript)
+	SCPT(NerevarDeathScript)
+	SCPT(NerevarineShrineSpawnScript)
+	SCPT(NkarouGodShrineScript)
+	SCPT(NkarouScript)
+	SCPT(ViperRedScript)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CLOT    common_shirt_01
+	morrowind.esm       CLOT    common_shirt_01_a
+	morrowind.esm       CLOT    common_shirt_01_e
+	morrowind.esm       CLOT    common_shirt_01_u
+	morrowind.esm       CLOT    common_shirt_02
+	morrowind.esm       CLOT    common_shirt_03
+	morrowind.esm       CLOT    common_shirt_03_b
+	morrowind.esm       CLOT    common_shirt_03_c
+	morrowind.esm       STAT    furn_com_rm_table_04
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    food and drink
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       NPC_    galbedir
+
+[MOD-INF]: ID=63342103598924386(Topic:food and drink)
+  morrowind.esm-------->|DATA|ONAM:uvoo llaren|NAME:You delivered the food and drink? Good.|SCVR:34JX3TT_SupplyMonk|INTV:2|BNAM:Journal TT_SupplyMonk 100  ModPCFacRep 5 "Temple"  ModDisposition 10
+  NickiesBossPack2.ESP->|DATA|ONAM:uvoo llaren|NAME:You delivered the food and drink? Good.|SCVR:34JX3TT_SupplyMonk|INTV:2|BNAM:Journal TT_SupplyMonk 100  "==musashi"->enable  ModPCFacRep 5 "Temple"  ModDisposition 10
+
+[DUP-INF]: ID=143615274198053934(Greeting:greeting 2)
+  |DATA|ONAM:mastrius|NAME:Leave this place. You should not be here.|SCVR:01601|INTV
+
+[MOD-INF]: ID=1034024289119524812(Topic:food and drink)
+  morrowind.esm-------->|DATA|ONAM:uvoo llaren|NAME:Sendas Sathis is dead? This is terrible news. Perhaps you can find some other duties.|SCVR:06DX2sendus sathis|INTV:|BNAM:Journal TT_SupplyMonk 200
+  NickiesBossPack2.ESP->|DATA|ONAM:uvoo llaren|NAME:Sendas Sathis is dead? This is terrible news. Perhaps you can find some other duties.|SCVR:06DX2sendus sathis|INTV:|BNAM:Journal TT_SupplyMonk 200  "==Musashi"->enable
+
+[DUP-INF]: ID=1232025441586514082(Greeting:greeting 2)
+  |DATA|ONAM:mastrius|NAME:Night walker, it is good you have come. Perhaps you will be able to free me from my imprisonment.|SCVR:01600|INTV|SCVR:14JX4VA_VampCurse|INTV|BNAM:Journal "VA_VampCurse" 10
+
+[MOD-INF]: ID=32444294913061111513(Topic:food and drink)
+  morrowind.esm-------->|DATA|ONAM:uvoo llaren|NAME:Take this food and drink to Sendas Sathis. He's a hermit who lives on Shuran Island between Sheogorad and Vvardenfell. Take a boat to Dagon Fel and then go towards Rotheran. Shuran Island is just west of Rotheran. I will mark this stronghold on your map.|BNAM:Journal TT_SupplyMonk 10  Player->AddItem Food_Kwama_Egg_01 4  Player->AddItem Potion_Local_Brew_01 4  ShowMap "Rotheran"
+  NickiesBossPack2.ESP->|DATA|ONAM:uvoo llaren|NAME:Take this food and drink to Sendas Sathis. He's a hermit who lives on Shuran Island between Sheogorad and Vvardenfell. Take a boat to Dagon Fel and then go towards Rotheran. Shuran Island is just west of Rotheran. I will mark this stronghold on your map.|BNAM:Journal TT_SupplyMonk 10  "==musashi"->Disable  Player->AddItem Food_Kwama_Egg_01 4  Player->AddItem Potion_Local_Brew_01 4  ShowMap "Rotheran"

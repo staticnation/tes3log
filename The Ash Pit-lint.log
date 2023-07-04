@@ -1,0 +1,115 @@
+The Ash Pit.ESP: AUTOSPL DUP-INF DUP-REC FOGBUG JUNKCEL MENUMOD MISSDSC MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	hs_airshipfire                 Airship Missile
+    [FOGBUG]: Cells with zero fog density setting:
+	The Ash Pit, Entrance
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(hs_6th)
+	SCPT(hs_6th_arena)
+	SCPT(hs_airship_arena)
+	SCPT(hs_alitracers)
+	SCPT(hs_ashland_arena1)
+	SCPT(hs_ashland_arena2)
+	SCPT(hs_ashlander_arena)
+	SCPT(hs_ashlandercount)
+	SCPT(hs_blight)
+	SCPT(hs_blight_arena)
+	SCPT(hs_chef)
+	SCPT(hs_chef_arena)
+	SCPT(hs_creatures)
+	SCPT(hs_daedra)
+	SCPT(hs_daedric_arena)
+	SCPT(hs_daedric_arena1)
+	SCPT(hs_daedric_arena2)
+	SCPT(hs_daedric_arena3)
+	SCPT(hs_deadbandit)
+	SCPT(hs_dwemer)
+	SCPT(hs_dwemer_arena)
+	SCPT(hs_fence)
+	SCPT(hs_final)
+	SCPT(hs_final_arena)
+	SCPT(hs_fork_arena)
+	SCPT(hs_goblins)
+	SCPT(hs_goblins_arena)
+	SCPT(hs_house)
+	SCPT(hs_house_arena)
+	SCPT(hs_imp_arena)
+	SCPT(hs_imps)
+	SCPT(hs_noAWOL)
+	SCPT(hs_orc_arena)
+	SCPT(hs_orcs)
+	SCPT(hs_peryitecount)
+	SCPT(hs_scamps)
+	SCPT(hs_test)
+	SCPT(hs_test2)
+	SCPT(hs_test3)
+	SCPT(hs_undead)
+	SCPT(hs_velothi_arena)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (0, -6)            0x02
+	Ashlands Region (3, 3)                   0x02
+	Ashlands Region (5, 4)                   0x02
+	Ashlands Region (6, 3)                   0x02
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ALCH    p_frost_shield_e
+	morrowind.esm       CONT    sack_small_(scale)00
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    something special
+	morrowind.esm       DIAL    temple
+	morrowind.esm       LAND    (4, 1)
+	morrowind.esm       LAND    (4, 2)
+	morrowind.esm       LAND    (5, 1)
+	morrowind.esm       LAND    (5, 2)
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       NPC_    ergnir
+	morrowind.esm       NPC_    neminda
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    services
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=104481231387131116(Topic:something special)
+  |DATA|ONAM:savile imayn|NAME:Falura Llervu is yours now. do with her as you will.|SCVR:04JX3B3_ZainabBride|INTV:(|BNAM:; Savile Imayn ; Journal "B3_ZainabBride" >= 35; item "Potion_T_Bug_musk_01" >= 1; item "gold_0001" >= 600; CHOICE 6;
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=1799429480260485692(Topic:house redoran)
+  |DATA|ONAM:sul-matuul|NAME:The khans of the Great Houses are called 'councilors.' The khans of House Redoran meet in a great crab shell in a place called Ald'ruhn. You must find these councilors and persuade them to name you Hortator. I know little of the settled people. You must go there and learn for yourself.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Sul-Matuul; Journal "A2-6_Incarnate" >= 50
+
+[DUP-INF]: ID=25042165042180828560(Topic:temple)
+  |DATA|ONAM:caius cosades|NAME:The Tribunal Temple is the native religion. They worship three God-Kings, Almalexia, Sotha Sil, and Vivec, who are known together as the Tribunal. We usually just call it 'The Temple.' They're narrow-minded and superstitious, but I find a lot to admire -- particularly their concern for the poor. They accept outlanders as members, but few outlanders join except for the services. Talk to Feldrelo Sadri at the Balmora Temple if you're thinking about joining.|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[DUP-INF]: ID=30825219281734727358(Topic:services)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.

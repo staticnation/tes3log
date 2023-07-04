@@ -1,0 +1,161 @@
+Devilish_Vampire_Overhaul (2).ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(bloodthirst_dd)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    greeting 2
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    hello
+
+[MOD-INF]: ID=12105171323147159(Greeting:greeting 0)
+  tribunal.esm---------------------->|DATA|CNAM:Guard|NAME:You've committed a crime, vampire. Were you not an abomination, I might let you live. Prepare to die!|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|SCVR:21600|INTV|BNAM:StartCombat Player  Goodbye
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|CNAM:Guard|NAME:You've committed a crime, vampire. Were you not an abomination, I might let you live. Prepare to die!|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|SCVR:21600|INTV|SCVR:32sX0vampire_detected_dd|INTV|BNAM:StartCombat Player  Goodbye
+
+[MOD-INF]: ID=30363846865395047(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|FNAM:Mages Guild|NAME:Your kind is not welcome here, vampire. Ask me what you will, and be on your way.|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|FNAM:Mages Guild|NAME:Your kind is not welcome here, vampire. Ask me what you will, and be on your way.|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=30413105531090563(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|RNAM:Dark Elf|CNAM:Sorcerer|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave my sight, unholy beast!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  ModFight 50  Goodbye
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Dark Elf|CNAM:Sorcerer|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave my sight, unholy beast!|SCVR:01603|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;default DUNMER;PC Vampire  ModFight 50  Goodbye
+
+[MOD-INF]: ID=67652052200513841(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=0
+
+[MOD-INF]: ID=98302372327767126(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF139.mp3|NAME:Hisses|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF139.mp3|NAME:Hisses|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=0
+
+[MOD-INF]: ID=100717462151923586(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF138.mp3|NAME:A vampire! No!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF138.mp3|NAME:A vampire! No!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=1
+
+[MOD-INF]: ID=127216720183781120(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|RNAM:Dark Elf|CNAM:Mage|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave here, monster!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  ModFight 50  Goodbye
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Dark Elf|CNAM:Mage|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave here, monster!|SCVR:01603|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;default DUNMER;PC Vampire  ModFight 50  Goodbye
+
+[MOD-INF]: ID=155011096921286940(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF138.mp3|NAME:Unholy beast! Go away!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF138.mp3|NAME:Unholy beast! Go away!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=0
+
+[MOD-INF]: ID=192212928269169116(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=1
+
+[MOD-INF]: ID=259876592925710398(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|FNAM:Telvanni|NAME:A vampire. How quaint. There are certain experiments I've had in mind for one of your kind. What is it you want?|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|FNAM:Telvanni|NAME:A vampire. How quaint. There are certain experiments I've had in mind for one of your kind. What is it you want?|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=263042661832839078(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;default NON-DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+
+[MOD-INF]: ID=265292642811853343(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|FNAM:Mages Guild|NAME:Say your peace and leave, vampire. We will not have you killed, but your presence here is...a nuisance.|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|FNAM:Mages Guild|NAME:Say your peace and leave, vampire. We will not have you killed, but your presence here is...a nuisance.|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=578128438312667949(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|RNAM:Dark Elf|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Return to the foul corruption from which you came! Die, fiend!|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default DUNMER;PC Vampire  StartCombat Player  Goodbye
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Dark Elf|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Return to the foul corruption from which you came! Die, fiend!|SCVR:01603|INTV|SCVR:11613|INTV: |SCVR:22sX0vampire_detected_dd|INTV|BNAM:;default DUNMER;PC Vampire  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=726744581494319467(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|FNAM:Telvanni|NAME:Hmmm...a vampire. Interesting. What is it you want?|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|FNAM:Telvanni|NAME:Hmmm...a vampire. Interesting. What is it you want?|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=1168020397697927416(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|CNAM:Sorcerer|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire; mage; sorcerer;; mage
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|CNAM:Sorcerer|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|SCVR:01603|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;default NON-DUNMER;PC Vampire; mage; sorcerer;; mage
+
+[MOD-INF]: ID=1259416343208371526(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM138.mp3|NAME:No! Go away vampire!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM138.mp3|NAME:No! Go away vampire!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=0
+
+[MOD-INF]: ID=1295116179164551094(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF138.mp3|NAME:Aargh! Go away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF138.mp3|NAME:Aargh! Go away!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=1
+
+[MOD-INF]: ID=1795200281150517311(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|FNAM:Mages Guild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|FNAM:Mages Guild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=1901771442409431438(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|CNAM:Mage|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire; mage; sorcerer;; mage
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|CNAM:Mage|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|SCVR:01603|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;default NON-DUNMER;PC Vampire; mage; sorcerer;; mage
+
+[MOD-INF]: ID=2318213892201018469(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV|BNAM:;PCVampirisim=0
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirisim=0
+
+[MOD-INF]: ID=2377424419402128586(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM139.mp3|NAME:Hiss!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM139.mp3|NAME:Hiss!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=0
+
+[MOD-INF]: ID=2476368512395916288(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM139.mp3|NAME:Grrrowl!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM139.mp3|NAME:Grrrowl!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=1
+
+[MOD-INF]: ID=2489211522149417613(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF139.mp3|NAME:Growls|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF139.mp3|NAME:Growls|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=1
+
+[MOD-INF]: ID=2642276521407631585(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=2946213762062124311(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|FNAM:Mages Guild|ANAM:Vivec, Guild of Mages|NAME:Your kind is not welcome here, vampire. I have nothing I wish to say to you. Speak with Sirilonwe. She seems to have an affinity for your kind.|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|FNAM:Mages Guild|ANAM:Vivec, Guild of Mages|NAME:Your kind is not welcome here, vampire. I have nothing I wish to say to you. Speak with Sirilonwe. She seems to have an affinity for your kind.|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=3094622436303981390(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Nord|SNAM:Vo\n\f\Hlo_NF138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Nord|SNAM:Vo\n\f\Hlo_NF138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=3966147732453723548(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=0
+
+[MOD-INF]: ID=4023266701722626284(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Breton|SNAM:Vo\b\m\Hlo_BM138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Breton|SNAM:Vo\b\m\Hlo_BM138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=7334200891708420609(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=0
+
+[MOD-INF]: ID=7643304071333010596(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|FNAM:Telvanni|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|FNAM:Telvanni|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=11657146863060720256(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|RNAM:Dark Elf|NAME:No! A vampire! Get away, you foul creature!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Dark Elf|NAME:No! A vampire! Get away, you foul creature!|SCVR:01603|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;default DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+
+[MOD-INF]: ID=14831200351236920210(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|ONAM:tusamircil|NAME:What is it, vampire?|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|ONAM:tusamircil|NAME:What is it, vampire?|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=16554129362829529645(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=1
+
+[MOD-INF]: ID=22015221492038513043(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM138.mp3|NAME:You don't want to kill me do you?|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM138.mp3|NAME:You don't want to kill me do you?|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=1
+
+[MOD-INF]: ID=22154188692129820500(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   ModFight 50  Goodbye
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |SCVR:22sX0vampire_detected_dd|INTV|BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   ModFight 50  Goodbye
+
+[MOD-INF]: ID=29122277261103617235(Greeting:greeting 2)
+  morrowind.esm--------------------->|DATA|ONAM:iniel|NAME:What, vampire? Make it quick.|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|ONAM:iniel|NAME:What, vampire? Make it quick.|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=31102285731117525844(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:Orc|SNAM:Vo\o\m\Hlo_OM000.mp3|NAME:Growl!|SCVR:01600|INTV
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:Orc|SNAM:Vo\o\m\Hlo_OM000.mp3|NAME:Growl!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV
+
+[MOD-INF]: ID=32487276561501719829(Voice:hello)
+  morrowind.esm--------------------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Devilish_Vampire_Overhaul (2).ESP->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|SCVR:12sX0vampire_detected_dd|INTV|BNAM:;PCVampirism=1

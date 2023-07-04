@@ -1,0 +1,13 @@
+Morrowind Stats.esp: DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(mwa_stat_global_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mwa_accuracy_script)
+	SCPT(mwa_attribute_total_script)
+	SCPT(mwa_creatures_killed_script)
+	SCPT(mwa_games_loaded_script)
+	SCPT(mwa_skill_total_script)
+	SCPT(mwa_spells_cast_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        NPC_    player

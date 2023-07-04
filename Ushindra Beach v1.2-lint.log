@@ -1,0 +1,76 @@
+Ushindra Beach v1.2.esp: DUP-INF DUP-REC FOGBUG MENUMOD MISSVER MOD-INF OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	Ushindra, Greedy Goblin
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Pix_QStatus)
+	SCPT(Pix_sc_BeachGuard2)
+	SCPT(Pix_sc_Equallia)
+	SCPT(Pix_sc_UshindraRoomRent)
+	SCPT(Pix_sc_UshindraStaff)
+	SCPT(Pix_sc_UshindraVisitor)
+	SCPT(Pix_sc_WeatherLever)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       DIAL    dwemer ruins
+	morrowind.esm       LAND    (-1, -16)
+	morrowind.esm       LAND    (-1, -17)
+	morrowind.esm       LAND    (0, -16)
+	morrowind.esm       LAND    (0, -17)
+	morrowind.esm       LAND    (1, -15)
+	morrowind.esm       LAND    (1, -16)
+	morrowind.esm       LAND    (1, -17)
+	morrowind.esm       LAND    (2, -14)
+	morrowind.esm       LAND    (2, -15)
+	morrowind.esm       LAND    (2, -16)
+	morrowind.esm       LAND    (2, -17)
+	morrowind.esm       LAND    (3, -15)
+	morrowind.esm       LAND    (3, -16)
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       PGRD    ascadian isles region
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        DIAL    transport to mournhold
+	tribunal.esm        DIAL    travel together
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+
+[MOD-INF]: ID=1840019036914566(Topic:specific place)
+  morrowind.esm----------->|DATA|ANAM:Vivec|NAME:Silt striders from North Landing, north of the Foreign Quarter, go to Seyda Neen, Suran, Molag Mar, and Balmora. Guild guides at the Foreign Quarter Mages Guild teleport you to the Balmora, Ald'ruhn, Caldera, and Sadrith Mora Mages Guilds for a fee. Gondoliers ferry passengers between the Telvanni Compound, the Hlaalu Compound, the Foreign Quarter, St. Delyn Canton, and the Arena. Roads lead from North Landing north towards Suran and the Ascadian Isles and northwest towards Seyda Neen.|SCVR:01500|INTV|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;Vivec;
+  Ushindra Beach v1.2.esp->|DATA|ANAM:Vivec|NAME:Silt striders from North Landing, north of the Foreign Quarter, go to Seyda Neen, Suran, Molag Mar, and Balmora. Guild guides at the Foreign Quarter Mages Guild teleport you to the Balmora, Ald'ruhn, Caldera, and Sadrith Mora Mages Guilds for a fee. Gondoliers ferry passengers between the Telvanni Compound, the Hlaalu Compound, the Foreign Quarter, St. Delyn Canton, and the Arena. Roads lead from North Landing north towards Suran and the Ascadian Isles and northwest towards Seyda Neen.|SCVR:01500|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Vivec;
+
+[DUP-INF]: ID=58028831233554797(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You've earned a death warrant for your crimes, outlaw. May the gods have mercy upon your soul.|SCVR:01433|INTV|BNAM:SetDisposition 0  SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=3221919121308066894(Topic:specific place)
+  morrowind.esm----------->|DATA|ANAM:Vos|NAME:Tel Vos, Master Aryon's wizard tower, is to the west. You can't miss it. It's very strange. Tel Mora, Mistress Dratha's wizard tower, lies across the bay on an island to the east. In Vos village, the Vos chapel is in the center of the village, through the gate and courtyard. Hetwoman Maela Kaushad's house is the middle house on the south. Varo Tradehouse is down by the docks. Ships go to Sadrith Mora, Tel Aruhn, and Tel Mora.|SCVR:07XX0maela kaushad|INTV|SCVR:17XX0sedyni veran|INTV|INTV|SCVR:3CsX0nolore|INTV:|BNAM:;Vos ;
+  Ushindra Beach v1.2.esp->|DATA|ANAM:Vos|NAME:Tel Vos, Master Aryon's wizard tower, is to the west. You can't miss it. It's very strange. Tel Mora, Mistress Dratha's wizard tower, lies across the bay on an island to the east. In Vos village, the Vos chapel is in the center of the village, through the gate and courtyard. Hetwoman Maela Kaushad's house is the middle house on the south. Varo Tradehouse is down by the docks. Ships go to Sadrith Mora, Tel Aruhn, and Tel Mora.|SCVR:07XX0maela kaushad|INTV|SCVR:17XX0sedyni veran|INTV|INTV|SCVR:3CsX0NoLore|INTV:|BNAM:;Vos ;
+
+[MOD-INF]: ID=6741245212456111069(Topic:transport to mournhold)
+  tribunal.esm------------>|DATA|ONAM:asciene rane|NAME:I'll transport you right away. Good luck to you!|SCVR:01500|INTV|BNAM:StartScript MHTransportScript  Goodbye
+  Ushindra Beach v1.2.esp->|DATA|ONAM:asciene rane|NAME:I'll transport you right away. Good luck to you!|SCVR:01500|INTV|BNAM:StartScript MHTransportScript  GoodBye

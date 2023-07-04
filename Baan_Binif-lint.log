@@ -1,0 +1,68 @@
+Baan_Binif.ESP: DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1314087 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AL93_MabrigashAppear)
+	SCPT(AL93_MabrigashDays)
+	SCPT(Hive_MerchantBGoneScript)
+	SCPT(hive_sorcerer_script_s)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tamriel_data.esm    CONT    t_mw_floraow_glwshrm_01
+	tamriel_data.esm    CONT    t_mw_floraow_glwshrm_02
+	tamriel_data.esm    CONT    t_mw_floraow_glwshrm_03
+	tamriel_data.esm    CONT    t_mw_floraow_glwshrm_04
+	tamriel_data.esm    CONT    t_mw_floraow_glwshrm_05
+	tamriel_data.esm    INGR    t_ingflor_glowshroom
+	tamriel_data.esm    LEVI    t_mw_random_florglwshrm
+	tamriel_data.esm    MISC    t_com_brokenbottle_02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    rm_rock_03
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       DIAL    bthuand
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    kogoruhn
+	morrowind.esm       DIAL    lost kogoruhn
+	morrowind.esm       LAND    (1, 16)
+	morrowind.esm       LAND    (1, 17)
+	morrowind.esm       LAND    (2, 16)
+	morrowind.esm       LAND    (2, 17)
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[MOD-INF]: ID=57526525157959080(Topic:bthuand)
+  morrowind.esm-->|DATA|ONAM:mastrius|NAME:It is an ancient Dwemer ruin to the north of here. Leave this place and travel to the north. Find the ruins, and return Spell Breaker to me.
+  Baan_Binif.ESP->|DATA|ONAM:mastrius|NAME:It is an ancient Dwemer ruin to the north of here and south east of Baan Binif. Leave this place, find the ruins, and return Spell Breaker to me.
+
+[MOD-INF]: ID=1131515014464226706(Topic:kogoruhn)
+  morrowind.esm-->|DATA|ONAM:sul-matuul|NAME:Kogoruhn was an ancient Dunmer stronghold. Here. Let me mark it on your map. Go by day, in good weather, or you may miss your way. Follow the coast east from Urshilaku camp to the ruined Dunmer stronghold called Valenvaryon, then turn southwest. You'll see Ebernanit, a ruined Daedric shrine. Continue south from Ebernanit to Kogoruhn, a great table of stone with many ruined buildings. There are many rooms. The passages are old and deep. Beneath are caves with pools of fire. It is a bad place. Go prepared.|SCVR:04JX3A2_6_Incarnate|INTV|BNAM:ShowMap Kogoruhn  ShowMap Valenvaryon
+  Baan_Binif.ESP->|DATA|ONAM:sul-matuul|NAME:Kogoruhn was an ancient Dunmer stronghold. Here. Let me mark it on your map. Go by day, in good weather, or you may miss your way. Follow the coast east from Urshilaku camp to the ruined Dunmer stronghold called Valenvaryon, then turn southwest. You'll see Ebernanit, a ruined Daedric shrine. Go past Ebernanit until you see a massive black structure.|SCVR:04JX3A2_6_Incarnate|INTV|BNAM:Choice "[Continue]." 1
+
+[MOD-INF]: ID=1894241211018531827(Topic:lost kogoruhn)
+  morrowind.esm-->|DATA|CNAM:Scout|NAME:Kogoruhn used to lie north of the northern boundary of the Ghostfence. It was northeast of Maar Gan and west of the present-day Vos. It was near the stronghold of Falasmaryon, which I can mark on your map.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX3TT_HairShirt|INTV: |SCVR:44JX4TT_HairShirt|INTV:d|BNAM:ShowMap "Falasmaryon"
+  Baan_Binif.ESP->|DATA|CNAM:Scout|NAME:Kogoruhn used to lie north of the northern boundary of the Ghostfence. It was northeast of Maar Gan and west of the present-day Vos. It was near Baan Binif and the stronghold of Falasmaryon, which I can mark on your map.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX3TT_HairShirt|INTV: |SCVR:44JX4TT_HairShirt|INTV:d|BNAM:ShowMap "Falasmaryon"  ShowMap "Baan Binif"

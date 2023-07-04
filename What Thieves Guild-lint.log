@@ -1,0 +1,152 @@
+What Thieves Guild.ESP: DUP-INF DUP-REC MISSVER MOD-INF MOD-IID NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (151) != Actual count (148)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    join the thieves guild
+	morrowind.esm       DIAL    requirements
+	morrowind.esm       DIAL    rules
+	morrowind.esm       DIAL    thieves guild
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    someone in particular
+
+[DUP-INF]: ID=13223869023728562(Topic:advancement)
+  |DATA|FNAM:Mages Guild|NAME:Congratulations. You are now officially %PCName, the %NextPCRank. Study diligently and perform your duties.|SCVR:01020|INTV|BNAM:PCRaiseRank "Mages Guild"
+
+[MOD-INF]: ID=84486762740312514(Topic:someone in particular)
+  morrowind.esm---------->|DATA|ANAM:Sadrith Mora|NAME:Over at Wolverine Hall, look for Hrundi the Nord, Fighters Guild steward; Procyon Nigilius, Mages Guild steward; and Aunius Autrus, Imperial cult priest. Councilor Mage-Lord Master Neloth lives in Tel Naga, the wizard tower in the center of town. Big Helende, the Thieves Guild Boss, hangs out at Durty Muriel's Cornerclub.|SCVR:0BLX0Wolverine Hall|INTV|SCVR:11500|INTV|SCVR:2BLX0Sadrith Mora, Telvanni Council House|INTV|SCVR:3BLX0Sadrith Mora, Tel Naga Upper Tower|INTV|SCVR:4BLX0Sadrith Mora, Gateway Inn|INTV|INTV|BNAM:;Sadrith Mora;
+  What Thieves Guild.ESP->|DATA|ANAM:Sadrith Mora|NAME:Over at Wolverine Hall, look for Hrundi the Nord, Fighters Guild steward; Procyon Nigilius, Mages Guild steward; and Aunius Autrus, Imperial cult priest. Councilor Mage-Lord Master Neloth lives in Tel Naga, the wizard tower in the center of town.|SCVR:0BLX0Wolverine Hall|INTV|SCVR:11500|INTV|SCVR:2BLX0Sadrith Mora, Telvanni Council House|INTV|SCVR:3BLX0Sadrith Mora, Tel Naga Upper Tower|INTV|SCVR:4BLX0Sadrith Mora, Gateway Inn|INTV|INTV|BNAM:;Sadrith Mora;
+
+[DUP-INF]: ID=97825085396813756(Topic:background)
+  |DATA|FNAM:Thieves Guild|NAME:I'm %Name. I do a little of this, a little of that.|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=137637342899629067(Persuasion:service refusal)
+  |DATA|ONAM:vevrana aryon|NAME:I'm sorry. There must be some mistake. I'm not a gondolier or shipmaster.|SCVR:04JX4A2_4_Milo_hola_go|INTV
+
+[MOD-INF]: ID=190293224615110637(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|NAME:Don't you already belong, brother %PCName?|SCVR:01460|INTV
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|NAME:Don't you already belong, brother %PCName?|SCVR:01460|INTV
+
+[DUP-INF]: ID=226127509625010191(Greeting:greeting 7)
+  |DATA|FNAM:Ashlanders|NAME:You are known as a thief among your people. We have no use for thieves, outlander.|SCVR:01433|INTV:d|BNAM:;Ashlanders; PCCrime >=100;
+
+[MOD-INF]: ID=266418700300739469(Topic:thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|NAME:Why are you asking me? Maybe you'd like to join the Thieves Guild?|SCVR:01020|INTV|SCVR:11460|INTV:
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|NAME:Why are you asking me? Maybe you'd like to join the Thieves Guild?|SCVR:01020|INTV|SCVR:11460|INTV:
+
+[DUP-INF]: ID=308952045362506783(Greeting:greeting 7)
+  |DATA|NAME:Everyone knows you've got a price on your head. I don't want any trouble. Just leave me alone, and I won't call the guards.|SCVR:01433|INTV:d|BNAM:;PCCrime >=100
+
+[MOD-INF]: ID=762516564401923309(Topic:someone in particular)
+  morrowind.esm---------->|DATA|ANAM:Sadrith Mora, Wolverine Hall|NAME:Here at Wolverine Hall, Hrundi the Nord is Fighters Guild steward, Procyon Nigilius is Mages Guild steward, and Aunius Autrus is the Imperial cult priest. The Telvanni Mouths are over at Telvanni Council Hall. Councilor Mage-Lord Master Neloth lives in Tel Naga, the wizard tower in the center of town. Big Helende, the Thieves Guild Boss, hangs out at Durty Muriel's Cornerclub.|SCVR:0CsX0nolore|INTV:|SCVR:17XX0hrundi|INTV|SCVR:27XX0procyon nigilius|INTV|SCVR:37XX0aunius autrus|INTV
+  What Thieves Guild.ESP->|DATA|ANAM:Sadrith Mora, Wolverine Hall|NAME:Here at Wolverine Hall, Hrundi the Nord is Fighters Guild steward, Procyon Nigilius is Mages Guild steward, and Aunius Autrus is the Imperial cult priest. The Telvanni Mouths are over at Telvanni Council Hall. Councilor Mage-Lord Master Neloth lives in Tel Naga, the wizard tower in the center of town.|SCVR:0CsX0NoLore|INTV:|SCVR:17XX0hrundi|INTV|SCVR:27XX0procyon nigilius|INTV|SCVR:37XX0aunius autrus|INTV
+
+[MOD-INF]: ID=1012427822486532450(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|ANAM:Sadrith Mora|NAME:Alright, you want to go to Dirty Muriel's and talk with Big Helende. She'll tell you what's what.|SCVR:11460|INTV:
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|ANAM:Sadrith Mora|NAME:I can't imagine they hang around here. Right under the nose of the Telvanni? Not likely.|SCVR:11460|INTV:
+
+[MOD-INF]: ID=1104969302050528718(Topic:camonna tong)
+  morrowind.esm---------->|DATA|ANAM:Balmora|NAME:The Camonna Tong is the old criminal syndicate here in Morrowind. And, as everyone around here knows, there's a gang war between the Thieves Guild and the Camonna Tong. In Balmora, the Camonna Tong hangs out over at the cornerclub called the Council Club. Watch yourself if you go in there. They're not very nice people.|SCVR:0BLX0Balmora, Council Club|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Balmora;
+  What Thieves Guild.ESP->|DATA|ANAM:Balmora|NAME:The Camonna Tong is the old criminal syndicate here in Morrowind. And, as everyone around here knows, there's a gang war between the Thieves Guild and the Camonna Tong. In Balmora, the Camonna Tong hangs out over at the cornerclub called the Council Club. Watch yourself if you go in there. They're not very nice people.|SCVR:0BLX0Balmora, Council Club|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Balmora;
+
+[MOD-INF]: ID=1207973371095927775(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|NAME:Don't you already belong, sister %PCName?|SCVR:01460|INTV|SCVR:11380|INTV
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|NAME:Don't you already belong, sister %PCName?|SCVR:01460|INTV|SCVR:11380|INTV
+
+[DUP-INF]: ID=1257229501185421585(Topic:camonna tong)
+  |DATA|ANAM:Balmora|NAME:They say someone hit the Camonna Tong at the Council Club. Hard. Nobody seems to know what happened. Probably the Thieves Guild.|SCVR:04JX3town_balmora|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;Balmora; Journal town_balmora >= 30
+
+[MOD-INF]: ID=1403130214698924047(Topic:advancement)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|NAME:Advancement? No way you could do that unless you want to join the Thieves Guild.|SCVR:01460|INTV:
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|NAME:I don't know what you're suggesting, %PCRace.|SCVR:01460|INTV:
+
+[DUP-INF]: ID=1483026462806631547(Topic:background)
+  |DATA|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:%Name, at your service. I'm in the Guild.|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=1513217763048120821(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|ANAM:Balmora, South Wall Cornerclub|NAME:Talk to Sugar-Lips.|SCVR:11460|INTV:
+  What Thieves Guild.ESP->|DATA|ANAM:Balmora, South Wall Cornerclub|NAME:I don't know what you're talking about. They're nothing to do with me.|SCVR:11460|INTV:
+
+[MOD-INF]: ID=1537992043127627951(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|ANAM:Pelagiad, Halfway Tavern|NAME:Tell you what. Why not visit the South Wall Cornerclub in Balmora? Spend some time there, ask around. If people like what they see, maybe you'll learn something.|SCVR:11460|INTV:
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|ANAM:Pelagiad, Halfway Tavern|NAME:I'm not in the mood for such gossip, %PCRace.|SCVR:11460|INTV:
+
+[MOD-INF]: ID=1747624039121546856(Greeting:greeting 6)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|NAME:Are you looking for me? You want to join the Thieves Guild?|SCVR:01460|INTV:
+  What Thieves Guild.ESP->|DATA|ONAM:habasi|FNAM:Thieves Guild|NAME:Yes, %PCRace? What can this humble Habasi do for you?|SCVR:01460|INTV:
+
+[MOD-INF]: ID=1947411886858921680(Topic:someone in particular)
+  morrowind.esm---------->|DATA|ANAM:Balmora|NAME:None of the Hlaalu counselors live in Balmora. Nileno Dorvayn at the Council Hall is the ranking Hlaalu local. At the Fighters Guild, Eydis Fire-Eye is the steward. Ethasi Rilvayn is the Morag Tong steward. Feldrelo Sadri is the steward for the Balmora Tribunal Temple. Sugar Lips Habasi is the local Thieves Guild boss. Who am I missing? Oh. Mages Guild. Ranis Athrys is their steward.|SCVR:07XX0nileno dorvayn|INTV|SCVR:1CsX0nolore|INTV:|SCVR:27XX0ethasi rilvayn|INTV|SCVR:37XX0feldrelo sadri|INTV|SCVR:47XX0habasi|INTV|SCVR:57XX0ranis athrys|INTV|BNAM:;Balmora
+  What Thieves Guild.ESP->|DATA|ANAM:Balmora|NAME:None of the Hlaalu counselors live in Balmora. Nileno Dorvayn at the Council Hall is the ranking Hlaalu local. At the Fighters Guild, Eydis Fire-Eye is the steward. Ethasi Rilvayn is the Morag Tong steward. Feldrelo Sadri is the steward for the Balmora Tribunal Temple. Who am I missing? Oh. Mages Guild. Ranis Athrys is their steward.|SCVR:07XX0nileno dorvayn|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0ethasi rilvayn|INTV|SCVR:37XX0feldrelo sadri|INTV|SCVR:47XX0habasi|INTV|SCVR:57XX0ranis athrys|INTV|BNAM:;Balmora
+
+[MOD-INF]: ID=1991564472663317568(Topic:requirements)
+  morrowind.esm---------->|DATA|ONAM:neminda|NAME:You have a good reputation, but you do not meet our requirements.|SCVR:01020|INTV
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|NAME:Oh, my requirements are modest, %PCName. And well within the limits of the law.
+
+[DUP-INF]: ID=2475714417414921439(Greeting:greeting 6)
+  |DATA|FNAM:Thieves Guild|NAME:What is it, %PCRank? Are you here looking for jobs, or are you ready for advancement?|SCVR:01460|INTV
+
+[DUP-INF]: ID=2485711098170657805(Topic:thieves guild)
+  |DATA|FNAM:Thieves Guild|NAME:Any jobs or leads for me, %PCRank?|SCVR:01460|INTV
+
+[MOD-INF]: ID=2739375643256517662(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|NAME:You look like you may have some skill... You want to join? Or maybe you want to know what we're all about.|SCVR:01020|INTV|SCVR:11460|INTV:|BNAM:Choice "Yeah, yeah lemme in." 1 "Hear the rules." 2
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|NAME:What is that supposed to mean? I'm a law-abiding citizen.|SCVR:01020|INTV|SCVR:11460|INTV:
+
+[MOD-INF]: ID=2809290792622916185(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|ANAM:Ald-ruhn|NAME:Oh, no Thieves Guild here in Ald'ruhn, no ser. But maybe you should check for yourself over at the Rat in the Pot.|SCVR:11460|INTV:
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|ANAM:Ald-ruhn|NAME:Oh, no Thieves Guild here in Ald'ruhn, no ser. Maybe you should try Gnaar Mok, or Hla Olad? All sorts of shady mer down there.|SCVR:11460|INTV:
+
+[DUP-INF]: ID=3222514357912418028(Topic:join the thieves guild)
+  |DATA|FNAM:Thieves Guild|NAME:You're already a %PCRank in the Thieves Guild, %PCName.|SCVR:01460|INTV
+
+[DUP-INF]: ID=9219202321090226673(Topic:thieves guild)
+  |DATA|FNAM:Thieves Guild|NAME:Yes, %PCRank? What do you need to know?|SCVR:01460|INTV
+
+[MOD-INF]: ID=10197155851661817615(Topic:rules)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|NAME:Just remember there *is* honor among thieves. Do not steal from a brother thief. Everyone else is a mark. Do not attack a brother thief. Do what you will to everyone else.|BNAM:Journal rules_thieves 1
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|NAME:The rules to what, my friend? Nine-holes? Happy to show you a game or two, if you've got the coin to spend.
+
+[DUP-INF]: ID=10501100072923117773(Topic:background)
+  |DATA|RNAM:Khajiit|FNAM:Thieves Guild|NAME:%Name does nothing important.|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=14086255392457720151(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|ANAM:Ald-ruhn, The Rat In The Pot|NAME:Aengoth the Jeweler is the mer you want.|SCVR:11460|INTV:
+  What Thieves Guild.ESP->|DATA|ANAM:Ald-ruhn, The Rat In The Pot|NAME:I don't know what you're suggesting, %PCRace. I make my way through honest means.|SCVR:11460|INTV:
+
+[MOD-INF]: ID=21008195143051312326(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|ANAM:Vivec|NAME:Maybe we could use you. Talk to Gentleman Jim Stacey in Simine Fralinie's shop?|SCVR:11460|INTV:|SCVR:21020|INTV
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|ANAM:Vivec|NAME:Why are you asking me, %PCRace? Do I look like a thief to you?|SCVR:11460|INTV:|SCVR:21020|INTV
+
+[MOD-INF]: ID=21348300001135727975(Topic:someone in particular)
+  morrowind.esm---------->|DATA|ANAM:Sadrith Mora, Dirty Muriel's Cornerclub|NAME:The Telvanni Mouths are over at Telvanni Council Hall. Over at Wolverine Hall, look for Hrundi the Nord, Fighters Guild steward; Procyon Nigilius, Mages Guild steward; and Aunius Autrus, Imperial cult priest. Councilor Mage-Lord Master Neloth lives in Tel Naga, the wizard tower in the center of town. Big Helende, the Thieves Guild Boss, hangs out here at Durty Muriel's.|SCVR:0CsX0nolore|INTV:|SCVR:17XX0big helende|INTV
+  What Thieves Guild.ESP->|DATA|ANAM:Sadrith Mora, Dirty Muriel's Cornerclub|NAME:The Telvanni Mouths are over at Telvanni Council Hall. Over at Wolverine Hall, look for Hrundi the Nord, Fighters Guild steward; Procyon Nigilius, Mages Guild steward; and Aunius Autrus, Imperial cult priest. Councilor Mage-Lord Master Neloth lives in Tel Naga, the wizard tower in the center of town.|SCVR:0CsX0NoLore|INTV:|SCVR:17XX0big helende|INTV
+
+[DUP-INF]: ID=22109176162271620109(Topic:little secret)
+  |DATA|CNAM:Miner|NAME:We miners don't grow the eggs. We just harvest them. The queen lays the eggs, the workers plant them, tend them, and nourish them, and we harvest them. Doesn't hurt the colony. They grow far more than they need.|SCVR:01064|INTV|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=25674317033170217218(Topic:thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|NAME:They're much like any trade guild, I suppose. Why are you asking me?|SCVR:0CsX0NoLore|INTV:
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|NAME:You hear rumours, sure. Can't say there's much truth in it though.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=25674317033170217218(Topic:thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|NAME:They're much like any trade guild, I suppose. Why are you asking me?|SCVR:0CsX0NoLore|INTV:
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|NAME:You hear rumours, sure. Can't say there's much truth in it though.|SCVR:0CsX0NoLore|INTV:
+[MOD-IID]: ID=2584626125150076639
+  What Thieves Guild.ESP->They're much like any trade guild, I suppose. Why are you asking me?
+
+[MOD-INF]: ID=28722210552542225114(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|ANAM:Sadrith Mora, Dirty Muriel's Cornerclub|NAME:You want Big Helende. She runs this place. Can't miss her.|SCVR:11460|INTV:
+  What Thieves Guild.ESP->|DATA|ANAM:Sadrith Mora, Dirty Muriel's Cornerclub|NAME:Sure, I've heard rumours. But I wouldn't know where to find them, even if there was such an thing.|SCVR:11460|INTV:
+
+[DUP-INF]: ID=28891211742914124383(Topic:little secret)
+  |DATA|ONAM:ra'gruzgob|NAME:No moon sugar, no secrets.
+
+[MOD-INF]: ID=29105304272092326474(Topic:join the thieves guild)
+  morrowind.esm---------->|DATA|FNAM:Thieves Guild|ANAM:Balmora|NAME:Hm. Maybe we could use you. Why not visit the South Wall Cornerclub? Spend some time there, ask around. Maybe you'll learn something.|SCVR:11460|INTV:
+  What Thieves Guild.ESP->|DATA|FNAM:Thieves Guild|ANAM:Balmora|NAME:Sure, I've heard rumours. But I wouldn't know where to find them, even if there was such an thing.|SCVR:11460|INTV:

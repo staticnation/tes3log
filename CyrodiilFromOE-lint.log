@@ -1,0 +1,12 @@
+CyrodiilFromOE.ESP: DUP-REC MASTERS MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            163703637 (plugin)  163244128 (installed size)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	cyr_main.esm        NPC_    pc_x1-str_quintex
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=2606227152308927394(Greeting:greeting 5)
+  cyr_main.esm------->|DATA|ONAM:PC_x1-Str_Quintex|NAME:Greetings. I am Quintex Doralis, agent of the East Empire Company. I organize supply trips for our operations in Vvardenfell, Morrowind. You know, we have some extra space for passengers if you're interested.
+  CyrodiilFromOE.ESP->|DATA|ONAM:PC_x1-Str_Quintex|NAME:Greetings. I am Quintex Doralis, agent of the East Empire Company. I organize supply trips for our operations in Morrowind. You know, we have some extra space for passengers if you're interested.

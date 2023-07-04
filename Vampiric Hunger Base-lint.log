@@ -1,0 +1,47 @@
+Vampiric Hunger Base.esp: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(VH_AddDrinkedVampireBonuses)
+	SCPT(VH_DecHunger3)
+	SCPT(VH_Dialog_CheckCattleReqs)
+	SCPT(VH_Dialog_CheckDagger)
+	SCPT(VH_Dialog_CheckEquipment)
+	SCPT(VH_E_Setup)
+	SCPT(VH_Global)
+	SCPT(VH_Hunger_Ability)
+	SCPT(VH_Hunger_Health)
+	SCPT(VH_L_Setup)
+	SCPT(VH_L_Setup_1)
+	SCPT(VH_L_Setup_2)
+	SCPT(VH_L_Setup_3)
+	SCPT(VH_L_Setup_4)
+	SCPT(VH_L_Setup_5)
+	SCPT(VH_L_Setup_Age)
+	SCPT(VH_Local_Bottle)
+	SCPT(VH_Local_Fire1)
+	SCPT(VH_Local_Fire2)
+	SCPT(VH_Local_Fire3)
+	SCPT(VH_Local_Goblet)
+	SCPT(VH_Local_MolagBal)
+	SCPT(VH_Local_Rats)
+	SCPT(VH_Local_Rats_BlackHeart)
+	SCPT(VH_Local_Rats_Witbane)
+	SCPT(VH_Local_Retort)
+	SCPT(VH_Local_SetupAmulet)
+	SCPT(VH_Local_Tube)
+	SCPT(VH_MonitorDays)
+	SCPT(VH_MonitorHours)
+	SCPT(VH_RemoveContainer)
+	SCPT(VH_Setup)
+	SCPT(VH_StartOnLoad)
+	SCPT(VH_VampireBonusHandler)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CREA    rat
+	morrowind.esm       CREA    rat_blighted
+	morrowind.esm       CREA    rat_cave_fgrh
+	morrowind.esm       CREA    rat_cave_fgt
+	morrowind.esm       CREA    rat_cave_hhte1
+	morrowind.esm       CREA    rat_cave_hhte2
+	morrowind.esm       CREA    rat_telvanni_unique_2
+	morrowind.esm       NPC_    cattle_kha_f01
+	tribunal.esm        CREA    rat_diseased

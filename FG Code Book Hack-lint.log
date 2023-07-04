@@ -1,0 +1,21 @@
+FG Code Book Hack.ESP: DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(FG_SottildeLure_Script)         clearforcerun
+	SCPT(FG_SottildeLure_Script)         forcerun
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FG_Bagrat_Aglakh_Note_S)
+	SCPT(FG_SottildeBarrel_S)
+	SCPT(FG_SottildeLure_Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    code book
+	tribunal.esm        DIAL    fg_sottilde
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=113211106899917354(Topic:code book)
+  morrowind.esm--------->|DATA|ONAM:sottilde|DNAM:Thieves Guild|NAME:Look, %PCRank, I'll tell you what's going on. This code book has dirt on the Camonna Tong and the skooma trade. As soon as we get it figured out, we take it to the authorities and take over the trade ourselves. The Fighters Guild works for the Camonna Tong since Sjoring Hard-Heart took over. You have to decide where your loyalties lie, %PCRank.|SCVR:34JX3FG_Sottilde|INTV: 
+  FG Code Book Hack.ESP->|DATA|ONAM:sottilde|DNAM:Thieves Guild|NAME:Look, %PCRank, I'll tell you what's going on. This code book has dirt on the Camonna Tong and the skooma trade. As soon as we get it figured out, we take it to the authorities and take over the trade ourselves. The Fighters Guild works for the Camonna Tong since Sjoring Hard-Heart took over. You have to decide where your loyalties lie, %PCRank.|SCVR:34JX3FG_Sottilde|INTV: |BNAM:Journal FG_CodeBookForP 2
+
+[MOD-INF]: ID=19824177531142629010(Topic:code book)
+  morrowind.esm--------->|DATA|ONAM:sottilde|NAME:Okay, friend. You know about the code book. I don't want any trouble with you, so just take it. Just don't tell anyone I gave it to you.|SCVR:34JX3FG_Sottilde|INTV: |BNAM:RemoveItem "bk_sottildescodebook" 1  Player->AddItem "bk_sottildescodebook" 1  Journal FG_Sottilde 50
+  FG Code Book Hack.ESP->|DATA|ONAM:sottilde|NAME:Okay, friend. You know about the code book. I don't want any trouble with you, so just take it. Just don't tell anyone I gave it to you.|SCVR:34JX3FG_Sottilde|INTV: |BNAM:RemoveItem "bk_sottildescodebook" 1  Player->AddItem "bk_sottildescodebook" 1  Journal FG_Sottilde 50  Journal FG_SSottildeLure 8

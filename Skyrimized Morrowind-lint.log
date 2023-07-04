@@ -1,0 +1,205 @@
+Skyrimized Morrowind.ESP: DUP-REC EXP-DEP EVLGMST JUNKCEL MENUMOD MISSAUT MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (137) != Actual count (126)
+    [EXP-DEP] Expansion Dependency: Startup Script: magicka_regeneration
+    [EVLGMST] Tribunal(11) Bloodmoon(61):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfalarmmessage
+	BM swerewolfpopup
+	BM swerewolfrefusal
+	BM swerewolfrestmessage
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+	TB steleportdisabled
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Startup)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       GMST    ffatiguebase
+	morrowind.esm       GMST    fjumpencumbrancemultiplier
+	morrowind.esm       INGR    ingred_wickwheat_01
+	morrowind.esm       SCPT    Startup
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       INGR    ingred_ash_yam_01
+	bloodmoon.esm       INGR    ingred_saltrice_01
+	morrowind.esm       GMST    fathleticsrunbonus
+	morrowind.esm       GMST    fbaserunmultiplier
+	morrowind.esm       GMST    fencumberedmoveeffect
+	morrowind.esm       GMST    ffallacromult
+	morrowind.esm       GMST    ffatiguerunbase
+	morrowind.esm       GMST    ffatiguerunmult
+	morrowind.esm       GMST    ffatigueswimrunbase
+	morrowind.esm       GMST    ffatigueswimwalkbase
+	morrowind.esm       GMST    fjumpacrobaticsbase
+	morrowind.esm       GMST    fjumpencumbrancebase
+	morrowind.esm       GMST    fsneakspeedmultiplier
+	morrowind.esm       GMST    fswimrunathleticsmult
+	morrowind.esm       GMST    fswimwalkathleticsmult
+	morrowind.esm       INGR    food_kwama_egg_01
+	morrowind.esm       INGR    food_kwama_egg_02
+	morrowind.esm       INGR    ingred_daedras_heart_01
+	morrowind.esm       INGR    ingred_hackle-lo_leaf_01
+	morrowind.esm       INGR    ingred_rat_meat_01
+	morrowind.esm       INGR    ingred_scrib_jelly_01
+	morrowind.esm       INGR    ingred_scrib_jerky_01
+	morrowind.esm       RACE    argonian
+	morrowind.esm       RACE    breton
+	morrowind.esm       RACE    dark elf
+	morrowind.esm       RACE    high elf
+	morrowind.esm       RACE    imperial
+	morrowind.esm       RACE    khajiit
+	morrowind.esm       RACE    nord
+	morrowind.esm       RACE    orc
+	morrowind.esm       RACE    redguard
+	morrowind.esm       RACE    wood elf
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage

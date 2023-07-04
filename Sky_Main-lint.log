@@ -1,0 +1,613 @@
+Sky_Main.esm: DUP-REC GETSND MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(Sky_Merc_DSW_Zanarhi_sc)
+	SCPT(Sky_Merc_KW_Rismund_sc)
+	SCPT(Sky_qRe_DH4_Larrik_sc)
+	SCPT(Sky_qRe_DSTG_Cael_sc)
+	SCPT(Sky_qRe_MAI2_Conall_sc)
+	SCPT(Sky_qRe_MAI_Makova_sc)
+	SCPT(Sky_qRe_NAR2_Bedli_sc)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Sky_Console_Angturiel_sc)
+	SCPT(Sky_Merc_DSW_Zanarhi_Move_sc)
+	SCPT(Sky_Merc_KW_Rismund_Move_sc)
+	SCPT(Sky_Pub_DSE_Shadowkey)
+	SCPT(Sky_Pub_DSW_DragonFountain)
+	SCPT(Sky_Pub_DSW_NukraTikil)
+	SCPT(Sky_Pub_HA_Jhorcian)
+	SCPT(Sky_Pub_KW_Dancing_Saber)
+	SCPT(Sky_Pub_KW_Ruby_Drake)
+	SCPT(Sky_Pub_LH_Daracam)
+	SCPT(Sky_Pub_MER_Rhuma)
+	SCPT(Sky_Pub_VF_Even_Odds_Inn)
+	SCPT(Sky_Religion_sc)
+	SCPT(Sky_ScNpc_Jailed)
+	SCPT(Sky_ScNpc_Ruari)
+	SCPT(Sky_iRe_DH_Curse_sc)
+	SCPT(Sky_iRe_DSW_Ira_sc)
+	SCPT(Sky_iRe_HA_HouseOfGods_sc)
+	SCPT(Sky_iRe_KW_WallSaber_sc)
+	SCPT(Sky_qRe_BAI1_Karra_sc)
+	SCPT(Sky_qRe_BAI1_Seonach_sc)
+	SCPT(Sky_qRe_BM1_Delpha_sc)
+	SCPT(Sky_qRe_BM1_Nulnea_sc)
+	SCPT(Sky_qRe_BM1_Tusk_sc)
+	SCPT(Sky_qRe_BM2_Salgaic_sc)
+	SCPT(Sky_qRe_BM4_Chosen_sc)
+	SCPT(Sky_qRe_BM4_Door_sc)
+	SCPT(Sky_qRe_BM4_Ghealach_sc)
+	SCPT(Sky_qRe_BM4_Warden_sc)
+	SCPT(Sky_qRe_BM_Druabith_sc)
+	SCPT(Sky_qRe_BM_Fhegain_sc)
+	SCPT(Sky_qRe_BM_Malthorc_sc)
+	SCPT(Sky_qRe_BM_Vesmorah_sc)
+	SCPT(Sky_qRe_BM_Whispers_sc)
+	SCPT(Sky_qRe_BM_forcefield_sc)
+	SCPT(Sky_qRe_CK1_BathRing_sc)
+	SCPT(Sky_qRe_CK1_QstRing_sc)
+	SCPT(Sky_qRe_DH1_Kjalmar_sc)
+	SCPT(Sky_qRe_DH2_Entrance_sc)
+	SCPT(Sky_qRe_DH2_Rock_sc)
+	SCPT(Sky_qRe_DH2_TrollSurf_sc)
+	SCPT(Sky_qRe_DH2_TrollUnder_sc)
+	SCPT(Sky_qRe_DH2_Wilbur_sc)
+	SCPT(Sky_qRe_DH4_Beten_sc)
+	SCPT(Sky_qRe_DH4_Spriggan_sc)
+	SCPT(Sky_qRe_DH5_Ekil_sc)
+	SCPT(Sky_qRe_DSB1_Cacitus_sc)
+	SCPT(Sky_qRe_DSB1_Notice_sc)
+	SCPT(Sky_qRe_DSB2_CegoraPr_sc)
+	SCPT(Sky_qRe_DSB2_Notice_sc)
+	SCPT(Sky_qRe_DSB3_LoviPr_sc)
+	SCPT(Sky_qRe_DSB3_Notice_sc)
+	SCPT(Sky_qRe_DSB4_Iztara_sc)
+	SCPT(Sky_qRe_DSB4_PrisonDoor_sc)
+	SCPT(Sky_qRe_DSB5_Campfire_sc)
+	SCPT(Sky_qRe_DSB5_Campsite_sc)
+	SCPT(Sky_qRe_DSB5_Notice_sc)
+	SCPT(Sky_qRe_DSB5_Orcs_sc)
+	SCPT(Sky_qRe_DSE1_GiveAlmsNL_sc)
+	SCPT(Sky_qRe_DSE1_GiveAlms_sc)
+	SCPT(Sky_qRe_DSE1_Helle_sc)
+	SCPT(Sky_qRe_DSE2_Apple_sc)
+	SCPT(Sky_qRe_DSE2_Aygme_sc)
+	SCPT(Sky_qRe_DSE2_Bag_sc)
+	SCPT(Sky_qRe_DSE2_Boar_sc)
+	SCPT(Sky_qRe_DSE3_KyraJail_sc)
+	SCPT(Sky_qRe_DSE3_RazhabJail_sc)
+	SCPT(Sky_qRe_DSE3_RazhabStuff_sc)
+	SCPT(Sky_qRe_DSE3_Razhab_sc)
+	SCPT(Sky_qRe_DSE3_Rubble_sc)
+	SCPT(Sky_qRe_DSE3_WeedKiller_sc)
+	SCPT(Sky_qRe_DSE4_2Fans_sc)
+	SCPT(Sky_qRe_DSE4_3Fans_sc)
+	SCPT(Sky_qRe_DSE4_4Fans_sc)
+	SCPT(Sky_qRe_DSE4_5Fans_sc)
+	SCPT(Sky_qRe_DSE4_6Fans_sc)
+	SCPT(Sky_qRe_DSE4_Disqual_sc)
+	SCPT(Sky_qRe_DSE4_Fight01_sc)
+	SCPT(Sky_qRe_DSE4_Fight02_sc)
+	SCPT(Sky_qRe_DSE4_Fight03_sc)
+	SCPT(Sky_qRe_DSE4_Fight04_sc)
+	SCPT(Sky_qRe_DSE4_Fight05_sc)
+	SCPT(Sky_qRe_DSE4_Fight06_sc)
+	SCPT(Sky_qRe_DSE4_Fight07_sc)
+	SCPT(Sky_qRe_DSE4_Fight08_sc)
+	SCPT(Sky_qRe_DSE4_Fight09_sc)
+	SCPT(Sky_qRe_DSE4_Fight10_sc)
+	SCPT(Sky_qRe_DSE4_Rekir_sc)
+	SCPT(Sky_qRe_DSE5_Brielle_sc)
+	SCPT(Sky_qRe_DSE_Ar_Gate1_sc)
+	SCPT(Sky_qRe_DSE_Ar_Gate2_sc)
+	SCPT(Sky_qRe_DSE_Ar_Handler_sc)
+	SCPT(Sky_qRe_DSE_Ar_Hostile_sc)
+	SCPT(Sky_qRe_DSE_Ildgar_sc)
+	SCPT(Sky_qRe_DSE_Jona_sc)
+	SCPT(Sky_qRe_DSE_Malrec_sc)
+	SCPT(Sky_qRe_DSMG1_FormulaNotes_sc)
+	SCPT(Sky_qRe_DSMG1_Letter_sc)
+	SCPT(Sky_qRe_DSMG1_Research_sc)
+	SCPT(Sky_qRe_DSMG2_Potion_sc)
+	SCPT(Sky_qRe_DSMG3_DuncanArena_sc)
+	SCPT(Sky_qRe_DSMG3_Duncan_sc)
+	SCPT(Sky_qRe_DSMG3_Move_sc)
+	SCPT(Sky_qRe_DSMG3_Orguz_sc)
+	SCPT(Sky_qRe_DSMG4_Book_sc)
+	SCPT(Sky_qRe_DSMG4_Candle_sc)
+	SCPT(Sky_qRe_DSMG4_Move_sc)
+	SCPT(Sky_qRe_DSMG4_Salts_sc)
+	SCPT(Sky_qRe_DSMG5_Direnni_sc)
+	SCPT(Sky_qRe_DSMG5_Galklinth_sc)
+	SCPT(Sky_qRe_DSMG_Eranthos_sc)
+	SCPT(Sky_qRe_DSTG02_KeyWarehouse_sc)
+	SCPT(Sky_qRe_DSTG2_Chest_sc)
+	SCPT(Sky_qRe_DSTG2_DoorDblUnl_sc)
+	SCPT(Sky_qRe_DSTG2_DoorDbl_sc)
+	SCPT(Sky_qRe_DSTG2_DrazInn_sc)
+	SCPT(Sky_qRe_DSTG2_Drazar_sc)
+	SCPT(Sky_qRe_DSTG2_Guard_sc)
+	SCPT(Sky_qRe_DSTG2_JRizar_sc)
+	SCPT(Sky_qRe_DSTG2_JriInn_sc)
+	SCPT(Sky_qRe_DSTG2_Sword_sc)
+	SCPT(Sky_qRe_DSTG3_InformGlb_sc)
+	SCPT(Sky_qRe_DSTG3_Informant_sc)
+	SCPT(Sky_qRe_DSTG3_Travel01_sc)
+	SCPT(Sky_qRe_DSTG4_Forging_sc)
+	SCPT(Sky_qRe_DSTG5_Guthring_sc)
+	SCPT(Sky_qRe_DSTG5_Travel01_sc)
+	SCPT(Sky_qRe_DSTG5_Travel02_sc)
+	SCPT(Sky_qRe_DSTG5_Travel03_sc)
+	SCPT(Sky_qRe_DSTG5_Travel04_sc)
+	SCPT(Sky_qRe_DSTG5_Travel05_sc)
+	SCPT(Sky_qRe_DSTG6_Orders_sc)
+	SCPT(Sky_qRe_DSTG6_Razin_sc)
+	SCPT(Sky_qRe_DSTG6_Timer_sc)
+	SCPT(Sky_qRe_DSTG7_Cael_sc)
+	SCPT(Sky_qRe_DSTG7_D_Guard_sc)
+	SCPT(Sky_qRe_DSTG7_Lever_sc)
+	SCPT(Sky_qRe_DSTG7_Orichalc_sc)
+	SCPT(Sky_qRe_DSTG7_Sack_sc)
+	SCPT(Sky_qRe_DSTG7_Timer_sc)
+	SCPT(Sky_qRe_DSTG7_VaultDoor_sc)
+	SCPT(Sky_qRe_DSW1_Cache_sc)
+	SCPT(Sky_qRe_DSW1_D_Mesara_sc)
+	SCPT(Sky_qRe_DSW1_ItemCheck_sc)
+	SCPT(Sky_qRe_DSW1_Letter_sc)
+	SCPT(Sky_qRe_DSW2_Orcs_sc)
+	SCPT(Sky_qRe_DSW2_Selim_sc)
+	SCPT(Sky_qRe_DSW2_Sharga_sc)
+	SCPT(Sky_qRe_DSW2_Skull_sc)
+	SCPT(Sky_qRe_DSW3_Morasdan_sc)
+	SCPT(Sky_qRe_DSW3_Sorl_sc)
+	SCPT(Sky_qRe_DSW4_Alek_sc)
+	SCPT(Sky_qRe_DSW4_BreadCheck_sc)
+	SCPT(Sky_qRe_DSW4_RhalanPr_sc)
+	SCPT(Sky_qRe_DSW4_Sack_sc)
+	SCPT(Sky_qRe_DSW_Alaktol_sc)
+	SCPT(Sky_qRe_DSW_Davanna_sc)
+	SCPT(Sky_qRe_DSW_Ilera_sc)
+	SCPT(Sky_qRe_HA1_Cultist_sc)
+	SCPT(Sky_qRe_HA1_Rilor_sc)
+	SCPT(Sky_qRe_HA1_Skeleton_sc)
+	SCPT(Sky_qRe_HA1_Skull_sc)
+	SCPT(Sky_qRe_HA2_Marker_sc)
+	SCPT(Sky_qRe_HA3_Crate_sc)
+	SCPT(Sky_qRe_HA3_Dovoc_sc)
+	SCPT(Sky_qRe_HA3_Sack_sc)
+	SCPT(Sky_qRe_HA3_Sick_sc)
+	SCPT(Sky_qRe_HA_Farkon_sc)
+	SCPT(Sky_qRe_KG1_Nauk_sc)
+	SCPT(Sky_qRe_KG1_Spikeworm_sc)
+	SCPT(Sky_qRe_KG2_Barjorg1_sc)
+	SCPT(Sky_qRe_KG2_Grandr_sc)
+	SCPT(Sky_qRe_KG5_Hoard_sc)
+	SCPT(Sky_qRe_KG5_Norjor_sc)
+	SCPT(Sky_qRe_KG5_SViir_sc)
+	SCPT(Sky_qRe_KG_Gorvrda_sc)
+	SCPT(Sky_qRe_KW1a_Journal_sc)
+	SCPT(Sky_qRe_KW1b_Journal_sc)
+	SCPT(Sky_qRe_KW1c_Journal_sc)
+	SCPT(Sky_qRe_KW1d_Journal_sc)
+	SCPT(Sky_qRe_KW3_Captive_sc)
+	SCPT(Sky_qRe_KW4_Crossbow_sc)
+	SCPT(Sky_qRe_KW4_D_Odric_sc)
+	SCPT(Sky_qRe_KW4_Tabica_sc)
+	SCPT(Sky_qRe_KW5_Notes_sc)
+	SCPT(Sky_qRe_KW6_Bjorlan_sc)
+	SCPT(Sky_qRe_KW7_Ahknir_sc)
+	SCPT(Sky_qRe_KW7_JaZavirr_sc)
+	SCPT(Sky_qRe_KW8_Braljor_sc)
+	SCPT(Sky_qRe_KW8_Dagger_sc)
+	SCPT(Sky_qRe_KWB01_Gang_sc)
+	SCPT(Sky_qRe_KWB02_DovicaPr_sc)
+	SCPT(Sky_qRe_KWB03_Uldar_sc)
+	SCPT(Sky_qRe_KWB04_Meshif_sc)
+	SCPT(Sky_qRe_KWB04_Tharag_sc)
+	SCPT(Sky_qRe_KWB06_Gang_sc)
+	SCPT(Sky_qRe_KWB08_Gang_sc)
+	SCPT(Sky_qRe_KWB09_Cult_sc)
+	SCPT(Sky_qRe_KWFG1_Haldine_sc)
+	SCPT(Sky_qRe_KWFG1_Wormmouth_sc)
+	SCPT(Sky_qRe_KWFG2_Bandits_sc)
+	SCPT(Sky_qRe_KWFG3_Bandits2_sc)
+	SCPT(Sky_qRe_KWFG3_Bandits_sc)
+	SCPT(Sky_qRe_KWFG3_Caravan_sc)
+	SCPT(Sky_qRe_KWFG3_Ildos_sc)
+	SCPT(Sky_qRe_KWFG4_Frinad_sc)
+	SCPT(Sky_qRe_KWFG_Rolic_sc)
+	SCPT(Sky_qRe_KWMG2_Chest_sc)
+	SCPT(Sky_qRe_KWMG2_Penumbra_sc)
+	SCPT(Sky_qRe_KWMG4_BadPotion_sc)
+	SCPT(Sky_qRe_KWMG4_D_Ravos_sc)
+	SCPT(Sky_qRe_KWMG4_HavildInv_sc)
+	SCPT(Sky_qRe_KWMG4_MoveHavild_sc)
+	SCPT(Sky_qRe_KWMG4_MoveRavos_sc)
+	SCPT(Sky_qRe_KWMG5_Irgas_01_sc)
+	SCPT(Sky_qRe_KWMG5_Irgas_02_sc)
+	SCPT(Sky_qRe_KWMG5_Marcur_01_sc)
+	SCPT(Sky_qRe_KWMG5_Marcur_02_sc)
+	SCPT(Sky_qRe_KWMG5_PadMisc2_sc)
+	SCPT(Sky_qRe_KWMG5_PadMisc_sc)
+	SCPT(Sky_qRe_KWMG6_Basin_sc)
+	SCPT(Sky_qRe_KWMG6_Mayra_sc)
+	SCPT(Sky_qRe_KWMG6_Penumbra_sc)
+	SCPT(Sky_qRe_KWMG6_Residue_sc)
+	SCPT(Sky_qRe_KWMG6_Riloch_sc)
+	SCPT(Sky_qRe_KWMG6_RingJ_sc)
+	SCPT(Sky_qRe_KWMG6_RuariGhosts_sc)
+	SCPT(Sky_qRe_KWMG6_RuariRestore_sc)
+	SCPT(Sky_qRe_KWMG6_RuariRuins_sc)
+	SCPT(Sky_qRe_KWMG6_Saram_sc)
+	SCPT(Sky_qRe_KWMG6_Uthore_sc)
+	SCPT(Sky_qRe_KWMG6_WaterClean_sc)
+	SCPT(Sky_qRe_KWMG_JiTavarad_sc)
+	SCPT(Sky_qRe_KWMG_Ravos_sc)
+	SCPT(Sky_qRe_KWTG1_Caponicus_sc)
+	SCPT(Sky_qRe_KWTG2_Customer_sc)
+	SCPT(Sky_qRe_KWTG3_Corelyn_sc)
+	SCPT(Sky_qRe_KWTG3_Dagger_sc)
+	SCPT(Sky_qRe_KWTG4_Cleanup_sc)
+	SCPT(Sky_qRe_KWTG4_Jeanelle_sc)
+	SCPT(Sky_qRe_KWTG4_Wine_sc)
+	SCPT(Sky_qRe_KWTG5_Assistant_sc)
+	SCPT(Sky_qRe_KWTG5_Rianard_sc)
+	SCPT(Sky_qRe_KWTG6_Bridnar_sc)
+	SCPT(Sky_qRe_KWTG6_Chest_sc)
+	SCPT(Sky_qRe_KWTG6_RealMap_sc)
+	SCPT(Sky_qRe_KWTG7_Button_sc)
+	SCPT(Sky_qRe_KWTG7_DoorOpen_sc)
+	SCPT(Sky_qRe_KWTG7_Heirloom_sc)
+	SCPT(Sky_qRe_KWTG7_Shog_sc)
+	SCPT(Sky_qRe_KWTG8_Letter_sc)
+	SCPT(Sky_qRe_KWTG8_List_sc)
+	SCPT(Sky_qRe_KWTG_Erald_sc)
+	SCPT(Sky_qRe_KW_Aladoer_sc)
+	SCPT(Sky_qRe_KW_Sogat_sc)
+	SCPT(Sky_qRe_LH1_MoveRiloch_sc)
+	SCPT(Sky_qRe_LH1_MoveSaram_sc)
+	SCPT(Sky_qRe_MAI1_Callach_sc)
+	SCPT(Sky_qRe_MAI2_BanditLead_sc)
+	SCPT(Sky_qRe_MAI2_Bandits_sc)
+	SCPT(Sky_qRe_MAI2_Sack_sc)
+	SCPT(Sky_qRe_MAI3_Lisva_sc)
+	SCPT(Sky_qRe_MAI3_Note_sc)
+	SCPT(Sky_qRe_MAI3_Starter_sc)
+	SCPT(Sky_qRe_MAI4_Boots_sc)
+	SCPT(Sky_qRe_MAI4_Goat_sc)
+	SCPT(Sky_qRe_MAI4_Gylghi_sc)
+	SCPT(Sky_qRe_MAI_Caoimhe_sc)
+	SCPT(Sky_qRe_MAI_D_Conall_sc)
+	SCPT(Sky_qRe_NAR1_GoatVic1_sc)
+	SCPT(Sky_qRe_NAR1_GoatVic2_sc)
+	SCPT(Sky_qRe_NAR1_GoatVic3_sc)
+	SCPT(Sky_qRe_NAR1_Wolf_sc)
+	SCPT(Sky_qRe_NAR1_Yatur_sc)
+	SCPT(Sky_qRe_NAR2_Chief_sc)
+	SCPT(Sky_qRe_TH_Veros_sc)
+	SCPT(Sky_qRe_URA1_Chief_sc)
+	SCPT(Sky_qRe_URA1_Nagra_sc)
+	SCPT(Sky_qRe_VF1_Nelisse_sc)
+	SCPT(Sky_qRe_VF1_Vacuum_sc)
+	SCPT(Sky_qRe_VF2_CheckDeath_sc)
+	SCPT(Sky_qRe_VF2_Kenovi_sc)
+	SCPT(Sky_qRe_VF2_Kovko_sc)
+	SCPT(Sky_qRe_VF2_Nord_sc)
+	SCPT(Sky_qRe_VF2_Reachmen_sc)
+	SCPT(Sky_qRe_VF3_Chest_sc)
+	SCPT(Sky_xRe_DSE_BlockedDoor_sc)
+	SCPT(Sky_xRe_DSW_HolyRooster_sc)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    ac_darkgravel
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_clover
+	morrowind.esm       LTEX    ai_dirt
+	morrowind.esm       LTEX    ai_dirtroad
+	morrowind.esm       LTEX    ai_grass
+	morrowind.esm       LTEX    ai_grass_02
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_dirt
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    ai_tilled_dirt
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_04
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava02
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sandstone02
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock03
+	morrowind.esm       LTEX    ma_sulphur_rock05
+	morrowind.esm       LTEX    ma_sulphur_rock06
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    ma_sulphur_rock08
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    rm_grayrock
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_rock_03
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    sand_02
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_road
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    forts
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    mead
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    sovngarde
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_02.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_04.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_05.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_06.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_rock_01.dds
+	morrowind.esm       DIAL    bounty
+	morrowind.esm       DIAL    caius cosades
+	morrowind.esm       DIAL    current events
+	morrowind.esm       DIAL    destination
+	morrowind.esm       DIAL    dwemer ruins
+	morrowind.esm       DIAL    factions
+	morrowind.esm       DIAL    fines and compensation
+	morrowind.esm       DIAL    geographic regions
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    greeting 8
+	morrowind.esm       DIAL    our dark powers
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    lavacrust02.tga
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_mainroad_01
+	tamriel_data.esm    DIAL    blessings
+	tamriel_data.esm    DIAL    breton
+	tamriel_data.esm    DIAL    dibella
+	tamriel_data.esm    DIAL    fighters guild
+	tamriel_data.esm    DIAL    greeting 2
+	tamriel_data.esm    DIAL    guild guide
+	tamriel_data.esm    DIAL    imperial cult
+	tamriel_data.esm    DIAL    jobs
+	tamriel_data.esm    DIAL    join the fighters guild
+	tamriel_data.esm    DIAL    join the thieves guild
+	tamriel_data.esm    DIAL    khajiit
+	tamriel_data.esm    DIAL    mages guild
+	tamriel_data.esm    DIAL    make amends
+	tamriel_data.esm    DIAL    mara
+	tamriel_data.esm    DIAL    orc
+	tamriel_data.esm    DIAL    price on your head
+	tamriel_data.esm    DIAL    shrines
+	tamriel_data.esm    DIAL    talos
+	tamriel_data.esm    DIAL    the rules
+	tamriel_data.esm    DIAL    thieves guild
+	tamriel_data.esm    LTEX    t_ayl_dngruin_txfloor_01
+	tamriel_data.esm    LTEX    t_cyr_terrfarmlandgc_01
+	tamriel_data.esm    LTEX    t_cyr_terrgrassdirtgh_01
+	tamriel_data.esm    LTEX    t_cyr_terrgrassgh_01
+	tamriel_data.esm    LTEX    t_cyr_terrgrassrockch_01
+	tamriel_data.esm    LTEX    t_cyr_terrgrassrockgc_01
+	tamriel_data.esm    LTEX    t_cyr_terrmudrivergc_01
+	tamriel_data.esm    LTEX    t_cyr_terrroadstonegc_01
+	tamriel_data.esm    LTEX    t_cyr_terrrockgh_01
+	tamriel_data.esm    LTEX    t_cyr_terrsalt_01
+	tamriel_data.esm    LTEX    t_cyr_terrsalt_02
+	tamriel_data.esm    LTEX    t_cyr_terrsalt_03
+	tamriel_data.esm    LTEX    t_cyr_terrsandgc_01
+	tamriel_data.esm    LTEX    t_cyr_terrsandgc_03
+	tamriel_data.esm    LTEX    t_de_setind_txcobblestone_01
+	tamriel_data.esm    LTEX    t_de_setind_txcobblestone_02
+	tamriel_data.esm    LTEX    t_de_setind_txornatefloor_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txcobblestone_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txfloor_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txfloor_02
+	tamriel_data.esm    LTEX    t_glb_terrwater_01
+	tamriel_data.esm    LTEX    t_imp_dngcolbarrow_txfloor_01
+	tamriel_data.esm    LTEX    t_imp_dngruincyr_txfloor_01
+	tamriel_data.esm    LTEX    t_imp_dngruincyr_txfloor_02
+	tamriel_data.esm    LTEX    t_imp_dngruinsky_txfloor_01
+	tamriel_data.esm    LTEX    t_imp_dngruinsky_txfloor_02
+	tamriel_data.esm    LTEX    t_imp_highway_txroaddry_01a
+	tamriel_data.esm    LTEX    t_imp_highway_txroaddry_01b
+	tamriel_data.esm    LTEX    t_imp_highway_txroadlvs_01b
+	tamriel_data.esm    LTEX    t_imp_highway_txroadlvs_02b
+	tamriel_data.esm    LTEX    t_imp_highway_txroadsnw_01a
+	tamriel_data.esm    LTEX    t_imp_highway_txroadsnw_01b
+	tamriel_data.esm    LTEX    t_imp_highway_txroadsnw_02a
+	tamriel_data.esm    LTEX    t_imp_highway_txroadsnw_02b
+	tamriel_data.esm    LTEX    t_imp_legioncyr_txfloor_01
+	tamriel_data.esm    LTEX    t_imp_legioncyr_txfloor_02
+	tamriel_data.esm    LTEX    t_imp_legionsky_txfloor_01
+	tamriel_data.esm    LTEX    t_imp_setanv_txcobblestone_01
+	tamriel_data.esm    LTEX    t_imp_setgc_txfloor_01
+	tamriel_data.esm    LTEX    t_mw_terrcloverat
+	tamriel_data.esm    LTEX    t_mw_terrdirtgrassat
+	tamriel_data.esm    LTEX    t_mw_terrgrass_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassalma_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassat
+	tamriel_data.esm    LTEX    t_mw_terrgrassgl_01
+	tamriel_data.esm    LTEX    t_mw_terrrockaj_01
+	tamriel_data.esm    LTEX    t_mw_terrrockaj_02
+	tamriel_data.esm    LTEX    t_mw_terrrockbrown_01
+	tamriel_data.esm    LTEX    t_mw_terrrocktv
+	tamriel_data.esm    LTEX    t_nor_dngbarrowfort_txfloor_01
+	tamriel_data.esm    LTEX    t_nor_set_txcobblestone_01
+	tamriel_data.esm    LTEX    t_nor_set_txcobblestone_02
+	tamriel_data.esm    LTEX    t_sky_terrburnedground_01
+	tamriel_data.esm    LTEX    t_sky_terrdeadgrass_01
+	tamriel_data.esm    LTEX    t_sky_terrdeadgrass_02
+	tamriel_data.esm    LTEX    t_sky_terrdirt_01
+	tamriel_data.esm    LTEX    t_sky_terrdirt_02
+	tamriel_data.esm    LTEX    t_sky_terrdirt_03
+	tamriel_data.esm    LTEX    t_sky_terrdirtbeatenpath_01
+	tamriel_data.esm    LTEX    t_sky_terrdirtre_01
+	tamriel_data.esm    LTEX    t_sky_terrdirtre_02
+	tamriel_data.esm    LTEX    t_sky_terrdirtre_03
+	tamriel_data.esm    LTEX    t_sky_terrdirtre_04
+	tamriel_data.esm    LTEX    t_sky_terrdirtre_05
+	tamriel_data.esm    LTEX    t_sky_terrdirtsnw_01
+	tamriel_data.esm    LTEX    t_sky_terrdirtsnwre_01
+	tamriel_data.esm    LTEX    t_sky_terrfarmland_01
+	tamriel_data.esm    LTEX    t_sky_terrgrassdirtre_01
+	tamriel_data.esm    LTEX    t_sky_terrgrassdirtsnwre_01
+	tamriel_data.esm    LTEX    t_sky_terrgrasshf_01
+	tamriel_data.esm    LTEX    t_sky_terrgrasshf_02
+	tamriel_data.esm    LTEX    t_sky_terrgrasshf_03
+	tamriel_data.esm    LTEX    t_sky_terrgrasshf_04
+	tamriel_data.esm    LTEX    t_sky_terrgrassre_01
+	tamriel_data.esm    LTEX    t_sky_terrgrassre_02
+	tamriel_data.esm    LTEX    t_sky_terrgrasssnwhf_01
+	tamriel_data.esm    LTEX    t_sky_terrgrasssnwre_01
+	tamriel_data.esm    LTEX    t_sky_terrgrasssnwre_02
+	tamriel_data.esm    LTEX    t_sky_terrgravel_01
+	tamriel_data.esm    LTEX    t_sky_terrgravelriver_01
+	tamriel_data.esm    LTEX    t_sky_terrgravelsnow_01
+	tamriel_data.esm    LTEX    t_sky_terrleaves_01
+	tamriel_data.esm    LTEX    t_sky_terrpine_01
+	tamriel_data.esm    LTEX    t_sky_terrpinesnw_01
+	tamriel_data.esm    LTEX    t_sky_terrroaddirtre_01
+	tamriel_data.esm    LTEX    t_sky_terrroaddirtre_02
+	tamriel_data.esm    LTEX    t_sky_terrroaddirtsnwre_01
+	tamriel_data.esm    LTEX    t_sky_terrroadgravel_01
+	tamriel_data.esm    LTEX    t_sky_terrroadstone_01
+	tamriel_data.esm    LTEX    t_sky_terrroadstone_02
+	tamriel_data.esm    LTEX    t_sky_terrroadstonesnw_01
+	tamriel_data.esm    LTEX    t_sky_terrroadstonesnw_02
+	tamriel_data.esm    LTEX    t_sky_terrrockem_01
+	tamriel_data.esm    LTEX    t_sky_terrrockjm_01
+	tamriel_data.esm    LTEX    t_sky_terrrockre_01
+	tamriel_data.esm    LTEX    t_sky_terrrocksnwjm_01
+	tamriel_data.esm    LTEX    t_sky_terrrocksnwre_01
+	tamriel_data.esm    LTEX    t_sky_terrrocksnwre_02
+	tamriel_data.esm    LTEX    t_sky_terrrocksnwre_03
+	tamriel_data.esm    LTEX    t_sky_terrrocksnwre_04
+	tamriel_data.esm    LTEX    t_sky_terrseaweed_01
+	tamriel_data.esm    LTEX    t_sky_terrseaweed_02
+	tamriel_data.esm    LTEX    t_sky_terrseaweed_03
+	tamriel_data.esm    LTEX    t_sky_terrseaweedsnow_01
+	tamriel_data.esm    LTEX    t_sky_terrvolcsand_01
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    available for hire
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    change the plan
+	tribunal.esm        DIAL    contract
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    goblins
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    heavy loads
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    improve my effectiveness
+	tribunal.esm        DIAL    keep me healthy
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        DIAL    travel together
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga

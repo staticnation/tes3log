@@ -1,0 +1,95 @@
+NPC_Functionality.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CT_NPCHealScript)
+	SCPT(SC_offScheduleLS)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	morrowind.esm       DIAL    affairs of honor
+	morrowind.esm       DIAL    alarm
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       GMST    faifleehealthmult
+	morrowind.esm       GMST    faimeleeweaponmult
+	morrowind.esm       GMST    fairangemagicspellmult
+	morrowind.esm       GMST    fairangemeleeweaponmult
+	morrowind.esm       GMST    falarmradius
+	morrowind.esm       GMST    fdisppersonalitymult
+	morrowind.esm       GMST    fgreetdistancereset
+	morrowind.esm       GMST    ialarmkilling
+	morrowind.esm       GMST    idispattackmod
+	morrowind.esm       GMST    idispkilling
+	morrowind.esm       GMST    ifightalarmmult
+	morrowind.esm       GMST    ifightattacking
+	morrowind.esm       GMST    ifightkilling
+	morrowind.esm       GMST    ifightpickpocket
+	morrowind.esm       GMST    igreetdistancemultiplier
+	morrowind.esm       GMST    igreetduration
+	morrowind.esm       GMST    ivoiceattackodds
+	morrowind.esm       GMST    ivoicehitodds
+	morrowind.esm       GMST    scrimemessage
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    hello
+
+[DUP-INF]: ID=1709302711210241(Voice:hello)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you
+
+[DUP-INF]: ID=78102235536611098(Voice:alarm)
+  |DATA|ONAM:yagrum bagarn|SNAM:Vo\Misc\Yagrum_2.mp3|NAME:Noooo!
+
+[MOD-INF]: ID=274822396313351193(Voice:flee)
+  morrowind.esm--------->|DATA|RNAM:Breton|SNAM:vo\b\f\Fle_BF004.mp3|NAME:I've had enough of this! I hope you get eaten by a kagouti!|SCVR:02sX0Random100|INTV:P
+  NPC_Functionality.esp->|DATA|RNAM:Breton|SNAM:vo\b\f\Fle_BF004.mp3|NAME:I've had enough of this! I hope you get eaten by a kagouti!|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=318603227611944221(Voice:hello)
+  |DATA|ONAM:Dralora Favelnim|RNAM:Dark Elf|FNAM:East Empire Company|SNAM:vo\d\f\bHlo_DF001.mp3|NAME:Please do something about my poor husband!|SCVR:04JX4CO_7|INTV:<|SCVR:14JX3CO_7|INTV: |BNAM:;distraught
+
+[MOD-INF]: ID=767615343759615282(Voice:flee)
+  morrowind.esm--------->|DATA|RNAM:Breton|SNAM:vo\b\f\Fle_BF002.mp3|NAME:Help!|SCVR:02sX0Random100|INTV:(
+  NPC_Functionality.esp->|DATA|RNAM:Breton|SNAM:vo\b\f\Fle_BF002.mp3|NAME:Help!|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=769812117146202051(Voice:hello)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM017.mp3|NAME:Cover yourself. No one wants to see that.|SCVR:01425|INTV:|BNAM:;ClothingMod<=0
+
+[DUP-INF]: ID=885713103265735503(Voice:hello)
+  |DATA|ONAM:Gidar Verothan|RNAM:Dark Elf|FNAM:East Empire Company|SNAM:vo\d\m\bHlo_DM001.mp3|NAME:Raven Rock, the jewel of Solstheim.... For whatever that's worth.|SCVR:02sX3ColonyState|INTV
+
+[DUP-INF]: ID=1097260391359021977(Voice:hello)
+  |DATA|ANAM:Cavern of the Incarnate
+
+[DUP-INF]: ID=1264827260269636929(Voice:hello)
+  |DATA|ONAM:Dralora Favelnim|SNAM:Vo\d\f\Hlo_DF123.mp3|NAME:I'm listening; go ahead.|SCVR:04JX3CO_7|INTV:<
+
+[DUP-INF]: ID=2128523207214310328(Voice:hello)
+  |DATA|ONAM:Tirvel Balen|RNAM:Dark Elf|FNAM:East Empire Company|SNAM:vo\d\m\bHlo_DM003.mp3|NAME:May your ore be pure, and your profits large.
+
+[DUP-INF]: ID=2195928081229820053(Voice:hello)
+  |DATA|ONAM:Narissa Adus|RNAM:Dark Elf|SNAM:vo\d\f\tHlo_DF002.mp3|NAME:Beware the Black Dart gang, adventurer.|BNAM:;despondent female adventurer who has lost her lover; strong character, but emotionally drained
+
+[MOD-INF]: ID=2282729956131537934(Topic:affairs of honor)
+  morrowind.esm--------->|DATA|ONAM:trebonius artorius|FNAM:Temple|ANAM:Vivec, Guild of Mages|NAME:Native Dunmer and Imperials alike recognize a noble's obligation to answer a challenge of honor. A challenge of honor is a public declaration of a scandal against a private party. Only nobles fight duels, and the higher the rank, the stronger the obligation. Law and custom despises dishonorable duelists. If the victim was bullied, intimidated, or goaded by a stronger party with suspect motives, magistrates often convict the stronger party of foul murder.|BNAM:;Redoran; Hlaalu; Temple, Imperial cult; knight;
+  NPC_Functionality.esp->|DATA|NAME:Native Dunmer and Imperials alike recognize a noble's obligation to answer a challenge of honor. A challenge of honor is a public declaration of a scandal against a private party. Only nobles fight duels, and the higher the rank, the stronger the obligation. Law and custom despises dishonorable duelists. If the victim was bullied, intimidated, or goaded by a stronger party with suspect motives, magistrates often convict the stronger party of foul murder.
+
+[DUP-INF]: ID=2475311282694125529(Voice:hello)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM138.mp3|NAME:You honor me. Please, speak.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=2555529360313783763(Voice:hello)
+  |DATA|ONAM:Garnas Uvalen|RNAM:Dark Elf|FNAM:East Empire Company|SNAM:vo\d\m\bHlo_DM002.mp3|NAME:Another day, another hundred piles of ore.|SCVR:02sX3ColonyState|INTV|BNAM:;tired
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=2860115062247169617(Voice:hello)
+  |DATA|ONAM:Gamin Girith|RNAM:Dark Elf|FNAM:East Empire Company|SNAM:vo\d\m\bHlo_DM002.mp3|NAME:Another day, another hundred piles of ore.|SCVR:02sX3ColonyState|INTV|BNAM:;tired
+
+[DUP-INF]: ID=3188185403198316695(Voice:hello)
+  |DATA|ONAM:Sabinus Oranius|RNAM:Imperial|FNAM:East Empire Company|SNAM:vo\i\m\bHlo_IM021.mp3|NAME:My lungs must be as black as these rocks by now.|SCVR:02sX3ColonyState|INTV
+
+[DUP-INF]: ID=10819118262520816930(Voice:attack)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;this prevents werewolves from talking to you in combat
+
+[DUP-INF]: ID=22580190852053612072(Greeting:greeting 3)
+  |DATA|FNAM:Morag Tong|NAME:Traitors to the %Faction must die.|SCVR:01390|INTV|SCVR:12sX0ExpMoragTong|INTV|BNAM:ModDisposition -50  Goodbye
+
+[DUP-INF]: ID=30246200252173829691(Voice:hello)
+  |DATA|ANAM:Skaal Village|SNAM:Vo\n\m\bHlo_NM069.mp3|NAME:Werewolves in the Greathall! Get in there quickly!|SCVR:04JX3BM_SkaalAttack|INTV: |SCVR:14JX4BM_SkaalAttack|INTV|SCVR:22sX4Random100|INTV:2

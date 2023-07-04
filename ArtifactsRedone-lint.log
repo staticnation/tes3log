@@ -1,0 +1,74 @@
+ArtifactsRedone.ESP: DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ARShrine)
+	SCPT(Axescript)
+	SCPT(Fakeaxe)
+	SCPT(MuseumScript)
+	SCPT(Museumaxe)
+	SCPT(Sarlenscript)
+	SCPT(drelaynScript)
+	SCPT(skeletonkeyscript)
+    [JUNKCEL] Junk Cells:                        Flags
+	West Gash Region (-8, 16)                0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       BOOK    bk_a2_2_dagoth_message
+	morrowind.esm       CLOT    moon_and_star
+	morrowind.esm       CONT    chest_small_divayth06
+	morrowind.esm       CONT    de_r_chest_01_tel_fyr
+	morrowind.esm       CONT    divayth_fyr_closet
+	morrowind.esm       CONT    dwrv_chest_divayth07
+	morrowind.esm       CREA    centurion_mudan_unique
+	morrowind.esm       NPC_    ajira
+	morrowind.esm       NPC_    caius cosades
+	morrowind.esm       WEAP    axe_queen_of_bats_unique
+	tribunal.esm        DOOR    door_dwrv_loadup00
+	tribunal.esm        DOOR    ex_de_shack_door
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       NPC_    antonius nuncius
+	bloodmoon.esm       NPC_    falx carius
+	morrowind.esm       ARMO    ebony_shield_auriel
+	morrowind.esm       CREA    vivec_god
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       ENCH    chameleon dance
+	morrowind.esm       ENCH    dragon aura
+	morrowind.esm       ENCH    lord's praise
+	morrowind.esm       ENCH    spell breaker
+	morrowind.esm       ENCH    warlock's sphere
+	morrowind.esm       ENCH    wind whisper
+	morrowind.esm       ENCH    wrath of magnus
+	morrowind.esm       LOCK    skeleton_key
+	morrowind.esm       NPC_    drelyne llenim
+	morrowind.esm       NPC_    llaren terano
+	morrowind.esm       NPC_    stacey
+	morrowind.esm       PGRD    khuul
+	morrowind.esm       WEAP    dwarven_hammer_volendrung
+	morrowind.esm       WEAP    ebony_bow_auriel
+	tribunal.esm        ARMO    ebony_shield_auriel_x
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        ENCH    almalexia_blade
+	tribunal.esm        NPC_    torasa aram
+	tribunal.esm        WEAP    sword of almalexia
+
+[DUP-INF]: ID=2038858512663100(Greeting:greeting 9)
+  |DATA|ANAM:Mournhold, Craftsmen's Hall|NAME:You killed Trels Varis? He was the only one with the courage to tell the truth. I don't understand how you could do such a thing.|SCVR:04JX0TR09_Journalist|INTV:P
+
+[DUP-INF]: ID=224675091152379296(Greeting:greeting 9)
+  |DATA|ANAM:Mournhold, Craftsmen's Hall|NAME:You killed Trels Varis? He was the only one with the courage to tell the truth. Go away. I want nothing to do with you.|SCVR:04JX0TR09_Journalist|INTV:Z|BNAM:Goodbye
+
+[DUP-INF]: ID=2332722652251524419(Greeting:greeting 9)
+  |DATA|ANAM:Mournhold, Craftsmen's Hall|NAME:You killed Trels Varis? He was the only one with the courage to tell the truth. Go away. I want nothing to do with you.|SCVR:04JX0TR09_Journalist|INTV:P|BNAM:Goodbye
+
+[DUP-INF]: ID=2516829878244647484(Topic:nerevarine)
+  |DATA|ONAM:erich the unworthy|NAME:Neva-what? You making fun of me, little one?
+
+[DUP-INF]: ID=12131319582389432117(Greeting:greeting 9)
+  |DATA|NAME:It is truly a pleasure to see you.|SCVR:03sX3NoLore|INTV:|BNAM:;added to prevent some bad no lore greetings.
+
+[DUP-INF]: ID=22580190852053612072(Greeting:greeting 3)
+  |DATA|FNAM:Morag Tong|NAME:Traitors to the %Faction must die.|SCVR:01390|INTV|SCVR:12sX0ExpMoragTong|INTV|BNAM:ModDisposition -50  Goodbye
+
+[DUP-INF]: ID=31868303082881712450(Topic:nerevarine)
+  |DATA|ONAM:therana|NAME:Nerevarine? Is that a new play? I like plays.

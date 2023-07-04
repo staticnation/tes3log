@@ -1,0 +1,16 @@
+MOAshTravelTent.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(jwd_return_to_tent)
+	SCPT(jwd_tent_door_script)
+	SCPT(jwd_tent_exit_door_script)
+	SCPT(jwd_tent_npc_enter)
+	SCPT(jwd_tent_npc_exit)
+	SCPT(jwd_tent_stake_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LIGH    bc mushroom 177
+	morrowind.esm       LIGH    blue coast ref 1024
+
+[MOD-INF]: ID=20481194642735427051(Journal:jwd_traveltent)
+  tribunal.esm-------->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  MOAshTravelTent.esp->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2

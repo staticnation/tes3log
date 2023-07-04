@@ -1,0 +1,47 @@
+JMK - Health Spa.esp: DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKHelSpaBedDoor)
+	SCPT(JMKHelSpaBotDoorWay)
+	SCPT(JMKHelSpaBotzoExit)
+	SCPT(JMKHelSpaCactusOuch)
+	SCPT(JMKHelSpaEscortDude)
+	SCPT(JMKHelSpaEskortJanalde)
+	SCPT(JMKHelSpaFountain)
+	SCPT(JMKHelSpaHatchNote)
+	SCPT(JMKHelSpaHealy)
+	SCPT(JMKHelSpaKellionActi)
+	SCPT(JMKHelSpaMaggi)
+	SCPT(JMKHelSpaMastDoorChk)
+	SCPT(JMKHelSpaOwner)
+	SCPT(JMKHelSpaPoolDoor)
+	SCPT(JMKHelSpaSiblings)
+	SCPT(JMKHelSpaSverrikCheck)
+	SCPT(JMKHelSpaWendyEscort)
+    [JUNKCEL] Junk Cells:                        Flags
+	Azura's Coast Region (17, -11)           0x02
+	Azura's Coast Region (20, -12)           0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LTEX    sand
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LAND    (17, -11)
+	morrowind.esm       LAND    (17, -12)
+	morrowind.esm       LAND    (18, -11)
+	morrowind.esm       LAND    (18, -12)
+	morrowind.esm       LAND    (18, -13)
+	morrowind.esm       LAND    (19, -11)
+	morrowind.esm       LAND    (19, -12)
+	morrowind.esm       LAND    (20, -12)
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       PGRD    azura's coast region
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_rocky
+
+[DUP-INF]: ID=243293043999454250(Greeting:greeting 5)
+  |DATA|ONAM:Kaye|DNAM:Imperial Cult|NAME:Expelled again? No, don't bother to explain. I don't want to hear it. Just go away.|SCVR:01390|INTV|SCVR:12sX0ExpImperialCult|INTV|BNAM:moddisposition -10  Goodbye
+
+[DUP-INF]: ID=328353471475922536(Greeting:greeting 5)
+  |DATA|ONAM:caryarel|NAME:Yes. I was treated for swamp fever at the Imperial Chapels in Ebonheart. But I don't know anything about a Chapel Limeware Bowl. So go away. And leave me alone.|SCVR:04JX3IC15_Missing_Limeware|INTV|BNAM:Journal IC15_Missing_Limeware 25  Goodbye

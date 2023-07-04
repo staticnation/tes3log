@@ -1,0 +1,69 @@
+The Tempest.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CharGen)
+	SCPT(PP_ChargenCaughtYou)
+	SCPT(PP_ChargenSaviours)
+	SCPT(PP_RescueScript)
+	SCPT(PP_StartScript)
+	SCPT(PP_TeleporterScript)
+	SCPT(PP_TeleporterScript2)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    sand
+	tribunal.esm        LTEX    rm_rock_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       DIAL    empire
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    vvardenfell
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       NPC_    chargen captain
+	morrowind.esm       NPC_    chargen class
+	morrowind.esm       NPC_    chargen door guard
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=53842651108524245(Greeting:greeting 4)
+  morrowind.esm--->|DATA|RNAM:Dark Elf|NAME:I'm sorry, friend, but I think you have managed to get a common disease of some sort. You can get that cured by visiting a Temple shrine, or an Imperial cult altar, or by buying a potion from a healer or apothecary.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|SCVR:28FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Common Disease;
+  The Tempest.esp->|DATA|RNAM:Dark Elf|NAME:I'm sorry, friend, but I think you have managed to get a common disease of some sort. You can get that cured by visiting a Temple shrine, or an Imperial Cult altar, or by buying a potion from a healer or apothecary.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Pariah Island|INTV|SCVR:4BLX0Tel Pariah, Inner Tower|INTV|BNAM:;default DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=73034862212212737(Greeting:greeting 4)
+  morrowind.esm--->|DATA|NAME:I'm sorry you're not feeling well, but you need to get cured of that disease. I think it's just a common disease, and if you go to an Imperial cult altar or a Temple shrine, or see a healer or apothecary, I'm sure they can take care of it.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+  The Tempest.esp->|DATA|NAME:I'm sorry you're not feeling well, but you need to get cured of that disease. I think it's just a common disease, and if you go to an Imperial Cult altar or a Temple shrine, or see a healer or apothecary, I'm sure they can take care of it.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Pariah Island|INTV|SCVR:5BLX0Tel Pariah, Inner Tower|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=164651982224103597(Greeting:greeting 4)
+  morrowind.esm--->|DATA|RNAM:Dark Elf|NAME:You're unclean, outlander. Get away from me. And go get cured, or stay away from me.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|BNAM:;default DUNMER;PC Common Disease;
+  The Tempest.esp->|DATA|RNAM:Dark Elf|NAME:You're unclean, outlander. Get away from me. And go get cured, or stay away from me.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|SCVR:2BLX0Pariah Island|INTV|SCVR:3BLX0Tel Pariah, Inner Tower|INTV|BNAM:;default DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=219451494910238106(Greeting:greeting 4)
+  morrowind.esm--->|DATA|RNAM:Dark Elf|NAME:Keep your distance, outlander. Can't you tell you're sick? I don't want to catch your disease. You should get cured, or no one will want to talk with you. Go find an Imperial cult altar or a Temple shrine, or see a healer or an apothecary.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|SCVR:28FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Common Disease;
+  The Tempest.esp->|DATA|RNAM:Dark Elf|NAME:Keep your distance, outlander. Can't you tell you're sick? I don't want to catch your disease. You should get cured, or no one will want to talk with you. Go find an Imperial Cult altar or a Temple shrine, or see a healer or an apothecary.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Pariah Island|INTV|SCVR:4BLX0Tel Pariah, Inner Tower|INTV|BNAM:;default DUNMER;PC Common Disease;
+
+[DUP-INF]: ID=787419786402628286(Topic:background)
+  |DATA|ONAM:bugdul gro-kharbush|NAME:I'm the building foreman for Indarys Manor.
+
+[MOD-INF]: ID=1312313470517918122(Greeting:greeting 4)
+  morrowind.esm--->|DATA|NAME:Hey! Get away from me! Don't you know you're sick? It's just a common disease. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+  The Tempest.esp->|DATA|NAME:Hey! Get away from me! Don't you know you're sick? It's just a common disease. Go find an Imperial Cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Pariah Island|INTV|SCVR:5BLX0Tel Pariah, Inner Tower|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=2188619576183329891(Greeting:greeting 4)
+  morrowind.esm--->|DATA|NAME:Not so close! I don't want to catch what you've got. It's just a common disease, but you need to find an Imperial cult altar or a Temple shrine, or see a healer or apothecary, and get yourself cured. Otherwise, no one is going to talk to you.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+  The Tempest.esp->|DATA|NAME:Not so close! I don't want to catch what you've got. It's just a common disease, but you need to find an Imperial Cult altar or a Temple shrine, or see a healer or apothecary, and get yourself cured. Otherwise, no one is going to talk to you.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Pariah Island|INTV|SCVR:5BLX0Tel Pariah, Inner Tower|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=12630280742683631664(Greeting:greeting 4)
+  morrowind.esm--->|DATA|RNAM:Dark Elf|NAME:Keep your distance, outlander. Can't you tell you're sick? And you've got a blight disease. You're a danger to everyone. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Blight Disease;
+  The Tempest.esp->|DATA|RNAM:Dark Elf|NAME:Keep your distance, outlander. Can't you tell you're sick? And you've got a Blight disease. You're a danger to everyone. Go find an Imperial Cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Pariah Island|INTV|SCVR:5BLX0Tel Pariah, Inner Tower|INTV|BNAM:;default DUNMER;PC Blight Disease;

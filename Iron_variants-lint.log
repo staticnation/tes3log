@@ -1,0 +1,14 @@
+Iron_variants.ESP: DUP-REC MISSAUT MISSDSC MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (102) != Actual count (30)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    iron_pauldron_left
+	morrowind.esm       ARMO    iron_pauldron_right
+	tribunal.esm        ARMO    iron_cuirass
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LEVI    l_n_armor_cuirass
+	morrowind.esm       LEVI    l_n_armor_helmet
+	morrowind.esm       LEVI    l_n_armor_pauldron
+	morrowind.esm       LEVI    random_armor_iron
+	morrowind.esm       LEVI    random_iron_fur_armor

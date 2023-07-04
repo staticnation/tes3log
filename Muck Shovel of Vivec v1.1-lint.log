@@ -1,0 +1,59 @@
+Muck Shovel of Vivec v1.1.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MSV_DreughGuardFight)
+	SCPT(MSV_FargothCorpse)
+	SCPT(MSV_FargothsJournalCurse)
+	SCPT(MSV_KeohNerFight)
+	SCPT(MSV_KeohNerWalk)
+	SCPT(MSV_MuckCaveDoorLock)
+	SCPT(MSV_SacredGuarPurr)
+	SCPT(MSV_ShackEnable)
+	SCPT(MSV_SoundWaterfallFix)
+	SCPT(MSV_StolenShovel)
+	SCPT(MSV_TempleBuild)
+	SCPT(MSV_TempleEnable)
+	SCPT(MSV_TempleShovel)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       STAT    in_dae_platform_512_01
+	morrowind.esm       LAND    (-1, 3)
+	morrowind.esm       LAND    (-2, 3)
+	morrowind.esm       LAND    (1, -4)
+	morrowind.esm       LAND    (1, -5)
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       PGRD    west gash region
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    rm_grayrock
+
+[DUP-INF]: ID=875317795149451008(Greeting:greeting 0)
+  |DATA|FNAM:Royal Guard|NAME:Halt!  The King suspected you might try something treacherous with his champion. He cannot allow this to continue. By order of His Royal Highness King Hlaalu Helseth, Duke of Mournhold, you are ordered to accompany me to the prison until His Highness deems you fit to engage in the agreed-upon contest.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+
+[DUP-INF]: ID=1007531851272425485(Greeting:greeting 1)
+  |DATA|CNAM:Guard|FNAM:Temple|ANAM:Mournhold, Plaza Brindisi Dorom|NAME:Fedris Hler must be told of this attack. Get yourself to the Temple and let him know! Go!|SCVR:02sX0MournholdAttack|INTV|SCVR:14JX5TR_MHAttack|INTV:i|SCVR:24JX0TR_Bamz|INTV:|BNAM:Journal TR_MHAttack 105  goodbye
+
+[DUP-INF]: ID=23349198911001418656(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Were you able to help Shunari, %PCName?|SCVR:04JX0MS_CrimsonPlague|INTV:n
+
+[DUP-INF]: ID=31089205411193327763(Greeting:greeting 0)
+  |DATA|ONAM:Rat_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2

@@ -1,0 +1,20 @@
+ImperialCarriages.ESP: DUP-INF DUP-REC MASTERS MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tamriel_data.esm    STAT    t_de_set_wagon_01
+	tamriel_data.esm    STAT    t_de_set_wagon_02
+	tamriel_data.esm    STAT    t_de_setind_x_rickshaw_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    destination
+	morrowind.esm       PGRD    caldera
+	tamriel_data.esm    CREA    t_cyr_fau_hrssadl_02
+	tamriel_data.esm    CREA    t_cyr_fau_hrssadlst_03
+	tribunal.esm        DIAL    cure disease potion
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=1936234272619022679(Topic:cure disease potion)
+  |DATA|ONAM:athelyn malas|NAME:Is it that bad, that you won't even get near me to give me the damned potion? Where's your compassion?|SCVR:01500|INTV|BNAM:moddisposition -10

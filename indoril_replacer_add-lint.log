@@ -1,0 +1,9 @@
+indoril_replacer_add.ESP: DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (6) != Actual count (4)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    work
+
+[MOD-INF]: ID=4735211653017530921(Topic:work)
+  morrowind.esm------------>|DATA|ONAM:elam andas|NAME:Very good. Please accept the helm and cuirass, with our thanks. And accept, on the behalf of Vivec City, our thanks for ridding us of this dangerous killer.|SCVR:01500|INTV|BNAM:;Elam Andas: CHOICE 4;   player->additem "Indoril Cuirass" 1  player->additem "Indoril Helmet" 1  player->modReputation 1  modDisposition 20  Journal town_Vivec 50
+  indoril_replacer_add.ESP->|DATA|ONAM:elam andas|NAME:Very good. Please accept the helm and cuirass, with our thanks. And accept, on the behalf of Vivec City, our thanks for ridding us of this dangerous killer.|SCVR:01500|INTV|BNAM:;Elam Andas: CHOICE 4;   player->additem "indoril cuirass uniq" 1  player->additem "indoril helmet uniq" 1  player->additem "indoril pauldron left" 1  player->additem "indoril pauldron right" 1  player->modReputation 1  modDisposition 20  Journal town_Vivec 50

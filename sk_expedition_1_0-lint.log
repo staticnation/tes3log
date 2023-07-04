@@ -1,0 +1,108 @@
+sk_expedition_1_0.ESP: AUTOSPL DUP-REC FOGBUG GETSND MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC SCRDOOR
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Morrowind.esm               79764287 (plugin)   79837557 (installed size)
+	Tribunal.esm                 6616539 (plugin)    4565686 (installed size)
+	Bloodmoon.esm               11799703 (plugin)    9631798 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	sk_ancient_amul                Minister's Charm
+    [FOGBUG]: Cells with zero fog density setting:
+	The Lost Temple, Depths
+	The Lost Temple, Halls of Elevation
+	The Lost Temple, Labyrinth of the Living
+	The Lost Temple, Memorial Halls
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(TrapStoneWithDisarm_Script)
+	SCPT(TrapStone_01_WithDisarm_Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(SK_DisableEntrance_Script)
+	SCPT(SK_EnableEntrance_Script)
+	SCPT(SK_NoActivate_Script)
+	SCPT(TrapStone_Script)
+	SCPT(sk_00_NightSky_Script)
+	SCPT(sk_01_NightSky_Script)
+	SCPT(sk_01_door_wind_)
+	SCPT(sk_01_stealthattck)
+	SCPT(sk_02_NightSky_Script)
+	SCPT(sk_02_cript_atmo)
+	SCPT(sk_02_stealthattck)
+	SCPT(sk_03_NightSky_Script)
+	SCPT(sk_03_cript_atmo)
+	SCPT(sk_04_NightSky_Script)
+	SCPT(sk_04_cript)
+	SCPT(sk_05_NightSky_Script)
+	SCPT(sk_06_NightSky_Script)
+	SCPT(sk_07NightSky_Script)
+	SCPT(sk_AppearEffect)
+	SCPT(sk_DragonPriest_Script)
+	SCPT(sk_NightSky_Script)
+	SCPT(sk_cript_atmo)
+	SCPT(sk_disable_watr_exp)
+	SCPT(sk_draugrbreathe_01)
+	SCPT(sk_draugrbreathe_02)
+	SCPT(sk_fake_door_01)
+	SCPT(sk_fake_door_02)
+	SCPT(sk_fake_word)
+	SCPT(sk_fire_p)
+	SCPT(sk_passage_01)
+	SCPT(sk_pow_wall_02)
+	SCPT(sk_proces_h)
+	SCPT(sk_rubble_f)
+	SCPT(sk_stealthattck_close)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	door_load_darkness00                 passageScript
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    active_de_bedroll
+	bloodmoon.esm       ARMO    bm_nordicmail_helmet
+	bloodmoon.esm       BODY    a_nordicmail_m_c
+	bloodmoon.esm       CLOT    bm_nordic01_robe_whitewalk
+	bloodmoon.esm       MISC    misc_com_bottle_05
+	bloodmoon.esm       MISC    misc_com_bottle_12
+	bloodmoon.esm       STAT    flora_bm_grass_01
+	bloodmoon.esm       STAT    terrain_rock_bm_02
+	bloodmoon.esm       STAT    terrain_rock_bm_42
+	bloodmoon.esm       STAT    terrain_rock_bm_45
+	bloodmoon.esm       WEAP    bm nordic silver dagger
+	morrowind.esm       CONT    crate_02_bottle05_16
+	morrowind.esm       CONT    flora_bc_mushroom_06
+	morrowind.esm       CONT    flora_bc_mushroom_08
+	morrowind.esm       INGR    poison_goop00
+	morrowind.esm       MISC    misc_skull10
+	morrowind.esm       STAT    flora_root_wg_04
+	morrowind.esm       STAT    furn_de_firepit_01
+	morrowind.esm       STAT    furn_mist256
+	morrowind.esm       STAT    in_vivec_grate_01
+	morrowind.esm       WEAP    daedric tanto
+	morrowind.esm       WEAP    steel claymore of hewing
+	morrowind.esm       WEAP    steel spear
+	tribunal.esm        MISC    misc_com_redware_vase
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       SNDG    
+	bloodmoon.esm       SNDG    default0006
+	morrowind.esm       MISC    misc_imp_silverware_cup_01
+	morrowind.esm       NPC_    drarayne girith
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DOOR    door_load_darkness00
+
+[MOD-INF]: ID=875317795149451008(Greeting:greeting 0)
+  tribunal.esm---------->|DATA|FNAM:Royal Guard|NAME:Halt!  The King suspected you might try something treacherous with his champion. He cannot allow this to continue. By order of His Royal Highness King Hlaalu Helseth, Duke of Mournhold, you are ordered to accompany me to the prison until His Highness deems you fit to engage in the agreed-upon contest.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+  sk_expedition_1_0.ESP->|DATA|FNAM:Royal Guard|NAME:Stop! The King suspects that you are plotting some kind of treachery against his champion. He cannot allow this to continue. By the order of His Royal Majesty King Hlaalu Helseth, Duke of Mournhold, you are commanded to be sent to prison, where you will remain until His Majesty decides that you are ready to participate in the previously declared competition.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+
+[MOD-INF]: ID=2024114207272511002(Topic:latest rumors)
+  bloodmoon.esm--------->|DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+  sk_expedition_1_0.ESP->|DATA|ONAM:svenja_outside|NAME:Rumors? Have you lost your mind? There's no time for such nonsense right now!
+
+[MOD-INF]: ID=3103210864206706477(Topic:latest rumors)
+  bloodmoon.esm--------->|DATA|RNAM:Dark Elf|NAME:I've been told that the Empire has granted a new charter to do some mining on the island of Solstheim. Why anyone would want to go there is beyond me.|SCVR:04JX0BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:
+  sk_expedition_1_0.ESP->|DATA|RNAM:Dark Elf|NAME:Rumors have it that the Empire has issued a new permit for mining of valuable resources on the island of Solstheim. But who would want to dig around there?|SCVR:04JX0BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm---------->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  sk_expedition_1_0.ESP->|DATA|NAME:Did you break your vow of silence?|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[MOD-INF]: ID=31089205411193327763(Greeting:greeting 0)
+  tribunal.esm---------->|DATA|ONAM:Rat_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2
+  sk_expedition_1_0.ESP->|DATA|ONAM:Rat_rerlas|NAME:Huh?|BNAM:Choice "Stop" 1 "Go" 2

@@ -1,0 +1,12 @@
+Packguar_Advanced.esp: AUTOSPL DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	pga_fatigue                    
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(PGA_CreatureScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BROctavo_06_new)
+	SCPT(PGA_CreatureDisposition)
+	SCPT(PGA_LoadScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0

@@ -1,0 +1,27 @@
+Mournhold Courtiers.esp: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    abolitionists
+	morrowind.esm       DIAL    moon-and-star
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    barenziah
+	tribunal.esm        DIAL    fight my champion
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    helseth
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    pieces of the blade
+
+[MOD-INF]: ID=110562582019886957(Topic:fight my champion)
+  tribunal.esm------------>|DATA|ONAM:King Hlaalu Helseth|NAME:That is correct. I have come to know you a bit, %PCName. I believe you can be of some use to me. But the plans I have will require someone of great strength or wit. Perhaps both. The time has come for you to prove this to me. You will return here tomorrow, and you will duel Karrod. If you are able to defeat him, we will discuss my plans for you.|SCVR:04JX4TR_Champion|INTV|BNAM:Journal TR_Champion 20  Set FightDay to DaysPassed  StartScript KarrodMovement
+  Mournhold Courtiers.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:That is correct. I have come to know you a bit, %PCName. I believe you can be of some use to me. But the plans I have will require someone of great strength or wit. Perhaps both. The time has come for you to prove this to me. You will return here tomorrow, and you will duel Karrod. If you are able to defeat him, we will discuss my plans for you.|SCVR:04JX4TR_Champion|INTV|BNAM:Journal TR_Champion 20  Set FightDay to DaysPassed  StartScript KarrodMovement  _hlaalurep->Disable
+
+[DUP-INF]: ID=127372562627617141(Topic:barenziah)
+  |DATA|ONAM:effe_tei|NAME:She's the Queen Mother -- mother of King Hlaalu Helseth. She's also the widow of General Symmachus, the great Dunmer hero, and a former queen in her own right back in Wayrest. Many years ago she abdicated her throne and retired from public life here with her son. Now that her son has become king, you might expect him to respect her counsel and experience... or not. I pay no attention to MY mother.
+
+[DUP-INF]: ID=3206813651655016759(Topic:pieces of the blade)
+  |DATA|ONAM:plitinius mero|NAME:An attempt to reforge the blade of Nerevar. Interesting.... I wish I knew where to tell you to look, but my knowledge of the blade is somewhat limited. Perhaps you'd do better speaking with Torasa Aram, the curator at the Museum. Her knowledge is extensive when it comes to unique items. Of course, it is always wise to consult the Lady Barenziah. One never knows what the Lady has heard.|SCVR:04JX4TR_Blade|INTV:d
+
+[MOD-INF]: ID=14707155682221223996(Topic:fight my champion)
+  tribunal.esm------------>|DATA|ONAM:King Hlaalu Helseth|NAME:I'm impressed, %PCName. None have ever defeated Karrod in battle, and I certainly didn't expect you to be the first. You continue to surprise me. You have proven your worth to me, as well as your loyalty. Take this as a token of my faith in our friendship. It was my father's ceremonial dagger, and I place it now in your possession. Do not disgrace his memory, %PCName. Now, let us discuss my plans for you.|SCVR:04JX0TR_Champion|INTV:F|SCVR:12sX2KarrodBeaten|INTV:|BNAM:Player->AddItem "glass dagger_symmachus_unique" 1  RemoveItem "glass dagger_symmachus_unique" 1  StartScript HelsMoveScript  Journal TR_Champion 80
+  Mournhold Courtiers.esp->|DATA|ONAM:King Hlaalu Helseth|NAME:I'm impressed, %PCName. None have ever defeated Karrod in battle, and I certainly didn't expect you to be the first. You continue to surprise me. You have proven your worth to me, as well as your loyalty. Take this as a token of my faith in our friendship. It was my father's ceremonial dagger, and I place it now in your possession. Do not disgrace his memory, %PCName. Now, let us discuss my plans for you.|SCVR:04JX0TR_Champion|INTV:F|SCVR:12sX2KarrodBeaten|INTV:|BNAM:Player->AddItem "glass dagger_symmachus_unique" 1  RemoveItem "glass dagger_symmachus_unique" 1  StartScript HelsMoveScript  Journal TR_Champion 80  _hlaalurep->Enable

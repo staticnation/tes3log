@@ -1,0 +1,17 @@
+Better Caves and Caverns -- Koal Cave Boss.esp: AUTOSPL DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	bcc_sp_ruddycurse              Curse of the Ruddy Man
+	bcc_sp_ruddybite               Bite of the Ruddy Man
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BCC_scr_DreughsBaneFound)
+	SCPT(BCC_scr_RuddyMan)
+	SCPT(BCC_scr_RuddyQuest)
+	SCPT(BCC_scr_RuddyServant)
+	SCPT(shrineKoalCave)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    dreugh_cuirass_ttrm
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=27518247831477521212(Greeting:greeting 5)
+  |DATA|ONAM:Geon Auline|NAME:Hello.  I am Geon Auline, collector of fine artifacts.|SCVR:04JX0MS_EstateSale|INTV:

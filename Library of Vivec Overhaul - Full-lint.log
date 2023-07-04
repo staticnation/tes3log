@@ -1,0 +1,25 @@
+Library of Vivec Overhaul - Full.esp: DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1384891 (plugin)    1567893 (installed size)
+    [NUMRECS]: number of records in TES3.HEDR (609) != Actual count (305)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(SLF_AM_Reader1_Script)
+	SCPT(SLF_AM_Reader2_Script)
+	SCPT(SLF_AM_Writer_script)
+	SCPT(SLF_LlendurasTombDoor)
+	SCPT(SLF_rama_llenduras_skel_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    library of vivec
+	morrowind.esm       PGRD    vivec, library of vivec
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=252108991767214832(Greeting:greeting 5)
+  morrowind.esm------------------------>|DATA|ONAM:mehra milo|NAME:Yes, I'm Mehra Milo. Caius sent you? Follow me into the back of the library. We can't talk here.|SCVR:14JX3A1_V_VivecInformants|INTV|BNAM:AiTravel, -6, 1734, -114  Journal, "A1_10_MehraMilo", 10  Goodbye
+  Library of Vivec Overhaul - Full.esp->|DATA|ONAM:mehra milo|NAME:Yes, I'm Mehra Milo. Caius sent you? Follow me into the back of the library. We can't talk here.|SCVR:14JX3A1_V_VivecInformants|INTV|BNAM:AiTravel, 32, 2304, 128  Journal, "A1_10_MehraMilo", 10  SetHello 31  Goodbye
+
+[MOD-INF]: ID=3103019949187356597(Greeting:greeting 5)
+  morrowind.esm------------------------>|DATA|ONAM:Synnolian Tunifus|DNAM:Imperial Cult|NAME:Bring me one unit of netch leather for cure paralyzation potions. The Ascadian Isles is a good place to hunt. I suggest you start by looking around near Balur Salvu's house. He says he sees wild bull netch all the time. Now, stick with bull netch to start with. The betty netch are rather more dangerous.|SCVR:04JX3IC6_Rat|INTV:2|SCVR:14JX4IC7_netch|INTV|BNAM:;Synnolian Tunifus;  Journal IC7_netch 1
+  Library of Vivec Overhaul - Full.esp->|DATA|ONAM|SLF_orunre_termaren|NAME:Greetings, stranger! Welcome to the Library of Vivec! Lord Vivec prides himself with what we have accomplished, and we are proud to serve him by accumulating ever more knowledge. Since you are not a member of the Temple and of a certain rank, we cannot allow you to take any of the books with you, but you are allowed to browse. Please, go right ahead. But remember to remain quiet. We don't want to disturb the scholars, do we?

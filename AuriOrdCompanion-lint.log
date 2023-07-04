@@ -1,0 +1,307 @@
+AuriOrdCompanion.esp: DUP-INF DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(1Auri_Ord_CompScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(1Auri_Ord_CompLevel)
+	SCPT(1Auri_Ord_CompTeleport)
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    altmer
+	morrowind.esm       DIAL    blight disease
+	morrowind.esm       DIAL    empire
+	tribunal.esm        DIAL    hello
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    blades
+	bloodmoon.esm       DIAL    imperial law
+	morrowind.esm       DIAL    addhiranirr
+	morrowind.esm       DIAL    affairs of honor
+	morrowind.esm       DIAL    ahemmusa
+	morrowind.esm       DIAL    akatosh
+	morrowind.esm       DIAL    ald velothi
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    arch-mage
+	morrowind.esm       DIAL    ashalmawia
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    buoyant armigers
+	morrowind.esm       DIAL    caldera
+	morrowind.esm       DIAL    dagon fel
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    disturbing dreams
+	morrowind.esm       DIAL    ebonheart
+	morrowind.esm       DIAL    erabenimsun
+	morrowind.esm       DIAL    ghostfence
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    gnaar mok
+	morrowind.esm       DIAL    gnisis
+	morrowind.esm       DIAL    grandmaster
+	morrowind.esm       DIAL    guildmaster
+	morrowind.esm       DIAL    hla oad
+	morrowind.esm       DIAL    imperial legion
+	morrowind.esm       DIAL    khuul
+	morrowind.esm       DIAL    maar gan
+	morrowind.esm       DIAL    ministry of truth
+	morrowind.esm       DIAL    molag mar
+	morrowind.esm       DIAL    moon-and-star
+	morrowind.esm       DIAL    multiplayer
+	morrowind.esm       DIAL    ordinators
+	morrowind.esm       DIAL    outlander
+	morrowind.esm       DIAL    pelagiad
+	morrowind.esm       DIAL    red mountain
+	morrowind.esm       DIAL    sadrith mora
+	morrowind.esm       DIAL    seyda neen
+	morrowind.esm       DIAL    suran
+	morrowind.esm       DIAL    tel aruhn
+	morrowind.esm       DIAL    tel branora
+	morrowind.esm       DIAL    tel mora
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    thieves guild
+	morrowind.esm       DIAL    unrest in cyrodiil city
+	morrowind.esm       DIAL    urshilaku
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       DIAL    vos
+	morrowind.esm       DIAL    zainab
+	tribunal.esm        DIAL    ald daedroth
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    apelles matius
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    barenziah
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    fedris hler
+	tribunal.esm        DIAL    godsreach
+	tribunal.esm        DIAL    great bazaar
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    hands of almalexia
+	tribunal.esm        DIAL    helseth
+	tribunal.esm        DIAL    high ordinators
+	tribunal.esm        DIAL    missing hand
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    plaza brindisi dorom
+	tribunal.esm        DIAL    royal guard
+	tribunal.esm        DIAL    sotha sil
+	tribunal.esm        NPC_    asciene rane
+	tribunal.esm        NPC_    effe_tei
+
+[DUP-INF]: ID=530791015206434(Topic:seyda neen)
+  |DATA|ONAM:artisa arelas|CNAM:Savant|NAME:The piercing light of the Grand Pharos at the mouth of the harbor of the port village of Seyda Neen is a beacon to mariners throughout the Inner Sea. Most visitors from the Empire make landfall at the port of Seyda Neen, where they are processed by the Imperial Census and Excise Commission agents of the Coastguard station. The Coastguard cutters docked here control smuggling and piracy on the Inner Sea.|BNAM:ShowMap "Seyda Neen"  ;scout; savant;
+
+[DUP-INF]: ID=2924792051322157(Topic:ashlanders)
+  |DATA|FNAM:Ashlanders|ANAM:Ahemmusa Camp|NAME:Now that you have found us a safe place, the Ahemmusa may once again grow strong. Thank you, Nerevarine.|SCVR:04JX3B2_AhemmusaSafe|INTV:(
+
+[DUP-INF]: ID=9082116230579699(Topic:gnaar mok)
+  |DATA|ONAM:drulene falen|NAME:Gnaar Mok is an island fishing village south along the coast. Here. Let me mark it on your map. Legion patrols pass here on their way to Gnaar Mok. They head west for the coast. The ruins of Andasreth, an old Dunmer stronghold, are out to the west. Very large building, hard to miss. The troopers just follow the coast south to Gnaar Mok, I believe. I've never been that way myself.|SCVR:04JX3A2_2_6thHouse|INTV|BNAM:ShowMap "Gnaar Mok"
+
+[DUP-INF]: ID=10532754067328341(Topic:ministry of truth)
+  |DATA|CNAM:Healer|FNAM:Temple|NAME:The Ministry of Truth was hollowed out to provide a prison and re-education center operated by the Temple Ordinators for the correction of heretics.|SCVR:02sX4Random100|INTV:2|BNAM:;Temple; priests; monks; healers;
+
+[DUP-INF]: ID=13737223031182340(Topic:camonna tong)
+  |DATA|ONAM:Orvas Dren Druglord|NAME:We have a deal, friend.|SCVR:34JX3HH_WinCamonna|INTV:2
+
+[DUP-INF]: ID=38488615252471229(Topic:balmora)
+  |DATA|ONAM:chargen captain|NAME:Balmora is north of Seyda Neen. The road passes Pelagiad village and Fort Pelagiad, crosses a deep ravine, passes Fort Moonmoth, then turns west across the Odai River and into Balmora. The South Wall cornerclub is in southeast Balmora, on the east side of the river. For more detailed directions, talk to Elone the Scout at Arrille's Tradehouse here in Seyda Neen. But take my advice. You're new here. Take the silt strider to Balmora. Fast, cheap, safe. Cross the bridge and head east. Can't miss it.|BNAM:ShowMap Balmora  ShowMap Pelagiad  ShowMap "Moonmoth Legion Fort"
+
+[DUP-INF]: ID=49232979538229486(Topic:guildmaster)
+  |DATA|ONAM:persius mercius|NAME:Regretably, you broke the rules of the Fighters Guild and you have been expelled. First clear your name, and then I can speak with you about this again.|SCVR:01390|INTV
+
+[DUP-INF]: ID=66539999174912632(Topic:molag mar)
+  |DATA|ONAM:paur maston|NAME:Vanjirra should be around Molag Mar somewhere.|SCVR:04JX3MV_TraderMissed|INTV:_
+
+[DUP-INF]: ID=103857971936326361(Topic:gnisis)
+  |DATA|ONAM:baladas demnevanni|NAME:Everyone here leaves me alone. That's how I like it.
+
+[DUP-INF]: ID=105892696311744307(Topic:apelles matius)
+  |DATA|ONAM:apelles matius|NAME:I am he. What can I do for you?
+
+[DUP-INF]: ID=119818862849716705(Topic:dagon fel)
+  |DATA|ONAM:sorkvild the raven|NAME:The locals haven't shown an appreciation of my unique talents.
+
+[DUP-INF]: ID=123342378321175833(Topic:ahemmusa)
+  |DATA|ONAM:nibani maesa|NAME:The Ahemmusa of the Grazelands are mild and peace-loving. The wise woman of the Ahemmusa, Sinnammu Mirpal, is also their ashkhan.|BNAM:;Sul-Matuul; Journal "A2_6_Incarnate" >= 50;  ShowMap "Ahemmusa camp"
+
+[DUP-INF]: ID=146951819169722265(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM184.mp3|NAME:If a few words can help, I'd be happy to talk.|SCVR:02sX5Random100|INTV:F|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=147142472356720745(Topic:outlander)
+  |DATA|NAME:I have nothing to say to you. I despise you and your kind. Go away.|BNAM:; Ulath-Pal  ModDisposition -10
+
+[DUP-INF]: ID=150682160323807351(Topic:red mountain)
+  |DATA|CNAM:Dreamers|NAME:Red Mountain is the heart of Morrowind. There Lord Dagoth Ur dwells, and from Red Mountain he shall come to drive out the foreigners and restore the ancient glories of the Dunmer. Go to him, beneath Red Mountain, kneel before him, and he will show you mercy, and gather you into his household.|SCVR:01450|INTV
+
+[DUP-INF]: ID=232788305599126543(Topic:high ordinators)
+  |DATA|ONAM:holmar|NAME:Wha?
+
+[DUP-INF]: ID=239262796738311794(Topic:altmer)
+  |DATA|ONAM:tyermaillin|ANAM:Balmora|NAME:There aren't many of us here in Balmora. Just me, Estirdalin, Imare, Nalcarya the Alchemist, Hecerinde, and Culumaire. Why do you ask?|SCVR:34JX3TG_BalmoraDefenses|INTV: |SCVR:44JX4TG_BalmoraDefenses|INTV:d
+
+[DUP-INF]: ID=253227646864125858(Topic:almalexia)
+  |DATA|ONAM:Tienius Delitian|NAME:The goddess over in the Temple. She's surrounded by her Hands. Tough fighters from what I hear.|SCVR:04JX4TR_SothaSil|INTV:d
+
+[DUP-INF]: ID=271871908958111830(Topic:ghostfence)
+  |DATA|NAME:Dagoth Ur is dead, Nerevarine. We don't need the Ghostfence. But its bare pylons will remain as a tribute to Almsivi, to all the Ordinators and Buoyant Armigers who died, to the victims of the Sixth House, and to you, Nerevar-Born-Again.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:;Ghostgate;
+
+[DUP-INF]: ID=295869692980324969(Topic:sotha sil)
+  |DATA|ONAM:gavas drin|NAME:The Lord Sotha Sil is a great mage and a member of the Blessed Tribunal. He lives in his Clockwork City, and is rarely seen in Morrowind.
+
+[DUP-INF]: ID=306229682843426157(Topic:thieves guild)
+  |DATA|ONAM|BNAM:; savant; bard; rogue; thief; acrobat;
+
+[DUP-INF]: ID=312018631938623353(Topic:ebonheart)
+  |DATA|ONAM:nileno dorvayn|NAME:Ebonheart is south of Pelagiad, between Vivec and Seyda Neen. Take the road south to Pelagiad, then continue the road towards Vivec. Keep an eye on the signposts, and you shouldn't have any trouble reaching Ebonheart.|BNAM:ShowMap Ebonheart
+
+[DUP-INF]: ID=320556686154227618(Topic:great bazaar)
+  |DATA|CNAM:Guard|ANAM:Mournhold, Great Bazaar|NAME:You're standing in it.
+
+[DUP-INF]: ID=354411755245022384(Topic:blades)
+  |DATA|ONAM:elone|NAME:Yes, we heard Caius had been recalled. He said we'd still be forwarding our reports to him. I think he thought what you're doing is important -- whatever it is -- he didn't tell us -- and we weren't supposed to bother you.|SCVR:01460|INTV|SCVR:14JX3A2_4_MiloGone|INTV
+
+[DUP-INF]: ID=562219181370423433(Topic:missing hand)
+  |DATA|NAME:You have done well in removing this threat to Our peace and security|SCVR:04JX3TR_MissingHand_02|INTV:d
+
+[DUP-INF]: ID=692832221616331749(Topic:multiplayer)
+  |DATA|ONAM:m'aiq|NAME:M'Aiq does not know this word. You wish others to help you in your quest? Coward! If you must, search for the Argonian Im-Leet, or perhaps the big Nord, Rolf the Uber. They will certainly wish to join you.
+
+[DUP-INF]: ID=1066620337269786260(Topic:sadrith mora)
+  |DATA|ANAM:Sadrith Mora|NAME:Sadrith Mora is the House Telvanni seat, home of the Telvanni Council House and site of Tel Naga, the Councilor Mage-Lord Master Neloth's wizard tower. Visitors cannot enter the town, but must stay in the Gateway, a merchant inn for outsiders. Retainers and kin of the Telvanni can travel freely in town. Many outlanders live here, but most are Telvanni mercenaries, craftsmen, traders, or slavers.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap "Sadrith Mora"  ;Sadrith Mora;
+
+[DUP-INF]: ID=1121113346871521373(Topic:unrest in cyrodiil city)
+  |DATA|ONAM:jobasha|NAME:Things are bad for man and Khajiit. The provinces war with one another, never smelling the common enemy in their midst. The Empire spreads its troops far and wide with strict orders to do nothing. Children no longer respect their elders. People no longer respect the law. Corruption is everywhere. There are no heroes like there were in Jobasha's grandmother's day. All this fuss over the Emperor's illness is just a symptom.
+
+[DUP-INF]: ID=1228113341154996662(Topic:ordinators)
+  |DATA|ONAM:sinnammu mirpal|NAME:The Ordinators, the priest-soldiers of the Temple, have the duty of keeping worshippers from restoring the old Daedric sites scattered throughout the wastelands and along the rocky coasts and islands of Vvardenfell. Now these Ordinators are busy elsewhere, and the old Daedric sites are coming back to life. Some traders reported a ship carrying a few Ordinators has sailed from Molag Maar for Ald Daedroth, but my timid scouts won't dare approach the island.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Sinnammu Mirpal; Journal "A2-6_Incarnate" >= 50;
+
+[DUP-INF]: ID=1440921321192784393(Topic:arch-mage)
+  |DATA|ONAM:trebonius artorius|DNAM:Mages Guild|NAME:We now both have the title of Arch-Mage.|BNAM:;shouldn't ever show up -- "unreachable" but just in case
+
+[DUP-INF]: ID=1504219359159859529(Topic:ald velothi)
+  |DATA|ONAM:edwinna elbert|NAME:Take the Silt Strider to Gnisis and follow the roads north. I will mark Ald Velothi on your map.|BNAM:ShowMap "Ald Velothi"
+
+[DUP-INF]: ID=1551315852488622919(Topic:fedris hler)
+  |DATA|ONAM:fedris hler|NAME:I am Fedris Hler. What do you want?
+
+[DUP-INF]: ID=1598385532108112248(Topic:vos)
+  |DATA|ONAM:mallam ryon|NAME:You can take a boat there. That's the easiest way.
+
+[DUP-INF]: ID=1806107851364622498(Topic:addhiranirr)
+  |DATA|ONAM:duvianus platorius|NAME:Remember. Don't tell her you talked to me.|SCVR:34JX0A1_6_AddhiranirrInformant|INTV:5
+
+[DUP-INF]: ID=1835929512180623338(Topic:hla oad)
+  |DATA|ONAM:Kaye|NAME:Hla Oad is a tiny isolated fishing village on western Vvardenfell in the Bitter Coast region. You can take passage to Hla Oad from the Ebonheart docks. Speak to Nevosi Hlan, shipmaster. His boat is the 'Chun-Ook'.|BNAM:ShowMap "Hla Oad"  ShowMap "Gnaar Mok"
+
+[DUP-INF]: ID=2058725008273927969(Topic:suran)
+  |DATA|ONAM:tuls valen|NAME:It is on the north shore of Lake Masobi, in the northwest corner of the Ascadian Isles. You can get there by going east from Pelagiad and around the north side of the Dren Plantation, following the roads east until you reach Suran, or you can take a Silt Strider from Molag Mar or Vivec.|BNAM:ShowMap Suran  ;Nileno for quest
+
+[DUP-INF]: ID=2058828352372932539(Topic:buoyant armigers)
+  |DATA|CNAM:Healer|FNAM:Temple|NAME:The light-hearted Buoyant Armigers are rivals of the more solemn Ordinators in service to the Temple.|SCVR:02sX4Random100|INTV|BNAM:;Temple; priests; monks; healers;
+
+[DUP-INF]: ID=2082266311300432412(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM185.mp3|NAME:Yes?|SCVR:02sX5Random100|INTV:P|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=2149231044891529456(Topic:hands of almalexia)
+  |DATA|NAME:The Hands of Almalexia are My personal guard, pledged to honor and protect and serve Me in all ways. Their bodies and souls are buttressed by My Divine Favor. Their armor and weapons are imbued with glory by My Touch. On the face of Tamriel, there are no more terrible warriors than My Hands of Almalexia.
+
+[DUP-INF]: ID=2250770692576229666(Topic:empire)
+  |DATA|FNAM:Imperial Legion|NAME:The Empire is the greatest achievement of Tamrielic civilization. This melting pot of contrasting cultures is held together by a strong hereditary emperor and bureaucracy, by the rule of law, by a powerful professional army, and by religious tolerance. Education and wealth is broadly distributed through all social classes where Imperial culture has flourished; many citizens are literate and protected under Imperial law.
+
+[DUP-INF]: ID=2282729956131537934(Topic:affairs of honor)
+  |DATA|ONAM:trebonius artorius|FNAM:Temple|ANAM:Vivec, Guild of Mages|NAME:Native Dunmer and Imperials alike recognize a noble's obligation to answer a challenge of honor. A challenge of honor is a public declaration of a scandal against a private party. Only nobles fight duels, and the higher the rank, the stronger the obligation. Law and custom despises dishonorable duelists. If the victim was bullied, intimidated, or goaded by a stronger party with suspect motives, magistrates often convict the stronger party of foul murder.|BNAM:;Redoran; Hlaalu; Temple, Imperial cult; knight;
+
+[DUP-INF]: ID=2388613752739223814(Topic:akatosh)
+  |DATA|CNAM:Healer|FNAM:Imperial Cult|NAME:Akatosh is the ultimate God of the Cyrodilic Empire, where he embodies the qualities of endurance, invincibility, and everlasting legitimacy.|SCVR:03sX0NoLore|INTV:|SCVR:12sX4Random100|INTV:!|BNAM:;Imperial cult priests; monks; healers;
+
+[DUP-INF]: ID=2405019711740331778(Topic:ald'ruhn)
+  |DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:Ald'ruhn has two main districts. The Redoran Council and manors under the shell of the Emperor Crab are known as "Ald'ruhn-under-Skar."
+
+[DUP-INF]: ID=2436365142601226497(Topic:pelagiad)
+  |DATA|ONAM:Synnolian Tunifus|NAME:Pelagiad is a newly chartered Imperial village on the road north from Vivec to Balmora, right on the western edge of the Ascadian Isles region. The village is right outside the Imperial Legion garrison at Fort Pelagiad. The houses and shops are built in the Western Imperial style, and Pelagiad looks more like a village in the western Empire than a Morrowind settlement.|SCVR:04JX3IC1_marshmerrow|INTV|BNAM:ShowMap Pelagiad  ; Synnolian Tunifus; journal IC1_marshmerrow >= 1;
+
+[DUP-INF]: ID=2564125871252112594(Topic:plaza brindisi dorom)
+  |DATA|ANAM:Mournhold, Plaza Brindisi Dorom|NAME:This is the Plaza Brindisi Dorom. Although one can hardly tell after that attack.|SCVR:04JX3TR_MHAttack|INTV
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=2688322821775616653(Topic:tel aruhn)
+  |DATA|ONAM:sonummu zabamat|NAME:Tel Aruhn is the wizard's tower and village of the Telvanni Archmagister Gothren. Let me mark it on your map. Travel crosscountry to the southeast until you reach the water. Tel Aruhn is on an island in Zafirbel Bay, a long swim from shore. From the Dunmer Stronghold Indoranyon, go south. From Sadrith Mora, Tel Aruhn is due west. From Tel Fyr, Tel Aruhn is north. Here's another landmark. Thiralas Ancestral Tomb is on the mainland, near the bay. Tel Aruhn is the second island southeast from this tomb.|SCVR:04JX3B3_ZainabBride|INTV|BNAM:ShowMap "Tel Aruhn"
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=3076927222661129960(Topic:tel branora)
+  |DATA|ONAM:felisa ulessen|NAME:Tel Branora is Therana's tower. It's near the southeast tip of Azura's Coast on an island. I will mark it on your map. I believe you can take a boat there. That's probably the best way.|BNAM:ShowMap "Tel Branora"
+
+[DUP-INF]: ID=3160023740229122956(Topic:urshilaku)
+  |DATA|ONAM:hassour zainsubani|NAME:The Urshilaku are the Ashlanders of the northern Ashlands and the West Gash, in the northwest of Vvardenfell. Ashkhan Sul-Matuul is their chief, a brave and respected war leader, and Warrior-Protector of the Nerevarine cult. The Urshilaku camp moves with the herds, but usually lies close to the Sea of Ghosts.|SCVR:34JX3A1_11_ZainsubaniInformant|INTV
+
+[DUP-INF]: ID=3187325367112827359(Topic:grandmaster)
+  |DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:Yes, I will retire soon. You are the Grandmaster.
+
+[DUP-INF]: ID=3269812507128722743(Topic:khuul)
+  |DATA|ONAM:Kaye|NAME:Khuul is a small village on the northwest coast of Vvardenfell. Silt strider can carry you as far as Gnisis. Then you'll have to travel north on foot, cross-country. The only certain landmarks in the region are the village of Khuul, the Daedric ruins at Ashalmawia southwest of Khuul, and the village of Ald Velothi, on the coast west of both Ashalmawia and Khuul.|BNAM:ShowMap Khuul  ShowMap Ashalmawia  ShowMap "Ald Velothi"
+
+[DUP-INF]: ID=3727175572980031929(Topic:godsreach)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=7535323601775530403(Topic:ghostgate)
+  |DATA|ONAM:wulf|NAME:Thank you for taking my old lucky coin with you. I hope it brings you luck in Dagoth Ur.|SCVR:04JX3IC30_Imperial_veteran|INTV
+
+[DUP-INF]: ID=7790121922046710132(Topic:dark brotherhood)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=11322191091223710465(Topic:zainab)
+  |DATA|ONAM:sul-matuul|NAME:The wily Zainab of the Grazelands are proud, arrogant, and greedy, and none more than their Ashkhan Kaushad. But they are likable rogues, strong and self-assured. Show them you are strong and proud. Satisfy their greed and pride. The Ashlanders of Zainab camp are clever and cunning, and you, too, must be clever and cunning to outwit them.|SCVR:04JX3B1_UnifyUrshilaku|INTV|BNAM:;Sul-Matuul; Journal "A2_6_Incarnate" >= 50;
+
+[DUP-INF]: ID=12092326703209018224(Topic:dagoth ur)
+  |DATA|ONAM:hanarai assutlanipal|NAME:The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=13950144952521118349(Topic:caldera)
+  |DATA|ONAM:elone|NAME:Caldera is a recently chartered Imperial town and mining corporation north of Balmora on the road to Ald'ruhn. The Caldera Mining Company has been granted an Imperial monopoly to remove raw ebony from the rich deposits here. Caldera is a new town, recently built in the Western Imperial style, and most of the citizens are outlanders and new colonists.|BNAM:ShowMap Caldera
+
+[DUP-INF]: ID=14092225932036413817(Topic:tel mora)
+  |DATA|ONAM:savile imayn|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse. Tel Mora is a good distance north along the coast. You could travel cross country, but travel by ship to Tel Mora is cheap and reliable from the Tel Aruhn docks south of here.|SCVR:04JX3B3_ZainabBride|INTV|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+
+[DUP-INF]: ID=15323271032745521561(Topic:helseth)
+  |DATA|ONAM:effe_tei|NAME:This new ruler, King Hlaalu Helseth, is trying to transform the role of King of Morrowind from a mere Imperial figurehead into a powerful, personalized head of state. Athyn Llethan, the previous king, was old and dignified, but few took him seriously. Helseth, by contrast, is dynamic and ambitious. Before Morrowind entered the Empire, the Dunmer had no kings, and many Dunmer prefer the old system of council rule, but Imperial partisans want a strong king along Western Imperial lines.
+
+[DUP-INF]: ID=15721143111880630211(Topic:barenziah)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=17176322441535228241(Topic:erabenimsun)
+  |DATA|ONAM:sul-matuul|NAME:The war-loving Erabenimsun of Molag Mar are bad people, badly led. The Ashlanders of Erabenimsun camp are greedy and cruel, and have no respect for Ashlander custom. Ashkhan Ulath-Pal is ruthless and arrogant, and he surrounds himself with gulakhans like himself. Blood will be spilled; let it not be yours. There is one gulakhan of their tribe, Han-Ammu, who might be shaped as a new ashkhan. He is a weak reed, but his Wise Woman, Manirai, is strong and resourceful. Seek her counsel.|SCVR:04JX3B1_UnifyUrshilaku|INTV|BNAM:;Sul-Matuul; Journal "A2_6_Incarnate" >= 50;
+
+[DUP-INF]: ID=17481279481519214044(Topic:blight disease)
+  |DATA|CNAM:Dreamers|NAME:Lord Dagoth has sent the blight to destroy the foreigners, and to chasten those Dunmer who bend to foreign will. Those who oppose Lord Dagoth shall wither and die, while those who join Lord Dagoth shall be healed and strengthened, filled with the power and glory of Red Mountain, and inspired by the dreams of Dagoth Ur.
+
+[DUP-INF]: ID=17508186152491821384(Topic:royal guard)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=19742144401495913234(Topic:nerevarine)
+  |DATA|ONAM:holmar|NAME:Wha?
+
+[DUP-INF]: ID=22282324901235217619(Topic:disturbing dreams)
+  |DATA|ONAM:nibani maesa|NAME:The Devil's evil dreams are gone, %PCName. Dagoth Ur is dead. I would like to rejoice. But I feel uneasy. I cannot forget that Lord Nerevar once thought Dagoth Ur dead, long, long ago. He was mistaken.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=23791295661104930157(Topic:imperial legion)
+  |DATA|ONAM:caius cosades|NAME:The Imperial Legion has several fort garrisons here on Vvardenfell. The lower ranks handle law enforcement, escorts, rescues, dangerous predators, diseased and blighted beasts, and so forth. Only one fort accepts recruits -- Fort Darius in Gnisis. Gnisis is a frontier outpost, isolated, a little rough. But good experience. If you're interested, see General Darius in Gnisis.|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[DUP-INF]: ID=24534293452671821209(Topic:moon-and-star)
+  |DATA|FNAM:Telvanni|NAME:The enchanted ring called Moon-and-Star -- or One-Clan-Under-Moon-and-Star, as the Ashlanders call it -- was forged for the hero Nerevar by one of the Dwemer Sorcerer-Priest Kagrenac's smiths, and blessed by the Daedra Lord Azura. The ring gave Nerevar supernatural powers of persuasion and indisputable proof of identity, since any other who tried to wear the ring would be killed instantly.|SCVR:07XX0therana|INTV
+
+[DUP-INF]: ID=24751243121729526233(Topic:vivec)
+  |DATA|ONAM:caius cosades|NAME:Vivec City, named for Vivec, a living god of Morrowind, is the largest settlement on Vvardenfell, and one of the largest cities in the East. Take the silt strider from Balmora to Vivec; it's fast, cheap, and safe. Or, if you're feeling adventurous, walk the road south from Balmora, past Pelagiad, through the Ascadian Isles to Vivec. Be careful. It's easy to lose the road or blunder into beasts when traveling by night or in bad weather. Travel by day to avoid getting lost. Or killed.|SCVR:04JX4A2_1_MeetSulMatuul|INTV|SCVR:14JX3A1_4_MuzgobInformant|INTV:2|BNAM:ShowMap Vivec  ;caius cosades
+
+[DUP-INF]: ID=24755120612880226698(Topic:maar gan)
+  |DATA|ONAM:tuls valen|NAME:I have heard that you are a False Incarnate. I am not yet convinced, but I no longer trust you.|SCVR:34JX3A2_6_Incarnate|INTV:2|SCVR:44JX4B8_MeetVivec|INTV:2
+
+[DUP-INF]: ID=25042165042180828560(Topic:temple)
+  |DATA|ONAM:caius cosades|NAME:The Tribunal Temple is the native religion. They worship three God-Kings, Almalexia, Sotha Sil, and Vivec, who are known together as the Tribunal. We usually just call it 'The Temple.' They're narrow-minded and superstitious, but I find a lot to admire -- particularly their concern for the poor. They accept outlanders as members, but few outlanders join except for the services. Talk to Feldrelo Sadri at the Balmora Temple if you're thinking about joining.|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[DUP-INF]: ID=26923300772730626963(Topic:ashalmawia)
+  |DATA|ONAM:theldyn virith|NAME:I heard you were expelled, %PCName.|SCVR:01390|INTV
+
+[DUP-INF]: ID=27746160923274624334(Topic:imperial law)
+  |DATA|ONAM:artisa arelas|NAME:Fines and compensation are determined by magistrates, and may be paid to guards. In place of fines, the criminal may serve extended sentences of hard labor. The workcamps are hard places for hard men, and for each day served, expect to lose some hard-earned skill as a result of physical, mental, or emotional punishment.|SCVR:01500|INTV|BNAM:;Savant, bard, the old long one continued
+
+[DUP-INF]: ID=28014325021692728605(Topic:ald daedroth)
+  |DATA|ONAM:sinnammu mirpal|ANAM:Ald Daedroth|NAME:This site is an ancient shrine to Sheogorath, the Mad Lord. But now it will also be a refuge for the Ahemmusa in times of trouble.|SCVR:04JX3B2_AhemmusaSafe|INTV:(|BNAM:; Sinnammu Mirpal;

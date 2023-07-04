@@ -1,0 +1,138 @@
+F&F_base.esm: DUP-INF DUP-REC FOGBUG GETSND MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Wares-base.esm                265838 (plugin)      82499 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Fort Frostmoth, General Quarters
+	Mournhold Temple: Reception Area
+	Pelagiad, Mebestien Ence: Trader
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(aa_drunks)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(aa_BR_brigant_Script)
+	SCPT(aa_ab01guardsVarsScript)
+	SCPT(aa_partnerCombat)
+	SCPT(aa_partnerMagic)
+	SCPT(aa_partnerStealth)
+	SCPT(you_mask_Script)
+	SCPT(youscript2)
+	SCPT(youscript3)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LEVC    bm_ex_berserkers
+	bloodmoon.esm       LEVC    bm_ex_reaver_archers
+	bloodmoon.esm       LEVC    bm_ex_reavers
+	bloodmoon.esm       LEVC    bm_ex_smugglers
+	bloodmoon.esm       SNDG    bm_werewolf_skaal0004
+	bloodmoon.esm       SNDG    bm_werewolf_skaal0005
+	bloodmoon.esm       SNDG    bm_werewolf_skaal0006
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       LEVC    ex_ascadianisles_lev+0
+	morrowind.esm       LEVC    ex_ascadianisles_lev+2
+	morrowind.esm       LEVC    ex_ascadianisles_lev-1
+	morrowind.esm       LEVC    ex_ascadianisles_sleep
+	morrowind.esm       LEVC    ex_azurascoast_lev+0
+	morrowind.esm       LEVC    ex_azurascoast_lev+2
+	morrowind.esm       LEVC    ex_azurascoast_lev-1
+	morrowind.esm       LEVC    ex_azurascoast_sleep
+	morrowind.esm       LEVC    ex_bittercoast_lev+0
+	morrowind.esm       LEVC    ex_bittercoast_lev+2
+	morrowind.esm       LEVC    ex_bittercoast_lev-1
+	morrowind.esm       LEVC    ex_bittercoast_sleep
+	morrowind.esm       LEVC    ex_grazelands_lev+0
+	morrowind.esm       LEVC    ex_grazelands_lev+2
+	morrowind.esm       LEVC    ex_grazelands_lev-1
+	morrowind.esm       LEVC    ex_grazelands_sleep
+	morrowind.esm       LEVC    ex_molagmar_lev+0
+	morrowind.esm       LEVC    ex_molagmar_lev+2
+	morrowind.esm       LEVC    ex_molagmar_lev-1
+	morrowind.esm       LEVC    ex_molagmar_sleep
+	morrowind.esm       LEVC    ex_redmtn_all_lev+0
+	morrowind.esm       LEVC    ex_redmtn_all_lev-2
+	morrowind.esm       LEVC    ex_sheogorad_lev+0
+	morrowind.esm       LEVC    ex_sheogorad_lev+2
+	morrowind.esm       LEVC    ex_sheogorad_lev-1
+	morrowind.esm       LEVC    ex_sheogorad_sleep
+	morrowind.esm       LEVC    ex_westgash_lev+0
+	morrowind.esm       LEVC    ex_westgash_lev+2
+	morrowind.esm       LEVC    ex_westgash_lev-1
+	morrowind.esm       LEVC    ex_westgash_sleep
+	morrowind.esm       LEVC    ex_wild_all_lev+0
+	morrowind.esm       LEVC    ex_wild_all_lev+2
+	morrowind.esm       LEVC    ex_wild_all_lev-1
+	morrowind.esm       LEVC    ex_wild_all_sleep
+	morrowind.esm       LEVC    ex_wild_rat_lev+0
+	morrowind.esm       LEVC    ex_wild_rat_lev+2
+	morrowind.esm       LEVC    in_6th_all_lev+0
+	morrowind.esm       LEVC    in_6th_all_lev+2
+	morrowind.esm       LEVC    in_6th_all_lev-2
+	morrowind.esm       LEVC    in_6th_ash_lev+0
+	morrowind.esm       LEVC    in_6th_ash_lev+2
+	morrowind.esm       LEVC    in_6th_ash_lev-2
+	morrowind.esm       LEVC    in_dae_all_lev+0
+	morrowind.esm       LEVC    in_dae_all_lev+2
+	morrowind.esm       LEVC    in_dae_all_lev-2
+	morrowind.esm       LEVC    in_dwe_all_lev+0
+	morrowind.esm       LEVC    in_dwe_all_lev+2
+	morrowind.esm       LEVC    in_dwe_all_lev-2
+	morrowind.esm       LEVC    in_egg_kwama_mined
+	morrowind.esm       LEVC    in_tomb_all_lev+0
+	morrowind.esm       LEVC    in_tomb_all_lev+2
+	morrowind.esm       LEVC    in_tomb_all_lev-2
+	morrowind.esm       LEVC    in_tomb_bone_lev+0
+	morrowind.esm       LEVC    in_tomb_bone_lev+2
+	morrowind.esm       LEVC    in_tomb_bone_lev-2
+	morrowind.esm       LEVC    in_tomb_skele_lev+0
+	morrowind.esm       LEVC    in_tomb_skele_lev+2
+	morrowind.esm       LEVC    in_tomb_skele_lev-2
+	morrowind.esm       NPC_    redoran guard male
+	tribunal.esm        DIAL    apelles matius
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        LEVC    in_goblins
+	tribunal.esm        LEVC    in_tomb_all_lev_trib
+	wares-base.esm      LEVI    aa_gear_ash_helm
+	wares-base.esm      LEVI    aa_gear_mrks_best
+	wares-base.esm      LEVI    aa_gear_mrks_cheap
+	wares-base.esm      LEVI    aa_loot_battlmag
+	wares-base.esm      LEVI    aa_loot_book_hold
+	wares-base.esm      LEVI    aa_loot_shamn
+	wares-base.esm      LEVI    aa_loot_sorc
+	wares-base.esm      LEVI    aa_loot_whuntr
+
+[DUP-INF]: ID=241332735185636088(Greeting:greeting 9)
+  |DATA|NAME:Go away. Go bother somebody else.|SCVR:02sX4Random100|INTV:_
+
+[MOD-INF]: ID=1153953981787613029(Topic:dark brotherhood)
+  tribunal.esm->|DATA|CNAM:Guard|NAME:Scum, all of them. If they're after you, friend, you'd better find yourself some help. Or write a will. Or both.|SCVR:04JX3TR_DBAttack|INTV: 
+  F&F_base.esm->|DATA|CNAM:Guard|NAME:Scum, all of them. If they're after you, friend, you'd better find yourself some help. Or write a will. Or both.|SCVR:04JX3TR_DBAttack|INTV: |SCVR:1CsX0nolore|INTV:
+
+[MOD-INF]: ID=1674510864197441864(Greeting:greeting 9)
+  morrowind.esm->|DATA|NAME:I'm fine, thank you. What can I do for you?|SCVR:03sX3NoLore|INTV:|BNAM:;added to prevent some bad no lore greetings.
+  F&F_base.esm-->|DATA|NAME:I'm fine, thank you. What can I do for you?|SCVR:03sX3NoLore|INTV:|SCVR:12sX2Random100|INTV:'|BNAM:;added to prevent some bad no lore greetings.
+
+[MOD-INF]: ID=2404871663096914660(Greeting:greeting 9)
+  morrowind.esm->|DATA|RNAM:Khajiit|NAME:What can %name do for you?|SCVR:03sX3NoLore|INTV:|BNAM:;added to prevent some bad no lore greetings.
+  F&F_base.esm-->|DATA|RNAM:Khajiit|NAME:What can %name do for you?|SCVR:03sX3NoLore|INTV:|SCVR:12sX2Random100|INTV:'
+
+[MOD-INF]: ID=3163273781849611460(Topic:apelles matius)
+  tribunal.esm->|DATA|CNAM:Guard|NAME:He's recently arrived from Cyrodiil. You'll likely find him inspecting the grounds at Ebonheart.|SCVR:0BLX0Mournhold|INTV
+  F&F_base.esm->|DATA|CNAM:Guard|NAME:He's recently arrived from Cyrodiil. You'll likely find him inspecting the grounds at Ebonheart.|SCVR:0BLX0Mournhold|INTV|SCVR:1CsX0nolore|INTV:
+
+[MOD-INF]: ID=12131319582389432117(Greeting:greeting 9)
+  tribunal.esm->|DATA|NAME:It is truly a pleasure to see you.|SCVR:03sX3NoLore|INTV:|BNAM:;added to prevent some bad no lore greetings.
+  F&F_base.esm->|DATA|NAME:It is truly a pleasure to see you.|SCVR:03sX3nolore|INTV:|SCVR:12sX2Random100|INTV:Y|BNAM:;added to prevent some bad no lore greetings.
+
+[MOD-INF]: ID=15382100702495829733(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Commoner|NAME:I am a commoner. I do whatever needs doing -- cooking, cleaning, building, baking, making, breaking. And, by your accent, I can tell YOU are an outlander. Since you're new to these parts, perhaps you'd like me to share a little local lore.|SCVR:0CsX0NoLore|INTV:|BNAM:;Commoner; Morrowind lore, local lore
+  F&F_base.esm-->|DATA|CNAM:Commoner|NAME:I'm a commoner. I do what I can to put food on my table and a roof over my head.|SCVR:0CsX0nolore|INTV:|BNAM:;Commoner; Morrowind lore, local lore
+
+[DUP-INF]: ID=25249198542886620984(Greeting:greeting 9)
+  |DATA|NAME:I STILL don't like you. And I STILL don't want to talk to you.|BNAM:;last greeting 9, below this unreachable code

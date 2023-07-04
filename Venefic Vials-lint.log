@@ -1,0 +1,13 @@
+Venefic Vials.esp: AUTOSPL BM-DEP EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER
+    [AUTOSPL] Auto-calced Spells:
+	vv_veneficcloud                Venefic Cloud
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(VV_vial_activator_Script)       explodespell
+	SCPT(VV_vial_activator_Script)       getcollidingactor
+	SCPT(VV_vial_activator_Script)       setdelete
+	SCPT(VV_vial_script)                 setdelete
+    [BM-DEP] Bloodmoon Dependency: Bloodmoon Functions:
+	SCPT(VV_vial_script)                 placeatme
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(VV_vial_activator_Script)
+	SCPT(VV_vial_script)

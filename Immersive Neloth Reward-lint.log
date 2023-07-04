@@ -1,0 +1,25 @@
+Immersive Neloth Reward.ESP: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    drake's pride
+	tribunal.esm        DIAL    ht_drakepride
+
+[MOD-INF]: ID=153227411508118960(Topic:drake's pride)
+  morrowind.esm--------------->|DATA|ONAM:neloth|NAME:Yes, now the robe is in the proper hands. Here, take these ten drakes for your trouble.|SCVR:01500|INTV|BNAM:Journal HT_DrakePride 100  Player->AddItem Gold_001 10  Player->RemoveItem "exquisite_robe_drake's pride" 1  AddItem "exquisite_robe_drake's pride" 1  ModPCFacRep 5 "Telvanni"  ModDisposition 10
+  Immersive Neloth Reward.ESP->|DATA|ONAM:neloth|NAME:Yes, now the robe is in the proper hands. Here, take my old robe for your trouble.|SCVR:01500|INTV|BNAM:Journal HT_DrakePride 100  Player->AddItem "exquisite_robe_01" 1  RemoveItem "exquisite_robe_01" 1  Player->RemoveItem "exquisite_robe_drake's pride" 1  AddItem "exquisite_robe_drake's pride" 1  ModPCFacRep 5 "Telvanni"  ModDisposition 10
+
+[MOD-INF]: ID=1957554642047311325(Topic:drake's pride)
+  morrowind.esm--------------->|DATA|ONAM:neloth|NAME:Yes, it is a fine and marvelous robe when worn by the rare wizard who is worthy of it.|SCVR:34JX3HT_DrakePride|INTV:d
+  Immersive Neloth Reward.ESP->|DATA|ONAM:neloth|NAME:Yes, it is a fine and marvelous robe when worn by the rare wizard who is worthy of it.|SCVR:34JX0HT_DrakePride|INTV:d
+
+[MOD-INF]: ID=2145425348324619427(Topic:drake's pride)
+  morrowind.esm--------------->|DATA|ONAM:neloth|NAME:Were you expelled for getting me the robe? How unfortunate. I will take care of this for you. It's the least I can do. And take these ten drakes for your trouble.|SCVR:01500|INTV|SCVR:11390|INTV|BNAM:Journal HT_DrakePride 100  Player->AddItem Gold_001 10  Player->RemoveItem "exquisite_robe_drake's pride" 1  AddItem "exquisite_robe_drake's pride" 1  ModPCFacRep 5 "Telvanni"  ModDisposition 5  PCClearExpelled
+  Immersive Neloth Reward.ESP->|DATA|ONAM:neloth|NAME:Were you expelled for getting me the robe? How unfortunate. I will take care of this for you. It's the least I can do. And take my old robe for your trouble.|SCVR:01500|INTV|SCVR:11390|INTV|BNAM:Journal HT_DrakePride 100  Player->AddItem "exquisite_robe_01" 1  RemoveItem "exquisite_robe_01" 1  Player->RemoveItem "exquisite_robe_drake's pride" 1  AddItem "exquisite_robe_drake's pride" 1  ModPCFacRep 5 "Telvanni"  ModDisposition 5  PCClearExpelled
+
+[MOD-INF]: ID=28229117762658021605(Journal:ht_drakepride)
+  tribunal.esm---------------->|DATA|NAME:House Redoran: Drake's Pride|QSTN
+  Immersive Neloth Reward.ESP->|DATA|NAME:House Telvanni: Drake's Pride|QSTN
+
+[MOD-INF]: ID=28327282662566813983(Topic:drake's pride)
+  morrowind.esm--------------->|DATA|ONAM:neloth|NAME:It looks very similar. Are you certain? Do not lie to me, %PCName.|SCVR:01500|INTV|BNAM:ModDisposition -5
+  Immersive Neloth Reward.ESP->|DATA|ONAM:neloth|NAME:It looks very similar. Are you certain? Do not lie to me, %PCName.|SCVR:01500|INTV|BNAM:ModDisposition -5  Journal "HT_DrakePride" 110  ModPCFacRep 5 "Telvanni"

@@ -1,0 +1,782 @@
+Uvirith's Legacy_3.53 (2).esp: AUTOSPL DUP-INF DUP-REC FOGBUG GETSND MENUMOD MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	gp_kynes sweet embrace         Kyne's Sweet Embrace
+	gp_straelhcaeghs wraithtouch   Straelhcaegh's Wraithtouch
+	shalk_rally                    Shalk King's Call
+	uvi_comp_lightning             Lightning Bolt
+	uvi_comp_flamebolt             Flamebolt
+	uvi_comp_restoattribute        Restore Attributes
+	uvi_comp_invisible             Chameleon
+	uvi_comp_fireweak              Flamebolt
+	uvi_comp_frostbolt             Frostbolt
+	uvi_comp_poisonbolt            Poisonbolt
+	uvi_comp_flameboltgr           Flamebolt Greater
+	uvi_comp_frostboltgr           Frostbolt Greater
+	uvi_comp_lightninggr           Lightning Bolt Greater
+	uvi_comp_poisonboltgr          Poisonbolt Greater
+	uvi_comp_fatigueresto          
+    [FOGBUG]: Cells with zero fog density setting:
+	Corprusarium, Hidden Cave
+	Sadrith Mora, Tel Naga
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(BLk_Practice_Dummy_1DR)
+	SCPT(Uvi_Apprentice)
+	SCPT(Uvi_ArchmagisterRobe_Script)
+	SCPT(Uvi_Berom_Skellington)
+	SCPT(Uvi_Gothren_AddScript)
+	SCPT(Uvirith_AshKosh_F)
+	SCPT(Uvirith_AshKosh_M)
+	SCPT(gp_primusScript)
+	SCPT(gp_saraScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BKU_BookTopics)
+	SCPT(BKU_CompleteVols)
+	SCPT(BKU_Librarian)
+	SCPT(BKU_LibraryGlobal_BoV)
+	SCPT(BKU_LibraryGlobal_I)
+	SCPT(BKU_LibraryGlobal_II)
+	SCPT(BKU_LibraryGlobal_III)
+	SCPT(BKU_LibraryGlobal_IV)
+	SCPT(BKU_LibraryGlobal_V)
+	SCPT(BOH_SoulRemove)
+	SCPT(BOH_Soulcheck)
+	SCPT(BOH_Spellcheck)
+	SCPT(BOH_dummy_bag)
+	SCPT(BRFolio_New)
+	SCPT(BROctavo_05_new)
+	SCPT(BROctavo_06_AlchemyCSig_closed)
+	SCPT(BROctavo_06_AlchemyCSig_open)
+	SCPT(BROctavo_06_AlchemyC_closed)
+	SCPT(BROctavo_06_AlchemyC_open)
+	SCPT(BROctavo_06_new)
+	SCPT(BROctavo_Berom)
+	SCPT(BROctavo_Bloat)
+	SCPT(BROctavo_Corpse_Berom_closed)
+	SCPT(BROctavo_Corpse_Berom_open)
+	SCPT(BROctavo_new)
+	SCPT(BRQuarto_Doors_Berom_closed)
+	SCPT(BRQuarto_Doors_Berom_open)
+	SCPT(BRQuarto_new)
+	SCPT(BR_book_bloatspores)
+	SCPT(BRmel_FloraSig_closed)
+	SCPT(BRmel_FloraSig_open)
+	SCPT(BRmel_Flora_closed)
+	SCPT(BRmel_Flora_open)
+	SCPT(BRmel_book1)
+	SCPT(DHM_Llapp_script)
+	SCPT(DHM_Ritual_Complexity)
+	SCPT(DHM_Ritual_Marker)
+	SCPT(DHM_Ritual_Player_Marker)
+	SCPT(DHM_Ritual_Quill)
+	SCPT(DHM_Special_Quill)
+	SCPT(DHM_alch_table_note)
+	SCPT(DHM_chest_scamp)
+	SCPT(DHM_insc_enabler)
+	SCPT(DHM_insc_ring_script)
+	SCPT(DHM_insc_well_alte)
+	SCPT(DHM_insc_well_comp)
+	SCPT(DHM_insc_well_conj)
+	SCPT(DHM_insc_well_dest)
+	SCPT(DHM_insc_well_illu)
+	SCPT(DHM_insc_well_myst)
+	SCPT(DHM_insc_well_rest)
+	SCPT(DHM_scrollcheck)
+	SCPT(DHM_soulcheck)
+	SCPT(DHM_soulremove0)
+	SCPT(DHM_soulremove1)
+	SCPT(DHM_soulremove2)
+	SCPT(DHM_soulremove3)
+	SCPT(DHM_spellfire)
+	SCPT(FEZ_Script_Ordinary)
+	SCPT(FEZ_Script_Ordinary_First)
+	SCPT(FastEddieAmulet)
+	SCPT(FastEddieBag1)
+	SCPT(FastEddieBag2)
+	SCPT(FastEddieBag3)
+	SCPT(FastEddieBag4)
+	SCPT(FastEddieCrystal)
+	SCPT(FastEddieDaeBook)
+	SCPT(FastEddieRing)
+	SCPT(FastEddieSpellbook)
+	SCPT(FastEddieTable1)
+	SCPT(FastEddieTable2)
+	SCPT(FastEddieVivecMission1)
+	SCPT(FastEddieVivecMission2)
+	SCPT(FastEddieVivecMission3)
+	SCPT(NOM_sleep_penalties)
+	SCPT(QorwynnSoulCheck)
+	SCPT(QorwynnSoulRemove)
+	SCPT(QorwynnSoulWait)
+	SCPT(ST_Chest_Sml_Misc_01_Scr)
+	SCPT(ST_Chest_Sml_Misc_02_Scr)
+	SCPT(ST_Chest_Sml_Misc_03_Scr)
+	SCPT(ST_Chest_Sml_Misc_04_Scr)
+	SCPT(ST_Chest_Sml_Misc_05_Scr)
+	SCPT(ST_Chest_Sml_Misc_06_Scr)
+	SCPT(ST_Chest_Sml_Misc_07_Scr)
+	SCPT(ST_Chest_Sml_Misc_08_Scr)
+	SCPT(ST_Chest_Sml_Misc_09_Scr)
+	SCPT(ST_Chest_Sml_Misc_10_Scr)
+	SCPT(ST_Chest_Sml_Misc_11_Scr)
+	SCPT(ST_Chest_Sml_Misc_12_Scr)
+	SCPT(ST_Cushion_Misc_R01)
+	SCPT(ST_Cushion_Misc_R02)
+	SCPT(ST_Cushion_Misc_R03)
+	SCPT(ST_Cushion_Misc_R04)
+	SCPT(ST_Cushion_Misc_R05)
+	SCPT(ST_Cushion_Misc_R06)
+	SCPT(ST_Cushion_Misc_R07)
+	SCPT(ST_Cushion_Misc_R08)
+	SCPT(ST_Cushion_Misc_R09)
+	SCPT(ST_Cushion_Misc_R10)
+	SCPT(ST_Cushion_Misc_R11)
+	SCPT(ST_Cushion_Misc_R12)
+	SCPT(ST_Cushion_Misc_S01)
+	SCPT(ST_Cushion_Misc_S02)
+	SCPT(ST_Cushion_Misc_S03)
+	SCPT(ST_Cushion_Misc_S04)
+	SCPT(ST_Cushion_Misc_S05)
+	SCPT(ST_Cushion_Misc_S06)
+	SCPT(ST_Cushion_Misc_S07)
+	SCPT(ST_Cushion_Misc_S08)
+	SCPT(ST_Cushion_Misc_S09)
+	SCPT(ST_Cushion_Misc_S10)
+	SCPT(ST_Cushion_Misc_S11)
+	SCPT(ST_Cushion_Misc_S12)
+	SCPT(StrongVault_Build_T)
+	SCPT(UVI_WC_Myst)
+	SCPT(UviStart)
+	SCPT(Uvi_AlmosSalmeaDate)
+	SCPT(Uvi_AlmosVampWait)
+	SCPT(Uvi_Almossaren_start)
+	SCPT(Uvi_Almossaren_wait)
+	SCPT(Uvi_AppDeskReward)
+	SCPT(Uvi_AppDeskWait)
+	SCPT(Uvi_AppTimer1)
+	SCPT(Uvi_AppTimer2)
+	SCPT(Uvi_AppTimerDSBK)
+	SCPT(Uvi_AppTimerOuvi)
+	SCPT(Uvi_AppTimerRainflask)
+	SCPT(Uvi_AppTimerSGem)
+	SCPT(Uvi_AppTimerScpMtl)
+	SCPT(Uvi_AppTimerTwilight)
+	SCPT(Uvi_AppVampCure)
+	SCPT(Uvi_AppVampCure2)
+	SCPT(Uvi_AppVampCure3)
+	SCPT(Uvi_AppVampTimer)
+	SCPT(Uvi_AppVampTimer1)
+	SCPT(Uvi_AppVampTimer2)
+	SCPT(Uvi_App_Level)
+	SCPT(Uvi_App_RecallS)
+	SCPT(Uvi_App_SpellCastCheck)
+	SCPT(Uvi_App_SpellCheck)
+	SCPT(Uvi_App_SpendGold)
+	SCPT(Uvi_App_SuranSlip)
+	SCPT(Uvi_App_VampDaylight)
+	SCPT(Uvi_App_VampireSleep)
+	SCPT(Uvi_Ashfall_Door_01)
+	SCPT(Uvi_Ashfall_Door_02)
+	SCPT(Uvi_Ashfall_Door_03)
+	SCPT(Uvi_Ashfall_Mummy_01)
+	SCPT(Uvi_Ashfall_Mummy_02)
+	SCPT(Uvi_Ashfall_Mummy_03)
+	SCPT(Uvi_Assassin)
+	SCPT(Uvi_AzuraStar_Fake_Timer)
+	SCPT(Uvi_AzuraStat_Chest)
+	SCPT(Uvi_AzuraStat_Theft_Timer)
+	SCPT(Uvi_BK_Arnamir)
+	SCPT(Uvi_BK_Arnamir_V)
+	SCPT(Uvi_BalconyLocked)
+	SCPT(Uvi_Berom_TrapdoorScript)
+	SCPT(Uvi_Chest_Bthanch)
+	SCPT(Uvi_Chest_Edwin)
+	SCPT(Uvi_ConjCircle_Global)
+	SCPT(Uvi_ConjCircle_Script)
+	SCPT(Uvi_CorprusStalker)
+	SCPT(Uvi_Cremation_Fire_Gavyn)
+	SCPT(Uvi_Cremation_Fire_Sara)
+	SCPT(Uvi_Cremation_Urn)
+	SCPT(Uvi_DagonStatue)
+	SCPT(Uvi_Dead_Zhariphel)
+	SCPT(Uvi_DisableOnce)
+	SCPT(Uvi_DisplayCase_Lid)
+	SCPT(Uvi_DisplayCase_Lid_Lrg)
+	SCPT(Uvi_Door_LlappLocked)
+	SCPT(Uvi_DrathaDremoraF)
+	SCPT(Uvi_DrathaDremoraM)
+	SCPT(Uvi_DrathaDremoraWait)
+	SCPT(Uvi_EggScript)
+	SCPT(Uvi_Felinglith)
+	SCPT(Uvi_Felinglith_ArenaTimer)
+	SCPT(Uvi_Felinglith_Mudcrab)
+	SCPT(Uvi_GalathisCorpse)
+	SCPT(Uvi_Galethis_CurseScript)
+	SCPT(Uvi_Galethis_HelmScript)
+	SCPT(Uvi_GarethiChore)
+	SCPT(Uvi_Garethi_Assassin)
+	SCPT(Uvi_Garethi_Guard)
+	SCPT(Uvi_Garethi_Nemas)
+	SCPT(Uvi_Gothren_AddScript)
+	SCPT(Uvi_HSprisondoor01)
+	SCPT(Uvi_HSprisondoor02)
+	SCPT(Uvi_HSprisondoor03)
+	SCPT(Uvi_LibrarianSecret)
+	SCPT(Uvi_LibrarianSkamp)
+	SCPT(Uvi_LlruviiAttack)
+	SCPT(Uvi_LockMessageShushan)
+	SCPT(Uvi_MTExecution)
+	SCPT(Uvi_MTRing)
+	SCPT(Uvi_MagicalBugLamp)
+	SCPT(Uvi_MeireeVampWait)
+	SCPT(Uvi_Meiree_HomeBeacon)
+	SCPT(Uvi_Meiree_LevStop)
+	SCPT(Uvi_Meiree_Romance_1)
+	SCPT(Uvi_Meiree_Romance_2)
+	SCPT(Uvi_Meiree_Runaway)
+	SCPT(Uvi_MoragTongAgent)
+	SCPT(Uvi_Open_porticullis)
+	SCPT(Uvi_Phij_ShthWeaps_DisableS)
+	SCPT(Uvi_Positioner_Librarian)
+	SCPT(Uvi_PrisonGuard_Relief1)
+	SCPT(Uvi_PrisonGuard_Relief2)
+	SCPT(Uvi_PrisonGuard_Relief3)
+	SCPT(Uvi_PrisonGuard_Relief4)
+	SCPT(Uvi_PrisonGuard_Relief5)
+	SCPT(Uvi_PrisonGuard_Relief6)
+	SCPT(Uvi_Prison_DurzaVampWait)
+	SCPT(Uvi_Prison_Guard)
+	SCPT(Uvi_Prison_MeranaVampWait)
+	SCPT(Uvi_Prison_Strongbox)
+	SCPT(Uvi_Prison_Trapdoor)
+	SCPT(Uvi_Prison_TrenamVampWait)
+	SCPT(Uvi_Prisoner_Naked_Timer)
+	SCPT(Uvi_Prisoner_Valodius)
+	SCPT(Uvi_Prisoner_Valodius_Murder)
+	SCPT(Uvi_QorwynnBall)
+	SCPT(Uvi_Rock_CureWait)
+	SCPT(Uvi_Rock_NoPickup_Remove)
+	SCPT(Uvi_SaleChest_Remove)
+	SCPT(Uvi_SanguinePotion)
+	SCPT(Uvi_SanguinePotion_T)
+	SCPT(Uvi_ScheduleCount)
+	SCPT(Uvi_Serv_Clothes_A)
+	SCPT(Uvi_Serv_Clothes_M1)
+	SCPT(Uvi_Serv_Clothes_M2)
+	SCPT(Uvi_Serv_Clothes_M3)
+	SCPT(Uvi_Serv_Clothes_S)
+	SCPT(Uvi_Serv_SalVampWait)
+	SCPT(Uvi_Serv_Salmeama)
+	SCPT(Uvi_ShipmentAshland)
+	SCPT(Uvi_ShipmentBloatbarrel)
+	SCPT(Uvi_ShipmentBloodmoon)
+	SCPT(Uvi_ShipmentGems)
+	SCPT(Uvi_ShipmentMainland)
+	SCPT(Uvi_ShipmentStandard)
+	SCPT(Uvi_ShipmentTribunal)
+	SCPT(Uvi_SkoomaAbolish)
+	SCPT(Uvi_Slave_Amse_Free)
+	SCPT(Uvi_Slave_Amse_VampWait)
+	SCPT(Uvi_Slave_Amsemasa)
+	SCPT(Uvi_StoneInscription)
+	SCPT(Uvi_StorageLedger0)
+	SCPT(Uvi_StorageLedger1)
+	SCPT(Uvi_StorageLedger2)
+	SCPT(Uvi_StorageLedger3)
+	SCPT(Uvi_StorageLedger4)
+	SCPT(Uvi_StorageLedger5)
+	SCPT(Uvi_StorageLedger6)
+	SCPT(Uvi_StoveFire_Script)
+	SCPT(Uvi_TableWait)
+	SCPT(Uvi_TelGuards)
+	SCPT(Uvi_TeleportBan)
+	SCPT(Uvi_TeleportBan_Act_Ash)
+	SCPT(Uvi_TeleportBan_Act_Lev)
+	SCPT(Uvi_TeleportDoor)
+	SCPT(Uvi_Therana_Scamp)
+	SCPT(Uvi_Tome_Stand)
+	SCPT(Uvi_Torture_Armor_Br_L)
+	SCPT(Uvi_Torture_Armor_Br_R)
+	SCPT(Uvi_Torture_Armor_Helm)
+	SCPT(Uvi_Torture_Armor_Key)
+	SCPT(Uvi_Torture_Armor_Unlocked)
+	SCPT(Uvi_TowerTravel_Belt)
+	SCPT(Uvi_TowerTravel_CreatureInviso)
+	SCPT(Uvi_TowerTravel_Ring)
+	SCPT(Uvi_TowerTravel_Slippers)
+	SCPT(Uvi_Tower_ChangeBed)
+	SCPT(Uvi_Tower_ClosetCheck)
+	SCPT(Uvi_Tower_LinenCloset)
+	SCPT(Uvi_Tower_RugWaitScript)
+	SCPT(Uvi_Trial_Amulet)
+	SCPT(Uvi_Trial_GuardStand2)
+	SCPT(Uvi_Trial_NPCs)
+	SCPT(Uvi_Trial_Timer)
+	SCPT(Uvi_V_Guild_Teardown)
+	SCPT(Uvi_V_Guild_U_NPCs)
+	SCPT(Uvi_V_Guild_Wall)
+	SCPT(Uvi_VampAmulet1)
+	SCPT(Uvi_VampBloodDrink)
+	SCPT(Uvi_VampBloodVial)
+	SCPT(Uvi_Vampblood_Amulet)
+	SCPT(Uvi_Vivec_TeleportCrystals)
+	SCPT(Uvi_Vivec_TeleportPlatform)
+	SCPT(Uvi_Vivec_UP_SlaveScript)
+	SCPT(Uvi_WC_ItemCounter)
+	SCPT(Uvi_WC_ItemRemove)
+	SCPT(Uvi_Zhar_Meeting_NPCs)
+	SCPT(Uvi_Zhariphel_BerinnaDoor1)
+	SCPT(Uvi_Zhariphel_BerinnaDoor2)
+	SCPT(Uvi_Zhariphel_ConstructTimer1)
+	SCPT(Uvi_Zhariphel_ConstructTimer2)
+	SCPT(Uvi_Zhariphel_ConstructTimer3)
+	SCPT(Uvi_Zhariphel_ConstructTimer4)
+	SCPT(Uvi_Zhariphel_ConstructTimer5)
+	SCPT(Uvi_Zhariphel_Construct_0)
+	SCPT(Uvi_Zhariphel_Construct_1)
+	SCPT(Uvi_Zhariphel_Construct_2)
+	SCPT(Uvi_Zhariphel_Construct_3)
+	SCPT(Uvi_Zhariphel_Construct_3d)
+	SCPT(Uvi_Zhariphel_Construct_4)
+	SCPT(Uvi_Zhariphel_Construct_5)
+	SCPT(Uvi_Zhariphel_Construct_5d)
+	SCPT(Uvi_Zhariphel_Construct_6)
+	SCPT(Uvi_Zhariphel_Darys)
+	SCPT(Uvi_Zhariphel_Publican)
+	SCPT(Uvi_Zhariphel_Son_QuestTimer)
+	SCPT(Uvi_Zhariphel_Son_QuestTimer2)
+	SCPT(Uvi_Zhariphel_Teleporter)
+	SCPT(Uvi_Zhariphel_TravelRing)
+	SCPT(Uvi_Zhariphel_TravelRing_C)
+	SCPT(Uvi_dungeonspawn_activator)
+	SCPT(Uvi_dungeonspawn_activator2)
+	SCPT(Uvi_note_Arnamir_Book)
+	SCPT(Uvi_note_Key)
+	SCPT(Uvirith_Arnamir)
+	SCPT(Uvirith_ArnamirDesk)
+	SCPT(Uvirith_Arnamir_BTimer)
+	SCPT(Uvirith_Arnamir_Teleport)
+	SCPT(Uvirith_Arnamir_VBTimer)
+	SCPT(Uvirith_Ash_EquipArmorA)
+	SCPT(Uvirith_Ash_EquipArmorD)
+	SCPT(Uvirith_Ash_OblivionFall)
+	SCPT(Uvirith_Ash_PortalScript)
+	SCPT(Uvirith_Ash_RemoveArmor)
+	SCPT(Uvirith_Attack_AnasmiTimer)
+	SCPT(Uvirith_Dungeon_Door)
+	SCPT(Uvirith_Dungeon_Hounds)
+	SCPT(Uvirith_Missingsilver_Silver)
+	SCPT(Uvirith_Missingsilver_chest)
+	SCPT(Uvirith_Tomb_Boulder)
+	SCPT(Uvirith_Tomb_Haunt)
+	SCPT(Uvirith_Tomb_Resurrection)
+	SCPT(Uvirith_Vault_Atronach)
+	SCPT(Uvirith_Vault_AtronachDoor)
+	SCPT(Uvirith_Vault_AtronachPlacer)
+	SCPT(Uvirith_Vault_InvisibleTroll)
+	SCPT(Uvirith_Vault_KeyWait)
+	SCPT(Uvirith_Vault_SphereDoor)
+	SCPT(Uvirith_VerenaCheck)
+	SCPT(Uvirith_VerenaRevengeTimer)
+	SCPT(Uvirith_VerenaTimer)
+	SCPT(Uvirith_Verena_ScampCurse)
+	SCPT(Velothi_Door_Invert_Open)
+	SCPT(Waste_Basket_Disable)
+	SCPT(Water_Basin_Splash)
+	SCPT(brownBookScript_new)
+	SCPT(fastEddieScript)
+	SCPT(fastEddie_VerenaTimer)
+	SCPT(gp_Barrier_01)
+	SCPT(gp_Barrier_02)
+	SCPT(gp_Barrier_03)
+	SCPT(gp_Barrier_Shushan)
+	SCPT(gp_PrimusWait)
+	SCPT(gp_ResonanceScript)
+	SCPT(gp_SaraWait)
+	SCPT(gp_Sara_MeetingPlaceS)
+	SCPT(gp_atronachAzrohaelu)
+	SCPT(gp_centurion_repairplacer)
+	SCPT(gp_centurion_repairtimer)
+	SCPT(gp_darkhole_01)
+	SCPT(gp_leatherBoots)
+	SCPT(gp_mantleSorrows)
+	SCPT(gp_primus_repairplacer)
+	SCPT(gp_primus_repairtimer)
+	SCPT(gp_queenNtashra)
+	SCPT(gp_robeSorrows)
+	SCPT(gp_sara_CompLevel)
+	SCPT(gp_sara_EquipArmor)
+	SCPT(gp_sara_RemoveArmor)
+	SCPT(gp_sara_Revenge)
+	SCPT(gp_uvirithChampion)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    antonius nuncius
+	bloodmoon.esm       DIAL    bears
+	bloodmoon.esm       DIAL    berserkers
+	bloodmoon.esm       DIAL    blades
+	bloodmoon.esm       DIAL    bonewolves
+	bloodmoon.esm       DIAL    captain carius
+	bloodmoon.esm       DIAL    carnius magius
+	bloodmoon.esm       DIAL    castle karstaag
+	bloodmoon.esm       DIAL    draugr
+	bloodmoon.esm       DIAL    erich the unworthy
+	bloodmoon.esm       DIAL    falco galenus
+	bloodmoon.esm       DIAL    flee
+	bloodmoon.esm       DIAL    fort frostmoth
+	bloodmoon.esm       DIAL    fryse hags
+	bloodmoon.esm       DIAL    grahl
+	bloodmoon.esm       DIAL    horkers
+	bloodmoon.esm       DIAL    korst wind-eye
+	bloodmoon.esm       DIAL    lake fjalding
+	bloodmoon.esm       DIAL    mead
+	bloodmoon.esm       DIAL    mirisa never returned
+	bloodmoon.esm       DIAL    mortrag glacier
+	bloodmoon.esm       DIAL    raven rock
+	bloodmoon.esm       DIAL    reavers
+	bloodmoon.esm       DIAL    rieklings
+	bloodmoon.esm       DIAL    risi ice-mane
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    skaal
+	bloodmoon.esm       DIAL    snow
+	bloodmoon.esm       DIAL    snow bears
+	bloodmoon.esm       DIAL    snow wolves
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       DIAL    spriggans
+	bloodmoon.esm       DIAL    stalhrim
+	bloodmoon.esm       DIAL    tharsten heart-fang
+	bloodmoon.esm       DIAL    thirsk
+	bloodmoon.esm       DIAL    tusked bristleback
+	bloodmoon.esm       DIAL    werewolves
+	bloodmoon.esm       DIAL    wolves
+	bloodmoon.esm       SNDG    
+	morrowind.esm       CLOT    aryongloveleft
+	morrowind.esm       CLOT    aryongloveright
+	morrowind.esm       CONT    cavern_spore00
+	morrowind.esm       DIAL    aengoth the jeweler
+	morrowind.esm       DIAL    ahemmusa camp
+	morrowind.esm       DIAL    alchemy
+	morrowind.esm       DIAL    ald redaynia
+	morrowind.esm       DIAL    ald sotha
+	morrowind.esm       DIAL    ald velothi
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    altmer
+	morrowind.esm       DIAL    amulet of unity
+	morrowind.esm       DIAL    apographa
+	morrowind.esm       DIAL    archmagister gothren
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    arobar manor
+	morrowind.esm       DIAL    asha-ahhe egg mine
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    atronachs
+	morrowind.esm       DIAL    aundae
+	morrowind.esm       DIAL    bad daedra
+	morrowind.esm       DIAL    baladas
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    balmora fighters guild
+	morrowind.esm       DIAL    balmora mages guild
+	morrowind.esm       DIAL    berne
+	morrowind.esm       DIAL    big helende
+	morrowind.esm       DIAL    blades trainers
+	morrowind.esm       DIAL    bloat
+	morrowind.esm       DIAL    boethiah's pillow book
+	morrowind.esm       DIAL    bolvyn venim
+	morrowind.esm       DIAL    bosmer
+	morrowind.esm       DIAL    brara morvayn
+	morrowind.esm       DIAL    caius cosades
+	morrowind.esm       DIAL    caldera
+	morrowind.esm       DIAL    caldera mining company
+	morrowind.esm       DIAL    chimarvamidium
+	morrowind.esm       DIAL    clannfear
+	morrowind.esm       DIAL    crater citadels
+	morrowind.esm       DIAL    cunius pelelius
+	morrowind.esm       DIAL    cyrodiilic brandy
+	morrowind.esm       DIAL    daedra
+	morrowind.esm       DIAL    daedra skin
+	morrowind.esm       DIAL    daedra's heart
+	morrowind.esm       DIAL    daedric
+	morrowind.esm       DIAL    daedric sites
+	morrowind.esm       DIAL    daedric summonings
+	morrowind.esm       DIAL    daedroth
+	morrowind.esm       DIAL    dagon fel
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    daughters
+	morrowind.esm       DIAL    disturbing dreams
+	morrowind.esm       DIAL    divayth fyr
+	morrowind.esm       DIAL    divine metaphysics
+	morrowind.esm       DIAL    dratha
+	morrowind.esm       DIAL    dremora
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    dwemer puzzle box
+	morrowind.esm       DIAL    egg poachers
+	morrowind.esm       DIAL    enchantments
+	morrowind.esm       DIAL    erabenimsun camp
+	morrowind.esm       DIAL    evidence of corruption
+	morrowind.esm       DIAL    farvyn oreyn
+	morrowind.esm       DIAL    fast eddie
+	morrowind.esm       DIAL    fighters guild
+	morrowind.esm       DIAL    flame atronach
+	morrowind.esm       DIAL    flesh made whole
+	morrowind.esm       DIAL    flin
+	morrowind.esm       DIAL    frost atronach
+	morrowind.esm       DIAL    galur rithari's papers
+	morrowind.esm       DIAL    garisa llethri
+	morrowind.esm       DIAL    gateway
+	morrowind.esm       DIAL    gateway haunting
+	morrowind.esm       DIAL    ghostfence
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    gnisis
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    golden saints
+	morrowind.esm       DIAL    good daedra
+	morrowind.esm       DIAL    greef
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    greeting 8
+	morrowind.esm       DIAL    grytewake
+	morrowind.esm       DIAL    guar hide shipment
+	morrowind.esm       DIAL    hanging gardens
+	morrowind.esm       DIAL    hlaalu treasury
+	morrowind.esm       DIAL    hlaren ramoran
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    hunger
+	morrowind.esm       DIAL    join house hlaalu
+	morrowind.esm       DIAL    join house telvanni
+	morrowind.esm       DIAL    join the thieves guild
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    kiss
+	morrowind.esm       DIAL    library of vivec
+	morrowind.esm       DIAL    llethri manor
+	morrowind.esm       DIAL    lord irarak
+	morrowind.esm       DIAL    maar gan
+	morrowind.esm       DIAL    mabrigash
+	morrowind.esm       DIAL    magister
+	morrowind.esm       DIAL    master aryon
+	morrowind.esm       DIAL    master barelo
+	morrowind.esm       DIAL    master neloth
+	morrowind.esm       DIAL    mazte
+	morrowind.esm       DIAL    mehra milo
+	morrowind.esm       DIAL    mehrunes dagon
+	morrowind.esm       DIAL    miner arobar
+	morrowind.esm       DIAL    molag mar
+	morrowind.esm       DIAL    moon sugar
+	morrowind.esm       DIAL    moon-and-star
+	morrowind.esm       DIAL    morag tong
+	morrowind.esm       DIAL    morrowind
+	morrowind.esm       DIAL    mossanon
+	morrowind.esm       DIAL    mouth
+	morrowind.esm       DIAL    mudan-mul egg mine
+	morrowind.esm       DIAL    necromancers
+	morrowind.esm       DIAL    necromancy
+	morrowind.esm       DIAL    neloth
+	morrowind.esm       DIAL    ogrim
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    ordinators
+	morrowind.esm       DIAL    orvas dren
+	morrowind.esm       DIAL    patron
+	morrowind.esm       DIAL    pelagiad
+	morrowind.esm       DIAL    personality
+	morrowind.esm       DIAL    quarra
+	morrowind.esm       DIAL    red book of riddles
+	morrowind.esm       DIAL    rels tenim
+	morrowind.esm       DIAL    return to vivec
+	morrowind.esm       DIAL    ring of equity
+	morrowind.esm       DIAL    sadrith mora
+	morrowind.esm       DIAL    scamp
+	morrowind.esm       DIAL    scrap metal
+	morrowind.esm       DIAL    secret order
+	morrowind.esm       DIAL    services and hospitality
+	morrowind.esm       DIAL    seyda neen
+	morrowind.esm       DIAL    shein
+	morrowind.esm       DIAL    sheogorath
+	morrowind.esm       DIAL    sixth house
+	morrowind.esm       DIAL    skeleton
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       DIAL    slaves
+	morrowind.esm       DIAL    sorkvild the raven
+	morrowind.esm       DIAL    storm atronach
+	morrowind.esm       DIAL    stronghold
+	morrowind.esm       DIAL    sujamma
+	morrowind.esm       DIAL    suran
+	morrowind.esm       DIAL    tel aruhn
+	morrowind.esm       DIAL    tel branora
+	morrowind.esm       DIAL    tel fyr
+	morrowind.esm       DIAL    tel mora
+	morrowind.esm       DIAL    tel vos
+	morrowind.esm       DIAL    telvanni bride
+	morrowind.esm       DIAL    telvanni compound
+	morrowind.esm       DIAL    telvanni councilors
+	morrowind.esm       DIAL    the empire
+	morrowind.esm       DIAL    therana
+	morrowind.esm       DIAL    tiram gadar
+	morrowind.esm       DIAL    tongue-toad
+	morrowind.esm       DIAL    trade goods wanted
+	morrowind.esm       DIAL    tribunal temple
+	morrowind.esm       DIAL    urshilaku camp
+	morrowind.esm       DIAL    vampires of vvardenfell
+	morrowind.esm       DIAL    vampirism cure
+	morrowind.esm       DIAL    varvur sarethi
+	morrowind.esm       DIAL    venim manor
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       DIAL    vos
+	morrowind.esm       DIAL    winged twilight
+	morrowind.esm       DIAL    work
+	morrowind.esm       DIAL    zainab camp
+	morrowind.esm       LIGH    light_ashl_lantern_02_256
+	morrowind.esm       LIGH    light_ashl_lantern_02_512
+	morrowind.esm       LIGH    light_de_paper_lantern_03
+	morrowind.esm       LIGH    orange_256_01_d
+	morrowind.esm       NPC_    dead de female
+	morrowind.esm       NPC_    ingwold
+	morrowind.esm       NPC_    reynel uvirith
+	morrowind.esm       NPC_    sorkvild the raven
+	morrowind.esm       PGRD    tel aruhn
+	morrowind.esm       PGRD    tel uvirith, tower dungeon
+	morrowind.esm       PGRD    tel uvirith, tower lower
+	morrowind.esm       PGRD    tel uvirith, tower upper
+	tribunal.esm        DIAL    ald daedroth
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    antecedents of dwemer law
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    b7_telvannibook
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    barenziah
+	tribunal.esm        DIAL    bedal alen
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    chores
+	tribunal.esm        DIAL    chronicles of nchuleft
+	tribunal.esm        DIAL    craftsmen
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    discontent in the temple
+	tribunal.esm        DIAL    dissident priests
+	tribunal.esm        DIAL    fire and faith
+	tribunal.esm        DIAL    forven berano
+	tribunal.esm        DIAL    gavas drin
+	tribunal.esm        DIAL    goblins
+	tribunal.esm        DIAL    godsreach
+	tribunal.esm        DIAL    great bazaar
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    hands of almalexia
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    helseth
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    hloggar the bloody
+	tribunal.esm        DIAL    ht_stronghold
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    king llethan's death
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    lord's mail
+	tribunal.esm        DIAL    missing hand
+	tribunal.esm        DIAL    mistress therana
+	tribunal.esm        DIAL    mournhold
+	tribunal.esm        DIAL    ms_hatandskirt
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    plaza brindisi dorom
+	tribunal.esm        DIAL    progress of truth
+	tribunal.esm        DIAL    royal guard
+	tribunal.esm        DIAL    saryoni's sermons
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        DIAL    talen vandas
+	tribunal.esm        DIAL    trels varis
+
+[MOD-INF]: ID=8486301667096882(Topic:spriggans)
+  bloodmoon.esm----------------->|DATA|ONAM:Carnius Magius|NAME|INTV:n|SCVR:12sX0ColonySide|INTV
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:Carnius Magius|NAME|INTV:n|SCVR:12sX0ColonySide|INTV|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=63898813151632051(Topic:work)
+  morrowind.esm----------------->|DATA|ONAM:turedus talanian|NAME:Thank you for your report. So you think Cure Common Disease and Cure Blight Disease potions would be valuable trade goods. That makes sense. Master Aryon will be pleased. He can produce such potions very easily. Well done, %PCName. Here's your 100 drakes, with my thanks. I'll tell Master Aryon how you've handled this. I think he'll be pleased. If you're interested, and Master Aryon has work for you, you'll have my recommendation. And here. You'll find this amulet handy when visiting Telvanni wizards.|SCVR:04JX3town_Tel_Vos_wise|INTV|SCVR:14JX0HT_BaladasAlly|INTV:|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 25; Journal HT_BaladasAlly = 0;   player->additem gold_001 100  player->additem "amulet of levitating" 1  modDisposition 30  "Aryon"->ModDisposition 30  "andil"->modDisposition 20  "milar maryon"->modDisposition 20  "mirvon andrethi"->modDisposition 20  "alenus vendu"->modDisposition 20  Journal town_Tel_Vos 35  player->modReputation 1
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:turedus talanian|NAME:Thank you for your report. So you think Cure Common Disease and Cure Blight Disease potions would be valuable trade goods. That makes sense. Master Aryon will be pleased. He can produce such potions very easily. Well done, %PCName. Here's your 100 drakes, with my thanks. I'll tell Master Aryon how you've handled this. I think he'll be pleased. If you're interested, and Master Aryon has work for you, you'll have my recommendation. And here. You'll find this amulet handy when visiting Telvanni wizards.|SCVR:04JX4town_Tel_Vos_wise|INTV:|SCVR:14JX0HT_BaladasAlly|INTV:|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 25; Journal HT_BaladasAlly = 0;   ;refiltered to never be seen -- placed in new topic more appropriate to all ranks and factions  player->additem gold_001 100  player->additem "amulet of levitating" 1  modDisposition 30  "Aryon"->ModDisposition 30  "andil"->modDisposition 20  "milar maryon"->modDisposition 20  "mirvon andrethi"->modDisposition 2
+
+[MOD-INF]: ID=148659523103917485(Topic:magister)
+  morrowind.esm----------------->|DATA|ONAM:aryon|DNAM:Telvanni|NAME:You have the support of the other Councilors, and Gothren is dead. Congratulations, Archmagister %PCName.|SCVR:06DX2gothren|INTV:|BNAM:PCRaiseRank  ModPCFacRep 10 "Telvanni"  Player->ModReputation 2
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:aryon|DNAM:Telvanni|NAME:You have the support of the other Councilors, and Gothren is dead. Congratulations, Archmagister %PCName.|SCVR:06DX2gothren|INTV:|BNAM:PCRaiseRank  ModPCFacRep 10 "Telvanni"  Player->ModReputation 2  Journal HT_Archmagister 100
+
+[MOD-INF]: ID=255325752673924651(Topic:work)
+  morrowind.esm----------------->|DATA|ONAM:turedus talanian|NAME:Thank you for your report. So you think Cure Common Disease and Cure Blight Disease potions would be valuable trade goods. That makes sense. Master Aryon will be pleased. He can produce such potions very easily. Well done, %PCName. Here's your 100 drakes, with my thanks. I'll tell Master Aryon how you've handled this. I think he'll be pleased. If you're interested, and Master Aryon has work for you, you'll have my recommendation. And here. You'll find this amulet handy when visiting Telvanni wizards.|SCVR:04JX3town_Tel_Vos_she|INTV|SCVR:14JX0HT_BaladasAlly|INTV:|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 25; Journal HT_BaladasAlly = 0;   player->additem gold_001 100  player->additem "amulet of levitating" 1  modDisposition 30  "Aryon"->ModDisposition 30  "andil"->modDisposition 20  "milar maryon"->modDisposition 20  "mirvon andrethi"->modDisposition 20  "alenus vendu"->modDisposition 20  Journal town_Tel_Vos 35  player->modReputation 1
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:turedus talanian|NAME:Thank you for your report. So you think Cure Common Disease and Cure Blight Disease potions would be valuable trade goods. That makes sense. Master Aryon will be pleased. He can produce such potions very easily. Well done, %PCName. Here's your 100 drakes, with my thanks. I'll tell Master Aryon how you've handled this. I think he'll be pleased. If you're interested, and Master Aryon has work for you, you'll have my recommendation. And here. You'll find this amulet handy when visiting Telvanni wizards.|SCVR:04JX4town_Tel_Vos_she|INTV:|SCVR:14JX0HT_BaladasAlly|INTV:|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 25; Journal HT_BaladasAlly = 0;   ;refiltered to never be seen -- placed in new topic more appropriate to all ranks and factions  player->additem gold_001 100  player->additem "amulet of levitating" 1  modDisposition 30  "Aryon"->ModDisposition 30  "andil"->modDisposition 20  "milar maryon"->modDisposition 20  "mirvon andrethi"->modDisposition 20
+
+[MOD-INF]: ID=493104722789517505(Topic:work)
+  morrowind.esm----------------->|DATA|ONAM:turedus talanian|NAME:Good. When you've determined the trade goods wanted by the Zainab, report back to me.|SCVR:04JX3town_Tel_Vos|INTV: |BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 10
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:turedus talanian|NAME:Good. When you've determined the trade goods wanted by the Zainab, report back to me.|SCVR:04JX4town_Tel_Vos|INTV:|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 10  ;refiltered to never be seen -- placed in new topic more appropriate to all ranks and factions
+
+[MOD-INF]: ID=989024957264171670(Topic:work)
+  morrowind.esm----------------->|DATA|ONAM:turedus talanian|NAME:Thank you for your report. So you think Cure Common Disease and Cure Blight Disease potions would be valuable trade goods. That makes sense. Master Aryon will be pleased. He can produce such potions very easily. Well done, %PCName. Here's your 100 drakes, with my thanks. I'll tell Master Aryon how you've handled this. I think he'll be pleased. And here. You'll find this amulet handy when visiting Telvanni wizards.|SCVR:04JX3town_Tel_Vos_she|INTV|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 25;   player->additem gold_001 100  player->additem "amulet of levitating" 1  modDisposition 30  "Aryon"->ModDisposition 30  "andil"->modDisposition 20  "milar maryon"->modDisposition 20  "mirvon andrethi"->modDisposition 20  "alenus vendu"->modDisposition 20  player->modReputation 1  Journal town_Tel_Vos 35
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:turedus talanian|NAME:Thank you for your report. So you think Cure Common Disease and Cure Blight Disease potions would be valuable trade goods. That makes sense. Master Aryon will be pleased. He can produce such potions very easily. Well done, %PCName. Here's your 100 drakes, with my thanks. I'll tell Master Aryon how you've handled this. I think he'll be pleased. And here. You'll find this amulet handy when visiting Telvanni wizards.|SCVR:04JX4town_Tel_Vos_she|INTV:|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 25;   ;refiltered to never be seen -- placed in new topic more appropriate to all ranks and factions  player->additem gold_001 100  player->additem "amulet of levitating" 1  modDisposition 30  "Aryon"->ModDisposition 30  "andil"->modDisposition 20  "milar maryon"->modDisposition 20  "mirvon andrethi"->modDisposition 20  "alenus vendu"->modDisposition 20  player->modReputation 1  Journal town_Tel_Vos 35
+
+[MOD-INF]: ID=1697275891925026501(Journal:ht_stronghold)
+  tribunal.esm------------------>|DATA|NAME:The last stage of my stronghold is complete.|QSTF
+  Uvirith's Legacy_3.53 (2).esp->|DATA|NAME:As far as I can tell, the last stage of my stronghold is complete.
+
+[DUP-INF]: ID=1942810023178430634(Topic:mournhold)
+  |DATA|ONAM:effe_tei|NAME:Mournhold is the Imperial capital of Morrowind and the Holy City of Almalexia, one of Morrowind's three Living Gods. Modern Mournhold is built upon the ruins of Old Mournhold, which was destroyed by Mehrunes Dagon at the end of the First Era. You can reach the abandoned passages of Old Mournhold through the sewers beneath Mournhold, and adventurers still seek lost treasures in the First Era ruins.
+
+[MOD-INF]: ID=2176429171229129378(Topic:telvanni councilors)
+  morrowind.esm----------------->|DATA|FNAM:Telvanni|NAME:Here's a recent edition of the Brown Book of Great House Telvanni. It lists the current Telvanni councilors and their residences. Let me mark the locations of the councilor's towers on your map -- Tel Aruhn, Tel Vos, Tel Mora, Tel Branora. And Tel Naga is right in the center of Sadrith Mora.|BNAM:Player->AddItem "bk_BrownBook426" 1  Journal B7_TelvanniBook 1  ShowMap "Tel Aruhn"  ShowMap "Tel Vos"  ShowMap "Tel Mora"  ShowMap "Tel Branora"
+  Uvirith's Legacy_3.53 (2).esp->|DATA|FNAM:Telvanni|NAME:Here's a recent edition of the Brown Book of Great House Telvanni. It lists the current Telvanni councilors and their residences. Let me mark the locations of the councilor's towers on your map -- Tel Aruhn, Tel Vos, Tel Mora, Tel Branora. And Tel Naga is right in the center of Sadrith Mora.|BNAM:Player->AddItem "bk_BrownBook426" 1  Journal B7_TelvanniBook 10  ShowMap "Tel Aruhn"  ShowMap "Tel Vos"  ShowMap "Tel Mora"  ShowMap "Tel Branora"
+
+[MOD-INF]: ID=2394055021218723078(Greeting:greeting 7)
+  morrowind.esm----------------->|DATA|ONAM:turedus talanian|NAME:I'm %Name, chief of Master Aryon's mercenary guard. Providing for the prosperity of Tel Vos and the village of Vos is my trade. And, from the looks of you, adventuring is your trade. If you are an adventurer, would you be interested in a little work?|BNAM:;Turedus Talanian
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:turedus talanian|NAME:I'm %Name, chief of Master Aryon's mercenary guard. Providing for the prosperity of Tel Vos and the village of Vos is my trade. And, from the looks of you, adventuring is your trade. If you are an adventurer, would you be interested in a little work? Our town needs help establishing a trade agreement.|SCVR:04JX4town_Tel_Vos|INTV: |BNAM:;Turedus Talanian
+
+[MOD-INF]: ID=2422028623156785801(Topic:work)
+  morrowind.esm----------------->|DATA|ONAM:turedus talanian|NAME:Yes, I'm pleased, and I think Master Aryon will be pleased.|SCVR:04JX3town_Tel_Vos|INTV:#|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 35;
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:turedus talanian|NAME:Yes, I'm pleased, and I think Master Aryon will be pleased.|SCVR:04JX4town_Tel_Vos|INTV:|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 35;  ;refiltered to never be seen -- placed in new topic more appropriate to all ranks and factions
+
+[MOD-INF]: ID=2531875621888917458(Topic:telvanni councilors)
+  morrowind.esm----------------->|DATA|ONAM:aryon|NAME:Here's a recent edition of the Brown Book of Great House Telvanni. It lists the current Telvanni councilors and their residences. Let me mark the locations of the councilor's towers on your map -- Tel Aruhn, Tel Vos, Tel Mora, Tel Branora. And Tel Naga is right in the center of Sadrith Mora.|BNAM:Player->AddItem "bk_BrownBook426" 1  Journal B7_TelvanniBook 1  ShowMap "Tel Aruhn"  ShowMap "Tel Vos"  ShowMap "Tel Mora"  ShowMap "Tel Branora"
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:aryon|NAME:Here's a recent edition of the Brown Book of Great House Telvanni. It lists the current Telvanni councilors and their residences. Let me mark the locations of the councilor's towers on your map -- Tel Aruhn, Tel Vos, Tel Mora, Tel Branora. And Tel Naga is right in the center of Sadrith Mora.|BNAM:Player->AddItem "bk_BrownBook426" 1  Journal B7_TelvanniBook 10  ShowMap "Tel Aruhn"  ShowMap "Tel Vos"  ShowMap "Tel Mora"  ShowMap "Tel Branora"
+
+[MOD-INF]: ID=2879528494175015355(Greeting:greeting 5)
+  morrowind.esm----------------->|DATA|ONAM:athanden girith|NAME:Stranger! Yes, you! Please, can you help me? I've been attacked by a couple of bastard Ashlanders who robbed me and left me for dead.|SCVR:06DX0emul-ran|INTV:|SCVR:16DX0kashtes ilabael|INTV:|SCVR:24JX4MV_OutcastAshlanders|INTV: |BNAM:Journal "MV_OutcastAshlanders" 10
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:athanden girith|NAME:Stranger! Yes, you! Please, can you help me? I've been attacked by a couple of bastard Ashlanders who robbed me and left me for dead.|SCVR:24JX4MV_OutcastAshlanders|INTV: |BNAM:Journal "MV_OutcastAshlanders" 10  ;Refiltered to prevent conflict. Will be removed if the UMP fixes it as well.
+
+[MOD-INF]: ID=2948222082267586416(Topic:telvanni councilors)
+  morrowind.esm----------------->|DATA|FNAM:Telvanni|NAME:You should consult the recent edition of the Brown Book of Great House Telvanni. It lists the current Telvanni councilors and their residences. Let me mark the locations of the councilor's towers on your map -- Tel Aruhn, Tel Vos, Tel Mora, Tel Branora. And Tel Naga is right in the center of Sadrith Mora.|SCVR:04JX3B7_TelvanniBook|INTV|BNAM:ShowMap "Tel Aruhn"  ShowMap "Tel Vos"  ShowMap "Tel Mora"  ShowMap "Tel Branora"
+  Uvirith's Legacy_3.53 (2).esp->|DATA|FNAM:Telvanni|NAME:You should consult the recent edition of the Brown Book of Great House Telvanni. It lists the current Telvanni councilors and their residences. Let me mark the locations of the councilor's towers on your map -- Tel Aruhn, Tel Vos, Tel Mora, Tel Branora. And Tel Naga is right in the center of Sadrith Mora.|SCVR:04JX3B7_TelvanniBook|INTV|BNAM:ShowMap "Tel Aruhn"  ShowMap "Tel Vos"  ShowMap "Tel Mora"  ShowMap "Tel Branora"  Journal B7_TelvanniBook 10
+
+[MOD-INF]: ID=5367212781752710133(Topic:mouth)
+  morrowind.esm----------------->|DATA|ONAM:aryon|NAME:You have a Mouth to be your voice in the Council.|SCVR:34JX3HT_RecruitEddie|INTV:d
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:aryon|NAME:You have a Mouth to be your voice in the Council. My last piece of advice on the matter would be to keep him busy. There are many things a mouth can do to save you time and tedium. It's no longer befitting of your rank to be running around on mundane errands.|SCVR:34JX3HT_RecruitEddie|INTV:d
+
+[MOD-INF]: ID=8709201432335932469(Topic:work)
+  morrowind.esm----------------->|DATA|ONAM:turedus talanian|NAME:Thank you for your report. So you think Cure Common Disease and Cure Blight Disease potions would be valuable trade goods. That makes sense. Master Aryon will be pleased. He can produce such potions very easily. Well done, %PCName. Here's your 100 drakes, with my thanks. I'll tell Master Aryon how you've handled this. I think he'll be pleased. And here. You'll find this amulet handy when visiting Telvanni wizards.|SCVR:04JX3town_Tel_Vos_wise|INTV|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 25;   player->additem gold_001 100  player->additem "amulet of levitating" 1  modDisposition 30  "Aryon"->ModDisposition 30  "andil"->modDisposition 20  "milar maryon"->modDisposition 20  "mirvon andrethi"->modDisposition 20  "alenus vendu"->modDisposition 20  player->modReputation 1  Journal town_Tel_Vos 35
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:turedus talanian|NAME:Thank you for your report. So you think Cure Common Disease and Cure Blight Disease potions would be valuable trade goods. That makes sense. Master Aryon will be pleased. He can produce such potions very easily. Well done, %PCName. Here's your 100 drakes, with my thanks. I'll tell Master Aryon how you've handled this. I think he'll be pleased. And here. You'll find this amulet handy when visiting Telvanni wizards.|SCVR:04JX4town_Tel_Vos_wise|INTV:|BNAM:;Turedus Talanian; Journal town_Tel_Vos >= 25;   ;refiltered to never be seen -- placed in new topic more appropriate to all ranks and factions  player->additem gold_001 100  player->additem "amulet of levitating" 1  modDisposition 30  "Aryon"->ModDisposition 30  "andil"->modDisposition 20  "milar maryon"->modDisposition 20  "mirvon andrethi"->modDisposition 20  "alenus vendu"->modDisposition 20  player->modReputation 1  Journal town_Tel_Vos 35
+
+[DUP-INF]: ID=12593256011267619344(Topic:mudan-mul egg mine)
+  |DATA|ONAM:aryon|NAME:You have already cured the kwama queen.|SCVR:34JX3HT_MineCure|INTV:d
+
+[MOD-INF]: ID=13183303663232616895(Topic:ring of equity)
+  morrowind.esm----------------->|DATA|ONAM:edd theman|NAME:I got the ring for you. It's all yours. It should help if you have a fight another wizard, but you can only use it once or twice in a fight.|SCVR:34JX3HT_EddieRing|INTV:F|BNAM:Player->AddItem Ring_Equity_uniq 1  Journal HT_EddieRing 100  ModPCFacRep 5 "Telvanni"  Player->ModReputation 1
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:edd theman|NAME:I got the ring for you. It's all yours. It should help if you have to fight another wizard, but you can only use it once or twice in a fight.|SCVR:34JX3HT_EddieRing|INTV:F|BNAM:Player->AddItem Ring_Equity_uniq 1  Journal HT_EddieRing 100  ModPCFacRep 5 "Telvanni"  Player->ModReputation 1
+
+[MOD-INF]: ID=14565236722240224144(Topic:work)
+  morrowind.esm----------------->|DATA|ONAM:turedus talanian|NAME:We've been trying to establish trade links with the Zainab. Master Aryon thinks that shared self-interest will make the Zainab more careful about offending Tel Vos. But dealing with the Zainab is tricky, requiring knowledge of the Ashlanders, a silver tongue, and sharp wits. I'll pay you 100 drakes to visit the Zainab camp and find out what goods the tribe would be interested in trading for. Will you take the job?|BNAM:;Turedus Talanian;   Choice "I'll take the job." 1 "No thanks." 2
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:turedus talanian|NAME:We've been trying to establish trade links with the Zainab. Master Aryon thinks that shared self-interest will make the Zainab more careful about offending Tel Vos. But dealing with the Zainab is tricky, requiring knowledge of the Ashlanders, a silver tongue, and sharp wits. I'll pay you 100 drakes to visit the Zainab camp and find out what goods the tribe would be interested in trading for. Will you take the job?|SCVR:04JX4town_Tel_Vos|INTV:|BNAM:;Turedus Talanian;  ;refiltered to never be seen -- placed in new topic more appropriate to all ranks and factions  Choice "I'll take the job." 1 "No thanks." 2
+
+[MOD-INF]: ID=15819209241060928312(Topic:amulet of unity)
+  morrowind.esm----------------->|DATA|ONAM:edd theman|NAME:Good. This should be enough. I'll see you in a few weeks.|SCVR:01500|INTV|BNAM:Player->RemoveItem P_Invisibility_S 5  Journal HT_EddieAmulet 50  StartScript FastEddieAmulet
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:edd theman|NAME:Good. This should be enough. I'll see you in a few weeks.|SCVR:01500|INTV|BNAM:Player->RemoveItem p_invisibility_s 5  Journal HT_EddieAmulet 50  StartScript FastEddieAmulet  set Edd_busy to 1
+
+[MOD-INF]: ID=16657149642242823302(Topic:ring of equity)
+  morrowind.esm----------------->|DATA|ONAM:edd theman|NAME:Great. I'll go to Tel Naga and get the Ring of Equity. If I'm not back in a week, I'm probably dead.|SCVR:01500|INTV|SCVR:15IX2key_nelothtelnaga|INTV:|BNAM:Player->RemoveItem Key_NelothTelNaga 1  Journal HT_EddieRing 50  StartScript FastEddieRing
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:edd theman|NAME:Great. I'll go to Tel Naga and get the Ring of Equity. If I'm not back in a week, I'm probably dead.|SCVR:01500|INTV|SCVR:15IX2key_nelothtelnaga|INTV:|BNAM:Player->RemoveItem Key_NelothTelNaga 1  Journal HT_EddieRing 50  StartScript FastEddieRing  set Edd_busy to 1
+
+[MOD-INF]: ID=22186287112069725708(Topic:telvanni bride)
+  morrowind.esm----------------->|DATA|ONAM:mallam ryon|NAME:That is absurd. A Telvanni noble wed an Ashlander? Never.|SCVR:04JX3B3_ZainabBride|INTV|SCVR:14JX4B3_ZainabBride|INTV:2|BNAM:; Mallam Ryon
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:verena_uvirith|NAME:Are you seriously asking me to marry an Ashlander? The nerve!|SCVR:04JX3B3_ZainabBride|INTV|SCVR:14JX4B3_ZainabBride|INTV:2|SCVR:24JX3HT_UvirithVerena|INTV|BNAM:ModDisposition -10  ClearInfoActor
+
+[MOD-INF]: ID=22938157822342711483(Topic:chores)
+  morrowind.esm----------------->|DATA|FNAM:Telvanni|DNAM:Telvanni|NAME:What do you ask of me, %PCRank?|SCVR:07XX0therana|INTV:
+  Uvirith's Legacy_3.53 (2).esp->|DATA|FNAM:Telvanni|DNAM:Telvanni|NAME:What do you ask of me, %PCRank?|SCVR:07XX0therana|INTV:|SCVR:17XX0verena_uvirith|INTV:|SCVR:27XX0edd theman|INTV:|SCVR:37XX0apprentice_gavyn|INTV:|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=27491281353169218350(Topic:stronghold)
+  morrowind.esm----------------->|DATA|ONAM:llunela hleran|NAME:Your stronghold is complete.|SCVR:34JX3HT_Stronghold|INTV
+  Uvirith's Legacy_3.53 (2).esp->|DATA|ONAM:llunela hleran|NAME:Your stronghold is complete for now. I should mention that the study is well hidden in your upper tower. Look for a switch to reveal it. I've also installed a teleportation platform. You'll find it in the levitation shaft, on the uppermost floor.    I have plans for another expansion to your tower, but I can only continue further if you become Archmagister.|SCVR:34JX3HT_Stronghold|INTV

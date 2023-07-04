@@ -1,0 +1,21 @@
+Imperial Employment Office (MD edits).esp: DUP-INF DUP-REC MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1314087 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(IEO_Weekly_Payment)
+	SCPT(IEO_disableSeverinus)
+	SCPT(IEO_disablecursedflare)
+	SCPT(IEO_enableBalerius)
+	SCPT(IEO_garadil_amulet)
+	SCPT(IEO_lucky_coin_script)
+	SCPT(ieo_dagger_of_fall)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    mazte
+	tamriel_data.esm    DIAL    flin
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=190592792723126084(Greeting:greeting 1)
+  |DATA|ONAM:Furius Acilius|NAME:What are you doing here? Those bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay. And you will tell no one!|BNAM:SetFight 100  StartCombat Player  Goodbye

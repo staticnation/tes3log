@@ -1,0 +1,51 @@
+Clean L&L Addon.esp: AUTOSPL DUP-REC EXP-DEP MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	cello_spell                    ---
+    [NUMRECS]: number of records in TES3.HEDR (315) != Actual count (240)
+    [EXP-DEP] Expansion Dependency: Startup Script: cello_start_script
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(Cello_End_Session)              setdelete
+	SCPT(Cello_Flower_Script)            setdelete
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Cello_Add_Topic)
+	SCPT(Cello_Attach_Femxx)
+	SCPT(Cello_Attach_Malexx)
+	SCPT(Cello_Book_Placer)
+	SCPT(Cello_Booty_Menu)
+	SCPT(Cello_Change_NPC_Set_To_1)
+	SCPT(Cello_Change_NPC_Set_To_2)
+	SCPT(Cello_Change_NPC_Set_To_3)
+	SCPT(Cello_Change_NPC_Set_To_4)
+	SCPT(Cello_Change_NPC_Set_To_5)
+	SCPT(Cello_Change_NPC_Set_To_6)
+	SCPT(Cello_Clothe_Partner)
+	SCPT(Cello_End_Session2)
+	SCPT(Cello_Finalise_Session)
+	SCPT(Cello_Fix)
+	SCPT(Cello_Flower_Script)
+	SCPT(Cello_Get_Partner_NPC)
+	SCPT(Cello_Initialise_Monitor)
+	SCPT(Cello_Key_Controller)
+	SCPT(Cello_NPC_Offsetter)
+	SCPT(Cello_NPC_Positioner)
+	SCPT(Cello_Paralyse_NPCs)
+	SCPT(Cello_Pleasure_Controller)
+	SCPT(Cello_PreLoad_Bars)
+	SCPT(Cello_Pre_Loader)
+	SCPT(Cello_Setup_Partner)
+	SCPT(Cello_Start_Script)
+	SCPT(Cello_Start_Session)
+	SCPT(Cello_Unparalyse_NPCs)
+	SCPT(Cello_Wait_For_Cell_Change)
+	SCPT(Cello_Work_Dammit)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+  Clean L&L Addon.esp->|DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  Clean L&L Addon.esp->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

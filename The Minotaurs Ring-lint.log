@@ -1,0 +1,49 @@
+The Minotaurs Ring.esp: DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	Sky_Main.esm                31756566 (plugin)   31708555 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Sky_qRe_LH02_sc_Karova)
+	SCPT(Sky_qRe_LH02_sc_Nyamiha)
+	SCPT(Sky_qRe_LH02_sc_Svislac)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	sky_main.esm        DIAL    minotaur
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=377922075128427(Greeting:greeting 5)
+  sky_main.esm----------->|DATA|ONAM:dialog placeholder|NAME:END HOLD 0 - THE REACH
+  The Minotaurs Ring.esp->|DATA|ONAM:dialog placeholder|NAME:END HOLD 0 - THE REACH
+
+[MOD-INF]: ID=9151372128523827(Topic:minotaur)
+  sky_main.esm----------->|DATA|ONAM:Sky_qRe_DSE_Rekir|NAME:Two Reachmen showed up pulling a cage with the beast. For being wild folk, they sure knew how to drive a hard bargain. Damn near stole the shirt off my back. Go out there and get my money back. The crowd'll love you. Ready?|SCVR:04JX2Sky_qRe_DSE4_Journal|INTV:P|SCVR:13sX0Sky_Control|QINT:|BNAM:Choice "Yes." 1 "No." 2
+  The Minotaurs Ring.esp->|DATA|ONAM:Sky_qRe_DSE_Rekir|NAME:Two Reachmen showed up pulling a cage with the beast. For being wild folk, they sure knew how to drive a hard bargain. Damn near stole the shirt off my back. Go out there and get my money back. The crowd'll love you. Ready?|SCVR:13sX0Sky_Control|QINT:|BNAM:Choice "Yes." 1 "No." 2
+
+[MOD-INF]: ID=83763203043993788(Topic:background)
+  sky_main.esm----------->|DATA|ONAM:Sky_xRe_DSE_TuskFaced|NAME:Ha ha. You're funny. But don't play tricks with %Name. You have coins. You give, yes?
+  The Minotaurs Ring.esp->|DATA|ONAM:Sky_xRe_DSE_TuskFaced|NAME:Ha ha. You're funny. But don't play tricks with %Name. You have coins. You give, yes?
+
+[MOD-INF]: ID=1241423313130468214(Topic:background)
+  sky_main.esm----------->|DATA|ONAM:Sky_xRe_VF_Shumba|NAME:I am %Name, shaman-priestess of Lord Trinimac and wise woman of the Uramok Camp. My son, Urok gro-Mogo, is our chief.|BNAM:;Lord Trinimac, Uramok Camp
+  The Minotaurs Ring.esp->|DATA|ONAM:Sky_xRe_VF_Shumba|NAME:I am %Name, shaman-priestess of Lord Trinimac and wise woman of the Uramok Camp. My son, Urok gro-Mogo, is our chief.|BNAM:;Lord Trinimac, Uramok Camp
+
+[MOD-INF]: ID=2618130422267366814(Topic:background)
+  sky_main.esm----------->|DATA|ONAM:Sky_qRe_VF1_Nelisse|NAME:I'm %Name, hailing from the city-state of Elinhir in Hammerfell. I own "Wondrous Imports", a world-famous travelling store, always providing the fine folks of Skyrim, High Rock and Hammerfell with goods large and small.
+  The Minotaurs Ring.esp->|DATA|ONAM:Sky_qRe_VF1_Nelisse|NAME:I'm %Name, hailing from the city-state of Elinhir in Hammerfell. I own "Wondrous Imports", a world-famous travelling store, always providing the fine folks of Skyrim, High Rock and Hammerfell with goods large and small.
+
+[MOD-INF]: ID=3705222823126612505(Greeting:greeting 5)
+  sky_main.esm----------->|DATA|ONAM:Sky_qRe_VF1_Varino|NAME:Just between you and me, I'm relieved we can move on. This forest frightens me to death.|SCVR:04JX5Sky_qRe_VF1_Journal|INTV:n|SCVR:14JX3Sky_qRe_VF1_Journal|INTV:d
+  The Minotaurs Ring.esp->|DATA|ONAM:Sky_qRe_VF1_Varino|NAME:Just between you and me, I'm relieved we can move on. This forest frightens me to death.|SCVR:04JX5Sky_qRe_VF1_Journal|INTV:n|SCVR:14JX3Sky_qRe_VF1_Journal|INTV:d
+
+[MOD-INF]: ID=21912178792011112317(Topic:background)
+  sky_main.esm----------->|DATA|ONAM:dialog placeholder|NAME:END HOLD 0 - THE REACH
+  The Minotaurs Ring.esp->|DATA|ONAM:dialog placeholder|NAME:END HOLD 0 - THE REACH
+
+[MOD-INF]: ID=25294258272290123137(Greeting:greeting 5)
+  sky_main.esm----------->|DATA|ONAM:Sky_qRe_VF1_Varino|NAME:I fail to understand what problem the lady has with us. We performed the job she contracted us for, didn't we?
+  The Minotaurs Ring.esp->|DATA|ONAM:Sky_qRe_VF1_Varino|NAME:I fail to understand what problem the lady has with us. We performed the job she contracted us for, didn't we?
+
+[MOD-INF]: ID=30108232372941323985(Topic:background)
+  sky_main.esm----------->|DATA|ONAM:Sky_iRe_VS_Rogrid|NAME:Call me %Name. My warriors and I guard the border here at Vorngyd's Stand.|BNAM:;Vorngyd's Stand
+  The Minotaurs Ring.esp->|DATA|ONAM:Sky_iRe_VS_Rogrid|NAME:Call me Rogrid. My warriors and I guard the border here at Vorngyd's Stand.|BNAM:;Vorngyd's Stand

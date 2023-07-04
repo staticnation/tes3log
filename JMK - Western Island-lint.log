@@ -1,0 +1,104 @@
+JMK - Western Island.esp: DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKWeIsAldRuhnTelly)
+	SCPT(JMKWeIsAntiGBoots)
+	SCPT(JMKWeIsBalmoraTelly)
+	SCPT(JMKWeIsBlackVase)
+	SCPT(JMKWeIsBurgTapestry)
+	SCPT(JMKWeIsCastleKTelly)
+	SCPT(JMKWeIsColdDoor)
+	SCPT(JMKWeIsCreamTapestry)
+	SCPT(JMKWeIsCursyPotion)
+	SCPT(JMKWeIsDagonTelly)
+	SCPT(JMKWeIsDancingRobeGirl)
+	SCPT(JMKWeIsFinalLRDoor)
+	SCPT(JMKWeIsGhostGTelly)
+	SCPT(JMKWeIsGnisisTelly)
+	SCPT(JMKWeIsGodsreachTelly)
+	SCPT(JMKWeIsGreenTapestry)
+	SCPT(JMKWeIsHatchLocking)
+	SCPT(JMKWeIsHealingBasin)
+	SCPT(JMKWeIsLadyDeadCheck)
+	SCPT(JMKWeIsLoroSkulTel)
+	SCPT(JMKWeIsLoroneth1BuzzOff)
+	SCPT(JMKWeIsLoroneth1Scrippy)
+	SCPT(JMKWeIsLoroneth2Scrippy)
+	SCPT(JMKWeIsLoruniaActy)
+	SCPT(JMKWeIsLoruniaPerson)
+	SCPT(JMKWeIsLuckyBasin)
+	SCPT(JMKWeIsMagikBasin)
+	SCPT(JMKWeIsMumblaScr)
+	SCPT(JMKWeIsNiceLady)
+	SCPT(JMKWeIsNinkithThief)
+	SCPT(JMKWeIsNinkithTwo)
+	SCPT(JMKWeIsNookClockScrpt)
+	SCPT(JMKWeIsNookReturnButton)
+	SCPT(JMKWeIsNookWeather)
+	SCPT(JMKWeIsNookieQScript)
+	SCPT(JMKWeIsPirateCapn)
+	SCPT(JMKWeIsPirateStarter)
+	SCPT(JMKWeIsRavenTelly)
+	SCPT(JMKWeIsRidRock1)
+	SCPT(JMKWeIsRidRock2)
+	SCPT(JMKWeIsRidRock3)
+	SCPT(JMKWeIsRidRock4)
+	SCPT(JMKWeIsRoyalJelly)
+	SCPT(JMKWeIsSadrithMTelly)
+	SCPT(JMKWeIsSankyBasin)
+	SCPT(JMKWeIsShieldBasin)
+	SCPT(JMKWeIsShockRock)
+	SCPT(JMKWeIsSkallTelly)
+	SCPT(JMKWeIsTelBranTelly)
+	SCPT(JMKWeIsTelVosTelly)
+	SCPT(JMKWeIsThirskTelly)
+	SCPT(JMKWeIsTowerDoorRing)
+	SCPT(JMKWeIsVIdiotScript)
+	SCPT(JMKWeIsValenvTelly)
+	SCPT(JMKWeIsVivecTelly)
+	SCPT(JMKWeIsWNoteTrigga)
+	SCPT(JMKWeIsWantedNoteActo)
+	SCPT(JMKWeIsWelkyndScript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Azura's Coast Region (19, -1)            0x02
+	Azura's Coast Region (20, 0)             0x02
+	Bitter Coast Region (-10, -2)            0x02
+	Bitter Coast Region (-10, -6)            0x02
+	Bitter Coast Region (-9, -2)             0x02
+	Bitter Coast Region (-9, -3)             0x02
+	Bitter Coast Region (-9, -4)             0x02
+	Bitter Coast Region (-9, -5)             0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    sand
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (-10, -2)
+	morrowind.esm       LAND    (-10, -3)
+	morrowind.esm       LAND    (-10, -4)
+	morrowind.esm       LAND    (-10, -5)
+	morrowind.esm       LAND    (-10, -6)
+	morrowind.esm       LAND    (-9, -2)
+	morrowind.esm       LAND    (-9, -3)
+	morrowind.esm       LAND    (-9, -4)
+	morrowind.esm       LAND    (-9, -5)
+	morrowind.esm       LAND    (19, -1)
+	morrowind.esm       LAND    (20, -1)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=143424126921413515(Greeting:greeting 5)
+  |DATA|ONAM:rulfim gra-ogdub|ANAM:Buckmoth Legion Fort, Prison|NAME:What brings you here?|BNAM:;prisoner greetings... add cell also in case they move somehow for quests, etc
+
+[DUP-INF]: ID=1314026631288408277(Greeting:greeting 5)
+  |DATA|ONAM:eldil bradyn|ANAM:Buckmoth Legion Fort, Prison|NAME:Are you a prisoner? What are you in for?|BNAM:;prisoner greetings... add cell also in case they move somehow for quests, etc

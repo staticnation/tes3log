@@ -1,0 +1,1403 @@
+Silent Stealth Kills.ESP: DUP-INF DUP-REC MISSVER MOD-INF MOD-IID OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       GMST    ivoicehitodds
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    hit
+
+[MOD-INF]: ID=369531015604998(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Atk_ORM002.mp3|NAME:Fool!|SCVR:02sX3Random100|INTV:<
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|ANAM:ToddTest|SNAM:Vo\ord\Atk_ORM002.mp3|NAME:Fool!|SCVR:02sX3Random100|INTV:<
+
+[MOD-INF]: ID=432920942628606(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF002.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV: |BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF002.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV: |BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=809744380641560(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM006.mp3|NAME:I'm not giving up that easily.|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM006.mp3|NAME:I'm not giving up that easily.|SCVR:02sX3Random100|INTV:7|SCVR:11041|INTV:|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=1601428033656692(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Hit_NM010.mp3|NAME:Yell.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Hit_NM010.mp3|NAME:Yell.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[MOD-INF]: ID=1853065425836585(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF004.mp3|NAME:Give up.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF004.mp3|NAME:Give up.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=2133913853425831(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM010.mp3|NAME:Escape while you can.|SCVR:02sX3Random100|INTV:K|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM010.mp3|NAME:Escape while you can.|SCVR:02sX3Random100|INTV:K|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=2137234730663717(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM015.mp3|NAME:Your end is here!
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM015.mp3|NAME:Your end is here!
+
+[MOD-INF]: ID=2182274270324714(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF005.mp3|NAME:Stoopid.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Hit_DF005.mp3|NAME:Stoopid.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[MOD-INF]: ID=3023545325833791(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF008.mp3|NAME:Coward!|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF008.mp3|NAME:Coward!|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=3250182132130415(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM010.mp3|NAME:Come on, fight!|SCVR:02sX3Random100|INTV:F|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM010.mp3|NAME:Come on, fight!|SCVR:02sX3Random100|INTV:F|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=3447978387419303(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF013.mp3|NAME:You will bring me great honor.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF013.mp3|NAME:You will bring me great honor.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=40
+
+[MOD-INF]: ID=5312956867899607(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM008.mp3|NAME:Run while you can.|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM008.mp3|NAME:Run while you can.|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=6799220635379728(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM008.mp3|NAME:Coward!|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM008.mp3|NAME:Coward!|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=7730429199679312(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM009.mp3|NAME:Soon you'll be reduced to dust!|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM009.mp3|NAME:Soon you'll be reduced to dust!|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=8553112497534039(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF009.mp3|NAME:Hold still!|SCVR:02sX3Random100|INTV:_|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF009.mp3|NAME:Hold still!|SCVR:02sX3Random100|INTV:_|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=8912479492263772(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM014.mp3|NAME:Here it comes!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM014.mp3|NAME:Here it comes!|SCVR:02sX3Random100|INTV:P|SCVR:11710|INTV:|BNAM:;Random100>=80
+
+[MOD-INF]: ID=10368155265827327(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM004.mp3|NAME:This is going to be fun.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM004.mp3|NAME:This is going to be fun.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+
+[MOD-INF]: ID=10424655113488099(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\bAtk_NF009.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\bAtk_NF009.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+
+[MOD-INF]: ID=10446130662969281(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\m\bAtk_IM005.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\m\bAtk_IM005.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=11561732700316950(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM002.mp3|NAME:Your moment is at an end!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM002.mp3|NAME:Your moment is at an end!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=11854256731924337(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF014.mp3|NAME:Run or die!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF014.mp3|NAME:Run or die!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[MOD-INF]: ID=11918918217414574(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM014.mp3|NAME:To the death!|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM014.mp3|NAME:To the death!|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+
+[MOD-INF]: ID=12642471941822938(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM001.mp3|NAME:You will die where you stand!
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM001.mp3|NAME:You will die where you stand!
+
+[MOD-INF]: ID=13494013195891231(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Atk_WF004.mp3|NAME:This is going to be fun.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Atk_WF004.mp3|NAME:This is going to be fun.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+
+[MOD-INF]: ID=14294188750320181(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF013.mp3|NAME:Surrender your life to me and I will end your pain!|SCVR:02sX0Random100|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Atk_DF013.mp3|NAME:Surrender your life to me and I will end your pain!|SCVR:02sX0Random100|INTV
+
+[MOD-INF]: ID=16757622321703213(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM010.mp3|NAME:This is too easy.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM010.mp3|NAME:This is too easy.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=18518965279651503(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\m\bAtk_IM009.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\m\bAtk_IM009.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+
+[MOD-INF]: ID=20362222589916173(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Atk_KM009.mp3|NAME:I will feast well on you, Argonian.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\Atk_KM009.mp3|NAME:I will feast well on you, Argonian.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=21957133713204385(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hit_KF003.mp3|NAME:Fetcher!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\f\Hit_KF003.mp3|NAME:Fetcher!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+
+[MOD-INF]: ID=22123350968923457(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM005.mp3|NAME:You are weak, Cyrodil!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM005.mp3|NAME:You are weak, Cyrodil!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=23839353985823068(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM013.mp3|NAME:Suffer!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM013.mp3|NAME:Suffer!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[MOD-INF]: ID=23952303756606343(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|ANAM:Fort Frostmoth|SNAM:vo\i\f\bAtk_IF003.mp3|NAME:Hunt it down and kill it!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\bAtk_IF003.mp3|NAME:Hunt it down and kill it!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=24099320896926559(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF004.mp3|NAME:You'll be dead soon!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF004.mp3|NAME:You'll be dead soon!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=24465815217425357(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Atk_KM008.mp3|NAME:Enslaver! Die!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\Atk_KM008.mp3|NAME:Enslaver! Die!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=25898138414280219(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM004.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV:Z
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:Vo\d\m\CrAtk_AM004.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV:Z
+
+[MOD-INF]: ID=26930279814384164(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF001.mp3|NAME:You will die where you stand!
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF001.mp3|NAME:You will die where you stand!
+
+[MOD-INF]: ID=28772710488932600(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM004.mp3|NAME:Bleed, Khajiit!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM004.mp3|NAME:Bleed, Khajiit!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=35311905386223042(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM005.mp3|NAME:Die!|SCVR:01650|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:Vo\d\m\CrAtk_AM005.mp3|NAME:Die!|SCVR:01650|INTV
+
+[MOD-INF]: ID=35831119890691992(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF007.mp3|NAME:Weakling!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF007.mp3|NAME:Weakling!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=36414541196429983(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|ANAM:Skaal Village|SNAM:vo\n\m\bAtk_NM001.mp3|NAME:Taste my silver, foul beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\bAtk_NM001.mp3|NAME:Taste my silver, foul beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=41952429629181328(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM003.mp3|NAME:You don't deserve to live.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM003.mp3|NAME:You don't deserve to live.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=44421990189006511(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Atk_KF014.mp3|NAME:This one is no more!|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\f\Atk_KF014.mp3|NAME:This one is no more!|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=60
+
+[MOD-INF]: ID=47776764269612525(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM010.mp3|NAME:Bash!|SCVR:01450|INTV:|BNAM:;SameRace=0
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM010.mp3|NAME:Bash!|SCVR:01450|INTV:|BNAM:;SameRace=0
+
+[MOD-INF]: ID=51094922166184975(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hit_WF005.mp3|NAME:Stoopid.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Hit_WF005.mp3|NAME:Stoopid.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[MOD-INF]: ID=51199960224937735(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Atk_ORM003.mp3|NAME:You have sealed your fate!|SCVR:02sX3Random100|INTV:(
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|ANAM:ToddTest|SNAM:Vo\ord\Atk_ORM003.mp3|NAME:You have sealed your fate!|SCVR:02sX3Random100|INTV:(
+
+[MOD-INF]: ID=52529232386222232(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM003.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\k\m\bAtk_KM003.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=52534128209420971(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM010.mp3|NAME:You're hardly a match for me!|SCVR:02sX3Random100|INTV:-|BNAM:;
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM010.mp3|NAME:You're hardly a match for me!|SCVR:02sX3Random100|INTV:-|BNAM:;
+
+[MOD-INF]: ID=53783046152005794(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\CrAtk_IM004.mp3|NAME:Ha!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\CrAtk_IM004.mp3|NAME:Ha!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV
+
+[MOD-INF]: ID=62652024743128147(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM002.mp3|NAME:Fetcher!|SCVR:02sX3Random100|INTV: |BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM002.mp3|NAME:Fetcher!|SCVR:02sX3Random100|INTV: |BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=80373092468804723(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:Vo\w\f\Atk_WF012.mp3|NAME:You should run now.|SCVR:02sX3Random100|INTV:F|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:Vo\w\f\Atk_WF012.mp3|NAME:You should run now.|SCVR:02sX3Random100|INTV:F|BNAM:;Random100>=40
+
+[MOD-INF]: ID=81547752229522564(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF012.mp3|NAME:This is too easy!|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF012.mp3|NAME:This is too easy!|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+
+[MOD-INF]: ID=84616863197517728(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF010.mp3|NAME:Come on, fight!|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF010.mp3|NAME:Come on, fight!|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=86432018149367490(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM012.mp3|NAME:This is pointless, give in!|BNAM:;
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM012.mp3|NAME:This is pointless, give in!|BNAM:;
+
+[MOD-INF]: ID=96732069221237565(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:Vo\o\f\Atk_OF015.mp3|NAME:Our blood is made for fighting!|SCVR:02sX3Random100|INTV:_
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:Vo\o\f\Atk_OF015.mp3|NAME:Our blood is made for fighting!|SCVR:02sX3Random100|INTV:_
+
+[MOD-INF]: ID=105952022463032649(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Atk_KM002.mp3|NAME:You will die like a rat, Redguard.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\Atk_KM002.mp3|NAME:You will die like a rat, Redguard.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=114146602294314660(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM006.mp3|NAME:You grow weak.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM006.mp3|NAME:You grow weak.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=114475928302697744(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:Vo\h\m\CrAtk_HM005.mp3|NAME:Die!|SCVR:01650|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:Vo\h\m\CrAtk_HM005.mp3|NAME:Die!|SCVR:01650|INTV
+
+[MOD-INF]: ID=119112292243645840(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF002.mp3|NAME:Your life's end is approaching.|SCVR:01075|INTV|BNAM:;PCRace=9[Redguard]Dialog is placeholder - experiment
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Atk_DF002.mp3|NAME:Your life's end is approaching.|SCVR:01075|INTV|BNAM:;PCRace=9[Redguard]Dialog is placeholder - experiment
+
+[MOD-INF]: ID=121201118160104163(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM006.mp3|NAME:You should've picked an easier opponent!|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM006.mp3|NAME:You should've picked an easier opponent!|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=125846976311324062(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF005.mp3|NAME:You haven't a chance against me, creature!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF005.mp3|NAME:You haven't a chance against me, creature!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=127631023252020736(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Atk_KM010.mp3|NAME:So small and tasty. I will enjoy eating you.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\Atk_KM010.mp3|NAME:So small and tasty. I will enjoy eating you.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=128859252610829530(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF007.mp3|NAME:I will bathe in your blood.|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF007.mp3|NAME:I will bathe in your blood.|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=137526819501812587(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\bAtk_NM007.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\bAtk_NM007.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=140697454220725626(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF015.mp3|NAME:Your end is here!
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF015.mp3|NAME:Your end is here!
+
+[MOD-INF]: ID=142336653321005568(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Atk_IF006.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\Atk_IF006.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=148912046206727404(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\m\Atk_AM015.mp3|NAME:To the gods with you!
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\m\Atk_AM015.mp3|NAME:To the gods with you!
+
+[MOD-INF]: ID=152497293124619824(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\bAtk_NF008.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, conviction
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\bAtk_NF008.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, conviction
+
+[MOD-INF]: ID=152976333253830761(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF014.mp3|NAME:You are a fool to fight me.|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF014.mp3|NAME:You are a fool to fight me.|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+
+[MOD-INF]: ID=152991572408111402(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM006.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\bAtk_DM006.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+
+[MOD-INF]: ID=154264229275642373(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM012.mp3|NAME:Embrace your demise!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM012.mp3|NAME:Embrace your demise!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=20
+
+[MOD-INF]: ID=173002513078813616(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Atk_KF002.mp3|NAME:You will die like a rat, Redguard.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\f\Atk_KF002.mp3|NAME:You will die like a rat, Redguard.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=174451088835223488(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM001.mp3|NAME:Ha-ha!
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM001.mp3|NAME:Ha-ha!
+
+[MOD-INF]: ID=177166795736520417(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM008.mp3|NAME:You're defeated, give up.|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM008.mp3|NAME:You're defeated, give up.|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=180211625584708866(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF013.mp3|NAME:Ungh! You call this fighting?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF013.mp3|NAME:Ungh! You call this fighting?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=40
+
+[MOD-INF]: ID=182035366195415666(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF001.mp3|NAME:Bleed, Redguard!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF001.mp3|NAME:Bleed, Redguard!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=189864573165254670(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF003.mp3|NAME:No surrender! No mercy!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF003.mp3|NAME:No surrender! No mercy!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+
+[DUP-INF]: ID=193182902299341885(Voice:attack)
+  |DATA|RNAM:Redguard|SNAM:Vo\r\m\CrAtk_RM002.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV:2|SCVR:11650|INTV
+
+[MOD-INF]: ID=195461159481739447(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM002.mp3|NAME|ARRRR!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM002.mp3|NAME|ARRRR!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=197633231490331345(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|ANAM:Skaal Village|SNAM:vo\n\f\bAtk_NF003.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\bAtk_NF003.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+
+[MOD-INF]: ID=200051571036147762(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM010.mp3|NAME:How does it feel to know death is near?|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM010.mp3|NAME:How does it feel to know death is near?|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=203605265344318077(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\bAtk_IF006.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\bAtk_IF006.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=208438425199122357(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF012.mp3|NAME:Embrace your demise!|SCVR:02sX3Random100|INTV:(
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF012.mp3|NAME:Embrace your demise!|SCVR:02sX3Random100|INTV:(
+
+[MOD-INF]: ID=214711275636391386(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF005.mp3|NAME:Now you die.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF005.mp3|NAME:Now you die.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=222819633571618524(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM007.mp3|NAME:Run while you can.|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM007.mp3|NAME:Run while you can.|SCVR:02sX3Random100|INTV:-|SCVR:11041|INTV:|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=228463062565661554(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF009.mp3|NAME:Die, Bosmer!|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF009.mp3|NAME:Die, Bosmer!|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=228953167243984402(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM002.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM002.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=231801337930878949(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM007.mp3|NAME:Not long now!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM007.mp3|NAME:Not long now!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=240473340267757993(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM011.mp3|NAME:I will kill you quickly.|SCVR:02sX3Random100|INTV:F|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM011.mp3|NAME:I will kill you quickly.|SCVR:02sX3Random100|INTV:F|BNAM:;Random100>=20
+
+[MOD-INF]: ID=240525652120104996(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM008.mp3|NAME:Surrender now and I might let you live!|SCVR:02sX3Random100|INTV|BNAM:;
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM008.mp3|NAME:Surrender now and I might let you live!|SCVR:02sX3Random100|INTV|BNAM:;
+
+[MOD-INF]: ID=242836242960911440(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\m\bAtk_IM007.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\m\bAtk_IM007.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=243202874252783567(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM012.mp3|NAME:Am I good or what?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM012.mp3|NAME:Am I good or what?|SCVR:02sX3Random100|INTV:(|SCVR:11041|INTV:|BNAM:;Random100>=40
+
+[MOD-INF]: ID=255728734234767264(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM009.mp3|NAME:A small trophy for my young!|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM009.mp3|NAME:A small trophy for my young!|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=259347727589023098(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\bAtk_NF004.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\bAtk_NF004.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=260615568279416556(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Atk_IF012.mp3|NAME:You've lost this round!|SCVR:02sX3Random100|INTV:A|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\Atk_IF012.mp3|NAME:You've lost this round!|SCVR:02sX3Random100|INTV:A|BNAM:;Random100>=20
+
+[MOD-INF]: ID=264211940352377704(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF006.mp3|NAME:Suffer, Altmer!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF006.mp3|NAME:Suffer, Altmer!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=265463211842905016(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF010.mp3|NAME:Your pain is nearing an end!|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:2|BNAM:;PCRace=10[WoodElf]Dialog is placeholder - experiment
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Atk_DF010.mp3|NAME:Your pain is nearing an end!|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:2|BNAM:;PCRace=10[WoodElf]Dialog is placeholder - experiment
+
+[MOD-INF]: ID=277064513247122248(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM011.mp3|NAME:You're starting to fail.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM011.mp3|NAME:You're starting to fail.|SCVR:02sX3Random100|INTV|SCVR:11041|INTV:|BNAM:;Random100>=20
+
+[MOD-INF]: ID=277618746264533949(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF014.mp3|NAME:I shall enjoy watching you take your last breath.|SCVR:02sX3Random100|INTV:P
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF014.mp3|NAME:I shall enjoy watching you take your last breath.|SCVR:02sX3Random100|INTV:P
+
+[MOD-INF]: ID=282084600234391046(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM008.mp3|NAME:You're beaten!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM008.mp3|NAME:You're beaten!|SCVR:02sX3Random100|INTV:#|SCVR:11041|INTV:|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=283784680254259949(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:Vo\k\m\Atk_KM015.mp3|NAME:This one is no more!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:Vo\k\m\Atk_KM015.mp3|NAME:This one is no more!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+
+[MOD-INF]: ID=288934533283322255(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Atk_ORM001.mp3|NAME:May our Lords be merciful!|SCVR:02sX3Random100|INTV:P
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|ANAM:ToddTest|SNAM:Vo\ord\Atk_ORM001.mp3|NAME:May our Lords be merciful!|SCVR:02sX3Random100|INTV:P
+
+[MOD-INF]: ID=291262664364422772(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\k\m\bAtk_KM002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=294697381556619159(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Atk_WF003.mp3|NAME:You don't deserve to live.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Atk_WF003.mp3|NAME:You don't deserve to live.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=303191180823546279(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\bAtk_NF006.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\bAtk_NF006.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=313976372312620693(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF012.mp3|NAME:I will kill you quickly.|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF012.mp3|NAME:I will kill you quickly.|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+
+[MOD-INF]: ID=315997384137626635(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM011.mp3|NAME:You will die.|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM011.mp3|NAME:You will die.|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+
+[MOD-INF]: ID=357071801390717912(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF017.mp3|NAME:Your life is mine!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF017.mp3|NAME:Your life is mine!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[MOD-INF]: ID=389724696269767488(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM014.mp3|NAME:I will enjoy this!|SCVR:02sX3Random100|INTV:(|BNAM:;
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM014.mp3|NAME:I will enjoy this!|SCVR:02sX3Random100|INTV:(|BNAM:;
+
+[MOD-INF]: ID=390758162514015617(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF014.mp3|NAME:Come on, fight!|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF014.mp3|NAME:Come on, fight!|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+
+[MOD-INF]: ID=464086111711723288(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM004.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\bAtk_DM004.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=498065821382627850(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF012.mp3|NAME:You will die!|SCVR:02sX3Random100|INTV:F|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Atk_DF012.mp3|NAME:You will die!|SCVR:02sX3Random100|INTV:F|BNAM:;Random100>=40
+
+[MOD-INF]: ID=518143721474127056(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM003.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\bAtk_DM003.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=538824153299946416(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM012.mp3|NAME:Surrender your life to me and I will end your pain!|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:(|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM012.mp3|NAME:Surrender your life to me and I will end your pain!|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[MOD-INF]: ID=558376492984428444(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF004.mp3|NAME:Stupid fetcher!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2[Breton]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF004.mp3|NAME:Stupid fetcher!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2[Breton]
+
+[MOD-INF]: ID=598206531466011565(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Atk_KF008.mp3|NAME:Enslaver! Die!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\f\Atk_KF008.mp3|NAME:Enslaver! Die!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=621255291985827799(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:Vo\o\m\Atk_OM014.mp3|NAME:You are a fool to fight me!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:Vo\o\m\Atk_OM014.mp3|NAME:You are a fool to fight me!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+
+[MOD-INF]: ID=630762013065818377(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF010.mp3|NAME:You'll be dead soon.|SCVR:02sX3Random100|INTV:Z|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF010.mp3|NAME:You'll be dead soon.|SCVR:02sX3Random100|INTV:Z|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=658425605946227634(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:Vo\b\m\CrAtk_BM001.mp3|NAME:Arrgh!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV:P
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:Vo\b\m\CrAtk_BM001.mp3|NAME:Arrgh!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV:P
+
+[MOD-INF]: ID=690418752213022257(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF004.mp3|NAME:Beg for mercy, Nord!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF004.mp3|NAME:Beg for mercy, Nord!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=808356682230720772(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM012.mp3|NAME:You should run now.|SCVR:02sX3Random100|INTV:F|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM012.mp3|NAME:You should run now.|SCVR:02sX3Random100|INTV:F|BNAM:;Random100>=40
+
+[MOD-INF]: ID=863939612092331200(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF007.mp3|NAME:Not long now!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF007.mp3|NAME:Not long now!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=928239161409712530(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM011.mp3|NAME:You're growing weak!|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM011.mp3|NAME:You're growing weak!|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+
+[MOD-INF]: ID=945524784138612211(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF005.mp3|NAME:I have the upper hand!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF005.mp3|NAME:I have the upper hand!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=952024326896231485(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF010.mp3|NAME:Filthy Bosmer! AAAAAAYYYY.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF010.mp3|NAME:Filthy Bosmer! AAAAAAYYYY.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=976980263199715088(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Hit_BM003.mp3|NAME:Fetcher!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - not 'Fetcher'
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Hit_BM003.mp3|NAME:Fetcher!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - not 'Fetcher'
+
+[MOD-INF]: ID=983217790241822655(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Atk_WF010.mp3|NAME:This is too easy.|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Atk_WF010.mp3|NAME:This is too easy.|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=994116504173551411(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Atk_IF005.mp3|NAME:You won't escape me that easily!
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\Atk_IF005.mp3|NAME:You won't escape me that easily!
+
+[MOD-INF]: ID=1002343791074431478(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Atk_WF002.mp3|NAME:Fetcher!|SCVR:02sX3Random100|INTV: |BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Atk_WF002.mp3|NAME:Fetcher!|SCVR:02sX3Random100|INTV: |BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=1047217734257044162(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\bAtk_DM002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=1047425638199622415(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF004.mp3|NAME:Bleed, foul cat!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF004.mp3|NAME:Bleed, foul cat!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=1059133091076617229(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM007.mp3|NAME:You can't escape me.|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM007.mp3|NAME:You can't escape me.|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=1066128669186263340(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF002.mp3|NAME:Your moment is at an end, Redguard!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF002.mp3|NAME:Your moment is at an end, Redguard!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=1082223131259578165(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|ANAM:Fort Frostmoth|SNAM:vo\i\f\bAtk_IF002.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV:B|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\bAtk_IF002.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV:B|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=1084717578564124870(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF010.mp3|NAME:How does it feel to know death is near?|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF010.mp3|NAME:How does it feel to know death is near?|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=1092418785295565404(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF005.mp3|NAME:This is the end of you, s'wit.|SCVR:02sX3Random100|INTV:(
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Atk_DF005.mp3|NAME:This is the end of you, s'wit.|SCVR:02sX3Random100|INTV:(
+
+[MOD-INF]: ID=1095529443545228382(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM002.mp3|NAME:No mercy!|SCVR:02sX3Random100|INTV:_|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM002.mp3|NAME:No mercy!|SCVR:02sX3Random100|INTV:_|SCVR:11710|INTV:|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=1112923760192874298(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM006.mp3|NAME:Death awaits you!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM006.mp3|NAME:Death awaits you!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=1146153502055023806(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\bAtk_KM002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\bAtk_KM002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=1153120084233788699(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM009.mp3|NAME|HUHHH.|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM009.mp3|NAME|HUHHH.|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=1154315842447929619(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM009.mp3|NAME:Your pain is nearing an end.|SCVR:01075|INTV|SCVR:12sX3Random100|INTV|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM009.mp3|NAME:Your pain is nearing an end.|SCVR:01075|INTV|SCVR:12sX3Random100|INTV|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=1164831891191339611(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF012.mp3|NAME:Bleed!|SCVR:02sX3Random100|INTV|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF012.mp3|NAME:Bleed!|SCVR:02sX3Random100|INTV|BNAM:;Random100>=40
+
+[MOD-INF]: ID=1177224275675122707(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF013.mp3|NAME:I'll make this quick.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF013.mp3|NAME:I'll make this quick.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[MOD-INF]: ID=1198056851330829621(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM001.mp3|NAME:Now you're going to get it.
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM001.mp3|NAME:Now you're going to get it.
+
+[MOD-INF]: ID=1282210422208319210(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+
+[MOD-INF]: ID=1299230962935217436(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\bAtk_IF005.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\bAtk_IF005.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=1338728512261510284(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM013.mp3|NAME:I should have killed you sooner!|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM013.mp3|NAME:I should have killed you sooner!|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=40
+
+[MOD-INF]: ID=1405477652425331256(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Atk_IF013.mp3|NAME:You're not even trying!|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\Atk_IF013.mp3|NAME:You're not even trying!|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=40
+
+[MOD-INF]: ID=1434813789653322684(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM014.mp3|NAME:I shall enjoy watching you take your last breath.|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM014.mp3|NAME:I shall enjoy watching you take your last breath.|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+
+[MOD-INF]: ID=1459619124227185925(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM012.mp3|NAME:My victory is at hand!|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM012.mp3|NAME:My victory is at hand!|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+
+[MOD-INF]: ID=1462179771592225538(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM001.mp3|NAME:Now you die.|SCVR:01075|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM001.mp3|NAME:Now you die.|SCVR:01075|INTV
+
+[MOD-INF]: ID=1462371442776124293(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM007.mp3|NAME:Weakling!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM007.mp3|NAME:Weakling!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=1469926922318909927(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Hit_OF003.mp3|NAME:Fetcher!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - not 'Fetcher!'
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Hit_OF003.mp3|NAME:Fetcher!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - not 'Fetcher!'
+
+[MOD-INF]: ID=1489587862224218332(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF002.mp3|NAME:Die with honor, coward!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF002.mp3|NAME:Die with honor, coward!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=1516489352376222820(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF012.mp3|NAME:Am I good or what?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF012.mp3|NAME:Am I good or what?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[MOD-INF]: ID=1523226001774428292(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF003.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF003.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=1523526571065923449(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Atk_WF006.mp3|NAME:You chose the wrong Bosmer to mess with.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Atk_WF006.mp3|NAME:You chose the wrong Bosmer to mess with.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=1526616886320948799(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\bAtk_NM004.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\bAtk_NM004.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=1545015813248111870(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|ANAM:Fort Frostmoth|SNAM:vo\i\m\bAtk_IM002.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV:B|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|DNAM:Talos Cult|SNAM:vo\i\m\bAtk_IM002.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV:B|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=1563927109305858101(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:#|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\bAtk_DF002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:#|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=1600925321279879461(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM002.mp3|NAME:Ha-Ha!|SCVR:02sX3Random100|INTV:K
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM002.mp3|NAME:Ha-Ha!|SCVR:02sX3Random100|INTV:K
+
+[MOD-INF]: ID=1601721890604721014(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\bAtk_KM004.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\bAtk_KM004.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=1612314975254679357(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM005.mp3|NAME:I have the upper hand!|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM005.mp3|NAME:I have the upper hand!|SCVR:02sX3Random100|INTV:A|SCVR:1ARX0Argonian|INTV:|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=1627012128588432311(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF002.mp3|NAME|ARRRR!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF002.mp3|NAME|ARRRR!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=1680152062205718079(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM011.mp3|NAME:Fight coward!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM011.mp3|NAME:Fight coward!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=20
+
+[MOD-INF]: ID=1705913055880518129(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF001.mp3|NAME:This will be the end of you, Breton!|SCVR:02sX0PCRace|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF001.mp3|NAME:This will be the end of you, Breton!|SCVR:02sX0PCRace|INTV
+
+[MOD-INF]: ID=1719961521726118644(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\m\bAtk_IM006.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, a quip
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\m\bAtk_IM006.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, a quip
+
+[MOD-INF]: ID=1723313597138418081(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM009.mp3|NAME:Die, scoundrel!|SCVR:02sX3Random100|INTV:Z
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM009.mp3|NAME:Die, scoundrel!|SCVR:02sX3Random100|INTV:Z
+
+[MOD-INF]: ID=1729424972118678659(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM014.mp3|NAME:Die!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM014.mp3|NAME:Die!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[MOD-INF]: ID=1762130295791810215(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF004.mp3|NAME|SCVR:02sX5Random100|INTV:A|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\bAtk_DF004.mp3|NAME|SCVR:02sX5Random100|INTV:A|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=1777916984179917730(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Atk_IF001.mp3|NAME:I've trifled with you long enough.|SCVR:02sX3Random100|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\Atk_IF001.mp3|NAME:I've trifled with you long enough.|SCVR:02sX3Random100|INTV
+
+[MOD-INF]: ID=1803050811939215018(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=1804717092276681525(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM004.mp3|NAME:Give up.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM004.mp3|NAME:Give up.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=1817683592006730236(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF008.mp3|NAME:You should have run while you had a chance!|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF008.mp3|NAME:You should have run while you had a chance!|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=1818418124142572451(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM003.mp3|NAME:Hugnh!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - wav is 'Fetcher!'
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\Hit_KM003.mp3|NAME:Hugnh!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - wav is 'Fetcher!'
+
+[MOD-INF]: ID=1830622272888628280(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM009.mp3|NAME:One of us will die here and it won't be me.|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM009.mp3|NAME:One of us will die here and it won't be me.|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=1839631899189205324(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF001.mp3|NAME:Ha-ha!
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF001.mp3|NAME:Ha-ha!
+
+[MOD-INF]: ID=1847616830168756321(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF006.mp3|NAME:Death awaits you!|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF006.mp3|NAME:Death awaits you!|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=1888220718252088814(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF003.mp3|NAME:Die, fetcher.|SCVR:02sX3Random100|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Atk_DF003.mp3|NAME:Die, fetcher.|SCVR:02sX3Random100|INTV
+
+[MOD-INF]: ID=1983230156298803994(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\bAtk_NM008.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, conviction
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\bAtk_NM008.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, conviction
+
+[MOD-INF]: ID=1995313101841029324(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM005.mp3|NAME:You haven't a chance against me!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM005.mp3|NAME:You haven't a chance against me!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=2003424873473425432(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF006.mp3|NAME:You should've picked an easier opponent!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF006.mp3|NAME:You should've picked an easier opponent!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=2038627057131522924(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM003.mp3|NAME:Prepare to die!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM003.mp3|NAME:Prepare to die!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=2039428431265924230(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF007.mp3|NAME:Suffer, Dunmer!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF007.mp3|NAME:Suffer, Dunmer!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=2056722926397718930(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM004.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV|SCVR:11650|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:Vo\d\m\CrAtk_AM004.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV|SCVR:11650|INTV
+
+[MOD-INF]: ID=2063323517166171236(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\k\m\bAtk_KM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=2064853332137623776(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF013.mp3|NAME:You'll soon be nothing more than a bad memory!|SCVR:02sX3Random100|INTV:<
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF013.mp3|NAME:You'll soon be nothing more than a bad memory!|SCVR:02sX3Random100|INTV:<
+
+[MOD-INF]: ID=2071925182315413534(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Atk_IF015.mp3|NAME:No one can match me!|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=80
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\Atk_IF015.mp3|NAME:No one can match me!|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=80
+
+[MOD-INF]: ID=2075428361120372983(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:Vo\b\m\CrAtk_BM003.mp3|NAME:Huhh!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV:(
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:Vo\b\m\CrAtk_BM003.mp3|NAME:Huhh!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV:(
+
+[MOD-INF]: ID=2078321971716710214(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:Vo\b\m\CrAtk_BM004.mp3|NAME:Ha!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:Vo\b\m\CrAtk_BM004.mp3|NAME:Ha!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV
+
+[MOD-INF]: ID=2114480271617914707(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM003.mp3|NAME:Grunt.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM003.mp3|NAME:Grunt.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=2116920153508124189(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF005.mp3|NAME:Your skills fail you!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF005.mp3|NAME:Your skills fail you!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=2183917571133326458(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:Vo\d\f\CrAtk_DF005.mp3|NAME:Die!|SCVR:01650|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:Vo\d\f\CrAtk_DF005.mp3|NAME:Die!|SCVR:01650|INTV
+
+[MOD-INF]: ID=2199017608653723551(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:Vo\r\m\CrAtk_RM004.mp3|NAME:Die!|SCVR:01650|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:Vo\r\m\CrAtk_RM004.mp3|NAME:Die!|SCVR:01650|INTV|SCVR:11710|INTV:
+
+[MOD-INF]: ID=2207018998577911706(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM007.mp3|NAME:I will bathe in your blood.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM007.mp3|NAME:I will bathe in your blood.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=2211031586698313587(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM013.mp3|NAME:This is too easy!|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM013.mp3|NAME:This is too easy!|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+
+[MOD-INF]: ID=2215318927221919879(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Atk_KF010.mp3|NAME:So small and tasty. I will enjoy eating you.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\f\Atk_KF010.mp3|NAME:So small and tasty. I will enjoy eating you.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=2226528279493928864(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:Vo\n\f\Atk_NF015.mp3|NAME:Face death!|SCVR:02sX3Random100|INTV:_
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:Vo\n\f\Atk_NF015.mp3|NAME:Face death!|SCVR:02sX3Random100|INTV:_
+
+[MOD-INF]: ID=2234650651448329482(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF004.mp3|NAME:Fool!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF004.mp3|NAME:Fool!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+
+[MOD-INF]: ID=2272524875203396692(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Atk_DM013.mp3|NAME:You're beaten.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:Vo\d\m\Atk_DM013.mp3|NAME:You're beaten.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+
+[MOD-INF]: ID=2295431209699117314(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM013.mp3|NAME:I'll see you dead.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM013.mp3|NAME:I'll see you dead.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+
+[MOD-INF]: ID=2302014900430613297(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Hit_IF003.mp3|NAME:Fetcher!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - NOT 'Fetcher'
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\Hit_IF003.mp3|NAME:Fetcher!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - NOT 'Fetcher'
+
+[MOD-INF]: ID=2303191752034219800(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF008.mp3|NAME:Now this is fighting!|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF008.mp3|NAME:Now this is fighting!|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=2308040301489620892(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM001.mp3|NAME:It's about time I had some fun!
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM001.mp3|NAME:It's about time I had some fun!|SCVR:01041|INTV:
+
+[MOD-INF]: ID=2322425229536713033(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF006.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\bAtk_DF006.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+
+[MOD-INF]: ID=2329123618293801084(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF012.mp3|NAME:My victory is at hand!|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF012.mp3|NAME:My victory is at hand!|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+
+[MOD-INF]: ID=2367516120832616127(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF009.mp3|NAME:There is no escape!|SCVR:02sX3Random100|INTV:2
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Atk_DF009.mp3|NAME:There is no escape!|SCVR:02sX3Random100|INTV:2
+
+[MOD-INF]: ID=2417026398290115349(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Atk_IF010.mp3|NAME:Die, scoundrel!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\Atk_IF010.mp3|NAME:Die, scoundrel!|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=2427426644198018943(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Atk_WF014.mp3|NAME:You're growing weaker!|SCVR:02sX3Random100|INTV:Z
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Atk_WF014.mp3|NAME:You're growing weaker!|SCVR:02sX3Random100|INTV:Z
+
+[MOD-INF]: ID=2435212782150624035(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF013.mp3|NAME:I should have killed you sooner!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF013.mp3|NAME:I should have killed you sooner!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=40
+
+[MOD-INF]: ID=2446021573240720200(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF002.mp3|NAME:Huh!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF002.mp3|NAME:Huh!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=2447145461541314082(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF010.mp3|NAME:Escape while you can.|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF010.mp3|NAME:Escape while you can.|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=2456510554691114511(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:Vo\w\f\Atk_WF013.mp3|NAME:I'll see you dead.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:Vo\w\f\Atk_WF013.mp3|NAME:I'll see you dead.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+
+[MOD-INF]: ID=2536268202089310486(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM009.mp3|NAME:You fight like a child!|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM009.mp3|NAME:You fight like a child!|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=2539014601317514439(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF001.mp3|NAME:Now you die.|SCVR:02sX3Random100|INTV:P
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Atk_DF001.mp3|NAME:Now you die.|SCVR:02sX3Random100|INTV:P
+
+[MOD-INF]: ID=2557395332266924542(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Hit_OM009.mp3|NAME:Fetcher.|SCVR:01045|INTV:P|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Hit_OM009.mp3|NAME:Fetcher.|SCVR:01045|INTV:P|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+
+[MOD-INF]: ID=2563829786153074519(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hit_WM006.mp3|NAME|AIIEEE.|SCVR:01045|INTV:2
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Hit_WM006.mp3|NAME|AIIEEE.|SCVR:01045|INTV:2
+
+[MOD-INF]: ID=2577423135220121239(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM003.mp3|NAME:I'm going to enjoy this!|SCVR:02sX3Random100|INTV:U|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM003.mp3|NAME:I'm going to enjoy this!|SCVR:02sX3Random100|INTV:U|SCVR:11710|INTV:|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=2606327083158041267(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM001.mp3|NAME:Suffer, Redguard!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM001.mp3|NAME:Suffer, Redguard!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=2642991611824224206(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Atk_WF001.mp3|NAME:Now you're going to get it.
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Atk_WF001.mp3|NAME:Now you're going to get it.
+
+[MOD-INF]: ID=2648613517237632551(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF009.mp3|NAME:You fight like a child!|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF009.mp3|NAME:You fight like a child!|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=2672573881986030450(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM005.mp3|NAME:Die!|SCVR:02sX3Random100|INTV:_
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:Vo\d\m\CrAtk_AM005.mp3|NAME:Die!|SCVR:02sX3Random100|INTV:_
+
+[MOD-INF]: ID=2685923221994824764(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF011.mp3|NAME:It's over for you!|SCVR:02sX3Random100|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF011.mp3|NAME:It's over for you!|SCVR:02sX3Random100|INTV
+
+[MOD-INF]: ID=2710919751280131411(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM004.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\k\m\bAtk_KM004.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=2725917073811712853(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|ANAM:Fort Frostmoth|SNAM:vo\i\m\bAtk_IM003.mp3|NAME:Hunt it down and kill it!|SCVR:01650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\m\bAtk_IM003.mp3|NAME:Hunt it down and kill it!|SCVR:01650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=2778591241887613219(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\bAtk_KM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\bAtk_KM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=2781743731313327826(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF005.mp3|NAME:Die, Imperial!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF005.mp3|NAME:Die, Imperial!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=2821208582567929522(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF003.mp3|NAME:Prepare to die, beast!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF003.mp3|NAME:Prepare to die, beast!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=2835922470113854711(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM003.mp3|NAME|HAAAA!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM003.mp3|NAME|HAAAA!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=2847315996133331883(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF013.mp3|NAME:Rip it apart!|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF013.mp3|NAME:Rip it apart!|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=60
+
+[MOD-INF]: ID=2886618811800323141(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Atk_KM003.mp3|NAME:We are too quick for you, brute.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\Atk_KM003.mp3|NAME:We are too quick for you, brute.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=2903927988192572256(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM004.mp3|NAME:Beg for mercy, snowman!|SCVR:02sX3PCRace|INTV|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM004.mp3|NAME:Beg for mercy, snowman!|SCVR:02sX3PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=2909160741821531903(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF003.mp3|NAME|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\bAtk_DF003.mp3|NAME|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=2911184013104517626(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Atk_KF009.mp3|NAME:I will feast well on you, Argonian.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\f\Atk_KF009.mp3|NAME:I will feast well on you, Argonian.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=2942122770151073883(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\bAtk_NF007.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\bAtk_NF007.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=2946929036125233770(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM004.mp3|NAME:Fool!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM004.mp3|NAME:Fool!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+
+[MOD-INF]: ID=2991931221290008393(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF009.mp3|NAME:I'll take your tail as my prize!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF009.mp3|NAME:I'll take your tail as my prize!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=2993320713003112930(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:Vo\r\m\CrAtk_RM001.mp3|NAME:Rarrgh!|SCVR:02sX3Random100|INTV:K|SCVR:11650|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:Vo\r\m\CrAtk_RM001.mp3|NAME:Rarrgh!|SCVR:02sX3Random100|INTV:K|SCVR:11650|INTV
+
+[MOD-INF]: ID=3007623731165977510(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM007.mp3|NAME:Let's see what you're made of!|SCVR:02sX3Random100|INTV: |BNAM:;
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM007.mp3|NAME:Let's see what you're made of!|SCVR:02sX3Random100|INTV: |BNAM:;
+
+[MOD-INF]: ID=3056327713374422659(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Atk_KF003.mp3|NAME:We are too quick for you, brute.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\f\Atk_KF003.mp3|NAME:We are too quick for you, brute.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=3088193112997815896(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Atk_KF004.mp3|NAME:You are clumsy, snowman.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\f\Atk_KF004.mp3|NAME:You are clumsy, snowman.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=3090673703085415667(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM|SCVR:02sX3Random100|INTV:P
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM|SCVR:02sX3Random100|INTV:P
+
+[MOD-INF]: ID=3129520123112069811(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Hit_AF003.mp3|NAME:Fetcher!|SCVR:01043|INTV:P|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=80;Random>=40; not 'Fetcher.'
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Hit_AF003.mp3|NAME:Fetcher!|SCVR:01043|INTV:P|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=80;Random>=40; not 'Fetcher.'
+
+[MOD-INF]: ID=4553126452491418397(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:Vo\o\m\Atk_OM013.mp3|NAME:Your bones will be my dinner.|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:Vo\o\m\Atk_OM013.mp3|NAME:Your bones will be my dinner.|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+
+[MOD-INF]: ID=6084139241000318261(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\Atk_IF014.mp3|NAME:This is pointless, give in!|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\Atk_IF014.mp3|NAME:This is pointless, give in!|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=60
+
+[MOD-INF]: ID=6196172151378726726(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM013.mp3|NAME:Come on! Fight!|SCVR:02sX3Random100|INTV:U
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM013.mp3|NAME:Come on! Fight!|SCVR:02sX3Random100|INTV:U
+
+[MOD-INF]: ID=6311285261367815172(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM006.mp3|NAME|ARRRR!|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM006.mp3|NAME|ARRRR!|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=6810238182239114685(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM006.mp3|NAME:Death welcomes you, Altmer!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM006.mp3|NAME:Death welcomes you, Altmer!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=7014108681109310268(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF014.mp3|NAME:Kill it!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF014.mp3|NAME:Kill it!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[MOD-INF]: ID=7616136271938032592(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\bAtk_IF004.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\bAtk_IF004.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=7736235271625016035(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF003.mp3|NAME|HAAAA!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF003.mp3|NAME|HAAAA!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=8125110461110130183(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM005.mp3|NAME|ARRRRGH.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM005.mp3|NAME|ARRRRGH.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=8366303122649711997(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM013.mp3|NAME:You'll soon be nothing more than a bad memory!|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM013.mp3|NAME:You'll soon be nothing more than a bad memory!|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=40
+
+[MOD-INF]: ID=8445170672126813750(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\m\bAtk_IM004.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\m\bAtk_IM004.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=8554218792342320303(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM006.mp3|NAME:You're mine!|SCVR:02sX3Random100|INTV:7
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM006.mp3|NAME:You're mine!|SCVR:02sX3Random100|INTV:7
+
+[MOD-INF]: ID=8585202892983016852(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:Vo\w\f\Atk_WF011.mp3|NAME:Fight, coward!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:Vo\w\f\Atk_WF011.mp3|NAME:Fight, coward!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=20
+
+[MOD-INF]: ID=8702158311262415515(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM005.mp3|NAME:This is the end of you, s'wit.|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:P
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM005.mp3|NAME:This is the end of you, s'wit.|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:P
+
+[MOD-INF]: ID=9415163682008620591(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\CrAtk_IM005.mp3|NAME:Die!|SCVR:01650|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\CrAtk_IM005.mp3|NAME:Die!|SCVR:01650|INTV
+
+[MOD-INF]: ID=10066193032999421209(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|ANAM:Skaal Village|SNAM:vo\n\m\bAtk_NM002.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\bAtk_NM002.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=10072148501881317491(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF015.mp3|NAME:Here it comes!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF015.mp3|NAME:Here it comes!|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[MOD-INF]: ID=10209304311014512464(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM012.mp3|NAME:You will bring me great honor.|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM012.mp3|NAME:You will bring me great honor.|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=40
+
+[MOD-INF]: ID=10356274632849514516(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM004.mp3|NAME:You'll be dead soon!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM004.mp3|NAME:You'll be dead soon!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=10912114473016021204(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|ANAM:Skaal Village|SNAM:vo\n\f\bAtk_NF001.mp3|NAME:Taste my silver, foul beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\bAtk_NF001.mp3|NAME:Taste my silver, foul beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=10935193831906630259(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM013.mp3|NAME:I'll make this quick.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM013.mp3|NAME:I'll make this quick.|SCVR:02sX3Random100|INTV:<|SCVR:11041|INTV:|BNAM:;Random100>=60
+
+[MOD-INF]: ID=10949132352041012758(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM010.mp3|NAME:You'll be dead soon.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM010.mp3|NAME:You'll be dead soon.|SCVR:02sX3Random100|INTV|SCVR:11041|INTV:|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=10976151492879715262(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF003.mp3|NAME:Die quickly, Nord!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF003.mp3|NAME:Die quickly, Nord!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=11100172091303423659(Voice:attack)
+  tribunal.esm------------->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM001.mp3|NAME:I've trifled with you long enough.|SCVR:02sX3Random100|INTV:F
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM001.mp3|NAME:I've trifled with you long enough.|SCVR:02sX3Random100|INTV:F
+
+[MOD-INF]: ID=11100172091303423659(Voice:attack)
+  tribunal.esm------------->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM001.mp3|NAME:I've trifled with you long enough.|SCVR:02sX3Random100|INTV:F
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM001.mp3|NAME:I've trifled with you long enough.|SCVR:02sX3Random100|INTV:F
+[MOD-IID]: ID=1777916984179917730
+  Silent Stealth Kills.ESP->I've trifled with you long enough.
+
+[MOD-INF]: ID=11159107531059110654(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|ANAM:Skaal Village|SNAM:vo\n\f\bAtk_NF002.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\bAtk_NF002.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=11421259821667130436(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM001.mp3|NAME:This will be the end of you!|SCVR:02sX3Random100|INTV: 
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM001.mp3|NAME:This will be the end of you!|SCVR:02sX3Random100|INTV: 
+
+[MOD-INF]: ID=11991151152978528812(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|ANAM:Fort Frostmoth|SNAM:vo\i\f\bAtk_IF001.mp3|NAME:Taste my silver, foul beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\bAtk_IF001.mp3|NAME:Taste my silver, foul beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=12354240681099220941(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF006.mp3|NAME:I'm not giving up that easily.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF006.mp3|NAME:I'm not giving up that easily.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=12374106042149111288(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:Vo\b\m\Atk_BM015.mp3|NAME:Run while you can!|SCVR:02sX3Random100|INTV:_
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:Vo\b\m\Atk_BM015.mp3|NAME:Run while you can!|SCVR:02sX3Random100|INTV:_
+
+[MOD-INF]: ID=12466221741427226783(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:Vo\b\f\Atk_BF015.mp3|NAME:Run while you can!|SCVR:02sX3Random100|INTV:_
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:Vo\b\f\Atk_BF015.mp3|NAME:Run while you can!|SCVR:02sX3Random100|INTV:_
+
+[MOD-INF]: ID=12797263282071010453(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Atk_WM006.mp3|NAME:You chose the wrong Bosmer to mess with.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Atk_WM006.mp3|NAME:You chose the wrong Bosmer to mess with.|SCVR:02sX3Random100|INTV|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=13068228122596319105(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|ANAM:Fort Frostmoth|SNAM:vo\i\m\bAtk_IM001.mp3|NAME:Taste my silver, foul beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|DNAM:Talos Cult|SNAM:vo\i\m\bAtk_IM001.mp3|NAME:Taste my silver, foul beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=13140154492519212618(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM010.mp3|NAME:I have you.|SCVR:02sX3Random100|INTV:F|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM010.mp3|NAME:I have you.|SCVR:02sX3Random100|INTV:F|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=13267238411534410563(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF003.mp3|NAME:Errgh!|SCVR:02sX0Random100|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF003.mp3|NAME:Errgh!|SCVR:02sX0Random100|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=13512247262900226941(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Atk_DM014.mp3|NAME:Your wounds are great!|SCVR:02sX3Random100|INTV:U
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:Vo\d\m\Atk_DM014.mp3|NAME:Your wounds are great!|SCVR:02sX3Random100|INTV:U
+
+[MOD-INF]: ID=13727213652171911064(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF014.mp3|NAME:To the death!|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF014.mp3|NAME:To the death!|SCVR:02sX3Random100|INTV:Z|BNAM:;Random100>=60
+
+[MOD-INF]: ID=14054180582060016307(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM003.mp3|NAME:Die, fetcher.|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM003.mp3|NAME:Die, fetcher.|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=14619314863197925917(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM007.mp3|NAME:You will suffer greatly.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM007.mp3|NAME:You will suffer greatly.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=15102261471744128868(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Atk_ORM004.mp3|NAME:You cannot escape the righteous!|SCVR:02sX3Random100|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|ANAM:ToddTest|SNAM:Vo\ord\Atk_ORM004.mp3|NAME:You cannot escape the righteous!|SCVR:02sX3Random100|INTV
+
+[MOD-INF]: ID=15130108651633812611(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM011.mp3|NAME:You make this too easy!|SCVR:02sX3Random100|INTV:2|BNAM:;
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM011.mp3|NAME:You make this too easy!|SCVR:02sX3Random100|INTV:2|BNAM:;
+
+[MOD-INF]: ID=15516308082351618189(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\Atk_NF005.mp3|NAME:Give in! You're dead already!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\Atk_NF005.mp3|NAME:Give in! You're dead already!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=15580324002056016972(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF007.mp3|NAME:Run while you can.|SCVR:02sX0Random100|INTV|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF007.mp3|NAME:Run while you can.|SCVR:02sX0Random100|INTV|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=15599247271248916677(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF011.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Atk_DF011.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=20
+
+[MOD-INF]: ID=15610162381637622901(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\m\Atk_AM011.mp3|NAME:Kill!|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\m\Atk_AM011.mp3|NAME:Kill!|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[MOD-INF]: ID=15643207701387412968(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF007.mp3|NAME:You will die in disgrace.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF007.mp3|NAME:You will die in disgrace.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=15827205672489310505(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM001.mp3|NAME:You will die here.
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM001.mp3|NAME:You will die here.
+
+[MOD-INF]: ID=15850267563061225175(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\bAtk_NM006.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\bAtk_NM006.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=15955203091877816095(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM005.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, conviction
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\bAtk_DM005.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, conviction
+
+[MOD-INF]: ID=16172147461838212876(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF006.mp3|NAME:You grow weak.|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF006.mp3|NAME:You grow weak.|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=17102235191246627970(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM007.mp3|NAME:You're finished, Dunmer!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM007.mp3|NAME:You're finished, Dunmer!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=17319245691500610508(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM002.mp3|NAME:[Hisss!] Your life ends here, Orc!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM002.mp3|NAME:[Hisss!] Your life ends here, Orc!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=17492313871690327570(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\f\bAtk_NF005.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\f\bAtk_NF005.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=17863166081995222152(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\bAtk_NM005.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\bAtk_NM005.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=17969295991017220923(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM012.mp3|NAME:It will die!|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM012.mp3|NAME:It will die!|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[MOD-INF]: ID=18094116381272915246(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\bAtk_DF001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=18385234682883220675(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\bAtk_DM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=18566187281846814408(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\bAtk_IF007.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\bAtk_IF007.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=18723186963054832067(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Atk_WF009.mp3|NAME:One of us will die here and it won't be me.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Atk_WF009.mp3|NAME:One of us will die here and it won't be me.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=18802219443194012598(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\f\Atk_BF009.mp3|NAME:Soon you'll be reduced to dust!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\f\Atk_BF009.mp3|NAME:Soon you'll be reduced to dust!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=19114115812838226881(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM010.mp3|NAME|AAAAAAYYYY.|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=10[WoodElf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM010.mp3|NAME|AAAAAAYYYY.|SCVR:02sX3Random100|INTV:A|BNAM:;PCRace=10[WoodElf]
+
+[MOD-INF]: ID=19322245712684928930(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\f\Atk_RF008.mp3|NAME:You're beaten!|SCVR:02sX3Random100|INTV:K|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\f\Atk_RF008.mp3|NAME:You're beaten!|SCVR:02sX3Random100|INTV:K|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=20211182512817119366(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM002.mp3|NAME:Your life's end is approaching.|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:<|BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM002.mp3|NAME:Your life's end is approaching.|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:<|BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=20807165811377520341(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM011.mp3|NAME:It's over for you!|SCVR:02sX3Random100|INTV:K
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM011.mp3|NAME:It's over for you!|SCVR:02sX3Random100|INTV:K
+
+[MOD-INF]: ID=20968120092397631075(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM009.mp3|NAME:Hold still!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM009.mp3|NAME:Hold still!|SCVR:02sX3Random100|INTV|SCVR:11041|INTV:|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=21444205622958319566(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:Vo\b\m\CrAtk_BM002.mp3|NAME:Rarrh!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV:<
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:Vo\b\m\CrAtk_BM002.mp3|NAME:Rarrh!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV:<
+
+[MOD-INF]: ID=21583273002723012386(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\f\bAtk_IF008.mp3|NAME:Your cursed bloodline ends here!|SCVR:01650|INTV|BNAM:;shouting, conviction
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\f\bAtk_IF008.mp3|NAME:Your cursed bloodline ends here!|SCVR:01650|INTV|BNAM:;shouting, conviction
+
+[MOD-INF]: ID=21804305152234431362(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF008.mp3|NAME:You're defeated, give up, Dunmer.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF008.mp3|NAME:You're defeated, give up, Dunmer.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=22273283701254925471(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF002.mp3|NAME:Death, beast!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF002.mp3|NAME:Death, beast!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=22351147372492621883(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Atk_WF008.mp3|NAME:Run while you can.|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Atk_WF008.mp3|NAME:Run while you can.|SCVR:02sX3Random100|INTV:-|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=22419304082538721050(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Atk_WF007.mp3|NAME:You can't escape me.|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\f\Atk_WF007.mp3|NAME:You can't escape me.|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=22538182802102028849(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\bAtk_KM003.mp3|NAME|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\bAtk_KM003.mp3|NAME|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=22857293732517231304(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:Vo\w\m\Atk_WM018.mp3|NAME:No one can challenge me!|SCVR:02sX3Random100|INTV:Z
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:Vo\w\m\Atk_WM018.mp3|NAME:No one can challenge me!|SCVR:02sX3Random100|INTV:Z
+
+[MOD-INF]: ID=22976268523049429244(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM009.mp3|NAME:You're bested!|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=1;[argonian]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM009.mp3|NAME:You're bested!|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=1;[argonian]
+
+[MOD-INF]: ID=23174114543188113565(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:Vo\k\m\Atk_KM012.mp3|NAME:Growl!|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:Vo\k\m\Atk_KM012.mp3|NAME:Growl!|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[MOD-INF]: ID=23344246311694427744(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM005.mp3|NAME:Your skills fail you!|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM005.mp3|NAME:Your skills fail you!|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=24269295112880914218(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM003.mp3|NAME:You're finished, snowman!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM003.mp3|NAME:You're finished, snowman!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=24866207512506114796(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM008.mp3|NAME:Your heart is mine, Breton!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:vo\a\m\Atk_AM008.mp3|NAME:Your heart is mine, Breton!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+
+[MOD-INF]: ID=24889277061849810544(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM008.mp3|NAME:Now this is fighting!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM008.mp3|NAME:Now this is fighting!|SCVR:02sX3Random100|INTV:7|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=25085226282290030887(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF006.mp3|NAME:Your suffering will be great, Imperial!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\f\Atk_HF006.mp3|NAME:Your suffering will be great, Imperial!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=27473210141050217035(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:vo\r\m\Atk_RM004.mp3|NAME:Today will be your last!|SCVR:02sX3Random100|INTV:K|BNAM:;PCRace=2[Breton]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:vo\r\m\Atk_RM004.mp3|NAME:Today will be your last!|SCVR:02sX3Random100|INTV:K|SCVR:11710|INTV:|BNAM:;PCRace=2[Breton]
+
+[MOD-INF]: ID=27605324301198225094(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM007.mp3|NAME:You will die in disgrace.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=4[highelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM007.mp3|NAME:You will die in disgrace.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=4[highelf]
+
+[MOD-INF]: ID=28095324902059327974(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:Vo\b\m\CrAtk_BM005.mp3|NAME:Die!|SCVR:01650|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:Vo\b\m\CrAtk_BM005.mp3|NAME:Die!|SCVR:01650|INTV
+
+[MOD-INF]: ID=28211111631044612458(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF010.mp3|NAME:Hahahaha.|SCVR:01450|INTV|BNAM:;SameRace=0
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF010.mp3|NAME:Hahahaha.|SCVR:01450|INTV|BNAM:;SameRace=0
+
+[MOD-INF]: ID=28220200571916315946(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\m\Atk_KM004.mp3|NAME:You are clumsy, snowman.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Khajiit|ANAM:ToddTest|SNAM:vo\k\m\Atk_KM004.mp3|NAME:You are clumsy, snowman.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=28298306662208716765(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\f\Atk_OF001.mp3|NAME:You will die here.
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\f\Atk_OF001.mp3|NAME:You will die here.
+
+[MOD-INF]: ID=28709294402365525299(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV: 
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM|SCVR:02sX3Random100|INTV: 
+
+[MOD-INF]: ID=28864205941588823267(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF005.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, conviction
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\bAtk_DF005.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, conviction
+
+[MOD-INF]: ID=30003104762489313343(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM012.mp3|NAME:Run while you still can, child!|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=40
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM012.mp3|NAME:Run while you still can, child!|SCVR:02sX3Random100|INTV:U|BNAM:;Random100>=40
+
+[MOD-INF]: ID=30195159402736710256(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:Vo\n\m\Atk_NM020.mp3|NAME:It will be your blood here, not mine!|SCVR:02sX3Random100|INTV:_
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:Vo\n\m\Atk_NM020.mp3|NAME:It will be your blood here, not mine!|SCVR:02sX3Random100|INTV:_
+
+[MOD-INF]: ID=30296141122756419159(Voice:hit)
+  morrowind.esm------------>|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hit_WM005.mp3|NAME:Stoopid.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+  Silent Stealth Kills.ESP->|DATA|RNAM:Wood Elf|ANAM:ToddTest|SNAM:vo\w\m\Hit_WM005.mp3|NAME:Stoopid.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[MOD-INF]: ID=30675246332261031515(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM005.mp3|NAME:Now you die.|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM005.mp3|NAME:Now you die.|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=30681180731084230299(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Argonian|SNAM:Vo\a\f\Atk_AF008.mp3|NAME:Die, Breton!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Argonian|ANAM:ToddTest|SNAM:Vo\a\f\Atk_AF008.mp3|NAME:Die, Breton!|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+
+[MOD-INF]: ID=31229107821559032208(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF008.mp3|NAME:You will suffer greatly!|SCVR:02sX3Random100|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\f\Atk_DF008.mp3|NAME:You will suffer greatly!|SCVR:02sX3Random100|INTV
+
+[MOD-INF]: ID=31363293692332619486(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:High Elf|SNAM:vo\h\m\Atk_HM006.mp3|NAME:Your suffering will be great!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=5[Imperial]
+  Silent Stealth Kills.ESP->|DATA|RNAM:High Elf|ANAM:ToddTest|SNAM:vo\h\m\Atk_HM006.mp3|NAME:Your suffering will be great!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=5[Imperial]
+
+[MOD-INF]: ID=31410144532747825765(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\bAtk_NM009.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\bAtk_NM009.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+
+[MOD-INF]: ID=31463284152471316592(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Atk_ORM005.mp3|NAME:You will pay with your blood!
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|ANAM:ToddTest|SNAM:Vo\ord\Atk_ORM005.mp3|NAME:You will pay with your blood!
+
+[MOD-INF]: ID=31478203043070115128(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM005.mp3|NAME:Give in! You're dead already!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=6[Khajiit]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\Atk_NM005.mp3|NAME:Give in! You're dead already!|SCVR:02sX3Random100|INTV:#|BNAM:;PCRace=6[Khajiit]
+
+[MOD-INF]: ID=31545203571203032565(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Orc|SNAM:vo\o\m\Atk_OM002.mp3|NAME:Arrrgh.|SCVR:02sX3Random100|INTV: |BNAM:;PCRace=9[Redguard]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Orc|ANAM:ToddTest|SNAM:vo\o\m\Atk_OM002.mp3|NAME:Arrrgh.|SCVR:02sX3Random100|INTV: |BNAM:;PCRace=9[Redguard]
+
+[MOD-INF]: ID=31607113122056911869(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Imperial|SNAM:vo\i\m\bAtk_IM008.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:vo\i\m\bAtk_IM008.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[MOD-INF]: ID=31622120111149528597(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM005.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV:F
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM005.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV:F
+
+[MOD-INF]: ID=31765197442107226147(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM003.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM003.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV|BNAM:;PCRace=8[Orc]
+
+[MOD-INF]: ID=31773137712951732435(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM008.mp3|NAME:There is no escape.|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=7[Nord]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Dark Elf|ANAM:ToddTest|SNAM:vo\d\m\Atk_DM008.mp3|NAME:There is no escape.|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=7[Nord]
+
+[MOD-INF]: ID=31868269171284428339(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Atk_BM008.mp3|NAME:You should have run while you had a chance!|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=3[darkelf]
+  Silent Stealth Kills.ESP->|DATA|RNAM:Breton|ANAM:ToddTest|SNAM:vo\b\m\Atk_BM008.mp3|NAME:You should have run while you had a chance!|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=3[darkelf]
+
+[MOD-INF]: ID=32321107362914928334(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Redguard|SNAM:Vo\r\m\CrAtk_RM003.mp3|NAME:Haha!|SCVR:02sX3Random100|INTV|SCVR:11650|INTV
+  Silent Stealth Kills.ESP->|DATA|RNAM:Redguard|ANAM:ToddTest|SNAM:Vo\r\m\CrAtk_RM003.mp3|NAME:Haha!|SCVR:02sX3Random100|INTV|SCVR:11650|INTV
+
+[MOD-INF]: ID=32730291742081524438(Voice:attack)
+  morrowind.esm------------>|DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM004.mp3|NAME:You won't escape me that easily!|SCVR:02sX3Random100|INTV:A
+  Silent Stealth Kills.ESP->|DATA|RNAM:Imperial|ANAM:ToddTest|SNAM:Vo\i\m\Atk_IM004.mp3|NAME:You won't escape me that easily!|SCVR:02sX3Random100|INTV:A
+
+[MOD-INF]: ID=32763109981892124500(Voice:attack)
+  bloodmoon.esm------------>|DATA|RNAM:Nord|ANAM:Skaal Village|SNAM:vo\n\m\bAtk_NM003.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+  Silent Stealth Kills.ESP->|DATA|RNAM:Nord|ANAM:ToddTest|SNAM:vo\n\m\bAtk_NM003.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip

@@ -1,0 +1,171 @@
+Grandfather Frost - TOTSP.ESP: DUP-INF DUP-REC MASTERS MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             7824672 (plugin)   11064795 (installed size)
+	Solstheim Tomb of The Snow Prince.esm   10646303 (plugin)   10637543 (installed size)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ARMO    fur_colovian_helm_red
+	bloodmoon.esm       DIAL    bm_moonsugar
+	bloodmoon.esm       DIAL    candy treats
+	bloodmoon.esm       DIAL    flee
+	bloodmoon.esm       DIAL    imperial matter
+	bloodmoon.esm       DIAL    moon sugar investigation
+	bloodmoon.esm       NPC_    bereditte jastal
+	bloodmoon.esm       NPC_    bereditte jastal_out
+	bloodmoon.esm       NPC_    grandfather frost
+	tamriel_data.esm    DIAL    intruder
+	tamriel_data.esm    DIAL    thief
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+
+[DUP-INF]: ID=26575662654447(Voice:idle)
+  |DATA|ONAM:uncle sweetshare|SNAM:Vo\n\m\sweetshare02.mp3|NAME:My Uncle's candy is so sweet! It's such a yummy winter's treat!|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=4118316136640630(Voice:flee)
+  |DATA|RNAM:Nord|SNAM:vo\n\m\bFle_NM004.mp3|NAME|SCVR:01650|INTV|BNAM:;scared
+
+[MOD-INF]: ID=6305191315298950(Journal:bm_moonsugar)
+  bloodmoon.esm----------------->|DATA|NAME:I questioned Jeleen at the Imperial Cult shrine.  A week ago, after drinking some wine, Jeleen began to feel the effects of moon sugar euphoria.  He claims that while in his drugged state, he saw a frail old man -- probably not a Nord -- wearing a white Colovian fur helm.  Jeleen can't fully trust his recollections, but he thinks he remembers the man singing a silly song...something about candy, and a workshop in the snow, with lanterns all aglow....
+  Grandfather Frost - TOTSP.ESP->|DATA|NAME:I questioned Jeleen at the Imperial Cult shrine. A week ago, after drinking some wine, Jeleen began to feel the effects of moon sugar euphoria. He claims that while in his drugged state, he saw a frail old man -- probably not a Nord -- wearing a red Colovian fur helm. Jeleen can't fully trust his recollections, but he thinks he remembers the man singing a silly song...something about candy, and a workshop in the snow, with lanterns all aglow....
+
+[MOD-INF]: ID=7411331227176995(Journal:bm_moonsugar)
+  bloodmoon.esm----------------->|DATA|NAME:I have agreed to help Severia Gratius discover the identity of the moon sugar poisoner and bring him to justice.  One of the victims -- the Imperial Cult priest Jeleen -- glimpsed a man with a unique white Colovian fur helm leaving the scene of the crime.  I am to find and kill this man and bring Gratius the white helm as proof.  Before I leave Frostmoth I must question Jeleen in the Cult shrine.  He may have some more information.
+  Grandfather Frost - TOTSP.ESP->|DATA|NAME:I have agreed to help Severia Gratius discover the identity of the moon sugar poisoner and bring him to justice. One of the victims -- the Imperial Cult priest Jeleen -- glimpsed a man with a unique red Colovian fur helm leaving the scene of the crime. I am to find and kill this man and bring Gratius the red helm as proof. Before I leave Frostmoth I must question Jeleen in the Cult shrine. He may have some more information.|QSTR
+
+[DUP-INF]: ID=12642471941822938(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:vo\n\m\Atk_NM001.mp3|NAME:You will die where you stand!
+
+[MOD-INF]: ID=23441391834216957(Voice:idle)
+  bloodmoon.esm----------------->|DATA|ONAM:uncle sweetshare|SNAM:Vo\n\m\sweetshare01.mp3|NAME:He he! Ha ho! To the worskhop he will go!|SCVR:02sX3Random100|INTV:
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:uncle sweetshare|SNAM:Vo\n\m\sweetshare01.mp3|NAME:He he! Ha ho! To the workshop he will go!|SCVR:02sX3Random100|INTV:
+
+[DUP-INF]: ID=31458539645359856(Voice:idle)
+  |DATA|ONAM:Sabinus Oranius|SNAM:Vo\d\m\Idl_DM003.mp3|NAME:Sigh.|SCVR:0BLX0Raven Rock|INTV
+
+[MOD-INF]: ID=189067862279905461(Voice:hit)
+  morrowind.esm----------------->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hit_IM001.mp3|NAME:Uggh|SCVR:01073|INTV:K|SCVR:12sX3Random100|INTV:2
+  Grandfather Frost - TOTSP.ESP->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hit_IM001.mp3|NAME:Uggh!|SCVR:01073|INTV:K|SCVR:12sX3Random100|INTV:2
+
+[MOD-INF]: ID=256922811483319128(Greeting:greeting 1)
+  bloodmoon.esm----------------->|DATA|ONAM:severia gratius|NAME:%PCName, you've returned.  The fact that you're not carrying a white Colovian fur helm leads me to believe that the moon sugar poisoner is still at large.  Please hurry.  If one more person is victimized by this scoundrel, it could mean my job.  And that would make me most unhappy.|SCVR:04JX3BM_MoonSugar|INTV|SCVR:15IX0fur_colovian_helm_white|INTV:|SCVR:24JX4BM_MoonSugar|INTV:d|BNAM:Goodbye
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:severia gratius|NAME:%PCName, you've returned. The fact that you're not carrying a red Colovian fur helm leads me to believe that the moon sugar poisoner is still at large. Please hurry. If one more person is victimized by this scoundrel, it could mean my job. And that would make me most unhappy.|SCVR:04JX3BM_MoonSugar|INTV|SCVR:15IX0fur_colovian_helm_red|INTV:|SCVR:24JX4BM_MoonSugar|INTV:d|BNAM:Goodbye
+
+[DUP-INF]: ID=286181469480679397(Voice:intruder)
+  |DATA|RNAM:Nord|SNAM:Vo\n\m\Hlo_NM022.mp3|NAME:Get out of here, before you get hurt!
+
+[MOD-INF]: ID=299563659137321293(Greeting:greeting 1)
+  bloodmoon.esm----------------->|DATA|ONAM:uncle sweetshare|NAME:He he!  Ha ha!  Can it be?  A visitor in my workshop?  How can I help you, sweet %PCName?  I have candy treats to spare, if you come in search of happiness!  Oh, so you're here to ask me about the moon sugar investigation! I see, I see, he he he he he he!|SCVR:04JX3BM_MoonSugar|INTV|SCVR:14JX4BM_MoonSugar|INTV:F
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:uncle sweetshare|NAME:He he! Ha ha! Can it be? A visitor in my workshop? How can I help you, sweet %PCName? I have candy treats to spare, if you come in search of happiness! Oh, so you're here to ask me about the moon sugar investigation! I see, I see, he he he he he he!|SCVR:04JX3BM_MoonSugar|INTV|SCVR:14JX4BM_MoonSugar|INTV:F
+
+[DUP-INF]: ID=302631425188925509(Voice:hello)
+  |DATA|ONAM:uncle sweetshare|SNAM:Vo\n\m\sweetshare08.mp3|NAME:Candy, candy -- he makes so much! Uncle Sweetshare has a magic touch! So it's back to the workshop in the snow! With lovely lanterns all aglow! He he! Ha ho! He he he ha ha ho!
+
+[DUP-INF]: ID=312582241884899337(Voice:flee)
+  |DATA|RNAM:Nord|SNAM:vo\n\f\bFle_NF001.mp3|NAME:Help! Beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;scared
+
+[MOD-INF]: ID=403914234323723754(Topic:imperial matter)
+  bloodmoon.esm----------------->|DATA|ONAM:severia gratius|NAME:It's simple, really. I want you to kill the man responsible for the moon sugar poisonings. Jeleen, our Cult priest, was the most recent victim, and he actually caught a glimpse of the culprit. It was a man wearing, oddly enough, a unique white Colovian fur helm. Bring me this white helm, and I'll know the deed is done. Now, go speak with Jeleen at the Cult shrine here in Frostmoth before you depart. He may have some more information.|SCVR:01500|INTV|BNAM:Journal BM_MoonSugar 30  ModDisposition 10
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:severia gratius|NAME:It's simple, really. I want you to kill the man responsible for the moon sugar poisonings. Jeleen, our Cult priest, was the most recent victim, and he actually caught a glimpse of the culprit. It was a man wearing, oddly enough, a unique red Colovian fur helm. Bring me this red helm, and I'll know the deed is done. Now, go speak with Jeleen at the Cult shrine here in Frostmoth before you depart. He may have some more information.|SCVR:01500|INTV|BNAM:Journal BM_MoonSugar 30  ModDisposition 10
+
+[DUP-INF]: ID=519124701175217185(Voice:hello)
+  |DATA|ONAM:erich the unworthy|RNAM:Nord|SNAM:vo\n\m\bHlo_NM014.mp3|NAME:Well now, if you're not the comeliest lass I've ever laid eyes on. Come here, and let Big Erich keep you warm.|SCVR:01440|INTV:|BNAM:;this guy's a pig/ass-grabber (to a female)
+
+[MOD-INF]: ID=784622695589628482(Journal:bm_moonsugar)
+  bloodmoon.esm----------------->|DATA|NAME:I convinced Uncle Sweetshare to give me his white helm, which I shall turn into Severia Gratius at Fort Frostmoth as "proof" of his execution.  The madman promised me he'd stop slipping moon sugar into people's food and drink.  I can only hope he has wits enough to keep his word.
+  Grandfather Frost - TOTSP.ESP->|DATA|NAME:I convinced Grandfather Frost to give me his red helm, which I shall turn into Severia Gratius at Fort Frostmoth as "proof" of his execution. The madman promised me he'd stop slipping moon sugar into people's food and drink. I can only hope he has wits enough to keep his word.
+
+[MOD-INF]: ID=878012961581219033(Greeting:greeting 1)
+  bloodmoon.esm----------------->|DATA|ONAM:louis beauchamp|NAME:Oh...oh, of course.  I understand...understand completely...that is, you have my complete...total confidence.|SCVR:01500|INTV
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:louis beauchamp|NAME:Oh...oh, of course. I understand...understand completely...that is, you have my complete...total confidence.|SCVR:01500|INTV
+
+[MOD-INF]: ID=1202921943199208485(Journal:bm_moonsugar)
+  bloodmoon.esm----------------->|DATA|NAME:The white Colovian fur helm has been delivered to Severia Gratius as proof of the moon sugar poisoner's execution.  I have been well rewarded for my services.|QSTF
+  Grandfather Frost - TOTSP.ESP->|DATA|NAME:The red Colovian fur helm has been delivered to Severia Gratius as proof of the moon sugar poisoner's execution. I have been well rewarded for my services.|QSTF
+
+[DUP-INF]: ID=1369762292311520782(Voice:thief)
+  |DATA|RNAM:Nord|SNAM:vo\n\m\Thf_NM005.mp3|NAME:Stay where you are, thief!|BNAM:;Replace asset with dialog.
+
+[DUP-INF]: ID=1469922806310646057(Voice:intruder)
+  |DATA|RNAM:Nord|SNAM:Vo\n\f\Hlo_NF000e.mp3|NAME:Get out of here!
+
+[MOD-INF]: ID=1484423123291231819(Topic:moon sugar investigation)
+  bloodmoon.esm----------------->|DATA|ONAM:uncle sweetshare|NAME:That Severia Gratius is so grumpy!  Maybe I should visit her next!  Because that's what I do, %PCName!  I visit the sad and miserable and spread all the happiness I can! It is the way of Uncle Sweetshare, you see!  Now that Jeleen, there's a sad, sad boy.  His true love has disappeared, don't you know.  Very sad, very sad.  That's why I sang to him, %PCName!  He needed something extra, something special!  Sugar and a song!  It cures all!|SCVR:04JX3BM_MoonSugar|INTV
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:uncle sweetshare|NAME:That Severia Gratius is so grumpy! Maybe I should visit her next! Because that's what I do, %PCName! I visit the sad and miserable and spread all the happiness I can! It is the way of Uncle Sweetshare, you see! Now that Jeleen, there's a sad, sad boy. His true love has disappeared, don't you know. Very sad, very sad. That's why I sang to him, %PCName! He needed something extra, something special! Sugar and a song! It cures all!|SCVR:04JX3BM_MoonSugar|INTV|SCVR:14JX4BM_MoonSugar|INTV:F
+
+[MOD-INF]: ID=1501345822922628521(Greeting:greeting 1)
+  bloodmoon.esm----------------->|DATA|ONAM:severia gratius|NAME:%PCName!  Do my eyes deceive me, or is that a white Colovian fur helm?  Then the deed is done.  The moon sugar poisoner has been brought to justice.  Excellent work.  You have done a great service to me, the Legion, and the Empire itself.  Take this gold as payment for a job well done.  And I would also give you another reward, as a symbol of my personal thanks. This shortsword has served me well, and you'll find its enchantments will help rally others to your cause.|SCVR:04JX3BM_MoonSugar|INTV|SCVR:15IX0fur_colovian_helm_white|INTV|SCVR:21460|INTV|SCVR:34JX4BM_MoonSugar|INTV:d|BNAM:Journal BM_MoonSugar 100  ModDisposition 10  ModPCFacRep 5 "Imperial Legion"  additem "fur_colovian_helm_white" 1  player->removeitem "fur_colovian_helm_white" 1  removeitem "imperial shortsword severio" 1  player->additem "imperial shortsword severio" 1  player->additem "gold_001" 1500
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:severia gratius|NAME:%PCName! Do my eyes deceive me, or is that a red Colovian fur helm? Then the deed is done. The moon sugar poisoner has been brought to justice. Excellent work. You have done a great service to me, the Legion, and the Empire itself. Take this gold as payment for a job well done. And I would also give you another reward, as a symbol of my personal thanks. This shortsword has served me well, and you'll find its enchantments will help rally others to your cause.|SCVR:04JX3BM_MoonSugar|INTV|SCVR:15IX3fur_colovian_helm_red|INTV|SCVR:21460|INTV|SCVR:34JX4BM_MoonSugar|INTV:d|BNAM:Journal BM_MoonSugar 100  ModDisposition 10  ModPCFacRep 5 "Imperial Legion"  additem "fur_colovian_helm_red" 1  player->removeitem "fur_colovian_helm_red" 1  removeitem "imperial shortsword severio" 1  player->additem "imperial shortsword severio" 1  player->additem "gold_001" 1500
+
+[MOD-INF]: ID=1690193581709411949(Greeting:greeting 1)
+  bloodmoon.esm----------------->|DATA|ONAM:uncle sweetshare|NAME:Ha ha!  What's this?  Why it's little %PCName, come to pay Uncle Sweetshare a visit!  I've been a good boy, %PCName!  I promise!  He he he he he!|SCVR:04JX3BM_MoonSugar|INTV:F
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:uncle sweetshare|NAME:Ha ha! What's this? Why it's little %PCName, come to pay Uncle Sweetshare a visit! I've been a good boy, %PCName! I promise! He he he he he!|SCVR:04JX3BM_MoonSugar|INTV:F
+
+[DUP-INF]: ID=1723313597138418081(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\i\m\Atk_IM009.mp3|NAME:Die, scoundrel!|SCVR:02sX3Random100|INTV:Z
+
+[DUP-INF]: ID=1893030097520728113(Voice:hit)
+  |DATA|RNAM:Nord|SNAM:vo\n\m\Hit_NM001.mp3|NAME:Arrgh.|SCVR:01043|INTV:2
+
+[MOD-INF]: ID=2003897792670714558(Greeting:greeting 1)
+  bloodmoon.esm----------------->|DATA|ONAM:severia gratius|NAME:%PCName!  Do my eyes deceive me, or is that a white Colovian fur helm?  Then the deed is done.  The moon sugar poisoner has been brought to justice.  Excellent work.  The Imperial Legion will not forget you, or your assistance.  Here, please take this gold as a symbol of our thanks.|SCVR:04JX3BM_MoonSugar|INTV|SCVR:15IX0fur_colovian_helm_white|INTV|SCVR:21460|INTV:|SCVR:34JX4BM_MoonSugar|INTV:d|BNAM:Journal BM_MoonSugar 100  ModDisposition 10  ModPCFacRep 5 "Imperial Legion"  additem "fur_colovian_helm_white" 1  player->removeitem "fur_colovian_helm_white" 1  player->additem "gold_001" 1500
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:severia gratius|NAME:%PCName! Do my eyes deceive me, or is that a red Colovian fur helm? Then the deed is done. The moon sugar poisoner has been brought to justice. Excellent work. The Imperial Legion will not forget you, or your assistance. Here, please take this gold as a symbol of our thanks.|SCVR:04JX3BM_MoonSugar|INTV|SCVR:15IX3fur_colovian_helm_red|INTV|SCVR:21460|INTV:|SCVR:34JX4BM_MoonSugar|INTV:d|BNAM:Journal BM_MoonSugar 100  ModDisposition 10  ModPCFacRep 5 "Imperial Legion"  additem "fur_colovian_helm_red" 1  player->removeitem "fur_colovian_helm_red" 1  player->additem "gold_001" 1500
+
+[MOD-INF]: ID=2667220210291301738(Topic:imperial matter)
+  bloodmoon.esm----------------->|DATA|ONAM:severia gratius|NAME:Excellent. You are a credit to the Imperial Legion, %PCName. I hereby order you to kill the man responsible for the moon sugar poisonings. Jeleen, our Cult priest, was the most recent victim, and he actually caught a glimpse of the culprit. It was a man wearing, oddly enough, a unique white Colovian fur helm. Bring me this white helm, and I'll know justice has been served. Be sure to question Jeleen at the Cult shrine before you depart. He may have some more information.|SCVR:01500|INTV|BNAM:Journal BM_MoonSugar 30  ModDisposition 10  ModPCFacRep 5 "Imperial Legion"
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:severia gratius|NAME:Excellent. You are a credit to the Imperial Legion, %PCName. I hereby order you to kill the man responsible for the moon sugar poisonings. Jeleen, our Cult priest, was the most recent victim, and he actually caught a glimpse of the culprit. It was a man wearing, oddly enough, a unique red Colovian fur helm. Bring me this red helm, and I'll know justice has been served. Be sure to question Jeleen at the Cult shrine before you depart. He may have some more information.|SCVR:01500|INTV|BNAM:Journal BM_MoonSugar 30  ModDisposition 10  ModPCFacRep 5 "Imperial Legion"
+
+[DUP-INF]: ID=2968517341260345072(Voice:thief)
+  |DATA|RNAM:Imperial|SNAM:Vo\i\m\Thf_IM001.mp3|NAME:Help! Guards! A thief!|SCVR:02sX3Random100|INTV|INTV
+
+[MOD-INF]: ID=3606205341628112906(Topic:moon sugar investigation)
+  bloodmoon.esm----------------->|DATA|ONAM:jeleen|NAME:Yes, I too was stricken with moon sugar euphoria.  It was just last week, after a Cult service.  I sat down to some wine, and moments later realized something was wrong.  I am a law-biding man, %PCName, and have never experienced anything so...free, in all my life!  The laughing, the dancing...it was horrible!  And then, as I drifted off, I saw him.  A strange man...old and frail -- certainly no Nord -- wearing a white Colovian fur helm.  But even stranger was his silly song.|SCVR:04JX3BM_MoonSugar|INTV:
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:jeleen|NAME:Yes, I too was stricken with moon sugar euphoria. It was just last week, after a Cult service. I sat down to some wine, and moments later realized something was wrong. I am a law-abiding man, %PCName, and have never experienced anything so...free, in all my life! The laughing, the dancing...it was horrible! And then, as I drifted off, I saw him. A strange man...old and frail -- certainly no Nord -- wearing a red Colovian fur helm. But even stranger was his silly song.|SCVR:04JX3BM_MoonSugar|INTV:
+
+[DUP-INF]: ID=4724157961015618142(Voice:hit)
+  |DATA|RNAM:Nord|SNAM:Vo\n\f\Flw_NF002.mp3|NAME:Please! Be careful!|SCVR:01660|INTV
+
+[MOD-INF]: ID=4765168922094917297(Greeting:greeting 1)
+  bloodmoon.esm----------------->|DATA|ONAM:uncle sweetshare|NAME:He he!  Ha ha!  Can it be?  A visitor in my workshop?  How can I help you, sweet %PCName?  I have candy treats to spare, if you come in search of happiness!|SCVR:04JX3BM_MoonSugar|INTV:|SCVR:14JX4BM_MoonSugar|INTV
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:uncle sweetshare|NAME:He he! Ha ha! Can it be? A visitor in my workshop? How can I help you, sweet %PCName? I have candy treats to spare, if you come in search of happiness!|SCVR:04JX3BM_MoonSugar|INTV:|SCVR:14JX4BM_MoonSugar|INTV
+
+[MOD-INF]: ID=4801226782722811515(Greeting:greeting 1)
+  bloodmoon.esm----------------->|DATA|ONAM:ulfgar_ghost|NAME:%PCName!  You did it!  By helping me die valiantly you showed my soul the way to Sovngarde!  My friends -- Hunroor, Erlendr, and Nikulas -- have been waiting for me.  I told them of your willingness to help me, and recounted our glorious battle!  The four of us wish to give you a reward fitting of such a warrior.  So, we give you a piece of ourselves.  Lay your hands on a stone, and you will receive that warrior's greatest attribute!  Now farewell, my friend!  Sovngarde awaits!|SCVR:04JX3BM_BrodirGrove|INTV:|SCVR:11620|INTV:|BNAM:Goodbye  Journal BM_BrodirGrove 100
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:ulfgar_ghost|NAME:%PCName! You did it! By helping me die valiantly you showed my soul the way to Sovngarde! My friends -- Hunroor, Erlendr, and Nikulas -- have been waiting for me. I told them of your willingness to help me, and recounted our glorious battle! The four of us wish to give you a reward fitting of such a warrior. So, we give you a piece of ourselves. Lay your hands on a stone, and you will receive that warrior's greatest attribute! Now farewell, my friend! Sovngarde awaits!|SCVR:04JX3BM_BrodirGrove|INTV:|SCVR:11620|INTV:|BNAM:Goodbye  Journal BM_BrodirGrove 100
+
+[MOD-INF]: ID=4874121011997725324(Topic:imperial matter)
+  bloodmoon.esm----------------->|DATA|ONAM:severia gratius|NAME:If it were just the locals the Empire couldn't be bothered. But now one of our own has been affected! Last week our Cult priest was stricken with moon sugar euphoria after drinking some wine. I don't have the manpower to deal with this problem, but my superiors are getting impatient. He wants the culprit dead. I know you're not a member of the Imperial Legion, but I'd like to hire you to help in the investigation. I'll make it worth your while. Are you interested?|SCVR:04JX3BM_MoonSugar|INTV:|SCVR:11460|INTV:|SCVR:24JX4BM_MoonSugar|INTV|BNAM:Choice "I'll help you Severia.  Just tell me what you need done." 1 "No thanks, Severia.  This is an Imperial matter, and I've got other business to attend to." 2
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:severia gratius|NAME:If it were just the locals the Empire couldn't be bothered. But now one of our own has been affected! Last week our Cult priest was stricken with moon sugar euphoria after drinking some wine. I don't have the manpower to deal with this problem, but my superiors are getting impatient. They want the culprit dead. I know you're not a member of the Imperial Legion, but I'd like to hire you to help in the investigation. I'll make it worth your while. Are you interested?|SCVR:04JX3BM_MoonSugar|INTV:|SCVR:11460|INTV:|SCVR:24JX4BM_MoonSugar|INTV|BNAM:Choice "I'll help you Severia. Just tell me what you need done." 1 "No thanks, Severia. This is an Imperial matter, and I've got other business to attend to." 2
+
+[DUP-INF]: ID=7269179691542925400(Voice:hit)
+  |DATA|RNAM:Nord|SNAM:Vo\n\m\Hit_NM009.mp3|NAME:Arrgh!|SCVR:01660|INTV
+
+[MOD-INF]: ID=9505254441176519208(Journal:bm_moonsugar)
+  bloodmoon.esm----------------->|DATA|NAME:Uncle Sweetshare is dead by my hand.  I must return his white Colovian fur helm to Severia Gratius at Fort Frostmoth as proof of the deed, and collect my reward.
+  Grandfather Frost - TOTSP.ESP->|DATA|NAME:Grandfather Frost is dead by my hand. I must return his red Colovian fur helm to Severia Gratius at Fort Frostmoth as proof of the deed, and collect my reward.
+
+[MOD-INF]: ID=9518170782178310157(Topic:candy treats)
+  bloodmoon.esm----------------->|DATA|ONAM:uncle sweetshare|NAME:My candy treats are tasty, they are!  And filled with special sugar and love!  They bring happiness!  Happiness to everyone on Solstheim!  That's what I do, you see!  I give out my special sugary treats and spread happiness throughout the land!  It's difficult work, but oh so very rewarding!  M'nashi certainly thought so.  Ahh, M'nashi, the dear lad....|SCVR:04JX3BM_MoonSugar|INTV:
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:uncle sweetshare|NAME:My candy treats are tasty, they are! And filled with special sugar and love! They bring happiness! Happiness to everyone on Solstheim! That's what I do, you see! I give out my special sugary treats and spread happiness throughout the land! It's difficult work, but oh so very rewarding! M'nashi certainly thought so. Ahh, M'nashi, the dear lad....|SCVR:04JX3BM_MoonSugar|INTV:|SCVR:14JX4BM_MoonSugar|INTV:F
+
+[MOD-INF]: ID=9846253443139022055(Journal:bm_moonsugar)
+  bloodmoon.esm----------------->|DATA|NAME:I met an odd old man living in a small workshop, out in the wilderness of Solstheim. Inspired by a child's silly song, he took on the role of Uncle Sweetshare, the legendary giver of candy and spreader of cheer. He even wears a white helmet. What's most disturbing is that this particular Uncle Sweetshare has been spreading his unique brand of happiness by secretly giving people moon sugar. It's obvious this madman is the culprit Severia Gratius hired me to kill.
+  Grandfather Frost - TOTSP.ESP->|DATA|NAME:I met an odd old man living in a small workshop, out in the wilderness of Solstheim. Inspired by a child's silly song, he took on the role of Grandfather Frost, the legendary giver of candy and spreader of cheer. He even wears a red helmet. What's most disturbing is that this particular Grandfather Frost has been spreading his unique brand of happiness by secretly giving people moon sugar. It's obvious this madman is the culprit Severia Gratius hired me to kill.
+
+[DUP-INF]: ID=10912114473016021204(Voice:attack)
+  |DATA|RNAM:Nord|ANAM:Skaal Village|SNAM:vo\n\f\bAtk_NF001.mp3|NAME:Taste my silver, foul beast!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=19380275812993826049(Voice:flee)
+  |DATA|RNAM:Imperial|SNAM:Vo\i\m\Fle_IM004.mp3|NAME:Help, guards!|SCVR:02sX3Random100|INTV:P
+
+[MOD-INF]: ID=25099315882327911743(Voice:idle)
+  bloodmoon.esm----------------->|DATA|ONAM:falx carius|SNAM:Vo\i\m\Idl_IM009.mp3|NAME:Clears throat.
+  Grandfather Frost - TOTSP.ESP->|DATA|ONAM:falx carius|SNAM:Vo\i\m\Idl_IM009.mp3|NAME:[Clears throat.]
+
+[DUP-INF]: ID=29811112651698720994(Voice:flee)
+  |DATA|RNAM:Nord|SNAM:vo\n\m\Fle_NM005.mp3|NAME:End your fight, I'm leaving.|BNAM:;Random100>=80
+
+[DUP-INF]: ID=31410144532747825765(Voice:attack)
+  |DATA|RNAM:Nord|SNAM:vo\n\m\bAtk_NM009.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip

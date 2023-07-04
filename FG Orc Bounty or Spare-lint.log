@@ -1,0 +1,66 @@
+FG Orc Bounty or Spare.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DuraDeathScriptX01)
+	SCPT(DuraResetScript)
+	SCPT(DurasOrcMasterHouseofDelights)
+	SCPT(DurasOrcMasterSlaveMarket)
+	SCPT(FG_Chase_Dura_ForceGreet)
+	SCPT(FG_Chase_Dura_Percius)
+	SCPT(Valenvaryon_Orcs_Friendly)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dura gra-bol
+	morrowind.esm       NPC_    dura gra-bol
+	tribunal.esm        DIAL    fg_orcbounty
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=22810386257729208(Topic:dura gra-bol)
+  morrowind.esm-------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:This Orc is an outlaw, living openly in a house here in Balmora. I have a contract here that says 250 septims are yours if you bring her to justice.|BNAM:Journal FG_OrcBounty 10
+  FG Orc Bounty or Spare.ESP->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:You say Dura bra-Bol is nowhere to be found in the city? Well seems like she's goner for a good. Let me know if you happen to come across her.|SCVR:04JX0FG_OrcBounty|INTV|SCVR:16DX1dura gra-bol|INTV
+
+[MOD-INF]: ID=56015168105932404(Topic:dura gra-bol)
+  morrowind.esm-------------->|DATA|ONAM:dura gra-bol|NAME:Yeah, what? You're wasting my time.
+  FG Orc Bounty or Spare.ESP->|DATA|ONAM:dura gra-bol|NAME:Yeah, what? You're wasting my time.|SCVR:04JX4FG_OrcBounty|INTV: 
+
+[DUP-INF]: ID=65271633229816656(Journal:fg_orcbounty)
+  |DATA|NAME:Eydis Fire-Eye told me she has a 250 gold bounty on the Orc Dura gra-Bol who lives in Balmora.
+
+[MOD-INF]: ID=173965674313098995(Topic:dura gra-bol)
+  morrowind.esm-------------->|DATA|ANAM:Balmora|NAME:He lives in town somewhere. Look around, you lazy fetcher.|SCVR:0CsX0nolore|INTV:
+  FG Orc Bounty or Spare.ESP->|DATA|ANAM:Balmora|NAME:He lives in town somewhere. Look around, you lazy fetcher.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX5FG_OrcBounty|INTV: 
+
+[MOD-INF]: ID=622229347284449845(Topic:dura gra-bol)
+  morrowind.esm-------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:It seems straightforward to me. Dura gra-Bol really is wanted for murder.
+  FG Orc Bounty or Spare.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:It seems straightforward to me. Dura gra-Bol really is wanted for murder.|SCVR:04JX0FG_OrcBounty|INTV: 
+
+[MOD-INF]: ID=707086312421931867(Topic:dura gra-bol)
+  morrowind.esm-------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You've already killed Dura gra-Bol. If you have questions about any other contract, ask them.|SCVR:56DX3dura gra-bol|INTV
+  FG Orc Bounty or Spare.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You've already killed Dura gra-Bol. If you have questions about any other contract, ask them.|SCVR:44JX4FG_OrcBounty_Dura_Rep|INTV|SCVR:56DX3dura gra-bol|INTV|BNAM:Player->ModReputation 1  Journal FG_OrcBounty_Dura_Rep 1
+
+[MOD-INF]: ID=1052313156405920656(Greeting:greeting 5)
+  morrowind.esm-------------->|DATA|ONAM:eydis fire-eye|NAME:Give me the status on Dura gra-Bol. Surely you haven't botched up this mission, have you?|SCVR:04JX3FG_OrcBounty|INTV: |SCVR:14JX4FG_OrcBounty|INTV:d
+  FG Orc Bounty or Spare.ESP->|DATA|ONAM:eydis fire-eye|NAME:Give me the status on Dura gra-Bol. Surely you haven't botched up this mission, have you?|SCVR:04JX3FG_OrcBounty|INTV: |SCVR:14JX4FG_OrcBounty|INTV
+
+[MOD-INF]: ID=1315817146980114093(Topic:dura gra-bol)
+  morrowind.esm-------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I heard that Dura gra-Bol is dead. Here's your 250 septims.|SCVR:34JX3FG_OrcBounty|INTV: |SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  FG Orc Bounty or Spare.ESP->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I heard that Dura gra-Bol is dead. Here's your 250 septims.|SCVR:34JX3FG_OrcBounty|INTV:(|SCVR:44JX5FG_OrcBounty|INTV:.|SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+
+[DUP-INF]: ID=1935516433253969429(Journal:fg_orcbounty)
+  |DATA|NAME:Eydis Fire-Eye paid me 250 gold for the contract on Dura gra-Bol.|QSTF
+
+[MOD-INF]: ID=18053319961634615767(Topic:dura gra-bol)
+  morrowind.esm-------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I don't have any more bounty contracts right now.|SCVR:34JX3FG_OrcBounty|INTV:d
+  FG Orc Bounty or Spare.ESP->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I don't have any more bounty contracts right now.|SCVR:04JX1FG_OrcBounty|INTV|SCVR:14JX1FG_OrcBounty|INTV|SCVR:24JX1FG_OrcBounty|INTV|SCVR:34JX1FG_OrcBounty|INTV|SCVR:44JX1FG_OrcBounty|INTV|SCVR:54JX3FG_OrcBounty|INTV:d
+
+[DUP-INF]: ID=21101133601380211667(Greeting:greeting 5)
+  |DATA|ONAM:general darius|NAME:Report on the land deed.|SCVR:04JX2IL_WidowLand|INTV:|SCVR:14JX4IL_WidowLand|INTV:d
+
+[DUP-INF]: ID=21692255892270030225(Journal:fg_orcbounty)
+  |DATA|NAME:Fighters Guild: Gra-Bol's Bounty|QSTN
+
+[DUP-INF]: ID=26042105572811029665(Topic:dura gra-bol)
+  |DATA|ONAM:eydis fire-eye|NAME:You've been expelled from the Fighters Guild. Until you make amends, I cannot discuss contracts with you.|SCVR:01390|INTV
+
+[MOD-INF]: ID=26697146411173217957(Topic:dura gra-bol)
+  morrowind.esm-------------->|DATA|ANAM:Balmora|NAME:I think he lives by the river, on the east side of town.|SCVR:0CsX0nolore|INTV:
+  FG Orc Bounty or Spare.ESP->|DATA|ANAM:Balmora|NAME:I think he lives by the river, on the east side of town.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX5FG_OrcBounty|INTV: 

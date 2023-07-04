@@ -1,0 +1,249 @@
+Building Up Uvirith's Legacy1.1.ESP: AUTOSPL DUP-INF DUP-REC EXP-DEP GETSND JUNKCEL MENUMOD MISSVER MOD-INF OVR-REC SCRDOOR
+    [AUTOSPL] Auto-calced Spells:
+	uvi_way of the nerevarine      Way of the Nerevarine
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(UvirithFore_1bed)               setdelete
+	SCPT(UvirithFore_1only)              setdelete
+	SCPT(UvirithJail_NPC)                placeitemcell
+	SCPT(UvirithTwin_Bandit)             setdelete
+	SCPT(uvi_camp_game_bedroll)          setdelete
+	SCPT(uvi_camp_game_cauldron)         setdelete
+	SCPT(uvi_camp_game_fire)             setdelete
+	SCPT(uvi_camp_game_gear)             setdelete
+	SCPT(uvi_camp_game_guarskin)         setdelete
+	SCPT(uvi_camp_game_stool)            setdelete
+	SCPT(uvi_camp_game_table)            setdelete
+	SCPT(uvi_camp_game_tent)             setdelete
+	SCPT(uvi_camp_legal)                 getwaterlevel
+	SCPT(uvi_camp_place_bedroll)         setdelete
+	SCPT(uvi_camp_place_cauldron)        setdelete
+	SCPT(uvi_camp_place_fire)            setdelete
+	SCPT(uvi_camp_place_gear)            setdelete
+	SCPT(uvi_camp_place_guarskin)        setdelete
+	SCPT(uvi_camp_place_stool)           setdelete
+	SCPT(uvi_camp_place_table)           setdelete
+	SCPT(uvi_camp_place_tent)            setdelete
+	SCPT(uvi_camp_steal)                 setdelete
+	SCPT(uvi_robot_scr)                  getsquareroot
+	SCPT(uvi_slaveabolition)             placeitemcell
+	SCPT(uvi_slavehunter)                setdelete
+	SCPT(uvi_slaverescue)                getsquareroot
+	SCPT(uvi_slaverescue)                setdelete
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(uvi_azcd_dummy)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(UvirithAlch_Main)
+	SCPT(UvirithAlch_OFF)
+	SCPT(UvirithAlch_ON)
+	SCPT(UvirithCultOFF_scr)
+	SCPT(UvirithCult_1_only)
+	SCPT(UvirithCult_2)
+	SCPT(UvirithCult_Main)
+	SCPT(UvirithE_1)
+	SCPT(UvirithE_2)
+	SCPT(UvirithE_3)
+	SCPT(UvirithE_5)
+	SCPT(UvirithE_Door_Basic)
+	SCPT(UvirithE_Door_Mine)
+	SCPT(UvirithE_Door_Slave)
+	SCPT(UvirithE_Guard)
+	SCPT(UvirithE_Main)
+	SCPT(UvirithE_MineA)
+	SCPT(UvirithE_MineO)
+	SCPT(UvirithE_Miners)
+	SCPT(UvirithE_OverseerA)
+	SCPT(UvirithE_OverseerO)
+	SCPT(UvirithE_Profit_scr)
+	SCPT(UvirithE_Slaves)
+	SCPT(UvirithEddieStrider2k)
+	SCPT(UvirithEddieStrider3k)
+	SCPT(UvirithFence_1)
+	SCPT(UvirithFence_2)
+	SCPT(UvirithFence_3)
+	SCPT(UvirithFence_4)
+	SCPT(UvirithFence_4_Guard)
+	SCPT(UvirithFence_Main)
+	SCPT(UvirithFight_Main)
+	SCPT(UvirithFight_scr)
+	SCPT(UvirithForeWait)
+	SCPT(UvirithFore_2only)
+	SCPT(UvirithFore_Main)
+	SCPT(UvirithInn_1)
+	SCPT(UvirithInn_2)
+	SCPT(UvirithInn_3)
+	SCPT(UvirithInn_4)
+	SCPT(UvirithInn_Main)
+	SCPT(UvirithJail_1)
+	SCPT(UvirithJail_Main)
+	SCPT(UvirithJail_NPC)
+	SCPT(UvirithLegion_1_2)
+	SCPT(UvirithLegion_1_OFF)
+	SCPT(UvirithLegion_2_only)
+	SCPT(UvirithLegion_3)
+	SCPT(UvirithLegion_3_OFF)
+	SCPT(UvirithLegion_Main)
+	SCPT(UvirithMTong_Main)
+	SCPT(UvirithMTong_scr)
+	SCPT(UvirithMage_Alch)
+	SCPT(UvirithMage_Main)
+	SCPT(UvirithMage_scr)
+	SCPT(UvirithNW_1)
+	SCPT(UvirithNW_2)
+	SCPT(UvirithNW_3)
+	SCPT(UvirithNW_4)
+	SCPT(UvirithNW_4_Guard)
+	SCPT(UvirithNW_Mage_scr)
+	SCPT(UvirithNW_Main)
+	SCPT(UvirithN_1)
+	SCPT(UvirithN_2)
+	SCPT(UvirithN_3)
+	SCPT(UvirithN_4)
+	SCPT(UvirithN_4_Guard)
+	SCPT(UvirithN_Main)
+	SCPT(UvirithSE_1)
+	SCPT(UvirithSE_2)
+	SCPT(UvirithSE_3)
+	SCPT(UvirithSE_4)
+	SCPT(UvirithSE_4_Guard)
+	SCPT(UvirithSE_Edd)
+	SCPT(UvirithSE_Main)
+	SCPT(UvirithSW_1)
+	SCPT(UvirithSW_2)
+	SCPT(UvirithSW_3)
+	SCPT(UvirithSW_4)
+	SCPT(UvirithSW_4_Guard)
+	SCPT(UvirithSW_Main)
+	SCPT(UvirithTemple_2)
+	SCPT(UvirithTemple_Main)
+	SCPT(UvirithThief_Main)
+	SCPT(UvirithThief_scr)
+	SCPT(UvirithThro_Main)
+	SCPT(UvirithThro_OFF)
+	SCPT(UvirithThro_Ring)
+	SCPT(UvirithTinker_1)
+	SCPT(UvirithTinker_2)
+	SCPT(UvirithTinker_3)
+	SCPT(UvirithTinker_Main)
+	SCPT(UvirithTower_Portal)
+	SCPT(UvirithTower_Vamp)
+	SCPT(UvirithTwin_Bandit)
+	SCPT(UvirithTwin_NPC)
+	SCPT(UvirithW_1)
+	SCPT(UvirithW_2)
+	SCPT(UvirithW_3)
+	SCPT(UvirithW_4)
+	SCPT(UvirithW_4_Guard)
+	SCPT(UvirithW_Fight_scr)
+	SCPT(UvirithW_Main)
+	SCPT(uvi_Alch_Pots)
+	SCPT(uvi_Alch_Pots_B)
+	SCPT(uvi_Alch_Pots_SA)
+	SCPT(uvi_Alch_Pots_T)
+	SCPT(uvi_SorterB_scr)
+	SCPT(uvi_SorterSA_scr)
+	SCPT(uvi_SorterT_scr)
+	SCPT(uvi_camp_dropItems)
+	SCPT(uvi_camp_legal)
+	SCPT(uvi_robot_cent1)
+	SCPT(uvi_robot_cent2)
+	SCPT(uvi_robot_steam)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	ex_t_door_01_pc_hold_a               Strong2_Complete
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    ex_t_door_01_pc_hold_a
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    amulet of unity
+	morrowind.esm       DIAL    centurion sphere
+	morrowind.esm       DIAL    centurion spider
+	morrowind.esm       DIAL    dwemer
+	morrowind.esm       DIAL    dwemer animunculi
+	morrowind.esm       DIAL    dwemer centurions
+	morrowind.esm       DIAL    fast eddie
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    mouth
+	morrowind.esm       DIAL    price on your head
+	morrowind.esm       DIAL    ring of equity
+	morrowind.esm       DIAL    scrap metal
+	morrowind.esm       DIAL    steam centurion
+	morrowind.esm       NPC_    edd theman
+	morrowind.esm       PGRD    tel uvirith, tower dungeon
+	morrowind.esm       PGRD    tel uvirith, tower lower
+	morrowind.esm       PGRD    tel uvirith, tower upper
+	morrowind.esm       PGRD    uvirith's grave
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    chores
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+
+[MOD-INF]: ID=15740996644818361(Greeting:greeting 5)
+  morrowind.esm----------------------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:What can I do for you, %PCRank?|SCVR:07XX0huleeya|INTV
+  Building Up Uvirith's Legacy1.1.ESP->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:What can I do for you, %PCRank?|SCVR:07XX0huleeya|INTV|SCVR:17XX0uvi_Ruen Varyon|INTV
+
+[MOD-INF]: ID=102331229339013782(Topic:chores)
+  morrowind.esm----------------------->|DATA|ONAM:edd theman|DNAM:Telvanni|NAME:Of course I'll do a chore for my patron. Tell you what, I know where Master Neloth keeps a hidden Ring of Equity.
+  Building Up Uvirith's Legacy1.1.ESP->|DATA|ONAM:edd theman|ANAM:Sadrith Mora, Telvanni Council House|DNAM:Telvanni|NAME:Of course I'll do a chore for my patron. Tell you what, I know where Master Neloth keeps a hidden Ring of Equity.
+
+[DUP-INF]: ID=190592792723126084(Greeting:greeting 1)
+  |DATA|ONAM:Furius Acilius|NAME:What are you doing here? Those bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay. And you will tell no one!|BNAM:SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=206262335923150218(Topic:scrap metal)
+  |DATA|ONAM:aengoth|NAME:You've been kicked out of the Guild, %PCName. Better make amends, or no one's going to talk to you.|SCVR:01390|INTV
+
+[DUP-INF]: ID=325090462800532331(Topic:steam centurion)
+  |DATA|ONAM:galar rothan|NAME
+
+[DUP-INF]: ID=749914731240121175(Topic:specific place)
+  |DATA|ONAM:elone|NAME:Pelagiad is the next town up the road. Cross the bridge out of town and just stay on the road. From Pelagiad, take the road north to Balmora and Caldera, or east to Ebonheart and Vivec. If you have the cash, and are in a hurry, or afraid of getting lost, take the silt strider to Balmora or Vivec. Speak to Darvame Hleran at the silt strider landing, across the bridge and south along the shore. And if you plan to travel widely, get a copy of 'Guide to Vvardenfell' from Arrille. It's got maps.
+
+[DUP-INF]: ID=751025940116908875(Topic:centurion spider)
+  |DATA|ONAM:galar rothan|NAME
+
+[MOD-INF]: ID=1453848881103620534(Topic:my trade)
+  morrowind.esm----------------------->|DATA|ONAM:gashnakh gra-mughol|NAME:I'm the foreman here at Tel Uvirith. I keep the workers in line and make sure the job gets done, though these mushrooms just about grow themselves.
+  Building Up Uvirith's Legacy1.1.ESP->|DATA|ONAM:gashnakh gra-mughol|NAME:I'm the foreman here at Tel Uvirith. I keep the work in line and make sure the job gets done, though these mushrooms just about grow themselves.
+
+[DUP-INF]: ID=1521030226124001597(Topic:centurion sphere)
+  |DATA|ONAM:galar rothan|NAME
+
+[DUP-INF]: ID=1958550751691917436(Topic:dwemer)
+  |DATA|ONAM:hasphat antabolis|NAME:The Dwemer are the fabled lost Dwarven race whose ruins and splendid artifacts are scattered across Tamriel. Elves use the term "Dwemer," connoting variously "deep-delving," "profound," and "close-counseled"; Imperial usage is "Dwarven," derived in fable from the affectionate regard of the Giant races for their "little" Dwemer friends. There are several Dwemer sites on Vvardenfell, and many have found Dwemer artifacts.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[MOD-INF]: ID=2940217169699622357(Topic:chores)
+  morrowind.esm----------------------->|DATA|ONAM:edd theman|DNAM:Telvanni|NAME:Sure. I know where the Amulet of Unity is.|SCVR:34JX3HT_EddieRing|INTV:d
+  Building Up Uvirith's Legacy1.1.ESP->|DATA|ONAM:edd theman|ANAM:Sadrith Mora, Telvanni Council House|DNAM:Telvanni|NAME:Sure. I know where the Amulet of Unity is.|SCVR:34JX3HT_EddieRing|INTV:d
+
+[DUP-INF]: ID=2963712435680719868(Topic:someone in particular)
+  |DATA|ONAM:tsiya|NAME:What do you mean you're looking for me? I don't know you, do I? You say you have a note from Ernil?|SCVR:05IX2bk_notefromernil|INTV:|SCVR:14JX4MV_SkoomaCorpse|INTV: |BNAM:AddTopic "Note From Ernil"
+
+[DUP-INF]: ID=5249272462913321422(Topic:dwemer centurions)
+  |DATA|ONAM:galar rothan|NAME
+
+[DUP-INF]: ID=14311186513004232144(Topic:dwemer animunculi)
+  |DATA|ONAM:llunela hleran|NAME:You have brought me the book, %PCName. I hope your stronghold is satisfactory.|SCVR:34JX3HT_Stronghold|INTV

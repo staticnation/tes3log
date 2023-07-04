@@ -1,0 +1,119 @@
+Clean Main Quest Overhaul 1.3.ESP: DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Balmora_Seat of power.esm     716341 (plugin)     713991 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(All_Hortator)
+	SCPT(WhateverScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    my story
+	morrowind.esm       DIAL    discuss
+	morrowind.esm       DIAL    errand
+	morrowind.esm       DIAL    essential supplies
+	morrowind.esm       DIAL    initiation rite
+	morrowind.esm       DIAL    nerevarine prophecies
+	morrowind.esm       DIAL    personal vengeance
+	morrowind.esm       DIAL    report to caius cosades
+	morrowind.esm       DIAL    third trial
+	morrowind.esm       DIAL    work
+	morrowind.esm       FACT    nerevarine
+	morrowind.esm       NPC_    assallit assunbahanammu
+	morrowind.esm       NPC_    tubilalk mirathrernenum
+	morrowind.esm       NPC_    yan-ahhe darirnaddunumm
+	morrowind.esm       PGRD    balmora, caius cosades' house
+	tribunal.esm        DIAL    a1_1_findspymaster
+	tribunal.esm        DIAL    a2_1_meetsulmatuul
+	tribunal.esm        DIAL    a2_1_supplies
+	tribunal.esm        DIAL    a2_1_supplies2
+	tribunal.esm        DIAL    a2_2_6thhouse
+	tribunal.esm        DIAL    a2_3_corpruscure
+	tribunal.esm        DIAL    a2_4_milogone
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=908715013644074(Journal:a2_3_corpruscure)
+  morrowind.esm--------------------->|DATA|NAME:I gave Divayth Fyr the Dwemer artifact the Spymaster gave me. It seems to have made a good impression on him.
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|NAME:I gave Divayth Fyr the Dwemer artifact I received. It seems to have made a good impression on him.
+
+[MOD-INF]: ID=4282199852086467(Journal:a2_2_6thhouse)
+  tribunal.esm---------------------->|DATA|NAME:I have killed Dagoth Gares, as the Spymaster ordered. But with his dying breath, Dagoth Gares pronounced a curse on me, and now I have the corprus disease. He said I would come to Dagoth Ur ' in his flesh, and of his flesh'. I don't feel any different, but the marks of the disease are plain on my face. I'll have to return and report to the Spymaster on the Sixth House base, and hope he knows of some way to cure this disease.|QSTF
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|NAME:I have killed Dagoth Gares, as I was ordered. But with his dying breath, Dagoth Gares pronounced a curse on me, and now I have the corprus disease. He said I would come to Dagoth Ur ' in his flesh, and of his flesh'. I don't feel any different, but the marks of the disease are plain on my face. I'll have to return and report on the Sixth House base, and hope that my employer knows of some way to cure this disease.|QSTF
+
+[MOD-INF]: ID=34421011823324501(Topic:my story)
+  morrowind.esm--------------------->|DATA|ONAM:ghost_npc_conoon chodal|NAME:I was an ashkhan. I led my people against the Akaviri while the Cyrodiil dogs fled before them like kagouti. I quested deep into the strongholds and Red Mountain, cleansing the unclean things in their own blood. I did not heed the counsel of the women, and, to my shame, I craved glory, but never saw my real enemies. My axe and boots are yours, with my blessing.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Conoon Chodala; Journal "A2_6_Incarnate" <= 50  player->additem conoon_chodala_axe_unique 1  player->additem conoon_chodala_boots_unique 1  Journal "A2_6_Conoon" 100
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:ghost_npc_conoon chodal|NAME:I was born in the Urshilaku Camp, and became their Ashkhan. My contribution to the war against the Akaviri made me respected among the tribes. Even the Red Exiles, a group of outcasts, followed me. I learned about the staff named Sunna'rah, that could steal the divine powers of the Tribunal. I slowly began to drain the power from Vivec upon acquiring it. However, my newfound power made me crave glory, and I did not heed the counsel of the Wise Woman, and my sister Seryn.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:Choice "Continue" 1  ; Conoon Chodala; Journal "A2_6_Incarnate" <= 50
+
+[MOD-INF]: ID=37303085149621366(Topic:discuss)
+  morrowind.esm--------------------->|DATA|ONAM:kurapli|NAME:Now that you are a Clanfriend, can I beg you to assist me with a matter of personal vengeance?|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:kurapli|NAME:Can I ask you to assist me with a matter of personal vengeance?|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-
+
+[MOD-INF]: ID=43741759216181215(Topic:report to caius cosades)
+  morrowind.esm--------------------->|DATA|ONAM:caius cosades|NAME:Yes. Very interesting. So. It says here the Emperor wants me to make you a Novice in the Blades. And that means you'll be following my orders. Are you ready to follow my orders, %PCName?|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Player->RemoveItem, "bk_A1_1_CaiusPackage", 1  Choice, "Yes", 3, "No", 4
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:caius cosades|NAME:Yes. Very interesting. So. It says here the Emperor wants me to make you a Novice in the Blades. And that means you'll be following my orders. Are you ready to follow my orders, %PCName?|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Player->RemoveItem, "bk_A1_1_CaiusPackage", 1  Choice, "Yes", 3, "No, I do not wish to join your organization.", 4
+
+[MOD-INF]: ID=76817486476813403(Journal:a2_3_corpruscure)
+  morrowind.esm--------------------->|DATA|NAME:I showed Divayth Fyr the Dwemer artifact the Spymaster gave me, but I didn't give it to him.
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|NAME:I showed Divayth Fyr the Dwemer artifact I was given, but I didn't give it to him.
+
+[MOD-INF]: ID=155946986227161440(Journal:a1_1_findspymaster)
+  tribunal.esm---------------------->|DATA|NAME:I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|NAME:I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.|QSTF
+
+[MOD-INF]: ID=175341960303625714(Greeting:greeting 5)
+  morrowind.esm--------------------->|DATA|ONAM:raesa pullia|NAME:I'm Raesa Pullia, Champion of the Legion garrison here at Buckmoth Legion Fort. And you're %PCName. Caius Cosades sent you, didn't he? Caius says you're the one to handle this Sixth House base near Gnaar Mok.|SCVR:04JX3A2_2_6thHouse|INTV|SCVR:11630|INTV:
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:raesa pullia|NAME:I'm Raesa Pullia, Champion of the Legion garrison here at Buckmoth Legion Fort. And you're %PCName. Your employer says you're the one to handle this Sixth House base near Gnaar Mok.|SCVR:04JX3A2_2_6thHouse|INTV|SCVR:11630|INTV:
+
+[MOD-INF]: ID=196929754891015386(Topic:report to caius cosades)
+  morrowind.esm--------------------->|DATA|ONAM:caius cosades|NAME:Are you ready to join the Blades and follow my orders, as the Emperor commands?|SCVR:04JX4A1_2_AntabolisInformant|INTV|SCVR:34JX3A1_1_FindSpymaster|INTV|BNAM:Choice, "Yes", 3, "No", 4
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:caius cosades|NAME:Are you ready to join the Blades and follow my orders, as the Emperor commands?|SCVR:04JX4A1_2_AntabolisInformant|INTV|SCVR:34JX3A1_1_FindSpymaster|INTV|BNAM:Choice, "Yes", 3, "I already told you that I do not want to join the Blades.", 4
+
+[MOD-INF]: ID=326995002383219361(Topic:initiation rite)
+  morrowind.esm--------------------->|DATA|ONAM:sul-matuul|NAME:This is my father's Bonebiter Bow. You have completed the initiation rite. I name you %PCName, Clanfriend of the Ashlanders. Keep my father's bow, and bear it with honor. You are a friend of our tribe, and may rest in any Urshilaku bed, but do not harm other tribe members, or take their things. And now I will fulfill my other promise. Go to the wise woman's yurt, and Nibani Maesa shall examine you, and test you against the Nerevarine prophecies.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:(|SCVR:15IX3bonebiter_bow_unique|INTV|BNAM:Journal "A2_1_MeetSulMatuul" 45  PCJoinFaction Ashlanders  moddisposition 10
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:sul-matuul|NAME:This is my father's Bonebiter Bow. You have completed the initiation rite. I name you %PCName, Hearthfriend of the Ashlanders.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:(|SCVR:15IX3bonebiter_bow_unique|INTV|BNAM:Choice "You sent me into that cave to have me killed. You had no desire of accepting me into your tribe, and I have no desire to be a member of it. Just allow me to talk with the Wise Woman." 1 "Thank you." 2
+
+[MOD-INF]: ID=672721013212133451(Topic:nerevarine prophecies)
+  morrowind.esm--------------------->|DATA|ONAM:sul-matuul|NAME:These are serious words, %PCName, words of life and death. I see honor and merit in you, and am proud to name you Clanfriend. But take care what you say and do in the name of the Nerevarine. Now go question Nibani Maesa, and learn all she can tell you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-|SCVR:11500|INTV
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:sul-matuul|NAME:These are serious words, %PCName, words of life and death. I see honor and merit in you. But take care what you say and do in the name of the Nerevarine. Now go question Nibani Maesa, and learn all she can tell you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-|SCVR:11500|INTV
+
+[MOD-INF]: ID=1425631883115876748(Journal:a2_1_meetsulmatuul)
+  morrowind.esm--------------------->|DATA|NAME:I completed the initiation rite by bringing Sul-Senipul's Bonebiter Bow to Sul-Matuul. He has named me a Clanfriend of the Ashlanders He has also given me permission to go to the wise woman's yurt and speak with Nibani Maesa, who will examine me and test me against the Nerevarine prophecies.
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|NAME:I completed the initiation rite by bringing Sul-Senipul's Bonebiter Bow to Sul-Matuul. He has named me a Hearthfriend of the Ashlanders He has also given me permission to go to the wise woman's yurt and speak with Nibani Maesa, who will examine me and test me against the Nerevarine prophecies.
+
+[MOD-INF]: ID=1987530856903725209(Topic:report to caius cosades)
+  morrowind.esm--------------------->|DATA|ONAM:caius cosades|NAME:Good. Welcome to the service, Novice %PCName. Now you belong to the Blades. We're the Emperor's eyes and ears in the provinces. You can use my bed if you need to rest, but leave my personal stuff alone unless I say otherwise. If you like, you can improve your modest skills with our Blades Trainers now. Or if you're in a hurry. I can give you orders right away. But don't forget to visit the Blades Trainers.|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_1_FindSpymaster", 14  PCJoinFaction "Blades"  modDisposition 10  "Rithleen"->modDisposition 20  "Tyermaillin"->modDisposition 20  "Nine_Toes"->modDisposition 20  "Surane Leoriane"->modDisposition 20  "Gildan"->modDisposition 20  "Sjorvar Horse-Mouth"->modDisposition 20
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:caius cosades|NAME:Good. Welcome to the service, Novice %PCName. Now you belong to the Blades. We're the Emperor's eyes and ears in the provinces. If you like, you can improve your modest skills with our Blades Trainers now. Or if you're in a hurry. I can give you orders right away. But don't forget to visit the Blades Trainers.|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_1_FindSpymaster", 14  PCJoinFaction "Blades"  modDisposition 10  "Rithleen"->modDisposition 20  "Tyermaillin"->modDisposition 20  "Nine_Toes"->modDisposition 20  "Surane Leoriane"->modDisposition 20  "Gildan"->modDisposition 20  "Sjorvar Horse-Mouth"->modDisposition 20
+
+[MOD-INF]: ID=2770528437160922231(Topic:report to caius cosades)
+  morrowind.esm--------------------->|DATA|ONAM:caius cosades|NAME:Fine. Then get out of here, and come back when you are ready.|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_1_FindSpymaster", 12  ModDisposition, -10  Goodbye
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:caius cosades|NAME:Fine. But since you know that I belong to the Blades, you shall not be allowed to live.|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_1_FindSpymaster", 12  ModDisposition, -100  SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=2850831940103411378(Journal:a1_1_findspymaster)
+  morrowind.esm--------------------->|DATA|NAME:I gave Caius Cosades the package of documents. Caius Cosades says the Emperor wants me inducted into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades would be my Spymaster, and I would follow his orders. Should I do as the Emperor commands? I'm not sure... I want to think about it.
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|NAME:I gave Caius Cosades the package of documents. Caius Cosades says the Emperor wants me inducted into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades would be my Spymaster, and I would follow his orders. I refused it however, because I do not want to serve the Emperor after what he had done with me. I am free now to explore Morrowind, and do whatever I want with my life.|QSTF
+
+[MOD-INF]: ID=2911713626220353048(Journal:a2_1_meetsulmatuul)
+  morrowind.esm--------------------->|DATA|NAME:The wise women know that some Nerevarine prophecies have been lost. But the Dissident Priests of the Temple study the Ashlander Nerevarine prophecies, and record them in books. Perhaps the lost prophecies can be found there. Nibani Maesa has asked me to go to the Dissident Priests, get them to show me the books, and to tell her what I find there. This sounds like something to mention to Caius. Maybe he'll know how to contact the Dissident Priests.
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|NAME:The wise women know that some Nerevarine prophecies have been lost. But the Dissident Priests of the Temple study the Ashlander Nerevarine prophecies, and record them in books. Perhaps the lost prophecies can be found there. Nibani Maesa has asked me to go to the Dissident Priests, get them to show me the books, and to tell her what I find there. This sounds like something to mention to my employer. Maybe he'll know how to contact the Dissident Priests.
+
+[MOD-INF]: ID=3079029978897331836(:third trial)
+  morrowind.esm--------------------->|DATA|ONAM:sul-matuul|NAME:This riddle is Wisdom's Test. Take counsel of the wisdom of the tribes, and you shall find the way. Seek the Cavern of the Incarnate. Gain the moon and star, and bring it to Nibani Maesa. Take with you my blessing, and the blessing of our tribe, Malipu-Ataman's Belt.|SCVR:04JX3A2_6_Incarnate|INTV: |SCVR:11500|INTV|BNAM:;Sul-Matuul; Journal "A2_6_Incarnate" >= 10;  ModDisposition 10  PCRaiseRank  player->modReputation 1  Journal "A2_6_Incarnate" 15  Player->AddItem "Malipu_Ataman's_Belt" 1  AddTopic "eye of the needle"  AddTopic "teeth of the wind"  AddTopic "skin of the pearl"  AddTopic "the dream is the door"  AddTopic  "the star is the key"
+  Clean Main Quest Overhaul 1.3.ESP->|NAME:This riddle is Wisdom's Test. Take counsel of the wisdom of the tribes, and you shall find the way. Seek the Cavern of the Incarnate. Gain the moon and star, and bring it to Nibani Maesa. Take with you my blessing, and the blessing of our tribe, Malipu-Ataman's Belt.|DELE:
+
+[MOD-INF]: ID=3214628176238462343(Topic:nerevarine prophecies)
+  morrowind.esm--------------------->|DATA|ONAM:sul-matuul|NAME:Now that you are a Clanfriend, I want to speak plainly. I find it hard to believe that you are the Nerevarine. You are an outlander, but the Nerevarine comes to drive all outlanders from Morrowind. How could an outlander be the Incarnate? The Great Houses stole our lands and mocked us with false gods. The godless outlanders steal our land and our dignity. The Nerevarine is the last hope the Ashlanders have. I will let no outlander steal this hope from us.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-|BNAM:Choice "Continue" 1
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:sul-matuul|NAME:I want to speak plainly. I find it hard to believe that you are the Nerevarine. You are an outlander, but the Nerevarine comes to drive all outlanders from Morrowind. How could an outlander be the Incarnate? The Great Houses stole our lands and mocked us with false gods. The godless outlanders steal our land and our dignity. The Nerevarine is the last hope the Ashlanders have. I will let no outlander steal this hope from us.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-|BNAM:Choice "Continue" 1
+
+[MOD-INF]: ID=21073274251814412954(Topic:personal vengeance)
+  morrowind.esm--------------------->|DATA|ONAM:kurapli|NAME:I thank you, Clanfriend, for giving me vengeance for the murder of my husband.|SCVR:06DX3zallay subaddamael|INTV|SCVR:14JX3A2_1_Kurapli_Zallay|INTV:2
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:kurapli|NAME:I thank you, Clanfriend, for giving me vengeance for the murder of my husband. I may have some Errands for you now, if you are interested.|SCVR:06DX3zallay subaddamael|INTV|SCVR:14JX3A2_1_Kurapli_Zallay|INTV:2|BNAM:AddTopic "Errand"
+
+[MOD-INF]: ID=26046267772728426298(Topic:nerevarine prophecies)
+  morrowind.esm--------------------->|DATA|ONAM:sul-matuul|NAME:You think you fulfill the Nerevarine prophecies. You wish to be tested to see if you are the Nerevarine. No outlander may join the Nerevarine cult. If you were a Clanfriend, an adopted member of the Ashlander tribes, then perhaps. I have an initiation rite in mind. If you pass this rite, I will adopt you as a Clanfriend of the Ashlanders. And then I will submit you to Nibani Maesa, our wise woman, who is skilled in oracles and mysteries, and who will test you against the prophecies.|SCVR:04JX3A2_1_MeetSulMatuul|INTV
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|ONAM:sul-matuul|NAME:You think you fulfill the Nerevarine prophecies. You wish to be tested to see if you are the Nerevarine. No outlander may join the Nerevarine cult. If you were a Hearthfriend, an adopted member of the Ashlander tribes, then perhaps. I have an initiation rite in mind. If you pass this rite, I will adopt you as a Hearthfriend of the Ashlanders. And then I will submit you to Nibani Maesa, our wise woman, who is skilled in oracles and mysteries, and who will test you against the prophecies.|SCVR:04JX3A2_1_MeetSulMatuul|INTV
+
+[MOD-INF]: ID=27940198422920617515(Journal:a2_3_corpruscure)
+  tribunal.esm---------------------->|DATA|NAME:I gave Divayth Fyr the Dwemer boots from Yagrum Bagarn, and he gave me the potion. It didn't cure me. But it did remove all apparent signs of the disease. Divayth Fyr said he didn't actually WANT to cure me. He just wanted to remove the harmful features of the disease while preserving its virtues. It worked. And now Divayth Fyr is eager to test the potion on subjects in the Corprusarium. But I must hurry back to report to the Spymaster, and search for the lost prophecies.|QSTF
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|NAME:I gave Divayth Fyr the Dwemer boots from Yagrum Bagarn, and he gave me the potion. It didn't cure me. But it did remove all apparent signs of the disease. Divayth Fyr said he didn't actually WANT to cure me. He just wanted to remove the harmful features of the disease while preserving its virtues. It worked. And now Divayth Fyr is eager to test the potion on subjects in the Corprusarium. But I must hurry back to report, and search for the lost prophecies.|QSTF
+
+[MOD-INF]: ID=29811134423266124620(Journal:a2_3_corpruscure)
+  morrowind.esm--------------------->|DATA|NAME:I showed Divayth Fyr the Dwemer artifact the Spymaster gave me, but I didn't give it to him. He seemed annoyed with me.
+  Clean Main Quest Overhaul 1.3.ESP->|DATA|NAME:I showed Divayth Fyr the Dwemer artifact I was given, but I didn't give it to him. He seemed annoyed with me.

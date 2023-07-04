@@ -1,0 +1,109 @@
+A Hero's Welcome.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF MOD-IID NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (712) != Actual count (711)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Final_Music)
+	SCPT(PyroAnimTester)
+	SCPT(PyroSetGraphicLvlHigh)
+	SCPT(PyroSetGraphicLvlLow)
+	SCPT(PyroSetGraphicLvlMedium)
+	SCPT(PyroSetRocketCrafting100)
+	SCPT(PyroSetRocketCrafting25)
+	SCPT(PyroSetRocketCrafting50)
+	SCPT(PyroSetRocketCrafting75)
+	SCPT(PyroTester)
+	SCPT(PyroThrowMarker)
+	SCPT(PyroThrowTest)
+	SCPT(PyroWaterlockBottomDoor)
+	SCPT(PyroWaterlockCeilingDoor)
+	SCPT(PyroWaterlockFloorDoor)
+	SCPT(PyroWaterlockFlow)
+	SCPT(PyroWaterlockMist)
+	SCPT(PyroWaterlockTopDoor)
+	SCPT(VDAppearFargothScript)
+	SCPT(VDAppearHasphatScript)
+	SCPT(VDAppearHuleeyaScript)
+	SCPT(VDAppearLarriusScript)
+	SCPT(VDAppearScript)
+	SCPT(VDAppearSharnScript)
+	SCPT(VDPartyEnd)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    caius cosades
+	morrowind.esm       DIAL    disturbing dreams
+	morrowind.esm       DIAL    divine intervention scrolls
+	morrowind.esm       DIAL    nerevarine cult
+	morrowind.esm       DIAL    nerevarine prophecies
+	morrowind.esm       DIAL    soul sickness
+	tribunal.esm        DIAL    dissident priests
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hello
+
+[DUP-INF]: ID=13499525251056137(Topic:nerevarine prophecies)
+  |DATA|ONAM:caius cosades|NAME:The illiterate Ashlanders pass down their customs and history in the form of poetic verses. Among the things they preserve in verse are the dreams and prophetic visions of their wise women, in particular the verses that foretell the coming of the Nerevarine. But I don't know much about it. That's why I'm sending you to find out.|SCVR:04JX4A1_11_ZainsubaniInformant|INTV:2
+
+[DUP-INF]: ID=17386185960882720(Topic:soul sickness)
+  |DATA|ONAM:mehra milo|NAME:Now that Dagoth Ur is gone, we hope that soul sickness will be gone with him.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=23291351271929511(Topic:caius cosades)
+  |DATA|ONAM:chargen captain|NAME:Report to Caius Cosades in Balmora. I can't tell you where to find him, but you are to go to the South Wall Cornerclub and ask for him. Someone there can direct you to him.
+
+[DUP-INF]: ID=68816306670122859(Topic:nerevarine cult)
+  |DATA|ONAM:sharn gra-muzgob|NAME:Now YOU are the expert on the Nerevarine cult, eh, Nerevarine?|SCVR:34JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=199017621209432182(Topic:nerevarine prophecies)
+  |DATA|ONAM:sharn gra-muzgob|NAME:The Temple and the Western cults have often dismissed visions and prophecy as primitive superstition. But, in fact, it is foolish prejudice against ancient, secret wisdoms that prevents us from unlocking the secrets of the universe.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=204096968670832447(Topic:nerevarine prophecies)
+  |DATA|FNAM:Ashlanders|ANAM:Urshilaku Camp|NAME:This is not a matter for idle talk with strangers. Why should I trust you, outlander?|BNAM:;Ashlander, Urshilaku Camp
+
+[DUP-INF]: ID=246806287972830102(Topic:disturbing dreams)
+  |DATA|ONAM:huleeya|NAME:Now that Dagoth Ur is gone, there must be an end to his dark dream sendings.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=291042261518712192(Voice:hello)
+  tribunal.esm--------->|DATA|SCVR:03sX0nohello|INTV:
+  A Hero's Welcome.ESP->|DATA|ONAM:vd_cheering|SNAM:Vo\VDQuest\DFNerecom.mp3
+
+[MOD-INF]: ID=291042261518712192(Voice:hello)
+  tribunal.esm--------->|DATA|SCVR:03sX0nohello|INTV:
+  A Hero's Welcome.ESP->|DATA|ONAM:vd_cheering|SNAM:Vo\VDQuest\DFNerecom.mp3
+[MOD-IID]: IDs=17767145661193626605,2472718515276218738,1768228291461332081,765111921984131983
+  A Hero's Welcome.ESP->
+
+[DUP-INF]: ID=308302658830918546(Topic:dissident priests)
+  |DATA|ANAM:Holamayan Monastery|NAME:We are fiercely loyal to the Temple's ancient traditions. But we are troubled that the ultimate source of the Tribunal's divinity might be the same as the source of Dagoth Ur's evil power. Dagoth Ur's power seems to wax as the Tribunal's power wanes. Read 'The Progress of Truth' and other documents of the Apographa in our library, and you'll see why we are uneasy.|SCVR:04JX3A2_4_MiloGone|INTV|BNAM:;Holamayan; Holamayan Monastery; Journal "A2_4_MiloGone" >= 20
+
+[DUP-INF]: ID=1192928566277959936(Topic:nerevarine prophecies)
+  |DATA|ONAM:mehra milo|NAME:The monks at Holamayan will dedicate themselves to the study of prophecies. The Temple has long dismissed prophecy as a medium of revelation and enlightenment. But you and your deeds on Red Mountain prove that wisdom may be hidden in prophecy, if only we are wise and patient enough to seek for it.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:;Mehra Milo
+
+[DUP-INF]: ID=1481620928894511200(Topic:nerevarine cult)
+  |DATA|ONAM:hassour zainsubani|NAME:That is not a subject for idle conversation.
+
+[DUP-INF]: ID=1936324461266331072(Topic:caius cosades)
+  |DATA|ONAM:mehra milo|NAME:Caius has gone back to the Imperial City? He says he's been recalled? I wonder. I never know what he's thinking. I think he's involved in something secret, something dangerous. I was hoping he might help us. Now he's gone. I don't know what to think.|SCVR:04JX3A2_4_MiloGone|INTV|BNAM:;Mehra Milo;
+
+[DUP-INF]: ID=2555422906701421176(Topic:nerevarine cult)
+  |DATA|ONAM|SCVR:34JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=2568510426549827455(Topic:disturbing dreams)
+  |DATA|ONAM:hassour zainsubani|NAME:Perhaps it means nothing. It is peculiar, the tall figure in the golden mask. It puts me in mind of the golden helm of the Ordinator, but that does not seem to fit the... spirit of the dream. My people take careful account of dreams, but only a wise woman can tease from them their meanings.|SCVR:04JX3A1_Dreams|INTV
+
+[DUP-INF]: ID=2878618358233196267(Topic:nerevarine cult)
+  |DATA|ONAM:mehra milo|NAME:It is strange, %PCName. Now that you have fulfilled the Nerevarine prophecies, will there continue to be a Nerevarine cult? I wonder -- are there other Nerevarine prophecies? We must search the libraries at Holamayan.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=3162020397223455243(Topic:divine intervention scrolls)
+  |DATA|ONAM:mehra milo|ANAM:Holamayan Monastery|NAME:Of course, normally I only use Almsivi Intervention scrolls. But for my escape from the Ministry of Truth, a Divine Intervention scroll was just what I needed.
+
+[DUP-INF]: ID=5662240352721728034(Topic:nerevarine cult)
+  |DATA|ONAM:mehra milo|NAME:The Temple worships Nerevar as a saint and hero, but prophecies of his reincarnation are punished as wicked heresy. The Nerevarine cult claims the Tribunal are false gods, hence the Temple's persecution of the Nerevarine cult. A group called the Dissident Priests disputes Temple doctrine on the Nerevarine prophecies. The proscribed book 'Progress of Truth' describes their beliefs. Get a copy of 'Progress of Truth' for Caius Cosades. That will tell him things he needs to know about the Nerevarine cult.|SCVR:04JX3A1_V_VivecInformants|INTV|BNAM:;Mehra Milo  Journal, "A1_10_MehraMilo", 50  modDisposition 10
+
+[DUP-INF]: ID=9526318482864625678(Topic:disturbing dreams)
+  |DATA|ONAM:mehra milo|NAME:That means nothing to me. Perhaps you wouldn't know, but the Temple regards disturbing dreams as a sign of soul sickness -- a sign that the mind is deranged by impure impulses and dangerous feelings. The Ashlanders have many superstitions about dreams, but they have superstitions about everything.|SCVR:04JX4A2_4_MiloGone|INTV
+
+[DUP-INF]: ID=27518247831477521212(Greeting:greeting 5)
+  |DATA|ONAM:Geon Auline|NAME:Hello.  I am Geon Auline, collector of fine artifacts.|SCVR:04JX0MS_EstateSale|INTV:
+
+[DUP-INF]: ID=29244301351198927004(Topic:disturbing dreams)
+  |DATA|ONAM:mehra milo|NAME:The mad dreams of Dagoth Ur are gone, now that you have killed him. But the secrets of prophecies appear to be raveled up in dreams. Perhaps at Holamayan we should record and study dreams. We have so much to learn.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=30883148731781118927(Topic:dissident priests)
+  |DATA|ONAM:mehra milo|NAME:Thanks to you, Vivec has proclaimed an end to the persecution of the Dissident priests. Now we must be patient. It will take time to resolve our conflicts with the Temple hierarchy. Change can only come with mutual trust, and with a renewal of our common purpose.|SCVR:04JX3B8_MeetVivec|INTV:2|BNAM:;Mehra Milo

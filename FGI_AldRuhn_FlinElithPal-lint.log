@@ -1,0 +1,109 @@
+FGI_AldRuhn_FlinElithPal.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FGI_GabainSinardeScript)
+	SCPT(FGI_MoveGabainSinarde)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    elith-pal mine
+	morrowind.esm       DIAL    fight together
+	morrowind.esm       DIAL    flin
+	tribunal.esm        DIAL    fg_elithpalsupply
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=2705130475027875(Journal:fg_elithpalsupply)
+  tribunal.esm----------------->|DATA|NAME:Fighters Guild: Flin for Elith-Pal|QSTN
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|NAME:Fighters Guild: Rescue Elith-Pal Supplier|QSTN
+
+[MOD-INF]: ID=17340319556172141(Journal:fg_elithpalsupply)
+  morrowind.esm---------------->|DATA|NAME:I delivered the load of flin to the Elith-Pal Mine. Now I need to report back to Percius Mercius in Ald'ruhn.
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|NAME:I saved Gabain Sinarde and escorted him out of Maran-Adon.
+
+[MOD-INF]: ID=168631838017692159(Journal:fg_elithpalsupply)
+  tribunal.esm----------------->|DATA|NAME:Percius Mercius asked me to deliver a load of flin to Dangor in the Elith-Pal Mine which is on the base of Red Mountain just west of the Zainab camp.
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|NAME:Percius Mercius asked me to find Gabain Sinarde, a member of Fighters Guild responsible for flin supply to the Elith-Pal Mine. Percius suggested me to ask about his whereabouts in Zainab Camp and in the mine. After I find him, I have to make sure Gabain finishes his delivery and returns to the Guild hall. If he is dead, I have to finish his flin delivery if he hadn't already done it.
+
+[MOD-INF]: ID=186278277292903427(Greeting:greeting 5)
+  morrowind.esm---------------->|DATA|ONAM:dangor|NAME:Are you here to deliver the flin?|SCVR:34JX3FG_ElithPalSupply|INTV: |SCVR:44JX4FG_ElithPalSupply|INTV:2
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:dangor|NAME:What is it? Are you looking for Gabain Sinarde?|SCVR:34JX3FG_ElithPalSupply|INTV: |SCVR:44JX4FG_ElithPalSupply|INTV:(
+
+[MOD-INF]: ID=203517166171138628(Topic:elith-pal mine)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work, %PCName. A load of flin can get heavy after a few steps. I prefer brandy myself. Could I offer you some? Something to wet your throat after the load trip?|SCVR:34JX3FG_ElithPalSupply|INTV:2|BNAM:ModPCFacRep 5 "Fighters Guild"  ModDisposition 5  Choice Yes 1 No 2
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work, %PCName. A load of flin can get heavy after a few steps. I prefer brandy myself. Could I offer you some? Something to wet your throat after the load trip?|SCVR:34JX3FG_ElithPalSupply|INTV:2|SCVR:54JX0FGI_DialogueKiller|INTV|BNAM:ModPCFacRep 5 "Fighters Guild"  ModDisposition 5  Choice Yes 1 No 2
+
+[MOD-INF]: ID=288922933456666301(Topic:elith-pal mine)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|NAME:Here you go, %PCName. And here's the 500 septims I owe you for the contract. Check with me again if you need more orders.|SCVR:01500|INTV|BNAM:Player->AddItem Potion_Cyro_Brandy_01 1  Player->AddItem Gold_001 500  Journal FG_ElithPalSupply 100
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|NAME:Here you go, %PCName. And here's the 500 septims I owe you for the contract. Check with me again if you need more orders.|SCVR:01500|INTV|SCVR:54JX0FGI_DialogueKiller|INTV|BNAM:Player->AddItem Potion_Cyro_Brandy_01 1  Player->AddItem Gold_001 500  Journal FG_ElithPalSupply 100
+
+[MOD-INF]: ID=547712891263456534(Topic:flin)
+  morrowind.esm---------------->|DATA|ONAM:dangor|NAME:Then why did you come all this way with all that flin? Are you feeling okay?|SCVR:01500|INTV
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:dangor|NAME:Then why did you come all this way with all that flin? Are you feeling okay?|SCVR:01500|INTV|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=815312965344517174(Topic:elith-pal mine)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Thanks for delivering the flin, %PCName.|SCVR:34JX3FG_ElithPalSupply|INTV:d
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Thanks for delivering the flin, %PCName.|SCVR:34JX3FG_ElithPalSupply|INTV:d|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=1421915513303888575(Topic:elith-pal mine)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:I heard you killed Dangor. Get out of here before I lose my temper.|SCVR:34JX3FG_ElithPalSupply|INTV: |SCVR:56DX3dangor|INTV|BNAM:Goodbye
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:I heard you killed Dangor. Get out of here before I lose my temper.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_ElithPalSupply|INTV: |SCVR:56DX3dangor|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=1506613382645324485(Topic:flin)
+  morrowind.esm---------------->|DATA|ONAM:dangor|NAME:Thanks for the flin, %PCName.|SCVR:34JX3FG_ElithPalSupply|INTV:2
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:dangor|NAME:Thanks for the flin, %PCName.|SCVR:34JX3FG_ElithPalSupply|INTV:2|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=1733819314779529785(Topic:flin)
+  morrowind.esm---------------->|DATA|ONAM:dangor|NAME:Are you here to deliver the flin?|SCVR:04JX0FG_ElithPalSupply|INTV: |SCVR:45IX3Potion_Cyro_Whiskey_01|INTV|BNAM:Choice "Yes." 1 "No." 2
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:dangor|NAME:Are you here to deliver the flin?|SCVR:04JX0FG_ElithPalSupply|INTV: |SCVR:45IX3Potion_Cyro_Whiskey_01|INTV|SCVR:54JX0FGI_DialogueKiller|INTV|BNAM:Choice "Yes." 1 "No." 2
+
+[MOD-INF]: ID=1839729140436710481(Topic:elith-pal mine)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|NAME:Dangor is dead? Are you sure? That's sad news indeed. Seems like the Empire's under attack wherever you go.|SCVR:06DX3dangor|INTV|SCVR:34JX0FG_ElithPalSupply|INTV:|BNAM:Journal FG_ElithPalSupply 200
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|NAME:Dangor is dead? Are you sure? That's sad news indeed. Seems like the Empire's under attack wherever you go.|SCVR:06DX3dangor|INTV|SCVR:34JX0FG_ElithPalSupply|INTV:|SCVR:54JX0FGI_DialogueKiller|INTV|BNAM:Journal FG_ElithPalSupply 200
+
+[MOD-INF]: ID=1953941672849226799(Topic:flin)
+  morrowind.esm---------------->|DATA|ANAM:Elith-Pal Mine|NAME:You've got a shipment for us? You'll want to talk to Dangor.|SCVR:04JX0FG_ElithPalSupply|INTV: 
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ANAM:Elith-Pal Mine|NAME:You've got a shipment for us? You'll want to talk to Dangor.|SCVR:04JX0FG_ElithPalSupply|INTV: |SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=2238632669129779042(Journal:fg_elithpalsupply)
+  tribunal.esm----------------->|DATA|NAME:Percius Mercius thanked me for delivering the flin.|QSTF
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|NAME:Percius Mercius thanked me for rescuing Gabain Sinarde.|QSTF
+
+[MOD-INF]: ID=2673227129691028931(Topic:flin)
+  morrowind.esm---------------->|DATA|ONAM:dangor|NAME:You have some flin? Where?
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:dangor|NAME:You have some flin? Where?|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=2824311695442117091(Topic:elith-pal mine)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Just deliver the flin to Dangor at the Elith-Pal Mine.|SCVR:34JX3FG_ElithPalSupply|INTV: 
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Just deliver the flin to Dangor at the Elith-Pal Mine.|SCVR:34JX3FG_ElithPalSupply|INTV: |SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=2869728211889817692(Topic:elith-pal mine)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Here's the flin. Deliver it to Dangor. He's a Bosmer who works at the Elith-Pal Mine which is on the base of Red Mountain just west of the Zainab camp.|SCVR:34JX3FG_SuranBandits|INTV:d|BNAM:Journal FG_ElithPalSupply 10  Player->AddItem Potion_Cyro_Whiskey_01 20
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Here's the flin. Deliver it to Dangor. He's a Bosmer who works at the Elith-Pal Mine which is on the base of Red Mountain just west of the Zainab camp.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_SuranBandits|INTV:d|BNAM:Journal FG_ElithPalSupply 10  Player->AddItem Potion_Cyro_Whiskey_01 20
+
+[MOD-INF]: ID=3061417315189729790(Journal:fg_elithpalsupply)
+  tribunal.esm----------------->|DATA|NAME:I told Percius Mercius that Dangor was dead.|QSTF
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|NAME:I told Percius Mercius that Gabain Sinarde was dead.|QSTF
+
+[MOD-INF]: ID=10583300472912820903(Topic:elith-pal mine)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:I heard you killed Dangor. Get out of here before I lose my temper.|SCVR:34JX3FG_ElithPalSupply|INTV: |SCVR:56DX3dangor|INTV|BNAM:ModDisposition -30  Goodbye
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:I heard you killed Dangor. Get out of here before I lose my temper.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_ElithPalSupply|INTV: |SCVR:56DX3dangor|INTV|BNAM:ModDisposition -30  Goodbye
+
+[MOD-INF]: ID=23855136412586923070(Topic:elith-pal mine)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|NAME:Well, any time, %PCName. Here's 500 septims for the delivery.|SCVR:01500|INTV|BNAM:Player->AddItem Gold_001 500  Journal FG_ElithPalSupply 100
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|NAME:Well, any time, %PCName. Here's 500 septims for the delivery.|SCVR:01500|INTV|SCVR:54JX0FGI_DialogueKiller|INTV|BNAM:Player->AddItem Gold_001 500  Journal FG_ElithPalSupply 100
+
+[MOD-INF]: ID=25126301662018720770(Topic:elith-pal mine)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|NAME:No point in delivering any supplies if Dangor is dead.|SCVR:34JX3FG_ElithPalSupply|INTV
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|NAME:No point in delivering any supplies if Dangor is dead.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_ElithPalSupply|INTV
+
+[MOD-INF]: ID=30120308861557115251(Topic:flin)
+  morrowind.esm---------------->|DATA|ONAM:dangor|NAME:Thanks, %PCName. I've been looking forward to this shipment.|BNAM:Player->RemoveItem Potion_Cyro_Whiskey_01 20  AddItem Potion_Cyro_Whiskey_01 20  Journal FG_ElithPalSupply 50
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:dangor|NAME:Thanks, %PCName. I've been looking forward to this shipment.|SCVR:54JX0FGI_DialogueKiller|INTV|BNAM:Player->RemoveItem Potion_Cyro_Whiskey_01 20  AddItem Potion_Cyro_Whiskey_01 20  Journal FG_ElithPalSupply 50
+
+[MOD-INF]: ID=31736303682969428548(Topic:orders)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:I have a small task for you. The Empire charges the Fighters Guild with keeping the forts and mines supplied. Would you be willing to take a load of flin to the Elith-Pal Mine?|SCVR:34JX3FG_SuranBandits|INTV:d
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:The Empire charges the Fighters Guild with keeping the forts and mines supplied. Gabain Sinarde, the usual supplier of the Elith-Pal Mine, has not returned from his last delivery. I need you to find Gabain Sinarde and make sure he finishes the contract.|SCVR:34JX3FG_SuranBandits|INTV:d
+
+[MOD-INF]: ID=32329206492042016767(Greeting:greeting 5)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|NAME:Have you delivered that flin to the Elith-Pal Mine yet? It is important that it be delivered there as soon as possible, %PCRank.|SCVR:04JX3FG_ElithPalSupply|INTV: |SCVR:14JX4FG_ElithPalSupply|INTV:d
+  FGI_AldRuhn_FlinElithPal.esp->|DATA|ONAM:persius mercius|NAME:Tell me if you found Gabain Sinarde, %PCRank.|SCVR:04JX3FG_ElithPalSupply|INTV: |SCVR:14JX4FG_ElithPalSupply|INTV:d

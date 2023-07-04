@@ -1,0 +1,11 @@
+atronach forge 1.1.esp: BM-DEP DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(af_forge_chest_script)          explodespell
+    [BM-DEP] Bloodmoon Dependency: Bloodmoon Functions:
+	SCPT(af_forge_chest_script)          placeatme
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(af_book_quest_script)
+	SCPT(af_dremora_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1

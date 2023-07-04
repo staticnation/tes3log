@@ -1,0 +1,31 @@
+Bad_Actor_fix.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (83) != Actual count (11)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    line of work
+	morrowind.esm       DIAL    new play
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+
+[MOD-INF]: ID=42054017211614407(Greeting:greeting 5)
+  morrowind.esm----->|DATA|ONAM:miun_gei|NAME:Welcome, %PCRace. It is good to see a customer in the store. That annoying fool outside chases them away.|SCVR:04JX0EB_Actor|INTV:
+  Bad_Actor_fix.ESP->|DATA|ONAM:miun_gei|NAME:Welcome, %PCRace. It is good to see a customer in the store. That annoying fool outside chases them away.|SCVR:04JX4EB_Actor|INTV
+
+[MOD-INF]: ID=48087609131895092(Topic:line of work)
+  morrowind.esm----->|DATA|ONAM:marcel maurard|NAME:Oh, to be an actor. To act, perchance to earn some money!|SCVR:04JX2EB_Actor|INTV:(
+  Bad_Actor_fix.ESP->|DATA|ONAM:marcel maurard|NAME:Oh, to be an actor. To act, perchance to earn some money!|SCVR:04JX2EB_Actor|INTV:(|SCVR:14JX4EB_Actor|INTV:7
+
+[MOD-INF]: ID=77722781646324928(Topic:latest rumors)
+  tribunal.esm------>|DATA|ANAM:Vivec, Foreign Quarter|NAME:I've heard that Miun-Gei the enchanter is getting really fed up with some obnoxious Breton selling wares outside his shop. Ridiculous what some people will do to earn a drake.|SCVR:04JX0EB_Actor|INTV:|SCVR:17XX0miun_gei|INTV|SCVR:27XX0marcel maurard|INTV|SCVR:3CsX0NoLore|INTV:
+  Bad_Actor_fix.ESP->|DATA|ANAM:Vivec, Foreign Quarter|NAME:I've heard that Miun-Gei the enchanter is getting really fed up with some obnoxious Breton selling wares outside his shop. Ridiculous what some people will do to earn a drake.|SCVR:04JX0EB_Actor|INTV:|SCVR:17XX0miun_gei|INTV|SCVR:27XX0marcel maurard|INTV|SCVR:3CsX0NoLore|INTV:|BNAM:Journal "EB_Actor" 10
+
+[MOD-INF]: ID=7101222872264716142(Topic:new play)
+  morrowind.esm----->|DATA|ONAM:crassius curio|NAME:It is almost completed. I call it "The Lusty Argonian Maid." It's a rather bawdy tale, but I think it will play well with the people. Be sweet to Uncle Crassius, and there's something in it for you, sweetcakes. Here, take a look at some of the work so far. I think it's scrumptious!|SCVR:04JX3EB_Actor|INTV|SCVR:14JX5EB_Actor|INTV:<|SCVR:25IX0bk_lustyargonianmaid|INTV:|BNAM:Player->AddItem "bk_lustyargonianmaid" 1  RemoveItem "bk_lustyargonianmaid" 1  Journal EB_Actor 55
+  Bad_Actor_fix.ESP->|DATA|ONAM:crassius curio|NAME:It is almost completed. I call it "The Lusty Argonian Maid." It's a rather bawdy tale, but I think it will play well with the people. Be sweet to Uncle Crassius, and there's something in it for you, sweetcakes. Here, take a look at some of the work so far. I think it's scrumptious!|SCVR:04JX3EB_Actor|INTV|SCVR:14JX4EB_Actor|INTV:7|SCVR:25IX0bk_lustyargonianmaid|INTV:|BNAM:Player->AddItem "bk_lustyargonianmaid" 1  RemoveItem "bk_lustyargonianmaid" 1  Journal EB_Actor 55
+
+[DUP-INF]: ID=21541118321089624775(Topic:line of work)
+  |DATA|ONAM:marcel maurard|NAME:I am an actor! Or at least I hope to be. I am the poor player who struts and frets for a while on a stage and then has lunch. I am full of sound and furiousness! Oh, if there were but a good theater troupe in this town, I could give up selling these baubles. Oh! Woe is me!|SCVR:04JX4EB_Actor|INTV:(|SCVR:14JX3EB_Actor|INTV|BNAM:Journal "EB_Actor" 40  Choice "You should leave this area." 1 "Leave here now or die." 2
+
+[MOD-INF]: ID=24863229732181627009(Topic:latest rumors)
+  tribunal.esm------>|DATA|CNAM:Enchanter Service|ANAM:Vivec|NAME:I've heard that Miun-Gei in the Foreign Quarter is getting really fed up with some obnoxious Breton selling wares outside his shop. Ridiculous what some people will do to earn a drake.|SCVR:04JX0EB_Actor|INTV:|SCVR:1CsX0NoLore|INTV:
+  Bad_Actor_fix.ESP->|DATA|CNAM:Enchanter Service|ANAM:Vivec|NAME:I've heard that Miun-Gei in the Foreign Quarter is getting really fed up with some obnoxious Breton selling wares outside his shop. Ridiculous what some people will do to earn a drake.|SCVR:04JX0EB_Actor|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:Journal "EB_Actor" 10

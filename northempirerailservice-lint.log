@@ -1,0 +1,248 @@
+northempirerailservice.esp: DUP-INF DUP-REC FOGBUG JUNKCEL MISSAUT MISSDSC MISSVER OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	Castle Wayrest, Great Hall
+	Snowhawk, Prison
+    [JUNKCEL] Junk Cells:                        Flags
+	Sheogorad (7, 21)                        0x02
+	West Gash Region (-1, 2)                 0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    com_chest_02_lev_gold
+	bloodmoon.esm       CONT    com_sack_02_chpfood3
+	bloodmoon.esm       DOOR    in_com_traptop_01
+	bloodmoon.esm       DOOR    in_impsmall_loaddoor_01
+	bloodmoon.esm       STAT    bm_bearhead_brown
+	bloodmoon.esm       STAT    bm_bearhead_red
+	bloodmoon.esm       STAT    bm_wolfhead_black
+	bloodmoon.esm       STAT    ex_de_shack_plank_03
+	bloodmoon.esm       STAT    ex_imp_rubble_04
+	bloodmoon.esm       STAT    ex_s_longhouse_brown02
+	bloodmoon.esm       STAT    furn_c_t_warrior_01
+	bloodmoon.esm       STAT    furn_de_tapestry_01
+	bloodmoon.esm       STAT    furn_rope_hooks
+	bloodmoon.esm       STAT    terrain_bm_snow_10
+	morrowind.esm       ACTI    active_com_bed_04
+	morrowind.esm       ACTI    active_com_bunk_02
+	morrowind.esm       ACTI    active_de_bed_29
+	morrowind.esm       ACTI    active_de_p_bed_28
+	morrowind.esm       APPA    apparatus_a_alembic_01
+	morrowind.esm       BOOK    bk_antecedantsdwemerlaw
+	morrowind.esm       BOOK    bk_biographybarenziah1
+	morrowind.esm       BOOK    bk_biographybarenziah2
+	morrowind.esm       BOOK    bk_briefhistoryempire1
+	morrowind.esm       BOOK    bk_briefhistoryempire2
+	morrowind.esm       BOOK    bk_briefhistoryempire3
+	morrowind.esm       BOOK    bk_briefhistoryempire4
+	morrowind.esm       BOOK    bk_realbarenziah3
+	morrowind.esm       BOOK    bk_realbarenziah5
+	morrowind.esm       BOOK    bookskill_heavy armor3
+	morrowind.esm       CONT    com_drawers_01
+	morrowind.esm       CONT    crate_01_moonsugar
+	morrowind.esm       CONT    crate__02_skooma2
+	morrowind.esm       CONT    de_p_chest_02_empty
+	morrowind.esm       CONT    dwrv_chest00_common
+	morrowind.esm       CONT    flora_red_lichen_01
+	morrowind.esm       DOOR    door_dwrv_inner00
+	morrowind.esm       DOOR    ex_ashl_door_02
+	morrowind.esm       DOOR    ex_common_door_01
+	morrowind.esm       DOOR    in_c_door_arched
+	morrowind.esm       DOOR    in_com_trapbottom_01
+	morrowind.esm       DOOR    in_de_shack_trapdoor_01
+	morrowind.esm       INGR    ingred_green_lichen_01
+	morrowind.esm       INGR    ingred_scrap_metal_01
+	morrowind.esm       LIGH    light_com_candle_07
+	morrowind.esm       LIGH    light_de_lantern_03_128
+	morrowind.esm       LIGH    light_de_lantern_03_77
+	morrowind.esm       LIGH    light_de_lantern_03_sway
+	morrowind.esm       LIGH    light_dwrv_neon01
+	morrowind.esm       LIGH    light_logpile10
+	morrowind.esm       MISC    gold_001
+	morrowind.esm       MISC    misc_dwrv_bowl00
+	morrowind.esm       MISC    misc_dwrv_gear00
+	morrowind.esm       MISC    misc_dwrv_goblet00
+	morrowind.esm       MISC    misc_uni_pillow_02
+	morrowind.esm       PGRD    sadrith mora
+	morrowind.esm       STAT    dwrv_mechlarm00
+	morrowind.esm       STAT    dwrv_mechrarm00
+	morrowind.esm       STAT    ex_ashl_tent_02
+	morrowind.esm       STAT    ex_common_building_01
+	morrowind.esm       STAT    ex_common_dormer_round
+	morrowind.esm       STAT    ex_common_dormer_square
+	morrowind.esm       STAT    ex_common_plat_end
+	morrowind.esm       STAT    ex_common_plat_lrg
+	morrowind.esm       STAT    ex_de_scaffold_02a
+	morrowind.esm       STAT    ex_de_shack_02
+	morrowind.esm       STAT    ex_de_shack_03
+	morrowind.esm       STAT    ex_de_shack_05
+	morrowind.esm       STAT    ex_de_shack_awning_01
+	morrowind.esm       STAT    ex_de_shack_awning_03
+	morrowind.esm       STAT    ex_de_shack_awning_05
+	morrowind.esm       STAT    ex_de_shack_plank_02
+	morrowind.esm       STAT    ex_de_shack_plank_04
+	morrowind.esm       STAT    ex_de_shack_steps_01
+	morrowind.esm       STAT    ex_dwrv_pipe00
+	morrowind.esm       STAT    ex_dwrv_ruin50
+	morrowind.esm       STAT    ex_dwrv_ruin_tower00
+	morrowind.esm       STAT    ex_dwrv_steamstack00
+	morrowind.esm       STAT    ex_imp_dock_01
+	morrowind.esm       STAT    ex_imp_dock_02
+	morrowind.esm       STAT    ex_imp_foundation_01
+	morrowind.esm       STAT    ex_imp_keep_01
+	morrowind.esm       STAT    ex_imp_towers_light_01
+	morrowind.esm       STAT    ex_imp_wall_01
+	morrowind.esm       STAT    ex_imp_wall_corner_01
+	morrowind.esm       STAT    ex_imp_wall_corner_02
+	morrowind.esm       STAT    ex_nord_doorf_01
+	morrowind.esm       STAT    ex_nord_house_03
+	morrowind.esm       STAT    ex_nord_win_01
+	morrowind.esm       STAT    ex_nord_win_02
+	morrowind.esm       STAT    furn_c_t_dibella_01
+	morrowind.esm       STAT    furn_c_t_julianos_01
+	morrowind.esm       STAT    furn_c_t_kynareth_01
+	morrowind.esm       STAT    furn_c_t_mara_01
+	morrowind.esm       STAT    furn_c_t_zenithar_01
+	morrowind.esm       STAT    furn_com_r_table_01
+	morrowind.esm       STAT    furn_com_rm_bar_01
+	morrowind.esm       STAT    furn_com_rm_bar_02
+	morrowind.esm       STAT    furn_com_tapestry_01
+	morrowind.esm       STAT    furn_de_banner_01
+	morrowind.esm       STAT    furn_de_cushion_round_01
+	morrowind.esm       STAT    furn_de_cushion_round_03
+	morrowind.esm       STAT    furn_de_cushion_round_04
+	morrowind.esm       STAT    furn_de_cushion_round_06
+	morrowind.esm       STAT    furn_de_cushion_round_07
+	morrowind.esm       STAT    furn_de_cushion_square_01
+	morrowind.esm       STAT    furn_de_cushion_square_02
+	morrowind.esm       STAT    furn_de_cushion_square_04
+	morrowind.esm       STAT    furn_de_cushion_square_05
+	morrowind.esm       STAT    furn_de_cushion_square_06
+	morrowind.esm       STAT    furn_de_cushion_square_07
+	morrowind.esm       STAT    furn_de_cushion_square_09
+	morrowind.esm       STAT    furn_de_kegstand
+	morrowind.esm       STAT    furn_de_lecturn
+	morrowind.esm       STAT    furn_de_lightpost_01
+	morrowind.esm       STAT    furn_de_overhang_06
+	morrowind.esm       STAT    furn_de_p_table_01
+	morrowind.esm       STAT    furn_de_practice_mat
+	morrowind.esm       STAT    furn_de_rope_05
+	morrowind.esm       STAT    furn_de_rope_07
+	morrowind.esm       STAT    furn_de_screen_guar_01
+	morrowind.esm       STAT    furn_de_tapestry_04
+	morrowind.esm       STAT    furn_de_tapestry_06
+	morrowind.esm       STAT    furn_de_tapestry_12
+	morrowind.esm       STAT    furn_dwrv_table00
+	morrowind.esm       STAT    furn_dwrv_table10
+	morrowind.esm       STAT    furn_dwrv_table20
+	morrowind.esm       STAT    furn_planter_01
+	morrowind.esm       STAT    furn_planter_04
+	morrowind.esm       STAT    furn_shrine_olms_01
+	morrowind.esm       STAT    furn_shrine_rilms_01
+	morrowind.esm       STAT    in_akulacave00
+	morrowind.esm       STAT    in_ar_02
+	morrowind.esm       STAT    in_ar_05
+	morrowind.esm       STAT    in_ar_10
+	morrowind.esm       STAT    in_de_shack_04
+	morrowind.esm       STAT    in_de_shack_05
+	morrowind.esm       STAT    in_dwrv_scope10
+	morrowind.esm       STAT    in_impbig_blend_01
+	morrowind.esm       STAT    in_impbig_wall_01
+	morrowind.esm       STAT    in_nord_doorf_01
+	morrowind.esm       WEAP    iron throwing knife
+	morrowind.esm       WEAP    steel saber
+	tribunal.esm        ACTI    furn_dwrv_tranny00
+	tribunal.esm        BOOK    bk_easternprovincesimpartial
+	tribunal.esm        BOOK    book_dwe_cogs00
+	tribunal.esm        CONT    flora_plant_01
+	tribunal.esm        CONT    flora_plant_07
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    ex_de_shack_door
+	tribunal.esm        DOOR    ex_nord_door_01
+	tribunal.esm        DOOR    in_de_shack_door
+	tribunal.esm        DOOR    in_de_shack_trapdoor
+	tribunal.esm        LTEX    rock_coastal
+	tribunal.esm        STAT    ex_de_shack_steps
+	tribunal.esm        STAT    furn_banner_hanger_01
+	tribunal.esm        STAT    furn_com_r_bookshelf_01
+	tribunal.esm        STAT    furn_planter_mh_04
+	tribunal.esm        STAT    furn_planter_mh_05
+	tribunal.esm        STAT    in_dwe_corr2_00_exp
+	tribunal.esm        STAT    in_dwe_end00_exp
+	tribunal.esm        STAT    in_dwe_pipe00_exp
+	tribunal.esm        STAT    in_dwe_utilcorr00_exp
+	tribunal.esm        STAT    in_dwe_utilcorr01_exp
+	tribunal.esm        STAT    in_m_sewer_corner_01
+	tribunal.esm        STAT    in_sotha_gear03
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       APPA    apparatus_sm_mortar_01
+	morrowind.esm       APPA    apparatus_sm_retort_01
+	morrowind.esm       LAND    (-10, 10)
+	morrowind.esm       LAND    (-10, 11)
+	morrowind.esm       LAND    (-11, 10)
+	morrowind.esm       LAND    (-11, 11)
+	morrowind.esm       LAND    (1, -13)
+	morrowind.esm       LAND    (2, -12)
+	morrowind.esm       LAND    (2, -13)
+	morrowind.esm       LAND    (3, -12)
+	morrowind.esm       LAND    (7, 22)
+	morrowind.esm       LAND    (8, 22)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        BOOK    book_dwe_water00
+	tribunal.esm        CREA    centurion_spider
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+
+[DUP-INF]: ID=128279104427445(Topic:latest rumors)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=5284501933053078(Topic:morrowind lore)
+  |DATA|FNAM:Imperial Cult|NAME:The Daedra and the Saints are worshipped as ancestors by the Temple, and each family maintains a shrine dedicated to the remains and spirits of the clan's dead.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Imperial cult; default;
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=29800122882732621844(Topic:morrowind lore)
+  |DATA|FNAM:Morag Tong|NAME:The Morag Tong is an assassins guild sanctioned by the Empire to provide three varieties of execution: public executions, private executions, and House Wars executions.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV

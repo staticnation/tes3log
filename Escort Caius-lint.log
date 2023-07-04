@@ -1,0 +1,133 @@
+Escort Caius.esp: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    blades
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    ash statue
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    caius cosades
+	morrowind.esm       DIAL    disturbing dreams
+	morrowind.esm       DIAL    freelance work
+	morrowind.esm       DIAL    morrowind history
+	morrowind.esm       DIAL    nine-toes
+	morrowind.esm       DIAL    recalled
+	morrowind.esm       DIAL    rules
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    surane leoriane
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    what you've learned
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    the mainland
+
+[DUP-INF]: ID=2924792051322157(Topic:ashlanders)
+  |DATA|FNAM:Ashlanders|ANAM:Ahemmusa Camp|NAME:Now that you have found us a safe place, the Ahemmusa may once again grow strong. Thank you, Nerevarine.|SCVR:04JX3B2_AhemmusaSafe|INTV:(
+
+[DUP-INF]: ID=3050272797449699(Topic:ash statue)
+  |DATA|ONAM:athyn sarethi|NAME:These ash statues trouble me, but they are not your concern.
+
+[DUP-INF]: ID=20811492412079275(Topic:surane leoriane)
+  |DATA|ONAM:caius cosades|NAME:Mage Surane Leoriane is in Caldera, the next town north. Her half-timber-and-stone house north sits between the twin towers of the North Gate and the Governor's Hall.|SCVR:04JX3A1_1_FindSpymaster|INTV|SCVR:14JX4blades_surane2|INTV|BNAM:;Caius Cosades; Journal A1_1_FindSpymaster >= 14  Journal blades_surane2 1
+
+[MOD-INF]: ID=20813494252707603(Topic:recalled)
+  morrowind.esm---->|DATA|ONAM:caius cosades|NAME:Internal politics. Some concern about my sugar. I thought about refusing the recall. But they have members of my family back in the capital. I'm afraid it may have something to do with the problems with the succession. As the Emperor's health declines, factions are maneuvering for advantage. I may be gone a while -- that's why you're promoted to Operative.|SCVR:04JX3A2_3_CorprusCure|INTV:2
+  Escort Caius.esp->|DATA|ONAM:caius cosades|NAME:Internal politics. Some concern about my sugar. I thought about refusing the recall. But they have members of my family back in the capital. I'm afraid it may have something to do with the problems with the succession. As the Emperor's health declines, factions are maneuvering for advantage. I may be gone a while -- that's why you're promoted to Operative. I'm to leave for ebonheart, to take the Chun-Ook. Would you like to escort me there?|SCVR:04JX3A2_3_CorprusCure|INTV:2|SCVR:1BLX0Pelagiad, Halfway Tavern|INTV|SCVR:24JX5A2_3_CorprusCure|INTV:A|BNAM:Choice "Yes, it would be an honour." 1 "No, I best be going." 2
+
+[DUP-INF]: ID=23291351271929511(Topic:caius cosades)
+  |DATA|ONAM:chargen captain|NAME:Report to Caius Cosades in Balmora. I can't tell you where to find him, but you are to go to the South Wall Cornerclub and ask for him. Someone there can direct you to him.
+
+[DUP-INF]: ID=70014377241521193(Topic:nerevarine)
+  |DATA|ONAM:ghost_npc_idrenie nerot|NAME:The Devil is dead, and the Blight is gone. You are the Nerevarine. You are the Incarnate. You are the one.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+
+[DUP-INF]: ID=182829917719530449(Topic:rules)
+  |DATA|ONAM:caius cosades|NAME:The rules for the Blades are simple. Follow orders. My orders. Don't steal from the Blades. Don't attack anyone from the Blades. Simple rules. Follow them, or you'll be expelled. And once you're expelled, you're out forever.
+
+[DUP-INF]: ID=253227646864125858(Topic:almalexia)
+  |DATA|ONAM:Tienius Delitian|NAME:The goddess over in the Temple. She's surrounded by her Hands. Tough fighters from what I hear.|SCVR:04JX4TR_SothaSil|INTV:d
+
+[DUP-INF]: ID=295096777629511348(Topic:ash statue)
+  |DATA|ONAM:athyn sarethi|NAME:The ash statues are a sign of the Sixth House. But they are not the main front. Destroy Dagoth Ur. Do not get sidetracked by smaller plots.|SCVR:34JX3B5_RedoranHort|INTV:2
+
+[DUP-INF]: ID=354411755245022384(Topic:blades)
+  |DATA|ONAM:elone|NAME:Yes, we heard Caius had been recalled. He said we'd still be forwarding our reports to him. I think he thought what you're doing is important -- whatever it is -- he didn't tell us -- and we weren't supposed to bother you.|SCVR:01460|INTV|SCVR:14JX3A2_4_MiloGone|INTV
+
+[DUP-INF]: ID=566093261903016244(Greeting:greeting 5)
+  |DATA|ONAM:caius cosades|NAME|WHAT?! Hasphat Antabolis is DEAD? And you were responsible? Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE!     [This path to your destiny is blocked.]|SCVR:04JX3A1_1_FindSpymaster|INTV|SCVR:16DX3hasphat antabolis|INTV|BNAM:SetDisposition 0  Goodbye
+
+[MOD-INF]: ID=619023238327319455(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:caius cosades|NAME:You're on your own now. Just do what I've told you. Get Mehra Milo to help you find the lost prophecies. Then take those lost prophecies to Nibani Maesa. From that point, you'll have to follow her directions, and follow the prophecies. Good luck.|SCVR:04JX3A2_4_MiloGone|INTV
+  Escort Caius.esp->|DATA|ONAM:caius cosades|NAME:You're on your own now. Just do what I've told you. Get Mehra Milo to help you find the lost prophecies. Then take those lost prophecies to Nibani Maesa. From that point, you'll have to follow her directions, and follow the prophecies. Good luck.|SCVR:04JX3A2_3_CorprusSafe|INTV:F
+
+[DUP-INF]: ID=1656921162306334539(Topic:little secret)
+  |DATA|CNAM:Miner|ANAM:Dissapla Mine|NAME:Smuggling raw glass is a crime. All raw glass belongs to the Emperor, so it's the crime of treason, and punished by death. But... there's so much money to be made selling black market raw glass that it's a rare merchant who'll refuse to buy a piece from you. Of course, if the mine guards catch you stealing raw glass, they just kill you. Which is why we don't steal raw glass.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=1686650803087916925(Topic:disturbing dreams)
+  |DATA|CNAM:Wise Woman|FNAM:Ashlanders|NAME:The Devil's evil dreams are gone, %PCName. Dagoth Ur is dead. Now my people can dream in peace.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=1715812087395619656(Topic:someone in particular)
+  |DATA|ANAM:Mournhold, Godsreach|NAME:The manors are in the west; the Winged Guar -- the local cornerclub -- the Craftmen's Hall and the Museum of Artifacts are in the east. Hession is the publican of the Winged Guar, and Torasa Aram is the curator of the museum. Bols Indalen, our celebrated local smith, has a forge at Craftmen's Hall, along with other merchants and crafters. It's a big city. If there's someone else you want, you'll have to ask around.|SCVR:07XX0hession|INTV|SCVR:17XX0Torasa Aram|INTV|SCVR:27XX0bols indalen|INTV
+
+[DUP-INF]: ID=2405019711740331778(Topic:ald'ruhn)
+  |DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:Ald'ruhn has two main districts. The Redoran Council and manors under the shell of the Emperor Crab are known as "Ald'ruhn-under-Skar."
+
+[DUP-INF]: ID=2521731792966111939(Topic:skooma)
+  |DATA|RNAM:Khajiit|CNAM:Trader Service|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, %Name wants nothing to do with breaking laws. That would be wrong.|BNAM:;publican; trader;
+
+[DUP-INF]: ID=2738313961397317087(Topic:the mainland)
+  |DATA|ONAM:apelles matius|NAME:Yes, in Mournhold itself, actually. If you're feeling particularly suicidal, you can check it out for yourself. Of course, it's not easy to get there these days. Because of the Blight, boats from Vvardenfell are turned away immediately. There is one way you might get there, though. Speak with Asciene Rane about transport to Mournhold--she might be able to help you out.|SCVR:04JX3TR_DBAttack|INTV: 
+
+[DUP-INF]: ID=2885157303112614253(Topic:little secret)
+  |DATA|NAME:They say there's pirate treasure buried somewhere on the island.  Been here for a hundred years, and nobody's ever found it.
+
+[DUP-INF]: ID=2894723582136028300(Topic:nine-toes)
+  |DATA|ONAM:caius cosades|NAME:You may have heard that he is a murderer. I have known Nine-Toes for many years. I do not believe he could be the real murderer. Why not see for yourself? From my house go down the steps to your right. His house is the first on your left.|SCVR:04JX2HH_Retaliation|INTV:|SCVR:14JX4HH_Retaliation|INTV:d
+
+[DUP-INF]: ID=3059715983399729955(Topic:little secret)
+  |DATA|CNAM:Miner|ANAM:Dunirai Caverns|NAME:Smuggling raw glass is a crime. All raw glass belongs to the Emperor, so it's the crime of treason, and punished by death. But... there's so much money to be made selling black market raw glass that it's a rare merchant who'll refuse to buy a piece from you. Of course, if the mine guards catch you stealing raw glass, they just kill you. Which is why we don't steal raw glass.|SCVR:0CsX0nolore|INTV:
+
+[DUP-INF]: ID=3100221151300528416(Topic:someone in particular)
+  |DATA|ANAM:Mournhold, Great Bazaar|NAME:The public bazaar, with its various itinerent merchants and crafters, are in the western part of the Great Bazaar. Meryn Othralas also presents plays there. In the east, two buildings house a variety of permanent shops -- bookseller, merchant mage, armorer, clothier, pawnbroker, and trader. It's a big city. If there's someone else you want, you'll have to ask around.|SCVR:07XX0meryn othralas|INTV
+
+[DUP-INF]: ID=3156925689102271642(Greeting:greeting 5)
+  |DATA|ONAM:Blatta Hateria|NAME:Yup. Fishing's a little slow. Weather's been a bit warm.
+
+[DUP-INF]: ID=8690279262223329788(Topic:disturbing dreams)
+  |DATA|CNAM:Wise Woman Service|FNAM:Ashlanders|NAME:The Devil's evil dreams are gone, %PCName. Dagoth Ur is dead. Now my people can dream in peace.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=9915147733057621536(Topic:morrowind history)
+  |DATA|ONAM:hasphat antabolis|NAME:When we UNDERSTAND the events that occur to us, the events become history. History is understanding. Otherwise we're all just dumb animals trying to get in out of the cold.|SCVR:04JX3book_OnMorrowind|INTV|SCVR:12sX4Random100|INTV:!
+
+[DUP-INF]: ID=10383195842825314349(Topic:little secret)
+  |DATA|ONAM:svenja_outside|NAME:The name of the wolf that killed Hrothmund is "Ondjage." You'll need to say his name to enter Hrothmund's Barrow. Say any other name and you'll NEVER be able to get in!
+
+[DUP-INF]: ID=13214166372160117024(Topic:what you've learned)
+  |DATA|ONAM:caius cosades|NAME:And my instincts tell me that the Sixth House cult ties in somehow with the historical link between Nerevar and Dagoth Ur, and with the Dissident priests' suspicions about the nature of the Tribunal's magical power and immortality. And considering the recent increase in Blight storms and other activity near Red Mountain, I wonder if something has gone wrong in the Temple's ancient war with Dagoth Ur... something the Temple is eager to hide.|SCVR:01500|INTV|SCVR:34JX3A1_11_ZainsubaniInformant|INTV|SCVR:44JX4A1_11_ZainsubaniInformant|INTV:2
+
+[DUP-INF]: ID=16075268122032629973(Topic:nerevarine)
+  |DATA|ONAM:ghost_npc_hort_ledd|NAME:You are the Nerevarine. You are the Incarnate. You are the one. You must not fail.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+
+[DUP-INF]: ID=19139287163203512660(Topic:little advice)
+  |DATA|ONAM:caius cosades|NAME:How do you judge a job's difficulty? Consider three things: location, opposition, and payoff. Long walks into the wilderness are usually tougher than local or town tasks. Tough opponents make tough jobs. Daedra, vampires, rogue Telvanni -- you'll learn which ones to look out for. And finally, if the reward offered is large, the dangers will be large, too.|SCVR:02sX4Random100|INTV:!
+
+[MOD-INF]: ID=22194207702261424617(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:caius cosades|NAME:%PCName. Thank you for your report. I'm very happy you've been cured. Unfortunately, I've had a bit of bad news. I've been recalled to the Imperial City. You'll be promoted to Operative, and will head the Blades here in Vvardenfell until I return. I've only waited here to give you your final orders before I go.|SCVR:04JX3A2_3_CorprusCure|INTV:2
+  Escort Caius.esp->|DATA|ONAM:caius cosades|NAME:%PCName. Thank you for your report. I'm very happy you've been cured. Unfortunately, I've had a bit of bad news. I've been recalled to the Imperial City. You'll be promoted to Operative, and will head the Blades here in Vvardenfell until I return. I've only waited here to give you your final orders before I go.|SCVR:04JX3A2_3_CorprusCure|INTV:2|SCVR:14JX5A2_3_CorprusCure|INTV:3
+
+[DUP-INF]: ID=23576220211423514324(Topic:little advice)
+  |DATA|FNAM:Camonna Tong|NAME:You want my advice, outlander? Stay clear of the Cammona Tong. We don't like outlanders.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=24506143413272312924(Topic:freelance work)
+  |DATA|ONAM:caius cosades|NAME:You can always just wander around and ask for work. Hunt monsters and sell their hides. Collect ingredients for alchemists. Prey on bandits and smugglers. Search ruins for loot. All you need are better skills and conditioning, and knowledge of Morrowind. And spend what you earn on equipment and training. Then come back a little less wet-behind-the-ears, and I won't have to worry so much about you when I send you out on a mission.|SCVR:01064|INTV
+
+[DUP-INF]: ID=25042165042180828560(Topic:temple)
+  |DATA|ONAM:caius cosades|NAME:The Tribunal Temple is the native religion. They worship three God-Kings, Almalexia, Sotha Sil, and Vivec, who are known together as the Tribunal. We usually just call it 'The Temple.' They're narrow-minded and superstitious, but I find a lot to admire -- particularly their concern for the poor. They accept outlanders as members, but few outlanders join except for the services. Talk to Feldrelo Sadri at the Balmora Temple if you're thinking about joining.|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[DUP-INF]: ID=25545155362260931097(Greeting:greeting 5)
+  |DATA|ONAM:Blatta Hateria|NAME:One day's pretty much like another to me. But you suit yourself.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=25693272922242731603(Topic:little secret)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.

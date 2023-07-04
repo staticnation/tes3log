@@ -1,0 +1,28 @@
+Quests In Balmora Waterworks - No Dura gra-Bol.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1568021 (plugin)    1567893 (installed size)
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+    [NUMRECS]: number of records in TES3.HEDR (27) != Actual count (22)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(QIBW_BalynOmavelSc)
+	SCPT(QIBW_HlaaloActSc)
+	SCPT(QIBW_HlaaloNoteSc)
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    tg_manorkey
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    sovor trandel
+	morrowind.esm       NPC_    ernil omoran
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=683617041214825108(Greeting:greeting 1)
+  tribunal.esm--------------------------------------->|DATA|ONAM:balyn omavel|NAME:What are you doing? Get out of there! Who sent you here? Get away!!!|SCVR:04JX0DA_Mephala|INTV:(
+  Quests In Balmora Waterworks - No Dura gra-Bol.esp->|DATA|ONAM:balyn omavel|NAME:What are you doing? Get out of there! Who sent you here? Get away!!!|SCVR:04JX0DA_Mephala|INTV:(|BNAM:StartScript QIBW_BalynOmavelSc
+
+[DUP-INF]: ID=13972120302797510338(Journal:tg_manorkey)
+  |DATA|NAME:I told Ondres Nerano that Sovor Trandel gave me a key to his manor. Ondres Nerano gave me 10 gold as a reward.
+
+[MOD-INF]: ID=14843235153159213783(Topic:sovor trandel)
+  morrowind.esm-------------------------------------->|DATA|ONAM:ondres nerano|NAME:I will handle this personally. Here, take these 10 drakes as a reward for your honesty.|SCVR:01500|INTV|BNAM:Journal TG_ManorKey 70  Player->RemoveItem key_neranomanor 1  AddItem key_neranomanor 1  Player->AddItem Gold_001 10  ModDisposition 25  "Sovor Trandel"->Disable
+  Quests In Balmora Waterworks - No Dura gra-Bol.esp->|DATA|ONAM:ondres nerano|NAME:I will see to this personally. He will rot in the sewers till the end of his days. Here, take this as a reward for your honesty.|SCVR:01500|INTV|BNAM:Journal TG_ManorKey 70  Player->RemoveItem key_neranomanor 1  AddItem key_neranomanor 1  Player->AddItem Gold_001 10  ModDisposition 25  if ( GetDeadCount "Sovor Trandel" == 0 )  "Sovor Trandel"->PositionCell 815 7937 1031 4800 "Balmora, Western Sewer"  "Sovor Trandel"->SetFight 75  "Sovor Trandel"->ModDisposition -100  "Sovor Trandel"->additem "dim_ScrewYouSovorNote" 1  "Sovor Trandel"->additem "gold_001" 50  set QIBW_SovorTrandel to 1  endif

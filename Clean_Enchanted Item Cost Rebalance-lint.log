@@ -1,0 +1,432 @@
+Clean_Enchanted Item Cost Rebalance.ESP: DUP-REC MISSAUT MISSDSC MISSVER OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ARMO    blessed_shield
+	bloodmoon.esm       ARMO    bm bear helmet_ber
+	bloodmoon.esm       ARMO    storm helm
+	bloodmoon.esm       CLOT    amulet of infectious charm
+	bloodmoon.esm       CLOT    bm_black_glove_l_s
+	bloodmoon.esm       CLOT    bm_black_glove_r_s
+	bloodmoon.esm       CLOT    bm_nordic01_robe_whitewalk
+	bloodmoon.esm       WEAP    imperial shortsword severio
+	bloodmoon.esm       WEAP    silver flameaxe
+	bloodmoon.esm       WEAP    silver flameblade
+	bloodmoon.esm       WEAP    silver flameskewer
+	bloodmoon.esm       WEAP    silver flameslayer
+	bloodmoon.esm       WEAP    silver flamesword
+	bloodmoon.esm       WEAP    silver shardaxe
+	bloodmoon.esm       WEAP    silver shardblade
+	bloodmoon.esm       WEAP    silver shardskewer
+	bloodmoon.esm       WEAP    silver shardslayer
+	bloodmoon.esm       WEAP    silver shardsword
+	bloodmoon.esm       WEAP    silver sparkaxe
+	bloodmoon.esm       WEAP    silver sparkblade
+	bloodmoon.esm       WEAP    silver sparkskewer
+	bloodmoon.esm       WEAP    silver sparkslayer
+	bloodmoon.esm       WEAP    silver sparksword
+	bloodmoon.esm       WEAP    silver staff of chastening
+	bloodmoon.esm       WEAP    silver staff of paralysis
+	bloodmoon.esm       WEAP    silver staff of peace
+	bloodmoon.esm       WEAP    silver staff of reckoning
+	bloodmoon.esm       WEAP    silver staff of shaming
+	bloodmoon.esm       WEAP    silver staff of war
+	bloodmoon.esm       WEAP    silver viperaxe
+	bloodmoon.esm       WEAP    silver viperblade
+	bloodmoon.esm       WEAP    silver viperskewer
+	bloodmoon.esm       WEAP    silver viperslayer
+	morrowind.esm       ARMO    blessed_tower_shield
+	morrowind.esm       ARMO    cephalopod_helm_htnk
+	morrowind.esm       ARMO    chest of fire
+	morrowind.esm       ARMO    conoon_chodala_boots_unique
+	morrowind.esm       ARMO    feather_shield
+	morrowind.esm       ARMO    gauntlet _horny_fist_l
+	morrowind.esm       ARMO    gauntlet_horny_fist_r
+	morrowind.esm       ARMO    heart wall
+	morrowind.esm       ARMO    helm of wounding
+	morrowind.esm       ARMO    holy_shield
+	morrowind.esm       ARMO    holy_tower_shield
+	morrowind.esm       ARMO    icecap_unique
+	morrowind.esm       ARMO    imperial_helm_frald_uniq
+	morrowind.esm       ARMO    lbonemold brace of horny fist
+	morrowind.esm       ARMO    left cloth horny fist bracer
+	morrowind.esm       ARMO    left gauntlet of the horny fist
+	morrowind.esm       ARMO    left_horny_fist_gauntlet
+	morrowind.esm       ARMO    merisan helm
+	morrowind.esm       ARMO    merisan_cuirass
+	morrowind.esm       ARMO    rbonemold bracer of horny fist
+	morrowind.esm       ARMO    right cloth horny fist bracer
+	morrowind.esm       ARMO    right gauntlet of horny fist
+	morrowind.esm       ARMO    right horny fist gauntlet
+	morrowind.esm       ARMO    shield of the undaunted
+	morrowind.esm       ARMO    shield of wounds
+	morrowind.esm       ARMO    shield_of_light
+	morrowind.esm       ARMO    slave_bracer_left
+	morrowind.esm       ARMO    slave_bracer_right
+	morrowind.esm       ARMO    velothian shield
+	morrowind.esm       ARMO    velothian_helm
+	morrowind.esm       ARMO    velothis_shield
+	morrowind.esm       ARMO    veloths_shield
+	morrowind.esm       CLOT    adusamsi's_ring
+	morrowind.esm       CLOT    adusamsi's_robe
+	morrowind.esm       CLOT    amulet of almsivi intervention
+	morrowind.esm       CLOT    amulet of balyna's antidote
+	morrowind.esm       CLOT    amulet of balyna's soothing bal
+	morrowind.esm       CLOT    amulet of divine intervention
+	morrowind.esm       CLOT    amulet of far silence
+	morrowind.esm       CLOT    amulet of frost
+	morrowind.esm       CLOT    amulet of health
+	morrowind.esm       CLOT    amulet of light
+	morrowind.esm       CLOT    amulet of locking
+	morrowind.esm       CLOT    amulet of mark
+	morrowind.esm       CLOT    amulet of mighty blows
+	morrowind.esm       CLOT    amulet of opening
+	morrowind.esm       CLOT    amulet of recall
+	morrowind.esm       CLOT    amulet of rest
+	morrowind.esm       CLOT    amulet of shades
+	morrowind.esm       CLOT    amulet of shield
+	morrowind.esm       CLOT    amulet of silence
+	morrowind.esm       CLOT    amulet of stamina
+	morrowind.esm       CLOT    amulet of water walking
+	morrowind.esm       CLOT    amulet_aundae
+	morrowind.esm       CLOT    amulet_berne
+	morrowind.esm       CLOT    amulet_gem_feeding
+	morrowind.esm       CLOT    ancestor's ring
+	morrowind.esm       CLOT    aryongloveright
+	morrowind.esm       CLOT    balm amulet
+	morrowind.esm       CLOT    belt of balyna's soothing balm
+	morrowind.esm       CLOT    belt of charisma
+	morrowind.esm       CLOT    belt of feet of notorgo
+	morrowind.esm       CLOT    belt of fortitude
+	morrowind.esm       CLOT    belt of free action
+	morrowind.esm       CLOT    belt of iron will
+	morrowind.esm       CLOT    belt of jack of trades
+	morrowind.esm       CLOT    belt of nimbleness
+	morrowind.esm       CLOT    belt of northern knuck knuck
+	morrowind.esm       CLOT    belt of orc's strength
+	morrowind.esm       CLOT    belt of the armor of god
+	morrowind.esm       CLOT    belt of vigor
+	morrowind.esm       CLOT    belt of wisdom
+	morrowind.esm       CLOT    bitter_hand
+	morrowind.esm       CLOT    blind ring
+	morrowind.esm       CLOT    blood belt
+	morrowind.esm       CLOT    blood despair amulet
+	morrowind.esm       CLOT    bone charm
+	morrowind.esm       CLOT    bone guard belt
+	morrowind.esm       CLOT    bonebiter charm
+	morrowind.esm       CLOT    brawlers_belt
+	morrowind.esm       CLOT    bugharz's belt
+	morrowind.esm       CLOT    caius_pants
+	morrowind.esm       CLOT    caius_ring
+	morrowind.esm       CLOT    caius_shirt
+	morrowind.esm       CLOT    caliginy ring
+	morrowind.esm       CLOT    chameleon ring
+	morrowind.esm       CLOT    champion belt
+	morrowind.esm       CLOT    clench charm
+	morrowind.esm       CLOT    common_shoes_02_surefeet
+	morrowind.esm       CLOT    crimson despair amulet
+	morrowind.esm       CLOT    cruel flamebolt ring
+	morrowind.esm       CLOT    cruel shardbolt ring
+	morrowind.esm       CLOT    cruel sparkbolt ring
+	morrowind.esm       CLOT    cruel viperbolt ring
+	morrowind.esm       CLOT    crying ring
+	morrowind.esm       CLOT    detect_enchantment_ring
+	morrowind.esm       CLOT    dire flamebolt ring
+	morrowind.esm       CLOT    dire shardbolt ring
+	morrowind.esm       CLOT    dire sparkbolt ring
+	morrowind.esm       CLOT    dire viperbolt ring
+	morrowind.esm       CLOT    distraction ring
+	morrowind.esm       CLOT    doze charm
+	morrowind.esm       CLOT    ember hand
+	morrowind.esm       CLOT    ember_hand
+	morrowind.esm       CLOT    evil eye charm
+	morrowind.esm       CLOT    expensive_ring_01_hrdt
+	morrowind.esm       CLOT    expensive_shirt_hair
+	morrowind.esm       CLOT    exquisite_robe_drake's pride
+	morrowind.esm       CLOT    extravagant_robe_01_red
+	morrowind.esm       CLOT    eye-maze ring
+	morrowind.esm       CLOT    father's belt
+	morrowind.esm       CLOT    feather belt
+	morrowind.esm       CLOT    feather ring
+	morrowind.esm       CLOT    fenrick's doorjam ring
+	morrowind.esm       CLOT    fighter_ring
+	morrowind.esm       CLOT    firestone
+	morrowind.esm       CLOT    first barrier belt
+	morrowind.esm       CLOT    first barrier ring
+	morrowind.esm       CLOT    flamebolt ring
+	morrowind.esm       CLOT    flameguard robe
+	morrowind.esm       CLOT    founder's belt
+	morrowind.esm       CLOT    frostguard robe
+	morrowind.esm       CLOT    fuddle charm
+	morrowind.esm       CLOT    ghost charm
+	morrowind.esm       CLOT    graveward amulet
+	morrowind.esm       CLOT    gripes charm
+	morrowind.esm       CLOT    hawkshaw ring
+	morrowind.esm       CLOT    heartbite ring
+	morrowind.esm       CLOT    hearth belt
+	morrowind.esm       CLOT    heartstone
+	morrowind.esm       CLOT    herder's belt
+	morrowind.esm       CLOT    hex charm
+	morrowind.esm       CLOT    hlervu_locket_unique
+	morrowind.esm       CLOT    hoptoad ring
+	morrowind.esm       CLOT    hortatorbelt
+	morrowind.esm       CLOT    hortatorring
+	morrowind.esm       CLOT    hortatorrobe
+	morrowind.esm       CLOT    hunter's belt
+	morrowind.esm       CLOT    juicedaw ring
+	morrowind.esm       CLOT    life belt
+	morrowind.esm       CLOT    life ring
+	morrowind.esm       CLOT    lifestone
+	morrowind.esm       CLOT    light amulet
+	morrowind.esm       CLOT    light ring
+	morrowind.esm       CLOT    linus_iulus_stendarran_belt
+	morrowind.esm       CLOT    mage_ring
+	morrowind.esm       CLOT    magickguard robe
+	morrowind.esm       CLOT    malipu_ataman's_belt
+	morrowind.esm       CLOT    mark_ring
+	morrowind.esm       CLOT    mother's ring
+	morrowind.esm       CLOT    murdrum ring
+	morrowind.esm       CLOT    nuccius_ring
+	morrowind.esm       CLOT    ondusi's key
+	morrowind.esm       CLOT    peakstar_belt_unique
+	morrowind.esm       CLOT    peakstar_pants_unique
+	morrowind.esm       CLOT    poisonguard robe
+	morrowind.esm       CLOT    recall_ring
+	morrowind.esm       CLOT    red despair amulet
+	morrowind.esm       CLOT    restoration_shirt
+	morrowind.esm       CLOT    right_hand_of_zenithar
+	morrowind.esm       CLOT    ring of aversion
+	morrowind.esm       CLOT    ring of exhaustion
+	morrowind.esm       CLOT    ring of fire storm
+	morrowind.esm       CLOT    ring of fireball
+	morrowind.esm       CLOT    ring of fireballs
+	morrowind.esm       CLOT    ring of firefist
+	morrowind.esm       CLOT    ring of fleabite
+	morrowind.esm       CLOT    ring of hornhand
+	morrowind.esm       CLOT    ring of ice bolts
+	morrowind.esm       CLOT    ring of ice storm
+	morrowind.esm       CLOT    ring of icegrip
+	morrowind.esm       CLOT    ring of ironhand
+	morrowind.esm       CLOT    ring of lightning bolt
+	morrowind.esm       CLOT    ring of lightning storm
+	morrowind.esm       CLOT    ring of night-eye
+	morrowind.esm       CLOT    ring of poisonblooms
+	morrowind.esm       CLOT    ring of shadow form
+	morrowind.esm       CLOT    ring of shockballs
+	morrowind.esm       CLOT    ring of shocking touch
+	morrowind.esm       CLOT    ring of sphere of negation
+	morrowind.esm       CLOT    ring of stormhand
+	morrowind.esm       CLOT    ring of tears
+	morrowind.esm       CLOT    ring of telekinesis_unique
+	morrowind.esm       CLOT    ring of the black hand
+	morrowind.esm       CLOT    ring of the five fingers of pai
+	morrowind.esm       CLOT    ring of toxic cloud
+	morrowind.esm       CLOT    ring of transcendent wisdom
+	morrowind.esm       CLOT    ring of transfiguring wisdom
+	morrowind.esm       CLOT    ring of vampire's kiss
+	morrowind.esm       CLOT    ring of wildfire
+	morrowind.esm       CLOT    ring of wizard's fire
+	morrowind.esm       CLOT    ring of wounds
+	morrowind.esm       CLOT    ring_blackjinx_uniq
+	morrowind.esm       CLOT    ring_dahrkmezalf_uniq
+	morrowind.esm       CLOT    ring_keley
+	morrowind.esm       CLOT    robe of burdens
+	morrowind.esm       CLOT    robe of st roris
+	morrowind.esm       CLOT    robe of trials
+	morrowind.esm       CLOT    sacrifice ring
+	morrowind.esm       CLOT    sarandas_shoes_2
+	morrowind.esm       CLOT    second barrier belt
+	morrowind.esm       CLOT    second barrier ring
+	morrowind.esm       CLOT    shadowmask ring
+	morrowind.esm       CLOT    shadowweave ring
+	morrowind.esm       CLOT    shame ring
+	morrowind.esm       CLOT    shardbolt ring
+	morrowind.esm       CLOT    shockguard robe
+	morrowind.esm       CLOT    shoes_of_conviction
+	morrowind.esm       CLOT    silence charm
+	morrowind.esm       CLOT    sleep amulet
+	morrowind.esm       CLOT    slippers_of_doom
+	morrowind.esm       CLOT    soulpinch charm
+	morrowind.esm       CLOT    sparkbolt ring
+	morrowind.esm       CLOT    spiritstrike ring
+	morrowind.esm       CLOT    st. felm's fire
+	morrowind.esm       CLOT    st. sotha's judgement
+	morrowind.esm       CLOT    stendarran belt
+	morrowind.esm       CLOT    stumble charm
+	morrowind.esm       CLOT    tailored_trousers
+	morrowind.esm       CLOT    thief_ring
+	morrowind.esm       CLOT    third barrier belt
+	morrowind.esm       CLOT    third barrier ring
+	morrowind.esm       CLOT    thunderfall
+	morrowind.esm       CLOT    veloth's robe
+	morrowind.esm       CLOT    viperbolt ring
+	morrowind.esm       CLOT    warden's ring
+	morrowind.esm       CLOT    watcher's belt
+	morrowind.esm       CLOT    weeping robe
+	morrowind.esm       CLOT    wild sty ring
+	morrowind.esm       CLOT    witch charm
+	morrowind.esm       CLOT    woe charm
+	morrowind.esm       ENCH    devil axe_en
+	morrowind.esm       ENCH    devil cephalopod
+	morrowind.esm       ENCH    devil helm_en
+	morrowind.esm       ENCH    devil katana_en
+	morrowind.esm       ENCH    devil longbow_en
+	morrowind.esm       ENCH    devil mole crab
+	morrowind.esm       ENCH    devil spear_en
+	morrowind.esm       ENCH    devil tanto_en
+	morrowind.esm       ENCH    dire shard_en
+	morrowind.esm       ENCH    dire spark_en
+	morrowind.esm       WEAP    banhammer_unique
+	morrowind.esm       WEAP    cruel flameblade
+	morrowind.esm       WEAP    cruel flamesword
+	morrowind.esm       WEAP    cruel shardblade
+	morrowind.esm       WEAP    cruel shardsword
+	morrowind.esm       WEAP    cruel sparkblade
+	morrowind.esm       WEAP    cruel sparksword
+	morrowind.esm       WEAP    cruel viperblade
+	morrowind.esm       WEAP    cruel vipersword
+	morrowind.esm       WEAP    daedric tanto
+	morrowind.esm       WEAP    dagger of judgement
+	morrowind.esm       WEAP    dagoth dagger
+	morrowind.esm       WEAP    daunting mace
+	morrowind.esm       WEAP    demon katana
+	morrowind.esm       WEAP    demon longbow
+	morrowind.esm       WEAP    demon mace
+	morrowind.esm       WEAP    devil katana
+	morrowind.esm       WEAP    devil longbow
+	morrowind.esm       WEAP    devil tanto
+	morrowind.esm       WEAP    dire flameblade
+	morrowind.esm       WEAP    dire flamesword
+	morrowind.esm       WEAP    dire shardblade
+	morrowind.esm       WEAP    dire shardsword
+	morrowind.esm       WEAP    dire sparkblade
+	morrowind.esm       WEAP    dire sparksword
+	morrowind.esm       WEAP    dire viperblade
+	morrowind.esm       WEAP    dire vipersword
+	morrowind.esm       WEAP    divine judgement silver staff
+	morrowind.esm       WEAP    dwemer jinksword
+	morrowind.esm       WEAP    fiend battle axe
+	morrowind.esm       WEAP    fiend katana
+	morrowind.esm       WEAP    fiend longbow
+	morrowind.esm       WEAP    fiend spear
+	morrowind.esm       WEAP    fiend tanto
+	morrowind.esm       WEAP    firebite dagger
+	morrowind.esm       WEAP    firebite sword
+	morrowind.esm       WEAP    firebite war axe
+	morrowind.esm       WEAP    fireblade
+	morrowind.esm       WEAP    grey shaft of holding
+	morrowind.esm       WEAP    grey shaft of nonsense
+	morrowind.esm       WEAP    icebreaker
+	morrowind.esm       WEAP    icicle
+	morrowind.esm       WEAP    imperial netch blade
+	morrowind.esm       WEAP    iron flameblade
+	morrowind.esm       WEAP    iron flamecleaver
+	morrowind.esm       WEAP    iron flamemace
+	morrowind.esm       WEAP    iron flamemauler
+	morrowind.esm       WEAP    iron flameskewer
+	morrowind.esm       WEAP    iron flameslayer
+	morrowind.esm       WEAP    iron flamesword
+	morrowind.esm       WEAP    iron longsword
+	morrowind.esm       WEAP    iron shardaxe
+	morrowind.esm       WEAP    iron shardblade
+	morrowind.esm       WEAP    iron shardmace
+	morrowind.esm       WEAP    iron shardmauler
+	morrowind.esm       WEAP    iron shardskewer
+	morrowind.esm       WEAP    iron shardslayer
+	morrowind.esm       WEAP    iron shardsword
+	morrowind.esm       WEAP    iron sparkaxe
+	morrowind.esm       WEAP    iron sparkblade
+	morrowind.esm       WEAP    iron sparkcleaver
+	morrowind.esm       WEAP    iron sparkmace
+	morrowind.esm       WEAP    iron sparkmauler
+	morrowind.esm       WEAP    iron sparkskewer
+	morrowind.esm       WEAP    iron sparkslayer
+	morrowind.esm       WEAP    iron sparksword
+	morrowind.esm       WEAP    iron spider dagger
+	morrowind.esm       WEAP    iron viperaxe
+	morrowind.esm       WEAP    iron viperblade
+	morrowind.esm       WEAP    iron vipercleaver
+	morrowind.esm       WEAP    iron vipermauler
+	morrowind.esm       WEAP    iron viperskewer
+	morrowind.esm       WEAP    iron viperslayer
+	morrowind.esm       WEAP    iron vipersword
+	morrowind.esm       WEAP    last wish
+	morrowind.esm       WEAP    light staff
+	morrowind.esm       WEAP    merisan club
+	morrowind.esm       WEAP    peacemaker
+	morrowind.esm       WEAP    shockbite battle axe
+	morrowind.esm       WEAP    shockbite halberd
+	morrowind.esm       WEAP    shockbite war axe
+	morrowind.esm       WEAP    snowy crown
+	morrowind.esm       WEAP    spear_of_light
+	morrowind.esm       WEAP    spiderbite
+	morrowind.esm       WEAP    staff of the forefathers
+	morrowind.esm       WEAP    steel blade of heaven
+	morrowind.esm       WEAP    steel broadsword of hewing
+	morrowind.esm       WEAP    steel claymore of hewing
+	morrowind.esm       WEAP    steel dagger of swiftblade
+	morrowind.esm       WEAP    steel firesword
+	morrowind.esm       WEAP    steel flameaxe
+	morrowind.esm       WEAP    steel flameblade
+	morrowind.esm       WEAP    steel flamecleaver
+	morrowind.esm       WEAP    steel flamemace
+	morrowind.esm       WEAP    steel flamemauler
+	morrowind.esm       WEAP    steel flamescythe
+	morrowind.esm       WEAP    steel flameskewer
+	morrowind.esm       WEAP    steel flameslayer
+	morrowind.esm       WEAP    steel flamesword
+	morrowind.esm       WEAP    steel frostsword
+	morrowind.esm       WEAP    steel jinkblade
+	morrowind.esm       WEAP    steel jinksword
+	morrowind.esm       WEAP    steel poisonsword
+	morrowind.esm       WEAP    steel shardaxe
+	morrowind.esm       WEAP    steel shardblade
+	morrowind.esm       WEAP    steel shardcleaver
+	morrowind.esm       WEAP    steel shardmace
+	morrowind.esm       WEAP    steel shardmauler
+	morrowind.esm       WEAP    steel shardscythe
+	morrowind.esm       WEAP    steel shardskewer
+	morrowind.esm       WEAP    steel shardslayer
+	morrowind.esm       WEAP    steel shardsword
+	morrowind.esm       WEAP    steel sparkaxe
+	morrowind.esm       WEAP    steel sparkblade
+	morrowind.esm       WEAP    steel sparkcleaver
+	morrowind.esm       WEAP    steel sparkmace
+	morrowind.esm       WEAP    steel sparkmauler
+	morrowind.esm       WEAP    steel sparkscythe
+	morrowind.esm       WEAP    steel sparkskewer
+	morrowind.esm       WEAP    steel sparkslayer
+	morrowind.esm       WEAP    steel sparksword
+	morrowind.esm       WEAP    steel staff of chastening
+	morrowind.esm       WEAP    steel staff of divine judgement
+	morrowind.esm       WEAP    steel staff of peace
+	morrowind.esm       WEAP    steel staff of shaming
+	morrowind.esm       WEAP    steel staff of the ancestors
+	morrowind.esm       WEAP    steel staff of war
+	morrowind.esm       WEAP    steel stormsword
+	morrowind.esm       WEAP    steel viperaxe
+	morrowind.esm       WEAP    steel viperblade
+	morrowind.esm       WEAP    steel vipercleaver
+	morrowind.esm       WEAP    steel vipermace
+	morrowind.esm       WEAP    steel vipermauler
+	morrowind.esm       WEAP    steel viperscythe
+	morrowind.esm       WEAP    steel viperskewer
+	morrowind.esm       WEAP    steel viperslayer
+	morrowind.esm       WEAP    steel vipersword
+	morrowind.esm       WEAP    steel warhammer of smiting
+	morrowind.esm       WEAP    stormblade
+	morrowind.esm       WEAP    war axe of wounds
+	morrowind.esm       WEAP    wild flamesword
+	morrowind.esm       WEAP    wild shardsword
+	morrowind.esm       WEAP    wild sparksword
+	morrowind.esm       WEAP    wild vipersword
+	morrowind.esm       WEAP    wooden staff of chastening
+	morrowind.esm       WEAP    wooden staff of divine
+	morrowind.esm       WEAP    wooden staff of peace
+	morrowind.esm       WEAP    wooden staff of shaming
+	morrowind.esm       WEAP    wooden staff of war
+	tribunal.esm        CLOT    belt_goval
+	tribunal.esm        CLOT    extravagant_robe_02_elanande
+	tribunal.esm        CLOT    helseth's robe
+	tribunal.esm        CLOT    mazed_band_end
+	tribunal.esm        CLOT    variner's ring
+	tribunal.esm        WEAP    silver spear_uvenim

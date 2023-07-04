@@ -1,0 +1,13 @@
+Rincewind's_Luggage_1.2.esp: AUTOSPL DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	aatl_fatigue                   
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(AATL_LuggageScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AATL_Key_Script)
+	SCPT(AATL_LoadScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    greeting 8
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5

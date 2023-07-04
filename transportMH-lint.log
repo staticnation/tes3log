@@ -1,0 +1,30 @@
+transportMH.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DBho_lock)
+	SCPT(marthis_disable)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        NPC_    fedris hler
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[MOD-INF]: ID=1969313694195622814(Topic:dark brotherhood)
+  tribunal.esm---->|DATA|CNAM|NAME:I don't know why you'd want to go looking for those demons. Some say they live in the sewers beneath the Great Bazaar.|BNAM:Journal TR_DBAttack 100
+  transportMH.esp->|DATA|CNAM|NAME:I don't know why you'd want to go looking for those demons. Some say they live in the sewers beneath the Great Bazaar.|SCVR:04JX3TR_DBAttack|INTV:<|BNAM:Journal TR_DBAttack 100
+
+[MOD-INF]: ID=2134210292030117878(Greeting:greeting 1)
+  tribunal.esm---->|DATA|ONAM:fedris hler|NAME:Ahh...you're the one who has recently arrived in Mournhold from Vvardenfell. I was told of your arrival. I understand you had some problems with the Dark Brotherhood. An interesting group...and usually rather effective. I'm surprised you're still alive. Perhaps you have potential, or they sent incompetents. I believe you might be of service to our Lady.|SCVR:04JX4TR_KillGoblins|INTV: 
+  transportMH.esp->|DATA|ONAM:fedris hler|NAME:Ahh...you're the one who has recently arrived in Mournhold from Vvardenfell. I was told of your arrival. I understand you had some problems with the Dark Brotherhood. An interesting group...and usually rather effective. I'm surprised you're still alive. Perhaps you have potential, or they sent incompetents. I believe you might be of service to our Lady.|SCVR:04JX4TR_KillGoblins|INTV: |SCVR:14JX3TR_DBAttack|INTV:<
+
+[MOD-INF]: ID=2571717282110518638(Topic:dark brotherhood)
+  tribunal.esm---->|DATA|FNAM:Royal Guard|NAME:You want to go looking for them? It's your funeral. Look, I've heard rumors that they have a hideout in the ruins of Old Mournhold. You can get there through the sewers in the Great Bazaar.|BNAM:Journal TR_DBAttack 100
+  transportMH.esp->|DATA|FNAM:Royal Guard|NAME:You want to go looking for them? It's your funeral. Look, I've heard rumors that they have a hideout in the ruins of Old Mournhold. You can get there through the sewers in the Great Bazaar.|SCVR:04JX3TR_DBAttack|INTV:<|BNAM:Journal TR_DBAttack 100
+
+[DUP-INF]: ID=3106185062812528327(Topic:dark brotherhood)
+  |DATA|ONAM:asciene rane|NAME:Horrible people. Stay clear of them, my friend.|SCVR:02sX0DBAttack|INTV
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

@@ -1,0 +1,13 @@
+FGI_SadrithMora_SujammaDunirai.esp: DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (5) != Actual count (4)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dunirai caverns
+
+[MOD-INF]: ID=2372831459327301173(Topic:dunirai caverns)
+  morrowind.esm---------------------->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Workers in the Adas Mine have been complaining that they're out of sujamma, and the Fighters Guild is responsible for supplying the Imperial mines in Vvardenfell. Unfortunately, I've recently learned that my contact there, Nelacar, is dead. We'll have to wait until we get a new contact. There are other orders for you, though.|SCVR:06DX2nelacar|INTV:|SCVR:34JX3FG_TenimBounty|INTV:d|BNAM:Journal FG_DuniraiSupply 110
+  FGI_SadrithMora_SujammaDunirai.esp->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Workers in the Adas Mine have been complaining that they're out of sujamma, and the Fighters Guild is responsible for supplying the Imperial mines in Vvardenfell. Unfortunately, I've recently learned that my contact there, Nelacar, is dead. We'll have to wait until we get a new contact. There are other orders for you, though.|SCVR:06DX2nelacar|INTV:|SCVR:34JX3FG_TenimBounty|INTV:d|SCVR:44JX3FG_CorprusStalker|INTV:d|BNAM:Journal FG_DuniraiSupply 110
+
+[MOD-INF]: ID=3454249193232319073(Topic:dunirai caverns)
+  morrowind.esm---------------------->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Workers in the Adas Mine have been complaining that they're out of sujamma, and the Fighters Guild is responsible for supplying the Imperial mines in Vvardenfell. Take this load of sujamma to Nelacar in the Dunirai Caverns southeast of Ghostgate between the Foyada Esannudan and the Foyada Ashur-Dan.|SCVR:34JX3FG_TenimBounty|INTV:d|BNAM:Journal FG_DuniraiSupply 10  Player->AddItem Potion_Local_Liquor_01 20
+  FGI_SadrithMora_SujammaDunirai.esp->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Workers in the Adas Mine have been complaining that they're out of sujamma, and the Fighters Guild is responsible for supplying the Imperial mines in Vvardenfell. Take this load of sujamma to Nelacar in the Dunirai Caverns southeast of Ghostgate between the Foyada Esannudan and the Foyada Ashur-Dan. Although the road there is long and confusing, I don't think you will encounter something dangerous in those wastes.|SCVR:34JX3FG_TenimBounty|INTV:d|SCVR:44JX3FG_CorprusStalker|INTV:d|BNAM:Choice "Continue" 1

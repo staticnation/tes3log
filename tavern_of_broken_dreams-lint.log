@@ -1,0 +1,54 @@
+tavern_of_broken_dreams.esp: DUP-REC FOGBUG MISSVER MOD-INF OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	Tavern of Broken Dreams
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    dagoth aladus
+	morrowind.esm       CREA    dagoth malan
+	morrowind.esm       DIAL    ash ghoul
+	morrowind.esm       NPC_    a smuggler boss
+	morrowind.esm       NPC_    ather belden
+	morrowind.esm       NPC_    dalos golathyn
+	morrowind.esm       NPC_    fomesa tharys
+	morrowind.esm       NPC_    llandreri selothan
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        NPC_    achel
+	tribunal.esm        NPC_    edre retene
+
+[MOD-INF]: ID=15292671323227301(:my trade)
+  morrowind.esm--------------->|DATA|CNAM:Mage|NAME:I am a mage. My study is the destruction and alteration of the visible and invisible world. I study magic for its pure intellectual challenge and rewards, but I am paid in gold for the practical applications of my knowledge. Further, when undertaking expeditions in search of knowledge, I defend myself with spells of the College of Destruction, and leap, swim, and levitate with the spells of the College of Alteration.|SCVR:0CsX0NoLore|INTV:|BNAM:;Mage; Destruction, Alteration
+  tavern_of_broken_dreams.esp->|NAME:Evil witches do exist, but most of them won't give you any trouble if you act respectfully. That's true for all people, not just witches.|DELE:
+
+[MOD-INF]: ID=1947411886858921680(Topic:someone in particular)
+  morrowind.esm--------------->|DATA|ANAM:Balmora|NAME:None of the Hlaalu counselors live in Balmora. Nileno Dorvayn at the Council Hall is the ranking Hlaalu local. At the Fighters Guild, Eydis Fire-Eye is the steward. Ethasi Rilvayn is the Morag Tong steward. Feldrelo Sadri is the steward for the Balmora Tribunal Temple. Sugar Lips Habasi is the local Thieves Guild boss. Who am I missing? Oh. Mages Guild. Ranis Athrys is their steward.|SCVR:07XX0nileno dorvayn|INTV|SCVR:1CsX0nolore|INTV:|SCVR:27XX0ethasi rilvayn|INTV|SCVR:37XX0feldrelo sadri|INTV|SCVR:47XX0habasi|INTV|SCVR:57XX0ranis athrys|INTV|BNAM:;Balmora
+  tavern_of_broken_dreams.esp->|DATA|ANAM:Balmora|NAME:None of the Hlaalu counselors live in Balmora. Nileno Dorvayn at the Council Hall is the ranking Hlaalu local. At the Fighters Guild, Eydis Fire-Eye is the steward. Ethasi Rilvayn is the Morag Tong steward. Feldrelo Sadri is the steward for the Balmora Tribunal Temple. Sugar Lips Habasi is the local Thieves Guild boss. Who am I missing? Oh. Mages Guild. Ranis Athrys is their steward.|SCVR:07XX0nileno dorvayn|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0ethasi rilvayn|INTV|SCVR:37XX0feldrelo sadri|INTV|SCVR:47XX0habasi|INTV|SCVR:57XX0ranis athrys|INTV|BNAM:;Balmora
+
+[MOD-INF]: ID=2122632088405013352(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|RNAM:Dark Elf|NAME:Have you noticed, for all its proclamations about protecting the rights of property and preserving law and order, the Imperial legion does little enough to capture and prosecute abolitionists? That's a bit hypocritical, don't you think?|SCVR:0CsX0nolore|INTV:
+  tavern_of_broken_dreams.esp->|DATA|RNAM:Dark Elf|NAME:Have you noticed, for all its proclamations about protecting the rights of property and preserving law and order, the Imperial legion does little enough to capture and prosecute abolitionists? That's a bit hypocritical, don't you think?|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3219120251791225772(Topic:little advice)
+  tribunal.esm---------------->|DATA|NAME:If you kill yourself trying to complete a job that's too difficult for you, it's nobody's fault but your own.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:P|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+  tavern_of_broken_dreams.esp->|DATA|NAME:If you kill yourself trying to complete a job that's too difficult for you, it's nobody's fault but your own.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:P|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=16027228191418416208(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0nolore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+  tavern_of_broken_dreams.esp->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=17545243371364211941(Topic:little advice)
+  tribunal.esm---------------->|DATA|NAME:If you're heading into the backcountry, always carry a couple of Restore Health, Restore Fatigue, Cure Disease, and Cure Blight potions with you.|SCVR:0CsX0nolore|INTV:|BNAM:;bottom; default
+  tavern_of_broken_dreams.esp->|DATA|NAME:If you're heading into the backcountry, always carry a couple of Restore Health, Restore Fatigue, Cure Disease, and Cure Blight potions with you.|SCVR:0CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=30065136011644315896(Topic:little advice)
+  tribunal.esm---------------->|DATA|NAME:When you take a job, you have to have the good sense to hold off until you're stronger if it seems too hard for you.|SCVR:02sX4Random100|INTV:Z|SCVR:11630|INTV:|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+  tavern_of_broken_dreams.esp->|DATA|NAME:If you want to leave, just use the door. It's unusable for non-player characters, else we'd all be long gone, but it should work fine for you.|SCVR:02sX4Random100|INTV:Z|SCVR:11630|INTV:|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=31437326142699821404(Topic:little secret)
+  tribunal.esm---------------->|DATA|NAME:Talk to everyone. Talk is cheap. Ask questions. You don't ask, you never learn.|SCVR:0CsX0nolore|INTV:
+  tavern_of_broken_dreams.esp->|DATA|NAME:Talk to everyone. Talk is cheap. Ask questions. You don't ask, you never learn.|SCVR:0CsX0NoLore|INTV:

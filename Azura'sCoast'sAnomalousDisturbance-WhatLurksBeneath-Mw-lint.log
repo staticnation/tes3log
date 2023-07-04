@@ -1,0 +1,23 @@
+Azura'sCoast'sAnomalousDisturbance-WhatLurksBeneath-Mw.esp: BM-DEP DUP-REC EXP-DEP MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (225) != Actual count (153)
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(LCr_NuhkcriogGotS2a_scr)        getscale
+	SCPT(LCr_NuhkcriogGotS2a_scr)        setscale
+	SCPT(LCr_NuhkcriogGotS2b_scr)        getscale
+	SCPT(LCr_NuhkcriogGotS2b_scr)        setscale
+	SCPT(LCr_NuhkcriogGotS_scr)          getscale
+	SCPT(LCr_NuhkcriogGotS_scr)          setscale
+	SCPT(LCr_NuhkcriogNPC2_scr)          getpcsneaking
+	SCPT(LCr_NuhkcriogNPC3_scr)          getpcsneaking
+	SCPT(LCr_NuhkcriogNPC_scr)           getpcsneaking
+    [BM-DEP] Bloodmoon Dependency: Bloodmoon Functions:
+	SCPT(LCr_NuhkcriogGotS2a_scr)        placeatme
+	SCPT(LCr_NuhkcriogGotS2b_scr)        placeatme
+	SCPT(LCr_NuhkcriogGotS_scr)          placeatme
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(LCr_NuhkcriogBoss2Trophy_scr)
+	SCPT(LCr_NuhkcriogRowboat_scr)
+	SCPT(LCr_NuhkcriogShipDoor_scr)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1

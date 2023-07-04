@@ -1,0 +1,127 @@
+sfs.ESP: DUP-REC MENUMOD MISSAUT MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CorkyScript)
+	SCPT(SFS)
+	SCPT(ab01tmpBumpScript)
+	SCPT(ab01tmpOnLoadScript)
+	SCPT(cs_delay)
+	SCPT(cs_first_transfer)
+	SCPT(cs_place_cont)
+	SCPT(cs_update_script)
+	SCPT(dinScript)
+	SCPT(drerel_indaren)
+	SCPT(fonus_rathryon)
+	SCPT(hannatScript)
+	SCPT(nevrasa_dralor)
+	SCPT(paur_maston)
+	SCPT(pemenieScript)
+	SCPT(rabinna_death)
+	SCPT(reeh_jahScript)
+	SCPT(rollie)
+	SCPT(slaveScript)
+	SCPT(tulScript)
+	SCPT(viatrix_petilia)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    guar_llovyn_unique
+	morrowind.esm       CREA    guar_rollie_unique
+	morrowind.esm       DIAL    corky
+	morrowind.esm       DIAL    guar
+	morrowind.esm       NPC_    assaba-bentus
+	morrowind.esm       NPC_    botrir
+	morrowind.esm       NPC_    buoyant armiger_wander
+	morrowind.esm       NPC_    dandsa
+	morrowind.esm       NPC_    delyna mandas
+	morrowind.esm       NPC_    deval beleth
+	morrowind.esm       NPC_    din
+	morrowind.esm       NPC_    drerel indaren
+	morrowind.esm       NPC_    edras oril
+	morrowind.esm       NPC_    falura llervu
+	morrowind.esm       NPC_    fjorgeir
+	morrowind.esm       NPC_    fonus rathryon
+	morrowind.esm       NPC_    frelene acques
+	morrowind.esm       NPC_    hannat zainsubani
+	morrowind.esm       NPC_    hides_his_foot
+	morrowind.esm       NPC_    hlaalu guard
+	morrowind.esm       NPC_    hlaalu guard_outside
+	morrowind.esm       NPC_    hlaalu sharpshooter
+	morrowind.esm       NPC_    hlormar wine-sot
+	morrowind.esm       NPC_    huleeya
+	morrowind.esm       NPC_    imperial archer
+	morrowind.esm       NPC_    imperial guard
+	morrowind.esm       NPC_    imperial guard captain
+	morrowind.esm       NPC_    imperial guard_company
+	morrowind.esm       NPC_    imperial guard_ebonhear
+	morrowind.esm       NPC_    imperial guard_prisoner
+	morrowind.esm       NPC_    itermerel
+	morrowind.esm       NPC_    j_saddha
+	morrowind.esm       NPC_    larienna macrina
+	morrowind.esm       NPC_    llovyn andus
+	morrowind.esm       NPC_    madura seran
+	morrowind.esm       NPC_    malexa
+	morrowind.esm       NPC_    mathis dalobar
+	morrowind.esm       NPC_    nartise arobar
+	morrowind.esm       NPC_    nevrasa dralor
+	morrowind.esm       NPC_    ordinator stationary
+	morrowind.esm       NPC_    ordinator wander
+	morrowind.esm       NPC_    ordinator_high fane
+	morrowind.esm       NPC_    ordinator_wander_hvault
+	morrowind.esm       NPC_    ordinator_wander_tvault
+	morrowind.esm       NPC_    paur maston
+	morrowind.esm       NPC_    pemenie
+	morrowind.esm       NPC_    rabinna
+	morrowind.esm       NPC_    ragash gra-shuzgub
+	morrowind.esm       NPC_    redoran guard female
+	morrowind.esm       NPC_    redoran guard male
+	morrowind.esm       NPC_    reeh_jah
+	morrowind.esm       NPC_    saprius entius
+	morrowind.esm       NPC_    satyana
+	morrowind.esm       NPC_    sinnammu mirpal
+	morrowind.esm       NPC_    sondaale of shimmerene
+	morrowind.esm       NPC_    tarvyn faren
+	morrowind.esm       NPC_    telvanni guard
+	morrowind.esm       NPC_    telvanni guard_stand
+	morrowind.esm       NPC_    telvanni sharpshooter
+	morrowind.esm       NPC_    tenyeminwe
+	morrowind.esm       NPC_    teres arothan
+	morrowind.esm       NPC_    teris raledran
+	morrowind.esm       NPC_    tul
+	morrowind.esm       NPC_    ulyne henim
+	morrowind.esm       NPC_    varvur sarethi
+	morrowind.esm       NPC_    vedelea othril
+	morrowind.esm       NPC_    viatrix petilia
+	tribunal.esm        CREA    rat_pack_rerlas
+	tribunal.esm        CREA    rat_rerlas
+	tribunal.esm        CREA    scrib_rerlas
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    travel together
+	tribunal.esm        NPC_    guard_helseth
+	tribunal.esm        NPC_    ordinator_mh_sadri
+	tribunal.esm        NPC_    ordinator_mh_stationary
+	tribunal.esm        NPC_    ordinator_mournhold
+
+[MOD-INF]: ID=109725487887331732(Topic:corky)
+  morrowind.esm->|DATA|ONAM:drulene falen|NAME:He's doing fine, %PCName.|SCVR:06DX0guar_llovyn_unique|INTV:
+  sfs.ESP------->|DATA|ONAM:drulene falen|NAME:He's doing fine, %PCName.|SCVR:06DX0guar_llovyn_unique|INTV:|SCVR:12sX0CorkyFollow|INTV
+
+[MOD-INF]: ID=124283934202030553(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:Satyana|NAME:Great. Thanks, %PCName. I'm going to stay here and explore a bit. Good luck to you.|SCVR:01500|INTV|SCVR:34JX3MS_ArenimTomb|INTV:2|BNAM:Journal MS_ArenimTomb 100  ModDisposition 15  Player->RemoveItem "amulet_Agustas_unique" 1  AddItem "amulet_Agustas_unique" 1  AiWander 256 0 0 40 30 20 0 0 0 0 0 0
+  sfs.ESP------->|DATA|ONAM:Satyana|NAME:Great. Thanks, %PCName. I'm going to stay here and explore a bit. Good luck to you.|SCVR:01500|INTV|SCVR:34JX3MS_ArenimTomb|INTV:2|BNAM:Journal MS_ArenimTomb 100  ModDisposition 15  Player->RemoveItem "amulet_Agustas_unique" 1  AddItem "amulet_Agustas_unique" 1  SetSpeed 75  AiWander 256 0 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=3083031291644815712(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:Satyana|NAME:Thanks, %PCName. It was a real pleasure working with you.|SCVR:34JX3MS_ArenimTomb|INTV:d|BNAM:AiWander 256 0 0 40 30 20 0 0 0 0 0 0
+  sfs.ESP------->|DATA|ONAM:Satyana|NAME:Thanks, %PCName. It was a real pleasure working with you.|SCVR:34JX3MS_ArenimTomb|INTV:d|BNAM:SetSpeed 75  AiWander 256 0 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=3128027972622610355(Topic:corky)
+  morrowind.esm->|DATA|ONAM:drulene falen|NAME:Corky, huh? He's too old to butcher, but he looks like he was a fine guar in his youth. I might could use him as a stud. Would you take 200 drakes for him?|SCVR:03sX0corkyFollow|INTV|SCVR:16DX0guar_llovyn_unique|INTV:|BNAM:Choice "Yes, that's a fair price." 1 "No, nevermind." 2
+  sfs.ESP------->|DATA|ONAM:drulene falen|NAME:Corky, huh? He's too old to butcher, but he looks like he was a fine guar in his youth. I might could use him as a stud. Would you take 200 drakes for him?|SCVR:02sX0CorkyFollow|INTV|SCVR:16DX0guar_llovyn_unique|INTV:|BNAM:Choice "Yes, that's a fair price." 1 "No, nevermind." 2
+
+[MOD-INF]: ID=5038160252747222583(Topic:guar)
+  morrowind.esm->|DATA|ONAM:llovyn andus|NAME:He's your now.|SCVR:03sX0corkyFollow|INTV|SCVR:34JX3HH_RentCollector|INTV: 
+  sfs.ESP------->|DATA|ONAM:llovyn andus|NAME:He's yours now.|SCVR:02sX0CorkyFollow|INTV|SCVR:34JX3HH_RentCollector|INTV: 
+
+[MOD-INF]: ID=6866171142138823382(Topic:guar)
+  morrowind.esm->|DATA|ONAM:llovyn andus|NAME:Corky? Sure. Hey, Corky! This %PCRace here is your new owner! Say hello, Corky!|SCVR:06DX0guar_llovyn_unique|INTV:|SCVR:34JX3HH_RentCollector|INTV: |BNAM:"guar_llovyn_unique"->AiFollow Player 0 0 0 0 0  Set corkyFollow to 1
+  sfs.ESP------->|DATA|ONAM:llovyn andus|NAME:Corky? Sure. Hey, Corky! This %PCRace here is your new owner! Say hello, Corky!|SCVR:06DX0guar_llovyn_unique|INTV:|SCVR:34JX3HH_RentCollector|INTV: |BNAM:"guar_llovyn_unique"->AiFollow Player 0 0 0 0 0  PlaySound "Guar Roar"  Set corkyFollow to 1

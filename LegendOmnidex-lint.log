@@ -1,0 +1,49 @@
+LegendOmnidex.ESP: DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(OG_Omni_chest)
+	SCPT(OG_bk_Omnidex)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (4, 5)                   0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    door_dwrv_double00
+	morrowind.esm       DOOR    door_dwrv_double01
+	morrowind.esm       DOOR    door_dwrv_inner00
+	morrowind.esm       DOOR    door_dwrv_loaddown00
+	morrowind.esm       MISC    misc_soulgem_grand
+	tribunal.esm        DOOR    door_cavern_doors10
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    door_dwrv_loadup00
+	tribunal.esm        DOOR    ex_cave_door_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       DIAL    scrap metal
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=1933199050030372(Greeting:greeting 1)
+  |DATA|ANAM:Tower of Tel Fyr, Onyx Hall|NAME:You've killed one of us. And now it is your turn to die.|SCVR:07XX0delyna mandas|INTV|SCVR:16DX0divayth fyr|INTV|BNAM:StartCombat Player  ModDisposition -80  SetFight 90  Goodbye
+
+[DUP-INF]: ID=2492049788411205(Greeting:greeting 1)
+  |DATA|ONAM:divayth fyr|NAME:You again? A surprise, and a pleasure! Didn't we have a satisfactory chat? Something else you want to know about the divine disease? Eager to plunder the dungeon? Questions about my daughters?
+
+[DUP-INF]: ID=19099151163298600(Greeting:greeting 1)
+  |DATA|NAME:You've killed one of us. And now it is your turn to die.|SCVR:07XX0delyna mandas|INTV|SCVR:16DX0divayth fyr|INTV|BNAM:StartCombat Player  ModDisposition -80  SetFight 90  Goodbye
+
+[DUP-INF]: ID=211198237156223058(Greeting:greeting 1)
+  |DATA|ONAM:yagrum bagarn|NAME:You've killed one of my benefactors. And now it is your turn to die.|SCVR:07XX0delyna mandas|INTV|SCVR:16DX0divayth fyr|INTV|BNAM:StartCombat Player  ModDisposition -80  SetFight 90  Goodbye
+
+[DUP-INF]: ID=262221618540476941(Greeting:greeting 1)
+  |DATA|ANAM:Tower of Tel Fyr, Hall of Fyr|NAME:You've killed one of us. And now it is your turn to die.|SCVR:07XX0delyna mandas|INTV|SCVR:16DX0divayth fyr|INTV|BNAM:StartCombat Player  ModDisposition -80  SetFight 90  Goodbye
+
+[DUP-INF]: ID=788617731500217246(Topic:scrap metal)
+  |DATA|ONAM:anarenen|NAME:Scrap metal refers not to common scraps of iron and steel, but to bits of exotic metals recovered from animated Dwemer artifacts like the centurion. Such metal is rare and precious, and prized both by collectors of antiquities and students of metals and enchantments.|SCVR:0CsX0NoLore|INTV
+
+[DUP-INF]: ID=1009424795316348028(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Have you any news about the Crimson Plague, %PCName?|SCVR:04JX3MS_CrimsonPlague|INTV:x
+
+[DUP-INF]: ID=2369510877628230235(Greeting:greeting 1)
+  |DATA|ONAM:divayth fyr|NAME:Well! What a pleasure! A visitor! An entertaining diversion! Come to consult the great Divayth Fyr? You have the divine disease? Want to plunder the dungeon? Or leer at my daughters?|SCVR:01630|INTV:|BNAM:;Divayth Fyr
+
+[DUP-INF]: ID=13274327042421813297(Greeting:greeting 4)
+  |DATA|ANAM:Thirsk|NAME:You look like you're dying, and I've never seen anyone with that sort of disease. I don't know what it is, but you look to be dying. Leave here.|SCVR:01580|INTV

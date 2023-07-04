@@ -1,0 +1,41 @@
+Magical_Missions.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Melonaprison)
+	SCPT(melonanote)
+	SCPT(vd_foundloot)
+	SCPT(vd_glassloot)
+	SCPT(vdstolenglass)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ald velothi
+	morrowind.esm       DIAL    caldera
+	morrowind.esm       DIAL    coded message
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    mages guild
+	morrowind.esm       DIAL    telvanni agents
+	morrowind.esm       DIAL    thieves guild
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    someone in particular
+
+[MOD-INF]: ID=31580583735058306(Greeting:greeting 5)
+  bloodmoon.esm-------->|DATA|NAME:I followed Uryn Maren to the storage room, where he has no business being.
+  Magical_Missions.ESP->|DATA|ONAM:Melona Salobar|NAME:Yes, %PCName? I'd be happy to help, anyway I can.|SCVR:04JX3VD_MG2_AntlasSalobar|INTV: 
+
+[DUP-INF]: ID=252869918238779866(Topic:duties)
+  |DATA|ONAM:feldrelo sadri|NAME:I do not have any duties for you. Perhaps you could speak with Endryn Llethan in Ald'ruhn or Tharer Rotheloth in Molag Mar.
+
+[MOD-INF]: ID=773225812415418147(Topic:my trade)
+  tribunal.esm--------->|DATA|ONAM:beldrose dralor|NAME:I'm the treasurer of House Redoran. I'm very busy. So, if you'll just let me get back to work....|BNAM:;Beldrose Dralor;
+  Magical_Missions.ESP->|DATA|ONAM:Arathel|NAME:You could call me a slave, although I'm really just a helping hand. I clean and sweep, but Miss Melona still does the shopping and cooking. The Master paid me a living wage, and allowed me time off for holidays and taking long walks in the woods. I don't know what will happen now. Perhaps I won't be needed.
+
+[MOD-INF]: ID=948411040709326862(Greeting:greeting 5)
+  bloodmoon.esm-------->|DATA|NAME:Falco has ordered me to follow Uryn Maren in the mines, to see if he's really stealing. I'm not supposed to be seen by anyone.
+  Magical_Missions.ESP->|DATA|ONAM:Melona Salobar|NAME:So, your name is %PCName? I'm glad the Guild is looking into this. These Imperial scuttleheads won't find my husband's murderer. I hope you can.|SCVR:04JX3VD_MG2_AntlasSalobar|INTV: |SCVR:11630|INTV:
+
+[MOD-INF]: ID=5382212212034514008(Journal:vd_mg2_antlassalobar)
+  bloodmoon.esm-------->|DATA|NAME:I blew my cover, and ruined any chance of catching Uryn Maren red-handed.|QSTF
+  Magical_Missions.ESP->|DATA|NAME:I found a note from Melona's secret lover. It seems highly likely that Melona poisoned her husband. I could show this evidence to the ranking Legion official in Pelagiad, and have Melona arrested.

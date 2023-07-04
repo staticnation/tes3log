@@ -1,0 +1,24 @@
+Redoran Council Overhall.ESP: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1124372 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(luce_rco_othanlampscript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    garisa llethri
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    patron
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    varvur sarethi
+	morrowind.esm       PGRD    ald-ruhn, redoran council hall
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    someone in particular
+
+[DUP-INF]: ID=10846297472227562(Greeting:greeting 5)
+  |DATA|ONAM:ronerelie philulanie|NAME:You can look, but don't touch. Yes, it's all Dwarf-make. And it belongs to Master Aryon. So keep your hands to yourself.|BNAM:goodbye
+
+[DUP-INF]: ID=3223324127987614626(Greeting:greeting 5)
+  |DATA|ONAM:hanarai assutlanipal|NAME:It is the Hour of Wakening. Dagoth Ur awakes, and comes forth in his glory, and his people shall rejoice, and his enemies shall scatter like dust.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:14JX4C3_DestroyDagoth|INTV:2|BNAM:setdisposition 0  setfight 90  goodbye

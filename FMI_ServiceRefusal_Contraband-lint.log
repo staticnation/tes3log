@@ -1,0 +1,122 @@
+FMI_ServiceRefusal_Contraband.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FMI_ServiceRefusal_StartScript)
+	SCPT(PS_ContrabandCheck)
+	SCPT(PS_TheyJustKillYou)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    bm_rumors
+	bloodmoon.esm       DIAL    east empire company
+	bloodmoon.esm       DIAL    fort frostmoth
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    solstheim
+	morrowind.esm       CONT    com_basket_arille's
+	morrowind.esm       DIAL    greeting 8
+	morrowind.esm       NPC_    bolrin
+	morrowind.esm       NPC_    canctunian ponius
+	morrowind.esm       NPC_    j'zhirr
+	morrowind.esm       NPC_    okan_shei
+	morrowind.esm       NPC_    shazgob gra-luzgan
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    ic13_rich
+
+[MOD-INF]: ID=16707733875531402(Greeting:greeting 5)
+  morrowind.esm--------------------->|DATA|ONAM:Canctunian Ponius|NAME:I am %Name, Factor-in-Chief of the Ebonheart agency of the East Empire Company, at your service.
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|ONAM:Canctunian Ponius|NAME:I am %Name, Factor-in-Chief of the Ebonheart agency of the East Empire Company, at your service.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=22288145784170824(Journal:ic13_rich)
+  morrowind.esm--------------------->|DATA|NAME:When I confronted Cunius Pelelius with the Secret Caldera Ledger and its evidence of misappropriation of ebony from the Caldera mines, Cunius Pelelius decided to give me three pieces of raw ebony. If I sell these pieces of raw ebony, I should be able to get 500 gold and more to deliver to Iulus Truptor for the the Widows and Orphans Fund.
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|NAME:When I confronted Cunius Pelelius with the Secret Caldera Ledger and its evidence of misappropriation of ebony from the Caldera mines, Cunius Pelelius decided to give me three pieces of raw ebony. If someone were to sell these pieces of raw ebony illegally, they might fetch 500 gold or more.
+
+[MOD-INF]: ID=170686103927626649(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Priest Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Priest Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=277125218205084722(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:|SCVR:47XX0ashumanu eraishah|INTV:|SCVR:57XX0helviane desele|INTV:
+
+[MOD-INF]: ID=287378702993122269(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Apothecary Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Apothecary Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=297827496882022317(Topic:east empire company)
+  bloodmoon.esm--------------------->|DATA|ONAM:Carnius Magius|NAME:The East Empire Company is a monopolistic mercantile enterprise chartered by the Emperor and managed by a board of directors appointed by the Emperor. The Company has sole authority to trade in certain goods, like flin, raw ebony, raw glass, and Dwemer artifacts, and it also enjoys favorable tariffs and regulations for import and export of other common and exotic goods, like kwama eggs, marshmerrow pulp, saltrice, and Telvanni bug musk.|SCVR:01460|INTV
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|ONAM:Carnius Magius|NAME:The East Empire Company is a monopolistic mercantile enterprise chartered by the Emperor and managed by a board of directors appointed by the Emperor. The Company has sole authority to trade in certain goods, raw ebony, raw glass, and Dwemer artifacts, and it also enjoys favorable tariffs and regulations for import of things like flin and export of other common and exotic goods, like kwama eggs, marshmerrow pulp, saltrice, and Telvanni bug musk.|SCVR:01460|INTV
+
+[MOD-INF]: ID=437731057154051750(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:|SCVR:47XX0ashumanu eraishah|INTV:|SCVR:57XX0helviane desele|INTV:
+
+[MOD-INF]: ID=745815156108126115(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Healer Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Healer Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=781926249198433643(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Wise Woman Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Wise Woman Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=1057420736167037911(Journal:ic13_rich)
+  morrowind.esm--------------------->|DATA|NAME:When I confronted Cunius Pelelius with the slave's testimony about his sneaking into the Caldera Mine and removing raw ebony, Cunius Pelelius decided to give me three pieces of raw ebony. If I sell these pieces of raw ebony, I should be able to get 500 gold and more to deliver to Iulus Truptor for the the Widows and Orphans Fund.
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|NAME:When I confronted Cunius Pelelius with the slave's testimony about his sneaking into the Caldera Mine and removing raw ebony, Cunius Pelelius decided to give me three pieces of raw ebony. If someone were to sell these pieces of raw ebony illegally, they might fetch 500 gold or more.
+
+[MOD-INF]: ID=1094918899840230767(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Pawnbroker|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Pawnbroker|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=1534111152592225687(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|ONAM:ladia flarugrius|NAME:Not a member? Too bad. Can't train you. Against the rules.|SCVR:01460|INTV:|BNAM:; Ladia Flarugrius; Same Faction = 0
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|ONAM:ladia flarugrius|NAME:Not a member? Too bad. Can't train, can't trade. Against the rules.|SCVR:01460|INTV:|BNAM:; Ladia Flarugrius; Same Faction = 0
+
+[MOD-INF]: ID=1553958902285827759(Greeting:greeting 0)
+  morrowind.esm--------------------->|DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 CrimeGoldTurnIn  SetPCCrimeLevel 0  PayFine
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 CrimeGoldTurnIn  SetPCCrimeLevel 0  player->StartScript ab01removeIllegalsScript  PayFine
+
+[MOD-INF]: ID=1985516512255215012(Topic:east empire company)
+  bloodmoon.esm--------------------->|DATA|NAME:The East Empire Company is a monopolistic mercantile enterprise chartered by the Emperor and managed by a board of directors appointed by the Emperor. The Company has sole authority to trade in certain goods, like flin, raw ebony, raw glass, and Dwemer artifacts, and it also enjoys favorable tariffs and regulations for import and export of other common and exotic goods, like kwama eggs, marshmerrow pulp, saltrice, and Telvanni bug musk.|SCVR:0CsX0NoLore|INTV:|BNAM:;Ebonheart;   Choice "Continue" 1
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|NAME:The East Empire Company is a monopolistic mercantile enterprise chartered by the Emperor and managed by a board of directors appointed by the Emperor. The Company has sole authority to trade in certain goods, raw ebony, raw glass, and Dwemer artifacts, and it also enjoys favorable tariffs and regulations for import of things like flin and export of other common and exotic goods, like kwama eggs, marshmerrow pulp, saltrice, and Telvanni bug musk.|SCVR:0CsX0NoLore|INTV:|SCVR:18FX0Imperial Legion|INTV|SCVR:28FX0East Empire Company|INTV|BNAM:;Ebonheart;   Choice "Continue" 1
+
+[MOD-INF]: ID=2350820932343717228(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Alchemist Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Alchemist Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=2456544071464426424(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:|SCVR:47XX0ashumanu eraishah|INTV:|SCVR:57XX0helviane desele|INTV:
+
+[MOD-INF]: ID=2768210666929210763(Greeting:greeting 0)
+  morrowind.esm--------------------->|DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 GetPCCrimeLevel  SetPCCrimeLevel 0  PayFine
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 GetPCCrimeLevel  SetPCCrimeLevel 0  player->StartScript ab01removeIllegalsScript  PayFine
+
+[MOD-INF]: ID=2797025664259225507(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Wise Woman Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Wise Woman Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=2821782961190224094(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Pawnbroker|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Pawnbroker|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=3034922702178419782(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:|SCVR:47XX0ashumanu eraishah|INTV:|SCVR:57XX0helviane desele|INTV:
+
+[MOD-INF]: ID=3576191201815529709(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Priest Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Priest Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=20172142971264027114(Greeting:greeting 0)
+  morrowind.esm--------------------->|DATA|CNAM:Guard|NAME:Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:GotoJail  Goodbye
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Guard|NAME:Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:player->StartScript ab01removeIllegalsScript  GotoJail  Goodbye
+
+[MOD-INF]: ID=27431251821030328588(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Apothecary Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Apothecary Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=27861296403221528233(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Alchemist Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Alchemist Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=29036265711176618107(Persuasion:service refusal)
+  morrowind.esm--------------------->|DATA|CNAM:Healer Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  FMI_ServiceRefusal_Contraband.ESP->|DATA|CNAM:Healer Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Camonna Tong|INTV:|SCVR:38FX0Thieves Guild|INTV:

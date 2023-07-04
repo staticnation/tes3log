@@ -1,0 +1,57 @@
+FG Tenim Bounty Alternative.ESP: AUTOSPL DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC SCRDOOR
+    [AUTOSPL] Auto-calced Spells:
+	thiefpainanarchy               Anarchy Drain
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FG_Axe_Daryon)
+	SCPT(FG_Axe_Daryon_Reward)
+	SCPT(FG_HrundiAttackPlayerAlone)
+	SCPT(FG_HrundiAttacksPlayerSlaver)
+	SCPT(FG_HrundiBootsYouOut)
+	SCPT(FG_Imp_Reinforce)
+	SCPT(FG_MuvrCriminalScum)
+	SCPT(FG_MuvrJailSender)
+	SCPT(FG_Sondryn_Capture)
+	SCPT(FG_Sondryn_Slavepod)
+	SCPT(FG_Tenim_Muvr_S)
+	SCPT(FG_WolverineDoorLockOn)
+	SCPT(MuvruleaScriptO)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	ex_t_door_slavepod_01                FG_Sondryn_Slavepod
+	in_impsmall_loaddoor_01              FG_WolverineDoorLockOn
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DOOR    in_impsmall_loaddoor_01
+	morrowind.esm       CONT    de_p_chest_02_mclothes3
+	morrowind.esm       DIAL    rels tenim
+	morrowind.esm       DOOR    ex_t_door_slavepod_01
+	morrowind.esm       NPC_    muvrulea daryon
+	tribunal.esm        DIAL    fg_tenimbounty
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hello
+
+[DUP-INF]: ID=3149352396228328(Journal:fg_tenimbounty)
+  |DATA|NAME:Hrundi thanked me for bringing Rels Tenim to justice and gave me 200 gold.|QSTF
+
+[MOD-INF]: ID=1054520043147619122(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|NAME:I heard that Rels Tenim is dead. Good work, %PCName. Here's the 200 septims for the contract.|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+  FG Tenim Bounty Alternative.ESP->|DATA|ONAM:hrundi|NAME:I heard that Rels Tenim is dead. Good work, %PCName. Here's the 200 septims for the contract.|SCVR:56DX2rels tenim|INTV:|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+
+[MOD-INF]: ID=1778319273286647093(Greeting:greeting 5)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|NAME:What's the status on Rels Tenim? Manage to find him?|SCVR:04JX3FG_TenimBounty|INTV: |SCVR:14JX4FG_TenimBounty|INTV:d
+  FG Tenim Bounty Alternative.ESP->|DATA|ONAM:hrundi|NAME:What's the status on Rels Tenim? Manage to find him?|SCVR:04JX3FG_TenimBounty|INTV: |SCVR:14JX4FG_TenimBounty|INTV:G
+
+[MOD-INF]: ID=2781515578315333264(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|NAME:The victims of Rels Tenim are grateful to you, %PCName.|SCVR:34JX3FG_TenimBounty|INTV:d
+  FG Tenim Bounty Alternative.ESP->|DATA|ONAM:hrundi|NAME:The victims of Rels Tenim are grateful to you, %PCName.|SCVR:34JX3FG_TenimBounty|INTV:d|SCVR:46DX2rels tenim|INTV:
+
+[MOD-INF]: ID=3090161822041826623(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|NAME:Rels Tenim is a murderer who has escaped from justice. He was last seen near Vos. While you're taking care of the Corprus Stalker, you might want to see if you can track down Rels Tenim.|BNAM:Journal FG_TenimBounty 10
+  FG Tenim Bounty Alternative.ESP->|DATA|ONAM:hrundi|NAME:Rels Tenim is a murderer who has escaped from justice. He was last seen near Vos. While you're taking care of the Corprus Stalker, you might want to see if you can track down Rels Tenim. Sondryn Ithari is also taking on this bounty so you better make your choice where you go first.|BNAM:Journal FG_TenimBounty 10  startscript GidenFGQScriptO
+
+[MOD-INF]: ID=10284321213265728830(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|NAME:Well, if you've already dealt with Rels Tenim, you certainly deserve the 200 septims.|SCVR:34JX0FG_TenimBounty|INTV:|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+  FG Tenim Bounty Alternative.ESP->|DATA|ONAM:hrundi|NAME:Well, if you've already dealt with Rels Tenim, you certainly deserve the 200 septims.|SCVR:34JX0FG_TenimBounty|INTV:|SCVR:56DX2rels tenim|INTV:|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+
+[MOD-INF]: ID=24312103672549026950(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ANAM:Ahemmusa Camp|NAME:A man went to the cavern of Shallit, on a small island southwest of Ald Daedroth. He left at night when neither Masser nor Secunda could be seen. Perhaps this is the man you seek. To get there, cross the water to the first island north of camp. From that island, travel northwest, two more islands. On the second island's north side, the entrance to Shallit will be found at the water's edge in a small cove.|BNAM:Journal "FG_TenimBounty" 60
+  FG Tenim Bounty Alternative.ESP->|DATA|ANAM:Ahemmusa Camp|NAME:A man went to the cavern of Shallit, on a small island southwest of Ald Daedroth. He left at night when neither Masser nor Secunda could be seen. Perhaps this is the man you seek. To get there, cross the water to the first island north of camp. From that island, travel northwest, two more islands. On the second island's north side, the entrance to Shallit will be found at the water's edge in a small cove.|BNAM:Journal "FG_TenimBounty" 60

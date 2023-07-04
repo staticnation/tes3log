@@ -1,0 +1,15 @@
+abotWaterLifeTRaddon.esp: DUP-REC GETSND MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8846501 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            131192133 (plugin)  163244128 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(ab01wlcrMoleCrabScript)
+	SCPT(ab01wlcrMuckLeechScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01wlgPoolScript)
+	SCPT(ab01wlgSaltDeepScript)
+	SCPT(ab01wlgSaltDeepWarmScript)
+	SCPT(ab01wlgSaltShoreScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	abotwaterlife.esm    LEVI    ab01random_ingredient

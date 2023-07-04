@@ -1,0 +1,19 @@
+if_redoran_lighthouse.ESP: DUP-INF DUP-REC MASTERS MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1384891 (plugin)    1567893 (installed size)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (-14, 13)
+	morrowind.esm       LAND    (-15, 13)
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       PGRD    west gash region
+	tribunal.esm        DIAL    greeting 7
+
+[DUP-INF]: ID=170598881205997120(Greeting:greeting 7)
+  |DATA|CNAM:Buoyant Armiger|NAME:Greetings, %PCName. The Archcanon has announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. We have orders to provide maps and intelligence on conditions inside the Ghostfence. Tell me if you want someone in particular, services, or a specific place. I can help you if you are on pilgrimage here. Shall I tell you about my trade?|SCVR:04JX3B8_MeetVivec|INTV:2|SCVR:14JX4C3_DestroyDagoth|INTV:2|BNAM:;buoyant armigers; ghostfence; Journal B8_MeetVivec >= 50; disp 30

@@ -1,0 +1,82 @@
+CAC_Fargoth.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CAC_HrisskarMurder)
+	SCPT(CAC_HrisskarTomb)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    fargoth's hiding place
+	morrowind.esm       DIAL    recover some gold
+	morrowind.esm       DIAL    ring
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    ms_fargothring
+	tribunal.esm        DIAL    ms_lookout
+
+[DUP-INF]: ID=27267190741812863(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:Good that you found that for me, friend. I'll make that little fetcher pay for lying to me. Although, I've got to be honest, it is kind of fun messing with the little guy. I like to take something from his place and stick it in that old barrel in the Census and Excise courtyard. Hehe...gives the new arrivals something to look forward to.|SCVR:04JX0MS_Lookout|INTV:d
+
+[DUP-INF]: ID=48642221029577219(Journal:ms_lookout)
+  |DATA|NAME:I've decided not to help Hrisskar.|QSTF
+
+[DUP-INF]: ID=160419339116357473(Topic:recover some gold)
+  |DATA|ONAM:hrisskar flat-foot|NAME:That's right. See, I had a bad run of luck playing Nine-holes, and lost a bit of money. Normally, I'd be fine. We can usually keep some gold in our pockets just from the money the locals pay us for...protection. But I know some of them are holding out on me, especially that little fetcher Fargoth. He's come up light the past couple of weeks when I've shaken him down. I know he's stashing it somewhere. I'd like you to find Fargoth's hiding place.|SCVR:04JX4MS_Lookout|INTV: 
+
+[DUP-INF]: ID=496873033139825815(Topic:fargoth's hiding place)
+  |DATA|ONAM:fargoth|NAME:I don't have a hiding place. At least not anymore....|SCVR:04JX0MS_Lookout|INTV:d|BNAM:ModDisposition -10  Goodbye
+
+[DUP-INF]: ID=1711159271900329116(Journal:ms_lookout)
+  |DATA|NAME:Hrisskar was grateful that I found the money that Fargoth had been hiding. He rewarded me with some gold, and told me I could keep anything else I found in the bag besides the money he wanted.|QSTF
+
+[MOD-INF]: ID=1859013980214423307(Journal:ms_lookout)
+  morrowind.esm--->|DATA|NAME:I've agreed to help Hrisskar find the money that Fargoth has been hiding away. I am supposed to keep an eye on him from atop the lighthouse in town, and watch where he goes. Hrisskar believes I should watch him at night. I'm not supposed to approach him at any time. I should then retrace his footsteps and find out where he's hidden the money. When I've found it, I should report back to Hrisskar.
+  CAC_Fargoth.ESP->|DATA|NAME:I've agreed to help Hrisskar find Fargoth's hiding place. He told me to keep an eye on Fargoth from atop the lighthouse in town, and watch where he goes. Hrisskar believes I should watch him at night. I should then retrace his footsteps and find out where he's hidden the money. When I've found it, I should report back to Hrisskar.
+
+[DUP-INF]: ID=2173422227280689593(Journal:ms_lookout)
+  |DATA|NAME:I've found Fargoth's hidden stash. He keeps it in a hollow treestump in a muck pond in town.
+
+[DUP-INF]: ID=2320119401125015415(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:You killed the little runt? I don't know what you were thinking. He was a source of good income for me. If anyone asks, I don't know you.|SCVR:04JX3MS_Lookout|INTV: |SCVR:16DX2fargoth|INTV:
+
+[DUP-INF]: ID=2971935711263120030(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:I know the little fetcher's got one somewhere in town. Just not sure where yet. I've already gone through his whole house, so I know he's not hiding it there. I'd like you find out where he's stashing his gold. If you can, I'll give you a share of the wealth. Are you up for it?|SCVR:04JX0MS_Lookout|INTV:|BNAM:Journal "MS_Lookout" 10  Choice "I'll do it." 1 "No thanks." 2
+
+[MOD-INF]: ID=2995591862332012921(Topic:fargoth's hiding place)
+  morrowind.esm--->|DATA|ONAM:fargoth|NAME:Hiding place? I don't know what you're talking about! Leave me alone.|SCVR:04JX3MS_Lookout|INTV: |BNAM:ModDisposition -10  Goodbye
+  CAC_Fargoth.ESP->|DATA|ONAM:fargoth|NAME:I knew that Hrisskar was stealing from me... He has to be stopped. Reporting him to his superior won't do any good... They don't care that we're being squeezed for everything we've got... %PCName, I have an idea. There's a tomb northwest of town called the Thelas Ancestral Tomb. You tell Hrisskar my hiding place is there, and after he goes to check it out, he'll be too scared by the ghosts to ever bully me again!|SCVR:04JX3MS_Lookout|INTV|SCVR:14JX5MS_Lookout|INTV|BNAM:Journal "MS_Lookout" 35
+
+[MOD-INF]: ID=3245423813243151497(Topic:ring)
+  morrowind.esm--->|DATA|ONAM:fargoth|NAME:You found it! Amazing! Thank you, thank you! You are now my favorite friend. I'll be sure to tell the others, especially my friend Arrille who runs the tradehouse here. Go see him, he'll be happy to see you now!|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|BNAM:Journal MS_FargothRing 100  additem "ring_keley" 1  player->removeitem "ring_keley" 1  set state to -1  moddisposition 50  "arrille"->moddisposition 40
+  CAC_Fargoth.ESP->|DATA|ONAM:fargoth|NAME|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|BNAM:Journal MS_FargothRing 100  additem "ring_keley" 1  player->removeitem "ring_keley" 1  set state to -1  moddisposition 50
+
+[MOD-INF]: ID=7644117512997720799(Topic:fargoth's hiding place)
+  morrowind.esm--->|DATA|ONAM:hrisskar flat-foot|NAME:I've just got to find where he's hiding his loot.|SCVR:04JX3MS_Lookout|INTV|SCVR:14JX5MS_Lookout|INTV
+  CAC_Fargoth.ESP->|DATA|ONAM:hrisskar flat-foot|NAME:I've just got to find where he's hiding his loot.|SCVR:04JX0MS_Lookout|INTV
+
+[DUP-INF]: ID=12450108963131322605(Journal:ms_lookout)
+  |DATA|NAME:Hrisskar Flat-Foot asked me to do him a favor. He believes that Fargoth has been hiding money from the Imperials, and he'd like to know where it's gone. If I will work for him, he will give me a share of the bounty.
+
+[DUP-INF]: ID=12942106023022017709(Topic:ring)
+  |DATA|ONAM:fargoth|NAME|INTV
+
+[DUP-INF]: ID=13504245661527210384(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:You've found his hiding place? That's great. Tell you what...I'll give you 100 gold, and you can keep anything else that you found in there. Thanks for your help.|SCVR:04JX0MS_Lookout|INTV:(|SCVR:15IX3Gold_001|INTV|BNAM:Player->RemoveItem "Gold_001" 300  Player->AddItem "Gold_001" 100  Journal "MS_Lookout" 100  ModDisposition 40  AddItem "Gold_001" 200  Fargoth->ClearForceSneak  Fargoth->AiWander 512 0 0 60 30 10 0 0 0  Set fargothwalk to 3
+
+[MOD-INF]: ID=16189125972792115582(:greeting 5)
+  morrowind.esm--->|DATA|ONAM:hrisskar flat-foot|NAME:You look like you could use a friend, outlander. Perhaps I can be your friend. I'd like you to help me recover some gold.|SCVR:06DX0fargoth|INTV:|SCVR:14JX0MS_Lookout|INTV:
+  CAC_Fargoth.ESP->|NAME:You look like you could use a friend, outlander. Perhaps I can be your friend. I'd like you to help me recover some gold.|DELE:
+
+[MOD-INF]: ID=16189125972792115582(:greeting 5)
+  morrowind.esm--->|DATA|ONAM:hrisskar flat-foot|NAME:You look like you could use a friend, outlander. Perhaps I can be your friend. I'd like you to help me recover some gold.|SCVR:06DX0fargoth|INTV:|SCVR:14JX0MS_Lookout|INTV:
+  CAC_Fargoth.ESP->|NAME:You look like you could use a friend, outlander. Perhaps I can be your friend. I'd like you to help me recover some gold.|DELE:
+[MOD-IID]: ID=12824255852480322991(Greeting:greeting 5)
+  CAC_Fargoth.ESP->You look like you could use a friend, outlander. Perhaps I can be your friend. I'd like you to help me recover some gold.
+
+[MOD-INF]: ID=16579142372886815287(Greeting:greeting 5)
+  morrowind.esm--->|DATA|ONAM:hrisskar flat-foot|NAME:You were supposed to find Fargoth's hiding place. Were you able to?|SCVR:06DX0fargoth|INTV:|SCVR:14JX3MS_Lookout|INTV: |SCVR:24JX4MS_Lookout|INTV:d
+  CAC_Fargoth.ESP->|DATA|ONAM:hrisskar flat-foot|NAME:You were supposed to find Fargoth's hiding place. Were you able to?|SCVR:06DX0fargoth|INTV:|SCVR:14JX0MS_Lookout|INTV:(
+
+[DUP-INF]: ID=17393214661126032276(Greeting:greeting 5)
+  |DATA|ONAM:fargoth|NAME:What do you want? Don't bother trying to rob me. The Imperials have taken everything anyway.|SCVR:04JX0MS_Lookout|INTV:d
+
+[MOD-INF]: ID=28408258022762328016(Journal:ms_fargothring)
+  tribunal.esm---->|DATA|NAME:I have returned the Engraved Ring of Healing to Fargoth. He was overjoyed to have it back, and promised to mention my name to the trader here in town, Arrille.|QSTF
+  CAC_Fargoth.ESP->|DATA|NAME:I have returned the Engraved Ring of Healing to Fargoth. He was overjoyed to have it back, and said I should mention his name to the trader here in town, Arrille.

@@ -1,0 +1,1065 @@
+Taros Dral.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    solstheim
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    alarm
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    clear your name
+	morrowind.esm       DIAL    danar uvelas
+	morrowind.esm       DIAL    edryno arethi
+	morrowind.esm       DIAL    farvyn oreyn
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    greeting 8
+	morrowind.esm       DIAL    guild guide
+	morrowind.esm       DIAL    hall of justice
+	morrowind.esm       DIAL    hall of wisdom
+	morrowind.esm       DIAL    high fane
+	morrowind.esm       DIAL    hlaalu compound
+	morrowind.esm       DIAL    ilmeni dren
+	morrowind.esm       DIAL    info refusal
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    join the morag tong
+	morrowind.esm       DIAL    justice offices
+	morrowind.esm       DIAL    killing and murder
+	morrowind.esm       DIAL    morag tong
+	morrowind.esm       DIAL    rules
+	morrowind.esm       DIAL    sensitive matters
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    thief
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       NPC_    taros dral
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    dissident priests
+	tribunal.esm        DIAL    dram bero
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    morrowind lore
+
+[MOD-INF]: ID=888120738329598(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:What's that supposed to mean?
+  Taros Dral.ESP->|DATA|NAME:What's that supposed to mean? You need to work on your insults man.
+
+[MOD-INF]: ID=1389883520805611(Topic:morag tong)
+  morrowind.esm-->|DATA|CNAM:Assassin|NAME:The Morag Tong is an assassins guild sanctioned by the Empire to provide three varieties of execution: public executions, private executions, and House Wars executions.|SCVR:0CsX0NoLore|INTV:|BNAM:; savant; bard; agent; assassin; noble
+  Taros Dral.ESP->|DATA|CNAM:Assassin|NAME:We are The Chad assassins guild... read up loser.|SCVR:0CsX0NoLore|INTV:|BNAM:; savant; bard; agent; assassin; noble
+
+[MOD-INF]: ID=1709302711210241(:hello)
+  bloodmoon.esm-->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you
+  Taros Dral.ESP->|NAME:Growl!|DELE:
+
+[MOD-INF]: ID=2086243121703526(:intimidate success)
+  morrowind.esm-->|DATA|NAME:Can't we settle this peacefully?
+  Taros Dral.ESP->|NAME:Can't we settle this peacefully?|DELE:
+
+[MOD-INF]: ID=2308412121727532(:hit)
+  bloodmoon.esm-->|DATA|SNAM:Vo\ww\moan.mp3|NAME:Grrrr!|SCVR:01720|INTV
+  Taros Dral.ESP->|NAME:Grrrr!|DELE:
+
+[MOD-INF]: ID=3107375725422801(:taunt fail)
+  morrowind.esm-->|DATA|NAME:No, I believe that was your mother.
+  Taros Dral.ESP->|NAME:No, I believe that was your mother.|DELE:
+
+[MOD-INF]: ID=4680305161975130(Topic:guild guide)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:A guild guide is a spellcaster of the Mages Guild who provides magical transport for a small fee. You can only travel from one Mages Guild to another, but it is the fastest way to travel between Vivec, Balmora, Ald'ruhn, Caldera, and Sadrith Mora. Flacassia Fauseius is the guild guide at the Vivec Mages Guild in the Foreign Quarter. For a small fee, she can teleport you directly to the Mages Guild at either Balmora, Ald'ruhn, Caldera, or Sadrith Mora.|SCVR:0CsX0nolore|INTV:|SCVR:17XX0flacassia fauseius|INTV
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:A guild guide is a spellcaster of the Mages Guild who provides magical transport for a small fee. You can only travel from one Mages Guild to another, but it is the fastest way to travel between Vivec, Balmora, Ald'ruhn, Caldera, and Sadrith Mora. Flacassia Fauseius is the guild guide at the Vivec Mages Guild in the Foreign Quarter. For a small fee, she can teleport you directly to the Mages Guild at either Balmora, Ald'ruhn, Caldera, or Sadrith Mora.... you really dont know this shit?|SCVR:0CsX0NoLore|INTV:|SCVR:17XX0flacassia fauseius|INTV
+
+[MOD-INF]: ID=9763432790012522(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:I'll take that as a compliment.
+  Taros Dral.ESP->|DATA|NAME:I'll take that as a compliment..... definately.
+
+[MOD-INF]: ID=10892597398701449(Greeting:greeting 4)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|NAME:If you have been seen carrying out the Morag Tong's orders, you should speak with a guard and present your writs. Your crimes will be cleared.|SCVR:01433|INTV|SCVR:11460|INTV
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|NAME:If you have been seen carrying out the Morag Tong's orders, you should speak with a guard and present your writs. Your crimes will be cleared.... so satisfing...|SCVR:01433|INTV|SCVR:11460|INTV
+
+[MOD-INF]: ID=12100194303165314(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:What are you after, %PCRace? I know you're trying to flatter me.
+  Taros Dral.ESP->|DATA|NAME:What are you after, %PCRace? I know you're trying to flatter me... and its working.
+
+[MOD-INF]: ID=12163742206864465(Topic:almalexia)
+  tribunal.esm--->|DATA|RNAM:Dark Elf|NAME:[Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|NAME:Meh...|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+
+[MOD-INF]: ID=13242813490111950(:info refusal)
+  morrowind.esm-->|DATA|NAME:I'm sorry, but I don't feel comfortable telling you.
+  Taros Dral.ESP->|NAME:I'm sorry, but I don't feel comfortable telling you.|DELE:
+
+[MOD-INF]: ID=14021156919055238(:taunt fail)
+  morrowind.esm-->|DATA|NAME:Cheap words, %PCRace. There's nothing behind them.
+  Taros Dral.ESP->|NAME:Cheap words, %PCRace. There's nothing behind them.|DELE:
+
+[MOD-INF]: ID=14946981448322538(:intimidate success)
+  morrowind.esm-->|DATA|NAME:I hear you. Can we work this out?
+  Taros Dral.ESP->|NAME:I hear you. Can we work this out?|DELE:
+
+[MOD-INF]: ID=15740996644818361(Greeting:greeting 5)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:What can I do for you, %PCRank?|SCVR:07XX0huleeya|INTV
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:What can I do for ya, %PCRank?|SCVR:07XX0huleeya|INTV
+
+[MOD-INF]: ID=15917326493337369(Greeting:greeting 8)
+  morrowind.esm-->|DATA|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 12000
+  Taros Dral.ESP->|DATA|NAME:With an outfit like that, you must be doing very well for yourself.... dick.|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 12000
+
+[MOD-INF]: ID=19803096897931412(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:It is not what you offer, %PCName, but how you offer.
+  Taros Dral.ESP->|DATA|NAME:Nice but dont need it...
+
+[MOD-INF]: ID=22159828612938231(:flee)
+  bloodmoon.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bFle_DM004.mp3|NAME|SCVR:01650|INTV|BNAM:;scared
+  Taros Dral.ESP->|NAME|DELE:
+
+[MOD-INF]: ID=22217791936755969(:greeting 8)
+  morrowind.esm-->|DATA|NAME:Only someone very successful could afford an outfit like that, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 40; PCClothingMod >= 3000
+  Taros Dral.ESP->|NAME:Only someone very successful could afford an outfit like that, %PCName. Can I help you?|DELE:
+
+[MOD-INF]: ID=24705735860428828(Topic:join the morag tong)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|ANAM:Vivec, Arena Hidden Area|DNAM:Morag Tong|NAME:You are already one of us, brother %PCName.|SCVR:01380|INTV:
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|ANAM:Vivec, Arena Hidden Area|DNAM:Morag Tong|NAME:You are already one of us, broski.|SCVR:01380|INTV:
+
+[MOD-INF]: ID=25905231529049530(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:Now that's a better tone.
+  Taros Dral.ESP->|DATA|NAME:Now that's a better tone my guy.
+
+[MOD-INF]: ID=32137175498021017(:flee)
+  bloodmoon.esm-->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;to keep werewolves from talking during to you, they should never flee but just to be safe
+  Taros Dral.ESP->|NAME:Growl!|DELE:
+
+[MOD-INF]: ID=32383357016832965(Persuasion:taunt success)
+  morrowind.esm-->|DATA|NAME:That does it.|SCVR:01710|INTV|BNAM:Goodbye
+  Taros Dral.ESP->|DATA|NAME:Thanks...|SCVR:01710|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=34516565177822785(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:You'll regret trying to bribe me.|SCVR:01710|INTV
+  Taros Dral.ESP->|DATA|NAME:Nice but dont need it...|SCVR:01710|INTV
+
+[MOD-INF]: ID=37028346479318744(Greeting:greeting 8)
+  morrowind.esm-->|DATA|NAME:Only someone very successful could afford an outfit like that, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 6000
+  Taros Dral.ESP->|DATA|NAME:Only someone very successful could afford an outfit like that, %PCName. ... except that it wasnt very expensive...|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 6000
+
+[MOD-INF]: ID=38874683121713974(Topic:hlaalu compound)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:Hlaalu Compound is the westmost canton. Councilor Crassius Curio has a splendid tier-top mansion here. The tiers below contain Hlaalu treasuries, records, holding cells, and various services. There are two public houses: the Elven Nations and the No Name Club. A variety of craftsmen and tradesmen also have shops at Hlaalu Compound. Some House Hlaalu nobles maintain residences in the less-formal St. Delyn and St. Olms cantons. Councilor Velanda Omani's manor is east of the city on Elmas Island.|SCVR:0CsX0NoLore|INTV:|BNAM:;Vivec;
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:Dont Bother...|SCVR:0CsX0NoLore|INTV:|BNAM:;Vivec;
+
+[MOD-INF]: ID=46782757314215472(Topic:farvyn oreyn)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:Oh, wondrous is Farvyn Oreyen, the powerful battlemage! He single-handedly slew a Daedroth Lord who wished to enslave us all. Even now, he has traveled with his servants to Gnaar Mok, to rid that poor town of some evil presence.|SCVR:04JX4DA_Malacath|INTV|BNAM:Journal "DA_Malacath" 30
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:Oh, wondrous is Farvyn Oreyen, the powerful battlemage! He single-handedly slew a Daedro- nah hes full a shit...|SCVR:04JX4DA_Malacath|INTV|BNAM:Journal "DA_Malacath" 30
+
+[MOD-INF]: ID=48519316258763832(Persuasion:intimidate success)
+  morrowind.esm-->|DATA|NAME:Ok, settle down.
+  Taros Dral.ESP->|DATA|NAME:Ah uh?
+
+[MOD-INF]: ID=53842651108524245(:greeting 4)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|NAME:I'm sorry, friend, but I think you have managed to get a common disease of some sort. You can get that cured by visiting a Temple shrine, or an Imperial cult altar, or by buying a potion from a healer or apothecary.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|SCVR:28FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Common Disease;
+  Taros Dral.ESP->|NAME:I'm sorry, friend, but I think you have managed to get a common disease of some sort. You can get that cured by visiting a Temple shrine, or an Imperial cult altar, or by buying a potion from a healer or apothecary.|DELE:
+
+[MOD-INF]: ID=58042929466303778(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:Saying this does not make it true.
+  Taros Dral.ESP->|DATA|NAME:Ok..
+
+[MOD-INF]: ID=60694647106849144(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:You're so nice, %PCName. You must want something.
+  Taros Dral.ESP->|DATA|NAME:You're so nice, %PCName. You must want something....
+
+[MOD-INF]: ID=60811119234957218(:flee)
+  bloodmoon.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bFle_DM001.mp3|NAME:Help! A beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;scared
+  Taros Dral.ESP->|NAME:Help! A beast!|DELE:
+
+[MOD-INF]: ID=72093819260173753(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:You and what army? Get lost.
+  Taros Dral.ESP->|DATA|NAME:You?
+
+[MOD-INF]: ID=73034862212212737(:greeting 4)
+  morrowind.esm-->|DATA|NAME:I'm sorry you're not feeling well, but you need to get cured of that disease. I think it's just a common disease, and if you go to an Imperial cult altar or a Temple shrine, or see a healer or apothecary, I'm sure they can take care of it.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+  Taros Dral.ESP->|NAME:I'm sorry you're not feeling well, but you need to get cured of that disease. I think it's just a common disease, and if you go to an Imperial cult altar or a Temple shrine, or see a healer or apothecary, I'm sure they can take care of it.|DELE:
+
+[DUP-INF]: ID=78102235536611098(Voice:alarm)
+  |DATA|ONAM:yagrum bagarn|SNAM:Vo\Misc\Yagrum_2.mp3|NAME:Noooo!
+
+[MOD-INF]: ID=83313102841915546(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:Perhaps you think I come cheap, %PCRace.
+  Taros Dral.ESP->|DATA|NAME:You think I come cheap, %PCRace? yeesh.
+
+[MOD-INF]: ID=104839182973513018(:info refusal)
+  morrowind.esm-->|DATA|NAME:I don't trust you enough to talk about that.
+  Taros Dral.ESP->|NAME:I don't trust you enough to talk about that.|DELE:
+
+[MOD-INF]: ID=116328816976510684(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:Really? I was thinking the same thing.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Really? I was thinking the same thing.|SCVR:01380|INTV:
+
+[MOD-INF]: ID=119418049200625696(:taunt success)
+  morrowind.esm-->|DATA|NAME:Shut up and draw.
+  Taros Dral.ESP->|NAME:Shut up and draw.|DELE:
+
+[MOD-INF]: ID=125801843224105596(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:I already have plans.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:I already have plans.... Alcy... is... waiting...|SCVR:01440|INTV:
+
+[MOD-INF]: ID=134037521076824044(:greeting 7)
+  morrowind.esm-->|DATA|NAME:You're a known criminal, %PCName. I will have nothing to do with you until you have cleared your name.|SCVR:01433|INTV:d|SCVR:11033|INTV|BNAM:;Reputation >=20; PCCrime >=100;   ModDisposition -30
+  Taros Dral.ESP->|NAME:You're a known criminal, %PCName. I will have nothing to do with you until you have cleared your name.|DELE:
+
+[MOD-INF]: ID=136608043307693423(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:Well, you may think so, but I don't.
+  Taros Dral.ESP->|DATA|NAME:Aaahh Uuuhh...
+
+[MOD-INF]: ID=137221081449632499(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:I didn't think you were that kind of person.
+  Taros Dral.ESP->|DATA|NAME:I didn't think you were that kind of guy.... whatever.
+
+[MOD-INF]: ID=152991572408111402(:attack)
+  bloodmoon.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM006.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+  Taros Dral.ESP->|NAME|DELE:
+
+[MOD-INF]: ID=155652319621322534(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:I'd prefer not to.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:I'd prefer... maybe|SCVR:01440|INTV:
+
+[MOD-INF]: ID=161187469119567773(:taunt success)
+  morrowind.esm-->|DATA|NAME:You'll be sorry you said that, %PCRace.
+  Taros Dral.ESP->|NAME:You'll be sorry you said that, %PCRace.|DELE:
+
+[MOD-INF]: ID=162847754169226431(:taunt success)
+  morrowind.esm-->|DATA|NAME:That makes me...angry.
+  Taros Dral.ESP->|NAME:That makes me...angry.|DELE:
+
+[MOD-INF]: ID=164651982224103597(:greeting 4)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|NAME:You're unclean, outlander. Get away from me. And go get cured, or stay away from me.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|BNAM:;default DUNMER;PC Common Disease;
+  Taros Dral.ESP->|NAME:You're unclean, outlander. Get away from me. And go get cured, or stay away from me.|DELE:
+
+[MOD-INF]: ID=167835806235413657(Topic:sensitive matters)
+  morrowind.esm-->|DATA|ONAM:taros dral|NAME:Unfortunately, you were seen going into the house of Balyn Omavel. Mephala is not pleased. No matter. I will find someone more competent to complete this task. Goodbye.|SCVR:04JX0DA_Mephala|INTV:7
+  Taros Dral.ESP->|DATA|ONAM:taros dral|NAME:Unfortunately, you were seen going into the house of Balyn Omavel like a fuckin amature. Mephala is... uh not cool with ya. No matter... I will find someone who isnt a fucking dumbass..ha, laters.|SCVR:04JX0DA_Mephala|INTV:7
+
+[MOD-INF]: ID=171915478579214228(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:I'm busy that day. Sorry.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:I'm busy that day. Sorry.... you know how it is....|SCVR:01440|INTV:
+
+[MOD-INF]: ID=176203207021511884(Topic:join the morag tong)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|ANAM:Vivec, Arena Hidden Area|NAME:So you have found our headquarters. This speaks well of you. Perhaps you should speak with Grandmaster Eno Hlaalu.
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|ANAM:Vivec, Arena Hidden Area|NAME:I mean you found our headquarters.... ya seem cool, maybe you should speak with Grandmaster Eno Hlaalu... such a cool guy. hehe
+
+[MOD-INF]: ID=189411893301587102(:intimidate success)
+  morrowind.esm-->|DATA|NAME:I don't want any trouble. Just take it easy.
+  Taros Dral.ESP->|NAME:I don't want any trouble. Just take it easy.|DELE:
+
+[MOD-INF]: ID=197491546254595402(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:That's nice to hear.
+  Taros Dral.ESP->|DATA|NAME:That's nice to hear.... alll, day.
+
+[MOD-INF]: ID=199901103012871673(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:Forceful words, %PCRace. But I'm not impressed.
+  Taros Dral.ESP->|DATA|NAME:Aw yeah, %PCRace?
+
+[MOD-INF]: ID=209281375883337301(Persuasion:service refusal)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|FNAM:Morag Tong|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|FNAM:Morag Tong|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're Cooler. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=210996267267922862(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:Thanks. But I'm still watching you.
+  Taros Dral.ESP->|DATA|NAME:Thanks. But I'm still soft.
+
+[MOD-INF]: ID=212952802483547972(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:Thank you. We are truly friends.
+  Taros Dral.ESP->|DATA|NAME:Thank you. We are truly bros.
+
+[MOD-INF]: ID=213082412332107134(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:What pretty words, %PCClass. And how artlessly self-serving.
+  Taros Dral.ESP->|DATA|NAME:What pretty words, %PCClass. cool.
+
+[MOD-INF]: ID=216632521053433412(:taunt success)
+  morrowind.esm-->|DATA|NAME:You would lose.
+  Taros Dral.ESP->|NAME:You would lose.|DELE:
+
+[MOD-INF]: ID=217715949323862811(Greeting:greeting 4)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|NAME:You're got a blight disease, outlander. Get away from me. And go get cured, or STAY away from me.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default DUNMER;PC Blight Disease;
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|NAME:Damn Blight...|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default DUNMER;PC Blight Disease;
+
+[MOD-INF]: ID=218541500069228263(:greeting 7)
+  morrowind.esm-->|DATA|NAME:I know who you are. You're %PCName. You're nothing but a petty thief. I can't afford to associate with common criminals.|SCVR:01433|INTV:d|SCVR:11033|INTV: |BNAM:;Reputation >=10; PCCrime >=100;
+  Taros Dral.ESP->|NAME:I know who you are. You're %PCName. You're nothing but a petty thief. I can't afford to associate with common criminals.|DELE:
+
+[MOD-INF]: ID=219451494910238106(:greeting 4)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|NAME:Keep your distance, outlander. Can't you tell you're sick? I don't want to catch your disease. You should get cured, or no one will want to talk with you. Go find an Imperial cult altar or a Temple shrine, or see a healer or an apothecary.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|SCVR:28FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Common Disease;
+  Taros Dral.ESP->|NAME:Keep your distance, outlander. Can't you tell you're sick? I don't want to catch your disease. You should get cured, or no one will want to talk with you. Go find an Imperial cult altar or a Temple shrine, or see a healer or an apothecary.|DELE:
+
+[MOD-INF]: ID=224682573178796741(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:What! I thought we were getting close.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:W|OWSC|INTV:
+
+[MOD-INF]: ID=229211216524119819(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:I don't think so. That's not going to do it.
+  Taros Dral.ESP->|DATA|NAME:I don't think so.... Nice but dont need it.
+
+[MOD-INF]: ID=234062858210319067(Greeting:greeting 4)
+  morrowind.esm-->|DATA|NAME:I know you. You're %PCName. The notorious outlaw.... Let me outta here.|SCVR:01433|INTV|SCVR:11615|INTV|SCVR:28FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;   ModFlee 100  ModDisposition -30
+  Taros Dral.ESP->|DATA|NAME:I know you. You're %PCName. The notorious outlaw.... sick.|SCVR:01433|INTV|SCVR:11615|INTV|SCVR:28FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;   ModFlee 100  ModDisposition -30
+
+[MOD-INF]: ID=242672632452579098(Greeting:greeting 2)
+  morrowind.esm-->|DATA|NAME:Cover yourself! Are you mad? Have you no decency?|SCVR:01425|INTV:|SCVR:1ARX0Khajiit|INTV|SCVR:2ARX0Argonian|INTV|SCVR:37XX0crassius curio|INTV:|SCVR:4CsX0nolore|INTV:
+  Taros Dral.ESP->|DATA|NAME:Nice...|SCVR:01425|INTV:|SCVR:1ARX0Khajiit|INTV|SCVR:2ARX0Argonian|INTV|SCVR:37XX0crassius curio|INTV:|SCVR:4CsX0NoLore|INTV:
+
+[MOD-INF]: ID=246122378022908778(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:Stop it. Let's talk normal.
+  Taros Dral.ESP->|DATA|NAME:Awww
+
+[MOD-INF]: ID=252910348266961071(:taunt fail)
+  morrowind.esm-->|DATA|NAME:That does it.|SCVR:01710|INTV|BNAM:Goodbye
+  Taros Dral.ESP->|NAME:That does it.|DELE:
+
+[MOD-INF]: ID=254512032184094000(Greeting:greeting 9)
+  morrowind.esm-->|DATA|NAME:You won't make many friends with an attitude like yours.|SCVR:02sX4Random100|INTV:U
+  Taros Dral.ESP->|DATA|NAME:You won't make many friends with an attitude like yours... gonna need to be at least 25% cooler.|SCVR:02sX4Random100|INTV:U
+
+[MOD-INF]: ID=255821256820379574(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:I will not yield on this.
+  Taros Dral.ESP->|DATA|NAME:Yeah?
+
+[MOD-INF]: ID=256217821417728433(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:I think you mean it.
+  Taros Dral.ESP->|DATA|NAME:I think you mean it....
+
+[MOD-INF]: ID=261171474298002279(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:Why do you resort to such talk?
+  Taros Dral.ESP->|DATA|NAME:....zzzz
+
+[MOD-INF]: ID=263042661832839078(Greeting:greeting 2)
+  morrowind.esm-->|DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+  Taros Dral.ESP->|DATA|NAME:No...|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+
+[MOD-INF]: ID=267996102926511772(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Keep it up and see how much I like you.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Keep it up and see how much I like you.... kwite a bit.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=270059039198191411(:taunt success)
+  morrowind.esm-->|DATA|NAME:If you are looking for a fight, fool, you're likely to find one.
+  Taros Dral.ESP->|NAME:If you are looking for a fight, fool, you're likely to find one.|DELE:
+
+[MOD-INF]: ID=272898953917414500(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:What you say is true, %PCName.
+  Taros Dral.ESP->|DATA|NAME:What you say is super true, %PCName.
+
+[MOD-INF]: ID=286217723088610030(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:You're too kind, %PCName.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:You're way too kind, %PCName.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=293117088503427683(:taunt success)
+  morrowind.esm-->|DATA|NAME:Perhaps I will end yours!
+  Taros Dral.ESP->|NAME:Perhaps I will end yours!|DELE:
+
+[MOD-INF]: ID=303562728261414957(Topic:morag tong)
+  morrowind.esm-->|DATA|CNAM:Assassin|NAME:Guided by ancient traditions and rigid codes of conduct, the Morag Tong only recruits candidates of proven skill and honor.|SCVR:02sX4Random100|INTV:K|SCVR:1CsX0NoLore|INTV:|BNAM:; savant; bard; agent; assassin; noble
+  Taros Dral.ESP->|DATA|CNAM:Assassin|NAME:Guided by ancient traditions and rigid codes of conduct, the Morag Tong only recruits candidates of proven skill and honor.... unlike those DB fingerpainters.|SCVR:02sX4Random100|INTV:K|SCVR:1CsX0NoLore|INTV:|BNAM:; savant; bard; agent; assassin; noble
+
+[MOD-INF]: ID=305892797269487838(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:Why should I listen, %PCRace?
+  Taros Dral.ESP->|DATA|NAME:ok.... and what, %PCRace?
+
+[MOD-INF]: ID=308613721087725930(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Not at all. Now what else do you want?|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Not at all. Now what else do you want? a noogie?|SCVR:01440|INTV:
+
+[MOD-INF]: ID=308952045362506783(:greeting 7)
+  morrowind.esm-->|DATA|NAME:Everyone knows you've got a price on your head. I don't want any trouble. Just leave me alone, and I won't call the guards.|SCVR:01433|INTV:d|BNAM:;PCCrime >=100
+  Taros Dral.ESP->|NAME:Everyone knows you've got a price on your head. I don't want any trouble. Just leave me alone, and I won't call the guards.|DELE:
+
+[MOD-INF]: ID=309163173141058809(Topic:vivec)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:Vivec is a city made up of nine cantons, each a little town in itself. Each Great House has its own canton, and outlanders have their own canton called the Foreign Quarter. The Arena is for public entertainments like mock battles and comic plays. Commoners and paupers live in St. Delyn and St. Olms Cantons. But most of all, this is Lord Vivec's holy city. The Ministry of Truth, the Temple prison, hangs above the great temple of the High Fane, the Halls of Wisdom and Justice, and Lord Vivec's Palace.|SCVR:0CsX0NoLore|INTV:|BNAM:;Vivec;
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:Vivec is a city made up of nine cantons, each a lil town in itself. Each House has its own canton, and the other races have their own canton called the Foreign Quarter. The Arena is for public entertainments like mock battles and comic plays. Commoners and paupers live in St. Delyn and St. Olms Cantons. But most of all, this is Vehk's city. The Ministry of Truth, the Temple prison, hangs above the great temple of the High Fane, the Halls of Wisdom and Justice, and VehkMans Palace... dicks...|SCVR:0CsX0NoLore|INTV:|BNAM:;Vivec;
+
+[MOD-INF]: ID=309246435315996737(Greeting:greeting 4)
+  morrowind.esm-->|DATA|NAME:Hey! Get away from me! You've got corprus disease! You can't get cured of corprus! Get aWAY!|SCVR:01583|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default NON-DUNMER;PC Corprus;
+  Taros Dral.ESP->|DATA|NAME:Hey...|SCVR:01583|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default NON-DUNMER;PC Corprus;
+
+[MOD-INF]: ID=311001004254181975(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:I'm sure I've got better things to do.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:I'm sure I've got better things to do.... like anything else.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=322092365511261688(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:Is this supposed to be a gift? If so, it does not please me.
+  Taros Dral.ESP->|DATA|NAME:Is this supposed to be a gift? If so, Nice but dont need it.
+
+[MOD-INF]: ID=339622516561432629(:info refusal)
+  morrowind.esm-->|DATA|NAME:Some words should be shared only by friends.
+  Taros Dral.ESP->|NAME:Some words should be shared only by friends.|DELE:
+
+[MOD-INF]: ID=340219344874814775(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Don't try to butter me up, %PCRace.
+  Taros Dral.ESP->|DATA|NAME:Don't try to butter me up, %PCRace. unless you use "I cant belive its not butter"
+
+[MOD-INF]: ID=349218719711716611(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:Your manner is offensive, %PCRace. I must object.
+  Taros Dral.ESP->|DATA|NAME:Nice but dont need it, %PCRace. I must object.
+
+[MOD-INF]: ID=518143721474127056(:attack)
+  bloodmoon.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM003.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Taros Dral.ESP->|NAME|DELE:
+
+[MOD-INF]: ID=524426342189474603(Topic:background)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|NAME:You may call me %Name. What I do is my own affair.|BNAM:ClearInfoActor
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|NAME:The name is Taros Dral and I'm the greatest assassin in Tamriel! Mwaahaha!  Also I cant Die... youll see... hehehe.|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=542575441562226323(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:That's crazy. Get lost.
+  Taros Dral.ESP->|DATA|NAME:That's crazy, shutup.
+
+[MOD-INF]: ID=563222144422730417(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:I don't think so, and your pushing me isn't going to change that.
+  Taros Dral.ESP->|DATA|NAME:Yeah?
+
+[MOD-INF]: ID=578128438312667949(Greeting:greeting 2)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Return to the foul corruption from which you came! Die, fiend!|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default DUNMER;PC Vampire  StartCombat Player  Goodbye
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|NAME:A vampire... great...|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default DUNMER;PC Vampire  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=630416972280051055(Topic:hall of justice)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:Grandmaster Berel Sala, chief Ordinator on Vvardenfell, has his offices there.|SCVR:0CsX0NoLore|INTV:
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:Grandmaster Berel Sala, chief Ordinator on Vvardenfell, has his offices there... met em... about 50% prick.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=643920206316026031(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:I don't think that's appropriate.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:I don't think that's appropriate.... keep it up.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=659550062327311586(Topic:edryno arethi)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:Her home is in the Hlaalu Canton Waistworks.|SCVR:0BLX0Vivec, Hlaalu Edryno Arethi's House|INTV:|SCVR:1CsX0NoLore|INTV:
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:Her home is in the Hlaalu Canton Waistworks... I would know.|SCVR:0BLX0Vivec, Hlaalu Edryno Arethi's House|INTV:|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=660830491438831439(:intimidate success)
+  morrowind.esm-->|DATA|NAME:All right. We can talk.
+  Taros Dral.ESP->|NAME:All right. We can talk.|DELE:
+
+[MOD-INF]: ID=667543883130515287(Greeting:greeting 9)
+  morrowind.esm-->|DATA|NAME:Don't bother me.|SCVR:02sX4Random100|INTV:P
+  Taros Dral.ESP->|DATA|NAME:Shut up.|SCVR:02sX4Random100|INTV:P
+
+[MOD-INF]: ID=714212201106014849(Greeting:greeting 6)
+  morrowind.esm-->|DATA|NAME:By your actions, you have lost the trust of the %Faction. Until you make amends, expect no favor from me.|SCVR:01390|INTV|BNAM:; PCExpelledCurrent = 1; Rank > 0;
+  Taros Dral.ESP->|DATA|NAME:By your actions, you have lost the trust of the %Faction. Until you make amends, expect no favor from me... but only because Eno Told me...|SCVR:01390|INTV|BNAM:; PCExpelledCurrent = 1; Rank > 0;
+
+[MOD-INF]: ID=765822376113496151(:taunt fail)
+  morrowind.esm-->|DATA|NAME:I'm not sure I like this tone. What else do you want?
+  Taros Dral.ESP->|NAME:I'm not sure I like this tone. What else do you want?|DELE:
+
+[MOD-INF]: ID=910887013066421075(Topic:sensitive matters)
+  morrowind.esm-->|DATA|ONAM:taros dral|NAME:You've killed him in a way other than was described? That was unwise. Mephala is not pleased. Leave here.|SCVR:04JX2DA_Mephala|INTV:|SCVR:16DX2balyn omavel|INTV:|SCVR:24JX4DA_Mephala|INTV:9|BNAM:Journal DA_Mephala 57  ModDisposition -20
+  Taros Dral.ESP->|DATA|ONAM:taros dral|NAME:Ya dun fucked up man... Mephala aint happy... just scram dude.|SCVR:04JX2DA_Mephala|INTV:|SCVR:16DX2balyn omavel|INTV:|SCVR:24JX4DA_Mephala|INTV:9|BNAM:Journal DA_Mephala 57  ModDisposition -20
+
+[MOD-INF]: ID=946336351483925832(:taunt success)
+  morrowind.esm-->|DATA|NAME:I don't think I like the sound of that.
+  Taros Dral.ESP->|NAME:I don't think I like the sound of that.|DELE:
+
+[MOD-INF]: ID=981920252127013607(Topic:high fane)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:The High Fane is the largest Tribunal temple on Vvardenfell. Archcanon Saryoni presides over the temple, along with a large staff of priests, healers, and monks. Pilgrims travel from all over Morrowind to view the High Fane and the Ministry of Truth, and to offer prayer and thanks before the Palace of Vivec.|SCVR:0CsX0NoLore|INTV:|BNAM:;Vivec;
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:The High Fane is the largest Tribunal temple on Vvardenfell. Archcanon Saryoni presides over the temple, along with a large staff of priests, healers, and monks. Pilgrims travel from all over Morrowind to view the High Fane and the Ministry of Truth, and to offer prayer and thanks before the Palace of Vivec... Those guys need to get laid... {burbs} shit...|SCVR:0CsX0NoLore|INTV:|BNAM:;Vivec;
+
+[MOD-INF]: ID=1053123401240582096(Topic:sensitive matters)
+  morrowind.esm-->|DATA|ONAM:taros dral|NAME:The great Daedra Mephala has given me information that must be acted on. If you would be willing to work with me, I'm certain Mephala would be grateful.|SCVR:04JX4DA_Mephala|INTV: |BNAM:Journal "DA_Mephala" 10  Choice "I would like to help." 1 "I do not wish to become involved." 2
+  Taros Dral.ESP->|DATA|ONAM:taros dral|NAME:Aw yea the very lovely Lady Mephala has some work for us and by us I mean you...|SCVR:04JX4DA_Mephala|INTV: |BNAM:Journal "DA_Mephala" 10  Choice "I would like to help." 1 "I do not wish to become involved." 2
+
+[MOD-INF]: ID=1088616262663228613(Topic:clear your name)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:The %Faction works within the system - not beyond it. We are not above the law. If you have unresolved legal issues, you should seek an officer and turn yourself in. Ultimately, the penalties will be less severe. Your Writs will absolve you of any wrongdoing if you present them to the authorities.
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:The %Faction works within the system - not beyond it.... though im not personally obligated to follow these "rules" you are, so get fucked.. haha... sorry man.
+
+[MOD-INF]: ID=1119918090254325502(:taunt fail)
+  morrowind.esm-->|DATA|NAME:What is that tiresome noise?
+  Taros Dral.ESP->|NAME:What is that tiresome noise?|DELE:
+
+[MOD-INF]: ID=1158419943357823083(Topic:join the morag tong)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|ANAM:Vivec|NAME:By tradition, the Grandmaster of the Morag Tong lives in the Arena Canton here in Vivec.
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|ANAM:Vivec|NAME:By tradition, the Grandmaster of the Morag Tong lives in the Arena Canton here in Vivec... I hate sewers... luckly When Eno raised me he wasnt grandmaster so I got real cozy in Balmora... after I was inticed to kill my parents with an explosive Dwemer Crossbow that is... ah good times. Mwahahaha...
+
+[MOD-INF]: ID=1165418216212824499(Greeting:greeting 5)
+  morrowind.esm-->|DATA|ONAM:taros dral|NAME:Greetings. Perhaps you can be of some help to me. There are sensitive matters to attend to.|SCVR:04JX4DA_Mephala|INTV: |SCVR:16DX0balyn omavel|INTV:
+  Taros Dral.ESP->|DATA|ONAM:taros dral|NAME:Yo Whatup howsa hanging... anyhow, I got some Sensitive matters to attend to...In other better words... wanna kill someone?|SCVR:04JX4DA_Mephala|INTV: |SCVR:16DX0balyn omavel|INTV:
+
+[MOD-INF]: ID=1205123837234059222(:intimidate success)
+  morrowind.esm-->|DATA|NAME:I doubt it will come to that, really.
+  Taros Dral.ESP->|NAME:I doubt it will come to that, really.|DELE:
+
+[MOD-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  tribunal.esm--->|DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+  Taros Dral.ESP->|DATA|NAME:Who's there? Ah whatever im probably drunk... of course I am... im allways dru...|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+
+[MOD-INF]: ID=1248312320644532433(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Not with you, no.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Not with you, no, maybe morningstar.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=1260123140477827455(Topic:killing and murder)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|NAME:Killing a victim marked by a writ is sacred and honorable.|SCVR:0CsX0NoLore|INTV:|BNAM:;[Morag Tong]
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|NAME:Killing a victim marked by a writ is sacred and honorable... unless you blow them up with high explosives... learned that the hard way... damn grandmasters... they call it colatoral damage... I call it: BONUS!|SCVR:0CsX0NoLore|INTV:|BNAM:;[Morag Tong]
+
+[MOD-INF]: ID=1267416368161361361(Topic:almalexia)
+  tribunal.esm--->|DATA|NAME:Nonsense. You don't know what you're talking about.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Taros Dral.ESP->|DATA|NAME:You don't know what you're talking about.... I did not let loose right now... you did... wait what.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+
+[MOD-INF]: ID=1297225818208555010(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Your tone lacks sincerity.
+  Taros Dral.ESP->|DATA|NAME:Your tone lacks good conviction...
+
+[MOD-INF]: ID=1299514151316653550(Topic:almalexia)
+  tribunal.esm--->|DATA|RNAM:Dark Elf|NAME:[Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|NAME:Im Hungry...|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+
+[MOD-INF]: ID=1312313470517918122(Greeting:greeting 4)
+  morrowind.esm-->|DATA|NAME:Hey! Get away from me! Don't you know you're sick? It's just a common disease. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+  Taros Dral.ESP->|DATA|NAME:Hey...|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=1319625909112942396(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:So you tell me, but I don't see it that way.
+  Taros Dral.ESP->|DATA
+
+[MOD-INF]: ID=1322143283227731082(Greeting:greeting 5)
+  morrowind.esm-->|DATA|ONAM:taros dral|NAME:What is it, %PCName? Have you completed the sensitive matters we discussed?|SCVR:04JX3DA_Mephala|INTV|SCVR:14JX5DA_Mephala|INTV:2
+  Taros Dral.ESP->|DATA|ONAM:taros dral|NAME:What is it, %PCName? Have you completed the "sensitive matters" we discussed? No? Yes? You want a pizza?  Your gonna have to install a mod for that Amigo.|SCVR:04JX3DA_Mephala|INTV|SCVR:14JX5DA_Mephala|INTV:2
+
+[MOD-INF]: ID=1377786412062913359(Persuasion:bribe success)
+  morrowind.esm-->|DATA|NAME:You're too kind, %PCName. I can't refuse such a friendly gesture.
+  Taros Dral.ESP->|DATA
+
+[MOD-INF]: ID=1380984211841210794(:info refusal)
+  morrowind.esm-->|DATA|NAME:It's a matter of trust, %PCName. And I don't trust you enough yet.
+  Taros Dral.ESP->|NAME:It's a matter of trust, %PCName. And I don't trust you enough yet.|DELE:
+
+[MOD-INF]: ID=1412916397300049881(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Your words are hollow. Stop this.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Your words are so hollow... I love It.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=1437410127118847631(Greeting:greeting 4)
+  morrowind.esm-->|DATA|NAME:Not so close! I don't want to catch what you've got. And you've got a blight disease. You're a danger to everyone. You must find an Imperial cult altar or a Temple shrine, or see a healer or apothecary, and get yourself cured. Otherwise, no one is going to talk to you.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Blight Disease;
+  Taros Dral.ESP->|DATA|NAME:Woah bro...|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Blight Disease;
+
+[MOD-INF]: ID=1438312068186193282(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:I'm afraid what you ask is impossible.
+  Taros Dral.ESP->|DATA|NAME:Nice but dont need it...
+
+[MOD-INF]: ID=1459331766919624335(:taunt fail)
+  morrowind.esm-->|DATA|NAME:Such tough talk. If you had more than words, you'd use them.
+  Taros Dral.ESP->|NAME:Such tough talk. If you had more than words, you'd use them.|DELE:
+
+[MOD-INF]: ID=1471322831213057918(:intimidate success)
+  morrowind.esm-->|DATA|NAME:It's ok, really. I didn't mean it.
+  Taros Dral.ESP->|NAME:It's ok, really. I didn't mean it.|DELE:
+
+[MOD-INF]: ID=1472411338187655794(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Talk straight, %PCRace. None of that flattery.
+  Taros Dral.ESP->|DATA|NAME:Talk straight, %PCRace. Eat Ass.
+
+[MOD-INF]: ID=1643830350181516343(:intimidate success)
+  morrowind.esm-->|DATA|NAME:Of course, yes. I see what you mean.
+  Taros Dral.ESP->|NAME:Of course, yes. I see what you mean.|DELE:
+
+[MOD-INF]: ID=1648820782154061085(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:A bribe? What do you think I am?
+  Taros Dral.ESP->|DATA|NAME:A bribe? What do you think I am? A Guar Ranger down on luck?
+
+[MOD-INF]: ID=1732794482128125050(:hit)
+  bloodmoon.esm-->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Roar!|SCVR:01720|INTV|SCVR:12sX5Random100|INTV
+  Taros Dral.ESP->|NAME:Roar!|DELE:
+
+[MOD-INF]: ID=1773222623213229315(:intimidate success)
+  morrowind.esm-->|DATA|NAME:You're upsetting me. Can't we resolve this in a civil manner?
+  Taros Dral.ESP->|NAME:You're upsetting me. Can't we resolve this in a civil manner?|DELE:
+
+[MOD-INF]: ID=1800827408173925837(:hello)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM146.mp3|NAME:Yes, outlander, what do you want?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+  Taros Dral.ESP->|NAME:sup|DELE:
+
+[MOD-INF]: ID=1844147142793817211(Greeting:greeting 4)
+  morrowind.esm-->|DATA|NAME:I know you. You're %PCName, the notorious outlaw. Look. I don't want any trouble. But you're scaring me. And I can't think straight when I'm scared.|SCVR:01433|INTV|SCVR:18FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;   ModDisposition -30
+  Taros Dral.ESP->|DATA|NAME:I know you. You're %PCName, Damn.|SCVR:01433|INTV|SCVR:18FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;   ModDisposition -30
+
+[MOD-INF]: ID=1866983942308115663(:taunt success)
+  morrowind.esm-->|DATA|NAME:What? Did I hear you correctly?
+  Taros Dral.ESP->|NAME:What? Did I hear you correctly?|DELE:
+
+[MOD-INF]: ID=1872919860251441281(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:I'm surprised to hear you say that, and I'm not buying it.
+  Taros Dral.ESP->|DATA|NAME:Ah uh?
+
+[MOD-INF]: ID=1904595961296520510(:taunt success)
+  morrowind.esm-->|DATA|NAME:A good thrashing is what you need, %PCRace.
+  Taros Dral.ESP->|NAME:A good thrashing is what you need, %PCRace.|DELE:
+
+[MOD-INF]: ID=1933212001114449083(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:I should slap you.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:I should slap you and smooch you.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=1987015913852530702(Greeting:greeting 4)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|NAME:You're got corprus disease, outlander. That's a death sentence. It can't get cured. Get away from me. FAR away.|SCVR:01583|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default DUNMER;PC Corprus;;
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|NAME:You're got corprus disease... cool.|SCVR:01583|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default DUNMER;PC Corprus;;
+
+[MOD-INF]: ID=1991421659422921552(:intimidate success)
+  morrowind.esm-->|DATA|NAME:Sure, anything. Just name it, I don't want any trouble.
+  Taros Dral.ESP->|NAME:Sure, anything. Just name it, I don't want any trouble.|DELE:
+
+[MOD-INF]: ID=2029520333370719468(Topic:sensitive matters)
+  morrowind.esm-->|DATA|ONAM:taros dral|NAME:Well done. Mephala wishes to speak to you directly. This is a great honor for you. Approach her altar.|SCVR:04JX0DA_Mephala|INTV:2
+  Taros Dral.ESP->|DATA|ONAM:taros dral|NAME:Oh Shit Mephala her fucking self wants to talk with ya... im jelous... (what the shizzle man I wanna...)|SCVR:04JX0DA_Mephala|INTV:2
+
+[MOD-INF]: ID=2056327709248819782(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Show respect, %PCRace. Do not flatter me.
+  Taros Dral.ESP->|DATA|NAME:Show respect, %PCRace. Do flatter me. hehehe
+
+[MOD-INF]: ID=2115218527392532563(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Get lost. Now.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Get lost... bitch.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=2132520845246826172(:info refusal)
+  morrowind.esm-->|DATA|NAME:When we are better friends, ask again.
+  Taros Dral.ESP->|NAME:When we are better friends, ask again.|DELE:
+
+[MOD-INF]: ID=2133120450327024075(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:Get lost.
+  Taros Dral.ESP->|DATA|NAME:Ok And?
+
+[MOD-INF]: ID=2133723998126486232(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:I shall honor our friendship too.
+  Taros Dral.ESP->|DATA|NAME:I shall honor our Bromance too.
+
+[MOD-INF]: ID=2156110346261177621(Topic:almalexia)
+  tribunal.esm--->|DATA|RNAM:Dark Elf|NAME:[Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Taros Dral.ESP->|DATA|RNAM|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+
+[MOD-INF]: ID=2188619576183329891(:greeting 4)
+  morrowind.esm-->|DATA|NAME:Not so close! I don't want to catch what you've got. It's just a common disease, but you need to find an Imperial cult altar or a Temple shrine, or see a healer or apothecary, and get yourself cured. Otherwise, no one is going to talk to you.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+  Taros Dral.ESP->|NAME:Not so close! I don't want to catch what you've got. It's just a common disease, but you need to find an Imperial cult altar or a Temple shrine, or see a healer or apothecary, and get yourself cured. Otherwise, no one is going to talk to you.|DELE:
+
+[MOD-INF]: ID=2202631506150878547(:taunt success)
+  morrowind.esm-->|DATA|NAME:I hope your sword is as sharp as your tongue!
+  Taros Dral.ESP->|NAME:I hope your sword is as sharp as your tongue!|DELE:
+
+[MOD-INF]: ID=2278720479126556737(Topic:solstheim)
+  bloodmoon.esm-->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2
+  Taros Dral.ESP->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.... dont.|SCVR:04JX3BM_Rumors|INTV:2
+
+[MOD-INF]: ID=2283721782216812426(Greeting:greeting 8)
+  morrowind.esm-->|DATA|NAME:You poor fellow. This outfit... is that all you can afford?|SCVR:01424|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod < 2000
+  Taros Dral.ESP->|DATA|NAME:You poor fellow. This outfit... is that all you can afford?... damn my fucking uncle looks better than you and hes dead...|SCVR:01424|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod < 2000
+
+[MOD-INF]: ID=2304194431483813686(Topic:justice offices)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:They are in the Hall of Justice here in Vivec.|SCVR:0CsX0NoLore|INTV:
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:They are in the Hall of Justice here in Vivec... I hated that one bitch... 2nd era you woulndnt know her.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2428276092813615516(Topic:morrowind lore)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|NAME:According to the Morag Tong, killing civilians is wrong, and grounds for expulsion. Killing anyone but a victim marked by writ is dishonorable and incompetent. Killing a victim marked by a writ is sacred and honorable.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;MoragTong; random100 <= 50;
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|NAME:According to the Morag Tong, killing civilians is wrong, and grounds for expulsion... Killing anyone but a victim marked by writ is dishonorable and incompetent. Killing a victim marked by a writ is fucking sick.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;MoragTong; random100 <= 50;
+
+[MOD-INF]: ID=2432830505285718661(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:Ok. I'm listening.
+  Taros Dral.ESP->|DATA|NAME:Ok. I'm hearing ya praises.
+
+[MOD-INF]: ID=2459630829102289895(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:Yes, it truly is.
+  Taros Dral.ESP->|DATA|NAME:Yes, it truly is.... hehehe
+
+[MOD-INF]: ID=2571427924141062089(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:You cannot purchase honor with gold, %PCClass.
+  Taros Dral.ESP->|DATA|NAME:You cannot purchase honor with gold, %PCClass... but you can alot of other things.
+
+[MOD-INF]: ID=2591023515216602066(:intimidate success)
+  morrowind.esm-->|DATA|NAME:Let's not have it come to that, Ok? What do you need?
+  Taros Dral.ESP->|NAME:Let's not have it come to that, Ok? What do you need?|DELE:
+
+[MOD-INF]: ID=2602129780139094084(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:You're wasting your time. I won't be bullied.
+  Taros Dral.ESP->|DATA|NAME:You're wasting your time man...
+
+[MOD-INF]: ID=2638137421067825083(:idle)
+  bloodmoon.esm-->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking
+  Taros Dral.ESP->|NAME:Growl!|DELE:
+
+[MOD-INF]: ID=2673111663506210449(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Fine sentiments, %PCClass, but I doubt their sincerity.
+  Taros Dral.ESP->|DATA|NAME:Fine sentiments, %PCClass, but ooooo
+
+[MOD-INF]: ID=2682931338265694225(:intimidate success)
+  morrowind.esm-->|DATA|NAME:I take your point. I hope we can work something out.
+  Taros Dral.ESP->|NAME:I take your point. I hope we can work something out.|DELE:
+
+[MOD-INF]: ID=2692426071308595328(:info refusal)
+  morrowind.esm-->|DATA|NAME:Concerning this, I can only speak to a friend
+  Taros Dral.ESP->|NAME:Concerning this, I can only speak to a friend|DELE:
+
+[MOD-INF]: ID=2700625713142715042(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:Your threat comes from a weak, limp bag.
+  Taros Dral.ESP->|DATA|NAME:Your threat comes from a weak, limp bag.... you know the one.
+
+[MOD-INF]: ID=2703131751219628687(:hello)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM210.mp3|NAME:Welcome, friend. We extend you our warm regards.|SCVR:01460|INTV|BNAM:;SameFaction=1
+  Taros Dral.ESP->|NAME:sup|DELE:
+
+[MOD-INF]: ID=2735617594753814468(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:No one's told me that in so long.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Thx bro.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=2839274162795723843(Topic:dram bero)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|ANAM:Vivec|NAME:I've seen him in the St. Olms Canton.|SCVR:0CsX0NoLore|INTV:|SCVR:1BLX0Vivec, St. Olms Haunted Manor|INTV:
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|ANAM:Vivec|NAME:I've seen him in the St. Olms Canton.... but I was to distracted by large amounts of Sujamma and Women... Hehehe..|SCVR:0CsX0NoLore|INTV:|SCVR:1BLX0Vivec, St. Olms Haunted Manor|INTV:
+
+[MOD-INF]: ID=2890220726556429297(Persuasion:service refusal)
+  morrowind.esm-->|DATA|NAME:You're not the type I like to deal with.
+  Taros Dral.ESP->|DATA|NAME:Your not cosher...
+
+[MOD-INF]: ID=2940217898756628826(:taunt fail)
+  morrowind.esm-->|DATA|NAME:You are pathetic.
+  Taros Dral.ESP->|NAME:You are pathetic.|DELE:
+
+[MOD-INF]: ID=2973515306664820887(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:You insult me, %PCName.
+  Taros Dral.ESP->|DATA|NAME:Nice but dont need it... %PCName.
+
+[MOD-INF]: ID=2990915352848125483(Persuasion:bribe success)
+  morrowind.esm-->|DATA|NAME:Yes, %PCName, that may be some help.
+  Taros Dral.ESP->|DATA|NAME:Yes, %PCName, whatever
+
+[MOD-INF]: ID=3016716281193932537(:intimidate success)
+  morrowind.esm-->|DATA|NAME:Go ahead. I am listening.
+  Taros Dral.ESP->|NAME:Go ahead. I am listening.|DELE:
+
+[MOD-INF]: ID=3039924276601419113(Topic:ilmeni dren)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:I've heard the name. Try the St. Delyn canton.|SCVR:0CsX0NoLore|INTV:
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:I've heard the name. Try the St. Delyn canton... or maybe the well... ya never know. hehe.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3103210864206706477(Topic:latest rumors)
+  bloodmoon.esm-->|DATA|RNAM:Dark Elf|NAME:I've been told that the Empire has granted a new charter to do some mining on the island of Solstheim. Why anyone would want to go there is beyond me.|SCVR:04JX0BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|NAME:I've been told that the Empire has granted a new charter to do some mining on the island of Solstheim. Why anyone would want to go there is beyond me... its a fucking shithole... at least now. Hehe|SCVR:04JX0BM_Rumors|INTV: |SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3150775931610718181(Topic:danar uvelas)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:A skooma-addict, that one. His wife works all the time in the Hall, and he takes the money and spends it all on the skooma. He and his friends spend all their time down in the Underworks using the stuff. That poor woman.|SCVR:0CsX0NoLore|INTV:
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:A skooma-addict, that one. His wife works all the time in the Hall, and he takes the money and spends it all on the skooma. He and his friends spend all their time down in the Underworks using the stuff. That poor woman... maybe The Dral should pay her a visit...|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3204147182354114881(:intimidate success)
+  morrowind.esm-->|DATA|NAME:Well, if you insist. I guess I must hear you out.
+  Taros Dral.ESP->|NAME:Well, if you insist. I guess I must hear you out.|DELE:
+
+[MOD-INF]: ID=3208213005304216290(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:I'm not taking your money. Get lost.
+  Taros Dral.ESP->|DATA|NAME:I'm not taking your money compdre.
+
+[MOD-INF]: ID=4076116871758623028(:info refusal)
+  morrowind.esm-->|DATA|NAME:Look, I like you, but not enough to tell you that.
+  Taros Dral.ESP->|NAME:Look, I like you, but not enough to tell you that.|DELE:
+
+[MOD-INF]: ID=4690184901766527940(:flee)
+  bloodmoon.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bFle_DM002.mp3|NAME:Get away, beast!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;scared
+  Taros Dral.ESP->|NAME:Get away, beast!|DELE:
+
+[MOD-INF]: ID=4740252483254216877(Greeting:greeting 8)
+  morrowind.esm-->|DATA|NAME:You look very impressive in that outfit, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 4000
+  Taros Dral.ESP->|DATA|NAME:You look very impressive in that outfit... dont care tho.|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 4000
+
+[MOD-INF]: ID=5735219651219927354(:info refusal)
+  morrowind.esm-->|DATA|NAME:If I liked you better, then I might tell you.
+  Taros Dral.ESP->|NAME:If I liked you better, then I might tell you.|DELE:
+
+[MOD-INF]: ID=6758312831477724060(Persuasion:bribe success)
+  morrowind.esm-->|DATA|NAME:Well, %PCName, if you insist, I must not refuse.
+  Taros Dral.ESP->|DATA|NAME:Well, %PCName, if you insist, I cant really refuse.
+
+[MOD-INF]: ID=7347299612038512802(Topic:rules)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|NAME:The %Faction executes writs and performs special duties as the ruling houses direct. Guild members never harm or steal from anyone - except the target of a legal Writ of execution. Never betray our secrets or our identities. If you break any of these rules, you must immediately speak with a Master to regain your good standing or you may be targeted for execution.|BNAM:Journal rules_morag 1
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|NAME:Who gives A fuck... I dont.|BNAM:Journal rules_morag 1
+
+[MOD-INF]: ID=7919237012811128987(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:You think you're being clever, %PCName. But I know what you're up to.
+  Taros Dral.ESP->|DATA|NAME:Hmmmmmmm
+
+[MOD-INF]: ID=8346136801282816041(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:You honor me, %PCName. Thank you.
+  Taros Dral.ESP->|DATA|NAME:You honor me, %PCName. Thanks man.
+
+[MOD-INF]: ID=8377317692459917658(:taunt fail)
+  morrowind.esm-->|DATA|NAME:So sad. Such a big mouth. And no teeth at all.
+  Taros Dral.ESP->|NAME:So sad. Such a big mouth. And no teeth at all.|DELE:
+
+[MOD-INF]: ID=9392135622270730435(:info refusal)
+  morrowind.esm-->|DATA|NAME:I ask myself... Do I like you enough to tell you about this?
+  Taros Dral.ESP->|NAME:I ask myself... Do I like you enough to tell you about this?|DELE:
+
+[MOD-INF]: ID=9490178021846828402(:taunt success)
+  morrowind.esm-->|DATA|NAME:You think so, do you? Perhaps you want to prove it?
+  Taros Dral.ESP->|NAME:You think so, do you? Perhaps you want to prove it?|DELE:
+
+[MOD-INF]: ID=10189186581313811576(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:Goodness, %PCName. What can I say?|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Why thanks I am great.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=10343167362771029193(:intimidate success)
+  morrowind.esm-->|DATA|NAME:I'd rather not fight about it. Go ahead. What did you want?
+  Taros Dral.ESP->|NAME:I'd rather not fight about it. Go ahead. What did you want?|DELE:
+
+[MOD-INF]: ID=10622219451159825354(Persuasion:taunt fail)
+  morrowind.esm-->|DATA|NAME:Don't you have better things to do?
+  Taros Dral.ESP->|DATA|NAME:Don't you have better things to do? No? Neither do I.
+
+[MOD-INF]: ID=10767237971994314567(Greeting:greeting 7)
+  tribunal.esm--->|DATA|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:moddisposition 10
+  Taros Dral.ESP->|DATA|NAME:Hey Nerevar.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:moddisposition 10
+
+[MOD-INF]: ID=10819118262520816930(:attack)
+  bloodmoon.esm-->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;this prevents werewolves from talking to you in combat
+  Taros Dral.ESP->|NAME:Growl!|DELE:
+
+[MOD-INF]: ID=11112262421138727149(Topic:hall of wisdom)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:The Hall of Wisdom and Hall of Justice contain the executive, administrative, judicial, and martial operations of the Tribunal Temple. They're in the Temple Canton of Vivec.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:;Vivec;
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:The Hall of Wisdom and Hall of Justice contain the executive, administrative, judicial, and martial operations of the Tribunal Temple. They're in the Temple Canton of Vivec... the worst place... EVER.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:;Vivec;
+
+[MOD-INF]: ID=11602313041701624062(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Not interested.
+  Taros Dral.ESP->|DATA|NAME:Not interested fucko...
+
+[MOD-INF]: ID=11657146863060720256(Greeting:greeting 2)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|NAME:No! A vampire! Get away, you foul creature!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|NAME:No...|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+
+[MOD-INF]: ID=12174226662213815730(Voice:flee)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Fle_DM004.mp3|NAME:Let me live!|SCVR:02sX3Random100|INTV:P
+  Taros Dral.ESP->|DATA|ONAM:taros dral|RNAM:Dark Elf|SNAM:vo\d\m\Fle_DM004.mp3|NAME:Let me live!|SCVR:02sX3Random100|INTV:P
+
+[MOD-INF]: ID=12414258301873712000(:taunt fail)
+  morrowind.esm-->|DATA|NAME:Go away. I'm tired of listening to you.
+  Taros Dral.ESP->|NAME:Go away. I'm tired of listening to you.|DELE:
+
+[MOD-INF]: ID=12494109482567012452(:taunt fail)
+  morrowind.esm-->|DATA|NAME:You're wasting your breath, %PCName.
+  Taros Dral.ESP->|NAME:You're wasting your breath, %PCName.|DELE:
+
+[MOD-INF]: ID=12560149042482210158(Greeting:greeting 4)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|NAME:The Morag Tong does not respect those who debase the sacred art of murder.|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|NAME:The Morag Tong does not respect those who debase the sacred art of murder.... but I dont care...|SCVR:01433|INTV|BNAM:;Redoran, Imperial Legion; Temple; Morag Tong; Census and Excise; PCCrime >=1000;   ModDisposition -30  Goodbye
+
+[MOD-INF]: ID=12630280742683631664(Greeting:greeting 4)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|NAME:Keep your distance, outlander. Can't you tell you're sick? And you've got a blight disease. You're a danger to everyone. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Blight Disease;
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|NAME:Sup...|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Blight Disease;
+
+[MOD-INF]: ID=13257203011341111855(:taunt fail)
+  morrowind.esm-->|DATA|NAME:Go away.
+  Taros Dral.ESP->|NAME:Go away.|DELE:
+
+[MOD-INF]: ID=13761208141103731031(Topic:morag tong)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|NAME:What can I do for you, sister?|SCVR:01460|INTV|BNAM:;Morag Tong;
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|NAME:What can I do... for you?|SCVR:01460|INTV|BNAM:;Morag Tong;
+
+[MOD-INF]: ID=13991112482339723064(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:I can see where this is going. Perhaps you should leave.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:I can see where this is going. Please stay.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=14035173113161727385(:intimidate success)
+  morrowind.esm-->|DATA|NAME:All right, you made your point.
+  Taros Dral.ESP->|NAME:All right, you made your point.|DELE:
+
+[MOD-INF]: ID=14293247482508718076(Persuasion:info refusal)
+  morrowind.esm-->|DATA|NAME:Nothing I would tell to you. Get lost.
+  Taros Dral.ESP->|DATA|NAME:Uh I dont Remember...
+
+[MOD-INF]: ID=14415281732678029801(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:I'm not sure I feel the same way. Perhaps another time.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Nah man.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=14701251112666318792(:info refusal)
+  morrowind.esm-->|DATA|NAME:This is not something I would tell the likes of you.
+  Taros Dral.ESP->|NAME:This is not something I would tell the likes of you.|DELE:
+
+[MOD-INF]: ID=14735313852900815568(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:A rare thing indeed. Thanks.
+  Taros Dral.ESP->|DATA|NAME:Aw yes I am best.
+
+[MOD-INF]: ID=15608300072722710494(:flee)
+  bloodmoon.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bFle_DM003.mp3|NAME|SCVR:02sX5Random100|INTV:K|SCVR:11650|INTV|BNAM:;annoyed
+  Taros Dral.ESP->|NAME|DELE:
+
+[MOD-INF]: ID=16912141172875821493(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:Yes, the thought had crossed my mind.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Yes yes yes, but I already knew I was awesome.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=17495182362042815686(Topic:almalexia)
+  tribunal.esm--->|DATA|RNAM:Dark Elf|NAME:[Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|NAME:Ok...|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+
+[MOD-INF]: ID=17859252753236823838(Topic:dissident priests)
+  morrowind.esm-->|DATA|ANAM:Vivec|NAME:Did you hear they stuck that Dissident Priests guy Malur Omayn in the Ministry of Truth? I guess the Temple Priests and Ordinators figure they can straighten him out in there. I'll bet they can.|SCVR:04JX4B8_MeetVivec|INTV:2|SCVR:1CsX0NoLore|INTV:
+  Taros Dral.ESP->|DATA|ANAM:Vivec|NAME:Did you hear they stuck that Dissident Priests guy Malur Omayn in the Ministry of Truth? I guess the Temple Priests and Ordinators figure they can straighten him out in there.... Damn Baar Dau used to be cool... 2nd Era for Life!|SCVR:04JX4B8_MeetVivec|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=18385234682883220675(:attack)
+  bloodmoon.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+  Taros Dral.ESP->|NAME:Kill the beast!|DELE:
+
+[MOD-INF]: ID=18990189992207523438(:greeting 4)
+  morrowind.esm-->|DATA|NAME:Hey! Get away from me! Don't you know you're sick? And you've got a blight disease. You're a danger to everyone. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Blight Disease
+  Taros Dral.ESP->|NAME:Hey! Get away from me! Don't you know you're sick? And you've got a blight disease. You're a danger to everyone. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|DELE:
+
+[MOD-INF]: ID=19191108672798412344(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:I'll take that as a compliment.
+  Taros Dral.ESP->|DATA|NAME:I'll take that as a compliment. yuup.
+
+[MOD-INF]: ID=19553254221334113626(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:That's very sweet, %PCName. Thank you.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:That's very cool, %PCName. Thank you.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=19576193181192112225(:greeting 8)
+  morrowind.esm-->|DATA|NAME:You look very impressive in that outfit, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 40; PCClothingMod >= 2000
+  Taros Dral.ESP->|NAME:You look very impressive in that outfit, %PCName. Can I help you?|DELE:
+
+[MOD-INF]: ID=19585240301021629351(:info refusal)
+  morrowind.esm-->|DATA|NAME:That's privileged information. I'm sorry.
+  Taros Dral.ESP->|NAME:That's privileged information. I'm sorry.|DELE:
+
+[MOD-INF]: ID=19601271192355718620(:hello)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM084.mp3|NAME:Go ahead.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+  Taros Dral.ESP->|NAME:Sup|DELE:
+
+[MOD-INF]: ID=20296323721601031672(:greeting 8)
+  morrowind.esm-->|DATA|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 40; PCClothingMod >= 6000
+  Taros Dral.ESP->|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|DELE:
+
+[MOD-INF]: ID=20339222211923819690(:info refusal)
+  morrowind.esm-->|DATA|NAME:I'm not telling you that. Anything else?
+  Taros Dral.ESP->|NAME:I'm not telling you that. Anything else?|DELE:
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm--->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  Taros Dral.ESP->|DATA|NAME:[You have failed your Oath of Silence] hehehehe... get shit on.|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[MOD-INF]: ID=20663142531895113518(:hit)
+  bloodmoon.esm-->|DATA|SNAM:Vo\ww\roar.mp3|NAME:Growl!|SCVR:01720|INTV|SCVR:12sX5Random100|INTV:<
+  Taros Dral.ESP->|NAME:Growl!|DELE:
+
+[MOD-INF]: ID=20739169962038420271(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Why would I want to do that?
+  Taros Dral.ESP->|DATA|NAME:Why would I want to do that?.... maybe I get dumber later....
+
+[MOD-INF]: ID=20853211632188221626(Topic:morag tong)
+  morrowind.esm-->|DATA|CNAM:Assassin|NAME:The uninformed associate the Morag Tong with the Dark Brotherhood, a Western assassins guild. But the Morag Tong is the sworn enemy of the Dark Brotherhood, and they couldn't be more different in practice or principle.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:; savant; bard; agent; assassin; noble
+  Taros Dral.ESP->|DATA|CNAM:Assassin|NAME:The Shitters think the DB edgelords and The Tong are the same... thats just... so wrong.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:; savant; bard; agent; assassin; noble
+
+[MOD-INF]: ID=21277181512646316214(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:That does it.|SCVR:01710|INTV|BNAM:Goodbye
+  Taros Dral.ESP->|DATA|NAME:Uh...|SCVR:01000|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=21309254602309017149(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:That's funny. I hadn't heard that one.
+  Taros Dral.ESP->|DATA|NAME:That's funny. I hadn't heard that one... nice one my friend.
+
+[MOD-INF]: ID=22154188692129820500(Greeting:greeting 2)
+  morrowind.esm-->|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   ModFight 50  Goodbye
+  Taros Dral.ESP->|DATA|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   ModFight 50  Goodbye
+
+[MOD-INF]: ID=22580190852053612072(Greeting:greeting 3)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|NAME:Traitors to the %Faction must die.|SCVR:01390|INTV|SCVR:12sX0ExpMoragTong|INTV|BNAM:ModDisposition -50  Goodbye
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|NAME:Traitors to the %Faction must face the Dral...|SCVR:01390|INTV|SCVR:12sX0ExpMoragTong|INTV|BNAM:ModDisposition -50  Goodbye
+
+[MOD-INF]: ID=23187123271197316191(Greeting:greeting 7)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|NAME:I am proud to speak with you, Nerevarine. Your deeds bring you honor and glory.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:moddisposition 10
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|NAME:Hey Nerevar.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:moddisposition 10
+
+[MOD-INF]: ID=23380148681021327412(:thief)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Thf_DM005.mp3|NAME:Help, guards!|BNAM:;Random100>=80
+  Taros Dral.ESP->|NAME:Help, guards!|DELE:
+
+[MOD-INF]: ID=23494278341976926273(Greeting:greeting 7)
+  tribunal.esm--->|DATA|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+  Taros Dral.ESP->|DATA|NAME:Sup Submarine.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=23534143261570911168(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:Go on.
+  Taros Dral.ESP->|DATA|NAME:Go on... hehe
+
+[MOD-INF]: ID=23627141262655218593(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:And how do you plan on doing that?
+  Taros Dral.ESP->|DATA|NAME:And how do you plan on doing that? With your noodle arms?
+
+[MOD-INF]: ID=23638260382425618132(:taunt fail)
+  morrowind.esm-->|DATA|NAME:You're not worth killing.
+  Taros Dral.ESP->|NAME:You're not worth killing.|DELE:
+
+[MOD-INF]: ID=23854169191265413347(:taunt fail)
+  morrowind.esm-->|DATA|NAME:Did you say something?
+  Taros Dral.ESP->|NAME:Did you say something?|DELE:
+
+[MOD-INF]: ID=24333173971791110341(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:Same to you, thanks.
+  Taros Dral.ESP->|DATA|NAME:Same to you, thanks dude.
+
+[MOD-INF]: ID=24702137811180913386(Greeting:greeting 7)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|NAME:I am proud to speak with you, Nerevarine. Your deeds bring you honor and glory.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|NAME:Sup Submarine.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=24951293681699227271(Topic:almalexia)
+  tribunal.esm--->|DATA|RNAM:Dark Elf|NAME:[Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Taros Dral.ESP->|DATA|RNAM|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+
+[MOD-INF]: ID=25177225892689824471(Topic:almalexia)
+  tribunal.esm--->|DATA|RNAM:Dark Elf|NAME:[Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Taros Dral.ESP->|DATA|RNAM:Dark Elf|NAME:Wait... am I drunk... of course I am... whatcta sayin?|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+
+[MOD-INF]: ID=25249198542886620984(Greeting:greeting 9)
+  bloodmoon.esm-->|DATA|NAME:I STILL don't like you. And I STILL don't want to talk to you.|BNAM:;last greeting 9, below this unreachable code
+  Taros Dral.ESP->|DATA|NAME:shut up please.|BNAM:;last greeting 9, below this unreachable code
+
+[MOD-INF]: ID=25680321111445128264(Topic:join the morag tong)
+  morrowind.esm-->|DATA|FNAM:Morag Tong|ANAM:Vivec, Arena Hidden Area|DNAM:Morag Tong|NAME:You are already one of us, sister %PCName.
+  Taros Dral.ESP->|DATA|FNAM:Morag Tong|ANAM:Vivec, Arena Hidden Area|DNAM:Morag Tong|NAME:You are already one of us, sweet %PCName.
+
+[MOD-INF]: ID=26088221171563722505(Greeting:greeting 4)
+  morrowind.esm-->|DATA|NAME:I know you. You're %PCName, the notorious outlaw. Look. I don't want any trouble. But you're scaring me. And I can't think straight when I'm scared.|SCVR:01433|INTV|SCVR:18FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;
+  Taros Dral.ESP->|DATA|NAME:I know you. You're %PCName, the notorious outlaw. Look! I dont care.|SCVR:01433|INTV|SCVR:18FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;
+
+[MOD-INF]: ID=26392129693012513483(Topic:almalexia)
+  tribunal.esm--->|DATA|NAME:Nonsense. You don't know what you're talking about.|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+  Taros Dral.ESP->|DATA|NAME:uh|SCVR:21500|INTV|BNAM:moddisposition -10  goodbye
+
+[MOD-INF]: ID=26567220302913415695(:taunt success)
+  morrowind.esm-->|DATA|NAME:If you're looking for a fight, you're sure to find one.
+  Taros Dral.ESP->|NAME:If you're looking for a fight, you're sure to find one.|DELE:
+
+[MOD-INF]: ID=27714143203180521012(Topic:morag tong)
+  morrowind.esm-->|DATA|CNAM:Assassin|NAME:The Morag Tong only accepts legally approved contracts called 'writs.' Some Assassins are not quite so noble.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:; savant; bard; agent; assassin; noble
+  Taros Dral.ESP->|DATA|CNAM:Assassin|NAME:The Morag Tong only accepts legally approved contracts called 'writs.' Some Assassins are not quite so awesome.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:; savant; bard; agent; assassin; noble
+
+[MOD-INF]: ID=27797272362236913397(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:Keep it up if you really want to make me mad.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:Keep it up if you really want to make me ho-|SCVR:01440|INTV:
+
+[MOD-INF]: ID=28436101133151628138(:taunt fail)
+  morrowind.esm-->|DATA|NAME:What are you talking about? I thought we were friends?
+  Taros Dral.ESP->|NAME:What are you talking about? I thought we were friends?|DELE:
+
+[MOD-INF]: ID=30145197791164128951(:hello)
+  morrowind.esm-->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM217.mp3|NAME:A warm welcome to you.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+  Taros Dral.ESP->|NAME:sup|DELE:
+
+[MOD-INF]: ID=30783118681683731223(Persuasion:bribe fail)
+  morrowind.esm-->|DATA|NAME:You do not understand these things.
+  Taros Dral.ESP->|DATA|NAME:Nice but dont need it...
+
+[MOD-INF]: ID=31107242941738111961(Persuasion:admire success)
+  morrowind.esm-->|DATA|NAME:I hadn't noticed, thanks.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:I noticed, thanks.|SCVR:01440|INTV:
+
+[MOD-INF]: ID=32217257592014628085(:taunt success)
+  morrowind.esm-->|DATA|NAME:You've chosen your own death, %PCRace.
+  Taros Dral.ESP->|NAME:You've chosen your own death, %PCRace.|DELE:
+
+[MOD-INF]: ID=32700121733055130686(Persuasion:intimidate fail)
+  morrowind.esm-->|DATA|NAME:Really? I'm not sure you could.
+  Taros Dral.ESP->|DATA|NAME:Reeeeallly?
+
+[MOD-INF]: ID=32712272663053622029(Persuasion:admire fail)
+  morrowind.esm-->|DATA|NAME:I'm not buying that one.|SCVR:01440|INTV:
+  Taros Dral.ESP->|DATA|NAME:I'm not buying that one.... please continue.|SCVR:01440|INTV:

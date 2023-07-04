@@ -1,0 +1,20 @@
+FGI_Vivec_LirielleDebt.esp: DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (14) != Actual count (13)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    debt money
+	morrowind.esm       DIAL    lirielle stoine
+	morrowind.esm       NPC_    suvryn doves
+
+[MOD-INF]: ID=34839143274604922(Topic:orders)
+  morrowind.esm-------------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Suvryn Doves says that Lirielle Stoine in Ald'ruhn owes him 2000 septims. Get Lirielle's debt money and bring it back to me. You get to keep half of it yourself.|SCVR:34JX3FG_KhajiitBounty|INTV:d|BNAM:Journal FG_DebtStoine 5
+  FGI_Vivec_LirielleDebt.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Suvryn Doves says that Lirielle Stoine in Ald'ruhn owes him 2000 septims. Get Lirielle's debt money and bring it back to me. You get to keep half of it yourself.|SCVR:34JX3FG_KhajiitBounty|INTV:d
+
+[MOD-INF]: ID=630726895399225402(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:persius mercius|NAME:It was not Lirielle Stoine who owed the money, but her brother Ranus Stoine. Ranus was murdered, and I don't think Lirielle has 2000 septims. You'll have to either find the gold Ranus Stoine had or pay the 2000 septims yourself.|SCVR:34JX3FG_DebtStoine|INTV: 
+  FGI_Vivec_LirielleDebt.esp->|DATA|ONAM:persius mercius|NAME:It was not Lirielle Stoine who owed the money, but her brother Ranus Stoine. Ranus was murdered, and I don't think Lirielle has 2000 septims. You'll have to either find the gold Ranus Stoine had or pay the 2000 septims yourself.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_DebtStoine|INTV: 
+
+[MOD-INF]: ID=13738279612447218855(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Lirielle Stoine can be found at The Rat in the Pot in Ald'ruhn. Go there and get the 2000 septims she owes us and report back to me.|SCVR:04JX0FG_DebtStoine|INTV|BNAM:Journal FG_DebtStoine 10
+  FGI_Vivec_LirielleDebt.esp->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Lirielle Stoine can be found at The Rat in the Pot in Ald'ruhn. Go there and get the 2000 septims she owes us and report back to me.|SCVR:04JX3FG_KhajiitBounty|INTV:d|BNAM:Journal FG_DebtStoine 10

@@ -1,0 +1,51 @@
+JMK - Bosmer Companion.esp: AUTOSPL DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	jmkbozslowf                    Companion SlowFall
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKBosCStato)
+	SCPT(JMKBosDitty)
+	SCPT(JMKBosDoorChek)
+	SCPT(JMKBosTombNote)
+	SCPT(JMKBozOrds)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LAND    (-3, 7)
+	morrowind.esm       LAND    (-5, -5)
+	morrowind.esm       LAND    (-5, -6)
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_dirt
+
+[DUP-INF]: ID=224065982328316707(Greeting:greeting 5)
+  |DATA|ONAM:listien bierles|NAME:Oh, thank Julianos you're here! It's all my fault!|SCVR:01630|INTV:
+
+[DUP-INF]: ID=298328288223216942(Greeting:greeting 5)
+  |DATA|NAME:Just get me to the Halfway Tavern in Pelagiad. Tell me when you're ready to travel together.|SCVR:34JX3MG_EscortScholar1|INTV: 
+
+[DUP-INF]: ID=987224391161826740(Greeting:greeting 1)
+  |DATA|NAME:I understand you've been to the Clockwork City, and you alone returned. You've consorted with gods, what can this Queen do for you?|SCVR:04JX3TR_SothaSil|INTV:d
+
+[DUP-INF]: ID=2901239213273929326(Greeting:greeting 1)
+  |DATA|ONAM:forstaag the sweltering|NAME:I told you I don't need any help. I'm just trying to cool off a bit. I've never even seen a witch! You people and your stereotypes....|BNAM:Goodbye

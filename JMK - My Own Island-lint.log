@@ -1,0 +1,81 @@
+JMK - My Own Island.esp: DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKMOIBHGuestzSCPT)
+	SCPT(JMKMOIBooracck)
+	SCPT(JMKMOIBretonPilgrim)
+	SCPT(JMKMOICane2SCPT)
+	SCPT(JMKMOICastleDoorsSCPT)
+	SCPT(JMKMOIChapAltaSCPT)
+	SCPT(JMKMOICrooksSCPT)
+	SCPT(JMKMOICrystalStand)
+	SCPT(JMKMOIDaeHidDoorStuff)
+	SCPT(JMKMOIDaeSwitchPopUp)
+	SCPT(JMKMOIDancersSCPT)
+	SCPT(JMKMOIGhostRockSCPT)
+	SCPT(JMKMOIGoldRoomTrig)
+	SCPT(JMKMOIGrottoDoorSCPT)
+	SCPT(JMKMOIHermaeusStatty)
+	SCPT(JMKMOIJesterSCPT)
+	SCPT(JMKMOILucieneMinerSCPT)
+	SCPT(JMKMOIManiqSCPT)
+	SCPT(JMKMOIMinersSCPT)
+	SCPT(JMKMOINabSecBookSCPT)
+	SCPT(JMKMOINewGuardsSCPT)
+	SCPT(JMKMOINewStaffSCPT)
+	SCPT(JMKMOIPMineDoorSCPT)
+	SCPT(JMKMOIPelenduSCPT)
+	SCPT(JMKMOIPlatRock1SCPT)
+	SCPT(JMKMOIPlatRock2SCPT)
+	SCPT(JMKMOIPlatRock3SCPT)
+	SCPT(JMKMOIPolannaSCPT)
+	SCPT(JMKMOIPrisonerWoman)
+	SCPT(JMKMOIRosioJSCPT)
+	SCPT(JMKMOIRusselloHermit)
+	SCPT(JMKMOIRusselloStuff)
+	SCPT(JMKMOITipihissMinerSCPT)
+	SCPT(JMKMOITombBasinSCPT)
+	SCPT(JMKMOITravGuar1SCPT)
+	SCPT(JMKMOITravGuar2SCPT)
+	SCPT(JMKMOITravGuar3SCPT)
+	SCPT(JMKMOIUrvrelTSCPT)
+	SCPT(JMKMOIWayshrineSCPT)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-3, -9)             0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	tribunal.esm        LTEX    rm_grayrock
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       LAND    (-2, -9)
+	morrowind.esm       LAND    (-3, -9)
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    ai_tilled_dirt
+
+[DUP-INF]: ID=186695289626929262(Greeting:greeting 5)
+  |DATA|ONAM:imsin the dreamer|NAME:Hello. What do you need?|SCVR:04JX3IL_MaidenToken|INTV:d
+
+[DUP-INF]: ID=2646320955271516510(Greeting:greeting 5)
+  |DATA|ONAM:radd hard-heart|NAME:Have you found the scrap metal?|SCVR:04JX2IL_ScrapMetal|INTV:|SCVR:14JX4IL_ScrapMetal|INTV:d

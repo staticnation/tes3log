@@ -1,0 +1,51 @@
+TravelingMerchants_v2_3.esp: DUP-INF DUP-REC GETSND MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1124372 (plugin)    1567893 (installed size)
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(_HB_AbanTravel)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_HB_Adros_GuarDefend)
+	SCPT(_HB_Asharmat_GuarDefend)
+	SCPT(_HB_BeastsAttack)
+	SCPT(_HB_CaravanGuard_AI)
+	SCPT(_HB_Caravan_GuarDefend)
+	SCPT(_HB_ChangeSlaver)
+	SCPT(_HB_Hamoubil_GuarDefend)
+	SCPT(_HB_Manapli_GuarDefend)
+	SCPT(_HB_NelsTravel)
+	SCPT(_HB_Odril_GuarDefend)
+	SCPT(_HB_Pithlin_GuarDefend)
+	SCPT(_HB_SanScript)
+	SCPT(_HB_SlaveGuard)
+	SCPT(_HB_SlaveTrader)
+	SCPT(_HB_TiberusFireScript)
+	SCPT(_HB_Wishhearts_Lute)
+	SCPT(_HB_treasure_Kollop)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ahemmusa
+	morrowind.esm       DIAL    ahemmusa camp
+	morrowind.esm       DIAL    caldera ebony mines
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    grazelands
+	morrowind.esm       DIAL    mathis dalobar
+	morrowind.esm       DIAL    tel vos
+	morrowind.esm       DIAL    urshilaku camp
+	morrowind.esm       PGRD    ascadian isles region
+	morrowind.esm       PGRD    bitter coast region
+	morrowind.esm       PGRD    moonmoth legion fort
+	morrowind.esm       PGRD    seyda neen
+	morrowind.esm       PGRD    suran
+	morrowind.esm       PGRD    west gash region
+	tribunal.esm        DIAL    compensation
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    travel together
+
+[DUP-INF]: ID=31740478173384819(Greeting:greeting 7)
+  |DATA|RNAM:Khajiit|CNAM:Slave|NAME:What are you doing here? Can you let %Name go free?|SCVR:03sX0slaveStatus|INTV:
+
+[DUP-INF]: ID=872375321543820321(Greeting:greeting 7)
+  |DATA|CNAM:Slave|ANAM:Aharunartus|NAME:Do you have the key to these bracers? Will you let me go free?|SCVR:05IX2key_aharunartusslaves_01|INTV:

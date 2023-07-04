@@ -1,0 +1,15 @@
+abotRainSplash.esp: DUP-REC EXP-DEP MENUMOD MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Startup Script: ab01rsonloadscript
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(ab01rsOnLoadScript)             getwaterlevel
+	SCPT(ab01rsOnLoadScript)             placeitem
+	SCPT(ab01rsRainSplashScript)         setdelete
+	SCPT(ab01rsRainSplashScript)         setscale
+	SCPT(ab01rsSonarScript)              getwaterlevel
+	SCPT(ab01rsSonarScript)              setdelete
+	SCPT(ab01rsSonarScript)              setscale
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01rsSonarScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    hit

@@ -1,0 +1,29 @@
+Therana vs Trerayna.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(G93_TreraynaScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    ms_trerayna_bounty
+
+[MOD-INF]: ID=30364353654795324(Journal:ms_trerayna_bounty)
+  tribunal.esm------------>|DATA|NAME:A Bounty for Trerayna Dalen|QSTN
+  Therana vs Trerayna.ESP->|DATA|NAME:Trerayna Dalen offers me 2000 gold if I kill Mollimo of Cloudrest and Mistress Therana instead.
+
+[MOD-INF]: ID=30364353654795324(Journal:ms_trerayna_bounty)
+  tribunal.esm------------>|DATA|NAME:A Bounty for Trerayna Dalen|QSTN
+  Therana vs Trerayna.ESP->|DATA|NAME:Trerayna Dalen offers me 2000 gold if I kill Mollimo of Cloudrest and Mistress Therana instead.
+[MOD-IID]: ID=4690121061400615523
+  Therana vs Trerayna.ESP->A Bounty for Trerayna Dalen
+
+[DUP-INF]: ID=120773234920727761(Journal:ms_trerayna_bounty)
+  |DATA|NAME:Mollimo of Cloudrest offers me 1000 gold if I'll kill Trerayna Dalen.
+
+[MOD-INF]: ID=2934725773208020344(Greeting:greeting 1)
+  tribunal.esm------------>|DATA|ONAM:trerayna dalen|NAME:I have a little advice to share with you, outlander.
+  Therana vs Trerayna.ESP->|DATA|ONAM:trerayna dalen|NAME:I have a little advice to share with you, outlander.|SCVR:04JX1MS_Trerayna_bounty|INTV|SCVR:14JX1MS_Trerayna_bounty|INTV|SCVR:24JX1MS_Trerayna_bounty|INTV:d
+
+[MOD-INF]: ID=5751170581154322364(Greeting:greeting 1)
+  tribunal.esm------------>|DATA|ONAM:trerayna dalen|DNAM:Telvanni|NAME:Well, well, well. An outlander. And a Telvanni. Will wonders never cease? Then it is in the spirit of a friendly warning that I offer you a little advice.
+  Therana vs Trerayna.ESP->|DATA|ONAM:trerayna dalen|DNAM:Telvanni|NAME:Well, well, well. An outlander. And a Telvanni. Will wonders never cease? Then it is in the spirit of a friendly warning that I offer you a little advice.|SCVR:04JX1MS_Trerayna_bounty|INTV|SCVR:14JX1MS_Trerayna_bounty|INTV|SCVR:24JX1MS_Trerayna_bounty|INTV:d

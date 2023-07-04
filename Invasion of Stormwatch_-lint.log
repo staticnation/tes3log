@@ -1,0 +1,190 @@
+Invasion of Stormwatch_.esp: DUP-INF DUP-REC GETSND JUNKCEL MENUMOD MISSVER MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(AA_OF_Followers_sc)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AA_Agent2Script)
+	SCPT(AA_AgentScript)
+	SCPT(AA_ChestGear)
+	SCPT(AA_Courtyard_lock)
+	SCPT(AA_CrawlSpace)
+	SCPT(AA_Escape)
+	SCPT(AA_FrontDoor_sc)
+	SCPT(AA_LH_Script)
+	SCPT(AA_LabJournal)
+	SCPT(AA_LiberationDisable_Base)
+	SCPT(AA_LiberationDisable_Main)
+	SCPT(AA_LiberationDisable_Upper)
+	SCPT(AA_LibraryLiberation_Trans)
+	SCPT(AA_MessLiberation_Trans)
+	SCPT(AA_OFMess)
+	SCPT(AA_Pel_sc)
+	SCPT(AA_PoisonLab_sc)
+	SCPT(AA_Prison4)
+	SCPT(AA_Reward)
+	SCPT(AA_RugTrap)
+	SCPT(AA_StartQ)
+	SCPT(AA_SupplyLiberation_Trans)
+	SCPT(AA_Swirl)
+	SCPT(AA_Topics)
+	SCPT(AA_celldoor_sc)
+	SCPT(AA_doc_sc)
+	SCPT(AA_inviswall_sc)
+	SCPT(AA_rowboat_act_sc)
+	SCPT(AA_rowboat_door_sc)
+	SCPT(AA_spoon_sc)
+	SCPT(AA_vampcultist_sc)
+	SCPT(AA_vampguard_sc)
+	SCPT(aa_bloodshrine1_sc)
+	SCPT(aa_bloodshrine1d_sc)
+	SCPT(aa_bloodshrine2_sc)
+	SCPT(aa_bloodshrine2d_sc)
+	SCPT(aa_bloodshrine3_sc)
+	SCPT(aa_bloodshrine3d_sc)
+	SCPT(aa_coldsummon_sc)
+	SCPT(aa_molag_bal_script)
+    [JUNKCEL] Junk Cells:                        Flags
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    rm_rock_03
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    wg_road
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       PGRD    sheogorad region
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    favor
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    task
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+
+[DUP-INF]: ID=1406841961381683(Topic:task)
+  |DATA|NAME:Since the horrendous attack on the city, there have been some alarming developments. One of the most troublesome has been a cult that has recently formed, led by a young Dunmer named Eno Romari. They call themselves the End of Times. In these troubled times, I fear the cult is gaining in popularity.|SCVR:04JX4TR_ShowPower|INTV: |BNAM:Journal TR_ShowPower 10
+
+[DUP-INF]: ID=54148852160932964(Voice:hit)
+  |DATA|ONAM:berne vampire 4|SNAM:Vo\v\Hit_vKF015.mp3|NAME:SSssst!
+
+[DUP-INF]: ID=168072653168326270(Voice:attack)
+  |DATA|ONAM:berne vampire 1|SNAM:Vo\v\CrAtk_vHM001.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=209526480499726412(Voice:hit)
+  |DATA|ONAM:aundae vampire 5|SNAM:Vo\v\Hit_vDM006.mp3|NAME:Rarrrgh!
+
+[DUP-INF]: ID=321254531168523746(Voice:attack)
+  |DATA|SCVR:03sX0noattack|INTV:
+
+[DUP-INF]: ID=487276111250324150(Voice:attack)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=567843861423626325(Voice:attack)
+  |DATA|ONAM:berne vampire 5|SNAM:Vo\v\CrAtk_vIM004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=875317795149451008(Greeting:greeting 0)
+  |DATA|FNAM:Royal Guard|NAME:Halt!  The King suspected you might try something treacherous with his champion. He cannot allow this to continue. By order of His Royal Highness King Hlaalu Helseth, Duke of Mournhold, you are ordered to accompany me to the prison until His Highness deems you fit to engage in the agreed-upon contest.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+
+[DUP-INF]: ID=1028911954222612257(Voice:attack)
+  |DATA|ONAM:berne vampire 5|SNAM:Vo\v\CrAtk_vIM002.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:<
+
+[MOD-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  tribunal.esm---------------->|DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+  Invasion of Stormwatch_.esp->|DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0nolore|INTV:|SCVR:27XX0AA_warden|INTV|BNAM:goodbye  moddisposition -5
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=1352870573219920531(Voice:hit)
+  |DATA|ONAM:karrod
+
+[DUP-INF]: ID=1835294122371424412(Voice:attack)
+  |DATA|ONAM:berne vampire 1|SNAM:Vo\v\CrAtk_vHM002.mp3|NAME:Rarrh!|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=2075116612375824827(Voice:hit)
+  |DATA|ONAM:berne vampire 5|SNAM:Vo\v\Hit_vIM006.mp3|NAME:Rarrrgh!
+
+[DUP-INF]: ID=2138029856228311984(Voice:hit)
+  |DATA|ONAM:berne vampire 1|SNAM:Vo\v\Hit_vDM006.mp3|NAME:Rarrrgh!
+
+[DUP-INF]: ID=2369530613805431592(Voice:attack)
+  |DATA|ONAM:berne vampire 1|SNAM:Vo\v\CrAtk_vHM003.mp3|NAME:Hurragh!|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=2869811173055526021(Voice:attack)
+  |DATA|ONAM:berne vampire 4|SNAM:Vo\v\CrAtk_vKF005.mp3|NAME:Die!
+
+[DUP-INF]: ID=3102624965308319213(Voice:attack)
+  |DATA|ONAM:berne vampire 5|SNAM:Vo\v\CrAtk_vIM003.mp3|NAME:Rargh!|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=3156925689102271642(Greeting:greeting 5)
+  |DATA|ONAM:Blatta Hateria|NAME:Yup. Fishing's a little slow. Weather's been a bit warm.
+
+[DUP-INF]: ID=13639179602225130482(Voice:attack)
+  |DATA|ONAM:berne vampire 1|SNAM:Vo\v\CrAtk_vHM004.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=13912214392887512978(Voice:attack)
+  |DATA|ONAM:berne vampire 5|SNAM:Vo\v\CrAtk_vIM005.mp3|NAME:Die!
+
+[DUP-INF]: ID=15449253501379521843(Voice:attack)
+  |DATA|ONAM:aundae vampire 5|SNAM:Vo\v\CrAtk_vHM005.mp3|NAME:Die!
+
+[DUP-INF]: ID=23066108981558011850(Topic:favor)
+  |DATA|ONAM:hasphat antabolis|NAME:Yes. The box was just what I was looking for.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[DUP-INF]: ID=28300298513201513783(Voice:attack)
+  |DATA|ONAM:berne vampire 1|SNAM:Vo\v\CrAtk_vHM005.mp3|NAME:Die!
+
+[DUP-INF]: ID=30293285681137310507(Voice:attack)
+  |DATA|ONAM:berne vampire 5|SNAM:Vo\v\CrAtk_vIM001.mp3|NAME:Harrgh!|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=31089205411193327763(Greeting:greeting 0)
+  |DATA|ONAM:Rat_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2
+
+[DUP-INF]: ID=32172227631223427895(Greeting:greeting 5)
+  |DATA|ONAM:caius cosades|NAME:You broke the rules. The rules are simple. Don't steal from the Blades. Don't attack the Blades. Break the rules, and you're out of the Blades. Forever. Get out of here. And don't come back.    [This path to your destiny is blocked.]|SCVR:01390|INTV|BNAM:SetDisposition 0  Goodbye

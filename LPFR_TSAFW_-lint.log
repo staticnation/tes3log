@@ -1,0 +1,19 @@
+LPFR_TSAFW_.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(LPFR_FallingGuySpellCheck)
+	SCPT(LPFR_TSAFW_AddTopicYJ)
+	SCPT(LPFR_TSAFW_DayCount_Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    agronian guy
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+
+[MOD-INF]: ID=62342927712254319(Greeting:greeting 0)
+  morrowind.esm--->|DATA|ONAM:agronian guy|NAME:I don't want to talk about it.|BNAM:Goodbye
+  LPFR_TSAFW_.esp->|DATA|ONAM:LPF|R_TS:|NAME:I don't want to talk about it.|BNAM:Goodbye
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye

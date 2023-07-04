@@ -1,0 +1,14 @@
+ActualDwemerPuzzleBox.ESP: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ADB_CheckFace)
+	SCPT(ADB_CubePos)
+	SCPT(ADB_DwemerPuzzle)
+	SCPT(ADB_FindCubes)
+	SCPT(ADB_FindPattern)
+	SCPT(ADB_FindSymbol)
+	SCPT(ADB_FullSolveCheck)
+	SCPT(ADB_PuzzlePlay)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dwemer puzzle box
+	tribunal.esm        DIAL    greeting 1

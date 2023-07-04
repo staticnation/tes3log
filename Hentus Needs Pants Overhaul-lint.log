@@ -1,0 +1,17 @@
+Hentus Needs Pants Overhaul.ESP: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    pants
+
+[DUP-INF]: ID=8615663153723166(Topic:pants)
+  |DATA|ONAM:hainab lasamsi|NAME:If you wanted the pants that bad, why didn't you say so? Here, take 'em. It was a stupid joke anyway.|SCVR:34JX3MS_HentusPants|INTV: |BNAM:Journal MS_HentusPants 50  Player->AddItem "common_pants_02_hentus" 1  RemoveItem "common_pants_02_hentus" 1
+
+[DUP-INF]: ID=2268524931304865024(Topic:pants)
+  |DATA|ONAM:hainab lasamsi|NAME:Why do you want Hentus' pants? That s'wit couldn't put them on without help.|SCVR:34JX3MS_HentusPants|INTV: 
+
+[MOD-INF]: ID=5751149062981413306(Topic:pants)
+  morrowind.esm------------------->|DATA|ONAM:hentus yansurnummu|NAME:Those aren't my pants. Hainab Lasamsi has my pants.|SCVR:05IX3common_pants_02|INTV|SCVR:34JX3MS_HentusPants|INTV: 
+  Hentus Needs Pants Overhaul.ESP->|DATA|ONAM:hentus yansurnummu|NAME:Those aren't my pants. Hainab Lasamsi has my pants.|SCVR:05IX3common_pants_02|INTV|SCVR:34JX3MS_HentusPants|INTV: |BNAM:Choice "Take them anyway. It's a gift." 3 "Fine." 4
+
+[DUP-INF]: ID=14484204373059628561(Topic:pants)
+  |DATA|ONAM:hentus yansurnummu|NAME:You got my pants back? I wish I could stand up to Hainab like you did.|SCVR:05IX3common_pants_02_hentus|INTV|SCVR:34JX3MS_HentusPants|INTV: |BNAM:Choice "Give him his pants." 1 "Keep his pants." 2

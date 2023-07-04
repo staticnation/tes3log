@@ -1,0 +1,72 @@
+LegionVeterans.ESP: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    alms for the poor
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    imperial legion
+	morrowind.esm       DIAL    repeal of the war tax
+	morrowind.esm       NPC_    junal_lei
+	morrowind.esm       NPC_    murberius harmevus
+	morrowind.esm       NPC_    pellecia aurrus
+	tribunal.esm        CONT    com_chest_02_thendas1
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    know my husband
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    ms_estatesale
+	tribunal.esm        DIAL    particular item
+	tribunal.esm        NPC_    arnsa thendas
+	tribunal.esm        PGRD    mournhold, thendas manor
+
+[DUP-INF]: ID=5178505957589111(Topic:little advice)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=139011134126268689(Journal:ms_estatesale)
+  |DATA|NAME:I was caught attempting to lie to Arnsa Thendas about her husband.  She will no longer speak to me.
+
+[DUP-INF]: ID=151882440380377295(Greeting:greeting 1)
+  |DATA|ONAM:Arnsa Thendas|NAME:Hello, %PCName.  Is this about the Estate Sale again?|SCVR:04JX3MS_EstateSale|INTV:2
+
+[MOD-INF]: ID=165969202552732543(Greeting:greeting 1)
+  tribunal.esm------->|DATA|ONAM:Arnsa Thendas|NAME:Yes? Is this about the Estate Sale? I'm not quite ready for it yet, you see.|SCVR:04JX2MS_EstateSale|INTV:
+  LegionVeterans.ESP->|DATA|ONAM:Arnsa Thendas|NAME:Yes? Is this about the Estate Sale? I'm not quite ready for it yet, you see.|SCVR:04JX2MS_EstateSale|INTV:|SCVR:14JX3IL_Respects|INTV:
+
+[DUP-INF]: ID=166372063172931058(Topic:know my husband)
+  |DATA|ONAM:Arnsa Thendas|NAME:I'm so glad I've met someone else who knew Sandas.  These are such trying times, and the comfort of friends is all I have.|SCVR:04JX0MS_EstateSale|INTV:(
+
+[DUP-INF]: ID=170588059228328801(Journal:ms_estatesale)
+  |DATA|NAME:I have stolen the Droth Dagger from Thendas Manor.
+
+[DUP-INF]: ID=210147641289913738(Greeting:greeting 6)
+  |DATA|ONAM:tralas rendas|NAME:You have completed the Pilgrimage to the Shine of Maar Gan.|SCVR:34JX3TT_MaarGan|INTV:<
+
+[DUP-INF]: ID=414645092472315247(Topic:particular item)
+  |DATA|ONAM:Arnsa Thendas|NAME:A Droth Dagger?  Yes, he did indeed have one.  Something he'd mentioned to you, I presume?  Well, you're certainly welcome to it.  I don't like weapons, to be honest.  Please take this, and think fondly of Sandas.  I'm sure he'd want you to have it.|SCVR:04JX0MS_EstateSale|INTV:#|SCVR:12sX0Droth_var|INTV:|SCVR:25IX0silver dagger_droth_unique|INTV:|BNAM:player->additem "silver dagger_droth_unique" 1  com_chest_02_thendas1->removeitem "silver dagger_droth_unique" 1  Journal MS_EstateSale 40  set Droth_var to 1
+
+[DUP-INF]: ID=1965716171238066241(Journal:ms_estatesale)
+  |DATA|NAME:I have purchased the Droth Dagger from Arnsa Thendas.  I should return it to Geon Auline, so he can complete his collection.
+
+[DUP-INF]: ID=2927931838216435252(Journal:ms_estatesale)
+  |DATA|NAME:I lied to Arnsa Thendas, and claimed I knew her husband before he died.  She gave me the Droth Dagger, which I should take to Geon Auline.
+
+[MOD-INF]: ID=4083282201930116409(Topic:alms for the poor)
+  morrowind.esm------>|DATA|ONAM:pellecia aurrus|NAME:Sorry. I can't help you.|SCVR:04JX3IC10_buckmoth_alms|INTV|SCVR:14JX4IC11_shirt|INTV
+  LegionVeterans.ESP->|DATA|ONAM:pellecia aurrus|NAME:Sorry, I can't help you. Though I am surprised that they only send missionaries out to collect spare coins for the poor and vulnerable. I can't remember the last time they needed the generosity of citizens to fill their coffers when it came to arming the Legion, or finding funds to mine ebony.|SCVR:04JX3IC10_buckmoth_alms|INTV|SCVR:14JX4IC11_shirt|INTV
+
+[DUP-INF]: ID=9834119352974318464(Topic:know my husband)
+  |DATA|ONAM:Arnsa Thendas|NAME:Oh, I'm sorry...I had no idea. Sandas always spoke so fondly of his time in the Legion.  I'm sure you must miss him almost as terribly as I do.  Since you were so close, perhaps there's a particular item you'd like to remember him by?  I can afford to part with something before the sale.|SCVR:01500|INTV|BNAM:Journal MS_EstateSale 35
+
+[MOD-INF]: ID=13668216272152022707(Greeting:greeting 1)
+  tribunal.esm------->|DATA|ONAM:Arnsa Thendas|NAME:Hello.  If you're here about the Estate Sale, I'm afraid a date hasn't been set yet.|SCVR:04JX0MS_EstateSale|INTV:
+  LegionVeterans.ESP->|DATA|ONAM:Arnsa Thendas|NAME:Hello.  If you're here about the Estate Sale, I'm afraid a date hasn't been set yet.|SCVR:04JX0MS_EstateSale|INTV:|SCVR:14JX0IL_Respects|INTV:
+
+[DUP-INF]: ID=16772168391998024515(Topic:repeal of the war tax)
+  |DATA|CNAM:Pauper|NAME:A rumor says the Emperor has repealed the War Tax. We've heard nothing official here, but it's about damn time. We haven't had a war in ten years.|SCVR:0ARX0Khajiit|INTV:|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=20045143511168923805(Greeting:greeting 1)
+  |DATA|ONAM:Bels Uvenim|NAME:No time to talk, %PCRace. Excuse me.|BNAM:goodbye
+
+[DUP-INF]: ID=23791295661104930157(Topic:imperial legion)
+  |DATA|ONAM:caius cosades|NAME:The Imperial Legion has several fort garrisons here on Vvardenfell. The lower ranks handle law enforcement, escorts, rescues, dangerous predators, diseased and blighted beasts, and so forth. Only one fort accepts recruits -- Fort Darius in Gnisis. Gnisis is a frontier outpost, isolated, a little rough. But good experience. If you're interested, see General Darius in Gnisis.|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[DUP-INF]: ID=26994291703271518820(Topic:particular item)
+  |DATA|ONAM:Arnsa Thendas|NAME:That dagger was what you were looking for, wasn't it %PCName?  If there's anything else you're looking for, I'm afraid it'll have to wait until the auction.|SCVR:04JX3MS_EstateSale|INTV:(

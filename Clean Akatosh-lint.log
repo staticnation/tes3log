@@ -1,0 +1,27 @@
+Clean Akatosh.esp: DUP-INF DUP-REC FOGBUG MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (108) != Actual count (96)
+    [FOGBUG]: Cells with zero fog density setting:
+	Akatosh Time Chambers
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Raycard)
+	SCPT(akatosh_eye)
+	SCPT(akatosh_time_trap3)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       STAT    in_c_plain_room_corner
+	morrowind.esm       STAT    in_c_plain_room_entry
+	morrowind.esm       STAT    in_c_plain_room_side
+	tribunal.esm        LTEX    rm_grayrock
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LAND    (-2, 0)
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=190592792723126084(Greeting:greeting 1)
+  |DATA|ONAM:Furius Acilius|NAME:What are you doing here? Those bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay. And you will tell no one!|BNAM:SetFight 100  StartCombat Player  Goodbye

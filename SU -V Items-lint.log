@@ -1,0 +1,96 @@
+SU -V Items.ESP: DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(devourerscript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (0, -4)            0x02
+	Ascadian Isles Region (1, -4)            0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CLOT    recall_ring
+	morrowind.esm       LEVI    random_de_weapon
+	morrowind.esm       LEVI    random_glass_weapon
+	morrowind.esm       LEVI    random_golden_saint_weapon
+	morrowind.esm       LEVI    random_steel_weapon
+	morrowind.esm       MISC    key_falas_chest
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    stalhrim weapons
+	bloodmoon.esm       LEVI    bm_random_nordhuntweap
+	bloodmoon.esm       LEVI    bm_random_nordsilver
+	morrowind.esm       LEVI    l_m_rings
+	morrowind.esm       LEVI    l_n_wpn_melee_short blade
+	morrowind.esm       LEVI    l_n_wpn_melee_spear
+	morrowind.esm       LEVI    l_n_wpn_missle_arrow
+	morrowind.esm       LEVI    l_n_wpn_missle_bolt
+	morrowind.esm       LEVI    l_n_wpn_missle_xbow
+	morrowind.esm       LEVI    random excellent melee weapon
+	morrowind.esm       LEVI    random_daedric_weapon
+	morrowind.esm       LEVI    random_dwemer_weapon
+	morrowind.esm       LEVI    random_iron_weapon
+	morrowind.esm       LEVI    random_loot_special
+	morrowind.esm       LEVI    random_weapon_melee_basic
+	morrowind.esm       NPC_    anora
+	morrowind.esm       NPC_    brallion
+	morrowind.esm       NPC_    drulene falen
+	morrowind.esm       NPC_    fevasa saryon
+	morrowind.esm       NPC_    irvama othrelas
+	morrowind.esm       NPC_    j'zhirr
+	morrowind.esm       NPC_    marara
+	morrowind.esm       NPC_    pellecia aurrus
+	morrowind.esm       NPC_    savile imayn
+	morrowind.esm       NPC_    tuundir
+	morrowind.esm       NPC_    zabarbael
+	morrowind.esm       WEAP    daedric_club_tgdc
+	morrowind.esm       WEAP    herder_crook
+	morrowind.esm       WEAP    iron fork
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        MISC    misc_flask_grease
+	tribunal.esm        NPC_    glonagoth
+
+[DUP-INF]: ID=13568231434823734(Greeting:greeting 1)
+  |DATA|ONAM:lich_relvel|NAME:Weakling! You dare to cross my threshold? You, then, will be the first to fall, before the undead army sweeps across this land like a plague, cleansing it of your flesh.  Die, mortal!|BNAM:StartCombat Player  SetFight 100  Goodbye
+
+[MOD-INF]: ID=172942822114926153(Topic:stalhrim weapons)
+  bloodmoon.esm--->|DATA|ONAM:hidar|NAME:Your longsword isn't ready yet. I need more time to finish it.|SCVR:03sX0s_sword|INTV
+  SU -V Items.ESP->|DATA|ONAM:hidar|NAME:Your shortsword isn't ready yet. I need more time to finish it.|SCVR:02sX0KCUWA_s_shortsword|INTV
+
+[MOD-INF]: ID=172942822114926153(Topic:stalhrim weapons)
+  bloodmoon.esm--->|DATA|ONAM:hidar|NAME:Your longsword isn't ready yet. I need more time to finish it.|SCVR:03sX0s_sword|INTV
+  SU -V Items.ESP->|DATA|ONAM:hidar|NAME:Your shortsword isn't ready yet. I need more time to finish it.|SCVR:02sX0KCUWA_s_shortsword|INTV
+[MOD-IID]: ID=2984033981288026508
+  SU -V Items.ESP->Your longsword isn't ready yet. I need more time to finish it.
+
+[DUP-INF]: ID=429325366611031150(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:I'll get started on a war axe for you. Come back in two days, and it'll be ready.|SCVR:01500|INTV|SCVR:15IX3ingred_raw_Stalhrim_01|INTV|BNAM:player->removeitem "ingred_raw_stalhrim_01" 1  set busy to 1  set s_waraxe to 1  Goodbye
+
+[DUP-INF]: ID=582528791829010781(Topic:stalhrim weapons)
+  |DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX0weaponwarning|INTV:|BNAM:set "Carnius Magius".weaponwarning to 1
+
+[MOD-INF]: ID=900847722160227203(Topic:stalhrim weapons)
+  bloodmoon.esm--->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Nevermind" 5
+  SU -V Items.ESP->|DATA|ONAM:Carnius Magius|NAME|INTV:2|SCVR:13sX3Stalhrimgiven|INTV|BNAM:Choice: "Stalhrim War Axe" 1 "Stalhrim Dagger" 2 "Stalhrim Longsword" 3 "Stalhrim Mace" 4 "Stalhrim Spear" 5 "Stalhrim Shortsword" 6 "Nevermind" 7
+
+[MOD-INF]: ID=1052431962138491563(Topic:stalhrim weapons)
+  bloodmoon.esm--->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Nevermind" 6
+  SU -V Items.ESP->|DATA|ONAM:hidar|NAME:I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?|BNAM:Choice: "Stalhrim War Axe" 2 "Stalhrim Dagger" 3 "Stalhrim Longsword" 4 "Stalhrim Mace" 5 "Stalhrim Spear" 6 "Stalhrim Shortsword" 7 "Nevermind" 8
+
+[DUP-INF]: ID=1871215926228976053(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:I'll get started on a dagger for you. Come back in two days, and it'll be ready.|SCVR:01500|INTV|SCVR:15IX3ingred_raw_Stalhrim_01|INTV|BNAM:player->removeitem "ingred_raw_stalhrim_01" 1  set busy to 1  set s_dagger to 1  Goodbye
+
+[DUP-INF]: ID=2348199922283916408(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:Here's your longsword, %PCName. Use it well.|SCVR:03sX0s_sword|INTV|SCVR:13sX3localdaysPassed|INTV|BNAM:player->additem "BM ice longsword" 1  set s_sword to 0  set busy to 0  set localdayspassed to 0
+
+[DUP-INF]: ID=2449116841939919031(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:You don't have enough raw Stalhrim for me to forge you a War Axe.|SCVR:01500|INTV|SCVR:15IX4ingred_raw_Stalhrim_01|INTV
+
+[DUP-INF]: ID=2658724819237525583(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:You don't have enough raw Stalhrim for me to forge you a Dagger.|SCVR:01500|INTV|SCVR:15IX4ingred_raw_Stalhrim_01|INTV
+
+[DUP-INF]: ID=2710181242281415707(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:Your dagger isn't ready yet. I need more time to finish it.|SCVR:03sX0s_dagger|INTV
+
+[DUP-INF]: ID=6431276253248726999(Topic:stalhrim weapons)
+  |DATA|ONAM:Carnius Magius|NAME:Very well. Here you go.|SCVR:01500|INTV|BNAM:player->additem "BM ice mace" 1   set "Carnius Magius".Stalhrimgiven to ( "Carnius Magius".Stalhrimgiven - 2 )
+
+[DUP-INF]: ID=24550196091271817215(Topic:stalhrim weapons)
+  |DATA|ONAM:hidar|NAME:Here's your war axe, %PCName. Use it well.|SCVR:03sX0s_waraxe|INTV|SCVR:13sX3localdaysPassed|INTV|BNAM:player->additem "BM ice war axe" 1  set s_waraxe to 0  set busy to 0  set localdayspassed to 0

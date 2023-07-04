@@ -1,0 +1,8 @@
+Smart_Crosshair.esp: EXP-DEP MENUMOD
+    [EXP-DEP] Expansion Dependency: Startup Script: adul_smart_crosshair_load
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(Adul_Smart_Crosshair)           getspellreadied
+	SCPT(Adul_Smart_Crosshair)           getweapondrawn
+	SCPT(Adul_Smart_Crosshair)           getweapontype
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Adul_Smart_Crosshair_Load)

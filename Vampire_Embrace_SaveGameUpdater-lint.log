@@ -1,0 +1,13 @@
+Vampire_Embrace_SaveGameUpdater.esp: DUP-REC EVLGMST MENUMOD MISSVER OVR-REC
+    [EVLGMST] Tribunal(1):
+	TB scompanionshare
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(emb_castitem_npctransformscript)
+	SCPT(emb_localvariables)
+	SCPT(emb_mynpccreature)
+	SCPT(emb_persuasionnpcscript)
+	SCPT(emb_reportnpcscript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       SNDG    
+	tribunal.esm        GMST    scompanionshare

@@ -1,0 +1,12 @@
+Traps.esp: BM-DEP EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(Trap_closed_script)             getpcsneaking
+	SCPT(Trap_closed_script)             setdelete
+	SCPT(Trap_open_script)               getpcsneaking
+	SCPT(Trap_open_script)               setdelete
+    [BM-DEP] Bloodmoon Dependency: Bloodmoon Functions:
+	SCPT(Trap_closed_script)             placeatme
+	SCPT(Trap_open_script)               placeatme
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Trap_closed_script)
+	SCPT(Trap_open_script)

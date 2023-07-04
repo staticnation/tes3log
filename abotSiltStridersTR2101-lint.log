@@ -1,0 +1,26 @@
+abotSiltStridersTR2101.esp: DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8846579 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            131192366 (plugin)  163244128 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01gCRTTendTripScript)
+	SCPT(ab01ssOnLoadScript)
+	SCPT(ab01ssgCaravaner2Script)
+	SCPT(ab01ssgCaravaner3Script)
+	SCPT(ab01ssgCaravanerScript)
+	SCPT(ab01ssgConfigScript)
+	SCPT(ab01ssgDismount2Script)
+	SCPT(ab01ssgDismountScript)
+	SCPT(ab01ssgWeatherTalk2Script)
+	SCPT(ab01ssgWeatherTalk3Script)
+	SCPT(ab01ssgWeatherTalkScript)
+	SCPT(mel_tpp_mainS)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tr_mainland.esm     DIAL    destination
+	tr_mainland.esm     NPC_    tr_m1_drenar valeth
+	tr_mainland.esm     NPC_    tr_m1_varusha caril
+
+[MOD-INF]: ID=5974107452183118420(Topic:destination)
+  tr_mainland.esm------------>|DATA|ONAM:TR_m3_Hlor_Gonav|NAME:From here you can ride the strider to Sailen; from there you can proceed to Akamora and Necrom.
+  abotSiltStridersTR2101.esp->|DATA|ONAM:TR_m3_Hlor_Gonav|NAME:From here you can ride the strider to Almalexia and Sailen; from the latter you can proceed to Akamora and Necrom.

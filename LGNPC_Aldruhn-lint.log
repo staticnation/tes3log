@@ -1,0 +1,107 @@
+LGNPC_Aldruhn.esp: DUP-REC MENUMOD MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(max_bevene_01)
+	SCPT(max_lgnpc_aengoth_sc)
+	SCPT(max_lgnpc_allding_sc)
+	SCPT(max_lgnpc_codusScript)
+	SCPT(max_lgnpc_darvam_sc)
+	SCPT(max_lgnpc_elvamu_sc)
+	SCPT(max_lgnpc_estoril_sc)
+	SCPT(max_lgnpc_realdarvam_sc)
+	SCPT(max_lgnpc_tulsvalen_01)
+	SCPT(max_lgnpc_vhalara_sc)
+	SCPT(max_lgnpc_vonden_mano_sc)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    east empire company
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    slaughter
+	morrowind.esm       DIAL    aengoth the jeweler
+	morrowind.esm       DIAL    ahemmusa camp
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    alms for the poor
+	morrowind.esm       DIAL    altmer
+	morrowind.esm       DIAL    ancestors
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    arobar manor
+	morrowind.esm       DIAL    azura's coast
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    bivale teneran
+	morrowind.esm       DIAL    bolvyn venim
+	morrowind.esm       DIAL    bosmer
+	morrowind.esm       DIAL    brara morvayn
+	morrowind.esm       DIAL    breton
+	morrowind.esm       DIAL    corprus in ald'ruhn
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    drinar varyon
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    erabenimsun camp
+	morrowind.esm       DIAL    flin
+	morrowind.esm       DIAL    fort buckmoth
+	morrowind.esm       DIAL    fort darius
+	morrowind.esm       DIAL    garisa llethri
+	morrowind.esm       DIAL    ghostfence
+	morrowind.esm       DIAL    gnisis
+	morrowind.esm       DIAL    golden saints
+	morrowind.esm       DIAL    great houses
+	morrowind.esm       DIAL    guar
+	morrowind.esm       DIAL    guild guide
+	morrowind.esm       DIAL    healer
+	morrowind.esm       DIAL    history books
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    house wars
+	morrowind.esm       DIAL    imperial
+	morrowind.esm       DIAL    imperial cult
+	morrowind.esm       DIAL    imperial legion
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    killing and murder
+	morrowind.esm       DIAL    kwama
+	morrowind.esm       DIAL    lirielle stoine
+	morrowind.esm       DIAL    mages guild
+	morrowind.esm       DIAL    miner arobar
+	morrowind.esm       DIAL    morag tong
+	morrowind.esm       DIAL    need wives
+	morrowind.esm       DIAL    nix-hound
+	morrowind.esm       DIAL    nord
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    oreyn bearclaw
+	morrowind.esm       DIAL    orvas dren
+	morrowind.esm       DIAL    redguard
+	morrowind.esm       DIAL    sjoring hard-heart
+	morrowind.esm       DIAL    skar
+	morrowind.esm       DIAL    skyrim
+	morrowind.esm       DIAL    slave
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    thieves guild
+	morrowind.esm       DIAL    tongue-toad
+	morrowind.esm       DIAL    tribunal temple
+	morrowind.esm       DIAL    troubles for house redoran
+	morrowind.esm       DIAL    uriel septim
+	morrowind.esm       DIAL    vampires
+	morrowind.esm       DIAL    venim manor
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       DIAL    vvardenfell
+	morrowind.esm       NPC_    aengoth
+	morrowind.esm       NPC_    allding
+	morrowind.esm       NPC_    bevene releth
+	morrowind.esm       NPC_    darvam hlaren
+	morrowind.esm       NPC_    dather manel
+	morrowind.esm       NPC_    estoril
+	morrowind.esm       NPC_    vonden mano
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        DIAL    va_vamphunter
+
+[MOD-INF]: ID=31132116821545114454(Journal:va_vamphunter)
+  tribunal.esm------>|DATA|NAME:I have returned to Ashmelech and spoken with Daunayne Aundae. She was pleased with how I handled the killing of Ano Vando, and rewarded me with an amulet that, when used, will return me to Ashmelech. She has also told me that I might find further reward with her if I am able to kill a great number of the vampires from other clans.|QSTF
+  LGNPC_Aldruhn.esp->|DATA|NAME:I have asked whether the vampire hunter is a Dunmer with a scar on his right chin, and Dhaunayne confirmed it. This means that he is Ano Vando, the warrior I killed earlier. Dhaunayne was happy to hear it, but it was a pity that her plan to make him a lesson to other vampire hunters wouldn't work now. Nonetheless, she rewarded me with an amulet that, when used, will return me to Ashmelech. She has also informed me that killing a great number of vampires from other clans may bring me further reward.|QSTF

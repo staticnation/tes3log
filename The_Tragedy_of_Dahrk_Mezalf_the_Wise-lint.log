@@ -1,0 +1,152 @@
+The_Tragedy_of_Dahrk_Mezalf_the_Wise.esp: DUP-INF DUP-REC MASTERS MENUMOD MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	DN_Dwemer_Tileset.esm          79638 (plugin)      74717 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DRP_Bthung_Gate1)
+	SCPT(DRP_Bthung_Gate2)
+	SCPT(DRP_Bthung_Gate3)
+	SCPT(DRP_Bthung_Gate4)
+	SCPT(DRP_Bthung_Push01)
+	SCPT(DRP_KeySpin)
+	SCPT(DRP_TurnValve)
+	SCPT(HT_Courier)
+	SCPT(MezalfSoul1)
+	SCPT(MezalfSoul2)
+	SCPT(adv_puzzlecube)
+	SCPT(adv_puzzlecube_impl)
+	SCPT(baladasCenturion)
+	SCPT(drp_puzzlewall_tile)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	dn_dwemer_tileset.esm    STAT    in_dwrv_corr4_02_dn
+	morrowind.esm       CREA    dahrk mezalf
+	morrowind.esm       DIAL    dahrk mezalf
+	morrowind.esm       DIAL    drake's pride
+	morrowind.esm       DIAL    dwemer animunculi
+	morrowind.esm       DIAL    dwemer centurions
+	morrowind.esm       DIAL    dwemer language
+	morrowind.esm       DIAL    egg of time
+	morrowind.esm       DIAL    flesh made whole
+	morrowind.esm       DIAL    hanging gardens
+	morrowind.esm       DIAL    kagrenac's tools
+	morrowind.esm       DIAL    mistress dratha
+	morrowind.esm       DIAL    muck
+	morrowind.esm       DIAL    nchuleft
+	morrowind.esm       DIAL    ring
+	morrowind.esm       DIAL    sload soap
+	morrowind.esm       DIAL    three questions
+	morrowind.esm       DIAL    wizard spells
+	morrowind.esm       DIAL    yagrum bagarn
+	morrowind.esm       NPC_    jobasha
+	tribunal.esm        DIAL    auriel's bow
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    travel together
+
+[DUP-INF]: ID=2503230385730616(Topic:hanging gardens)
+  |DATA|ONAM:baladas demnevanni|NAME:So you have found a book. Let me see... Yes, this is written in both Dwemer and Aldmeris. I would keep this book somewhere safe. Perhaps you will find other books in the Dwemer language, and could use this book to translate them. If you find anything of interest, bring both the books to me.|SCVR:05IX2bk_hanginggardenswasten|INTV:
+
+[DUP-INF]: ID=9207100541843383(Topic:egg of time)
+  |DATA|ONAM:yagrum bagarn|NAME:I had not seen this book before, but it reinforces some my own theories. If you were to find more books like this, bring them to me and perhaps I could tell you more.|SCVR:05IX2bk_EggOfTime|INTV:
+
+[DUP-INF]: ID=22723578412252436(Topic:auriel's bow)
+  |DATA|ONAM:therana|NAME:No, not right now, thank you.|SCVR:34JX3HT_AurielBow|INTV:d
+
+[DUP-INF]: ID=143101437367061686(Topic:drake's pride)
+  |DATA|ONAM:senise thindo|NAME:Yes, this is the Drake's Pride that I wear. It is not for sale.
+
+[DUP-INF]: ID=183334574215068207(Topic:nchuleft)
+  |DATA|ONAM:mallam ryon|NAME:You have already found the plans in Nchuleft.|SCVR:34JX3HT_NchuleftKey|INTV:d
+
+[DUP-INF]: ID=211354075813411933(Topic:hanging gardens)
+  |DATA|ONAM:yagrum bagarn|NAME:Yes, this book is written in both Aldmeris and in Dwemer. Many books were written in both languages in the days of Resdayn when Dunmer and Dwemer ruled together peacefully. I'd offer to translate, but this is really just a boring travel guide. If you find any other books in Dwemer, I could translate them for you.|SCVR:05IX2bk_hanginggardenswasten|INTV:
+
+[DUP-INF]: ID=212984417217612310(Topic:mistress dratha)
+  |DATA|ONAM:aryon|NAME:Mistress Dratha is the oldest living Telvanni Councilor and is sustained by the necromantic arts. She dislikes men of all races, though I do not know why. You may find her in her tower in Tel Mora.|SCVR:06DX0dratha|INTV:
+
+[DUP-INF]: ID=279935469262087704(Topic:three questions)
+  |DATA|ONAM:mallam ryon|DNAM:Telvanni|NAME:Baladas Demnevanni lives in Arvs Drelen which is in Gnisis. You can use the Mages Guild teleport service to get to Ald'ruhn, and then take a Silt Strider there. Go there and ask him about the Disappearance of the Dwarves, Dwemer artifacts, and the Dwemer language. You do not have to get an answer from him, simply asking the three questions is enough.|BNAM:Journal HT_SpyBaladas 10
+
+[DUP-INF]: ID=317283189297553682(Topic:muck)
+  |DATA|ONAM:Synnolian Tunifus|NAME:Muck is a damp, fibrous slime from the muckspunge plant. It has cure common disease properties. Other common and easily obtained substances with the cure common disease property include chokeweed and green lichen. Oddly enough, gravedust also has this beneficial property.|SCVR:04JX3IC2_Muck|INTV|BNAM:; Synnolian Tunifus; journal IC2_muck >= 1;
+
+[DUP-INF]: ID=529389231455210554(Topic:egg of time)
+  |DATA|ONAM:baladas demnevanni|NAME:I cannot read and write the Dwemer language.|SCVR:05IX2bk_EggOfTime|INTV:
+
+[DUP-INF]: ID=568820157669732248(Topic:kagrenac's tools)
+  |DATA|ONAM:nibani maesa|NAME:In The Lost Prophecy, 'star-blessed hand wields thrice-cursed blade.' Gilvas Barelo has told you of Kagrenac's Tools, the enchanted devices the Tribunal use to steal power from Lorkhan's heart. One of these tools is the blade Keening. Your star-blessed hand must wield Keening. If Vivec has this blade, it is your fate to take this blade from him.|SCVR:04JX4B8_MeetVivec|INTV:2
+
+[MOD-INF]: ID=699716065128635551(Topic:dahrk mezalf)
+  morrowind.esm---------------------------->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Did you find the Ring of Dahrk Mezalf?|SCVR:34JX3HT_DahrkMezalf|INTV: |BNAM:Choice "Yes, here it is." 1 "No, not yet." 2
+  The_Tragedy_of_Dahrk_Mezalf_the_Wise.esp->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Did you find the Ring of Dahrk Mezalf?|SCVR:04JX3HT_GhostShell|INTV: |SCVR:34JX3HT_DahrkMezalf|INTV: |BNAM:Choice "Yes, here it is." 2 "No, not yet." 3
+
+[DUP-INF]: ID=701879142185118698(Topic:dahrk mezalf)
+  |DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:You have already brought me Dahrk Mezalf's ring.|SCVR:34JX3HT_DahrkMezalf|INTV:d
+
+[DUP-INF]: ID=875317795149451008(Greeting:greeting 0)
+  |DATA|FNAM:Royal Guard|NAME:Halt!  The King suspected you might try something treacherous with his champion. He cannot allow this to continue. By order of His Royal Highness King Hlaalu Helseth, Duke of Mournhold, you are ordered to accompany me to the prison until His Highness deems you fit to engage in the agreed-upon contest.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+
+[MOD-INF]: ID=964513448260061071(Greeting:greeting 1)
+  tribunal.esm----------------------------->|DATA|ONAM:yagrum bagarn|NAME:I have nothing. Go away. Leave me in peace.
+  The_Tragedy_of_Dahrk_Mezalf_the_Wise.esp->|DATA|ONAM:yagrum bagarn|NAME:I have nothing. Go away. Leave me in peace.|SCVR:04JX1HT_GhostShell|INTV|SCVR:14JX1HT_GhostShell|INTV:(
+
+[DUP-INF]: ID=979127311301624304(Topic:yagrum bagarn)
+  |DATA|ONAM:divayth fyr|NAME:Yagrum Bagarn is my oldest corprus victim. You'll find him in the bowels of the Corprusarium. Interesting case.|SCVR:04JX3A2_3_CorprusCure|INTV
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[MOD-INF]: ID=1662622508108695041(Topic:dahrk mezalf)
+  morrowind.esm---------------------------->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:No, you do not have the ring. You will find the ring. You will give it to me.|SCVR:01500|INTV|BNAM:ModDisposition -5
+  The_Tragedy_of_Dahrk_Mezalf_the_Wise.esp->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:No, you do not have the ring. You will find the ring. You will give it to me.|SCVR:01500|INTV|BNAM:ModDisposition -5
+
+[DUP-INF]: ID=1720031258938610261(Topic:flesh made whole)
+  |DATA|ONAM:dratha|NAME:Are you still here? You have my permission to leave.|SCVR:01440|INTV:|SCVR:34JX3HT_FleshAmulet|INTV:d
+
+[DUP-INF]: ID=1791995783062230207(Topic:sload soap)
+  |DATA|ONAM:anarenen|NAME:Sload soap is a waxy substance made from the immature non-sentient forms of the sload.|SCVR:0CsX0NoLore|INTV
+
+[DUP-INF]: ID=1866119503363327767(Topic:dwemer animunculi)
+  |DATA|ONAM:edwinna elbert|DNAM:Mages Guild|NAME:Let me see it at once!|SCVR:05IX2bk_SecretsDwemerAnimunculi|INTV:|BNAM:Choice "Give her the book." 1 "Keep the book." 2
+
+[MOD-INF]: ID=2008724402318433940(Greeting:greeting 1)
+  tribunal.esm----------------------------->|DATA|ONAM:yagrum bagarn|NAME:Do not harm me, or you will be very sorry. I warn you. Leave me alone, and I will leave you alone.|SCVR:01630|INTV:
+  The_Tragedy_of_Dahrk_Mezalf_the_Wise.esp->|DATA|ONAM:yagrum bagarn|NAME:Do not harm me, or you will be very sorry. I warn you. Leave me alone, and I will leave you alone.|SCVR:01630|INTV:|SCVR:14JX1HT_GhostShell|INTV|SCVR:24JX1HT_GhostShell|INTV:(
+
+[DUP-INF]: ID=2099524978108755870(Topic:dwemer language)
+  |DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:The Dwemer language is unknown, perhaps unknowable. Some Dwemer books, especially records dating from after the founding of Resdayn, were written in Aldmeris, making them accessible to modern scholars. However, even in Aldmeris, many Dwemer terms remain uncertain. As the books and other artifacts in Dwemer ruins rarely show signs of wear or age, I believe that the Dwemer knew of a preservative effect, perhaps a device still active which denies or controls the Earth Bones governing time and decay.|SCVR:34JX3HT_SpyBaladas|INTV:<|BNAM:Journal HT_SpyBaladas 71
+
+[DUP-INF]: ID=2458523151117863616(Topic:dwemer animunculi)
+  |DATA|ONAM:edwinna elbert|DNAM:Mages Guild|NAME:How can you do this to me?! I've spent my whole life looking for this!!|SCVR:01500|INTV|BNAM:ModDisposition -20
+
+[MOD-INF]: ID=2478714652731015772(Topic:dahrk mezalf)
+  morrowind.esm---------------------------->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Yes, this is the ring I was looking for. Since you have brought me the books and this ring, please take this storm ring with my gratitude.|SCVR:01500|INTV|SCVR:16DX3centurion_shock_baladas|INTV|SCVR:25IX2ring_dahrkmezalf_uniq|INTV:|BNAM:Journal HT_DahrkMezalf 100  Player->RemoveItem Ring_DahrkMezalf_uniq 1  Player->AddItem "Ring of Lightning Storm" 1  AddItem Ring_DahrkMezalf_uniq 1  ModPCFacRep 10 "Telvanni"  ModDisposition 15  Player->ModReputation 1
+  The_Tragedy_of_Dahrk_Mezalf_the_Wise.esp->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Yes, this is the ring I was looking for. Since you have brought me the books and this ring, please take this storm ring with my gratitude.|SCVR:01500|INTV|SCVR:16DX3centurion_shock_baladas|INTV|SCVR:25IX2ring_dahrkmezalf_uniq|INTV:|BNAM:Journal HT_DahrkMezalf 100  Player->RemoveItem Ring_DahrkMezalf_uniq 1  Player->AddItem "Ring of Lightning Storm" 1  AddItem Ring_DahrkMezalf_uniq 1  ModPCFacRep 10 "Telvanni"  ModDisposition 15  Player->ModReputation 1
+
+[DUP-INF]: ID=3088429521932618889(Topic:wizard spells)
+  |DATA|ONAM:aryon|NAME:Learn the rudimentary spell of Recall, a spell of flying, and a spell fire damage. I will recognize the standard spells such as Levitate, Great Levitate, or Wild Levitate. For fire damage, I would suggest Fireball, Greater Fireball, or Fire Storm. Spells you research yourself will not be sufficient.|SCVR:34JX3HT_MineCure|INTV:d|BNAM:Journal HT_WizardSpells 10
+
+[DUP-INF]: ID=5249272462913321422(Topic:dwemer centurions)
+  |DATA|ONAM:galar rothan|NAME
+
+[DUP-INF]: ID=9153137331391219764(Topic:egg of time)
+  |DATA|ONAM:yagrum bagarn|NAME:By refreshing my memory with "Divine Metaphysics," I believe I can explain. The Dwemer were not unified in their thinking. Kagrenac and his tonal architects, among them Bthuand Mzahnch, believed they could improve the Dwemer race. Others argued that the attempt would be too great a risk. The war with Nerevar and the Dunmer may have led Kagrenac to carry out his experiments prematurely. Although this book argues that nothing disastrous could result, the disappearance of my race argues otherwise.|SCVR:05IX2bk_EggOfTime|INTV:|SCVR:15IX2bk_DivineMetaphysics|INTV:|BNAM:Journal MG_Dwarves 70
+
+[DUP-INF]: ID=12942106023022017709(Topic:ring)
+  |DATA|ONAM:fargoth|NAME|INTV
+
+[MOD-INF]: ID=12988184232230918156(Topic:dahrk mezalf)
+  morrowind.esm---------------------------->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Mezalf is sometimes referred to as "Mezalf Bthungthumz." Perhaps he was from the Dwemer village of Bthungthumz. Go to Maar Gan. Head east past the silt strider, then go north towards the Foyada. Follow the Foyada Bani-Dad to the northwest until you see what remains of Bthungthumz on the right. If you find the ring, bring it to me.|BNAM:Journal HT_DahrkMezalf 10
+  The_Tragedy_of_Dahrk_Mezalf_the_Wise.esp->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Mezalf is sometimes referred to as "Mezalf Bthungthumz." Perhaps he was from the Dwemer village of Bthungthumz. Go to Maar Gan. Head east past the silt strider, then go north towards the Foyada. Follow the Foyada Bani-Dad to the northwest until you see what remains of Bthungthumz on the right. If you find the ring, bring it to me.|SCVR:04JX4HT_DahrkMezalf|INTV: |BNAM:Journal HT_DahrkMezalf 10  Choice "What can you tell me about this Dahrk Mezalf, as a person?" 1
+
+[MOD-INF]: ID=19901258042385310256(Topic:dahrk mezalf)
+  morrowind.esm---------------------------->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Yes, this is the ring I was looking for. As a reward, I will order my centurion to assist you. You will find it waiting outside. I have made some improvements to this one. You may also find this storm ring to be of some minor use.|SCVR:01500|INTV|SCVR:25IX2ring_dahrkmezalf_uniq|INTV:|BNAM:Journal HT_DahrkMezalf 100  Player->RemoveItem Ring_DahrkMezalf_uniq 1  AddItem Ring_DahrkMezalf_uniq 1  Player->AddItem "Ring of Lightning Storm" 1  ModPCFacRep 10 "Telvanni"  ModDisposition 20  "centurion_shock_baladas"->AIFollow Player 0 0 0 0 0  Player->ModReputation 1
+  The_Tragedy_of_Dahrk_Mezalf_the_Wise.esp->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Yes, this is the ring I was looking for. As a reward, I will order my centurion to assist you. It is right over there. I have made some improvements to this one. You may also find this storm ring to be of some minor use.|SCVR:01500|INTV|SCVR:25IX2ring_dahrkmezalf_uniq|INTV:|BNAM:Journal HT_DahrkMezalf 100  Player->RemoveItem Ring_DahrkMezalf_uniq 1  AddItem Ring_DahrkMezalf_uniq 1  Player->AddItem "Ring of Lightning Storm" 1  ModPCFacRep 10 "Telvanni"  ModDisposition 20  "centurion_shock_baladas"->AIFollow Player 0 0 0 0 0  Player->ModReputation 1
+
+[MOD-INF]: ID=30915189453039517729(Topic:dahrk mezalf)
+  morrowind.esm---------------------------->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:If you bring me the ring, I will reward you. Until you have it, do not remind me of your laziness.|SCVR:01500|INTV|BNAM:ModDisposition -5
+  The_Tragedy_of_Dahrk_Mezalf_the_Wise.esp->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:If you bring me the ring, I will reward you. Until you have it, do not remind me of your laziness.|SCVR:01500|INTV|BNAM:ModDisposition -5
+
+[DUP-INF]: ID=31089205411193327763(Greeting:greeting 0)
+  |DATA|ONAM:Rat_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2

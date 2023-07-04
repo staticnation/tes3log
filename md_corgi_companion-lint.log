@@ -1,0 +1,12 @@
+md_corgi_companion.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(md_dogstart)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=6404234940546818(Greeting:greeting 5)
+  |DATA|ONAM:ennbjof|NAME:Eh, there, kipper? Buy an old reaver a jug of mazte, tell you a little secret?
+
+[DUP-INF]: ID=446616548190729592(Greeting:greeting 5)
+  |DATA|RNAM:Khajiit|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:With such a high price on your head, everyone assumes you are a murderer. %Name doesn't know the details, and doesn't want to know. But we're judged by your actions, and we don't need a reputation for reckless violence.|SCVR:01433|INTV|BNAM:ModDisposition -10

@@ -1,0 +1,17 @@
+RAMF_Mer_for_NPCs.esp: DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Startup Scripts: t_nighttoggle, t_morphtoggle
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(t_morphtoggle)
+	SCPT(t_nighttoggle)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       RACE    argonian
+	morrowind.esm       RACE    breton
+	morrowind.esm       RACE    dark elf
+	morrowind.esm       RACE    high elf
+	morrowind.esm       RACE    imperial
+	morrowind.esm       RACE    khajiit
+	morrowind.esm       RACE    nord
+	morrowind.esm       RACE    orc
+	morrowind.esm       RACE    redguard
+	morrowind.esm       RACE    wood elf

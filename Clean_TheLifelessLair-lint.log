@@ -1,0 +1,16 @@
+Clean_TheLifelessLair.esp: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DG_door2)
+	SCPT(DG_rock1)
+	SCPT(DG_rock2)
+	SCPT(DG_rock3)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LAND    (8, 6)
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_04
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01

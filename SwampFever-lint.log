@@ -1,0 +1,73 @@
+SwampFever.ESP: AUTOSPL DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Bloodmoon.esm                9631289 (plugin)    9631798 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	rm_levitate                    Levitate
+	rm_walk                        Water Walking
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(LRM_AvussuS)
+	SCPT(LRM_CheckRace)
+	SCPT(LRM_Idrem)
+	SCPT(LRM_Kugbu)
+	SCPT(LRM_Netch)
+	SCPT(LRM_Rirne)
+	SCPT(LRM_thenose)
+	SCPT(RM_OwnLand)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    flora_bc_mushroom_01
+	morrowind.esm       CONT    flora_bc_mushroom_02
+	morrowind.esm       CONT    flora_bc_mushroom_04
+	morrowind.esm       CONT    flora_bc_mushroom_06
+	morrowind.esm       STAT    flora_bc_fern_04
+	morrowind.esm       STAT    flora_bc_grass_01
+	morrowind.esm       STAT    flora_bc_log_01
+	morrowind.esm       STAT    flora_bc_moss_06
+	morrowind.esm       STAT    terrain_rock_bc_13
+	morrowind.esm       STAT    terrain_rock_bc_14
+	morrowind.esm       STAT    terrain_rock_bc_16
+	morrowind.esm       STAT    terrain_rock_bc_18
+	tribunal.esm        CONT    crate_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    khuul
+	morrowind.esm       DIAL    mushrooms
+	morrowind.esm       DIAL    nix-hound
+	morrowind.esm       DIAL    slaughterfish
+	morrowind.esm       LAND    (-6, -7)
+	morrowind.esm       LAND    (-7, -7)
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       NPC_    baleni salavel
+	morrowind.esm       NPC_    dalam gavyn
+	morrowind.esm       NPC_    fadila balvel
+	morrowind.esm       NPC_    falvis tunel
+	morrowind.esm       NPC_    hrondar highlander
+	morrowind.esm       NPC_    llemisa marys
+	morrowind.esm       NPC_    murudius flaeus
+	morrowind.esm       NPC_    okur
+	morrowind.esm       NPC_    pallia ceno
+	morrowind.esm       NPC_    relien rirne
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        NPC_    glonagoth
+
+[DUP-INF]: ID=20728261851736471(Topic:mushrooms)
+  |DATA|ONAM:ajira|DNAM:Mages Guild|NAME:To finish Ajira's report, Ajira needs samples of Luminous Russula, Violet Coprinus, Bungler's Bane, and Hypha Facia. Ajira knows you can find all these on the Bitter Coast. The easiest way is go south along the River Odai until you see a wooden bridge across the river. Get out of the river there and find a path west over the hills.|BNAM:Journal MG_BCShrooms 10
+
+[DUP-INF]: ID=305725429198077162(Topic:khuul)
+  |DATA|CNAM:Scout|ANAM:Ald Velothi|NAME:Khuul is a tiny fishing village on the northern coast of the West Gash.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap Khuul  ;scout; savant;
+
+[DUP-INF]: ID=662011032212212523(Topic:nix-hound)
+  |DATA|ONAM:Briring|NAME
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=1645820915444532027(Topic:slaughterfish)
+  |DATA|ONAM:gudling the rascal|NAME:The slaughterfish is an aggressive creature found both in open waters and subterranean pools. The meat of the slaughterfish is meally and noisome, but dried slaughterfish scales are said by locals to be 'a crunchy treat' when prepared in the native manner|BNAM:;hunter
+
+[MOD-INF]: ID=16445179822972022294(Topic:slaughterfish)
+  morrowind.esm-->|DATA|ONAM:Briring|NAME
+  SwampFever.ESP->|DATA|ANAM:Hla Oad|NAME:The slaughterfish is an aggressive creature found both in open waters and subterranean pools. The meat of the slaughterfish is meally and noisome, but dried slaughterfish scales are so crunchy as a treat.|SCVR:02sX3LRM_|SFIN

@@ -1,0 +1,24 @@
+Gaea Artoria Follower.ESP: DUP-INF DUP-REC GETSND MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(artoriaScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       NPC_    gaea artoria
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    travel together
+
+[DUP-INF]: ID=32657478285029329(Topic:travel together)
+  |DATA|ONAM|SCVR:01500|INTV|SCVR:12sX0artoriachosen|INTV|BNAM:AiFollow Player 0 0 0 0 0 0 0
+
+[MOD-INF]: ID=311145106599129747(Topic:travel together)
+  bloodmoon.esm------------->|DATA|ONAM:gaea artoria|NAME:I better stay here.|SCVR:04JX3BM_Smugglers|INTV:d
+  Gaea Artoria Follower.ESP->|DATA|ONAM:gaea artoria|NAME:You want that we keep going together? Probably a good idea.|SCVR:04JX3BM_Smugglers|INTV:d|SCVR:12sX0artoriachosen|INTV|BNAM:Choice "Yes, we should." 1 "No. Wait here." 2
+
+[DUP-INF]: ID=851395041425131174(Topic:travel together)
+  |DATA|ONAM:gaea artoria|NAME:Not a bright choice, if you ask me.|SCVR:01500|INTV|SCVR:12sX0artoriachosen|INTV|BNAM:AiWander 0 0 0 0 0 0
+
+[DUP-INF]: ID=1127625935149917108(Greeting:greeting 1)
+  |DATA|ONAM:gaea artoria|NAME:Carius is back! I don't know where he was, but I knew he'd find a way home. Things'll go much better with him around.|SCVR:04JX0BM_WildHunt|INTV:d|SCVR:16DX0falx carius2|INTV:
+
+[DUP-INF]: ID=2702731522608629266(Topic:travel together)
+  |DATA|ONAM:gaea artoria|NAME:You want that we keep going together? Probably a good idea.|SCVR:04JX3BM_Smugglers|INTV: |SCVR:12sX3artoriachosen|INTV|BNAM:Choice "Yes, we should." 1 "No. Wait here." 2

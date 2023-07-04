@@ -1,0 +1,31 @@
+RepopulatedMorrowind (2).ESP: DUP-INF DUP-REC GETSND MASTERS MENUMOD MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1568563 (plugin)    1567893 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(AM_Fisherman_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(GVRM_6H)
+	SCPT(GVRM_AldR_TG-Loot-MG_Disable)
+	SCPT(GVRM_ArgScript)
+	SCPT(GVRM_ES_TravelScript)
+	SCPT(GVRM_IndRon_Manager)
+	SCPT(GVRM_Intervention)
+	SCPT(GVRM_MercScript)
+	SCPT(GVRM_PlayerHunter)
+	SCPT(GVRM_RR_NPC_Enable)
+	SCPT(GVRM_TeleportEffect)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    talk
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    travel together
+
+[DUP-INF]: ID=2890220726556429297(Persuasion:service refusal)
+  |DATA|NAME:You're not the type I like to deal with.

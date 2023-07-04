@@ -1,0 +1,18 @@
+Oil Flask 1.1.esp: BM-DEP EXP-DEP GETSND MENUMOD MISSAUT MISSDSC MISSVER
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(Oil_fire_script)                getscale
+	SCPT(Oil_fire_script)                setdelete
+	SCPT(Oil_fire_script)                setscale
+	SCPT(Oil_flask_script)               getpcsneaking
+	SCPT(Oil_flask_script)               setdelete
+	SCPT(Oil_pool_script)                getspellreadied
+	SCPT(Oil_pool_script)                getweapondrawn
+	SCPT(Oil_pool_script)                hasitemequipped
+	SCPT(Oil_pool_script)                setdelete
+    [BM-DEP] Bloodmoon Dependency: Bloodmoon Functions:
+	SCPT(Oil_flask_script)               placeatme
+	SCPT(Oil_pool_script)                placeatme
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(Oil_pool_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Oil_flask_script)

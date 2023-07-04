@@ -1,0 +1,22 @@
+FG_DeseleDebt_WaysOut.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FG_Desele_Bouncy)
+	SCPT(FG_Desele_Reset_Idle)
+	SCPT(FG_Desele_Shoes_SCR)
+	SCPT(FG_Desele_Skirt_SCR)
+	SCPT(FG_HelvineDesele)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    active_de_bar_door
+	tribunal.esm        DOOR    in_hlaalu_door
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    debt money
+	morrowind.esm       NPC_    helviane desele
+	tribunal.esm        DIAL    fg_deseledebt
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=146064383830129504(Topic:debt money)
+  morrowind.esm------------->|DATA|ONAM:eydis fire-eye|NAME:You killed Helviane Desele? Well, that's the way it is sometimes. Some people won't pay their debts.|SCVR:06DX3helviane desele|INTV|BNAM:Journal FG_DeseleDebt 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  FG_DeseleDebt_WaysOut.ESP->|DATA|ONAM:eydis fire-eye|NAME:You killed Helviane Desele? Well, that's the way it is sometimes. Some people won't pay their debts.|SCVR:06DX3helviane desele|INTV|BNAM:Journal FG_DeseleDebt 110  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10

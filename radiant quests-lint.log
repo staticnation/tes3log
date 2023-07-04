@@ -1,0 +1,31 @@
+radiant quests.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_ivza_06_scr_bountypayer)
+	SCPT(cmqCliffRacing)
+	SCPT(cmqCrabHunting)
+	SCPT(cmqExterminating)
+	SCPT(cmqFishing)
+	SCPT(cmqGathering)
+	SCPT(cmqGhosting)
+	SCPT(cmqHerbCollecting)
+	SCPT(cmqNixHunting)
+	SCPT(cmqSkinning)
+	SCPT(cmqSmuggling)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       NPC_    dralosa athren
+	morrowind.esm       NPC_    marasa aren
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    task
+
+[MOD-INF]: ID=1763631975270807483(:background)
+  morrowind.esm------>|DATA|RNAM:Khajiit|NAME:%name follows the trade of %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+  radiant quests.ESP->|NAME:%name follows the trade of %class.|DELE:
+
+[MOD-INF]: ID=28500140682499026062(:background)
+  morrowind.esm------>|DATA|RNAM:Khajiit|NAME:%name is a %class, and speaks as %rank of the %faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+  radiant quests.ESP->|NAME:%name is a %class.|DELE:

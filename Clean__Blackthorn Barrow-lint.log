@@ -1,0 +1,12 @@
+Clean__Blackthorn Barrow.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_COR_DPriestSummon)
+	SCPT(_COR_DragonMask)
+	SCPT(_COR_MarcelDead)
+	SCPT(_COR_NileraGreeting)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+
+[DUP-INF]: ID=3832139402051823602(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.|SCVR:01433|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Go to Jail.", 2, "Resist Arrest.", 3

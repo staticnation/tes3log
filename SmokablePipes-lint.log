@@ -1,0 +1,13 @@
+SmokablePipes.esp: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Rad_script)
+	SCPT(pipe_global)
+	SCPT(pipe_script)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       BOOK    sc_paper plain
+	morrowind.esm       STAT    furn_de_p_table_05
+	tribunal.esm        MISC    misc_soulgem_greater
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0

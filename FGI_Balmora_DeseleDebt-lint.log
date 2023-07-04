@@ -1,0 +1,65 @@
+FGI_Balmora_DeseleDebt.esp: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    debt money
+	tribunal.esm        DIAL    fg_deseledebt
+
+[MOD-INF]: ID=2292341144983871(Topic:orders)
+  morrowind.esm-------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Helaviane Desele owes one of our clients 200 septims. Deliver Desele's debt money to me.|SCVR:34JX3FG_Egg_Poachers|INTV:d|SCVR:44JX3TG_BitterBribe|INTV:d
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Helviane Desele owes one of our clients 500 septims. Deliver Desele's debt money to me.|SCVR:34JX3FG_Egg_Poachers|INTV:d|SCVR:44JX3TG_BitterBribe|INTV:2|SCVR:54JX5TG_BitterBribe|INTV:d
+
+[MOD-INF]: ID=146064383830129504(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:eydis fire-eye|NAME:You killed Helviane Desele? Well, that's the way it is sometimes. Some people won't pay their debts.|SCVR:06DX3helviane desele|INTV|BNAM:Journal FG_DeseleDebt 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:eydis fire-eye|NAME:You killed Helviane Desele? Well, that's the way it is sometimes. Some people won't pay their debts.|SCVR:06DX3helviane desele|INTV|SCVR:14JX3FG_Sottilde|INTV:d|BNAM:Journal FG_DeseleDebt 110  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+
+[MOD-INF]: ID=393113866159579372(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:helviane desele|NAME:All right, you've convinced me. Here's the 200 gold. Take it and tell those thugs to leave me alone.|BNAM:Journal FG_DeseleDebt 70  Player->AddItem Gold_001 200
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:helviane desele|NAME:All right, you've convinced me. Here's the 500 gold. Take it and tell those thugs to leave me alone.|SCVR:04JX3FG_DeseleDebt|INTV: |BNAM:Journal FG_DeseleDebt 70  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=584514766536817770(Topic:orders)
+  morrowind.esm-------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Helaviane Desele owes one of our clients 200 septims. Deliver Desele's debt money to me.|SCVR:34JX3FG_Sottilde|INTV:d
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Helviane Desele owes one of our clients 500 septims. Deliver Desele's debt money to me.|SCVR:34JX3FG_Sottilde|INTV:d
+
+[MOD-INF]: ID=700411741835323230(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:helviane desele|NAME:I don't see why it's any business of yours. I don't like speaking of these things with my friends, much less someone I hardly know.
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:helviane desele|NAME:I don't see why it's any business of yours. I don't like speaking of these things with my friends, much less someone I hardly know.|SCVR:04JX3FG_DeseleDebt|INTV: 
+
+[MOD-INF]: ID=1190923482145841177(Journal:fg_deseledebt)
+  morrowind.esm-------------->|DATA|NAME:Percius Mercius suggested that I pay the debt money myself.
+  FGI_Balmora_DeseleDebt.esp->|DATA|NAME:Percius Mercius suggested that I pay the debt money myself. He recommended me to avoid any confrontation with Manos Othreleth if I am not ready for that.
+
+[MOD-INF]: ID=1486429195812220189(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:helviane desele|NAME:I already gave you the debt money.|SCVR:34JX3FG_DeseleDebt|INTV:F
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:helviane desele|NAME:I already gave you the debt money.|SCVR:34JX3FG_DeseleDebt|INTV:F|SCVR:44JX5FG_DeseleDebt|INTV:d
+
+[MOD-INF]: ID=1590641161166229824(Journal:fg_deseledebt)
+  tribunal.esm--------------->|DATA|NAME:Eydis Fire-Eye told me that Helviane Desele in Suran owes Manos Othreleth 200 gold. I must get this debt money from Desele and return it to Eydis Fire-Eye.
+  FGI_Balmora_DeseleDebt.esp->|DATA|NAME:Eydis Fire-Eye told me that Helviane Desele in Suran owes Manos Othreleth 500 gold. I must get this debt money from Desele and return it to Eydis Fire-Eye.
+
+[DUP-INF]: ID=1647329830903415364(Topic:debt money)
+  |DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I'll pass any debt collection contracts your way.|SCVR:34JX3FG_DeseleDebt|INTV:d
+
+[MOD-INF]: ID=1902598261730910628(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Helviane Desele runs a cornerclub in Suran. She owes Manos Othreleth, one of our clients, 200 septims. Bring this money to me and I'll let you keep half of it.|BNAM:Journal FG_DeseleDebt 10
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Helviane Desele runs a cornerclub in Suran. She owes Manos Othreleth, one of our clients, 500 septims. Bring this money to me and I'll let you keep half of it.|SCVR:04JX3FG_Egg_Poachers|INTV:d|SCVR:14JX3TG_BitterBribe|INTV:2|SCVR:24JX5TG_BitterBribe|INTV:d|BNAM:Journal FG_DeseleDebt 10
+
+[MOD-INF]: ID=2069178102422725560(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Do you have the 200 septims Desele owes our client?|SCVR:34JX3FG_DeseleDebt|INTV|SCVR:45IX3Gold_001|INTV|BNAM:Choice "Yes, here it is" 1 "No, not yet" 2
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Do you have the 500 septims Desele owes our client?|SCVR:34JX3FG_DeseleDebt|INTV: |SCVR:45IX3Gold_001|INTV|BNAM:Choice "Yes, here it is." 1 "No, not yet." 2
+
+[MOD-INF]: ID=2473762911441110245(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:helviane desele|NAME:I try and run a respectable business and the Camonna Tong keeps asking for this money "for my safety." What is it really for? To keep me safe from Orvas Dren's thugs, that's what it's for, and I'm not paying it.
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:helviane desele|NAME:I try and run a respectable business and the Camonna Tong keeps asking for this money "for my safety." What is it really for? To keep me safe from Orvas Dren's thugs, that's what it's for, and I'm not paying it.|SCVR:04JX3FG_DeseleDebt|INTV: 
+
+[MOD-INF]: ID=2994726567212753712(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:persius mercius|NAME:You didn't have to kill her, %PCName.|SCVR:06DX3helviane desele|INTV|SCVR:34JX0FG_DeseleDebt|INTV:d
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:persius mercius|NAME:You didn't have to kill her, %PCName.|SCVR:06DX3helviane desele|INTV|SCVR:34JX3FG_DeseleDebt|INTV:d
+
+[MOD-INF]: ID=6780164372886024634(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:persius mercius|NAME:You can get the debt money from her, or you can pay it yourself. Manos Othreleth works for Orvas Dren, so I suspect this may not be a legitimate Fighters Guild contract.|SCVR:34JX3FG_DeseleDebt|INTV: |BNAM:Journal FG_DeseleDebt 30
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:persius mercius|NAME:Manos Othreleth works for Orvas Dren, so I suspect this may not be a legitimate Fighters Guild contract. You can pay the debt money yourself, or you can ask Helviane Desele about Manos Othreleth if you want to deal with him. Try to avoid any confrontation with Manos Othreleth if you aren't prepared for that.|SCVR:34JX3FG_DeseleDebt|INTV: |BNAM:Journal FG_DeseleDebt 30
+
+[MOD-INF]: ID=23282114771894816170(Topic:debt money)
+  morrowind.esm-------------->|DATA|ONAM:eydis fire-eye|NAME:Good work, %PCName. Here's your share.|SCVR:01500|INTV|BNAM:Journal FG_DeseleDebt 100  Player->RemoveItem Gold_001 200  Player->AddItem Gold_001 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  FGI_Balmora_DeseleDebt.esp->|DATA|ONAM:eydis fire-eye|NAME:Good work, %PCName. Here's your share.|SCVR:01500|INTV|BNAM:Journal FG_DeseleDebt 105  Player->RemoveItem Gold_001 500  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10

@@ -1,0 +1,431 @@
+Great House Dagoth.esp: DUP-REC GETSND MENUMOD MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(sixh_formmoveanimground)
+	SCPT(sixh_formmoveflying)
+	SCPT(sixh_formmovestrike)
+	SCPT(sixh_hitnpcattackedscript)
+	SCPT(sixh_hitnpcscript)
+	SCPT(sixh_pcgroundactivatorscript)
+	SCPT(sixh_pcoldgroundactivatorscript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CalmCorprus)
+	SCPT(CavernIncarnateDoor)
+	SCPT(CorprusOnPC)
+	SCPT(CorprusTimer)
+	SCPT(DagothUrSummonScript)
+	SCPT(GhostfenceScript)
+	SCPT(Sleepers)
+	SCPT(WereCheckScript)
+	SCPT(dreamerWorkerScript)
+	SCPT(kwamaQueenAshimanu)
+	SCPT(ouch_wraithguard)
+	SCPT(shrineAldDaedroth)
+	SCPT(shrineAldSotha)
+	SCPT(shrineAssarnibibi)
+	SCPT(shrineBalUr)
+	SCPT(shrineDagonFel)
+	SCPT(shrineGhostgate)
+	SCPT(shrineGnisis)
+	SCPT(shrineGnisisRealMask)
+	SCPT(shrineKoalCave)
+	SCPT(shrineKummu)
+	SCPT(shrineMaarGan)
+	SCPT(shrineMountKand)
+	SCPT(shrinePalace)
+	SCPT(shrinePuzzleCanal)
+	SCPT(shrineSanctus)
+	SCPT(shrineStopMoon)
+	SCPT(sixh_AnvilScript)
+	SCPT(sixh_AraynysResurection)
+	SCPT(sixh_AraynysResurectorScript)
+	SCPT(sixh_ArmigerScript)
+	SCPT(sixh_CaiusLeaveDetectorScript)
+	SCPT(sixh_CenturanMakerScript)
+	SCPT(sixh_ConstructionCrewScript)
+	SCPT(sixh_DaedricAnvilScript)
+	SCPT(sixh_DagothAraynys)
+	SCPT(sixh_DagothAraynys2)
+	SCPT(sixh_DagothEndus)
+	SCPT(sixh_DagothEndus2)
+	SCPT(sixh_DagothGilvoth)
+	SCPT(sixh_DagothGilvoth2)
+	SCPT(sixh_DagothOdros)
+	SCPT(sixh_DagothOdros2)
+	SCPT(sixh_DagothTureynul)
+	SCPT(sixh_DagothTureynul2)
+	SCPT(sixh_DagothUthol)
+	SCPT(sixh_DagothUthol2)
+	SCPT(sixh_DagothVemyn)
+	SCPT(sixh_DagothVemyn2)
+	SCPT(sixh_DoorLock1)
+	SCPT(sixh_DoorLock2)
+	SCPT(sixh_DoorLock3)
+	SCPT(sixh_DoorLock4)
+	SCPT(sixh_DremoraScript)
+	SCPT(sixh_DungeonDoorScript)
+	SCPT(sixh_DungeonNPC)
+	SCPT(sixh_DungeonScript)
+	SCPT(sixh_DweStrongScafoldScript)
+	SCPT(sixh_EndDagothWalkScript)
+	SCPT(sixh_EndusResurection)
+	SCPT(sixh_EndusResurectorScript)
+	SCPT(sixh_GetSaintSouls)
+	SCPT(sixh_GetSleeperSouls)
+	SCPT(sixh_GilvothResurection)
+	SCPT(sixh_GilvothResurectorScript)
+	SCPT(sixh_GlobalHeartwight)
+	SCPT(sixh_HasDremora1)
+	SCPT(sixh_HasDremora2)
+	SCPT(sixh_HeartRingScript)
+	SCPT(sixh_HortatorArmy)
+	SCPT(sixh_InfectWithCorprus)
+	SCPT(sixh_KogoruhnPlatformScript)
+	SCPT(sixh_LoadArena)
+	SCPT(sixh_MakeSphereCenturian)
+	SCPT(sixh_MakeSpiderCenturian)
+	SCPT(sixh_MakeSteamCenturian)
+	SCPT(sixh_Ministry2)
+	SCPT(sixh_Ministry3)
+	SCPT(sixh_Minstry1)
+	SCPT(sixh_MudcrabTarget)
+	SCPT(sixh_MyCenturian)
+	SCPT(sixh_NerePropylonDaeScript)
+	SCPT(sixh_NerePropylonDweScript)
+	SCPT(sixh_OdrosResurection)
+	SCPT(sixh_OdrosResurectorScript)
+	SCPT(sixh_OrdinatorScript)
+	SCPT(sixh_PilgrimScript)
+	SCPT(sixh_PropylonScript1)
+	SCPT(sixh_PropylonScript2)
+	SCPT(sixh_RemoveDremora1)
+	SCPT(sixh_RemoveDremora2)
+	SCPT(sixh_SlaveScript)
+	SCPT(sixh_StalkerScript)
+	SCPT(sixh_StrongholdScript)
+	SCPT(sixh_TeleportDisable)
+	SCPT(sixh_TeleportEnable)
+	SCPT(sixh_TureynulResurection)
+	SCPT(sixh_TureynulResurectorScript)
+	SCPT(sixh_UtholResurection)
+	SCPT(sixh_UtholResurectorScript)
+	SCPT(sixh_VemynResurection)
+	SCPT(sixh_VemynResurectorScript)
+	SCPT(sixh_VivecScript)
+	SCPT(sixh_armiger_araynys)
+	SCPT(sixh_chargedstrike)
+	SCPT(sixh_daedradeadcounter)
+	SCPT(sixh_disable_teleport)
+	SCPT(sixh_dwemerdeadcounter)
+	SCPT(sixh_face)
+	SCPT(sixh_facetest)
+	SCPT(sixh_formdelete)
+	SCPT(sixh_formmaintwaitendload)
+	SCPT(sixh_formplace)
+	SCPT(sixh_hitnpcattackedscript)
+	SCPT(sixh_pcgroundsmooth)
+	SCPT(sixh_prestrongholdDaeDoorScript)
+	SCPT(sixh_prestrongholdDweDoorScript)
+	SCPT(sixh_startscript)
+	SCPT(sixh_strikemain)
+	SCPT(sixh_strongholdDaeDoorScript)
+	SCPT(sixh_strongholdDweDoorScript)
+	SCPT(sixh_test)
+	SCPT(sixh_torturescript)
+	SCPT(sixh_wallrangeset)
+	SCPT(sixh_zspellget01)
+	SCPT(sixh_zspellget02)
+	SCPT(sixh_zspellget03)
+	SCPT(sixh_zspellget04)
+	SCPT(sixh_zspellget05)
+	SCPT(sixh_zspellget06)
+	SCPT(sixh_zspellget07)
+	SCPT(sixh_zspellget08)
+	SCPT(sixh_zspellget09)
+	SCPT(sixh_zspellget10)
+	SCPT(sixh_zspellget11)
+	SCPT(sixh_zspellput01)
+	SCPT(sixh_zspellput02)
+	SCPT(sixh_zspellput03)
+	SCPT(sixh_zspellput04)
+	SCPT(sixh_zspellput05)
+	SCPT(sixh_zspellput06)
+	SCPT(sixh_zspellput07)
+	SCPT(sixh_zspellput08)
+	SCPT(sixh_zspellput09)
+	SCPT(sixh_zspellput10)
+	SCPT(sixh_zspellput11)
+	SCPT(sixh_zspellwipe01)
+	SCPT(sixh_zspellwipe02)
+	SCPT(sixh_zspellwipe03)
+	SCPT(sixh_zspellwipe04)
+	SCPT(sixh_zspellwipe05)
+	SCPT(sixh_zspellwipe06)
+	SCPT(sixh_zspellwipe07)
+	SCPT(sixh_zspellwipe08)
+	SCPT(sixh_zspellwipe09)
+	SCPT(sixh_zspellwipe10)
+	SCPT(sixh_zspellwipe11)
+	SCPT(sleeperScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    my story
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       ARMO    wraithguard_jury_rig
+	morrowind.esm       CLOT    heart ring
+	morrowind.esm       CREA    ascended_sleeper
+	morrowind.esm       CREA    ash_ghoul
+	morrowind.esm       CREA    ash_ghoul_fgr
+	morrowind.esm       CREA    ash_ghoul_ganel
+	morrowind.esm       CREA    ash_ghoul_mulyn
+	morrowind.esm       CREA    dagoth aladus
+	morrowind.esm       CREA    dagoth araynys
+	morrowind.esm       CREA    dagoth baler
+	morrowind.esm       CREA    dagoth daynil
+	morrowind.esm       CREA    dagoth delnus
+	morrowind.esm       CREA    dagoth drals
+	morrowind.esm       CREA    dagoth draven
+	morrowind.esm       CREA    dagoth elam
+	morrowind.esm       CREA    dagoth fals
+	morrowind.esm       CREA    dagoth fandril
+	morrowind.esm       CREA    dagoth felmis
+	morrowind.esm       CREA    dagoth fervas
+	morrowind.esm       CREA    dagoth fovon
+	morrowind.esm       CREA    dagoth galmis
+	morrowind.esm       CREA    dagoth garel
+	morrowind.esm       CREA    dagoth gilvoth
+	morrowind.esm       CREA    dagoth girer
+	morrowind.esm       CREA    dagoth goral
+	morrowind.esm       CREA    dagoth ienas
+	morrowind.esm       CREA    dagoth irvyn
+	morrowind.esm       CREA    dagoth malan
+	morrowind.esm       CREA    dagoth mendras
+	morrowind.esm       CREA    dagoth molos
+	morrowind.esm       CREA    dagoth mulis
+	morrowind.esm       CREA    dagoth muthes
+	morrowind.esm       CREA    dagoth nilor
+	morrowind.esm       CREA    dagoth odros
+	morrowind.esm       CREA    dagoth ralas
+	morrowind.esm       CREA    dagoth rather
+	morrowind.esm       CREA    dagoth reler
+	morrowind.esm       CREA    dagoth soler
+	morrowind.esm       CREA    dagoth tanis
+	morrowind.esm       CREA    dagoth tureynul
+	morrowind.esm       CREA    dagoth ulen
+	morrowind.esm       CREA    dagoth uthol
+	morrowind.esm       CREA    dagoth uvil
+	morrowind.esm       CREA    dagoth vaner
+	morrowind.esm       CREA    dagoth velos
+	morrowind.esm       CREA    dagoth vemyn
+	morrowind.esm       CREA    dagoth_hlevul
+	morrowind.esm       CREA    vivec_god
+	morrowind.esm       DIAL    cause others to suffer
+	morrowind.esm       DIAL    corprus disease
+	morrowind.esm       DIAL    curse of dagoth ur
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    divine intervention scrolls
+	morrowind.esm       DIAL    duty
+	morrowind.esm       DIAL    false gods
+	morrowind.esm       DIAL    fifth trial
+	morrowind.esm       DIAL    hlaalu hortator
+	morrowind.esm       DIAL    hortator
+	morrowind.esm       DIAL    hortator and nerevarine
+	morrowind.esm       DIAL    keening
+	morrowind.esm       DIAL    lost prophecies
+	morrowind.esm       DIAL    moon-and-star
+	morrowind.esm       DIAL    need
+	morrowind.esm       DIAL    nerevarine prophecies
+	morrowind.esm       DIAL    not the one
+	morrowind.esm       DIAL    potion
+	morrowind.esm       DIAL    profane tools
+	morrowind.esm       DIAL    redoran hortator
+	morrowind.esm       DIAL    seven trials
+	morrowind.esm       DIAL    sixth house
+	morrowind.esm       DIAL    third trial
+	morrowind.esm       DIAL    tribe unmourned
+	morrowind.esm       DIAL    war leader
+	morrowind.esm       DIAL    wisdom guides me
+	morrowind.esm       NPC_    alvela saram
+	morrowind.esm       NPC_    drireri berano
+	morrowind.esm       NPC_    inganar
+	morrowind.esm       NPC_    ordinator stationary
+	morrowind.esm       NPC_    ordinator wander
+	morrowind.esm       NPC_    ordinator_high fane
+	morrowind.esm       NPC_    ordinator_wander_hvault
+	morrowind.esm       NPC_    ordinator_wander_tvault
+	morrowind.esm       NPC_    uradras sadalas
+	tribunal.esm        CREA    dagoth endus
+	tribunal.esm        DIAL    a2_6_incarnate
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    b1_unifyurshilaku
+	tribunal.esm        DIAL    b8_meetvivec
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    task
+
+[MOD-INF]: ID=25056216898631689(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_idrenie nerot|NAME:I wait and hope. Ask, and I shall tell you my story.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Idrenie Nerothan; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_idrenie nerot|NAME:I wait and hope. Ask, and I shall tell you my story.|BNAM:; Idrenie Nerothan; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=28951235932104245(Topic:curse of dagoth ur)
+  morrowind.esm---------->|DATA|ONAM:sul-matuul|NAME:From the unmourned house have come forth the seven curses. The Sixth House is a great evil, and a great danger to all people. This is the need. You have seen this need. You have fought the Sixth House. You have known the curse of corprus. You have harrowed Kogoruhn, and seen the darkness that lies within. When you tell your story, others may be shown the proofs.|SCVR:04JX3B1_UnifyUrshilaku|INTV|BNAM:;Sul-Matuul; Journal "A2_6_Incarnate" >= 50;   Journal "B1_UnifyUrshilaku" 10
+  Great House Dagoth.esp->|DATA|ONAM:sul-matuul|NAME:From the unmourned house have come forth the seven curses. The Sixth House is a great evil, and a great danger to all people. This is the need. You have seen this need. You have fought the Sixth House. You have known the curse of corprus. You have harrowed Kogoruhn, and seen the darkness that lies within. When you tell your story, others may be shown the proofs.|SCVR:04JX3B1_UnifyUrshilaku|INTV|SCVR:14JX4HD_Advancement|INTV|BNAM:;Sul-Matuul; Journal "A2_6_Incarnate" >= 50;   Journal "B1_UnifyUrshilaku" 10
+
+[MOD-INF]: ID=30266144394479153(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_conoon chodal|NAME:Welcome, Incarnate. I am Conoon Chodala. I was not the one. But I wait and hope. Ask, and I shall tell you my story.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:; Conoon Chodala; Journal "A2_6_Incarnate" <= 50
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_conoon chodal|NAME:Welcome, Incarnate. I am Conoon Chodala. I was not the one. But I wait and hope. Ask, and I shall tell you my story.|SCVR:11630|INTV:|BNAM:; Conoon Chodala; Journal "A2_6_Incarnate" <= 50
+
+[MOD-INF]: ID=34421011823324501(Topic:my story)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_conoon chodal|NAME:I was an ashkhan. I led my people against the Akaviri while the Cyrodiil dogs fled before them like kagouti. I quested deep into the strongholds and Red Mountain, cleansing the unclean things in their own blood. I did not heed the counsel of the women, and, to my shame, I craved glory, but never saw my real enemies. My axe and boots are yours, with my blessing.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Conoon Chodala; Journal "A2_6_Incarnate" <= 50  player->additem conoon_chodala_axe_unique 1  player->additem conoon_chodala_boots_unique 1  Journal "A2_6_Conoon" 100
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_conoon chodal|NAME:I was an ashkhan. I led my people against the Akaviri while the Cyrodiil dogs fled before them like kagouti. I quested deep into the strongholds and Red Mountain, cleansing the unclean things in their own blood. I did not heed the counsel of the women, and, to my shame, I craved glory, but never saw my real enemies. My axe and boots are yours, with my blessing.|BNAM:; Conoon Chodala; Journal "A2_6_Incarnate" <= 50  player->additem conoon_chodala_axe_unique 1  player->additem conoon_chodala_boots_unique 1  Journal "A2_6_Conoon" 100
+
+[MOD-INF]: ID=49134591548418046(Topic:my story)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_hort_ledd|NAME:I died four hundred years ago, in the last days of turmoil and unrest after the Empire came to Morrowind. I was a thinker, and not a doer, and though I was marked by the stars, I was not a hero. Take these things of mine. My bones won't complain.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Hort-Ledd; Journal "A2_6_Incarnate" <= 50  player->additem bookskill_alteration3 1  player->additem hort_ledd_robe_unique 1  Journal "A2_6_Hort-Ledd" 100
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_hort_ledd|NAME:I died four hundred years ago, in the last days of turmoil and unrest after the Empire came to Morrowind. I was a thinker, and not a doer, and though I was marked by the stars, I was not a hero. Take these things of mine. My bones won't complain.|BNAM:; Hort-Ledd; Journal "A2_6_Incarnate" <= 50  player->additem bookskill_alteration3 1  player->additem hort_ledd_robe_unique 1  Journal "A2_6_Hort-Ledd" 100
+
+[MOD-INF]: ID=72921191807321606(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_hort_ledd|NAME:I wait and hope. Ask, and I shall tell you my story.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Hort-Ledd; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_hort_ledd|NAME:I wait and hope. Ask, and I shall tell you my story.|BNAM:; Hort-Ledd; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=113212143889818323(Topic:war leader)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:To prove to them your fitness as War Leader to the Dunmer people, you must demonstrate your might in battle, your honor in speech, and your wisdom in leadership.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:To prove to them your fitness as War Leader to the Dunmer people, you must demonstrate your might in battle, your honor in speech, and your wisdom in leadership.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=120218746184767755(Topic:profane tools)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:Kagrenac, high priest of the Dwemer, forged enchanted artifacts to steal the power of the gods. Nerevar fought the Dwemer to prevent this blasphemy. But Dagoth Ur took these tools to make himself a god. And the Tribunal took these tools to make themselves gods. Though the Tribunal sought to do good with their power, they are tainted by the same corrupt desires that move Dagoth Ur.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:Kagrenac, high priest of the Dwemer, forged enchanted artifacts to steal the power of the gods. Nerevar fought the Dwemer to prevent this blasphemy. But Dagoth Ur took these tools to make himself a god. And the Tribunal took these tools to make themselves gods. Though the Tribunal sought to do good with their power, they are tainted by the same corrupt desires that move Dagoth Ur.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=200032101391514425(Topic:redoran hortator)
+  morrowind.esm---------->|DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:As you are already the Archmaster of House Redoran, you shall be the Hortator of House Redoran. I hope you are as successful in persuading the rest of Morrowind to unite against Dagoth Ur and his blighted hosts. On behalf of the house and council, take the Ring of the Hortator, a token of your office. By this ring others shall know you as our chosen champion.|BNAM:Choice "Continue" 3
+  Great House Dagoth.esp->|DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:As you are already the Archmaster of House Redoran, you shall be the Hortator of House Redoran. I hope you are as successful in persuading the rest of Morrowind to unite against the Empire and the lying Tribunal. On behalf of the house and council, take the Ring of the Hortator, a token of your office. By this ring others shall know you as our chosen champion.|BNAM:Choice "Continue" 3
+
+[MOD-INF]: ID=254186888219059809(Topic:tribe unmourned)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:Pity Dagoth Ur and the Sixth House. All they do, all they are is foul and evil, but they began in brightness and honor, and the cause of their fall was their loyal service to you, Lord Nerevar. You told Lord Dagoth to guard the profane tools beneath Red Mountain, and thus he was tempted. He did your bidding when he tried to keep these tools from the Tribunal, and so he hates you, who betrayed him, and the Tribunal, who mocked his honor, attacked him, and stole the profane tools for their own use.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:Pity Dagoth Ur and the Sixth House. All they do, all they are is foul and evil, but they began in brightness and honor, and the cause of their fall was their loyal service to you, Lord Nerevar. You told Lord Dagoth to guard the profane tools beneath Red Mountain, and thus he was tempted. He did your bidding when he tried to keep these tools from the Tribunal, and so he hates you, who betrayed him, and the Tribunal, who mocked his honor, attacked him, and stole the profane tools for their own use.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=254753852702421420(Topic:not the one)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:I am a failed Incarnate. So are all these who remain here with me in the Cavern of the Incarnate. I survived the blight, but I fell in battle with an Ash Vampire. I could not master the arts of war. Nor could I learn the ways of the Great Houses. They would not have accepted me as Hortator. Take these few poor things... they are of no use to me.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;   player->additem peakstar_belt_unique 1  player->additem peakstar_pants_unique 1  Journal "A2_6_Peakstar" 100
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:I am a failed Incarnate. So are all these who remain here with me in the Cavern of the Incarnate. I survived the blight, but I fell in battle with an Ash Vampire. I could not master the arts of war. Nor could I learn the ways of the Great Houses. They would not have accepted me as Hortator. Take these few poor things... they are of no use to me.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;   player->additem peakstar_belt_unique 1  player->additem peakstar_pants_unique 1  Journal "A2_6_Peakstar" 100
+
+[MOD-INF]: ID=256041812384511341(Topic:orders)
+  morrowind.esm---------->|DATA|ONAM:caius cosades|NAME:Continue pursuing the Nerevarine prophecies, as the Emperor commands. First, go to the Hall of Wisdom and Justice, and get Mehra Milo to help you find the lost prophecies. She's being watched; if something has gone wrong, find her private quarters; she'll leave you a message there under the code word 'amaya.' Then take the lost prophecies to Nibani Maesa. From that point, you'll have to follow her directions, and follow the prophecies. Good luck.|SCVR:04JX3A2_3_CorprusCure|INTV:2|BNAM:Journal "A2_4_MiloGone" 1  PCRaiseRank  "bk_notetoamaya"->enable  "Mehra Milo"->modDisposition 20  "Mehra Milo"->PositionCell, -680, -363, 88, 270, "Ministry of Truth, Holding Cells"
+  Great House Dagoth.esp->|DATA|ONAM:caius cosades|NAME:Continue pursuing the Nerevarine prophecies, as the Emperor commands. First, go to the Hall of Wisdom and Justice, and get Mehra Milo to help you find the lost prophecies. She's being watched; if something has gone wrong, find her private quarters; she'll leave you a message there under the code word 'amaya.' Then take the lost prophecies to Nibani Maesa. From that point, you'll have to follow her directions, and follow the prophecies. Good luck.|SCVR:04JX3A2_3_CorprusCure|INTV:2|BNAM:Journal "A2_4_MiloGone" 1  set gone to 1  PCRaiseRank  "bk_notetoamaya"->enable  "Mehra Milo"->modDisposition 20  "Mehra Milo"->PositionCell, -680, -363, 88, 270, "Ministry of Truth, Holding Cells"
+
+[MOD-INF]: ID=272538181106332984(Topic:dagoth ur)
+  morrowind.esm---------->|DATA|ONAM:dreamer_04|NAME:He is the Lord, and Father of the Mountain. He wakes, and the land wakes with him. All the land, and all of its people, shall rise from sleep, and sweep the land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. "All shall greet him as flesh, or as dust."|BNAM:moddisposition -10
+  Great House Dagoth.esp->|DATA|ONAM:dreamer_04|NAME:He is the Lord, and Father of the Mountain. He wakes, and the land wakes with him. All the land, and all of its people, shall rise from sleep, and sweep the land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. "All shall greet him as flesh, or as dust."
+
+[MOD-INF]: ID=295522058519163840(Topic:nerevarine)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:You must go before the ashkhans of the Wastes People and satisfy them, for only the ashkhans of the Four Tribes can name you 'Nerevarine.' Speak first with Sul-Matuul of the Urshilaku, and with Wise Woman Nibani Maesa, for of all the Ashlanders, they are wisest in the lore of the Incarnate, and you have already shown Sul-Matuul proof of your worth.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:You must go before the ashkhans of the Wastes People and satisfy them, for only the ashkhans of the Four Tribes can name you 'Nerevarine.' Speak first with Sul-Matuul of the Urshilaku, and with Wise Woman Nibani Maesa, for of all the Ashlanders, they are wisest in the lore of the Incarnate, and you have already shown Sul-Matuul proof of your worth.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=323618749958311718(Topic:business)
+  morrowind.esm---------->|DATA|NAME:Good. Sensible of you. And now, will you give your oath, before all gods and men, before all spirits visible and invisible, before my honor and your honor, to dedicate yourself and Wraithguard to the defeat and destruction of Dagoth Ur, and the preservation of Morrowind and its people?|SCVR:01500|INTV|BNAM:;Vivec; CHOICE 2;   Choice "Yes, I so swear" 5 "No, I shall not swear" 6 "Maybe... it depends..." 7
+  Great House Dagoth.esp->|DATA|NAME:Good. Sensible of you. And now, will you give your oath, before all gods and men, before all spirits visible and invisible, before my honor and your honor, to dedicate yourself and Wraithguard to the defeat and destruction of Dagoth Ur, and the preservation of Morrowind and its people?|SCVR:01500|INTV|BNAM:;Vivec; CHOICE 2;   player->AddItem misc_wraithguard_no_equip 1  vivec_god->RemoveItem misc_wraithguard_no_equip 1  Choice "Yes, I so swear" 5 "No, I shall not swear" 6 "Maybe... it depends..." 7
+
+[MOD-INF]: ID=826279552648327963(Topic:dagoth ur)
+  morrowind.esm---------->|DATA|CNAM:Dreamers|NAME:It is the Hour of Wakening. He comes forth in his glory, and his people shall rejoice, and his enemies shall scatter like dust.|BNAM:moddisposition -10
+  Great House Dagoth.esp->|DATA|CNAM:Dreamers|NAME:It is the Hour of Wakening. He comes forth in his glory, and his people shall rejoice, and his enemies shall scatter like dust.
+
+[MOD-INF]: ID=870214545525920274(Topic:dagoth ur)
+  morrowind.esm---------->|DATA|ONAM:dreamer_05|NAME:He is the Lord, and Father of the Mountain. He wakes, and the land wakes with him. All the land, and all of its people, shall rise from sleep, and sweep the land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. "All shall greet him as flesh, or as dust."|BNAM:moddisposition -10
+  Great House Dagoth.esp->|DATA|ONAM:dreamer_05|NAME:He is the Lord, and Father of the Mountain. He wakes, and the land wakes with him. All the land, and all of its people, shall rise from sleep, and sweep the land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. "All shall greet him as flesh, or as dust."
+
+[MOD-INF]: ID=1239827762162201737(Topic:wisdom guides me)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:I will answer when I can, and with what I know. But the visions of Azura are often obscure, for two reasons. One, because the future cannot be known, and choices may always be made. Two, because truth is not clear or simple. Azura's riddles warn us to think long and hard. They force us to search carefully for truth and meaning, and not to rely only on impulse and force.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:I will answer when I can, and with what I know. But the visions of Azura are often obscure, for two reasons. One, because the future cannot be known, and choices may always be made. Two, because truth is not clear or simple. Azura's riddles warn us to think long and hard. They force us to search carefully for truth and meaning, and not to rely only on impulse and force.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=1447523185589615937(Journal:a2_6_incarnate)
+  tribunal.esm----------->|DATA|NAME:Peakstar says I must be chosen as 'Nerevarine' by the Ashlanders and 'Hortator' by the Great Houses. These are titles of war leaders chosen to unite the Dunmer in times of need. I must prove a war leader is needed, and be chosen as that war leader. I must tell how the Tribunal used profane tools of the Dwarves, and betrayed and misled the people. I must tell about the threat of Dagoth Ur and the Sixth House, and how the Tribunal can no longer contain them.|QSTF
+  Great House Dagoth.esp->|DATA|NAME:Peakstar says I must be chosen as 'Nerevarine' by the Ashlanders and 'Hortator' by the Great Houses. These are titles of war leaders chosen to unite the Dunmer in times of need. I must prove a war leader is needed, and be chosen as that war leader. I must tell how the Tribunal used profane tools of the Dwarves, and betrayed and misled the people. I must tell about Dagoth Ur and the Sixth House, and how the Tribunal can no longer contain them.|QSTF
+
+[MOD-INF]: ID=1539217109992831494(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_peakstar|NAME:I wait and hope. Ask, and I shall answer.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:I wait and hope. Ask, and I shall answer.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50
+
+[MOD-INF]: ID=1561421557898423058(Topic:moon-and-star)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:You bear the Moon-and-Star, the ring of Nerevar. None may deny; you ARE Nerevar Reborn, the prophesied Incarnate. The Temple will know you as an enemy. Ordinators will mark you for death, and the Tribunal Faithful of the Great Houses will hate and fear you. The doubters of the Tribes will test your strength and doubt your honor. You will be known. You must prepare, and be ready.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;   Journal "A2_6_Incarnate" 52
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:You bear the Moon-and-Star, the ring of Nerevar. None may deny; you ARE Nerevar Reborn, the prophesied Incarnate. The Temple will know you as an enemy. Ordinators will mark you for death, and the Tribunal Faithful of the Great Houses will hate and fear you. The doubters of the Tribes will test your strength and doubt your honor. You will be known. You must prepare, and be ready.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;   Journal "A2_6_Incarnate" 52
+
+[MOD-INF]: ID=1867430472425114997(Topic:hortator and nerevarine)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:To show them their need, you must tell them about the Tribunal, how they have adopted the profane tools of the Dwarves, how they have betrayed and misled their people -- and give them proofs. You must tell them about Dagoth Ur, and the Sixth House, about their powers and plans, and how the Tribunal no longer has power to contain them.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11500|INTV|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50; 1;   Journal "A2_6_Incarnate" 54
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:To show them their need, you must tell them about the Tribunal, how they have adopted the profane tools of the Dwarves, how they have betrayed and misled their people -- and give them proofs. You must tell them about Dagoth Ur, and the Sixth House, about their powers and plans, and how the Tribunal no longer has power to contain them.|SCVR:11500|INTV|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50; 1;   Journal "A2_6_Incarnate" 54
+
+[MOD-INF]: ID=2100328701196442535(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_hort_ledd|NAME:Welcome, Incarnate. I am Hort-Ledd. I was not the one. But I wait and hope. Ask, and I shall tell you my story.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:; Hort-Ledd; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_hort_ledd|NAME:Welcome, Incarnate. I am Hort-Ledd. I was not the one. But I wait and hope. Ask, and I shall tell you my story.|SCVR:11630|INTV:|BNAM:; Hort-Ledd; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=3030195222787919160(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_erur-dan|NAME:I wait and hope. Ask, and I shall tell you my story.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Erur-Dan; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_erur-dan|NAME:I wait and hope. Ask, and I shall tell you my story.|BNAM:; Erur-Dan; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=4154249811789714035(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_conoon chodal|NAME:I wait and hope. Ask, and I shall tell you my story.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Conoon Chodala; Journal "A2_6_Incarnate" <= 50
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_conoon chodal|NAME:I wait and hope. Ask, and I shall tell you my story.|BNAM:; Conoon Chodala; Journal "A2_6_Incarnate" <= 50
+
+[MOD-INF]: ID=4891149171116310747(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_ane teria|NAME:I wait and hope. Ask, and I shall tell you my story.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Ane Teria; Journal "A2_6_Incarnate" <= 50
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_ane teria|NAME:I wait and hope. Ask, and I shall tell you my story.|BNAM:; Ane Teria; Journal "A2_6_Incarnate" <= 50
+
+[MOD-INF]: ID=7969245902766619425(Topic:false gods)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:The Tribunal and Dagoth Ur have the unnatural abilities and lifespans of gods. But they gained these things by actions that mock the gods and misuse divine power. They were ambitious and unwise, and the consequences of these ungodly acts threaten all that lives in Morrowind.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:The Tribunal and Dagoth Ur have the unnatural abilities and lifespans of gods. But they gained these things by actions that mock the gods and misuse divine power. They were ambitious and unwise, and the consequences of these ungodly acts threaten all that lives in Morrowind.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=8138306752679125548(Topic:my story)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_erur-dan|NAME:I saw Morrowind fall to the Empire. I lived through the humiliation of the surrender, swore hatred and vengeance against Imperial and Tribunal alike for their betrayals. In later years, I despaired, and turned to Red Mountain, where I grew old and died fighting the blight and Red Mountain monsters. Take my weapons and armor. I have no further use for them.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Erur-Dan; Journal "A2_6_Incarnate" <= 50  player->additem erur_dan_spear_unique 1  player->additem erur_dan_cuirass_unique 1  Journal "A2_6_Erur-Dan" 100
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_erur-dan|NAME:I saw Morrowind fall to the Empire. I lived through the humiliation of the surrender, swore hatred and vengeance against Imperial and Tribunal alike for their betrayals. In later years, I despaired, and turned to Red Mountain, where I grew old and died fighting the blight and Red Mountain monsters. Take my weapons and armor. I have no further use for them.|BNAM:; Erur-Dan; Journal "A2_6_Incarnate" <= 50  player->additem erur_dan_spear_unique 1  player->additem erur_dan_cuirass_unique 1  Journal "A2_6_Erur-Dan" 100
+
+[MOD-INF]: ID=12386198611142525550(Topic:dagoth ur)
+  morrowind.esm---------->|DATA|ONAM:dreamer_04|NAME:He is the Lord, and Father of the Mountain. He wakes, and the land wakes with him. All the land, and all of its people, shall rise from sleep, and sweep the land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. "All shall greet him as flesh, or as dust."|BNAM:moddisposition -10
+  Great House Dagoth.esp->|DATA|ONAM:dreamer_04|NAME:He is the Lord, and Father of the Mountain. He wakes, and the land wakes with him. All the land, and all of its people, shall rise from sleep, and sweep the land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. "All shall greet him as flesh, or as dust."
+
+[MOD-INF]: ID=14031324532569718549(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_idrenie nerot|NAME:Welcome, Incarnate. I am Idrenie Nerothan. I was not the one. But I wait and hope. Ask, and I shall tell you my story.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:; Idrenie Nerothan; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_idrenie nerot|NAME:Welcome, Incarnate. I am Idrenie Nerothan. I was not the one. But I wait and hope. Ask, and I shall tell you my story.|SCVR:11630|INTV:|BNAM:; Idrenie Nerothan; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=14129208691792814398(Topic:my story)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_ane teria|NAME:I was a holy crusader of the Temple in the golden era of the Tribunate. I contributed substantially to the writings that were later suppressed by the Temple, and now would be called apographa. I followed the Tribunal unquestioningly, to my regret. I never believed in the Nerevarine prophecies until it was too late. Take my humble possessions, with my blessing.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Ane Teria; Journal "A2_6_Incarnate" <= 50  player->additem "bookskill_heavy armor5" 1  player->additem ane_teria_mace_unique 1  Journal "A2_6_Ane_Teria" 100
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_ane teria|NAME:I was a holy crusader of the Temple in the golden era of the Tribunate. I contributed substantially to the writings that were later suppressed by the Temple, and now would be called apographa. I followed the Tribunal unquestioningly, to my regret. I never believed in the Nerevarine prophecies until it was too late. Take my humble possessions, with my blessing.|BNAM:; Ane Teria; Journal "A2_6_Incarnate" <= 50  player->additem "bookskill_heavy armor5" 1  player->additem ane_teria_mace_unique 1  Journal "A2_6_Ane_Teria" 100
+
+[MOD-INF]: ID=15488233542752612417(Topic:potion)
+  morrowind.esm---------->|DATA|ONAM:divayth fyr|NAME:Remarkable. Let me check your skin... your eyes... your tongue.... Amazing. I think it worked. No sign of the disease at all. Of course, you still have corprus disease, just like I planned. But all your symptoms are gone. Marvelous. I'll go try it out on some of the more desperate inmates. But I'll answer any questions you have before you go.|SCVR:04JX3A2_3_CorprusCure|INTV|SCVR:11500|INTV|BNAM:;Divayth Fyr; Journal "A2_3_CorprusCure" >= 46; 5;   Journal "A2_3_CorprusCure" 50  player->addspell "common disease immunity"  player->addspell "blight disease immunity"  player->addspell "corprus immunity"  Cast "Cure Common Disease Other" Player  Cast "Cure Blight Disease" Player  player->removespell corprus
+  Great House Dagoth.esp->|DATA|ONAM:divayth fyr|NAME:Remarkable. Let me check your skin... your eyes... your tongue.... Amazing. I think it worked. No sign of the disease at all. Of course, you still have corprus disease, just like I planned. But all your symptoms are gone. Marvelous. I'll go try it out on some of the more desperate inmates. But I'll answer any questions you have before you go.|SCVR:04JX3A2_3_CorprusCure|INTV|SCVR:11500|INTV|BNAM:;Divayth Fyr; Journal "A2_3_CorprusCure" >= 46; 5;   Journal "A2_3_CorprusCure" 50  player->addspell "common disease immunity"  player->addspell "blight disease immunity"  player->addspell "corprus immunity"  Cast "Cure Common Disease Other" Player  Cast "Cure Blight Disease" Player  player->removespell corprus  stopscript CorprusTimer
+
+[MOD-INF]: ID=17307193911955610719(Topic:my story)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_idrenie nerot|NAME:I lived in the late years of the Tribunate, and behind the scenes, I helped us demoralize, then repel the Akaviri invaders. I knew nothing of the Nerevarine or Dagoth Ur until I took refuge with the Ashlanders. I died a fool, trying to loot ruined Kogoruhn. Here. Take these. Maybe there's something in the world left worth stealing.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Idrenie Nerothan; Journal "A2_6_Incarnate" <= 50  player->additem pick_master 1  player->additem probe_master 1  Journal "A2_6_Idrenie" 100
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_idrenie nerot|NAME:I lived in the late years of the Tribunate, and behind the scenes, I helped us demoralize, then repel the Akaviri invaders. I knew nothing of the Nerevarine or Dagoth Ur until I took refuge with the Ashlanders. I died a fool, trying to loot ruined Kogoruhn. Here. Take these. Maybe there's something in the world left worth stealing.|BNAM:; Idrenie Nerothan; Journal "A2_6_Incarnate" <= 50  player->additem pick_master 1  player->additem probe_master 1  Journal "A2_6_Idrenie" 100
+
+[MOD-INF]: ID=19344310262347717407(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_erur-dan|NAME:Welcome, Incarnate. I am Erur-Dan. I was not the one. But I wait and hope. Ask, and I shall tell you my story.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:; Erur-Dan; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_erur-dan|NAME:Welcome, Incarnate. I am Erur-Dan. I was not the one. But I wait and hope. Ask, and I shall tell you my story.|SCVR:11630|INTV:|BNAM:; Erur-Dan; Journal "A2_6_Incarnate" <= 50;
+
+[MOD-INF]: ID=22202199222505414571(Topic:redoran hortator)
+  morrowind.esm---------->|DATA|ONAM:athyn sarethi|NAME:The Council of House Redoran is in agreement. You are the Hortator of House Redoran. I hope you are as successful in persuading the rest of Morrowind to unite against Dagoth Ur and his blighted hosts. On behalf of the house and council, take the Ring of the Hortator, a token of your office. By this ring others shall know you as our chosen champion.|SCVR:04JX3B5_MorvaynHort|INTV:2|SCVR:14JX3B5_LlethriHort|INTV:2|SCVR:24JX3B5_MorvaynHort|INTV:2|SCVR:34JX3B5_RamoranHort|INTV:2|SCVR:44JX3B5_VenimHort|INTV:2|SCVR:54JX3B5_SarethiHort|INTV:2|BNAM:Choice "Continue" 3
+  Great House Dagoth.esp->|DATA|ONAM:athyn sarethi|NAME:The Council of House Redoran is in agreement. You are the Hortator of House Redoran. I hope you are as successful in persuading the rest of Morrowind to unite against the Empire and the lying Tribunal. On behalf of the house and council, take the Ring of the Hortator, a token of your office. By this ring others shall know you as our chosen champion.|SCVR:04JX3B5_MorvaynHort|INTV:2|SCVR:14JX3B5_LlethriHort|INTV:2|SCVR:24JX3B5_MorvaynHort|INTV:2|SCVR:34JX3B5_RamoranHort|INTV:2|SCVR:44JX3B5_VenimHort|INTV:2|SCVR:54JX3B5_SarethiHort|INTV:2|BNAM:Choice "Continue" 3
+
+[MOD-INF]: ID=23424308811920922786(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_peakstar|NAME:Welcome, Incarnate, Moon-and-Star Reborn, Hortator, Nerevarine, Mourner of the Tribe Unmourned, Redeemer of the False Gods. I am Peakstar. I was not the one. But I wait and hope. Ask, and I shall answer, if wisdom guides me.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:Welcome, Incarnate, Moon-and-Star Reborn, Hortator, Nerevarine, Mourner of the Tribe Unmourned, Redeemer of the False Gods. I am Peakstar. I was not the one. But I wait and hope. Ask, and I shall answer, if wisdom guides me.|SCVR:11630|INTV:|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50
+
+[MOD-INF]: ID=28939178471843227703(Topic:hortator and nerevarine)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:Dunmer of the Ashlands and Dunmer of the Houses have traditions of a War Leader set over all the tribes in times of need. First, your task is to prove to them their need. Then you must prove that you should be their war leader -- the Nerevarine, for Ashlanders; the Hortator, for the Great Houses.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;   Choice "Continue" 1
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:Dunmer of the Ashlands and Dunmer of the Houses have traditions of a War Leader set over all the tribes in times of need. First, your task is to prove to them their need. Then you must prove that you should be their war leader -- the Nerevarine, for Ashlanders; the Hortator, for the Great Houses.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;   Choice "Continue" 1
+
+[MOD-INF]: ID=29087205751552323629(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:ghost_npc_ane teria|NAME:Welcome, Incarnate. I am Ane Teria. I was not the one. But I wait and hope. Ask, and I shall tell you my story.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:; Ane Teria; Journal "A2_6_Incarnate" <= 50
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_ane teria|NAME:Welcome, Incarnate. I am Ane Teria. I was not the one. But I wait and hope. Ask, and I shall tell you my story.|SCVR:11630|INTV:|BNAM:; Ane Teria; Journal "A2_6_Incarnate" <= 50
+
+[MOD-INF]: ID=31483178572323413094(Topic:redoran hortator)
+  morrowind.esm---------->|DATA|ONAM:garisa llethri|NAME:I spoke with Athyn Sarethi. I like what he told me about you. You get things done, and show good judgement. Your story is crazy. But your story doesn't matter to me, as long as you can do something about Dagoth Ur and his servants. I'm making you my choice for Hortator of House Redoran.|SCVR:34JX3B5_SarethiHort|INTV:2|BNAM:Journal "B5_LlethriHort" 50
+  Great House Dagoth.esp->|DATA|ONAM:garisa llethri|NAME:I spoke with Athyn Sarethi. I like what he told me about you. You get things done, and show good judgement. Your story is crazy. But your story doesn't matter to me, as long as you can put an end to this trouble between Dagoth Ur and the Tribunal. I'm making you my choice for Hortator of House Redoran.|SCVR:34JX3B5_SarethiHort|INTV:2|BNAM:Journal "B5_LlethriHort" 50
+
+[MOD-INF]: ID=31873192271755619515(Topic:hortator)
+  morrowind.esm---------->|DATA|ONAM:ghost_npc_peakstar|NAME:You must go before the Councilors of the Great Houses and satisfy them, for only the Councils of the Great Houses can name you 'Hortator.' I do not know the settled people of the Great Houses, and can offer you no counsel.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;
+  Great House Dagoth.esp->|DATA|ONAM:ghost_npc_peakstar|NAME:You must go before the Councilors of the Great Houses and satisfy them, for only the Councils of the Great Houses can name you 'Hortator.' I do not know the settled people of the Great Houses, and can offer you no counsel.|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;

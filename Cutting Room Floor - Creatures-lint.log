@@ -1,0 +1,26 @@
+Cutting Room Floor - Creatures.esp: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Startup)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LEVC    bm_in_icecaves
+	bloodmoon.esm       LEVC    bm_in_icecaves_40
+	bloodmoon.esm       LEVC    bm_in_icecaves_60
+	bloodmoon.esm       LEVC    bm_in_nordburial
+	morrowind.esm       CREA    guar_pack_tarvyn_unique
+	morrowind.esm       DIAL    tarvyn faren
+	morrowind.esm       LEVC    in_dae_all_lev+0
+	morrowind.esm       LEVC    in_dae_all_lev+2
+	morrowind.esm       LEVC    in_dae_all_lev-2
+	morrowind.esm       LEVC    in_dae_dremora_lev+0
+	morrowind.esm       LEVC    in_dae_dremora_lev+2
+	morrowind.esm       LEVC    in_dae_dremora_lev-2
+	tribunal.esm        LEVC    in_goblins
+
+[MOD-INF]: ID=34807678397810688(Topic:tarvyn faren)
+  morrowind.esm---------------------->|DATA|ONAM:edryno arethi|NAME:I'm glad Tarvyn Faren arrived safely. Take these 500 drakes for helping House Hlaalu's business.|SCVR:34JX3HH_EscortMerchant|INTV:F|BNAM:Journal HH_EscortMerchant 100  ModPCFacRep 5 "Hlaalu"  ModDisposition 10  Player->AddItem Gold_001 500  "Tarvyn Faren"->Disable
+  Cutting Room Floor - Creatures.esp->|DATA|ONAM:edryno arethi|NAME:I'm glad Tarvyn Faren arrived safely. Take these 500 drakes for helping House Hlaalu's business.|SCVR:34JX3HH_EscortMerchant|INTV:F|BNAM:Journal HH_EscortMerchant 100  ModPCFacRep 5 "Hlaalu"  ModDisposition 10  Player->AddItem Gold_001 500  "Tarvyn Faren"->Disable  "guar_pack_tarvyn_unique"->Disable
+
+[MOD-INF]: ID=6876249721214614834(Topic:tarvyn faren)
+  morrowind.esm---------------------->|DATA|ONAM:edryno arethi|NAME:Meet Tarvyn Faren on the road to Pelagiad, near the Silt Strider just north of the bridge to the Foreign Quarter. Escort him safely to Pelagiad.|SCVR:34JX3HH_BuriedTreasure|INTV:d|BNAM:Journal HH_EscortMerchant 10  "Tarvyn Faren"->Enable
+  Cutting Room Floor - Creatures.esp->|DATA|ONAM:edryno arethi|NAME:Meet Tarvyn Faren on the road to Pelagiad, near the Silt Strider just north of the bridge to the Foreign Quarter. Escort him safely to Pelagiad.|SCVR:34JX3HH_BuriedTreasure|INTV:d|BNAM:Journal HH_EscortMerchant 10  "Tarvyn Faren"->Enable  "guar_pack_tarvyn_unique"->Enable

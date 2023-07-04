@@ -1,0 +1,26 @@
+tw_pocketDisplay.esp: DUP-REC MASTERS MENUMOD MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	tw_cloud_storage.esm          742671 (plugin)     742844 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ls_DummyScript)
+	SCPT(tw_globe_spin)
+	SCPT(tw_raven_display)
+	SCPT(tw_safe_pd)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       STAT    furn_com_tapestry_02
+	morrowind.esm       STAT    furn_dwrv_bench10
+	morrowind.esm       STAT    in_dae_doorjamb_01
+	morrowind.esm       STAT    in_dae_hall_l_endcap_01
+	tribunal.esm        ARMO    ebony_shield_auriel_x
+	tribunal.esm        ARMO    spell_breaker_unique_x
+	tribunal.esm        ARMO    towershield_eleidon_unique_x
+	tribunal.esm        STAT    furn_museum_display_01
+	tw_cloud_storage.esm    ACTI    tw_books_02_act
+	tw_cloud_storage.esm    STAT    in_lava_blacksquare
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    shalk
+	tribunal.esm        ACTI    act_crystal_01_pulse
+	tw_cloud_storage.esm    MISC    wl_scales
+	tw_cloud_storage.esm    STAT    displaycase_2

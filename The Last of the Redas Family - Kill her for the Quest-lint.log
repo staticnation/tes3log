@@ -1,0 +1,36 @@
+The Last of the Redas Family - Kill her for the Quest.ESP: DUP-REC MISSVER MOD-INF MOD-IID OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    duel
+	morrowind.esm       DIAL    redas tomb
+	tribunal.esm        DIAL    duties
+
+[MOD-INF]: ID=564053211407626175(:duties)
+  morrowind.esm--------------------------------------------->|DATA|ONAM:faral retheran|DNAM:Redoran|NAME:The last of the Redas family line has bequeathed the family's belongings to House Redoran. I need someone to recover the family treasures from the Redas Tomb.|SCVR:34JX3HR_HlaanoSlanders|INTV:d
+  The Last of the Redas Family - Kill her for the Quest.ESP->|NAME:The last of the Redas family line has bequeathed the family's belongings to House Redoran. I need someone to recover the family treasures from the Redas Tomb.|DELE:
+
+[MOD-INF]: ID=1983636712435112284(Topic:duties)
+  morrowind.esm--------------------------------------------->|DATA|ONAM:faral retheran|NAME:You have performed all the duties I have, %PCRank.|SCVR:34JX3HR_AttackRethan|INTV:d
+  The Last of the Redas Family - Kill her for the Quest.ESP->|DATA|ONAM:faral retheran|NAME:You have performed all the duties I have, %PCRank.|SCVR:26DX0nidryne redas|INTV:|SCVR:34JX3HR_AttackRethan|INTV:d
+
+[MOD-INF]: ID=1983636712435112284(Topic:duties)
+  morrowind.esm--------------------------------------------->|DATA|ONAM:faral retheran|NAME:You have performed all the duties I have, %PCRank.|SCVR:34JX3HR_AttackRethan|INTV:d
+  The Last of the Redas Family - Kill her for the Quest.ESP->|DATA|ONAM:faral retheran|NAME:You have performed all the duties I have, %PCRank.|SCVR:26DX0nidryne redas|INTV:|SCVR:34JX3HR_AttackRethan|INTV:d
+[MOD-IID]: ID=3189194971125110858
+  The Last of the Redas Family - Kill her for the Quest.ESP->You have performed all the duties I have, %PCRank.
+
+[MOD-INF]: ID=2369014829158617836(Topic:duties)
+  morrowind.esm--------------------------------------------->|DATA|ONAM:faral retheran|DNAM:Redoran|NAME:Rothis Nethan failed to appear for a duel of honor with Brethas Deras, a Hlaalu noble. This has shamed House Redoran. Track down the craven Rothis Nethan here in the Redoran Canton and persuade him to attend the duel.|SCVR:34JX3HR_RedasTomb|INTV:d
+  The Last of the Redas Family - Kill her for the Quest.ESP->|DATA|ONAM:faral retheran|DNAM:Redoran|NAME:Rothis Nethan failed to appear for a duel of honor with Brethas Deras, a Hlaalu noble. This has shamed House Redoran. Track down the craven Rothis Nethan here in the Redoran Canton and persuade him to attend the duel.|SCVR:34JX3HR_HlaanoSlanders|INTV:d
+
+[MOD-INF]: ID=7491153122350620021(Topic:redas tomb)
+  morrowind.esm--------------------------------------------->|DATA|ONAM:faral retheran|NAME:Good. You are doing well. Speak to me again when you want more duties.|SCVR:01500|INTV|BNAM:Journal HR_RedasTomb 100  Player->RemoveItem Misc_De_Goblet_01_Redas 1  Player->RemoveItem Extravagant_Robe_01_Red 1  Player->RemoveItem "Dwarven War Axe_Redas" 1  ModPCFacRep 5 "Redoran"  ModDisposition 10
+  The Last of the Redas Family - Kill her for the Quest.ESP->|DATA|ONAM:faral retheran|NAME:Good. You have done well. I do not have more duties for you.|SCVR:01500|INTV|BNAM:Journal HR_RedasTomb 100  Player->RemoveItem Misc_De_Goblet_01_Redas 1  Player->RemoveItem Extravagant_Robe_01_Red 1  Player->RemoveItem "Dwarven War Axe_Redas" 1  ModPCFacRep 5 "Redoran"  ModDisposition 10
+
+[MOD-INF]: ID=10237313881527310050(Topic:duel)
+  morrowind.esm--------------------------------------------->|DATA|ONAM:faral retheran|NAME:I believe Rothis Nethan is hiding out at the Flowers of Gold Cornerclub in the Redoran Waistworks here in Vivec. Go talk to him, and make him realize how this has cost the honor of House Redoran.|SCVR:34JX3HR_RedasTomb|INTV:d|BNAM:Journal HR_CowardDisgrace 10
+  The Last of the Redas Family - Kill her for the Quest.ESP->|DATA|ONAM:faral retheran|NAME:I believe Rothis Nethan is hiding out at the Flowers of Gold Cornerclub in the Redoran Waistworks here in Vivec. Go talk to him, and make him realize how this has cost the honor of House Redoran.|SCVR:34JX3HR_HlaanoSlanders|INTV:d|BNAM:Journal HR_CowardDisgrace 10
+
+[MOD-INF]: ID=12094318091800613784(Topic:redas tomb)
+  morrowind.esm--------------------------------------------->|DATA|ONAM:faral retheran|NAME:Go to the Redas Ancestral Tomb and  bring me the Redas War Axe, the Redas Chalice, and the Redas Robe of Deeds. The tomb is just south of Molag Mar, but you'll have to go around the mountains. I'd suggest following the mountains west and then following them back east. The tomb is in the side of the mountain, near an ashlander camp.|SCVR:34JX3HR_HlaanoSlanders|INTV:d|BNAM:Journal HR_RedasTomb 10
+  The Last of the Redas Family - Kill her for the Quest.ESP->|DATA|ONAM:faral retheran|NAME:Go to the Redas Ancestral Tomb and  bring me the Redas War Axe, the Redas Chalice, and the Redas Robe of Deeds. The tomb is just south of Molag Mar, but you'll have to go around the mountains. I'd suggest following the mountains west and then following them back east. The tomb is in the side of the mountain, near an ashlander camp.|SCVR:06DX0nidryne redas|INTV|SCVR:34JX3HR_AttackRethan|INTV:d|BNAM:Journal HR_RedasTomb 10

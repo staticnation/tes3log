@@ -1,0 +1,14 @@
+AltAcq - Spell Breaker.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (76) != Actual count (4)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    sjoring hard-heart
+	morrowind.esm       NPC_    persius mercius
+
+[MOD-INF]: ID=239495628700830035(Topic:sjoring hard-heart)
+  morrowind.esm-------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring is already dead? I'm glad to hear it, %PCName. You've saved the Fighters Guild from the corruption of the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX0FG_KillHardHeart|INTV:|SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25
+  AltAcq - Spell Breaker.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring is already dead? I'm glad to hear it, %PCName. You've saved the Fighters Guild from the corruption of the Camonna Tong. As I promised, I am naming you the new Guildmaster. I am also entrusting you with the Spell Breaker. It is a powerful artifact I've been keeping safe, waiting for someone as worthy as you. Congratulations, Master %PCName.|SCVR:34JX0FG_KillHardHeart|INTV:|SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  player-> additem "spell_breaker_unique" 1  PCRaiseRank  PCRaiseRank  ModDisposition 25
+
+[MOD-INF]: ID=2601311142807014922(Topic:sjoring hard-heart)
+  morrowind.esm-------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX3FG_KillHardHeart|INTV: |SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25
+  AltAcq - Spell Breaker.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster. I am also entrusting you with the Spell Breaker. It is a powerful artifact I've been keeping safe, waiting for someone as worthy as you. Congratulations, Master %PCName.|SCVR:34JX3FG_KillHardHeart|INTV: |SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  Player->additem spell_breaker_unique 1  PCRaiseRank  PCRaiseRank  ModDisposition 25

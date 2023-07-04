@@ -1,0 +1,25 @@
+tw_Sifkining.esp: DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	tw_cloud_storage.esm          742671 (plugin)     742844 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ss_DummyScript)
+	SCPT(tw_toilet_script)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    chimney_smoke_small
+	morrowind.esm       STAT    flora_emp_parasol_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LAND    (-1, -7)
+	morrowind.esm       LAND    (-1, -8)
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga

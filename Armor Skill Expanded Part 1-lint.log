@@ -1,0 +1,518 @@
+Armor Skill Expanded Part 1.ESP: DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Soul_ArmorerTest0_Script)
+	SCPT(Soul_ArmorerTest100_Script)
+	SCPT(Soul_ArmorerTest25_Script)
+	SCPT(Soul_ArmorerTest50_Script)
+	SCPT(Soul_ArmorerTest75_Script)
+	SCPT(Soul_Bonemold_Create)
+	SCPT(Soul_DaeJournal)
+	SCPT(Soul_ForgeScript_Iron)
+	SCPT(Soul_Forge_AdaBoots_Script)
+	SCPT(Soul_Forge_AdaBracerL_Script)
+	SCPT(Soul_Forge_AdaBracerR_Script)
+	SCPT(Soul_Forge_AdaCuirass_Script)
+	SCPT(Soul_Forge_AdaGreaves_Script)
+	SCPT(Soul_Forge_AdaHelm_Script)
+	SCPT(Soul_Forge_AdaPaulL_Script)
+	SCPT(Soul_Forge_AdaPaulR_Script)
+	SCPT(Soul_Forge_BearBoots_Script)
+	SCPT(Soul_Forge_BearCuirass_Script)
+	SCPT(Soul_Forge_BearGLeft_Script)
+	SCPT(Soul_Forge_BearGRight_Script)
+	SCPT(Soul_Forge_BearGreaves_Script)
+	SCPT(Soul_Forge_BearHelmet_Script)
+	SCPT(Soul_Forge_BearPLeft_Script)
+	SCPT(Soul_Forge_BearPRight_Script)
+	SCPT(Soul_Forge_BearShield_Script)
+	SCPT(Soul_Forge_BoneBoots_Script)
+	SCPT(Soul_Forge_BoneBracerL_Script)
+	SCPT(Soul_Forge_BoneBracerR_Script)
+	SCPT(Soul_Forge_BoneCaphlopod_Script)
+	SCPT(Soul_Forge_BoneCuirassGJ_Script)
+	SCPT(Soul_Forge_BoneCuirass_Script)
+	SCPT(Soul_Forge_BoneCuirassaa_Script)
+	SCPT(Soul_Forge_BoneDustAdeptScript)
+	SCPT(Soul_Forge_BoneGreaves_Script)
+	SCPT(Soul_Forge_BoneHelmAA_Script)
+	SCPT(Soul_Forge_BoneHelmC_Script)
+	SCPT(Soul_Forge_BoneHelmF_Script)
+	SCPT(Soul_Forge_BoneHelmGJ_Script)
+	SCPT(Soul_Forge_BoneHelmM_Script)
+	SCPT(Soul_Forge_BoneHelm_Script)
+	SCPT(Soul_Forge_BoneMoleCrab_Script)
+	SCPT(Soul_Forge_BonePaulL_Script)
+	SCPT(Soul_Forge_BonePaulLaa_Script)
+	SCPT(Soul_Forge_BonePaulLgj_Script)
+	SCPT(Soul_Forge_BonePaulR_Script)
+	SCPT(Soul_Forge_BonePaulRaa_Script)
+	SCPT(Soul_Forge_BonePaulRgj_Script)
+	SCPT(Soul_Forge_BoneShield_Script)
+	SCPT(Soul_Forge_BoneTShieldH_Script)
+	SCPT(Soul_Forge_BoneTShieldR_Script)
+	SCPT(Soul_Forge_BoneTShieldT_Script)
+	SCPT(Soul_Forge_BoneTShield_Script)
+	SCPT(Soul_Forge_BoneWatchman_Script)
+	SCPT(Soul_Forge_ChitinBoots_Script)
+	SCPT(Soul_Forge_ChitinCuirass_Script)
+	SCPT(Soul_Forge_ChitinGLeft_Script)
+	SCPT(Soul_Forge_ChitinGRight_Script)
+	SCPT(Soul_Forge_ChitinGreaves_Script)
+	SCPT(Soul_Forge_ChitinHelm_Script)
+	SCPT(Soul_Forge_ChitinPLeft_Script)
+	SCPT(Soul_Forge_ChitinPRight_Script)
+	SCPT(Soul_Forge_ChitinShield_Script)
+	SCPT(Soul_Forge_ChitinTshield_Script)
+	SCPT(Soul_Forge_DBBoots_Script)
+	SCPT(Soul_Forge_DBCuirass_Script)
+	SCPT(Soul_Forge_DBGLeft_Script)
+	SCPT(Soul_Forge_DBGRight_Script)
+	SCPT(Soul_Forge_DBGreaves_Script)
+	SCPT(Soul_Forge_DBHelm_Script)
+	SCPT(Soul_Forge_DBPLeft_Script)
+	SCPT(Soul_Forge_DBPRight_Script)
+	SCPT(Soul_Forge_DaeBoots_Script)
+	SCPT(Soul_Forge_DaeCuirass_Script)
+	SCPT(Soul_Forge_DaeGLeft_Script)
+	SCPT(Soul_Forge_DaeGRight_Script)
+	SCPT(Soul_Forge_DaeGreaves_Script)
+	SCPT(Soul_Forge_DaeHGod_Script)
+	SCPT(Soul_Forge_DaeHInspi_Script)
+	SCPT(Soul_Forge_DaeHTerror_Script)
+	SCPT(Soul_Forge_DaePLeft_Script)
+	SCPT(Soul_Forge_DaePRight_Script)
+	SCPT(Soul_Forge_DaeShield_Script)
+	SCPT(Soul_Forge_DaeTShield_Script)
+	SCPT(Soul_Forge_DragonCuirass_Script)
+	SCPT(Soul_Forge_DragonHelm_Script)
+	SCPT(Soul_Forge_DragonShield_Script)
+	SCPT(Soul_Forge_DreughCuirass_Script)
+	SCPT(Soul_Forge_DreughHelm_Script)
+	SCPT(Soul_Forge_DreughShield_Script)
+	SCPT(Soul_Forge_DwemerBLeft_Script)
+	SCPT(Soul_Forge_DwemerBRight_Script)
+	SCPT(Soul_Forge_DwemerBoots_Script)
+	SCPT(Soul_Forge_DwemerCuirass_Script)
+	SCPT(Soul_Forge_DwemerGreaves_Script)
+	SCPT(Soul_Forge_DwemerHelm_Script)
+	SCPT(Soul_Forge_DwemerPLeft_Script)
+	SCPT(Soul_Forge_DwemerPRight_Script)
+	SCPT(Soul_Forge_DwemerShield_Script)
+	SCPT(Soul_Forge_EboBLeft_Script)
+	SCPT(Soul_Forge_EboBRight_Script)
+	SCPT(Soul_Forge_EboBoots_Script)
+	SCPT(Soul_Forge_EboCuirass_Script)
+	SCPT(Soul_Forge_EboGreaves_Script)
+	SCPT(Soul_Forge_EboHelm_Script)
+	SCPT(Soul_Forge_EboPLeft_Script)
+	SCPT(Soul_Forge_EboPRight_Script)
+	SCPT(Soul_Forge_EboShield_Script)
+	SCPT(Soul_Forge_EboTShield_Script)
+	SCPT(Soul_Forge_FurBCuirass_Script)
+	SCPT(Soul_Forge_FurBLeft_Script)
+	SCPT(Soul_Forge_FurBRight_Script)
+	SCPT(Soul_Forge_FurBoots_Script)
+	SCPT(Soul_Forge_FurCHelm_Script)
+	SCPT(Soul_Forge_FurCRHelm_Script)
+	SCPT(Soul_Forge_FurCWHelm_Script)
+	SCPT(Soul_Forge_FurCuirass_Script)
+	SCPT(Soul_Forge_FurGLeft_Script)
+	SCPT(Soul_Forge_FurGRight_Script)
+	SCPT(Soul_Forge_FurGreaves_Script)
+	SCPT(Soul_Forge_FurHelm_Script)
+	SCPT(Soul_Forge_FurPLeft_Script)
+	SCPT(Soul_Forge_FurPRight_Script)
+	SCPT(Soul_Forge_GBuckler_Script)
+	SCPT(Soul_Forge_GlasBLeft_Script)
+	SCPT(Soul_Forge_GlasBRight_Script)
+	SCPT(Soul_Forge_GlasBoots_Script)
+	SCPT(Soul_Forge_GlasCuirass_Script)
+	SCPT(Soul_Forge_GlasGreaves_Script)
+	SCPT(Soul_Forge_GlasHelm_Script)
+	SCPT(Soul_Forge_GlasPLeft_Script)
+	SCPT(Soul_Forge_GlasPRight_Script)
+	SCPT(Soul_Forge_GlasShield_Script)
+	SCPT(Soul_Forge_GlasTShield_Script)
+	SCPT(Soul_Forge_HGBoots_Script)
+	SCPT(Soul_Forge_HGCuirass_Script)
+	SCPT(Soul_Forge_HGGLeft_Script)
+	SCPT(Soul_Forge_HGGRight_Script)
+	SCPT(Soul_Forge_HGGreaves_Script)
+	SCPT(Soul_Forge_HGHelm_Script)
+	SCPT(Soul_Forge_HGPLeft_Script)
+	SCPT(Soul_Forge_HGPRight_Script)
+	SCPT(Soul_Forge_IceBoots_Script)
+	SCPT(Soul_Forge_IceCuirass_Script)
+	SCPT(Soul_Forge_IceGLeft_Script)
+	SCPT(Soul_Forge_IceGRight_Script)
+	SCPT(Soul_Forge_IceGreaves_Script)
+	SCPT(Soul_Forge_IceHelm_Script)
+	SCPT(Soul_Forge_IcePLeft_Script)
+	SCPT(Soul_Forge_IcePRight_Script)
+	SCPT(Soul_Forge_IceShield_Script)
+	SCPT(Soul_Forge_ImpCCuirass_Script)
+	SCPT(Soul_Forge_ImpCGreaves_Script)
+	SCPT(Soul_Forge_ImpCHelm_Script)
+	SCPT(Soul_Forge_ImpCPLeft_Script)
+	SCPT(Soul_Forge_ImpCPRight_Script)
+	SCPT(Soul_Forge_ImpLeather_Script)
+	SCPT(Soul_Forge_ImpNewt_Script)
+	SCPT(Soul_Forge_ImpSBoots_Script)
+	SCPT(Soul_Forge_ImpSCuirass_Script)
+	SCPT(Soul_Forge_ImpSGLeft_Script)
+	SCPT(Soul_Forge_ImpSGRight_Script)
+	SCPT(Soul_Forge_ImpSGreaves_Script)
+	SCPT(Soul_Forge_ImpSHelm_Script)
+	SCPT(Soul_Forge_ImpSPLeft_Script)
+	SCPT(Soul_Forge_ImpSPRight_Script)
+	SCPT(Soul_Forge_ImpSShield_Script)
+	SCPT(Soul_Forge_IndHBoots_Script)
+	SCPT(Soul_Forge_IndHCuirass_Script)
+	SCPT(Soul_Forge_IndHGLeft_Script)
+	SCPT(Soul_Forge_IndHGRight_Script)
+	SCPT(Soul_Forge_IndHGreaves_Script)
+	SCPT(Soul_Forge_IndHHelmet_Script)
+	SCPT(Soul_Forge_IndHPLeft_Script)
+	SCPT(Soul_Forge_IndHPRight_Script)
+	SCPT(Soul_Forge_IndHShield_Script)
+	SCPT(Soul_Forge_IndoBoots_Script)
+	SCPT(Soul_Forge_IndoCuirass_Script)
+	SCPT(Soul_Forge_IndoGLeft_Script)
+	SCPT(Soul_Forge_IndoGRight_Script)
+	SCPT(Soul_Forge_IndoHelmet_Script)
+	SCPT(Soul_Forge_IndoPLeft_Script)
+	SCPT(Soul_Forge_IndoPRight_Script)
+	SCPT(Soul_Forge_IndoShield_Script)
+	SCPT(Soul_Forge_IronBLeft_Script)
+	SCPT(Soul_Forge_IronBRight_Script)
+	SCPT(Soul_Forge_IronBoots_Script)
+	SCPT(Soul_Forge_IronCuirass_Script)
+	SCPT(Soul_Forge_IronGLeft_Script)
+	SCPT(Soul_Forge_IronGRight_Script)
+	SCPT(Soul_Forge_IronGreaves_Script)
+	SCPT(Soul_Forge_IronHelmet_Script)
+	SCPT(Soul_Forge_IronPLeft_Script)
+	SCPT(Soul_Forge_IronPRight_Script)
+	SCPT(Soul_Forge_IronShield_Script)
+	SCPT(Soul_Forge_IronTshield_Script)
+	SCPT(Soul_Forge_MTHelm_Script)
+	SCPT(Soul_Forge_NetchBCuirass_Script)
+	SCPT(Soul_Forge_NetchBHelm_Script)
+	SCPT(Soul_Forge_NetchBoots_Script)
+	SCPT(Soul_Forge_NetchCLBracer_Script)
+	SCPT(Soul_Forge_NetchCRBracer_Script)
+	SCPT(Soul_Forge_NetchCuirass_Script)
+	SCPT(Soul_Forge_NetchGauntL_Script)
+	SCPT(Soul_Forge_NetchGauntR_Script)
+	SCPT(Soul_Forge_NetchGondola_Script)
+	SCPT(Soul_Forge_NetchGreaves_Script)
+	SCPT(Soul_Forge_NetchLLBracer_Script)
+	SCPT(Soul_Forge_NetchLRBracer_Script)
+	SCPT(Soul_Forge_NetchPaulL_Script)
+	SCPT(Soul_Forge_NetchPaulR_Script)
+	SCPT(Soul_Forge_NetchTShield_Script)
+	SCPT(Soul_Forge_Netchhelm_Script)
+	SCPT(Soul_Forge_Netchshield_Script)
+	SCPT(Soul_Forge_NordCuirass_Script)
+	SCPT(Soul_Forge_NordHBoots_Script)
+	SCPT(Soul_Forge_NordHelm_Script)
+	SCPT(Soul_Forge_NordMBoots_Script)
+	SCPT(Soul_Forge_NordMCuirass_Script)
+	SCPT(Soul_Forge_NordMGLeft_Script)
+	SCPT(Soul_Forge_NordMGRight_Script)
+	SCPT(Soul_Forge_NordMGreaves_Script)
+	SCPT(Soul_Forge_NordMHelmet_Script)
+	SCPT(Soul_Forge_NordMPLeft_Script)
+	SCPT(Soul_Forge_NordMPRight_Script)
+	SCPT(Soul_Forge_NordMShield_Script)
+	SCPT(Soul_Forge_NordRing_Script)
+	SCPT(Soul_Forge_NordShield_Script)
+	SCPT(Soul_Forge_OrcBLeft_Script)
+	SCPT(Soul_Forge_OrcBRight_Script)
+	SCPT(Soul_Forge_OrcBoots_Script)
+	SCPT(Soul_Forge_OrcCuirass_Script)
+	SCPT(Soul_Forge_OrcGreaves_Script)
+	SCPT(Soul_Forge_OrcHelm_Script)
+	SCPT(Soul_Forge_OrcPLeft_Script)
+	SCPT(Soul_Forge_OrcPRight_Script)
+	SCPT(Soul_Forge_OrcTShield_Script)
+	SCPT(Soul_Forge_RShield_Script)
+	SCPT(Soul_Forge_SilCuirass_Script)
+	SCPT(Soul_Forge_SilDCuirass_Script)
+	SCPT(Soul_Forge_SilHelm_Script)
+	SCPT(Soul_Forge_SteelBoots_Script)
+	SCPT(Soul_Forge_SteelCuirass_Script)
+	SCPT(Soul_Forge_SteelGLeft_Script)
+	SCPT(Soul_Forge_SteelGRight_Script)
+	SCPT(Soul_Forge_SteelGreaves_Script)
+	SCPT(Soul_Forge_SteelHelmet_Script)
+	SCPT(Soul_Forge_SteelPLeft_Script)
+	SCPT(Soul_Forge_SteelPRight_Script)
+	SCPT(Soul_Forge_SteelShield_Script)
+	SCPT(Soul_Forge_SteelTshield_Script)
+	SCPT(Soul_Forge_TempBLeft_Script)
+	SCPT(Soul_Forge_TempBRight_Script)
+	SCPT(Soul_Forge_TempBoots_Script)
+	SCPT(Soul_Forge_TempCuirass_Script)
+	SCPT(Soul_Forge_TempGreaves_Script)
+	SCPT(Soul_Forge_TempHelmet_Script)
+	SCPT(Soul_Forge_TempPLeft_Script)
+	SCPT(Soul_Forge_TempPRight_Script)
+	SCPT(Soul_Forge_TrollCuirass_Script)
+	SCPT(Soul_Forge_TrollHelm_Script)
+	SCPT(Soul_Forge_TrollShield_Script)
+	SCPT(Soul_Forge_WolfBoots_Script)
+	SCPT(Soul_Forge_WolfCuirass_Script)
+	SCPT(Soul_Forge_WolfGLeft_Script)
+	SCPT(Soul_Forge_WolfGRight_Script)
+	SCPT(Soul_Forge_WolfGreaves_Script)
+	SCPT(Soul_Forge_WolfHelmet_Script)
+	SCPT(Soul_Forge_WolfPLeft_Script)
+	SCPT(Soul_Forge_WolfPRight_Script)
+	SCPT(Soul_Forge_WolfShield_Script)
+	SCPT(Soul_RawAdamantium_Enable)
+	SCPT(Soul_RawAdamantium_Node)
+	SCPT(Soul_RawEbony_Enable)
+	SCPT(Soul_RawEbony_Node)
+	SCPT(Soul_RawGlass_Enable)
+	SCPT(Soul_RawGlass_Node)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (3, -15)           0x02
+	Ashlands Region (-1, 7)                  0x02
+	Ashlands Region (0, 2)                   0x02
+	Ashlands Region (1, 12)                  0x02
+	Felsaad Coast Region (-21, 24)           0x02
+	West Gash Region (-1, -2)                0x02
+	West Gash Region (-1, 2)                 0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    chrysamere
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       ARMO    bm_ice minion_shield1
+	bloodmoon.esm       ARMO    fur_colovian_helm_red
+	bloodmoon.esm       CONT    barrel_01_arrows
+	bloodmoon.esm       CONT    com_chest_02_v_armor04
+	bloodmoon.esm       CONT    crate_01_vivec_fg
+	bloodmoon.esm       STAT    furn_crate_lid_01
+	bloodmoon.esm       STAT    furn_s_forge
+	bloodmoon.esm       STAT    in_dae_mezzanine_edge
+	bloodmoon.esm       STAT    in_dae_platform_512_01
+	bloodmoon.esm       STAT    in_dae_room_l_floor_01
+	morrowind.esm       ACTI    sound_daedric_chant00
+	morrowind.esm       ARMO    bonemold_armun-an_pauldron_l
+	morrowind.esm       ARMO    bonemold_armun-an_pauldron_r
+	morrowind.esm       ARMO    gondolier_helm
+	morrowind.esm       ARMO    indoril boots
+	morrowind.esm       ARMO    indoril cuirass
+	morrowind.esm       ARMO    indoril left gauntlet
+	morrowind.esm       ARMO    indoril pauldron left
+	morrowind.esm       ARMO    indoril pauldron right
+	morrowind.esm       ARMO    indoril right gauntlet
+	morrowind.esm       ARMO    indoril shield
+	morrowind.esm       ARMO    right leather bracer
+	morrowind.esm       CONT    barrel_02_cheapfood5
+	morrowind.esm       CONT    crate_01_levelweapons
+	morrowind.esm       CONT    dwrv_barrel00_empty
+	morrowind.esm       DOOR    in_ar_door_01
+	morrowind.esm       LIGH    light_fire_small
+	morrowind.esm       STAT    ex_ashl_tent_04
+	morrowind.esm       STAT    ex_common_awning_wood_01
+	morrowind.esm       STAT    ex_de_shack_plank_02
+	morrowind.esm       STAT    ex_de_shack_plank_04
+	morrowind.esm       STAT    ex_drystonewall_c_01
+	morrowind.esm       STAT    ex_hlaalu_canal_01
+	morrowind.esm       STAT    ex_hlaalu_canal_12
+	morrowind.esm       STAT    ex_hlaalu_wall_end_01
+	morrowind.esm       STAT    ex_imp_foundation_01
+	morrowind.esm       STAT    ex_imp_mooring_01
+	morrowind.esm       STAT    ex_imp_plat_01
+	morrowind.esm       STAT    ex_imp_wall_01
+	morrowind.esm       STAT    ex_t_platform_01
+	morrowind.esm       STAT    ex_velothi_triwin_01
+	morrowind.esm       STAT    furn_ashl_bugbowl_02
+	morrowind.esm       STAT    furn_de_ex_table_02
+	morrowind.esm       STAT    furn_de_r_bench_01
+	morrowind.esm       STAT    furn_de_rope2_01
+	morrowind.esm       STAT    furn_ex_ashl_guarskin
+	morrowind.esm       STAT    in_cavern_beam00
+	morrowind.esm       STAT    in_dae_rubble_01a
+	morrowind.esm       STAT    in_dae_rubble_01b
+	morrowind.esm       STAT    in_dae_rubble_01c
+	morrowind.esm       STAT    in_lavacave_04
+	morrowind.esm       STAT    in_lavacave_27
+	morrowind.esm       WEAP    iron dagger
+	tribunal.esm        ACTI    inviso_wall
+	tribunal.esm        ARMO    indoril helmet
+	tribunal.esm        DOOR    door_cavern_doors10
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    in_dae_door_01
+	tribunal.esm        DOOR    in_hlaalu_door
+	tribunal.esm        DOOR    in_mh_door_02
+	tribunal.esm        LTEX    rock_coastal
+	tribunal.esm        STAT    furn_com_torch_ring_01
+	tribunal.esm        STAT    in_mh_int_column_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    been infected
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    wg_road
+	bloodmoon.esm       NPC_    brynjolfr
+	bloodmoon.esm       NPC_    graring
+	bloodmoon.esm       NPC_    sabrina vitellia
+	bloodmoon.esm       NPC_    snedbrir the smith
+	bloodmoon.esm       NPC_    zeno faustus
+	morrowind.esm       ARMO    iron_gauntlet_left
+	morrowind.esm       ARMO    iron_gauntlet_right
+	morrowind.esm       CONT    crate_01_anruin
+	morrowind.esm       CONT    crate_01_arrille
+	morrowind.esm       CREA    scamp_creeper
+	morrowind.esm       DIAL    join house hlaalu
+	morrowind.esm       DIAL    join house redoran
+	morrowind.esm       DIAL    join house telvanni
+	morrowind.esm       DIAL    join the imperial legion
+	morrowind.esm       DIAL    join the morag tong
+	morrowind.esm       LAND    (-2, -10)
+	morrowind.esm       LAND    (-2, -9)
+	morrowind.esm       LAND    (-3, -2)
+	morrowind.esm       LAND    (1, -13)
+	morrowind.esm       LAND    (2, -14)
+	morrowind.esm       LAND    (2, -15)
+	morrowind.esm       LAND    (3, -14)
+	morrowind.esm       LAND    (3, -15)
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       NPC_    ababael timsar-dadisun
+	morrowind.esm       NPC_    addut-lamanu
+	morrowind.esm       NPC_    anruin
+	morrowind.esm       NPC_    arrille
+	morrowind.esm       NPC_    ashuma-nud matluberib
+	morrowind.esm       NPC_    ashur-dan
+	morrowind.esm       NPC_    dandera selaro
+	morrowind.esm       NPC_    dronos llervu
+	morrowind.esm       NPC_    erla
+	morrowind.esm       NPC_    ghoragdush gro-kashug
+	morrowind.esm       NPC_    heifnir
+	morrowind.esm       NPC_    hodlismod
+	morrowind.esm       NPC_    hrundi
+	morrowind.esm       NPC_    kurapli
+	morrowind.esm       NPC_    lanabi
+	morrowind.esm       NPC_    massarapal
+	morrowind.esm       NPC_    meldor
+	morrowind.esm       NPC_    optio bologra
+	morrowind.esm       NPC_    orero omothan
+	morrowind.esm       NPC_    shadbak gra-burbug
+	morrowind.esm       NPC_    thongar
+	morrowind.esm       NPC_    trasteve
+	morrowind.esm       NPC_    tussi
+	morrowind.esm       NPC_    yambagorn gor-shulor
+	morrowind.esm       PGRD    sadrith mora
+	tribunal.esm        ARMO    adamantium_helm
+	tribunal.esm        ARMO    adamantium_pauldron_left
+	tribunal.esm        ARMO    addamantium_helm
+	tribunal.esm        ARMO    helsethguard_boots
+	tribunal.esm        ARMO    helsethguard_greaves
+	tribunal.esm        ARMO    indoril_mh_guard_helmet
+	tribunal.esm        ARMO    indoril_mh_guard_shield
+	tribunal.esm        CONT    com_chest_02_v_indalen
+	tribunal.esm        CREA    durzog_diseased
+	tribunal.esm        CREA    durzog_war
+	tribunal.esm        CREA    durzog_war_trained
+	tribunal.esm        CREA    durzog_wild
+	tribunal.esm        CREA    durzog_wild_weaker
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    learn more about the attacks
+	tribunal.esm        DIAL    lord's mail
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        NPC_    bols indalen
+	tribunal.esm        NPC_    sirollus saccus
+	tribunal.esm        NPC_    yagak gro-gluk
+
+[DUP-INF]: ID=13417788477069558(Topic:advancement)
+  |DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and these pauldrons and boots.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "templar boots" 1  Player->additem "templar_pauldron_left" 1  Player->additem "templar_pauldron_right" 1
+
+[MOD-INF]: ID=18847342643332070(Topic:join the imperial legion)
+  morrowind.esm------------------->|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1  player->additem Soul_Schematic_ImpChain 1
+
+[MOD-INF]: ID=21502277353115102(Topic:learn more about the attacks)
+  tribunal.esm-------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:The attacks were Almalexia's doing? She murders Sotha Sil, and then tries to kill you as well. Astounding! With Vivec dead as well, this is truly the end of the Tribunal. I believe your tale, %PCName, but do not expect my people to be so accepting of it. You will find it is not so easy to kill these gods in the hearts and minds of their followers. It will take time, but this will be a new era for Morrowind, and I will lead them into it. You have done well, my friend. You have my gratitude.|SCVR:04JX3TR_SothaSil|INTV:n|SCVR:16DX2vivec_god|INTV:|BNAM:Journal TR_Champion 110  Player->AddItem "Helsethguard_boots" 1  Player->AddItem "Helsethguard_cuirass" 1  Player->AddItem "Helsethguard_gauntlet_left" 1  Player->AddItem "Helsethguard_gauntlet_right" 1  Player->AddItem "Helsethguard_greaves" 1  Player->AddItem "Helsethguard_Helmet" 1  Player->AddItem "Helsethguard_pauldron_left" 1  Player->AddItem "Helsethguard_pauldron_right" 1
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:King Hlaalu Helseth|NAME:The attacks were Almalexia's doing? She murders Sotha Sil, and then tries to kill you as well. Astounding! With Vivec dead as well, this is truly the end of the Tribunal. I believe your tale, %PCName, but do not expect my people to be so accepting of it. You will find it is not so easy to kill these gods in the hearts and minds of their followers. It will take time, but this will be a new era for Morrowind, and I will lead them into it. You have done well, my friend. You have my gratitude.|SCVR:04JX3TR_SothaSil|INTV:n|SCVR:16DX2vivec_god|INTV:|BNAM:Journal TR_Champion 110  Player->AddItem "Helsethguard_boots" 1  Player->AddItem "Helsethguard_cuirass" 1  Player->AddItem "Helsethguard_gauntlet_left" 1  Player->AddItem "Helsethguard_gauntlet_right" 1  Player->AddItem "Helsethguard_greaves" 1  Player->AddItem "Helsethguard_Helmet" 1  Player->AddItem "Helsethguard_pauldron_left" 1  Player->AddItem "Helsethguard_pauldron_right" 1  Player->AddItem "Soul_Sc
+
+[MOD-INF]: ID=66412384717816339(Topic:join house telvanni)
+  morrowind.esm------------------->|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:You are now a member of House Telvanni. Welcome, %PCRank %PCName. When you are ready, speak with me about your chores and your advancement in House Telvanni.|SCVR:01500|INTV|BNAM:PCJoinFaction "Telvanni"
+  Armor Skill Expanded Part 1.ESP->|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:You are now a member of House Telvanni. Welcome, %PCRank %PCName. When you are ready, speak with me about your chores and your advancement in House Telvanni.|SCVR:01500|INTV|BNAM:PCJoinFaction "Telvanni"  player->additem Soul_Schematic_Bonemold 1
+
+[MOD-INF]: ID=254703156420208724(Topic:learn more about the attacks)
+  tribunal.esm-------------------->|DATA|ONAM:King Hlaalu Helseth|NAME:The attacks were Almalexia's doing? And now you say that both she and Sotha Sil lie dead in the Clockwork City? She murders Sotha Sil, and then tries to kill you as well. Astounding! I believe your tale, %PCName, but do not expect my people to be so accepting of it. You will find it is not so easy to kill these gods in the hearts and minds of their followers. It will take time, but this will be a new era for Morrowind, and I will lead them into it. You have done well, my friend. You have my gratitude.|SCVR:04JX3TR_SothaSil|INTV:n|BNAM:Journal TR_Champion 110  Player->AddItem "Helsethguard_boots" 1  Player->AddItem "Helsethguard_cuirass" 1  Player->AddItem "Helsethguard_gauntlet_left" 1  Player->AddItem "Helsethguard_gauntlet_right" 1  Player->AddItem "Helsethguard_greaves" 1  Player->AddItem "Helsethguard_Helmet" 1  Player->AddItem "Helsethguard_pauldron_left" 1  Player->AddItem "Helsethguard_pauldron_right" 1
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:King Hlaalu Helseth|NAME:The attacks were Almalexia's doing? And now you say that both she and Sotha Sil lie dead in the Clockwork City? She murders Sotha Sil, and then tries to kill you as well. Astounding! I believe your tale, %PCName, but do not expect my people to be so accepting of it. You will find it is not so easy to kill these gods in the hearts and minds of their followers. It will take time, but this will be a new era for Morrowind, and I will lead them into it. You have done well, my friend. You have my gratitude.|SCVR:04JX3TR_SothaSil|INTV:n|BNAM:Journal TR_Champion 110  Player->AddItem "Helsethguard_boots" 1  Player->AddItem "Helsethguard_cuirass" 1  Player->AddItem "Helsethguard_gauntlet_left" 1  Player->AddItem "Helsethguard_gauntlet_right" 1  Player->AddItem "Helsethguard_greaves" 1  Player->AddItem "Helsethguard_Helmet" 1  Player->AddItem "Helsethguard_pauldron_left" 1  Player->AddItem "Helsethguard_pauldron_right" 1  Player->AddItem "Soul_Schematic_Helset
+
+[MOD-INF]: ID=1709420591376330367(Topic:join the morag tong)
+  morrowind.esm------------------->|DATA|ONAM:eno hlaalu|NAME:Feruren Oran is dead? Then welcome %PCName, to the Morag Tong. Any Master of the Morag Tong can tell you what writs are available and weather you are a candidate for advancement. When you have proven yourself, I will have special duties for you.|SCVR:16DX3feruren oran|INTV|SCVR:34JX3MT_WritOran|INTV: |BNAM:Journal MT_WritOran 100  StartScript TopicsWebspinner
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:eno hlaalu|NAME:Feruren Oran is dead? Then welcome %PCName, to the Morag Tong. Any Master of the Morag Tong can tell you what writs are available and weather you are a candidate for advancement. When you have proven yourself, I will have special duties for you.|SCVR:16DX3feruren oran|INTV|SCVR:34JX3MT_WritOran|INTV: |BNAM:Journal MT_WritOran 100  StartScript TopicsWebspinner  player->additem Soul_Schematic_MT 1
+
+[MOD-INF]: ID=1733911399141146687(Topic:join house hlaalu)
+  morrowind.esm------------------->|DATA|ONAM:nileno dorvayn|NAME:Very well. You are now a member of House Hlaalu. When you are ready, we can discuss business and advancement in House Hlaalu.|SCVR:01500|INTV|BNAM:PCJoinFaction "Hlaalu"
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:nileno dorvayn|NAME:Very well. You are now a member of House Hlaalu. When you are ready, we can discuss business and advancement in House Hlaalu.|SCVR:01500|INTV|BNAM:PCJoinFaction "Hlaalu"  player->additem Soul_Schematic_Bonemold 1
+
+[MOD-INF]: ID=2556810582441031087(Topic:advancement)
+  morrowind.esm------------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this helmet and bracers.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "templar_helmet_armor" 1  Player->additem "templar bracer left" 1  Player->additem "templar bracer right" 1
+  Armor Skill Expanded Part 1.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this helmet and bracers.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "templar_helmet_armor" 1  Player->additem "templar bracer left" 1  Player->additem "templar bracer right" 1  player->additem Soul_Schematic_ImpTemplar 1
+
+[MOD-INF]: ID=3184813218222121086(Topic:advancement)
+  morrowind.esm------------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this helm and gauntlets.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "imperial helmet armor" 1  Player->additem "imperial right gauntlet" 1  Player->additem "imperial left gauntlet" 1
+  Armor Skill Expanded Part 1.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this helm and gauntlets.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "imperial helmet armor" 1  Player->additem "imperial right gauntlet" 1  Player->additem "imperial left gauntlet" 1  player->additem Soul_Schematic_ImpSteel 1
+
+[MOD-INF]: ID=6618179852210128456(Topic:lord's mail)
+  tribunal.esm-------------------->|DATA|ONAM:Varus Vatinius|NAME:Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 50  ModPCFacRep 5 "Imperial Legion"  ;PCRaiseRank "Imperial Legion" ;should not raise rank here Todd 4/02/02  AddItem "lords_cuirass_unique" 1  Player->RemoveItem "lords_cuirass_unique" 1  Player->Additem "silver_dukesguard_cuirass" 1
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:Varus Vatinius|NAME:Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 50  ModPCFacRep 5 "Imperial Legion"  ;PCRaiseRank "Imperial Legion" ;should not raise rank here Todd 4/02/02  AddItem "lords_cuirass_unique" 1  Player->RemoveItem "lords_cuirass_unique" 1  Player->Additem "silver_dukesguard_cuirass" 1  player->additem Soul_Schematic_ImpSilver 1
+
+[MOD-INF]: ID=8936257522048721327(Topic:been infected)
+  bloodmoon.esm------------------->|DATA|ONAM:korst wind-eye|NAME:You have lifted the curse! I can see it no longer shadows your soul. You must be strong, my friend, to have done something such as this. I would not like to imagine what horrors you have seen during your days with the beast. You are once more a friend of the Skaal. In fact, the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest. Now we must speak of the Ristaag, an important Skaal ceremony.|SCVR:04JX0BM_SkaalAttack|INTV:K|SCVR:12sX0PCWerewolf|INTV|BNAM:Journal BM_SkaalAttack 105
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:korst wind-eye|NAME:You have lifted the curse! I can see it no longer shadows your soul. You must be strong, my friend, to have done something such as this. I would not like to imagine what horrors you have seen during your days with the beast. You are once more a friend of the Skaal. In fact, the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest. Now we must speak of the Ristaag, an important Skaal ceremony.|SCVR:04JX0BM_SkaalAttack|INTV:K|SCVR:12sX0PCWerewolf|INTV|BNAM:Journal BM_SkaalAttack 105  player->additem Soul_Schematic_NordicMail 1
+
+[MOD-INF]: ID=11940141231877526804(Topic:join house redoran)
+  morrowind.esm------------------->|DATA|ONAM:neminda|NAME:House Redoran honors strength and endurance. We value all the skills of war, but especially the arts of long blade, spear, blocking, marksmanship, and athletics. Redorans must know how to use and repair heavy and medium armor. Only when armed with these skills can we perform our inherited duties as the warriors and defenders of the Dunmer.
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:neminda|NAME:So be it. You are now %NextPCRank %PCName in House Redoran. I will inform our trainers. Make use of them. If you truly wish to serve House Redoran, I can give you duties to perform. You may also check with me for advancement.|SCVR:01500|INTV|BNAM:PCJoinFaction "Redoran"  player->additem Soul_Schematic_Bonemold 1
+
+[MOD-INF]: ID=12994147622369930730(Topic:been infected)
+  bloodmoon.esm------------------->|DATA|ONAM:korst wind-eye|NAME:You have lifted the curse! I can see it no longer shadows your soul. You must be strong, my friend, to have done something such as this. I would not like to imagine what horrors you have seen during your days with the beast. You are once more a friend of the Skaal. In fact, the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest.|SCVR:04JX3BM_BearHunt2|INTV:d|SCVR:12sX0PCWerewolf|INTV|BNAM:Journal BM_SkaalAttack 105
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:korst wind-eye|NAME:You have lifted the curse! I can see it no longer shadows your soul. You must be strong, my friend, to have done something such as this. I would not like to imagine what horrors you have seen during your days with the beast. You are once more a friend of the Skaal. In fact, the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest.|SCVR:04JX3BM_BearHunt2|INTV:d|SCVR:12sX0PCWerewolf|INTV|BNAM:Journal BM_SkaalAttack 105  player->additem Soul_Schematic_NordicMail 1
+
+[MOD-INF]: ID=18268146551167123180(Topic:been infected)
+  bloodmoon.esm------------------->|DATA|ONAM:korst wind-eye|NAME:Ahhhh...I no longer sense the infection in you. I am happy for you, and for the Skaal as well. You have proven to be a valuable member of this community. You have been true to our people, and the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest. Also, it has been decided that you will take part in the Ristaag, an important Skaal ceremony.|SCVR:03sX0hasdisease|INTV:|SCVR:14JX0BM_SkaalAttack|INTV:2|SCVR:22sX1PCWerewolf|INTV|BNAM:Journal BM_SkaalAttack 100
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:korst wind-eye|NAME:Ahhhh...I no longer sense the infection in you. I am happy for you, and for the Skaal as well. You have proven to be a valuable member of this community. You have been true to our people, and the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest. Also, it has been decided that you will take part in the Ristaag, an important Skaal ceremony.|SCVR:03sX0hasdisease|INTV:|SCVR:14JX0BM_SkaalAttack|INTV:2|SCVR:22sX1PCWerewolf|INTV|BNAM:Journal BM_SkaalAttack 100  player->additem Soul_Schematic_NordicMail 1
+
+[DUP-INF]: ID=18533321852598013334(Topic:chrysamere)
+  |DATA|ONAM:Varus Vatinius|NAME:Well done, %PCName. I applaud you. For what you have accomplished, I will make you a %NextPCRank.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 100  PCRaiseRank "Imperial Legion"  AddItem "claymore_chrysamere_unique" 1  Player->RemoveItem "claymore_chrysamere_unique" 1
+
+[MOD-INF]: ID=21261128852112331198(Topic:been infected)
+  bloodmoon.esm------------------->|DATA|ONAM:korst wind-eye|NAME:You have lifted the curse! I can see it no longer shadows your soul. You must be strong, my friend, to have done something such as this. I would not like to imagine what horrors you have seen during your days with the beast. You are once more a friend of the Skaal. In fact, the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest.|SCVR:04JX3BM_Ceremony2|INTV:d|SCVR:12sX0PCWerewolf|INTV|BNAM:Journal BM_SkaalAttack 105
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:korst wind-eye|NAME:You have lifted the curse! I can see it no longer shadows your soul. You must be strong, my friend, to have done something such as this. I would not like to imagine what horrors you have seen during your days with the beast. You are once more a friend of the Skaal. In fact, the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest.|SCVR:04JX3BM_Ceremony2|INTV:d|SCVR:12sX0PCWerewolf|INTV|BNAM:Journal BM_SkaalAttack 105  player->additem Soul_Schematic_NordicMail 1
+
+[MOD-INF]: ID=30462122171874017686(Topic:been infected)
+  bloodmoon.esm------------------->|DATA|ONAM:korst wind-eye|NAME:You have lifted the curse! I can see it no longer shadows your soul. You must be strong, my friend, to have done something such as this. I would not like to imagine what horrors you have seen during your days with the beast. You are once more a friend of the Skaal. In fact, the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest.|SCVR:04JX3BM_FrostGiant2|INTV:d|SCVR:12sX0PCWerewolf|INTV|BNAM:Journal BM_SkaalAttack 105
+  Armor Skill Expanded Part 1.ESP->|DATA|ONAM:korst wind-eye|NAME:You have lifted the curse! I can see it no longer shadows your soul. You must be strong, my friend, to have done something such as this. I would not like to imagine what horrors you have seen during your days with the beast. You are once more a friend of the Skaal. In fact, the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest.|SCVR:04JX3BM_FrostGiant2|INTV:d|SCVR:12sX0PCWerewolf|INTV|BNAM:Journal BM_SkaalAttack 105  player->additem Soul_Schematic_NordicMail 1

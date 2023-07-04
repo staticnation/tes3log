@@ -1,0 +1,20 @@
+CDE Inventory Control1p2.esp: EXP-DEP GETSND MENUMOD MISSVER NUMRECS
+    [NUMRECS]: number of records in TES3.HEDR (90) != Actual count (89)
+    [EXP-DEP] Expansion Dependency: Startup Script: sve_inventory
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(sve_hud_reset_npc_script)       setdelete
+	SCPT(sve_inv_reload)                 getscale
+	SCPT(sve_inventory)                  getscale
+	SCPT(sve_inventory)                  getweapondrawn
+	SCPT(sve_inventory)                  getweapontype
+	SCPT(sve_inventory)                  setscale
+	SCPT(sve_itm_dis_del)                getscale
+	SCPT(sve_itm_dis_del)                setdelete
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(sve_inventory)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(sve_hud_reset_npc_script)
+	SCPT(sve_inv_reload)
+	SCPT(sve_inv_rem_rings)
+	SCPT(sve_itm_dis_del)
+	SCPT(sve_menutest)

@@ -1,0 +1,160 @@
+ns_FixAll.esp: DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(WitchNoteScript)
+	SCPT(ns_FixQuestMV_AngryTrader)
+	SCPT(shrineGhostgate)
+	SCPT(shrineKummu)
+	SCPT(treedeadScript)
+	SCPT(treeliveScript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    com_chest_11_k01
+	morrowind.esm       CONT    crate_01_sirollus_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       APPA    apparatus_j_calcinator_01
+	bloodmoon.esm       BOOK    sc_witchnote
+	bloodmoon.esm       CREA    bm_ice_troll_sun
+	bloodmoon.esm       CREA    bm_ice_troll_tough
+	bloodmoon.esm       MISC    bm_bearheart_unique
+	morrowind.esm       APPA    apparatus_a_mortar_01
+	morrowind.esm       ARMO    blood_feast_shield
+	morrowind.esm       ARMO    newtscale_cuirass
+	morrowind.esm       BOOK    bk_provinces_of_tamriel
+	morrowind.esm       CONT    com_chest_11_alvur
+	morrowind.esm       CREA    ash_ghoul
+	morrowind.esm       CREA    ash_ghoul_fgr
+	morrowind.esm       CREA    ash_ghoul_ganel
+	morrowind.esm       CREA    ash_ghoul_mulyn
+	morrowind.esm       CREA    yagrum bagarn
+	morrowind.esm       DIAL    cunius pelelius
+	morrowind.esm       DIAL    dwemer boots
+	morrowind.esm       DIAL    false incarnate
+	morrowind.esm       DIAL    guarskin drum
+	morrowind.esm       DIAL    info refusal
+	morrowind.esm       DIAL    murderous outlaws
+	morrowind.esm       DIAL    redoran master helm
+	morrowind.esm       DIAL    scrib jelly
+	morrowind.esm       DIAL    thieves guild
+	morrowind.esm       DIAL    work
+	morrowind.esm       ENCH    five fingers of pain_en
+	morrowind.esm       GMST    sbarterdialog3
+	morrowind.esm       NPC_    crazy_batou
+	morrowind.esm       NPC_    drelasa ramothran
+	morrowind.esm       SNDG    shalk0006
+	morrowind.esm       SOUN    item weapon blunt down
+	morrowind.esm       SOUN    item weapon blunt up
+	morrowind.esm       WEAP    cruel viper bolt
+	morrowind.esm       WEAP    iron flameblade
+	morrowind.esm       WEAP    iron flamecleaver
+	morrowind.esm       WEAP    iron flamemace
+	morrowind.esm       WEAP    iron flamemauler
+	morrowind.esm       WEAP    iron flameskewer
+	morrowind.esm       WEAP    iron flameslayer
+	morrowind.esm       WEAP    iron flamesword
+	morrowind.esm       WEAP    iron shardblade
+	morrowind.esm       WEAP    iron shardcleaver
+	morrowind.esm       WEAP    iron shardmace
+	morrowind.esm       WEAP    iron shardmauler
+	morrowind.esm       WEAP    iron shardskewer
+	morrowind.esm       WEAP    iron shardslayer
+	morrowind.esm       WEAP    iron shardsword
+	morrowind.esm       WEAP    iron sparkaxe
+	morrowind.esm       WEAP    iron sparkblade
+	morrowind.esm       WEAP    iron sparkcleaver
+	morrowind.esm       WEAP    iron sparkmace
+	morrowind.esm       WEAP    iron sparkmauler
+	morrowind.esm       WEAP    iron sparkskewer
+	morrowind.esm       WEAP    iron sparkslayer
+	morrowind.esm       WEAP    iron sparksword
+	morrowind.esm       WEAP    war axe of wounds
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    tt_compassion
+	tribunal.esm        NPC_    nerile andaren
+	tribunal.esm        NPC_    sirollus saccus
+
+[MOD-INF]: ID=98417052332465(Topic:false incarnate)
+  morrowind.esm->|DATA|ONAM:elvil vidron|NAME:You... The vision... The Moon-and-Star! It was you, not I. Forgive me, Nerevar, forgive! I meant only to prepare the way.|SCVR:01500|INTV|BNAM:Journal TT_Compassion 55
+  ns_FixAll.esp->|DATA|ONAM:elvil vidron|NAME:You... The vision... The Moon-and-Star! It was you, not I. Forgive me, Nerevar, forgive! I meant only to prepare the way.|SCVR:01500|INTV|BNAM:Journal TT_FalseIncarnate 55
+
+[DUP-INF]: ID=536336575864985(Journal:tt_compassion)
+  |DATA|NAME:I cured Bulfim gra-Shugharz.
+
+[MOD-INF]: ID=194628832854511441(Topic:guarskin drum)
+  morrowind.esm->|DATA|NAME:Yes. That guarskin drum will do perfectly. I'll take it and play a little soothing rhythm, and I think that will pacify the poor corprus victims so they won't be so savage and aggressive.|SCVR:04JX3A2_3_CorprusCure|INTV: |SCVR:15IX3misc_de_drum_02|INTV|BNAM:;Uupse Fyr; Journal A2-3_CorprusCure >= 26; item = misc_de_drum_02;   player->removeitem "misc_de_drum_02" 1  additem "misc_de_drum_02" 1  Journal A2_3_CorprusSafe 100  startscript CorprusBeastSafe
+  ns_FixAll.esp->|DATA|NAME:Yes. That guarskin drum will do perfectly. I'll take it and play a little soothing rhythm, and I think that will pacify the poor corprus victims so they won't be so savage and aggressive.|SCVR:04JX3A2_3_CorprusSafe|INTV: |SCVR:15IX3misc_de_drum_02|INTV|BNAM:;Uupse Fyr; Journal A2-3_CorprusCure >= 26; item = misc_de_drum_02;   player->removeitem "misc_de_drum_02" 1  additem "misc_de_drum_02" 1  Journal A2_3_CorprusSafe 100  startscript CorprusBeastSafe
+
+[DUP-INF]: ID=195281316563177139(Topic:murderous outlaws)
+  |DATA|ONAM:Fjol|NAME:You're still here? I think you'd best be on your way. I'd hate for any of those "outlaws" to find you. Heh.|SCVR:04JX0MV_Bastard|INTV:i
+
+[MOD-INF]: ID=836014959162526210(Journal:tt_compassion)
+  tribunal.esm-->|DATA|NAME:Tuls Valen thanked me for curing Bulfim gra-Shugharz.|QSTF
+  ns_FixAll.esp->|DATA|NAME:Tuls Valen thanked me for curing Bulfim gra-Shugharz and returning the potion.|QSTF
+
+[MOD-INF]: ID=1539433321411228868(Topic:scrib jelly)
+  morrowind.esm->|DATA|ONAM:dinok|NAME:You want scrib jelly for the Imperial cult? For cure poison potions, I suppose. Here. I have a little bit left from my shift.|SCVR:04JX3IC4_scrib|INTV|SCVR:14JX4IC4_scrib|INTV:2|BNAM:player->additem ingred_scrib_jelly_01 1  journal IC4_scrib_A 2
+  ns_FixAll.esp->|DATA|ONAM:dinok|NAME:You want scrib jelly for the Imperial cult? For cure poison potions, I suppose. Here. I have a little bit left from my shift.|SCVR:04JX3IC4_scrib|INTV|SCVR:14JX4IC4_scrib|INTV:2|BNAM:player->additem ingred_scrib_jelly_01 1  journal IC4_scrib_A 1
+
+[MOD-INF]: ID=2196829066122814726(Topic:cunius pelelius)
+  morrowind.esm->|DATA|ONAM:Iulus Truptor|NAME:He's dead? How unfortunate... I mean... how sad for his family and friends. But it would also be unfortunate if we were to lose his donation....|SCVR:04JX3IC13_rich|INTV|SCVR:14JX4IC13_rich|INTV:2
+  ns_FixAll.esp->|DATA|ONAM:Iulus Truptor|NAME:He's dead? How unfortunate... I mean... how sad for his family and friends. But it would also be unfortunate if we were to lose his donation....|SCVR:04JX3IC13_rich|INTV|SCVR:14JX4IC13_rich|INTV:2|SCVR:26DX0cunius pelelius|INTV
+
+[MOD-INF]: ID=2485732163286322874(Topic:scrib jelly)
+  morrowind.esm->|DATA|ONAM:dinok|NAME:I gave you all I have.|SCVR:04JX3IC4_scrib_|AINT|BNAM:player->additem ingred_scrib_jelly_01 1  journal IC4_scrib_A 1
+  ns_FixAll.esp->|DATA|ONAM:dinok|NAME:I gave you all I have.|SCVR:04JX3IC4_scrib_|AINT
+
+[MOD-INF]: ID=2692426071308595328(Persuasion:info refusal)
+  morrowind.esm->|DATA|NAME:Concerning this, I can only speak to a friend
+  ns_FixAll.esp->|DATA|NAME:Concerning this, I can only speak to a friend.
+
+[MOD-INF]: ID=3208032034350723826(Topic:murderous outlaws)
+  morrowind.esm->|DATA|ONAM:Fjol|NAME:A wise choice, traveler. As I mentioned, these are dangerous times. You had best be on your way now.|SCVR:01500|INTV|BNAM:Journal "MV_Bastard" 105  Player->RemoveItem "Gold_001" 100  AddItem "Gold_001" 100  Goodbye
+  ns_FixAll.esp->|DATA|ONAM:Fjol|NAME:Hrpmf. Maybe YOU are the outlaw here, trying to lie to me! No matter, though. I'll have that gold one way or another.|SCVR:01500|INTV|BNAM:ModDisposition -40  SetFight 100  Startcombat Player  Goodbye
+
+[MOD-INF]: ID=6024184862763024602(Topic:thieves guild)
+  morrowind.esm->|DATA|ONAM:drelasa ramothran|DNAM:Thieves Guild|NAME:Welcome, %PCRank %PCName. I don't know who's in at the moment, but look around. And I'm not the best source for the latest gossip, either. Talk to the folks who've been out there, they know what's hot.|BNAM:;Drelasa Ramothran; samefaction
+  ns_FixAll.esp->|DATA|ONAM:drelasa ramothran|DNAM:Thieves Guild|NAME:Welcome, %PCRank %PCName. I don't know who's in at the moment, but look around. And I'm not the best source for the latest gossip, either. Talk to the folks who've been out there, they know what's hot.|SCVR:01460|INTV|BNAM:;Drelasa Ramothran; samefaction
+
+[MOD-INF]: ID=11310263561489620560(Topic:dwemer boots)
+  morrowind.esm->|DATA|ONAM:yagrum bagarn|NAME:Lord Fyr obtained these enchanted Dwemer boots from an unfortunate thief. And, given the quality of their craftsmanship, little wonder the fellow came a bad end. But I can do nothing for them. The fundamental enchantment is flawed. Might as well start over again... if such a pair of boots could still be fashioned in these benighted latter days. But I have done my best. Take them to Lord Fyr, with my sincere apologies.|SCVR:04JX3A2_3_CorprusCure|INTV|BNAM:;Yagrum Bagarn; Journal "A2_3_CorprusCure" >= 25  Player->AddItem "Dwemer_Boots of Flying" 1  Journal "A2_3_CorprusCure" 40
+  ns_FixAll.esp->|DATA|ONAM:yagrum bagarn|NAME:Lord Fyr obtained these enchanted Dwemer boots from an unfortunate thief. And, given the quality of their craftsmanship, little wonder the fellow came to a bad end. But, I can do nothing for them. The fundamental enchantment is flawed. Might as well start over again... if such a pair of boots could still be fashioned in these benighted latter days. But, I have done my best. Take them to Lord Fyr, with my sincere apologies.|SCVR:04JX3A2_3_CorprusCure|INTV|BNAM:;Yagrum Bagarn; Journal "A2_3_CorprusCure" >= 25  Player->AddItem "Dwemer_Boots of Flying" 1  Journal "A2_3_CorprusCure" 40
+
+[MOD-INF]: ID=14320322931265718888(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:If you know what's good for you, %PCRace, you'll leave me alone and be on your way.|BNAM:Journal "MV_AngryTrader" 5
+  ns_FixAll.esp->|DATA|ONAM:tinos drothan|NAME:If you know what's good for you, %PCRace, you'll leave me alone and be on your way.|BNAM:if ( GetJournalIndex "MV_AngryTrader" < 5 )      Journal "MV_AngryTrader" 5  endif
+
+[MOD-INF]: ID=20563289352119022773(Topic:guarskin drum)
+  morrowind.esm->|DATA|NAME:Yes. Look around. There's a guarskin drum somewhere. If you'll find it and bring it to me, I'll sooth the corprus victims with a little music.|SCVR:04JX3A2_3_CorprusCure|INTV: |BNAM:;Uupse Fyr;
+  ns_FixAll.esp->|DATA|NAME:Yes. Look around. There's a guarskin drum somewhere. If you'll find it and bring it to me, I'll sooth the corprus victims with a little music.|SCVR:04JX3A2_3_CorprusSafe|INTV: |BNAM:;Uupse Fyr;
+
+[MOD-INF]: ID=24392234561425027149(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:tinos drothan|NAME:Listen up, if you really care. My former "guards" just ran off and stole all my goods.|SCVR:01490|INTV:|BNAM:Journal "MV_AngryTrader" 10
+  ns_FixAll.esp->|DATA|ONAM:tinos drothan|NAME:Listen up, if you really care. My former "guards" just ran off and stole all my goods.|SCVR:01490|INTV:|SCVR:14JX4MV_AngryTrader|INTV:d|BNAM:Journal "MV_AngryTrader" 10
+
+[MOD-INF]: ID=25633151693140617565(Topic:redoran master helm)
+  morrowind.esm->|DATA|ONAM:aengoth|NAME:Good work. I hope our client appreciates this. Here. Take a little gold for your trouble.|SCVR:01500|INTV|BNAM:Journal TG_MasterHelm 100  Player->RemoveItem Redoran_Master_Helm 1  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Redoran"  ModDisposition 10
+  ns_FixAll.esp->|DATA|ONAM:aengoth|NAME:Good work. I hope our client appreciates this. Here. Take a little gold for your trouble.|SCVR:01500|INTV|BNAM:Journal TG_MasterHelm 100  Player->RemoveItem Redoran_Master_Helm 1  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Thieves Guild"  ModDisposition 10
+
+[MOD-INF]: ID=31656195732675914452(Topic:work)
+  morrowind.esm->|DATA|ONAM:bivale teneran|NAME:I see you have the brocade shirt and silk pants from Ienas Sarandas. Here are the 50 drakes for your services. And thank you very much for handling this situation so well. I really appreciate it.|SCVR:05IX3sarandas_pants_2|INTV|SCVR:15IX3sarandas_shirt_2|INTV|SCVR:24JX3Town_Aldruhn|INTV:-|SCVR:34JX3Town_Ald_Bivale|INTV|BNAM:;Bivale Teneran: Clothier [Expensive clothes]; Journal Town_Ald'ruhn >= 45; have items; transfer items; gold; player->additem gold_001 50  player->removeitem Sarandas_shirt_2 1  player->removeitem Sarandas_pants_2 1  ModDisposition 40  Journal Town_Ald_Bivale 3
+  ns_FixAll.esp->|DATA|ONAM:bivale teneran|NAME:I see you have the brocade shirt and silk pants from Ienas Sarandas. Here are the 50 drakes for your services. And thank you very much for handling this situation so well. I really appreciate it.|SCVR:05IX3sarandas_pants_2|INTV|SCVR:15IX3sarandas_shirt_2|INTV|SCVR:24JX3Town_Aldruhn|INTV:-|SCVR:34JX3Town_Ald_Bivale|INTV|BNAM:;Bivale Teneran: Clothier [Expensive clothes]; Journal Town_Ald'ruhn >= 45; have items; transfer items; gold;  player->additem gold_001 50  player->removeitem Sarandas_shirt_2 1  player->removeitem Sarandas_pants_2 1  ModDisposition 40  Journal Town_Ald_Bivale 3

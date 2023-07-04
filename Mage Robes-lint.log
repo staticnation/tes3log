@@ -1,0 +1,53 @@
+Mage Robes.ESP: DUP-INF DUP-REC GETSND MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1388892 (plugin)    1567893 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(mg_script_gorluck)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mg_script_alc)
+	SCPT(mg_script_alcmas)
+	SCPT(mg_script_alt)
+	SCPT(mg_script_altmas)
+	SCPT(mg_script_arch)
+	SCPT(mg_script_bat)
+	SCPT(mg_script_con)
+	SCPT(mg_script_conmas)
+	SCPT(mg_script_des)
+	SCPT(mg_script_desmas)
+	SCPT(mg_script_enc)
+	SCPT(mg_script_encmas)
+	SCPT(mg_script_gorluck_spike)
+	SCPT(mg_script_ill)
+	SCPT(mg_script_illmas)
+	SCPT(mg_script_lillorne)
+	SCPT(mg_script_mas)
+	SCPT(mg_script_minerhelm)
+	SCPT(mg_script_mys)
+	SCPT(mg_script_mysmas)
+	SCPT(mg_script_nov)
+	SCPT(mg_script_provisioner)
+	SCPT(mg_script_res)
+	SCPT(mg_script_resmas)
+	SCPT(mg_script_vardarai)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    mage disciplines
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=59827957620717583(Voice:hello)
+  |DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM112.mp3|NAME:Hail. May your adventures be great.
+
+[DUP-INF]: ID=131572758616806574(Voice:hello)
+  |DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM132.mp3|NAME:A hail and hardy welcome, friend.|SCVR:01460|INTV|BNAM:;SameFaction=0
+
+[DUP-INF]: ID=1305018541596011215(Voice:hello)
+  |DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM111.mp3|NAME:Greetings, friend to friend. May fortune be with you.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1345239021023518520(Voice:hello)
+  |DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM134.mp3|NAME:I am honored. Truly. How may I help you?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=3733319221431918956(Topic:my trade)
+  |DATA|CNAM:Miner|ANAM:Caldera|NAME:I'm an ebony miner. The raw ebony deposits here on Vvardenfell are the richest in the world. The matrix is a very hard stone, and separating ebony from the matrix is hard work. Hard, honest work that pays well.

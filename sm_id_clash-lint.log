@@ -1,0 +1,12 @@
+sm_id_clash.esp: DUP-INF DUP-REC FOGBUG MENUMOD MISSVER OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	SmartMerge Test Area
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(sm_id_clash_script)
+	SCPT(sm_nonclash_id_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 9
+
+[DUP-INF]: ID=25249198542886620984(Greeting:greeting 9)
+  |DATA|NAME:I STILL don't like you. And I STILL don't want to talk to you.|BNAM:;last greeting 9, below this unreachable code

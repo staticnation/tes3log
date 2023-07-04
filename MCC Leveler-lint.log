@@ -1,0 +1,27 @@
+MCC Leveler.esp: DUP-REC MENUMOD MISSAUT MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (28) != Actual count (27)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MCC_Leveler)
+	SCPT(MCC_Leveler_CheckAttributes)
+	SCPT(MCC_Leveler_Config)
+	SCPT(MCC_Leveler_Extra)
+	SCPT(MCC_Leveler_HealthInit)
+	SCPT(MCC_Leveler_Multipliers)
+	SCPT(MCC_Leveler_QuickInit)
+	SCPT(MCC_Leveler_SkillsDecay)
+	SCPT(MCC_Leveler_SkillsDecayInit)
+	SCPT(MCC_Leveler_StartingValues)
+	SCPT(MCC_Leveler_UpdateHealth)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       GMST    ilevelup01mult
+	morrowind.esm       GMST    ilevelup02mult
+	morrowind.esm       GMST    ilevelup03mult
+	morrowind.esm       GMST    ilevelup04mult
+	morrowind.esm       GMST    ilevelup05mult
+	morrowind.esm       GMST    ilevelup06mult
+	morrowind.esm       GMST    ilevelup07mult
+	morrowind.esm       GMST    ilevelup08mult
+	morrowind.esm       GMST    ilevelup09mult
+	morrowind.esm       GMST    ilevelup10mult
+	morrowind.esm       GMST    slucdesc

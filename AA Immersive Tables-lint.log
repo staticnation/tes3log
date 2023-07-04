@@ -1,0 +1,23 @@
+AA Immersive Tables.ESP: DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1570138 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AA_AlchemyTable_Script)
+	SCPT(AA_RentAjira_Script)
+	SCPT(AA_RentAnarenen_Script)
+	SCPT(AA_RentJullalian_Script)
+	SCPT(AA_RentSeloth_Script)
+	SCPT(AA_RentThierry_Script)
+	SCPT(cor_alchemy_table)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       PGRD    caldera, guild of mages
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=208183984953192(Greeting:greeting 5)
+  morrowind.esm----------->|DATA|ONAM:ajira|NAME:What brings you to Ajira's shop? Do you want duties from Ajira? Do you want the local brews? Or help in a fight? Some Telvanni bug musk? Or a way to reach the high places?|SCVR:01390|INTV:|SCVR:11460|INTV
+  AA Immersive Tables.ESP->|DATA|ONAM:ajira|NAME:What brings you to Ajira's shop? Do you want duties from Ajira? Do you want the local brews? Or help in a fight? Some Telvanni bug musk? Or a way to reach the high places? Or do you want to make potions yourself with the alchemy table?|SCVR:01390|INTV:|SCVR:11460|INTV
+
+[MOD-INF]: ID=514372802773428874(Greeting:greeting 5)
+  morrowind.esm----------->|DATA|ONAM:ajira|NAME:What brings you to Ajira's shop? Do you want to try the local brews? Need something to help in a fight? Some Telvanni bug musk to bring you a mate? Or a way to get to those high places where your hands cannot reach?|SCVR:01390|INTV:
+  AA Immersive Tables.ESP->|DATA|ONAM:ajira|NAME:What brings you to Ajira's shop? Do you want to try the local brews? Need something to help in a fight? Some Telvanni bug musk to bring you a mate? A way to get to those high places where your hands cannot reach? Or do you want to make potions yourself with the alchemy table?|SCVR:01390|INTV:

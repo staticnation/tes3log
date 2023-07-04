@@ -1,0 +1,19 @@
+blessings_for_other_shrines.esp: DUP-INF DUP-REC MISSVER OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    furn_imp_altar_cure_01
+	morrowind.esm       DIAL    join the imperial cult
+	morrowind.esm       DIAL    join the temple
+	tribunal.esm        ACTI    furn_shrine_tribunal_cure_01
+
+[DUP-INF]: ID=1068023481210125110(Topic:join the imperial cult)
+  |DATA|FNAM:Imperial Cult|NAME:With greatest sorrow, we must turn away our faces. You have done the unforgivable, and are henceforth cast out from our community.|SCVR:01390|INTV|SCVR:12sX0ExpImperialCult|INTV|BNAM:ModDisposition -10  goodbye
+
+[DUP-INF]: ID=2196898952846710261(Topic:join the imperial cult)
+  |DATA|FNAM:Imperial Cult|NAME:Please reconsider, %PCName, and come to us again. There is great strength and comfort in the solace of the Nine.|SCVR:01500|INTV|BNAM:ModDisposition -5
+
+[DUP-INF]: ID=4756214621579618501(Topic:join the temple)
+  |DATA|FNAM:Temple|NAME:Hmmm. The choice is, of course, yours to make %PCName.|SCVR:01500|INTV|BNAM:ModDisposition -5
+
+[DUP-INF]: ID=27979233641117932546(Topic:join the temple)
+  |DATA|FNAM:Temple|NAME:You claim to fulfill the false prophecies of the 'Incarnate' and the 'Nerevarine,' but you are really an agent in the pay of the Imperial Intelligence Service. You are an outlaw and a fraud. Yet you have the nerve to ask to join the Temple. Go away.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:14JX4B8_MeetVivec|INTV:2|BNAM:Goodbye

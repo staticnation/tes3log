@@ -1,0 +1,43 @@
+FLG - Balmora's Underworld V1.1.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tribunal.esm                 4565578 (plugin)    4565686 (installed size)
+	Bloodmoon.esm                9631217 (plugin)    9631798 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(EN_engraved_cuirass)
+	SCPT(EN_skeleton_dangot)
+	SCPT(EN_ticedo_ashput)
+	SCPT(EN_vori)
+	SCPT(EN_vori_corpse)
+	SCPT(FLG_FLG01c_BattleComments)
+	SCPT(FLG_FLG01c_ExitDoor)
+	SCPT(FLG_FLG01c_GateScript)
+	SCPT(FLG_FLG07a_FinalSeqScript)
+	SCPT(FLG_FLG07a_Necro01AI)
+	SCPT(FLG_FLG07a_Necro02AI)
+	SCPT(FLG_FLG07a_Powerbox01)
+	SCPT(FLG_FLG07a_Powerbox02)
+	SCPT(FLG_FLG07a_Powerbox03)
+	SCPT(FLG_FLG07a_PoweredCyl01)
+	SCPT(FLG_FLG07a_PoweredCyl02)
+	SCPT(FLG_FLG07a_PoweredCyl03)
+	SCPT(FLG_NecroBoss01_AI)
+	SCPT(FLG_SFX_DoorSound)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       STAT    in_dwrv_corr3_02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    vori
+	morrowind.esm       PGRD    balmora
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=2520856961659030093(Greeting:greeting 5)
+  |DATA|ONAM:Ingwold|NAME:Thank you. Thank you again. I'm really, really grateful. And I promise -- I'll never get mixed up with smugglers -- or scamps -- again.|SCVR:04JX3MS_HatandSkirt|INTV:2|BNAM:modReputation 1
+
+[DUP-INF]: ID=25693272922242731603(Topic:little secret)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.

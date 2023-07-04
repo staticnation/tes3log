@@ -1,0 +1,880 @@
+Morag Tong Polished.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BILL_MT_calc_legit_kills)
+	SCPT(BILL_MT_redeem_writs)
+	SCPT(CS_FGGuyAppear)
+	SCPT(CS_NelothScript)
+	SCPT(CountTelvanniHortator)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       ACTI    active_velothi_altar_mephala
+	morrowind.esm       BOOK    writ_varro
+	morrowind.esm       BOOK    writ_yasalmibaal
+	morrowind.esm       CLOT    sanguinebeltimpaling
+	morrowind.esm       DIAL    baladas
+	morrowind.esm       DIAL    brilnosu llarys
+	morrowind.esm       DIAL    ethal seloth
+	morrowind.esm       DIAL    galasa uvayn
+	morrowind.esm       DIAL    grandmaster
+	morrowind.esm       DIAL    guril retheran
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    idroso vendu
+	morrowind.esm       DIAL    ienith
+	morrowind.esm       DIAL    join the morag tong
+	morrowind.esm       DIAL    mathyn bemis
+	morrowind.esm       DIAL    mavon drenim
+	morrowind.esm       DIAL    mt_s_balancedarmor
+	morrowind.esm       DIAL    mt_s_deepbiting
+	morrowind.esm       DIAL    mt_s_denial
+	morrowind.esm       DIAL    mt_s_fleetness
+	morrowind.esm       DIAL    mt_s_fluidevasion
+	morrowind.esm       DIAL    mt_s_glibspeech
+	morrowind.esm       DIAL    mt_s_golden
+	morrowind.esm       DIAL    mt_s_green
+	morrowind.esm       DIAL    mt_s_hewing
+	morrowind.esm       DIAL    mt_s_hornyfist
+	morrowind.esm       DIAL    mt_s_impaling
+	morrowind.esm       DIAL    mt_s_leaping
+	morrowind.esm       DIAL    mt_s_martialcraft
+	morrowind.esm       DIAL    mt_s_nimblearmor
+	morrowind.esm       DIAL    mt_s_red
+	morrowind.esm       DIAL    mt_s_safekeeping
+	morrowind.esm       DIAL    mt_s_silver
+	morrowind.esm       DIAL    mt_s_smiting
+	morrowind.esm       DIAL    mt_s_stalking
+	morrowind.esm       DIAL    mt_s_stolidarmor
+	morrowind.esm       DIAL    mt_s_sublime
+	morrowind.esm       DIAL    mt_s_sureflight
+	morrowind.esm       DIAL    mt_s_swiftblade
+	morrowind.esm       DIAL    mt_s_transcendent
+	morrowind.esm       DIAL    mt_s_transfiguring
+	morrowind.esm       DIAL    mt_s_unseen
+	morrowind.esm       DIAL    neloth
+	morrowind.esm       DIAL    odaishah yasalmibaal
+	morrowind.esm       DIAL    sanguine impaling thrust
+	morrowind.esm       DIAL    sarayn sadus
+	morrowind.esm       DIAL    sensitive matters
+	morrowind.esm       DIAL    special duties
+	morrowind.esm       DIAL    tirer belvayn
+	morrowind.esm       DIAL    toris saren
+	morrowind.esm       DIAL    writ
+	morrowind.esm       ENCH    dagger_mtas
+	morrowind.esm       NPC_    alven salas
+	morrowind.esm       NPC_    angahran
+	morrowind.esm       NPC_    dunsalipal dun-ahhe
+	morrowind.esm       NPC_    eno hlaalu
+	morrowind.esm       NPC_    ethasi rilvayn
+	morrowind.esm       NPC_    gilyan sedas
+	morrowind.esm       NPC_    goren andarys
+	morrowind.esm       NPC_    hoki
+	morrowind.esm       NPC_    lassour zenammu
+	morrowind.esm       NPC_    minnibi selkin-adda
+	morrowind.esm       NPC_    namanian facian
+	morrowind.esm       NPC_    neloth
+	morrowind.esm       NPC_    rogdul gro-bularz
+	morrowind.esm       NPC_    salyni nelvayn
+	morrowind.esm       NPC_    serul dathren
+	morrowind.esm       NPC_    shannat pansamsi
+	morrowind.esm       NPC_    taros dral
+	morrowind.esm       NPC_    traven marvos
+	morrowind.esm       NPC_    ulmesi baryon
+	morrowind.esm       NPC_    vaveli dralas
+	morrowind.esm       WEAP    daedric dagger_mtas
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    dram bero
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    larrius varro
+	tribunal.esm        DIAL    mistress therana
+	tribunal.esm        DIAL    mt_writbelvayn
+	tribunal.esm        DIAL    mt_writbemis
+	tribunal.esm        DIAL    mt_writbrilnosu
+	tribunal.esm        DIAL    mt_writgalasa
+	tribunal.esm        DIAL    mt_writguril
+	tribunal.esm        DIAL    mt_writmavon
+	tribunal.esm        DIAL    mt_writnavil
+	tribunal.esm        DIAL    mt_writoran
+	tribunal.esm        DIAL    mt_writsadus
+	tribunal.esm        DIAL    mt_writsaren
+	tribunal.esm        DIAL    mt_writvarro
+	tribunal.esm        DIAL    mt_writvendu
+	tribunal.esm        DIAL    mt_writyasalmibaal
+	tribunal.esm        DIAL    task
+
+[MOD-INF]: ID=170116092516092(Topic:larrius varro)
+  tribunal.esm------------>|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:With the recent troubles, we have had many Writs issued. The most challenging I have saved for you, %PCRank. This one is for Larrius Varro in Fort Moonmoth near Balmora.|SCVR:24JX3C3_DestroyDagoth|INTV:2|SCVR:34JX3MT_WritBemis|INTV:d|SCVR:44JX3MT_WritBrilnosu|INTV:d|SCVR:54JX3MT_WritNavil|INTV:d|BNAM:Journal MT_WritVarro 10  Player->AddItem "writ_varro" 1
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:With the recent troubles, we have had many Writs issued. The most challenging I have saved for you, %PCRank. This one is for Larrius Varro in Fort Moonmoth near Balmora. Unlike the other writs, this is a gray writ ordered by the Camonna Tong. We normally do not carry out writs against Imperial authority, as is the law.|SCVR:24JX3C3_DestroyDagoth|INTV:2|SCVR:34JX3MT_WritBemis|INTV:d|SCVR:44JX3MT_WritBrilnosu|INTV:d|SCVR:54JX3MT_WritNavil|INTV:d|BNAM:Choice "The s'wit will die." 1 "Cancel it." 2
+
+[MOD-INF]: ID=2097750793329282(Journal:mt_writbemis)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Mathyn Bemis, who may be found in the Hlaalu Ancestral Vaults which are accessible from the Canalworks of the Hlaalu Canton.
+  Morag Tong Polished.esp->|DATA|NAME:Goren Andarys in Ald'ruhn has given me a Writ for the honorable execution of Mathyn Bemis. They may be found in the Hlaalu Ancestral Vaults which are accessible from the Canalworks of the Hlaalu Canton in Vivec.
+
+[MOD-INF]: ID=2100416252997656(Journal:mt_writbrilnosu)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Brilnosu Llarys. She may be found at the Dunmer stronghold of Hlormaren which is on the coast west of Balmora north of Hla Oad.
+  Morag Tong Polished.esp->|DATA|NAME:Goren Andarys in Ald'ruhn has given me a Writ for the honorable execution of Brilnosu Llarys. She may be found at the Dunmer stronghold of Hlormaren which is on the coast west of Balmora north of Hla Oad.
+
+[MOD-INF]: ID=2353518456423470(Journal:mt_s_impaling)
+  morrowind.esm----------->|DATA|NAME:I have returned the Belt of Sanguine Impaling, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Belt of Sanguine Impaling, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=2417319689634202(Topic:mathyn bemis)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Mathyn Bemis is dead.|SCVR:34JX3MT_WritBemis|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:Mathyn Bemis is dead.|SCVR:34JX3MT_WritBemis|INTV:d
+
+[MOD-INF]: ID=2575927320206394(Journal:mt_s_leaping)
+  morrowind.esm----------->|DATA|NAME:I have returned the Shoes of Sanguine Leaping, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Shoes of Sanguine Leaping, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=3058250308629217(Journal:mt_writgalasa)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Galasa Uvayn.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Galasa Uvayn to Ethasi Rilvayn.|QSTF
+
+[MOD-INF]: ID=5179314627399244(Topic:brilnosu llarys)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I heard that you executed Brilnosu Llarys. The honor and payment are yours.|SCVR:34JX0MT_WritBrilnosu|INTV:P|BNAM:Journal MT_WritBrilnosu 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I heard that you executed Brilnosu Llarys. The honor and payment are yours.|SCVR:34JX0MT_WritBrilnosu|INTV:P|BNAM:Journal MT_WritBrilnosu 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=7471248472649541(Topic:advancement)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:First you must join the Morag Tong.|SCVR:01460|INTV:
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|NAME:First you must join the Morag Tong.|SCVR:01460|INTV:
+
+[MOD-INF]: ID=7727342055120196(Topic:mathyn bemis)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[MOD-INF]: ID=8856752489534958(Topic:guril retheran)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[MOD-INF]: ID=11071315654314171(Topic:ethal seloth)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:The Morag Tong executes justice on murderers when the law cannot or will not.|SCVR:34JX3MT_WritVendu|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:The Morag Tong executes justice on murderers when the law cannot or will not.|SCVR:34JX3MT_WritVendu|INTV:d
+
+[MOD-INF]: ID=12265312484730789(Topic:tirer belvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_belvayn|INTV:|SCVR:34JX3MT_WritBelvayn|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_belvayn|INTV:|SCVR:34JX3MT_WritBelvayn|INTV: 
+
+[MOD-INF]: ID=13923849275898991(Topic:sarayn sadus)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have honorably executed the Writ on Sarayn Sadus. The payment and honor for this Writ is yours.|SCVR:34JX0MT_WritSadus|INTV:P|BNAM:Journal MT_WritSadus 100  Player->AddItem "Gold_001" 500  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You have honorably executed the Writ on Sarayn Sadus. The payment and honor for this Writ is yours.|SCVR:34JX0MT_WritSadus|INTV:P|BNAM:Journal MT_WritSadus 100  Player->AddItem "Gold_001" 500  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=14429181443696155(Journal:mt_writbelvayn)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Tirer Belvayn.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Tirer Belvayn to Ethasi Rilvayn.|QSTF
+
+[MOD-INF]: ID=20482314158029200(Journal:mt_s_deepbiting)
+  morrowind.esm----------->|DATA|NAME:I have returned the Belt of Sanguine Deep Biting, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Belt of Sanguine Deep Biting, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=25016217124903865(Topic:tirer belvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have honorably executed Tirer Belvayn. The payment is yours.|SCVR:34JX0MT_WritBelvayn|INTV:Z|BNAM:Journal MT_WritBelvayn 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have honorably executed Tirer Belvayn. The payment and bonus is yours.|SCVR:34JX0MT_WritBelvayn|INTV:Z|BNAM:Journal MT_WritBelvayn 100  Player->AddItem Gold_001 1250  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+
+[MOD-INF]: ID=25546226536338831(Topic:dark brotherhood)
+  morrowind.esm----------->|DATA|ONAM:miun_gei|NAME:You want to hire the Dark Brotherhood? How do I know I can trust you?
+  Morag Tong Polished.esp->|DATA|ONAM:miun_gei|NAME:You want to hire the Dark Brotherhood? How do I know I can trust you?|SCVR:04JX0MT_DB_Contact|INTV: |BNAM:Choice "[Illusion] You can trust me." 1 "[500 Gold] Please, Miun Gei. I really need their help." 3 "[Short Blade] Tell me how to contact them, s'wit, or I'll cut out your tongue." 2
+
+[MOD-INF]: ID=27268823331843134(Greeting:greeting 4)
+  morrowind.esm----------->|DATA|ONAM:tirer belvayn|NAME:You're no match for me!|SCVR:34JX3MT_WritBelvayn|INTV: |BNAM:Goodbye
+  Morag Tong Polished.esp->|DATA|ONAM:tirer belvayn|NAME:You're no match for me!|SCVR:05IX2writ_belvayn|INTV:|SCVR:34JX3MT_WritBelvayn|INTV: |BNAM:Startcombat Player  Setfight 100  Goodbye
+
+[MOD-INF]: ID=28025616973332679(Journal:mt_writbemis)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Mathyn Bemis.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Mathyn Bemis to Goren Andarys.|QSTF
+
+[MOD-INF]: ID=29519325333193883(Topic:writ)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:There are two outstanding Writs. One on Guril Retheran and one on Galasa Uvayn.|SCVR:24JX3MT_WritSadus|INTV:d|SCVR:34JX3MT_WritVendu|INTV:d|SCVR:44JX3MT_WritYasalmibaal|INTV:d|SCVR:54JX3MT_WritSaren|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|DNAM:Morag Tong|NAME:There are two available. One on Guril Retheran and one on Galasa Uvayn.|SCVR:04JX4MT_WritGuril|INTV:d|SCVR:14JX4MT_WritGalasa|INTV:d
+
+[MOD-INF]: ID=29968223914325815(Topic:advancement)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Honorably execute writs and practice your skills. You are not ready yet.|SCVR:01020|INTV:
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Honorably execute writs and practice your skills. You are not ready yet.|SCVR:01020|INTV:
+
+[MOD-INF]: ID=30720953138123300(Greeting:greeting 4)
+  morrowind.esm----------->|DATA|ONAM:brilnosu llarys|NAME:Whatever trick this is... You'll taste my spells.|SCVR:34JX3MT_WritBrilnosu|INTV: |BNAM:Goodbye
+  Morag Tong Polished.esp->|DATA|ONAM:brilnosu llarys|NAME:Whatever trick this is... You'll taste my spells.|SCVR:05IX2writ_brilnosu|INTV:|SCVR:34JX3MT_WritBrilnosu|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=31153659443617006(Topic:advancement)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have soiled the honor of the Morag Tong. Make amends or you will never be %PCNextRank.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|NAME:You have soiled the honor of the Morag Tong. Make amends or you will never be %PCNextRank.|SCVR:01390|INTV
+
+[MOD-INF]: ID=41978485568630530(Topic:ethal seloth)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_vendu|INTV|SCVR:34JX3MT_WritVendu|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_vendu|INTV|SCVR:34JX3MT_WritVendu|INTV: 
+
+[MOD-INF]: ID=42299391175325156(Topic:ethal seloth)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I heard how to brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ.|SCVR:34JX0MT_WritVendu|INTV:P|BNAM:Journal MT_WritVendu 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You should not be seeing this.|SCVR:34JX0MT_WritVendu|INTV:P|BNAM:Journal MT_WritVendu 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=58253051477013171(Topic:dark brotherhood)
+  morrowind.esm----------->|DATA|ONAM:tsrazami|NAME:No more games, %PCName. You are Morag Tong. %Name knows of you. %Name will not betray the Dark Brotherhood for empty threats or a little gold.|SCVR:01500|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:tsrazami|NAME:You make a good point. Alright, %Name will speak with your Grandmaster.|SCVR:01500|INTV|BNAM:Journal MT_DB_Contact 70
+
+[MOD-INF]: ID=62042552390731785(Topic:guril retheran)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_guril|INTV:|SCVR:34JX3MT_WritGuril|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_guril|INTV:|SCVR:34JX3MT_WritGuril|INTV: 
+
+[MOD-INF]: ID=65412813424900431(Topic:advancement)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Your technique is superb, but some question your depth of devotion. Perform more honorable executions in the name of the Morag Tong. These writs are currently outstanding.|SCVR:01020|INTV
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Your technique is superb, but some question your depth of devotion. Perform more honorable executions in the name of the Morag Tong.|SCVR:01020|INTV
+
+[MOD-INF]: ID=67066886216451661(Topic:advancement)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Only Eno Hlaalu in Vivec can grant you the rank of %NextPCRank. But you are strong. Why not take the rank of Grandmaster for yourself?|SCVR:07XX0eno hlaalu|INTV:
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Only Eno Hlaalu in Vivec can grant you the rank of %NextPCRank. But you are strong. Why not take the rank of Grandmaster for yourself?|SCVR:07XX0eno hlaalu|INTV:
+
+[MOD-INF]: ID=70495852196721631(Journal:mt_s_balancedarmor)
+  morrowind.esm----------->|DATA|NAME:I have returned the Belt of Sanguine Balanced Armor, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Belt of Sanguine Balanced Armor, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=72392188172573143(Topic:dark brotherhood)
+  morrowind.esm----------->|DATA|ONAM:miun_gei|NAME:You don't act like a guard, so I'll tell you. My contact in the Brotherhood is Tsrazami, a Khajiit. She's in the Plaza here in the Foreign Quarter. Tell her I sent you.|BNAM:Journal MT_DB_Contact 50
+  Morag Tong Polished.esp->|DATA|ONAM:miun_gei|NAME:I will not tell you anything until I know for sure that I can trust you.|SCVR:01500|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=73521917105635526(Topic:brilnosu llarys)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_brilnosu|INTV:|SCVR:34JX3MT_WritBrilnosu|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_brilnosu|INTV:|SCVR:34JX3MT_WritBrilnosu|INTV: 
+
+[MOD-INF]: ID=74942758379332376(Greeting:greeting 4)
+  morrowind.esm----------->|DATA|ONAM:odaishah yasalmibaal|NAME:Die, outlander!|SCVR:34JX3MT_WritYasalmibaal|INTV: |BNAM:Goodbye
+  Morag Tong Polished.esp->|DATA|ONAM:odaishah yasalmibaal|NAME:Die, outlander!|SCVR:05IX2writ_yasalmibaal|INTV:|SCVR:34JX3MT_WritYasalmibaal|INTV: |BNAM:Startcombat Player  Setfight 100  Goodbye
+
+[MOD-INF]: ID=79044441657018691(Topic:writ)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:There has been a Writ issued on Navil Ienith and Ranes Ienith.|SCVR:24JX3MT_WritMavon|INTV:d|SCVR:34JX3MT_WritBelvayn|INTV:d|SCVR:44JX3MT_WritBemis|INTV:d|SCVR:54JX3MT_WritBrilnosu|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|DNAM:Morag Tong|NAME:There has been a Writ issued on Navil Ienith and Ranes Ienith.|SCVR:04JX4MT_WritNavil|INTV:d
+
+[MOD-INF]: ID=79537042225619927(Journal:mt_writsaren)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Toris Saren.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Toris Saren to Goren Andarys.|QSTF
+
+[MOD-INF]: ID=89002161171687025(Topic:dark brotherhood)
+  morrowind.esm----------->|DATA|ONAM:tsrazami|NAME:What does the %PCRace want with the Dark Brotherhood?|BNAM:Choice "I want someone dead." 1 "You will tell me of the Dark Brotherhood." 2 "Nevermind." 3
+  Morag Tong Polished.esp->|DATA|ONAM:tsrazami|NAME:So Miun Gei sent you? %Name knows what you are here for. Unfortunately for you, %Name knows you are Morag Tong. Give %Name one good reason why they shouldn't have you killed?|SCVR:04JX0MT_DB_Contact|INTV:2|BNAM:Choice "When I kill your thrall, I will come for you." 1 "Regardless of what you do to me, more Tong will come for answers." 2 "I could send someone to kill you just as you could me; why not parley and see what we have to offer?" 3
+
+[MOD-INF]: ID=91455312159821334(Topic:odaishah yasalmibaal)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Odaishah Yasalmibaal is dead by your hand!? I had not yet given you the proper contract... It is not healthy for you to anticipate the Morag Tong. Still, the credit is yours by law and tradition.|SCVR:06DX3odaishah yasalmibaal|INTV|SCVR:34JX0MT_WritYasalmibaal|INTV:|BNAM:Journal MT_WritYasalmibaal 100  ModPCFacRep 5 "Morag Tong"  ModDisposition -10
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:Odaishah Yasalmibaal is dead by your hand!? I had not yet given you the proper contract... It is not healthy for you to anticipate the Morag Tong. Still, the credit is yours by law and tradition.|SCVR:06DX3odaishah yasalmibaal|INTV|SCVR:34JX0MT_WritYasalmibaal|INTV:|BNAM:Journal MT_WritYasalmibaal 100  ModPCFacRep 5 "Morag Tong"  ModDisposition -10
+
+[MOD-INF]: ID=118018732272413197(Topic:odaishah yasalmibaal)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_yasalmibaal|INTV:|SCVR:34JX3MT_WritYasalmibaal|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_yasalmibaal|INTV:|SCVR:34JX3MT_WritYasalmibaal|INTV: 
+
+[MOD-INF]: ID=131352538641520126(Topic:ethal seloth)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_vendu|INTV:|SCVR:34JX3MT_WritVendu|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_vendu|INTV:|SCVR:34JX3MT_WritVendu|INTV: 
+
+[MOD-INF]: ID=135672880889153795(Journal:mt_writvarro)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Larrius Varro. He may be found in Fort Moonmoth near Balmora.
+  Morag Tong Polished.esp->|DATA|NAME:I have been given a gray writ for Larrius Varro. He may be found in Fort Moonmoth near Balmora.
+
+[MOD-INF]: ID=149583057249028990(Topic:house telvanni)
+  morrowind.esm----------->|DATA|ONAM:trebonius artorius|DNAM:Mages Guild|NAME|INTV:|SCVR:16DX2dratha|INTV:|SCVR:26DX2gothren|INTV:|SCVR:36DX2neloth|INTV:|SCVR:46DX2therana|INTV:|SCVR:54JX3MG_KillTelvanni|INTV: |BNAM:Journal MG_KillTelvanni 100  RemoveItem necromancers_amulet_uniq 1  Player->AddItem necromancers_amulet_uniq 1  RemoveItem ebony_staff_trebonius 1  Player->AddItem ebony_staff_trebonius 1  ModPCFacRep 20 "Mages Guild"  ModDisposition 25
+  Morag Tong Polished.esp->|DATA|ONAM:trebonius artorius|DNAM:Mages Guild|NAME|INTV:|SCVR:16DX2dratha|INTV:|SCVR:26DX2gothren|INTV:|SCVR:34JX0CS_Neloth|INTV|SCVR:46DX2therana|INTV:|SCVR:54JX3MG_KillTelvanni|INTV: |BNAM:Journal MG_KillTelvanni 100  RemoveItem necromancers_amulet_uniq 1  Player->AddItem necromancers_amulet_uniq 1  RemoveItem ebony_staff_trebonius 1  Player->AddItem ebony_staff_trebonius 1  ModPCFacRep 20 "Mages Guild"  ModDisposition 25
+
+[MOD-INF]: ID=152723220189968765(Topic:writ)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Due to the troubles in Vvardenfell recently, the Houses have negotiated several Writs. I have Writs for General Larrius Varro, Baladas Demnevanni, Dram Bero, and Mistress Therana if you want to take any of these yourself, %PCRank.|SCVR:24JX3C3_DestroyDagoth|INTV:2|SCVR:34JX3MT_WritNavil|INTV:d|SCVR:44JX3MT_WritBemis|INTV:d|SCVR:54JX3MT_WritBrilnosu|INTV:d
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Due to the troubles in Vvardenfell recently, the Houses have negotiated several executions. I have a Writ for General Larrius Varro, Baladas Demnevanni, Dram Bero, Neloth, and Mistress Therana if you want to take any of these yourself, %PCRank. Note however, that since you are %PCRank, you will receive full payment regardless of subtlety.|SCVR:24JX3C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=158291091410385925(:dark brotherhood)
+  morrowind.esm----------->|DATA|ONAM:tsrazami|NAME:Do you? You think you just talk with the first Khajiit you see? If you do not know how to hire the Dark Brotherhood, you do not deserve their services.|SCVR:01500|INTV|BNAM:ModDisposition -10
+  Morag Tong Polished.esp->|NAME:Do you? You think you just talk with the first Khajiit you see? If you do not know how to hire the Dark Brotherhood, you do not deserve their services.|DELE:
+
+[MOD-INF]: ID=161592696347051243(Topic:ethal seloth)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You must execute not one, but two: Ethal Seloth and Idroso Vendu. They are murderers, but they are also Telvanni. The Duke will do nothing. The Morag Tong is being paid well by their victim's families to execute justice. Look for them in the temporary housing of the Telvanni Plaza here in Vivec. Swiftness and accuracy to you.|SCVR:44JX3MT_WritYasalmibaal|INTV:d|SCVR:54JX3MT_WritSaren|INTV:d|BNAM:Journal MT_WritVendu 10  Player->AddItem "writ_vendu" 1
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You must execute not one, but two: Ethal Seloth and Idroso Vendu. They are murderers, but they are also Telvanni. The Duke will do nothing. The Morag Tong is being paid well by their victim's families to execute justice. Look for them in the temporary housing of the Telvanni Plaza here in Vivec. Swiftness and accuracy to you.|BNAM:Journal MT_WritVendu 10  Player->AddItem "writ_vendu" 1
+
+[MOD-INF]: ID=161895937281871758(Topic:galasa uvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have honorably slain Galasa Uvayn. You well deserve this payment and the honor of the kill.|SCVR:06DX3galasa uvayn|INTV|SCVR:34JX0MT_WritGalasa|INTV:Z|BNAM:Journal MT_WritGalasa 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have honorably slain Galasa Uvayn. You well deserve this payment and the honor of the kill. You also get a bonus for killing Galasa Uvayn without the authorities being notified.|SCVR:06DX3galasa uvayn|INTV|SCVR:34JX0MT_WritGalasa|INTV:Z|BNAM:Journal MT_WritGalasa 100  Player->AddItem Gold_001 1250  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+
+[MOD-INF]: ID=168293211579630562(Journal:mt_writsadus)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Sarayn Sadus. He may be found in Zaintirari. I should first head to the Erabenimsun Camp and then go northwest until I reach a steampit. Zaintirari is north of the steampit, but hidden from view.
+  Morag Tong Polished.esp->|DATA|NAME:Dunsalipal Dun-Ahhe in Sadrith Mora has given me a Writ for the honorable execution of Sarayn Sadus. He may be found in Zaintirari. I should first head to the Erabenimsun Camp and then go northwest until I reach a steampit. Zaintirari is north of the steampit, but hidden from view.
+
+[MOD-INF]: ID=168821895768815691(Topic:ienith)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Both Navil and Ranes must be executed to claim this Writ's completion. Finish the job, %PCName.|SCVR:34JX0MT_WritNavil|INTV:K|BNAM:ModDisposition -5
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You should not be seeing this.
+
+[MOD-INF]: ID=172073493204830063(Journal:mt_writmavon)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Mavon Drenim.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Mavon Drenim to Ethasi Rilvayn.|QSTF
+
+[MOD-INF]: ID=178121420026479920(Topic:dark brotherhood)
+  morrowind.esm----------->|DATA|ONAM:miun_gei|NAME:Look, I only had one contact in the Brotherhood, a Khajiit named Tsrazami. But she's dead, and I'm not a member myself.|SCVR:06DX3tsrazami|INTV|BNAM:Journal MT_DB_Contact 60
+  Morag Tong Polished.esp->|DATA|ONAM:miun_gei|NAME:Look, I only had one contact in the Brotherhood, a Khajiit named Tsrazami. But she's dead, and I'm not a member myself.|SCVR:06DX3tsrazami|INTV|SCVR:14JX3MT_DB_Contact|INTV: |BNAM:Journal MT_DB_Contact 60
+
+[MOD-INF]: ID=185655039131626073(Topic:odaishah yasalmibaal)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I hear that Odaishah Yasalmibaal is dead. Good. Here is your payment for this Writ.|SCVR:34JX0MT_WritYasalmibaal|INTV:Z|BNAM:Journal MT_WritYasalmibaal 110  Player->AddItem Gold_001 500  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I hear that Odaishah Yasalmibaal is dead. Good. Here is your payment for this Writ, and an added bonus for completing it without the authorities being notified.|SCVR:34JX0MT_WritYasalmibaal|INTV:Z|BNAM:Journal MT_WritYasalmibaal 110  Player->AddItem Gold_001 750  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=190506052217578651(Topic:writ)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:I have two Writs. One on Odaishah Yasalmibaal and one on Toris Saren.|SCVR:34JX3MT_WritOran|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|DNAM:Morag Tong|NAME:I have two. One on Odaishah Yasalmibaal and one on Toris Saren.|SCVR:04JX4MT_WritYasalmibaal|INTV:d|SCVR:14JX4MT_WritSaren|INTV:d
+
+[MOD-INF]: ID=191771211717274791(Topic:brilnosu llarys)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:The Writ for Brilnosu Llarys has already been executed.|SCVR:34JX3MT_WritBrilnosu|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:The Writ for Brilnosu Llarys has already been executed.|SCVR:34JX3MT_WritBrilnosu|INTV:d
+
+[MOD-INF]: ID=205646955323927419(Topic:join the morag tong)
+  morrowind.esm----------->|DATA|ONAM:eno hlaalu|NAME:I will let you join as a probationer. To gain full membership, you must pass a test. Here is a writ for the honorable execution of Feruren Oran. You can find him in the Elven Nations Cornerclub, which is in the Hlaalu Plaza. Slay him honorably and report to me.|SCVR:01500|INTV|BNAM:Journal MT_WritOran 10  "Feruren Oran"->Enable  Player->AddItem writ_oran 1  PCJoinFaction "Morag Tong"
+  Morag Tong Polished.esp->|DATA|ONAM:eno hlaalu|NAME:I will let you join as a probationer. Here, take this helm. To gain full membership, you must pass a test. Here is a writ for the honorable execution of Feruren Oran. You can find him in the Elven Nations Cornerclub, which is in the Hlaalu Plaza. Slay him honorably and report to me. If the execution goes unnoticed, then you shall receive an added bonus.|SCVR:01500|INTV|BNAM:Journal MT_WritOran 10  "Feruren Oran"->Enable  Player->AddItem writ_oran 1  Player->Additem Morag_Tong_Helm 1  PCJoinFaction "Morag Tong"
+
+[MOD-INF]: ID=213452174823996488(Topic:tirer belvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have honorably executed Tirer Belvayn. The payment is yours.|SCVR:34JX0MT_WritBelvayn|INTV:P|BNAM:Journal MT_WritBelvayn 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have honorably executed Tirer Belvayn. The payment is yours.|SCVR:34JX0MT_WritBelvayn|INTV:P|BNAM:Journal MT_WritBelvayn 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=215342256762615200(Topic:tirer belvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_belvayn|INTV|SCVR:34JX3MT_WritBelvayn|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_belvayn|INTV|SCVR:34JX3MT_WritBelvayn|INTV: 
+
+[MOD-INF]: ID=221461612979341403(Topic:sarayn sadus)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Sarayn Sadus is already dead? You must learn more restraint, %PCName. I will give you credit for this Writ, but I do not believe it was honorably executed.|SCVR:06DX3sarayn sadus|INTV|SCVR:34JX0MT_WritSadus|INTV:|BNAM:Journal MT_WritSadus 100  ModPCFacRep 5 "Morag Tong"  ModDisposition -10
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:Sarayn Sadus is already dead? You must learn more restraint, %PCName. I will give you credit for this Writ, but I do not believe it was honorably executed.|SCVR:06DX3sarayn sadus|INTV|SCVR:34JX0MT_WritSadus|INTV:|BNAM:Journal MT_WritSadus 100  ModPCFacRep 5 "Morag Tong"  ModDisposition -10
+
+[MOD-INF]: ID=227566641690323024(Greeting:greeting 5)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Yes, %PCRank? Are you here to see what writs are open?
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:How may I help? Are you wanting to request a writ?|SCVR:07XX0eno hlaalu|INTV:|SCVR:12sX5Random100|INTV:d
+
+[MOD-INF]: ID=237081961437111388(Journal:mt_writvendu)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Ethal Seloth and Idroso Vendu.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Ethal Seloth and Idroso Vendu to Dunsalipal Dun-Ahhe.|QSTF
+
+[MOD-INF]: ID=238622910963088348(Topic:dark brotherhood)
+  morrowind.esm----------->|DATA|ONAM:tsrazami|NAME:Tell your Grandmaster that %Name will speak with him.|SCVR:01500|INTV|BNAM:Journal MT_DB_Contact 70
+  Morag Tong Polished.esp->|DATA|ONAM:tsrazami|NAME:Hmmm... You are right. Tell your Grandmaster that %Name will speak with him.|SCVR:01500|INTV|BNAM:Journal MT_DB_Contact 70
+
+[MOD-INF]: ID=247001198680239882(Topic:dark brotherhood)
+  morrowind.esm----------->|DATA|ONAM:tsrazami|NAME:What makes you think %Name would do this?|SCVR:01500|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:tsrazami|NAME:[%Name becomes visibly nervous] Point taken. Very well, %Name will speak with your Grandmaster.|SCVR:01500|INTV|BNAM:Journal MT_DB_Contact 70
+
+[MOD-INF]: ID=252632453295095407(Topic:toris saren)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have claimed and executed the Writ on Toris Saren. Here is your payment.|SCVR:34JX0MT_WritSaren|INTV:P|BNAM:Journal MT_WritSaren 100  Player->AddItem "Gold_001" 500  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:You have claimed and executed the Writ on Toris Saren. Here is your payment.|SCVR:34JX0MT_WritSaren|INTV:P|BNAM:Journal MT_WritSaren 100  Player->AddItem "Gold_001" 500  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=253982127393952961(Topic:guril retheran)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have executed the Writ on Guril Retheran. You have earned the payment and the honor.|SCVR:34JX0MT_WritGuril|INTV:Z|BNAM:;if possible, script here to make family hate you  Journal MT_WritGuril 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have executed the Writ on Guril Retheran. You have earned the payment, the honor, and a bonus.|SCVR:34JX0MT_WritGuril|INTV:Z|BNAM:;if possible, script here to make family hate you  Journal MT_WritGuril 100  Player->AddItem Gold_001 1250  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+
+[MOD-INF]: ID=261904701147301907(Journal:mt_writguril)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Guril Retheran. He may be found at the Flowers of Gold Cornerclub in the Redoran Waistworks.
+  Morag Tong Polished.esp->|DATA|NAME:Ethasi Rilvayn in Balmora has given me a Writ for the honorable execution of Guril Retheran. He may be found at the Flowers of Gold Cornerclub in the Redoran Waistworks in Vivec.
+
+[MOD-INF]: ID=278355374705110514(Journal:mt_writyasalmibaal)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Odaishah Yasalmibaal.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Odaishah Yasalmibaal to Goren Andarys.|QSTF
+
+[MOD-INF]: ID=285493169259515072(Journal:mt_writbelvayn)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Tirer Belvayn.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Tirer Belvayn to Ethasi Rilvayn.|QSTF
+
+[MOD-INF]: ID=286538470143286423(Greeting:greeting 4)
+  morrowind.esm----------->|DATA|ONAM:Navil Ienith|NAME:We've been expecting you.|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Goodbye
+  Morag Tong Polished.esp->|DATA|ONAM:Navil Ienith|NAME:We've been expecting you.|SCVR:05IX2writ_navil|INTV:|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Startcombat Player  Setfight 100  Goodbye
+
+[MOD-INF]: ID=288542635397314445(Topic:mavon drenim)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have honorably executed Mavon Drenim. Please take the payment and credit, %PCName.|SCVR:34JX0MT_WritMavon|INTV:P|BNAM:Journal MT_WritMavon 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have honorably executed Mavon Drenim. Please take the payment and credit, %PCName.|SCVR:34JX0MT_WritMavon|INTV:P|BNAM:Journal MT_WritMavon 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=291213571539316070(Journal:mt_writvendu)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Ethal Seloth and Idroso Vendu. They may be found in the temporary housing of the Telvanni Plaza.
+  Morag Tong Polished.esp->|DATA|NAME:Dunsalipal Dun-Ahhe in Sadrith Mora has given me a Writ for the honorable execution of Ethal Seloth and Idroso Vendu. They may be found in the temporary housing of the Telvanni Plaza in Vivec.
+
+[MOD-INF]: ID=304813001193727129(Journal:mt_writyasalmibaal)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Odaishah Yasalmibaal.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Odaishah Yasalmibaal to Goren Andarys.|QSTF
+
+[MOD-INF]: ID=312585775371613589(Journal:mt_writbelvayn)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Tirer Belvayn. He may be found in Shara. To get there I must go to Dagon Fel and follow the road south past the Dwemer ruins and then west until a branch heads southwest to the coast. Shara will be to the south.
+  Morag Tong Polished.esp->|DATA|NAME:Ethasi Rilvayn in Balmora has given me a Writ for the honorable execution of Tirer Belvayn. He may be found in Shara. To get there I must go to Dagon Fel and follow the road south past the Dwemer ruins and then west until a branch heads southwest to the coast. Shara will be to the south.
+
+[MOD-INF]: ID=315667839711017992(Topic:mathyn bemis)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You say Mathyn Bemis is already dead by your hand. Very well, the credit for this Writ will go to you.|SCVR:06DX0mathyn bemis|INTV|SCVR:34JX0MT_WritBemis|INTV:|BNAM:Journal MT_WritBemis 100  ModPCFacRep 5 "Morag Tong"
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:You say Mathyn Bemis is already dead by your hand. Very well, the credit for this Writ will go to you.|SCVR:06DX0mathyn bemis|INTV|SCVR:34JX0MT_WritBemis|INTV:|BNAM:Journal MT_WritBemis 100  ModPCFacRep 5 "Morag Tong"
+
+[MOD-INF]: ID=322022259441025562(Journal:mt_s_unseen)
+  morrowind.esm----------->|DATA|NAME:I have returned the Ring of Sanguine Unseen Wisdom, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Ring of Sanguine Unseen Wisdom, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=366115071786631441(Topic:guril retheran)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Guril Retheran is already dead? This does not surprise me, %PCName, but you should not have overstepped the law.|SCVR:06DX3guril retheran|INTV|SCVR:34JX0MT_WritGuril|INTV:|BNAM:;if possible, script here to make family hate you  Journal MT_WritGuril 100  ModPCFacRep 5 "Morag Tong"
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:Guril Retheran is already dead? This does not surprise me, %PCName, but you should not have overstepped the law.|SCVR:06DX3guril retheran|INTV|SCVR:34JX0MT_WritGuril|INTV:|BNAM:;if possible, script here to make family hate you  Journal MT_WritGuril 100  ModPCFacRep 5 "Morag Tong"
+
+[MOD-INF]: ID=375111226211453250(Greeting:greeting 4)
+  morrowind.esm----------->|DATA|ONAM:mavon drenim|NAME:Die, Morag Tong scum!|SCVR:34JX3MT_WritMavon|INTV: |BNAM:Goodbye
+  Morag Tong Polished.esp->|DATA|ONAM:mavon drenim|NAME:Die, Morag Tong scum!|SCVR:05IX2writ_mavon|INTV:|SCVR:34JX3MT_WritMavon|INTV: |BNAM:Startcombat Player  Setfight 100  Goodbye
+
+[MOD-INF]: ID=438894431938524393(Topic:tirer belvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Tirer Belvayn is dead? Hmm... Shara is not a commonly visited place, and Tirer was an outlaw. You will receive credit for this Writ.|SCVR:06DX0tirer belvayn|INTV|SCVR:34JX0MT_WritBelvayn|INTV:|BNAM:Journal MT_WritBelvayn 100  ModPCFacRep 5 "Morag Tong"
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:Tirer Belvayn is dead? Hmm... Shara is not a commonly visited place, and Tirer was an outlaw. You will receive credit for this Writ.|SCVR:06DX0tirer belvayn|INTV|SCVR:34JX0MT_WritBelvayn|INTV:|BNAM:Journal MT_WritBelvayn 100  ModPCFacRep 5 "Morag Tong"
+
+[MOD-INF]: ID=589526253142388710(Topic:ienith)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have honorably executed Orvas Dren's men. You deserve the credit and payment for this Writ.|SCVR:34JX0MT_WritNavil|INTV:Z|BNAM:Journal MT_WritNavil 100  Player->AddItem Gold_001 2000  ModPCFacRep 5 "Morag Tong"  ModDisposition 15
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You have honorably executed Orvas Dren's men. You deserve the credit, payment, and the bonus for this Writ.|SCVR:06DX2Navil Ienith|INTV:|SCVR:16DX2Ranes Ienith|INTV:|SCVR:34JX0MT_WritNavil|INTV:Z|BNAM:Journal MT_WritNavil 100  Player->AddItem Gold_001 2250  ModPCFacRep 5 "Morag Tong"  ModDisposition 15
+
+[MOD-INF]: ID=626220779149545557(Topic:mavon drenim)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:This Writ is for the honorable execution of  Mavon Drenim. He may be found in the Telvanni tower in the Plaza of the Telvanni Compound in Vivec. Mephala guide your hand.|SCVR:44JX3MT_WritGuril|INTV:d|SCVR:54JX3MT_WritGalasa|INTV:d|BNAM:Journal MT_WritMavon 10  Player->AddItem "writ_mavon" 1
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:This Writ is for the honorable execution of Mavon Drenim. He may be found in the Telvanni tower in the Plaza of the Telvanni Compound in Vivec. Mephala guides your hand.|BNAM:Journal MT_WritMavon 10  Player->AddItem "writ_mavon" 1
+
+[MOD-INF]: ID=676612069113036632(Topic:ienith)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_navil|INTV|SCVR:34JX3MT_WritNavil|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_navil|INTV|SCVR:34JX3MT_WritNavil|INTV: 
+
+[MOD-INF]: ID=709316077159261875(Topic:advancement)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Excellent, %PCName. You are now %PCName the %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank  Player->ModReputation 1
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Excellent, %PCName. You are now %PCName the %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank  Player->ModReputation 1
+
+[MOD-INF]: ID=767865922020029867(Topic:sarayn sadus)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_sadus|INTV|SCVR:34JX3MT_WritSadus|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_sadus|INTV|SCVR:34JX3MT_WritSadus|INTV: 
+
+[MOD-INF]: ID=801411771539427364(Journal:mt_writsadus)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Sarayn Sadus.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Sarayn Sadus to Dunsalipal Dun-Ahhe.|QSTF
+
+[MOD-INF]: ID=802024026100925030(Topic:galasa uvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_galasa|INTV:|SCVR:34JX3MT_WritGalasa|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_galasa|INTV:|SCVR:34JX3MT_WritGalasa|INTV: 
+
+[MOD-INF]: ID=830813900183335002(Topic:writ)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:We have no Writs of execution at this time, %PCRank.
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:There is no writ of execution available at this time, %PCRank.
+
+[MOD-INF]: ID=888737321202418321(Topic:grandmaster)
+  morrowind.esm----------->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:Traditionally, the Grandmaster of the Morag Tong is honorably executed by the new Grandmaster. You can certainly fight me if you think you can win... But I am tired. If you allow me to retire peacefully, I will name you the new Grandmaster. No one will question our word.|BNAM:Journal MT_Grandmaster 20  Choice "Allow him to retire." 1 "Slay him." 2
+  Morag Tong Polished.esp->|DATA|ONAM:eno hlaalu|DNAM:Morag Tong|NAME:We must talk about Ald Sotha first.
+
+[MOD-INF]: ID=916855842265021024(Topic:mavon drenim)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Mavon Drenim is dead.|SCVR:34JX3MT_WritMavon|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:Mavon Drenim is dead.|SCVR:34JX3MT_WritMavon|INTV:d
+
+[MOD-INF]: ID=931582331855524837(Topic:mathyn bemis)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_bemis|INTV|SCVR:34JX3MT_WritBemis|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_bemis|INTV|SCVR:34JX3MT_WritBemis|INTV: 
+
+[MOD-INF]: ID=1025124379160483116(Journal:mt_writmavon)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Mavon Drenim. He may be found at the Telvanni Tower in the Telvanni Plaza here in Vivec.
+  Morag Tong Polished.esp->|DATA|NAME:Ethasi Rilvayn in Balmora has given me a Writ for the honorable execution of Mavon Drenim. He may be found at the Telvanni Tower in the Telvanni Plaza in Vivec.
+
+[MOD-INF]: ID=1035630611202623949(Topic:brilnosu llarys)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:That is an interesting story, %PCName, but the fact remains that Brilnosu Llarys is already dead and the credit for this Writ must go to you.|SCVR:06DX3brilnosu llarys|INTV|SCVR:34JX0MT_WritBrilnosu|INTV:|SCVR:44JX3MT_WritMavon|INTV:d|SCVR:54JX3MT_WritBelvayn|INTV:d|BNAM:Journal MT_WritBrilnosu 100  ModPCFacRep 5 "Morag Tong"
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:That is an interesting story, %PCName, but the fact remains that Brilnosu Llarys is already dead and the credit for this Writ must go to you.|SCVR:06DX3brilnosu llarys|INTV|SCVR:34JX0MT_WritBrilnosu|INTV:|SCVR:44JX3MT_WritMavon|INTV:d|SCVR:54JX3MT_WritBelvayn|INTV:d|BNAM:Journal MT_WritBrilnosu 100  ModPCFacRep 5 "Morag Tong"
+
+[MOD-INF]: ID=1090615686256334293(Topic:mathyn bemis)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_bemis|INTV:|SCVR:34JX3MT_WritBemis|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_bemis|INTV:|SCVR:34JX3MT_WritBemis|INTV: 
+
+[MOD-INF]: ID=1237414471582131737(Topic:galasa uvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_galasa|INTV|SCVR:34JX3MT_WritGalasa|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_galasa|INTV|SCVR:34JX3MT_WritGalasa|INTV: 
+
+[MOD-INF]: ID=1332431357116903820(Topic:galasa uvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[MOD-INF]: ID=1377127241514313089(Topic:guril retheran)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have executed the Writ on Guril Retheran. You have earned the payment and the honor.|SCVR:34JX0MT_WritGuril|INTV:P|BNAM:;if possible, script here to make family hate you  Journal MT_WritGuril 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have executed the Writ on Guril Retheran. You have earned the payment and the honor.|SCVR:34JX0MT_WritGuril|INTV:P|BNAM:;if possible, script here to make family hate you  Journal MT_WritGuril 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=1414314373249425323(Journal:mt_writnavil)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Navil and Ranes Ienith.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Navil and Ranes Ienith to Dunsalipal Dun-Ahhe.|QSTF
+
+[MOD-INF]: ID=1478925705354615614(Greeting:greeting 4)
+  morrowind.esm----------->|DATA|ONAM:toris saren|NAME:What? No... You're from the Morag Tong! You won't take me!|SCVR:34JX3MT_WritSaren|INTV: |BNAM:SetFight 100  StartCombat Player  Goodbye
+  Morag Tong Polished.esp->|DATA|ONAM:toris saren|NAME:What? No... You're from the Morag Tong! You won't take me!|SCVR:05IX2writ_saren|INTV:|SCVR:34JX3MT_WritSaren|INTV: |BNAM:SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=1495113924294982079(Journal:mt_writbemis)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Mathyn Bemis.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Mathyn Bemis to Goren Andarys.|QSTF
+
+[MOD-INF]: ID=1506818170402327348(Topic:brilnosu llarys)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_brilnosu|INTV|SCVR:34JX3MT_WritBrilnosu|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_brilnosu|INTV|SCVR:34JX3MT_WritBrilnosu|INTV: 
+
+[MOD-INF]: ID=1595116664203496636(Journal:mt_s_green)
+  morrowind.esm----------->|DATA|NAME:I have returned the Ring of Sanguine Green Wisdom, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Ring of Sanguine Green Wisdom, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=1618631649565922998(Topic:ienith)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have honorably executed Orvas Dren's men. You deserve the credit and payment for this Writ.|SCVR:34JX0MT_WritNavil|INTV:P|BNAM:Journal MT_WritNavil 100  Player->AddItem Gold_001 2000  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You have honorably executed Orvas Dren's men. You deserve the credit and payment for this Writ.|SCVR:04JX2MT_WritNavil|INTV: |SCVR:16DX2Navil Ienith|INTV:|SCVR:26DX2Ranes Ienith|INTV:|SCVR:34JX4MT_WritNavil|INTV:d|BNAM:Journal MT_WritNavil 100  Player->AddItem Gold_001 2000  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+
+[MOD-INF]: ID=1664530158844831612(Journal:mt_writguril)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Guril Retheran.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Guril Retheran to Ethasi Rilvayn.|QSTF
+
+[MOD-INF]: ID=1667870252344816433(Topic:mavon drenim)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have honorably executed Mavon Drenim. Please take the payment and credit, %PCName.|SCVR:34JX0MT_WritMavon|INTV:Z|BNAM:Journal MT_WritMavon 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have honorably executed Mavon Drenim. Please take the payment and credit, %PCName.|SCVR:34JX0MT_WritMavon|INTV:Z|BNAM:Journal MT_WritMavon 100  Player->AddItem Gold_001 1250  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+
+[MOD-INF]: ID=1709420591376330367(Topic:join the morag tong)
+  morrowind.esm----------->|DATA|ONAM:eno hlaalu|NAME:Feruren Oran is dead? Then welcome %PCName, to the Morag Tong. Any Master of the Morag Tong can tell you what writs are available and weather you are a candidate for advancement. When you have proven yourself, I will have special duties for you.|SCVR:16DX3feruren oran|INTV|SCVR:34JX3MT_WritOran|INTV: |BNAM:Journal MT_WritOran 100  StartScript TopicsWebspinner
+  Morag Tong Polished.esp->|DATA|ONAM:eno hlaalu|NAME:Feruren Oran is dead? Then welcome, %PCName, to the Morag Tong. The three masters of the Morag Tong, in guild halls of Balmora, Ald'ruhn, and Sadrith Mora, offer different writs for you to complete. For every writ you complete, doing so without authorities being alerted will grant you an extra two hundred fifty drakes. Furthermore, any of the masters will be able to tell you if you are a candidate for advancement. When you have proven yourself, I will have special duties for you.|SCVR:16DX3feruren oran|INTV|SCVR:34JX3MT_WritOran|INTV: |BNAM:Journal MT_WritOran 100  StartScript TopicsWebspinner  Choice "Continue." 1
+
+[MOD-INF]: ID=1752518252125627569(Topic:sarayn sadus)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_sadus|INTV:|SCVR:34JX3MT_WritSadus|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_sadus|INTV:|SCVR:34JX3MT_WritSadus|INTV: 
+
+[MOD-INF]: ID=1832926354498923533(Topic:mavon drenim)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_mavon|INTV|SCVR:34JX3MT_WritMavon|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_mavon|INTV|SCVR:34JX3MT_WritMavon|INTV: 
+
+[MOD-INF]: ID=1856459291591620619(Journal:mt_s_smiting)
+  morrowind.esm----------->|DATA|NAME:I have returned the Belt of Sanguine Smiting, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Belt of Sanguine Smiting, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=1969027369230535687(Journal:mt_writnavil)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Navil Ienith and Ranes Ienith. They may be found on the Dren Plantation which is east of Pelagiad or west of Suran.
+  Morag Tong Polished.esp->|DATA|NAME:Dunsalipal Dun-Ahhe in Sadrith Mora has given me a Writ for the honorable execution of Navil Ienith and Ranes Ienith. They may be found on the Dren Plantation which is east of Pelagiad or west of Suran.
+
+[MOD-INF]: ID=2005922686228906791(Journal:mt_s_nimblearmor)
+  morrowind.esm----------->|DATA|NAME:I have returned the Amulet of Sanguine Nimble Armor, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Amulet of Sanguine Nimble Armor, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=2064522874228362512(Journal:mt_writgalasa)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Galasa Uvayn.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Galasa Uvayn to Ethasi Rilvayn.|QSTF
+
+[MOD-INF]: ID=2180567281021329577(Journal:mt_writoran)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Feruren Oran. He may be found in the Elven Nations Cornerclub in the Hlaalu Plaza here in Vivec.
+  Morag Tong Polished.esp->|DATA|NAME:Eno Hlaalu in Vivec has given me a Writ for the honorable execution of Feruren Oran. He may be found in the Elven Nations Cornerclub in the Hlaalu Plaza in Vivec.
+
+[MOD-INF]: ID=2218261821697210243(Topic:mathyn bemis)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:So Mathyn Bemis is dead. No trouble? Good. Here is your payment.|SCVR:34JX0MT_WritBemis|INTV:P|BNAM:Journal MT_WritBemis 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:So Mathyn Bemis is dead. No trouble? Good. Here is your payment.|SCVR:34JX0MT_WritBemis|INTV:P|BNAM:Journal MT_WritBemis 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=2248321407161932646(Topic:guril retheran)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:The Writ on Guril Retheran has been executed.|SCVR:34JX3MT_WritGuril|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:The Writ on Guril Retheran has been executed.|SCVR:34JX3MT_WritGuril|INTV:d
+
+[MOD-INF]: ID=2259124651784712259(Topic:ienith)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_navil|INTV:|SCVR:34JX3MT_WritNavil|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_navil|INTV:|SCVR:34JX3MT_WritNavil|INTV: 
+
+[MOD-INF]: ID=2264415211290851172(Topic:galasa uvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Galasa Uvayn is already dead? How did she die? I see... I must give you credit for this Writ, but you deserve neither the honor nor the payment.|SCVR:06DX3galasa uvayn|INTV|SCVR:34JX0MT_WritGalasa|INTV:|BNAM:Journal MT_WritGalasa 100  ModPCFacRep 5 "Morag Tong"  ModDisposition -10
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:Galasa Uvayn is already dead? How did she die? I see... I must give you credit for this Writ, but you deserve neither the honor nor the payment.|SCVR:06DX3galasa uvayn|INTV|SCVR:34JX0MT_WritGalasa|INTV:|BNAM:Journal MT_WritGalasa 100  ModPCFacRep 5 "Morag Tong"  ModDisposition -10
+
+[MOD-INF]: ID=2458897522249016189(Journal:mt_s_stalking)
+  morrowind.esm----------->|DATA|NAME:I have returned the Shoes of Sanguine Stalking, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Shoes of Sanguine Stalking, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=2473531784159574450(Journal:mt_writbrilnosu)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Brilnosu Llarys.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Brilnosu Llarys to Goren Andarys.|QSTF
+
+[MOD-INF]: ID=2606590042028417982(Topic:brilnosu llarys)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:This Writ is for Brilnosu Llarys who consorts with Daedra and outlaws. She is hiding at the Dunmer stronghold of Hlormaren which is on the coast west of Balmora, north of Hla Oad. I will mark this on your map. Go now, %PCRank.|SCVR:44JX3MT_WritMavon|INTV:d|SCVR:54JX3MT_WritBelvayn|INTV:d|BNAM:Journal MT_WritBrilnosu 10  Player->AddItem "writ_brilnosu" 1  ShowMap "Hlormaren"  ShowMap "Hla Oad"
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:This Writ is for Brilnosu Llarys who consorts with Daedra and outlaws. She is hiding at the Dunmer stronghold of Hlormaren which is on the coast west of Balmora, north of Hla Oad. I will mark this on your map. Go now, %PCRank.|BNAM:Journal MT_WritBrilnosu 10  Player->AddItem "writ_brilnosu" 1  ShowMap "Hlormaren"  ShowMap "Hla Oad"
+
+[MOD-INF]: ID=2640828008313613006(Journal:mt_writsaren)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Toris Saren. He is in his home, Saren Manor, in the Plaza of the Redoran Canton here in Vivec.
+  Morag Tong Polished.esp->|DATA|NAME:Goren Andarys in Ald'ruhn has given me a Writ for the honorable execution of Toris Saren. He is in his home, Saren Manor, in the Plaza of the Redoran Canton in Vivec.
+
+[MOD-INF]: ID=2749329124257632103(Topic:sarayn sadus)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have honorably executed the Writ on Sarayn Sadus. The payment and honor for this Writ is yours.|SCVR:34JX0MT_WritSadus|INTV:Z|BNAM:Journal MT_WritSadus 110  Player->AddItem "Gold_001" 500  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You have honorably executed the Writ on Sarayn Sadus. The payment and honor for this Writ is yours. I have also included your bonus for killing Sarayn without authorities knowing.|SCVR:34JX0MT_WritSadus|INTV:Z|BNAM:Journal MT_WritSadus 110  Player->AddItem "Gold_001" 750  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+
+[MOD-INF]: ID=2749526863171126654(Topic:toris saren)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have claimed and executed the Writ on Toris Saren. Here is your payment.|SCVR:34JX0MT_WritSaren|INTV:Z|BNAM:Journal MT_WritSaren 110  Player->AddItem "Gold_001" 500  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:You have claimed and executed the Writ on Toris Saren. Here is your payment, as well as a bonus for killing Toris without guards being notified.|SCVR:34JX0MT_WritSaren|INTV:Z|BNAM:Journal MT_WritSaren 110  Player->AddItem "Gold_001" 750  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+
+[MOD-INF]: ID=2822828100766513233(Journal:mt_writbrilnosu)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Brilnosu Llarys.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Brilnosu Llarys to Goren Andarys.|QSTF
+
+[MOD-INF]: ID=2909151212606414662(Journal:mt_writyasalmibaal)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Odaishah Yasalmibaal. To get to him, I should take a boat to Tel Aruhn and swim southwest until I reach the coast. Odaishah is in a yurt on the coast near the end of a small peninsula.
+  Morag Tong Polished.esp->|DATA|NAME:Goren Andarys in Ald'ruhn has given me a Writ for the honorable execution of Odaishah Yasalmibaal. To get to him, I should take a boat to Tel Aruhn and swim southwest until I reach the coast. Odaishah is in a yurt on the coast near the end of a small peninsula.
+
+[MOD-INF]: ID=2941123604188522288(Topic:mavon drenim)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_mavon|INTV:|SCVR:34JX3MT_WritMavon|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_mavon|INTV:|SCVR:34JX3MT_WritMavon|INTV: 
+
+[MOD-INF]: ID=2944832506200417839(Topic:ethal seloth)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Both targets are not dead, %PCName. You have not finished the Writ.|SCVR:34JX0MT_WritVendu|INTV:U|BNAM:ModDisposition -2
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:Remember you must kill *both* targets. You have only killed one.|SCVR:06DX0ethal seloth|INTV:|SCVR:16DX0idroso vendu|INTV:|SCVR:24JX4MT_WritVendu|INTV:d|SCVR:34JX2MT_WritVendu|INTV: 
+
+[MOD-INF]: ID=2978719872133784745(Greeting:greeting 4)
+  bloodmoon.esm----------->|DATA|ONAM:Ranes Ienith|NAME:We've been expecting you.|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Goodbye
+  Morag Tong Polished.esp->|DATA|ONAM:Ranes Ienith|NAME:We've been expecting you.|SCVR:05IX2writ_navil|INTV:|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Startcombat Player  Setfight 100  Goodbye
+
+[MOD-INF]: ID=2982202521033223220(Journal:mt_s_transfiguring)
+  morrowind.esm----------->|DATA|NAME:I have returned the Ring of Sanguine Transfiguring Wisdom, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Ring of Sanguine Transfiguring Wisdom, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=3041930018228309485(Topic:galasa uvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:This Writ is for Galasa Uvayn who offended a Redoran Lord. She may be found at the Hlaalu Treasury in the Waistworks of the Hlaalu Canton. Go.|SCVR:44JX3MT_WritSadus|INTV:d|SCVR:54JX3MT_WritVendu|INTV:d|BNAM:Journal MT_WritGalasa 10  Player->AddItem "writ_galasa" 1
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:This Writ is for Galasa Uvayn who offended a Redoran Lord. She may be found at the Hlaalu Treasury in the Waistworks of the Hlaalu Canton. Go.|BNAM:Journal MT_WritGalasa 10  Player->AddItem "writ_galasa" 1
+
+[MOD-INF]: ID=3054122123414825332(Topic:guril retheran)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_guril|INTV|SCVR:34JX3MT_WritGuril|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_guril|INTV|SCVR:34JX3MT_WritGuril|INTV: 
+
+[MOD-INF]: ID=3091816765474530148(Journal:mt_s_red)
+  morrowind.esm----------->|DATA|NAME:I have returned the Ring of Sanguine Red Wisdom, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Ring of Sanguine Red Wisdom, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=3104920736297131424(Topic:toris saren)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_saren|INTV:|SCVR:34JX3MT_WritSaren|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... Very costly. But members of the %Faction must have immaculate reputations.|SCVR:05IX0writ_saren|INTV:|SCVR:34JX3MT_WritSaren|INTV: 
+
+[MOD-INF]: ID=3108291642659822959(Journal:mt_s_stolidarmor)
+  morrowind.esm----------->|DATA|NAME:I have returned the Belt of Sanguine Stolid Armor, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Belt of Sanguine Stolid Armor, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=3151470093212324811(Topic:guril retheran)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Guril Retheran may be found in the Flowers of Gold Cornerclub in the Redoran Canton Waistworks. His family is influential in House Redoran, and this may have consequences, but the Writ is genuine and honorable and must be executed.|SCVR:44JX3MT_WritSadus|INTV:d|SCVR:54JX3MT_WritVendu|INTV:d|BNAM:Journal MT_WritGuril 10  Player->AddItem "writ_guril" 1
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:Guril Retheran may be found in the Flowers of Gold Cornerclub in the Redoran Canton Waistworks. His family is influential in House Redoran, and this may have consequences, but the Writ is genuine and honorable and must be executed.|BNAM:Journal MT_WritGuril 10  Player->AddItem "writ_guril" 1
+
+[MOD-INF]: ID=3189777171047519509(Topic:mathyn bemis)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Mathyn Bemis may be found in the Ancestral Vaults in the Hlaalu Canalworks. He is the head of a gang of outlaws who will defend him from Morag Tong justice. Swiftness and accuracy to you.|SCVR:44JX3MT_WritMavon|INTV:d|SCVR:54JX3MT_WritBelvayn|INTV:d|BNAM:Journal MT_WritBemis 10  Player->AddItem "writ_bemis" 1
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:Mathyn Bemis may be found in the Ancestral Vaults in the Hlaalu Canalworks. He is the head of a gang of outlaws who will defend him from Morag Tong justice. Swiftness and accuracy to you.|BNAM:Journal MT_WritBemis 10  Player->AddItem "writ_bemis" 1
+
+[MOD-INF]: ID=3375216751381822279(Topic:ethal seloth)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:So Ethal Seloth and Idroso Vendu are already dead? And you think you are better than those two murderers? By law and tradition I must give you credit for this Writ, but I am not required to give you the payment.|SCVR:06DX3idroso vendu|INTV|SCVR:16DX3ethal seloth|INTV|SCVR:34JX0MT_WritVendu|INTV:|BNAM:Journal MT_WritVendu 100  ModPCFacRep 5 "Morag Tong"  ModDisposition -10
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:So Ethal Seloth and Idroso Vendu are already dead? And you think you are better than those two murderers? By law and tradition I must give you credit for this Writ, but I am not required to give you the payment.|SCVR:06DX3idroso vendu|INTV|SCVR:16DX3ethal seloth|INTV|SCVR:34JX0MT_WritVendu|INTV:|BNAM:Journal MT_WritVendu 100  ModPCFacRep 5 "Morag Tong"  ModDisposition -10
+
+[MOD-INF]: ID=3437256922383926087(Topic:odaishah yasalmibaal)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_yasalmibaal|INTV|SCVR:34JX3MT_WritYasalmibaal|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_yasalmibaal|INTV|SCVR:34JX3MT_WritYasalmibaal|INTV: 
+
+[MOD-INF]: ID=3953214983021829582(Greeting:greeting 4)
+  morrowind.esm----------->|DATA|ONAM:tirer belvayn|NAME:The Morag Tong is weak! I shall defeat you!|SCVR:34JX3MT_WritBemis|INTV: |BNAM:Goodbye
+  Morag Tong Polished.esp->|DATA|ONAM:mathyn bemis|NAME:The Morag Tong is weak! I shall defeat you!|SCVR:05IX2writ_bemis|INTV:|SCVR:34JX3MT_WritBemis|INTV: |BNAM:Startcombat Player  Setfight 100  Goodbye
+
+[MOD-INF]: ID=5846291832033724696(Topic:writ)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:We are not accepting writs now, %PCName.
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|NAME:We do not have a writ ready for you right now, %PCName.
+
+[MOD-INF]: ID=6585289123239516948(Topic:mavon drenim)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[MOD-INF]: ID=6937294412660020733(Topic:writ)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:I have a Writ on Sarayn Sadus and a Writ on Ethal Seloth and Idroso Vendu.|SCVR:44JX3MT_WritYasalmibaal|INTV:d|SCVR:54JX3MT_WritSaren|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|DNAM:Morag Tong|NAME:I have a Writ on Sarayn Sadus and a Writ on Ethal Seloth and Idroso Vendu.|SCVR:04JX4MT_WritSadus|INTV:d|SCVR:14JX4MT_WritVendu|INTV:d
+
+[MOD-INF]: ID=6946236411524426740(Topic:ienith)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Both Navil and Ranes must be executed to claim this Writ's completion. Finish the job, %PCName.|SCVR:34JX0MT_WritNavil|INTV:U|BNAM:ModDisposition -5
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:Both Navil and Ranes must be executed to claim this Writ's completion. Finish the job, %PCName.|SCVR:04JX2MT_WritNavil|INTV: |SCVR:16DX0Navil Ienith|INTV:|SCVR:26DX0Ranes Ienith|INTV:|SCVR:34JX4MT_WritNavil|INTV:d|BNAM:ModDisposition -5
+
+[MOD-INF]: ID=7264111421472024137(Journal:mt_s_safekeeping)
+  morrowind.esm----------->|DATA|NAME:I have returned the Glove of Sanguine Safekeeping, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Glove of Sanguine Safekeeping, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=7443176761871420385(Topic:writ)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:There is an outstanding Writ on Mavon Drenim and a new Writ on Tirer Belvayn.|SCVR:24JX3MT_WritGalasa|INTV:d|SCVR:34JX3MT_WritGuril|INTV:d|SCVR:44JX3MT_WritVendu|INTV:d|SCVR:54JX3MT_WritSadus|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|DNAM:Morag Tong|NAME:There is an outstanding Writ on Mavon Drenim and a new Writ on Tirer Belvayn.|SCVR:04JX4MT_WritMavon|INTV:d|SCVR:14JX4MT_WritBelvayn|INTV:d
+
+[MOD-INF]: ID=8061197702521931971(Topic:tirer belvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:We have a Writ for the honorable execution of Tirer Belvayn. He may be found in Shara, which is on the southwest coast of Sheogorad. Go to Dagon Fel and follow the road south past the Dwemer ruins and west until a branch heads southwest to the coast. Shara is to the south. Go now.|SCVR:44JX3MT_WritGuril|INTV:d|SCVR:54JX3MT_WritGalasa|INTV:d|BNAM:Journal MT_WritBelvayn 10  Player->AddItem "writ_belvayn" 1  ShowMap "Dagon Fel"
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:We have a Writ for the honorable execution of Tirer Belvayn. He may be found in Shara, which is on the southwest coast of Sheogorad. Go to Dagon Fel and follow the road south past the Dwemer ruins and west until a branch heads southwest to the coast. Shara is to the south. Go now.|BNAM:Journal MT_WritBelvayn 10  Player->AddItem "writ_belvayn" 1  ShowMap "Dagon Fel"
+
+[MOD-INF]: ID=8522125742262915705(Journal:mt_s_sureflight)
+  morrowind.esm----------->|DATA|NAME:I have returned the Belt of Sanguine Sureflight, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Belt of Sanguine Sureflight, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=8824108712253426672(Topic:brilnosu llarys)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[MOD-INF]: ID=8913202573267231606(Topic:ethal seloth)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I heard how to brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ.|SCVR:34JX0MT_WritVendu|INTV:Z|BNAM:Journal MT_WritVendu 110  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:I heard how you brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ. You also get a bonus for killing Idroso without the guards being notified.|SCVR:04JX0MT_WritVendu|INTV:Z|SCVR:16DX2ethal seloth|INTV:|SCVR:26DX2idroso vendu|INTV:|BNAM:Journal MT_WritVendu 110  Player->AddItem Gold_001 1250  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+
+[MOD-INF]: ID=9618227711666925507(Journal:mt_s_fleetness)
+  morrowind.esm----------->|DATA|NAME:I have returned the Belt of Sanguine Fleetness, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Belt of Sanguine Fleetness, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=9648131022500619177(Topic:writ)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:I have no writs for you at this time.|SCVR:34JX3MT_WritNavil|INTV:d|SCVR:44JX3MT_WritBemis|INTV:d|SCVR:54JX3MT_WritBrilnosu|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:eno hlaalu|FNAM:Morag Tong|DNAM:Morag Tong|NAME:I have given you a writ already.|SCVR:04JX4MT_WritOran|INTV:d
+
+[MOD-INF]: ID=11558235922482212761(Topic:sarayn sadus)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have already executed the Writ on Sarayn Sadus.|SCVR:34JX3MT_WritSadus|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You have already executed the Writ on Sarayn Sadus.|SCVR:34JX3MT_WritSadus|INTV:d
+
+[MOD-INF]: ID=11728214551281420013(Topic:mathyn bemis)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:So Mathyn Bemis is dead. No trouble? Good. Here is your payment.|SCVR:34JX0MT_WritBemis|INTV:Z|BNAM:Journal MT_WritBemis 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:So Mathyn Bemis is dead. No trouble? Good. Here is your payment and bonus.|SCVR:34JX0MT_WritBemis|INTV:Z|BNAM:Journal MT_WritBemis 100  Player->AddItem Gold_001 1250  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+
+[MOD-INF]: ID=11860236751078012199(Topic:odaishah yasalmibaal)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I hear that Odaishah Yasalmibaal is dead. Good. Here is your payment for this Writ.|SCVR:34JX0MT_WritYasalmibaal|INTV:P|BNAM:Journal MT_WritYasalmibaal 100  Player->AddItem Gold_001 500  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I hear that Odaishah Yasalmibaal is dead. Good. Here is your payment for this Writ.|SCVR:34JX0MT_WritYasalmibaal|INTV:P|BNAM:Journal MT_WritYasalmibaal 100  Player->AddItem Gold_001 500  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=12187243862485019120(Journal:mt_s_silver)
+  morrowind.esm----------->|DATA|NAME:I have returned the Ring of Sanguine Silver Wisdom, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Ring of Sanguine Silver Wisdom, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=12272303532466530055(Topic:tirer belvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[MOD-INF]: ID=12456269712089918557(Journal:mt_s_sublime)
+  morrowind.esm----------->|DATA|NAME:Grandmaster Eno Hlaalu asked me to return the Ring of Sublime Wisdom, one of the 27 Threads of the Webspinner. It is being held by Anel Rethelas in Yasammidan, which is west of Ald Velothi, past the Dwemer ruins.
+  Morag Tong Polished.esp->|DATA|NAME:Grandmaster Eno Hlaalu asked me to return the Ring of Sublime Wisdom, one of the 27 Threads of the Webspinner. It is being held by Anel Rethelas in Yasammidan, which is west of Ald Velothi, past the Dwemer ruins.|QSTF
+
+[MOD-INF]: ID=13529141851538725864(Journal:mt_s_hewing)
+  morrowind.esm----------->|DATA|NAME:I have returned the Belt of Sanguine Hewing, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Belt of Sanguine Hewing, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=13937285692277523983(Topic:toris saren)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Toris Saren may be found in Saren Manor in the Plaza of the Redoran Canton here in Vivec. His family is influential. Make sure his execution is swift and honorable. You need no more instructions than this.|BNAM:Journal MT_WritSaren 10  Player->AddItem "writ_saren" 1
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:Toris Saren may be found in Saren Manor in the Plaza of the Redoran Canton in Vivec. His family is influential. Make sure his execution is swift and honorable. You need no more instructions than this.|BNAM:Journal MT_WritSaren 10  Player->AddItem "writ_saren" 1
+
+[MOD-INF]: ID=14063306481078030426(:dark brotherhood)
+  morrowind.esm----------->|DATA|ONAM:tsrazami|NAME:Fine with %Name.|SCVR:01500|INTV
+  Morag Tong Polished.esp->|NAME:Fine with %Name.|DELE:
+
+[MOD-INF]: ID=14133143502354820053(Topic:advancement)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Your honor and devotion to the Morag Tong is unmatched in the guild, but your technique is lacking. Redouble your training and practice your skills to become %PCName the %NextPCRank.|SCVR:01020|INTV
+  Morag Tong Polished.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Your honor and devotion to the Morag Tong is unmatched in the guild, but your technique is lacking. Redouble your training and practice your skills to become %PCName the %NextPCRank.|SCVR:01020|INTV
+
+[MOD-INF]: ID=15217306901428922005(Journal:mt_writgalasa)
+  tribunal.esm------------>|DATA|NAME:I have been given a Writ for the honorable execution of Galasa Uvayn. She may be found at the Hlaalu Treasury in the Waistworks of the Hlaalu Compound in Vivec.
+  Morag Tong Polished.esp->|DATA|NAME:Ethasi Rilvayn in Balmora has given me a Writ for the honorable execution of Galasa Uvayn. She may be found at the Hlaalu Treasury in the Waistworks of the Hlaalu Compound in Vivec.
+
+[MOD-INF]: ID=15314186931392128796(Journal:mt_writnavil)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Navil and Ranes Ienith.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Navil and Ranes Ienith to Dunsalipal Dun-Ahhe.|QSTF
+
+[MOD-INF]: ID=15576145121110011155(Topic:tirer belvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Tirer Belvayn is dead.|SCVR:34JX3MT_WritBelvayn|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:Tirer Belvayn is dead.|SCVR:34JX3MT_WritBelvayn|INTV:d
+
+[MOD-INF]: ID=16487130451745321035(Topic:mavon drenim)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You say Mavon Drenim is already dead? Then I am sorry I have wasted your time with this request, %PCName. I will give you credit for this Writ.|SCVR:06DX3mavon drenim|INTV|SCVR:34JX0MT_WritMavon|INTV:|BNAM:Journal MT_WritMavon 100  ModPCFacRep 5 "Morag Tong"
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You say Mavon Drenim is already dead? Then I am sorry I have wasted your time with this request, %PCName. I will give you credit for this Writ.|SCVR:06DX3mavon drenim|INTV|SCVR:34JX0MT_WritMavon|INTV:|BNAM:Journal MT_WritMavon 100  ModPCFacRep 5 "Morag Tong"
+
+[MOD-INF]: ID=17339245161099829703(Topic:sarayn sadus)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:A Writ has been invoked on Sarayn Sadus. I assign it to you, %PCName. He is hiding with other outlaws in Zaintirari. This is near the hut where you honorably murdered Odaishah Yasalmibaal. I will mark the Erabenimsun Camp on your map. From there, head northwest until you reach a steampit surrounded by dead trees. Zaintirari is to the north of this pit, but hidden by rocks. Search well, %PCName.|SCVR:44JX3MT_WritYasalmibaal|INTV:d|SCVR:54JX3MT_WritSaren|INTV:d|BNAM:Journal MT_WritSadus 10  Player->AddItem "writ_sadus" 1  ShowMap "Erabenimsun Camp"
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:A Writ has been invoked on Sarayn Sadus. I assign it to you, %PCName. He is hiding with other outlaws in Zaintirari. I will mark the Erabenimsun Camp on your map. From there, head northwest until you reach a steam pit surrounded by dead trees. Zaintirari is to the north of this pit, but hidden by rocks. Search well, %PCName.|BNAM:Journal MT_WritSadus 10  Player->AddItem "writ_sadus" 1  ShowMap "Erabenimsun Camp"
+
+[MOD-INF]: ID=17521268213258123123(Topic:toris saren)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Toris Saren is dead by your hand.|SCVR:34JX3MT_WritSaren|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:Toris Saren is dead by your hand.|SCVR:34JX3MT_WritSaren|INTV:d
+
+[MOD-INF]: ID=18027327602606020970(Greeting:greeting 4)
+  morrowind.esm----------->|DATA|ONAM:guril retheran|NAME:The Morag Tong! They found me! Help! Please... spare me!|SCVR:34JX3MT_WritGuril|INTV: |BNAM:Goodbye
+  Morag Tong Polished.esp->|DATA|ONAM:guril retheran|NAME:The Morag Tong! They found me! Help! Please... Spare me!|SCVR:05IX2writ_guril|INTV:|SCVR:34JX3MT_WritGuril|INTV: |BNAM:Startcombat Player  Setflee 100  Setfight 0  Goodbye
+
+[MOD-INF]: ID=20066255772525114995(Journal:mt_writoran)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Feruren Oran.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Feruren Oran to Eno Hlaalu.|QSTF
+
+[MOD-INF]: ID=20151316162765014828(Journal:mt_s_swiftblade)
+  morrowind.esm----------->|DATA|NAME:I have returned the Glove of Sanguine Swiftblade, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Glove of Sanguine Swiftblade, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=20465231451806230869(Topic:grandmaster)
+  morrowind.esm----------->|DATA|ONAM:eno hlaalu|NAME:So be it. I will leave here soon. You are the new Grandmaster of the Morag Tong. Always watch for the Dark Brotherhood, for I am sure they will soon try to regain what you have taken from them here.|SCVR:01500|INTV|BNAM:Journal MT_Grandmaster 110  PCRaiseRank  Player->ModReputation 3
+  Morag Tong Polished.esp->|DATA|ONAM:eno hlaalu|NAME:So be it. I will leave here soon. You are the new Grandmaster of the Morag Tong. With this promotion, I give to you this armor, reserved only for the greatest of assassins such as yourself. The helm is on the table, and this key will open some of the chests here. Remember to always watch for the Dark Brotherhood, for I am sure they will soon try to regain what you have taken from them here.|SCVR:01500|INTV|BNAM:Journal MT_Grandmaster 110  PCRaiseRank  Player->ModReputation 3  Player->Additem CS_MMTC 1  Player->Additem CS_MMTG 1  Player->Additem CS_MMTLGN 1  Player->Additem CS_MMTLPL 1  Player->Additem CS_MMTRGN 1  Player->Additem CS_MMTRPL 1  Player->Additem CS_MMTB 1  Player->Additem CS_MTGMKey 1
+
+[MOD-INF]: ID=20802310122905011178(Topic:brilnosu llarys)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I heard that you executed Brilnosu Llarys. The honor and payment are yours.|SCVR:34JX0MT_WritBrilnosu|INTV:Z|BNAM:Journal MT_WritBrilnosu 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I heard that you executed Brilnosu Llarys. The honor and payment are yours, as well as a small bonus.|SCVR:34JX0MT_WritBrilnosu|INTV:Z|BNAM:Journal MT_WritBrilnosu 100  Player->AddItem Gold_001 1250  ModPCFacRep 5 "Morag Tong"  ModDisposition 10
+
+[MOD-INF]: ID=21638272831356111495(Topic:ienith)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:This is a Writ for two of Orvas Dren's men, Navil Ienith and Ranes Ienith. Both must be executed. They may be found on the Dren Plantation, which is east of Pelagiad and west of Suran. Mephala be with you.|SCVR:44JX3MT_WritBrilnosu|INTV:d|SCVR:54JX3MT_WritBemis|INTV:d|BNAM:Journal MT_WritNavil 10  Player->AddItem "writ_navil" 1  ShowMap "Dren Plantation"
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:This is a Writ for two of Orvas Dren's men, Navil Ienith and Ranes Ienith. Both must be executed. They may be found on the Dren Plantation, which is east of Pelagiad and west of Suran. Mephala be with you.|BNAM:Journal MT_WritNavil 10  Player->AddItem "writ_navil" 1  ShowMap "Dren Plantation"
+
+[MOD-INF]: ID=22040305282433819040(Topic:sarayn sadus)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[MOD-INF]: ID=22197144573075531930(Journal:mt_writguril)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Guril Retheran.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Guril Retheran to Ethasi Rilvayn.|QSTF
+
+[MOD-INF]: ID=22325307552520215055(Journal:mt_s_glibspeech)
+  morrowind.esm----------->|DATA|NAME:I have returned the Amulet of Sanguine Glib Speech, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Amulet of Sanguine Glib Speech, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=22344219741010228833(Topic:odaishah yasalmibaal)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[MOD-INF]: ID=23415198731698218366(Journal:mt_s_hornyfist)
+  morrowind.esm----------->|DATA|NAME:I have returned the Glove of the Sanguine Horny Fist, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Glove of the Sanguine Horny Fist, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=24528114032179413909(Journal:mt_s_transcendent)
+  morrowind.esm----------->|DATA|NAME:I have returned the Ring of Sanguine Transcendent Wisdom, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Ring of Sanguine Transcendent Wisdom, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=25066254782526024543(Journal:mt_writsadus)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Sarayn Sadus.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Sarayn Sadus to Dunsalipal Dun-Ahhe.|QSTF
+
+[MOD-INF]: ID=25706151801018223005(Topic:toris saren)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_saren|INTV|SCVR:34JX3MT_WritSaren|INTV: 
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:I have given this Writ to you already, %PCName.|SCVR:05IX0writ_saren|INTV|SCVR:34JX3MT_WritSaren|INTV: 
+
+[MOD-INF]: ID=25930263833097831841(Journal:mt_writvendu)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Ethal Seloth and Idroso Vendu.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Ethal Seloth and Idroso Vendu to Dunsalipal Dun-Ahhe.|QSTF
+
+[MOD-INF]: ID=25968105362150119292(Journal:mt_writmavon)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Mavon Drenim.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Mavon Drenim to Ethasi Rilvayn.|QSTF
+
+[MOD-INF]: ID=26349278512189825246(Topic:writ)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:I have a Writ on Mathyn Bemis and a Writ on Brilnosu Llarys.|SCVR:24JX3MT_WritMavon|INTV:d|SCVR:34JX3MT_WritBelvayn|INTV:d|SCVR:44JX3MT_WritGalasa|INTV:d|SCVR:54JX3MT_WritGuril|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|DNAM:Morag Tong|NAME:I have a Writ on Mathyn Bemis and a Writ on Brilnosu Llarys.|SCVR:04JX4MT_WritBemis|INTV:d|SCVR:14JX4MT_WritBrilnosu|INTV:d
+
+[MOD-INF]: ID=26492156523014210140(Journal:mt_s_denial)
+  morrowind.esm----------->|DATA|NAME:I have returned the Belt of Sanguine Denial, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Belt of Sanguine Denial, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=27694147892032929299(Topic:ethal seloth)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+
+[MOD-INF]: ID=27769263461326213092(Topic:galasa uvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have honorably slain Galasa Uvayn. You well deserve this payment and the honor of the kill.|SCVR:06DX3galasa uvayn|INTV|SCVR:34JX0MT_WritGalasa|INTV:P|BNAM:Journal MT_WritGalasa 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:You have honorably slain Galasa Uvayn. You well deserve this payment and the honor of the kill.|SCVR:06DX3galasa uvayn|INTV|SCVR:34JX0MT_WritGalasa|INTV:P|BNAM:Journal MT_WritGalasa 100  Player->AddItem Gold_001 1000  ModPCFacRep 5 "Morag Tong"  ModDisposition 5
+
+[MOD-INF]: ID=27894187011227219053(Topic:galasa uvayn)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:The Writ on Galasa Uvayn has been executed.|SCVR:34JX3MT_WritGalasa|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:ethasi rilvayn|FNAM:Morag Tong|NAME:The Writ on Galasa Uvayn has been executed.|SCVR:34JX3MT_WritGalasa|INTV:d
+
+[MOD-INF]: ID=28581290072196717427(Journal:mt_s_fluidevasion)
+  morrowind.esm----------->|DATA|NAME:I have returned the Ring of Sanguine Fluid Evasion, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Ring of Sanguine Fluid Evasion, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=28720175451455117129(Topic:ethal seloth)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:Both targets are not dead, %PCName. You have not finished the Writ.|SCVR:34JX0MT_WritVendu|INTV:K|BNAM:ModDisposition -2
+  Morag Tong Polished.esp->|DATA|ONAM:dunsalipal dun-ahhe|FNAM:Morag Tong|NAME:You should not be seeing this.|SCVR:34JX0MT_WritVendu|INTV:K|BNAM:ModDisposition -2
+
+[MOD-INF]: ID=29244102862295226906(Topic:odaishah yasalmibaal)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have executed this Writ already, %PCName.|SCVR:34JX3MT_WritYasalmibaal|INTV:d
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:You have executed this Writ already, %PCName.|SCVR:34JX3MT_WritYasalmibaal|INTV:d
+
+[MOD-INF]: ID=29275303911992717160(:dark brotherhood)
+  morrowind.esm----------->|DATA|ONAM:miun_gei|NAME:I don't know anything. I swear.
+  Morag Tong Polished.esp->|NAME:I don't know anything. I swear.|DELE:
+
+[MOD-INF]: ID=29439180751115513648(Journal:mt_s_martialcraft)
+  morrowind.esm----------->|DATA|NAME:I have returned the Belt of Sanguine Martial Craft, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Belt of Sanguine Martial Craft, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=29811176652328127737(Topic:odaishah yasalmibaal)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:An honorable Writ has been issued by a noble of House Telvanni for the Ashlander Odaishah Yasalmibaal. It will more trouble tracking him down that killing him. Take a boat from Sadrith Mora to Tel Aruhn. Swim southwest until you reach the coast. Odaishah has built his yurt right on the coast near the end of a small peninsula.|BNAM:Journal MT_WritYasalmibaal 10  Player->AddItem "writ_yasalmibaal" 1
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:An honorable Writ has been issued by a noble of House Telvanni for the Ashlander Odaishah Yasalmibaal. It will be more trouble tracking him down than killing him. Take a boat from Sadrith Mora to Tel Aruhn. Swim southwest until you reach the coast. Odaishah has built his yurt right on the coast near the end of a small peninsula.|BNAM:Journal MT_WritYasalmibaal 10  Player->AddItem "writ_yasalmibaal" 1
+
+[MOD-INF]: ID=30624262411039331061(Journal:mt_s_golden)
+  morrowind.esm----------->|DATA|NAME:I have returned the Ring of Sanguine Golden Wisdom, one of the 27 Threads of the Webspinner.
+  Morag Tong Polished.esp->|DATA|NAME:I have returned the Ring of Sanguine Golden Wisdom, one of the 27 Threads of the Webspinner.|QSTF
+
+[MOD-INF]: ID=30923121053170710200(Topic:toris saren)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You say Toris Saren is already dead? By your own hand? That is unfortunate. The Saren family is influential and it is clear that the execution of this Writ was not honorable. You will get credit for this Writ, but I must use the payment to mend relations with the Saren family.|SCVR:06DX3toris saren|INTV|SCVR:34JX0MT_WritSaren|INTV:|BNAM:Journal MT_WritSaren 100  ModPCFacRep 5 "Morag Tong"  ModDisposition -10
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:You say Toris Saren is already dead? By your own hand? That is unfortunate. The Saren family is influential and it is clear that the execution of this Writ was not honorable. You will get credit for this Writ, but I must use the payment to mend relations with the Saren family.|SCVR:06DX3toris saren|INTV|SCVR:34JX0MT_WritSaren|INTV:|BNAM:Journal MT_WritSaren 100  ModPCFacRep 5 "Morag Tong"  ModDisposition -10
+
+[MOD-INF]: ID=31443266882662526180(Journal:mt_writsaren)
+  tribunal.esm------------>|DATA|NAME:I reported the honorable execution of Toris Saren.|QSTF
+  Morag Tong Polished.esp->|DATA|NAME:I reported the honorable execution of Toris Saren to Goren Andarys.|QSTF
+
+[MOD-INF]: ID=31622245761269217751(Topic:toris saren)
+  morrowind.esm----------->|DATA|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV
+  Morag Tong Polished.esp->|DATA|ONAM:Goren Andarys|FNAM:Morag Tong|NAME:You have been expelled.|SCVR:01390|INTV

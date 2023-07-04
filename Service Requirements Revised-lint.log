@@ -1,0 +1,804 @@
+Service Requirements Revised.esp: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+
+[MOD-INF]: ID=147359766626164(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Imperial Legion|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Imperial Legion|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=232078936717898(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Mages Guild|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Mages Guild|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2728212663371163(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Hlaalu|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Hlaalu|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2897919116547674(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Imperial Cult|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Imperial Cult|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=3316194247704532(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Hlaalu|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Hlaalu|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=3361784827839403(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Imperial Cult|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Imperial Cult|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=3504322310185514(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Temple|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Temple|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=5544492626277152(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Fighters Guild|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Fighters Guild|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=5991560672051284(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Thieves Guild|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Thieves Guild|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=11749491672627904(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Temple|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Temple|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=13011255069313131(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Imperial Cult|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Imperial Cult|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=15053635854079270(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Telvanni|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Telvanni|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=15886534915437372(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Imperial Legion|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Imperial Legion|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=20591492253014677(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Hlaalu|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Hlaalu|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=23068512230722011(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Imperial Legion|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Imperial Legion|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=26280200299765087(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Thieves Guild|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Thieves Guild|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=27104661529628909(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Morag Tong|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Morag Tong|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=27428100624252850(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Telvanni|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Telvanni|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=29612957858811116(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Thieves Guild|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Thieves Guild|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=30722440423230439(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Temple|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Temple|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=32274246904673821(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Temple|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Temple|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=46239530102619813(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Morag Tong|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Morag Tong|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=61765631121194343(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Temple|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Temple|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=66501879951368132(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Mages Guild|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Mages Guild|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=68081962797431540(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Morag Tong|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Morag Tong|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=85061515238413292(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Telvanni|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Telvanni|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=95082932165426765(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Fighters Guild|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Fighters Guild|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=97146518222423520(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Redoran|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Redoran|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=97199660311192073(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Imperial Cult|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Imperial Cult|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=98201522829153966(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Hlaalu|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Hlaalu|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=107612232330815330(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Hlaalu|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Hlaalu|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=139353770152715165(Persuasion:service refusal)
+  patch for purists.esm------------>|DATA|RNAM:Wood Elf|FNAM:Hlaalu|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Hlaalu|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=139913145554121587(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Redoran|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Redoran|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=153712714653376040(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Thieves Guild|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Thieves Guild|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=158542557996917045(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Imperial Legion|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Imperial Legion|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=163745854205295189(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Fighters Guild|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Fighters Guild|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=167913282102497470(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Mages Guild|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Mages Guild|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=171639116305011844(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Telvanni|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Telvanni|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=177027227182012149(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Thieves Guild|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Thieves Guild|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=183431552857266986(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Fighters Guild|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Fighters Guild|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=185312899924288214(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Thieves Guild|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Thieves Guild|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=188167492985816438(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Hlaalu|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Hlaalu|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=198811261811312696(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Thieves Guild|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Thieves Guild|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=209281375883337301(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Morag Tong|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Morag Tong|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=212777441130329288(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Redoran|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Redoran|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=222285941466015959(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Redoran|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Redoran|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=228292431882786193(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Hlaalu|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Hlaalu|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=228510585256420886(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Mages Guild|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Mages Guild|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=229137642813616744(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Hlaalu|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Hlaalu|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=229483845103868477(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Redoran|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Redoran|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=232053316111739071(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Mages Guild|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Mages Guild|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=234542094427999132(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Telvanni|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Telvanni|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=244822021091121812(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Temple|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Temple|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=254052648124331884(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Fighters Guild|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Fighters Guild|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=255602209720959374(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Telvanni|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Telvanni|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=261358395208657286(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Redoran|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Redoran|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=261839246391615454(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Imperial Legion|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Imperial Legion|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=284989518267884542(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Mages Guild|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Mages Guild|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=301112532124004306(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Fighters Guild|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Fighters Guild|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=305076231252714653(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Mages Guild|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Mages Guild|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=314783877539211931(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Imperial Cult|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Imperial Cult|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=316114847792424996(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Imperial Cult|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Imperial Cult|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=328622121196587191(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Telvanni|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Telvanni|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=387031381294227495(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Morag Tong|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Morag Tong|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=390622102061114066(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Mages Guild|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Mages Guild|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=401298902250515677(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Temple|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Temple|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=440515993321527621(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Thieves Guild|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Thieves Guild|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=488318171191271698(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Imperial Cult|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Imperial Cult|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=506730521394727688(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Imperial Legion|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Imperial Legion|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=635213569815123863(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Redoran|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Redoran|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=670103361442317666(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Telvanni|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Telvanni|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=675921492207947350(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Hlaalu|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Hlaalu|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=719913571321211919(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Fighters Guild|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Fighters Guild|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=777726935199113379(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Imperial Legion|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Imperial Legion|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=786912151253629496(Persuasion:service refusal)
+  patch for purists.esm------------>|DATA|RNAM:Wood Elf|FNAM:Morag Tong|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Morag Tong|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=801171242963610533(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Morag Tong|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Morag Tong|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=805538021071813565(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Imperial Cult|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Imperial Cult|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=856030601888016555(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Telvanni|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Telvanni|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=856713693656414404(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Imperial Legion|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Imperial Legion|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=959211469735030099(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Morag Tong|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Morag Tong|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=990150491251013140(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Redoran|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Redoran|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=997320294226938158(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Fighters Guild|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Fighters Guild|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=998225658214427622(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Temple|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Temple|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1036368411720416904(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Temple|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Temple|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=1137912464871316201(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Redoran|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Redoran|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1181214171936621146(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Thieves Guild|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Thieves Guild|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1244124136801029965(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Fighters Guild|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Fighters Guild|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1271815381958525230(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Hlaalu|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Hlaalu|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1357521845422117485(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Imperial Cult|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Imperial Cult|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=1440231849650519118(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Fighters Guild|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Fighters Guild|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=1447248892965430438(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Hlaalu|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Hlaalu|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=1479029536527324747(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Imperial Cult|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Imperial Cult|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=1631429902248112690(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Temple|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Temple|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1721214471250220723(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Imperial Legion|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1727214981155720412(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Telvanni|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Telvanni|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=1763211522769915318(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Mages Guild|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Mages Guild|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=1788677662675229827(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Thieves Guild|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Thieves Guild|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1829829189768927171(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Imperial Cult|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Imperial Cult|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1841371381818115530(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Telvanni|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Telvanni|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1897812929366929304(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Mages Guild|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Mages Guild|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1922919187540014555(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Morag Tong|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Morag Tong|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=1995742891911223986(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Redoran|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Redoran|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2015120251306793451(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Thieves Guild|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Thieves Guild|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2072225072316684474(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Fighters Guild|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Fighters Guild|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2104815211135610148(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Redoran|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Redoran|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2108024865989929940(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Imperial Legion|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Imperial Legion|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2170199432650617071(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Morag Tong|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Morag Tong|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2202732345191315979(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Thieves Guild|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Thieves Guild|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2206947891359521977(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Telvanni|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Telvanni|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2227420490151091872(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Thieves Guild|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Thieves Guild|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2252827819855930242(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Fighters Guild|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Fighters Guild|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2478723679282204596(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Fighters Guild|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Fighters Guild|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2496070411287512130(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Imperial Legion|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Imperial Legion|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2504112008890815653(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Fighters Guild|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Fighters Guild|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2578991402563420486(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Imperial Legion|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Imperial Legion|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2612430417119534004(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Temple|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Temple|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2620522643120072898(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Imperial Legion|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2655311767972523355(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Fighters Guild|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Fighters Guild|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2673321210836620346(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Hlaalu|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Hlaalu|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2674120808223158958(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Morag Tong|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Morag Tong|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2679126657160852314(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Thieves Guild|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Thieves Guild|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2726131888241572189(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Temple|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Temple|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2740067301744022142(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Imperial Cult|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Imperial Cult|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2754417723112928716(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Imperial Legion|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Imperial Legion|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2776514039269771660(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Thieves Guild|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Thieves Guild|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2814315838385512032(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Hlaalu|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Hlaalu|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2928598872632726697(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Morag Tong|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Morag Tong|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2947184772668428016(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Imperial Cult|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Imperial Cult|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=2975430419256727818(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Redoran|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Redoran|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=2991566202547623758(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Temple|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Temple|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=3057213104744910473(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Redoran|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Redoran|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=3085622585823618652(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Redoran|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Redoran|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=3099612586852222907(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Morag Tong|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Morag Tong|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=3234698572655427580(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Telvanni|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Telvanni|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=3248121103133430232(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Thieves Guild|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Thieves Guild|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=3304296813014031811(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Imperial Legion|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Imperial Legion|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=4947196993132126615(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Morag Tong|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Morag Tong|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=4963125811874918500(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Redoran|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Redoran|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=5205310032269722966(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Imperial Cult|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Imperial Cult|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=6310254312918326792(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Mages Guild|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Mages Guild|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=6417231692435811736(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Telvanni|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Telvanni|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=6448105132896627122(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Fighters Guild|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Fighters Guild|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=7436141551606726634(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Imperial Legion|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Imperial Legion|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=8077199921502012362(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Morag Tong|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Morag Tong|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=8194311313136111722(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Temple|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Temple|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=9889118801876117325(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Temple|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Temple|NAME:Rank has privilege, %PCName. And the really GOOD services, like mine, are reserved for higher ranks.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Breton ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=10587309131832629595(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Morag Tong|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Morag Tong|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=11784199431540127636(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Telvanni|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Telvanni|NAME:What is your rank? %PCRank? Then my services are not for you. Not yet.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Nord ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=12511270811418224023(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Temple|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Temple|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=12957241603014511444(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Morag Tong|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Morag Tong|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=13020268751204411647(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Mages Guild|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Mages Guild|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=13369242242758228534(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Morag Tong|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Morag Tong|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=13518122451307420330(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Telvanni|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Telvanni|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=14621298361081628819(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Imperial Legion|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Imperial Legion|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=14725177232349518960(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Imperial Cult|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Imperial Cult|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=14776325153048920384(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Temple|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Temple|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=14862193942804117493(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Telvanni|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Telvanni|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=15059313431298411569(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Breton|FNAM:Fighters Guild|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Breton|FNAM:Fighters Guild|NAME:Pity. You're not a member of the %faction, are you? Then I can't offer you services.|SCVR:01460|INTV:|BNAM:;Breton ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=15146151042139030418(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Morag Tong|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Morag Tong|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=15246287441882826003(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Imperial Legion|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Imperial Legion|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=15691192111373413626(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Imperial Cult|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Imperial Cult|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=15965161562770227366(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Fighters Guild|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Fighters Guild|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=17233285782162611050(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Thieves Guild|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Thieves Guild|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=17297190861878130407(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Hlaalu|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Hlaalu|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=19048136093181626414(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Redoran|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Redoran|NAME:You do not have the good fortune to be a member, %PCName. So you must seek elsewhere for your services.|SCVR:01460|INTV:|BNAM:;High Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=19491238341389220281(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Morag Tong|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Morag Tong|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=20079288363022620463(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Thieves Guild|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Thieves Guild|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=20681267861972110997(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Telvanni|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Telvanni|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=20780311431391931121(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Thieves Guild|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Thieves Guild|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=20979248071888118554(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Mages Guild|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Mages Guild|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=21531308262821919326(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Imperial Legion|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Imperial Legion|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=22089170202727716353(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Mages Guild|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Mages Guild|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=22873129913225824823(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Imperial Cult|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Imperial Cult|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=23962206092534519447(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Temple|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Temple|NAME:I am sorry, %PCName. My special services are a privilege of higher rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Argonian ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=24239228661974212151(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Mages Guild|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Mages Guild|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=24761273043016518434(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Mages Guild|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Mages Guild|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=25191291271972920965(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Mages Guild|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Mages Guild|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=25203118921904322540(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Mages Guild|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Mages Guild|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=26135324193087718394(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Fighters Guild|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Fighters Guild|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=26289176122062812941(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Mages Guild|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Mages Guild|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=26313214391179514429(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Nord|FNAM:Redoran|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Nord|FNAM:Redoran|NAME:Are you a member? No? Then my services are not for you.|SCVR:01460|INTV:|BNAM:;Nord ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=26447153981501831420(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Hlaalu|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Hlaalu|NAME:%Faction members only, %PCName. Sorry, but those are our rules.|SCVR:01460|INTV:|BNAM:;Redguard ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=26801136331891423244(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Hlaalu|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Hlaalu|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=26910122961421825954(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Temple|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Temple|NAME:I'm sorry, but I provide services only to members of the %Faction.|SCVR:01460|INTV:|BNAM:;Imperial ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=27079147542329119696(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Imperial Cult|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Imperial Cult|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=27086256871176411802(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Redoran|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Redoran|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=27184193062178123326(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Imperial Cult|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Imperial Cult|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=27230135622820815171(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Redguard|FNAM:Thieves Guild|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Redguard|FNAM:Thieves Guild|NAME:What is your rank? %PCRank? Oh. Well. Sorry. Not yet. Wait until you've earned the privileges of rank, like the rest of us did.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Redguard ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=27420150811795126129(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:High Elf|FNAM:Mages Guild|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:High Elf|FNAM:Mages Guild|NAME:I don't believe you are of sufficiently high rank, %PCName, to enjoy my superlative services. But do well, and one day perhaps you, too, will enjoy this exceptional good fortune.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;High Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=27957161442683230223(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Redoran|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Redoran|NAME:%Name cannot serve you if you are not member of the %faction.|SCVR:01460|INTV:|BNAM:;Khajiit ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=28095147952338626832(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Imperial|FNAM:Hlaalu|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Imperial|FNAM:Hlaalu|NAME:My services are reserved as a privilege of higher rank, %PCName. But serve well, win advancement, and your turn will come.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Imperial ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=28484325062516730056(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Redoran|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Redoran|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=30281135792278027762(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Telvanni|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Telvanni|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=30896317432343112539(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Imperial Cult|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Imperial Cult|NAME:What's your rank, %PCName? No. Sorry. Later, perhaps, when you're higher rank. But not now.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Dark Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=31150226861356910847(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Fighters Guild|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Fighters Guild|NAME:Not yet, %PCName. Not at your rank.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Orc ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=31343192181707519412(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Wood Elf|FNAM:Hlaalu|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Wood Elf|FNAM:Hlaalu|NAME:I would love to help you out, but our services are reserved for members only. Sorry.|SCVR:01460|INTV:|BNAM:;Wood Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=32048220361751524075(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Orc|FNAM:Telvanni|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Orc|FNAM:Telvanni|NAME:Join the %Faction if you want to use MY services, %PCRace.|SCVR:01460|INTV:|BNAM:;Orc ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=32233219981473917148(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Dark Elf|FNAM:Imperial Legion|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Dark Elf|FNAM:Imperial Legion|NAME:Faction members only, %PCRace.|SCVR:01460|INTV:|BNAM:;Dark Elf ;SameFaction = 0; Rank =2
+
+[MOD-INF]: ID=32411176481480311245(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Khajiit|FNAM:Temple|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Khajiit|FNAM:Temple|NAME:%Name can serve higher ranks only, sera. Sorry, but %Name must follow the rules.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Khajiit ;SameFaction = 1; Faction Rank Difference >= -4
+
+[MOD-INF]: ID=32525156863121714899(Persuasion:service refusal)
+  morrowind.esm-------------------->|DATA|RNAM:Argonian|FNAM:Hlaalu|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2
+  Service Requirements Revised.esp->|DATA|ONAM:dialog placeholder|RNAM:Argonian|FNAM:Hlaalu|NAME:Forgive me. I can only serve members of the %Faction.|SCVR:01460|INTV:|BNAM:;Argonian ;SameFaction = 0; Rank =2

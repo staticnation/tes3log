@@ -1,0 +1,18 @@
+JMK-Mysterious Floating Island.esp: AUTOSPL DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	jmkmfi_shrny                   Island Blessing
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKMFI-BonusShrine)
+	SCPT(JMKMFI-LoveSeat)
+	SCPT(MFISharedClothez)
+    [JUNKCEL] Junk Cells:                        Flags
+	West Gash Region (-15, 12)               0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=21232247303007417(Greeting:greeting 5)
+  |DATA|ONAM:ethys savil|NAME:Oh, go away, will you.|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=21299202901721431424(Greeting:greeting 5)
+  |DATA|ONAM:ethys savil|NAME:Hey, look. It's none of my business. Folks want to talk to a filthy lizard, it's their problem, not mine. Got out of here. And good riddance.|SCVR:01630|INTV:|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:Journal, "A1_7HuleeyaInformant", 15

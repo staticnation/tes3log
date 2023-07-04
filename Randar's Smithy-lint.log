@@ -1,0 +1,34 @@
+Randar's Smithy.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Wares-base.esm                133354 (plugin)      82499 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mc_anvil_startup)
+	SCPT(rs_anvil_swapper)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       PGRD    seyda neen
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+
+[MOD-INF]: ID=5553705712003887(Topic:someone in particular)
+  morrowind.esm------->|DATA|ANAM:Seyda Neen|NAME:The Altmer Arrille runs Arrille's Tradehouse. Socucius Ergalla is the chief agent at the Census and Excise offices.|SCVR:07XX0arrille|INTV|SCVR:17XX0chargen class|INTV|SCVR:2CsX0NoLore|INTV|INTV|BNAM:;Seyda Neen;
+  Randar's Smithy.esp->|DATA|ANAM:Seyda Neen|NAME:The Altmer Arrille runs Arrille's Tradehouse. Socucius Ergalla is the chief agent at the Census and Excise offices. Randar is our local smith.|SCVR:07XX0arrille|INTV|SCVR:17XX0chargen class|INTV|SCVR:2CsX0NoLore|INTV|INTV|SCVR:47XX0rs_smith_randar|INTV|BNAM:;Seyda Neen;
+
+[DUP-INF]: ID=238503076378412623(Topic:services)
+  |DATA|ANAM:Balmora|NAME|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;Balmora
+
+[MOD-INF]: ID=1947411886858921680(Topic:someone in particular)
+  morrowind.esm------->|DATA|ANAM:Balmora|NAME:None of the Hlaalu counselors live in Balmora. Nileno Dorvayn at the Council Hall is the ranking Hlaalu local. At the Fighters Guild, Eydis Fire-Eye is the steward. Ethasi Rilvayn is the Morag Tong steward. Feldrelo Sadri is the steward for the Balmora Tribunal Temple. Sugar Lips Habasi is the local Thieves Guild boss. Who am I missing? Oh. Mages Guild. Ranis Athrys is their steward.|SCVR:07XX0nileno dorvayn|INTV|SCVR:1CsX0nolore|INTV:|SCVR:27XX0ethasi rilvayn|INTV|SCVR:37XX0feldrelo sadri|INTV|SCVR:47XX0habasi|INTV|SCVR:57XX0ranis athrys|INTV|BNAM:;Balmora
+  Randar's Smithy.esp->|DATA|ANAM:Balmora|NAME:None of the Hlaalu counselors live in Balmora. Nileno Dorvayn at the Council Hall is the ranking Hlaalu local. At the Fighters Guild, Eydis Fire-Eye is the steward. Ethasi Rilvayn is the Morag Tong steward. Feldrelo Sadri is the steward for the Balmora Tribunal Temple. Sugar Lips Habasi is the local Thieves Guild boss. Who am I missing? Oh. Mages Guild. Ranis Athrys is their steward.|SCVR:07XX0nileno dorvayn|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0ethasi rilvayn|INTV|SCVR:37XX0feldrelo sadri|INTV|SCVR:47XX0habasi|INTV|SCVR:57XX0ranis athrys|INTV|BNAM:;Balmora
+
+[MOD-INF]: ID=11076147282210315417(Topic:services)
+  morrowind.esm------->|DATA|ANAM:Seyda Neen|NAME:Get food and sundries from Arrille's Tradehouse. That's also where you'll find anyone who offers training. Not much else in the way of services in this damp little squat.|SCVR:07XX0arrille|INTV|SCVR:1CsX0NoLore|INTV|INTV|SCVR:3CsX0NoLore|INTV:|BNAM:;Seyda Neen;
+  Randar's Smithy.esp->|DATA|ANAM:Seyda Neen|NAME:Get food and sundries from Arrille's Tradehouse. That's also where you'll find anyone who offers training. Randar is our local smith. Not much else in the way of services in this damp little squat.|SCVR:07XX0arrille|INTV|SCVR:1CsX0NoLore|INTV|INTV|SCVR:3CsX0NoLore|INTV:|SCVR:47XX0rs_smith_randar|INTV|BNAM:;Seyda Neen;
+
+[DUP-INF]: ID=16027228191418416208(Topic:latest rumors)
+  |DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0nolore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=21101133601380211667(Greeting:greeting 5)
+  |DATA|ONAM:general darius|NAME:Report on the land deed.|SCVR:04JX2IL_WidowLand|INTV:|SCVR:14JX4IL_WidowLand|INTV:d

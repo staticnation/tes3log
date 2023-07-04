@@ -1,0 +1,31 @@
+BetterDwemerInteriors (2).esp: DUP-REC GETSND MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(Sound_Skitter_loop)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BDI_door_FuseAA)
+	SCPT(BDI_door_GearAA)
+	SCPT(BDI_door_JunctionAA)
+	SCPT(BDI_door_PipeAA)
+	SCPT(BDI_door_PowerAA)
+	SCPT(Sound_Skitter_loop)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    door_dwrv_inner00
+	morrowind.esm       LIGH    light_dwrv_neon01
+	tribunal.esm        CREA    centurion_steam
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LIGH    light_com_candle_01
+	bloodmoon.esm       LIGH    light_com_lantern_01
+	morrowind.esm       CREA    daedroth_fg_nchur
+	morrowind.esm       LIGH    light_dwrv_neonbroke_off
+	morrowind.esm       NPC_    boss crito
+	morrowind.esm       NPC_    idhdean tailas
+	morrowind.esm       PGRD    arkngthand, deep ore passage
+	morrowind.esm       PGRD    arkngthand, hall of centrifuge
+	morrowind.esm       PGRD    arkngthand, heaven's gallery
+	morrowind.esm       PGRD    arkngthand, land's blood gallery
+	morrowind.esm       PGRD    arkngthand, weepingbell hall
+	morrowind.esm       WEAP    iron warhammer

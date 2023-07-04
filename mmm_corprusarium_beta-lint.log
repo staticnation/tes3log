@@ -1,0 +1,87 @@
+mmm_corprusarium_beta.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BAL_nolore_gamma)
+	SCPT(bal_maze_script)
+	SCPT(bal_nolore_uupse)
+	SCPT(bal_player_treasure_check)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    chest_small_divayth06
+	morrowind.esm       CONT    de_r_chest_01_tel_fyr
+	morrowind.esm       CONT    divayth_fyr_closet
+	morrowind.esm       CONT    dwrv_chest_divayth00
+	morrowind.esm       CONT    dwrv_chest_divayth02
+	morrowind.esm       CONT    dwrv_chest_divayth03
+	morrowind.esm       CONT    dwrv_chest_divayth05
+	morrowind.esm       NPC_    uupse fyr
+	morrowind.esm       PGRD    corprusarium
+	morrowind.esm       PGRD    corprusarium bowels
+	morrowind.esm       WEAP    dwarven_hammer_volendrung
+	tribunal.esm        DIAL    a2_3_corpruscure
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=2492049788411205(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:divayth fyr|NAME:You again? A surprise, and a pleasure! Didn't we have a satisfactory chat? Something else you want to know about the divine disease? Eager to plunder the dungeon? Questions about my daughters?
+  mmm_corprusarium_beta.esp->|DATA|ONAM:divayth fyr|NAME:You again? A surprise, and a pleasure! Didn't we have a satisfactory chat? Something else you want to know about the divine disease? Eager to plunder the dungeon? Questions about my daughters?|BNAM:;Divayth Fyr  if ( getjournalindex "A2_3_CorprusCure" < 25 )    Choice "Greetings Lord Fyr, I am %PCName, Nerevarine Incarnate, and I have urgent business with you." 2 "Divine? Not a single second since I have contracted this blight upon my soul has been divine!" 4  endif  if ( player->getitemcount "misc_dwrv_artifact50" >= 1 )      Choice "I heard you have a passion for artifacts, what do you think of this piece?" 3  endif  Choice "A dungeon? Well adventuring is a hobby of mine, tell me more." 5 "...Leer at your daughters? Are they being opted for marriage?" 6 "Sorry to have distraced you from your work, I'll be going." 7
+
+[MOD-INF]: ID=5956678272375208(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:divayth fyr|NAME:Well? Are you ready to take the potion?|SCVR:04JX0A2_3_CorprusCure|INTV:.|BNAM:;Divayth Fyr; Journal "A2-3_CorprusCure" = 46
+  mmm_corprusarium_beta.esp->|DATA|ONAM:divayth fyr|NAME:Well? Are you ready to take the potion?|SCVR:04JX0A2_3_CorprusCure|INTV:.|BNAM:;Divayth Fyr; Journal "A2-3_CorprusCure" = 46  Choice "Um alright, give it here." 41  "No, I've had enough of your games. Give me the potion so that I may be gone." 42 "I've changed my mind. Goodbye." 43
+
+[MOD-INF]: ID=99541721656920991(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:yagrum bagarn|NAME:I have Lord Fyr's Dwemer boots. That's what you're here for, aren't you?|SCVR:04JX3A2_3_CorprusCure|INTV|BNAM:;Yagrum Bagarn; Journal "A2_3_CorprusCure" >= 25  addtopic "my race"
+  mmm_corprusarium_beta.esp->|DATA|ONAM:yagrum bagarn|NAME:I have Lord Fyr's Dwemer boots. That's what you're here for, aren't you? I'm afraid the boots are inherently flawed and can not be fully repaired, give the Keeper my apoligies.|SCVR:04JX3A2_3_CorprusCure|INTV|BNAM:;Yagrum Bagarn; Journal "A2_3_CorprusCure" >= 25  addtopic "my race"  if ( player->getarmorer >= 50 )  Choice "Hm? Let me see... Ah you're missing a part of the boot here, it probably broke off distorting the enchantment, it looks like it could be repaired with some dwemer scrap." 1  endif  if ( player->getenchant >= 40 )  Choice "Hm? Let me see... Ah the enchantment is indeed flawed but it can be improved if the boots are fortified with scrap." 1  endif  Choice "Wait, what did you say you were?" 2 "Alright just give them here." 3
+
+[DUP-INF]: ID=111099892177678622(Greeting:greeting 1)
+  |DATA|NAME:You're new here, aren't you? My name is Uupse. Uupse Fyr. I take care of the corprus victims in the Corprusarium.|SCVR:01630|INTV
+
+[MOD-INF]: ID=159141733123312338(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:divayth fyr|NAME:A gift? For me? How thoughtful. And shrewd. I suppose you know I am a collector. And that such a gift is bound to please me. I congratulate you on your diplomatic skills. So, why have you tried to butter me up? Come to consult the great Divayth Fyr? You have the divine disease? Want to plunder the dungeon? Or leer at my daughters?|SCVR:01500|INTV|SCVR:15IX3misc_dwrv_artifact50|INTV|BNAM:;Divayth Fyr; item misc_dwrv_artifact50 = 1; 1;   Player->RemoveItem misc_dwrv_artifact50 1  Journal "A2_3_CorprusCure" 15  SetDisposition 80
+  mmm_corprusarium_beta.esp->|DATA|ONAM:a shady smuggler|NAME:A gift? For me? How thoughtful. And shrewd. I suppose you know I am a collector. And that such a gift is bound to please me. I congratulate you on your diplomatic skills. So, why have you tried to butter me up? Come to consult the great Divayth Fyr? You have the divine disease? Want to plunder the dungeon? Or leer at my daughters?|SCVR:01500|INTV|SCVR:15IX3misc_dwrv_artifact50|INTV|BNAM:;Divayth Fyr; item misc_dwrv_artifact50 = 1; 1;   Player->RemoveItem misc_dwrv_artifact50 1  Journal "A2_3_CorprusCure" 15  SetDisposition 80
+
+[DUP-INF]: ID=206504437650523776(Journal:a2_3_corpruscure)
+  |DATA|NAME:Corprus Cure|QSTN
+
+[DUP-INF]: ID=220921895306519514(Journal:a2_3_corpruscure)
+  |DATA|NAME:Yagrum Bagarn gave me the Dwemer boots Divayth Fyr asked for. Now, when I deliver these boots to Divayth Fyr, he will give me the potion that I hope will cure my corprus disease.
+
+[DUP-INF]: ID=365312161262776913(Greeting:greeting 1)
+  |DATA|ONAM:yagrum bagarn|NAME:So. It's you again. What brings you to visit Yagrum Bagarn, Master Crafter, and Last Living Dwarf?|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:11630|INTV|BNAM:; Yagrum Bagarn; Journal "C3_DestroyDagoth" >= 50
+
+[DUP-INF]: ID=739930370423116682(Journal:a2_3_corpruscure)
+  |DATA|NAME:Divayth Fyr has offered to give me a potion that may cure me of corprus disease. It might also kill me, but, as he says, I haven't a better choice. All I have to do is go down into the Corprusarium, find a corprus victim named Yagrum Bagarn, collect a pair of boots from him, then return to Divayth Fyr, and he'll give me the potion.
+
+[DUP-INF]: ID=768621470167948895(Greeting:greeting 1)
+  |DATA|ONAM:yagrum bagarn|NAME:So. It's you again. What brings you to visit Yagrum Bagarn, Master Crafter, and Last Living Dwarf?|SCVR:04JX3A2_3_CorprusCure|INTV:(|SCVR:11630|INTV|BNAM:;Yagrum Bagarn; Journal "A2_3_CorprusCure" >= 40
+
+[MOD-INF]: ID=1173513103130394974(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:yagrum bagarn|NAME:You're here for the Dwemer boots. Tell my gracious Keeper that I have done what I could. Only a Dwemer magecrafter could have done so much. But only idiots could have created these boots. It shames my race that we must be judged by the works of such lack-wit blunderers.|SCVR:04JX3A2_3_CorprusCure|INTV|SCVR:11630|INTV:|BNAM:;Yagrum Bagarn; Journal "A2_3_CorprusCure" >= 25
+  mmm_corprusarium_beta.esp->|DATA|ONAM:yagrum bagarn|NAME:Greetings stranger, you're here for the Dwemer boots. Tell my gracious Keeper that I have done what I could. Only a Dwemer magecrafter could have done so much. But only idiots could have created these boots. It shames my race that we must be judged by the works of such lack-wit blunderers.|SCVR:04JX3A2_3_CorprusCure|INTV|SCVR:11630|INTV:|BNAM:;Yagrum Bagarn; Journal "A2_3_CorprusCure" >= 25  if ( player->getarmorer >= 50 )  Choice "Hm? Let me see... Ah you're missing a part of the boot here, it probably broke off distorting the enchantment, it looks like it could be repaired with some dwemer scrap." 1  endif  if ( player->getenchant >= 40 )  Choice "Hm? Let me see... Ah the enchantment is indeed flawed but it can be improved if the boots are fortified with scrap." 1  endif  Choice "Wait, what did you say you were?" 2 "Great well that was a splendid use of my time, bye." 3
+
+[MOD-INF]: ID=1713964751441821381(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:divayth fyr|NAME:A pity. I can see why you'd want to keep such a lovely relic of Dwemer culture. But now, if you'll excuse me, I have no time for idle chatter.|SCVR:01500|INTV|SCVR:15IX3misc_dwrv_artifact50|INTV|BNAM:;Divayth Fyr; item misc_dwrv_artifact50 = 1; 2;   Journal "A2_3_CorprusCure" 10
+  mmm_corprusarium_beta.esp->|DATA|ONAM:a shady smuggler|NAME:A pity. I can see why you'd want to keep such a lovely relic of Dwemer culture. But now, if you'll excuse me, I have no time for idle chatter.|SCVR:01500|INTV|SCVR:15IX3misc_dwrv_artifact50|INTV|BNAM:;Divayth Fyr; item misc_dwrv_artifact50 = 1; 2;   Journal "A2_3_CorprusCure" 10
+
+[MOD-INF]: ID=2369510877628230235(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:divayth fyr|NAME:Well! What a pleasure! A visitor! An entertaining diversion! Come to consult the great Divayth Fyr? You have the divine disease? Want to plunder the dungeon? Or leer at my daughters?|SCVR:01630|INTV:|BNAM:;Divayth Fyr
+  mmm_corprusarium_beta.esp->|DATA|ONAM:divayth fyr|NAME:*The mer in front of you is busy going over notes and discussing various theories to himself. He is visibly very old and yet you feel a strong source of power emitting from him. He hears you approach and turns around to greet you.* Well! What a pleasure! A visitor! An entertaining diversion! Come to consult the great Divayth Fyr? You have the divine disease? Want to plunder the dungeon? Or leer at my daughters?|SCVR:01630|INTV:|BNAM:;Divayth Fyr  if ( getjournalindex "A2_3_CorprusCure" < 25 )    Choice "Greetings Lord Fyr, I am %PCName, Nerevarine Incarnate, and I have urgent business with you." 2 "Divine? Not a single second since I have contracted this blight upon my soul has been divine!" 4  endif  if ( player->getitemcount "misc_dwrv_artifact50" >= 1 )      Choice "I heard you have a passion for artifacts, what do you think of this piece?" 3  endif  Choice "A diversion? What am I distracting you from?" 1 "A dungeon? Well adventuring is a hobby of mine, 
+
+[DUP-INF]: ID=2577819245240634732(Journal:a2_3_corpruscure)
+  |DATA|NAME:I gave Divayth Fyr the Dwemer boots from Yagrum Bagarn, and he offered to give me the potion, but only if I'd take it right there, before his eyes, so he could closely observe its effects. Those are his conditions. He said to come back when I'm ready to take the potion.
+
+[MOD-INF]: ID=12986238521349227591(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:divayth fyr|NAME:Say. That's an interesting Dwemer piece you have there. What can you tell me about it?|SCVR:04JX1A2_3_CorprusCure|INTV: |SCVR:15IX3misc_dwrv_artifact50|INTV|BNAM:;Divayth Fyr; Journal " A2-3_CorprusCure" != 10;  item misc_dwrv_artifact50 = 1;   Choice "Offer the Dwemer artifact as a gift." 1 "Politely show him the piece, then put it away." 2
+  mmm_corprusarium_beta.esp->|DATA|ONAM:a shady smuggler|NAME:Say. That's an interesting Dwemer piece you have there. What can you tell me about it?|SCVR:04JX1A2_3_CorprusCure|INTV: |SCVR:15IX3misc_dwrv_artifact50|INTV|BNAM:;Divayth Fyr; Journal " A2-3_CorprusCure" != 10;  item misc_dwrv_artifact50 = 1;   Choice "Offer the Dwemer artifact as a gift." 1 "Politely show him the piece, then put it away." 2
+
+[DUP-INF]: ID=14697304452860824778(Journal:a2_3_corpruscure)
+  |DATA|NAME:I have been warned by Vistha-Kai, Warden of the Corprusarium, not to harm the inmates of the Corprusarium.
+
+[DUP-INF]: ID=21081215651840014044(Greeting:greeting 1)
+  |DATA|NAME
+
+[DUP-INF]: ID=27940198422920617515(Journal:a2_3_corpruscure)
+  |DATA|NAME:I gave Divayth Fyr the Dwemer boots from Yagrum Bagarn, and he gave me the potion. It didn't cure me. But it did remove all apparent signs of the disease. Divayth Fyr said he didn't actually WANT to cure me. He just wanted to remove the harmful features of the disease while preserving its virtues. It worked. And now Divayth Fyr is eager to test the potion on subjects in the Corprusarium. But I must hurry back to report to the Spymaster, and search for the lost prophecies.|QSTF
+
+[MOD-INF]: ID=31934113292128022669(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:divayth fyr|NAME:Well? Did you get my boots? No boots, no potion....|SCVR:04JX3A2_3_CorprusCure|INTV|BNAM:;Divayth Fyr; Journal "A2-3_CorprusCure" >= 25
+  mmm_corprusarium_beta.esp->|DATA|ONAM:divayth fyr|NAME:Welcome back %PCName, did you have a fun time in the dungeon? Do you have my boots? No boots, no potion...|SCVR:04JX3A2_3_CorprusCure|INTV|BNAM:;Divayth Fyr; Journal "A2_3_CorprusCure" >= 25  if ( getjournalindex A2_3_CorprusCure == 40 )  Choice "Yes, unfortunately Yagrum was unable to repair them." 38  endif  if ( getjournalindex A2_3_CorprusCure == 45 )  Choice "Yes here they are, and I went the extra mile of helping Yagrum repair them." 39  endif  Choice "No, I'll be back when I do." 40

@@ -1,0 +1,17 @@
+if_rethan_manor.ESP: DUP-REC MASTERS MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1255848 (plugin)    1567893 (installed size)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tamriel_data.esm    STAT    t_de_furn_tapestryhla_01
+	tamriel_data.esm    STAT    t_de_furn_tapestryhla_02
+	tamriel_data.esm    STAT    t_de_furn_tapestryhla_03
+	tamriel_data.esm    STAT    t_de_furn_tapestryhla_04
+	tamriel_data.esm    STAT    t_de_furn_tapestryhla_05
+	tamriel_data.esm    STAT    t_de_sethla_i_fireplace_01
+	tamriel_data.esm    STAT    t_de_sethla_i_fireplace_02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    ex_h_pcfort_01
+	morrowind.esm       LIGH    light_h_pcfort__01

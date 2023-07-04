@@ -1,0 +1,118 @@
+Fort Frostmoth Renovated.ESP: DUP-INF DUP-REC FOGBUG JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1314087 (plugin)    1567893 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Fort Frostmoth, General Quarters
+	Fort Frostmoth, Imperial Cult Shrine
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FFRBaratorMateiusScript)
+	SCPT(FFRCompanionScript)
+	SCPT(FFRDanelVelifusScript)
+	SCPT(FFRGeraltScript)
+	SCPT(FFRLupinScript)
+	SCPT(FFRNefarianScript)
+	SCPT(FFRNymeriaScript)
+	SCPT(FFROnyxiaScript)
+	SCPT(FFRRhaenyraScript)
+	SCPT(FFRRhoninScript)
+	SCPT(FFRStage0Disable)
+	SCPT(FFRStage0Enable)
+	SCPT(FFRStage1Disable)
+	SCPT(FFRStage1Enable)
+	SCPT(FFRStage1PersistEnable)
+	SCPT(FFRStage2Disable)
+	SCPT(FFRStage2Enable)
+	SCPT(FFRSummerScript)
+	SCPT(FFRVarianScript)
+	SCPT(FFRVilbiaHerenniaScript)
+	SCPT(FFRWalls)
+	SCPT(FFRWalls2)
+	SCPT(FFR_CFC_1)
+	SCPT(FFR_TheTorchSchedule)
+	SCPT(FFR_TheTorchScheduleBasksPost)
+	SCPT(FFR_TheTorchScheduleBasksPre)
+	SCPT(nunciusClosetScript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Hirstaang Forest Region (-21, 16)        0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ALCH    p_cure_common_s
+	morrowind.esm       ALCH    p_disease_resistance_s
+	morrowind.esm       ALCH    p_feather_q
+	morrowind.esm       ALCH    p_fire_resistance_c
+	morrowind.esm       ALCH    p_fortify_endurance_s
+	morrowind.esm       ALCH    p_fortify_health_c
+	morrowind.esm       ALCH    p_fortify_health_q
+	morrowind.esm       ALCH    p_fortify_intelligence_e
+	morrowind.esm       ALCH    p_fortify_speed_s
+	morrowind.esm       ALCH    p_fortify_strength_s
+	morrowind.esm       ALCH    p_frost_resistance_c
+	morrowind.esm       ALCH    p_frost_resistance_q
+	morrowind.esm       ALCH    p_frost_resistance_s
+	morrowind.esm       ALCH    p_levitation_b
+	morrowind.esm       ALCH    p_levitation_s
+	morrowind.esm       ALCH    p_lightning shield_s
+	morrowind.esm       ALCH    p_magicka_resistance_c
+	morrowind.esm       ALCH    p_magicka_resistance_q
+	morrowind.esm       ALCH    p_paralyze_b
+	morrowind.esm       ALCH    p_restore_agility_q
+	morrowind.esm       ALCH    p_restore_agility_s
+	morrowind.esm       ALCH    p_restore_fatigue_c
+	morrowind.esm       ALCH    p_restore_fatigue_s
+	morrowind.esm       ALCH    p_restore_health_s
+	morrowind.esm       ALCH    p_restore_intelligence_c
+	morrowind.esm       ALCH    p_restore_intelligence_q
+	morrowind.esm       ALCH    p_restore_luck_c
+	morrowind.esm       ALCH    potion_cyro_whiskey_01
+	morrowind.esm       ALCH    potion_local_liquor_01
+	morrowind.esm       ALCH    potion_skooma_01
+	tribunal.esm        ALCH    potion_local_brew_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    act_bm_rubble_01
+	bloodmoon.esm       ACTI    act_bm_rubble_02
+	bloodmoon.esm       ACTI    act_bm_wall_02
+	bloodmoon.esm       ACTI    act_bm_wall_03
+	bloodmoon.esm       ACTI    act_bm_wall_arch_02
+	bloodmoon.esm       ACTI    act_bm_wall_corner_01
+	bloodmoon.esm       ACTI    act_bm_wall_corner_02
+	bloodmoon.esm       DIAL    bit of help
+	bloodmoon.esm       DIAL    shipments stopped arriving
+	bloodmoon.esm       NPC_    antonius nuncius
+	bloodmoon.esm       NPC_    basks_in_the_sun
+	bloodmoon.esm       NPC_    bm_reinhardt
+	bloodmoon.esm       NPC_    carnius magius
+	bloodmoon.esm       NPC_    falx carius
+	bloodmoon.esm       NPC_    gaea artoria
+	bloodmoon.esm       NPC_    s'virr
+	bloodmoon.esm       NPC_    saenus lusius
+	bloodmoon.esm       NPC_    veresa alver
+	bloodmoon.esm       NPC_    vilbia herennia
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=7709380342601831(Greeting:greeting 1)
+  |DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you want? Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.|SCVR:04JX4BM_Morale|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=149479153259528429(Greeting:greeting 1)
+  bloodmoon.esm---------------->|DATA|ONAM:basks_in_the_sun|NAME:Welcome to Solstheim, jewel of absolutely nowhere. It's a miserable place, even for the warmbloods. If you want to leave, I'd be happy to take you back to Vvardenfell. If you feel you must stay, speak with Captain Falx Carius in his chambers at Fort Frostmoth. Captain Carius is the commander here. Not a bad man, but he is a fool for remaining in this place. So cold. So cold. If you are here about the colony, Carnius Magius is the man you will speak to. Find him at the Imperial Cult Shrine.|SCVR:04JX4BM_Rumors|INTV:d|BNAM:Journal BM_Rumors 100
+  Fort Frostmoth Renovated.ESP->|DATA|ONAM|FFR_Basks_In_The_Sun_2|NAME:Welcome to Solstheim, jewel of absolutely nowhere. It's a miserable place, even for the warmbloods. If you want to leave, I'd be happy to take you back to Vvardenfell. If you feel you must stay, speak with Captain Falx Carius in his chambers at Fort Frostmoth. Captain Carius is the commander here. Not a bad man, but he is a fool for remaining in this place. So cold. So cold. If you are here about the colony, Carnius Magius is the man you will speak to. Find him at the Imperial Cult Shrine.|SCVR:04JX4BM_Rumors|INTV:d|BNAM:Journal BM_Rumors 100
+
+[MOD-INF]: ID=265731538651344893(Topic:shipments stopped arriving)
+  bloodmoon.esm---------------->|DATA|ONAM:antonius nuncius|NAME:Thank you. Thank you so much. Look, take this key. You'll find all of the misplaced liquor in the closet. The troops will be happy to have it again. I'm sure they'll be more than happy to talk to you. Just don't tell them what I did.|SCVR:01500|INTV|BNAM:Journal BM_Morale 93  ModDisposition 30  Player->AddItem key_nuncius 1
+  Fort Frostmoth Renovated.ESP->|DATA|ONAM:antonius nuncius|NAME:Thank you. Thank you so much. Look, take this key. You'll find all of the misplaced liquor in a closet on the northern wall of this room. The troops will be happy to have it again. I'm sure they'll be more than happy to talk to you. Just don't tell them what I did.|SCVR:01500|INTV|BNAM:Journal BM_Morale 93  ModDisposition 30  Player->AddItem key_nuncius 1
+
+[MOD-INF]: ID=1231127201388311321(Topic:bit of help)
+  bloodmoon.esm---------------->|DATA|ONAM:falx carius|NAME:I would like you to work with one of my soldiers on this case. There are two available to you, and they are two of the best here at Fort Frostmoth: Saenus Lusius and Gaea Artoria. You'll find Lusius in the General Quarters, and Artoria in the General Quarters, Upper Level. Speak with them and decide which will be your companion. When you have unearthed the smuggling ring, report to me. I leave how you deal with the smugglers to your discretion.|SCVR:04JX4BM_Smugglers|INTV|BNAM:Journal BM_Smugglers 20
+  Fort Frostmoth Renovated.ESP->|DATA|ONAM:falx carius|NAME:I would like you to work with one of my soldiers on this case. There are two available to you, and they are two of the best here at Fort Frostmoth: Saenus Lusius and Gaea Artoria. You'll find Lusius in the men's barracks, and Artoria in the women's barracks, Upper Level. Speak with them and decide which will be your companion. When you have unearthed the smuggling ring, report to me. I leave how you deal with the smugglers to your discretion.|SCVR:04JX4BM_Smugglers|INTV|BNAM:Journal BM_Smugglers 20
+
+[DUP-INF]: ID=2210121278655515631(Topic:background)
+  |DATA|ONAM:mudcrab_unique|NAME:Whaddaya think? Sheesh. I'm a mudcarb... crab. Shure. A mudcrab. Thas me. Pretty sure. I LOOK like a mudcrab, right? Mush be. Thish IS me talking, right? So? I mush be...a talking mudcrab. And I sells stuff, right? So? I mush be a talking mudcrab merchant. Stands to reason, don't it?
+
+[MOD-INF]: ID=2724215468161597167(Greeting:greeting 1)
+  bloodmoon.esm---------------->|DATA|ONAM:basks_in_the_sun|NAME:Do you wish to go back to Vvardenfell as much as I do? What about Raven Rock, where the new colony is going to be built? I can take you there for a price.
+  Fort Frostmoth Renovated.ESP->|DATA|ONAM|FFR_Basks_In_The_Sun_2|NAME:Do you wish to go back to Vvardenfell as much as I do?|SCVR:04JX3BM_Rumors|INTV:d|SCVR:12sX4ColonyState|INTV
+
+[DUP-INF]: ID=9491183171690632220(Topic:background)
+  |DATA|ONAM:ra'gruzgob|NAME:I'm Ra'Gruzgob, the Khajiit.|BNAM:ClearInfoActor

@@ -1,0 +1,33 @@
+Morag Tong - Methas.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_MethasAmulet)
+	SCPT(_MethasKarsaski)
+	SCPT(_MethasNewMaster)
+	SCPT(_MethasNote)
+	SCPT(_MethasShanMaster)
+	SCPT(_MethasShanNormal)
+	SCPT(_MethasTest)
+	SCPT(_Methas_EthOnDth)
+	SCPT(_Methas_start)
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    leaflet
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    in_hlaalu_door_01
+	tribunal.esm        DOOR    in_hlaalu_door
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CLAS    assassin service
+	morrowind.esm       CLOT    expensive_amulet_methas
+	morrowind.esm       FACT    morag tong
+	morrowind.esm       LIGH    light_com_chandelier_03_01
+	morrowind.esm       MISC    key_balmorag_tong_01
+	morrowind.esm       NPC_    ethasi rilvayn
+	morrowind.esm       NPC_    gilyan sedas
+	morrowind.esm       NPC_    methas hlaalu
+	morrowind.esm       NPC_    shannat pansamsi
+	tribunal.esm        DIAL    greeting 0
+
+[DUP-INF]: ID=1949622479627313789(Topic:leaflet)
+  |DATA|ONAM:domalen|NAME:It has important information in it. Something must be done.|SCVR:04JX0EB_False|INTV: 

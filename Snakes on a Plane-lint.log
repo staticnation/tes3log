@@ -1,0 +1,169 @@
+Snakes on a Plane.esp: DUP-INF DUP-REC GETSND JUNKCEL MENUMOD MISSVER OVR-REC SCRDOOR
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(cg_soap_compscript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(1gr_compLevel)
+	SCPT(cg_bigdagon)
+	SCPT(cg_bigportal)
+	SCPT(cg_soap_admiralhitwarp)
+	SCPT(cg_soap_akulamansmake)
+	SCPT(cg_soap_backtoboat)
+	SCPT(cg_soap_bigchicken)
+	SCPT(cg_soap_bigcollide)
+	SCPT(cg_soap_biggerportal)
+	SCPT(cg_soap_biggerportal3)
+	SCPT(cg_soap_bigmuffin)
+	SCPT(cg_soap_bigmuffin2)
+	SCPT(cg_soap_dagonchickenfight)
+	SCPT(cg_soap_davedie)
+	SCPT(cg_soap_deadlandsmusic)
+	SCPT(cg_soap_deathoffrank)
+	SCPT(cg_soap_disableadmiral)
+	SCPT(cg_soap_disableadmiralend)
+	SCPT(cg_soap_disablealeftdoor)
+	SCPT(cg_soap_disablebeginningstuff)
+	SCPT(cg_soap_disablecarecil)
+	SCPT(cg_soap_disablecarecildeaad)
+	SCPT(cg_soap_disabledopplend)
+	SCPT(cg_soap_disablefire)
+	SCPT(cg_soap_disablefrankdeadlands)
+	SCPT(cg_soap_disablefrankislemines)
+	SCPT(cg_soap_disablesnakesend)
+	SCPT(cg_soap_disablesnakesend2)
+	SCPT(cg_soap_disablesnakesend3)
+	SCPT(cg_soap_disablesnakesmines)
+	SCPT(cg_soap_disablesnakesupper)
+	SCPT(cg_soap_disablevurmmines)
+	SCPT(cg_soap_dopplguardie)
+	SCPT(cg_soap_dopplkillseptim)
+	SCPT(cg_soap_duntleevmahbote)
+	SCPT(cg_soap_dunttuchmybarriar)
+	SCPT(cg_soap_finalwarp)
+	SCPT(cg_soap_frankcast)
+	SCPT(cg_soap_geldalldie)
+	SCPT(cg_soap_givejournal410)
+	SCPT(cg_soap_henriettafight)
+	SCPT(cg_soap_judge1)
+	SCPT(cg_soap_judge2)
+	SCPT(cg_soap_judge3)
+	SCPT(cg_soap_judgement)
+	SCPT(cg_soap_killdoppl1)
+	SCPT(cg_soap_killguar)
+	SCPT(cg_soap_killguards)
+	SCPT(cg_soap_killvurm1)
+	SCPT(cg_soap_leavetheisles)
+	SCPT(cg_soap_lockedaleftdoor)
+	SCPT(cg_soap_minefloorscript)
+	SCPT(cg_soap_minemachinescript)
+	SCPT(cg_soap_nominefloorscript)
+	SCPT(cg_soap_picardtravel)
+	SCPT(cg_soap_rasputinfinaldeath)
+	SCPT(cg_soap_rasputintruedeath)
+	SCPT(cg_soap_returnfromaleft)
+	SCPT(cg_soap_returnfromjudgement)
+	SCPT(cg_soap_rightway)
+	SCPT(cg_soap_roofledoorscript)
+	SCPT(cg_soap_samuelawaken)
+	SCPT(cg_soap_samuelsuperenabledoppl)
+	SCPT(cg_soap_samuelsuperenabletek)
+	SCPT(cg_soap_shepardfight)
+	SCPT(cg_soap_sleeponpaddle)
+	SCPT(cg_soap_spakeofstuffs)
+	SCPT(cg_soap_spakeofstuffs2)
+	SCPT(cg_soap_tiredofbattle)
+	SCPT(cg_soap_todukemeeting)
+	SCPT(cg_soap_toroofleausium)
+	SCPT(cg_soap_warpingtosecondboat)
+	SCPT(cg_soap_warptoboat)
+	SCPT(cg_soap_warptocarius)
+	SCPT(cg_soap_warptointercept)
+	SCPT(cg_soap_warptomuffin)
+	SCPT(cg_soap_warptotravelboat)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	chargen door captain                 CharGenDoorEnterCaptain
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (2, -14)           0x02
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    active_de_bedroll
+	bloodmoon.esm       ACTI    ex_colony_barn02
+	bloodmoon.esm       DOOR    ex_colony_door02_1
+	bloodmoon.esm       DOOR    ex_dae_door_load_oval
+	bloodmoon.esm       DOOR    ex_r_trapdoor_01
+	bloodmoon.esm       DOOR    in_com_traptop_01
+	bloodmoon.esm       DOOR    in_impsmall_loaddoor_01
+	bloodmoon.esm       DOOR    in_impsmall_trapdoor_01a
+	bloodmoon.esm       STAT    ex_dae_wall_512_04
+	bloodmoon.esm       STAT    in_dae_pillar_tall.max
+	bloodmoon.esm       STAT    in_dae_room_l_floor_01
+	morrowind.esm       ACTI    in_akulakhan00
+	morrowind.esm       ACTI    in_lava_1024_01
+	morrowind.esm       ACTI    in_lava_512
+	morrowind.esm       CONT    flora_muckspunge_06
+	morrowind.esm       DOOR    chargen customs door
+	morrowind.esm       DOOR    chargen door captain
+	morrowind.esm       DOOR    ex_common_door_01
+	morrowind.esm       DOOR    ex_common_door_balcony
+	morrowind.esm       DOOR    in_t_housepod_door_exit
+	morrowind.esm       LIGH    light_fire_400
+	morrowind.esm       PGRD    tel aruhn
+	morrowind.esm       STAT    collision wall - inviso!!
+	morrowind.esm       STAT    ex_dae_b_bo_head
+	morrowind.esm       STAT    ex_dae_mehrunesdagon
+	morrowind.esm       STAT    ex_dae_wall_512_03
+	morrowind.esm       STAT    in_dwrv_corr2_01
+	morrowind.esm       STAT    in_dwrv_corr2_03
+	morrowind.esm       STAT    in_dwrv_corr3_02
+	morrowind.esm       STAT    in_dwrv_corr4_04
+	morrowind.esm       STAT    in_dwrv_scope00
+	morrowind.esm       STAT    in_lava_rock_15
+	morrowind.esm       STAT    in_lava_rock_18
+	morrowind.esm       STAT    in_lava_rock_27
+	morrowind.esm       STAT    in_lava_rock_28
+	morrowind.esm       STAT    in_pyboulder05
+	morrowind.esm       STAT    in_velothilarge_hall_01
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    ex_de_ship_trapdoor
+	tribunal.esm        DOOR    ex_mh_palace_gate
+	tribunal.esm        DOOR    ex_nord_door_01
+	tribunal.esm        DOOR    ex_nord_door_01-back
+	tribunal.esm        DOOR    ex_velothi_loaddoor_01
+	tribunal.esm        DOOR    in_dae_door_01
+	tribunal.esm        DOOR    in_impsmall_door_01
+	tribunal.esm        DOOR    in_om_door_round
+	tribunal.esm        DOOR    in_r_s_door_01
+	tribunal.esm        DOOR    in_velothismall_ndoor_01
+	tribunal.esm        STAT    ex_ship_plank
+	tribunal.esm        STAT    in_dwe_turbine00_exp
+	tribunal.esm        STAT    in_lava_rock_07
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    mudcrab
+	morrowind.esm       NPC_    falura llervu
+	morrowind.esm       NPC_    vedam dren
+	tribunal.esm        DIAL    greeting 0
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=27872140243030921995(Topic:mudcrab)
+  |DATA|ONAM:neminda|NAME:Of course, as an outlander like myself you must know very little about mudcrabs. They are small creatures with a hard shell. They live mostly along the coast and they're usually not aggressive... but if they ever get the taste of meat, they become hunters. Some naturalists believe they are related to the Emperor Crab.

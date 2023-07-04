@@ -1,0 +1,30 @@
+EC_CareerChangeQuest.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	tribunal.esm        DIAL    background
+
+[DUP-INF]: ID=27268823331843134(Greeting:greeting 4)
+  |DATA|ONAM:tirer belvayn|NAME:You're no match for me!|SCVR:34JX3MT_WritBelvayn|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=30720953138123300(Greeting:greeting 4)
+  |DATA|ONAM:brilnosu llarys|NAME:Whatever trick this is... You'll taste my spells.|SCVR:34JX3MT_WritBrilnosu|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=42861608154112508(Greeting:greeting 4)
+  |DATA|ONAM:galasa uvayn|NAME:What are you doing here?|SCVR:34JX3MT_WritGalasa|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=286538470143286423(Greeting:greeting 4)
+  |DATA|ONAM:Navil Ienith|NAME:We've been expecting you.|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=666731499111789993(Topic:background)
+  morrowind.esm------------>|DATA|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+  EC_CareerChangeQuest.ESP->|DATA|ONAM:oboe|NAME:I am %name, %class. I used to be a warrior, fought and killed a loooot of people. Tends to get to you after awhile.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=2545120377597030349(Greeting:greeting 4)
+  |DATA|ONAM:galasa uvayn|NAME:The Morag Tong will pay for this insult!|SCVR:01620|INTV|SCVR:34JX3MT_WritGalasa|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=2978719872133784745(Greeting:greeting 4)
+  |DATA|ONAM:Ranes Ienith|NAME:We've been expecting you.|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=3953214983021829582(Greeting:greeting 4)
+  |DATA|ONAM:tirer belvayn|NAME:The Morag Tong is weak! I shall defeat you!|SCVR:34JX3MT_WritBemis|INTV: |BNAM:Goodbye

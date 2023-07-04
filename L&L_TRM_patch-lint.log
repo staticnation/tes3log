@@ -1,0 +1,16 @@
+L&L_TRM_patch.esp: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (38) != Actual count (37)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Cello_Add_Topic)
+	SCPT(Cello_Booty_Menu)
+	SCPT(Cello_End_Session2)
+	SCPT(Cello_Finalise_Session)
+	SCPT(_TLR_a_Erotisme)
+	SCPT(_TLR_a_Passe)
+	SCPT(_TLR_a_PayFine)
+	SCPT(_TLR_a_Racolage)
+	SCPT(_TLR_a_Romantisme)
+	SCPT(flig_llr_start)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1

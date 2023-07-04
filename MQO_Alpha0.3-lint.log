@@ -1,0 +1,550 @@
+MQO_Alpha0.3.ESP: DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT("_mqoAdhirranirrScript")
+	SCPT("_mqoHateCrimeScript")
+	SCPT("_mqoSharnNecroScript")
+	SCPT("_mqoSharnResponseScript")
+	SCPT("_mqoVivecInfScript")
+	SCPT(racistSafe)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    caius cosades
+	morrowind.esm       NPC_    huleeya
+	morrowind.esm       NPC_    sharn gra-muzgob
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    addhiranirr
+	morrowind.esm       DIAL    andrano ancestral tomb
+	morrowind.esm       DIAL    census and excise agent
+	morrowind.esm       DIAL    dura gra-bol
+	morrowind.esm       DIAL    dwemer puzzle box
+	morrowind.esm       DIAL    errand
+	morrowind.esm       DIAL    filthy lizard
+	morrowind.esm       DIAL    llevule andrano
+	morrowind.esm       DIAL    morrowind history
+	morrowind.esm       DIAL    necromancers
+	morrowind.esm       DIAL    nerevarine cult
+	morrowind.esm       DIAL    nerevarine prophecies
+	morrowind.esm       DIAL    sixth house
+	morrowind.esm       DIAL    thoughtful gift
+	morrowind.esm       DIAL    troublesome fools
+	morrowind.esm       DIAL    urshilaku
+	morrowind.esm       NPC_    addhiranirr
+	morrowind.esm       NPC_    duvianus platorius
+	morrowind.esm       NPC_    ethys savil
+	morrowind.esm       NPC_    favel gobor
+	morrowind.esm       NPC_    hannat zainsubani
+	morrowind.esm       NPC_    hassour zainsubani
+	morrowind.esm       NPC_    urven davor
+	tribunal.esm        DIAL    a1_11_zainsubaniinformant
+	tribunal.esm        DIAL    a1_2_antabolisinformant
+	tribunal.esm        DIAL    a1_4_muzgobinformant
+	tribunal.esm        DIAL    a1_6_addhiranirrinformant
+	tribunal.esm        DIAL    favor
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    mg_sharn_necro
+	tribunal.esm        DIAL    nerevarine
+
+[MOD-INF]: ID=6972632857616578(Topic:troublesome fools)
+  morrowind.esm---->|DATA|ONAM:huleeya|NAME:The sight of a free Argonian offends these racist thugs. It would tarnish my Morag Tong honor to slay them, and I don't want to trouble my friend Saralis Golmis by fighting in his club. But I must go to my friend's bookstore, where we can talk in peace. If you have a way with words, perhaps you can talk to them. Or if you have a way with money, they might be bought. Otherwise, I fear there must be bloodshed.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:Journal A1_7HuleeyaInformant 2
+  MQO_Alpha0.3.ESP->|DATA|ONAM:huleeya|NAME:The sight of a free Argonian offends these racist thugs. It would tarnish my Morag Tong honor to slay them, and I don't want to trouble my friend Raril Giral by fighting in his club. But I must go to my friend's bookstore, where we can talk in peace. If you have a way with words, perhaps you can talk to them. Or if you have a way with money, they might be bought. Otherwise, I fear there must be bloodshed.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:Journal A1_7HuleeyaInformant 2
+
+[MOD-INF]: ID=7144368928378775(Topic:nerevarine prophecies)
+  morrowind.esm---->|DATA|ONAM:zabamund|NAME:Yes, a gift of 200 gold coins. That is an earnest proof of your respect. Yes, I believe you should speak to our ashkhan. Perhaps he will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:11500|INTV|SCVR:25IX3Gold_001|INTV|BNAM:;Zabamund   player->removeitem gold_001 200  Journal A2_1_MeetSulMatuul 35  "sul-matuul"->setdisposition 50  "sul-matuul"->setfight 30  "sul-matuul"->stopcombat
+  MQO_Alpha0.3.ESP->|DATA|ONAM:zabamund|NAME:Yes, a gift of 2000 gold coins. That is an earnest proof of your respect. Yes, I believe you should speak to our ashkhan. Perhaps he will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:11500|INTV|SCVR:25IX3Gold_001|INTV|BNAM:;Zabamund   player->removeitem gold_001 2000  additem gold_001 2000  Journal A2_1_MeetSulMatuul 35  "sul-matuul"->setdisposition 50  "sul-matuul"->setfight 30  "sul-matuul"->stopcombat
+
+[MOD-INF]: ID=14687288227113696(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:All right. All right. Addhiranirr takes your gold for your apology. Addhiranirr is still mad, and thinks you are stupid to tell that taxman where to find Addhiranirr. But since you are a friend of Caius, and Addhiranirr owes Caius a favor, Addhiranirr will tell you what you want to know about the Sixth House cult. And Addhiranirr knows nothing about the Nerevarine, but Addhiranirr is happy to tell you that, too, if it makes Caius happy.|SCVR:25IX3Gold_001|INTV|SCVR:34JX3A2_6_Incarnate|INTV:5|SCVR:41500|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 60
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:All right. All right. Addhiranirr takes your gold for your apology. Addhiranirr is still mad, and thinks you are stupid to tell that taxman where to find Addhiranirr. But since you are with the Blades, and Addhiranirr owes the Blades a favor, Addhiranirr will tell you what you want to know about the Sixth House cult. And Addhiranirr knows nothing about the Nerevarine, but Addhiranirr is happy to tell you that, too, if it makes you happy.|SCVR:25IX3Gold_001|INTV|SCVR:34JX3A2_6_Incarnate|INTV:5|SCVR:41500|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 60
+
+[MOD-INF]: ID=16293465375353417(Journal:a1_11_zainsubaniinformant)
+  morrowind.esm---->|DATA|NAME:Hassour Zainsubani said he would take my earnest thought and effort as a token in place of a gift. Because I behaved courteously, he is willing to help me, and tell me what wish to know about the Ashlanders and the Nerevarine cult.
+  MQO_Alpha0.3.ESP->|DATA|NAME:I have told Hassour Zainsubani a poem from my youth and he was so amazed by my performance that he gratefully offered to answer my questions about the Ashlanders and the Nerevarine Cult.
+
+[DUP-INF]: ID=17122012663703605(Topic:thoughtful gift)
+  |DATA|ONAM:hainab|NAME:Do you want to offer me a gift of trama root? Well, thank you, outlander, and very kind of you, but I happen to have quite a lot of trama root at the moment. Thank you for the thought, but keep this gift for yourself.|SCVR:05IX3ingred_trama_root_01|INTV
+
+[MOD-INF]: ID=17454448197819290(Topic:addhiranirr)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:You have come from Caius, so of course he tells you all about Addhiranirr, how she is a friend of Caius, and who does little things for Caius, and who is also a member of the Thieves Guild, not at all important, but very helpful and loyal to fellow guild members.|SCVR:34JX3A1_V_VivecInformants|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:You are with the Blades, so of course you know all about Addhiranirr, how she is a friend of the Blades, and who does little things for the Blades, and who is also a member of the Thieves Guild, not at all important, but very helpful and loyal to fellow guild members.|SCVR:34JX3A1_V_VivecInformants|INTV
+
+[DUP-INF]: ID=21817615212011794(Greeting:greeting 7)
+  |DATA|CNAM:Buoyant Armiger|NAME:Dagoth Ur is dead, and the skies are blue over Red Mountain. We were wrong about you, Nerevarine, and are sorry for it. You deserve our gratitude, and the honor due a hero.|SCVR:14JX3C3_DestroyDagoth|INTV:2|BNAM:;buoyant armigers; ghostfence; Journal B8_MeetVivec >= 50; disp 70
+
+[MOD-INF]: ID=25411852328694634(Topic:necromancers)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:Where did you get that? That's MY copy of Legions of the Dead. Oh, all right. I'm a necromancer. Look. I'll teach you a spell, but you'll have to keep your mouth shut about this. I can teach you the Summon Ancestral Ghost spell, or, if you prefer, I can teach you Summon Skeletal Minion.|SCVR:05IX3bk_sharnslegionsofthedead|INTV|BNAM:Choice "Teach me a ghost summoning." 1 "Teach me a skeleton summoning" 2
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:Where did you get that? That's MY copy of Legions of the Dead. Oh, all right. I'm a necromancer. Look. I'll teach you a spell, but you'll have to keep your mouth shut about this. I can teach you the Summon Ancestral Ghost spell, or, if you prefer, I can teach you Summon Skeletal Minion.|SCVR:05IX3bk_sharnslegionsofthedead|INTV|SCVR:34JX3MG_Sharn_Necro|INTV|SCVR:44JX5MG_Sharn_Necro|INTV|BNAM:Choice "Teach me a ghost summoning." 1 "Teach me a skeleton summoning" 2
+
+[MOD-INF]: ID=31045242555523926(Topic:andrano ancestral tomb)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:Yes. Andrano Ancestral Tomb. South of Pelagiad. Just off the road. Just before the fork where the road goes southwest towards Seyda Neen and southeast to Vivec.|SCVR:04JX3A1_4_MuzgobInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:Yes. As I've told you. Andrano Ancestral Tomb. South of Pelagiad. Just off the road. Just before the fork where the road goes southwest towards Seyda Neen and southeast to Vivec.|SCVR:04JX3A1_4_MuzgobInformant|INTV|SCVR:14JX5A1_4_MuzgobInformant|INTV
+
+[DUP-INF]: ID=39613793161112092(Journal:a1_4_muzgobinformant)
+  |DATA|NAME:Sharn gra-Muzgob told me about the Nerevarine cult, and gave me some notes to give the Spymaster. Now I should return and report, and give him these notes.
+
+[DUP-INF]: ID=50623673144353328(Journal:a1_11_zainsubaniinformant)
+  |DATA|NAME:As a gift, I gave Hassour Zainsubani a copy of "The Five Far Stars." He seemed surprised and pleased. He thanked me and offered in return to answer my questions about the Ashlanders and the Nerevarine cult.
+
+[MOD-INF]: ID=63175153281099139(Topic:morrowind history)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:Caius and I always argue over the role of the individual in history. Is the individual shaped and controlled by history? Or can an exceptional individual shape history? Are individuals carried in the stream? Or do they dam and divert the flow? I say Tiber Septim changed the world. Caius says that Tiber Septim was a product of his time, and if he hadn't lived, some other person would have served his function. What about you? Are you going to change the world? Or just be carried by the flow?|SCVR:04JX3book_OnMorrowind|INTV|SCVR:12sX4Random100|INTV:B
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:I often argue with the owner of the small bed-and-basket over on the eastern hill over the role of the individual in history. Is the individual shaped and controlled by history? Or can an exceptional individual shape history? Are individuals carried in the stream? Or do they dam and divert the flow? I say Tiber Septim definitely changed the world. The old man, Caius is his name, he thinks Tiber Septim was just a product of his time, and if he hadn't lived, some other person would have served his function.|SCVR:04JX3book_OnMorrowind|INTV|SCVR:12sX4Random100|INTV:B
+
+[MOD-INF]: ID=64511245481011284(Topic:nerevarine cult)
+  morrowind.esm---->|DATA|ONAM:hassour zainsubani|NAME:They worship the Great Ashkhan and Hortator, Nerevar Moon-and-Star, who in ages past destroyed the evil, godless dwarves and banished the treacherous Dagoth Ur and his foul hosts beneath Red Mountain. The cult is of small consequence in Ashlander worship, and only among the Urshilaku do its followers have any influence. Others Ashlanders tribes share the sentiments of the cult, but regard the Nerevarine prophecies with suspicion and skepticism.|SCVR:34JX3A1_11_ZainsubaniInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hassour zainsubani|NAME:They worship the Great Ashkhan and Hortator, Nerevar Moon-and-Star, who in ages past destroyed the evil, godless dwarves and banished the treacherous Dagoth Ur and his foul hosts beneath Red Mountain. The cult is of small consequence in Ashlander worship, and only among the Urshilaku do its followers have any influence. Other Ashlanders tribes share the sentiments of the cult, but regard the Nerevarine prophecies with suspicion and skepticism.|SCVR:34JX3A1_11_ZainsubaniInformant|INTV
+
+[DUP-INF]: ID=77156629161556592(Topic:dwemer puzzle box)
+  |DATA|ONAM:hasphat antabolis|NAME:The little cube I'm looking for is about the size of a fist, maybe a little bigger. It will be made of a coppery metal, with a circular design and symbols on one side and some lined marks on the other sides. That's all I want, that little cube.|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[MOD-INF]: ID=81902588260123903(Topic:nerevarine)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:Yes, Addhiranirr knows nothing about this Nerevarine cult, because it is just silly superstition. So you tell Caius this. Nobody in her right mind pays any attention to this nonsense. Prophecies and ancient heroes reborn and other silliness. Fuzzy tales for little kitties.|SCVR:34JX0A1_6_AddhiranirrInformant|INTV:<
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:Yes, Addhiranirr knows nothing about this Nerevarine cult, because it is just silly superstition. So you tell the ones who sent you this. Nobody in her right mind pays any attention to this nonsense. Prophecies and ancient heroes reborn and other silliness. Fuzzy tales for little kitties.|SCVR:34JX0A1_6_AddhiranirrInformant|INTV:<
+
+[DUP-INF]: ID=91948449399525979(Greeting:greeting 7)
+  |DATA|RNAM:Khajiit|CNAM:Slave|NAME:What are you doing here? What can %Name do for you?
+
+[MOD-INF]: ID=92501845924729422(Topic:errand)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:Yes, yes. You've completed the errand, and I'm quite satisfied.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:Yes, yes. You've completed the errand, and I'm quite satisfied.|SCVR:34JX0A1_4_MuzgobInformant|INTV
+
+[DUP-INF]: ID=92883195733039123(Topic:addhiranirr)
+  |DATA|ONAM:duvianus platorius|NAME:What a disappointment. But thank you for your time. I was just heading back to the mainland myself, anyway, and maybe I'll run into her there.|SCVR:01500|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 15
+
+[MOD-INF]: ID=99912527298624518(Topic:necromancers)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:As you wish. It's a simple matter, really. [Sharn takes you aside and teaches you how to summon an ancestral ghost.] Now. Remember. You said you'd keep quiet about this.|SCVR:01500|INTV|BNAM:Journal MG_Sharn_Necro 10  player->addspell "summon ancestral ghost"  Goodbye
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:As you wish. It's a simple matter, really. [Sharn takes you aside and teaches you how to summon an ancestral ghost.] Now. Remember. You said you'd keep quiet about this.|SCVR:01500|INTV|BNAM:Journal MG_Sharn_Necro 10  player->addspell "summon ancestral ghost"  Player->RemoveItem, "bk_sharnslegionsofthedead" 1  additem bk_sharnslegionsofthedead 1  Goodbye
+
+[DUP-INF]: ID=101251713252483903(Greeting:greeting 5)
+  |DATA|ONAM:urven davor|NAME:Fine. It's just a filthy lizard, anyway, nothing to get upset about. We'll leave him alone. Go on. Get out, before we change our minds.|SCVR:44JX2A1_V_VivecInformants|INTV|BNAM:Journal, "A1_7HuleeyaInformant", 15
+
+[DUP-INF]: ID=103431475510462377(Topic:sixth house)
+  |DATA|ONAM:dagoth gares|NAME:The Sixth House was not dead, but only sleeping. Now it wakes from its long dream, and with its Lord, Dagoth Ur, it comes forth to free Morrowind of foreign rulers and divine pretenders. When the land is swept clean of false friends and greedy thieves, the children of Veloth will build anew a garden of plenty in this blighted wasteland.|BNAM:Journal "A2_2_6thHouse" 42
+
+[DUP-INF]: ID=107449173200277222(Topic:thoughtful gift)
+  |DATA|ONAM:shallath-piremus|NAME:Do you want to offer me a gift of trama root? Well, outlander, you are not proud. But you are courteous, and in an outlander, that is not a thing to be despised. Very well. I accept your gift. And thank you.|SCVR:05IX3ingred_trama_root_01|INTV|BNAM:player->removeitem ingred_trama_root_01 1  additem ingred_trama_root_01 1  modDisposition 10
+
+[DUP-INF]: ID=132682185397187142(Topic:necromancers)
+  |DATA|ONAM:sharn gra-muzgob|NAME:No. Of course not. I can't teach you spells. I'm NOT a necromancer. No. Absolutely not. Not a necromancer.|BNAM:Journal MG_Sharn_Necro 1
+
+[MOD-INF]: ID=135316747931824097(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:ethys savil|NAME:Hey, look. It's none of my business. Folks want to talk to a filthy lizard, it's their problem, not mine. Got out of here. And good riddance.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:Journal, "A1_7HuleeyaInformant", 15
+  MQO_Alpha0.3.ESP->|DATA|ONAM:ethys savil|NAME:Hey, look. It's none of my business. Folks want to talk to a filthy lizard, it's their problem, not mine. Get out of here. And good riddance.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:Journal, "A1_7HuleeyaInformant", 15
+
+[DUP-INF]: ID=161644993293582724(Topic:thoughtful gift)
+  |DATA|ONAM:shabinbael|NAME:Do you want to offer me a gift of trama root? Well, outlander, you are not proud. But you are courteous, and in an outlander, that is not a thing to be despised. Very well. I accept your gift. And thank you.|SCVR:05IX3ingred_trama_root_01|INTV|BNAM:player->removeitem ingred_trama_root_01 1  additem ingred_trama_root_01 1  modDisposition 10
+
+[MOD-INF]: ID=165229120911723349(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:All right. All right. I am still mad, and think you are stupid to tell that taxman where to find Addhiranirr. But since you are a friend of Caius, and Addhiranirr owes Caius a favor, I will tell you what you want to know about the Sixth House cult. And Addhiranirr knows nothing about the Nerevarine, but Addhiranirr is happy to tell you that, too, if it makes Caius happy.|SCVR:34JX3A1_6_AddhiranirrInformant|INTV:8|BNAM:Journal, "A1_6_AddhiranirrInformant", 60
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:All right. All right. I am still mad, and think you are stupid to tell that taxman where to find Addhiranirr. But since you are with the Blades, and Addhiranirr owes the Blades a favor, I will tell you what you want to know about the Sixth House cult. And Addhiranirr knows nothing about the Nerevarine, but Addhiranirr is happy to tell you that, too, if it makes you happy.|SCVR:34JX3A1_6_AddhiranirrInformant|INTV:8|BNAM:Journal, "A1_6_AddhiranirrInformant", 60
+
+[DUP-INF]: ID=165379896266010783(Greeting:greeting 5)
+  |DATA|ONAM:sharn gra-muzgob|NAME:Again? Is this about the errand you are doing for me?|SCVR:34JX3A1_4_MuzgobInformant|INTV: 
+
+[DUP-INF]: ID=170598881205997120(Greeting:greeting 7)
+  |DATA|CNAM:Buoyant Armiger|NAME:Greetings, %PCName. The Archcanon has announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. We have orders to provide maps and intelligence on conditions inside the Ghostfence. Tell me if you want someone in particular, services, or a specific place. I can help you if you are on pilgrimage here. Shall I tell you about my trade?|SCVR:04JX3B8_MeetVivec|INTV:2|SCVR:14JX4C3_DestroyDagoth|INTV:2|BNAM:;buoyant armigers; ghostfence; Journal B8_MeetVivec >= 50; disp 30
+
+[MOD-INF]: ID=173965674313098995(Topic:dura gra-bol)
+  morrowind.esm---->|DATA|ANAM:Balmora|NAME:He lives in town somewhere. Look around, you lazy fetcher.|SCVR:0CsX0nolore|INTV:
+  MQO_Alpha0.3.ESP->|DATA|ANAM:Balmora|NAME:She lives in town somewhere. Look around, you lazy fetcher.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=181082741116720959(Topic:nerevarine)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:Yes, Addhiranirr knows nothing about this Nerevarine cult, because it is just silly superstition. So you tell Caius this. Nobody in her right mind pays any attention to this nonsense. Prophecies and ancient heroes reborn and other silliness. Fuzzy tales for little kitties.|SCVR:34JX0A1_6_AddhiranirrInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:Yes, Addhiranirr knows nothing about this Nerevarine cult, because it is just silly superstition. So you tell the ones who sent you this. Nobody in her right mind pays any attention to this nonsense. Prophecies and ancient heroes reborn and other silliness. Fuzzy tales for little kitties.|SCVR:34JX0A1_6_AddhiranirrInformant|INTV
+
+[MOD-INF]: ID=209623153927153350(Topic:filthy lizard)
+  morrowind.esm---->|DATA|ONAM:favel gobor|NAME:This rotting piece of trash oughta be chained up somewhere, not running around loose.|SCVR:34JX3A1_V_VivecInformants|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:favel gobor|NAME:This rotting piece of trash oughta be chained up somewhere, not running around loose.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:StartScript "_mqoHateCrimeScript"
+
+[MOD-INF]: ID=231077081982824335(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:So. Are you the one Addhiranirr must thank for getting rid of the annoying Census and Excise agent? Indeed, Addhiranirr is very glad to see you, and very happy to tell a friend of my good friend Caius all about the Sixth House cult. And Addhiranirr knows nothing about the Nerevarine, but Addhiranirr is happy to tell you that, too, if it makes Caius happy. Ask away, friend %PCName.|SCVR:04JX3A1_6_AddhiranirrInformant|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 30  modDisposition 20  "Duvianus Platorius"->disable
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:So. Are you the one Addhiranirr must thank for getting rid of the annoying Census and Excise agent? Indeed, Addhiranirr is very glad to see you, and very happy to tell a friend all about the Sixth House cult. And Addhiranirr knows nothing about the Nerevarine, but Addhiranirr is happy to tell you that, too, if it makes you happy. Ask away, friend %PCName.|SCVR:04JX3A1_6_AddhiranirrInformant|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 30  modDisposition 20  "Duvianus Platorius"->disable
+
+[DUP-INF]: ID=242302142031414354(Topic:thoughtful gift)
+  |DATA|ONAM:hainab|NAME:Do you want to offer me a gift of trama root? Well, outlander, you are not proud. But you are courteous, and in an outlander, that is not a thing to be despised. Very well. I accept your gift. And thank you.|SCVR:05IX3ingred_trama_root_01|INTV|BNAM:player->removeitem ingred_trama_root_01 1  additem ingred_trama_root_01 1  modDisposition 10
+
+[DUP-INF]: ID=263100942239126784(Topic:filthy lizard)
+  |DATA|ONAM:favel gobor|NAME:It's an Argonian, and I don't like it. But I can leave it alone.|SCVR:24JX3A1_7HuleeyaInformant|INTV|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:Journal, "A1_7HuleeyaInformant", 15
+
+[MOD-INF]: ID=264921745751934754(Topic:nerevarine)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:The Ashlanders believe a reborn Nerevar will unite the Dunmer against the outlander invaders and restore the ancient Dark Elven nation. Nerevar is a legendary hero and saint of the Temple, but the Temple denies the prophecy, and persecutes heretics who believe in the Nerevarine. Tell Caius that Sharn gra-Muzgob would be a better person to ask about the native faiths and superstitions.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:The Ashlanders believe a reborn Nerevar will unite the Dunmer against the outlander invaders and restore the ancient Dark Elven nation. Nerevar is a legendary hero and saint of the Temple, but the Temple denies the prophecy, and persecutes heretics who believe in the Nerevarine. If you want to know more I suggest speaking with Sharn gra-Muzgob over at the mages guild, she would be a better person to ask about the native faiths and superstitions.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[DUP-INF]: ID=266351095457551500(Topic:favor)
+  |DATA|ONAM:hasphat antabolis|NAME:There are Dwemer ruins nearby called Arkngthand. I need you to run over there and find me a little cube with a circular design and some symbols on one side. It's called 'a Dwemer puzzle box'. Bring me back the Dwemer puzzle box, and I'll tell you what you want to know.|SCVR:34JX3A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_2_AntabolisInformant", 5
+
+[DUP-INF]: ID=269112747218029472(Topic:thoughtful gift)
+  |DATA|ONAM:hassour zainsubani|NAME:Yes, I understand. Don't give it another thought. Now, what would you wish to know about the Ashlanders and the Nerevarine cult?|SCVR:34JX3A1_11_ZainsubaniInformant|INTV:"
+
+[DUP-INF]: ID=274481844234928614(Journal:mg_sharn_necro)
+  |DATA|NAME:When I showed Sharn gra-Muzgob her own personal copy of Legions of the Dead, she admitted she is a necromancer, and agreed to teach me a summoning spell.|QSTF
+
+[DUP-INF]: ID=283052203297354647(Greeting:greeting 5)
+  |DATA|ONAM:favel gobor|NAME:All right. All right. Who gives a damn about a filthy lizard, anyway. Get out of here. We won't bother you.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:Journal, "A1_7HuleeyaInformant", 15
+
+[MOD-INF]: ID=288918185757411443(Topic:errand)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:The errand, then, is very simple. I need the skull of Llevule Andrano. You'll find it in Andrano Ancestral Tomb. But take care not to upset the natives. The Dunmer have some peculiar primitive prejudices against necromancy, and take grave objection to unauthorized tomb visits.|SCVR:34JX3A1_4_MuzgobInformant|INTV|BNAM:Journal, "A1_4_MuzgobInformant", 10  addtopic necromancers
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:The errand, then, is very simple. I need the skull of Llevule Andrano. You'll find it in Andrano Ancestral Tomb. But take care not to upset the natives. The Dunmer have some peculiar primitive prejudices against necromancy, and take grave objection to unauthorized tomb visits.|SCVR:34JX3A1_4_MuzgobInformant|INTV|BNAM:Journal, "A1_4_MuzgobInformant", 10  addtopic necromancers  Choice "Where will I find the Tomb?" 1  Choice "Why would you want me to loot a skull from a Tomb? Are you a necromancer?" 6     StartScript "_mqoSharnResponseScript"
+
+[DUP-INF]: ID=289056270217565181(Journal:a1_4_muzgobinformant)
+  |DATA|NAME:Sharn gra-Muzgob will provide the information on the Nerevarine that the Spymaster wants after I've done a little errand for her. She wants me to retrieve the skull of Llevule Andrano from Andrano Ancestral Tomb. She mentioned Dunmer prejudices against necromancy, and warned me not to upset the natives.
+
+[DUP-INF]: ID=309721447752941233(Topic:addhiranirr)
+  |DATA|ONAM:duvianus platorius|NAME:Oh. I see. How curious. *Sigh.* Well. I suppose I need to go change my clothes if I'm going down there. But thank you for your time and courtesy. And don't tell her about me. I want it to be a surprise. Good day, and thanks again.|SCVR:01500|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 53
+
+[MOD-INF]: ID=678171652181916488(Topic:nerevarine cult)
+  morrowind.esm---->|DATA|ONAM:huleeya|NAME:To understand the Nerevarine cult, you must understand the history of the Ashlanders. Nerevar means something very different to the Ashlanders from what he means to Dunmer of the Great Houses. You should also know about the persecution of the Nerevarine, and the legacy of the False Incarnate, for the Nerevarine cult is at the heart of the ancient conflict between the nomadic Ashlanders and the settled Great House Dunmer. Here is a summary for Caius, but ask your questions, and I'll answer in detail.|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:Player->AddItem, "bk_A1_7_HuleeyaInformant", 1  Journal, "A1_7HuleeyaInformant", 50
+  MQO_Alpha0.3.ESP->|DATA|ONAM:huleeya|NAME:To understand the Nerevarine cult, you must understand the history of the Ashlanders. Nerevar means something very different to the Ashlanders from what he means to Dunmer of the Great Houses. You should also know about the persecution of the Nerevarine, and the legacy of the False Incarnate, for the Nerevarine cult is at the heart of the ancient conflict between the nomadic Ashlanders and the settled Great House Dunmer. Here is a summary, but ask your questions, and I'll answer in detail.|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:Player->AddItem, "bk_A1_7_HuleeyaInformant", 1  Journal, "A1_7HuleeyaInformant", 50
+
+[DUP-INF]: ID=788124170173441370(Topic:filthy lizard)
+  |DATA|ONAM:ethys savil|NAME:Blah, blah, blah. He can stay here forever, for all I care. Not my problem.|SCVR:24JX3A1_7HuleeyaInformant|INTV|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:Journal, "A1_7HuleeyaInformant", 15
+
+[DUP-INF]: ID=816719422133368771(Journal:a1_4_muzgobinformant)
+  |DATA|NAME:I delivered the skull Sharn gra-Muzgob asked for, and she's agreed to tell me about the Nerevarine as the Spymaster requested.
+
+[DUP-INF]: ID=827132001043014630(Greeting:greeting 5)
+  |DATA|ONAM:hasphat antabolis|NAME:So. Have you done that little favor I asked?|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[DUP-INF]: ID=944330767195161189(Greeting:greeting 5)
+  |DATA|ONAM:addhiranirr|NAME:You! You are the one who tells the Census and Excise agent where to find Addhiranirr! Thank you very much. And now Addhiranirr does NOT feel like talking to you about the Nerevarine, or the Sixth House cult, or anything else at all. Because why? Because you are an idiot. And, yes, also, because you are a big rat, and Addhiranirr does not like big rats.|SCVR:01630|INTV:|SCVR:34JX3A2_6_Incarnate|INTV:5|BNAM:Choice "Apologize." 1 "Offer 300 gold to help pay taxes." 2
+
+[DUP-INF]: ID=957226822316332385(Journal:a1_11_zainsubaniinformant)
+  |DATA|NAME:Hassour Zainsubani gave me some notes where he has written what he thinks I need to know about the Ashlanders and the Nerevarine cult. These notes will satisfy the Spymaster. But Hassour Zainsubani invited me to ask any questions I wish, and perhaps I can learn some other useful information from speaking with him.|QSTF
+
+[MOD-INF]: ID=1091431135261045346(Topic:andrano ancestral tomb)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:The tomb is south of Pelagiad, just off the road, just before you reach the fork where the road goes southwest towards Seyda Neen and southeast to Vivec. You may need an enchanted blade. Some spirits are immune to normal weapons. Here. Take this old shortsword. And maybe these old scrolls will come in handy.|BNAM:player->additem "fireblade" 1  player->additem sc_taldamsscorcher 2  player->additem sc_vitality 2  Journal A1_4_MuzgobInformant 12
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:The tomb is south of Pelagiad, just off the road, just before you reach the fork where the road goes southwest towards Seyda Neen and southeast to Vivec.
+
+[MOD-INF]: ID=1130623989155428017(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:urven davor|NAME:If you don't get lost, I'm gonna hit you AND that filthy lizard so hard that when you finally hit the ground, your clothes'll be outta style.|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:ModDisposition -10
+  MQO_Alpha0.3.ESP->|DATA|ONAM:urven davor|NAME:If you don't get lost, I'm gonna hit you AND that filthy lizard so hard that when you finally hit the ground, your clothes'll be outta style.|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:setdisposition 30
+
+[DUP-INF]: ID=1140817346183198607(Topic:addhiranirr)
+  |DATA|ONAM:duvianus platorius|NAME:Yes. Her name is Addhiranirr, and she is a Khajiit. Do you know where I can find her?|SCVR:04JX3A1_V_VivecInformants|INTV|BNAM:Choice, "Excuse me. I'm busy.", 4, "No", 2
+
+[DUP-INF]: ID=1142113406127924533(Journal:a1_2_antabolisinformant)
+  |DATA|NAME:I gave Caius Cosades the notes from Hasphat Antabolis, and Caius seemed well-enough pleased with them. However, now he has something else for me to do.|QSTF
+
+[DUP-INF]: ID=1176326729701722230(Journal:mg_sharn_necro)
+  |DATA|NAME:Sharn gra-Muzgob assures me she is not a necromancer, and that she cannot teach me any spells. I wonder....
+
+[MOD-INF]: ID=1202754631379422532(Topic:sixth house)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:I gave you the notes. Give them to Caius.|SCVR:34JX3A1_2_AntabolisInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:I gave you the notes. You can read them yourself.|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[MOD-INF]: ID=1234593522213711061(Topic:census and excise agent)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:Addhiranirr still thinks you are a fool for selling her out to a Census and Excise agent, but you are a friend of Caius, so Addhiranirr will tell you about the Nerevarine cult and the Sixth House cult.|SCVR:34JX3A1_6_AddhiranirrInformant|INTV:5|SCVR:44JX4A1_6_AddhiranirrInformant|INTV:<|BNAM:Journal, "A1_6_AddhiranirrInformant", 60
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:Addhiranirr still thinks you are a fool for selling her out to a Census and Excise agent, but you are with the Blades and Addhiranirr owes the Blades, so Addhiranirr will tell you about the Nerevarine cult and the Sixth House cult.|SCVR:34JX3A1_6_AddhiranirrInformant|INTV:5|SCVR:44JX4A1_6_AddhiranirrInformant|INTV:<|BNAM:Journal, "A1_6_AddhiranirrInformant", 60
+
+[DUP-INF]: ID=1254811306722630168(Topic:thoughtful gift)
+  |DATA|ONAM:shabinbael|NAME:Do you want to offer me a gift? Poor outlander. Even these small things are a puzzle to you. Then bring me some trama root for my larder. I am a hunter, and it is beneath my dignity to scrabble about in the dirt. But you? Perhaps this is a task you can handle.
+
+[MOD-INF]: ID=1472479171317616771(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:urven davor|NAME:Whatever you say, pilgrim. Just let it ride. We'll leave him alone.|SCVR:34JX3A1_V_VivecInformants|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:urven davor|NAME:Whatever you say, %PcClass. Just let it ride. We'll leave him alone.|SCVR:34JX3A1_V_VivecInformants|INTV
+
+[DUP-INF]: ID=1628326763844915158(Topic:addhiranirr)
+  |DATA|ONAM:duvianus platorius|NAME:Sorry to bother you.|SCVR:01500|INTV
+
+[DUP-INF]: ID=1671657773129315677(Topic:llevule andrano)
+  |DATA|ONAM:sharn gra-muzgob|NAME:He was no one special. A journeyman enchanter. There may be many skulls in Andrano Tomb, but you'll have no problem recognizing Llevule's skull from the ritual markings.
+
+[DUP-INF]: ID=1684621533206349550(Topic:dwemer puzzle box)
+  |DATA|ONAM:hasphat antabolis|NAME:I gave you the Dwemer key, didn't I? The one i made from the instructions I found on the puzzle box you brought me?|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[MOD-INF]: ID=1771327817254703194(Topic:necromancers)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:As you wish. It's a simple matter, really. [Sharn takes you aside and teaches you how to summon a skeletal minion.] Now. Remember. You said you'd keep quiet about this.|SCVR:01500|INTV|BNAM:Journal MG_Sharn_Necro 10  player->addspell "summon skeletal minion"  Goodbye
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:As you wish. It's a simple matter, really. [Sharn takes you aside and teaches you how to summon a skeletal minion.] Now. Remember. You said you'd keep quiet about this.|SCVR:01500|INTV|BNAM:Journal MG_Sharn_Necro 10  player->addspell "summon skeletal minion"  Player->RemoveItem, "bk_sharnslegionsofthedead" 1  additem bk_sharnslegionsofthedead 1  Goodbye
+
+[MOD-INF]: ID=1901578163267631734(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:You have some nerve, and also some great stupidity, to think you can do Addhiranirr the favor of selling her out to a Census and Excise agent, and then think Addhiranirr will tell you about the Nerevarine, or the Sixth House cult, or anything else.|SCVR:34JX3A2_6_Incarnate|INTV:5|BNAM:Choice "Apologize." 1 "Offer 300 gold to help pay taxes." 2
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:You have some nerve, and also some great stupidity, to think you can do Addhiranirr the favor of selling her out to a Census and Excise agent, and then think Addhiranirr will tell you about the Nerevarine, or the Sixth House cult, or anything else.|SCVR:34JX3A2_6_Incarnate|INTV:5|BNAM:Choice "Apologize." 1 "Offer 500 gold to help pay taxes." 2
+
+[MOD-INF]: ID=1911034503131124235(Journal:a1_2_antabolisinformant)
+  morrowind.esm---->|DATA|NAME:I found the Dwemer puzzle box Hasphat Antabolis told me to find. Now I'll take it to him, and in return, he'll tell me what I need to know about the Nerevarine secret cult and the Sixth House secret cult.
+  MQO_Alpha0.3.ESP->|DATA|NAME:I found the Dwemer puzzle box Hasphat Antabolis told me to find.
+
+[DUP-INF]: ID=1924912360984825125(Topic:thoughtful gift)
+  |DATA|FNAM:Ashlanders|ANAM:Urshilaku Camp|NAME:You think to buy my friendship? You who have killed my kin? That is not likely.|SCVR:04JX0A2_1_MeetSulMatuul|INTV|BNAM:;Ashlander, Urshilaku Camp;; Journal "A2-1 Meet Sul-Matuul" = 11; Journal "A2-1 Meet Sul-Matuul" 13
+
+[MOD-INF]: ID=2012632121258661882(Topic:dwemer puzzle box)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:What? Oh. Yes, I'd forgotten. Here's a Dwemer key, made according to the instructions I found on the puzzle box you brought me. I've no idea what it's good for. But if you take it back to Arkngthand, maybe you'll find the lock it opens.|SCVR:34JX3A1_2_AntabolisInformant|INTV|BNAM:Player->AddItem, misc_dwrv_Ark_key00, 1  Journal A1_2_AntabolisInformant 25
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:What? Oh. Yes, I'd forgotten. Here's a Dwemer key, made according to the instructions I found on the puzzle box you brought me. I've no idea what it's good for. But if you take it back to Arkngthand, maybe you'll find the lock it opens.|SCVR:34JX0A1_2_AntabolisInformant|INTV|BNAM:if ( "hasphat antabolis"->GetItemCount, "misc_dwrv_ark_cube00" = 1 )   Player->AddItem, misc_dwrv_Ark_key00, 1  Journal A1_2_AntabolisInformant 25  endif
+
+[MOD-INF]: ID=2031425861182651246(Topic:nerevarine prophecies)
+  morrowind.esm---->|DATA|ONAM:zabamund|NAME:Hmm. These are not simple matters. You know a great deal more than I would have thought. And some of what you say is news to me. I believe you should speak to Sul-Matuul. Perhaps he will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:11500|INTV|SCVR:21363|INTV|BNAM:;Zabamund  Journal A2_1_MeetSulMatuul 35  "sul-matuul"->setdisposition 50  "sul-matuul"->setfight 30  "sul-matuul"->stopcombat
+  MQO_Alpha0.3.ESP->|DATA|ONAM:zabamund|NAME:Hmm. These are not simple matters. You know a great deal more than I would have thought. And some of what you say is news to me. I believe you should speak to Sul-Matuul. Perhaps he will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:11500|INTV|SCVR:21363|INTV:(|BNAM:;Zabamund  Journal A2_1_MeetSulMatuul 35  "sul-matuul"->setdisposition 50  "sul-matuul"->setfight 30  "sul-matuul"->stopcombat
+
+[DUP-INF]: ID=2036832174183455127(Journal:a1_6_addhiranirrinformant)
+  |DATA|NAME:Addhiranirr was too concerned about the Census and Excise agent to answer questions for the Spymaster. Maybe I can do something to get rid of him.
+
+[MOD-INF]: ID=2048823514178214257(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:Hello again, %PCName. What do you want? You already gave me the Dwemer puzzle box. Don't you remember?|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:Hello, %PCName. Was there something further you wanted to ask about?|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[DUP-INF]: ID=2050727572292896028(Topic:filthy lizard)
+  |DATA|ONAM:urven davor|NAME:Okay, okay. He's just a filthy lizard. He can't help it. I'll leave him alone.|SCVR:24JX3A1_7HuleeyaInformant|INTV|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:Journal, "A1_7HuleeyaInformant", 15
+
+[MOD-INF]: ID=2052175821158315226(Topic:nerevarine prophecies)
+  morrowind.esm---->|DATA|ONAM:zabamund|NAME:Hmm. I know not what to make of your deeds. Your words may be more worthy than your deeds. But you are well-spoken, and you do tell a pretty tale. Perhaps Sul-Matuul will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:11500|INTV|SCVR:21363|INTV|BNAM:;Zabamund  Journal A2_1_MeetSulMatuul 35  "sul-matuul"->setdisposition 50  "sul-matuul"->setfight 30  "sul-matuul"->stopcombat
+  MQO_Alpha0.3.ESP->|DATA|ONAM:zabamund|NAME:Hmm. I know not what to make of your deeds. Your words may be more worthy than your deeds. But you are well-spoken, and you do tell a pretty tale. Perhaps Sul-Matuul will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:11500|INTV|SCVR:21363|INTV|SCVR:31053|INTV|BNAM:;Zabamund  Journal A2_1_MeetSulMatuul 35  "sul-matuul"->setdisposition 50  "sul-matuul"->setfight 30  "sul-matuul"->stopcombat
+
+[MOD-INF]: ID=2090431221919117613(Topic:orders)
+  morrowind.esm---->|DATA|ONAM:caius cosades|NAME:First thing, pilgrim. You're new. And you look it. Here's 200 drakes. Go get yourself a decent weapon. Or armor. Or a spell. And second thing... you need a cover identity. Around here, 'freelance adventurer' is a common profession. Sign on with the Fighters Guild, or Mages Guild, or Imperial cult, or Imperial legion, advance in the ranks, gain skill and experience. Or go out on your own, look for freelance work, or trouble. Then, when you're ready, come back, and I'll have orders for you.|SCVR:01063|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV|BNAM:Journal, "A1_1_FindSpymaster", 18  player->additem gold_001 200
+  MQO_Alpha0.3.ESP->|DATA|ONAM:caius cosades|NAME:First thing, %PCClass. You're new. And you look it. Here's 200 drakes. Go get yourself a decent weapon. Or armor. Or a spell. And second thing... you need a cover identity. Around here, 'freelance adventurer' is a common profession. Sign on with the Fighters Guild, or Mages Guild, or Imperial cult, or Imperial legion, advance in the ranks, gain skill and experience. Or go out on your own, look for freelance work, or trouble. Then, when you're ready, come back, and I'll have orders for you.|SCVR:01063|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV|BNAM:Journal, "A1_1_FindSpymaster", 18  player->additem gold_001 200
+
+[MOD-INF]: ID=2163327711198424143(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:So. Are you the one Addhiranirr must thank for getting rid of the annoying Census and Excise agent? Indeed, Addhiranirr is very glad to see you, and very happy to tell a friend of my good friend Caius all about the Sixth House cult. And Addhiranirr knows nothing about the Nerevarine, but Addhiranirr is happy to tell you that, too, if it makes Caius happy. Ask away, friend %PCName.|SCVR:04JX3A1_V_VivecInformants|INTV|SCVR:16DX3duvianus platorius|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 30  modDisposition 20
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:So. Are you the one Addhiranirr must thank for getting rid of the annoying Census and Excise agent? Indeed, Addhiranirr is very glad to see you, and very happy to tell a friend all about the Sixth House cult. And Addhiranirr knows nothing about the Nerevarine, but Addhiranirr is happy to tell you that, too, if it makes you happy. Ask away, friend %PCName.|SCVR:04JX3A1_V_VivecInformants|INTV|SCVR:16DX3duvianus platorius|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 30  modDisposition 20
+
+[MOD-INF]: ID=2363817580166924727(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:Good day, %PCName. So you're with Caius, eh? And Caius wants information? Of course, there's a this-for-that involved. I require a favor first, and then I'll tell you what you want to know.|SCVR:34JX3A1_2_AntabolisInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:Good day, %PCName. So you're in need of information? Of course, there's a this-for-that involved. I require a favor first, and then I'll tell you what you want to know.|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[MOD-INF]: ID=2369241622602432340(Topic:errand)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:Very good. I'll just take that skull from you. Perfect for what I have in mind. Thank you. Now. As I promised. I'll answer your questions on the Nerevarine cult. Go ahead.|SCVR:34JX3A1_4_MuzgobInformant|INTV: |SCVR:45IX3misc_Skull_Llevule|INTV|BNAM:Player->RemoveItem, "misc_skull_llevule", 1  Journal, "A1_4_MuzgobInformant", 15  Player->ModReputation 1  moddisposition 10
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:Very good. I'll just take that skull from you. Perfect for what I have in mind. Thank you. Now. As I promised. I'll answer your questions on the Nerevarine cult. Go ahead.|SCVR:34JX3A1_4_MuzgobInformant|INTV|SCVR:45IX3misc_Skull_Llevule|INTV|BNAM:Player->RemoveItem, "misc_skull_llevule", 1  Journal, "A1_4_MuzgobInformant", 15  Player->ModReputation 1  moddisposition 10
+
+[MOD-INF]: ID=2436419953283993854(Topic:nerevarine cult)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:This Ashlander cult believes the long-dead hero Nerevar will be reborn to honor ancient promises to the tribes. According to legend, the prophesied Nerevarine will cast down the false gods of the Tribunal Temple, restore the traditional ancestor worship practiced by the Ashlanders, and drive all outlanders from Morrowind. Both Temple and Empire outlaw the cult, but it persists among the Ashlanders, who care little for Imperial or Temple law. Here. Take this copy of my notes on the topic for Caius.|SCVR:34JX3A1_4_MuzgobInformant|INTV|BNAM:Player->AddItem, "bk_A1_4_SharnsNotes", 1  Journal, "A1_4_MuzgobInformant", 20
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:This Ashlander cult believes the long-dead hero Nerevar will be reborn to honor ancient promises to the tribes. According to legend, the prophesied Nerevarine will cast down the false gods of the Tribunal Temple, restore the traditional ancestor worship practiced by the Ashlanders, and drive all outlanders from Morrowind. Both Temple and Empire outlaw the cult, but it persists among the Ashlanders, who care little for Imperial or Temple law. Here. Take this copy of my notes on the topic.|SCVR:34JX3A1_4_MuzgobInformant|INTV|BNAM:Player->AddItem, "bk_A1_4_SharnsNotes", 1  Journal, "A1_4_MuzgobInformant", 20
+
+[DUP-INF]: ID=2507732579268392392(Topic:thoughtful gift)
+  |DATA|ONAM:hassour zainsubani|NAME:I understand. You wish to give me a suitable gift, but you do not know me well enough to choose such a gift, or you cannot find or afford a gift you know to be suitable for me. Well. Let us take your earnest thought and effort as a token of your gift. You have behaved courteously, and I am inclined to help you. What would you wish to know about the Ashlanders and the Nerevarine cult?|SCVR:34JX3A1_11_ZainsubaniInformant|INTV|BNAM:Journal, "A1_11_ZainsubaniInformant", 34
+
+[DUP-INF]: ID=2639522091120511816(Topic:thoughtful gift)
+  |DATA|ONAM:shabinbael|NAME:Do you want to offer me a gift of trama root? Well, thank you, outlander, and very kind of you, but I happen to have quite a lot of trama root at the moment. Thank you for the thought, but keep this gift for yourself.|SCVR:05IX3ingred_trama_root_01|INTV
+
+[DUP-INF]: ID=2674613355565124465(Greeting:greeting 7)
+  |DATA|CNAM:Slave|NAME:What are you doing here? What can I do for you?
+
+[MOD-INF]: ID=2691598611640011840(Topic:nerevarine prophecies)
+  morrowind.esm---->|DATA|ONAM:zabamund|NAME:Hah. Perhaps if you HAD 200 good coins, then perhaps it would be a worthy tribute. But you do not. As it is, you shall not speak to Sul-Matuul or Nibani Maesa.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:11500|INTV|SCVR:25IX4Gold_001|INTV|BNAM:;Zabamund
+  MQO_Alpha0.3.ESP->|DATA|ONAM:zabamund|NAME:Hah. Perhaps if you HAD 2000 good coins, then perhaps it would be a worthy tribute. But you do not. As it is, you shall not speak to Sul-Matuul or Nibani Maesa.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:11500|INTV|SCVR:25IX4Gold_001|INTV|BNAM:;Zabamund
+
+[MOD-INF]: ID=2711927743097530568(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:Great. So Caius says to you, "Speak with Addhiranirr." And you have done this thing. You are speaking with Addhiranirr. But Addhiranirr will not talk to you about the Nerevarine or the Sixth House cult, and because why? Because Addhiranirr is, at this moment, very distracted by a nice Census and Excise agent, who also wants to speak with her.|SCVR:04JX3A1_V_VivecInformants|INTV|SCVR:11630|INTV:
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:Great. So you are with the Blades and the Blades say to you, "Speak with Addhiranirr." And you have done this thing. You are speaking with Addhiranirr. But Addhiranirr will not talk to you about the Nerevarine or the Sixth House cult, and because why? Because Addhiranirr is, at this moment, very distracted by a nice Census and Excise agent, who also wants to speak with her.|SCVR:04JX3A1_V_VivecInformants|INTV|SCVR:11630|INTV:
+
+[MOD-INF]: ID=2719613612229508884(Journal:a1_6_addhiranirrinformant)
+  morrowind.esm---->|DATA|NAME:When I told the Census and Excise agent that Addhiranirr took a gondola to the mainland, he said he was heading back to the mainland anyway, and would look for her there. Maybe Addhiranirr will be grateful that I've gotten rid of him for her.
+  MQO_Alpha0.3.ESP->|DATA|NAME:I told the Census and Excise agent I would take care of Addhiranirr myself. As he was in a hurry to return to the mainland, he was grateful and trusting enough due to my rank within the Imperial legion. I can only hope none of my superiors hear of this. Maybe Addhiranirr will be grateful that I've gotten rid of him for her.
+
+[MOD-INF]: ID=2811822118191877957(Topic:filthy lizard)
+  morrowind.esm---->|DATA|ONAM:ethys savil|NAME:What, are you some kind of filthy lizard lover? You wanta give your little friend a big kiss?|SCVR:34JX3A1_V_VivecInformants|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:ethys savil|NAME:What, are you some kind of filthy lizard lover? You wanta give your little friend a big kiss?|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:StartScript "_mqoHateCrimeScript"
+
+[DUP-INF]: ID=2920761741085323386(Topic:thoughtful gift)
+  |DATA|FNAM:Ashlanders|ANAM:Urshilaku Camp|NAME:Do you want to offer me a gift? Good. I am not proud. I like gold. This is the custom you outlanders call a 'bribe', yes?|BNAM:;Ashlander, Urshilaku Camp
+
+[MOD-INF]: ID=3002928192381218202(Topic:thoughtful gift)
+  morrowind.esm---->|DATA|ONAM:hassour zainsubani|NAME:Yes. A gift that shows you have taken the care to learn something of the receiver. For example, I love poetry. No stranger could be expected to know this, but a book of poetry given to me by a stranger shows the giver respects me, and has made a special effort to know and please me. But now, I have answered your question, and would like some time to myself. If you will excuse me?|SCVR:34JX3A1_11_ZainsubaniInformant|INTV|BNAM:Journal, "A1_11_ZainsubaniInformant", 20  Goodbye
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hassour zainsubani|NAME:Yes. A gift that shows you have taken the care to learn something of the receiver. For example, I love poetry. No stranger could be expected to know this, but a book of poetry given to me by a stranger shows the giver respects me, and has made a special effort to know and please me.|SCVR:34JX3A1_11_ZainsubaniInformant|INTV|BNAM:Journal, "A1_11_ZainsubaniInformant", 20  Choice "[Offer to tell a Poem from your home country]" 1  Choice "I understand Sera Zainsubani, now would you also tell me about..." 2
+
+[DUP-INF]: ID=3092026972262374647(Topic:thoughtful gift)
+  |DATA|ONAM:tussurradad|NAME:You have a kwama egg for me? These are quite tasty. And not so easy to get. Thank you.|SCVR:05IX3food_kwama_egg_02|INTV|BNAM:player->removeitem food_kwama_egg_02 1  additem food_kwama_egg_02 1  modDisposition 10
+
+[MOD-INF]: ID=3145369531827619261(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:Good day, %PCName. I am %Name, Drillmaster for the Balmora Fighters Guild. So you're with Caius, eh? And Caius wants some information? I'd be happy to help... though I will require a favor first. Then I'll tell you what you want to know.|SCVR:01630|INTV:|SCVR:34JX3A1_2_AntabolisInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:Good day, %PCName. I am %Name, Drillmaster for the Balmora Fighters Guild. So you're not here for training, but for information, eh? I'd be happy to help... though I will require a favor first. Then I'll tell you what you want to know.|SCVR:01630|INTV:|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[MOD-INF]: ID=3160023740229122956(Topic:urshilaku)
+  morrowind.esm---->|DATA|ONAM:hassour zainsubani|NAME:The Urshilaku are the Ashlanders of the northern Ashlands and the West Gash, in the northwest of Vvardenfell. Ashkhan Sul-Matuul is their chief, a brave and respected war leader, and Warrior-Protector of the Nerevarine cult. The Urshilaku camp moves with the herds, but usually lies close to the Sea of Ghosts.|SCVR:34JX3A1_11_ZainsubaniInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hassour zainsubani|NAME:The Urshilaku are the Ashlanders of the northern Ashlands and the West Gash, in the northwest of Vvardenfell. Ashkhan Sul-Matuul is their chief, a brave and respected war leader, and Warrior-Protector of the Nerevarine cult. The Urshilaku camp moves with the herds, but usually lies close to the Sea of Ghosts. They are also the tribe most interested in ancient relics, scrolls, and other items one may find in the ruins dotting Vvardenfell. Bringing them such items is one way to gain favor with this tribe.|SCVR:34JX3A1_11_ZainsubaniInformant|INTV|BNAM:Choice "What kind of relics would interest them?" 1
+
+[DUP-INF]: ID=3233897141097512259(Journal:a1_11_zainsubaniinformant)
+  |DATA|NAME:Hassour Zainsubani says that he is too old now to travel, but that his son, Hannat Zainsubani, seeks out sources of fine ebony. The son has proposed to chart the rarely visited ancient underground complex at Mamaea, west of Red Mountain, and if I should meet him in my travels, Hassour Zainsubani asks me to tell his son that his father longs for news of his son-and-heir.
+
+[DUP-INF]: ID=3236710700194205911(Topic:favor)
+  |DATA|ONAM:hasphat antabolis|NAME:Right. As I said, get me the Dwemer puzzle box from Arkngthand, and I'll tell you what you want to know.|SCVR:34JX2A1_2_AntabolisInformant|INTV
+
+[DUP-INF]: ID=4572154092732332664(Topic:thoughtful gift)
+  |DATA|ONAM:tussurradad|NAME:Do you want to offer me a gift, outlander? Then bring me a kwama egg, for I am hungry.
+
+[DUP-INF]: ID=5408165372742427301(Topic:thoughtful gift)
+  |DATA|ONAM:tussurradad|NAME:You have a kwama egg for me? These are quite tasty. And not so easy to get. Thank you.|SCVR:05IX3food_kwama_egg_01|INTV|BNAM:player->removeitem food_kwama_egg_01 1  additem food_kwama_egg_01 1  modDisposition 10
+
+[MOD-INF]: ID=5710101312554611886(Greeting:greeting 7)
+  morrowind.esm---->|DATA|ONAM:raril giral|NAME:Good day. I'm Raril Giral, publican of the Black Shalk Cornerclub here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Raril Giral
+  MQO_Alpha0.3.ESP->|DATA|ONAM:raril giral|NAME:Good day. I'm Raril Giral, publican of the Black Shalk Cornerclub here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|SCVR:04JX5A1_V_VivecInformants|INTV|BNAM:;Raril Giral
+
+[MOD-INF]: ID=7116277302832410471(Journal:a1_4_muzgobinformant)
+  tribunal.esm----->|DATA|NAME:The Spymaster told me to get Sharn gra-Muzgob at the Balmora Mages Guild to tell me about the Nerevarine, and then report back to him. I'll have to do a little "errand" for her first, he says. I'm beginning to see a pattern here. Rather than pay informants with hard cash, Caius Cosades trades favors for information. And as the new recruit in the organization, I provide the favors. Ah, well. A lesson in humility.
+  MQO_Alpha0.3.ESP->|DATA|NAME:The Spymaster told me to get Sharn gra-Muzgob at the Balmora Mages Guild to tell me about the Nerevarine, and then report back to him. He warned me that she'll want me to do a little "errand" for her first. I'm beginning to see a pattern here. Rather than pay informants with hard cash, Caius Cosades trades favors for information. And as the new recruit in the organization, I provide the favors. Ah, well. A lesson in humility.
+
+[MOD-INF]: ID=7361308292213827751(Topic:nerevarine prophecies)
+  morrowind.esm---->|DATA|ONAM:zabamund|NAME:The Nerevarine Prophecies are not for outlanders. Why should Sul-Matuul and Nibani Maesa speak to you about these things? Who are you, that we should trust you?|SCVR:04JX3A2_1_MeetSulMatuul|INTV|BNAM:;Zabamund  Choice "Offer to fight a duel to the death for the right to speak to Sul-Matuul" 1 "Boast of my worthy deeds, and demand the right to speak to Sul-Matuul" 2 "Tell all I have learned of the Sixth House and the Nerevarine, and ask humbly to speak to Sul-Matuul" 3 "Offer to pay a tribute of 200 gold to speak with Sul-Matuul" 4
+  MQO_Alpha0.3.ESP->|DATA|ONAM:zabamund|NAME:The Nerevarine Prophecies are not for outlanders. Why should Sul-Matuul and Nibani Maesa speak to you about these things? Who are you, that we should trust you?|SCVR:04JX3A2_1_MeetSulMatuul|INTV|BNAM:;Zabamund  Choice "Offer to fight a duel to the death for the right to speak to Sul-Matuul" 1 "Boast of my worthy deeds, and demand the right to speak to Sul-Matuul" 2 "Tell all I have learned of the Sixth House and the Nerevarine, and ask humbly to speak to Sul-Matuul" 3 "Offer to pay a tribute of 2000 gold to speak with Sul-Matuul" 4
+
+[DUP-INF]: ID=8162279352552127730(Topic:thoughtful gift)
+  |DATA|ONAM:hainab|NAME:Do you want to offer me a gift? Poor outlander. Even these small things are a puzzle to you. Then bring me some trama root for my larder. I am a hunter, and it is beneath my dignity to scrabble about in the dirt. But you? Perhaps this is a task you can handle.
+
+[MOD-INF]: ID=8610183342453224014(Topic:nerevarine cult)
+  morrowind.esm---->|DATA|ONAM:huleeya|NAME:I gave you a summary for Caius. Feel free to read it, of course.|SCVR:34JX3A1_7HuleeyaInformant|INTV:2
+  MQO_Alpha0.3.ESP->|DATA|ONAM:huleeya|NAME:I gave you a summary. Feel free to read it, of course.|SCVR:34JX3A1_7HuleeyaInformant|INTV:2
+
+[MOD-INF]: ID=9915147733057621536(Topic:morrowind history)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:When we UNDERSTAND the events that occur to us, the events become history. History is understanding. Otherwise we're all just dumb animals trying to get in out of the cold.|SCVR:04JX3book_OnMorrowind|INTV|SCVR:12sX4Random100|INTV:!
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:I'm telling you, when we UNDERSTAND the events that occur to us, the events become history. History is understanding. Otherwise we're all just dumb animals trying to get in out of the cold.|SCVR:04JX3book_OnMorrowind|INTV|SCVR:12sX4Random100|INTV:!
+
+[DUP-INF]: ID=10852283441693910590(Greeting:greeting 7)
+  |DATA|CNAM:Buoyant Armiger|NAME:Greetings, %PCName. The Archcanon announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. We have orders to provide maps and intelligence on conditions inside the Ghostfence. Tell me if you want someone in particular, services, or a specific place. Shall I tell you about my trade? Would you like a little advice? Or are you interested in the latest rumors? Or would you like to hear a little secret?|SCVR:04JX3B8_MeetVivec|INTV:2|SCVR:14JX4C3_DestroyDagoth|INTV:2|BNAM:;buoyant armigers; ghostfence; Journal B8_MeetVivec >= 50; disp 70
+
+[MOD-INF]: ID=11444182372533429208(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:So. Caius sent you? If you want something from me, I require a favor first, or forget it.|SCVR:34JX3A1_2_AntabolisInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:So. You need information? If you want something from me, I require a favor first, or forget it.|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[DUP-INF]: ID=11458100501302119369(Topic:thoughtful gift)
+  |DATA|ONAM:tussurradad|NAME:More kwama egg? No, outlander. You are too generous. Keep it for yourself.|SCVR:05IX3food_kwama_egg_01|INTV
+
+[DUP-INF]: ID=11508164192643726888(Greeting:greeting 5)
+  |DATA|ONAM:addhiranirr|NAME:Go away. %Name does not want to talk.
+
+[MOD-INF]: ID=11673290332403621437(Topic:thoughtful gift)
+  morrowind.esm---->|DATA|ONAM:zabamund|NAME:It is our custom. Among strangers, we honor this custom with gold.|BNAM:;Zabamund
+  MQO_Alpha0.3.ESP->|DATA|ONAM:zabamund|NAME:It is our custom. It shows respect stranger.|BNAM:;Zabamund
+
+[MOD-INF]: ID=12452206762580911498(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:No. No interruptions! How many times.... Oh. You are one of Caius' associates? That is a different matter. Caius and I have a very satisfactory arrangement, and I'm sure we can come to some sort of agreement, if you will complete a little errand for me.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:No. No interruptions! How many times.... Oh, now I've lost my thought. Well what is it then? What is so important that you must disturb me so? Hm? You ask for my knowledge about the native faiths and superstitions, well now come to think of it if you might actually be useful for my current studies. If you are willing complete a little errand for me I might be inclined to share what I know.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+
+[MOD-INF]: ID=12474147772691111755(Topic:morrowind history)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:Caius says he's fed up with heroes. The Empire keeps sending them out here to the provinces to 'civilize' things. The fools don't seem to realize that their 'destinies' are being created by historical processes. And they're too ignorant and impatient to understand it. So Caius sends you to me, hoping you'll be different. Poor Caius. So many disappointments. So maybe you'll read 'On Morrowind, the Imperial Province'? And learn something about current events? That's what I recommend.|SCVR:04JX3book_OnMorrowind|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:Personally I'm fed up with heroes. The Empire keeps sending them out here to the provinces to 'civilize' things. The fools don't seem to realize that their 'destinies' are being created by historical processes. And they're too ignorant and impatient to understand it. One can only, hope you might perhaps be different. So maybe you'll read 'On Morrowind, the Imperial Province'? And learn something about current events? That's what I recommend.|SCVR:04JX3book_OnMorrowind|INTV
+
+[MOD-INF]: ID=13219175963173528416(Greeting:greeting 5)
+  tribunal.esm----->|DATA|ONAM:addhiranirr|NAME:That would be nice. If you HAD three hundred gold.|SCVR:25IX4Gold_001|INTV|SCVR:34JX3A2_6_Incarnate|INTV:5|SCVR:41500|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 56  Goodbye
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:That would be nice. If you HAD 300 hundred gold.|SCVR:25IX4Gold_001|INTV|SCVR:34JX3A2_6_Incarnate|INTV:5|SCVR:41500|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 56  Goodbye
+
+[MOD-INF]: ID=14350201462720024778(Topic:nerevarine)
+  morrowind.esm---->|DATA|ONAM:addhiranirr|NAME:Yes, Addhiranirr knows this Nerevarine cult is just silly superstition. So you tell Caius this. Nobody in her right mind pays any attention to this moon-yeowling. Prophecies and ancient heroes reborn and other silliness. Fuzzy tales for little kitties.|SCVR:34JX0A1_6_AddhiranirrInformant|INTV:-
+  MQO_Alpha0.3.ESP->|DATA|ONAM:addhiranirr|NAME:Yes, Addhiranirr knows this Nerevarine cult is just silly superstition. So you tell the ones who sent you this. Nobody in her right mind pays any attention to this moon-yeowling. Prophecies and ancient heroes reborn and other silliness. Fuzzy tales for little kitties.|SCVR:34JX0A1_6_AddhiranirrInformant|INTV:-
+
+[MOD-INF]: ID=15350119371917130651(Topic:thoughtful gift)
+  morrowind.esm---->|DATA|ONAM:sul-matuul|NAME:This outcast ashlander you have killed, Zallay Subaddamael, betrayed Urshilaku hospitality and killed the husband of our trader Kurapli. I had promised her justice, and my failure to obtain it for her has troubled me. This gift pleases me, and does you honor.|SCVR:04JX3A2_1_Kurapli_Zallay|INTV|SCVR:16DX0zallay subaddamael|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sul-matuul|NAME:It is our custom. Do you come bearing gifts, outlander?
+
+[MOD-INF]: ID=15350119371917130651(Topic:thoughtful gift)
+  morrowind.esm---->|DATA|ONAM:sul-matuul|NAME:This outcast ashlander you have killed, Zallay Subaddamael, betrayed Urshilaku hospitality and killed the husband of our trader Kurapli. I had promised her justice, and my failure to obtain it for her has troubled me. This gift pleases me, and does you honor.|SCVR:04JX3A2_1_Kurapli_Zallay|INTV|SCVR:16DX0zallay subaddamael|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sul-matuul|NAME:It is our custom. Do you come bearing gifts, outlander?
+[MOD-IID]: ID=18062128331635823963
+  MQO_Alpha0.3.ESP->This outcast ashlander you have killed, Zallay Subaddamael, betrayed Urshilaku hospitality and killed the husband of our trader Kurapli. I had promised her justice, and my failure to obtain it for her has troubled me. This gift pleases me, and does you honor.
+
+[MOD-INF]: ID=15564287601708520446(Journal:a1_2_antabolisinformant)
+  morrowind.esm---->|DATA|NAME:Hasphat Antabolis gave me notes on the Sixth House to deliver to Caius Cosades.
+  MQO_Alpha0.3.ESP->|DATA|NAME:Hasphat Antabolis gave me notes on the Sixth House, now I need to deliver them to Caius Cosades.
+
+[DUP-INF]: ID=15793321511392031575(Topic:thoughtful gift)
+  |DATA|ONAM:tussurradad|NAME:More kwama egg? No, outlander. You are too generous. Keep it for yourself.|SCVR:05IX3food_kwama_egg_02|INTV
+
+[MOD-INF]: ID=16293234062747712419(Topic:errand)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:When you've completed the errand, then we can discuss the information Caius wants.|SCVR:34JX3A1_4_MuzgobInformant|INTV: |SCVR:45IX0misc_Skull_Llevule|INTV:
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:When you've completed the errand, then we can discuss the information you want.|SCVR:34JX3A1_4_MuzgobInformant|INTV|SCVR:45IX0misc_Skull_Llevule|INTV:
+
+[MOD-INF]: ID=17006234403263719357(Topic:favor)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:Perfect. Just what I was looking for. Just let me take this Dwemer puzzle box, and then I'll tell you what Caius will want to know about the Sixth House. And about the Nerevarine. By the way, the inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. If you're interested, after you've delivered your report to Caius, come back, and maybe I'll have a key you can take back to Arkngthand.|SCVR:45IX3misc_dwrv_ark_cube00|INTV|BNAM:Player->RemoveItem, "misc_dwrv_Ark_cube00", 1  Journal, "A1_2_AntabolisInformant", 10  moddisposition 10
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:Perfect. Just what I was looking for. Just let me take this Dwemer puzzle box, and then I'll tell you what you want to know about the Sixth House. And about the Nerevarine. By the way, the inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. If you're interested, come back in a few hours, and maybe I'll have a key you can take back to Arkngthand.|SCVR:34JX5A1_2_AntabolisInformant|INTV|SCVR:45IX3misc_dwrv_ark_cube00|INTV|BNAM:Player->RemoveItem, "misc_dwrv_Ark_cube00", 1  "hasphat antabolis"->AddItem, "misc_dwrv_Ark_cube00", 1  Journal, "A1_2_AntabolisInformant", 10  moddisposition 10
+
+[MOD-INF]: ID=17112260851298720525(Topic:orders)
+  morrowind.esm---->|DATA|ONAM:caius cosades|NAME:Like I said, pilgrim. Go get yourself some decent gear. And you need a cover identity -- 'freelance adventurer'. Join the Fighters Guild, or Mages Guild, or Imperial cult, or Imperial legion, advance in the ranks, gain skill and experience. Or go out on your own, look for freelance work, or trouble. Then, when you're ready, come back, and I'll have orders for you.|SCVR:01063|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:caius cosades|NAME:Like I said, %PCClass. Go get yourself some decent gear. And you need a cover identity -- 'freelance adventurer'. Join the Fighters Guild, or Mages Guild, or Imperial cult, or Imperial legion, advance in the ranks, gain skill and experience. Or go out on your own, look for freelance work, or trouble. Then, when you're ready, come back, and I'll have orders for you.|SCVR:01063|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=17200176381474717936(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:favel gobor|NAME:I'm not talking to you, mate. I'm talking to this here filthy lizard. So shut up, or I'll shut you up.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:modDisposition -10
+  MQO_Alpha0.3.ESP->|DATA|ONAM:favel gobor|NAME:I'm not talking to you, mate. I'm talking to this here filthy lizard. So shut up, or I'll shut you up.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:setdisposition 30
+
+[MOD-INF]: ID=17281197101776017263(Topic:necromancers)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:I can teach you more necromancy spells. For a price, of course. And as long as you keep quite about this.|SCVR:04JX3MG_Sharn_Necro|INTV: 
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:I can teach you more necromancy spells. For a price, of course. And as long as you keep quiet about this.|SCVR:04JX0MG_Sharn_Necro|INTV: 
+
+[DUP-INF]: ID=18040244441020929883(Greeting:greeting 5)
+  |DATA|ONAM:sharn gra-muzgob|NAME:Yes. You've been quite helpful. And if there's more you want to know, please ask.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+
+[DUP-INF]: ID=18068278061564118475(Topic:addhiranirr)
+  |DATA|ONAM:duvianus platorius|NAME:Yes. Her name is Addhiranirr, and she is a Khajiit. Do you know where I can find her?|SCVR:34JX3A1_6_AddhiranirrInformant|INTV|BNAM:Choice, "[Lie.] Yes, she just took a gondola to the mainland.", 1, "No", 2, "I think you might find her in the underworks.", 3
+
+[MOD-INF]: ID=18350244802436521771(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:ethys savil|NAME:Fine, he wants a filthy lizard in here, I don't care. We'll leave him alone.|SCVR:34JX3A1_V_VivecInformants|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:ethys savil|NAME:Fine, he wants to be a filthy lizard in here, I don't care. We'll leave him alone.|SCVR:34JX3A1_V_VivecInformants|INTV
+
+[MOD-INF]: ID=18715159651679613961(Greeting:greeting 5)
+  morrowind.esm---->|DATA|ONAM:ethys savil|NAME:Go ahead. Keep talking. And I'm gonna pop your head off, and feed it to the filthy lizard.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:modDisposition -10
+  MQO_Alpha0.3.ESP->|DATA|ONAM:ethys savil|NAME:Go ahead. Keep talking. And I'm gonna pop your head off, and feed it to the filthy lizard.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:setdisposition 30
+
+[MOD-INF]: ID=19882142971327022854(Topic:dwemer puzzle box)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:Yes. The inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. If you're interested, after you've delivered your report to Caius, come back, and maybe I'll have a key you can take back to Arkngthand.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:Yes. The inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. If you're interested, come back in a few hours, and maybe I'll have a key you can take back to Arkngthand.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[DUP-INF]: ID=20234212771163929428(Journal:a1_4_muzgobinformant)
+  |DATA|NAME:Sharn gra-Muzgob says that Andrano Ancestral Tomb is south of Pelagiad, just off the road, just before the fork where the road goes southwest towards Seyda Neen and southeast to Vivec. She gave me an enchanted blade and some scrolls, because she says some spirits are immune to normal weapons.
+
+[DUP-INF]: ID=22369270831671919906(Topic:addhiranirr)
+  |DATA|ONAM:duvianus platorius|NAME:No, I understand. She didn't know I was coming. But it's no problem. I was just heading back to the mainland myself, and maybe I'll run into her there.|SCVR:34JX3A1_6_AddhiranirrInformant|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=23066108981558011850(Topic:favor)
+  |DATA|ONAM:hasphat antabolis|NAME:Yes. The box was just what I was looking for.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[MOD-INF]: ID=23175310173091111047(Topic:nerevarine cult)
+  morrowind.esm---->|DATA|ONAM:sharn gra-muzgob|NAME:I gave you a copy of my notes for Caius. Read them.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:sharn gra-muzgob|NAME:I gave you a copy of my notes. Read them.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+
+[MOD-INF]: ID=23588256493054024115(Topic:orders)
+  morrowind.esm---->|DATA|ONAM:caius cosades|NAME:I've glanced at Hasphat Antabolis' notes. They cover the Sixth House admirably, but not the Nerevarine cult. Hop on over to the Balmora Mages Guild. It's right next to the Balmora Fighters Guild. Get Sharn gra-Muzgob to tell you what she knows about the Nerevarine. She'll have some silly errand for you. Do what she asks. And report back when she's given you the information.|SCVR:04JX3A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_4_MuzgobInformant", 1
+  MQO_Alpha0.3.ESP->|DATA|ONAM:caius cosades|NAME:I've glanced at Hasphat Antabolis' notes. They cover the Sixth House admirably, but not the Nerevarine cult. Hop on over to the Balmora Mages Guild. It's right next to the Balmora Fighters Guild. Hasphat recommends Sharn gra-Muzgob as an informant on the Nerevarine Cult so I task you to have her tell you what she knows about the Nerevarine. She will most likely have some silly errand for you. Do what she asks. And report back when she's given you the information.|SCVR:04JX3A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_4_MuzgobInformant", 1
+
+[MOD-INF]: ID=24786265931023614933(Topic:sixth house)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:House Dagoth is the Sixth House, the "lost" Sixth House. In the First Age, House Dagoth betrayed the other Great Houses during the War of the First Council, and was destroyed for their treason. I can answer any questions you have, but I'll also give you some notes to give to Caius, and recommend some Sixth House references he should read.|SCVR:34JX3A1_2_AntabolisInformant|INTV: |BNAM:Player->AddItem, "bk_A1_2_AntabolisToCosades", 1  Journal, "A1_2_AntabolisInformant", 15
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:House Dagoth is the Sixth House, the "lost" Sixth House. In the First Age, House Dagoth betrayed the other Great Houses during the War of the First Council, and was destroyed for their treason. I can answer any questions you have, but I'll also give you some notes to read later, I can also recommend some Sixth House references you should read.|SCVR:34JX3A1_2_AntabolisInformant|INTV: |BNAM:Player->AddItem, "bk_A1_2_AntabolisToCosades", 1  Journal, "A1_2_AntabolisInformant", 15
+
+[DUP-INF]: ID=25082122392266923658(Greeting:greeting 7)
+  |DATA|RNAM:Khajiit|NAME:What are you doing here? Would you let me go free?|SCVR:03sX0slaveStatus|INTV:
+
+[MOD-INF]: ID=26053211572630328545(Topic:nerevarine prophecies)
+  morrowind.esm---->|DATA|ONAM:zabamund|NAME:All of that may be true, and I'm sure you think it is very important, but it has nothing to do with us -- at least, not the way you tell it. I'm sorry, but I will not let you bother Sul-Matuul or Nibani Maesa with all this.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:11500|INTV|SCVR:21364|INTV|BNAM:;Zabamund
+  MQO_Alpha0.3.ESP->|DATA|ONAM:zabamund|NAME:All of that may be true, and I'm sure you think it is very important, but it has nothing to do with us -- at least, not the way you tell it. I'm sorry, but I will not let you bother Sul-Matuul or Nibani Maesa with all this.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:11500|INTV|SCVR:21364|INTV:(|BNAM:;Zabamund
+
+[MOD-INF]: ID=26641290942936731915(Topic:morrowind history)
+  morrowind.esm---->|DATA|ONAM:hasphat antabolis|NAME:I won't bore you blathering about history. That's what Caius is for. But if you're really interested, try 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold. I have an extra copy you can have. What an adventurer like you REALLY needs is a sense of current events. Who hates who? Where's trouble brewing? That's where opportunity lies for an outlander like you.|BNAM:player->additem bk_OnMorrowind 1  Journal book_OnMorrowind 1
+  MQO_Alpha0.3.ESP->|DATA|ONAM:hasphat antabolis|NAME:I won't bore you blathering about history. But if you're really interested, try 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold. I have an extra copy you can have. What an adventurer like you REALLY needs is a sense of current events. Who hates who? Where's trouble brewing? That's where opportunity lies for an outlander like you.|BNAM:player->additem bk_OnMorrowind 1  Journal book_OnMorrowind 1
+
+[MOD-INF]: ID=26697146411173217957(Topic:dura gra-bol)
+  morrowind.esm---->|DATA|ANAM:Balmora|NAME:I think he lives by the river, on the east side of town.|SCVR:0CsX0nolore|INTV:
+  MQO_Alpha0.3.ESP->|DATA|ANAM:Balmora|NAME:I think she lives by the river, on the east side of town.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=27186266952214713822(Journal:a1_2_antabolisinformant)
+  morrowind.esm---->|DATA|NAME:I gave Hasphat Antabolis the Dwemer puzzle box, and now he says he'll tell me what I need to know about the Nerevarine secret cult and the Sixth House secret cult. He also said the inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. When I've delivered my report to Caius, he said come back, and maybe he'll have a key I can take back to Arkngthand.
+  MQO_Alpha0.3.ESP->|DATA|NAME:I gave Hasphat Antabolis the Dwemer puzzle box, and now he says he'll tell me what I need to know about the Nerevarine secret cult and the Sixth House secret cult. He also said the inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. If I return to him in a few hours he may have a key I can take back to Arkngthand.
+
+[DUP-INF]: ID=28885171882598725831(Topic:thoughtful gift)
+  |DATA|ONAM:shallath-piremus|NAME:Do you want to offer me a gift of trama root? Well, thank you, outlander, and very kind of you, but I happen to have quite a lot of trama root at the moment. Thank you for the thought, but keep this gift for yourself.|SCVR:05IX3ingred_trama_root_01|INTV
+
+[DUP-INF]: ID=29210153361932113685(Topic:thoughtful gift)
+  |DATA|ONAM:shallath-piremus|NAME:Do you want to offer me a gift? Poor outlander. Even these small things are a puzzle to you. Then bring me some trama root for my larder. I am a hunter, and it is beneath my dignity to scrabble about in the dirt. But you? Perhaps this is a task you can handle.
+
+[DUP-INF]: ID=31507225672871618785(Topic:nerevarine)
+  |DATA|ONAM:hasphat antabolis|NAME:Now you are a part of history, %PCName. It is an honor to know you. And yet, there is still the mystery. Does the hero shape the times, or do the times shape the hero? Perhaps you should write a history book, %PCName.|SCVR:34JX3C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=32703240341435732611(Topic:filthy lizard)
+  morrowind.esm---->|DATA|ONAM:urven davor|NAME:His kind aren't welcome here. He belongs in the swamp with the rest of them.|SCVR:34JX3A1_V_VivecInformants|INTV
+  MQO_Alpha0.3.ESP->|DATA|ONAM:urven davor|NAME:His kind aren't welcome here. He belongs in the swamp with the rest of them.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:StartScript "_mqoHateCrimeScript"

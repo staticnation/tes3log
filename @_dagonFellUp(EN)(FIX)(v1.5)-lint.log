@@ -1,0 +1,53 @@
+@_dagonFellUp(EN)(FIX)(v1.5).esp: AUTOSPL DUP-INF DUP-REC FOGBUG MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	@_dgfl_bless                   The Glory Of The North
+	@_dgfl_bless2                  Farewell
+    [FOGBUG]: Cells with zero fog density setting:
+	Dagon Fel, Haema`s House
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DGFL_WeaterSound)
+	SCPT(DGFL_WeaterSound2)
+	SCPT(DGFL_shrineNordSmll)
+	SCPT(DGFL_shrineNords)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       LAND    (6, 22)
+	morrowind.esm       LAND    (7, 21)
+	morrowind.esm       LAND    (7, 22)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       NPC_    daynas darys
+	morrowind.esm       NPC_    gals arethi
+	morrowind.esm       NPC_    talmeni drethan
+	morrowind.esm       NPC_    tonas telvani
+	morrowind.esm       PGRD    dagon fel
+	morrowind.esm       PGRD    dagon fel, anja swift-sailer's house
+	morrowind.esm       PGRD    dagon fel, fanar fork-beard's house
+	morrowind.esm       PGRD    dagon fel, fjorrod's house
+	morrowind.esm       PGRD    dagon fel, hurg's house
+	morrowind.esm       PGRD    dagon fel, itar the gentle's house
+	morrowind.esm       PGRD    dagon fel, mette's house
+	morrowind.esm       PGRD    dagon fel, onmi hard-mouth's house
+	morrowind.esm       PGRD    dagon fel, watch tower
+	morrowind.esm       PGRD    sheogorad region
+	tribunal.esm        LTEX    ai_dirtroad
+
+[DUP-INF]: ID=137637342899629067(Persuasion:service refusal)
+  |DATA|ONAM:vevrana aryon|NAME:I'm sorry. There must be some mistake. I'm not a gondolier or shipmaster.|SCVR:04JX4A2_4_Milo_hola_go|INTV

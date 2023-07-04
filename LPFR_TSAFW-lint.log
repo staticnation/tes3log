@@ -1,0 +1,17 @@
+LPFR_TSAFW.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(LPFR_TSAFW_DayCount_Script)
+	SCPT(fallingScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    agronian guy
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+
+[MOD-INF]: ID=62342927712254319(Greeting:greeting 0)
+  morrowind.esm-->|DATA|ONAM:agronian guy|NAME:I don't want to talk about it.|BNAM:Goodbye
+  LPFR_TSAFW.esp->|DATA|ONAM:LPF|R_TS:|NAME:I don't want to talk about it.|BNAM:Goodbye

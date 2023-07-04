@@ -1,0 +1,12 @@
+sb_tel_shadow.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(sb_tel_shadow_BumpScript)
+	SCPT(sb_tel_shadow_Level)
+	SCPT(sb_tel_shadow_Stats)
+	SCPT(sb_tel_shadow_Warp)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0

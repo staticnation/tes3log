@@ -1,0 +1,93 @@
+Abandoned_Flat.esp: AUTOSPL DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	spell_para                     Greater Freeze
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Sound_Crystal_Ringing)
+	SCPT(scr_add_journal)
+	SCPT(scr_alchemy_bonus)
+	SCPT(scr_androth)
+	SCPT(scr_chapter_eight)
+	SCPT(scr_chapter_five)
+	SCPT(scr_chapter_four)
+	SCPT(scr_chapter_nine)
+	SCPT(scr_chapter_one)
+	SCPT(scr_chapter_seven)
+	SCPT(scr_chapter_six)
+	SCPT(scr_chapter_ten)
+	SCPT(scr_chapter_three)
+	SCPT(scr_chapter_two)
+	SCPT(scr_conjuration_bonus)
+	SCPT(scr_elevator)
+	SCPT(scr_enchanting_bonus)
+	SCPT(scr_falling_down)
+	SCPT(scr_fragment_1)
+	SCPT(scr_fragment_2)
+	SCPT(scr_head_stealer_2)
+	SCPT(scr_home_james)
+	SCPT(scr_hunt_beyta)
+	SCPT(scr_jaegar)
+	SCPT(scr_jon)
+	SCPT(scr_jon_press)
+	SCPT(scr_mysterious_black_robe)
+	SCPT(scr_nakor)
+	SCPT(scr_reap_beyta)
+	SCPT(scr_robe_of_the_seeker)
+	SCPT(scr_robota)
+	SCPT(scr_robotb)
+	SCPT(scr_sound_howl)
+	SCPT(scr_statue_wodsarhospur)
+	SCPT(scr_to_farisamine_deep)
+	SCPT(scr_to_farisamine_deep_door)
+	SCPT(scr_trapped_floor)
+	SCPT(scr_trapped_floor_2)
+	SCPT(scr_up_out)
+	SCPT(scr_wake_up_zone)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    escort
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=190592792723126084(Greeting:greeting 1)
+  tribunal.esm------->|DATA|ONAM:Furius Acilius|NAME:What are you doing here? Those bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay. And you will tell no one!|BNAM:SetFight 100  StartCombat Player  Goodbye
+  Abandoned_Flat.esp->|ONAM:Furius Acilius|NAME:What are you doing here? Those bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay. And you will tell no one!|BNAM:SetFight 100  StartCombat Player  Goodbye|DATA
+
+[MOD-INF]: ID=307481458477726961(Topic:advancement)
+  tribunal.esm------->|DATA|ONAM:Vedam Dren|DNAM:Hlaalu|NAME:You are the Grandmaster of House Hlaalu, %PCName.
+  Abandoned_Flat.esp->|ONAM:Vedam Dren|DNAM:Hlaalu|NAME:You are the Grandmaster of House Hlaalu, %PCName.|DATA
+
+[MOD-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  tribunal.esm------->|DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+  Abandoned_Flat.esp->|NAME:Who's there?|BNAM:goodbye  moddisposition -5|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|DATA
+
+[MOD-INF]: ID=1343227074600616390(Topic:advancement)
+  morrowind.esm------>|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:Yes, we find you worthy of %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank "Telvanni"
+  Abandoned_Flat.esp->|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:Yes, we find you worthy of %NextPCRank.|BNAM:PCRaiseRank "Telvanni"|SCVR:01020|INTV|DATA
+
+[MOD-INF]: ID=1588813549227325295(Greeting:greeting 1)
+  tribunal.esm------->|DATA|CNAM:Dreamers|NAME:All is silence. The road is straight, without turning, in darkness. Now let there be an end to all things.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:modDisposition -10  goodbye
+  Abandoned_Flat.esp->|CNAM:Dreamers|NAME:All is silence. The road is straight, without turning, in darkness. Now let there be an end to all things.|BNAM:modDisposition -10  goodbye|SCVR:04JX3C3_DestroyDagoth|INTV:2|DATA
+
+[MOD-INF]: ID=2787118627358723517(Topic:escort)
+  morrowind.esm------>|DATA|ONAM:viatrix petilia|NAME:I need an escort to Ghostgate Shrine, and I need to be there in two days' time. I'll give you a tip when you get me there safely. I haven't got all day. Shall we go?|SCVR:04JX4MV_RichPilgrim|INTV: |BNAM:Journal "MV_RichPilgrim" 10  Choice "I will escort you there if I must." 1 "I don't have the time to take you there." 2
+  Abandoned_Flat.esp->|ONAM:viatrix petilia|NAME:I need an escort to Ghostgate Shrine, and I need to be there in two days' time. I'll give you a tip when you get me there safely. I haven't got all day. Shall we go?|BNAM:Journal "MV_RichPilgrim" 10  Choice "I will escort you there if I must." 1 "I don't have the time to take you there." 2|SCVR:04JX4MV_RichPilgrim|INTV: |DATA
+
+[MOD-INF]: ID=3004932586283503729(Topic:advancement)
+  morrowind.esm------>|DATA|ONAM:crassius curio|DNAM:Hlaalu|NAME:I hate to say it, dumpling, but you've been expelled. You need to make amends with Uncle Crassius.|SCVR:01390|INTV
+  Abandoned_Flat.esp->|ONAM:crassius curio|DNAM:Hlaalu|NAME:I hate to say it, dumpling, but you've been expelled. You need to make amends with Uncle Crassius.|SCVR:01390|INTV|DATA
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm------->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  Abandoned_Flat.esp->|NAME:[You have failed your Oath of Silence]|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|DATA
+
+[MOD-INF]: ID=27082252162155919761(Topic:advancement)
+  morrowind.esm------>|DATA|ONAM:crassius curio|DNAM:Hlaalu|NAME:I can't advance you any more, dumpling. You'll need to see Duke Vedam Dren himself to be a Councilor or even Grandmaster. The Duke is staying in Ebonheart this year. He was the Grandmaster of House Hlaalu, you know, before he inherited his title.
+  Abandoned_Flat.esp->|ONAM:crassius curio|DNAM:Hlaalu|NAME:I can't advance you any more, dumpling. You'll need to see Duke Vedam Dren himself to be a Councilor or even Grandmaster. The Duke is staying in Ebonheart this year. He was the Grandmaster of House Hlaalu, you know, before he inherited his title.|DATA
+
+[MOD-INF]: ID=29178295052931320816(Topic:escort)
+  morrowind.esm------>|DATA|ONAM:viatrix petilia|NAME:Yes, I need to get to Ghostgate Shrine.|SCVR:04JX3MV_RichPilgrim|INTV|SCVR:14JX4MV_RichPilgrim|INTV:d
+  Abandoned_Flat.esp->|ONAM:viatrix petilia|NAME:Yes, I need to get to Ghostgate Shrine.|SCVR:04JX3MV_RichPilgrim|INTV|SCVR:14JX4MV_RichPilgrim|INTV:d|DATA
+
+[MOD-INF]: ID=32399121261368227557(Topic:escort)
+  morrowind.esm------>|DATA|ONAM:viatrix petilia|NAME:Good. Let's go. And be quick about it.|SCVR:01500|INTV|BNAM:Journal "MV_RichPilgrim" 20  "Viatrix Petilia"->AiFollow Player 0,24454,45500,4538,0
+  Abandoned_Flat.esp->|ONAM:viatrix petilia|NAME:Good. Let's go. And be quick about it.|BNAM:Journal "MV_RichPilgrim" 20  "Viatrix Petilia"->AiFollow Player 0,24454,45500,4538,0|SCVR:01500|INTV|DATA

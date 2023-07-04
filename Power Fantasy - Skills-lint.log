@@ -1,0 +1,295 @@
+Power Fantasy - Skills.ESP: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    bound_boots
+	morrowind.esm       ARMO    bound_cuirass
+	morrowind.esm       ARMO    bound_gauntlet_left
+	morrowind.esm       ARMO    bound_gauntlet_right
+	morrowind.esm       ARMO    bound_helm
+	morrowind.esm       ARMO    bound_shield
+	morrowind.esm       DIAL    alteration
+	morrowind.esm       DIAL    alteration potions
+	morrowind.esm       DIAL    alteration spells
+	morrowind.esm       DIAL    conjuration spells
+	morrowind.esm       DIAL    illusion
+	morrowind.esm       DIAL    illusion potions
+	morrowind.esm       DIAL    illusion spells
+	morrowind.esm       DIAL    mysticism
+	morrowind.esm       DIAL    mysticism potions
+	morrowind.esm       DIAL    mysticism spells
+	morrowind.esm       DIAL    restoration
+	morrowind.esm       DIAL    restoration spells
+	morrowind.esm       SKIL    0
+	morrowind.esm       SKIL    1
+	morrowind.esm       SKIL    10
+	morrowind.esm       SKIL    11
+	morrowind.esm       SKIL    12
+	morrowind.esm       SKIL    13
+	morrowind.esm       SKIL    14
+	morrowind.esm       SKIL    15
+	morrowind.esm       SKIL    16
+	morrowind.esm       SKIL    17
+	morrowind.esm       SKIL    18
+	morrowind.esm       SKIL    19
+	morrowind.esm       SKIL    2
+	morrowind.esm       SKIL    20
+	morrowind.esm       SKIL    21
+	morrowind.esm       SKIL    22
+	morrowind.esm       SKIL    23
+	morrowind.esm       SKIL    24
+	morrowind.esm       SKIL    25
+	morrowind.esm       SKIL    26
+	morrowind.esm       SKIL    3
+	morrowind.esm       SKIL    4
+	morrowind.esm       SKIL    5
+	morrowind.esm       SKIL    6
+	morrowind.esm       SKIL    7
+	morrowind.esm       SKIL    8
+	morrowind.esm       SKIL    9
+	morrowind.esm       WEAP    bound_battle_axe
+	morrowind.esm       WEAP    bound_dagger
+	morrowind.esm       WEAP    bound_longbow
+	morrowind.esm       WEAP    bound_longsword
+	morrowind.esm       WEAP    bound_mace
+	morrowind.esm       WEAP    bound_spear
+	tribunal.esm        DIAL    greeting 0
+
+[MOD-INF]: ID=196287825728868(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.|SCVR:01490|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice,  "Go to Jail.", 2, "Resist Arrest.", 3
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.|SCVR:01490|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice,  "Go to Jail.", 2, "Resist Arrest.", 3, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=3253570728765633(Topic:mysticism spells)
+  morrowind.esm-------------->|DATA|ONAM|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:ygfa|NAME:There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters: teleportation, telekinesis, security, and more.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=3419948118528617(Topic:mysticism spells)
+  morrowind.esm-------------->|DATA|ONAM|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:melvure rindu|NAME:There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters: teleportation, telekinesis, security, and more.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=6779220327317569(Topic:illusion spells)
+  morrowind.esm-------------->|DATA|ONAM:eraamion|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:eraamion|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: invisibility, chameleon, charming, calming, frenzying, demoralizing, rallying and commanding.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=8859450720313783(Topic:illusion spells)
+  morrowind.esm-------------->|DATA|ONAM:melvure rindu|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:melvure rindu|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: invisibility, chameleon, charming, calming, frenzying, demoralizing, rallying and commanding.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=18526101624629359(Topic:illusion potions)
+  morrowind.esm-------------->|DATA|ONAM:anarenen|NAME:Illusion potions provide beneficial magical effects from the domain of the Arcane College of Illusion. Illusion potions include: night-eye, invisibility, and light.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:anarenen|NAME:Illusion potions provide beneficial magical effects from the domain of the Arcane College of Illusion. Illusion potions mainly revolve around invisibility.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=24093917276228210(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|DNAM:Morag Tong|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.|SCVR:01433|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|DNAM:Morag Tong|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.|SCVR:01433|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=80142234040629837(Topic:mysticism spells)
+  morrowind.esm-------------->|DATA|ONAM|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:artisa arelas|NAME:There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters: teleportation, telekinesis, security, and more.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=92621983563175296(Topic:illusion spells)
+  morrowind.esm-------------->|DATA|ONAM:ygfa|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:ygfa|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: invisibility, chameleon, charming, calming, frenzying, demoralizing, rallying and commanding.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=163722910295791976(Topic:mysticism potions)
+  morrowind.esm-------------->|DATA|ONAM:tendris vedran|NAME:Mysticism potions provide beneficial magical effects from the domain of the Arcane College of Mysticism. Mysticism potions include: spell absorption, reflect, dispel, and telekinesis.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:tendris vedran|NAME:Mysticism potions provide beneficial magical effects from the domain of the Arcane College of Mysticism. Mysticism potions include: Levitation, waterbreathing, waterwalking, jump and more.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=192701535310983235(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01433|INTV|SCVR:12sX0PCHasTurnIn|INTV|SCVR:24JX3TR08_Hlaalu|INTV:F|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 5, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01433|INTV|SCVR:12sX0PCHasTurnIn|INTV|SCVR:24JX3TR08_Hlaalu|INTV:F|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 5, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=196804487824232374(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 1, "Go to Jail.", 2, "Resist Arrest.", 3
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 1, "Go to Jail.", 2, "Resist Arrest.", 3, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=206531474081439601(Topic:restoration)
+  morrowind.esm-------------->|DATA|CNAM:Savant|NAME:The Restoration discipline is the mastery of the spell effects of the College of Restoration. The restoration spells heal, restore, and fortify the body's attributes and abilities, cure disease, and protect it from other malign influences. The primary spells of this college heal wounds, cure disease, and restore lost vitality, but can also augment strength, endurance, intelligence, agility, and other bodily attributes.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Savant|NAME:The Restoration discipline is the mastery of the spell effects of the College of Restoration. The restoration spells heal, restore and cure disease. The primary spells of this college heal wounds, cure disease, and restore lost vitality, but can also absorb bodily attributes, dispel and turn the undead.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[MOD-INF]: ID=225265492192628541(Topic:conjuration spells)
+  morrowind.esm-------------->|DATA|ONAM:eraamion|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration. There are four different classes of restoration spells: domination spells, summoning spells, bound weapons spells, and bound armor spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:eraamion|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration: summoning spells, bound weapons spells, bound armor spells and soultrap.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=227722611142530578(Topic:illusion potions)
+  morrowind.esm-------------->|DATA|ONAM:nalion|NAME:Illusion potions provide beneficial magical effects from the domain of the Arcane College of Illusion. Illusion potions include: night-eye, invisibility, and light.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:nalion|NAME:Illusion potions provide beneficial magical effects from the domain of the Arcane College of Illusion. Illusion potions mainly revolve around invisibility.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=245175112128166780(Topic:mysticism)
+  morrowind.esm-------------->|DATA|CNAM:Savant|NAME:The mysticism discipline is the mastery of the spell effects of the College of Mysticism. The mysticism spells involve the manipulation of magical forces and boundaries to bypass the structures and limitations of the physical world. These spells bind souls in gems, or teleport the caster's body, or manipulate the world with telekinesis, or absorb or reflect magical energies, or sense unseen objects at a distance.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Savant|NAME:The mysticism discipline is the mastery of the spell effects of the College of Mysticism. The mysticism spells involve the manipulation of magical forces and boundaries to bypass the structures and limitations of the physical world. These spells teleport the caster's body, manipulate the world with telekinesis, open locks, sense unseen objects at a distance, illuminate dark areas or otherwise enable the caster to achieve the supernatural, like walking on water or levitating.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[MOD-INF]: ID=265379333265821025(Topic:mysticism spells)
+  morrowind.esm-------------->|DATA|ONAM|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:strillian macro|NAME:There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters: teleportation, telekinesis, security, and more.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=493650892551015451(Topic:alteration spells)
+  morrowind.esm-------------->|DATA|ONAM:smokey morth|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: water breathing, buoyancy, water walking, shield, fire shield, shock shield, frost shield, burden, feather, jump, slowfall, levitate, lock, and open.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:smokey morth|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: force shield, elemental shields, fortification, resistances to harmful effects and diseases, spell absorption, feather and sanctuary.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=597531339322583556(Topic:conjuration spells)
+  morrowind.esm-------------->|DATA|ONAM:smokey morth|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration. There are four different classes of restoration spells: domination spells, summoning spells, bound weapons spells, and bound armor spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:smokey morth|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration: summoning spells, bound weapons spells, bound armor spells and soultrap.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=716252591567632068(Topic:conjuration spells)
+  morrowind.esm-------------->|DATA|ONAM:melvure rindu|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration. There are four different classes of restoration spells: domination spells, summoning spells, bound weapons spells, and bound armor spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:melvure rindu|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration: summoning spells, bound weapons spells, bound armor spells and soultrap.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1013628242104917438(Topic:restoration spells)
+  morrowind.esm-------------->|DATA|ONAM:melvure rindu|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide restoration into four different classes of effects: cure spells, restore spells, fortify spells, and resist spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:melvure rindu|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters: cure spells, restore spells, absorb spells, dispel and turn undead.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1556426861203214287(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|DNAM:Morag Tong|NAME:You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 1, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|DNAM:Morag Tong|NAME:You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 1, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=1675325247803219704(Topic:mysticism potions)
+  morrowind.esm-------------->|DATA|ONAM:ygfa|NAME:Mysticism potions provide beneficial magical effects from the domain of the Arcane College of Mysticism. Mysticism potions include: spell absorption, reflect, dispel, and telekinesis.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:ygfa|NAME:Mysticism potions provide beneficial magical effects from the domain of the Arcane College of Mysticism. Mysticism potions include: Levitation, waterbreathing, waterwalking, jump and more.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=1696305292699815313(Topic:alteration potions)
+  morrowind.esm-------------->|DATA|ONAM:nalion|NAME:Alteration potions provide beneficial magical effects from the domain of the Arcane College of Alteration. Alteration potions include: burden, feather, and levitate.|BNAM:;alchemist; apothecary; healer; trader;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:nalion|NAME:Alteration potions provide beneficial magical effects from the domain of the Arcane College of Alteration. Alteration potions include: magic resistances, shields and fortification.|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=1948327046316217551(Topic:illusion spells)
+  morrowind.esm-------------->|DATA|ONAM:smokey morth|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:smokey morth|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: invisibility, chameleon, charming, calming, frenzying, demoralizing, rallying and commanding.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1980928079138795518(Topic:alteration)
+  morrowind.esm-------------->|DATA|CNAM:Savant|NAME:The alteration discipline is the mastery of the spell effects of the College of Alteration. The alteration spells involve manipulation of the physical world and its natural properties. Alteration effects include water breathing and walking, jumping, levitating, opening locks, and shield barriers against physical damage.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Savant|NAME:The alteration discipline is the mastery of the spell effects of the College of Alteration. The alteration spells involve manipulation of the physical world for effective protection. Alteration effects include magic resistances, shields and fortification.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[MOD-INF]: ID=1995124332498725771(Topic:illusion)
+  morrowind.esm-------------->|DATA|CNAM:Savant|NAME:The illusion discipline is the mastery of the spell effects of the College of Illusion. The illusion spells affect the perception and mind of living subjects. Illusion effects include blinding, paralyzing, and silencing subjects, calming and enraging subjects, and distracting observers so they do not notice the caster -- the invisibility effect.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Savant|NAME:The illusion discipline is the mastery of the spell effects of the College of Illusion. The illusion spells affect the perception and mind of living subjects. Illusion effects include calming and enraging subjects, and distracting observers so they do not notice the caster -- the invisibility effect.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[MOD-INF]: ID=2051713987232456892(Topic:illusion spells)
+  morrowind.esm-------------->|DATA|ONAM:strillian macro|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:strillian macro|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: invisibility, chameleon, charming, calming, frenzying, demoralizing, rallying and commanding.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2311255063076516666(Topic:restoration spells)
+  morrowind.esm-------------->|DATA|ONAM:eraamion|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide restoration into four different classes of effects: cure spells, restore spells, fortify spells, and resist spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:eraamion|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters: cure spells, restore spells, absorb spells, dispel and turn undead.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2317529803693722683(Topic:alteration spells)
+  morrowind.esm-------------->|DATA|ONAM:ygfa|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: water breathing, buoyancy, water walking, shield, fire shield, shock shield, frost shield, burden, feather, jump, slowfall, levitate, lock, and open.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:ygfa|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: force shield, elemental shields, fortification, resistances to harmful effects and diseases, spell absorption, feather and sanctuary.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2334524167310848904(Topic:alteration spells)
+  morrowind.esm-------------->|DATA|ONAM:artisa arelas|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: water breathing, buoyancy, water walking, shield, fire shield, shock shield, frost shield, burden, feather, jump, slowfall, levitate, lock, and open.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:artisa arelas|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: force shield, elemental shields, fortification, resistances to harmful effects and diseases, spell absorption, feather and sanctuary.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2393312951267096073(Topic:illusion potions)
+  morrowind.esm-------------->|DATA|ONAM:ygfa|NAME:Illusion potions provide beneficial magical effects from the domain of the Arcane College of Illusion. Illusion potions include: night-eye, invisibility, and light.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:ygfa|NAME:Illusion potions provide beneficial magical effects from the domain of the Arcane College of Illusion. Illusion potions mainly revolve around invisibility.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=2427128460137691695(Topic:alteration spells)
+  morrowind.esm-------------->|DATA|ONAM:estirdalin|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: water breathing, buoyancy, water walking, shield, fire shield, shock shield, frost shield, burden, feather, jump, slowfall, levitate, lock, and open.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:estirdalin|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: force shield, elemental shields, fortification, resistances to harmful effects and diseases, spell absorption, feather and sanctuary.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2472021831295911416(Topic:illusion potions)
+  morrowind.esm-------------->|DATA|ONAM:tendris vedran|NAME:Illusion potions provide beneficial magical effects from the domain of the Arcane College of Illusion. Illusion potions include: night-eye, invisibility, and light.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:tendris vedran|NAME:Illusion potions provide beneficial magical effects from the domain of the Arcane College of Illusion. Illusion potions mainly revolve around invisibility.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=2793613911617926135(Topic:restoration spells)
+  morrowind.esm-------------->|DATA|ONAM:smokey morth|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide restoration into four different classes of effects: cure spells, restore spells, fortify spells, and resist spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:smokey morth|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters: cure spells, restore spells, absorb spells, dispel and turn undead.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2909812504499725316(Topic:conjuration spells)
+  morrowind.esm-------------->|DATA|ONAM:estirdalin|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration. There are four different classes of restoration spells: domination spells, summoning spells, bound weapons spells, and bound armor spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:estirdalin|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration: summoning spells, bound weapons spells, bound armor spells and soultrap.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2997531178231842085(Topic:restoration spells)
+  morrowind.esm-------------->|DATA|ONAM:estirdalin|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide restoration into four different classes of effects: cure spells, restore spells, fortify spells, and resist spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:estirdalin|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters: cure spells, restore spells, absorb spells, dispel and turn undead.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=3085217805288172091(Topic:conjuration spells)
+  morrowind.esm-------------->|DATA|ONAM:artisa arelas|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration. There are four different classes of restoration spells: domination spells, summoning spells, bound weapons spells, and bound armor spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:artisa arelas|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration: summoning spells, bound weapons spells, bound armor spells and soultrap.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=3135441681248310816(Topic:mysticism potions)
+  morrowind.esm-------------->|DATA|ONAM:nalion|NAME:Mysticism potions provide beneficial magical effects from the domain of the Arcane College of Mysticism. Mysticism potions include: spell absorption, reflect, dispel, and telekinesis.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:nalion|NAME:Mysticism potions provide beneficial magical effects from the domain of the Arcane College of Mysticism. Mysticism potions include: Levitation, waterbreathing, waterwalking, jump and more.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=3156130062557727288(Topic:restoration spells)
+  morrowind.esm-------------->|DATA|ONAM:strillian macro|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide restoration into four different classes of effects: cure spells, restore spells, fortify spells, and resist spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:strillian macro|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters: cure spells, restore spells, absorb spells, dispel and turn undead.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=3221696071812632454(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.|SCVR:01433|INTV|SCVR:14JX3TR08_Hlaalu|INTV:F|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.|SCVR:01433|INTV|SCVR:14JX3TR08_Hlaalu|INTV:F|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=3625318113213323028(Topic:alteration spells)
+  morrowind.esm-------------->|DATA|ONAM:melvure rindu|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: water breathing, buoyancy, water walking, shield, fire shield, shock shield, frost shield, burden, feather, jump, slowfall, levitate, lock, and open.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:melvure rindu|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: force shield, elemental shields, fortification, resistances to harmful effects and diseases, spell absorption, feather and sanctuary.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=3815240172447224784(Topic:mysticism spells)
+  morrowind.esm-------------->|DATA|ONAM|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:smokey morth|NAME:There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters: teleportation, telekinesis, security, and more.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=3832139402051823602(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.|SCVR:01433|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Go to Jail.", 2, "Resist Arrest.", 3
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.|SCVR:01433|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Go to Jail.", 2, "Resist Arrest.", 3, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=5642177972930817100(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|DNAM:Morag Tong|NAME:You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.|SCVR:01490|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice,  "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|DNAM:Morag Tong|NAME:You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.|SCVR:01490|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice,  "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=10464318192407517480(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|SCVR:24JX3TR08_Hlaalu|INTV:F|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 1, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|SCVR:24JX3TR08_Hlaalu|INTV:F|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 1, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=16217315522750710283(Topic:restoration spells)
+  morrowind.esm-------------->|DATA|ONAM:ygfa|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide restoration into four different classes of effects: cure spells, restore spells, fortify spells, and resist spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:ygfa|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters: cure spells, restore spells, absorb spells, dispel and turn undead.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=16628133793159823157(Topic:conjuration spells)
+  morrowind.esm-------------->|DATA|ONAM:ygfa|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration. There are four different classes of restoration spells: domination spells, summoning spells, bound weapons spells, and bound armor spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:ygfa|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration: summoning spells, bound weapons spells, bound armor spells and soultrap.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=17536113282322916399(Topic:mysticism spells)
+  morrowind.esm-------------->|DATA|ONAM|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:eraamion|NAME:There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters: teleportation, telekinesis, security, and more.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=17916173031766812673(Topic:mysticism spells)
+  morrowind.esm-------------->|DATA|ONAM|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:estirdalin|NAME:There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters: teleportation, telekinesis, security, and more.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=19191290671947220251(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.|SCVR:01490|INTV|SCVR:14JX3TR08_Hlaalu|INTV:F|BNAM:StartScript BILL_MT_calc_legit_kills  Choice,  "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.|SCVR:01490|INTV|SCVR:14JX3TR08_Hlaalu|INTV:F|BNAM:StartScript BILL_MT_calc_legit_kills  Choice,  "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=20323186801043114507(Topic:alteration spells)
+  morrowind.esm-------------->|DATA|ONAM:eraamion|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: water breathing, buoyancy, water walking, shield, fire shield, shock shield, frost shield, burden, feather, jump, slowfall, levitate, lock, and open.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:eraamion|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: force shield, elemental shields, fortification, resistances to harmful effects and diseases, spell absorption, feather and sanctuary.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=20393314371536221099(Topic:mysticism potions)
+  morrowind.esm-------------->|DATA|ONAM:anarenen|NAME:Mysticism potions provide beneficial magical effects from the domain of the Arcane College of Mysticism. Mysticism potions include: spell absorption, reflect, dispel, and telekinesis.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:anarenen|NAME:Mysticism potions provide beneficial magical effects from the domain of the Arcane College of Mysticism. Mysticism potions include: Levitation, waterbreathing, waterwalking, jump and more.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=21382245491290728240(Topic:illusion spells)
+  morrowind.esm-------------->|DATA|ONAM:artisa arelas|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:artisa arelas|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: invisibility, chameleon, charming, calming, frenzying, demoralizing, rallying and commanding.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=25862186752560517334(Topic:alteration spells)
+  morrowind.esm-------------->|DATA|ONAM:strillian macro|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: water breathing, buoyancy, water walking, shield, fire shield, shock shield, frost shield, burden, feather, jump, slowfall, levitate, lock, and open.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:strillian macro|NAME:There are many common variants of alteration spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: force shield, elemental shields, fortification, resistances to harmful effects and diseases, spell absorption, feather and sanctuary.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=26842177092586711290(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|DNAM:Morag Tong|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01433|INTV|SCVR:12sX0PCHasTurnIn|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 5, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|DNAM:Morag Tong|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01433|INTV|SCVR:12sX0PCHasTurnIn|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 5, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=28320278351901228064(Topic:restoration spells)
+  morrowind.esm-------------->|DATA|ONAM:artisa arelas|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide restoration into four different classes of effects: cure spells, restore spells, fortify spells, and resist spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:artisa arelas|NAME:There are many common variants of restoration spells, not to mention the countless custom versions created by ambitious spellcasters: cure spells, restore spells, absorb spells, dispel and turn undead.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=28453202671042816107(Greeting:greeting 0)
+  tribunal.esm--------------->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01433|INTV|SCVR:12sX0PCHasTurnIn|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 5, "Go to Jail.", 2, "Resist Arrest.", 3
+  Power Fantasy - Skills.ESP->|DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01433|INTV|SCVR:12sX0PCHasTurnIn|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 5, "Go to Jail.", 2, "Resist Arrest.", 3, "Persuade. [Requires Speechcraft 100]" 6
+
+[MOD-INF]: ID=28493109841611815937(Topic:conjuration spells)
+  morrowind.esm-------------->|DATA|ONAM:strillian macro|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration. There are four different classes of restoration spells: domination spells, summoning spells, bound weapons spells, and bound armor spells.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:strillian macro|NAME:Unlike spells of the other colleges, there are few variants and versions of the conjuration spells, other than according to effect duration: summoning spells, bound weapons spells, bound armor spells and soultrap.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=29352121462664811057(Topic:illusion spells)
+  morrowind.esm-------------->|DATA|ONAM:estirdalin|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Power Fantasy - Skills.ESP->|DATA|ONAM:estirdalin|NAME:There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: invisibility, chameleon, charming, calming, frenzying, demoralizing, rallying and commanding.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;

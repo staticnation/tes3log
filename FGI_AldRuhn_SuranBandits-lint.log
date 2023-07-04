@@ -1,0 +1,34 @@
+FGI_AldRuhn_SuranBandits.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FGI_MoveSuranBandits)
+	SCPT(FGI_MukGroDulaTimer)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    bandits in suran
+	tribunal.esm        DIAL    fg_suranbandits
+
+[DUP-INF]: ID=3002462667846489(Topic:bandits in suran)
+  |DATA|ONAM:persius mercius|NAME:Regretably, you broke the rules of the Fighters Guild and you have been expelled. First make amends, and then I can speak with you about this again.|SCVR:01390|INTV
+
+[MOD-INF]: ID=286002297927618676(Topic:bandits in suran)
+  morrowind.esm---------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Serjo Avon Oran spoke highly of your work. Every contract like this helps keep the old reputation of the Fighters Guild.|SCVR:34JX3FG_SuranBandits|INTV:d
+  FGI_AldRuhn_SuranBandits.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You made the Fighters Guild look good for Serjo Avon Oran, %PCRank. I have other orders for you if you're ready.|SCVR:34JX3FG_SuranBandits|INTV:2|BNAM:ModDisposition 15  Journal FG_SuranBandits 100
+
+[DUP-INF]: ID=1322216635833813904(Topic:bandits in suran)
+  |DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Avon Oran is dead? That's terrible. Well, there's no contract to be had, then. I have other orders for you when you're ready.|SCVR:06DX2avon oran|INTV:|SCVR:34JX4FG_SuranBandits|INTV:d|BNAM:Journal FG_SuranBandits 110
+
+[MOD-INF]: ID=1492921982866711123(Journal:fg_suranbandits)
+  morrowind.esm---------------->|DATA|NAME:Serjo Avon Oran told me that the bandits in Saturan, northeast of Suran, just over the mountains. I must kill the leader of the bandits, Daldur Sarys. When this is done, I should return to Oran to report on my success.
+  FGI_AldRuhn_SuranBandits.esp->|DATA|NAME:Serjo Avon Oran told me that the bandits in Saturan, northeast of Suran, just over the mountains. I must kill three leaders of the bandits: Daldur Sarys, Ilver Aralas and Muk gro-Dula. When this is done, I must return to Oran to report on my success.
+
+[MOD-INF]: ID=1991218937946728143(Topic:bandits in suran)
+  morrowind.esm---------------->|DATA|DNAM:Fighters Guild|NAME:You have brought justice to Daldur Sarys and his bandits. House Hlaalu thanks you, %PCName. Here is the bounty money we agreed on.|SCVR:56DX3daldur sarys|INTV|BNAM:Journal FG_SuranBandits 100  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Hlaalu"  ModDisposition 20  Player->AddItem Gold_001 1000
+  FGI_AldRuhn_SuranBandits.esp->|DATA|DNAM:Fighters Guild|NAME:You have brought justice to the bandits. House Hlaalu thanks you, %PCName. Here is the bounty money we agreed on.|SCVR:04JX3FG_BeneranBounty|INTV:d|SCVR:36DX3ilver aralas|INTV|SCVR:46DX3muk gro-dula|INTV|SCVR:56DX3daldur sarys|INTV|BNAM:Journal FG_SuranBandits 50  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Hlaalu"  ModDisposition 20  Player->AddItem Gold_001 1000  Player->ModReputation 1
+
+[MOD-INF]: ID=3025810739246149279(Topic:bandits in suran)
+  morrowind.esm---------------->|DATA|DNAM:Fighters Guild|NAME:The bandits have been attacking from Saturan which is northeast of here, just over the mountains. Kill Daldur Sarys and the raids will end. When you have killed him, report directly to me, and I will give you 1,000 gold in bounty.|SCVR:34JX3FG_BeneranBounty|INTV:d|BNAM:Journal FG_SuranBandits 30
+  FGI_AldRuhn_SuranBandits.esp->|DATA|DNAM:Fighters Guild|NAME:The bandits have been attacking from Saturan which is northeast of here, just over the mountains. There are three leaders of the bandits: Daldur Sarys, Ilver Aralas and Muk gro-Dula. Kill all three of them and the raids will end. If you don't find them in Saturan, then they are probably hiding in town. When you have killed them, report directly to me, and I will give you 1,000 gold in bounty.|SCVR:34JX3FG_BeneranBounty|INTV:d|BNAM:Journal FG_SuranBandits 30  StartScript FGI_MoveSuranBandits
+
+[MOD-INF]: ID=7420184962950923882(Topic:bandits in suran)
+  morrowind.esm---------------->|DATA|DNAM:Fighters Guild|NAME:You brought the bandits to justice, and for that I am grateful.|SCVR:34JX3FG_SuranBandits|INTV:d
+  FGI_AldRuhn_SuranBandits.esp->|DATA|DNAM:Fighters Guild|NAME:You brought the bandits to justice, and for that I am grateful.|SCVR:34JX3FG_SuranBandits|INTV:2

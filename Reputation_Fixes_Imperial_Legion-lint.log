@@ -1,0 +1,62 @@
+Reputation_Fixes_Imperial_Legion.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(varusVantiniusScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    conspiracy against the emperor
+	morrowind.esm       DIAL    dandsa
+	morrowind.esm       DIAL    honthjolf
+	morrowind.esm       DIAL    jocien ancois
+	morrowind.esm       DIAL    joncis dalomax
+	morrowind.esm       DIAL    ragash gra-shuzgub
+	morrowind.esm       DIAL    slander
+	morrowind.esm       DIAL    sorkvild the raven
+	tribunal.esm        DIAL    chrysamere
+
+[MOD-INF]: ID=16994673217549149(Topic:conspiracy against the emperor)
+  morrowind.esm------------------------>|DATA|ONAM:general darius|NAME:Now the traitors are dead. It saddens me that this could happen to men under my command. We all swore to serve the Emperor, no matter what happens. You've earned my gratitude, %PCName. Long live Uriel Septim!|SCVR:06DX2arius rulician|INTV:|SCVR:16DX2oritius maro|INTV:|SCVR:34JX3IL_TalosTreason|INTV:2|BNAM:Journal IL_TalosTreason 100  ModPCFacRep 10 "Imperial Legion"  ModDisposition 15
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:general darius|NAME:Now the traitors are dead. It saddens me that this could happen to men under my command. We all swore to serve the Emperor, no matter what happens. You've earned my gratitude, %PCName. Long live Uriel Septim!|SCVR:06DX2arius rulician|INTV:|SCVR:16DX2oritius maro|INTV:|SCVR:34JX3IL_TalosTreason|INTV:2|BNAM:Journal IL_TalosTreason 100  ModPCFacRep 10 "Imperial Legion"  ModDisposition 15  player->modReputation 1
+
+[MOD-INF]: ID=98569073422121880(Topic:conspiracy against the emperor)
+  morrowind.esm------------------------>|DATA|ONAM:general darius|NAME:A conspiracy to kill the emperor? Thank the Divines you found this evidence. Well done, %PCName. And, it's good to hear you brought justice to those who would consider such a course of action.|SCVR:06DX2arius rulician|INTV:|SCVR:16DX2oritius maro|INTV:|SCVR:25IX2bk_talostreason|INTV:|SCVR:34JX3IL_TalosTreason|INTV: |BNAM:Journal IL_TalosTreason 100  ModPCFacRep 10 "Imperial Legion"  ModDisposition 15  additem "bk_talostreason" 1  player->removeitem "bk_talostreason" 1
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:general darius|NAME:A conspiracy to kill the emperor? Thank the Divines you found this evidence. Well done, %PCName. And, it's good to hear you brought justice to those who would consider such a course of action.|SCVR:06DX2arius rulician|INTV:|SCVR:16DX2oritius maro|INTV:|SCVR:25IX2bk_talostreason|INTV:|SCVR:34JX3IL_TalosTreason|INTV: |BNAM:Journal IL_TalosTreason 100  ModPCFacRep 10 "Imperial Legion"  ModDisposition 15  player->modReputation 1  additem "bk_talostreason" 1  player->removeitem "bk_talostreason" 1
+
+[MOD-INF]: ID=181646371379631072(Topic:slander)
+  morrowind.esm------------------------>|DATA|ONAM:Frald the White|NAME:So you found Suryn Athones and silenced him. Good. We want good relations with the Ordinators, but we can't tolerate slanders on our character.|SCVR:06DX3suryn athones|INTV|SCVR:34JX3IL_FalseOrdinator|INTV: |BNAM:Journal IL_FalseOrdinator 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:Frald the White|NAME:So you found Suryn Athones and silenced him. Good. We want good relations with the Ordinators, but we can't tolerate slanders on our character.|SCVR:06DX3suryn athones|INTV|SCVR:34JX3IL_FalseOrdinator|INTV: |BNAM:Journal IL_FalseOrdinator 100  ModPCFacRep 5 "Imperial Legion"  player->modReputation 1  ModDisposition 10
+
+[MOD-INF]: ID=266821685363619849(Topic:honthjolf)
+  morrowind.esm------------------------>|DATA|ONAM:Frald the White|NAME:So Honthjolf is dead. It is always sad when someone betrays the Legions, but we cannot allow such traitors to live.|SCVR:06DX3honthjolf|INTV|SCVR:34JX3IL_TraitorWarrior|INTV: |BNAM:Journal IL_TraitorWarrior 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:Frald the White|NAME:So Honthjolf is dead. It is always sad when someone betrays the Legions, but we cannot allow such traitors to live.|SCVR:06DX3honthjolf|INTV|SCVR:34JX3IL_TraitorWarrior|INTV: |BNAM:Journal IL_TraitorWarrior 100  ModPCFacRep 5 "Imperial Legion"  player->modReputation 1  ModDisposition 10
+
+[MOD-INF]: ID=275344075627317805(Topic:dandsa)
+  morrowind.esm------------------------>|DATA|ONAM:radd hard-heart|DNAM:Imperial Legion|NAME:You rescued Dandsa? I'm glad to hear it, %PCName.|SCVR:34JX3IL_Damsel|INTV:F|BNAM:Journal IL_Damsel 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10  "Dandsa"->Disable
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:radd hard-heart|DNAM:Imperial Legion|NAME:You rescued Dandsa? I'm glad to hear it, %PCName.|SCVR:34JX3IL_Damsel|INTV:F|BNAM:Journal IL_Damsel 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10  player->modReputation 1  "Dandsa"->Disable
+
+[MOD-INF]: ID=878817419318133681(Topic:slander)
+  morrowind.esm------------------------>|DATA|ONAM:Frald the White|NAME:You've already killed Suryn Athones? How did you get involved with him? No, nevermind, clearly it's not important. Suryn has been silenced and that is that.|SCVR:06DX3suryn athones|INTV|SCVR:34JX0IL_FalseOrdinator|INTV:|BNAM:Journal IL_FalseOrdinator 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:Frald the White|NAME:You've already killed Suryn Athones? How did you get involved with him? No, nevermind, clearly it's not important. Suryn has been silenced and that is that.|SCVR:06DX3suryn athones|INTV|SCVR:34JX0IL_FalseOrdinator|INTV:|BNAM:Journal IL_FalseOrdinator 100  ModPCFacRep 5 "Imperial Legion"  player->modReputation 1  ModDisposition 10
+
+[MOD-INF]: ID=2915623406106918097(Topic:ragash gra-shuzgub)
+  morrowind.esm------------------------>|DATA|ONAM:general darius|NAME:Excellent! Good to hear you were able to get her out of there.|SCVR:34JX3IL_RescueRagash|INTV:F|BNAM:Journal IL_RescueRagash 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10  "ragash gra-shuzgub"->Disable
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:general darius|NAME:Excellent! Good to hear you were able to get her out of there.|SCVR:34JX3IL_RescueRagash|INTV:F|BNAM:Journal IL_RescueRagash 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10  player->modReputation 1  "ragash gra-shuzgub"->Disable
+
+[MOD-INF]: ID=13256133222837523490(Topic:honthjolf)
+  morrowind.esm------------------------>|DATA|ONAM:Frald the White|NAME:Have you already killed Honthjolf? The sooner the better, I suppose. You must have an adventurous spirit to travel to a place like Aharnabi on your own.|SCVR:06DX3honthjolf|INTV|SCVR:34JX0IL_TraitorWarrior|INTV:|BNAM:Journal IL_TraitorWarrior 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:Frald the White|NAME:Have you already killed Honthjolf? The sooner the better, I suppose. You must have an adventurous spirit to travel to a place like Aharnabi on your own.|SCVR:06DX3honthjolf|INTV|SCVR:34JX0IL_TraitorWarrior|INTV:|BNAM:Journal IL_TraitorWarrior 100  ModPCFacRep 5 "Imperial Legion"  player->modReputation 1  ModDisposition 10
+
+[MOD-INF]: ID=18031287202092918345(Topic:joncis dalomax)
+  morrowind.esm------------------------>|DATA|ONAM:imsin the dreamer|NAME:I am glad to hear that Joncis is safe. You have my gratitude, %PCName.|SCVR:34JX3IL_RescueKnight|INTV:2|BNAM:Journal IL_RescueKnight 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 15  "joncis dalomax"->disable
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:imsin the dreamer|NAME:I am glad to hear that Joncis is safe. You have my gratitude, %PCName.|SCVR:34JX3IL_RescueKnight|INTV:2|BNAM:Journal IL_RescueKnight 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 15  player->modReputation 1  "joncis dalomax"->disable
+
+[MOD-INF]: ID=18533321852598013334(Topic:chrysamere)
+  morrowind.esm------------------------>|DATA|ONAM:Varus Vatinius|NAME:Well done, %PCName. I applaud you. For what you have accomplished, I will make you a %NextPCRank.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 100  PCRaiseRank "Imperial Legion"  AddItem "claymore_chrysamere_unique" 1  Player->RemoveItem "claymore_chrysamere_unique" 1
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:Varus Vatinius|NAME:Well done, %PCName. I applaud you. For what you have accomplished, I will make you a %NextPCRank.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 100  PCRaiseRank "Imperial Legion"  player->modReputation 2  AddItem "claymore_chrysamere_unique" 1  Player->RemoveItem "claymore_chrysamere_unique" 1
+
+[MOD-INF]: ID=28039319222421214231(Topic:jocien ancois)
+  morrowind.esm------------------------>|DATA|ONAM:radd hard-heart|NAME:You rescued Jocien? Good. Now he can continue his good works here in Vvardenfell.|SCVR:34JX3IL_RescueHermit|INTV:2|BNAM:"Jocien Ancois"->disable  Journal IL_RescueHermit 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:radd hard-heart|NAME:You rescued Jocien? Good. Now he can continue his good works here in Vvardenfell.|SCVR:34JX3IL_RescueHermit|INTV:2|BNAM:"Jocien Ancois"->disable  Journal IL_RescueHermit 100  ModPCFacRep 5 "Imperial Legion"  player->modReputation 1  ModDisposition 10
+
+[MOD-INF]: ID=32709198381821212557(Topic:sorkvild the raven)
+  morrowind.esm------------------------>|DATA|ONAM:radd hard-heart|NAME:Sorkvild the Raven is dead? Good work, %PCName.|SCVR:06DX3sorkvild the raven|INTV|SCVR:34JX3IL_Necromancer|INTV: |BNAM:Journal IL_Necromancer 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10
+  Reputation_Fixes_Imperial_Legion.ESP->|DATA|ONAM:radd hard-heart|NAME:Sorkvild the Raven is dead? Good work, %PCName.|SCVR:06DX3sorkvild the raven|INTV|SCVR:34JX3IL_Necromancer|INTV: |BNAM:Journal IL_Necromancer 100  ModPCFacRep 5 "Imperial Legion"  player->modReputation 1  ModDisposition 10

@@ -1,0 +1,91 @@
+NPC Daedra.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BILL_MarksDaedraSummon)
+	SCPT(BILL_TT_Anhaedra)
+	SCPT(DaedraAzura)
+	SCPT(Startup)
+	SCPT(amuletTelFyrScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    silver longsword
+	morrowind.esm       DIAL    taunt the daedra
+	morrowind.esm       LEVC    ex_grazelands_lev+0
+	morrowind.esm       LEVC    ex_grazelands_lev+2
+	morrowind.esm       LEVC    ex_grazelands_lev-1
+	morrowind.esm       LEVC    ex_grazelands_sleep
+	morrowind.esm       LEVC    ex_molagmar_lev+0
+	morrowind.esm       LEVC    ex_molagmar_lev+2
+	morrowind.esm       LEVC    ex_molagmar_lev-1
+	morrowind.esm       LEVC    ex_molagmar_sleep
+	morrowind.esm       LEVC    in_dae_all_lev+0
+	morrowind.esm       LEVC    in_dae_all_lev+2
+	morrowind.esm       LEVC    in_dae_all_lev-2
+	morrowind.esm       LEVC    in_dae_dremora_lev+0
+	morrowind.esm       LEVC    in_dae_dremora_lev+2
+	morrowind.esm       LEVC    in_dae_dremora_lev-2
+	tribunal.esm        CREA    dremora_summon
+	tribunal.esm        CREA    golden saint
+	tribunal.esm        CREA    golden saint_staada
+	tribunal.esm        CREA    golden saint_summon
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=25600147066227241(Topic:silver longsword)
+  morrowind.esm-->|DATA|ONAM:dremora_ttpc|NAME:Perhaps you should read the shrine again.|SCVR:01500|INTV
+  NPC Daedra.esp->|DATA|NAME:Perhaps you should read the shrine again.|SCVR:01500|INTV
+
+[MOD-INF]: ID=85403155738245122(Topic:taunt the daedra)
+  morrowind.esm-->|DATA|ONAM:dremora_ttmg|NAME:Ha! Fine words from one born from the wrong end of a guar.|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 3
+  NPC Daedra.esp->|DATA|ONAM|DR_Anhaedra|NAME:Ha! Fine words from one born from the wrong end of a guar.|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 3
+
+[MOD-INF]: ID=177882818415072153(Topic:silver longsword)
+  morrowind.esm-->|DATA|ONAM:dremora_ttpc|NAME:As you see. I am unarmed. But you are brave and gallant. <sigh> Will you give me your longsword so that I may stand a chance against your might?|SCVR:05IX2silver longsword|INTV:|BNAM:Choice "Yes, take it." 1 "No, nevermind." 2
+  NPC Daedra.esp->|DATA|NAME:As you see. I am unarmed. But you are brave and gallant. <sigh> Will you give me your longsword so that I may stand a chance against your might?|SCVR:05IX2silver longsword|INTV:|BNAM:Choice "Yes, take it." 1 "No, nevermind." 2
+
+[MOD-INF]: ID=298815949633225620(Topic:silver longsword)
+  morrowind.esm-->|DATA|ONAM:dremora_ttpc|NAME:I remember you, %PCName. You have already given me a silver longsword.|SCVR:34JX3TT_PuzzleCanal|INTV:2
+  NPC Daedra.esp->|DATA|NAME:I remember you, %PCName. You have already given me a silver longsword.|SCVR:34JX3TT_PuzzleCanal|INTV:2
+
+[MOD-INF]: ID=455315669676314909(Greeting:greeting 1)
+  tribunal.esm--->|DATA|ONAM:dremora_ttpc|NAME:Are you here on the pilgrimage? I take it that silver longsword is for me.|SCVR:05IX2silver longsword|INTV:
+  NPC Daedra.esp->|DATA|NAME:Are you here on the pilgrimage? I take it that silver longsword is for me.|SCVR:05IX2silver longsword|INTV:
+
+[MOD-INF]: ID=854321839181039859(Topic:taunt the daedra)
+  morrowind.esm-->|DATA|ONAM:dremora_ttmg|NAME:Continue with your insults, mortal. I long to feast on your marrow.|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 2
+  NPC Daedra.esp->|DATA|ONAM|DR_Anhaedra|NAME:Continue with your insults, mortal. I long to feast on your marrow.|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 2
+
+[MOD-INF]: ID=1123312651276024537(Topic:silver longsword)
+  morrowind.esm-->|DATA|ONAM:dremora_ttpc|NAME:Yes, I accept this sword. Thank you, %PCName. You have the grace of courtesy. You should read the inscription on the shrine to complete your pilgrimage.|SCVR:01500|INTV|BNAM:Journal TT_PuzzleCanal 50  Player->RemoveItem "silver longsword" 1  "com_chest_02_puzzlecana"->AddItem "silver longsword" 1
+  NPC Daedra.esp->|DATA|NAME:Yes, I accept this sword. Thank you, %PCName. You have the grace of courtesy. You should read the inscription on the shrine to complete your pilgrimage.|SCVR:01500|INTV|BNAM:Journal TT_PuzzleCanal 50  Player->RemoveItem "silver longsword" 1  "com_chest_02_puzzlecana"->AddItem "silver longsword" 1
+
+[MOD-INF]: ID=1646375372901932545(Topic:taunt the daedra)
+  morrowind.esm-->|DATA|ONAM:dremora_ttmg|NAME:After I kill you, I will rape your corpse. Don't worry. I'll be gentle.|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 0  Journal TT_MaarGan 30  SetFight 100  StartCombat Player  Goodbye
+  NPC Daedra.esp->|DATA|ONAM|DR_Anhaedra|NAME:After I kill you, I will rape your corpse. Don't worry. I'll be gentle.|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 0  Journal TT_MaarGan 30  SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=1967785902196119714(Topic:silver longsword)
+  morrowind.esm-->|DATA|ONAM:dremora_ttpc|NAME:I can only accept plain silver longswords. I didn't make the rules.
+  NPC Daedra.esp->|DATA|NAME:I can only accept plain silver longswords. I didn't make the rules.
+
+[MOD-INF]: ID=2226474871313716674(Greeting:greeting 5)
+  morrowind.esm-->|DATA|ONAM:dremora_ttmg|NAME:I am Anhaedra. If you are a pilgrim, read the inscription on the stupid rock.|BNAM:AddTopic "taunt the Daedra"
+  NPC Daedra.esp->|DATA|ONAM|DR_Anhaedra|NAME:I am Anhaedra. If you are a pilgrim, read the inscription on the stupid rock.|BNAM:AddTopic "taunt the Daedra"
+
+[MOD-INF]: ID=2826620668787213075(Greeting:greeting 1)
+  tribunal.esm--->|DATA|ONAM:dremora_ttpc|NAME:Are you here on the pilgrimage? Read the shrine.|SCVR:01630|INTV:
+  NPC Daedra.esp->|DATA|NAME:Are you here on the pilgrimage? Read the shrine.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=17180204571278117749(Topic:taunt the daedra)
+  morrowind.esm-->|DATA|ONAM:dremora_ttmg|NAME:Your threats are weak like your flesh, mortal.|SCVR:03sX0tauntCount|INTV:|BNAM:Set tauntcount to 1
+  NPC Daedra.esp->|DATA|ONAM|DR_Anhaedra|NAME:Your threats are weak like your flesh, mortal.|SCVR:03sX0tauntCount|INTV:|BNAM:Set tauntcount to 1
+
+[MOD-INF]: ID=17516113621450112980(Greeting:greeting 1)
+  tribunal.esm--->|DATA|ONAM:dremora_ttpc|NAME:Have you not given me a silver longsword? Just read the shrine and leave. I tire of your mortal presence.|SCVR:34JX3TT_PuzzleCanal|INTV:2
+  NPC Daedra.esp->|DATA|NAME:Have you not given me a silver longsword? Just read the shrine and leave. I tire of your mortal presence.|SCVR:34JX3TT_PuzzleCanal|INTV:2
+
+[MOD-INF]: ID=26917204122443323956(Greeting:greeting 1)
+  tribunal.esm--->|DATA|ONAM:dremora_ttpc|NAME:Are you here on the pilgrimage? Do you have a silver longsword for me?
+  NPC Daedra.esp->|DATA|NAME:Are you here on the pilgrimage? Do you have a silver longsword for me?
+
+[MOD-INF]: ID=29398110382077820935(Greeting:greeting 5)
+  morrowind.esm-->|DATA|ONAM:dremora_ttmg|NAME:You again? Didn't you learn your lesson the first time?|SCVR:34JX3TT_MaarGan|INTV
+  NPC Daedra.esp->|DATA|ONAM|DR_Anhaedra|NAME:You again? Didn't you learn your lesson the first time?|SCVR:34JX3TT_MaarGan|INTV

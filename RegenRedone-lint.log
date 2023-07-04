@@ -1,0 +1,9 @@
+RegenRedone.esp: BM-DEP MENUMOD MISSVER
+    [BM-DEP] Bloodmoon Dependency: Bloodmoon Functions:
+	SCPT(RegenRestScr)                   getpctraveling
+	SCPT(Regen_control)                  getpctraveling
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(RegenRestScr)
+	SCPT(Regen_config)
+	SCPT(Regen_confstart)
+	SCPT(Regen_control)

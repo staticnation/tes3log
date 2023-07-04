@@ -1,0 +1,40 @@
+Maar Gan Shrine.esp: DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Morrowind.esm               79764287 (plugin)   79837557 (installed size)
+	Tribunal.esm                 6616539 (plugin)    4565686 (installed size)
+	Bloodmoon.esm               11799703 (plugin)    9631798 (installed size)
+	OAAB_Data.esm                1327690 (plugin)    1567893 (installed size)
+	Tamriel_Data.esm            10675702 (plugin)   11064795 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BILL_TT_Anhaedra)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    ac_maar_gan_magic_rock
+	morrowind.esm       CREA    dremora_ttmg
+	morrowind.esm       NPC_    salen ravel
+	morrowind.esm       PGRD    maar gan, shrine
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=85403155738245122(Topic:Дразнить Даэдру)
+  morrowind.esm------->|DATA|ONAM:dremora_ttmg|NAME:Ha! Fine words from one born from the wrong end of a guar.|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 3
+  Maar Gan Shrine.esp->|DATA|ONAM|NM_Dremora_unique|NAME|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 3
+
+[MOD-INF]: ID=854321839181039859(Topic:Дразнить Даэдру)
+  morrowind.esm------->|DATA|ONAM:dremora_ttmg|NAME:Continue with your insults, mortal. I long to feast on your marrow.|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 2
+  Maar Gan Shrine.esp->|DATA|ONAM|NM_Dremora_unique|NAME|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 2
+
+[MOD-INF]: ID=1646375372901932545(Topic:Дразнить Даэдру)
+  morrowind.esm------->|DATA|ONAM:dremora_ttmg|NAME:After I kill you, I will rape your corpse. Don't worry. I'll be gentle.|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 0  Journal TT_MaarGan 30  SetFight 100  StartCombat Player  Goodbye
+  Maar Gan Shrine.esp->|DATA|ONAM|NM_Dremora_unique|NAME|SCVR:03sX0tauntCount|INTV|BNAM:Set tauntcount to 0  Journal TT_MaarGan 30  SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=2226474871313716674(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:dremora_ttmg|NAME:I am Anhaedra. If you are a pilgrim, read the inscription on the stupid rock.|BNAM:AddTopic "taunt the Daedra"
+  Maar Gan Shrine.esp->|DATA|ONAM|NM_Dremora_unique|NAME|BNAM
+
+[MOD-INF]: ID=17180204571278117749(Topic:Дразнить Даэдру)
+  morrowind.esm------->|DATA|ONAM:dremora_ttmg|NAME:Your threats are weak like your flesh, mortal.|SCVR:03sX0tauntCount|INTV:|BNAM:Set tauntcount to 1
+  Maar Gan Shrine.esp->|DATA|ONAM|NM_Dremora_unique|NAME|SCVR:03sX0tauntCount|INTV:|BNAM:Set tauntcount to 1
+
+[MOD-INF]: ID=29398110382077820935(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:dremora_ttmg|NAME:You again? Didn't you learn your lesson the first time?|SCVR:34JX3TT_MaarGan|INTV
+  Maar Gan Shrine.esp->|DATA|ONAM|NM_Dremora_unique|NAME|SCVR:34JX3TT_MaarGan|INTV

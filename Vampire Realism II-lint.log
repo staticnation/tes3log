@@ -1,0 +1,241 @@
+Vampire Realism II.esp: DUP-INF DUP-REC EXP-DEP GETSND JUNKCEL MENUMOD NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (1274) != Actual count (1202)
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(Vampire_Aundae)                 hasitemequipped
+	SCPT(Vampire_Berne)                  hasitemequipped
+	SCPT(Vampire_Quarra)                 hasitemequipped
+	SCPT(blessed_boots)                  hasitemequipped
+	SCPT(blessed_cuirass)                hasitemequipped
+	SCPT(blessed_gauntlet_l)             hasitemequipped
+	SCPT(blessed_gauntlet_r)             hasitemequipped
+	SCPT(blessed_greaves)                hasitemequipped
+	SCPT(blessed_helmet)                 hasitemequipped
+	SCPT(blessed_pauldron_l)             hasitemequipped
+	SCPT(blessed_pauldron_r)             hasitemequipped
+	SCPT(blessed_shield)                 hasitemequipped
+	SCPT(blessed_sword)                  hasitemequipped
+	SCPT(mararaScript)                   hasitemequipped
+	SCPT(mastriusScript)                 hasitemequipped
+	SCPT(vamp_ancient_aundae)            hasitemequipped
+	SCPT(vamp_ancient_berne)             hasitemequipped
+	SCPT(vamp_ancient_quarra)            hasitemequipped
+	SCPT(vamp_special_aundae)            hasitemequipped
+	SCPT(vamp_special_berne)             hasitemequipped
+	SCPT(vamp_special_quarra)            hasitemequipped
+	SCPT(vamp_standard_aundae)           hasitemequipped
+	SCPT(vamp_standard_aundaestake)      hasitemequipped
+	SCPT(vamp_standard_berne)            hasitemequipped
+	SCPT(vamp_standard_bernestake)       hasitemequipped
+	SCPT(vamp_standard_quarra)           hasitemequipped
+	SCPT(vamp_standard_quarrastake)      hasitemequipped
+	SCPT(vamp_wandering_aundae)          hasitemequipped
+	SCPT(vamp_wandering_berne)           hasitemequipped
+	SCPT(vamp_wandering_quarra)          hasitemequipped
+	SCPT(vamp_wild_aundae)               hasitemequipped
+	SCPT(vamp_wild_berne)                hasitemequipped
+	SCPT(vamp_wild_quarra)               hasitemequipped
+	SCPT(vr_empty_vial)                  getweapontype
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(Vampire_Aundae)
+	SCPT(Vampire_Berne)
+	SCPT(Vampire_Quarra)
+	SCPT(mararaScript)
+	SCPT(mastriusScript)
+	SCPT(vamp_ancient_aundae)
+	SCPT(vamp_ancient_berne)
+	SCPT(vamp_ancient_quarra)
+	SCPT(vamp_special_aundae)
+	SCPT(vamp_special_berne)
+	SCPT(vamp_special_quarra)
+	SCPT(vamp_standard_aundae)
+	SCPT(vamp_standard_aundaestake)
+	SCPT(vamp_standard_berne)
+	SCPT(vamp_standard_bernestake)
+	SCPT(vamp_standard_quarra)
+	SCPT(vamp_standard_quarrastake)
+	SCPT(vamp_wandering_aundae)
+	SCPT(vamp_wandering_berne)
+	SCPT(vamp_wandering_quarra)
+	SCPT(vamp_wild_aundae)
+	SCPT(vamp_wild_berne)
+	SCPT(vamp_wild_quarra)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(VR_CryptAlmsivi)
+	SCPT(VR_CryptAlmsivi1)
+	SCPT(VR_CryptTele)
+	SCPT(VR_CryptTeleShoot)
+	SCPT(VR_DebugMenu)
+	SCPT(VR_DebugMenuSpawn)
+	SCPT(VR_HUNGERsplit2)
+	SCPT(VR_HUNGERsplit3)
+	SCPT(VR_Menu)
+	SCPT(Vampire_Aundae_PC)
+	SCPT(Vampire_Berne_PC)
+	SCPT(Vampire_Cure_PC)
+	SCPT(Vampire_Quarra_PC)
+	SCPT(blessed_boots)
+	SCPT(blessed_cuirass)
+	SCPT(blessed_gauntlet_l)
+	SCPT(blessed_gauntlet_r)
+	SCPT(blessed_greaves)
+	SCPT(blessed_helmet)
+	SCPT(blessed_pauldron_l)
+	SCPT(blessed_pauldron_r)
+	SCPT(blessed_shield)
+	SCPT(blessed_sword)
+	SCPT(effect_prevent)
+	SCPT(irarakScript)
+	SCPT(mertaScript)
+	SCPT(shrineGhostgate)
+	SCPT(shrineKummu)
+	SCPT(stake_script)
+	SCPT(vamp_hunter_script)
+	SCPT(vh_script)
+	SCPT(vr_alreadyvamp)
+	SCPT(vr_centurion)
+	SCPT(vr_coffin_script)
+	SCPT(vr_cryptalmsivi2)
+	SCPT(vr_debug)
+	SCPT(vr_debug2)
+	SCPT(vr_doornoopen)
+	SCPT(vr_empty_vial)
+	SCPT(vr_hungerdebug)
+	SCPT(vr_install)
+	SCPT(vr_motiontest)
+	SCPT(vr_stakenorepair)
+	SCPT(vr_stakepriest)
+	SCPT(vr_stakevamp)
+	SCPT(vr_test_dist)
+	SCPT(vr_vh_armor)
+	SCPT(vr_vh_sword)
+	SCPT(vr_vial_blood)
+	SCPT(vr_vial_blood_remove)
+	SCPT(vr_vial_empty_remove)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (-2, -7)           0x02
+	Ascadian Isles Region (-3, -6)           0x02
+	Ashlands Region (-1, 7)                  0x02
+	Ashlands Region (-2, 12)                 0x02
+	Ashlands Region (0, 0)                   0x02
+	Ashlands Region (4, 4)                   0x02
+	Azura's Coast Region (18, 5)             0x02
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	Bitter Coast Region (-3, -9)             0x02
+	Bitter Coast Region (-8, 2)              0x02
+	Molag Mar Region (4, -1)                 0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 13)               0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	West Gash Region (-3, -1)                0x02
+	Wilderness (-15, -8)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    chargen door hall
+	morrowind.esm       LIGH    light_de_paper_lantern_01_200
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       WEAP    steel wakizashi
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       LAND    (-2, -9)
+	morrowind.esm       LAND    (-2, 12)
+	morrowind.esm       LAND    (-3, -9)
+	morrowind.esm       LAND    (-3, 12)
+	morrowind.esm       LAND    (-8, 16)
+	morrowind.esm       LAND    (-9, 16)
+	morrowind.esm       LAND    (1, -7)
+	morrowind.esm       LAND    (1, -8)
+	morrowind.esm       LAND    (17, 5)
+	morrowind.esm       LAND    (18, 5)
+	morrowind.esm       LAND    (3, -9)
+	morrowind.esm       LAND    (6, -6)
+	morrowind.esm       LAND    (6, -7)
+	morrowind.esm       LAND    (6, -8)
+	morrowind.esm       LAND    (7, 22)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       NPC_    areas
+	morrowind.esm       NPC_    arenara
+	morrowind.esm       NPC_    clasomo
+	morrowind.esm       NPC_    danoso andrano
+	morrowind.esm       NPC_    dhaunayne aundae
+	morrowind.esm       NPC_    fammana
+	morrowind.esm       NPC_    germia
+	morrowind.esm       NPC_    gladroon
+	morrowind.esm       NPC_    ildogesto
+	morrowind.esm       NPC_    knurguri
+	morrowind.esm       NPC_    lorurmend
+	morrowind.esm       NPC_    mirkrand
+	morrowind.esm       NPC_    moranarg
+	morrowind.esm       NPC_    mororurg
+	morrowind.esm       NPC_    raxle berne
+	morrowind.esm       NPC_    reberio
+	morrowind.esm       NPC_    saras orelu
+	morrowind.esm       NPC_    tarerane
+	morrowind.esm       NPC_    telis salvani
+	morrowind.esm       NPC_    tragrim
+	morrowind.esm       NPC_    tuls valen
+	morrowind.esm       NPC_    volrina quarra
+	morrowind.esm       PGRD    ashlands region
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+	tribunal.esm        NPC_    mehra drora
+
+[DUP-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  |DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:

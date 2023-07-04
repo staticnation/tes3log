@@ -1,0 +1,21 @@
+EscapeesRest.ESP: DUP-REC FOGBUG MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            163703637 (plugin)  163244128 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Upside-Down Ship, Upper Level
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ER_Q1_Fah_FW_Man)
+	SCPT(ER_Q1_Fah_Man)
+	SCPT(er_arg_f1_man)
+	SCPT(er_homePrep_dayCount)
+	SCPT(er_khaj_f1_man)
+	SCPT(er_pc_crate_man)
+	SCPT(er_ringToShip)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tamriel_data.esm    DIAL    flin
+	tr_mainland.esm     DIAL    colovian battlewine
+	tr_mainland.esm     DIAL    twin lamps
+	tr_mainland.esm     DIAL    ungorth
+	tribunal.esm        DIAL    greeting 1

@@ -1,0 +1,313 @@
+BT_Whitewolf_2_0_TOTSP.esm: DUP-INF DUP-REC GETSND MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             7824672 (plugin)   11064795 (installed size)
+	Solstheim Tomb of The Snow Prince.esm   10646303 (plugin)   10637543 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(AA_ArinScript)
+	SCPT(AA_ErikScript)
+	SCPT(AA_FridScript)
+	SCPT(AA_HellenaScript)
+	SCPT(AA_Laurenna2Script)
+	SCPT(AA_LittleredScript)
+	SCPT(AA_LjotScript)
+	SCPT(AA_Sigrid2Script)
+	SCPT(AA_SigridScript)
+	SCPT(AA_SigstScript)
+	SCPT(AA_Wulfren2Script)
+	SCPT(aa_Hildescript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AA_Arinlevel)
+	SCPT(AA_Arinstopfight)
+	SCPT(AA_Erikcelllock)
+	SCPT(AA_Fridlevel)
+	SCPT(AA_Fridstopfight)
+	SCPT(AA_Grundalundlock)
+	SCPT(AA_LRNcelllock)
+	SCPT(AA_Laurennalevel)
+	SCPT(AA_Ljotcelllock)
+	SCPT(AA_Ljotlevel)
+	SCPT(AA_Ljotstopfight)
+	SCPT(AA_Lok_skillreport)
+	SCPT(AA_LokkTeleportDetection)
+	SCPT(AA_LokkTeleportDetectionsmall)
+	SCPT(AA_LrnAble)
+	SCPT(AA_Lrnstopfight)
+	SCPT(AA_SETowerlock)
+	SCPT(AA_Sigridlock)
+	SCPT(AA_Sigstlevel)
+	SCPT(AA_Smallcelllock)
+	SCPT(AA_Thronepassagelock)
+	SCPT(AA_WuAble)
+	SCPT(AA_Wulfrenlevel)
+	SCPT(AA_Wustopfight)
+	SCPT(AA_berserklock)
+	SCPT(AA_extmastbedlock)
+	SCPT(AA_intmastbedlock)
+	SCPT(AA_mead1script)
+	SCPT(AA_newhomescript)
+	SCPT(AA_rguard1script)
+	SCPT(AA_rguard2script)
+	SCPT(AA_rguard3script)
+	SCPT(AA_secretpasslock)
+	SCPT(AA_sigstopfight)
+	SCPT(Pub_Lokken_Ingrit)
+	SCPT(aa_Kreikan2combatscript)
+	SCPT(aa_KreikanattackScript)
+	SCPT(aa_Kreikancombatscript)
+	SCPT(aa_Valkyrianascript)
+	SCPT(aa_Wulfgscript)
+	SCPT(aa_badguyshealthscript)
+	SCPT(aa_drunk5)
+	SCPT(aa_favour1)
+	SCPT(aa_joarscript)
+	SCPT(aa_keilreenscript)
+	SCPT(aa_kidnap)
+	SCPT(aa_knowyouscript)
+	SCPT(aa_lisendrascript)
+	SCPT(aa_lok_magicka)
+	SCPT(aa_lokextravar)
+	SCPT(aa_lokqueststart)
+	SCPT(aa_lrnkringSPECscript)
+	SCPT(aa_lrnkringscript)
+	SCPT(aa_ragnar3script)
+	SCPT(aa_skullunscript)
+	SCPT(aa_smedscript)
+	SCPT(aa_towerguard2script)
+	SCPT(aa_wolfie)
+	SCPT(aa_wu2kringscript)
+	SCPT(aa_wukringscript)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CREA    skeleton nord_2
+	bloodmoon.esm       DIAL    berserkers
+	bloodmoon.esm       DIAL    snow bears
+	bloodmoon.esm       DIAL    wolves
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    rm_rock_03
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_02.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_04.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_05.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_06.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_rock_01.dds
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       LAND    (-5, 27)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	solstheim tomb of the snow prince.esm    LAND    (-10, 26)
+	solstheim tomb of the snow prince.esm    LAND    (-10, 27)
+	solstheim tomb of the snow prince.esm    LAND    (-10, 28)
+	solstheim tomb of the snow prince.esm    LAND    (-10, 29)
+	solstheim tomb of the snow prince.esm    LAND    (-10, 30)
+	solstheim tomb of the snow prince.esm    LAND    (-10, 31)
+	solstheim tomb of the snow prince.esm    LAND    (-10, 32)
+	solstheim tomb of the snow prince.esm    LAND    (-11, 26)
+	solstheim tomb of the snow prince.esm    LAND    (-11, 27)
+	solstheim tomb of the snow prince.esm    LAND    (-11, 28)
+	solstheim tomb of the snow prince.esm    LAND    (-11, 29)
+	solstheim tomb of the snow prince.esm    LAND    (-11, 30)
+	solstheim tomb of the snow prince.esm    LAND    (-11, 31)
+	solstheim tomb of the snow prince.esm    LAND    (-12, 26)
+	solstheim tomb of the snow prince.esm    LAND    (-12, 27)
+	solstheim tomb of the snow prince.esm    LAND    (-12, 29)
+	solstheim tomb of the snow prince.esm    LAND    (-12, 30)
+	solstheim tomb of the snow prince.esm    LAND    (-12, 31)
+	solstheim tomb of the snow prince.esm    LAND    (-9, 30)
+	solstheim tomb of the snow prince.esm    LAND    (-9, 31)
+	tamriel_data.esm    DIAL    greeting 2
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    services
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rm_grayrock
+
+[DUP-INF]: ID=23441391834216957(Voice:idle)
+  |DATA|ONAM:uncle sweetshare|SNAM:Vo\n\m\sweetshare01.mp3|NAME:He he! Ha ho! To the worskhop he will go!|SCVR:02sX3Random100|INTV:
+
+[DUP-INF]: ID=23984433100155166(Greeting:greeting 2)
+  |DATA|ONAM:marara|NAME:Greetings, dark walker. What brings you to my home? Have you come to rid me of this unlife?|SCVR:01600|INTV|SCVR:14JX5VA_VampMarara|INTV: 
+
+[DUP-INF]: ID=29730187151442596(Greeting:greeting 1)
+  |DATA|ONAM:svenja snow-song|NAME:All hail %PCName, the chieftain of Thirsk! What can I do for you, my lord. Perhaps there is some mead hall business you'd like to tend to? Or maybe you'd rather just go upstairs and rest in your quarters?|SCVR:04JX3BM_MeadHall|INTV:d
+
+[DUP-INF]: ID=31458539645359856(Voice:idle)
+  |DATA|ONAM:Sabinus Oranius|SNAM:Vo\d\m\Idl_DM003.mp3|NAME:Sigh.|SCVR:0BLX0Raven Rock|INTV
+
+[DUP-INF]: ID=34516565177822785(Persuasion:bribe fail)
+  |DATA|NAME:You'll regret trying to bribe me.|SCVR:01710|INTV
+
+[DUP-INF]: ID=94694409170032778(Voice:hello)
+  |DATA|ONAM:s'virr|SNAM:Vo\k\m\bIdl_KM001.mp3|NAME:Hurry, hurry! Last boat to Solstheim! Until the next one. Hah-ha-hah.|SCVR:02sX5Random100|INTV:F
+
+[DUP-INF]: ID=117892432837323606(Greeting:greeting 1)
+  |DATA|ONAM:baladas demnevanni|NAME:Yes, %PCName?|SCVR:34JX3B7_BaladasHort|INTV:2|SCVR:44JX4B7_TelvanniHort|INTV:2|BNAM:StartScript CountTelvanniHortator
+
+[DUP-INF]: ID=133928217305419560(Persuasion:bribe fail)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:What use does a spirit have for gold?
+
+[DUP-INF]: ID=218997615188231249(Persuasion:bribe success)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:Your offering does you honor.
+
+[DUP-INF]: ID=224091285626087204(Persuasion:bribe success)
+  |DATA|ONAM:sovor trandel|NAME:Alright, you want the key? Just don't tell Ondres Nerano I did this, not that he doesn't deserve it with what he pays me.|SCVR:25IX0key_neranomanor|INTV:|SCVR:34JX0TG_ManorKey|INTV|BNAM:Journal TG_ManorKey 50  Player->AddItem key_neranomanor 1
+
+[DUP-INF]: ID=290772171403513699(Topic:berserkers)
+  |DATA|ANAM:Skaal Village|NAME:They are the "bare-sarks" or bare-chested. The berserkers wear no clothing and have been driven mad by the cold and too much mead. They are not welcome here or anywhere else on Solstheim, for that matter.
+
+[DUP-INF]: ID=306605134148807516(Greeting:greeting 5)
+  |DATA|ONAM:hloris farano|NAME:Yes? What can I do for you?
+
+[DUP-INF]: ID=319113105130133338(Topic:snow bears)
+  |DATA|ANAM:Raven Rock|NAME:What is that, some sort of bear made out of snow? Sorry, I don't know anything about it.
+
+[DUP-INF]: ID=555272571073531908(Topic:wolves)
+  |DATA|ANAM:Fort Frostmoth|NAME:They're all over this island. Some travel in packs, which makes them especially dangerous. I've heard some carry disease, as well.
+
+[DUP-INF]: ID=1396224021218415248(Topic:berserkers)
+  |DATA|ONAM:bm_reinhardt|NAME:They are called "bare-sarks" in the Nord tongue, beause of their insistence on going bare-chested even in the most severe blizzard. They're crazy as they come, friend, and care only for savagery and murder. It is said they are so attracted to death, they make their homes in some of Solstheim's burial barrows. I've also heard rumor of some kind of berserker "mother" but no one has ever seen her and lived to tell about it.
+
+[DUP-INF]: ID=1712318957970927392(Topic:little secret)
+  |DATA|ANAM:Fort Frostmoth|NAME:There's a body at the bottom of Lake Fjalding! I saw it once, through a hole in the ice.
+
+[DUP-INF]: ID=1732794482128125050(Voice:hit)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Roar!|SCVR:01720|INTV|SCVR:12sX5Random100|INTV
+
+[DUP-INF]: ID=2246030530654710114(Greeting:greeting 5)
+  |DATA|ONAM:galero andaram|NAME:Welcome to our little Almsivi chapel. Pardon our informal surroundings, but we are guests here of House Telvanni, and apparently they have no more spacious, well-lit accommodations available for the Temple faithful. Still, we have all the services you'd expect to find a much larger Temple.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=2351360231654331307(Topic:services)
+  |DATA|ANAM:Fort Frostmoth|NAME:You'll find Zeno Faustus in the Armory. He'll repair your weapons or sell you a new one. If you're sick, try the Imperial Cult Shrine. For a small donation, you can usually get a cure for what ails you.|SCVR:07XX0zeno faustus|INTV
+
+[DUP-INF]: ID=2664421600422123757(Topic:snow bears)
+  |DATA|ANAM:Solstheim, Thirsk|NAME:They're big, and deadly! Their claws and teeth can freeze the flesh of an enemy.
+
+[DUP-INF]: ID=2885157303112614253(Topic:little secret)
+  |DATA|NAME:They say there's pirate treasure buried somewhere on the island.  Been here for a hundred years, and nobody's ever found it.
+
+[DUP-INF]: ID=3102932226505311332(Greeting:greeting 1)
+  |DATA|ONAM:trebonius artorius|NAME:Have you taken care of House Telvanni yet, %PCRank %PCName?|SCVR:34JX3MG_Telvanni|INTV: |SCVR:44JX4MG_Telvanni|INTV:d
+
+[DUP-INF]: ID=3199225652888819362(Topic:latest rumors)
+  |DATA|ANAM:Fort Frostmoth|NAME:Don't worry about reavers around here. Our northern patrols run into them now and then, but they stay away from defended settlements and forts like this one.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=3211614329290709018(Greeting:greeting 1)
+  |DATA|ONAM:erna the quiet|NAME:You killed my Brandr! Why?!|SCVR:06DX0brandr|INTV|BNAM:SetDisposition 0  Goodbye
+
+[DUP-INF]: ID=7532245362007625229(Greeting:greeting 0)
+  |DATA|CNAM:Guard|FNAM:Temple|NAME:Where did you get that! The armor you wear is sacred to our Order. You shall be punished with blood!|SCVR:02sX0WearingOrdinatorUni|INTV|BNAM:;for ordinators when wearing their armor (helmet or cuirass)  Goodbye  SetFight 100  StartCombat player
+
+[DUP-INF]: ID=10819118262520816930(Voice:attack)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;this prevents werewolves from talking to you in combat
+
+[DUP-INF]: ID=11242257181890822225(Topic:wolves)
+  |DATA|ANAM:Fort Frostmoth|NAME:I knew someone who tried to tame a wolf once. He used to raise guars so he thought he could use the same techniques. You know what? It almost worked...well, no, actually, it didn't work at all. The idiot owed me money, too.|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=12794306082012121145(Voice:hello)
+  |DATA|ONAM:bm_bergljot|SNAM:Vo\n\f\bHlo_NF019.mp3|NAME:All hail the new sheeftain of Thirshk! Becaushe of you, the mead hall ish open again! Here'sh to your health!
+
+[DUP-INF]: ID=27638249131682119725(Greeting:greeting 0)
+  |DATA|CNAM:Guard|ANAM:Skaal Village|NAME:I did not wish this upon you, Blodskaal, but you leave me little choice.|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCHasCrimeGold|INTV|SCVR:31500|INTV|BNAM:StartCombat Player  Goodbye
+
+[DUP-INF]: ID=27993222072918625847(Topic:services)
+  |DATA|ANAM:Raven Rock|NAME:There's a trader here, but that's about all we can offer. You might want to check at Fort Frostmoth.|SCVR:02sX0ColonyService|INTV
+
+[DUP-INF]: ID=29122277261103617235(Greeting:greeting 2)
+  |DATA|ONAM:iniel|NAME:What, vampire? Make it quick.|SCVR:01600|INTV
+
+[MOD-INF]: ID=29678150921094025770(Topic:latest rumors)
+  bloodmoon.esm-------------->|DATA|NAME:I heard there has been some trouble up at Fort Frostmoth. Never heard of it? It's on an island called Solstheim north of Vvardenfell.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 10
+  BT_Whitewolf_2_0_TOTSP.esm->|DATA|NAME:I heard there has been some trouble up at Fort Frostmoth. Never heard of it? It's on an island called Solstheim north of Vvardenfell.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0nolore|INTV:|BNAM:Journal BM_Rumors 10

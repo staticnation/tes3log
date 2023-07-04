@@ -1,0 +1,45 @@
+master_index_1903471972.esp: DUP-INF DUP-REC MISSVER OVR-REC
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        GMST    fdifficultymult
+	tribunal.esm        GMST    fnpchealthbarfade
+	tribunal.esm        GMST    fnpchealthbartime
+	tribunal.esm        GMST    s3dhardware
+	tribunal.esm        GMST    s3dsoftware
+	tribunal.esm        GMST    sauto_run
+	tribunal.esm        GMST    screateclassmenuwarning
+	tribunal.esm        GMST    sdifficulty
+	tribunal.esm        GMST    seasy
+	tribunal.esm        GMST    shard
+	tribunal.esm        GMST    smaximumsavegamemessage
+	tribunal.esm        GMST    ssavegamenomemory
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    andasreth
+	morrowind.esm       DIAL    falensarano
+	morrowind.esm       DIAL    rotheran
+	morrowind.esm       DIAL    work
+	morrowind.esm       MISC    index_valen
+	morrowind.esm       NPC_    folms mirel
+	morrowind.esm       NPC_    nibani maesa
+	morrowind.esm       NPC_    salen ravel
+	morrowind.esm       NPC_    sharn gra-muzgob
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=122994073048420261(Topic:falensarano)
+  |DATA|ONAM:hrundi|NAME:You will find it west of here. I will mark it on your map.|BNAM:ShowMap "Falensarano"
+
+[DUP-INF]: ID=281954452458613273(Topic:andasreth)
+  |DATA|ONAM:lloros sarano|NAME:You have already returned the shields. May Vivec protect you.|SCVR:34JX3HR_LostBanner|INTV:d
+
+[DUP-INF]: ID=514372802773428874(Greeting:greeting 5)
+  |DATA|ONAM:ajira|NAME:What brings you to Ajira's shop? Do you want to try the local brews? Need something to help in a fight? Some Telvanni bug musk to bring you a mate? Or a way to get to those high places where your hands cannot reach?|SCVR:01390|INTV:
+
+[DUP-INF]: ID=2487228797996310828(Topic:rotheran)
+  |DATA|ONAM:Lalatia Varian|NAME:The ancient Dunmer stronghold of Rotheran is located on the southern coast of Sheogorad. It is a place of evil reputation, remote, and seldom visited.|BNAM:ShowMap Rotheran
+
+[DUP-INF]: ID=8891108291020417774(Topic:work)
+  |DATA|ONAM:angaredhel|NAME:You have your reward. Good day to you.|SCVR:04JX3town_Sadrith|INTV:2
+
+[DUP-INF]: ID=26948219402447124622(Greeting:greeting 5)
+  |DATA|ONAM:arethan mandas|NAME:Poor daughter. Dead now, all dead. Oblivion deadens us each and every one. One mistake stakes like cake crusts stalks you forever ever more. Blood? Yes, your blood. Daughter's blood. Poor Delyna. All over you. On your hands. Your pretty hands. Sheogorath whispers! Yes, I see it now! The sin on your face! Filthy! Worthless! %PCRace!|SCVR:06DX2delyna mandas|INTV:|BNAM:SetFight 100  ModDisposition -90  StartCombat Player  Goodbye

@@ -1,0 +1,17 @@
+PR Legion Voice FVG VG.esp: DUP-INF DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (104) != Actual count (12)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+
+[DUP-INF]: ID=2188011949537821140(Voice:hello)
+  |DATA|RNAM:Imperial|FNAM:Imperial Legion|ANAM:Gnisis|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM034.mp3|NAME:Why are you away from your post?|SCVR:01475|INTV
+
+[MOD-INF]: ID=2350315055279237208(Greeting:greeting 1)
+  tribunal.esm--------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform. Talk to me when you're serious.|SCVR:01475|INTV|SCVR:12sX0WearingLegionUni|INTV:|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+  PR Legion Voice FVG VG.esp->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform! Talk to me when you're serious.|SCVR:01474|INTV:|SCVR:12sX0WearingLegionUni|INTV:|SCVR:27XX0joncis dalomax|INTV|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+
+[MOD-INF]: ID=19165198251387824072(Voice:hello)
+  morrowind.esm-------------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM175.mp3|NAME:Where's your uniform?|SCVR:02sX0WearingLegionUni|INTV:|SCVR:11475|INTV|BNAM:moddisposition -2
+  PR Legion Voice FVG VG.esp->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM175.mp3|NAME:Where's your uniform?!|SCVR:02sX0WearingLegionUni|INTV:|SCVR:11474|INTV:|SCVR:21390|INTV:|SCVR:32sX3Random100|INTV:2|BNAM:moddisposition -2

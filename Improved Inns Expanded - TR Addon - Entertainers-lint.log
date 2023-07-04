@@ -1,0 +1,118 @@
+Improved Inns Expanded - TR Addon - Entertainers.ESP: DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             7824672 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            131296817 (plugin)  163244128 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BINN_start_message)
+	SCPT(TR_m1_Pub_Avenue)
+	SCPT(TR_m1_Pub_Black_Ogre)
+	SCPT(TR_m1_Pub_Dancing_Jug)
+	SCPT(TR_m1_Pub_Howling_Noose)
+	SCPT(TR_m1_Pub_Queens_Cutlass)
+	SCPT(TR_m1_Pub_Waters_Shadow)
+	SCPT(TR_m2_Pub_Akamora_Gob)
+	SCPT(TR_m2_Pub_Helnim_Drake)
+	SCPT(TR_m2_Pub_Helnim_Flower)
+	SCPT(TR_m2_Pub_Helnim_Racer)
+	SCPT(TR_m2_Pub_Hlersis_LeakingSpore)
+	SCPT(TR_m2_Pub_InnBetween)
+	SCPT(TR_m2_Pub_Mothrivra_Goblet1)
+	SCPT(TR_m2_Pub_Necrom_Hostel)
+	SCPT(TR_m3_A8_Dralin_Belvayn_S)
+	SCPT(TR_m3_A8_Sulerri_Tharyon_S)
+	SCPT(TR_m3_Pub_AT_HC)
+	SCPT(TR_m3_Pub_AT_LS)
+	SCPT(TR_m3_Pub_AT_TS)
+	SCPT(TR_m3_Pub_Aimrah_Inn)
+	SCPT(TR_m3_Pub_Darnim_Windbrk)
+	SCPT(TR_m3_Pub_Empress_Katariah)
+	SCPT(TR_m3_Pub_HuntedHound)
+	SCPT(TR_m3_Pub_Meralag_Glade)
+	SCPT(TR_m3_Pub_Moth_and_Tiger)
+	SCPT(TR_m3_Pub_Sailen_Toiling)
+	SCPT(TR_m3_Pub_Salty_Futtocks)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 7
+
+[MOD-INF]: ID=1845032202901224(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m2_Revas Baldaren|NAME:Welcome, %PCRace. Welcome to The Inn Between, home to the only safe beds around here. My name is Revas Baldaren, and I am the innkeeper. If you're looking for a place to stay, this is it.|SCVR:01630|INTV:|BNAM:;Revas Baldaren, The Inn Between  addtopic "beds"  addtopic "Revas Baldaren"
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m2_Revas Baldaren|NAME:Welcome, %PCRace, welcome to the The Inn Between, home to the only safe beds around here. My name is Revas Baldaren, I am the Innkeeper. If you're looking for a place to stay, this is it.|SCVR:01630|INTV:|BNAM:;Revas Baldaren, The Inn Between  addtopic "beds"  Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=3171412899881431(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m1_Rantharas|ANAM:Llothanis, The Water's Shadow Tavern|NAME:Looking for a drink, outlander? I have many fine beverages available.
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m1_Rantharas|ANAM:Llothanis, The Water's Shadow Tavern|NAME:Looking for a drink, outlander? I have many fine beverages available.|BNAM:Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=32763416268289898(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m3_Jodald|ANAM:Old Ebonheart|NAME:Yeah? This is the Salty Futtocks. Name your poison. We also rent beds if you're looking to get some rest.|SCVR:01630|INTV:
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m3_Jodald|ANAM:Old Ebonheart|NAME:Yeah? This is the Salty Futtocks. Name your poison. We also rent beds if you're looking to get some rest.|SCVR:01630|INTV:|BNAM:Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=43963271174910393(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m3_Hlireni Hleran|NAME:Welcome to the Limping Scrib, inn and tavern of Almas Thirr. Can I interest you in beds or food, sera?|BNAM:;Almas Thirr  ;beds
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m3_Hlireni Hleran|NAME:Welcome to the Limping Scrib, inn and tavern of Almas Thirr. Can I interest you in beds or food, sera?|BNAM:;Almas Thirr  ;beds  Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=331130074158089603(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m3_Dilvene Gilmanil|NAME:Welcome to the Sailors' Inn, outlander. I'm %Name, owner of this place. We sell liquor here that you can drink without going blind. Our beds are normally all taken, but since my last lodger, Horrav Fillipian, decided to make a run for it without paying for his room, we do have one room available. Payment upfront this time, though -- I've learned my lesson. But enough about me and my troubles. What brings you to Aimrah? Not many outlanders come here.|SCVR:01630|INTV:|BNAM:addtopic "Horrav Fillipian"  addtopic "beds"
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m3_Dilvene Gilmanil|NAME:Welcome to the Sailors' Inn, outlander. I'm Dilvene Gilmanil, owner of this place. We sell liquor here that you can drink without going blind. Our beds are normally all taken, but since my last lodger, Horrav Fillipian, decided to make a run for it without paying for his room we do have one room available. Payment upfront this time, though -- I've learned my lesson. But enough about me and my troubles. What brings you to Aimrah? Not many outlanders come here.|SCVR:01630|INTV:|BNAM:addtopic "Horrav Fillipian"  addtopic "beds"  Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=753227462428221264(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m1_Fedura_Drenim|NAME:Welcome to the Avenue, %PCRace. Can I get you a drink? We also have beds available if you're in need of rest.
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m1_Fedura_Drenim|NAME:Welcome to the Avenue, %PCRace. Can I get you a drink? We also have beds available if you're in need of rest.|BNAM:addTopic "entertain the patrons"
+
+[MOD-INF]: ID=1271813945413015993(Topic:beds)
+  morrowind.esm---------------------------------------->|DATA|ONAM:banor seran|CNAM:Publican|NAME:Very good. Go down the stairs. The room on the right is yours. I'd avoid the left room, the man there wishes to be undisturbed..|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ;BALMORA COUNCIL CLUB  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:banor seran|CNAM:Publican|NAME:Yes, the room down the stairs on the right is available. It's better to avoid the left room, the man there wishes to be undisturbed. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=1594624424812014458(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m3_Valia Vautere|ANAM:Old Ebonheart|NAME:Welcome to the Moth and Tiger Inn, citizen! I am %Name, publican of this establishment. We rent beds, and I have a variety of foods and wines for sale. If you're new to Old Ebonheart, I can also tell you where to look for other services, or a specific place nearby. If you're looking for someone in particular, I may be able to help.|SCVR:01630|INTV:
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m3_Valia Vautere|ANAM:Old Ebonheart|NAME:Welcome to the Moth and Tiger inn, citizen! I am Valia Vautere, publican of this establishment. We rent beds, and I have a variety of foods and wines for sale. If you're new to Old Ebonheart, I can also tell you where to look for other services, or a specific place nearby. If you're looking for someone in particular, I may be able to help.|SCVR:01630|INTV:|BNAM:Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=2085537222064428072(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m2_Duldres Herendal|NAME:Welcome, pilgrim. The Temple will happily offer you bread and board for the duration of your stay here. Just speak to me should you wish to rent one of our beds.
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m2_Duldres Herendal|NAME:Welcome, pilgrim. The Temple will happily offer you bread and board for the duration of your stay here. Just speak to me should you wish to rent one of our beds.|BNAM:Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=2136467632476725951(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m2_Uleras Morenu|NAME:Welcome to the Cliff Racer's Rest, %PCName. What can I do for you? Beds? Food?|SCVR:02sX3Random100|INTV:C
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m2_Uleras Morenu|NAME:Welcome to the Cliff Racer's Rest, %PCName. What can I do for you? Beds? Food?|SCVR:02sX3Random100|INTV:C|BNAM:Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=2184129280216541515(Greeting:greeting 7)
+  morrowind.esm---------------------------------------->|DATA|CNAM:Publican|NAME:We rent beds. I have some goods for barter. What do you want?|BNAM:;Drelasa Ramothran
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|CNAM:Publican|NAME:We rent beds. I have some goods for barter. What do you want?|BNAM:;Drelasa Ramothran  Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=2514112899163722427(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m3_Dralin_Belvayn|NAME:Welcome to the Emerald Haven Inn, outlander. It's a pleasure to meet you. If you require a little bit of food or drink, we can surely accommodate you. Some beds are available as well, if that's what you desire. Don't be shy about asking.|BNAM:;food ;drinks ;beds
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m3_Dralin_Belvayn|NAME:Welcome to the Emerald Haven Inn, outlander. It's a pleasure to meet you. If you require a little bit of food or drink, we can surely accommodate you. Some beds are available as well, if that's what you desire. Don't be shy about asking.|BNAM:;food ;drinks ;beds  Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=5165286182165212065(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m1_Alasha_Kori|ANAM:Ranyon-ruhn|NAME:Welcome to the Dancing Jug, %PCName. Every customer's a king here. Would you like some food? Something to drink, perhaps? We also have beds available, if you'd like one.
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m1_Alasha_Kori|ANAM:Ranyon-ruhn|NAME:Welcome to the Dancing Jug, %PCName, every customer's a king here. Would you like some food? Something to drink perhaps? We also have beds available, if you'd like one.|BNAM:addTopic "entertain the patrons"
+
+[MOD-INF]: ID=8192288701696813519(Topic:beds)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m2_Llania Darvani|NAME:There are no beds here. I only sell drinks.
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m2_Llania Darvani|NAME:There are no beds here. I only sell drinks.
+
+[MOD-INF]: ID=9464173541885431201(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m3_Juvol Andres|NAME:Welcome to the Golden Glade! Enlighten your pallet with only the finest of imported Cyrodiilic wines and brandies. Or would you prefer to take one of our beds to stay for the night?
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m3_Juvol Andres|NAME:Welcome to the Golden Glade! Enlighten your pallet with only the finest of imported Cyrodiilic wines and brandies. Or would you prefer to take one of our beds to stay for the night?|BNAM:Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=15027273142795112510(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m3_Ryamon Sevenas|NAME:Greetings, %PCRace. Stopping by at the Hunted Hound Inn? Looking for beds? If it's food or drink you're after, talk to my wife; she's running the bar.|SCVR:02sX3Random100|INTV
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m3_Ryamon Sevenas|NAME:Greetings, %PCRace. Stopping by at the Hunted Hound Inn? Looking for beds? If it's food or drink you're after, talk to my wife; she's running the bar.|SCVR:02sX3Random100|INTV|BNAM:Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=17663269201272826553(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m2_Gadali_Sarothril|NAME:Welcome to The Leaking Spore. How may I be of service?|SCVR:02sX3Random100|INTV:<
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m2_Gadali_Sarothril|NAME:Welcome to The Leaking Spore. How may I be of service?|SCVR:02sX3Random100|INTV:<|BNAM:Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=19307115123276431617(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m3_Yammu Hainnadon|NAME:Looking for grub down here in the canalworks, outlander? Warm beds? Perhaps a jug of sujamma to wet your tongue for prayers? Look no further than the Thirsty Saint Cornerclub!|BNAM:;beds
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m3_Yammu Hainnadon|NAME:Looking for grub down here in the canalworks, outlander? Warm beds? Perhaps a jug of Sujamma to wet your tongue for prayers? Look no further than the Thirsty Saint Cornerclub!|BNAM:;beds  Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=19420239061925126430(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m3_Naamalvu Erendi|ANAM:Old Ebonheart|NAME:Good day. I am %Name, publican of the Empress Katariah -- the finest inn named after a dead regent in all of Tamriel! We rent beds, and I have a limited selection of goods for barter. If you're looking for someone in particular, I may be able to help.|SCVR:01630|INTV:
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m3_Naamalvu Erendi|ANAM:Old Ebonheart|NAME:Good day. I am Naamalvu Erendi, publican of the Empress Katariah -- the finest inn named after a dead regent in all of Tamriel! We rent beds, and I have a limited selection of goods for barter. If you're looking for someone in particular, I may be able to help.|SCVR:01630|INTV:|BNAM:Addtopic "entertain the patrons"
+
+[MOD-INF]: ID=21152112981142317158(Greeting:greeting 7)
+  tr_mainland.esm-------------------------------------->|DATA|ONAM:TR_m3_Sulerri_Tharyon|NAME:Greetings, traveler. Welcome to the Starlight Inn. We currently have some food and drink, if you need those. We may also have some beds available. If you have any other questions, feel free to ask.|BNAM:;Starlight Inn
+  Improved Inns Expanded - TR Addon - Entertainers.ESP->|DATA|ONAM:TR_m3_Sulerri_Tharyon|NAME:Greetings, traveler. Welcome to the Starlight Inn. We currently have some food and drink, if you need those. We may also have some beds available. If you have any other questions, feel free to ask.|BNAM:;Starlight Inn  Addtopic "entertain the patrons"

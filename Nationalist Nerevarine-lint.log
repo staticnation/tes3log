@@ -1,0 +1,120 @@
+Nationalist Nerevarine.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (88) != Actual count (87)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(WhateverScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    my story
+	morrowind.esm       DIAL    essential supplies
+	morrowind.esm       DIAL    report to caius cosades
+	morrowind.esm       DIAL    work
+	morrowind.esm       FACT    nerevarine
+	tribunal.esm        DIAL    a1_1_findspymaster
+	tribunal.esm        DIAL    a2_1_meetsulmatuul
+	tribunal.esm        DIAL    a2_1_supplies
+	tribunal.esm        DIAL    a2_1_supplies2
+	tribunal.esm        DIAL    a2_2_6thhouse
+	tribunal.esm        DIAL    a2_3_corpruscure
+	tribunal.esm        DIAL    a2_4_milogone
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=908715013644074(Journal:a2_3_corpruscure)
+  morrowind.esm-------------->|DATA|NAME:I gave Divayth Fyr the Dwemer artifact the Spymaster gave me. It seems to have made a good impression on him.
+  Nationalist Nerevarine.ESP->|DATA|NAME:I gave Divayth Fyr the Dwemer artifact I received. It seems to have made a good impression on him.
+
+[DUP-INF]: ID=2727843762091835(Topic:my story)
+  |DATA|ONAM:ghost_npc_conoon chodal|NAME:I have failed. I was not the one.|SCVR:04JX3A2_6_Conoon|INTV:d|BNAM:; Conoon Chodala;
+
+[MOD-INF]: ID=4282199852086467(Journal:a2_2_6thhouse)
+  tribunal.esm--------------->|DATA|NAME:I have killed Dagoth Gares, as the Spymaster ordered. But with his dying breath, Dagoth Gares pronounced a curse on me, and now I have the corprus disease. He said I would come to Dagoth Ur ' in his flesh, and of his flesh'. I don't feel any different, but the marks of the disease are plain on my face. I'll have to return and report to the Spymaster on the Sixth House base, and hope he knows of some way to cure this disease.|QSTF
+  Nationalist Nerevarine.ESP->|DATA|NAME:I have killed Dagoth Gares, as I was ordered. But with his dying breath, Dagoth Gares pronounced a curse on me, and now I have the corprus disease. He said I would come to Dagoth Ur ' in his flesh, and of his flesh'. I don't feel any different, but the marks of the disease are plain on my face. I'll have to return and report on the Sixth House base, and hope that my employer knows of some way to cure this disease.|QSTF
+
+[DUP-INF]: ID=16759451398915021(Journal:a1_1_findspymaster)
+  |DATA|NAME:Spymaster Caius Cosades gave me 200 gold to spend as I please. And he also told me to establish a cover identity as a freelance adventurer. He suggested I join the Fighters Guild, or Mages Guild, or Imperial cult, advance in the ranks, gain skill and experience, or go out on my own, get freelance work. Then, when I'm ready, I come back to Caius for orders.|QSTF
+
+[DUP-INF]: ID=29701810788816995(Journal:a2_4_milogone)
+  |DATA|NAME:Caius Cosades was recalled to the Imperial City. He says he believes I am really the Nerevarine. He wants me to find the lost prophecies and deliver them to Nibani Maesa. His parting orders are to go to the Hall of Wisdom and Justice, where Mehra Milo will tell me how to get the lost prophecies. He says she's being watched, and if something has gone wrong, she will leave me a message under the code word 'amaya.'
+
+[MOD-INF]: ID=34421011823324501(Topic:my story)
+  morrowind.esm-------------->|DATA|ONAM:ghost_npc_conoon chodal|NAME:I was an ashkhan. I led my people against the Akaviri while the Cyrodiil dogs fled before them like kagouti. I quested deep into the strongholds and Red Mountain, cleansing the unclean things in their own blood. I did not heed the counsel of the women, and, to my shame, I craved glory, but never saw my real enemies. My axe and boots are yours, with my blessing.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Conoon Chodala; Journal "A2_6_Incarnate" <= 50  player->additem conoon_chodala_axe_unique 1  player->additem conoon_chodala_boots_unique 1  Journal "A2_6_Conoon" 100
+  Nationalist Nerevarine.ESP->|DATA|ONAM:ghost_npc_conoon chodal|NAME:I was born in the Urshilaku Camp, and became their Ashkhan. My contribution to the war against the Akaviri made me respected among the tribes. Even the Red Exiles, a group of outcasts, followed me. I learned about the staff named Sunna'rah, that could steal the divine powers of the Tribunal. I slowly began to drain the power from Vivec upon acquiring it. However, my newfound power made me crave glory, and I did not heed the counsel of the Wise Woman, and my sister Seryn.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:Choice "Continue" 1  ; Conoon Chodala; Journal "A2_6_Incarnate" <= 50
+
+[MOD-INF]: ID=76817486476813403(Journal:a2_3_corpruscure)
+  morrowind.esm-------------->|DATA|NAME:I showed Divayth Fyr the Dwemer artifact the Spymaster gave me, but I didn't give it to him.
+  Nationalist Nerevarine.ESP->|DATA|NAME:I showed Divayth Fyr the Dwemer artifact I was given, but I didn't give it to him.
+
+[DUP-INF]: ID=109851683812412136(Journal:a2_2_6thhouse)
+  |DATA|NAME:The Spymaster suggests I do some more freelance work, and invest all I earn in training and equipment. When I think I'm ready, I'll go back to him, and he'll give me my next mission.
+
+[DUP-INF]: ID=153801167584714421(Journal:a2_1_meetsulmatuul)
+  |DATA|NAME:Caius promoted me to Apprentice rank in the Blades, and gave me the Emperor's secret orders and told me to read them. The Emperor thinks the Nerevarine prophecies are genuine, and that I may be the Nerevarine. I'm being sent to the Urshilaku Camp to speak with the heads of the Nerevarine cult, Sul-Matuul and Nibani Maesa. I'll tell them my story, and tell them to test me against the Nerevarine prophecies, then report back to Caius.
+
+[MOD-INF]: ID=155946986227161440(Journal:a1_1_findspymaster)
+  tribunal.esm--------------->|DATA|NAME:I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.
+  Nationalist Nerevarine.ESP->|DATA|NAME:I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.|QSTF
+
+[MOD-INF]: ID=175341960303625714(Greeting:greeting 5)
+  morrowind.esm-------------->|DATA|ONAM:raesa pullia|NAME:I'm Raesa Pullia, Champion of the Legion garrison here at Buckmoth Legion Fort. And you're %PCName. Caius Cosades sent you, didn't he? Caius says you're the one to handle this Sixth House base near Gnaar Mok.|SCVR:04JX3A2_2_6thHouse|INTV|SCVR:11630|INTV:
+  Nationalist Nerevarine.ESP->|DATA|ONAM:raesa pullia|NAME:I'm Raesa Pullia, Champion of the Legion garrison here at Buckmoth Legion Fort. And you're %PCName. Your employer says you're the one to handle this Sixth House base near Gnaar Mok.|SCVR:04JX3A2_2_6thHouse|INTV|SCVR:11630|INTV:
+
+[DUP-INF]: ID=284455288799622319(Journal:a2_2_6thhouse)
+  |DATA|NAME:The Spymaster has sent me to find a Sixth House base near Gnaar Mok. There I must kill a Sixth House priest named Dagoth Gares, and bring the Spymaster a full report on the Sixth House base. But first I need to speak to Raesa Pullia, the Champion of Fort Buckmoth. She'll tell me about the patrol that found the base, and how to find it.
+
+[DUP-INF]: ID=296272980750886694(Journal:a2_3_corpruscure)
+  |DATA|NAME:The Spymaster promoted me to Traveler rank, but is very worried about my Corprus disease. My best chance of a cure is Divayth Fyr, an ancient Telvanni wizard who runs a Corprusarium for victims of the disease. With the Dwemer artifact and 1000 gold Caius gave me, I'll go to Tel Fyr and persuade Divayth Fyr to cure my corprus disease. I must hurry back to the Spymaster when I'm cured, because Caius knows how to get the lost prophecies Nibani Maesa asked for.
+
+[DUP-INF]: ID=643611158101795644(Journal:a1_1_findspymaster)
+  |DATA|NAME:Spymaster Caius Cosades told me to establish a cover identity as a freelance adventurer. He suggested I might find some work at the Fighters Guild and the Mages Guild. When I'm ready, I'm to come back to him, and he'll have orders for me.|QSTF
+
+[DUP-INF]: ID=1639929052870028096(Journal:a2_1_supplies2)
+  |DATA|NAME:Crulius Pontanian gave me a selection of scrolls.
+
+[DUP-INF]: ID=1714292802532715578(Topic:essential supplies)
+  |DATA|ONAM:caius cosades|NAME:Before you go to Urshilaku camp, see Somutis Vunnis and Crulius Pontanian at Fort Moonmoth. I've asked them to put aside some potions and scrolls for you. Courtesy of the Emperor. In particular, you'll want the cure potions; I hear the blight is very bad up north. And use the Divine Intervention scroll if you find you're over your head. It will get you safe to an Imperial cult shrine, where you can heal, refit, and try again.|SCVR:14JX4A2_1_MeetSulMatuul|INTV:<
+
+[MOD-INF]: ID=1987530856903725209(Topic:report to caius cosades)
+  morrowind.esm-------------->|DATA|ONAM:caius cosades|NAME:Good. Welcome to the service, Novice %PCName. Now you belong to the Blades. We're the Emperor's eyes and ears in the provinces. You can use my bed if you need to rest, but leave my personal stuff alone unless I say otherwise. If you like, you can improve your modest skills with our Blades Trainers now. Or if you're in a hurry. I can give you orders right away. But don't forget to visit the Blades Trainers.|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_1_FindSpymaster", 14  PCJoinFaction "Blades"  modDisposition 10  "Rithleen"->modDisposition 20  "Tyermaillin"->modDisposition 20  "Nine_Toes"->modDisposition 20  "Surane Leoriane"->modDisposition 20  "Gildan"->modDisposition 20  "Sjorvar Horse-Mouth"->modDisposition 20
+  Nationalist Nerevarine.ESP->|DATA|ONAM:caius cosades|NAME:Good. Welcome to the service, Novice %PCName. Now you belong to the Blades. We're the Emperor's eyes and ears in the provinces. You can use my bed if you need to rest, but leave my personal stuff alone unless I say otherwise. If you like, you can improve your modest skills with our Blades Trainers now. Or if you're in a hurry. I can give you orders right away. But don't forget to visit the Blades Trainers.|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_1_FindSpymaster", 14  PCJoinFaction "Blades"  Player->AddItem "AAkaviri_Katana" 1  modDisposition 10  "Rithleen"->modDisposition 20  "Tyermaillin"->modDisposition 20  "Nine_Toes"->modDisposition 20  "Surane Leoriane"->modDisposition 20  "Gildan"->modDisposition 20  "Sjorvar Horse-Mouth"->modDisposition 20
+
+[DUP-INF]: ID=2574426244513322545(Topic:essential supplies)
+  |DATA|ONAM:crulius pontanian|NAME:I gave you the scrolls. But, as I said, you might also want to browse my selection for scrolls to suit your own personal style.|SCVR:04JX3A2_1_Supplies2|INTV
+
+[DUP-INF]: ID=2668431443105585643(Topic:essential supplies)
+  |DATA|ONAM:somutis vunnis|NAME:I gave you the potions. But I have many other potions for sale, and all the proceeds go to support the good works of the Imperial cult.|SCVR:04JX3A2_1_Supplies|INTV
+
+[MOD-INF]: ID=2911713626220353048(Journal:a2_1_meetsulmatuul)
+  morrowind.esm-------------->|DATA|NAME:The wise women know that some Nerevarine prophecies have been lost. But the Dissident Priests of the Temple study the Ashlander Nerevarine prophecies, and record them in books. Perhaps the lost prophecies can be found there. Nibani Maesa has asked me to go to the Dissident Priests, get them to show me the books, and to tell her what I find there. This sounds like something to mention to Caius. Maybe he'll know how to contact the Dissident Priests.
+  Nationalist Nerevarine.ESP->|DATA|NAME:The wise women know that some Nerevarine prophecies have been lost. But the Dissident Priests of the Temple study the Ashlander Nerevarine prophecies, and record them in books. Perhaps the lost prophecies can be found there. Nibani Maesa has asked me to go to the Dissident Priests, get them to show me the books, and to tell her what I find there. This sounds like something to mention to my employer. Maybe he'll know how to contact the Dissident Priests.
+
+[DUP-INF]: ID=2984729969104904264(Journal:a1_1_findspymaster)
+  |DATA|NAME:Spymaster Caius Cosades suggested I maintain a cover identity as a freelance adventurer, just to avoid drawing unwanted attention. And he says he has orders for me, whenever I'm ready.|QSTF
+
+[DUP-INF]: ID=7123259542508021588(Journal:a2_1_supplies)
+  |DATA|NAME:Somutis Vunnis gave me a selection of potions.
+
+[DUP-INF]: ID=8891108291020417774(Topic:work)
+  |DATA|ONAM:angaredhel|NAME:You have your reward. Good day to you.|SCVR:04JX3town_Sadrith|INTV:2
+
+[DUP-INF]: ID=13908169931371922942(Journal:a1_1_findspymaster)
+  |DATA|NAME:Elone at Arrille's Tradehouse gave me detailed directions to Balmora.
+
+[MOD-INF]: ID=16981214271045313693(Journal:a2_1_meetsulmatuul)
+  tribunal.esm--------------->|DATA|NAME:Nibani Maesa says I am not the Nerevarine, but I may become the Nerevarine. It seems she is willing to help me unravel the Nerevarine prophecies and my part in them. She tells me to seek the lost prophecies among the Dissident priests of the Temple. If I bring these lost prophecies to her, she will be my guide. And she gave me copies of the Nerevarine prophecies called 'The Stranger' and 'The Seven Visions'. Now it's time to report back to Caius.|QSTF
+  Nationalist Nerevarine.ESP->|DATA|NAME:Nibani Maesa says I am not the Nerevarine, but I may become the Nerevarine. It seems she is willing to help me unravel the Nerevarine prophecies and my part in them. She tells me to seek the lost prophecies among the Dissident priests of the Temple. If I bring these lost prophecies to her, she will be my guide. And she gave me copies of the Nerevarine prophecies called 'The Stranger' and 'The Seven Visions'. Now it's time to report back.|QSTF
+
+[DUP-INF]: ID=25281185372478627323(Topic:essential supplies)
+  |DATA|ONAM:somutis vunnis|NAME:Yes. Caius said a friend was heading into the backcountry, and would need some potions. I've given you cures and fortifies. There's no charge. But, if you'll take my advice, and you can afford it, stock up on the cures. There's are no Imperial cult cure altars north of Ald'ruhn; the one at Gnisis is far to the west. And we've heard many recent reports of diseased creatures and blighted creatures in the northern wilds.|BNAM:player->additem p_cure_common_s 2  player->additem p_cure_blight_s 2  player->additem p_fortify_health_c 1  player->additem p_fortify_strength_c 1  player->additem p_fortify_speed_c 1  journal A2_1_Supplies 5
+
+[DUP-INF]: ID=26545254192088211895(Topic:essential supplies)
+  |DATA|ONAM:crulius pontanian|NAME:You're %PCName? Caius said you'd come by. I've chosen from my best scroll stocks. I don't know your preferences or situation, but Blessings and Barriers always come in handy. Purity of Body sets you up amazingly in a fight. And, of course, Divine Intervention gets you safe to an Imperial cult shrine when all else fails. Here. They're paid for. Now, I don't know your budget, but you might also want to browse my selection for scrolls to suit your own personal style.|BNAM:player->additem sc_divineintervention 1  player->additem sc_secondbarrier 1  player->additem sc_warriorsblessing 1  player->additem sc_purityofbody 2  journal A2_1_Supplies2 5
+
+[MOD-INF]: ID=27940198422920617515(Journal:a2_3_corpruscure)
+  tribunal.esm--------------->|DATA|NAME:I gave Divayth Fyr the Dwemer boots from Yagrum Bagarn, and he gave me the potion. It didn't cure me. But it did remove all apparent signs of the disease. Divayth Fyr said he didn't actually WANT to cure me. He just wanted to remove the harmful features of the disease while preserving its virtues. It worked. And now Divayth Fyr is eager to test the potion on subjects in the Corprusarium. But I must hurry back to report to the Spymaster, and search for the lost prophecies.|QSTF
+  Nationalist Nerevarine.ESP->|DATA|NAME:I gave Divayth Fyr the Dwemer boots from Yagrum Bagarn, and he gave me the potion. It didn't cure me. But it did remove all apparent signs of the disease. Divayth Fyr said he didn't actually WANT to cure me. He just wanted to remove the harmful features of the disease while preserving its virtues. It worked. And now Divayth Fyr is eager to test the potion on subjects in the Corprusarium. But I must hurry back to report, and search for the lost prophecies.|QSTF
+
+[MOD-INF]: ID=29811134423266124620(Journal:a2_3_corpruscure)
+  morrowind.esm-------------->|DATA|NAME:I showed Divayth Fyr the Dwemer artifact the Spymaster gave me, but I didn't give it to him. He seemed annoyed with me.
+  Nationalist Nerevarine.ESP->|DATA|NAME:I showed Divayth Fyr the Dwemer artifact I was given, but I didn't give it to him. He seemed annoyed with me.
+
+[DUP-INF]: ID=31540100981975929470(Journal:a1_1_findspymaster)
+  |DATA|NAME:My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders.

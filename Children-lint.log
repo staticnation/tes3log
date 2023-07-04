@@ -1,0 +1,78 @@
+Children.esm: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CHILDNoLoreScript)
+	SCPT(CHILDScript)
+	SCPT(CHILD_BereditteJastalINScript)
+	SCPT(CHILD_BereditteJastalOUTScript)
+	SCPT(CHILD_BrynjolfrINScript)
+	SCPT(CHILD_BrynjolfrOUTScript)
+	SCPT(CHILD_GidarVerothanScript)
+	SCPT(CHILD_GratianCaerelliusScript)
+	SCPT(CHILD_SCALESCRIPT)
+	SCPT(CHILD_TEMPLATENOLORESCRIPT)
+	SCPT(CHILD_TEMPLATESCRIPT)
+	SCPT(CHILD_VeraraRendoScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	morrowind.esm       DIAL    alarm
+	morrowind.esm       DIAL    intruder
+	morrowind.esm       DIAL    thief
+	morrowind.esm       NPC_    verara rendo
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        NPC_    sanaso sarothran
+
+[DUP-INF]: ID=1709302711210241(Voice:hello)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you
+
+[DUP-INF]: ID=8365116839732275(Voice:intruder)
+  |DATA|SCVR:03sX0nointruder|INTV:
+
+[DUP-INF]: ID=32137175498021017(Voice:flee)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;to keep werewolves from talking during to you, they should never flee but just to be safe
+
+[DUP-INF]: ID=78102235536611098(Voice:alarm)
+  |DATA|ONAM:yagrum bagarn|SNAM:Vo\Misc\Yagrum_2.mp3|NAME:Noooo!
+
+[DUP-INF]: ID=1224319899288117550(Greeting:greeting 0)
+  |DATA|CNAM:Guard|ANAM:Chun-Ook, Upper Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+
+[DUP-INF]: ID=1470721697254192970(Topic:little advice)
+  |DATA|ONAM:svenja_outside|NAME:Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't...something inside waiting for you. Be ready for a fight.
+
+[DUP-INF]: ID=1732794482128125050(Voice:hit)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Roar!|SCVR:01720|INTV|SCVR:12sX5Random100|INTV
+
+[DUP-INF]: ID=1906014833141124249(Topic:specific place)
+  |DATA|ONAM:Carnius Magius|NAME:The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock, however, boasts a bar and a Trader's Outpost. All thanks to me, of course.|SCVR:02sX3ColonyState|INTV: |SCVR:12sX0ColonyService|INTV
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[DUP-INF]: ID=2225931001740931554(Topic:someone in particular)
+  |DATA|ONAM:Carnius Magius|NAME:Aside from Captain Carius, I'm the only one here worth talking to.
+
+[DUP-INF]: ID=2638137421067825083(Voice:idle)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking
+
+[DUP-INF]: ID=10383195842825314349(Topic:little secret)
+  |DATA|ONAM:svenja_outside|NAME:The name of the wolf that killed Hrothmund is "Ondjage." You'll need to say his name to enter Hrothmund's Barrow. Say any other name and you'll NEVER be able to get in!
+
+[DUP-INF]: ID=10394141353026432359(Voice:thief)
+  |DATA|SCVR:03sX0nothief|INTV:
+
+[DUP-INF]: ID=10819118262520816930(Voice:attack)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;this prevents werewolves from talking to you in combat
+
+[DUP-INF]: ID=25659223951448129046(Topic:services)
+  |DATA|ONAM:Sathyn Andrano|NAME:Aside from this shop, you mean? Well, that's an easy answer. Nothing. If it's not for sale here, you'll have to try checking at Fort Frostmoth. And, given my stock, it's probably not for sale here.

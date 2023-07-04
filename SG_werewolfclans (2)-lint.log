@@ -1,0 +1,35 @@
+SG_werewolfclans (2).esp: DUP-REC JUNKCEL MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	Solstheim Tomb of The Snow Prince.esm   10412850 (plugin)   10637543 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(gold_wolf_clan_door)
+	SCPT(sg_arcticwolf)
+	SCPT(sg_blackwerepuppy)
+	SCPT(sg_blackwildwerewolf)
+	SCPT(sg_blackwolf)
+	SCPT(sg_goldwereamScript)
+	SCPT(sg_goldwerepuppy)
+	SCPT(sg_goldwildwerewolf)
+	SCPT(sg_redwerepuppy)
+	SCPT(sg_redwildwerewolf)
+	SCPT(sg_redwolf)
+	SCPT(sg_redwolf_clan)
+	SCPT(sg_startscript)
+	SCPT(sg_werecheck)
+	SCPT(sg_werecolor)
+	SCPT(sg_whitewerepuppy)
+	SCPT(sg_whitewildwerewolf)
+    [JUNKCEL] Junk Cells:                        Flags
+	Felsaad Coast Region (-14, 32)           0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    werewolves
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    hello
+	tribunal.esm        GMST    iwerewolffightmod
+
+[MOD-INF]: ID=19841114782955816004(:hello)
+  morrowind.esm------------>|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF138.mp3|NAME:Warmly greeted, friend. Welcome.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+  SG_werewolfclans (2).esp->|NAME:Warmly greeted, friend. Welcome.|DELE:

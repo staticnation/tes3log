@@ -1,0 +1,165 @@
+LGNPC_TelUvirith.esp: DUP-INF DUP-REC GETSND MENUMOD OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(jo_tu_ErvynaHlervuShack_Script)
+	SCPT(jo_tu_SelethHouse_Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(jo_BRFolio)
+	SCPT(jo_BROctavo)
+	SCPT(jo_tu_ArelasHouse_Script)
+	SCPT(jo_tu_ArtifactTopicScript)
+	SCPT(jo_tu_BlackSoulgemAshScript)
+	SCPT(jo_tu_BrownBook)
+	SCPT(jo_tu_DelayBlackSoulQuest)
+	SCPT(jo_tu_DreamerPriestScript)
+	SCPT(jo_tu_DreamerScript)
+	SCPT(jo_tu_EddThemanScript)
+	SCPT(jo_tu_EddTimer)
+	SCPT(jo_tu_EddiesCouncilBusiness)
+	SCPT(jo_tu_EnisRemoriScript)
+	SCPT(jo_tu_ErabenimsunPosseScript)
+	SCPT(jo_tu_ErvynaHlervuScript)
+	SCPT(jo_tu_ErvynaHlervuShack_Script)
+	SCPT(jo_tu_FomesaTharysScript)
+	SCPT(jo_tu_HlervuATDoorScript)
+	SCPT(jo_tu_KummuScript)
+	SCPT(jo_tu_MraajScript)
+	SCPT(jo_tu_PrepTimer)
+	SCPT(jo_tu_RayadrelHlervuScript)
+	SCPT(jo_tu_SMHermitage_Script)
+	SCPT(jo_tu_SadrithMoraHermitage_Script)
+	SCPT(jo_tu_SadrithMora_Script)
+	SCPT(jo_tu_SelethHouse_Script)
+	SCPT(jo_tu_StewardScript)
+	SCPT(jo_tu_TelAruhn_Script)
+	SCPT(jo_tu_TelBranora_Script)
+	SCPT(jo_tu_TelVos_Script)
+	SCPT(jo_tu_TelvanniPatrolScript)
+	SCPT(jo_tu_TpringScript)
+	SCPT(jo_tu_TunilaTimer)
+	SCPT(jo_tu_TusenendShrine_Script)
+	SCPT(jo_tu_UvirithsGrave_Script)
+	SCPT(jo_tu_VivecTelvanni_Script)
+	SCPT(jo_tu_YakinTimer)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    abolitionists
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    amulet of unity
+	morrowind.esm       DIAL    animal products
+	morrowind.esm       DIAL    apparatus
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    bad daedra
+	morrowind.esm       DIAL    blight disease
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    cave rat
+	morrowind.esm       DIAL    common disease
+	morrowind.esm       DIAL    conjuration
+	morrowind.esm       DIAL    corprus disease
+	morrowind.esm       DIAL    cure skooma addict
+	morrowind.esm       DIAL    daedra
+	morrowind.esm       DIAL    daedra worship
+	morrowind.esm       DIAL    dagoth ur's servants
+	morrowind.esm       DIAL    disease
+	morrowind.esm       DIAL    dratha
+	morrowind.esm       DIAL    dreugh
+	morrowind.esm       DIAL    dumac
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    dwemer
+	morrowind.esm       DIAL    dwemer animunculi
+	morrowind.esm       DIAL    dwemer artifacts
+	morrowind.esm       DIAL    dwemer centurions
+	morrowind.esm       DIAL    dwemer language
+	morrowind.esm       DIAL    enchanters
+	morrowind.esm       DIAL    enchanting items
+	morrowind.esm       DIAL    enchantments
+	morrowind.esm       DIAL    erabenimsun camp
+	morrowind.esm       DIAL    exotic products
+	morrowind.esm       DIAL    get cured
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    gothren
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    guild guide
+	morrowind.esm       DIAL    hortator's duty
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    imperial cult
+	morrowind.esm       DIAL    info refusal
+	morrowind.esm       DIAL    ingredients
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    khartag point
+	morrowind.esm       DIAL    killing and murder
+	morrowind.esm       DIAL    mage disciplines
+	morrowind.esm       DIAL    mages guild
+	morrowind.esm       DIAL    mages guild monopoly
+	morrowind.esm       DIAL    make amends
+	morrowind.esm       DIAL    masque of clavicus vile
+	morrowind.esm       DIAL    master aryon
+	morrowind.esm       DIAL    master neloth
+	morrowind.esm       DIAL    mehrunes dagon
+	morrowind.esm       DIAL    mineral products
+	morrowind.esm       DIAL    moon-and-star
+	morrowind.esm       DIAL    nerevar
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    ring of equity
+	morrowind.esm       DIAL    ring of the wind
+	morrowind.esm       DIAL    sadrith mora
+	morrowind.esm       DIAL    sheogorath
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       DIAL    soul sickness
+	morrowind.esm       DIAL    stronghold
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    tel branora
+	morrowind.esm       DIAL    tel vos
+	morrowind.esm       DIAL    telvanni councilors
+	morrowind.esm       DIAL    telvanni tower
+	morrowind.esm       DIAL    therana
+	morrowind.esm       DIAL    troubles for house telvanni
+	morrowind.esm       DIAL    twin lamps
+	morrowind.esm       DIAL    undead creatures
+	morrowind.esm       DIAL    vampirism cure
+	morrowind.esm       DIAL    vegetable products
+	tribunal.esm        DIAL    b7_telvannibook
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    bloodworm helm
+	tribunal.esm        DIAL    boots of the apostle
+	tribunal.esm        DIAL    bow of shadows
+	tribunal.esm        DIAL    chores
+	tribunal.esm        DIAL    chrysamere
+	tribunal.esm        DIAL    cuirass of the savior's hide
+	tribunal.esm        DIAL    ebony mail
+	tribunal.esm        DIAL    fang of haynekhtnamet
+	tribunal.esm        DIAL    goldbrand
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    helm of oreyn bearclaw
+	tribunal.esm        DIAL    ice blade of the monarch
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    lord's mail
+	tribunal.esm        DIAL    mace of molag bal
+	tribunal.esm        DIAL    mistress therana
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    ring of phynaster
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    skull-crusher
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    spear of bitter mercy
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        DIAL    spell breaker
+	tribunal.esm        DIAL    staff of hasedoki
+	tribunal.esm        DIAL    staff of magnus
+	tribunal.esm        DIAL    umbra sword
+	tribunal.esm        DIAL    vampiric ring
+	tribunal.esm        DIAL    warlock's ring
+
+[DUP-INF]: ID=1561421557898423058(Topic:moon-and-star)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:You bear the Moon-and-Star, the ring of Nerevar. None may deny; you ARE Nerevar Reborn, the prophesied Incarnate. The Temple will know you as an enemy. Ordinators will mark you for death, and the Tribunal Faithful of the Great Houses will hate and fear you. The doubters of the Tribes will test your strength and doubt your honor. You will be known. You must prepare, and be ready.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;   Journal "A2_6_Incarnate" 52

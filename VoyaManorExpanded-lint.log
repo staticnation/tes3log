@@ -1,0 +1,59 @@
+VoyaManorExpanded.ESP: DUP-INF DUP-REC GETSND MENUMOD MISSVER MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(1gr_comp3Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(1gr_comp3Script)
+	SCPT(VoyaApoc1SCPT)
+	SCPT(VoyaApoc2SCPT)
+	SCPT(VoyaButler1SCPT)
+	SCPT(VoyaButler2SCPT)
+	SCPT(VoyaDoorSCPT)
+	SCPT(VoyaEnchant1SCPT)
+	SCPT(VoyaEnchant2SCPT)
+	SCPT(VoyaJournal1)
+	SCPT(VoyaJournal2)
+	SCPT(VoyaJournal3)
+	SCPT(VoyaScout1SCPT)
+	SCPT(VoyaSmith1SCPT)
+	SCPT(VoyaSmith2SCPT)
+	SCPT(VoyaSwordSCPT)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    contract
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+
+[DUP-INF]: ID=9091831125373825(Greeting:greeting 5)
+  |DATA|ONAM:Geon Auline|NAME:You again? Haven't you made enough of a mess of things?|SCVR:04JX0MS_EstateSale|INTV:<
+
+[MOD-INF]: ID=31379153556996734(Topic:latest rumors)
+  tribunal.esm---------->|DATA|NAME:It was inevitable. The local criminal organization, the Camonna Tong, wasn't going to stand by and let the Thieves Guild set up shop in their territory. It'll be bloody. And the Thieves Guild doesn't stand a chance.|SCVR:0CsX0NoLore|INTV:|BNAM:;default
+  VoyaManorExpanded.ESP->|DATA|NAME:It was inevitable. The local criminal organization, the Camonna Tong, wasn't going to stand by and let the Thieves Guild set up shop in their territory. It'll be bloody. And the Thieves Guild doesn't stand a chance.|SCVR:0CsX0noLore|INTV:|BNAM:;default
+
+[DUP-INF]: ID=1756530965391912171(Greeting:greeting 5)
+  |DATA|ONAM:Geon Auline|NAME:Hello, %PCName. Thank you again for helping me acquire the Droth Dagger.|SCVR:04JX0MS_EstateSale|INTV:F
+
+[MOD-INF]: ID=2741625290245462780(Topic:latest rumors)
+  tribunal.esm---------->|DATA|NAME:With all the unrest in Cyrodiil City, a trooper told me they might have to recall the Legions to protect the Emperor.|SCVR:0CsX0NoLore|INTV:|BNAM:;default
+  VoyaManorExpanded.ESP->|DATA|NAME:With all the unrest in Cyrodiil City, a trooper told me they might have to recall the Legions to protect the Emperor.|SCVR:0CsX0noLore|INTV:|BNAM:;default
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=2890220726556429297(Persuasion:service refusal)
+  |DATA|NAME:You're not the type I like to deal with.

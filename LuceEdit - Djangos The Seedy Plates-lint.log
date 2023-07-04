@@ -1,0 +1,76 @@
+LuceEdit - Djangos The Seedy Plates.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Dunmer_Chat)
+	SCPT(Dunmer_Music)
+	SCPT(Pub_Balmora_Eight)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    founder's helm
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    join us
+	morrowind.esm       DIAL    outlander
+	morrowind.esm       DIAL    slander
+	morrowind.esm       LIGH    light_de_lantern_10_128
+	morrowind.esm       NPC_    alvis teri
+	morrowind.esm       NPC_    dulnea ralaal
+	morrowind.esm       NPC_    meril hlaano
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=994280566571240(Topic:slander)
+  morrowind.esm--------------------------->|DATA|ONAM:meril hlaano|NAME:Make me.
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:meril hlaano|NAME:Do you even know who you're talking to?
+
+[MOD-INF]: ID=171343168140283456(Greeting:greeting 7)
+  morrowind.esm--------------------------->|DATA|ONAM:dulnea ralaal|NAME:Good day. I'm Dulnea Ralaal, publican of the Eight Plates here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Dulnea Ralaal
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:dulnea ralaal|NAME:Greetings traveller, what brings you to the Eight Plates? If you need a place for the night, I can set you up with beds, and if you're wanting a drink, I'm sure I can fix you up something strong.|BNAM:;Dulnea Ralaal
+
+[MOD-INF]: ID=343022925183914544(Topic:slander)
+  morrowind.esm--------------------------->|DATA|ONAM:meril hlaano|NAME:Okay, okay. I, Meril Hlaano, withdraw the statements I made against House Redoran. There. I said it. Happy?|BNAM:Journal HR_HlaanoSlanders 50
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:meril hlaano|NAME:(Meril chuckles and takes a long drag on his cigar.)  Alright, %PCName. I, Meril Hlaano, withdraw the statements I made against House Redoran. Now get out of my sight before I have you killed.|BNAM:Journal HR_HlaanoSlanders 50
+
+[MOD-INF]: ID=1379208962960222606(Topic:founder's helm)
+  morrowind.esm--------------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:Fine. Take the stupid helm. Just like the Redorans to send a girl to do a man's job.|SCVR:01440|INTV:|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:You want a.... helm, prretty girl? Alvis has a sshpecial treat.... yes, very sshecret, just between us.|SCVR:01440|INTV:|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50
+
+[MOD-INF]: ID=1398821163861526653(Topic:slander)
+  morrowind.esm--------------------------->|DATA|ONAM:meril hlaano|NAME:I said I was sorry already. Just leave me alone.|SCVR:34JX3HR_HlaanoSlanders|INTV:2
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:meril hlaano|NAME:Don't push your luck, %PCName. If all House Redoran is able to do these days is rap me on the knuckles for slander, that's their problem. And if you want to serve under a family as impotent as that, then that's your problem. Now get out of my sight.|SCVR:34JX3HR_HlaanoSlanders|INTV:2
+
+[DUP-INF]: ID=1805121922893719179(Topic:business)
+  |DATA|ONAM:nileno dorvayn|NAME:If you want to talk business, you've come to the right place. Do you want to join House Hlaalu?
+
+[DUP-INF]: ID=3748250542379720869(Topic:business)
+  |DATA|ONAM:Dovor Oren|NAME:It's no concern of yours, %PCRace.|SCVR:04JX3MS_Warlords|INTV
+
+[MOD-INF]: ID=16951265192546817007(Topic:founder's helm)
+  morrowind.esm--------------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:I don't think so. I like the way it fits.
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:My head......(Alvis groans and lurches violently to one side)
+
+[MOD-INF]: ID=21216156192437416722(Topic:founder's helm)
+  morrowind.esm--------------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:I stole it fair and square.
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:I.... sshtole it... fair and square. Didn't I?
+
+[MOD-INF]: ID=21432111501574114700(Topic:beds)
+  morrowind.esm--------------------------->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's all yours for the day. Down the stairs to the right.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's just down the stairs, on your right. Oh, and your welcome to have guests to stay with you overnight, that's none of my buisness...|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+
+[MOD-INF]: ID=22310236883224415224(Topic:founder's helm)
+  morrowind.esm--------------------------->|DATA|ONAM:alvis teri|NAME:I gave you the helm so just shut up about it. Go away.|SCVR:34JX3HR_FoundersHelm|INTV:2
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:alvis teri|NAME:(Alvis makes a gargling sound. You suspect he is retching inside his helmet.)|SCVR:34JX3HR_FoundersHelm|INTV:2
+
+[MOD-INF]: ID=24947188951810428436(Topic:slander)
+  morrowind.esm--------------------------->|DATA|ONAM:meril hlaano|NAME:Don't make me mad, %PCName, or I'll say what I think of you, too.
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:meril hlaano|NAME:No, no you're absolutely right. I was wrong to call Fathasa Llethri a bloated Alit. I should have called her a dirty whore instead. What do you think of that, Redoran lapdog?
+
+[MOD-INF]: ID=27798215811479714359(Topic:founder's helm)
+  morrowind.esm--------------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:Fine. Take the stupid helm. But you're a momma's boy and so is your stupid Founder.|SCVR:01440|INTV|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50
+  LuceEdit - Djangos The Seedy Plates.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:Fine, fine! Just sshtop talking, my head.... my head hurts so bad.....|SCVR:01440|INTV|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50

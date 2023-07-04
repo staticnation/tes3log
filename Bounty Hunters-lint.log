@@ -1,0 +1,200 @@
+Bounty Hunters.ESP: DUP-INF DUP-REC EVLGMST JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [EVLGMST] Tribunal(11) Bloodmoon(61):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfalarmmessage
+	BM swerewolfpopup
+	BM swerewolfrefusal
+	BM swerewolfrestmessage
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+	TB steleportdisabled
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ADLBHBellTest)
+	SCPT(ADLBHChangeBHTimer)
+	SCPT(ADLBHCleanup)
+	SCPT(ADLBHDeathTimePassed)
+	SCPT(ADLBHDeathTimePassed2)
+	SCPT(ADLBHDemenieScript)
+	SCPT(ADLBHEnableJump)
+	SCPT(ADLBHGetDetected)
+	SCPT(ADLBHLocalVar)
+	SCPT(ADLBHMageCast)
+	SCPT(ADLBHMoveBH)
+	SCPT(ADLBHScript)
+	SCPT(ADLBHattackScript)
+	SCPT(BILL_MarksBHSummonBH)
+    [JUNKCEL] Junk Cells:                        Flags
+	Azura's Coast Region (23, 7)             0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    duel
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        ACTI    active_6th_bell_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    balan
+	morrowind.esm       NPC_    caius cosades
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage
+
+[DUP-INF]: ID=12105171323147159(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You've committed a crime, vampire. Were you not an abomination, I might let you live. Prepare to die!|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|SCVR:21600|INTV|BNAM:StartCombat Player  Goodbye
+
+[DUP-INF]: ID=327502899077143011(Topic:duel)
+  |DATA|ONAM:athyn sarethi|NAME:The duel is an honorable tradition dating back at least to the founding of Resdayn. Each party to the duel makes an agreement as to the compensation that will be given to the winner. The loser is legally bound to this agreement. Most duels are fought until one party admits defeat or falls in battle. The duel to the death is less common and only ends when one party is dead. The winner of a duel may take what he wants of the loser's possessions, but some consider this dishonorable.|BNAM:;NOTE maybe better to have Athyn and other informants give the player a book... Lots of info for 512 characters.
+
+[DUP-INF]: ID=1556426861203214287(Greeting:greeting 0)
+  |DATA|CNAM:Guard|DNAM:Morag Tong|NAME:You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Pay Gold.", 1, "Go to Jail.", 2, "Resist Arrest.", 3, "Present Writs", 4
+
+[DUP-INF]: ID=2768210666929210763(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 GetPCCrimeLevel  SetPCCrimeLevel 0  PayFine
+
+[MOD-INF]: ID=2894318065228305028(Greeting:greeting 1)
+  tribunal.esm------->|DATA|ONAM:Llandras Belaal|NAME:I am a Sleeper, one among thousands. I bring you a message. Dagoth Ur calls you, %PCName, and you cannot deny your Lord. The Sixth House is risen, and Dagoth is its glory.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0dagoth fovon|INTV:|SCVR:23sX0sleeperOn|INTV|SCVR:31630|INTV:|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10;   Journal "A1_SleepersAwake" 1
+  Bounty Hunters.ESP->|DATA|ONAM:Llandras Belaal|NAME:I am a Sleeper, one among thousands. I bring you a message. Dagoth Ur calls you, %PCName, and you cannot deny your Lord. The Sixth House is risen, and Dagoth is its glory.|SCVR:04JX3A1_V_VivecInformants|INTV: |SCVR:16DX0dagoth fovon|INTV:|SCVR:23sX0sleeperOn|INTV|SCVR:31630|INTV:|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10;   Journal "A1_SleepersAwake" 1
+
+[DUP-INF]: ID=17814103293101015617(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:Then pay with your blood, outlaw!|SCVR:01500|INTV|BNAM:;SetDisposition 0  ;commented out, should not fight here or set disp  ;SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=20172142971264027114(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:GotoJail  Goodbye
+
+[DUP-INF]: ID=27770303882968912309(Topic:duel)
+  |DATA|ONAM:Varus Vatinius|ANAM:Vivec, Arena Pit|NAME:I'm waiting, %PCName. Let's end this.|SCVR:34JX3IL_Grandmaster|INTV: 

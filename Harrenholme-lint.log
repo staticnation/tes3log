@@ -1,0 +1,111 @@
+Harrenholme.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(HarrenFireInvisoBox)
+	SCPT(HarrenFireplaceScript)
+	SCPT(HarrenNoteTrigger)
+	SCPT(HarrenPowderScript)
+	SCPT(Harren_Door_Entry)
+	SCPT(RemusHarrenScript)
+	SCPT(WoodAxe)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    booze
+	bloodmoon.esm       DIAL    dry fort
+	bloodmoon.esm       DIAL    mead
+	bloodmoon.esm       LAND    (-24, 15)
+	bloodmoon.esm       LAND    (-24, 16)
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=4929342116069897(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:I got nothing to say. Sure could use a drink, though. And not that Nord swill.|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:27XX0falx carius|INTV|BNAM:Goodbye
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:I got nothing to say. Sure could use a drink, though. And not that Nord swill.|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:27XX0falx carius|INTV|SCVR:37XX0Remus Gravitus|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=5785324155371234(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you want? Go see Captain Carius. He's in his chambers at the fort. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.|SCVR:04JX2BM_Rumors|INTV: |SCVR:14JX4BM_Rumors|INTV:d|SCVR:24JX4BM_Morale|INTV: |BNAM:Journal BM_Rumors 100  Goodbye
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you want? Go see Captain Carius. He's in his chambers at the fort. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.|SCVR:04JX2BM_Rumors|INTV: |SCVR:14JX4BM_Rumors|INTV:d|SCVR:24JX4BM_Morale|INTV: |SCVR:37XX0Remus Gravitus|INTV|BNAM:Journal BM_Rumors 100  Goodbye
+
+[MOD-INF]: ID=7709380342601831(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you want? Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.|SCVR:04JX4BM_Morale|INTV: |BNAM:Goodbye
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you want? Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.|SCVR:04JX4BM_Morale|INTV: |SCVR:17XX0Remus Gravitus|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=185683669264577191(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2potion_local_liquor_01|INTV:|SCVR:37XX0falx carius|INTV
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2potion_local_liquor_01|INTV:|SCVR:37XX0falx carius|INTV|SCVR:47XX0Remus Gravitus|INTV
+
+[MOD-INF]: ID=223511596874523027(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2Potion_Cyro_Whiskey_01|INTV:|SCVR:37XX0falx carius|INTV
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2Potion_Cyro_Whiskey_01|INTV:|SCVR:37XX0falx carius|INTV|SCVR:47XX0Remus Gravitus|INTV
+
+[MOD-INF]: ID=232673708231219126(Topic:dry fort)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:That's right...no liquor at all is allowed at Fort Frostmoth these days. Captain's orders, I guess. Seemed odd coming from him. Captain Carius seemed like a fair enough guy, as long as we carried out our duties. Guess he figured we weren't up to his standards, so he cut us off. Since then, everyone's been in a pretty foul mood.|SCVR:04JX4BM_Morale|INTV:(|SCVR:17XX0falx carius|INTV|BNAM:Journal BM_Morale 40
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:That's right...no liquor at all is allowed at Fort Frostmoth these days. Captain's orders, I guess. Seemed odd coming from him. Captain Carius seemed like a fair enough guy, as long as we carried out our duties. Guess he figured we weren't up to his standards, so he cut us off. Since then, everyone's been in a pretty foul mood.|SCVR:04JX4BM_Morale|INTV:(|SCVR:17XX0falx carius|INTV|SCVR:27XX0Remus Gravitus|INTV|BNAM:Journal BM_Morale 40
+
+[MOD-INF]: ID=531022249522514225(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2potion_cyro_brandy_01|INTV:|SCVR:37XX0falx carius|INTV
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2potion_cyro_brandy_01|INTV:|SCVR:37XX0falx carius|INTV|SCVR:47XX0Remus Gravitus|INTV
+
+[MOD-INF]: ID=723830667146951877(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2potion_comberry_wine_01|INTV:|SCVR:37XX0falx carius|INTV
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2potion_comberry_wine_01|INTV:|SCVR:37XX0falx carius|INTV|SCVR:47XX0Remus Gravitus|INTV
+
+[MOD-INF]: ID=883524943187015880(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2potion_comberry_brandy_01|INTV:|SCVR:37XX0falx carius|INTV
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2potion_comberry_brandy_01|INTV:|SCVR:37XX0falx carius|INTV|SCVR:47XX0Remus Gravitus|INTV
+
+[MOD-INF]: ID=972293672899614003(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What is it you want? I heard you might be able to get hold of some booze.|SCVR:04JX3BM_Morale|INTV|SCVR:17XX0falx carius|INTV|SCVR:24JX4BM_Morale|INTV:d|SCVR:33sX0gavebooze|INTV:
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What is it you want? I heard you might be able to get hold of some booze.|SCVR:04JX3BM_Morale|INTV|SCVR:17XX0falx carius|INTV|SCVR:24JX4BM_Morale|INTV:d|SCVR:33sX0gavebooze|INTV:|SCVR:47XX0Remus Gravitus|INTV
+
+[MOD-INF]: ID=1019284462359315447(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What is it you want? I heard you were asking around about this being a dry fort.|SCVR:04JX3BM_Morale|INTV|SCVR:17XX0falx carius|INTV|SCVR:23sX0gavebooze|INTV|SCVR:34JX5BM_Morale|INTV:2
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What is it you want? I heard you were asking around about this being a dry fort.|SCVR:04JX3BM_Morale|INTV|SCVR:17XX0falx carius|INTV|SCVR:23sX0gavebooze|INTV|SCVR:34JX5BM_Morale|INTV:2|SCVR:47XX0Remus Gravitus|INTV
+
+[MOD-INF]: ID=1742919251110211032(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you want? Go see Captain Carius. Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.|SCVR:04JX4BM_Morale|INTV: |SCVR:14JX0BM_Rumors|INTV:d|BNAM:Goodbye
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you want? Go see Captain Carius. Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.|SCVR:04JX4BM_Morale|INTV: |SCVR:14JX0BM_Rumors|INTV:d|SCVR:27XX0Remus Gravitus|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=1800221849192737729(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you need, friend?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV:d|SCVR:27XX0falx carius|INTV|SCVR:33sX0gavebooze|INTV
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you need, friend?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV:d|SCVR:27XX0falx carius|INTV|SCVR:33sX0gavebooze|INTV|SCVR:47XX0Remus Gravitus|INTV
+
+[DUP-INF]: ID=1864829124681731086(Topic:mead)
+  |DATA|ONAM:bm_bergljot|NAME:Mead ish the finesht drink on Solshteim! Finesht drink on Shkyrim too, for that matter! *burp!*
+
+[MOD-INF]: ID=2608826726101864575(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2Potion_Local_Brew_01|INTV:|SCVR:37XX0falx carius|INTV
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you w.... Hey, is that booze I smell on you?|SCVR:04JX3BM_Morale|INTV|SCVR:14JX4BM_Morale|INTV|SCVR:25IX2Potion_Local_Brew_01|INTV:|SCVR:37XX0falx carius|INTV|SCVR:47XX0Remus Gravitus|INTV
+
+[MOD-INF]: ID=14424134471853613220(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you want? Go see Captain Carius. He's in his chambers at the fort. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.|SCVR:04JX4BM_Morale|INTV: |SCVR:14JX4BM_Rumors|INTV:d|BNAM:Journal BM_Rumors 100  Goodbye
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What do you want? Go see Captain Carius. He's in his chambers at the fort. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.|SCVR:04JX4BM_Morale|INTV: |SCVR:14JX4BM_Rumors|INTV:d|SCVR:27XX0Remus Gravitus|INTV:|BNAM:Journal BM_Rumors 100  Goodbye
+
+[DUP-INF]: ID=14607226441191520409(Topic:mead)
+  |DATA|ANAM:Fort Frostmoth|NAME:Some kind of sweet Nord drink. Terrible stuff. You won't catch many of the soldiers at this fort asking for it.
+
+[DUP-INF]: ID=19082137452685917367(Topic:booze)
+  |DATA|ONAM:falx carius|NAME:I'm not a drinker myself.
+
+[MOD-INF]: ID=29365221612949917004(Greeting:greeting 1)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What is it you want? I heard you were asking around about this being a dry fort.|SCVR:04JX0BM_Morale|INTV:2|SCVR:17XX0falx carius|INTV
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:What is it you want? I heard you were asking around about this being a dry fort.|SCVR:04JX0BM_Morale|INTV:2|SCVR:17XX0falx carius|INTV|SCVR:27XX0Remus Gravitus|INTV
+
+[MOD-INF]: ID=32333211692661618893(Topic:dry fort)
+  bloodmoon.esm--->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:Looks like that all got cleared up. I didn't think Captain Carius was such a bad guy. I mean, he's the only one who actually seems to enjoy living on this island.|SCVR:04JX3BM_Morale|INTV:d
+  Harrenholme.ESP->|DATA|CNAM:Guard|ANAM:Fort Frostmoth|NAME:Looks like that all got cleared up. I didn't think Captain Carius was such a bad guy. I mean, he's the only one who actually seems to enjoy living on this island.|SCVR:04JX3BM_Morale|INTV:d|SCVR:17XX0Remus Gravitus|INTV:

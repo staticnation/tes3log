@@ -1,0 +1,27 @@
+SV - Justice In Seyda Neen.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(SV_JIST_TERU_CHEST)
+	SCPT(SV_JIST_TERU_DOOR)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       PGRD    seyda neen
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       DIAL    ring
+	morrowind.esm       LAND    (-2, -9)
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       NPC_    fargoth
+	morrowind.esm       NPC_    hrisskar flat-foot
+	morrowind.esm       NPC_    teruise girvayne
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    rm_grayrock
+
+[MOD-INF]: ID=3245423813243151497(Topic:ring)
+  morrowind.esm------------------>|DATA|ONAM:fargoth|NAME:You found it! Amazing! Thank you, thank you! You are now my favorite friend. I'll be sure to tell the others, especially my friend Arrille who runs the tradehouse here. Go see him, he'll be happy to see you now!|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|BNAM:Journal MS_FargothRing 100  additem "ring_keley" 1  player->removeitem "ring_keley" 1  set state to -1  moddisposition 50  "arrille"->moddisposition 40
+  SV - Justice In Seyda Neen.ESP->|DATA|ONAM:fargoth|NAME:You found it! Amazing! Thank you, thank you! You are now my favorite friend. I'll be sure to tell the others, especially my friend Arrille who runs the tradehouse here. Go see him, he'll be happy to see you now!    Since you returned my ring perhaps you'd be interested in performing another small act of justice?|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|BNAM:Journal MS_FargothRing 100  additem "ring_keley" 1  player->removeitem "ring_keley" 1  set state to -1  moddisposition 50  "arrille"->moddisposition 40

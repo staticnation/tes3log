@@ -1,0 +1,102 @@
+tw_drathan_hall.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	tw_cloud_storage.esm          747527 (plugin)     742844 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DaNurSlaveScript)
+	SCPT(DrathenCellar)
+	SCPT(DrathenDoor)
+	SCPT(ss_DummyScript)
+	SCPT(ss_ManorQuest)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       INGR    ingred_bread_01
+	morrowind.esm       ALCH    p_vintagecomberrybrandy1
+	morrowind.esm       ALCH    potion_cyro_brandy_01
+	morrowind.esm       ALCH    potion_cyro_whiskey_01
+	morrowind.esm       ALCH    potion_skooma_01
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       DIAL    twin lamps
+	morrowind.esm       LAND    (9, -11)
+	morrowind.esm       LIGH    light_de_lantern_10_128
+	morrowind.esm       LIGH    light_de_streetlight_01
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       MISC    misc_com_metal_goblet_02
+	morrowind.esm       MISC    misc_com_metal_plate_07
+	morrowind.esm       NPC_    nelix fly-breath
+	morrowind.esm       NPC_    ulms drathen
+	morrowind.esm       NPC_    yanniss
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        MISC    misc_com_bottle_13
+	tw_cloud_storage.esm    ACTI    displaycase_top2
+	tw_cloud_storage.esm    NPC_    stone mannequin_1
+	tw_cloud_storage.esm    NPC_    stone mannequin_10
+	tw_cloud_storage.esm    NPC_    stone mannequin_11
+	tw_cloud_storage.esm    NPC_    stone mannequin_12
+	tw_cloud_storage.esm    NPC_    stone mannequin_2
+	tw_cloud_storage.esm    NPC_    stone mannequin_3
+	tw_cloud_storage.esm    NPC_    stone mannequin_4
+	tw_cloud_storage.esm    NPC_    stone mannequin_5
+	tw_cloud_storage.esm    NPC_    stone mannequin_6
+	tw_cloud_storage.esm    NPC_    stone mannequin_7
+	tw_cloud_storage.esm    NPC_    stone mannequin_8
+	tw_cloud_storage.esm    NPC_    stone mannequin_9
+	tw_cloud_storage.esm    STAT    displaycase_2
+
+[DUP-INF]: ID=199641425381905494(Topic:go free)
+  |DATA|ONAM:eleedal_lei|NAME:Yes, I will free the others. Soon we will return to Black Marsh.|SCVR:34JX3HT_SlaveRebellion|INTV:2
+
+[MOD-INF]: ID=207161686461973555(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|FNAM:Temple|ANAM:Ald Daedroth|NAME:What do you want?|BNAM:;10 Elite Ordinators
+  tw_drathan_hall.esp->|DATA|FNAM:Temple|ANAM:Ald Daedroth|NAME:What do you want? 8|BNAM:;10 Elite Ordinators
+
+[MOD-INF]: ID=307761442028033143(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:Hloggar the Bloody|NAME:What do you want?|SCVR:04JX3TR08_Hlaalu|INTV:F
+  tw_drathan_hall.esp->|DATA|ONAM:Hloggar the Bloody|NAME:What do you want? 4|SCVR:04JX3TR08_Hlaalu|INTV:F
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=520421455239399130(Topic:go free)
+  |DATA|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[MOD-INF]: ID=1324825270933028237(Greeting:greeting 1)
+  bloodmoon.esm------->|DATA|ONAM:antonius nuncius|NAME:What do you want?|SCVR:04JX3BM_Morale|INTV:F
+  tw_drathan_hall.esp->|DATA|ONAM:antonius nuncius|NAME:What do you want? 1|SCVR:04JX3BM_Morale|INTV:F
+
+[DUP-INF]: ID=1584724829308727856(Topic:slavery)
+  |DATA|ONAM:galyn arvel|NAME:Continue your work to end slavery here in Morrowind.|SCVR:34JX3HH_TwinLamps1|INTV:d
+
+[MOD-INF]: ID=1664768421354719114(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:bakh gro-sham|NAME:What do you want?
+  tw_drathan_hall.esp->|DATA|ONAM:bakh gro-sham|NAME:What do you want? 2
+
+[MOD-INF]: ID=1672221471134131626(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:bethes sarothril|NAME:What do you want?|BNAM:;10 Elite Ordinators
+  tw_drathan_hall.esp->|DATA|ONAM:bethes sarothril|NAME:What do you want? 6|BNAM:;10 Elite Ordinators
+
+[MOD-INF]: ID=3064322097112191275(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:fedris hler|NAME:What do you want?|SCVR:04JX3TR_SothaSil|INTV:d
+  tw_drathan_hall.esp->|DATA|ONAM:fedris hler|NAME:What do you want? 3|SCVR:04JX3TR_SothaSil|INTV:d
+
+[DUP-INF]: ID=3103267973128916632(Topic:twin lamps)
+  |DATA|ONAM:galyn arvel|NAME:So, you know the Twin Lamps. We could use your aid in our struggle against slavery.|SCVR:34JX3HH_TwinLamps1|INTV
+
+[DUP-INF]: ID=10924273023043113826(Topic:my trade)
+  |DATA|ONAM:erich the unworthy|NAME:I'm a lover and a killer. What more is there in life?
+
+[MOD-INF]: ID=18957246652271928795(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:drores arvel|NAME:What do you want?|BNAM:;10 Elite Ordinators
+  tw_drathan_hall.esp->|DATA|ONAM:drores arvel|NAME:What do you want? 7|BNAM:;10 Elite Ordinators
+
+[DUP-INF]: ID=20269221682313710349(Topic:go free)
+  |DATA|CNAM:Slave|ANAM:Dren Plantation|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

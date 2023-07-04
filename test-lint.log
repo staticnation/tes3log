@@ -1,0 +1,18 @@
+test.esp: AUTOSPL DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	test_spellmaking               Test Spellmaking
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(test_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    alarm
+	morrowind.esm       GMST    faifleefleemult
+	morrowind.esm       GMST    i1stpersonsneakdelta
+	morrowind.esm       GMST    sdefaultcellname
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       MGEF    59
+	morrowind.esm       SKIL    20
+
+[MOD-INF]: ID=78102235536611098(Voice:alarm)
+  morrowind.esm->|DATA|ONAM:yagrum bagarn|SNAM:Vo\Misc\Yagrum_2.mp3|NAME:Noooo!
+  test.esp------>|DATA|ONAM:yagrum bagarn|SNAM:Vo\Misc\Yagrum_2.mp3|NAME:Noooo!

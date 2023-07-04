@@ -1,0 +1,35 @@
+Ashfall Jobs Patch 2.ESP: DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Better Mining.esm              25416 (plugin)      35898 (installed size)
+	Jobs.esm                     1434984 (plugin)    1782362 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JOBFishingSell)
+	SCPT(JOBWoodChoppingScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	jobs.esm            DIAL    chop wood job
+	morrowind.esm       DIAL    slaughterfish
+
+[MOD-INF]: ID=24073987550518926(Topic:chop wood job)
+  jobs.esm----------------->|DATA|NAME:You are now a wood chopper. Just go to the Wood Chopping Block anytime and chop some wood up and give it to me. You will get paid 5 drakes per 20 logs. And every promotion you get your pay will increase by 5 drakes. Here is a Woodcutter's Axe. Do not loose it since I will not be giving you another one.|SCVR:01500|INTV|BNAM:PCJoinFaction, JOBWoodCutterThirskFaction  player->additem JOBWoodcuttersAxe 1
+  Ashfall Jobs Patch 2.ESP->|DATA|NAME:You are now a wood chopper. Just go to the Wood Chopping Block anytime and chop some wood up, or gather firewood in the wild, and bring it to me. You will get paid 5 drakes per 20 logs. And every promotion you get your pay will increase by 5 drakes. You'll need a Wood Axe, I'm sure you can find one easily at a trader.|SCVR:01500|INTV|BNAM:PCJoinFaction, JOBWoodCutterThirskFaction
+
+[MOD-INF]: ID=579620529599810366(Topic:chop wood job)
+  jobs.esm----------------->|DATA|ONAM|JOBChopWoodSVBoss|NAME:You are now a wood chopper. Just go to the Wood Chopping Block anytime and chop some wood up and give it to me. You will get paid 5 drakes per 20 logs. And every promotion you get your pay will increase by 5 drakes. Here is a Woodcutter's Axe. Do not loose it since I will not be giving you another one.|SCVR:01500|INTV|BNAM:PCJoinFaction, JOBWoodCutterSkaalFaction  player->additem JOBWoodcuttersAxe 1
+  Ashfall Jobs Patch 2.ESP->|DATA|ONAM|JOBChopWoodSVBoss|NAME:You are now a wood chopper. Just go to the Wood Chopping Block anytime and chop some wood up, or gather firewood in the wild, and bring it to me. You will get paid 5 drakes per 20 logs. And every promotion you get your pay will increase by 5 drakes. You'll need a Wood Axe, I'm sure you can find one easily at a trader.|SCVR:01500|INTV|BNAM:PCJoinFaction, JOBWoodCutterSkaalFaction
+
+[MOD-INF]: ID=2851013125202587443(Topic:chop wood job)
+  jobs.esm----------------->|DATA|ONAM|JOBChopWoodSVBoss|NAME:Here is your pay for the firewood.|SCVR:01500|INTV|SCVR:15IX3JOBFirewoodJ|OBIN|BNAM:startscript JOBWoodChoppingSkaalPay  player->additem gold_001 JOBChopWoodSkaalPay  player->removeitem JOBFirewoodJOB 20
+  Ashfall Jobs Patch 2.ESP->|DATA|ONAM|JOBChopWoodSVBoss|NAME:Here is your pay for the firewood.|SCVR:01500|INTV|SCVR:15IX3ashfall_firewood|INTV|BNAM:startscript JOBWoodChoppingSkaalPay  player->additem gold_001 JOBChopWoodSkaalPay  player->removeitem ashfall_firewood 20
+
+[MOD-INF]: ID=2914283583261720688(Topic:chop wood job)
+  jobs.esm----------------->|DATA|NAME:You are now a wood chopper. Just go to the Wood Chopping Block anytime and chop some wood up and give it to me. You will get paid 5 drakes per 20 logs. And every promotion you get your pay will increase by 5 drakes. Here is a Woodcutter's Axe. Do not loose it since I will not be giving you another one.|SCVR:01500|INTV|BNAM:PCJoinFaction, JOBWoodCutterFaction  player->additem JOBWoodcuttersAxe 1
+  Ashfall Jobs Patch 2.ESP->|DATA|NAME:You are now a wood chopper. Just go to the Wood Chopping Block anytime and chop some wood up, or gather firewood in the wild, and bring it to me. You will get paid 5 drakes per 20 logs. And every promotion you get your pay will increase by 5 drakes. You'll need a Wood Axe, I'm sure you can find one easily at a trader.|SCVR:01500|INTV|BNAM:PCJoinFaction, JOBWoodCutterFaction
+
+[MOD-INF]: ID=2925018895222824074(Topic:chop wood job)
+  jobs.esm----------------->|DATA|NAME:Here is your pay for the firewood.|SCVR:01500|INTV|SCVR:15IX3JOBFirewoodJ|OBIN|BNAM:startscript JOBWoodChoppingPay  player->additem gold_001 JOBChopWoodPay  player->removeitem JOBFirewoodJOB 20
+  Ashfall Jobs Patch 2.ESP->|DATA|NAME:Here is your pay for the firewood.|SCVR:01500|INTV|SCVR:15IX3ashfall_firewood|INTV|BNAM:startscript JOBWoodChoppingPay  player->additem gold_001 JOBChopWoodPay  player->removeitem ashfall_firewood 20
+
+[MOD-INF]: ID=15416144841505311465(Topic:chop wood job)
+  jobs.esm----------------->|DATA|NAME:Here is your pay for the firewood.|SCVR:01500|INTV|SCVR:15IX3JOBFirewoodJ|OBIN|BNAM:startscript JOBWoodChoppingThirskPay  player->additem gold_001 JOBChopWoodThirskPay  player->removeitem JOBFirewoodJOB 20
+  Ashfall Jobs Patch 2.ESP->|DATA|NAME:Here is your pay for the firewood.|SCVR:01500|INTV|SCVR:15IX3ashfall_firewood|INTV|BNAM:startscript JOBWoodChoppingThirskPay  player->additem gold_001 JOBChopWoodThirskPay  player->removeitem ashfall_firewood 20

@@ -1,0 +1,31 @@
+GetSharp.esp: DUP-REC JUNKCEL MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tribunal.esm                 4565578 (plugin)    4565686 (installed size)
+	Bloodmoon.esm                9631217 (plugin)    9631798 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(GS_FirePit)
+	SCPT(RM_GrinderAnim)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (-1, -7)           0x02
+	Ascadian Isles Region (-1, -8)           0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       REPA    hammer_repair
+	morrowind.esm       ACTI    active_chimney_smoke02
+	morrowind.esm       STAT    furn_web10
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (0, -7)
+	morrowind.esm       LAND    (0, -8)
+	morrowind.esm       PGRD    buckmoth legion fort
+	morrowind.esm       PGRD    pelagiad
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga

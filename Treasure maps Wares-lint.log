@@ -1,0 +1,20 @@
+Treasure maps Wares.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Wares-base.esm                151530 (plugin)      82499 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(TM_map_s_script)
+	SCPT(TM_map_script)
+	SCPT(TM_map_trader_script)
+	SCPT(TM_pick_spot_script)
+	SCPT(TM_treasure_chest_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    greeting 6
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=23042042403711932(Greeting:greeting 5)
+  morrowind.esm----------->|DATA|ONAM:ra'virr|NAME:Ra'Virr knows why you are here. You want to buy Ra'Virr's famous Daedric weapons.
+  Treasure maps Wares.esp->|DATA|ONAM:ra'virr|NAME:Ra'Virr knows why you are here. You want to buy Ra'Virr's famous Daedric weapons.|SCVR:02sX2Random100|INTV:2
+
+[DUP-INF]: ID=210147641289913738(Greeting:greeting 6)
+  |DATA|ONAM:tralas rendas|NAME:You have completed the Pilgrimage to the Shine of Maar Gan.|SCVR:34JX3TT_MaarGan|INTV:<

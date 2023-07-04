@@ -1,0 +1,74 @@
+abotWhereAreAllBirdsGoing.esp: DUP-REC EXP-DEP GETSND MENUMOD MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Startup Script: ab01algmainscript
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(ab01alSonarScript)              getwaterlevel
+	SCPT(ab01alSonarScript)              setdelete
+	SCPT(ab01alSonarScript)              setscale
+	SCPT(ab01algMainScript)              getwaterlevel
+	SCPT(ab01algMainScript)              placeitem
+	SCPT(ab01bat01Script)                getscale
+	SCPT(ab01bat01Script)                getwaterlevel
+	SCPT(ab01bat01Script)                setdelete
+	SCPT(ab01bat01Script)                setscale
+	SCPT(ab01bat02Script)                getscale
+	SCPT(ab01bat02Script)                getwaterlevel
+	SCPT(ab01bat02Script)                setdelete
+	SCPT(ab01bat02Script)                setscale
+	SCPT(ab01bee01Script)                getscale
+	SCPT(ab01bee01Script)                getwaterlevel
+	SCPT(ab01bee01Script)                setdelete
+	SCPT(ab01bee01Script)                setscale
+	SCPT(ab01bird01Script)               getscale
+	SCPT(ab01bird01Script)               getwaterlevel
+	SCPT(ab01bird01Script)               setdelete
+	SCPT(ab01bird01Script)               setscale
+	SCPT(ab01bird02Script)               getscale
+	SCPT(ab01bird02Script)               getwaterlevel
+	SCPT(ab01bird02Script)               setdelete
+	SCPT(ab01bird02Script)               setscale
+	SCPT(ab01bird03Script)               getscale
+	SCPT(ab01bird03Script)               getwaterlevel
+	SCPT(ab01bird03Script)               setdelete
+	SCPT(ab01bird03Script)               setscale
+	SCPT(ab01bird04Script)               getscale
+	SCPT(ab01bird04Script)               getwaterlevel
+	SCPT(ab01bird04Script)               setdelete
+	SCPT(ab01bird04Script)               setscale
+	SCPT(ab01bird05Script)               getscale
+	SCPT(ab01bird05Script)               getwaterlevel
+	SCPT(ab01bird05Script)               setdelete
+	SCPT(ab01bird05Script)               setscale
+	SCPT(ab01bird07Script)               getscale
+	SCPT(ab01bird07Script)               getwaterlevel
+	SCPT(ab01bird07Script)               setdelete
+	SCPT(ab01bird07Script)               setscale
+	SCPT(ab01bird10Script)               getscale
+	SCPT(ab01bird10Script)               getwaterlevel
+	SCPT(ab01bird10Script)               placeitem
+	SCPT(ab01bird10Script)               setdelete
+	SCPT(ab01bird10Script)               setscale
+	SCPT(ab01butterfly01Script)          getscale
+	SCPT(ab01butterfly01Script)          getwaterlevel
+	SCPT(ab01butterfly01Script)          setdelete
+	SCPT(ab01butterfly01Script)          setscale
+	SCPT(ab01firefly01Script)            getscale
+	SCPT(ab01firefly01Script)            getwaterlevel
+	SCPT(ab01firefly01Script)            setdelete
+	SCPT(ab01firefly01Script)            setscale
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(ab01bat01Script)
+	SCPT(ab01bat02Script)
+	SCPT(ab01bird01Script)
+	SCPT(ab01bird02Script)
+	SCPT(ab01bird03Script)
+	SCPT(ab01bird04Script)
+	SCPT(ab01bird05Script)
+	SCPT(ab01bird07Script)
+	SCPT(ab01bird10Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01_skipFrameScript)
+	SCPT(ab01alDebugScript)
+	SCPT(ab01alSonarScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    hit

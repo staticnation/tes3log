@@ -1,0 +1,27 @@
+JMK-Northern_Island.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKNoIsAzuraStat)
+	SCPT(JMKNoIsBoethStat)
+	SCPT(JMKNoIsDagonStat)
+	SCPT(JMKNoIsMalacStat)
+	SCPT(JMKNoIsMolagStat)
+	SCPT(JMKNoIsOggSelf)
+	SCPT(JMKNoIsSheoStat)
+	SCPT(JMKNoIs_Eskort)
+	SCPT(JMKNoIs_Hooka)
+	SCPT(MelbrethRevng)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LTEX    sand
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	morrowind.esm       LTEX    wg_cobblestones
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=16189125972792115582(Greeting:greeting 5)
+  |DATA|ONAM:hrisskar flat-foot|NAME:You look like you could use a friend, outlander. Perhaps I can be your friend. I'd like you to help me recover some gold.|SCVR:06DX0fargoth|INTV:|SCVR:14JX0MS_Lookout|INTV:
+
+[DUP-INF]: ID=17393214661126032276(Greeting:greeting 5)
+  |DATA|ONAM:fargoth|NAME:What do you want? Don't bother trying to rob me. The Imperials have taken everything anyway.|SCVR:04JX0MS_Lookout|INTV:d

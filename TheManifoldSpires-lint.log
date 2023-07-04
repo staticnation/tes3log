@@ -1,0 +1,28 @@
+TheManifoldSpires.esp: DUP-REC FOGBUG MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	The Manifold Spires, Caverns of Prime
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DK_SpiresBoatTeleport)
+	SCPT(dk_DreughSorcerer_s)
+	SCPT(dk_IlemVaren_s)
+	SCPT(dk_SpiresPotion_remove)
+	SCPT(dk_SpiresPotion_s)
+	SCPT(dk_SpiresRecall)
+	SCPT(dk_SpiresRecall_remove)
+	SCPT(dk_WaterMarker_s)
+	SCPT(dk_land_dreugh_s)
+	SCPT(dk_manifold_door1)
+	SCPT(dk_manifold_door2)
+	SCPT(dk_ordinator_alive)
+	SCPT(dk_ordinator_dead)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    work
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors

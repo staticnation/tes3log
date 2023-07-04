@@ -1,0 +1,22 @@
+The Magic Rings.esp: DUP-INF DUP-REC EXP-DEP MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (153) != Actual count (81)
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(IM_Add_Rings)                   addtolevitem
+	SCPT(IM_Imp_Script)                  setdelete
+	SCPT(IM_Imps_Delete)                 removefromlevcreature
+	SCPT(IM_Imps_Restore)                addtolevcreature
+	SCPT(IM_blue_ring_script)            removefromlevitem
+	SCPT(IM_green_ring_script)           removefromlevitem
+	SCPT(IM_red_ring_script)             removefromlevitem
+	SCPT(IM_yellow_ring_script)          removefromlevitem
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(IM_Add_Rings)
+	SCPT(IM_Imp_Script)
+	SCPT(IM_Imps_Delete)
+	SCPT(IM_Imps_Restore)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=514372802773428874(Greeting:greeting 5)
+  |DATA|ONAM:ajira|NAME:What brings you to Ajira's shop? Do you want to try the local brews? Need something to help in a fight? Some Telvanni bug musk to bring you a mate? Or a way to get to those high places where your hands cannot reach?|SCVR:01390|INTV:

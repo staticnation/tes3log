@@ -1,0 +1,42 @@
+Fligg's Slave Mod - Loyalty.esp: DUP-INF DUP-REC GETSND MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Morrowind.esm               79594962 (plugin)   79837557 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(slaveScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(fs_compLevel)
+	SCPT(fs_skill_check)
+	SCPT(fsl_OptionsScriptMenu)
+	SCPT(slaveScriptFunction)
+	SCPT(slaveScriptFunctionTame)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    go free
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=5161469619064654(Topic:go free)
+  morrowind.esm------------------->|DATA|CNAM:Slave|NAME:You must find the key to these bracers before I can be freed.|SCVR:03sX3slaveStatus|INTV:
+  Fligg's Slave Mod - Loyalty.esp->|DATA|CNAM:Slave|NAME:You must find the key to these bracers before I can be freed.|SCVR:03sX1slaveStatus|INTV|SCVR:13sX1slaveStatus|INTV
+
+[MOD-INF]: ID=57342934926223481(Topic:go free)
+  morrowind.esm------------------->|DATA|CNAM:Slave|NAME:Yes, now I am free. Thank you, %PCName.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50
+  Fligg's Slave Mod - Loyalty.esp->|DATA|CNAM:Slave|NAME:Yes, now I am free. Thank you, %PCName.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to ( FreedSlavesCounter + 1 )  ModDisposition 50
+
+[DUP-INF]: ID=528821354439017180(Greeting:greeting 1)
+  |DATA|RNAM:Khajiit|CNAM:Slave|NAME:What can %Name do for you?|SCVR:03sX0slaveStatus|INTV|BNAM:;OWNED slaves should not react to disease, etc. If there are things slaves can do, add links to dialogue here
+
+[MOD-INF]: ID=939528842654827543(Topic:go free)
+  morrowind.esm------------------->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:%Name cannot be freed without the key.|SCVR:03sX3slaveStatus|INTV:
+  Fligg's Slave Mod - Loyalty.esp->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:%Name cannot be freed without the key.|SCVR:03sX1slaveStatus|INTV|SCVR:13sX1slaveStatus|INTV
+
+[MOD-INF]: ID=1733844432470019051(Greeting:greeting 1)
+  tribunal.esm-------------------->|DATA|CNAM:Slave|NAME:What can I do for you, master?|SCVR:03sX0slaveStatus|INTV|BNAM:;OWNED slaves should not react to disease, etc. If there are things slaves can do, add links to dialogue here
+  Fligg's Slave Mod - Loyalty.esp->|DATA|CNAM:Slave|NAME:What can I do for you, friend?|SCVR:03sX0slaveStatus|INTV
+
+[MOD-INF]: ID=2112269131757221074(Topic:go free)
+  morrowind.esm------------------->|DATA|ONAM:dahleena|NAME:Yes, %Name is free! You are a good friend of %Name. Dahleena leaves when the moons are right.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50  Journal HR_CalderaDisrupt 50
+  Fligg's Slave Mod - Loyalty.esp->|DATA|ONAM:dahleena|NAME:Yes, %Name is free! You are a good friend of %Name. Dahleena leaves when the moons are right.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to ( FreedSlavesCounter + 1 )  ModDisposition 50  Journal HR_CalderaDisrupt 50
+
+[MOD-INF]: ID=2615847683142510678(Topic:go free)
+  morrowind.esm------------------->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:Yes, %Name is free! You are a good friend of %Name.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50
+  Fligg's Slave Mod - Loyalty.esp->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:Yes, %Name is free! You are a good friend of %Name.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to ( FreedSlavesCounter + 1 )  ModDisposition 50

@@ -1,0 +1,26 @@
+sb_remiros.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(sb_flash_death_vfx)
+	SCPT(sb_flashdeath)
+	SCPT(sb_herbert_Warp)
+	SCPT(sb_herman_Warp)
+	SCPT(sb_remiros_Warp)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    kollop_01_pearl
+	morrowind.esm       STAT    in_mud_rock_04
+	morrowind.esm       STAT    in_mud_rock_06
+	morrowind.esm       STAT    in_mud_rock_07
+	morrowind.esm       STAT    in_mud_rock_09
+	morrowind.esm       STAT    in_mud_rock_28
+	morrowind.esm       STAT    in_mudcave_11
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       FACT    east empire company
+	morrowind.esm       FACT    redoran
+	morrowind.esm       FACT    talos cult
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    services
+
+[DUP-INF]: ID=21101133601380211667(Greeting:greeting 5)
+  |DATA|ONAM:general darius|NAME:Report on the land deed.|SCVR:04JX2IL_WidowLand|INTV:|SCVR:14JX4IL_WidowLand|INTV:d

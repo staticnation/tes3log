@@ -1,0 +1,319 @@
+Sixth House.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(6thChalice)
+	SCPT(6thRecruitScript)
+	SCPT(6thShrine)
+	SCPT(6thTransportAmulet)
+	SCPT(6thWarBanner)
+	SCPT(ArmigerScript)
+	SCPT(Book_6thmusic)
+	SCPT(Book_flesh)
+	SCPT(Book_flutewarning)
+	SCPT(DreamerServant)
+	SCPT(EbonheartSiege)
+	SCPT(EndusalArmigers)
+	SCPT(FluteOfAgony)
+	SCPT(GhostfenceScript)
+	SCPT(HlevulScript)
+	SCPT(OrdinatorAttack)
+	SCPT(SixthHouseCheck)
+	SCPT(SixthHouseExpell)
+	SCPT(Strong_Build1_S)
+	SCPT(Strong_Build2_S)
+	SCPT(Strong_Build3_S)
+	SCPT(Strong_Build_Start_S)
+	SCPT(VelfredKill)
+	SCPT(WingsScript)
+	SCPT(ashStatueCthulu)
+	SCPT(bookWarehouseLog)
+	SCPT(corprusbeastScript)
+	SCPT(disableArmigers)
+	SCPT(disableOrdinators)
+	SCPT(disableSixthArmy)
+	SCPT(divaythScript)
+	SCPT(shrineGnisisRealMask)
+	SCPT(vedamDrenScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       BOOK    bk_warehouse_log
+	morrowind.esm       CREA    corprus_lame_fyr01
+	morrowind.esm       CREA    corprus_lame_fyr02
+	morrowind.esm       CREA    corprus_lame_fyr03
+	morrowind.esm       CREA    corprus_lame_fyr04
+	morrowind.esm       CREA    corprus_stalker_fyr01
+	morrowind.esm       CREA    corprus_stalker_fyr02
+	morrowind.esm       CREA    corprus_stalker_fyr03
+	morrowind.esm       CREA    dagoth uvil
+	morrowind.esm       CREA    dagoth_hlevul
+	morrowind.esm       DIAL    ash statue
+	morrowind.esm       DIAL    caius cosades
+	morrowind.esm       DIAL    corprus
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    divayth fyr
+	morrowind.esm       DIAL    imperial
+	morrowind.esm       DIAL    join house hlaalu
+	morrowind.esm       DIAL    join house redoran
+	morrowind.esm       DIAL    join house telvanni
+	morrowind.esm       DIAL    join the imperial cult
+	morrowind.esm       DIAL    join the temple
+	morrowind.esm       DIAL    kogoruhn
+	morrowind.esm       DIAL    nerevar
+	morrowind.esm       DIAL    scamp skin
+	morrowind.esm       DIAL    sixth house
+	morrowind.esm       DIAL    sixth house servants
+	morrowind.esm       DIAL    stronghold
+	morrowind.esm       DIAL    temple
+	morrowind.esm       ENCH    corprus_amulet
+	morrowind.esm       FACT    sixth house
+	morrowind.esm       LAND    (3, 6)
+	morrowind.esm       LAND    (4, 6)
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       NPC_    bolayn rethan
+	morrowind.esm       NPC_    divayth fyr
+	morrowind.esm       NPC_    mathesa helvi
+	morrowind.esm       NPC_    merta
+	morrowind.esm       NPC_    velfred
+	morrowind.esm       WEAP    axe_queen_of_bats_unique
+	tribunal.esm        DIAL    a1_1_findspymaster
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=9981690360118614(Topic:ash statue)
+  |DATA|ONAM:velfred|NAME:You weren't supposed to see 'em, %PCRace. I can't let you out of here if you've seen 'em.|SCVR:05IX0misc_6th_ash_statue_01|INTV:|BNAM:SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=10737815943294447(Greeting:greeting 1)
+  |DATA|NAME:The blight is gone, and we have survived. Now we must dedicate ourselves to rebuilding the Temple. And you must dedicate yourself to your responsibilities as Protector of Morrowind.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:;Vivec; Journal "C3_DestroyDagoth" >= 50
+
+[DUP-INF]: ID=23291351271929511(Topic:caius cosades)
+  |DATA|ONAM:chargen captain|NAME:Report to Caius Cosades in Balmora. I can't tell you where to find him, but you are to go to the South Wall Cornerclub and ask for him. Someone there can direct you to him.
+
+[DUP-INF]: ID=30722440423230439(Persuasion:service refusal)
+  |DATA|RNAM:Wood Elf|FNAM:Temple|NAME:No, I'm afraid not, %PCName. My premium services are one of the sweet privileges of rank for the %Faction members.|SCVR:01460|INTV|SCVR:11474|INTV|BNAM:;Wood Elf ;SameFaction = 1; Faction Rank Difference >= -4
+
+[DUP-INF]: ID=35532057162868574(Topic:imperial)
+  |DATA|ONAM:chargen captain|NAME:I'm proud to be an Imperial. Through our legions and rule of law, we've brought peace and civilization to the provinces of Tamriel.
+
+[DUP-INF]: ID=62371108813909003(Greeting:greeting 1)
+  |DATA|ONAM:dagoth araynys|NAME:You've done well to come this far. I don't think we have anything to talk about, do we? Then let's get on with it.|SCVR:01630|INTV:|BNAM:;Dagoth Araynys [thief-mage]
+
+[MOD-INF]: ID=68113966345218324(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Vivyne Andrano|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Vivyne Andrano|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[MOD-INF]: ID=116572641368520747(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Relur Faryon|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Relur Faryon|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[MOD-INF]: ID=125621501304318718(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Llandras Belaal|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Llandras Belaal|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[DUP-INF]: ID=134537321246894897(Greeting:greeting 1)
+  |DATA|ONAM:ash_zombie|NAME|WHERE ARE YOU, LORD? We cannot hear you.... SPEAK to us! PLEASE!|SCVR:01630|INTV:|BNAM:;ash zombie [ash zombie 8]
+
+[DUP-INF]: ID=166552843338625147(Greeting:greeting 1)
+  |DATA|NAME:You have come uninvited. I have nothing to say to you.|BNAM:;Vivec  Goodbye
+
+[MOD-INF]: ID=183375131166112732(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Dravasa Andrethi|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Dravasa Andrethi|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[DUP-INF]: ID=216375932184395846(Topic:stronghold)
+  |DATA|ONAM:galsa gindu|NAME:You are no longer a member of House Redoran. If you can make amends, do so. Then we can speak of your stronghold.|SCVR:01390|INTV
+
+[DUP-INF]: ID=259773258536220260(Topic:join the temple)
+  |DATA|FNAM:Temple|NAME:The Temple understands the failings in all of us. But your will to repent is admirable. You are now %PCName, the %PCRank. Do not forget the four again.|SCVR:01500|INTV|BNAM:PCClearExpelled
+
+[DUP-INF]: ID=264492841261269880(Topic:advancement)
+  |DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:Congratulations, %PCName, you have earned the rank of %NextPCRank in House Redoran.|SCVR:01020|INTV|BNAM:PCRaiseRank "Redoran"
+
+[MOD-INF]: ID=273715018495026709(Greeting:greeting 1)
+  tribunal.esm---->|DATA|ONAM:divayth fyr|NAME:You have killed someone dear to me. It is a mistake you will not live to regret.|SCVR:06DX0yagrum bagarn|INTV|BNAM:;Divayth Fyr; Journal "A2-3_CorprusCure" = 32  StartCombat Player  ModDisposition -80  SetFight 100  Goodbye
+  Sixth House.esp->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:%PCName! You were the one who attacked the city of Ebonheart! You should have known that such deeds would get you expelled from the Imperial Legion. Get out of my sight!|SCVR:04JX3SH_EbonAssault|INTV:d|BNAM:ModDisposition -20  PCExpell "Imperial Legion"  Goodbye
+
+[DUP-INF]: ID=370823057508312336(Greeting:greeting 1)
+  |DATA|NAME:The chairs. The tables. All confused. We hear the words, and must speak them. We take them, and arrange them, but still, they will not be quiet.|SCVR:01630|INTV:|BNAM:;ash slave [ash slave 5]
+
+[DUP-INF]: ID=443209101903219249(Greeting:greeting 1)
+  |DATA|ONAM:Assi Serimilk|NAME:Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0Dagoth Draven|INTV:|SCVR:23sX0sleeperOn|INTV|BNAM:;sleeper; Journal A2_3_CorprusCure >= 50;
+
+[DUP-INF]: ID=525819160304928801(Greeting:greeting 1)
+  |DATA|ONAM:dreamer_f_01|NAME:What are you? Nothing. Why are you here? You do not know.|BNAM:;ash guard [ash slave 6]
+
+[DUP-INF]: ID=545325463627930906(Greeting:greeting 1)
+  |DATA|ONAM:ash_zombie|NAME:What are you? Where is this place? I'm so tired, LET ME SLEEP!|BNAM:;ash zombie [ash zombie 8]
+
+[DUP-INF]: ID=713021754425128647(Topic:advancement)
+  |DATA|ONAM:neminda|NAME:You must join House Redoran before you can gain ranks.|SCVR:01460|INTV:
+
+[DUP-INF]: ID=826279552648327963(Topic:dagoth ur)
+  |DATA|CNAM:Dreamers|NAME:It is the Hour of Wakening. He comes forth in his glory, and his people shall rejoice, and his enemies shall scatter like dust.|BNAM:moddisposition -10
+
+[MOD-INF]: ID=998673212907024917(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Eralane Hledas|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Eralane Hledas|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[MOD-INF]: ID=1010250002734832001(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Endris Dilmyn|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV:|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  ModFight 10  ModDisposition -10
+  Sixth House.esp->|DATA|CNAM:Dreamers|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us.
+
+[DUP-INF]: ID=1131515014464226706(Topic:kogoruhn)
+  |DATA|ONAM:sul-matuul|NAME:Kogoruhn was an ancient Dunmer stronghold. Here. Let me mark it on your map. Go by day, in good weather, or you may miss your way. Follow the coast east from Urshilaku camp to the ruined Dunmer stronghold called Valenvaryon, then turn southwest. You'll see Ebernanit, a ruined Daedric shrine. Continue south from Ebernanit to Kogoruhn, a great table of stone with many ruined buildings. There are many rooms. The passages are old and deep. Beneath are caves with pools of fire. It is a bad place. Go prepared.|SCVR:04JX3A2_6_Incarnate|INTV|BNAM:ShowMap Kogoruhn  ShowMap Valenvaryon
+
+[DUP-INF]: ID=1189011105943620160(Topic:join house hlaalu)
+  |DATA|ONAM:nileno dorvayn|NAME:The rules of House Hlaalu are simple. You must never interfere with the business of House Hlaalu. Or if you do, be sure you are not caught. If you're never caught stealing from a member of attacking a member, you'll be fine. If you are expelled, you will have to make amends which can be expensive. Are you still interested?|SCVR:01500|INTV|BNAM:Choice "Yes, I would like to join." 1 "No, nevermind." 3
+
+[DUP-INF]: ID=1351230495117214619(Topic:join the imperial cult)
+  |DATA|FNAM:Imperial Cult|NAME:To serve and glorify the Nine Divines, you must cultivate a noble personality and a strong will. Respect the magical arts, especially the colleges of Restoration, Mysticism, and Conjuration. Those who swear to avoid bloodshed, to take the field unarmored, to fight only with blunt weapons, are especially praiseworthy. Knowledge of enchantments and the gift of diplomatic speech are other qualities we look for in our initiates.|SCVR:01500|INTV|BNAM:Choice "Continue" 6
+
+[MOD-INF]: ID=1381627890237414274(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Rararyn Radarys|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Rararyn Radarys|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[MOD-INF]: ID=1421814334265519710(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Alvura Othrenim|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Alvura Othrenim|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[MOD-INF]: ID=1430113310772418621(Topic:ash statue)
+  morrowind.esm--->|DATA|ONAM:hanarai assutlanipal|NAME:What? No. Where did you...? Damn!|BNAM:Journal HR_SixthHouseBase 80  SetFight 100  StartCombat Player  SetDisposition 0  Goodbye
+  Sixth House.esp->|DATA|ONAM:hanarai assutlanipal|NAME:What? No. Where did you...? Damn!|SCVR:08FX0Sixth House|INTV|BNAM:Journal HR_SixthHouseBase 80  SetFight 100  StartCombat Player  SetDisposition 0  Goodbye
+
+[DUP-INF]: ID=1699342602946520428(Greeting:greeting 1)
+  |DATA|ONAM:ascended_sleeper|NAME:A bug. A weed. A piece of dust. Busy, busy, busy.|BNAM:; ascended sleeper
+
+[MOD-INF]: ID=1710127238223196561(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Vireveri Darethran|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Vireveri Darethran|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[DUP-INF]: ID=1729913769476329813(Topic:duties)
+  |DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX0A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+
+[DUP-INF]: ID=1849614430326495910(Topic:sixth house servants)
+  |DATA|ONAM:dagoth gares|NAME:Forgive the rude welcome, but until you have declared for us, we must treat you as our enemy. The Sleepers and Dreamers are newly come to Lord Dagoth, and not yet blessed with his power. But the Children of His Flesh, they are deep in the heart of his mysteries. Their bodies swell to contain his glory, and to yield the rich sacraments of our Lord's feasts. And we are the least of his servants, for Ash Poets, Ascended Sleepers, and Ash Vampires stand high above us in the Lord's bountiful grace.|BNAM:Journal "A2_2_6thHouse" 44
+
+[DUP-INF]: ID=2164126887101464726(Topic:divayth fyr)
+  |DATA|ONAM:galos mathendis|NAME:He lives in Tel Fyr. He is one of the oldest and most respected wizards in House Telvanni, though he shows an unfortunate lack of interest in politics. To get to Tel Fyr, you'll have to swim or fly southwest from Sadrith Mora. It's a long trip. Perhaps I should mark Tel Fyr on your map.|BNAM:ShowMap "Tel Fyr"
+
+[DUP-INF]: ID=2250155891410418152(Topic:join house redoran)
+  |DATA|ONAM:neminda|DNAM:Hlaalu|NAME:You have already been adopted by House Hlaalu. We cannot accept members of other Great Houses.
+
+[DUP-INF]: ID=2580016962292434560(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:Beneath Red Mountain, Lord Dagoth has awakened. Now Sleepers and Dreamers all are risen, and the dust is blown away. Come to your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.|BNAM:;Dreamers; default Dreamer dialog; covers Dreamer_Talker01 to Dreamer_Talker12  modDisposition -10
+
+[DUP-INF]: ID=2591715015202587515(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:We have you in our discerning eye, %PCName. We see you, waking and sleeping.|SCVR:01630|INTV:|BNAM:;Dreamers; default Dreamer dialog; covers Dreamer_Talker01 to Dreamer_Talker12; Talked to PC = 0  modDisposition -10
+
+[DUP-INF]: ID=2708525712178928293(Topic:sixth house)
+  |DATA|ONAM:Vireveri Darethran|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV:|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  ModFight 10  ModDisposition -10
+
+[DUP-INF]: ID=2769788482274927645(Greeting:greeting 1)
+  |DATA|ONAM:dreamer|NAME:At the lonely hour of midnight, I fly, when stars are weeping. Beneath the echo of souls, my spirit sleeping.|SCVR:01630|INTV:|BNAM:; ash poet [ash ghoul 16]
+
+[DUP-INF]: ID=2797025664259225507(Persuasion:service refusal)
+  |DATA|CNAM:Wise Woman Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+
+[DUP-INF]: ID=2798319645206439151(Topic:join house telvanni)
+  |DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:We trust all members of House Telvanni to use their own judgement. If you steal from another Telvanni, but still live, then clearly you deserve whatever you stole. Murdering your opponents by magic or treachery is the traditional way of settling disputes. If you win, then clearly your argument has more merit. You may be expelled as in any other Great House, but most Telvanni will not care or even know about it. Does this appeal to you?|SCVR:01500|INTV|BNAM:Choice "Yes, I am eager to join." 1 "No, nevermind." 3
+
+[DUP-INF]: ID=2893824590110513655(Topic:scamp skin)
+  |DATA|ONAM:tendris vedran|NAME:Scamp skin must be removed from the specimen while it is still bound on the mortal plane. It is an unpleasant business for both the scamp and skin-farmer, and alchemists have trouble keeping the substance in stock.|SCVR:0CsX0NoLore|INTV
+
+[DUP-INF]: ID=2944922372226625958(Greeting:greeting 1)
+  |DATA|ONAM:dialog placeholder|ANAM:Kogoruhn|NAME:We see you, false one. Your flesh will feed us all.|BNAM:;Ash Wight; Kogoruhn
+
+[DUP-INF]: ID=2984729969104904264(Journal:a1_1_findspymaster)
+  |DATA|NAME:Spymaster Caius Cosades suggested I maintain a cover identity as a freelance adventurer, just to avoid drawing unwanted attention. And he says he has orders for me, whenever I'm ready.|QSTF
+
+[DUP-INF]: ID=3105210716139117216(Topic:corprus)
+  |DATA|ONAM:ygfa|NAME:Corprus is a deadly disease profoundly affecting a victim's mind and body. Symptoms include dementia, violent behavior, and distorted, disfiguring skin growths. It may be contracted from corprus beasts or other blight monsters|BNAM:;healers; apothecaries; pilgrims; wise woman;
+
+[DUP-INF]: ID=3145293433052831699(Greeting:greeting 1)
+  |DATA|NAME:What? What use is speech? If you will not submit, you must be destroyed.|SCVR:01630|INTV:|BNAM:;ash ghoul [ash ghoul 14]
+
+[MOD-INF]: ID=8285167901775519788(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Nelmil Hler|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Nelmil Hler|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[DUP-INF]: ID=9950264823186126056(Topic:join house redoran)
+  |DATA|ONAM:neminda|NAME:You are a fraud. You hide behind the false prophecies of the 'Incarnate' and the 'Nerevarine,' but Berel Sala, Captain of the Watch, says you are an agent in the pay of the Imperial Intelligence Service. You are an outlaw without honor, and cannot hope to be admitted to House Redoran. Go away.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:14JX4B5_SarethiHort|INTV:2|BNAM:Goodbye
+
+[MOD-INF]: ID=11138269831773311453(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Neldris Llervu|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Neldris Llervu|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[DUP-INF]: ID=11542311312853310177(Greeting:greeting 1)
+  |DATA|ONAM:dreamer|NAME:Fire, poisons, claws, pincers, wheels... what slave knows what the lover feels?|BNAM:;ash deathguard [ash ghoul 15]
+
+[DUP-INF]: ID=12386198611142525550(Topic:dagoth ur)
+  |DATA|ONAM:dreamer_04|NAME:He is the Lord, and Father of the Mountain. He wakes, and the land wakes with him. All the land, and all of its people, shall rise from sleep, and sweep the land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. "All shall greet him as flesh, or as dust."|BNAM:moddisposition -10
+
+[DUP-INF]: ID=12408259581540119541(Topic:join the imperial cult)
+  |DATA|FNAM:Imperial Cult|NAME:All mortals are weak. But your will to make amends is praiseworthy. You are now again, a member of the cult. But I caution you. Do not again forget yourself, for there is no further recourse if you should be expelled once more.|SCVR:01500|INTV|BNAM:PCClearExpelled  Set ExpImperialCult to 1
+
+[MOD-INF]: ID=14754140323127010594(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Endris Dilmyn|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Endris Dilmyn|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[DUP-INF]: ID=14849203321598615886(Greeting:greeting 1)
+  |DATA|ONAM:Thelsa Dral|NAME:Well. Someone finally found me. Your bad luck, really.|BNAM:StartCombat Player  SetFight 90  SetDisposition 0  Goodbye
+
+[DUP-INF]: ID=15530263941652121194(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:We see you, false one. Your flesh will feed us all.|SCVR:04JX3A2_3_CorprusCure|INTV|BNAM:;ash wight [ash zombie 10]  modDisposition -10
+
+[DUP-INF]: ID=16828257892525722321(Topic:join the temple)
+  |DATA|FNAM:Temple|NAME:Your fourfold duties are to: Faith, Family, Masters, and all that is good. Perform holy quests and bring luster to the Temple. Never transgress against your brothers or sisters -- in thought or deed -- as we are all one body. If you somehow fail to uphold these ideals, you must speak with a Master or the Patriarch to be cleansed of your wrongdoings. Still want to join?|SCVR:01500|INTV|BNAM:Choice "Yes, I am worthy" 1 "No" 4
+
+[MOD-INF]: ID=17195157092340212958(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Daynasa Telandas|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Daynasa Telandas|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[DUP-INF]: ID=17937179782332230459(Topic:duties)
+  |DATA|ONAM:neminda|NAME:You have broken the noble's code and have been expelled. Until you make amends, I cannot discuss duties with you.|SCVR:01390|INTV
+
+[DUP-INF]: ID=21226244741216515056(Topic:join house telvanni)
+  |DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|DNAM:Hlaalu|NAME:Of course you wish to join our Great House. But you already belong to House Hlaalu. We cannot allow you to join.
+
+[DUP-INF]: ID=21303172802354119425(Greeting:greeting 1)
+  |DATA|ONAM:dagoth uthol|NAME:He said you would come to us. And he was right. Have you come to submit? Or come to die?|SCVR:01630|INTV:|BNAM:; Dagoth Uthol; Kogoruhn;   SetFight 100
+
+[MOD-INF]: ID=21348222781054818615(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Drarayne Girith|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Drarayne Girith|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[DUP-INF]: ID=22112111712176419568(Greeting:greeting 1)
+  |DATA|ONAM:dagoth_ur_1|NAME:It began here. It will end here. Have you any parting words? Or would you prefer to skip the speeches, and get to our business. You are the challenger here, after all. So to you goes the courtesy of the first blow.|SCVR:05IX3wraithguard|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|SCVR:31630|INTV:|BNAM:;Dagoth Ur; has tools
+
+[DUP-INF]: ID=25042165042180828560(Topic:temple)
+  |DATA|ONAM:caius cosades|NAME:The Tribunal Temple is the native religion. They worship three God-Kings, Almalexia, Sotha Sil, and Vivec, who are known together as the Tribunal. We usually just call it 'The Temple.' They're narrow-minded and superstitious, but I find a lot to admire -- particularly their concern for the poor. They accept outlanders as members, but few outlanders join except for the services. Talk to Feldrelo Sadri at the Balmora Temple if you're thinking about joining.|SCVR:04JX3A1_1_FindSpymaster|INTV
+
+[DUP-INF]: ID=25738247542214816949(Greeting:greeting 1)
+  |DATA|ONAM:ascended_sleeper|NAME:What are you doing? You have no idea. Poor animal. You struggle and fight, and understand nothing.|SCVR:01630|INTV:|BNAM:; ascended sleeper
+
+[DUP-INF]: ID=27372153532436318414(Topic:nerevar)
+  |DATA|ONAM:gilvas barelo|NAME:I hope you find the books useful.|SCVR:04JX3A2_4_MiloGone_books|INTV
+
+[MOD-INF]: ID=27838159622142612029(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Dralas Gilu|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Dralas Gilu|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[DUP-INF]: ID=28758230782144811420(Greeting:greeting 1)
+  |DATA|ONAM:teres arothan|NAME:We're on the way back to Novor Drethan, %PCName. Tell me if you no longer want to travel together.|SCVR:03sX0followNow|INTV
+
+[MOD-INF]: ID=30258320212719012958(Topic:sixth house)
+  morrowind.esm--->|DATA|ONAM:Assi Serimilk|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  Sixth House.esp->|DATA|ONAM:Assi Serimilk|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to the shrine at Cthulu, on the road between Balmora and Caldera. The entrance is hidden under a stone arch and behind a large boulder.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  Journal "SH_Initiate" 10
+
+[DUP-INF]: ID=30564111011238812877(Greeting:greeting 1)
+  |DATA|ONAM:dreamer_02|NAME:Your are welcome, %PCName. You are in no danger.|BNAM:;ash skirmisher [ash slave 6]
+
+[DUP-INF]: ID=31479245142979411597(Topic:join house hlaalu)
+  |DATA|ONAM:nileno dorvayn|DNAM:Telvanni|NAME:I am sorry, but you already belong to House Telvanni. We cannot accept anyone who has joined another House.

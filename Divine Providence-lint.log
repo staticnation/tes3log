@@ -1,0 +1,58 @@
+Divine Providence.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DaedraAzura)
+	SCPT(DaedraMalacath)
+	SCPT(DaedraMehrunes)
+	SCPT(DaedraMephala)
+	SCPT(DaedraMolagBal)
+	SCPT(DaedraSheogorath)
+	SCPT(fal__patron)
+	SCPT(fal_anticipation_azura)
+	SCPT(fal_anticipation_boethiah)
+	SCPT(fal_anticipation_mephala)
+	SCPT(fal_divine_akatosh)
+	SCPT(fal_divine_arkay)
+	SCPT(fal_divine_dibella)
+	SCPT(fal_divine_julianos)
+	SCPT(fal_divine_kyne)
+	SCPT(fal_divine_mara)
+	SCPT(fal_divine_stendarr)
+	SCPT(fal_divine_zeni)
+	SCPT(fal_house_malacath)
+	SCPT(fal_house_mehrunes)
+	SCPT(fal_house_molag)
+	SCPT(fal_house_sheo)
+	SCPT(fal_other_maker)
+	SCPT(fal_other_sithis)
+	SCPT(fal_other_talos)
+	SCPT(fal_tribunal_alma)
+	SCPT(fal_tribunal_nerevar)
+	SCPT(fal_tribunal_sotha)
+	SCPT(fal_tribunal_veloth)
+	SCPT(fal_tribunal_vivec)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    been infected
+	bloodmoon.esm       DIAL    your business here
+	morrowind.esm       BOOK    bk_varietiesoffaithintheempire
+	morrowind.esm       DIAL    join the imperial cult
+	morrowind.esm       DIAL    join the morag tong
+	morrowind.esm       DIAL    join the temple
+
+[DUP-INF]: ID=291323299290264726(Topic:been infected)
+  |DATA|ONAM:korst wind-eye|NAME:In three days' time, the victim will become a werewolf himself. During these three days, though, a simple Cure Disease spell can stop the infection. Wait...you have rid yourself of the infection. Thank the All-Maker! You have been true to our people, and the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest. Also, it has been decided that you will take part in the Ristaag, an important Skaal ceremony.|SCVR:04JX3BM_SkaalAttack|INTV|SCVR:14JX4BM_SkaalAttack|INTV:2|SCVR:23sX0hasdisease|INTV:|BNAM:Journal BM_SkaalAttack 100
+
+[DUP-INF]: ID=605190083225324351(Topic:been infected)
+  |DATA|ONAM:korst wind-eye|NAME:The infection seems innocent enough. Some weakness, perhaps. Sometimes the effects are hardly noticeable. However, in three days' time, the victim will become a werewolf himself. It is a fate I would not wish upon my greatest foe. During these three days, though, a simple Cure Disease spell can stop the infection. I beg you to do this. Until then, I fear I cannot allow you to be a part of our community, perhaps infecting others. When you have been cured, I hope you will return to us again.|SCVR:04JX3BM_SkaalAttack|INTV|SCVR:14JX4BM_SkaalAttack|INTV:2|BNAM:Journal BM_SkaalAttack 50
+
+[DUP-INF]: ID=634827443204810172(Topic:join the morag tong)
+  |DATA|ONAM:eno hlaalu|NAME:You belong to us already, %PCRank %PCName.|SCVR:34JX3MT_WritOran|INTV:d
+
+[DUP-INF]: ID=635218764820424505(Topic:join the imperial cult)
+  |DATA|ONAM:ygfa|NAME:You are now a %NextPCRank in the Imperial Cult. Welcome, %PCName, to our community, and may your rejoice in its blessings. Can I tell you about our services? Or, if you can donate more time and effort, would you like to become a lay servant?|SCVR:01500|INTV|SCVR:14JX3MS_Piernette|INTV:d|SCVR:24JX3IC_guide|INTV|BNAM:PCJoinFaction "Imperial cult"  Journal IC0_ImperialCult 1
+
+[DUP-INF]: ID=3168228194215783409(Topic:your business here)
+  |DATA|ONAM:tharsten heart-fang|NAME:You've nothing more to say? A smart traveler would have at least a token of friendship to present, but I see you were raised among heathens. There is little else to say to you.|SCVR:04JX3BM_CariusGone|INTV|SCVR:14JX0BM_Stones|INTV:|SCVR:25IX0misc_skull_Skaal|INTV:|BNAM:Goodbye
+
+[DUP-INF]: ID=20387168602971829199(Topic:join the temple)
+  |DATA|FNAM:Temple|NAME:You are now a %PCRank in the %Faction. Welcome, sister %PCName. I am one of several Masters you can go to get your duties and if you perform well, advancement in the %Faction is not out of the question.|SCVR:01500|INTV|SCVR:11380|INTV|BNAM:PCRaiseRank  ModDisposition 5

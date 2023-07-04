@@ -1,0 +1,11 @@
+FemaleTelMoraGuards.esp: DUP-INF DUP-REC MISSAUT MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    background
+
+[DUP-INF]: ID=2904220160269729920(Topic:background)
+  |DATA|ONAM:hlaalu guard|NAME:I am a Hlaalu guard.|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=5813305953165229902(Topic:background)
+  morrowind.esm----------->|DATA|ONAM:telvanni guard|NAME:I am a Telvanni guard.|BNAM:ClearInfoActor
+  FemaleTelMoraGuards.esp->|DATA|ONAM:telvanni guard_female|NAME:I am a Telvanni guard.|BNAM:ClearInfoActor

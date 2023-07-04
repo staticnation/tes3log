@@ -1,0 +1,43 @@
+Dreams of the Drunken Mudcrab.esp: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (138) != Actual count (137)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ek_BossExit)
+	SCPT(ek_DuelEnd)
+	SCPT(ek_RattleBossStart)
+	SCPT(ek_RattleMusic)
+	SCPT(ek_RattleMusic2)
+	SCPT(ek_RattleTrophy)
+	SCPT(ek_Sound_Daedric_Chant)
+	SCPT(ek_Statuetrophy)
+	SCPT(ek_daecrab)
+	SCPT(ek_dmnote)
+	SCPT(ek_dmnote_nb)
+	SCPT(ek_fargothring)
+	SCPT(ek_meattrophy)
+	SCPT(ek_ringtrophy)
+	SCPT(sve_fargoth_freed)
+	SCPT(sve_misc_fargoth_script)
+	SCPT(sve_seyda_neen_mudcrab_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    talking mudcrab merchant
+	morrowind.esm       NPC_    caius cosades
+	morrowind.esm       NPC_    fargoth
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=157416476747921090(Greeting:greeting 5)
+  morrowind.esm--------------------->|DATA|ONAM:mudcrab_unique|NAME:'How dry I am... how dry I am... nobody knows... how dry I am....' SHAY! Hi. There. Lesh make a deal. I got... stuff. Lots. Here. See?
+  Dreams of the Drunken Mudcrab.esp->|DATA|ONAM:drunken mudcrab|NAME:'How dry I am... how dry I am... nobody knows... how dry I am....' SHAY! Hi. There. Whosh are yous?  Shome hallushinatian as an effect from liquid blissh I'm sure.  Hey, hallushinatian.  Can... I... talksh to you about someshing that has ben... bugging me?|SCVR:04JX0ek_mudcrab1|INTV:|BNAM:Choice "Sure Mudcrab, what's on your mind?" 1 "Ummm I've seen some weird stuff but talking mudcrabs is where I draw the line.  I'm gonna go now...." 2 "*Lick your lips* I was in the mood for some crab meat.  A talking mudcrab must be really good." 3 "By Azura, do my eyes and ears deceive me?  A talking mudcrab?" 4
+
+[MOD-INF]: ID=513418333128849698(Topic:talking mudcrab merchant)
+  morrowind.esm--------------------->|DATA|ONAM:mudcrab_unique|NAME:Sure. Thash what I said? Did I stutter or shomethin? Talking. Mudcrab. Merchant. Read my lips. Ehr. Mouthparts? Read my mouthparts? Shomethin ain't right. But never mind. Jush one-a life's little myshteries. So. You gonna buy shomethin? Or sit here jawin' all day.
+  Dreams of the Drunken Mudcrab.esp->|DATA|ONAM:drunken mudcrab|NAME:Sure. Thash what I said? Did I stutter or shomethin? Talking. Mudcrab. Merchant. Read my lips. Ehr. Mouthparts? Read my mouthparts? Shomethin ain't right. But never mind. Jush one-a life's little myshteries. So. You gonna buy shomethin? Or sit here jawin' all day.
+
+[MOD-INF]: ID=1819715222267013184(Greeting:greeting 5)
+  morrowind.esm--------------------->|DATA|ONAM:Iulus Truptor|DNAM:Imperial Cult|NAME:Canctunian Ponius of the East Empire Company has promised to sponsor a mission to the Ashlanders. Such a long-term mission will be quite expensive -- 1000 drakes is a bare minimum. We're concerned that we haven't received the money he pledged, and that he does not reply to our correspondence. We wish you to go to him in the East Empire Company Hall in Ebonheart and persuade him to provide us with the generous pledge as he promised.|SCVR:04JX3IC13_rich|INTV:2|SCVR:14JX4IC14_Ponius|INTV|BNAM:;Iulus Truptor  Journal IC14_Ponius 1
+  Dreams of the Drunken Mudcrab.esp->|DATA|ONAM:Iulus Truptor|DNAM:Imperial Cult|NAME:Canctunian Ponius of the East Empire Company has promised to sponsor a mission to the Ashlanders. Such a long-term mission will be quite expensive -- 1000 drakes is a bare minimum. We're concerned that we haven't received the money he pledged, and that he does not reply to our correspondence. We wish you to go to him in the East Empire Company Hall in Ebonheart and persuade him to provide us with the generous pledge as he promised.|SCVR:04JX3IC13_rich|INTV:2|SCVR:14JX4IC14_Ponius|INTV|BNAM:;Iulus Truptor  Journal IC14_Ponius 1
+
+[MOD-INF]: ID=2210121278655515631(Topic:background)
+  morrowind.esm--------------------->|DATA|ONAM:mudcrab_unique|NAME:Whaddaya think? Sheesh. I'm a mudcarb... crab. Shure. A mudcrab. Thas me. Pretty sure. I LOOK like a mudcrab, right? Mush be. Thish IS me talking, right? So? I mush be...a talking mudcrab. And I sells stuff, right? So? I mush be a talking mudcrab merchant. Stands to reason, don't it?
+  Dreams of the Drunken Mudcrab.esp->|DATA|ONAM:drunken mudcrab|NAME:Whaddaya think? Sheesh. I'm a mudcarb... crab. Shure. A mudcrab. Thas me. Pretty sure. I LOOK like a mudcrab, right? Mush be. Thish IS me talking, right? So? I mush be...a talking mudcrab. And I sells stuff, right? So? I mush be a talking mudcrab merchant. Stands to reason, don't it?

@@ -1,0 +1,107 @@
+The Rishajiit.ESP: DUP-INF DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Wares-base.esm                299850 (plugin)      82499 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MU_Ask_Comfortable)
+	SCPT(aa_lat_MA_training_check)
+	SCPT(aa_lat_comp_script)
+	SCPT(aa_lat_crab_fight)
+	SCPT(aa_lat_cuirass_script)
+	SCPT(aa_lat_detect_script)
+	SCPT(aa_lat_forage_script)
+	SCPT(aa_lat_initialise)
+	SCPT(aa_lat_meditate_script)
+	SCPT(aa_lat_one_day)
+	SCPT(aa_lat_one_meditate)
+	SCPT(aa_lat_portal_script)
+	SCPT(aa_lat_portal_script02)
+	SCPT(aa_lat_ring_altar_script)
+	SCPT(aa_lat_rock_script)
+	SCPT(aa_lat_skills_check)
+	SCPT(aa_lat_startup)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       DIAL    azura's coast
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    moon sugar
+	morrowind.esm       DIAL    mysticism
+	morrowind.esm       NPC_    ken
+	oaab_data.esm       ARMO    ab_a_chitinscouthelm
+	oaab_data.esm       ARMO    ab_a_wickerhelm02
+	oaab_data.esm       BOOK    ab_bk_mapsofvvardenfell
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    latest rumors
+	wares-base.esm      LEVI    aa_gear_cuir_l_cheap
+	wares-base.esm      LEVI    aa_gear_helm_l_best
+	wares-base.esm      LEVI    aa_gear_helm_l_cheap
+	wares-base.esm      LEVI    aa_gear_lpaul_l_cheap
+	wares-base.esm      LEVI    aa_gear_rpaul_l_cheap
+	wares-base.esm      LEVI    aa_trader_armour
+
+[DUP-INF]: ID=1709302711210241(Voice:hello)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you
+
+[DUP-INF]: ID=5375202987824056(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM004.mp3|NAME:Groan.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+
+[DUP-INF]: ID=25586475468018996(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM012.mp3|NAME:Grunt.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=25;Random>=20
+
+[DUP-INF]: ID=32137175498021017(Voice:flee)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;to keep werewolves from talking during to you, they should never flee but just to be safe
+
+[DUP-INF]: ID=82711512324061128(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM011.mp3|NAME:Grunt.|SCVR:01045|INTV
+
+[DUP-INF]: ID=120321745778263263(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\f\Hit_KF001.mp3|NAME|AAAIIEE.|SCVR:01043|INTV:2
+
+[DUP-INF]: ID=158883089321524316(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM006.mp3|NAME:Groan.|SCVR:01045|INTV:2
+
+[DUP-INF]: ID=178524111508013612(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM005.mp3|NAME:Groan.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[DUP-INF]: ID=185827136332615815(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM002.mp3|NAME:Arrgh.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+
+[DUP-INF]: ID=219573749291396784(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM007.mp3|NAME:Groan.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+
+[DUP-INF]: ID=245175112128166780(Topic:mysticism)
+  |DATA|CNAM:Savant|NAME:The mysticism discipline is the mastery of the spell effects of the College of Mysticism. The mysticism spells involve the manipulation of magical forces and boundaries to bypass the structures and limitations of the physical world. These spells bind souls in gems, or teleport the caster's body, or manipulate the world with telekinesis, or absorb or reflect magical energies, or sense unseen objects at a distance.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Fighters Guild; Mages Guild; Thieves Guild;
+
+[DUP-INF]: ID=250452696499765957(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM001.mp3|NAME|AAAIIEE.|SCVR:01043|INTV:2
+
+[DUP-INF]: ID=1029727687276321971(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM008.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+
+[DUP-INF]: ID=1818418124142572451(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM003.mp3|NAME:Hugnh!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40; todd - wav is 'Fetcher!'
+
+[DUP-INF]: ID=1923129790213399645(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM013.mp3|NAME:Hiss.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=25;Random>=40
+
+[DUP-INF]: ID=1932413444186651987(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM010.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[DUP-INF]: ID=2260428592239328866(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM009.mp3|NAME:Grunt.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+
+[DUP-INF]: ID=10819118262520816930(Voice:attack)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;this prevents werewolves from talking to you in combat
+
+[MOD-INF]: ID=27518247831477521212(Greeting:greeting 5)
+  tribunal.esm------>|DATA|ONAM:Geon Auline|NAME:Hello.  I am Geon Auline, collector of fine artifacts.|SCVR:04JX0MS_EstateSale|INTV:
+  The Rishajiit.ESP->|DATA|ONAM:Geon Auline|NAME:Hello. I am Geon Auline, collector of fine artifacts.|SCVR:04JX0MS_EstateSale|INTV:
+
+[DUP-INF]: ID=29251246421353912722(Voice:hit)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hit_KM014.mp3|NAME:Hiss.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=25;Random>=60

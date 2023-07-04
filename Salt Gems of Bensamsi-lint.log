@@ -1,0 +1,23 @@
+Salt Gems of Bensamsi.ESP: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(md_ashgem_script_firstgreeting)
+	SCPT(md_ashgem_script_hammer)
+	SCPT(md_ashgem_script_hammer_v2)
+	SCPT(md_ashgem_script_heemla)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    mages guild
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    little advice
+
+[DUP-INF]: ID=1097260391359021977(Voice:hello)
+  |DATA|ANAM:Cavern of the Incarnate
+
+[DUP-INF]: ID=1732794482128125050(Voice:hit)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Roar!|SCVR:01720|INTV|SCVR:12sX5Random100|INTV
+
+[DUP-INF]: ID=12131319582389432117(Greeting:greeting 9)
+  |DATA|NAME:It is truly a pleasure to see you.|SCVR:03sX3NoLore|INTV:|BNAM:;added to prevent some bad no lore greetings.

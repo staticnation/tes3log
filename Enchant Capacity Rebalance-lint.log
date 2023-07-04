@@ -1,0 +1,561 @@
+Enchant Capacity Rebalance.esp: DUP-REC MISSVER OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ARMO    bm bear boots
+	bloodmoon.esm       ARMO    bm bear cuirass
+	bloodmoon.esm       ARMO    bm bear greaves
+	bloodmoon.esm       ARMO    bm bear helmet
+	bloodmoon.esm       ARMO    bm bear left gauntlet
+	bloodmoon.esm       ARMO    bm bear left pauldron
+	bloodmoon.esm       ARMO    bm bear right gauntlet
+	bloodmoon.esm       ARMO    bm bear right pauldron
+	bloodmoon.esm       ARMO    bm bear shield
+	bloodmoon.esm       ARMO    bm wolf cuirass
+	bloodmoon.esm       ARMO    bm wolf greaves
+	bloodmoon.esm       ARMO    bm wolf helmet
+	bloodmoon.esm       ARMO    bm wolf left gauntlet
+	bloodmoon.esm       ARMO    bm wolf left pauldron
+	bloodmoon.esm       ARMO    bm wolf right gauntlet
+	bloodmoon.esm       ARMO    bm wolf right pauldron
+	bloodmoon.esm       ARMO    bm wolf shield
+	bloodmoon.esm       ARMO    bm_ice minion_shield1
+	bloodmoon.esm       ARMO    bm_ice_boots
+	bloodmoon.esm       ARMO    bm_ice_cuirass
+	bloodmoon.esm       ARMO    bm_ice_gauntletl
+	bloodmoon.esm       ARMO    bm_ice_gauntletr
+	bloodmoon.esm       ARMO    bm_ice_greaves
+	bloodmoon.esm       ARMO    bm_ice_helmet
+	bloodmoon.esm       ARMO    bm_ice_pauldronl
+	bloodmoon.esm       ARMO    bm_ice_pauldronr
+	bloodmoon.esm       ARMO    bm_ice_shield
+	bloodmoon.esm       ARMO    bm_nordicmail_boots
+	bloodmoon.esm       ARMO    bm_nordicmail_cuirass
+	bloodmoon.esm       ARMO    bm_nordicmail_gauntletl
+	bloodmoon.esm       ARMO    bm_nordicmail_gauntletr
+	bloodmoon.esm       ARMO    bm_nordicmail_greaves
+	bloodmoon.esm       ARMO    bm_nordicmail_helmet
+	bloodmoon.esm       ARMO    bm_nordicmail_pauldronl
+	bloodmoon.esm       ARMO    bm_nordicmail_pauldronr
+	bloodmoon.esm       ARMO    bm_nordicmail_shield
+	bloodmoon.esm       ARMO    fur_colovian_helm_red
+	bloodmoon.esm       ARMO    fur_colovian_helm_white
+	bloodmoon.esm       ARMO    nordic_leather_shield
+	bloodmoon.esm       ARMO    steel_boots
+	bloodmoon.esm       ARMO    steel_boots_ancient
+	bloodmoon.esm       ARMO    steel_cuirass_ancient
+	bloodmoon.esm       ARMO    steel_gauntlet_left_ancient
+	bloodmoon.esm       ARMO    steel_gauntlet_right_ancient
+	bloodmoon.esm       ARMO    steel_greaves
+	bloodmoon.esm       ARMO    steel_greaves_ancient
+	bloodmoon.esm       ARMO    steel_helm_ancient
+	bloodmoon.esm       ARMO    steel_pauldron_left_ancient
+	bloodmoon.esm       ARMO    steel_pauldron_right_ancient
+	bloodmoon.esm       ARMO    steel_shield
+	bloodmoon.esm       ARMO    steel_towershield_ancient
+	bloodmoon.esm       ARMO    templar_helmet_armor
+	bloodmoon.esm       CLOT    bm_nordic01_glovel
+	bloodmoon.esm       CLOT    bm_nordic01_glover
+	bloodmoon.esm       CLOT    bm_nordic01_pants
+	bloodmoon.esm       CLOT    bm_nordic01_robe
+	bloodmoon.esm       CLOT    bm_nordic01_shirt
+	bloodmoon.esm       CLOT    bm_nordic02_glovel
+	bloodmoon.esm       CLOT    bm_nordic02_glover
+	bloodmoon.esm       CLOT    bm_nordic02_pants
+	bloodmoon.esm       CLOT    bm_nordic02_shirt
+	bloodmoon.esm       CLOT    bm_wool01_pants
+	bloodmoon.esm       CLOT    bm_wool01_robe
+	bloodmoon.esm       CLOT    bm_wool01_shirt
+	bloodmoon.esm       CLOT    bm_wool02_pants
+	bloodmoon.esm       CLOT    bm_wool02_shirt
+	bloodmoon.esm       CLOT    common_robe_unique
+	bloodmoon.esm       CLOT    extravagant_robe_01
+	bloodmoon.esm       WEAP    bm huntsman axe
+	bloodmoon.esm       WEAP    bm huntsman crossbow
+	bloodmoon.esm       WEAP    bm huntsman longsword
+	bloodmoon.esm       WEAP    bm huntsman spear
+	bloodmoon.esm       WEAP    bm huntsman war axe
+	bloodmoon.esm       WEAP    bm ice dagger
+	bloodmoon.esm       WEAP    bm ice longsword
+	bloodmoon.esm       WEAP    bm ice mace
+	bloodmoon.esm       WEAP    bm ice war axe
+	bloodmoon.esm       WEAP    bm nord leg
+	bloodmoon.esm       WEAP    bm nordic pick
+	bloodmoon.esm       WEAP    bm nordic silver axe
+	bloodmoon.esm       WEAP    bm nordic silver battleaxe
+	bloodmoon.esm       WEAP    bm nordic silver claymore
+	bloodmoon.esm       WEAP    bm nordic silver dagger
+	bloodmoon.esm       WEAP    bm nordic silver longsword
+	bloodmoon.esm       WEAP    bm nordic silver mace
+	bloodmoon.esm       WEAP    bm nordic silver shortsword
+	bloodmoon.esm       WEAP    bm riekling lance
+	bloodmoon.esm       WEAP    bm riekling sword_rusted
+	bloodmoon.esm       WEAP    bm silver dagger wolfender
+	bloodmoon.esm       WEAP    bm_dagger_wolfgiver
+	bloodmoon.esm       WEAP    bm_ice_minion_lance
+	bloodmoon.esm       WEAP    daedric dagger
+	bloodmoon.esm       WEAP    daedric mace
+	bloodmoon.esm       WEAP    miner's pick
+	bloodmoon.esm       WEAP    silver arrow
+	bloodmoon.esm       WEAP    silver arrow_thirsk_0
+	bloodmoon.esm       WEAP    silver arrow_thirsk_1
+	bloodmoon.esm       WEAP    silver arrow_thirsk_2
+	bloodmoon.esm       WEAP    silver arrow_thirsk_3
+	bloodmoon.esm       WEAP    silver arrow_thirsk_4
+	bloodmoon.esm       WEAP    silver arrow_thirsk_5
+	bloodmoon.esm       WEAP    silver arrow_thirsk_6
+	bloodmoon.esm       WEAP    silver arrow_thirsk_7
+	bloodmoon.esm       WEAP    silver arrow_thirsk_8
+	bloodmoon.esm       WEAP    silver arrow_thirsk_9
+	bloodmoon.esm       WEAP    silver bolt
+	bloodmoon.esm       WEAP    silver claymore
+	bloodmoon.esm       WEAP    silver dagger
+	bloodmoon.esm       WEAP    silver dart
+	bloodmoon.esm       WEAP    silver longsword
+	bloodmoon.esm       WEAP    silver shortsword
+	bloodmoon.esm       WEAP    silver spear
+	bloodmoon.esm       WEAP    silver throwing star
+	bloodmoon.esm       WEAP    steel longbow_carnius
+	bloodmoon.esm       WEAP    steel saber_elberoth
+	morrowind.esm       ARMO    bonemold_armun-an_cuirass
+	morrowind.esm       ARMO    bonemold_armun-an_helm
+	morrowind.esm       ARMO    bonemold_armun-an_pauldron_l
+	morrowind.esm       ARMO    bonemold_armun-an_pauldron_r
+	morrowind.esm       ARMO    bonemold_bracer_left
+	morrowind.esm       ARMO    bonemold_bracer_right
+	morrowind.esm       ARMO    bonemold_chuzei_helm
+	morrowind.esm       ARMO    bonemold_founders_helm
+	morrowind.esm       ARMO    bonemold_gah-julan_cuirass
+	morrowind.esm       ARMO    bonemold_gah-julan_helm
+	morrowind.esm       ARMO    bonemold_gah-julan_hhda
+	morrowind.esm       ARMO    bonemold_gah-julan_pauldron_l
+	morrowind.esm       ARMO    bonemold_gah-julan_pauldron_r
+	morrowind.esm       ARMO    bonemold_greaves
+	morrowind.esm       ARMO    bonemold_pauldron_l
+	morrowind.esm       ARMO    bonemold_towershield
+	morrowind.esm       ARMO    bonemold_tshield_hlaaluguard
+	morrowind.esm       ARMO    bonemold_tshield_hrlb
+	morrowind.esm       ARMO    bonemold_tshield_redoranguard
+	morrowind.esm       ARMO    bonemold_tshield_telvanniguard
+	morrowind.esm       ARMO    cephalopod_helm
+	morrowind.esm       ARMO    chitin guantlet - right
+	morrowind.esm       ARMO    chitin helm
+	morrowind.esm       ARMO    chitin pauldron - left
+	morrowind.esm       ARMO    chitin pauldron - right
+	morrowind.esm       ARMO    chitin_mask_helm
+	morrowind.esm       ARMO    chitin_shield
+	morrowind.esm       ARMO    chitin_towershield
+	morrowind.esm       ARMO    chitin_watchman_helm
+	morrowind.esm       ARMO    cloth bracer left
+	morrowind.esm       ARMO    cloth bracer right
+	morrowind.esm       ARMO    daedric_boots
+	morrowind.esm       ARMO    daedric_gauntlet_left
+	morrowind.esm       ARMO    daedric_gauntlet_right
+	morrowind.esm       ARMO    daedric_greaves
+	morrowind.esm       ARMO    daedric_pauldron_left
+	morrowind.esm       ARMO    daedric_pauldron_right
+	morrowind.esm       ARMO    dragonscale_cuirass
+	morrowind.esm       ARMO    dragonscale_helm
+	morrowind.esm       ARMO    dragonscale_towershield
+	morrowind.esm       ARMO    dreugh_cuirass
+	morrowind.esm       ARMO    dreugh_helm
+	morrowind.esm       ARMO    dust_adept_helm
+	morrowind.esm       ARMO    dwemer_boots
+	morrowind.esm       ARMO    dwemer_bracer_left
+	morrowind.esm       ARMO    dwemer_bracer_right
+	morrowind.esm       ARMO    dwemer_cuirass
+	morrowind.esm       ARMO    dwemer_greaves
+	morrowind.esm       ARMO    dwemer_helm
+	morrowind.esm       ARMO    dwemer_pauldron_left
+	morrowind.esm       ARMO    dwemer_pauldron_right
+	morrowind.esm       ARMO    dwemer_shield
+	morrowind.esm       ARMO    ebony_boots
+	morrowind.esm       ARMO    ebony_bracer_left
+	morrowind.esm       ARMO    ebony_bracer_left_tgeb
+	morrowind.esm       ARMO    ebony_bracer_right
+	morrowind.esm       ARMO    ebony_bracer_right_tgeb
+	morrowind.esm       ARMO    ebony_closed_helm
+	morrowind.esm       ARMO    ebony_closed_helm_fghl
+	morrowind.esm       ARMO    ebony_cuirass
+	morrowind.esm       ARMO    ebony_greaves
+	morrowind.esm       ARMO    ebony_pauldron_left
+	morrowind.esm       ARMO    ebony_pauldron_right
+	morrowind.esm       ARMO    ebony_shield
+	morrowind.esm       ARMO    ebony_shield_auriel
+	morrowind.esm       ARMO    ebony_towershield
+	morrowind.esm       ARMO    fur_bearskin_cuirass
+	morrowind.esm       ARMO    fur_bracer_left
+	morrowind.esm       ARMO    fur_bracer_right
+	morrowind.esm       ARMO    fur_colovian_helm
+	morrowind.esm       ARMO    fur_cuirass
+	morrowind.esm       ARMO    fur_gauntlet_left
+	morrowind.esm       ARMO    fur_gauntlet_right
+	morrowind.esm       ARMO    glass_boots
+	morrowind.esm       ARMO    glass_greaves
+	morrowind.esm       ARMO    gondolier_helm
+	morrowind.esm       ARMO    heavy_leather_boots
+	morrowind.esm       ARMO    imperial boots
+	morrowind.esm       ARMO    imperial helmet armor
+	morrowind.esm       ARMO    imperial helmet armor_dae_curse
+	morrowind.esm       ARMO    imperial left gauntlet
+	morrowind.esm       ARMO    imperial left pauldron
+	morrowind.esm       ARMO    imperial right gauntlet
+	morrowind.esm       ARMO    imperial right pauldron
+	morrowind.esm       ARMO    imperial shield
+	morrowind.esm       ARMO    imperial_chain_coif_helm
+	morrowind.esm       ARMO    imperial_greaves
+	morrowind.esm       ARMO    indoril boots
+	morrowind.esm       ARMO    indoril cuirass
+	morrowind.esm       ARMO    indoril left gauntlet
+	morrowind.esm       ARMO    indoril pauldron left
+	morrowind.esm       ARMO    indoril pauldron right
+	morrowind.esm       ARMO    indoril right gauntlet
+	morrowind.esm       ARMO    indoril shield
+	morrowind.esm       ARMO    iron_bracer_left
+	morrowind.esm       ARMO    iron_bracer_right
+	morrowind.esm       ARMO    iron_gauntlet_left
+	morrowind.esm       ARMO    iron_gauntlet_right
+	morrowind.esm       ARMO    iron_greaves
+	morrowind.esm       ARMO    iron_pauldron_left
+	morrowind.esm       ARMO    iron_pauldron_right
+	morrowind.esm       ARMO    iron_shield
+	morrowind.esm       ARMO    iron_towershield
+	morrowind.esm       ARMO    left leather bracer
+	morrowind.esm       ARMO    mole_crab_helm
+	morrowind.esm       ARMO    morag_tong_helm
+	morrowind.esm       ARMO    netch_leather_boiled_cuirass
+	morrowind.esm       ARMO    netch_leather_boiled_helm
+	morrowind.esm       ARMO    netch_leather_helm
+	morrowind.esm       ARMO    netch_leather_shield
+	morrowind.esm       ARMO    netch_leather_towershield
+	morrowind.esm       ARMO    newtscale_cuirass
+	morrowind.esm       ARMO    nordic_iron_cuirass
+	morrowind.esm       ARMO    nordic_iron_helm
+	morrowind.esm       ARMO    nordic_ringmail_cuirass
+	morrowind.esm       ARMO    orcish_boots
+	morrowind.esm       ARMO    orcish_bracer_left
+	morrowind.esm       ARMO    orcish_bracer_right
+	morrowind.esm       ARMO    orcish_cuirass
+	morrowind.esm       ARMO    orcish_greaves
+	morrowind.esm       ARMO    orcish_helm
+	morrowind.esm       ARMO    orcish_pauldron_left
+	morrowind.esm       ARMO    orcish_pauldron_right
+	morrowind.esm       ARMO    orcish_towershield
+	morrowind.esm       ARMO    right leather bracer
+	morrowind.esm       ARMO    silver_cuirass
+	morrowind.esm       ARMO    silver_dukesguard_cuirass
+	morrowind.esm       ARMO    silver_helm
+	morrowind.esm       ARMO    steel_towershield
+	morrowind.esm       ARMO    templar boots
+	morrowind.esm       ARMO    templar bracer left
+	morrowind.esm       ARMO    templar bracer right
+	morrowind.esm       ARMO    templar_cuirass
+	morrowind.esm       ARMO    templar_greaves
+	morrowind.esm       ARMO    templar_pauldron_left
+	morrowind.esm       ARMO    templar_pauldron_right
+	morrowind.esm       ARMO    trollbone_cuirass
+	morrowind.esm       ARMO    trollbone_shield
+	morrowind.esm       CLOT    common_amulet_01
+	morrowind.esm       CLOT    common_amulet_02
+	morrowind.esm       CLOT    common_amulet_03
+	morrowind.esm       CLOT    common_amulet_04
+	morrowind.esm       CLOT    common_amulet_05
+	morrowind.esm       CLOT    common_pants_01
+	morrowind.esm       CLOT    common_pants_01_a
+	morrowind.esm       CLOT    common_pants_01_e
+	morrowind.esm       CLOT    common_pants_01_u
+	morrowind.esm       CLOT    common_pants_01_z
+	morrowind.esm       CLOT    common_pants_02
+	morrowind.esm       CLOT    common_pants_02_hentus
+	morrowind.esm       CLOT    common_pants_03
+	morrowind.esm       CLOT    common_pants_03_b
+	morrowind.esm       CLOT    common_pants_03_c
+	morrowind.esm       CLOT    common_pants_04
+	morrowind.esm       CLOT    common_pants_04_b
+	morrowind.esm       CLOT    common_pants_05
+	morrowind.esm       CLOT    common_ring_01
+	morrowind.esm       CLOT    common_ring_02
+	morrowind.esm       CLOT    common_ring_03
+	morrowind.esm       CLOT    common_ring_04
+	morrowind.esm       CLOT    common_ring_05
+	morrowind.esm       CLOT    common_ring_danar
+	morrowind.esm       CLOT    common_robe_01
+	morrowind.esm       CLOT    common_robe_02
+	morrowind.esm       CLOT    common_robe_02_h
+	morrowind.esm       CLOT    common_robe_02_hh
+	morrowind.esm       CLOT    common_robe_02_r
+	morrowind.esm       CLOT    common_robe_02_rr
+	morrowind.esm       CLOT    common_robe_02_t
+	morrowind.esm       CLOT    common_robe_02_tt
+	morrowind.esm       CLOT    common_robe_03
+	morrowind.esm       CLOT    common_robe_03_a
+	morrowind.esm       CLOT    common_robe_03_b
+	morrowind.esm       CLOT    common_robe_04
+	morrowind.esm       CLOT    common_robe_05
+	morrowind.esm       CLOT    common_robe_05_a
+	morrowind.esm       CLOT    common_robe_05_b
+	morrowind.esm       CLOT    common_robe_05_c
+	morrowind.esm       CLOT    common_shirt_01
+	morrowind.esm       CLOT    common_shirt_01_a
+	morrowind.esm       CLOT    common_shirt_01_e
+	morrowind.esm       CLOT    common_shirt_01_u
+	morrowind.esm       CLOT    common_shirt_01_z
+	morrowind.esm       CLOT    common_shirt_02
+	morrowind.esm       CLOT    common_shirt_02_h
+	morrowind.esm       CLOT    common_shirt_02_hh
+	morrowind.esm       CLOT    common_shirt_02_r
+	morrowind.esm       CLOT    common_shirt_02_rr
+	morrowind.esm       CLOT    common_shirt_02_t
+	morrowind.esm       CLOT    common_shirt_02_tt
+	morrowind.esm       CLOT    common_shirt_03
+	morrowind.esm       CLOT    common_shirt_03_b
+	morrowind.esm       CLOT    common_shirt_03_c
+	morrowind.esm       CLOT    common_shirt_04
+	morrowind.esm       CLOT    common_shirt_04_a
+	morrowind.esm       CLOT    common_shirt_04_b
+	morrowind.esm       CLOT    common_shirt_04_c
+	morrowind.esm       CLOT    common_shirt_05
+	morrowind.esm       CLOT    common_shirt_gondolier
+	morrowind.esm       CLOT    common_skirt_01
+	morrowind.esm       CLOT    common_skirt_02
+	morrowind.esm       CLOT    common_skirt_03
+	morrowind.esm       CLOT    common_skirt_04
+	morrowind.esm       CLOT    common_skirt_04_c
+	morrowind.esm       CLOT    common_skirt_05
+	morrowind.esm       CLOT    daedric_special
+	morrowind.esm       CLOT    daedric_special01
+	morrowind.esm       CLOT    expensive_robe_01
+	morrowind.esm       CLOT    expensive_robe_02
+	morrowind.esm       CLOT    expensive_robe_02_a
+	morrowind.esm       CLOT    expensive_robe_03
+	morrowind.esm       CLOT    exquisite_robe_01
+	morrowind.esm       CLOT    extravagant_robe_01_a
+	morrowind.esm       CLOT    extravagant_robe_01_b
+	morrowind.esm       CLOT    extravagant_robe_01_c
+	morrowind.esm       CLOT    extravagant_robe_01_h
+	morrowind.esm       CLOT    extravagant_robe_01_r
+	morrowind.esm       CLOT    extravagant_robe_01_t
+	morrowind.esm       CLOT    extravagant_robe_02
+	morrowind.esm       CLOT    imperial belt
+	morrowind.esm       CLOT    imperial skirt_clothing
+	morrowind.esm       CLOT    indoril_belt
+	morrowind.esm       CLOT    julielle_aumines_amulet
+	morrowind.esm       CLOT    othril_ring
+	morrowind.esm       CLOT    templar belt
+	morrowind.esm       CLOT    templar skirt obj
+	morrowind.esm       CLOT    therana's skirt
+	morrowind.esm       WEAP    6th bell hammer
+	morrowind.esm       WEAP    bonemold arrow
+	morrowind.esm       WEAP    bonemold long bow
+	morrowind.esm       WEAP    chargen dagger
+	morrowind.esm       WEAP    chitin club
+	morrowind.esm       WEAP    chitin dagger
+	morrowind.esm       WEAP    chitin short bow
+	morrowind.esm       WEAP    chitin spear
+	morrowind.esm       WEAP    chitin throwing star
+	morrowind.esm       WEAP    daedric arrow
+	morrowind.esm       WEAP    daedric battle axe
+	morrowind.esm       WEAP    daedric claymore
+	morrowind.esm       WEAP    daedric club
+	morrowind.esm       WEAP    daedric dai-katana
+	morrowind.esm       WEAP    daedric dart
+	morrowind.esm       WEAP    daedric katana
+	morrowind.esm       WEAP    daedric long bow
+	morrowind.esm       WEAP    daedric longsword
+	morrowind.esm       WEAP    daedric shortsword
+	morrowind.esm       WEAP    daedric spear
+	morrowind.esm       WEAP    daedric staff
+	morrowind.esm       WEAP    daedric tanto
+	morrowind.esm       WEAP    daedric wakizashi
+	morrowind.esm       WEAP    daedric wakizashi_hhst
+	morrowind.esm       WEAP    daedric war axe
+	morrowind.esm       WEAP    daedric warhammer
+	morrowind.esm       WEAP    daedric_club_tgdc
+	morrowind.esm       WEAP    dart_uniq_judgement
+	morrowind.esm       WEAP    dreugh club
+	morrowind.esm       WEAP    dreugh staff
+	morrowind.esm       WEAP    dwarven battle axe
+	morrowind.esm       WEAP    dwarven claymore
+	morrowind.esm       WEAP    dwarven crossbow
+	morrowind.esm       WEAP    dwarven halberd
+	morrowind.esm       WEAP    dwarven mace
+	morrowind.esm       WEAP    dwarven shortsword
+	morrowind.esm       WEAP    dwarven spear
+	morrowind.esm       WEAP    dwarven war axe
+	morrowind.esm       WEAP    dwarven warhammer
+	morrowind.esm       WEAP    dwarven_hammer_volendrung
+	morrowind.esm       WEAP    ebony broadsword
+	morrowind.esm       WEAP    ebony broadsword_dae_cursed
+	morrowind.esm       WEAP    ebony dart
+	morrowind.esm       WEAP    ebony longsword
+	morrowind.esm       WEAP    ebony mace
+	morrowind.esm       WEAP    ebony shortsword
+	morrowind.esm       WEAP    ebony spear
+	morrowind.esm       WEAP    ebony staff
+	morrowind.esm       WEAP    ebony throwing star
+	morrowind.esm       WEAP    ebony_bow_auriel
+	morrowind.esm       WEAP    glass arrow
+	morrowind.esm       WEAP    glass claymore
+	morrowind.esm       WEAP    glass dagger
+	morrowind.esm       WEAP    glass dagger_dae_cursed
+	morrowind.esm       WEAP    glass halberd
+	morrowind.esm       WEAP    glass longsword
+	morrowind.esm       WEAP    glass staff
+	morrowind.esm       WEAP    glass throwing knife
+	morrowind.esm       WEAP    glass throwing star
+	morrowind.esm       WEAP    glass war axe
+	morrowind.esm       WEAP    glass_dagger_enamor
+	morrowind.esm       WEAP    imperial broadsword
+	morrowind.esm       WEAP    iron arrow
+	morrowind.esm       WEAP    iron battle axe
+	morrowind.esm       WEAP    iron bolt
+	morrowind.esm       WEAP    iron claymore
+	morrowind.esm       WEAP    iron club
+	morrowind.esm       WEAP    iron dagger
+	morrowind.esm       WEAP    iron dagger_telasero_unique
+	morrowind.esm       WEAP    iron halberd
+	morrowind.esm       WEAP    iron long spear
+	morrowind.esm       WEAP    iron longsword
+	morrowind.esm       WEAP    iron saber
+	morrowind.esm       WEAP    iron shortsword
+	morrowind.esm       WEAP    iron spear
+	morrowind.esm       WEAP    iron throwing knife
+	morrowind.esm       WEAP    iron wakizashi
+	morrowind.esm       WEAP    iron war axe
+	morrowind.esm       WEAP    iron warhammer
+	morrowind.esm       WEAP    long bow
+	morrowind.esm       WEAP    lugrub's axe
+	morrowind.esm       WEAP    nordic battle axe
+	morrowind.esm       WEAP    nordic broadsword
+	morrowind.esm       WEAP    nordic claymore
+	morrowind.esm       WEAP    orcish bolt
+	morrowind.esm       WEAP    orcish warhammer
+	morrowind.esm       WEAP    rusty_dagger_unique
+	morrowind.esm       WEAP    short bow
+	morrowind.esm       WEAP    spiked club
+	morrowind.esm       WEAP    steel arrow
+	morrowind.esm       WEAP    steel axe
+	morrowind.esm       WEAP    steel bolt
+	morrowind.esm       WEAP    steel claymore
+	morrowind.esm       WEAP    steel club
+	morrowind.esm       WEAP    steel crossbow
+	morrowind.esm       WEAP    steel dagger
+	morrowind.esm       WEAP    steel dai-katana
+	morrowind.esm       WEAP    steel dart
+	morrowind.esm       WEAP    steel halberd
+	morrowind.esm       WEAP    steel katana
+	morrowind.esm       WEAP    steel longbow
+	morrowind.esm       WEAP    steel longsword
+	morrowind.esm       WEAP    steel saber
+	morrowind.esm       WEAP    steel shortsword
+	morrowind.esm       WEAP    steel spear
+	morrowind.esm       WEAP    steel staff
+	morrowind.esm       WEAP    steel tanto
+	morrowind.esm       WEAP    steel throwing knife
+	morrowind.esm       WEAP    steel wakizashi
+	morrowind.esm       WEAP    steel war axe
+	morrowind.esm       WEAP    wooden staff
+	tribunal.esm        ARMO    adamantium boots
+	tribunal.esm        ARMO    adamantium_bracer_left
+	tribunal.esm        ARMO    adamantium_bracer_right
+	tribunal.esm        ARMO    adamantium_greaves
+	tribunal.esm        ARMO    adamantium_helm
+	tribunal.esm        ARMO    adamantium_pauldron_left
+	tribunal.esm        ARMO    adamantium_pauldron_right
+	tribunal.esm        ARMO    addamantium_helm
+	tribunal.esm        ARMO    bonemold_boots
+	tribunal.esm        ARMO    bonemold_cuirass
+	tribunal.esm        ARMO    bonemold_helm
+	tribunal.esm        ARMO    bonemold_pauldron_r
+	tribunal.esm        ARMO    bonemold_shield
+	tribunal.esm        ARMO    chitin boots
+	tribunal.esm        ARMO    chitin cuirass
+	tribunal.esm        ARMO    chitin greaves
+	tribunal.esm        ARMO    chitin guantlet - left
+	tribunal.esm        ARMO    darkbrotherhood boots
+	tribunal.esm        ARMO    darkbrotherhood cuirass
+	tribunal.esm        ARMO    darkbrotherhood gauntlet_l
+	tribunal.esm        ARMO    darkbrotherhood gauntlet_r
+	tribunal.esm        ARMO    darkbrotherhood greaves
+	tribunal.esm        ARMO    darkbrotherhood helm
+	tribunal.esm        ARMO    darkbrotherhood pauldron_l
+	tribunal.esm        ARMO    darkbrotherhood pauldron_r
+	tribunal.esm        ARMO    dreugh_shield
+	tribunal.esm        ARMO    dwemer_shield_battle_unique
+	tribunal.esm        ARMO    ebony_shield_auriel_x
+	tribunal.esm        ARMO    fur_boots
+	tribunal.esm        ARMO    fur_helm
+	tribunal.esm        ARMO    fur_pauldron_left
+	tribunal.esm        ARMO    fur_pauldron_right
+	tribunal.esm        ARMO    goblin_shield
+	tribunal.esm        ARMO    helsethguard_boots
+	tribunal.esm        ARMO    helsethguard_cuirass
+	tribunal.esm        ARMO    helsethguard_gauntlet_left
+	tribunal.esm        ARMO    helsethguard_gauntlet_right
+	tribunal.esm        ARMO    helsethguard_greaves
+	tribunal.esm        ARMO    helsethguard_helmet
+	tribunal.esm        ARMO    helsethguard_pauldron_left
+	tribunal.esm        ARMO    helsethguard_pauldron_right
+	tribunal.esm        ARMO    imperial cuirass_armor
+	tribunal.esm        ARMO    imperial_chain_cuirass
+	tribunal.esm        ARMO    imperial_chain_greaves
+	tribunal.esm        ARMO    imperial_chain_pauldron_left
+	tribunal.esm        ARMO    imperial_chain_pauldron_right
+	tribunal.esm        ARMO    imperial_studded_cuirass
+	tribunal.esm        ARMO    indoril helmet
+	tribunal.esm        ARMO    indoril_mh_guard_boots
+	tribunal.esm        ARMO    indoril_mh_guard_cuirass
+	tribunal.esm        ARMO    indoril_mh_guard_gauntlet_l
+	tribunal.esm        ARMO    indoril_mh_guard_gauntlet_r
+	tribunal.esm        ARMO    indoril_mh_guard_greaves
+	tribunal.esm        ARMO    indoril_mh_guard_helmet
+	tribunal.esm        ARMO    indoril_mh_guard_pauldron_l
+	tribunal.esm        ARMO    indoril_mh_guard_pauldron_r
+	tribunal.esm        ARMO    indoril_mh_guard_shield
+	tribunal.esm        ARMO    iron boots
+	tribunal.esm        ARMO    iron_cuirass
+	tribunal.esm        ARMO    iron_helmet
+	tribunal.esm        ARMO    netch_leather_boots
+	tribunal.esm        ARMO    netch_leather_cuirass
+	tribunal.esm        ARMO    netch_leather_gauntlet_left
+	tribunal.esm        ARMO    netch_leather_gauntlet_right
+	tribunal.esm        ARMO    netch_leather_pauldron_left
+	tribunal.esm        ARMO    netch_leather_pauldron_right
+	tribunal.esm        ARMO    steel_cuirass
+	tribunal.esm        ARMO    steel_gauntlet_left
+	tribunal.esm        ARMO    steel_gauntlet_right
+	tribunal.esm        ARMO    steel_helm
+	tribunal.esm        ARMO    trollbone_helm
+	tribunal.esm        CLOT    common_pants_06
+	tribunal.esm        CLOT    common_pants_07
+	tribunal.esm        CLOT    common_robe_eot
+	tribunal.esm        CLOT    common_shirt_06
+	tribunal.esm        CLOT    common_shirt_07
+	tribunal.esm        CLOT    common_skirt_06
+	tribunal.esm        CLOT    common_skirt_07
+	tribunal.esm        CLOT    expensive_shirt_mournhold
+	tribunal.esm        CLOT    helseth's robe
+	tribunal.esm        WEAP    adamantium_axe
+	tribunal.esm        WEAP    adamantium_claymore
+	tribunal.esm        WEAP    adamantium_mace
+	tribunal.esm        WEAP    adamantium_shortsword
+	tribunal.esm        WEAP    adamantium_spear
+	tribunal.esm        WEAP    centurion_projectile_dart
+	tribunal.esm        WEAP    ebony dart_db_unique
+	tribunal.esm        WEAP    ebony scimitar
+	tribunal.esm        WEAP    ebony_bow_auriel_x
+	tribunal.esm        WEAP    fine spring dart
+	tribunal.esm        WEAP    goblin_club
+	tribunal.esm        WEAP    goblin_sword
+	tribunal.esm        WEAP    imperial shortsword
+	tribunal.esm        WEAP    iron broadsword
+	tribunal.esm        WEAP    iron mace
+	tribunal.esm        WEAP    silver dagger_droth_unique
+	tribunal.esm        WEAP    silver dagger_droth_unique_a
+	tribunal.esm        WEAP    silver dagger_iryon_unique
+	tribunal.esm        WEAP    silver dagger_othril_unique
+	tribunal.esm        WEAP    silver dagger_rathalas_unique
+	tribunal.esm        WEAP    silver staff
+	tribunal.esm        WEAP    spring dart
+	tribunal.esm        WEAP    steel battle axe
+	tribunal.esm        WEAP    steel broadsword
+	tribunal.esm        WEAP    steel mace

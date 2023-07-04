@@ -1,0 +1,523 @@
+LGNPC_PaxRedoran_3.esp: DUP-INF DUP-REC EVLGMST MENUMOD OVR-REC
+    [EVLGMST] Tribunal(11) Bloodmoon(61):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfalarmmessage
+	BM swerewolfpopup
+	BM swerewolfrefusal
+	BM swerewolfrestmessage
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+	TB steleportdisabled
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AshStatueTopic)
+	SCPT(jo_AdrusoRaviroScript)
+	SCPT(jo_AlvurReldHouseScript)
+	SCPT(jo_AnsaLlerithScript)
+	SCPT(jo_AnumidiumPlans)
+	SCPT(jo_ArenaPitScript)
+	SCPT(jo_ArmigerStronholdScript)
+	SCPT(jo_AshStatueCurse)
+	SCPT(jo_AshStatueRemove)
+	SCPT(jo_AshlanderCampScript)
+	SCPT(jo_AshlanderChestScript)
+	SCPT(jo_AshmelechScript)
+	SCPT(jo_AshunartesShrineScript)
+	SCPT(jo_AvonOranScript)
+	SCPT(jo_BMRamimilkScript)
+	SCPT(jo_BMSudanitScript)
+	SCPT(jo_BRFolio)
+	SCPT(jo_BROctavo)
+	SCPT(jo_BROctavo_05)
+	SCPT(jo_BROctavo_07)
+	SCPT(jo_BRQuarto)
+	SCPT(jo_BandenUvirithScript)
+	SCPT(jo_BolvynCorpseScript)
+	SCPT(jo_BolvynInventoryScript)
+	SCPT(jo_BolvynReturnScript)
+	SCPT(jo_BugdulScript)
+	SCPT(jo_CairnScript)
+	SCPT(jo_Cattle1Script)
+	SCPT(jo_ChilaGrottoPRScript)
+	SCPT(jo_DCBodyScript)
+	SCPT(jo_DagothSerdosScript)
+	SCPT(jo_DelynaScript)
+	SCPT(jo_DomeseaTimer)
+	SCPT(jo_DrenTimer)
+	SCPT(jo_EbonyArmorScript)
+	SCPT(jo_EndrisDilmynsShackScript)
+	SCPT(jo_ErerTimer)
+	SCPT(jo_FelsenTimer)
+	SCPT(jo_FjorolfgarEscapeTimer)
+	SCPT(jo_FjorolfgarScript)
+	SCPT(jo_GardingScript)
+	SCPT(jo_GardingUpdate)
+	SCPT(jo_GeelChestScript)
+	SCPT(jo_GeelScript)
+	SCPT(jo_GelephorScript)
+	SCPT(jo_GinithTombScript)
+	SCPT(jo_GuestHouse_Script)
+	SCPT(jo_GuestQuarters_Script)
+	SCPT(jo_HVBlightedKwamaScript)
+	SCPT(jo_HVBlightedKwanaCounter)
+	SCPT(jo_HVGestationTimer)
+	SCPT(jo_HVKwamaBlinderScript)
+	SCPT(jo_HVKwamaParalyzerScript)
+	SCPT(jo_HVKwamaPoisonerScript)
+	SCPT(jo_HVKwamaScript)
+	SCPT(jo_HVKwamaShockerScript)
+	SCPT(jo_HVQueenScript)
+	SCPT(jo_HVScript)
+	SCPT(jo_HairatVassamsiDoorScript)
+	SCPT(jo_HlerasSethandusScript)
+	SCPT(jo_IlmeniTUDungeonScript)
+	SCPT(jo_IndarenKeyScript)
+	SCPT(jo_IndarenTombScript)
+	SCPT(jo_LirielleTimer)
+	SCPT(jo_LlerarTimer)
+	SCPT(jo_LorurmendChestScript)
+	SCPT(jo_LuniaScript)
+	SCPT(jo_MaarGanScript)
+	SCPT(jo_MababiKey)
+	SCPT(jo_MandasGuards)
+	SCPT(jo_MarandusScript)
+	SCPT(jo_MarandusULScript)
+	SCPT(jo_MarynTherdasScript)
+	SCPT(jo_MorvaynBodyGuards)
+	SCPT(jo_MorvaynManorDoorScript)
+	SCPT(jo_MosnamScript)
+	SCPT(jo_MoveMorvayn)
+	SCPT(jo_NamsonNethanScript)
+	SCPT(jo_NartiseArobarFollow)
+	SCPT(jo_NartiseScript)
+	SCPT(jo_NavamVeranScript)
+	SCPT(jo_NeranoTombScript)
+	SCPT(jo_NobilityTimer)
+	SCPT(jo_OdirniranScript)
+	SCPT(jo_OptioTimer)
+	SCPT(jo_OranRetaliationTimer)
+	SCPT(jo_PanudDamageScript)
+	SCPT(jo_PanudFireBarricadeScript)
+	SCPT(jo_PanudObjectsScript)
+	SCPT(jo_PiranBattleScript)
+	SCPT(jo_PiranCavernsDoorScript)
+	SCPT(jo_PiranCounterattactTimer)
+	SCPT(jo_PiranScript)
+	SCPT(jo_PoniusTimer)
+	SCPT(jo_RamimilkShrineDoorScript)
+	SCPT(jo_RamimilkShrineScript)
+	SCPT(jo_RaviroVampScript)
+	SCPT(jo_RaynilieRethanScript)
+	SCPT(jo_RedoranChestScript)
+	SCPT(jo_RedoranCouncilEntranceScript)
+	SCPT(jo_RedoranExpulsionTimer)
+	SCPT(jo_RedoranGuardGnisisScript)
+	SCPT(jo_RelothTombScript)
+	SCPT(jo_RethanGuardScript)
+	SCPT(jo_ReylasLlerithScript)
+	SCPT(jo_RomulasScript)
+	SCPT(jo_SarethiKeyScript)
+	SCPT(jo_SarethiManorScript)
+	SCPT(jo_SarvilYahazScript)
+	SCPT(jo_ShieldScript)
+	SCPT(jo_ShurinbaalScript)
+	SCPT(jo_TelFyrOnyxHallScript)
+	SCPT(jo_TelUvirithPatrolScript)
+	SCPT(jo_TelUvrithSlaveKey)
+	SCPT(jo_ThalScript)
+	SCPT(jo_TitusAdronicusScript)
+	SCPT(jo_TovasVerelnimScript)
+	SCPT(jo_TpringScript)
+	SCPT(jo_TralenMaladasScript)
+	SCPT(jo_UsheejaScript)
+	SCPT(jo_VemimManorBedroomScript)
+	SCPT(jo_VemimManorRightWingScript)
+	SCPT(jo_VenimTombScript)
+	SCPT(jo_YakinTimer)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    blades
+	bloodmoon.esm       DIAL    east empire company
+	bloodmoon.esm       DIAL    forts
+	bloodmoon.esm       DIAL    hire guards
+	bloodmoon.esm       DIAL    imperial law
+	bloodmoon.esm       DIAL    my husband
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    smuggling
+	morrowind.esm       DIAL    affairs of honor
+	morrowind.esm       DIAL    ald velothi
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    alms for the poor
+	morrowind.esm       DIAL    altmer
+	morrowind.esm       DIAL    ancestors
+	morrowind.esm       DIAL    ancestral burial tombs
+	morrowind.esm       DIAL    andasreth
+	morrowind.esm       DIAL    anumidium
+	morrowind.esm       DIAL    arena
+	morrowind.esm       DIAL    arethan mandas
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    armor repair debts
+	morrowind.esm       DIAL    ash statue
+	morrowind.esm       DIAL    ash storm
+	morrowind.esm       DIAL    ashlands
+	morrowind.esm       DIAL    assemanu
+	morrowind.esm       DIAL    athyn sarethi
+	morrowind.esm       DIAL    aundae
+	morrowind.esm       DIAL    bad dreams
+	morrowind.esm       DIAL    baladas
+	morrowind.esm       DIAL    barracks
+	morrowind.esm       DIAL    because of my son
+	morrowind.esm       DIAL    blight disease
+	morrowind.esm       DIAL    blight monsters
+	morrowind.esm       DIAL    bologra
+	morrowind.esm       DIAL    bolvyn venim
+	morrowind.esm       DIAL    bosmer
+	morrowind.esm       DIAL    brara morvayn
+	morrowind.esm       DIAL    breton
+	morrowind.esm       DIAL    brood of lord irarak
+	morrowind.esm       DIAL    buoyant armigers
+	morrowind.esm       DIAL    business partner
+	morrowind.esm       DIAL    caldera
+	morrowind.esm       DIAL    caldera ebony mines
+	morrowind.esm       DIAL    canctunian ponius
+	morrowind.esm       DIAL    choose a hortator
+	morrowind.esm       DIAL    compassion
+	morrowind.esm       DIAL    control the ordinators
+	morrowind.esm       DIAL    convinced my son
+	morrowind.esm       DIAL    corkbulb root
+	morrowind.esm       DIAL    corprus victims
+	morrowind.esm       DIAL    courtesy
+	morrowind.esm       DIAL    cyrodiilic brandy
+	morrowind.esm       DIAL    dagoth tanis
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    darius
+	morrowind.esm       DIAL    delyna mandas
+	morrowind.esm       DIAL    destination
+	morrowind.esm       DIAL    dreugh
+	morrowind.esm       DIAL    drinar varyon
+	morrowind.esm       DIAL    drulene falen
+	morrowind.esm       DIAL    duel
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    ebonheart
+	morrowind.esm       DIAL    ebony
+	morrowind.esm       DIAL    ebony trade
+	morrowind.esm       DIAL    eggmine
+	morrowind.esm       DIAL    empire
+	morrowind.esm       DIAL    evidence of corruption
+	morrowind.esm       DIAL    faith
+	morrowind.esm       DIAL    false incarnate
+	morrowind.esm       DIAL    fedris tharen
+	morrowind.esm       DIAL    feel ill
+	morrowind.esm       DIAL    felsen sethandus
+	morrowind.esm       DIAL    fen madach
+	morrowind.esm       DIAL    fighters guild
+	morrowind.esm       DIAL    fort buckmoth
+	morrowind.esm       DIAL    fort darius
+	morrowind.esm       DIAL    founder's helm
+	morrowind.esm       DIAL    foyada mamaea
+	morrowind.esm       DIAL    game rats
+	morrowind.esm       DIAL    garisa llethri
+	morrowind.esm       DIAL    get cured
+	morrowind.esm       DIAL    ghostfence
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    gnisis
+	morrowind.esm       DIAL    gnisis temple
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    gold kanet flower
+	morrowind.esm       DIAL    great houses
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    guar
+	morrowind.esm       DIAL    guild guide
+	morrowind.esm       DIAL    guril retheran
+	morrowind.esm       DIAL    help a poor pilgrim
+	morrowind.esm       DIAL    hetman abelmawia
+	morrowind.esm       DIAL    hlaalu hortator
+	morrowind.esm       DIAL    hlaren ramoran
+	morrowind.esm       DIAL    hortator
+	morrowind.esm       DIAL    hostile mudcrabs
+	morrowind.esm       DIAL    house dres
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    ilmeni dren
+	morrowind.esm       DIAL    imperial
+	morrowind.esm       DIAL    imperial corruption
+	morrowind.esm       DIAL    imperial cult
+	morrowind.esm       DIAL    imperial guard
+	morrowind.esm       DIAL    imperial legion
+	morrowind.esm       DIAL    imperial office of census and excise
+	morrowind.esm       DIAL    join house redoran
+	morrowind.esm       DIAL    join house telvanni
+	morrowind.esm       DIAL    join the morag tong
+	morrowind.esm       DIAL    join the temple
+	morrowind.esm       DIAL    joncis dalomax
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    khuul
+	morrowind.esm       DIAL    killing and murder
+	morrowind.esm       DIAL    koal cave
+	morrowind.esm       DIAL    lord irarak
+	morrowind.esm       DIAL    maar gan
+	morrowind.esm       DIAL    madura seran
+	morrowind.esm       DIAL    mages guild
+	morrowind.esm       DIAL    mages guild monopoly
+	morrowind.esm       DIAL    make amends
+	morrowind.esm       DIAL    mask of vivec
+	morrowind.esm       DIAL    mathis dalobar
+	morrowind.esm       DIAL    mehra drora
+	morrowind.esm       DIAL    merta
+	morrowind.esm       DIAL    miner arobar
+	morrowind.esm       DIAL    molag amur
+	morrowind.esm       DIAL    molag mar
+	morrowind.esm       DIAL    morag tong
+	morrowind.esm       DIAL    morvayn manor
+	morrowind.esm       DIAL    my locket
+	morrowind.esm       DIAL    nalvilie saren
+	morrowind.esm       DIAL    nalvyna sarinith
+	morrowind.esm       DIAL    necromancy
+	morrowind.esm       DIAL    nord
+	morrowind.esm       DIAL    odirniran
+	morrowind.esm       DIAL    optio bologra
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    ordinators
+	morrowind.esm       DIAL    ordinators have failed
+	morrowind.esm       DIAL    pilgrimages
+	morrowind.esm       DIAL    potion
+	morrowind.esm       DIAL    preserve the peace
+	morrowind.esm       DIAL    provide comfort
+	morrowind.esm       DIAL    recall the legions
+	morrowind.esm       DIAL    recruit some miners
+	morrowind.esm       DIAL    red mountain
+	morrowind.esm       DIAL    redguard
+	morrowind.esm       DIAL    redoran councilors
+	morrowind.esm       DIAL    redoran hortator
+	morrowind.esm       DIAL    ring of the wind
+	morrowind.esm       DIAL    rufinus alleius
+	morrowind.esm       DIAL    rules
+	morrowind.esm       DIAL    saints
+	morrowind.esm       DIAL    salyn sarethi
+	morrowind.esm       DIAL    scrib
+	morrowind.esm       DIAL    seven graces
+	morrowind.esm       DIAL    seven trials
+	morrowind.esm       DIAL    shal
+	morrowind.esm       DIAL    shields
+	morrowind.esm       DIAL    shurinbaal
+	morrowind.esm       DIAL    silt strider
+	morrowind.esm       DIAL    sixth house
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    slander
+	morrowind.esm       DIAL    slaughterfish
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       DIAL    soul sickness
+	morrowind.esm       DIAL    strength
+	morrowind.esm       DIAL    stronghold
+	morrowind.esm       DIAL    submit myself
+	morrowind.esm       DIAL    sudanit mine
+	morrowind.esm       DIAL    taken by cultists
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    taxes from gnisis
+	morrowind.esm       DIAL    tear
+	morrowind.esm       DIAL    telvanni bug musk
+	morrowind.esm       DIAL    telvanni hortator
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    theldyn virith
+	morrowind.esm       DIAL    thieves guild
+	morrowind.esm       DIAL    toris saren
+	morrowind.esm       DIAL    troubles for house redoran
+	morrowind.esm       DIAL    troubling times
+	morrowind.esm       DIAL    twin lamps
+	morrowind.esm       DIAL    unrest in cyrodiil city
+	morrowind.esm       DIAL    vampires
+	morrowind.esm       DIAL    vampirism cure
+	morrowind.esm       DIAL    vanjirra
+	morrowind.esm       DIAL    varvur sarethi
+	morrowind.esm       DIAL    varyon family
+	morrowind.esm       DIAL    vedam dren
+	morrowind.esm       DIAL    velfred the outlaw
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       DIAL    widow vabdas
+	morrowind.esm       NPC_    drerel indaren
+	morrowind.esm       NPC_    elvas savel
+	morrowind.esm       NPC_    hakar the candle
+	morrowind.esm       NPC_    hetman abelmawia
+	morrowind.esm       NPC_    raviso andalas
+	morrowind.esm       NPC_    sodres nerethi
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    b5_redoranhort
+	tribunal.esm        DIAL    b6_berohort
+	tribunal.esm        DIAL    b6_curiohort
+	tribunal.esm        DIAL    b6_ynglinghort
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    cure disease potion
+	tribunal.esm        DIAL    dissident priests
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    ebony mail
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    hh_ashlanderebony
+	tribunal.esm        DIAL    hr_archmaster
+	tribunal.esm        DIAL    hr_arobarkidnap
+	tribunal.esm        DIAL    hr_cowarddisgrace
+	tribunal.esm        DIAL    hr_dagothtanis
+	tribunal.esm        DIAL    hr_lostbanner
+	tribunal.esm        DIAL    hr_morvaynmanor
+	tribunal.esm        DIAL    hr_sixthhousebase
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    lord's mail
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    mt_writguril
+	tribunal.esm        DIAL    mt_writsaren
+	tribunal.esm        DIAL    mv_tradermissed
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        DIAL    travel together
+	tribunal.esm        DIAL    va_vampcult
+	tribunal.esm        DIAL    vampire hunter
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage
+
+[DUP-INF]: ID=227364322170425612(Journal:hr_morvaynmanor)
+  |DATA|NAME:I delivered the Ash Statue to Lloros Sarano. I should speak with Brara Morvayn again.

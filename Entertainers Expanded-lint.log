@@ -1,0 +1,113 @@
+Entertainers Expanded.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Pub_Aldruhn_Skar)
+	SCPT(Pub_Balmora_Council)
+	SCPT(Pub_Balmora_Eight)
+	SCPT(Pub_Balmora_Lucky)
+	SCPT(Pub_Balmora_South)
+	SCPT(Pub_Caldera_Shenk)
+	SCPT(Pub_Ebon_Six)
+	SCPT(Pub_Ghost_Dusk)
+	SCPT(Pub_Maargan_Andus)
+	SCPT(Pub_Pelagiad_Halfway)
+	SCPT(Pub_RavenRock)
+	SCPT(Pub_SMora_Faras)
+	SCPT(Pub_Smora_Gateway)
+	SCPT(Pub_TelBran_Sethan)
+	SCPT(Pub_TelMora_Covenant)
+	SCPT(Pub_Vivec_Black)
+	SCPT(Pub_Vivec_Flower)
+	SCPT(Pub_Vivec_Lizard)
+	SCPT(Pub_Vos_Varo)
+	SCPT(hatScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    fur_colovian_helm
+	morrowind.esm       NPC_    codus callonus
+	morrowind.esm       NPC_    dorisa darvel
+	morrowind.esm       NPC_    gaeldol
+	morrowind.esm       NPC_    jobasha
+	morrowind.esm       NPC_    simine fralinie
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little secret
+
+[MOD-INF]: ID=264127616264709(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:burcanius varo|NAME:Good day. I'm Burcanius Varo, publican of the Varo Tradehouse here in Vos. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Burcanius Varo
+  Entertainers Expanded.esp->|DATA|ONAM:burcanius varo|NAME:Good day. I'm Burcanius Varo, publican of the Varo Tradehouse here in Vos. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Burcanius Varo
+
+[MOD-INF]: ID=18011117566754553(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:manara othan|NAME:Good day. I'm Manara Othan, publican of The Lizard's Head here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Manara Othan
+  Entertainers Expanded.esp->|DATA|ONAM:manara othan|NAME:Good day. I'm Manara Othan, publican of The Lizard's Head here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Manara Othan
+
+[MOD-INF]: ID=171343168140283456(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:dulnea ralaal|NAME:Good day. I'm Dulnea Ralaal, publican of the Eight Plates here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Dulnea Ralaal
+  Entertainers Expanded.esp->|DATA|ONAM:dulnea ralaal|NAME:Good day. I'm Dulnea Ralaal, publican of the Eight Plates here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Dulnea Ralaal
+
+[MOD-INF]: ID=276181128340255511(Topic:little secret)
+  tribunal.esm-------------->|DATA|FNAM:Fighters Guild|NAME:You like to poke your nose into doors out in the backcountry? A little suggestion. The places that look like they're made of a golden metal? With spires and towers? Those are Dwarven ruins. They're kinda dangerous -- partly because of the old Dwarven machines in them, and partly because of the kind of things that like to hide out in such old ruins. All the old ruins inside the Ghostfence, for example, are ancient Dwarven ruins. And I hear that vampires like them, too.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  Entertainers Expanded.esp->|DATA|NAME:So, you play the lute? You should pay a visit to Fryfnhild at The End of the World tavern here in Dagon Fel. She's a master luthier ... you know, someone who makes stringed instruments. If you're good, and have the coin, you might be able to purchase a lute from her like none other.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0NoLore|INTV:|SCVR:25IX3misc_de_lute_01_phat|INTV
+
+[MOD-INF]: ID=288417238154261537(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:bacola closcius|NAME:Good day. I'm Bacola Closcius, publican of the South Wall here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Bacola Closcius
+  Entertainers Expanded.esp->|DATA|ONAM:bacola closcius|NAME:Good day. I'm Bacola Closcius, publican of the South Wall here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Bacola Closcius
+
+[MOD-INF]: ID=495518295322716947(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:thaeril|NAME:Good day. I'm Thaeril, publican of The Covenant here in Tel Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Thaeril
+  Entertainers Expanded.esp->|DATA|ONAM:thaeril|NAME:Good day. I'm Thaeril, publican of The Covenant here in Tel Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Thaeril
+
+[MOD-INF]: ID=527372282078813986(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:fara|NAME:Good day. I'm Fara, publican of the Fara's Hole in the Wall here in Sadrith Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Fara
+  Entertainers Expanded.esp->|DATA|ONAM:fara|NAME:Good day. I'm Fara, publican of the Fara's Hole in the Wall here in Sadrith Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Fara
+
+[MOD-INF]: ID=871414048120983285(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:manse andus|NAME:Good day. I'm Manse Andus, publican of the Andus Tradehouse here in Maar Gan. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Manse Andus
+  Entertainers Expanded.esp->|DATA|ONAM:manse andus|NAME:Good day. I'm Manse Andus, publican of the Andus Tradehouse here in Maar Gan. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Manse Andus
+
+[MOD-INF]: ID=1316215144822713907(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:ery|NAME:Good day. I'm Ery, publican of the Gateway Inn here in Sadrith Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Ery
+  Entertainers Expanded.esp->|DATA|ONAM:ery|NAME:Good day. I'm Ery, publican of the Gateway Inn here in Sadrith Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Ery
+
+[MOD-INF]: ID=1425616576295610166(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:benunius agrudilius|NAME:Good day. I'm Benunius Agrudilius, publican of the Lucky Lockup here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Benunius Agrudilius
+  Entertainers Expanded.esp->|DATA|ONAM:benunius agrudilius|NAME:Good day. I'm Benunius Agrudilius, publican of the Lucky Lockup here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Benunius Agrudilius
+
+[MOD-INF]: ID=1517359713168414066(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:drelasa ramothran|NAME:Good day. I'm Drelasa Ramothran, publican of the Halfway Tavern here in Pelagiad. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Drelasa Ramothran
+  Entertainers Expanded.esp->|DATA|ONAM:drelasa ramothran|NAME:Good day. I'm Drelasa Ramothran, publican of the Halfway Tavern here in Pelagiad. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Drelasa Ramothran
+
+[MOD-INF]: ID=2273810231244525640(Topic:latest rumors)
+  tribunal.esm-------------->|DATA|ANAM:Balmora|NAME:Look. It's not just the crops and herds. The blight storms are making everyone sick. It's not an easy cure, even for a Temple, and all they've got in the backcountry is the odd healer and pilgrim shrine.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;random100 <= 15;
+  Entertainers Expanded.esp->|DATA|ANAM:Balmora|NAME:Look. It's not just the crops and herds. The blight storms are making everyone sick. It's not an easy cure, even for a Temple, and all they've got in the backcountry is the odd healer and pilgrim shrine.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:24JX4C3_DestroyDagoth|INTV:2|BNAM:;random100 <= 15;
+
+[MOD-INF]: ID=2449122240256129515(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:boderi farano|NAME:Good day. I'm Boderi Farano, publican of the Ald Skar Inn here in Ald'ruhn. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Boderi Farano
+  Entertainers Expanded.esp->|DATA|ONAM:boderi farano|NAME:Good day. I'm Boderi Farano, publican of the Ald Skar Inn here in Ald'ruhn. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Boderi Farano
+
+[MOD-INF]: ID=3182146312256410879(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:Agning|NAME:Good day. I'm Agning, publican of the Six Fishes here in Ebonheart. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Agning
+  Entertainers Expanded.esp->|DATA|ONAM:Agning|NAME:Good day. I'm Agning, publican of the Six Fishes here in Ebonheart. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Agning
+
+[MOD-INF]: ID=5710101312554611886(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:raril giral|NAME:Good day. I'm Raril Giral, publican of the Black Shalk Cornerclub here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Raril Giral
+  Entertainers Expanded.esp->|DATA|ONAM:raril giral|NAME:Good day. I'm Raril Giral, publican of the Black Shalk Cornerclub here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Raril Giral
+
+[MOD-INF]: ID=5935281021213222942(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:sorosi radobar|NAME:Good day. I'm Sorosi Radobar, publican of The Flowers of Gold here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Sorosi Radobar
+  Entertainers Expanded.esp->|DATA|ONAM:sorosi radobar|NAME:Good day. I'm Sorosi Radobar, publican of The Flowers of Gold here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Sorosi Radobar
+
+[MOD-INF]: ID=6803319322889519433(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:banor seran|NAME:Good day. I'm Banor Seran, publican of the Council Club here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Banor Seran
+  Entertainers Expanded.esp->|DATA|ONAM:banor seran|NAME:Good day. I'm Banor Seran, publican of the Council Club here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Banor Seran
+
+[MOD-INF]: ID=8046276851973525109(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:llorayna sethan|NAME:Good day. I'm Llorayna Sethan, publican of the Sethan's Tradehouse here in Tel Branora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Llorayna Sethan
+  Entertainers Expanded.esp->|DATA|ONAM:llorayna sethan|NAME:Good day. I'm Llorayna Sethan, publican of the Sethan's Tradehouse here in Tel Branora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Llorayna Sethan
+
+[MOD-INF]: ID=17241302462420210952(Greeting:greeting 7)
+  morrowind.esm------------->|DATA|ONAM:shenk|NAME:Good day. I'm Shenk, publican of the Shenk's Shovel here in Caldera. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Shenk
+  Entertainers Expanded.esp->|DATA|ONAM:shenk|NAME:Good day. I'm Shenk, publican of the Shenk's Shovel here in Caldera. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Shenk
+
+[MOD-INF]: ID=18942174661163931960(Topic:latest rumors)
+  tribunal.esm-------------->|DATA|ANAM:Balmora|NAME:Everyone knows who really runs House Hlaalu. It's not the councilors. No one sits on that council unless it suits Orvas Dren.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;random100 <= 30;
+  Entertainers Expanded.esp->|DATA|ANAM:Balmora|NAME:Everyone knows who really runs House Hlaalu. It's not the councilors. No one sits on that council unless it suits Orvas Dren.|SCVR:02sX4Random100|INTV:(|SCVR:1CsX0NoLore|INTV:|BNAM:;random100 <= 30;

@@ -1,0 +1,664 @@
+Bob's TexTweaks - Dialogue.esp: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    absorption spells
+	morrowind.esm       DIAL    ascended sleeper
+	morrowind.esm       DIAL    ash ghoul
+	morrowind.esm       DIAL    ash slave
+	morrowind.esm       DIAL    ash vampire
+	morrowind.esm       DIAL    ash zombie
+	morrowind.esm       DIAL    atronachs
+	morrowind.esm       DIAL    attribute-damaging
+	morrowind.esm       DIAL    attribute-draining
+	morrowind.esm       DIAL    aundae
+	morrowind.esm       DIAL    berne
+	morrowind.esm       DIAL    bonelord
+	morrowind.esm       DIAL    bonewalker
+	morrowind.esm       DIAL    bound armor spells
+	morrowind.esm       DIAL    bound weapons spells
+	morrowind.esm       DIAL    corprus stalker
+	morrowind.esm       DIAL    cure potions
+	morrowind.esm       DIAL    cure spells
+	morrowind.esm       DIAL    dwarven ghost
+	morrowind.esm       DIAL    dwemer centurions
+	morrowind.esm       DIAL    fortify potions
+	morrowind.esm       DIAL    fundamental attributes
+	morrowind.esm       DIAL    greater bonewalker
+	morrowind.esm       DIAL    help in a fight
+	morrowind.esm       DIAL    lame corprus
+	morrowind.esm       DIAL    limitations to our power
+	morrowind.esm       DIAL    popular potions
+	morrowind.esm       DIAL    popular scrolls
+	morrowind.esm       DIAL    powers all vampires possess
+	morrowind.esm       DIAL    quarra
+	morrowind.esm       DIAL    restore potions
+	morrowind.esm       DIAL    restore spells
+	morrowind.esm       DIAL    ring
+	morrowind.esm       DIAL    strong souls
+	morrowind.esm       DIAL    toxic potions
+	morrowind.esm       DIAL    undead creatures
+	morrowind.esm       DIAL    vampires
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    va_vampcurse
+
+[MOD-INF]: ID=224891991146239(Topic:absorption spells)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:Absorption spells transfer fundamental attributes from drained victim to enhanced caster, until the duration ends and all primary attributes return to normal. Health, magicka and stamina, however, are permanent transactions.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=617542469018870(Topic:attribute-damaging)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Attribute-damaging spells actually destroy the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The victim's attributes are reduced permanently. The most common of these destruction spells are: curse agility, curse endurance, curse fatigue, curse health, curse intelligence, curse luck, curse personality, curse speed, curse strength, curse willpower, and curse spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:Also known as curses, these spells permanently damage the eleven fundamental attributes of natural and supernatural beings. Health, magicka and stamina can be naturally regained with rest, but only the power of restoration magic can heal primary attributes.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=861951363362084(Topic:attribute-draining)
+  morrowind.esm------------------>|DATA|ONAM:strillian macro|NAME:Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:strillian macro|NAME:These spells weaken the eleven fundamental attributes of natural and supernatural beings. This reduction is only temporary, however, reverting to normal once its duration ends. The most common of these destruction spells include clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1966627576276348(Topic:fundamental attributes)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:The eleven fundamental attributes of natural and supernatural beings are agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magicka. Scholars and sages of the six magic colleges are familiar with these fundamental attributes from the works of the earliest Aldmeri philosophers, and the concepts have been adopted by all the other scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:The eleven fundamental attributes of natural and supernatural beings include health, magicka, stamina, agility, endurance, intelligence, luck, personality, speed, strength and willpower. Scholars and sages of the six arcane colleges are familiar with these attributes from works of the earliest Aldmeri philosophers, and their concepts have been adopted by all the scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2270572163667479(Topic:restore spells)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Restore spells restore fundamental attributes reduced by attribute-damaging magical effects. These spells are the only means of restoring attributes injured in this fashion. The most common restoration spells of this kind are: restore agility, restore endurance, restore fatigue, restore health, restore intelligence, restore luck, restore personality, restore speed, restore strength, restore willpower, and restore spell points.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:These spells restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=4567325263602459(Topic:bound weapons spells)
+  morrowind.esm------------------>|DATA|ONAM:strillian macro|NAME:Bound weapon spells summon lesser daedra constrained within the form of magical weapons for the duration of the magical effect. The weapons are impossibly light, superbly formed, and profoundly bloodthirsty. The most common spells of this variety are: bound dagger, bound longsword, bound mace, bound battle-axe, bound spear, and bound longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:strillian macro|NAME:These spells summon lesser Daedra constrained within the form of magical weapons for a limited duration. Impossibly light, superbly formed and profoundly bloodthirsty, these weapons can include a dagger, longsword, mace, battle axe, spear and longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=9496591091148345(Topic:vampires)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|CNAM:Pauper|NAME:The Dunmer hate necromancy and the undead, and hate blood vampires in particular. Blood vampires are powerful undead creatures that feed on humanoid blood. The vampire curse is contracted from disease-contaminated blood; victims of vampire attacks sometimes become vampires. There is no known cure for vampirism but the destruction of the vampire. Ash vampires are not blood vampires; though both are powerful immortal undead, ash vampire do not feed on blood, and have no connection with blood vampires.|SCVR:0CsX0NoLore|INTV:|BNAM:;Dunmer
+  Bob's TexTweaks - Dialogue.esp->|DATA|RNAM:Dark Elf|CNAM:Pauper|NAME:The Dunmer hate necromancy and the undead, and detest vampires in particular -- powerful undead corpses that feed on mortal blood. The vampiric curse is contracted from disease-contaminated blood, causing many victims to join their ranks. Sadly, there is no known cure for vampirism but the destruction of its host. Ash vampires are not like blood vampires; though both are powerful immortal undead, ash vampires do not feed on blood and are not spawned from disease.|SCVR:0CsX0NoLore|INTV:|BNAM:;Dunmer
+
+[MOD-INF]: ID=14244641218337271(Topic:restore spells)
+  morrowind.esm------------------>|DATA|ONAM:artisa arelas|NAME:Restore spells restore fundamental attributes reduced by attribute-damaging magical effects. These spells are the only means of restoring attributes injured in this fashion. The most common restoration spells of this kind are: restore agility, restore endurance, restore fatigue, restore health, restore intelligence, restore luck, restore personality, restore speed, restore strength, restore willpower, and restore spell points.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:artisa arelas|NAME:These spells restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=14870871278879258(Topic:vampires)
+  morrowind.esm------------------>|DATA|CNAM:Dreamers|NAME:Vampires are loathsome monsters, creations of false gods and Western necromancers. The kinsmen of Lord Dagoth have been called 'ash vampires' by the ignorant, but they are not vampire in any way. They are wise and powerful, long-lived and masterful in sorcery -- but they are ageless, immortal wizards, like all of Lord Dagoth's kin -- and not vampires.
+  Bob's TexTweaks - Dialogue.esp->|DATA|CNAM:Dreamers|NAME:Vampires are loathsome monsters, creations of false gods and Western necromancers. The kinsmen of Lord Dagoth have been called 'Ash Vampires' by the ignorant, but they are not vampiric in any way. They are wise and powerful, long-lived and masterful in sorcery -- but they are ageless, immortal wizards, like all of Lord Dagoth's kin -- not vampires.
+
+[MOD-INF]: ID=19850632425732915(Topic:restore spells)
+  morrowind.esm------------------>|DATA|ONAM:strillian macro|NAME:Restore spells restore fundamental attributes reduced by attribute-damaging magical effects. These spells are the only means of restoring attributes injured in this fashion. The most common restoration spells of this kind are: restore agility, restore endurance, restore fatigue, restore health, restore intelligence, restore luck, restore personality, restore speed, restore strength, restore willpower, and restore spell points.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:strillian macro|NAME:These spells restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=21464866666427800(Topic:berne)
+  morrowind.esm------------------>|DATA|FNAM:Clan Berne|NAME:We are the true masters of the night. Only we use our dark powers as they were intended. Sliding through the night, invisible in the shadows, we hunt our prey in secrecy and silence.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Berne|NAME:We are the true masters of the night. Only we use our dark gifts as they were intended: sliding through the night, invisible in the shadows, we hunt our prey in secrecy and silence.
+
+[MOD-INF]: ID=24480637466627054(Topic:quarra)
+  morrowind.esm------------------>|DATA|FNAM:Clan Quarra|NAME:Above all clans, we stand alone! We have few limitations to our power, so great is our gift. Our dark powers make us perfect predators, perfect warriors. Those who live in the sunlight fear our name.|SCVR:01600|INTV
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Quarra|NAME:Above all clans, we stand alone! So few limitations to our power, so great is our blood. Our dark gifts make us perfect predators, perfect warriors. Those who live in the light fear our name.|SCVR:01600|INTV
+
+[MOD-INF]: ID=27126694713096657(Topic:ash slave)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:The ash slave is a humanoid creature transformed by a mysterious force into a deranged beast. These creatures are aggressive and dangerous. Ash slaves are associated in some way with the Devil Dagoth Ur.|BNAM:;sorcerer
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:Like Dreamers, Ash Slaves are members of the malevolent Sixth House Cult. Once a common Dunmer, their service to the Red Mountain Devil, Dagoth Ur, has slowly warped them into a deranged monster. Despite lacking eyes, these creatures are far from blind, and quite dangerous. A known carrier of the Blight, do not engage up close, and do not handle their remains without proper protection.|BNAM:;sorcerer
+
+[MOD-INF]: ID=28134581168723745(Topic:vampires)
+  morrowind.esm------------------>|DATA|ONAM:kaushad|NAME:Vampires are monsters that feed on humanoid blood. Once they were human like you and me, but they get the blood disease from another vampire, and they become vampires themselves. That's why they still exist. Everyone hates them, yet no one wants to come near one. But doesn't prophecy say the Nerevarine has nothing to fear from disease? So you have nothing to worry about, I'm sure.|SCVR:04JX3B3_ZainabBride|INTV
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:kaushad|NAME:Vampires are undead monsters that feed on living blood. Once they were mortal like you and me, but they get the blood disease from another vampire, and they become vampires themselves. That's why they still exist. Everyone hates them, yet no one wants to come near one. But doesn't prophecy say the Nerevarine has nothing to fear from disease? So you have nothing to worry about, I'm sure.|SCVR:04JX3B3_ZainabBride|INTV
+
+[MOD-INF]: ID=31044390636421846(Topic:bound weapons spells)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:Bound weapon spells summon lesser daedra constrained within the form of magical weapons for the duration of the magical effect. The weapons are impossibly light, superbly formed, and profoundly bloodthirsty. The most common spells of this variety are: bound dagger, bound longsword, bound mace, bound battle-axe, bound spear, and bound longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:These spells summon lesser Daedra constrained within the form of magical weapons for a limited duration. Impossibly light, superbly formed and profoundly bloodthirsty, these weapons can include a dagger, longsword, mace, battle axe, spear and longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=31936163024557780(Topic:undead creatures)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Undead creatures encountered on Vvardenfell include ghosts like the ancestor ghost, guardian ancestor, wraith, dwarven ghost, dwarven guardian, and dwarven wraith. A fleshy revenant is called a bonewalker, and includes the bonewalker and the greater bonewalker. Fleshless revenants include skeletons, skeleton archers, skeleton warriors, skeleton champions, and bonelords. Vampires, profane undead creatures, have been hunted almost to extinction.|BNAM:;mage
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:Vvardenfell's population of undead include spectral entities like the wraith, ancestor ghost, guardian ancestor, dwarven ghost, dwarven guardian and dwarven wraith. Fleshy, zombie-like revenants are known as bonewalkers, which come in at least two varieties. Revenants of bare bones include skeletons of numerous weapon skills, and the abstract floating bonelords. Lastly, there's the profane, bloodthirsty vampire, which has been hunted almost to extinction.|BNAM:;mage
+
+[MOD-INF]: ID=43968095295613136(Topic:vampires)
+  morrowind.esm------------------>|DATA|FNAM:Clan Aundae|NAME:We are the dark walkers, those who prey on the warm blooded. Our gifts are many, and weakness few. There are three major clans: Aundae, Berne, and Quarra. There are others in this world as well, living like cattle in tombs under the ground.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Aundae|NAME:We are the night made flesh, that which preys on the fleeting warmth of mortality, ending life before it can end itself. Our gifts are legion; our defects a triviality. Three clans dominate this island: the Berne, and the Quarra -- and we, the Aundae. Others exist between the cracks, dwelling in crypts like common revenants.
+
+[MOD-INF]: ID=50787675809429573(Topic:ash ghoul)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:The ash ghoul is a distorted, half-human, half-beast creature transformed by a mysterious force into a powerful magical being. Ash ghouls are highly intelligent, aggressive, and dangerous. Ash ghouls are associated in some way with the Devil Dagoth Ur.|BNAM:;sorcerer
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:The Ash Ghoul is a powerful minister of the Sixth House Cult, turned into a distorted monster with a parasitic growth erupting from its missing face. High in intellect, they're also deadly in the arcane arts. Thought to be former Ash Zombies, their new proboscis is yet another stage in a ghastly metamorphosis.|BNAM:;sorcerer
+
+[MOD-INF]: ID=63215770443217351(Topic:fundamental attributes)
+  morrowind.esm------------------>|DATA|ONAM:artisa arelas|NAME:The eleven fundamental attributes of natural and supernatural beings are agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magicka. Scholars and sages of the six magic colleges are familiar with these fundamental attributes from the works of the earliest Aldmeri philosophers, and the concepts have been adopted by all the other scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:artisa arelas|NAME:The eleven fundamental attributes of natural and supernatural beings include health, magicka, stamina, agility, endurance, intelligence, luck, personality, speed, strength and willpower. Scholars and sages of the six arcane colleges are familiar with these attributes from works of the earliest Aldmeri philosophers, and their concepts have been adopted by all the scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=64530785235572323(Topic:strong souls)
+  morrowind.esm------------------>|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:If you cannot find anything suitable, why not just summon a Storm Atronach or two? Surely you can do that, %PCName.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:If you cannot locate a suitable Daedra, then travel to the nearest shrine and search there. Search every shrine on the island -- inside and out. Purge all that get in your way. I'm sure you will find a fair specimen, %PCName.
+
+[MOD-INF]: ID=69432022895031746(Topic:attribute-damaging)
+  morrowind.esm------------------>|DATA|ONAM:melvure rindu|NAME:Attribute-damaging spells actually destroy the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The victim's attributes are reduced permanently. The most common of these destruction spells are: curse agility, curse endurance, curse fatigue, curse health, curse intelligence, curse luck, curse personality, curse speed, curse strength, curse willpower, and curse spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:melvure rindu|NAME:Also known as curses, these spells permanently damage the eleven fundamental attributes of natural and supernatural beings. Health, magicka and stamina can be naturally regained with rest, but only the power of restoration magic can heal primary attributes.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=77745042107314655(Topic:bonewalker)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Bonewalkers defend the tombs of clan and kin. Bonewalkers are aggressive but not very dangerous. Bonemeal is a finely ground powder with modest magical properties made from the bones of the bonewalker.|BNAM:;mage
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:Bonewalkers patrol the tombs of Dunmer burial sites. Necrotic, emaciated and mostly brainless, bonewalkers are aggressive but not very dangerous -- although they do carry disease. In addition to a single soul gem within their shrunken head, bonemeal can also be ground from the ritualistic skewers in their face and limbs. Beware its larger brethren, the greater bonewalker.|BNAM:;mage
+
+[MOD-INF]: ID=84657521229969742(Topic:cure potions)
+  morrowind.esm------------------>|DATA|ONAM:nalion|NAME:Cure potions remove diseases and harmful conditions. Cure potions include: cure poison, cure common disease, cure paralyzation, and cure blight disease.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:nalion|NAME:Cure potions eradicate and reverse the effects of disease and other harmful conditions. These include poison, paralysis, common disease and Blight disease.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=95046402805215634(Topic:attribute-damaging)
+  morrowind.esm------------------>|DATA|ONAM:strillian macro|NAME:Attribute-damaging spells actually destroy the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The victim's attributes are reduced permanently. The most common of these destruction spells are: curse agility, curse endurance, curse fatigue, curse health, curse intelligence, curse luck, curse personality, curse speed, curse strength, curse willpower, and curse spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:strillian macro|NAME:Also known as curses, these spells permanently damage the eleven fundamental attributes of natural and supernatural beings. Health, magicka and stamina can be naturally regained with rest, but only the power of restoration magic can heal primary attributes.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=104991123173219165(Topic:limitations to our power)
+  morrowind.esm------------------>|DATA|FNAM:Clan Berne|NAME:We are shunned by almost all who live in the sunlight. While some mages will tolerate us, all others consider us abominations. And the sunlight...do not walk in the sunlight. It will be your death.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Berne|NAME:We are shunned by those who live in the light. While some mages tolerate us out of morbid fascination, all others consider us abominations and react with terror and violence. And the sun... Do not walk in the sun. It will be your end.
+
+[MOD-INF]: ID=110861796575933362(Topic:cure potions)
+  morrowind.esm------------------>|DATA|ONAM:anarenen|NAME:Cure potions remove diseases and harmful conditions. Cure potions include: cure poison, cure common disease, cure paralyzation, and cure blight disease.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:anarenen|NAME:Cure potions eradicate and reverse the effects of disease and other harmful conditions. These include poison, paralysis, common disease and Blight disease.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=131915680210358034(Topic:bound weapons spells)
+  morrowind.esm------------------>|DATA|ONAM:melvure rindu|NAME:Bound weapon spells summon lesser daedra constrained within the form of magical weapons for the duration of the magical effect. The weapons are impossibly light, superbly formed, and profoundly bloodthirsty. The most common spells of this variety are: bound dagger, bound longsword, bound mace, bound battle-axe, bound spear, and bound longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:melvure rindu|NAME:These spells summon lesser Daedra constrained within the form of magical weapons for a limited duration. Impossibly light, superbly formed and profoundly bloodthirsty, these weapons can include a dagger, longsword, mace, battle axe, spear and longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=140283003389946324(Topic:fundamental attributes)
+  morrowind.esm------------------>|DATA|ONAM:eraamion|NAME:The eleven fundamental attributes of natural and supernatural beings are agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magicka. Scholars and sages of the six magic colleges are familiar with these fundamental attributes from the works of the earliest Aldmeri philosophers, and the concepts have been adopted by all the other scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:eraamion|NAME:The eleven fundamental attributes of natural and supernatural beings include health, magicka, stamina, agility, endurance, intelligence, luck, personality, speed, strength and willpower. Scholars and sages of the six arcane colleges are familiar with these attributes from works of the earliest Aldmeri philosophers, and their concepts have been adopted by all the scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=143021794307847288(Topic:cure spells)
+  morrowind.esm------------------>|DATA|ONAM:strillian macro|NAME:Cure spells remove diseases, poisons, and incapacitation spell effects from the victim. The most common restoration spells of this kind are: cure common disease, cure blight disease, cure poison, and cure paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:strillian macro|NAME:Cure spells eradicate and reverse the effects of common disease, Blight disease, poison and paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=156171272864323892(Topic:ring)
+  morrowind.esm------------------>|DATA|ONAM:fargoth|NAME:Darn. Well if you see it let me know. It's an Engraved Ring of Healing. I know it's in there somewhere.|SCVR:01500|INTV
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:fargoth|NAME:Darn. Well if you see it, let me know. It's an engraved ring of healing. I know it's in there somewhere.|SCVR:01500|INTV
+
+[MOD-INF]: ID=158791326429969956(Topic:ring)
+  morrowind.esm------------------>|DATA|ONAM:fargoth|NAME:That's not it! Don't mess with me, I don't like that. If you really find it, let me know.|SCVR:01500|INTV|SCVR:15IX0ring_keley|INTV:|BNAM:moddisposition -5
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:fargoth|NAME:That's not it! Don't mess with me; I don't like that. If you really find it, let me know.|SCVR:01500|INTV|SCVR:15IX0ring_keley|INTV:|BNAM:moddisposition -5
+
+[MOD-INF]: ID=177942089766420471(Topic:bound armor spells)
+  morrowind.esm------------------>|DATA|ONAM:strillian macro|NAME:Bound armor spells summon lesser daedra constrained within the form of magical armor for the duration of the magical effect. The armor pieces are impossibly light, superbly formed, and supernaturally durable. The most common spells of this variety are: bound cuirass, bound helm, bound boots, bound shield, and bound gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:strillian macro|NAME:These spells summon lesser Daedra constrained within the form of magical armor for a limited duration. Impossibly light, superbly formed and supernaturally durable, these armor pieces can include a cuirass, helm, boots, shield and gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=183628557173843732(Topic:bound weapons spells)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Bound weapon spells summon lesser daedra constrained within the form of magical weapons for the duration of the magical effect. The weapons are impossibly light, superbly formed, and profoundly bloodthirsty. The most common spells of this variety are: bound dagger, bound longsword, bound mace, bound battle-axe, bound spear, and bound longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:These spells summon lesser Daedra constrained within the form of magical weapons for a limited duration. Impossibly light, superbly formed and profoundly bloodthirsty, these weapons can include a dagger, longsword, mace, battle axe, spear and longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=189562236611077547(Topic:absorption spells)
+  morrowind.esm------------------>|DATA|ONAM:strillian macro|NAME:Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:strillian macro|NAME:Absorption spells transfer fundamental attributes from drained victim to enhanced caster, until the duration ends and all primary attributes return to normal. Health, magicka and stamina, however, are permanent transactions.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=198777838937113130(Topic:fortify potions)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Fortify potions temporarily increase attributes and abilities. Fortify potions include: fortify strength, fortify intelligence, fortify willpower, fortify agility, fortify speed, fortify personality, fortify luck, fortify health, fortify spell points, fortify fatigue, and fortify endurance.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:Fortify potions temporarily increase attributes and abilities.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=203022845028506458(Topic:lame corprus)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:The lame corprus is a deformed, deranged victim of corprus disease. Aggressive and dangerous, they carry corprus disease, a deadly disease profoundly affecting a victim's mind and body.|BNAM:;sorcerer
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:The lame Corprus is a deranged and deformed victim of the Blight disease known as Corprus. Mindless, bloated and full of enraged stamina, they are hostile and extremely dangerous. Do not engage up close and do not handle their remains without proper protection.|BNAM:;sorcerer
+
+[MOD-INF]: ID=214361216110149065(Topic:restore spells)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Restore spells restore fundamental attributes reduced by attribute-damaging magical effects. These spells are the only means of restoring attributes injured in this fashion. The most common restoration spells of this kind are: restore agility, restore endurance, restore fatigue, restore health, restore intelligence, restore luck, restore personality, restore speed, restore strength, restore willpower, and restore spell points.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:These spells restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=218151329596498534(Topic:ash ghoul)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:The ash ghoul is a distorted, half-human, half-beast creature transformed by a mysterious force into a powerful magical being. Ash ghouls are highly intelligent, aggressive, and dangerous. Ash ghouls are associated in some way with the Devil Dagoth Ur.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:The Ash Ghoul is a powerful minister of the Sixth House Cult, turned into a distorted monster with a parasitic growth erupting from its missing face. High in intellect, they're also deadly in the arcane arts. Thought to be former Ash Zombies, their new proboscis is yet another stage in a ghastly metamorphosis.|BNAM:;priest
+
+[MOD-INF]: ID=224072086945326856(Topic:quarra)
+  morrowind.esm------------------>|DATA|FNAM:Clan Aundae|NAME:Brutes. Ugly and foolish. Offensive to the eyes. They live and feed through sheer physical strength. And they are strong, dark walker.|SCVR:01600|INTV
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Aundae|NAME:Brutes. Ugly and foolish. Offensive to the eyes. They live and feed through sheer physical strength. And strong they are, dark one.|SCVR:01600|INTV
+
+[MOD-INF]: ID=231473180713455935(Topic:restore spells)
+  morrowind.esm------------------>|DATA|ONAM:melvure rindu|NAME:Restore spells restore fundamental attributes reduced by attribute-damaging magical effects. These spells are the only means of restoring attributes injured in this fashion. The most common restoration spells of this kind are: restore agility, restore endurance, restore fatigue, restore health, restore intelligence, restore luck, restore personality, restore speed, restore strength, restore willpower, and restore spell points.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:melvure rindu|NAME:These spells restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=231898841949512483(Topic:vampires)
+  morrowind.esm------------------>|DATA|ONAM:aundae vampire 1|NAME:That is what we are, and what we will always be. We live apart from the clans: Aundae, Berne, and Quarra. They will not accept us into their fold, so we live under the ground, surfacing to prey on the warmbloods that live above. Though the clans shun us, we are powerful, and have very few weaknesses.
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:aundae vampire 1|NAME:That is what we are, and what will always be. We live apart from the Aundae, Berne and Quarra. They will not accept us into their fold. So we live underground, rising to prey on the warmbloods above. Though the clans shun us out of ego, we are beings of power and beauty, our flaws few and far.
+
+[MOD-INF]: ID=238842330205516064(Topic:bound armor spells)
+  morrowind.esm------------------>|DATA|ONAM:melvure rindu|NAME:Bound armor spells summon lesser daedra constrained within the form of magical armor for the duration of the magical effect. The armor pieces are impossibly light, superbly formed, and supernaturally durable. The most common spells of this variety are: bound cuirass, bound helm, bound boots, bound shield, and bound gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:melvure rindu|NAME:These spells summon lesser Daedra constrained within the form of magical armor for a limited duration. Impossibly light, superbly formed and supernaturally durable, these armor pieces can include a cuirass, helm, boots, shield and gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=241355296247149398(Topic:fortify potions)
+  morrowind.esm------------------>|DATA|ONAM:tendris vedran|NAME:Fortify potions temporarily increase attributes and abilities. Fortify potions include: fortify strength, fortify intelligence, fortify willpower, fortify agility, fortify speed, fortify personality, fortify luck, fortify health, fortify spell points, fortify fatigue, and fortify endurance.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:tendris vedran|NAME:Fortify potions temporarily increase attributes and abilities.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=246551470990629104(Topic:dwemer centurions)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Dwemer centurions are enchanted war devices in the form of animated metal creatures. There are three classes of Dwemer centurions: the centurion spider, the centurion sphere, and the steam centurion. These devices are rarely encountered outside of ancient Dwemer ruins.|BNAM:;mage
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:Enchanted war machines in the form of animated metal creatures, they include the simple Centurion Spider which serves most maintenance functions, the agile Centurion Sphere and its ranged Archer model, and the powerful Steam Centurion and its advanced Guardian model. Unsurprisingly, these machines are rarely encountered outside their ancient Dwemer ruins.|BNAM:;mage
+
+[MOD-INF]: ID=254539932002823814(Topic:stamina)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:A creature's fatigue is a measure of its capacity for extended physical exertion. The greater a creature's fatigue attribute, the longer it can run, swim, and fight.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:A creature's stamina is a measure of its capacity for extended physical exertion -- such as running, swimming and fighting. Even mental concentration is affected, like the acts of persuasion and spellcasting.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=258291189453055914(Topic:absorption spells)
+  morrowind.esm------------------>|DATA|ONAM:melvure rindu|NAME:Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:melvure rindu|NAME:Absorption spells transfer fundamental attributes from drained victim to enhanced caster, until the duration ends and all primary attributes return to normal. Health, magicka and stamina, however, are permanent transactions.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=278517941397723926(Topic:cure potions)
+  morrowind.esm------------------>|DATA|ONAM:tendris vedran|NAME:Cure potions remove diseases and harmful conditions. Cure potions include: cure poison, cure common disease, cure paralyzation, and cure blight disease.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:tendris vedran|NAME:Cure potions eradicate and reverse the effects of disease and other harmful conditions. These include poison, paralysis, common disease and Blight disease.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=289617492682623188(Topic:toxic potions)
+  morrowind.esm------------------>|DATA|ONAM:anarenen|NAME:Toxic potions are potions with undesirable effects. They are not available commercially, and when found, usually represent clumsy or ill-informed attempts to make useful potions by unskilled alchemists. Toxic potions include: drain strength, drain intelligence, drain willpower, drain agility, drain speed, drain personality, drain luck, drain health, drain spell points, drain fatigue, drain endurance, and paralyze.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:anarenen|NAME:As the name implies, toxic potions cause undesirable effects. They are not available commercially, and usually come from clumsy or ill-informed alchemists with better intentions. These potions typically only weaken some attributes for a limited duration, but don't take your chances.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=320572372212111172(Topic:berne)
+  morrowind.esm------------------>|DATA|FNAM:Clan Quarra|NAME:They are not unlike us in many ways. But, though gifted physically, they prefer the shadows, stalking their prey from the darkness. It is cowardly and weak, and they are not to be trusted.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Quarra|NAME:They are not unlike us in many ways. But although gifted physically, they prefer the shadows, stalking their prey from the darkness. It is cowardly and weak, and they are not to be trusted.
+
+[MOD-INF]: ID=321136202890012615(Topic:vampires)
+  morrowind.esm------------------>|DATA|ONAM:berne vampire 1|NAME:That is what we are, and what we will always be. We live apart from the clans: Aundae, Berne, and Quarra. They will not accept us into their fold, so we live under the ground, surfacing to prey on the warmbloods that live above. Though the clans shun us, we are powerful, and have very few weaknesses.
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:berne vampire 1|NAME:That is what we are, and what will always be. We live apart from the Aundae, Berne and Quarra. They will not accept us into their fold. So we live underground, rising to prey on the warmbloods above. Though the clans shun us out of ego, we are beings of power and beauty, our flaws few and far.
+
+[MOD-INF]: ID=323919542977416723(Topic:fortify potions)
+  morrowind.esm------------------>|DATA|ONAM:nalion|NAME:Fortify potions temporarily increase attributes and abilities. Fortify potions include: fortify strength, fortify intelligence, fortify willpower, fortify agility, fortify speed, fortify personality, fortify luck, fortify health, fortify spell points, fortify fatigue, and fortify endurance.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:nalion|NAME:Fortify potions temporarily increase attributes and abilities.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=331320671528726561(Topic:dwarven ghost)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Dwarven ghosts are encountered in the ancient abandoned Dwemer ruins. They are aggressive and dangerous, but ectoplasm, a filmy residue that remains after the revenant spirit of a Dwemer has been banished from the mortal plane, is a rare, valuable substance with modest magical properties. Normal weapons do not harm them; only enchanted or silver weapons or deadly spells affect them.|BNAM:;mage
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:Still haunting the ancient derelicts of Vvardenfell's Dwemer ruins, these revenant spirits are hostile and dangerous to ill-prepared explorers. However, they make a fine source for ectoplasm, if they can be banished from the mortal plane.  Just be sure to use silver or enchanted weapons.|BNAM:;mage
+
+[MOD-INF]: ID=354677841240725887(Topic:aundae)
+  morrowind.esm------------------>|DATA|FNAM:Clan Aundae|NAME:We are the most blessed of all of the cursed. In addition to the powers all vampires possess, our dark powers are of the mind, where other, weaker clans are gifted more physically. Our path through the darkness relies on magic, and at this, we are truly gifted.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Aundae|NAME:We are the most blessed of all the cursed. In addition to the powers all vampires possess, our dark gifts elevate the mind -- while inferior clans must compensate through brute physicality. Our transcendent path is one of magic, sorcery and the unknown. At this, we are truly gifted -- perhaps even divine.
+
+[MOD-INF]: ID=408019386932219623(Topic:undead creatures)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:Undead creatures encountered on Vvardenfell include ghosts like the ancestor ghost, guardian ancestor, wraith, dwarven ghost, dwarven guardian, and dwarven wraith. A fleshy revenant is called a bonewalker, and includes the bonewalker and the greater bonewalker. Fleshless revenants include skeletons, skeleton archers, skeleton warriors, skeleton champions, and bonelords. Vampires, profane undead creatures, have been hunted almost to extinction.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:Vvardenfell's population of undead include spectral entities like the wraith, ancestor ghost, guardian ancestor, dwarven ghost, dwarven guardian and dwarven wraith. Fleshy, zombie-like revenants are known as bonewalkers, which come in at least two varieties. Revenants of bare bones include skeletons of numerous weapon skills, and the abstract floating bonelords. Lastly, there's the profane, bloodthirsty vampire, which has been hunted almost to extinction.|BNAM:;priest
+
+[MOD-INF]: ID=590626512155914110(Topic:cure spells)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Cure spells remove diseases, poisons, and incapacitation spell effects from the victim. The most common restoration spells of this kind are: cure common disease, cure blight disease, cure poison, and cure paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:Cure spells eradicate and reverse the effects of common disease, Blight disease, poison and paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=650812463275663597(Topic:cure spells)
+  morrowind.esm------------------>|DATA|ONAM:melvure rindu|NAME:Cure spells remove diseases, poisons, and incapacitation spell effects from the victim. The most common restoration spells of this kind are: cure common disease, cure blight disease, cure poison, and cure paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:melvure rindu|NAME:Cure spells eradicate and reverse the effects of common disease, Blight disease, poison and paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=758448812184418482(Topic:bonewalker)
+  morrowind.esm------------------>|DATA|ONAM:sharn gra-muzgob|NAME:Bonewalkers are among the distinctive ancestral revenants that guard Dunmer burial sites, and which may be summoned as spirit guardians. Among the undead, they are less worrisome than their more powerful manifestation, the Greater Bonewalker.|SCVR:34JX3A1_4_MuzgobInformant|INTV: 
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:sharn gra-muzgob|NAME:Bonewalkers are among the distinctive ancestral revenants that guard Dunmer burial sites, and which may be summoned as spirit guardians. Among the undead, they are less worrisome than their more powerful manifestation, the greater bonewalker.|SCVR:34JX3A1_4_MuzgobInformant|INTV: 
+
+[MOD-INF]: ID=857213029220214132(Topic:toxic potions)
+  morrowind.esm------------------>|DATA|ONAM:nalion|NAME:Toxic potions are potions with undesirable effects. They are not available commercially, and when found, usually represent clumsy or ill-informed attempts to make useful potions by unskilled alchemists. Toxic potions include: drain strength, drain intelligence, drain willpower, drain agility, drain speed, drain personality, drain luck, drain health, drain spell points, drain fatigue, drain endurance, and paralyze.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:nalion|NAME:As the name implies, toxic potions cause undesirable effects. They are not available commercially, and usually come from clumsy or ill-informed alchemists with better intentions. These potions typically only weaken some attributes for a limited duration, but don't take your chances.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=944945281596112884(Topic:absorption spells)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:Absorption spells transfer fundamental attributes from drained victim to enhanced caster, until the duration ends and all primary attributes return to normal. Health, magicka and stamina, however, are permanent transactions.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=971710148350929521(Topic:attribute-damaging)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:Attribute-damaging spells actually destroy the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The victim's attributes are reduced permanently. The most common of these destruction spells are: curse agility, curse endurance, curse fatigue, curse health, curse intelligence, curse luck, curse personality, curse speed, curse strength, curse willpower, and curse spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:Also known as curses, these spells permanently damage the eleven fundamental attributes of natural and supernatural beings. Health, magicka and stamina can be naturally regained with rest, but only the power of restoration magic can heal primary attributes.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=979026717211696335(Topic:stamina)
+  morrowind.esm------------------>|DATA|ONAM:melvure rindu|NAME:A creature's fatigue is a measure of its capacity for extended physical exertion. The greater a creature's fatigue attribute, the longer it can run, swim, and fight.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:melvure rindu|NAME:A creature's stamina is a measure of its capacity for extended physical exertion -- such as running, swimming and fighting. Even mental concentration is affected, like the acts of persuasion and spellcasting.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=986629974255239995(Greeting:greeting 1)
+  tribunal.esm------------------->|DATA|ONAM:dagoth gilvoth|NAME:I'm not here to talk. I'm here to fight.|SCVR:01630|INTV:|BNAM:;Dagoth Gilvoth [fighter-mage];   SetFight 100  SetDisposition 0  Goodbye
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:dagoth gilvoth|NAME:I'm not here to talk, insect.|SCVR:01630|INTV:|BNAM:;Dagoth Gilvoth [fighter-mage];   SetFight 100  SetDisposition 0  Goodbye
+
+[MOD-INF]: ID=1177445972967324549(Topic:fundamental attributes)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:The eleven fundamental attributes of natural and supernatural beings are agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magicka. Scholars and sages of the six magic colleges are familiar with these fundamental attributes from the works of the earliest Aldmeri philosophers, and the concepts have been adopted by all the other scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:The eleven fundamental attributes of natural and supernatural beings include health, magicka, stamina, agility, endurance, intelligence, luck, personality, speed, strength and willpower. Scholars and sages of the six arcane colleges are familiar with these attributes from works of the earliest Aldmeri philosophers, and their concepts have been adopted by all the scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1323521990418725979(Topic:cure potions)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Cure potions remove diseases and harmful conditions. Cure potions include: cure poison, cure common disease, cure paralyzation, and cure blight disease.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:Cure potions eradicate and reverse the effects of disease and other harmful conditions. These include poison, paralysis, common disease and Blight disease.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=1393941781607927279(Topic:stamina)
+  morrowind.esm------------------>|DATA|ONAM:eraamion|NAME:A creature's fatigue is a measure of its capacity for extended physical exertion. The greater a creature's fatigue attribute, the longer it can run, swim, and fight.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:eraamion|NAME:A creature's stamina is a measure of its capacity for extended physical exertion -- such as running, swimming and fighting. Even mental concentration is affected, like the acts of persuasion and spellcasting.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1416722331880314880(Topic:bound armor spells)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Bound armor spells summon lesser daedra constrained within the form of magical armor for the duration of the magical effect. The armor pieces are impossibly light, superbly formed, and supernaturally durable. The most common spells of this variety are: bound cuirass, bound helm, bound boots, bound shield, and bound gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:These spells summon lesser Daedra constrained within the form of magical armor for a limited duration. Impossibly light, superbly formed and supernaturally durable, these armor pieces can include a cuirass, helm, boots, shield and gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1419312496317607602(Topic:fundamental attributes)
+  morrowind.esm------------------>|DATA|ONAM:strillian macro|NAME:The eleven fundamental attributes of natural and supernatural beings are agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magicka. Scholars and sages of the six magic colleges are familiar with these fundamental attributes from the works of the earliest Aldmeri philosophers, and the concepts have been adopted by all the other scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:strillian macro|NAME:The eleven fundamental attributes of natural and supernatural beings include health, magicka, stamina, agility, endurance, intelligence, luck, personality, speed, strength and willpower. Scholars and sages of the six arcane colleges are familiar with these attributes from works of the earliest Aldmeri philosophers, and their concepts have been adopted by all the scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1439182632961329964(Topic:aundae)
+  morrowind.esm------------------>|DATA|FNAM:Clan Berne|NAME:A dark brotherhood of vampiric mages. I fear, though, that their powerful minds may be tainted by madness. Such is the price for the gift they've been given.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Berne|NAME:A dark brotherhood of vampiric wizards. I fear, though, that their powerful minds may be tainted by madness. Such is the price for the gift they enjoy.
+
+[MOD-INF]: ID=1559031665129719488(Topic:cure spells)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:Cure spells remove diseases, poisons, and incapacitation spell effects from the victim. The most common restoration spells of this kind are: cure common disease, cure blight disease, cure poison, and cure paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:Cure spells eradicate and reverse the effects of common disease, Blight disease, poison and paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1570123766176028329(Topic:help in a fight)
+  morrowind.esm------------------>|DATA|ONAM:ajira|NAME:Ajira sells potions of restore health for when you are bleeding. And potions of restore fatigue when you are weary.
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ajira|NAME:Ajira sells potions of Restore Health for when you are bleeding. And potions of Restore Stamina when you are weary.
+
+[MOD-INF]: ID=1576720351886129646(Topic:popular potions)
+  morrowind.esm------------------>|DATA|ONAM:arrille|NAME:Cure Common Disease and Cure Blight Disease potions are most popular with travelers. Fortify strength, endurance, speed, agility are very helpful in combat. Fortify personality is popular with merchants and shy persons. Of course, fortify fatigue keeps you fighting at your best. Restore health and restore fatigue are perhaps our most popular items. And for a short burst of power during a fight, you can't beat greef, shein, flin, mazte, and sujamma.
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:arrille|NAME:Cure potions for common and Blight disease are most popular with travelers, and Fortify Personality with merchants and shy persons. Fortify potions for strength, endurance, speed and agility are very helpful in combat. And of course, Fortify Stamina keeps you fighting at your best. Restore Health and Stamina are perhaps our most popular items. And for a short burst of power during a fight, you can't beat greef, shein, flin, mazte and sujamma.
+
+[MOD-INF]: ID=1607816811823030838(Topic:attribute-damaging)
+  morrowind.esm------------------>|DATA|ONAM:artisa arelas|NAME:Attribute-damaging spells actually destroy the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The victim's attributes are reduced permanently. The most common of these destruction spells are: curse agility, curse endurance, curse fatigue, curse health, curse intelligence, curse luck, curse personality, curse speed, curse strength, curse willpower, and curse spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:artisa arelas|NAME:Also known as curses, these spells permanently damage the eleven fundamental attributes of natural and supernatural beings. Health, magicka and stamina can be naturally regained with rest, but only the power of restoration magic can heal primary attributes.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1650105461312428566(Topic:little advice)
+  tribunal.esm------------------->|DATA|NAME:Don't fight when you're tired. Don't try to cast spells when you're tired. You'll fail much more often when you're tired. That's why veterans always carry a couple of Restore Fatigue potions for an emergency.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0nolore|INTV:|BNAM:;bottom; default
+  Bob's TexTweaks - Dialogue.esp->|DATA|NAME:Don't fight when you're tired. Don't try to cast spells when you're tired. You'll fail much more often when you're tired. That's why veterans always carry a couple of Restore Stamina potions for an emergency.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=1726212673874022562(Topic:aundae)
+  morrowind.esm------------------>|DATA|FNAM:Clan Quarra|NAME:Weak, pathetic creatures. They use their powerful magic as a crutch, never experiencing the joy the dark gift brings--the sheer physical power we are given.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Quarra|NAME:Pathetic wretches. Barely matching the average Telvanni wizard, their flashy magic is nothing more than a crutch, never experiencing the joy of our dark gift -- the sheer physical power of the flesh.
+
+[MOD-INF]: ID=1772814022251132687(Topic:toxic potions)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Toxic potions are potions with undesirable effects. They are not available commercially, and when found, usually represent clumsy or ill-informed attempts to make useful potions by unskilled alchemists. Toxic potions include: drain strength, drain intelligence, drain willpower, drain agility, drain speed, drain personality, drain luck, drain health, drain spell points, drain fatigue, drain endurance, and paralyze.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:As the name implies, toxic potions cause undesirable effects. They are not available commercially, and usually come from clumsy or ill-informed alchemists with better intentions. These potions typically only weaken some attributes for a limited duration, but don't take your chances.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=1888278981452929834(Topic:stamina)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:A creature's fatigue is a measure of its capacity for extended physical exertion. The greater a creature's fatigue attribute, the longer it can run, swim, and fight.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:A creature's stamina is a measure of its capacity for extended physical exertion -- such as running, swimming and fighting. Even mental concentration is affected, like the acts of persuasion and spellcasting.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=1899743161758025545(Topic:vampires)
+  morrowind.esm------------------>|DATA|FNAM:Imperial Legion|NAME:Imperial culture regards blood vampires as destructive monsters to be hunted and destroyed. However, romantic notions of noble, virtuous vampires persist in Imperial traditions, and vampires are thought to pass unrecognized in the Mages Guild and the Imperial aristocracy.|SCVR:0CsX0NoLore|INTV:|BNAM:;Imperial bards, savants, mages, sorcerers; ;Imperial Legion;
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Imperial Legion|NAME:Imperial culture regards vampires as destructive monsters to be hunted and destroyed. However, romantic notions of noble, virtuous vampires persist in Imperial traditions, and they are thought to pass unrecognized in the Mages Guild and Imperial aristocracy.|SCVR:0CsX0NoLore|INTV:|BNAM:;Imperial bards, savants, mages, sorcerers; ;Imperial Legion;
+
+[MOD-INF]: ID=1909824031193486279(Topic:dwarven ghost)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:Dwarven ghosts are encountered in the ancient abandoned Dwemer ruins. They are aggressive and dangerous, but ectoplasm, a filmy residue that remains after the revenant spirit of a Dwemer has been banished from the mortal plane, is a rare, valuable substance with modest magical properties. Normal weapons do not harm them; only enchanted or silver weapons or deadly spells affect them.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:Still haunting the ancient derelicts of Vvardenfell's Dwemer ruins, these revenant spirits are hostile and dangerous to ill-prepared explorers. However, they make a fine source for ectoplasm, if they can be banished from the mortal plane.  Just be sure to use silver or enchanted weapons.|BNAM:;priest
+
+[MOD-INF]: ID=1921458681787610161(Topic:greater bonewalker)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:Greater bonewalkers defend the tombs of clan and kin. Greater bonewalkers are aggressive and dangerous. Bonemeal is a finely ground powder with modest magical properties made from the bones of the bonewalker.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:Another undead guardian of Dunmer burial sites. Grafted from the bodies of multiple individuals, greater bonewalkers are physically powerful, diseased and feared for the terrible curses they bestow. In addition to a single soul gem within their massive brain, bonemeal can also be ground from the ritualistic skewers in their arms and legs.|BNAM:;priest
+
+[MOD-INF]: ID=1928032383923724522(Topic:bonelord)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:The Bonelord is a revenant that protects the tombs of clan and kin. Bonemeal, the finely ground powder made from the bones of the skeleton minions, has modest magical properties.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:A floating revenant that patrols Dunmer burial sites. In addition to a single soul gem within its skull, bonemeal can also be ground from its four arms.|BNAM:;priest
+
+[MOD-INF]: ID=2020323255203312480(Topic:strong souls)
+  morrowind.esm------------------>|DATA|ONAM:aryon|NAME:The souls of a summoned creature will work just as well. Just summon a storm atronach, cast soul trap on it, and dispatch it. Do this twice while carrying a powerful soul gem and give the gems to Llunela Hleran.
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:aryon|NAME:Newly-summoned creatures do not have very strong souls. Therefore you need to locate a suitable Daedra out in the wild, trap its soul, and dispatch it. Do this twice while carrying a grand soul gem and give these gems to Llunela Hleran.
+
+[MOD-INF]: ID=2051192453096929045(Topic:fortify potions)
+  morrowind.esm------------------>|DATA|CNAM:Trader Service|NAME:Fortify potions temporarily increase attributes and abilities. Fortify potions include: fortify strength, fortify intelligence, fortify willpower, fortify agility, fortify speed, fortify personality, fortify luck, fortify health, fortify spell points, fortify fatigue, and fortify endurance.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|CNAM:Trader Service|NAME:Fortify potions temporarily increase attributes and abilities.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=2069696491489910609(Topic:ash vampire)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:Ash vampires are immortal magical beings of vast powers. Close kin and loyal lieutenants of the Devil Dagoth Ur, they partake of his supernatural vitality.|BNAM:;sorcerer
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:Ash Vampires are ancient, immortal beings of vast power -- patriarchs of the resurrected Sixth House. Close kin and loyal lieutenants of the Red Mountain Devil, Dagoth Ur, they partake of his supernatural vitality. Perhaps their most striking features are the metallic headdress and bulbous third eye peaking their tall, inhuman stature.|BNAM:;sorcerer
+
+[MOD-INF]: ID=2100023158162639585(Topic:ash zombie)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:The ash zombie is a humanoid creature transformed by a mysterious force into a deranged beast. Though their skulls are apparently empty, these creatures are nonetheless intelligent, aggressive, and dangerous. Ash zombies are associated in some way with the Devil Dagoth Ur.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:Ash Zombies are yet another rank of the Sixth House Cult, warped into a deranged monster by its evil influence. Though their skulls are faceless and apparently empty, these deadly humanoids are neither blind nor dumb. Thought to be former Ash Slaves, their loss of hair and facial bones only further dehumanize them.|BNAM:;priest
+
+[MOD-INF]: ID=2296424604965814421(Topic:bound armor spells)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Bound armor spells summon lesser daedra constrained within the form of magical armor for the duration of the magical effect. The armor pieces are impossibly light, superbly formed, and supernaturally durable. The most common spells of this variety are: bound cuirass, bound helm, bound boots, bound shield, and bound gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:These spells summon lesser Daedra constrained within the form of magical armor for a limited duration. Impossibly light, superbly formed and supernaturally durable, these armor pieces can include a cuirass, helm, boots, shield and gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2376519642623018867(Topic:our dark gifts)
+  morrowind.esm------------------>|DATA|FNAM:Clan Berne|NAME:The Berne vampire travels as the shadows do. Silent, unnoticed. We are more agile than the other clans, and even on crowded streets, we pass unnoticed. Our victims never suspect our presence...until their blood is on our lips.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Berne|NAME:The Berne vampire travels as the shadows do: silent... unnoticed -- more agile than other clans. Even on crowded streets, we earn not even a passing glance. Our targets never suspect a thing... until their blood is on our lips.
+
+[MOD-INF]: ID=2384261521275621885(Topic:limitations to our power)
+  morrowind.esm------------------>|DATA|FNAM:Clan Aundae|NAME:We are shunned by almost all who live in the sunlight. While some mages will tolerate us, all others consider us abominations. And the sunlight...do not walk in the sunlight. It will be your death.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Aundae|NAME:We are shunned by those who live in the light. While some mages tolerate us out of morbid fascination, all others consider us abominations and react with terror and violence. And the sun... Do not walk in the sun. It will be your end.
+
+[MOD-INF]: ID=2507536232473510507(Topic:ring)
+  morrowind.esm------------------>|DATA|ONAM:fargoth|NAME:I swear one of the Guards has it. I had it last week before their weekly "Let's shake down Fargoth" ritual. An engraved healing ring, family heirloom of mine. You haven't seen it have you?|BNAM:Journal MS_FargothRing 10  choice "Uhhh. No, sorry. No ring." 1 "Yes, I found it! Here take it." 2
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:fargoth|NAME:I swear one of the guards has it. I had it last week before their weekly "Let's shake down Fargoth" ritual. An engraved healing ring, family heirloom of mine. You haven't seen it, have you?|BNAM:Journal MS_FargothRing 10  choice "Uhhh. No, sorry. No ring." 1 "Yes, I found it! Here, take it." 2
+
+[MOD-INF]: ID=2638315375530810798(Topic:restore potions)
+  morrowind.esm------------------>|DATA|ONAM:nalion|NAME:Restore potions permanently restore attributes and abilities reduced by harmful spells or supernatural attacks. Restore potions include: restore strength, restore intelligence, restore willpower, restore agility, restore speed, restore personality, restore luck, restore health, restore spell points, restore fatigue, and restore endurance.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:nalion|NAME:These potions restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=2643922391275126885(Topic:bonelord)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:The Bonelord is a revenant that protects the tombs of clan and kin. Bonemeal, the finely ground powder made from the bones of the skeleton minions, has modest magical properties.|BNAM:;mage
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:A floating revenant that patrols Dunmer burial sites. In addition to a single soul gem within its skull, bonemeal can also be ground from its four arms.|BNAM:;mage
+
+[MOD-INF]: ID=2710822319292754514(Topic:berne)
+  morrowind.esm------------------>|DATA|FNAM:Clan Aundae|NAME:This clan above all disappears into the night. Not blessed with the magical powers we are given, they rely on stealth to claim their victims.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Aundae|NAME:This clan above all disappears into the night. Not blessed with the magical powers we enjoy, they rely on stealth to claim their victims.
+
+[MOD-INF]: ID=2729414803119484922(Journal:va_vampcurse)
+  morrowind.esm------------------>|DATA|NAME:After draining some of my health and fatigue, the vampire returned to full strength. He has decided I am no longer necessary, though.
+  Bob's TexTweaks - Dialogue.esp->|DATA|NAME:After draining some of my health and stamina, the vampire returned to full strength. He has decided I am no longer necessary, though.
+
+[MOD-INF]: ID=2730732183483411704(Topic:restore spells)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:Restore spells restore fundamental attributes reduced by attribute-damaging magical effects. These spells are the only means of restoring attributes injured in this fashion. The most common restoration spells of this kind are: restore agility, restore endurance, restore fatigue, restore health, restore intelligence, restore luck, restore personality, restore speed, restore strength, restore willpower, and restore spell points.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:These spells restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2837727123107723176(Topic:bound armor spells)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:Bound armor spells summon lesser daedra constrained within the form of magical armor for the duration of the magical effect. The armor pieces are impossibly light, superbly formed, and supernaturally durable. The most common spells of this variety are: bound cuirass, bound helm, bound boots, bound shield, and bound gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:These spells summon lesser Daedra constrained within the form of magical armor for a limited duration. Impossibly light, superbly formed and supernaturally durable, these armor pieces can include a cuirass, helm, boots, shield and gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2857520032356929682(Topic:absorption spells)
+  morrowind.esm------------------>|DATA|ONAM:artisa arelas|NAME:Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:artisa arelas|NAME:Absorption spells transfer fundamental attributes from drained victim to enhanced caster, until the duration ends and all primary attributes return to normal. Health, magicka and stamina, however, are permanent transactions.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2921012004189507884(Topic:absorption spells)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:Absorption spells transfer fundamental attributes from drained victim to enhanced caster, until the duration ends and all primary attributes return to normal. Health, magicka and stamina, however, are permanent transactions.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=3011525594147132329(Topic:fortify potions)
+  morrowind.esm------------------>|DATA|CNAM:Alchemist Service|NAME:Fortify potions temporarily increase attributes and abilities. Fortify potions include: fortify strength, fortify intelligence, fortify willpower, fortify agility, fortify speed, fortify personality, fortify luck, fortify health, fortify spell points, fortify fatigue, and fortify endurance.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|CNAM:Alchemist Service|NAME:Fortify potions augment attributes and abilities for a limited duration.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=3120422752256451781(Topic:greater bonewalker)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Greater bonewalkers defend the tombs of clan and kin. Greater bonewalkers are aggressive and dangerous. Bonemeal is a finely ground powder with modest magical properties made from the bones of the bonewalker.|BNAM:;mage
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:Another undead guardian of Dunmer burial sites. Grafted from the bodies of multiple individuals, greater bonewalkers are physically powerful, diseased and feared for the terrible curses they bestow. In addition to a single soul gem within their massive brain, bonemeal can also be ground from the ritualistic skewers in their arms and legs.|BNAM:;mage
+
+[MOD-INF]: ID=3122011626198018838(Topic:lame corprus)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:The lame corprus is a deformed, deranged victim of corprus disease. Aggressive and dangerous, they carry corprus disease, a deadly disease profoundly affecting a victim's mind and body.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:The lame Corprus is a deranged and deformed victim of the Blight disease known as Corprus. Mindless, bloated and full of enraged stamina, they are hostile and extremely dangerous. Do not engage up close and do not handle their remains without proper protection.|BNAM:;priest
+
+[MOD-INF]: ID=3194030349623911952(Topic:restore spells)
+  morrowind.esm------------------>|DATA|ONAM:eraamion|NAME:Restore spells restore fundamental attributes reduced by attribute-damaging magical effects. These spells are the only means of restoring attributes injured in this fashion. The most common restoration spells of this kind are: restore agility, restore endurance, restore fatigue, restore health, restore intelligence, restore luck, restore personality, restore speed, restore strength, restore willpower, and restore spell points.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:eraamion|NAME:These spells restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=3194796931789929630(Topic:vampires)
+  morrowind.esm------------------>|DATA|ONAM:quarra vampire 5|NAME:That is what we are, and what we will always be. We live apart from the clans: Aundae, Berne, and Quarra. They will not accept us into their fold, so we live under the ground, surfacing to prey on the warmbloods that live above. Though the clans shun us, we are powerful, and have very few weaknesses.
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:quarra vampire 5|NAME:That is what we are, and what will always be. We live apart from the Aundae, Berne and Quarra. They will not accept us into their fold. So we live underground, rising to prey on the warmbloods above. Though the clans shun us out of ego, we are beings of power and beauty, our flaws few and far.
+
+[MOD-INF]: ID=3245423813243151497(Topic:ring)
+  morrowind.esm------------------>|DATA|ONAM:fargoth|NAME:You found it! Amazing! Thank you, thank you! You are now my favorite friend. I'll be sure to tell the others, especially my friend Arrille who runs the tradehouse here. Go see him, he'll be happy to see you now!|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|BNAM:Journal MS_FargothRing 100  additem "ring_keley" 1  player->removeitem "ring_keley" 1  set state to -1  moddisposition 50  "arrille"->moddisposition 40
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:fargoth|NAME:You found it! Amazing! Thank you, thank you! You are now my favorite friend. I'll be sure to tell the others -- especially my friend Arrille who runs the tradehouse here. Go see him; he'll be happy to see you now!|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|BNAM:Journal MS_FargothRing 100  additem "ring_keley" 1  player->removeitem "ring_keley" 1  set state to -1  moddisposition 50  "arrille"->moddisposition 40
+
+[MOD-INF]: ID=3245631176133424554(Topic:ash slave)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:The ash slave is a humanoid creature transformed by a mysterious force into a deranged beast. These creatures are aggressive and dangerous. Ash slaves are associated in some way with the Devil Dagoth Ur.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:Like Dreamers, Ash Slaves are members of the malevolent Sixth House Cult. Once a common Dunmer, their service to the Red Mountain Devil, Dagoth Ur, has slowly warped them into a deranged monster. Despite lacking eyes, these creatures are far from blind, and quite dangerous. A known carrier of the Blight, do not engage up close, and do not handle their remains without proper protection.|BNAM:;priest
+
+[MOD-INF]: ID=3250632185324922805(Topic:restore potions)
+  morrowind.esm------------------>|DATA|ONAM:anarenen|NAME:Restore potions permanently restore attributes and abilities reduced by harmful spells or supernatural attacks. Restore potions include: restore strength, restore intelligence, restore willpower, restore agility, restore speed, restore personality, restore luck, restore health, restore spell points, restore fatigue, and restore endurance.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:anarenen|NAME:These potions restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=3260111931180492616(Topic:bonewalker)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:Bonewalkers defend the tombs of clan and kin. Bonewalkers are aggressive but not very dangerous. Bonemeal is a finely ground powder with modest magical properties made from the bones of the bonewalker.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:Bonewalkers patrol the tombs of Dunmer burial sites. Necrotic, emaciated and mostly brainless, bonewalkers are aggressive but not very dangerous -- although they do carry disease. In addition to a single soul gem within their shrunken head, bonemeal can also be ground from the ritualistic skewers in their face and limbs. Beware its larger brethren, the greater bonewalker.|BNAM:;priest
+
+[MOD-INF]: ID=3457226791828626576(Topic:vampires)
+  morrowind.esm------------------>|DATA|FNAM:Clan Berne|NAME:We are the dark walkers, those who prey on the warm blooded. Our gifts are many, and weakness few. There are three major clans: Aundae, Berne, and Quarra. There are others in this world as well, living like cattle in tombs under the ground.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Berne|NAME:We are the night made flesh, that which preys on the fleeting warmth of mortality, ending life before it can end itself. Our gifts are legion; our defects a triviality. Three clans dominate this island: the Aundae, and the Quarra -- and we, the Berne. Others exist between the cracks, dwelling in crypts like common revenants.
+
+[MOD-INF]: ID=3539264032092816621(Topic:vampires)
+  morrowind.esm------------------>|DATA|ONAM:artisa arelas|NAME:The Dunmer hate necromancy and the undead, and hate blood vampires in particular. Blood vampires are powerful undead creatures that feed on humanoid blood. The vampire curse is contracted from disease-contaminated blood; victims of vampire attacks sometimes become vampires. There is no known cure for vampirism but the destruction of the vampire. Ash vampires are not blood vampires; though both are powerful immortal undead, ash vampire do not feed on blood, and have no connection with blood vampires.|SCVR:0CsX0NoLore|INTV:|BNAM:Choice "Continue" 1
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:artisa arelas|NAME:The Dunmer hate necromancy and the undead, and detest vampires in particular -- powerful undead corpses that feed on mortal blood. The vampiric curse is contracted from disease-contaminated blood, causing many victims to join their ranks. Sadly, there is no known cure for vampirism but the destruction of its host. Ash vampires are not like blood vampires; though both are powerful immortal undead, ash vampires do not feed on blood and are not spawned from disease.|SCVR:0CsX0NoLore|INTV:|BNAM:Choice "Continue" 1
+
+[MOD-INF]: ID=3931279321307611206(Topic:our dark gifts)
+  morrowind.esm------------------>|DATA|FNAM:Clan Aundae|NAME:As an Aundae, you will find your mind even more powerful than vampires of other clans, and your spellcasting unparalleled. We have achieved perfection of the mind and the body. We are sublime.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Aundae|NAME:As a child of Clan Aundae, you will find your mind even more powerful than lesser vampires, and your sorcery unparalleled. We have achieved perfection in both mind and body. We are sublime.
+
+[MOD-INF]: ID=5249272462913321422(Topic:dwemer centurions)
+  morrowind.esm------------------>|DATA|ONAM:galar rothan|NAME
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:galar rothan|NAME
+
+[MOD-INF]: ID=5377160332666728834(Topic:corprus stalker)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:Corprus stalkers are the deformed, deranged victims of corprus disease. Aggressive and dangerous, they also carry  corprus disease, a deadly disease profoundly affecting a victim's mind and body.|BNAM:;sorcerer
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:Corprus stalkers are the deranged and disfigured victims of the Blight disease known as Corprus. Driven beyond madness, they are hostile and very dangerous. Do not engage up close and do not handle their remains without proper protection.|BNAM:;sorcerer
+
+[MOD-INF]: ID=5669100241779115430(Topic:ash vampire)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:Ash vampires are immortal magical beings of vast powers. Close kin and loyal lieutenants of the Devil Dagoth Ur, they partake of his supernatural vitality.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:Ash Vampires are ancient, immortal beings of vast power -- patriarchs of the resurrected Sixth House. Close kin and loyal lieutenants of the Red Mountain Devil, Dagoth Ur, they partake of his supernatural vitality. Perhaps their most striking features are the metallic headdress and bulbous third eye peaking their tall, inhuman stature.|BNAM:;priest
+
+[MOD-INF]: ID=7458153442470511531(Topic:atronachs)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:Atronachs encountered here are of three elemental domains: flame atronachs, or fire daedra; frost atronachs, or frost daedra; and storm atronachs, also called storm daedra.|BNAM:;sorcerer
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:The most common atronachs belong to four elemental domains: the weak but agile flame atronach, the larger and stronger frost atronach, the massive and powerful storm atronach, and the similar but rarer earth atronach. Unlike golems, which are man-made constructs, atronachs are always Daedric in origin. That's why they're sometimes referred to as fire Daedra, frost Daedra and so on.|BNAM:;sorcerer
+
+[MOD-INF]: ID=8095193772474318620(Topic:cure spells)
+  morrowind.esm------------------>|DATA|ONAM:artisa arelas|NAME:Cure spells remove diseases, poisons, and incapacitation spell effects from the victim. The most common restoration spells of this kind are: cure common disease, cure blight disease, cure poison, and cure paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:artisa arelas|NAME:Cure spells eradicate and reverse the effects of common disease, Blight disease, poison and paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=8449103592593211322(Topic:strong souls)
+  morrowind.esm------------------>|DATA|ONAM:llunela hleran|NAME:You have brought me the soulgems. The power in these souls will strengthen your stronghold's foundations and help the tower grow.|SCVR:34JX3HT_Stronghold|INTV:2
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:llunela hleran|NAME:I have the gems. The power in these souls will bolster your stronghold's foundations and accelerate the tower's growth.|SCVR:34JX3HT_Stronghold|INTV:2
+
+[MOD-INF]: ID=9943195281391319622(Topic:attribute-damaging)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Attribute-damaging spells actually destroy the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The victim's attributes are reduced permanently. The most common of these destruction spells are: curse agility, curse endurance, curse fatigue, curse health, curse intelligence, curse luck, curse personality, curse speed, curse strength, curse willpower, and curse spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:Also known as curses, these spells permanently damage the eleven fundamental attributes of natural and supernatural beings. Health, magicka and stamina can be naturally regained with rest, but only the power of restoration magic can heal primary attributes.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=10534316742977110616(Topic:cure spells)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Cure spells remove diseases, poisons, and incapacitation spell effects from the victim. The most common restoration spells of this kind are: cure common disease, cure blight disease, cure poison, and cure paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:Cure spells eradicate and reverse the effects of common disease, Blight disease, poison and paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=10566253451896132030(Topic:fundamental attributes)
+  morrowind.esm------------------>|DATA|ONAM:melvure rindu|NAME:The eleven fundamental attributes of natural and supernatural beings are agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magicka. Scholars and sages of the six magic colleges are familiar with these fundamental attributes from the works of the earliest Aldmeri philosophers, and the concepts have been adopted by all the other scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:melvure rindu|NAME:The eleven fundamental attributes of natural and supernatural beings include health, magicka, stamina, agility, endurance, intelligence, luck, personality, speed, strength and willpower. Scholars and sages of the six arcane colleges are familiar with these attributes from works of the earliest Aldmeri philosophers, and their concepts have been adopted by all the scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=10836227142034427874(Topic:fundamental attributes)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:The eleven fundamental attributes of natural and supernatural beings are agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magicka. Scholars and sages of the six magic colleges are familiar with these fundamental attributes from the works of the earliest Aldmeri philosophers, and the concepts have been adopted by all the other scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:The eleven fundamental attributes of natural and supernatural beings include health, magicka, stamina, agility, endurance, intelligence, luck, personality, speed, strength and willpower. Scholars and sages of the six arcane colleges are familiar with these attributes from works of the earliest Aldmeri philosophers, and their concepts have been adopted by all the scholarly disciplines of Imperial culture.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=11589133742042124814(Topic:stamina)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:A creature's fatigue is a measure of its capacity for extended physical exertion. The greater a creature's fatigue attribute, the longer it can run, swim, and fight.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:A creature's stamina is a measure of its capacity for extended physical exertion -- such as running, swimming and fighting. Even mental concentration is affected, like the acts of persuasion and spellcasting.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=12062193882907428702(Topic:stamina)
+  morrowind.esm------------------>|DATA|ONAM:strillian macro|NAME:A creature's fatigue is a measure of its capacity for extended physical exertion. The greater a creature's fatigue attribute, the longer it can run, swim, and fight.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:strillian macro|NAME:A creature's stamina is a measure of its capacity for extended physical exertion -- such as running, swimming and fighting. Even mental concentration is affected, like the acts of persuasion and spellcasting.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=12340184953006119507(Topic:restore potions)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Restore potions permanently restore attributes and abilities reduced by harmful spells or supernatural attacks. Restore potions include: restore strength, restore intelligence, restore willpower, restore agility, restore speed, restore personality, restore luck, restore health, restore spell points, restore fatigue, and restore endurance.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:These potions restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=13044239262985121522(Topic:bound weapons spells)
+  morrowind.esm------------------>|DATA|ONAM:artisa arelas|NAME:Bound weapon spells summon lesser daedra constrained within the form of magical weapons for the duration of the magical effect. The weapons are impossibly light, superbly formed, and profoundly bloodthirsty. The most common spells of this variety are: bound dagger, bound longsword, bound mace, bound battle-axe, bound spear, and bound longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:artisa arelas|NAME:These spells summon lesser Daedra constrained within the form of magical weapons for a limited duration. Impossibly light, superbly formed and profoundly bloodthirsty, these weapons can include a dagger, longsword, mace, battle axe, spear and longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=13125145792237029688(Topic:bound armor spells)
+  morrowind.esm------------------>|DATA|ONAM:artisa arelas|NAME:Bound armor spells summon lesser daedra constrained within the form of magical armor for the duration of the magical effect. The armor pieces are impossibly light, superbly formed, and supernaturally durable. The most common spells of this variety are: bound cuirass, bound helm, bound boots, bound shield, and bound gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:artisa arelas|NAME:These spells summon lesser Daedra constrained within the form of magical armor for a limited duration. Impossibly light, superbly formed and supernaturally durable, these armor pieces can include a cuirass, helm, boots, shield and gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=15641302621155128511(Topic:strong souls)
+  morrowind.esm------------------>|DATA|ONAM:llunela hleran|NAME:I gave you two soulgems. Fill them with the souls of Storm Atronachs, Golden Saints, or Winged Twilights. Perhaps someone around here knows where you can find such strong souls.|SCVR:34JX3HT_Stronghold|INTV
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:llunela hleran|NAME:I gave you two gems. Use them to trap the souls of Golden Saints or Winged Twilights. Perhaps someone around here knows where you can find these Daedra.|SCVR:34JX3HT_Stronghold|INTV
+
+[MOD-INF]: ID=16746157653118729443(Topic:popular scrolls)
+  morrowind.esm------------------>|DATA|ONAM:arrille|NAME:Vigor and Vitality are our best-selling bargain items, restoring fatigue and health, respectively. Almsivi Intervention and Divine Intervention transport you instantly to the nearest Temple or nearest Imperial shrine -- good for routine or emergency transportation. Heartwise helps with persuasion. Summon Skeletal Minion brings help in a jiffy. And Drathis' Winter Guest does a lot of damage at a touch -- handy to whittle a too-tough opponent down to size.
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:arrille|NAME:Vigor and Vitality are our best-selling bargain items, restoring stamina and health, respectively. Intervention scrolls teleport you instantly to the nearest Temple or Imperial shrine -- good for routine or emergency transportation. Heartwise helps with persuasion; Summon scrolls bring help in a jiffy. And Drathis' Winter Guest does a lot of damage on touch -- handy to whittle a too-tough opponent down to size.
+
+[MOD-INF]: ID=17235241301126528962(Topic:attribute-draining)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:These spells weaken the eleven fundamental attributes of natural and supernatural beings. This reduction is only temporary, however, reverting to normal once its duration ends. The most common of these destruction spells include clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=17545243371364211941(Topic:little advice)
+  tribunal.esm------------------->|DATA|NAME:If you're heading into the backcountry, always carry a couple of Restore Health, Restore Fatigue, Cure Disease, and Cure Blight potions with you.|SCVR:0CsX0nolore|INTV:|BNAM:;bottom; default
+  Bob's TexTweaks - Dialogue.esp->|DATA|NAME:If you're heading into the backcountry, always carry a couple of Restore Health, Restore Stamina, Cure Disease and Cure Blight potions with you.|SCVR:0CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=17698231441407514327(Topic:attribute-draining)
+  morrowind.esm------------------>|DATA|ONAM:ygfa|NAME:Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:ygfa|NAME:These spells weaken the eleven fundamental attributes of natural and supernatural beings. This reduction is only temporary, however, reverting to normal once its duration ends. The most common of these destruction spells include clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=18008298771511527415(Topic:strong souls)
+  morrowind.esm------------------>|DATA|ONAM:divayth fyr|NAME:The souls of a summoned creature will work just as well. Just summon a storm atronach, cast soul trap on it, and dispatch it. Do this twice while carrying a powerful soul gem and give the gems to Llunela Hleran.
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:divayth fyr|NAME:Newly-summoned creatures do not have very strong souls. Therefore you need to locate a suitable Daedra out in the wild, trap its soul, and dispatch it. Do this twice while carrying a grand soul gem and give these gems to Llunela Hleran.
+
+[MOD-INF]: ID=18480295381881715920(Topic:corprus stalker)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:Corprus stalkers are the deformed, deranged victims of corprus disease. Aggressive and dangerous, they also carry  corprus disease, a deadly disease profoundly affecting a victim's mind and body.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:Corprus stalkers are the deranged and disfigured victims of the Blight disease known as Corprus. Driven beyond madness, they are hostile and very dangerous. Do not engage up close and do not handle their remains without proper protection.|BNAM:;priest
+
+[MOD-INF]: ID=19389260531509322592(Topic:strong souls)
+  morrowind.esm------------------>|DATA|ONAM:llunela hleran|NAME:Here, take these grand soulgems. Fill them with the souls of a suitable Daedra. The best souls to use are Storm Atronachs, but more powerful Daedra such as Winged Twilights and Golden Saints will work as well.|BNAM:Journal HT_Stronghold 20  Player->AddItem "misc_soulgem_grand" 2
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:llunela hleran|NAME:Here, take these grand soul gems. Use them to trap the souls of powerful Daedra like the Winged Twilight and Golden Saint.|BNAM:Journal HT_Stronghold 20  Player->AddItem "misc_soulgem_grand" 2
+
+[MOD-INF]: ID=19393229311603430580(Topic:bound armor spells)
+  morrowind.esm------------------>|DATA|ONAM:eraamion|NAME:Bound armor spells summon lesser daedra constrained within the form of magical armor for the duration of the magical effect. The armor pieces are impossibly light, superbly formed, and supernaturally durable. The most common spells of this variety are: bound cuirass, bound helm, bound boots, bound shield, and bound gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:eraamion|NAME:These spells summon lesser Daedra constrained within the form of magical armor for a limited duration. Impossibly light, superbly formed and supernaturally durable, these armor pieces can include a cuirass, helm, boots, shield and gauntlets.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=19418230893253012817(Topic:absorption spells)
+  morrowind.esm------------------>|DATA|ONAM:eraamion|NAME:Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:eraamion|NAME:Absorption spells transfer fundamental attributes from drained victim to enhanced caster, until the duration ends and all primary attributes return to normal. Health, magicka and stamina, however, are permanent transactions.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=19956121172215914083(Topic:our dark gifts)
+  morrowind.esm------------------>|DATA|FNAM:Clan Quarra|NAME:As a Quarra, you are gifted above all. Your strength and fighting skills are unmatched by any. Throw away your armor and weapons, for so great is our skill, that they are unneeded.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Quarra|NAME:With the blood of Clan Quarra, you are gifted above all -- your strength and fighting skills unmatched. Throw away your armor and weapons, for so great is our power, they are little more than toys.
+
+[MOD-INF]: ID=20642322762426321011(Greeting:greeting 5)
+  morrowind.esm------------------>|DATA|ONAM:galbedir|NAME:Step right up, %PCName, and look over my collection of scrolls. How about the flashy and cheap Taldam's Scorcher to burn your foes? Or Ondusi's Unhinging to open stuck chests and doors? If you're going somewhere dangerous, try some scrolls of Vitality and Vigor to restore your and health and fatigue. If you're in real trouble, you'll want Almsivi Intervention or Divine Intervention to transport you instantly to the nearest Temple or nearest Imperial shrine.|SCVR:01390|INTV:
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:galbedir|NAME:Step right up, %PCName, and look over my collection of scrolls. How about the flashy and cheap Taldam's Scorcher to burn your foes? Or Ondusi's Unhinging to open stuck chests and doors? If you're going somewhere dangerous, try some scrolls of Vitality and Vigor to restore your and health and stamina. If you're in real trouble, you'll want Almsivi Intervention or Divine Intervention to transport you instantly to the nearest Temple or nearest Imperial shrine.|SCVR:01390|INTV:
+
+[MOD-INF]: ID=20714174953009626777(Topic:ascended sleeper)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:The ascended sleepers are distorted, half-human, half-beast creatures transformed by a mysterious force into powerful magical beings. Ascended sleepers are highly intelligent, aggressive, and dangerous. Ascended sleepers are associated in some way with the Devil Dagoth Ur.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:Ascended Sleepers are powerful high priests of the Sixth House Cult. Thought to be former Ash Ghouls, their long service to Dagoth Ur has transformed them into a bloated monster with high intellect, deadly magicks and horrifc tentacles. Very little remains of their previous Dunmer attributes.|BNAM:;priest
+
+[MOD-INF]: ID=20780160022419727103(Topic:attribute-draining)
+  morrowind.esm------------------>|DATA|ONAM:melvure rindu|NAME:Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:melvure rindu|NAME:These spells weaken the eleven fundamental attributes of natural and supernatural beings. This reduction is only temporary, however, reverting to normal once its duration ends. The most common of these destruction spells include clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=21387263362837827343(Topic:quarra)
+  morrowind.esm------------------>|DATA|FNAM:Clan Berne|NAME:They fear nothing, and with good reason. Of all the clans, they are the strongest...at least physically. They are not subtle, and would rather slaughter an entire village than choose a few on which to feed.|SCVR:01600|INTV
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Berne|NAME:They fear nothing, and with good reason. Of all clans, they are the strongest... Well, at least physically. They are not subtle, either, and would rather slaughter an entire village than choose a few prey items. Not only does this crude bravado limit our feeding options, I fear it will embolden the populace in their genocidal crusade against us.|SCVR:01600|INTV
+
+[MOD-INF]: ID=22223139751919526660(Topic:cure spells)
+  morrowind.esm------------------>|DATA|ONAM:eraamion|NAME:Cure spells remove diseases, poisons, and incapacitation spell effects from the victim. The most common restoration spells of this kind are: cure common disease, cure blight disease, cure poison, and cure paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:eraamion|NAME:Cure spells eradicate and reverse the effects of common disease, Blight disease, poison and paralysis.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=22242265951514520433(Topic:stamina)
+  morrowind.esm------------------>|DATA|ONAM:artisa arelas|NAME:A creature's fatigue is a measure of its capacity for extended physical exertion. The greater a creature's fatigue attribute, the longer it can run, swim, and fight.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:artisa arelas|NAME:A creature's stamina is a measure of its capacity for extended physical exertion -- such as running, swimming and fighting. Even mental concentration is affected, like the acts of persuasion and spellcasting.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=22938288651497710110(Topic:bound weapons spells)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Bound weapon spells summon lesser daedra constrained within the form of magical weapons for the duration of the magical effect. The weapons are impossibly light, superbly formed, and profoundly bloodthirsty. The most common spells of this variety are: bound dagger, bound longsword, bound mace, bound battle-axe, bound spear, and bound longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:These spells summon lesser Daedra constrained within the form of magical weapons for a limited duration. Impossibly light, superbly formed and profoundly bloodthirsty, these weapons can include a dagger, longsword, mace, battle axe, spear and longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=23663253802239623244(Topic:bound weapons spells)
+  morrowind.esm------------------>|DATA|ONAM:eraamion|NAME:Bound weapon spells summon lesser daedra constrained within the form of magical weapons for the duration of the magical effect. The weapons are impossibly light, superbly formed, and profoundly bloodthirsty. The most common spells of this variety are: bound dagger, bound longsword, bound mace, bound battle-axe, bound spear, and bound longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:eraamion|NAME:These spells summon lesser Daedra constrained within the form of magical weapons for a limited duration. Impossibly light, superbly formed and profoundly bloodthirsty, these weapons can include a dagger, longsword, mace, battle axe, spear and longbow.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=24018181511513028052(Topic:vampires)
+  morrowind.esm------------------>|DATA|CNAM:Sorcerer|NAME:Imperial culture regards blood vampires as destructive monsters to be hunted and destroyed. However, romantic notions of noble, virtuous vampires persist in Imperial traditions, and vampires are thought to pass unrecognized in the Mages Guild and the Imperial aristocracy.|SCVR:0CsX0NoLore|INTV:|BNAM:;Imperial bards, savants, mages, sorcerers; ;Imperial Legion;
+  Bob's TexTweaks - Dialogue.esp->|DATA|CNAM:Sorcerer|NAME:Imperial culture regards vampires as destructive monsters to be hunted and destroyed. However, romantic notions of noble, virtuous vampires persist in Imperial traditions, and they are thought to pass unrecognized in the Mages Guild and Imperial aristocracy.|SCVR:0CsX0NoLore|INTV:|BNAM:;Imperial bards, savants, mages, sorcerers; ;Imperial Legion;
+
+[MOD-INF]: ID=24140315163162518020(Topic:ash zombie)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:The ash zombie is a humanoid creature transformed by a mysterious force into a deranged beast. Though their skulls are apparently empty, these creatures are nonetheless intelligent, aggressive, and dangerous. Ash zombies are associated in some way with the Devil Dagoth Ur.|BNAM:;sorcerer
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:Ash Zombies are yet another rank of the Sixth House Cult, warped into a deranged monster by its evil influence. Though their skulls are faceless and apparently empty, these deadly humanoids are neither blind nor dumb. Thought to be former Ash Slaves, their loss of hair and facial bones only further dehumanize them.|BNAM:;sorcerer
+
+[MOD-INF]: ID=24750320751636230647(Topic:attribute-damaging)
+  morrowind.esm------------------>|DATA|ONAM:eraamion|NAME:Attribute-damaging spells actually destroy the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The victim's attributes are reduced permanently. The most common of these destruction spells are: curse agility, curse endurance, curse fatigue, curse health, curse intelligence, curse luck, curse personality, curse speed, curse strength, curse willpower, and curse spell points.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:eraamion|NAME:Also known as curses, these spells permanently damage the eleven fundamental attributes of natural and supernatural beings. Health, magicka and stamina can be naturally regained with rest, but only the power of restoration magic can heal primary attributes.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=24884160013025222110(Topic:fortify potions)
+  morrowind.esm------------------>|DATA|ONAM:anarenen|NAME:Fortify potions temporarily increase attributes and abilities. Fortify potions include: fortify strength, fortify intelligence, fortify willpower, fortify agility, fortify speed, fortify personality, fortify luck, fortify health, fortify spell points, fortify fatigue, and fortify endurance.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:anarenen|NAME:Fortify potions temporarily increase attributes and abilities.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=26330323981406010331(Topic:powers all vampires possess)
+  morrowind.esm------------------>|DATA|FNAM:Clan Aundae|NAME:As is obvious, we are stronger, faster, more focused than normal creatures. You will find your body lacks the frailties of the normal man or mer. Disease is nothing, and those who would seek to paralyze you will always fail. We float through the night air with ease, always watching. And, of course, we can drain the warmblooded ones with but a touch, restoring our own life force.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Aundae|NAME:Despite lacking a pulse, we are stronger, faster, more focused than mortal creatures -- our cold, breathless bodies lacking the frailties of normal men and mer. Disease is nothing, drowning impossible, and paralysis trivial at best. We drift through the night air with ease, always watching -- hunting life wherever it hides, until its blood is on our lips. Even the slightest grasp of our claws can drain the warmth from mortal flesh.
+
+[MOD-INF]: ID=26484147831051825806(Topic:powers all vampires possess)
+  morrowind.esm------------------>|DATA|FNAM:Clan Berne|NAME:As is obvious, we are stronger, faster, more focused than normal creatures. You will find your body lacks the frailties of the normal man or mer. Disease is nothing, and those who would seek to paralyze you will always fail. We float through the night air with ease, always watching. And, of course, we can drain the warmblooded ones with but a touch, restoring our own life force.
+  Bob's TexTweaks - Dialogue.esp->|DATA|FNAM:Clan Berne|NAME:Despite lacking a pulse, we are stronger, faster, more focused than mortal creatures -- our cold, breathless bodies lacking the frailties of normal men and mer. Disease is nothing, drowning impossible, and paralysis trivial at best. We drift through the night air with ease, always watching -- hunting life wherever it hides, until its blood is on our lips. Even the slightest grasp of our claws can drain the warmth from mortal flesh.
+
+[MOD-INF]: ID=26790282882451215188(Topic:attribute-draining)
+  morrowind.esm------------------>|DATA|ONAM:eraamion|NAME:Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:eraamion|NAME:These spells weaken the eleven fundamental attributes of natural and supernatural beings. This reduction is only temporary, however, reverting to normal once its duration ends. The most common of these destruction spells include clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=29180250812467429356(Topic:ascended sleeper)
+  morrowind.esm------------------>|DATA|ONAM:smokey morth|NAME:The ascended sleepers are distorted, half-human, half-beast creatures transformed by a mysterious force into powerful magical beings. Ascended sleepers are highly intelligent, aggressive, and dangerous. Ascended sleepers are associated in some way with the Devil Dagoth Ur.|BNAM:;sorcerer
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:smokey morth|NAME:Ascended Sleepers are powerful high priests of the Sixth House Cult. Thought to be former Ash Ghouls, their long service to Dagoth Ur has transformed them into a bloated monster with high intellect, deadly magicks and horrifc tentacles. Very little remains of their previous Dunmer attributes.|BNAM:;sorcerer
+
+[MOD-INF]: ID=29198203683166230008(Topic:atronachs)
+  morrowind.esm------------------>|DATA|ONAM:vala catraso|NAME:Atronachs encountered here are of three elemental domains: flame atronachs, or fire daedra; frost atronachs, or frost daedra; and storm atronachs, also called storm daedra.|BNAM:;priest
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:vala catraso|NAME:The most common atronachs belong to four elemental domains: the weak but agile flame atronach, the larger and stronger frost atronach, the massive and powerful storm atronach, and the similar but rarer earth atronach. Unlike golems, which are man-made constructs, atronachs are always Daedric in origin. That's why they're sometimes referred to as fire Daedra, frost Daedra and so on.|BNAM:;priest
+
+[MOD-INF]: ID=30117293831851631618(Topic:toxic potions)
+  morrowind.esm------------------>|DATA|ONAM:tendris vedran|NAME:Toxic potions are potions with undesirable effects. They are not available commercially, and when found, usually represent clumsy or ill-informed attempts to make useful potions by unskilled alchemists. Toxic potions include: drain strength, drain intelligence, drain willpower, drain agility, drain speed, drain personality, drain luck, drain health, drain spell points, drain fatigue, drain endurance, and paralyze.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:tendris vedran|NAME:As the name implies, toxic potions cause undesirable effects. They are not available commercially, and usually come from clumsy or ill-informed alchemists with better intentions. These potions typically only weaken some attributes for a limited duration, but don't take your chances.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=30600124662855028420(Topic:attribute-draining)
+  morrowind.esm------------------>|DATA|ONAM:estirdalin|NAME:Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:estirdalin|NAME:These spells weaken the eleven fundamental attributes of natural and supernatural beings. This reduction is only temporary, however, reverting to normal once its duration ends. The most common of these destruction spells include clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=31683143912906932073(Topic:restore potions)
+  morrowind.esm------------------>|DATA|ONAM:tendris vedran|NAME:Restore potions permanently restore attributes and abilities reduced by harmful spells or supernatural attacks. Restore potions include: restore strength, restore intelligence, restore willpower, restore agility, restore speed, restore personality, restore luck, restore health, restore spell points, restore fatigue, and restore endurance.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:tendris vedran|NAME:These potions restore fundamental attributes and abilities damaged by mundane and magical attacks. With the exception of health, magicka and stamina, this is the only means of restoration.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[MOD-INF]: ID=32302230132066123021(Topic:attribute-draining)
+  morrowind.esm------------------>|DATA|ONAM:artisa arelas|NAME:Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+  Bob's TexTweaks - Dialogue.esp->|DATA|ONAM:artisa arelas|NAME:These spells weaken the eleven fundamental attributes of natural and supernatural beings. This reduction is only temporary, however, reverting to normal once its duration ends. The most common of these destruction spells include clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness and wound.|SCVR:0CsX0NoLore|INTV:|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;

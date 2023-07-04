@@ -1,0 +1,26 @@
+Skyrim_T_Fix.ESP: DUP-REC MASTERS MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    daynas darys
+	morrowind.esm       NPC_    gals arethi
+	morrowind.esm       NPC_    haema farseer
+	morrowind.esm       NPC_    talmeni drethan
+	morrowind.esm       NPC_    tonas telvani
+	sky_main.esm        DIAL    destination
+	sky_main.esm        NPC_    sky_xre_kw_bronding
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    greeting 7
+
+[MOD-INF]: ID=1106582441570731257(Topic:destination)
+  morrowind.esm---->|DATA|ONAM:haema farseer|NAME:My ship, the 'Wild Rover,' can carry you from Dagon Fel to Sadrith Mora, Tel Mora, and Khuul.|BNAM:;Dagon Fel; Haema Farseer; shipmaster
+  Skyrim_T_Fix.ESP->|DATA|ONAM:haema farseer|NAME:My ship, the 'Wild Rover,' can carry you from Dagon Fel to Sadrith Mora, Tel Mora, Tel Aruhn, and the Reach.|BNAM:;Dagon Fel; Haema Farseer; shipmaster
+
+[MOD-INF]: ID=2168620471259884371(Greeting:greeting 7)
+  sky_main.esm----->|DATA|ONAM:Sky_xRe_KW_Bronding|NAME:I can get you on the next ship to Ebonheart. No negotations, take it or leave it.
+  Skyrim_T_Fix.ESP->|DATA|ONAM:Sky_xRe_KW_Bronding|NAME:I can get you on the next ship to Dagon Fell. No negotations, take it or leave it.
+
+[MOD-INF]: ID=18404305671714828172(Topic:almalexia)
+  tribunal.esm----->|DATA|NAME:Farewell.|SCVR:21500|INTV|BNAM:goodbye
+  Skyrim_T_Fix.ESP->|DATA|NAME:Farewell.|SCVR:21500|INTV|BNAM:goodbye

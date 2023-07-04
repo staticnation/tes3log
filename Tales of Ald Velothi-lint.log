@@ -1,0 +1,49 @@
+Tales of Ald Velothi.esp: DUP-REC MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (397) != Actual count (396)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AV_scr_CollectorScript)
+	SCPT(Pub_AldVelothi_Outpost)
+	SCPT(av_abassel_sc)
+	SCPT(av_blocked_door)
+	SCPT(av_caravan_skip_sc)
+	SCPT(av_coffer_s)
+	SCPT(av_coffer_temp_s)
+	SCPT(av_cultist_sc)
+	SCPT(av_darvam_sc)
+	SCPT(av_dumac_s)
+	SCPT(av_fail_marker_1_s)
+	SCPT(av_fail_marker_2_s)
+	SCPT(av_fire_s)
+	SCPT(av_fishboi_tele_s)
+	SCPT(av_gordol)
+	SCPT(av_investigator_2_s)
+	SCPT(av_letter_sc)
+	SCPT(av_prye_s)
+	SCPT(av_seacoin_unique_s)
+	SCPT(av_sleep_interrupt_s)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dagger
+	morrowind.esm       DIAL    jobs
+	morrowind.esm       DIAL    old blue fin
+	morrowind.esm       DIAL    proof
+	morrowind.esm       NPC_    abassel asserbassalit
+	morrowind.esm       NPC_    ganus lloryn
+	morrowind.esm       NPC_    gordol
+	morrowind.esm       NPC_    lledsea relas
+	morrowind.esm       NPC_    trivura arenim
+	morrowind.esm       PGRD    ald velothi
+	morrowind.esm       PGRD    ashalmawia
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    my collection
+
+[MOD-INF]: ID=14363406356571922(Topic:old blue fin)
+  morrowind.esm------------>|DATA|ONAM:theldyn virith|DNAM:Redoran|NAME:Without Old Blue Fin stirring things up, Ald Velothi will be quiet again. You know, I'm almost sorry to see him go.|SCVR:34JX3HR_OldBlueFin|INTV:d
+  Tales of Ald Velothi.esp->|DATA|ONAM:theldyn virith|NAME:Without Old Blue Fin stirring things up, Ald Velothi will be quiet again. You know, I'm almost sorry to see him go.|SCVR:34JX3HR_OldBlueFin|INTV:d
+
+[MOD-INF]: ID=147455673196725693(Topic:old blue fin)
+  morrowind.esm------------>|DATA|ONAM:theldyn virith|DNAM:Redoran|NAME:So Old Blue Fin is finally dead. The Dreughers here in town asked me to give you this Dreugh wax if you got rid of Old Blue fin.|SCVR:56DX3slaughterfish_hr_sfavd|INTV|BNAM:Journal HR_OldBlueFin 100  ModDisposition 10  ModPCFacRep 5 Redoran  Player->AddItem Ingred_Dreugh_Wax_01 10
+  Tales of Ald Velothi.esp->|DATA|ONAM:theldyn virith|NAME:So Old Blue Fin is finally dead. The Dreughers here in town asked me to give you this Dreugh wax if you got rid of Old Blue fin.|SCVR:56DX3slaughterfish_hr_sfavd|INTV|BNAM:Journal HR_OldBlueFin 100  ModDisposition 10  ModPCFacRep 5 Redoran  Player->AddItem Ingred_Dreugh_Wax_01 10

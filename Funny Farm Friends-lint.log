@@ -1,0 +1,13 @@
+Funny Farm Friends.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ek_notesound)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       PGRD    ascadian isles region
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=10846297472227562(Greeting:greeting 5)
+  |DATA|ONAM:ronerelie philulanie|NAME:You can look, but don't touch. Yes, it's all Dwarf-make. And it belongs to Master Aryon. So keep your hands to yourself.|BNAM:goodbye
+
+[DUP-INF]: ID=3223324127987614626(Greeting:greeting 5)
+  |DATA|ONAM:hanarai assutlanipal|NAME:It is the Hour of Wakening. Dagoth Ur awakes, and comes forth in his glory, and his people shall rejoice, and his enemies shall scatter like dust.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:14JX4C3_DestroyDagoth|INTV:2|BNAM:setdisposition 0  setfight 90  goodbye

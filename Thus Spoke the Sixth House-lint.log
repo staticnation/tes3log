@@ -1,0 +1,31 @@
+Thus Spoke the Sixth House.esp: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    dagoth araynys
+	morrowind.esm       CREA    dagoth odros
+	morrowind.esm       CREA    dagoth tureynul
+	morrowind.esm       CREA    dagoth ulen
+	morrowind.esm       CREA    dagoth uthol
+	morrowind.esm       CREA    dagoth uvil
+	morrowind.esm       CREA    dagoth vemyn
+	morrowind.esm       DIAL    come to submit
+	morrowind.esm       DIAL    make your submission
+	tribunal.esm        CREA    dagoth endus
+	tribunal.esm        CREA    dagoth gares
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=1548813932679527144(Topic:come to submit)
+  morrowind.esm------------------>|DATA|ONAM|BNAM:; Dagoth Uthol; Kogoruhn;   SetFight 50
+  Thus Spoke the Sixth House.esp->|DATA|ONAM|BNAM:; Dagoth Uthol; Kogoruhn;
+
+[MOD-INF]: ID=2215529462764623100(Greeting:greeting 1)
+  tribunal.esm------------------->|DATA|ONAM:dagoth uthol|NAME:So. Have you decided? Have you come to submit? Or come to die?|BNAM:; Dagoth Uthol; Kogoruhn;   SetFight 100
+  Thus Spoke the Sixth House.esp->|DATA|ONAM:dagoth uthol|NAME:So. Have you decided? Have you come to submit? Or come to die?|BNAM:; Dagoth Uthol; Kogoruhn;
+
+[MOD-INF]: ID=2936560781440726533(Topic:make your submission)
+  morrowind.esm------------------>|DATA|ONAM:dagoth uthol|NAME:Lord Dagoth says you will join us or die. I thought you might just leave us alone, and go about your own affairs. But Lord Dagoth says it is not your way, to leave a thing well enough alone. Perhaps. I cannot remember you at all. But I do my Lord's bidding. I have always done his bidding. So go to him and submit. You will be given power and place. And, perhaps, peace and forgiveness. Do as you like.|BNAM:; Dagoth Uthol; Kogoruhn;   SetFight 50  Goodbye
+  Thus Spoke the Sixth House.esp->|DATA|ONAM:dagoth uthol|NAME:Lord Dagoth says you will join us or die. I thought you might just leave us alone, and go about your own affairs. But Lord Dagoth says it is not your way, to leave a thing well enough alone. Perhaps. I cannot remember you at all. But I do my Lord's bidding. I have always done his bidding. So go to him and submit. You will be given power and place. And, perhaps, peace and forgiveness. Do as you like.|BNAM:; Dagoth Uthol; Kogoruhn;   Goodbye
+
+[MOD-INF]: ID=21303172802354119425(Greeting:greeting 1)
+  tribunal.esm------------------->|DATA|ONAM:dagoth uthol|NAME:He said you would come to us. And he was right. Have you come to submit? Or come to die?|SCVR:01630|INTV:|BNAM:; Dagoth Uthol; Kogoruhn;   SetFight 100
+  Thus Spoke the Sixth House.esp->|DATA|ONAM:dagoth uthol|NAME:He said you would come to us. And he was right. Have you come to submit? Or come to die?|SCVR:01630|INTV:|BNAM:; Dagoth Uthol; Kogoruhn;

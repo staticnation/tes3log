@@ -1,0 +1,72 @@
+FGI_Vivec_TongueToad.esp: DUP-REC MISSVER MOD-INF MOD-IID OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    kill me
+	morrowind.esm       DIAL    tongue-toad
+	tribunal.esm        DIAL    latest rumors
+
+[MOD-INF]: ID=45125267256203927(Topic:tongue-toad)
+  morrowind.esm------------>|DATA|ONAM:lorbumol gro-aglakh|NAME:Go find Tongue-Toad at The Rat in the Pot in Ald'ruhn. Silence him and I'll give you 500 septims.|BNAM:Journal FG_TongueToad 10
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:lorbumol gro-aglakh|NAME:Go find Tongue-Toad at The Rat in the Pot in Ald'ruhn. Silence him and I'll give you 500 septims.|SCVR:04JX3FG_DebtOrc|INTV:d|BNAM:Journal FG_TongueToad 10
+
+[MOD-INF]: ID=105162874439067725(Topic:tongue-toad)
+  morrowind.esm------------>|DATA|ONAM:persius mercius|NAME:I'm glad you spared Tongue-Toad. No one should die for telling the truth.|SCVR:34JX3FG_TongueToad|INTV:F
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:persius mercius|NAME:I'm glad you spared Tongue-Toad. No one should die for telling the truth.|SCVR:34JX3FG_TongueToad|INTV:F
+
+[MOD-INF]: ID=149441267059456025(Topic:kill me)
+  morrowind.esm------------>|DATA|ONAM:tongue_toad|NAME:What are you doing?!|SCVR:01500|INTV|BNAM:Goodbye
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:tongue_toad|NAME:What are you doing?!|SCVR:01500|INTV|SCVR:54JX0FGI_DialogueKiller|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=195212161553059583(Topic:tongue-toad)
+  morrowind.esm------------>|DATA|ONAM:lorbumol gro-aglakh|NAME:You already killed Tongue-Toad? I need more %PCRaces like you. Here's 500 septims.|SCVR:06DX3tongue_toad|INTV|SCVR:34JX0FG_TongueToad|INTV:|BNAM:Journal FG_TongueToad 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->AddItem Gold_001 500
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:lorbumol gro-aglakh|NAME:You already killed Tongue-Toad? I need more %PCRaces like you. Here's 500 septims.|SCVR:06DX3tongue_toad|INTV|SCVR:24JX3FG_DebtOrc|INTV:d|SCVR:34JX0FG_TongueToad|INTV:|BNAM:Journal FG_TongueToad 100  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep -5 "Thieves Guild"  ModDisposition 15  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=206137979828724456(Topic:tongue-toad)
+  morrowind.esm------------>|DATA|ONAM:persius mercius|NAME:Well, you must do what you feel is right.|SCVR:06DX3tongue_toad|INTV|BNAM:ModDisposition -5
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:persius mercius|NAME:Well, you must do what you feel is right.|SCVR:06DX3tongue_toad|INTV|SCVR:14JX3FG_TongueToad|INTV: |BNAM:ModDisposition -5
+
+[MOD-INF]: ID=645112923178351647(Topic:kill me)
+  morrowind.esm------------>|DATA|ONAM:tongue_toad|DNAM:Thieves Guild|NAME:The Fighters Guild licks the boots of the Camonna Tong. You wouldn't kill a brother thief, would you? Would you let me leave town and tell the Fighters Guild that I fled?|BNAM:Choice "Just kill him" 1 "Let him leave town" 3
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:tongue_toad|DNAM:Thieves Guild|NAME:The Fighters Guild licks the boots of the Camonna Tong. You wouldn't kill a brother thief, would you? Would you let me leave town and tell the Fighters Guild that I fled?|SCVR:04JX0FGI_DialogueKiller|INTV|BNAM:Choice "Just kill him" 1 "Let him leave town" 3
+
+[MOD-INF]: ID=1215024682203709545(Topic:tongue-toad)
+  morrowind.esm------------>|DATA|ONAM:tongue_toad|NAME:What? The Fighters Guild sent you to kill me?|SCVR:04JX3FG_TongueToad|INTV: |SCVR:14JX5FG_TongueToad|INTV
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:tongue_toad|NAME:What? The Fighters Guild sent you to silence me?|SCVR:04JX3FG_TongueToad|INTV: |SCVR:14JX4FG_TongueToad|INTV:F
+
+[MOD-INF]: ID=1773125481025026836(Topic:tongue-toad)
+  morrowind.esm------------>|DATA|ONAM:persius mercius|NAME:What is Tongue-Toad's crime? I don't know that it's right to kill him. Maybe you could convince him to leave instead.
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:persius mercius|NAME:What is Tongue-Toad's crime? I don't know that it's right to kill him. Maybe you could convince him to leave instead.|SCVR:04JX3FG_TongueToad|INTV: |BNAM:Journal FG_TongueToad 50
+
+[MOD-INF]: ID=2105736252422423303(Topic:tongue-toad)
+  morrowind.esm------------>|DATA|ONAM:lorbumol gro-aglakh|NAME:Good work, %PCName. Just as long as Tongue-Toad keeps his mouth shut. Here's your gold.|SCVR:34JX3FG_TongueToad|INTV:F|BNAM:Journal FG_TongueToad 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 5  Player->AddItem Gold_001 500  tongue_toad->Disable
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:lorbumol gro-aglakh|NAME:Tongue-Toad has fled? He will keep his mouth shut for a while. But there's no guarantee he won't return. I cannot give you more than half of the bounty for your work.|SCVR:34JX3FG_TongueToad|INTV:F|BNAM:Journal FG_TongueToad 100  ModPCFacRep 5 "Fighters Guild"  Player->AddItem Gold_001 250  tongue_toad->Disable
+
+[MOD-INF]: ID=2791431008204537983(Topic:kill me)
+  morrowind.esm------------>|DATA|ONAM:tongue_toad|NAME:Don't worry about me, %PCName. Just report back to the Fighter's Guild. If I must, I'll *swim* back to our home. I have friends in the Twin Lamps who can help.|SCVR:01450|INTV|SCVR:34JX3FG_TongueToad|INTV:F
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:tongue_toad|NAME:Don't worry about me, %PCName. Just report back to the Fighter's Guild. If I must, I'll *swim* back to our home. I have friends in the Twin Lamps who can help.|SCVR:01450|INTV|SCVR:34JX3FG_TongueToad|INTV:F|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=7473264871113928057(Topic:kill me)
+  morrowind.esm------------>|DATA|ONAM:tongue_toad|NAME:Don't worry about me, soft-skin. Report back to the Fighters Guild. If I have to, I'll just *swim* to the mainland.|SCVR:34JX3FG_TongueToad|INTV:F
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:tongue_toad|NAME:Don't worry about me, soft-skin. Report back to the Fighters Guild. If I have to, I'll just *swim* to the mainland.|SCVR:34JX3FG_TongueToad|INTV:F|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=7473264871113928057(Topic:kill me)
+  morrowind.esm------------>|DATA|ONAM:tongue_toad|NAME:Don't worry about me, soft-skin. Report back to the Fighters Guild. If I have to, I'll just *swim* to the mainland.|SCVR:34JX3FG_TongueToad|INTV:F
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:tongue_toad|NAME:Don't worry about me, soft-skin. Report back to the Fighters Guild. If I have to, I'll just *swim* to the mainland.|SCVR:34JX3FG_TongueToad|INTV:F|SCVR:54JX0FGI_DialogueKiller|INTV
+[MOD-IID]: ID=13848201472807412392(Topic:silence me)
+  FGI_Vivec_TongueToad.esp->Don't worry about me, soft-skin. Report back to the Fighters Guild. If I have to, I'll just *swim* to the mainland.
+
+[MOD-INF]: ID=11710244592898014375(Topic:kill me)
+  morrowind.esm------------>|DATA|ONAM:tongue_toad|NAME:What if I were to leave town? Would you let me go and report that I have fled?|SCVR:01500|INTV|BNAM:Choice "Let him leave town" 3 "Just kill him" 1
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:tongue_toad|NAME:What if I were to leave town? Would you let me go and report that I have fled?|SCVR:01500|INTV|SCVR:54JX0FGI_DialogueKiller|INTV|BNAM:Choice "Let him leave town" 3 "Just kill him" 1
+
+[MOD-INF]: ID=14735257442199212328(Topic:tongue-toad)
+  morrowind.esm------------>|DATA|ONAM:lorbumol gro-aglakh|NAME:Good work. I like a %PCRace who can take orders.|SCVR:06DX3tongue_toad|INTV|BNAM:Journal FG_TongueToad 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->AddItem Gold_001 500
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:lorbumol gro-aglakh|NAME:Good work. I like a %PCRace who can take orders.|SCVR:06DX3tongue_toad|INTV|SCVR:14JX3FG_TongueToad|INTV: |BNAM:Journal FG_TongueToad 100  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep -5 "Thieves Guild"  ModDisposition 15  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=23107196442914627529(Topic:kill me)
+  morrowind.esm------------>|DATA|ONAM:tongue_toad|NAME:What? Why would they want me dead?|BNAM:Choice "Just kill him" 1 "Talk" 4
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:tongue_toad|NAME:What? Why would they want me dead?|SCVR:04JX0FGI_DialogueKiller|INTV|BNAM:Choice "Just kill him" 1 "Talk" 4
+
+[MOD-INF]: ID=23967208972677224599(Topic:kill me)
+  morrowind.esm------------>|DATA|ONAM:tongue_toad|NAME:Thank you, %PCName. I will leave soon. May Stendarr watch over you.|SCVR:01500|INTV|BNAM:Journal FG_TongueToad 70
+  FGI_Vivec_TongueToad.esp->|DATA|ONAM:tongue_toad|NAME:Thank you, %PCName. I will leave soon. May Stendarr watch over you.|SCVR:01500|INTV|SCVR:54JX0FGI_DialogueKiller|INTV|BNAM:Journal FG_TongueToad 70

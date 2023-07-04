@@ -1,0 +1,151 @@
+RavenRock_AllStores.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ColonyServSmith)
+	SCPT(ColonyServSmithConst)
+	SCPT(ColonyServSmithDisable)
+	SCPT(ColonyServTimer)
+	SCPT(ColonyServTrader)
+	SCPT(ColonyServTraderConst)
+	SCPT(ColonyServTraderDisable)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    assignment
+	bloodmoon.esm       DIAL    co_4
+	bloodmoon.esm       DIAL    decision
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+
+[MOD-INF]: ID=949221841118245(Topic:someone in particular)
+  bloodmoon.esm----------->|DATA|ONAM:Falco Galenus|NAME:Aside from myself, there's Sabrina Vitella, the smith, and Alcedonia Alfena runs the bar. The rest of the good people here are just hard working colonists and miners.|SCVR:02sX0ColonyService|INTV
+  RavenRock_AllStores.ESP->|DATA|ONAM:Falco Galenus|NAME:Aside from myself, there's Sabrina Vitella, the smith, and Alcedonia Alfena runs the bar. The rest of the good people here are just hard working colonists and miners.|SCVR:02sX3ColonyState|INTV: |SCVR:12sX0ColonyService|INTV
+
+[MOD-INF]: ID=56254389373526511(Topic:decision)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:Fine, fine. I'll see to it that work starts soon. Now, go find something to keep you occupied for a while. I have other things to attend to, and it will take a few days for the construction to finish.|SCVR:01500|INTV|BNAM:Journal CO_4 60  Set ColonyService to 1  StartScript ColonyServTimer  ModPCFacRep 12 "East Empire Company"
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:Fine, fine. I'll see to it that work starts soon. Now, go find something to keep you occupied for a while. I have other things to attend to, and it will take a few days for the construction to finish.|SCVR:01500|INTV|BNAM:Journal CO_4 60  Set ColonyService to 1  StartScript ColonyServTimer  ModPCFacRep 12 "East Empire Company"
+
+[MOD-INF]: ID=80216187900313848(Topic:someone in particular)
+  bloodmoon.esm----------->|DATA|ONAM:Falco Galenus|NAME:It's just me and the colonists here at the site.|SCVR:02sX3ColonyState|INTV
+  RavenRock_AllStores.ESP->|DATA|ONAM:Falco Galenus|NAME:It's just me and the colonists here at the site.|SCVR:02sX3ColonyState|INTV|SCVR:12sX4ColonyService|INTV
+
+[DUP-INF]: ID=96263195263629694(Topic:decision)
+  |DATA|ONAM:Carnius Magius|NAME:What? Fine, fine. That's fine. I honestly don't care. Just make sure there are no problems. I don't want to be bothered with this again.|SCVR:04JX3CO_4|INTV|SCVR:12sX0ColonySide|INTV|BNAM:player->additem "gold_001" 300  Journal CO_4 50  ModPCFacRep 12 "East Empire Company"  StartScript ColonyServTimer  Goodbye
+
+[MOD-INF]: ID=155376465322267884(Topic:services)
+  bloodmoon.esm----------->|DATA|ANAM:Raven Rock|NAME:I hear that we're getting a smith. Good thing, too - we go through pick axes like no one's business.|SCVR:02sX0ColonyService|INTV
+  RavenRock_AllStores.ESP->|DATA|ANAM:Raven Rock|NAME:I hear that we're getting a smith. Good thing, too - we go through pick axes like no one's business.|SCVR:02sX0ColonyService|INTV
+
+[MOD-INF]: ID=174283007633669992(Topic:decision)
+  bloodmoon.esm----------->|DATA|ONAM:Falco Galenus|NAME:Not quite sure yet, eh? Not to worry, %PCName. Think it over some more.|SCVR:01500|INTV
+  RavenRock_AllStores.ESP->|DATA|ONAM:Falco Galenus|NAME:Not quite sure yet, eh? Not to worry, %PCName. Think it over some more.|SCVR:01500|INTV
+
+[MOD-INF]: ID=216841255949681935(Topic:assignment)
+  bloodmoon.esm----------->|DATA|ONAM:Falco Galenus|DNAM:East Empire Company|NAME:It seems that nothing is easy, %PCName. Carnius' replacement supply ship has brought new problems with it, namely one Baro Egnatius. He seems to think that he deserves extra payment for delivering our supplies, and taking the ore back to the mainland, and I for one have no intention of giving in to him. I've given up trying to reason with him; why don't you try talking some sense into him.|SCVR:02sX0ColonySide|INTV|SCVR:12sX3ColonyService|INTV
+  RavenRock_AllStores.ESP->|DATA|ONAM:Falco Galenus|DNAM:East Empire Company|NAME:It seems that nothing is easy, %PCName. Carnius' replacement supply ship has brought new problems with it, namely one Baro Egnatius. He seems to think that he deserves extra payment for delivering our supplies, and taking the ore back to the mainland, and I for one have no intention of giving in to him. I've given up trying to reason with him; why don't you try talking some sense into him.|SCVR:02sX0ColonySide|INTV|SCVR:12sX3ColonyService|INTV
+
+[DUP-INF]: ID=230832643015074362(Topic:assignment)
+  |DATA|ONAM:Falco Galenus|DNAM:East Empire Company|NAME:Nothing right now, %PCName. Come back in a few days, when the work has finished on the Trader's outpost.|SCVR:02sX0ColonyService|INTV|SCVR:12sX0ColonySide|INTV
+
+[DUP-INF]: ID=252092242729061184(Topic:someone in particular)
+  |DATA|ONAM:Falco Galenus|NAME:I'm the only one here.|SCVR:04JX4CO_1|INTV
+
+[MOD-INF]: ID=309253602376031247(Topic:services)
+  bloodmoon.esm----------->|DATA|ANAM:Raven Rock|NAME:There's a smithy here at the site, but that's about it. Might be able to find more at Fort Frostmoth...|SCVR:02sX0ColonyService|INTV
+  RavenRock_AllStores.ESP->|DATA|ANAM:Raven Rock|NAME:There's a smithy here at the site, but that's about it. Might be able to find more at Fort Frostmoth...|SCVR:02sX0ColonyService|INTV
+
+[MOD-INF]: ID=889721290232449743(Topic:decision)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:Very well. A trader it is. I'll make sure the money is provided so construction starts soon. That's all for now, %PCRank. It'll take a few days for the construction; come back and see me when it's done.|SCVR:01500|INTV|BNAM:Journal CO_4 70  Set ColonyService to 2  StartScript ColonyServTimer  ModPCFacRep 12 "East Empire Company"
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:Very well. A trader it is. I'll make sure the money is provided so construction starts soon. That's all for now, %PCRank. It'll take a few days for the construction; come back and see me when it's done.|SCVR:01500|INTV: |BNAM:Journal CO_4 70  Set ColonyService to 2  StartScript ColonyServTimer  ModPCFacRep 12 "East Empire Company"
+
+[MOD-INF]: ID=891623256999511413(Greeting:greeting 1)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:The trader's is almost done? Fine, fine. Now leave me alone.|SCVR:04JX0CO_4|INTV:Z|SCVR:12sX0ColonySide|INTV|BNAM:Set ColonyService to 6  Journal CO_4 110  Goodbye
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:The trader's is almost done? Fine, fine. Now leave me alone.|SCVR:04JX0CO_4|INTV:Z|SCVR:12sX0ColonySide|INTV|BNAM:Set ColonyService to 8  Journal CO_4 110  Goodbye
+
+[DUP-INF]: ID=935181001719718349(Topic:services)
+  |DATA|ONAM:Sabrina Vitellia|NAME:You're standing the midst of the services Raven Rock has to offer. If you need anything else, you're better off checking at Fort Frostmoth.
+
+[MOD-INF]: ID=981527630664322376(Topic:assignment)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:How am I supposed to get anything done when things are always going wrong? No one understands the pressure I'm under, %PCRank. No one. And these problems only make things worse. Get out there and find out what's keeping Falco from getting his work done THIS time. It's some sort of problem with the supply ship. I can only imagine what he's done....|SCVR:02sX3ColonyService|INTV|SCVR:12sX0ColonySide|INTV|BNAM:Journal CO_5 10
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:How am I supposed to get anything done when things are always going wrong? No one understands the pressure I'm under, %PCRank. No one. And these problems only make things worse. Get out there and find out what's keeping Falco from getting his work done THIS time. It's some sort of problem with the supply ship. I can only imagine what he's done....|SCVR:02sX3ColonyService|INTV|SCVR:12sX0ColonySide|INTV|BNAM:Journal CO_5 10
+
+[DUP-INF]: ID=1597727161637829851(Journal:co_4)
+  |DATA|NAME:I've been asked my opinion on whether a smith or a trader should be brought into the colony. I should ask the colonists what they think, then report my decision.
+
+[DUP-INF]: ID=1756197072535629055(Topic:someone in particular)
+  |DATA|ANAM:Raven Rock|NAME:Falco Galenus is the man in charge here at the colony site. He'll be around someplace.
+
+[MOD-INF]: ID=1803322310157231343(Topic:decision)
+  bloodmoon.esm----------->|DATA|ONAM:Falco Galenus|NAME:Very well. I'll make sure the work starts promptly. Carnius needs to be informed, regardless of whether or not he cares. We can't do anything without the utmost regard for procedure; we don't want to give him an edge.|SCVR:01500|INTV|SCVR:12sX0ColonySide|INTV|BNAM:Journal CO_4 30  Set ColonyService to 1
+  RavenRock_AllStores.ESP->|DATA|ONAM:Falco Galenus|NAME:Very well. I'll make sure the work starts promptly. Carnius needs to be informed, regardless of whether or not he cares. We can't do anything without the utmost regard for procedure; we don't want to give him an edge.|SCVR:01500|INTV|SCVR:12sX0ColonySide|INTV|BNAM:Journal CO_4 30  Set ColonyService to 1
+
+[MOD-INF]: ID=1906014833141124249(Topic:specific place)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock, however, boasts a bar and a Trader's Outpost. All thanks to me, of course.|SCVR:02sX3ColonyState|INTV: |SCVR:12sX0ColonyService|INTV
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock, however, boasts a bar and a Trader's Outpost. All thanks to me, of course.|SCVR:02sX3ColonyState|INTV: |SCVR:12sX0ColonyService|INTV
+
+[MOD-INF]: ID=1993020388159037267(Topic:someone in particular)
+  bloodmoon.esm----------->|DATA|ONAM:Falco Galenus|NAME:Aside from myself, there's Sathyn Andrano, the trader, and Alcedonia Alfena runs the bar. The rest of the good people here are just hard working colonists and miners.|SCVR:02sX0ColonyService|INTV
+  RavenRock_AllStores.ESP->|DATA|ONAM:Falco Galenus|NAME:Aside from myself, there's Sathyn Andrano, the trader, and Alcedonia Alfena runs the bar. The rest of the good people here are just hard working colonists and miners.|SCVR:02sX3ColonyState|INTV: |SCVR:12sX0ColonyService|INTV
+
+[DUP-INF]: ID=2351360231654331307(Topic:services)
+  |DATA|ANAM:Fort Frostmoth|NAME:You'll find Zeno Faustus in the Armory. He'll repair your weapons or sell you a new one. If you're sick, try the Imperial Cult Shrine. For a small donation, you can usually get a cure for what ails you.|SCVR:07XX0zeno faustus|INTV
+
+[MOD-INF]: ID=2370917710697717552(Topic:decision)
+  bloodmoon.esm----------->|DATA|ONAM:Falco Galenus|NAME:So, what do you think, %PCName? Which should it be - the smith, or the trader?|SCVR:04JX0CO_4|INTV|SCVR:12sX0ColonySide|INTV|BNAM:Choice: "The Smith." 1 "The Trader." 2 "I haven't decided yet." 3
+  RavenRock_AllStores.ESP->|DATA|ONAM:Falco Galenus|NAME:So, what do you think, %PCName? Which should it be - the smith, or the trader?|SCVR:04JX0CO_4|INTV|SCVR:12sX0ColonySide|INTV|BNAM:Choice: "The Smith." 1 "The Trader." 2 "I'd like to finance the construction of both." 3 "I haven't decided yet." 4
+
+[MOD-INF]: ID=2454423943185026638(Topic:decision)
+  bloodmoon.esm----------->|DATA|ONAM:Falco Galenus|NAME:Indeed, a smith would be useful to us. Are you certain that's how we should invest? Once we've started construction, you can't afford to change your mind.|SCVR:01500|INTV|BNAM:Choice: "Yes, I'm sure." 4 "No, wait." 3
+  RavenRock_AllStores.ESP->|DATA|ONAM:Falco Galenus|NAME:Indeed, a smith would be useful to us. Are you certain that's how we should invest? Once we've started construction, you can't afford to change your mind.|SCVR:01500|INTV|BNAM:Choice: "Yes, I'm sure." 5 "No, wait." 4
+
+[DUP-INF]: ID=2753370112577220994(Topic:assignment)
+  |DATA|ONAM:Falco Galenus|DNAM:East Empire Company|NAME:Make sure Carnius knows about the decision, %PCName.|SCVR:04JX3CO_4|INTV|SCVR:12sX0ColonySide|INTV
+
+[MOD-INF]: ID=3213523809742220831(Topic:specific place)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock, however, is far more civilized, having both a bar and a smithy. You can thank me for that.|SCVR:02sX3ColonyState|INTV: |SCVR:12sX0ColonyService|INTV
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock, however, is far more civilized, having both a bar and a smithy. You can thank me for that.|SCVR:02sX3ColonyState|INTV: |SCVR:12sX0ColonyService|INTV
+
+[MOD-INF]: ID=4622309491485524780(Topic:services)
+  bloodmoon.esm----------->|DATA|ANAM:Raven Rock|NAME:We're building a trader's outpost right now, as a matter of fact.|SCVR:02sX0ColonyService|INTV
+  RavenRock_AllStores.ESP->|DATA|ANAM:Raven Rock|NAME:We're building a trader's outpost right now, as a matter of fact.|SCVR:02sX0ColonyService|INTV
+
+[MOD-INF]: ID=10322196102108324547(Topic:assignment)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:The smithy is almost done? Bah, who cares? These incompetents can't even finish the simplest of assignments.|SCVR:04JX0CO_4|INTV:P|SCVR:12sX0ColonySide|INTV|BNAM:Journal CO_4 100  Set ColonyService to 5
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:The smithy is almost done? Bah, who cares? These incompetents can't even finish the simplest of assignments.|SCVR:04JX0CO_4|INTV:P|SCVR:12sX0ColonySide|INTV|BNAM:Journal CO_4 100  Set ColonyService to 7
+
+[MOD-INF]: ID=16143168111777121901(Topic:decision)
+  bloodmoon.esm----------->|DATA|ONAM:Falco Galenus|NAME:So be it. I'll get the men started on construction; you take the news to Carnius. I doubt he'll care, but Stendarr forbid he doesn't know every little detail of what goes on here.|SCVR:01500|INTV|SCVR:12sX0ColonySide|INTV|BNAM:Journal CO_4 40  Set ColonyService to 2
+  RavenRock_AllStores.ESP->|DATA|ONAM:Falco Galenus|NAME:So be it. I'll get the men started on construction; you take the news to Carnius. I doubt he'll care, but Stendarr forbid he doesn't know every little detail of what goes on here.|SCVR:01500|INTV|SCVR:12sX0ColonySide|INTV|BNAM:Journal CO_4 40  Set ColonyService to 2
+
+[MOD-INF]: ID=16742146962583030910(Topic:decision)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:Let's get this over with, so I can allocate the funds and move on to something more important. What's it going to be?|SCVR:04JX0CO_4|INTV|BNAM:Choice: "The Smith." 4 "The Trader" 5 "I haven't decided yet." 6
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:Let's get this over with, so I can allocate the funds and move on to something more important. What's it going to be?|SCVR:04JX0CO_4|INTV|BNAM:Choice: "The Smith." 9 "The Trader" 10 "I'd like to finance the construction of both." 11 "I haven't decided yet." 12
+
+[DUP-INF]: ID=18638214611000221354(Topic:services)
+  |DATA|ANAM:Raven Rock|NAME:There's a trader's oupost in the works, but nothing at the moment.|SCVR:02sX0ColonyService|INTV
+
+[MOD-INF]: ID=21586104741568321653(Topic:decision)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:What do you mean, you haven't decided yet? If you haven't made a decision, why are you even discussing it with me?|SCVR:01500|INTV|BNAM:moddisposition -2
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:What do you mean, you haven't decided yet? If you haven't made a decision, why are you even discussing it with me?|SCVR:01500|INTV|BNAM:moddisposition -2
+
+[MOD-INF]: ID=22801268022147514621(Topic:decision)
+  bloodmoon.esm----------->|DATA|ONAM:Falco Galenus|NAME:A trader, eh? Well, we can certainly build that, though it will take some time. Are you absolutely sure that's what we should build? Once we invest the money in it, we can't change the plans.|SCVR:01500|INTV|BNAM:Choice: "Yes, I'm sure." 5 "No, wait." 3
+  RavenRock_AllStores.ESP->|DATA|ONAM:Falco Galenus|NAME:A trader, eh? Well, we can certainly build that, though it will take some time. Are you absolutely sure that's what we should build? Once we invest the money in it, we can't change the plans.|SCVR:01500|INTV|BNAM:Choice: "Yes, I'm sure." 6 "No, wait." 4
+
+[DUP-INF]: ID=25659223951448129046(Topic:services)
+  |DATA|ONAM:Sathyn Andrano|NAME:Aside from this shop, you mean? Well, that's an easy answer. Nothing. If it's not for sale here, you'll have to try checking at Fort Frostmoth. And, given my stock, it's probably not for sale here.
+
+[MOD-INF]: ID=26627217472575114922(Greeting:greeting 1)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:The smithy is done? Fine, fine. Now leave me alone.|SCVR:04JX0CO_4|INTV:P|SCVR:12sX0ColonySide|INTV|BNAM:set ColonyService to 5  Journal CO_4 100  Goodbye
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:The smithy is done? Fine, fine. Now leave me alone.|SCVR:04JX0CO_4|INTV:P|SCVR:12sX0ColonySide|INTV|BNAM:set ColonyService to 7  Journal CO_4 100  Goodbye
+
+[MOD-INF]: ID=27993222072918625847(Topic:services)
+  bloodmoon.esm----------->|DATA|ANAM:Raven Rock|NAME:There's a trader here, but that's about all we can offer. You might want to check at Fort Frostmoth.|SCVR:02sX0ColonyService|INTV
+  RavenRock_AllStores.ESP->|DATA|ANAM:Raven Rock|NAME:There's a trader here, but that's about all we can offer. You might want to check at Fort Frostmoth.|SCVR:02sX0ColonyService|INTV
+
+[MOD-INF]: ID=30476321962405714204(Topic:assignment)
+  bloodmoon.esm----------->|DATA|ONAM:Carnius Magius|NAME:The trader's outpost is almost done? Bah, who cares? These incompetents can't even finish the simplest of assignments.|SCVR:04JX0CO_4|INTV:Z|SCVR:12sX0ColonySide|INTV|BNAM:Journal CO_4 110  Set ColonyService to 6
+  RavenRock_AllStores.ESP->|DATA|ONAM:Carnius Magius|NAME:The trader's outpost is almost done? Bah, who cares? These incompetents can't even finish the simplest of assignments.|SCVR:04JX0CO_4|INTV:Z|SCVR:12sX0ColonySide|INTV|BNAM:Journal CO_4 110  Set ColonyService to 8
+
+[DUP-INF]: ID=32486274863128021827(Greeting:greeting 1)
+  |DATA|ONAM:Carnius Magius|NAME:What is it, %PCRank?|SCVR:04JX3CO_5|INTV: |SCVR:11460|INTV|SCVR:22sX3ColonyService|INTV|SCVR:32sX0ColonySide|INTV

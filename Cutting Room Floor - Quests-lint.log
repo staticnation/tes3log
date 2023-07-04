@@ -1,0 +1,76 @@
+Cutting Room Floor - Quests.esp: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       CREA    ash_ghoul_fgr
+	morrowind.esm       CREA    dagoth velos
+	morrowind.esm       DIAL    anumidium
+	morrowind.esm       DIAL    master neloth
+	morrowind.esm       DIAL    writ
+	morrowind.esm       NPC_    neloth
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    mt_writneloth
+
+[MOD-INF]: ID=4324141266358109(Topic:anumidium)
+  morrowind.esm------------------->|DATA|ONAM:general darius|NAME:I am glad you are still loyal. We will need %PCRaces like you for the troubles ahead. In exchange for these plans, I offer you [REWARD].|SCVR:01500|INTV|BNAM:Journal IL_Blueprints 100  ;make a reward noise here  ModPCFacRep 15 "Imperial Legion"  ModDisposition 25
+  Cutting Room Floor - Quests.esp->|DATA|ONAM:general darius|NAME:I am glad you are still loyal. We will need %PCRaces like you for the troubles ahead.|SCVR:01500|INTV|BNAM:Journal IL_Blueprints 100  Player->AddItem"Gold_001" 500  Player->RemoveItem"misc_dwrv_artifact30" 1  ModPCFacRep 15 "Imperial Legion"  ModDisposition 25
+
+[DUP-INF]: ID=117191885045914425(Topic:orders)
+  |DATA|ONAM:imsin the dreamer|NAME:I have no more orders for you. Check with the Knight Protectors in the other Legion forts.|SCVR:34JX3IL_MaidenToken|INTV:d
+
+[MOD-INF]: ID=121111175044661847(Topic:orders)
+  morrowind.esm------------------->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:The Emperor Uriel Septim VII wants the plans for the Anumidium.|SCVR:04JX3IL_Blueprints|INTV|BNAM:;the journal entry here is set so that you never get this quest. It has been commented out for now.
+  Cutting Room Floor - Quests.esp->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:The Emperor Uriel Septim VII wants the plans for the Anumidium.|SCVR:04JX3IL_TalosTreason|INTV:d|BNAM:Journal "IL_Blueprints" 10
+
+[MOD-INF]: ID=152723220189968765(Topic:writ)
+  morrowind.esm------------------->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Due to the troubles in Vvardenfell recently, the Houses have negotiated several Writs. I have Writs for General Larrius Varro, Baladas Demnevanni, Dram Bero, and Mistress Therana if you want to take any of these yourself, %PCRank.|SCVR:24JX3C3_DestroyDagoth|INTV:2|SCVR:34JX3MT_WritNavil|INTV:d|SCVR:44JX3MT_WritBemis|INTV:d|SCVR:54JX3MT_WritBrilnosu|INTV:d
+  Cutting Room Floor - Quests.esp->|DATA|FNAM:Morag Tong|DNAM:Morag Tong|NAME:Due to the troubles in Vvardenfell recently, the Houses have negotiated several Writs. I have Writs for General Larrius Varro, Baladas Demnevanni, Dram Bero, Mistress Therana, and Master Neloth if you want to take any of these yourself, %PCRank.|SCVR:24JX3C3_DestroyDagoth|INTV:2|SCVR:34JX3MT_WritNavil|INTV:d|SCVR:44JX3MT_WritBemis|INTV:d|SCVR:54JX3MT_WritBrilnosu|INTV:d
+
+[MOD-INF]: ID=238049935512512890(Greeting:greeting 5)
+  morrowind.esm------------------->|DATA|ONAM:general darius|NAME:What do you need?|SCVR:04JX3IL_TalosTreason|INTV:d
+  Cutting Room Floor - Quests.esp->|DATA|ONAM:general darius|NAME:What do you need?|SCVR:04JX3IL_Blueprints|INTV:d
+
+[MOD-INF]: ID=238049935512512890(Greeting:greeting 5)
+  morrowind.esm------------------->|DATA|ONAM:general darius|NAME:What do you need?|SCVR:04JX3IL_TalosTreason|INTV:d
+  Cutting Room Floor - Quests.esp->|DATA|ONAM:general darius|NAME:What do you need?|SCVR:04JX3IL_Blueprints|INTV:d
+[MOD-IID]: ID=26680144853039516338
+  Cutting Room Floor - Quests.esp->What do you need?
+
+[MOD-INF]: ID=842118503261137214(Journal:mt_writneloth)
+  tribunal.esm-------------------->|DATA|NAME:I executed the Writ on Master Neloth.|QSTF
+  Cutting Room Floor - Quests.esp->|DATA|NAME:I executed the Writ on Master Neloth.|QSTF
+
+[MOD-INF]: ID=1668115217884521023(Topic:orders)
+  morrowind.esm------------------->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:What can I do for a %PCRank? I am at your service.
+  Cutting Room Floor - Quests.esp->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:I don't have any more orders for you. Check with the Knight Protectors in each of the Forts, and, when you're ready, check with the Knight of the Imperial Dragon, Varus Vatinius in Ebonheart.|SCVR:04JX3IL_Blueprints|INTV:d
+
+[MOD-INF]: ID=1678614083236592942(Topic:orders)
+  morrowind.esm------------------->|DATA|ONAM:general darius|NAME:You need further advancement. Talk to me again when you've earned the rank of Champion.|SCVR:04JX3IL_RescueRagash|INTV:d|BNAM:;should never get this, took out rank requirement for talos quest, todd 1/15/02
+  Cutting Room Floor - Quests.esp->|DATA|ONAM:general darius|NAME:You need further advancement. Talk to me again when you've earned the rank of Champion.|SCVR:04JX3IL_TalosTreason|INTV:d
+
+[MOD-INF]: ID=1785517126180158140(Topic:orders)
+  morrowind.esm------------------->|DATA|ONAM:imsin the dreamer|NAME:I need you to bring me a maiden's token.|SCVR:34JX3IL_RescueKnight|INTV:d
+  Cutting Room Floor - Quests.esp->|DATA|ONAM:imsin the dreamer|NAME:I need you to find and kill Tonasi Belas.|SCVR:34JX3IL_RescueKnight|INTV:d
+
+[DUP-INF]: ID=2235920545589115316(Topic:master neloth)
+  |DATA|ONAM:aryon|NAME:He lives in Tel Naga, the tower in Sadrith Mora. He has a short temper, but he will listen to reason if you are persuasive enough. Do not expect him to be polite.|SCVR:06DX0neloth|INTV:
+
+[MOD-INF]: ID=3617247152366524760(Topic:orders)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:We've been hired to find the Pudai Egg Mine.|SCVR:34JX3FG_EngaerBounty|INTV:d
+  Cutting Room Floor - Quests.esp->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:There is a contract to kill Dagoth Velos in Sanit.|SCVR:34JX3FG_EngaerBounty|INTV:d
+
+[DUP-INF]: ID=12348153153023411292(Journal:mt_writneloth)
+  |DATA|NAME:I have been given a Writ for the honorable execution of Master Neloth. He may be found in the Tower of Tel Naga in Sadrith Mora.
+
+[MOD-INF]: ID=19651266562534313346(:orders)
+  morrowind.esm------------------->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:I don't have any more orders for you. Check with the Knight Protectors in each of the Forts, and, when you're ready, check with the Knight of the Imperial Dragon, Varus Vatinius in Ebonheart.|SCVR:04JX3IL_TalosTreason|INTV:d
+  Cutting Room Floor - Quests.esp->|NAME:I don't have any more orders for you. Check with the Knight Protectors in each of the Forts, and, when you're ready, check with the Knight of the Imperial Dragon, Varus Vatinius in Ebonheart.|DELE:
+
+[DUP-INF]: ID=25470175241169431036(Greeting:greeting 5)
+  |DATA|ONAM:aryon|DNAM:Telvanni|NAME:What brings the Archmagister here?
+
+[DUP-INF]: ID=27866315111250418194(Journal:mt_writneloth)
+  |DATA|NAME:Morag Tong: Writ for Master Neloth|QSTN
+
+[DUP-INF]: ID=31467123421945922957(Greeting:greeting 5)
+  |DATA|ONAM:imsin the dreamer|NAME:What is the situation with Drinar Varyon?|SCVR:04JX2IL_Smuggler|INTV:|SCVR:14JX4IL_Smuggler|INTV:d

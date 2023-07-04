@@ -1,0 +1,78 @@
+M'Aiq the Liar Voiced.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    becoming a lich
+	morrowind.esm       DIAL    dragons
+	morrowind.esm       DIAL    emperor crab
+	morrowind.esm       DIAL    horses
+	morrowind.esm       DIAL    mounts
+	morrowind.esm       DIAL    moving corpses
+	morrowind.esm       DIAL    multiplayer
+	morrowind.esm       DIAL    mystery of the dwarves
+	morrowind.esm       DIAL    naked liches
+	morrowind.esm       DIAL    nudity
+	morrowind.esm       DIAL    rope climbing
+	morrowind.esm       DIAL    shrine of boethiah
+	morrowind.esm       DIAL    talking mudcrab merchant
+	morrowind.esm       DIAL    weresharks
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=22958107203158816(Topic:moving corpses)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:Moving corpses? This sounds frightening to M'Aiq. The undead are nothing to be toyed with.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:Moving corpses? This sounds frightening to M'Aiq. The undead are nothing to be toyed with.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_MovingCorpses"
+
+[MOD-INF]: ID=83243057220035170(Topic:becoming a lich)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:You wish to become a lich? It's very easy, my friend. Simply find the heart of a lich, combine it with the tongue of a dragon, and cook it with the flesh of a well-ridden horse. This combination is certain to make you undead.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:You wish to become a lich? It's very easy, my friend. Simply find the heart of a lich, combine it with the tongue of a dragon, and cook it with the flesh of a well-ridden horse. This combination is certain to make you undead.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_YouWishTo"
+
+[MOD-INF]: ID=137152282879213361(Topic:dragons)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:Dragons? Oh, they're everywhere! You must fly very high to see most of them, though. The ones nearer the ground are very hard to see, being invisible.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:Dragons? Oh, they're everywhere! You must fly very high to see most of them, though. The ones nearer the ground are very hard to see, being invisible.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_DragonsOh"
+
+[MOD-INF]: ID=253141488988930304(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:m'aiq|NAME:Greetings! M'Aiq knows many things. What is your interest? You seek knowledge. M'Aiq has much. Some of it verified by actual facts!|BNAM:AddTopic "nudity"  AddTopic "becoming a lich"  AddTopic "naked liches"  AddTopic "rope climbing"  AddTopic "dragons"  AddTopic "horses"  AddTopic "mounts"  AddTopic "multiplayer"  AddTopic "Shrine of Boethiah"  AddTopic "moving corpses"  AddTopic "Mystery of the Dwarves"  AddTopic "weresharks"  AddTopic "talking mudcrab merchant"
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:Greetings! M'Aiq knows many things. What is your interest? You seek knowledge. M'Aiq has much. Some of it verified by actual facts!|BNAM:AddTopic "nudity"  AddTopic "becoming a lich"  AddTopic "naked liches"  AddTopic "rope climbing"  AddTopic "dragons"  AddTopic "horses"  AddTopic "mounts"  AddTopic "multiplayer"  AddTopic "Shrine of Boethiah"  AddTopic "moving corpses"  AddTopic "Mystery of the Dwarves"  AddTopic "weresharks"  AddTopic "talking mudcrab merchant"  StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_Greetings"
+
+[MOD-INF]: ID=293982934125031571(Topic:nudity)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:Ahh...the beauty of the naked form. These Dunmer are rather prudish, are they not? Of course, there is an island you can reach filled with wonderful, naked, glistening bodies. It only appears when the moons are full, the rain falls, the seas run red, and it's M'Aiq's birthday.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:Ahh...the beauty of the naked form. These Dunmer are rather prudish, are they not? Of course, there is an island you can reach filled with wonderful, naked, glistening bodies. It only appears when the moons are full, the rain falls, the seas run red, and it's M'Aiq's birthday.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_AhTheBeauty"
+
+[MOD-INF]: ID=304717208245646250(Topic:shrine of boethiah)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:You seek the shrine that is no longer there? An interesting concept. Look to the seas to the West. There lies what was once the shrine. Take a deep breath and begin your search.|BNAM:Journal "DA_Boethiah" 10
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:You seek the shrine that is no longer there? An interesting concept. Look to the seas to the West. There lies what was once the shrine. Take a deep breath and begin your search.|BNAM:Journal "DA_Boethiah" 10  StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_YouSeek"
+
+[MOD-INF]: ID=371316223183815011(Topic:rope climbing)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:Climbing ropes that hang is too difficult. M'Aiq prefers to climb the ones that are tied horizontally.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:Climbing ropes that hang is too difficult. M'Aiq prefers to climb the ones that are tied horizontally.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_ClimbingRopes"
+
+[MOD-INF]: ID=481029472437128231(Topic:mounts)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:You would wish to ride upon a beast? There is a way.... Go to one of the many silt-strider ports and pay your fee! You wish one for personal use? Bah! Walk if you must; run if you are chased!
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:You would wish to ride upon a beast? There is a way.... Go to one of the many silt-strider ports and pay your fee! You wish one for personal use? Bah! Walk if you must; run if you are chased!|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_YouWouldWish"
+
+[MOD-INF]: ID=692832221616331749(Topic:multiplayer)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:M'Aiq does not know this word. You wish others to help you in your quest? Coward! If you must, search for the Argonian Im-Leet, or perhaps the big Nord, Rolf the Uber. They will certainly wish to join you.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:M'Aiq does not know this word. You wish others to help you in your quest? Coward! If you must, search for the Argonian Im-Leet, or perhaps the big Nord, Rolf the Uber. They will certainly wish to join you.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_MaiqDoesNot"
+
+[MOD-INF]: ID=1922514307302435902(Topic:weresharks)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:I have only met one, but he was afraid of the water.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:I have only met one, but he was afraid of the water.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_IHaveOnly"
+
+[MOD-INF]: ID=4556146223111629741(Topic:horses)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:Horses.... Oh, M'Aiq loves horses! Especially with good cream sauce.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:Horses.... Oh, M'Aiq loves horses! Especially with good cream sauce.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_Horses"
+
+[MOD-INF]: ID=17866212193028026670(Topic:naked liches)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:A horrible thing indeed. If you see one, let M'Aiq know. M'Aiq wants to make sure to look in the other direction.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:A horrible thing indeed. If you see one, let M'Aiq know. M'Aiq wants to make sure to look in the other direction.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_AHorribleThing"
+
+[MOD-INF]: ID=25942118503037820902(Topic:emperor crab)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:M'Aiq sees lots of them in the ocean. M'Aiq knows you'll see one too if you swim far enough.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:M'Aiq sees lots of them in the ocean. M'Aiq knows you'll see one too if you swim far enough.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_MaiqSeesLots"
+
+[MOD-INF]: ID=28147285963195024589(Topic:mystery of the dwarves)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:There is no mystery. M'Aiq knows all. The dwarves were here, and now they are not! They were very short folks...or perhaps they were not. It all depends on your perspective. I'm sure they thought they were about the right height.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:There is no mystery. M'Aiq knows all. The dwarves were here, and now they are not! They were very short folks...or perhaps they were not. It all depends on your perspective. I'm sure they thought they were about the right height.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_ThereIsNo"
+
+[MOD-INF]: ID=31150128011228912388(Topic:talking mudcrab merchant)
+  morrowind.esm------------->|DATA|ONAM:m'aiq|NAME:M'aiq has heard of this. They've got all the money. Mudcrabs taking over everything. They already run Pelagiad.
+  M'Aiq the Liar Voiced.ESP->|DATA|ONAM:m'aiq|NAME:M'aiq has heard of this. They've got all the money. Mudcrabs taking over everything. They already run Pelagiad.|BNAM:StopSound, "Maiq_YouWouldWish"  StopSound, "Maiq_YouWishTo"  StopSound, "Maiq_YouSeek"  StopSound, "Maiq_ThereIsNo"  StopSound, "Maiq_MovingCorpses"  StopSound, "Maiq_MaiqSeesLots"  StopSound, "Maiq_MaiqHasHeard"  StopSound, "Maiq_MaiqDoesNot"  StopSound, "Maiq_IHaveOnly"  StopSound, "Maiq_Horses"  StopSound, "Maiq_Greetings"  StopSound, "Maiq_DragonsOh"  StopSound, "Maiq_ClimbingRopes"  StopSound, "Maiq_AhTheBeauty"  StopSound, "Maiq_AHorribleThing"  PlaySound3D, "Maiq_MaiqHasHeard"

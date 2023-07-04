@@ -1,0 +1,25 @@
+Tel Branora LightHouse.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MS_L_DoorOpen)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (15, -14)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    ms_trerayna_bounty
+
+[MOD-INF]: ID=1777644392230631746(Greeting:greeting 5)
+  morrowind.esm-------------->|DATA|ONAM:mollimo of cloudrest|NAME:Well done, outlander. I can report to my mistress that Trerayna Dalen is no longer a problem. I'll mention your name... for what it's worth. Here's your gold. And my thanks.|SCVR:04JX3MS_Trerayna_bounty|INTV|SCVR:16DX3trerayna dalen|INTV|BNAM:journal MS_Trerayna_bounty 50  player->additem gold_001 1000  setalarm 90  modDisposition 20  therana->modDisposition 20
+  Tel Branora LightHouse.ESP->|DATA|ONAM:mollimo of cloudrest|NAME:Well done, outlander. I can report to my mistress that Trerayna Dalen is no longer a problem. I'll mention your name... for what it's worth. I'll also lift the magical barrier on the lighthouse - feel free to make sure of it if needed. Such a petty squabble to deal with. Anyway, here's your gold. And my thanks.|SCVR:04JX3MS_Trerayna_bounty|INTV|SCVR:16DX3trerayna dalen|INTV|BNAM:journal MS_Trerayna_bounty 50  player->additem gold_001 1000  setalarm 90  modDisposition 20  therana->modDisposition 20
+
+[MOD-INF]: ID=2917616702576521506(Journal:ms_trerayna_bounty)
+  tribunal.esm--------------->|DATA|NAME:I killed Trerayna Dalen, and received my payment of 1000 gold from Mollimo of Cloudrest.|QSTF
+  Tel Branora LightHouse.ESP->|DATA|NAME:I killed Trerayna Dalen, and received my payment of 1000 gold from Mollimo of Cloudrest. He also lifted the magical barrier on the Tel Branora Lighthouse, which I am told I am free to occupy.|QSTF

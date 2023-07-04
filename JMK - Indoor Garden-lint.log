@@ -1,0 +1,32 @@
+JMK - Indoor Garden.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKIG_EntryDoorThing)
+	SCPT(JMKIG_EntryRingGrab)
+	SCPT(JMKIG_FSSOuch)
+	SCPT(JMKIG_SpiddalPoison)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (3, -4)
+	morrowind.esm       LAND    (3, -5)
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    rm_grayrock
+
+[DUP-INF]: ID=2175725672140518560(Greeting:greeting 5)
+  |DATA|ONAM:raesa pullia|NAME:I hear you took care of that Sixth House base in Gnaar Mok. That was quite courageous, considering the risks. I'm sorry I've no time to talk, but things are getting out of hand here, with the rumors of corprus disease and the Sleeper attacks. But any help you can give us in finding and cleaning out Sixth House bases will be greatly appreciated.|SCVR:04JX3A2_2_6thHouse|INTV:2
+
+[DUP-INF]: ID=3210814058200532348(Greeting:greeting 5)
+  |DATA|ONAM:drelasa ramothran|NAME:What do you want?|BNAM:;Drelasa Ramothran

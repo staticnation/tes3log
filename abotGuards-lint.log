@@ -1,0 +1,26 @@
+abotGuards.esp: DUP-REC EXP-DEP MENUMOD MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Startup Script: ab01guardsonloadscript
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(ab01guardScript)                getspellreadied
+	SCPT(ab01guardScript)                getwaterlevel
+	SCPT(ab01guardScript)                getweapondrawn
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01guardsVarsScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    hlaalu guard
+	morrowind.esm       NPC_    hlaalu guard_outside
+	morrowind.esm       NPC_    imperial guard
+	morrowind.esm       NPC_    imperial guard_ebonhear
+	morrowind.esm       NPC_    ordinator stationary
+	morrowind.esm       NPC_    ordinator wander
+	morrowind.esm       NPC_    ordinator_high fane
+	morrowind.esm       NPC_    redoran guard female
+	morrowind.esm       NPC_    redoran guard male
+	morrowind.esm       NPC_    telvanni guard
+	morrowind.esm       NPC_    telvanni sharpshooter
+	morrowind.esm       NPC_    ughash gro-batul
+	morrowind.esm       NPC_    yashnarz gro-ufthamph
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit

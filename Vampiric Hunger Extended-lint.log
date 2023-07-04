@@ -1,0 +1,21 @@
+Vampiric Hunger Extended.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(VH_Dialog_CheckCharm)
+	SCPT(VH_Dialog_CheckWatch)
+	SCPT(VH_Dialog_FailedToFeed)
+	SCPT(VH_Dialog_ForceFeedCheck)
+	SCPT(VH_DontAttackMe)
+	SCPT(VH_DrinkForcedBlood)
+	SCPT(VH_E_Global)
+	SCPT(VH_E_Setup)
+	SCPT(VH_KnownVampireCheck)
+	SCPT(VH_NPC_Hate)
+	SCPT(VH_Ori_CheckWatch)
+	SCPT(VH_TimedDummy_Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+
+[MOD-INF]: ID=12105171323147159(Greeting:greeting 0)
+  tribunal.esm----------------->|DATA|CNAM:Guard|NAME:You've committed a crime, vampire. Were you not an abomination, I might let you live. Prepare to die!|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|SCVR:21600|INTV|BNAM:StartCombat Player  Goodbye
+  Vampiric Hunger Extended.esp->|DATA|CNAM:Guard|NAME:You've committed a crime, vampire. Were you not an abomination, I might let you live. Prepare to die!|SCVR:01490|INTV|SCVR:12sX0PCHasCrimeGold|INTV|SCVR:21600|INTV|SCVR:32sX0VH_PCKnownVampire|INTV|BNAM:StartCombat Player  Goodbye

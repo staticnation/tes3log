@@ -1,0 +1,411 @@
+AtmosphericSnd+ExpandedSnd-3.5-NoMusic-SOP.esp: DUP-REC FOGBUG GETSND MENUMOD MISSVER OVR-REC SCRDOOR
+    [FOGBUG]: Cells with zero fog density setting:
+	Ald-ruhn, Adridasi Sedaandes's House
+	Ald-ruhn, Aleel's House
+	Ald-ruhn, Arbeline Beannce's House
+	Ald-ruhn, Banor Gilamyn's House
+	Ald-ruhn, Benavasa Ralenes's House
+	Ald-ruhn, Bevnel Loneth's House
+	Ald-ruhn, Eldeli Rotalor's House
+	Ald-ruhn, Ereboth Vessass' House
+	Ald-ruhn, Guard Tower 3
+	Ald-ruhn, Guard Tower 4
+	Ald-ruhn, Irnama Sethlis's House
+	Ald-ruhn, Nileile Rerval's House
+	Ald-ruhn, Niletel Nadrms's House
+	Ald-ruhn, Niraras Greenwood's House
+	Ald-ruhn, Nulsu Verni's House
+	Ald-ruhn, Relia Caemihle's House
+	Ald-ruhn, Sabriptima Ruleld's House
+	Ald-ruhn, Sarvhyn Bethrar
+	Ald-ruhn, Sevisi Adasden's House
+	Ald-ruhn, Storage Hut
+	Ald-ruhn, Tamieso Thallian's House
+	Ald-ruhn, Temple: Pilgrims' Hostel
+	Ald-ruhn, Temple: Temple Affairs Offices
+	Ald-ruhn, Tidras Darorilo's House
+	Ald-ruhn, Tulyl Tisaren's House
+	Ald-ruhn, Valivan Gilvlvel's House
+	Ald-ruhn, Valvese Devyn's House
+	Ald-ruhn, Zahjstae's House
+	Balmora, Alchemist's Loft
+	Balmora, Almrelos Alaovo's House
+	Balmora, Amara's House
+	Balmora, Armorer's Rooftop Apartment
+	Balmora, Dorisa Darvel's Rooftop Apartment
+	Balmora, Guild of Fighters: Attic
+	Balmora, Heddvild's House
+	Balmora, Menus Marian: Trader
+	Balmora, Sartal 's House
+	Balmora, South Wall Apartment
+	Balmora, Stargel's House
+	Raven Rock, Tower
+	Sadrith Mora, Adara Omayn: Enchantress
+	Sadrith Mora, Anasoder Amoes's House
+	Sadrith Mora, Backstreet Pod
+	Sadrith Mora, Brallion's House
+	Sadrith Mora, Colette Galeau: Bookseller
+	Sadrith Mora, Divalam Ramadel's House
+	Sadrith Mora, Docks Administration
+	Sadrith Mora, Drolora Othran: Baker
+	Sadrith Mora, Elegal's House
+	Sadrith Mora, Felarave Indaneth's House
+	Sadrith Mora, Felarave Indaneth: Trader
+	Sadrith Mora, Galar Ilvayn: Tailor
+	Sadrith Mora, Madeilde Raran's House
+	Sadrith Mora, Manicky's House
+	Sadrith Mora, Senionea Drobhendis's House
+	Sadrith Mora, Storage Pod
+	Sadrith Mora, Sulis Maryon: Bookseller
+	Sadrith Mora, Valvese Devyn's House
+	Sadrith Mora, Vori's House
+	Sadrith Mora, Watch Post
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(_ase_cicada_crks02)
+	SCPT(_ase_crks01)
+	SCPT(_ase_cvewind)
+	SCPT(_ase_in_stone)
+	SCPT(_ase_in_tent)
+	SCPT(_ase_in_wood)
+	SCPT(_ase_insects_crks01)
+	SCPT(_ase_muckbubbles)
+	SCPT(_ase_pdragons)
+	SCPT(_ase_swpknee_crks01)
+	SCPT(_ase_swpknee_crks02)
+	SCPT(plx_Sound_CreakyBoards)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(1DA_Ravenrock_twn)
+	SCPT(1DA_tvrn2_outside)
+	SCPT(1DA_twn2_voicesravenrock)
+	SCPT(1DA_twn_voicesravenrock)
+	SCPT(Sound_Creeky_Wood)
+	SCPT(Sound_Dwemer_Ambient)
+	SCPT(Sound_Haunted)
+	SCPT(_ase_aitree_owls)
+	SCPT(_ase_ashtree)
+	SCPT(_ase_bnrs)
+	SCPT(_ase_cicada_crks02)
+	SCPT(_ase_crks01)
+	SCPT(_ase_cvecreak)
+	SCPT(_ase_cvedrip)
+	SCPT(_ase_cveentr)
+	SCPT(_ase_cvesounds)
+	SCPT(_ase_cvewind)
+	SCPT(_ase_daedric)
+	SCPT(_ase_dtree_dtree-owls)
+	SCPT(_ase_fallingrocks)
+	SCPT(_ase_in_stone)
+	SCPT(_ase_in_stop)
+	SCPT(_ase_in_stopsounds)
+	SCPT(_ase_in_tent)
+	SCPT(_ase_in_wood)
+	SCPT(_ase_insects)
+	SCPT(_ase_insects_crks01)
+	SCPT(_ase_lghtning)
+	SCPT(_ase_lightning_randomize)
+	SCPT(_ase_mshtree)
+	SCPT(_ase_muckbubbles)
+	SCPT(_ase_parasol)
+	SCPT(_ase_pdragons)
+	SCPT(_ase_rocklands)
+	SCPT(_ase_swpknee_crks01)
+	SCPT(_ase_swpknee_crks02)
+	SCPT(_ase_swpknee_frogs)
+	SCPT(_ase_swptree_owls)
+	SCPT(_ase_swr)
+	SCPT(_ase_tvrn_juju)
+	SCPT(_ase_tvrn_music)
+	SCPT(_ase_tvrn_outside)
+	SCPT(_ase_tvrn_sound)
+	SCPT(_ase_twn)
+	SCPT(_ase_twn_voices)
+	SCPT(_ase_wdcreak)
+	SCPT(plx_ES_Machinery1)
+	SCPT(plx_ES_Machinery2)
+	SCPT(plx_ES_Machinery3)
+	SCPT(plx_ES_Machinery4)
+	SCPT(plx_ES_in_StopScripts)
+	SCPT(plx_ES_in_weather_ashblight)
+	SCPT(plx_ES_in_weather_blizzard)
+	SCPT(plx_ES_in_weather_heavyrain)
+	SCPT(plx_ES_in_weather_rain)
+	SCPT(plx_ES_in_weather_thunder)
+	SCPT(plx_ES_interiorweather_sounds)
+	SCPT(plx_Sound_Dwemer)
+	SCPT(plx_vol_test)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	door_dwrv_load00                     plx_Sound_Dwemer
+	ex_dae_door_load_oval                plx_Sound_Daedric
+	in_dae_door_01                       plx_Sound_Daedric
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DOOR    ex_dae_door_load_oval
+	bloodmoon.esm       LIGH    bm_ka_bluefire
+	bloodmoon.esm       LIGH    bm_ka_bluefire_small
+	bloodmoon.esm       REGN    hirstaang forest region
+	morrowind.esm       ACTI    a_siltstrider
+	morrowind.esm       ACTI    active_bubbles00
+	morrowind.esm       ACTI    active_sign_c_arms_caldera
+	morrowind.esm       ACTI    active_sign_c_clothing_01
+	morrowind.esm       ACTI    active_sign_c_clothing_falanaam
+	morrowind.esm       ACTI    active_sign_c_goods_01
+	morrowind.esm       ACTI    active_sign_c_goods_caldera
+	morrowind.esm       ACTI    active_sign_c_goods_mebestien
+	morrowind.esm       ACTI    active_sign_c_guildf_01
+	morrowind.esm       ACTI    active_sign_c_guildm_01
+	morrowind.esm       ACTI    active_sign_c_guildm_caldera
+	morrowind.esm       ACTI    active_sign_c_inn_02
+	morrowind.esm       ACTI    active_sign_c_inn_shenks
+	morrowind.esm       ACTI    active_sign_c_pawn_irgola
+	morrowind.esm       ACTI    furn_sign_arms_uulernil
+	morrowind.esm       ACTI    furn_sign_inn_arrille
+	morrowind.esm       ACTI    furn_sign_inn_endofworld
+	morrowind.esm       ACTI    furn_sign_inn_halfway
+	morrowind.esm       ACTI    furn_sign_inn_muriel
+	morrowind.esm       CONT    contain_trama_shrub_01
+	morrowind.esm       CONT    contain_trama_shrub_02
+	morrowind.esm       CONT    contain_trama_shrub_03
+	morrowind.esm       CONT    contain_trama_shrub_04
+	morrowind.esm       CONT    contain_trama_shrub_05
+	morrowind.esm       CONT    contain_trama_shrub_06
+	morrowind.esm       CONT    flora_bc_fern_01
+	morrowind.esm       CONT    flora_black_anther_01
+	morrowind.esm       CONT    flora_black_anther_02
+	morrowind.esm       CONT    flora_fire_fern_01
+	morrowind.esm       CONT    flora_fire_fern_02
+	morrowind.esm       CONT    flora_fire_fern_03
+	morrowind.esm       CONT    flora_gold_kanet_01
+	morrowind.esm       CONT    flora_gold_kanet_02
+	morrowind.esm       CONT    flora_heather_01
+	morrowind.esm       CONT    flora_kreshweed_01
+	morrowind.esm       CONT    flora_kreshweed_02
+	morrowind.esm       CONT    flora_muckspunge_01
+	morrowind.esm       CONT    flora_muckspunge_02
+	morrowind.esm       CONT    flora_muckspunge_03
+	morrowind.esm       CONT    flora_muckspunge_04
+	morrowind.esm       CONT    flora_muckspunge_05
+	morrowind.esm       CONT    flora_muckspunge_06
+	morrowind.esm       CONT    flora_rm_scathecraw_01
+	morrowind.esm       CONT    flora_rm_scathecraw_02
+	morrowind.esm       CONT    flora_stoneflower_01
+	morrowind.esm       CONT    flora_stoneflower_02
+	morrowind.esm       CONT    flora_wickwheat_01
+	morrowind.esm       CONT    flora_wickwheat_02
+	morrowind.esm       CONT    flora_wickwheat_03
+	morrowind.esm       CONT    flora_wickwheat_04
+	morrowind.esm       CONT    flora_willow_flower_01
+	morrowind.esm       CONT    flora_willow_flower_02
+	morrowind.esm       CONT    tramaroot_01
+	morrowind.esm       CONT    tramaroot_02
+	morrowind.esm       CONT    tramaroot_03
+	morrowind.esm       CONT    tramaroot_04
+	morrowind.esm       CONT    tramaroot_05
+	morrowind.esm       CONT    tramaroot_06
+	morrowind.esm       LIGH    chargen_lantern_03_sway
+	morrowind.esm       LIGH    light_com_lantern_02_200_boat
+	morrowind.esm       LIGH    light_dae_censer
+	morrowind.esm       LIGH    light_de_lantern_03_200_r
+	morrowind.esm       LIGH    light_de_lantern_03_s_256
+	morrowind.esm       LIGH    light_de_lantern_03_sway
+	morrowind.esm       LIGH    light_de_lantern_04_177_s
+	morrowind.esm       LIGH    light_de_lantern_04_sway
+	morrowind.esm       LIGH    light_de_lantern_04_swayoff
+	morrowind.esm       LIGH    light_de_lantern_09_sway
+	morrowind.esm       LIGH    light_de_lantern_13_128_r
+	morrowind.esm       LIGH    light_de_streetlight_01_223
+	morrowind.esm       REGN    ascadian isles region
+	morrowind.esm       REGN    ashlands region
+	morrowind.esm       REGN    azura's coast region
+	morrowind.esm       REGN    bitter coast region
+	morrowind.esm       REGN    grazelands region
+	morrowind.esm       REGN    molag mar region
+	morrowind.esm       REGN    red mountain region
+	morrowind.esm       REGN    sheogorad
+	morrowind.esm       REGN    west gash region
+	morrowind.esm       SNDG    atronach_storm0000
+	morrowind.esm       SNDG    atronach_storm0001
+	morrowind.esm       SNDG    cliff racer0004
+	morrowind.esm       SNDG    cliff racer0005
+	morrowind.esm       SNDG    cliff racer0006
+	morrowind.esm       SOUN    alteration area
+	morrowind.esm       SOUN    alteration bolt
+	morrowind.esm       SOUN    alteration hit
+	morrowind.esm       SOUN    bell1
+	morrowind.esm       SOUN    bell2
+	morrowind.esm       SOUN    bell3
+	morrowind.esm       SOUN    bell4
+	morrowind.esm       SOUN    bell5
+	morrowind.esm       SOUN    bell6
+	morrowind.esm       SOUN    boat creak
+	morrowind.esm       SOUN    boat docked
+	morrowind.esm       SOUN    body fall large
+	morrowind.esm       SOUN    body fall medium
+	morrowind.esm       SOUN    bowshoot
+	morrowind.esm       SOUN    cave_waterfall
+	morrowind.esm       SOUN    chest close
+	morrowind.esm       SOUN    chest open
+	morrowind.esm       SOUN    chimes wood
+	morrowind.esm       SOUN    conjuration area
+	morrowind.esm       SOUN    conjuration bolt
+	morrowind.esm       SOUN    conjuration cast
+	morrowind.esm       SOUN    conjuration hit
+	morrowind.esm       SOUN    creeky wood
+	morrowind.esm       SOUN    critical damage
+	morrowind.esm       SOUN    crossbowshoot
+	morrowind.esm       SOUN    crystal ringing
+	morrowind.esm       SOUN    daedric chant
+	morrowind.esm       SOUN    destruction area
+	morrowind.esm       SOUN    destruction bolt
+	morrowind.esm       SOUN    destruction hit
+	morrowind.esm       SOUN    disarm trap
+	morrowind.esm       SOUN    disarm trap fail
+	morrowind.esm       SOUN    dock creak
+	morrowind.esm       SOUN    door creaky close
+	morrowind.esm       SOUN    door creaky open
+	morrowind.esm       SOUN    door heavy close
+	morrowind.esm       SOUN    door heavy open
+	morrowind.esm       SOUN    door latched one close
+	morrowind.esm       SOUN    door latched one open
+	morrowind.esm       SOUN    door latched two close
+	morrowind.esm       SOUN    door latched two open
+	morrowind.esm       SOUN    door metal close
+	morrowind.esm       SOUN    door metal open
+	morrowind.esm       SOUN    drown
+	morrowind.esm       SOUN    drowning damage
+	morrowind.esm       SOUN    dwemer door close
+	morrowind.esm       SOUN    dwemer door open
+	morrowind.esm       SOUN    fire
+	morrowind.esm       SOUN    fire 40
+	morrowind.esm       SOUN    fire 50
+	morrowind.esm       SOUN    flies
+	morrowind.esm       SOUN    footheavyleft
+	morrowind.esm       SOUN    footheavyright
+	morrowind.esm       SOUN    footlightleft
+	morrowind.esm       SOUN    footlightright
+	morrowind.esm       SOUN    footmedleft
+	morrowind.esm       SOUN    footmedright
+	morrowind.esm       SOUN    footwaterleft
+	morrowind.esm       SOUN    footwaterright
+	morrowind.esm       SOUN    frost area
+	morrowind.esm       SOUN    frost_bolt
+	morrowind.esm       SOUN    frost_hit
+	morrowind.esm       SOUN    hand to hand hit
+	morrowind.esm       SOUN    hand to hand hit 2
+	morrowind.esm       SOUN    health damage
+	morrowind.esm       SOUN    heart
+	morrowind.esm       SOUN    heavy armor hit
+	morrowind.esm       SOUN    howl4
+	morrowind.esm       SOUN    howl7
+	morrowind.esm       SOUN    illusion area
+	morrowind.esm       SOUN    illusion bolt
+	morrowind.esm       SOUN    illusion hit
+	morrowind.esm       SOUN    item ammo down
+	morrowind.esm       SOUN    item ammo up
+	morrowind.esm       SOUN    item apparatus down
+	morrowind.esm       SOUN    item apparatus up
+	morrowind.esm       SOUN    item armor heavy down
+	morrowind.esm       SOUN    item armor heavy up
+	morrowind.esm       SOUN    item armor light down
+	morrowind.esm       SOUN    item armor light up
+	morrowind.esm       SOUN    item armor medium down
+	morrowind.esm       SOUN    item armor medium up
+	morrowind.esm       SOUN    item bodypart down
+	morrowind.esm       SOUN    item bodypart up
+	morrowind.esm       SOUN    item book down
+	morrowind.esm       SOUN    item book up
+	morrowind.esm       SOUN    item clothes down
+	morrowind.esm       SOUN    item clothes up
+	morrowind.esm       SOUN    item gold down
+	morrowind.esm       SOUN    item gold up
+	morrowind.esm       SOUN    item ingredient down
+	morrowind.esm       SOUN    item ingredient up
+	morrowind.esm       SOUN    item lockpick down
+	morrowind.esm       SOUN    item lockpick up
+	morrowind.esm       SOUN    item misc down
+	morrowind.esm       SOUN    item misc up
+	morrowind.esm       SOUN    item potion down
+	morrowind.esm       SOUN    item potion up
+	morrowind.esm       SOUN    item probe down
+	morrowind.esm       SOUN    item probe up
+	morrowind.esm       SOUN    item repair down
+	morrowind.esm       SOUN    item repair up
+	morrowind.esm       SOUN    item ring down
+	morrowind.esm       SOUN    item ring up
+	morrowind.esm       SOUN    item weapon blunt down
+	morrowind.esm       SOUN    item weapon blunt up
+	morrowind.esm       SOUN    item weapon bow down
+	morrowind.esm       SOUN    item weapon bow up
+	morrowind.esm       SOUN    item weapon crossbow down
+	morrowind.esm       SOUN    item weapon crossbow up
+	morrowind.esm       SOUN    item weapon longblade down
+	morrowind.esm       SOUN    item weapon longblade up
+	morrowind.esm       SOUN    item weapon shortblade down
+	morrowind.esm       SOUN    item weapon shortblade up
+	morrowind.esm       SOUN    item weapon spear down
+	morrowind.esm       SOUN    item weapon spear up
+	morrowind.esm       SOUN    lava layer
+	morrowind.esm       SOUN    leftl
+	morrowind.esm       SOUN    leftm
+	morrowind.esm       SOUN    lefts
+	morrowind.esm       SOUN    light armor hit
+	morrowind.esm       SOUN    medium armor hit
+	morrowind.esm       SOUN    menu size
+	morrowind.esm       SOUN    miss
+	morrowind.esm       SOUN    mysticism area
+	morrowind.esm       SOUN    mysticism bolt
+	morrowind.esm       SOUN    mysticism hit
+	morrowind.esm       SOUN    open lock
+	morrowind.esm       SOUN    open lock fail
+	morrowind.esm       SOUN    pack
+	morrowind.esm       SOUN    power light
+	morrowind.esm       SOUN    power light 50
+	morrowind.esm       SOUN    repair
+	morrowind.esm       SOUN    repair fail
+	morrowind.esm       SOUN    restoration area
+	morrowind.esm       SOUN    restoration bolt
+	morrowind.esm       SOUN    restoration hit
+	morrowind.esm       SOUN    rightl
+	morrowind.esm       SOUN    rightm
+	morrowind.esm       SOUN    rights
+	morrowind.esm       SOUN    rocks1
+	morrowind.esm       SOUN    rocks2
+	morrowind.esm       SOUN    rocks3
+	morrowind.esm       SOUN    rocks4
+	morrowind.esm       SOUN    rocks5
+	morrowind.esm       SOUN    rocks6
+	morrowind.esm       SOUN    rocks7
+	morrowind.esm       SOUN    rocks8
+	morrowind.esm       SOUN    scroll
+	morrowind.esm       SOUN    shock area
+	morrowind.esm       SOUN    shock bolt
+	morrowind.esm       SOUN    shock hit
+	morrowind.esm       SOUN    silt_1
+	morrowind.esm       SOUN    silt_2
+	morrowind.esm       SOUN    silt_3
+	morrowind.esm       SOUN    skillraise
+	morrowind.esm       SOUN    sound_boat_creak
+	morrowind.esm       SOUN    spell failure conjuration
+	morrowind.esm       SOUN    steam
+	morrowind.esm       SOUN    swallow
+	morrowind.esm       SOUN    swishl
+	morrowind.esm       SOUN    swishm
+	morrowind.esm       SOUN    swishs
+	morrowind.esm       SOUN    weapon swish
+	morrowind.esm       SOUN    wooden door close 1
+	tribunal.esm        ACTI    furn_dwrv_beltdrive
+	tribunal.esm        ACTI    furn_dwrv_dynamo
+	tribunal.esm        ACTI    furn_dwrv_steam_00
+	tribunal.esm        ACTI    furn_dwrv_tranny00
+	tribunal.esm        ACTI    sound_mournenv1
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    in_dae_door_01
+	tribunal.esm        LIGH    light_de_lantern_03_700_sway
+	tribunal.esm        LIGH    light_mh_rope_lantern
+	tribunal.esm        LIGH    light_om_censure
+	tribunal.esm        SOUN    ambient factory ruins
+	tribunal.esm        SOUN    cave drip
+	tribunal.esm        SOUN    cave wind
+	tribunal.esm        SOUN    machinery
+	tribunal.esm        SOUN    mourntempleamb
+	tribunal.esm        SOUN    sothaambient
+	tribunal.esm        SOUN    sothabladeroll

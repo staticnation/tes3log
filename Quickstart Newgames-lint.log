@@ -1,0 +1,51 @@
+Quickstart Newgames.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CharGen)
+	SCPT(CharGenDisable)
+	SCPT(CharGenDoorEnterCaptain)
+	SCPT(CharGenDoorExit)
+	SCPT(CharGenDoorExitCaptain)
+	SCPT(CharGenFatigueBarrel)
+	SCPT(CharGenJailDoor)
+	SCPT(CharGenRaceNPC)
+	SCPT(CharGenStuffRoom)
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    advancement
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       SCPT    CharGenDisable
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    chargen_bed
+	morrowind.esm       CONT    chargen barrel fatigue
+	morrowind.esm       LIGH    light_com_chandelier_01_128
+	morrowind.esm       NPC_    chargen boat guard 1
+	morrowind.esm       NPC_    chargen boat guard 2
+	morrowind.esm       NPC_    chargen boat guard 3
+	morrowind.esm       NPC_    chargen captain
+	morrowind.esm       NPC_    chargen class
+	morrowind.esm       NPC_    chargen dock guard
+	morrowind.esm       NPC_    chargen name
+	morrowind.esm       PGRD    seyda neen, census and excise office
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=28358841968027303(Topic:duties)
+  morrowind.esm----------->|DATA|ONAM:chargen captain|NAME:You know your duties. Take that package to Caius Cosades in Balmora.|SCVR:04JX4A1_1_FindSpymaster|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV|BNAM:;journal gets set to 12 when you give spymaster package. Captian is in legion so he should mention other stuff after this ;that is part of legion.
+  Quickstart Newgames.esp->|DATA|ONAM:chargen captain|NAME:You know your duties. Take that package to Caius Cosades in Balmora.|SCVR:04JX4A1_1_FindSpymaster|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=103402350204808451(Greeting:greeting 1)
+  tribunal.esm------------>|DATA|ONAM:chargen captain|NAME:First, let me take your identification papers. Thank you. Word of your arrival only reached me yesterday. I am %name. But my background is not important. I'm here to welcome you to Morrowind.|SCVR:05IX3chargen statssheet|INTV|BNAM:player->removeitem "chargen statssheet", 1  set state to -1
+  Quickstart Newgames.esp->|DATA|ONAM:chargen captain|NAME:First, let me take your identification papers. Thank you. Word of your arrival only reached me yesterday. I am %name, this ring is yours, right? I'm here to welcome you to Morrowind.|SCVR:05IX0chargen statssheet|INTV|SCVR:11630|INTV:|BNAM:player->removeitem "chargen statssheet", 1  player->AddItem "bk_a1_1_caiuspackage", 1  set state to -1  ShowMap Balmora  AddTopic Morrowind  player->addItem "ring_keley", 1
+
+[DUP-INF]: ID=307481458477726961(Topic:advancement)
+  |DATA|ONAM:Vedam Dren|DNAM:Hlaalu|NAME:You are the Grandmaster of House Hlaalu, %PCName.
+
+[MOD-INF]: ID=1413190883195815218(Greeting:greeting 1)
+  tribunal.esm------------>|DATA|ONAM:chargen captain|NAME:Who are you? Where are your papers?|SCVR:05IX0chargen statssheet|INTV|INTV|BNAM:;if pc does not have stats sheet and local captain state is not -1
+  Quickstart Newgames.esp->|DATA|ONAM:chargen captain|NAME:Who are you? Where are your papers?     Get back to the office and find those papers!|SCVR:05IX4chargen statssheet|INTV|SCVR:11630|INTV:|BNAM:;if pc does not have stats sheet and local captain state is not -1
+
+[MOD-INF]: ID=1729913769476329813(Topic:duties)
+  morrowind.esm----------->|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX0A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+  Quickstart Newgames.esp->|DATA|ONAM:chargen captain|NAME:Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|BNAM:addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"

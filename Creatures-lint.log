@@ -1,0 +1,417 @@
+Creatures.esp: AUTOSPL DUP-REC GETSND MENUMOD MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	plx_seventh_barrier            Seventh Barrier
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(plx_DreughCrab_Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(__halo_timeOfDayFixup)
+	SCPT(ashvampire)
+	SCPT(plx_FleshCurseArmor_Boots)
+	SCPT(plx_FleshCurseArmor_Curaiss)
+	SCPT(plx_FleshCurseArmor_Greaves)
+	SCPT(plx_FleshCurseArmor_Helm)
+	SCPT(plx_FleshCurseArmor_Others)
+	SCPT(plx_NoVampireEmbrace)
+	SCPT(plx_Scrib_AI)
+	SCPT(plx_dagothdeath)
+	SCPT(plx_diseaseBrownRot)
+	SCPT(plx_diseaserotbone)
+	SCPT(plx_smalldeer)
+	SCPT(plx_smallscarab)
+	SCPT(plx_stat_randomiser)
+	SCPT(plx_vermin_rat_AI)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CREA    atronach_frost_bm
+	bloodmoon.esm       CREA    bm_bear_black
+	bloodmoon.esm       CREA    bm_bear_brown
+	bloodmoon.esm       CREA    bm_bear_snow_unique
+	bloodmoon.esm       CREA    bm_draugr01
+	bloodmoon.esm       CREA    bm_draugr_bloodskal
+	bloodmoon.esm       CREA    bm_frost_boar
+	bloodmoon.esm       CREA    bm_horker
+	bloodmoon.esm       CREA    bm_horker_large
+	bloodmoon.esm       CREA    bm_riekling
+	bloodmoon.esm       CREA    bm_riekling_be_unique1
+	bloodmoon.esm       CREA    bm_riekling_be_unique2
+	bloodmoon.esm       CREA    bm_riekling_be_unique3
+	bloodmoon.esm       CREA    bm_riekling_be_unique4
+	bloodmoon.esm       CREA    bm_riekling_be_unique5
+	bloodmoon.esm       CREA    bm_riekling_boarmaster
+	bloodmoon.esm       CREA    bm_riekling_dulk_unique
+	bloodmoon.esm       CREA    bm_riekling_krish_uniqu
+	bloodmoon.esm       CREA    bm_riekling_mounted
+	bloodmoon.esm       CREA    bm_riekling_st_unique
+	bloodmoon.esm       CREA    bm_skeleton_pirate 
+	bloodmoon.esm       CREA    bm_spriggan
+	bloodmoon.esm       CREA    bm_spriggan_co1
+	bloodmoon.esm       CREA    bm_spriggan_co2
+	bloodmoon.esm       CREA    bm_spriggan_co3
+	bloodmoon.esm       CREA    bm_spriggan_co4
+	bloodmoon.esm       CREA    bm_wolf_grey
+	bloodmoon.esm       CREA    bm_wolf_grey_lvl_1
+	bloodmoon.esm       CREA    bm_wolf_hroldar
+	bloodmoon.esm       CREA    bm_wolf_red
+	bloodmoon.esm       CREA    bm_wolf_skeleton
+	bloodmoon.esm       CREA    bm_wolf_snow_unique
+	bloodmoon.esm       CREA    draugr
+	bloodmoon.esm       CREA    rat
+	bloodmoon.esm       CREA    skeleton nord 
+	bloodmoon.esm       CREA    skeleton nord_2
+	bloodmoon.esm       CREA    skeleton_stahl_uni
+	bloodmoon.esm       DIAL    werewolves
+	bloodmoon.esm       LEVC    bm_ex_felcoast
+	bloodmoon.esm       LEVC    bm_ex_felcoast_40
+	bloodmoon.esm       LEVC    bm_ex_hirforest
+	bloodmoon.esm       LEVC    bm_ex_isinplains
+	bloodmoon.esm       LEVC    bm_ex_isinplains_40
+	bloodmoon.esm       LEVC    bm_ex_wolfpack_20
+	bloodmoon.esm       LEVC    bm_ex_wolfpack_40
+	bloodmoon.esm       LEVC    bm_ex_wolfpack_60
+	bloodmoon.esm       LEVI    random_belladonna_spriggan
+	bloodmoon.esm       LEVI    random_riekling_loot
+	bloodmoon.esm       SNDG    
+	bloodmoon.esm       WEAP    bm riekling sword
+	bloodmoon.esm       WEAP    bm riekling sword_rusted
+	morrowind.esm       CLAS    barbarian
+	morrowind.esm       CONT    dwrv_barrel10
+	morrowind.esm       CONT    dwrv_chest_missile
+	morrowind.esm       CONT    kollop_01_pearl
+	morrowind.esm       CONT    kollop_02_pearl
+	morrowind.esm       CONT    kollop_03_pearl
+	morrowind.esm       CREA    alit
+	morrowind.esm       CREA    alit_blighted
+	morrowind.esm       CREA    alit_diseased
+	morrowind.esm       CREA    ancestor_ghost
+	morrowind.esm       CREA    ascended_sleeper
+	morrowind.esm       CREA    ash_ghoul
+	morrowind.esm       CREA    ash_ghoul_fgr
+	morrowind.esm       CREA    ash_ghoul_ganel
+	morrowind.esm       CREA    ash_ghoul_mulyn
+	morrowind.esm       CREA    ash_slave
+	morrowind.esm       CREA    ash_zombie
+	morrowind.esm       CREA    atronach_flame
+	morrowind.esm       CREA    atronach_frost
+	morrowind.esm       CREA    atronach_storm
+	morrowind.esm       CREA    bonelord
+	morrowind.esm       CREA    bonewalker
+	morrowind.esm       CREA    bonewalker_greater
+	morrowind.esm       CREA    bonewalker_weak
+	morrowind.esm       CREA    clannfear
+	morrowind.esm       CREA    cliff racer
+	morrowind.esm       CREA    cliff racer_blighted
+	morrowind.esm       CREA    cliff racer_diseased
+	morrowind.esm       CREA    corprus_lame
+	morrowind.esm       CREA    corprus_stalker
+	morrowind.esm       CREA    daedroth
+	morrowind.esm       CREA    dagoth aladus
+	morrowind.esm       CREA    dagoth araynys
+	morrowind.esm       CREA    dagoth baler
+	morrowind.esm       CREA    dagoth daynil
+	morrowind.esm       CREA    dagoth delnus
+	morrowind.esm       CREA    dagoth drals
+	morrowind.esm       CREA    dagoth draven
+	morrowind.esm       CREA    dagoth elam
+	morrowind.esm       CREA    dagoth fals
+	morrowind.esm       CREA    dagoth fandril
+	morrowind.esm       CREA    dagoth felmis
+	morrowind.esm       CREA    dagoth fervas
+	morrowind.esm       CREA    dagoth fovon
+	morrowind.esm       CREA    dagoth galmis
+	morrowind.esm       CREA    dagoth garel
+	morrowind.esm       CREA    dagoth gilvoth
+	morrowind.esm       CREA    dagoth girer
+	morrowind.esm       CREA    dagoth goral
+	morrowind.esm       CREA    dagoth ienas
+	morrowind.esm       CREA    dagoth irvyn
+	morrowind.esm       CREA    dagoth malan
+	morrowind.esm       CREA    dagoth mendras
+	morrowind.esm       CREA    dagoth molos
+	morrowind.esm       CREA    dagoth mulis
+	morrowind.esm       CREA    dagoth muthes
+	morrowind.esm       CREA    dagoth nilor
+	morrowind.esm       CREA    dagoth odros
+	morrowind.esm       CREA    dagoth ralas
+	morrowind.esm       CREA    dagoth rather
+	morrowind.esm       CREA    dagoth reler
+	morrowind.esm       CREA    dagoth soler
+	morrowind.esm       CREA    dagoth tanis
+	morrowind.esm       CREA    dagoth tureynul
+	morrowind.esm       CREA    dagoth ulen
+	morrowind.esm       CREA    dagoth uthol
+	morrowind.esm       CREA    dagoth uvil
+	morrowind.esm       CREA    dagoth vaner
+	morrowind.esm       CREA    dagoth velos
+	morrowind.esm       CREA    dagoth vemyn
+	morrowind.esm       CREA    dagoth_hlevul
+	morrowind.esm       CREA    dagoth_ur_1
+	morrowind.esm       CREA    dagoth_ur_2
+	morrowind.esm       CREA    dahrk mezalf
+	morrowind.esm       CREA    dremora
+	morrowind.esm       CREA    dremora_lord
+	morrowind.esm       CREA    dremora_special_fyr
+	morrowind.esm       CREA    dreugh
+	morrowind.esm       CREA    dreugh_koal
+	morrowind.esm       CREA    dwarven ghost
+	morrowind.esm       CREA    guar
+	morrowind.esm       CREA    guar_feral
+	morrowind.esm       CREA    hunger
+	morrowind.esm       CREA    kagouti
+	morrowind.esm       CREA    kagouti_blighted
+	morrowind.esm       CREA    kagouti_diseased
+	morrowind.esm       CREA    kagouti_mating
+	morrowind.esm       CREA    kwama forager
+	morrowind.esm       CREA    kwama forager blighted
+	morrowind.esm       CREA    kwama queen
+	morrowind.esm       CREA    kwama warrior
+	morrowind.esm       CREA    kwama warrior blighted
+	morrowind.esm       CREA    kwama warrior shurdan
+	morrowind.esm       CREA    kwama worker
+	morrowind.esm       CREA    kwama worker blighted
+	morrowind.esm       CREA    kwama worker diseased
+	morrowind.esm       CREA    kwama worker entrance
+	morrowind.esm       CREA    mudcrab
+	morrowind.esm       CREA    mudcrab-diseased
+	morrowind.esm       CREA    netch_betty
+	morrowind.esm       CREA    netch_betty_ilgn
+	morrowind.esm       CREA    netch_betty_ranched
+	morrowind.esm       CREA    netch_bull
+	morrowind.esm       CREA    netch_bull_ilgn
+	morrowind.esm       CREA    netch_bull_ranched
+	morrowind.esm       CREA    netch_giant_unique
+	morrowind.esm       CREA    nix-hound
+	morrowind.esm       CREA    nix-hound blighted
+	morrowind.esm       CREA    ogrim
+	morrowind.esm       CREA    ogrim titan
+	morrowind.esm       CREA    rat_blighted
+	morrowind.esm       CREA    rat_cave_fgrh
+	morrowind.esm       CREA    rat_cave_fgt
+	morrowind.esm       CREA    rat_cave_hhte1
+	morrowind.esm       CREA    rat_cave_hhte2
+	morrowind.esm       CREA    rat_telvanni_unique
+	morrowind.esm       CREA    rat_telvanni_unique_2
+	morrowind.esm       CREA    scamp
+	morrowind.esm       CREA    scrib blighted
+	morrowind.esm       CREA    scrib diseased
+	morrowind.esm       CREA    shalk
+	morrowind.esm       CREA    shalk_blighted
+	morrowind.esm       CREA    shalk_diseased
+	morrowind.esm       CREA    skeleton
+	morrowind.esm       CREA    skeleton archer
+	morrowind.esm       CREA    skeleton champion
+	morrowind.esm       CREA    skeleton entrance
+	morrowind.esm       CREA    skeleton warrior
+	morrowind.esm       CREA    skeleton_aldredaynia
+	morrowind.esm       CREA    skeleton_vemynal
+	morrowind.esm       CREA    skeleton_weak
+	morrowind.esm       CREA    slaughterfish_hr_sfavd
+	morrowind.esm       CREA    slaughterfish_small
+	morrowind.esm       CREA    winged twilight
+	morrowind.esm       CREA    worm lord
+	morrowind.esm       GMST    faifleefleemult
+	morrowind.esm       GMST    faifleehealthmult
+	morrowind.esm       LEVC    ex_ascadianisles_lev+0
+	morrowind.esm       LEVC    ex_ascadianisles_lev+2
+	morrowind.esm       LEVC    ex_ascadianisles_lev-1
+	morrowind.esm       LEVC    ex_ascadianisles_sleep
+	morrowind.esm       LEVC    ex_azurascoast_lev+0
+	morrowind.esm       LEVC    ex_azurascoast_lev+2
+	morrowind.esm       LEVC    ex_azurascoast_lev-1
+	morrowind.esm       LEVC    ex_azurascoast_sleep
+	morrowind.esm       LEVC    ex_bittercoast_lev+0
+	morrowind.esm       LEVC    ex_bittercoast_lev+2
+	morrowind.esm       LEVC    ex_bittercoast_lev-1
+	morrowind.esm       LEVC    ex_bittercoast_sleep
+	morrowind.esm       LEVC    ex_grazelands_lev+0
+	morrowind.esm       LEVC    ex_grazelands_lev+2
+	morrowind.esm       LEVC    ex_grazelands_lev-1
+	morrowind.esm       LEVC    ex_grazelands_sleep
+	morrowind.esm       LEVC    ex_molagmar_lev+0
+	morrowind.esm       LEVC    ex_molagmar_lev+2
+	morrowind.esm       LEVC    ex_molagmar_lev-1
+	morrowind.esm       LEVC    ex_molagmar_sleep
+	morrowind.esm       LEVC    ex_redmtn_all_lev+0
+	morrowind.esm       LEVC    ex_redmtn_all_lev+2
+	morrowind.esm       LEVC    ex_redmtn_all_lev-2
+	morrowind.esm       LEVC    ex_redmtn_all_sleep
+	morrowind.esm       LEVC    ex_sheogorad_lev+0
+	morrowind.esm       LEVC    ex_sheogorad_lev+2
+	morrowind.esm       LEVC    ex_sheogorad_lev-1
+	morrowind.esm       LEVC    ex_sheogorad_sleep
+	morrowind.esm       LEVC    ex_shore_all_lev+0
+	morrowind.esm       LEVC    ex_shore_all_lev+2
+	morrowind.esm       LEVC    ex_shore_all_lev-2
+	morrowind.esm       LEVC    ex_shore_cliffracer_lev+0
+	morrowind.esm       LEVC    ex_shore_cliffracer_lev+2
+	morrowind.esm       LEVC    ex_shore_cliffracer_lev-2
+	morrowind.esm       LEVC    ex_shore_mudcrab
+	morrowind.esm       LEVC    ex_westgash_lev+0
+	morrowind.esm       LEVC    ex_westgash_lev+2
+	morrowind.esm       LEVC    ex_westgash_lev-1
+	morrowind.esm       LEVC    ex_westgash_sleep
+	morrowind.esm       LEVC    ex_wild_all_lev+0
+	morrowind.esm       LEVC    ex_wild_all_lev+2
+	morrowind.esm       LEVC    ex_wild_all_lev-1
+	morrowind.esm       LEVC    ex_wild_netch_lev+0
+	morrowind.esm       LEVC    ex_wild_netch_lev+2
+	morrowind.esm       LEVC    ex_wild_netch_lev-1
+	morrowind.esm       LEVC    ex_wild_rat_lev+0
+	morrowind.esm       LEVC    h2o_all_lev+0
+	morrowind.esm       LEVC    h2o_all_lev+2
+	morrowind.esm       LEVC    h2o_all_lev-2
+	morrowind.esm       LEVC    h2o_slaughterfish
+	morrowind.esm       LEVC    in_6th_all_lev+0
+	morrowind.esm       LEVC    in_6th_all_lev+2
+	morrowind.esm       LEVC    in_6th_all_lev-2
+	morrowind.esm       LEVC    in_6th_ash_lev+0
+	morrowind.esm       LEVC    in_6th_ash_lev+2
+	morrowind.esm       LEVC    in_6th_ash_lev-2
+	morrowind.esm       LEVC    in_cave_all_lev+0
+	morrowind.esm       LEVC    in_cave_all_lev+2
+	morrowind.esm       LEVC    in_cave_all_lev-1
+	morrowind.esm       LEVC    in_cave_nix_lev+0
+	morrowind.esm       LEVC    in_cave_nix_lev+2
+	morrowind.esm       LEVC    in_cave_nix_lev-1
+	morrowind.esm       LEVC    in_dae_all_lev+0
+	morrowind.esm       LEVC    in_dae_all_lev+2
+	morrowind.esm       LEVC    in_dae_all_lev-2
+	morrowind.esm       LEVC    in_dae_atronach_lev+0
+	morrowind.esm       LEVC    in_dae_atronach_lev+2
+	morrowind.esm       LEVC    in_dae_atronach_lev-2
+	morrowind.esm       LEVC    in_dae_dremora_lev+0
+	morrowind.esm       LEVC    in_dae_dremora_lev+2
+	morrowind.esm       LEVC    in_dae_dremora_lev-2
+	morrowind.esm       LEVC    in_dwe_all_lev+0
+	morrowind.esm       LEVC    in_dwe_all_lev+2
+	morrowind.esm       LEVC    in_dwe_all_lev-2
+	morrowind.esm       LEVC    in_dwe_cent_lev+0
+	morrowind.esm       LEVC    in_dwe_cent_lev+2
+	morrowind.esm       LEVC    in_dwe_cent_lev-2
+	morrowind.esm       LEVC    in_egg_all_lev+0
+	morrowind.esm       LEVC    in_egg_all_lev+2
+	morrowind.esm       LEVC    in_egg_all_lev-1
+	morrowind.esm       LEVC    in_egg_kwama_lev+0
+	morrowind.esm       LEVC    in_egg_kwama_lev+2
+	morrowind.esm       LEVC    in_egg_kwama_lev-1
+	morrowind.esm       LEVC    in_egg_scrib_lev+0
+	morrowind.esm       LEVC    in_egg_scrib_lev+2
+	morrowind.esm       LEVC    in_egg_scrib_lev-1
+	morrowind.esm       LEVC    in_tomb_all_lev+0
+	morrowind.esm       LEVC    in_tomb_all_lev+2
+	morrowind.esm       LEVC    in_tomb_all_lev-2
+	morrowind.esm       LEVC    in_tomb_bone_lev+0
+	morrowind.esm       LEVC    in_tomb_bone_lev+2
+	morrowind.esm       LEVC    in_tomb_bone_lev-2
+	morrowind.esm       LEVC    in_tomb_skele_lev+0
+	morrowind.esm       LEVC    in_tomb_skele_lev+2
+	morrowind.esm       LEVC    in_tomb_skele_lev-2
+	morrowind.esm       LEVI    l_b_loot_tomb
+	morrowind.esm       LEVI    l_n_wpn_missle_bolt
+	morrowind.esm       LEVI    random_de_cheapfood_01_nc
+	morrowind.esm       LEVI    random_drinks_01
+	morrowind.esm       LEVI    random_dwarven_ingredients
+	morrowind.esm       LEVI    random_dwarven_misc
+	morrowind.esm       LEVI    random_dwemer_weapon
+	morrowind.esm       LEVI    random_food
+	morrowind.esm       LEVI    random_golden_saint_weapon
+	morrowind.esm       LEVI    random_ingredient
+	morrowind.esm       LEVI    random_pearl
+	morrowind.esm       NPC_    dreamer
+	morrowind.esm       NPC_    dreamer_02
+	morrowind.esm       NPC_    dreamer_04
+	morrowind.esm       NPC_    dreamer_05
+	morrowind.esm       NPC_    dreamer_06
+	morrowind.esm       NPC_    dreamer_f_01
+	morrowind.esm       NPC_    dreamer_ranged
+	morrowind.esm       NPC_    hlaalu guard
+	morrowind.esm       NPC_    hlaalu guard_outside
+	morrowind.esm       NPC_    redoran guard male
+	morrowind.esm       NPC_    telvanni guard
+	morrowind.esm       NPC_    thelsa dral
+	morrowind.esm       SOUN    silt_1
+	morrowind.esm       SOUN    silt_2
+	morrowind.esm       SOUN    silt_3
+	tribunal.esm        CREA    ancestor_ghost_greater
+	tribunal.esm        CREA    atronach_flame_summon
+	tribunal.esm        CREA    atronach_frost_summon
+	tribunal.esm        CREA    atronach_storm_summon
+	tribunal.esm        CREA    bonewalker_greater_summ
+	tribunal.esm        CREA    centurion_projectile
+	tribunal.esm        CREA    centurion_shock_baladas
+	tribunal.esm        CREA    centurion_sphere
+	tribunal.esm        CREA    centurion_sphere_summon
+	tribunal.esm        CREA    centurion_spider
+	tribunal.esm        CREA    centurion_steam
+	tribunal.esm        CREA    centurion_steam_advance
+	tribunal.esm        CREA    clannfear_summon
+	tribunal.esm        CREA    daedroth_summon
+	tribunal.esm        CREA    dagoth endus
+	tribunal.esm        CREA    dagoth gares
+	tribunal.esm        CREA    dremora_lord_khash_uni
+	tribunal.esm        CREA    dremora_summon
+	tribunal.esm        CREA    durzog_diseased
+	tribunal.esm        CREA    durzog_war
+	tribunal.esm        CREA    durzog_war_trained
+	tribunal.esm        CREA    durzog_wild
+	tribunal.esm        CREA    durzog_wild_weaker
+	tribunal.esm        CREA    fabricant_hulkin_attack
+	tribunal.esm        CREA    fabricant_hulking
+	tribunal.esm        CREA    fabricant_hulking_attac
+	tribunal.esm        CREA    fabricant_hulking_c
+	tribunal.esm        CREA    fabricant_hulking_c_l
+	tribunal.esm        CREA    fabricant_hulking_ss
+	tribunal.esm        CREA    fabricant_machine_1
+	tribunal.esm        CREA    fabricant_summon
+	tribunal.esm        CREA    fabricant_verm_attack
+	tribunal.esm        CREA    fabricant_verminous
+	tribunal.esm        CREA    fabricant_verminous-rs
+	tribunal.esm        CREA    fabricant_verminous_c
+	tribunal.esm        CREA    goblin_bruiser
+	tribunal.esm        CREA    goblin_footsoldier
+	tribunal.esm        CREA    goblin_grunt
+	tribunal.esm        CREA    goblin_handler
+	tribunal.esm        CREA    goblin_officer
+	tribunal.esm        CREA    goblin_officeruni
+	tribunal.esm        CREA    goblin_warchief1
+	tribunal.esm        CREA    goblin_warchief2
+	tribunal.esm        CREA    golden saint
+	tribunal.esm        CREA    golden saint_summon
+	tribunal.esm        CREA    hunger_summon
+	tribunal.esm        CREA    lich
+	tribunal.esm        CREA    lich_profane_unique
+	tribunal.esm        CREA    lich_relvel
+	tribunal.esm        CREA    rat_diseased
+	tribunal.esm        CREA    rat_plague
+	tribunal.esm        CREA    rat_plague_hall1
+	tribunal.esm        CREA    rat_plague_hall1a
+	tribunal.esm        CREA    rat_plague_hall2
+	tribunal.esm        CREA    rat_rerlas
+	tribunal.esm        CREA    scrib
+	tribunal.esm        CREA    skeleton_relvel
+	tribunal.esm        CREA    skeleton_summon
+	tribunal.esm        CREA    slaughterfish
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        LEVC    in_dwe_all_tribunal
+	tribunal.esm        LEVC    in_tomb_all_lev_trib
+	tribunal.esm        LEVI    goblin_weapons_random
+	tribunal.esm        WEAP    goblin_club
+	tribunal.esm        WEAP    goblin_sword
+
+[MOD-INF]: ID=2296231487222762(Voice:idle)
+  bloodmoon.esm->|DATA|RNAM:Breton|SNAM:vo\b\m\Idl_BM003.mp3|NAME:I think that tavern girl was looking at me. How can I tell her I'm not interested?|SCVR:02sX3Random100|INTV:(
+  Creatures.esp->|DATA|RNAM:Breton|SNAM:vo\b\m\Idl_BM003.mp3|NAME:I think that tavern girl was looking at me. How can I tell her I'm not interested?|SCVR:02sX3Random100|INTV
+
+[MOD-INF]: ID=4507221702682932727(Voice:idle)
+  bloodmoon.esm->|DATA|RNAM:Breton|SNAM:vo\b\m\Idl_BM001.mp3|NAME:Do I drop the sweetroll or hand it over and come back later? Dunno....|SCVR:02sX3Random100|INTV
+  Creatures.esp->|DATA|RNAM:Breton|SNAM:vo\b\m\Idl_BM001.mp3|NAME:Do I drop the sweetroll or hand it over and come back later? Dunno....|SCVR:02sX3Random100|INTV: 
+
+[MOD-INF]: ID=6987292402737916378(Voice:idle)
+  bloodmoon.esm->|DATA|RNAM:Breton|SNAM:vo\b\m\Idl_BM004.mp3|NAME:Dirt, dirt, dirt, dirt, dirt. Everywhere dirt.|SCVR:02sX3Random100|INTV:2
+  Creatures.esp->|DATA|RNAM:Breton|SNAM:vo\b\m\Idl_BM004.mp3|NAME:Dirt, dirt, dirt, dirt, dirt. Everywhere dirt.|SCVR:02sX3Random100|INTV:(
+
+[MOD-INF]: ID=8521187912089117797(Voice:idle)
+  bloodmoon.esm->|DATA|RNAM:Nord|SNAM:vo\n\m\Idl_NM001.mp3|NAME:What makes this smell?|SCVR:02sX3Random100|INTV
+  Creatures.esp->|DATA|RNAM:Nord|SNAM:vo\n\m\Idl_NM001.mp3|NAME:What makes this smell?|SCVR:02sX3Random100|INTV: 

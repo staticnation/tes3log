@@ -1,0 +1,38 @@
+Vampire Playable Dialogues.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (88) != Actual count (16)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    greeting 2
+
+[MOD-INF]: ID=30413105531090563(Greeting:greeting 2)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|CNAM:Sorcerer|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave my sight, unholy beast!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  ModFight 50  Goodbye
+  Vampire Playable Dialogues.ESP->|DATA|RNAM:Dark Elf|CNAM:Sorcerer|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave my sight, unholy beast!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  if (GetDisposition >= 100)  ModDisposition -80  elseif (GetDisposition >= 90)  ModDisposition -70  elseif (GetDisposition >= 80)  ModDisposition -60  elseif (GetDisposition >= 70)  ModDisposition -50  elseif (GetDisposition >= 60)  ModDisposition -40  elseif (GetDisposition >= 50)  ModDisposition -30  elseif (GetDisposition >= 40)  ModDisposition -20  elseif (GetDisposition >= 30)  ModDisposition -10  endif
+
+[MOD-INF]: ID=127216720183781120(Greeting:greeting 2)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|CNAM:Mage|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave here, monster!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  ModFight 50  Goodbye
+  Vampire Playable Dialogues.ESP->|DATA|RNAM:Dark Elf|CNAM:Mage|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave here, monster!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  if (GetDisposition >= 100)  ModDisposition -80  elseif (GetDisposition >= 90)  ModDisposition -70  elseif (GetDisposition >= 80)  ModDisposition -60  elseif (GetDisposition >= 70)  ModDisposition -50  elseif (GetDisposition >= 60)  ModDisposition -40  elseif (GetDisposition >= 50)  ModDisposition -30  elseif (GetDisposition >= 40)  ModDisposition -20  elseif (GetDisposition >= 30)  ModDisposition -10  endif
+
+[MOD-INF]: ID=263042661832839078(Greeting:greeting 2)
+  morrowind.esm------------------>|DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+  Vampire Playable Dialogues.ESP->|DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire;   ModFlee 100  if (GetDisposition >= 100)  ModDisposition -60  elseif (GetDisposition >= 90)  ModDisposition -50  elseif (GetDisposition >= 80)  ModDisposition -40  elseif (GetDisposition >= 70)  ModDisposition -30  elseif (GetDisposition >= 60)  ModDisposition -20  elseif (GetDisposition >= 50)  ModDisposition -10  endif
+
+[MOD-INF]: ID=578128438312667949(Greeting:greeting 2)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Return to the foul corruption from which you came! Die, fiend!|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default DUNMER;PC Vampire  StartCombat Player  Goodbye
+  Vampire Playable Dialogues.ESP->|DATA|RNAM:Dark Elf|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave my sight, unholy beast!|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default DUNMER;PC Vampire  if (GetDisposition >= 100)  ModDisposition -80  elseif (GetDisposition >= 90)  ModDisposition -70  elseif (GetDisposition >= 80)  ModDisposition -60  elseif (GetDisposition >= 70)  ModDisposition -50  elseif (GetDisposition >= 60)  ModDisposition -40  elseif (GetDisposition >= 50)  ModDisposition -30  elseif (GetDisposition >= 40)  ModDisposition -20  elseif (GetDisposition >= 30)  ModDisposition -10  endif
+
+[MOD-INF]: ID=1795200281150517311(Persuasion:service refusal)
+  morrowind.esm------------------>|DATA|FNAM:Mages Guild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+  Vampire Playable Dialogues.ESP->|DATA|FNAM:Mages Guild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+
+[MOD-INF]: ID=7643304071333010596(Persuasion:service refusal)
+  morrowind.esm------------------>|DATA|FNAM:Telvanni|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+  Vampire Playable Dialogues.ESP->|DATA|FNAM:Telvanni|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+
+[MOD-INF]: ID=11657146863060720256(Greeting:greeting 2)
+  morrowind.esm------------------>|DATA|RNAM:Dark Elf|NAME:No! A vampire! Get away, you foul creature!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+  Vampire Playable Dialogues.ESP->|DATA|RNAM:Dark Elf|NAME:No! A vampire! Get away, you foul creature!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire;   ModFlee 100  if (GetDisposition >= 100)  ModDisposition -80  elseif (GetDisposition >= 90)  ModDisposition -70  elseif (GetDisposition >= 80)  ModDisposition -60  elseif (GetDisposition >= 70)  ModDisposition -50  elseif (GetDisposition >= 60)  ModDisposition -40  elseif (GetDisposition >= 50)  ModDisposition -30  elseif (GetDisposition >= 40)  ModDisposition -20  elseif (GetDisposition >= 30)  ModDisposition -10  endif
+
+[MOD-INF]: ID=22154188692129820500(Greeting:greeting 2)
+  morrowind.esm------------------>|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   ModFight 50  Goodbye
+  Vampire Playable Dialogues.ESP->|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   if (GetDisposition >= 100)  ModDisposition -60  elseif (GetDisposition >= 90)  ModDisposition -50  elseif (GetDisposition >= 80)  ModDisposition -40  elseif (GetDisposition >= 70)  ModDisposition -30  elseif (GetDisposition >= 60)  ModDisposition -20  elseif (GetDisposition >= 50)  ModDisposition -10  endif

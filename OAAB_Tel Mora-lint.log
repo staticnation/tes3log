@@ -1,0 +1,138 @@
+OAAB_Tel Mora.ESP: AUTOSPL DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	abtm_trap_shock                God's Spark
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ABtm_BerserkerSpawn_s)
+	SCPT(ABtm_BerwenShopRestore_s)
+	SCPT(ABtm_EndarMove_s)
+	SCPT(ABtm_GoldKanetEnable_s)
+	SCPT(ABtm_IndexTeleport_s)
+	SCPT(ABtm_Memstone01_s)
+	SCPT(ABtm_Memstone02_s)
+	SCPT(ABtm_Memstone03_s)
+	SCPT(ABtm_Memstone04_s)
+	SCPT(ABtm_RealmCollision2_s)
+	SCPT(ABtm_RedJinxTrap_s)
+	SCPT(ABtm_ShrineHpStage1_s)
+	SCPT(ABtm_ShrineHpStage2_s)
+	SCPT(ABtm_ShrineHp_s)
+	SCPT(ABtm_SonummuWaitOneDay)
+	SCPT(ABtm_TimsaEnable_s)
+	SCPT(ABtm_TramaEnable_s)
+	SCPT(ABtm_TrapShock_s)
+	SCPT(ABtm_VampCount_s)
+	SCPT(ABtm_VampStalker_s)
+	SCPT(ABtm_WhiteJinxTrap_s)
+	SCPT(ravenOmaynScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    furn_bannerd_goods_d4_01
+	morrowind.esm       DIAL    black jinx
+	morrowind.esm       DIAL    corprus stalker
+	morrowind.esm       DIAL    dratha
+	morrowind.esm       DIAL    lette
+	morrowind.esm       DIAL    mages guild monopoly
+	morrowind.esm       DIAL    tel mora
+	morrowind.esm       DIAL    telvanni bride
+	morrowind.esm       DIAL    telvanni hortator
+	morrowind.esm       NPC_    celria
+	morrowind.esm       NPC_    dratha
+	morrowind.esm       NPC_    elegnan
+	morrowind.esm       NPC_    endar drenim
+	morrowind.esm       PGRD    azura's coast region
+	morrowind.esm       PGRD    tel mora
+	oaab_data.esm       ACTI    ab_fx_lightray2_a
+	tribunal.esm        DIAL    b7_aryonhort
+	tribunal.esm        DIAL    b7_drathahort
+	tribunal.esm        DIAL    chores
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+
+[MOD-INF]: ID=12071943948709601(Topic:tel mora)
+  morrowind.esm----->|DATA|ANAM:Tel Mora|NAME:Tel Mora is the wizard's tower of Mistress Dratha, a Telvanni mage-lord and councilor. The first thing you'll notice is that there are no men here. Mistress Dratha doesn't like men. Other than that, and the fact that she is getting old and... well... a little crazy, she is a very good patron, and Tel Mora is a prosperous tower settlement, with a tradehouse, craftsmen and traders.|SCVR:0CsX0NoLore|INTV
+  OAAB_Tel Mora.ESP->|DATA|ANAM:Tel Mora|NAME:Tel Mora is the wizard's tower of Mistress Dratha, a Telvanni mage-lord and councilor. The first thing you'll notice is that there are no men here. Mistress Dratha doesn't like men. Other than that, and the fact that she is getting old and... well... a little crazy, she is a very good patron, and Tel Mora is a prosperous tower settlement, with a tradehouse, craftsmen and traders.|SCVR:0CsX0NoLore|INTV:|SCVR:16DX0dratha|INTV
+
+[MOD-INF]: ID=50103240248045848(Topic:tel mora)
+  morrowind.esm----->|DATA|CNAM:Scout|ANAM:Tel Mora|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+  OAAB_Tel Mora.ESP->|DATA|CNAM:Scout|ANAM:Tel Mora|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse.|SCVR:0CsX0NoLore|INTV:|SCVR:16DX0dratha|INTV:|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+
+[MOD-INF]: ID=90165547570625849(Topic:specific place)
+  morrowind.esm----->|DATA|ONAM:sedyni veran|NAME:Tel Vos, Master Aryon's wizard tower, is to the west. You can't miss it. It's very strange. Tel Mora, Mistress Dratha's wizard tower, lies across the bay on an island to the east. In Vos village, up on the hill, the Vos chapel is in the center of the village, through the gate and courtyard. Hetwoman Maela Kaushad's house is the middle house in the village, on the south. Varo Tradehouse is that big tower you see at the end of the dock.|BNAM:;Vos ;
+  OAAB_Tel Mora.ESP->|DATA|ONAM:sedyni veran|NAME:Tel Vos, Master Aryon's wizard tower, is to the west. You can't miss it. It's very strange. Tel Mora, Mistress Dratha's wizard tower, lies across the bay on an island to the east. In Vos village, up on the hill, the Vos chapel is in the center of the village, through the gate and courtyard. Hetwoman Maela Kaushad's house is the middle house in the village, on the south. Varo Tradehouse is that big tower you see at the end of the dock.|SCVR:04JX4OAAB_TMora_MasterEndar|INTV:d|BNAM:;Vos ;
+
+[MOD-INF]: ID=131842002764323137(Topic:little advice)
+  tribunal.esm------>|DATA|ANAM:Tel Mora|NAME|INTV|SCVR:12sX4Random100|INTV:K|SCVR:27XX0dratha|INTV|SCVR:3CsX0NoLore|INTV:|BNAM:;Tel Mora; female
+  OAAB_Tel Mora.ESP->|DATA|ANAM:Tel Mora|NAME|INTV|SCVR:12sX4Random100|INTV:K|SCVR:27XX0dratha|INTV|SCVR:3CsX0NoLore|INTV:|SCVR:46DX0dratha|INTV:|BNAM:;Tel Mora; female
+
+[MOD-INF]: ID=213551242822833462(Greeting:greeting 9)
+  morrowind.esm----->|DATA|ANAM:Tel Mora|NAME:Fortune favors me, %PCName. I'm %Name. Mistress Dratha, mage-lord and Telvanni councilor, is our patron. Can I help you find your way around Tel Mora? Were you looking for specific place? Or are you looking for someone in particular?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:<
+  OAAB_Tel Mora.ESP->|DATA|ANAM:Tel Mora|NAME:Fortune favors me, %PCName. I'm %Name. Mistress Dratha, mage-lord and Telvanni councilor, is our patron. Can I help you find your way around Tel Mora? Were you looking for specific place? Or are you looking for someone in particular?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:<|SCVR:26DX0dratha|INTV:
+
+[DUP-INF]: ID=378431803127468430(Topic:tel mora)
+  |DATA|CNAM:Scout|ANAM:Sadrith Mora|NAME:Tel Mora is a wizard tower and settlement on an island north along the coast from Sadrith Mora. You can water-walk, but it's a long way. Or you can travel by ship very cheaply from the docks here.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap "Tel Mora"  ;scout, Sadrith Mora,
+
+[MOD-INF]: ID=710931352669115448(Topic:black jinx)
+  morrowind.esm----->|DATA|ONAM:raven omayn|DNAM:Telvanni|NAME:Mistress Dratha has always had an interest in this ring. She believes that the ring is now here in Sadrith Mora. Acquire this ring and deliver it to me.|SCVR:34JX3HT_Muck|INTV:d|BNAM:Journal HT_BlackJinx 10
+  OAAB_Tel Mora.ESP->|DATA|ONAM:raven omayn|DNAM:Telvanni|NAME:Mistress Dratha has always had an interest in this ring. She believes that the ring is now here in Sadrith Mora. Acquire this ring and deliver it to me.|SCVR:26DX0dratha|INTV:|SCVR:34JX3HT_Muck|INTV:d|BNAM:Journal HT_BlackJinx 10
+
+[DUP-INF]: ID=981914691260014297(Topic:corprus stalker)
+  |DATA|ONAM:berwen|NAME:Yes. Thank you very much.|SCVR:34JX0FG_CorprusStalker|INTV:Y
+
+[MOD-INF]: ID=1042367412072117060(Topic:tel mora)
+  morrowind.esm----->|DATA|CNAM:Scout|ANAM:Ahemmusa Camp|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse.|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+  OAAB_Tel Mora.ESP->|DATA|CNAM:Scout|ANAM:Ahemmusa Camp|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse.|SCVR:06DX0dratha|INTV:|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+
+[MOD-INF]: ID=1319824502587330832(Greeting:greeting 5)
+  morrowind.esm----->|DATA|ONAM:lette|DNAM:Temple|NAME:Thank you for curing me, %PCName.|SCVR:34JX3TT_CuringTouch|INTV:2|BNAM:ModDisposition 2
+  OAAB_Tel Mora.ESP->|DATA|ONAM:lette|NAME:Thank you for curing me, %PCName.|SCVR:34JX3TT_CuringTouch|INTV:2|BNAM:ModDisposition 2
+
+[MOD-INF]: ID=2430081702165419991(Greeting:greeting 9)
+  morrowind.esm----->|DATA|ANAM:Tel Mora|NAME:Welcome to Tel Mora. Mistress Dratha, mage-lord and Telvanni councilor, is our patron. Can I help you find someone in particular?|SCVR:01630|INTV:
+  OAAB_Tel Mora.ESP->|DATA|ANAM:Tel Mora|NAME:Welcome to Tel Mora. Mistress Dratha, mage-lord and Telvanni councilor, is our patron. Can I help you find someone in particular?|SCVR:01630|INTV:|SCVR:16DX0dratha|INTV:
+
+[MOD-INF]: ID=2495522299425721730(Topic:tel mora)
+  morrowind.esm----->|DATA|CNAM:Savant|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+  OAAB_Tel Mora.ESP->|DATA|CNAM:Savant|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse.|SCVR:0CsX0NoLore|INTV:|SCVR:16DX0dratha|INTV:|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+
+[MOD-INF]: ID=3221919121308066894(Topic:specific place)
+  morrowind.esm----->|DATA|ANAM:Vos|NAME:Tel Vos, Master Aryon's wizard tower, is to the west. You can't miss it. It's very strange. Tel Mora, Mistress Dratha's wizard tower, lies across the bay on an island to the east. In Vos village, the Vos chapel is in the center of the village, through the gate and courtyard. Hetwoman Maela Kaushad's house is the middle house on the south. Varo Tradehouse is down by the docks. Ships go to Sadrith Mora, Tel Aruhn, and Tel Mora.|SCVR:07XX0maela kaushad|INTV|SCVR:17XX0sedyni veran|INTV|INTV|SCVR:3CsX0nolore|INTV:|BNAM:;Vos ;
+  OAAB_Tel Mora.ESP->|DATA|ANAM:Vos|NAME:Tel Vos, Master Aryon's wizard tower, is to the west. You can't miss it. It's very strange. Tel Mora, Mistress Dratha's wizard tower, lies across the bay on an island to the east. In Vos village, the Vos chapel is in the center of the village, through the gate and courtyard. Hetwoman Maela Kaushad's house is the middle house on the south. Varo Tradehouse is down by the docks. Ships go to Sadrith Mora, Tel Aruhn, and Tel Mora.|SCVR:07XX0maela kaushad|INTV|SCVR:17XX0sedyni veran|INTV|INTV|SCVR:3CsX0NoLore|INTV:|SCVR:44JX4OAAB_TMora_MasterEndar|INTV:d|BNAM:;Vos ;
+
+[MOD-INF]: ID=4614293683006428302(Topic:latest rumors)
+  tribunal.esm------>|DATA|ONAM:artisa arelas|NAME:The Temple has been pressuring Mistress Dratha to allow them to put some healers in Tel Mora. Women, of course.
+  OAAB_Tel Mora.ESP->|DATA|ONAM:artisa arelas|NAME:The Temple has been pressuring Mistress Dratha to allow them to put some healers in Tel Mora. Women, of course.|SCVR:04JX0OAAB_TMora_TempleShrine|INTV:d
+
+[MOD-INF]: ID=5881207962612732622(Topic:tel mora)
+  morrowind.esm----->|DATA|CNAM:Scout|ANAM:Sadrith Mora|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+  OAAB_Tel Mora.ESP->|DATA|CNAM:Scout|ANAM:Sadrith Mora|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse.|SCVR:0CsX0NoLore|INTV:|SCVR:16DX0dratha|INTV:|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+
+[MOD-INF]: ID=13472218821134525522(Topic:mages guild monopoly)
+  morrowind.esm----->|DATA|ONAM:aryon|NAME:According to one interpretation of the Armistice, only the Mages Guild can officially offer spells and training to non-members. Speak with the House Redoran Councilors in Ald'ruhn. If you can convince at least three Councilors, we will have enough support in the Grand Council. I would start with Athyn Sarethi. as he seems to be the most open-minded.|BNAM:Journal HT_Monopoly 10
+  OAAB_Tel Mora.ESP->|DATA|ONAM:aryon|NAME:According to one interpretation of the Armistice, only the Mages Guild can officially offer spells and training to non-members. Speak with the House Redoran Councilors in Ald'ruhn. If you can convince at least three Councilors, we will have enough support in the Grand Council. I would start with Athyn Sarethi as he seems to be the most open-minded.|BNAM:Journal HT_Monopoly 10  AddTopic "Grand Council"
+
+[MOD-INF]: ID=13515278711142814340(Topic:little advice)
+  tribunal.esm------>|DATA|ANAM:Tel Mora|NAME|INTV|SCVR:12sX4Random100|INTV:K|SCVR:27XX0dratha|INTV|SCVR:3CsX0NoLore|INTV:|BNAM:;Tel Mora; male
+  OAAB_Tel Mora.ESP->|DATA|ANAM:Tel Mora|NAME|INTV|SCVR:12sX4Random100|INTV:K|SCVR:27XX0dratha|INTV|SCVR:3CsX0NoLore|INTV:|SCVR:46DX0dratha|INTV:|BNAM:;Tel Mora; male
+
+[MOD-INF]: ID=14092225932036413817(Topic:tel mora)
+  morrowind.esm----->|DATA|ONAM:savile imayn|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse. Tel Mora is a good distance north along the coast. You could travel cross country, but travel by ship to Tel Mora is cheap and reliable from the Tel Aruhn docks south of here.|SCVR:04JX3B3_ZainabBride|INTV|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+  OAAB_Tel Mora.ESP->|DATA|ONAM:savile imayn|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse. Tel Mora is a good distance north along the coast. You could travel cross country, but travel by ship to Tel Mora is cheap and reliable from the Tel Aruhn docks south of here.|SCVR:04JX3B3_ZainabBride|INTV|SCVR:16DX0dratha|INTV:|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+
+[MOD-INF]: ID=21977175172589221218(Topic:tel mora)
+  morrowind.esm----->|DATA|ONAM:artisa arelas|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse.|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+  OAAB_Tel Mora.ESP->|DATA|ONAM:artisa arelas|NAME:Tel Mora is the Telvanni tower of Mistress Dratha, an ancient wizard of the Telvanni Council. The small settlement includes a few craftsfolk and a tradehouse.|SCVR:06DX0dratha|INTV:|BNAM:ShowMap "Tel Mora"  ;scout; savant;
+
+[MOD-INF]: ID=22402153241365531136(Topic:telvanni bride)
+  morrowind.esm----->|DATA|ONAM:raven omayn|NAME:I have some advice for you. Do not even think of bringing this subject up with Mistress Dratha. I don't believe I can put this strongly enough. Do. Not.|SCVR:04JX3B3_ZainabBride|INTV|SCVR:14JX4B3_ZainabBride|INTV:2|BNAM:; Raven Omayn
+  OAAB_Tel Mora.ESP->|DATA|ONAM:raven omayn|NAME:I have some advice for you. Do not even think of bringing this subject up with Mistress Dratha. I don't believe I can put this strongly enough. Do. Not.|SCVR:04JX3B3_ZainabBride|INTV|SCVR:14JX4B3_ZainabBride|INTV:2|SCVR:26DX0dratha|INTV:|BNAM:; Raven Omayn
+
+[MOD-INF]: ID=22884317941981716432(Topic:latest rumors)
+  tribunal.esm------>|DATA|ONAM:celegorn|NAME:Mistress Dratha has been looking for something called a "Flesh Amulet." I heard Master Neloth is keeping it from her, to try and get some concession on the Council.
+  OAAB_Tel Mora.ESP->|DATA|ONAM:celegorn|NAME:Mistress Dratha has been looking for something called a "Flesh Amulet." I heard Master Neloth is keeping it from her, to try and get some concession on the Council.|SCVR:06DX0dratha|INTV:

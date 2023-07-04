@@ -1,0 +1,24 @@
+FG Spare Khajiit.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dro'sakhar
+	tribunal.esm        DIAL    fg_khajiitbounty
+
+[DUP-INF]: ID=187944604103476596(Journal:fg_khajiitbounty)
+  |DATA|NAME:I was told that Dro'Sakhar lives in St. Olms Canal South-Two, the middle door on the south side of the St. Olms Canton.
+
+[DUP-INF]: ID=349728872163532058(Journal:fg_khajiitbounty)
+  |DATA|NAME:Lorbumol gro-Aglakh said he has a bounty for a Khajiit outlaw named Dro'Sakhar who's hiding somewhere in Vivec.
+
+[DUP-INF]: ID=605342961734514737(Topic:dro'sakhar)
+  |DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:So Dro'Sakhar is already dead. You get his bounty then. Here's the 500 septims.|SCVR:34JX0FG_KhajiitBounty|INTV:|SCVR:56DX3dro'sakhar|INTV|BNAM:Journal FG_KhajiitBounty 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=1285313042877624077(Topic:dro'sakhar)
+  morrowind.esm-------->|DATA|ONAM:dro'sakhar|NAME:Yes? What is it?
+  FG Spare Khajiit.ESP->|DATA|ONAM:dro'sakhar|NAME:Yes? What is it?|SCVR:44JX0FG_KhajiitBounty|INTV:
+
+[DUP-INF]: ID=2273119457622526861(Topic:dro'sakhar)
+  |DATA|ONAM:persius mercius|NAME:I have heard of this Khajiit, and he is a known outlaw. I believe that this bounty is a legitimate one, %PCRank.|SCVR:04JX2FG_KhajiitBounty|INTV:|SCVR:14JX4FG_KhajiitBounty|INTV:d|BNAM:Journal FG_KhajiitBounty 60
+
+[DUP-INF]: ID=23376145162848111688(Topic:dro'sakhar)
+  |DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:You sure got that Khajiit, %PCRank.|SCVR:34JX0FG_KhajiitBounty|INTV:d

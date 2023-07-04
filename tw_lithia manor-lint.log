@@ -1,0 +1,31 @@
+tw_lithia manor.esp: DUP-REC MASTERS MENUMOD MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	tw_cloud_storage.esm          742671 (plugin)     742844 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_DummyScript)
+	SCPT(_RE_DummyScript)
+	SCPT(ss_DummyScript)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       STAT    flora_bc_grass_01
+	morrowind.esm       STAT    furn_com_r_table_01
+	morrowind.esm       STAT    furn_velothi_altar_01
+	morrowind.esm       STAT    in_c_plain_4way
+	morrowind.esm       STAT    in_c_rich_room_center
+	tribunal.esm        BOOK    bk_alchemistsformulary
+	tw_cloud_storage.esm    ACTI    displaycase_top2
+	tw_cloud_storage.esm    ACTI    tw_armour_01_act
+	tw_cloud_storage.esm    ACTI    tw_weapons_02_act
+	tw_cloud_storage.esm    RACE    _gp_stone human
+	tw_cloud_storage.esm    RACE    _gp_wooden human
+	tw_cloud_storage.esm    STAT    displaycase_2
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ALCH    p_vintagecomberrybrandy1
+	morrowind.esm       CONT    flora_bc_mushroom_04
+	morrowind.esm       CONT    flora_bc_mushroom_08
+	morrowind.esm       LIGH    white_128_01
+	morrowind.esm       STAT    furn_com_rm_bookshelf_02
+	tw_cloud_storage.esm    ARMO    adnetch glove left
+	tw_cloud_storage.esm    ARMO    adnetch glove right
+	tw_cloud_storage.esm    ARMO    adnetch helm

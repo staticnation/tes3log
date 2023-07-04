@@ -1,0 +1,892 @@
+Fighters_Guild_Questline_Overhaul.ESP: DUP-REC FOGBUG MENUMOD MISSVER MOD-INF MOD-IID OVR-REC SCRDOOR
+    [FOGBUG]: Cells with zero fog density setting:
+	Ebonheart Old Sewers
+	Ranes Ienith Cell
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AAKhajiitWaypoint)
+	SCPT(AA_Chase_Khajiit_Loses)
+	SCPT(AA_Chase_Khajiit_Wins)
+	SCPT(AA_Khajiit_Music_Chase)
+	SCPT(AA_Khajiit_Music_Restart)
+	SCPT(ABKhajiitWaypoint)
+	SCPT(ACKhajiitWaypoint)
+	SCPT(ADKhajiitWaypoint)
+	SCPT(AEKhajiitWaypoint)
+	SCPT(AFKhajiitWaypoint)
+	SCPT(AGGKhajiitWaypoint)
+	SCPT(AHHKhajiitWaypoint)
+	SCPT(AIIKhajiitWaypoint)
+	SCPT(AJJKhajiitWaypoint)
+	SCPT(AKKKhajiitWaypoint)
+	SCPT(ALLKhajiitWaypoint)
+	SCPT(AlcoholicKhajiitScript)
+	SCPT(BagOfGoldDrop)
+	SCPT(BeneranCuirassMover)
+	SCPT(BeneranCurirassEnabler)
+	SCPT(BeneranDeathJournal)
+	SCPT(BeneranGangAttackPlayer)
+	SCPT(BeneranGangHipies)
+	SCPT(BeneranOrvasMeeting)
+	SCPT(Daris_Adram_Script_Vas)
+	SCPT(DrinkBottlesDebut)
+	SCPT(DuraDeathScriptX01)
+	SCPT(DuraJailedPelagiad)
+	SCPT(DurasOrcMasterHouseofDelights)
+	SCPT(DurasOrcMasterSlaveMarket)
+	SCPT(FG_Adriana_SCR)
+	SCPT(FG_Alof_Bad_End)
+	SCPT(FG_AngorilNote_Journal)
+	SCPT(FG_Ano_Disabler)
+	SCPT(FG_Ano_SCR)
+	SCPT(FG_Ashunartes_Orcs_Trig)
+	SCPT(FG_Ashurnibibi_Inside_Friends)
+	SCPT(FG_Ashurnibibi_Orcs_Friendly)
+	SCPT(FG_Axe_Daryon)
+	SCPT(FG_Axe_Daryon_Reward)
+	SCPT(FG_BacolaCoward)
+	SCPT(FG_Bagrat_Aglakh_Note_S)
+	SCPT(FG_Balur_Balmora_SCR)
+	SCPT(FG_Balur_EbonHeart)
+	SCPT(FG_Balur_Farm_SCR)
+	SCPT(FG_Balur_Note_SCR)
+	SCPT(FG_BarrelAddTopicVW)
+	SCPT(FG_Barrel_CT_Skooma)
+	SCPT(FG_Barrel_Del_Skooma)
+	SCPT(FG_Barrel_Poachers_S)
+	SCPT(FG_Baurin_Barrel_Trigger)
+	SCPT(FG_Baurin_Revenge)
+	SCPT(FG_Baurin_Script)
+	SCPT(FG_BeatingFargoth)
+	SCPT(FG_Berwen_AC)
+	SCPT(FG_Berwen_MGViv)
+	SCPT(FG_Berwen_Punishment_Served)
+	SCPT(FG_Berwen_TelAruhn)
+	SCPT(FG_Berwen_TelBra)
+	SCPT(FG_Berwen_TelFyr)
+	SCPT(FG_Berwen_TelMora)
+	SCPT(FG_Berwen_TelSM)
+	SCPT(FG_Berwen_TelVosC)
+	SCPT(FG_Botrir_Mover)
+	SCPT(FG_Botrir_Quits)
+	SCPT(FG_Botrir_Sender)
+	SCPT(FG_BountyLetter_Respawn)
+	SCPT(FG_Bounty_Dispatched)
+	SCPT(FG_Bounty_DispatchedGhorag)
+	SCPT(FG_Bounty_Dispatched_Ano)
+	SCPT(FG_Bounty_Dispatched_Baradras)
+	SCPT(FG_Bounty_Dispatched_Drink)
+	SCPT(FG_Bounty_Dispatched_Ergnir)
+	SCPT(FG_Bounty_Dispatched_Gulfim)
+	SCPT(FG_Bounty_Dispatched_Hisin)
+	SCPT(FG_Bounty_Dispatched_Hlormar)
+	SCPT(FG_Bounty_Dispatched_Lorzub)
+	SCPT(FG_Bounty_Dispatched_Malexa)
+	SCPT(FG_Bounty_Dispatched_Miles)
+	SCPT(FG_Bounty_Dispatched_Tralan)
+	SCPT(FG_Bralle_SCR)
+	SCPT(FG_Bralle_SCR_OpenMW)
+	SCPT(FG_Brelyn_SCR)
+	SCPT(FG_Catosrophy_SCR)
+	SCPT(FG_Chase_Dura_ForceGreet)
+	SCPT(FG_Chase_Dura_Percius)
+	SCPT(FG_CilffRacer_Exec)
+	SCPT(FG_Contract_Chest_Reward)
+	SCPT(FG_CorprusTopic)
+	SCPT(FG_CreatureLetter_Respawn)
+	SCPT(FG_Creature_Dispa_Ghorag)
+	SCPT(FG_Creature_Dispat_Hlormar)
+	SCPT(FG_Creature_Dispatch_Bard)
+	SCPT(FG_Creature_Dispatched)
+	SCPT(FG_Creature_Dispatched_Ano)
+	SCPT(FG_Creature_Dispatched_Gulfim)
+	SCPT(FG_Creature_Dispatched_Lorzub)
+	SCPT(FG_Creature_Dispatched_Miles)
+	SCPT(FG_Creature_Dispatched_Tralan)
+	SCPT(FG_DagothVelos_CRF_Patch)
+	SCPT(FG_Days_Name_Cal)
+	SCPT(FG_DebtStoineCancel)
+	SCPT(FG_Delivery_Deadman)
+	SCPT(FG_Delivery_Deadman_Baradras)
+	SCPT(FG_Delivery_Deadman_Drink)
+	SCPT(FG_Delivery_Deadman_Ergnir)
+	SCPT(FG_Delivery_Deadman_Malexa)
+	SCPT(FG_Delivery_Deadman_Tralan)
+	SCPT(FG_Delivery_Dispatched)
+	SCPT(FG_Delivery_Dispatched_Bara)
+	SCPT(FG_Delivery_Dispatched_Drink)
+	SCPT(FG_Delivery_Dispatched_Ergnir)
+	SCPT(FG_Delivery_Dispatched_Gulfim)
+	SCPT(FG_Delivery_Dispatched_Malexa)
+	SCPT(FG_Delivery_Dispatched_Tralan)
+	SCPT(FG_Delivery_Goods_SCR)
+	SCPT(FG_Delivery_Note_P_SCR)
+	SCPT(FG_Delivery_Note_S_SCR)
+	SCPT(FG_Desele_Bouncy)
+	SCPT(FG_Desele_Reset_Idle)
+	SCPT(FG_Desele_Reward)
+	SCPT(FG_Desele_Shoes_SCR)
+	SCPT(FG_Desele_Skirt_SCR)
+	SCPT(FG_DirtyBaurinANDSjoring)
+	SCPT(FG_DirtyMurielANDStacey)
+	SCPT(FG_DirtyMurielBarrel)
+	SCPT(FG_DovresVerethi_SCR)
+	SCPT(FG_Dratha_Quest_Cancel)
+	SCPT(FG_DroZhirr_Greet)
+	SCPT(FG_Dura_EnablerSCR)
+	SCPT(FG_EggPoachersDVGoToJail)
+	SCPT(FG_EggPoachersGoToJail)
+	SCPT(FG_EggPoachersManLament)
+	SCPT(FG_EggPoachersWomanLament)
+	SCPT(FG_EggPoachers_Escort)
+	SCPT(FG_EggPoachers_LetGo)
+	SCPT(FG_Egg_Poacher_Battle)
+	SCPT(FG_Ena_Raises_Alarm)
+	SCPT(FG_Ena_SCR)
+	SCPT(FG_EngaerBarrel)
+	SCPT(FG_EngaerStroll)
+	SCPT(FG_EngaerStrollRoof)
+	SCPT(FG_EngaerStroll_O)
+	SCPT(FG_EscortLetter_Respawn)
+	SCPT(FG_Escort_Dead)
+	SCPT(FG_Escort_Dispatched)
+	SCPT(FG_Escort_Dispatched_Ano)
+	SCPT(FG_Escort_Dispatched_Baradras)
+	SCPT(FG_Escort_Dispatched_Ghorag)
+	SCPT(FG_Escort_Dispatched_Gulfim)
+	SCPT(FG_Escort_Dispatched_Hlormar)
+	SCPT(FG_Escort_Dispatched_Lorzub)
+	SCPT(FG_Escort_Dispatched_Malexa)
+	SCPT(FG_Escort_Dispatched_Miles)
+	SCPT(FG_Escort_Dispatched_Tralan)
+	SCPT(FG_Escort_Escorted)
+	SCPT(FG_ExecNPC_SCR)
+	SCPT(FG_Exec_CleanUP)
+	SCPT(FG_Exec_PlatStairs_SCR)
+	SCPT(FG_Exec_Platform_SCR)
+	SCPT(FG_Expelled_Ano)
+	SCPT(FG_Expelled_Drink)
+	SCPT(FG_Expelled_Gor)
+	SCPT(FG_Expelled_Gulf)
+	SCPT(FG_Expelled_Hlo)
+	SCPT(FG_Expelled_Lor)
+	SCPT(FG_Expelled_Mal)
+	SCPT(FG_Expelled_Member)
+	SCPT(FG_Expelled_Mil)
+	SCPT(FG_Eydis_BitterCup_Topic)
+	SCPT(FG_Eydis_Pelagiad_Delivery)
+	SCPT(FG_FallPlayerGuy_Platform)
+	SCPT(FG_FargothKillTracker)
+	SCPT(FG_FargothKillTrackerHN)
+	SCPT(FG_FargothMurdered)
+	SCPT(FG_Fix_Alarm_Mannammu_NPCs)
+	SCPT(FG_Friendly_Ashunartes_Orcs)
+	SCPT(FG_Ghoragdush_Disabler)
+	SCPT(FG_Ghoragdush_SCR)
+	SCPT(FG_Gilosa_SCR)
+	SCPT(FG_Grytewake_Note)
+	SCPT(FG_Gulfim_Disabler)
+	SCPT(FG_Gulfim_SCR)
+	SCPT(FG_HarassFarg)
+	SCPT(FG_HardHeartKillList_Timer)
+	SCPT(FG_HardHeartKillPesius_Timer)
+	SCPT(FG_Hard_Heart_Trip)
+	SCPT(FG_HelvineDesele)
+	SCPT(FG_Hisin_Mover)
+	SCPT(FG_Hisin_Sender)
+	SCPT(FG_Hlormar_Disabler)
+	SCPT(FG_Hlormar_SCR)
+	SCPT(FG_HrisskarBarFight)
+	SCPT(FG_HrundiAttackPlayerAlone)
+	SCPT(FG_HrundiAttacksPlayerSlaver)
+	SCPT(FG_HrundiBootsYouOut)
+	SCPT(FG_IirielleCoward)
+	SCPT(FG_IldenMirel_Released)
+	SCPT(FG_Ill_Big_Disp)
+	SCPT(FG_Ill_Big_Disp_Botrir)
+	SCPT(FG_Ill_Big_Disp_Drink)
+	SCPT(FG_Ill_Big_Disp_Ghorag)
+	SCPT(FG_Ill_Big_Disp_Gulfim)
+	SCPT(FG_Ill_Big_Disp_Hisin)
+	SCPT(FG_Ill_Big_Disp_Hlormar)
+	SCPT(FG_Ill_Small_Disp)
+	SCPT(FG_Ill_Small_Disp_Botrir)
+	SCPT(FG_Ill_Small_Disp_Drink)
+	SCPT(FG_Ill_Small_Disp_Ghorag)
+	SCPT(FG_Ill_Small_Disp_Gulfim)
+	SCPT(FG_Ill_Small_Disp_Hisin)
+	SCPT(FG_Ill_Small_Disp_Hlormar)
+	SCPT(FG_Imp_Reinforce)
+	SCPT(FG_Jailed_Ald_Botrir)
+	SCPT(FG_Jailed_Ald_Botrir_BAK)
+	SCPT(FG_Jailed_Ald_Drink)
+	SCPT(FG_Jailed_Ald_Drink_BAK)
+	SCPT(FG_Jailed_Ald_Ghorak)
+	SCPT(FG_Jailed_Ald_Ghorak_BAK)
+	SCPT(FG_Jailed_Ald_Gulfim)
+	SCPT(FG_Jailed_Ald_Gulfim_BAK)
+	SCPT(FG_Jailed_Ald_Gulfim_CURRENT)
+	SCPT(FG_Jailed_Ald_Gulfim_Exe_B)
+	SCPT(FG_Jailed_Ald_Gulfim_Exe_S)
+	SCPT(FG_Jailed_Ald_Hisin)
+	SCPT(FG_Jailed_Ald_Hisin_BAK)
+	SCPT(FG_Jailed_Ald_Hlormar)
+	SCPT(FG_Jailed_Ald_Hlormar_BAK)
+	SCPT(FG_Jailed_Caldera_Botrir)
+	SCPT(FG_Jailed_Caldera_Drink)
+	SCPT(FG_Jailed_Caldera_Ghorak)
+	SCPT(FG_Jailed_Caldera_Gulfim)
+	SCPT(FG_Jailed_Caldera_Hisin)
+	SCPT(FG_Jailed_Caldera_Hlormar)
+	SCPT(FG_Jailed_GG_Botrir)
+	SCPT(FG_Jailed_GG_Drink)
+	SCPT(FG_Jailed_GG_Ghorak)
+	SCPT(FG_Jailed_GG_Gulfim)
+	SCPT(FG_Jailed_GG_Hisin)
+	SCPT(FG_Jailed_GG_Hlormar)
+	SCPT(FG_Jailed_Gnaar_Botrir)
+	SCPT(FG_Jailed_Gnaar_Drink)
+	SCPT(FG_Jailed_Gnaar_Ghorag)
+	SCPT(FG_Jailed_Gnaar_Gulfim)
+	SCPT(FG_Jailed_Gnaar_Hisin)
+	SCPT(FG_Jailed_Gnaar_Hlormar)
+	SCPT(FG_Jailed_Maar_Botrir)
+	SCPT(FG_Jailed_Maar_Drink)
+	SCPT(FG_Jailed_Maar_Ghorag)
+	SCPT(FG_Jailed_Maar_Gulfim)
+	SCPT(FG_Jailed_Maar_Hisin)
+	SCPT(FG_Jailed_Maar_Hlormar)
+	SCPT(FG_Job_GivenCreatureGhorag)
+	SCPT(FG_Job_Given_Bounty)
+	SCPT(FG_Job_Given_Bounty_Ano)
+	SCPT(FG_Job_Given_Bounty_Baradras)
+	SCPT(FG_Job_Given_Bounty_Drink)
+	SCPT(FG_Job_Given_Bounty_Ergnir)
+	SCPT(FG_Job_Given_Bounty_Ghorag)
+	SCPT(FG_Job_Given_Bounty_Gulfim)
+	SCPT(FG_Job_Given_Bounty_Hisin)
+	SCPT(FG_Job_Given_Bounty_Hlormar)
+	SCPT(FG_Job_Given_Bounty_Lorzub)
+	SCPT(FG_Job_Given_Bounty_Malexa)
+	SCPT(FG_Job_Given_Bounty_Miles)
+	SCPT(FG_Job_Given_Bounty_Tralan)
+	SCPT(FG_Job_Given_Creature)
+	SCPT(FG_Job_Given_Creature_Ano)
+	SCPT(FG_Job_Given_Creature_Barad)
+	SCPT(FG_Job_Given_Creature_Gulfim)
+	SCPT(FG_Job_Given_Creature_Hlormar)
+	SCPT(FG_Job_Given_Creature_Lorzub)
+	SCPT(FG_Job_Given_Creature_Miles)
+	SCPT(FG_Job_Given_Creature_Tralan)
+	SCPT(FG_Job_Given_Delivery)
+	SCPT(FG_Job_Given_Delivery_Bara)
+	SCPT(FG_Job_Given_Delivery_Drink)
+	SCPT(FG_Job_Given_Delivery_Ergnir)
+	SCPT(FG_Job_Given_Delivery_Malexa)
+	SCPT(FG_Job_Given_Delivery_Tralan)
+	SCPT(FG_Job_Given_Escort)
+	SCPT(FG_Job_Given_Escort_Ano)
+	SCPT(FG_Job_Given_Escort_Baradras)
+	SCPT(FG_Job_Given_Escort_Ghorag)
+	SCPT(FG_Job_Given_Escort_Gulfim)
+	SCPT(FG_Job_Given_Escort_Hlormar)
+	SCPT(FG_Job_Given_Escort_Lorzub)
+	SCPT(FG_Job_Given_Escort_Malexa)
+	SCPT(FG_Job_Given_Escort_Miles)
+	SCPT(FG_Job_Given_Escort_Tralan)
+	SCPT(FG_Job_Ill_Big)
+	SCPT(FG_Job_Ill_Big_Botrir)
+	SCPT(FG_Job_Ill_Big_Drink)
+	SCPT(FG_Job_Ill_Big_Ghorag)
+	SCPT(FG_Job_Ill_Big_Gulfim)
+	SCPT(FG_Job_Ill_Big_Hisin)
+	SCPT(FG_Job_Ill_Big_Hlormar)
+	SCPT(FG_Job_Ill_Small)
+	SCPT(FG_Job_Ill_Small_Botrir)
+	SCPT(FG_Job_Ill_Small_Drink)
+	SCPT(FG_Job_Ill_Small_Ghorag)
+	SCPT(FG_Job_Ill_Small_Gulfim)
+	SCPT(FG_Job_Ill_Small_Hisin)
+	SCPT(FG_Job_Ill_Small_Hlormar)
+	SCPT(FG_JstSteal)
+	SCPT(FG_JstStealActived)
+	SCPT(FG_Kidnap_Persius)
+	SCPT(FG_Loot_Disabler_Big)
+	SCPT(FG_LorbumlItemRemoval)
+	SCPT(FG_Lorbumol_Barrel)
+	SCPT(FG_Lorzub_Disabler)
+	SCPT(FG_Lorzub_SCR)
+	SCPT(FG_Malexa_Disabler)
+	SCPT(FG_Malexa_SCR)
+	SCPT(FG_Mannammu_Friendly)
+	SCPT(FG_MasterThief_Barrel_S)
+	SCPT(FG_Miles_Disabler)
+	SCPT(FG_Miles_SCR)
+	SCPT(FG_MurielCoward)
+	SCPT(FG_Muriel_Clothes)
+	SCPT(FG_Murv_Cage)
+	SCPT(FG_MuvrCriminalScum)
+	SCPT(FG_MuvrJailSender)
+	SCPT(FG_Muvrulea_Enabler)
+	SCPT(FG_Muvrulea_Script)
+	SCPT(FG_NPCGoesHall)
+	SCPT(FG_NPCHallRepo)
+	SCPT(FG_NPC_Quits_Your_Hall)
+	SCPT(FG_NelacarTeleport_AF)
+	SCPT(FG_NelacarTeleport_AM)
+	SCPT(FG_NelacarTeleport_BF)
+	SCPT(FG_NelacarTeleport_BM)
+	SCPT(FG_NelacarTeleport_DF)
+	SCPT(FG_NelacarTeleport_DM)
+	SCPT(FG_NelacarTeleport_HF)
+	SCPT(FG_NelacarTeleport_HM)
+	SCPT(FG_NelacarTeleport_IF)
+	SCPT(FG_NelacarTeleport_IM)
+	SCPT(FG_NelacarTeleport_KF)
+	SCPT(FG_NelacarTeleport_KM)
+	SCPT(FG_NelacarTeleport_NF)
+	SCPT(FG_NelacarTeleport_NM)
+	SCPT(FG_NelacarTeleport_OF)
+	SCPT(FG_NelacarTeleport_OM)
+	SCPT(FG_NelacarTeleport_RF)
+	SCPT(FG_NelacarTeleport_RM)
+	SCPT(FG_NelacarTeleport_WF)
+	SCPT(FG_NelacarTeleport_WM)
+	SCPT(FG_NoMesh_Sottilde)
+	SCPT(FG_OpenMW_Ask)
+	SCPT(FG_OrcAttackedAlarm)
+	SCPT(FG_OrcDeadAlarm)
+	SCPT(FG_OrcsGoAshurnibibi)
+	SCPT(FG_Orcs_Takeover_Hall)
+	SCPT(FG_PCExecutionFeatAlmostWorks)
+	SCPT(FG_PC_Escapee)
+	SCPT(FG_PC_Exec_Battlemage)
+	SCPT(FG_PC_Exec_MassEnterTainMent)
+	SCPT(FG_PC_Execution_Feat)
+	SCPT(FG_PC_Execution_Feat_O)
+	SCPT(FG_PC_Execution_Trigger)
+	SCPT(FG_PC_Stool_Exec)
+	SCPT(FG_PC_Stool_PlayerHit)
+	SCPT(FG_PC_WaterCage)
+	SCPT(FG_Pay_Bounty_Gulfim_Ald)
+	SCPT(FG_Peddler_Items)
+	SCPT(FG_Peddler_Khajiit)
+	SCPT(FG_PemWantedPoster)
+	SCPT(FG_Pem_Caldera_Shackles)
+	SCPT(FG_Pem_Gnaar_Shackles)
+	SCPT(FG_Pem_Kill_Option)
+	SCPT(FG_Pem_Quest_Timer_Counter)
+	SCPT(FG_Pem_SlaveMiner)
+	SCPT(FG_Pem_SlavePlant)
+	SCPT(FG_Pemenie_Hunt)
+	SCPT(FG_Pemenie_Hunt_Background)
+	SCPT(FG_Pemenie_Job)
+	SCPT(FG_Penald_SCR)
+	SCPT(FG_Percius_Goes_Vivec)
+	SCPT(FG_Pers_Master_Teleport)
+	SCPT(FG_Perscius_Trip)
+	SCPT(FG_PersicusFreed)
+	SCPT(FG_PersicusRevenge)
+	SCPT(FG_PersiusEscapes)
+	SCPT(FG_Position_Agents)
+	SCPT(FG_Random_Prisoner_Kill)
+	SCPT(FG_Redoran_Renegate_Forever)
+	SCPT(FG_Redoran_Wrath)
+	SCPT(FG_Resign_Topic_SCR)
+	SCPT(FG_RingReturnerRanes)
+	SCPT(FG_Ring_Quest_Canceler)
+	SCPT(FG_SellHisShoes_SCR)
+	SCPT(FG_Selvia_SCR)
+	SCPT(FG_SjoringBarrelDues)
+	SCPT(FG_SjoringDues)
+	SCPT(FG_SjoringLegion)
+	SCPT(FG_SjoringOusted)
+	SCPT(FG_SjoringPrisonRags)
+	SCPT(FG_SjoringRevenge)
+	SCPT(FG_SjoringTripSkyrim)
+	SCPT(FG_Sjoring_Crime_Topic)
+	SCPT(FG_Sjoring_Legionner)
+	SCPT(FG_SondaaleS)
+	SCPT(FG_SondaaleStalker)
+	SCPT(FG_Sondryn_Capture)
+	SCPT(FG_Sondryn_Slavepod)
+	SCPT(FG_SottildeBarrel_S)
+	SCPT(FG_SottildeCoward)
+	SCPT(FG_SottildeLure_Script)
+	SCPT(FG_SottildeLure_Script_V)
+	SCPT(FG_SpectatorMasterNPCSCR)
+	SCPT(FG_SpectatorMasterSCR)
+	SCPT(FG_SpectatorScriptA)
+	SCPT(FG_SpectatorScriptB)
+	SCPT(FG_SpectatorScriptC)
+	SCPT(FG_SpectatorScriptD)
+	SCPT(FG_Spectators_Go_Home)
+	SCPT(FG_Stacey_Head)
+	SCPT(FG_Stacey_Head_Activator)
+	SCPT(FG_Stacey_Healing)
+	SCPT(FG_Stacey_Limb_Requipper)
+	SCPT(FG_Stacey_No_Hand_L_S)
+	SCPT(FG_Stacey_No_Hand_R_S)
+	SCPT(FG_TGBosses_Fight)
+	SCPT(FG_TGHBosses_FF_Activator)
+	SCPT(FG_TaxGirl_Quest_Update)
+	SCPT(FG_Tenim_Muvr_S)
+	SCPT(FG_Thalurea_SCR)
+	SCPT(FG_Thief_Jailed_AldRuhn)
+	SCPT(FG_Thief_Jailed_Caldera)
+	SCPT(FG_Thief_Jailed_Caldera_Gulfim)
+	SCPT(FG_Thief_Jailed_GhostGate)
+	SCPT(FG_Thief_Jailed_GhostGate_Gulfim)
+	SCPT(FG_Thief_Jailed_Gnaar_Mok)
+	SCPT(FG_Thief_Jailed_Maar_Gan)
+	SCPT(FG_Thugs_SCR)
+	SCPT(FG_Uvisea_SCR)
+	SCPT(FG_VG_Follower_Dismiss)
+	SCPT(FG_Velyth_SCR)
+	SCPT(FG_VerethiGang_Attacks)
+	SCPT(FG_Verethi_Gang_Move_OUT)
+	SCPT(FG_Warn_Agents)
+	SCPT(FG_WolverineDoorLockOn)
+	SCPT(GaldalUlyneGhostGreet)
+	SCPT(GidenFGQScriptRes)
+	SCPT(HP_Sample)
+	SCPT(LietteCorprusStalkerS)
+	SCPT(LietteFGSBScript)
+	SCPT(LietteFreedSlave)
+	SCPT(LietteHelvaineSSlave)
+	SCPT(LietteSixthHouseCorruption)
+	SCPT(LietteSurvivor)
+	SCPT(MV_AbusedHealer_Compromise)
+	SCPT(MuvruleaScriptO)
+	SCPT(OrvasLetterReadCheck)
+	SCPT(Pub_Suran_Desele)
+	SCPT(SarathamChestMIScript)
+	SCPT(SarathramChestCScript)
+	SCPT(SarathramNoteDrop)
+	SCPT(TG_Hard_Heart_Trip)
+	SCPT(UlyneBoneLordAttack)
+	SCPT(UlyneSoulBoneWalker)
+	SCPT(VG_Addhiranirr_Returns)
+	SCPT(VG_Ahnassi_Slave_For_Dren)
+	SCPT(VG_Fargoth_Slave_For_Dren)
+	SCPT(VG_TG_Spy)
+	SCPT(Valenvaryon_Orcs_Friendly)
+	SCPT(eydisScript)
+	SCPT(lorbumolScript)
+	SCPT(sarathramwaitquest)
+	SCPT(saturanchestplacement)
+	SCPT(script_jump)
+	SCPT(sjoringScript)
+	SCPT(staceyScript)
+	SCPT(ulyneCorpse)
+	SCPT(ulyneFollow)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	in_impsmall_loaddoor_01              FG_WolverineDoorLockOn
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    active_de_bar_door
+	morrowind.esm       STAT    in_t_s_hall_ramp_01
+	tribunal.esm        DOOR    in_hlaalu_door
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       DOOR    in_impsmall_loaddoor_01
+	morrowind.esm       CREA    hunger_fghl
+	morrowind.esm       DIAL    adraria vandacia
+	morrowind.esm       DIAL    allies
+	morrowind.esm       DIAL    ash ghoul
+	morrowind.esm       DIAL    bandits in suran
+	morrowind.esm       DIAL    bitter cup
+	morrowind.esm       DIAL    blasphemy
+	morrowind.esm       DIAL    bounty
+	morrowind.esm       DIAL    cloudcleaver
+	morrowind.esm       DIAL    code book
+	morrowind.esm       DIAL    debt money
+	morrowind.esm       DIAL    dranas sarathram
+	morrowind.esm       DIAL    dro'sakhar
+	morrowind.esm       DIAL    dura gra-bol
+	morrowind.esm       DIAL    egg poachers
+	morrowind.esm       DIAL    elith-pal mine
+	morrowind.esm       DIAL    engaer
+	morrowind.esm       DIAL    eydis fire-eye
+	morrowind.esm       DIAL    festering witch
+	morrowind.esm       DIAL    flin
+	morrowind.esm       DIAL    gentleman jim stacey
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    guildmaster
+	morrowind.esm       DIAL    hlormar
+	morrowind.esm       DIAL    jobs
+	morrowind.esm       DIAL    join the fighters guild
+	morrowind.esm       DIAL    juicedaw feather ring
+	morrowind.esm       DIAL    lorbumol gro-aglakh
+	morrowind.esm       DIAL    master thief
+	morrowind.esm       DIAL    nchurdamz
+	morrowind.esm       DIAL    nerer beneran
+	morrowind.esm       DIAL    nord woman
+	morrowind.esm       DIAL    orcs at a daedric ruin
+	morrowind.esm       DIAL    orvas dren
+	morrowind.esm       DIAL    pemenie the trader
+	morrowind.esm       DIAL    pudai egg mine
+	morrowind.esm       DIAL    rels tenim
+	morrowind.esm       DIAL    rufinus alleius
+	morrowind.esm       DIAL    sjoring hard-heart
+	morrowind.esm       DIAL    sondaale of shimmerene
+	morrowind.esm       DIAL    sosia's offer
+	morrowind.esm       DIAL    telvanni agents
+	morrowind.esm       DIAL    thieves guild bosses
+	morrowind.esm       DIAL    ulyne henim
+	morrowind.esm       DIAL    vas
+	morrowind.esm       DIAL    verethi gang
+	morrowind.esm       FACT    camonna tong
+	morrowind.esm       FACT    sixth house
+	morrowind.esm       NPC_    addhiranirr
+	morrowind.esm       NPC_    baurin
+	morrowind.esm       NPC_    brelyn indarys
+	morrowind.esm       NPC_    dalmil varen
+	morrowind.esm       NPC_    dovres verethi
+	morrowind.esm       NPC_    dura gra-bol
+	morrowind.esm       NPC_    ena
+	morrowind.esm       NPC_    gavesu arelas
+	morrowind.esm       NPC_    godrod hairy-breeks
+	morrowind.esm       NPC_    helviane desele
+	morrowind.esm       NPC_    llero lloran
+	morrowind.esm       NPC_    milynea andrethi
+	morrowind.esm       NPC_    muvrulea daryon
+	morrowind.esm       NPC_    nerer beneran
+	morrowind.esm       NPC_    penald
+	morrowind.esm       NPC_    raynila aryon
+	morrowind.esm       NPC_    selvia famalius
+	morrowind.esm       NPC_    terenu uveran
+	morrowind.esm       NPC_    thalurea thirvayn
+	morrowind.esm       NPC_    uvisea benethran
+	morrowind.esm       NPC_    varon sadralo
+	morrowind.esm       NPC_    varvsa athram
+	morrowind.esm       PGRD    sadrith mora, tel naga upper tower
+	morrowind.esm       PGRD    suran, desele's house of earthly delights
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    fg_alofsfarm
+	tribunal.esm        DIAL    fg_beneranbounty
+	tribunal.esm        DIAL    fg_bigbosses
+	tribunal.esm        DIAL    fg_debtorc
+	tribunal.esm        DIAL    fg_debtstoine
+	tribunal.esm        DIAL    fg_deseledebt
+	tribunal.esm        DIAL    fg_egg_poachers
+	tribunal.esm        DIAL    fg_elithpalsupply
+	tribunal.esm        DIAL    fg_engaerbounty
+	tribunal.esm        DIAL    fg_khajiitbounty
+	tribunal.esm        DIAL    fg_killbosses
+	tribunal.esm        DIAL    fg_killcronies
+	tribunal.esm        DIAL    fg_killhardheart
+	tribunal.esm        DIAL    fg_nchurdamz
+	tribunal.esm        DIAL    fg_orcbounty
+	tribunal.esm        DIAL    fg_silencemagistrate
+	tribunal.esm        DIAL    fg_silencetaxgirl
+	tribunal.esm        DIAL    fg_sottilde
+	tribunal.esm        DIAL    fg_suranbandits
+	tribunal.esm        DIAL    fg_telasero
+	tribunal.esm        DIAL    fg_tenimbounty
+	tribunal.esm        DIAL    fg_vas
+	tribunal.esm        DIAL    fg_verethigang
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    mv_abusedhealer
+	tribunal.esm        DIAL    tg_killhardheart
+
+[MOD-INF]: ID=2422825916747957(Journal:fg_debtstoine)
+  tribunal.esm-------------------------->|DATA|NAME:Lorbumol gro-Aglakh thanked me for bringing him the 2000 gold Lirielle Stoine owed our client. He actually let me keep half of the money owed.|QSTF
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|NAME:Lorbumol gro-Aglakh was upset I refuse to collect the illegitimate debt.|QSTF
+
+[MOD-INF]: ID=13867582706920928(Topic:sosia's offer)
+  morrowind.esm------------------------->|DATA|ONAM:hlormar wine-sot|NAME:Well I'll not be waiting another three days to have me bloody axe when it is in the hands of that damned witch!  Are you going to help me, friend, or are you believing the lies spilling out of that witch's face?|SCVR:04JX4MV_AbusedHealer|INTV:<|BNAM:Choice "I'll side with you." 4 "I believe Sosia." 5
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hlormar wine-sot|NAME:Well I'll not be waiting another three days to have me bloody axe when it is in the hands of that damned witch!  Are you going to help me, friend, or are you believing the lies spilling out of that witch's face?|SCVR:04JX4MV_AbusedHealer|INTV:<|BNAM:Choice "I'll side with you." 4 "I believe Sosia." 5 "Listen Hlormar this way we avoid needless bloodshed." 6
+
+[MOD-INF]: ID=19680231976348865(Topic:sondaale of shimmerene)
+  morrowind.esm------------------------->|DATA|ONAM:hrundi|NAME:Good work, %PCName. Here's the 500 septims for this contract.|SCVR:34JX3FG_Telasero|INTV:F|BNAM:Journal FG_Telasero 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hrundi|NAME:Good work, %PCName. Here's the 500 septims for this contract.|SCVR:34JX3FG_Telasero|INTV:F|SCVR:44JX4FG_Telasero|INTV:P|BNAM:Journal FG_Telasero 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=22810386257729208(Topic:dura gra-bol)
+  morrowind.esm------------------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:This Orc is an outlaw, living openly in a house here in Balmora. I have a contract here that says 250 septims are yours if you bring her to justice.|BNAM:Journal FG_OrcBounty 10
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:You say Dura bra-Bol is nowhere to be found in the city? Well seems like she's goner for a good. Let me know if you happen to come across her.|SCVR:04JX0FG_OrcBounty|INTV|SCVR:16DX1dura gra-bol|INTV
+
+[MOD-INF]: ID=24316949269837966(Topic:vas)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim is dead? Bah! I don't know whether to accuse you of murder or negligence.|SCVR:56DX3ulyne henim|INTV|BNAM:ModDisposition -10  Journal FG_Vas 105
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:daris adram|NAME:My tower my rules. If you don't like it leave or you become one of my undead servants for eternity.
+
+[MOD-INF]: ID=28231161621266572(Topic:egg poachers)
+  morrowind.esm------------------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Have you taken care of those egg poachers yet?|SCVR:04JX3FG_Egg_Poachers|INTV
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:Have you taken care of those egg poachers yet?|SCVR:04JX3FG_Egg_Poachers|INTV|SCVR:14JX4FG_Egg_Poachers|INTV
+
+[MOD-INF]: ID=39981564229741736(Topic:vas)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim gave a very positive report, %PCName. Since this has helped our reputation with the Buoyant Armigers, I've decided to share the contract reward money with you. Take these 500 septims.|SCVR:34JX3FG_Vas|INTV:U|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->AddItem Gold_001 500  "Ulyne Henim"->Disable
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim gave a very positive report, %PCName. Since this has helped our reputation with the Buoyant Armigers, I've decided to share the contract reward money with you. Take these 500 septims.|SCVR:24JX1FG_Vas|INTV:n|SCVR:34JX3FG_Vas|INTV:U|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->AddItem Gold_001 500  "Ulyne Henim"->Disable
+
+[MOD-INF]: ID=56015168105932404(Topic:dura gra-bol)
+  morrowind.esm------------------------->|DATA|ONAM:dura gra-bol|NAME:Yeah, what? You're wasting my time.
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:dura gra-bol|NAME:Yeah, what? You're wasting my time.|SCVR:04JX4FG_OrcBounty|INTV: 
+
+[MOD-INF]: ID=90823152810811864(Topic:vas)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim was satisfied with your performance. Here is your pay of 250 septims based on guild rates.|SCVR:34JX3FG_Vas|INTV:F|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  Player->AddItem Gold_001 250  ModDisposition 10  "Ulyne Henim"->Disable
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim was satisfied with your performance. Here is your pay of 250 septims based on guild rates.|SCVR:24JX1FG_Vas|INTV:n|SCVR:34JX3FG_Vas|INTV:F|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  Player->AddItem Gold_001 250  ModDisposition 10  "Ulyne Henim"->Disable
+
+[MOD-INF]: ID=113211106899917354(Topic:code book)
+  morrowind.esm------------------------->|DATA|ONAM:sottilde|DNAM:Thieves Guild|NAME:Look, %PCRank, I'll tell you what's going on. This code book has dirt on the Camonna Tong and the skooma trade. As soon as we get it figured out, we take it to the authorities and take over the trade ourselves. The Fighters Guild works for the Camonna Tong since Sjoring Hard-Heart took over. You have to decide where your loyalties lie, %PCRank.|SCVR:34JX3FG_Sottilde|INTV: 
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:sottilde|DNAM:Thieves Guild|NAME:Look, %PCRank, I'll tell you what's going on. This code book has dirt on the Camonna Tong and the skooma trade. As soon as we get it figured out, we take it to the authorities and take over the trade ourselves. The Fighters Guild works for the Camonna Tong since Sjoring Hard-Heart took over. You have to decide where your loyalties lie, %PCRank.|SCVR:34JX3FG_Sottilde|INTV: |BNAM:Journal FG_CodeBookForP 2
+
+[MOD-INF]: ID=120212398643415761(Topic:eydis fire-eye)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You can find her at the Guild of Fighters in Balmora. Kill her and report back to me.|SCVR:34JX3FG_ElithPalSupply|INTV:d|BNAM:Journal FG_KillCronies 10
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You can find her at the Guild of Fighters in Balmora. Kill her and report back to me but I would like if you did not and go see Gentleman Jim Stacey in Vivec, Foreign Quarter. He may have idea how to change Eydis Fire-Eye's mind. Ask him about "Bitter Cup".|SCVR:34JX3FG_ElithPalSupply|INTV:d|BNAM:Journal FG_KillCronies 10  "stacey"->addtopic "Bitter Cup"  "eydis fire-eye"->addtopic "Bitter Cup"
+
+[MOD-INF]: ID=130541660653534768(Topic:sondaale of shimmerene)
+  morrowind.esm------------------------->|DATA|ONAM:hrundi|NAME:Go to Telasero, which is between Suran and the Silt Strider port near Molag Mar. Speak with Sondaale of Shimmerene and escort her through Telasero. She lacks the field experience of Larienna Macrina, so she will likely need more protection.|BNAM:Journal FG_Telasero 10  "sondaale of shimmerene"->Enable  ShowMap Telasero
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hrundi|NAME:Go to Telasero, which is between Suran and the Silt Strider port near Molag Mar. Speak with Sondaale of Shimmerene and escort her through Telasero. She lacks the field experience of Larienna Macrina, so she will likely need more protection.|BNAM:Journal FG_Telasero 10  "sondaale of shimmerene"->Enable  ShowMap Telasero  startscript FG_SondaaleS
+
+[MOD-INF]: ID=146064383830129504(Topic:debt money)
+  morrowind.esm------------------------->|DATA|ONAM:eydis fire-eye|NAME:You killed Helviane Desele? Well, that's the way it is sometimes. Some people won't pay their debts.|SCVR:06DX3helviane desele|INTV|BNAM:Journal FG_DeseleDebt 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:eydis fire-eye|NAME:You killed Helviane Desele? Well, that's the way it is sometimes. Some people won't pay their debts.|SCVR:06DX3helviane desele|INTV|BNAM:Journal FG_DeseleDebt 110  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+
+[MOD-INF]: ID=157232741256349268(Topic:sjoring hard-heart)
+  morrowind.esm------------------------->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:So Sjoring Hard-Heart is dead. Whatever his personal vendetta, he won't trouble our Guild again. The remaining leaders of the Fighters Guild are more sympathetic to us. Since you've saved the Thieves Guild here in Vvardenfell, I think you deserve this. It's the Skeleton Key--the most perfect tool ever created for lockpicking. I found it when I lived in Hammerfell. Use it wisely. Now, I have new jobs for you to do.|SCVR:06DX3sjoring hard-heart|INTV|SCVR:14JX0TG_KillHardHeart|INTV: |BNAM:Journal TG_KillHardHeart 100  Player->AddItem Skeleton_key 1  ModPCFacRep 15 "Thieves Guild"  ModDisposition 15
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:So Sjoring Hard-Heart is dead. Whatever his personal vendetta, he won't trouble our Guild again. The remaining leaders of the Fighters Guild are more sympathetic to us. Since you've saved the Thieves Guild here in Vvardenfell, I think you deserve this. It's the Skeleton Key--the most perfect tool ever created for lockpicking. I found it when I lived in Hammerfell. Use it wisely. Now, I have new jobs for you to do.|SCVR:06DX3sjoring hard-heart|INTV|SCVR:14JX3TG_KillHardHeart|INTV: |BNAM:Journal TG_KillHardHeart 100  Player->AddItem Skeleton_key 1  ModPCFacRep 15 "Thieves Guild"  ModDisposition 15
+
+[MOD-INF]: ID=173965674313098995(Topic:dura gra-bol)
+  morrowind.esm------------------------->|DATA|ANAM:Balmora|NAME:He lives in town somewhere. Look around, you lazy fetcher.|SCVR:0CsX0nolore|INTV:
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ANAM:Balmora|NAME:He lives in town somewhere. Look around, you lazy fetcher.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX5FG_OrcBounty|INTV: 
+
+[MOD-INF]: ID=195781222524312234(Topic:eydis fire-eye)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Don't let your conscience trouble you, %PCName. You did the right thing.|SCVR:34JX3FG_KillCronies|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Don't let your conscience trouble you, %PCName. You did the right thing.|SCVR:34JX3FG_KillCronies|INTV:d|SCVR:46DX2eydis fire-eye|INTV:
+
+[MOD-INF]: ID=214594804292603296(Topic:jobs)
+  morrowind.esm------------------------->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:Actually, this is the final job I'll give you. Take care of the Guild. You've done great things, %PCName. With you here, I think it's safe for me to take a little vacation. Maybe go back to Hammerfell, see the old family. Until I get back, I'm leaving the Guild in your capable hands.|SCVR:34JX3TG_KillHardHeart|INTV:d|BNAM:PCRaiseRank
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:With Sjoring Hard-Heart dead actually, this is the final job I'll give you. Take care of the Guild. You've done great things, %PCName. With you here, I think it's safe for me to take a little vacation. Maybe go back to Hammerfell, see the old family. Until I get back, I'm leaving the Guild in your capable hands.|SCVR:34JX3TG_KillHardHeart|INTV:d|SCVR:46DX2sjoring hard-heart|INTV:|BNAM:Choice "I do not know how to run the guild." 1 "It would be my pleasure, sir gentleman Stacey." 2
+
+[MOD-INF]: ID=239495628700830035(Topic:sjoring hard-heart)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring is already dead? I'm glad to hear it, %PCName. You've saved the Fighters Guild from the corruption of the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX0FG_KillHardHeart|INTV:|SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring behind the bars where he belongs.|SCVR:34JX3FG_KillHardHeart|INTV:n|SCVR:44JX5FG_KillHardHeart|INTV:s|SCVR:56DX1sjoring hard-heart|INTV
+
+[MOD-INF]: ID=250662577148408456(Topic:sondaale of shimmerene)
+  morrowind.esm------------------------->|DATA|ONAM:hrundi|NAME:Last I heard, she was trying to get permission to study in the city of Sotha Sil.|SCVR:34JX3FG_Telasero|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hrundi|NAME:Last I heard, she was trying to get permission to study in the city of Sotha Sil.|SCVR:34JX0FG_Telasero|INTV:d
+
+[MOD-INF]: ID=297439947228448298(Greeting:greeting 5)
+  morrowind.esm------------------------->|DATA|ONAM:sjoring hard-heart|NAME:Have you done what I asked? Are the Thieves Guild Bosses taken care of yet?|SCVR:04JX3FG_KillBosses|INTV: |SCVR:14JX4FG_KillBosses|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:sjoring hard-heart|NAME:Have you done what I asked? Are the Thieves Guild Bosses taken care of yet?|SCVR:04JX3FG_KillBosses|INTV: |SCVR:14JX4FG_KillBosses|INTV:Z
+
+[MOD-INF]: ID=298158591472427873(Greeting:greeting 1)
+  tribunal.esm-------------------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I see you've risen to %PCRank, %PCName. Word on the street is that you've become Mercius' lapdog, and he's sent you to kill me. I'm afraid I can't let that happen. You were always a disappointment.|SCVR:04JX3FG_KillCronies|INTV: |BNAM:StartCombat Player  Goodbye
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I see you've risen to %PCRank, %PCName. Word on the street is that you've become Mercius' lapdog, and he's sent you to kill me. I'm afraid I can't let that happen. You were always a disappointment.|SCVR:04JX3FG_KillCronies|INTV: |SCVR:13sX0doOnce|INTV:|BNAM:StartCombat Player  Goodbye
+
+[MOD-INF]: ID=604202253078327746(Topic:adraria vandacia)
+  morrowind.esm------------------------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Good work. Here's the 500 septims. I got more orders for you.|SCVR:56DX3adraria vandacia|INTV|BNAM:Journal FG_SilenceTaxgirl 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 500
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Good work. Here's the 500 septims. I got more orders for you.|SCVR:43sX0FG_VivecRefuseKills|INTV|SCVR:56DX3adraria vandacia|INTV|BNAM:Journal FG_SilenceTaxgirl 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=622229347284449845(Topic:dura gra-bol)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:It seems straightforward to me. Dura gra-Bol really is wanted for murder.
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:It seems straightforward to me. Dura gra-Bol really is wanted for murder.|SCVR:04JX0FG_OrcBounty|INTV: 
+
+[MOD-INF]: ID=622229347284449845(Topic:dura gra-bol)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:It seems straightforward to me. Dura gra-Bol really is wanted for murder.
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:It seems straightforward to me. Dura gra-Bol really is wanted for murder.|SCVR:04JX0FG_OrcBounty|INTV: 
+[MOD-IID]: ID=7446231612114120985
+  Fighters_Guild_Questline_Overhaul.ESP->It seems straightforward to me. Dura gra-Bol really is wanted for murder.
+
+[MOD-INF]: ID=679917671276097269(Topic:rufinus alleius)
+  morrowind.esm------------------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:Good work. I hope the guards didn't give you any trouble. Here's the 1000 septims I owe you.|SCVR:56DX3Rufinus Alleius|INTV|BNAM:Journal FG_SilenceMagistrate 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:lorbumol gro-aglakh|NAME:Good work. I hope the guards didn't give you any trouble. Here's the 1000 septims I owe you.|SCVR:43sX0FG_VivecRefuseKills|INTV:|SCVR:56DX3Rufinus Alleius|INTV|BNAM:Journal FG_SilenceMagistrate 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=707086312421931867(Topic:dura gra-bol)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You've already killed Dura gra-Bol. If you have questions about any other contract, ask them.|SCVR:56DX3dura gra-bol|INTV
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You've already killed Dura gra-Bol. If you have questions about any other contract, ask them.|SCVR:44JX4FG_OrcBounty_Dura_Rep|INTV|SCVR:56DX3dura gra-bol|INTV|BNAM:; Player->ModReputation 1  SetJournalIndex "FG_OrcBounty_Dura_Rep" 1
+
+[MOD-INF]: ID=726618815414722443(Topic:orders)
+  morrowind.esm------------------------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:You did quite a job on the local heads of the Thieves Guild. Now it's time to take care of the Master Thief in Vivec.|SCVR:34JX3FG_BigBosses|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:You did quite a job on the local heads of the Thieves Guild. Now it's time to take care of the Master Thief in Vivec.|SCVR:34JX3FG_KillBosses|INTV:d
+
+[MOD-INF]: ID=1052313156405920656(Greeting:greeting 5)
+  morrowind.esm------------------------->|DATA|ONAM:eydis fire-eye|NAME:Give me the status on Dura gra-Bol. Surely you haven't botched up this mission, have you?|SCVR:04JX3FG_OrcBounty|INTV: |SCVR:14JX4FG_OrcBounty|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:eydis fire-eye|NAME:Give me the status on Dura gra-Bol. Surely you haven't botched up this mission, have you?|SCVR:04JX3FG_OrcBounty|INTV: |SCVR:14JX4FG_OrcBounty|INTV
+
+[MOD-INF]: ID=1054520043147619122(Topic:rels tenim)
+  morrowind.esm------------------------->|DATA|ONAM:hrundi|NAME:I heard that Rels Tenim is dead. Good work, %PCName. Here's the 200 septims for the contract.|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hrundi|NAME:I heard that Rels Tenim is dead. Good work, %PCName. Here's the 200 septims for the contract.|SCVR:56DX2rels tenim|INTV:|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+
+[MOD-INF]: ID=1285313042877624077(Topic:dro'sakhar)
+  morrowind.esm------------------------->|DATA|ONAM:dro'sakhar|NAME:Yes? What is it?
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:dro'sakhar|NAME:Yes? What is it?|SCVR:44JX0FG_KhajiitBounty|INTV:
+
+[MOD-INF]: ID=1315817146980114093(Topic:dura gra-bol)
+  morrowind.esm------------------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I heard that Dura gra-Bol is dead. Here's your 250 septims.|SCVR:34JX3FG_OrcBounty|INTV: |SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I heard that Dura gra-Bol is dead. Here's your 250 septims.|SCVR:34JX3FG_OrcBounty|INTV:(|SCVR:44JX5FG_OrcBounty|INTV:.|SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+
+[MOD-INF]: ID=1368823450872210624(Topic:sjoring hard-heart)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Although Sjoring Hard-Heart is dead, we must not rest easily. I fear there are troubling times ahead, not just for the Fighters Guild, but for all of Tamriel. Be wary and always ready for the threats yet to come. Use your position as Guildmaster to try and protect the Fighters Guild, not by allying with such as the Camonna Tong, but with hard work and high standards.|SCVR:34JX3FG_KillHardHeart|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Although Sjoring Hard-Heart is dead, we must not rest easily. I fear there are troubling times ahead, not just for the Fighters Guild, but for all of Tamriel. Be wary and always ready for the threats yet to come. Use your position as Guildmaster to try and protect the Fighters Guild, not by allying with such as the Camonna Tong, but with hard work and high standards.|SCVR:34JX3FG_KillHardHeart|INTV:d|SCVR:46DX2sjoring hard-heart|INTV:
+
+[MOD-INF]: ID=1389816403228121303(Journal:fg_killhardheart)
+  tribunal.esm-------------------------->|DATA|NAME:Percius Mercius thanked me for killing Sjoring Hard-Heart. He promoted me to Master of the Fighters Guild.|QSTF
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|NAME:Percius Mercius thanked me for killing Sjoring Hard-Heart. I refused his proposition to be a guild master of the Fighters Guild.|QSTF
+
+[MOD-INF]: ID=1428931586148709630(Greeting:greeting 5)
+  morrowind.esm------------------------->|DATA|ONAM:ulyne henim|NAME:Shall we fight together against the foul Necromancers of Vas?|SCVR:04JX5FG_Vas|INTV:2
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:ulyne henim|NAME:Shall we fight together against the foul Necromancers of Vas?|SCVR:04JX0FG_Vas|INTV: 
+
+[MOD-INF]: ID=1447023869487219160(Journal:fg_killcronies)
+  tribunal.esm-------------------------->|DATA|NAME:Percius Mercius asked me to kill one of Sjoring Hard-Heart's supporters, Eydis Fire-Eye, the guild steward in Balmora.
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|NAME:Percius Mercius asked me to kill one of Sjoring Hard-Heart's supporters, Eydis Fire-Eye, the guild steward in Balmora. Alternatively I can go see Gentleman Jim Stacey in Vivec, Foreign Quarter and figure out if Eydis-Fire can be bribed somehow.
+
+[MOD-INF]: ID=1580210391711714077(Topic:telvanni agents)
+  morrowind.esm------------------------->|DATA|ONAM:Fothyna Herothran|DNAM:Thieves Guild|NAME:Pity you had to get mixed up in this, %PCRank %PCName. But we can't just let you walk away. Nothing personal, you understand. Just business.|SCVR:34JX3FG_Telvanni_agents|INTV|BNAM:StartCombat Player  SetFight 90  SetDisposition 0  Goodbye
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:Fothyna Herothran|DNAM:Thieves Guild|NAME:Pity you had to get mixed up in this, %PCRank %PCName. But we can't just let you walk away. Nothing personal, you understand. Just business.|SCVR:01690|INTV:|SCVR:34JX3FG_Telvanni_agents|INTV|BNAM:StartCombat Player  SetFight 90  SetDisposition 0  Goodbye
+
+[MOD-INF]: ID=1733819314779529785(Topic:flin)
+  morrowind.esm------------------------->|DATA|ONAM:dangor|NAME:Are you here to deliver the flin?|SCVR:04JX0FG_ElithPalSupply|INTV: |SCVR:45IX3Potion_Cyro_Whiskey_01|INTV|BNAM:Choice "Yes." 1 "No." 2
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:dangor|NAME:Are you here to deliver the flin?|SCVR:04JX0FG_ElithPalSupply|INTV: |SCVR:14JX1FG_ElithPalSupply|INTV|SCVR:24JX1FG_ElithPalSupply|INTV|SCVR:45IX3Potion_Cyro_Whiskey_01|INTV|BNAM:Choice "Yes." 1 "No." 2
+
+[MOD-INF]: ID=1778319273286647093(Greeting:greeting 5)
+  morrowind.esm------------------------->|DATA|ONAM:hrundi|NAME:What's the status on Rels Tenim? Manage to find him?|SCVR:04JX3FG_TenimBounty|INTV: |SCVR:14JX4FG_TenimBounty|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hrundi|NAME:What's the status on Rels Tenim? Manage to find him?|SCVR:04JX3FG_TenimBounty|INTV: |SCVR:14JX4FG_TenimBounty|INTV:G
+
+[MOD-INF]: ID=1911410961396931476(Topic:rufinus alleius)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|NAME:Killing an Imperial Magistrate is a serious offense. All I can suggest is to disobey orders and refuse this contract.
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|NAME:Killing an Imperial Magistrate is a serious offense. All I can suggest is to disobey orders and refuse this contract.|BNAM:Journal FG_SilenceMagistrate 50
+
+[MOD-INF]: ID=1925031993149376817(Topic:orders)
+  morrowind.esm------------------------->|DATA|ONAM:sjoring hard-heart|NAME:Just kill the Thieves Guild bosses like I told you. Then we can talk about the future of the Fighters Guild.|SCVR:34JX3FG_KillBosses|INTV: 
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:Just kill the Thieves Guild bosses like I told you. Then we can talk about the future of the Fighters Guild.|SCVR:34JX3FG_KillBosses|INTV: |SCVR:44JX5FG_KillBosses|INTV
+
+[MOD-INF]: ID=1928280813149921891(Topic:sondaale of shimmerene)
+  morrowind.esm------------------------->|DATA|ONAM:hrundi|NAME:I heard Sondaale of Shimmerene was dead. You idiot! You won't be getting any more contracts from me.|SCVR:56DX3sondaale of shimmerene|INTV|BNAM:Journal FG_Telasero 110  ModDisposition -10
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hrundi|NAME:I heard Sondaale of Shimmerene was dead. You idiot! You won't be getting any more contracts from me.|SCVR:56DX3sondaale of shimmerene|INTV|BNAM:Journal FG_Telasero 110  ModDisposition -85  Goodbye
+
+[MOD-INF]: ID=1991218937946728143(Topic:bandits in suran)
+  morrowind.esm------------------------->|DATA|DNAM:Fighters Guild|NAME:You have brought justice to Daldur Sarys and his bandits. House Hlaalu thanks you, %PCName. Here is the bounty money we agreed on.|SCVR:56DX3daldur sarys|INTV|BNAM:Journal FG_SuranBandits 100  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Hlaalu"  ModDisposition 20  Player->AddItem Gold_001 1000
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|NAME:You say the bandits left for Dren Plantation? It solves the problem but not permanently. I can only pay you 500 in gold.|SCVR:04JX0FG_SuranBanditsHead|INTV: |SCVR:14JX1FG_SuranBandits|INTV:i|SCVR:56DX1daldur sarys|INTV|BNAM:Journal FG_SuranBandits 105  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 2 "Hlaalu"  ModDisposition 10  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=2079521272787732564(Topic:bandits in suran)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Go to Suran and talk with Serjo Avon Oran. He can tell you more about what is going on.|SCVR:34JX3FG_BeneranBounty|INTV:d|BNAM:Journal FG_SuranBandits 10
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Go to Suran and talk with Serjo Avon Oran. He can tell you more about what is going on.|SCVR:34JX3FG_BeneranBounty|INTV:d|BNAM:Journal FG_SuranBandits 10  Addtopic "Work for Sarathram"
+
+[MOD-INF]: ID=2557986482773411276(Topic:sondaale of shimmerene)
+  morrowind.esm------------------------->|DATA|ONAM:hrundi|NAME:There's no more to say about your pathetic efforts.|SCVR:04JX0FG_Telasero|INTV:n|SCVR:56DX3sondaale of shimmerene|INTV|BNAM:Goodbye
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hrundi|NAME:There's no more to say about your pathetic efforts.|SCVR:04JX0FG_Telasero|INTV:n|SCVR:56DX3sondaale of shimmerene|INTV|BNAM:ModDisposition -10  Goodbye
+
+[MOD-INF]: ID=2571320421097520523(Topic:sjoring hard-heart)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You must kill the Guildmaster Sjoring Hard-Heart. He'll likely be in the Fighters Guild in Vivec, and he'll be expecting you.|SCVR:04JX3FG_KillHardHeart|INTV: |SCVR:14JX4FG_KillHardHeart|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You must kill the Guildmaster Sjoring Hard-Heart. He'll likely be in the Fighters Guild in Vivec, and he'll be expecting you.|SCVR:04JX3FG_KillHardHeart|INTV: |SCVR:14JX4FG_KillHardHeart|INTV
+
+[MOD-INF]: ID=2601311142807014922(Topic:sjoring hard-heart)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX3FG_KillHardHeart|INTV: |SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster.|SCVR:34JX3FG_KillHardHeart|INTV: |SCVR:56DX3sjoring hard-heart|INTV|BNAM:Choice "It would be an honor." 1 "No you keep this title." 2
+
+[MOD-INF]: ID=2739422849229063414(Topic:adraria vandacia)
+  morrowind.esm------------------------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Keep following orders and you'll be %PCName the %NextPCRank soon.|SCVR:34JX0FG_SilenceTaxgirl|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:Keep following orders and you'll be %PCName the %NextPCRank soon.|SCVR:23sX0FG_VivecRefuseKills|INTV|SCVR:34JX0FG_SilenceTaxgirl|INTV:d
+
+[MOD-INF]: ID=2781515578315333264(Topic:rels tenim)
+  morrowind.esm------------------------->|DATA|ONAM:hrundi|NAME:The victims of Rels Tenim are grateful to you, %PCName.|SCVR:34JX3FG_TenimBounty|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hrundi|NAME:The victims of Rels Tenim are grateful to you, %PCName.|SCVR:34JX3FG_TenimBounty|INTV:d|SCVR:46DX2rels tenim|INTV:
+
+[MOD-INF]: ID=2938412444569225844(Topic:telvanni agents)
+  morrowind.esm------------------------->|DATA|ONAM:eydis fire-eye|NAME:Four Telvanni agents are responsible for thefts and disappearances at the Caldera ebony mines. Their names are Alynu Aralen, Sathasa Nerothren, Fothyna Herothran, and Alveleg. They're hiding in a cave in the hills north of Caldera Mine. When the four agents are dead, report back to me. Take care, it's very likely that one of them is on lookout posted outside the mines. The quickest way to Caldera is probably to have the guild guide at the Mages Guild transport you, but it is your choice.|SCVR:34JX3FG_Egg_Poachers|INTV:d|BNAM:Journal FG_Telvanni_agents 1
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:eydis fire-eye|NAME:Four Telvanni agents are responsible for thefts and disappearances at the Caldera ebony mines. Their names are Alynu Aralen, Sathasa Nerothren, Fothyna Herothran, and Alveleg. They're hiding in a cave in the hills north of Caldera Mine. When the four agents are dead, report back to me. Take care, it's very likely that one of them is on lookout posted outside the mines. The quickest way to Caldera is probably to have the guild guide at the Mages Guild transport you, but it is your choice.|SCVR:34JX3FG_Egg_Poachers|INTV:d|BNAM:Journal FG_Telvanni_agents 1  startscript FG_Warn_Agents
+
+[MOD-INF]: ID=3025810739246149279(Topic:bandits in suran)
+  morrowind.esm------------------------->|DATA|DNAM:Fighters Guild|NAME:The bandits have been attacking from Saturan which is northeast of here, just over the mountains. Kill Daldur Sarys and the raids will end. When you have killed him, report directly to me, and I will give you 1,000 gold in bounty.|SCVR:34JX3FG_BeneranBounty|INTV:d|BNAM:Journal FG_SuranBandits 30
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|DNAM:Fighters Guild|NAME:The bandits have been attacking from Saturan which is northeast of here, just over the mountains. Kill Daldur Sarys and the raids will end. When you have killed him, report directly to me, and I will give you 1,000 gold in bounty. Ask Dranas Sarathram local slavetrader he knows where to find this cave.|SCVR:34JX3FG_BeneranBounty|INTV:d|SCVR:44JX4FG_SuranBandits|INTV:d|BNAM:Journal FG_SuranBandits 30
+
+[MOD-INF]: ID=3090161822041826623(Topic:rels tenim)
+  morrowind.esm------------------------->|DATA|ONAM:hrundi|NAME:Rels Tenim is a murderer who has escaped from justice. He was last seen near Vos. While you're taking care of the Corprus Stalker, you might want to see if you can track down Rels Tenim.|BNAM:Journal FG_TenimBounty 10
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hrundi|NAME:Rels Tenim is a murderer who has escaped from justice. He was last seen near Vos. While you're taking care of the Corprus Stalker, you might want to see if you can track down Rels Tenim. Sondryn Ithari is also taking on this bounty so you better make your choice where you go first.|BNAM:Journal FG_TenimBounty 10  "giden nelvilo"->PositionCell, 116, 2268, -120, 15000, "Shallit"  startscript GidenFGQScriptO
+
+[MOD-INF]: ID=4945190022030522086(Topic:vas)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Go to Vas and meet with the Buoyant Armiger Ulyne Henim. Help her clear the Necromancers out of Vas. Vas is far to the north, in the Sheogorad Region. Here, I'll mark it on your map. The journey is a long one. Your best bet may be to take a ship to Dagon Fel from Tel Mora. Good luck to you.|BNAM:Journal FG_Vas 10  "Ulyne Henim"->Enable  ShowMap Vas
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Go to Vas and meet with the Buoyant Armiger Ulyne Henim. Help her clear the Necromancers out of Vas. Vas is far to the north, in the Sheogorad Region. Here, I'll mark it on your map. The journey is a long one. Your best bet may be to take a ship to Dagon Fel from Tel Mora. Good luck to you.|BNAM:Journal FG_Vas 10  "Ulyne Henim"->Enable  Addtopic "Ulyne - refuse to help her"  ShowMap Vas  startscript Daris_Adram_Script_Vas
+
+[MOD-INF]: ID=7420184962950923882(Topic:bandits in suran)
+  morrowind.esm------------------------->|DATA|DNAM:Fighters Guild|NAME:You brought the bandits to justice, and for that I am grateful.|SCVR:34JX3FG_SuranBandits|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|DNAM:Fighters Guild|NAME:You brought the bandits to justice, and for that I am grateful.|SCVR:34JX0FG_SuranBandits|INTV:d
+
+[MOD-INF]: ID=8962217711231327792(Greeting:greeting 5)
+  morrowind.esm------------------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:I told you to get rid of Rufinus Alleius. What's the situation?|SCVR:04JX3FG_SilenceMagistrate|INTV: |SCVR:14JX4FG_SilenceMagistrate|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:lorbumol gro-aglakh|NAME:I told you to get rid of Rufinus Alleius. What's the situation?|SCVR:04JX3FG_SilenceMagistrate|INTV: |SCVR:14JX4FG_SilenceMagistrate|INTV:d|SCVR:23sX0FG_VivecRefuseKills|INTV:
+
+[MOD-INF]: ID=9500199841045310204(Journal:fg_killcronies)
+  tribunal.esm-------------------------->|DATA|NAME:Percius thanked me for killing Sjoring Hard-Heart's supporters.|QSTF
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|NAME:Percius thanked me for removing Sjoring Hard-Heart's supporters.|QSTF
+
+[MOD-INF]: ID=10284321213265728830(Topic:rels tenim)
+  morrowind.esm------------------------->|DATA|ONAM:hrundi|NAME:Well, if you've already dealt with Rels Tenim, you certainly deserve the 200 septims.|SCVR:34JX0FG_TenimBounty|INTV:|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:hrundi|NAME:Well, if you've already dealt with Rels Tenim, you certainly deserve the 200 septims.|SCVR:34JX0FG_TenimBounty|INTV:|SCVR:56DX2rels tenim|INTV:|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+
+[MOD-INF]: ID=14084242313055710359(Topic:orders)
+  morrowind.esm------------------------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:I've watched your progress in the Fighters Guild, %PCName. You'll make a fine Guildmaster someday. But with all the unrest in Cyrodiil city, we need allies to make sure there's still a Fighter's Guild here for you. I need you to kill the Thieves Guild bosses.
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:I've watched your progress in the Fighters Guild, %PCName. You'll make a fine Guildmaster someday. But with all the unrest in Cyrodiil city, we need allies to make sure there's still a Fighter's Guild here for you. I need you to kill the Thieves Guild bosses.|SCVR:04JX0FG_KillBosses|INTV:
+
+[MOD-INF]: ID=16562308982341117012(Topic:rufinus alleius)
+  morrowind.esm------------------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:One of the Magistrates has been giving our client trouble. Go to the Grand Council in Ebonheart and kill Rufinus Alleius, and this 1000 septim bounty is yours.|BNAM:Journal FG_SilenceMagistrate 10
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:lorbumol gro-aglakh|NAME:One of the Magistrates has been giving our client trouble. Go to the Grand Council in Ebonheart and kill Rufinus Alleius, and this 1000 septim bounty is yours. Go, hit the road!|SCVR:04JX3FG_SilenceTaxgirl|INTV:d|BNAM:Journal FG_SilenceMagistrate 10  Choice "Look for another one. This contract don't please me." 1 "Nevermind." 2
+
+[MOD-INF]: ID=16943170021506831186(Journal:tg_killhardheart)
+  tribunal.esm-------------------------->|DATA|NAME:Gentleman Jim Stacey thanked me for killing Sjoring Hard-Heart and gave me the Skeleton Key, a priceless artifact.|QSTF
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|NAME:Gentleman Jim Stacey thanked me for getting Sjoring Hard-Heart jailed for life and gave me the Skeleton Key, a priceless artifact.|QSTF
+
+[MOD-INF]: ID=17581244982911615223(Topic:nerer beneran)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Like I said, go to the outlaw refuge Sargon and bring Nerer Beneran to justice.|SCVR:34JX3FG_BeneranBounty|INTV: 
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:I would recognize this cuirass from miles. I used to know Nerer Beneran when I was Master of the Fighters Guild. There is nothing we can do for those that turn rogue but hope they submit themselves before the law to solve the matter peacefully. I will take the cuirass and send it to the House Redoran.|SCVR:25IX3ebony_cuirass_beneran|INTV|SCVR:34JX0FG_BeneranBounty|INTV:7|SCVR:46DX1nerer beneran|INTV|BNAM:Journal FG_BeneranBounty 105  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 5  Player->AddItem Gold_001 500  Player->removeitem "ebony_cuirass_beneran" 1  ;PlaceItemCell "ebony_cuirass_beneran", "Ald-ruhn, Venim Manor Private Quarters", -619.223022, -86.923813, 103.869614, 300
+
+[MOD-INF]: ID=18053319961634615767(Topic:dura gra-bol)
+  morrowind.esm------------------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I don't have any more bounty contracts right now.|SCVR:34JX3FG_OrcBounty|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I don't have any more bounty contracts right now.|SCVR:04JX1FG_OrcBounty|INTV|SCVR:14JX1FG_OrcBounty|INTV|SCVR:24JX1FG_OrcBounty|INTV|SCVR:34JX1FG_OrcBounty|INTV|SCVR:44JX1FG_OrcBounty|INTV|SCVR:54JX3FG_OrcBounty|INTV:d
+
+[MOD-INF]: ID=19824177531142629010(Topic:code book)
+  morrowind.esm------------------------->|DATA|ONAM:sottilde|NAME:Okay, friend. You know about the code book. I don't want any trouble with you, so just take it. Just don't tell anyone I gave it to you.|SCVR:34JX3FG_Sottilde|INTV: |BNAM:RemoveItem "bk_sottildescodebook" 1  Player->AddItem "bk_sottildescodebook" 1  Journal FG_Sottilde 50
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:sottilde|NAME:Okay, friend. You know about the code book. I don't want any trouble with you, so just take it. Just don't tell anyone I gave it to you.|SCVR:34JX3FG_Sottilde|INTV: |BNAM:RemoveItem "bk_sottildescodebook" 1  Player->AddItem "bk_sottildescodebook" 1  Journal FG_Sottilde 50  set FGSottildeLure to 8
+
+[MOD-INF]: ID=22897272671084931764(Topic:ulyne henim)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|NAME:I haven't heard anything else from her.|SCVR:34JX3FG_Vas|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne sent complaint letter to this guild hall specifically about you. It shouldn't tarnish your reputation much.|SCVR:34JX0FG_Vas|INTV:n
+
+[MOD-INF]: ID=22897272671084931764(Topic:ulyne henim)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|NAME:I haven't heard anything else from her.|SCVR:34JX3FG_Vas|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne sent complaint letter to this guild hall specifically about you. It shouldn't tarnish your reputation much.|SCVR:34JX0FG_Vas|INTV:n
+[MOD-IID]: ID=21881249161252552
+  Fighters_Guild_Questline_Overhaul.ESP->I haven't heard anything else from her.
+
+[MOD-INF]: ID=23381200092502722414(Topic:adraria vandacia)
+  morrowind.esm------------------------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I have a bounty contract for 500 septims for Adraria Vandacia. She's at one of the Census and Excise buildings in Seyda Neen. There might be some guards around, so watch out.|BNAM:Journal FG_SilenceTaxgirl 10
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I have a bounty contract for 500 septims for Adraria Vandacia. She's at one of the Census and Excise buildings in Seyda Neen. There might be some guards around, so watch out.|SCVR:03sX0FG_VivecRefuseKills|INTV:|BNAM:Journal FG_SilenceTaxgirl 10  Choice "Look for another one. This contract don't please me." 1 "Nevermind." 2
+
+[MOD-INF]: ID=24094126671686519647(Greeting:greeting 5)
+  morrowind.esm------------------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:Have you taken care of Adraria Vandacia? That needs to be taken care of immediately.|SCVR:04JX3FG_SilenceTaxgirl|INTV: |SCVR:14JX4FG_SilenceTaxgirl|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:lorbumol gro-aglakh|NAME:Have you taken care of Adraria Vandacia? That needs to be taken care of immediately.|SCVR:04JX3FG_SilenceTaxgirl|INTV: |SCVR:14JX4FG_SilenceTaxgirl|INTV:d|SCVR:23sX0FG_VivecRefuseKills|INTV:
+
+[MOD-INF]: ID=24130260953192126206(Topic:juicedaw feather ring)
+  morrowind.esm------------------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:Here's 100 septims, %PCRank. Easy money. You want more orders, I got them.|SCVR:01500|INTV|BNAM:Journal FG_DebtOrc 100  Player->AddItem Gold_001 100  Player->RemoveItem "juicedaw ring" 1  AddItem "juicedaw ring" 1  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:lorbumol gro-aglakh|NAME:Here's 100 septims, %PCRank. Easy money. You want more orders, I got them.|SCVR:01500|INTV|BNAM:Journal FG_DebtOrc 100  StartScript "FG_RingReturnerRanes"  Player->AddItem Gold_001 100  Player->RemoveItem "juicedaw ring" 1  AddItem "juicedaw ring" 1  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+
+[MOD-INF]: ID=24312103672549026950(Topic:rels tenim)
+  morrowind.esm------------------------->|DATA|ANAM:Ahemmusa Camp|NAME:A man went to the cavern of Shallit, on a small island southwest of Ald Daedroth. He left at night when neither Masser nor Secunda could be seen. Perhaps this is the man you seek. To get there, cross the water to the first island north of camp. From that island, travel northwest, two more islands. On the second island's north side, the entrance to Shallit will be found at the water's edge in a small cove.|BNAM:Journal "FG_TenimBounty" 60
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ANAM:Ahemmusa Camp|NAME:A man went to the cavern of Shallit, on a small island southwest of Ald Daedroth. He left at night when neither Masser nor Secunda could be seen. Perhaps this is the man you seek. To get there, cross the water to the first island north of camp. From that island, travel northwest, two more islands. On the second island's north side, the entrance to Shallit will be found at the water's edge in a small cove.|BNAM:Journal "FG_TenimBounty" 60
+
+[MOD-INF]: ID=25126301662018720770(Topic:elith-pal mine)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|NAME:No point in delivering any supplies if Dangor is dead.|SCVR:34JX3FG_ElithPalSupply|INTV
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|NAME:No point in delivering any supplies if Dangor is dead.|SCVR:34JX0FG_ElithPalSupply|INTV
+
+[MOD-INF]: ID=26697146411173217957(Topic:dura gra-bol)
+  morrowind.esm------------------------->|DATA|ANAM:Balmora|NAME:I think he lives by the river, on the east side of town.|SCVR:0CsX0nolore|INTV:
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ANAM:Balmora|NAME:I think he lives by the river, on the east side of town.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX5FG_OrcBounty|INTV: 
+
+[MOD-INF]: ID=31547305661085429731(Topic:sjoring hard-heart)
+  morrowind.esm------------------------->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:Sjoring Hard-Heart is dead. His vendetta is over.|SCVR:34JX3TG_KillHardHeart|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:Sjoring Hard-Heart is dead. His vendetta is over.|SCVR:34JX3TG_KillHardHeart|INTV:d|SCVR:46DX2sjoring hard-heart|INTV:
+
+[MOD-INF]: ID=32329206492042016767(Greeting:greeting 5)
+  morrowind.esm------------------------->|DATA|ONAM:persius mercius|NAME:Have you delivered that flin to the Elith-Pal Mine yet? It is important that it be delivered there as soon as possible, %PCRank.|SCVR:04JX3FG_ElithPalSupply|INTV: |SCVR:14JX4FG_ElithPalSupply|INTV:d
+  Fighters_Guild_Questline_Overhaul.ESP->|DATA|ONAM:persius mercius|NAME:Have you delivered that flin to the Elith-Pal Mine yet? It is important that it be delivered there as soon as possible, %PCRank.|SCVR:04JX3FG_ElithPalSupply|INTV: |SCVR:14JX4FG_ElithPalSupply|INTV:d|SCVR:24JX1FG_ElithPalSupply|INTV|SCVR:31391|INTV

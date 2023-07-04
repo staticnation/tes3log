@@ -1,0 +1,65 @@
+Early Transport to Mournhold.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(dandrasScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    asciene rane
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    the mainland
+	tribunal.esm        DIAL    tr_dbattack
+	tribunal.esm        DIAL    transport to mournhold
+
+[MOD-INF]: ID=2335245834621329(Topic:dark brotherhood)
+  tribunal.esm--------------------->|DATA|FNAM:Royal Guard|NAME:That's a touchy subject, and I'm not comfortable talking about it with someone I don't really trust.
+  Early Transport to Mournhold.esp->|DATA|FNAM:Royal Guard|NAME:That's a touchy subject, and I'm not comfortable talking about it with someone I don't really trust.|SCVR:04JX3TR_DBAttack|INTV
+
+[MOD-INF]: ID=18559260826117964(Topic:transport to mournhold)
+  tribunal.esm--------------------->|DATA|ONAM:apelles matius|NAME:Well, that's what you'll need if you're so hell-bent on tracking down these Dark Brotherhood assassins you claim have visited you.
+  Early Transport to Mournhold.esp->|DATA|ONAM:apelles matius|NAME:Well, that's what you'll need if you're so hell-bent on tracking down these Dark Brotherhood assassins you claim have visited you.|SCVR:04JX3TR_DBAttack|INTV:(|SCVR:14JX4TR_DBAttack|INTV:<
+
+[MOD-INF]: ID=257033692708026903(Topic:dark brotherhood)
+  tribunal.esm--------------------->|DATA|ONAM:apelles matius|NAME:Perhaps you have been attacked. That's bad business. I don't know who it is that wants you dead, and I don't want to know. Dark Brotherhood activity here on Vvardenfell has been almost unheard of, but I know they have a large contingent back on the mainland.|SCVR:02sX0DBAttack|INTV
+  Early Transport to Mournhold.esp->|DATA|ONAM:apelles matius|NAME:Perhaps you have been attacked. That's bad business. I don't know who it is that wants you dead, and I don't want to know. Dark Brotherhood activity here on Vvardenfell has been almost unheard of, but I know they have a large contingent back on the mainland.|SCVR:02sX0DBAttack|INTV|SCVR:14JX4TR_DBAttack|INTV:<
+
+[MOD-INF]: ID=695421336751414606(Topic:the mainland)
+  tribunal.esm--------------------->|DATA|ONAM:apelles matius|NAME:Yes, in Mournhold itself, actually. If you're feeling particularly suicidal, you can check it out for yourself. Of course, it's not easy to get there these days. Even though the Blight seems to be gone, Mournhold is wary of visitors from Vvardenfell. There is one way you might get there, though. Speak with Asciene Rane about transport to Mournhold--she might be able to help you out.|SCVR:04JX3TR_DBAttack|INTV: |SCVR:14JX0C3_DestroyDagoth|INTV:2
+  Early Transport to Mournhold.esp->|DATA|ONAM:apelles matius|NAME:Yes, in Mournhold itself, actually. If you're feeling particularly suicidal, you can check it out for yourself. Of course, it's not easy to get there these days. Even though the Blight seems to be gone, Mournhold is wary of visitors from Vvardenfell. There is one way you might get there, though. Speak with Asciene Rane about transport to Mournhold--she might be able to help you out.|SCVR:04JX3TR_DBAttack|INTV: |SCVR:14JX0C3_DestroyDagoth|INTV:2|SCVR:24JX4TR_DBAttack|INTV:<|BNAM:Journal TR_DBAttack 40  addtopic "transport to Mournhold"  addtopic "Asciene Rane"
+
+[MOD-INF]: ID=1345816464305833843(Topic:transport to mournhold)
+  tribunal.esm--------------------->|DATA|ONAM:asciene rane|NAME:You wish to go to the mainland? That's highly irregular. I'm sure you've heard that they've restricted travel to Mournhold. They've been a bit worried about the Blight. Even though it's been reported that the Blight is gone from Vvardenfell, they're still worried about possible contamination. What's your reason for wanting to go to the city?|SCVR:04JX0C3_DestroyDagoth|INTV:2|BNAM:Choice "I fear I've been marked by the Dark Brotherhood, and I wish to investigate." 1 "None of your business." 2
+  Early Transport to Mournhold.esp->|DATA|ONAM:asciene rane|NAME:You wish to go to the mainland? That's highly irregular. I'm sure you've heard that they've restricted travel to Mournhold. They've been a bit worried about the Blight. Even though it's been reported that the Blight is gone from Vvardenfell, they're still worried about possible contamination. What's your reason for wanting to go to the city?|SCVR:04JX0C3_DestroyDagoth|INTV:2|SCVR:14JX3TR_DBAttack|INTV:2|BNAM:Choice "I fear I've been marked by the Dark Brotherhood, and I wish to investigate." 1 "None of your business." 2
+
+[MOD-INF]: ID=1392327964637821771(Topic:asciene rane)
+  tribunal.esm--------------------->|DATA|ONAM:apelles matius|NAME:She's a mage who arrived in Vvardenfell the same time I did. Special appointment to Duke Dren himself. Nice woman, and a powerful mage. You should be able to find her in the Grand Council Chambers here in Ebonheart.|BNAM:Journal TR_DBAttack 50
+  Early Transport to Mournhold.esp->|DATA|ONAM:apelles matius|NAME:She's a mage who arrived in Vvardenfell the same time I did. Special appointment to Duke Dren himself. Nice woman, and a powerful mage. You should be able to find her in the Grand Council Chambers here in Ebonheart.|SCVR:04JX3TR_DBAttack|INTV:(|SCVR:14JX4TR_DBAttack|INTV:<|BNAM:Journal TR_DBAttack 50
+
+[MOD-INF]: ID=1969313694195622814(Topic:dark brotherhood)
+  tribunal.esm--------------------->|DATA|CNAM|NAME:I don't know why you'd want to go looking for those demons. Some say they live in the sewers beneath the Great Bazaar.|BNAM:Journal TR_DBAttack 100
+  Early Transport to Mournhold.esp->|DATA|CNAM|NAME:Are you sure you want to go looking for those demons? Some say they live in the sewers beneath the Great Bazaar.|SCVR:04JX3TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 100
+
+[MOD-INF]: ID=2063281643195811127(Topic:dark brotherhood)
+  tribunal.esm--------------------->|DATA|CNAM|NAME:That's a touchy subject, and I'm not comfortable talking about it with someone I don't really trust.
+  Early Transport to Mournhold.esp->|DATA|CNAM|NAME:That's a touchy subject, and I'm not comfortable talking about it with someone I don't really trust.|SCVR:04JX3TR_DBAttack|INTV
+
+[MOD-INF]: ID=2134210292030117878(Greeting:greeting 1)
+  tribunal.esm--------------------->|DATA|ONAM:fedris hler|NAME:Ahh...you're the one who has recently arrived in Mournhold from Vvardenfell. I was told of your arrival. I understand you had some problems with the Dark Brotherhood. An interesting group...and usually rather effective. I'm surprised you're still alive. Perhaps you have potential, or they sent incompetents. I believe you might be of service to our Lady.|SCVR:04JX4TR_KillGoblins|INTV: 
+  Early Transport to Mournhold.esp->|DATA|ONAM:fedris hler|NAME:Ahh...you're the one who has recently arrived in Mournhold from Vvardenfell. I was told of your arrival. I understand you had some problems with the Dark Brotherhood. An interesting group...and usually rather effective. I'm surprised you're still alive. Perhaps you have potential, or they sent incompetents. I believe you might be of service to our Lady.|SCVR:04JX4TR_KillGoblins|INTV: |SCVR:14JX3TR_DBHunt|INTV:n
+
+[MOD-INF]: ID=2399717232665011086(Topic:transport to mournhold)
+  tribunal.esm--------------------->|DATA|ONAM:asciene rane|NAME:You wish to go to the mainland? That's highly irregular. I'm sure you've heard that they've restricted travel to Mournhold. They've been a bit worried about the Blight. What's your reason for wanting to go to the city?|BNAM:Choice "I fear I've been marked by the Dark Brotherhood, and I wish to investigate." 1 "None of your business." 2
+  Early Transport to Mournhold.esp->|DATA|ONAM:asciene rane|NAME:You wish to go to the mainland? That's highly irregular. I'm sure you've heard that they've restricted travel to Mournhold. They've been a bit worried about the Blight. What's your reason for wanting to go to the city?|SCVR:04JX3TR_DBAttack|INTV:2|BNAM:Choice "I fear I've been marked by the Dark Brotherhood, and I wish to investigate." 1 "None of your business." 2
+
+[MOD-INF]: ID=2571717282110518638(Topic:dark brotherhood)
+  tribunal.esm--------------------->|DATA|FNAM:Royal Guard|NAME:You want to go looking for them? It's your funeral. Look, I've heard rumors that they have a hideout in the ruins of Old Mournhold. You can get there through the sewers in the Great Bazaar.|BNAM:Journal TR_DBAttack 100
+  Early Transport to Mournhold.esp->|DATA|FNAM:Royal Guard|NAME:You want to go looking for them? It's your funeral. Look, I've heard rumors that they have a hideout in the ruins of Old Mournhold. You can get there through the sewers in the Great Bazaar.|SCVR:04JX3TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 100
+
+[MOD-INF]: ID=2738313961397317087(Topic:the mainland)
+  tribunal.esm--------------------->|DATA|ONAM:apelles matius|NAME:Yes, in Mournhold itself, actually. If you're feeling particularly suicidal, you can check it out for yourself. Of course, it's not easy to get there these days. Because of the Blight, boats from Vvardenfell are turned away immediately. There is one way you might get there, though. Speak with Asciene Rane about transport to Mournhold--she might be able to help you out.|SCVR:04JX3TR_DBAttack|INTV: 
+  Early Transport to Mournhold.esp->|DATA|ONAM:apelles matius|NAME:Yes, in Mournhold itself, actually. If you're feeling particularly suicidal, you can check it out for yourself. Of course, it's not easy to get there these days. Because of the Blight, boats from Vvardenfell are turned away immediately. There is one way you might get there, though. Speak with Asciene Rane about transport to Mournhold--she might be able to help you out.|SCVR:04JX3TR_DBAttack|INTV: |SCVR:14JX4TR_DBAttack|INTV:<|BNAM:Journal TR_DBAttack 40  addtopic "transport to Mournhold"  addtopic "Asciene Rane"
+
+[MOD-INF]: ID=14927322571589216857(Topic:dark brotherhood)
+  tribunal.esm--------------------->|DATA|ONAM:apelles matius|NAME:Perhaps you have been attacked. That's bad business. I don't know who it is that wants you dead, and I don't want to know. Dark Brotherhood activity here on Vvardenfell has been almost unheard of, but I know they have a large contingent back on the mainland.|SCVR:04JX3TR_DBAttack|INTV: |SCVR:14JX4TR_DBAttack|INTV:d
+  Early Transport to Mournhold.esp->|DATA|ONAM:apelles matius|NAME:Perhaps you have been attacked. That's bad business. I don't know who it is that wants you dead, and I don't want to know. Dark Brotherhood activity here on Vvardenfell has been almost unheard of, but I know they have a large contingent back on the mainland.|SCVR:04JX3TR_DBAttack|INTV: |SCVR:14JX4TR_DBAttack|INTV:<

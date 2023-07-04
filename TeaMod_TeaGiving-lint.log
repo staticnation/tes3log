@@ -1,0 +1,11 @@
+TeaMod_TeaGiving.esp: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(TM_Addon_Check_01)
+	SCPT(TM_Addon_Check_02)
+	SCPT(TM_Addon_Check_03)
+	SCPT(TM_Addon_Check_04)
+	SCPT(TM_Addon_Check_05)
+	SCPT(TM_Addon_Check_06)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5

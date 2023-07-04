@@ -1,0 +1,33 @@
+Tin Man.ESP: DUP-INF DUP-REC GETSND MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(hs_love_scene)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Caer_DweToiletScript)
+	SCPT(Caer_Transition01)
+	SCPT(Caer_Transition02)
+	SCPT(Caer_Transition03)
+	SCPT(hs_act_fem)
+	SCPT(hs_disabler_scr)
+	SCPT(hs_fem_scr)
+	SCPT(hs_love_scene)
+	SCPT(hs_pal_dead)
+	SCPT(hs_peek_enable)
+	SCPT(hs_swimmy_unstuck)
+	SCPT(hs_wedding)
+	SCPT(hs_weddingdeathcount)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    centurion_mudan_unique
+	morrowind.esm       DIAL    help me
+	morrowind.esm       PGRD    mudan, central vault
+	morrowind.esm       PGRD    mzahnch lower level
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

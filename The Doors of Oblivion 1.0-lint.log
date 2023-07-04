@@ -1,0 +1,133 @@
+The Doors of Oblivion 1.0.esp: DUP-INF DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(BS_UN_banshee_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(bs_AM_Bard3_script)
+	SCPT(bs_AM_CamonnaScript)
+	SCPT(bs_AM_GrannyVaris_Script)
+	SCPT(bs_AM_MinerScipt)
+	SCPT(bs_AM_Smith2_Script)
+	SCPT(bs_AM_Smith3_Script)
+	SCPT(bs_AM_Smith_Script)
+	SCPT(bs_AM_sweeper_Script)
+	SCPT(bs_AnCr_TrollScript)
+	SCPT(bs_Collide_damage_30)
+	SCPT(bs_Door_lock1)
+	SCPT(bs_Door_lock2)
+	SCPT(bs_Door_lock3)
+	SCPT(bs_Door_lock4)
+	SCPT(bs_Door_lock6)
+	SCPT(bs_Door_lock7)
+	SCPT(bs_Door_lock8)
+	SCPT(bs_Door_sanguine)
+	SCPT(bs_Gargoyle_stillScript)
+	SCPT(bs_LS_malacath_script)
+	SCPT(bs_MedusaScript)
+	SCPT(bs_Sound_ashpit_wind)
+	SCPT(bs_Sound_atmos_birds1)
+	SCPT(bs_Sound_atmos_birds2)
+	SCPT(bs_Sound_atmos_birds3)
+	SCPT(bs_Sound_atmos_cave1)
+	SCPT(bs_Sound_atmos_daedric)
+	SCPT(bs_Sound_atmos_deadtree1)
+	SCPT(bs_Sound_atmos_deadtree2)
+	SCPT(bs_Sound_atmos_eerie)
+	SCPT(bs_Sound_atmos_eerie2)
+	SCPT(bs_Sound_atmos_insect1)
+	SCPT(bs_Sound_atmos_insect2)
+	SCPT(bs_Sound_atmos_owl1)
+	SCPT(bs_Sound_atmos_rumbles)
+	SCPT(bs_Sound_atmos_thunder)
+	SCPT(bs_Sound_atmos_windlow)
+	SCPT(bs_Sound_atmos_windlow2)
+	SCPT(bs_Sound_atmos_windtrees1)
+	SCPT(bs_Sound_atmos_windtrees2)
+	SCPT(bs_Sound_dartwings)
+	SCPT(bs_Sound_hermaeus)
+	SCPT(bs_Sound_ideal_master)
+	SCPT(bs_Sound_mothflutter)
+	SCPT(bs_Sound_nightmares)
+	SCPT(bs_Sound_powerhumr_1)
+	SCPT(bs_Sound_water_lake)
+	SCPT(bs_Sound_water_trickle)
+	SCPT(bs_UN_SkeletonArise2_script)
+	SCPT(bs_amuletDaedric2Script)
+	SCPT(bs_amuletDaedricScript)
+	SCPT(bs_atronachflesh_script)
+	SCPT(bs_auroransummon_script)
+	SCPT(bs_blackbook1)
+	SCPT(bs_blackbook2)
+	SCPT(bs_blackbook3)
+	SCPT(bs_blackbook4)
+	SCPT(bs_blackbook5)
+	SCPT(bs_blackbook6)
+	SCPT(bs_blackbook7)
+	SCPT(bs_blackbook8)
+	SCPT(bs_bookpassageScript)
+	SCPT(bs_clavdreng_script)
+	SCPT(bs_db_tenticle_hermScript)
+	SCPT(bs_dremoraButler)
+	SCPT(bs_dremoraMerchant_script)
+	SCPT(bs_fightbs_auroran1)
+	SCPT(bs_fightbs_auroran2)
+	SCPT(bs_fightbs_clannfear)
+	SCPT(bs_fightbs_db_agent)
+	SCPT(bs_fightbs_dremora1)
+	SCPT(bs_fightbs_q_spiderdaedra)
+	SCPT(bs_fightbs_scamp1)
+	SCPT(bs_fightbs_seducervk)
+	SCPT(bs_hall_pit_TRAPLOCAL)
+	SCPT(bs_harvesterScript)
+	SCPT(bs_herneBook)
+	SCPT(bs_herne_script)
+	SCPT(bs_lustrant_script)
+	SCPT(bs_mazken_script)
+	SCPT(bs_morphoid_script)
+	SCPT(bs_rv_shrineSheogorath)
+	SCPT(bs_seduceroathkin_script)
+	SCPT(bs_spelltome1)
+	SCPT(bs_spelltome2)
+	SCPT(bs_spelltome3)
+	SCPT(bs_spelltome4)
+	SCPT(bs_spelltome5)
+	SCPT(bs_spiderdaedra_script)
+	SCPT(bs_vaporPool)
+	SCPT(bs_vermai_script)
+	SCPT(bs_xivilai_script)
+	SCPT(sc1passageScript)
+	SCPT(sc2passageScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    sheogorath
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hit
+
+[DUP-INF]: ID=199641425381905494(Topic:go free)
+  |DATA|ONAM:eleedal_lei|NAME:Yes, I will free the others. Soon we will return to Black Marsh.|SCVR:34JX3HT_SlaveRebellion|INTV:2
+
+[DUP-INF]: ID=299702217312473358(Voice:hit)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\Hit_vHF012.mp3|NAME:Unngh!
+
+[DUP-INF]: ID=487276111250324150(Voice:attack)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=1454194013118126798(Voice:hit)
+  |DATA|RNAM:Argonian|SNAM:Vo\a\f\Hit_AF001.mp3|NAME|AAAIIEE.|SCVR:01043|INTV:P|BNAM:;Health Percent>=80;Random>=80
+
+[DUP-INF]: ID=1732794482128125050(Voice:hit)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Roar!|SCVR:01720|INTV|SCVR:12sX5Random100|INTV
+
+[DUP-INF]: ID=2456619362848231007(Topic:sheogorath)
+  |DATA|ONAM:big head|NAME:Lovely master! He never sings. He brings no cake. Only visions, things to see. He tells me things I cannot hear. Loud they are, loud, loud, loud. Whisper, master. Whisper.
+
+[DUP-INF]: ID=10819118262520816930(Voice:attack)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;this prevents werewolves from talking to you in combat
+
+[DUP-INF]: ID=25962153161759731313(Topic:beds)
+  |DATA|ONAM:Alcedonia Amnis|CNAM:Publican|NAME:Very well. Head upstairs, to the last room on the right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script RAVEN ROCK BAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2

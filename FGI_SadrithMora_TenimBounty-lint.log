@@ -1,0 +1,50 @@
+FGI_SadrithMora_TenimBounty.esp: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    rels tenim
+	tribunal.esm        DIAL    fg_tenimbounty
+
+[MOD-INF]: ID=3149352396228328(Journal:fg_tenimbounty)
+  tribunal.esm-------------------->|DATA|NAME:Hrundi thanked me for bringing Rels Tenim to justice and gave me 200 gold.|QSTF
+  FGI_SadrithMora_TenimBounty.esp->|DATA|NAME:Hrundi thanked me for bringing Rels Tenim to justice and gave me 500 gold.|QSTF
+
+[MOD-INF]: ID=480026671175027775(Topic:orders)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:There's a creature loose in Berwen the Trader's shop in Tel Mora. There's 200 septims for whoever takes care of this Corprus Stalker. There's also a contract for an outlaw nearby. Another 200 septims for whoever brings Rels Tenim to justice.|SCVR:34JX3FG_DissaplaMine|INTV:d
+  FGI_SadrithMora_TenimBounty.esp->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:There's a creature loose in Berwen the Trader's shop in Tel Mora. There's 200 septims for whoever takes care of this Corprus Stalker. There's also a contract for an outlaw nearby. Another 500 septims for whoever brings Rels Tenim to justice.|SCVR:34JX3FG_DissaplaMine|INTV:d
+
+[MOD-INF]: ID=1054520043147619122(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|NAME:I heard that Rels Tenim is dead. Good work, %PCName. Here's the 200 septims for the contract.|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+  FGI_SadrithMora_TenimBounty.esp->|DATA|ONAM:hrundi|NAME:I heard that Rels Tenim is dead. Good work, %PCName. Here's the 500 septims for the contract.|SCVR:44JX3FG_TenimBounty|INTV: |SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 500  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->ModReputation 1
+
+[MOD-INF]: ID=2087173981798222016(Journal:fg_tenimbounty)
+  tribunal.esm-------------------->|DATA|NAME:Hrundi mentioned that he had a contract for the outlaw Rels Tenim. If I find Rels Tenim who was last seen in Vos, and bring him to justice, there is a reward of 200 gold.
+  FGI_SadrithMora_TenimBounty.esp->|DATA|NAME:Hrundi mentioned that he had a contract for the Telvanni mercenary Rels Tenim who has murdered an Imperial Legionnaire in Tel Vos. If I find Rels Tenim and bring him to justice, there is a reward of 500 gold.
+
+[MOD-INF]: ID=2781515578315333264(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|NAME:The victims of Rels Tenim are grateful to you, %PCName.|SCVR:34JX3FG_TenimBounty|INTV:d
+  FGI_SadrithMora_TenimBounty.esp->|DATA|ONAM:hrundi|NAME:You've done a great service to the Empire by bringing him to justice, %PCName.|SCVR:34JX3FG_TenimBounty|INTV:d
+
+[MOD-INF]: ID=3018814831736624468(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ANAM:Vos|NAME:Rels Tenim is a thief and outlaw. He's stolen from some of the farmers in Vos. Check with some of the local farmers. I'm sure they'll know something about him.|SCVR:0CsX0NoLore|INTV:
+  FGI_SadrithMora_TenimBounty.esp->|DATA|ANAM:Vos|NAME:Rels Tenim is a Telvanni mercenary of Master Aryon in Tel Vos. You'd better ask there.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX4FG_TenimBounty|INTV:d|SCVR:24JX3FG_TenimBounty|INTV: 
+
+[MOD-INF]: ID=3090161822041826623(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|NAME:Rels Tenim is a murderer who has escaped from justice. He was last seen near Vos. While you're taking care of the Corprus Stalker, you might want to see if you can track down Rels Tenim.|BNAM:Journal FG_TenimBounty 10
+  FGI_SadrithMora_TenimBounty.esp->|DATA|ONAM:hrundi|NAME:Rels Tenim is a mercenary of Master Aryon in Tel Vos who has murdered an Imperial Legionnaire and escaped from justice. The Legion forces here are limited, so they contracted the Fighters Guild to collect a bounty on him. While you're taking care of the Corprus Stalker, you might want to see if you can track down Rels Tenim. Others in Tel Vos might know his current location.|SCVR:04JX3FG_DissaplaMine|INTV:d|BNAM:Journal FG_TenimBounty 10  ShowMap "Tel Vos"
+
+[MOD-INF]: ID=10284321213265728830(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ONAM:hrundi|NAME:Well, if you've already dealt with Rels Tenim, you certainly deserve the 200 septims.|SCVR:34JX0FG_TenimBounty|INTV:|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+  FGI_SadrithMora_TenimBounty.esp->|DATA|ONAM:hrundi|NAME:Well, if you've already dealt with Rels Tenim, you certainly deserve the 500 septims.|SCVR:34JX0FG_TenimBounty|INTV:|SCVR:44JX3FG_DissaplaMine|INTV:d|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 500  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->ModReputation 1
+
+[MOD-INF]: ID=20172134881549327566(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|CNAM:Farmer|ANAM:Vos|NAME:Rels Tenim? He's a bandit. He stole some guar, and some crops, and I don't know what else. I don't know where he is now, but the Ahemmusa might know. Check at the Ahemussa Camp north of here.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap "Ahemmusa Camp"
+  FGI_SadrithMora_TenimBounty.esp->|DATA|ANAM:Tel Vos|NAME:Master Aryon has declared that the Legionnaire killed by Rels Tenim was an Imperial spy. There is no wonder that he was killed in the Telvanni territory then. Since we grabbed the lands around Tel Vos for ourselves, the Empire is not welcome here. Therefore, do not expect me to reveal Rels Tenim's location to you.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX4FG_TenimBounty|INTV:d|SCVR:24JX3FG_TenimBounty|INTV: 
+
+[MOD-INF]: ID=24312103672549026950(Topic:rels tenim)
+  morrowind.esm------------------->|DATA|ANAM:Ahemmusa Camp|NAME:A man went to the cavern of Shallit, on a small island southwest of Ald Daedroth. He left at night when neither Masser nor Secunda could be seen. Perhaps this is the man you seek. To get there, cross the water to the first island north of camp. From that island, travel northwest, two more islands. On the second island's north side, the entrance to Shallit will be found at the water's edge in a small cove.|BNAM:Journal "FG_TenimBounty" 60
+  FGI_SadrithMora_TenimBounty.esp->|DATA|ANAM:Ahemmusa Camp|NAME:A man went to the cavern of Shallit, on a small island southwest of Ald Daedroth. He left at night when neither Masser nor Secunda could be seen. Perhaps this is the man you seek. To get there, cross the water to the first island north of camp. From that island, travel northwest, two more islands. On the second island's north side, the entrance to Shallit will be found at the water's edge in a small cove.|SCVR:04JX4FG_TenimBounty|INTV:d|SCVR:14JX3FG_TenimBounty|INTV: |BNAM:Journal "FG_TenimBounty" 60
+
+[MOD-INF]: ID=25920287541894918808(Journal:fg_tenimbounty)
+  morrowind.esm------------------->|DATA|NAME:I was told that Rels Tenim left for an outlaw hideout to the north. I was told that the Ahemmusa might know where he is hiding.
+  FGI_SadrithMora_TenimBounty.esp->|DATA|NAME:I found out that Rels Tenim left for an outlaw hideout to the north. I was told that the Ahemmusa might know where he is hiding.

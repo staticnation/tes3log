@@ -1,0 +1,122 @@
+MechManorComplete1.2_TR.esp: DUP-REC FOGBUG JUNKCEL MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             7824672 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            131296817 (plugin)  163244128 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Abarillius Manor - Living Rooms
+	Abarillius Manor - Main Hall
+	Whitescape
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Collide_damage_kill_secret)
+	SCPT(Sound_Boat_Creak01)
+	SCPT(Sound_Crumble)
+	SCPT(Sound_Loud_Power_Thrum)
+	SCPT(Sound_Water_Spoutdiss)
+	SCPT(aaaSound_Water_Spoutd)
+	SCPT(aaaaliftbust)
+	SCPT(aaaaliftbust2)
+	SCPT(blockedbacDoor)
+	SCPT(blockeddweDoor)
+	SCPT(mechbackdoor)
+	SCPT(noPickUp_mech1)
+	SCPT(noPickUp_mech2)
+	SCPT(noPickUp_mech3)
+	SCPT(noPickUp_mech4)
+	SCPT(showergone)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (-1, 4)                  0x02
+	Azura's Coast Region (13, -15)           0x02
+	Azura's Coast Region (13, -16)           0x02
+	Azura's Coast Region (13, -17)           0x02
+	Azura's Coast Region (14, -15)           0x02
+	Azura's Coast Region (14, -17)           0x02
+	Azura's Coast Region (15, -16)           0x02
+	Azura's Coast Region (15, -17)           0x02
+	West Gash Region (-1, 3)                 0x02
+	West Gash Region (-2, 4)                 0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       STAT    furn_colony_shelf04
+	tamriel_data.esm    LTEX    t_sky_terrrocksnwre_03
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       SNDG    
+	bloodmoon.esm       STAT    furn_de_tapestry_01
+	morrowind.esm       ACTI    in_dwrv_crank_00
+	morrowind.esm       DOOR    clutter_whouse_door_02
+	morrowind.esm       FACT    redoran
+	morrowind.esm       LAND    (15, -11)
+	morrowind.esm       LAND    (15, -12)
+	morrowind.esm       LAND    (16, -11)
+	morrowind.esm       LAND    (16, -12)
+	morrowind.esm       LIGH    light_com_lantern_01_s
+	morrowind.esm       NPC_    balis favani
+	morrowind.esm       NPC_    tuvene arethan
+	tamriel_data.esm    LTEX    t_cyr_terrrockgh_01
+	tamriel_data.esm    LTEX    t_mw_terrdirtrocksh
+	tamriel_data.esm    LTEX    t_mw_terrdirtrocktv
+	tamriel_data.esm    LTEX    t_mw_terrdirtrr
+	tamriel_data.esm    LTEX    t_mw_terrrockaj_01
+	tamriel_data.esm    LTEX    t_mw_terrrockaj_02
+	tamriel_data.esm    LTEX    t_mw_terrrockbrown_01
+	tamriel_data.esm    LTEX    t_mw_terrrockmosstv
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_01
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_02
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_03
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_01
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_02
+	tamriel_data.esm    LTEX    t_mw_terrrocktv
+	tamriel_data.esm    LTEX    t_sky_terrrockem_01
+	tamriel_data.esm    LTEX    t_sky_terrrockjm_01
+	tamriel_data.esm    LTEX    t_sky_terrrockre_01
+	tamriel_data.esm    LTEX    t_sky_terrrocksnwjm_01
+	tr_mainland.esm     LAND    (13, -15)
+	tr_mainland.esm     LAND    (13, -16)
+	tr_mainland.esm     LAND    (14, -15)
+	tr_mainland.esm     LAND    (14, -16)
+	tr_mainland.esm     LAND    (14, -17)
+	tr_mainland.esm     LTEX    ac_darkstone01
+	tr_mainland.esm     LTEX    ac_darkstone02
+	tr_mainland.esm     LTEX    ac_roundstone
+	tr_mainland.esm     LTEX    ai_mudflats_01.tga
+	tr_mainland.esm     LTEX    al_ash_01
+	tr_mainland.esm     LTEX    al_ash_02
+	tr_mainland.esm     LTEX    al_ash_03
+	tr_mainland.esm     LTEX    al_ash_04
+	tr_mainland.esm     LTEX    daedric stone
+	tr_mainland.esm     LTEX    ma_lavarock
+	tr_mainland.esm     LTEX    ma_rock04
+	tr_mainland.esm     LTEX    rm_redrock
+	tr_mainland.esm     LTEX    scrub plain
+	tr_mainland.esm     LTEX    t_mw_terrrockow_rockmoss
+	tr_mainland.esm     LTEX    tx_ai_mudflats_01.tga
+	tr_mainland.esm     LTEX    tx_bc_bank.tga
+	tr_mainland.esm     LTEX    tx_bc_moss.tga
+	tr_mainland.esm     LTEX    tx_bc_rock_01.tga
+	tr_mainland.esm     LTEX    tx_bc_rock_02.tga
+	tr_mainland.esm     LTEX    tx_bc_rockyscrub.tga
+	tr_mainland.esm     LTEX    tx_bc_undergrowth.tga
+	tr_mainland.esm     LTEX    tx_land_darkstone02.tga
+	tr_mainland.esm     LTEX    tx_rm_grayrock_01.tga
+	tr_mainland.esm     LTEX    tx_rock_wg_01.tga
+	tr_mainland.esm     LTEX    tx_rockyscrub_01.tga
+	tr_mainland.esm     LTEX    wg_dirtroad_01
+	tr_mainland.esm     LTEX    wg_mainroad_01
+	tr_mainland.esm     LTEX    wg_rock
+	tr_mainland.esm     LTEX    wg_rockydirt
+	tr_mainland.esm     LTEX    wg_rockyscrub
+	tr_mainland.esm     LTEX    wg_scrub plain
+	tribunal.esm        ACTI    inviso_wall
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        MISC    misc_flask_grease
+
+[MOD-INF]: ID=16027228191418416208(Topic:latest rumors)
+  tribunal.esm---------------->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0nolore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+  MechManorComplete1.2_TR.esp->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2

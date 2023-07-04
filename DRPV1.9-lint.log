@@ -1,0 +1,114 @@
+DRPV1.9.ESP: AUTOSPL DUP-INF DUP-REC MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Bloodmoon.esm                9631289 (plugin)    9631798 (installed size)
+	DN_Dwemer_Tileset.esm          79638 (plugin)      74717 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	frostbite2                     Frostbite
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Aleft_GS1)
+	SCPT(Aleft_GS2)
+	SCPT(Aleft_GU3)
+	SCPT(Aleft_M1R1)
+	SCPT(Aleft_M1R2)
+	SCPT(Aleft_cog_arot)
+	SCPT(Aleft_cog_brot)
+	SCPT(Aleft_eburn)
+	SCPT(Aleft_fcube_spin)
+	SCPT(Aleft_iburn)
+	SCPT(Aleft_lift_plat)
+	SCPT(Aleft_lift_start)
+	SCPT(Aleft_lift_startDown)
+	SCPT(Aleft_partburn)
+	SCPT(Aleft_pump)
+	SCPT(Aleft_rburn)
+	SCPT(Aleft_ringburn)
+	SCPT(Aleft_runes)
+	SCPT(Aleft_spiders)
+	SCPT(Aleft_valve_1)
+	SCPT(Aleft_valve_2)
+	SCPT(Aleft_valve_3)
+	SCPT(Aleft_valve_4)
+	SCPT(Aleft_valve_5)
+	SCPT(Aleft_water_button)
+	SCPT(Beth_ghosts)
+	SCPT(Mzahnch_br_pipe)
+	SCPT(Mzahnch_cube_spin2)
+	SCPT(Mzahnch_cube_up)
+	SCPT(Mzahnch_doora)
+	SCPT(Mzahnch_lock)
+	SCPT(Mzahnch_pr_valve)
+	SCPT(Mzahnch_s1)
+	SCPT(Mzahnch_shock_button)
+	SCPT(Mzahnch_sp_1)
+	SCPT(Mzahnch_sp_2)
+	SCPT(Mzahnch_trap)
+	SCPT(Mzahnch_valve_a)
+	SCPT(Nchar_Valve_01)
+	SCPT(Nchar_Valve_02)
+	SCPT(Nchar_Valve_03)
+	SCPT(Nchar_Valve_04)
+	SCPT(Nchar_Valve_05)
+	SCPT(Nchuleft_low_lift)
+	SCPT(RM_Belvis)
+	SCPT(Sound_dwrv_steam)
+	SCPT(Studumz_Wallhurt)
+	SCPT(Sturdumz_Cube_1)
+	SCPT(Sturdumz_Lgate)
+	SCPT(Sturdumz_cart)
+	SCPT(Sturdumz_check)
+	SCPT(Sturdumz_fire_spider)
+	SCPT(Sturdumz_furnace_Snd)
+	SCPT(Sturdumz_machinery_snd)
+	SCPT(Sturdumz_pipeA)
+	SCPT(Sturdumz_valve_A1)
+	SCPT(Sturdumz_valve_A2)
+	SCPT(Sturdumz_weld2)
+	SCPT(mzahnch_rocks)
+	SCPT(mzahnch_rocks_2)
+	SCPT(mzahnch_rocks_3)
+	SCPT(mzuleft_1_cyl)
+	SCPT(mzuleft_1_wall)
+	SCPT(mzuleft_broken_valve1)
+	SCPT(mzuleft_broken_valve2)
+	SCPT(mzuleft_gate_button)
+	SCPT(mzuleft_gate_up1)
+	SCPT(mzuleft_slide1)
+	SCPT(mzuleft_steam_off)
+	SCPT(mzuleft_valve_1)
+	SCPT(nchuleft_cube_place)
+	SCPT(nchuleft_cube_take)
+	SCPT(nchuleft_mosaic)
+	SCPT(nchuleft_scarab_shock)
+	SCPT(nchuleft_test)
+	SCPT(sturdumz_boss_spider)
+	SCPT(sturdumz_cube_take)
+	SCPT(sturdumz_weap_spin)
+	SCPT(testscript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	dn_dwemer_tileset.esm    PGRD    mzuleft
+	dn_dwemer_tileset.esm    STAT    in_dwrv_corr4_02_dn
+	morrowind.esm       CREA    dreugh
+	morrowind.esm       NPC_    bugrash gro-gorzog
+	morrowind.esm       NPC_    duluk gro-ghash
+	morrowind.esm       NPC_    durgat gra-glurkub
+	morrowind.esm       NPC_    glasha gra-magar
+	morrowind.esm       NPC_    khadba gro-uzgurn
+	morrowind.esm       NPC_    lagakh gra-lorga
+	morrowind.esm       NPC_    mugdul gro-yagarz
+	morrowind.esm       PGRD    aleft
+	morrowind.esm       PGRD    nchuleft
+	tribunal.esm        CREA    centurion_spider
+	tribunal.esm        CREA    centurion_spider_dead
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=10924273023043113826(Topic:my trade)
+  |DATA|ONAM:erich the unworthy|NAME:I'm a lover and a killer. What more is there in life?

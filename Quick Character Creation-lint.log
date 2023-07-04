@@ -1,0 +1,30 @@
+Quick Character Creation.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CharGenBed)
+	SCPT(CharGenBoatNPC)
+	SCPT(CharGenBoatWomen)
+	SCPT(CharGenCustomsDoor)
+	SCPT(CharGenDagger)
+	SCPT(CharGenDialogueMessage)
+	SCPT(CharGenDoorEnterCaptain)
+	SCPT(CharGenDoorExit)
+	SCPT(CharGenDoorExitCaptain)
+	SCPT(CharGenDoorGuardTalker)
+	SCPT(CharGenFatigueBarrel)
+	SCPT(CharGenJournalMessage)
+	SCPT(CharGenStatsSheet)
+	SCPT(CharGenStuffRoom)
+	SCPT(CharGenWalkNPC)
+	SCPT(CharGen_ring_keley)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    morrowind
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=103402350204808451(Greeting:greeting 1)
+  tribunal.esm----------------->|DATA|ONAM:chargen captain|NAME:First, let me take your identification papers. Thank you. Word of your arrival only reached me yesterday. I am %name. But my background is not important. I'm here to welcome you to Morrowind.|SCVR:05IX3chargen statssheet|INTV|BNAM:player->removeitem "chargen statssheet", 1  set state to -1
+  Quick Character Creation.esp->|DATA|ONAM:chargen captain|NAME:Quickly now! Take this package, letter, and disbursal to your name. I'll trade them for your identification papers. Your duties are to take the package to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub and ask for him. Serve him as you would serve the Emperor, blah, blah... you know the rest.|SCVR:05IX3chargen statssheet|INTV|BNAM:player->RemoveItem "chargen statssheet" 1  set state to -1  Journal "A1_1_FindSpymaster" 1  player->AddItem "bk_A1_1_DirectionsCaiusCosades" 1  player->AddItem  "bk_a1_1_caiuspackage" 1  player->AddItem "Gold_001" 87  AddTopic "Background"  AddTopic "Morrowind"  AddTopic "Uriel Septim"  AddTopic "duties"  AddTopic "Caius Cosades"  AddTopic "South Wall"  AddTopic "specific place"  AddTopic "someone in particular"  AddTopic "services"  AddTopic "my trade"  AddTopic "little secret"  AddTopic "latest rumors"  AddTopic "little advice"  set CharGenState to -1
+
+[MOD-INF]: ID=3253423749290424070(Topic:morrowind)
+  morrowind.esm---------------->|DATA|ONAM:chargen captain|NAME:Yes. You're in Morrowind. I don't know why you're here. Or why you were released from prison and shipped here. But your authorization comes directly from Emperor Uriel Septim VII himself. And I don't need to know any more than that. When you leave this office, you are a free man. But before you go, I have instructions on your duties. Instructions from the Emperor. So pay careful attention.
+  Quick Character Creation.esp->|DATA|ONAM:chargen captain|NAME:Yes. You're in Morrowind. I don't know why you're here. Or why you were released from prison and shipped here. But your authorization comes directly from Emperor Uriel Septim VII himself. And I don't need to know any more than that. When you leave this office, you are free.

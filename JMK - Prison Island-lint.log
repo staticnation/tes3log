@@ -1,0 +1,76 @@
+JMK - Prison Island.esp: AUTOSPL DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	jmkpistonezappy                Death Chamber Shock
+	jmkpistoneroaster              Death Chamber Fire
+	jmkpistonepoison               Death Chamber Poison
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKPIArkysTurdHumz)
+	SCPT(JMKPIBarabHoleStarter)
+	SCPT(JMKPIBarabNPCSCPT)
+	SCPT(JMKPIBoatGirl)
+	SCPT(JMKPIBrdgeLitScrpt)
+	SCPT(JMKPIBrdgeTActo)
+	SCPT(JMKPIBrdgeTActo2)
+	SCPT(JMKPIBrdgeTActo3)
+	SCPT(JMKPIBrdgeTActo4)
+	SCPT(JMKPIConjugalWoman)
+	SCPT(JMKPICrook15)
+	SCPT(JMKPIDoorGuardian)
+	SCPT(JMKPIElapeedaScript)
+	SCPT(JMKPIEscapingDude)
+	SCPT(JMKPIFerillieScripto)
+	SCPT(JMKPIFlaartNote)
+	SCPT(JMKPIFrisambaScript)
+	SCPT(JMKPIHilariousDude)
+	SCPT(JMKPILaronoreScript)
+	SCPT(JMKPINotWaiting4U)
+	SCPT(JMKPIOuterESCHole)
+	SCPT(JMKPIPoisoningScript)
+	SCPT(JMKPIPompioScript)
+	SCPT(JMKPIRodiumHooker)
+	SCPT(JMKPISecretEHole)
+	SCPT(JMKPISumbrelScripto)
+	SCPT(JMKPIToastingScript)
+	SCPT(JMKPITreasDoor)
+	SCPT(JMKPIURArrested)
+	SCPT(JMKPIWantedDude1)
+	SCPT(JMKPIWantedDude2)
+	SCPT(JMKPIWantedDude3)
+	SCPT(JMKPIWantedDude4)
+	SCPT(JMKPIWantedDude5)
+	SCPT(JMKPIWardyScript)
+	SCPT(JMKPIZappinScript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (6, -17)           0x02
+	Azura's Coast Region (7, -17)            0x02
+	Azura's Coast Region (8, -16)            0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LAND    (6, -15)
+	morrowind.esm       LAND    (6, -16)
+	morrowind.esm       LAND    (6, -17)
+	morrowind.esm       LAND    (7, -15)
+	morrowind.esm       LAND    (7, -16)
+	morrowind.esm       LAND    (7, -17)
+	morrowind.esm       LAND    (8, -15)
+	morrowind.esm       LAND    (8, -16)
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock06
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       PGRD    ascadian isles region
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=2507624235242224756(Greeting:greeting 5)
+  |DATA|ONAM:hlaren ramoran|NAME:What are you doing here, traitor?|SCVR:01390|INTV|SCVR:12sX0ExpRedoran|INTV|BNAM:ModDisposition -10
+
+[DUP-INF]: ID=2830896851826930610(Greeting:greeting 5)
+  |DATA|ONAM:brara morvayn|NAME:It is nice to see you again, %PCName. What brings you here?

@@ -1,0 +1,105 @@
+Skooma Baron 1.2.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(SkoomaPrice)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       INGR    ingred_moon_sugar_01
+	morrowind.esm       ALCH    potion_skooma_01
+	morrowind.esm       CONT    barrel_01_moonsugar
+	morrowind.esm       CONT    com_chest_11_moonsugar
+	morrowind.esm       CONT    com_sack_01_moon sugar5
+	morrowind.esm       CONT    com_sack_02_msugar2
+	morrowind.esm       CONT    crate_01_moonsugar
+	morrowind.esm       CONT    crate_01_moonsugar10
+	morrowind.esm       CONT    crate_01_skooma
+	morrowind.esm       CONT    crate_02_moonsugar
+	morrowind.esm       CONT    crate__02_skooma2
+	morrowind.esm       CONT    crate_bandit_01
+	morrowind.esm       CONT    crate_de_moonsugar
+	morrowind.esm       CONT    crate_smuggler_01
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       NPC_    anis seloth
+	morrowind.esm       NPC_    ashumanu eraishah
+	morrowind.esm       NPC_    burcanius varo
+	morrowind.esm       NPC_    drelasa ramothran
+	morrowind.esm       NPC_    fara
+	morrowind.esm       NPC_    gorven menas
+	morrowind.esm       NPC_    helviane desele
+	morrowind.esm       NPC_    manse andus
+	morrowind.esm       NPC_    mebestian ence
+	morrowind.esm       NPC_    perien aurelie
+	morrowind.esm       NPC_    raril giral
+	morrowind.esm       NPC_    thaeril
+	morrowind.esm       NPC_    trasteve
+
+[MOD-INF]: ID=161885324679832454(Topic:skooma)
+  morrowind.esm-------->|DATA|RNAM:Khajiit|CNAM:Trader|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, %Name wants nothing to do with breaking laws. That would be wrong.|BNAM:;publican; trader;
+  Skooma Baron 1.2.ESP->|DATA|RNAM:Khajiit|CNAM:Trader|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, %Name wants nothing to do with breaking laws. That would be wrong.|SCVR:08FX0Skooma Dealer|INTV:|BNAM:;publican; trader;
+
+[MOD-INF]: ID=256681892893712889(Topic:skooma)
+  morrowind.esm-------->|DATA|CNAM:Publican|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, I want nothing to do with it.|BNAM:;publican; trader;
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Publican|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, I want nothing to do with it.|SCVR:08FX0Skooma Dealer|INTV:|BNAM:;publican; trader;
+
+[MOD-INF]: ID=277125218205084722(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Skooma Dealer|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=287378702993122269(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|CNAM:Apothecary Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Apothecary Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Skooma Dealer|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=291629891287021266(Topic:skooma)
+  morrowind.esm-------->|DATA|RNAM:Khajiit|CNAM:Publican|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, %Name wants nothing to do with breaking laws. That would be wrong.|BNAM:;publican; trader;
+  Skooma Baron 1.2.ESP->|DATA|RNAM:Khajiit|CNAM:Publican|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, %Name wants nothing to do with breaking laws. That would be wrong.|SCVR:08FX0Skooma Dealer|INTV:|BNAM:;publican; trader;
+
+[MOD-INF]: ID=437731057154051750(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Skooma Dealer|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[DUP-INF]: ID=611830938156582687(Persuasion:service refusal)
+  |DATA|RNAM:Khajiit|FNAM:Thieves Guild|NAME:You turned in Elmussa Damori who was %Name's friend. %Name gives you nothing until %Name forgives you.|SCVR:01475|INTV:|SCVR:34JX3HH_CaptureSpy|INTV:n
+
+[MOD-INF]: ID=1094918899840230767(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|CNAM:Pawnbroker|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Pawnbroker|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Skooma Dealer|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=2200231351129827390(Topic:skooma)
+  morrowind.esm-------->|DATA|CNAM:Trader|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, I want nothing to do with it.|BNAM:;publican; trader;
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Trader|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, I want nothing to do with it.|SCVR:08FX0Skooma Dealer|INTV:|BNAM:;publican; trader;
+
+[MOD-INF]: ID=2350820932343717228(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|CNAM:Alchemist Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Alchemist Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Skooma Dealer|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=2456544071464426424(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Skooma Dealer|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=2521731792966111939(Topic:skooma)
+  morrowind.esm-------->|DATA|RNAM:Khajiit|CNAM:Trader Service|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, %Name wants nothing to do with breaking laws. That would be wrong.|BNAM:;publican; trader;
+  Skooma Baron 1.2.ESP->|DATA|RNAM:Khajiit|CNAM:Trader Service|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, %Name wants nothing to do with breaking laws. That would be wrong.|SCVR:08FX0Skooma Dealer|INTV:|BNAM:;publican; trader;
+
+[MOD-INF]: ID=2821782961190224094(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|CNAM:Pawnbroker|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Pawnbroker|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Skooma Dealer|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=2890220726556429297(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|NAME:You're not the type I like to deal with.
+  Skooma Baron 1.2.ESP->|DATA|FNAM:Skooma Dealer|NAME:I don't buy Skooma, who told you that?|SCVR:05IX2potion_skooma_01|INTV:
+
+[MOD-INF]: ID=3034922702178419782(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Skooma Dealer|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=19239314151101228532(Topic:skooma)
+  morrowind.esm-------->|DATA|CNAM:Trader Service|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, I want nothing to do with it.|BNAM:;publican; trader;
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Trader Service|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, I want nothing to do with it.|SCVR:08FX0Skooma Dealer|INTV:|BNAM:;publican; trader;
+
+[MOD-INF]: ID=27431251821030328588(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|CNAM:Apothecary Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Apothecary Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:28FX0Skooma Dealer|INTV:|SCVR:38FX0Thieves Guild|INTV:
+
+[MOD-INF]: ID=27861296403221528233(Persuasion:service refusal)
+  morrowind.esm-------->|DATA|CNAM:Alchemist Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Skooma Baron 1.2.ESP->|DATA|CNAM:Alchemist Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:28FX0Skooma Dealer|INTV:|SCVR:38FX0Thieves Guild|INTV:

@@ -1,0 +1,18 @@
+TetraGuar.esp: DUP-INF DUP-REC MENUMOD OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AA1_DialExtras)
+	SCPT(AA1_TetraBumpScript)
+	SCPT(AA1_TetraClean)
+	SCPT(AA1_TetraLevel)
+	SCPT(AA1_TetraPort)
+	SCPT(AA1_TetraStats)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+
+[DUP-INF]: ID=29025722327143362(Greeting:greeting 5)
+  |DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:Have you been able to clear my son of Bralen Carvaren's murder?|SCVR:24JX3B5_RedoranHort|INTV:2|SCVR:34JX3HR_ClearSarethi|INTV: |SCVR:44JX4HR_ClearSarethi|INTV:d
+
+[DUP-INF]: ID=2246030530654710114(Greeting:greeting 5)
+  |DATA|ONAM:galero andaram|NAME:Welcome to our little Almsivi chapel. Pardon our informal surroundings, but we are guests here of House Telvanni, and apparently they have no more spacious, well-lit accommodations available for the Temple faithful. Still, we have all the services you'd expect to find a much larger Temple.|SCVR:01630|INTV:

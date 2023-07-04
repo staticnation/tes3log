@@ -1,0 +1,29 @@
+MasterIndexRedux_3.esp: DUP-INF DUP-REC MASTERS MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1157489 (plugin)    1567893 (installed size)
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    andasreth
+	morrowind.esm       DIAL    falensarano
+	morrowind.esm       DIAL    kogoruhn
+	morrowind.esm       DIAL    rotheran
+	morrowind.esm       MISC    index_valen
+	morrowind.esm       NPC_    folms mirel
+	morrowind.esm       NPC_    irgola
+	morrowind.esm       NPC_    nibani maesa
+	morrowind.esm       NPC_    salen ravel
+	morrowind.esm       PGRD    caldera, guild of mages
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=122994073048420261(Topic:falensarano)
+  |DATA|ONAM:hrundi|NAME:You will find it west of here. I will mark it on your map.|BNAM:ShowMap "Falensarano"
+
+[DUP-INF]: ID=281954452458613273(Topic:andasreth)
+  |DATA|ONAM:lloros sarano|NAME:You have already returned the shields. May Vivec protect you.|SCVR:34JX3HR_LostBanner|INTV:d
+
+[DUP-INF]: ID=1131515014464226706(Topic:kogoruhn)
+  |DATA|ONAM:sul-matuul|NAME:Kogoruhn was an ancient Dunmer stronghold. Here. Let me mark it on your map. Go by day, in good weather, or you may miss your way. Follow the coast east from Urshilaku camp to the ruined Dunmer stronghold called Valenvaryon, then turn southwest. You'll see Ebernanit, a ruined Daedric shrine. Continue south from Ebernanit to Kogoruhn, a great table of stone with many ruined buildings. There are many rooms. The passages are old and deep. Beneath are caves with pools of fire. It is a bad place. Go prepared.|SCVR:04JX3A2_6_Incarnate|INTV|BNAM:ShowMap Kogoruhn  ShowMap Valenvaryon
+
+[DUP-INF]: ID=2487228797996310828(Topic:rotheran)
+  |DATA|ONAM:Lalatia Varian|NAME:The ancient Dunmer stronghold of Rotheran is located on the southern coast of Sheogorad. It is a place of evil reputation, remote, and seldom visited.|BNAM:ShowMap Rotheran

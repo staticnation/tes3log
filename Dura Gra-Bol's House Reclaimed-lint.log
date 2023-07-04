@@ -1,0 +1,103 @@
+Dura Gra-Bol's House Reclaimed.ESP: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1314087 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(dgb_script_BomuulFireDead)
+	SCPT(dgb_script_BomuulFireLit)
+	SCPT(dgb_script_PCbloodbath)
+	SCPT(dgb_script_bloodbath)
+	SCPT(dgb_script_bloodbath_baashi)
+	SCPT(dgb_script_cursed)
+	SCPT(dgb_script_dura2)
+	SCPT(dgb_script_endEnable)
+	SCPT(dgb_script_endLeave)
+	SCPT(dgb_script_forsale)
+	SCPT(dgb_script_gemellus)
+	SCPT(dgb_script_gemellus_leave)
+	SCPT(dgb_script_house)
+	SCPT(dgb_script_payment)
+	SCPT(dgb_script_pre-house)
+	SCPT(dgb_script_shipwrecked)
+	SCPT(dgb_script_shipwrecked_dead)
+	SCPT(dgb_script_smugglers)
+	SCPT(dgb_script_underground)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    bad people
+	morrowind.esm       DIAL    dura gra-bol
+	morrowind.esm       DIAL    work
+	morrowind.esm       LAND    (-7, -3)
+	morrowind.esm       LAND    (-8, -2)
+	morrowind.esm       LAND    (-8, -3)
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       NPC_    dura gra-bol
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    fg_orcbounty
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    larrius varro
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=1450442414429500(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:You are the one who took care of that strange man in my house? Thank you. I'll tell everyone how kind and brave you've been.|SCVR:16DX0dreamer_02|INTV
+
+[MOD-INF]: ID=20317975226888317(Greeting:greeting 5)
+  morrowind.esm---------------------->|DATA|ONAM:larrius varro|NAME:Hello, %PCName. I'm happy to say that I don't have any work for you right now. We seem to have things under control right now. Thanks to you.|SCVR:04JX3town_balmora|INTV|BNAM:;Larrius Varro; journal town_balmora >= 30
+  Dura Gra-Bol's House Reclaimed.ESP->|DATA|ONAM:larrius varro|NAME:Hello, %PCName. I have more work for you if you're interested in serving the Emperor again.|SCVR:04JX3town_balmora|INTV|SCVR:14JX0dgb_journal_varro|INTV:
+
+[DUP-INF]: ID=22810386257729208(Topic:dura gra-bol)
+  |DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:This Orc is an outlaw, living openly in a house here in Balmora. I have a contract here that says 250 septims are yours if you bring her to justice.|BNAM:Journal FG_OrcBounty 10
+
+[MOD-INF]: ID=56015168105932404(Topic:dura gra-bol)
+  morrowind.esm---------------------->|DATA|ONAM:dura gra-bol|NAME:Yeah, what? You're wasting my time.
+  Dura Gra-Bol's House Reclaimed.ESP->|DATA|ONAM:dura gra-bol|NAME:Yeah, what? You're wasting my time.|SCVR:04JX0dgb_journal_varro|INTV: |BNAM:Choice "I'm here to collect the price on your head, outlaw." 1 "Just wanted to make sure." 2
+
+[MOD-INF]: ID=56015168105932404(Topic:dura gra-bol)
+  morrowind.esm---------------------->|DATA|ONAM:dura gra-bol|NAME:Yeah, what? You're wasting my time.
+  Dura Gra-Bol's House Reclaimed.ESP->|DATA|ONAM:dura gra-bol|NAME:Yeah, what? You're wasting my time.|SCVR:04JX0dgb_journal_varro|INTV: |BNAM:Choice "I'm here to collect the price on your head, outlaw." 1 "Just wanted to make sure." 2
+[MOD-IID]: ID=321517638553229324
+  Dura Gra-Bol's House Reclaimed.ESP->Yeah, what? You're wasting my time.
+
+[MOD-INF]: ID=173965674313098995(Topic:dura gra-bol)
+  morrowind.esm---------------------->|DATA|ANAM:Balmora|NAME:He lives in town somewhere. Look around, you lazy fetcher.|SCVR:0CsX0nolore|INTV:
+  Dura Gra-Bol's House Reclaimed.ESP->|DATA|ANAM:Balmora|NAME:She lives in town somewhere. Look around, you lazy fetcher.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=707086312421931867(Topic:dura gra-bol)
+  |DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You've already killed Dura gra-Bol. If you have questions about any other contract, ask them.|SCVR:56DX3dura gra-bol|INTV
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[MOD-INF]: ID=1315817146980114093(Topic:dura gra-bol)
+  morrowind.esm---------------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I heard that Dura gra-Bol is dead. Here's your 250 septims.|SCVR:34JX3FG_OrcBounty|INTV: |SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  Dura Gra-Bol's House Reclaimed.ESP->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I heard that Dura gra-Bol is dead. Here's your 250 septims.|SCVR:34JX0FG_OrcBounty|INTV: |SCVR:44JX0dgb_journal_varro|INTV:|SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+
+[DUP-INF]: ID=18053319961634615767(Topic:dura gra-bol)
+  |DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I don't have any more bounty contracts right now.|SCVR:34JX3FG_OrcBounty|INTV:d
+
+[DUP-INF]: ID=26042105572811029665(Topic:dura gra-bol)
+  |DATA|ONAM:eydis fire-eye|NAME:You've been expelled from the Fighters Guild. Until you make amends, I cannot discuss contracts with you.|SCVR:01390|INTV
+
+[MOD-INF]: ID=26697146411173217957(Topic:dura gra-bol)
+  morrowind.esm---------------------->|DATA|ANAM:Balmora|NAME:I think he lives by the river, on the east side of town.|SCVR:0CsX0nolore|INTV:
+  Dura Gra-Bol's House Reclaimed.ESP->|DATA|ANAM:Balmora|NAME:I think she lives by the river, on the east side of town.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=27281154712155116942(Topic:dura gra-bol)
+  morrowind.esm---------------------->|DATA|ONAM:eydis fire-eye|NAME:You already killed Dura gra-Bol? Well, then, these 250 septims are yours.|SCVR:34JX0FG_OrcBounty|INTV:|SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  Dura Gra-Bol's House Reclaimed.ESP->|DATA|ONAM:eydis fire-eye|NAME:You already killed Dura gra-Bol? Well, then, these 250 septims are yours.|SCVR:34JX0FG_OrcBounty|INTV:|SCVR:44JX0dgb_journal_varro|INTV:|SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+
+[DUP-INF]: ID=28487210471647714045(Greeting:greeting 5)
+  |DATA|ONAM:hanarai assutlanipal|NAME:I feel as though I've just awakened from a dream... a terrible dream of the Sixth House.|SCVR:14JX3C3_DestroyDagoth|INTV:2

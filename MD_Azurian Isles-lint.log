@@ -1,0 +1,2701 @@
+MD_Azurian Isles.esm: AUTOSPL DUP-INF DUP-REC FOGBUG GETSND MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1568779 (plugin)    1567893 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	az_spell_camouflage_ceph       Camouflage
+	az_spell_grinder_fire          Fire reaction
+	az_spell_grinder_fire2x        Fire reaction
+	az_spell_grinder_fire4x        Fire reaction
+	az_spell_grinder_frost         Frost reaction
+	az_spell_grinder_frost2x       Frost reaction
+	az_spell_grinder_frost4x       Frost reaction
+	az_spell_grinder_void          Void reaction
+	az_spell_grinder_void2x        Void reaction
+	az_spell_grinder_void4x        Void reaction
+	az_spell_mg_travel             Teleportation
+	az_spell_sting_ceph            Cephalapod Sting
+	az_spell_viperbolt             Viperbolt
+	az_trap_shock                  Shock
+    [FOGBUG]: Cells with zero fog density setting:
+	Moonshadow, Test Room
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(Az_Scr_TDM_Liara2)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AZ_TDM_BellyScript)
+	SCPT(AZ_scr_clam_shucking)
+	SCPT(AZ_scr_lightsource_day)
+	SCPT(AZ_scr_snd_crystalchimes)
+	SCPT(Az_Scr_TDM_Liara2)
+	SCPT(Az_TDM_SexyDancer)
+	SCPT(az_AI_openclose)
+	SCPT(az_TDM_technique)
+	SCPT(az_ashGolem_script)
+	SCPT(az_azura_Swamp_1)
+	SCPT(az_azura_Swamp_2)
+	SCPT(az_azura_Swamp_3)
+	SCPT(az_boneAtro_script)
+	SCPT(az_crystalGolem_script)
+	SCPT(az_fleshAtro_script)
+	SCPT(az_ironAtro_script)
+	SCPT(az_kolibriDEATH_script)
+	SCPT(az_scr_LocalCrankState)
+	SCPT(az_scr_MG_teleport_scroll)
+	SCPT(az_scr_MQ_DOF_incense_fade)
+	SCPT(az_scr_MQ_DOF_incense_teleport)
+	SCPT(az_scr_MQ_DOF_npc)
+	SCPT(az_scr_MQ_DOF_stand)
+	SCPT(az_scr_MQ_Nep_AtkAct)
+	SCPT(az_scr_MQ_Nep_AtkDis)
+	SCPT(az_scr_MQ_Nep_AtkNPC)
+	SCPT(az_scr_MQ_Nep_Captain)
+	SCPT(az_scr_MQ_Nep_Crew_01)
+	SCPT(az_scr_MQ_Nep_Crew_02)
+	SCPT(az_scr_MQ_Nep_Crew_03)
+	SCPT(az_scr_MQ_Nep_Crew_04)
+	SCPT(az_scr_MQ_Nep_Crew_1)
+	SCPT(az_scr_MQ_Nep_Crew_4)
+	SCPT(az_scr_MQ_Nep_DDAct)
+	SCPT(az_scr_MQ_Nep_IdolAct)
+	SCPT(az_scr_MQ_Nep_IdolDis)
+	SCPT(az_scr_MQ_Nep_Skif_01)
+	SCPT(az_scr_MQ_Nep_attack)
+	SCPT(az_scr_MQ_Nep_goblin)
+	SCPT(az_scr_TDM_Liara)
+	SCPT(az_scr_WT_guard)
+	SCPT(az_scr_cephalomancer_01)
+	SCPT(az_scr_cephalomancer_02)
+	SCPT(az_scr_daedra_curse)
+	SCPT(az_scr_ghostfence)
+	SCPT(az_scr_globe)
+	SCPT(az_scr_mg_guide)
+	SCPT(az_scr_mg_robe_alc)
+	SCPT(az_scr_mg_robe_alcmas)
+	SCPT(az_scr_mg_robe_alt)
+	SCPT(az_scr_mg_robe_altmas)
+	SCPT(az_scr_mg_robe_arch)
+	SCPT(az_scr_mg_robe_con)
+	SCPT(az_scr_mg_robe_conmas)
+	SCPT(az_scr_mg_robe_des)
+	SCPT(az_scr_mg_robe_desmas)
+	SCPT(az_scr_mg_robe_enc)
+	SCPT(az_scr_mg_robe_encmas)
+	SCPT(az_scr_mg_robe_ill)
+	SCPT(az_scr_mg_robe_illmas)
+	SCPT(az_scr_mg_robe_mas)
+	SCPT(az_scr_mg_robe_mys)
+	SCPT(az_scr_mg_robe_mysmas)
+	SCPT(az_scr_mg_robe_nov)
+	SCPT(az_scr_mg_robe_res)
+	SCPT(az_scr_mg_robe_resmas)
+	SCPT(az_scr_mg_teleport_circle)
+	SCPT(az_scr_piranha)
+	SCPT(az_scr_pub_saurale)
+	SCPT(az_scr_spell_ink)
+	SCPT(az_scr_summon_cephalapod)
+	SCPT(az_scr_summon_cephalapod_en)
+	SCPT(az_scr_vesperfly)
+	SCPT(az_swampAtro_script)
+	SCPT(az_tdm_SlowfallScript)
+	SCPT(az_tdm_SlowfallScript2)
+	SCPT(az_tdm_SlowfallScript3)
+	SCPT(az_tdm_foodbowlscript)
+	SCPT(az_tdm_foodspawn)
+	SCPT(az_tdm_guardscript)
+	SCPT(az_tdm_help)
+	SCPT(az_tdm_thugdisable)
+	SCPT(az_tdm_thugenable)
+	SCPT(az_telltime)
+	SCPT(az_telvanniAtro_script)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       DIAL    big helende
+	morrowind.esm       DIAL    caryarel
+	morrowind.esm       DIAL    corkbulb
+	morrowind.esm       DIAL    daedra skin
+	morrowind.esm       DIAL    destination
+	morrowind.esm       DIAL    draramu hloran
+	morrowind.esm       DIAL    errand
+	morrowind.esm       DIAL    food
+	morrowind.esm       DIAL    hrundi's woman
+	morrowind.esm       DIAL    intruder
+	morrowind.esm       DIAL    neloth
+	morrowind.esm       DIAL    requirements
+	morrowind.esm       DIAL    sinyaramen
+	morrowind.esm       DIAL    sload soap
+	morrowind.esm       DIAL    telvanni mouths 
+	morrowind.esm       DIAL    thief
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_04
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava02
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock03
+	morrowind.esm       LTEX    ma_sulphur_rock05
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+
+[DUP-INF]: ID=51269842710151(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM053.mp3|NAME:Make it quick, Altmer.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[DUP-INF]: ID=121751161553541(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\CrAtk_DF001.mp3|NAME:Arrgh!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV:P
+
+[DUP-INF]: ID=128279104427445(Topic:latest rumors)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=451680178488464(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM100.mp3|NAME:What is this regarding, Nord?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[DUP-INF]: ID=459197842235860(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF155.mp3|NAME:You seek information, Khajiit?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[DUP-INF]: ID=552169296819770(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:vo\d\f\tHlo_DF049.mp3|NAME:I have ears... I shall hear.|SCVR:02sX5Random100|INTV:<
+
+[DUP-INF]: ID=571614127264519(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM172.mp3|NAME:Three blessings, sera.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=729128013313152(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF070.mp3|NAME:Do you want something?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=734238952566976(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM120.mp3|NAME:You may speak.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=1130346229495343(Topic:hrundi's woman)
+  |DATA|ONAM:stacey|NAME:You've been expelled, %PCName. Make amends and speak with me again.|SCVR:01390|INTV
+
+[DUP-INF]: ID=1759136782384954(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF152.mp3|NAME:You seek information, Redguard?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=1781327153506033(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Clothier|SNAM:Vo\d\m\Srv_DM010.mp3|NAME:You'll find my selection tailor-made for your needs.|BNAM:;Clothier
+
+[DUP-INF]: ID=1880772856919018(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF008.mp3|NAME:I have no time for you, Argonian.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1[Argonian]
+
+[DUP-INF]: ID=1968950436724985(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM077.mp3|NAME:Spit it out or hit the road.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=2182274270324714(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF005.mp3|NAME:Stoopid.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[DUP-INF]: ID=3133634528634948(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM054.mp3|NAME:Make it quick, Argonian.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1[Argonian]
+
+[DUP-INF]: ID=3423170694962131(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Assassin Service|SNAM:Vo\d\m\Srv_DM009.mp3|NAME:Do not bother me.|BNAM:;assassin
+
+[DUP-INF]: ID=3668323283541719(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF037.mp3|NAME:Annoying outlanders.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=4807569499128243(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM019.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[DUP-INF]: ID=4832241114629138(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF167.mp3|NAME:Greetings, outlander. Don't I know you from somewhere?|SCVR:01033|INTV|BNAM:;PCReputation>=3
+
+[DUP-INF]: ID=5492101050206524(Voice:thief)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\OP_DF002.mp3|NAME:Grab him!|SCVR:01380|INTV:
+
+[DUP-INF]: ID=6493246160178455(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=6676520688711039(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF165.mp3|NAME:What is it now?|SCVR:02sX5Random100|INTV|BNAM:;barely civil
+
+[DUP-INF]: ID=7032720988632022(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF030.mp3|NAME:Must you be so annoying? Go away.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=8035096154412261(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM085.mp3|NAME:What do you want?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=8222397276989848(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM004.mp3|NAME:Ughn|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+
+[DUP-INF]: ID=8368220235831838(Voice:thief)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Thf_DM001.mp3|NAME:I'll deal with you thief!|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=8619762742622948(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF191.mp3|NAME:I suppose there's no harm in talking. What can I do for you?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=8745624055348809(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF169.mp3|NAME:Well?|SCVR:02sX5Random100|INTV:<|BNAM:;barely civil
+
+[DUP-INF]: ID=9189551028574560(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM021.mp3|NAME:Bothersome creature.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=9378214719609929(Topic:sinyaramen)
+  |DATA|ONAM:iniel|NAME:Doesn't sound familiar to me. I meet many people, though. It's hard to keep them straight.
+
+[DUP-INF]: ID=9762572427259903(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF058.mp3|NAME:You have business here?|SCVR:01460|INTV|BNAM:;SameFaction=1
+
+[DUP-INF]: ID=9968690113263650(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF019.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[DUP-INF]: ID=10731829340808292(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF003.mp3|NAME:An untidy tale comes to a sorry end.|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=12602219880828638(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF150.mp3|NAME:How are you?
+
+[DUP-INF]: ID=13465642775431335(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM063.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+
+[DUP-INF]: ID=13568231434823734(Greeting:greeting 1)
+  |DATA|ONAM:lich_relvel|NAME:Weakling! You dare to cross my threshold? You, then, will be the first to fall, before the undead army sweeps across this land like a plague, cleansing it of your flesh.  Die, mortal!|BNAM:StartCombat Player  SetFight 100  Goodbye
+
+[DUP-INF]: ID=14188521123711049(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM147.mp3|NAME:Is there something you need?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=14294188750320181(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF013.mp3|NAME:Surrender your life to me and I will end your pain!|SCVR:02sX0Random100|INTV
+
+[DUP-INF]: ID=14297817959713879(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM014.mp3|NAME:[Wide yawn.]|BNAM:; BORED. TO. DEATH.
+
+[DUP-INF]: ID=14876117062585301(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Enchanter Service|SNAM:Vo\d\m\Srv_DM018.mp3|NAME
+
+[DUP-INF]: ID=14924142629518172(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:vo\d\f\tHlo_DF051.mp3|NAME:May all speak well of you, sera.
+
+[DUP-INF]: ID=14946642865069365(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF189.mp3|NAME:Yes, outlander, what may I do for you?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=15812643399847068(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM000d.mp3|NAME:Need I call the guards?|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=17094568397801406(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF165.mp3|NAME:There are better ways than theft to earn a coin, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[DUP-INF]: ID=17204773519269178(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\bFle_DF002.mp3|NAME:Get away, beast!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;scared
+
+[DUP-INF]: ID=18274246052011089(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM128.mp3|NAME:What is it, outlander?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=19469976113177418(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF009.mp3|NAME:I have no time for you, Breton.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+
+[DUP-INF]: ID=19549022725512124(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM002.mp3|NAME:I have no time for you, Redguard.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=20171118094223552(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF090.mp3|NAME:My time is precious, so make it quick.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=20921225785922999(Voice:hit)
+  |DATA|RNAM:Breton|SNAM:Vo\b\f\Hit_BF003.mp3|NAME:Ack!|SCVR:01660|INTV
+
+[DUP-INF]: ID=21177186366623779(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF061.mp3|NAME:Pathetic creature. You should learn to dress youself before venturing out.|SCVR:01423|INTV|BNAM:;NPCReputation>=40;ClothingMod>=1000
+
+[DUP-INF]: ID=21583417029222533(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF057.mp3|NAME:Make it quick, Argonian.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1[argonian]
+
+[DUP-INF]: ID=21652491747314888(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM017.mp3|NAME:I am not amused.|SCVR:01425|INTV:|SCVR:12sX3Random100|INTV:2|BNAM:;ClothingMod<=0
+
+[DUP-INF]: ID=21719133544722512(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF073.mp3|NAME:What, outlander? Why do you disturb me?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=22159828612938231(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\bFle_DM004.mp3|NAME|SCVR:01650|INTV|BNAM:;scared
+
+[DUP-INF]: ID=22437481287205476(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF007.mp3|NAME:Groan.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+
+[DUP-INF]: ID=22938179364312720(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:vo\d\f\tHlo_DF072.mp3|NAME:Show respect, sera.|SCVR:02sX5Random100|INTV:P
+
+[DUP-INF]: ID=23343456113533830(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM194.mp3|NAME:You have my attention, outlander.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=24173817026338068(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Flw_DF005.mp3|NAME:I'm on your side!|SCVR:01660|INTV
+
+[DUP-INF]: ID=24610257047534695(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF026.mp3|NAME:What, n'wah?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=25425144551288432(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM003.mp3|NAME:Oooff.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+
+[DUP-INF]: ID=25879226202497392(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF102.mp3|NAME:What is this regarding, Cyrodil?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[DUP-INF]: ID=25897849931931415(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM|SNAM:vo\d\f\tHlo_DF042.mp3|NAME:Don't tempt fate, citizen.|SCVR:02sX5Random100|INTV:2|BNAM:;guard
+
+[DUP-INF]: ID=25898138414280219(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM004.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV:Z
+
+[DUP-INF]: ID=26405203427453850(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM080.mp3|NAME:This better be important.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=27144723304283456(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11473|INTV|BNAM:;SameFaction;FactionReactionLow>=-2
+
+[DUP-INF]: ID=27528908287541406(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF167.mp3|NAME:Will this take long?|SCVR:02sX5Random100|INTV:(|BNAM:;barely civil
+
+[DUP-INF]: ID=28176108640755805(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF097.mp3|NAME:Yes, madame? What is it?|SCVR:01440|INTV
+
+[DUP-INF]: ID=28603593126398037(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Apothecary Service|SNAM:Vo\d\m\Srv_DM004.mp3|NAME:I have heard of you, outlander. Feel free to peruse my goods.|BNAM:;Apothecary
+
+[DUP-INF]: ID=28764584167205675(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM017.mp3|NAME:Good grief. Did that woman put starch in my shorts?|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=29339613180655552(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM114.mp3|NAME:Your wounds should be treated. Find a healer.|SCVR:01075|INTV:2|BNAM:;PCHealthPercent<=50
+
+[DUP-INF]: ID=29715042461618553(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM014.mp3|NAME:I do not speak with vagrants.|SCVR:01425|INTV:d|BNAM:;NPCReputation>=80;ClothingMod>=2000
+
+[DUP-INF]: ID=30759782623813357(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Alchemist Service|SNAM:Vo\d\m\Srv_DM050.mp3|NAME:Do you have anything to barter?
+
+[DUP-INF]: ID=31044521287226374(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Thief Service|SNAM:Vo\d\m\Srv_DM044.mp3|NAME:Let me relieve you of the burden of your coin.|BNAM:;Thief
+
+[DUP-INF]: ID=32092457114254114(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Ald-ruhn|SNAM:vo\d\m\Hlo_DM137.mp3|NAME:What do you think of our city, outlander?|BNAM:;Cell=Ald-ruhn;
+
+[DUP-INF]: ID=32976371313263200(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF212.mp3|NAME:Welcome, friend. I feel as though I should know you.|SCVR:01033|INTV|BNAM:;PCReputation>=3
+
+[DUP-INF]: ID=33181444097810226(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Clothier|SNAM:Vo\d\m\Srv_DM011.mp3|NAME:You'll only find a perfect fit here. I guarantee it.|BNAM:;Clothier  Check normalization on this asset.
+
+[DUP-INF]: ID=35130480110949437(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF173.mp3|NAME:May you find all that you seek, traveller.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=35311905386223042(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM005.mp3|NAME:Die!|SCVR:01650|INTV
+
+[DUP-INF]: ID=36284521779619446(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM008.mp3|NAME:Watch yourself. We'll have no trouble here.|SCVR:02sX3Random100|INTV:U
+
+[DUP-INF]: ID=38463114212557054(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF195.mp3|NAME:We are blessed. Truly blessed. This is an honor.
+
+[DUP-INF]: ID=40931191443612796(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF144.mp3|NAME:Our kinship is over, outlander.|SCVR:01460|INTV|SCVR:11390|INTV|BNAM:;SameFaction=1;PC Expelled=1
+
+[DUP-INF]: ID=42967909123993374(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Enchanter Service|SNAM:Vo\d\m\Srv_DM016.mp3|NAME
+
+[DUP-INF]: ID=44044417148026378(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM011.mp3|NAME:Your wounds are minor compared to what you will receive if you continue to bother me.|SCVR:01075|INTV:K|BNAM:;PCHealthPercent<=75
+
+[DUP-INF]: ID=44643255512175727(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Hit_DF003.mp3|NAME:Ooph!|SCVR:01660|INTV
+
+[DUP-INF]: ID=46264813798323373(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF004.mp3|NAME:I have no time for you, Nord.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[DUP-INF]: ID=48412671735611259(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM160.mp3|NAME:You seek information, Argonian?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1[argonian]
+
+[DUP-INF]: ID=49092660277781251(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM223.mp3|NAME:It's so good to meet you.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=50413993239989436(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF010.mp3|NAME:Well, it LOOKED like it was dead. How was I supposed to know it was sleeping?|SCVR:02sX5Random100|INTV:2
+
+[DUP-INF]: ID=58819010279159277(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF020.mp3|NAME:Have you no sense about you? You spread disease like a rat!|SCVR:01400|INTV|BNAM:;PCCommonDisease=1
+
+[DUP-INF]: ID=60288972117251202(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF190.mp3|NAME:Please, go ahead, outlander, I'm listening.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=60811119234957218(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\bFle_DM001.mp3|NAME:Help! A beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;scared
+
+[DUP-INF]: ID=63061760119324424(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF104.mp3|NAME:What is this regarding, Breton?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+
+[DUP-INF]: ID=64151634256522376(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF129.mp3|NAME:What do you want?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=64855352010224140(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM033.mp3|NAME:Leave me.
+
+[DUP-INF]: ID=68043387941632651(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM195.mp3|NAME:Will this take long?|SCVR:02sX5Random100|INTV:(|BNAM:;barely civil
+
+[DUP-INF]: ID=71442790247123076(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF084.mp3|NAME:Go ahead.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=73836201346415797(Voice:idle)
+  |DATA|RNAM|SNAM:vo\i\f\tIdl_IF013.mp3|NAME:Damn locals....|BNAM:;muttered under breath]
+
+[DUP-INF]: ID=73912252616509742(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM166.mp3|NAME:You carry an infection, outlander. You should leave before you make others sick.|SCVR:01400|INTV|BNAM:;PCCommonDisease=0
+
+[DUP-INF]: ID=74135533779825642(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF003.mp3|NAME:Oooff.|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+
+[DUP-INF]: ID=75322025292732904(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF110.mp3|NAME:Under sun and sky, outlander. We greet you warmly.|SCVR:01590|INTV
+
+[DUP-INF]: ID=75342271186768718(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF009.mp3|NAME:Who does he think he is, anyway...|SCVR:02sX3Random100|INTV:7|BNAM:;to herself
+
+[DUP-INF]: ID=76131937449514321(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Savant Service|SNAM:Vo\d\m\Srv_DM034.mp3|NAME:It is a pleasure, outlander. Do you require my services?|BNAM:;Savant
+
+[DUP-INF]: ID=78124089164131320(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM216.mp3|NAME:This one honors us. Please, speak.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=78532835982523169(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM148.mp3|NAME:Is there something I can do for you?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=84113136489831176(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Monk Service|SNAM:Vo\d\m\Srv_DM026.mp3|NAME:Speak your needs.|BNAM:;Monk Service
+
+[DUP-INF]: ID=84140651252911934(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Apothecary Service|SNAM:Vo\d\m\Srv_DM006.mp3|NAME:If you don't leave now, I shall call the guards!|BNAM:;Apothecary
+
+[DUP-INF]: ID=84763094217021120(Topic:little advice)
+  |DATA|ANAM:Raven Rock|NAME:It's always a good idea to carry some cure disease potions while you're on Solstheim. A lot of the animals carry Ataxia or Yellow Tick.|SCVR:02sX5Random100|INTV:P
+
+[DUP-INF]: ID=86308661567025469(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF182.mp3|NAME:Walk with virtue, outlander.
+
+[DUP-INF]: ID=90294277127109559(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM124.mp3|NAME:Yes, outlander?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=92262387694559308(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Publican|SNAM:vo\d\f\Hlo_DF230.mp3|NAME:Our doors are always open.|BNAM:;Class=Publican
+
+[DUP-INF]: ID=92501845924729422(Topic:errand)
+  |DATA|ONAM:sharn gra-muzgob|NAME:Yes, yes. You've completed the errand, and I'm quite satisfied.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+
+[DUP-INF]: ID=93702938718429475(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF062.mp3|NAME:What is it, peasant?|SCVR:01423|INTV|BNAM:;;ClothingMod>=250
+
+[DUP-INF]: ID=95117363209798132(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\Hlo_DF131.mp3|NAME:Where would you like to go?|BNAM:;Class=Caravaner
+
+[DUP-INF]: ID=98226437612221466(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF004.mp3|NAME:Ah... ah... AH... CHOOOO!|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=101112267465624310(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM004.mp3|NAME:I have no time for you, Nord.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[DUP-INF]: ID=103704743130044205(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM046.mp3|NAME:If you'll excuse me, I don't have time for you right now. Or ever.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=104102776966289579(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM002.mp3|NAME:Hrarh!|SCVR:02sX3Random100|INTV:<|SCVR:11650|INTV
+
+[DUP-INF]: ID=104211707826956760(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:Vo\d\m\tHlo_DM095.mp3|NAME:Your words shall stand witness for you, sera.|SCVR:02sX5Random100|INTV:<
+
+[DUP-INF]: ID=104482703066921245(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM162.mp3|NAME:What happened to you, outlander? You should find healing.|SCVR:01075|INTV:2|BNAM:;PCHealthPercent<=50
+
+[DUP-INF]: ID=106277311587512256(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF155.mp3|NAME:Whatever you want... within reason.|SCVR:02sX5Random100|INTV:<|BNAM:;pleasant, positive
+
+[MOD-INF]: ID=107193086989225800(Topic:requirements)
+  morrowind.esm-------->|DATA|FNAM:Mages Guild|NAME:Advancement in the Mages Guild does not occur by magic. Pay more attention to your duties and make sure you understand our requirements.|SCVR:01020|INTV:
+  MD_Azurian Isles.esm->|DATA|FNAM:Imperial Legion|NAME:The Legion selects for endurance, the soldierly virtue, and personality, the citizen's virtue, for service in the Legion is the model for the duties of Imperial citizenship. As a trooper or knight, you must master the long blade, spear, and blunt weapons. You must block whatever blows you can, and take unblocked blows upon your heavy armor. The Legion recruit must also be athletic to evade, maneuver, and charge on the field of battle.
+
+[DUP-INF]: ID=107288186142226074(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF093.mp3|NAME:Okay, outlander, but make it quick.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=109193912260735957(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM007.mp3|NAME:Keep moving.|SCVR:02sX3Random100|INTV:F
+
+[DUP-INF]: ID=110221434566033134(Voice:intruder)
+  |DATA|ONAM:calvario
+
+[DUP-INF]: ID=112521714644213342(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF053.mp3|NAME:Make it quick, Altmer.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[DUP-INF]: ID=112922757852903059(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM009.mp3|NAME:What's HE doing here?|SCVR:02sX3Random100|INTV:K|SCVR:11440|INTV
+
+[DUP-INF]: ID=113751949970858202(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Slave|SNAM:vo\d\f\Hlo_DF112.mp3|NAME:Do you need a servant, master?|BNAM:;Class=Slave
+
+[DUP-INF]: ID=114475928302697744(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:Vo\h\m\CrAtk_HM005.mp3|NAME:Die!|SCVR:01650|INTV
+
+[DUP-INF]: ID=114622808168125640(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM127.mp3|NAME:Can we hurry this up?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=114902810294219670(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM005.mp3|NAME:Please, not again....|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=115876706220847775(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM001.mp3|NAME:Cough.|SCVR:02sX3Random100|INTV|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=118478878495920526(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF015.mp3|NAME:[Wide yawn.]|BNAM:; BORED. TO. DEATH.
+
+[DUP-INF]: ID=118969103337826885(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM009.mp3|NAME:I have no time for you, Breton.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+
+[DUP-INF]: ID=118991872723152288(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF225.mp3|NAME:You bring me good fortune, outlander. How may I be of service?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=119112292243645840(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF002.mp3|NAME:Your life's end is approaching.|SCVR:01075|INTV|BNAM:;PCRace=9[Redguard]Dialog is placeholder - experiment
+
+[DUP-INF]: ID=120064012167910859(Topic:solstheim)
+  |DATA|ANAM:Skaal Village|NAME:This is the island of Solstheim, a jewel of an island and home to the Skaal. We settled here many generations ago.
+
+[DUP-INF]: ID=121247071557632647(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF036.mp3|NAME:There's no time for talk now. Go.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=123823576127553555(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM081.mp3|NAME:What, outlander?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=124311518304217321(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF215.mp3|NAME:I see this land suits you. We welcome you freely, outlander.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=129361129595524164(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11393|INTV|BNAM:;PC Expelled>=-2
+
+[DUP-INF]: ID=133642199160230772(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Fle_DF002.mp3|NAME:I'm being attacked. Help!|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=138977247265862402(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF033.mp3|NAME:Leave me.
+
+[DUP-INF]: ID=140697454220725626(Voice:attack)
+  |DATA|RNAM:High Elf|SNAM:vo\h\f\Atk_HF015.mp3|NAME:Your end is here!
+
+[DUP-INF]: ID=140831737168806833(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Hlo_DF000e.mp3|NAME:Get out of here!
+
+[DUP-INF]: ID=142794588274553618(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Idl_DF003.mp3|NAME:Sigh.|SCVR:02sX3Random100|INTV:2|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=143021583176326689(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM062.mp3|NAME:What is it, peasant?|SCVR:01425|INTV|BNAM:;NPCReputation>=10;ClothingMod>=250
+
+[DUP-INF]: ID=143231785526028753(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:Vo\d\m\tHlo_DM103.mp3|NAME:May all speak well of you, sera.
+
+[DUP-INF]: ID=143354447778023945(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF011.mp3|NAME:Snow is real pretty if you don't have to go out in it.|SCVR:02sX5Random100|INTV:<
+
+[DUP-INF]: ID=143818931202819098(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Shipmaster|SNAM:Vo\d\m\Srv_DM037.mp3|NAME:Care to see the sights? Where can I take you?|BNAM:;Shipmaster
+
+[DUP-INF]: ID=143972927967911843(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM220.mp3|NAME:You flatter me with your attention, outlander.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=146951819169722265(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM184.mp3|NAME:If a few words can help, I'd be happy to talk.|SCVR:02sX5Random100|INTV:F|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=148478419151816098(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Idl_DF005.mp3|NAME:Where is that slave? Here not long ago.|SCVR:02sX3Random100|INTV:F|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=151852462785854245(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM076.mp3|NAME:I don't have a lot of patience for questions, outlander.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=152991572408111402(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM006.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+
+[DUP-INF]: ID=154271092233383129(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM149.mp3|NAME:Go ahead, outlander. What do you need?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=154486655275132220(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM173.mp3|NAME:May you find all that you seek, traveller.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=160148313241873760(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM008.mp3|NAME:Must be going crazy, talking to myself like this...|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=160377624224858117(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM186.mp3|NAME:Yes, outlander, how do you do?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=161064540654129335(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Apothecary Service|SNAM:Vo\d\m\Srv_DM005.mp3|NAME:The freshest ingredients in town.|BNAM:;Apothecary
+
+[DUP-INF]: ID=163411342599219171(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM072.mp3|NAME:Say what you want or go away.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=163777282139932147(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM057.mp3|NAME:Make it quick, Argonian.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1[argonian]
+
+[DUP-INF]: ID=164512462139618418(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM093.mp3|NAME:Okay, outlander, but make it quick.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=167641859713331312(Voice:hello)
+  |DATA|RNAM:Imperial|CNAM|SNAM:vo\i\f\tHlo_IF004.mp3|NAME:For King and Emperor.|BNAM:;guard
+
+[DUP-INF]: ID=168099749104929424(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF050.mp3|NAME:Make it quick, Nord.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[DUP-INF]: ID=171087331882522530(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM098.mp3|NAME:What is this regarding, Redguard?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=171213675675329645(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM011.mp3|NAME:Unggh!|SCVR:01045|INTV
+
+[DUP-INF]: ID=177142762278612255(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM196.mp3|NAME:Three blessings to you, Redguard.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=177513009137106232(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM178.mp3|NAME:I suppose we can talk. What do you want?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=177711963261630774(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF013.mp3|NAME:*Pfbbbbbbbt*|SCVR:02sX5Random100|INTV:P|BNAM:;bi-labial fricative
+
+[DUP-INF]: ID=177972181946911353(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Clothier|SNAM:Vo\d\m\Srv_DM012.mp3|NAME:I have no business to discuss with you.|BNAM:;Clothier
+
+[DUP-INF]: ID=179884941046424870(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Hit_DF009.mp3|NAME:Ungh!|SCVR:01660|INTV
+
+[DUP-INF]: ID=181568478999518424(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Trader Service|SNAM:Vo\d\m\Srv_DM047.mp3|NAME:Let's do some business, shall we?|BNAM:;Trader
+
+[DUP-INF]: ID=183256589134128349(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF188.mp3|NAME:May I help you, outlander?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=184812634257317783(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\Hlo_DF141.mp3|NAME:Why are you here in Ebonheart, outlander?|BNAM:;Cell=Ebonheart
+
+[DUP-INF]: ID=184832891016913079(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF001.mp3|NAME:Go away.
+
+[DUP-INF]: ID=184873177552429220(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM064.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[DUP-INF]: ID=186443152637121561(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF041.mp3|NAME:Oh, come on. Leave me alone.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=188122352300623914(Voice:thief)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Hlo_DF027.mp3|NAME:Filthy S'wit!|SCVR:02sX3Random100|INTV:P|BNAM:;Replace asset
+
+[DUP-INF]: ID=188127857326234474(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Publican|SNAM:vo\d\f\Hlo_DF232.mp3|NAME:Tell your friends about this place.|SCVR:02sX3Random100|INTV:<|BNAM:;Class=Publican;Random100>=60
+
+[DUP-INF]: ID=188341191768329815(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM061.mp3|NAME:Pathetic creature. You should learn to dress youself before venturing out.|SCVR:01425|INTV:2|BNAM:;NPCReputation>=40;ClothingMod>=1000
+
+[DUP-INF]: ID=188968321889426610(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF044.mp3|NAME:What hole did you crawl out of?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=189307772661930432(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:vo\d\f\tHlo_DF071.mp3|NAME:Seven virtues, sera.|SCVR:02sX5Random100|INTV:F
+
+[DUP-INF]: ID=189522741221882197(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF029.mp3|NAME:How rude!|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=189539317100891637(Voice:thief)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Thf_DM002.mp3|NAME:Wretched thief!|SCVR:02sX3Random100|INTV:(|BNAM:;Replace asset
+
+[DUP-INF]: ID=190764379103730535(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM101.mp3|NAME:What is this regarding, Khajiit?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[DUP-INF]: ID=191931782518468728(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF126.mp3|NAME:What is this about?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=192212928269169116(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+
+[DUP-INF]: ID=194222461943126836(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM010.mp3|NAME:Umph!|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[DUP-INF]: ID=195276421795924082(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=197011184336985338(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Shipmaster|SNAM:Vo\d\m\Srv_DM038.mp3|NAME:Short trip, long trip. You decide.|BNAM:;Shipmaster
+
+[DUP-INF]: ID=198029036231831410(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF179.mp3|NAME:Tell me what you want.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=199427936229525041(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM005.mp3|NAME:Not now, outlander. Head on.|SCVR:02sX3Random100|INTV:7
+
+[DUP-INF]: ID=199861382699653860(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:Vo\d\m\tHlo_DM010.mp3|NAME:Take care, stranger.
+
+[DUP-INF]: ID=202152670166393930(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF010.mp3|NAME:Grunt.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[DUP-INF]: ID=204715289175578581(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM007.mp3|NAME:Grunt!|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+
+[DUP-INF]: ID=206581068980095017(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF089.mp3|NAME:Speak quickly, outlander, or go away.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=207427246257922335(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM037.mp3|NAME:Annoying outlanders.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=207758653283413900(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM045.mp3|NAME:I'm late for an appointment. Hopefully somewhere away from you.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=213957273493512843(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF068.mp3|NAME:You are a fool to walk around like that.|SCVR:01425|INTV:|SCVR:12sX3Random100|INTV:2|BNAM:;ClothingMod<=0
+
+[DUP-INF]: ID=215493212146589322(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF017.mp3|NAME:I am not amused.|SCVR:01425|INTV:|BNAM:;ClothingMod<=0
+
+[DUP-INF]: ID=215911430523152771(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF028.mp3|NAME:We end all talk now.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=216972799178891369(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\Hlo_DF227.mp3|NAME:Where would you like to go?|BNAM:;Class=Caravaner
+
+[DUP-INF]: ID=219302792595130898(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM036.mp3|NAME:There's no time for talk now. Go.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=219581059427812368(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM154.mp3|NAME:You seek information, Nord?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[DUP-INF]: ID=219692741065429202(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM002.mp3|NAME:Go. Now.|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=223444002988615046(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM000e.mp3|NAME:That is quite enough!
+
+[DUP-INF]: ID=225341775161843812(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:vo\d\f\tHlo_DF073.mp3|NAME:Gods grant you justice, sera.
+
+[DUP-INF]: ID=226206782529517695(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF092.mp3|NAME:Come on, I haven't got all day to stand around and talk to you.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=227316612881414178(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF107.mp3|NAME:We are punished by the gods. The wind is our suffering.|SCVR:01590|INTV
+
+[DUP-INF]: ID=227442473675138642(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM200.mp3|NAME:If you insist...|BNAM:;resentful and sour
+
+[DUP-INF]: ID=227996602190712519(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF095.mp3|NAME:Let's hear it.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=229261378201620705(Voice:idle)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM|SNAM:Vo\d\m\tIdl_DM002.mp3|NAME:Try me, and you'll regret it.|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=230069981570812928(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM189.mp3|NAME:Excuse me. Did you say something?|SCVR:02sX5Random100|INTV:(|BNAM:;civil, casual
+
+[DUP-INF]: ID=235905311525329570(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM174.mp3|NAME:I can spare a few moments if you care to talk.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=236133080258187232(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM119.mp3|NAME:Muthsera?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=239228821042023482(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM011.mp3|NAME:I guess you get used to the smell after a while.|SCVR:02sX5Random100|INTV:<
+
+[DUP-INF]: ID=239681420492001925(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:vo\d\f\tHlo_DF063.mp3|NAME:Keep a civil tongue, sera.|SCVR:02sX5Random100|INTV:2
+
+[DUP-INF]: ID=244634677265991640(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF039.mp3|NAME:Why do you outlanders think you can bother anyone you please?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=245131847930554364(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF012.mp3|NAME:Groan.|SCVR:01043|INTV|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=25;Random>=20
+
+[DUP-INF]: ID=245791137199484005(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Flw_DF002.mp3|NAME:Please, be careful!|SCVR:01660|INTV
+
+[DUP-INF]: ID=245799431246342623(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\m\Hlo_DM227.mp3|NAME:Where would you like to go?|BNAM:;Class=Caravaner
+
+[DUP-INF]: ID=245802796964719824(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF175.mp3|NAME:What do you want, outlander?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=247852126445661748(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM188.mp3|NAME:Go ahead. I'm waiting.|SCVR:02sX5Random100|INTV|BNAM:;civil, casual
+
+[DUP-INF]: ID=252121330478132677(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM012.mp3|NAME:Ugh!|SCVR:01045|INTV|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=25;Random>=20
+
+[DUP-INF]: ID=252162758750431662(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM023.mp3|NAME:She's not hard to look at.|SCVR:11440|INTV:|BNAM:;admiring the PC
+
+[DUP-INF]: ID=253218702057212545(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF096.mp3|NAME:What is it, sera?
+
+[DUP-INF]: ID=253859651715224213(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:vo\d\f\tHlo_DF052.mp3|NAME:Speak well of me, sera.|SCVR:02sX5Random100|INTV: 
+
+[DUP-INF]: ID=258317420734314469(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM|SNAM:Vo\d\m\tHlo_DM074.mp3|NAME:Justice never sleeps.|SCVR:02sX5Random100|INTV:2|BNAM:;guard
+
+[DUP-INF]: ID=258392469314723189(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM030.mp3|NAME:Must you be so annoying? Go away.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=258499197212989024(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Idl_DF006.mp3|NAME:There is someone watching me. I can tell.|SCVR:02sX3Random100|INTV:P|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=259315078120479894(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF082.mp3|NAME:Speak, traveller.
+
+[DUP-INF]: ID=261129637916211901(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM191.mp3|NAME:How are you today?|SCVR:02sX5Random100|INTV:<|BNAM:;civil, casual
+
+[DUP-INF]: ID=261781911568573762(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM208.mp3|NAME:Your wounds seem serious. You should find healing.|SCVR:01075|INTV: |BNAM:;PCHealthPercent<=10
+
+[DUP-INF]: ID=264371031542596250(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF193.mp3|NAME:Is there something I can do for you?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=265463211842905016(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF010.mp3|NAME:Your pain is nearing an end!|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:2|BNAM:;PCRace=10[WoodElf]Dialog is placeholder - experiment
+
+[DUP-INF]: ID=266595803157412332(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF060.mp3|NAME:I do not speak with vagrants.|SCVR:01423|INTV|BNAM:;NPCReputation>=80;ClothingMod>=2000
+
+[DUP-INF]: ID=267612020279748330(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM012.mp3|NAME:Find a healer and stop bothering me.|SCVR:01075|INTV:2|BNAM:;PCHealthPercent<=50
+
+[DUP-INF]: ID=271238701958428636(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM070.mp3|NAME:Do you want something?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=274972929086178271(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM078.mp3|NAME:I suppose you're looking for a tavern. I'm sure I can't help you.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=275115202623629008(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF063.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+
+[DUP-INF]: ID=278408455284285101(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM006.mp3|NAME:Argh!|SCVR:01045|INTV:2
+
+[DUP-INF]: ID=279522214910710649(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM023.mp3|NAME:You must be joking. Bother someone else.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=281739623071221079(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM180.mp3|NAME:Do you need something, outlander?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=285581836421868443(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Thief Service|SNAM:Vo\d\m\Srv_DM045.mp3|NAME:Do not waste my time.|BNAM:;Thief
+
+[DUP-INF]: ID=285583809185213180(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF016.mp3|NAME:He's not hard to look at.|SCVR:11440|INTV:|BNAM:;admiring the PC
+
+[DUP-INF]: ID=288918185757411443(Topic:errand)
+  |DATA|ONAM:sharn gra-muzgob|NAME:The errand, then, is very simple. I need the skull of Llevule Andrano. You'll find it in Andrano Ancestral Tomb. But take care not to upset the natives. The Dunmer have some peculiar primitive prejudices against necromancy, and take grave objection to unauthorized tomb visits.|SCVR:34JX3A1_4_MuzgobInformant|INTV|BNAM:Journal, "A1_4_MuzgobInformant", 10  addtopic necromancers
+
+[DUP-INF]: ID=289887302589511501(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF047.mp3|NAME:What now?
+
+[DUP-INF]: ID=291001423447417397(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM004.mp3|NAME:Uh-oh!|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=292023003124446843(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF086.mp3|NAME:Quickly, outlander. I haven't much time.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=292028148283029527(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF054.mp3|NAME:Make it quick, Argonian.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1[Argonian]
+
+[DUP-INF]: ID=294989958105439681(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF115.mp3|NAME:A healer can ease your suffering.|SCVR:01075|INTV: |BNAM:;PCHealthPercent<=10
+
+[DUP-INF]: ID=297152788069701204(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Nightblade Service|SNAM:Vo\d\m\Srv_DM030.mp3|NAME:Leave me, before you feel my dagger in your flesh!|BNAM:;Nightblade
+
+[DUP-INF]: ID=298058928683718574(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Trader Service|SNAM:Vo\d\m\Srv_DM049.mp3|NAME:Care to trade?
+
+[DUP-INF]: ID=300991077331601466(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Drillmaster Service|SNAM:Vo\d\m\Srv_DM015.mp3|NAME:Do not disturb me.|BNAM:;Drillmaster
+
+[DUP-INF]: ID=302284614697117435(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Monk Service|SNAM:Vo\d\m\Srv_DM027.mp3|NAME:Find someone else to bother.|BNAM:;Monk Service
+
+[DUP-INF]: ID=302691137358184803(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM008.mp3|NAME:I have no time for you, Argonian.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1[Argonian]
+
+[DUP-INF]: ID=303772296246314787(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Seyda Neen|SNAM:vo\d\m\Hlo_DM139.mp3|NAME:What do you think of our village, outlander?|BNAM:;Cell=Seyda Neen;
+
+[DUP-INF]: ID=304058452274804742(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:Vo\d\m\tHlo_DM094.mp3|NAME:I will hear your question.|SCVR:02sX5Random100|INTV:(
+
+[DUP-INF]: ID=305411654181884341(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM182.mp3|NAME:Walk with virtue, outlander.
+
+[DUP-INF]: ID=307512674024856637(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF003.mp3|NAME:What's SHE doing here?|SCVR:02sX3Random100|INTV:P|SCVR:11440|INTV
+
+[DUP-INF]: ID=309987732731822005(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM008.mp3|NAME:Probably nothing.|SCVR:02sX3Random100|INTV:Z|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=315429440117462959(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF035.mp3|NAME:Keep moving, scum.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=315997384137626635(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM011.mp3|NAME:You will die.|SCVR:02sX3Random100|INTV:K|BNAM:;Random100>=20
+
+[DUP-INF]: ID=319161461075418437(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM069.mp3|NAME:Go away, diseased creature!|SCVR:01400|INTV|BNAM:;PCCommonDisease=0
+
+[DUP-INF]: ID=320121663358025821(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF147.mp3|NAME:Is there something you need?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=326442658043532336(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF221.mp3|NAME:How wonderful! Welcome, outlander.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=332019109317014973(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF071.mp3|NAME:You talk too much, outlander.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=360426901176632471(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF049.mp3|NAME:Make it quick, Orc.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[DUP-INF]: ID=361915921417210775(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:Vo\d\m\tHlo_DM084.mp3|NAME:Gods grant you justice, sera.
+
+[DUP-INF]: ID=377929908299716991(Voice:hello)
+  |DATA|RNAM:High Elf|SNAM:Vo\h\f\Hlo_HF000e.mp3|NAME:Get out of here.
+
+[DUP-INF]: ID=394721115684723954(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF066.mp3|NAME:Find a healer and stop bothering me.|SCVR:01075|INTV:2|BNAM:;PCHealthPercent<=50
+
+[DUP-INF]: ID=396322129239289569(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Slave|SNAM:vo\d\m\Hlo_DM112.mp3|NAME:Do you need a servant, master?|BNAM:;Class=Slave
+
+[DUP-INF]: ID=397621578821423646(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF206.mp3|NAME:Are you all right, outlander? You might have a healer tend those wounds.|SCVR:01075|INTV:K|BNAM:;PCHealthPercent<=75
+
+[DUP-INF]: ID=401877031302316784(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM079.mp3|NAME:What now?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=426315874246231239(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Fle_DM005.mp3|NAME:You will be disgraced for this!
+
+[DUP-INF]: ID=430090081646531708(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF161.mp3|NAME:Are you all right, outlander? You might have a healer tend those wounds.|SCVR:01075|INTV:K|BNAM:;PCHealthPercent<=75
+
+[DUP-INF]: ID=433716731688828394(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF164.mp3|NAME:I'm listening.|BNAM:;civil, casual
+
+[DUP-INF]: ID=449824379251421717(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Publican|SNAM:vo\d\m\Hlo_DM232.mp3|NAME:Tell your friends about this place.|SCVR:02sX3Random100|INTV:<|BNAM:;Class=Publican;Random100>=60
+
+[DUP-INF]: ID=458140051983920890(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM190.mp3|NAME:Excuse me. I was just thinking...|SCVR:02sX5Random100|INTV:2|BNAM:;civil, casual
+
+[DUP-INF]: ID=464086111711723288(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM004.mp3|NAME|SCVR:02sX5Random100|INTV:F|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=480311581823216025(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM059.mp3|NAME:Yes, sir?|SCVR:01380|INTV
+
+[DUP-INF]: ID=490528780934731000(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Priest Service|SNAM:Vo\d\m\Srv_DM031.mp3|NAME:Greetings, outlander. Do you seek my services?|BNAM:;Priest
+
+[DUP-INF]: ID=493434092811922505(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM024.mp3|NAME:If I worked out, I'd look that way, too...|SCVR:11440|INTV|BNAM:;envious of PC's physique
+
+[DUP-INF]: ID=493714766277457563(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF185.mp3|NAME:I am never too busy for good talk.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=497832077299555043(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\m\Hlo_DM132.mp3|NAME:Why walk when you can ride?|SCVR:02sX3Random100|INTV:2|BNAM:;Class=Caravaner
+
+[DUP-INF]: ID=498065821382627850(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF012.mp3|NAME:You will die!|SCVR:02sX3Random100|INTV:F|BNAM:;Random100>=40
+
+[DUP-INF]: ID=511629511040212454(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM038.mp3|NAME:Find someone else to bother.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=511813397160725122(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF018.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+
+[DUP-INF]: ID=518143721474127056(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM003.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=525779721466624716(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF004.mp3|NAME:What's HE doing here?|SCVR:02sX3Random100|INTV:P|SCVR:11440|INTV:
+
+[DUP-INF]: ID=526016412920126854(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Pelagiad|SNAM:vo\d\m\Hlo_DM133.mp3|NAME:Why have you come to Pelagiad?|BNAM:;Cell=Pelagiad
+
+[DUP-INF]: ID=530230356222187880(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF027.mp3|NAME:Filthy s'wit!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=533112367998519433(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF162.mp3|NAME:Excuse me. I was just thinking...|SCVR:02sX5Random100|INTV:2|BNAM:;civil, casual
+
+[DUP-INF]: ID=538824153299946416(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM012.mp3|NAME:Surrender your life to me and I will end your pain!|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=542226445133921015(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Pelagiad|SNAM:vo\d\f\Hlo_DF133.mp3|NAME:Why have you come to Pelagiad?|BNAM:;Cell=Pelagiad
+
+[DUP-INF]: ID=554263561949117991(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Fle_DM003.mp3|NAME:I cannot take anymore!|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=565327183318111759(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF156.mp3|NAME:You seek information, Cyrodil?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[DUP-INF]: ID=579824412211820233(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Drillmaster Service|SNAM:Vo\d\m\Srv_DM013.mp3|NAME:You have potential, outlander. Are you here for training?|BNAM:;Drillmaster
+
+[DUP-INF]: ID=582327105224577491(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF180.mp3|NAME:Do you need something, outlander?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=611010142688126891(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM013.mp3|NAME:That guy looks familiar....|SCVR:02sX3Random100|INTV:A|SCVR:11440|INTV
+
+[DUP-INF]: ID=621226933340724157(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF083.mp3|NAME:You dare betray the clan?|SCVR:01460|INTV|SCVR:11393|INTV|BNAM:;SameFaction;ExpFaction>=-2
+
+[DUP-INF]: ID=625719688482011201(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM048.mp3|NAME:Make it quick, Redguard.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=626330163484113756(Topic:daedra skin)
+  |DATA|ONAM:aryon|NAME:Excellent. Yes, this Daedra Skin will serve my purpose. Take these 300 drakes. You know, Daedra skins if not properly prepared can causes paralysis, a useful effect in some circumstances. Perhaps you would like to paralyze your enemies...|SCVR:01500|INTV|BNAM:Journal HT_DaedraSkin 100  Player->RemoveItem Ingred_Daedra_Skin_01 1  AddItem Ingred_Daedra_Skin_01 1  Player->AddItem Gold_001 300  ModPCFacRep 5 "Telvanni"  ModDisposition 5  Choice "Teach me how to paralyze." 3 "Nevermind." 4
+
+[DUP-INF]: ID=634430673548517187(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF024.mp3|NAME:Whatever it is, I'm not interested.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=637969082380017715(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF014.mp3|NAME:Gasp.|SCVR:01043|INTV|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=25;Random>=60
+
+[DUP-INF]: ID=645914207311298556(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM113.mp3|NAME:You've been wounded.|SCVR:01075|INTV:K|BNAM:;PCHealthPercent<=75
+
+[DUP-INF]: ID=652273602735120076(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF052.mp3|NAME:Make it quick, Cyrodil.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[DUP-INF]: ID=669919940278129347(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF051.mp3|NAME:Make it quick, Khajit.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[DUP-INF]: ID=684448321886722109(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF067.mp3|NAME:Drop dead or find a healer. I do not wish to be bothered.|SCVR:01075|INTV: |BNAM:;PCHealthPercent<=10
+
+[DUP-INF]: ID=713063052883818311(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:vo\d\f\tHlo_DF061.mp3|NAME:You have a question.
+
+[DUP-INF]: ID=720919475141138618(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF025.mp3|NAME:Go now.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=734269062208720607(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF162.mp3|NAME:What happened to you, outlander? You should find healing.|SCVR:01075|INTV:2|BNAM:;PCHealthPercent<=50
+
+[DUP-INF]: ID=734714150838217333(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF194.mp3|NAME:You have my attention, outlander.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=753818976300886755(Voice:idle)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM|SNAM:Vo\d\m\tIdl_DM001.mp3|NAME:The Lords' will be done. See to it.|SCVR:02sX3Random100|INTV:K
+
+[DUP-INF]: ID=755415996140266211(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF220.mp3|NAME:You flatter me with your attention, outlander.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=760319011313874228(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM016.mp3|NAME:Tidings.|SCVR:02sX3Random100|INTV:U
+
+[DUP-INF]: ID=785740792786316361(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM130.mp3|NAME:Why are you here?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=803832722500131014(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF114.mp3|NAME:Your wounds should be treated. Find a healer.|SCVR:01075|INTV:2|BNAM:;PCHealthPercent<=50
+
+[DUP-INF]: ID=803927770170081107(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM013.mp3|NAME:What words do you have for me, citizen?|SCVR:02sX3Random100|INTV:F
+
+[DUP-INF]: ID=804217252842722312(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF005.mp3|NAME:It's a scribby trick, all right.|SCVR:02sX3Random100|INTV:K
+
+[DUP-INF]: ID=809921131039122343(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM010.mp3|NAME:That stupid wolf got blood all over me.|SCVR:02sX5Random100|INTV:2
+
+[DUP-INF]: ID=819529907315763419(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF210.mp3|NAME:Welcome friend. We extend you our warm regards.|SCVR:01460|INTV|BNAM:;SameFaction=1
+
+[DUP-INF]: ID=845932510185217096(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Publican|SNAM:vo\d\m\Hlo_DM231.mp3|NAME:Please have a look around.|SCVR:02sX3Random100|INTV|BNAM:;Class=Publican;Random100>=30
+
+[DUP-INF]: ID=855212528951528833(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF172.mp3|NAME:Three blessings, sera.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=864124413152019289(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM035.mp3|NAME:Keep moving, scum.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=876442932119414429(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM003.mp3|NAME:We're watching you. Scum.
+
+[DUP-INF]: ID=886719224292097501(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM215.mp3|NAME:I see this land suits you. We welcome you freely, outlander.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=887215661586327341(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF154.mp3|NAME:You seek information, Nord?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[DUP-INF]: ID=904247302988426822(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=905976682600523046(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM056.mp3|NAME:Make it quick, Bosmer.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=926915689227502988(Voice:intruder)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\ord\Int_ORM002.mp3|NAME:What are you doing? Get out!|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=933224441298505104(Voice:flee)
+  |DATA|RNAM:Argonian|SNAM:vo\k\m\bFle_KM004.mp3|NAME|SCVR:01650|INTV|BNAM:;scared
+
+[DUP-INF]: ID=961022628109010186(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:Vo\d\m\tHlo_DM096.mp3|NAME:Do you have a question for me, sera?|SCVR:02sX5Random100|INTV: 
+
+[DUP-INF]: ID=961610326284295759(Topic:my trade)
+  |DATA|CNAM:Merchant|NAME:I am a merchant. I look for goods that are well-made, that people want to buy, that I can buy and sell at a profit. There are many different kinds of materials I can buy and sell -- animal products, vegetable products, mineral products, even exotic products. Crafts and manufactured goods I deal in include weapons, armor, clothing, books, potions, enchanted items, and various housewares. I travel, talk with people I meet, buy what I like, and sell what people like.|SCVR:0CsX0NoLore|INTV:|BNAM:;Merchant; generic merchants do not have services, and do not buy and sell; they are just merchant quest and scenery characters
+
+[DUP-INF]: ID=970815823134058024(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF038.mp3|NAME:Find someone else to bother.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=973631883109429381(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF006.mp3|NAME:Maybe if I just stand here, nobody will notice.|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=977711389524527368(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Alchemist Service|SNAM:Vo\d\m\Srv_DM051.mp3|NAME:See something you like?
+
+[DUP-INF]: ID=980816721223929681(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Monk Service|SNAM:Vo\d\m\Srv_DM025.mp3|NAME:I am blessed to be at your service, outlander.|BNAM:;Monk Service
+
+[DUP-INF]: ID=987517970210075768(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF079.mp3|NAME:What now?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=990250891358418697(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Sorcerer Service|SNAM:Vo\d\m\Srv_DM042.mp3|NAME:You are an annoyance. Leave, or I shall call for the guards!|BNAM:;Sorcerer - Check normalization on this asset.
+
+[DUP-INF]: ID=992212726196988824(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF108.mp3|NAME:It would be wise to stay indoors, outlander.|SCVR:01590|INTV
+
+[DUP-INF]: ID=999875582492024740(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM003.mp3|NAME:Hungh!|SCVR:02sX3Random100|INTV:(|SCVR:11650|INTV
+
+[DUP-INF]: ID=1014712935322483477(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF002.mp3|NAME:Eeek|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+
+[DUP-INF]: ID=1026818401119219357(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Alchemist Service|SNAM:Vo\d\m\Srv_DM052.mp3|NAME:May I interest you in something?
+
+[DUP-INF]: ID=1034427135375223592(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Alchemist Service|SNAM:Vo\d\m\Srv_DM001.mp3|NAME:I would be honored to trade wares with you.|BNAM:;Alchemist Service
+
+[DUP-INF]: ID=1047217734257044162(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=1050826403198377744(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF043.mp3|NAME:What is it with these thick-headed outlanders?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=1076232334508224155(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Trader Service|SNAM:Vo\d\m\Srv_DM046.mp3|NAME:Welcome, outlander. I've special prices just for you today.|BNAM:;Trader
+
+[DUP-INF]: ID=1078511771950617081(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM006.mp3|NAME:How'd that get there?|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=1081224484313117216(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM190.mp3|NAME:Please, go ahead, outlander, I'm listening.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1089419139468523483(Topic:sload soap)
+  |DATA|ONAM:arara uvulas|NAME:I have all the sload soap I need right now.|SCVR:34JX3HT_SloadSoap|INTV:d
+
+[DUP-INF]: ID=1092418785295565404(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF005.mp3|NAME:This is the end of you, s'wit.|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=1100314420629520408(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF127.mp3|NAME:Can we hurry this up?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=1105129566380014819(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM019.mp3|NAME:Greetings. I am at your service.|SCVR:02sX3Random100|INTV:7
+
+[DUP-INF]: ID=1107716964161284264(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM218.mp3|NAME:May you find me worthy of your attention.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1112268533238512007(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM089.mp3|NAME:Speak quickly, outlander, or go away.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=1126716677714412729(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF094.mp3|NAME:I've got better things to do, so, if you don't mind, let's move this along.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=1135927111883431224(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM092.mp3|NAME:Come on, I haven't got all day to stand around and talk to you.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=1153286862296527868(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF009.mp3|NAME:Why should I tell him? What's he done for ME lately?|SCVR:02sX5Random100|INTV:-
+
+[DUP-INF]: ID=1154315842447929619(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM009.mp3|NAME:Your pain is nearing an end.|SCVR:01075|INTV|SCVR:12sX3Random100|INTV|BNAM:;PCRace=1;[argonian]
+
+[DUP-INF]: ID=1163494592119719880(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM014.mp3|NAME:Ungh!|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:K|BNAM:;Health Percent>=25;Random>=60
+
+[DUP-INF]: ID=1200421650241512739(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM018.mp3|NAME:Ahh... ahh... CHUE!|SCVR:02sX3Random100|INTV:-|BNAM:;trying to suppress a sneeze
+
+[DUP-INF]: ID=1223927221166917067(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM226.mp3|NAME:What an unexpected surprise! Please, go ahead outlander.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1233553441307312965(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF042.mp3|NAME:I'm sure there's someone else you can bother.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1259596122413728383(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Nightblade Service|SNAM:Vo\d\m\Srv_DM028.mp3|NAME:I've a great selection that you'll find especially useful, outlander.|BNAM:;Nightblade
+
+[DUP-INF]: ID=1271516649277665413(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Sorcerer Service|SNAM:Vo\d\m\Srv_DM040.mp3|NAME:Welcome, friend. What can I sell you today?|BNAM:;Sorcerer
+
+[DUP-INF]: ID=1282210422208319210(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+
+[DUP-INF]: ID=1287324542497913427(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Fle_DF001.mp3|NAME:This will not go unnoticed, you will be disgraced for this.|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=1303426561223693246(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM042.mp3|NAME:I'm sure there's someone else you can bother.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1317984601670831320(Voice:hit)
+  |DATA|RNAM:High Elf|SNAM:vo\h\f\Hit_HF015.mp3|NAME:Hiss.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=25;Random>=80
+
+[DUP-INF]: ID=1322559291503219881(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM163.mp3|NAME:Your wounds seem serious. You should find healing.|SCVR:01075|INTV: |BNAM:;PCHealthPercent<=10
+
+[DUP-INF]: ID=1324486922653426269(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Publican|SNAM:vo\d\f\Hlo_DF231.mp3|NAME:Please have a look around.|SCVR:02sX3Random100|INTV|BNAM:;Class=Publican;Random100>=30
+
+[DUP-INF]: ID=1324598483042310465(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM087.mp3|NAME:I will listen, outlander, but make it quick.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1331921972954511463(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Hlo_DF000b.mp3|NAME:Humph!|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=1343018478849011916(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF166.mp3|NAME:You carry an infection, outlander. You should leave before you make other sick.|SCVR:01400|INTV|BNAM:;PCCommonDisease=1
+
+[DUP-INF]: ID=1357920741955928899(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:vo\d\f\tHlo_DF050.mp3|NAME:I trust we speak in confidence, sera?|SCVR:02sX5Random100|INTV:F
+
+[DUP-INF]: ID=1374523652743911676(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF045.mp3|NAME:I'm late for an appointment. Hopefully somewhere away from you.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=1404649841717813165(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM205.mp3|NAME:A warm welcome to you, sera.|SCVR:01450|INTV|SCVR:11440|INTV:|BNAM:;SameRace=0;SameSex=1
+
+[DUP-INF]: ID=1405623581293053334(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM018.mp3|NAME:Your actions bring a price on your head. This is not our way, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=1000
+
+[DUP-INF]: ID=1406311844660613561(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Healer Service|SNAM:Vo\d\m\Srv_DM021.mp3|NAME:Who let you in here? Get out!|BNAM:;Healer
+
+[DUP-INF]: ID=1446721679657524862(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF021.mp3|NAME:Bothersome creature.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=1462179771592225538(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM001.mp3|NAME:Now you die.|SCVR:01075|INTV
+
+[DUP-INF]: ID=1462214961303712429(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF064.mp3|NAME:I don't wish to be seen with you.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[DUP-INF]: ID=1470721697254192970(Topic:little advice)
+  |DATA|ONAM:svenja_outside|NAME:Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't...something inside waiting for you. Be ready for a fight.
+
+[DUP-INF]: ID=1473040422707912654(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Idl_DF002.mp3|NAME:Sniff.|SCVR:02sX3Random100|INTV:(|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=1475324858105069545(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\CrAtk_DF002.mp3|NAME:Rarrgh!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV:<
+
+[DUP-INF]: ID=1476516584312357351(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM011.mp3|NAME:Move along.|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=1476831833626717527(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM183.mp3|NAME:Please, join me.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=1486326615842614676(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM159.mp3|NAME:You seek information, Bosmer?|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=1503530981176432784(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM187.mp3|NAME:What do you want of me, outlander?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=1506951621158022306(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF153.mp3|NAME:Happy to help. What's your problem?|SCVR:02sX5Random100|INTV:(|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=1528811580271405205(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF011.mp3|NAME:Your wounds are minor compared to what you will receive if you continue to bother me.|SCVR:01075|INTV:K|BNAM:;PCHealthPercent<=75
+
+[DUP-INF]: ID=1534418699279689891(Voice:idle)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM|SNAM:Vo\d\m\tIdl_DM003.mp3|NAME:A hard judge, but fair.|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=1539255443051125082(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM192.mp3|NAME:I'm listening.|BNAM:;civil, casual
+
+[DUP-INF]: ID=1551297753175530918(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM009.mp3|NAME:Groan!|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+
+[DUP-INF]: ID=1562277982705521025(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF105.mp3|NAME:What is this regarding, Bosmer?|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=1563927109305858101(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:#|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=1574275632898628955(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF013.mp3|NAME:Drop dead or find a healer. I do not wish to be bothered.|SCVR:01075|INTV: |BNAM:;PCHealthPercent<=10
+
+[DUP-INF]: ID=1596416970312711620(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF008.mp3|NAME:Groan.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+
+[DUP-INF]: ID=1618322559133506808(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Seyda Neen|SNAM:vo\d\f\Hlo_DF139.mp3|NAME:What do you think of our village, outlander?|BNAM:;Cell=Seyda Neen;
+
+[DUP-INF]: ID=1621519630226086414(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF168.mp3|NAME:Talk is cheap.|SCVR:02sX5Random100|INTV:2|BNAM:;barely civil
+
+[DUP-INF]: ID=1625523967139079419(Voice:idle)
+  |DATA|RNAM:Nord|SNAM:vo\n\m\Idl_NM009.mp3|NAME:Humm.|BNAM:;Random>=90
+
+[DUP-INF]: ID=1651160542337827755(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF103.mp3|NAME:What is this regarding, Altmer?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[DUP-INF]: ID=1674235593199525989(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\Hlo_DF228.mp3|NAME:Why walk when you can ride?|SCVR:02sX3Random100|INTV|BNAM:;Class=Caravaner;Random100>=30
+
+[DUP-INF]: ID=1753101452036219639(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF006.mp3|NAME:If she had teeth, she'd be a dog.|SCVR:02sX3Random100|INTV:F
+
+[DUP-INF]: ID=1762130295791810215(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF004.mp3|NAME|SCVR:02sX5Random100|INTV:A|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=1782928092421129212(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM039.mp3|NAME:Why do you outlanders think you can bother anyone you please?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=1796526627305507603(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF119.mp3|NAME:Muthsera?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=1800827408173925837(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM146.mp3|NAME:Yes, outlander, what do you want?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=1821322883876523953(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM189.mp3|NAME:Yes, outlander, what may I do for you?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=1857464371372111723(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF109.mp3|NAME:It would be wise to stay indoors, outlander.|SCVR:01590|INTV
+
+[DUP-INF]: ID=1869225672702830203(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF205.mp3|NAME:A warm welcome to you, sera.|SCVR:01450|INTV|SCVR:11440|INTV:|BNAM:;SameRace=1;SameSex=0
+
+[DUP-INF]: ID=1881925781220520422(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Thief Service|SNAM:Vo\d\m\Srv_DM043.mp3|NAME:Searching for special tools? My prices are the best!|BNAM:;Thief
+
+[DUP-INF]: ID=1886232155254092980(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM097.mp3|NAME:Yes, madame? What is it?|SCVR:01440|INTV
+
+[DUP-INF]: ID=1888220718252088814(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF003.mp3|NAME:Die, fetcher.|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=1891115641969931021(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM051.mp3|NAME:Make it quick, Khajit.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[DUP-INF]: ID=1905968842607317408(Topic:background)
+  |DATA|ONAM:sadas mavandes|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=1914614209132315352(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF012.mp3|NAME:Gods, that itches.|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=1918091441523522026(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM008.mp3|NAME:Grunt!|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=50;Random>=40
+
+[DUP-INF]: ID=1921628836173921069(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Mage Service|SNAM:Vo\d\m\Srv_DM024.mp3|NAME:We have nothing to discuss.|BNAM:;Mage Service
+
+[DUP-INF]: ID=1931431333299678388(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM144.mp3|NAME:Our kinship is over, outlander.|SCVR:01460|INTV|SCVR:11390|INTV|BNAM:;SameFaction;PC Expelled>=-2
+
+[DUP-INF]: ID=1934822050163131322(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM016.mp3|NAME:I'm so hungry I could eat a rat.|SCVR:02sX3Random100|INTV:7
+
+[DUP-INF]: ID=1940913822979811863(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF181.mp3|NAME:Hello.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1946329147148328494(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM000c.mp3|NAME:Hmmph.|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=1954693731129224059(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Healer Service|SNAM:Vo\d\m\Srv_DM020.mp3|NAME:Perhaps I can be of assistance?|BNAM:;Healer
+
+[DUP-INF]: ID=1967024612652620226(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM211.mp3|NAME:Impressive. These clothes suit you well.|SCVR:01423|INTV|BNAM:;ClothingMod>=2000
+
+[DUP-INF]: ID=1981910811224120403(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM155.mp3|NAME:You seek information, Khajiit?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[DUP-INF]: ID=2005091232220727166(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM110.mp3|NAME:Under sun and sky, outlander. We greet you warmly.|SCVR:01590|INTV
+
+[DUP-INF]: ID=2023143141588526589(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM041.mp3|NAME:Oh, come on. Leave me alone.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=2030924446162022004(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM003.mp3|NAME:Ah... ah... AH... CHOOOO!|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=2043642502037723323(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM026.mp3|NAME:What, n'wah?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=2047114531237787999(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM002.mp3|NAME:The sun shines every day in hell.|SCVR:02sX5Random100|INTV: 
+
+[DUP-INF]: ID=2051042042193614495(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM082.mp3|NAME:Speak, traveller.
+
+[DUP-INF]: ID=2056722926397718930(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM004.mp3|NAME:Ha!|SCVR:02sX3Random100|INTV|SCVR:11650|INTV
+
+[DUP-INF]: ID=2058170453002326477(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF098.mp3|NAME:What is this regarding, Redguard?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=2058314982304915891(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM145.mp3|NAME:May I help you?
+
+[DUP-INF]: ID=2082266311300432412(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM185.mp3|NAME:Yes?|SCVR:02sX5Random100|INTV:P|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=2086911185125338815(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF023.mp3|NAME:You must be joking. Bother someone else.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=2092131197264355231(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF207.mp3|NAME:What happened to you, outlander? You should find healing.|SCVR:01075|INTV:2|BNAM:;PCHealthPercent<=50
+
+[DUP-INF]: ID=2098429973123916938(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM001.mp3|NAME:Arrgh.|SCVR:01043|INTV:2
+
+[DUP-INF]: ID=2099916725101895060(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:Vo\d\m\tHlo_DM112.mp3|NAME:In faith, I'm listening...|SCVR:02sX5Random100|INTV:P
+
+[DUP-INF]: ID=2129022906207357007(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:vo\d\f\tHlo_DF074.mp3|NAME:I'll judge your words fairly, sera.|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=2145372522763413208(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Healer Service|SNAM:Vo\d\m\Srv_DM019.mp3|NAME:You have my blessings, outlander. How about a potion today?|BNAM:;Healer
+
+[DUP-INF]: ID=2159023343048323522(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:vo\d\f\tHlo_DF044.mp3|NAME:Do you have a question for me, sera?|SCVR:02sX5Random100|INTV: 
+
+[DUP-INF]: ID=2166427690475520771(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF217.mp3|NAME:A warm welcome to you.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=2183917571133326458(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\CrAtk_DF005.mp3|NAME:Die!|SCVR:01650|INTV
+
+[DUP-INF]: ID=2193310449284324779(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Assassin Service|SNAM:Vo\d\m\Srv_DM008.mp3|NAME:I'm willing to share my insights for the right price.|BNAM:;Assassin
+
+[DUP-INF]: ID=2194732642195410381(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM193.mp3|NAME:What is it now?|SCVR:02sX5Random100|INTV|BNAM:;barely civil
+
+[MOD-INF]: ID=2213823360915423866(Topic:destination)
+  morrowind.esm-------->|DATA|ONAM:ano andaram|NAME:My ship, the 'Frost-Ghost,' can carry you from Vivec to Ebonheart, Hla Oad, Molag Mar, and Tel Branora.|BNAM:;Dagon Fel; Haema Farseer; shipmaster
+  MD_Azurian Isles.esm->|DATA|ONAM:ano andaram|NAME|COCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOCKSCOC|KSBN
+
+[DUP-INF]: ID=2226653152328022426(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM009.mp3|NAME:Go on about your business.
+
+[DUP-INF]: ID=2234219623322893790(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM108.mp3|NAME:It would be wise to stay indoors, outlander.|SCVR:01590|INTV
+
+[DUP-INF]: ID=2266127555107146324(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF226.mp3|NAME:What an unexpected surprise! Please, go ahead, outlander.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=2270624350835412785(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM107.mp3|NAME:We are punished by the gods. The wind is our suffering.|SCVR:01590|INTV
+
+[DUP-INF]: ID=2272524875203396692(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Atk_DM013.mp3|NAME:You're beaten.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=60
+
+[DUP-INF]: ID=2296261412814524541(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM003.mp3|NAME:I have no time for you, Orc.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[DUP-INF]: ID=2297249551415826954(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM125.mp3|NAME:Outlander? What do you want?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=2302527282602927792(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\bFle_DF003.mp3|NAME|SCVR:02sX5Random100|INTV:K|SCVR:11650|INTV|BNAM:;annoyed
+
+[DUP-INF]: ID=2310910212975627004(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM129.mp3|NAME:What do you want?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=2310948532456931575(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF085.mp3|NAME:What do you want?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=2321289102698523730(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM192.mp3|NAME:Hello, outlander. May I help you?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=2322425229536713033(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF006.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, a quip
+
+[DUP-INF]: ID=2329619354899112578(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:vo\d\f\tHlo_DF060.mp3|NAME:In faith, I'm listening...|SCVR:02sX5Random100|INTV:P
+
+[DUP-INF]: ID=2338815619778817450(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM017.mp3|NAME:How may I help you citizen?|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=2349310294226681914(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM011.mp3|NAME:He's a hard man, all right.|SCVR:02sX3Random100|INTV:F|SCVR:11440|INTV
+
+[DUP-INF]: ID=2366165721044514041(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM094.mp3|NAME:I've got better things to do, so, if you don't mind, let's move this along.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=2367516120832616127(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF009.mp3|NAME:There is no escape!|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=2368921225580226052(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:Vo\d\m\tHlo_DM101.mp3|NAME:I have ears... I shall hear.|SCVR:02sX5Random100|INTV:<
+
+[DUP-INF]: ID=2369241622602432340(Topic:errand)
+  |DATA|ONAM:sharn gra-muzgob|NAME:Very good. I'll just take that skull from you. Perfect for what I have in mind. Thank you. Now. As I promised. I'll answer your questions on the Nerevarine cult. Go ahead.|SCVR:34JX3A1_4_MuzgobInformant|INTV: |SCVR:45IX3misc_Skull_Llevule|INTV|BNAM:Player->RemoveItem, "misc_skull_llevule", 1  Journal, "A1_4_MuzgobInformant", 15  Player->ModReputation 1  moddisposition 10
+
+[DUP-INF]: ID=2376064971045022669(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF171.mp3|NAME:Go on. I can't stop you.|SCVR:02sX5Random100|INTV:2|BNAM:;resentful and sour
+
+[DUP-INF]: ID=2389295992078015140(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM181.mp3|NAME:Hello.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=2391140521788210586(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF010.mp3|NAME:I have no time for you, Bosmer.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=2400726498161771165(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF164.mp3|NAME:I find your crimes distasteful, outlander. Perhaps you should leave.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+
+[DUP-INF]: ID=2401274741808014705(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM161.mp3|NAME:Are you all right, outlander? You might have a healer tend to those wounds.|SCVR:01075|INTV:K|BNAM:;PCHealthPercent<=75
+
+[DUP-INF]: ID=2411117524352413164(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF153.mp3|NAME:You seek information, Orc?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[DUP-INF]: ID=2442117310193072902(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM074.mp3|NAME:Whatever you're looking for, I'm sure I don't know how to find it.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=2444214002150447660(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF088.mp3|NAME:Make it quick, outlander.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=2444322577329923222(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Slave|SNAM:vo\d\m\Hlo_DM209.mp3|NAME:I would serve you humbly, master. Whatever your desire.|BNAM:;Class=Slave
+
+[DUP-INF]: ID=2451778091082228507(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF003.mp3|NAME:I have no time for you, Orc.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[DUP-INF]: ID=2470116042706917879(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF187.mp3|NAME:What do you want of me, outlander?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=2473928949216133986(Voice:idle)
+  |DATA|RNAM|SNAM|SCVR:02sX3Random100|INTV:U
+
+[DUP-INF]: ID=2482260751669011677(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM191.mp3|NAME:I suppose there's no harm in talking. What can I do for you?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=2494019481309619584(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM102.mp3|NAME:What is this regarding, Cyrodil?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[DUP-INF]: ID=2498820533204901837(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF015.mp3|NAME:Damn foreigners....|SCVR:02sX3Random100|INTV: 
+
+[DUP-INF]: ID=2517825622835821975(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM001.mp3|NAME:Grrrr.
+
+[DUP-INF]: ID=2524129082597430675(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Fle_DF005.mp3|NAME:This fight is over!
+
+[DUP-INF]: ID=2528268953174014540(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM007.mp3|NAME:Well, if it bothers you so much, just don't look at it, all right?|SCVR:02sX5Random100|INTV:#
+
+[DUP-INF]: ID=2539014601317514439(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF001.mp3|NAME:Now you die.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=2552819194298712485(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM153.mp3|NAME:You seek information, Orc?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[DUP-INF]: ID=2556269822377528534(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM224.mp3|NAME:Three blessings to you, outlander. This is a pleasure.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=2568625835639120818(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF192.mp3|NAME:Hello, outlander. May I help you?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=2569210656154817371(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF072.mp3|NAME:Say what you want or go away.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=2596719304256612853(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM007.mp3|NAME:I have no time for you, Altmer.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[DUP-INF]: ID=2599025214303327389(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM006.mp3|NAME:I have no time for you, Cyrodil.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[DUP-INF]: ID=2601296981172719298(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM018.mp3|NAME:Yes, citizen?|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=2603875941981510427(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM068.mp3|NAME:You are a fool to walk around like that.|SCVR:01425|INTV:|BNAM:;ClothingMod<=0
+
+[DUP-INF]: ID=2618299401539620401(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM010.mp3|NAME:What is it, citizen?|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=2646728986103633023(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM013.mp3|NAME:Unngh!|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:2|BNAM:;Health Percent>=25;Random>=40
+
+[DUP-INF]: ID=2654821365503220601(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM002.mp3|NAME:Umph!|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV|BNAM:;Health Percent>=50;Random>=20
+
+[DUP-INF]: ID=2665629082878418521(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF208.mp3|NAME:Your wounds seem serious. You should find healing.|SCVR:01075|INTV: |BNAM:;PCHealthPercent<=10
+
+[DUP-INF]: ID=2671412565237926589(Voice:thief)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\OP_DF001.mp3|NAME:Grab her!|SCVR:01380|INTV
+
+[DUP-INF]: ID=2672573881986030450(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM005.mp3|NAME:Die!|SCVR:02sX3Random100|INTV:_
+
+[DUP-INF]: ID=2675513083140462203(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM179.mp3|NAME:I'm not busy now. What do you need?|SCVR:02sX5Random100|INTV|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=2677921808100214765(Topic:morrowind lore)
+  |DATA|ONAM:holmar|NAME:Wha?
+
+[DUP-INF]: ID=2692123544175619496(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM012.mp3|NAME:She's a hard woman, all right.|SCVR:02sX3Random100|INTV:F|SCVR:11440|INTV:
+
+[DUP-INF]: ID=2697325428301618820(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM016.mp3|NAME:What is it, peasant?|SCVR:01425|INTV|BNAM:;NPCReputation>=10;ClothingMod>=250
+
+[DUP-INF]: ID=2703131751219628687(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM210.mp3|NAME:Welcome, friend. We extend you our warm regards.|SCVR:01460|INTV|BNAM:;SameFaction=1
+
+[DUP-INF]: ID=2710919751280131411(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM004.mp3|NAME|SCVR:01650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=2711129111247914430(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM126.mp3|NAME:What is this about?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=2715514195320916832(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM187.mp3|NAME:It's fine with me. Go ahead.|SCVR:02sX5Random100|INTV|BNAM:;civil, casual
+
+[DUP-INF]: ID=2716774672988528878(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Alchemist Service|SNAM:Vo\d\m\Srv_DM003.mp3|NAME
+
+[DUP-INF]: ID=2729680652687024408(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF055.mp3|NAME:Make it quick, Breton.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+
+[DUP-INF]: ID=2736311925233346629(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Idl_DF009.mp3|NAME:I could kill that guar. Those boots are ruined.|SCVR:02sX0Random100|INTV
+
+[DUP-INF]: ID=2738916327587212914(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM002.mp3|NAME:Sniff.|SCVR:02sX3Random100|INTV|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=2740918602635122742(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM006.mp3|NAME:There is someone watching me. I can tell.|SCVR:02sX3Random100|INTV:F|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=2757815454195443774(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF218.mp3|NAME:May you find me worthy of your attention.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=2764026069713418711(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Priest Service|SNAM:Vo\d\m\Srv_DM033.mp3|NAME:I find you foul and disgusting. Leave now.|BNAM:;Priest
+
+[DUP-INF]: ID=2764212607193513699(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF149.mp3|NAME:Go ahead, outlander. What do you need?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=2765413381364311260(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:vo\d\f\tHlo_DF082.mp3|NAME:You will ask me.|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=2769651912944322170(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:Vo\d\m\tHlo_DM046.mp3|NAME:You have a question.
+
+[DUP-INF]: ID=2783768921476312612(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF075.mp3|NAME:No. I don't think so.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=2787820037918618054(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hit_DM003.mp3|NAME:Omph!|SCVR:01660|INTV
+
+[DUP-INF]: ID=2804822735805526775(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM005.mp3|NAME:I have no time for you, Khajiit.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[DUP-INF]: ID=2807922701283918877(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM058.mp3|NAME:You have business here?|SCVR:01460|INTV|BNAM:;SameFaction=1
+
+[DUP-INF]: ID=2813262583147915247(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM091.mp3|NAME:I'm waiting.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=2817325370164307201(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=2845932675117064625(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Mage Service|SNAM:Vo\d\m\Srv_DM022.mp3|NAME:Warm greetings, outlander. Care to peruse my spells?|BNAM:;Mage Service
+
+[DUP-INF]: ID=2846821234306483453(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM188.mp3|NAME:May I help you, outlander?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=2861622642146527306(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF157.mp3|NAME:Yes?|SCVR:02sX5Random100|INTV:P|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=2879777012471927837(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF078.mp3|NAME:I suppose you're looking for a tavern. I'm sure I can't help you.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=2885614784114732056(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF100.mp3|NAME:What is this regarding, Nord?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[DUP-INF]: ID=2909160741821531903(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF003.mp3|NAME|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=2912823097322231232(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM012.mp3|NAME:*Pfbbbbbbbt*|SCVR:02sX5Random100|INTV:F|BNAM:;bi-labial fricative
+
+[DUP-INF]: ID=2915115749363721345(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM086.mp3|NAME:Quickly, outlander. I haven't much time.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=2930012394795821777(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF001.mp3|NAME:She's a hard woman, all right.|SCVR:02sX3Random100|INTV:Z|SCVR:11440|INTV
+
+[DUP-INF]: ID=2934928330181595655(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF106.mp3|NAME:What is this regarding, Argonian?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1[argonian]
+
+[DUP-INF]: ID=2946493943036525244(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF113.mp3|NAME:You've been wounded.|SCVR:01075|INTV:K|BNAM:;PCHealthPercent<=75
+
+[DUP-INF]: ID=2947819748410319534(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hit_DM002.mp3|NAME:Umph!|SCVR:01660|INTV
+
+[DUP-INF]: ID=2955372863090212663(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM049.mp3|NAME:Make it quick, Orc.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[DUP-INF]: ID=2960815777285969102(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Slave|SNAM:vo\d\f\Hlo_DF209.mp3|NAME:I would serve you humbly, master. Whatever your desire.|BNAM:;Class=Slave
+
+[DUP-INF]: ID=2971320602038625522(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF004.mp3|NAME:Ughn|SCVR:01045|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+
+[DUP-INF]: ID=2992730408848915825(Voice:thief)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Hlo_DF027.mp3|NAME:Filthy S'wit!
+
+[DUP-INF]: ID=3004120051663120883(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF157.mp3|NAME:You seek information, Altmer?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[DUP-INF]: ID=3012344692519232640(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM071.mp3|NAME:You talk too much, outlander.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=3016729234318109270(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM024.mp3|NAME:Whatever it is, I'm not interested.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=3029021781904610242(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM150.mp3|NAME:How are you?
+
+[DUP-INF]: ID=3030132032045916655(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF184.mp3|NAME:Go ahead, I'm listening.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=3039020753678017701(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF010.mp3|NAME:Did I leave that lamp on the desk burning?|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=3061622499306866555(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM180.mp3|NAME:Time to talk? I've a few minutes....|SCVR:02sX5Random100|INTV|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=3066490811055912948(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM005.mp3|NAME:Where is that slave?|SCVR:02sX3Random100|INTV:<|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=3080720414260628833(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF178.mp3|NAME:I suppose we can talk. What do you want?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=3082431588304597385(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM029.mp3|NAME:How rude!|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=3082719708695426962(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Assassin Service|SNAM:Vo\d\m\Srv_DM007.mp3|NAME:Outlander, I've heard much about you. Would you have need of my services?|BNAM:;Assassin
+
+[DUP-INF]: ID=3087105871361311020(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF011.mp3|NAME:Grunt.|SCVR:01043|INTV
+
+[DUP-INF]: ID=3094025911844312072(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF008.mp3|NAME:If he was a bag, he'd need kicking.|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=3108718284176786386(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM015.mp3|NAME:Praise Vivec!
+
+[DUP-INF]: ID=3118156792054213789(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM075.mp3|NAME:No. I don't think so.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=3141418152666115008(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM028.mp3|NAME:We end all talk now.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=3150613130162145912(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM206.mp3|NAME:Are you all right, outlander? You might have a healer tend those wounds.|SCVR:01075|INTV:K|BNAM:;PCHealthPercent<=75
+
+[DUP-INF]: ID=3161919944775010281(Voice:thief)
+  |DATA|RNAM:High Elf|SNAM:vo\h\f\Thf_HF005.mp3|NAME:There is no escape!|BNAM:;Replace asset
+
+[DUP-INF]: ID=3162876092185828804(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM156.mp3|NAME:You seek information, Cyrodil?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[DUP-INF]: ID=3195418253578425541(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM183.mp3|NAME:Whatever you want... within reason.|SCVR:02sX5Random100|INTV:<|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=3211723823187893392(Voice:thief)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Thf_DM003.mp3|NAME:You're finished!|SCVR:02sX3Random100|INTV:<|BNAM:;Replace asset
+
+[DUP-INF]: ID=3214428648818418455(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hit_DM011.mp3|NAME:Ungh!|SCVR:01660|INTV
+
+[DUP-INF]: ID=3223227974407625212(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM222.mp3|NAME:I don't know where to begin. It is such an honor to meet you.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=3233627432441721165(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF170.mp3|NAME:So good to see you.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=3285132211933812906(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF224.mp3|NAME:Three blessings to you, outlander. This is a pleasure.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=3317236842957528307(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF069.mp3|NAME:Go away, diseased creature!|SCVR:01400|INTV|BNAM:;PCCommonDisease=1
+
+[DUP-INF]: ID=3512167971953326681(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM175.mp3|NAME:What do you want, outlander?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=3682246331295314865(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM067.mp3|NAME:Drop dead or find a healer. I do not wish to be bothered.|SCVR:01075|INTV: |BNAM:;PCHealthPercent<=10
+
+[DUP-INF]: ID=3699284121503130338(Voice:intruder)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\ord\Int_ORM001.mp3|NAME:Intruder!
+
+[DUP-INF]: ID=3731265422435527704(Voice:flee)
+  |DATA|RNAM:High Elf|SNAM:vo\h\f\Fle_HF005.mp3|NAME:No!
+
+[DUP-INF]: ID=3894100631328823020(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM186.mp3|NAME:Mournhold! City of Light! City of Magic!|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=3971226751891927745(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM103.mp3|NAME:What is this regarding, Altmer?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[DUP-INF]: ID=3978185501077313601(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF186.mp3|NAME:Yes outlander, how do you do?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=3978316482762616653(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Drillmaster Service|SNAM:Vo\d\m\Srv_DM014.mp3|NAME:Do you seek training?|BNAM:;Drillmaster
+
+[DUP-INF]: ID=3990255981347530393(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF123.mp3|NAME:I'm listening. Go ahead.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=4163281421785426374(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF116.mp3|NAME:Do I know you?|SCVR:01033|INTV|BNAM:;PCReputation>=3
+
+[DUP-INF]: ID=4308193263001812896(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM027.mp3|NAME:Filthy s'wit!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[MOD-INF]: ID=4476159481439310829(Topic:daedra skin)
+  morrowind.esm-------->|DATA|ONAM:iniel|NAME:I can transport you instantaneously to the Mages Guild at Vivec, Caldera, Ald'ruhn, or Balmora.|BNAM:;Sadrith Mora; Iniel; guild guide
+  MD_Azurian Isles.esm->|DATA|ONAM:iniel|NAME:I can transport you instantaneously to the Mages Guild at Vivec, Caldera, Ald'ruhn, or Balmora.|BNAM:;Sadrith Mora; Iniel; guild guide  addtopic "restricted destination"
+
+[DUP-INF]: ID=4530112441963521716(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF196.mp3|NAME:Three blessings to you, Redguard.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=4554215342006917852(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF022.mp3|NAME:You waste your time. Go away.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=4690184901766527940(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\bFle_DM002.mp3|NAME:Get away, beast!|SCVR:02sX5Random100|INTV:2|SCVR:11650|INTV|BNAM:;scared
+
+[DUP-INF]: ID=4729122762921725740(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM040.mp3|NAME:I can already tell I'm not going to like this.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=4845224261423415490(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM015.mp3|NAME:[Belch.] Whew. I better lay off the mazte.|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=5031114452930327133(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM047.mp3|NAME:What now?
+
+[DUP-INF]: ID=5057172391803117055(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\bFle_DF004.mp3|NAME|SCVR:01650|INTV|BNAM:;scared
+
+[DUP-INF]: ID=5141299971651124029(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM013.mp3|NAME:Drop dead or find a healer. I do not wish to be bothered.|SCVR:01075|INTV: |BNAM:;PCHealthPercent<=10
+
+[DUP-INF]: ID=5432277741799212355(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF017.mp3|NAME:If I had the drakes, I could dress like that...|SCVR:11440|INTV|BNAM:;envious of PC outfit
+
+[DUP-INF]: ID=5719161842654419792(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Publican|SNAM:vo\d\m\Hlo_DM230.mp3|NAME:Our doors are always open.|BNAM:;Class=Publican
+
+[DUP-INF]: ID=5805209702697418977(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM181.mp3|NAME:Happy to help. What's your problem?|SCVR:02sX5Random100|INTV:(|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=5851159032600231346(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF013.mp3|NAME:He can afford it, the cheap fetcher....|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=5890219701136616651(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF124.mp3|NAME:Yes, outlander?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=6311285261367815172(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM006.mp3|NAME|ARRRR!|SCVR:02sX3Random100|INTV:(|BNAM:;PCRace=5[Imperial]
+
+[DUP-INF]: ID=6326226661525428899(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM194.mp3|NAME:Talk if you're talking.|SCVR:02sX5Random100|INTV|BNAM:;barely civil
+
+[DUP-INF]: ID=6633140862818921239(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM179.mp3|NAME:Tell me what you want.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=6811218251468712737(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:vo\d\f\tHlo_DF083.mp3|NAME:I will hear your question.|SCVR:02sX5Random100|INTV:(
+
+[DUP-INF]: ID=6968164812834110568(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM066.mp3|NAME:Find a healer, and stop bothering me.|SCVR:01075|INTV:2|BNAM:;PCHealthPercent<=50
+
+[DUP-INF]: ID=7289261121234826979(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM105.mp3|NAME:What is this regarding, Bosmer?|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=7354201082468917851(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:vo\d\f\tHlo_DF059.mp3|NAME:Let no falsehood spoil my ears, sera.|SCVR:02sX5Random100|INTV:F
+
+[DUP-INF]: ID=7493256733052021082(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF014.mp3|NAME:Oh, not AGAIN!|SCVR:02sX5Random100|INTV:Z|BNAM:;weary despair
+
+[DUP-INF]: ID=7595144292760211968(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF152.mp3|NAME:Time to talk? I've a few minutes....|SCVR:02sX5Random100|INTV|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=7634304781346015904(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM003.mp3|NAME:Sigh.|SCVR:02sX3Random100|INTV:(|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=7702202362571824655(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF120.mp3|NAME:You may speak.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=7735309551374030631(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM000a.mp3|NAME:No. You have no manners.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=7832103221311512038(Voice:thief)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Thf_DM004.mp3|NAME:That is quite enough thief!|SCVR:02sX3Random100|INTV:P|BNAM:;Replace asset
+
+[DUP-INF]: ID=7929132482193229548(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF216.mp3|NAME:This one honors us. Please. Speak.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=8173327471507011091(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF005.mp3|NAME:I think his one leg was longer than the other.|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=8191302791563031377(Topic:neloth)
+  |DATA|ONAM:neloth|NAME:Yes, yes, I'm Neloth. What do you want?
+
+[DUP-INF]: ID=8265154001322127821(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Priest Service|SNAM:Vo\d\m\Srv_DM032.mp3|NAME:My prices are reasonable.|BNAM:;Priest
+
+[DUP-INF]: ID=8338219672668223697(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM021.mp3|NAME:Woo-hoo-hoo-hoo!|SCVR:02sX3Random100|INTV|BNAM:;Making noises to amuse himself.
+
+[DUP-INF]: ID=8339251032862721921(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM032.mp3|NAME:You're joking, right? Why would I want to talk to you?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=8408191852724425881(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF087.mp3|NAME:I will listen, outlander, but make it quick.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=8425148811566024942(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM014.mp3|NAME:That gal looks familiar....|SCVR:02sX3Random100|INTV:A|SCVR:11440|INTV:
+
+[DUP-INF]: ID=8491292312602711610(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Fle_DF004.mp3|NAME:Let me live!|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=8593272231585024272(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM158.mp3|NAME:You seek information, Breton?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+
+[DUP-INF]: ID=8702158311262415515(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM005.mp3|NAME:This is the end of you, s'wit.|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:P
+
+[DUP-INF]: ID=8953179631391828671(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF059.mp3|NAME:Yes, sir?|SCVR:01380|INTV:|BNAM:;Rank>=1
+
+[DUP-INF]: ID=9048147703265317672(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:Vo\d\m\tHlo_DM085.mp3|NAME:I'll judge your words fairly, sera.|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=9165105611382118485(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF172.mp3|NAME:If you insist...|BNAM:;resentful and sour
+
+[DUP-INF]: ID=9186169003120532361(Voice:intruder)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Hlo_DF000e.mp3|NAME:Get out of here!
+
+[DUP-INF]: ID=9377185762673319884(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM106.mp3|NAME:What is this regarding, Argonian?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1[argonian]
+
+[DUP-INF]: ID=9415163682008620591(Voice:attack)
+  |DATA|RNAM:Imperial|SNAM:Vo\i\m\CrAtk_IM005.mp3|NAME:Die!|SCVR:01650|INTV
+
+[DUP-INF]: ID=9505200141496612963(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM164.mp3|NAME:I find your crimes distasteful, outlander. Perhaps you should leave.|SCVR:01433|INTV:d|BNAM:;PCCrimeLevel>=1000
+
+[DUP-INF]: ID=9519130492516824499(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM010.mp3|NAME:I have no time for you, Bosmer.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=9646288931859530641(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM225.mp3|NAME:You bring me good fortune, outlander. How may I be of service?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=9702242171250818867(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF156.mp3|NAME:If a few words can help, I'd be happy to talk.|SCVR:02sX5Random100|INTV:F|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=9738239042338123267(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Shipmaster|SNAM:Vo\d\m\Srv_DM039.mp3|NAME:If you don't leave, I'll toss you into the drink!|BNAM:;Shipmaster
+
+[DUP-INF]: ID=9775243291524320339(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF183.mp3|NAME:Please, join me.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=9782187182290312729(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM095.mp3|NAME:Let's hear it.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=9838256011233825852(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF160.mp3|NAME:Go ahead. I'm waiting.|SCVR:02sX5Random100|INTV|BNAM:;civil, casual
+
+[DUP-INF]: ID=9845319351035729969(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF130.mp3|NAME:Why are you here?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=10009131962334326864(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Savant Service|SNAM:Vo\d\m\Srv_DM036.mp3|NAME:I do not wish to talk with you.|BNAM:;Savant
+
+[DUP-INF]: ID=10022123362187631652(Topic:corkbulb)
+  |DATA|ONAM:Synnolian Tunifus|NAME:Corkbulb is a huge bulbous root that protrudes from the ground, with green foliage about man-high. It grows wild, but is easier to find in cultivated patches near the farmhouses of the Ascadian Isles. I think there's a big patch of it just north of Dren Plantation; that's on many maps. And remember: we have an agreement with the plantation owners that lets us collect the corkbulb, so don't be shy.
+
+[DUP-INF]: ID=10059186442513329931(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM090.mp3|NAME:My time is precious, so make it quick.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=10160166983150315710(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM169.mp3|NAME:You're actions precede you outlander. I've heard good things about you.|SCVR:01033|INTV|BNAM:;PCReputation>=11
+
+[DUP-INF]: ID=10188226862787511274(Topic:draramu hloran)
+  |DATA|ONAM:Varus Vatinius|NAME:Our spies say she is near Sadrith Mora.
+
+[DUP-INF]: ID=10268134292555032458(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM219.mp3|NAME:I'm very happy to make your acquaintance.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=10444299441987521699(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM152.mp3|NAME:You seek information, Redguard?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=10536122831106418796(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF222.mp3|NAME:I don't know where to begin. It is such an honor to meet you.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=10618105742947522797(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF012.mp3|NAME:Find a healer and stop bothering me.|SCVR:01075|INTV:2|BNAM:;PCHealthPercent<=50
+
+[DUP-INF]: ID=10684304523137110025(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM044.mp3|NAME:What hole did you crawl out of?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=10924273023043113826(Topic:my trade)
+  |DATA|ONAM:erich the unworthy|NAME:I'm a lover and a killer. What more is there in life?
+
+[DUP-INF]: ID=11016234672894430546(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM073.mp3|NAME:What, outlander? Why do you disturb me?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=11062150412087015939(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Hlo_DF000a.mp3|NAME:What?|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=11063309881576110879(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM157.mp3|NAME:You seek information, Altmer?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[DUP-INF]: ID=11103132091070612150(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Fle_DM001.mp3|NAME:This will not go unnoticed!|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=11125230472022021201(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF163.mp3|NAME:How are you today?|SCVR:02sX5Random100|INTV:<|BNAM:;civil, casual
+
+[DUP-INF]: ID=11418274851695130261(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM020.mp3|NAME:I don't know. Maybe she's right....|SCVR:02sX3Random100|INTV|BNAM:;musing
+
+[DUP-INF]: ID=11424124692091829479(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF151.mp3|NAME:Hail and welcome, do you have any news?|SCVR:01460|INTV|BNAM:;SameFaction=1
+
+[DUP-INF]: ID=11498119352634815121(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Flw_DM003.mp3|NAME:Careful with that, friend!|SCVR:01660|INTV
+
+[DUP-INF]: ID=11628146583110031303(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM204.mp3|NAME:Three blessings to you, Bosmer.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=11671217083225915656(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:Vo\d\m\tHlo_DM082.mp3|NAME:Seven virtues, sera.|SCVR:02sX5Random100|INTV:F
+
+[DUP-INF]: ID=11741180411288916827(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11473|INTV|BNAM:;SameFaction;FactionRankDifference>=-2
+
+[DUP-INF]: ID=11845162612017319842(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM193.mp3|NAME:Is there something I can do for you?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=11856209471280716543(Voice:thief)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Thf_DF003.mp3|NAME:Help!|SCVR:02sX3Random100|INTV:<|BNAM:;Replace asset
+
+[DUP-INF]: ID=11881284462264630903(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Savant Service|SNAM:Vo\d\m\Srv_DM035.mp3|NAME:How can I be of service to you, outlander?|BNAM:;Savant
+
+[DUP-INF]: ID=12026118971525928024(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF009.mp3|NAME:Groan.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:<|BNAM:;Health Percent>=50;Random>=60
+
+[DUP-INF]: ID=12100259671628910166(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF040.mp3|NAME:I can already tell I'm not going to like this.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=12174226662213815730(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Fle_DM004.mp3|NAME:Let me live!|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=12239208312515215146(Topic:caryarel)
+  |DATA|NAME:So. You want to pretend you know nothing about it. That's okay. None of my business. But I don't have to pretend I don't know what happened to him. Or how.|SCVR:06DX3caryarel|INTV|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=12441114281629416208(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF091.mp3|NAME:I'm waiting.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=12631300971519019577(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\CrAtk_AM001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P|SCVR:11650|INTV
+
+[DUP-INF]: ID=12686127041329232732(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV:2|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=12745269472351418367(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Alchemist Service|SNAM:Vo\d\m\Srv_DM002.mp3|NAME
+
+[DUP-INF]: ID=12914306823131217207(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM007.mp3|NAME:What was that?|SCVR:02sX3Random100|INTV:P|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=13140154492519212618(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM010.mp3|NAME:I have you.|SCVR:02sX3Random100|INTV:F|BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=13153134241125713271(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF077.mp3|NAME:Spit it out or hit the road.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=13176137541584913423(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF146.mp3|NAME:Yes, outlander, what do you want?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=13180130381709412417(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF158.mp3|NAME:You seek information, Breton?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+
+[DUP-INF]: ID=13510314842227028387(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM165.mp3|NAME:There are better ways than theft to earn a coin, outlander.|SCVR:01433|INTV|BNAM:;PCCrimeLevel>=100
+
+[DUP-INF]: ID=13512247262900226941(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Atk_DM014.mp3|NAME:Your wounds are great!|SCVR:02sX3Random100|INTV:U
+
+[DUP-INF]: ID=13966221253259732085(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM195.mp3|NAME:We are blessed. Truly blessed. This is an honor.
+
+[DUP-INF]: ID=13966289892026831810(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF080.mp3|NAME:This better be important.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=14020257272849721632(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM221.mp3|NAME:How wonderful! Welcome, outlander.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=14032115453210927602(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM006.mp3|NAME:What are you gawking at?|SCVR:02sX3Random100|INTV:Z
+
+[DUP-INF]: ID=14054180582060016307(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM003.mp3|NAME:Die, fetcher.|BNAM:;PCRace=8[Orc]
+
+[DUP-INF]: ID=14236323363131321460(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Vivec|SNAM:vo\d\m\Hlo_DM140.mp3|NAME:What do you think of our city, outlander?|BNAM:;Cell=Vivec;
+
+[DUP-INF]: ID=14419317141381630662(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM104.mp3|NAME:What is this regarding, Breton?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+
+[DUP-INF]: ID=14511100182897920907(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF015.mp3|NAME:Pathetic creature. You should learn to dress youself before venturing out.|SCVR:01425|INTV:2|BNAM:;NPCReputation>=40;ClothingMod>=1000
+
+[DUP-INF]: ID=14593126262611527753(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM000b.mp3|NAME:Humph.|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=14619314863197925917(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM007.mp3|NAME:You will suffer greatly.|SCVR:02sX3Random100|INTV:2|BNAM:;PCRace=4[highelf]
+
+[DUP-INF]: ID=14690203271107723837(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:vo\d\f\tHlo_DF084.mp3|NAME:Your words shall stand witness for you, sera.|SCVR:02sX5Random100|INTV:<
+
+[DUP-INF]: ID=14739158872415415879(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM099.mp3|NAME:What is this regarding, Orc?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[DUP-INF]: ID=15016286682421219438(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Enchanter Service|SNAM:Vo\d\m\Srv_DM017.mp3|NAME
+
+[DUP-INF]: ID=15090186912870114632(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF174.mp3|NAME:I can spare a few moments if you care to talk.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=15450173451489515523(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF048.mp3|NAME:Make it quick, Redguard.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=15599247271248916677(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF011.mp3|NAME:I have you!|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=20
+
+[DUP-INF]: ID=15608300072722710494(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\bFle_DM003.mp3|NAME|SCVR:02sX5Random100|INTV:K|SCVR:11650|INTV|BNAM:;annoyed
+
+[DUP-INF]: ID=15627153383142224538(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:Vo\d\m\tHlo_DM083.mp3|NAME:Show respect, sera.|SCVR:02sX5Random100|INTV:P
+
+[DUP-INF]: ID=15702176731853326937(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\m\Hlo_DM131.mp3|NAME:Where would you like to go?|BNAM:;Class=Caravaner
+
+[DUP-INF]: ID=15911294391273127595(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM006.mp3|NAME:Let's not make this official, outlander. Move along.|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=15955203091877816095(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM005.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, conviction
+
+[DUP-INF]: ID=16011310063091816164(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:Vo\d\m\tHlo_DM104.mp3|NAME:Speak well of me, sera.|SCVR:02sX5Random100|INTV: 
+
+[DUP-INF]: ID=16144111791491315715(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM088.mp3|NAME:Make it quick, outlander.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=16202262912879219854(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Hlo_DF000d.mp3|NAME:I don't waste my time on the likes of you!|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=16325102782849326701(Topic:latest rumors)
+  |DATA|FNAM:Ashlanders|NAME:The skies are clear all over Morrowind? Even on Red Mountain? I cannot believe it.|SCVR:14JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=16376237811808413189(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\m\Hlo_DM043.mp3|NAME:What is it with these thick-headed outlanders?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=16554129362829529645(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+
+[DUP-INF]: ID=16691282013085021997(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:vo\d\f\tHlo_DF064.mp3|NAME:I'll thank you to be brief, sera.
+
+[DUP-INF]: ID=16736263163209623198(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF128.mp3|NAME:What is it, outlander?|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=16762293532988423183(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Idl_DF001.mp3|NAME:Cough.|SCVR:02sX3Random100|INTV|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=16806247521123423340(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF166.mp3|NAME:Talk if you're talking.|SCVR:02sX5Random100|INTV|BNAM:;barely civil
+
+[DUP-INF]: ID=16910300281724524062(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM055.mp3|NAME:Make it quick, Breton.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=2;[breton]
+
+[DUP-INF]: ID=16923138432717815275(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF046.mp3|NAME:If you'll excuse me, I don't have time for you right now. Or ever.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=16950135472011216371(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF145.mp3|NAME:May I help you?
+
+[DUP-INF]: ID=16986229602547212120(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:vo\d\f\tHlo_DF085.mp3|NAME:Take care, stranger.
+
+[DUP-INF]: ID=17083295952647228929(Topic:telvanni mouths )
+  |DATA|ANAM:Sadrith Mora|NAME:The Telvanni mage-lords are far too busy and important to attend council meetings. So they have representatives called 'Mouths' who attend to council business for them. Mouths are proteges of their wizards, and expected to step into their shoes when their masters die. Mouths have complete authority to speak for their lords, but they often defer the tough decisions to their masters.|SCVR:0BLX0Sadrith Mora, Telvanni Council House|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:;Sadrith Mora;
+
+[DUP-INF]: ID=17240179132322722712(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Sorcerer Service|SNAM:Vo\d\m\Srv_DM041.mp3|NAME:If it is magic you are looking for, you've come to the right place!|BNAM:;Sorcerer
+
+[DUP-INF]: ID=17249287041776830643(Topic:big helende)
+  |DATA|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:She's gone, %PCRank.|SCVR:06DX2big helende|INTV:
+
+[DUP-INF]: ID=17413289001579815550(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=17609174021929126198(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM214.mp3|NAME:Welcome friend, you're nearly a legend around here. Please, talk.|SCVR:01033|INTV|BNAM:;PCReputation>=11
+
+[DUP-INF]: ID=17704314301699529276(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF163.mp3|NAME:Your wounds seem serious. You should find healing.|SCVR:01075|INTV: |BNAM:;PCHealthPercent<=10
+
+[DUP-INF]: ID=17809278692679027339(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM001.mp3|NAME:Go away.
+
+[DUP-INF]: ID=17963133312316715171(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM123.mp3|NAME:I'm listening. Go ahead.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=18053160352992914180(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF160.mp3|NAME:You seek information, Argonian?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=1[argonian]
+
+[DUP-INF]: ID=18094116381272915246(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=18250194292584027446(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\CrAtk_DF004.mp3|NAME:Ha!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV
+
+[DUP-INF]: ID=18270149061572425112(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Vivec|SNAM:vo\d\f\Hlo_DF140.mp3|NAME:What do you think of our city, outlander?|BNAM:;Cell=Vivec;
+
+[DUP-INF]: ID=18325267482652611574(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF002.mp3|NAME:I have no time for you, Redguard.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=18385234682883220675(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\bAtk_DM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=18618131371173812684(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF219.mp3|NAME:I'm very happy to make your acquaintance.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=18828145592535920427(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Trader Service|SNAM:Vo\d\m\Srv_DM048.mp3|NAME:I do not conduct business with pathetic creatures like you.|BNAM:;Trader
+
+[DUP-INF]: ID=19181104981407518488(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\Hlo_DF229.mp3|NAME:We make special trip just for you, same low price.|SCVR:02sX3Random100|INTV:<|BNAM:;Class=Caravaner;Random100>=60
+
+[DUP-INF]: ID=19410270613141622317(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF016.mp3|NAME:What is it, peasant?|SCVR:01425|INTV|BNAM:;NPCReputation>=10;ClothingMod>=250
+
+[DUP-INF]: ID=19547315481876511015(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF159.mp3|NAME:It's fine with me. Go ahead.|SCVR:02sX5Random100|INTV|BNAM:;civil, casual
+
+[DUP-INF]: ID=19601271192355718620(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM084.mp3|NAME:Go ahead.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=19802324522393720096(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\bFle_DF001.mp3|NAME:Help! A beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;scared
+
+[DUP-INF]: ID=19819204871906226531(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF170.mp3|NAME:So? You want something?|BNAM:;barely civil
+
+[DUP-INF]: ID=19858157142911710177(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF076.mp3|NAME:I don't have a lot of patience for questions, outlander.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=20211182512817119366(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM002.mp3|NAME:Your life's end is approaching.|SCVR:01075|INTV|SCVR:12sX3Random100|INTV:<|BNAM:;PCRace=9[Redguard]
+
+[DUP-INF]: ID=20330121613082212066(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF006.mp3|NAME:I have no time for you, Cyrodil.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[DUP-INF]: ID=20423163771505713679(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF161.mp3|NAME:Excuse me. Did you say something?|SCVR:02sX5Random100|INTV:(|BNAM:;civil, casual
+
+[DUP-INF]: ID=20657158062152232275(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF005.mp3|NAME:I have no time for you, Khajit.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[DUP-INF]: ID=20804221403211015930(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF074.mp3|NAME:Whatever you're looking for, I'm sure I don't know how to find it.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=20948131971352115043(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM197.mp3|NAME:Well?|SCVR:02sX5Random100|INTV:<|BNAM:;barely civil
+
+[DUP-INF]: ID=20992127811993920291(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF032.mp3|NAME:You're joking, right? Why would I want to talk to you?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=20992153991227524048(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\f\bIdl_DF012.mp3|NAME:My feet hurt. My back hurts. It's cold. I'm tired. Other than that, everything's just ducky.|SCVR:02sX5Random100|INTV:F
+
+[DUP-INF]: ID=21001154462971119946(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM065.mp3|NAME:Your wounds are minor compared to what you will receive if you continue to bother me.|SCVR:01075|INTV:K|BNAM:;PCHealthPercent<=75
+
+[DUP-INF]: ID=21125207351757211506(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF159.mp3|NAME:You seek information, Bosmer?|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=21304292732540715382(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF176.mp3|NAME:Is there something I can do for you outlander?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=21460153862684717352(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF001.mp3|NAME:Arrgh.|SCVR:01043|INTV:2
+
+[DUP-INF]: ID=21588260531388930997(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM198.mp3|NAME:So? You want something?|BNAM:;barely civil
+
+[DUP-INF]: ID=21769137741523213109(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM176.mp3|NAME:Is there something I can do for you, outlander?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=21902184302237418973(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM151.mp3|NAME:Hail and welcome. Do you have any news?|SCVR:01460|INTV|BNAM:;SameFaction=1
+
+[DUP-INF]: ID=21972302272190419149(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM052.mp3|NAME:Make it quick, Cyrodil.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=5[Imperial]
+
+[DUP-INF]: ID=22026130021163915735(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM199.mp3|NAME:Go on. I can't stop you.|SCVR:02sX5Random100|INTV:2|BNAM:;resentful and sour
+
+[DUP-INF]: ID=22218150032384113782(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM177.mp3|NAME:Do you have something to say, outlander?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=22551263822632011139(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF154.mp3|NAME:Oh... it's you. Can I help you?|SCVR:02sX5Random100|INTV:2|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=22591268823199823497(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM182.mp3|NAME:Oh... it's you. Can I help you?|SCVR:02sX5Random100|INTV:2|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=22730166862824123366(Voice:idle)
+  |DATA|RNAM:Dark Elf|ANAM:Thirsk|SNAM:vo\d\m\bIdl_DM013.mp3|NAME:Oh, not AGAIN!|SCVR:02sX5Random100|INTV:P|BNAM:;weary despair
+
+[DUP-INF]: ID=22794251611666216947(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF056.mp3|NAME:Make it quick, Bosmer.|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=23380148681021327412(Voice:thief)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Thf_DM005.mp3|NAME:Help, guards!|BNAM:;Random100>=80
+
+[DUP-INF]: ID=23429284761561712616(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM020.mp3|NAME:Welcome, citizen. How may I be of assistance?|SCVR:02sX3Random100|INTV:U
+
+[DUP-INF]: ID=23640276082629917993(Voice:idle)
+  |DATA|RNAM|SNAM|SCVR:02sX3Random100|INTV:(|BNAM:;laughing to himself about some secret pleasure
+
+[DUP-INF]: ID=23665198193121330844(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Imperial Legion|SNAM:vo\d\f\Hlo_DF111.mp3|NAME:Move along, outlander.|BNAM:;Class=Imperial Legion
+
+[DUP-INF]: ID=23770264451586315461(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM060.mp3|NAME:I do not speak with vagrants.|SCVR:01425|INTV:d|BNAM:;NPCReputation>=80;ClothingMod>=2000
+
+[DUP-INF]: ID=23811143691631214788(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF099.mp3|NAME:What is this regarding, Orc?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=8[Orc]
+
+[DUP-INF]: ID=24056132913000515403(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM020.mp3|NAME:Have you no sense about you? You spread disease like a rat!|SCVR:01400|INTV|BNAM:;PCCommonDisease=0
+
+[DUP-INF]: ID=24113280451278525275(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM012.mp3|NAME:Citizen.|SCVR:02sX3Random100|INTV:7
+
+[DUP-INF]: ID=24211100882016124488(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF101.mp3|NAME:What is this regarding, Khajiit?|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=6[Khajiit]
+
+[DUP-INF]: ID=24392203792336211175(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:Vo\d\m\tHlo_DM093.mp3|NAME:You will ask me.|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=24524271201166732754(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\m\Hlo_DM229.mp3|NAME:We make special trip just for you, same low price.|SCVR:02sX3Random100|INTV:<|BNAM:;Class=Caravaner;Random100>=60
+
+[DUP-INF]: ID=24610317591501515721(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\m\Hlo_DM228.mp3|NAME:Why walk when you can ride?|SCVR:02sX3Random100|INTV|BNAM:;Class=Caravaner;Random100>=30
+
+[DUP-INF]: ID=24646137932794611811(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF014.mp3|NAME:I do not speak with vagrants.|SCVR:01425|INTV:d|BNAM:;NPCReputation>=80;ClothingMod>=2000
+
+[DUP-INF]: ID=24710180061385119038(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF151.mp3|NAME:I'm not busy now. What do you need?|SCVR:02sX5Random100|INTV|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=24824197252935521768(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF013.mp3|NAME:Growl.|SCVR:01043|INTV|SCVR:12sX3Random100|INTV:(|BNAM:;Health Percent>=25;Random>=40
+
+[DUP-INF]: ID=24828239472464726889(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Hlo_ORM004.mp3|NAME:If you're here for trouble,you'll get more than you bargained for.|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=24860125172556422499(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM010.mp3|NAME:What's SHE doing here?|SCVR:02sX3Random100|INTV:K|SCVR:11440|INTV:
+
+[DUP-INF]: ID=24925219381775825949(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM170.mp3|NAME:So good to see you.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=24925292762366812738(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM109.mp3|NAME:It would be wise to stay indoors, outlander.|SCVR:01590|INTV
+
+[DUP-INF]: ID=24980120793029623370(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF125.mp3|NAME:Outlander? What do you want?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=24991289753248312516(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:Vo\d\m\tHlo_DM102.mp3|NAME:I trust we speak in confidence, sera?|SCVR:02sX5Random100|INTV:F
+
+[DUP-INF]: ID=25233264371568125301(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF002.mp3|NAME:He's a hard man, all right.|SCVR:02sX3Random100|INTV:Z|SCVR:11440|INTV:
+
+[DUP-INF]: ID=25732166042585412319(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM185.mp3|NAME:I am never too busy for a good talk.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=25826211143260023484(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM050.mp3|NAME:Make it quick, Nord.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=7[Nord]
+
+[DUP-INF]: ID=25928292492971029121(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF211.mp3|NAME:Impressive. These clothes suit you well.|SCVR:01423|INTV|BNAM:;ClothingMod>=2000
+
+[DUP-INF]: ID=26080185411758930242(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Nightblade Service|SNAM:Vo\d\m\Srv_DM029.mp3|NAME:Reasonable prices for top quality magic.|BNAM:;Nightblade
+
+[DUP-INF]: ID=26178134451123226156(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF007.mp3|NAME:I have no time for you, Altmer.|SCVR:02sX0PCRace|INTV|BNAM:;PCRace=4[highelf]
+
+[DUP-INF]: ID=26234122302263019409(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Great Bazaar|SNAM:Vo\d\m\tHlo_DM043.mp3|NAME:Mind your tongue, sera.|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=26306108232226217816(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM115.mp3|NAME:A healer can ease your suffering.|SCVR:01075|INTV: |BNAM:;PCHealthPercent<=10
+
+[DUP-INF]: ID=26343164431417815531(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\tHlo_DF158.mp3|NAME:It's another perfect day in Mournhold.|BNAM:;pleasant, positive
+
+[DUP-INF]: ID=26375119232684115296(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM207.mp3|NAME:What happened to you, outlander? You should find healing.|SCVR:01075|INTV:2|BNAM:;PCHealthPercent<=50
+
+[DUP-INF]: ID=26385271101935229252(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF177.mp3|NAME:Do you have something to say, outlander?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=26445243542873632314(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\CrAtk_DF003.mp3|NAME:Hurrrgh!|SCVR:01650|INTV|SCVR:12sX3Random100|INTV:(
+
+[DUP-INF]: ID=26481279761535222644(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM022.mp3|NAME:You waste your time. Go away.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=26551161851683112349(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF081.mp3|NAME:What, outlander?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=26762311192632926992(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF148.mp3|NAME:Is there something I can do for you?|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=26934317041811216803(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Fle_DF003.mp3|NAME:I can't take anymore!|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=26965309621437014116(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF011.mp3|NAME:Sozia'? 'Skosia'? 'Shozi'? What WAS her name?|SCVR:02sX3Random100|INTV:-
+
+[DUP-INF]: ID=27100297661450515589(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM005.mp3|NAME:That rat's in the bag.|SCVR:02sX3Random100|INTV:_
+
+[DUP-INF]: ID=27246227121603021872(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF223.mp3|NAME:It's so good to meet you.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=27356134542466627847(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM184.mp3|NAME:Go ahead, I'm listening.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=27640105611612030065(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\d\m\tIdl_DM022.mp3|NAME:Dah-da-dah-de-dah-de-dah.|SCVR:02sX3Random100|INTV: |BNAM:;singing any tune, but doesn't know the words
+
+[DUP-INF]: ID=27772185951487710420(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM096.mp3|NAME:What is it, sera?
+
+[DUP-INF]: ID=27950236673030013932(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hit_DM005.mp3|NAME:Grunt.|SCVR:01043|INTV:2|SCVR:12sX3Random100|INTV:P|BNAM:;Health Percent>=50;Random>=80
+
+[DUP-INF]: ID=28081102181581324402(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM171.mp3|NAME:Under sun and sky, outlander. We greet you warmly.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=28141259122869725703(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM015.mp3|NAME:Pathetic creature. You should learn to dress youself before venturing out.|SCVR:01425|INTV:2|BNAM:;NPCReputation>=40;ClothingMod>=1000
+
+[DUP-INF]: ID=28175213223081815401(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF007.mp3|NAME:No chance. None.|SCVR:02sX3Random100|INTV:A
+
+[DUP-INF]: ID=28227229212837020955(Voice:idle)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM009.mp3|NAME:I could kill that guar. Those boots are ruined.|SCVR:02sX0Random100|INTV|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=28709294402365525299(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV: 
+
+[DUP-INF]: ID=28864205941588823267(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\bAtk_DF005.mp3|NAME:Your cursed bloodline ends here!|SCVR:02sX5Random100|INTV:P|SCVR:11650|INTV|BNAM:;shouting, conviction
+
+[DUP-INF]: ID=29039210392844617835(Voice:flee)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Fle_DM002.mp3|NAME:I'm being attacked. Help!|SCVR:02sX3Random100|INTV:(|BNAM:; Todd - no 'Help!' in this wave
+
+[DUP-INF]: ID=29183218981803517639(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF171.mp3|NAME:Under sun and sky, outlander. We greet you warmly.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[DUP-INF]: ID=29459233832611026050(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\f\Hlo_DF122.mp3|NAME:Wealth beyond measure, outlander.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=30145197791164128951(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM217.mp3|NAME:A warm welcome to you.|SCVR:02sX3Random100|INTV:<|BNAM:;Random100>=60
+
+[DUP-INF]: ID=30376253612135617367(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM122.mp3|NAME:Wealth beyond measure, outlander.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=30921135122929927310(Voice:hello)
+  |DATA|RNAM|SNAM:vo\d\f\Hlo_DF132.mp3|NAME:Why walk when you can ride?|SCVR:02sX3Random100|INTV:2|BNAM:;Class=Caravaner
+
+[DUP-INF]: ID=31198240752900117401(Voice:hello)
+  |DATA|RNAM|SNAM:Vo\d\m\tHlo_DM196.mp3|NAME:Talk is cheap.|SCVR:02sX5Random100|INTV:2|BNAM:;barely civil
+
+[DUP-INF]: ID=31229107821559032208(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Atk_DF008.mp3|NAME:You will suffer greatly!|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=31283120102447910772(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Mage Service|SNAM:Vo\d\m\Srv_DM023.mp3|NAME:Looking for something in particular?|BNAM:;Mage Service
+
+[DUP-INF]: ID=31463284152471316592(Voice:attack)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Atk_ORM005.mp3|NAME:You will pay with your blood!
+
+[DUP-INF]: ID=31758233913156832033(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Imperial Legion|SNAM:vo\d\m\Hlo_DM111.mp3|NAME:Move along, outlander.|BNAM:;Class=Imperial Legion
+
+[DUP-INF]: ID=31762118303174922962(Voice:hit)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hit_DF006.mp3|NAME|AIIEEE.|SCVR:01043|INTV:2
+
+[DUP-INF]: ID=31773137712951732435(Voice:attack)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Atk_DM008.mp3|NAME:There is no escape.|SCVR:02sX3Random100|INTV:<|BNAM:;PCRace=7[Nord]
+
+[DUP-INF]: ID=31791208652933026616(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM116.mp3|NAME:Do I know you?|SCVR:01033|INTV|BNAM:;PCReputation>=3
+
+[DUP-INF]: ID=31956234131975919555(Voice:hello)
+  |DATA|RNAM|SNAM:vo\i\f\tHlo_IF084.mp3|NAME:Strange customs, strange ways, Imperial|SCVR:02sX0PCRace|INTV|SCVR:12sX5Random100|INTV: |BNAM:;PCRace=5[Imperial]
+
+[DUP-INF]: ID=31985114281381823421(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Ashlanders|SNAM:vo\d\m\Hlo_DM025.mp3|NAME:Go now.|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+
+[DUP-INF]: ID=32206303101122431243(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF065.mp3|NAME:Your wounds are minor compared to what you will receive if you continue to bother me.|SCVR:01075|INTV:K|BNAM:;PCHealthPercent<=75
+
+[DUP-INF]: ID=32371267932061015135(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:Vo\d\f\Hlo_DF000c.mp3|NAME:Groan.|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=32579103791922720767(Voice:idle)
+  |DATA|RNAM|SNAM:vo\d\f\tIdl_DF014.mp3|NAME:These shoes are killing me.|SCVR:02sX3Random100|INTV

@@ -1,0 +1,12 @@
+JMK - Meet Me In Morrowind.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKMMIMJohnScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=6830886255016076(Greeting:greeting 5)
+  |DATA|ONAM:hlaren ramoran|NAME:So we meet again, %PCName. What do you need from the Lord of West Gash?
+
+[DUP-INF]: ID=4656235762940526035(Greeting:greeting 5)
+  |DATA|ONAM:garisa llethri|NAME:You have been expelled from House Redoran. Permanently. This better be important.|SCVR:01390|INTV|SCVR:12sX0ExpRedoran|INTV|BNAM:ModDisposition -10

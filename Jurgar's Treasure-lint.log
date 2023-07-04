@@ -1,0 +1,23 @@
+Jurgar's Treasure.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ALCH    potion_nord_mead
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       NPC_    dead random male
+	tribunal.esm        DIAL    latest rumors
+
+[MOD-INF]: ID=2154830486472422301(Topic:latest rumors)
+  tribunal.esm---------->|DATA|ANAM:Balmora|NAME:Everyone knows the Balmora magistrate, Nolus Atrius, is on the take. Thieves, thugs, and murderers are getting ridiculous sentences, or paying a drake and walking free. But they'll never get Atrius. He's got fatcats and family back in the City to cover him. The Legion Champion, Larrius Varro, over at Moonmoth Legion Fort, he has sworn an oath to stop corruption. But I don't see what he can do.|SCVR:04JX4town_balmora|INTV|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:|BNAM:; balmora;   Journal town_balmora 1
+  Jurgar's Treasure.ESP->|DATA|ANAM:Balmora|NAME:Everyone knows the Balmora magistrate, Nolus Atrius, is on the take. Thieves, thugs, and murderers are getting ridiculous sentences, or paying a drake and walking free. But they'll never get Atrius. He's got fatcats and family back in the City to cover him. The Legion Champion, Larrius Varro, over at Moonmoth Legion Fort, he has sworn an oath to stop corruption. But I don't see what he can do.|SCVR:04JX4town_balmora|INTV|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0NoLore|INTV:|BNAM:; balmora;   Journal town_balmora 1
+
+[DUP-INF]: ID=2459744711613417630(Greeting:greeting 4)
+  |DATA|CNAM:Apothecary Service|NAME:You are afflicted with corprus disease. I am an apothecary, but I know of no cure for corprus.|SCVR:01583|INTV|SCVR:12sX3Random100|INTV:2|BNAM:;default apothecary service; ;PC Corprus Disease;
+
+[DUP-INF]: ID=2610126034286992676(Topic:latest rumors)
+  |DATA|ANAM:Balmora|NAME:They say someone hit the Camonna Tong at the Council Club. Hard. And the guards SAY they're very concerned, and they're following all leads... But somehow they don't seem very sincere. And Larrius Varro? Champion at Fort Moonmoth? He's been quoted as saying, 'I swore an oath to stop corruption, but it seems the gods have seen fit to fulfill my oath for me.' And you know what's funny? Someone said they saw YOU talking to Larrius Varro several times recently. A coincidence? I don't think so.|SCVR:04JX3town_balmora|INTV|SCVR:1CsX0nolore|INTV
+
+[DUP-INF]: ID=3137517782452216666(Greeting:greeting 4)
+  |DATA|ANAM:Raven Rock|NAME:You've got the corprus! There's no cure for that, is there?|SCVR:01580|INTV
+
+[DUP-INF]: ID=7531100241144824737(Greeting:greeting 4)
+  |DATA|CNAM:Apothecary Service|FNAM:Temple|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the free blessing of a cure by visiting a Temple shrine. A blessing costs you nothing, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default apothecary service; ;PC Common Disease;

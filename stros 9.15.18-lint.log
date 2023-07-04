@@ -1,0 +1,811 @@
+stros 9.15.18.ESP: DUP-INF DUP-REC EVLGMST JUNKCEL MENUMOD MISSVER MOD-INF OVR-REC SCRDOOR
+    [EVLGMST] Tribunal(11) Bloodmoon(61):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfalarmmessage
+	BM swerewolfpopup
+	BM swerewolfrefusal
+	BM swerewolfrestmessage
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+	TB steleportdisabled
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(stros_endgame)
+	SCPT(stros_goblindoor)
+	SCPT(stros_plaguewitch)
+	SCPT(stros_portal_enter)
+	SCPT(stros_sewer_enter)
+	SCPT(stros_timetravel)
+	SCPT(stros_witch2_forcedilg)
+	SCPT(stros_wtchntr_appear)
+	SCPT(stros_yokudadoor)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	door_load_darkness00                 passageScript
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       CLOT    bm_nordic01_robe
+	bloodmoon.esm       CONT    bm_chest_piratetreasure
+	bloodmoon.esm       CONT    com_chest_01_pos
+	bloodmoon.esm       CONT    com_chest_02_misc06
+	bloodmoon.esm       CONT    crate_02_mead_berserker
+	bloodmoon.esm       INGR    ingred_ash_yam_01
+	bloodmoon.esm       INGR    ingred_bread_01
+	bloodmoon.esm       LIGH    light_com_lamp_01
+	bloodmoon.esm       MISC    misc_com_redware_flask
+	bloodmoon.esm       MISC    misc_com_redware_pitcher
+	bloodmoon.esm       MISC    misc_de_tankard_01
+	bloodmoon.esm       STAT    bm_bearhead_brown
+	bloodmoon.esm       STAT    ex_de_shack_plank_03
+	bloodmoon.esm       STAT    furn_colony_shelf03
+	bloodmoon.esm       STAT    furn_colony_win01
+	bloodmoon.esm       STAT    furn_com_p_shelf_04
+	bloodmoon.esm       STAT    furn_com_rm_stool_01
+	bloodmoon.esm       STAT    furn_de_tapestry_07
+	bloodmoon.esm       STAT    furn_de_tapestry_08
+	morrowind.esm       ACTI    active_com_bed_02
+	morrowind.esm       ACTI    active_com_bed_06
+	morrowind.esm       ACTI    active_com_bed_07
+	morrowind.esm       ACTI    active_de_p_bed_05
+	morrowind.esm       ACTI    active_de_p_bed_11
+	morrowind.esm       ACTI    active_de_p_bed_13
+	morrowind.esm       ACTI    ex_de_shack_plank_03_a
+	morrowind.esm       ACTI    ex_gg_portcullis_01
+	morrowind.esm       ACTI    furn_forgetful_pool
+	morrowind.esm       ACTI    in_ci_azura_01_active
+	morrowind.esm       ACTI    in_lava_1024
+	morrowind.esm       ACTI    in_strong_platform
+	morrowind.esm       ALCH    p_water_breathing_s
+	morrowind.esm       ARMO    right leather bracer
+	morrowind.esm       BOOK    bk_a1_4_sharnsnotes
+	morrowind.esm       BOOK    bk_a2_1_thestranger
+	morrowind.esm       BOOK    bk_beramjournal1
+	morrowind.esm       BOOK    bk_boethiahpillowbook
+	morrowind.esm       BOOK    bk_briefhistoryempire2
+	morrowind.esm       BOOK    bk_kagrenac'stools
+	morrowind.esm       BOOK    bk_provinces_of_tamriel
+	morrowind.esm       BOOK    bk_redoran_vaults_ledger
+	morrowind.esm       BOOK    bk_spiritofthedaedra
+	morrowind.esm       BOOK    bk_truenatureoforcs
+	morrowind.esm       BOOK    bk_wildelves
+	morrowind.esm       BOOK    bookskill_alteration2
+	morrowind.esm       BOOK    bookskill_destruction3
+	morrowind.esm       BOOK    bookskill_enchant2
+	morrowind.esm       CLOT    common_belt_02
+	morrowind.esm       CLOT    common_glove_left_01
+	morrowind.esm       CLOT    common_pants_03_b
+	morrowind.esm       CLOT    common_pants_04
+	morrowind.esm       CLOT    common_robe_02
+	morrowind.esm       CLOT    common_robe_02_r
+	morrowind.esm       CLOT    common_robe_02_t
+	morrowind.esm       CLOT    common_robe_03
+	morrowind.esm       CLOT    common_robe_03_a
+	morrowind.esm       CLOT    common_robe_03_b
+	morrowind.esm       CLOT    common_robe_04
+	morrowind.esm       CLOT    common_robe_05_a
+	morrowind.esm       CLOT    common_shirt_01
+	morrowind.esm       CLOT    common_shirt_01_a
+	morrowind.esm       CLOT    common_shirt_01_e
+	morrowind.esm       CLOT    common_shirt_01_u
+	morrowind.esm       CLOT    common_shirt_01_z
+	morrowind.esm       CLOT    common_shirt_02
+	morrowind.esm       CLOT    common_shirt_02_r
+	morrowind.esm       CLOT    common_shirt_02_rr
+	morrowind.esm       CLOT    common_shirt_02_t
+	morrowind.esm       CLOT    common_shirt_02_tt
+	morrowind.esm       CLOT    common_shirt_03
+	morrowind.esm       CLOT    common_shirt_03_b
+	morrowind.esm       CLOT    common_shirt_03_c
+	morrowind.esm       CLOT    common_shirt_04
+	morrowind.esm       CLOT    common_shirt_04_a
+	morrowind.esm       CLOT    common_shirt_04_b
+	morrowind.esm       CLOT    common_shirt_04_c
+	morrowind.esm       CLOT    common_shirt_05
+	morrowind.esm       CLOT    common_shoes_02
+	morrowind.esm       CLOT    common_shoes_05
+	morrowind.esm       CLOT    common_skirt_01
+	morrowind.esm       CLOT    common_skirt_02
+	morrowind.esm       CLOT    common_skirt_03
+	morrowind.esm       CLOT    common_skirt_05
+	morrowind.esm       CLOT    expensive_glove_left_01
+	morrowind.esm       CLOT    expensive_pants_01
+	morrowind.esm       CLOT    expensive_pants_01_a
+	morrowind.esm       CLOT    expensive_pants_01_e
+	morrowind.esm       CLOT    expensive_pants_01_u
+	morrowind.esm       CLOT    expensive_pants_01_z
+	morrowind.esm       CLOT    expensive_pants_02
+	morrowind.esm       CLOT    expensive_pants_03
+	morrowind.esm       CLOT    expensive_robe_02
+	morrowind.esm       CLOT    expensive_robe_02_a
+	morrowind.esm       CLOT    expensive_robe_03
+	morrowind.esm       CLOT    expensive_shirt_01
+	morrowind.esm       CLOT    expensive_shirt_01_a
+	morrowind.esm       CLOT    expensive_shirt_01_e
+	morrowind.esm       CLOT    expensive_shirt_01_u
+	morrowind.esm       CLOT    expensive_shirt_01_z
+	morrowind.esm       CLOT    expensive_shirt_02
+	morrowind.esm       CLOT    expensive_shirt_03
+	morrowind.esm       CLOT    expensive_shirt_hair
+	morrowind.esm       CLOT    exquisite_pants_01
+	morrowind.esm       CLOT    exquisite_robe_01
+	morrowind.esm       CLOT    exquisite_shirt_01
+	morrowind.esm       CLOT    exquisite_shirt_01_rasha
+	morrowind.esm       CLOT    exquisite_shirt_01_wedding
+	morrowind.esm       CLOT    exquisite_skirt_01
+	morrowind.esm       CLOT    extravagant_glove_left_01
+	morrowind.esm       CLOT    extravagant_pants_01
+	morrowind.esm       CLOT    extravagant_pants_02
+	morrowind.esm       CLOT    extravagant_robe_01_a
+	morrowind.esm       CLOT    extravagant_robe_01_r
+	morrowind.esm       CLOT    extravagant_rt_art_wild
+	morrowind.esm       CLOT    extravagant_shirt_01
+	morrowind.esm       CLOT    extravagant_shirt_01_h
+	morrowind.esm       CLOT    extravagant_shirt_01_r
+	morrowind.esm       CLOT    extravagant_shirt_01_t
+	morrowind.esm       CLOT    extravagant_shirt_02
+	morrowind.esm       CLOT    extravagant_shoes_01
+	morrowind.esm       CLOT    extravagant_skirt_01
+	morrowind.esm       CLOT    extravagant_skirt_02
+	morrowind.esm       CONT    barrel_02_cheapfood5
+	morrowind.esm       CONT    com_chest_01_misc04
+	morrowind.esm       CONT    com_chest_02_k01
+	morrowind.esm       CONT    com_closet_01_expclothe
+	morrowind.esm       CONT    com_cupboard_01_booze
+	morrowind.esm       CONT    com_cupboard_glasses
+	morrowind.esm       CONT    com_drawers_01
+	morrowind.esm       CONT    com_drawers_01_expcloth
+	morrowind.esm       CONT    com_hutch_01_blue_pots
+	morrowind.esm       CONT    com_hutch_01_green_pots
+	morrowind.esm       CONT    crate_01_imp_silver
+	morrowind.esm       CONT    crate_01_misc01
+	morrowind.esm       CONT    crate_bandit_01
+	morrowind.esm       CONT    de_p_closet_02_gavin
+	morrowind.esm       CONT    de_r_closet_01_mcloth04
+	morrowind.esm       CONT    de_r_closet_01_red_grd3
+	morrowind.esm       CONT    de_r_drawers_01
+	morrowind.esm       CONT    de_r_drawers_01_malpen1
+	morrowind.esm       CONT    de_r_drawers_01_mcloth
+	morrowind.esm       CONT    flora_bc_fern_01
+	morrowind.esm       DOOR    door_dwrv_double00
+	morrowind.esm       DOOR    ex_common_door_01
+	morrowind.esm       DOOR    ex_v_cantondoor_01
+	morrowind.esm       DOOR    in_c_door_arched
+	morrowind.esm       DOOR    in_c_door_wood_square
+	morrowind.esm       DOOR    in_de_shack_trapdoor_01
+	morrowind.esm       DOOR    in_v_s_trapdoor_02
+	morrowind.esm       DOOR    pelagiad_halfway_room
+	morrowind.esm       INGR    ingred_comberry_01
+	morrowind.esm       LIGH    light_com_chandelier_04
+	morrowind.esm       LIGH    light_de_candle_05
+	morrowind.esm       LIGH    light_sconce10_200
+	morrowind.esm       LOCK    pick_master
+	morrowind.esm       MISC    misc_com_redware_platter
+	morrowind.esm       MISC    misc_de_lute_01
+	morrowind.esm       MISC    misc_de_pot_green_01
+	morrowind.esm       MISC    misc_de_pot_redware_01
+	morrowind.esm       MISC    misc_de_pot_redware_02
+	morrowind.esm       MISC    misc_de_pot_redware_03
+	morrowind.esm       MISC    misc_de_pot_redware_04
+	morrowind.esm       NPC_    imperial guard captain
+	morrowind.esm       STAT    collision wall - inviso!!
+	morrowind.esm       STAT    ex_common_entrance_01
+	morrowind.esm       STAT    ex_common_window_01
+	morrowind.esm       STAT    ex_common_window_02
+	morrowind.esm       STAT    ex_de_docks_centers
+	morrowind.esm       STAT    ex_drystonewall_d_01
+	morrowind.esm       STAT    ex_dwrv_enter00
+	morrowind.esm       STAT    ex_hlaalu_steps_03
+	morrowind.esm       STAT    ex_hlaalu_steps_04
+	morrowind.esm       STAT    ex_nord_win_01
+	morrowind.esm       STAT    ex_redwall_p_01
+	morrowind.esm       STAT    ex_redwall_straight_01
+	morrowind.esm       STAT    ex_stronghold_fort01
+	morrowind.esm       STAT    ex_v_foundation_01
+	morrowind.esm       STAT    ex_vivec_w_e_01
+	morrowind.esm       STAT    furn_6th_platform
+	morrowind.esm       STAT    furn_c_t_arkay_01
+	morrowind.esm       STAT    furn_c_t_lover_01
+	morrowind.esm       STAT    furn_cart00
+	morrowind.esm       STAT    furn_com_r_table_01
+	morrowind.esm       STAT    furn_com_rm_chair_03
+	morrowind.esm       STAT    furn_com_rm_table_04
+	morrowind.esm       STAT    furn_com_tapestry_03
+	morrowind.esm       STAT    furn_de_lecturn
+	morrowind.esm       STAT    furn_de_r_wallscreen_02
+	morrowind.esm       STAT    furn_de_tapestry_04
+	morrowind.esm       STAT    furn_de_tapestry_09
+	morrowind.esm       STAT    furn_firepit00
+	morrowind.esm       STAT    furn_imp_flag_01_indoor
+	morrowind.esm       STAT    furn_rail_broke00
+	morrowind.esm       STAT    furn_rail_straight00
+	morrowind.esm       STAT    in_bonecave2_08
+	morrowind.esm       STAT    in_bonecave2_09
+	morrowind.esm       STAT    in_c_doorframe_01
+	morrowind.esm       STAT    in_c_pillar_wood
+	morrowind.esm       STAT    in_c_plain_corner
+	morrowind.esm       STAT    in_c_plain_r_cwin_rec_03
+	morrowind.esm       STAT    in_c_plain_room_corner
+	morrowind.esm       STAT    in_c_rich_r_cwin_tri_02
+	morrowind.esm       STAT    in_c_rich_r_swin_bay_01
+	morrowind.esm       STAT    in_c_rich_r_swin_rec_01
+	morrowind.esm       STAT    in_c_rich_room_center
+	morrowind.esm       STAT    in_c_rich_room_side
+	morrowind.esm       STAT    in_c_stair_rich_tall_01
+	morrowind.esm       STAT    in_c_stone_3way
+	morrowind.esm       STAT    in_c_stone_4way
+	morrowind.esm       STAT    in_c_stone_room_corner
+	morrowind.esm       STAT    in_c_stone_stair_short
+	morrowind.esm       STAT    in_com_wincover_02
+	morrowind.esm       STAT    in_hlaalu_doorjamb_load
+	morrowind.esm       STAT    in_hlaalu_hall_center
+	morrowind.esm       STAT    in_hlaalu_hall_corner_01
+	morrowind.esm       STAT    in_hlaalu_hallway_stairs
+	morrowind.esm       STAT    in_hlaalu_wall
+	morrowind.esm       STAT    in_imp_fireplace_grand
+	morrowind.esm       STAT    in_lavacave_02
+	morrowind.esm       STAT    in_lavacave_03
+	morrowind.esm       STAT    in_lavacave_04
+	morrowind.esm       STAT    in_nord_house_01
+	morrowind.esm       STAT    in_r_l_int_railing_01
+	morrowind.esm       STAT    in_strong_doorjam00
+	morrowind.esm       STAT    in_strong_ramp00
+	morrowind.esm       STAT    in_strong_wall
+	morrowind.esm       STAT    in_v_s_int_corner_01
+	morrowind.esm       STAT    in_velothismall_corner_01
+	morrowind.esm       STAT    in_velothismall_room_12
+	morrowind.esm       STAT    terrain_rock_gl_12
+	morrowind.esm       WEAP    steel claymore
+	tribunal.esm        ACTI    active_de_pr_bed_23
+	tribunal.esm        ACTI    active_de_r_bed_01
+	tribunal.esm        ACTI    active_de_r_bed_06
+	tribunal.esm        ACTI    column_cast3
+	tribunal.esm        ACTI    ex_vivec_waterfall_03
+	tribunal.esm        ACTI    teleport_enabler
+	tribunal.esm        BOOK    bk_annotatedanuad
+	tribunal.esm        BOOK    bk_bookdawnanddusk
+	tribunal.esm        BOOK    bk_childrenofthesky
+	tribunal.esm        BOOK    book_dwe_boom00
+	tribunal.esm        BOOK    book_dwe_pipe00
+	tribunal.esm        BOOK    book_dwe_power_con00
+	tribunal.esm        BOOK    book_dwe_water00
+	tribunal.esm        CLOT    common_pants_06
+	tribunal.esm        CLOT    common_shirt_06
+	tribunal.esm        CLOT    common_shirt_07
+	tribunal.esm        CLOT    common_skirt_07
+	tribunal.esm        CLOT    expensive_shirt_mournhold
+	tribunal.esm        CLOT    expensive_shoes_01
+	tribunal.esm        CLOT    expensive_skirt_mournhold
+	tribunal.esm        CLOT    robe_lich_unique
+	tribunal.esm        CONT    chest_small_01_gold_50
+	tribunal.esm        CONT    chest_small_01_ingred10
+	tribunal.esm        CONT    chest_small_02_gold_50
+	tribunal.esm        CONT    crate_02_steel_armor
+	tribunal.esm        CONT    de_r_chest_01_gold1
+	tribunal.esm        DOOR    door_load_darkness00
+	tribunal.esm        DOOR    ex_cave_door_01
+	tribunal.esm        DOOR    ex_de_shack_door
+	tribunal.esm        DOOR    ex_velothi_loaddoor_01
+	tribunal.esm        DOOR    in_de_shack_door
+	tribunal.esm        DOOR    in_de_shack_trapdoor
+	tribunal.esm        INGR    ingred_scrib_cabbage_01
+	tribunal.esm        MISC    misc_com_redware_cup
+	tribunal.esm        MISC    misc_com_redware_vase
+	tribunal.esm        MISC    misc_de_pot_blue_01
+	tribunal.esm        MISC    misc_de_pot_blue_02
+	tribunal.esm        MISC    misc_de_pot_redware_04_uni
+	tribunal.esm        STAT    furn_com_r_bookshelf_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       NPC_    bm_werewolf_skaal1a3
+	morrowind.esm       DIAL    dagon fel
+	morrowind.esm       DIAL    redguard
+	tribunal.esm        CLOT    expensive_skirt_04
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage
+
+[MOD-INF]: ID=566074208032058(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:In Telvanni District, the few Telvanni tower towns are just big villages with wizard towers.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 55;   addtopic "settlements in Morrowind"
+  stros 9.15.18.ESP->|DATA|NAME:In Telvanni District, the few Telvanni tower towns are just big villages with wizard towers.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 55;   addtopic "settlements in Morrowind"
+
+[MOD-INF]: ID=3682936256317782(Topic:morrowind lore)
+  morrowind.esm----->|DATA|FNAM:Ashlanders|NAME:We hear the Temple is at war with itself. These Dissident priests rebelled against Temple rulers, so the Temple outlawed the Dissident priests, and imprison and torment them.|SCVR:02sX4Random100|INTV|BNAM:;default; random100 <= 30;
+  stros 9.15.18.ESP->|DATA|FNAM:Ashlanders|NAME:We hear the Temple is at war with itself. These Dissident priests rebelled against Temple rulers, so the Temple outlawed the Dissident priests, and imprison and torment them.|SCVR:02sX4Random100|INTV|SCVR:1BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 30;
+
+[MOD-INF]: ID=4553840139047856(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Blight is a sickness you get from being outside during ash storms. The sickness comes from Red Mountain; it makes normal creatures into terrible monsters.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:.
+  stros 9.15.18.ESP->|DATA|NAME:The Blight is a sickness you get from being outside during ash storms. The sickness comes from Red Mountain; it makes normal creatures into terrible monsters.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:.|SCVR:2BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=6833953016118840(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Let me tell you a little about the Blight. The Blight is a weather phenomenon associated with Vvardenfell's colossal volcano, Red Mountain. Persistent within the Ghostfence -- that is, within the crater and on the volcano's slopes -- and intermittent near the volcano, the Blight is a health-threatening, ash-heavy volcanic cloud. Plants and creatures exposed to the Blight may contract a variety of blight diseases. So stay away from Red Mountain and the Blight, unless you're some mighty hero or wizard.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 15;
+  stros 9.15.18.ESP->|DATA|NAME:Let me tell you a little about the Blight. The Blight is a weather phenomenon associated with Vvardenfell's colossal volcano, Red Mountain. Persistent within the Ghostfence -- that is, within the crater and on the volcano's slopes -- and intermittent near the volcano, the Blight is a health-threatening, ash-heavy volcanic cloud. Plants and creatures exposed to the Blight may contract a variety of blight diseases. So stay away from Red Mountain and the Blight, unless you're some mighty hero or wizard.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 15;
+
+[MOD-INF]: ID=20436219646645811(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:House Indoril and House Dres are the two of Morrowind's Great Houses that have no holdings on Vvardenfell.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 35;
+  stros 9.15.18.ESP->|DATA|NAME:House Indoril and House Dres are the two of Morrowind's Great Houses that have no holdings on Vvardenfell.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 35;
+
+[MOD-INF]: ID=38214509332127387(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:A group called the Dissident priests rebelled against Temple authority. The Temple outlawed the Dissident priests, and persecutes them.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 30;
+  stros 9.15.18.ESP->|DATA|NAME:A group called the Dissident priests rebelled against Temple authority. The Temple outlawed the Dissident priests, and persecutes them.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 30;
+
+[MOD-INF]: ID=43752613647404954(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Imperial cult worships the Nine Divines, Akatosh, Dibella, Arkay, Zenithar, Mara, Stendarr, Kynareth, and Julianos, and Tiber Septim, founder and patron of the Empire. Imperials are more tolerant than Dunmer when it comes to religion.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:=|SCVR:38FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:The Imperial cult worships the Nine Divines, Akatosh, Dibella, Arkay, Zenithar, Mara, Stendarr, Kynareth, and Julianos, and Tiber Septim, founder and patron of the Empire. Imperials are more tolerant than Dunmer when it comes to religion.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:=|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=45053005991712851(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Ashlander nomadic camps are groups of small portable huts.|SCVR:02sX4Random100|INTV:"|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 55;   addtopic "settlements in Morrowind"
+  stros 9.15.18.ESP->|DATA|NAME:Ashlander nomadic camps are groups of small portable huts.|SCVR:02sX4Random100|INTV:"|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 55;   addtopic "settlements in Morrowind"
+
+[MOD-INF]: ID=54182042634510706(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Great Houses are always fighting each other in the Great House Wars.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;default; random100 <= 10;
+  stros 9.15.18.ESP->|DATA|NAME:The Great Houses are always fighting each other in the Great House Wars.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:2BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 10;
+
+[MOD-INF]: ID=58531399831513114(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:When you've joined one Great House, you can never join any other Great House. They won't trust you. So when you join a Great House, make sure its the one you want forever.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:+|SCVR:28FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:When you've joined one Great House, you can never join any other Great House. They won't trust you. So when you join a Great House, make sure its the one you want forever.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:+|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=65055971136618662(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:In the First Age, the prophet Veloth led the ancestors of the Dunmer from Summerset Isles to the region of Morrowind.|SCVR:02sX4Random100|INTV:*|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default;
+  stros 9.15.18.ESP->|DATA|NAME:In the First Age, the prophet Veloth led the ancestors of the Dunmer from Summerset Isles to the region of Morrowind.|SCVR:02sX4Random100|INTV:*|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default;
+
+[MOD-INF]: ID=66530047466922670(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Outlaws have no rights, and may be killed without scandal or sanction. Guards may use deadly force in the line of duty.|SCVR:02sX4Random100|INTV|SCVR:1BLX0Cavern of the Incarnate|INTV|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;Hlaalu Guard; random100 <= 50;
+  stros 9.15.18.ESP->|DATA|NAME:Outlaws have no rights, and may be killed without scandal or sanction. Guards may use deadly force in the line of duty.|SCVR:02sX4Random100|INTV|SCVR:1BLX0Cavern of the Incarnate|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Stros M'Kai|INTV|BNAM:;Hlaalu Guard; random100 <= 50;
+
+[MOD-INF]: ID=84321042754420411(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Dissident priests challenge certain traditional doctrines of the Temple. They also criticize abuses of power by the Ordinators, and accuse the Temple leaders of greed and corruption.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 30;
+  stros 9.15.18.ESP->|DATA|NAME:The Dissident priests challenge certain traditional doctrines of the Temple. They also criticize abuses of power by the Ordinators, and accuse the Temple leaders of greed and corruption.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 30;
+
+[MOD-INF]: ID=97813416208347762(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The native Dunmer cultures are the civilized Great House societies of House Redoran, House Hlaalu, and House Telvanni, each with their own architectures, customs, and traditions.|SCVR:02sX4Random100|INTV:#|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 60;
+  stros 9.15.18.ESP->|DATA|NAME:The native Dunmer cultures are the civilized Great House societies of House Redoran, House Hlaalu, and House Telvanni, each with their own architectures, customs, and traditions.|SCVR:02sX4Random100|INTV:#|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 60;
+
+[MOD-INF]: ID=102626321175966373(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:By Imperial law and custom, killing is fair in war, self-defense, defense of property, affairs of honor, and sanctioned affairs of state. Other killings are murder, and punishable by death, fines, or hard labor.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;Hlaalu Guard; random100 <= 50;
+  stros 9.15.18.ESP->|DATA|NAME:By Imperial law and custom, killing is fair in war, self-defense, defense of property, affairs of honor, and sanctioned affairs of state. Other killings are murder, and punishable by death, fines, or hard labor.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;Hlaalu Guard; random100 <= 50;
+
+[MOD-INF]: ID=117079043120010886(Topic:morrowind lore)
+  morrowind.esm----->|DATA|FNAM:Ashlanders|NAME:Our camps are groups of small portable huts we call 'yurts'.|SCVR:02sX4Random100|INTV:"|BNAM:;default; random100 <= 55;
+  stros 9.15.18.ESP->|DATA|FNAM:Ashlanders|NAME:Our camps are groups of small portable huts we call 'yurts'.|SCVR:02sX4Random100|INTV:"|SCVR:1BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 55;
+
+[DUP-INF]: ID=119818862849716705(Topic:dagon fel)
+  |DATA|ONAM:sorkvild the raven|NAME:The locals haven't shown an appreciation of my unique talents.
+
+[DUP-INF]: ID=120064012167910859(Topic:solstheim)
+  |DATA|ANAM:Skaal Village|NAME:This is the island of Solstheim, a jewel of an island and home to the Skaal. We settled here many generations ago.
+
+[MOD-INF]: ID=138762478019303616(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Of Morrowind's five Great Houses, three are represented on Vvardenfell. House Redoran, House Hlaalu, and House Telvanni.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 35;
+  stros 9.15.18.ESP->|DATA|NAME:Of Morrowind's five Great Houses, three are represented on Vvardenfell. House Redoran, House Hlaalu, and House Telvanni.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 35;
+
+[MOD-INF]: ID=171116658593514634(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Morag Tong are honorable, law-abiding executioners and assassins. They hate the Dark Brotherhood, the outlaw Western assassins guild.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:4|SCVR:28FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:The Morag Tong are honorable, law-abiding executioners and assassins. They hate the Dark Brotherhood, the outlaw Western assassins guild.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:4|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=199431324132720114(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:House Telvanni is an independent association of wizard-lords, equally hostile to the Empire, the Temple, and Morrowind's other Great Houses.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 35;
+  stros 9.15.18.ESP->|DATA|NAME:House Telvanni is an independent association of wizard-lords, equally hostile to the Empire, the Temple, and Morrowind's other Great Houses.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV:|BNAM:;default; random100 <= 35;
+
+[MOD-INF]: ID=216031121705115849(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:There's always trouble in Morrowind between outlanders -- non-Dunmer Imperial colonists -- and the Dunmer natives.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 10;
+  stros 9.15.18.ESP->|DATA|NAME:There's always trouble in Morrowind between outlanders -- non-Dunmer Imperial colonists -- and the Dunmer natives.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 10;
+
+[MOD-INF]: ID=218317025157419911(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:Light armor is weak but less tiring, good for running. Heavy armor is strong but slow and tiring. Medium armor is in-between. Unarmored style -- evading attacks instead of using armor -- least tiring of all.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:F
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:Light armor is weak but less tiring, good for running. Heavy armor is strong but slow and tiring. Medium armor is in-between. Unarmored style -- evading attacks instead of using armor -- least tiring of all.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:F|SCVR:2BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=250417798244615144(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:Imperials worship powerful spirits -- but are they the RIGHT spirits? They are powerful, but are they GOOD? We used to worship the Daedra, but now we worship the true gods, the Tribunal, and the Daedra serve the true gods in fear and humility.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:>|SCVR:28FX0Imperial Cult|INTV|SCVR:38FX0Imperial Legion|INTV|SCVR:48FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:Imperials worship powerful spirits -- but are they the RIGHT spirits? They are powerful, but are they GOOD? We used to worship the Daedra, but now we worship the true gods, the Tribunal, and the Daedra serve the true gods in fear and humility.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:>|SCVR:28FX0Imperial Cult|INTV|SCVR:38FX0Imperial Legion|INTV|SCVR:48FX0Ashlanders|INTV|SCVR:5BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=273192317800227593(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Imperial cult brings Imperial religion to the Empire's remote provinces. Imperial cult priests provide worship and services for the Nine Divines at Imperial shrines throughout Vvardenfell.|SCVR:02sX4Random100|INTV:&|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 65;
+  stros 9.15.18.ESP->|DATA|NAME:The Imperial cult brings Imperial religion to the Empire's remote provinces. Imperial cult priests provide worship and services for the Nine Divines at Imperial shrines throughout Vvardenfell.|SCVR:02sX4Random100|INTV:&|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 65;
+
+[MOD-INF]: ID=281392961647417943(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:Some Dunmer get used to outlanders. We even like some outlanders, and adopt them into our Great Houses. But it isn't easy. It takes time and effort to win our trust.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 50;
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:Some Dunmer get used to outlanders. We even like some outlanders, and adopt them into our Great Houses. But it isn't easy. It takes time and effort to win our trust.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 50;
+
+[MOD-INF]: ID=306611374920585152(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Morrowind is an Imperial province, though the Treaty of the Armistice lets the Dunmer Great House councils control most local government functions.|SCVR:02sX4Random100|INTV:'|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default;
+  stros 9.15.18.ESP->|DATA|NAME:Morrowind is an Imperial province, though the Treaty of the Armistice lets the Dunmer Great House councils control most local government functions.|SCVR:02sX4Random100|INTV:'|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default;
+
+[MOD-INF]: ID=313182654791884226(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:By tradition, Ashlanders claim the right to raid other Ashlander tribes -- and non-Ashlander settlements -- for booty and slaves.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 40;
+  stros 9.15.18.ESP->|DATA|NAME:By tradition, Ashlanders claim the right to raid other Ashlander tribes -- and non-Ashlander settlements -- for booty and slaves.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 40;
+
+[MOD-INF]: ID=656711346660523715(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:Red Mountain is a terrible place. Dagoth Ur, the ash vampires and his foul host live there. Only the Ghostfence keeps Dagoth Ur from sweeping across Morrowind and killing everyone.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:,
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:Red Mountain is a terrible place. Dagoth Ur, the ash vampires and his foul host live there. Only the Ghostfence keeps Dagoth Ur from sweeping across Morrowind and killing everyone.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:,|SCVR:2BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=662824637661713808(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Dunmer are a serious people, and very serious about their gods and the Temple.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:8|SCVR:38FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:The Dunmer are a serious people, and very serious about their gods and the Temple.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:8|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=879279732388113851(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:you know why we don't like outlanders? We are a proud people, and we don't like being reminded that we were conquered by foreigners.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 50;
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:you know why we don't like outlanders? We are a proud people, and we don't like being reminded that we were conquered by foreigners.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 50;
+
+[MOD-INF]: ID=1077413105148145055(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Morrowind used to be free farmers and herders and fishermen ruled by great houses and their noble councils. But since the Imperial occupation, the Dunmer are more dependent on trade and industry.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 25;
+  stros 9.15.18.ESP->|DATA|NAME:Morrowind used to be free farmers and herders and fishermen ruled by great houses and their noble councils. But since the Imperial occupation, the Dunmer are more dependent on trade and industry.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 25;
+
+[MOD-INF]: ID=1169922125955110917(Topic:solstheim)
+  bloodmoon.esm----->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  stros 9.15.18.ESP->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1BLX0Stros M'Kai|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=1216320012276019002(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Verbal assault, pickpocketing, and trespassing are minor crimes, punished by fines or hard labor.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;Hlaalu Guard;
+  stros 9.15.18.ESP->|DATA|NAME:Verbal assault, pickpocketing, and trespassing are minor crimes, punished by fines or hard labor.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;Hlaalu Guard;
+
+[MOD-INF]: ID=1325113218202711288(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:Many Dunmer in Morrowind don't like outlander Dunmer. Dark Elves born and raised to Imperial ways can't understand what it is to be a Dunmer born-and-bred.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 50;
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:Many Dunmer in Morrowind don't like outlander Dunmer. Dark Elves born and raised to Imperial ways can't understand what it is to be a Dunmer born-and-bred.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 50;
+
+[MOD-INF]: ID=1326274282323529987(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:The two criminal guilds here are the Camonna Tong, the native criminal syndicate, and the Thieves Guild, the Imperial upstarts. The Camonna Tong accepts only native Dunmer. The Camonna Tong has sworn to exterminate the outlander-dominated Thieves Guild.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:?|SCVR:28FX0Ashlanders|INTV|SCVR:38FX0Thieves Guild|INTV
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:The two criminal guilds here are the Camonna Tong, the native criminal syndicate, and the Thieves Guild, the Imperial upstarts. The Camonna Tong accepts only native Dunmer. The Camonna Tong has sworn to exterminate the outlander-dominated Thieves Guild.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:?|SCVR:28FX0Ashlanders|INTV|SCVR:38FX0Thieves Guild|INTV|SCVR:4BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=1347231590213183818(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The first Dunmer nation, Resdayn, was ruled by the First Council and the Tribunal Temple. The name changed to Morrowind when it became an Imperial province.|SCVR:02sX4Random100|INTV:(|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default;
+  stros 9.15.18.ESP->|DATA|NAME:The first Dunmer nation, Resdayn, was ruled by the First Council and the Tribunal Temple. The name changed to Morrowind when it became an Imperial province.|SCVR:02sX4Random100|INTV:(|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV:|BNAM:;default;
+
+[MOD-INF]: ID=1415519459289694434(Topic:morrowind lore)
+  morrowind.esm----->|DATA|FNAM:Ashlanders|NAME:The Imperial legions are mighty warriors. No one can defeat them when they march in rows in open fields. But here, in our ashlands and wild places, they are no match for us.|SCVR:22sX4Random100|INTV::
+  stros 9.15.18.ESP->|DATA|FNAM:Ashlanders|NAME:The Imperial legions are mighty warriors. No one can defeat them when they march in rows in open fields. But here, in our ashlands and wild places, they are no match for us.|SCVR:22sX4Random100|INTV::|SCVR:3BLX0Stros M'Kai|INTV
+
+[DUP-INF]: ID=1470721697254192970(Topic:little advice)
+  |DATA|ONAM:svenja_outside|NAME:Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't...something inside waiting for you. Be ready for a fight.
+
+[MOD-INF]: ID=1514728982755424682(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Ashlanders are the nomadic Dunmer barbarians of the Morrowind wastelands. They live in camps of small, mobile huts, herding guar and hunting wildlife for meat and hides.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 40;
+  stros 9.15.18.ESP->|DATA|NAME:Ashlanders are the nomadic Dunmer barbarians of the Morrowind wastelands. They live in camps of small, mobile huts, herding guar and hunting wildlife for meat and hides.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 40;
+
+[MOD-INF]: ID=1734188513187019186(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Dunmer don't like outlanders. After four centuries, they still aren't really part of the Empire. I understand their loyalty to religion and culture, but at heart, I think they just hate other races.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:<|SCVR:38FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:The Dunmer don't like outlanders. After four centuries, they still aren't really part of the Empire. I understand their loyalty to religion and culture, but at heart, I think they just hate other races.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:<|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=1876222912775829177(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Worn-out weapons and armor work poorly. Repair them yourself, if you have some skill, or take them to a smith for repair.|SCVR:0CsX0nolore|INTV:
+  stros 9.15.18.ESP->|DATA|NAME:Worn-out weapons and armor work poorly. Repair them yourself, if you have some skill, or take them to a smith for repair.|SCVR:0CsX0NoLore|INTV:|SCVR:1BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=1943513620196028269(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:We don't like foreigners or outlanders much in Morrowind. We are a proud people, and we don't like being a conquered nation.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 50;
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:We don't like foreigners or outlanders much in Morrowind. We are a proud people, and we don't like being a conquered nation.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 50;
+
+[MOD-INF]: ID=1971321018197223853(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Ashlanders are primitive native nomads living in the wilderness. There aren't many of them.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:1|SCVR:28FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:Ashlanders are primitive native nomads living in the wilderness. There aren't many of them.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:1|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=2022014383342625376(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Dunmer say they hate necromancers, vampires, and all undead. But they guard their tombs with the ghosts and animated spirits of their ancestors. What's the difference?|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:7|SCVR:38FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:Dunmer say they hate necromancers, vampires, and all undead. But they guard their tombs with the ghosts and animated spirits of their ancestors. What's the difference?|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:7|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Stros M'Kai|INTV
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[MOD-INF]: ID=2085626757276163712(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:House Redoran is an aristocratic house of noble warriors. They are strong supporters of the Tribunal Temple.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 35;
+  stros 9.15.18.ESP->|DATA|NAME:House Redoran is an aristocratic house of noble warriors. They are strong supporters of the Tribunal Temple.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 35;
+
+[MOD-INF]: ID=2207919334526321820(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|FNAM:Ashlanders|NAME:We don't like outlanders. Morrowind belongs to the Dunmer. We only want to be left alone to live as our forefathers lived.|SCVR:12sX4Random100|INTV:B|SCVR:2BLX0Tel Vos|INTV
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|FNAM:Ashlanders|NAME:We don't like outlanders. Morrowind belongs to the Dunmer. We only want to be left alone to live as our forefathers lived.|SCVR:12sX4Random100|INTV:B|SCVR:2BLX0Tel Vos|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=2264913829558011180(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Three cultures live on Vvardenfel: the nomadic Ashlanders: the settled House Dunmer, and the Western Imperial colonists of all races.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:28FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:Three cultures live on Vvardenfel: the nomadic Ashlanders: the settled House Dunmer, and the Western Imperial colonists of all races.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=2278720479126556737(Topic:solstheim)
+  bloodmoon.esm----->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2
+  stros 9.15.18.ESP->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2|SCVR:1BLX0Stros M'Kai|INTV:
+
+[MOD-INF]: ID=2346417070224447769(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Ashlanders are nomadic barbarians, living in camps of small portable huts.|SCVR:02sX4Random100|INTV:%|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 60;
+  stros 9.15.18.ESP->|DATA|NAME:Ashlanders are nomadic barbarians, living in camps of small portable huts.|SCVR:02sX4Random100|INTV:%|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 60;
+
+[MOD-INF]: ID=2392418814229156699(Topic:morrowind lore)
+  morrowind.esm----->|DATA|FNAM:Ashlanders|NAME:The Imperial legions are mighty warriors. No one can defeat them when they march in rows in open fields. But here, in our ashlands and wild places, they are no match for us.|SCVR:22sX4Random100|INTV:P
+  stros 9.15.18.ESP->|DATA|FNAM:Ashlanders|NAME:The Imperial legions are mighty warriors. No one can defeat them when they march in rows in open fields. But here, in our ashlands and wild places, they are no match for us.|SCVR:22sX4Random100|INTV:P|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=2573128702994632175(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Theft and foul murder are serious crimes. Theft is punished by fines related to the value of the stolen goods, or by hard labor. Foul murder is punished by fines of at least 1000 drakes, or by hard labor.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;Hlaalu Guard;
+  stros 9.15.18.ESP->|DATA|NAME:Theft and foul murder are serious crimes. Theft is punished by fines related to the value of the stolen goods, or by hard labor. Foul murder is punished by fines of at least 1000 drakes, or by hard labor.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;Hlaalu Guard;
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[MOD-INF]: ID=2726913985292257337(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Tribunal Temple is at war with a rebellious faction called the Dissident Priests.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 10;
+  stros 9.15.18.ESP->|DATA|NAME:The Tribunal Temple is at war with a rebellious faction called the Dissident Priests.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 10;
+
+[MOD-INF]: ID=2798917491184915920(Topic:solstheim)
+  bloodmoon.esm----->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  stros 9.15.18.ESP->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1BLX0Stros M'Kai|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=2951813563235179461(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Blight is a health-threatening volcanic cloud full of ash. Plants and creatures in the Blight get blight diseases.|SCVR:02sX4Random100|INTV: |SCVR:1CsX0nolore|INTV:|BNAM:;default; random100 <= 15;
+  stros 9.15.18.ESP->|DATA|NAME:The Blight is a health-threatening volcanic cloud full of ash. Plants and creatures in the Blight get blight diseases.|SCVR:02sX4Random100|INTV: |SCVR:1CsX0NoLore|INTV:|SCVR:2BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 15;
+
+[MOD-INF]: ID=3010513587107817306(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:In case you didn't know, weapons and armor are less effective when they get worn out. Repair them yourself, if you have the skill, or take them to a smith for repair.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:Z
+  stros 9.15.18.ESP->|DATA|NAME:In case you didn't know, weapons and armor are less effective when they get worn out. Repair them yourself, if you have the skill, or take them to a smith for repair.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:Z|SCVR:2BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=3021613648919731009(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Slavery is protected by law in Morrowind. Slavery is illegal throughout the rest of the Empire. But some Dunmer still defend their 'ancient right' to own slaves. In Morrowind slaves are bound by enchanted slaver bracers. The bracers drain the magicka from the slaves so they can't use magic to escape. Unless you have a key, you can't get the slave bracers off. The Emperor should put a stop to slavery, but the Dunmer claim the right to own slaves is guaranteed by the Armistice.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:F|SCVR:2ARX0Dark Elf|INTV
+  stros 9.15.18.ESP->|DATA|NAME:Slavery is protected by law in Morrowind. Slavery is illegal throughout the rest of the Empire. But some Dunmer still defend their 'ancient right' to own slaves. In Morrowind slaves are bound by enchanted slaver bracers. The bracers drain the magicka from the slaves so they can't use magic to escape. Unless you have a key, you can't get the slave bracers off. The Emperor should put a stop to slavery, but the Dunmer claim the right to own slaves is guaranteed by the Armistice.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:F|SCVR:2ARX0Dark Elf|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=3095424884419930413(Topic:solstheim)
+  bloodmoon.esm----->|DATA|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  stros 9.15.18.ESP->|DATA|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1BLX0Stros M'Kai|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=3255311681860417367(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|FNAM:Telvanni|NAME:We don't like outlanders. Morrowind belongs to the Dunmer. We only want to be left alone to live as our forefathers lived.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:B|SCVR:2BLX0Tel Vos|INTV
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|FNAM:Telvanni|NAME:We don't like outlanders. Morrowind belongs to the Dunmer. We only want to be left alone to live as our forefathers lived.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:B|SCVR:2BLX0Tel Vos|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=3758320352593311551(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Rural Dunmer live in villages, groups of small huts centered around Temple compounds.|SCVR:02sX4Random100|INTV:!|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 55;   addtopic "settlements in Morrowind"
+  stros 9.15.18.ESP->|DATA|NAME:Rural Dunmer live in villages, groups of small huts centered around Temple compounds.|SCVR:02sX4Random100|INTV:!|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 55;   addtopic "settlements in Morrowind"
+
+[MOD-INF]: ID=4260299941594727660(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Most Dunmer worship the Tribunal, three mortals who became gods in the distant past before Tiber Septim. The Temple takes care of the poor, provides health and education, and teaches family duty.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:9|SCVR:38FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:Most Dunmer worship the Tribunal, three mortals who became gods in the distant past before Tiber Septim. The Temple takes care of the poor, provides health and education, and teaches family duty.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:9|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=5106166163114618710(Topic:morrowind lore)
+  morrowind.esm----->|DATA|FNAM:Ashlanders|NAME:Morrowind used to be free hunters and herders -- the proud tribes of the Dunmer. But since the outlanders rule our land, the Dunmer live in the cities and grow soft and mild like herd beasts.|SCVR:02sX4Random100|INTV|BNAM:;default; random100 <= 25;
+  stros 9.15.18.ESP->|DATA|FNAM:Ashlanders|NAME:Morrowind used to be free hunters and herders -- the proud tribes of the Dunmer. But since the outlanders rule our land, the Dunmer live in the cities and grow soft and mild like herd beasts.|SCVR:02sX4Random100|INTV|SCVR:1BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 25;
+
+[MOD-INF]: ID=5577225761156621115(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Imperial legions are the greatest fighting force Tamriel has ever known. In Morrowind they serve as guards, but the garrisons are insurance that the Dunmer will never rise in rebellion against the Empire.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV::|SCVR:38FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:The Imperial legions are the greatest fighting force Tamriel has ever known. In Morrowind they serve as guards, but the garrisons are insurance that the Dunmer will never rise in rebellion against the Empire.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV::|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=7872300952106818731(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:About 50% of Vvardenfell's inhabitants are Dunmer. The other half are Redguard, Breton, Nord, Altmer, Dunmer, Bosmer, Imperial, Khajiit, Argonian, and Orc in roughly equal proportion.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:P|SCVR:28FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:About 50% of Vvardenfell's inhabitants are Dunmer. The other half are Redguard, Breton, Nord, Altmer, Dunmer, Bosmer, Imperial, Khajiit, Argonian, and Orc in roughly equal proportion.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:P|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[DUP-INF]: ID=10383195842825314349(Topic:little secret)
+  |DATA|ONAM:svenja_outside|NAME:The name of the wolf that killed Hrothmund is "Ondjage." You'll need to say his name to enter Hrothmund's Barrow. Say any other name and you'll NEVER be able to get in!
+
+[DUP-INF]: ID=10924273023043113826(Topic:my trade)
+  |DATA|ONAM:erich the unworthy|NAME:I'm a lover and a killer. What more is there in life?
+
+[MOD-INF]: ID=12002245001309531450(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Within the Ghostfence, on Red Mountain's slopes, and in its crater, the weather is always blighted and gloomy.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;default; random100 <= 15;
+  stros 9.15.18.ESP->|DATA|NAME:Within the Ghostfence, on Red Mountain's slopes, and in its crater, the weather is always blighted and gloomy.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:2BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 15;
+
+[MOD-INF]: ID=12117131981634515579(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Ashlanders worship their ancestors. Ashlander tribes are led by their ashkhan war chiefs, and guided by the wisdom and prophecies of their wise women.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 40;
+  stros 9.15.18.ESP->|DATA|NAME:The Ashlanders worship their ancestors. Ashlander tribes are led by their ashkhan war chiefs, and guided by the wisdom and prophecies of their wise women.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV:|BNAM:;default; random100 <= 40;
+
+[MOD-INF]: ID=12173300901755031800(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Three Dunmer Great Houses dominate Vvardenfell politics. The Hlaalu are loyal friends of the Empire, and love trade and wealth. The Redoran honor the traditions of the noble warrior houses. The Telvanni are ruled by thousand-year-old sorcerers who care for nothing but magic and power.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:;|SCVR:38FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:Three Dunmer Great Houses dominate Vvardenfell politics. The Hlaalu are loyal friends of the Empire, and love trade and wealth. The Redoran honor the traditions of the noble warrior houses. The Telvanni are ruled by thousand-year-old sorcerers who care for nothing but magic and power.|SCVR:0CsX0NoLore|INTV:|SCVR:1ARX0Dark Elf|INTV|SCVR:22sX4Random100|INTV:;|SCVR:38FX0Ashlanders|INTV|SCVR:4BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=13178317622917329291(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:Ashlanders live with their herds in camps in the wilderness. They are primitive people, but proud, and I fear they can never become civilized.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:A|SCVR:28FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:Ashlanders live with their herds in camps in the wilderness. They are primitive people, but proud, and I fear they can never become civilized.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:A|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=14240181313230314282(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:A secret cult called the Sixth House is killing Imperial citizens.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 10;
+  stros 9.15.18.ESP->|DATA|NAME:A secret cult called the Sixth House is killing Imperial citizens.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 10;
+
+[MOD-INF]: ID=17566240201973322338(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:By Redoran customs, killing is justified in war, self-defense, defense of property, affairs of honor, and House Wars affairs. Other killings are foul murder, and must be punished.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 45;
+  stros 9.15.18.ESP->|DATA|NAME:By Redoran customs, killing is justified in war, self-defense, defense of property, affairs of honor, and House Wars affairs. Other killings are foul murder, and must be punished.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 45;
+
+[DUP-INF]: ID=19107196321272228935(Topic:redguard)
+  |DATA|FNAM:Ashlanders|NAME:Redguards are outlanders, foreigners, Westerners. They don't belong here. They should go back where they came from.|SCVR:0CsX0NoLore|INTV:|BNAM:; Ashlander
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[MOD-INF]: ID=21939314992558616258(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Recent Imperial colonies like Pelagiad look like the same homes and castles you see in Daggerfall or any other Western province.|SCVR:02sX4Random100|INTV:$|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 60;
+  stros 9.15.18.ESP->|DATA|NAME:Recent Imperial colonies like Pelagiad look like the same homes and castles you see in Daggerfall or any other Western province.|SCVR:02sX4Random100|INTV:$|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 60;
+
+[MOD-INF]: ID=24430117692405726091(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The First Age Dunmer tribes that settled Morrowind became the modern Great House clans. Ashlanders also descend from these early Dunmer tribes.|SCVR:02sX4Random100|INTV:)|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default;
+  stros 9.15.18.ESP->|DATA|NAME:The First Age Dunmer tribes that settled Morrowind became the modern Great House clans. Ashlanders also descend from these early Dunmer tribes.|SCVR:02sX4Random100|INTV:)|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default;
+
+[MOD-INF]: ID=24435130011461122383(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The Blight is weather caused by the big volcano, Red Mountain.|SCVR:02sX4Random100|INTV: |SCVR:1CsX0nolore|INTV:|BNAM:;default; random100 <= 15;
+  stros 9.15.18.ESP->|DATA|NAME:The Blight is weather caused by the big volcano, Red Mountain.|SCVR:02sX4Random100|INTV: |SCVR:1CsX0NoLore|INTV:|SCVR:2BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 15;
+
+[MOD-INF]: ID=24944299081073916960(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Foul murder is punished by compensation, hard labor, or sometimes by writ of assassination.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 45;
+  stros 9.15.18.ESP->|DATA|NAME:Foul murder is punished by compensation, hard labor, or sometimes by writ of assassination.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 45;
+
+[MOD-INF]: ID=25352138733212232462(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Western Imperial colonists of various races live mostly in the towns and villages of southwest Vvardenfell.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:/|SCVR:28FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:Western Imperial colonists of various races live mostly in the towns and villages of southwest Vvardenfell.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:/|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=25857322791287610358(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:House Dunmer are the common Dark Elves of Morrowind. They live everywhere on Vvardenfell, in towns, villages, manors, and farms.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:0|SCVR:28FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:House Dunmer are the common Dark Elves of Morrowind. They live everywhere on Vvardenfell, in towns, villages, manors, and farms.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:0|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=25995174252118425200(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:House Hlaalu is an ambitious house of traders and merchant princes. They are strong supporters of the Empire.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 35;
+  stros 9.15.18.ESP->|DATA|NAME:House Hlaalu is an ambitious house of traders and merchant princes. They are strong supporters of the Empire.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 35;
+
+[MOD-INF]: ID=26785248203096711103(Topic:morrowind lore)
+  morrowind.esm----->|DATA|FNAM:Ashlanders|NAME:House Redoran is a house of warriors. There are good ones and bad ones. Some have honor and speak truth. Others speak with their weapons, and steal our lands and treasures.|SCVR:02sX4Random100|INTV|BNAM:;default; random100 <= 35;
+  stros 9.15.18.ESP->|DATA|FNAM:Ashlanders|NAME:House Redoran is a house of warriors. There are good ones and bad ones. Some have honor and speak truth. Others speak with their weapons, and steal our lands and treasures.|SCVR:02sX4Random100|INTV|SCVR:1BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 35;
+
+[MOD-INF]: ID=26854191792565816469(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Town and city Dunmer live either in the metropolitan style of Vivec City, the urban style of towns like Ald'ruhn, or the Imperial style of recent settlements like Caldera.|SCVR:02sX4Random100|INTV: |SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 55;   addtopic "settlements in Morrowind"
+  stros 9.15.18.ESP->|DATA|NAME:Town and city Dunmer live either in the metropolitan style of Vivec City, the urban style of towns like Ald'ruhn, or the Imperial style of recent settlements like Caldera.|SCVR:02sX4Random100|INTV: |SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 55;   addtopic "settlements in Morrowind"
+
+[MOD-INF]: ID=27450220592297721202(Topic:morrowind lore)
+  morrowind.esm----->|DATA|RNAM:Dark Elf|NAME:Morrowind was a great nation before the Western men were even civilized. Sometimes it makes us impatient to hear the Imperials preach to us of civilization.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:-|SCVR:28FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|RNAM:Dark Elf|NAME:Morrowind was a great nation before the Western men were even civilized. Sometimes it makes us impatient to hear the Imperials preach to us of civilization.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:-|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=27808235931407711981(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Ordinators arrest and imprison Dissident priests and other heretics. By the terms of the Armistice, the Empire cannot interfere.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;default; random100 <= 30;
+  stros 9.15.18.ESP->|DATA|NAME:Ordinators arrest and imprison Dissident priests and other heretics. By the terms of the Armistice, the Empire cannot interfere.|SCVR:02sX4Random100|INTV|SCVR:18FX0Ashlanders|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:3BLX0Stros M'Kai|INTV|BNAM:;default; random100 <= 30;
+
+[MOD-INF]: ID=28341236081776914332(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:The two criminal guilds here are the Camonna Tong, the native criminal syndicate, and the Thieves Guild, the Imperial newcomers. The Thieves Guild is fighting for its life against the ruthless and well-established Camonna Tong.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:@|SCVR:28FX0Ashlanders|INTV
+  stros 9.15.18.ESP->|DATA|NAME:The two criminal guilds here are the Camonna Tong, the native criminal syndicate, and the Thieves Guild, the Imperial newcomers. The Thieves Guild is fighting for its life against the ruthless and well-established Camonna Tong.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:@|SCVR:28FX0Ashlanders|INTV|SCVR:3BLX0Stros M'Kai|INTV
+
+[MOD-INF]: ID=30087114932095127259(Topic:morrowind lore)
+  morrowind.esm----->|DATA|NAME:Misshapen monsters and diseases called 'blight disease' are spreading from Red Mountain, a volcano where the Devil Dagoth Ur and his ash vampires live.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;default; random100 <= 10;
+  stros 9.15.18.ESP->|DATA|NAME:Misshapen monsters and diseases called 'blight disease' are spreading from Red Mountain, a volcano where the Devil Dagoth Ur and his ash vampires live.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:2BLX0Stros M'Kai, Ancient Dwemer Observatory|INTV|BNAM:;default; random100 <= 10;

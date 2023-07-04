@@ -1,0 +1,26 @@
+Mass_Cure_price.ESP: AUTOSPL DUP-REC MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	cure common disease other      Cure Common Disease on Other
+	cure blight disease            Cure Blight Disease
+	cure poison touch              Cure Poison on Touch
+	almsivi restore fighter        Almsivi Restore Fighter
+	almsivi restore mage           Almsivi Restore Mage
+	almsivi restore stealth        Almsivi Restore Stealth
+	almsivi restore other          Almsivi Restore Other
+	restore fighter                Restore Fighter
+	restore mage                   Restore Mage
+	restore other                  Restore Other
+	restore stealth                Restore Stealth
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       SPEL    almsivi restore fighter
+	morrowind.esm       SPEL    almsivi restore mage
+	morrowind.esm       SPEL    almsivi restore other
+	morrowind.esm       SPEL    almsivi restore stealth
+	morrowind.esm       SPEL    cure blight disease
+	morrowind.esm       SPEL    cure common disease other
+	morrowind.esm       SPEL    cure poison touch
+	morrowind.esm       SPEL    restore fighter
+	morrowind.esm       SPEL    restore mage
+	morrowind.esm       SPEL    restore other
+	morrowind.esm       SPEL    restore stealth

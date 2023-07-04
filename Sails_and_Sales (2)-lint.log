@@ -1,0 +1,113 @@
+Sails_and_Sales (2).ESP: DUP-INF DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1384891 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ds22_CrewScript)
+	SCPT(ds22_Traincheck)
+	SCPT(ds22_Traincost)
+	SCPT(ds22_captain_script)
+	SCPT(ds22_crew_izza_chest)
+	SCPT(ds22_getaboat_door_enable)
+	SCPT(ds22_initialise)
+	SCPT(ds22_lanasek_boat_enable)
+	SCPT(ds22_marsus_merc_skill)
+	SCPT(ds22_pearls_intro_script)
+	SCPT(ds22_pirates_enable)
+	SCPT(ds22_supplyBA_enable_pillows)
+	SCPT(ds22_supplyMM_journal)
+	SCPT(ds22_supplySN_enable_miners)
+	SCPT(ds22_supplySN_journal)
+	SCPT(ds22_train_marsus_merc)
+	SCPT(ds22_train_masus_OK)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    mead
+	morrowind.esm       CREA    kwama queen_abaesen
+	morrowind.esm       DIAL    dangerous trip
+	morrowind.esm       DIAL    marsus tullius
+	morrowind.esm       DIAL    potions
+	morrowind.esm       DIAL    thieving ashlanders
+	morrowind.esm       DIAL    vanjirra
+	morrowind.esm       NPC_    ernand thierry
+	morrowind.esm       NPC_    marsus tullius
+	morrowind.esm       NPC_    paur maston
+	morrowind.esm       NPC_    vanjirra
+	morrowind.esm       PGRD    abaesen-pulu egg mine
+	oaab_data.esm       DIAL    kwama
+	tamriel_data.esm    DIAL    high rock
+	tamriel_data.esm    DIAL    mercantile
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    mv_tradermissed
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=32281390961219948(Topic:my trade)
+  |DATA|ONAM:Vedam Dren|NAME:I am a noble, a leader and diplomat.
+
+[DUP-INF]: ID=76991909872623933(Topic:thieving ashlanders)
+  |DATA|ONAM:marsus tullius|NAME:Yeah, a couple of them jumped me and took my hides. I didn't even see them coming. Sneaky, those Ashlanders are. If you can get them back for me, I'd really appreciate it. Figure you might know this area a little better than I do. If you can get them back, my father in Tel Aruhn will pay you well for your trouble, I swear it.|SCVR:04JX4MV_InnocentAshlanders|INTV|BNAM:Journal "MV_InnocentAshlanders" 20  Choice "I'll help you recover your hides." 1 "Sorry. You'll have to find them yourself." 2
+
+[DUP-INF]: ID=187562405697071968(Topic:dangerous trip)
+  |DATA|ONAM:paur maston|NAME:Well, hopefully, I'll be able to make it there in one piece.|SCVR:04JX3MV_TraderMissed|INTV|SCVR:14JX4MV_TraderMissed|INTV:d
+
+[DUP-INF]: ID=304819751277349016(Journal:mv_tradermissed)
+  |DATA|NAME:Paur Maston met his end while on the trip to Molag Mar. Sadly, he will never be able to meet up with his partner, Vanjirra.|QSTF
+
+[MOD-INF]: ID=875317795149451008(Greeting:greeting 0)
+  tribunal.esm------------>|DATA|FNAM:Royal Guard|NAME:Halt!  The King suspected you might try something treacherous with his champion. He cannot allow this to continue. By order of His Royal Highness King Hlaalu Helseth, Duke of Mournhold, you are ordered to accompany me to the prison until His Highness deems you fit to engage in the agreed-upon contest.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+  Sails_and_Sales (2).ESP->|DATA|FNAM:Royal Guard|NAME:Halt! The King suspected you might try something treacherous with his champion. He cannot allow this to continue. By order of His Royal Highness King Hlaalu Helseth, Duke of Mournhold, you are ordered to accompany me to the prison until His Highness deems you fit to engage in the agreed-upon contest.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+
+[DUP-INF]: ID=1007580052588126661(Topic:dangerous trip)
+  |DATA|ONAM:paur maston|NAME:Excellent! Let's be on our way, then.|SCVR:01500|INTV|BNAM:Journal "MV_TraderMissed" 30  "Paur Maston"->AiFollow Player 0 0 0 0 0 0 0  Goodbye
+
+[DUP-INF]: ID=1532240151122825370(Topic:mead)
+  |DATA|ONAM:mirisa_shrine|NAME:Blech! Mead is a vile drink, and it turns normal people into slobbering savages. I've seen what it can do. Trust me.
+
+[MOD-INF]: ID=1706322781135798293(Topic:marsus tullius)
+  morrowind.esm----------->|DATA|ONAM:stentus tullius|NAME:Yes, my son told me all about that business. Shame it all happened, really. I've warned him to stay away from the Ashlanders' herds, but he's still young. I wish I could repay you for saving his skin, but all of my money was tied up in that shipment. Thank you for your help, though.|SCVR:04JX0MV_InnocentAshlanders|INTV:n
+  Sails_and_Sales (2).ESP->|DATA|ONAM:stentus tullius|NAME:Yes, my son told me all about that business. Shame it all happened, really. I've warned him to stay away from the Ashlanders' herds, but he's still young. I wish I could repay you for saving his skin, but all of my money was tied up in that shipment. Thank you for your help, though. I don't know what I'd do if I lost him, young fool though he is.|SCVR:04JX0MV_InnocentAshlanders|INTV:n|BNAM:ModDisposition 15
+
+[DUP-INF]: ID=1884424960106661918(Topic:vanjirra)
+  |DATA|ONAM:paur maston|NAME:I can't believe she's dead!|SCVR:06DX2vanjirra|INTV:
+
+[DUP-INF]: ID=1957926327240137506(Topic:thieving ashlanders)
+  |DATA|ONAM:marsus tullius|NAME:Well, can't say I blame you much. It's gotta be pretty tough to track down a couple of Ashlanders out here. They're tough bastards, I'll give them that.|SCVR:01500|INTV|BNAM:Journal "MV_InnocentAshlanders" 40
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=2673411162303316624(Topic:dangerous trip)
+  |DATA|ONAM:paur maston|NAME:Thank you for helping me reach Molag Mar.|SCVR:04JX3MV_TraderMissed|INTV:_
+
+[DUP-INF]: ID=3020161092515718270(Topic:my trade)
+  |DATA|ONAM:arethan mandas|NAME:I'm a knight by night. Not the best night to be a knight. No horse, no title, no stronghold.
+
+[DUP-INF]: ID=3144611471925214760(Topic:potions)
+  |DATA|ONAM:anarenen|NAME:Alchemists, apothecaries, and healers, as well as general merchants, sell commercial potions. These potions are easy and reliable, but costly. If you have training and skill in alchemy, and the necessary apparatus and ingredients, you can make your own homemade potions in the field. The eleven kinds of potions are: cure potions, restore potions, fortify potions, resist potions, aquatic potions, mysticism potions, alteration potions, illusion potions, detect potions, shield potions, and toxic potions.|SCVR:0CsX0NoLore|INTV:|BNAM:;alchemist; apothecary; healer; trader;
+
+[DUP-INF]: ID=3213637471277622770(Topic:kwama)
+  |DATA|CNAM:Miner|NAME:Kwama colonies, also known as eggmines, are inhabited by the following varieties of kwama: kwama queen, kwama warrior, kwama worker, kwama forager, and scrib.|SCVR:0BLX0Sudanit Mine|INTV|SCVR:1BLX0Dissapla Mine|INTV|SCVR:2BLX0Elith-Pal Mine|INTV|SCVR:3BLX0Halit Mine|INTV|SCVR:4BLX0Caldera Mine|INTV|SCVR:5BLX0Yassu Mine|INTV|BNAM:;miner
+
+[DUP-INF]: ID=3234382852344026970(Journal:mv_tradermissed)
+  |DATA|NAME:I've decided not to escort Paur Maston to Molag Mar. I have other things that are more important to take care of.|QSTF
+
+[MOD-INF]: ID=4136127341628814266(Topic:kwama)
+  oaab_data.esm----------->|DATA|CNAM|AB_EggMiner|NAME
+  Sails_and_Sales (2).ESP->|DATA|CNAM|AB_EggMiner|NAME:Kwama colonies, also known as eggmines, are inhabited by the following varieties of kwama: kwama queen, kwama warrior, kwama worker, kwama forager, and scrib.|BNAM:;eggminer
+
+[DUP-INF]: ID=17343287881318820021(Topic:dangerous trip)
+  |DATA|ONAM:paur maston|NAME:No? Well, maybe I'll be able to make it on my own. Good luck to you, then.|SCVR:01500|INTV|BNAM:Journal "MV_TraderMissed" 40  Goodbye
+
+[DUP-INF]: ID=25962153161759731313(Topic:beds)
+  |DATA|ONAM:Alcedonia Amnis|CNAM:Publican|NAME:Very well. Head upstairs, to the last room on the right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script RAVEN ROCK BAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+
+[DUP-INF]: ID=30315275591875210745(Topic:dangerous trip)
+  |DATA|ONAM:paur maston|NAME:I've heard the road there is populated by dangerous creatures, and I fear I can't make it alone. Perhaps you'd be willing to escort me? I have little to compensate you for your trouble, but once we meet up with Vanjirra, she should be able to reward you well.|BNAM:Journal "MV_TraderMissed" 20  Choice "I can accompany you to Molag Mar." 1 "Sorry, I don't have time for that now." 2

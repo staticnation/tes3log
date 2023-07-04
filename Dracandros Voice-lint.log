@@ -1,0 +1,56 @@
+Dracandros Voice.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (417) != Actual count (403)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(activate_mercenaryhire)
+	SCPT(activeslavebuy)
+	SCPT(alma_avatar)
+	SCPT(arenafight)
+	SCPT(chestgrandmaster)
+	SCPT(hlaalutaxing)
+	SCPT(mageguildmission)
+	SCPT(mercenaries_special)
+	SCPT(mercenary_hireing)
+	SCPT(nerevarbeliever)
+	SCPT(open_thiefjail)
+	SCPT(position)
+	SCPT(practicefight)
+	SCPT(questionhealth)
+	SCPT(questionlevel)
+	SCPT(redoranguards)
+	SCPT(shrinedracandros)
+	SCPT(slavebuy)
+	SCPT(telvannimouthmission)
+	SCPT(thiefguildmission)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    greeting 6
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+
+[DUP-INF]: ID=96419694277455438(Greeting:greeting 7)
+  |DATA|NAME:I wouldn't have expected to see the Nerevarine here in Mournhold.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:11613|INTV
+
+[DUP-INF]: ID=168714871487932258(Greeting:greeting 6)
+  |DATA|ONAM:mehra drora|NAME:Welcome, my child. Do you seek to join the Temple?|SCVR:01460|INTV:
+
+[DUP-INF]: ID=394225076107921698(Greeting:greeting 6)
+  |DATA|FNAM:Temple|DNAM:Temple|NAME:What can I do for you, %PCRank?
+
+[DUP-INF]: ID=1067310155136635979(Greeting:greeting 7)
+  |DATA|CNAM:Guard|NAME:I'm an officer of the Imperial law. Move along.
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[MOD-INF]: ID=7532245362007625229(Greeting:greeting 0)
+  bloodmoon.esm-------->|DATA|CNAM:Guard|FNAM:Temple|NAME:Where did you get that! The armor you wear is sacred to our Order. You shall be punished with blood!|SCVR:02sX0WearingOrdinatorUni|INTV|BNAM:;for ordinators when wearing their armor (helmet or cuirass)  Goodbye  SetFight 100  StartCombat player
+  Dracandros Voice.esp->|DATA|CNAM:Guard|FNAM:Temple|NAME:Where did you get that! The armor you wear is sacred to our Order. You shall be punished with blood!|SCVR:02sX0WearingOrdinatorUni|INTV|SCVR:12sX0patriarch_temple|INTV:|BNAM:;for ordinators when wearing their armor (helmet or cuirass)  Goodbye  SetFight 100  StartCombat player
+
+[MOD-INF]: ID=13461186222007111209(Greeting:greeting 5)
+  morrowind.esm-------->|DATA|FNAM:Temple|NAME:What brings you to the Temple, %PCRank? Have you been lax in your duties?|SCVR:01460|INTV
+  Dracandros Voice.esp->|DATA|FNAM:Temple|NAME:What brings you to the Temple, %PCRank? Have you been lax in your duties?|SCVR:01460|INTV|SCVR:11681|INTV:2

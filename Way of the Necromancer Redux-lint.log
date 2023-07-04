@@ -1,0 +1,20 @@
+Way of the Necromancer Redux.esp: DUP-REC MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Wares-base.esm                131281 (plugin)      82499 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(aa_necro_berserk_script)
+	SCPT(aa_necro_guard_script)
+	SCPT(aa_necro_mage_script)
+	SCPT(aa_necro_night_script)
+	SCPT(aa_necro_sharp_script)
+	SCPT(aa_necro_sorc_script)
+	SCPT(aa_necro_spellsw_script)
+	SCPT(aa_necro_warrior_script)
+	SCPT(aa_necrostarter_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    de_r_chest_01_sharn
+	morrowind.esm       LEVI    random_book_wizard_evil
+	tribunal.esm        DIAL    greeting 1
+	wares-base.esm      LEVI    aa_loot_necro
+	wares-base.esm      LEVI    aa_trader_illegal

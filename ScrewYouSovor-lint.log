@@ -1,0 +1,24 @@
+ScrewYouSovor.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    nerano manor
+	morrowind.esm       DIAL    sovor trandel
+	tribunal.esm        DIAL    tg_manorkey
+
+[DUP-INF]: ID=3051529204792527691(Topic:sovor trandel)
+  |DATA|ONAM:ondres nerano|NAME:Yes, he works for me. Does odd jobs when he's not too lazy, which is rare.
+
+[MOD-INF]: ID=13972120302797510338(Journal:tg_manorkey)
+  morrowind.esm----->|DATA|NAME:I told Ondres Nerano that Sovor Trandel gave me a key to his manor. Ondres Nerano gave me 10 gold as a reward.
+  ScrewYouSovor.ESP->|DATA|NAME:I told Ondres Nerano that Sovor Trandel gave me a key to his manor. Ondres Nerano gave me a hundred gold as a reward.
+
+[MOD-INF]: ID=14843235153159213783(Topic:sovor trandel)
+  morrowind.esm----->|DATA|ONAM:ondres nerano|NAME:I will handle this personally. Here, take these 10 drakes as a reward for your honesty.|SCVR:01500|INTV|BNAM:Journal TG_ManorKey 70  Player->RemoveItem key_neranomanor 1  AddItem key_neranomanor 1  Player->AddItem Gold_001 10  ModDisposition 25  "Sovor Trandel"->Disable
+  ScrewYouSovor.ESP->|DATA|ONAM:ondres nerano|NAME:I will see to this personally. Here, take this as a reward for your honesty.|SCVR:01500|INTV|BNAM:Journal TG_ManorKey 70  Player->RemoveItem key_neranomanor 1  AddItem key_neranomanor 1  Player->AddItem Gold_001 100  ModDisposition 25  ;"Sovor Trandel"->Disable  "Sovor Trandel"->SetFight 75  "Sovor Trandel"->ModDisposition -100  "Sovor Trandel"->additem "dim_ScrewYouSovorNote" 1  "Sovor Trandel"->additem "gold_001" 50
+
+[DUP-INF]: ID=25761123232711720371(Topic:sovor trandel)
+  |DATA|ONAM:ondres nerano|NAME:Yes, he works for me. Does odd jobs when he's not too lazy.|SCVR:05IX2key_neranomanor|INTV:|SCVR:34JX0TG_ManorKey|INTV:2|BNAM:Choice "Sovor Trandel gave me the key to your manor." 3 "I see. Thanks for your time." 4
+
+[MOD-INF]: ID=31884107962239918089(Topic:nerano manor)
+  morrowind.esm----->|DATA|ONAM:sovor trandel|NAME:Just don't tell Ondres Nerano where you got the key.|SCVR:34JX3TG_ManorKey|INTV:2
+  ScrewYouSovor.ESP->|DATA|ONAM:sovor trandel|NAME:I clearly have no idea what you're rambling about, %PCRace. Go away and let me drink in peace.|SCVR:34JX3TG_ManorKey|INTV:2

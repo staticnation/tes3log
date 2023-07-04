@@ -1,0 +1,101 @@
+Mysterious Hunter.esp: AUTOSPL DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	replicant_stare                Replicant Stare
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Berne_Creature)
+	SCPT(MH_Escape_Key)
+	SCPT(MH_Hunter_Journal)
+	SCPT(MH_Journal_Reward)
+	SCPT(MH_Shack_Lock)
+	SCPT(Vampire_Hunter)
+	SCPT(Vampire_Hunter_Captain)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    berne vampire 2
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    berne
+	morrowind.esm       DIAL    blight disease
+	morrowind.esm       DIAL    careless travelers
+	morrowind.esm       DIAL    census and excise agent
+	morrowind.esm       DIAL    daedra cults
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    khartag point
+	morrowind.esm       DIAL    mages guild
+	morrowind.esm       DIAL    magicka
+	morrowind.esm       DIAL    questions
+	morrowind.esm       DIAL    serve me
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=11288457349239882(Topic:questions)
+  |DATA|NAME:You are curious... what really happened at Red Mountain? what really happened to the Dwemer? what was the Dwemer's sin? what is it like to be a god? do I remember being mortal? how do I feel about the people of Morrowind?|SCVR:04JX3B8_MeetVivec|INTV:2|BNAM:;Vivec; Journal "B8_MeetVivec" = 50;
+
+[MOD-INF]: ID=21464866666427800(Topic:berne)
+  morrowind.esm--------->|DATA|FNAM:Clan Berne|NAME:We are the true masters of the night. Only we use our dark powers as they were intended. Sliding through the night, invisible in the shadows, we hunt our prey in secrecy and silence.
+  Mysterious Hunter.esp->|DATA|FNAM:Clan Berne|NAME:Led by Raxle Berne, we are the true masters of the night. Only we use our dark powers as they were intended. Sliding through the night, invisible in the shadows, we hunt our prey in secrecy and silence.
+
+[DUP-INF]: ID=30363846865395047(Greeting:greeting 2)
+  |DATA|FNAM:Mages Guild|NAME:Your kind is not welcome here, vampire. Ask me what you will, and be on your way.|SCVR:01600|INTV
+
+[DUP-INF]: ID=190592792723126084(Greeting:greeting 1)
+  |DATA|ONAM:Furius Acilius|NAME:What are you doing here? Those bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay. And you will tell no one!|BNAM:SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=320572372212111172(Topic:berne)
+  |DATA|FNAM:Clan Quarra|NAME:They are not unlike us in many ways. But, though gifted physically, they prefer the shadows, stalking their prey from the darkness. It is cowardly and weak, and they are not to be trusted.
+
+[DUP-INF]: ID=578128438312667949(Greeting:greeting 2)
+  |DATA|RNAM:Dark Elf|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Return to the foul corruption from which you came! Die, fiend!|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default DUNMER;PC Vampire  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=626924454268633953(Topic:census and excise agent)
+  |DATA|ONAM:sevisa teran|NAME:Census and Excise is the Imperial agency that collects taxes and tariffs. You know... the taxman. Their agents also investigate smugglers and other tax cheats.
+
+[MOD-INF]: ID=1224319899288117550(Greeting:greeting 0)
+  tribunal.esm---------->|DATA|CNAM:Guard|ANAM:Chun-Ook, Upper Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+  Mysterious Hunter.esp->|DATA|ONAM:Mysterious Hunter|CNAM:Guard|ANAM:Chun-Ook, Upper Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+
+[DUP-INF]: ID=1423715739133011314(Topic:daedra cults)
+  |DATA|CNAM:Scout|NAME:The Temple forbids the worship of the four bad Daedra -- Mehrunes Dagon, Malacath, Molag Bal, and Sheogorath. But it's a big island, and there's a lot of wilderness, with lots of old Daedric ruins just waiting for a new group of worshippers. The Ordinators have their hands full with heretics and dissidents at home. They can't go out chasing Daedra lovers.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=1540714932160872394(Topic:khartag point)
+  |DATA|ONAM:duma gro-lag|NAME:Khartag Point? I tell you, it on coast up north. Great big rock. Named after famous orc hero. He kill himself there. Very famous. Long way down from that rock.|BNAM:ShowMap "Khartag Point"
+
+[DUP-INF]: ID=2185917811248127545(Greeting:greeting 2)
+  |DATA|ANAM:Alen Ancestral Tomb|NAME:Yes? What do you ask of your fellow vampires?|SCVR:01600|INTV
+
+[DUP-INF]: ID=2251417863191115569(Topic:magicka)
+  |DATA|ONAM:estirdalin|NAME:A creature's magicka is a measure of its reserves of supernatural energies. Spellcasting creatures expend supernatural energies from their reservoirs when they create magical effects. This reservoir is replenished by resting and by other arcane methods.|BNAM:;mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;
+
+[MOD-INF]: ID=2766930372523129494(Topic:serve me)
+  morrowind.esm--------->|DATA|ONAM:raxle berne|NAME:You wish to be of service once again, you ridiculous mistake? I will allow it, but only this time, and never again. If you wish, I have an errand for you.|SCVR:04JX3VA_VampBlood|INTV:2|SCVR:11600|INTV|SCVR:22sX0VampClan|INTV|INTV|SCVR:44JX4VA_VampCountess|INTV: 
+  Mysterious Hunter.esp->|DATA|ONAM:raxle berne|NAME:You wish to be of service once again, you ridiculous mistake? I will allow it. If you wish, I have an errand for you.|SCVR:04JX3VA_VampBlood|INTV:2|SCVR:11600|INTV|SCVR:22sX0VampClan|INTV|INTV|SCVR:44JX4VA_VampCountess|INTV: 
+
+[MOD-INF]: ID=3009629748474023429(Greeting:greeting 1)
+  tribunal.esm---------->|DATA|ONAM:chargen captain|NAME:I am %name. My background is not important. From time to time it is my duty to welcome certain visitors to Morrowind.
+  Mysterious Hunter.esp->|DATA|ONAM:chargen captain|NAME:I am %name. My background is not important. From time to time it is my duty to welcome certain visitors to Morrowind.|SCVR:02fX1CharGenState|FLTV
+
+[DUP-INF]: ID=4945278141534430178(Topic:mages guild)
+  |DATA|CNAM:Sorcerer|NAME:The Mages Guild is a professional organization chartered by the Emperor to promote study of the arcane arts.|SCVR:0ARX0Dark Elf|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:; savant; bard; mage; spellsword; nightblade; sorcerer;
+
+[DUP-INF]: ID=10468327633251929353(Greeting:greeting 2)
+  |DATA|ANAM:Sarethi Ancestral Tomb|NAME:Yes? What do you ask of your fellow vampires?|SCVR:01600|INTV
+
+[MOD-INF]: ID=11638305851015431769(Topic:my trade)
+  morrowind.esm--------->|DATA|CNAM:Hunter|NAME:I am a hunter. I range across the ashlands and wastes, hunting for meat and hides. I know the native creatures of Vvardenfell, and know to avoid the diseased creatures, and the blighted creatures, for they are foul and worthless, and deadly to the careless hunter. I know the Ashlands and the Grazelands, Azura's Coast and Molag Amur, and can tell you of these places.|SCVR:0CsX0NoLore|INTV:|BNAM:;Hunter; Ashlands geography
+  Mysterious Hunter.esp->|DATA|ONAM:Mysterious Hunter|CNAM:Hunter|NAME:I am a hunter. I range across the ashlands and wastes, hunting for meat and hides. I know the native creatures of Vvardenfell, and know to avoid the diseased creatures, and the blighted creatures, for they are foul and worthless, and deadly to the careless hunter. I know the Ashlands and the Grazelands, Azura's Coast and Molag Amur, and can tell you of these places.|SCVR:0CsX0NoLore|INTV:|BNAM:;Hunter; Ashlands geography
+
+[DUP-INF]: ID=12111205822234216830(Topic:blight disease)
+  |DATA|ONAM:ygfa|NAME:The four blight diseases I've seen here on Vvardenfell are ash-chancre, chanthrax, black-heart, ash woe. They are all contracted from blighted creatures or from exposure to blight storms. You don't have to worry about blights storms unless you're entering the Red Mountain region. You need resistance to blight disease protections to go there.
+
+[DUP-INF]: ID=12644174841977424659(Topic:serve me)
+  |DATA|ONAM:raxle berne|NAME:I do not feel the need to speak with your kind any further about this.|SCVR:01600|INTV|SCVR:12sX0VampClan|INTV|SCVR:24JX3VA_VampBlood|INTV|SCVR:34JX4VA_VampBlood|INTV:2
+
+[DUP-INF]: ID=23552160212753218805(Topic:camonna tong)
+  |DATA|CNAM:Savant|NAME:The Camonna Tong is Morrowind's native criminal syndicate. They're grown powerful and ruthless since the Imperial occupation, and have great influence in the higher ranks of House Hlaalu. The Camonna Tong are in direct competition with the Thieves Guild for control of illegal trade, and they have sworn to exterminate the upstart outlander newcomers. The Camonna Tong are known for their brutal disregard for human life.|SCVR:0ARX4Dark Elf|INTV|SCVR:1CsX0nolore|INTV:|BNAM:; savant; bard; thieves; rogues; acrobats;
+
+[DUP-INF]: ID=32657233032626618519(Topic:careless travelers)
+  |DATA|ONAM:larrius varro|NAME:So, I see you've located that rogue Fjol. Somewhat of a shame he's still out there, but knowing his location is a help. My thanks.|SCVR:04JX0MV_Bastard|INTV:i|SCVR:16DX0Fjol|INTV:

@@ -1,0 +1,27 @@
+Redoran Founder's Helm Add On- Honor the Ancestors.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(G93_Uveran)
+	SCPT(G93_UveranHelm)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    founder's helm
+	tribunal.esm        DIAL    hr_foundershelm
+
+[MOD-INF]: ID=2751125923349604(Topic:founder's helm)
+  morrowind.esm------------------------------------------>|DATA|ONAM:neminda|DNAM:Redoran|NAME:You have recovered the Founder's Helm.|SCVR:34JX3HR_FoundersHelm|INTV:d
+  Redoran Founder's Helm Add On- Honor the Ancestors.ESP->|DATA|ONAM:neminda|DNAM:Redoran|NAME:Did you also bring the helm back to the ancestral tomb of the Uveran family? Excellent work. I anticipate that your reputation among Redoran retainers is going to grow, as you acted in an honorable way.|SCVR:04JX0HR_FoundersHelm|INTV:Z|BNAM:ModDisposition 10  ModPCFacRep 10 Redoran  Journal HR_FoundersHelm 110  Player->ModReputation 1
+
+[MOD-INF]: ID=203419974402728439(Journal:hr_foundershelm)
+  morrowind.esm------------------------------------------>|DATA|NAME:Alvis Teri gave me the Founder's Helm. I should take it back to Neminda in Ald'ruhn.
+  Redoran Founder's Helm Add On- Honor the Ancestors.ESP->|DATA|NAME:I returned the Founder's Helm to the Uveran Ancestral Tomb and received the blessing of the Uveran ancestors.
+
+[DUP-INF]: ID=864719337279032710(Journal:hr_foundershelm)
+  |DATA|NAME:House Redoran: Founder's Helm|QSTN
+
+[MOD-INF]: ID=1842929223950026557(Journal:hr_foundershelm)
+  tribunal.esm------------------------------------------->|DATA|NAME:Neminda told me that Alvis Teri stole a Founder's Helm. He is at the Eight Plates in Balmora. I am to recover the helm, but I must not shame House Redoran by murdering him.
+  Redoran Founder's Helm Add On- Honor the Ancestors.ESP->|DATA|NAME:Alvis Teri gave me the Founder's Helm. I should either take it back to Neminda in Ald'ruhn or find the Uveran Ancestral Tomb near Caldera Mine and return it to the ancestors of the Uveran family. If I go to the tomb, the helm should be placed upon the rim of the ash pit in the last chamber.
+
+[MOD-INF]: ID=7637288681435527682(Topic:founder's helm)
+  morrowind.esm------------------------------------------>|DATA|ONAM:neminda|DNAM:Redoran|NAME:Alvis Teri stole a Founder's Helm from the Uveran Ancestral Tomb. He boasts of this feat at the Eight Plates Inn in Balmora and wears the Helm openly. Confront him and demand the Helm. Slay him if necessary, but do not shame House Redoran by murdering him.|SCVR:34JX3HR_Courier|INTV:d|SCVR:44JX3HR_FindDalobar|INTV:d|BNAM:Journal HR_FoundersHelm 10
+  Redoran Founder's Helm Add On- Honor the Ancestors.ESP->|DATA|ONAM:neminda|DNAM:Redoran|NAME:Alvis Teri stole a Founder's Helm from the Uveran Ancestral Tomb. He boasts of this feat at the Eight Plates Inn in Balmora and wears the Helm openly. Confront him and demand the Helm. Slay him if necessary, but do not shame House Redoran by murdering him. After that, either return the helm to me or find the Uveran Ancestral Tomb, which is situated in the same valley as Caldera Mine, and return it to the Uveran family ancestors. The helm should be placed upon the rim of the ash pit in the last room.|SCVR:34JX3HR_Courier|INTV:d|SCVR:44JX3HR_FindDalobar|INTV:d|BNAM:Journal HR_FoundersHelm 10

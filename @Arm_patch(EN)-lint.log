@@ -1,0 +1,28 @@
+@Arm_patch(EN).esp: DEP-LST DUP-REC MENUMOD MISSVER OVR-REC
+    [DEP-LST] Deprecated use of Leveled List functions on Bethesda Lists:
+	SCPT(A00000_FixSomething1)           addtolevitem "l_n_armor_cuirass"
+	SCPT(A00000_FixSomething1)           addtolevitem "random orcish armor"
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(A00000_FixSomething1)
+	SCPT(AAA000_ReplaceSomething)
+	SCPT(AAA000_ReplaceSomethingStart)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       WEAP    silver dagger_hanin cursed
+	morrowind.esm       WEAP    daunting mace
+	morrowind.esm       WEAP    glass dagger_dae_cursed
+	morrowind.esm       WEAP    icebreaker
+	morrowind.esm       WEAP    iron shardblade
+	morrowind.esm       WEAP    iron shardcleaver
+	morrowind.esm       WEAP    iron shardmace
+	morrowind.esm       WEAP    mephala's teacher
+	morrowind.esm       WEAP    shockbite battle axe
+	morrowind.esm       WEAP    shockbite halberd
+	morrowind.esm       WEAP    shockbite mace
+	morrowind.esm       WEAP    shockbite war axe
+	morrowind.esm       WEAP    shockbite warhammer
+	morrowind.esm       WEAP    spirit-eater
+	morrowind.esm       WEAP    steel poisonsword
+	morrowind.esm       WEAP    stormkiss
+	morrowind.esm       WEAP    war axe of wounds
+	tribunal.esm        WEAP    daedric dagger_bar

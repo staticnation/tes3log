@@ -1,0 +1,22 @@
+FG Engaer Boutny Alternatives.ESP: DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(FG_EngaerStroll)                clearforcemovejump
+	SCPT(FG_EngaerStroll)                forcemovejump
+	SCPT(FG_EngaerStroll)                getforcemovejump
+	SCPT(FG_EngaerStrollRoof)            clearforcemovejump
+	SCPT(FG_EngaerStrollRoof)            forcemovejump
+	SCPT(FG_EngaerStroll_O)              clearforcemovejump
+	SCPT(FG_EngaerStroll_O)              forcemovejump
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FG_EngaerBarrel)
+	SCPT(FG_EngaerStroll)
+	SCPT(FG_EngaerStrollRoof)
+	SCPT(FG_EngaerStroll_O)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       STAT    in_t_s_hall_ramp_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    engaer
+	tribunal.esm        DIAL    fg_engaerbounty
+	tribunal.esm        DIAL    greeting 5

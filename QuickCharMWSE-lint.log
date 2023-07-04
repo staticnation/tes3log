@@ -1,0 +1,30 @@
+QuickCharMWSE.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CharGen)
+	SCPT(CharGenBed)
+	SCPT(CharGenDagger)
+	SCPT(CharGenDisable)
+	SCPT(CharGenDoorEnterCaptain)
+	SCPT(CharGenDoorExit)
+	SCPT(CharGenDoorExitCaptain)
+	SCPT(ab01chargenAddTopicScript)
+	SCPT(ab01chargenDeleteStuff)
+	SCPT(ab01menuTest0Script)
+	SCPT(ab01rsWarpSafetyScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dwemer puzzle box
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=28358841968027303(Topic:duties)
+  morrowind.esm----->|DATA|ONAM:chargen captain|NAME:You know your duties. Take that package to Caius Cosades in Balmora.|SCVR:04JX4A1_1_FindSpymaster|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV|BNAM:;journal gets set to 12 when you give spymaster package. Captian is in legion so he should mention other stuff after this ;that is part of legion.
+  QuickCharMWSE.esp->|DATA|ONAM:chargen captain|NAME:You know your duties. Take that package to Caius Cosades in Balmora.|SCVR:04JX4A1_1_FindSpymaster|INTV|SCVR:12sX0A11FindSpymaster|INTV|BNAM:;journal gets set to 12 when you give spymaster package. Captian is in legion so he should mention other stuff after this ;that is part of legion.  ; filter changed to avoid possible problems /abot
+
+[MOD-INF]: ID=103402350204808451(Greeting:greeting 1)
+  tribunal.esm------>|DATA|ONAM:chargen captain|NAME:First, let me take your identification papers. Thank you. Word of your arrival only reached me yesterday. I am %name. But my background is not important. I'm here to welcome you to Morrowind.|SCVR:05IX3chargen statssheet|INTV|BNAM:player->removeitem "chargen statssheet", 1  set state to -1
+  QuickCharMWSE.esp->|DATA|ONAM:chargen captain|NAME:First, let me take your identification papers. Thank you. Word of your arrival only reached me yesterday. I am %name. But my background is not important. I'm here to welcome you to Morrowind.|SCVR:05IX3chargen statssheet|INTV|BNAM:player->removeitem "chargen statssheet", 1  set state to -1  startscript ab01chargenAddTopicScript  ; safety /abot
+
+[MOD-INF]: ID=1729913769476329813(Topic:duties)
+  morrowind.esm----->|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX0A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+  QuickCharMWSE.esp->|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:02sX0A11FindSpymaster|INTV:|BNAM:set A11FindSpymaster to 1 ; using a global short to avoid problems /abot  if ( GetJournalIndex A1_1_FindSpymaster )  else   Journal "A1_1_FindSpymaster" 1  endif  player->AddItem "bk_A1_1_DirectionsCaiusCosades" 1  player->AddItem  "bk_a1_1_caiuspackage" 1  player->Additem "Gold_001" 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"

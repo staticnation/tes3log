@@ -1,0 +1,24 @@
+Teenagers.esm: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(TEENAGER_SCALESCRIPT)
+	SCPT(TEENAGER_SnedbrirtheSmithScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       NPC_    snedbrir the smith
+	morrowind.esm       DIAL    ald velothi
+	morrowind.esm       NPC_    sathas rivul
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    travel together
+
+[MOD-INF]: ID=1224319899288117550(Topic:ald velothi)
+  tribunal.esm-->|DATA|CNAM:Guard|ANAM:Chun-Ook, Upper Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+  Teenagers.esm->|DATA|CNAM:Guard|ANAM:Chun-Ook, Upper Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+
+[DUP-INF]: ID=1504219359159859529(Topic:ald velothi)
+  |DATA|ONAM:edwinna elbert|NAME:Take the Silt Strider to Gnisis and follow the roads north. I will mark Ald Velothi on your map.|BNAM:ShowMap "Ald Velothi"
+
+[DUP-INF]: ID=1627714415913516768(Topic:travel together)
+  |DATA|ONAM:habasi|NAME:Habasi hears you broke our agreement. Habasi does not want to speak with you now.|SCVR:01390|INTV
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0

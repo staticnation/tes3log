@@ -1,0 +1,16 @@
+md_AnCr_integration.ESP: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AD_PortalScript)
+	SCPT(AnCr_GargoyleScript)
+	SCPT(AnCr_TrollScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LEVC    bm_ex_hirforest_40
+	bloodmoon.esm       LEVC    bm_ex_isinplains
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       LEVC    in_dae_all_lev+0
+	morrowind.esm       LEVC    in_dae_all_lev+2
+	morrowind.esm       LEVC    in_dae_all_lev-2
+	morrowind.esm       LEVC    in_dae_atronach_lev+0
+	morrowind.esm       LEVC    in_dae_atronach_lev+2
+	morrowind.esm       LEVC    in_dae_atronach_lev-2

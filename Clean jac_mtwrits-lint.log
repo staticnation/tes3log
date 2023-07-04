@@ -1,0 +1,89 @@
+Clean jac_mtwrits.esp: DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (23) != Actual count (22)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+
+[MOD-INF]: ID=5978126236608624(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:dals sadri|NAME:Don't give me a reason, %PCName.|SCVR:34JX2MT_WritMavon|INTV:|SCVR:44JX4MT_WritMavon|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:dals sadri|NAME:Don't give me a reason, %PCName.|SCVR:05IX3writ_mavon|INTV|SCVR:34JX2MT_WritMavon|INTV:|SCVR:44JX4MT_WritMavon|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  Goodbye
+
+[MOD-INF]: ID=27268823331843134(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:tirer belvayn|NAME:You're no match for me!|SCVR:34JX3MT_WritBelvayn|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:tirer belvayn|NAME:You're no match for me!|SCVR:05IX3writ_belvayn|INTV|SCVR:34JX3MT_WritBelvayn|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=30720953138123300(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:brilnosu llarys|NAME:Whatever trick this is... You'll taste my spells.|SCVR:34JX3MT_WritBrilnosu|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:brilnosu llarys|NAME:Whatever trick this is... You'll taste my spells.|SCVR:05IX3writ_brilnosu|INTV|SCVR:34JX3MT_WritBrilnosu|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=42861608154112508(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:galasa uvayn|NAME:What are you doing here?|SCVR:34JX3MT_WritGalasa|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:galasa uvayn|NAME:What are you doing here?|SCVR:05IX3writ_galasa|INTV|SCVR:34JX3MT_WritGalasa|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=74942758379332376(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:odaishah yasalmibaal|NAME:Die, outlander!|SCVR:34JX3MT_WritYasalmibaal|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:odaishah yasalmibaal|NAME:Die, outlander!|SCVR:05IX3writ_yasalmibaal|INTV|SCVR:34JX3MT_WritYasalmibaal|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=243065022205014868(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:ethal seloth|NAME:Whatever it is, it can wait for another day. Goodbye.|SCVR:34JX3MT_WritVendu|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:ethal seloth|NAME:Whatever it is, it can wait for another day. Goodbye.|SCVR:05IX3writ_vendu|INTV|SCVR:34JX3MT_WritVendu|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=286538470143286423(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:Navil Ienith|NAME:We've been expecting you.|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:Navil Ienith|NAME:We've been expecting you.|SCVR:05IX3writ_navil|INTV|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=321336148199691427(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:idroso vendu|NAME:Die, %PCRace!|SCVR:01620|INTV|SCVR:34JX3MT_WritVendu|INTV: |BNAM:StartCombat Player  Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:idroso vendu|NAME:Die, %PCRace!|SCVR:01620|INTV|SCVR:15IX3writ_vendu|INTV|SCVR:34JX3MT_WritVendu|INTV: |BNAM:StartCombat Player  Goodbye
+
+[MOD-INF]: ID=375111226211453250(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:mavon drenim|NAME:Die, Morag Tong scum!|SCVR:34JX3MT_WritMavon|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:mavon drenim|NAME:Die, Morag Tong scum!|SCVR:05IX3writ_mavon|INTV|SCVR:34JX3MT_WritMavon|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=897030800310681173(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:broris fals|NAME:Don't give me a reason, %PCName.|SCVR:34JX2MT_WritBemis|INTV:|SCVR:44JX4MT_WritBemis|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:broris fals|NAME:Don't give me a reason, %PCName.|SCVR:05IX3writ_bemis|INTV|SCVR:34JX2MT_WritBemis|INTV:|SCVR:44JX4MT_WritBemis|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  Goodbye
+
+[MOD-INF]: ID=1478925705354615614(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:toris saren|NAME:What? No... You're from the Morag Tong! You won't take me!|SCVR:34JX3MT_WritSaren|INTV: |BNAM:SetFight 100  StartCombat Player  Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:toris saren|NAME:What? No... You're from the Morag Tong! You won't take me!|SCVR:05IX3writ_saren|INTV|SCVR:34JX3MT_WritSaren|INTV: |BNAM:SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=1864589583235217734(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:ethal seloth|NAME:You're time has come, %PCRace!|SCVR:01620|INTV|SCVR:34JX3MT_WritVendu|INTV: |BNAM:StartCombat Player  Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:ethal seloth|NAME:You're time has come, %PCRace!|SCVR:01620|INTV|SCVR:15IX3writ_vendu|INTV|SCVR:34JX3MT_WritVendu|INTV: |BNAM:StartCombat Player  Goodbye
+
+[MOD-INF]: ID=1935914985132526094(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:idroso vendu|NAME:I'm sorry. I busy right now.|SCVR:34JX3MT_WritVendu|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:idroso vendu|NAME:I'm sorry. I busy right now.|SCVR:05IX3writ_vendu|INTV|SCVR:34JX3MT_WritVendu|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=2363816523715520806(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:sarayn sadus|NAME:You're no match for me, Morag Tong puppy!|SCVR:34JX3MT_WritSadus|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:sarayn sadus|NAME:You're no match for me, Morag Tong puppy!|SCVR:05IX3writ_sadus|INTV|SCVR:34JX3MT_WritSadus|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=2545120377597030349(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:galasa uvayn|NAME:The Morag Tong will pay for this insult!|SCVR:01620|INTV|SCVR:34JX3MT_WritGalasa|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:galasa uvayn|NAME:The Morag Tong will pay for this insult!|SCVR:01620|INTV|SCVR:15IX3writ_galasa|INTV|SCVR:34JX3MT_WritGalasa|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=2891024981631431983(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:feruren oran|NAME:I don't like the way you've been looking at me.|SCVR:34JX3MT_WritOran|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:feruren oran|NAME:I don't like the way you've been looking at me.|SCVR:05IX3writ_oran|INTV|SCVR:34JX3MT_WritOran|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=2978719872133784745(Greeting:greeting 4)
+  bloodmoon.esm--------->|DATA|ONAM:Ranes Ienith|NAME:We've been expecting you.|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:Ranes Ienith|NAME:We've been expecting you.|SCVR:05IX3writ_navil|INTV|SCVR:34JX3MT_WritNavil|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=3953214983021829582(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:tirer belvayn|NAME:The Morag Tong is weak! I shall defeat you!|SCVR:34JX3MT_WritBemis|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:tirer belvayn|NAME:The Morag Tong is weak! I shall defeat you!|SCVR:05IX3writ_bemis|INTV|SCVR:34JX3MT_WritBemis|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=18027327602606020970(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:guril retheran|NAME:The Morag Tong! They found me! Help! Please... spare me!|SCVR:34JX3MT_WritGuril|INTV: |BNAM:Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:guril retheran|NAME:The Morag Tong! They found me! Help! Please... spare me!|SCVR:05IX3writ_guril|INTV|SCVR:34JX3MT_WritGuril|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=20583315131013811726(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:nurisea selarys|NAME:Don't give me a reason, %PCName.|SCVR:34JX2MT_WritBemis|INTV:|SCVR:44JX4MT_WritBemis|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:nurisea selarys|NAME:Don't give me a reason, %PCName.|SCVR:05IX3writ_bemis|INTV|SCVR:34JX2MT_WritBemis|INTV:|SCVR:44JX4MT_WritBemis|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  Goodbye
+
+[MOD-INF]: ID=21068238711129631302(Greeting:greeting 4)
+  morrowind.esm--------->|DATA|ONAM:salora salobar|NAME:Don't give me a reason, %PCName.|SCVR:34JX2MT_WritMavon|INTV:|SCVR:44JX4MT_WritMavon|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  Goodbye
+  Clean jac_mtwrits.esp->|DATA|ONAM:salora salobar|NAME:Don't give me a reason, %PCName.|SCVR:05IX3writ_mavon|INTV|SCVR:34JX2MT_WritMavon|INTV:|SCVR:44JX4MT_WritMavon|INTV:d|BNAM:;Morag Tong reaction... Keep at top of Greeting 4. If this overrides a quest, let me know and I will fix it or NOT ID it.  Goodbye

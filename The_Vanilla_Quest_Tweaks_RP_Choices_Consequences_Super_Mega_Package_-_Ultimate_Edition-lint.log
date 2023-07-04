@@ -1,0 +1,327 @@
+The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AA_SMScript)
+	SCPT(G93_Fjol)
+	SCPT(G93_FundraiserDinner)
+	SCPT(G93_Galmis)
+	SCPT(G93_HarvestEnd)
+	SCPT(G93_StrangeMan)
+	SCPT(G93_Terano)
+	SCPT(G93_TreraynaScript)
+	SCPT(G93_Uveran)
+	SCPT(G93_UveranHelm)
+	SCPT(ZZLib)
+	SCPT(brerasScript)
+	SCPT(lookoutScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    bm_smugglers
+	bloodmoon.esm       DIAL    hire guards
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    weapons being smuggled
+	morrowind.esm       DIAL    careless travelers
+	morrowind.esm       DIAL    do me a favor
+	morrowind.esm       DIAL    drake's pride
+	morrowind.esm       DIAL    duel
+	morrowind.esm       DIAL    fargoth's hiding place
+	morrowind.esm       DIAL    founder's helm
+	morrowind.esm       DIAL    kiss
+	morrowind.esm       DIAL    mages guild monopoly
+	morrowind.esm       DIAL    pants
+	morrowind.esm       DIAL    pillow shipment
+	morrowind.esm       DIAL    potion
+	morrowind.esm       DIAL    pressing business
+	morrowind.esm       DIAL    ring
+	morrowind.esm       DIAL    say that again
+	morrowind.esm       DIAL    strange man
+	morrowind.esm       DIAL    telvanni bride
+	morrowind.esm       DIAL    vampirism cure
+	morrowind.esm       NPC_    drarayne thelas
+	morrowind.esm       NPC_    dreamer_talker02
+	morrowind.esm       NPC_    galmis dren
+	morrowind.esm       NPC_    llaren terano
+	tribunal.esm        DIAL    a1_sleeperdreamer02
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hh_disguisedarmor
+	tribunal.esm        DIAL    hr_foundershelm
+	tribunal.esm        DIAL    ht_drakepride
+	tribunal.esm        DIAL    ms_fargothring
+	tribunal.esm        DIAL    ms_lookout
+	tribunal.esm        DIAL    ms_trerayna_bounty
+	tribunal.esm        DIAL    ms_vampirecure
+	tribunal.esm        DIAL    mv_3_charming
+	tribunal.esm        DIAL    mv_bastard
+	tribunal.esm        DIAL    mv_skoomacorpse
+	tribunal.esm        DIAL    mv_thieftrader
+	tribunal.esm        DIAL    my collection
+
+[MOD-INF]: ID=2190347582885856(Topic:hire guards)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:persius mercius|NAME:I know a few men who can garrison your stronghold, and I'll even recommend them to you for free. But first you'll have to get my friend, Frelene Acques out of prison. She's being held in the prison under the Hlaalu Canton in Vivec. Find a way to get her out and report back to me.|SCVR:34JX3HR_Stronghold|INTV:d|BNAM:Journal HR_Stronghold 130  "Frelene Acques"->Enable
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:persius mercius|NAME:I know a few men who can garrison your stronghold, and I'll even recommend them to you for free. But first you'll have to get my friend, Frelene Acques out of prison. She's being held in the prison under the Hlaalu Canton in Vivec. Find a way to get her out and report back to me.|SCVR:34JX3HR_Stronghold|INTV:d|BNAM:Choice "All right." 1 "I'm sorry, I'm a Redoran and your offer is dishonorable. I would gladly pay for the services of the Fighters' Guild instead." 2
+
+[MOD-INF]: ID=2751125923349604(Topic:founder's helm)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:neminda|DNAM:Redoran|NAME:You have recovered the Founder's Helm.|SCVR:34JX3HR_FoundersHelm|INTV:d
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:neminda|DNAM:Redoran|NAME:Did you also bring the helm back to the ancestral tomb of the Uveran family? Excellent work. I anticipate that your reputation among Redoran retainers is going to grow, as you acted in an honorable way.|SCVR:04JX0HR_FoundersHelm|INTV:Z|BNAM:ModDisposition 10  ModPCFacRep 10 Redoran  Journal HR_FoundersHelm 110  Player->ModReputation 1
+
+[MOD-INF]: ID=4187652432496126(Topic:my collection)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|ONAM:detritus caria|NAME:Oh how wonderful! This is exactly what I wanted. Thank you so much, %PCName. I hereby christen you the Champion of Clutter! Take this money as a token of my appreciation. Come back again and I may have more work for you.|SCVR:01500|INTV|SCVR:15IX3misc_clothbolt_02|INTV|SCVR:25IX3misc_imp_silverware_pitcher|INTV|BNAM:Journal "MS_ClutterCollector" 10  Player->RemoveItem "misc_clothbolt_02" 1  Player->RemoveItem "misc_imp_silverware_pitcher" 1  Player->AddItem "Gold_001" 300  ModDisposition 10
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:detritus caria|NAME:Oh, how wonderful! This is exactly what I wanted. Thank you so much, %PCName. I hereby christen you the Champion of Clutter! Take this money as a token of my appreciation. Come back again and I may have more work for you.|SCVR:01500|INTV|SCVR:15IX3misc_clothbolt_02|INTV|SCVR:25IX3misc_imp_silverware_pitcher|INTV|BNAM:Journal "MS_ClutterCollector" 10  Player->RemoveItem "misc_clothbolt_02" 1  Player->RemoveItem "misc_imp_silverware_pitcher" 1  Player->AddItem "Gold_001" 300  ModDisposition 10  PCJoinFaction, "Champion of Clutter"  PCRaiseRank, "Champion of Clutter"  PCRaiseRank, "Champion of Clutter"  PCRaiseRank, "Champion of Clutter"  PCRaiseRank, "Champion of Clutter"  PCRaiseRank, "Champion of Clutter"  PCRaiseRank, "Champion of Clutter"  PCRaiseRank, "Champion of Clutter"  PCRaiseRank, "Champion of Clutter"  PCRaiseRank, "Champion of Clutter"
+
+[MOD-INF]: ID=7830184238734082(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations for the Buckmoth fund? Or have you come to report your failure?|SCVR:04JX3IC10_buckmoth_alms|INTV|SCVR:15IX3Gold_001|INTV|SCVR:24JX1IC10_buckmoth_not|INTV|SCVR:34JX4IC10_buckmoth_alms|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3 "I have DOUBLED our goal!" 4
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations for the Buckmoth fund? Or have you come to report your failure?|SCVR:04JX3IC10_buckmoth_alms|INTV|SCVR:15IX3Gold_001|INTV|SCVR:24JX1IC10_buckmoth_not|INTV|SCVR:34JX4IC10_buckmoth_alms|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3 "Here's the money. From my own pockets. I don't want to go to Ald-ruhn." 4 "I have DOUBLED our goal!" 5 "I will pay you DOUBLE amount, from my own pockets. Just don't send me there, please." 6
+
+[MOD-INF]: ID=14286364631627973(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Have you brought me the red shirt and black vest? Or have you come to report your failure?|SCVR:04JX3IC11_shirt|INTV|SCVR:15IX3common_shirt_04_c|INTV|SCVR:24JX1IC11_shirt_not|INTV|SCVR:34JX4IC11_shirt|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to find the shirt and vest." 2 "Yes, I have the shirt and vest for you." 3
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Have you brought me the red shirt and black vest? Or have you come to report your failure?|SCVR:04JX3IC11_shirt|INTV|SCVR:15IX3common_shirt_04_c|INTV|SCVR:24JX1IC11_shirt_not|INTV|SCVR:34JX4IC11_shirt|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to find the shirt and vest." 2 "Yes, I have the shirt and vest for you." 3 "Yes, but just for the record: I did not go around and beg for it." 4
+
+[MOD-INF]: ID=18144192127230516(:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:You have succeeded where other have failed, %PCName. Congratulations. This money will greatly benefit the widows and orphans of Vvardenfell. I'm beginning to run out of gifts suitable to reward your diligence. Perhaps you may find this assortment of scrolls useful. We received them from an anonymous donor, but there may be some good in them. Now. When you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC13_rich|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 500  player->additem sc_blackdespair 1  player->additem sc_elevramssty 1  player->additem sc_lordmhasvengeance 1  player->additem sc_savagemight 1  player->additem sc_gamblersprayer 1  player->additem sc_alvusiaswarping 1  journal IC13_rich 50  ModPCFacRep, 5, "Imperial Cult"  modDisposition 10  Goodbye
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|NAME:You have succeeded where other have failed, %PCName. Congratulations. This money will greatly benefit the widows and orphans of Vvardenfell. I'm beginning to run out of gifts suitable to reward your diligence. Perhaps you may find this assortment of scrolls useful. We received them from an anonymous donor, but there may be some good in them. Now. When you're ready for your next almoner mission, speak to me again.|DELE:
+
+[MOD-INF]: ID=23585283422667725(Topic:telvanni bride)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:kaushad|NAME:[whispering] Psst! Outlander! Do not think me such a fool. Of course I realize you have tricked me. I do not mind. In fact, I think you are very clever to hoodwink the chief of the Zainab, and I think that maybe a clever Nerevarine is not such a bad thing at all. Besides, now I am MUCH happier with this fine young woman than I would have been with a stuck-up Telvanni lady. And here is a little gift. From me. Perhaps when you wear it, you will think of Falura Llervu and me.|SCVR:04JX3B3_ZainabBride|INTV:7|BNAM:;Ashkhan Kaushad; Journal "B3_ZainabBride" >= 55;   Journal "B3_ZainabBride" 60  player->additem "Exquisite_Shirt_01_Wedding" 1
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:kaushad|NAME:[whispering] Psst! Outlander! Do not think me such a fool. Of course, I realize you have tricked me. I do not mind. In fact, I think you are very clever to hoodwink the chief of the Zainab, and I think that maybe a clever Nerevarine is not such a bad thing at all. Besides, now I am MUCH happier with this fine young woman than I would have been with a stuck-up Telvanni lady. And here is a little gift. From me. Perhaps when you wear it, you will think of Falura Llervu and me.|SCVR:04JX0B3_ZainabBride|INTV:7|BNAM:;Ashkhan Kaushad; Journal "B3_ZainabBride" >= 55;   Journal "B3_ZainabBride" 60  player->additem "Exquisite_Shirt_01_Wedding" 1
+
+[MOD-INF]: ID=30364353654795324(Journal:ms_trerayna_bounty)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|NAME:A Bounty for Trerayna Dalen|QSTN
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:Trerayna Dalen offers me 2000 gold if I kill Mollimo of Cloudrest and Mistress Therana instead.
+
+[MOD-INF]: ID=30364353654795324(Journal:ms_trerayna_bounty)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|NAME:A Bounty for Trerayna Dalen|QSTN
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:Trerayna Dalen offers me 2000 gold if I kill Mollimo of Cloudrest and Mistress Therana instead.
+[MOD-IID]: ID=4690121061400615523
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->A Bounty for Trerayna Dalen
+
+[MOD-INF]: ID=48642221029577219(Journal:ms_lookout)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|NAME:I've decided not to help Hrisskar.|QSTF
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:As Hrisskar's superior in the Imperial Legion, I commanded him to leave Fargoth alone. However, he was unwilling to obey me, as I'm an Elf. He could not tolerate someone like me commanding him around, so he attacked me. Well, that takes care of the harassment problem of Fargoth, at least.|QSTF
+
+[DUP-INF]: ID=88631762947825776(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:Excellent. Here's what I want you to do. I'm not sure where he goes, but I know he wanders around town at night. Watch his movements. The best vantage point is on top of the lighthouse south of town. That will give you a nice view of all of Seyda Neen. If you keep an eye on where he goes, I'm sure you'll be able to figure out where he's hiding that gold.|SCVR:01500|INTV|BNAM:Journal "MS_Lookout" 20
+
+[MOD-INF]: ID=107293085298027187(Journal:ms_fargothring)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|NAME:I have met a Bosmer named Fargoth who claims the Imperials have stolen a ring of his. He would like it back.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:Fargoth claims the Imperials have stolen a ring of his. He would like it back.
+
+[MOD-INF]: ID=118965566497012515(Journal:ms_vampirecure)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|NAME:I have spoken to Molag Bal through his statue in the shrine at Bal Ur. He tells me that he does not have the cure for my vampirism, but he will get it for me if I do him a favor. His daughter, Molag Grunda, has been consorting with a Frost Atronach named Nomeg Gwai. If I can kill the two of them, returning their souls to a realm where Molag Bal may punish them, Molag Bal will give me the cure. They live now in the cave Dubdilla, south of Vos.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:I have spoken to Molag Bal through his statue in the shrine at Bal Ur. He tells me that he does not have the cure for my vampirism, but he will get it for me if I do him a favor. His daughter, Molag Grunda, has been consorting with a Frost Atronach named Nomeg Gwai. If I can kill the two of them, returning their souls to a realm where Molag Bal may punish them, Molag Bal will give me the cure. They live now in the cave Dubdilla, south of Vos.|QSTR
+
+[DUP-INF]: ID=120773234920727761(Journal:ms_trerayna_bounty)
+  |DATA|NAME:Mollimo of Cloudrest offers me 1000 gold if I'll kill Trerayna Dalen.
+
+[MOD-INF]: ID=153227411508118960(Topic:drake's pride)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:neloth|NAME:Yes, now the robe is in the proper hands. Here, take these ten drakes for your trouble.|SCVR:01500|INTV|BNAM:Journal HT_DrakePride 100  Player->AddItem Gold_001 10  Player->RemoveItem "exquisite_robe_drake's pride" 1  AddItem "exquisite_robe_drake's pride" 1  ModPCFacRep 5 "Telvanni"  ModDisposition 10
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:neloth|NAME:Yes, now the robe is in the proper hands. Here, take my old robe for your trouble.|SCVR:01500|INTV|BNAM:Journal HT_DrakePride 100  Player->AddItem "exquisite_robe_01" 1  RemoveItem "exquisite_robe_01" 1  Player->RemoveItem "exquisite_robe_drake's pride" 1  AddItem "exquisite_robe_drake's pride" 1  ModPCFacRep 5 "Telvanni"  ModDisposition 10
+
+[MOD-INF]: ID=173684618123225277(:telvanni bride)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:kaushad|NAME:I have named you Zainab Nerevarine and given you the Zainab Thong.|SCVR:04JX3B3_ZainabBride|INTV:2
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|NAME:I have named you Zainab Nerevarine and given you the Zainab Thong.|DELE:
+
+[MOD-INF]: ID=189381231108376012(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Have you brought me the five bottles of Cyrodilic brandy? Or have you come to report your failure?|SCVR:04JX3IC12_dinner|INTV|SCVR:15IX3potion_cyro_brandy_01|INTV|SCVR:24JX1IC12_dinner_not|INTV|SCVR:34JX4IC12_dinner|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to get publicans to donate enough Cyrodilic brandy." 2 "Yes, I have the Cyrodilic brandy for you." 3
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Have you brought me the five bottles of Cyrodilic brandy? Or have you come to report your failure?|SCVR:04JX3IC12_dinner|INTV|SCVR:15IX3potion_cyro_brandy_01|INTV|SCVR:24JX1IC12_dinner_not|INTV|SCVR:34JX4IC12_dinner|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to get publicans to donate enough Cyrodilic brandy." 2 "Yes, I have the Cyrodilic brandy for you." 3 "Yes, but I have to tell you that I did not acquire them by begging." 4
+
+[MOD-INF]: ID=203419974402728439(Journal:hr_foundershelm)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|NAME:Alvis Teri gave me the Founder's Helm. I should take it back to Neminda in Ald'ruhn.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:I returned the Founder's Helm to the Uveran Ancestral Tomb and received the blessing of the Uveran ancestors.
+
+[MOD-INF]: ID=205745775971924366(Journal:ms_vampirecure)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|NAME:In Molag Bal's shrine in Bal Ur, I spoke with Derar Hlervu. She has told me that she knows of no cure for vampirism, and that only the Daedra Lord himself will be able to help me.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:In Molag Bal's shrine in Bal Ur, I spoke with Derar Hlervu. She has told me that she knows of no cure for vampirism, and that only the Daedra Lord himself will be able to help me.|QSTR
+
+[MOD-INF]: ID=209412776195423851(Topic:kiss)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:nels llendo|NAME:Yes, all I desire is a single kiss from beautiful lady such as yourself. Will you not grant Nels Llendo so simple a boon?|SCVR:04JX0MV_3_Charming|INTV:|BNAM:Choice "What harm could one kiss do?" 1 "I'd sooner kiss a guar." 2
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:nels llendo|NAME:Yes, all I desire is a single kiss from a beautiful lady such as yourself. Will you not grant Nels Llendo so simple a boon?|SCVR:04JX0MV_3_Charming|INTV:|BNAM:Choice "What harm could one kiss do?" 1 "I'd sooner kiss a guar." 2
+
+[MOD-INF]: ID=217908980764512584(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations from the Skyrim mission? Or have you come to report your failure?|SCVR:04JX3IC_8_Nord_alms|INTV|SCVR:15IX3Gold_001|INTV|SCVR:24JX1IC_8_Nord_alms_not|INTV|SCVR:34JX4IC_8_Nord_alms|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3 "I have DOUBLED our goal!" 4
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations from the Skyrim mission? Or have you come to report your failure?|SCVR:04JX3IC_8_Nord_alms|INTV|SCVR:15IX3Gold_001|INTV|SCVR:24JX1IC_8_Nord_alms_not|INTV|SCVR:34JX4IC_8_Nord_alms|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3 "Look, can I just pay the sum from my own pockets?" 4 "I have DOUBLED our goal!" 5 "I have a proposition. I'm going to pay DOUBLE amount, from my own pockets." 6
+
+[MOD-INF]: ID=247483384522915541(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Excellent! Once again, you've exceeded our expectations. You are blessed with Zenithar's gift of fine words and generous sentiments. Take this, and wear it with pride. And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC9_Argonian_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  player->additem "Zenithar_Frock" 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC9_Argonian_alms 60  Goodbye
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Excellent! Once again, you've exceeded our expectations. You are blessed with Zenithar's gift of fine words and generous sentiments. Take this, and wear it with pride. And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC9_Argonian_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  player->additem "Zenithar_Frock" 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC9_Argonian_alms 60  Goodbye
+
+[MOD-INF]: ID=250357502530017728(Journal:mv_thieftrader)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|NAME:I met Lucan Ostorius, who claims to be a trader. He is waiting for Yak gro-Skandar, a smith with whom he was supposed to trade some goods. Apparently, though, gro-Skandar has yet to show up, agitating Lucan greatly. It seems Lucan would like me to help him by delivering a shipment of weapons for him to Yak gro-Skandar at the Rat in the Pot in Ald'ruhn. He has offered to pay me 100 septims for my time, and he asks me to swear an oath to Zenithar to seal the bargain.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:I met Lucan Ostorius, who claims to be a trader. He is waiting for Yak gro-Skandar, a smith with whom he was supposed to trade some goods. Apparently, though, gro-Skandar has yet to show up, agitating Lucan greatly. It seems Lucan would like me to help him by delivering a shipment of weapons for him to Yak gro-Skandar at the Rat in the Pot in Ald'ruhn. He has offered to pay me 100 septims for my time, and he asks me to swear an oath to seal the bargain.
+
+[MOD-INF]: ID=250747421089024209(Persuasion:service refusal)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ANAM:Ald-ruhn|NAME:Sorry. I'll do no business with one who bears the mark of Zenithar. It's obvious you've sworn an oath to Zenithar you've yet to fulfill.|SCVR:04JX0MV_TraderLate|INTV
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ANAM:Ald-ruhn|NAME:Sorry. I'll do no business with you. You've sworn an oath that you've yet to fulfil.|SCVR:04JX0MV_TraderLate|INTV
+
+[DUP-INF]: ID=281291800472392465(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:No? Well, I'll find someone else to do it, then.|SCVR:01500|INTV|BNAM:Journal "MS_Lookout" 30
+
+[MOD-INF]: ID=326181630328718198(Journal:ms_vampirecure)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|NAME:I have found a some papers by a Buoyant Armiger, Galur Rithari. In them, he gives hints as to how vampirism may be cured. It suggests that the cure may be obtained with the help of a Daedra Prince, perhaps Molag Bal.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:I have found some papers by a Buoyant Armiger, Galur Rithari. In them, he gives hints as to how vampirism may be cured. It suggests that the cure may be obtained with the help of a Daedra Prince, perhaps Molag Bal.|QSTF
+
+[MOD-INF]: ID=592345672850130802(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations for the Buckmoth fund? Or have you come to report your failure?|SCVR:04JX3IC10_buckmoth_alms|INTV|SCVR:15IX3Gold_001|INTV:d|SCVR:24JX1IC10_buckmoth_not|INTV|SCVR:34JX4IC10_buckmoth_alms|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations for the Buckmoth fund? Or have you come to report your failure?|SCVR:04JX3IC10_buckmoth_alms|INTV|SCVR:15IX3Gold_001|INTV:d|SCVR:24JX1IC10_buckmoth_not|INTV|SCVR:34JX4IC10_buckmoth_alms|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3 "Here's the money. From my own pockets. I don't want to go to Ald-ruhn." 4
+
+[MOD-INF]: ID=756310263772131418(Topic:say that again)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:How fortunate! Your voice sounds almost like the Redoran Relmerea Saram who died... um, just recently. Would you be willing to disguise yourself as Relmerea Saram and get orders from House Redoran, then deliver the orders to me?|SCVR:01440|INTV|SCVR:12sX1PCRace|INTV|SCVR:22sX1PCRace|INTV|SCVR:34JX4HH_DisguisedArmor|INTV:d|BNAM:Choice "Yes." 1 "No, too busy." 2
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:How fortunate! Your voice sounds almost like the Redoran Relmerea Saram who died... um, just recently. Would you be willing to disguise yourself as Relmerea Saram and get orders from House Redoran, then deliver the orders to me?|SCVR:01440|INTV|SCVR:12sX1PCRace|INTV|SCVR:22sX1PCRace|INTV|SCVR:34JX4HH_DisguisedArmor|INTV:d|BNAM:Choice "Yes." 1 "No, too busy." 2 "[shocked] But... that's LYING! No way!" 3
+
+[MOD-INF]: ID=843215059274174023(Topic:pressing business)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:rasha|NAME:Yes. Most pressing. I have, you see, a shipment of clothing...fine clothing, it is...to get to Ald-ruhn. But, I fear other business draws me away. Perhaps, I think, you and I might come to an arrangement, yes? If you will deliver Rasha's shirts...these fine, fine shirts...to Bivale Teneran the clothier in Ald-ruhn, she will pay you for your services. And a generous woman she is. I would ask that you swear an oath to Zenithar to seal our arrangement, though. Yes. What do you think of my offer, hmmmm?|SCVR:04JX4MV_TraderLate|INTV|BNAM:Journal "MV_TraderLate" 20  Choice "I swear to Zenithar I will deliver your shipment." 1 "I'm sorry. I cannot do that now." 2
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:rasha|NAME:Yes. Most pressing. I have, you see, a shipment of clothing...fine clothing, it is...to get to Ald-ruhn. But I fear other business draws me away. Perhaps, I think, you and I might come to an arrangement, yes? If you will deliver Rasha's shirts...these fine, fine shirts...to Bivale Teneran the clothier in Ald-ruhn, she will pay you for your services. And a generous woman she is. I would ask that you swear an oath to Zenithar to seal our arrangement, though. Yes. What do you think of my offer, hmmmm?|SCVR:04JX4MV_TraderLate|INTV|BNAM:Journal "MV_TraderLate" 20  Choice "I swear to Zenithar I will deliver your shipment." 1 "I'm sorry. I cannot do that now." 2 "I could swear an oath to Zenithar if you insist, but you have to know that this oath wouldn't mean anything to me. If you want an oath that is meaningful, I can swear to Saint Roris instead." 3
+
+[MOD-INF]: ID=1130022589237875643(Topic:strange man)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:gindrala hleran|NAME:Please. Get him out of my house. He's scaring me.|SCVR:04JX3A1_SleeperDreamer02|INTV|SCVR:16DX0Dreamer_Talker02|INTV:
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:gindrala hleran|NAME:Please. Get him out of my house. He's scaring me.|SCVR:04JX0A1_SleeperDreamer02|INTV|SCVR:16DX0Dreamer_Talker02|INTV:
+
+[MOD-INF]: ID=1772430844181427661(Topic:telvanni bride)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:kaushad|NAME:This is my new bride? I am very pleased with your gift, %PCName... though she is not so generous in the hips as I would like. I promise to make her a happy bride, and to do her honor as a high-born Telvanni lady. And, as I have said, I will now name you Zainab Nerevarine, War Leader of the Zainab, and Protector of the People. I must also give you the Zainab Thong, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Zainab have named you Nerevarine.|SCVR:04JX3B3_ZainabBride|INTV:/|BNAM:;Ashkhan Kaushad; Journal "B3_ZainabBride" >= 47;   Journal "B3_ZainabBride" 50  ModDisposition 20  Player->ModReputation 1  Player->additem "Thong" 1
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:kaushad|NAME:This is my new bride? I am very pleased with your gift, %PCName... though she is not so generous in the hips as I would like. I promise to make her a happy bride, and to do her honor as a high-born Telvanni lady. And, as I have said, I will now name you Zainab Nerevarine, War Leader of the Zainab, and Protector of the People. I must also give you the Zainab Thong, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Zainab have named you Nerevarine.|SCVR:04JX0B3_ZainabBride|INTV:/|BNAM:;Ashkhan Kaushad; Journal "B3_ZainabBride" >= 47;   Journal "B3_ZainabBride" 50  ModDisposition 20  Player->ModReputation 1  Player->additem "Thong" 1  Choice "Thank you, Ashkhan." 1 "Thank you, Ashkhan. But I have to confess: This Dunmer is not a Telvanni, but a mere slave. I hope that you will forgive me, and accept her, because no Telvanni would marry an Ashlander." 2
+
+[MOD-INF]: ID=1806026616964426083(Topic:pillow shipment)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:drarayne thelas|NAME:A shipwreck? That's horrible! Oh, all of those wonderful pillows.... Well, I thank you, %PCName. It is good to know what became of my shipment, though the loss of pillows saddens me. A few of those were stuffed with racer plumes. A real shame. Still, thank you for your help with this. Take this as a token of my appreciation. It has served me well.|SCVR:05IX2bk_pillowinvoice|INTV:|BNAM:Player->removeitem "bk_pillowinvoice" 1  Player->AddItem "misc_uni_pillow_unique" 1  RemoveItem "misc_uni_pillow_unique" 1
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:drarayne thelas|NAME:A shipwreck? That's horrible! Oh, all of those wonderful pillows.... Well, I thank you, %PCName. It is good to know what became of my shipment, though the loss of pillows saddens me. A few of those were stuffed with racer plumes. A real shame. Still, thank you for your help with this. Take this as a token of my appreciation. It has served me well.|SCVR:05IX2bk_pillowinvoice|INTV:|SCVR:14JX4AA_Pillow|INTV:d|BNAM:Player->removeitem "bk_pillowinvoice" 1  Player->AddItem "misc_uni_pillow_unique" 1  RemoveItem "misc_uni_pillow_unique" 1  Journal "AA_Pillow" 100
+
+[MOD-INF]: ID=1842929223950026557(Journal:hr_foundershelm)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|NAME:Neminda told me that Alvis Teri stole a Founder's Helm. He is at the Eight Plates in Balmora. I am to recover the helm, but I must not shame House Redoran by murdering him.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:Alvis Teri gave me the Founder's Helm. I should either take it back to Neminda in Ald'ruhn or find the Uveran Ancestral Tomb near Caldera Mine and return it to the ancestors of the Uveran family. If I go to the tomb, the helm should be placed upon the rim of the ash pit in the last chamber.
+
+[MOD-INF]: ID=1859013980214423307(Journal:ms_lookout)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|NAME:I've agreed to help Hrisskar find the money that Fargoth has been hiding away. I am supposed to keep an eye on him from atop the lighthouse in town, and watch where he goes. Hrisskar believes I should watch him at night. I'm not supposed to approach him at any time. I should then retrace his footsteps and find out where he's hidden the money. When I've found it, I should report back to Hrisskar.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:I've agreed to help Hrisskar find the money that Fargoth has been hiding away. I am supposed to keep an eye on him from atop the lighthouse in town, and watch where he goes. Hrisskar believes I should watch him at night. I'm not supposed to approach him at any time. I should then retrace his footsteps and find out where he's hidden the money. When I've found it, I should report back to Hrisskar. Alternatively, I can warn Fargoth about Hrisskar's plot.
+
+[MOD-INF]: ID=1957554642047311325(Topic:drake's pride)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:neloth|NAME:Yes, it is a fine and marvelous robe when worn by the rare wizard who is worthy of it.|SCVR:34JX3HT_DrakePride|INTV:d
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:neloth|NAME:Yes, it is a fine and marvelous robe when worn by the rare wizard who is worthy of it.|SCVR:34JX0HT_DrakePride|INTV:d
+
+[MOD-INF]: ID=1982748741803812127(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:drarayne thelas|NAME:Are you the one they sent to take care of the cave rats?|SCVR:04JX4FG_RatHunt|INTV:2
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:drarayne thelas|NAME:Are you the one they sent to take care of the cave rats?|SCVR:04JX4FG_RatHunt|INTV:2|SCVR:15IX0bk_pillowinvoice|INTV:
+
+[MOD-INF]: ID=2145425348324619427(Topic:drake's pride)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:neloth|NAME:Were you expelled for getting me the robe? How unfortunate. I will take care of this for you. It's the least I can do. And take these ten drakes for your trouble.|SCVR:01500|INTV|SCVR:11390|INTV|BNAM:Journal HT_DrakePride 100  Player->AddItem Gold_001 10  Player->RemoveItem "exquisite_robe_drake's pride" 1  AddItem "exquisite_robe_drake's pride" 1  ModPCFacRep 5 "Telvanni"  ModDisposition 5  PCClearExpelled
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:neloth|NAME:Were you expelled for getting me the robe? How unfortunate. I will take care of this for you. It's the least I can do. And take my old robe for your trouble.|SCVR:01500|INTV|SCVR:11390|INTV|BNAM:Journal HT_DrakePride 100  Player->AddItem "exquisite_robe_01" 1  RemoveItem "exquisite_robe_01" 1  Player->RemoveItem "exquisite_robe_drake's pride" 1  AddItem "exquisite_robe_drake's pride" 1  ModPCFacRep 5 "Telvanni"  ModDisposition 5  PCClearExpelled
+
+[MOD-INF]: ID=2230420380811519217(Topic:strange man)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:gindrala hleran|NAME:Goodness. Is he... dead? How unpleasant. Was it very dangerous? I'm sorry. I really have nothing to give you but my thanks. But I'll tell everyone how kind and brave you were to help me.|SCVR:16DX0Dreamer_Talker02|INTV|BNAM:Journal A1_SleeperDreamer02 50  player->modReputation 1
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:gindrala hleran|NAME:Goodness. Is he... dead? How unpleasant. Was it very dangerous? I'm sorry. I really have nothing to give you but my thanks. But I'll tell everyone how kind and brave you were to help me.|SCVR:04JX0A1_SleeperDreamer02|INTV|SCVR:16DX0Dreamer_Talker02|INTV|SCVR:25IX3key_gindrala|INTV|BNAM:Journal A1_SleeperDreamer02 50  player->modReputation 1  Player->removeitem "key_gindrala" 1
+
+[MOD-INF]: ID=2234039252561018129(Topic:duel)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:rothis nethan|NAME:Okay, I'll meet Breras Deras in the Arena... But you'll have to help me out. Bring me 10 standard potions of healing. That should give me a fair chance against Brethas Deras. I think Relms Gilvilo has these potions over at the Redoran Canton Temple.|SCVR:34JX3HR_CowardDisgrace|INTV: 
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:rothis nethan|NAME:Okay, I'll meet Breras Deras in the Arena... But you'll have to help me out. Bring me 10 standard potions of healing. That should give me a fair chance against Brethas Deras. I think Relms Gilvilo has these potions over at the Redoran Canton Temple. If you want to help me even more, you could also get me a Glass Netch Dagger.|SCVR:34JX3HR_CowardDisgrace|INTV: |BNAM:AddTopic "Glass Netch Dagger"
+
+[MOD-INF]: ID=2641021248879810811(Journal:mv_thieftrader)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|NAME:I've agreed to help Lucan by taking the weapons to Yak gro-Skandar, and I have sworn a solemn oath to Zenithar that I will fulfill my part of the bargain.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:I've agreed to help Lucan by taking the weapons to Yak gro-Skandar, and I have sworn a solemn oath that I will fulfil my part of the bargain.
+
+[MOD-INF]: ID=2759312837269722099(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Have you spoken to Canctunian Ponius? Have you brought the generous pledge he promised to support a mission to the Ashlanders? Or have you come to report your failure?|SCVR:04JX3IC14_Ponius|INTV|SCVR:15IX3Gold_001|INTV|SCVR:24JX4IC14_Ponius|INTV:2|SCVR:34JX1IC14_Ponius_not|INTV|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't get Canctunian Ponius to redeem his pledge." 2 "Yes, I have the generous pledge." 3
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Have you spoken to Canctunian Ponius? Have you brought the generous pledge he promised to support a mission to the Ashlanders? Or have you come to report your failure?|SCVR:04JX3IC14_Ponius|INTV|SCVR:15IX3Gold_001|INTV|SCVR:24JX4IC14_Ponius|INTV:2|SCVR:34JX1IC14_Ponius_not|INTV|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't get Canctunian Ponius to redeem his pledge." 2 "Yes, I have the generous pledge." 3 "Look, I don't believe that I can succeed where others have failed. Let me pay from my own pockets." 4
+
+[MOD-INF]: ID=2837842662727127053(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Have you brought me Cunius Pelelius's 500-drake donation to the Widows and Orphans Fund? Or have you come to report your failure?|SCVR:04JX3IC13_rich|INTV|SCVR:15IX3Gold_001|INTV|SCVR:24JX4IC13_rich|INTV:2|SCVR:34JX1IC13_rich_not|INTV|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't get Cunius Pelelius to make the donation." 2 "Yes, I have the 500-drake donation." 3
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Have you brought me Cunius Pelelius's 500-drake donation to the Widows and Orphans Fund? Or have you come to report your failure?|SCVR:04JX3IC13_rich|INTV|SCVR:15IX3Gold_001|INTV|SCVR:24JX4IC13_rich|INTV:2|SCVR:34JX1IC13_rich_not|INTV|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't get Cunius Pelelius to make the donation." 2 "Yes, I have the 500-drake donation." 3 "Let me just pay from my own pockets." 4
+
+[MOD-INF]: ID=2934725773208020344(Greeting:greeting 1)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|ONAM:trerayna dalen|NAME:I have a little advice to share with you, outlander.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:trerayna dalen|NAME:I have a little advice to share with you, outlander.|SCVR:04JX1MS_Trerayna_bounty|INTV|SCVR:14JX1MS_Trerayna_bounty|INTV|SCVR:24JX1MS_Trerayna_bounty|INTV:d
+
+[MOD-INF]: ID=2942493341947127057(Topic:my collection)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|ONAM:detritus caria|NAME:Oh, that's truly a pity. I must hereby abonlish your title of Champion of Clutter. Please leave me now.|SCVR:01500|INTV|BNAM:Journal "MS_ClutterCollector" 90  ModDisposition -20  Goodbye
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:detritus caria|NAME:Oh, that's truly a pity. I must hereby abolish your title of Champion of Clutter. Please leave me now.|SCVR:01500|INTV|BNAM:Journal "MS_ClutterCollector" 90  ModDisposition -20  Goodbye  PCExpell, "Champion of Clutter"
+
+[DUP-INF]: ID=2971935711263120030(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:I know the little fetcher's got one somewhere in town. Just not sure where yet. I've already gone through his whole house, so I know he's not hiding it there. I'd like you find out where he's stashing his gold. If you can, I'll give you a share of the wealth. Are you up for it?|SCVR:04JX0MS_Lookout|INTV:|BNAM:Journal "MS_Lookout" 10  Choice "I'll do it." 1 "No thanks." 2
+
+[MOD-INF]: ID=2995591862332012921(Topic:fargoth's hiding place)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:fargoth|NAME:Hiding place? I don't know what you're talking about! Leave me alone.|SCVR:04JX3MS_Lookout|INTV: |BNAM:ModDisposition -10  Goodbye
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:fargoth|NAME:Hiding place? I don't know what you're talking about! Leave me alone.|SCVR:04JX0MS_Lookout|INTV|BNAM:Choice "Hrisskar tried to hire me to find your hiding place." 1 "Okay, sorry for bothering you." 2
+
+[MOD-INF]: ID=3025081672668520201(Topic:do me a favor)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:lucan ostorius|NAME:Here's the deal: I've got to get these weapons to Yak gro-Skandar in Ald'ruhn as quickly as possible. He was supposed to meet me here, but hasn't shown up yet. I suppose I must have missed him. If you're willing to deliver these to him at the Rat in the Pot, I'd be grateful, and I figure I could throw 100 septims your way. Of course, I'd ask you to swear an oath to Zenithar...may He grace us with lots of loot, that you'd deliver my goods, or, um, face his heavenly wrath.|BNAM:Journal "MV_ThiefTrader" 10  Choice "I swear by Zenithar that I will deliver your goods." 1 "I will not swear an oath." 2
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:lucan ostorius|NAME:Here's the deal: I've got to get these weapons to Yak gro-Skandar in Ald'ruhn as quickly as possible. He was supposed to meet me here, but hasn't shown up yet. I suppose I must have missed him. If you're willing to deliver these to him at the Rat in the Pot, I'd be grateful, and I figure I could throw 100 septims your way. Of course, I'd ask you to swear an oath to Zenithar...may He grace us with lots of loot, that you'd deliver my goods, or, um, face his heavenly wrath.|BNAM:Journal "MV_ThiefTrader" 10  Choice "I swear by Zenithar that I will deliver your goods." 1 "I will not swear an oath." 2 "I could swear an oath to Zenithar if you insist, but you have to know that this oath wouldn't mean anything to me. If you want an oath that is meaningful, I can swear to Saint Roris instead." 3
+
+[MOD-INF]: ID=3245423813243151497(Topic:ring)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:fargoth|NAME:You found it! Amazing! Thank you, thank you! You are now my favorite friend. I'll be sure to tell the others, especially my friend Arrille who runs the tradehouse here. Go see him, he'll be happy to see you now!|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|BNAM:Journal MS_FargothRing 100  additem "ring_keley" 1  player->removeitem "ring_keley" 1  set state to -1  moddisposition 50  "arrille"->moddisposition 40
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:fargoth|NAME:You found it! Amazing! You are truly my favourite friend %PCName. This ring is a family heirloom but I would like you to have it, it's the least I can do after you tipped me off about that bully, Hrisskar!|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|SCVR:24JX0MS_Lookout|INTV:2|BNAM:Journal MS_FargothRing 90  set state to -1  moddisposition 50
+
+[MOD-INF]: ID=4798241902712012333(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:rothis nethan|ANAM:Vivec, Arena Pit|NAME:I won the duel. I can't believe I won.|SCVR:06DX2brethas deras|INTV:
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:rothis nethan|ANAM:Vivec, Arena Pit|NAME:I won the duel. I can't believe I won.|SCVR:06DX2brethas deras|INTV:|BNAM:Journal "HR_CowardDisgrace" 70  Goodbye
+
+[MOD-INF]: ID=5450236161264522728(Topic:strange man)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:gindrala hleran|NAME:He's talking to himself. He won't listen to me. He looks very strange. He stares at me funny. And he seems to have lost his shirt. Please. Get him out of there? He's scaring me.|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0Dreamer_Talker02|INTV:|BNAM:Journal A1_SleeperDreamer02 1  player->additem key_gindrala 1
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:gindrala hleran|NAME:He's talking to himself. He won't listen to me. He looks very strange. He stares at me funny. And he seems to have lost his shirt. Please. Get him out of there? He's scaring me.|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0Dreamer_Talker02|INTV:|SCVR:24JX4A1_SleeperDreamer02|INTV|BNAM:Journal A1_SleeperDreamer02 1  player->additem key_gindrala 1
+
+[MOD-INF]: ID=5751149062981413306(Topic:pants)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:hentus yansurnummu|NAME:Those aren't my pants. Hainab Lasamsi has my pants.|SCVR:05IX3common_pants_02|INTV|SCVR:34JX3MS_HentusPants|INTV: 
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:hentus yansurnummu|NAME:Those aren't my pants. Hainab Lasamsi has my pants.|SCVR:05IX3common_pants_02|INTV|SCVR:34JX3MS_HentusPants|INTV: |BNAM:Choice "Take them anyway. It's a gift." 3 "Fine." 4
+
+[MOD-INF]: ID=5751170581154322364(Greeting:greeting 1)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|ONAM:trerayna dalen|DNAM:Telvanni|NAME:Well, well, well. An outlander. And a Telvanni. Will wonders never cease? Then it is in the spirit of a friendly warning that I offer you a little advice.
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:trerayna dalen|DNAM:Telvanni|NAME:Well, well, well. An outlander. And a Telvanni. Will wonders never cease? Then it is in the spirit of a friendly warning that I offer you a little advice.|SCVR:04JX1MS_Trerayna_bounty|INTV|SCVR:14JX1MS_Trerayna_bounty|INTV|SCVR:24JX1MS_Trerayna_bounty|INTV:d
+
+[MOD-INF]: ID=7162151183142518854(Topic:strange man)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:gindrala hleran|NAME:Thank you again for your help.|SCVR:04JX3A1_SleeperDreamer02|INTV:2
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:gindrala hleran|NAME:Thank you again for your help.|SCVR:04JX0A1_SleeperDreamer02|INTV:2
+
+[MOD-INF]: ID=7162151183142518854(Topic:strange man)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:gindrala hleran|NAME:Thank you again for your help.|SCVR:04JX3A1_SleeperDreamer02|INTV:2
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:gindrala hleran|NAME:Thank you again for your help.|SCVR:04JX0A1_SleeperDreamer02|INTV:2
+[MOD-IID]: ID=16780112562085623072
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->Thank you again for your help.
+
+[MOD-INF]: ID=7285264752955921177(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations from the Argonian mission? Or have you come to report your failure?|SCVR:04JX3IC9_Argonian_alms|INTV|SCVR:15IX3Gold_001|INTV:d|SCVR:24JX4IC9_Argonian_alms|INTV|SCVR:34JX1IC9_Argonian_not|INTV|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations from the Argonian mission? Or have you come to report your failure?|SCVR:04JX3IC9_Argonian_alms|INTV|SCVR:15IX3Gold_001|INTV:d|SCVR:24JX4IC9_Argonian_alms|INTV|SCVR:34JX1IC9_Argonian_not|INTV|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3 "I just want to pay the sum from my own pockets." 4
+
+[MOD-INF]: ID=7637288681435527682(Topic:founder's helm)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:neminda|DNAM:Redoran|NAME:Alvis Teri stole a Founder's Helm from the Uveran Ancestral Tomb. He boasts of this feat at the Eight Plates Inn in Balmora and wears the Helm openly. Confront him and demand the Helm. Slay him if necessary, but do not shame House Redoran by murdering him.|SCVR:34JX3HR_Courier|INTV:d|SCVR:44JX3HR_FindDalobar|INTV:d|BNAM:Journal HR_FoundersHelm 10
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:neminda|DNAM:Redoran|NAME:Alvis Teri stole a Founder's Helm from the Uveran Ancestral Tomb. He boasts of this feat at the Eight Plates Inn in Balmora and wears the Helm openly. Confront him and demand the Helm. Slay him if necessary, but do not shame House Redoran by murdering him. After that, either return the helm to me or find the Uveran Ancestral Tomb, which is situated in the same valley as Caldera Mine, and return it to the Uveran family ancestors. The helm should be placed upon the rim of the ash pit in the last room.|SCVR:34JX3HR_Courier|INTV:d|SCVR:44JX3HR_FindDalobar|INTV:d|BNAM:Journal HR_FoundersHelm 10
+
+[DUP-INF]: ID=7644117512997720799(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:I've just got to find where he's hiding his loot.|SCVR:04JX3MS_Lookout|INTV|SCVR:14JX5MS_Lookout|INTV
+
+[MOD-INF]: ID=8038280651571829605(Topic:say that again)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:How fortunate! Your voice sounds almost like the Redoran Felsen Sethandus who died... um, just recently. Would you be willing to disguise yourself as Felsen Sethandus and get orders from House Redoran, then deliver the orders to me?|SCVR:01440|INTV:|SCVR:12sX1PCRace|INTV|SCVR:22sX1PCRace|INTV|SCVR:34JX4HH_DisguisedArmor|INTV:d|BNAM:Choice "Yes." 1 "No, too busy." 2
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:How fortunate! Your voice sounds almost like the Redoran Felsen Sethandus who died... um, just recently. Would you be willing to disguise yourself as Felsen Sethandus and get orders from House Redoran, then deliver the orders to me?|SCVR:01440|INTV:|SCVR:12sX1PCRace|INTV|SCVR:22sX1PCRace|INTV|SCVR:34JX4HH_DisguisedArmor|INTV:d|BNAM:Choice "Yes." 1 "No, too busy." 2 "[shocked] But... that's LYING! No way!" 3
+
+[MOD-INF]: ID=9523291201261418953(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:drarayne thelas|NAME:You say you've found out what happened to my pillow shipment?|SCVR:04JX0FG_RatHunt|INTV:d|SCVR:15IX2bk_pillowinvoice|INTV:
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:drarayne thelas|NAME:You say you've found out what happened to my pillow shipment?|SCVR:04JX3FG_RatHunt|INTV:d|SCVR:15IX2bk_pillowinvoice|INTV:
+
+[MOD-INF]: ID=11299230292311715876(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Excellent! You've far exceeded our expectations. Surely you have a touch of Zenithar in your soul. Please accept this small token of our gratitude and encouragement. And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC_8_Nord_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  player->additem "Shoes_of_Conviction" 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC_8_Nord_alms 60  Goodbye
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Excellent! You've far exceeded our expectations. Surely you have a touch of Zenithar in your soul. Please accept this small token of our gratitude and encouragement. And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC_8_Nord_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  player->additem "Shoes_of_Conviction" 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC_8_Nord_alms 60  Goodbye
+
+[MOD-INF]: ID=12653199392949220190(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations from the Skyrim mission? Or have you come to report your failure?|SCVR:04JX3IC_8_Nord_alms|INTV|SCVR:15IX3Gold_001|INTV:d|SCVR:24JX1IC_8_Nord_alms_not|INTV|SCVR:34JX4IC_8_Nord_alms|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations from the Skyrim mission? Or have you come to report your failure?|SCVR:04JX3IC_8_Nord_alms|INTV|SCVR:15IX3Gold_001|INTV:d|SCVR:24JX1IC_8_Nord_alms_not|INTV|SCVR:34JX4IC_8_Nord_alms|INTV:2|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3 Look, can I just pay the sum from my own pockets?" 4
+
+[MOD-INF]: ID=22618115252730520565(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations from the Argonian mission? Or have you come to report your failure?|SCVR:04JX3IC9_Argonian_alms|INTV|SCVR:15IX3Gold_001|INTV|SCVR:24JX4IC9_Argonian_alms|INTV|SCVR:34JX1IC9_Argonian_not|INTV|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3 "I have DOUBLED our goal!" 4
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Have you reached our goal of 100 gold in donations from the Argonian mission? Or have you come to report your failure?|SCVR:04JX3IC9_Argonian_alms|INTV|SCVR:15IX3Gold_001|INTV|SCVR:24JX4IC9_Argonian_alms|INTV|SCVR:34JX1IC9_Argonian_not|INTV|BNAM:;Iulus Truptor  Choice "No, but I'm working on it." 1 "I'm sorry, but I can't seem to raise the gold." 2 "Yes, I've reached our goal." 3 "I just want to pay the sum from my own pockets." 4 "I have DOUBLED our goal!" 5 "I will pay you DOUBLE amount, right away. From my own pockets." 6
+
+[MOD-INF]: ID=27104147583052630056(Topic:my collection)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|ONAM:detritus caria|NAME:Oh, that's truly a pity. I must hereby abolish your title of Champion of Clutter. Please leave me now.|SCVR:01500|INTV: |BNAM:Journal "MS_ClutterCollector" 80  Goodbye
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:detritus caria|NAME:Oh, that's truly a pity. I must hereby abolish your title of Champion of Clutter. Please leave me now.|SCVR:01500|INTV: |BNAM:Journal "MS_ClutterCollector" 80  Goodbye  PCExpell, "Champion of Clutter"
+
+[MOD-INF]: ID=28229117762658021605(Journal:ht_drakepride)
+  tribunal.esm------------------------------------------------------------------------------->|DATA|NAME:House Redoran: Drake's Pride|QSTN
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|NAME:House Telvanni: Drake's Pride|QSTN
+
+[MOD-INF]: ID=28327282662566813983(Topic:drake's pride)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:neloth|NAME:It looks very similar. Are you certain? Do not lie to me, %PCName.|SCVR:01500|INTV|BNAM:ModDisposition -5
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:neloth|NAME:It looks very similar. Are you certain? Do not lie to me, %PCName.|SCVR:01500|INTV|BNAM:ModDisposition -5  Journal "HT_DrakePride" 110  ModPCFacRep 5 "Telvanni"
+
+[MOD-INF]: ID=29350184671256410898(Greeting:greeting 5)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:Iulus Truptor|NAME:Excellent! Once again, you've exceeded our expectations. Take these gifts as tokens of our gratitude for your faithful and diligent service to the Imperial cult.  And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC10_buckmoth_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  player->additem sc_fphyggisgemfeeder 1  player->additem sc_didalasknack 1  player->additem bookskill_mercantile1 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC10_Buckmoth_alms 60  Goodbye
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:Iulus Truptor|NAME:Excellent! Once again, you've exceeded our expectations. Take these gifts as tokens of our gratitude for your faithful and diligent service to the Imperial cult. And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC10_buckmoth_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  player->additem sc_fphyggisgemfeeder 1  player->additem sc_didalasknack 1  player->additem bookskill_mercantile1 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC10_Buckmoth_alms 60  Goodbye
+
+[MOD-INF]: ID=32657233032626618519(Topic:careless travelers)
+  morrowind.esm------------------------------------------------------------------------------>|DATA|ONAM:larrius varro|NAME:So, I see you've located that rogue Fjol. Somewhat of a shame he's still out there, but knowing his location is a help. My thanks.|SCVR:04JX0MV_Bastard|INTV:i|SCVR:16DX0Fjol|INTV:
+  The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP->|DATA|ONAM:larrius varro|NAME:So, I see you've located that rogue Fjol. Somewhat of a shame he's still out there, but knowing his location is a help. I'll send out a force to capture him. My thanks.|SCVR:04JX0MV_Bastard|INTV:i|SCVR:16DX0Fjol|INTV:|BNAM:Journal "MV_Bastard" 120  Player->additem "gold_001" 100  Fjol->Disable  StartScript "G93_Fjol"

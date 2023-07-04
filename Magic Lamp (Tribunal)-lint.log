@@ -1,0 +1,18 @@
+Magic Lamp (Tribunal).esp: DUP-INF DUP-REC MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (141) != Actual count (140)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(LampBound)
+	SCPT(dbattackScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       PGRD    ashlands region
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=1450442414429500(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:You are the one who took care of that strange man in my house? Thank you. I'll tell everyone how kind and brave you've been.|SCVR:16DX0dreamer_02|INTV
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=28487210471647714045(Greeting:greeting 5)
+  |DATA|ONAM:hanarai assutlanipal|NAME:I feel as though I've just awakened from a dream... a terrible dream of the Sixth House.|SCVR:14JX3C3_DestroyDagoth|INTV:2

@@ -1,0 +1,9 @@
+Fargoth_Intervention.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (17) != Actual count (15)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ring
+
+[MOD-INF]: ID=3245423813243151497(Topic:ring)
+  morrowind.esm------------>|DATA|ONAM:fargoth|NAME:You found it! Amazing! Thank you, thank you! You are now my favorite friend. I'll be sure to tell the others, especially my friend Arrille who runs the tradehouse here. Go see him, he'll be happy to see you now!|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|BNAM:Journal MS_FargothRing 100  additem "ring_keley" 1  player->removeitem "ring_keley" 1  set state to -1  moddisposition 50  "arrille"->moddisposition 40
+  Fargoth_Intervention.ESP->|DATA|ONAM:fargoth|NAME:You found it! Amazing! Thank you, thank you! You are now my favorite friend. I'll be sure to tell the others, especially my friend Arrille who runs the tradehouse here. Go see him, he'll be happy to see you now! By the way, would you be interested in finding another ring for me?|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|BNAM:Journal MS_FargothRing 100  additem "ring_keley" 1  player->removeitem "ring_keley" 1  set state to -1  moddisposition 50  "arrille"->moddisposition 40  AddTopic "another ring"

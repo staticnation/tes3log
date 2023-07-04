@@ -1,0 +1,79 @@
+The Redoran Bard.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AA_ring_blessedLute)
+	SCPT(AA_ring_helvianeDeath)
+	SCPT(AA_ring_matmusForceGreeting)
+	SCPT(CompanionCombat)
+	SCPT(CompanionCombat2)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    ancestors
+	morrowind.esm       DIAL    choosing a great house
+	morrowind.esm       DIAL    corprus in ald'ruhn
+	morrowind.esm       DIAL    disturbing dreams
+	morrowind.esm       DIAL    empire
+	morrowind.esm       DIAL    foreigners
+	morrowind.esm       DIAL    fort buckmoth
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    khuul
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       NPC_    helviane desele
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=15292671323227301(Topic:my trade)
+  |DATA|CNAM:Mage|NAME:I am a mage. My study is the destruction and alteration of the visible and invisible world. I study magic for its pure intellectual challenge and rewards, but I am paid in gold for the practical applications of my knowledge. Further, when undertaking expeditions in search of knowledge, I defend myself with spells of the College of Destruction, and leap, swim, and levitate with the spells of the College of Alteration.|SCVR:0CsX0NoLore|INTV:|BNAM:;Mage; Destruction, Alteration
+
+[MOD-INF]: ID=19137490125553988(Greeting:greeting 1)
+  tribunal.esm--------->|DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+  The Redoran Bard.esp->|DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=205451407245156174(Topic:ancestors)
+  |DATA|CNAM:Savant|NAME:The Dunmer believe the spirits of the dead live on in our world. They can know and affect the future, and can speak with other spirits, and work great magic, so the Dunmer honor and gift them, and ask them for aid and protection. Strong spirits of heroes and wise women preserve the wisdom and honor of the race. The worst spirits are evil and harmful, called ghosts, and devils, and daemons. The oldest and greatest ancestor spirits are the Daedra. They are powerful, but dangerous, and hard to understand.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=931882912518916969(Topic:corprus in ald'ruhn)
+  |DATA|CNAM:Pauper|ANAM:Ald-ruhn|NAME:There's blight plague in Fort Buckmoth! Trooper went mad, turned into a fat, beast with sores and flabby chunks of flesh hanging off. Then he dropped dead, just like that. You can't make me go anywhere near that fort.|SCVR:04JX3A1_SleepersAwake|INTV|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=1002819369216939465(Topic:fort buckmoth)
+  |DATA|ONAM:caius cosades|NAME:Fort Buckmoth is the Imperial Legion's garrison for Redoran District. The fort lies south of Ald'ruhn, a short walk from Ald'ruhn's south gate.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:<|SCVR:14JX4A2_2_6thHouse|INTV:2|BNAM:ShowMap "Buckmoth Legion Fort"
+
+[DUP-INF]: ID=1318717699281111796(Topic:foreigners)
+  |DATA|FNAM:Camonna Tong|NAME:We don't like foreigners much in Morrowind. This is our country, and we don't like foreigners who come in and steal our land and our treasures and tell us what to do and how to live.|SCVR:0CsX0nolore|INTV:|BNAM:;Dunmer; Balmora
+
+[DUP-INF]: ID=1584724829308727856(Topic:slavery)
+  |DATA|ONAM:galyn arvel|NAME:Continue your work to end slavery here in Morrowind.|SCVR:34JX3HH_TwinLamps1|INTV:d
+
+[DUP-INF]: ID=1799429480260485692(Topic:house redoran)
+  |DATA|ONAM:sul-matuul|NAME:The khans of the Great Houses are called 'councilors.' The khans of House Redoran meet in a great crab shell in a place called Ald'ruhn. You must find these councilors and persuade them to name you Hortator. I know little of the settled people. You must go there and learn for yourself.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Sul-Matuul; Journal "A2-6_Incarnate" >= 50
+
+[DUP-INF]: ID=2250770692576229666(Topic:empire)
+  |DATA|FNAM:Imperial Legion|NAME:The Empire is the greatest achievement of Tamrielic civilization. This melting pot of contrasting cultures is held together by a strong hereditary emperor and bureaucracy, by the rule of law, by a powerful professional army, and by religious tolerance. Education and wealth is broadly distributed through all social classes where Imperial culture has flourished; many citizens are literate and protected under Imperial law.
+
+[DUP-INF]: ID=2405019711740331778(Topic:ald'ruhn)
+  |DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:Ald'ruhn has two main districts. The Redoran Council and manors under the shell of the Emperor Crab are known as "Ald'ruhn-under-Skar."
+
+[DUP-INF]: ID=2521731792966111939(Topic:skooma)
+  |DATA|RNAM:Khajiit|CNAM:Trader Service|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, %Name wants nothing to do with breaking laws. That would be wrong.|BNAM:;publican; trader;
+
+[DUP-INF]: ID=2677921808100214765(Topic:morrowind lore)
+  |DATA|ONAM:holmar|NAME:Wha?
+
+[DUP-INF]: ID=3269812507128722743(Topic:khuul)
+  |DATA|ONAM:Kaye|NAME:Khuul is a small village on the northwest coast of Vvardenfell. Silt strider can carry you as far as Gnisis. Then you'll have to travel north on foot, cross-country. The only certain landmarks in the region are the village of Khuul, the Daedric ruins at Ashalmawia southwest of Khuul, and the village of Ald Velothi, on the coast west of both Ashalmawia and Khuul.|BNAM:ShowMap Khuul  ShowMap Ashalmawia  ShowMap "Ald Velothi"
+
+[DUP-INF]: ID=3684149502795712191(Topic:choosing a great house)
+  |DATA|ONAM:artisa arelas|NAME:If you are thinking of joining a Great House, study all three Great Houses, and think carefully before you join, because once you've joined one house, no other house will ever consider you for membership. Loyalty is very important in the Great Houses. When you join, you become family, and, by Dunmer standards, it's a matter of blood and kin, and irreversible. Even if you get kicked out of one house, no other house will have you.|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=8356247851439313808(Topic:my trade)
+  morrowind.esm-------->|DATA|CNAM:Bard|NAME:I am a bard. As an entertainer, I share songs and stories with patrons and peasants. As a scholar, I travel the world, speaking with people, and learning the lessons of history and human nature. And because a good bard must experience adventure at first hand in order to present its drama effectively, I have learned to defend myself with the noble tools of medium armor and long blade, and have mastered minor mysteries of alchemy, enchantment, and illusion.|SCVR:0CsX0NoLore|INTV:|BNAM:;Bard; History, Speechcraft, Teach Ballads
+  The Redoran Bard.esp->|DATA|CNAM:Bard|NAME:I am a bard. As an entertainer, I share songs and stories with patrons and peasants. As a scholar, I travel the world, speaking with people, and learning the lessons of history and human nature. And because a good bard must experience adventure at first hand in order to present its drama effectively, I have learned to defend myself with the noble tools of medium armor and long blade, and have mastered minor mysteries of alchemy, enchantment, and illusion.|SCVR:0CsX0noLore|INTV:|BNAM:;Bard; History, Speechcraft, Teach Ballads
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm--------->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  The Redoran Bard.esp->|DATA|NAME:[You have failed your Oath of Silence)|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=22282324901235217619(Topic:disturbing dreams)
+  |DATA|ONAM:nibani maesa|NAME:The Devil's evil dreams are gone, %PCName. Dagoth Ur is dead. I would like to rejoice. But I feel uneasy. I cannot forget that Lord Nerevar once thought Dagoth Ur dead, long, long ago. He was mistaken.|SCVR:04JX3C3_DestroyDagoth|INTV:2

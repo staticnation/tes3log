@@ -1,0 +1,142 @@
+Improved Inns Expanded.esp: DUP-INF DUP-REC JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1314087 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AST_rentArille)
+	SCPT(BINN_start_message)
+	SCPT(HessionScript)
+	SCPT(Pub_AldVelothi_Outpost)
+	SCPT(Pub_Aldruhn_Council)
+	SCPT(Pub_Aldruhn_Skar)
+	SCPT(Pub_Balmora_Council)
+	SCPT(Pub_Balmora_Eight)
+	SCPT(Pub_Balmora_Lucky)
+	SCPT(Pub_Balmora_South)
+	SCPT(Pub_Caldera_Shenk)
+	SCPT(Pub_DagonFel_End)
+	SCPT(Pub_Ebon_Six)
+	SCPT(Pub_Ghost_Dusk)
+	SCPT(Pub_Gnisis_Madach)
+	SCPT(Pub_Khuul_Thongar)
+	SCPT(Pub_Maargan_Andus)
+	SCPT(Pub_MolagMar_Hostel)
+	SCPT(Pub_MolagMar_Pilgrim)
+	SCPT(Pub_Pelagiad_Halfway)
+	SCPT(Pub_RavenRock)
+	SCPT(Pub_SMora_Faras)
+	SCPT(Pub_Smora_Gateway)
+	SCPT(Pub_Suran_Desele)
+	SCPT(Pub_Suran_Trade)
+	SCPT(Pub_TelAruhn_Plot)
+	SCPT(Pub_TelBran_Sethan)
+	SCPT(Pub_TelMora_Covenant)
+	SCPT(Pub_Vivec_Black)
+	SCPT(Pub_Vivec_Flower)
+	SCPT(Pub_Vivec_Lizard)
+	SCPT(Pub_Vos_Varo)
+	SCPT(Pub_telaruhn_under)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (6, -8)            0x02
+	Ashlands Region (-1, 6)                  0x02
+	Ashlands Region (-1, 7)                  0x02
+	Ashlands Region (-3, 18)                 0x02
+	Ashlands Region (1, 4)                   0x02
+	Ashlands Region (3, 4)                   0x02
+	Azura's Coast Region (14, 6)             0x02
+	Azura's Coast Region (15, -14)           0x02
+	Azura's Coast Region (15, 6)             0x02
+	Azura's Coast Region (17, 3)             0x02
+	Azura's Coast Region (17, 6)             0x02
+	Azura's Coast Region (18, 2)             0x02
+	Azura's Coast Region (18, 5)             0x02
+	Azura's Coast Region (19, 3)             0x02
+	Red Mountain Region (2, 5)               0x02
+	Red Mountain Region (3, 5)               0x02
+	West Gash Region (-10, 10)               0x02
+	West Gash Region (-10, 12)               0x02
+	West Gash Region (-11, 12)               0x02
+	West Gash Region (-12, 10)               0x02
+	West Gash Region (-12, 11)               0x02
+	West Gash Region (-12, 12)               0x02
+	West Gash Region (-13, 12)               0x02
+	West Gash Region (-3, -1)                0x02
+	West Gash Region (-8, 16)                0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    ashumanu eraishah
+	morrowind.esm       NPC_    athal nerano
+	morrowind.esm       NPC_    darvam hlaren
+	morrowind.esm       NPC_    fenas madach
+	morrowind.esm       NPC_    helviane desele
+	morrowind.esm       NPC_    hjotra the peacock
+	morrowind.esm       NPC_    orns omaren
+	morrowind.esm       NPC_    selkirnemus
+	morrowind.esm       NPC_    thongar
+	morrowind.esm       NPC_    trivura arenim
+	morrowind.esm       PGRD    ald-ruhn, council club
+	morrowind.esm       PGRD    gnisis, madach tradehouse
+	morrowind.esm       PGRD    molag mar, the pilgrim's rest
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=4325609943702902(Topic:beds)
+  |DATA|CNAM:Publican|NAME:Yes, we have one available. It's 10 gold for the rest of the day. Do you want it?|SCVR:03sX0rent|INTV:|BNAM:Choice, "Yes", 1, "No", 2
+
+[DUP-INF]: ID=792795413069525055(Topic:beds)
+  |DATA|CNAM:Publican|NAME:I hope everything is adequate.|SCVR:03sX0rent|INTV|BNAM:;called first if you are already renting a room
+
+[MOD-INF]: ID=962731613265082404(Topic:beds)
+  morrowind.esm-------------->|DATA|CNAM:Publican|NAME:Ok. Just ask again if you change your mind.|SCVR:01500|INTV|BNAM:;choice 2 is for no to the room rental
+  Improved Inns Expanded.esp->|DATA|ONAM:a shady smuggler|CNAM:Publican|NAME|DELETE |MESC|INTV|BNAM:;choice 2 is for no to the room rental
+
+[MOD-INF]: ID=1271813945413015993(Topic:beds)
+  morrowind.esm-------------->|DATA|ONAM:banor seran|CNAM:Publican|NAME:Very good. Go down the stairs. The room on the right is yours. I'd avoid the left room, the man there wishes to be undisturbed..|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ;BALMORA COUNCIL CLUB  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded.esp->|DATA|ONAM:banor seran|CNAM:Publican|NAME:Yes, the room down the stairs on the right is available. It's better to avoid the left room, the man there wishes to be undisturbed. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=1281821504188985983(Topic:beds)
+  morrowind.esm-------------->|DATA|ONAM:bacola closcius|CNAM:Publican|NAME:Very well, the bed is yours for the day. You'll find the door over there unlocked. I trust Balmora will treat you well..|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script BALMORA, South Wall  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded.esp->|DATA|ONAM:bacola closcius|CNAM:Publican|NAME:Yes, the room over there is available. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=1594025613149529658(Topic:beds)
+  tribunal.esm--------------->|DATA|ONAM:boderi farano|CNAM:Publican|NAME:Very well. Go down the stairs, and use the first room on your right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ALDRUHN ALD SKAR INN  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded.esp->|DATA|ONAM:boderi farano|CNAM:Publican|NAME:Yes, we have a bed available. It's the first one on your right, at the bottom of the stairs. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=1614216812759915904(Topic:beds)
+  morrowind.esm-------------->|DATA|CNAM:Publican|NAME:Sorry. Doesn't look like you can afford it. Maybe another time.|SCVR:01500|INTV|SCVR:15IX4Gold_001|INTV: 
+  Improved Inns Expanded.esp->|DATA|CNAM:Publican|NAME:Ok. Just ask again if you change your mind.|SCVR:01500|INTV|BNAM:;choice 2 is for no to the room rental
+
+[MOD-INF]: ID=1614216812759915904(Topic:beds)
+  morrowind.esm-------------->|DATA|CNAM:Publican|NAME:Sorry. Doesn't look like you can afford it. Maybe another time.|SCVR:01500|INTV|SCVR:15IX4Gold_001|INTV: 
+  Improved Inns Expanded.esp->|DATA|CNAM:Publican|NAME:Ok. Just ask again if you change your mind.|SCVR:01500|INTV|BNAM:;choice 2 is for no to the room rental
+[MOD-IID]: IDs=8823124431996827500,142919540203120715,18667129453018720390,609721359324143688
+  Improved Inns Expanded.esp->Sorry. Doesn't look like you can afford it. Maybe another time.
+
+[MOD-INF]: ID=2394122532865625896(Topic:beds)
+  morrowind.esm-------------->|DATA|ONAM:ery|CNAM:Publican|NAME:Good. You can use the second floor loft.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script, SADRITH MORA  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded.esp->|DATA|ONAM:ery|CNAM:Publican|NAME:Yes, the second floor loft is available. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=2467420241504626206(Topic:beds)
+  tribunal.esm--------------->|DATA|ONAM:hession|NAME:Very well, the bed is yours for the day. You'll find the room on the bottom floor, at the North end of the bar.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script MOURNHOLD WINGED GUAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded.esp->|DATA|ONAM:hession|NAME:Yes, a bed in the room on the bottom floor is available. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=13139129622269431723(Topic:beds)
+  morrowind.esm-------------->|DATA|ONAM:drelasa ramothran|CNAM:Publican|NAME:Great. The bed is yours. At the end of the hall upstairs, you'll find it unlocked. Enjoy your stay in Pelagiad.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded.esp->|DATA|ONAM:shenk|CNAM:Publican|NAME:Yes, we have a room available upstairs. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=21432111501574114700(Topic:beds)
+  morrowind.esm-------------->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's all yours for the day. Down the stairs to the right.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded.esp->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:Yes, the room down the stairs to the right is available. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=25962153161759731313(Topic:beds)
+  bloodmoon.esm-------------->|DATA|ONAM:Alcedonia Amnis|CNAM:Publican|NAME:Very well. Head upstairs, to the last room on the right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script RAVEN ROCK BAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded.esp->|DATA|ONAM:Alcedonia Amnis|CNAM:Publican|NAME:Yes, a room on the top floor is available. It's the one at the end of the corridor. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=26036209202016629907(Topic:beds)
+  morrowind.esm-------------->|DATA|ONAM:benunius agrudilius|CNAM:Publican|NAME:It's all yours. Up the stairs to the left. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script BALMORA LUCKY LOCKUP  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded.esp->|DATA|ONAM:benunius agrudilius|CNAM:Publican|NAME:Yes, the room down the stairs to the right is available. How many days do you want to stay?|SCVR:03sX0rent|INTV:|BNAM:Choice, "1 day (10 septims)" 1 "5 days (45 septims)" 3 "15 days (120 septims)" 4 "30 days (210 septims)" 5 "I don't want to rent a bed right now" 2
+
+[MOD-INF]: ID=28002112342703720123(Topic:beds)
+  morrowind.esm-------------->|DATA|CNAM:Publican|NAME:Great. The bed is yours. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Improved Inns Expanded.esp->|DATA|CNAM:Publican|NAME:Great. The bed is yours. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 1

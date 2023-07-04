@@ -1,0 +1,42 @@
+Fargoth in Distress.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(lookoutScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    fargoth's hiding place
+	morrowind.esm       DIAL    ring
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    ms_fargothring
+	tribunal.esm        DIAL    ms_lookout
+
+[MOD-INF]: ID=48642221029577219(Journal:ms_lookout)
+  tribunal.esm------------>|DATA|NAME:I've decided not to help Hrisskar.|QSTF
+  Fargoth in Distress.ESP->|DATA|NAME:As Hrisskar's superior in the Imperial Legion, I commanded him to leave Fargoth alone. However, he was unwilling to obey me, as I'm an Elf. He could not tolerate someone like me commanding him around, so he attacked me. Well, that takes care of the harassment problem of Fargoth, at least.|QSTF
+
+[DUP-INF]: ID=88631762947825776(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:Excellent. Here's what I want you to do. I'm not sure where he goes, but I know he wanders around town at night. Watch his movements. The best vantage point is on top of the lighthouse south of town. That will give you a nice view of all of Seyda Neen. If you keep an eye on where he goes, I'm sure you'll be able to figure out where he's hiding that gold.|SCVR:01500|INTV|BNAM:Journal "MS_Lookout" 20
+
+[MOD-INF]: ID=107293085298027187(Journal:ms_fargothring)
+  tribunal.esm------------>|DATA|NAME:I have met a Bosmer named Fargoth who claims the Imperials have stolen a ring of his. He would like it back.
+  Fargoth in Distress.ESP->|DATA|NAME:Fargoth claims the Imperials have stolen a ring of his. He would like it back.
+
+[DUP-INF]: ID=281291800472392465(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:No? Well, I'll find someone else to do it, then.|SCVR:01500|INTV|BNAM:Journal "MS_Lookout" 30
+
+[MOD-INF]: ID=1859013980214423307(Journal:ms_lookout)
+  morrowind.esm----------->|DATA|NAME:I've agreed to help Hrisskar find the money that Fargoth has been hiding away. I am supposed to keep an eye on him from atop the lighthouse in town, and watch where he goes. Hrisskar believes I should watch him at night. I'm not supposed to approach him at any time. I should then retrace his footsteps and find out where he's hidden the money. When I've found it, I should report back to Hrisskar.
+  Fargoth in Distress.ESP->|DATA|NAME:I've agreed to help Hrisskar find the money that Fargoth has been hiding away. I am supposed to keep an eye on him from atop the lighthouse in town, and watch where he goes. Hrisskar believes I should watch him at night. I'm not supposed to approach him at any time. I should then retrace his footsteps and find out where he's hidden the money. When I've found it, I should report back to Hrisskar. Alternatively, I can warn Fargoth about Hrisskar's plot.
+
+[DUP-INF]: ID=2971935711263120030(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:I know the little fetcher's got one somewhere in town. Just not sure where yet. I've already gone through his whole house, so I know he's not hiding it there. I'd like you find out where he's stashing his gold. If you can, I'll give you a share of the wealth. Are you up for it?|SCVR:04JX0MS_Lookout|INTV:|BNAM:Journal "MS_Lookout" 10  Choice "I'll do it." 1 "No thanks." 2
+
+[MOD-INF]: ID=2995591862332012921(Topic:fargoth's hiding place)
+  morrowind.esm----------->|DATA|ONAM:fargoth|NAME:Hiding place? I don't know what you're talking about! Leave me alone.|SCVR:04JX3MS_Lookout|INTV: |BNAM:ModDisposition -10  Goodbye
+  Fargoth in Distress.ESP->|DATA|ONAM:fargoth|NAME:Hiding place? I don't know what you're talking about! Leave me alone.|SCVR:04JX0MS_Lookout|INTV|BNAM:Choice "Hrisskar tried to hire me to find your hiding place." 1 "Okay, sorry for bothering you." 2
+
+[MOD-INF]: ID=3245423813243151497(Topic:ring)
+  morrowind.esm----------->|DATA|ONAM:fargoth|NAME:You found it! Amazing! Thank you, thank you! You are now my favorite friend. I'll be sure to tell the others, especially my friend Arrille who runs the tradehouse here. Go see him, he'll be happy to see you now!|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|BNAM:Journal MS_FargothRing 100  additem "ring_keley" 1  player->removeitem "ring_keley" 1  set state to -1  moddisposition 50  "arrille"->moddisposition 40
+  Fargoth in Distress.ESP->|DATA|ONAM:fargoth|NAME:You found it! Amazing! You are truly my favourite friend %PCName. This ring is a family heirloom but I would like you to have it, it's the least I can do after you tipped me off about that bully, Hrisskar!|SCVR:01500|INTV|SCVR:15IX2ring_keley|INTV:|SCVR:24JX0MS_Lookout|INTV:2|BNAM:Journal MS_FargothRing 90  set state to -1  moddisposition 50
+
+[DUP-INF]: ID=7644117512997720799(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:I've just got to find where he's hiding his loot.|SCVR:04JX3MS_Lookout|INTV|SCVR:14JX5MS_Lookout|INTV

@@ -1,0 +1,102 @@
+Reclaim Gnisis.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(RG_ArenaScript)
+	SCPT(RG_ChangeOfGuard)
+	SCPT(RG_door_script)
+	SCPT(RG_rguard_script)
+	SCPT(RG_varusCorpseScript)
+	SCPT(RG_vatollia_script)
+	SCPT(kwamaQueenGnisis)
+	SCPT(varusVantiniusScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    barracks
+	morrowind.esm       DIAL    bologra
+	morrowind.esm       DIAL    darius
+	morrowind.esm       DIAL    duel
+	morrowind.esm       DIAL    eggmine
+	morrowind.esm       DIAL    fort darius
+	morrowind.esm       DIAL    gnisis
+	morrowind.esm       DIAL    join the imperial legion
+	morrowind.esm       DIAL    land deed
+	morrowind.esm       DIAL    lugrub gro-ogdum
+	morrowind.esm       DIAL    optio bologra
+	morrowind.esm       DIAL    varus vantinius
+	morrowind.esm       DIAL    widow vabdas
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+
+[MOD-INF]: ID=2173453091911826(Topic:darius)
+  morrowind.esm------>|DATA|ONAM:widow vabdas|NAME:Darius is one who wants my husband's land.
+  Reclaim Gnisis.ESP->|DATA|ONAM:widow vabdas|NAME:Darius is one who wants my husband's land.|SCVR:04JX4RG_Reclamation|INTV:d
+
+[MOD-INF]: ID=2574926278104883(Topic:widow vabdas)
+  morrowind.esm------>|DATA|ANAM:Gnisis|NAME:She lives in her hut, just outside the village to the west, along the river. Her husband died recently in the eggmine. It's a shame.|SCVR:04JX5IL_WidowLand|INTV:d|SCVR:17XX0widow vabdas|INTV|SCVR:27XX0shullay vabdas|INTV|SCVR:3CsX0NoLore|INTV:
+  Reclaim Gnisis.ESP->|DATA|ANAM:Gnisis|NAME:She lives in her hut, just outside the village to the west, along the river. Her husband died recently in the eggmine. It's a shame.|SCVR:04JX5IL_WidowLand|INTV:d|SCVR:17XX0widow vabdas|INTV|SCVR:27XX0shullay vabdas|INTV|SCVR:3CsX0NoLore|INTV:|SCVR:44JX4RG_Vabdas|INTV:d
+
+[MOD-INF]: ID=58965886207931905(Topic:fort darius)
+  morrowind.esm------>|DATA|ANAM:Gnisis, Fort Darius|NAME:This is Fort Darius.
+  Reclaim Gnisis.ESP->|DATA|ANAM:Gnisis, Fort Darius|NAME:This is Fort Darius.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=89226864240469501(Topic:darius)
+  morrowind.esm------>|DATA|FNAM:Imperial Legion|ANAM:Gnisis|NAME:Darius is our Imperial Legion Commander here in the Deathshead Legion Garrison. You can find him downstairs at the Madach Tradehouse.|SCVR:0CsX0NoLore|INTV:
+  Reclaim Gnisis.ESP->|DATA|FNAM:Imperial Legion|ANAM:Gnisis|NAME:Darius is our Imperial Legion Commander here in the Deathshead Legion Garrison. You can find him downstairs at the Madach Tradehouse.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX4RG_Reclamation|INTV:d
+
+[MOD-INF]: ID=99882645159588640(Topic:little advice)
+  tribunal.esm------->|DATA|ANAM:Gnisis|NAME:If you're looking for work, you might consider the Deathshead Legion. This is not a very popular posting, and there might be openings. Check with General Darius.|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Gnisis;  random100 <= 80;
+  Reclaim Gnisis.ESP->|DATA|ANAM:Gnisis|NAME:If you're looking for work, you might consider the Deathshead Legion. This is not a very popular posting, and there might be openings. Check with General Darius.|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:34JX4RG_Reclamation|INTV:d|SCVR:48FX0Redoran|INTV|BNAM:;Gnisis;  random100 <= 80;
+
+[MOD-INF]: ID=100492979914133816(Topic:darius)
+  morrowind.esm------>|DATA|ONAM:chaplain ogrul|NAME:Darius is the Commandant of the Deathshead Legion Garrison here. It's no picnic keeping the peace between the human and orc troopers, but it's a tribute to his reputation and leadership that he keeps the garrison morale up and the unit up to strength.|BNAM:;Gnisis;
+  Reclaim Gnisis.ESP->|DATA|ONAM:chaplain ogrul|NAME:Darius is the Commandant of the Deathshead Legion Garrison here. It's no picnic keeping the peace between the human and orc troopers, but it's a tribute to his reputation and leadership that he keeps the garrison morale up and the unit up to strength.|SCVR:04JX4RG_Reclamation|INTV:d|SCVR:16DX0general darius|INTV:|BNAM:;Gnisis;
+
+[MOD-INF]: ID=105063252452481482(Topic:join the imperial legion)
+  morrowind.esm------>|DATA|FNAM:Imperial Legion|ANAM:Gnisis|NAME:We could use a few recruits here in the Deathshead Legion garrison. See General Darius.|SCVR:01460|INTV:
+  Reclaim Gnisis.ESP->|DATA|FNAM:Imperial Legion|ANAM:Gnisis|NAME:We could use a few recruits here in the Deathshead Legion garrison. See General Darius.|SCVR:01460|INTV:|SCVR:14JX4RG_Reclamation|INTV:P
+
+[MOD-INF]: ID=200463541159597361(Topic:join the imperial legion)
+  morrowind.esm------>|DATA|ONAM:general darius|NAME:Son, you got what we need here at the Imperial Legion. Do want to join? Or do you want to hear what we're all about?|SCVR:01020|INTV|SCVR:11460|INTV:|BNAM:Choice "Sign me up, sir!" 1 "Tell me about the Imperial Legion, sir." 2
+  Reclaim Gnisis.ESP->|DATA|ONAM:general darius|NAME:Son, you got what we need here at the Imperial Legion. Do want to join? Or do you want to hear what we're all about?|SCVR:01020|INTV|SCVR:11460|INTV:|SCVR:24JX0RG_Vabdas|INTV:|BNAM:Choice "Sign me up, sir!" 1 "Tell me about the Imperial Legion, sir." 2
+
+[MOD-INF]: ID=212672410327117325(Topic:optio bologra)
+  morrowind.esm------>|DATA|ANAM:Gnisis, Barracks|NAME:Here's here somewhere, check around.
+  Reclaim Gnisis.ESP->|DATA|ANAM:Gnisis, Barracks|NAME:Here's here somewhere, check around.|SCVR:04JX4RG_Reclamation|INTV:d|SCVR:16DX0optio bologra|INTV:
+
+[MOD-INF]: ID=264673893262618576(Topic:bologra)
+  morrowind.esm------>|DATA|ANAM:Gnisis|NAME:Optio Bologra is the Camp Prefect of the Deathshead Legion Garrison at Gnisis. He's a tough and violent orc, not clever or polished, but nonetheless an effective and respected officer.|SCVR:0CsX0NoLore|INTV:
+  Reclaim Gnisis.ESP->|DATA|ANAM:Gnisis|NAME:Optio Bologra is the Camp Prefect of the Deathshead Legion Garrison at Gnisis. He's a tough and violent orc, not clever or polished, but nonetheless an effective and respected officer.|SCVR:0CsX0NoLore|INTV:|SCVR:16DX0optio bologra|INTV:|SCVR:24JX4RG_Reclamation|INTV:d
+
+[MOD-INF]: ID=472211891932115424(Topic:join the imperial legion)
+  morrowind.esm------>|DATA|ONAM:general darius|NAME:Young lady, you got what we need here at the Imperial Legion. Do want to join? Or do you want to hear what we're all about?|SCVR:01020|INTV|SCVR:11460|INTV:|SCVR:21380|INTV|BNAM:Choice "Sign me up, sir!" 1 "Tell me about the Imperial Legion, sir." 2
+  Reclaim Gnisis.ESP->|DATA|ONAM:general darius|NAME:Young lady, you got what we need here at the Imperial Legion. Do want to join? Or do you want to hear what we're all about?|SCVR:01020|INTV|SCVR:11460|INTV:|SCVR:21380|INTV|SCVR:34JX0RG_Vabdas|INTV:|BNAM:Choice "Sign me up, sir!" 1 "Tell me about the Imperial Legion, sir." 2
+
+[MOD-INF]: ID=840468963001823562(Topic:services)
+  morrowind.esm------>|DATA|ANAM:Gnisis|NAME:In the center of the village, try the merchants outside the Temple, or see Mehra Drora at the Temple for Temple services. Get Imperial Legions and Imperial cult services at Fort Darius east of the village. Madach is the publican at Madach's Tradehouse here in the village.|SCVR:07XX0fenas madach|INTV|INTV|SCVR:2CsX0nolore|INTV:|SCVR:37XX0mehra drora|INTV|BNAM:;Gnisis;
+  Reclaim Gnisis.ESP->|DATA|ANAM:Gnisis|NAME:In the center of the village, try the merchants outside the Temple, or see Mehra Drora at the Temple for Temple services. Get Imperial Legions and Imperial cult services at Fort Darius east of the village. Madach is the publican at Madach's Tradehouse here in the village.|SCVR:07XX0fenas madach|INTV|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:37XX0mehra drora|INTV|BNAM:;Gnisis;
+
+[MOD-INF]: ID=920322872619313117(Topic:darius)
+  morrowind.esm------>|DATA|ONAM:baladas demnevanni|NAME:He plays his role in town, and best keep his hands out of my business.
+  Reclaim Gnisis.ESP->|DATA|ONAM:baladas demnevanni|NAME:He plays his role in town, and best keep his hands out of my business.|SCVR:04JX4RG_Reclamation|INTV:d
+
+[MOD-INF]: ID=2620725754374517403(Topic:widow vabdas)
+  morrowind.esm------>|DATA|FNAM:Imperial Legion|ANAM:Gnisis|NAME:Her land is prime for our expansion plans here.|SCVR:04JX5IL_WidowLand|INTV:F
+  Reclaim Gnisis.ESP->|DATA|FNAM:Imperial Legion|ANAM:Gnisis|NAME:Her land is prime for our expansion plans here.|SCVR:04JX5IL_WidowLand|INTV:F|SCVR:14JX4RG_Vabdas|INTV:2
+
+[MOD-INF]: ID=16120119102497229078(Topic:darius)
+  morrowind.esm------>|DATA|ANAM:Gnisis|NAME:Darius is the Commandant of the Deathshead Legion Garrison here. It can't be easy keeping the peace between his human and orc troopers, but his men all speak well of him.|SCVR:0CsX0NoLore|INTV:|BNAM:;Gnisis;
+  Reclaim Gnisis.ESP->|DATA|ANAM:Gnisis|NAME:Darius is the Commandant of the Deathshead Legion Garrison here. It can't be easy keeping the peace between his human and orc troopers, but his men all speak well of him.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX4RG_Reclamation|INTV:d|SCVR:26DX0general darius|INTV:|BNAM:;Gnisis;
+
+[MOD-INF]: ID=16341172421567514744(Topic:optio bologra)
+  morrowind.esm------>|DATA|ANAM:Gnisis|NAME:Optio Bologra is the Camp Prefect of the Deathshead Legion garrison at Fort Darius. He's a tough and violent orc, not clever or polished, but nonetheless an effective and respected officer.|SCVR:0CsX0NoLore|INTV:|BNAM:;Gnisis;
+  Reclaim Gnisis.ESP->|DATA|ANAM:Gnisis|NAME:Optio Bologra is the Camp Prefect of the Deathshead Legion garrison at Fort Darius. He's a tough and violent orc, not clever or polished, but nonetheless an effective and respected officer.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX4RG_Reclamation|INTV:d|SCVR:26DX0optio bologra|INTV:|BNAM:;Gnisis;
+
+[MOD-INF]: ID=16433107231225512446(Topic:darius)
+  morrowind.esm------>|DATA|ANAM:Gnisis, Madach Tradehouse|NAME:He's here, check his office on the lower level.
+  Reclaim Gnisis.ESP->|DATA|ANAM:Gnisis, Madach Tradehouse|NAME:He's here, check his office on the lower level.|SCVR:04JX4RG_Reclamation|INTV:d|SCVR:1CsX0NoLore|INTV:

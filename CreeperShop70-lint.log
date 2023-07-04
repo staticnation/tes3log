@@ -1,0 +1,94 @@
+CreeperShop70.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(scampScript)
+	SCPT(scampScript2)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       STAT    furn_de_rug_big_01
+	bloodmoon.esm       STAT    furn_rug_bearskin
+	morrowind.esm       ACTI    active_com_bed_06
+	morrowind.esm       DOOR    in_c_door_arched
+	morrowind.esm       LIGH    light_com_rm_chandelier_05_l_02
+	morrowind.esm       MISC    misc_com_metal_plate_07_uni2
+	morrowind.esm       MISC    misc_uni_pillow_02
+	morrowind.esm       STAT    furn_com_rm_bar_01
+	morrowind.esm       STAT    furn_com_rm_bar_02
+	morrowind.esm       STAT    furn_com_rm_table_04
+	morrowind.esm       STAT    furn_com_rm_winerack
+	morrowind.esm       STAT    furn_de_p_table_02
+	morrowind.esm       STAT    in_c_djamb_rp_arched
+	morrowind.esm       STAT    in_c_pillar_wood
+	morrowind.esm       STAT    in_c_plain_hall_small
+	tribunal.esm        MISC    misc_soulgem_greater
+	tribunal.esm        MISC    misc_uni_pillow_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       CONT    chest_small_02
+	morrowind.esm       CONT    com_chest_02
+	morrowind.esm       CONT    de_r_chest_01
+	morrowind.esm       CREA    dremora
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       LIGH    light_com_candle_06_64
+	morrowind.esm       LIGH    light_de_buglamp_01_64
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=28917555772703520(Greeting:greeting 1)
+  tribunal.esm------>|DATA|ONAM:scamp_creeper|NAME:I'm creeping!|SCVR:03sX0scampGreet|INTV:|BNAM:set scampGreet to 1
+  CreeperShop70.ESP->|DATA|ONAM|RP_Creeper|NAME:I'm creeping!|SCVR:03sX0scampGreet|INTV:|BNAM:set scampGreet to 1
+
+[MOD-INF]: ID=28917555772703520(Greeting:greeting 1)
+  tribunal.esm------>|DATA|ONAM:scamp_creeper|NAME:I'm creeping!|SCVR:03sX0scampGreet|INTV:|BNAM:set scampGreet to 1
+  CreeperShop70.ESP->|DATA|ONAM|RP_Creeper|NAME:I'm creeping!|SCVR:03sX0scampGreet|INTV:|BNAM:set scampGreet to 1
+[MOD-IID]: ID=323694430268276056(Persuasion:intimidate success),ID=294984262364214840(Persuasion:intimidate fail),ID=854231206977513852(Persuasion:admire success),ID=7218326462135730966(Persuasion:taunt success),ID=903125087266422984(Persuasion:bribe success),ID=15472296701781513348(Persuasion:admire fail),ID=65802757411319241(Persuasion:taunt fail),ID=27141285711226022479(Persuasion:bribe fail)
+  CreeperShop70.ESP->I'm creeping!
+
+[DUP-INF]: ID=137637342899629067(Persuasion:service refusal)
+  |DATA|ONAM:vevrana aryon|NAME:I'm sorry. There must be some mistake. I'm not a gondolier or shipmaster.|SCVR:04JX4A2_4_Milo_hola_go|INTV
+
+[DUP-INF]: ID=276419872484132471(Persuasion:admire fail)
+  |DATA|ONAM:ghost_npc_conoon chodal|NAME:Honor the ancestors with your heart, not with your tongue.
+
+[DUP-INF]: ID=501815288981727742(Persuasion:admire success)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:You do right to honor the ancestors.
+
+[MOD-INF]: ID=607429923049712334(Greeting:greeting 1)
+  tribunal.esm------>|DATA|ONAM:scamp_creeper|NAME:Don't want to work. Just want to bang on my drum. What's a scamp gotta do?|SCVR:03sX0scampGreet|INTV|BNAM:set scampGreet to 5
+  CreeperShop70.ESP->|DATA|ONAM|RP_Creeper|NAME:Don't want to work. Just want to bang on my drum. What's a scamp gotta do?|SCVR:03sX0scampGreet|INTV|BNAM:set scampGreet to 5
+
+[DUP-INF]: ID=1458830178786919518(Persuasion:bribe success)
+  |DATA|ONAM:Canctunian Ponius|NAME:Yes, money. Exactly what I wanted. How did you know?
+
+[DUP-INF]: ID=1480267592607815175(Persuasion:taunt success)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:Indeed, mortal, death is bitter. But your time will come.
+
+[DUP-INF]: ID=1622325503221994258(Persuasion:bribe fail)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:What use does a spirit have for gold?
+
+[MOD-INF]: ID=1668323452757422362(Greeting:greeting 1)
+  tribunal.esm------>|DATA|ONAM:scamp_creeper|NAME:Help me out. I need the money.|SCVR:03sX0scampGreet|INTV|BNAM:set scampGreet to 3
+  CreeperShop70.ESP->|DATA|ONAM|RP_Creeper|NAME:Help me out. I need the money.|SCVR:03sX0scampGreet|INTV|BNAM:set scampGreet to 3
+
+[DUP-INF]: ID=2267528022103868317(Persuasion:intimidate success)
+  |DATA|ONAM:cunius pelelius|NAME:Alright, alright. I'll tell you this because I trust you. Take this key. There's a record book in Odral's Helvi chest on the second floor. Stendar have mercy on me if anyone finds out about this.|SCVR:03sX0givenKey|INTV:|SCVR:34JX3HR_CalderaCorrupt|INTV: |BNAM:Player->AddItem key_odral_helvi 1  Set givenKey to 1  Journal HR_CalderaCorrupt 30
+
+[MOD-INF]: ID=15673154051389328693(Greeting:greeting 1)
+  tribunal.esm------>|DATA|ONAM:scamp_creeper|NAME:Hello Caldera!!! I'm here all week!|SCVR:03sX0scampGreet|INTV|BNAM:set scampGreet to 2
+  CreeperShop70.ESP->|DATA|ONAM|RP_Creeper|NAME:Hello Caldera!!! I'm here all week!|SCVR:03sX0scampGreet|INTV|BNAM:set scampGreet to 2
+
+[DUP-INF]: ID=17146179082337728636(Persuasion:intimidate fail)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:Speak with disrespect to the spirits, and you will regret it.
+
+[DUP-INF]: ID=22191182021337625003(Persuasion:taunt fail)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:Only the winds of death blow from the lips of mortals.
+
+[MOD-INF]: ID=29332313271766418503(Greeting:greeting 1)
+  tribunal.esm------>|DATA|ONAM:scamp_creeper|NAME:C'mon...help a scamp out. You gotta need something. I've got booze....|SCVR:03sX0scampGreet|INTV|BNAM:set scampGreet to 4
+  CreeperShop70.ESP->|DATA|ONAM|RP_Creeper|NAME:C'mon...help a scamp out. You gotta need something. I've got booze....|SCVR:03sX0scampGreet|INTV|BNAM:set scampGreet to 4

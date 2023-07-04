@@ -1,0 +1,37 @@
+Less Shunned Vampires.esp: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    greeting 2
+
+[MOD-INF]: ID=30413105531090563(Greeting:greeting 2)
+  morrowind.esm------------->|DATA|RNAM:Dark Elf|CNAM:Sorcerer|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave my sight, unholy beast!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  ModFight 50  Goodbye
+  Less Shunned Vampires.esp->|DATA|RNAM:Dark Elf|CNAM:Sorcerer|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave my sight, unholy beast!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  ModDisposition -50
+
+[MOD-INF]: ID=127216720183781120(Greeting:greeting 2)
+  morrowind.esm------------->|DATA|RNAM:Dark Elf|CNAM:Mage|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave here, monster!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  ModFight 50  Goodbye
+  Less Shunned Vampires.esp->|DATA|RNAM:Dark Elf|CNAM:Mage|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave here, monster!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  ModDisposition -50
+
+[MOD-INF]: ID=263042661832839078(Greeting:greeting 2)
+  morrowind.esm------------->|DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+  Less Shunned Vampires.esp->|DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire;   ModDisposition -50
+
+[MOD-INF]: ID=578128438312667949(Greeting:greeting 2)
+  morrowind.esm------------->|DATA|RNAM:Dark Elf|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Return to the foul corruption from which you came! Die, fiend!|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default DUNMER;PC Vampire  StartCombat Player  Goodbye
+  Less Shunned Vampires.esp->|DATA|RNAM:Dark Elf|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Return to the foul corruption from which you came!|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default DUNMER;PC Vampire  ModDisposition -50
+
+[MOD-INF]: ID=1795200281150517311(Persuasion:service refusal)
+  morrowind.esm------------->|DATA|FNAM:Mages Guild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+  Less Shunned Vampires.esp->|DATA|ONAM:a shady smuggler|FNAM:Mages Guild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+
+[MOD-INF]: ID=7643304071333010596(Persuasion:service refusal)
+  morrowind.esm------------->|DATA|FNAM:Telvanni|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+  Less Shunned Vampires.esp->|DATA|ONAM:a shady smuggler|FNAM:Telvanni|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+
+[MOD-INF]: ID=11657146863060720256(Greeting:greeting 2)
+  morrowind.esm------------->|DATA|RNAM:Dark Elf|NAME:No! A vampire! Get away, you foul creature!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+  Less Shunned Vampires.esp->|DATA|RNAM:Dark Elf|NAME:No! A vampire! Get away, you foul creature!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire;   ModDisposition -50
+
+[MOD-INF]: ID=22154188692129820500(Greeting:greeting 2)
+  morrowind.esm------------->|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   ModFight 50  Goodbye
+  Less Shunned Vampires.esp->|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   ModDisposition -50

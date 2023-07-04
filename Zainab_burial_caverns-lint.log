@@ -1,0 +1,12 @@
+Zainab_burial_caverns.esp: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(script_zainab_burial_ambusher)
+	SCPT(script_zainab_burial_detect)
+	SCPT(script_zainab_burial_nidros)
+	SCPT(script_zainab_burial_ralan)
+	SCPT(script_zainab_burial_trap)
+	SCPT(script_zainab_burial_trapdoor)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    sixth house base
+	tribunal.esm        DIAL    greeting 1

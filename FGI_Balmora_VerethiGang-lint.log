@@ -1,0 +1,70 @@
+FGI_Balmora_VerethiGang.esp: DUP-REC MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FGI_OdibaalGangScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    verethi gang
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    fg_verethigang
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=591790924681500(Greeting:greeting 5)
+  morrowind.esm--------------->|DATA|ONAM:eydis fire-eye|NAME:Tell me what is happening with that Verethi gang. I'll assume you've taken care of it?|SCVR:04JX3FG_VerethiGang|INTV: |SCVR:14JX4FG_VerethiGang|INTV:d
+  FGI_Balmora_VerethiGang.esp->|DATA|ONAM:eydis fire-eye|NAME:Ilmiril's storage has been occupied by bandits. What have you done about the situation?|SCVR:04JX3FG_VerethiGang|INTV: |SCVR:14JX4FG_VerethiGang|INTV:d
+
+[MOD-INF]: ID=7704965455886442(Topic:verethi gang)
+  morrowind.esm--------------->|DATA|ONAM:eydis fire-eye|NAME:Good work, %PCName. Here's the 1000 septims from the contract.|SCVR:34JX3FG_VerethiGang|INTV: |SCVR:56DX3Dovres Verethi|INTV|BNAM:Journal FG_VerethiGang 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+  FGI_Balmora_VerethiGang.esp->|DATA|ONAM:eydis fire-eye|NAME:Good work, %PCName. Here's the 1000 septims from the contract.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_VerethiGang|INTV: |SCVR:56DX3Dovres Verethi|INTV|BNAM:Journal FG_VerethiGang 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=14760934222272524(Journal:fg_verethigang)
+  tribunal.esm---------------->|DATA|NAME:Eydis Fire-Eye paid me 1,000 gold for putting the Verethi Gang out of business.|QSTF
+  FGI_Balmora_VerethiGang.esp->|DATA|NAME:Eydis Fire-Eye rewarded me with 1000 gold for protecting Ilmiril's storage.|QSTF
+
+[MOD-INF]: ID=250852298875311231(Journal:fg_verethigang)
+  tribunal.esm---------------->|DATA|NAME:Fighters Guild: The Verethi Gang|QSTN
+  FGI_Balmora_VerethiGang.esp->|DATA|NAME:Fighters Guild: Protect Ilmiril's Storage|QSTN
+
+[MOD-INF]: ID=252352462923707053(Topic:verethi gang)
+  morrowind.esm--------------->|DATA|ONAM:eydis fire-eye|NAME:Our client wants the leader of the Verethi Gang, Dovres Verethi, killed. The Verethi Gang are smugglers based in Mannammu just southeast of Pelagiad. Kill Dovres Verethi and report back to me for 1000 septims.|BNAM:Journal FG_VerethiGang 10
+  FGI_Balmora_VerethiGang.esp->|DATA|ONAM:eydis fire-eye|NAME:Our client wants the leader of the Verethi Gang, Dovres Verethi, killed. The Verethi Gang are smugglers based in Mannammu just southeast of Pelagiad. Kill Dovres Verethi and report back to me for 1000 septims.|SCVR:54JX0FGI_DialogueKiller|INTV|BNAM:Journal FG_VerethiGang 10
+
+[MOD-INF]: ID=264121051861631065(Topic:verethi gang)
+  morrowind.esm--------------->|DATA|ONAM:eydis fire-eye|NAME:If you already killed Dovres Verethi, then I guess I ought to go ahead and pay you the 1000 septims.|SCVR:34JX0FG_VerethiGang|INTV:|SCVR:56DX3Dovres Verethi|INTV|BNAM:Journal FG_VerethiGang 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+  FGI_Balmora_VerethiGang.esp->|DATA|ONAM:eydis fire-eye|NAME:If you already killed Dovres Verethi, then I guess I ought to go ahead and pay you the 1000 septims.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX0FG_VerethiGang|INTV:|SCVR:56DX3Dovres Verethi|INTV|BNAM:Journal FG_VerethiGang 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=302195394851030199(Topic:orders)
+  morrowind.esm--------------->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:A distinguished client has placed a contract on the Verethi Gang.|SCVR:34JX3FG_AlofsFarm|INTV:d
+  FGI_Balmora_VerethiGang.esp->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:A merchant called Ilmiril hired the Fighters Guild to protect his wares. According to Ilmiril, his storage has been occupied by bandits.|SCVR:34JX3FG_AlofsFarm|INTV:d
+
+[MOD-INF]: ID=797113916579313302(Topic:verethi gang)
+  morrowind.esm--------------->|DATA|ANAM:Pelagiad|NAME:I've heard of them. They're holed up in Mannammu. Go south out of town, and a bit to the east. You'll see a little landbridge across the water. Leads right to it. Take care in there, though. There are six or seven of those fetchers, and they don't take kindly to visitors.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX3FG_VerethiGang|INTV: 
+  FGI_Balmora_VerethiGang.esp->|DATA|ANAM:Pelagiad|NAME:I've heard of them. They're holed up in Mannammu. Go south out of town, and a bit to the east. You'll see a little landbridge across the water. Leads right to it. Take care in there, though. There are six or seven of those fetchers, and they don't take kindly to visitors.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX3FG_VerethiGang|INTV: |SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=1897317817223277803(Topic:verethi gang)
+  morrowind.esm--------------->|DATA|ONAM:eydis fire-eye|NAME:You've been expelled from the Fighters Guild. Until you make amends, I cannot discuss contracts with you.|SCVR:01390|INTV
+  FGI_Balmora_VerethiGang.esp->|DATA|ONAM:eydis fire-eye|NAME:You've been expelled from the Fighters Guild. Until you make amends, I cannot discuss contracts with you.|SCVR:01390|INTV|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=1897317817223277803(Topic:verethi gang)
+  morrowind.esm--------------->|DATA|ONAM:eydis fire-eye|NAME:You've been expelled from the Fighters Guild. Until you make amends, I cannot discuss contracts with you.|SCVR:01390|INTV
+  FGI_Balmora_VerethiGang.esp->|DATA|ONAM:eydis fire-eye|NAME:You've been expelled from the Fighters Guild. Until you make amends, I cannot discuss contracts with you.|SCVR:01390|INTV|SCVR:54JX0FGI_DialogueKiller|INTV
+[MOD-IID]: ID=220485705908193(Topic:occupied by bandits),ID=22095224902365530289(Topic:odibaal)
+  FGI_Balmora_VerethiGang.esp->You've been expelled from the Fighters Guild. Until you make amends, I cannot discuss contracts with you.
+
+[MOD-INF]: ID=2331648982901920427(Topic:verethi gang)
+  morrowind.esm--------------->|DATA|ONAM:eydis fire-eye|NAME:The Verethi Gang won't trouble anyone anymore.|SCVR:34JX3FG_VerethiGang|INTV:d
+  FGI_Balmora_VerethiGang.esp->|DATA|ONAM:eydis fire-eye|NAME:The Verethi Gang won't trouble anyone anymore.|SCVR:34JX3FG_VerethiGang|INTV:d|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=3211954743028115006(Journal:fg_verethigang)
+  tribunal.esm---------------->|DATA|NAME:Eydis Fire-Eye asked me to kill the smuggler Dovres Verethi, the head of the Verethi Gang. They are based in Mannammu just southeast of Pelagiad.
+  FGI_Balmora_VerethiGang.esp->|DATA|NAME:Eydis Fire-Eye told me that a merchant called Ilmiril asked the Fighters Guild to protect his storage which was occupied by bandits. I am ordered to travel to Odibaal and kill five bandits led by Tedras Salaren.
+
+[MOD-INF]: ID=8888286971918311942(Topic:verethi gang)
+  morrowind.esm--------------->|DATA|ANAM:Pelagiad|NAME:I'm not sure I want to talk to you about that.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX3FG_VerethiGang|INTV: 
+  FGI_Balmora_VerethiGang.esp->|DATA|ANAM:Pelagiad|NAME:I'm not sure I want to talk to you about that.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX3FG_VerethiGang|INTV: |SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=20854270293064228509(Topic:verethi gang)
+  morrowind.esm--------------->|DATA|ANAM:Pelagiad|NAME:I know who you're talking about. Look in Mannammu.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX3FG_VerethiGang|INTV: 
+  FGI_Balmora_VerethiGang.esp->|DATA|ANAM:Pelagiad|NAME:I know who you're talking about. Look in Mannammu.|SCVR:0CsX0NoLore|INTV:|SCVR:34JX3FG_VerethiGang|INTV: |SCVR:54JX0FGI_DialogueKiller|INTV

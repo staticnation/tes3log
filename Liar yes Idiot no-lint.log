@@ -1,0 +1,28 @@
+Liar yes Idiot no.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(aa_partnerCombat)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    cliff racer
+	morrowind.esm       DIAL    mudcrab
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    slaughterfish
+	morrowind.esm       NPC_    m'aiq
+	morrowind.esm       PGRD    sheogorad region
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=74403372411350(Topic:mudcrab)
+  |DATA|ONAM:Briring|NAME
+
+[MOD-INF]: ID=253141488988930304(Greeting:greeting 1)
+  tribunal.esm---------->|DATA|ONAM:m'aiq|NAME:Greetings! M'Aiq knows many things. What is your interest? You seek knowledge. M'Aiq has much. Some of it verified by actual facts!|BNAM:AddTopic "nudity"  AddTopic "becoming a lich"  AddTopic "naked liches"  AddTopic "rope climbing"  AddTopic "dragons"  AddTopic "horses"  AddTopic "mounts"  AddTopic "multiplayer"  AddTopic "Shrine of Boethiah"  AddTopic "moving corpses"  AddTopic "Mystery of the Dwarves"  AddTopic "weresharks"  AddTopic "talking mudcrab merchant"
+  Liar yes Idiot no.ESP->|DATA|ONAM:m'aiq|NAME:Greetings! M'Aiq knows many things. What is your interest? You seek knowledge. M'Aiq has much. Some of it verified by actual facts!|BNAM:AddTopic "nudity"  AddTopic "becoming a lich"  AddTopic "naked liches"  AddTopic "rope climbing"  AddTopic "dragons"  AddTopic "horses"  AddTopic "mounts"  AddTopic "multiplayer"  AddTopic "Shrine of Boethiah"  AddTopic "moving corpses"  AddTopic "Mystery of the Dwarves"  AddTopic "weresharks"  AddTopic "talking mudcrab merchant"  AddTopic "Scourge"  AddTopic "Chuck"  AddTopic "slaughterfish"  AddTopic "not an idiot"  AddTopic "tent"  AddTopic "mudcrab"  AddTopic "cliff racer"  AddTopic "boat"  AddTopic "Skoomaesthesia"
+
+[DUP-INF]: ID=256681892893712889(Topic:skooma)
+  |DATA|CNAM:Publican|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, I want nothing to do with it.|BNAM:;publican; trader;
+
+[DUP-INF]: ID=1236139141137818777(Topic:cliff racer)
+  |DATA|ONAM:Briring|NAME
+
+[DUP-INF]: ID=16445179822972022294(Topic:slaughterfish)
+  |DATA|ONAM:Briring|NAME

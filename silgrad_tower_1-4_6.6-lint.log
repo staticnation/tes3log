@@ -1,0 +1,945 @@
+silgrad_tower_1-4_6.6.esp: AUTOSPL DUP-INF DUP-REC FOGBUG GETSND JUNKCEL MENUMOD MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	sltw_ship_npc_19_cham          Assassin Shield
+	sltw_rw_ferryspell             Slowfall 100
+	sltw_ship_npc_19_shield        Assassin Shield
+	sltw_hand_of_elissiya          Hand of Elissiya
+	sltw_rw_trap_chillbitestrong   Strong Chillbite
+	sltw_rw_abaddon1_sp            Abaddon's Recharging Fireball
+	sltw_rw_trap_wrath             Wrath of Sakatosh
+	sltw_bb_deathdoor              Deaths Door
+    [FOGBUG]: Cells with zero fog density setting:
+	Evenshore, Darius Grondir's House
+	Jarnhald Mountains, Wolfhand Home
+	Saunt Egg Mine, Queen's Lair
+	Silgrad Tower, Public Bath
+	Silgrad Tower, Temple
+	Silgrad Tower, Temple, Office
+	Silgrad Tower, Westelys' House
+	Silgrad Tower, Witchhunter Service
+	Silgrad Tower, d'Arnise Manor
+	Silgrad Tower, d'Arnise Manor, Vault
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(1MH_WSeraph_Trans_script)
+	SCPT(sltw_ea_jafarScript)
+	SCPT(sltw_zxangsndscript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BankCollecter)
+	SCPT(BankCollecterMage)
+	SCPT(BankDepositAll)
+	SCPT(BankLetter10)
+	SCPT(BankLetter100)
+	SCPT(BankLetter100Remove)
+	SCPT(BankLetter10Remove)
+	SCPT(BankLetter20)
+	SCPT(BankLetter20Remove)
+	SCPT(BankLetter50)
+	SCPT(BankLetter50Remove)
+	SCPT(BankLoanShark)
+	SCPT(BankMembership)
+	SCPT(BankWithdrawAll)
+	SCPT(ConcealRobe)
+	SCPT(HJ_Captaingreet;)
+	SCPT(HJ_doornight;)
+	SCPT(HJ_doorscript;)
+	SCPT(HJ_lockdoor)
+	SCPT(HJ_spar)
+	SCPT(MYS_BL_RzamoreAltienScript)
+	SCPT(MYS_BL_Shipmaster1Script)
+	SCPT(MYS_BL_SkoomaQuest3Script)
+	SCPT(MYS_BL_VV_MadarCassethScript)
+	SCPT(MYS_DarkGuard_Script)
+	SCPT(MYS_Pub_BlackLight_Blue)
+	SCPT(MYS_Pub_BlackLight_Haunted)
+	SCPT(MYS_Pub_BlackLight_Howling)
+	SCPT(MYS_Pub_BlackLight_Red)
+	SCPT(MYS_Pub_BlackLight_Rusty)
+	SCPT(MYS_Pub_Cormaris_Dragon)
+	SCPT(PCJail)
+	SCPT(Pub_Crossroads_Inn_sltw)
+	SCPT(Pub_Laebryllas_Inn_sltw)
+	SCPT(Pub_Raven_sltw)
+	SCPT(Pub_Valenwood_Cliffracer)
+	SCPT(R_doorscript)
+	SCPT(SLTW_BVRugTrap)
+	SCPT(SilgradUniform)
+	SCPT(Sound_Bubbling)
+	SCPT(Sound_MillSaw_Script)
+	SCPT(Sound_MillStone_Script)
+	SCPT(Sound_MillWind_Script)
+	SCPT(Sound_heart)
+	SCPT(Swamp_1)
+	SCPT(Swamp_2)
+	SCPT(Swamp_3)
+	SCPT(blBetaDoorLockScript)
+	SCPT(blDoorGreet1Script)
+	SCPT(blDoorGreet2Script)
+	SCPT(blDoorGreet3Script)
+	SCPT(blEndassartalpiLockScript)
+	SCPT(blPalaceOuterDoorScript)
+	SCPT(blQues1DoorScript)
+	SCPT(blQues3WarehouseDoorKey)
+	SCPT(blQuesAmrukDoorScript)
+	SCPT(blSkoomaQues3DoorScript)
+	SCPT(blgapScript)
+	SCPT(feuersound)
+	SCPT(mine1)
+	SCPT(mine2)
+	SCPT(mineglass)
+	SCPT(mineglass2)
+	SCPT(minescript)
+	SCPT(mm_za_lights_random)
+	SCPT(mm_za_lightscript)
+	SCPT(mod_largecave)
+	SCPT(muriels)
+	SCPT(mys_AlitaScript)
+	SCPT(mys_ArquetteScript)
+	SCPT(mys_BL_TheBrewerScript)
+	SCPT(mys_BL_UT_skoomaledgerscript)
+	SCPT(mys_bl_storedoor_script)
+	SCPT(script_rotate)
+	SCPT(script_sltw_rg_sound_magicwell)
+	SCPT(skipded)
+	SCPT(sltw_BankInterest)
+	SCPT(sltw_BankStartInterest)
+	SCPT(sltw_CO_TravelServiceDoor)
+	SCPT(sltw_DoOnce)
+	SCPT(sltw_Elissiya_script)
+	SCPT(sltw_KA_balakScript)
+	SCPT(sltw_KA_borScript)
+	SCPT(sltw_KA_catubScript)
+	SCPT(sltw_KA_demondoorScript)
+	SCPT(sltw_KA_deusControlScript)
+	SCPT(sltw_KA_durzogdemonScript)
+	SCPT(sltw_KA_durzogdiaryScript)
+	SCPT(sltw_KA_durzogdoor1Script)
+	SCPT(sltw_KA_durzogdoor2Script)
+	SCPT(sltw_KA_goblinghostScript)
+	SCPT(sltw_KA_jagarpyrodemonScript)
+	SCPT(sltw_KA_karindrefight)
+	SCPT(sltw_KA_orctalonquest)
+	SCPT(sltw_KA_phenioxdisable)
+	SCPT(sltw_KA_purrusScript)
+	SCPT(sltw_KA_ronasScript)
+	SCPT(sltw_KA_skfightdeus)
+	SCPT(sltw_KA_skfightkarindre)
+	SCPT(sltw_KA_ukScript)
+	SCPT(sltw_KA_urzhuldurzogScript)
+	SCPT(sltw_KA_varetScript)
+	SCPT(sltw_KA_zurgasScript)
+	SCPT(sltw_NR_Reich_SleepyGuar)
+	SCPT(sltw_NR_diaVault)
+	SCPT(sltw_NR_sound_lwaterfall)
+	SCPT(sltw_ZA_airguardian_disable)
+	SCPT(sltw_ZA_airguardian_place)
+	SCPT(sltw_ZA_fireguardian_disable)
+	SCPT(sltw_ZA_fireguardian_place)
+	SCPT(sltw_bk_patrol_city)
+	SCPT(sltw_ch_blockeddoor2)
+	SCPT(sltw_ch_daedric_doorscript)
+	SCPT(sltw_ch_daedric_sorcerer)
+	SCPT(sltw_ch_daedric_water_rise_detector)
+	SCPT(sltw_ch_daedricbookscript)
+	SCPT(sltw_ch_doorscript)
+	SCPT(sltw_ch_endofdreams_door)
+	SCPT(sltw_ch_guardianScript)
+	SCPT(sltw_ch_poison)
+	SCPT(sltw_ch_prisondoor)
+	SCPT(sltw_ch_reichtemple_door)
+	SCPT(sltw_ch_sheogorathring)
+	SCPT(sltw_ch_sickprisonerscript)
+	SCPT(sltw_corn_harvest_script)
+	SCPT(sltw_ds_AleBarrelScript)
+	SCPT(sltw_ds_BHdoorscript)
+	SCPT(sltw_ds_DSwitchScript)
+	SCPT(sltw_ds_DTdoor)
+	SCPT(sltw_ds_ERdoorscript)
+	SCPT(sltw_ds_JPSwitchScript)
+	SCPT(sltw_ds_LeifgrundrunkScript)
+	SCPT(sltw_ds_MacarDrenScript)
+	SCPT(sltw_ds_QcounterScript)
+	SCPT(sltw_ds_SSwitchScript)
+	SCPT(sltw_ds_ST_gratingScript)
+	SCPT(sltw_ds_ScribSoulRemoveScript)
+	SCPT(sltw_ds_TalosTrapDoorScript)
+	SCPT(sltw_ds_alamehenotescript)
+	SCPT(sltw_ds_alert_adjhanniScript)
+	SCPT(sltw_ds_am_chestScript)
+	SCPT(sltw_ds_amactivator1)
+	SCPT(sltw_ds_amminelogScript)
+	SCPT(sltw_ds_archiewitchScript)
+	SCPT(sltw_ds_arkaenmulScript)
+	SCPT(sltw_ds_arnahusScript)
+	SCPT(sltw_ds_ash_forcefieldScript)
+	SCPT(sltw_ds_ashkelonJPScript)
+	SCPT(sltw_ds_ashslaveScript)
+	SCPT(sltw_ds_barghomScript)
+	SCPT(sltw_ds_behemothScript)
+	SCPT(sltw_ds_blockedDoorScript)
+	SCPT(sltw_ds_bootsScript)
+	SCPT(sltw_ds_bully1Script)
+	SCPT(sltw_ds_bully2Script)
+	SCPT(sltw_ds_burnedhouseScript)
+	SCPT(sltw_ds_colldoorScript)
+	SCPT(sltw_ds_collustusdoor1Script)
+	SCPT(sltw_ds_cookingpotScript)
+	SCPT(sltw_ds_coralusfallScript)
+	SCPT(sltw_ds_cuirassScript)
+	SCPT(sltw_ds_cursedaltarScript)
+	SCPT(sltw_ds_dakqScript)
+	SCPT(sltw_ds_deadapprenticeScript)
+	SCPT(sltw_ds_deadroth_summonScript)
+	SCPT(sltw_ds_deusScript)
+	SCPT(sltw_ds_dianaScript)
+	SCPT(sltw_ds_drarayelScript)
+	SCPT(sltw_ds_dredenuScript)
+	SCPT(sltw_ds_dt_ring2Script)
+	SCPT(sltw_ds_dt_ringScript)
+	SCPT(sltw_ds_durzogguardgreetScript)
+	SCPT(sltw_ds_ebbedindoor1Script)
+	SCPT(sltw_ds_ensloScript)
+	SCPT(sltw_ds_fahlegScript)
+	SCPT(sltw_ds_fg_trapdoorScript)
+	SCPT(sltw_ds_forgottenpubScript)
+	SCPT(sltw_ds_fothasScript)
+	SCPT(sltw_ds_fothasSwitchScript)
+	SCPT(sltw_ds_fothasnoteScript)
+	SCPT(sltw_ds_freakScript)
+	SCPT(sltw_ds_ghosttyrwulffScript)
+	SCPT(sltw_ds_glove1Script)
+	SCPT(sltw_ds_glove2Script)
+	SCPT(sltw_ds_goblingreetscript)
+	SCPT(sltw_ds_grathrasScript1)
+	SCPT(sltw_ds_grathrasScript2)
+	SCPT(sltw_ds_greavesScript)
+	SCPT(sltw_ds_hsgoldScript)
+	SCPT(sltw_ds_ireelaScript)
+	SCPT(sltw_ds_joachimScript)
+	SCPT(sltw_ds_jpnoteScript)
+	SCPT(sltw_ds_jvarScript)
+	SCPT(sltw_ds_kagouticaveScript)
+	SCPT(sltw_ds_kanescribScript)
+	SCPT(sltw_ds_katseScript)
+	SCPT(sltw_ds_killNPCScript)
+	SCPT(sltw_ds_macgolemScript)
+	SCPT(sltw_ds_mb_fssScript)
+	SCPT(sltw_ds_muggsr1Script)
+	SCPT(sltw_ds_muggsr2Script)
+	SCPT(sltw_ds_naspainScript)
+	SCPT(sltw_ds_neelaScript)
+	SCPT(sltw_ds_nidiothScript)
+	SCPT(sltw_ds_opendoor_talon1)
+	SCPT(sltw_ds_orcjournal1Script)
+	SCPT(sltw_ds_orcjournal2Script)
+	SCPT(sltw_ds_publican_ST1)
+	SCPT(sltw_ds_publican_TG)
+	SCPT(sltw_ds_publican_TG1)
+	SCPT(sltw_ds_pyrosdoorScript)
+	SCPT(sltw_ds_quentinnoteScript)
+	SCPT(sltw_ds_removeplankScript)
+	SCPT(sltw_ds_rivedoorScript)
+	SCPT(sltw_ds_salmanusScript)
+	SCPT(sltw_ds_sarahghostScript)
+	SCPT(sltw_ds_sarahherselfScript)
+	SCPT(sltw_ds_shieldfireScript)
+	SCPT(sltw_ds_sleepinterrupterScript)
+	SCPT(sltw_ds_sshieldScript)
+	SCPT(sltw_ds_storedoorscript)
+	SCPT(sltw_ds_swordstone_ebonybroad)
+	SCPT(sltw_ds_talenswitch1Script)
+	SCPT(sltw_ds_talosdeadScript)
+	SCPT(sltw_ds_trapdoor_GTscript)
+	SCPT(sltw_ds_treestumpScript1)
+	SCPT(sltw_ds_tyrwulfftablet2Script)
+	SCPT(sltw_ds_tyrwulfftabletScript)
+	SCPT(sltw_ds_undeadgreetScript)
+	SCPT(sltw_ds_varescountScript)
+	SCPT(sltw_ds_veriksstatueScript)
+	SCPT(sltw_ds_vinjaoraniScript)
+	SCPT(sltw_ds_weedplucknoteScript)
+	SCPT(sltw_ds_witnesScript)
+	SCPT(sltw_ea_arcticbiteScript)
+	SCPT(sltw_ea_button1Script)
+	SCPT(sltw_ea_button2Script)
+	SCPT(sltw_ea_button3Script)
+	SCPT(sltw_ea_button4Script)
+	SCPT(sltw_ea_drahcirdoorScript)
+	SCPT(sltw_ea_fc_BKfightscript)
+	SCPT(sltw_ea_fc_animalScript)
+	SCPT(sltw_ea_fc_fighterscript)
+	SCPT(sltw_ea_fc_ragarScript)
+	SCPT(sltw_ea_fc_seamusScript)
+	SCPT(sltw_ea_feronscript)
+	SCPT(sltw_ea_fothasdaycounter)
+	SCPT(sltw_ea_jafarScript)
+	SCPT(sltw_ea_removejafarScript)
+	SCPT(sltw_ea_sdclubScript)
+	SCPT(sltw_ea_soothingharpScript)
+	SCPT(sltw_ea_usweilderScript)
+	SCPT(sltw_ea_vasemScript)
+	SCPT(sltw_ea_weaponblindScript)
+	SCPT(sltw_guard_summon_script)
+	SCPT(sltw_prison_clothes)
+	SCPT(sltw_prisonbracer_script_left)
+	SCPT(sltw_prisonbracer_script_right)
+	SCPT(sltw_rw_EnableSticks1_scr)
+	SCPT(sltw_rw_EnableSticks2_scr)
+	SCPT(sltw_rw_EnableTelvanniNPC_scr)
+	SCPT(sltw_rw_Furn_Drum01_scr)
+	SCPT(sltw_rw_Furn_Drum02_scr)
+	SCPT(sltw_rw_Furn_Drum03_scr)
+	SCPT(sltw_rw_Furn_Gong_scr)
+	SCPT(sltw_rw_Furn_Harpsichord_scr)
+	SCPT(sltw_rw_Furn_Marimba_scr)
+	SCPT(sltw_rw_Inscription01_scr)
+	SCPT(sltw_rw_Inscription02_scr)
+	SCPT(sltw_rw_Inscription03_scr)
+	SCPT(sltw_rw_Inscription04_scr)
+	SCPT(sltw_rw_Inscription08_scr)
+	SCPT(sltw_rw_Inscription09_scr)
+	SCPT(sltw_rw_Inscription10_scr)
+	SCPT(sltw_rw_Inscription11_scr)
+	SCPT(sltw_rw_RP_A_Areya_scr)
+	SCPT(sltw_rw_RP_A_Collision_scr)
+	SCPT(sltw_rw_RP_A_Guard_10_scr)
+	SCPT(sltw_rw_RP_A_ProtectJenthi)
+	SCPT(sltw_rw_RP_A_ProtectShelsi)
+	SCPT(sltw_rw_RP_A_ProtectTheLords)
+	SCPT(sltw_rw_RP_A_RSakatosh_Scr)
+	SCPT(sltw_rw_RP_A_SS_03_scr)
+	SCPT(sltw_rw_RP_AreyaGardenr_scr)
+	SCPT(sltw_rw_RP_BuzzrunnerScr)
+	SCPT(sltw_rw_RP_RemoVenduScr)
+	SCPT(sltw_rw_SakaExist_10_105_scr)
+	SCPT(sltw_rw_SakaPrisoner_2_scr)
+	SCPT(sltw_rw_SakaPrisoner_3_scr)
+	SCPT(sltw_rw_SakaPrisoner_4_scr)
+	SCPT(sltw_rw_SakaR_GrdO_03_scr)
+	SCPT(sltw_rw_SakaR_GrdO_06_scr)
+	SCPT(sltw_rw_SakaVampKill_scr)
+	SCPT(sltw_rw_SakaVampire_08_scr)
+	SCPT(sltw_rw_SakaVampire_10_scr)
+	SCPT(sltw_rw_Saka_ArkhanGuard_scr)
+	SCPT(sltw_rw_Saka_ProtectArkhan_scr)
+	SCPT(sltw_rw_berolliScript_rp)
+	SCPT(sltw_rw_dualwield_phij_l)
+	SCPT(sltw_rw_fathosScript)
+	SCPT(sltw_rw_headstone_01_scr)
+	SCPT(sltw_rw_legioA_fisher_scr)
+	SCPT(sltw_rw_scr_Coralus)
+	SCPT(sltw_rw_scr_FalconerF_Shirt_uni)
+	SCPT(sltw_rw_scr_GuardEnable)
+	SCPT(sltw_rw_scr_KwamaF_Thong_uni)
+	SCPT(sltw_rw_scr_PErarde_enc_01)
+	SCPT(sltw_rw_scr_RP_A_tholareya)
+	SCPT(sltw_rw_scr_RymynnyaItems)
+	SCPT(sltw_rw_scr_SHIP_NPC_10_st)
+	SCPT(sltw_rw_scr_SHIP_NPC_11_st)
+	SCPT(sltw_rw_scr_SHIP_NPC_14)
+	SCPT(sltw_rw_scr_SHIP_NPC_15)
+	SCPT(sltw_rw_scr_SHIP_NPC_17)
+	SCPT(sltw_rw_scr_SHIP_NPC_18)
+	SCPT(sltw_rw_scr_SHIP_NPC_19)
+	SCPT(sltw_rw_scr_SHIP_NPC_9)
+	SCPT(sltw_rw_scr_SHIP_NPC_hlaalugrd)
+	SCPT(sltw_rw_scr_SHIP_NPC_victim)
+	SCPT(sltw_rw_scr_SHIP_anglalos2)
+	SCPT(sltw_rw_scr_SHIP_caryarel2)
+	SCPT(sltw_rw_scr_SHIP_dis)
+	SCPT(sltw_rw_scr_SHIP_dis_1)
+	SCPT(sltw_rw_scr_SHIP_graves)
+	SCPT(sltw_rw_scr_SHIP_mw)
+	SCPT(sltw_rw_scr_SHIP_mw_en)
+	SCPT(sltw_rw_scr_SHIP_nadine_r2)
+	SCPT(sltw_rw_scr_SHIP_st)
+	SCPT(sltw_rw_scr_SHIP_st_Skiff)
+	SCPT(sltw_rw_scr_SHIP_st_gravesound)
+	SCPT(sltw_rw_scr_SHIP_victim2)
+	SCPT(sltw_rw_scr_bcrock01)
+	SCPT(sltw_rw_scr_bcrock01_uni)
+	SCPT(sltw_rw_scr_faery_music_1)
+	SCPT(sltw_rw_scr_hangman)
+	SCPT(sltw_rw_scr_legioA_bk)
+	SCPT(sltw_rw_scr_mannequin_ph)
+	SCPT(sltw_rw_scr_marcel_garreth)
+	SCPT(sltw_rw_scr_mercurio_sirollis)
+	SCPT(sltw_rw_scr_silkfabric_UNI_1)
+	SCPT(sltw_rw_scr_silkfabric_UNI_2)
+	SCPT(sltw_rw_scr_strippercoin1)
+	SCPT(sltw_rw_scr_strippercoin2)
+	SCPT(sltw_rw_scr_uniras_gareth)
+	SCPT(sltw_rw_summonBLclose)
+	SCPT(sltw_rw_summonGS_scr)
+	SCPT(sltw_rw_sunlight)
+	SCPT(sltw_rw_tombbkdoor)
+	SCPT(sltw_rw_trapdoorTopScr)
+	SCPT(sltw_sc_DandDdoorscript)
+	SCPT(sltw_shal_Hall_fire)
+	SCPT(sltw_shal_Hall_fire_off)
+	SCPT(sltw_shal_Hall_fire_on)
+	SCPT(sltw_shal_Hall_scream)
+	SCPT(sltw_silent_script)
+	SCPT(sltw_valderon_script)
+	SCPT(sltw_vd_BankClerk)
+	SCPT(sltw_vd_BankManager)
+	SCPT(sltw_vd_aralyssan_script)
+	SCPT(sltw_vd_berlan3_script)
+	SCPT(sltw_vd_frost_heart_script)
+	SCPT(sltw_vd_frostgiant_heart_script)
+	SCPT(sltw_vd_frostgiant_script)
+	SCPT(sltw_vd_jullien_entry)
+	SCPT(sltw_vd_macellero_script)
+	SCPT(sltw_vd_murder_hint_script)
+	SCPT(sltw_vd_shopclosed_clerk)
+	SCPT(sltw_vd_shopclosed_owner)
+	SCPT(sltw_vd_shopexit_script)
+	SCPT(sltw_vd_traders)
+	SCPT(sltw_za_6thhouse_crate_sc)
+	SCPT(sltw_za_AIreset_sc)
+	SCPT(sltw_za_RP_cryptswitch)
+	SCPT(sltw_za_RP_well_sc)
+	SCPT(sltw_za_b1a_sc)
+	SCPT(sltw_za_b1b_sc)
+	SCPT(sltw_za_b2a_sc)
+	SCPT(sltw_za_b2b_sc)
+	SCPT(sltw_za_b3_sc)
+	SCPT(sltw_za_border)
+	SCPT(sltw_za_bullnixhound_sc)
+	SCPT(sltw_za_creature_sc)
+	SCPT(sltw_za_cursed_bloodmace_sc)
+	SCPT(sltw_za_door_darkness_sc)
+	SCPT(sltw_za_killanimalcrime_sc)
+	SCPT(sltw_za_lambert_sc)
+	SCPT(sltw_za_lich_aedrynmine_sc)
+	SCPT(sltw_za_mercmonth_sc)
+	SCPT(sltw_za_missingcat2_sc)
+	SCPT(sltw_za_missingcat_note_sc)
+	SCPT(sltw_za_missingcat_sc)
+	SCPT(sltw_za_multifight_sc)
+	SCPT(sltw_za_musiccontrol)
+	SCPT(sltw_za_nethol)
+	SCPT(sltw_za_noenter_sc)
+	SCPT(sltw_za_nopickup_weapon)
+	SCPT(sltw_za_ratking_sc)
+	SCPT(sltw_za_redoran_ladder_sc)
+	SCPT(sltw_za_removestormstaff)
+	SCPT(sltw_za_rotate)
+	SCPT(sltw_za_silgradmusic_sc)
+	SCPT(sltw_za_sound_waterfall_sc)
+	SCPT(sltw_za_sound_waterlayer_sc)
+	SCPT(sltw_za_stormnix_sc)
+	SCPT(sltw_za_stormplane)
+	SCPT(sltw_za_stormstaff_marker_sc)
+	SCPT(sltw_za_summonrat_sc)
+	SCPT(sltw_za_tapestry_08_sc)
+	SCPT(sltw_za_teleport_01_sc)
+	SCPT(sltw_za_teleport_03_sc)
+	SCPT(sltw_za_teleport_04_sc)
+	SCPT(sltw_za_teleport_05_sc)
+	SCPT(sltw_za_teleport_07_sc)
+	SCPT(sltw_za_templemusic_sc)
+	SCPT(sltw_za_travelcrystal_sc)
+	SCPT(sltw_za_tyrwullfswordScript)
+	SCPT(sltw_za_waterrise)
+	SCPT(sltw_zx_bubsnd)
+	SCPT(sltw_zx_opendoora)
+	SCPT(sltw_zx_opendoorb)
+	SCPT(sltw_zxangsndscript)
+	SCPT(stl_R_Steadhelm_RustyGuar)
+	SCPT(stl_marksSaintSummon)
+	SCPT(stl_secretdoorscript)
+	SCPT(stl_secretdoorscript02)
+	SCPT(stl_secretdoorswitch01)
+	SCPT(stl_secretdoorswitch02)
+	SCPT(tstInventory)
+	SCPT(wormyscript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (0, 0)                   0x02
+	Bitter Coast Region (-1, -11)            0x02
+	Bitter Coast Region (-1, -12)            0x02
+	Bitter Coast Region (-1, -14)            0x02
+	Bitter Coast Region (-10, -1)            0x02
+	Bitter Coast Region (-10, -2)            0x02
+	Bitter Coast Region (-10, -3)            0x02
+	Bitter Coast Region (-10, -4)            0x02
+	Bitter Coast Region (-10, -5)            0x02
+	Bitter Coast Region (-10, -6)            0x02
+	Bitter Coast Region (-10, -7)            0x02
+	Bitter Coast Region (-10, -8)            0x02
+	Bitter Coast Region (-10, -9)            0x02
+	Bitter Coast Region (-11, -1)            0x02
+	Bitter Coast Region (-11, 4)             0x02
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-12, 4)             0x02
+	Bitter Coast Region (-2, -11)            0x02
+	Bitter Coast Region (-2, -13)            0x02
+	Bitter Coast Region (-2, -14)            0x02
+	Bitter Coast Region (-3, -11)            0x02
+	Bitter Coast Region (-3, -12)            0x02
+	Bitter Coast Region (-3, -13)            0x02
+	Bitter Coast Region (-3, -14)            0x02
+	Bitter Coast Region (-5, -9)             0x02
+	Bitter Coast Region (-6, -11)            0x02
+	Bitter Coast Region (-6, -12)            0x02
+	Bitter Coast Region (-6, -8)             0x02
+	Bitter Coast Region (-6, -9)             0x02
+	Bitter Coast Region (-7, -8)             0x02
+	Bitter Coast Region (-9, -8)             0x02
+	Bitter Coast Region (0, -12)             0x02
+	Bitter Coast Region (0, -13)             0x02
+	Hirstaang Forest Region (-21, 15)        0x02
+	Hirstaang Forest Region (-22, 15)        0x02
+	Hirstaang Forest Region (-23, 15)        0x02
+	Hirstaang Forest Region (-24, 15)        0x02
+	Hirstaang Forest Region (-25, 15)        0x02
+	West Gash Region (-12, 6)                0x02
+	West Gash Region (-12, 7)                0x02
+	West Gash Region (-14, 8)                0x02
+	West Gash Region (-15, 8)                0x02
+	West Gash Region (-16, 8)                0x02
+	West Gash Region (-16, 9)                0x02
+	West Gash Region (-2, 0)                 0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    ac_darkgravel
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_clover
+	morrowind.esm       LTEX    ai_dirt
+	morrowind.esm       LTEX    ai_dirtroad
+	morrowind.esm       LTEX    ai_grass
+	morrowind.esm       LTEX    ai_grass_02
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_dirt
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    ai_tilled_dirt
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_04
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    lavacrust02.tga
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava02
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sandstone02
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock03
+	morrowind.esm       LTEX    ma_sulphur_rock05
+	morrowind.esm       LTEX    ma_sulphur_rock06
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    ma_sulphur_rock08
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    rm_grayrock
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_rock_03
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    sand_02
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mainroad_01.tga
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_lavacrust00.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_road
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    com_chest_11_empty
+	bloodmoon.esm       CONT    contain_corpse20
+	bloodmoon.esm       DIAL    assignment
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    my husband
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       INGR    ingred_human_meat_01
+	bloodmoon.esm       LAND    (-21, 15)
+	bloodmoon.esm       LAND    (-22, 15)
+	bloodmoon.esm       LAND    (-23, 14)
+	bloodmoon.esm       LAND    (-23, 15)
+	bloodmoon.esm       LAND    (-24, 14)
+	bloodmoon.esm       LAND    (-24, 15)
+	bloodmoon.esm       LAND    (-25, 14)
+	bloodmoon.esm       LAND    (-25, 15)
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_02.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_04.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_05.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_06.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_rock_01.dds
+	bloodmoon.esm       NPC_    brynjolfr
+	bloodmoon.esm       SNDG    
+	morrowind.esm       ARMO    bonemold_armun-an_cuirass
+	morrowind.esm       ARMO    bonemold_armun-an_pauldron_l
+	morrowind.esm       ARMO    bonemold_armun-an_pauldron_r
+	morrowind.esm       ARMO    bonemold_gah-julan_cuirass
+	morrowind.esm       ARMO    bonemold_gah-julan_pauldron_l
+	morrowind.esm       ARMO    bonemold_gah-julan_pauldron_r
+	morrowind.esm       ARMO    bonemold_greaves
+	morrowind.esm       ARMO    bound_cuirass
+	morrowind.esm       ARMO    chest of fire
+	morrowind.esm       ARMO    daedric_cuirass
+	morrowind.esm       ARMO    daedric_greaves
+	morrowind.esm       ARMO    dwemer_boots
+	morrowind.esm       ARMO    dwemer_boots of flying
+	morrowind.esm       ARMO    dwemer_cuirass
+	morrowind.esm       ARMO    dwemer_greaves
+	morrowind.esm       ARMO    dwemer_pauldron_left
+	morrowind.esm       ARMO    dwemer_pauldron_right
+	morrowind.esm       ARMO    ebony_greaves
+	morrowind.esm       ARMO    ebony_pauldron_left
+	morrowind.esm       ARMO    ebony_pauldron_right
+	morrowind.esm       ARMO    fur_cuirass
+	morrowind.esm       ARMO    indoril cuirass
+	morrowind.esm       ARMO    indoril pauldron left
+	morrowind.esm       ARMO    indoril pauldron right
+	morrowind.esm       ARMO    mountain spirit
+	morrowind.esm       ARMO    netch_leather_boiled_cuirass
+	morrowind.esm       ARMO    newtscale_cuirass
+	morrowind.esm       ARMO    orcish_boots
+	morrowind.esm       ARMO    orcish_cuirass
+	morrowind.esm       ARMO    orcish_greaves
+	morrowind.esm       ARMO    templar_cuirass
+	morrowind.esm       ARMO    templar_greaves
+	morrowind.esm       BODY    b_n_nord_f_ankle
+	morrowind.esm       BOOK    bk_ilhermit_page
+	morrowind.esm       BOOK    bk_note
+	morrowind.esm       BOOK    sc_vulpriss
+	morrowind.esm       CLOT    bonebiter charm
+	morrowind.esm       CONT    chest_small_01_empty
+	morrowind.esm       CONT    com_chest_01
+	morrowind.esm       CONT    com_chest_01_arrows
+	morrowind.esm       CONT    com_chest_02_misc09
+	morrowind.esm       CONT    com_closet_01
+	morrowind.esm       CONT    com_sack_00_ingred
+	morrowind.esm       CONT    contain_corpse10
+	morrowind.esm       CONT    crate_01_dandera
+	morrowind.esm       CONT    de_p_chest_02_aryne
+	morrowind.esm       CONT    de_p_closet_02_g1
+	morrowind.esm       CONT    rock_diamond_01
+	morrowind.esm       CREA    shalk_diseased
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    alit
+	morrowind.esm       DIAL    alms for the poor
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    armor styles
+	morrowind.esm       DIAL    daedra
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    destination
+	morrowind.esm       DIAL    dumac
+	morrowind.esm       DIAL    ebony
+	morrowind.esm       DIAL    fighters guild
+	morrowind.esm       DIAL    get cured
+	morrowind.esm       DIAL    ghostfence
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       DIAL    guar
+	morrowind.esm       DIAL    help me
+	morrowind.esm       DIAL    house dagoth
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    ingredients
+	morrowind.esm       DIAL    join house redoran
+	morrowind.esm       DIAL    kagouti
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    mages guild
+	morrowind.esm       DIAL    mages guild monopoly
+	morrowind.esm       DIAL    make amends
+	morrowind.esm       DIAL    mercenaries
+	morrowind.esm       DIAL    ministry of truth
+	morrowind.esm       DIAL    price on your head
+	morrowind.esm       DIAL    racer plumes
+	morrowind.esm       DIAL    rat
+	morrowind.esm       DIAL    red mountain
+	morrowind.esm       DIAL    requirements
+	morrowind.esm       DIAL    reward
+	morrowind.esm       DIAL    shalk
+	morrowind.esm       DIAL    sixth house base
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       DIAL    sujamma
+	morrowind.esm       DIAL    talos cult
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    thieves guild
+	morrowind.esm       DIAL    twin lamps
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       DIAL    white guar
+	morrowind.esm       DIAL    work
+	morrowind.esm       ENCH    sheogorath's seal
+	morrowind.esm       ENCH    spell breaker
+	morrowind.esm       INGR    ingred_bc_spore_pod
+	morrowind.esm       INGR    ingred_chokeweed_01
+	morrowind.esm       INGR    ingred_coprinus_01
+	morrowind.esm       INGR    ingred_daedra_skin_01
+	morrowind.esm       INGR    ingred_ectoplasm_01
+	morrowind.esm       INGR    ingred_fire_salts_01
+	morrowind.esm       INGR    ingred_frost_salts_01
+	morrowind.esm       INGR    ingred_ghoul_heart_01
+	morrowind.esm       INGR    ingred_gold_kanet_01
+	morrowind.esm       INGR    ingred_hackle-lo_leaf_01
+	morrowind.esm       INGR    ingred_hound_meat_01
+	morrowind.esm       INGR    ingred_kagouti_hide_01
+	morrowind.esm       INGR    ingred_pearl_01
+	morrowind.esm       INGR    ingred_resin_01
+	morrowind.esm       INGR    ingred_ruby_01
+	morrowind.esm       INGR    ingred_scamp_skin_01
+	morrowind.esm       INGR    ingred_scrap_metal_01
+	morrowind.esm       INGR    ingred_trama_root_01
+	morrowind.esm       INGR    ingred_void_salts_01
+	morrowind.esm       INGR    ingred_wickwheat_01
+	morrowind.esm       LAND    (-1, -11)
+	morrowind.esm       LAND    (-1, -12)
+	morrowind.esm       LAND    (-1, -13)
+	morrowind.esm       LAND    (-1, -14)
+	morrowind.esm       LAND    (-1, 0)
+	morrowind.esm       LAND    (-1, 1)
+	morrowind.esm       LAND    (-10, -1)
+	morrowind.esm       LAND    (-10, -2)
+	morrowind.esm       LAND    (-10, -3)
+	morrowind.esm       LAND    (-10, -4)
+	morrowind.esm       LAND    (-10, -5)
+	morrowind.esm       LAND    (-10, -6)
+	morrowind.esm       LAND    (-10, -7)
+	morrowind.esm       LAND    (-10, -8)
+	morrowind.esm       LAND    (-10, -9)
+	morrowind.esm       LAND    (-10, 0)
+	morrowind.esm       LAND    (-11, -1)
+	morrowind.esm       LAND    (-11, 0)
+	morrowind.esm       LAND    (-11, 1)
+	morrowind.esm       LAND    (-11, 2)
+	morrowind.esm       LAND    (-11, 3)
+	morrowind.esm       LAND    (-11, 4)
+	morrowind.esm       LAND    (-11, 5)
+	morrowind.esm       LAND    (-12, 4)
+	morrowind.esm       LAND    (-12, 5)
+	morrowind.esm       LAND    (-12, 6)
+	morrowind.esm       LAND    (-12, 7)
+	morrowind.esm       LAND    (-13, 5)
+	morrowind.esm       LAND    (-13, 6)
+	morrowind.esm       LAND    (-13, 7)
+	morrowind.esm       LAND    (-14, 6)
+	morrowind.esm       LAND    (-14, 7)
+	morrowind.esm       LAND    (-14, 8)
+	morrowind.esm       LAND    (-15, 8)
+	morrowind.esm       LAND    (-16, 9)
+	morrowind.esm       LAND    (-17, 10)
+	morrowind.esm       LAND    (-17, 11)
+	morrowind.esm       LAND    (-17, 12)
+	morrowind.esm       LAND    (-17, 13)
+	morrowind.esm       LAND    (-17, 14)
+	morrowind.esm       LAND    (-17, 15)
+	morrowind.esm       LAND    (-17, 16)
+	morrowind.esm       LAND    (-17, 9)
+	morrowind.esm       LAND    (-18, 10)
+	morrowind.esm       LAND    (-18, 11)
+	morrowind.esm       LAND    (-18, 12)
+	morrowind.esm       LAND    (-18, 13)
+	morrowind.esm       LAND    (-18, 14)
+	morrowind.esm       LAND    (-2, -11)
+	morrowind.esm       LAND    (-2, -12)
+	morrowind.esm       LAND    (-2, -13)
+	morrowind.esm       LAND    (-2, -14)
+	morrowind.esm       LAND    (-2, 0)
+	morrowind.esm       LAND    (-2, 1)
+	morrowind.esm       LAND    (-3, -11)
+	morrowind.esm       LAND    (-3, -12)
+	morrowind.esm       LAND    (-3, -13)
+	morrowind.esm       LAND    (-3, -14)
+	morrowind.esm       LAND    (-5, -9)
+	morrowind.esm       LAND    (-6, -10)
+	morrowind.esm       LAND    (-6, -11)
+	morrowind.esm       LAND    (-6, -12)
+	morrowind.esm       LAND    (-6, -8)
+	morrowind.esm       LAND    (-6, -9)
+	morrowind.esm       LAND    (-7, -10)
+	morrowind.esm       LAND    (-7, -11)
+	morrowind.esm       LAND    (-7, -12)
+	morrowind.esm       LAND    (-7, -8)
+	morrowind.esm       LAND    (-7, -9)
+	morrowind.esm       LAND    (-8, -10)
+	morrowind.esm       LAND    (-8, -11)
+	morrowind.esm       LAND    (-8, -12)
+	morrowind.esm       LAND    (-8, -8)
+	morrowind.esm       LAND    (-8, -9)
+	morrowind.esm       LAND    (-9, -10)
+	morrowind.esm       LAND    (-9, -11)
+	morrowind.esm       LAND    (-9, -12)
+	morrowind.esm       LAND    (-9, -8)
+	morrowind.esm       LAND    (-9, -9)
+	morrowind.esm       LAND    (0, -12)
+	morrowind.esm       LAND    (0, -13)
+	morrowind.esm       LEVC    h2o_all_lev+2
+	morrowind.esm       LEVI    l_n_amulet
+	morrowind.esm       LEVI    l_n_rings
+	morrowind.esm       LIGH    amber
+	morrowind.esm       LIGH    dark_256
+	morrowind.esm       LIGH    light_6th_brazier
+	morrowind.esm       LIGH    light_6th_candle_02
+	morrowind.esm       LIGH    light_com_chandelier_03_128
+	morrowind.esm       LIGH    light_com_lantern_02_177_boat01
+	morrowind.esm       LIGH    light_com_sconce_02_128
+	morrowind.esm       LIGH    light_de_lantern_10_128_static
+	morrowind.esm       LIGH    light_fire_300
+	morrowind.esm       MISC    misc_dwrv_cursed_coin00
+	morrowind.esm       NPC_    dead de male_tomb01
+	morrowind.esm       NPC_    nevosi hlan
+	morrowind.esm       NPC_    yen
+	morrowind.esm       NPC_    zahraji
+	morrowind.esm       NPC_    zallit
+	morrowind.esm       NPC_    zebdusipal mantiti
+	morrowind.esm       PGRD    bitter coast region
+	morrowind.esm       SNDG    default0007
+	morrowind.esm       SOUN    stone door open 1
+	morrowind.esm       STAT    in_v_s_int_lcorner_01
+	morrowind.esm       STAT    in_velothismall_hall_04
+	morrowind.esm       WEAP    chitin short bow
+	morrowind.esm       WEAP    daedric arrow
+	morrowind.esm       WEAP    glass arrow
+	morrowind.esm       WEAP    long bow
+	tribunal.esm        ARMO    bonemold_cuirass
+	tribunal.esm        ARMO    fur_pauldron_left
+	tribunal.esm        ARMO    fur_pauldron_right
+	tribunal.esm        ARMO    imperial_studded_cuirass
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    available for hire
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    change the plan
+	tribunal.esm        DIAL    contract
+	tribunal.esm        DIAL    durzogs
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    favor
+	tribunal.esm        DIAL    goblins
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    guard
+	tribunal.esm        DIAL    improve my effectiveness
+	tribunal.esm        DIAL    keep me healthy
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    profit
+	tribunal.esm        DIAL    selling off
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    task
+	tribunal.esm        LIGH    blade light
+
+[DUP-INF]: ID=467429055423419646(Topic:favor)
+  |DATA|ONAM:Nerile Andaren|NAME:Yes. Well. It's not much, really. A simple delivery that needs to be made, actually. Geon Auline reported being ill earlier this week, yet refuses to come to the Temple for healing. Some nonsense about a collection of his. At any rate, if he will not come to us, then we must take the initiative and go to him. Will you deliver this Cure Disease Potion to him?|SCVR:02sX0PlagueActivate|INTV
+
+[MOD-INF]: ID=666731499111789993(Topic:background)
+  morrowind.esm------------->|DATA|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+  silgrad_tower_1-4_6.6.esp->|DATA|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+  silgrad_tower_1-4_6.6.esp->|DATA|ONAM:bl_mk_Farthon|NAME:Welcome to the Adventurer's Armaments, in Black Light. Run by myself, I try to provide the highest quality armor and weapons I can. Let me know if you see anything you like.
+
+[MOD-INF]: ID=3009629748474023429(Greeting:greeting 1)
+  tribunal.esm-------------->|DATA|ONAM:chargen captain|NAME:I am %name. My background is not important. From time to time it is my duty to welcome certain visitors to Morrowind.
+  silgrad_tower_1-4_6.6.esp->|DATA|ONAM:chargen captain|NAME:I am %name. My background is not important. From time to time it is my duty to welcome certain visitors to Morrowind.|SCVR:02fX1CharGenState|FLTV
+
+[DUP-INF]: ID=23066108981558011850(Topic:favor)
+  |DATA|ONAM:hasphat antabolis|NAME:Yes. The box was just what I was looking for.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[MOD-INF]: ID=23586308352637424733(Topic:services)
+  morrowind.esm------------->|DATA|ANAM:Pelagiad|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0mebestian ence|INTV:|SCVR:37XX0a shady smuggler|INTV:|BNAM:;Pelagiad
+  silgrad_tower_1-4_6.6.esp->|DATA|ANAM:Pelagiad|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0mebestian ence|INTV:|SCVR:37XX0Shady Smugler|INTV:|BNAM:;Pelagiad

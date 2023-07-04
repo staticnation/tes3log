@@ -1,0 +1,20 @@
+HealerCompanion.ESP: DUP-INF DUP-REC GETSND MISSDSC MISSVER MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(0s_healer_companion_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    travel together
+
+[MOD-INF]: ID=62342927712254319(Greeting:greeting 0)
+  morrowind.esm------->|DATA|ONAM:agronian guy|NAME:I don't want to talk about it.|BNAM:Goodbye
+  HealerCompanion.ESP->|DATA|ONAM:0s_healer_companion|NAME:Yes, %pcname ?|SCVR:03sX0companion|INTV|BNAM:MessageBox, "Health: %g / %g ", m_currenthealth, m_maxhealth  MessageBox, "Magicka: %g", m_Magicka
+
+[DUP-INF]: ID=227322281661726892(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:What are you doing! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+
+[DUP-INF]: ID=1231114153109727918(Topic:travel together)
+  |DATA|ONAM:assaba-bentus|NAME:Yes, we travel to the Mabrigash camp.|SCVR:03sX0followNow|INTV|BNAM:Choice "Keep following." 1 "Wait here a moment." 2
+
+[DUP-INF]: ID=1748425214119776640(Topic:travel together)
+  |DATA|ONAM:assaba-bentus|NAME:We should resume our travels?|SCVR:34JX3IL_RescueHermit|INTV|BNAM:Choice "Yes, follow me." 1 "No, nevermind." 2

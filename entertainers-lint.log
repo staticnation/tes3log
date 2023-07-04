@@ -1,0 +1,37 @@
+entertainers.esp: DUP-REC MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Pub_Balmora_Eight)
+	SCPT(hatScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    fur_colovian_helm
+	morrowind.esm       NPC_    codus callonus
+	morrowind.esm       NPC_    dorisa darvel
+	morrowind.esm       NPC_    gaeldol
+	morrowind.esm       NPC_    jobasha
+	morrowind.esm       NPC_    simine fralinie
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little secret
+
+[MOD-INF]: ID=171343168140283456(Greeting:greeting 7)
+  morrowind.esm---->|DATA|ONAM:dulnea ralaal|NAME:Good day. I'm Dulnea Ralaal, publican of the Eight Plates here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Dulnea Ralaal
+  entertainers.esp->|DATA|ONAM:dulnea ralaal|NAME:Good day. I'm Dulnea Ralaal, publican of the Eight Plates here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking for someone in particular, I may be able to help. Or do you want to entertain the patrons?|BNAM:;Dulnea Ralaal
+
+[MOD-INF]: ID=276181128340255511(Topic:little secret)
+  tribunal.esm----->|DATA|FNAM:Fighters Guild|NAME:You like to poke your nose into doors out in the backcountry? A little suggestion. The places that look like they're made of a golden metal? With spires and towers? Those are Dwarven ruins. They're kinda dangerous -- partly because of the old Dwarven machines in them, and partly because of the kind of things that like to hide out in such old ruins. All the old ruins inside the Ghostfence, for example, are ancient Dwarven ruins. And I hear that vampires like them, too.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  entertainers.esp->|DATA|NAME:Oh. Do you play the lute? You might talk to Dulnea Ralaal in Balmora, at the Eight Plates Cornerclub. I hear she hires performers to entertain her patrons.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:25IX3misc_de_lute_01|INTV
+
+[MOD-INF]: ID=276181128340255511(Topic:little secret)
+  tribunal.esm----->|DATA|FNAM:Fighters Guild|NAME:You like to poke your nose into doors out in the backcountry? A little suggestion. The places that look like they're made of a golden metal? With spires and towers? Those are Dwarven ruins. They're kinda dangerous -- partly because of the old Dwarven machines in them, and partly because of the kind of things that like to hide out in such old ruins. All the old ruins inside the Ghostfence, for example, are ancient Dwarven ruins. And I hear that vampires like them, too.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  entertainers.esp->|DATA|NAME:Oh. Do you play the lute? You might talk to Dulnea Ralaal in Balmora, at the Eight Plates Cornerclub. I hear she hires performers to entertain her patrons.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:25IX3misc_de_lute_01|INTV
+[MOD-IID]: ID=6543141622156630875
+  entertainers.esp->You like to poke your nose into doors out in the backcountry? A little suggestion. The places that look like they're made of a golden metal? With spires and towers? Those are Dwarven ruins. They're kinda dangerous -- partly because of the old Dwarven machines in them, and partly because of the kind of things that like to hide out in such old ruins. All the old ruins inside the Ghostfence, for example, are ancient Dwarven ruins. And I hear that vampires like them, too.
+
+[MOD-INF]: ID=2273810231244525640(Topic:latest rumors)
+  tribunal.esm----->|DATA|ANAM:Balmora|NAME:Look. It's not just the crops and herds. The blight storms are making everyone sick. It's not an easy cure, even for a Temple, and all they've got in the backcountry is the odd healer and pilgrim shrine.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;random100 <= 15;
+  entertainers.esp->|DATA|ANAM:Balmora|NAME:Look. It's not just the crops and herds. The blight storms are making everyone sick. It's not an easy cure, even for a Temple, and all they've got in the backcountry is the odd healer and pilgrim shrine.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:24JX4C3_DestroyDagoth|INTV:2|BNAM:;random100 <= 15;
+
+[MOD-INF]: ID=18942174661163931960(Topic:latest rumors)
+  tribunal.esm----->|DATA|ANAM:Balmora|NAME:Everyone knows who really runs House Hlaalu. It's not the councilors. No one sits on that council unless it suits Orvas Dren.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;random100 <= 30;
+  entertainers.esp->|DATA|ANAM:Balmora|NAME:Everyone knows who really runs House Hlaalu. It's not the councilors. No one sits on that council unless it suits Orvas Dren.|SCVR:02sX4Random100|INTV:(|SCVR:1CsX0NoLore|INTV:|BNAM:;random100 <= 30;

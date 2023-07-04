@@ -1,0 +1,32 @@
+FGI_DuraGraBolsHouseReclaimed_Patch.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSVER NUMRECS OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                      0 (plugin)    1567893 (installed size)
+    [NUMRECS]: number of records in TES3.HEDR (34) != Actual count (28)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FGI_UrulGroKhagurScript)
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	tribunal.esm        DIAL    fg_orcbounty
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dura gra-bol
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=65271633229816656(Journal:fg_orcbounty)
+  |DATA|NAME:Eydis Fire-Eye told me she has a 250 gold bounty on the Orc Dura gra-Bol who lives in Balmora.
+
+[DUP-INF]: ID=622229347284449845(Topic:dura gra-bol)
+  |DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:It seems straightforward to me. Dura gra-Bol really is wanted for murder.
+
+[DUP-INF]: ID=1052313156405920656(Greeting:greeting 5)
+  |DATA|ONAM:eydis fire-eye|NAME:Give me the status on Dura gra-Bol. Surely you haven't botched up this mission, have you?|SCVR:04JX3FG_OrcBounty|INTV: |SCVR:14JX4FG_OrcBounty|INTV:d
+
+[DUP-INF]: ID=1935516433253969429(Journal:fg_orcbounty)
+  |DATA|NAME:Eydis Fire-Eye paid me 250 gold for the contract on Dura gra-Bol.|QSTF
+
+[DUP-INF]: ID=21189208202122430882(Topic:orders)
+  |DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I have a bounty contract for the Orc Dura gra-Bol.|SCVR:34JX3FG_DeseleDebt|INTV:d
+
+[DUP-INF]: ID=21692255892270030225(Journal:fg_orcbounty)
+  |DATA|NAME:Fighters Guild: Gra-Bol's Bounty|QSTN

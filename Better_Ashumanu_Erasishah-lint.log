@@ -1,0 +1,195 @@
+Better_Ashumanu_Erasishah.ESP: DUP-INF DUP-REC EVLGMST MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [EVLGMST] Tribunal(11) Bloodmoon(61):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfalarmmessage
+	BM swerewolfpopup
+	BM swerewolfrefusal
+	BM swerewolfrestmessage
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+	TB steleportdisabled
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage
+
+[DUP-INF]: ID=170686103927626649(Persuasion:service refusal)
+  |DATA|CNAM:Priest Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+
+[MOD-INF]: ID=277125218205084722(:service refusal)
+  morrowind.esm----------------->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Better_Ashumanu_Erasishah.ESP->|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|DELE:
+
+[MOD-INF]: ID=277125218205084722(:service refusal)
+  morrowind.esm----------------->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Better_Ashumanu_Erasishah.ESP->|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|DELE:
+[MOD-IID]: ID=21193325712893624714(Persuasion:service refusal)
+  Better_Ashumanu_Erasishah.ESP->I'm not going to buy that Skooma from you. Get rid of it and then we can trade.
+
+[MOD-INF]: ID=437731057154051750(Persuasion:service refusal)
+  morrowind.esm----------------->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Better_Ashumanu_Erasishah.ESP->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:27XX0ashumanu eraishah|INTV:
+
+[MOD-INF]: ID=437731057154051750(Persuasion:service refusal)
+  morrowind.esm----------------->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Better_Ashumanu_Erasishah.ESP->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:27XX0ashumanu eraishah|INTV:
+[MOD-IID]: ID=2062474453246025946
+  Better_Ashumanu_Erasishah.ESP->You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.
+
+[MOD-INF]: ID=2456544071464426424(:service refusal)
+  morrowind.esm----------------->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Better_Ashumanu_Erasishah.ESP->|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|DELE:
+
+[MOD-INF]: ID=2456544071464426424(:service refusal)
+  morrowind.esm----------------->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Better_Ashumanu_Erasishah.ESP->|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|DELE:
+[MOD-IID]: ID=2062474453246025946(Persuasion:service refusal)
+  Better_Ashumanu_Erasishah.ESP->You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.
+
+[MOD-INF]: ID=3034922702178419782(Persuasion:service refusal)
+  morrowind.esm----------------->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Better_Ashumanu_Erasishah.ESP->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:27XX0ashumanu eraishah|INTV
+
+[MOD-INF]: ID=3034922702178419782(Persuasion:service refusal)
+  morrowind.esm----------------->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Better_Ashumanu_Erasishah.ESP->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:27XX0ashumanu eraishah|INTV
+[MOD-IID]: ID=21193325712893624714
+  Better_Ashumanu_Erasishah.ESP->I'm not going to buy that Skooma from you. Get rid of it and then we can trade.
+
+[DUP-INF]: ID=3576191201815529709(Persuasion:service refusal)
+  |DATA|CNAM:Priest Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:

@@ -1,0 +1,150 @@
+CultSheog.ESP: DUP-REC GETSND MENUMOD MISSAUT MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(FSheog_Sc_AzuraShrineStaada)
+	SCPT(FSheog_Sc_Cid2NPC)
+	SCPT(FSheog_Sc_Haki1Rock)
+	SCPT(FSheog_Sc_Haki2Ice)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FSheog_Sc_AzuraShrine)
+	SCPT(FSheog_Sc_AzuraZaintiraris)
+	SCPT(FSheog_Sc_Burzob)
+	SCPT(FSheog_Sc_Burzob1Egg)
+	SCPT(FSheog_Sc_Burzob1Greaves)
+	SCPT(FSheog_Sc_Cid1EggEsu)
+	SCPT(FSheog_Sc_Cid2EggAld)
+	SCPT(FSheog_Sc_Cid2Knights)
+	SCPT(FSheog_Sc_Cid3Pillow)
+	SCPT(FSheog_Sc_Cid4EggEat)
+	SCPT(FSheog_Sc_Cid4EggRemove)
+	SCPT(FSheog_Sc_Cid6NPC)
+	SCPT(FSheog_Sc_Cid6NPC2)
+	SCPT(FSheog_Sc_Cid6Throne)
+	SCPT(FSheog_Sc_Cid6dbattack)
+	SCPT(FSheog_Sc_Cid6dbattackstop)
+	SCPT(FSheog_Sc_Cid7Agarond)
+	SCPT(FSheog_Sc_Cid7BackupNPC)
+	SCPT(FSheog_Sc_Cid7DialDott)
+	SCPT(FSheog_Sc_Cid7DialGuard)
+	SCPT(FSheog_Sc_Cid7DialSlave)
+	SCPT(FSheog_Sc_Cid7Stool)
+	SCPT(FSheog_Sc_Cidamet)
+	SCPT(FSheog_Sc_Critter)
+	SCPT(FSheog_Sc_Dott)
+	SCPT(FSheog_Sc_Guard)
+	SCPT(FSheog_Sc_Haki3Clannfear)
+	SCPT(FSheog_Sc_Haki3ClannfearSummon)
+	SCPT(FSheog_Sc_Haki_Ihinipalit)
+	SCPT(FSheog_Sc_Haki_theHalt)
+	SCPT(FSheog_Sc_Jayred)
+	SCPT(FSheog_Sc_Llervu)
+	SCPT(FSheog_Sc_NPC)
+	SCPT(FSheog_Sc_NPC_Nolore)
+	SCPT(FSheog_Sc_ObscureSpellsNPC)
+	SCPT(FSheog_Sc_SoulSellerNPC)
+	SCPT(FSheog_Sc_Soulgem_AlmaR)
+	SCPT(FSheog_Sc_Soulgem_SilR)
+	SCPT(FSheog_Sc_Soulgem_VivecR)
+	SCPT(FSheog_Sc_Staada)
+	SCPT(FSheog_Sc_TimedGreet)
+	SCPT(FSheog_Sc_TimedGreet2)
+	SCPT(FSheog_Sc_Ulani)
+	SCPT(FSheog_Sc_Vuggjunsta)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    forts
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    cliff racer
+	morrowind.esm       DIAL    cure skooma addict
+	morrowind.esm       DIAL    daedra's heart
+	morrowind.esm       DIAL    disappearance of the dwarves
+	morrowind.esm       DIAL    dwemer ruins
+	morrowind.esm       DIAL    empire
+	morrowind.esm       DIAL    gambolpuddy
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    guar
+	morrowind.esm       DIAL    hlireni indavel
+	morrowind.esm       DIAL    imperial legion
+	morrowind.esm       DIAL    info refusal
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    madstone
+	morrowind.esm       DIAL    nudity
+	morrowind.esm       DIAL    player of the game
+	morrowind.esm       DIAL    rope climbing
+	morrowind.esm       DIAL    rules
+	morrowind.esm       DIAL    sheogorath
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    thief
+	morrowind.esm       DIAL    weresharks
+	morrowind.esm       NPC_    agarond
+	morrowind.esm       NPC_    aralosea romori
+	morrowind.esm       NPC_    bjadmund
+	morrowind.esm       NPC_    bulfim_gra_shugarz
+	morrowind.esm       NPC_    burzob gra-sharbag
+	morrowind.esm       NPC_    camas
+	morrowind.esm       NPC_    depusanis denian
+	morrowind.esm       NPC_    dortodd
+	morrowind.esm       NPC_    dryngheid
+	morrowind.esm       NPC_    eigma
+	morrowind.esm       NPC_    eradan
+	morrowind.esm       NPC_    ernard genis
+	morrowind.esm       NPC_    gulitte cienne
+	morrowind.esm       NPC_    haki
+	morrowind.esm       NPC_    haki the halt
+	morrowind.esm       NPC_    hlar
+	morrowind.esm       NPC_    hlireni indavel
+	morrowind.esm       NPC_    holmgeira
+	morrowind.esm       NPC_    horulia jannus
+	morrowind.esm       NPC_    hurnfing
+	morrowind.esm       NPC_    hyring
+	morrowind.esm       NPC_    irinwe
+	morrowind.esm       NPC_    jart
+	morrowind.esm       NPC_    jathlanie
+	morrowind.esm       NPC_    je tee
+	morrowind.esm       NPC_    jolding
+	morrowind.esm       NPC_    kar alber
+	morrowind.esm       NPC_    kardryn
+	morrowind.esm       NPC_    levus musilchiotus
+	morrowind.esm       NPC_    lloden tenim
+	morrowind.esm       NPC_    methulu ienith
+	morrowind.esm       NPC_    nevusa veleth
+	morrowind.esm       NPC_    oisig
+	morrowind.esm       NPC_    ormax geles
+	morrowind.esm       NPC_    pelena acicius
+	morrowind.esm       NPC_    rithrannir
+	morrowind.esm       NPC_    sloomalah
+	morrowind.esm       NPC_    stlubo otiustiris
+	morrowind.esm       NPC_    terer helothan
+	morrowind.esm       NPC_    torline
+	morrowind.esm       NPC_    tunengore
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    ald daedroth
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    b2_ahemmusasafe
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    favor
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    guard
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    maelkashishi
+	tribunal.esm        DIAL    mournhold
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    spear of bitter mercy
+	tribunal.esm        DIAL    transport to mournhold

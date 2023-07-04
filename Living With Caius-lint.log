@@ -1,0 +1,22 @@
+Living With Caius.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       DIAL    report to caius cosades
+	morrowind.esm       LAND    (-2, -2)
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       PGRD    balmora
+	morrowind.esm       PGRD    balmora, caius cosades' house
+
+[MOD-INF]: ID=1987530856903725209(Topic:report to caius cosades)
+  morrowind.esm--------->|DATA|ONAM:caius cosades|NAME:Good. Welcome to the service, Novice %PCName. Now you belong to the Blades. We're the Emperor's eyes and ears in the provinces. You can use my bed if you need to rest, but leave my personal stuff alone unless I say otherwise. If you like, you can improve your modest skills with our Blades Trainers now. Or if you're in a hurry. I can give you orders right away. But don't forget to visit the Blades Trainers.|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_1_FindSpymaster", 14  PCJoinFaction "Blades"  modDisposition 10  "Rithleen"->modDisposition 20  "Tyermaillin"->modDisposition 20  "Nine_Toes"->modDisposition 20  "Surane Leoriane"->modDisposition 20  "Gildan"->modDisposition 20  "Sjorvar Horse-Mouth"->modDisposition 20
+  Living With Caius.ESP->|DATA|ONAM:caius cosades|NAME:Good. Welcome to the service, Novice %PCName. Now you belong to the Blades. We're the Emperor's eyes and ears in the provinces. You can use my bed or spare room upstairs if you need to rest, but leave my personal stuff alone unless I say otherwise. If you like, you can improve your modest skills with our Blades Trainers now. Or if you're in a hurry. I can give you orders right away. But don't forget to visit the Blades Trainers.|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_1_FindSpymaster", 14  Player->additem "OJ_LWC_Key", 1  PCJoinFaction "Blades"  modDisposition 10  "Rithleen"->modDisposition 20  "Tyermaillin"->modDisposition 20  "Nine_Toes"->modDisposition 20  "Surane Leoriane"->modDisposition 20  "Gildan"->modDisposition 20  "Sjorvar Horse-Mouth"->modDisposition 20

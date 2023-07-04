@@ -1,0 +1,17 @@
+Go To Jail.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JailBedScript)
+	SCPT(JailPlaceScript)
+	SCPT(jailGuard2Script)
+	SCPT(jailGuard3Script)
+	SCPT(jailGuardCaptianScript)
+	SCPT(jailGuardScript)
+	SCPT(jailsoleanuccusius)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    solea nuccusius
+	tribunal.esm        DIAL    greeting 0
+
+[MOD-INF]: ID=20172142971264027114(Greeting:greeting 0)
+  morrowind.esm-->|DATA|CNAM:Guard|NAME:Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:GotoJail  Goodbye
+  Go To Jail.esp->|DATA|CNAM:Guard|NAME:Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:set jailmode to 1  Goodbye

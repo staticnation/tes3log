@@ -1,0 +1,15 @@
+BigToothStonewoodPass.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(NV_BT_TimePassed)
+	SCPT(NV_BigTooth_Script)
+	SCPT(NV_Mandur_Script)
+	SCPT(NV_SmallKag_Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=2259126300285733451(Greeting:greeting 1)
+  |DATA|ONAM:ulfgar the unending|NAME:Ah, a visitor.  It's been quite a while since I've had any company, friend.  I'm afraid I don't have much to offer a guest...unless, of course, you've come to hear a barbarian's sad tale.|SCVR:04JX3BM_BrodirGrove|INTV:|SCVR:14JX4BM_BrodirGrove|INTV
+
+[DUP-INF]: ID=26665154423101328751(Greeting:greeting 1)
+  |DATA|ONAM:ulfgar the unending|NAME:%PCName, I...I wasn't sure you'd return.  Tell me...have you come to accept my offer, and engage me in a fight to the death?|SCVR:04JX0BM_BrodirGrove|INTV:2|BNAM:Choice "Sorry, Ulfgar, I can't help you." 2 "I'll help you, Ulfgar.  I will do everything in my power to defeat you in armed combat." 3

@@ -1,0 +1,8 @@
+abotMoveOrTakeMyPlace.esp: EXP-DEP MENUMOD
+    [EXP-DEP] Expansion Dependency: Startup Script: ab01tmponloadscript
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(ab01tmpScanScript)              getpcsneaking
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01tmpBumpScript)
+	SCPT(ab01tmpMoveAwayScript)
+	SCPT(ab01tmpOnLoadScript)

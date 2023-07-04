@@ -1,0 +1,16 @@
+Ranked Living Quarters.esp: EXP-DEP GETSND MENUMOD MISSVER
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(or_Practice_Dummy_)             getweapontype
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(or_Practice_Dummy_)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(or_fglq_doorscript_rank)
+	SCPT(or_hhlq_hlaaludoorscript_rank)
+	SCPT(or_hrlq_redorandoorscript_rank)
+	SCPT(or_htlq_telvannidoorscript_rank)
+	SCPT(or_iclq_cultdoorscript_rank)
+	SCPT(or_illq_doorscript_rank)
+	SCPT(or_mglq_doorscript_rank)
+	SCPT(or_mtlq_doorscript_rank)
+	SCPT(or_tglq_doorscript_rank)
+	SCPT(or_tlq_doorscript_rank)

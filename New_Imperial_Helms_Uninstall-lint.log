@@ -1,0 +1,13 @@
+New_Imperial_Helms_Uninstall.esp: DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Startup Script: helm_uninstall
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Imp_Equip)
+	SCPT(Temp_Equip)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    duke's guard
+	morrowind.esm       NPC_    duke's guard_tomb
+	morrowind.esm       NPC_    duke's guard_tomb2
+	morrowind.esm       NPC_    imperial guard captain
+	morrowind.esm       NPC_    imperial guard_ebonhear
+	morrowind.esm       NPC_    imperial templar_ebon

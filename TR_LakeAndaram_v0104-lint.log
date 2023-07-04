@@ -1,0 +1,1038 @@
+TR_LakeAndaram_v0104.ESP: DUP-INF DUP-REC FOGBUG JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10961425 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            163703637 (plugin)  163244128 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Hlan Oek, Council Company Tradehouse
+	Idathren, Sadri's Cornerclub
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(TR_m7_Beldros_Rethelius_scr)
+	SCPT(TR_m7_Belera_Veran_scr)
+	SCPT(TR_m7_Boderi_Ulen_scr)
+	SCPT(TR_m7_CB_Guar_Farm_sc)
+	SCPT(TR_m7_HOGuide_Ash_scr)
+	SCPT(TR_m7_HOGuide_Mural_scr)
+	SCPT(TR_m7_HOGuide_Ruin_scr)
+	SCPT(TR_m7_LA4_eggmine_stage1_sc)
+	SCPT(TR_m7_LA4_eggmine_stage2_sc)
+	SCPT(TR_m7_LA4_eggmine_stage3_sc)
+	SCPT(TR_m7_LA4_eggmine_stage4_sc)
+	SCPT(TR_m7_LA4_eggmine_stage5_sc)
+	SCPT(TR_m7_LA4_kwama_queen_sc)
+	SCPT(TR_m7_LA6_Tomb_1_Button_Sc)
+	SCPT(TR_m7_Lysenia_Rethelius_scr)
+	SCPT(TR_m7_Nishahi_scr)
+	SCPT(TR_m7_Othrano_Staff_Satarat_Sc)
+	SCPT(TR_m7_Pub_HlaaluFerry)
+	SCPT(TR_m7_Remyon_Nedalas_scr)
+	SCPT(TR_m7_q_StraboLedger_scr)
+	SCPT(TR_m7_q_StraboReport_scr)
+	SCPT(TR_m7_q_Strabo_scr)
+    [JUNKCEL] Junk Cells:                        Flags
+	Aanthirin Region (0, -25)                0x02
+	Aanthirin Region (0, -30)                0x02
+	Aanthirin Region (10, -25)               0x02
+	Aanthirin Region (11, -27)               0x02
+	Aanthirin Region (12, -30)               0x02
+	Aanthirin Region (12, -31)               0x02
+	Aanthirin Region (13, -28)               0x02
+	Aanthirin Region (2, -31)                0x02
+	Aanthirin Region (5, -24)                0x02
+	Aanthirin Region (8, -22)                0x02
+	Aanthirin Region (8, -26)                0x02
+	Aanthirin Region (8, -28)                0x02
+	Aanthirin Region (9, -21)                0x02
+	Armun Ashlands Region (-1, -30)          0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    lavacrust02.tga
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    tx_ai_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_mainroad_01
+	tr_mainland.esm     DOOR    tr_door_rent_almasthirr_hc
+	tr_mainland.esm     LTEX    ac_darkgravel
+	tr_mainland.esm     LTEX    ac_darkstone01
+	tr_mainland.esm     LTEX    ac_darkstone02
+	tr_mainland.esm     LTEX    ac_darkstone_grass
+	tr_mainland.esm     LTEX    ac_dirt_01
+	tr_mainland.esm     LTEX    ac_dirt_grass_01
+	tr_mainland.esm     LTEX    ac_dirt_grass_02
+	tr_mainland.esm     LTEX    ac_dirtroad_01
+	tr_mainland.esm     LTEX    ac_roundstone
+	tr_mainland.esm     LTEX    ac_scrubplain_01
+	tr_mainland.esm     LTEX    ac_scrubplain_02
+	tr_mainland.esm     LTEX    ai_clover
+	tr_mainland.esm     LTEX    ai_dirt
+	tr_mainland.esm     LTEX    ai_dirtroad
+	tr_mainland.esm     LTEX    ai_grass
+	tr_mainland.esm     LTEX    ai_grass_02
+	tr_mainland.esm     LTEX    ai_grass_cobbles
+	tr_mainland.esm     LTEX    ai_grass_dirt
+	tr_mainland.esm     LTEX    ai_grass_rocky
+	tr_mainland.esm     LTEX    ai_mudflats_01.tga
+	tr_mainland.esm     LTEX    ai_tilled_dirt
+	tr_mainland.esm     LTEX    al_ash_01
+	tr_mainland.esm     LTEX    al_ash_02
+	tr_mainland.esm     LTEX    al_ash_03
+	tr_mainland.esm     LTEX    al_ash_04
+	tr_mainland.esm     LTEX    al_road_01
+	tr_mainland.esm     LTEX    daedric_scrubruins
+	tr_mainland.esm     LTEX    gl_dirt_01
+	tr_mainland.esm     LTEX    gl_dirt_02
+	tr_mainland.esm     LTEX    gl_dirt_grass_01
+	tr_mainland.esm     LTEX    gl_dirt_grass_02
+	tr_mainland.esm     LTEX    gl_dirtroad
+	tr_mainland.esm     LTEX    gl_grass_01
+	tr_mainland.esm     LTEX    gl_grass_02
+	tr_mainland.esm     LTEX    gl_grass_03
+	tr_mainland.esm     LTEX    gl_grass_04
+	tr_mainland.esm     LTEX    gl_grass_05
+	tr_mainland.esm     LTEX    gl_rock_01
+	tr_mainland.esm     LTEX    gl_rock_02
+	tr_mainland.esm     LTEX    ma_crackedearth
+	tr_mainland.esm     LTEX    ma_lava
+	tr_mainland.esm     LTEX    ma_lava02
+	tr_mainland.esm     LTEX    ma_lava03
+	tr_mainland.esm     LTEX    ma_lava04
+	tr_mainland.esm     LTEX    ma_lava05
+	tr_mainland.esm     LTEX    ma_lava06
+	tr_mainland.esm     LTEX    ma_lavacrust.tga
+	tr_mainland.esm     LTEX    ma_lavaflow
+	tr_mainland.esm     LTEX    ma_lavarock
+	tr_mainland.esm     LTEX    ma_rock04
+	tr_mainland.esm     LTEX    ma_sandstone02
+	tr_mainland.esm     LTEX    ma_sulphur_rock01
+	tr_mainland.esm     LTEX    ma_sulphur_rock02
+	tr_mainland.esm     LTEX    ma_sulphur_rock03
+	tr_mainland.esm     LTEX    ma_sulphur_rock05
+	tr_mainland.esm     LTEX    ma_sulphur_rock06
+	tr_mainland.esm     LTEX    ma_sulphur_rock07
+	tr_mainland.esm     LTEX    ma_sulphur_rock08
+	tr_mainland.esm     LTEX    ma_sulphur_rock09
+	tr_mainland.esm     LTEX    rm_grayrock
+	tr_mainland.esm     LTEX    rm_redrock
+	tr_mainland.esm     LTEX    rm_rock_01
+	tr_mainland.esm     LTEX    rm_rock_02
+	tr_mainland.esm     LTEX    rm_rock_03
+	tr_mainland.esm     LTEX    rm_whiterock
+	tr_mainland.esm     LTEX    road dirt
+	tr_mainland.esm     LTEX    rock_coastal
+	tr_mainland.esm     LTEX    sand
+	tr_mainland.esm     LTEX    sand_02
+	tr_mainland.esm     LTEX    scrub plain
+	tr_mainland.esm     LTEX    t_mw_terrmosscm_01
+	tr_mainland.esm     LTEX    tx_ai_mudflats_01.tga
+	tr_mainland.esm     LTEX    tx_land_darkstone01.tga
+	tr_mainland.esm     LTEX    tx_land_darkstone02.tga
+	tr_mainland.esm     LTEX    tx_rm_grayrock_01.tga
+	tr_mainland.esm     LTEX    tx_rock_wg_01.tga
+	tr_mainland.esm     LTEX    tx_rocky_mt.tga
+	tr_mainland.esm     LTEX    tx_rockyscrub_01.tga
+	tr_mainland.esm     LTEX    wg_cobblestones
+	tr_mainland.esm     LTEX    wg_dirtroad_01
+	tr_mainland.esm     LTEX    wg_dirtscrub
+	tr_mainland.esm     LTEX    wg_road
+	tr_mainland.esm     LTEX    wg_rock
+	tr_mainland.esm     LTEX    wg_rockydirt
+	tr_mainland.esm     LTEX    wg_rockyscrub
+	tr_mainland.esm     LTEX    wg_scrub plain
+	tr_mainland.esm     PGRD    armun ashlands region
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_02.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_04.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_05.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_06.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_rock_01.dds
+	morrowind.esm       DIAL    betty netch
+	morrowind.esm       DIAL    bull netch
+	morrowind.esm       LTEX    tx_lavacrust00.tga
+	tamriel_data.esm    DIAL    chimer
+	tamriel_data.esm    DIAL    cyrodiilic brandy
+	tamriel_data.esm    DIAL    fighters guild
+	tamriel_data.esm    DIAL    mages guild
+	tamriel_data.esm    DIAL    redguard
+	tamriel_data.esm    DIAL    thieves guild
+	tamriel_data.esm    LTEX    t_ayl_dngruin_txfloor_01
+	tamriel_data.esm    LTEX    t_cyr_terrdirtch_01
+	tamriel_data.esm    LTEX    t_cyr_terrdirtgc_01
+	tamriel_data.esm    LTEX    t_cyr_terrdirtkp_01
+	tamriel_data.esm    LTEX    t_cyr_terrfarmlandch_01
+	tamriel_data.esm    LTEX    t_cyr_terrfarmlandgc_01
+	tamriel_data.esm    LTEX    t_cyr_terrgrasskp_01
+	tamriel_data.esm    LTEX    t_cyr_terrroaddirtch_01
+	tamriel_data.esm    LTEX    t_cyr_terrroadstonegc_01
+	tamriel_data.esm    LTEX    t_de_setind_txcobblestone_01
+	tamriel_data.esm    LTEX    t_de_setind_txcobblestone_02
+	tamriel_data.esm    LTEX    t_de_setind_txornatefloor_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txcobblestone_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txfloor_01
+	tamriel_data.esm    LTEX    t_de_setnecrom_txfloor_02
+	tamriel_data.esm    LTEX    t_glb_terrwater_01
+	tamriel_data.esm    LTEX    t_imp_dngcolbarrow_txfloor_01
+	tamriel_data.esm    LTEX    t_imp_highway_txroaddry_01a
+	tamriel_data.esm    LTEX    t_imp_highway_txroaddry_01b
+	tamriel_data.esm    LTEX    t_imp_highway_txroadgrs_01a
+	tamriel_data.esm    LTEX    t_imp_highway_txroadlvs_02b
+	tamriel_data.esm    LTEX    t_mw_terrcloverat
+	tamriel_data.esm    LTEX    t_mw_terrcobblestoneat
+	tamriel_data.esm    LTEX    t_mw_terrdaestoneat
+	tamriel_data.esm    LTEX    t_mw_terrdaestonesh
+	tamriel_data.esm    LTEX    t_mw_terrdirtgrassat
+	tamriel_data.esm    LTEX    t_mw_terrdirtmudsh
+	tamriel_data.esm    LTEX    t_mw_terrdirtow_01
+	tamriel_data.esm    LTEX    t_mw_terrdirtrocksh
+	tamriel_data.esm    LTEX    t_mw_terrdirtrocktv
+	tamriel_data.esm    LTEX    t_mw_terrdirtrr
+	tamriel_data.esm    LTEX    t_mw_terrdirtrr_02
+	tamriel_data.esm    LTEX    t_mw_terrdirtscrubow_01
+	tamriel_data.esm    LTEX    t_mw_terrdirtsh_01
+	tamriel_data.esm    LTEX    t_mw_terrdirtsh_02
+	tamriel_data.esm    LTEX    t_mw_terrdirttilledow_01
+	tamriel_data.esm    LTEX    t_mw_terrdirttilledsh_01
+	tamriel_data.esm    LTEX    t_mw_terrdirttv
+	tamriel_data.esm    LTEX    t_mw_terrgrass_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassalma_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassat
+	tamriel_data.esm    LTEX    t_mw_terrgrasscm_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassdirttv
+	tamriel_data.esm    LTEX    t_mw_terrgrassgl_01
+	tamriel_data.esm    LTEX    t_mw_terrgrassmosstv
+	tamriel_data.esm    LTEX    t_mw_terrgrassrr_01
+	tamriel_data.esm    LTEX    t_mw_terrgrasstv
+	tamriel_data.esm    LTEX    t_mw_terrgravelvm_01
+	tamriel_data.esm    LTEX    t_mw_terrroaddirt_01
+	tamriel_data.esm    LTEX    t_mw_terrroadrr_01
+	tamriel_data.esm    LTEX    t_mw_terrroadsh_01
+	tamriel_data.esm    LTEX    t_mw_terrroadtv
+	tamriel_data.esm    LTEX    t_mw_terrrockaj_01
+	tamriel_data.esm    LTEX    t_mw_terrrockaj_02
+	tamriel_data.esm    LTEX    t_mw_terrrockbrown_01
+	tamriel_data.esm    LTEX    t_mw_terrrockgrassrr_01
+	tamriel_data.esm    LTEX    t_mw_terrrockmosstv
+	tamriel_data.esm    LTEX    t_mw_terrrockow_01
+	tamriel_data.esm    LTEX    t_mw_terrrockow_02
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_01
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_02
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_03
+	tamriel_data.esm    LTEX    t_mw_terrrockrr_04
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_01
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_01b
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_02
+	tamriel_data.esm    LTEX    t_mw_terrrocksh_03
+	tamriel_data.esm    LTEX    t_mw_terrrocktv
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_01
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_01b
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_01c
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_02
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_03
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_04
+	tamriel_data.esm    LTEX    t_mw_terrscrubow_04b
+	tamriel_data.esm    LTEX    t_mw_terrscrubrr
+	tamriel_data.esm    LTEX    t_mw_terrscrubrr_02
+	tamriel_data.esm    LTEX    t_mw_terrscrubsh
+	tamriel_data.esm    LTEX    t_mw_terrscrubsnow_01
+	tamriel_data.esm    LTEX    t_nor_dngbarrowfort_txfloor_01
+	tamriel_data.esm    LTEX    t_sky_terrgravel_01
+	tamriel_data.esm    LTEX    t_sky_terrrockem_01
+	tamriel_data.esm    LTEX    t_sky_terrseaweed_01
+	tamriel_data.esm    LTEX    t_sky_terrseaweed_02
+	tamriel_data.esm    LTEX    t_sky_terrseaweed_03
+	tr_mainland.esm     ACTI    tr_m4_t_nuccius_mover_1
+	tr_mainland.esm     DIAL    aanthirin
+	tr_mainland.esm     DIAL    abolitionists
+	tr_mainland.esm     DIAL    across the bridge
+	tr_mainland.esm     DIAL    aimrah
+	tr_mainland.esm     DIAL    almas thirr
+	tr_mainland.esm     DIAL    armun ashlands
+	tr_mainland.esm     DIAL    bloodstone pilgrimage
+	tr_mainland.esm     DIAL    bloodstone shrine
+	tr_mainland.esm     DIAL    cremation services
+	tr_mainland.esm     DIAL    darane navur
+	tr_mainland.esm     DIAL    destination
+	tr_mainland.esm     DIAL    dreugh
+	tr_mainland.esm     DIAL    feril's death
+	tr_mainland.esm     DIAL    food
+	tr_mainland.esm     DIAL    go free
+	tr_mainland.esm     DIAL    guar
+	tr_mainland.esm     DIAL    house hlaalu
+	tr_mainland.esm     DIAL    house indoril
+	tr_mainland.esm     DIAL    indoril ilvi
+	tr_mainland.esm     DIAL    introduction to hermaean logic
+	tr_mainland.esm     DIAL    join the temple
+	tr_mainland.esm     DIAL    lake andaram
+	tr_mainland.esm     DIAL    lanette
+	tr_mainland.esm     DIAL    llorissa faali
+	tr_mainland.esm     DIAL    local area
+	tr_mainland.esm     DIAL    local economy
+	tr_mainland.esm     DIAL    necrom
+	tr_mainland.esm     DIAL    nelos llothri
+	tr_mainland.esm     DIAL    office of intercession
+	tr_mainland.esm     DIAL    roa dyr
+	tr_mainland.esm     DIAL    saint seryn
+	tr_mainland.esm     DIAL    saint veloth
+	tr_mainland.esm     DIAL    thirr river
+	tr_mainland.esm     DIAL    words of wisdom
+	tr_mainland.esm     LAND    (-1, -30)
+	tr_mainland.esm     LAND    (-4, -30)
+	tr_mainland.esm     LAND    (-5, -30)
+	tr_mainland.esm     LAND    (-6, -31)
+	tr_mainland.esm     LAND    (0, -30)
+	tr_mainland.esm     LAND    (0, -31)
+	tr_mainland.esm     LAND    (1, -31)
+	tr_mainland.esm     LAND    (10, -25)
+	tr_mainland.esm     LAND    (10, -26)
+	tr_mainland.esm     LAND    (10, -27)
+	tr_mainland.esm     LAND    (11, -25)
+	tr_mainland.esm     LAND    (11, -26)
+	tr_mainland.esm     LAND    (11, -27)
+	tr_mainland.esm     LAND    (11, -31)
+	tr_mainland.esm     LAND    (12, -28)
+	tr_mainland.esm     LAND    (12, -31)
+	tr_mainland.esm     LAND    (12, -32)
+	tr_mainland.esm     LAND    (2, -31)
+	tr_mainland.esm     LAND    (4, -27)
+	tr_mainland.esm     LAND    (4, -28)
+	tr_mainland.esm     LAND    (4, -29)
+	tr_mainland.esm     LAND    (5, -24)
+	tr_mainland.esm     LAND    (5, -27)
+	tr_mainland.esm     LAND    (5, -28)
+	tr_mainland.esm     LAND    (5, -29)
+	tr_mainland.esm     LAND    (6, -23)
+	tr_mainland.esm     LAND    (6, -24)
+	tr_mainland.esm     LAND    (6, -27)
+	tr_mainland.esm     LAND    (6, -28)
+	tr_mainland.esm     LAND    (6, -29)
+	tr_mainland.esm     LAND    (7, -27)
+	tr_mainland.esm     LAND    (7, -28)
+	tr_mainland.esm     LAND    (7, -29)
+	tr_mainland.esm     LAND    (8, -21)
+	tr_mainland.esm     LAND    (8, -22)
+	tr_mainland.esm     LAND    (8, -26)
+	tr_mainland.esm     LAND    (8, -27)
+	tr_mainland.esm     LAND    (8, -28)
+	tr_mainland.esm     LAND    (9, -21)
+	tr_mainland.esm     LAND    (9, -26)
+	tr_mainland.esm     LTEX    t_mw_gl_rock_03
+	tr_mainland.esm     LTEX    t_mw_terr_dirtgrassat
+	tr_mainland.esm     LTEX    t_mw_terr_grassat
+	tr_mainland.esm     LTEX    tr_alm_street1
+	tr_mainland.esm     LTEX    tr_alm_street1.dds
+	tr_mainland.esm     LTEX    tr_ant_cliffs1
+	tr_mainland.esm     LTEX    tr_nec_groundtexture
+	tr_mainland.esm     LTEX    tr_necrom_floor01
+	tr_mainland.esm     LTEX    tx_grass_01.tga
+	tr_mainland.esm     LTEX    tx_rock_brown_02.tga
+	tr_mainland.esm     NPC_    tr_m3_aeta the spear
+	tr_mainland.esm     NPC_    tr_m3_ano dreloth
+	tr_mainland.esm     NPC_    tr_m3_ivrea llothro
+	tr_mainland.esm     NPC_    tr_m3_lleres sarando
+	tr_mainland.esm     NPC_    tr_m3_ralis nalor
+	tr_mainland.esm     NPC_    tr_m3_riltse helandil
+	tr_mainland.esm     NPC_    tr_m4_arvudcaravguard_1
+	tr_mainland.esm     NPC_    tr_m4_arvudcaravguard_2
+	tr_mainland.esm     NPC_    tr_m4_balyn ilvenes
+	tr_mainland.esm     NPC_    tr_m4_didilu-edinu
+	tr_mainland.esm     NPC_    tr_m4_drovamu llarno
+	tr_mainland.esm     NPC_    tr_m4_ervyna_saran
+	tr_mainland.esm     NPC_    tr_m4_maros_sadryon
+	tr_mainland.esm     PGRD    aanthirin region
+	tr_mainland.esm     PGRD    almas thirr
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+
+[MOD-INF]: ID=21580551962642(Topic:little secret)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:I'm not privy to local secrets. Maybe you could try asking one of the natives.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:I'm not privy to local secrets. Maybe you could try asking one of the natives.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=2006638617641975(Topic:across the bridge)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Ask someone else, outlander.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Ask someone else, outlander.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=2529949306993235(Topic:armun ashlands)
+  tr_mainland.esm---------->|DATA|CNAM:Hunter|NAME:The inhospitable dustbowl of the Armun Ashlands is home to a number of dangerous game such as the brown beetle, the cliff racer, and most notably the Armun kagouti.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:28FX0Ashlanders|INTV|BNAM:;hunter dialogue
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Hunter|NAME:The inhospitable dustbowl of the Armun Ashlands is home to a number of dangerous game such as the brown beetle, the cliff racer, and most notably the Armun kagouti.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:28FX0Ashlanders|INTV|BNAM:;hunter dialogue
+
+[MOD-INF]: ID=7557934239299424(Topic:latest rumors)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:The atmosphere is tense here in Almas Thirr. House Hlaalu and House Indoril are at odds with each other and they're bringing their troubles to the city. The Temple tries its best to keep the peace. If you wish to help, you should speak with Lloris Dalan in the Canalworks Temple.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:14JX0TR_m3_TT_Bloodstone|INTV:|SCVR:22sX0TR_m3_TT_LatestRumorATGlobal|INTV:|SCVR:37XX0TR_m3_Andor Orothi|INTV|SCVR:47XX0TR_m3_Lloris Dalan|INTV|SCVR:53sX0TR_Map|INTV|BNAM:set TR_m3_TT_LatestRumorATGlobal to 1
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:The atmosphere is tense here in Almas Thirr. House Hlaalu and House Indoril are at odds with each other and they're bringing their troubles to the city. The Temple tries its best to keep the peace. If you wish to help, you should speak with Lloris Dalan in the Canalworks Temple.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:14JX0TR_m3_TT_Bloodstone|INTV:|SCVR:22sX0TR_m3_TT_LatestRumorATGlobal|INTV:|SCVR:37XX0TR_m3_Andor Orothi|INTV|SCVR:47XX0TR_m3_Lloris Dalan|INTV|SCVR:53sX0TR_Map|INTV|BNAM:set TR_m3_TT_LatestRumorATGlobal to 1
+
+[MOD-INF]: ID=9837224021190544(Topic:bloodstone shrine)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:It marks where St. Veloth the Pilgrim and his host crossed the Thirr River, following the sacrifice of Sharai the Herder. Follow the trail of dried blood to reach the shrine.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:addtopic "Bloodstone Pilgrimage"
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:It marks where St. Veloth the Pilgrim and his host crossed the Thirr River, following the sacrifice of Sharai the Herder. Follow the trail of dried blood to reach the shrine.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:addtopic "Bloodstone Pilgrimage"
+
+[MOD-INF]: ID=11153500157907052(Topic:latest rumors)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Rumors flow from the House of Troubles, outlander. I will not utter them here in Almas Thirr.|SCVR:03sX0TR_Map|INTV|SCVR:1CsX0T_Local_NoLore|INTV:
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Rumors flow from the House of Troubles, outlander. I will not utter them here in Almas Thirr.|SCVR:03sX0TR_Map|INTV|SCVR:1CsX0T_Local_NoLore|INTV:
+
+[MOD-INF]: ID=11638537046213230(Topic:necrom)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m2_Felmo_Enlaris|NAME:Necrom is the resting place of our ancestors. Most Dunmer visit the city during their lifetime, when accompanying their loved ones to their grave. To pray at the Fane is to behold eras of our glorious history.
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m2_Felmo_Enlaris|NAME:Necrom is the resting place of our ancestors. Most Dunmer visit the city during their lifetime, when accompanying their loved ones to their grave. To pray at the Fane is to behold eras of our glorious history.
+
+[MOD-INF]: ID=15534117390963044(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Barandas Dalveni|ANAM:Almas Thirr|NAME:You do know where the shrine is, don't you? It's on the east bank, inside the Monastery of Saint Veloth. May the Three ease your pain, fellow pilgrim, as you follow in Saint Veloth's footsteps. Take these potions. They will make your journey to the Shrine easier.|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F|SCVR:32sX0tr_m3_bloodstone_help_|BINT:|BNAM:player->AddItem "p_restore_health_c" 3  player->AddItem "p_restore_health_s" 1  set tr_m3_bloodstone_help_B to 1
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Barandas Dalveni|ANAM:Almas Thirr|NAME:You do know where the shrine is, don't you? It's on the east bank, inside the Monastery of Saint Veloth. May the Three ease your pain, fellow pilgrim, as you follow in Saint Veloth's footsteps. Take these potions. They will make your journey to the Shrine easier.|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F|SCVR:32sX0tr_m3_bloodstone_help_|BINT:|BNAM:player->AddItem "p_restore_health_c" 3  player->AddItem "p_restore_health_s" 1  set tr_m3_bloodstone_help_B to 1
+
+[MOD-INF]: ID=16026282578823526(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Alright... false scales that fall over... What does it mean?|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb01" 1  additem "TR_m3_TT_Proverb01" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  Choice "It means that one shouldn't commit fraud when doing business.", 10, "It means that dishonest people, like the Hlaalu, are doomed to fall.", 11, "Lord Ilvi is implying that the Hlaalu are wicked.", 12, "You can interpret it any way you wish. Search for the meaning within.", 13
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Alright... false scales that fall over... What does it mean?|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb01" 1  additem "TR_m3_TT_Proverb01" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  Choice "It means that one shouldn't commit fraud when doing business.", 10, "It means that dishonest people, like the Hlaalu, are doomed to fall.", 11, "Lord Ilvi is implying that the Hlaalu are wicked.", 12, "You can interpret it any way you wish. Search for the meaning within.", 13
+
+[MOD-INF]: ID=16783342447518378(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Rogue|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Rogue|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=17407317681028762(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Alchemist Service|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Alchemist Service|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=19487185593291223(Topic:feril's death)
+  tr_mainland.esm---------->|DATA|CNAM:Guard|ANAM:Almas Thirr|NAME:You shouldn't joke around about things like this, outlander.|SCVR:01500|INTV|SCVR:14JX0TR_m3_AT_HisDeath|INTV:*|SCVR:23sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Guard|ANAM:Almas Thirr|NAME:You shouldn't joke around about things like this, outlander.|SCVR:01500|INTV|SCVR:14JX0TR_m3_AT_HisDeath|INTV:*|SCVR:23sX0TR_Map|INTV
+
+[MOD-INF]: ID=19730471190848305(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Bookseller|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Bookseller|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=20837282025627833(Greeting:greeting 5)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m4_Llaalsa Vathras|NAME:Hello. %PCName is it? Very fine. Welcome to Vathras Plantation. Take a look around; I don't mind tourists. Or, if you're interested in some work, perhaps you'd like to help me with my servant, Ahnaissa.|SCVR:04JX4TR_m4_wil_Ahnaissa|INTV: |BNAM:addtopic "Ahnaissa"
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m4_Llaalsa Vathras|NAME:Hello. %PCName is it? Very fine. Welcome to Vathras Plantation. Take a look around; I don't mind tourists. Or, if you're interested in some work, perhaps you'd like to help me with my servant, Ahnaissa.|SCVR:04JX4TR_m4_wil_Ahnaissa|INTV: |BNAM:addtopic "Ahnaissa"
+
+[MOD-INF]: ID=25523316026367518(Topic:across the bridge)
+  tr_mainland.esm---------->|DATA|RNAM:Khajiit|ANAM:Almas Thirr|NAME:%Name thinks you should ask one of the Dark Elves.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Khajiit|ANAM:Almas Thirr|NAME:%Name thinks you should ask one of the Dark Elves.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=26788192021576497(Topic:services)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Undine Lelard|NAME:The shops are pretty much all on the lower level of the canton, just look around and see if you find something. The local merchants aren't much good, but quantity is a quality of its own I guess. If you're looking to leave Almas Thirr by ship, this landing here is the right place for you. If you want to try traveling on the local bug instead, the north side of Almas Thirr is where the silt striders tie up.
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Undine Lelard|NAME:The shops are pretty much all on the lower level of the canton, just look around and see if you find something. The local merchants aren't much good, but quantity is a quality of its own I guess. If you're looking to leave Almas Thirr by ship, this landing here is the right place for you. If you want to try traveling on the local bug instead, the north side of Almas Thirr is where the silt striders tie up.
+
+[MOD-INF]: ID=28541801571545865(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:I think I've heard enough, thank you.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0control|QINT|SCVR:28FX0Hlaalu|INTV|SCVR:38FX0T_Mw_HouseIndoril|INTV|SCVR:48FX0Temple|INTV|SCVR:54JX5TR_m3_TT_Lloris4|INTV:2
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:I think I've heard enough, thank you.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0control|QINT|SCVR:28FX0Hlaalu|INTV|SCVR:38FX0T_Mw_HouseIndoril|INTV|SCVR:48FX0Temple|INTV|SCVR:54JX5TR_m3_TT_Lloris4|INTV:2
+
+[MOD-INF]: ID=31697844823019202(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Jalor Indo|ANAM:Almas Thirr|NAME:Yes! Yes! Lord Ilvi is right! He truly is blessed with wisdom. The Hlaalu have welcomed the Empire's corruption with open arms and turned their back on the Three. The Indoril are the true defenders of the Faith.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb02" 1  additem "TR_m3_TT_Proverb02" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Jalor Indo|ANAM:Almas Thirr|NAME:Yes! Yes! Lord Ilvi is right! He truly is blessed with wisdom. The Hlaalu have welcomed the Empire's corruption with open arms and turned their back on the Three. The Indoril are the true defenders of the Faith.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb02" 1  additem "TR_m3_TT_Proverb02" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+
+[MOD-INF]: ID=36897881886621305(Topic:specific place)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:The canton has four levels. Senior clergy reside in the plaza, and the waistworks house the Ordinator barracks and Temple offices. The canalworks is where the common folk gather. Hardly anyone heads down into the underworks. Pilgrims flock to the Bloodstone Shrine, found in the monastery near the eastern docks.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|INTV|INTV|BNAM:;Bloodstone Shrine
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:The canton has four levels. Senior clergy reside in the plaza, and the waistworks house the Ordinator barracks and Temple offices. The canalworks is where the common folk gather. Hardly anyone heads down into the underworks. Pilgrims flock to the Bloodstone Shrine, found in the monastery near the eastern docks.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|INTV|INTV|BNAM:;Bloodstone Shrine
+
+[MOD-INF]: ID=41013725467219015(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Lloris Dalan|ANAM:Almas Thirr|NAME:The Shrine is on the eastern coast of the Thirr, %PCRank. But while you're here, have you taken a look at Elynu's potions?|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Lloris Dalan|ANAM:Almas Thirr|NAME:The Shrine is on the eastern coast of the Thirr, %PCRank. But while you're here, have you taken a look at Elynu's potions?|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F
+
+[MOD-INF]: ID=43795452392831472(Topic:feril's death)
+  tr_mainland.esm---------->|DATA|CNAM:Guard|ANAM:Almas Thirr|NAME:Thank you for bringing this to our attention. We'll see that Drelegor is brought to justice.|SCVR:01500|INTV|SCVR:14JX0TR_m3_AT_HisDeath|INTV:*|SCVR:23sX0TR_Map|INTV|BNAM:Journal "TR_m3_AT_HisDeath" 45  "TR_m3_Drelegor Ulesseth"->Disable
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Guard|ANAM:Almas Thirr|NAME:Thank you for bringing this to our attention. We'll see that Drelegor is brought to justice.|SCVR:01500|INTV|SCVR:14JX0TR_m3_AT_HisDeath|INTV:*|SCVR:23sX0TR_Map|INTV|BNAM:Journal "TR_m3_AT_HisDeath" 45  "TR_m3_Drelegor Ulesseth"->Disable
+
+[MOD-INF]: ID=44743379302482198(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Okay.|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Okay.|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=49752389310330696(Topic:services)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME:END ALMAS THIRR S|ERVI
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME:END ALMAS THIRR SERVICES
+
+[MOD-INF]: ID=54651852848217776(Greeting:greeting 5)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m4_Marcius_Arius|NAME:I'll get her in a cell, don't worry. You run back to Rojanna and tell her the good news.|SCVR:04JX3TR_m4_IL_Agent|INTV: |SCVR:14JX3TR_m4_IL_Marcius|INTV|SCVR:24JX3TR_m4_IL_Agentc|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m4_Marcius_Arius|NAME:I'll get her in a cell, don't worry. You run back to Rojanna and tell her the good news.|SCVR:04JX3TR_m4_IL_Agent|INTV: |SCVR:14JX3TR_m4_IL_Marcius|INTV|SCVR:24JX3TR_m4_IL_Agentc|INTV
+
+[MOD-INF]: ID=70828852379416415(Topic:aimrah)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Yes, a local sailor named Jebyn. Ivon Seloth even asked us to help him find him, but the Temple in Almas Thirr has more important matters to tend to than finding some sailor who's probably just drinking away his wages in a tavern somewhere! But if you're interested, maybe you should go to Aimrah and speak with Ivon Seloth? The silt strider can take you there.|SCVR:04JX4TR_m3_Aim_Dreugh1|INTV|SCVR:11500|INTV|SCVR:23sX0TR_Map|INTV|BNAM:Journal "TR_m3_Aim_Dreugh1" 5
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Yes, a local sailor named Jebyn. Ivon Seloth even asked us to help him find him, but the Temple in Almas Thirr has more important matters to tend to than finding some sailor who's probably just drinking away his wages in a tavern somewhere! But if you're interested, maybe you should go to Aimrah and speak with Ivon Seloth? The silt strider can take you there.|SCVR:04JX4TR_m3_Aim_Dreugh1|INTV|SCVR:11500|INTV|SCVR:23sX0TR_Map|INTV|BNAM:Journal "TR_m3_Aim_Dreugh1" 5
+
+[MOD-INF]: ID=76623845712625310(Topic:destination)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Ralis Nalor|NAME:My ship, the 'Fruit of Labor,' can take you to Old Ebonheart, Andothren, or Indal-ruhn from Almas Thirr.|BNAM:;Almas Thirr Shipmaster
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Ralis Nalor|NAME:My ship, the 'Fruit of Labor,' can take you to Old Ebonheart, Andothren, Hlan Oek, or the Hlaalu Ferry from Almas Thirr.|BNAM:;Almas Thirr Shipmaster
+
+[MOD-INF]: ID=97796224277024813(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Barandas Dalveni|ANAM:Almas Thirr|NAME:May the Three ease your pain, fellow pilgrim, as you follow in Saint Veloth's footsteps.|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Barandas Dalveni|ANAM:Almas Thirr, Anmoleth: Outfitter|NAME:May the Three ease your pain, fellow pilgrim, as you follow in Saint Veloth's footsteps.|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F
+
+[MOD-INF]: ID=106182106361261386(Greeting:greeting 7)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME:END TR MAP 3 AIMRAH LOCAL GR|EETI
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME:END TR MAP 3 AIMRAH LOCAL GREETINGS
+
+[MOD-INF]: ID=117505950416327156(Topic:services)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Visit the Canalworks Temple for healing. Merchants set up stalls at the bridge market. For travel services, Ralis Nalor moors his boat at the western dock, and Ivrea Llothro is the silt strider caravaneer, at the other end of Almas Thirr.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:27XX0TR_m3_Ralis Nalor|INTV|INTV|SCVR:47XX0TR_m3_Ivrea Llothro|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Visit the Canalworks Temple for healing. Merchants set up stalls at the bridge market. For travel services, Ralis Nalor moors his boat at the western dock, and Ivrea Llothro is the silt strider caravaneer, at the other end of Almas Thirr.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:27XX0TR_m3_Ralis Nalor|INTV|INTV|SCVR:47XX0TR_m3_Ivrea Llothro|INTV
+
+[MOD-INF]: ID=122728133315655682(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Publican|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Publican|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=138392676633593954(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:It is one of the rites of the Tribunal Temple, testing the pilgrim's devotion and endurance. If you join the Temple, you will be asked to complete it one day, here in Almas Thirr.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:It is one of the rites of the Tribunal Temple, testing the pilgrim's devotion and endurance. If you join the Temple, you will be asked to complete it one day, here in Almas Thirr.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=142917160290324278(Topic:bloodstone shrine)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:The shrine supposedly marks where St. Veloth crossed the Thirr River. The monastery on the eastern bank houses the shrine itself. Occasionally you'll see pilgrims on the Bloodstone Pilgrimage making their way to it through the city.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:addtopic "Bloodstone Pilgrimage"
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:The shrine supposedly marks where St. Veloth crossed the Thirr River. The monastery on the eastern bank houses the shrine itself. Occasionally you'll see pilgrims on the Bloodstone Pilgrimage making their way to it through the city.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:addtopic "Bloodstone Pilgrimage"
+
+[MOD-INF]: ID=146201631617522947(Topic:almas thirr)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Almas Thirr has many roles, outlander. A stronghold. A bridge. A place of pilgrimage. From its canton, the Temple watches over the Aanthirin region, while the Bloodstone Shrine marks where Saint Veloth crossed the Great River Thirr, leading our people to salvation. To this day, the faithful continue to follow in his path, passing in great numbers day after day.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:;Bloodstone Shrine  ShowMap "Almas Thirr"
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Almas Thirr has many roles, outlander. A stronghold. A bridge. A place of pilgrimage. From its canton, the Temple watches over the Aanthirin region, while the Bloodstone Shrine marks where Saint Veloth crossed the Great River Thirr, leading our people to salvation. To this day, the faithful continue to follow in his path, passing in great numbers day after day.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:;Bloodstone Shrine  ShowMap "Almas Thirr"
+
+[MOD-INF]: ID=151522688222381621(Topic:someone in particular)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:The Majordomo of the Crossing, Andor Orothi, presides over Almas Thirr and its garrison of Ordinators. Lloris Dalan leads the clergy at the Canalworks Temple. Anyone wishing to join the Temple should speak with her. Hetman Llothro represents the Velothi townspeople. Irnami Silsi commands a company of Indoril guards stationed on the eastern bank.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:27XX0TR_m3_Andor Orothi|INTV|SCVR:33sX0TR_Map|INTV|SCVR:47XX0TR_m3_Indoril Silsi|INTV|SCVR:5BLX0Almas Thirr, Canalworks Temple|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:The Majordomo of the Crossing, Andor Orothi, presides over Almas Thirr and its garrison of Ordinators. Lloris Dalan leads the clergy at the Canalworks Temple. Anyone wishing to join the Temple should speak with her. Hetman Llothro represents the Velothi townspeople. Irnami Silsi commands a company of Indoril guards stationed on the eastern bank.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:27XX0TR_m3_Andor Orothi|INTV|SCVR:33sX0TR_Map|INTV|SCVR:47XX0TR_m3_Indoril Silsi|INTV|SCVR:5BLX0Almas Thirr, Canalworks Temple|INTV
+
+[MOD-INF]: ID=157422720818646444(Topic:destination)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Riltse Helandil|NAME:My strider can take you from Vhul to Almas Thirr or Aimrah.|BNAM:;Vhul Stridermaster
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Riltse Helandil|NAME:My strider can take you from Vhul to Almas Thirr or Aimrah.|BNAM:;Vhul Stridermaster
+
+[MOD-INF]: ID=164517245885030002(Topic:services)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Ivramie Drath|NAME:I know that the Canalworks Temple offers healing services for faithful Dunmer and outlander heathens alike. If you're looking for lodgings, the Hospice of the Crossing provides beds for the devout.
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Ivramie Drath|NAME:I know that the Canalworks Temple offers healing services for faithful Dunmer and outlander heathens alike. If you're looking for lodgings, the Hospice of the Crossing provides beds for the devout.
+
+[MOD-INF]: ID=173509614797130415(Topic:thirr river)
+  tr_mainland.esm---------->|DATA|CNAM:Scout|NAME:The Thirr River is a river flowing from just southwest of the city of Narsis up into the Inner Sea. It's a major route of trade connecting such diverse ports as Old Ebonheart, the Indoril cargo port Aimrah, the Hlaalu capital Narsis and Dres Horak. The holy city of Almas Thirr sits in the middle of the Aanthirin -- the northernmost region that the Thirr River runs through -- and several smaller Hlaalu and Indoril settlements dotting the landscape.|SCVR:03sX0TR_Map|INTV|SCVR:1CsX0T_Local_NoLore|INTV:|BNAM:ShowMap "Old Ebonheart"  ShowMap "Ebon Tower"  ShowMap "Aimrah"  ;ShowMap "Narsis"  ;ShowMap "Dres Horak"  ShowMap "Almas Thirr"
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Scout|NAME:The Thirr River is a river flowing from just southwest of the city of Narsis up into the Inner Sea. It's a major route of trade connecting such diverse ports as Old Ebonheart, the Indoril cargo port Aimrah, the Hlaalu capital Narsis and Dres Horak. The holy city of Almas Thirr sits in the middle of the Aanthirin -- the northernmost region that the Thirr River runs through -- and several smaller Hlaalu and Indoril settlements dotting the landscape.|SCVR:03sX0TR_Map|INTV|SCVR:1CsX0T_Local_NoLore|INTV:|BNAM:ShowMap "Old Ebonheart"  ShowMap "Ebon Tower"  ShowMap "Aimrah"  ;ShowMap "Narsis"  ;ShowMap "Dres Horak"  ShowMap "Almas Thirr"
+
+[MOD-INF]: ID=185943099197788597(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Oh, I see. I suppose that makes sense. Thank you for explaining this to me, %PCName.|SCVR:01500|INTV: |SCVR:13sX0TR_Map|INTV|BNAM:ModDisposition 5  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif  Goodbye
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Oh, I see. I suppose that makes sense. Thank you for explaining this to me, %PCName.|SCVR:01500|INTV: |SCVR:13sX0TR_Map|INTV|BNAM:ModDisposition 5  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif  Goodbye
+
+[MOD-INF]: ID=188232642195905625(Topic:services)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Visit the Canalworks Temple for healing. Grub and drink is available at the Thirsty Saint Cornerclub. Outside the canton, you can rent a room at The Limping Scrib, though pilgrims often sleep at the Temple hostel. Merchants set up stalls at the bridge market.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:19CX0Publican|INTV|SCVR:23sX0TR_Map|INTV|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Visit the Canalworks Temple for healing. Grub and drink is available at the Thirsty Saint Cornerclub. Outside the canton, you can rent a room at The Limping Scrib, though pilgrims often sleep at the Temple hostel. Merchants set up stalls at the bridge market.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:19CX0Publican|INTV|SCVR:23sX0TR_Map|INTV|INTV
+
+[MOD-INF]: ID=203088123104922128(Topic:cremation services)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:While many know the sacred rites for cremation, only Dala Aralen specializes in it. She can usually be found in the Waistworks of Almas Thirr.|SCVR:04JX2TR_m3_TT_R|IPIN: |SCVR:17XX0TR_m3_Dala_Aralen|INTV:|SCVR:23sX0TR_Map|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|BNAM:Journal TR_m3_TT_RIP 16
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:While many know the sacred rites for cremation, only Dala Aralen specializes in it. She can usually be found in the Waistworks of Almas Thirr.|SCVR:04JX2TR_m3_TT_R|IPIN: |SCVR:17XX0TR_m3_Dala_Aralen|INTV:|SCVR:23sX0TR_Map|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|BNAM:Journal TR_m3_TT_RIP 16
+
+[MOD-INF]: ID=203992083142814160(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:On the Pilgrimage, %PCRank? Do not lose heart if you fail; visit Hetman Llothro and start again. This is a test of endurance, both mental and physical.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:29CX0Ordinator|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV|SCVR:43sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:On the Pilgrimage, %PCRank? Do not lose heart if you fail; visit Hetman Llothro and start again. This is a test of endurance, both mental and physical.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:29CX0Ordinator|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV|SCVR:43sX0TR_Map|INTV
+
+[MOD-INF]: ID=206436203565418577(Topic:go free)
+  tr_mainland.esm---------->|DATA|RNAM:Khajiit|CNAM:Slave|ANAM:Alendu Plantation|NAME:Yes, %Name is free! You are a good friend of %Name. %Name leaves when the moons are right.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Khajiit|CNAM:Slave|ANAM:Alendu Plantation|NAME:Yes, %Name is free! You are a good friend of %Name. %Name leaves when the moons are right.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50
+
+[MOD-INF]: ID=207831350962325849(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Tilresi|ANAM:Almas Thirr|NAME:His illuminated lordship isn't very subtle, is he? He's obviously trying to make the Hlaalu seem like enemies of the Temple. I think I've heard enough, thank you.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb03" 1  additem "TR_m3_TT_Proverb03" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Tilresi|ANAM:Almas Thirr|NAME:His illuminated lordship isn't very subtle, is he? He's obviously trying to make the Hlaalu seem like enemies of the Temple. I think I've heard enough, thank you.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb03" 1  additem "TR_m3_TT_Proverb03" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+
+[MOD-INF]: ID=210491434024975776(Topic:lanette)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m4_Vodunius Nuccius|ANAM:Almas Thirr|NAME:These Indoril keep asking me questions about her, and I've told them all I know, which isn't much.|SCVR:04JX3TR_m4_T_Nuccius|INTV:P|SCVR:14JX4TR_m4_T_Nuccius|INTV:_
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:These Indoril keep asking me questions about her, and I've told them all I know, which isn't much.
+
+[MOD-INF]: ID=236249189323806522(Topic:office of intercession)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:If you believe you were wronged by a member of the Temple, or fear that our dogmas were misinterpreted or abused, you may leave a plea here. We will make sure everything was in accordance to the sacred texts and decrees of the Almsivi, and punish the guilty if necessary.|SCVR:03sX0TR_Map|INTV|SCVR:1CsX0T_Local_NoLore|INTV:
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:If you believe you were wronged by a member of the Temple, or fear that our dogmas were misinterpreted or abused, you may leave a plea here. We will make sure everything was in accordance to the sacred texts and decrees of the Almsivi, and punish the guilty if necessary.|SCVR:03sX0TR_Map|INTV|SCVR:1CsX0T_Local_NoLore|INTV:
+
+[MOD-INF]: ID=250887211292087266(Topic:little advice)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Times are hard, outlander. Many don't admit it, but the Temple's priests don't have as much time to spare for the poor and sick, not like in the old days. We can't just wait for them to make our problems go away anymore.|SCVR:02sX3Random100|INTV:|SCVR:1CsX0T_Local_NoLore|INTV:|SCVR:23sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Times are hard, outlander. Many don't admit it, but the Temple's priests don't have as much time to spare for the poor and sick, not like in the old days. We can't just wait for them to make our problems go away anymore.|SCVR:02sX3Random100|INTV:|SCVR:1CsX0T_Local_NoLore|INTV:|SCVR:23sX0TR_Map|INTV
+
+[MOD-INF]: ID=264419287169704173(Topic:indoril ilvi)
+  tr_mainland.esm---------->|DATA|FNAM:T_Mw_HouseIndoril|ANAM:Almas Thirr|NAME:Councilor Ilvi is the Lord of the eastern Aanthirin. He is a defender of Almas Thirr and House Indoril's border with the Hlaalu.|SCVR:03sX0TR_Map|INTV|SCVR:1CsX0T_Local_NoLore|INTV:
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:T_Mw_HouseIndoril|ANAM:Almas Thirr|NAME:Councilor Ilvi is the Lord of the eastern Aanthirin. He is a defender of Almas Thirr and House Indoril's border with the Hlaalu.|SCVR:03sX0TR_Map|INTV|SCVR:1CsX0T_Local_NoLore|INTV:
+
+[MOD-INF]: ID=284293562907828239(Topic:across the bridge)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Almas Thirr consists of two parts. The western part is our market quarter, built atop a broad bridge. It connects directly to the lands of the Hlaalu. The eastern part is a canton, with a bridge to the eastern bank of the Thirr River. Beyond that bridge is the Bloodstone Shrine.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:if ( getInterior == 0 )      if ( getPos X < 48000 ) ; western part          choice "Continue" 11      elseif ( getPos X > 56000 ) ; east of the eastern bridge          choice "Continue" 13      endif  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Almas Thirr consists of two parts. The western part is our market quarter, built atop a broad bridge. It connects directly to the lands of the Hlaalu. The eastern part is a canton, with a bridge to the eastern bank of the Thirr River. Beyond that bridge is the Bloodstone Shrine.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:if ( getInterior == 0 )      if ( getPos X < 48000 ) ; western part          choice "Continue" 11      elseif ( getPos X > 56000 ) ; east of the eastern bridge          choice "Continue" 13      endif  endif
+
+[MOD-INF]: ID=316210454302161741(Topic:lanette)
+  tr_mainland.esm---------->|DATA|CNAM:Guard|ANAM:Almas Thirr|NAME:That is none of your concern, outlander.|SCVR:04JX3TR_m3_AT_Nuccius_Lanette|INTV: |SCVR:14JX4TR_m3_AT_Nuccius_Lanette|INTV|SCVR:23sX0TR_Map|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|BNAM:;Disposition is too low, needs to be at least 30
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Guard|ANAM:Almas Thirr|NAME:That is none of your concern, outlander.|SCVR:23sX0TR_Map|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|BNAM:;Disposition is too low, needs to be at least 30
+
+[MOD-INF]: ID=316613056945666280(Topic:latest rumors)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:I've heard rumors of the Ordinators investigating Tilresi for heresy. She sells so many books, I wouldn't be surprised if she managed to hide a few illegal ones in her store.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:K|SCVR:27XX0TR_m3_Tilresi|INTV|SCVR:34JX4TR_m3_AT_Literacy|INTV:d|SCVR:43sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:I've heard rumors of the Ordinators investigating Tilresi for heresy. She sells so many books, I wouldn't be surprised if she managed to hide a few illegal ones in her store.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:K|SCVR:27XX0TR_m3_Tilresi|INTV|SCVR:34JX4TR_m3_AT_Literacy|INTV:d|SCVR:43sX0TR_Map|INTV
+
+[MOD-INF]: ID=338212473231215727(Topic:llorissa faali)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Doesn't ring a bell. One of the Temple priests might know where she is.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:14JX0TR_m4_wil_Emmurbalpitu|INTV:(|SCVR:27XX0TR_m4_Llorissa Faali|INTV|SCVR:33sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Doesn't ring a bell. One of the Temple priests might know where she is.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:14JX0TR_m4_wil_Emmurbalpitu|INTV:(|SCVR:27XX0TR_m4_Llorissa Faali|INTV|SCVR:33sX0TR_Map|INTV
+
+[MOD-INF]: ID=368550102679222130(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:A rough ritual the Temple runs here. The pilgrim has to walk the length of the city with a sharp rock in their shoe. Many give up after only a few steps.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:A rough ritual the Temple runs here. The pilgrim has to walk the length of the city with a sharp rock in their shoe. Many give up after only a few steps.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=404209913041715120(Topic:little secret)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:It is unwise to trade secrets, outlander. Heed the Anticipations and guard your secrets from your foes.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:It is unwise to trade secrets, outlander. Heed the Anticipations and guard your secrets from your foes.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=593121872210844537(Greeting:greeting 7)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Dilvene Gilmanil|NAME:Get the hell out of my inn... good-for-nothing outlander.
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Dilvene Gilmanil|NAME:Get the hell out of my inn... good-for-nothing outlander.
+
+[MOD-INF]: ID=613710860409128227(Topic:little advice)
+  tr_mainland.esm---------->|DATA|CNAM:Guard|FNAM:Temple|ANAM:Almas Thirr|NAME:Respect the Temple's doctrine and the authority of its priests and Ordinators. We tolerate no heresy.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Guard|FNAM:Temple|ANAM:Almas Thirr|NAME:Respect the Temple's doctrine and the authority of its priests and Ordinators. We tolerate no heresy.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=615422867249352167(Topic:little advice)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Word to the wise: try not to rile up the natives. They're a bit testy in these parts. Mind yourself if you end up visiting one of their shrines or temples.|SCVR:03sX0TR_Map|INTV|SCVR:1CsX0T_Local_NoLore|INTV:
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Word to the wise: try not to rile up the natives. They're a bit testy in these parts. Mind yourself if you end up visiting one of their shrines or temples.|SCVR:03sX0TR_Map|INTV|SCVR:1CsX0T_Local_NoLore|INTV:
+
+[MOD-INF]: ID=643941652919520514(Topic:thirr river)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Jahram|NAME:Dark Elves rarely make sense, true. Still, one might assume that the big river Almas Thirr sits upon is the Thirr River you ask of, hmm?
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Jahram|NAME:Dark Elves rarely make sense, true. Still, one might assume that the big river Almas Thirr sits upon is the Thirr River you ask of, hmm?
+
+[MOD-INF]: ID=659716219267628000(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Farmer|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Farmer|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=837023286130902260(Topic:destination)
+  tr_mainland.esm---------->|DATA|DNAM:Hlaalu|NAME:I can row you to the Oran Plantation with my boat, but that's pretty much it.|BNAM:;Mundrethi Slave Market Boatmaster
+  TR_LakeAndaram_v0104.ESP->|DATA|DNAM:Hlaalu|NAME:I can row you to the Oran Plantation with my boat, but that's pretty much it.|BNAM:;Mundrethi Slave Market Boatmaster
+
+[MOD-INF]: ID=866374981539632512(Topic:lanette)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m4_Vodunius Nuccius|ANAM:Almas Thirr|NAME:She's dead? And she was in charge of the gang that robbed me? Serves her right, then.|SCVR:14JX3TR_m4_T_Nuccius|INTV:_|SCVR:24JX5TR_m4_T_Nuccius|INTV:c
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:She's dead? And she was in charge of the gang that robbed me? Serves her right, then.
+
+[MOD-INF]: ID=976018602585932239(Topic:someone in particular)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|DNAM:Temple|NAME:The Majordomo of the Crossing, Andor Orothi, presides over Almas Thirr and its garrison of Ordinators. Lloris Dalan leads the clergy at the Canalworks Temple. Acolytes of the Temple may receive duties from her. Hetman Llothro represents the Velothi townspeople. Irnami Silsi commands a company of Indoril guards stationed on the eastern bank.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:27XX0TR_m3_Andor Orothi|INTV|SCVR:33sX0TR_Map|INTV|SCVR:47XX0TR_m3_Indoril Silsi|INTV|SCVR:5BLX0Almas Thirr, Canalworks Temple|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|DNAM:Temple|NAME:The Majordomo of the Crossing, Andor Orothi, presides over Almas Thirr and its garrison of Ordinators. Lloris Dalan leads the clergy at the Canalworks Temple. Acolytes of the Temple may receive duties from her. Hetman Llothro represents the Velothi townspeople. Irnami Silsi commands a company of Indoril guards stationed on the eastern bank.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:27XX0TR_m3_Andor Orothi|INTV|SCVR:33sX0TR_Map|INTV|SCVR:47XX0TR_m3_Indoril Silsi|INTV|SCVR:5BLX0Almas Thirr, Canalworks Temple|INTV
+
+[MOD-INF]: ID=1172031195199131231(Topic:armun ashlands)
+  tr_mainland.esm---------->|DATA|CNAM:Scout|NAME:The region is bordered by the Roth Roryn region in the north, the Othreleth Woods in the south, the Velothi Mountains in the west, and Aanthirin in the east. The only permanent settlement in the Armun wasteland is the Hlaalu caravan town of Arvud.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:28FX0Ashlanders|INTV|SCVR:32sX5Random100|INTV:!|BNAM:ShowMap "Arvud"  ;scout dialogue
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Scout|NAME:The region is bordered by the Roth Roryn region in the north, the Othreleth Woods in the south, the Velothi Mountains in the west, and Aanthirin in the east. The only permanent settlement in the Armun wasteland is the Hlaalu caravan town of Arvud.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:28FX0Ashlanders|INTV|SCVR:32sX5Random100|INTV:!|BNAM:ShowMap "Arvud"  ;scout dialogue
+
+[MOD-INF]: ID=1209718782320829511(Topic:little advice)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Ordinators don't take kindly to transgressors of the laws and our Temple doctrines. Not here, in a Temple stronghold. They're not as forgiving as House guards, either, so don't get any funny ideas.|SCVR:02sX2Random100|INTV:2|SCVR:1CsX0T_Local_NoLore|INTV:|SCVR:23sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Ordinators don't take kindly to transgressors of the laws and our Temple doctrines. Not here, in a Temple stronghold. They're not as forgiving as House guards, either, so don't get any funny ideas.|SCVR:02sX2Random100|INTV:2|SCVR:1CsX0T_Local_NoLore|INTV:|SCVR:23sX0TR_Map|INTV
+
+[MOD-INF]: ID=1351317222132746941(Topic:nelos llothri)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:His house is here in Almas Thirr, on the northwest side. You'll find it just north of the Tailors and Dyers hall.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:14JX3TR_m4_MG_Ando_3|INTV: |SCVR:24JX5TR_m4_MG_Ando_3|INTV|SCVR:33sX2TR_Map|INTV:
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:His house is here in Almas Thirr, on the northwest side. You'll find it just north of the Tailors and Dyers hall.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:14JX3TR_m4_MG_Ando_3|INTV: |SCVR:24JX5TR_m4_MG_Ando_3|INTV|SCVR:33sX2TR_Map|INTV:
+
+[MOD-INF]: ID=1438923844230861565(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Tilresi|ANAM:Almas Thirr|NAME:His illuminated lordship isn't very subtle, is he? He's obviously trying to make the Hlaalu seem like enemies of the Temple. I think I've heard enough, thank you.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb02" 1  additem "TR_m3_TT_Proverb02" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Tilresi|ANAM:Almas Thirr|NAME:His illuminated lordship isn't very subtle, is he? He's obviously trying to make the Hlaalu seem like enemies of the Temple. I think I've heard enough, thank you.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb02" 1  additem "TR_m3_TT_Proverb02" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+
+[MOD-INF]: ID=1521330458229101326(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Ondar Dravani|ANAM:Almas Thirr|NAME:You've got the hard part of the way behind you, %PCRace. The Shrine is in the monastery, across that bridge. Here. Take this potion. Don't give up!|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F|SCVR:32sX0tr_m3_bloodstone_help_|OINT:|BNAM:set tr_m3_bloodstone_help_O to 1  player->AddItem "p_restore_health_e" 1
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Ondar Dravani|ANAM:Almas Thirr|NAME:You've got the hard part of the way behind you, %PCRace. The Shrine is in the monastery, across that bridge. Here. Take this potion. Don't give up!|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F|SCVR:32sX0tr_m3_bloodstone_help_|OINT:|BNAM:set tr_m3_bloodstone_help_O to 1  player->AddItem "p_restore_health_e" 1
+
+[MOD-INF]: ID=1527827601231683231(Topic:aanthirin)
+  tr_mainland.esm---------->|DATA|CNAM:Scout|NAME:The Aanthirin is the region where the Thirr River greets the Inner Sea. It is as friendly as Morrowind can get; even the wildlife tends to be docile, and the terrain is also more forgiving than most of Morrowind's landscape. If you're looking for a place to rest or find work, there's no better place than Almas Thirr or Old Ebonheart, depending on what you're into. Some bad blood is flowing between the Great Houses lately, but an outlander will probably be spared the worst of it.|SCVR:03sX3TR_Map|INTV|SCVR:13sX5TR_Map|INTV|SCVR:2CsX0T_Local_NoLore|INTV:|BNAM:AddTopic "Thirr River"  AddTopic "Inner Sea"  AddTopic "Morrowind"  ShowMap "Almas Thirr"  ShowMap "Old Ebonheart"  ShowMap "Ebon Tower"
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Scout|NAME:The Aanthirin is the region where the Thirr River greets the Inner Sea. It is as friendly as Morrowind can get; even the wildlife tends to be docile, and the terrain is also more forgiving than most of Morrowind's landscape. If you're looking for a place to rest or find work, there's no better place than Almas Thirr or Old Ebonheart, depending on what you're into. Some bad blood is flowing between the Great Houses lately, but an outlander will probably be spared the worst of it.|SCVR:03sX3TR_Map|INTV|SCVR:13sX5TR_Map|INTV|SCVR:2CsX0T_Local_NoLore|INTV:|BNAM:AddTopic "Thirr River"  AddTopic "Inner Sea"  AddTopic "Morrowind"  ShowMap "Almas Thirr"  ShowMap "Old Ebonheart"  ShowMap "Ebon Tower"
+
+[MOD-INF]: ID=1567417942188061695(Topic:destination)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Ivrea Llothro|NAME:My silt strider can take you from Almas Thirr to Andothren, Aimrah or Vhul, but that's not all the service I provide. If you are traveling to Almalexia and afraid to grow hungry during the long journey, I can sell you nourishing food. Same low price.|BNAM:;Almas Thirr Stridermaster
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Ivrea Llothro|NAME:My silt strider can take you from Almas Thirr to Aimrah or Vhul. Care to buy a snack for the journey as well?|BNAM:;Almas Thirr Stridermaster
+
+[MOD-INF]: ID=1614423434248011741(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:I congratulate you on completing the Pilgrimage. By taking these steps, you experience but a fraction of the pain St. Veloth endured on his journey. To learn empathy with a Saint is a noble feat, indeed.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV:d
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:I congratulate you on completing the Pilgrimage. By taking these steps, you experience but a fraction of the pain St. Veloth endured on his journey. To learn empathy with a Saint is a noble feat, indeed.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV:d
+
+[MOD-INF]: ID=1616427205103428875(Topic:latest rumors)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:If rumors coming from the merchant circles are true, the Hlaalu might try to push the Temple to open Almas Thirr to more unhindered trade.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV|SCVR:28FX0Hlaalu|INTV|SCVR:38FX0Temple|INTV|SCVR:48FX0T_Mw_HouseIndoril|INTV|SCVR:53sX0TR_Map|INTV|BNAM:;Almas Thirr
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:If rumors coming from the merchant circles are true, the Hlaalu might try to push the Temple to open Almas Thirr to more unhindered trade.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV|SCVR:28FX0Hlaalu|INTV|SCVR:38FX0Temple|INTV|SCVR:48FX0T_Mw_HouseIndoril|INTV|SCVR:53sX0TR_Map|INTV|BNAM:;Almas Thirr
+
+[MOD-INF]: ID=1621711201720721019(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Commoner|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Commoner|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=1623766041336930916(Topic:office of intercession)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Lloris Dalan|ANAM:Almas Thirr|DNAM:Temple|NAME:The Office is in the canton plaza. Its head is sera Andor Orothi, Majordomo of the Holy Crossing.
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Lloris Dalan|ANAM:Almas Thirr|DNAM:Temple|NAME:The Office is in the canton plaza. Its head is sera Andor Orothi, Majordomo of the Holy Crossing.
+
+[MOD-INF]: ID=1631287431562910950(Topic:local economy)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:What sort of goods pass through Almas Thirr, you ask? For starters, barges ship Imperial goods and Dres saltrice north to the Inner Sea, and come back carrying Vvardenfell's mineral riches, bound for ports like Narsis, in the south. Temple clerks inspect cargo at the docks and collect tribute from each passing ship. Merchants love to gripe about that. Slave traders usually just herd their chattel over the bridge, instead.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:28FX0Temple|INTV|SCVR:38FX0T_Mw_HouseIndoril|INTV|SCVR:43sX0TR_Map|INTV|BNAM:;Almas Thirr
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:What sort of goods pass through Almas Thirr, you ask? For starters, barges ship Imperial goods and Dres saltrice north to the Inner Sea, and come back carrying Vvardenfell's mineral riches, bound for ports like Narsis, in the south. Temple clerks inspect cargo at the docks and collect tribute from each passing ship. Merchants love to gripe about that. Slave traders usually just herd their chattel over the bridge, instead.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:28FX0Temple|INTV|SCVR:38FX0T_Mw_HouseIndoril|INTV|SCVR:43sX0TR_Map|INTV|BNAM:;Almas Thirr
+
+[MOD-INF]: ID=1713233103163628277(Topic:services)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr, Monastery of St. Veloth|NAME:Our healer, Riluva Sovoras, can be found in her room. Take a right from the entrance hall, and go through the door at the bottom of the ramp. Ivero Hloran is our spellmaker and can usually be found in the upper dormitories.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:17XX0TR_m3_Riluva Sovoras|INTV|SCVR:27XX0TR_m3_Ivero Hllar|INTV|SCVR:33sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr, Monastery of St. Veloth|NAME:Our healer, Riluva Sovoras, can be found in her room. Take a right from the entrance hall, and go through the door at the bottom of the ramp. Ivero Hloran is our spellmaker and can usually be found in the upper dormitories.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:17XX0TR_m3_Riluva Sovoras|INTV|SCVR:27XX0TR_m3_Ivero Hllar|INTV|SCVR:33sX0TR_Map|INTV
+
+[MOD-INF]: ID=1786723798175428244(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|DNAM:Temple|NAME:Walking Veloth's Path? Best of luck to you. I've seen my fair share of people give up a few steps from where you are now. The Temple is on the eastern side of Almas Thirr, in case you were lost.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV|SCVR:42sX3Random100|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|DNAM:Temple|NAME:Walking Veloth's Path? Best of luck to you. I've seen my fair share of people give up a few steps from where you are now. The Temple is on the eastern side of Almas Thirr, in case you were lost.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV|SCVR:42sX3Random100|INTV
+
+[MOD-INF]: ID=1863642092771611211(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:So, the Temple is warning us that the Hlaalu aren't to be trusted? I see... Thank you for explaining this to me.|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:ModDisposition 5  set controlQ to 1  set TR_m3_TT_Lloris4Indoril to ( TR_m3_TT_Lloris4Indoril + 1 )  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif  Goodbye
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:So, the Temple is warning us that the Hlaalu aren't to be trusted? I see... Thank you for explaining this to me.|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:ModDisposition 5  set controlQ to 1  set TR_m3_TT_Lloris4Indoril to ( TR_m3_TT_Lloris4Indoril + 1 )  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif  Goodbye
+
+[MOD-INF]: ID=1873527482269892355(Topic:across the bridge)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Right now, you're just east of that bridge. If you have any business in Almas Thirr, you should go west, to the canton. If you're looking for the marketplace, you'll have to take the stairs down and head west, or go through the canton by the Canalworks.|SCVR:01500|INTV: |SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Right now, you're just east of that bridge. If you have any business in Almas Thirr, you should go west, to the canton. If you're looking for the marketplace, you'll have to take the stairs down and head west, or go through the canton by the Canalworks.|SCVR:01500|INTV: |SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=1911113575774018945(Topic:background)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR MAP1
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR MAP1
+
+[MOD-INF]: ID=1975911052837722159(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|DNAM:Temple|NAME:Stay back, %PCRace. Rumors have it another pilgrim is attempting the Bloodstone Pilgrimage, and they have a nasty habit of getting their blood everywhere.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV|SCVR:42sX4Random100|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|DNAM:Temple|NAME:Stay back, %PCRace. Rumors have it another pilgrim is attempting the Bloodstone Pilgrimage, and they have a nasty habit of getting their blood everywhere.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV|SCVR:42sX4Random100|INTV
+
+[MOD-INF]: ID=2016026122292623518(Topic:indoril ilvi)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Indoril Ilvi is Lord of Roa Dyr and a Councilor of Great House Indoril.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Indoril Ilvi is Lord of Roa Dyr and a Councilor of Great House Indoril.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=2110606361726293288(:destination)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m4_Drovamu Llarno|NAME:I can take you from Indal-ruhn to Almas Thirr by ship.|BNAM:;Indal-ruhn Shipmaster
+  TR_LakeAndaram_v0104.ESP->|NAME:I can take you from Indal-ruhn to Almas Thirr by ship.|DELE:
+
+[MOD-INF]: ID=2141516049314830515(Topic:little secret)
+  tr_mainland.esm---------->|DATA|FNAM:Hlaalu|ANAM:Almas Thirr|NAME:Don't believe the claims put forward by the Indoril that Almas Thirr is a neutral Temple holding. Most ranking Temple officials here come from House Indoril after all.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:B|SCVR:23sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Hlaalu|ANAM:Almas Thirr|NAME:Don't believe the claims put forward by the Indoril that Almas Thirr is a neutral Temple holding. Most ranking Temple officials here come from House Indoril after all.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:B|SCVR:23sX0TR_Map|INTV
+
+[MOD-INF]: ID=2148123952205235043(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Bard|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Bard|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=2220428155870914215(Topic:aimrah)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Indeed. Let's.|SCVR:04JX4TR_m3_Aim_Dreugh1|INTV|SCVR:11500|INTV|SCVR:23sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Indeed. Let's.|SCVR:04JX4TR_m3_Aim_Dreugh1|INTV|SCVR:11500|INTV|SCVR:23sX0TR_Map|INTV
+
+[MOD-INF]: ID=2272013820325528676(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:I see... So, he's trying to turn us against the Hlaalu? I thought Indoril Ilvi was above this sort of thing... Thank you for explaining this to me.|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:ModDisposition 5  set controlQ to 1  set TR_m3_TT_Lloris4Hlaalu to ( TR_m3_TT_Lloris4Hlaalu + 1 )  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif  Goodbye
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:I see... So, he's trying to turn us against the Hlaalu? I thought Indoril Ilvi was above this sort of thing... Thank you for explaining this to me.|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:ModDisposition 5  set controlQ to 1  set TR_m3_TT_Lloris4Hlaalu to ( TR_m3_TT_Lloris4Hlaalu + 1 )  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif  Goodbye
+
+[MOD-INF]: ID=2340821319252129048(Topic:join the temple)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Speak with Illene Teloth in the Office of Intercession or with Lloris Dalan in the Canalworks Temple.|SCVR:01460|INTV:|SCVR:17XX0TR_m3_Illene Teloth|INTV|SCVR:27XX0TR_m3_Lloris Dalan|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:43sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Speak with Illene Teloth in the Office of Intercession or with Lloris Dalan in the Canalworks Temple.|SCVR:01460|INTV:|SCVR:17XX0TR_m3_Illene Teloth|INTV|SCVR:27XX0TR_m3_Lloris Dalan|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:43sX0TR_Map|INTV
+
+[MOD-INF]: ID=2377214490260188685(Topic:darane navur)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:That's one of our traders here. Her shop is on the market bridge, on the west side of Almas Thirr, near the silt strider port.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:That's one of our traders here. Her shop is on the market bridge, on the west side of Almas Thirr, near the silt strider port.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=2417522123226494032(Topic:roa dyr)
+  tr_mainland.esm---------->|DATA|FNAM:T_Mw_HouseIndoril|ANAM:Almas Thirr|NAME:Roa Dyr is House Indoril's port on the Thirr River, and the Chapel of the Indoril Ilvi. Only the Goddess' city can rival its canals and stately bridges in beauty and splendor.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:ShowMap "Roa Dyr"
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:T_Mw_HouseIndoril|ANAM:Almas Thirr|NAME:Roa Dyr is House Indoril's port on the Thirr River, and the Chapel of the Indoril Ilvi. Only the Goddess' city can rival its canals and stately bridges in beauty and splendor.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:ShowMap "Roa Dyr"
+
+[MOD-INF]: ID=2517986801296024841(Topic:lanette)
+  tr_mainland.esm---------->|DATA|CNAM:Guard|FNAM:Temple|ANAM:Almas Thirr|NAME:You'll want to speak to Commander Silsi over at the Indoril Garrison. It's right across the bridge over on the east side.|SCVR:04JX3TR_m3_AT_Nuccius_Lanette|INTV: |SCVR:14JX4TR_m3_AT_Nuccius_Lanette|INTV|SCVR:23sX0TR_Map|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|BNAM:if ( GetJournalIndex TR_m3_AT_Nuccius_Lanette == 10 )      Journal TR_m3_AT_Nuccius_Lanette 15  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Guard|FNAM:Temple|ANAM:Almas Thirr|NAME:You'll want to speak to Commander Silsi over at the Indoril Garrison. It's right across the bridge over on the east side.|SCVR:23sX0TR_Map|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|BNAM:if ( GetJournalIndex TR_m3_AT_Nuccius_Lanette == 10 )      Journal TR_m3_AT_Nuccius_Lanette 15  endif
+
+[MOD-INF]: ID=2625891682495026605(Topic:someone in particular)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Lloris Dalan|ANAM:Almas Thirr|NAME:The Majordomo of the Crossing, Andor Orothi, presides over Almas Thirr and its garrison of Ordinators. Hetman Llothro represents the Velothi townspeople. Irnami Silsi commands a company of Indoril guards stationed on the eastern bank.|SCVR:5BLX0Almas Thirr, Canalworks Temple|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Lloris Dalan|ANAM:Almas Thirr|NAME:The Majordomo of the Crossing, Andor Orothi, presides over Almas Thirr and its garrison of Ordinators. Hetman Llothro represents the Velothi townspeople. Irnami Silsi commands a company of Indoril guards stationed on the eastern bank.|SCVR:5BLX0Almas Thirr, Canalworks Temple|INTV
+
+[MOD-INF]: ID=2647633842949817301(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Elynu Varan|ANAM:Almas Thirr|NAME:Glad you stopped by -- I have something you might have a use for! Good luck on your way to the Shrine, %PCRank.|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F|SCVR:32sX0tr_m3_bloodstone_help_|EINT:|BNAM:if ( GetDisposition >= 70 )      player->AddItem "p_restore_health_c" 5  else      player->AddItem "p_restore_health_c" 2  endif  set tr_m3_bloodstone_help_E to 1
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Elynu Varan|ANAM:Almas Thirr|NAME:Glad you stopped by -- I have something you might have a use for! Good luck on your way to the Shrine, %PCRank.|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F|SCVR:32sX0tr_m3_bloodstone_help_|EINT:|BNAM:if ( GetDisposition >= 70 )      player->AddItem "p_restore_health_c" 5  else      player->AddItem "p_restore_health_c" 2  endif  set tr_m3_bloodstone_help_E to 1
+
+[MOD-INF]: ID=2656812681804425210(Topic:almas thirr)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:You're in Almas Thirr, outlander, a Temple stronghold and river port bridging the Thirr River. All sorts of people can be found here on just about any day. Throngs of pilgrims flock to the Bloodstone Shrine. Traders peddle goods up and down the causeways. Mind you, other than the Temple's priests and Ordinators, it's mostly craftsmen, boatmen and fishermen who actually live here. Feel free to ask if you want to know about the local area or local economy or you just need to find your way across the bridge.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:addtopic "Bloodstone Shrine"  addtopic "local area"  addtopic "local economy"  addtopic "across the bridge"  ShowMap "Almas Thirr"
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:You're in Almas Thirr, outlander, a Temple stronghold and river port bridging the Thirr River. All sorts of people can be found here on just about any day. Throngs of pilgrims flock to the Bloodstone Shrine. Traders peddle goods up and down the causeways. Mind you, other than the Temple's priests and Ordinators, it's mostly craftsmen, boatmen and fishermen who actually live here. Feel free to ask if you want to know about the local area or local economy or you just need to find your way across the bridge.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:addtopic "Bloodstone Shrine"  addtopic "local area"  addtopic "local economy"  addtopic "across the bridge"  ShowMap "Almas Thirr"
+
+[MOD-INF]: ID=2676015032977615819(Topic:little secret)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Not many outlanders live in Almas Thirr. One who comes to mind is Tilresi, the bookseller. She set up shop in the Canalworks a few years back. She's a little strange, as outlanders are, but the local Dunmer seek her counsel if they have trouble understanding foreigners. Perhaps she has counsel for other outlanders as well.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:!|SCVR:23sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Not many outlanders live in Almas Thirr. One who comes to mind is Tilresi, the bookseller. She set up shop in the Canalworks a few years back. She's a little strange, as outlanders are, but the local Dunmer seek her counsel if they have trouble understanding foreigners. Perhaps she has counsel for other outlanders as well.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:!|SCVR:23sX0TR_Map|INTV
+
+[MOD-INF]: ID=2691218750133015452(Topic:specific place)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME:END MAP7 PLACE
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME:END MAP7 PLACE
+
+[MOD-INF]: ID=2733032755138059823(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:T_Glb_Sailor|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:T_Glb_Sailor|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=2780188851479516165(Topic:aanthirin)
+  tr_mainland.esm---------->|DATA|ANAM:Mundrethi Plantation|NAME:It is a lush, orange-green region, and one of the most fertile lands of Morrowind. Divided by the Thirr River, the Aanthirin has served as the borderlands between House Hlaalu and House Indoril for centuries. The neutral Temple stronghold of Almas Thirr sits in the middle of the region, guarding the peace between the two halves.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Mundrethi Plantation|NAME:It is a lush, orange-green region, and one of the most fertile lands of Morrowind. Divided by the Thirr River, the Aanthirin has served as the borderlands between House Hlaalu and House Indoril for centuries. The neutral Temple stronghold of Almas Thirr sits in the middle of the region, guarding the peace between the two halves.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=2833793102933327558(Topic:llorissa faali)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Sister Llorissa can be found in the Monastery of Saint Veloth.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:14JX0TR_m4_wil_Emmurbalpitu|INTV:(|SCVR:27XX0TR_m4_Llorissa Faali|INTV|SCVR:33sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Sister Llorissa can be found in the Monastery of Saint Veloth.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:14JX0TR_m4_wil_Emmurbalpitu|INTV:(|SCVR:27XX0TR_m4_Llorissa Faali|INTV|SCVR:33sX0TR_Map|INTV
+
+[MOD-INF]: ID=2865432314941925230(Topic:across the bridge)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:You are in the western part. If you are looking for the eastern bridge, you need to go up the canton. You can either take the stairs on the outside, or travel through the canton by entering the canalworks, then climbing the stairs up to the top of the waistworks. Leave through the eastern door, and you're there.|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr, Anmoleth: Outfitter|NAME:You are in the western part. If you are looking for the eastern bridge, you need to go up the canton. You can either take the stairs on the outside, or travel through the canton by entering the canalworks, then climbing the stairs up to the top of the waistworks. Leave through the eastern door, and you're there.|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=2877526544298922049(Topic:latest rumors)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|FNAM:Temple|ANAM:Almas Thirr|NAME:The atmosphere is tense here in Almas Thirr. House Hlaalu and House Indoril are at odds with each other and they're bringing their troubles to the city. Acolytes who join the Temple here try their best to keep the peace.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:14JX0TR_m3_TT_Bloodstone|INTV:|SCVR:22sX0TR_m3_TT_LatestRumorATGlobal|INTV:|SCVR:37XX0TR_m3_Andor Orothi|INTV|SCVR:43sX0TR_Map|INTV|BNAM:set TR_m3_TT_LatestRumorATGlobal to 1
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|FNAM:Temple|ANAM:Almas Thirr|NAME:The atmosphere is tense here in Almas Thirr. House Hlaalu and House Indoril are at odds with each other and they're bringing their troubles to the city. Acolytes who join the Temple here try their best to keep the peace.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:14JX0TR_m3_TT_Bloodstone|INTV:|SCVR:22sX0TR_m3_TT_LatestRumorATGlobal|INTV:|SCVR:37XX0TR_m3_Andor Orothi|INTV|SCVR:43sX0TR_Map|INTV|BNAM:set TR_m3_TT_LatestRumorATGlobal to 1
+
+[MOD-INF]: ID=2955346242459127143(Topic:local area)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:From the chapel of Roa Dyr, the Indoril Ilvi presides over the villages of Dondril and Vhul. To the west, you'll mostly find Hlaalu plantations and smaller farms: the largest is the Oran Plantation. West of here, there's Indal-ruhn, an impoverished fishing hole. Further downstream, you'll reach Old Ebonheart, an Imperial fortress at the Thirr River's mouth. Going south eventually takes you to the river port of Hlan Oek.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:23sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:From the chapel of Roa Dyr, the Indoril Ilvi presides over the villages of Dondril and Vhul. To the west, you'll mostly find Hlaalu plantations and smaller farms: the largest is the Oran Plantation. West of here, there's Indal-ruhn, an impoverished fishing hole. Further downstream, you'll reach Old Ebonheart, an Imperial fortress at the Thirr River's mouth. Going south eventually takes you to the river port of Hlan Oek.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:23sX0TR_Map|INTV
+
+[MOD-INF]: ID=2989118065938523293(Topic:specific place)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR MAP7 PLACE
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR MAP7 PLACE
+
+[MOD-INF]: ID=3084818852440217055(Topic:background)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME:END TR MAP3 GORNE BAC|KGRO
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME:END TR MAP3 GORNE BACKGROUND
+
+[MOD-INF]: ID=3122315330685511514(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Clothier|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Clothier|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=3193614610238452627(Topic:thirr river)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:The Thirr is the largest river in Morrowind, and the river Almas Thirr is built upon. It flows out of the canyons of Narsis District, through Lake Andaram, into the Inner Sea.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:29CX0Savant|INTV|SCVR:39CX0Savant Service|INTV|SCVR:43sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:The Thirr is the largest river in Morrowind, and the river Almas Thirr is built upon. It flows out of the canyons of Narsis District, through Lake Andaram, into the Inner Sea.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:29CX0Savant|INTV|SCVR:39CX0Savant Service|INTV|SCVR:43sX0TR_Map|INTV
+
+[DUP-INF]: ID=3224919880373231894(Topic:business)
+  |DATA|ONAM:hassour zainsubani|NAME:I see. You wish to learn of Ashlanders from me. And what is it that you wish to learn?|SCVR:34JX3A1_11_ZainsubaniInformant|INTV|BNAM:Choice "What are their gift-giving customs?" 1 "What do you know about the Nerevarine cult" 2 "Tell me everything." 3
+
+[MOD-INF]: ID=3229441922604514202(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Ondar Dravani|ANAM:Almas Thirr|NAME:You've got the hard part of the way behind you, %PCRace. The Shrine is in the monastery, across that bridge.|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Ondar Dravani|ANAM:Almas Thirr|NAME:You've got the hard part of the way behind you, %PCRace. The Shrine is in the monastery, across that bridge.|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F
+
+[MOD-INF]: ID=3272115429177164205(Topic:aimrah)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:It's a small Velothi town to the south, on the shore of Lake Andaram. There is a Temple shrine dedicated to Saint Olms there. It's tended to by Ivon Seloth, a priest originally from Almas Thirr. As a matter of fact, he wrote to us not so long ago. Apparently, the locals haven't been too welcoming to him, and he says that a friend of his has gone missing.|SCVR:04JX4TR_m3_Aim_Dreugh1|INTV|INTV|SCVR:2CsX0T_Local_NoLore|INTV:|SCVR:37XX0TR_m3_Andor Orothi|INTV|SCVR:43sX0TR_Map|INTV|BNAM:ShowMap "Aimrah"  Choice "His friend has gone missing?", 1, "Alright. Now let's talk about something else.", 2
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:It's a small Velothi town to the south, on the shore of Lake Andaram. There is a Temple shrine dedicated to Saint Olms there. It's tended to by Ivon Seloth, a priest originally from Almas Thirr. As a matter of fact, he wrote to us not so long ago. Apparently, the locals haven't been too welcoming to him, and he says that a friend of his has gone missing.|SCVR:04JX4TR_m3_Aim_Dreugh1|INTV|INTV|SCVR:2CsX0T_Local_NoLore|INTV:|SCVR:37XX0TR_m3_Andor Orothi|INTV|SCVR:43sX0TR_Map|INTV|BNAM:ShowMap "Aimrah"  Choice "His friend has gone missing?", 1, "Alright. Now let's talk about something else.", 2
+
+[MOD-INF]: ID=4801117031252632304(Greeting:greeting 5)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR MAP 4 ARMUN ASHLANDS QUEST GR|EETI
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR MAP 4 ARMUN ASHLANDS QUEST GREETINGS
+
+[MOD-INF]: ID=5170313972759426435(:destination)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m4_Balyn Ilvenes|NAME:I can offer you a comfortable voyage to Almas Thirr, %PCClass. Word of honor.|BNAM:;Indal-ruhn Shipmaster
+  TR_LakeAndaram_v0104.ESP->|NAME:I can offer you a comfortable voyage to Almas Thirr, %PCClass. Word of honor.|DELE:
+
+[MOD-INF]: ID=5285264962810928156(Topic:services)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Ivero Hllar|ANAM:Almas Thirr, Monastery of St. Veloth|NAME:Well, if you were looking for a spellmaker, you've found one. If you need a healer, Riluva Sovoras can be found in her room. Take a right from the entrance hall, and go through the door at the bottom of the ramp.
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Ivero Hllar|ANAM:Almas Thirr, Monastery of St. Veloth|NAME:Well, if you were looking for a spellmaker, you've found one. If you need a healer, Riluva Sovoras can be found in her room. Take a right from the entrance hall, and go through the door at the bottom of the ramp.
+
+[MOD-INF]: ID=6772627443205055923(Topic:destination)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m4_Ervyna_Saran|NAME:I can carry you by silt strider from Andothren to Almas Thirr, Menaan, and Omaynis.|BNAM:;Andothren caravaner
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m4_Ervyna_Saran|NAME:I can carry you by silt strider from Andothren to Hlan Oek, Menaan, and Omaynis.|BNAM:;Andothren caravaner
+
+[MOD-INF]: ID=6794323012425925160(Topic:services)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Visit the Canalworks Temple for healing. Grub and drink is available at the Thirsty Saint Cornerclub. Outside the canton, you can rent a room at The Limping Scrib, though pilgrims often sleep at the Temple hostel. Merchants set up stalls at the bridge market. For travel services, Ralis Nalor moors his boat at the western dock, and Ivrea Llothro is the silt strider caravaneer, at the other end of Almas Thirr.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:19CX0Publican|INTV|SCVR:27XX0TR_m3_Ralis Nalor|INTV|INTV|SCVR:47XX0TR_m3_Ivrea Llothro|INTV|SCVR:53sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Visit the Canalworks Temple for healing. Grub and drink is available at the Thirsty Saint Cornerclub. Outside the canton, you can rent a room at The Limping Scrib, though pilgrims often sleep at the Temple hostel. Merchants set up stalls at the bridge market. For travel services, Ralis Nalor moors his boat at the western dock, and Ivrea Llothro is the silt strider caravaneer, at the other end of Almas Thirr.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:19CX0Publican|INTV|SCVR:27XX0TR_m3_Ralis Nalor|INTV|INTV|SCVR:47XX0TR_m3_Ivrea Llothro|INTV|SCVR:53sX0TR_Map|INTV
+
+[MOD-INF]: ID=7230160612567210940(Topic:bloodstone shrine)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:The shrine marks where St. Veloth the Pilgrim and his host crossed the Thirr River, following the sacrifice of Sharai the Herder. You can find it within the monastery that stands on the eastern bank. Many Temple followers attempt the Bloodstone Pilgrimage. Many also fail.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:1BLX0Almas Thirr, Bloodstone Shrine|INTV|SCVR:2BLX0Almas Thirr, Monastery of St. Veloth|INTV|SCVR:33sX0TR_Map|INTV|BNAM:addtopic "Bloodstone Pilgrimage"
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:The shrine marks where St. Veloth the Pilgrim and his host crossed the Thirr River, following the sacrifice of Sharai the Herder. You can find it within the monastery that stands on the eastern bank. Many Temple followers attempt the Bloodstone Pilgrimage. Many also fail.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:1BLX0Almas Thirr, Bloodstone Shrine|INTV|SCVR:2BLX0Almas Thirr, Monastery of St. Veloth|INTV|SCVR:33sX0TR_Map|INTV|BNAM:addtopic "Bloodstone Pilgrimage"
+
+[MOD-INF]: ID=8736238382475114068(Topic:latest rumors)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Rothis Thalur seems to think there's a choir of dreugh living in the waters off Almas Thirr. He says they're living in a wrecked ship or grotto, but it'd be unusual for dreugh to swim in these parts. Maybe the old gaffer should lay off the mazte. Whenever he's not in his boat, he's off wetting his tongue at the Thirsty Saint Cornerclub.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:K|SCVR:27XX0TR_m3_Rothis Thalur|INTV|SCVR:3BLX0Almas Thirr, Thirsty Saint Cornerclub|INTV|SCVR:43sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Rothis Thalur seems to think there's a choir of dreugh living in the waters off Almas Thirr. He says they're living in a wrecked ship or grotto, but it'd be unusual for dreugh to swim in these parts. Maybe the old gaffer should lay off the mazte. Whenever he's not in his boat, he's off wetting his tongue at the Thirsty Saint Cornerclub.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:K|SCVR:27XX0TR_m3_Rothis Thalur|INTV|SCVR:3BLX0Almas Thirr, Thirsty Saint Cornerclub|INTV|SCVR:43sX0TR_Map|INTV
+
+[MOD-INF]: ID=10814129181470410686(Topic:aanthirin)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:The region once flourished under House Indoril's stewardship. Few today can remember the days when their chapels stood like sentinels on both sides of the Thirr River, guarding against conflicts on its fertile banks. Still, though the land has been shattered, it remains an open hearth to all of Veloth's people.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:The region once flourished under House Indoril's stewardship. Few today can remember the days when their chapels stood like sentinels on both sides of the Thirr River, guarding against conflicts on its fertile banks. Still, though the land has been shattered, it remains an open hearth to all of Veloth's people.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=10996141922489116452(Topic:thirr river)
+  tr_mainland.esm---------->|DATA|ANAM:Oran Plantation|NAME:The Thirr is the largest river in Morrowind, and the plantation is on the west bank. It flows out of the canyons of Shipal-Shin, through Lake Andaram, into the Inner Sea.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX3TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Oran Plantation|NAME:The Thirr is the largest river in Morrowind, and the plantation is on the west bank. It flows out of the canyons of Shipal-Shin, through Lake Andaram, into the Inner Sea.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX3TR_Map|INTV
+
+[MOD-INF]: ID=12175132311525332435(Topic:little secret)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Irnami Silsi is always looking to punish the wicked and quell the heretical. Not even the Ordinators can match her zeal.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX3Random100|INTV:|SCVR:27XX0TR_m3_Indoril Silsi|INTV|SCVR:33sX0TR_Map|INTV|BNAM:;Almas Thirr
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Irnami Silsi is always looking to punish the wicked and quell the heretical. Not even the Ordinators can match her zeal.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX3Random100|INTV:|SCVR:27XX0TR_m3_Indoril Silsi|INTV|SCVR:33sX0TR_Map|INTV|BNAM:;Almas Thirr
+
+[MOD-INF]: ID=12923242813201622883(Topic:across the bridge)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:I am not your guide, outlander.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:I am not your guide, outlander.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=13886166551967814669(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Tilresi|ANAM:Almas Thirr|NAME:His illuminated lordship isn't very subtle, is he? He's obviously trying to make the Hlaalu seem like enemies of the Temple. I think I've heard enough, thank you.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb01" 1  additem "TR_m3_TT_Proverb01" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Tilresi|ANAM:Almas Thirr|NAME:His illuminated lordship isn't very subtle, is he? He's obviously trying to make the Hlaalu seem like enemies of the Temple. I think I've heard enough, thank you.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb01" 1  additem "TR_m3_TT_Proverb01" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+
+[MOD-INF]: ID=14146319941088131693(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Jalor Indo|ANAM:Almas Thirr|NAME:Yes! Yes! Lord Ilvi is right! He truly is blessed with wisdom. The Hlaalu are wicked and greedy beyond measure! The Indoril are the true defenders of the Faith.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb03" 1  additem "TR_m3_TT_Proverb03" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Jalor Indo|ANAM:Almas Thirr|NAME:Yes! Yes! Lord Ilvi is right! He truly is blessed with wisdom. The Hlaalu are wicked and greedy beyond measure! The Indoril are the true defenders of the Faith.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb03" 1  additem "TR_m3_TT_Proverb03" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+
+[MOD-INF]: ID=14774180631473317898(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|CNAM:Guard|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:We have been given strict orders to not interfere with any on the Pilgrimage. You walk this path alone.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Guard|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:We have been given strict orders to not interfere with any on the Pilgrimage. You walk this path alone.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV
+
+[MOD-INF]: ID=15115212141895918677(Topic:bloodstone shrine)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:The shrine marks where St. Veloth the Pilgrim and his host crossed the Thirr River, following the sacrifice of Sharai the Herder. You can find it within the monastery that stands on the eastern bank. Some of our more devout followers attempt the Bloodstone Pilgrimage.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:1BLX0Almas Thirr, Bloodstone Shrine|INTV|SCVR:2BLX0Almas Thirr, Monastery of St. Veloth|INTV|SCVR:33sX0TR_Map|INTV|BNAM:addtopic "Bloodstone Pilgrimage"
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:The shrine marks where St. Veloth the Pilgrim and his host crossed the Thirr River, following the sacrifice of Sharai the Herder. You can find it within the monastery that stands on the eastern bank. Some of our more devout followers attempt the Bloodstone Pilgrimage.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:1BLX0Almas Thirr, Bloodstone Shrine|INTV|SCVR:2BLX0Almas Thirr, Monastery of St. Veloth|INTV|SCVR:33sX0TR_Map|INTV|BNAM:addtopic "Bloodstone Pilgrimage"
+
+[MOD-INF]: ID=15355272842731831952(Topic:someone in particular)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Hetman Llothro|ANAM:Almas Thirr|NAME:The Majordomo of the Crossing, Andor Orothi, presides over Almas Thirr and its garrison of Ordinators. Lloris Dalan leads the clergy at the Canalworks Temple. Irnami Silsi commands a company of Indoril guards stationed on the eastern bank.|SCVR:5BLX0Almas Thirr, Canalworks Temple|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Hetman Llothro|ANAM:Almas Thirr|NAME:The Majordomo of the Crossing, Andor Orothi, presides over Almas Thirr and its garrison of Ordinators. Lloris Dalan leads the clergy at the Canalworks Temple. Irnami Silsi commands a company of Indoril guards stationed on the eastern bank.|SCVR:5BLX0Almas Thirr, Canalworks Temple|INTV
+
+[MOD-INF]: ID=16299236711970731630(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Tilresi|ANAM:Almas Thirr|NAME:Looks like you're serious about going native -- I know to appreciate it, and so do some of the elves here, little that they might let you on about it. And for your help, here's some of mine in return. Your next destination is the Waistworks, as I guess you know. Best of luck on your way, %PCName.|SCVR:04JX3TR_m3_AT_Literacy|INTV:d|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F|SCVR:32sX0tr_m3_bloodstone_help_|TINT:|BNAM:player->AddItem "p_restore_health_q" 1  set tr_m3_bloodstone_help_T to 1
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Tilresi|ANAM:Almas Thirr|NAME:Looks like you're serious about going native -- I know to appreciate it, and so do some of the elves here, little that they might let you on about it. And for your help, here's some of mine in return. Your next destination is the Waistworks, as I guess you know. Best of luck on your way, %PCName.|SCVR:04JX3TR_m3_AT_Literacy|INTV:d|SCVR:14JX3TR_m3_TT_Bloodstone|INTV|SCVR:24JX4TR_m3_TT_Bloodstone|INTV:F|SCVR:32sX0tr_m3_bloodstone_help_|TINT:|BNAM:player->AddItem "p_restore_health_q" 1  set tr_m3_bloodstone_help_T to 1
+
+[MOD-INF]: ID=16352310532843320441(Topic:across the bridge)
+  tr_mainland.esm---------->|DATA|RNAM:Khajiit|ANAM:Almas Thirr|NAME:%Name is not your guide.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Khajiit|ANAM:Almas Thirr|NAME:%Name is not your guide.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=16494243191961821180(Topic:little secret)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Almas Thirr's monastery is ancient, and the Bloodstone Shrine more so, but the stronghold itself is not. The stronghold was built because the Houses stopped working together. It's a far cry from the days when Veloth's people marched as a single body.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:B|SCVR:23sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:Almas Thirr's monastery is ancient, and the Bloodstone Shrine more so, but the stronghold itself is not. The stronghold was built because the Houses stopped working together. It's a far cry from the days when Veloth's people marched as a single body.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:B|SCVR:23sX0TR_Map|INTV
+
+[MOD-INF]: ID=16587200012408130896(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Jalor Indo|ANAM:Almas Thirr|NAME:Yes! Yes! Lord Ilvi is right! He truly is blessed with wisdom. The Hlaalu are treacherous. They cannot be trusted. The Indoril are the true defenders of the Faith.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb01" 1  additem "TR_m3_TT_Proverb01" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Jalor Indo|ANAM:Almas Thirr|NAME:Yes! Yes! Lord Ilvi is right! He truly is blessed with wisdom. The Hlaalu are treacherous. They cannot be trusted. The Indoril are the true defenders of the Faith.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb01" 1  additem "TR_m3_TT_Proverb01" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+
+[MOD-INF]: ID=16849182067112253597(Topic:destination)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m4_Didilu-Edinu|NAME:I can carry you by silt strider from Arvud to Menaan.|BNAM:;Arvud caravaner
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m4_Didilu-Edinu|NAME:I can carry you by silt strider from Arvud to Menaan or Hlan Oek.|BNAM:;Arvud caravaner
+
+[MOD-INF]: ID=17340235071334524051(Topic:services)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME|BEGIN ALMAS THIRR S|ERVI
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME|BEGIN ALMAS THIRR SERVICES
+
+[MOD-INF]: ID=17469250373160511952(Topic:lanette)
+  tr_mainland.esm---------->|DATA|CNAM:Guard|FNAM:T_Mw_HouseIndoril|ANAM:Almas Thirr|NAME:You'll want to speak to Commander Silsi over at the garrison across the bridge on the east side.|SCVR:04JX3TR_m3_AT_Nuccius_Lanette|INTV: |SCVR:14JX4TR_m3_AT_Nuccius_Lanette|INTV|SCVR:23sX0TR_Map|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|BNAM:if ( GetJournalIndex TR_m3_AT_Nuccius_Lanette == 10 )      Journal TR_m3_AT_Nuccius_Lanette 15  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Guard|FNAM:T_Mw_HouseIndoril|ANAM:Almas Thirr|NAME:You'll want to speak to Commander Silsi over at the garrison across the bridge on the east side.|SCVR:23sX0TR_Map|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|BNAM:if ( GetJournalIndex TR_m3_AT_Nuccius_Lanette == 10 )      Journal TR_m3_AT_Nuccius_Lanette 15  endif
+
+[MOD-INF]: ID=18352162882103412056(Topic:specific place)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR MAP6 PLACE
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR MAP6 PLACE
+
+[MOD-INF]: ID=18881320472593720692(Topic:services)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME|BEGIN ROA DYR S|ERVI
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME|BEGIN ROA DYR SERVICES
+
+[MOD-INF]: ID=18919178842938211651(Topic:introduction to hermaean logic)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Give Tilresi the bookseller a visit. Maybe she can help you find it. Her shop is in the Canalworks.|SCVR:04JX3TR_m3_LA_TheRift|INTV|SCVR:14JX4TR_m3_LA_TheRift|INTV|SCVR:22sX0TR_m3_q_TheRiftTilresi|INTV:|SCVR:37XX0TR_m3_Tilresi|INTV|SCVR:4CsX0T_Local_NoLore|INTV:|SCVR:53sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Give Tilresi the bookseller a visit. Maybe she can help you find it. Her shop is in the Canalworks.|SCVR:04JX3TR_m3_LA_TheRift|INTV|SCVR:14JX4TR_m3_LA_TheRift|INTV|SCVR:22sX0TR_m3_q_TheRiftTilresi|INTV:|SCVR:37XX0TR_m3_Tilresi|INTV|SCVR:4CsX0T_Local_NoLore|INTV:|SCVR:53sX0TR_Map|INTV
+
+[MOD-INF]: ID=19176193173013528008(Topic:services)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Riluva Sovoras|ANAM:Almas Thirr, Monastery of St. Veloth|NAME:I have potions for sale and a few spells I can teach you. Ivero Hloran is our spellmaker; you can find her in the upper dormitories.
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Riluva Sovoras|ANAM:Almas Thirr, Monastery of St. Veloth|NAME:I have potions for sale and a few spells I can teach you. Ivero Hloran is our spellmaker; you can find her in the upper dormitories.
+
+[MOD-INF]: ID=19394248312212117793(Topic:aanthirin)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:The Aanthirin region is divided by the Thirr River and contains the largest lake in Morrowind: Lake Andaram. It is a lush, orange-green region with too many borders to name. The region is divided into House Hlaalu and House Indoril lands, separated by the neutral Temple stronghold of Almas Thirr.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:The Aanthirin region is divided by the Thirr River and contains the largest lake in Morrowind: Lake Andaram. It is a lush, orange-green region with too many borders to name. The region is divided into House Hlaalu and House Indoril lands, separated by the neutral Temple stronghold of Almas Thirr.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=20839296411725110690(Topic:little secret)
+  tr_mainland.esm---------->|DATA|ONAM:dialog placeholder|NAME:END TR MAP1 DIALOGUE: FILLER |SECR:|SCVR:02sX4Random100|INTV:7|SCVR:17XX0TR_m1_T_Mithras|INTV|SCVR:27XX0TR_m1_Eranea|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:dialog placeholder|NAME:END TR MAP1 DIALOGUE: FILLER SECRE|TSSC|INTV:7|SCVR:17XX0TR_m1_T_Mithras|INTV|SCVR:27XX0TR_m1_Eranea|INTV
+
+[MOD-INF]: ID=21596105912560216549(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:Those strong of body and mind should seek Hetman Llothro on the west end of Almas Thirr. She can start you on your Pilgrimage to the Bloodstone Shrine.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:Journal TR_m3_TT_Bloodstone 10
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|DNAM:Temple|NAME:Those strong of body and mind should seek Hetman Llothro on the west end of Almas Thirr. She can start you on your Pilgrimage to the Bloodstone Shrine.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:Journal TR_m3_TT_Bloodstone 10
+
+[MOD-INF]: ID=22955185272661423764(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Pauper|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Pauper|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=23157168942900117666(Topic:roa dyr)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Roa Dyr is the Chapel of the Indoril Ilvi. It is the principal holding of the Indoril along the Thirr, and lies on a small tributary a little to the east of Almas Thirr.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:ShowMap "Roa Dyr"
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Roa Dyr is the Chapel of the Indoril Ilvi. It is the principal holding of the Indoril along the Thirr, and lies on a small tributary a little to the east of Almas Thirr.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|BNAM:ShowMap "Roa Dyr"
+
+[MOD-INF]: ID=23177140712440426237(Topic:cremation services)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Dala_Aralen|ANAM:Almas Thirr|NAME:I shall leave for Garvs Ovav's home at once.|SCVR:04JX3TR_m3_TT_R|IPIN
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Dala_Aralen|ANAM:Almas Thirr|NAME:I shall leave for Garvs Ovav's home at once.|SCVR:04JX3TR_m3_TT_R|IPIN
+
+[MOD-INF]: ID=23301104081413930437(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:T_Glb_Fisherman|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:T_Glb_Fisherman|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=23379237401169918721(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Smith|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Smith|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=23430261722569732431(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Alright... I would've appreciated an explanation, though. I'm just a commoner.|SCVR:01500|INTV: |SCVR:13sX0TR_Map|INTV|BNAM:ModDisposition -5  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif  Goodbye
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Alright... I would've appreciated an explanation, though. I'm just a commoner.|SCVR:01500|INTV: |SCVR:13sX0TR_Map|INTV|BNAM:ModDisposition -5  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif  Goodbye
+
+[MOD-INF]: ID=23475141772846527591(Topic:thirr river)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:The Thirr is the largest river in Morrowind, and the river Almas Thirr is built upon. It flows out of the canyons of Shipal-Shin, through Lake Andaram, into the Inner Sea.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:29CX0Savant|INTV|SCVR:39CX0Savant Service|INTV|SCVR:43sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|ANAM:Almas Thirr|NAME:The Thirr is the largest river in Morrowind, and the river Almas Thirr is built upon. It flows out of the canyons of Shipal-Shin, through Lake Andaram, into the Inner Sea.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:29CX0Savant|INTV|SCVR:39CX0Savant Service|INTV|SCVR:43sX0TR_Map|INTV
+
+[MOD-INF]: ID=25266305462103028290(Topic:bloodstone pilgrimage)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|DNAM:Temple|NAME:A rough pilgrimage the Temple runs here. They ask you to walk the length of the city with a sharp rock in your shoe. You look like you're familiar with it.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV:d
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Aanthirin Region|DNAM:Temple|NAME:A rough pilgrimage the Temple runs here. They ask you to walk the length of the city with a sharp rock in your shoe. You look like you're familiar with it.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV|SCVR:34JX3TR_m3_TT_Bloodstone|INTV:d
+
+[MOD-INF]: ID=25861176021481930906(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|RNAM:Dark Elf|CNAM:Trader Service|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+  TR_LakeAndaram_v0104.ESP->|DATA|RNAM:Dark Elf|CNAM:Trader Service|ANAM:Almas Thirr|NAME:The Temple has some words of wisdom for me? Written by lord Ilvi? Let's hear them.|SCVR:04JX0TR_m3_TT_Lloris4|INTV: |SCVR:13sX0TR_Map|INTV|SCVR:28FX0Temple|INTV|SCVR:3CsX0T_Local_NoLore|INTV:|SCVR:48FX0Hlaalu|INTV|SCVR:58FX0T_Mw_HouseIndoril|INTV|BNAM:if ( player->GetItemCount, "TR_m3_TT_Proverb01" >= 1 )  Choice "The false scales are imbalanced -- the truth will tip them over.", 6  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb02" >= 1 )  Choice "One cannot bow to the Emperor without turning their back on the Three.", 7  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb03" >= 1 )  Choice "Envy not the rich man -- his wealth offers no shelter from the storm.", 8  endif  if ( player->GetItemCount, "TR_m3_TT_Proverb04" >= 1 )  Choice "A house built on stolen land crumbles -- it's the house built on ancestral land that thrives.", 9  endif  Choice "Nevermind.", 14
+
+[MOD-INF]: ID=26040248942263826717(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:To be frank, I wouldn't mind if I was rich... Can you explain what the proverb is supposed to mean?|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb03" 1  additem "TR_m3_TT_Proverb03" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  Choice "It means that wealth doesn't save you from divine judgment.", 10, "It means that those who are greedy like the Hlaalu are doomed.", 11, "Lord Ilvi is implying that the Hlaalu are wicked.", 12, "You can interpret it any way you wish. Search for the meaning within.", 13
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:To be frank, I wouldn't mind if I was rich... Can you explain what the proverb is supposed to mean?|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb03" 1  additem "TR_m3_TT_Proverb03" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  Choice "It means that wealth doesn't save you from divine judgment.", 10, "It means that those who are greedy like the Hlaalu are doomed.", 11, "Lord Ilvi is implying that the Hlaalu are wicked.", 12, "You can interpret it any way you wish. Search for the meaning within.", 13
+
+[MOD-INF]: ID=26269134201124119478(Topic:lanette)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m4_Vodunius Nuccius|ANAM:Almas Thirr|NAME:Like I said, she seemed friendly enough. I wonder if she got away from those ruffians. But I'm more concerned about getting my money back, to be honest.|SCVR:04JX4TR_m4_T_Nuccius|INTV:_
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Like I said, she seemed friendly enough. I wonder if she got away from those ruffians. But I'm more concerned about getting my money back, to be honest.
+
+[MOD-INF]: ID=26360322131705126212(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Jalor Indo|ANAM:Almas Thirr|NAME:Yes! Yes! Lord Ilvi is right! He truly is blessed with wisdom. The Hlaalu spit on the faces of their ancestors. The Indoril are the true defenders of the Faith.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb04" 1  additem "TR_m3_TT_Proverb04" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Jalor Indo|ANAM:Almas Thirr|NAME:Yes! Yes! Lord Ilvi is right! He truly is blessed with wisdom. The Hlaalu spit on the faces of their ancestors. The Indoril are the true defenders of the Faith.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb04" 1  additem "TR_m3_TT_Proverb04" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+
+[MOD-INF]: ID=26794244311276731253(Topic:little advice)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Respect the Temple's doctrine and the authority of its priests and Ordinators. The Order of the Watch patrols Almas Thirr. No heresy escapes their notice.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:Respect the Temple's doctrine and the authority of its priests and Ordinators. The Order of the Watch patrols Almas Thirr. No heresy escapes their notice.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=27345215932212131320(Topic:almas thirr)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Almas Thirr's bridge is the only way to cross the Thirr River without chartering a boat or silt strider. It's also a stronghold of the native Temple cult and a popular stop for their pilgrims. Personally, I know little of the gods and saints the Dunmer worship, so I can't tell you much else.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:23sX0TR_Map|INTV|BNAM:addtopic "across the bridge"  ShowMap "Almas Thirr"
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Almas Thirr's bridge is the only way to cross the Thirr River without chartering a boat or silt strider. It's also a stronghold of the native Temple cult and a popular stop for their pilgrims. Personally, I know little of the gods and saints the Dunmer worship, so I can't tell you much else.|SCVR:0CsX0T_Local_NoLore|INTV|INTV|SCVR:23sX0TR_Map|INTV|BNAM:addtopic "across the bridge"  ShowMap "Almas Thirr"
+
+[MOD-INF]: ID=28894126983226513768(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:I hear you, but I don't quite understand what it means... The Emperor lives far away. What does this have to do with me?|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb02" 1  additem "TR_m3_TT_Proverb02" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  Choice "It means that we shouldn't forget that we're subjects of the Tribunal first.", 10, "It means that the Hlaalu have turned their back on the Tribunal in favor of the Emperor.", 11, "Lord Ilvi is implying that the Hlaalu are wicked.", 12, "You can interpret it any way you wish. Search for the meaning within.", 13
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:I hear you, but I don't quite understand what it means... The Emperor lives far away. What does this have to do with me?|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb02" 1  additem "TR_m3_TT_Proverb02" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  Choice "It means that we shouldn't forget that we're subjects of the Tribunal first.", 10, "It means that the Hlaalu have turned their back on the Tribunal in favor of the Emperor.", 11, "Lord Ilvi is implying that the Hlaalu are wicked.", 12, "You can interpret it any way you wish. Search for the meaning within.", 13
+
+[MOD-INF]: ID=28913132613247015802(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:Okay, so one house crumbles and the other one doesn't... What does it mean?|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb04" 1  additem "TR_m3_TT_Proverb04" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  Choice "It means that you should honor your ancestors and never forget your roots.", 10, "It means that those who are treacherous like the Hlaalu have forsaken their ancestors.", 11, "Lord Ilvi is implying that the Hlaalu are wicked.", 12, "You can interpret it any way you wish. Search for the meaning within.", 13
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:Okay, so one house crumbles and the other one doesn't... What does it mean?|SCVR:01500|INTV|SCVR:13sX0TR_Map|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb04" 1  additem "TR_m3_TT_Proverb04" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  Choice "It means that you should honor your ancestors and never forget your roots.", 10, "It means that those who are treacherous like the Hlaalu have forsaken their ancestors.", 11, "Lord Ilvi is implying that the Hlaalu are wicked.", 12, "You can interpret it any way you wish. Search for the meaning within.", 13
+
+[MOD-INF]: ID=29777267542036027023(Topic:words of wisdom)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m3_Tilresi|ANAM:Almas Thirr|NAME:His illuminated lordship isn't very subtle, is he? He's obviously trying to make the Hlaalu seem like enemies of the Temple. I think I've heard enough, thank you.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb04" 1  additem "TR_m3_TT_Proverb04" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m3_Tilresi|ANAM:Almas Thirr|NAME:His illuminated lordship isn't very subtle, is he? He's obviously trying to make the Hlaalu seem like enemies of the Temple. I think I've heard enough, thank you.|SCVR:01500|INTV|BNAM:player->removeitem "TR_m3_TT_Proverb04" 1  additem "TR_m3_TT_Proverb04" 1  set TR_m3_TT_ProverbCounter to ( TR_m3_TT_ProverbCounter + 1 )  set controlQ to 1  if ( TR_m3_TT_ProverbCounter >= 4 )  if ( GetJournalIndex "TR_m3_TT_Lloris4" < 50 )  Journal "TR_m3_TT_Lloris4" 50  "TR_m3_Calitia"->PositionCell, 3403, 7748, 9005, 8000, "Almas Thirr, Canalworks Temple"  "TR_m3_Calitia"->AiWander, 0 0 0 0 0 0  endif  endif
+
+[MOD-INF]: ID=30460112071540812252(Topic:latest rumors)
+  tr_mainland.esm---------->|DATA|ANAM:Almas Thirr|NAME:I heard that an Ordinator from Necrom arrived in Almas Thirr recently. He's at the Monastery of St. Veloth looking for Temple curates who could assist him in his duties.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:2|SCVR:23sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|ANAM:Almas Thirr|NAME:I heard that an Ordinator from Necrom arrived in Almas Thirr recently. He's at the Monastery of St. Veloth looking for Temple curates who could assist him in his duties.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:12sX2Random100|INTV:2|SCVR:23sX0TR_Map|INTV
+
+[MOD-INF]: ID=30489314492797631772(Topic:feril's death)
+  tr_mainland.esm---------->|DATA|CNAM:Guard|ANAM:Almas Thirr|NAME:Drelegor Ulesseth plots to murder a tollmer in Roa Dyr? This is a serious accusation. Do you have any proof?|SCVR:04JX0TR_m3_AT_HisDeath|INTV:*|SCVR:13sX0TR_Map|INTV|SCVR:2CsX0T_Local_NoLore|INTV:|BNAM:Choice "[Explain theft and motive.]" 1 "Never mind." 2
+  TR_LakeAndaram_v0104.ESP->|DATA|CNAM:Guard|ANAM:Almas Thirr|NAME:Drelegor Ulesseth plots to murder a tollmer in Roa Dyr? This is a serious accusation. Do you have any proof?|SCVR:04JX0TR_m3_AT_HisDeath|INTV:*|SCVR:13sX0TR_Map|INTV|SCVR:2CsX0T_Local_NoLore|INTV:|BNAM:Choice "[Explain theft and motive.]" 1 "Never mind." 2
+
+[MOD-INF]: ID=30918258022520416992(Topic:services)
+  tr_mainland.esm---------->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:If you require guidance, seek out a priest for counsel. The Canalworks Temple offers healing services for faithful Dunmer and outlander heathens alike. If you're looking for lodgings, the Hospice of the Crossing provides beds for the devout.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:Temple|ANAM:Almas Thirr|NAME:If you require guidance, seek out a priest for counsel. The Canalworks Temple offers healing services for faithful Dunmer and outlander heathens alike. If you're looking for lodgings, the Hospice of the Crossing provides beds for the devout.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=31054264272121024414(Topic:services)
+  tr_mainland.esm---------->|DATA|FNAM:T_Mw_HouseIndoril|ANAM:Almas Thirr|NAME:The Temple provides services for those in need. They maintain shrines, counsel the masses, and provide lodgings for pilgrims and pious travelers.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+  TR_LakeAndaram_v0104.ESP->|DATA|FNAM:T_Mw_HouseIndoril|ANAM:Almas Thirr|NAME:The Temple provides services for those in need. They maintain shrines, counsel the masses, and provide lodgings for pilgrims and pious travelers.|SCVR:0CsX0T_Local_NoLore|INTV:|SCVR:13sX0TR_Map|INTV
+
+[MOD-INF]: ID=32389271742742931247(Topic:abolitionists)
+  tr_mainland.esm---------->|DATA|ONAM:TR_m4_Hartvrage|NAME:If they had their way, I'd be out of a job. Hell, some of them would probably want to lock me up!
+  TR_LakeAndaram_v0104.ESP->|DATA|ONAM:TR_m4_Hartvrage|NAME:If they had their way, I'd be out of a job. Hell, some of them would probably want to lock me up!

@@ -1,0 +1,79 @@
+Undead arise from death 3.5.esp: DEP-LST DUP-REC GETSND MENUMOD MISSDSC MISSVER OVR-REC
+    [DEP-LST] Deprecated use of Leveled List functions on Bethesda Lists:
+	SCPT(UN_lich_GednaRelvel_Script)     addtolevcreature in_tomb_all_lev_trib
+	SCPT(UN_lich_GednaRelvel_Script)     removefromlevcreature in_tomb_all_lev_trib
+	SCPT(barilzarScript)                 addtolevcreature in_tomb_all_lev_trib
+	SCPT(barilzarScript)                 removefromlevcreature in_tomb_all_lev_trib
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(UN_banshee_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(UN_Arise_from_death_script)
+	SCPT(UN_DisabledCreature_Script)
+	SCPT(UN_Haunt_script)
+	SCPT(UN_MummyScript)
+	SCPT(UN_NoHello_Script)
+	SCPT(UN_RevenantArise_script)
+	SCPT(UN_Revenant_script)
+	SCPT(UN_SkeletonArise2_script)
+	SCPT(UN_Spectre_script)
+	SCPT(UN_lich_skull_script)
+	SCPT(UN_skeleton_Arise_script)
+	SCPT(UN_spectre_body_script)
+	SCPT(barilzarScript)
+	SCPT(profaneScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CREA    bm_draugr01
+	bloodmoon.esm       CREA    bm_skeleton_pirate 
+	bloodmoon.esm       CREA    bm_skeleton_pirate_capt
+	bloodmoon.esm       LEVC    bm_in_nordburial
+	bloodmoon.esm       LEVC    bm_in_nordburial_40
+	bloodmoon.esm       LEVC    bm_in_nordburial_60
+	bloodmoon.esm       SNDG    
+	morrowind.esm       CREA    ancestor_ghost
+	morrowind.esm       CREA    ancestor_guardian_heler
+	morrowind.esm       CREA    bonelord
+	morrowind.esm       CREA    bonewalker
+	morrowind.esm       CREA    bonewalker_greater
+	morrowind.esm       CREA    bonewalker_weak
+	morrowind.esm       CREA    corprus_stalker
+	morrowind.esm       CREA    corprus_stalker_berwen
+	morrowind.esm       CREA    corprus_stalker_danar
+	morrowind.esm       CREA    corprus_stalker_fgcs
+	morrowind.esm       CREA    corprus_stalker_fyr01
+	morrowind.esm       CREA    corprus_stalker_fyr02
+	morrowind.esm       CREA    corprus_stalker_fyr03
+	morrowind.esm       CREA    corprus_stalker_morvayn
+	morrowind.esm       CREA    skeleton
+	morrowind.esm       CREA    skeleton archer
+	morrowind.esm       CREA    skeleton entrance
+	morrowind.esm       CREA    skeleton_aldredaynia
+	morrowind.esm       CREA    skeleton_weak
+	morrowind.esm       CREA    wraith_sul_senipul
+	morrowind.esm       LEVC    in_tomb_all_lev+0
+	morrowind.esm       LEVC    in_tomb_all_lev+2
+	morrowind.esm       LEVC    in_tomb_all_lev-2
+	morrowind.esm       LEVC    in_tomb_bone_lev+0
+	morrowind.esm       LEVC    in_tomb_bone_lev+2
+	morrowind.esm       LEVC    in_tomb_bone_lev-2
+	morrowind.esm       LEVC    in_tomb_skele_lev+0
+	morrowind.esm       LEVC    in_tomb_skele_lev+2
+	morrowind.esm       LEVC    in_tomb_skele_lev-2
+	morrowind.esm       MGEF    106
+	tribunal.esm        CREA    ancestor_ghost_greater
+	tribunal.esm        CREA    ancestor_ghost_summon
+	tribunal.esm        CREA    ancestor_ghost_vabdas
+	tribunal.esm        CREA    ancestor_ghost_variner
+	tribunal.esm        CREA    ancestor_guardian_fgdd
+	tribunal.esm        CREA    ancestor_mg_wisewoman
+	tribunal.esm        CREA    bonelord_summon
+	tribunal.esm        CREA    bonewalker_greater_summ
+	tribunal.esm        CREA    bonewalker_summon
+	tribunal.esm        CREA    lich
+	tribunal.esm        CREA    skeleton_summon
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        LEVC    in_tomb_all_lev_trib

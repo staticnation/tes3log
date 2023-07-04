@@ -1,0 +1,32 @@
+The Sanguine Rose (2).ESP: AUTOSPL DUP-INF DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	mdsr_spell_absorbhealth        Dark Seduction
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(mdSR_script_berel_02)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mdSR_script_DaedraSang_ruin)
+	SCPT(mdSR_script_DaedraSanguine)
+	SCPT(mdSR_script_betrayal)
+	SCPT(mdSR_script_betrayal_disable)
+	SCPT(mdSR_script_betrayal_enable)
+	SCPT(mdSR_script_end_wait)
+	SCPT(mdSR_script_giveBerelKey)
+	SCPT(mdSR_script_office_pitcher)
+	SCPT(mdSR_script_office_wait)
+	SCPT(mdSR_script_room_pitcher)
+	SCPT(mdSR_script_room_wait)
+	SCPT(mdSR_script_room_washbowl)
+	SCPT(mdSR_script_trapdoor)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+
+[DUP-INF]: ID=358922077212707403(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|ANAM:Mournhold Temple|SNAM:vo\d\f\tHlo_DF043.mp3|NAME:Almalexia knows and sees.|BNAM:;guard
+
+[DUP-INF]: ID=2737744262690926185(Voice:hello)
+  |DATA|RNAM:Dark Elf|ANAM:Mournhold, Godsreach|SNAM:Vo\d\m\tHlo_DM077.mp3|NAME:Honor is food and drink for the soul.|SCVR:02sX5Random100|INTV
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

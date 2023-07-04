@@ -1,0 +1,129 @@
+MW_Children_mini.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(EM_childtopics)
+	SCPT(EM_extras)
+	SCPT(EM_target_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       BODY    b_n_orc_f_neck
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    little secret
+
+[DUP-INF]: ID=826321646924279(Topic:little secret)
+  |DATA|FNAM:Ashlanders|ANAM:Erabenimsun Camp|NAME:Do the old places of the Deep Elves interest you? Then you should go see Nchuleftingth. The walls still glow with strange lights, and terrible things walk and squeal in the passages. it is a bad place, and very dangerous, but it is filled with wonders.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+
+[DUP-INF]: ID=32383357016832965(Persuasion:taunt success)
+  |DATA|NAME:That does it.|SCVR:01710|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=34516565177822785(Persuasion:bribe fail)
+  |DATA|NAME:You'll regret trying to bribe me.|SCVR:01710|INTV
+
+[DUP-INF]: ID=47776764269612525(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM010.mp3|NAME:Bash!|SCVR:01450|INTV:|BNAM:;SameRace=0
+
+[DUP-INF]: ID=51221362149622068(Persuasion:intimidate fail)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:Speak with disrespect to the spirits, and you will regret it.
+
+[DUP-INF]: ID=97142792310825007(Greeting:greeting 1)
+  |DATA|ONAM:dratha|NAME:I'm glad to see you again, %PCName.|SCVR:01440|INTV|SCVR:34JX3B7_DrathaHort|INTV:2|SCVR:44JX4B7_TelvanniHort|INTV:2|BNAM:StartScript CountTelvanniHortator
+
+[DUP-INF]: ID=104893544128414764(Voice:idle)
+  |DATA|RNAM:Dark Elf|CNAM:Guard|FNAM:Temple|SNAM:Vo\ord\Idl_ORM004.mp3|NAME:By the Three, my rights and duties.
+
+[DUP-INF]: ID=133928217305419560(Persuasion:bribe fail)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:What use does a spirit have for gold?
+
+[DUP-INF]: ID=157997456106822924(Persuasion:intimidate success)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:Among mortals, you are indeed great. Among the ancestors, you are of little account.
+
+[DUP-INF]: ID=218997615188231249(Persuasion:bribe success)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:Your offering does you honor.
+
+[DUP-INF]: ID=223139881339717365(Greeting:greeting 6)
+  |DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|DNAM:Telvanni|NAME:What can I do for you, %PCRank?
+
+[DUP-INF]: ID=224091285626087204(Persuasion:bribe success)
+  |DATA|ONAM:sovor trandel|NAME:Alright, you want the key? Just don't tell Ondres Nerano I did this, not that he doesn't deserve it with what he pays me.|SCVR:25IX0key_neranomanor|INTV:|SCVR:34JX0TG_ManorKey|INTV|BNAM:Journal TG_ManorKey 50  Player->AddItem key_neranomanor 1
+
+[DUP-INF]: ID=252910348266961071(Persuasion:taunt fail)
+  |DATA|NAME:That does it.|SCVR:01710|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=255728734234767264(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Atk_AM009.mp3|NAME:A small trophy for my young!|SCVR:02sX0PCRace|INTV: |BNAM:;PCRace=10[WoodElf]
+
+[DUP-INF]: ID=292830123750516691(Persuasion:admire fail)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:Honor the ancestors with your heart, not with your tongue.
+
+[DUP-INF]: ID=326912725701714286(Persuasion:taunt fail)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:Only the winds of death blow from the lips of mortals.
+
+[DUP-INF]: ID=563222144422730417(Persuasion:intimidate fail)
+  |DATA|NAME:I don't think so, and your pushing me isn't going to change that.
+
+[DUP-INF]: ID=769812117146202051(Voice:hello)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM017.mp3|NAME:Cover yourself. No one wants to see that.|SCVR:01425|INTV:|BNAM:;ClothingMod<=0
+
+[DUP-INF]: ID=785732822678819521(Topic:little secret)
+  |DATA|ONAM:arantamo|DNAM:Thieves Guild|NAME:I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.|SCVR:04JX4MS_propylon|INTV|BNAM:Journal MS_propylon 1
+
+[DUP-INF]: ID=946336351483925832(Persuasion:taunt success)
+  |DATA|NAME:I don't think I like the sound of that.
+
+[DUP-INF]: ID=1312313470517918122(Greeting:greeting 4)
+  |DATA|NAME:Hey! Get away from me! Don't you know you're sick? It's just a common disease. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+
+[DUP-INF]: ID=1408324348973814755(Voice:idle)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Idl_AM008.mp3|NAME:Grunt. Grunt. Grunt. Grunt. Grunt.|SCVR:02sX3Random100|INTV:Z
+
+[DUP-INF]: ID=1471322831213057918(Persuasion:intimidate success)
+  |DATA|NAME:It's ok, really. I didn't mean it.
+
+[DUP-INF]: ID=1480267592607815175(Persuasion:taunt success)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:Indeed, mortal, death is bitter. But your time will come.
+
+[DUP-INF]: ID=2350315055279237208(Greeting:greeting 1)
+  |DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform. Talk to me when you're serious.|SCVR:01475|INTV|SCVR:12sX0WearingLegionUni|INTV:|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+
+[DUP-INF]: ID=2377424419402128586(Voice:hello)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM139.mp3|NAME:Hiss!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+
+[DUP-INF]: ID=2402312435148114184(Greeting:greeting 6)
+  |DATA|ONAM:nileno dorvayn|NAME:Do you want to join House Hlaalu?|SCVR:01460|INTV:
+
+[DUP-INF]: ID=2605131512188323420(Greeting:greeting 4)
+  |DATA|FNAM:Redoran|NAME:Personally, %PCName, I really respect you. But you are a notorious outlaw, and until you have cleared your name, or paid your debt to society, I will become increasingly reluctant to associate with you.|SCVR:01433|INTV|BNAM:;Redoran, Legion; Temple; Morag Tong; Census and Excise; Disposition 70; PCCrime >=1000;  ModDisposition -20
+
+[DUP-INF]: ID=3031823948315241604(Voice:hit)
+  |DATA|RNAM:Redguard|SNAM:vo\r\f\Hit_RF014.mp3|NAME:Gasp.|SCVR:01045|INTV|SCVR:12sX3Random100|INTV:P
+
+[DUP-INF]: ID=7663241933007531117(Voice:hit)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Hit_AM001.mp3|NAME|AAAIIEE!|SCVR:01043|INTV:2|BNAM:;Health Percent>=80;Random>=80
+
+[DUP-INF]: ID=18510119522785722450(Persuasion:taunt success)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:Indeed, mortal, death is bitter. But your time will come.
+
+[DUP-INF]: ID=21277181512646316214(Persuasion:admire fail)
+  |DATA|NAME:That does it.|SCVR:01710|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=28436101133151628138(Persuasion:taunt fail)
+  |DATA|NAME:What are you talking about? I thought we were friends?
+
+[DUP-INF]: ID=31276167781995524022(Persuasion:admire success)
+  |DATA|NAME:I feel the same way. It's been some time now for me.|SCVR:01440|INTV:
+
+[DUP-INF]: ID=31285201491548314627(Persuasion:admire success)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:You do right to honor the ancestors.

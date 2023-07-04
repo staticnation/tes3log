@@ -1,0 +1,21 @@
+Domehome_2020.esp: DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(1grem_doomeIngredScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(1grem_CompSkills)
+	SCPT(1grem_IngredLevel)
+	SCPT(1grem_IngredWarp)
+	SCPT(1grem_doomeBethscript)
+	SCPT(1grem_doomeservantscript)
+	SCPT(1grem_doomguardfix)
+	SCPT(1grem_extr)
+	SCPT(TeleportHome)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hello

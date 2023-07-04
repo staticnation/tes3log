@@ -1,0 +1,438 @@
+Lokken+SolstheimCastle+AldVendrasVogar SO NOM.esp: DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(AA_ArinScript)
+	SCPT(AA_ErikScript)
+	SCPT(AA_FridScript)
+	SCPT(AA_HellenaScript)
+	SCPT(AA_Laurenna2Script)
+	SCPT(AA_LittleredScript)
+	SCPT(AA_LjotScript)
+	SCPT(AA_Sigrid2Script)
+	SCPT(AA_SigridScript)
+	SCPT(AA_SigstScript)
+	SCPT(AA_Wulfren2Script)
+	SCPT(AV_Swamp_1)
+	SCPT(AV_Swamp_2)
+	SCPT(AV_Swamp_3)
+	SCPT(GongHit)
+	SCPT(KO_DanceMusic_Script)
+	SCPT(KO_GongHit)
+	SCPT(KO_MusicStart)
+	SCPT(KO_MusicStart_Essex)
+	SCPT(KO_Sound_Frogs)
+	SCPT(KO_Sound_Water_Layer)
+	SCPT(KO_comp3Script)
+	SCPT(Sound_MillSaw_Script)
+	SCPT(Sound_MillStone_Script)
+	SCPT(Sound_MillWind_Script)
+	SCPT(Sound_Waterfall)
+	SCPT(aa_Hildescript)
+	SCPT(bar_script_clock05)
+	SCPT(bar_script_clock10)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AA_Arinlevel)
+	SCPT(AA_Arinstopfight)
+	SCPT(AA_Erikcelllock)
+	SCPT(AA_Fridlevel)
+	SCPT(AA_Fridstopfight)
+	SCPT(AA_Grundalundlock)
+	SCPT(AA_LRNcelllock)
+	SCPT(AA_Laurennalevel)
+	SCPT(AA_Ljotcelllock)
+	SCPT(AA_Ljotlevel)
+	SCPT(AA_Ljotstopfight)
+	SCPT(AA_Lok_skillreport)
+	SCPT(AA_LokkTeleportDetectionsmall)
+	SCPT(AA_LrnAble)
+	SCPT(AA_Lrnstopfight)
+	SCPT(AA_SETowerlock)
+	SCPT(AA_Sigridlock)
+	SCPT(AA_Sigstlevel)
+	SCPT(AA_Smallcelllock)
+	SCPT(AA_Thronepassagelock)
+	SCPT(AA_WuAble)
+	SCPT(AA_Wulfrenlevel)
+	SCPT(AA_Wustopfight)
+	SCPT(AA_berserklock)
+	SCPT(AA_extmastbedlock)
+	SCPT(AA_intmastbedlock)
+	SCPT(AA_mead1script)
+	SCPT(AA_newhomescript)
+	SCPT(AA_rguard1script)
+	SCPT(AA_rguard2script)
+	SCPT(AA_rguard3script)
+	SCPT(AA_secretpasslock)
+	SCPT(AA_sigstopfight)
+	SCPT(AVBE_Ring)
+	SCPT(AV_Abondoned_House_ring)
+	SCPT(AV_Abondoned_Yurt_ring)
+	SCPT(AV_BrancastleringScript)
+	SCPT(AV_Death)
+	SCPT(AV_Eaglestone_Ring)
+	SCPT(AV_Manko_Tower_Ring)
+	SCPT(AV_Manor_Ring)
+	SCPT(AV_Privateers_Hold_Ring)
+	SCPT(AV_Quarter_Tranthor)
+	SCPT(AV_Sorbrush_Estate_ring)
+	SCPT(AV_Summerresidence_Ring)
+	SCPT(AV_Swamp_1)
+	SCPT(AV_Swamp_2)
+	SCPT(AV_Swamp_3)
+	SCPT(AV_Thornball_Tower_Ring)
+	SCPT(AV_Thorsten_House_Ring)
+	SCPT(CAV_Ring)
+	SCPT(CAV_SortScript_start)
+	SCPT(CKR_Ring)
+	SCPT(CKR_Ring2)
+	SCPT(CKR_SortScript_start)
+	SCPT(CuirassScript)
+	SCPT(Fredsgrave)
+	SCPT(GreavesScript)
+	SCPT(Imp_light_J)
+	SCPT(Imp_light_N)
+	SCPT(KO_AzuraStatue)
+	SCPT(KO_Ballerinana_change)
+	SCPT(KO_Ballerinana_change_day)
+	SCPT(KO_Ballerinana_change_night)
+	SCPT(KO_CursedChest_Barrow)
+	SCPT(KO_DanceMusic_Script)
+	SCPT(KO_DomeRotate)
+	SCPT(KO_DomeRotate_fast)
+	SCPT(KO_Dungeon_lock)
+	SCPT(KO_Gamble)
+	SCPT(KO_Hinkel_Door_lock)
+	SCPT(KO_KeyDungeon_Script)
+	SCPT(KO_Kitchen_Door)
+	SCPT(KO_MainHall_Door)
+	SCPT(KO_Merch_Door_lock)
+	SCPT(KO_MoonRotate)
+	SCPT(KO_MusiciansScript)
+	SCPT(KO_NorthSwitchScript)
+	SCPT(KO_QuestScript)
+	SCPT(KO_Rental_Pub)
+	SCPT(KO_Riekling_stuffed)
+	SCPT(KO_Shannonwinoscript)
+	SCPT(KO_SlowMoonRotate)
+	SCPT(KO_Sound_Frogs)
+	SCPT(KO_Sound_Water_Layer)
+	SCPT(KO_SouthSwitchScript)
+	SCPT(KO_Telescope)
+	SCPT(KO_Telescope_look)
+	SCPT(KO_compLevel)
+	SCPT(KO_drunkwoman_synch)
+	SCPT(KO_dungeon_gaurd)
+	SCPT(KO_mann_FE_place)
+	SCPT(KO_mann_place_ma)
+	SCPT(KO_timed_relock_script)
+	SCPT(KO_timed_relock_script_10)
+	SCPT(KO_timed_relock_script_25)
+	SCPT(KO_timed_relock_script_50)
+	SCPT(KO_timed_relock_script_75)
+	SCPT(Ko_MusicScript_DanceHall)
+	SCPT(Ko_MusicScript_ExitPub)
+	SCPT(Ko_MusicScript_Pub)
+	SCPT(Ko_MusicScript_mon)
+	SCPT(LeftGauntletScript)
+	SCPT(LeftPauldronScript)
+	SCPT(Lucygrave)
+	SCPT(NOM_cookingoven)
+	SCPT(NOM_well_water)
+	SCPT(Pub_Lokken_Ingrit)
+	SCPT(RightGauntletScript)
+	SCPT(RightPauldronScript)
+	SCPT(Roygrave)
+	SCPT(Sound_MillSaw_Script)
+	SCPT(Sound_MillStone_Script)
+	SCPT(Sound_MillWind_Script)
+	SCPT(Sound_Waterfall)
+	SCPT(ZZA_BathMistress_script)
+	SCPT(ZZA_Bath_water_script)
+	SCPT(_ps_avbe_ingredients_sc)
+	SCPT(_ps_avbe_ingredients_script)
+	SCPT(_ps_avbe_xingredients_sc)
+	SCPT(_psm_ingredients_crystal_sc)
+	SCPT(_psm_x_ingredients_crystal_sc)
+	SCPT(aa_Kreikan2combatscript)
+	SCPT(aa_KreikanattackScript)
+	SCPT(aa_Kreikancombatscript)
+	SCPT(aa_Valkyrianascript)
+	SCPT(aa_Wulfgscript)
+	SCPT(aa_badguyshealthscript)
+	SCPT(aa_drunk5)
+	SCPT(aa_favour1)
+	SCPT(aa_joarscript)
+	SCPT(aa_keilreenscript)
+	SCPT(aa_kidnap)
+	SCPT(aa_knowyouscript)
+	SCPT(aa_lisendrascript)
+	SCPT(aa_lok_magicka)
+	SCPT(aa_lokextravar)
+	SCPT(aa_lokqueststart)
+	SCPT(aa_lrnkringSPECscript)
+	SCPT(aa_lrnkringscript)
+	SCPT(aa_ragnar3script)
+	SCPT(aa_skullunscript)
+	SCPT(aa_smedscript)
+	SCPT(aa_towerguard2script)
+	SCPT(aa_wolfie)
+	SCPT(aa_wu2kringscript)
+	SCPT(aa_wukringscript)
+	SCPT(ab01AVVonLoadScript)
+	SCPT(atg_mann_holder)
+	SCPT(christofgrave)
+	SCPT(duffgrave)
+	SCPT(gp_woodenPlaceholder_e_m)
+	SCPT(juliesgrave)
+	SCPT(nordiccross)
+	SCPT(tommygrave)
+	SCPT(valdaingrave)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    ac_darkgravel
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    rm_grayrock
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    berserkers
+	bloodmoon.esm       DIAL    horkers
+	bloodmoon.esm       DIAL    snow bears
+	bloodmoon.esm       DIAL    wolves
+	bloodmoon.esm       LAND    (-16, 23)
+	bloodmoon.esm       LAND    (-16, 24)
+	bloodmoon.esm       LAND    (-16, 25)
+	bloodmoon.esm       LAND    (-17, 20)
+	bloodmoon.esm       LAND    (-17, 21)
+	bloodmoon.esm       LAND    (-17, 22)
+	bloodmoon.esm       LAND    (-17, 23)
+	bloodmoon.esm       LAND    (-17, 24)
+	bloodmoon.esm       LAND    (-17, 25)
+	bloodmoon.esm       LAND    (-17, 26)
+	bloodmoon.esm       LAND    (-18, 20)
+	bloodmoon.esm       LAND    (-18, 21)
+	bloodmoon.esm       LAND    (-18, 22)
+	bloodmoon.esm       LAND    (-18, 23)
+	bloodmoon.esm       LAND    (-18, 24)
+	bloodmoon.esm       LAND    (-18, 25)
+	bloodmoon.esm       LAND    (-18, 26)
+	bloodmoon.esm       LAND    (-18, 27)
+	bloodmoon.esm       LAND    (-18, 28)
+	bloodmoon.esm       LAND    (-19, 20)
+	bloodmoon.esm       LAND    (-19, 21)
+	bloodmoon.esm       LAND    (-19, 22)
+	bloodmoon.esm       LAND    (-19, 23)
+	bloodmoon.esm       LAND    (-19, 24)
+	bloodmoon.esm       LAND    (-19, 25)
+	bloodmoon.esm       LAND    (-19, 26)
+	bloodmoon.esm       LAND    (-19, 27)
+	bloodmoon.esm       LAND    (-20, 22)
+	bloodmoon.esm       LAND    (-20, 23)
+	bloodmoon.esm       LAND    (-20, 24)
+	bloodmoon.esm       LAND    (-20, 25)
+	bloodmoon.esm       LAND    (-20, 26)
+	bloodmoon.esm       LAND    (-20, 27)
+	bloodmoon.esm       LTEX    rm_rock_03
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_02.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_04.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_05.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_06.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_rock_01.dds
+	bloodmoon.esm       LTEX    wg_road
+	bloodmoon.esm       NPC_    basks_in_the_sun
+	morrowind.esm       CONT    contain_corpse00
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    reward
+	morrowind.esm       LAND    (-1, 24)
+	morrowind.esm       LAND    (-1, 25)
+	morrowind.esm       LAND    (-1, 26)
+	morrowind.esm       LAND    (-10, 18)
+	morrowind.esm       LAND    (-10, 19)
+	morrowind.esm       LAND    (-10, 20)
+	morrowind.esm       LAND    (-11, 19)
+	morrowind.esm       LAND    (-11, 20)
+	morrowind.esm       LAND    (-12, 19)
+	morrowind.esm       LAND    (-12, 20)
+	morrowind.esm       LAND    (-2, 24)
+	morrowind.esm       LAND    (-2, 25)
+	morrowind.esm       LAND    (-2, 26)
+	morrowind.esm       LAND    (-2, 27)
+	morrowind.esm       LAND    (-3, 22)
+	morrowind.esm       LAND    (-3, 23)
+	morrowind.esm       LAND    (-3, 24)
+	morrowind.esm       LAND    (-3, 25)
+	morrowind.esm       LAND    (-3, 26)
+	morrowind.esm       LAND    (-3, 27)
+	morrowind.esm       LAND    (-4, 22)
+	morrowind.esm       LAND    (-4, 23)
+	morrowind.esm       LAND    (-4, 24)
+	morrowind.esm       LAND    (-4, 25)
+	morrowind.esm       LAND    (-4, 26)
+	morrowind.esm       LAND    (-4, 27)
+	morrowind.esm       LAND    (-5, 20)
+	morrowind.esm       LAND    (-5, 21)
+	morrowind.esm       LAND    (-5, 22)
+	morrowind.esm       LAND    (-5, 23)
+	morrowind.esm       LAND    (-5, 24)
+	morrowind.esm       LAND    (-5, 25)
+	morrowind.esm       LAND    (-5, 26)
+	morrowind.esm       LAND    (-5, 27)
+	morrowind.esm       LAND    (-6, 19)
+	morrowind.esm       LAND    (-6, 20)
+	morrowind.esm       LAND    (-6, 21)
+	morrowind.esm       LAND    (-6, 22)
+	morrowind.esm       LAND    (-6, 23)
+	morrowind.esm       LAND    (-6, 24)
+	morrowind.esm       LAND    (-6, 25)
+	morrowind.esm       LAND    (-7, 19)
+	morrowind.esm       LAND    (-7, 20)
+	morrowind.esm       LAND    (-7, 21)
+	morrowind.esm       LAND    (-7, 22)
+	morrowind.esm       LAND    (-7, 23)
+	morrowind.esm       LAND    (-7, 24)
+	morrowind.esm       LAND    (-8, 19)
+	morrowind.esm       LAND    (-8, 20)
+	morrowind.esm       LAND    (-8, 21)
+	morrowind.esm       LAND    (-8, 22)
+	morrowind.esm       LAND    (-9, 18)
+	morrowind.esm       LAND    (-9, 19)
+	morrowind.esm       LAND    (-9, 20)
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    lavacrust02.tga
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sandstone02
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock03
+	morrowind.esm       LTEX    ma_sulphur_rock05
+	morrowind.esm       LTEX    ma_sulphur_rock06
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    ma_sulphur_rock08
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_lavacrust00.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rockydirt
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    game of shells
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga

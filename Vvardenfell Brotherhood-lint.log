@@ -1,0 +1,144 @@
+Vvardenfell Brotherhood.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CS_AntagonistScript1)
+	SCPT(CS_AntagonistScript2)
+	SCPT(CS_BeranScript)
+	SCPT(CS_CyrseScript1)
+	SCPT(CS_CyrseScript2)
+	SCPT(CS_CyrseScript3)
+	SCPT(CS_CyrseScript4)
+	SCPT(CS_CyrseScript5)
+	SCPT(CS_CyrseScript6)
+	SCPT(CS_DBRockScript)
+	SCPT(CS_DBTimePassing1)
+	SCPT(CS_DBTimePassing3)
+	SCPT(CS_DBTimePassing5)
+	SCPT(CS_GolvenDilScript)
+	SCPT(CS_LericScript)
+	SCPT(CS_MAssScript)
+	SCPT(CS_MCultScript1)
+	SCPT(CS_MCultScript2)
+	SCPT(CS_MMoragScript1)
+	SCPT(CS_MMoragScript2)
+	SCPT(CS_NightMotherScript)
+	SCPT(CS_PerienScript)
+	SCPT(CS_PulkActiveScript)
+	SCPT(CS_RecruitScript)
+	SCPT(CS_RecruitScript2)
+	SCPT(CS_ShrineAshal)
+	SCPT(CS_ShrineAshal2)
+	SCPT(CS_ShrineAssarn)
+	SCPT(CS_ShrineAssern)
+	SCPT(CS_ShrineAssurn)
+	SCPT(CS_ShrineEbern)
+	SCPT(CS_ShrineEbern2)
+	SCPT(CS_ShrineSF1)
+	SCPT(CS_ShrineSF2)
+	SCPT(CS_ShrineSF3)
+	SCPT(CS_ShrineSotha)
+	SCPT(CS_ShrineSothaLL)
+	SCPT(CS_ShrineSothaShrine)
+	SCPT(CS_ShrineSothaUL)
+	SCPT(CS_ShrineUlarra)
+	SCPT(CS_ShrineUlarra2)
+	SCPT(CS_ShrineYasam)
+	SCPT(CS_TargetScript1)
+	SCPT(CS_TargetScript2)
+	SCPT(CS_TargetScript3)
+	SCPT(CS_TargetScript4)
+	SCPT(CS_TargetScript5)
+	SCPT(CS_TargetScript6)
+	SCPT(CS_TargetScript7)
+	SCPT(CS_TargetScript8)
+	SCPT(CS_TravelAppear)
+	SCPT(CS_VRMWorship)
+	SCPT(fightDomba)
+	SCPT(fightGnaw_Tooth)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ald sotha
+	morrowind.esm       DIAL    ashalmimilkala
+	morrowind.esm       DIAL    assernerairan
+	morrowind.esm       DIAL    hrordis
+	morrowind.esm       DIAL    make amends
+	morrowind.esm       DIAL    mehrunes dagon
+	morrowind.esm       DIAL    morag tong
+	morrowind.esm       DIAL    shoes of st. rilms
+	morrowind.esm       DIAL    ultimatum
+	morrowind.esm       DIAL    work
+	morrowind.esm       FACT    morag tong
+	morrowind.esm       NPC_    anel rethelas
+	morrowind.esm       NPC_    badala velothren
+	morrowind.esm       NPC_    carecalmo
+	morrowind.esm       NPC_    drelis ondyn
+	morrowind.esm       NPC_    drireri berano
+	morrowind.esm       NPC_    durus marius
+	morrowind.esm       NPC_    earmil
+	morrowind.esm       NPC_    erundil
+	morrowind.esm       NPC_    guril retheran
+	morrowind.esm       NPC_    hrordis
+	morrowind.esm       NPC_    hyarnarenquar
+	morrowind.esm       NPC_    ienaso adren
+	morrowind.esm       NPC_    iner raledran
+	morrowind.esm       NPC_    inganar
+	morrowind.esm       NPC_    llandrale varam
+	morrowind.esm       NPC_    llathise dralas
+	morrowind.esm       NPC_    llavelea nelvani
+	morrowind.esm       NPC_    meryaran
+	morrowind.esm       NPC_    mindeli saren
+	morrowind.esm       NPC_    mivul urvon
+	morrowind.esm       NPC_    movis darys
+	morrowind.esm       NPC_    nathala herendas
+	morrowind.esm       NPC_    nidara herandus
+	morrowind.esm       NPC_    nilas brilyn
+	morrowind.esm       NPC_    norionil
+	morrowind.esm       NPC_    relas arothan
+	morrowind.esm       NPC_    sanyon
+	morrowind.esm       NPC_    severa magia
+	morrowind.esm       NPC_    sovisa adas
+	morrowind.esm       NPC_    talis veran
+	morrowind.esm       NPC_    thovasi alen
+	morrowind.esm       NPC_    tonasi belas
+	morrowind.esm       NPC_    uradras sadalas
+	morrowind.esm       PGRD    ald sotha, lower level
+	morrowind.esm       PGRD    ald sotha, upper level
+	morrowind.esm       PGRD    assarnatamat, shrine
+	morrowind.esm       PGRD    assurnabitashpi, shrine
+	morrowind.esm       PGRD    ebernanit, shrine
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    mt_db_contact
+
+[MOD-INF]: ID=58253051477013171(Topic:dark brotherhood)
+  morrowind.esm--------------->|DATA|ONAM:tsrazami|NAME:No more games, %PCName. You are Morag Tong. %Name knows of you. %Name will not betray the Dark Brotherhood for empty threats or a little gold.|SCVR:01500|INTV
+  Vvardenfell Brotherhood.esp->|DATA|ONAM:tsrazami|NAME:You make a good point. Alright, %Name will speak with your Grandmaster.|SCVR:01500|INTV|BNAM:Journal MT_DB_Contact 70
+
+[MOD-INF]: ID=89002161171687025(:dark brotherhood)
+  morrowind.esm--------------->|DATA|ONAM:tsrazami|NAME:What does the %PCRace want with the Dark Brotherhood?|BNAM:Choice "I want someone dead." 1 "You will tell me of the Dark Brotherhood." 2 "Nevermind." 3
+  Vvardenfell Brotherhood.esp->|NAME:So Miun Gei sent you? %Name knows what you are here for. Unfortunately for you, %Name knows you are Morag Tong. Give %Name one good reason why they shouldn't have you killed?|DELE:
+
+[MOD-INF]: ID=158291091410385925(:dark brotherhood)
+  morrowind.esm--------------->|DATA|ONAM:tsrazami|NAME:Do you? You think you just talk with the first Khajiit you see? If you do not know how to hire the Dark Brotherhood, you do not deserve their services.|SCVR:01500|INTV|BNAM:ModDisposition -10
+  Vvardenfell Brotherhood.esp->|NAME:Do you? You think you just talk with the first Khajiit you see? If you do not know how to hire the Dark Brotherhood, you do not deserve their services.|DELE:
+
+[MOD-INF]: ID=238622910963088348(Topic:dark brotherhood)
+  morrowind.esm--------------->|DATA|ONAM:tsrazami|NAME:Tell your Grandmaster that %Name will speak with him.|SCVR:01500|INTV|BNAM:Journal MT_DB_Contact 70
+  Vvardenfell Brotherhood.esp->|DATA|ONAM:tsrazami|NAME:Hmmm... You are right. Tell your Grandmaster that %Name will speak with him.|SCVR:01500|INTV|BNAM:Journal MT_DB_Contact 70
+
+[MOD-INF]: ID=247001198680239882(Topic:dark brotherhood)
+  morrowind.esm--------------->|DATA|ONAM:tsrazami|NAME:What makes you think %Name would do this?|SCVR:01500|INTV
+  Vvardenfell Brotherhood.esp->|DATA|ONAM:tsrazami|NAME:[%Name becomes visibly nervous] Point taken. Very well, %Name will speak with your Grandmaster.|SCVR:01500|INTV|BNAM:Journal MT_DB_Contact 70
+
+[MOD-INF]: ID=2121431585172916953(Topic:hrordis)
+  morrowind.esm--------------->|DATA|ONAM:hrordis|NAME:Yes. That's my name. MINE. Do you understand? And I don't like it when other people use my name without my invitation.|BNAM:ModDisposition -10
+  Vvardenfell Brotherhood.esp->|DATA|ONAM:hrordis|DNAM:Morag Tong|NAME:Yes. That's my name. MINE. Do you understand? And I don't like it when other people use my name without my invitation.|BNAM:ModDisposition -10
+
+[MOD-INF]: ID=9480320081615822943(Topic:mehrunes dagon)
+  morrowind.esm--------------->|DATA|ONAM:hrordis|NAME:That is a beautiful name. Far too beautiful a name to be found in the mouth of a contemptible worm like you. It will give me great pleasure to beat that beautiful name right out of your maggoty mouth.|BNAM:;Hrordis;  ModFight 100  Goodbye
+  Vvardenfell Brotherhood.esp->|DATA|FNAM:Vvardenfell Brotherhood|DNAM:Vvardenfell Brotherhood|NAME:The Daedric Prince of destruction is a powerful ally indeed. He is much easier to communicate with than Sithis, and has greater forces at his disposal.
+
+[MOD-INF]: ID=14063306481078030426(:dark brotherhood)
+  morrowind.esm--------------->|DATA|ONAM:tsrazami|NAME:Fine with %Name.|SCVR:01500|INTV
+  Vvardenfell Brotherhood.esp->|NAME:Fine with %Name.|DELE:

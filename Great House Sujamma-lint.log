@@ -1,0 +1,61 @@
+Great House Sujamma.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FGT_GHS_AlcoholicCrabs_Sc)
+	SCPT(FGT_GHS_ArgonianHead_Sc)
+	SCPT(FGT_GHS_Barrel1_Sc)
+	SCPT(FGT_GHS_Barrel2_Sc)
+	SCPT(FGT_GHS_BarrelArgonianScript)
+	SCPT(FGT_GHS_BarrelGuards)
+	SCPT(FGT_GHS_Boat_Sc)
+	SCPT(FGT_GHS_CultistsSpawn)
+	SCPT(FGT_GHS_Dancers)
+	SCPT(FGT_GHS_Eggs_Sc)
+	SCPT(FGT_GHS_Fargoth_Sc)
+	SCPT(FGT_GHS_Finale)
+	SCPT(FGT_GHS_FinaleSpawns_Sc)
+	SCPT(FGT_GHS_FloatBarrel)
+	SCPT(FGT_GHS_GreatHouseComplete_Sc)
+	SCPT(FGT_GHS_HonorGuard_Sc)
+	SCPT(FGT_GHS_HotTubCoherer_Sc)
+	SCPT(FGT_GHS_Immortal)
+	SCPT(FGT_GHS_Jumper)
+	SCPT(FGT_GHS_LoreBarrel_Sc)
+	SCPT(FGT_GHS_Maiq_Sc)
+	SCPT(FGT_GHS_MudcrabAttack2)
+	SCPT(FGT_GHS_Nord_Sc)
+	SCPT(FGT_GHS_PortalBooze)
+	SCPT(FGT_GHS_Portal_Sc)
+	SCPT(FGT_GHS_Prisoner_Sc)
+	SCPT(FGT_GHS_SaintTruce_Sc)
+	SCPT(FGT_GHS_ScribMeteor_Sc)
+	SCPT(FGT_GHS_Scrib_Sc)
+	SCPT(FGT_GHS_Signs_Fish_Sc)
+	SCPT(FGT_GHS_Signs_Sc)
+	SCPT(FGT_GHS_TestingDelete)
+	SCPT(FGT_GHS_Trivia_Sc)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    mudcrab_unique
+	morrowind.esm       DIAL    fargoth's hiding place
+	morrowind.esm       DIAL    ring
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    ms_lookout
+
+[DUP-INF]: ID=1711159271900329116(Journal:ms_lookout)
+  |DATA|NAME:Hrisskar was grateful that I found the money that Fargoth had been hiding. He rewarded me with some gold, and told me I could keep anything else I found in the bag besides the money he wanted.|QSTF
+
+[DUP-INF]: ID=2320119401125015415(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:You killed the little runt? I don't know what you were thinking. He was a source of good income for me. If anyone asks, I don't know you.|SCVR:04JX3MS_Lookout|INTV: |SCVR:16DX2fargoth|INTV:
+
+[MOD-INF]: ID=9523291201261418953(Greeting:greeting 5)
+  morrowind.esm----------->|DATA|ONAM:drarayne thelas|NAME:You say you've found out what happened to my pillow shipment?|SCVR:04JX0FG_RatHunt|INTV:d|SCVR:15IX2bk_pillowinvoice|INTV:
+  Great House Sujamma.ESP->|DATA|ONAM:drarayne thelas|NAME:You say you've found out what happened to my pillow shipment?|SCVR:15IX2bk_pillowinvoice|INTV:
+
+[MOD-INF]: ID=16189125972792115582(Greeting:greeting 5)
+  morrowind.esm----------->|DATA|ONAM:hrisskar flat-foot|NAME:You look like you could use a friend, outlander. Perhaps I can be your friend. I'd like you to help me recover some gold.|SCVR:06DX0fargoth|INTV:|SCVR:14JX0MS_Lookout|INTV:
+  Great House Sujamma.ESP->|DATA|ONAM:hrisskar flat-foot|NAME:You look like you could use a friend, outlander. Perhaps I can be your friend. I'd like you to help me recover some gold.|SCVR:06DX0fargoth|INTV:|SCVR:14JX0MS_Lookout|INTV:|SCVR:24JX4FGT_GHS_7|INTV: 
+
+[MOD-INF]: ID=16579142372886815287(Greeting:greeting 5)
+  morrowind.esm----------->|DATA|ONAM:hrisskar flat-foot|NAME:You were supposed to find Fargoth's hiding place. Were you able to?|SCVR:06DX0fargoth|INTV:|SCVR:14JX3MS_Lookout|INTV: |SCVR:24JX4MS_Lookout|INTV:d
+  Great House Sujamma.ESP->|DATA|ONAM:hrisskar flat-foot|NAME:You were supposed to find Fargoth's hiding place. Were you able to?|SCVR:06DX0fargoth|INTV:|SCVR:14JX3MS_Lookout|INTV: |SCVR:24JX4MS_Lookout|INTV:d|SCVR:34JX4FGT_GHS_7|INTV: 

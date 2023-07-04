@@ -1,0 +1,16 @@
+Pacifist Options - When it Makes Sense.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(G93_Fjol)
+	SCPT(G93_Galmis)
+	SCPT(G93_Terano)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    careless travelers
+	morrowind.esm       NPC_    galmis dren
+	morrowind.esm       NPC_    llaren terano
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    mv_bastard
+
+[MOD-INF]: ID=32657233032626618519(Topic:careless travelers)
+  morrowind.esm------------------------------>|DATA|ONAM:larrius varro|NAME:So, I see you've located that rogue Fjol. Somewhat of a shame he's still out there, but knowing his location is a help. My thanks.|SCVR:04JX0MV_Bastard|INTV:i|SCVR:16DX0Fjol|INTV:
+  Pacifist Options - When it Makes Sense.ESP->|DATA|ONAM:larrius varro|NAME:So, I see you've located that rogue Fjol. Somewhat of a shame he's still out there, but knowing his location is a help. I'll send out a force to capture him. My thanks.|SCVR:04JX0MV_Bastard|INTV:i|SCVR:16DX0Fjol|INTV:|BNAM:Journal "MV_Bastard" 120  Player->additem "gold_001" 100  Fjol->Disable  StartScript "G93_Fjol"

@@ -1,0 +1,521 @@
+Morrowind Crafting 3.1a.ESP: DUP-INF DUP-REC FOGBUG JUNKCEL MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            163703637 (plugin)  163244128 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Bal Oyra, The Black Ogre Tavern
+	Cephorad Keep, Interior
+	Khalaan, The Desolate Tower
+	Mzankh, Sky's Wrath Gallery
+	Telvanni Library, Tomb of the Librarians
+	Turen, Lower Level
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mc_HeartsWisdom_Script)
+	SCPT(mc_StartDisabled)
+	SCPT(mc_apply_poison)
+	SCPT(mc_barrel05e)
+	SCPT(mc_barrel05f)
+	SCPT(mc_basin01e)
+	SCPT(mc_basin01f)
+	SCPT(mc_basine)
+	SCPT(mc_basinf)
+	SCPT(mc_bath01e)
+	SCPT(mc_bath01f)
+	SCPT(mc_bath02e)
+	SCPT(mc_bath02f)
+	SCPT(mc_bathe)
+	SCPT(mc_bathf)
+	SCPT(mc_bm_tomb_timer)
+	SCPT(mc_branaldus_tarran_script)
+	SCPT(mc_buyer01a_script)
+	SCPT(mc_buyer01b_script)
+	SCPT(mc_buyer01c_script)
+	SCPT(mc_buyer01d_script)
+	SCPT(mc_caldera_foreman_script)
+	SCPT(mc_cart_blocking_script)
+	SCPT(mc_carthon_endgame)
+	SCPT(mc_chandelier01L_resetter)
+	SCPT(mc_chandelier01S_resetter)
+	SCPT(mc_chandelier02L_resetter)
+	SCPT(mc_chandelier02S_resetter)
+	SCPT(mc_clayscript_clean)
+	SCPT(mc_clayscript_fouled)
+	SCPT(mc_conv_planter_L_p)
+	SCPT(mc_conv_planter_M_p)
+	SCPT(mc_conv_planter_S_p)
+	SCPT(mc_conv_planter_XL_p)
+	SCPT(mc_cooking_ghost)
+	SCPT(mc_cordagewheel_startup)
+	SCPT(mc_cordagewheel_startup_perm)
+	SCPT(mc_craft_interm01_script)
+	SCPT(mc_craft_interm02_script)
+	SCPT(mc_craft_merchant)
+	SCPT(mc_daed_greet01_script)
+	SCPT(mc_ebony_chest01_script)
+	SCPT(mc_ebony_ghost_script)
+	SCPT(mc_firestarterscript)
+	SCPT(mc_furniture_lighting)
+	SCPT(mc_gevn_trebor_script)
+	SCPT(mc_hiddenmine_door_script)
+	SCPT(mc_hiddenmine_entry)
+	SCPT(mc_hlrogash_rock_script)
+	SCPT(mc_hlrogashu_attack)
+	SCPT(mc_kegstand_brandy)
+	SCPT(mc_kegstand_flin)
+	SCPT(mc_kegstand_goya)
+	SCPT(mc_kegstand_greef)
+	SCPT(mc_kegstand_jagga)
+	SCPT(mc_kegstand_mazte)
+	SCPT(mc_kegstand_shein)
+	SCPT(mc_kegstand_startup)
+	SCPT(mc_kegstand_sujamma)
+	SCPT(mc_kegstand_ungorth)
+	SCPT(mc_kegstand_veig)
+	SCPT(mc_lantern_ash01_resetter)
+	SCPT(mc_lantern_ash02_resetter)
+	SCPT(mc_lantern_ash03_resetter)
+	SCPT(mc_lantern_ash04_resetter)
+	SCPT(mc_lantern_ash05_resetter)
+	SCPT(mc_lantern_ash06_resetter)
+	SCPT(mc_lantern_ash07_resetter)
+	SCPT(mc_lantern_com01_resetter)
+	SCPT(mc_lantern_com02_resetter)
+	SCPT(mc_lantern_de01_resetter)
+	SCPT(mc_lantern_de02_resetter)
+	SCPT(mc_lantern_de05_resetter)
+	SCPT(mc_lantern_de06_resetter)
+	SCPT(mc_lantern_de07_resetter)
+	SCPT(mc_lantern_de10_resetter)
+	SCPT(mc_lantern_de11_resetter)
+	SCPT(mc_lantern_de14_resetter)
+	SCPT(mc_lantern_ppr01_resetter)
+	SCPT(mc_lantern_ppr02_resetter)
+	SCPT(mc_lantern_ppr03_resetter)
+	SCPT(mc_lantern_ppr04_resetter)
+	SCPT(mc_lantern_ppr05_resetter)
+	SCPT(mc_lantern_ppr06_resetter)
+	SCPT(mc_lantern_ppr07_resetter)
+	SCPT(mc_lantern_ppr08_resetter)
+	SCPT(mc_lantern_ppr09_resetter)
+	SCPT(mc_loadlantern1)
+	SCPT(mc_loadlantern2)
+	SCPT(mc_loadtorch1)
+	SCPT(mc_loadtorch2)
+	SCPT(mc_loadtorch3)
+	SCPT(mc_mannequin_Placeholder_f)
+	SCPT(mc_mannequin_Placeholder_m)
+	SCPT(mc_miningquest_amul01_script)
+	SCPT(mc_miningquest_doorscript01)
+	SCPT(mc_move_menu)
+	SCPT(mc_move_menu_noscale)
+	SCPT(mc_pottery_startup)
+	SCPT(mc_pottery_startup_perm)
+	SCPT(mc_quarrycrate00scr)
+	SCPT(mc_quarrycrate10scr)
+	SCPT(mc_quarrycrate20scr)
+	SCPT(mc_quarrycrate30scr)
+	SCPT(mc_quarrytokendrop00)
+	SCPT(mc_quarrytokendrop10)
+	SCPT(mc_quarrytokendrop20)
+	SCPT(mc_quarrytokendrop30)
+	SCPT(mc_reload_tester)
+	SCPT(mc_relocator_script)
+	SCPT(mc_relocator_script2)
+	SCPT(mc_relocator_script3)
+	SCPT(mc_replace_warning)
+	SCPT(mc_respawn_tracker)
+	SCPT(mc_respawning_ore)
+	SCPT(mc_sandscript_clean)
+	SCPT(mc_sandscript_fouled)
+	SCPT(mc_sewing_shears)
+	SCPT(mc_sewing_supply_check)
+	SCPT(mc_silverpool)
+	SCPT(mc_skillcheck)
+	SCPT(mc_slaveScript)
+	SCPT(mc_slavecamp_script)
+	SCPT(mc_slaverope_script)
+	SCPT(mc_soulgem_DreamsWorld_script)
+	SCPT(mc_soulgemquest_slave01_script)
+	SCPT(mc_torch)
+	SCPT(mc_torch_angled)
+	SCPT(mc_torch_resetter)
+	SCPT(mc_torch_resetter2)
+    [JUNKCEL] Junk Cells:                        Flags
+	Dagon Urul Region (16, 15)               0x06
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    skinkintreesshade
+	morrowind.esm       STAT    in_dae_room_l_corner_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       BOOK    sc_paper plain
+	bloodmoon.esm       CONT    com_chest_02_v_trader03
+	bloodmoon.esm       CONT    contain_bm_stalhrim_01
+	bloodmoon.esm       CONT    rock_ebony_01
+	bloodmoon.esm       CONT    rock_ebony_01_colony
+	bloodmoon.esm       CONT    rock_ebony_02_colony
+	bloodmoon.esm       CONT    rock_ebony_05_colony
+	bloodmoon.esm       CONT    rock_ebony_06_colony
+	bloodmoon.esm       CONT    rock_ebony_07
+	bloodmoon.esm       CONT    rock_ebony_07_colony
+	bloodmoon.esm       CREA    bm_frost_boar
+	bloodmoon.esm       CREA    bm_horker
+	bloodmoon.esm       CREA    bm_horker_dead
+	bloodmoon.esm       CREA    bm_horker_large
+	bloodmoon.esm       CREA    bm_horker_swim_unique
+	bloodmoon.esm       CREA    bm_spriggan
+	bloodmoon.esm       CREA    bm_spriggan_co1
+	bloodmoon.esm       CREA    bm_spriggan_co2
+	bloodmoon.esm       CREA    bm_spriggan_co3
+	bloodmoon.esm       CREA    bm_spriggan_co4
+	bloodmoon.esm       CREA    bm_spriggan_st_unique
+	bloodmoon.esm       LEVI    bm_chest_loot_01
+	bloodmoon.esm       LEVI    random_bear_pelt
+	bloodmoon.esm       LEVI    random_belladonna_plant
+	bloodmoon.esm       LEVI    random_belladonna_spriggan
+	bloodmoon.esm       LEVI    random_boar_leather
+	bloodmoon.esm       LEVI    random_gravetar
+	bloodmoon.esm       LEVI    random_heartwood
+	bloodmoon.esm       LEVI    random_holly
+	bloodmoon.esm       LEVI    random_horker_tusk
+	bloodmoon.esm       LEVI    random_riekling_loot
+	bloodmoon.esm       LEVI    random_unripened_belladonna
+	bloodmoon.esm       LEVI    random_wolf_pelt
+	bloodmoon.esm       MISC    misc_com_wood_bowl_02
+	bloodmoon.esm       MISC    misc_de_bellows10
+	bloodmoon.esm       MISC    misc_de_drum_01
+	bloodmoon.esm       WEAP    bm huntsmanbolt
+	morrowind.esm       ACTI    in_t_pc_hold_crystal_01
+	morrowind.esm       ACTI    in_t_pc_hold_crystal_01_sh1
+	morrowind.esm       ACTI    in_t_pc_hold_crystal_02
+	morrowind.esm       ACTI    in_t_pc_hold_crystal_02_sh1
+	morrowind.esm       CLOT    common_ring_01
+	morrowind.esm       CONT    barrel_01_torch
+	morrowind.esm       CONT    com_basket_01
+	morrowind.esm       CONT    com_chest_02_lucretinau
+	morrowind.esm       CONT    com_chest_02_v_clanler
+	morrowind.esm       CONT    com_chest_02_v_fonas
+	morrowind.esm       CONT    com_chest_02_v_trader01
+	morrowind.esm       CONT    crate_02_torch
+	morrowind.esm       CONT    rock_diamond_01
+	morrowind.esm       CONT    rock_diamond_02
+	morrowind.esm       CONT    rock_diamond_03
+	morrowind.esm       CONT    rock_diamond_04
+	morrowind.esm       CONT    rock_diamond_05
+	morrowind.esm       CONT    rock_diamond_06
+	morrowind.esm       CONT    rock_diamond_07
+	morrowind.esm       CONT    rock_ebony_02
+	morrowind.esm       CONT    rock_ebony_03
+	morrowind.esm       CONT    rock_ebony_04
+	morrowind.esm       CONT    rock_ebony_05
+	morrowind.esm       CONT    rock_ebony_06
+	morrowind.esm       CONT    rock_glass_01
+	morrowind.esm       CONT    rock_glass_02
+	morrowind.esm       CONT    rock_glass_03
+	morrowind.esm       CONT    rock_glass_04
+	morrowind.esm       CONT    rock_glass_05
+	morrowind.esm       CONT    rock_glass_06
+	morrowind.esm       CONT    rock_glass_07
+	morrowind.esm       CREA    dreugh
+	morrowind.esm       CREA    dreugh_koal
+	morrowind.esm       CREA    guar
+	morrowind.esm       CREA    guar_feral
+	morrowind.esm       CREA    guar_hrmudcrabnest
+	morrowind.esm       CREA    guar_llovyn_unique
+	morrowind.esm       CREA    guar_pack
+	morrowind.esm       CREA    guar_rollie_unique
+	morrowind.esm       CREA    kagouti
+	morrowind.esm       CREA    kagouti_blighted
+	morrowind.esm       CREA    kagouti_diseased
+	morrowind.esm       CREA    kagouti_hrk
+	morrowind.esm       CREA    kagouti_mating
+	morrowind.esm       CREA    netch_betty
+	morrowind.esm       CREA    netch_betty_ilgn
+	morrowind.esm       CREA    netch_betty_ranched
+	morrowind.esm       CREA    netch_bull
+	morrowind.esm       CREA    netch_bull_dead
+	morrowind.esm       CREA    netch_bull_dead_2
+	morrowind.esm       CREA    netch_bull_ilgn
+	morrowind.esm       CREA    netch_bull_ranched
+	morrowind.esm       CREA    netch_giant_unique
+	morrowind.esm       CREA    shalk
+	morrowind.esm       CREA    shalk_blighted
+	morrowind.esm       CREA    shalk_diseased
+	morrowind.esm       CREA    shalk_diseased_hram
+	morrowind.esm       CREA    slaughterfish_small
+	morrowind.esm       DIAL    greeting 8
+	morrowind.esm       FACT    twin lamps
+	morrowind.esm       GMST    seffectremovecurse
+	morrowind.esm       INGR    ingred_bread_01_uni3
+	morrowind.esm       INGR    ingred_hound_meat_01
+	morrowind.esm       INGR    ingred_rat_meat_01
+	morrowind.esm       LAND    (-4, 7)
+	morrowind.esm       LAND    (-4, 8)
+	morrowind.esm       LEVI    l_b_bandit_goods
+	morrowind.esm       LEVI    l_b_loot_tomb
+	morrowind.esm       LEVI    l_m_potion
+	morrowind.esm       LEVI    l_m_potion_h
+	morrowind.esm       LEVI    random_alit_hide
+	morrowind.esm       LEVI    random_ampoule_pod
+	morrowind.esm       LEVI    random_ash_salts
+	morrowind.esm       LEVI    random_ash_yam
+	morrowind.esm       LEVI    random_bittergreen_petals
+	morrowind.esm       LEVI    random_black_anther
+	morrowind.esm       LEVI    random_black_lichen
+	morrowind.esm       LEVI    random_bonemeal
+	morrowind.esm       LEVI    random_bunglers_bane
+	morrowind.esm       LEVI    random_coda_flower
+	morrowind.esm       LEVI    random_comberry
+	morrowind.esm       LEVI    random_corkbulb_root
+	morrowind.esm       LEVI    random_crab_meat
+	morrowind.esm       LEVI    random_daedra_heart
+	morrowind.esm       LEVI    random_daedra_skin
+	morrowind.esm       LEVI    random_de_cheapfood_01_nc
+	morrowind.esm       LEVI    random_de_cheapfood_01_ne
+	morrowind.esm       LEVI    random_de_pos_01
+	morrowind.esm       LEVI    random_de_pos_01_nc
+	morrowind.esm       LEVI    random_diamond
+	morrowind.esm       LEVI    random_dreugh_wax
+	morrowind.esm       LEVI    random_ebony
+	morrowind.esm       LEVI    random_ectoplasm
+	morrowind.esm       LEVI    random_fire_petal
+	morrowind.esm       LEVI    random_fire_salts
+	morrowind.esm       LEVI    random_frost_salts
+	morrowind.esm       LEVI    random_gem
+	morrowind.esm       LEVI    random_gold_kanet
+	morrowind.esm       LEVI    random_green_lichen
+	morrowind.esm       LEVI    random_guar_hide
+	morrowind.esm       LEVI    random_hackle-lo_leaf
+	morrowind.esm       LEVI    random_hound_meat
+	morrowind.esm       LEVI    random_hypha_facia
+	morrowind.esm       LEVI    random_ingredient
+	morrowind.esm       LEVI    random_kagouti_hide
+	morrowind.esm       LEVI    random_kresh_fiber
+	morrowind.esm       LEVI    random_kwama_cuttle
+	morrowind.esm       LEVI    random_loot_special
+	morrowind.esm       LEVI    random_marshmerrow
+	morrowind.esm       LEVI    random_muck
+	morrowind.esm       LEVI    random_netch_leather
+	morrowind.esm       LEVI    random_pos
+	morrowind.esm       LEVI    random_racer_plumes
+	morrowind.esm       LEVI    random_rat_meat
+	morrowind.esm       LEVI    random_red_lichen
+	morrowind.esm       LEVI    random_roobrush
+	morrowind.esm       LEVI    random_saltrice
+	morrowind.esm       LEVI    random_scales
+	morrowind.esm       LEVI    random_scamp_skin
+	morrowind.esm       LEVI    random_scathecraw
+	morrowind.esm       LEVI    random_scrap_metal
+	morrowind.esm       LEVI    random_scrib_jelly
+	morrowind.esm       LEVI    random_shalk_resin
+	morrowind.esm       LEVI    random_trama_root
+	morrowind.esm       LEVI    random_void_salts
+	morrowind.esm       LEVI    random_willow_anther
+	morrowind.esm       MGEF    100
+	morrowind.esm       MISC    misc_com_wood_bowl_01
+	morrowind.esm       MISC    misc_com_wood_bowl_03
+	morrowind.esm       MISC    misc_com_wood_bowl_04
+	morrowind.esm       MISC    misc_com_wood_bowl_05
+	morrowind.esm       MISC    misc_skooma_vial
+	morrowind.esm       MISC    misc_spool_01
+	morrowind.esm       NPC_    ralds oril
+	morrowind.esm       NPC_    stlennius vibato
+	morrowind.esm       NPC_    tolvone sarendas
+	morrowind.esm       NPC_    verara rendo
+	morrowind.esm       PGRD    ascadian isles region
+	morrowind.esm       PGRD    ashlands region
+	morrowind.esm       PGRD    caldera, governor's hall
+	morrowind.esm       PGRD    kaushtarari, shrine
+	morrowind.esm       PGRD    seyda neen
+	morrowind.esm       SOUN    item potion down
+	morrowind.esm       SOUN    item potion up
+	morrowind.esm       WEAP    corkbulb bolt
+	morrowind.esm       WEAP    iron throwing knife
+	tamriel_data.esm    CREA    t_cyr_cre_dreu_01
+	tamriel_data.esm    CREA    t_cyr_cre_sprg_01
+	tamriel_data.esm    CREA    t_glb_cre_dreuds_01
+	tamriel_data.esm    CREA    t_mw_fau_kagrn_01
+	tamriel_data.esm    CREA    t_mw_fau_netblds_01
+	tamriel_data.esm    CREA    t_mw_fau_netblrcds_01
+	tamriel_data.esm    CREA    t_mw_fau_netbtyds_01
+	tamriel_data.esm    CREA    t_mw_fau_netbtyrcds_01
+	tamriel_data.esm    CREA    t_mw_fau_velk_01
+	tamriel_data.esm    CREA    t_sky_cre_spriggan_01
+	tamriel_data.esm    CREA    t_sky_fau_horker_01
+	tamriel_data.esm    DIAL    greeting 6
+	tamriel_data.esm    LEVI    t_mw_random_minerals
+	tamriel_data.esm    LIGH    t_com_var_tikitorch_01
+	tamriel_data.esm    LIGH    t_de_setind_lantern01_128
+	tamriel_data.esm    LIGH    t_de_setind_lantern01_256
+	tr_mainland.esm     CONT    tr_cont_m2-450_sweeps_c
+	tr_mainland.esm     CONT    tr_m2_cont_traders_i323
+	tr_mainland.esm     CONT    tr_m2_sw_i2-335_minecra
+	tr_mainland.esm     CONT    tr_m3-451_ironore
+	tr_mainland.esm     CONT    tr_m3_i556_crate_iron
+	tr_mainland.esm     CREA    tr_m1_deadguar2_i1-65-t
+	tr_mainland.esm     CREA    tr_m1_deadguar_i1-65-te
+	tr_mainland.esm     CREA    tr_m1_i42_dreugh_warlor
+	tr_mainland.esm     CREA    tr_m1_q_attackguar
+	tr_mainland.esm     CREA    tr_m1_q_attackkagouti
+	tr_mainland.esm     CREA    tr_m3_cr_aimrahdreugh
+	tr_mainland.esm     CREA    tr_m3_cr_aimrahdreugh2
+	tr_mainland.esm     CREA    tr_m3_cr_aimrahdreugh3
+	tr_mainland.esm     CREA    tr_m3_cr_aimrahdreugh4
+	tr_mainland.esm     CREA    tr_m3_cr_napalidreughd
+	tr_mainland.esm     CREA    tr_m3_felmsvelk
+	tr_mainland.esm     CREA    tr_m3_oe_mg_puzdreug
+	tr_mainland.esm     CREA    tr_m3_oe_mg_puzdreugfly
+	tr_mainland.esm     CREA    tr_m3_tt_flood_ashdreug
+	tr_mainland.esm     CREA    tr_m4_il_dreughs
+	tr_mainland.esm     DIAL    follow you
+	tr_mainland.esm     DIAL    go free
+	tr_mainland.esm     LTEX    ac_darkstone01
+	tr_mainland.esm     LTEX    ac_darkstone02
+	tr_mainland.esm     LTEX    ac_darkstone_grass
+	tr_mainland.esm     LTEX    ac_dirt_01
+	tr_mainland.esm     LTEX    ac_dirt_grass_01
+	tr_mainland.esm     LTEX    ac_dirt_grass_02
+	tr_mainland.esm     LTEX    al_ash_01
+	tr_mainland.esm     LTEX    al_ash_02
+	tr_mainland.esm     LTEX    al_ash_03
+	tr_mainland.esm     LTEX    al_ash_04
+	tr_mainland.esm     LTEX    al_road_01
+	tr_mainland.esm     LTEX    rm_whiterock
+	tr_mainland.esm     LTEX    wg_rock
+	tr_mainland.esm     LTEX    wg_rockydirt
+	tr_mainland.esm     NPC_    tr_m2_favana_selethi
+	tr_mainland.esm     NPC_    tr_m2_jarrad
+	tr_mainland.esm     PGRD    mephalan vales region
+	tribunal.esm        CLOT    expensive_shirt_mournhold
+	tribunal.esm        CONT    com_chest_02_v_trader02
+	tribunal.esm        CONT    rock_adam_mold15
+	tribunal.esm        CONT    rock_adam_mold16
+	tribunal.esm        CONT    rock_adam_mold17
+	tribunal.esm        CONT    rock_adam_mold18
+	tribunal.esm        CONT    rock_adam_mold19
+	tribunal.esm        CONT    rock_adam_mold20
+	tribunal.esm        CONT    rock_adam_mold21
+	tribunal.esm        CONT    rock_adam_py08
+	tribunal.esm        CONT    rock_adam_py09
+	tribunal.esm        CONT    rock_adam_py10
+	tribunal.esm        CONT    rock_adam_py11
+	tribunal.esm        CONT    rock_adam_py12
+	tribunal.esm        CONT    rock_adam_py13
+	tribunal.esm        CONT    rock_adam_py14
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        GLOB    abelmawiacounter
+	tribunal.esm        LEVI    random_cabbage
+	tribunal.esm        LEVI    random_golden_sedge
+	tribunal.esm        LEVI    random_sweetpulp
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        MISC    misc_de_foldedcloth00
+	tribunal.esm        MISC    misc_de_pot_blue_02
+
+[MOD-INF]: ID=133532287576957(Greeting:greeting 9)
+  tr_mainland.esm------------->|DATA|ANAM:Necrom, Waterfront|NAME:I don't believe we've met, %PCRace. Are you looking for directions to a specific place, or for services perhaps?|SCVR:02sX4Random100|INTV:<|SCVR:11630|INTV:|SCVR:2CsX0T_Local_NoLore|INTV:|SCVR:33sX3TR_Map|INTV
+  Morrowind Crafting 3.1a.ESP->|DATA|ANAM:Necrom, Waterfront|NAME:I don't believe we've met, %PCRace. Are you looking for directions to a specific place, or for services perhaps?|SCVR:02sX4Random100|INTV:<|SCVR:11630|INTV:|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1886295746611929(Topic:little advice)
+  tribunal.esm---------------->|DATA|RNAM:Dark Elf|NAME:If all it takes is a little persuasion, a flask of Telvanni bug musk is what you need. Makes even an Orc charming.|SCVR:02sX4Random100|INTV|SCVR:1ARX0Orc|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;bottom; default
+  Morrowind Crafting 3.1a.ESP->|DATA|RNAM:Dark Elf|NAME:If all it takes is a little persuasion, a flask of Telvanni bug musk is what you need. Makes even an Orc charming.|SCVR:02sX4Random100|INTV|SCVR:1ARX0Orc|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[DUP-INF]: ID=5161469619064654(Topic:go free)
+  |DATA|CNAM:Slave|NAME:You must find the key to these bracers before I can be freed.|SCVR:03sX3slaveStatus|INTV:
+
+[DUP-INF]: ID=13568231434823734(Greeting:greeting 1)
+  |DATA|ONAM:lich_relvel|NAME:Weakling! You dare to cross my threshold? You, then, will be the first to fall, before the undead army sweeps across this land like a plague, cleansing it of your flesh.  Die, mortal!|BNAM:StartCombat Player  SetFight 100  Goodbye
+
+[MOD-INF]: ID=17782801436910108(Topic:background)
+  tr_mainland.esm------------->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR QUESTS PLUGIN BAC|KGRO
+  Morrowind Crafting 3.1a.ESP->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR QUESTS PLUGIN BACKGROUND
+
+[MOD-INF]: ID=29403274862814808(Topic:little advice)
+  tribunal.esm---------------->|DATA|NAME:If you do the crime, pay the fine, don't do the time. You might think a little hard labor isn't a bad price to pay, but while you're breaking rocks for the Empire, you lose the edge in your useful skills, and it takes a long time to get back to where you were before.|SCVR:02sX4Random100|INTV:<|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+  Morrowind Crafting 3.1a.ESP->|DATA|NAME:If you do the crime, pay the fine, don't do the time. You might think a little hard labor isn't a bad price to pay, but while you're breaking rocks for the Empire, you lose the edge in your useful skills, and it takes a long time to get back to where you were before.|SCVR:02sX4Random100|INTV:<|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=118372162282528541(Greeting:greeting 6)
+  morrowind.esm--------------->|DATA|FNAM:Fighters Guild|DNAM:Fighters Guild|NAME:What can I do for you, %PCRank?
+  Morrowind Crafting 3.1a.ESP->|DATA|FNAM:Fighters Guild|DNAM:Fighters Guild|NAME:What can I do for you, %PCRank?|SCVR:01630|INTV:
+
+[MOD-INF]: ID=131552644227112359(Topic:little advice)
+  tribunal.esm---------------->|DATA|RNAM:Dark Elf|NAME:Best bargain for a risk-taker is a jug of sujamma. Makes you strong as an ogrim -- not for long, but long enough.|SCVR:02sX4Random100|INTV:(|SCVR:1CsX0nolore|INTV:|BNAM:;bottom; default
+  Morrowind Crafting 3.1a.ESP->|DATA|RNAM:Dark Elf|NAME:Best bargain for a risk-taker is a jug of sujamma. Makes you strong as an ogrim -- not for long, but long enough.|SCVR:02sX4Random100|INTV:(|SCVR:1CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[DUP-INF]: ID=939528842654827543(Topic:go free)
+  |DATA|RNAM:Khajiit|CNAM:Slave|NAME:%Name cannot be freed without the key.|SCVR:03sX3slaveStatus|INTV:
+
+[MOD-INF]: ID=1397530919173546774(Topic:follow you)
+  tr_mainland.esm------------->|DATA|ONAM:TR_m3_q_Bildam_Danoran|NAME:No! The Khajiit sold me the amulet, and then... Look, weird things have been happening to me ever since I got it. I think I'm losing my mind...|SCVR:01500|INTV|SCVR:14JX5TR_m3_MG_OE_Guards1|INTV:(|BNAM:Journal "TR_m3_MG_OE_Guards1" 40
+  Morrowind Crafting 3.1a.ESP->|DATA|ONAM:TR_m3_q_Bildam_Danoran|NAME:No! The Khajiit sold me the amulet, and then... Look, weird things have been happening to me ever since I got it. I think I'm losing my mind...|SCVR:01500|INTV|SCVR:14JX5TR_m3_MG_OE_Guards1|INTV:(|BNAM:Journal "TR_m3_MG_OE_Guards1" 40
+
+[MOD-INF]: ID=1493421818111518122(Topic:latest rumors)
+  tr_mainland.esm------------->|DATA|ONAM:TR_m1_Thalin_Thimalvel|ANAM:Ashamul|NAME:You should hear the drunken songs and screams when Traven and Bradas are having a party! Awful! These two ne'er-do-well seem to be an item, if you see what I mean.|SCVR:02sX5Random100|INTV:2
+  Morrowind Crafting 3.1a.ESP->|DATA|ANAM:Ashamul|NAME:You should hear the drunken songs and screams when Traven and Bradas are having a party! Awful! These two ne'er-do-well seem to be an item, if you see what I mean.|SCVR:02sX5Random100|INTV:(|SCVR:17XX0TR_m1_Bradas_Varyon|INTV|SCVR:27XX0TR_m1_Traven_Nothren|INTV|SCVR:5CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1650105461312428566(Topic:little advice)
+  tribunal.esm---------------->|DATA|NAME:Don't fight when you're tired. Don't try to cast spells when you're tired. You'll fail much more often when you're tired. That's why veterans always carry a couple of Restore Fatigue potions for an emergency.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0nolore|INTV:|BNAM:;bottom; default
+  Morrowind Crafting 3.1a.ESP->|DATA|NAME:Don't fight when you're tired. Don't try to cast spells when you're tired. You'll fail much more often when you're tired. That's why veterans always carry a couple of Restore Fatigue potions for an emergency.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=2007613024799829151(Topic:my trade)
+  tr_mainland.esm------------->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR QUESTS PLUGIN TRADE
+  Morrowind Crafting 3.1a.ESP->|DATA|ONAM:dialog placeholder|NAME|BEGIN TR QUESTS PLUGIN TRADE
+
+[MOD-INF]: ID=3219120251791225772(Topic:little advice)
+  tribunal.esm---------------->|DATA|NAME:If you kill yourself trying to complete a job that's too difficult for you, it's nobody's fault but your own.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:P|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+  Morrowind Crafting 3.1a.ESP->|DATA|NAME:If you kill yourself trying to complete a job that's too difficult for you, it's nobody's fault but your own.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:P|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=3241323702538914393(Topic:little secret)
+  tribunal.esm---------------->|DATA|NAME:If you're thinking of traveling up country, near Sheogorad, or out Molag Amur way, or inside the Ghostfence, you need to know about corprus. It's a disease that turns normal creatures into beasts. Turns men into twisted, mad lumps of flesh, superhumanly strong, and full of hatred. You get corprus from fighting with diseased creatures. It's hard to get corprus, but harder to get rid of it. In fact, I hear there is no cure.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Morrowind Crafting 3.1a.ESP->|DATA|NAME:If you're thinking of traveling up country, near Sheogorad, or out Molag Amur way, or inside the Ghostfence, you need to know about corprus. It's a disease that turns normal creatures into beasts. Turns men into twisted, mad lumps of flesh, superhumanly strong, and full of hatred. You get corprus from fighting with diseased creatures. It's hard to get corprus, but harder to get rid of it. In fact, I hear there is no cure.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=10800190811498724734(Topic:go free)
+  tr_mainland.esm------------->|DATA|ONAM|TR_S_m2_Galdalior|NAME:Go free? I do not have time for such nonsense. This place would fall apart without me.|SCVR:01450|INTV|BNAM:set TR_m4_q_S_dur_juu.metGaldalior to 1
+  Morrowind Crafting 3.1a.ESP->|DATA|ONAM|TR_S_m2_Galdalior|NAME:Go free? I do not have time for such nonsense. This place would fall apart without me.|SCVR:01450|INTV|BNAM:set TR_m4_q_S_dur_juu.metGaldalior to 1
+
+[MOD-INF]: ID=13756105811994122503(Topic:little advice)
+  tribunal.esm---------------->|DATA|NAME:If you find yourself stumbling into trouble when you're tired, stop being so reckless. Keep an eye out. If you're entering unfamiliar territory, and you think it might be hostile, slow down to a walk, look around, catch your breath, and be ready for trouble.|SCVR:02sX4Random100|INTV:Z|SCVR:1CsX0nolore|INTV:|BNAM:;bottom; default
+  Morrowind Crafting 3.1a.ESP->|DATA|NAME:If you find yourself stumbling into trouble when you're tired, stop being so reckless. Keep an eye out. If you're entering unfamiliar territory, and you think it might be hostile, slow down to a walk, look around, catch your breath, and be ready for trouble.|SCVR:02sX4Random100|INTV:Z|SCVR:1CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=15189197042645426247(Topic:latest rumors)
+  tr_mainland.esm------------->|DATA|ANAM:Ashamul|NAME:Thalin has become completely insane since Iveru settled at her dwelling. There must be something shady between the two girls.|SCVR:02sX5Random100|INTV:2|SCVR:17XX0TR_m1_Athyn Favelnim|INTV|SCVR:27XX0TR_m1_Iveru Favelnim|INTV|SCVR:37XX0TR_m1_Midaves_Favelnim|INTV|SCVR:43sX0TR_Map|INTV|SCVR:5CsX0T_Local_NoLore|INTV:
+  Morrowind Crafting 3.1a.ESP->|DATA|ANAM:Ashamul|NAME:Thalin has become completely insane since Iveru settled at her dwelling. There must be something shady between the two girls.|SCVR:02sX5Random100|INTV:2|SCVR:17XX0TR_m1_Athyn Favelnim|INTV|SCVR:27XX0TR_m1_Iveru Favelnim|INTV|SCVR:37XX0TR_m1_Midaves_Favelnim|INTV|SCVR:47XX0TR_m1_Thalin_Thimalvel|INTV|SCVR:5CsX0NoLore|INTV:
+
+[MOD-INF]: ID=15933216522200427592(Topic:little advice)
+  tribunal.esm---------------->|DATA|NAME:If you want to improve a skill you're terrible at, it's worth paying for a little training, just to get you started. Sure, you can teach yourself, but it can be slow and frustrating.|SCVR:02sX4Random100|INTV:F|SCVR:1CsX0nolore|INTV:|BNAM:;bottom; default
+  Morrowind Crafting 3.1a.ESP->|DATA|NAME:If you want to improve a skill you're terrible at, it's worth paying for a little training, just to get you started. Sure, you can teach yourself, but it can be slow and frustrating.|SCVR:02sX4Random100|INTV:F|SCVR:1CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=17545243371364211941(Topic:little advice)
+  tribunal.esm---------------->|DATA|NAME:If you're heading into the backcountry, always carry a couple of Restore Health, Restore Fatigue, Cure Disease, and Cure Blight potions with you.|SCVR:0CsX0nolore|INTV:|BNAM:;bottom; default
+  Morrowind Crafting 3.1a.ESP->|DATA|NAME:If you're heading into the backcountry, always carry a couple of Restore Health, Restore Fatigue, Cure Disease, and Cure Blight potions with you.|SCVR:0CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=18404305671714828172(Topic:almalexia)
+  tribunal.esm---------------->|DATA|NAME:Farewell.|SCVR:21500|INTV|BNAM:goodbye
+  Morrowind Crafting 3.1a.ESP->|DATA|CNAM:Woodsman|NAME:Farewell.|SCVR:21500|INTV|BNAM:goodbye
+
+[MOD-INF]: ID=22696183362373513973(Topic:little secret)
+  tribunal.esm---------------->|DATA|NAME:Have you heard of this new secret cult, the Sixth House? They say they sit around in caves, cutting off pieces of their own flesh and eating it. It's that corprus disease -- makes the flesh grow wild and crazy. Cut a piece off, and another piece grows back, bigger and better. Guards say, 'We're looking into it.' Right. That makes me feel better.|SCVR:02sX4Random100|INTV:(|SCVR:14JX3A1_2_AntabolisInformant|INTV: |SCVR:24JX4C3_DestroyDagoth|INTV:2|SCVR:3CsX0nolore|INTV:|SCVR:48FX0Ashlanders|INTV
+  Morrowind Crafting 3.1a.ESP->|DATA|NAME:Have you heard of this new secret cult, the Sixth House? They say they sit around in caves, cutting off pieces of their own flesh and eating it. It's that corprus disease -- makes the flesh grow wild and crazy. Cut a piece off, and another piece grows back, bigger and better. Guards say, 'We're looking into it.' Right. That makes me feel better.|SCVR:02sX4Random100|INTV:(|SCVR:14JX3A1_2_AntabolisInformant|INTV: |SCVR:24JX4C3_DestroyDagoth|INTV:2|SCVR:3CsX0NoLore|INTV:|SCVR:48FX0Ashlanders|INTV
+
+[MOD-INF]: ID=28693258661513225306(Greeting:greeting 9)
+  tr_mainland.esm------------->|DATA|ANAM:Necrom, Waterfront|NAME:Almsivi, %PCClass. Is there a specific place within the city that you're looking for?|SCVR:02sX4Random100|INTV:(|SCVR:11630|INTV:|SCVR:2CsX0T_Local_NoLore|INTV:|SCVR:33sX3TR_Map|INTV
+  Morrowind Crafting 3.1a.ESP->|DATA|ANAM:Necrom, Waterfront|NAME:Almsivi, %PCClass. Is there a specific place within the city that you're looking for?|SCVR:02sX4Random100|INTV:(|SCVR:11630|INTV:|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=28846221251116526872(Topic:little secret)
+  tribunal.esm---------------->|DATA|FNAM:Camonna Tong|NAME:So, you think House Hlaalu is just an Imperial puppet? Shows what you know. Who really runs House Hlaalu? Not the house council. Those posers do what Orvas Dren tells them. Orvas Dren is the Camonna Tong kingpin. And one day, when the time is right, Orvas Dren, the Camonna Tong, and all right-thinking Dunmer will rise up, murder you outlanders in your beds, and restore Morrowind to its ancient glory.|SCVR:0CsX0nolore|INTV:
+  Morrowind Crafting 3.1a.ESP->|DATA|FNAM:Camonna Tong|NAME:So, you think House Hlaalu is just an Imperial puppet? Shows what you know. Who really runs House Hlaalu? Not the house council. Those posers do what Orvas Dren tells them. Orvas Dren is the Camonna Tong kingpin. And one day, when the time is right, Orvas Dren, the Camonna Tong, and all right-thinking Dunmer will rise up, murder you outlanders in your beds, and restore Morrowind to its ancient glory.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=30065136011644315896(Topic:little advice)
+  tribunal.esm---------------->|DATA|NAME:When you take a job, you have to have the good sense to hold off until you're stronger if it seems too hard for you.|SCVR:02sX4Random100|INTV:Z|SCVR:11630|INTV:|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+  Morrowind Crafting 3.1a.ESP->|DATA|NAME:When you take a job, you have to have the good sense to hold off until you're stronger if it seems too hard for you.|SCVR:02sX4Random100|INTV:Z|SCVR:11630|INTV:|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default

@@ -1,0 +1,1499 @@
+Vampire_Embrace.esp: DUP-INF DUP-REC GETSND EVLGMST MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [EVLGMST] Tribunal(1):
+	TB scompanionshare
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(emb_combatdisptarg01)
+	SCPT(emb_combatdisptarg02)
+	SCPT(emb_combatdisptarg03)
+	SCPT(emb_combatdisptarg04)
+	SCPT(emb_combatdisptarg05)
+	SCPT(emb_combatdisptarg06)
+	SCPT(emb_combatdisptarg07)
+	SCPT(emb_combatdisptarg08)
+	SCPT(emb_combatdisptarg09)
+	SCPT(emb_combatdisptarg10)
+	SCPT(emb_globolscript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(emb_agreedembrace)
+	SCPT(emb_agreedgiveblood)
+	SCPT(emb_bringnpctotown)
+	SCPT(emb_calcdisplayhealthper)
+	SCPT(emb_calcoktoembrace)
+	SCPT(emb_calcoktogiveblood)
+	SCPT(emb_checkpcknowspells)
+	SCPT(emb_cleandeadnpc)
+	SCPT(emb_combattargethit)
+	SCPT(emb_companionsharescript)
+	SCPT(emb_drinkgivenblood)
+	SCPT(emb_drinkmyblood)
+	SCPT(emb_equip_reequip)
+	SCPT(emb_equip_stripall)
+	SCPT(emb_equip_striparmor)
+	SCPT(emb_equip_stripclothing)
+	SCPT(emb_facecoordinates)
+	SCPT(emb_facecoordinates01)
+	SCPT(emb_facecoordinates02)
+	SCPT(emb_forcebite)
+	SCPT(emb_forceembrace)
+	SCPT(emb_getnpcdata)
+	SCPT(emb_giveclan)
+	SCPT(emb_infobox_combatmove)
+	SCPT(emb_killandcleannpc)
+	SCPT(emb_localvariables)
+	SCPT(emb_makethrall)
+	SCPT(emb_mynpcattackedbypc)
+	SCPT(emb_mynpctransformcancel)
+	SCPT(emb_mynpctransformdialog)
+	SCPT(emb_mynpctransformfollowstay)
+	SCPT(emb_mynpcundo)
+	SCPT(emb_neckbleednpc)
+	SCPT(emb_pairsetup_childvictim)
+	SCPT(emb_reembrace)
+	SCPT(emb_registergreeting)
+	SCPT(emb_resettoseconddisp)
+	SCPT(emb_sayhelp)
+	SCPT(emb_setlevel)
+	SCPT(emb_startscript)
+	SCPT(emb_strategycanmove)
+	SCPT(emb_strategychange)
+	SCPT(emb_strategypairchange)
+	SCPT(emb_strategytransformcast)
+	SCPT(emb_teleportsecondary)
+	SCPT(emb_testmessagebox)
+	SCPT(emb_theconvjournal)
+	SCPT(emb_travelcalc)
+	SCPT(emb_travelyourvictim)
+	SCPT(emb_vampspelldisplay)
+	SCPT(emb_vampspells)
+	SCPT(emb_victimfree)
+	SCPT(emb_victimmake)
+	SCPT(emb_victimsetup)
+	SCPT(emb_vmaskadd)
+	SCPT(emb_vmaskgetrace)
+	SCPT(emb_vmaskplayerremove)
+	SCPT(emb_vmaskremove)
+	SCPT(emb_zequipget01)
+	SCPT(emb_zteleport01)
+	SCPT(emb_zteleport02)
+	SCPT(emb_zteleport03)
+	SCPT(emb_zteleport04)
+	SCPT(emb_zteleport05)
+	SCPT(emb_zteleport06)
+	SCPT(emb_zteleport07)
+	SCPT(emb_zteleport08)
+	SCPT(emb_zteleport09)
+	SCPT(emb_zteleport10)
+	SCPT(emb_zteleport11)
+	SCPT(emb_zteleport12)
+	SCPT(emb_zteleport13)
+	SCPT(emb_zteleport14)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       SNDG    
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        GMST    scompanionshare
+
+[DUP-INF]: ID=138774431398225(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Zainab Camp|NAME:Ho, look! An outlander. Are you lost, poor thing? Did the big, bad beasts bite you, so you need a healer? Or do you need our trader, so he can take your gold and give you things we would throw away or give to our guar?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=287185562092168(Persuasion:intimidate success)
+  |DATA|ONAM:ghost_npc_erur-dan|NAME:Among mortals, you are indeed great. Among the ancestors, you are of little account.
+
+[DUP-INF]: ID=1061828934461282(Greeting:greeting 5)
+  |DATA|FNAM:Ashlanders|ANAM:Erabenimsun Camp|NAME:You have slain one of my people. You must pay with your life.|SCVR:04JX3B4_WarLoverKill|INTV|BNAM:ModFight 60  ModDisposition -60  Goodbye
+
+[DUP-INF]: ID=1451629229826455(Greeting:greeting 5)
+  |DATA|ONAM:aryon|NAME:Yes, %PCName. I have heard you may want to be the Telvanni Hortator.|SCVR:34JX3A2_6_Incarnate|INTV:2
+
+[DUP-INF]: ID=2043809244472246(Greeting:greeting 1)
+  |DATA|ONAM:ovis velas|NAME:Greetings, fair citizens of Mournhold! I am the great, renowned, respected, and feared wizard, Ovis Velas! In the coming weeks you shall see more and more of me, as I bring this city to its knees. But for the moment, allow me to demonstrate my power on one of your hapless countrymen. You there! Yes, you, you ugly %PCRace. Prepare yourself to feel my wrath!|SCVR:01630|INTV:|BNAM:goodbye
+
+[DUP-INF]: ID=2099173394134409(Greeting:greeting 5)
+  |DATA|ONAM:hassour zainsubani|NAME:I am Hassour Zainsubani, %PCName. May you bless and be blessed. I do not wish to be rude, but if you have business, speak it, for I am at leisure, and would prefer to be alone with my thoughts.|SCVR:01630|INTV:|SCVR:34JX3A1_11_ZainsubaniInformant|INTV
+
+[DUP-INF]: ID=3004720027650230(Greeting:greeting 5)
+  |DATA|ONAM:hlaren ramoran|NAME:Yes, I have agreed to name you the Redoran Hortator. What else can I do for you?|SCVR:34JX3B5_RamoranHort|INTV:2
+
+[DUP-INF]: ID=3375742770827395(Greeting:greeting 5)
+  |DATA|ONAM:omesu hlarys|NAME:I don't get paid to answer questions.|BNAM:goodbye
+
+[DUP-INF]: ID=4188721575955379(Greeting:greeting 9)
+  |DATA|ONAM|NAME:Welcome to Gnaar Mok, outlander. It's small, but dumpy. And I'm Gnaar Mok's shipmaster, at your service. What's your destination? Or, if by misfortune you are newly arrived in Gnaar Mok, I grieve for you. But I can steer you to the local services, or to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=4245030610126552(Greeting:greeting 5)
+  |DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:Do you have a copy of Neminda's orders? Remember the code phrase is "Orphan of Arnesia."|SCVR:34JX3HH_DisguisedArmor|INTV: |SCVR:44JX4HH_DisguisedArmor|INTV:d
+
+[DUP-INF]: ID=4348828035416037(Voice:hello)
+  |DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF091.mp3|NAME:Good to meet you.
+
+[DUP-INF]: ID=6892997366188976(Greeting:greeting 5)
+  |DATA|ONAM:ethys savil|NAME:Am I talking to you, fetcher? No. I am talking to the filthy lizard. So push off.|SCVR:01630|INTV:|SCVR:34JX3A1_V_VivecInformants|INTV|SCVR:44JX1A1_7HuleeyaInformant|INTV
+
+[DUP-INF]: ID=7541093121030463(Persuasion:bribe success)
+  |DATA|ONAM:ghost_npc_hort_ledd|NAME:Your offering does you honor.
+
+[DUP-INF]: ID=7650207111432788(Greeting:greeting 9)
+  |DATA|ANAM:Khuul|NAME:I'm %Name. This is Khuul. It's just a little fishing village, but it's home to us. What can I do for you? Are you looking for a little advice? Or thinking to share the latest rumors?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=9498332818636898(Voice:hello)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM090.mp3|NAME:Greetings, widewalker.
+
+[DUP-INF]: ID=10846297472227562(Greeting:greeting 5)
+  |DATA|ONAM:ronerelie philulanie|NAME:You can look, but don't touch. Yes, it's all Dwarf-make. And it belongs to Master Aryon. So keep your hands to yourself.|BNAM:goodbye
+
+[DUP-INF]: ID=10933144210792822(Greeting:greeting 9)
+  |DATA|ANAM:Ald-ruhn|NAME:I'm %name, %class. Welcome to Ald'ruhn, the district seat of House Redoran. Are you looking for someone in particular?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=11429934261494888(Greeting:greeting 5)
+  |DATA|ONAM:miner arobar|NAME:You must explain why you have come here, and quickly. No speeches or excuses. Use your words with care, for I am a councilor of House Redoran and a very busy man with many duties and responsibilities. I am not one to stand about idly while others chatter on and on about the most trivial of subjects.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=13154210390681636(Greeting:greeting 9)
+  |DATA|ANAM:Gnisis|NAME:This is Gnisis, %PCName. Just a little mining village on a trade route. I'm %Name. Is there something specific I can help you with? Or are you just looking for a little advice?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=13180129321489980(Greeting:greeting 9)
+  |DATA|ANAM:Seyda Neen|NAME:I STILL don't like you. I bet nobody in Seyda Neen likes you. Why don't you act right?|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=13865800325082886(Greeting:greeting 5)
+  |DATA|ONAM:senilias cadiusus|NAME:I'm Senilias Cadiusus and this is my daughter, Pania. We are excavating these Dwemer ruins.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=16228702630641638(Persuasion:intimidate fail)
+  |DATA|ONAM:ghost_npc_erur-dan|NAME:Speak with disrespect to the spirits, and you will regret it.
+
+[DUP-INF]: ID=16251322258068901(Greeting:greeting 5)
+  |DATA|ONAM:garisa llethri|NAME:As a councilor of House Redoran, I am a very busy man. I hope this is important.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=16638405123153970(Greeting:greeting 1)
+  |DATA|ONAM:hlireni indavel|NAME:Well, well, well. What do we have here? Do you have your invitation? Are you a Player of the Game? Or one of the Game Pieces? Or a humble Spectator?|SCVR:01630|INTV:|BNAM:; Hlireni Indavel
+
+[DUP-INF]: ID=16793076253245962(Greeting:greeting 9)
+  |DATA|ONAM|NAME:You looking for a ship? What's your destination?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=18448967278652440(Voice:hello)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM090.mp3|NAME:Speak friend. My turn to listen.
+
+[DUP-INF]: ID=18696176822029015(Greeting:greeting 9)
+  |DATA|ONAM:theldyn virith|ANAM:Ald Velothi|NAME:This is Ald Velothi, outlander. Looking for someone in particular? You need services? Or are you looking for some specific place?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=19351749310399805(Voice:hello)
+  |DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF091.mp3|NAME:Ho! What's your pleasure?
+
+[DUP-INF]: ID=19711107381933749(Greeting:greeting 9)
+  |DATA|NAME:I'm %name. And this is Gnaar Mok. And you're... %PCName? Fine. That's all taken care of. Now. Why don't you tell me what you want?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:!
+
+[DUP-INF]: ID=19900601119321759(Greeting:greeting 5)
+  |DATA|ONAM:tuveso beleth|NAME:Did my son arrive safely at the Koal Cave?|SCVR:34JX3HR_KoalCave|INTV: |SCVR:44JX4HR_KoalCave|INTV:d
+
+[DUP-INF]: ID=20534199356583829(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:You have betrayed Lord Dagoth. Taste his vengeance.|SCVR:01630|INTV:|SCVR:14JX3A2_3_CorprusCure|INTV|BNAM:;ash sorcerer [ash zombie 10]  modDisposition -10
+
+[DUP-INF]: ID=20544127614579455(Voice:hello)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF089.mp3|NAME:Muthsera?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=20733791225482603(Voice:hello)
+  |DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM090.mp3|NAME:And what is your business here? How may we help?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=21232247303007417(Greeting:greeting 5)
+  |DATA|ONAM:ethys savil|NAME:Oh, go away, will you.|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=21652491747314888(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM017.mp3|NAME:I am not amused.|SCVR:01425|INTV:|SCVR:12sX3Random100|INTV:2|BNAM:;ClothingMod<=0
+
+[DUP-INF]: ID=22951339818121385(Greeting:greeting 5)
+  |DATA|ONAM:trebonius artorius|NAME:Greetings, %PCName. I am Arch-Mage Trebonius, Guildmaster of Vivec.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=24807145826677874(Voice:hello)
+  |DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF091.mp3|NAME:Is there something I can do for you?
+
+[DUP-INF]: ID=26338606898955068(Greeting:greeting 1)
+  |DATA|NAME:Ahh...you are the one recently arrived from Vvardenfell. What is it you wish to ask?|SCVR:04JX4TR09_Journalist|INTV:d|SCVR:11630|INTV:
+
+[DUP-INF]: ID=26868428267147611(Greeting:greeting 9)
+  |DATA|ANAM:Tel Vos|NAME:Yes? Are you looking for someone in particular?|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=28391701230333623(Greeting:greeting 5)
+  |DATA|ONAM:neloth|NAME:Whatever you want, the answer is no.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=28448376431223813(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Erabenimsun Camp|NAME:I told you, outlander. Go away.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Ashlander, Erabenimsun Camp; Journal "A2_6_Incarnate" >= 50;   ModDisposition -10
+
+[MOD-INF]: ID=30363846865395047(Greeting:greeting 2)
+  morrowind.esm------->|DATA|FNAM:Mages Guild|NAME:Your kind is not welcome here, vampire. Ask me what you will, and be on your way.|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|FNAM:Mages Guild|NAME:Your kind is not welcome here, vampire. Ask me what you will, and be on your way.|SCVR:01600|INTV|SCVR:11600|INTV:
+
+[MOD-INF]: ID=30413105531090563(:greeting 2)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|CNAM:Sorcerer|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave my sight, unholy beast!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  ModFight 50  Goodbye
+  Vampire_Embrace.esp->|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave my sight, unholy beast!|DELE:
+
+[DUP-INF]: ID=30626278728243071(Greeting:greeting 5)
+  |DATA|NAME:So you've found me again? Easier than the first time, no? What are you here to discuss?|SCVR:01630|INTV
+
+[DUP-INF]: ID=30759782623813357(Voice:hello)
+  |DATA|RNAM:Dark Elf|CNAM:Alchemist Service|SNAM:Vo\d\m\Srv_DM050.mp3|NAME:Do you have anything to barter?
+
+[DUP-INF]: ID=31007180320018927(Greeting:greeting 5)
+  |DATA|ONAM:yakum hairshashishi|NAME:Hello. Yakum. Speak Ashland. Old Elf, not so good speak.|BNAM:; Yakummu Hairshashishi
+
+[DUP-INF]: ID=31465785619122468(Greeting:greeting 9)
+  |DATA|NAME:I don't like you. Ebonheart is a big place. Why don't you go bother someone else?|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=32712062267936744(Greeting:greeting 9)
+  |DATA|ANAM:Tel Mora|NAME:You still here, stranger. You want someone in particular?|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=36101180223561648(Voice:hello)
+  |DATA|RNAM:Imperial|SNAM:vo\i\m\Hlo_IM117.mp3|NAME:How can I help you?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=36492558219541694(Voice:hello)
+  |DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM091.mp3|NAME:What can I do for you?
+
+[DUP-INF]: ID=37328664268803964(Persuasion:bribe success)
+  |DATA|ONAM:ghost_npc_erur-dan|NAME:Your offering does you honor.
+
+[DUP-INF]: ID=39411199102423971(Voice:hello)
+  |DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM090.mp3|NAME:You've got the better of me. So go ahead.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=44753353994228581(Greeting:greeting 5)
+  |DATA|ONAM:hasphat antabolis|NAME:I am %Name, Drillmaster for the Balmora Fighters Guild. I offer training to the public, and, at a considerable discount, to members of the Fighters Guild.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=50345712254827886(Greeting:greeting 5)
+  |DATA|ONAM:raesa pullia|NAME:I'm Raesa Pullia, Champion of the Legion garrison here at Buckmoth Legion Fort. I'm very busy right now, so please excuse me.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=52529232386222232(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM003.mp3|NAME|SCVR:02sX5Random100|INTV:<|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=56250022135219827(Greeting:greeting 1)
+  |DATA|ONAM:tholer saryoni|NAME:Thank you for coming, %PCName. You know the Temple's doctrine on the Nerevarine. Perhaps it is time to change that doctrine.|SCVR:04JX3B8_All_Hortator|INTV:2|SCVR:14JX3B8_All_Nerevarine|INTV:2|SCVR:21630|INTV:|SCVR:34JX4B8_MeetVivec|INTV:2|BNAM:;Tholer Saryoni; Journal "B8_All_Hortator" >= 50; Journal "B8_All_Nerevarine" >= 50
+
+[DUP-INF]: ID=62342927712254319(Greeting:greeting 0)
+  |DATA|ONAM:agronian guy|NAME:I don't want to talk about it.|BNAM:Goodbye
+
+[MOD-INF]: ID=67652052200513841(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+
+[MOD-INF]: ID=67652052200513841(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+[MOD-IID]: IDs=10475195192091220495,79882391637293537
+  Vampire_Embrace.esp->Arrh! A vampire. Go away!
+
+[DUP-INF]: ID=67673390723525123(Greeting:greeting 9)
+  |DATA|NAME:Pleased to meet you, %PCName, and welcome to the Imperial town of Ebonheart. We're always eager for news here. Have you heard the latest rumors? Or would you care to share a little secret? One hears things here and there.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=75802663541506472(Greeting:greeting 7)
+  |DATA|ONAM:ienas sarandas|NAME:Yes? I'm Ienas Sarandas. What do you want?|BNAM:;Ienas Sarandas;
+
+[DUP-INF]: ID=82512034256356453(Greeting:greeting 5)
+  |DATA|ONAM:garisa llethri|NAME:I trust Athyn Sarethi's judgement. I will support you as the Redoran Hortator.|SCVR:34JX3B5_LlethriHort|INTV:2
+
+[DUP-INF]: ID=85401699629445394(Greeting:greeting 1)
+  |DATA|ONAM:Goval Ralen|NAME:Hi, %PCName! So, did you talk to Marena Gilnith? Did she say anything about me?|SCVR:04JX0MS_MatchMaker|INTV:P|BNAM:StartScript GetPCGold
+
+[DUP-INF]: ID=86308661567025469(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF182.mp3|NAME:Walk with virtue, outlander.
+
+[DUP-INF]: ID=86952829776707818(Greeting:greeting 9)
+  |DATA|NAME:If you insist...|SCVR:02sX5Random100|INTV:2
+
+[DUP-INF]: ID=91127355340130582(Greeting:greeting 1)
+  |DATA|ONAM:Dralas Gilu|NAME:I feel as though I've just awakened from a dream... a terrible dream of the Sixth House.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=98302372327767126(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF139.mp3|NAME:Hisses|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF139.mp3|NAME:Hisses|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+
+[MOD-INF]: ID=98302372327767126(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF139.mp3|NAME:Hisses|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF139.mp3|NAME:Hisses|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+[MOD-IID]: ID=1173124084240169755
+  Vampire_Embrace.esp->Hisses
+
+[DUP-INF]: ID=99402315028974927(Persuasion:intimidate fail)
+  |DATA|ONAM:ghost_npc_hort_ledd|NAME:Speak with disrespect to the spirits, and you will regret it.
+
+[MOD-INF]: ID=100717462151923586(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF138.mp3|NAME:A vampire! No!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF138.mp3|NAME:A vampire! No!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+
+[DUP-INF]: ID=101272241198164547(Greeting:greeting 1)
+  |DATA|ONAM:dagoth gares|NAME:Yes, Lord Nerevar? What would you ask of me? Would you hear of my Lord, Dagoth Ur? Or of the Sixth House, or of Sixth House servants?
+
+[DUP-INF]: ID=101831915227721950(Greeting:greeting 9)
+  |DATA|ONAM:darvame hleran|ANAM:Seyda Neen|NAME:You looking for a silt strider? What's your destination?
+
+[DUP-INF]: ID=102663024910812926(Greeting:greeting 5)
+  |DATA|ONAM:yakum hairshashishi|NAME:Again, hello, %PCName. Bless and be blessed.|SCVR:01363|INTV|BNAM:; Yakummu Hairshashishi; PCSpeechcraft >= 30  ModDisposition 20
+
+[DUP-INF]: ID=103253162175263760(Greeting:greeting 9)
+  |DATA|NAME:While you're in Gnaar Mok, do me a favor. Stay away from me.|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=106915879287913997(Greeting:greeting 5)
+  |DATA|ONAM:hassour zainsubani|NAME:Welcome, my friend %PCName. Did you wish to ask about the Ashlanders and the Nerevarine cult? Or was there some other business you have with me?|SCVR:34JX3A1_11_ZainsubaniInformant|INTV
+
+[DUP-INF]: ID=109391291020476665(Persuasion:service refusal)
+  |DATA|NAME:You risk death being here. We will no longer help you.|SCVR:04JX3VA_VampChild|INTV:x|SCVR:11601|INTV
+
+[DUP-INF]: ID=111099892177678622(Greeting:greeting 1)
+  |DATA|NAME:You're new here, aren't you? My name is Uupse. Uupse Fyr. I take care of the corprus victims in the Corprusarium.|SCVR:01630|INTV
+
+[DUP-INF]: ID=111731338051807907(Greeting:greeting 5)
+  |DATA|ONAM:salattanat|NAME:You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?|SCVR:01630|INTV:|SCVR:14JX3A2_6_Incarnate|INTV|BNAM:; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat; Journal "A2_6_Incarnate" >= 30
+
+[DUP-INF]: ID=116959856114234640(Greeting:greeting 5)
+  |DATA|ONAM:tuveso beleth|NAME:I am Tuveso Beleth, and this is my son, Deval. I am a smith of House Redoran.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=127216720183781120(:greeting 2)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|CNAM:Mage|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave here, monster!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire  ModFight 50  Goodbye
+  Vampire_Embrace.esp->|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Leave here, monster!|DELE:
+
+[DUP-INF]: ID=135323138334058449(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Urshilaku Camp|NAME:It is %PCName! Nerevarine!|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:
+
+[DUP-INF]: ID=148262949821217885(Voice:hello)
+  |DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM091.mp3|NAME:Is there something I can do for you?
+
+[DUP-INF]: ID=148639109257516828(Greeting:greeting 5)
+  |DATA|ONAM:favel gobor|NAME:Shut up and butt out, outlander. It's the filthy lizard we're talking to, not you.|SCVR:01630|INTV:|SCVR:34JX3A1_V_VivecInformants|INTV|SCVR:44JX1A1_7HuleeyaInformant|INTV
+
+[DUP-INF]: ID=150816851312507738(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|ANAM:Ilunibi, Tainted Marrow|NAME:The Sixth House is risen, and Dagoth is its glory. Your host has called you, %PCName, but you have refused his hospitality. This is what my Lord would say to you. "I have opened my Heart to you. I was generous. Yet you defy me. I regret that you must be destroyed, but none shall stand against me in the hour of my awakening."|SCVR:01630|INTV:
+
+[MOD-INF]: ID=155011096921286940(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF138.mp3|NAME:Unholy beast! Go away!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF138.mp3|NAME:Unholy beast! Go away!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+
+[MOD-INF]: ID=155011096921286940(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF138.mp3|NAME:Unholy beast! Go away!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF138.mp3|NAME:Unholy beast! Go away!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+[MOD-IID]: IDs=14857325332838123697,82361072737319742
+  Vampire_Embrace.esp->Unholy beast! Go away!
+
+[DUP-INF]: ID=160221253111885155(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Erabenimsun Camp|NAME:You have no manners, outlander. I said, go away.|SCVR:01630|INTV:|BNAM:;Ashlander, Erabenimsun Camp;   ModDisposition -10
+
+[DUP-INF]: ID=166552843338625147(Greeting:greeting 1)
+  |DATA|NAME:You have come uninvited. I have nothing to say to you.|BNAM:;Vivec  Goodbye
+
+[DUP-INF]: ID=170064371472425713(Greeting:greeting 9)
+  |DATA|ONAM:daras aryon|ANAM:Maar Gan|NAME:Welcome to the village of Maar Gan, outlander, in the Ashlands. Maar Gan is the site of the holy Tower shrine, favorite place of pilgrimage for the Temple faithful. I'm the local caravaner, and I manage the silt strider port. Tell me your destination, if you're looking for a ride. Or if you're new to Maar Gan, let me tell you about local services, or any specific place in Maar Gan you're looking for. Or if you want someone in particular, maybe I know where to look.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=170419923240316135(Greeting:greeting 5)
+  |DATA|NAME:J'Dhannar will read this book you gave him. Thank you again. And thank Ahnassi, and tell her... goodbye.|SCVR:04JX3Romance_Ahnassi|INTV:K|BNAM:goodbye
+
+[DUP-INF]: ID=173327356545919724(Greeting:greeting 5)
+  |DATA|ONAM:faral retheran|DNAM:Redoran|NAME:Have you convinced Meril Hlaano to stop his slanders against our House?|SCVR:34JX3HR_HlaanoSlanders|INTV: |SCVR:44JX4HR_HlaanoSlanders|INTV:d
+
+[DUP-INF]: ID=175271871618875545(Greeting:greeting 9)
+  |DATA|ANAM:Vos|NAME:Let me welcome you to Vos, %PCName. I'm %Name, and Master Aryon is our patron, bless his soul. I'd be happy to help you find your way around.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV|BNAM:;Vos ;
+
+[DUP-INF]: ID=175341960303625714(Greeting:greeting 5)
+  |DATA|ONAM:raesa pullia|NAME:I'm Raesa Pullia, Champion of the Legion garrison here at Buckmoth Legion Fort. And you're %PCName. Caius Cosades sent you, didn't he? Caius says you're the one to handle this Sixth House base near Gnaar Mok.|SCVR:04JX3A2_2_6thHouse|INTV|SCVR:11630|INTV:
+
+[DUP-INF]: ID=175486660247494905(Greeting:greeting 9)
+  |DATA|ANAM:Sadrith Mora|NAME:Welcome to our fair town, %PCName. If you're new to Sadrith Mora, I'm sure you'll see much that puzzles you. Do you have any questions?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=179409836325685722(Greeting:greeting 5)
+  |DATA|ONAM:hlaren ramoran|NAME:I am Hlaren Ramoran, Lord of West Gash and a councilor of House Redoran. Who, exactly, are you?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=179936510321477857(Persuasion:intimidate success)
+  |DATA|ONAM:ghost_npc_conoon chodal|NAME:Among mortals, you are indeed great. Among the ancestors, you are of little account.
+
+[DUP-INF]: ID=183721970211230303(Greeting:greeting 2)
+  |DATA|ONAM:fathasa llethri|NAME:Hello again, vampire. Have you convinced my son?|SCVR:01600|INTV|SCVR:14JX0VA_VampRich|INTV:F
+
+[MOD-INF]: ID=192212928269169116(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 jammed
+
+[MOD-INF]: ID=192212928269169116(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 jammed
+[MOD-IID]: IDs=29154264782210732673,123313985266976581,185042256382485147,137661803180433662,266705714394613549,253376166155905445,1343854121641327160
+  Vampire_Embrace.esp->I curse you, vampire! Away!
+
+[DUP-INF]: ID=199502631743821034(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Ashlander, Erabenimsun Camp; Journal "A2_6_Incarnate" >= 50;   ModFight 90  Goodbye
+
+[DUP-INF]: ID=200586918112315003(Greeting:greeting 1)
+  |DATA|ONAM:Goval Ralen|NAME:Hi there, %PCName! Are you having as good a time here as I am?|SCVR:01630|INTV
+
+[DUP-INF]: ID=200672762419814487(Greeting:greeting 1)
+  |DATA|ONAM:ra'gruzgob|NAME:Meow.
+
+[DUP-INF]: ID=209581764948007108(Greeting:greeting 5)
+  |DATA|ONAM:theldyn virith|DNAM:Redoran|NAME:Is Old Blue Fin finally dead?|SCVR:34JX3HR_OldBlueFin|INTV: |SCVR:44JX4HR_OldBlueFin|INTV:d
+
+[DUP-INF]: ID=212372527952679549(Greeting:greeting 1)
+  |DATA|ONAM:tholer saryoni|NAME:I'm sorry, but the Temple's doctrine on the Nerevarine is clear. The Nerevarine prophecies are evil superstitions, based on lies and delusions. And even if the prophecies were genuine, since you have killed one of the leaders of the Ashlander tribes, now there is no possibility that you could be accepted by the Ashlander tribes as the Nerevarine of prophecy. I'm afraid we have nothing to discuss.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:14JX3B8_Failed_Nerevarine|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=213957273493512843(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF068.mp3|NAME:You are a fool to walk around like that.|SCVR:01425|INTV:|SCVR:12sX3Random100|INTV:2|BNAM:;ClothingMod<=0
+
+[DUP-INF]: ID=215347874538122507(Greeting:greeting 5)
+  |DATA|ONAM:aryon|NAME:I am Master Aryon of House Telvanni. What brings you here?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=216711363116501230(Voice:hello)
+  |DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF090.mp3|NAME:Hello outlander. I hope you won't take too much of my time.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80; todd - outlander
+
+[DUP-INF]: ID=218896561928926306(Greeting:greeting 5)
+  |DATA|ONAM:yakum hairshashishi|NAME:Ah. You understand me a bit, yes? Hello, %PCName. Yakum greet you. Bless and be blessed. Speak Old Elf, yes, so Yakum learn. You know Ashlanders, yes, a little. Yakum is Ashlander.|SCVR:01363|INTV|SCVR:11630|INTV:|BNAM:; Yakummu Hairshashishi; PCSpeechcraft >= 30
+
+[DUP-INF]: ID=219413552320024900(Greeting:greeting 9)
+  |DATA|ONAM|NAME:These are the docks of Molag Mar, outlander. And I'm %Name, shipmaster of Molag Mar. What's your destination? If you like, I can tell you about the local services, or point you to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=227322281661726892(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:What are you doing! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+
+[DUP-INF]: ID=229525838283789239(Greeting:greeting 9)
+  |DATA|ONAM:nireli farys|NAME:These are the docks of Tel Branora, and I'm the shipmaster. Tell me your destination, if you're outward bound. Or if you're new to Tel Branora, I can steer you to the local services, or to a specific place in Tel Branora. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=230461277511921321(Greeting:greeting 5)
+  |DATA|ONAM:manirai|NAME:You have slain one of the peace-loving Erabenimsun. You deserve to die. Though we have no champion to bring us justice, we still have our pride. We will not treat with you, even though you threaten to murder us, too.|SCVR:04JX3B4_ErabenimsunKill|INTV|BNAM:ModDisposition -30  Goodbye
+
+[DUP-INF]: ID=231077081982824335(Greeting:greeting 5)
+  |DATA|ONAM:addhiranirr|NAME:So. Are you the one Addhiranirr must thank for getting rid of the annoying Census and Excise agent? Indeed, Addhiranirr is very glad to see you, and very happy to tell a friend of my good friend Caius all about the Sixth House cult. And Addhiranirr knows nothing about the Nerevarine, but Addhiranirr is happy to tell you that, too, if it makes Caius happy. Ask away, friend %PCName.|SCVR:04JX3A1_6_AddhiranirrInformant|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 30  modDisposition 20  "Duvianus Platorius"->disable
+
+[DUP-INF]: ID=231474719869012302(Greeting:greeting 5)
+  |DATA|ONAM:urven davor|NAME:Just leave me alone, n'wah.|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=246142351970125790(Greeting:greeting 6)
+  |DATA|FNAM:Imperial Cult|NAME:Welcome. Can I tell you about the Imperial Cult? We invite you to become a lay member.|BNAM:;imperial cult; rank adept [rank 5]
+
+[DUP-INF]: ID=246792593266618660(Greeting:greeting 1)
+  |DATA|ONAM:tholer saryoni|NAME:I'm sorry, but the Temple's doctrine on the Nerevarine is clear. I'm afraid we have nothing to discuss.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|SCVR:24JX4B8_MeetVivec|INTV:2|BNAM:; Tholer Saryoni; Journal "A2_6_Incarnate" >= 50;
+
+[DUP-INF]: ID=248414305611922759(Greeting:greeting 5)
+  |DATA|ONAM:sul-matuul|NAME:How did you get in here? Leave at once, or I will kill you myself.|SCVR:01630|INTV:|BNAM:ModDisposition -20  Goodbye
+
+[DUP-INF]: ID=251151904048165262(Greeting:greeting 9)
+  |DATA|ANAM:Balmora|NAME:Greetings, Citizen. I'm %name. This town is Balmora, Council Seat of House Hlaalu. We're loyal citizens of the Empire, and proud of it. Well, most of us, anyway. So, are you looking for someone in particular? Are you looking for services? Is there some specific place you'd like to visit? Would you like me to tell you about my trade?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV: 
+
+[DUP-INF]: ID=252516048153518697(Voice:hello)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF090.mp3|NAME:Speak, friend. My turn to listen.
+
+[DUP-INF]: ID=255697001506325394(Greeting:greeting 5)
+  |DATA|ONAM:huleeya|NAME:Yes, %PCName. We travel together to Jobasha's Rare Books. When we arrive at my friend's bookstore, I will answer your questions there.|SCVR:03sX0followNow|INTV|SCVR:14JX3A1_7HuleeyaInformant|INTV
+
+[MOD-INF]: ID=259876592925710398(Greeting:greeting 2)
+  morrowind.esm------->|DATA|FNAM:Telvanni|NAME:A vampire. How quaint. There are certain experiments I've had in mind for one of your kind. What is it you want?|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|FNAM:Telvanni|NAME:A vampire. How quaint. There are certain experiments I've had in mind for one of your kind. What is it you want?|SCVR:01600|INTV|SCVR:11600|INTV:
+
+[DUP-INF]: ID=260033079287338317(Greeting:greeting 9)
+  |DATA|ANAM:Tel Branora|NAME:Still in Tel Branora? Are you looking for a specific place here?|SCVR:02sX4Random100|INTV:2
+
+[MOD-INF]: ID=263042661832839078(:greeting 2)
+  morrowind.esm------->|DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+  Vampire_Embrace.esp->|NAME:Get away from me, vampire!|DELE:
+
+[MOD-INF]: ID=265292642811853343(Greeting:greeting 2)
+  morrowind.esm------->|DATA|FNAM:Mages Guild|NAME:Say your peace and leave, vampire. We will not have you killed, but your presence here is...a nuisance.|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|FNAM:Mages Guild|NAME:Say your peace and leave, vampire. We will not have you killed, but your presence here is...a nuisance.|SCVR:01600|INTV|SCVR:11600|INTV:
+
+[DUP-INF]: ID=267331559160649957(Voice:hello)
+  |DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM090.mp3|NAME:Hello. I hope you won't take too much of my time.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=268919363808231238(Voice:hello)
+  |DATA|RNAM:Imperial|CNAM|SNAM:Vo\i\m\tHlo_IM016.mp3|NAME:Glory and honor, Emperor and Empire|SCVR:02sX5Random100|INTV|BNAM:;guard
+
+[DUP-INF]: ID=269201116439833191(Greeting:greeting 9)
+  |DATA|ANAM:Vivec|NAME:Okay, pilgrim. What's the problem? Are you lost? Are you looking for someone in particular?|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=269475248127377938(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Zainab Camp|NAME:So. You come all this way to ask us about the trade goods wanted among the Zainab. Well, then. This is a very easy matter.|SCVR:04JX3town_Tel_Vos|INTV: |SCVR:14JX4town_Tel_Vos|INTV
+
+[DUP-INF]: ID=274125546349017383(Greeting:greeting 9)
+  |DATA|ANAM:Ald Velothi|NAME:What brings you to Ald Velothi, stranger? Looking for a good time? You won't find it here.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=274820477163181997(Voice:hit)
+  |DATA|ONAM:aundae vampire 4|SNAM:Vo\v\CrAtk_vRM005.mp3|NAME:Hiss
+
+[DUP-INF]: ID=275135313271619737(Greeting:greeting 5)
+  |DATA|ONAM:huleeya|NAME:Yes, %PCName. I simply wish to go to my friend's bookstore, but these troublesome fools are trying to threaten me. They hate my race, and I think they are spoiling for a fight. Perhaps you can speak with them, and persuade them to leave us alone. I warn you... say the wrong thing, and they may attack us both.|SCVR:34JX3A1_V_VivecInformants|INTV
+
+[DUP-INF]: ID=279812023988714146(Greeting:greeting 5)
+  |DATA|ONAM:brara morvayn|NAME:I am Brara Morvayn, a councilor of House Redoran. Is there something I can do for you?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=282361461032531752(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Urshilaku Camp|NAME:You kill one of my tribe, and expect to talk, outlander. You are a fool.|SCVR:04JX0A2_1_MeetSulMatuul|INTV|BNAM:;Ashlander, Urshilaku Camp;; Journal "A2-1 Meet Sul-Matuul" = 11; Journal "A2-1 Meet Sul-Matuul" 13;  ModDisposition -10
+
+[DUP-INF]: ID=289451319721329870(Greeting:greeting 7)
+  |DATA|ONAM:sjorvar horse-mouth|NAME:Welcome, %PCRank %PCName. %Name is my name, %Class is my trade. I'd be happy to share a little advice or Morrowind lore with a fellow Blade. Or maybe you'd like to catch up on the latest rumors?|SCVR:01460|INTV|SCVR:11630|INTV:|BNAM:;Sjorvar Horse-Mouth; SameFaction = 1;
+
+[DUP-INF]: ID=291262664364422772(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM002.mp3|NAME:Your head will be my new trophy!|SCVR:02sX5Random100|INTV:(|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=291593461020615455(Greeting:greeting 9)
+  |DATA|ONAM|NAME:Good day, stranger. Welcome to Ebonheart, home of Castle Ebonheart, the Duke, the Council, and Hawkmoth Fort, and seat of Imperial government here on Vvardenfell. I'm Ebonheart's shipmaster. I manage the seagoing traffic here. Tell me your destination, if you're outward bound. Or if you're new to Ebonheart, I can steer you to the local services, or to a specific place in Ebonheart. If you're looking for someone in particular, maybe I can help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=295856079266545176(Greeting:greeting 1)
+  |DATA|CNAM:Warlock|ANAM:Ald Daedroth|NAME:I don't know you, do I? Are you here for the dance? Or are you here with the gold-hats?|SCVR:01630|INTV:|BNAM:;5 Witches and warlocks; unique IDs
+
+[DUP-INF]: ID=296022769301833137(Greeting:greeting 5)
+  |DATA|ONAM:hassour zainsubani|NAME:I am %Name. I do not wish to be rude, but I am at leisure, and would prefer to be alone with my thoughts.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=297532471525285933(Greeting:greeting 5)
+  |DATA|ONAM:drelasa ramothran|NAME:Welcome back to the Halfway. Were you here for food or beds? Or was it the Thieves Guild you wanted to talk about?|SCVR:01630|INTV|BNAM:;Drelasa Ramothran
+
+[DUP-INF]: ID=300163321917712125(Greeting:greeting 9)
+  |DATA|ONAM:darvame hleran|ANAM:Seyda Neen|NAME:This is the seaport village of Seyda Neen, outlander, in the Bitter Coast region. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Seyda Neen, I can help you with local services, or any specific place in Seyda Neen you're looking for. Or if you want someone in particular, maybe I know where to look.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=301282770163852570(Greeting:greeting 9)
+  |DATA|ONAM:seldus nerendus|NAME:These are the docks of Khuul, and I'm the shipmaster. I manage all the seagoing traffic here. Tell me your destination, if you're outward bound. Or if you're new to Khuul, I can steer you to the local services, or to a specific place in Khuul. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=301414773815813771(Greeting:greeting 5)
+  |DATA|ONAM:arara uvulas|DNAM:Telvanni|NAME:Do you have the Sload Soap?|SCVR:34JX3HT_SloadSoap|INTV: |SCVR:44JX4HT_SloadSoap|INTV:d
+
+[DUP-INF]: ID=304399778346230137(Greeting:greeting 1)
+  |DATA|FNAM:Temple|ANAM:Ministry of Truth, Hall of Processing|DNAM:Temple|NAME:I don't care WHO you are, %PCRank. You don't belong in here. So get out. Right now. Don't make me use force.|SCVR:01630|INTV:|BNAM:;Ministry of Truth, Prison; Temple faction;
+
+[DUP-INF]: ID=305411654181884341(Voice:hello)
+  |DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM182.mp3|NAME:Walk with virtue, outlander.
+
+[DUP-INF]: ID=309431658019337535(Greeting:greeting 5)
+  |DATA|ONAM:sonummu zabamat|NAME:You wish to ask me about the trade goods wanted by the Zainab. Ask, and I shall answer.|SCVR:04JX3town_Tel_Vos|INTV: |SCVR:14JX4town_Tel_Vos|INTV|BNAM:;Sonummu Zabamat; Journal town_Tel_Vos >= 10;
+
+[DUP-INF]: ID=310057826172669681(Persuasion:admire success)
+  |DATA|ONAM:ghost_npc_erur-dan|NAME:You do right to honor the ancestors.
+
+[DUP-INF]: ID=311752829175724360(Greeting:greeting 5)
+  |DATA|ONAM:han-ammu|NAME:I don't care. I don't want to be a gulakhan, anyway.|SCVR:04JX3B4_KillWarLovers|INTV|SCVR:11630|INTV:
+
+[DUP-INF]: ID=316312365631741828(Greeting:greeting 5)
+  |DATA|ONAM:baladas demnevanni|NAME:I am Baladas Demnevanni. And this, Arvs Drelen is my home. Why have you come here?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=318013930682117301(Voice:hello)
+  |DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM138.mp3|NAME:Greetings, Dunmer. How may I help you?|SCVR:02sX0PCRace|INTV
+
+[DUP-INF]: ID=318543212631428590(Voice:hello)
+  |DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM091.mp3|NAME:Good to meet you.
+
+[DUP-INF]: ID=320002082121730642(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Ahemmusa Camp|NAME:Who are you? What do you want?|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:;Ashlander, Ahemmusa Camp; Journal "A2-6_Incarnate" >= 50
+
+[DUP-INF]: ID=320763559347430317(Greeting:greeting 5)
+  |DATA|ONAM:sul-matuul|NAME:So. My champion Zabamund has sent you to talk with me about the Nerevarine prophecies. Then go ahead, %PCName. Talk. I am very curious.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:#|SCVR:11630|INTV:
+
+[DUP-INF]: ID=348522497222234494(Greeting:greeting 1)
+  |DATA|ONAM:urvel dulni|NAME:Hello. I'm told you will accompany me to the Shrine of the Dead and protect me as we travel together. Our Lady commands it...so I suppose we must go.|SCVR:04JX3TR_ShrineDead|INTV:(|SCVR:11630|INTV:|SCVR:24JX4TR_ShrineDead|INTV:d
+
+[DUP-INF]: ID=365312161262776913(Greeting:greeting 1)
+  |DATA|ONAM:yagrum bagarn|NAME:So. It's you again. What brings you to visit Yagrum Bagarn, Master Crafter, and Last Living Dwarf?|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:11630|INTV|BNAM:; Yagrum Bagarn; Journal "C3_DestroyDagoth" >= 50
+
+[DUP-INF]: ID=374286081726323783(Greeting:greeting 9)
+  |DATA|NAME:Dagon Fel is small, and it's hard to avoid running into one another. But I'd appreciate it if you'd stay away from me. And I'm happy to return the favor.|SCVR:02sX4Random100|INTV:<
+
+[DUP-INF]: ID=396130461258012491(Greeting:greeting 9)
+  |DATA|ONAM:gals arethi|ANAM:Sadrith Mora|NAME:These are the docks of Sadrith Mora, outlander. And I'm %Name, shipmaster of Sadrith Mora, at your service. What's your destination? And, if you're new to Sadrith Mora, I can tell you about the local services, or point you to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=443209101903219249(Greeting:greeting 1)
+  |DATA|ONAM:Assi Serimilk|NAME:Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0Dagoth Draven|INTV:|SCVR:23sX0sleeperOn|INTV|BNAM:;sleeper; Journal A2_3_CorprusCure >= 50;
+
+[DUP-INF]: ID=455315669676314909(Greeting:greeting 1)
+  |DATA|ONAM:dremora_ttpc|NAME:Are you here on the pilgrimage? I take it that silver longsword is for me.|SCVR:05IX2silver longsword|INTV:
+
+[DUP-INF]: ID=478513606304304056(Greeting:greeting 1)
+  |DATA|ONAM:Tienius Delitian|NAME:[He looks you over slowly and deliberately.] Excuse me.|SCVR:01630|INTV:|BNAM:Goodbye
+
+[DUP-INF]: ID=572620131877213189(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Erabenimsun Camp|NAME:Go away, outlander. You have come a long way to a bad place for nothing.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:;Ashlander, Erabenimsun Camp; Journal "A2_6_Incarnate" >= 50;   ModDisposition -10
+
+[MOD-INF]: ID=578128438312667949(:greeting 2)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Return to the foul corruption from which you came! Die, fiend!|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default DUNMER;PC Vampire  StartCombat Player  Goodbye
+  Vampire_Embrace.esp->|NAME:Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. Return to the foul corruption from which you came! Die, fiend!|DELE:
+
+[DUP-INF]: ID=589168852816028448(Greeting:greeting 5)
+  |DATA|NAME:You again? What do you want?|SCVR:01630|INTV
+
+[DUP-INF]: ID=594856981818615252(Greeting:greeting 5)
+  |DATA|ONAM:dratha|NAME:What is this man doing here? Is it lost?|SCVR:01440|INTV:|BNAM:ModDisposition -10
+
+[DUP-INF]: ID=628742772404230489(Persuasion:admire fail)
+  |DATA|ONAM:ghost_npc_erur-dan|NAME:Honor the ancestors with your heart, not with your tongue.
+
+[DUP-INF]: ID=654304522443428863(Greeting:greeting 9)
+  |DATA|ANAM:Sadrith Mora|NAME:No, I don't like you. That's why I don't want to talk to you? Is there ANYONE in Sadrith Moa who likes you?|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=668101162827127557(Greeting:greeting 5)
+  |DATA|ONAM:manirai|NAME:I am Manirai, wise woman of the Erabenimsun. You are the outlander who claims to fulfill the Nerevarine prophecies. Do you need my services? Or do you seek my counsel?|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:; Manirai; Journal "A2_6_Incarnate" >= 50
+
+[DUP-INF]: ID=688666531463814199(Greeting:greeting 9)
+  |DATA|ANAM:Pelagiad|NAME:What's your question, stranger? Can I help you find your way around Pelagiad?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV|BNAM:;Pelagiad; first time
+
+[DUP-INF]: ID=723725462562425809(Greeting:greeting 1)
+  |DATA|FNAM:Temple|ANAM:Ministry of Truth, Hall of Processing|NAME:Guards! Intruder!|BNAM:;Ministry of Truth, Prison; Temple faction;  ;below added by Doug...  SetFight 100  Goodbye
+
+[DUP-INF]: ID=726530808149804578(Greeting:greeting 5)
+  |DATA|ONAM:velanda omani|NAME:Yes, of course %PCName, whatever you want.|SCVR:34JX3B6_DrenHortator|INTV:2
+
+[MOD-INF]: ID=726744581494319467(Greeting:greeting 2)
+  morrowind.esm------->|DATA|FNAM:Telvanni|NAME:Hmmm...a vampire. Interesting. What is it you want?|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|FNAM:Telvanni|NAME:Hmmm...a vampire. Interesting. What is it you want?|SCVR:01600|INTV|SCVR:11600|INTV:
+
+[DUP-INF]: ID=748811961465827243(Voice:hello)
+  |DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF090.mp3|NAME:Greetings, widewalker.
+
+[DUP-INF]: ID=757825239150123357(Greeting:greeting 5)
+  |DATA|ONAM:raven omayn|DNAM:Telvanni|NAME:Do you have the muck?|SCVR:34JX3HT_Muck|INTV: |SCVR:44JX4HT_Muck|INTV:d
+
+[DUP-INF]: ID=774318286171811680(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Zainab Camp|NAME:Ho, look! An outlander. Are you lost, poor thing? Did the big, bad beasts bite you, so you need a healer? Or do you need our trader, so he can take your gold and give you things we would throw away or give to our guar?|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:
+
+[DUP-INF]: ID=816517557170676268(Greeting:greeting 9)
+  |DATA|ONAM:seldus nerendus|NAME:You looking for a silt strider? What's your destination?
+
+[DUP-INF]: ID=837395621728429947(Greeting:greeting 9)
+  |DATA|ANAM:Tel Branora|NAME:I'm %name. Are you new to Tel Branora? Is there some specific place you want to go? If so, you almost certainly can't get there from here. We're a long way from everywhere else here in Tel Branora.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=838272682464818781(Greeting:greeting 1)
+  |DATA|ONAM:vistha_kai|NAME:I am Vistha-Kai, Warden of the Corprusarium. I am here to warn you: do not harm the inmates. If you come to plunder the dungeon, you must endure their attacks, and take your chances with me, their Warden and Protector.|SCVR:01630|INTV:|SCVR:14JX3A2_3_CorprusCure|INTV|BNAM:;Vistha-Kai;  Journal "A2_3_Corprus_Vistha" 1
+
+[DUP-INF]: ID=853723616322517471(Greeting:greeting 9)
+  |DATA|ONAM:tonas telvani|ANAM:Tel Mora|NAME:These are the docks of Tel Mora, outlander. And I'm %Name, shipmaster of Tel Mora, at your service. What's your destination? And, if you're new to Tel Mora, I can tell you about the local services, or point you to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=857414309166435939(Greeting:greeting 9)
+  |DATA|ANAM:Maar Gan|NAME:Welcome, %PCName. I'm %Name, and this is Maar Gan. Are you here on pilgrimage? Most visitors here come to see the holy Temple shrine. How about you?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=874714524618716317(Voice:hello)
+  |DATA|RNAM:Argonian|SNAM:vo\a\f\Hlo_AF089.mp3|NAME:What is it, traveller? What do you seek?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=894025132636124736(Greeting:greeting 1)
+  |DATA|ONAM:alfe fyr|NAME:I suppose you want to speak to Divayth Fyr? Have you got corprus disease? Or were you planning to plunder the dungeon?|SCVR:01630|INTV:|BNAM:;Alfe Fyr
+
+[DUP-INF]: ID=899813931117748491(Greeting:greeting 5)
+  |DATA|ONAM:savile imayn|NAME:Welcome, %PCName, to the Festival Slave Market, the finest slaves in Vvardenfell!  I'm Savile Imayn, and I know we have the slave for you. Are you looking for standard household slaves, %PCName, or are you looking for something special?|BNAM:; Savile Imayn
+
+[DUP-INF]: ID=944330767195161189(Greeting:greeting 5)
+  |DATA|ONAM:addhiranirr|NAME:You! You are the one who tells the Census and Excise agent where to find Addhiranirr! Thank you very much. And now Addhiranirr does NOT feel like talking to you about the Nerevarine, or the Sixth House cult, or anything else at all. Because why? Because you are an idiot. And, yes, also, because you are a big rat, and Addhiranirr does not like big rats.|SCVR:01630|INTV:|SCVR:34JX3A2_6_Incarnate|INTV:5|BNAM:Choice "Apologize." 1 "Offer 300 gold to help pay taxes." 2
+
+[DUP-INF]: ID=991866061490724150(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Zainab Camp|NAME:What do you want, %PCName?|SCVR:04JX3A2_6_Incarnate|INTV:2
+
+[DUP-INF]: ID=1014733061329924423(Greeting:greeting 5)
+  |DATA|ONAM:edd theman|DNAM:Telvanni|NAME:I'm still your Mouth, right? Anything I can do for you, %PCRank?|SCVR:34JX3HT_RecruitEddie|INTV:d
+
+[DUP-INF]: ID=1099210664101907450(Greeting:greeting 5)
+  |DATA|ONAM:hrordis|NAME:What do you think you're doing in here? Go away. Now.|SCVR:01630|INTV:|BNAM:;Hrordis  Goodbye
+
+[DUP-INF]: ID=1155322431145319896(Greeting:greeting 5)
+  |DATA|NAME:What do you want, outlander?|SCVR:01630|INTV:|BNAM:; Ulath-Pal
+
+[DUP-INF]: ID=1155776531938025942(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Ahemmusa Camp|NAME:Yes, outlander. Why are you here? Do you seek a healer? Or do you want our trader?|SCVR:01630|INTV:|BNAM:;Ashlander, Ahemmusa Camp
+
+[DUP-INF]: ID=1164377641566427798(Greeting:greeting 5)
+  |DATA|ONAM:sul-matuul|NAME:Yes, %PCName. You wish to talk with me about the Nerevarine prophecies. Go ahead. I am very curious.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:#
+
+[MOD-INF]: ID=1168020397697927416(:greeting 2)
+  morrowind.esm------->|DATA|CNAM:Sorcerer|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire; mage; sorcerer;; mage
+  Vampire_Embrace.esp->|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|DELE:
+
+[DUP-INF]: ID=1207979091483517033(Greeting:greeting 5)
+  |DATA|ONAM:ahaz|NAME:You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?|SCVR:01630|INTV:|SCVR:14JX3A2_6_Incarnate|INTV|BNAM:; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat; Journal "A2_6_Incarnate" >= 30
+
+[MOD-INF]: ID=1259416343208371526(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM138.mp3|NAME:No! Go away vampire!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM138.mp3|NAME:No! Go away vampire!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+
+[MOD-INF]: ID=1259416343208371526(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM138.mp3|NAME:No! Go away vampire!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM138.mp3|NAME:No! Go away vampire!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+[MOD-IID]: ID=12726235911352219769
+  Vampire_Embrace.esp->No! Go away vampire!
+
+[MOD-INF]: ID=1295116179164551094(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF138.mp3|NAME:Aargh! Go away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF138.mp3|NAME:Aargh! Go away!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+
+[MOD-INF]: ID=1295116179164551094(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF138.mp3|NAME:Aargh! Go away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF138.mp3|NAME:Aargh! Go away!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+[MOD-IID]: ID=1812029682273896707
+  Vampire_Embrace.esp->Aargh! Go away!
+
+[DUP-INF]: ID=1340912254302698597(Greeting:greeting 9)
+  |DATA|ANAM:Hla Oad|NAME:You're new here. I'm %name. This is Hla Oad. Welcome to the Bitter Coast region. Is there something I can help you with? Or are you lost, and looking for the way out?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=1345627143217678493(Voice:hello)
+  |DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF090.mp3|NAME:What is your business here?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1346231224140344550(Greeting:greeting 5)
+  |DATA|ONAM:nileno dorvayn|NAME:I am Nileno Dorvayn. I keep business going here in Balmora while the Hlaalu Councilors are away. Which is most of the time.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=1357629128158639483(Greeting:greeting 1)
+  |DATA|ONAM:grand inquisitor|NAME:Someone is going to going to regret this mistake. Dearly.|BNAM:;following added by Doug:  Goodbye  SetFight 100
+
+[DUP-INF]: ID=1365821533309003650(Greeting:greeting 5)
+  |DATA|ONAM:nibani maesa|NAME:So. They've told me of you, outlander. Or, shall I say, Clanfriend. You are hard-headed. And ignorant. But perhaps it is not your fault. My lord ashkhan says you will ask me about the Nerevarine prophecies. He also says I will test you against the Nerevarine prophecies. I must do as my lord ashkhan says. So ask your questions, and I will test you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-|SCVR:11630|INTV:
+
+[DUP-INF]: ID=1401422095305635000(Voice:hit)
+  |DATA|ONAM:aundae vampire 3|SNAM:Vo\v\Hit_vHF005.mp3|NAME:Hiss!
+
+[DUP-INF]: ID=1404858763116621332(Greeting:greeting 9)
+  |DATA|ANAM:Gnisis|NAME:You can't expect to act the way you do without making yourself unpopular. Why don't you just get out of Gnisis?|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=1485582111297219299(Voice:hello)
+  |DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM091.mp3|NAME:Friend.
+
+[DUP-INF]: ID=1502731116173313658(Greeting:greeting 5)
+  |DATA|ONAM:vevrana aryon|NAME:I'm sorry, but I cannot speak with you. I must continue my private devotions.|BNAM:Goodbye
+
+[DUP-INF]: ID=1539217109992831494(Greeting:greeting 1)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:I wait and hope. Ask, and I shall answer.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50
+
+[DUP-INF]: ID=1561117333365531009(Voice:hello)
+  |DATA|ONAM:urvel dulni|RNAM:Dark Elf|SNAM:Vo\d\m\tHlo_DM073.mp3|NAME:What is it now? Must we go on?|SCVR:04JX0TR_ShrineDead|INTV:2|BNAM:;young priest, frightened out of his wits
+
+[DUP-INF]: ID=1592024070112572945(Greeting:greeting 1)
+  |DATA|ONAM:ordinator_high fane|NAME:Faith, law, and justice. Walk on.
+
+[DUP-INF]: ID=1599330792639928780(Greeting:greeting 9)
+  |DATA|ONAM|NAME:You looking for a ship? You're in luck, because that's what I got. Can't be choosy about your destination. But you can't have everything.
+
+[DUP-INF]: ID=1627329735355217245(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Erabenimsun Camp|NAME:You are the outlander. The one who thinks he's the Nerevarine. Go away. We want nothing to do with you.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:;Ashlander, Erabenimsun Camp; Journal "A2_6_Incarnate" >= 50;   modDisposition -10  Goodbye
+
+[DUP-INF]: ID=1641344363112424193(Persuasion:admire fail)
+  |DATA|ONAM:ghost_npc_hort_ledd|NAME:Honor the ancestors with your heart, not with your tongue.
+
+[DUP-INF]: ID=1657476082311026289(Greeting:greeting 1)
+  |DATA|CNAM:Witch|ANAM:Ald Daedroth|NAME:Don't worry. Hlireni Indavel says leave you and the poor starving Ashlanders alone.|SCVR:04JX3B2_AhemmusaSafe|INTV|SCVR:14JX5B2_AhemmusaSafe|INTV|BNAM:;5 Witches and warlocks; Journal "B2_AhemmusaSafe" >=  20; Journal "B2_AhemmusaSafe" <=  30;
+
+[DUP-INF]: ID=1660732249308423536(Greeting:greeting 1)
+  |DATA|ONAM:Tienius Delitian|NAME:Yes, %PCName. Is this an official matter? Or is there something else you want?|SCVR:04JX3TR_DBHunt|INTV:d
+
+[DUP-INF]: ID=1672022039605630032(Greeting:greeting 5)
+  |DATA|ONAM:neminda|NAME:I am Neminda, Drillmaster and Recruiter. If you wish to join House Redoran, you have come to the right place.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=1685713497108956797(Voice:hello)
+  |DATA|ANAM:Skaal Village|SNAM:Vo\n\f\bHlo_NF021.mp3|NAME:Werewolves in the Greathall! Get in there quickly!|SCVR:04JX3BM_SkaalAttack|INTV: |SCVR:14JX4BM_SkaalAttack|INTV|SCVR:22sX4Random100|INTV:2
+
+[DUP-INF]: ID=1706256901996523988(Greeting:greeting 5)
+  |DATA|ONAM:manirai|NAME:Yes, outlander? Do you need my services? Or do you seek my counsel?|BNAM:; Manirai
+
+[DUP-INF]: ID=1733929112492813003(Greeting:greeting 5)
+  |DATA|ONAM:faral retheran|NAME:I am Faral Retheran. The House Redoran steward here in Vivec.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=1795200281150517311(Persuasion:service refusal)
+  morrowind.esm------->|DATA|FNAM:Mages Guild|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|FNAM:Mages Guild|NAME:I will speak to you, vampire, but I do not trust you enough to serve you. Find someone else to provide these services.|SCVR:01600|INTV|SCVR:12sX0emb_current_oktotalk|INTV|SCVR:22sX3emb_option_npchate|INTV
+
+[DUP-INF]: ID=1820412213010627430(Greeting:greeting 9)
+  |DATA|ONAM:selvil sareloth|ANAM:Balmora|NAME:Good day, stranger. Welcome to Balmora, council seat of House Hlaalu. I'm your local caravaner, and I hope can find you a silt strider travel to your destination. Or, if you are new to Balmora, can I help you with local services? Do you need someone in particular? Or is there a specific place in Balmora I can help you find?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=1832295391976716180(Greeting:greeting 5)
+  |DATA|ONAM:urven davor|NAME:Look. Just leave me alone.|SCVR:01630|INTV:|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=1836820491162226426(Greeting:greeting 5)
+  |DATA|ONAM:odral helvi|DNAM:Hlaalu|NAME:Did you deliver the sealed orders like I asked?|SCVR:34JX3HH_BankFraud|INTV: |SCVR:44JX4HH_BankFraud|INTV:d
+
+[DUP-INF]: ID=1839223478147927393(Greeting:greeting 1)
+  |DATA|ONAM:ingmar|NAME:Lead on, %PCName.  The undead beast roams the halls of the Valbrandr Barrow.|SCVR:04JX0BM_Ingmar|INTV
+
+[DUP-INF]: ID=1851245242133718703(Voice:hello)
+  |DATA|ANAM:Skaal Village|SNAM:Vo\n\m\bHlo_NM070.mp3|NAME:Quickly, into the Greathall! Some of the beasts ran inside!|SCVR:04JX3BM_SkaalAttack|INTV: |SCVR:14JX4BM_SkaalAttack|INTV
+
+[DUP-INF]: ID=1855029655431427954(Greeting:greeting 5)
+  |DATA|ONAM:falura llervu|NAME:[Falura Llervu looks down at the ground waiting for you to speak.]|SCVR:04JX3B3_ZainabBride|INTV:(|SCVR:11630|INTV:|BNAM:; Falura Llervu; Journal "B3_ZainabBride" >= 40
+
+[DUP-INF]: ID=1856071151271028892(Greeting:greeting 5)
+  |DATA|ONAM:kaushad|NAME:So. You are %PCName. The outlander who claims to fulfill the Nerevarine prophecies. You are welcome to our hospitality, outlander. But you must tell us... how can an outlander be the Nerevarine?|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:;Ashkhan Kaushad; Journal "A2_6_Incarnate" >= 30
+
+[DUP-INF]: ID=1859210012324074587(Voice:hello)
+  |DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM090.mp3|NAME:Do you need something?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1888827949109469742(Greeting:greeting 5)
+  |DATA|ONAM:edd theman|NAME:They call me "Fast Eddie." Who are you?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=1900926430186730853(Greeting:greeting 5)
+  |DATA|ONAM:yakum hairshashishi|NAME:What. Yakum. Me? Speak Ashland. Not speak so good Old Elf. Sorry?|SCVR:01630|INTV:|BNAM:; Yakummu Hairshashishi
+
+[MOD-INF]: ID=1901771442409431438(:greeting 2)
+  morrowind.esm------->|DATA|CNAM:Mage|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire; mage; sorcerer;; mage
+  Vampire_Embrace.esp->|NAME:Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.|DELE:
+
+[DUP-INF]: ID=1940913822979811863(Voice:hello)
+  |DATA|RNAM:Dark Elf|FNAM:Redoran|SNAM:vo\d\f\Hlo_DF181.mp3|NAME:Hello.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=1945161331028411587(Greeting:greeting 5)
+  |DATA|ONAM:felisa ulessen|NAME:I am Felisa Ulessen, the Mouth for Mistress Therana.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=1974415012532320253(Greeting:greeting 1)
+  |DATA|ONAM:lustidrike|NAME:Wanna drink, buddy? Got anything you want, so long as it's sujamma.|SCVR:01630|INTV:|BNAM:;Lustidrike [unique scamp]
+
+[DUP-INF]: ID=2018518683909528591(Greeting:greeting 5)
+  |DATA|ONAM:addhiranirr|NAME:Your apology is no good to Addhiranirr.|SCVR:34JX3A2_6_Incarnate|INTV:5|SCVR:41500|INTV|BNAM:Journal, "A1_6_AddhiranirrInformant", 56  Goodbye
+
+[DUP-INF]: ID=2037410989620211590(Greeting:greeting 5)
+  |DATA|NAME:You have slain one of my people. You must pay with your life.|SCVR:04JX3B4_WarLoverKill|INTV|BNAM:ModFight 60  ModDisposition -60  Goodbye
+
+[DUP-INF]: ID=2047716693300532824(Greeting:greeting 9)
+  |DATA|NAME:You're not welcome here. Leave Ghostgate. And leave me alone.|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=2053119133245948680(Greeting:greeting 1)
+  |DATA|ONAM:duldrar saren|DNAM:Temple|NAME:%PCRank %PCName. This is against procedures. And you know it. Get out of here. Immediately.|SCVR:01630|INTV:|BNAM:;Ministry of Truth, Prison; Temple faction; low rank  modDisposition -10
+
+[DUP-INF]: ID=2061325151857824508(Greeting:greeting 5)
+  |DATA|ONAM:ahaz|NAME:What do you want?|SCVR:01630|INTV:|BNAM:; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat;
+
+[DUP-INF]: ID=2072826962955720112(Voice:hello)
+  |DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM091.mp3|NAME:Ah, how quaint. How do you do?
+
+[DUP-INF]: ID=2175725672140518560(Greeting:greeting 5)
+  |DATA|ONAM:raesa pullia|NAME:I hear you took care of that Sixth House base in Gnaar Mok. That was quite courageous, considering the risks. I'm sorry I've no time to talk, but things are getting out of hand here, with the rumors of corprus disease and the Sleeper attacks. But any help you can give us in finding and cleaning out Sixth House bases will be greatly appreciated.|SCVR:04JX3A2_2_6thHouse|INTV:2
+
+[DUP-INF]: ID=2185917811248127545(Greeting:greeting 2)
+  |DATA|ANAM:Alen Ancestral Tomb|NAME:Yes? What do you ask of your fellow vampires?|SCVR:01600|INTV
+
+[DUP-INF]: ID=2224123934324487052(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Ahemmusa Camp|NAME:Thank you, %PCName. You have made a safe place for the Ahemmusa. Are you truly the Nerevarine? This will surely be a tale I tell to our children.|SCVR:04JX3B2_AhemmusaSafe|INTV:2|BNAM:;Ashlander, Ahemmusa Camp; Journal "A2-6_Incarnate" >= 50  modDisposition 10
+
+[DUP-INF]: ID=2242687301055330367(Greeting:greeting 9)
+  |DATA|ONAM:tonas telvani|ANAM:Tel Mora|NAME:You looking for a ship? What's your destination.
+
+[DUP-INF]: ID=2281622218365419405(Greeting:greeting 5)
+  |DATA|ONAM:miner arobar|NAME:I have given you my vote as the new Redoran Hortator. Have the other councilors agreed? Once they agree, you will be the Hortator of House Redoran. A heavy title, laden with tradition and responsibility. I trust one as dedicated to the eradication of Dagoth Ur as you shall use the title in a responsible manner.|SCVR:34JX3B5_ArobarHort|INTV:2
+
+[MOD-INF]: ID=2313625645125613883(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM122.mp3|NAME:What say you?|SCVR:01460|INTV
+  Vampire_Embrace.esp->|DATA|RNAM:Imperial|FNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM122.mp3|NAME:What say you?|SCVR:01460|INTV|SCVR:11600|INTV:|BNAM:;vampire embrace removes this line for vampires and puts it further down
+
+[MOD-INF]: ID=2318213892201018469(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV|BNAM:;PCVampirisim=0
+  Vampire_Embrace.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirisim=0 mostly jammed
+
+[MOD-INF]: ID=2318213892201018469(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV|BNAM:;PCVampirisim=0
+  Vampire_Embrace.esp->|DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirisim=0 mostly jammed
+[MOD-IID]: ID=596115032375327788
+  Vampire_Embrace.esp->Stay away, vile creature!
+
+[DUP-INF]: ID=2363817580166924727(Greeting:greeting 5)
+  |DATA|ONAM:hasphat antabolis|NAME:Good day, %PCName. So you're with Caius, eh? And Caius wants information? Of course, there's a this-for-that involved. I require a favor first, and then I'll tell you what you want to know.|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[MOD-INF]: ID=2377424419402128586(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM139.mp3|NAME:Hiss!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM139.mp3|NAME:Hiss!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+
+[MOD-INF]: ID=2377424419402128586(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM139.mp3|NAME:Hiss!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM139.mp3|NAME:Hiss!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+[MOD-IID]: ID=1525329737252657098
+  Vampire_Embrace.esp->Hiss!
+
+[DUP-INF]: ID=2389420942070422981(Greeting:greeting 5)
+  |DATA|ONAM:Blatta Hateria|NAME:Yes. I'm Blatta Hateria. Do I know you?|SCVR:04JX3A2_4_MiloGone|INTV|SCVR:11630|INTV:
+
+[DUP-INF]: ID=2404923525139765568(Greeting:greeting 5)
+  |DATA|ONAM:yakum hairshashishi|NAME:Again, hello, %PCName. Bless and be blessed.|SCVR:01363|INTV|BNAM:; Yakummu Hairshashishi; PCSpeechcraft >= 30
+
+[MOD-INF]: ID=2476368512395916288(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM139.mp3|NAME:Grrrowl!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM139.mp3|NAME:Grrrowl!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+
+[MOD-INF]: ID=2476368512395916288(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM139.mp3|NAME:Grrrowl!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM139.mp3|NAME:Grrrowl!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+[MOD-IID]: ID=3181716768283387735
+  Vampire_Embrace.esp->Grrrowl!
+
+[MOD-INF]: ID=2489211522149417613(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF139.mp3|NAME:Growls|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF139.mp3|NAME:Growls|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+
+[MOD-INF]: ID=2489211522149417613(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF139.mp3|NAME:Growls|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF139.mp3|NAME:Growls|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+[MOD-IID]: ID=207916285810012457
+  Vampire_Embrace.esp->Growls
+
+[DUP-INF]: ID=2491126694294169065(Greeting:greeting 5)
+  |DATA|ONAM:han-ammu|NAME:No matter what Manirai says, I'm not interested. I don't want to be ashkhan.|SCVR:04JX3B4_KillWarLovers|INTV: |BNAM:; Han-Ammu; Journal "B4_KillWarLovers" >= 10
+
+[DUP-INF]: ID=2507632029393927903(Greeting:greeting 5)
+  |DATA|ONAM:huleeya|NAME:I welcome you as the friend of my friend, %PCName. But I wish to go to my friend's bookstore, and these troublesome fools are in my way. I have tried to persuade them, but they hate my race, and I fear there will be violence. Perhaps if you speak with them... but be careful... and be ready.|SCVR:01630|INTV:|SCVR:34JX3A1_V_VivecInformants|INTV
+
+[DUP-INF]: ID=2528519293960621012(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|ANAM:Ilunibi, Blackened Heart|NAME:The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagoth, and his judgement is death. Flee, and hide, or die where you stand.
+
+[DUP-INF]: ID=2562167361630629356(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Ahemmusa Camp|NAME:You are %PCName. We have heard some say you are the Nerevarine. What do you want of me?|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Ashlander, Ahemmusa Camp; Journal "A2-6_Incarnate" >= 50
+
+[DUP-INF]: ID=2563124390332828005(Greeting:greeting 5)
+  |DATA|ONAM:lloros sarano|NAME:Yes, Athyn Sarethi said to expect someone. What can I do for you?|SCVR:34JX3HR_ClearSarethi|INTV|SCVR:44JX4HR_ClearSarethi|INTV:d
+
+[DUP-INF]: ID=2572521291321832207(Greeting:greeting 5)
+  |DATA|ONAM:caius cosades|NAME:What? Yes. I'm Caius Cosades. But, what do you mean, you were told to "Report to Caius Cosades"? What are you talking about?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=2591715015202587515(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:We have you in our discerning eye, %PCName. We see you, waking and sleeping.|SCVR:01630|INTV:|BNAM:;Dreamers; default Dreamer dialog; covers Dreamer_Talker01 to Dreamer_Talker12; Talked to PC = 0  modDisposition -10
+
+[DUP-INF]: ID=2597380991358415279(Voice:hello)
+  |DATA|RNAM:Nord|SNAM:vo\n\f\Hlo_NF090.mp3|NAME:You've got the better of me. So go ahead.|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=2631114875203049929(Voice:hello)
+  |DATA|RNAM:Orc|SNAM:vo\o\f\Hlo_OF091.mp3|NAME:Friend.
+
+[MOD-INF]: ID=2642276521407631585(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:; mostly jammed
+
+[MOD-INF]: ID=2642276521407631585(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|RNAM:Imperial|SNAM:Vo\i\m\Hlo_IM013.mp3|NAME:Stay away, vile creature!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:; mostly jammed
+[MOD-IID]: ID=596115032375327788
+  Vampire_Embrace.esp->Stay away, vile creature!
+
+[DUP-INF]: ID=2650544232772812656(Voice:hello)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM089.mp3|NAME:What is it? What do you want?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=2703342912853525831(Greeting:greeting 5)
+  |DATA|ONAM:zabamund|NAME:Welcome, %PCName. They say your words and deeds have pleased our chief and wise woman.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-|SCVR:11630|INTV:
+
+[DUP-INF]: ID=2711927743097530568(Greeting:greeting 5)
+  |DATA|ONAM:addhiranirr|NAME:Great. So Caius says to you, "Speak with Addhiranirr." And you have done this thing. You are speaking with Addhiranirr. But Addhiranirr will not talk to you about the Nerevarine or the Sixth House cult, and because why? Because Addhiranirr is, at this moment, very distracted by a nice Census and Excise agent, who also wants to speak with her.|SCVR:04JX3A1_V_VivecInformants|INTV|SCVR:11630|INTV:
+
+[DUP-INF]: ID=2718223277727823763(Greeting:greeting 1)
+  |DATA|ONAM:forstaag the sweltering|NAME:What're you looking at? No, I'm not paralyzed. And I've never even met a witch, much less been asked to escort one anywhere. Why am I naked? Because it's too damned hot here! You people think that every time you see a naked Nord barbarian, he's been tricked by some witch. So narrow minded. Now leave me alone.|SCVR:01630|INTV:|BNAM:Goodbye
+
+[DUP-INF]: ID=2720923242218723111(Greeting:greeting 1)
+  |DATA|ONAM:forstaag the sweltering|NAME:Look, I don't know what's going on in this place. Monsters bursting up from the ground, guards running around everywhere...this is lunacy. You'll notice I'm not blaming this on any witch. And it's still too hot around here.|SCVR:04JX2TR_MHAttack|INTV:|BNAM:Goodbye
+
+[DUP-INF]: ID=2807617681879228487(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Ahemmusa Camp|NAME:What do you want, outlander?|BNAM:;Ashlander, Ahemmusa Camp
+
+[DUP-INF]: ID=2814817381737017174(Voice:hello)
+  |DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM091.mp3|NAME:Ho, outlander! What's your pleasure?
+
+[DUP-INF]: ID=2819329572163369535(Greeting:greeting 7)
+  |DATA|ONAM:angaredhel|NAME:Yes. As Prefect of Hospitality here at the Gateway Inn, I'd be happy to tell you about my trade, or provide you with Hospitality Papers. I also may have work, if you are interested.|BNAM:;Angaredhel
+
+[DUP-INF]: ID=2826620668787213075(Greeting:greeting 1)
+  |DATA|ONAM:dremora_ttpc|NAME:Are you here on the pilgrimage? Read the shrine.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=2837032763102489091(Greeting:greeting 1)
+  |DATA|ONAM:athellor|NAME:Hello, %PCName.  I was just going over my notes.  I'm here on Solstheim doing some research, you see.|SCVR:04JX0BM_Falmer|INTV:|SCVR:11630|INTV
+
+[DUP-INF]: ID=2849015945193005033(Greeting:greeting 5)
+  |DATA|ONAM:sul-matuul|NAME:So, outlander. Have you completed the initiation rite?|SCVR:04JX3A2_1_MeetSulMatuul|INTV:(|BNAM:;Sul-Matuul; Journal "A2_1_Meet Sul-Matuul" >= 40
+
+[DUP-INF]: ID=2884229482104949921(Greeting:greeting 5)
+  |DATA|ONAM:urven davor|NAME:Get out of our way, n'wah. We got issues with this filthy lizard here.|SCVR:01630|INTV:|SCVR:34JX3A1_V_VivecInformants|INTV|SCVR:44JX1A1_7HuleeyaInformant|INTV
+
+[MOD-INF]: ID=2946213762062124311(Greeting:greeting 2)
+  morrowind.esm------->|DATA|FNAM:Mages Guild|ANAM:Vivec, Guild of Mages|NAME:Your kind is not welcome here, vampire. I have nothing I wish to say to you. Speak with Sirilonwe. She seems to have an affinity for your kind.|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|FNAM:Mages Guild|ANAM:Vivec, Guild of Mages|NAME:Your kind is not welcome here, vampire. I have nothing I wish to say to you. Speak with Sirilonwe. She seems to have an affinity for your kind.|SCVR:01600|INTV|SCVR:11600|INTV:
+
+[DUP-INF]: ID=2985215919722719492(Greeting:greeting 5)
+  |DATA|ONAM:ilmeni dren|NAME:I am Ilmeni Dren, daughter of Duke Vedam Dren. Who are you and what are you doing here?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=3001126602706019944(Persuasion:admire success)
+  |DATA|ONAM:ghost_npc_hort_ledd|NAME:You do right to honor the ancestors.
+
+[DUP-INF]: ID=3003942961690720962(Greeting:greeting 5)
+  |DATA|ONAM:therana|NAME:What are you here for? Are you here to feed the spiders?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=3008726277134747963(Greeting:greeting 5)
+  |DATA|NAME:Yes, I will name you the Hlaalu Hortator. Anything else you need?|SCVR:34JX3B6_BeroHort|INTV:2
+
+[DUP-INF]: ID=3038427842789421995(Greeting:greeting 1)
+  |DATA|ONAM:drores arvel|NAME:You're just here to loot the shrine, right? That's fine with us. Just be careful. Leave us alone, and we'll leave you alone.|SCVR:04JX3B2_AhemmusaSafe|INTV:#|SCVR:11630|INTV:|BNAM:;10 Elite Ordinators; unique IDs; Journal "B2_AhemmusaSafe" >=  35;
+
+[DUP-INF]: ID=3047611520114989383(Greeting:greeting 9)
+  |DATA|NAME:I won't be happy until you're out of Molag Mar. Now leave me alone.|SCVR:02sX4Random100|INTV:2
+
+[MOD-INF]: ID=3094622436303981390(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Nord|SNAM:Vo\n\f\Hlo_NF138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|RNAM:Nord|SNAM:Vo\n\f\Hlo_NF138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:; mostly jammed
+
+[MOD-INF]: ID=3094622436303981390(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Nord|SNAM:Vo\n\f\Hlo_NF138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|RNAM:Nord|SNAM:Vo\n\f\Hlo_NF138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:; mostly jammed
+[MOD-IID]: IDs=814320070207220427,1021126869607710438
+  Vampire_Embrace.esp->Die creature! Be gone with you!
+
+[DUP-INF]: ID=3096117003171108600(Greeting:greeting 1)
+  |DATA|ONAM:Tienius Delitian|NAME:I have heard about the attack on the city, and I've dispatched guards to take care of it. Thank you for your report. You can help in another way. I'd like you to investigate the disturbance.|SCVR:04JX3TR_MHAttack|INTV|BNAM:Journal TR_MHAttack 110
+
+[DUP-INF]: ID=3102211841251412778(Greeting:greeting 5)
+  |DATA|ONAM:raven omayn|NAME:I am Raven Omayn, Mouth of Mistress Dratha.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=3109819437275595223(Greeting:greeting 1)
+  |DATA|NAME
+
+[DUP-INF]: ID=3129422684258721217(Greeting:greeting 5)
+  |DATA|ONAM:kaushad|NAME:Welcome, outlander. The hospitality of the open-handed Zainab is always open to travelers.|SCVR:01630|INTV:|BNAM:;Ashkhan Kaushad
+
+[DUP-INF]: ID=3145369531827619261(Greeting:greeting 5)
+  |DATA|ONAM:hasphat antabolis|NAME:Good day, %PCName. I am %Name, Drillmaster for the Balmora Fighters Guild. So you're with Caius, eh? And Caius wants some information? I'd be happy to help... though I will require a favor first. Then I'll tell you what you want to know.|SCVR:01630|INTV:|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[DUP-INF]: ID=3167691372118632605(Greeting:greeting 1)
+  |DATA|ONAM:urvel dulni|NAME:You have killed the Profane? Please take me to the Shrine of the Dead.|SCVR:04JX0TR_ShrineDead|INTV:2|SCVR:13sX0lichDead|INTV|SCVR:23sX0shrineDone|INTV:|SCVR:33sX0approach|INTV:|BNAM:AiFollow Player 0 0 0 0 0 0
+
+[DUP-INF]: ID=3191328967316937592(Voice:hello)
+  |DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM090.mp3|NAME:How do you do?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=3228922662932520518(Voice:hello)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\m\Hlo_KM089.mp3|NAME:Muthsera?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=3242335283047830010(Greeting:greeting 5)
+  |DATA|ONAM:brara morvayn|NAME:Have the other councilors seen the wisdom of naming you the Redoran Hortator?|SCVR:34JX3B5_MorvaynHort|INTV:2
+
+[DUP-INF]: ID=3540218622240031833(Greeting:greeting 9)
+  |DATA|ONAM:sedyni veran|ANAM:Vos|NAME:You looking for a ship? What's your destination.
+
+[DUP-INF]: ID=3667256551761315932(Greeting:greeting 5)
+  |DATA|ONAM:manirai|NAME:I am %Name, wise woman of the Erabenimsun. Do you need my services? Or do you seek my counsel?|SCVR:01630|INTV:|BNAM:; Manirai
+
+[DUP-INF]: ID=3920186732213331935(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Zainab Camp|NAME:Welcome, %PCName, Zainab Nerevarine. We have heard our chief does you great honor. How can I help you?|SCVR:04JX3B3_ZainabBride|INTV:2|SCVR:11630|INTV:
+
+[MOD-INF]: ID=3966147732453723548(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+
+[MOD-INF]: ID=3966147732453723548(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+[MOD-IID]: IDs=11205236922635631230,902623985655615818
+  Vampire_Embrace.esp->Foul beast! Away with you!
+
+[MOD-INF]: ID=4023266701722626284(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Breton|SNAM:Vo\b\m\Hlo_BM138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|RNAM:Breton|SNAM:Vo\b\m\Hlo_BM138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:; mostly jammed
+
+[MOD-INF]: ID=4023266701722626284(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Breton|SNAM:Vo\b\m\Hlo_BM138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|RNAM:Breton|SNAM:Vo\b\m\Hlo_BM138.mp3|NAME:Arrh! A vampire. Go away!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:; mostly jammed
+[MOD-IID]: IDs=10475195192091220495,79882391637293537
+  Vampire_Embrace.esp->Arrh! A vampire. Go away!
+
+[DUP-INF]: ID=4061238112477130614(Persuasion:bribe fail)
+  |DATA|ONAM:ghost_npc_erur-dan|NAME:What use does a spirit have for gold?
+
+[DUP-INF]: ID=4066320433222611312(Greeting:greeting 5)
+  |DATA|ONAM:ethys savil|NAME:I'm not interested, fetcher.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=4098239672919916423(Voice:hello)
+  |DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF090.mp3|NAME:How do you do?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=4200219113125422938(Greeting:greeting 9)
+  |DATA|NAME:You have come a long and dangerous way to this citadel, %PCName. My name is %Name. Tell me if you are looking for someone in particular, for services, or for a specific place. Are you on pilgrimage here?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:!
+
+[DUP-INF]: ID=4306306542513127964(Greeting:greeting 5)
+  |DATA|ONAM:edryno arethi|NAME:No, %PCName, I don't believe we've met. My name is Edryno Arethi. I don't have any official title, but I handle House Hlaalu's business here in Vivec.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=4307194181705211875(Greeting:greeting 5)
+  |DATA|ONAM:raesa pullia|NAME:Hello, %PCName. Did you want to talk some more about the Sixth House base in near Gnaar Mok?|SCVR:04JX3A2_2_6thHouse|INTV
+
+[DUP-INF]: ID=4481246121360912366(Greeting:greeting 5)
+  |DATA|ONAM:arara uvulas|NAME:I am Arara Uvulas, the Mouth of Master Neloth.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=4835198351253728367(Voice:hello)
+  |DATA|RNAM:Wood Elf|SNAM:vo\w\f\Hlo_WF091.mp3|NAME:What can I do for you?
+
+[DUP-INF]: ID=4958280531226430750(Greeting:greeting 5)
+  |DATA|ONAM:theldyn virith|NAME:Yes, I'm Theldyn Virith. Sort of the Hetman of Ald Velothi.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=5163206891718830094(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Urshilaku Camp|NAME:You come to talk? Then talk, outlander.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=5395205471775528352(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Zainab Camp|NAME:Are you lost, outlander? Do you need a healer? Or a trader?|SCVR:01630|INTV:|SCVR:11380|INTV
+
+[DUP-INF]: ID=5557242962585911103(Greeting:greeting 9)
+  |DATA|ANAM:Suran|NAME:Oh. What do you want now? Are you looking for a specific place here in Suran?|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=5694209881436330373(Greeting:greeting 5)
+  |DATA|NAME:You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:|BNAM:; Ulath-Pal; Journal "A2_6_Incarnate" >= 30
+
+[DUP-INF]: ID=5771177583195019928(Greeting:greeting 9)
+  |DATA|NAME:This fishing village is called Dagon Fel. I imagine you're up here looking for Dwemer ruins. But that's none of my business. What did you want to ask me?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[MOD-INF]: ID=5870165602334122257(Voice:hello)
+  bloodmoon.esm------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM116.mp3|NAME:Keep moving.|SCVR:02sX5Random100|INTV: 
+  Vampire_Embrace.esp->|DATA|RNAM:Imperial|FNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM116.mp3|NAME:Keep moving.
+
+[DUP-INF]: ID=5943235152368016563(Greeting:greeting 5)
+  |DATA|ONAM:galos mathendis|DNAM:Telvanni|NAME:Have you delivered the coded message to Divayth Fyr?|SCVR:34JX3HT_FyrMessage|INTV: |SCVR:44JX4HT_FyrMessage|INTV:d
+
+[DUP-INF]: ID=6916295372987327138(Greeting:greeting 1)
+  |DATA|ONAM:lustidrike|NAME:Back already? Well, go ahead, drink up. It's free.|SCVR:01630|INTV
+
+[DUP-INF]: ID=6982233912908919046(Greeting:greeting 5)
+  |DATA|ONAM:dratha|NAME:What is this man doing here? Is it lost?|SCVR:01440|INTV:|SCVR:11630|INTV:|BNAM:ModDisposition -25
+
+[MOD-INF]: ID=7334200891708420609(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+
+[MOD-INF]: ID=7334200891708420609(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Nord|SNAM:vo\n\m\Hlo_NM138.mp3|NAME:Die creature! Be gone with you!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+[MOD-IID]: IDs=814320070207220427,1021126869607710438
+  Vampire_Embrace.esp->Die creature! Be gone with you!
+
+[DUP-INF]: ID=7352324362800630450(Greeting:greeting 5)
+  |DATA|ONAM:mallam ryon|NAME:I am Mallam Ryon, the Mouth of Archmagister Gothren.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=7549132101964414265(Greeting:greeting 1)
+  |DATA|NAME:Greetings %PCName. I've been wanting to speak with you. I understand you've been performing some duties for Tienius, and you've done well. I believe there are other matters you should investigate as well.|SCVR:04JX3TR09_Journalist|INTV:d
+
+[MOD-INF]: ID=7643304071333010596(Persuasion:service refusal)
+  morrowind.esm------->|DATA|FNAM:Telvanni|NAME:I will speak to you, vampire, but will not serve you. Find someone else to provide these services.|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|FNAM:Telvanni|NAME:I will speak to you, vampire, but I do not trust you enough to serve you. Find someone else to provide these services.|SCVR:01600|INTV|SCVR:12sX0emb_current_oktotalk|INTV|SCVR:22sX3emb_option_npchate|INTV
+
+[DUP-INF]: ID=8685108082063114644(Greeting:greeting 5)
+  |DATA|ONAM:nibani maesa|NAME:Go ahead. Do you have questions about the Nerevarine prophecies? Or other questions to ask me? Or do you bring me news of the lost prophecies?|SCVR:04JX3A2_1_MeetSulMatuul|INTV:<|BNAM:;Nibani Maesa ;Journal "A2_1_Meet Sul-Matuul" 60
+
+[DUP-INF]: ID=8878236263171228410(Greeting:greeting 5)
+  |DATA|ONAM:edryno arethi|DNAM:Hlaalu|NAME:Did you deliver the sealed report as I asked?|SCVR:34JX3HH_BankCourier|INTV: |SCVR:44JX4HH_BankCourier|INTV:d
+
+[DUP-INF]: ID=9240273352055117689(Greeting:greeting 2)
+  |DATA|NAME:Though I find your kind abhorrent, you can serve a purpose for me. I wish to have someone killed.|SCVR:01600|INTV|SCVR:14JX0VA_Shashev|INTV:
+
+[DUP-INF]: ID=9287280852144018976(Greeting:greeting 1)
+  |DATA|ONAM:sondaale of shimmerene|NAME:Thank you for your help, %PCName. It looked to me like the place was safe.|SCVR:04JX0FG_Telasero|INTV:F|BNAM:Journal FG_Telasero 75
+
+[DUP-INF]: ID=10318106252652828772(Greeting:greeting 9)
+  |DATA|ANAM:Caldera|NAME:This is Caldera, home of the Caldera Mining Company. Caldera is all about business, and business is good. So, what can I do for you?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=10394317911557517496(Greeting:greeting 5)
+  |DATA|ONAM:odral helvi|NAME:My name's Odral Helvi. I help keep the mines running and make sure business goes smoothly.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=10468327633251929353(Greeting:greeting 2)
+  morrowind.esm------->|DATA|ANAM:Sarethi Ancestral Tomb|NAME:Yes? What do you ask of your fellow vampires?|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|ANAM:Sarethi Ancestral Tomb|NAME:Yes? What do you ask of your fellow vampires?|SCVR:01600|INTV|BNAM:;vampire embrace touches this line to support the wakim lines as they are added lines
+
+[DUP-INF]: ID=10508252262594319629(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Zainab Camp|NAME:Come closer. Let me see you. Yes. I think it is you. The one they talk about. The outlander who claims he fulfills the Nerevarine prophecies. You should talk to Ashkhan Kaushad.|SCVR:04JX3A2_6_Incarnate|INTV:2|SCVR:11630|INTV:
+
+[DUP-INF]: ID=11397209781241726043(Greeting:greeting 5)
+  |DATA|ONAM:trebonius artorius|DNAM:Mages Guild|NAME:Are you here to challenge my position in the Guild? Do you think you have what it takes to be the Arch-Mage?|SCVR:34JX3MG_Bethamez|INTV:d
+
+[DUP-INF]: ID=11444182372533429208(Greeting:greeting 5)
+  |DATA|ONAM:hasphat antabolis|NAME:So. Caius sent you? If you want something from me, I require a favor first, or forget it.|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[DUP-INF]: ID=11497157872711117323(Greeting:greeting 5)
+  |DATA|ONAM:ilmeni dren|NAME:Yes, it's a shame so many people cannot read.|SCVR:06DX0vala catraso|INTV:|SCVR:34JX3HH_LiteracyCampaign|INTV: |SCVR:44JX4HH_LiteracyCampaign|INTV:d
+
+[MOD-INF]: ID=11657146863060720256(:greeting 2)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|NAME:No! A vampire! Get away, you foul creature!|SCVR:01603|INTV|BNAM:;default DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50
+  Vampire_Embrace.esp->|NAME:No! A vampire! Get away, you foul creature!|DELE:
+
+[DUP-INF]: ID=11737170761437830831(Greeting:greeting 5)
+  |DATA|ONAM:neminda|DNAM:Redoran|NAME:Have you taken care of those hostile mudcrabs?|SCVR:34JX3HR_MudcrabNest|INTV: |SCVR:44JX4HR_MudcrabNest|INTV:d
+
+[DUP-INF]: ID=12452206762580911498(Greeting:greeting 5)
+  |DATA|ONAM:sharn gra-muzgob|NAME:No. No interruptions! How many times.... Oh. You are one of Caius' associates? That is a different matter. Caius and I have a very satisfactory arrangement, and I'm sure we can come to some sort of agreement, if you will complete a little errand for me.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+
+[DUP-INF]: ID=12478231461270728630(Greeting:greeting 9)
+  |DATA|NAME:Pleased to meet you, %PCName. I'm %name. This is your first visit to Molag Mar? I don't believe we spoken before. Is there anything I can do for you?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=12581206142828217536(Greeting:greeting 5)
+  |DATA|ONAM:crassius curio|NAME:I'm so glad to see you again, %PCName.|SCVR:01630|INTV
+
+[DUP-INF]: ID=12815140581303027076(Greeting:greeting 5)
+  |DATA|ONAM:favel gobor|NAME:All right. All right. Who gives a damn about a filthy lizard, anyway. Get out of here. We won't bother you.|SCVR:01630|INTV:|SCVR:34JX3A1_7HuleeyaInformant|INTV
+
+[DUP-INF]: ID=12930289901453217560(Persuasion:service refusal)
+  |DATA|ONAM:Blatta Hateria|NAME:I'm sorry. There must be some mistake. I'm a fisherwoman -- not a gondolier.|SCVR:04JX4A2_4_Milo_hola_go|INTV
+
+[DUP-INF]: ID=13115294342853530708(Greeting:greeting 5)
+  |DATA|ONAM:lloros sarano|DNAM:Temple|NAME:I am Lloros Sarano, a priest of the Temple here in Ald'ruhn and a member of House Redoran. If you need the services of a priest, speak with Methal Seran.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=13123135203127018107(Greeting:greeting 9)
+  |DATA|ONAM:folsi thendas|ANAM:Suran|NAME:You looking for a silt strider? What's your destination?
+
+[DUP-INF]: ID=13233177591496319647(Greeting:greeting 9)
+  |DATA|ONAM:gals arethi|ANAM:Sadrith Mora|NAME:You looking for a ship? What's your destination.
+
+[DUP-INF]: ID=13461100581785211428(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Zainab Camp|NAME:How can I help you, Nerevarine?|SCVR:04JX3B3_ZainabBride|INTV:2
+
+[DUP-INF]: ID=14079270012085922169(Greeting:greeting 5)
+  |DATA|ONAM:dratha|NAME:Are you the new serving girl? No? Who are you, then?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=14286161623040930788(Greeting:greeting 9)
+  |DATA|ONAM:navam veran|ANAM:Ald-ruhn|NAME:Need a silt strider? What's your destination?
+
+[DUP-INF]: ID=14547233552417125516(Greeting:greeting 9)
+  |DATA|ONAM:folsi thendas|ANAM:Suran|NAME:This is the silt strider port for the town of Suran, outlander, in the Ascadian Isles region. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Suran, I can help you with local services, or any specific place in Suran you're looking for. Or if you want someone in particular, maybe I know where to look.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=14710259313035928779(Greeting:greeting 5)
+  |DATA|ONAM:galos mathendis|NAME:I am Galos Mathendis, the Mouth of Master Aryon.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=15530263941652121194(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:We see you, false one. Your flesh will feed us all.|SCVR:04JX3A2_3_CorprusCure|INTV|BNAM:;ash wight [ash zombie 10]  modDisposition -10
+
+[DUP-INF]: ID=15594326291793119524(Greeting:greeting 5)
+  |DATA|ONAM:caius cosades|NAME:Are you ready to join the Blades, and follow my orders, %PCName?|SCVR:34JX0A1_1_FindSpymaster|INTV
+
+[DUP-INF]: ID=15646302862756117954(Greeting:greeting 9)
+  |DATA|ONAM:selvil sareloth|ANAM:Balmora|NAME:You looking for a silt strider? What's your destination?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=15928128981757010065(Greeting:greeting 9)
+  |DATA|ONAM:baleni salavel|ANAM:Hla Oad|NAME:You looking for a ship? What's your destination.
+
+[DUP-INF]: ID=16436118122580231910(Greeting:greeting 5)
+  |DATA|ONAM:manirai|NAME:Yes, outlander? Do you need my services? Or do you seek my counsel?|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Manirai; Journal "A2_6_Incarnate" >= 50
+
+[DUP-INF]: ID=16505142141215915016(Greeting:greeting 1)
+  |DATA|NAME:My name is Delte Fyr. Did you want to see Divayth Fyr? Have you got corprus disease? Or are you another questing hero looking to plunder the dungeon?|SCVR:01630|INTV
+
+[DUP-INF]: ID=16538300371313719685(Greeting:greeting 1)
+  |DATA|ONAM:falura llervu|NAME:Yes, %PCName. We travel together to Zainab camp. When we arrive there, we will speak further about my new bridegroom.|SCVR:04JX3B3_ZainabBride|INTV:-|SCVR:14JX4B3_ZainabBride|INTV:/|SCVR:23sX0followNow|INTV|BNAM:; Falura Llervu; Journal "B3_ZainabBride" >= 45; Journal "B3_ZainabBride" < 47 ; followNow = 1
+
+[MOD-INF]: ID=16554129362829529645(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|SCVR:22sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+
+[MOD-INF]: ID=16554129362829529645(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM233.mp3|NAME:I curse you, vampire! Away!|SCVR:01600|INTV|SCVR:22sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+[MOD-IID]: IDs=29154264782210732673,123313985266976581,185042256382485147,137661803180433662,266705714394613549,253376166155905445,1343854121641327160
+  Vampire_Embrace.esp->I curse you, vampire! Away!
+
+[DUP-INF]: ID=17177102673117730664(Greeting:greeting 1)
+  |DATA|CNAM:Witch|ANAM:Ald Daedroth|NAME:Come on. Get into the spirit of things. You want to tumble?|BNAM:;5 Witches and warlocks;
+
+[DUP-INF]: ID=17242203252219719904(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Erabenimsun Camp|NAME:So, %PCName. You are called Nerevarine, and Han-Ammu is now our ashkhan. Many changes. Many changes.|SCVR:04JX3B4_KillWarLovers|INTV:2|SCVR:11630|INTV:|BNAM:;Ashlander, Erabenimsun Camp; Journal "B4_KillWarLovers" >= 50
+
+[DUP-INF]: ID=17479182661536316494(Greeting:greeting 9)
+  |DATA|ANAM:Suran|NAME:No trouble at all, %PCName. I'm not busy at the moment? What can I tell you about Suran?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=17629275802324325528(Greeting:greeting 1)
+  |DATA|ONAM:Tienius Delitian|NAME:I'm the captain of King Helseth's Royal Guards. Is this an official matter? Or is there something else you want?|SCVR:01630|INTV:|SCVR:14JX3TR_DBHunt|INTV:d
+
+[DUP-INF]: ID=17990159392679132522(Greeting:greeting 5)
+  |DATA|ONAM:senilias cadiusus|NAME:I'm Senilias Cadiusus and this is my daughter, Pania. We are excavating these Dwemer ruins. Oh, I see you have a letter from Hasphat Antabolis. And you come recommended. Splendid. Perhaps you could help us out. Our native guide, Anes Vendu, is missing.|SCVR:05IX2bk_a1_2_introtocadiusus|INTV:|BNAM:player->removeitem bk_a1_2_introtocadiusus 1
+
+[DUP-INF]: ID=18116283481293817355(Greeting:greeting 1)
+  |DATA|ONAM:grand inquisitor|DNAM:Temple|NAME:%PCRank %PCName. You are not allowed in here. You must leave. Immediately. And without hesitation. If you do not leave immediately, peacefully, we will use force, and I will not be responsible for your safety.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=18432257622490827473(Greeting:greeting 9)
+  |DATA|ONAM:sedyni veran|ANAM:Vos|NAME:These are the docks of Vos, outlander. And I'm %Name, shipmaster of Vos, at your service. What's your destination? And, if you're new to Vos, I can tell you about the local services, or point you to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=18715159651679613961(Greeting:greeting 5)
+  |DATA|ONAM:ethys savil|NAME:Go ahead. Keep talking. And I'm gonna pop your head off, and feed it to the filthy lizard.|SCVR:34JX3A1_V_VivecInformants|INTV|BNAM:modDisposition -10
+
+[DUP-INF]: ID=18927327222771928392(Greeting:greeting 5)
+  |DATA|ONAM:sonummu zabamat|NAME:I am %Name, wise woman of the Zainab. Do you come for my services, or my counsel?|SCVR:01630|INTV:|BNAM:;Sonummu Zabamat
+
+[DUP-INF]: ID=18932326882364313668(Voice:hello)
+  |DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF090.mp3|NAME:So, what's this about?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=19102116363023525010(Greeting:greeting 5)
+  |DATA|ONAM:beden giladren|NAME:You paid my ransom? Thank you, %PCName. I'll continue on the pilgrimages on my own.|SCVR:34JX3HR_FindGiladren|INTV:F|BNAM:Journal HR_FindGiladren 90
+
+[DUP-INF]: ID=19729146972287111305(Greeting:greeting 5)
+  |DATA|ONAM:nibani maesa|NAME:You are in the wrong place, outlander. Leave, now.|SCVR:11630|INTV:
+
+[DUP-INF]: ID=20477187121632824978(Greeting:greeting 5)
+  |DATA|ONAM:yakum hairshashishi|NAME:Ah. You understand me a bit, yes? Hello, %PCName. Yakum greet you. Bless and be blessed. Speak Old Elf, yes, so Yakum learn. You know Ashlanders, yes, a little. Yakum is Ashlander.|SCVR:01363|INTV|SCVR:11630|INTV:|BNAM:; Yakummu Hairshashishi; PCSpeechcraft >= 30  ModDisposition 20
+
+[DUP-INF]: ID=20560205602327720443(Greeting:greeting 6)
+  |DATA|FNAM:Ashlanders|ANAM:Erabenimsun Camp|NAME:How can I help you, Nerevarine?|SCVR:04JX3B4_KillWarLovers|INTV:2|BNAM:;Ashlander, Erabenimsun Camp; Journal "B4_KillWarLovers" >= 50
+
+[DUP-INF]: ID=20602299861239310587(Greeting:greeting 5)
+  |DATA|ONAM:zabamund|NAME:You have killed the ashkhan Sul-Matuul. There can be no forgiveness. Leave. I have no more words for you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV|SCVR:16DX3sul-matuul|INTV|BNAM:SetDisposition 0  Goodbye
+
+[DUP-INF]: ID=21081215651840014044(Greeting:greeting 1)
+  |DATA|NAME
+
+[DUP-INF]: ID=21299202901721431424(Greeting:greeting 5)
+  |DATA|ONAM:ethys savil|NAME:Hey, look. It's none of my business. Folks want to talk to a filthy lizard, it's their problem, not mine. Got out of here. And good riddance.|SCVR:01630|INTV:|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:Journal, "A1_7HuleeyaInformant", 15
+
+[DUP-INF]: ID=21303172802354119425(Greeting:greeting 1)
+  |DATA|ONAM:dagoth uthol|NAME:He said you would come to us. And he was right. Have you come to submit? Or come to die?|SCVR:01630|INTV:|BNAM:; Dagoth Uthol; Kogoruhn;   SetFight 100
+
+[DUP-INF]: ID=21523189183271824257(Greeting:greeting 9)
+  |DATA|ONAM:Adondasi Sadalvel|ANAM:Vivec|NAME:You looking for a silt strider? What's your destination?
+
+[DUP-INF]: ID=21531321153204616283(Greeting:greeting 5)
+  |DATA|ONAM:dratha|NAME:Yes, I've given you my vote as Hortator, %PCName. I just wish I could see Berel Sala's face right now.|SCVR:34JX3B7_DrathaHort|INTV:2
+
+[MOD-INF]: ID=21611123811637528820(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM138.mp3|NAME:Unholy beast! Go away!|SCVR:02sX3Random100|INTV:2|SCVR:11600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM138.mp3|NAME:Unholy beast! Go away!|SCVR:02sX3Random100|INTV:2|SCVR:11600|INTV|SCVR:22sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+
+[MOD-INF]: ID=21611123811637528820(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM138.mp3|NAME:Unholy beast! Go away!|SCVR:02sX3Random100|INTV:2|SCVR:11600|INTV|BNAM:;PCVampirism=0
+  Vampire_Embrace.esp->|DATA|RNAM:Orc|SNAM:vo\o\m\Hlo_OM138.mp3|NAME:Unholy beast! Go away!|SCVR:02sX3Random100|INTV:2|SCVR:11600|INTV|SCVR:22sX3emb_option_npchate|INTV|BNAM:;PCVampirism=0 mostly jammed
+[MOD-IID]: IDs=14857325332838123697,82361072737319742
+  Vampire_Embrace.esp->Unholy beast! Go away!
+
+[DUP-INF]: ID=21654267391564210808(Greeting:greeting 9)
+  |DATA|ONAM|NAME:You looking for a silt strider? What's your destination?
+
+[MOD-INF]: ID=22015221492038513043(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM138.mp3|NAME:You don't want to kill me do you?|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM138.mp3|NAME:You don't want to kill me do you?|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+
+[MOD-INF]: ID=22015221492038513043(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM138.mp3|NAME:You don't want to kill me do you?|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM138.mp3|NAME:You don't want to kill me do you?|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+[MOD-IID]: ID=28332240011885510687
+  Vampire_Embrace.esp->You don't want to kill me do you?
+
+[DUP-INF]: ID=22068175162253113046(Voice:hello)
+  |DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF090.mp3|NAME:Do you need something?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=22112111712176419568(Greeting:greeting 1)
+  |DATA|ONAM:dagoth_ur_1|NAME:It began here. It will end here. Have you any parting words? Or would you prefer to skip the speeches, and get to our business. You are the challenger here, after all. So to you goes the courtesy of the first blow.|SCVR:05IX3wraithguard|INTV|SCVR:15IX3sunder|INTV|SCVR:25IX3keening|INTV|SCVR:31630|INTV:|BNAM:;Dagoth Ur; has tools
+
+[MOD-INF]: ID=22154188692129820500(:greeting 2)
+  morrowind.esm------->|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   ModFight 50  Goodbye
+  Vampire_Embrace.esp->|NAME:I don't fear you, vampire. Begone, fiend.|DELE:
+
+[DUP-INF]: ID=22405317832522917109(Greeting:greeting 5)
+  |DATA|ONAM:nibani maesa|NAME:Will you say you are deaf? Or stupid? Or rude? How do you explain? I have told you. You are in the wrong place. I told you to leave. But you are still here.|SCVR:01630|INTV
+
+[DUP-INF]: ID=22698175063203614444(Greeting:greeting 9)
+  |DATA|ONAM:daras aryon|ANAM:Maar Gan|NAME:You looking for a silt strider? What's your destination?
+
+[DUP-INF]: ID=22779152851576519316(Greeting:greeting 9)
+  |DATA|ANAM:Tel Mora|NAME:Welcome to Tel Mora, %PCName. How can I help you?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=23129198811734921042(Greeting:greeting 5)
+  |DATA|ONAM:crassius curio|DNAM:Hlaalu|NAME:You want me to be your sponsor in House Hlaalu? I thought you'd never ask... But first, I want to see who I'm dealing with. Show Uncle Crassius what you have to offer. That's right, don't be shy.|SCVR:44JX4HH_Crassius|INTV:d|BNAM:Journal HH_Crassius 10  Goodbye
+
+[DUP-INF]: ID=23378247291473821421(Persuasion:bribe fail)
+  |DATA|ONAM:ghost_npc_hort_ledd|NAME:What use does a spirit have for gold?
+
+[DUP-INF]: ID=23526119671435830903(Voice:hello)
+  |DATA|RNAM:Imperial|SNAM:Vo\i\f\Hlo_IF146.mp3|NAME:Tidings, citizen.
+
+[DUP-INF]: ID=23705327382736827955(Greeting:greeting 5)
+  |DATA|ONAM:beden giladren|NAME:Hey! %PCRace! I'm Beden Giladren, a poor pilgrim trapped by these ashlanders. Can you get me out of here? These ashlanders are holding me for ransom.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=24419209563106118453(Greeting:greeting 9)
+  |DATA|ANAM:Hla Oad|NAME:Get out of Hla Oad. I don't like you, and I don't like you bothering me or my friends.|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=24805288101903726631(Greeting:greeting 1)
+  |DATA|ONAM:drathas reyas|NAME:Greetings, %PCRace. Perhaps you'd like to hear the latest rumors?|SCVR:03sX1change|INTV
+
+[DUP-INF]: ID=25191201962076232618(Voice:hello)
+  |DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF117.mp3|NAME:How can I help you?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=25545155362260931097(Greeting:greeting 5)
+  |DATA|ONAM:Blatta Hateria|NAME:One day's pretty much like another to me. But you suit yourself.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=26302233873129322195(Greeting:greeting 9)
+  |DATA|ANAM:Maar Gan|NAME:Leave me alone. We don't want people like you in Maar Gan.|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=26741136961360229750(Greeting:greeting 9)
+  |DATA|ONAM:nireli farys|NAME:You looking for a ship? What's your destination?
+
+[DUP-INF]: ID=26861233102943229523(Greeting:greeting 9)
+  |DATA|ONAM:punibi yahaz|ANAM:Gnisis|NAME:You looking for a silt strider? What's your destination?
+
+[DUP-INF]: ID=27251146961316027413(Greeting:greeting 9)
+  |DATA|ANAM:Caldera|NAME:People like you cause nothing but trouble. Why don't you just get out of Caldera?|SCVR:02sX4Random100|INTV:<
+
+[DUP-INF]: ID=27629166042270126931(Greeting:greeting 1)
+  |DATA|ONAM:tholer saryoni|DNAM:Temple|NAME:Have you completed the Pilgrimages of the Four Corners?|SCVR:34JX3TT_DagonFel|INTV: |SCVR:44JX4TT_AldDaedroth|INTV:d
+
+[DUP-INF]: ID=27903224152710914508(Greeting:greeting 1)
+  |DATA|ONAM:vistha_kai|NAME:You have been warned. Do not harm the inmates of the Corprusarium. If you plan to plunder the dungeon, you must endure their attacks, and mine.|BNAM:;Vistha-Kai
+
+[DUP-INF]: ID=27919165531410212478(Voice:hello)
+  |DATA|RNAM:Redguard|SNAM:vo\r\m\Hlo_RM090.mp3|NAME:So, what's this about?|SCVR:02sX3Random100|INTV:P|BNAM:;Random100>=80
+
+[DUP-INF]: ID=28438160681278921215(Greeting:greeting 5)
+  |DATA|ONAM:favel gobor|NAME:Go away.|SCVR:34JX3A1_7HuleeyaInformant|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=29116247291092121384(Greeting:greeting 5)
+  |DATA|ONAM:hassour zainsubani|NAME:Yes. What is your business with me?|SCVR:34JX3A1_11_ZainsubaniInformant|INTV
+
+[DUP-INF]: ID=29651297232623512881(Greeting:greeting 5)
+  |DATA|ONAM:favel gobor|NAME:Go away. I got nothing to say to you.
+
+[DUP-INF]: ID=29711230393013323345(Greeting:greeting 5)
+  |DATA|ONAM:urven davor|NAME:Fine. It's just a filthy lizard, anyway, nothing to get upset about. We'll leave him alone. Go on. Get out, before we change our minds.|SCVR:01630|INTV:|SCVR:44JX3A1_7HuleeyaInformant|INTV
+
+[DUP-INF]: ID=29785265952505025419(Greeting:greeting 5)
+  |DATA|ONAM:huleeya|NAME:I'm sorry, but I cannot speak with you. I am preoccupied with my own affairs.|SCVR:01630|INTV:|BNAM:Goodbye
+
+[DUP-INF]: ID=29974241623180724322(Voice:hello)
+  |DATA|RNAM:High Elf|SNAM:vo\h\f\Hlo_HF091.mp3|NAME:Ah, how quaint. How do you do?
+
+[DUP-INF]: ID=30101315881454120295(Greeting:greeting 5)
+  |DATA|ONAM:nibani maesa|NAME:Go ahead. Do you have questions about the Nerevarine prophecies? Have you come to see if you pass the test? Do you think you are the Nerevarine?|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-
+
+[DUP-INF]: ID=30421212191028818891(Greeting:greeting 5)
+  |DATA|ONAM:sharn gra-muzgob|NAME:I CANNOT think with all these interruptions. PLEASE leave me alone.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=30457323981611722078(Greeting:greeting 5)
+  |DATA|ONAM:therana|NAME:Are you here to show me that thing you did? Or did you want to feed the spiders?|SCVR:34JX3B7_TheranaHort|INTV:2
+
+[DUP-INF]: ID=30469265751936423198(Greeting:greeting 5)
+  |DATA|ONAM:hrordis|NAME:Are you an idiot? I told you. Go away. Now.|BNAM:;Hrordis  Goodbye
+
+[DUP-INF]: ID=30983196271207323684(Greeting:greeting 9)
+  |DATA|ANAM:Seyda Neen|NAME:So, %PCName, you're new to Seyda Neen, and you'd like some help finding your way around. Very sensible. Go ahead. Ask away. Looking for services? Some specific place? Someone in particular? Just need a little advice? Whatever it is, I'd be happy to help.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[MOD-INF]: ID=31102285731117525844(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Orc|SNAM:Vo\o\m\Hlo_OM000.mp3|NAME:Growl!|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|RNAM:Orc|SNAM:Vo\o\m\Hlo_OM000.mp3|NAME:Growl!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:; mostly jammed
+
+[MOD-INF]: ID=31102285731117525844(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Orc|SNAM:Vo\o\m\Hlo_OM000.mp3|NAME:Growl!|SCVR:01600|INTV
+  Vampire_Embrace.esp->|DATA|RNAM:Orc|SNAM:Vo\o\m\Hlo_OM000.mp3|NAME:Growl!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:; mostly jammed
+[MOD-IID]: ID=13860255951651217283
+  Vampire_Embrace.esp->Growl!
+
+[DUP-INF]: ID=31177231023265928026(Greeting:greeting 7)
+  |DATA|ONAM:daynes redothril|NAME:I'm Daynes Redothril, the Pawnbroker. And you are... %PCName? Shall I tell you about my trade? Or would you perhaps be interested in doing a little work for me?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=31401282641714414505(Greeting:greeting 5)
+  |DATA|ONAM:mallam ryon|DNAM:Telvanni|NAME:Did you ask Baladas Demnevanni the three questions?|SCVR:34JX3HT_SpyBaladas|INTV: |SCVR:44JX4HT_SpyBaladas|INTV:d
+
+[DUP-INF]: ID=31571307731505715143(Greeting:greeting 5)
+  |DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Do you have a copy of the book "Chronicles of Nchuleft"?|SCVR:34JX3HT_ChroniclesNchuleft|INTV: |SCVR:44JX4HT_ChroniclesNchuleft|INTV:d
+
+[DUP-INF]: ID=31677139081450730413(Greeting:greeting 9)
+  |DATA|ONAM:punibi yahaz|ANAM:Gnisis|NAME:Good day, outlander, and welcome to Gnisis. We're a small mining village, with a temple and a Legion garrison, and a handy outfitting station if you're exploring the West Gash. I'm your local caravaner. I can get you on a silt strider travel to your destination. Or, if you are new to Gnisis, can I help you with local services? Do you need someone in particular? Or is there a specific place I can help you find?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=31688265032147531989(Greeting:greeting 5)
+  |DATA|ONAM:felisa ulessen|DNAM:Telvanni|NAME:Did you bring Mistress Therana her new clothes?|SCVR:34JX3HT_TheranaClothes|INTV: |SCVR:44JX4HT_TheranaClothes|INTV:d
+
+[DUP-INF]: ID=31691145932748225704(Greeting:greeting 9)
+  |DATA|ANAM:Vivec|NAME:It's not bad when you know your way around, %PCName. What are you looking for in Vivec?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV
+
+[DUP-INF]: ID=31983190332522132542(Greeting:greeting 5)
+  |DATA|ONAM:Blatta Hateria|NAME:Do I know you? Were you thinking you might want to go fishing?|SCVR:04JX3A2_4_MiloGone|INTV
+
+[DUP-INF]: ID=32140268522245726019(Greeting:greeting 5)
+  |DATA|ONAM:neloth|DNAM:Telvanni|NAME:Did you bring me the Robe of the Drake's Pride?|SCVR:34JX3HT_DrakePride|INTV: |SCVR:44JX4HT_DrakePride|INTV:d
+
+[DUP-INF]: ID=32247185911341817177(Greeting:greeting 5)
+  |DATA|ONAM:velanda omani|NAME:What are you doing here?|SCVR:01630|INTV:
+
+[DUP-INF]: ID=32294125062989011833(Greeting:greeting 5)
+  |DATA|NAME:You are stupid, outlander.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:; Ulath-Pal; Journal "A2_6_Incarnate" >= 50
+
+[MOD-INF]: ID=32487276561501719829(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+
+[MOD-INF]: ID=32487276561501719829(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|BNAM:;PCVampirism=1
+  Vampire_Embrace.esp->|DATA|RNAM:High Elf|SNAM:vo\h\m\Hlo_HM138.mp3|NAME:Foul beast! Away with you!|SCVR:01600|INTV|SCVR:12sX3emb_option_npchate|INTV|BNAM:;PCVampirism=1 mostly jammed
+[MOD-IID]: IDs=11205236922635631230,902623985655615818
+  Vampire_Embrace.esp->Foul beast! Away with you!

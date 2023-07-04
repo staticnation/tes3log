@@ -1,0 +1,310 @@
+RP House Hlaalu.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CS_HHLUMT)
+	SCPT(CS_HHLUSC)
+	SCPT(CS_ThanelenScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    alchemical formulas
+	morrowind.esm       DIAL    caldera mining contracts
+	morrowind.esm       DIAL    debt money
+	morrowind.esm       DIAL    ebony trade
+	morrowind.esm       DIAL    guar hides
+	morrowind.esm       DIAL    hlaalu councilors
+	morrowind.esm       DIAL    murderer's description
+	morrowind.esm       DIAL    ordinators have failed
+	morrowind.esm       DIAL    orphan of arnesia
+	morrowind.esm       DIAL    prelude
+	morrowind.esm       DIAL    ralen hlaalo
+	morrowind.esm       DIAL    respect house hlaalu
+	morrowind.esm       DIAL    say that again
+	morrowind.esm       DIAL    scroll
+	morrowind.esm       DIAL    shipment of ebony
+	morrowind.esm       DIAL    support on the council
+	morrowind.esm       DIAL    work
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hh_retaliation
+	tribunal.esm        DIAL    hh_sunkentreasure
+	tribunal.esm        DIAL    hh_winsaryoni
+
+[MOD-INF]: ID=1222913419505804(Topic:camonna tong)
+  morrowind.esm------->|DATA|ONAM:Orvas Dren Druglord|NAME:You make a good argument, but the truth is that I don't like you or trust you. How could I know that you would understand how our business operates? Or that you would work towards a Morrowind free of Imperial rule?|SCVR:01500|INTV
+  RP House Hlaalu.esp->|DATA|ONAM:Orvas Dren Druglord|NAME:You make a good argument, but the truth is that I don't like you or trust you. How could I know that you would understand how our business operates? Or that you would work towards a Morrowind free of Imperial rule?|SCVR:01500|INTV|SCVR:11364|INTV:K|BNAM:Goodbye
+
+[MOD-INF]: ID=14840633068801139(:ebony trade)
+  morrowind.esm------->|DATA|ONAM:ashibaal|NAME:Yes, I hear the truth of your words. When two strong warriors stand side by side, no one dares challenge them. I will trade ebony with House Hlaalu.|SCVR:01500|INTV|BNAM:Journal HH_AshlanderEbony 50
+  RP House Hlaalu.esp->|NAME:I don't care, Hlaalu. We Zainab do not care only for profit, we would be extending the land's resources to those that need it most. I can see that your kind does not hold the same moral standard, we will not trade with your House.|DELE:
+
+[MOD-INF]: ID=21867086260516458(Topic:camonna tong)
+  morrowind.esm------->|DATA|ONAM:Orvas Dren Druglord|NAME:So you've come to bargain, have you? What have you got?|SCVR:34JX3HH_WinCamonna|INTV: |BNAM:Choice "Together House Hlaalu and the Camonna Tong will both prosper." 1 "Nothing... yet." 2
+  RP House Hlaalu.esp->|DATA|ONAM:Orvas Dren Druglord|NAME:So you've come to bargain, have you? What have you got?|SCVR:34JX3HH_WinCamonna|INTV: |BNAM:Choice "[Speechcraft] There is enough room on Vvardenfell for both House Hlaalu and the Camonna Tong. Allow me to explain. " 1 "Nothing... yet." 2 "Your brother hoped I would convince you to support House Hlaalu. I'm going to enjoy killing you." 4
+
+[MOD-INF]: ID=24671539512724365(Topic:camonna tong)
+  morrowind.esm------->|DATA|ONAM:Orvas Dren Druglord|NAME:Come back when you're ready to make an offer.|SCVR:01500|INTV
+  RP House Hlaalu.esp->|DATA|ONAM:Orvas Dren Druglord|NAME:Come back when you're ready to make an offer.|SCVR:01500|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=27380183962209717(Topic:hlaalu councilors)
+  morrowind.esm------->|DATA|ONAM:nileno dorvayn|NAME:You should consult the recent edition of the Yellow Book of Great House Hlaalu. It lists the current Hlaalu councilors and their residences.|SCVR:04JX3B6_HlaaluBook|INTV|BNAM:Choice "Bribe her 50 drakes." 1 "Nevermind." 2
+  RP House Hlaalu.esp->|DATA|ONAM:nileno dorvayn|NAME:You should consult the recent edition of the Yellow Book of Great House Hlaalu. It lists the current Hlaalu councilors and their residences.|SCVR:04JX3B6_HlaaluBook|INTV|BNAM:Choice "[50 Gold] I need more information." 1 "Nevermind." 2
+
+[MOD-INF]: ID=44131684462727731(Journal:hh_sunkentreasure)
+  tribunal.esm-------->|DATA|NAME:Edryno Arethi thanked me for returning the Daedric Wakizashi.|QSTF
+  RP House Hlaalu.esp->|DATA|NAME:I decided to keep the Daedric Wakizashi for myself.|QSTF
+
+[MOD-INF]: ID=60092734933329946(Topic:prelude)
+  morrowind.esm------->|DATA|ONAM:edryno arethi|NAME:Have you found the Wakizashi?|SCVR:34JX3HH_SunkenTreasure|INTV: |BNAM:Choice "Give her the Wakizashi." 1 "Keep the Wakizashi." 2
+  RP House Hlaalu.esp->|DATA|ONAM:edryno arethi|NAME:Have you found the Wakizashi?|SCVR:34JX3HH_SunkenTreasure|INTV: |BNAM:Choice "Yes, here it is." 1 "[Lie] It wasn't there. Maybe the Telvanni got to the wreck before I did?" 2 "I haven't found it yet." 3
+
+[MOD-INF]: ID=69811142978106082(Topic:ebony trade)
+  morrowind.esm------->|DATA|ONAM:Canctunian Ponius|NAME:Unless House Hlaalu lowers prices, my hands are tied.
+  RP House Hlaalu.esp->|DATA|ONAM:Canctunian Ponius|NAME:Unless House Hlaalu lowers prices, my hands are tied.|BNAM:Choice "[Speechcraft] What if we inform the public that the East Empire company refused to support fair wages for our miners in this time of blight?" 1 "[5000 Gold] I will invest five thousand drakes into the company myself if you continue to buy from House Hlaalu." 2 "[Luck] I heard the Camonna Tong were planning on sabotaging Redoran supply caravans." 3
+
+[MOD-INF]: ID=114698745452818588(:debt money)
+  morrowind.esm------->|DATA|ONAM:Murudius Flaeus|NAME:Alright, you don't have to say it again. Look, here's a key. There's a chest under Fadila's house, near the docks. Just leave me in peace.|SCVR:34JX3HH_BuriedTreasure|INTV: |BNAM:Journal HH_BuriedTreasure 50  Player->AddItem key_murudius_01 1  RemoveItem key_murudius_01 1
+  RP House Hlaalu.esp->|NAME:Alright, you don't have to say it again. Look, here's a key. There's a chest under Fadila's house, near the docks. Just leave me in peace.|DELE:
+
+[MOD-INF]: ID=124521385026209050(Topic:support on the council)
+  morrowind.esm------->|DATA|NAME:I have supported you as Hortator, but pledging my support on the Hlaalu Council in another matter. If I am to risk supporting you, I must know that you are strong as well as clever. I will offer my support if you best my champion, Garding the Bold. Are you willing?|SCVR:34JX3HH_BeroSupport|INTV: |SCVR:44JX3B6_BeroHort|INTV:2|BNAM:Choice "Yes." 1 "No, not yet." 2
+  RP House Hlaalu.esp->|DATA|NAME:I have supported you as Hortator, but pledging my support on the Hlaalu Council in another matter. If I am to risk supporting you, I must know that you are strong as well as clever. I will offer my support if you best my champion, Garding the Bold. Are you willing?|SCVR:34JX3HH_BeroSupport|INTV: |SCVR:44JX3B6_BeroHort|INTV:2|BNAM:Choice "Yes." 1 "No, not yet." 2 "[Speechcraft] Is trial by combat truly the Hlaalu way, councilor?" 3 "[Short Blade] You know how easily I could best him. Why waste time and energy amid pressing concerns?" 4
+
+[MOD-INF]: ID=128902102134226971(Topic:orphan of arnesia)
+  morrowind.esm------->|DATA|ONAM:neminda|DNAM:Hlaalu|NAME:Oh, certainly Felsen, here are you orders. They are in code, of course. Deliver them to Maar Gan as usual.|SCVR:02sX0wearingHelmHH|DAIN|BNAM:RemoveItem "bk_NemindasOrders" 1  Player->AddItem "bk_NemindasOrders" 1  Journal HH_DisguisedArmor 50
+  RP House Hlaalu.esp->|DATA|ONAM:neminda|DNAM:Hlaalu|NAME:Oh, certainly Felsen, here are your orders. They are in code, of course. Deliver them to Maar Gan as usual.|SCVR:02sX0wearingHelmHH|DAIN|BNAM:RemoveItem "bk_NemindasOrders" 1  Player->AddItem "bk_NemindasOrders" 1  Journal HH_DisguisedArmor 50  Goodbye
+
+[MOD-INF]: ID=151157704286988587(:guar hides)
+  morrowind.esm------->|DATA|ONAM:rolasa oren|NAME:Imported guar hides are not fresh.
+  RP House Hlaalu.esp->|NAME:Imported guar hides are not fresh.|DELE:
+
+[MOD-INF]: ID=178297305545826399(Topic:hlaalu councilors)
+  morrowind.esm------->|DATA|ONAM:nileno dorvayn|NAME:The one you should speak with is Crassius Curio. His manor is in the Hlaalu Plaza in Vivec. Of the Hlaalu Councilors, he is one most likely to listen to your requests, whatever they may be.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV:2|BNAM:Journal B6_HlaaluBook 30  ModDisposition 10  Player->RemoveItem Gold_001 50
+  RP House Hlaalu.esp->|DATA|ONAM:nileno dorvayn|NAME:The one you should speak with is Crassius Curio. His manor is in the Hlaalu Plaza in Vivec. Of the Hlaalu Councilors, he is one most likely to listen to your requests, whatever they may be.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV:2|BNAM:Startscript CS_HHLUMT  Journal B6_HlaaluBook 30  ModDisposition 10  Player->RemoveItem Gold_001 50
+
+[MOD-INF]: ID=198457854900411065(Topic:orphan of arnesia)
+  morrowind.esm------->|DATA|ONAM:neminda|NAME:I've already given you the scroll. Deliver it to Maar Gan as usual.|SCVR:02sX0wearingHelmHH|DAIN|SCVR:34JX3HH_DisguisedArmor|INTV:2
+  RP House Hlaalu.esp->|DATA|ONAM:neminda|NAME:I've already given you the scroll. Deliver it to Maar Gan as usual.|SCVR:02sX0wearingHelmHH|DAIN|SCVR:34JX3HH_DisguisedArmor|INTV:2|BNAM:Goodbye
+
+[MOD-INF]: ID=212118874212127267(Topic:prelude)
+  morrowind.esm------->|DATA|ONAM:edryno arethi|NAME:The ship was trying to land at a secret dock and is likely to be hard to find. I believe they crashed on an island east of Bal Fell. Start there, head due east, and look around the islands you pass. It should be within two or three islands of Bal Fell. The ship was carrying a Daedric Wakizashi when it sank. Bring that Wakizashi to me. You can keep anything else you find there.|SCVR:34JX3HH_AshlanderEbony|INTV:d|BNAM:Journal HH_SunkenTreasure 10  ShowMap "Bal Fell"
+  RP House Hlaalu.esp->|DATA|ONAM:edryno arethi|NAME:The ship was trying to land at a secret dock and is likely to be hard to find. I believe they crashed on an island east of Bal Fell. Start there, head due east, and look around the islands you pass. It should be within two or three islands of Bal Fell. The ship was carrying a Daedric Wakizashi when it sank. Bring that Wakizashi to me. You can keep anything else you find there. Oh and you'll want to bring lockpicks, I doubt the crewmen would've left something like that just lying around.|SCVR:34JX3HH_AshlanderEbony|INTV:d|BNAM:Journal HH_SunkenTreasure 10  ShowMap "Bal Fell"
+
+[MOD-INF]: ID=261992958685734017(:guar hides)
+  morrowind.esm------->|DATA|ONAM:rolasa oren|NAME:Get out of my shop.
+  RP House Hlaalu.esp->|NAME:Get out of my shop.|DELE:
+
+[MOD-INF]: ID=266152453925424925(:caldera mining contracts)
+  morrowind.esm------->|DATA|ONAM:odral helvi|NAME:That is very disappointing. I suppose the thief must be outside Caldera, then. Well, take these 500 drakes for your efforts.|SCVR:01500|INTV|BNAM:Journal HH_CaptureSpy 100  Player->RemoveItem "bk_CalderaMiningContract" 1  Player->AddItem Gold_001 500  ModPCFacRep 10 "Hlaalu"  ModDisposition 5  Player->ModReputation 1
+  RP House Hlaalu.esp->|NAME:That is very disappointing. I suppose the thief must be outside Caldera, then. Well, take these 500 drakes for your efforts.|DELE:
+
+[MOD-INF]: ID=284814946197612674(Topic:ordinators have failed)
+  morrowind.esm------->|DATA|ONAM:tholer saryoni|DNAM:Hlaalu|NAME:It is rare, but recently... Perhaps you could help with one of these failures. There is a cavern, Assemanu, known to those who follow Dagoth Ur. In this cavern is the Robe of St. Roris, a holy relic. If you can succeed where the Ordinators failed by bringing me the Robe, I will speak with Berel Sala.|BNAM:Journal HH_WinSaryoni 50
+  RP House Hlaalu.esp->|DATA|ONAM:tholer saryoni|DNAM:Hlaalu|NAME:It is rare, but recently... Perhaps you could help with one of these failures. There is a cavern, Assemanu, known to those who follow Dagoth Ur. In this cavern is the Robe of St. Roris, a holy relic. If you can succeed where the Ordinators failed by bringing me the Robe, I will speak with Berel Sala.|BNAM:Journal HH_WinSaryoni 50  Choice "Very well." 1 "[Speechcraft] How about I tell the public the Temple needs House Hlaalu to do their dirty work." 2
+
+[MOD-INF]: ID=291762421118566037(Topic:hlaalu councilors)
+  morrowind.esm------->|DATA|ONAM:nileno dorvayn|NAME:Here's a recent edition of the Yellow Book of Great House Hlaalu. It lists the current Hlaalu councilors and their residences. I might tell you more for a small consideration.|BNAM:Player->AddItem "bk_YellowBook426" 1  Journal B6_HlaaluBook 1  StartScript CouncilorTopicsHlaalu  Choice "Bribe her 50 drakes." 1 "Nevermind." 2
+  RP House Hlaalu.esp->|DATA|ONAM:nileno dorvayn|NAME:Here's a recent edition of the Yellow Book of Great House Hlaalu. It lists the current Hlaalu councilors and their residences. I might tell you more for a small consideration.|BNAM:Player->AddItem "bk_YellowBook426" 1  Journal B6_HlaaluBook 1  StartScript CouncilorTopicsHlaalu  Choice "[50 Gold] Tell me more." 1 "Nevermind." 2
+
+[MOD-INF]: ID=324911752329204962(Topic:orphan of arnesia)
+  morrowind.esm------->|DATA|ONAM:neminda|NAME:You... you're not Felsen!|SCVR:01440|INTV:|SCVR:34JX3HH_DisguisedArmor|INTV:2|BNAM:SetFight 100  StartCombat Player  Goodbye
+  RP House Hlaalu.esp->|DATA|ONAM:neminda|NAME:You... You're not Felsen! I knew I should not have trusted you.|SCVR:01440|INTV:|SCVR:34JX3HH_DisguisedArmor|INTV:2|BNAM:Goodbye
+
+[MOD-INF]: ID=366429331134309788(:greeting 5)
+  morrowind.esm------->|DATA|ONAM:neminda|NAME:You... you're not Relmerea!|SCVR:02sX0wearingHelmHH|DAIN|SCVR:11425|INTV|SCVR:21440|INTV|SCVR:34JX3HH_DisguisedArmor|INTV: |SCVR:44JX4HH_DisguisedArmor|INTV:d|BNAM:StartCombat Player  Goodbye
+  RP House Hlaalu.esp->|NAME:You... You're not Relmerea!|DELE:
+
+[MOD-INF]: ID=427811750143224419(Topic:shipment of ebony)
+  morrowind.esm------->|DATA|ONAM:segunivus mantedius|NAME:Ebony? Why do you have ebony? Are you a licensed trader?|BNAM:Choice "Truth: Odral Helvi ordered me to deliver it." 5 "Lie: Yes, of course." 6
+  RP House Hlaalu.esp->|DATA|ONAM:segunivus mantedius|NAME:Ebony? Why do you have ebony? Are you a licensed trader?|BNAM:Choice "Odral Helvi ordered me to deliver it." 5 "[Lie] Yes, of course." 6
+
+[MOD-INF]: ID=756310263772131418(Topic:say that again)
+  morrowind.esm------->|DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:How fortunate! Your voice sounds almost like the Redoran Relmerea Saram who died... um, just recently. Would you be willing to disguise yourself as Relmerea Saram and get orders from House Redoran, then deliver the orders to me?|SCVR:01440|INTV|SCVR:12sX1PCRace|INTV|SCVR:22sX1PCRace|INTV|SCVR:34JX4HH_DisguisedArmor|INTV:d|BNAM:Choice "Yes." 1 "No, too busy." 2
+  RP House Hlaalu.esp->|DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:How fortunate! Your voice sounds almost like the Redoran Relmerea Saram who died... Um, just recently. Would you be willing to disguise yourself as Relmerea Saram and get orders from House Redoran, then deliver the orders to me?|SCVR:01440|INTV|SCVR:12sX1PCRace|INTV|SCVR:22sX1PCRace|INTV|SCVR:34JX4HH_DisguisedArmor|INTV:d|BNAM:Choice "Yes." 1 "No." 2
+
+[MOD-INF]: ID=827123712127718509(:guar hides)
+  morrowind.esm------->|DATA|ONAM:rolasa oren|NAME:Okay, okay. I'll buy guar hides from House Hlaalu. Now leave me alone.|BNAM:Journal HH_IndEsp2 50
+  RP House Hlaalu.esp->|NAME:Okay, okay. I'll buy guar hides from House Hlaalu. Now leave me alone.|DELE:
+
+[MOD-INF]: ID=865925577198831975(Topic:caldera mining contracts)
+  morrowind.esm------->|DATA|ONAM:odral helvi|NAME:That does not convince me. Tell me where you really found the Caldera mining contracts or we have nothing to discuss.|SCVR:01500|INTV
+  RP House Hlaalu.esp->|DATA|ONAM:odral helvi|NAME:Ah, those stupid Imperials. Well anyway, take these 500 drakes for your efforts.|SCVR:01500|INTV|BNAM:Journal HH_CaptureSpy 100  Player->RemoveItem "bk_CalderaMiningContract" 1  Player->AddItem Gold_001 500  ModPCFacRep 10 "Hlaalu"  ModDisposition 5  Player->ModReputation 1
+
+[MOD-INF]: ID=875423461186535727(Topic:caldera mining contracts)
+  morrowind.esm------->|DATA|ONAM:elmussa damori|NAME:Okay, I confess. I stole them under contract with the Thieves Guild. They are in the chest on my windowsill. Here is the key. Odral Helvi has abused his power and made many enemies. Flatter him a bit, make up some story about where you found the contracts, and I'll put in a good word for you with my Guild and with House Hlaalu.|BNAM:Journal HH_CaptureSpy 40  Player->AddItem key_elmussadamori 1  Set OwnershipHHCS to 1
+  RP House Hlaalu.esp->|DATA|ONAM:elmussa damori|NAME:Okay fine, I confess. I stole them under contract with the Thieves Guild. They are in the chest on my windowsill. Here is the key. Odral Helvi has abused his power and made many enemies. Flatter him a bit, make up some story about where you found the contracts, and I'll put in a good word for you with my Guild and with House Hlaalu.|SCVR:01500|INTV|SCVR:11363|INTV:2|BNAM:Startscript CS_HHLUSC  Journal HH_CaptureSpy 40  Player->AddItem key_elmussadamori 1  Set OwnershipHHCS to 1  Goodbye
+
+[MOD-INF]: ID=931856961938321820(:respect house hlaalu)
+  morrowind.esm------->|DATA|ONAM:velfred|NAME:Alright. I'll pay House Hlaalu the proper respects. But you better carry out your side of the deal.|BNAM:Journal HH_NordSmugglers 50
+  RP House Hlaalu.esp->|NAME:Alright. I'll pay House Hlaalu the proper respects. But you better carry out your side of the deal.|DELE:
+
+[MOD-INF]: ID=1146118512848331603(Topic:respect house hlaalu)
+  morrowind.esm------->|DATA|ONAM:velfred|NAME:Why should I? I already pay half my profits to the Empire.
+  RP House Hlaalu.esp->|DATA|ONAM:velfred|NAME:Why should I? I already pay half my profits to the Empire.|BNAM
+
+[MOD-INF]: ID=1353131294267018316(:greeting 5)
+  morrowind.esm------->|DATA|ONAM:neminda|NAME:You... you're not Felsen!|SCVR:02sX0wearingHelmHH|DAIN|SCVR:11425|INTV|SCVR:21440|INTV:|SCVR:34JX3HH_DisguisedArmor|INTV: |SCVR:44JX4HH_DisguisedArmor|INTV:d|BNAM:StartCombat Player  Goodbye
+  RP House Hlaalu.esp->|NAME:You... You're not Felsen!|DELE:
+
+[MOD-INF]: ID=1444219234163709208(Topic:prelude)
+  morrowind.esm------->|DATA|ONAM:edryno arethi|NAME:Yes, this is the one. Here, take these 500 drakes as a finders fee.|SCVR:01500|INTV|SCVR:15IX2daedric wakizashi_hhst|INTV:|BNAM:Journal HH_SunkenTreasure 100  Player->RemoveItem "daedric wakizashi_hhst" 1  AddItem "daedric wakizashi_hhst" 1  Player->AddItem Gold_001 500  ModPCFacRep 5 "Hlaalu"  ModDisposition 20
+  RP House Hlaalu.esp->|DATA|ONAM:edryno arethi|NAME:Yes, this is the one. Here, take these 500 drakes as a finder's fee.|SCVR:01500|INTV|SCVR:15IX2daedric wakizashi_hhst|INTV:|BNAM:Journal HH_SunkenTreasure 100  Player->RemoveItem "daedric wakizashi_hhst" 1  AddItem "daedric wakizashi_hhst" 1  Player->AddItem Gold_001 500  ModPCFacRep 5 "Hlaalu"  ModDisposition 20
+
+[MOD-INF]: ID=1620397351920020402(Topic:debt money)
+  morrowind.esm------->|DATA|ONAM:Murudius Flaeus|NAME:Look around, %PCRace. Do you see 800 drakes anywhere?|SCVR:34JX3HH_BuriedTreasure|INTV: 
+  RP House Hlaalu.esp->|DATA|ONAM:Murudius Flaeus|NAME:Look around, %PCRace. Do you see 800 drakes anywhere?|SCVR:34JX3HH_BuriedTreasure|INTV: |BNAM
+
+[MOD-INF]: ID=1677911471328724909(Topic:orphan of arnesia)
+  morrowind.esm------->|DATA|ONAM:neminda|DNAM:Hlaalu|NAME:Who are you? That's... that's Felsen's helm!|SCVR:05IX3bonemold_gah-julan_hhda|INTV|SCVR:11440|INTV:|BNAM:SetFight 100  StartCombat Player  Goodbye
+  RP House Hlaalu.esp->|DATA|ONAM:neminda|DNAM:Hlaalu|NAME:Who are you? That's... That's Felsen's helm! What are you doing with it?|SCVR:05IX3bonemold_gah-julan_hhda|INTV|SCVR:11440|INTV:|BNAM:Choice "[Speechcraft] Apologies, muthsera. Felsen sent me." 1 "[Luck] I uhh- I'm here for the uh... message?" 2 "[Illusion] What do you mean? I am Felsen." 3
+
+[MOD-INF]: ID=1693061752763713125(Topic:ebony trade)
+  morrowind.esm------->|DATA|ONAM:ashibaal|NAME:Why does House Hlaalu want our ebony? House Hlaalu already has ebony.|SCVR:01500|INTV|BNAM:ModDisposition -10  Choice "If we both sell ebony the price drops." 1 "We do not have enough ebony." 2
+  RP House Hlaalu.esp->|DATA|ONAM:ashibaal|NAME:Why does House Hlaalu want our ebony? House Hlaalu already has ebony.|BNAM:Choice "If you do not trade your ebony through us then I will just kill you." 1 "[1000 Gold] Allow me to demonstrate our good will by contributing one thousand drakes to your camp, Gulakhan." 2 "[Temple] The Temple would never allow the Ashlanders to trade in ebony." 3 "[Zainab Nerevarine] You know I am the Incarnate; have you not any respect for your roots?" 4
+
+[MOD-INF]: ID=1732111579259325430(Topic:say that again)
+  morrowind.esm------->|DATA|ONAM:nileno dorvayn|NAME:Good. Take this helm and speak with Neminda at the Redoran Council. Take a silt strider to Ald'ruhn, then look under Skar. When she asks what you want, say you are an orphan of Arnesia. Neminda should give you a coded message to deliver. Bring that coded message to me instead.|SCVR:01500|INTV|SCVR:11440|INTV:|BNAM:Journal HH_DisguisedArmor 10  Player->AddItem Bonemold_Gah-Julan_HHDA 1  Neminda->AddItem bk_nemindasorders 1
+  RP House Hlaalu.esp->|DATA|ONAM:nileno dorvayn|NAME:Good. Take this helm and speak with Neminda at the Redoran Council. Take a silt strider to Ald'ruhn, then look under Skar, in the Redoran Council Hall. When she asks what you want, say you are an orphan of Arnesia. Neminda should give you a coded message to deliver. Bring that coded message to me instead.|SCVR:01500|INTV|SCVR:11440|INTV:|BNAM:Journal HH_DisguisedArmor 10  Player->AddItem Bonemold_Gah-Julan_HHDA 1  Neminda->AddItem bk_nemindasorders 1
+
+[MOD-INF]: ID=1747020522161317692(Journal:hh_winsaryoni)
+  morrowind.esm------->|DATA|NAME:Archcanon Tholer Saryoni thanked me for delivering The Robe of Saint Roris and told me he would speak with Berel Sala.
+  RP House Hlaalu.esp->|DATA|NAME:I successfully threatened to blackmail Archcanon Tholer Saryoni into talking with Berel Sala.
+
+[MOD-INF]: ID=1838614625114087672(:greeting 5)
+  morrowind.esm------->|DATA|ONAM:neminda|NAME:Who are you? Wait! That's Relmerea's helm!|SCVR:02sX0wearingHelmHH|DAIN:|SCVR:15IX2bonemold_gah-julan_hhda|INTV:|SCVR:21440|INTV|SCVR:34JX3HH_DisguisedArmor|INTV: |SCVR:44JX4HH_DisguisedArmor|INTV:d|BNAM:StartCombat Player  Goodbye
+  RP House Hlaalu.esp->|NAME:Who are you? Wait! That's Relmerea's helm!|DELE:
+
+[MOD-INF]: ID=1865813925855631379(Topic:orphan of arnesia)
+  morrowind.esm------->|DATA|ONAM:neminda|NAME:You... you're not Relmerea!|SCVR:02sX0wearingHelmHH|DAIN|SCVR:11425|INTV|SCVR:21440|INTV
+  RP House Hlaalu.esp->|DATA|ONAM:neminda|NAME:You... You're not Relmerea!|SCVR:02sX0wearingHelmHH|DAIN|SCVR:11425|INTV|SCVR:21440|INTV|BNAM:Choice "Felsen sent me here to retrieve the coded message. He gave me his helm as proof for you." 1
+
+[MOD-INF]: ID=1937921768246029051(:caldera mining contracts)
+  morrowind.esm------->|DATA|ONAM:elmussa damori|DNAM:Thieves Guild|NAME:Yes, I stole them, %PCRank. Guild business. If you turn me in, you'll lose standing with the Guild. The documents are in that chest on my windowsill. Here is the key. Tell Odral that you just found the documents lying around. That fool will believe anything if you flatter him enough.|BNAM:Journal HH_CaptureSpy 41  Player->AddItem key_elmussadamori 1  Set OwnershipHHCS to 1
+  RP House Hlaalu.esp->|NAME:Yes, I stole them, %PCRank. Guild business. If you turn me in, you'll lose standing with the Guild. The documents are in that chest on my windowsill. Here is the key. Tell Odral that you just found the documents lying around. That fool will believe anything if you flatter him enough.|DELE:
+
+[MOD-INF]: ID=1939528834266521004(Topic:orphan of arnesia)
+  morrowind.esm------->|DATA|ONAM:neminda|NAME:You... you're not Relmerea!|SCVR:01440|INTV|SCVR:34JX3HH_DisguisedArmor|INTV:2|BNAM:SetFight 100  StartCombat Player  Goodbye
+  RP House Hlaalu.esp->|DATA|ONAM:neminda|NAME:You... You're not Relmerea! I knew I should not have trusted you.|SCVR:01440|INTV|SCVR:34JX3HH_DisguisedArmor|INTV:2|BNAM:Goodbye
+
+[MOD-INF]: ID=1943525069197767313(Topic:camonna tong)
+  morrowind.esm------->|DATA|ONAM:Orvas Dren Druglord|NAME:I have heard of you, of course. I believe we could work together. Yes, the more I consider the possibilities, the more I believe we would make excellent partners.|SCVR:01500|INTV|BNAM:Journal HH_WinCamonna 50  ModDisposition 10
+  RP House Hlaalu.esp->|DATA|ONAM:Orvas Dren Druglord|NAME:I have heard of you, of course. I believe we could work together. Yes, the more I consider the possibilities, the more I believe we would make excellent partners.|SCVR:01500|INTV|SCVR:11363|INTV:K|BNAM:Startscript CS_HHLUSC  Journal HH_WinCamonna 50  ModDisposition 35  Goodbye
+
+[MOD-INF]: ID=1953219243185614527(Topic:scroll)
+  morrowind.esm------->|DATA|ONAM:bivale teneran|DNAM:Hlaalu|NAME:Well, are you going to give me the scroll or not?|SCVR:05IX2bk_ordersforbivaleteneran|INTV:|SCVR:34JX3HH_IndEsp3|INTV: |BNAM:Choice "Give her the scroll." 1 "Keep the scroll." 2
+  RP House Hlaalu.esp->|DATA|ONAM:bivale teneran|DNAM:Hlaalu|NAME:Well, are you going to give me the scroll or not?|SCVR:05IX2bk_ordersforbivaleteneran|INTV:|SCVR:34JX3HH_IndEsp3|INTV: |BNAM:Choice "Yes." 1 "The what?" 2
+
+[MOD-INF]: ID=1958932831546124345(Topic:caldera mining contracts)
+  morrowind.esm------->|DATA|ONAM:elmussa damori|NAME:Why are you asking me? You have no proof.
+  RP House Hlaalu.esp->|DATA|ONAM:elmussa damori|NAME:Why are you asking me? You have no proof.|BNAM
+
+[MOD-INF]: ID=2211038052156625862(:ebony trade)
+  morrowind.esm------->|DATA|ONAM:ashibaal|NAME:Yes, that is true. The Zainab are very strong and we have ebony to sell. Why do you want our ebony when you have ebony of your own?|SCVR:01500|INTV|BNAM:ModDisposition 10  Choice "If we both sell ebony the price drops." 1 "We do not have enough ebony." 2
+  RP House Hlaalu.esp->|NAME:Yes, that is true. The Zainab are very strong and we have ebony to sell. Why do you want our ebony when you have your own?|DELE:
+
+[MOD-INF]: ID=2294721506158363209(:greeting 5)
+  morrowind.esm------->|DATA|ONAM:neminda|NAME:Who are you? Wait! That's Felsen's helm!|SCVR:02sX0wearingHelmHH|DAIN:|SCVR:15IX2bonemold_gah-julan_hhda|INTV:|SCVR:21440|INTV:|SCVR:34JX3HH_DisguisedArmor|INTV: |SCVR:44JX4HH_DisguisedArmor|INTV:d|BNAM:StartCombat Player  Goodbye
+  RP House Hlaalu.esp->|NAME:Who are you? Wait! That's Felsen's helm!|DELE:
+
+[MOD-INF]: ID=2928966541733525844(Topic:alchemical formulas)
+  morrowind.esm------->|DATA|ONAM:aurane frernis|NAME:Those are secret. I will not reveal them to you.|SCVR:34JX4HH_IndEsp1|INTV:d
+  RP House Hlaalu.esp->|DATA|ONAM:aurane frernis|NAME:Those are secrets. I will not reveal them to you.|SCVR:34JX4HH_IndEsp1|INTV:d|BNAM:Choice "[Speechcraft] Perhaps a talented alchemist such as yourself could use an apprentice?" 1 "[800 Gold] Not even for gold, muthsera?" 2 "[Alchemy] We could both learn a great deal from each other." 3
+
+[MOD-INF]: ID=3032141842308314812(Topic:guar hides)
+  morrowind.esm------->|DATA|ONAM:rolasa oren|NAME:House Redoran has provided my guar hides for years.
+  RP House Hlaalu.esp->|DATA|ONAM:rolasa oren|NAME:House Redoran has provided my guar hides for years.|BNAM:Choice "[Speechcraft] If you were to buy from House Hlaalu, you would be supporting many hunters struggling to make a living." 1 "[500 Gold] If you buy from House Hlaalu, I'll invest five hundred drakes into your business myself." 2 "[Restoration] Those guar hides look infected. Are you sure they were not skinned from a blighted beast?" 3
+
+[MOD-INF]: ID=3108241043209931887(Topic:shipment of ebony)
+  morrowind.esm------->|DATA|ONAM:segunivus mantedius|NAME:Odral Helvi ordered you to deliver the ebony? To whom?|SCVR:01500|INTV|BNAM:Choice "Truth: Drinar Varyon in Ald'ruhn." 3 "Lie." 4
+  RP House Hlaalu.esp->|DATA|ONAM:segunivus mantedius|NAME:Odral Helvi ordered you to deliver the ebony? To whom?|SCVR:01500|INTV|BNAM:Choice "Drinar Varyon in Ald'ruhn." 3 "[Lie] The Drunken Mudcrab near Suran." 4
+
+[MOD-INF]: ID=3171813996498013815(Topic:orphan of arnesia)
+  morrowind.esm------->|DATA|ONAM:neminda|DNAM:Hlaalu|NAME:Oh, certainly Relmerea, here are your orders. They are in code, of course. Deliver them to Maar Gan as usual.|SCVR:02sX0wearingHelmHH|DAIN|SCVR:11440|INTV|BNAM:RemoveItem "bk_NemindasOrders" 1  Player->AddItem "bk_NemindasOrders" 1  Journal HH_DisguisedArmor 50
+  RP House Hlaalu.esp->|DATA|ONAM:neminda|DNAM:Hlaalu|NAME:Oh, certainly Relmerea, here are your orders. They are in code, of course. Deliver them to Maar Gan as usual.|SCVR:02sX0wearingHelmHH|DAIN|SCVR:11440|INTV|BNAM:RemoveItem "bk_NemindasOrders" 1  Player->AddItem "bk_NemindasOrders" 1  Journal HH_DisguisedArmor 50  Goodbye
+
+[MOD-INF]: ID=5560209771714117894(:ebony trade)
+  morrowind.esm------->|DATA|ONAM:ashibaal|NAME:Why are you speaking to me about ebony?|SCVR:34JX3HH_AshlanderEbony|INTV: |BNAM:Choice "The Zainab are now strong enough to sell ebony." 3 "I want you to sell ebony to House Hlaalu." 4 "I was told to come here." 5
+  RP House Hlaalu.esp->|NAME:Why are you speaking to me about ebony?|DELE:
+
+[MOD-INF]: ID=5625214941255225342(Topic:support on the council)
+  morrowind.esm------->|DATA|NAME:I am impressed that you found my manor. If I am to risk supporting you, I must know that you are strong as well as clever. I will offer my support if you best my champion, Garding the Bold. Are you willing?|SCVR:34JX3HH_BeroSupport|INTV: |BNAM:Choice "Yes." 1 "No, not yet." 2
+  RP House Hlaalu.esp->|DATA|NAME:I am impressed that you found my manor. If I am to risk supporting you, I must know that you are strong as well as clever. I will offer my support if you best my champion, Garding the Bold. Are you willing?|SCVR:34JX3HH_BeroSupport|INTV: |BNAM:Choice "Yes." 1 "No, not yet." 2 "[Speechcraft] Is trial by combat truly the Hlaalu way, councilor?" 3 "[Short Blade] You know how easily I could best him. Why waste time and energy amid pressing concerns?" 4
+
+[MOD-INF]: ID=7240276761450421877(Topic:orphan of arnesia)
+  morrowind.esm------->|DATA|ONAM:nileno dorvayn|NAME:Neminda is dead. There is no way we can get the orders now.|SCVR:34JX3HH_DisguisedArmor|INTV
+  RP House Hlaalu.esp->|DATA|ONAM:nileno dorvayn|ANAM:Abaelun Mine|NAME:Neminda is dead. There is no way we can get the orders now.|SCVR:34JX3HH_DisguisedArmor|INTV
+
+[MOD-INF]: ID=8038280651571829605(Topic:say that again)
+  morrowind.esm------->|DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:How fortunate! Your voice sounds almost like the Redoran Felsen Sethandus who died... um, just recently. Would you be willing to disguise yourself as Felsen Sethandus and get orders from House Redoran, then deliver the orders to me?|SCVR:01440|INTV:|SCVR:12sX1PCRace|INTV|SCVR:22sX1PCRace|INTV|SCVR:34JX4HH_DisguisedArmor|INTV:d|BNAM:Choice "Yes." 1 "No, too busy." 2
+  RP House Hlaalu.esp->|DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:How fortunate! Your voice sounds almost like the Redoran Felsen Sethandus who died... Um, just recently. Would you be willing to disguise yourself as Felsen Sethandus and get orders from House Redoran, then deliver the orders to me?|SCVR:01440|INTV:|SCVR:12sX1PCRace|INTV|SCVR:22sX1PCRace|INTV|SCVR:34JX4HH_DisguisedArmor|INTV:d|BNAM:Choice "Yes." 1 "No." 2
+
+[MOD-INF]: ID=8833145621801010547(:ebony trade)
+  morrowind.esm------->|DATA|ONAM:ashibaal|NAME:We Zainab have ebony and are strong. You do not have ebony of your own, and you are too weak to speak with me.|SCVR:01500|INTV|BNAM:Goodbye
+  RP House Hlaalu.esp->|NAME:We Zainab have ebony and are strong. You do not have ebony of your own, and you are too weak to speak with me.|DELE:
+
+[MOD-INF]: ID=9116128841980112945(Topic:camonna tong)
+  morrowind.esm------->|DATA|ONAM:Orvas Dren Druglord|NAME:So you've come to bargain, have you? What have you got?|SCVR:05IX2bk_drenblackmail|INTV:|SCVR:34JX3HH_WinCamonna|INTV: |BNAM:Choice "Together House Hlaalu and the Camonna Tong will both prosper." 1 "I have some papers I believe you should see." 3 "Nothing... yet." 2
+  RP House Hlaalu.esp->|DATA|ONAM:Orvas Dren Druglord|NAME:So you've come to bargain, have you? What have you got?|SCVR:05IX2bk_drenblackmail|INTV:|SCVR:34JX3HH_WinCamonna|INTV: |BNAM
+
+[MOD-INF]: ID=10366252532913317648(Topic:shipment of ebony)
+  morrowind.esm------->|DATA|ONAM:segunivus mantedius|NAME:Give me the ebony, and I will investigate Drinar Varyon and Odral Helvi. If what you say is true, I will have them both arrested.|SCVR:01500|INTV|BNAM:Choice "Give Ebony." 1 "Keep Ebony." 2
+  RP House Hlaalu.esp->|DATA|ONAM:segunivus mantedius|NAME:Give me the ebony, and I will investigate Drinar Varyon and Odral Helvi. If what you say is true, I will have them both arrested.|SCVR:01500|INTV|BNAM:Choice "Here." 1 "I've changed my mind." 2
+
+[MOD-INF]: ID=11366291431163315004(Topic:orphan of arnesia)
+  morrowind.esm------->|DATA|ONAM:neminda|NAME:You... you're not Felsen!|SCVR:02sX0wearingHelmHH|DAIN|SCVR:11425|INTV|SCVR:21440|INTV:
+  RP House Hlaalu.esp->|DATA|ONAM:neminda|NAME:You... You're not Felsen!|SCVR:02sX0wearingHelmHH|DAIN|SCVR:11425|INTV|SCVR:21440|INTV:|BNAM:Choice "Felsen sent me here to retrieve the coded message. He gave me his helm as proof for you." 1
+
+[MOD-INF]: ID=12993323382146311937(:ebony trade)
+  morrowind.esm------->|DATA|ONAM:ashibaal|NAME:Then I will tell you to leave here.|SCVR:01500|INTV|BNAM:Goodbye
+  RP House Hlaalu.esp->|NAME:Then I will tell you to leave here.|DELE:
+
+[MOD-INF]: ID=16581276391588414095(:prelude)
+  morrowind.esm------->|DATA|ONAM:edryno arethi|NAME:You can keep everything else, but that Wakizashi is mine.|SCVR:01500|INTV|BNAM:ModDisposition -10
+  RP House Hlaalu.esp->|NAME:Fine! But just remember, you can keep everything else, but that Wakizashi is mine.|DELE:
+
+[MOD-INF]: ID=17526149933175317577(Topic:murderer's description)
+  morrowind.esm------->|DATA|ONAM:thanelen velas|NAME:Just a coincidence, I assure you. Nine-Toes is the real murderer.|SCVR:34JX4HH_Retaliation|INTV:d
+  RP House Hlaalu.esp->|DATA|ONAM:thanelen velas|NAME:Just a coincidence, I assure you. Nine-Toes is the real murderer.|SCVR:34JX4HH_Retaliation|INTV:d|BNAM:Choice "That damn Argonian!" 1 "You're lying to me, Thanelen. You're the murderer!" 2 "[Imperial Legion] You're under arrest for the murder of Ralen Hlaalu." 3
+
+[MOD-INF]: ID=17632281732292924431(Topic:caldera mining contracts)
+  morrowind.esm------->|DATA|ONAM:crassius curio|NAME:Will you tell me who the thief is?|SCVR:34JX3HH_CaptureSpy|INTV:(|BNAM:Choice "Truth: Elmussa Damori." 1 "Lie." 2
+  RP House Hlaalu.esp->|DATA|ONAM:crassius curio|NAME:Will you tell me who the thief is?|SCVR:34JX3HH_CaptureSpy|INTV:(|BNAM:Choice "Elmussa Damori." 1 "[Lie] Nocturnal." 2
+
+[MOD-INF]: ID=18921114831866614791(Topic:orphan of arnesia)
+  morrowind.esm------->|DATA|ONAM:neminda|DNAM:Hlaalu|NAME:Who are you? That's... that's Relmerea's helm!|SCVR:05IX3bonemold_gah-julan_hhda|INTV|BNAM:SetFight 100  StartCombat Player  Goodbye
+  RP House Hlaalu.esp->|DATA|ONAM:neminda|DNAM:Hlaalu|NAME:Who are you? That's... That's Relmerea's helm! What are you doing with it?|SCVR:05IX3bonemold_gah-julan_hhda|INTV|BNAM:Choice "[Speechcraft] Apologies, muthsera. Relmerea sent me." 1 "[Luck] I uhh- I'm here for the uh... message?" 2 "[Illusion] What do you mean? I am Relmerea." 3
+
+[MOD-INF]: ID=19177174521586917410(:respect house hlaalu)
+  morrowind.esm------->|DATA|ONAM:velfred|NAME:Back off, %PCRace.
+  RP House Hlaalu.esp->|NAME:Back off, %PCRace.|DELE:
+
+[MOD-INF]: ID=19390208362503518031(Topic:camonna tong)
+  morrowind.esm------->|DATA|ONAM:Orvas Dren Druglord|NAME:Yes, I see what you mean. I respect your methods, %PCRace. Until I learn something equally interesting about you, I would be willing to work together.|SCVR:01500|INTV|BNAM:Journal HH_WinCamonna 50  ModDisposition 10
+  RP House Hlaalu.esp->|DATA|ONAM:Orvas Dren Druglord|NAME:Yes, I see what you mean. I respect your methods, %PCRace. Until I learn something equally interesting about you, I would be willing to work together.|SCVR:01500|INTV|BNAM:Journal HH_WinCamonna 50  ModDisposition 10  Goodbye
+
+[MOD-INF]: ID=19821293371703031681(Topic:say that again)
+  morrowind.esm------->|DATA|ONAM:nileno dorvayn|NAME:Good. Take this helm and speak with Neminda at the Redoran Council. Take a silt strider to Ald'ruhn, then look under Skar. When she asks what you want, say you are an orphan of Arnesia. Neminda should give you a coded message to deliver. Bring that coded message to me instead.|SCVR:01500|INTV|SCVR:11440|INTV|BNAM:Journal HH_DisguisedArmor 11  Player->AddItem Bonemold_Gah-Julan_HHDA 1  Neminda->AddItem bk_nemindasorders 1
+  RP House Hlaalu.esp->|DATA|ONAM:nileno dorvayn|NAME:Good. Take this helm and speak with Neminda at the Redoran Council. Take a silt strider to Ald'ruhn, then look under Skar, in the Redoran Council Hall. When she asks what you want, say you are an orphan of Arnesia. Neminda should give you a coded message to deliver. Bring that coded message to me instead.|SCVR:01500|INTV|SCVR:11440|INTV|BNAM:Journal HH_DisguisedArmor 11  Player->AddItem Bonemold_Gah-Julan_HHDA 1  Neminda->AddItem bk_nemindasorders 1
+
+[MOD-INF]: ID=21419185382597229921(Topic:caldera mining contracts)
+  morrowind.esm------->|DATA|ONAM:odral helvi|NAME:I see you found the missing contracts. Where did you find them?|SCVR:05IX2bk_CalderaMiningContract|INTV:|BNAM:Choice "Truth: Elmussa Damori." 1 "Lie." 2
+  RP House Hlaalu.esp->|DATA|ONAM:odral helvi|NAME:I see you found the missing contracts. Where did you find them?|SCVR:05IX2bk_CalderaMiningContract|INTV:|BNAM:Choice "Elmussa Damori stole them." 1 "I found them downstairs. One of the idiots must have muddled them up with some of their other documents." 2
+
+[MOD-INF]: ID=22960141892631023693(:debt money)
+  morrowind.esm------->|DATA|ONAM:Murudius Flaeus|NAME:I said I didn't have it. and I'm not giving you anything.|SCVR:34JX3HH_BuriedTreasure|INTV: 
+  RP House Hlaalu.esp->|NAME:I said I didn't have it. And I'm not giving you anything.|DELE:
+
+[MOD-INF]: ID=25370258381190124420(Journal:hh_winsaryoni)
+  morrowind.esm------->|DATA|NAME:Archcanon Tholer Saryoni told me he would prevent the worst zeal of the Ordinators if I retrieved The Rove of Saint Roris from Assemanu. To get there I should head towards Seyda Neen from Ebonheart. After crossing the wooden bridge, I should head south in the middle of the swamps until I reach an island.
+  RP House Hlaalu.esp->|DATA|NAME:Archcanon Tholer Saryoni told me he would prevent the worst zeal of the Ordinators if I retrieved The Robe of Saint Roris from Assemanu. To get there I should head towards Seyda Neen from Ebonheart. After crossing the wooden bridge, I should head south in the middle of the swamps until I reach an island.
+
+[MOD-INF]: ID=29083124951632117030(:ebony trade)
+  morrowind.esm------->|DATA|ONAM:Canctunian Ponius|NAME:Well, if you think you can make me a better offer...
+  RP House Hlaalu.esp->|NAME:Well, if you think you can make me a better offer...|DELE:
+
+[MOD-INF]: ID=29217236801865024924(:alchemical formulas)
+  morrowind.esm------->|DATA|ONAM:aurane frernis|NAME:I like you, %PCName, but I would never reveal my secrets.|SCVR:34JX4HH_IndEsp1|INTV:d
+  RP House Hlaalu.esp->|NAME:I like you, %PCName, but I would never reveal my secrets.|DELE:
+
+[MOD-INF]: ID=32072114361790331467(:ebony trade)
+  morrowind.esm------->|DATA|ONAM:Canctunian Ponius|NAME:Okay, you convinced me. Go back and tell House Hlaalu that I will sign a contract for another year.|BNAM:Journal HH_IndEsp4 50
+  RP House Hlaalu.esp->|NAME:Okay, you convinced me. Go back and tell House Hlaalu that I will sign a contract for another year.|DELE:

@@ -1,0 +1,362 @@
+Gwen (2).ESP: AUTOSPL DUP-INF DUP-REC JUNKCEL MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tribunal.esm                 4565578 (plugin)    4565686 (installed size)
+	Bloodmoon.esm                9631217 (plugin)    9631798 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	rm_gwenfix                     Gwen's Restoration
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Pub_Pelagiad_Halfway)
+	SCPT(RMMedila)
+	SCPT(RMSharn_Script)
+	SCPT(RM_BathWhere)
+	SCPT(RM_BathingEnd)
+	SCPT(RM_BathingPoint)
+	SCPT(RM_Birwaen)
+	SCPT(RM_Builder01)
+	SCPT(RM_FormanScript)
+	SCPT(RM_GwenAtts)
+	SCPT(RM_GwenClothes)
+	SCPT(RM_GwenGuilds)
+	SCPT(RM_GwenLevel)
+	SCPT(RM_GwenMask)
+	SCPT(RM_GwenMove)
+	SCPT(RM_GwenPGive)
+	SCPT(RM_GwenPGiveF)
+	SCPT(RM_GwenPGiveM)
+	SCPT(RM_GwenRandom)
+	SCPT(RM_GwenRats)
+	SCPT(RM_GwenRead)
+	SCPT(RM_GwenSkills)
+	SCPT(RM_GwenSleep)
+	SCPT(RM_GwenSwim)
+	SCPT(RM_Hooker_Marker)
+	SCPT(RM_HouseParts)
+	SCPT(RM_HouseParts2)
+	SCPT(RM_Movebuilders)
+	SCPT(RM_NameGuar)
+	SCPT(RM_PreQuestDisable)
+	SCPT(RM_Racers)
+	SCPT(RM_ScoutScript)
+	SCPT(RM_SetSkills)
+	SCPT(RM_StumpScript)
+	SCPT(RM_SwimCheck)
+	SCPT(RM_TakePotion)
+	SCPT(RM_WhichNode)
+	SCPT(RM_share)
+	SCPT(RaceCheck)
+	SCPT(ajiraScript)
+	SCPT(shrineGnisis)
+	SCPT(shrineGnisisRealMask)
+	SCPT(waterstate_torchdisable)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (-1, -6)           0x02
+	Ashlands Region (0, 2)                   0x02
+	Ashlands Region (0, 3)                   0x02
+	West Gash Region (-13, 13)               0x02
+	West Gash Region (-9, 13)                0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    greeting 0
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       GLOB    colonynord
+	morrowind.esm       ACTI    ac_shrine_gnisis_mv
+	morrowind.esm       ARMO    iron_shield
+	morrowind.esm       SCPT    shrineGnisisRealMask
+	tribunal.esm        GLOB    abelmawiacounter
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CREA    rat
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    1000-drake pledge
+	morrowind.esm       DIAL    apparatus
+	morrowind.esm       DIAL    crab meat
+	morrowind.esm       DIAL    dwemer artifacts
+	morrowind.esm       DIAL    dwemer puzzle box
+	morrowind.esm       DIAL    egg poachers
+	morrowind.esm       DIAL    fighters guild
+	morrowind.esm       DIAL    flowers
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    guar
+	morrowind.esm       DIAL    join house hlaalu
+	morrowind.esm       DIAL    join house redoran
+	morrowind.esm       DIAL    join house telvanni
+	morrowind.esm       DIAL    join the fighters guild
+	morrowind.esm       DIAL    join the imperial legion
+	morrowind.esm       DIAL    join the mages guild
+	morrowind.esm       DIAL    join the temple
+	morrowind.esm       DIAL    join the thieves guild
+	morrowind.esm       DIAL    muddled
+	morrowind.esm       DIAL    saltrice
+	morrowind.esm       DIAL    slander
+	morrowind.esm       DIAL    stoneflower petals
+	morrowind.esm       DIAL    wickwheat
+	morrowind.esm       GLOB    chargenstate
+	morrowind.esm       GLOB    madurarescued
+	morrowind.esm       NPC_    ajira
+	morrowind.esm       NPC_    baleni salavel
+	morrowind.esm       NPC_    crulius pontanian
+	morrowind.esm       NPC_    edwinna elbert
+	morrowind.esm       NPC_    hul
+	morrowind.esm       NPC_    imperial guard
+	morrowind.esm       NPC_    larrius varro
+	morrowind.esm       NPC_    marayn dren
+	morrowind.esm       NPC_    medila indaren
+	morrowind.esm       NPC_    milie hastien
+	morrowind.esm       NPC_    nalcarya of white haven
+	morrowind.esm       NPC_    naspis apinia
+	morrowind.esm       NPC_    peragon
+	morrowind.esm       NPC_    ra'zhid
+	morrowind.esm       NPC_    ralen hlaalo
+	morrowind.esm       NPC_    sal pudashara
+	morrowind.esm       NPC_    sharn gra-muzgob
+	morrowind.esm       NPC_    shipal zansatanit
+	morrowind.esm       NPC_    yakum hairshashishi
+	morrowind.esm       PGRD    ascadian isles region
+	morrowind.esm       PGRD    moonmoth legion fort, interior
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    fg_sottilde
+	tribunal.esm        DIAL    fg_telvanni_agents
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    mg_science
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    tg_diamonds
+
+[DUP-INF]: ID=1350753308949218(Topic:stoneflower petals)
+  |DATA|ONAM:ajira|NAME
+
+[DUP-INF]: ID=2748533315676598(Topic:join the imperial legion)
+  |DATA|ONAM:din|NAME:Join? Why would I want to do that? I already did! I don't think you'd fit in. Not a lot of slaughterfish in the Legion. Not even talking ones that look like a %PCRace.|SCVR:04JX4MV_MonsterDisease|INTV:1
+
+[DUP-INF]: ID=5335322465444076(Topic:1000-drake pledge)
+  |DATA|ONAM:Canctunian Ponius|NAME:Thank you again for recovering our embezzled funds.|SCVR:04JX3IC14_Ponius|INTV:-
+
+[DUP-INF]: ID=15245299310143794(Topic:egg poachers)
+  |DATA|NAME:You handled the Fighters Guild contract on that? Thank you. I should have handled it myself. But there's so much to do.|SCVR:04JX3FG_Egg_Poachers|INTV:d
+
+[DUP-INF]: ID=18847342643332070(Topic:join the imperial legion)
+  |DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1
+
+[DUP-INF]: ID=44141502094566975(Topic:saltrice)
+  |DATA|ONAM:tendris vedran|NAME:Saltrice is another of the tasty and nutritious foodstuffs with modest magical properties raised as export crops by Morrowind's farmers and plantation owners. Most saltrice seen in the Empire comes from southeastern Morrowind, but there are also some new and prospering farms and plantations in the Ascadian Isles. Saltrice also grows wild  in the Grazelands and on Azura's Coast.|SCVR:0CsX0NoLore|INTV
+
+[DUP-INF]: ID=66412384717816339(Topic:join house telvanni)
+  |DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:You are now a member of House Telvanni. Welcome, %PCRank %PCName. When you are ready, speak with me about your chores and your advancement in House Telvanni.|SCVR:01500|INTV|BNAM:PCJoinFaction "Telvanni"
+
+[DUP-INF]: ID=77156629161556592(Topic:dwemer puzzle box)
+  |DATA|ONAM:hasphat antabolis|NAME:The little cube I'm looking for is about the size of a fist, maybe a little bigger. It will be made of a coppery metal, with a circular design and symbols on one side and some lined marks on the other sides. That's all I want, that little cube.|SCVR:34JX3A1_2_AntabolisInformant|INTV
+
+[DUP-INF]: ID=155481611395326231(Journal:fg_telvanni_agents)
+  |DATA|NAME:I reported killing the Telvanni agents, and Eydis Fire-Eye paid me 400 gold.|QSTF
+
+[MOD-INF]: ID=165379896266010783(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:sharn gra-muzgob|NAME:Again? Is this about the errand you are doing for me?|SCVR:34JX3A1_4_MuzgobInformant|INTV: 
+  Gwen (2).ESP-->|DATA|ONAM:sharn gra-muzgob|NAME:Again? Is this about the errand you are doing for me?|SCVR:34JX3A1_4_MuzgobInformant|INTV: |BNAM:AddTopic "Training for Gwen"
+
+[DUP-INF]: ID=180167512227784148(Topic:dwemer artifacts)
+  |DATA|ONAM:Ra'zhid|NAME:What Dwemer artifacts?
+
+[MOD-INF]: ID=213581728523616536(Topic:ghostgate)
+  morrowind.esm->|DATA|NAME:I hope they maintain Ghostgate as a stronghold for the Ordinators and the Buoyant Armigers, and as a hostel for pilgrims. You know, Nerevarine, in years to come, they will make pilgrimages here, and to Red Mountain. We won't forget what you've done.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:ShowMap Ghostgate  ;Ghostgate;
+  Gwen (2).ESP-->|DATA|NAME:I hope they maintain Ghostgate as a stronghold for the Ordinators and the Buoyant Armigers, and as a hostel for pilgrims. You know, Nerevarine, in years to come, they will make pilgrimages here, and to Red Mountain. We won't forget what you've done.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:37XX0RM_Gwen|INTV|BNAM:ShowMap Ghostgate  ;Ghostgate;
+
+[DUP-INF]: ID=268668757283516934(Journal:tg_diamonds)
+  |DATA|NAME:I delivered a diamond to Sugar-Lips Habasi.|QSTF
+
+[DUP-INF]: ID=292531804432634565(Topic:join the thieves guild)
+  |DATA|FNAM:Thieves Guild|NAME:You are now a %PCRank in the Thieves Guild. Welcome, brother %PCName. Talk to me when you want some odd jobs to do and when you think you're ready for advancement. If you have a price on your head, there are those you can talk to as well.|SCVR:01500|INTV|BNAM:PCJoinFaction "Thieves Guild"  ModDisposition 5
+
+[MOD-INF]: ID=309473091451012429(Topic:ghostgate)
+  morrowind.esm->|DATA|NAME:Ghostgate is garrisoned by the Ordinators and the Buoyant Armigers, and House Redoran maintains a hostel for pilgrims.|SCVR:02sX4Random100|INTV:2|BNAM:ShowMap Ghostgate  ;Ghostgate;
+  Gwen (2).ESP-->|DATA|NAME:Ghostgate is garrisoned by the Ordinators and the Buoyant Armigers, and House Redoran maintains a hostel for pilgrims.|SCVR:02sX4Random100|INTV:2|SCVR:27XX0RM_Gwen|INTV|BNAM:ShowMap Ghostgate  ;Ghostgate;
+
+[MOD-INF]: ID=600369532483928811(Topic:slander)
+  morrowind.esm->|DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:The slander is being spread by Ondres Nerano. Track him down, and demand that he withdraw his slander. If he refuses, challenge him to a duel, but do not shame House Redoran by murdering him.|SCVR:34JX3HR_ClearSarethi|INTV:d|BNAM:Journal HR_HonorChallenge 10
+  Gwen (2).ESP-->|DATA|ONAM:athyn sarethi|DNAM:Redoran|NAME:The slander is being spread by Ondres Nerano. Track him down, and demand that he withdraw his slander. If he refuses, challenge him to a duel, but do not shame House Redoran by murdering him.|SCVR:34JX3HR_ClearSarethi|INTV:d|BNAM:Journal HR_HonorChallenge 10  StartScript RM_QuestRelated
+
+[DUP-INF]: ID=619869663147726409(Journal:fg_sottilde)
+  |DATA|NAME:Eydis Fire-Eye asked me to get a code book from Sottilde at the South Wall in Balmora.
+
+[DUP-INF]: ID=830047502734917849(Topic:wickwheat)
+  |DATA|ONAM:tendris vedran|NAME:Wickwheat is a wild Ashland grain with modest magical properties that grows in the Grazelands.|SCVR:0CsX0NoLore|INTV
+
+[DUP-INF]: ID=875317795149451008(Greeting:greeting 0)
+  |DATA|FNAM:Royal Guard|NAME:Halt!  The King suspected you might try something treacherous with his champion. He cannot allow this to continue. By order of His Royal Highness King Hlaalu Helseth, Duke of Mournhold, you are ordered to accompany me to the prison until His Highness deems you fit to engage in the agreed-upon contest.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+
+[MOD-INF]: ID=890437393252331801(Topic:ghostgate)
+  morrowind.esm->|DATA|NAME:For centuries Ordinators and Buoyant Armigers led by the Tribunal would passed through Ghostgate on annual raids against Dagoth Ur's ash vampire kin, but these raids were suspended because of heavy losses to the Temple forces.|SCVR:02sX4Random100|INTV|BNAM:ShowMap Ghostgate  ;scout; savant;
+  Gwen (2).ESP-->|DATA|NAME:For centuries Ordinators and Buoyant Armigers led by the Tribunal would passed through Ghostgate on annual raids against Dagoth Ur's ash vampire kin, but these raids were suspended because of heavy losses to the Temple forces.|SCVR:02sX4Random100|INTV|SCVR:37XX0RM_Gwen|INTV|BNAM:ShowMap Ghostgate  ;scout; savant;
+
+[DUP-INF]: ID=891017303285359421(Greeting:greeting 5)
+  |DATA|ONAM:sharn gra-muzgob|NAME:What? Are you DEAF? No interruptions! I can't think!
+
+[DUP-INF]: ID=938314983150524849(Topic:join house telvanni)
+  |DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:You are already a member of House Telvanni, %PCRank.|SCVR:01460|INTV
+
+[DUP-INF]: ID=967520225685214931(Topic:join house hlaalu)
+  |DATA|ANAM:Balmora, Hlaalu Council Manor|NAME:Speak with Nileno Dorvayn|SCVR:01460|INTV:
+
+[MOD-INF]: ID=1271813945413015993(Topic:beds)
+  morrowind.esm->|DATA|ONAM:banor seran|CNAM:Publican|NAME:Very good. Go down the stairs. The room on the right is yours. I'd avoid the left room, the man there wishes to be undisturbed..|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ;BALMORA COUNCIL CLUB  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Gwen (2).ESP-->|DATA|ONAM:banor seran|CNAM:Publican|NAME:Very good. Go down the stairs. The room on the right is yours. I'd avoid the left room, the man there wishes to be undisturbed..|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ;BALMORA COUNCIL CLUB  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2  Set RM_Gwen.bedtime to 1
+
+[MOD-INF]: ID=1281821504188985983(Topic:beds)
+  morrowind.esm->|DATA|ONAM:bacola closcius|CNAM:Publican|NAME:Very well, the bed is yours for the day. You'll find the door over there unlocked. I trust Balmora will treat you well..|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script BALMORA, South Wall  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Gwen (2).ESP-->|DATA|ONAM:bacola closcius|CNAM:Publican|NAME:Very well, the bed is yours for the day. You'll find the door over there unlocked. I trust Balmora will treat you well..|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script BALMORA, South Wall  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2  Set RM_Gwen.bedtime to 1
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=1378729702645021565(Topic:advancement)
+  |DATA|FNAM:Fighters Guild|NAME:The Fighters Guild recognizes you, %PCName. You are now %PCName the %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank
+
+[DUP-INF]: ID=1513217763048120821(Topic:join the thieves guild)
+  |DATA|ANAM:Balmora, South Wall Cornerclub|NAME:Talk to Sugar-Lips.|SCVR:11460|INTV:
+
+[MOD-INF]: ID=1594025613149529658(Topic:beds)
+  tribunal.esm->|DATA|ONAM:boderi farano|CNAM:Publican|NAME:Very well. Go down the stairs, and use the first room on your right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ALDRUHN ALD SKAR INN  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Gwen (2).ESP->|DATA|ONAM:boderi farano|CNAM:Publican|NAME:Very well. Go down the stairs, and use the first room on your right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ALDRUHN ALD SKAR INN  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2  Set RM_Gwen.bedtime to 1
+
+[DUP-INF]: ID=1733911399141146687(Topic:join house hlaalu)
+  |DATA|ONAM:nileno dorvayn|NAME:Very well. You are now a member of House Hlaalu. When you are ready, we can discuss business and advancement in House Hlaalu.|SCVR:01500|INTV|BNAM:PCJoinFaction "Hlaalu"
+
+[MOD-INF]: ID=1829817871509330722(Topic:1000-drake pledge)
+  morrowind.esm->|DATA|ONAM:Canctunian Ponius|NAME:If you recover the embezzled funds from the absconded clerk, Mossanon, I'll be happy to redeem my generous pledge.|SCVR:04JX3IC14_Ponius|INTV|SCVR:14JX4IC14_Ponius|INTV:2
+  Gwen (2).ESP-->|DATA|ONAM:Canctunian Ponius|NAME:If you recover the embezzled funds from the absconded clerk, Mossanon, I'll be happy to redeem my pledge.|SCVR:04JX3IC14_Ponius|INTV|SCVR:14JX4IC14_Ponius|INTV:2
+
+[DUP-INF]: ID=2010214589176655611(Topic:muddled)
+  |DATA|ONAM:din|NAME:A spell, huh? Never heard of a slaughterfish that could cast spells. Give it your best shot! Stop looking at me!|SCVR:01500|INTV|BNAM:Journal "MV_MonsterDisease" 46
+
+[DUP-INF]: ID=2225931001740931554(Topic:someone in particular)
+  |DATA|ONAM:Carnius Magius|NAME:Aside from Captain Carius, I'm the only one here worth talking to.
+
+[MOD-INF]: ID=2394122532865625896(Topic:beds)
+  morrowind.esm->|DATA|ONAM:ery|CNAM:Publican|NAME:Good. You can use the second floor loft.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script, SADRITH MORA  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Gwen (2).ESP-->|DATA|ONAM:ery|CNAM:Publican|NAME:Good. You can use the second floor loft.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script, SADRITH MORA  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2  Set RM_Gwen.bedtime to 1
+
+[DUP-INF]: ID=2396117113206484071(Journal:fg_sottilde)
+  |DATA|NAME:Sottilde agreed to give me the code book.
+
+[DUP-INF]: ID=2449526353749510483(Topic:join the temple)
+  |DATA|FNAM:Temple|NAME:You are now a %PCRank in the %Faction. Welcome, brother %PCName. I am one of several Masters you can go to get your duties and if you perform well, advancement in the %Faction is not out of the question.|SCVR:01500|INTV|BNAM:PCRaiseRank  ModDisposition 5
+
+[MOD-INF]: ID=2467420241504626206(Topic:beds)
+  tribunal.esm->|DATA|ONAM:hession|NAME:Very well, the bed is yours for the day. You'll find the room on the bottom floor, at the North end of the bar.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script MOURNHOLD WINGED GUAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Gwen (2).ESP->|DATA|ONAM:hession|NAME:Very well, the bed is yours for the day. You'll find the room on the bottom floor, at the North end of the bar.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script MOURNHOLD WINGED GUAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2  Set RM_Gwen.bedtime to 1
+
+[DUP-INF]: ID=2516112867243228513(Journal:mg_science)
+  |DATA|NAME:I delivered the Dwemer Tube to Edwinna.|QSTF
+
+[DUP-INF]: ID=2715912549403922083(Topic:muddled)
+  |DATA|ONAM:din|NAME:Fine! Can't trust you slaughterfish anyway! Are you threatening me? Go away!|SCVR:01500|INTV|BNAM:Journal "MV_MonsterDisease" 48
+
+[MOD-INF]: ID=2791429210669120524(Topic:join the thieves guild)
+  morrowind.esm->|DATA|FNAM:Thieves Guild|NAME:You really screwed the netch this time, but I may be able to pull some strings... If you make amends.|SCVR:01390|INTV|BNAM:moddisposition -10
+  Gwen (2).ESP-->|DATA|FNAM:Thieves Guild|NAME:You really screwed the netch this time, but I may be able to pull some strings... If you make amends.|SCVR:01390|INTV|BNAM:moddisposition -10  Set RM_Gwen.RM_TG to 0
+
+[DUP-INF]: ID=2809290792622916185(Topic:join the thieves guild)
+  |DATA|FNAM:Thieves Guild|ANAM:Ald-ruhn|NAME:Oh, no Thieves Guild here in Ald'ruhn, no ser. But maybe you should check for yourself over at the Rat in the Pot.|SCVR:11460|INTV:
+
+[DUP-INF]: ID=2867339301622328493(Topic:join house redoran)
+  |DATA|ONAM:neminda|NAME:Do not steal from your kin, strike your kin unprovoked, or murder your kin. Do not break your word. Honor your superiors and do your duty to your House. Respect the teachings of the Tribunal. Defend your House, your People, and your Honor. If you fail in these things, you will be cast out. If you fail twice, you will be cast out with no chance of regaining your honor.|SCVR:01500|INTV|BNAM:Choice "Join House Redoran." 2 "Nevermind." 3
+
+[DUP-INF]: ID=2920626030746112878(Topic:dwemer artifacts)
+  |DATA|ONAM:Ra'zhid|NAME:Ra'Zhid sees that you've been sniffing around. Will you give those artifacts back to Ra'Zhid, or will Ra'Zhid kill you?|SCVR:05IX3misc_dwrv_artifact60|INTV|SCVR:15IX3misc_dwrv_bowl00|INTV|SCVR:25IX3misc_dwrv_goblet00|INTV|BNAM:Choice "Give him the artifacts" 1 "Keep the artifacts" 2
+
+[DUP-INF]: ID=3003414966380822615(Topic:muddled)
+  |DATA|ONAM:din|NAME:Go to Gnisis with you? A slaughterfish? Ha! Hmmm...maybe I should follow you. That way I can keep my eye on you.|SCVR:01500|INTV|BNAM:Journal "MV_MonsterDisease" 40  AddTopic "slaughterfish bite"  "Din"->AiFollowCell,Player, "Gnisis, Temple", 0, 950, 2168, -638, 0
+
+[DUP-INF]: ID=3137517782452216666(Greeting:greeting 4)
+  |DATA|ANAM:Raven Rock|NAME:You've got the corprus! There's no cure for that, is there?|SCVR:01580|INTV
+
+[DUP-INF]: ID=3838125121486224273(Topic:muddled)
+  |DATA|ONAM:din|NAME:I'm just having some problems concentrating since the  slaughterfish bite. Having some problems controlling myself, too. You have a problem with that? Huh? Well? Sorry...I really need some help. Maybe you can get me to a healer? To hell with the healers. I don't need one! That Mehra Drora is a healer, but I don't like the way she looks at me. All of Gnisis is like that. Don't look at me!|BNAM:Journal "MV_MonsterDisease" 30  Choice "Perhaps you'd better follow me to the healer in Gnisis. I think she can help you." 1 "Perhaps I can cast a spell to cure your disease." 2 "I'm sorry, there's nothing I can do to help you." 3
+
+[MOD-INF]: ID=4354159581991817441(Topic:ghostgate)
+  morrowind.esm->|DATA|NAME:Ghostgate is a stronghold that guards the only passage through the Ghostfence and into the blighted region of Red Mountain.|BNAM:ShowMap Ghostgate  ;Ghostgate;
+  Gwen (2).ESP-->|DATA|NAME:Ghostgate is a stronghold that guards the only passage through the Ghostfence and into the blighted region of Red Mountain.|SCVR:37XX0RM_Gwen|INTV|BNAM:ShowMap Ghostgate  ;Ghostgate;
+
+[DUP-INF]: ID=5275104151157219106(Topic:join the thieves guild)
+  |DATA|FNAM:Thieves Guild|NAME:You are now a %PCRank in the Thieves Guild. Welcome, sister %PCName. Talk to me when you want some odd jobs to do and when you think you're ready for advancement. If you have a price on your head, there are those you can talk to as well.|SCVR:01500|INTV|SCVR:11380|INTV|BNAM:PCJoinFaction "Thieves Guild"  ModDisposition 5
+
+[MOD-INF]: ID=7418104811174331576(Topic:orders)
+  morrowind.esm->|DATA|ONAM:caius cosades|NAME:I'm not ready for you yet. And you're not at the level of performance I'm looking for yet. So, as I said, take some time to polish your skills and flesh out your cover story with a little freelance adventuring. Then, when you've gotten some exercise and loot, come back, and I'll have some new orders for you.|SCVR:34JX3A1_4_MuzgobInformant|INTV|SCVR:41064|INTV
+  Gwen (2).ESP-->|DATA|ONAM:caius cosades|NAME:I'm not ready for you yet. And you're not at the level of performance I'm looking for yet. So, as I said, take some time to polish your skills and flesh out your cover story with a little freelance adventuring. Then, when you've gotten some exercise and loot, come back, and I'll have some new orders for you.|SCVR:34JX3A1_4_MuzgobInformant|INTV|SCVR:41064|INTV|BNAM:Set RM_Gwen.nascell to 10
+
+[DUP-INF]: ID=9383144702671423698(Topic:crab meat)
+  |DATA|ONAM:tendris vedran|NAME:The mudcrab native to Vvardenfell is prized for its sweet crab meat. The flesh of the mudcrab is both tasty and possessed of modest magical properties.|SCVR:0CsX0NoLore|INTV
+
+[DUP-INF]: ID=9399220262148028841(Journal:mg_science)
+  |DATA|NAME:Edwinna asked me to retrieve a Dwemer Tube from Arkngthunch-Sturdumz. Edwinna thinks Arkngthunch-Sturdumz is west of Ald Velothi on the coast. If I follow the coast from Ald Velothi I should be able to see it.
+
+[DUP-INF]: ID=10105187551703219789(Journal:fg_sottilde)
+  |DATA|NAME:Eydis Fire-Eye thanked me for returning the code book and paid me 50 gold.|QSTF
+
+[MOD-INF]: ID=11940141231877526804(Topic:join house redoran)
+  morrowind.esm->|DATA|ONAM:neminda|NAME:House Redoran honors strength and endurance. We value all the skills of war, but especially the arts of long blade, spear, blocking, marksmanship, and athletics. Redorans must know how to use and repair heavy and medium armor. Only when armed with these skills can we perform our inherited duties as the warriors and defenders of the Dunmer.
+  Gwen (2).ESP-->|DATA|ONAM:neminda|NAME:So be it. You are now %NextPCRank %PCName in House Redoran. I will inform our trainers. Make use of them. If you truly wish to serve House Redoran, I can give you duties to perform. You may also check with me for advancement.|SCVR:01500|INTV|BNAM:PCJoinFaction "Redoran"
+
+[MOD-INF]: ID=12452206762580911498(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:sharn gra-muzgob|NAME:No. No interruptions! How many times.... Oh. You are one of Caius' associates? That is a different matter. Caius and I have a very satisfactory arrangement, and I'm sure we can come to some sort of agreement, if you will complete a little errand for me.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+  Gwen (2).ESP-->|DATA|ONAM:sharn gra-muzgob|NAME:No. No interruptions! How many times.... Oh. You are one of Caius' associates? That is a different matter. Caius and I have a very satisfactory arrangement, and I'm sure we can come to some sort of agreement, if you will complete a little errand for me.|SCVR:34JX3A1_4_MuzgobInformant|INTV|BNAM:AddTopic "Training for Gwen"
+
+[MOD-INF]: ID=13139129622269431723(Topic:beds)
+  morrowind.esm->|DATA|ONAM:drelasa ramothran|CNAM:Publican|NAME:Great. The bed is yours. At the end of the hall upstairs, you'll find it unlocked. Enjoy your stay in Pelagiad.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Gwen (2).ESP-->|DATA|ONAM:drelasa ramothran|CNAM:Publican|NAME:Great. The bed is yours. At the end of the hall upstairs, you'll find it unlocked. Enjoy your stay in Pelagiad.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2  Set RM_Gwen.bedtime to 1
+
+[DUP-INF]: ID=17515323232615912540(Journal:fg_telvanni_agents)
+  |DATA|NAME:I'm to find and kill four Telvanni agents responsible for thefts and disappearances at the Caldera Mine. Their names are Alynu Aralen, Sathasa Nerothren, Fothyna Herothran, and Alveleg. They're hiding in a cave in the hills north of Caldera Mine, and they probably have a lookout posted outside the mine. When the four agents are dead, report back to Eydis Fire-Eye.
+
+[MOD-INF]: ID=18040244441020929883(Greeting:greeting 5)
+  morrowind.esm->|DATA|ONAM:sharn gra-muzgob|NAME:Yes. You've been quite helpful. And if there's more you want to know, please ask.|SCVR:34JX3A1_4_MuzgobInformant|INTV
+  Gwen (2).ESP-->|DATA|ONAM:sharn gra-muzgob|NAME:Yes. You've been quite helpful. And if there's more you want to know, please ask.|SCVR:34JX3A1_4_MuzgobInformant|INTV|BNAM:AddTopic "Training for Gwen"
+
+[DUP-INF]: ID=19882142971327022854(Topic:dwemer puzzle box)
+  |DATA|ONAM:hasphat antabolis|NAME:Yes. The inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. If you're interested, after you've delivered your report to Caius, come back, and maybe I'll have a key you can take back to Arkngthand.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[DUP-INF]: ID=20387168602971829199(Topic:join the temple)
+  |DATA|FNAM:Temple|NAME:You are now a %PCRank in the %Faction. Welcome, sister %PCName. I am one of several Masters you can go to get your duties and if you perform well, advancement in the %Faction is not out of the question.|SCVR:01500|INTV|SCVR:11380|INTV|BNAM:PCRaiseRank  ModDisposition 5
+
+[MOD-INF]: ID=21432111501574114700(Topic:beds)
+  morrowind.esm->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's all yours for the day. Down the stairs to the right.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Gwen (2).ESP-->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's all yours for the day. Down the stairs to the right.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2  Set RM_Gwen.bedtime to 1
+
+[DUP-INF]: ID=21508226901506926086(Topic:apparatus)
+  |DATA|ONAM:Synnolian Tunifus|NAME
+
+[MOD-INF]: ID=21822175281023014429(Topic:join house hlaalu)
+  morrowind.esm->|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:House Telvanni seeks candidates of high intelligence and dominant will. We value the arts of magic: Mysticism, Conjuration, Illusion, Alteration, and Destruction. We also expect members to be capable of enchanting items
+  Gwen (2).ESP-->|DATA|ONAM:nileno dorvayn|NAME:I am sorry, but you do not meet our requirements.|SCVR:01460|INTV:
+
+[DUP-INF]: ID=24327223743162511959(Topic:1000-drake pledge)
+  |DATA|ONAM:Canctunian Ponius|NAME:Thank you for recovering our embezzled funds. And here are the 1000 drakes I pledged to support an Imperial cult mission to the Ashlanders.|SCVR:04JX3IC14_Ponius|INTV|SCVR:14JX4IC14_Ponius|INTV:2|BNAM:Journal IC14_Ponius 45  player->additem gold_001 1000
+
+[MOD-INF]: ID=24498209033079022986(Topic:fighters guild)
+  morrowind.esm->|DATA|ANAM:Balmora, Guild of Fighters|NAME:Yes. This is the Fighters Guild. Eydis Fire-Eye is the steward. Talk to her if you're thinking of joining the Fighters Guild.
+  Gwen (2).ESP-->|DATA|FNAM:Fighters Guild|ANAM:Balmora, Guild of Fighters|NAME:Yes. This is the Fighters Guild. Eydis Fire-Eye is the steward. Talk to her if you're thinking of joining the Fighters Guild.
+
+[MOD-INF]: ID=25962153161759731313(Topic:beds)
+  bloodmoon.esm->|DATA|ONAM:Alcedonia Amnis|CNAM:Publican|NAME:Very well. Head upstairs, to the last room on the right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script RAVEN ROCK BAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Gwen (2).ESP-->|DATA|ONAM:Alcedonia Amnis|CNAM:Publican|NAME:Very well. Head upstairs, to the last room on the right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script RAVEN ROCK BAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2  Set RM_Gwen.bedtime to 1
+
+[MOD-INF]: ID=26036209202016629907(Topic:beds)
+  morrowind.esm->|DATA|ONAM:benunius agrudilius|CNAM:Publican|NAME:It's all yours. Up the stairs to the left. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script BALMORA LUCKY LOCKUP  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Gwen (2).ESP-->|DATA|ONAM:benunius agrudilius|CNAM:Publican|NAME:It's all yours. Up the stairs to the left. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script BALMORA LUCKY LOCKUP  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2  Set RM_Gwen.bedtime to 1
+
+[MOD-INF]: ID=28002112342703720123(Topic:beds)
+  morrowind.esm->|DATA|CNAM:Publican|NAME:Great. The bed is yours. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Gwen (2).ESP-->|DATA|CNAM:Publican|NAME:Great. The bed is yours. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2  Set RM_Gwen.bedtime to 1
+
+[DUP-INF]: ID=28825112862179530173(Journal:fg_sottilde)
+  |DATA|NAME:Percius Mercius suggested that I try and get the code book secretly. Otherwise I would have to kill Sottilde for the book.
+
+[DUP-INF]: ID=30379260912760523618(Journal:tg_diamonds)
+  |DATA|NAME:Sugar-Lips Habasi asked me to bring her a diamond. She believes that Nalcarya of White Haven here in Balmora has diamonds, but any diamond will do.
+
+[DUP-INF]: ID=30421212191028818891(Greeting:greeting 5)
+  |DATA|ONAM:sharn gra-muzgob|NAME:I CANNOT think with all these interruptions. PLEASE leave me alone.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=31089205411193327763(Greeting:greeting 0)
+  |DATA|ONAM:Rat_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2

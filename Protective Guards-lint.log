@@ -1,0 +1,10 @@
+Protective Guards.esp: EXP-DEP GETSND MISSDSC MISSVER NUMRECS
+    [NUMRECS]: number of records in TES3.HEDR (5) != Actual count (4)
+    [EXP-DEP] Expansion Dependency: Startup Script: fl_ig_global
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(fl_ig_find_guard)               getspellreadied
+	SCPT(fl_ig_find_guard)               getweapondrawn
+	SCPT(fl_ig_global)                   getspellreadied
+	SCPT(fl_ig_global)                   getweapondrawn
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(fl_ig_global)

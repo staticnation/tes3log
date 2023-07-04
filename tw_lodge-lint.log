@@ -1,0 +1,18 @@
+tw_lodge.esp: DUP-REC MASTERS MENUMOD MISSAUT MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	tw_cloud_storage.esm          742671 (plugin)     742844 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BROctavo)
+	SCPT(BROctavo_05)
+	SCPT(BROctavo_06)
+	SCPT(BRQuarto)
+	SCPT(ExitBlockLodge)
+	SCPT(ss_DummyScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       SNDG    
+	tribunal.esm        ACTI    editormarker_box_02
+	tw_cloud_storage.esm    ACTI    displaycase_top2
+	tw_cloud_storage.esm    MISC    wl_qtablecloth1
+	tw_cloud_storage.esm    MISC    wl_scales
+	tw_cloud_storage.esm    STAT    displaycase_2

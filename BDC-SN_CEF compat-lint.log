@@ -1,0 +1,17 @@
+BDC-SN_CEF compat.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    murder of processus vitellius
+	tribunal.esm        DIAL    task
+
+[MOD-INF]: ID=222445677129166576(Topic:murder of processus vitellius)
+  morrowind.esm--------->|DATA|ONAM:chargen class|NAME:I heard you had been asking around about his murder. I'm glad to see this matter brought to its completion. Here's your reward, %PCName. Good to see there are still some citizens who understand their loyalty to our Emperor.|SCVR:06DX2foryn gilnith|INTV:|SCVR:14JX3MV_DeadTaxman|INTV:F|SCVR:24JX4MV_DeadTaxman|INTV:d|BNAM:Journal "MV_DeadTaxman" 100  RemoveItem "Gold_001" 500  Player->AddItem "Gold_001" 500  Goodbye
+  BDC-SN_CEF compat.ESP->|DATA|ONAM:dialog placeholder|NAME:I heard you had been asking around about his murder. I'm glad to see this matter brought to its completion. Here's your reward, %PCName. Good to see there are still some citizens who understand their loyalty to our Emperor.|SCVR:06DX2foryn gilnith|INTV:|SCVR:14JX3MV_DeadTaxman|INTV:F|SCVR:24JX4MV_DeadTaxman|INTV:d|BNAM:Journal "MV_DeadTaxman" 100  RemoveItem "Gold_001" 500  Player->AddItem "Gold_001" 500  Goodbye
+
+[MOD-INF]: ID=1616720351991631356(Topic:murder of processus vitellius)
+  morrowind.esm--------->|DATA|ONAM:chargen class|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor.|SCVR:04JX0MV_DeadTaxman|INTV:(
+  BDC-SN_CEF compat.ESP->|DATA|ONAM:dialog placeholder|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor.|SCVR:04JX0MV_DeadTaxman|INTV:(
+
+[MOD-INF]: ID=30336310151096819196(Topic:murder of processus vitellius)
+  morrowind.esm--------->|DATA|ONAM:chargen class|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor.|SCVR:04JX3MV_DeadTaxman|INTV:d
+  BDC-SN_CEF compat.ESP->|DATA|ONAM:chargen class|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor. With his death, we need to hire someone to take over his tasks. You have demonstrated your ability and your loyalty to the Empire. Would you like to join the Census and Excise Office?|SCVR:04JX0ek_bdc_taxman|INTV:U|SCVR:11460|INTV:|BNAM:AddTopic "join the Census and Excise Office"

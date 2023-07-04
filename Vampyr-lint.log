@@ -1,0 +1,18 @@
+Vampyr.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(OJ_VAMPYR_TestBecomeVampire)
+	SCPT(OJ_V_ScriptInitiateFeedOnTarget)
+	SCPT(OJ_V_StartScript)
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    greeting 2
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    1000-drake pledge
+
+[MOD-INF]: ID=5335322465444076(Topic:1000-drake pledge)
+  morrowind.esm->|DATA|ONAM:Canctunian Ponius|NAME:Thank you again for recovering our embezzled funds.|SCVR:04JX3IC14_Ponius|INTV:-
+  Vampyr.ESP---->|DATA|ONAM:Canctunian Ponius|NAME:Thank you again for recovering our embezzled funds.|SCVR:04JX3IC14_Ponius|INTV:-|SCVR:11600|INTV:
+
+[DUP-INF]: ID=263042661832839078(Greeting:greeting 2)
+  |DATA|NAME:Get away from me, vampire!|SCVR:01603|INTV|BNAM:;default NON-DUNMER;PC Vampire;   Goodbye  ModFlee 100  ModDisposition -50

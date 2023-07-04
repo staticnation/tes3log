@@ -1,0 +1,211 @@
+Sris_Alchemy_BM.esp: DEP-LST DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tribunal.esm                 4554200 (plugin)    4565686 (installed size)
+	Bloodmoon.esm                9627056 (plugin)    9631798 (installed size)
+    [DEP-LST] Deprecated use of Leveled List functions on Bethesda Lists:
+	SCPT(AddIngredientsScript_SA)        addtolevitem "l_n_apparatus"
+	SCPT(AddIngredientsScript_SA)        addtolevitem "random_de_cheapfood_01_nc"
+	SCPT(AddIngredientsScript_SA)        addtolevitem "random_dwarven_ingredients"
+	SCPT(AddIngredientsScript_SA)        addtolevitem "random_food"
+	SCPT(AddIngredientsScript_SA)        addtolevitem "random_gem"
+	SCPT(AddIngredientsScript_SA)        addtolevitem "random_ingredient"
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AddIngredientsScript_SA)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       CREA    bm_wolf_bone_summon
+	bloodmoon.esm       INGR    ingred_moon_sugar_01
+	morrowind.esm       INGR    ingred_stoneflower_petals_01
+	morrowind.esm       NPC_    eris telas
+	tribunal.esm        INGR    ingred_horn_lily_bulb_01
+	tribunal.esm        INGR    ingred_lloramor_spines_01
+	tribunal.esm        INGR    ingred_noble_sedge_01
+	tribunal.esm        INGR    ingred_sweetpulp_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       APPA    apparatus_j_calcinator_01
+	bloodmoon.esm       CONT    contain_bm_belladonna_0
+	bloodmoon.esm       CONT    flora_bm_holly_06
+	bloodmoon.esm       CONT    urn_01_ingred
+	bloodmoon.esm       CREA    bm_bear_black
+	bloodmoon.esm       CREA    bm_bear_black_summon
+	bloodmoon.esm       CREA    bm_bear_brown
+	bloodmoon.esm       CREA    bm_bear_snow_unique
+	bloodmoon.esm       CREA    bm_wolf_grey
+	bloodmoon.esm       CREA    bm_wolf_grey_lvl_1
+	bloodmoon.esm       CREA    bm_wolf_grey_summon
+	bloodmoon.esm       CREA    bm_wolf_hroldar
+	bloodmoon.esm       CREA    bm_wolf_red
+	bloodmoon.esm       CREA    bm_wolf_skeleton
+	bloodmoon.esm       CREA    bm_wolf_snow_unique
+	bloodmoon.esm       CREA    skeleton nord 
+	bloodmoon.esm       CREA    skeleton nord_2
+	bloodmoon.esm       CREA    skeleton_stahl_uni
+	bloodmoon.esm       INGR    ingred_belladonna_01
+	bloodmoon.esm       INGR    ingred_emerald_01
+	bloodmoon.esm       INGR    ingred_eyeball
+	bloodmoon.esm       INGR    ingred_gravetar_01
+	bloodmoon.esm       INGR    ingred_holly_01
+	bloodmoon.esm       INGR    ingred_horker_tusk_01
+	bloodmoon.esm       INGR    ingred_human_meat_01
+	bloodmoon.esm       INGR    ingred_saltrice_01
+	bloodmoon.esm       INGR    ingred_snowbear_pelt_unique
+	bloodmoon.esm       INGR    ingred_snowwolf_pelt_unique
+	bloodmoon.esm       INGR    ingred_wolf_pelt
+	bloodmoon.esm       INGR    ingred_wolfsbane_01
+	morrowind.esm       ALCH    p_fortify_intelligence_b
+	morrowind.esm       ALCH    p_fortify_intelligence_c
+	morrowind.esm       ALCH    p_fortify_intelligence_e
+	morrowind.esm       ALCH    p_fortify_intelligence_q
+	morrowind.esm       ALCH    p_fortify_intelligence_s
+	morrowind.esm       CONT    flora_bc_fern_01
+	morrowind.esm       CONT    urn_02_ingred
+	morrowind.esm       CONT    urn_03_ingred
+	morrowind.esm       CONT    urn_04_ingred
+	morrowind.esm       CONT    urn_05_ingred
+	morrowind.esm       CONT    urn_ash00
+	morrowind.esm       CONT    wizard_chest_01_evil
+	morrowind.esm       CREA    ascended_sleeper
+	morrowind.esm       CREA    ash_ghoul
+	morrowind.esm       CREA    bonelord
+	morrowind.esm       CREA    bonewalker
+	morrowind.esm       CREA    bonewalker_greater
+	morrowind.esm       CREA    bonewalker_weak
+	morrowind.esm       CREA    clannfear
+	morrowind.esm       CREA    daedroth
+	morrowind.esm       CREA    dagoth fandril
+	morrowind.esm       CREA    dagoth felmis
+	morrowind.esm       CREA    dagoth garel
+	morrowind.esm       CREA    dagoth goral
+	morrowind.esm       CREA    dagoth irvyn
+	morrowind.esm       CREA    dagoth malan
+	morrowind.esm       CREA    dagoth molos
+	morrowind.esm       CREA    dagoth rather
+	morrowind.esm       CREA    dagoth reler
+	morrowind.esm       CREA    dagoth tanis
+	morrowind.esm       CREA    dagoth ulen
+	morrowind.esm       CREA    dagoth uvil
+	morrowind.esm       CREA    dagoth vaner
+	morrowind.esm       CREA    dagoth_hlevul
+	morrowind.esm       CREA    dreugh
+	morrowind.esm       CREA    hunger
+	morrowind.esm       CREA    nix-hound
+	morrowind.esm       CREA    ogrim
+	morrowind.esm       CREA    ogrim titan
+	morrowind.esm       CREA    skeleton
+	morrowind.esm       CREA    skeleton archer
+	morrowind.esm       CREA    skeleton champion
+	morrowind.esm       CREA    skeleton warrior
+	morrowind.esm       CREA    slaughterfish_hr_sfavd
+	morrowind.esm       CREA    slaughterfish_small
+	morrowind.esm       CREA    winged twilight
+	morrowind.esm       DIAL    restore health potions
+	morrowind.esm       INGR    food_kwama_egg_01
+	morrowind.esm       INGR    ingred_6th_corprusmeat_01
+	morrowind.esm       INGR    ingred_6th_corprusmeat_02
+	morrowind.esm       INGR    ingred_6th_corprusmeat_03
+	morrowind.esm       INGR    ingred_6th_corprusmeat_04
+	morrowind.esm       INGR    ingred_6th_corprusmeat_05
+	morrowind.esm       INGR    ingred_6th_corprusmeat_06
+	morrowind.esm       INGR    ingred_6th_corprusmeat_07
+	morrowind.esm       INGR    ingred_alit_hide_01
+	morrowind.esm       INGR    ingred_ash_salts_01
+	morrowind.esm       INGR    ingred_bc_coda_flower
+	morrowind.esm       INGR    ingred_bc_hypha_facia
+	morrowind.esm       INGR    ingred_bc_spore_pod
+	morrowind.esm       INGR    ingred_black_anther_01
+	morrowind.esm       INGR    ingred_bonemeal_01
+	morrowind.esm       INGR    ingred_bread_01_uni2
+	morrowind.esm       INGR    ingred_chokeweed_01
+	morrowind.esm       INGR    ingred_comberry_01
+	morrowind.esm       INGR    ingred_coprinus_01
+	morrowind.esm       INGR    ingred_corkbulb_root_01
+	morrowind.esm       INGR    ingred_corprus_weepings_01
+	morrowind.esm       INGR    ingred_crab_meat_01
+	morrowind.esm       INGR    ingred_daedra_skin_01
+	morrowind.esm       INGR    ingred_daedras_heart_01
+	morrowind.esm       INGR    ingred_diamond_01
+	morrowind.esm       INGR    ingred_dreugh_wax_01
+	morrowind.esm       INGR    ingred_ectoplasm_01
+	morrowind.esm       INGR    ingred_fire_petal_01
+	morrowind.esm       INGR    ingred_fire_salts_01
+	morrowind.esm       INGR    ingred_frost_salts_01
+	morrowind.esm       INGR    ingred_ghoul_heart_01
+	morrowind.esm       INGR    ingred_gold_kanet_01
+	morrowind.esm       INGR    ingred_gravedust_01
+	morrowind.esm       INGR    ingred_hackle-lo_leaf_01
+	morrowind.esm       INGR    ingred_hound_meat_01
+	morrowind.esm       INGR    ingred_kagouti_hide_01
+	morrowind.esm       INGR    ingred_netch_leather_01
+	morrowind.esm       INGR    ingred_pearl_01
+	morrowind.esm       INGR    ingred_racer_plumes_01
+	morrowind.esm       INGR    ingred_rat_meat_01
+	morrowind.esm       INGR    ingred_raw_ebony_01
+	morrowind.esm       INGR    ingred_red_lichen_01
+	morrowind.esm       INGR    ingred_resin_01
+	morrowind.esm       INGR    ingred_roobrush_01
+	morrowind.esm       INGR    ingred_ruby_01
+	morrowind.esm       INGR    ingred_scales_01
+	morrowind.esm       INGR    ingred_scamp_skin_01
+	morrowind.esm       INGR    ingred_scrap_metal_01
+	morrowind.esm       INGR    ingred_scrib_jelly_01
+	morrowind.esm       INGR    ingred_scrib_jerky_01
+	morrowind.esm       INGR    ingred_shalk_resin_01
+	morrowind.esm       INGR    ingred_sload_soap_01
+	morrowind.esm       INGR    ingred_trama_root_01
+	morrowind.esm       INGR    ingred_vampire_dust_01
+	morrowind.esm       INGR    ingred_void_salts_01
+	morrowind.esm       INGR    ingred_wickwheat_01
+	morrowind.esm       INGR    ingred_willow_anther_01
+	morrowind.esm       NPC_    abelle chriditte
+	morrowind.esm       NPC_    ajira
+	morrowind.esm       NPC_    anarenen
+	morrowind.esm       NPC_    andil
+	morrowind.esm       NPC_    andilu drothan
+	morrowind.esm       NPC_    anis seloth
+	morrowind.esm       NPC_    aurane frernis
+	morrowind.esm       NPC_    bildren areleth
+	morrowind.esm       NPC_    brarayni sarys
+	morrowind.esm       NPC_    cienne sintieve
+	morrowind.esm       NPC_    cocistian quaspus
+	morrowind.esm       NPC_    craeita jullalian
+	morrowind.esm       NPC_    danoso andrano
+	morrowind.esm       NPC_    daynali dren
+	morrowind.esm       NPC_    dralval andrano
+	morrowind.esm       NPC_    ernand thierry
+	morrowind.esm       NPC_    galuro belan
+	morrowind.esm       NPC_    ganalyn saram
+	morrowind.esm       NPC_    garas seloth
+	morrowind.esm       NPC_    gils drelas
+	morrowind.esm       NPC_    irna maryon
+	morrowind.esm       NPC_    jolda
+	morrowind.esm       NPC_    nalcarya of white haven
+	morrowind.esm       NPC_    peragon
+	morrowind.esm       NPC_    pierlette rostorard
+	morrowind.esm       NPC_    rilvase avani
+	morrowind.esm       NPC_    rolasa oren
+	morrowind.esm       NPC_    tendris vedran
+	morrowind.esm       NPC_    teril savani
+	morrowind.esm       NPC_    tusamircil
+	tribunal.esm        BOOK    bk_alchemistsformulary
+	tribunal.esm        CREA    centurion_projectile
+	tribunal.esm        CREA    centurion_sphere
+	tribunal.esm        CREA    centurion_spider
+	tribunal.esm        CREA    centurion_steam
+	tribunal.esm        CREA    centurion_steam_advance
+	tribunal.esm        CREA    golden saint
+	tribunal.esm        CREA    lich
+	tribunal.esm        CREA    lich_barilzar
+	tribunal.esm        CREA    lich_profane_unique
+	tribunal.esm        CREA    lich_relvel
+	tribunal.esm        CREA    skeleton_summon
+	tribunal.esm        CREA    slaughterfish
+	tribunal.esm        INGR    ingred_golden_sedge_01
+	tribunal.esm        INGR    ingred_meadow_rye_01
+	tribunal.esm        INGR    ingred_nirthfly_stalks_01
+	tribunal.esm        INGR    ingred_russula_01
+	tribunal.esm        INGR    ingred_timsa-come-by_01
+
+[MOD-INF]: ID=1695926712626822942(Topic:restore health potions)
+  morrowind.esm------->|DATA|ONAM:Synnolian Tunifus|NAME:To make a Restore Health potion, combine two ore more of the following cheap and common ingredients in the mortar and pestle: marshmerrow, wickwheat, corkbulb root, and saltrice. It isn't easy, of course. If you aren't very skilled, you will often ruin the ingredients and fail to make the potion. But with practice and training, you'll improve. And a complete set of alchemical apparatus can improve your success rate.
+  Sris_Alchemy_BM.esp->|DATA|ONAM:Synnolian Tunifus|NAME:To make a Restore Health potion, combine two ore more of the following cheap and common ingredients in the mortar and pestle: marshmerrow, spore pod, corkbulb root, and saltrice. It isn't easy, of course. If you aren't very skilled, you will often ruin the ingredients and fail to make the potion. But with practice and training, you'll improve. And a complete set of alchemical apparatus can improve your success rate.

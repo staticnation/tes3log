@@ -1,0 +1,9 @@
+Note from the Archcanon Fix.ESP: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       BOOK    bk_saryoni_note
+	morrowind.esm       DIAL    redoran hortator
+
+[MOD-INF]: ID=644392992292611115(Topic:redoran hortator)
+  morrowind.esm------------------->|DATA|ONAM:athyn sarethi|NAME:I also have a sealed package for you. I do not know what it contains, but I received it from a contact in the highest ranks of the Temple. My guess is that it has something to do with the Temple's position on your claim to fulfill the Nerevarine prophecies. And here is a copy of a recent public notice identifying you as an Imperial agent. I am satisfied of your sincerity, but I warn you that others may not be so understanding.|SCVR:01500|INTV|BNAM:Player->AddItem "bk_NerevarineNotice" 1  Journal "B5_RedoranHort" 70  player->additem "bk_saryoni_note" 1  Journal "B8_MeetVivec" 1  Journal "B5_RedoranHort" 50  Journal "B5_RedoranHort" 60  Player->AddItem "hortatorring" 1  Player->ModReputation 4
+  Note from the Archcanon Fix.ESP->|DATA|ONAM:athyn sarethi|NAME:I also have a sealed package for you. I do not know what it contains, but I received it from a contact in the highest ranks of the Temple. My guess is that it has something to do with the Temple's position on your claim to fulfill the Nerevarine prophecies. And here is a copy of a recent public notice identifying you as an Imperial agent. I am satisfied of your sincerity, but I warn you that others may not be so understanding.|SCVR:01500|INTV|BNAM:Player->AddItem "bk_NerevarineNotice" 1  Journal "B5_RedoranHort" 70  player->additem "bk_saryoni_note_f" 1  Journal "B8_MeetVivec" 1  Journal "B5_RedoranHort" 50  Journal "B5_RedoranHort" 60  Player->AddItem "hortatorring" 1  Player->ModReputation 4

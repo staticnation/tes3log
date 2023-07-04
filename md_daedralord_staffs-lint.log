@@ -1,0 +1,32 @@
+md_daedralord_staffs.ESP: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(md_Has_Staff_AZ)
+	SCPT(md_Has_Staff_BO)
+	SCPT(md_Has_Staff_HI)
+	SCPT(md_Has_Staff_MA)
+	SCPT(md_Has_Staff_MB)
+	SCPT(md_Has_Staff_MD)
+	SCPT(md_Has_Staff_ME)
+	SCPT(md_script_ShrineOfHircine)
+	SCPT(md_script_ShrineOfMephala)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (4, -7)
+	morrowind.esm       LAND    (6, 24)
+	morrowind.esm       LAND    (6, 25)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky

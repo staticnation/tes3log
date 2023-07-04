@@ -1,0 +1,12 @@
+FG-Redoran Skill Fix.esp: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (3) != Actual count (5)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       BOOK    bk_charterfg
+	morrowind.esm       DIAL    requirements
+	morrowind.esm       FACT    fighters guild
+	morrowind.esm       FACT    redoran
+
+[MOD-INF]: ID=824626281811019302(Topic:requirements)
+  morrowind.esm------------>|DATA|ONAM:Lalatia Varian|NAME:Congratulations, %PCName. You have been promoted to %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank  Goodbye
+  FG-Redoran Skill Fix.esp->|DATA|FNAM:Fighters Guild|NAME:The Guild selects for strength and endurance. Stewards accept only those proficient in one or more of the following: long blade, axe, blunt weapons and spear. Guildsmen must know how to block and how to fight in heavy armor. Guildsmen must also provide for the repair and upkeep of their armor.

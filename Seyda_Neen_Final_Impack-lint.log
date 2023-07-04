@@ -1,0 +1,469 @@
+Seyda_Neen_Final_Impack.ESP: AUTOSPL DUP-INF DUP-REC EVLGMST JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	rally ancient slaughterfish    Rally Creature
+    [EVLGMST] Tribunal(11) Bloodmoon(61):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfalarmmessage
+	BM swerewolfpopup
+	BM swerewolfrefusal
+	BM swerewolfrestmessage
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+	TB steleportdisabled
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Addtopickey)
+	SCPT(ReturnHome)
+	SCPT(aaHomeShak)
+	SCPT(aaaFox_container_script)
+    [JUNKCEL] Junk Cells:                        Flags
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	Bitter Coast Region (-3, -11)            0x02
+	Bitter Coast Region (-5, -12)            0x02
+	Bitter Coast Region (0, -10)             0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    bitter coast
+	morrowind.esm       DIAL    seyda neen
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       BOOK    bk_mixedunittactics
+	bloodmoon.esm       BOOK    sc_paper plain
+	bloodmoon.esm       CONT    bm_com_chest_clothes_01
+	bloodmoon.esm       CONT    com_sack_01_chpfood5
+	bloodmoon.esm       CONT    com_sack_02_chpfood3
+	bloodmoon.esm       MISC    misc_de_basket_01
+	bloodmoon.esm       STAT    ex_de_shack_plank_03
+	bloodmoon.esm       STAT    furn_com_kegstand
+	bloodmoon.esm       STAT    furn_com_rm_stool_01
+	bloodmoon.esm       STAT    furn_com_tapestry_04
+	bloodmoon.esm       STAT    furn_table_thirsk_over
+	bloodmoon.esm       STAT    in_c_plain_room_center
+	bloodmoon.esm       STAT    in_nord_fireplace_01
+	morrowind.esm       ACTI    a_ex_de_oar
+	morrowind.esm       ACTI    active_com_bed_04
+	morrowind.esm       ACTI    active_com_bed_06
+	morrowind.esm       ACTI    active_de_p_bed_04
+	morrowind.esm       ACTI    sound_boat_creak00
+	morrowind.esm       ALCH    p_chameleon_c
+	morrowind.esm       ALCH    p_restore_magicka_e
+	morrowind.esm       ALCH    p_swift_swim_e
+	morrowind.esm       ALCH    potion_comberry_wine_01
+	morrowind.esm       ALCH    potion_local_liquor_01
+	morrowind.esm       BOOK    bk_abcs
+	morrowind.esm       BOOK    bk_aedraanddaedra
+	morrowind.esm       BOOK    bk_biographybarenziah1
+	morrowind.esm       BOOK    bk_biographybarenziah2
+	morrowind.esm       BOOK    bk_biographybarenziah3
+	morrowind.esm       BOOK    bk_frontierconquestaccommodat
+	morrowind.esm       BOOK    bk_guide_to_balmora
+	morrowind.esm       BOOK    bk_invocationofazura
+	morrowind.esm       BOOK    bk_landdeedfake_hhrd
+	morrowind.esm       BOOK    bk_mysticism
+	morrowind.esm       BOOK    bk_ngastakvatakvakis_c
+	morrowind.esm       BOOK    bk_onmorrowind
+	morrowind.esm       BOOK    bk_onoblivion
+	morrowind.esm       BOOK    bk_pigchildren
+	morrowind.esm       BOOK    bookskill_alchemy3
+	morrowind.esm       BOOK    bookskill_athletics3
+	morrowind.esm       BOOK    bookskill_illusion4
+	morrowind.esm       BOOK    bookskill_light armor4
+	morrowind.esm       BOOK    bookskill_medium armor5
+	morrowind.esm       BOOK    bookskill_short blade4
+	morrowind.esm       CONT    barrel_01_empty
+	morrowind.esm       CONT    barrel_smuggler_01
+	morrowind.esm       CONT    crate_01_armor_glass
+	morrowind.esm       CONT    crate__02_skooma2
+	morrowind.esm       CONT    de_p_chest_02
+	morrowind.esm       CONT    de_p_desk_01
+	morrowind.esm       CONT    flora_bc_fern_01
+	morrowind.esm       CONT    flora_comberry_01
+	morrowind.esm       CREA    mudcrab
+	morrowind.esm       DOOR    ex_common_door_01
+	morrowind.esm       DOOR    in_c_door_arched
+	morrowind.esm       DOOR    in_c_door_wood_square
+	morrowind.esm       INGR    food_kwama_egg_01
+	morrowind.esm       INGR    ingred_bc_coda_flower
+	morrowind.esm       INGR    ingred_coprinus_01
+	morrowind.esm       INGR    ingred_green_lichen_01
+	morrowind.esm       LIGH    light_com_lantern_02_128
+	morrowind.esm       LIGH    light_de_lantern_03_128
+	morrowind.esm       MISC    key_abebaalslaves_01
+	morrowind.esm       MISC    misc_com_silverware_knife
+	morrowind.esm       MISC    misc_com_silverware_spoon
+	morrowind.esm       MISC    misc_com_wood_spoon_02
+	morrowind.esm       MISC    misc_de_cloth11
+	morrowind.esm       MISC    misc_de_lute_01
+	morrowind.esm       MISC    misc_inkwell
+	morrowind.esm       NPC_    avus belvilo
+	morrowind.esm       NPC_    chargen captain
+	morrowind.esm       NPC_    chargen class
+	morrowind.esm       STAT    ex_common_entrance_01
+	morrowind.esm       STAT    ex_common_plat_cent
+	morrowind.esm       STAT    ex_de_docks_center
+	morrowind.esm       STAT    ex_de_docks_piling
+	morrowind.esm       STAT    ex_de_docks_piling_01
+	morrowind.esm       STAT    ex_de_docks_pilingb
+	morrowind.esm       STAT    ex_de_oar
+	morrowind.esm       STAT    ex_de_rowboat
+	morrowind.esm       STAT    ex_de_shack_awning_02
+	morrowind.esm       STAT    ex_de_shack_plank_04
+	morrowind.esm       STAT    ex_drystonewall_c_01
+	morrowind.esm       STAT    ex_dwrv_block10
+	morrowind.esm       STAT    ex_longboat02
+	morrowind.esm       STAT    ex_nord_chimney_01
+	morrowind.esm       STAT    ex_nord_doorf_01
+	morrowind.esm       STAT    ex_nord_well_01
+	morrowind.esm       STAT    ex_nord_win_01
+	morrowind.esm       STAT    ex_nord_win_02
+	morrowind.esm       STAT    flora_bc_grass_01
+	morrowind.esm       STAT    flora_tree_ai_02
+	morrowind.esm       STAT    furn_c_t_theif_01
+	morrowind.esm       STAT    furn_com_lantern_hook_02
+	morrowind.esm       STAT    furn_com_p_shelf_03
+	morrowind.esm       STAT    furn_com_planter
+	morrowind.esm       STAT    furn_com_rm_bench_02
+	morrowind.esm       STAT    furn_com_rm_bookshelf_02
+	morrowind.esm       STAT    furn_com_rm_chair_03
+	morrowind.esm       STAT    furn_com_rm_shelf_01
+	morrowind.esm       STAT    furn_com_rm_shelf_02
+	morrowind.esm       STAT    furn_com_rm_table_04
+	morrowind.esm       STAT    furn_com_rm_table_05
+	morrowind.esm       STAT    furn_de_cushion_round_06
+	morrowind.esm       STAT    furn_de_cushion_square_06
+	morrowind.esm       STAT    furn_de_overhang_06
+	morrowind.esm       STAT    furn_de_overhang_09
+	morrowind.esm       STAT    furn_de_p_bench_03
+	morrowind.esm       STAT    furn_de_p_chair_02
+	morrowind.esm       STAT    furn_de_pathspear_01
+	morrowind.esm       STAT    furn_de_r_bench_01
+	morrowind.esm       STAT    furn_de_r_bookshelf_02
+	morrowind.esm       STAT    furn_de_r_wallscreen_01
+	morrowind.esm       STAT    furn_de_rug_01
+	morrowind.esm       STAT    furn_de_rug_02
+	morrowind.esm       STAT    furn_dwrv_cabinet00
+	morrowind.esm       STAT    furn_dwrv_stove00
+	morrowind.esm       STAT    furn_fireplace10
+	morrowind.esm       STAT    furn_imp_flag_01_indoor
+	morrowind.esm       STAT    furn_log_01
+	morrowind.esm       STAT    in_c_doorframe_01
+	morrowind.esm       STAT    in_c_pillar_wood
+	morrowind.esm       STAT    in_c_plain_corner
+	morrowind.esm       STAT    in_c_plain_endcap
+	morrowind.esm       STAT    in_c_plain_hall_small
+	morrowind.esm       STAT    in_c_plain_r_swin_bay_01
+	morrowind.esm       STAT    in_c_plain_room_corner
+	morrowind.esm       STAT    in_c_plain_room_entry
+	morrowind.esm       STAT    in_c_plain_room_side
+	morrowind.esm       STAT    in_c_plain_room_swin_01
+	morrowind.esm       STAT    in_c_plain_stair_short
+	morrowind.esm       STAT    in_nord_doorf_01
+	morrowind.esm       STAT    terrain_rock_bc_18
+	morrowind.esm       WEAP    iron claymore
+	tribunal.esm        ALCH    potion_local_brew_01
+	tribunal.esm        BOOK    bk_ancestorsandthedunmer
+	tribunal.esm        BOOK    bk_annotatedanuad
+	tribunal.esm        BOOK    bk_anticipations
+	tribunal.esm        BOOK    bk_consolationsofprayer
+	tribunal.esm        BOOK    bk_easternprovincesimpartial
+	tribunal.esm        BOOK    bk_graspingfortune
+	tribunal.esm        BOOK    bk_houseoftroubles_c
+	tribunal.esm        BOOK    bk_legionsofthedead
+	tribunal.esm        CONT    urn_02_food
+	tribunal.esm        DOOR    ex_de_shack_door
+	tribunal.esm        DOOR    in_de_shack_door
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+	tribunal.esm        MISC    misc_skull00
+	tribunal.esm        MISC    misc_soulgem_greater
+	tribunal.esm        MISC    misc_uni_pillow_01
+	tribunal.esm        STAT    furn_de_ex_bench_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    barrel_01
+	bloodmoon.esm       CONT    chest_small_01_goldr500
+	bloodmoon.esm       CONT    com_chest_02_misc06
+	bloodmoon.esm       DOOR    in_com_traptop_01
+	bloodmoon.esm       DOOR    in_de_ship_cabindoor
+	bloodmoon.esm       DOOR    in_de_shipdoor_toplevel
+	bloodmoon.esm       LEVI    bm_imperial guard random weapon
+	bloodmoon.esm       LEVI    bm_randomwpn_smugglers
+	bloodmoon.esm       LIGH    bm_firepit_uni
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       ACTI    a_ex_de_shack_door
+	morrowind.esm       ACTI    active_sign_ghostgate_01
+	morrowind.esm       CONT    barrel_02_ingred
+	morrowind.esm       CONT    com_basket_01
+	morrowind.esm       CONT    com_chest_01_elmussa2
+	morrowind.esm       CONT    com_chest_01_empty
+	morrowind.esm       CONT    com_chest_01_misc07
+	morrowind.esm       CONT    com_chest_02_misc09
+	morrowind.esm       CONT    com_cupboard_01_glasses
+	morrowind.esm       CONT    crate_smuggler_01
+	morrowind.esm       CREA    slaughterfish_small
+	morrowind.esm       DIAL    1000-drake pledge
+	morrowind.esm       DIAL    murder of processus vitellius
+	morrowind.esm       DOOR    door_dwrv_inner00
+	morrowind.esm       DOOR    ex_imp_loaddoor_01
+	morrowind.esm       DOOR    in_com_trapbottom_01
+	morrowind.esm       DOOR    in_impsmall_d_hidden_01
+	morrowind.esm       DOOR    in_r_trapdoor_01
+	morrowind.esm       DOOR    in_strong_vaultdoor00
+	morrowind.esm       LAND    (-1, -10)
+	morrowind.esm       LAND    (-1, -11)
+	morrowind.esm       LAND    (-1, -9)
+	morrowind.esm       LAND    (-2, -10)
+	morrowind.esm       LAND    (-2, -11)
+	morrowind.esm       LAND    (-2, -8)
+	morrowind.esm       LAND    (-2, -9)
+	morrowind.esm       LAND    (-3, -10)
+	morrowind.esm       LAND    (-3, -11)
+	morrowind.esm       LAND    (-3, -8)
+	morrowind.esm       LAND    (-3, -9)
+	morrowind.esm       LAND    (0, -10)
+	morrowind.esm       LAND    (6, -7)
+	morrowind.esm       LEVI    imperial guard random weapon
+	morrowind.esm       LEVI    l_m_wpn_melee_axe
+	morrowind.esm       LEVI    l_m_wpn_melee_long blade
+	morrowind.esm       LEVI    l_m_wpn_melee_short blade
+	morrowind.esm       LEVI    l_n_wpn_melee_spear
+	morrowind.esm       LEVI    random_de_weapon
+	morrowind.esm       LEVI    random_food
+	morrowind.esm       LEVI    random_iron_weapon
+	morrowind.esm       LEVI    random_silver_weapon
+	morrowind.esm       LEVI    random_smuggler_11+
+	morrowind.esm       LEVI    random_steel_weapon
+	morrowind.esm       LEVI    random_weapon_melee_basic
+	morrowind.esm       LIGH    light_fire_nosmoke_177
+	morrowind.esm       LIGH    orange_fire_128_f
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       MISC    misc_vivec_ashmask_01_fake
+	morrowind.esm       NPC_    imperial guard
+	morrowind.esm       PGRD    seyda neen
+	morrowind.esm       WEAP    steel shortsword
+	tribunal.esm        CONT    crate_01
+	tribunal.esm        CREA    slaughterfish
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DOOR    door_dwrv_load00
+	tribunal.esm        DOOR    door_dwrv_loadup00
+	tribunal.esm        DOOR    ex_de_ship_trapdoor
+	tribunal.esm        DOOR    ex_h_trapdoor_01
+	tribunal.esm        DOOR    ex_nord_door_01
+	tribunal.esm        DOOR    hlaalu_loaddoor_ 02
+	tribunal.esm        DOOR    in_h_trapdoor_01
+	tribunal.esm        DOOR    in_hlaalu_door
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+
+[MOD-INF]: ID=5335322465444076(Topic:1000-drake pledge)
+  morrowind.esm--------------->|DATA|ONAM:Canctunian Ponius|NAME:Thank you again for recovering our embezzled funds.|SCVR:04JX3IC14_Ponius|INTV:-
+  Seyda_Neen_Final_Impack.ESP->|DATA|ONAM:Lutrix|NAME:Thank you again for recovering our embezzled funds.|SCVR:04JX3IC14_Ponius|INTV:-
+
+[DUP-INF]: ID=14682489440924976(Greeting:greeting 7)
+  |DATA|CNAM:Publican|NAME:What do you want?|BNAM:;publican default
+
+[DUP-INF]: ID=126413263221162907(Topic:bitter coast)
+  |DATA|CNAM:Scout|ANAM:Seyda Neen|NAME:The Bitter Coast is also called 'the Smuggler's Coast'. Hidden coves and islands are handy for smugglers, and the frequent rain and fog hides small boats from Excise cutters.|SCVR:02sX4Random100|INTV:!|SCVR:1CsX0NoLore|INTV:|BNAM:;scout; savant;
+
+[MOD-INF]: ID=222445677129166576(Topic:murder of processus vitellius)
+  morrowind.esm--------------->|DATA|ONAM:chargen class|NAME:I heard you had been asking around about his murder. I'm glad to see this matter brought to its completion. Here's your reward, %PCName. Good to see there are still some citizens who understand their loyalty to our Emperor.|SCVR:06DX2foryn gilnith|INTV:|SCVR:14JX3MV_DeadTaxman|INTV:F|SCVR:24JX4MV_DeadTaxman|INTV:d|BNAM:Journal "MV_DeadTaxman" 100  RemoveItem "Gold_001" 500  Player->AddItem "Gold_001" 500  Goodbye
+  Seyda_Neen_Final_Impack.ESP->|DATA|ONAM:chargen class|NAME:I heard you had been asking around about his murder. I'm glad to see this matter brought to its completion. Here's your reward, %PCName. Good to see there are still some citizens who understand their loyalty to our Emperor. As well, you may stay in his old manor anytime you find yourself in our little town. Here is the key. As well, you may find a spare that can be found in a lockbox under the manor's personal dock if you lose that one, again thank you for your help in this matter.|SCVR:06DX2foryn gilnith|INTV:|SCVR:14JX3MV_DeadTaxman|INTV:F|SCVR:24JX4MV_DeadTaxman|INTV:d|BNAM:Journal "MV_DeadTaxman" 100  RemoveItem "Gold_001" 500  Player->AddItem "Gold_001" 500  player->Additem "01KeytoManorSMHPickle" 1  Goodbye
+
+[DUP-INF]: ID=2184129280216541515(Greeting:greeting 7)
+  |DATA|CNAM:Publican|NAME:We rent beds. I have some goods for barter. What do you want?|BNAM:;Drelasa Ramothran
+
+[DUP-INF]: ID=2361125447129126124(Topic:seyda neen)
+  |DATA|CNAM:Scout|ANAM:Seyda Neen|NAME:Seyda Neen is a small seaport in the Bitter Coast region, on the southwest coast of Vvardenfell.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap "Seyda Neen"  ;scout; savant;
+
+[DUP-INF]: ID=2872697931174524339(Topic:bitter coast)
+  |DATA|CNAM|NAME:The Bitter Coast is also called 'the Smuggler's Coast'. Hidden coves and islands are handy for smugglers, and the frequent rain and fog hides small boats from Excise cutters.|SCVR:02sX4Random100|INTV:!|SCVR:1CsX0NoLore|INTV:|BNAM:;scout; savant;
+
+[DUP-INF]: ID=3182146312256410879(Greeting:greeting 7)
+  |DATA|ONAM:Agning|NAME:Good day. I'm Agning, publican of the Six Fishes here in Ebonheart. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Agning

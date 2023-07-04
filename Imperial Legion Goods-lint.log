@@ -1,0 +1,8 @@
+Imperial Legion Goods.esp: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    join the imperial legion
+
+[MOD-INF]: ID=18847342643332070(Topic:join the imperial legion)
+  morrowind.esm------------->|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1
+  Imperial Legion Goods.esp->|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1  Player->additem, "bk_ordolegionis" , 1  AddTopic "Supply Chest"

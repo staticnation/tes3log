@@ -1,0 +1,42 @@
+FreshStart.esp: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       BOOK    bk_a1_1_directionscaiuscosades
+	morrowind.esm       ACTI    chargen stuff room
+	morrowind.esm       ACTI    chargen_bed
+	morrowind.esm       CONT    chargen barrel fatigue
+	morrowind.esm       DIAL    caius cosades
+	morrowind.esm       DIAL    morrowind
+	morrowind.esm       DIAL    uriel septim
+	morrowind.esm       DOOR    chargen door captain
+	morrowind.esm       DOOR    chargen exit door
+	morrowind.esm       DOOR    chargendoorjournal
+	morrowind.esm       NPC_    chargen captain
+	morrowind.esm       NPC_    chargen class
+	morrowind.esm       NPC_    chargen door guard
+	tribunal.esm        DIAL    a1_1_findspymaster
+	tribunal.esm        DIAL    duties
+
+[MOD-INF]: ID=23291351271929511(Topic:caius cosades)
+  morrowind.esm-->|DATA|ONAM:chargen captain|NAME:Report to Caius Cosades in Balmora. I can't tell you where to find him, but you are to go to the South Wall Cornerclub and ask for him. Someone there can direct you to him.
+  FreshStart.esp->|DATA|ONAM:chargen captain|NAME:Report to Caius Cosades in Balmora. I can't tell you where to find him, but you are to go to the South Wall Cornerclub and ask for him. Someone there can direct you to him.|SCVR:04JX4A1_1_FindSpymaster|INTV:
+
+[MOD-INF]: ID=28358841968027303(Topic:duties)
+  morrowind.esm-->|DATA|ONAM:chargen captain|NAME:You know your duties. Take that package to Caius Cosades in Balmora.|SCVR:04JX4A1_1_FindSpymaster|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV|BNAM:;journal gets set to 12 when you give spymaster package. Captian is in legion so he should mention other stuff after this ;that is part of legion.
+  FreshStart.esp->|DATA|ONAM:chargen captain|NAME:You know your duties. Take that package to Caius Cosades in Balmora.|SCVR:04JX4A1_1_FindSpymaster|INTV:|BNAM:;journal gets set to 12 when you give spymaster package. Captian is in legion so he should mention other stuff after this ;that is part of legion.
+
+[MOD-INF]: ID=1729913769476329813(Topic:duties)
+  morrowind.esm-->|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX0A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+  FreshStart.esp->|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX4A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+
+[MOD-INF]: ID=2769862822480624623(Topic:uriel septim)
+  morrowind.esm-->|DATA|ONAM:chargen captain|NAME:Yes, Uriel Septim is still the emperor. According to my instructions, he personally authorized your release from prison and your delivery here. It's all very mysterious. But that's the way the Empire works. Silence. Secrecy. Let not the left hand know what the right hand is doing.
+  FreshStart.esp->|DATA|ONAM:chargen captain|NAME:I serve the emperor and I'll not hear one word against him.
+
+[MOD-INF]: ID=3253423749290424070(Topic:morrowind)
+  morrowind.esm-->|DATA|ONAM:chargen captain|NAME:Yes. You're in Morrowind. I don't know why you're here. Or why you were released from prison and shipped here. But your authorization comes directly from Emperor Uriel Septim VII himself. And I don't need to know any more than that. When you leave this office, you are a free man. But before you go, I have instructions on your duties. Instructions from the Emperor. So pay careful attention.
+  FreshStart.esp->|DATA|ONAM:chargen captain|NAME:Vvardenfell may be just a small island of Morrowind, but Red Mountain looms large over us all.
+
+[MOD-INF]: ID=31540100981975929470(Journal:a1_1_findspymaster)
+  tribunal.esm--->|DATA|NAME:My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders.
+  FreshStart.esp->|DATA|NAME:On a suspicious corpse outside Balmora, I found orders to report to a man named Caius Cosades. To find out where he lives, I could ask in Balmora at the cornerclub called South Wall. If I find Caius Cosades, I might give him the package of coded documents I found and see what happens.

@@ -1,0 +1,22 @@
+UL_3.5_MWSE_Add-on.esp: DUP-REC EXP-DEP MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (86) != Actual count (85)
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(BOH_CScript_Telvanni)           getscale
+	SCPT(BOH_CScript_Telvanni)           setscale
+	SCPT(BOH_Script_Telvanni)            getscale
+	SCPT(BOH_Script_Telvanni)            setscale
+	SCPT(BOH_helper_scr)                 getscale
+	SCPT(BOH_helper_scr)                 setscale
+	SCPT(Uvi_Rock_NoPickUp4)             setdelete
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BOH_CScript_Telvanni)
+	SCPT(Uvi_RockCurePotion)
+	SCPT(Uvi_RockSpell_Backfire)
+	SCPT(Uvi_Rock_NoPickUp1)
+	SCPT(Uvi_Rock_NoPickUp2)
+	SCPT(Uvi_Rock_NoPickUp3)
+	SCPT(Uvi_Rock_NoPickup_Remove)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1

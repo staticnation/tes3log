@@ -1,0 +1,62 @@
+PR Legion Voice.esp: DUP-INF DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (96) != Actual count (24)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    join the imperial legion
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+
+[MOD-INF]: ID=18847342643332070(Topic:join the imperial legion)
+  morrowind.esm------->|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1
+  PR Legion Voice.esp->|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1  Say, "Vo\i\m\tHlo_IM004.mp3", "Zenithar's fortune to you!"
+
+[MOD-INF]: ID=200463541159597361(Topic:join the imperial legion)
+  morrowind.esm------->|DATA|ONAM:general darius|NAME:Son, you got what we need here at the Imperial Legion. Do want to join? Or do you want to hear what we're all about?|SCVR:01020|INTV|SCVR:11460|INTV:|BNAM:Choice "Sign me up, sir!" 1 "Tell me about the Imperial Legion, sir." 2
+  PR Legion Voice.esp->|DATA|ONAM:general darius|NAME:Son, you got what we need here at the Imperial Legion. Do want to join? Or do you want to hear what we're all about?|SCVR:01020|INTV|SCVR:11460|INTV:|BNAM:Say, "Vo\i\m\tHlo_IM016.mp3", "Glory and honor! Emperor and Empire!"  Choice "Sign me up, sir!" 1 "Tell me about the Imperial Legion, sir." 2
+
+[MOD-INF]: ID=290110001045713535(Topic:join the imperial legion)
+  morrowind.esm------->|DATA|FNAM:Imperial Legion|NAME:You had your chance and you blew it. Get out of my sight.|SCVR:01390|INTV|SCVR:12sX0ExpImperialLegion|INTV|BNAM:ModDisposition -30  Goodbye
+  PR Legion Voice.esp->|DATA|FNAM:Imperial Legion|NAME:You had your chance and you blew it. Get out of my sight.|SCVR:01390|INTV|SCVR:12sX0ExpImperialLegion|INTV|BNAM:Say, "Vo\i\m\Hlo_IM000e.mp3", "Get out of here!"  ModDisposition -30  Goodbye
+
+[MOD-INF]: ID=472211891932115424(Topic:join the imperial legion)
+  morrowind.esm------->|DATA|ONAM:general darius|NAME:Young lady, you got what we need here at the Imperial Legion. Do want to join? Or do you want to hear what we're all about?|SCVR:01020|INTV|SCVR:11460|INTV:|SCVR:21380|INTV|BNAM:Choice "Sign me up, sir!" 1 "Tell me about the Imperial Legion, sir." 2
+  PR Legion Voice.esp->|DATA|ONAM:general darius|NAME:Young lady, you got what we need here at the Imperial Legion. Do want to join? Or do you want to hear what we're all about?|SCVR:01020|INTV|SCVR:11460|INTV:|SCVR:21380|INTV|BNAM:Say, "Vo\i\m\tHlo_IM016.mp3", "Glory and honor! Emperor and Empire!"  Choice "Sign me up, sir!" 1 "Tell me about the Imperial Legion, sir." 2
+
+[MOD-INF]: ID=513094071019314152(Topic:join the imperial legion)
+  morrowind.esm------->|DATA|ONAM:general darius|NAME:Your duties are to the Empire and to your commanding officers - in that order. Carry yourself with dignity and uphold the law. You are the face of the Empire to the common man. Respect all members of the Imperial Legion. It is treasonous to fight or steal from other members. If you break these rules, you must speak with your recruiting officer, me, to redeem your standing. Do you swear to adhere to what I have stated?|SCVR:01500|INTV|BNAM:Choice "Yes sir." 1 "No sir." 4
+  PR Legion Voice.esp->|DATA|ONAM:general darius|NAME:Your duties are to the Empire and to your commanding officers - in that order. Carry yourself with dignity and uphold the law. You are the face of the Empire to the common man. Respect all members of the Imperial Legion. It is treasonous to fight or steal from other members. If you break these rules, you must speak with your recruiting officer, me, to redeem your standing. Do you swear to adhere to what I have stated?|SCVR:01500|INTV|BNAM:Say, "Vo\i\m\tHlo_IM017.mp3", "Serve the Emperor and the Emperor's law!"  Choice "Yes sir." 1 "No sir." 4
+
+[MOD-INF]: ID=575629792114811523(Topic:join the imperial legion)
+  morrowind.esm------->|DATA|ONAM:general darius|NAME:%PCName, you are a %PCRank of the Imperial Legion. Don't you forget it!|SCVR:01460|INTV
+  PR Legion Voice.esp->|DATA|ONAM:general darius|NAME:%PCName, you are a %PCRank of the Imperial Legion. Don't you forget it!|SCVR:01460|INTV|BNAM:Say, "Vo\i\m\tHlo_IM017.mp3", "Serve the Emperor and the Emperor's law!"
+
+[MOD-INF]: ID=1481222609501624278(Topic:join the imperial legion)
+  morrowind.esm------->|DATA|FNAM:Imperial Legion|NAME:The %Faction can forgive your actions this one time only, %PCRank %PCName. Your record will be permanently marred by this incident. Now return to your post.|SCVR:01500|INTV|BNAM:PCClearExpelled  Set ExpImperialLegion to 1
+  PR Legion Voice.esp->|DATA|FNAM:Imperial Legion|NAME:The %Faction can forgive your actions this one time only, %PCRank %PCName. Your record will be permanently marred by this incident. Now return to your post.|SCVR:01500|INTV|BNAM:PCClearExpelled  Set ExpImperialLegion to 1  Say, "Vo\i\m\tHlo_IM105.mp3", "Mara's mercy on you."
+
+[DUP-INF]: ID=2188011949537821140(Voice:hello)
+  |DATA|RNAM:Imperial|FNAM:Imperial Legion|ANAM:Gnisis|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM034.mp3|NAME:Why are you away from your post?|SCVR:01475|INTV
+
+[MOD-INF]: ID=2350315055279237208(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform. Talk to me when you're serious.|SCVR:01475|INTV|SCVR:12sX0WearingLegionUni|INTV:|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+  PR Legion Voice.esp->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform! Talk to me when you're serious.|SCVR:01474|INTV:|SCVR:12sX0WearingLegionUni|INTV:|SCVR:27XX0joncis dalomax|INTV|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+
+[MOD-INF]: ID=10519238012709823803(Topic:join the imperial legion)
+  morrowind.esm------->|DATA|ONAM:general darius|NAME:Sorry, the Imperial Legion only takes the best of the best of the best. You don't meet our requirements..|SCVR:01460|INTV:
+  PR Legion Voice.esp->|DATA|ONAM:general darius|NAME:Sorry, the Imperial Legion only takes the best of the best of the best. You don't meet our requirements..|SCVR:01460|INTV:|BNAM:Say, "Vo\i\m\Hlo_IM010.mp3", "I don't think so."
+
+[MOD-INF]: ID=14489240592437315372(Topic:join the imperial legion)
+  morrowind.esm------->|DATA|FNAM:Imperial Legion|NAME:I see.|SCVR:01500|INTV|BNAM:ModDisposition -5  goodbye
+  PR Legion Voice.esp->|DATA|FNAM:Imperial Legion|NAME:I see.|SCVR:01500|INTV|BNAM:Say, "Vo\i\m\uni_IM007.mp3", "Perhaps you are not ready for the responsibility of the Legion!"  ModDisposition -5  goodbye
+
+[MOD-INF]: ID=16481230832111917664(Topic:join the imperial legion)
+  morrowind.esm------->|DATA|FNAM:Imperial Legion|NAME:Your activities have led some to question your allegiance. At the moment there is some debate as to your continued affiliation with the Imperial Legion. Would you care to explain yourself, %PCRank %PCName? This had better be good.|SCVR:01390|INTV|BNAM:Choice "I was a victim of circumstance..." 3 "Nevermind." 4
+  PR Legion Voice.esp->|DATA|FNAM:Imperial Legion|NAME:Your activities have led some to question your allegiance. At the moment there is some debate as to your continued affiliation with the Imperial Legion. Would you care to explain yourself, %PCRank %PCName? This had better be good.|SCVR:01390|INTV|BNAM:Say, "Vo\i\m\Hlo_IM018.mp3", "You're a disgrace to the Empire!"  Choice "I was a victim of circumstance..." 3 "Nevermind." 4
+
+[MOD-INF]: ID=19165198251387824072(Voice:hello)
+  morrowind.esm------->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM175.mp3|NAME:Where's your uniform?|SCVR:02sX0WearingLegionUni|INTV:|SCVR:11475|INTV|BNAM:moddisposition -2
+  PR Legion Voice.esp->|DATA|RNAM:Imperial|FNAM:Imperial Legion|DNAM:Imperial Legion|SNAM:Vo\i\m\Hlo_IM175.mp3|NAME:Where's your uniform?!|SCVR:02sX0WearingLegionUni|INTV:|SCVR:11474|INTV:|SCVR:21390|INTV:|SCVR:32sX3Random100|INTV:2|BNAM:moddisposition -2
+
+[MOD-INF]: ID=19294183501106417663(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:general darius|NAME:Are you here to join the Imperial Legion?|SCVR:01460|INTV:
+  PR Legion Voice.esp->|DATA|ONAM:general darius|NAME:Are you here to join the Imperial Legion?|SCVR:01460|INTV:|BNAM:Say, "Vo\i\m\uni_IM004.mp3", "Ever considered joining the Legion?"

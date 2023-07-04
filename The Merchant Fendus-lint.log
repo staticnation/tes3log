@@ -1,0 +1,54 @@
+The Merchant Fendus.ESP: DUP-INF DUP-REC FOGBUG MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	Smuggler's Drop
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CrewAttackPlayer)
+	SCPT(FendusScript)
+	SCPT(HermitFollow)
+	SCPT(TutkeeAttack)
+	SCPT(ct_fendus_flee_note)
+	SCPT(ct_skooma_NoteToFendus)
+	SCPT(ct_smugglersdrop)
+	SCPT(enter_smugglers_drop)
+	SCPT(fendusAttackScript)
+	SCPT(fendusStopFollowing)
+	SCPT(fendus_to_boatScript)
+	SCPT(fendusfollow)
+	SCPT(hermitScript)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	morrowind.esm       PGRD    sadrith mora, gateway inn
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LAND    (-2, -10)
+	morrowind.esm       LAND    (-3, -10)
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       PGRD    bitter coast region
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=154187432275597378(Topic:my trade)
+  |DATA|CNAM:Warrior|NAME:I'm a warrior by trade. I know how to fight, when necessary, but I much rather look so tough that critters give up or run away when they see me. Personally, I favor long blades of all kinds -- they use long blades of many different styles and craftsmanships here in Morrowind -- and I wear medium armor, for a decent balance of protection and mobility. But I train with various weapon types and armor types. And like any good warrior, I'm my own armorer -- don't want to fight with worn weapons in worn armor.|SCVR:0CsX0NoLore|INTV:|BNAM:;Warrior; Longblade, Medium Armor, Armorer
+
+[DUP-INF]: ID=206847122036726324(Topic:background)
+  |DATA|NAME:I am %name, %class and %rank of the %faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+
+[DUP-INF]: ID=495518295322716947(Greeting:greeting 7)
+  |DATA|ONAM:thaeril|NAME:Good day. I'm Thaeril, publican of The Covenant here in Tel Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Thaeril
+
+[DUP-INF]: ID=961610326284295759(Topic:my trade)
+  |DATA|CNAM:Merchant|NAME:I am a merchant. I look for goods that are well-made, that people want to buy, that I can buy and sell at a profit. There are many different kinds of materials I can buy and sell -- animal products, vegetable products, mineral products, even exotic products. Crafts and manufactured goods I deal in include weapons, armor, clothing, books, potions, enchanted items, and various housewares. I travel, talk with people I meet, buy what I like, and sell what people like.|SCVR:0CsX0NoLore|INTV:|BNAM:;Merchant; generic merchants do not have services, and do not buy and sell; they are just merchant quest and scenery characters
+
+[DUP-INF]: ID=1707111432143424827(Topic:background)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:I am %name. I was called to the prophecies, but I was not the one.|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=1763631975270807483(Topic:background)
+  |DATA|RNAM:Khajiit|NAME:%name follows the trade of %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=2500034431133325793(Topic:background)
+  |DATA|ONAM:ghost_npc_idrenie nerot|NAME:I am %name. I was called to the prophecies, but I was not the one.|BNAM:ClearInfoActor

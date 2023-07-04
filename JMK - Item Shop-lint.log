@@ -1,0 +1,21 @@
+JMK - Item Shop.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKItShBasinTopUp)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (5, -12)
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+
+[DUP-INF]: ID=3161263742734327220(Greeting:greeting 5)
+  |DATA|ONAM:Frald the White|NAME:Hello, %PCRank.|SCVR:04JX3IL_ProtectEntius|INTV:d
+
+[DUP-INF]: ID=28081218233080121929(Greeting:greeting 5)
+  |DATA|ONAM:Varus Vatinius|NAME:Have you found the Lord's Mail?|SCVR:04JX2IL_KnightShield|INTV:|SCVR:14JX4IL_KnightShield|INTV:2

@@ -1,0 +1,141 @@
+Fligg's Slave Mod.esp: DUP-INF DUP-REC GETSND MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(slaveScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(fs_attribute_check)
+	SCPT(fs_compLevel)
+	SCPT(fs_door_script)
+	SCPT(fs_health_check)
+	SCPT(fs_skill_check)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    go free
+	morrowind.esm       NPC_    brallion
+	morrowind.esm       NPC_    dranas sarathram
+	morrowind.esm       NPC_    savile imayn
+	morrowind.esm       NPC_    yakov
+	morrowind.esm       NPC_    zabarbael
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=41722152871713897(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Saturan|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_saturanslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Saturan|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_saturanslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=44754633117727424(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Assarnud|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_assarnudslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Assarnud|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_assarnudslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[DUP-INF]: ID=57342934926223481(Topic:go free)
+  |DATA|CNAM:Slave|NAME:Yes, now I am free. Thank you, %PCName.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50
+
+[MOD-INF]: ID=79436122621222157(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Shushan|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_shushanslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Shushan|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_shushanslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[DUP-INF]: ID=154162341695366723(Topic:my trade)
+  |DATA|CNAM:Sorcerer|NAME:I am a sorcerer. Through my mastery of special disciplines of the College of Conjuration, and my private studies of the Outer Realms and their Powers and Principalities, I have learned to summon and command their denizens to do my bidding. I do these things for coin, or to suit my own interests. I also am an enchanter, enchanting items for my own use and for the use of others. My skill with enchantments also makes me more efficient in using enchanted items that I collect on my research expeditions.|SCVR:0CsX0NoLore|INTV:|BNAM:;Sorcerer; Conjuration, Enchant
+
+[MOD-INF]: ID=219561677132301495(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Zebabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_zebabislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Zebabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_zebabislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=226398648182778706(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Kudanat|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_kudanatslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Kudanat|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_kudanatslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=267091420155215554(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_hlormarenslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_hlormarenslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=294360691158826692(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Panat|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_panatslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Panat|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_panatslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=294747312583227810(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Addamasartus|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_addamasartusslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Addamasartus|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_addamasartusslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[DUP-INF]: ID=300681198467613390(Topic:go free)
+  |DATA|CNAM:Slave|NAME:You freed me, %PCName.|SCVR:03sX0slaveStatus|INTV
+
+[MOD-INF]: ID=452829757792223617(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Caldera|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_calderaslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Caldera|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_calderaslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=520421455239399130(Topic:go free)
+  morrowind.esm--------->|DATA|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=619617600177165678(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Aharunartus|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_aharunartusslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Aharunartus|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_aharunartusslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[DUP-INF]: ID=626832206718828325(Topic:go free)
+  |DATA|CNAM:Slave|NAME:You freed me, %PCName. Are you in the Twin Lamps?|SCVR:03sX0slaveStatus|INTV|SCVR:12sX2FreedSlavesCounter|INTV
+
+[MOD-INF]: ID=712011242789727655(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Minabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_minabislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Minabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_minabislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=807030795185926776(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Rotheran, Arena|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_rotheranslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Rotheran, Arena|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_rotheranslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=1064131682241792852(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Hinnabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_hinnabislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Hinnabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_hinnabislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[DUP-INF]: ID=1128629418171229426(Greeting:greeting 1)
+  |DATA|ONAM:Toralf|NAME:So, you're Carnius' lackey, are yeh? Make it quick. Pass out that equipment; we've got work to do.|SCVR:04JX0CO_13a|INTV: 
+
+[MOD-INF]: ID=1364230960270223245(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Assarnud|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_assarnudslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Assarnud|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_assarnudslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=1511598931222410982(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_habinbaesslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_habinbaesslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=1720321173178261542(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_yakanalitslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_yakanalitslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[DUP-INF]: ID=2112269131757221074(Topic:go free)
+  |DATA|ONAM:dahleena|NAME:Yes, %Name is free! You are a good friend of %Name. Dahleena leaves when the moons are right.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50  Journal HR_CalderaDisrupt 50
+
+[DUP-INF]: ID=2590123069223445779(Topic:go free)
+  |DATA|CNAM|NAME:No. There is no hope for us.
+
+[DUP-INF]: ID=2615847683142510678(Topic:go free)
+  |DATA|RNAM:Khajiit|CNAM:Slave|NAME:Yes, %Name is free! You are a good friend of %Name.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50
+
+[MOD-INF]: ID=2693921643411530513(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Sinsibadon|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_sinsibadonslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Sinsibadon|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_sinsibadonslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=2772326544705429552(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Zainsipilu|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_zainsipiluslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Zainsipilu|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_zainsipiluslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[DUP-INF]: ID=3496231351901913552(Topic:my trade)
+  |DATA|CNAM:Sorcerer Service|NAME:I am a sorcerer. I am a master of the College of Conjuration, and I have learned to summon and command the denizens of the Outer Realms to do my bidding. I also am an enchanter, enchanting items for my own use and for the use of others. My skill with enchantments also makes me more efficient in using enchanted items that I collect on my research expeditions. I sell spells, and I am a spellmaker who creates spells to your specifications. I can also teach you in my skills, for a fee.|SCVR:0CsX0NoLore|INTV:|BNAM:;Sorcerer; SERVICE; Conjuration, Enchant
+
+[MOD-INF]: ID=5625301911022612026(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shushishislaves|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shushishislaves|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=20269221682313710349(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Dren Plantation|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Dren Plantation|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=28146221662688417841(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Sha-Adnius|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shaadniusslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Sha-Adnius|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shaadniusslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[MOD-INF]: ID=30650113062954514459(Topic:go free)
+  morrowind.esm--------->|DATA|CNAM:Slave|ANAM:Vivec, Telvanni Canalworks|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_vivectelvannislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  Fligg's Slave Mod.esp->|DATA|CNAM:Slave|ANAM:Vivec, Telvanni Canalworks|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_vivectelvannislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Claim the slave as your own" 3 "Nevermind." 2
+
+[DUP-INF]: ID=31332312182399618201(Greeting:greeting 1)
+  |DATA|ONAM:Unel Lloran|NAME|INTV

@@ -1,0 +1,111 @@
+ExpandedLoreDialogue.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ald sotha
+	morrowind.esm       DIAL    ald velothi
+	morrowind.esm       DIAL    aldmeris
+	morrowind.esm       DIAL    bal fell
+	morrowind.esm       DIAL    boethiah's pillow book
+	morrowind.esm       DIAL    credentials
+	morrowind.esm       DIAL    dahrk mezalf
+	morrowind.esm       DIAL    delvam andarys
+	morrowind.esm       DIAL    dwemer
+	morrowind.esm       DIAL    four corners
+	morrowind.esm       DIAL    holamayan
+	morrowind.esm       DIAL    mehrunes dagon
+	morrowind.esm       DIAL    ministry of truth
+	morrowind.esm       DIAL    ordinators have failed
+	morrowind.esm       DIAL    saint rilms
+	morrowind.esm       DIAL    saint roris
+	morrowind.esm       DIAL    saint veloth
+	morrowind.esm       DIAL    shoes of st. rilms
+	morrowind.esm       DIAL    stronghold
+	morrowind.esm       DIAL    tel aruhn
+	morrowind.esm       DIAL    tiber septim
+	morrowind.esm       DIAL    unsanctioned training
+	morrowind.esm       DIAL    vvardenfell
+	tribunal.esm        DIAL    auriel's bow
+	tribunal.esm        DIAL    chores
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    staff of magnus
+	tribunal.esm        DIAL    warlock's ring
+
+[MOD-INF]: ID=16579644373552990(Topic:staff of magnus)
+  tribunal.esm------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira knows the Staff of Magnus is in Assu. It is a cave on the slopes of Mount Kand just northwest of Molag Mar.|SCVR:34JX3MG_StolenReport|INTV:d|BNAM:Journal MG_StaffMagnus 10
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira knows the Staff of Magnus is held by Dreveni Hlaren, which is in Assu. It is a cave on the slopes of Mount Kand just northwest of Molag Mar. It is a powerful artifact created by Magnus.|SCVR:34JX3MG_StolenReport|INTV:d|BNAM:Journal MG_StaffMagnus 10
+
+[MOD-INF]: ID=128067004837417700(Topic:chores)
+  tribunal.esm------------->|DATA|ONAM:aryon|DNAM:Telvanni|NAME:Thanks to recent agreements with House Hlaalu, we have a chance of passing a resolution which would overturn the Mages Guild monopoly.|SCVR:34JX3HT_Odirniran|INTV:d|BNAM:StartScript CountMonopolyVotes
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:aryon|DNAM:Telvanni|NAME:Thanks to recent agreements with House Hlaalu, we have a chance of passing a resolution which would overturn the Mages Guild monopoly granted by the Treaty of the Armistice.|SCVR:34JX3HT_Odirniran|INTV:d
+
+[MOD-INF]: ID=138341861636321048(Topic:ald sotha)
+  morrowind.esm------------>|DATA|ONAM:eno hlaalu|NAME:Ald Sotha is northeast of Vivec. Somewhere in Ald Sotha you will find Severa Magia, the Night Mother of the Dark Brotherhood in Vvardenfell. Slay her and return to me.|SCVR:44JX3MT_DB_Assernerairan|INTV:d|BNAM:ShowMap "Ald Sotha"  Journal MT_DB_AldSotha 10
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:eno hlaalu|NAME:Ald Sotha, originally the home of House Sotha, is northeast of Vivec. Somewhere in Ald Sotha you will find Severa Magia, the Night Mother of the Dark Brotherhood in Vvardenfell. Slay her and return to me.|SCVR:44JX3MT_DB_Assernerairan|INTV:d|BNAM:ShowMap "Ald Sotha"  Journal MT_DB_AldSotha 10
+
+[MOD-INF]: ID=223324802274913391(Topic:holamayan)
+  morrowind.esm------------>|DATA|ONAM:vevrana aryon|NAME:Holamayan is a secret monastery of the Dissident priests. The monastery itself is beneath the surface of a remote island along Azura's Coast, with only a single entrance hidden from view by hills and vegetation. The monastery is further protected by a magical shield which opens only at dawn and dusk, the magical twilight hours sacred to Azura.|SCVR:04JX3A2_4_MiloGone|INTV
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:vevrana aryon|NAME:Holamayan is a secret monastery of the Dissident priests and has a long history. The monastery itself is beneath the surface of a remote island along Azura's Coast, with only a single entrance hidden from view by hills and vegetation. The monastery is further protected by a magical shield which opens only at dawn and dusk, the magical twilight hours sacred to Azura.|SCVR:04JX3A2_4_MiloGone|INTV
+
+[MOD-INF]: ID=234912026478963047(Topic:duties)
+  morrowind.esm------------>|DATA|ONAM:tholer saryoni|DNAM:Temple|NAME:I am old and will soon retire. You are one of the most promising %PCRanks. If you want to replace me as Archcanon of the Temple, you must complete the Pilgrimages of the Four Corners.
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:tholer saryoni|DNAM:Temple|NAME:I am old and will soon retire. You are one of the most promising %PCRanks. If you want to replace me as Archcanon of the Temple, you must complete the Pilgrimages of the Four Corners in order to renew the necessary pacts.
+
+[MOD-INF]: ID=270324897533920607(Topic:unsanctioned training)
+  morrowind.esm------------>|DATA|ONAM:ranis athrys|DNAM:Mages Guild|NAME:I have word that an Argonian is offering training in Restoration at the South Wall Cornerclub. This Argonian, whoever he is, does not have the sanction of the Mages Guild. Convince him to stop offering unsanctioned training.|SCVR:34JX3MG_JoinUs|INTV:d|SCVR:44JX3MG_PayDues|INTV:d|BNAM:Journal MG_StopCompetition 10
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:ranis athrys|DNAM:Mages Guild|NAME:I have word that an Argonian is offering training in Restoration at the South Wall Cornerclub. This Argonian, whoever he is, does not have the sanction of the Mages Guild. Convince him to stop offering unsanctioned training, which is forbidden according to the Treaty of the Armistice.|SCVR:34JX3MG_JoinUs|INTV:d|SCVR:44JX3MG_PayDues|INTV:d|BNAM:Journal MG_StopCompetition 10
+
+[MOD-INF]: ID=284814946197612674(Topic:ordinators have failed)
+  morrowind.esm------------>|DATA|ONAM:tholer saryoni|DNAM:Hlaalu|NAME:It is rare, but recently... Perhaps you could help with one of these failures. There is a cavern, Assemanu, known to those who follow Dagoth Ur. In this cavern is the Robe of St. Roris, a holy relic. If you can succeed where the Ordinators failed by bringing me the Robe, I will speak with Berel Sala.|BNAM:Journal HH_WinSaryoni 50
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:tholer saryoni|DNAM:Hlaalu|NAME:It is rare, but recently... Perhaps you could help with one of these failures. There is a cavern, Assemanu, known to those who follow Dagoth Ur. In this cavern is the Robe of Saint Roris, a holy relic. If you can succeed where the Ordinators failed by bringing me the Robe, I will speak with Berel Sala.|BNAM:Journal HH_WinSaryoni 50
+
+[MOD-INF]: ID=290494335957932561(Topic:auriel's bow)
+  tribunal.esm------------->|DATA|ONAM:ralyn othravel|NAME:Who told you that? No, nevermind. I don't care. You don't know what I went through to get this bow. I'm not giving it up. Not for you. I have better things to do, %PCRace. Goodbye.|BNAM:ModDisposition -10  Goodbye
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:ralyn othravel|NAME:Who told you that? No, nevermind. I don't care. You don't know what I went through to get this artifact of Auriel. I'm not giving it up. Not for you. I have better things to do, %PCRace. Goodbye.|BNAM:ModDisposition -10  Goodbye
+
+[MOD-INF]: ID=602497971940413272(Topic:warlock's ring)
+  tribunal.esm------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira knows that Vindamea Drethan has the Warlock's Ring. Ajira tells you this because Ajira does not like Vindamea Drethan. She is in Ashirbadon, a cave on a small island west of the ruins of Bal Fell.|SCVR:34JX3MG_StaffMagnus|INTV:d|BNAM:Journal MG_WarlocksRing 10
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira knows that Vindamea Drethan has the Warlock's Ring, an artifact used by Syrabane. Ajira tells you this because Ajira does not like Vindamea Drethan. She is in Ashirbadon, a cave on a small island west of the ruins of Bal Fell.|SCVR:34JX3MG_StaffMagnus|INTV:d|BNAM:Journal MG_WarlocksRing 10
+
+[MOD-INF]: ID=711211223005210331(Topic:shoes of st. rilms)
+  morrowind.esm------------>|DATA|ONAM:endryn llethan|NAME:In a dream, a priest had a vision of the Shoes of St. Rilms lying neglected in the depths of Ald Sotha, just northeast of Vivec. Go to Ald Sotha and, if this is a true vision, return this sacred relic to the Temple. Ald Sotha may be too difficult for you, %PCName, but you might make it through with the aid of these potions. In the priests' vision, the shoes were in a chest, behind a statue of Mehrunes Dagon.|BNAM:Journal TT_RilmsShoes 10  Player->AddItem "p_heroism_s" 1  Player->AddItem "p_restore_health_e" 4  Player->AddItem "p_invisibility_q" 2
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:endryn llethan|NAME:In a dream, a priest had a vision of the Shoes of St. Rilms lying neglected in the depths of Ald Sotha, just northeast of Vivec. Go to Ald Sotha and, if this is a true vision, return this sacred relic of Saint Rilms to the Temple. Ald Sotha may be too difficult for you, %PCName, but you might make it through with the aid of these potions. In the priests' vision, the shoes were in a chest, behind a statue of Mehrunes Dagon.|BNAM:Journal TT_RilmsShoes 10  Player->AddItem "p_heroism_s" 1  Player->AddItem "p_restore_health_e" 4  Player->AddItem "p_invisibility_q" 2
+
+[MOD-INF]: ID=1958550751691917436(Topic:dwemer)
+  morrowind.esm------------>|DATA|ONAM:hasphat antabolis|NAME:The Dwemer are the fabled lost Dwarven race whose ruins and splendid artifacts are scattered across Tamriel. Elves use the term "Dwemer," connoting variously "deep-delving," "profound," and "close-counseled"; Imperial usage is "Dwarven," derived in fable from the affectionate regard of the Giant races for their "little" Dwemer friends. There are several Dwemer sites on Vvardenfell, and many have found Dwemer artifacts.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:hasphat antabolis|NAME:The Dwemer are the fabled lost Dwarven race whose ruins and splendid artifacts are scattered across Tamriel. Elves use the Aldmeris term "Dwemer," connoting variously "deep-delving," "profound," and "close-counseled"; Imperial usage is "Dwarven," derived in fable from the affectionate regard of the Giant races for their "little" Dwemer friends. There are several Dwemer sites on Vvardenfell, and many have found Dwemer artifacts.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[MOD-INF]: ID=2511925408261659096(Topic:stronghold)
+  morrowind.esm------------>|DATA|ONAM:llunela hleran|NAME:If you want me to build you a tower fit for a Telvanni Councilor, I will need 5000 drakes for expenses. I also want you to investigate the Dwemer ruin of Mzanchend northwest of your stronghold. Bring me any plans or schematics you find there.|SCVR:34JX3HT_Stronghold|INTV:d|BNAM:Journal HT_Stronghold 110
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:llunela hleran|NAME:If you want me to build you a tower fit for a Telvanni Councilor, I will need 5000 drakes for expenses. I also want you to investigate the Dwemer ruin of Mzanchend northwest of your stronghold. Bring me any plans or dwemer schematics you find there.|SCVR:34JX3HT_Stronghold|INTV:d|BNAM:Journal HT_Stronghold 110
+
+[MOD-INF]: ID=2766468512454813770(Topic:four corners)
+  morrowind.esm------------>|DATA|ONAM:tholer saryoni|NAME:The Fourth Corner of the House of Troubles is Sheogorath, the Mad Star, who threatens the Dunmer with madness. It is time to renew a pact Vivec made with Sheogorath long ago. To do so, you must find the Gambolpuddy.|SCVR:34JX3TT_DagonFel|INTV:d|SCVR:44JX3TT_AldSotha|INTV:d|SCVR:54JX3TT_BalUr|INTV:d
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:tholer saryoni|NAME:The Fourth Corner of the House of Troubles is Sheogorath, the Mad Star, who threatens the Dunmer with madness. When Sheogorath rebelled against the Tribunal, he tricked the moon Baar Dau into forsaking its appointed path through Oblivion and hurl itself upon Vivec's new city. In response, Vivec froze the rogue moon in place, and now it holds the Ministry of Truth. It is time to renew a pact Vivec made with Sheogorath long ago. To do so, you must find the Gambolpuddy.|SCVR:34JX3TT_DagonFel|INTV:d|SCVR:44JX3TT_AldSotha|INTV:d|SCVR:54JX3TT_BalUr|INTV:d
+
+[MOD-INF]: ID=2825345461555910156(Topic:delvam andarys)
+  morrowind.esm------------>|DATA|ONAM:tharer rotheloth|NAME:Delvam Andarys is in Mawia, which is southeast of Molag Mar. From here, follow the river to the east as it heads south. It is not far before it opens into a lake. Turn east again and look for an island just south of the coast. Go there, find Delvam Andarys, and make certain that he does not escape the justice of the Temple.|BNAM:Journal TT_Mawia 10  ShowMap "Tel Branora"
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:tharer rotheloth|NAME:Delvam Andarays is a wanted Dunmer necromancer who is associated with House Telvanni. He is in Mawia, which is southeast of Molag Mar. From here, follow the river to the east as it heads south. It is not far before it opens into a lake. Turn east again and look for an island just south of the coast. Go there, find Delvam Andarys, and make certain that he does not escape the justice of the Temple.|BNAM:Journal TT_Mawia 10  ShowMap "Tel Branora"
+
+[MOD-INF]: ID=2880265852599717584(Topic:boethiah's pillow book)
+  morrowind.esm------------>|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:A client of ours wants some dirt on the Arobar family. Apparently Gandosa Arobar has a copy of this book, which has been banned by the Temple. Fetch the book and return it to me. I have to admit I'm a bit curious myself.|BNAM:Journal TG_BadGandosa 10
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:A client of ours wants some dirt on the Arobar family. Apparently Gandosa Arobar has a copy of this book, which has been banned by the Temple. Fetch the book and return it to me. I have to admit I'm a bit curious myself, given what I know about Boethiah.|BNAM:Journal TG_BadGandosa 10
+
+[MOD-INF]: ID=12988184232230918156(Topic:dahrk mezalf)
+  morrowind.esm------------>|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Mezalf is sometimes referred to as "Mezalf Bthungthumz." Perhaps he was from the Dwemer village of Bthungthumz. Go to Maar Gan. Head east past the silt strider, then go north towards the Foyada. Follow the Foyada Bani-Dad to the northwest until you see what remains of Bthungthumz on the right. If you find the ring, bring it to me.|BNAM:Journal HT_DahrkMezalf 10
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Mezalf worked as a prominent smith under the Dwemer inventor Kagrenac. He is sometimes referred to as "Mezalf Bthungthumz". Perhaps he was from the Dwemer village of Bthungthumz. Go to Maar Gan. Head east past the silt strider, then go north towards the Foyada. Follow the Foyada Bani-Dad to the northwest until you see what remains of Bthungthumz on the right. If you find the ring, bring it to me.|BNAM:Journal HT_DahrkMezalf 10
+
+[MOD-INF]: ID=16308231382007919299(Topic:credentials)
+  morrowind.esm------------>|DATA|ONAM:trebonius artorius|NAME:I'm sure I have them somewhere around here. Ah, yes, here you go, %PCName. A letter from Ocato himself.|SCVR:06DX0tiram gadar|INTV:|BNAM:Journal MG_SpyCatch 80  Player->AddItem bk_tiramgadarscredentials 1
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:trebonius artorius|NAME:I'm sure I have them somewhere around here. Ah, yes, here you go, %PCName. A letter from Chancellor Ocato himself.|SCVR:06DX0tiram gadar|INTV:|BNAM:Journal MG_SpyCatch 80  Player->AddItem bk_tiramgadarscredentials 1
+
+[MOD-INF]: ID=19590300433089114560(Topic:holamayan)
+  morrowind.esm------------>|DATA|ONAM:mehra milo|NAME:Holamayan is a secret monastery of the Dissident priests. The monastery itself is beneath the surface of a remote island along Azura's Coast, with only a single entrance hidden from view by hills and vegetation. The monastery is further protected by a magical shield which opens only at dawn and dusk, the magical twilight hours sacred to Azura.|SCVR:04JX3A2_4_MiloGone|INTV|SCVR:1BLX0Holamayan Monastery|INTV
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:mehra milo|NAME:Holamayan is a secret monastery of the Dissident priests and has a long history. The monastery itself is beneath the surface of a remote island along Azura's Coast, with only a single entrance hidden from view by hills and vegetation. The monastery is further protected by a magical shield which opens only at dawn and dusk, the magical twilight hours sacred to Azura.|SCVR:04JX3A2_4_MiloGone|INTV|SCVR:1BLX0Holamayan Monastery|INTV
+
+[MOD-INF]: ID=22130109091757728695(Topic:chores)
+  morrowind.esm------------>|DATA|ONAM:aryon|DNAM:Telvanni|NAME:I admire what you have accomplished in House Telvanni, but any student of mine must learn the rudimentary wizard spells.|SCVR:34JX3HT_MineCure|INTV:d
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:aryon|DNAM:Telvanni|NAME:I admire what you have accomplished in House Telvanni, but any student of mine must learn the rudimentary wizard spells, as I once did from my master Divayth Fyr.|SCVR:34JX3HT_MineCure|INTV:d
+
+[MOD-INF]: ID=32740177071035924759(Topic:shoes of st. rilms)
+  morrowind.esm------------>|DATA|ONAM:endryn llethan|DNAM:Temple|NAME:In a dream, a priest had a vision of the Shoes of St. Rilms lying neglected in the depths of Ald Sotha, just northeast of Vivec. Go to Ald Sotha and, if this is a true vision, return this sacred relic to the Temple. I offer you these potions to aid you in your quest.|SCVR:01063|INTV|BNAM:Journal TT_RilmsShoes 10  Player->AddItem "p_heroism_s" 1  Player->AddItem "p_restore_health_e" 4  Player->AddItem "p_invisibility_q" 2
+  ExpandedLoreDialogue.ESP->|DATA|ONAM:endryn llethan|DNAM:Temple|NAME:In a dream, a priest had a vision of the Shoes of St. Rilms lying neglected in the depths of Ald Sotha, just northeast of Vivec. Go to Ald Sotha and, if this is a true vision, return this sacred relic of Saint Rilms to the Temple. I offer you these potions to aid you in your quest.|SCVR:01063|INTV|BNAM:Journal TT_RilmsShoes 10  Player->AddItem "p_heroism_s" 1  Player->AddItem "p_restore_health_e" 4  Player->AddItem "p_invisibility_q" 2

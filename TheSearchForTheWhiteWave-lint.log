@@ -1,0 +1,68 @@
+TheSearchForTheWhiteWave.ESP: DUP-REC GETSND MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1396970 (plugin)    1567893 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(mdWW_DevosSoG_s)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mdWW_DevosTravel_s)
+	SCPT(mdWW_DisableInDagonFel_s)
+	SCPT(mdWW_LarkDF_doorIN_s)
+	SCPT(mdWW_LarkSoG_doorIN_s)
+	SCPT(mdWW_RavenCave_s)
+	SCPT(mdWW_Sleeper_s)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	oaab_data.esm       DOOR    ab_door_impgalleon01_in
+	oaab_data.esm       DOOR    ab_door_impgalleon01l_ex
+	oaab_data.esm       DOOR    ab_door_impgalleon01m_ex
+	oaab_data.esm       DOOR    ab_door_impgalleon01r_ex
+	oaab_data.esm       DOOR    ab_door_impgalleon02_ex
+	oaab_data.esm       DOOR    ab_door_impgalleon02_in
+	oaab_data.esm       DOOR    ab_door_impgalleon_in
+	oaab_data.esm       DOOR    ab_door_impgalleonladder_ex
+	oaab_data.esm       STAT    ab_ex_impcutterrowboat
+	oaab_data.esm       STAT    ab_ex_impcutterunfurled
+	oaab_data.esm       STAT    ab_ex_impgalleonanchorup
+	oaab_data.esm       STAT    ab_ex_impgalleonfullunfurled
+	oaab_data.esm       STAT    ab_ex_impgalleonporthole
+	oaab_data.esm       STAT    ab_ex_impgalleonrowboatstowed
+	oaab_data.esm       STAT    ab_furn_complnbookshelfshort
+	oaab_data.esm       STAT    ab_furn_complnbookshelfthin
+	oaab_data.esm       STAT    ab_furn_complnbookshelfwide
+	oaab_data.esm       STAT    ab_furn_complnshipshelfthin
+	oaab_data.esm       STAT    ab_furn_complnshipshelfwide
+	oaab_data.esm       STAT    ab_furn_docksailcloth01
+	oaab_data.esm       STAT    ab_furn_docksailcloth02
+	oaab_data.esm       STAT    ab_furn_impgalleonpulley
+	oaab_data.esm       STAT    ab_furn_impgalleonwheel
+	oaab_data.esm       STAT    ab_furn_ropelargecoil01
+	oaab_data.esm       STAT    ab_furn_ropelargecoil02
+	oaab_data.esm       STAT    ab_furn_ropelargecoil03
+	oaab_data.esm       STAT    ab_furn_ropelargecoil04
+	oaab_data.esm       STAT    ab_in_impcutter
+	oaab_data.esm       STAT    ab_in_impgalleoncabin
+	oaab_data.esm       STAT    ab_in_impgalleondoorjam
+	oaab_data.esm       STAT    ab_in_impgalleonfull
+	oaab_data.esm       STAT    ab_in_impgalleongalley
+	oaab_data.esm       STAT    ab_in_impgalleongalleycauldron
+	oaab_data.esm       STAT    ab_in_impgalleonhammockpost01
+	oaab_data.esm       STAT    ab_in_impgalleonhammockpost02
+	oaab_data.esm       STAT    ab_in_impgalleonpillar
+	oaab_data.esm       STAT    ab_in_impgalleonporthole
+	oaab_data.esm       STAT    ab_in_impgalleonpump
+	oaab_data.esm       STAT    ab_in_impgalleonwall
+	oaab_data.esm       STAT    ab_in_impgalleonwallfence
+	oaab_data.esm       STAT    ab_in_impgalleonwallhalf
+	oaab_data.esm       STAT    ab_in_impgalleonwallrope
+	oaab_data.esm       STAT    ab_in_impgalleonwallwindround
+	oaab_data.esm       STAT    ab_in_impgalleonwallwindsquare
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    dagon fel
+	morrowind.esm       PGRD    sadrith mora
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    my trade

@@ -1,0 +1,31 @@
+Gnisis Docks v1.0.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(PS_Dock1)
+	SCPT(PS_Dock_Build_Start)
+	SCPT(PS_GnisisHalf1)
+	SCPT(PS_GnisisRocks)
+	SCPT(PS_Mezazinii)
+	SCPT(PS_Scaffold1)
+	SCPT(PS_Sound_Boat_Creak)
+	SCPT(PS_Sound_Boat_Hull)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       DIAL    land deed
+	morrowind.esm       LAND    (-12, 10)
+	morrowind.esm       LAND    (-12, 11)
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=28477173912627218819(Topic:land deed)
+  morrowind.esm--------->|DATA|ONAM:general darius|NAME:Yes, this is the land deed. I hope you didn't have to do anything illegal... I have more orders for you. Also, take this broadsword for a job well done.|SCVR:01500|INTV|BNAM:Journal IL_WidowLand 100  Player->RemoveItem bk_WidowDeed 1  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10  Player->additem "imperial broadsword", 1
+  Gnisis Docks v1.0.esp->|DATA|ONAM:general darius|NAME:Yes, this is the land deed. I hope you didn't have to do anything illegal... I have more orders for you. Also, take this broadsword for a job well done.|SCVR:01500|INTV|BNAM:Journal IL_WidowLand 100  Player->RemoveItem bk_WidowDeed 1  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10  Player->additem "imperial broadsword", 1  StartScript "PS_Dock_Build_Start"

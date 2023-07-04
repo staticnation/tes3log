@@ -1,0 +1,44 @@
+FGI_Balmora_AlofOrcs.esp: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    orcs at a daedric ruin
+	tribunal.esm        DIAL    fg_alofsfarm
+
+[MOD-INF]: ID=149368167362757(Topic:orcs at a daedric ruin)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:Duke Vedam Dren himself gave us a contract to take care of the problem. Go to Alof's Farm northeast of Pelagiad.... What do you mean Alof is dead? What were you thinking, %PCRank? Well, the contract still needs to be filled. Apparently, our only source of information is dead, so you'll just have to search the area until you figure out which orcs to get rid of. Check for any ruins nearby; it'd be a good place for them to hide out.|SCVR:06DX2alof the easterner|INTV:|BNAM:Journal FG_AlofsFarm 15
+  FGI_Balmora_AlofOrcs.esp->|DATA|ONAM:eydis fire-eye|NAME:Duke Vedam Dren himself gave us a contract to take care of the problem. Go to Alof's Farm northeast of Pelagiad.... What do you mean Alof is dead? What were you thinking, %PCRank? Well, the contract still needs to be filled. Apparently, our only source of information is dead, so you'll just have to search the area until you figure out which orcs to get rid of. Check for any ruins nearby; it'd be a good place for them to hide out.|SCVR:06DX2alof the easterner|INTV:|SCVR:14JX3FG_OrcBounty|INTV:d|BNAM:Journal FG_AlofsFarm 15
+
+[MOD-INF]: ID=20236901688267200(Topic:orcs at a daedric ruin)
+  morrowind.esm------------>|DATA|ONAM:Vedam Dren|NAME:I have no reason to hate Orcs. In fact, I admire King Gortwog for his political skill. In the case of the Orcs at Alof's farm, however, I've heard that the leader is the Barbarian Burub gra-Bamog. She is wanted for murder, theft, and banditry. If Burub is gathering forces in Ashunartes, I want someone to put a stop to it.
+  FGI_Balmora_AlofOrcs.esp->|DATA|ONAM:Vedam Dren|NAME:I have no reason to hate Orcs. In fact, I admire King Gortwog for his political skill. In the case of the Orcs at Alof's farm, however, I've heard that the leader is the Barbarian Burub gra-Bamog. She is wanted for murder, theft, and banditry. If Burub is gathering forces in Ashunartes, I want someone to put a stop to it.|SCVR:04JX2FG_AlofsFarm|INTV:
+
+[DUP-INF]: ID=50942449568778191(Journal:fg_alofsfarm)
+  |DATA|NAME:Alof the Easterner said the Orcs come from Ashunartes which is northeast of here and just west of an old Dunmer stronghold. Alof thinks the rest of the Orcs will leave if I kill their leader, a Barbarian by the name of Burub gra-Bamog.
+
+[MOD-INF]: ID=992166221107817690(Topic:orcs at a daedric ruin)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:If you already killed those Orcs, why did I get this contract? Well, rules are rules. Here's the 500 septims, your share of what the Duke paid.|SCVR:34JX0FG_AlofsFarm|INTV:|SCVR:56DX3burub gra-bamog|INTV|BNAM:Journal FG_AlofsFarm 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+  FGI_Balmora_AlofOrcs.esp->|DATA|ONAM:eydis fire-eye|NAME:If you already killed those Orcs, why did I get this contract? Well, rules are rules. Here's the 500 septims, your share of what the Duke paid.|SCVR:34JX0FG_AlofsFarm|INTV:|SCVR:44JX3FG_OrcBounty|INTV:d|SCVR:56DX3burub gra-bamog|INTV|BNAM:Journal FG_AlofsFarm 100  ModPCFacRep 10 "Fighters Guild"  Player->ModReputation 2  ModDisposition 10  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=1092511116141117629(Topic:orcs at a daedric ruin)
+  morrowind.esm------------>|DATA|ONAM:alof the easterner|NAME:The Orcs come from what the local Dunmer call Ashunartes. It's a Daedric ruin northeast of here and just west of an old Dunmer stronghold. I heard these Orcs are led by the Barbarian Burub gra-Bamog. If you kill the leader, the rest of them might leave us farmers in peace.|BNAM:Journal FG_AlofsFarm 30
+  FGI_Balmora_AlofOrcs.esp->|DATA|ONAM:alof the easterner|NAME:So you are the one sent by the Fighters Guild? Want to know what I think about it? The truth is, the Duke doesn't even care about our safety. All he needs the Guild for is to protect the nearby plantation of his wealthy brother. But that's just my thoughts. That's better than nothing, anyway. I'll tell you what I know about those Orcs.|SCVR:04JX2FG_AlofsFarm|INTV:|BNAM:Choice "Continue" 1
+
+[MOD-INF]: ID=3075114533168318029(Journal:fg_alofsfarm)
+  morrowind.esm------------>|DATA|NAME:Alof thanked me for getting rid of the Orcs at Ashunartes. I should report back to Eydis Fire-Eye.
+  FGI_Balmora_AlofOrcs.esp->|DATA|NAME:Alof thanked me for getting rid of the Orcs at Ashunartes.
+
+[MOD-INF]: ID=3247855861755325863(Topic:orcs at a daedric ruin)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:Duke Vedam Dren himself gave us a contract to take care of the problem. Go to Alof's Farm northeast of Pelagiad and just north of the Arvel Plantation. Alof can tell you where the Orcs are and what needs to be done.|BNAM:Journal FG_AlofsFarm 10
+  FGI_Balmora_AlofOrcs.esp->|DATA|ONAM:eydis fire-eye|NAME:Duke Vedam Dren himself gave us a contract to take care of the problem. Go to Alof's Farm northeast of Pelagiad and just north of the Arvel Plantation. Alof can tell you where the Orcs are and what needs to be done.|SCVR:04JX3FG_OrcBounty|INTV:d|BNAM:Journal FG_AlofsFarm 10
+
+[MOD-INF]: ID=3424284351505723033(Topic:orcs at a daedric ruin)
+  morrowind.esm------------>|DATA|ONAM:Vedam Dren|NAME:You have prevented the Barbarian Burub gra-Bamog from becoming a threat to Vvardenfell and for that you have my gratitude.|SCVR:34JX0FG_AlofsFarm|INTV:d
+  FGI_Balmora_AlofOrcs.esp->|DATA|ONAM:Vedam Dren|NAME:You have prevented the Barbarian Burub gra-Bamog from becoming a threat to Vvardenfell and for that you have my gratitude. I hope you have enjoyed 1000 gold you were supposed to receive for the contract.|SCVR:34JX0FG_AlofsFarm|INTV:d|BNAM:Choice "Eydis Fire-Eye paid me only 500 gold." 1 "Thank you." 2
+
+[MOD-INF]: ID=5057204923192519674(Topic:orcs at a daedric ruin)
+  morrowind.esm------------>|DATA|ONAM:alof the easterner|NAME:I'm glad you got rid of those Orcs, %PCName. You better report back to Eydis Fire-Eye before she decides to keep the contract money for herself.|SCVR:56DX3burub gra-bamog|INTV|BNAM:Journal FG_AlofsFarm 50
+  FGI_Balmora_AlofOrcs.esp->|DATA|ONAM:alof the easterner|NAME:I'm glad you got rid of those Orcs, %PCName. You better report back to Eydis Fire-Eye before she decides to keep the contract money for herself. You may also pay a visit to the Duke himself to receive his thanks.|SCVR:04JX2FG_AlofsFarm|INTV:|SCVR:56DX3burub gra-bamog|INTV|BNAM:Journal FG_AlofsFarm 50
+
+[MOD-INF]: ID=17551309881956830497(Topic:orcs at a daedric ruin)
+  morrowind.esm------------>|DATA|ONAM:eydis fire-eye|NAME:Alof says the Orcs are gone. Here's 500 septims for the Duke's contract.|SCVR:56DX3burub gra-bamog|INTV|BNAM:Journal FG_AlofsFarm 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+  FGI_Balmora_AlofOrcs.esp->|DATA|ONAM:eydis fire-eye|NAME:Alof says the Orcs are gone. They will no longer worship the false Daedra. Here's 500 septims for the Duke's contract.|SCVR:04JX2FG_AlofsFarm|INTV:|SCVR:56DX3burub gra-bamog|INTV|BNAM:Journal FG_AlofsFarm 100  ModPCFacRep 10 "Fighters Guild"  Player->ModReputation 2  ModDisposition 10  Player->AddItem Gold_001 500

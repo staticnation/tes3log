@@ -1,0 +1,27 @@
+Duel of Honor - Improve the Chances.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(brerasScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    duel
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=18423031934574329(Topic:duel)
+  |DATA|ONAM:rothis nethan|NAME:Okay. Meet me in the Arena. I'll be there this time.|SCVR:01500|INTV|BNAM:Journal HR_CowardDisgrace 50  Player->RemoveItem "p_restore_health_s" 10  AddItem "p_restore_health_s" 10
+
+[DUP-INF]: ID=191420102087831537(Topic:duel)
+  |DATA|ONAM:rothis nethan|NAME:I'll be at the Arena to fight Brethas Deras. Just meet me there. I'll show up this time. Trust me.|SCVR:34JX3HR_CowardDisgrace|INTV:2
+
+[DUP-INF]: ID=241005640352012881(Topic:duel)
+  |DATA|ONAM:rothis nethan|NAME:I'm not fighting any duels without some way of evening the odds.|SCVR:01500|INTV
+
+[MOD-INF]: ID=2234039252561018129(Topic:duel)
+  morrowind.esm--------------------------->|DATA|ONAM:rothis nethan|NAME:Okay, I'll meet Breras Deras in the Arena... But you'll have to help me out. Bring me 10 standard potions of healing. That should give me a fair chance against Brethas Deras. I think Relms Gilvilo has these potions over at the Redoran Canton Temple.|SCVR:34JX3HR_CowardDisgrace|INTV: 
+  Duel of Honor - Improve the Chances.ESP->|DATA|ONAM:rothis nethan|NAME:Okay, I'll meet Breras Deras in the Arena... But you'll have to help me out. Bring me 10 standard potions of healing. That should give me a fair chance against Brethas Deras. I think Relms Gilvilo has these potions over at the Redoran Canton Temple. If you want to help me even more, you could also get me a Glass Netch Dagger.|SCVR:34JX3HR_CowardDisgrace|INTV: |BNAM:AddTopic "Glass Netch Dagger"
+
+[DUP-INF]: ID=2614955922320027123(Topic:duel)
+  |DATA|ONAM:rothis nethan|NAME:Okay, I'll meet Breras Deras in the Arena... But you'll have to help me out. Bring me 10 standard potions of healing. That should give me a fair chance against Brethas Deras. Do you have the potions?|SCVR:05IX3p_restore_health_s|INTV: |SCVR:34JX3HR_CowardDisgrace|INTV: |BNAM:Choice "Yes, here they are." 1 "No, not yet." 2
+
+[MOD-INF]: ID=4798241902712012333(Greeting:greeting 5)
+  morrowind.esm--------------------------->|DATA|ONAM:rothis nethan|ANAM:Vivec, Arena Pit|NAME:I won the duel. I can't believe I won.|SCVR:06DX2brethas deras|INTV:
+  Duel of Honor - Improve the Chances.ESP->|DATA|ONAM:rothis nethan|ANAM:Vivec, Arena Pit|NAME:I won the duel. I can't believe I won.|SCVR:06DX2brethas deras|INTV:|BNAM:Journal "HR_CowardDisgrace" 70  Goodbye

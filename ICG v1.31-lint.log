@@ -1,0 +1,17 @@
+ICG v1.31.esp: AUTOSPL DUP-REC MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	icg_invo30_1                   Ghost Sword
+	icg_invo30_2                   Ghost Dagger
+	icg_invo40                     Skeleton Servant
+	icg_invo50                     Ghost Protection
+	icg_invo60                     Clannfear Servant
+	icg_invo70                     Dremora Servant
+	icg_invo80                     Atronach Servant
+	icg_invo90                     Saint Servant
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ICG_BlockedScript)
+	SCPT(ICG_CreateModifiers)
+	SCPT(ICG_EnchantAScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0

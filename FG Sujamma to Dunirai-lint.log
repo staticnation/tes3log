@@ -1,0 +1,39 @@
+FG Sujamma to Dunirai.ESP: AUTOSPL DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	duniraiteleport                Teleport to Dunirai Mine
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(FG_DuniraiScroll)               setdelete
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FG_BarrelAddTopicVW)
+	SCPT(FG_BeatingFargoth)
+	SCPT(FG_FallPlayerGuy_Platform)
+	SCPT(FG_FargothKillTracker)
+	SCPT(FG_FargothKillTrackerHN)
+	SCPT(FG_FargothMurdered)
+	SCPT(FG_HarassFarg)
+	SCPT(FG_HrisskarBarFight)
+	SCPT(FG_NelacarTeleport_AF)
+	SCPT(FG_NelacarTeleport_AM)
+	SCPT(FG_NelacarTeleport_BF)
+	SCPT(FG_NelacarTeleport_BM)
+	SCPT(FG_NelacarTeleport_DF)
+	SCPT(FG_NelacarTeleport_DM)
+	SCPT(FG_NelacarTeleport_HF)
+	SCPT(FG_NelacarTeleport_HM)
+	SCPT(FG_NelacarTeleport_IF)
+	SCPT(FG_NelacarTeleport_IM)
+	SCPT(FG_NelacarTeleport_KF)
+	SCPT(FG_NelacarTeleport_KM)
+	SCPT(FG_NelacarTeleport_NF)
+	SCPT(FG_NelacarTeleport_NM)
+	SCPT(FG_NelacarTeleport_OF)
+	SCPT(FG_NelacarTeleport_OM)
+	SCPT(FG_NelacarTeleport_RF)
+	SCPT(FG_NelacarTeleport_RM)
+	SCPT(FG_NelacarTeleport_WF)
+	SCPT(FG_NelacarTeleport_WM)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    com_cupboard_01_booze
+	morrowind.esm       CONT    com_cupboard_01_glasses
+	tribunal.esm        DIAL    greeting 5

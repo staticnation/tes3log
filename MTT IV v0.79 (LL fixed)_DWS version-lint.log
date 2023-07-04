@@ -1,0 +1,292 @@
+MTT IV v0.79 (LL fixed)_DWS version.esp: AUTOSPL DUP-INF DUP-REC FOGBUG GETSND MENUMOD MISSAUT MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	_cw_light_heal_other           Refreshing Touch
+	cw_necro_alt_buff_shield_fx    Skel Spell: ShieldFX
+    [FOGBUG]: Cells with zero fog density setting:
+	Halls of the Dead
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(cw_ioun_blank_learn)
+	SCPT(cw_necro_phan_script)
+	SCPT(cw_necro_skel_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AA_curse)
+	SCPT(CW_MTTUID)
+	SCPT(cw_contract_claim)
+	SCPT(cw_contract_inventory)
+	SCPT(cw_disguise_average)
+	SCPT(cw_disguise_extravigant)
+	SCPT(cw_disguise_simple)
+	SCPT(cw_emblem_athlete_script)
+	SCPT(cw_emblem_berserk_global)
+	SCPT(cw_emblem_berserk_script)
+	SCPT(cw_emblem_blight_global)
+	SCPT(cw_emblem_blight_script)
+	SCPT(cw_emblem_clasp_script)
+	SCPT(cw_emblem_cleanup_global)
+	SCPT(cw_emblem_day_global)
+	SCPT(cw_emblem_day_script)
+	SCPT(cw_emblem_legion_armor_boots)
+	SCPT(cw_emblem_legion_armor_cuirass)
+	SCPT(cw_emblem_legion_armor_greaves)
+	SCPT(cw_emblem_legion_armor_helm)
+	SCPT(cw_emblem_legion_armor_l_gaunt)
+	SCPT(cw_emblem_legion_armor_l_paul)
+	SCPT(cw_emblem_legion_armor_r_gaunt)
+	SCPT(cw_emblem_legion_armor_r_paul)
+	SCPT(cw_emblem_legion_armor_shield)
+	SCPT(cw_emblem_legion_global)
+	SCPT(cw_emblem_legion_script)
+	SCPT(cw_emblem_monk_global)
+	SCPT(cw_emblem_monk_script)
+	SCPT(cw_emblem_moon_global)
+	SCPT(cw_emblem_moon_script)
+	SCPT(cw_emblem_night_global)
+	SCPT(cw_emblem_night_script)
+	SCPT(cw_emblem_rain_global)
+	SCPT(cw_emblem_rain_script)
+	SCPT(cw_emblem_ranger_global)
+	SCPT(cw_emblem_ranger_script)
+	SCPT(cw_emblem_serpent_global)
+	SCPT(cw_emblem_serpent_script)
+	SCPT(cw_emblem_stealth_global)
+	SCPT(cw_emblem_stealth_script)
+	SCPT(cw_ioun_armour)
+	SCPT(cw_ioun_battle)
+	SCPT(cw_ioun_black)
+	SCPT(cw_ioun_black_bright)
+	SCPT(cw_ioun_black_pale)
+	SCPT(cw_ioun_blank)
+	SCPT(cw_ioun_blank_effects_combat)
+	SCPT(cw_ioun_blank_effects_magic)
+	SCPT(cw_ioun_blank_effects_purge)
+	SCPT(cw_ioun_blank_effects_special)
+	SCPT(cw_ioun_blank_effects_stats)
+	SCPT(cw_ioun_blank_effects_stealth)
+	SCPT(cw_ioun_blank_float)
+	SCPT(cw_ioun_blank_learn)
+	SCPT(cw_ioun_blank_topics)
+	SCPT(cw_ioun_blue)
+	SCPT(cw_ioun_blue_bright)
+	SCPT(cw_ioun_blue_pale)
+	SCPT(cw_ioun_browne)
+	SCPT(cw_ioun_browne_bright)
+	SCPT(cw_ioun_browne_pale)
+	SCPT(cw_ioun_build)
+	SCPT(cw_ioun_cleanup_blank)
+	SCPT(cw_ioun_dull_greay)
+	SCPT(cw_ioun_float)
+	SCPT(cw_ioun_force_sell)
+	SCPT(cw_ioun_green)
+	SCPT(cw_ioun_green_bright)
+	SCPT(cw_ioun_green_pale)
+	SCPT(cw_ioun_jaga)
+	SCPT(cw_ioun_jaga_float)
+	SCPT(cw_ioun_knowledge)
+	SCPT(cw_ioun_pink)
+	SCPT(cw_ioun_pink_bright)
+	SCPT(cw_ioun_pink_pale)
+	SCPT(cw_ioun_power)
+	SCPT(cw_ioun_power_bright)
+	SCPT(cw_ioun_power_pale)
+	SCPT(cw_ioun_purge)
+	SCPT(cw_ioun_purple)
+	SCPT(cw_ioun_purple_bright)
+	SCPT(cw_ioun_purple_pale)
+	SCPT(cw_ioun_rainbow)
+	SCPT(cw_ioun_rainbow_bright)
+	SCPT(cw_ioun_rainbow_pale)
+	SCPT(cw_ioun_random_inventory)
+	SCPT(cw_ioun_red)
+	SCPT(cw_ioun_red_bright)
+	SCPT(cw_ioun_red_pale)
+	SCPT(cw_ioun_release)
+	SCPT(cw_ioun_release_blank)
+	SCPT(cw_ioun_scroll_script)
+	SCPT(cw_ioun_shadow)
+	SCPT(cw_ioun_shield)
+	SCPT(cw_ioun_teal)
+	SCPT(cw_ioun_teal_bright)
+	SCPT(cw_ioun_teal_pale)
+	SCPT(cw_ioun_travel)
+	SCPT(cw_ioun_yellow)
+	SCPT(cw_ioun_yellow_bright)
+	SCPT(cw_ioun_yellow_pale)
+	SCPT(cw_link_battlegauntlet_1)
+	SCPT(cw_link_battlegauntlet_2)
+	SCPT(cw_link_battlegauntlet_effect)
+	SCPT(cw_link_dimitri_1)
+	SCPT(cw_link_dimitri_2)
+	SCPT(cw_link_dimitri_effect)
+	SCPT(cw_link_lightfinger_1)
+	SCPT(cw_link_lightfinger_2)
+	SCPT(cw_link_lightfinger_effect)
+	SCPT(cw_link_samuel_1)
+	SCPT(cw_link_samuel_2)
+	SCPT(cw_link_samuel_effect)
+	SCPT(cw_link_swash_1)
+	SCPT(cw_link_swash_2)
+	SCPT(cw_link_swash_effect)
+	SCPT(cw_link_uvirith_1)
+	SCPT(cw_link_uvirith_2)
+	SCPT(cw_link_uvirith_effect)
+	SCPT(cw_mtt_beta)
+	SCPT(cw_mtt_loot)
+	SCPT(cw_mtt_loot_npc)
+	SCPT(cw_mtt_menu)
+	SCPT(cw_mtt_reinit)
+	SCPT(cw_mtt_track)
+	SCPT(cw_mtt_update_lists)
+	SCPT(cw_necro_book_script)
+	SCPT(cw_necro_boom_script)
+	SCPT(cw_necro_candel_base_script)
+	SCPT(cw_necro_candel_blue_script)
+	SCPT(cw_necro_candel_green_script)
+	SCPT(cw_necro_candel_red_script)
+	SCPT(cw_necro_chalk_script)
+	SCPT(cw_necro_corpse_script)
+	SCPT(cw_necro_corpse_script_gem)
+	SCPT(cw_necro_corpse_script_skel)
+	SCPT(cw_necro_corpse_script_zomb)
+	SCPT(cw_necro_guards_hostile)
+	SCPT(cw_necro_guards_normal)
+	SCPT(cw_necro_heal_potion_script)
+	SCPT(cw_necro_legal)
+	SCPT(cw_necro_light_script)
+	SCPT(cw_necro_mad_phan_m_script)
+	SCPT(cw_necro_mad_phan_script)
+	SCPT(cw_necro_mad_skel_m_script)
+	SCPT(cw_necro_mad_skel_script)
+	SCPT(cw_necro_mass_illusion_init)
+	SCPT(cw_necro_mass_illusion_loop)
+	SCPT(cw_necro_npc_target_script)
+	SCPT(cw_necro_pentagram_base_script)
+	SCPT(cw_necro_pentagram_script)
+	SCPT(cw_necro_phan_init)
+	SCPT(cw_necro_phan_reinit)
+	SCPT(cw_necro_phan_script)
+	SCPT(cw_necro_power_word_trap)
+	SCPT(cw_necro_ring_test_script)
+	SCPT(cw_necro_skel_init)
+	SCPT(cw_necro_skel_ioun_clean)
+	SCPT(cw_necro_skel_ioun_use)
+	SCPT(cw_necro_skel_level)
+	SCPT(cw_necro_skel_mass_follow)
+	SCPT(cw_necro_skel_mass_wait)
+	SCPT(cw_necro_skel_reinit)
+	SCPT(cw_necro_skel_report)
+	SCPT(cw_necro_skel_script)
+	SCPT(cw_necro_skel_teleport)
+	SCPT(cw_necro_smoke_script)
+	SCPT(cw_necro_summon)
+	SCPT(cw_obj_cont_book_script)
+	SCPT(cw_obj_cont_book_script_menu_1)
+	SCPT(cw_obj_cont_book_script_menu_2)
+	SCPT(cw_obj_cont_global_purge)
+	SCPT(cw_obj_rune_base_script)
+	SCPT(cw_obj_rune_contengency_script)
+	SCPT(cw_obj_rune_effect_script)
+	SCPT(cw_obj_thread_cleanup)
+	SCPT(cw_obj_thread_script)
+	SCPT(cw_s_set_diamond)
+	SCPT(cw_s_set_diamond_cleanup)
+	SCPT(cw_s_set_emerald)
+	SCPT(cw_s_set_emerald_cleanup)
+	SCPT(cw_s_set_ruby)
+	SCPT(cw_s_set_ruby_cleanup)
+	SCPT(cw_s_set_sapphire)
+	SCPT(cw_s_set_sapphire_cleanup)
+	SCPT(cw_s_set_topaz)
+	SCPT(cw_s_set_topaz_cleanup)
+	SCPT(cw_s_set_tourmaline)
+	SCPT(cw_s_set_tourmaline_cleanup)
+	SCPT(cw_sulpher_damage)
+	SCPT(cw_track)
+	SCPT(cw_zugg_script)
+	SCPT(necro_skel)
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    hello
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    chest_goris
+	morrowind.esm       CONT    de_r_chest_01_sm_gatewy
+	morrowind.esm       CONT    sm_gateway chest
+	morrowind.esm       LEVI    random_ingredient_diff
+	morrowind.esm       LIGH    light_sconce00_128
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       CONT    chest_small_02
+	morrowind.esm       CONT    chest_tomb_large02
+	morrowind.esm       CONT    com_chest_02_fg_supply
+	morrowind.esm       CONT    com_chest_02_mg_supply
+	morrowind.esm       DIAL    diamond
+	morrowind.esm       GMST    seffectextraspell
+	morrowind.esm       GMST    seffectlightningshield
+	morrowind.esm       LAND    (13, 13)
+	morrowind.esm       LAND    (14, -5)
+	morrowind.esm       LAND    (14, -6)
+	morrowind.esm       LEVI    l_b_loot_tomb
+	morrowind.esm       LEVI    l_b_loot_tomb01
+	morrowind.esm       LEVI    l_b_loot_tomb02
+	morrowind.esm       LEVI    l_b_loot_tomb03
+	morrowind.esm       LEVI    l_n_wpn_missle_arrow
+	morrowind.esm       LEVI    random_bandit_1-5
+	morrowind.esm       LEVI    random_bandit_11+
+	morrowind.esm       LEVI    random_bandit_6-10
+	morrowind.esm       LEVI    random_dwarven_ingredients
+	morrowind.esm       LEVI    random_loot_special
+	morrowind.esm       LEVI    random_loot_special_marksman
+	morrowind.esm       LEVI    random_smuggler_1-5
+	morrowind.esm       LEVI    random_smuggler_11+
+	morrowind.esm       LEVI    random_smuggler_6-10
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       MGEF    100
+	morrowind.esm       MGEF    126
+	morrowind.esm       MGEF    5
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=61919985144737819(Topic:diamond)
+  |DATA|ONAM:anarenen|NAME:The diamond is a rare, transparent, extremely hard gemstone of great value.|SCVR:0CsX0nolore|INTV
+
+[MOD-INF]: ID=1169922125955110917(Topic:solstheim)
+  bloodmoon.esm--------------------------->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  MTT IV v0.79 (LL fixed)_DWS version.esp->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=2278720479126556737(Topic:solstheim)
+  bloodmoon.esm--------------------------->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2
+  MTT IV v0.79 (LL fixed)_DWS version.esp->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=2334512311307523267(Voice:hello)
+  |DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM027.mp3|NAME:Don't press your luck.|SCVR:02sX3Random100|INTV:(|BNAM:;Random100>=40
+
+[MOD-INF]: ID=2798917491184915920(Topic:solstheim)
+  bloodmoon.esm--------------------------->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  MTT IV v0.79 (LL fixed)_DWS version.esp->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=3095424884419930413(Topic:solstheim)
+  bloodmoon.esm--------------------------->|DATA|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  MTT IV v0.79 (LL fixed)_DWS version.esp->|DATA|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=7662151753138117646(Topic:diamond)
+  morrowind.esm--------------------------->|DATA|ONAM:habasi|DNAM:Thieves Guild|NAME:A friend wants a diamond from Habasi. Nalcarya of White Haven had diamonds last time Habasi sniffed out her store. Bring Habasi a diamond.|BNAM:Journal TG_Diamonds 10
+  MTT IV v0.79 (LL fixed)_DWS version.esp->|DATA|ONAM:habasi|DNAM:Thieves Guild|NAME:A friend wants a diamond from Habasi. Nalcarya of White Haven had diamonds last time Habasi sniffed out her store. Bring Habasi a diamond.  Take this disguise.  Habasi knows it isn't much, but it will help.|SCVR:05IX0cw_obj_disguise_simple|INTV:|BNAM:Journal TG_Diamonds 10  Player->AddItem cw_obj_disguise_simple, 1
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm---------------------------->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  MTT IV v0.79 (LL fixed)_DWS version.esp->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  ; UNLESS YOU KNOW WHAT YOU'RE DOING -- Chris Woods  Journal TT_SanctusShrine 70  Goodbye

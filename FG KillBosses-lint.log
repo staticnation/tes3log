@@ -1,0 +1,26 @@
+FG KillBosses.ESP: DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(FG_BacolaCoward)                forcerun
+	SCPT(FG_DirtyMurielANDStacey)        getspellreadied
+	SCPT(FG_DirtyMurielANDStacey)        getweapondrawn
+	SCPT(FG_IirielleCoward)              forcerun
+	SCPT(FG_MurielCoward)                forcerun
+	SCPT(FG_SottildeCoward)              forcerun
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FG_BacolaCoward)
+	SCPT(FG_DirtyBaurinANDSjoring)
+	SCPT(FG_DirtyMurielANDStacey)
+	SCPT(FG_DirtyMurielBarrel)
+	SCPT(FG_IirielleCoward)
+	SCPT(FG_MurielCoward)
+	SCPT(FG_Muriel_Clothes)
+	SCPT(FG_SottildeCoward)
+	SCPT(FG_TGBosses_Fight)
+	SCPT(FG_TGHBosses_FF_Activator)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    thieves guild bosses
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    fg_killbosses
+	tribunal.esm        DIAL    greeting 1

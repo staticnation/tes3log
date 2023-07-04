@@ -1,0 +1,52 @@
+The Publicans.ESP: DUP-INF DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1260543 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Pub_AldVelothi_Outpost)
+	SCPT(Pub_Aldruhn_Council)
+	SCPT(Pub_DagonFel_End)
+	SCPT(Pub_Gnisis_Madach)
+	SCPT(Pub_Khuul_Thongar)
+	SCPT(Pub_MolagMar_Hostel)
+	SCPT(Pub_MolagMar_Pilgrim)
+	SCPT(Pub_Suran_Desele)
+	SCPT(Pub_Suran_Trade)
+	SCPT(Pub_TelAruhn_Plot)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    ashumanu eraishah
+	morrowind.esm       NPC_    athal nerano
+	morrowind.esm       NPC_    darvam hlaren
+	morrowind.esm       NPC_    fenas madach
+	morrowind.esm       NPC_    helviane desele
+	morrowind.esm       NPC_    hjotra the peacock
+	morrowind.esm       NPC_    orns omaren
+	morrowind.esm       NPC_    selkirnemus
+	morrowind.esm       NPC_    thongar
+	morrowind.esm       NPC_    trivura arenim
+	morrowind.esm       PGRD    ald-ruhn, council club
+	morrowind.esm       PGRD    gnisis, madach tradehouse
+	morrowind.esm       PGRD    molag mar, the pilgrim's rest
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=4325609943702902(Topic:beds)
+  morrowind.esm----->|DATA|CNAM:Publican|NAME:Yes, we have one available. It's 10 gold for the rest of the day. Do you want it?|SCVR:03sX0rent|INTV:|BNAM:Choice, "Yes", 1, "No", 2
+  The Publicans.ESP->|DATA|CNAM:Publican|NAME:Yes, we have one available. It's 10 gold for the rest of the day. Do you want it?|SCVR:03sX0rent|INTV:|BNAM:Choice, "Yes.", 1, "No.", 2
+
+[DUP-INF]: ID=1594025613149529658(Topic:beds)
+  |DATA|ONAM:boderi farano|CNAM:Publican|NAME:Very well. Go down the stairs, and use the first room on your right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script ALDRUHN ALD SKAR INN  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+
+[DUP-INF]: ID=2394122532865625896(Topic:beds)
+  |DATA|ONAM:ery|CNAM:Publican|NAME:Good. You can use the second floor loft.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script, SADRITH MORA  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+
+[DUP-INF]: ID=2467420241504626206(Topic:beds)
+  |DATA|ONAM:hession|NAME:Very well, the bed is yours for the day. You'll find the room on the bottom floor, at the North end of the bar.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script MOURNHOLD WINGED GUAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+
+[DUP-INF]: ID=21432111501574114700(Topic:beds)
+  |DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's all yours for the day. Down the stairs to the right.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+
+[DUP-INF]: ID=28002112342703720123(Topic:beds)
+  |DATA|CNAM:Publican|NAME:Great. The bed is yours. Enjoy your stay.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2

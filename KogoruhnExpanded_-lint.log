@@ -1,0 +1,76 @@
+KogoruhnExpanded_.esp: DUP-REC MENUMOD MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DK_dreamer_hlaaluspy_script)
+	SCPT(DK_kogoruhn_corridor)
+	SCPT(DK_kogoruhn_corridor_dummy)
+	SCPT(DK_kogoruhn_corridor_dummy2)
+	SCPT(DK_kogoruhn_forge)
+	SCPT(DK_kogoruhn_gong)
+	SCPT(dk_6h_temple_of_fey)
+	SCPT(dk_6th_goblet_s)
+	SCPT(dk_add_kogoruhn_key_s)
+	SCPT(dk_bell_ringer_death_s)
+	SCPT(dk_bell_ringer_local_s)
+	SCPT(dk_bell_ringer_start_s)
+	SCPT(dk_feast_choices)
+	SCPT(dk_feast_goblet)
+	SCPT(dk_feast_midnight_timer)
+	SCPT(dk_halve_current_hp)
+	SCPT(dk_ingred_player_meat_s)
+	SCPT(dk_kogoruhn_aggro)
+	SCPT(dk_kogoruhn_tresspass_door_s)
+	SCPT(dk_percentage_damage)
+	SCPT(dk_position_girer_toro_s)
+	SCPT(dk_position_reler_toro_s)
+	SCPT(dk_position_ulen_toro_s)
+	SCPT(dk_position_uvil_toro_s)
+	SCPT(dk_remove_arms)
+	SCPT(dk_remove_arms_lua)
+	SCPT(dk_remove_legs)
+	SCPT(dk_remove_legs_lua)
+	SCPT(dk_sc_report_hlaaluspy_script)
+	SCPT(dk_scri_uvil_to_exterior)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    shadow_shield
+	morrowind.esm       DIAL    corprus weepings
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    fallen brother
+	morrowind.esm       ENCH    wrath_en
+	morrowind.esm       LAND    (-1, 13)
+	morrowind.esm       LAND    (-1, 14)
+	morrowind.esm       LAND    (-1, 15)
+	morrowind.esm       LAND    (0, 13)
+	morrowind.esm       LAND    (0, 14)
+	morrowind.esm       LAND    (0, 15)
+	morrowind.esm       LAND    (1, 13)
+	morrowind.esm       LAND    (1, 14)
+	morrowind.esm       LAND    (1, 15)
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       NPC_    feril salmyn
+	morrowind.esm       NPC_    warrior dead 00
+	morrowind.esm       PGRD    kogoruhn
+	morrowind.esm       PGRD    kogoruhn, dome of urso
+	morrowind.esm       PGRD    kogoruhn, hall of maki
+	morrowind.esm       PGRD    kogoruhn, hall of phisto
+	morrowind.esm       PGRD    kogoruhn, hall of the watchful touch
+	morrowind.esm       PGRD    kogoruhn, vault of aerode
+	morrowind.esm       WEAP    fury
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[MOD-INF]: ID=17054195752231524292(Topic:dagoth ur)
+  morrowind.esm--------->|DATA|ONAM:dagoth girer|NAME:He will not come to you, Lord Nerevar. It is you who must beg forgiveness. Go to him, beneath Red Mountain, kneel before him, and he will show you mercy.|BNAM:;ash ghouls; Kogoruhn; Dagoth Girer, Dagoth Delnus, Dagoth Baler, Dagoth Ralas, Dagoth Fervas
+  KogoruhnExpanded_.esp->|DATA|ONAM:dagoth girer|NAME|DELETE|MEBN

@@ -1,0 +1,92 @@
+Von Slave Market.ESP: DUP-INF DUP-REC GETSND JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(slaveScript)
+	SCPT(slaveScriptLvL)
+	SCPT(slaveScriptTrt)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_testscript)
+	SCPT(_testscript2)
+	SCPT(aa_CreateRandomSlave_br_f)
+	SCPT(aa_CreateRandomSlave_de_f)
+	SCPT(aa_CreateRandomSlave_de_m)
+	SCPT(aa_CreateRandomSlave_he_f)
+	SCPT(aa_CreateRandomSlave_im_f)
+	SCPT(aa_CreateRandomSlave_nd_f)
+	SCPT(aa_CreateRandomSlave_we_f)
+	SCPT(aa_daedra_compLevel)
+	SCPT(aa_random_slave)
+	SCPT(aa_scampscript)
+	SCPT(aa_slavespells)
+	SCPT(aaa_slaveEffects)
+	SCPT(aaa_slavecycle)
+	SCPT(aafun)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (0, 0)                   0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CLAS    slave
+	morrowind.esm       LAND    (10, 13)
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       PGRD    ashlands region
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    idle
+
+[MOD-INF]: ID=2296231487222762(Voice:idle)
+  bloodmoon.esm-------->|DATA|RNAM:Breton|SNAM:vo\b\m\Idl_BM003.mp3|NAME:I think that tavern girl was looking at me. How can I tell her I'm not interested?|SCVR:02sX3Random100|INTV:(
+  Von Slave Market.ESP->|DATA|RNAM:Breton|SNAM:vo\b\m\Idl_BM003.mp3|NAME:I think that tavern girl was looking at me. How can I tell her I'm not interested?|SCVR:02sX3Random100|INTV|INTV
+
+[MOD-INF]: ID=16462055017136588(:idle)
+  tribunal.esm--------->|DATA|SCVR:03sX0noidle|INTV:
+  Von Slave Market.ESP->|NAME|EMPTY|DELE:
+
+[MOD-INF]: ID=148478419151816098(Voice:idle)
+  bloodmoon.esm-------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Idl_DF005.mp3|NAME:Where is that slave? Here not long ago.|SCVR:02sX3Random100|INTV:F|BNAM:;Replace sound file-revise text
+  Von Slave Market.ESP->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Idl_DF005.mp3|NAME:Where is that slave? Here not long ago.|SCVR:02sX3Random100|INTV|INTV|BNAM:;Replace sound file-revise text
+
+[MOD-INF]: ID=403099202505011907(Voice:idle)
+  bloodmoon.esm-------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Idl_HM001.mp3|NAME:I don't recall using teleportation, and yet there I was. Alone. Naked.|SCVR:02sX3Random100|INTV
+  Von Slave Market.ESP->|DATA|RNAM:High Elf|SNAM:vo\h\m\Idl_HM001.mp3|NAME:I don't recall using teleportation, and yet there I was. Alone. Naked.|SCVR:02sX3Random100|INTV|INTV
+
+[DUP-INF]: ID=875317795149451008(Greeting:greeting 0)
+  |DATA|FNAM:Royal Guard|NAME:Halt!  The King suspected you might try something treacherous with his champion. He cannot allow this to continue. By order of His Royal Highness King Hlaalu Helseth, Duke of Mournhold, you are ordered to accompany me to the prison until His Highness deems you fit to engage in the agreed-upon contest.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+
+[DUP-INF]: ID=1224319899288117550(Greeting:greeting 0)
+  |DATA|CNAM:Guard|ANAM:Chun-Ook, Upper Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+
+[MOD-INF]: ID=1305411432326827078(Voice:idle)
+  bloodmoon.esm-------->|DATA|RNAM:High Elf|SNAM:vo\h\f\Idl_HF003.mp3|NAME:First the vision. Then the conjuration. This is unsettling.|SCVR:02sX3Random100|INTV:(
+  Von Slave Market.ESP->|DATA|RNAM:High Elf|SNAM:vo\h\f\Idl_HF003.mp3|NAME:First the vision. Then the conjuration. This is unsettling.|SCVR:02sX3Random100|INTV|INTV
+
+[MOD-INF]: ID=2055599561068914722(Voice:idle)
+  bloodmoon.esm-------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Idl_HM003.mp3|NAME:That's it. She's gone too far. I'll see her disgraced before the council. Yes.|SCVR:02sX3Random100|INTV:(|BNAM:;Random>=30
+  Von Slave Market.ESP->|DATA|RNAM:High Elf|SNAM:vo\h\m\Idl_HM003.mp3|NAME:That's it. She's gone too far. I'll see her disgraced before the council. Yes.|SCVR:02sX3Random100|INTV|INTV|BNAM:;Random>=30
+
+[MOD-INF]: ID=2736311925233346629(Voice:idle)
+  bloodmoon.esm-------->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Idl_DF009.mp3|NAME:I could kill that guar. Those boots are ruined.|SCVR:02sX0Random100|INTV
+  Von Slave Market.ESP->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Idl_DF009.mp3|NAME:I could kill that guar. Those boots are ruined.|SCVR:02sX0Random100|INTV|INTV
+
+[MOD-INF]: ID=2826324996414322036(Voice:idle)
+  bloodmoon.esm-------->|DATA|RNAM:High Elf|SNAM:vo\h\m\Idl_HM005.mp3|NAME:These Dunmer are useless.|SCVR:02sX3Random100|INTV:<|BNAM:;Replace sound file-revise text
+  Von Slave Market.ESP->|DATA|RNAM:High Elf|SNAM:vo\h\m\Idl_HM005.mp3|NAME:These Dunmer are useless.|SCVR:02sX3Random100|INTV|INTV|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=3053416069775816458(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AiWander 0 0 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=3066490811055912948(Voice:idle)
+  bloodmoon.esm-------->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM005.mp3|NAME:Where is that slave?|SCVR:02sX3Random100|INTV:<|BNAM:;Replace sound file-revise text
+  Von Slave Market.ESP->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM005.mp3|NAME:Where is that slave?|SCVR:02sX3Random100|INTV|INTV|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=5532282632337618941(Greeting:greeting 0)
+  |DATA|CNAM:Guard|ANAM:Chun-Ook, Lower Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+
+[MOD-INF]: ID=28227229212837020955(Voice:idle)
+  bloodmoon.esm-------->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM009.mp3|NAME:I could kill that guar. Those boots are ruined.|SCVR:02sX0Random100|INTV|BNAM:;Replace sound file-revise text
+  Von Slave Market.ESP->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Idl_DM009.mp3|NAME:I could kill that guar. Those boots are ruined.|SCVR:02sX0Random100|INTV|INTV|BNAM:;Replace sound file-revise text
+
+[DUP-INF]: ID=31089205411193327763(Greeting:greeting 0)
+  |DATA|ONAM:Rat_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2

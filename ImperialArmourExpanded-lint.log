@@ -1,0 +1,127 @@
+ImperialArmourExpanded.ESP: DUP-INF DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1269934 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Imprm_DukeUniform)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       ARMO    dragonscale_cuirass
+	morrowind.esm       ARMO    imperial_helm_frald_uniq
+	morrowind.esm       ARMO    newtscale_cuirass
+	morrowind.esm       ARMO    silver_cuirass
+	morrowind.esm       ARMO    silver_dukesguard_cuirass
+	morrowind.esm       DIAL    duel
+	morrowind.esm       DIAL    join the imperial legion
+	morrowind.esm       LEVI    imperial guard random rpauldron
+	morrowind.esm       LEVI    random_imp_armor
+	morrowind.esm       NPC_    aldaril
+	morrowind.esm       NPC_    augurius sialius
+	morrowind.esm       NPC_    aumsi
+	morrowind.esm       NPC_    birard adrognese
+	morrowind.esm       NPC_    bogdub gra-gurakh
+	morrowind.esm       NPC_    briring
+	morrowind.esm       NPC_    cavortius albuttian
+	morrowind.esm       NPC_    chargen captain
+	morrowind.esm       NPC_    clilias pullia
+	morrowind.esm       NPC_    duke's guard
+	morrowind.esm       NPC_    duke's guard_tomb
+	morrowind.esm       NPC_    duke's guard_tomb2
+	morrowind.esm       NPC_    dul gro-dush
+	morrowind.esm       NPC_    dumbuk gro-bolak
+	morrowind.esm       NPC_    eiruki hearth-healer
+	morrowind.esm       NPC_    ervona barys
+	morrowind.esm       NPC_    frostien ephine
+	morrowind.esm       NPC_    furius acilius
+	morrowind.esm       NPC_    general darius
+	morrowind.esm       NPC_    glallian maraennius
+	morrowind.esm       NPC_    hingor
+	morrowind.esm       NPC_    imperial archer
+	morrowind.esm       NPC_    imperial guard captain
+	morrowind.esm       NPC_    imperial guard_ebonhear
+	morrowind.esm       NPC_    jelin
+	morrowind.esm       NPC_    joncis dalomax
+	morrowind.esm       NPC_    largakh gro-bulfim
+	morrowind.esm       NPC_    larrius varro
+	morrowind.esm       NPC_    matus mido
+	morrowind.esm       NPC_    molvirian palenix
+	morrowind.esm       NPC_    mug gro-dulob
+	morrowind.esm       NPC_    optio bologra
+	morrowind.esm       NPC_    raesa pullia
+	morrowind.esm       NPC_    sader
+	morrowind.esm       NPC_    shardie
+	morrowind.esm       NPC_    sharkub gro-khashnar
+	morrowind.esm       NPC_    snakha gro-marob
+	morrowind.esm       NPC_    solea nuccusius
+	morrowind.esm       NPC_    ughash gro-batul
+	morrowind.esm       NPC_    ulumpha gra-sharob
+	morrowind.esm       NPC_    vantustius pundus
+	morrowind.esm       NPC_    varian angius
+	morrowind.esm       NPC_    varus vatinius
+	morrowind.esm       NPC_    vatollia apo
+	morrowind.esm       NPC_    vertilvius cines
+	morrowind.esm       NPC_    viccia claevius
+	morrowind.esm       NPC_    vinnus laecinnius
+	tribunal.esm        ARMO    imperial_studded_cuirass
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    lord's mail
+	tribunal.esm        NPC_    apelles matius
+	tribunal.esm        NPC_    ekkhi
+	tribunal.esm        NPC_    sirollus saccus
+
+[MOD-INF]: ID=13417788477069558(Topic:advancement)
+  morrowind.esm-------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and these pauldrons and boots.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "templar boots" 1  Player->additem "templar_pauldron_left" 1  Player->additem "templar_pauldron_right" 1
+  ImperialArmourExpanded.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"
+
+[MOD-INF]: ID=18847342643332070(Topic:join the imperial legion)
+  morrowind.esm-------------->|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  Player->additem, "imperial_chain_cuirass", 1
+  ImperialArmourExpanded.ESP->|DATA|ONAM:general darius|NAME:You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so report to Mug gro-Dulob in the Fort for a set. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.|SCVR:01500|INTV|BNAM:PCJoinFaction "Imperial Legion"  set IMPRM_armour_recruit to 1
+
+[MOD-INF]: ID=23219116441422357(Topic:advancement)
+  morrowind.esm-------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this shield.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "imperial shield" 1
+  ImperialArmourExpanded.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName but as a recruit in the Deathshead Legion, General Darius is the only one who can promote you to a full-time legionnaire.|SCVR:01020|INTV
+
+[MOD-INF]: ID=326478402283706212(Topic:advancement)
+  morrowind.esm-------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this armor.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "imperial cuirass_armor" 1
+  ImperialArmourExpanded.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"
+
+[DUP-INF]: ID=1987232117493827067(Topic:orders)
+  |DATA|ONAM:Varus Vatinius|DNAM:Imperial Legion|NAME:I have no more orders for you. If you still wish for further advancement, you must defeat me in an honorable duel to become the Knight of the Imperial Dragon.|SCVR:34JX3IL_KnightShield|INTV:d
+
+[MOD-INF]: ID=2350315055279237208(Greeting:greeting 1)
+  tribunal.esm--------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform. Talk to me when you're serious.|SCVR:01475|INTV|SCVR:12sX0WearingLegionUni|INTV:|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+  ImperialArmourExpanded.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You're out of uniform. Talk to me when you're serious.|SCVR:01475|INTV|SCVR:12sX0WearingLegionUni|INTV:|SCVR:22sX1IMPRM_armour_recruit|INTV|BNAM:;legion guys of higher rank don't talk to you when you are out of uniform  moddisposition -5  goodbye
+
+[MOD-INF]: ID=2556810582441031087(Topic:advancement)
+  morrowind.esm-------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this helmet and bracers.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "templar_helmet_armor" 1  Player->additem "templar bracer left" 1  Player->additem "templar bracer right" 1
+  ImperialArmourExpanded.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"
+
+[MOD-INF]: ID=3184813218222121086(Topic:advancement)
+  morrowind.esm-------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this helm and gauntlets.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "imperial helmet armor" 1  Player->additem "imperial right gauntlet" 1  Player->additem "imperial left gauntlet" 1
+  ImperialArmourExpanded.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"
+
+[MOD-INF]: ID=3577298171310732405(Topic:advancement)
+  morrowind.esm-------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and this cuirass and greaves.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "templar_cuirass" 1  Player->additem "templar_greaves" 1
+  ImperialArmourExpanded.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank. As a %NextPCRank, you are entitled to a new set of armour, fit for your rank. Report to Sirollus Saccus in Ebonheart for it.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  set IMPRM_armour_officer to 1
+
+[MOD-INF]: ID=6618179852210128456(Topic:lord's mail)
+  tribunal.esm--------------->|DATA|ONAM:Varus Vatinius|NAME:Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 50  ModPCFacRep 5 "Imperial Legion"  ;PCRaiseRank "Imperial Legion" ;should not raise rank here Todd 4/02/02  AddItem "lords_cuirass_unique" 1  Player->RemoveItem "lords_cuirass_unique" 1  Player->Additem "silver_dukesguard_cuirass" 1
+  ImperialArmourExpanded.ESP->|DATA|ONAM:Varus Vatinius|NAME:Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Talk to Sirollus Saccus in the legion garrison for your reward. I have another task for you. I want you to find Chrysamere.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 50  ModPCFacRep 5 "Imperial Legion"  ;PCRaiseRank "Imperial Legion" ;should not raise rank here Todd 4/02/02  AddItem "lords_cuirass_unique" 1  Player->RemoveItem "lords_cuirass_unique" 1  set IMPRM_armour_duke to 1
+
+[MOD-INF]: ID=12471230961806416009(Topic:duel)
+  morrowind.esm-------------->|DATA|ONAM:Varus Vatinius|NAME:I'd rather die than lose my position as a Knight of the Imperial Dragon. Meet me in the Arena in Vivec for a duel to the death.|BNAM:Journal IL_Grandmaster 10
+  ImperialArmourExpanded.ESP->|DATA|ONAM:Varus Vatinius|NAME:I'd rather die than lose my position as a Knight of the Imperial Dragon. Meet me in the Arena in Vivec for a duel to the death.|BNAM:Journal IL_Grandmaster 10  additem "imprm_helm_varus" 1
+
+[MOD-INF]: ID=14671138481440611745(Topic:advancement)
+  morrowind.esm-------------->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank, and these pauldrons and boots.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "imperial boots" 1  Player->additem "imperial right pauldron" 1  Player->additem "imperial left pauldron" 1
+  ImperialArmourExpanded.ESP->|DATA|FNAM:Imperial Legion|DNAM:Imperial Legion|NAME:You are a good soldier, %PCName. I am proud to give you the rank of %NextPCRank and this helmet to denote your authority.|SCVR:01020|INTV|BNAM:PCRaiseRank "Imperial Legion"  Player->additem "imprm_helm_commander" 1
+
+[DUP-INF]: ID=21101133601380211667(Greeting:greeting 5)
+  |DATA|ONAM:general darius|NAME:Report on the land deed.|SCVR:04JX2IL_WidowLand|INTV:|SCVR:14JX4IL_WidowLand|INTV:d
+
+[MOD-INF]: ID=22702227993256012156(Topic:orders)
+  morrowind.esm-------------->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:Yes, let's see if you truly are loyal to our cause here in Morrowind. There's a little issue of a land deed here in Gnisis I need you to take care of.
+  ImperialArmourExpanded.ESP->|DATA|ONAM:general darius|DNAM:Imperial Legion|NAME:Yes, let's see if you truly are loyal to our cause here in Morrowind. There's a little issue of a land deed here in Gnisis I need you to take care of.|SCVR:02sX0IMPRM_armour_recruit|INTV

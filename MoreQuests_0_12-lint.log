@@ -1,0 +1,46 @@
+MoreQuests_0_12.ESP: AUTOSPL DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	pmwv_soultrap                  Soul Snare
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(PMWV_ArielleSwordScript)
+	SCPT(PMWV_InielPersonalityScript)
+	SCPT(PMWV_Initialization)
+	SCPT(PMWV_MalvenRobeScript)
+	SCPT(PMWV_PlaceMalvenRobe)
+	SCPT(PMutil)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    big helende
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    molag mar
+	morrowind.esm       DIAL    thieves guild
+	morrowind.esm       DIAL    uleni heleran
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    specific place
+
+[MOD-INF]: ID=49241294135415676(Topic:big helende)
+  morrowind.esm------->|DATA|ANAM:Sadrith Mora, Dirty Muriel's Cornerclub|DNAM:Thieves Guild|NAME:She's here. Upstairs.
+  MoreQuests_0_12.ESP->|DATA|ANAM:Sadrith Mora, Dirty Muriel's Cornerclub|DNAM:Thieves Guild|NAME:She's here. Upstairs.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=85052361422321081(Topic:big helende)
+  morrowind.esm------->|DATA|ANAM:Sadrith Mora|NAME:I don't have to tell you anything.|SCVR:0CsX0NoLore|INTV:
+  MoreQuests_0_12.ESP->|DATA|ANAM:Sadrith Mora|NAME:I don't have to tell you anything.|SCVR:0CsX0NoLore|INTV:|SCVR:18FX0Mages Guild|INTV|SCVR:28FX0Fighters Guild|INTV
+
+[MOD-INF]: ID=971627586828521359(Topic:big helende)
+  morrowind.esm------->|DATA|ANAM:Sadrith Mora, Dirty Muriel's Cornerclub|NAME:Who wants to know?
+  MoreQuests_0_12.ESP->|DATA|ANAM:Sadrith Mora, Dirty Muriel's Cornerclub|NAME:Who wants to know?|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1894538181487717493(Topic:specific place)
+  morrowind.esm------->|DATA|ANAM:Sadrith Mora|NAME:The Gateway merchant inn is all that's open to non-Telvanni. Telvanni kin and retainers stay at Wolverine Hall, housing the Fighters Guild and Thieves Guild and the Imperial cult shrine. The Council Hall is the big sphere down by the harbor. The Great Market has many services and tradesmen, and many others are scattered through town. There are two cornerclubs: Durty Muriel's, for outlanders, and Fara's Hole in the Wall for local Dunmer. Tel Naga is Master Neloth's wizard tower.|SCVR:07XX0gals arethi|INTV|INTV|INTV|SCVR:3CsX0nolore|INTV:|BNAM:;Sadrith Mora;   Choice "Continue" 1
+  MoreQuests_0_12.ESP->|DATA|ANAM:Sadrith Mora|NAME:The Gateway merchant inn is all that's open to non-Telvanni. Telvanni kin and retainers stay at Wolverine Hall, housing the Fighters Guild and Thieves Guild and the Imperial cult shrine. The Council Hall is the big sphere down by the harbor. The Great Market has many services and tradesmen, and many others are scattered through town. There are two cornerclubs: Durty Muriel's Cornerclub, for outlanders, and Fara's Hole in the Wall for local Dunmer. Tel Naga is Master Neloth's wizard tower.|SCVR:07XX0gals arethi|INTV|INTV|INTV|SCVR:3CsX0NoLore|INTV:|BNAM:;Sadrith Mora;   Choice "Continue" 1
+
+[MOD-INF]: ID=4100315981020626804(Topic:uleni heleran)
+  morrowind.esm------->|DATA|ANAM:Sadrith Mora, Wolverine Hall|NAME:Yes. She teaches Conjuration and Mysticism and Destruction at the Mage Guild. You think she might be involved in the Gateway haunting? Well. I suppose it's possible. Uleni Heleran has a mischievous personality, and she has some sort of bad feeling for Angaredhel and the Gateway Inn. I also noticed that Uleni Heleran has been magically transporting into Wolverine Hall quite a bit lately. Maybe she's using a Mark and Recall spell sequence or a Divine Intervention.|SCVR:07XX0uleni heleran|INTV|SCVR:14JX3town_Sadrith|INTV: |SCVR:24JX4town_Sadrith|INTV:2|SCVR:3CsX0NoLore|INTV:|BNAM:;Sadrith Mora, Wolverine Hall; Journal "town_Sadrith" >= 10; Journal "town_Sadrith" < 50; NOT Uleni Heleran;  Journal "town_Sadrith" 20
+  MoreQuests_0_12.ESP->|DATA|ANAM:Sadrith Mora, Wolverine Hall|NAME:She teaches Conjuration and Mysticism and Destruction at the Mages Guild. Uleni Heleran has a mischievous personality, and there's bad blood between her and Angaredhel at the Gateway Inn.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=10625216961435826925(Topic:big helende)
+  morrowind.esm------->|DATA|ANAM:Sadrith Mora|NAME:Check over at Dirty Muriel's. Might be there.|SCVR:0CsX0NoLore|INTV:
+  MoreQuests_0_12.ESP->|DATA|ANAM:Sadrith Mora|NAME:Check over at Dirty Muriel's. Might be there.|SCVR:0CsX0NoLore|INTV:|SCVR:18FX0Mages Guild|INTV|SCVR:28FX0Fighters Guild|INTV

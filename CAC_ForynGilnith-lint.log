@@ -1,0 +1,77 @@
+CAC_ForynGilnith.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CACGilnithScript)
+	SCPT(CACProcessusScript)
+	SCPT(CAC_CensusDoorScript)
+	SCPT(processusScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    murder of processus vitellius
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    mv_deadtaxman
+
+[MOD-INF]: ID=215421237372325771(Topic:murder of processus vitellius)
+  morrowind.esm-------->|DATA|ONAM:foryn gilnith|NAME:Well, it's the truth. They've all been gouging us for years. The whole office is corrupt, I tell you. Once of these days, they'll get exposed, I swear it! Here, though. This was his ring. Looks like his woman gave it to him. She should probably have it. She wasn't to blame in all this.|SCVR:01500|INTV|BNAM:Journal "MV_DeadTaxman" 80  RemoveItem "Exquisite_Ring_Processus" 1  Player->AddItem "Exquisite_Ring_Processus" 1  AddTopic "Processus' Ring"
+  CAC_ForynGilnith.ESP->|DATA|ONAM:foryn gilnith|NAME:Well, it's the truth. They've all been gouging us for years. The whole office is corrupt, I tell you. One of these days, they'll get exposed, I swear it! Here, though. This was his ring. Looks like his woman gave it to him. She should probably have it. She wasn't to blame in all this.|SCVR:01500|INTV|BNAM:Journal "MV_DeadTaxman" 91  RemoveItem "Exquisite_Ring_Processus" 1  Player->AddItem "Exquisite_Ring_Processus" 1  AddTopic "Processus' Ring"  Choice "Continue" 7
+
+[MOD-INF]: ID=321671945225437535(Topic:murder of processus vitellius)
+  morrowind.esm-------->|DATA|ONAM:foryn gilnith|NAME:That fetcher? You're damn right I did him in, and a good thing, too. He was skimming a load of money from all of us honest people; overcharging us on our taxes and keeping the difference for himself. He was always flaunting his money around, showing off his new clothes and jewels. So, I killed the bastard, and left his body out there to rot, with all his ill-begotten gold still on him.|SCVR:04JX4MV_DeadTaxman|INTV:F|BNAM:Journal "MV_DeadTaxman" 70  Choice "I believe what you say. I'll say nothing to the authorities." 5 "Sorry, that is no excuse for murder, and your punishment has been decided." 6
+  CAC_ForynGilnith.ESP->|DATA|ONAM:foryn gilnith|NAME:That fetcher? You're damn right I did him in, and a good thing, too. He was skimming a load of money from all of us honest people; overcharging us on our taxes and keeping the difference for himself. He was always flaunting his money around, showing off his new clothes and jewels. So, I killed the bastard, and left his body out there to rot, with all his ill-begotten gold still on him.|SCVR:04JX4MV_DeadTaxman|INTV:F|SCVR:14JX3MV_DeadTaxman|INTV:0|BNAM:Journal "MV_DeadTaxman" 70  Choice "I believe what you say. I'll say nothing to the authorities." 5 "Sorry, that is no excuse for murder, and your punishment has been decided." 6
+
+[DUP-INF]: ID=939254272428931886(Greeting:greeting 5)
+  |DATA|ONAM:Relam Arinith|NAME:Greetings, friend. Interested in doing some business?|SCVR:06DX0Rabinna|INTV:|SCVR:16DX0vorar helas|INTV:|SCVR:26DX0Im_Kilaya|INTV:|SCVR:34JX4MV_SlaveMule|INTV: 
+
+[MOD-INF]: ID=1181614601662221205(Topic:murder of processus vitellius)
+  morrowind.esm-------->|DATA|ANAM:Seyda Neen|NAME:Found his body, huh? Well, it's up to you what to do with that information. I suppose that Socucius Ergalla in the Census and Excise Office would be the one to tell, if that's your inclination.|SCVR:04JX0MV_DeadTaxman|INTV: |SCVR:1CsX0NoLore|INTV:|SCVR:27XX0thavere vedrano|INTV
+  CAC_ForynGilnith.ESP->|DATA|ANAM:Seyda Neen|NAME:Found his body, huh? Well, it's up to you what to do with that information. I suppose that Socucius Ergalla in the Census and Excise Office would be the one to tell, if that's your inclination.|SCVR:04JX0MV_DeadTaxman|INTV: |SCVR:1CsX0NoLore|INTV:|SCVR:27XX0thavere vedrano|INTV|SCVR:37XX0Imperial Guard|INTV
+
+[DUP-INF]: ID=1330188121887130999(Journal:mv_deadtaxman)
+  |DATA|NAME:I brought the ring I found on Gilnith's body to Thavere Vedrano in the lighthouse. She was grateful to have something to remember her lover by, and thanked me by giving me two potions of healing.
+
+[DUP-INF]: ID=1616720351991631356(Topic:murder of processus vitellius)
+  |DATA|ONAM:chargen class|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor.|SCVR:04JX0MV_DeadTaxman|INTV:(
+
+[MOD-INF]: ID=2182878901212026068(Topic:murder of processus vitellius)
+  morrowind.esm-------->|DATA|ANAM:Seyda Neen|NAME:Someone finally got him, huh? Well, it's no surprise, I suppose. No one likes a tax collector, especially one who flaunts his wealth while taking our hard-earned cash. Only one who could stomach him at all was Thavere over in the lighthouse. The two of them spent some time together. Shame, really. She seemed like a nice woman.|SCVR:04JX3MV_DeadTaxman|INTV:0|SCVR:14JX5MV_DeadTaxman|INTV:F|SCVR:2CsX0NoLore|INTV:|SCVR:37XX0thavere vedrano|INTV|BNAM:Journal "MV_DeadTaxman" 50
+  CAC_ForynGilnith.ESP->|DATA|ANAM:Seyda Neen|NAME:Someone finally got him, huh? Well, it's no surprise, I suppose. No one likes a tax collector, especially one who flaunts his wealth while taking our hard-earned cash. Only one who could stomach him at all was Thavere over in the lighthouse. The two of them spent some time together. Shame, really. She seemed like a nice woman.|SCVR:04JX3MV_DeadTaxman|INTV:0|SCVR:14JX5MV_DeadTaxman|INTV:F|SCVR:2CsX0NoLore|INTV:|SCVR:37XX0thavere vedrano|INTV|SCVR:47XX0Imperial Guard|INTV|BNAM:Journal "MV_DeadTaxman" 50
+
+[MOD-INF]: ID=2363849332656219826(Journal:mv_deadtaxman)
+  morrowind.esm-------->|DATA|NAME:He seemed impressed with my honesty, but confused as to why someone would murder Processus but not take his money. If I can find out who has done this, and execute the murderer, Socucius has promised to pay me 500 gold.
+  CAC_ForynGilnith.ESP->|DATA|NAME:He seemed confused as to why someone would murder Processus but not take his money. If I can find out who has done this, and execute the murderer, Socucius has promised to pay me 500 gold.
+
+[MOD-INF]: ID=2672815376267430410(Journal:mv_deadtaxman)
+  morrowind.esm-------->|DATA|NAME:I simply can't believe Gilnith's story, and even if it were true, it is no excuse for murder.
+  CAC_ForynGilnith.ESP->|DATA|NAME:Gilnith attacked me when I confronted him.
+
+[MOD-INF]: ID=3197816002626030062(Journal:mv_deadtaxman)
+  morrowind.esm-------->|DATA|NAME:I decided to keep the truth about the 200 gold I found on Processus to myself. Socucius was disappointed that the money had been lost, and saddened by the death of his tax collector. He thanked me for letting him know what had happened.
+  CAC_ForynGilnith.ESP->|DATA|NAME:I decided to keep the truth about the 200 gold I found on Processus to myself. Socucius was disappointed that the money had been lost, and saddened by the death of his tax collector. He thanked me for letting him know what had happened.|QSTF
+
+[MOD-INF]: ID=3215724939241965499(Journal:mv_deadtaxman)
+  morrowind.esm-------->|DATA|NAME:Gilnith killed Processus, of this there is no doubt. He admits to it openly, and seems not in the least bit ashamed of it. Gilnith contends that Processus was corrupt, as are all the employees in the Census and Excise Office. He claims that Processus was attempting to gouge him on the taxes that were levied, and was taking a cut for himself, spending it on new jewelry and the like.
+  CAC_ForynGilnith.ESP->|DATA|NAME:Gilnith admits to killing Processus openly, and contends that Processus was corrupt, as are all the employees in the Census and Excise Office. He claims that Processus was attempting to gouge him on the taxes that were levied, and was taking a cut for himself, spending it on new jewelry and the like.
+
+[MOD-INF]: ID=11335257311729916544(Topic:murder of processus vitellius)
+  morrowind.esm-------->|DATA|ONAM:foryn gilnith|NAME:You're one of them, huh? Come to kill me? Well, give it your best shot, %PCRace. I've no problem spilling more of the blood of the Emperor's lackeys!|SCVR:01500|INTV|BNAM:Journal "MV_DeadTaxman" 85  SetFight 100  AddTopic "Processus' Ring"  Goodbye
+  CAC_ForynGilnith.ESP->|DATA|ONAM:foryn gilnith|NAME:You're one of them, huh? Come to kill me? Well, give it your best shot, %PCRace. I've no problem spilling more of the blood of the Emperor's lackeys!|SCVR:01500|INTV|BNAM:Journal "MV_DeadTaxman" 95  SetFight 100  AddTopic "Processus' Ring"  Goodbye
+
+[MOD-INF]: ID=14173191683162810366(Topic:murder of processus vitellius)
+  morrowind.esm-------->|DATA|ANAM:Seyda Neen, Census and Excise Office|NAME:We heard. He was a good man, and his murder should be avenged.|SCVR:04JX3MV_DeadTaxman|INTV|SCVR:14JX5MV_DeadTaxman|INTV:<
+  CAC_ForynGilnith.ESP->|DATA|ANAM:Seyda Neen, Census and Excise Office|NAME:We heard. He was a good man, and his murder should be avenged.|SCVR:04JX3MV_DeadTaxman|INTV|SCVR:14JX5MV_DeadTaxman|INTV:<|SCVR:27XX0chargen class|INTV
+
+[MOD-INF]: ID=16418318953041815747(Journal:mv_deadtaxman)
+  morrowind.esm-------->|DATA|NAME:I believe Gilnith's story, and have decided to keep this knowledge to myself. Perhaps Processus was a corrupt man, perhaps not. It does not seem a good business to become more involved in.
+  CAC_ForynGilnith.ESP->|DATA|NAME:I decided to let Gilnith go. He rewarded me with some lockpicks and probes before leaving Seyda Neen.|QSTF
+
+[MOD-INF]: ID=26685299282317122055(Journal:mv_deadtaxman)
+  morrowind.esm-------->|DATA|NAME:I've asked around town about the murder of Processus Vitellius. It seems he wasn't a popular person in general, which is no surprise, considering he was a tax collector. Some have suggested I speak with Thavere Vedrano, the lighthouse keeper, as she seemed to have some relationship with him.
+  CAC_ForynGilnith.ESP->|DATA|NAME:I've asked around town about the murder of Processus Vitellius. It seems he wasn't a popular person in general. Some have suggested I speak with Thavere Vedrano, the lighthouse keeper, as she seemed to have some relationship with him.
+
+[DUP-INF]: ID=28520312023193131007(Journal:mv_deadtaxman)
+  |DATA|NAME:After killing Gilnith, I reported my findings to the Census and Excise Office. Socucius seemed pleased to see Processus' murder avenged, and he paid me as promised.|QSTF
+
+[DUP-INF]: ID=30336310151096819196(Topic:murder of processus vitellius)
+  |DATA|ONAM:chargen class|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor.|SCVR:04JX3MV_DeadTaxman|INTV:d
+
+[DUP-INF]: ID=31303214993072730487(Greeting:greeting 5)
+  |DATA|ONAM:duma gro-lag2|NAME:What you need now?

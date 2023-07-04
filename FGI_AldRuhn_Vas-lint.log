@@ -1,0 +1,112 @@
+FGI_AldRuhn_Vas.esp: DUP-REC MISSVER MOD-INF MOD-IID OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    fight together
+	morrowind.esm       DIAL    pillow shipment
+	morrowind.esm       DIAL    vas
+	morrowind.esm       NPC_    daris adram
+	morrowind.esm       NPC_    drarayne thelas
+	morrowind.esm       NPC_    ulyne henim
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    fg_vas
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    little secret
+
+[MOD-INF]: ID=2422885101943779(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:Are you here from the Fighters Guild? Shall we fight together against these foul Necromancers?|SCVR:04JX0FG_Vas|INTV: |SCVR:16DX0daris adram|INTV:
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:Are you here from the Fighters Guild? Shall we fight together against these foul Necromancers?|SCVR:04JX0FG_Vas|INTV: |SCVR:16DX0daris adram|INTV:|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=2422885101943779(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:Are you here from the Fighters Guild? Shall we fight together against these foul Necromancers?|SCVR:04JX0FG_Vas|INTV: |SCVR:16DX0daris adram|INTV:
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:Are you here from the Fighters Guild? Shall we fight together against these foul Necromancers?|SCVR:04JX0FG_Vas|INTV: |SCVR:16DX0daris adram|INTV:|SCVR:54JX0FGI_DialogueKiller|INTV
+[MOD-IID]: ID=967139131048126449
+  FGI_AldRuhn_Vas.esp->Are you here from the Fighters Guild? Shall we fight together against these foul Necromancers?
+
+[MOD-INF]: ID=22762932038421227(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:The Necromancer Daris Adram is dead, %PCName. Thank you for your assistance. The battle would have been difficult without you. I will stay here and take care of a few details. Thank you again.|SCVR:04JX4FG_Vas|INTV:P|SCVR:56DX3daris adram|INTV|BNAM:Journal FG_Vas 85  AiWander 128 6 0 40 30 20 0 0 0 0 0 0
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:The foul Necromancers are dead, %PCName. Thank you for your assistance. The battle would have been difficult without you. I will stay here and take care of a few details. I can also tell you a little secret if you are interested.|SCVR:04JX4FG_Vas|INTV:P|SCVR:13sX0BadEnding|INTV:|SCVR:26DX2derelle ysciele|INTV:|SCVR:36DX2jeberilie moniel|INTV:|SCVR:46DX2debentien sylbenitte|INTV:|SCVR:56DX2daris adram|INTV:|BNAM:Journal FG_Vas 85  AiWander 128 6 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=39981564229741736(Topic:vas)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim gave a very positive report, %PCName. Since this has helped our reputation with the Buoyant Armigers, I've decided to share the contract reward money with you. Take these 500 septims.|SCVR:34JX3FG_Vas|INTV:U|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->AddItem Gold_001 500  "Ulyne Henim"->Disable
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim gave a very positive report, %PCName. Since this has helped our reputation with the Buoyant Armigers, I've decided to share the contract reward money with you. Take these 500 septims.|SCVR:34JX3FG_Vas|INTV:U|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->AddItem Gold_001 500  "Ulyne Henim"->Disable  Player->ModReputation 1
+
+[MOD-INF]: ID=90823152810811864(Topic:vas)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim was satisfied with your performance. Here is your pay of 250 septims based on guild rates.|SCVR:34JX3FG_Vas|INTV:F|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  Player->AddItem Gold_001 250  ModDisposition 10  "Ulyne Henim"->Disable
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim was satisfied with your performance. Here is your pay of 250 septims based on guild rates.|SCVR:34JX3FG_Vas|INTV:P|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  Player->AddItem Gold_001 250  ModDisposition 10  "Ulyne Henim"->Disable
+
+[MOD-INF]: ID=145783453542027234(Topic:fight together)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:Daris Adram has met our justice. There is no need to fight together any more.|SCVR:56DX3daris adram|INTV
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:Daris Adram and his allies have met our justice. There is no need to fight together any more.|SCVR:26DX2derelle ysciele|INTV:|SCVR:36DX2jeberilie moniel|INTV:|SCVR:46DX2debentien sylbenitte|INTV:|SCVR:56DX2daris adram|INTV:
+
+[MOD-INF]: ID=291458702068130499(Journal:fg_vas)
+  tribunal.esm-------->|DATA|NAME:Fighters Guild: The Necromancer of Vas|QSTN
+  FGI_AldRuhn_Vas.esp->|DATA|NAME:Fighters Guild: The Necromancers of Vas|QSTN
+
+[MOD-INF]: ID=1017267082363630895(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:The Necromancer Daris Adram is dead. We have done what we came to do. I will stay here and take care of a few details. Thank you again.|SCVR:04JX4FG_Vas|INTV:P|SCVR:56DX3daris adram|INTV|BNAM:Journal FG_Vas 80  AiWander 128 6 0 40 30 20 0 0 0 0 0 0
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:The foul Necromancers are dead. We have done what we came to do. I will stay here and take care of a few details. Thank you again.|SCVR:04JX4FG_Vas|INTV:P|SCVR:26DX2derelle ysciele|INTV:|SCVR:36DX2jeberilie moniel|INTV:|SCVR:46DX2debentien sylbenitte|INTV:|SCVR:56DX2daris adram|INTV:|BNAM:Journal FG_Vas 80  AiWander 128 6 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=1151827460194137172(Topic:vas)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:Daris Adram is dead. The threat here in Vas is over.|SCVR:56DX3daris adram|INTV
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:The necromancers are dead. The threat here in Vas is over.|SCVR:26DX2derelle ysciele|INTV:|SCVR:36DX2jeberilie moniel|INTV:|SCVR:46DX2debentien sylbenitte|INTV:|SCVR:56DX2daris adram|INTV:
+
+[MOD-INF]: ID=1314914800327467708(Journal:fg_vas)
+  morrowind.esm------->|DATA|NAME:Daris Adram is dead.
+  FGI_AldRuhn_Vas.esp->|DATA|NAME:Daris Adram and his allies are dead.
+
+[MOD-INF]: ID=1428931586148709630(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:Shall we fight together against the foul Necromancers of Vas?|SCVR:04JX5FG_Vas|INTV:2
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:Shall we fight together against the foul Necromancers of Vas?|SCVR:04JX5FG_Vas|INTV:<|SCVR:14JX3FG_Vas|INTV:2
+
+[MOD-INF]: ID=1717217207222518149(Journal:fg_vas)
+  morrowind.esm------->|DATA|NAME:I agreed to fight with Ulyne. We must find and kill the Necromancer Daris Adram.
+  FGI_AldRuhn_Vas.esp->|DATA|NAME:I agreed to fight with Ulyne. We must find and kill the Necromancers occupying the tower of Vas.
+
+[MOD-INF]: ID=1806026616964426083(Topic:pillow shipment)
+  morrowind.esm------->|DATA|ONAM:drarayne thelas|NAME:A shipwreck? That's horrible! Oh, all of those wonderful pillows.... Well, I thank you, %PCName. It is good to know what became of my shipment, though the loss of pillows saddens me. A few of those were stuffed with racer plumes. A real shame. Still, thank you for your help with this. Take this as a token of my appreciation. It has served me well.|SCVR:05IX2bk_pillowinvoice|INTV:|BNAM:Player->removeitem "bk_pillowinvoice" 1  Player->AddItem "misc_uni_pillow_unique" 1  RemoveItem "misc_uni_pillow_unique" 1
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:drarayne thelas|NAME:A shipwreck? That's horrible! Oh, all of those wonderful pillows.... Well, I thank you, %PCName. It is good to know what became of my shipment, though the loss of pillows saddens me. A few of those were stuffed with racer plumes. A real shame. Still, thank you for your help with this. Take this as a token of my appreciation. It has served me well.|SCVR:05IX2bk_pillowinvoice|INTV:|SCVR:14JX4AA_Pillow|INTV:d|BNAM:Player->removeitem "bk_pillowinvoice" 1  Player->AddItem "misc_uni_pillow_unique" 1  RemoveItem "misc_uni_pillow_unique" 1  Journal "AA_Pillow" 100
+
+[MOD-INF]: ID=1982748741803812127(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:drarayne thelas|NAME:Are you the one they sent to take care of the cave rats?|SCVR:04JX4FG_RatHunt|INTV:2
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:drarayne thelas|NAME:Are you the one they sent to take care of the cave rats?|SCVR:04JX4FG_RatHunt|INTV:2|SCVR:15IX0bk_pillowinvoice|INTV:
+
+[MOD-INF]: ID=4945190022030522086(Topic:vas)
+  morrowind.esm------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Go to Vas and meet with the Buoyant Armiger Ulyne Henim. Help her clear the Necromancers out of Vas. Vas is far to the north, in the Sheogorad Region. Here, I'll mark it on your map. The journey is a long one. Your best bet may be to take a ship to Dagon Fel from Tel Mora. Good luck to you.|BNAM:Journal FG_Vas 10  "Ulyne Henim"->Enable  ShowMap Vas
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Go to Vas and meet with the Buoyant Armiger Ulyne Henim. Help her clear the Necromancers out of Vas. Vas is far to the north, in the Sheogorad Region. Here, I'll mark it on your map. The journey is a long one. Your best bet may be to take a ship to Dagon Fel from Sadrith Mora. Good luck to you.|BNAM:Journal FG_Vas 10  "Ulyne Henim"->Enable  ShowMap Vas
+
+[MOD-INF]: ID=9523291201261418953(Greeting:greeting 5)
+  morrowind.esm------->|DATA|ONAM:drarayne thelas|NAME:You say you've found out what happened to my pillow shipment?|SCVR:04JX0FG_RatHunt|INTV:d|SCVR:15IX2bk_pillowinvoice|INTV:
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:drarayne thelas|NAME:You say you've found out what happened to my pillow shipment?|SCVR:04JX3FG_RatHunt|INTV:d|SCVR:15IX2bk_pillowinvoice|INTV:
+
+[MOD-INF]: ID=12912310723271028422(Journal:fg_vas)
+  morrowind.esm------->|DATA|NAME:Ulyne Henim thanked me for helping her kill this Necromancer.
+  FGI_AldRuhn_Vas.esp->|DATA|NAME:Ulyne Henim thanked me for helping her kill the Necromancers.
+
+[MOD-INF]: ID=14303183551984930906(Topic:fight together)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:I will wait here for you.|BNAM:AiWander 128 6 0 40 30 20 0 0 0 0 0 0
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:I will wait here for you.|SCVR:01500|INTV|BNAM:AiWander 128 6 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=16682109322541622872(Journal:fg_vas)
+  morrowind.esm------->|DATA|NAME:Ulyne Henim was very grateful for my assistance in dealing with Daris Adram the Necromancer.
+  FGI_AldRuhn_Vas.esp->|DATA|NAME:Ulyne Henim was very grateful for my assistance in dealing with the Necromancers.
+
+[MOD-INF]: ID=16742267121877231535(Topic:fight together)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:Shall we bring justice to the foul Necromancer Daris Adram?|SCVR:03sX0followNow|INTV:|BNAM:Choice "Yes, we fight together" 1 "No, wait here" 2
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:Shall we bring justice to the foul Necromancers?|SCVR:03sX0followNow|INTV:|BNAM:Choice "Yes, we'll fight together." 1 "No, wait here." 2
+
+[MOD-INF]: ID=19808204903220023708(Topic:fight together)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:Shall I wait here for you?|SCVR:03sX0followNow|INTV|BNAM:Choice "No, we fight together" 1 "Yes, wait here" 2
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:Shall I wait here for you?|SCVR:03sX0followNow|INTV|BNAM:Choice "No, we'll fight together." 1 "Yes, wait here." 2
+
+[MOD-INF]: ID=20346204972850912813(Topic:fight together)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:I will fight by your side.|BNAM:;below may need to be adjusted. I was told all zeros was "follow forever"  Journal FG_Vas 50  AiFollow Player 0 0 0 0 0 0 0 0 0
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:I will fight by your side.|SCVR:01500|INTV|BNAM:;below may need to be adjusted. I was told all zeros was "follow forever"  Journal FG_Vas 50  AiFollow Player 0 0 0 0 0 0 0 0 0
+
+[MOD-INF]: ID=22452166282146427138(Topic:vas)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:Let us go inside and fight together against these foul Necromancers.
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:Let us go inside and fight together against the foul Necromancer Daris Adram and his Telvanni allies.
+
+[MOD-INF]: ID=25529220342888925079(Topic:vas)
+  morrowind.esm------->|DATA|ONAM:ulyne henim|NAME:We must bring justice to the foul Necromancer Daris Adram here in Vas.|SCVR:34JX3FG_Vas|INTV:2
+  FGI_AldRuhn_Vas.esp->|DATA|ONAM:ulyne henim|NAME:We must bring justice to the foul Necromancer Daris Adram and his Telvanni allies here in Vas.|SCVR:34JX3FG_Vas|INTV:2

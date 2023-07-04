@@ -1,0 +1,30 @@
+SU3fixes.ESP: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    blood_feast_shield
+	morrowind.esm       DIAL    haj-ei
+	morrowind.esm       DIAL    the rules
+	tribunal.esm        CREA    durzog_war
+	tribunal.esm        CREA    durzog_war_trained
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    goblins
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+
+[MOD-INF]: ID=63852583145327472(Topic:my trade)
+  morrowind.esm->|DATA|CNAM:Enforcer|NAME:I am an enforcer. There are rules. The boss makes the rules. I enforce them. You break the rules, and you don't get to live a long productive life. So don't break the rules.|SCVR:0CsX0NoLore|INTV:|BNAM:;Enforcer; the rules
+  SU3fixes.ESP-->|DATA|CNAM:Enforcer|NAME:I am an enforcer. There are rules. The boss makes these rules and I enforce them. You break the rules and you don't get to live a long productive life. So behave.|SCVR:0CsX0NoLore|INTV:|BNAM:;Enforcer; the rules
+
+[MOD-INF]: ID=1166823429852812720(Topic:the rules)
+  morrowind.esm->|DATA|CNAM:Enforcer|NAME:Rule Number One: The boss says you do business with him, or you don't do business. You don't know who the boss is? Then you don't do business. Simple. Rule Number Two: You do business, but it is not with the boss, because you have broken Rule Number One. So Rule Number Two is that now I visit you, and after this visit, you never do anything ever again. Except feed the worms. And Rule Number Three is don't push your luck with me. Or I kill you. Nothing personal. Just part of my job.|SCVR:0CsX0NoLore|INTV
+  SU3fixes.ESP-->|DATA|CNAM:Enforcer|NAME:Rule One: The boss says you do business, or you don't do business. You don't know who the boss is? Then you don't do business. Simple. Rule Two: If you do business, but it is not with the boss, I visit you, and after this visit you never do business, or anything else, ever again. And Rule Three is don't push your luck with me, or I end you. Nothing personal. Just part of my job.|SCVR:0CsX0NoLore|INTV
+
+[MOD-INF]: ID=6269102991549629747(Topic:haj-ei)
+  morrowind.esm->|DATA|ANAM:Suran|NAME:Haj-Ei? Yes, I've heard of him. Couldn't tell you where to find him, though. Ask Dranas Sarathram in the Slave Market. He's gotten to be an expert on Argonians, their language, and their habits.|SCVR:0CsX0NoLore|INTV:
+  SU3fixes.ESP-->|DATA|ANAM:Suran|NAME:Haj-Ei? Yes, I've heard of him. Couldn't tell you where to find him, though. Ask Dranas Sarathram in the Slave Market. He's an expert on Argonians, their language, and their habits.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=20208306532946321830(Topic:haj-ei)
+  morrowind.esm->|DATA|ANAM:Suran|NAME:I've heard about that runaway slave Daric Bielle has been looking for. Not too much I can tell you, though. You might check with Dranas Sarthram, the slave trader. He'd probably have the latest news on that kind of thing.|SCVR:0CsX0NoLore|INTV:|BNAM:Journal "MV_BountyHunter" 60
+  SU3fixes.ESP-->|DATA|ANAM:Suran|NAME:I've heard about the runaway slave that Daric Bielle has been looking for. Not too much I can tell you, though. You might check with Dranas Sarthram, the slave trader. He'd probably have the latest news on that kind of thing.|SCVR:0CsX0NoLore|INTV:|BNAM:Journal "MV_BountyHunter" 60

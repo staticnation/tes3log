@@ -1,0 +1,190 @@
+Clean Solstheim_Castle_v1.1.ESP: DUP-REC FOGBUG GETSND JUNKCEL MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	Solstheim Tomb of The Snow Prince.esm   10509876 (plugin)   10637543 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Solstheim Castle, Dance Hall
+	Solstheim Castle, Great Hall
+	Solstheim Castle, Laboratory
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(KO_GongHit)
+	SCPT(KO_MusicStart)
+	SCPT(KO_MusicStart_Essex)
+	SCPT(KO_comp3Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(KO_AzuraStatue)
+	SCPT(KO_Ballerinana_change)
+	SCPT(KO_Ballerinana_change_day)
+	SCPT(KO_Ballerinana_change_night)
+	SCPT(KO_CursedChest_Barrow)
+	SCPT(KO_DanceMusic_Script)
+	SCPT(KO_DomeRotate)
+	SCPT(KO_DomeRotate_fast)
+	SCPT(KO_Dungeon_lock)
+	SCPT(KO_Gamble)
+	SCPT(KO_Hinkel_Door_lock)
+	SCPT(KO_KeyDungeon_Script)
+	SCPT(KO_Kitchen_Door)
+	SCPT(KO_MainHall_Door)
+	SCPT(KO_Merch_Door_lock)
+	SCPT(KO_MoonRotate)
+	SCPT(KO_MusiciansScript)
+	SCPT(KO_NorthSwitchScript)
+	SCPT(KO_QuestScript)
+	SCPT(KO_Rental_Pub)
+	SCPT(KO_Riekling_stuffed)
+	SCPT(KO_Shannonwinoscript)
+	SCPT(KO_SlowMoonRotate)
+	SCPT(KO_Sound_Frogs)
+	SCPT(KO_Sound_Water_Layer)
+	SCPT(KO_SouthSwitchScript)
+	SCPT(KO_Telescope)
+	SCPT(KO_Telescope_look)
+	SCPT(KO_compLevel)
+	SCPT(KO_drunkwoman_synch)
+	SCPT(KO_dungeon_gaurd)
+	SCPT(KO_mann_FE_place)
+	SCPT(KO_mann_place_ma)
+	SCPT(KO_timed_relock_script)
+	SCPT(KO_timed_relock_script_10)
+	SCPT(KO_timed_relock_script_25)
+	SCPT(KO_timed_relock_script_50)
+	SCPT(KO_timed_relock_script_75)
+	SCPT(Ko_MusicScript_DanceHall)
+	SCPT(Ko_MusicScript_ExitPub)
+	SCPT(Ko_MusicScript_Pub)
+	SCPT(Ko_MusicScript_mon)
+	SCPT(NOM_cookingoven)
+	SCPT(NOM_well_water)
+	SCPT(ZZA_BathMistress_script)
+	SCPT(ZZA_Bath_water_script)
+    [JUNKCEL] Junk Cells:                        Flags
+	Felsaad Coast Region (-11, 32)           0x02
+	Felsaad Coast Region (-12, 32)           0x02
+	Felsaad Coast Region (-12, 33)           0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    wg_scrub plain
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    horkers
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    rm_rock_03
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_02.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_03.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_04.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_05.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_06.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_rock_01.dds
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       CONT    contain_corpse00
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    lavacrust01.tga
+	morrowind.esm       LTEX    lavacrust02.tga
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sandstone02
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock06
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_lavacrust00.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	solstheim tomb of the snow prince.esm    LAND    (-10, 32)
+	solstheim tomb of the snow prince.esm    LAND    (-11, 32)
+	solstheim tomb of the snow prince.esm    LAND    (-11, 33)
+	solstheim tomb of the snow prince.esm    LAND    (-12, 32)
+	solstheim tomb of the snow prince.esm    LAND    (-12, 33)
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    game of shells
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_tilled_dirt
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga

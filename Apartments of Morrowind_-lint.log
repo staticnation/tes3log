@@ -1,0 +1,156 @@
+Apartments of Morrowind_.esp: DUP-INF DUP-REC JUNKCEL MENUMOD MOD-INF MOD-IID NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (464) != Actual count (450)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AOV_AD)
+	SCPT(AOV_AH)
+	SCPT(AOV_BB)
+	SCPT(AOV_BD)
+	SCPT(AOV_BH)
+	SCPT(AOV_BV)
+	SCPT(AOV_Balyn_trapdoor)
+	SCPT(AOV_Gilnith_door)
+	SCPT(AOV_Hanarai_Crate)
+	SCPT(AOV_MH_VM)
+	SCPT(AOV_MH_Vel)
+	SCPT(AOV_MT)
+	SCPT(AOV_SN)
+	SCPT(AOV_VD)
+	SCPT(AOV_VO)
+	SCPT(AOV_Vod)
+	SCPT(AOV_Vodunius)
+	SCPT(AOV_saryoni)
+	SCPT(treboniusScript)
+	SCPT(varusVantiniusScript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (2, -14)           0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       BOOK    bk_stronghold_ld_hlaalu
+	morrowind.esm       DIAL    patron
+	morrowind.esm       DIAL    stronghold
+	morrowind.esm       DIAL    vorar helas
+	morrowind.esm       NPC_    tholer saryoni
+	tribunal.esm        DIAL    ebony mail
+	tribunal.esm        DIAL    hr_stronghold
+	tribunal.esm        DIAL    ht_stronghold
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    soscean
+
+[MOD-INF]: ID=2707041149329678(Topic:stronghold)
+  morrowind.esm---------------->|DATA|ONAM:llunela hleran|NAME:Do you have the Dwemer schematics from Mzanchend and the 5000 gold?|SCVR:34JX3HT_Stronghold|INTV:n|BNAM:Choice "Yes, here they are." 3 "No, not yet." 4
+  Apartments of Morrowind_.esp->|DATA|ONAM:llunela hleran|NAME:Do you have the Dwemer schematics from Mzanchend and the 15000 gold?|SCVR:34JX3HT_Stronghold|INTV:n|BNAM:Choice "Yes, here they are." 3 "No, not yet." 4
+
+[MOD-INF]: ID=15832852944213578(Topic:stronghold)
+  morrowind.esm---------------->|DATA|ONAM:llunela hleran|NAME:Yes, this will do. I shall give the orders to begin construction on the rest of your stronghold.|SCVR:01500|INTV|SCVR:15IX2misc_dwrv_artifact70|INTV:|SCVR:25IX3Gold_001|INTV|BNAM:Journal HT_Stronghold 170  Player->RemoveItem "misc_dwrv_artifact70" 1  Player->RemoveItem "Gold_001" 5000  StartScript Strong_Build2_T  ModPCFacRep 10 "Telvanni"  Player->ModReputation 1
+  Apartments of Morrowind_.esp->|DATA|ONAM:llunela hleran|NAME:Yes, this will do. I shall give the orders to begin construction on the rest of your stronghold.|SCVR:01500|INTV|SCVR:15IX2misc_dwrv_artifact70|INTV:|SCVR:25IX3Gold_001|INTV|BNAM:Journal HT_Stronghold 170  Player->RemoveItem "misc_dwrv_artifact70" 1  Player->RemoveItem "Gold_001" 15000  StartScript Strong_Build2_T  ModPCFacRep 10 "Telvanni"  Player->ModReputation 1
+
+[MOD-INF]: ID=26825243163941031(Topic:latest rumors)
+  tribunal.esm----------------->|DATA|ANAM:Ald-ruhn|NAME:It feels like everyone's working too hard, trying to live the Good Life. Seems like everyone I talk to is always tired. Just not getting enough sleep.|SCVR:02sX4Random100|INTV|SCVR:14JX3A1_2_AntabolisInformant|INTV: |SCVR:26DX0hanarai assutlanipal|INTV:|SCVR:38FX0Redoran|INTV|SCVR:4CsX0NoLore|INTV:|BNAM:;random100 <= 30; ;ald-ruhn; Journal A1_2_AntabolisInformant >= 10; Hanarai Assutlanipal dead
+  Apartments of Morrowind_.esp->|DATA|ANAM:Ald-ruhn|DNAM:Redoran|NAME:Drinar Varyon was arrested for smuggling. He's on his way to a jail on the mainland. All his property is confiscated, and the house is for sale.|SCVR:02sX4Random100|INTV|SCVR:14JX4AOV_Drinar|INTV:d|SCVR:24JX0IL_Smuggler|INTV:d|SCVR:4CsX0NoLore|INTV:|BNAM:Player -> AddTopic "Drinar Varyon's House"  Journal AOV_Drinar 10  "drinar varyon"->disable
+
+[MOD-INF]: ID=31982486641431909(Topic:soscean)
+  tribunal.esm----------------->|DATA|ONAM:Dovor Oren|NAME:Oh, I'm sure you've noticed him, strutting around as if he were Lord Vivec himself.  Of course, no one mentions the horrible things HE'S done to get where he is.  And for what?  He's just another noble, something Mournhold has no use for.  But the tools he's used to step on others and get where he is today, now THOSE Mournhold has use for.  Indeed, I have use for them.  Would you be willing to get them?|BNAM:Choice: "Yes, I'll get them." 1 "No, I want nothing to do with this." 2
+  Apartments of Morrowind_.esp->|DATA|ONAM:Soscean|NAME:Give it a try, robber!|SCVR:01500|INTV|BNAM:SetDisposition 0
+
+[MOD-INF]: ID=60811821444791118(Topic:vorar helas)
+  morrowind.esm---------------->|DATA|ONAM:imsin the dreamer|NAME:Go to his home here in Balmora and bring me any Dwemer artifacts you find.|SCVR:01500|INTV
+  Apartments of Morrowind_.esp->|DATA|ONAM:larrius varro|NAME:Go to his home in Balmora and bring me any evidence of his smuggling you find.|SCVR:01500|INTV
+
+[MOD-INF]: ID=129963086726015259(Topic:vorar helas)
+  morrowind.esm---------------->|DATA|ONAM:imsin the dreamer|NAME:Vorar Helas is dead? I did not wish him dead. I was hoping we could use him to find out who was behind the whole operation. But I thank you for your honesty.|SCVR:06DX3vorar helas|INTV|BNAM:Journal IL_Smuggler 200  ModPCFacRep 5 "Imperial Legion"  ModDisposition 5
+  Apartments of Morrowind_.esp->|DATA|ONAM:larrius varro|NAME:Vorar Helas is dead? I did not wish him dead. I was hoping we could use him to find out who was behind the smuggling in Balmora. But I thank you for your honesty.|SCVR:06DX0vorar helas|INTV|SCVR:14JX4IL_Smuggler1|INTV:d|BNAM:Journal IL_Smuggler1 100  ModDisposition 5
+
+[DUP-INF]: ID=186611130882606453(Topic:soscean)
+  |DATA|ONAM:Dovor Oren|NAME:Think no more of it. He deserved what he got.|SCVR:04JX0MS_Warlords|INTV:x
+
+[MOD-INF]: ID=221299771208702117(Topic:stronghold)
+  morrowind.esm---------------->|DATA|ONAM:galsa gindu|NAME:You have the construction contract, yes, but I must also have 5000 drakes for labor and materials.|SCVR:01500|INTV|SCVR:15IX2bk_stronghold_c_hlaalu|INTV:
+  Apartments of Morrowind_.esp->|DATA|ONAM:galsa gindu|NAME:You have the construction contract, yes, but I must also have 15000 drakes for labor and materials.|SCVR:01500|INTV|SCVR:15IX2bk_stronghold_c_hlaalu|INTV:
+
+[MOD-INF]: ID=253122858113925248(Journal:hr_stronghold)
+  tribunal.esm----------------->|DATA|NAME:Galsa Gindu told me that in order to build my stronghold, I must pay 5000 gold and get a construction contract from Duke Dren in Ebonheart.
+  Apartments of Morrowind_.esp->|DATA|NAME:Galsa Gindu told me that in order to build my stronghold, I must pay 15000 gold and get a construction contract from Duke Dren in Ebonheart.
+
+[MOD-INF]: ID=302724868906427195(Topic:vorar helas)
+  morrowind.esm---------------->|DATA|ONAM:imsin the dreamer|NAME:You have been expelled, %PCName. You need to talk with your recruiting officer and join up again if you still can.|SCVR:01390|INTV
+  Apartments of Morrowind_.esp->|DATA|ONAM:larrius varro|NAME:One scum less in Balmora. Maybe you want ito settle down in Vorar Helas' house? It would be nice to have such a faithful resident in Balmora.|SCVR:04JX0IL_Smuggler1|INTV:d|SCVR:14JX4AOV_Balmora_Vorar|INTV: |SCVR:24JX3town_balmora|INTV|BNAM:player ->addtopic "Vorar Helas' house"
+
+[MOD-INF]: ID=323932311126577582(Journal:ht_stronghold)
+  morrowind.esm---------------->|DATA|NAME:Llunela Hleran said that she could improve my stronghold if I paid her 5000 gold. She also wants me to investigate the Dwemer ruin of Mzanchend northwest of my stronghold. I should bring her any dwemer plans or schematics that I find there.
+  Apartments of Morrowind_.esp->|DATA|NAME:Llunela Hleran said that she could improve my stronghold if I paid her 15000 gold. She also wants me to investigate the Dwemer ruin of Mzanchend northwest of my stronghold. I should bring her any dwemer plans or schematics that I find there.
+
+[MOD-INF]: ID=856415837775031315(Topic:latest rumors)
+  tribunal.esm----------------->|DATA|ANAM:Maar Gan|NAME:Some Ashlanders nearby have been bragging about how they captured a famous noble. I wonder who it is.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0NoLore|INTV:
+  Apartments of Morrowind_.esp->|DATA|ANAM:Maar Gan|NAME:Everyone is talking about the mysterious disappearance of Tashpi Ashibael. Nobody knows what became of her, nothing valuable was lost in her's house. Such strange story... But now there is nobody who can heal any sick one in Maar Gan... We all hope that House Redoran will invite the healer as soon as possible.|SCVR:04JX3MG_KillNecro2|INTV:2|SCVR:1CsX0NoLore|INTV:|SCVR:26DX0tashpi ashibael|INTV:|SCVR:34JX4AOV_Tashpi|INTV:d|SCVR:42sX4Random100|INTV:<|SCVR:57XX0nuleno tedas|INTV|BNAM:Player -> AddTopic "Tashpi Ashibael's hut"  Journal AOV_Tashpi 10
+
+[MOD-INF]: ID=1211832190306292853(Topic:vorar helas)
+  morrowind.esm---------------->|DATA|ONAM:imsin the dreamer|NAME:I haven't heard any more yet, %PCName. Give it time.|SCVR:34JX3IL_Smuggler|INTV:d
+  Apartments of Morrowind_.esp->|DATA|ONAM:Relam Arinith|NAME:He's my partner. You'll find Helas in Balmora, in the east side of town.|SCVR:04JX5MV_SlaveMule|INTV:d
+
+[MOD-INF]: ID=1276329144286092223(Topic:vorar helas)
+  morrowind.esm---------------->|DATA|ONAM:imsin the dreamer|DNAM:Imperial Legion|NAME:I believe Vorar Helas is a smuggler. I hate to ask you to break the law, but we need evidence to convict him. Go to Vorar Helas' house in Balmora and bring me any Dwemer artifacts you find inside.|BNAM:Journal IL_Smuggler 10
+  Apartments of Morrowind_.esp->|DATA|ONAM:larrius varro|NAME:I believe Vorar Helas is a smuggler. I hate to ask you to break the law, but we need evidence to convict him. Go to Vorar Helas's house in Balmora and bring me any evidence of smuggling you find inside.|SCVR:04JX0MV_SlaveMule|INTV:s|SCVR:14JX4AOV_Balmora_Vorar|INTV: |SCVR:24JX4IL_Smuggler1|INTV: |BNAM:Journal IL_Smuggler1 10
+
+[MOD-INF]: ID=1445911535144414564(Topic:vorar helas)
+  morrowind.esm---------------->|DATA|ONAM:imsin the dreamer|NAME:Have you found any evidence in Vorar Helas' home?|SCVR:05IX3misc_dwrv_artifact_ils|INTV|SCVR:34JX3IL_Smuggler|INTV: |BNAM:Choice "Yes, here it is." 1 "No, not yet." 2
+  Apartments of Morrowind_.esp->|DATA|ONAM:larrius varro|NAME:Have you found any evidence in Vorar Helas' home?|SCVR:05IX3misc_dwrv_goblet_vorar|INTV|SCVR:34JX0IL_Smuggler1|INTV: |BNAM:Choice "Yes, here it is." 1 "No, not yet." 2
+
+[MOD-INF]: ID=1495617480136786398(Topic:ebony mail)
+  tribunal.esm----------------->|DATA|ONAM:tholer saryoni|DNAM:Temple|NAME:Ah, keep the Ebony Mail, %PCName. Treat it well and do good deeds when you wear it. You are the new %NextPCRank. I have long wanted to retire from the politics of the Temple and write another book of sermons.|SCVR:01500|INTV|SCVR:15IX2ebon_plate_cuirass_unique|INTV:|BNAM:Journal TT_Assarnibibi 110  PCRaiseRank Temple  ModPCFacRep 10 "Temple"  ModDisposition 20  Player->ModReputation 3
+  Apartments of Morrowind_.esp->|DATA|ONAM:tholer saryoni|DNAM:Temple|NAME:Ah, keep the Ebony Mail, %PCName. Treat it well and do good deeds when you wear it. You are the new %NextPCRank. I have long wanted to retire from the politics of the Temple and write another book of sermons. Take this key, now these apartments belong to you. If you need me, you can find me in the opposite side of the High Fane.|SCVR:01500|INTV|SCVR:15IX2ebon_plate_cuirass_unique|INTV:|BNAM:Journal TT_Assarnibibi 110  PCRaiseRank Temple  ModPCFacRep 10 "Temple"  ModDisposition 20  Player->ModReputation 3  removeitem key_archcanon_private 1  Player->additem key_archcanon_private 1
+
+[MOD-INF]: ID=2399373021586031546(Topic:patron)
+  morrowind.esm---------------->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:It would not be proper of me to be your patron. But I am pleased that you would ask.
+  Apartments of Morrowind_.esp->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:It would not be proper of me to be your patron. However, I can be your patron... in a figurative sense. If you want - settle down in the room on the lower tier of the tower. Just do not bother me over trifles, okay?|SCVR:04JX4AOV_Baladas|INTV:d|BNAM:Journal AOV_Baladas 100  Player->AddItem key_AOV_Baladas 1
+
+[MOD-INF]: ID=2399373021586031546(Topic:patron)
+  morrowind.esm---------------->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:It would not be proper of me to be your patron. But I am pleased that you would ask.
+  Apartments of Morrowind_.esp->|DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:It would not be proper of me to be your patron. However, I can be your patron... in a figurative sense. If you want - settle down in the room on the lower tier of the tower. Just do not bother me over trifles, okay?|SCVR:04JX4AOV_Baladas|INTV:d|BNAM:Journal AOV_Baladas 100  Player->AddItem key_AOV_Baladas 1
+[MOD-IID]: ID=28776118469211034
+  Apartments of Morrowind_.esp->It would not be proper of me to be your patron. But I am pleased that you would ask.
+
+[MOD-INF]: ID=2511925408261659096(Topic:stronghold)
+  morrowind.esm---------------->|DATA|ONAM:llunela hleran|NAME:If you want me to build you a tower fit for a Telvanni Councilor, I will need 5000 drakes for expenses. I also want you to investigate the Dwemer ruin of Mzanchend northwest of your stronghold. Bring me any plans or schematics you find there.|SCVR:34JX3HT_Stronghold|INTV:d|BNAM:Journal HT_Stronghold 110
+  Apartments of Morrowind_.esp->|DATA|ONAM:llunela hleran|NAME:If you want me to build you a tower fit for a Telvanni Councilor, I will need 15000 drakes for expenses. I also want you to investigate the Dwemer ruin of Mzanchend northwest of your stronghold. Bring me any plans or schematics you find there.|SCVR:34JX3HT_Stronghold|INTV:d|BNAM:Journal HT_Stronghold 110
+
+[MOD-INF]: ID=2620557812221520762(Topic:vorar helas)
+  morrowind.esm---------------->|DATA|ONAM:imsin the dreamer|NAME:You seem amused... Do you already have proof that Vorar Helas is a smuggler?|SCVR:05IX3misc_dwrv_artifact_ils|INTV|SCVR:34JX0IL_Smuggler|INTV:|BNAM:Choice "Yes, here it is." 1 "No, not yet." 2
+  Apartments of Morrowind_.esp->|DATA|ONAM:larrius varro|NAME:You seem amused... Do you already have proof that Vorar Helas is a smuggler?|SCVR:05IX3misc_dwrv_goblet_vorar|INTV|SCVR:34JX4IL_Smuggler1|INTV: |BNAM:Choice "Yes, here it is." 1 "No, not yet." 2
+
+[MOD-INF]: ID=2698723240231396707(Topic:vorar helas)
+  morrowind.esm---------------->|DATA|ONAM:imsin the dreamer|NAME:Vorar is dead and there is nothing more to say.|SCVR:34JX3IL_Smuggler|INTV
+  Apartments of Morrowind_.esp->|DATA|ONAM:larrius varro|NAME:Vorar is dead and there is nothing more to say.|SCVR:06DX0vorar helas|INTV
+
+[DUP-INF]: ID=2929819171493218297(Topic:soscean)
+  |DATA|ONAM:Dovor Oren|NAME:What, too timid for the challenge?  Very well, %PCName.  I'd suggest, then, that you not return here.  And I'd also suggest you not tell anyone that we're here.|SCVR:01500|INTV|BNAM:Journal MS_Warlords 200
+
+[MOD-INF]: ID=2950186303121911977(Topic:stronghold)
+  morrowind.esm---------------->|DATA|ONAM:llunela hleran|NAME:You have the gold, but where are the Dwemer Schematics?|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV
+  Apartments of Morrowind_.esp->|DATA|ONAM:llunela hleran|NAME:You have the gold, but where are the Dwemer Schematics?|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV
+
+[MOD-INF]: ID=3225412092449315536(Topic:stronghold)
+  morrowind.esm---------------->|DATA|ONAM:galsa gindu|NAME:Yes, this is adequate, %PCName. Your stronghold will be built in the Bal Isra on the road to Maar Gan. Construction will begin as soon as I give the orders.|SCVR:01500|INTV|SCVR:15IX2bk_stronghold_c_hlaalu|INTV:|SCVR:25IX3Gold_001|INTV|BNAM:Journal HR_Stronghold 50  Player->RemoveItem bk_stronghold_c_hlaalu 1  Player->RemoveItem Gold_001 5000  StartScript Strong_Build_Start_R
+  Apartments of Morrowind_.esp->|DATA|ONAM:galsa gindu|NAME:Yes, this is adequate, %PCName. Your stronghold will be built in the Bal Isra on the road to Maar Gan. Construction will begin as soon as I give the orders.|SCVR:01500|INTV|SCVR:15IX2bk_stronghold_c_hlaalu|INTV:|SCVR:25IX3Gold_001|INTV|BNAM:Journal HR_Stronghold 50  Player->RemoveItem bk_stronghold_c_hlaalu 1  Player->RemoveItem Gold_001 15000  StartScript Strong_Build_Start_R
+
+[DUP-INF]: ID=10541199391256511709(Topic:soscean)
+  |DATA|ONAM:Dovor Oren|NAME:Nevermind. You've made it clear you have no intention of helping.|SCVR:04JX0MS_Warlords|INTV
+
+[MOD-INF]: ID=13110297411303130332(Topic:stronghold)
+  morrowind.esm---------------->|DATA|ONAM:galsa gindu|NAME:Do you have the 5000 drakes and the construction contract?|SCVR:34JX3HR_Stronghold|INTV: |BNAM:Choice "Yes, here they are." 1 "No, not yet." 2
+  Apartments of Morrowind_.esp->|DATA|ONAM:galsa gindu|NAME:Do you have the 15000 drakes and the construction contract?|SCVR:34JX3HR_Stronghold|INTV: |BNAM:Choice "Yes, here they are." 1 "No, not yet." 2
+
+[MOD-INF]: ID=19325285432825124991(Journal:hr_stronghold)
+  morrowind.esm---------------->|DATA|NAME:I gave Galsa Gindu 5000 gold and the construction contract. She told me that construction on my stronghold would begin soon.
+  Apartments of Morrowind_.esp->|DATA|NAME:I gave Galsa Gindu 15000 gold and the construction contract. She told me that construction on my stronghold would begin soon.
+
+[MOD-INF]: ID=19384171311896418662(Journal:ht_stronghold)
+  morrowind.esm---------------->|DATA|NAME:Llunela Hleran thanked me for the 5000 gold and the Dwemer Schematics. She will give orders to build the next stage of my stronghold.
+  Apartments of Morrowind_.esp->|DATA|NAME:Llunela Hleran thanked me for the 15000 gold and the Dwemer Schematics. She will give orders to build the next stage of my stronghold.
+
+[MOD-INF]: ID=20438147671853114989(Topic:stronghold)
+  morrowind.esm---------------->|DATA|ONAM:galsa gindu|DNAM:Redoran|NAME:If you want me to build you a stronghold, I will need 5000 drakes for labor and materials. You must also bring me a construction contract from Duke Dren in Ebonheart.|BNAM:Journal HR_Stronghold 10
+  Apartments of Morrowind_.esp->|DATA|ONAM:galsa gindu|DNAM:Redoran|NAME:If you want me to build you a stronghold, I will need 15000 drakes for labor and materials. You must also bring me a construction contract from Duke Dren in Ebonheart.|BNAM:Journal HR_Stronghold 10
+
+[MOD-INF]: ID=32226176311314830510(Topic:vorar helas)
+  morrowind.esm---------------->|DATA|ONAM:imsin the dreamer|NAME:This along with the word of a member of the Legions should be enough to convict him. I will let you know when we catch him.|SCVR:01500|INTV|BNAM:Journal IL_Smuggler 100  Player->RemoveItem misc_dwrv_artifact_ILS 1  ModPCFacRep 5 "Imperial Legion"  ModDisposition 10  "Vorar Helas"->Disable
+  Apartments of Morrowind_.esp->|DATA|ONAM:larrius varro|NAME:This along with the word of a member of the Legions should be enough to convict him. Thank you.|SCVR:01500|INTV|BNAM:Journal IL_Smuggler1 20  Player->RemoveItem misc_dwrv_goblet_vorar 1  ModDisposition 10  "Vorar Helas"->Disable  player ->addtopic "Vorar Helas' house"

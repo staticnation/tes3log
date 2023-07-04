@@ -1,0 +1,8 @@
+Branded as a Criminal.ESP: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+
+[MOD-INF]: ID=58028831233554797(Greeting:greeting 0)
+  morrowind.esm------------->|DATA|CNAM:Guard|NAME:You've earned a death warrant for your crimes, outlaw. May the gods have mercy upon your soul.|SCVR:01433|INTV|BNAM:SetDisposition 0  SetFight 100  StartCombat Player  Goodbye
+  Branded as a Criminal.ESP->|DATA|CNAM:Guard|NAME:You've earned a death warrant for your crimes, outlaw. However, there is an alternative: you can agree to be branded as a criminal. It will clear your bounty, and you escape the death warrant, but you will bear the mark of the criminal forever. And don't even think about hiding it, the branding is not a mark on your skin, it is done by magical means. Most people would feel intuitively that they should avoid you and you will be dead to our society. So, which will it be, scum?|SCVR:01433|INTV|SCVR:14JX4AL93_BrandedCriminal|INTV:d|BNAM:Choice "I choose death." 42 "Brand me as a criminal." 43

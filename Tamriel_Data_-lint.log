@@ -1,0 +1,681 @@
+Tamriel_Data_.esm: DUP-REC GETSND MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(T_ScCrea_SteamColossus_01)
+	SCPT(T_ScObj_DWelk_FIR)
+	SCPT(T_ScObj_DWelk_FRS)
+	SCPT(T_ScObj_DWelk_SHK)
+	SCPT(T_ScObj_WaterSimulation)
+	SCPT(T_ScSound_VelothiGourdHarp)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(T_ScBank_All_Balances)
+	SCPT(T_ScBank_All_Deposit)
+	SCPT(T_ScBank_All_LoanObtain)
+	SCPT(T_ScBank_All_LoanPayment)
+	SCPT(T_ScBank_All_Withdraw)
+	SCPT(T_ScBank_Bri_LoanFail)
+	SCPT(T_ScBank_Hla_LoanFail)
+	SCPT(T_ScCrea_ArmorCenturionEquip)
+	SCPT(T_ScCrea_EyestarHarvest)
+	SCPT(T_ScCrea_KagoutiRandomScale)
+	SCPT(T_ScCrea_MuskflyRandomScale)
+	SCPT(T_ScCrea_SkelRise_01)
+	SCPT(T_ScCrea_SkelRise_02)
+	SCPT(T_ScCrea_SkelRise_03)
+	SCPT(T_ScCrea_SteamColossus_01)
+	SCPT(T_ScCrea_WormmouthDisease)
+	SCPT(T_ScDis_AstralVapors)
+	SCPT(T_ScDis_Bloodlung)
+	SCPT(T_ScDis_Bloodrot)
+	SCPT(T_ScDis_BonebreakFever)
+	SCPT(T_ScDis_BrainFever)
+	SCPT(T_ScDis_Brainrot)
+	SCPT(T_ScDis_CalironsCurse)
+	SCPT(T_ScDis_ChronDiasis)
+	SCPT(T_ScDis_FeebleLimb)
+	SCPT(T_ScDis_Frostbite)
+	SCPT(T_ScDis_RedDeath)
+	SCPT(T_ScDis_RedRage)
+	SCPT(T_ScDis_ScarletFever)
+	SCPT(T_ScDis_Shakes)
+	SCPT(T_ScDis_StomachRot)
+	SCPT(T_ScDis_SwampRot)
+	SCPT(T_ScDis_TickleBritch)
+	SCPT(T_ScDis_TunnelCough)
+	SCPT(T_ScDis_WastingConsumption)
+	SCPT(T_ScDis_Witbane)
+	SCPT(T_ScDis_WitchesPox)
+	SCPT(T_ScDis_WitlessPox)
+	SCPT(T_ScDis_Wizardfever)
+	SCPT(T_ScDis_Woundrot)
+	SCPT(T_ScDis_YellowRot)
+	SCPT(T_ScGlobal_AddAnimalProdTopsTR)
+	SCPT(T_ScGlobal_PassTime)
+	SCPT(T_ScNews_Bellman_Add)
+	SCPT(T_ScNews_Bellman_Lvlist_Add)
+	SCPT(T_ScNews_Bellman_Lvlist_Remove)
+	SCPT(T_ScNews_Bellman_Paper)
+	SCPT(T_ScNews_Bellman_Picker1)
+	SCPT(T_ScNews_Bellman_Picker2)
+	SCPT(T_ScNews_Bellman_Remove)
+	SCPT(T_ScNpc_Cyr_Anvil)
+	SCPT(T_ScNpc_Cyr_AnvilNib)
+	SCPT(T_ScNpc_Cyr_AnvilNibNolore)
+	SCPT(T_ScNpc_Cyr_AnvilNolore)
+	SCPT(T_ScNpc_Cyr_Bravil)
+	SCPT(T_ScNpc_Cyr_BravilNib)
+	SCPT(T_ScNpc_Cyr_BravilNibNolore)
+	SCPT(T_ScNpc_Cyr_BravilNolore)
+	SCPT(T_ScNpc_Cyr_Bruma)
+	SCPT(T_ScNpc_Cyr_BrumaNib)
+	SCPT(T_ScNpc_Cyr_BrumaNibNolore)
+	SCPT(T_ScNpc_Cyr_BrumaNolore)
+	SCPT(T_ScNpc_Cyr_Cheydinhal)
+	SCPT(T_ScNpc_Cyr_CheydinhalNib)
+	SCPT(T_ScNpc_Cyr_CheydinhalNibNolore)
+	SCPT(T_ScNpc_Cyr_CheydinhalNolore)
+	SCPT(T_ScNpc_Cyr_Chorrol)
+	SCPT(T_ScNpc_Cyr_ChorrolNib)
+	SCPT(T_ScNpc_Cyr_ChorrolNibNolore)
+	SCPT(T_ScNpc_Cyr_ChorrolNolore)
+	SCPT(T_ScNpc_Cyr_ImpCity)
+	SCPT(T_ScNpc_Cyr_ImpCityNib)
+	SCPT(T_ScNpc_Cyr_ImpCityNibNoloreb)
+	SCPT(T_ScNpc_Cyr_ImpCityNolore)
+	SCPT(T_ScNpc_Cyr_Kvatch)
+	SCPT(T_ScNpc_Cyr_KvatchNib)
+	SCPT(T_ScNpc_Cyr_KvatchNibNolore)
+	SCPT(T_ScNpc_Cyr_KvatchNolore)
+	SCPT(T_ScNpc_Cyr_Leyawiin)
+	SCPT(T_ScNpc_Cyr_LeyawiinNib)
+	SCPT(T_ScNpc_Cyr_LeyawiinNibNolore)
+	SCPT(T_ScNpc_Cyr_LeyawiinNolore)
+	SCPT(T_ScNpc_Cyr_MirCorrup)
+	SCPT(T_ScNpc_Cyr_MirCorrupNib)
+	SCPT(T_ScNpc_Cyr_MirCorrupNibNolore)
+	SCPT(T_ScNpc_Cyr_MirCorrupNolore)
+	SCPT(T_ScNpc_Cyr_Skingrad)
+	SCPT(T_ScNpc_Cyr_SkingradNib)
+	SCPT(T_ScNpc_Cyr_SkingradNibNolore)
+	SCPT(T_ScNpc_Cyr_SkingradNolore)
+	SCPT(T_ScNpc_Cyr_Stirk)
+	SCPT(T_ScNpc_Cyr_StirkNib)
+	SCPT(T_ScNpc_Cyr_StirkNibNolore)
+	SCPT(T_ScNpc_Cyr_StirkNolore)
+	SCPT(T_ScNpc_Cyr_Sutch)
+	SCPT(T_ScNpc_Cyr_SutchNib)
+	SCPT(T_ScNpc_Cyr_SutchNibNolore)
+	SCPT(T_ScNpc_Cyr_SutchNolore)
+	SCPT(T_ScNpc_Mw_CoastGuard)
+	SCPT(T_ScNpc_Mw_Companion)
+	SCPT(T_ScNpc_Mw_Guard)
+	SCPT(T_ScNpc_Mw_Map1)
+	SCPT(T_ScNpc_Mw_Map1CoastGuard)
+	SCPT(T_ScNpc_Mw_Map1MarksmanSwitch)
+	SCPT(T_ScNpc_Mw_Map1Nolore)
+	SCPT(T_ScNpc_Mw_Map1Slave)
+	SCPT(T_ScNpc_Mw_Map1VampAundae)
+	SCPT(T_ScNpc_Mw_Map1VampBerne)
+	SCPT(T_ScNpc_Mw_Map1VampQuarra)
+	SCPT(T_ScNpc_Mw_Map2)
+	SCPT(T_ScNpc_Mw_Map2CoastGuard)
+	SCPT(T_ScNpc_Mw_Map2MarksmanSwitch)
+	SCPT(T_ScNpc_Mw_Map2Nolore)
+	SCPT(T_ScNpc_Mw_Map2Slave)
+	SCPT(T_ScNpc_Mw_Map2VampAundae)
+	SCPT(T_ScNpc_Mw_Map2VampBerne)
+	SCPT(T_ScNpc_Mw_Map2VampQuarra)
+	SCPT(T_ScNpc_Mw_Map3)
+	SCPT(T_ScNpc_Mw_Map3CoastGuard)
+	SCPT(T_ScNpc_Mw_Map3MarksmanSwitch)
+	SCPT(T_ScNpc_Mw_Map3Nolore)
+	SCPT(T_ScNpc_Mw_Map3Slave)
+	SCPT(T_ScNpc_Mw_Map3VampAundae)
+	SCPT(T_ScNpc_Mw_Map3VampBerne)
+	SCPT(T_ScNpc_Mw_Map3VampQuarra)
+	SCPT(T_ScNpc_Mw_Map4)
+	SCPT(T_ScNpc_Mw_Map4CoastGuard)
+	SCPT(T_ScNpc_Mw_Map4MarksmanSwitch)
+	SCPT(T_ScNpc_Mw_Map4Nolore)
+	SCPT(T_ScNpc_Mw_Map4Slave)
+	SCPT(T_ScNpc_Mw_Map4VampAundae)
+	SCPT(T_ScNpc_Mw_Map4VampBerne)
+	SCPT(T_ScNpc_Mw_Map4VampQuarra)
+	SCPT(T_ScNpc_Mw_Map5)
+	SCPT(T_ScNpc_Mw_Map5CoastGuard)
+	SCPT(T_ScNpc_Mw_Map5Nolore)
+	SCPT(T_ScNpc_Mw_Map5Slave)
+	SCPT(T_ScNpc_Mw_Map5VampAundae)
+	SCPT(T_ScNpc_Mw_Map5VampBerne)
+	SCPT(T_ScNpc_Mw_Map5VampQuarra)
+	SCPT(T_ScNpc_Mw_Map6)
+	SCPT(T_ScNpc_Mw_Map6Nolore)
+	SCPT(T_ScNpc_Mw_Map6Slave)
+	SCPT(T_ScNpc_Mw_Map6VampAundae)
+	SCPT(T_ScNpc_Mw_Map6VampBerne)
+	SCPT(T_ScNpc_Mw_Map6VampQuarra)
+	SCPT(T_ScNpc_Mw_Map7)
+	SCPT(T_ScNpc_Mw_Map7Nolore)
+	SCPT(T_ScNpc_Mw_Map7Slave)
+	SCPT(T_ScNpc_Mw_Map7VampAundae)
+	SCPT(T_ScNpc_Mw_Map7VampBerne)
+	SCPT(T_ScNpc_Mw_Map7VampQuarra)
+	SCPT(T_ScNpc_Mw_MarksmanSwitch)
+	SCPT(T_ScNpc_Mw_Roamer)
+	SCPT(T_ScNpc_Mw_Volatile)
+	SCPT(T_ScNpc_Sky_Hold0)
+	SCPT(T_ScNpc_Sky_Hold0_Jailed)
+	SCPT(T_ScNpc_Sky_Hold0_NoLore)
+	SCPT(T_ScNpc_Sky_Hold0_Reachman)
+	SCPT(T_ScNpc_Sky_Hold0_ReachmanNL)
+	SCPT(T_ScNpc_Sky_Hold1)
+	SCPT(T_ScNpc_Sky_Hold1_NoLore)
+	SCPT(T_ScNpc_Sky_Hold1_Reachman)
+	SCPT(T_ScNpc_Sky_Hold1_ReachmanNL)
+	SCPT(T_ScNpc_Sky_TheReach)
+	SCPT(T_ScNpc_Sky_TheReachGuard)
+	SCPT(T_ScNpc_Sky_TheReachNolore)
+	SCPT(T_ScNpc_Vvardenfell)
+	SCPT(T_ScObj_Armun_BaluathPile)
+	SCPT(T_ScObj_Armun_BaluathSpawner)
+	SCPT(T_ScObj_AylGasProxOff)
+	SCPT(T_ScObj_BearTrap_Brk)
+	SCPT(T_ScObj_BearTrap_Clo)
+	SCPT(T_ScObj_BearTrap_Dis)
+	SCPT(T_ScObj_BearTrap_Open)
+	SCPT(T_ScObj_BlockedDoorTR)
+	SCPT(T_ScObj_CastOnceShock)
+	SCPT(T_ScObj_CaveRay)
+	SCPT(T_ScObj_DWelk_FIR_dum)
+	SCPT(T_ScObj_DWelk_FRS_dum)
+	SCPT(T_ScObj_DWelk_SHK_dum)
+	SCPT(T_ScObj_DaeWardACollision)
+	SCPT(T_ScObj_DaeWardBCollision)
+	SCPT(T_ScObj_DaeWardCCollision)
+	SCPT(T_ScObj_DaeWardDCollision)
+	SCPT(T_ScObj_DaeWardECollision)
+	SCPT(T_ScObj_DaeWardFCollision)
+	SCPT(T_ScObj_DaeWardGCollision)
+	SCPT(T_ScObj_DaeWardHCollision)
+	SCPT(T_ScObj_DaeWardICollision)
+	SCPT(T_ScObj_DaeWardJCollision)
+	SCPT(T_ScObj_DaeWardKCollision)
+	SCPT(T_ScObj_DaeWardLCollision)
+	SCPT(T_ScObj_DaeWardMCollision)
+	SCPT(T_ScObj_DaeWardNCollision)
+	SCPT(T_ScObj_DaeWardOCollision)
+	SCPT(T_ScObj_DaeWardPCollision)
+	SCPT(T_ScObj_DaeWardQCollision)
+	SCPT(T_ScObj_DaeWardRCollision)
+	SCPT(T_ScObj_DaeWardSCollision)
+	SCPT(T_ScObj_DaeWardTCollision)
+	SCPT(T_ScObj_DaeWardUCollision)
+	SCPT(T_ScObj_DaeWardVCollision)
+	SCPT(T_ScObj_DaeWardWCollision)
+	SCPT(T_ScObj_DaeWardZCollision)
+	SCPT(T_ScObj_DeTombSpiritBehind)
+	SCPT(T_ScObj_DeTombSpiritSummon)
+	SCPT(T_ScObj_Dwe_Crank)
+	SCPT(T_ScObj_DwrvMachToggl)
+	SCPT(T_ScObj_FGuildSupplyChestTR)
+	SCPT(T_ScObj_GoldCoinDae_05)
+	SCPT(T_ScObj_GoldCoinDae_25)
+	SCPT(T_ScObj_GoldCoinDeTomb_05)
+	SCPT(T_ScObj_GoldCoinDeTomb_25)
+	SCPT(T_ScObj_GrindingStoneSHOTN)
+	SCPT(T_ScObj_HlaaluCompanyScrip)
+	SCPT(T_ScObj_MGuildSupplyChestTR)
+	SCPT(T_ScObj_MagickaResartus)
+	SCPT(T_ScObj_NonEquippable)
+	SCPT(T_ScObj_RaphalasBlade)
+	SCPT(T_ScObj_RenaldLute)
+	SCPT(T_ScObj_ShrineAndothrenAlma)
+	SCPT(T_ScObj_StaffFlame)
+	SCPT(T_ScObj_StaffLight)
+	SCPT(T_ScObj_TR_MapPos1)
+	SCPT(T_ScObj_TR_MapPos2)
+	SCPT(T_ScObj_TR_MapPos3)
+	SCPT(T_ScObj_TR_MapPos4)
+	SCPT(T_ScObj_TR_MapPos5)
+	SCPT(T_ScObj_TR_MapPos6)
+	SCPT(T_ScObj_TR_MapPos7)
+	SCPT(T_ScObj_TentDoorSHOTN)
+	SCPT(T_ScObj_VarlaStoneCyr)
+	SCPT(T_ScObj_WaterSimulation)
+	SCPT(T_ScObj_WelkyndStoneCyr)
+	SCPT(T_ScObj_WelkyndStoneSky)
+	SCPT(T_ScObj_WindowLight)
+	SCPT(T_ScObj_Winepress)
+	SCPT(T_ScObj__cleanup)
+	SCPT(T_ScSoundDrumpear_01)
+	SCPT(T_ScSound_AbyssLoop)
+	SCPT(T_ScSound_AmbientInsects)
+	SCPT(T_ScSound_BarrowAmbience)
+	SCPT(T_ScSound_Bees)
+	SCPT(T_ScSound_Birds_01)
+	SCPT(T_ScSound_ChainMechanism)
+	SCPT(T_ScSound_Chains)
+	SCPT(T_ScSound_ChloridePool)
+	SCPT(T_ScSound_DeshaanPool)
+	SCPT(T_ScSound_DirenniCrystal)
+	SCPT(T_ScSound_DirenniHaunted)
+	SCPT(T_ScSound_HauntedChoir)
+	SCPT(T_ScSound_HauntedHymn)
+	SCPT(T_ScSound_HauntedSkyburial)
+	SCPT(T_ScSound_HighMountainLoop)
+	SCPT(T_ScSound_Kha_01)
+	SCPT(T_ScSound_Kha_02)
+	SCPT(T_ScSound_Kha_03)
+	SCPT(T_ScSound_Kha_04)
+	SCPT(T_ScSound_Kha_05)
+	SCPT(T_ScSound_Kha_06)
+	SCPT(T_ScSound_Kha_07)
+	SCPT(T_ScSound_Kha_08)
+	SCPT(T_ScSound_Kha_09)
+	SCPT(T_ScSound_LargeFire)
+	SCPT(T_ScSound_LargeWaterfall)
+	SCPT(T_ScSound_OldOnesLoop)
+	SCPT(T_ScSound_Once_GhostScream01)
+	SCPT(T_ScSound_Once_GhostScream02)
+	SCPT(T_ScSound_Once_GhostScream03)
+	SCPT(T_ScSound_Once_GhostScreamLow01)
+	SCPT(T_ScSound_Once_GhostScreamLow02)
+	SCPT(T_ScSound_Once_GhostScreamLow03)
+	SCPT(T_ScSound_Once_Woosh01)
+	SCPT(T_ScSound_RopeSqueak)
+	SCPT(T_ScSound_ShrineOfTroubles)
+	SCPT(T_ScSound_SutchElevatorSound)
+	SCPT(T_ScSound_VelothiGourdHarp)
+	SCPT(T_ScSound_Water)
+	SCPT(T_ScSound_WaterBoil)
+	SCPT(T_ScSound_WaterTrickle)
+	SCPT(T_ScSound_WaterfallLarge)
+	SCPT(T_ScSound_WaterfallSml)
+	SCPT(T_ScSound_Watr_Lake)
+	SCPT(T_ScSound_Watr_Stream)
+	SCPT(T_ScSound_Watr_Stream2)
+	SCPT(T_ScSound_WeirGate)
+	SCPT(T_ScSound_WindChthonic)
+	SCPT(T_ScSound_WindEerie)
+	SCPT(T_ScSound_WindHowl)
+	SCPT(T_ScSound_WindParticles)
+	SCPT(T_ScSpeech_SkillCheck)
+	SCPT(T_ScTest_BuffTR)
+	SCPT(T_ScTest_ManageCharTR)
+	SCPT(T_ScTest_MoveMap1TR)
+	SCPT(T_ScTest_MoveMap2TR)
+	SCPT(T_ScTest_MoveMap3TR)
+	SCPT(T_ScTest_MoveMap4TR)
+	SCPT(T_ScTest_MoveMap5TR)
+	SCPT(T_ScTest_MoveMap6TR)
+	SCPT(T_ScTest_MoveTR)
+	SCPT(T_ScTest_SkullTR)
+	SCPT(T_ScTest_SwimTR)
+	SCPT(T_ScTest_TopicsMap1TR)
+	SCPT(T_ScTest_TopicsMap2TR)
+	SCPT(T_ScTest_TopicsMap3TR)
+	SCPT(T_ScTest_TopicsMap4TR)
+	SCPT(T_ScTest_TopicsMap5TR)
+	SCPT(T_ScTest_TopicsMap6TR)
+	SCPT(T_ScTest_TopicsTR2)
+	SCPT(T_ScTest_TopicsTR3)
+	SCPT(T_ScTest_TopicsTR4)
+	SCPT(T_ScTrans_WereCheck)
+	SCPT(T_ScTrans_WereboarSoundPC)
+	SCPT(T_ScVamp_Baluath_Cure)
+	SCPT(T_ScVamp_Dreams_Sky)
+	SCPT(T_ScVamp_Khulari_Cure)
+	SCPT(T_ScVamp_Orlukh_Cure)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    blades
+	bloodmoon.esm       DIAL    flee
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       SNDG    
+	morrowind.esm       DIAL    acrobatics
+	morrowind.esm       DIAL    akatosh
+	morrowind.esm       DIAL    alarm
+	morrowind.esm       DIAL    alchemy
+	morrowind.esm       DIAL    aldmeri
+	morrowind.esm       DIAL    aldmeris
+	morrowind.esm       DIAL    alteration
+	morrowind.esm       DIAL    altmer
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    arkay
+	morrowind.esm       DIAL    armorer
+	morrowind.esm       DIAL    athletics
+	morrowind.esm       DIAL    axe
+	morrowind.esm       DIAL    bandits
+	morrowind.esm       DIAL    betmeri
+	morrowind.esm       DIAL    birthsign
+	morrowind.esm       DIAL    black marsh
+	morrowind.esm       DIAL    blades trainers
+	morrowind.esm       DIAL    blessings
+	morrowind.esm       DIAL    block
+	morrowind.esm       DIAL    blunt weapon
+	morrowind.esm       DIAL    bosmer
+	morrowind.esm       DIAL    breton
+	morrowind.esm       DIAL    cave rat
+	morrowind.esm       DIAL    chimer
+	morrowind.esm       DIAL    conjuration
+	morrowind.esm       DIAL    cyrodiil
+	morrowind.esm       DIAL    cyrodiilic brandy
+	morrowind.esm       DIAL    destruction
+	morrowind.esm       DIAL    dibella
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    dwemer
+	morrowind.esm       DIAL    elsweyr
+	morrowind.esm       DIAL    empire
+	morrowind.esm       DIAL    enchant
+	morrowind.esm       DIAL    enchanters
+	morrowind.esm       DIAL    enchanting items
+	morrowind.esm       DIAL    fighter disciplines
+	morrowind.esm       DIAL    fighters guild
+	morrowind.esm       DIAL    flin
+	morrowind.esm       DIAL    fortify potions
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    greeting 3
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    guild disciplines
+	morrowind.esm       DIAL    guild guide
+	morrowind.esm       DIAL    hammerfell
+	morrowind.esm       DIAL    hand to hand
+	morrowind.esm       DIAL    heavy armor
+	morrowind.esm       DIAL    high rock
+	morrowind.esm       DIAL    humanoid races
+	morrowind.esm       DIAL    humans
+	morrowind.esm       DIAL    illusion
+	morrowind.esm       DIAL    imperial
+	morrowind.esm       DIAL    imperial cult
+	morrowind.esm       DIAL    imperial cult doctrine
+	morrowind.esm       DIAL    imperial culture
+	morrowind.esm       DIAL    imperial office of census and excise
+	morrowind.esm       DIAL    imperial provinces
+	morrowind.esm       DIAL    intruder
+	morrowind.esm       DIAL    jobs
+	morrowind.esm       DIAL    join the fighters guild
+	morrowind.esm       DIAL    join the mages guild
+	morrowind.esm       DIAL    join the thieves guild
+	morrowind.esm       DIAL    julianos
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    kynareth
+	morrowind.esm       DIAL    light armor
+	morrowind.esm       DIAL    long blade
+	morrowind.esm       DIAL    mage disciplines
+	morrowind.esm       DIAL    mages guild
+	morrowind.esm       DIAL    make amends
+	morrowind.esm       DIAL    mara
+	morrowind.esm       DIAL    marksman
+	morrowind.esm       DIAL    medium armor
+	morrowind.esm       DIAL    mercantile
+	morrowind.esm       DIAL    mercantile skills
+	morrowind.esm       DIAL    morrowind
+	morrowind.esm       DIAL    mysticism
+	morrowind.esm       DIAL    necromancy
+	morrowind.esm       DIAL    nine divines
+	morrowind.esm       DIAL    nord
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    padomaic ocean
+	morrowind.esm       DIAL    price on your head
+	morrowind.esm       DIAL    races
+	morrowind.esm       DIAL    redguard
+	morrowind.esm       DIAL    requirements
+	morrowind.esm       DIAL    restoration
+	morrowind.esm       DIAL    rules
+	morrowind.esm       DIAL    sea of ghosts
+	morrowind.esm       DIAL    security
+	morrowind.esm       DIAL    short blade
+	morrowind.esm       DIAL    shrines
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    skyrim
+	morrowind.esm       DIAL    sneak
+	morrowind.esm       DIAL    spear
+	morrowind.esm       DIAL    speechcraft
+	morrowind.esm       DIAL    stealth disciplines
+	morrowind.esm       DIAL    stendarr
+	morrowind.esm       DIAL    summerset isle
+	morrowind.esm       DIAL    talos
+	morrowind.esm       DIAL    the empire
+	morrowind.esm       DIAL    the rules
+	morrowind.esm       DIAL    thief
+	morrowind.esm       DIAL    thieves guild
+	morrowind.esm       DIAL    tiber septim
+	morrowind.esm       DIAL    unarmored
+	morrowind.esm       DIAL    uriel septim
+	morrowind.esm       DIAL    using enchantments
+	morrowind.esm       DIAL    valenwood
+	morrowind.esm       DIAL    vampires
+	morrowind.esm       DIAL    zenithar
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    guard
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=170686103927626649(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Priest Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Priest Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=170686103927626649(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Priest Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Priest Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=1707352041271416836,9723142379613232876,24926162282842216582,7858295871752224874
+  Tamriel_Data_.esm->You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.
+
+[MOD-INF]: ID=175649058167116682(Topic:almalexia)
+  tribunal.esm------>|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:14JX3C3_DestroyDagoth|INTV:2|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia, Sotha Sil, and Vivec dead." 5 "I found Sotha Sil dead, and killed Almalexia and Vivec." 6 "Thank you, but I must be going." 4
+  Tamriel_Data_.esm->|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:14JX3C3_DestroyDagoth|INTV:2|SCVR:2CsX0NoLore|INTV:|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia, Sotha Sil, and Vivec dead." 5 "I found Sotha Sil dead, and killed Almalexia and Vivec." 6 "Thank you, but I must be going." 4
+
+[MOD-INF]: ID=277125218205084722(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=277125218205084722(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=648299532182015867,14654367586358557919,28544274161763816220,771710696559932177
+  Tamriel_Data_.esm->I'm not going to buy that Skooma from you. Get rid of it and then we can trade.
+
+[MOD-INF]: ID=287378702993122269(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Apothecary Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Apothecary Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=287378702993122269(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Apothecary Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Apothecary Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=648299532182015867,14654367586358557919,28544274161763816220,771710696559932177
+  Tamriel_Data_.esm->I'm not going to buy that Skooma from you. Get rid of it and then we can trade.
+
+[MOD-INF]: ID=437731057154051750(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=437731057154051750(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=1707352041271416836,9723142379613232876,24926162282842216582,7858295871752224874
+  Tamriel_Data_.esm->You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.
+
+[MOD-INF]: ID=745815156108126115(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Healer Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Healer Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=745815156108126115(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Healer Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Healer Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=1707352041271416836,9723142379613232876,24926162282842216582,7858295871752224874
+  Tamriel_Data_.esm->You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.
+
+[MOD-INF]: ID=781926249198433643(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Wise Woman Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Wise Woman Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=781926249198433643(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Wise Woman Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Wise Woman Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=1707352041271416836,9723142379613232876,24926162282842216582,7858295871752224874
+  Tamriel_Data_.esm->You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.
+
+[MOD-INF]: ID=1094918899840230767(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Pawnbroker|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Pawnbroker|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=1094918899840230767(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Pawnbroker|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Pawnbroker|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=1707352041271416836,9723142379613232876,24926162282842216582,7858295871752224874
+  Tamriel_Data_.esm->You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.
+
+[MOD-INF]: ID=1169922125955110917(Topic:solstheim)
+  bloodmoon.esm----->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  Tamriel_Data_.esm->|DATA|NAME:That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=1629530673227419863(Topic:almalexia)
+  tribunal.esm------>|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:06DX3vivec_god|INTV|BNAM:Choice "I killed Vivec." 7 "[Lie] I found Vivec dead." 8 "Thank you, but I must be going." 4
+  Tamriel_Data_.esm->|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:06DX3vivec_god|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:Choice "I killed Vivec." 7 "[Lie] I found Vivec dead." 8 "Thank you, but I must be going." 4
+
+[MOD-INF]: ID=2066941002246624310(Topic:almalexia)
+  tribunal.esm------>|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:04JX3TR_SothaSil|INTV:d|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia and Sotha Sil dead." 2 "Thank you, but I must be going." 4
+  Tamriel_Data_.esm->|DATA|NAME:Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:1CsX0NoLore|INTV:|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia and Sotha Sil dead." 2 "Thank you, but I must be going." 4
+
+[MOD-INF]: ID=2195033431462926284(Topic:almalexia)
+  tribunal.esm------>|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:06DX3vivec_god|INTV|BNAM:Choice "I killed Vivec." 7 "[Lie] I found Vivec dead." 8 "Thank you, but I must be going." 4
+  Tamriel_Data_.esm->|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:06DX3vivec_god|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:Choice "I killed Vivec." 7 "[Lie] I found Vivec dead." 8 "Thank you, but I must be going." 4
+
+[MOD-INF]: ID=2278720479126556737(Topic:solstheim)
+  bloodmoon.esm----->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2
+  Tamriel_Data_.esm->|DATA|NAME:A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.|SCVR:04JX3BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2350820932343717228(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Alchemist Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Alchemist Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=2350820932343717228(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Alchemist Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Alchemist Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=1707352041271416836,9723142379613232876,24926162282842216582,7858295871752224874
+  Tamriel_Data_.esm->You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.
+
+[MOD-INF]: ID=2456544071464426424(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=2456544071464426424(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=1707352041271416836,9723142379613232876,24926162282842216582,7858295871752224874
+  Tamriel_Data_.esm->You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.
+
+[MOD-INF]: ID=2797025664259225507(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Wise Woman Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Wise Woman Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=2797025664259225507(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Wise Woman Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Wise Woman Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=648299532182015867,14654367586358557919,28544274161763816220,771710696559932177
+  Tamriel_Data_.esm->I'm not going to buy that Skooma from you. Get rid of it and then we can trade.
+
+[MOD-INF]: ID=2798917491184915920(Topic:solstheim)
+  bloodmoon.esm----->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  Tamriel_Data_.esm->|DATA|NAME:I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=2821782961190224094(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Pawnbroker|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Pawnbroker|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=2821782961190224094(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Pawnbroker|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Pawnbroker|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=648299532182015867,14654367586358557919,28544274161763816220,771710696559932177
+  Tamriel_Data_.esm->I'm not going to buy that Skooma from you. Get rid of it and then we can trade.
+
+[MOD-INF]: ID=3034922702178419782(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=3034922702178419782(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=648299532182015867,14654367586358557919,28544274161763816220,771710696559932177
+  Tamriel_Data_.esm->I'm not going to buy that Skooma from you. Get rid of it and then we can trade.
+
+[MOD-INF]: ID=3095424884419930413(Topic:solstheim)
+  bloodmoon.esm----->|DATA|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|BNAM:Journal BM_Rumors 50
+  Tamriel_Data_.esm->|DATA|NAME:A miserable place, from what I've heard. Too cold for me. I understand there's someone in Khuul who will take folks there, though.|SCVR:04JX4BM_Rumors|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:Journal BM_Rumors 50
+
+[MOD-INF]: ID=3576191201815529709(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Priest Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Priest Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=3576191201815529709(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Priest Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Priest Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=648299532182015867,14654367586358557919,28544274161763816220,771710696559932177
+  Tamriel_Data_.esm->I'm not going to buy that Skooma from you. Get rid of it and then we can trade.
+
+[MOD-INF]: ID=8959207152222113989(Topic:blades trainers)
+  morrowind.esm----->|DATA|FNAM:Blades|NAME:Yes, I offer training, but only to Blades.
+  Tamriel_Data_.esm->|DATA|FNAM:Blades|NAME:Yes, I offer training, but only to Blades.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=10767237971994314567(Greeting:greeting 7)
+  tribunal.esm------>|DATA|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:moddisposition 10
+  Tamriel_Data_.esm->|DATA|CNAM:Pauper|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say... thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:moddisposition 10  ;SV: vanilla override
+
+[MOD-INF]: ID=23494278341976926273(Greeting:greeting 7)
+  tribunal.esm------>|DATA|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say.. thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+  Tamriel_Data_.esm->|DATA|CNAM:Pauper|NAME:E-e--e-excuse me, sera. But... well... you're the Nerevarine, and a big hero, and I don't really know how to talk to important folk like you. Except to say... thank you, sera. For everything.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:;SV: vanilla override
+
+[MOD-INF]: ID=27431251821030328588(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Apothecary Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Apothecary Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=27431251821030328588(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Apothecary Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Apothecary Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=1707352041271416836,9723142379613232876,24926162282842216582,7858295871752224874
+  Tamriel_Data_.esm->You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.
+
+[MOD-INF]: ID=27854294722000614405(Topic:almalexia)
+  tribunal.esm------>|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:14JX3C3_DestroyDagoth|INTV:2|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia, Sotha Sil, and Vivec dead." 5 "I found Sotha Sil dead, and killed Almalexia and Vivec." 6 "Thank you, but I must be going." 4
+  Tamriel_Data_.esm->|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:14JX3C3_DestroyDagoth|INTV:2|SCVR:2CsX0NoLore|INTV:|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia, Sotha Sil, and Vivec dead." 5 "I found Sotha Sil dead, and killed Almalexia and Vivec." 6 "Thank you, but I must be going." 4
+
+[MOD-INF]: ID=27861296403221528233(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Alchemist Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Alchemist Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=27861296403221528233(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Alchemist Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Alchemist Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=648299532182015867,14654367586358557919,28544274161763816220,771710696559932177
+  Tamriel_Data_.esm->I'm not going to buy that Skooma from you. Get rid of it and then we can trade.
+
+[MOD-INF]: ID=29036265711176618107(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Healer Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Healer Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+
+[MOD-INF]: ID=29036265711176618107(Persuasion:service refusal)
+  morrowind.esm----->|DATA|CNAM:Healer Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Tamriel_Data_.esm->|DATA|CNAM:Healer Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:2CsX0T_Local_Khajiit|INTV
+[MOD-IID]: IDs=648299532182015867,14654367586358557919,28544274161763816220,771710696559932177
+  Tamriel_Data_.esm->I'm not going to buy that Skooma from you. Get rid of it and then we can trade.
+
+[MOD-INF]: ID=30990172302627631518(Topic:almalexia)
+  tribunal.esm------>|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:04JX3TR_SothaSil|INTV:d|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia and Sotha Sil dead." 2 "Thank you, but I must be going." 4
+  Tamriel_Data_.esm->|DATA|RNAM:Dark Elf|NAME:Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.|SCVR:04JX3TR_SothaSil|INTV:d|SCVR:1CsX0NoLore|INTV:|BNAM:Choice "I found Sotha Sil dead, and killed Almalexia." 1 "[Lie] I found Almalexia and Sotha Sil dead." 2 "Thank you, but I must be going." 4

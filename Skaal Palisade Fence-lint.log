@@ -1,0 +1,151 @@
+Skaal Palisade Fence.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       DOOR    rent_colony_door
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       STAT    ex_de_shack_plank_03
+	bloodmoon.esm       STAT    furn_de_shack_hook
+	bloodmoon.esm       STAT    terrain_rock_bm_02
+	morrowind.esm       STAT    ex_de_docks_steps
+	morrowind.esm       STAT    ex_de_shack_plank_04
+	morrowind.esm       STAT    furn_imp_signbase_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    bears
+	bloodmoon.esm       DIAL    berserkers
+	bloodmoon.esm       DIAL    bonewolves
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    skaal
+	bloodmoon.esm       LAND    (-20, 25)
+	bloodmoon.esm       LAND    (-21, 26)
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_06.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_ice_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_rock_01.dds
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    greeting 8
+	morrowind.esm       DIAL    saltrice
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    apelles matius
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        LTEX    ai_clover
+
+[MOD-INF]: ID=15917326493337369(Greeting:greeting 8)
+  morrowind.esm------------>|DATA|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 12000
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 12000
+
+[MOD-INF]: ID=44141502094566975(Topic:saltrice)
+  morrowind.esm------------>|DATA|ONAM:tendris vedran|NAME:Saltrice is another of the tasty and nutritious foodstuffs with modest magical properties raised as export crops by Morrowind's farmers and plantation owners. Most saltrice seen in the Empire comes from southeastern Morrowind, but there are also some new and prospering farms and plantations in the Ascadian Isles. Saltrice also grows wild  in the Grazelands and on Azura's Coast.|SCVR:0CsX0NoLore|INTV
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard_archer|NAME:Saltrice is another of the tasty and nutritious foodstuffs with modest magical properties raised as export crops by Morrowind's farmers and plantation owners. Most saltrice seen in the Empire comes from southeastern Morrowind, but there are also some new and prospering farms and plantations in the Ascadian Isles. Saltrice also grows wild  in the Grazelands and on Azura's Coast.|SCVR:0CsX0NoLore|INTV
+
+[DUP-INF]: ID=58028831233554797(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You've earned a death warrant for your crimes, outlaw. May the gods have mercy upon your soul.|SCVR:01433|INTV|BNAM:SetDisposition 0  SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=134037521076824044(Greeting:greeting 7)
+  morrowind.esm------------>|DATA|NAME:You're a known criminal, %PCName. I will have nothing to do with you until you have cleared your name.|SCVR:01433|INTV:d|SCVR:11033|INTV|BNAM:;Reputation >=20; PCCrime >=100;   ModDisposition -30
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|NAME:You're a known criminal, %PCName. I will have nothing to do with you until you have cleared your name.|SCVR:01433|INTV:d|SCVR:11033|INTV|BNAM:;Reputation >=20; PCCrime >=100;   ModDisposition -30
+
+[MOD-INF]: ID=169222124924501314(Greeting:greeting 0)
+  bloodmoon.esm------------>|DATA|CNAM:Guard|ANAM:Skaal Village|NAME:You have violated laws of the Skaal. Though you have been named Blodskaal, you have no means to pay reparations to the Skaal. You must pay with your life.|SCVR:01433|INTV|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCHasCrimeGold|INTV:|BNAM:StartCombat Player  Goodbye
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard_archer|CNAM:Guard|ANAM:Skaal Village|NAME:You have violated laws of the Skaal. Though you have been named Blodskaal, you have no means to pay reparations to the Skaal. You must pay with your life.|SCVR:01433|INTV|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCHasCrimeGold|INTV:|BNAM:StartCombat Player  Goodbye
+
+[MOD-INF]: ID=206847122036726324(Topic:background)
+  morrowind.esm------------>|DATA|NAME:I am %name, %class and %rank of the %faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|NAME:I am %name, %class and %rank of the %faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+
+[MOD-INF]: ID=218541500069228263(Greeting:greeting 7)
+  morrowind.esm------------>|DATA|NAME:I know who you are. You're %PCName. You're nothing but a petty thief. I can't afford to associate with common criminals.|SCVR:01433|INTV:d|SCVR:11033|INTV: |BNAM:;Reputation >=10; PCCrime >=100;
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard_archer|NAME:I know who you are. You're %PCName. You're nothing but a petty thief. I can't afford to associate with common criminals.|SCVR:01433|INTV:d|SCVR:11033|INTV: |BNAM:;Reputation >=10; PCCrime >=100;
+
+[MOD-INF]: ID=227322281661726892(Greeting:greeting 0)
+  morrowind.esm------------>|DATA|CNAM:Guard|NAME:What are you doing! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|CNAM:Guard|NAME:What are you doing! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+
+[MOD-INF]: ID=243173203218608518(Topic:bears)
+  bloodmoon.esm------------>|DATA|ANAM:Skaal Village|NAME:Bears are but one of the sacred creatures the All-Maker has blessed us with. They embody the warrior's strength, and some of the Skaal can even summon them to fight by their sides.
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|ANAM:Skaal Village|NAME:Bears are but one of the sacred creatures the All-Maker has blessed us with. They embody the warrior's strength, and some of the Skaal can even summon them to fight by their sides.
+
+[MOD-INF]: ID=290772171403513699(Topic:berserkers)
+  bloodmoon.esm------------>|DATA|ANAM:Skaal Village|NAME:They are the "bare-sarks" or bare-chested. The berserkers wear no clothing and have been driven mad by the cold and too much mead. They are not welcome here or anywhere else on Solstheim, for that matter.
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|ANAM:Skaal Village|NAME:They are the "bare-sarks" or bare-chested. The berserkers wear no clothing and have been driven mad by the cold and too much mead. They are not welcome here or anywhere else on Solstheim, for that matter.
+
+[MOD-INF]: ID=666731499111789993(Topic:background)
+  morrowind.esm------------>|DATA|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=714212201106014849(Greeting:greeting 6)
+  morrowind.esm------------>|DATA|NAME:By your actions, you have lost the trust of the %Faction. Until you make amends, expect no favor from me.|SCVR:01390|INTV|BNAM:; PCExpelledCurrent = 1; Rank > 0;
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|NAME:By your actions, you have lost the trust of the %Faction. Until you make amends, expect no favor from me.|SCVR:01390|INTV|BNAM:; PCExpelledCurrent = 1; Rank > 0;
+
+[MOD-INF]: ID=1681874632979312364(Topic:skaal)
+  bloodmoon.esm------------>|DATA|ONAM:bm_reinhardt|NAME:They live in a village on the northeast end of Solstheim, and view the island's bears and wolves as sacred.
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard_archer|NAME:They live in a village on the northeast end of Solstheim, and view the island's bears and wolves as sacred.
+
+[MOD-INF]: ID=2022623305278403449(Greeting:greeting 0)
+  bloodmoon.esm------------>|DATA|CNAM:Guard|ANAM:Skaal Village|NAME:I accept the gold for the Skaal people. It will be added to the coffers of the village. Take care, Blodskaal. Do not let this become a habit.|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCHasCrimeGold|INTV|SCVR:31500|INTV|BNAM:Player->RemoveItem Gold_001 GetPCCrimeLevel  SetPCCrimeLevel 0  Goodbye
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard_archer|CNAM:Guard|ANAM:Skaal Village|NAME:I accept the gold for the Skaal people. It will be added to the coffers of the village. Take care, Blodskaal. Do not let this become a habit.|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCHasCrimeGold|INTV|SCVR:31500|INTV|BNAM:Player->RemoveItem Gold_001 GetPCCrimeLevel  SetPCCrimeLevel 0  Goodbye
+
+[MOD-INF]: ID=2054126209125913879(Topic:apelles matius)
+  bloodmoon.esm------------>|DATA|CNAM:Guard|ANAM:Skaal Village|NAME:Who?
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|CNAM:Guard|ANAM:Skaal Village|NAME:Who?
+
+[MOD-INF]: ID=3018246623089423838(Greeting:greeting 4)
+  bloodmoon.esm------------>|DATA|ANAM:Skaal Village|NAME:There's a great sickness within you, the likes of which I have never seen. You should leave this place.|SCVR:01580|INTV
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|ANAM:Skaal Village|NAME:There's a great sickness within you, the likes of which I have never seen. You should leave this place.|SCVR:01580|INTV
+
+[MOD-INF]: ID=4445282811792129285(Greeting:greeting 0)
+  bloodmoon.esm------------>|DATA|CNAM:Guard|ANAM:Skaal Village|NAME:You have violated laws of the Skaal. You have been named Blodskaal, so you are offered a choice: pay %PCCrimeLevel in reparations to the Skaal or pay with your life.|SCVR:01433|INTV|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCHasCrimeGold|INTV|BNAM:Choice "Pay reparations." 8 "Resist arrest." 9
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard_archer|CNAM:Guard|ANAM:Skaal Village|NAME:You have violated laws of the Skaal. You have been named Blodskaal, so you are offered a choice: pay %PCCrimeLevel in reparations to the Skaal or pay with your life.|SCVR:01433|INTV|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCHasCrimeGold|INTV|BNAM:Choice "Pay reparations." 8 "Resist arrest." 9
+
+[MOD-INF]: ID=6534313421794514813(Greeting:greeting 0)
+  bloodmoon.esm------------>|DATA|CNAM:Guard|ANAM:Skaal Village|NAME:You have violated laws of the Skaal. As you are not of our people, you will pay for your crimes.|SCVR:01433|INTV|BNAM:StartCombat Player  Goodbye
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard_archer|CNAM:Guard|ANAM:Skaal Village|NAME:You have violated laws of the Skaal. As you are not of our people, you will pay for your crimes.|SCVR:01433|INTV|BNAM:StartCombat Player  Goodbye
+
+[MOD-INF]: ID=10002145581479511900(Topic:bonewolves)
+  bloodmoon.esm------------>|DATA|ANAM:Skaal Village|NAME:Foul beasts, not of this earth. These are creatures brought into existence by black magic. They are a mockery of the true and good wolves that roam this land.
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|ANAM:Skaal Village|NAME:Foul beasts, not of this earth. These are creatures brought into existence by black magic. They are a mockery of the true and good wolves that roam this land.
+
+[MOD-INF]: ID=12131319582389432117(Greeting:greeting 9)
+  tribunal.esm------------->|DATA|NAME:It is truly a pleasure to see you.|SCVR:03sX3NoLore|INTV:|BNAM:;added to prevent some bad no lore greetings.
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|NAME:It is truly a pleasure to see you.|SCVR:03sX3NoLore|INTV:|BNAM:;added to prevent some bad no lore greetings.
+
+[MOD-INF]: ID=14150246121486014398(Topic:almalexia)
+  bloodmoon.esm------------>|DATA|ANAM:Skaal Village|NAME:Who?
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|ANAM:Skaal Village|NAME:Who?
+
+[MOD-INF]: ID=14685265822458631302(Greeting:greeting 0)
+  bloodmoon.esm------------>|DATA|CNAM:Guard|ANAM:Skaal Village|NAME:You have violated laws of the Skaal. Though you have been named Blodskaal, you are also known to be under the shadow of the beast. You must pay with your life.|SCVR:01433|INTV|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCKnownWerewolf|INTV|BNAM:StartCombat Player  Goodbye
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard_archer|CNAM:Guard|ANAM:Skaal Village|NAME:You have violated laws of the Skaal. Though you have been named Blodskaal, you are also known to be under the shadow of the beast. You must pay with your life.|SCVR:01433|INTV|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCKnownWerewolf|INTV|BNAM:StartCombat Player  Goodbye
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm------------->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[MOD-INF]: ID=22154188692129820500(Greeting:greeting 2)
+  morrowind.esm------------>|DATA|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   ModFight 50  Goodbye
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard|NAME:I don't fear you, vampire. Begone, fiend.|SCVR:01603|INTV|SCVR:11613|INTV: |BNAM:;default NON-DUNMER;PC Vampire; Level>=10;   ModFight 50  Goodbye
+
+[MOD-INF]: ID=27638249131682119725(Greeting:greeting 0)
+  bloodmoon.esm------------>|DATA|CNAM:Guard|ANAM:Skaal Village|NAME:I did not wish this upon you, Blodskaal, but you leave me little choice.|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCHasCrimeGold|INTV|SCVR:31500|INTV|BNAM:StartCombat Player  Goodbye
+  Skaal Palisade Fence.ESP->|DATA|ONAM:skaal_guard_archer|CNAM:Guard|ANAM:Skaal Village|NAME:I did not wish this upon you, Blodskaal, but you leave me little choice.|SCVR:14JX3BM_SkaalAttack|INTV:d|SCVR:22sX0PCHasCrimeGold|INTV|SCVR:31500|INTV|BNAM:StartCombat Player  Goodbye

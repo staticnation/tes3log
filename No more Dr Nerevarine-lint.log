@@ -1,0 +1,204 @@
+No more Dr Nerevarine.ESP: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       CREA    alit_blighted
+	morrowind.esm       CREA    alit_diseased
+	morrowind.esm       CREA    cliff racer_blighted
+	morrowind.esm       CREA    cliff racer_diseased
+	morrowind.esm       CREA    kagouti_blighted
+	morrowind.esm       CREA    kagouti_diseased
+	morrowind.esm       CREA    kwama warrior shurdan
+	morrowind.esm       CREA    kwama worker diseased
+	morrowind.esm       CREA    mudcrab-diseased
+	morrowind.esm       CREA    nix-hound blighted
+	morrowind.esm       CREA    rat_blighted
+	morrowind.esm       CREA    rat_cave_hhte2
+	morrowind.esm       CREA    scrib blighted
+	morrowind.esm       CREA    scrib diseased
+	morrowind.esm       CREA    shalk_blighted
+	morrowind.esm       CREA    shalk_diseased
+	morrowind.esm       CREA    shalk_diseased_hram
+	tribunal.esm        CREA    durzog_diseased
+	tribunal.esm        CREA    rat_diseased
+
+[DUP-INF]: ID=10308520230675868(Greeting:greeting 4)
+  |DATA|FNAM:Ashlanders|NAME:You bear the corprus curse, outlander. There is no cure but death. Take yourself to a quiet place and prepare yourself for the end.|SCVR:01583|INTV|SCVR:17XX0nibani maesa|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default DUNMER;PC Corprus;;
+
+[MOD-INF]: ID=18758287621369452(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME:You are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=24146191323437274(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Imperial Cult|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the blessing of a cure by visiting an Imperial cult altar and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the blessing of a cure by visiting an Imperial cult altar and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=31531682028724505(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Temple|NAME:You are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting a Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting a Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=49734503507420911(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|NAME:You are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar or Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar or Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=53842651108524245(Greeting:greeting 4)
+  morrowind.esm------------->|DATA|RNAM:Dark Elf|NAME:I'm sorry, friend, but I think you have managed to get a common disease of some sort. You can get that cured by visiting a Temple shrine, or an Imperial cult altar, or by buying a potion from a healer or apothecary.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|SCVR:28FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Common Disease;
+  No more Dr Nerevarine.ESP->|DATA|RNAM:Dark Elf|NAME:I'm sorry, friend, but I think you have managed to get a disease of some sort. You can get that cured by visiting a Temple shrine, or an Imperial cult altar, or by buying a potion from a healer or apothecary.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|SCVR:28FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=64112221151328222(Greeting:greeting 4)
+  bloodmoon.esm------------->|DATA|ANAM:Raven Rock|NAME:You've got blight disease! Get that taken care of soon, %PCName. You're the only case I've seen on this island.|SCVR:01410|INTV
+  No more Dr Nerevarine.ESP->|DATA|ANAM:Raven Rock|NAME:You don't look well at all. If you're sick, you'd better get over to the Imperial Shrine at Fort Frostmoth.|SCVR:01410|INTV
+
+[MOD-INF]: ID=71114458359018021(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Imperial Cult|NAME:You are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=73034862212212737(Greeting:greeting 4)
+  morrowind.esm------------->|DATA|NAME:I'm sorry you're not feeling well, but you need to get cured of that disease. I think it's just a common disease, and if you go to an Imperial cult altar or a Temple shrine, or see a healer or apothecary, I'm sure they can take care of it.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+  No more Dr Nerevarine.ESP->|DATA|NAME:I'm sorry you're not feeling well, but you need to get cured of that disease. If you go to an Imperial cult altar or a Temple shrine, or see a healer or apothecary, I'm sure they can take care of it.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=94511731628056774(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the blessing of a cure by visiting an Imperial cult altar and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the blessing of a cure by visiting an Imperial cult altar and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=123713295221866961(Greeting:greeting 4)
+  bloodmoon.esm------------->|DATA|ANAM:Thirsk|NAME:You're sick, but I've never seen this disease before. You must have brought it with you to this place. Get it cured fast.|SCVR:01410|INTV
+  No more Dr Nerevarine.ESP->|DATA|ANAM:Thirsk|NAME:You reek of disease. You should get yourself cured of whatever it is that ails you.|SCVR:01410|INTV
+
+[MOD-INF]: ID=128683582877710433(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Temple|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the blessing of a cure by visiting a Temple shrine and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the blessing of a cure by visiting a Temple shrine and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=217715949323862811(Greeting:greeting 4)
+  morrowind.esm------------->|DATA|RNAM:Dark Elf|NAME:You're got a blight disease, outlander. Get away from me. And go get cured, or STAY away from me.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default DUNMER;PC Blight Disease;
+  No more Dr Nerevarine.ESP->|DATA|RNAM:Dark Elf|NAME:You're got a disease, outlander. Get away from me. And go get cured, or STAY away from me.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default DUNMER;PC Blight Disease;
+
+[MOD-INF]: ID=223051946166527637(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Temple|NAME:You are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting a Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting a Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=228105485143419921(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Temple|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the blessing of a cure by visiting a Temple shrine and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the blessing of a cure by visiting a Temple shrine and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=249722919855815363(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Temple|NAME:You are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting a Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting a Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=288658069398110221(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|NAME:You are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar or Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar or Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=290118519200021387(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Imperial Cult|NAME:You are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[DUP-INF]: ID=309246435315996737(Greeting:greeting 4)
+  |DATA|NAME:Hey! Get away from me! You've got corprus disease! You can't get cured of corprus! Get aWAY!|SCVR:01583|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default NON-DUNMER;PC Corprus;
+
+[MOD-INF]: ID=312922368971024951(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Temple|NAME:You are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting a Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting a Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=457219252593129716(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the blessing of a cure by visiting an Imperial cult altar and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the blessing of a cure by visiting an Imperial cult altar and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=549864071733421954(Greeting:greeting 4)
+  bloodmoon.esm------------->|DATA|ANAM:Skaal Village|NAME:You've got a disease that I've not seen before. It must have been brought here by you or one of the Imperials. Get it cured. Now. We don't want your diseases in this place.|SCVR:01410|INTV
+  No more Dr Nerevarine.ESP->|DATA|ANAM:Skaal Village|NAME:You're not well. You should get yourself cured.|SCVR:01410|INTV
+
+[MOD-INF]: ID=692226221902217465(Greeting:greeting 4)
+  morrowind.esm------------->|DATA|FNAM:Ashlanders|NAME:Keep your distance, outlander. You are marked by blight disease. Go to a wise woman or trader. They have potions that cure such curses.|SCVR:01413|INTV|SCVR:12sX5Random100|INTV:2|BNAM:;default DUNMER;PC Blight Disease;
+  No more Dr Nerevarine.ESP->|DATA|FNAM:Ashlanders|NAME:Keep your distance, outlander. You are marked by a disease. Go to a wise woman or trader. They have potions that cure such curses.|SCVR:01413|INTV|SCVR:12sX5Random100|INTV:2|BNAM:;default DUNMER;PC Blight Disease;
+
+[MOD-INF]: ID=877212577140769683(Greeting:greeting 4)
+  morrowind.esm------------->|DATA|FNAM:Ashlanders|NAME:You are unclean, outlander. You have touched some diseased thing. It is only a common disease, but you must see a wise woman or trader and get a potion to cure it.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|BNAM:;default DUNMER;PC Common Disease;
+  No more Dr Nerevarine.ESP->|DATA|FNAM:Ashlanders|NAME:You are unclean, outlander. You have touched some diseased thing. Yyou must see a wise woman or trader and get a potion to cure it.|SCVR:01403|INTV|SCVR:12sX5Random100|INTV:2|BNAM:;default DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=1034726904914619488(Greeting:greeting 4)
+  bloodmoon.esm------------->|DATA|ANAM:Fort Frostmoth|NAME:You've got the blight disease, %PCName. Must have picked it up on Vvardenfell. You'll want to get that taken care of quickly.|SCVR:01410|INTV
+  No more Dr Nerevarine.ESP->|DATA|ANAM:Fort Frostmoth|NAME:You're not looking so good. Sick, I mean. You probably want to go to the Imperial Shrine and get that taken care of.|SCVR:01410|INTV
+
+[MOD-INF]: ID=1288517901243824856(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|NAME:You are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar or Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar or Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=1312313470517918122(Greeting:greeting 4)
+  morrowind.esm------------->|DATA|NAME:Hey! Get away from me! Don't you know you're sick? It's just a common disease. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+  No more Dr Nerevarine.ESP->|DATA|NAME:Hey! Get away from me! Don't you know you're sick? Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=1337845111378521595(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|NAME:You are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar or Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar or Temple shrine and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=1437410127118847631(Greeting:greeting 4)
+  morrowind.esm------------->|DATA|NAME:Not so close! I don't want to catch what you've got. And you've got a blight disease. You're a danger to everyone. You must find an Imperial cult altar or a Temple shrine, or see a healer or apothecary, and get yourself cured. Otherwise, no one is going to talk to you.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Blight Disease;
+  No more Dr Nerevarine.ESP->|DATA|NAME:Not so close! I don't want to catch what you've got. You're a danger to everyone. You must find an Imperial cult altar or a Temple shrine, or see a healer or apothecary, and get yourself cured. Otherwise, no one is going to talk to you.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Blight Disease;
+
+[DUP-INF]: ID=1987015913852530702(Greeting:greeting 4)
+  |DATA|RNAM:Dark Elf|NAME:You're got corprus disease, outlander. That's a death sentence. It can't get cured. Get away from me. FAR away.|SCVR:01583|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|BNAM:;default DUNMER;PC Corprus;;
+
+[MOD-INF]: ID=2000227951272714484(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|NAME:You are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:You are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. You can also receive the blessing of a cure by visiting an Imperial cult altar and making an offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=2012434781607710901(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Temple|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the free blessing of a cure by visiting a Temple shrine. A blessing costs you nothing, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the free blessing of a cure by visiting a Temple shrine. A blessing costs you nothing, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=2128511363297627400(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Temple|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the free blessing of a cure by visiting a Temple shrine. A blessing costs you nothing, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the free blessing of a cure by visiting a Temple shrine. A blessing costs you nothing, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=2188619576183329891(Greeting:greeting 4)
+  morrowind.esm------------->|DATA|NAME:Not so close! I don't want to catch what you've got. It's just a common disease, but you need to find an Imperial cult altar or a Temple shrine, or see a healer or apothecary, and get yourself cured. Otherwise, no one is going to talk to you.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+  No more Dr Nerevarine.ESP->|DATA|NAME:Not so close! I don't want to catch what you've got. You need to find an Imperial cult altar or a Temple shrine, or see a healer or apothecary, and get yourself cured. Otherwise, no one is going to talk to you.|SCVR:01403|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Common Disease;
+
+[MOD-INF]: ID=2262117700375825669(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the free blessing of a cure by visiting an Imperial cult altar. A blessing costs you nothing, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the free blessing of a cure by visiting an Imperial cult altar. A blessing costs you nothing, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=3073327866173429610(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Imperial Cult|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the free blessing of a cure by visiting an Imperial cult altar. A blessing costs you nothing, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am a healer. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the free blessing of a cure by visiting an Imperial cult altar. A blessing costs you nothing, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=6701191921002325565(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Imperial Cult|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the free blessing of a cure by visiting an Imperial cult altar. A blessing costs you nothing, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the free blessing of a cure by visiting an Imperial cult altar. A blessing costs you nothing, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=7531100241144824737(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Temple|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the free blessing of a cure by visiting a Temple shrine. A blessing costs you nothing, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the free blessing of a cure by visiting a Temple shrine. A blessing costs you nothing, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=12630280742683631664(Greeting:greeting 4)
+  morrowind.esm------------->|DATA|RNAM:Dark Elf|NAME:Keep your distance, outlander. Can't you tell you're sick? And you've got a blight disease. You're a danger to everyone. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Blight Disease;
+  No more Dr Nerevarine.ESP->|DATA|RNAM:Dark Elf|NAME:Keep your distance, outlander. Can't you tell you're sick? You're a danger to everyone. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default DUNMER;PC Blight Disease;
+
+[MOD-INF]: ID=13915160073220112677(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Temple|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the blessing of a cure by visiting a Temple shrine and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01413|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a blight disease. I am an apothecary. Among other services, I sell a potion that cures all blight diseases. Members of your rank may also receive the blessing of a cure by visiting a Temple shrine and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=14028250301090511542(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Temple|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the blessing of a cure by visiting a Temple shrine and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the blessing of a cure by visiting a Temple shrine and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=18990189992207523438(Greeting:greeting 4)
+  morrowind.esm------------->|DATA|NAME:Hey! Get away from me! Don't you know you're sick? And you've got a blight disease. You're a danger to everyone. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Blight Disease
+  No more Dr Nerevarine.ESP->|DATA|NAME:Hey! Get away from me! Don't you know you're sick? You're a danger to everyone. Go find an Imperial cult altar or a Temple shrine, or a healer or apothecary, and get cured.|SCVR:01413|INTV|SCVR:17XX0caius cosades|INTV|SCVR:22sX5Random100|INTV:2|SCVR:38FX0Ashlanders|INTV|BNAM:;default NON-DUNMER;PC Blight Disease
+
+[MOD-INF]: ID=20071113263051313270(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Healer Service|FNAM:Temple|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the free blessing of a cure by visiting a Temple shrine. A blessing costs you nothing, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default healer service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am a healer. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the free blessing of a cure by visiting a Temple shrine. A blessing costs you nothing, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=25061156971599210978(Greeting:greeting 4)
+  bloodmoon.esm------------->|DATA|NAME:You've got the blight disease. You must have come over here recently from the big island, %PCRace. Get that taken care of. We don't need it around here.|SCVR:01410|INTV
+  No more Dr Nerevarine.ESP->|DATA|NAME:You've got some sort of disease, %PCRace. Something's just not right with you. And that's not a good sign around here.|SCVR:01410|INTV
+
+[MOD-INF]: ID=31228303481550421525(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Imperial Cult|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the blessing of a cure by visiting an Imperial cult altar and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the blessing of a cure by visiting an Imperial cult altar and making a small offering. A blessing costs less than a potion, but a potion may be carried for convenient use.|DELE:
+
+[MOD-INF]: ID=31590270231942330837(:greeting 4)
+  morrowind.esm------------->|DATA|CNAM:Apothecary Service|FNAM:Imperial Cult|DNAM:Temple|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the free blessing of a cure by visiting an Imperial cult altar. A blessing costs you nothing, but a potion may be carried for convenient use.|SCVR:01403|INTV|BNAM:;default apothecary service; ;PC Common Disease;
+  No more Dr Nerevarine.ESP->|NAME:I'm sorry, %PCRank %PCName, but you are afflicted with a common disease. I am an apothecary. Among other services, I sell a potion that cures all common diseases. Members of your rank may also receive the free blessing of a cure by visiting an Imperial cult altar. A blessing costs you nothing, but a potion may be carried for convenient use.|DELE:

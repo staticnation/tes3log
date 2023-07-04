@@ -1,0 +1,12 @@
+BPC_MWSE_1.2.esp: FOGBUG MENUMOD MISSVER
+    [FOGBUG]: Cells with zero fog density setting:
+	a_ContainerCell
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BD_chest_script)
+	SCPT(BD_lock_check_script)
+	SCPT(BD_quick_open_script)
+	SCPT(BD_remote_open_script)
+	SCPT(invhlp_give_script)
+	SCPT(invhlp_signal_script)
+	SCPT(invhlp_take_script)
+	SCPT(unknown)

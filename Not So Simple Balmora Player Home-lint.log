@@ -1,0 +1,20 @@
+Not So Simple Balmora Player Home.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(advance_caius_upstairs)
+	SCPT(my_first_jumpscare)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       STAT    furn_anvil00
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    report to caius cosades
+	tribunal.esm        DIAL    greeting 0
+
+[MOD-INF]: ID=297749082693230546(Topic:orders)
+  morrowind.esm------------------------->|DATA|ONAM:caius cosades|NAME:And these are Sharn's notes on the Nerevarine cult? Excellent. I'm promoting you to Blades Apprentice, %PCName.  I'd like some time to think how this fits in with the Emperor's plans for you. So if you'd like to get in a little freelance adventuring, go ahead. But whenever you're ready, I'll have new orders for you.|SCVR:01063|INTV|SCVR:25IX3bk_a1_4_sharnsnotes|INTV|SCVR:34JX3A1_4_MuzgobInformant|INTV|BNAM:Player->RemoveItem, "bk_A1_4_SharnsNotes", 1  ModDisposition, 10  Journal, "A1_4_MuzgobInformant", 30  PCRaiseRank
+  Not So Simple Balmora Player Home.ESP->|DATA|ONAM:caius cosades|NAME:And these are Sharn's notes on the Nerevarine cult? Excellent. I'm promoting you to Blades Apprentice, %PCName. Take this key and open that chest upstairs. I'd like some time to think how this fits in with the Emperor's plans for you. So if you'd like to get in a little freelance adventuring, go ahead. But whenever you're ready, I'll have new orders for you.|SCVR:01063|INTV|SCVR:25IX3bk_a1_4_sharnsnotes|INTV|SCVR:34JX3A1_4_MuzgobInformant|INTV|BNAM:Player->RemoveItem, "bk_A1_4_SharnsNotes", 1  Player->Additem "key_blades_chest" 1  ModDisposition, 10  Journal, "A1_4_MuzgobInformant", 30  PCRaiseRank
+
+[MOD-INF]: ID=1987530856903725209(Topic:report to caius cosades)
+  morrowind.esm------------------------->|DATA|ONAM:caius cosades|NAME:Good. Welcome to the service, Novice %PCName. Now you belong to the Blades. We're the Emperor's eyes and ears in the provinces. You can use my bed if you need to rest, but leave my personal stuff alone unless I say otherwise. If you like, you can improve your modest skills with our Blades Trainers now. Or if you're in a hurry. I can give you orders right away. But don't forget to visit the Blades Trainers.|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_1_FindSpymaster", 14  PCJoinFaction "Blades"  modDisposition 10  "Rithleen"->modDisposition 20  "Tyermaillin"->modDisposition 20  "Nine_Toes"->modDisposition 20  "Surane Leoriane"->modDisposition 20  "Gildan"->modDisposition 20  "Sjorvar Horse-Mouth"->modDisposition 20
+  Not So Simple Balmora Player Home.ESP->|DATA|ONAM:caius cosades|NAME:Good. Welcome to the service, Novice %PCName. Now you belong to the Blades. We're the Emperor's eyes and ears in the provinces. You can use my home and bed upstairs if you need to rest, but don't take anything away from there for the moment. If you like, you can improve your modest skills with our Blades Trainers now. Or if you're in a hurry. I can give you orders right away. But don't forget to visit the Blades Trainers.|SCVR:01500|INTV|SCVR:14JX4A1_2_AntabolisInformant|INTV|BNAM:Journal, "A1_1_FindSpymaster", 14  PCJoinFaction "Blades"  modDisposition 10  "Rithleen"->modDisposition 20  "Tyermaillin"->modDisposition 20  "Nine_Toes"->modDisposition 20  "Surane Leoriane"->modDisposition 20  "Gildan"->modDisposition 20  "Sjorvar Horse-Mouth"->modDisposition 20  player->additem "key_upstairs" 1  Journal "Caius_Upstairs" 10

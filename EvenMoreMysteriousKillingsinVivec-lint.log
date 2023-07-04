@@ -1,0 +1,21 @@
+EvenMoreMysteriousKillingsinVivec.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MMIV_CampStuff)
+	SCPT(MMIV_TheLaw)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    work
+	morrowind.esm       NPC_    elam andas
+	tribunal.esm        DIAL    greeting 7
+
+[MOD-INF]: ID=53254245230021937(Topic:work)
+  morrowind.esm------------------------->|DATA|ONAM:elam andas|NAME:The helm and cuirass are heavy armor, and useful only to a strong fighter. These items belonged to one of the Ordinators who were killed, and it is fitting that they should reward the one who avenged his murder. However, we ask that you not wear this armor in Vivec City, for you may be mistaken for an Ordinator and guard. Alternatively, the Belt of the Armor of God provides magical armor and improves resistance against hostile spells, and should be useful for any adventurer. Which would you like?|SCVR:01500|INTV|BNAM:;Elam Andas: CHOICE 3;   Choice "I'd like the helm and cuirass." 4 "I'd like the belt." 5
+  EvenMoreMysteriousKillingsinVivec.ESP->|DATA|ONAM:elam andas|NAME:Since I am not allowed to use Order assets to compensate freelancers, I would be happy to give you this personal gift of an old helmet and cuirass of mine or this Belt of the Armor of God which provides magical armor and improves resistance against hostile spells, and should be useful for any adventurer. Which would you like?|SCVR:01500|INTV|BNAM:;Elam Andas: CHOICE 3;   Choice "I'd like the helm and cuirass." 4 "I'd like the belt." 5
+
+[MOD-INF]: ID=4735211653017530921(Topic:work)
+  morrowind.esm------------------------->|DATA|ONAM:elam andas|NAME:Very good. Please accept the helm and cuirass, with our thanks. And accept, on the behalf of Vivec City, our thanks for ridding us of this dangerous killer.|SCVR:01500|INTV|BNAM:;Elam Andas: CHOICE 4;   player->additem "Indoril Cuirass" 1  player->additem "Indoril Helmet" 1  player->modReputation 1  modDisposition 20  Journal town_Vivec 50
+  EvenMoreMysteriousKillingsinVivec.ESP->|DATA|ONAM:elam andas|NAME:Very good. Please accept the helm and cuirass, with our thanks. And accept, on the behalf of Vivec City, our thanks for ridding us of this dangerous killer.|SCVR:01500|INTV|BNAM:;Elam Andas: CHOICE 4;   player->additem "mmiv_chestplate" 1  player->additem "mmiv_helm" 1  player->modReputation 1  modDisposition 20  Journal town_Vivec 50
+
+[MOD-INF]: ID=7236257792293914681(Topic:work)
+  morrowind.esm------------------------->|DATA|ONAM:elam andas|NAME:According to your report, the Dunmer woman you killed matches the description given us. We'll dispatch Ordinators to follow up, but I believe you have identified and executed the killer. On behalf of the city, and of the Office of the Watch, thank you. And now, for the reward I promised. I'll give you a choice. You may either have an Indoril helm and cuirass, or a Belt of the Armor of God.|SCVR:06DX0dreamer prophet|INTV|BNAM:;Elam Andas; dead = Dreamer Prophet;   Choice "Continue" 3
+  EvenMoreMysteriousKillingsinVivec.ESP->|DATA|ONAM:elam andas|NAME:According to your report, the Dunmer woman you killed matches the description given us. We'll dispatch Ordinators to follow up, but I believe you have identified and executed the killer. On behalf of the city, and of the Office of the Watch, thank you. And now, for the reward I promised. I'll give you a choice. You may either have a helm and cuirass, or a Belt of the Armor of God.|SCVR:06DX0dreamer prophet|INTV|BNAM:;Elam Andas; dead = Dreamer Prophet;   Choice "Continue" 3

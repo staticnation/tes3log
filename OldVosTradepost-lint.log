@@ -1,0 +1,58 @@
+OldVosTradepost.ESP: DUP-INF DUP-REC MASTERS MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1087244 (plugin)    1567893 (installed size)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    outlander
+	morrowind.esm       PGRD    grazelands region
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    specific place
+
+[DUP-INF]: ID=2924792051322157(Topic:ashlanders)
+  |DATA|FNAM:Ashlanders|ANAM:Ahemmusa Camp|NAME:Now that you have found us a safe place, the Ahemmusa may once again grow strong. Thank you, Nerevarine.|SCVR:04JX3B2_AhemmusaSafe|INTV:(
+
+[DUP-INF]: ID=13737223031182340(Topic:camonna tong)
+  |DATA|ONAM:Orvas Dren Druglord|NAME:We have a deal, friend.|SCVR:34JX3HH_WinCamonna|INTV:2
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=1470721697254192970(Topic:little advice)
+  |DATA|ONAM:svenja_outside|NAME:Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't...something inside waiting for you. Be ready for a fight.
+
+[DUP-INF]: ID=1906014833141124249(Topic:specific place)
+  |DATA|ONAM:Carnius Magius|NAME:The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock, however, boasts a bar and a Trader's Outpost. All thanks to me, of course.|SCVR:02sX3ColonyState|INTV: |SCVR:12sX0ColonyService|INTV
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=10924273023043113826(Topic:my trade)
+  |DATA|ONAM:erich the unworthy|NAME:I'm a lover and a killer. What more is there in life?
+
+[MOD-INF]: ID=18674239372517031452(Topic:outlander)
+  morrowind.esm------->|DATA|RNAM:Dark Elf|ANAM:Balmora|NAME:An outlander is anyone born and raised outside of Morrrowind. Most Dunmer think anyone who isn't a native-born Dunmer is an outlander. Dunmer with Western words and ways are also immediately identified as outlanders -- we're very sensitive to accents, clothes, and manners in Morrowind. Outlanders are foreigners, and Morrowind doesn't like foreigners. It's not bad here in Hlaalu territory, but on the rest of Vvardenfell, folk are very cool to outlanders. Be patient, and pleasant, you'll do all right.|SCVR:0CsX0nolore|INTV:|BNAM:;Dunmer; Balmora
+  OldVosTradepost.ESP->|DATA|RNAM:Dark Elf|ANAM:Balmora|NAME:An outlander is anyone born and raised outside of Morrrowind. Most Dunmer think anyone who isn't a native-born Dunmer is an outlander. Dunmer with Western words and ways are also immediately identified as outlanders -- we're very sensitive to accents, clothes, and manners in Morrowind. Outlanders are foreigners, and Morrowind doesn't like foreigners. It's not bad here in Hlaalu territory, but on the rest of Vvardenfell, folk are very cool to outlanders. Be patient, and pleasant, you'll do all right.|SCVR:0CsX0NoLore|INTV:|BNAM:;Dunmer; Balmora
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[MOD-INF]: ID=23944302791049323188(Topic:outlander)
+  morrowind.esm------->|DATA|ANAM:Balmora|NAME:An outlander is anyone born and raised outside of Morrrowind. Most Dunmer think anyone who isn't a native-born Dunmer is an outlander. Dunmer with Western words and ways are also immediately identified as outlanders -- Dunmer are very sensitive to accents, clothes, and manners in Morrowind. Outlanders are foreigners, and Morrowind doesn't like foreigners. It's not bad here in Hlaalu territory, but on the rest of Vvardenfell, folk are very cool to outlanders.|SCVR:0CsX0nolore|INTV:|BNAM:; Balmora
+  OldVosTradepost.ESP->|DATA|ANAM:Balmora|NAME:An outlander is anyone born and raised outside of Morrrowind. Most Dunmer think anyone who isn't a native-born Dunmer is an outlander. Dunmer with Western words and ways are also immediately identified as outlanders -- Dunmer are very sensitive to accents, clothes, and manners in Morrowind. Outlanders are foreigners, and Morrowind doesn't like foreigners. It's not bad here in Hlaalu territory, but on the rest of Vvardenfell, folk are very cool to outlanders.|SCVR:0CsX0NoLore|INTV:|BNAM:; Balmora
+
+[DUP-INF]: ID=25659223951448129046(Topic:services)
+  |DATA|ONAM:Sathyn Andrano|NAME:Aside from this shop, you mean? Well, that's an easy answer. Nothing. If it's not for sale here, you'll have to try checking at Fort Frostmoth. And, given my stock, it's probably not for sale here.
+
+[DUP-INF]: ID=25962153161759731313(Topic:beds)
+  |DATA|ONAM:Alcedonia Amnis|CNAM:Publican|NAME:Very well. Head upstairs, to the last room on the right. It's yours for the next day.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script RAVEN ROCK BAR  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2

@@ -1,0 +1,24 @@
+Restoring Rain's Hand Hall.esp: DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (238) != Actual count (237)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    chest_small_01
+	morrowind.esm       CONT    com_chest_02
+	morrowind.esm       CONT    com_drawers_01
+	morrowind.esm       MISC    misc_de_bowl_redware_03
+	morrowind.esm       STAT    collision wall - inviso!!
+	morrowind.esm       STAT    furn_c_t_ritual_01
+	morrowind.esm       STAT    furn_com_tapestry_01
+	morrowind.esm       STAT    furn_com_tapestry_05
+	morrowind.esm       STAT    in_boneboulder05
+	morrowind.esm       STAT    in_imp_fireplace_grand
+	morrowind.esm       STAT    in_impsmall_endcap_01
+	tribunal.esm        DOOR    in_impsmall_door_01
+	tribunal.esm        MISC    misc_uni_pillow_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=13568231434823734(Greeting:greeting 1)
+  tribunal.esm------------------->|DATA|ONAM:lich_relvel|NAME:Weakling! You dare to cross my threshold? You, then, will be the first to fall, before the undead army sweeps across this land like a plague, cleansing it of your flesh.  Die, mortal!|BNAM:StartCombat Player  SetFight 100  Goodbye
+  Restoring Rain's Hand Hall.esp->|DATA|ONAM:lich_relvel|NAME:Weakling! You dare to cross my threshold? You, then, will be the first to fall, before the undead army sweeps across this land like a plague, cleansing it of your flesh.  Die, mortal!|BNAM:StartCombat Player  SetFight 100  Goodbye

@@ -1,0 +1,12 @@
+FG_LirielleDebtStoine.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FG_DebtStoineCancel)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    debt money
+	tribunal.esm        DIAL    fg_debtstoine
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=2422825916747957(Journal:fg_debtstoine)
+  tribunal.esm-------------->|DATA|NAME:Lorbumol gro-Aglakh thanked me for bringing him the 2000 gold Lirielle Stoine owed our client. He actually let me keep half of the money owed.|QSTF
+  FG_LirielleDebtStoine.ESP->|DATA|NAME:Lorbumol gro-Aglakh was upset I refuse to collect the illegitimate debt.|QSTF

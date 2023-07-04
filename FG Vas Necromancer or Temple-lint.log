@@ -1,0 +1,44 @@
+FG Vas Necromancer or Temple.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Daris_Adram_Script_Vas)
+	SCPT(GaldalUlyneGhostGreet)
+	SCPT(UlyneBoneLordAttack)
+	SCPT(UlyneSoulBoneWalker)
+	SCPT(ulyneCorpse)
+	SCPT(ulyneFollow)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ulyne henim
+	morrowind.esm       DIAL    vas
+	tribunal.esm        DIAL    fg_vas
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=24316949269837966(:vas)
+  morrowind.esm-------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim is dead? Bah! I don't know whether to accuse you of murder or negligence.|SCVR:56DX3ulyne henim|INTV|BNAM:ModDisposition -10  Journal FG_Vas 105
+  FG Vas Necromancer or Temple.ESP->|NAME:.1|DELE:
+
+[MOD-INF]: ID=39981564229741736(Topic:vas)
+  morrowind.esm-------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim gave a very positive report, %PCName. Since this has helped our reputation with the Buoyant Armigers, I've decided to share the contract reward money with you. Take these 500 septims.|SCVR:34JX3FG_Vas|INTV:U|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->AddItem Gold_001 500  "Ulyne Henim"->Disable
+  FG Vas Necromancer or Temple.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim gave a very positive report, %PCName. Since this has helped our reputation with the Buoyant Armigers, I've decided to share the contract reward money with you. Take these 500 septims.|SCVR:24JX1FG_Vas|INTV:n|SCVR:34JX3FG_Vas|INTV:U|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->AddItem Gold_001 500  "Ulyne Henim"->Disable
+
+[MOD-INF]: ID=90823152810811864(Topic:vas)
+  morrowind.esm-------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim was satisfied with your performance. Here is your pay of 250 septims based on guild rates.|SCVR:34JX3FG_Vas|INTV:F|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  Player->AddItem Gold_001 250  ModDisposition 10  "Ulyne Henim"->Disable
+  FG Vas Necromancer or Temple.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim was satisfied with your performance. Here is your pay of 250 septims based on guild rates.|SCVR:24JX1FG_Vas|INTV:n|SCVR:34JX3FG_Vas|INTV:F|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  Player->AddItem Gold_001 250  ModDisposition 10  "Ulyne Henim"->Disable
+
+[MOD-INF]: ID=1428931586148709630(Greeting:greeting 5)
+  morrowind.esm-------------------->|DATA|ONAM:ulyne henim|NAME:Shall we fight together against the foul Necromancers of Vas?|SCVR:04JX5FG_Vas|INTV:2
+  FG Vas Necromancer or Temple.ESP->|DATA|ONAM:ulyne henim|NAME:Shall we fight together against the foul Necromancers of Vas?|SCVR:04JX0FG_Vas|INTV: 
+
+[MOD-INF]: ID=4945190022030522086(Topic:vas)
+  morrowind.esm-------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Go to Vas and meet with the Buoyant Armiger Ulyne Henim. Help her clear the Necromancers out of Vas. Vas is far to the north, in the Sheogorad Region. Here, I'll mark it on your map. The journey is a long one. Your best bet may be to take a ship to Dagon Fel from Tel Mora. Good luck to you.|BNAM:Journal FG_Vas 10  "Ulyne Henim"->Enable  ShowMap Vas
+  FG Vas Necromancer or Temple.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Go to Vas and meet with the Buoyant Armiger Ulyne Henim. Help her clear the Necromancers out of Vas. Vas is far to the north, in the Sheogorad Region. Here, I'll mark it on your map. The journey is a long one. Your best bet may be to take a ship to Dagon Fel from Tel Mora. Good luck to you.|BNAM:Journal FG_Vas 10  "Ulyne Henim"->Enable  ShowMap Vas  startscript Daris_Adram_Script_Vas
+
+[MOD-INF]: ID=22897272671084931764(Topic:ulyne henim)
+  morrowind.esm-------------------->|DATA|ONAM:persius mercius|NAME:I haven't heard anything else from her.|SCVR:34JX3FG_Vas|INTV:d
+  FG Vas Necromancer or Temple.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne sent complaint letter to this guild hall specifically about you. It shouldn't tarnish your reputation much.|SCVR:34JX0FG_Vas|INTV:n
+
+[MOD-INF]: ID=22897272671084931764(Topic:ulyne henim)
+  morrowind.esm-------------------->|DATA|ONAM:persius mercius|NAME:I haven't heard anything else from her.|SCVR:34JX3FG_Vas|INTV:d
+  FG Vas Necromancer or Temple.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne sent complaint letter to this guild hall specifically about you. It shouldn't tarnish your reputation much.|SCVR:34JX0FG_Vas|INTV:n
+[MOD-IID]: ID=21881249161252552
+  FG Vas Necromancer or Temple.ESP->I haven't heard anything else from her.

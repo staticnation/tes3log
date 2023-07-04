@@ -1,0 +1,421 @@
+GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp: DUP-INF DUP-REC EXP-DEP MENUMOD MISSVER MOD-INF OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(_nev_SkoomaStill_ContScr)       setdelete
+	SCPT(_nev_SkoomaStill_ItemScr)       placeitem
+	SCPT(_nev_SkoomaStill_ItemScr)       setdelete
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_nevTLSH_Abolition)
+	SCPT(_nevTLSH_AleronMemoirs)
+	SCPT(_nevTLSH_Aleron_Script)
+	SCPT(_nevTLSH_AmbikaMail)
+	SCPT(_nevTLSH_ArgonianSlave)
+	SCPT(_nevTLSH_ArvelSlaveOwners)
+	SCPT(_nevTLSH_CalderaMineGuards)
+	SCPT(_nevTLSH_DukeBusy)
+	SCPT(_nevTLSH_EbonheartRats)
+	SCPT(_nevTLSH_EbonheartSH)
+	SCPT(_nevTLSH_Etana_to_Desidero)
+	SCPT(_nevTLSH_IpoKuuipo_Rescue)
+	SCPT(_nevTLSH_MagicBox)
+	SCPT(_nevTLSH_MarcDillion_Script)
+	SCPT(_nevTLSH_MolagSlavesFreed)
+	SCPT(_nevTLSH_OutpostEvacuation)
+	SCPT(_nevTLSH_Printing_On_Slavery)
+	SCPT(_nevTLSH_RatCrack)
+	SCPT(_nevTLSH_Relam_Script)
+	SCPT(_nevTLSH_RotheranSlavesFreed)
+	SCPT(_nevTLSH_SHAssassins)
+	SCPT(_nevTLSH_SHQuestsTimer)
+	SCPT(_nevTLSH_SH_Expel)
+	SCPT(_nevTLSH_Sarish_Rescue)
+	SCPT(_nevTLSH_SuranSlaveOwners)
+	SCPT(_nevTLSH_TL_Expel)
+	SCPT(_nevTLSH_UlesSlaveOwners)
+	SCPT(_nev_chest_testing)
+	SCPT(slaveScript)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    com_sack_02_chpfood3
+	bloodmoon.esm       CONT    com_sack_02_ingred
+	bloodmoon.esm       CONT    crate_01_random_pos
+	morrowind.esm       CONT    com_sack_00_ingred
+	morrowind.esm       CONT    com_sack_01_moon sugar5
+	morrowind.esm       CONT    com_sack_01_rnd_ingr_5
+	morrowind.esm       CONT    crate_01_food
+	tribunal.esm        INGR    ingred_russula_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       INGR    ingred_bread_01
+	morrowind.esm       DIAL    abolitionists
+	morrowind.esm       DIAL    dranas sarathram
+	morrowind.esm       DIAL    dren plantation
+	morrowind.esm       DIAL    gentleman jim stacey
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    ilmeni dren
+	morrowind.esm       DIAL    jobasha
+	morrowind.esm       DIAL    law in morrowind
+	morrowind.esm       DIAL    mabrigash
+	morrowind.esm       DIAL    morrowind
+	morrowind.esm       DIAL    reeh-jah
+	morrowind.esm       DIAL    rotheran
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    slavery
+	morrowind.esm       DIAL    sterdecan's farm
+	morrowind.esm       DIAL    twin lamps
+	morrowind.esm       FACT    twin lamps
+	morrowind.esm       LIGH    light_6th_candle_01
+	morrowind.esm       LIGH    light_6th_candle_01_77
+	morrowind.esm       LIGH    light_6th_candle_01_off_f
+	morrowind.esm       LIGH    light_6th_candle_02
+	morrowind.esm       LIGH    light_6th_candle_02_64
+	morrowind.esm       LIGH    light_6th_candle_02_77
+	morrowind.esm       LIGH    light_6th_candle_03
+	morrowind.esm       LIGH    light_6th_candle_04
+	morrowind.esm       LIGH    light_6th_candle_05
+	morrowind.esm       LIGH    light_6th_candle_05_off_p
+	morrowind.esm       LIGH    light_6th_candle_06
+	morrowind.esm       LIGH    light_6th_candle_06_64
+	morrowind.esm       LIGH    light_de_buglamp_01
+	morrowind.esm       MISC    misc_dwrv_goblet10_tgcp
+	morrowind.esm       NPC_    an_deesei
+	morrowind.esm       NPC_    brallion
+	morrowind.esm       NPC_    codus callonus
+	morrowind.esm       NPC_    dorisa darvel
+	morrowind.esm       NPC_    dranas sarathram
+	morrowind.esm       NPC_    dratha
+	morrowind.esm       NPC_    drolora salen
+	morrowind.esm       NPC_    elitlaya assonirishpal
+	morrowind.esm       NPC_    ernand thierry
+	morrowind.esm       NPC_    galyn arvel
+	morrowind.esm       NPC_    geel_lah
+	morrowind.esm       NPC_    goler andrethi
+	morrowind.esm       NPC_    hansi saharnatturapli
+	morrowind.esm       NPC_    helviane desele
+	morrowind.esm       NPC_    hinummu siddurnanit
+	morrowind.esm       NPC_    hussonia
+	morrowind.esm       NPC_    ilmeni dren
+	morrowind.esm       NPC_    im_kilaya
+	morrowind.esm       NPC_    j'oren_dar
+	morrowind.esm       NPC_    manara othan
+	morrowind.esm       NPC_    medresi ofemalen
+	morrowind.esm       NPC_    nevena ules
+	morrowind.esm       NPC_    onasha
+	morrowind.esm       NPC_    relam arinith
+	morrowind.esm       NPC_    relyn sarano
+	morrowind.esm       NPC_    savile imayn
+	morrowind.esm       NPC_    sedrane arvel
+	morrowind.esm       NPC_    serer andrano
+	morrowind.esm       NPC_    simine fralinie
+	morrowind.esm       NPC_    sterdecan
+	morrowind.esm       NPC_    talare arvel
+	morrowind.esm       NPC_    ukawei
+	morrowind.esm       NPC_    urzoth gra-bargamph
+	morrowind.esm       NPC_    vedam dren
+	morrowind.esm       NPC_    yakov
+	morrowind.esm       NPC_    zabarbael
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    author
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=530232165429289(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Abebaal Egg Mine|NAME:Our leader, Eleedal-Lei will lead us to freedom.|SCVR:34JX3HT_SlaveRebellion|INTV:2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Abebaal Egg Mine|NAME:Our leader, Eleedal-Lei, will lead us to freedom.|SCVR:04JX3HT_SlaveRebellion|INTV:2
+
+[MOD-INF]: ID=7242622142754312(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Tel Branora|NAME:No. There is no escape.
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Tel Branora|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_telbranoraslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=11533968133135718(Topic:twin lamps)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|NAME:You do not know? %Name was sure... But you should be a member. If %Name asks, "Have you seen the Twin Lamps?" You say, "They light the way to freedom."|SCVR:02sX2FreedSlavesCounter|INTV|SCVR:13sX3slaveStatus|INTV:|BNAM:Journal HH_TwinLamps1 5
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:You do not know? %Name was sure... But you should be a member. If %Name asks, "Have you seen the Twin Lamps?", you say, "They light the way to freedom."|SCVR:02sX3FreedSlavesCounter|INTV: |SCVR:13sX3slaveStatus|INTV:|BNAM:Journal HH_TwinLamps1 5    ; Nevena: Corrected this to read Race = Khajiit, as it seems clear it was intended to be only the Khajiit response.  ; Also, changed minimum saved to 10
+
+[MOD-INF]: ID=13853272872978520(Topic:abolitionists)
+  morrowind.esm----------------------------------------->|DATA|FNAM:Telvanni|NAME:These outlanders won't be happy until slavery is outlawed. It's our right to have slaves, by law and custom, and it's none of their damn business.|SCVR:0CsX0NoLore|INTV:
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|FNAM:Telvanni|NAME:These outlanders won't be happy until slavery is outlawed. It's our right to have slaves, by law and custom, and it's none of their damn business.|SCVR:0CsX0nolore|INTV:
+
+[MOD-INF]: ID=41722152871713897(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Saturan|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_saturanslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Saturan|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_saturanslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=44754633117727424(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Assarnud|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_assarnudslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Assarnud|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_assarnudslaves_01|INTV:|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=57342934926223481(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|NAME:Yes, now I am free. Thank you, %PCName.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|NAME:Yes, now I am free. Thank you, %PCName! Now I will seek a guide to lead me to safety.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50  ModPCFacRep -5 "Slave Hunters"
+
+[MOD-INF]: ID=79436122621222157(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Shushan|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_shushanslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Shushan|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_shushanslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=178622957440379472(Topic:background)
+  morrowind.esm----------------------------------------->|DATA|NAME:I am %Name, the %Rank of the %Faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll get this one if they are the highest rank in their faction  ClearInfoActor
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|NAME:I am %Name, the %Rank of the %Faction.|SCVR:0CsX0nolore|INTV:|BNAM:;you'll get this one if they are the highest rank in their faction  ClearInfoActor
+
+[DUP-INF]: ID=190592792723126084(Greeting:greeting 1)
+  |DATA|ONAM:Furius Acilius|NAME:What are you doing here? Those bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay. And you will tell no one!|BNAM:SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=199641425381905494(Topic:go free)
+  |DATA|ONAM:eleedal_lei|NAME:Yes, I will free the others. Soon we will return to Black Marsh.|SCVR:34JX3HT_SlaveRebellion|INTV:2
+
+[MOD-INF]: ID=206847122036726324(Topic:background)
+  morrowind.esm----------------------------------------->|DATA|NAME:I am %name, %class and %rank of the %faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|NAME:I am %name, %class and %rank of the %faction.|SCVR:0CsX0nolore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+
+[MOD-INF]: ID=219561677132301495(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Zebabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_zebabislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Zebabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_zebabislaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=226398648182778706(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Kudanat|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_kudanatslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Kudanat|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_kudanatslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=267091420155215554(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_hlormarenslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_hlormarenslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=271561496637675165(Topic:abolitionists)
+  morrowind.esm----------------------------------------->|DATA|FNAM:Imperial Legion|NAME:The Twin Lamps is a secret, illegal organization dedicated to the abolition of slavery, and in particular to aiding runaway slaves escape to freedom.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:B|BNAM:;Imperial Legion;
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|FNAM:Imperial Legion|NAME:The Twin Lamps is a secret, illegal organization dedicated to the abolition of slavery, and in particular to aiding runaway slaves escape to freedom.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:B|BNAM:;Imperial Legion;
+
+[MOD-INF]: ID=294360691158826692(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Panat|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_panatslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Panat|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_panatslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=294747312583227810(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Addamasartus|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_addamasartusslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Addamasartus|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_addamasartusslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=297163233524214268(Topic:twin lamps)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|NAME:I do not know if they really exist. It is said they help slaves like us escape. Until you arrived, I did not believe I would ever see Argonia again.|SCVR:03sX3slaveStatus|INTV:
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|NAME:I do not know if they really exist. It is said they help slaves like us escape.|SCVR:03sX3slaveStatus|INTV:|SCVR:1ARX0Argonian|INTV:|SCVR:2ARX0Khajiit|INTV:
+
+[MOD-INF]: ID=300681198467613390(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|NAME:You freed me, %PCName.|SCVR:03sX0slaveStatus|INTV
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|NAME:Yes, %Name is free. May the twin lamps forever shine brightly.|SCVR:03sX0slaveStatus|INTV:c|SCVR:12sX3FreedSlavesCounter|INTV|BNAM:addtopic "Twin Lamps"
+
+[DUP-INF]: ID=306708653098526208(Topic:go free)
+  |DATA|CNAM:Slave|NAME:Free? You are letting me go free?|SCVR:03sX0slaveStatus|INTV|BNAM:Choice "Set your slave free." 1 "Nevermind." 2
+
+[DUP-INF]: ID=307481458477726961(Topic:advancement)
+  |DATA|ONAM:Vedam Dren|DNAM:Hlaalu|NAME:You are the Grandmaster of House Hlaalu, %PCName.
+
+[MOD-INF]: ID=344923501556916651(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM|NAME:No, there is no escape.|SCVR:05IX3key_telaruhnslaves_01|INTV
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_telaruhnslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=452829757792223617(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Caldera|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_calderaslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Caldera|NAME:No, no. Too great a risk.|SCVR:05IX3key_calderaslaves_01|INTV
+
+[MOD-INF]: ID=520421455239399130(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=619617600177165678(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Aharunartus|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_aharunartusslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Aharunartus|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_aharunartusslaves_01|INTV:|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=624284792753415499(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Suran, Suran Slave Market|NAME:No. There is no escape.
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Suran|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_suranslaves_01|INTV:|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=626832206718828325(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|NAME:You freed me, %PCName. Are you in the Twin Lamps?|SCVR:03sX0slaveStatus|INTV|SCVR:12sX2FreedSlavesCounter|INTV
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|NAME:You freed me, %PCName. Are you in the Twin Lamps?|SCVR:03sX0slaveStatus|INTV|SCVR:12sX3FreedSlavesCounter|INTV|BNAM:; Nevena - Changed minimum slaves freed from 5 to 3, since the first cave only gives you 3
+
+[MOD-INF]: ID=712011242789727655(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Minabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_minabislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Minabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_minabislaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[DUP-INF]: ID=758138361772517488(Topic:dranas sarathram)
+  |DATA|ONAM:hides_his_eyes|NAME:The slave trader. Bad man. Hunts my people down. Deserves to be dead, that one does.
+
+[MOD-INF]: ID=807030795185926776(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Rotheran, Arena|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_rotheranslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Rotheran, Arena|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_rotheranslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=981612079163648130(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|ONAM:eleedal_lei|NAME:Yes, I am free now. I will free the others and lead them back to Black Marsh.|SCVR:01500|INTV|BNAM:Journal HT_SlaveRebellion 50  Player->RemoveItem "key_abebaalslaves_01" 1  AddItem "key_abebaalslaves_01" 1  Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 10  ModDisposition 50
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|ONAM:eleedal_lei|NAME:Yes, I am free now. I will free the others and lead them back to Black Marsh.|SCVR:01500|INTV|BNAM:Journal HT_SlaveRebellion 50  Player->RemoveItem "key_abebaalslaves_01" 1  AddItem "key_abebaalslaves_01" 1  Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 10  ModDisposition 50  ModPCFacRep -15 "Slave Hunters"
+
+[MOD-INF]: ID=1064131682241792852(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Hinnabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_hinnabislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Hinnabi|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_hinnabislaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  tribunal.esm------------------------------------------>|DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|FNAM:Nerevarine|ANAM:ToddTest|NAME:Who's there?|BNAM:Goodbye  ModDisposition -5
+
+[DUP-INF]: ID=1343227074600616390(Topic:advancement)
+  |DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|NAME:Yes, we find you worthy of %NextPCRank.|SCVR:01020|INTV|BNAM:PCRaiseRank "Telvanni"
+
+[MOD-INF]: ID=1364230960270223245(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Assarnud|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_assarnudslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Assarnud|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_assarnudslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=1511598931222410982(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_habinbaesslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_habinbaesslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[DUP-INF]: ID=1584724829308727856(Topic:slavery)
+  |DATA|ONAM:galyn arvel|NAME:Continue your work to end slavery here in Morrowind.|SCVR:34JX3HH_TwinLamps1|INTV:d
+
+[DUP-INF]: ID=1588813549227325295(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:All is silence. The road is straight, without turning, in darkness. Now let there be an end to all things.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:modDisposition -10  goodbye
+
+[MOD-INF]: ID=1720321173178261542(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_yakanalitslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_yakanalitslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[DUP-INF]: ID=1942430040302163712(Topic:go free)
+  |DATA|ONAM:eleedal_lei|NAME:If you want to set us free, look for the key to our bracers somewhere here in the egg mine or in Tel Branora.
+
+[DUP-INF]: ID=2112269131757221074(Topic:go free)
+  |DATA|ONAM:dahleena|NAME:Yes, %Name is free! You are a good friend of %Name. Dahleena leaves when the moons are right.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50  Journal HR_CalderaDisrupt 50
+
+[MOD-INF]: ID=2256027995154351460(Topic:reeh-jah)
+  morrowind.esm----------------------------------------->|DATA|NAME:We've heard you returned that poor man to his captors. Do you know what happened to him after you brought him in? No? They had him flogged until the skin was flayed from his back. No, he's not dead. That would be too easy, you see, and he wouldn't bring a profit. They healed him, so they could flog him again. That's how the slavers serve notice to their slaves that escape is not an option. I hope you feel pride in your work. Get out of here, %PCRace. Get out while you can.|SCVR:04JX0MV_RunawaySlave|INTV:i|SCVR:16DX0reeh_jah|INTV:|BNAM:ModPCFacRep -5 "Twin Lamps"  ModDisposition -10  ModFight 20  Journal "MV_RunawaySlave" 140  Reeh_Jah->Disable
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|NAME:We've heard you returned that poor man to his captors. Do you know what happened to him after you brought him in? No? They had him flogged until the skin was flayed from his back. No, he's not dead. That would be too easy, you see, and he wouldn't bring a profit. They healed him, so they could flog him again. That's how the slavers serve notice to their slaves that escape is not an option. I hope you feel pride in your work. Get out of here, %PCRace. Get out while you can.|SCVR:04JX0MV_RunawaySlave|INTV:i|SCVR:16DX0reeh_jah|INTV:|BNAM:ModPCFacRep -25 "Twin Lamps"  ModDisposition -30  ModFight 20  Journal "MV_RunawaySlave" 140  Reeh_Jah->Disable
+
+[MOD-INF]: ID=2371318541461129659(Topic:abolitionists)
+  morrowind.esm----------------------------------------->|DATA|FNAM:Imperial Legion|NAME:Aiding an escaping slave is theft, and a crime, since slaves are property in Morrowind.|SCVR:0CsX0NoLore|INTV:|SCVR:12sX4Random100|INTV:!|BNAM:;Imperial Legion;
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|FNAM:Imperial Legion|NAME:Aiding an escaping slave is theft, and a crime, since slaves are property in Morrowind.|SCVR:0CsX0nolore|INTV:|SCVR:12sX4Random100|INTV:!|BNAM:;Imperial Legion;
+
+[MOD-INF]: ID=2411283323124512985(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Sadrith Mora, Gateway Inn|NAME:No. There is no hope for us.
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Sadrith Mora, Gateway Inn|NAME:No, you cannot free us. Too many are watching.
+
+[DUP-INF]: ID=2487228797996310828(Topic:rotheran)
+  |DATA|ONAM:Lalatia Varian|NAME:The ancient Dunmer stronghold of Rotheran is located on the southern coast of Sheogorad. It is a place of evil reputation, remote, and seldom visited.|BNAM:ShowMap Rotheran
+
+[MOD-INF]: ID=2501625006567432759(Topic:twin lamps)
+  morrowind.esm----------------------------------------->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:%Name knows only rumors. They help slaves escape. They take us back to Elsweyr.
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:%Name knows only rumors. They help slaves escape. They take us back to Elsweyr.|SCVR:03sX3slaveStatus|INTV:
+
+[MOD-INF]: ID=2515643532504519053(Topic:slavery)
+  morrowind.esm----------------------------------------->|DATA|FNAM:Imperial Legion|NAME:Most Imperial citizens assume the practice will die out as Morrowind adopts Imperial ways, and the subject excites little passion except among Argonians abolitionists.|SCVR:03sX0NoLore|INTV:|SCVR:12sX4Random100|INTV:B|BNAM:;Imperial Legion;
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|FNAM:Imperial Legion|NAME:Most Imperial citizens assume the practice will die out as Morrowind adopts Imperial ways, and the subject excites little passion except among Argonian abolitionists and the Slave Hunters.|SCVR:03sX0nolore|INTV:|SCVR:12sX4Random100|INTV:B|BNAM:;Imperial Legion;
+
+[DUP-INF]: ID=2521731792966111939(Topic:skooma)
+  |DATA|RNAM:Khajiit|CNAM:Trader Service|NAME:Skooma is an illegal narcotic substance made from refined moon sugar. Criminals use it as a kind of currency. They say it makes you fast and strong, but clumsy and stupid. Of course, %Name wants nothing to do with breaking laws. That would be wrong.|BNAM:;publican; trader;
+
+[MOD-INF]: ID=2590123069223445779(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM|NAME:No. There is no hope for us.
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM|NAME:You have the key?|SCVR:05IX3key_molagmarslaves_01|INTV|SCVR:15IX4sc_divineintervention|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2
+
+[MOD-INF]: ID=2605211451269229298(Topic:slavery)
+  morrowind.esm----------------------------------------->|DATA|ONAM:galyn arvel|NAME:You know the Twin Lamps? Well then, yes, we are having some trouble here. A Khajiti slave, J'Saddha, was supposed to meet us at our boat. He sent us a message that he is hiding in some ruins east of here, but there are three slavehunters in town, and we cannot risk being discovered.|SCVR:34JX2HH_TwinLamps1|INTV|BNAM:Journal HH_TwinLamps1 30
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|ONAM:galyn arvel|NAME:You know of the Twin Lamps? Well then, yes, we are having some trouble here. A Khajiti slave, J'Saddha, was supposed to meet us at our boat. He sent us a message that he is hiding in some ruins east of here but there are three slave hunters in town, and we cannot risk being discovered.|SCVR:34JX2HH_TwinLamps1|INTV|BNAM:Journal HH_TwinLamps1 30
+
+[MOD-INF]: ID=2615847683142510678(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:Yes, %Name is free! You are a good friend of %Name.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:Yes, %Name is free! You are a good friend of %Name. Now %Name must hope for a guide to safety.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50  ModPCFacRep -5 "Slave Hunters"
+
+[MOD-INF]: ID=2676369343225521846(Topic:slavery)
+  morrowind.esm----------------------------------------->|DATA|FNAM:Imperial Legion|NAME:Argonians abolitionists are outraged that the Empire does so little to suppress persistent illegal cross-border slave raiding in southern Morrowind.|SCVR:03sX0NoLore|INTV:|SCVR:12sX4Random100|INTV:!|BNAM:;Imperial Legion;
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|FNAM:Imperial Legion|NAME:Argonian abolitionists are outraged that the Empire does so little to suppress persistent illegal cross border slave raiding in southern Morrowind. Needless to say, they're no big fans of the Slave Hunters.|SCVR:03sX0nolore|INTV:|SCVR:12sX4Random100|INTV:!|BNAM:;Imperial Legion;
+
+[MOD-INF]: ID=2693921643411530513(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Sinsibadon|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_sinsibadonslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Sinsibadon|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_sinsibadonslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=2772326544705429552(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Zainsipilu|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_zainsipiluslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Zainsipilu|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_zainsipiluslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[DUP-INF]: ID=2847517866258810790(Topic:go free)
+  |DATA|CNAM:Slave|NAME:I am sorry. Please forgive me.|SCVR:01500|INTV
+
+[MOD-INF]: ID=2961415681797421261(Topic:twin lamps)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|NAME:I thought you were a member. You have freed many slaves, so I will tell you this. If you are asked, "Have you seen the Twin Lamps?" You say, "They light the way to freedom."|SCVR:02sX2FreedSlavesCounter|INTV|SCVR:13sX3slaveStatus|INTV:|BNAM:Journal HH_TwinLamps1 5
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|NAME:I thought you were a member. You have freed many slaves, so I will tell you this. If you are asked, "Have you seen the Twin Lamps?", you say, "They light the way to freedom."|SCVR:02sX3FreedSlavesCounter|INTV: |SCVR:13sX3slaveStatus|INTV:|BNAM:Journal HH_TwinLamps1 5    ; Nevena - Changed minimum freed to 10
+
+[MOD-INF]: ID=3039924276601419113(Topic:ilmeni dren)
+  morrowind.esm----------------------------------------->|DATA|ANAM:Vivec|NAME:I've heard the name. Try the St. Delyn canton.|SCVR:0CsX0NoLore|INTV:
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|ANAM:Vivec|NAME:I've heard the name. Try the St. Delyn canton.|SCVR:0CsX0nolore|INTV:
+
+[DUP-INF]: ID=3045225979592911347(Topic:gentleman jim stacey)
+  |DATA|ONAM:stacey|NAME:That's me. What is it?
+
+[MOD-INF]: ID=3072424924240316428(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Abebaal Egg Mine|NAME:No, there is no need. We are already free. Speak with our leader, Eleedal-Lei and join us in this slave rebellion.
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Abebaal Egg Mine|NAME:No, there is no need. We are already free. Speak with our leader, Eleedal-Lei, and join us in this slave rebellion.
+
+[MOD-INF]: ID=3103267973128916632(Topic:twin lamps)
+  morrowind.esm----------------------------------------->|DATA|ONAM:galyn arvel|NAME:So, you know the Twin Lamps. We could use your aid in our struggle against slavery.|SCVR:34JX3HH_TwinLamps1|INTV
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|ONAM:galyn arvel|NAME:So, you know of the Twin Lamps? We could use your aid in our struggle against slavery.|SCVR:34JX3HH_TwinLamps1|INTV
+
+[MOD-INF]: ID=3121928961355623522(Topic:abolitionists)
+  morrowind.esm----------------------------------------->|DATA|FNAM:Imperial Legion|NAME:Abolitionists are those dedicated to the abolition of slavery in Morrowind.|SCVR:0CsX0NoLore|INTV:|BNAM:;Imperial Legion;
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|FNAM:Imperial Legion|NAME:Abolitionists are those dedicated to the abolition of slavery in Morrowind.|SCVR:0CsX0nolore|INTV:|BNAM:;Imperial Legion;
+
+[MOD-INF]: ID=3214717717858924727(Topic:law in morrowind)
+  morrowind.esm----------------------------------------->|DATA|ONAM:chargen captain|NAME:Theft, Trespass, Assault, Foul Murder, and Contempt are serious crimes; criminals pay compensation or serve sentences of punitive labor. If you commit a crime, turn yourself in to any guard and pay your fine. If you don't have the gold, you'll have to do punitive labor. Take my word for it. You don't want to do punitive labor.
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|ONAM:chargen captain|NAME:Theft, Trespass, Assault, Foul Murder, and Contempt are serious crimes; criminals pay compensation or serve sentences of punitive labor. If you commit a crime, turn yourself in to any guard and pay your fine. If you don't have the gold, you'll have to do punitive labor. Take my word for it. You don't want to do punitive labor. Oh, and remember that in Morrowind slavery is legal, and theft of or damage to slaves will get you into trouble.
+
+[MOD-INF]: ID=3253423749290424070(Topic:morrowind)
+  morrowind.esm----------------------------------------->|DATA|ONAM:chargen captain|NAME:Yes. You're in Morrowind. I don't know why you're here. Or why you were released from prison and shipped here. But your authorization comes directly from Emperor Uriel Septim VII himself. And I don't need to know any more than that. When you leave this office, you are a free man. But before you go, I have instructions on your duties. Instructions from the Emperor. So pay careful attention.
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|ONAM:chargen captain|NAME:Yes. You're in Morrowind. I don't know why you're here. Or why you were released from prison and shipped here. But your authorization comes directly from Emperor Uriel Septim VII himself. And I don't need to know any more than that. When you leave this office, you are a free man. But before you go, I have instructions on your duties. Instructions from the Emperor. So pay careful attention.|BNAM:AddTopic "law in Morrowind"
+
+[MOD-INF]: ID=3778278632912118248(Topic:abolitionists)
+  morrowind.esm----------------------------------------->|DATA|FNAM:Imperial Legion|NAME:I've heard of a secret organization called the Twin Lamps. It helps runaway slaves escape. It's against the law to aid runaway slaves. But I think slavery is wrong, and I can understand why these Abolitionists would be willing to break the law.|SCVR:0CsX0NoLore|INTV:
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|FNAM:Imperial Legion|NAME:I've heard of a secret organization called the Twin Lamps. It helps runaway slaves escape. It's against the law to aid runaway slaves. But I think slavery is wrong, and I can understand why these Abolitionists would be willing to break the law.|SCVR:0CsX0nolore|INTV:
+
+[MOD-INF]: ID=5625301911022612026(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shushishislaves|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shushishislaves|INTV:|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[DUP-INF]: ID=5796182422325920567(Topic:abolitionists)
+  |DATA|ONAM:onlyhestandsthere|NAME:They are... activists. I prefer to make the case against slavery by example. If the Dunmer know me as kind and helpful, perhaps they will come to see all Argonians the same way.
+
+[DUP-INF]: ID=9174123773273419598(Topic:sterdecan's farm)
+  |DATA|ONAM:hides_his_foot|NAME:Yes, thank you for bringing me to Sterdecan's Farm.|SCVR:34JX3HH_TwinLamps3|INTV:F
+
+[DUP-INF]: ID=9933310511522421752(Topic:twin lamps)
+  |DATA|ONAM:hides_his_foot|NAME:I thank you, %PCRace. You have truly led me to freedom.|SCVR:34JX3HH_TwinLamps3|INTV:F
+
+[DUP-INF]: ID=13016238062411718801(Topic:mabrigash)
+  |DATA|ONAM:assaba-bentus|NAME:I am here as I promised. Do not worry about me. No witch-woman can hold a real warrior for long.|SCVR:34JX3IL_RescueHermit|INTV
+
+[MOD-INF]: ID=19111110603127916876(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|ONAM:hides_his_foot|NAME:Yes, I am free now.|SCVR:34JX3HH_TwinLamps3|INTV:F
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|ONAM:hides_his_foot|NAME:Yes, I am free now.|SCVR:04JX3HH_TwinLamps3|INTV:F
+
+[MOD-INF]: ID=19690135432027614893(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Sadrith Mora|NAME:No. There is no hope for us.
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Sadrith Mora|NAME:You have the key. Will you let me go free?|SCVR:05IX2_nevTLSH_key_Brallion's|INTV:|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=20269221682313710349(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Dren Plantation|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Dren Plantation|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_drenplantationslaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=25959241042036428043(Topic:jobasha)
+  |DATA|ONAM:huleeya|NAME:Jobasha is a friend of mine, a Khajiit. He owns Jobasha's Rare Books, which has a wide selection of rare and obscure books. He has very passionate moral and political views, which he shares freely. As a result, he and his bookshop arouse strong feelings in some quarters.|SCVR:34JX3A1_V_VivecInformants|INTV
+
+[MOD-INF]: ID=28110259223086024144(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|ONAM:llaals ores|NAME:No, there is no escape. You'll have to talk to the slavemaster.|SCVR:05IX3key_telaruhnslaves_01|INTV
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|ONAM:llaals ores|ANAM:Abaelun Mine|NAME:No, there is no escape. You'll have to talk to the slavemaster.|SCVR:05IX3key_telaruhnslaves_01|INTV|BNAM:; Nevena - Added the Cell requirement to nullify this, I want all slaves to be free-able for this plugin.
+
+[MOD-INF]: ID=28146221662688417841(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Sha-Adnius|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shaadniusslaves_01|INTV:|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Sha-Adnius|NAME:You have the key. Will you let me go free?|SCVR:05IX2key_shaadniusslaves_01|INTV:|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2 "No, you're coming with me." 3
+
+[MOD-INF]: ID=28500140682499026062(Topic:background)
+  morrowind.esm----------------------------------------->|DATA|RNAM:Khajiit|NAME:%name is a %class, and speaks as %rank of the %faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|RNAM:Khajiit|NAME:%name is a %class, and speaks as %rank of the %faction.|SCVR:0CsX0nolore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+
+[MOD-INF]: ID=30650113062954514459(Topic:go free)
+  morrowind.esm----------------------------------------->|DATA|CNAM:Slave|ANAM:Vivec, Telvanni Canalworks|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_vivectelvannislaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+  GMST Nevena's Twin Lamps and Slave Hunters_Edited.esp->|DATA|CNAM:Slave|ANAM:Vivec, Telvanni Canalworks|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_vivectelvannislaves_01|INTV|BNAM:Choice "Unlock the slave's bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=31183117942325532704(Topic:go free)
+  |DATA|RNAM:Khajiit|CNAM:Slave|NAME:Go free? You let %Name go free?|SCVR:03sX0slaveStatus|INTV|BNAM:Choice "Set your slave free." 1 "Nevermind." 2
+
+[DUP-INF]: ID=32211263923028324412(Topic:dren plantation)
+  |DATA|ONAM:stacey|NAME:It's not hard to find, but it doesn't have to be. It's very well guarded, and they don't take kindly to trespassers. I'll mark the location on your map.|BNAM:ShowMap "Dren Plantation"

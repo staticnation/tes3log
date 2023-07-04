@@ -1,0 +1,83 @@
+JMK - Ayleid Remnants_.esp: AUTOSPL DUP-INF DUP-REC JUNKCEL MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	jmkayreabsorbhelf              Rendurth Paravor's Absorbing
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JMKAyReAmbSound1)
+	SCPT(JMKAyReAyleidConts)
+	SCPT(JMKAyReBandrorSeth)
+	SCPT(JMKAyReBlackStone)
+	SCPT(JMKAyReBoobyTrapScrpt)
+	SCPT(JMKAyReBoomRocks)
+	SCPT(JMKAyReBossSmugDude)
+	SCPT(JMKAyReCageSampler)
+	SCPT(JMKAyReFinishSoundSCPT)
+	SCPT(JMKAyReLichGit)
+	SCPT(JMKAyReMTGWCDoorSCPT)
+	SCPT(JMKAyReNecromBossy)
+	SCPT(JMKAyReOrmarrHimself)
+	SCPT(JMKAyReRockDetectScpt)
+	SCPT(JMKAyReSarcoContain)
+	SCPT(JMKAyReSocietyCupSCPT)
+	SCPT(JMKAyReSocietyGlassP)
+	SCPT(JMKAyReSocietyJournal)
+	SCPT(JMKAyReSocietySpearSCPT)
+	SCPT(JMKAyReSpikeTrapScpt)
+	SCPT(JMKAyReSurpriseSkel)
+	SCPT(JMKAyReSwingers)
+	SCPT(JMKAyReThatCupSpt)
+	SCPT(JMKAyReVSCLifterBut1)
+	SCPT(JMKAyReVSCLifterBut2)
+	SCPT(JMKAyReVSCLifterBut3)
+	SCPT(JMKAyReVSCLifterBut4)
+	SCPT(JMKAyReVSCLifterBut5)
+	SCPT(JMKAyReVSCLifterBut6)
+	SCPT(JMKAyReVSCLifterBut6a)
+	SCPT(JMKAyReVarlaStnCover)
+	SCPT(JMKAyReWelkyndMethod)
+	SCPT(JMKAyReWellScript)
+	SCPT(JMKAyReWellScript2)
+    [JUNKCEL] Junk Cells:                        Flags
+	Hirstaang Forest Region (-26, 18)        0x02
+	Isinfier Plains Region (-28, 22)         0x02
+	Wilderness (-28, 24)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LAND    (-24, 16)
+	bloodmoon.esm       LAND    (-24, 17)
+	bloodmoon.esm       LAND    (-25, 18)
+	bloodmoon.esm       LAND    (-26, 18)
+	bloodmoon.esm       LAND    (-26, 19)
+	bloodmoon.esm       LAND    (-26, 20)
+	bloodmoon.esm       LAND    (-27, 19)
+	bloodmoon.esm       LAND    (-28, 22)
+	bloodmoon.esm       LAND    (-28, 23)
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	morrowind.esm       LTEX    ac_dirt_01
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=16233134641241211382(Greeting:greeting 5)
+  |DATA|ONAM:adusamsi assurnarairan|NAME:Yes! That is my ring! Please! It grants me Divine Intervention! Now I can escape! Give it to me NOW! I don't care about anything else... just let me out of here!|SCVR:04JX3IC27_Oracle_|AINT: |SCVR:15IX3Adusamsi's_Ring|INTV|SCVR:25IX3claymore_iceblade_unique|INTV|SCVR:34JX3IC27_Oracle|INTV|BNAM:player->removeitem "Adusamsi's_Ring" 1  Journal IC27_Oracle_A 45  Goodbye  Disable
+
+[DUP-INF]: ID=32310288862934412987(Greeting:greeting 5)
+  |DATA|ONAM:wulf|NAME:Right. I'm Wulf, like I said. I was wondering what you were doing here in Ghostgate.

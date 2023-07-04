@@ -1,0 +1,30 @@
+WealthWithinMeasure_v1.25.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(aWM_Gold_Account)
+	SCPT(aWM_Gold_Count)
+	SCPT(aWM_Gold_CountFin)
+	SCPT(aWM_Gold_CountFin2)
+	SCPT(aWM_Gold_Deposit)
+	SCPT(aWM_Gold_Open)
+	SCPT(aWM_Gold_Withdraw)
+	SCPT(aWM_Gold_WithdrawAll)
+	SCPT(aWM_Gold_WithdrawFin)
+	SCPT(aWM_Invest_Check)
+	SCPT(aWM_Invest_Count)
+	SCPT(aWM_Invest_Redeem)
+	SCPT(aWM_Invest_Start)
+	SCPT(aWM_Loan_Account)
+	SCPT(aWM_Loan_Obtain)
+	SCPT(aWM_Loan_Pay)
+	SCPT(aWM_Loan_Repair)
+	SCPT(aWM_TN_Exchange)
+	SCPT(aWM_TN_Get)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

@@ -1,0 +1,15 @@
+FG_DebtOrc_RingReturn.ESP: DUP-REC FOGBUG MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	Ranes Ienith Cell
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FG_RingReturnerRanes)
+	SCPT(FG_Ring_Quest_Canceler)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    juicedaw feather ring
+	morrowind.esm       FACT    camonna tong
+	tribunal.esm        DIAL    fg_debtorc
+
+[MOD-INF]: ID=24130260953192126206(Topic:juicedaw feather ring)
+  morrowind.esm------------->|DATA|ONAM:lorbumol gro-aglakh|NAME:Here's 100 septims, %PCRank. Easy money. You want more orders, I got them.|SCVR:01500|INTV|BNAM:Journal FG_DebtOrc 100  Player->AddItem Gold_001 100  Player->RemoveItem "juicedaw ring" 1  AddItem "juicedaw ring" 1  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  FG_DebtOrc_RingReturn.ESP->|DATA|ONAM:lorbumol gro-aglakh|NAME:Here's 100 septims, %PCRank. Easy money. You want more orders, I got them.|SCVR:01500|INTV|BNAM:Journal FG_DebtOrc 100  StartScript "FG_RingReturnerRanes"  Player->AddItem Gold_001 100  Player->RemoveItem "juicedaw ring" 1  AddItem "juicedaw ring" 1  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10

@@ -1,0 +1,38 @@
+JMK - Lighthouses Of Vvardenfell.esp: DUP-INF DUP-REC JUNKCEL MISSVER OVR-REC
+    [JUNKCEL] Junk Cells:                        Flags
+	West Gash Region (-10, 18)               0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (-2, 24)
+	morrowind.esm       LAND    (1, -14)
+	morrowind.esm       LAND    (14, 15)
+	morrowind.esm       LAND    (15, -14)
+	morrowind.esm       LAND    (20, 5)
+	morrowind.esm       LAND    (21, -4)
+	morrowind.esm       LAND    (6, 24)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       PGRD    ascadian isles region
+	morrowind.esm       PGRD    west gash region
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+
+[DUP-INF]: ID=514372802773428874(Greeting:greeting 5)
+  |DATA|ONAM:ajira|NAME:What brings you to Ajira's shop? Do you want to try the local brews? Need something to help in a fight? Some Telvanni bug musk to bring you a mate? Or a way to get to those high places where your hands cannot reach?|SCVR:01390|INTV:
+
+[DUP-INF]: ID=26948219402447124622(Greeting:greeting 5)
+  |DATA|ONAM:arethan mandas|NAME:Poor daughter. Dead now, all dead. Oblivion deadens us each and every one. One mistake stakes like cake crusts stalks you forever ever more. Blood? Yes, your blood. Daughter's blood. Poor Delyna. All over you. On your hands. Your pretty hands. Sheogorath whispers! Yes, I see it now! The sin on your face! Filthy! Worthless! %PCRace!|SCVR:06DX2delyna mandas|INTV:|BNAM:SetFight 100  ModDisposition -90  StartCombat Player  Goodbye

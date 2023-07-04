@@ -1,0 +1,108 @@
+LGNPC_Suran.esp: DUP-REC EXP-DEP MENUMOD OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(lgnpc_sur_DeselesHoED_Script)   clearforcerun
+	SCPT(lgnpc_sur_DeselesHoED_Script)   forcerun
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(lgnpc_sur_ArvelManorDoorScript)
+	SCPT(lgnpc_sur_BulaGraMukTimer)
+	SCPT(lgnpc_sur_IrarMoralusScript)
+	SCPT(lgnpc_sur_KneelingStoolScript)
+	SCPT(lgnpc_sur_MinabiBanditLair_Script)
+	SCPT(lgnpc_sur_NoLoreNPC)
+	SCPT(lgnpc_sur_TalareArvelScript)
+	SCPT(lgnpc_sur_TempleDonationTracker)
+	SCPT(lgnpc_sur_TempleShrineTimer)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    abolitionists
+	morrowind.esm       DIAL    ancestors
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    ascadian isles
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    avon oran
+	morrowind.esm       DIAL    bal ur region
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    beluelle's silver bowl
+	morrowind.esm       DIAL    blessings
+	morrowind.esm       DIAL    breton
+	morrowind.esm       DIAL    choosing a great house
+	morrowind.esm       DIAL    crassius curio
+	morrowind.esm       DIAL    current events
+	morrowind.esm       DIAL    cyrodiilic brandy
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    daric bielle
+	morrowind.esm       DIAL    destination
+	morrowind.esm       DIAL    destruction
+	morrowind.esm       DIAL    destruction spells
+	morrowind.esm       DIAL    dranas sarathram
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    flin
+	morrowind.esm       DIAL    food
+	morrowind.esm       DIAL    get cured
+	morrowind.esm       DIAL    great houses
+	morrowind.esm       DIAL    greef
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    haj-ei
+	morrowind.esm       DIAL    hides his eyes
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    imperial
+	morrowind.esm       DIAL    imperial corruption
+	morrowind.esm       DIAL    imperial legion
+	morrowind.esm       DIAL    inanius egg mine
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    khartag point
+	morrowind.esm       DIAL    mages guild
+	morrowind.esm       DIAL    manat varnan-adda
+	morrowind.esm       DIAL    mazte
+	morrowind.esm       DIAL    molag amur
+	morrowind.esm       DIAL    molag mar
+	morrowind.esm       DIAL    more blight storms
+	morrowind.esm       DIAL    necromancy
+	morrowind.esm       DIAL    need wives
+	morrowind.esm       DIAL    nevena ules
+	morrowind.esm       DIAL    nord
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    orvas dren
+	morrowind.esm       DIAL    pelagiad
+	morrowind.esm       DIAL    recall the legions
+	morrowind.esm       DIAL    red mountain
+	morrowind.esm       DIAL    redguard
+	morrowind.esm       DIAL    rovone arvel
+	morrowind.esm       DIAL    settlements in morrowind
+	morrowind.esm       DIAL    seyda neen
+	morrowind.esm       DIAL    shein
+	morrowind.esm       DIAL    silt strider
+	morrowind.esm       DIAL    sixth house
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    soul sickness
+	morrowind.esm       DIAL    sujamma
+	morrowind.esm       DIAL    suran
+	morrowind.esm       DIAL    telvanni bug musk
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    thieves guild
+	morrowind.esm       DIAL    trebonius
+	morrowind.esm       DIAL    tribunal temple
+	morrowind.esm       DIAL    troubles for house hlaalu
+	morrowind.esm       DIAL    twin lamps
+	morrowind.esm       DIAL    vampires
+	morrowind.esm       DIAL    vampirism cure
+	morrowind.esm       DIAL    vivec
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place

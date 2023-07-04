@@ -1,0 +1,102 @@
+Saints & Sinners.ESP: AUTOSPL DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	jcp_bloodcurse glove           Bloodcurse Glove
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(JCP_ThiefsThief_01)
+	SCPT(JCP_Witchhunter_01)
+    [JUNKCEL] Junk Cells:                        Flags
+	Azura's Coast Region (15, -8)            0x02
+	Azura's Coast Region (16, -7)            0x02
+	Molag Mar Region (10, -6)                0x02
+	Molag Mar Region (11, -6)                0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    jobs
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       STAT    furn_crate_lid_01
+	morrowind.esm       STAT    flora_tree_ai_05
+	tribunal.esm        LTEX    rock_coastal
+	tribunal.esm        STAT    furn_crate_open_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       DIAL    gurak gro-bagrat
+	morrowind.esm       DIAL    khuul
+	morrowind.esm       DIAL    master aryon
+	morrowind.esm       DIAL    molag mar
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    tel vos
+	morrowind.esm       DIAL    vos
+	morrowind.esm       LAND    (5, -10)
+	morrowind.esm       LAND    (5, -9)
+	morrowind.esm       NPC_    bolrin
+	morrowind.esm       NPC_    canctunian ponius
+	morrowind.esm       NPC_    gurak gro-bagrat
+	morrowind.esm       NPC_    llaynasa othran
+	morrowind.esm       NPC_    melvure rindu
+	morrowind.esm       NPC_    nilioniel
+	morrowind.esm       NPC_    selkirnemus
+	morrowind.esm       NPC_    vasesius viciulus
+	morrowind.esm       NPC_    zanmulk sammalamus
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+
+[DUP-INF]: ID=66539999174912632(Topic:molag mar)
+  |DATA|ONAM:paur maston|NAME:Vanjirra should be around Molag Mar somewhere.|SCVR:04JX3MV_TraderMissed|INTV:_
+
+[MOD-INF]: ID=129158280121209884(Topic:gurak gro-bagrat)
+  morrowind.esm-------->|DATA|ONAM:Synnolian Tunifus|NAME:Gurak gro-Bagrat, netch rancher, horticulturist, and smuggler, lives just north of the bridge from the Vivec Foreign Quarter to the mainland. Everyone knows he smuggles skooma, but he's got friends in the Legion, and Camonna Tong protection, so no one will touch him. Perhaps it is wrong, but I steal willow anther from the willow flowers he grows outside his manor. Be careful. Gurak gro-Bagrat is a dangerous criminal. Under NO circumstances enter his home. Do NOT try to speak to him.
+  Saints & Sinners.ESP->|DATA|ONAM:Synnolian Tunifus|NAME:[DELETE]
+
+[MOD-INF]: ID=260773163107962111(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Witchhunter|NAME:If you're looking for someone to talk to about the witchhunter's trade in Morrowind, you should talk to Melvure Rindu at the Hall of Justice in Vivec.|SCVR:07XX0melvure rindu|INTV|SCVR:1CsX0nolore|INTV:|SCVR:22sX4Random100|INTV:Z
+  Saints & Sinners.ESP->|DATA|CNAM:Witchhunter|NAME:If you're looking for someone to talk to about the witchhunter's trade in Morrowind, you should talk to Melvure Rindu at the Hall of Justice in Vivec.|SCVR:07XX0melvure rindu|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:22sX4Random100|INTV:Z|BNAM:AddTopic "Melvure Rindu"
+
+[MOD-INF]: ID=291392498268423164(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Smith|NAME:If you want to talk to a smith about his trade, talk to Garothmuk gro-Muzgub. He is not a master smith, but he's well-spoken, friendly, and knows a lot about smithing in Morrowind.|SCVR:07XX0garothmuk gro-muzgub|INTV|SCVR:1CsX0nolore|INTV:|SCVR:22sX4Random100|INTV:Z
+  Saints & Sinners.ESP->|DATA|CNAM:Smith|NAME:If you want to talk to a smith about his trade, talk to Garothmuk gro-Muzgub. He is not a master smith, but he's well-spoken, friendly, and knows a lot about smithing in Morrowind.|SCVR:07XX0garothmuk gro-muzgub|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:22sX4Random100|INTV:Z|BNAM:AddTopic "Garothmuk gro-Muzgub"
+
+[DUP-INF]: ID=305725429198077162(Topic:khuul)
+  |DATA|CNAM:Scout|ANAM:Ald Velothi|NAME:Khuul is a tiny fishing village on the northern coast of the West Gash.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap Khuul  ;scout; savant;
+
+[DUP-INF]: ID=787419786402628286(Topic:background)
+  |DATA|ONAM:bugdul gro-kharbush|NAME:I'm the building foreman for Indarys Manor.
+
+[DUP-INF]: ID=1196140512712519990(Topic:jobs)
+  |DATA|FNAM:Thieves Guild|NAME:I can't give you jobs if you're not in the Guild.|SCVR:01460|INTV:
+
+[MOD-INF]: ID=1582215293888325846(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Thief Service|NAME:Fenas Madach is the thief's thief. Retired, of course. Or so he says. He has a business up in Gnisis, Madach's Tradehouse. You want to talk shop with a thief, go talk to Fenas Madach.|SCVR:07XX0fenas madach|INTV|SCVR:1CsX0nolore|INTV:|SCVR:22sX4Random100|INTV:Z
+  Saints & Sinners.ESP->|DATA|CNAM:Thief Service|NAME:Fenas Madach is the thief's thief. Retired, of course. Or so he says. He has a business up in Gnisis, Madach's Tradehouse. You want to talk shop with a thief, go talk to Fenas Madach.|SCVR:07XX0fenas madach|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:22sX4Random100|INTV:Z|BNAM:AddTopic "Fenas Madach"
+
+[DUP-INF]: ID=1905968842607317408(Topic:background)
+  |DATA|ONAM:sadas mavandes|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=2946661372007223879(Topic:master aryon)
+  |DATA|ANAM:Tel Vos|NAME|INTV:|SCVR:1BLX0Tel Vos, Aryon's Chambers|INTV:|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2985123463212131778(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Thief|NAME:Fenas Madach is the thief's thief. Retired, of course. Or so he says. He has a business up in Gnisis, Madach's Tradehouse. You want to talk shop with a thief, go talk to Fenas Madach.|SCVR:07XX0fenas madach|INTV|SCVR:1CsX0nolore|INTV:|SCVR:22sX4Random100|INTV:Z
+  Saints & Sinners.ESP->|DATA|CNAM:Thief|NAME:Fenas Madach is the thief's thief. Retired, of course. Or so he says. He has a business up in Gnisis, Madach's Tradehouse. You want to talk shop with a thief, go talk to Fenas Madach.|SCVR:07XX0fenas madach|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:22sX4Random100|INTV:Z|BNAM:AddTopic "Fenas Madach"
+
+[DUP-INF]: ID=3073727345798427030(Topic:background)
+  |DATA|ONAM:brara morvayn|NAME:My husband was a Councilor of House Redoran. He died defending our manor from blighted monsters. I now hold his seat on the Council.
+
+[MOD-INF]: ID=6681148961746627443(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Merchant|NAME:If you need to know something about the merchant's trade, talk to Bolrin in Ebonheart at the East Empire Company Hall. He's been a merchant with the East Empire Company here for years, and he knows his stuff.|SCVR:07XX0Bolrin|INTV|SCVR:1CsX0nolore|INTV:|SCVR:22sX4Random100|INTV:Z
+  Saints & Sinners.ESP->|DATA|CNAM:Merchant|NAME:If you need to know something about the merchant's trade, talk to Bolrin in Ebonheart at the East Empire Company Hall. He's been a merchant with the East Empire Company here for years, and he knows his stuff.|SCVR:07XX0Bolrin|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:22sX4Random100|INTV:Z|BNAM:AddTopic "Bolrin"
+
+[DUP-INF]: ID=10924273023043113826(Topic:my trade)
+  |DATA|ONAM:erich the unworthy|NAME:I'm a lover and a killer. What more is there in life?

@@ -1,0 +1,13 @@
+ImmersiveAlcohol_v1.31.ESP: DUP-REC GETSND MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (32) != Actual count (31)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(alcohol_detection_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(alcohol_detection_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    hello
+
+[MOD-INF]: ID=1709302711210241(Voice:hello)
+  bloodmoon.esm-------------->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you
+  ImmersiveAlcohol_v1.31.ESP->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you

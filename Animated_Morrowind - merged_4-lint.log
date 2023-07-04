@@ -1,0 +1,130 @@
+Animated_Morrowind - merged_4.esp: DUP-INF DUP-REC FOGBUG GETSND MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1106203 (plugin)    1567893 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Molag Mar, Plaza
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(AM_Bard1_script)
+	SCPT(AM_BardBMThirsk1_script)
+	SCPT(AM_BardBMThirsk2_script)
+	SCPT(AM_Drummer_script)
+	SCPT(AM_FishermanDay_script)
+	SCPT(AM_FishermanMorning_script)
+	SCPT(AM_Fisherman_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AM_BanditScript)
+	SCPT(AM_Bard1_EightPlates_script)
+	SCPT(AM_Bard1_script)
+	SCPT(AM_Bard2_script)
+	SCPT(AM_BardBMThirsk1_script)
+	SCPT(AM_BardBMThirsk2_script)
+	SCPT(AM_DreamerA_Script)
+	SCPT(AM_LM_Bard1_lute4_script)
+	SCPT(AM_LM_Bard_lute1_script)
+	SCPT(AM_MinerEbonyScript)
+	SCPT(AM_MinerEggScript)
+	SCPT(AM_StopMusic2_Script)
+	SCPT(AM_StopMusic_Script)
+	SCPT(BILL_TT_Lette)
+	SCPT(Dunmer_Chat)
+	SCPT(Dunmer_Music)
+	SCPT(Pub_Balmora_Eight)
+	SCPT(ab01amBeggarBowl10Script)
+	SCPT(ab01amBeggarBowl11Script)
+	SCPT(ab01amBeggarBowl12Script)
+	SCPT(ab01amBeggarBowl13Script)
+	SCPT(ab01amBeggarBowl14Script)
+	SCPT(ab01amBeggarBowl17Script)
+	SCPT(ab01amBeggarBowl1Script)
+	SCPT(ab01amBeggarBowl21Script)
+	SCPT(ab01amBeggarBowl22Script)
+	SCPT(ab01amBeggarBowl23Script)
+	SCPT(ab01amBeggarBowl24Script)
+	SCPT(ab01amBeggarBowl2Script)
+	SCPT(ab01amBeggarBowl5Script)
+	SCPT(ab01amBeggarBowl7Script)
+	SCPT(ab01amBeggarBowl8Script)
+	SCPT(ab01amBeggarBowl9Script)
+	SCPT(ab01amDrum10Script)
+	SCPT(ab01amDrum2Script)
+	SCPT(ab01amDrum8Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    alms for the poor
+	morrowind.esm       DIAL    founder's helm
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    join us
+	morrowind.esm       DIAL    outlander
+	morrowind.esm       DIAL    slander
+	morrowind.esm       LIGH    light_de_lantern_10_128
+	morrowind.esm       NPC_    alvis teri
+	morrowind.esm       NPC_    dulnea ralaal
+	morrowind.esm       NPC_    lette
+	morrowind.esm       NPC_    meril hlaano
+	tamriel_data.esm    DIAL    dunmer
+	tamriel_data.esm    DIAL    greeting 3
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        NPC_    granny varis
+
+[MOD-INF]: ID=994280566571240(Topic:slander)
+  morrowind.esm--------------------->|DATA|ONAM:meril hlaano|NAME:Make me.
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:meril hlaano|NAME:Do you even know who you're talking to?
+
+[MOD-INF]: ID=171343168140283456(Greeting:greeting 7)
+  morrowind.esm--------------------->|DATA|ONAM:dulnea ralaal|NAME:Good day. I'm Dulnea Ralaal, publican of the Eight Plates here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Dulnea Ralaal
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:dulnea ralaal|NAME:Greetings traveller, what brings you to the Eight Plates? If you need a place for the night, I can set you up with beds, and if you're wanting a drink, I'm sure I can fix you up something strong.|BNAM:;Dulnea Ralaal
+
+[MOD-INF]: ID=343022925183914544(Topic:slander)
+  morrowind.esm--------------------->|DATA|ONAM:meril hlaano|NAME:Okay, okay. I, Meril Hlaano, withdraw the statements I made against House Redoran. There. I said it. Happy?|BNAM:Journal HR_HlaanoSlanders 50
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:meril hlaano|NAME:(Meril chuckles and takes a long drag on his cigar.)  Alright, %PCName. I, Meril Hlaano, withdraw the statements I made against House Redoran. Now get out of my sight before I have you killed.|BNAM:Journal HR_HlaanoSlanders 50
+
+[MOD-INF]: ID=1379208962960222606(Topic:founder's helm)
+  morrowind.esm--------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:Fine. Take the stupid helm. Just like the Redorans to send a girl to do a man's job.|SCVR:01440|INTV:|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:You want a.... helm, prretty girl? Alvis has a sshpecial treat.... yes, very sshecret, just between us.|SCVR:01440|INTV:|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50
+
+[MOD-INF]: ID=1398821163861526653(Topic:slander)
+  morrowind.esm--------------------->|DATA|ONAM:meril hlaano|NAME:I said I was sorry already. Just leave me alone.|SCVR:34JX3HR_HlaanoSlanders|INTV:2
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:meril hlaano|NAME:Don't push your luck, %PCName. If all House Redoran is able to do these days is rap me on the knuckles for slander, that's their problem. And if you want to serve under a family as impotent as that, then that's your problem. Now get out of my sight.|SCVR:34JX3HR_HlaanoSlanders|INTV:2
+
+[DUP-INF]: ID=1805121922893719179(Topic:business)
+  |DATA|ONAM:nileno dorvayn|NAME:If you want to talk business, you've come to the right place. Do you want to join House Hlaalu?
+
+[MOD-INF]: ID=2383529902280815725(Topic:dunmer)
+  morrowind.esm--------------------->|DATA|RNAM:Dark Elf|NAME:We are the dark-skinned, red-eyed Elven people of Morrowind. The Westerners call us 'Dark Elves' but we prefer to call ourselves 'Dunmer'.|SCVR:0CsX0NoLore|INTV:
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:matthias|RNAM:Dark Elf|NAME:We are the dark-skinned, red-eyed Elven people of Morrowind. The Westerners call us 'Dark Elves' but we prefer to call ourselves 'Dunmer'.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=3748250542379720869(Topic:business)
+  |DATA|ONAM:Dovor Oren|NAME:It's no concern of yours, %PCRace.|SCVR:04JX3MS_Warlords|INTV
+
+[MOD-INF]: ID=16951265192546817007(Topic:founder's helm)
+  morrowind.esm--------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:I don't think so. I like the way it fits.
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:My head......(Alvis groans and lurches violently to one side)
+
+[MOD-INF]: ID=21216156192437416722(Topic:founder's helm)
+  morrowind.esm--------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:I stole it fair and square.
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:I.... sshtole it... fair and square. Didn't I?
+
+[MOD-INF]: ID=21432111501574114700(Topic:beds)
+  morrowind.esm--------------------->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's all yours for the day. Down the stairs to the right.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:dulnea ralaal|CNAM:Publican|NAME:It's just down the stairs, on your right. Oh, and your welcome to have guests to stay with you overnight, that's none of my buisness...|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV: |BNAM:set rent to 1 ;this does everything in the publican's script  additem, gold_001, 10  player->removeitem, gold_001, 10  moddisposition 2
+
+[MOD-INF]: ID=22310236883224415224(Topic:founder's helm)
+  morrowind.esm--------------------->|DATA|ONAM:alvis teri|NAME:I gave you the helm so just shut up about it. Go away.|SCVR:34JX3HR_FoundersHelm|INTV:2
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:alvis teri|NAME:(Alvis makes a gargling sound. You suspect he is retching inside his helmet.)|SCVR:34JX3HR_FoundersHelm|INTV:2
+
+[MOD-INF]: ID=24947188951810428436(Topic:slander)
+  morrowind.esm--------------------->|DATA|ONAM:meril hlaano|NAME:Don't make me mad, %PCName, or I'll say what I think of you, too.
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:meril hlaano|NAME:No, no you're absolutely right. I was wrong to call Fathasa Llethri a bloated Alit. I should have called her a dirty whore instead. What do you think of that, Redoran lapdog?
+
+[MOD-INF]: ID=27798215811479714359(Topic:founder's helm)
+  morrowind.esm--------------------->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:Fine. Take the stupid helm. But you're a momma's boy and so is your stupid Founder.|SCVR:01440|INTV|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50
+  Animated_Morrowind - merged_4.esp->|DATA|ONAM:alvis teri|DNAM:Redoran|NAME:Fine, fine! Just sshtop talking, my head.... my head hurts so bad.....|SCVR:01440|INTV|BNAM:"Alvis Teri"->RemoveItem Bonemold_Founders_Helm 1  Player->AddItem Bonemold_Founders_Helm 1  Journal HR_FoundersHelm 50

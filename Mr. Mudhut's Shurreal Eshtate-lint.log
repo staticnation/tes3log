@@ -1,0 +1,22 @@
+Mr. Mudhut's Shurreal Eshtate.ESP: DUP-INF DUP-REC MENUMOD MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CC_cr_amuletscript)
+	SCPT(CC_cr_crabscript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    talking mudcrab merchant
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=137637342899629067(Persuasion:service refusal)
+  |DATA|ONAM:vevrana aryon|NAME:I'm sorry. There must be some mistake. I'm not a gondolier or shipmaster.|SCVR:04JX4A2_4_Milo_hola_go|INTV
+
+[DUP-INF]: ID=513418333128849698(Topic:talking mudcrab merchant)
+  |DATA|ONAM:mudcrab_unique|NAME:Sure. Thash what I said? Did I stutter or shomethin? Talking. Mudcrab. Merchant. Read my lips. Ehr. Mouthparts? Read my mouthparts? Shomethin ain't right. But never mind. Jush one-a life's little myshteries. So. You gonna buy shomethin? Or sit here jawin' all day.
+
+[DUP-INF]: ID=787419786402628286(Topic:background)
+  |DATA|ONAM:bugdul gro-kharbush|NAME:I'm the building foreman for Indarys Manor.
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:

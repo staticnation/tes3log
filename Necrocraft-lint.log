@@ -1,0 +1,90 @@
+Necrocraft.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1570138 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(NC_BelvaynWeek_Script)
+	SCPT(NC_Companion_Script)
+	SCPT(NC_NoActivate)
+	SCPT(NC_UleniTravel_Script)
+	SCPT(NC_UlverItems_Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       CREA    worm lord
+	morrowind.esm       DIAL    bonelord
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    llevule andrano
+	morrowind.esm       DIAL    necromancers
+	morrowind.esm       DIAL    necromancy
+	morrowind.esm       NPC_    daris adram
+	morrowind.esm       NPC_    dedaenc
+	morrowind.esm       NPC_    delvam andarys
+	morrowind.esm       NPC_    ferise varo
+	morrowind.esm       NPC_    goris the maggot king
+	morrowind.esm       NPC_    heem_la
+	morrowind.esm       NPC_    koffutto gilgar
+	morrowind.esm       NPC_    malven romori
+	morrowind.esm       NPC_    milyn faram
+	morrowind.esm       NPC_    sorkvild the raven
+	morrowind.esm       NPC_    telura ulver
+	morrowind.esm       NPC_    tirer belvayn
+	morrowind.esm       NPC_    treras dres
+	tribunal.esm        CREA    lich_relvel
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    mg_killnecro1
+	tribunal.esm        DIAL    mg_sharn_necro
+
+[DUP-INF]: ID=6333276543878090(Topic:necromancy)
+  |DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:The Necromancer is Telura Ulver, a former Mages Guild member. She may be found in Shal.|SCVR:34JX3MG_WiseWoman|INTV:d|BNAM:Journal MG_KillNecro1 10
+
+[DUP-INF]: ID=10495382232919686(Topic:background)
+  |DATA|RNAM:Khajiit|FNAM:Thieves Guild|DNAM:Thieves Guild|NAME:%Name hears you. %Name is in the guild.|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=25411852328694634(Topic:necromancers)
+  morrowind.esm-->|DATA|ONAM:sharn gra-muzgob|NAME:Where did you get that? That's MY copy of Legions of the Dead. Oh, all right. I'm a necromancer. Look. I'll teach you a spell, but you'll have to keep your mouth shut about this. I can teach you the Summon Ancestral Ghost spell, or, if you prefer, I can teach you Summon Skeletal Minion.|SCVR:05IX3bk_sharnslegionsofthedead|INTV|BNAM:Choice "Teach me a ghost summoning." 1 "Teach me a skeleton summoning" 2
+  Necrocraft.esp->|DATA|ONAM:sharn gra-muzgob|NAME:Where did you get that? That's MY copy of Legions of the Dead. Oh, all right. I'm a necromancer. Look. I'll teach you a spell, but you'll have to keep your mouth shut about this. I can teach you how to raise a skeleton, or, if you prefer, I can teach you how to raise a bonewalker.|SCVR:05IX3bk_sharnslegionsofthedead|INTV|BNAM:Choice "Teach me how to raise a bonewalker." 1 "Teach me how to raise a skeleton." 2
+
+[DUP-INF]: ID=28175371615151421(Topic:background)
+  |DATA|ONAM:neminda|NAME:My father was a Legionnaire stationed in Ebonheart. When my mother died, I was sent to live with my Uncle, but we didn't get along. I made my way here, and lived with my father for three years until he was killed by the Telvanni. He and Athyn Sarethi were friends, so I was adopted in a sense. I don't miss Hammerfell. I'm working for a just cause. I serve with some of the best warriors in Tamriel. And the Ashlands can have a peculiar beauty...
+
+[MOD-INF]: ID=99912527298624518(Topic:necromancers)
+  morrowind.esm-->|DATA|ONAM:sharn gra-muzgob|NAME:As you wish. It's a simple matter, really. [Sharn takes you aside and teaches you how to summon an ancestral ghost.] Now. Remember. You said you'd keep quiet about this.|SCVR:01500|INTV|BNAM:Journal MG_Sharn_Necro 10  player->addspell "summon ancestral ghost"  Goodbye
+  Necrocraft.esp->|DATA|ONAM:sharn gra-muzgob|NAME:You should grasp the basics of corpse preparation from the self-titled books. Read all three of them. Then it will be a simple matter, really. Just put a lesser soul gem into the corpse while prepairing it. And use this spell. [Sharn takes you aside and teaches you how to raise a corpse.] Now. Remember. You said you'd keep quiet about this.|SCVR:01500|INTV|BNAM:Journal MG_Sharn_Necro 10  player->addspell "NC_ME_RaiseCorpse1"  Goodbye
+
+[DUP-INF]: ID=172971984689679019(Journal:mg_killnecro1)
+  |DATA|NAME:Skink asked me to kill the Necromancer Telura Ulver in Shal. To get there, I should go north from Hla Oad, cross a bridge and follow the coast to the west until I reach another bridge to an island. The entrance to Shal is in a muck pool on the north side of this island.
+
+[DUP-INF]: ID=173721191397023906(Topic:necromancy)
+  |DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:While killing is never pleasant, it is sometimes necessary. Telura Ulver is dead. You have proven yourself to the Guild, %PCName.|SCVR:34JX3MG_KillNecro1|INTV: |SCVR:56DX3telura ulver|INTV|BNAM:Journal MG_KillNecro1 100  ModPCFacRep 5 "Mages Guild"  ModDisposition 10
+
+[DUP-INF]: ID=175633062321862411(Topic:necromancy)
+  |DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:Kill the necromancer Telura Ulver and report back to me.|SCVR:34JX3MG_KillNecro1|INTV: 
+
+[MOD-INF]: ID=274481844234928614(Journal:mg_sharn_necro)
+  tribunal.esm--->|DATA|NAME:When I showed Sharn gra-Muzgob her own personal copy of Legions of the Dead, she admitted she is a necromancer, and agreed to teach me a summoning spell.|QSTF
+  Necrocraft.esp->|DATA|NAME:When I showed Sharn gra-Muzgob her own personal copy of Legions of the Dead, she admitted she is a necromancer, and agreed to teach me a necromancy spell.|QSTF
+
+[DUP-INF]: ID=869831062717723408(Topic:necromancy)
+  |DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:It is always a shame when any wizard turns to necromancy.|SCVR:34JX3MG_KillNecro1|INTV:d
+
+[MOD-INF]: ID=1771327817254703194(Topic:necromancers)
+  morrowind.esm-->|DATA|ONAM:sharn gra-muzgob|NAME:As you wish. It's a simple matter, really. [Sharn takes you aside and teaches you how to summon a skeletal minion.] Now. Remember. You said you'd keep quiet about this.|SCVR:01500|INTV|BNAM:Journal MG_Sharn_Necro 10  player->addspell "summon skeletal minion"  Goodbye
+  Necrocraft.esp->|DATA|ONAM:sharn gra-muzgob|NAME:You should grasp the basics of corpse preparation from the self-titled books. Read all three of them. Then it will be a simple matter, really. When you've got the right bonepile, just use this spell on it. [Sharn takes you aside and teaches you how to raise a skeleton.] Now. Remember. You said you'd keep quiet about this.|SCVR:01500|INTV|BNAM:Journal MG_Sharn_Necro 10  player->addspell "NC_ME_RaiseSkeletonCripple"  Goodbye
+
+[MOD-INF]: ID=9040321202179821530(Journal:mg_killnecro1)
+  tribunal.esm--->|DATA|NAME:Skink thanked me for killing the Necromancer Telura Ulver.|QSTF
+  Necrocraft.esp->|DATA|NAME:Skink thanked me for killing the Necromancer Telura Ulver.|QSTF
+
+[MOD-INF]: ID=17281197101776017263(Topic:necromancers)
+  morrowind.esm-->|DATA|ONAM:sharn gra-muzgob|NAME:I can teach you more necromancy spells. For a price, of course. And as long as you keep quite about this.|SCVR:04JX3MG_Sharn_Necro|INTV: 
+  Necrocraft.esp->|DATA|ONAM:sharn gra-muzgob|NAME:I can teach you more necromancy spells. For a price, of course. And as long as you keep quite about this. As for others necromacers... there is the guy from St. Delyn Plaza in Vivec. Name's Dedaenc. I occasionally buy supplies from him.|SCVR:04JX3MG_Sharn_Necro|INTV: 
+
+[MOD-INF]: ID=20545279312171813479(Topic:necromancy)
+  morrowind.esm-->|DATA|ONAM:telura ulver|NAME:Yes, I am a Necromancer. What of it? Are you foolish enough to think you can punish me?
+  Necrocraft.esp->|DATA|ONAM:telura ulver|NAME:Yes, I am a Necromancer. What of it? Are you foolish enough to think you can punish me?|SCVR:04JX3MG_KillNecro1|INTV: 
+
+[DUP-INF]: ID=32273286773052226443(Journal:mg_killnecro1)
+  |DATA|NAME:I have killed the Necromancer Telura Ulver. I should report this to Skink in Sadrith Mora.

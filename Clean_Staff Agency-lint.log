@@ -1,0 +1,40 @@
+Clean_Staff Agency.esp: DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(aa_1gr_comp3Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(1gr_compLevel)
+	SCPT(ZM_RupertScript)
+	SCPT(ZM_RupertTeleport)
+	SCPT(aa_ReportStatus)
+	SCPT(aa_rupert_warp)
+	SCPT(aa_rupert_warp3)
+	SCPT(aa_sa_farmerLoot)
+	SCPT(aa_sa_minerLoot)
+	SCPT(aa_sa_trader_del)
+	SCPT(aa_scale_script)
+	SCPT(jjs_pplant_blkant1)
+	SCPT(jjs_pplant_blkant2)
+	SCPT(jjs_pplant_gldkan1)
+	SCPT(jjs_pplant_gldkan2)
+	SCPT(jjs_pplant_heather1)
+	SCPT(jjs_pplant_heather2)
+	SCPT(jjs_pplant_hornlily1)
+	SCPT(jjs_pplant_hornlily2)
+	SCPT(jjs_pplant_meadrye1)
+	SCPT(jjs_pplant_meadrye2)
+	SCPT(jjs_pplant_nirthfly1)
+	SCPT(jjs_pplant_nirthfly2)
+	SCPT(jjs_pplant_sedgegld1)
+	SCPT(jjs_pplant_sedgegld2)
+	SCPT(jjs_pplant_stoneflw1)
+	SCPT(jjs_pplant_stoneflw2)
+	SCPT(jjs_pplant_timsa1)
+	SCPT(jjs_pplant_timsa2)
+	SCPT(jjs_pplant_wlfbane1)
+	SCPT(jjs_pplant_wlfbane2)
+	SCPT(jjs_shoot)
+	SCPT(jjs_soil)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5

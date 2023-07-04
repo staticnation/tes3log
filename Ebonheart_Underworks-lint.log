@@ -1,0 +1,35 @@
+Ebonheart_Underworks.esp: DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(dd19_ws_offWithRebirthScript)
+	SCPT(dd19_ws_onWithRebirthScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ab01wlAntiSpawnScript)
+	SCPT(dd02_Dart01ActScript)
+	SCPT(dd02_Dart01Script)
+	SCPT(dd02_YellowShroomScript)
+	SCPT(dd02_axe_script)
+	SCPT(dd02_brick01Script)
+	SCPT(dd02_ratScript)
+	SCPT(dd02_ring01Script)
+	SCPT(dd02_shroom_dollScript)
+	SCPT(dd19_PortCullis01ActScript)
+	SCPT(dd19_escPrisClearScript)
+	SCPT(dd19_offWithRebirthScript)
+	SCPT(dd19_onWithRebirthScript)
+	SCPT(dd19_watersupplyScript)
+	SCPT(dd19_ws_offWithRebirthScript)
+	SCPT(dd19_ws_onWithRebirthScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    mead
+	morrowind.esm       DIAL    axe
+	morrowind.esm       DIAL    escape
+	morrowind.esm       DIAL    help me
+	morrowind.esm       DIAL    mushrooms
+	morrowind.esm       DIAL    ring
+	morrowind.esm       DIAL    shalk
+	morrowind.esm       DIAL    slavehunters
+	morrowind.esm       DIAL    slaves
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    guard

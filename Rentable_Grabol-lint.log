@@ -1,0 +1,20 @@
+Rentable_Grabol.ESP: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Bloodmoon.esm                9631289 (plugin)    9631798 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Grabol)
+	SCPT(GrabolsDoor)
+	SCPT(GrabolsDoorB)
+	SCPT(graboldaycount)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    in_hlaalu_loaddoor_01
+	tribunal.esm        DOOR    hlaalu_loaddoor_ 02
+	tribunal.esm        STAT    furn_de_tapestry_10
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    dura gra-bol
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:

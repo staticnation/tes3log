@@ -1,0 +1,134 @@
+Join All Houses.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (91) != Actual count (87)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Strong1)
+	SCPT(Strong1_Complete)
+	SCPT(Strong1_Construct)
+	SCPT(Strong1_Only)
+	SCPT(Strong2)
+	SCPT(Strong2_Complete)
+	SCPT(Strong2_Construct)
+	SCPT(Strong2_Not)
+	SCPT(Strong2_Only)
+	SCPT(Strong3)
+	SCPT(Strong3_Complete)
+	SCPT(Strong3_Construct)
+	SCPT(Strong3_Not)
+	SCPT(StrongZero)
+	SCPT(Strong_Build1_H)
+	SCPT(Strong_Build1_R)
+	SCPT(Strong_Build1_T)
+	SCPT(Strong_Build2_H)
+	SCPT(Strong_Build2_R)
+	SCPT(Strong_Build2_T)
+	SCPT(Strong_Build3_H)
+	SCPT(Strong_Build3_R)
+	SCPT(Strong_Build3_T)
+	SCPT(Strong_Build_Start_H)
+	SCPT(Strong_Build_Start_R)
+	SCPT(Strong_Build_Start_T)
+	SCPT(broderGarilScript)
+	SCPT(fixHHStrongholdScript)
+	SCPT(fixHRStrongholdScript)
+	SCPT(fixHTStrongholdScript)
+	SCPT(strong_foreman)
+	SCPT(strongholdServices)
+	SCPT(vedamDrenScript)
+	SCPT(virasGulsScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    banden indarys
+	morrowind.esm       DIAL    construction contract
+	morrowind.esm       DIAL    join house hlaalu
+	morrowind.esm       DIAL    join house redoran
+	morrowind.esm       DIAL    join house telvanni
+	morrowind.esm       DIAL    raynasa rethan
+	morrowind.esm       DIAL    reynel uvirith
+	morrowind.esm       NPC_    benar neleth
+	morrowind.esm       NPC_    fjorgeir
+	morrowind.esm       NPC_    vedam dren
+
+[MOD-INF]: ID=21199593251799413(Topic:construction contract)
+  morrowind.esm------->|DATA|ONAM:Vedam Dren|NAME:Yes, I know of your deeds, Nerevarine. I will grant you a construction contract. Here, take it as a token of my gratitude for all you have done for my people.|SCVR:34JX3A2_6_Incarnate|INTV:2|BNAM:Set doOnce to 1  Player->AddItem bk_stronghold_c_hlaalu 1
+  Join All Houses.esp->|DATA|ONAM:Vedam Dren|NAME:Yes, I know of your deeds, Nerevarine. I will grant you a construction contract. Here, take it as a token of my gratitude for all you have done for my people.|SCVR:03sX1HT_Stronghold_doOnce|INTV|SCVR:14JX0HT_Stronghold|INTV|SCVR:34JX3A2_6_Incarnate|INTV:2|BNAM:Set HT_Stronghold_doOnce to 1  Player->AddItem bk_stronghold_c_hlaalu 1
+
+[DUP-INF]: ID=28151518345818140(Topic:construction contract)
+  |DATA|ONAM:galsa gindu|NAME:Here on Vvardenfell, the Duke must issue a construction contract before we lay the first founding stones for any building. This rule is often overlooked by the Hlaalu and Telvanni, but House Redoran is honorable, and I will not break these rules.
+
+[MOD-INF]: ID=84346128103924607(Topic:raynasa rethan)
+  morrowind.esm------->|DATA|ONAM:faral retheran|DNAM:Redoran|NAME:Rethan Manor is on the Odai Plateau, on the River Odai which heads south from Balmora. Go there and slay Raynasa Rethan. Show these Hlaalu that we mean business.|SCVR:34JX3HR_AttackUvirith|INTV:d|BNAM:Journal HR_AttackRethan 10  ShowMap "Odai Plateau"
+  Join All Houses.esp->|DATA|ONAM:faral retheran|DNAM:Redoran|NAME:Rethan Manor is on the Odai Plateau, on the River Odai which heads south from Balmora. Go there and slay Raynasa Rethan. Show these Hlaalu that we mean business. Oh wait... look who decided to pay us a visit. Behind you, kill him.|SCVR:34JX3HR_AttackUvirith|INTV:d|BNAM:Journal HR_AttackRethan 10  ShowMap "Odai Plateau"  PlaceAtPC "Raynasa Rethan" 1 128 1
+
+[DUP-INF]: ID=105822513269654654(Topic:construction contract)
+  |DATA|ONAM:llunela hleran|NAME:Yes, you have given me the construction contract. I trust it was not too difficult.|SCVR:34JX3HT_Stronghold|INTV:2
+
+[MOD-INF]: ID=264238851038814188(Topic:raynasa rethan)
+  morrowind.esm------->|DATA|ONAM:aryon|DNAM:Telvanni|NAME:Rethan Manor is on the Odai Plateau. Follow the Odai River south from Balmora and you will see it on your right. Go there and slay this young Hlaalu noble.|SCVR:34JX3HT_RecruitEddie|INTV:d|BNAM:Journal HT_AttackRethan 10  ShowMap "Odai Plateau"
+  Join All Houses.esp->|DATA|ONAM:aryon|DNAM:Telvanni|NAME:Rethan Manor is on the Odai Plateau. Follow the Odai River south from Balmora and you will see it on your right. Go there and slay this young Hlaalu noble. Oh wait... look who decided to pay us a visit. Behind you, kill him.|SCVR:34JX3HT_RecruitEddie|INTV:d|BNAM:Journal HT_AttackRethan 10  ShowMap "Odai Plateau"  PlaceAtPC "Raynasa Rethan" 1 128 1
+
+[MOD-INF]: ID=462621715288623534(:join house hlaalu)
+  morrowind.esm------->|DATA|ONAM:nileno dorvayn|DNAM:Redoran|NAME:I am sorry, but you already belong to House Redoran. We cannot accept anyone who has joined another House.
+  Join All Houses.esp->|NAME:I am sorry, but you already belong to House Redoran. We cannot accept anyone who has joined another House.|DELE:
+
+[MOD-INF]: ID=478166382114232658(Topic:banden indarys)
+  morrowind.esm------->|DATA|ONAM:crassius curio|NAME:House Redoran also has an unchartered stronghold. The Redoran Stronghold of Indarys Manor is on the east side of the road from Ald'ruhn to Maar Gan in a place called the Bal Isra. Go there and kill the master of the stronghold, Banden Indarys. I know you will not disapoint me, pudding.|SCVR:34JX3HH_NordSmugglers|INTV:d|SCVR:44JX3HH_Stronghold|INTV:d|BNAM:Journal HH_DestroyIndarysManor 10  ShowMap "Bal Isra"
+  Join All Houses.esp->|DATA|ONAM:crassius curio|NAME:House Redoran also has an unchartered stronghold. The Redoran Stronghold of Indarys Manor is on the east side of the road from Ald'ruhn to Maar Gan in a place called the Bal Isra. Go there and kill the master of the stronghold, Banden Indarys. I know you will not disapoint me, pudding. Oh wait... look who decided to pay us a visit. Behind you, kill him.|SCVR:34JX3HH_NordSmugglers|INTV:d|SCVR:44JX3HH_Stronghold|INTV:d|BNAM:Journal HH_DestroyIndarysManor 10  ShowMap "Bal Isra"  PlaceAtPC "Banden Indarys" 1 128 1
+
+[DUP-INF]: ID=751924013587312907(Topic:construction contract)
+  |DATA|ONAM:Vedam Dren|NAME:Then I will not grant you a contract.|SCVR:01500|INTV
+
+[DUP-INF]: ID=939777552626115466(Topic:construction contract)
+  |DATA|ONAM:dondos driler|NAME:There is no need for you to get another construction contract.|SCVR:34JX3HH_Stronghold|INTV:2
+
+[DUP-INF]: ID=1192841441216620356(Topic:construction contract)
+  |DATA|ONAM:dondos driler|NAME:Only the Duke can issue construction contracts. All three Great Houses have been ignoring this rule recently, but I have been ordered to insist that all new stronghold have the proper papers.
+
+[MOD-INF]: ID=1277270781793126932(Topic:construction contract)
+  morrowind.esm------->|DATA|ONAM:Vedam Dren|NAME:I have issued you a construction contract. I am not going to issue you another.|SCVR:03sX0doOnce|INTV
+  Join All Houses.esp->|DATA|ONAM:Vedam Dren|NAME:I have issued you enough construction contracts. I am not going to issue you another.|SCVR:03sX0HH_Stronghold_doOnce|INTV|SCVR:13sX0HR_Stronghold_doOnce|INTV|SCVR:23sX0HT_Stronghold_doOnce|INTV
+
+[MOD-INF]: ID=1304331594307123541(Topic:reynel uvirith)
+  morrowind.esm------->|DATA|ONAM:crassius curio|NAME:The Telvanni Stronghold of Tel Uvirith is built on Uvirith's Grave due west of Tel Fyr and northwest of the Erabenimsun camp. I'll mark these on your map. Don't be subtle, sweetie. Make sure House Telvanni gets the message.|SCVR:34JX3HH_BeroSupport|INTV:d|BNAM:Journal HH_DestroyTelUvirith 10  ShowMap "Tel Fyr"  ShowMap "Uvirith's Grave"  ShowMap "Erabenimsun Camp"
+  Join All Houses.esp->|DATA|ONAM:crassius curio|NAME:The Telvanni Stronghold of Tel Uvirith is built on Uvirith's Grave due west of Tel Fyr and northwest of the Erabenimsun camp. I'll mark these on your map. Don't be subtle, sweetie. Make sure House Telvanni gets the message. Oh wait... look who decided to pay us a visit. Behind you, kill him.|SCVR:34JX3HH_BeroSupport|INTV:d|BNAM:Journal HH_DestroyTelUvirith 10  ShowMap "Tel Fyr"  ShowMap "Uvirith's Grave"  ShowMap "Erabenimsun Camp"  PlaceAtPC "Reynel Uvirith" 1 128 1
+
+[MOD-INF]: ID=1952022849918511967(Topic:reynel uvirith)
+  morrowind.esm------->|DATA|ONAM:faral retheran|DNAM:Redoran|NAME:The so-called "Tel Uvirith" is built on Uvirith's grave, which can be found west of Tel Fyr and northwest of the Erabenimsun camp. Go there and make sure the Telvanni understand that we will not tolerate this illegal expansion.|SCVR:34JX3HR_DagothTanis|INTV:d|BNAM:Journal HR_AttackUvirith 10  ShowMap "Uvirith's Grave"
+  Join All Houses.esp->|DATA|ONAM:faral retheran|DNAM:Redoran|NAME:The so-called "Tel Uvirith" is built on Uvirith's grave, which can be found west of Tel Fyr and northwest of the Erabenimsun camp. Go there and make sure the Telvanni understand that we will not tolerate this illegal expansion. Oh wait... look who decided to pay us a visit. Behind you, kill him.|SCVR:34JX3HR_DagothTanis|INTV:d|BNAM:Journal HR_AttackUvirith 10  ShowMap "Uvirith's Grave"  PlaceAtPC "Reynel Uvirith" 1 128 1
+
+[MOD-INF]: ID=2250155891410418152(:join house redoran)
+  morrowind.esm------->|DATA|ONAM:neminda|DNAM:Hlaalu|NAME:You have already been adopted by House Hlaalu. We cannot accept members of other Great Houses.
+  Join All Houses.esp->|NAME:You have already been adopted by House Hlaalu. We cannot accept members of other Great Houses.|DELE:
+
+[MOD-INF]: ID=2275319964111543558(Topic:construction contract)
+  morrowind.esm------->|DATA|ONAM:Vedam Dren|NAME:That is good enough for me. Take this contract. Use your stronghold for the defense of my people, and as an aid in your fight against our enemies.|SCVR:01500|INTV|BNAM:Set doOnce to 1  Player->AddItem bk_stronghold_c_hlaalu 1
+  Join All Houses.esp->|DATA|ONAM:Vedam Dren|NAME:That is good enough for me. Take this contract. Use your stronghold for the defense of my people, and as an aid in your fight against our enemies.|SCVR:01500|INTV|SCVR:13sX1HT_Stronghold_doOnce|INTV|SCVR:24JX0HT_Stronghold|INTV|BNAM:Set HT_Stronghold_doOnce to 1  Player->AddItem bk_stronghold_c_hlaalu 1
+
+[MOD-INF]: ID=2416015606243707519(:join house redoran)
+  morrowind.esm------->|DATA|ONAM:neminda|DNAM:Telvanni|NAME:You have already been adopted by House Telvanni. We cannot accept members of other Great Houses.
+  Join All Houses.esp->|NAME:You have already been adopted by House Telvanni. We cannot accept members of other Great Houses.|DELE:
+
+[DUP-INF]: ID=7410104912809331001(Topic:construction contract)
+  |DATA|ONAM:galsa gindu|NAME:You only need one construction contract, %PCName.|SCVR:34JX3HR_Stronghold|INTV:2
+
+[MOD-INF]: ID=10687175821385616052(:join house telvanni)
+  morrowind.esm------->|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|DNAM:Redoran|NAME:Of course you wish to join our Great House. But you already belong to House Redoran. We cannot allow you to join.
+  Join All Houses.esp->|NAME:Of course you wish to join our Great House. But you already belong to House Redoran. We cannot allow you to join.|DELE:
+
+[MOD-INF]: ID=15408132141702522054(Topic:banden indarys)
+  morrowind.esm------->|DATA|ONAM:aryon|DNAM:Telvanni|NAME:Indarys Manor is built in the Bal Isra, named after the rows of stones there. You can find it on the road from Ald'ruhn to Maar Gan. Go there and slay the Redoran Banden Indarys.|SCVR:34JX3HT_AttackRethan|INTV:d|BNAM:Journal HT_AttackIndarys 10  ShowMap "Bal Isra"
+  Join All Houses.esp->|DATA|ONAM:aryon|DNAM:Telvanni|NAME:Indarys Manor is built in the Bal Isra, named after the rows of stones there. You can find it on the road from Ald'ruhn to Maar Gan. Go there and slay the Redoran Banden Indarys. Oh wait... look who decided to pay us a visit. Behind you, kill him.|SCVR:34JX3HT_AttackRethan|INTV:d|BNAM:Journal HT_AttackIndarys 10  ShowMap "Bal Isra"  PlaceAtPC "Banden Indarys" 1 128 1
+
+[MOD-INF]: ID=21226244741216515056(:join house telvanni)
+  morrowind.esm------->|DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|DNAM:Hlaalu|NAME:Of course you wish to join our Great House. But you already belong to House Hlaalu. We cannot allow you to join.
+  Join All Houses.esp->|NAME:Of course you wish to join our Great House. But you already belong to House Hlaalu. We cannot allow you to join.|DELE:
+
+[DUP-INF]: ID=21584261221420612453(Topic:construction contract)
+  |DATA|ONAM:llunela hleran|NAME:House Telvanni has expanded too quickly. We have allowed our young and ambitious to build unauthorized bases all across Vvardenfell. To avoid trouble with the Grand Council, you should make your stronghold official. Only Duke Vedam Dren in Ebonheart can issue construction contracts.
+
+[MOD-INF]: ID=27693251912553822443(Topic:construction contract)
+  morrowind.esm------->|DATA|ONAM:Vedam Dren|NAME:I am not sure if I should issue you a contract. Vvardenfell faces many threats today. I will grant you a contract if you vow to do what you can for my people.|BNAM:Choice "I vow that I will do what I can." 1 "Nevermind." 2
+  Join All Houses.esp->|DATA|ONAM:Vedam Dren|NAME:I am not sure if I should issue you a contract. Vvardenfell faces many threats today. I will grant you a contract if you vow to do what you can for my people.|SCVR:04JX0HT_Stronghold|INTV|SCVR:13sX1HT_Stronghold_doOnce|INTV|BNAM:Choice "I vow that I will do what I can." 1 "Nevermind." 2
+
+[MOD-INF]: ID=31479245142979411597(:join house hlaalu)
+  morrowind.esm------->|DATA|ONAM:nileno dorvayn|DNAM:Telvanni|NAME:I am sorry, but you already belong to House Telvanni. We cannot accept anyone who has joined another House.
+  Join All Houses.esp->|NAME:I am sorry, but you already belong to House Telvanni. We cannot accept anyone who has joined another House.|DELE:

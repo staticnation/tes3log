@@ -1,0 +1,37 @@
+Great Service.ESP: DUP-INF DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (514) != Actual count (442)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    hello
+
+[MOD-INF]: ID=3847298641417827(Voice:hello)
+  morrowind.esm----->|DATA|RNAM:Breton|SNAM:vo\b\f\Hlo_BF133.mp3|NAME:Do my eyes deceive me? I'm not used to such lively company.|SCVR:01425|INTV:|BNAM:;PC Clothing Modifier
+  Great Service.ESP->|DATA|RNAM:Breton|CNAM:Trader|SNAM:Vo\b\f\Srv_BF012.mp3|NAME:I'm not sure we can do business, outlander.|SCVR:02sX5Random100|INTV:Z|BNAM:;PC Clothing Modifier
+
+[MOD-INF]: ID=15521746197349024(Voice:hello)
+  morrowind.esm----->|DATA|RNAM:Redguard|SNAM:vo\r\f\Hlo_RF051.mp3|NAME:Hey, put something on!|SCVR:01425|INTV:|BNAM:;ClothingMod<=0
+  Great Service.ESP->|DATA|RNAM:Redguard|CNAM:Trader Service|SNAM:Vo\r\f\Srv_RF005.mp3|NAME:Come on in. You won't find a better bargain in town.|BNAM:;ClothingMod<=0
+
+[MOD-INF]: ID=216972799178891369(Voice:hello)
+  morrowind.esm----->|DATA|RNAM|SNAM:vo\d\f\Hlo_DF227.mp3|NAME:Where would you like to go?|BNAM:;Class=Caravaner
+  Great Service.ESP->|DATA|RNAM:Dark Elf|CNAM:Alchemist Service|SNAM:Vo\d\f\Srv_DF006.mp3|NAME:If you don't leave now I shall call the guards.|SCVR:02sX5Random100|INTV:Z|BNAM:;Class=Caravaner
+
+[MOD-INF]: ID=1674235593199525989(Voice:hello)
+  morrowind.esm----->|DATA|RNAM|SNAM:vo\d\f\Hlo_DF228.mp3|NAME:Why walk when you can ride?|SCVR:02sX3Random100|INTV|BNAM:;Class=Caravaner;Random100>=30
+  Great Service.ESP->|DATA|RNAM|SNAM:vo\d\f\Hlo_DF228.mp3|NAME:Why walk when you can ride?|SCVR:02sX3Random100|INTV|BNAM:;Class=Caravaner;Random100>=30
+
+[DUP-INF]: ID=2377424419402128586(Voice:hello)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM139.mp3|NAME:Hiss!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+
+[DUP-INF]: ID=2489211522149417613(Voice:hello)
+  |DATA|RNAM:Khajiit|SNAM:vo\k\f\Hlo_KF139.mp3|NAME:Growls|SCVR:01600|INTV|BNAM:;PCVampirism=1
+
+[DUP-INF]: ID=2956431987314832027(Voice:hello)
+  |DATA|RNAM:Wood Elf|SNAM:vo\w\m\Hlo_WM051.mp3|NAME:I'm not impressed. Find yourself some rags.|SCVR:01425|INTV:|SCVR:12sX3Random100|INTV:2|BNAM:;ClothingMod<=0
+
+[DUP-INF]: ID=7314161983216229281(Voice:hello)
+  |DATA|RNAM:Imperial|SNAM:vo\i\f\Hlo_IF129.mp3|NAME:You really should put something on.|SCVR:01425|INTV:|BNAM:;ClothingMod<=0
+
+[MOD-INF]: ID=19181104981407518488(Voice:hello)
+  morrowind.esm----->|DATA|RNAM|SNAM:vo\d\f\Hlo_DF229.mp3|NAME:We make special trip just for you, same low price.|SCVR:02sX3Random100|INTV:<|BNAM:;Class=Caravaner;Random100>=60
+  Great Service.ESP->|DATA|RNAM|SNAM:vo\d\f\Hlo_DF229.mp3|NAME:We make special trip just for you, same low price.|SCVR:02sX3Random100|INTV:<|BNAM:;Class=Caravaner;Random100>=60

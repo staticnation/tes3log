@@ -1,0 +1,32 @@
+Thurndal.ESP: DUP-INF DUP-REC MISSDSC MISSVER MOD-INF OVR-REC
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       DIAL    bounty
+	morrowind.esm       LAND    (-12, 6)
+	morrowind.esm       LAND    (-12, 7)
+	morrowind.esm       LAND    (-13, 6)
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_grass_cobbles
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[MOD-INF]: ID=31194280763126725939(Topic:bounty)
+  morrowind.esm->|DATA|NAME:There's a price on her head, though I don't know how much. People don't take kindly to being sold shoddy goods.|SCVR:06DX0pemenie|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:Journal MV_TraderAbandoned 40
+  Thurndal.ESP-->|DATA|NAME:There's a price on her head, though I don't know how much. People don't take kindly to being sold shoddy goods.|SCVR:06DX0pemenie|INTV:|SCVR:1CsX0NoLore|INTV:|SCVR:24JX2MV_TraderAbandoned|INTV:|BNAM:Journal MV_TraderAbandoned 40

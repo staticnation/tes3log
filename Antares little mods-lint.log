@@ -1,0 +1,38 @@
+Antares little mods.ESP: DUP-REC MASTERS MENUMOD MISSAUT MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1103270 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DBH_script)
+	SCPT(DBH_script2)
+	SCPT(LS_LIVING_STATUE_script)
+	SCPT(PE_cup_script)
+	SCPT(PE_gamer_script)
+	SCPT(you_mask_Script)
+	SCPT(youscript2)
+	SCPT(youscript3)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       ARMO    morag_tong_helm
+	morrowind.esm       LEVC    ex_ascadianisles_lev+2
+	morrowind.esm       LEVC    ex_azurascoast_lev+0
+	morrowind.esm       LEVC    ex_bittercoast_lev+2
+	morrowind.esm       LEVC    ex_grazelands_lev+2
+	morrowind.esm       LEVC    ex_molagmar_lev+2
+	morrowind.esm       LEVC    ex_westgash_lev+2
+	morrowind.esm       LEVC    ex_wild_all_lev-1
+	tamriel_data.esm    DIAL    greeting 3
+	tribunal.esm        ARMO    darkbrotherhood helm
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=1636423838181430047(Topic:my trade)
+  morrowind.esm----------->|DATA|CNAM:Drillmaster Service|NAME:I am a drillmaster. I train and condition the local militia. I teach the citizens the basics of block, spear, and long blade, but mostly I concentrate on athletics and acrobatics, because conditioning is the biggest weakness of the citizen-soldier. No point teaching them to fight if they pass out after a short jog in full kit.|SCVR:0CsX0NoLore|INTV:|BNAM:;Drillmaster; Improving Athletics, Acrobatics, blocking
+  Antares little mods.ESP->|DATA|CNAM:Drillmaster Service|NAME:I am a drillmaster. I train and condition the local militia. I teach the citizens the basics of block, spear, and long blade, but mostly I concentrate on athletics and acrobatics, because conditioning is the biggest weakness of the citizen-soldier. No point teaching them to fight if they pass out after a short jog in full kit. I am willing to train with weapons, for a fee.|SCVR:0CsX0NoLore|INTV:|BNAM:;Drillmaster; Improving Athletics, Acrobatics, blocking  AddTopic "Train with weapons"
+
+[MOD-INF]: ID=16885212043000523346(Topic:my trade)
+  morrowind.esm----------->|DATA|CNAM:Drillmaster|NAME:I am a drillmaster. I train and condition the local militia. I teach the citizens the basics of block, spear, and long blade, but mostly I concentrate on athletics and acrobatics, because conditioning is the biggest weakness of the citizen-soldier. No point teaching them to fight if they pass out after a short jog in full kit.|SCVR:0CsX0NoLore|INTV:|BNAM:;Drillmaster; Improving Athletics, Acrobatics, blocking
+  Antares little mods.ESP->|DATA|CNAM:Drillmaster|NAME:I am a drillmaster. I train and condition the local militia. I teach the citizens the basics of block, spear, and long blade, but mostly I concentrate on athletics and acrobatics, because conditioning is the biggest weakness of the citizen-soldier. No point teaching them to fight if they pass out after a short jog in full kit. I am willing to train with weapons, for a fee.|SCVR:0CsX0NoLore|INTV:|BNAM:;Drillmaster; Improving Athletics, Acrobatics, blocking  AddTopic "Train with weapons"

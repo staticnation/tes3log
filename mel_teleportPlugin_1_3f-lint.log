@@ -1,0 +1,15 @@
+mel_teleportPlugin_1_3f.esp: AUTOSPL DUP-REC MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	mark                           Mark
+	recall                         Recall
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(cdc_companion_call_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       MGEF    60
+	morrowind.esm       MGEF    61
+	morrowind.esm       SPEL    mark
+	morrowind.esm       SPEL    recall
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    hello
+	tribunal.esm        GMST    steleportdisabled

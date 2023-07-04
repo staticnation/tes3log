@@ -1,0 +1,10 @@
+true corprus.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CorprusOnPC)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    potion
+
+[MOD-INF]: ID=15488233542752612417(Topic:potion)
+  morrowind.esm---->|DATA|ONAM:divayth fyr|NAME:Remarkable. Let me check your skin... your eyes... your tongue.... Amazing. I think it worked. No sign of the disease at all. Of course, you still have corprus disease, just like I planned. But all your symptoms are gone. Marvelous. I'll go try it out on some of the more desperate inmates. But I'll answer any questions you have before you go.|SCVR:04JX3A2_3_CorprusCure|INTV|SCVR:11500|INTV|BNAM:;Divayth Fyr; Journal "A2_3_CorprusCure" >= 46; 5;   Journal "A2_3_CorprusCure" 50  player->addspell "common disease immunity"  player->addspell "blight disease immunity"  player->addspell "corprus immunity"  Cast "Cure Common Disease Other" Player  Cast "Cure Blight Disease" Player  player->removespell corprus
+  true corprus.ESP->|DATA|ONAM:divayth fyr|NAME:Remarkable. Let me check your skin... your eyes... your tongue.... Amazing. I think it worked. No sign of the disease at all. Of course, you still have corprus disease, just like I planned. But all your symptoms are gone. Marvelous. I'll go try it out on some of the more desperate inmates. But I'll answer any questions you have before you go.|SCVR:04JX3A2_3_CorprusCure|INTV|SCVR:11500|INTV|BNAM:;Divayth Fyr; Journal "A2_3_CorprusCure" >= 46; 5;   Journal "A2_3_CorprusCure" 50  player->addspell "corprus immunity"  player->removespell corprus

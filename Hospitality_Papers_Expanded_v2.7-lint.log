@@ -1,0 +1,101 @@
+Hospitality_Papers_Expanded_v2.7.esp: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    imperial law
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       BOOK    bk_hospitality_papers
+	morrowind.esm       DIAL    gateway
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    hospitality papers
+	morrowind.esm       DIAL    hospitality_papers
+	morrowind.esm       NPC_    arangaer
+	morrowind.esm       NPC_    elegal
+	morrowind.esm       NPC_    fara
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=15812643399847068(Voice:hello)
+  morrowind.esm------------------------>|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM000d.mp3|NAME:Need I call the guards?|SCVR:02sX3Random100|INTV
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM000d.mp3|NAME:Need I call the guards?|SCVR:02sX3Random100|INTV|INTV
+
+[MOD-INF]: ID=27144723304283456(Voice:hello)
+  morrowind.esm------------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11473|INTV|BNAM:;SameFaction;FactionReactionLow>=-2
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\f\Hlo_DF034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11393|INTV|BNAM:;SameFaction;FactionReactionLow>=-2
+
+[DUP-INF]: ID=32612754536689238(Greeting:greeting 7)
+  |DATA|ONAM:angaredhel|NAME:I'm Angaredhel, the Prefect of Hospitality here at the Gateway Inn. Shall I tell you about my trade? Or do you need Hospitality Papers? Or perhaps you are open to an offer of work?|SCVR:01630|INTV:|BNAM:;Angaredhel
+
+[MOD-INF]: ID=102981216766468698(Greeting:greeting 7)
+  morrowind.esm------------------------>|DATA|ONAM:redoran guard female|NAME:I'm an officer of the Imperial law. Move along.
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:redoran guard female|NAME:I am an officer of Redoran and Imperial law. Move along.
+
+[MOD-INF]: ID=129361129595524164(Voice:hello)
+  morrowind.esm------------------------>|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11393|INTV|BNAM:;PC Expelled>=-2
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|RNAM:Dark Elf|SNAM:Vo\d\m\Hlo_DM034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11393|INTV|BNAM:;PC Expelled>=-2
+
+[DUP-INF]: ID=262713193725408959(Journal:hospitality_papers)
+  |DATA|NAME:I have purchased Hospitality Papers from the Prefect of Hospitality, Angaredhel, at the Gateway Inn in Sadrith Mora. These papers permit me to travel in town and speak to and conduct business with citizens, tradesmen, and publicans in Sadrith Mora.
+
+[MOD-INF]: ID=297834839313865098(Topic:hospitality papers)
+  morrowind.esm------------------------>|DATA|ONAM:angaredhel|NAME:According to the Collective Articles of the Council of the Great House Telvanni, out-house and outlander guests in Sadrith Mora may not travel in town or speak to or conduct business with citizens, tradesmen, or publicans unless they have Hospitality Papers. This is for the comfort and safety of our guests. As Prefect of Hospitality for Sadrith Mora, I can provide you with these papers for 25 gold. Would you care to purchase these Hospitality Papers?|SCVR:05IX4Gold_001|INTV|BNAM:;Angaredhel; item gold_001 < 25;   Choice "I don't have 25 gold." 2 "Not at the moment, thank you." 3
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:angaredhel|NAME:According to the Collective Articles of the Council of the Great House Telvanni, out-house or low-ranking outlander guests in Sadrith Mora may not travel in town or speak to or conduct business with citizens, tradesmen, or publicans unless they have Hospitality Papers. This is for the comfort and safety of our guests. As Prefect of Hospitality for Sadrith Mora, I can provide you with these Papers for 50 gold. Would you care to purchase these Hospitality Papers?|SCVR:05IX4Gold_001|INTV:2|BNAM:;Angaredhel; item gold_001 < 50;   Choice "I don't have 50 gold." 2 "Not at the moment, thank you." 3
+
+[MOD-INF]: ID=326358024121223181(Topic:hospitality papers)
+  morrowind.esm------------------------>|DATA|ONAM:angaredhel|NAME:I see you already have your papers. Good.|SCVR:04JX3Hospitality_Papers|INTV:2|BNAM:;Angaredhel; Journal "Hospitality_Papers" >= 50;
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:angaredhel|NAME:You lost them!? Outlander, the Telvanni Council expects its visitors to be able to contribute intellectually as well as financially to this great town. If the former is in question, then the latter must be reaffirmed. 300 gold for a NEW copy of your Papers.|SCVR:04JX3Hospitality_Papers|INTV:2|SCVR:12sX0PS_IsTelvanni|INTV:|SCVR:25IX4bk_hospitality_papers|INTV|SCVR:35IX4Gold_001|INTV|BNAM:;Angaredhel;     Choice "I don't have 300 gold." 4 "Not at the moment, thank you." 5
+
+[MOD-INF]: ID=693920689290419680(Topic:hospitality papers)
+  morrowind.esm------------------------>|DATA|ONAM:angaredhel|NAME:I've told you must have these papers. Will you not purchase these Hospitality Papers, and comply with our laws?|SCVR:14JX3Hospitality_Papers|INTV|BNAM:;Angaredhel; item gold_001 < 25;    Choice "Yes, I'll purchase the papers." 1 "Not at the moment, thank you." 3
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:angaredhel|NAME:I've told you, you must have these Papers. Will you not purchase these Hospitality Papers, and comply with our laws?|SCVR:02sX4PS_IsTelvanni|INTV|SCVR:14JX3Hospitality_Papers|INTV|BNAM:;Angaredhel; item gold_001 < 50;    Choice "Yes, I'll purchase the papers." 1 "Not at the moment, thank you." 3
+
+[MOD-INF]: ID=1220424521147327887(Journal:hospitality_papers)
+  morrowind.esm------------------------>|DATA|NAME:According to the Collective Articles of the Council of the Great House Telvanni, out-house and outlander guests in Sadrith Mora may not travel in town or speak to or conduct business with citizens, tradesmen, or publicans unless they have Hospitality Papers. Hospitality Papers may be obtained from the Prefect of Hospitality, Angaredhel, at the Gateway Inn for 25 gold.
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|NAME:According to the Collective Articles of the Council of the Great House Telvanni, out-house and outlander guests in Sadrith Mora may not travel in town or speak to or conduct business with citizens, tradesmen, or publicans unless they have Hospitality Papers. Hospitality Papers may be obtained from the Prefect of Hospitality, Angaredhel, at the Gateway Inn for 50 gold.
+
+[MOD-INF]: ID=1749492502145129794(Topic:gateway)
+  morrowind.esm------------------------>|DATA|RNAM:Dark Elf|ANAM:Sadrith Mora|NAME:The Gateway is the official Telvanni hostel for outsiders visiting Sadrith Mora. Unless you are a Telvanni retainer or kin, you may not sleep anywhere else in Sadrith Mora. Unless you are a Telvanni retainer or kin, no one is permitted to walk abroad in Sadrith Mora without Hospitality papers from the Prefect of Hospitality, Angaredhel the Dunmer, at the Gateway.|BNAM:;Sadrith Mora; Dunmer
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|RNAM:Dark Elf|ANAM:Sadrith Mora|NAME:The Gateway is the official Telvanni hostel for outsiders visiting Sadrith Mora. Unless you are a Telvanni Retainer or kin, you may not sleep anywhere else in Sadrith Mora. Unless you are a Telvanni Retainer or kin, no one is permitted to walk abroad in Sadrith Mora without Hospitality Papers from the The Prefect of Hospitality, Angaredhel, at the Gateway.|SCVR:07XX0angaredhel|INTV|BNAM:;Sadrith Mora; Dunmer
+
+[MOD-INF]: ID=2383926591909813679(Topic:hospitality papers)
+  morrowind.esm------------------------>|DATA|ONAM:angaredhel|NAME:I've told you must have these papers. Will you not purchase these Hospitality Papers, and comply with our laws?|SCVR:05IX4Gold_001|INTV|SCVR:14JX3Hospitality_Papers|INTV|BNAM:;Angaredhel; item gold_001 < 25;   Choice "I don't have 25 gold." 2 "Not at the moment, thank you." 3
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:angaredhel|NAME:I've told you, you must have these Papers. Will you not purchase these Hospitality Papers, and comply with our laws?|SCVR:05IX4Gold_001|INTV:2|SCVR:14JX3Hospitality_Papers|INTV|SCVR:22sX4PS_IsTelvanni|INTV|BNAM:;Angaredhel; item gold_001 < 50;   Choice "I don't have 50 gold." 2 "Not at the moment, thank you." 3
+
+[MOD-INF]: ID=2819329572163369535(Greeting:greeting 7)
+  morrowind.esm------------------------>|DATA|ONAM:angaredhel|NAME:Yes. As Prefect of Hospitality here at the Gateway Inn, I'd be happy to tell you about my trade, or provide you with Hospitality Papers. I also may have work, if you are interested.|BNAM:;Angaredhel
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:angaredhel|NAME:Yes. As Prefect of Hospitality here at the Gateway, I'd be happy to tell you about my trade, or provide you with Hospitality Papers. I also may have work, if you are interested.|BNAM:;Angaredhel
+
+[MOD-INF]: ID=3013649882822521546(Topic:hospitality papers)
+  morrowind.esm------------------------>|DATA|ONAM:angaredhel|NAME:According to the Collective Articles of the Council of the Great House Telvanni, out-house and outlander guests in Sadrith Mora may not travel in town or speak to or conduct business with citizens, tradesmen, or publicans unless they have Hospitality Papers. This is for the comfort and safety of our guests. As Prefect of Hospitality for Sadrith Mora, I can provide you with these papers for 25 gold. Would you care to purchase these Hospitality Papers?|BNAM:;Angaredhel; item gold_001 >= 25;   Choice "Yes, I'll purchase the papers." 1 "Not at the moment, thank you." 3
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:angaredhel|NAME:According to the Collective Articles of the Council of the Great House Telvanni, out-house or low-ranking outlander guests in Sadrith Mora may not travel in town or speak to or conduct business with citizens, tradesmen, or publicans unless they have Hospitality Papers. This is for the comfort and safety of our guests. As Prefect of Hospitality for Sadrith Mora, I can provide you with these Papers for 50 gold. Would you care to purchase these Hospitality Papers?|BNAM:;Angaredhel; item gold_001 >= 50;   Choice "Yes, I'll purchase the papers." 1 "Not at the moment, thank you." 3
+
+[MOD-INF]: ID=11741180411288916827(Voice:hello)
+  morrowind.esm------------------------>|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11473|INTV|BNAM:;SameFaction;FactionRankDifference>=-2
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|RNAM:Dark Elf|SNAM:vo\d\m\Hlo_DM034.mp3|NAME:You've betrayed the clan. Watch your back.|SCVR:01460|INTV|SCVR:11393|INTV|BNAM:;SameFaction;FactionRankDifference>=-2
+
+[MOD-INF]: ID=13194126731042028920(Topic:hospitality papers)
+  morrowind.esm------------------------>|DATA|ONAM:angaredhel|NAME:Then another time. But I caution you. Do not travel in town and speak to and conduct business with citizens, tradesmen, and publicans anywhere in Sadrith Mora until you have Hospitality Papers. Disrespect for the laws of the Telvanni Council will not make you a welcome guest of House Telvanni.|SCVR:01500|INTV|BNAM:;Angaredhel; CHOICE 2;   Journal "Hospitality_Papers" 1
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:angaredhel|NAME:Then another time. But I caution you. Do not travel in town or speak to and conduct business with citizens, tradesmen, and publicans anywhere in Sadrith Mora until you have Hospitality Papers. Disrespect for the laws of the Telvanni Council will not make you a welcome guest of House Telvanni.|SCVR:01500|INTV|BNAM:;Angaredhel; CHOICE 2;   Journal "Hospitality_Papers" 1
+
+[MOD-INF]: ID=15866309532730625261(Topic:hospitality papers)
+  morrowind.esm------------------------>|DATA|ONAM:angaredhel|NAME:Thank you. And here are your papers. They permit you to travel in town and speak to and conduct business with citizens, tradesmen, and publicans anywhere in Sadrith Mora. Of course, we hope you will stay with us here at the Gateway Inn. Travelers of all professions, factions, and professions are welcomed and made comfortable here.|SCVR:01500|INTV|BNAM:;Angaredhel; CHOICE 1;   player->removeitem "gold_001" 25  player->additem "bk_Hospitality_Papers" 1  Journal "Hospitality_Papers" 50
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:angaredhel|NAME:Thank you. And here are your Papers. They permit you to travel in town and speak to and conduct business with citizens, tradesmen, and publicans anywhere in Sadrith Mora. Of course, we hope you will stay with us here at the Gateway Inn. Travelers of all factions and professions are welcomed and made comfortable here.|SCVR:01500|INTV|BNAM:;Angaredhel; CHOICE 1;   player->removeitem "gold_001" 50  player->additem "bk_Hospitality_Papers" 1  Journal "Hospitality_Papers" 50
+
+[MOD-INF]: ID=16937286552559714346(Topic:hospitality papers)
+  morrowind.esm------------------------>|DATA|ONAM:angaredhel|NAME:Then another time. But I caution you. Do not travel in town and speak to and conduct business with citizens, tradesmen, and publicans anywhere in Sadrith Mora until you have Hospitality Papers. Disrespect for the laws of the Telvanni Council will not make you a welcome guest of House Telvanni.|SCVR:01500|INTV|BNAM:;Angaredhel; CHOICE 2;   Journal "Hospitality_Papers" 1
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:angaredhel|NAME:Then another time. But I caution you. Do not travel in town or speak to and conduct business with citizens, tradesmen, and publicans anywhere in Sadrith Mora until you have Hospitality Papers. Disrespect for the laws of the Telvanni Council will not make you a welcome guest of House Telvanni.|SCVR:01500|INTV|BNAM:;Angaredhel; CHOICE 2;   Journal "Hospitality_Papers" 1
+
+[MOD-INF]: ID=24938220543234722849(Topic:gateway)
+  morrowind.esm------------------------>|DATA|ANAM:Sadrith Mora|NAME:Unless you are a Telvanni retainer or kin, you're not supposed to sleep anywhere in Sadrith Mora except the Gateway, the official Telvanni hostel for outsider visitors. In theory, you're not supposed to walk around in Sadrith Mora unless you are Telvanni retainer or kin, unless you have the necessary Hospitality papers from the Prefect of Hospitality, Angaredhel the Dunmer, at the Gateway. In practice, stay out of trouble, and you can go where you want and do what you want.|BNAM:;Sadrith Mora; non-Dumer
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ANAM:Sadrith Mora|NAME:Unless you are a Telvanni Retainer or kin, you're not supposed to sleep anywhere in Sadrith Mora except the Gateway, the official Telvanni hostel for outsider visitors. You're not supposed to walk around in Sadrith Mora unless you are Telvanni Retainer or kin, unless you have the necessary Hospitality Papers from the Prefect of Hospitality, Angaredhel the Dunmer, at the Gateway.|SCVR:07XX0angaredhel|INTV|INTV|BNAM:;Sadrith Mora; non-Dumer
+
+[MOD-INF]: ID=27052322671633926273(Voice:hello)
+  morrowind.esm------------------------>|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM021.mp3|NAME:Need I call the guards?|SCVR:02sX3Random100|INTV|BNAM:;Random100>=20
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|RNAM:Breton|SNAM:vo\b\m\Hlo_BM021.mp3|NAME:Need I call the guards?|SCVR:02sX3Random100|INTV|INTV|BNAM:;Random100>=20
+
+[MOD-INF]: ID=29299247321543331428(Topic:my trade)
+  morrowind.esm------------------------>|DATA|ONAM:angaredhel|NAME:I am a mage by profession, an accomplished master of destruction and alteration. However, at present I serve my house and council as Prefect of Hospitality for Sadrith Mora. House Telvanni maintains the Gateway Inn for the comfort and convenience of out-house and outlander guests in Sadrith Mora. For your own safety, unless you are retainer or kin of House Telvanni, we ask that you not travel in town without Hospitality Papers, and that you not sleep anywhere but here at the Gateway Inn.|BNAM:;Angaredhel
+  Hospitality_Papers_Expanded_v2.7.esp->|DATA|ONAM:angaredhel|DNAM:Telvanni|NAME:I am a mage by profession, an accomplished master of destruction and alteration. However, at present I serve my house and council as Prefect of Hospitality for Sadrith Mora. House Telvanni maintains the Gateway Inn for the comfort and convenience of out-house and outlander guests in Sadrith Mora.|SCVR:01023|INTV|BNAM:;Angaredhel

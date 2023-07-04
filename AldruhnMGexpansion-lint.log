@@ -1,0 +1,54 @@
+AldruhnMGexpansion.esp: DUP-INF DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(CodeLock_Briefcase_aldruhnMG)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CodeLock_Briefcase_aldruhnMG)
+	SCPT(EndifyAldruhnMGThiefQuestScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    anareren's devil tanto
+	morrowind.esm       DIAL    house dres
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    house indoril
+	morrowind.esm       DIAL    house redoran
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    imperial cult
+	morrowind.esm       NPC_    iniel
+	morrowind.esm       PGRD    ald-ruhn, guild of mages
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=16164203006753245(Topic:house dres)
+  |DATA|ONAM:artisa arelas|NAME:Of the five Dunmer Great Houses, House Dres is one of two houses without holdings or interest in Vvardenfell. Dres District is in the south of Morrowind, bordering the swamps and marshes of Black Marsh. House Dres is an agrarian agricultural society, and its large saltrice plantations rely completely on slave labor for their economic viability. Always firm Temple supporters, House Dres is hostile to Imperial law and culture, and in particular opposed to any attempts to limit the institution of slavery.|BNAM:;noble; savant; bard; bookseller;
+
+[DUP-INF]: ID=16166129550895167(Topic:house indoril)
+  |DATA|ONAM:artisa arelas|NAME:House Indoril is one of the five Dunmer Great Houses, and one of the two houses without holdings or interest in Vvardenfell. The city of Almalexia is located in Indoril District, and the Indoril are orthodox and conservative supporters of the Temple and Temple authority. House Indoril is openly hostile to Imperial culture and religion, and preserves many traditional Dunmer customs and practices in defiance of Imperial law.|BNAM:;noble; savant; bard; bookseller;
+
+[DUP-INF]: ID=1248415032614120911(Topic:imperial cult)
+  |DATA|RNAM:Dark Elf|ANAM:Balmora, Council Club|NAME:This is a nice Dunmer establishment. For native Dunmer. We aren't interested in the Imperial cult, outlander. We aren't interested in anything Imperial here. Understand?|SCVR:0CsX0nolore|INTV:
+
+[DUP-INF]: ID=1799429480260485692(Topic:house redoran)
+  |DATA|ONAM:sul-matuul|NAME:The khans of the Great Houses are called 'councilors.' The khans of House Redoran meet in a great crab shell in a place called Ald'ruhn. You must find these councilors and persuade them to name you Hortator. I know little of the settled people. You must go there and learn for yourself.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Sul-Matuul; Journal "A2-6_Incarnate" >= 50
+
+[DUP-INF]: ID=2405019711740331778(Topic:ald'ruhn)
+  |DATA|ONAM:nileno dorvayn|DNAM:Hlaalu|NAME:Ald'ruhn has two main districts. The Redoran Council and manors under the shell of the Emperor Crab are known as "Ald'ruhn-under-Skar."
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=9124216623008227045(Topic:anareren's devil tanto)
+  |DATA|ONAM:aengoth|NAME:You've been kicked out of the Guild, %PCName. Better make amends, or no one's going to talk to you.|SCVR:01460|INTV:
+
+[DUP-INF]: ID=10924273023043113826(Topic:my trade)
+  |DATA|ONAM:erich the unworthy|NAME:I'm a lover and a killer. What more is there in life?
+
+[DUP-INF]: ID=14623326412690123935(Topic:house hlaalu)
+  |DATA|ONAM:artisa arelas|NAME:House Hlaalu is one of the three Dunmer Great Houses with holdings on Vvardenfell. House Hlaalu has always been loyal to the Emperor and the Empire. Hlaalu welcomes Imperial law and the Legions, and freedom of trade and religion. We still respect the old Dunmer ways, the ancestors, the Temple, and the noble houses. But times change, and the Empire changes with the times. House Hlaalu hopes to live in peace and harmony with the other races, and share in the growth and prosperity of the Empire.|BNAM:;noble; savant; bard; bookseller;
+
+[DUP-INF]: ID=18705125102254928778(Greeting:greeting 9)
+  |DATA|ANAM:Mournhold, Craftsmen's Hall|NAME:You killed Trels Varis? He was the only one with the courage to tell the truth. I don't understand how you could do such a thing.|SCVR:04JX0TR09_Journalist|INTV:Z
+
+[DUP-INF]: ID=22177255061131127667(Topic:house telvanni)
+  |DATA|ONAM:caius cosades|NAME:House Telvanni is one of the three Dunmer Great Houses on Vvardenfell. Their nobles are thousand-year-old wizards. Telvanni are supposed to hate politics, foreigners, and just about everything else, but the Vvardenfell Telvanni are apparently more ambitious and adventurous than most. I don't know much about them, but they do hire Western mercenaries, and some even rise to higher ranks. Talk to Telvanni councilors if you want to be become a Telvanni retainer.|SCVR:04JX3A1_1_FindSpymaster|INTV

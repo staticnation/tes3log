@@ -1,0 +1,62 @@
+mtrQuasiRadiantQuests.ESP: DUP-REC EXP-DEP MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (555) != Actual count (483)
+    [EXP-DEP] Expansion Dependency: Startup Scripts: mtrq, mtrqteleport
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(mtrQalchemistAlitHide)          setdelete
+	SCPT(mtrQalchemistAmpoulePod)        setdelete
+	SCPT(mtrQalchemistAshSalts)          setdelete
+	SCPT(mtrQalchemistAshYam)            setdelete
+	SCPT(mtrQalchemistBittergreenPetals)  setdelete
+	SCPT(mtrQalchemistBlackAnther)       setdelete
+	SCPT(mtrQalchemistBlackLichen)       setdelete
+	SCPT(mtrQalchemistBonemeal)          setdelete
+	SCPT(mtrQalchemistBunglersBane)      setdelete
+	SCPT(mtrQalchemistCodaFlower)        setdelete
+	SCPT(mtrQalchemistComberry)          setdelete
+	SCPT(mtrQalchemistCorkbulbRoot)      setdelete
+	SCPT(mtrQalchemistCorprusWeepings)   setdelete
+	SCPT(mtrQalchemistCrabMeat)          setdelete
+	SCPT(mtrQalchemistDaedraSkin)        setdelete
+	SCPT(mtrQalchemistDaedrasHeart)      setdelete
+	SCPT(mtrQalchemistDreughWax)         setdelete
+	SCPT(mtrQalchemistEctoplasm)         setdelete
+	SCPT(mtrQalchemistFirePetal)         setdelete
+	SCPT(mtrQalchemistFireSalts)         setdelete
+	SCPT(mtrQalchemistFrostSalts)        setdelete
+	SCPT(mtrQalchemistGreenLichen)       setdelete
+	SCPT(mtrQalchemistGuarHide)          setdelete
+	SCPT(mtrQalchemistHackleLoLeaf)      setdelete
+	SCPT(mtrQalchemistHeather)           setdelete
+	SCPT(mtrQalchemistHoundMeat)         setdelete
+	SCPT(mtrQalchemistHyphaFacia)        setdelete
+	SCPT(mtrQalchemistKagoutiHide)       setdelete
+	SCPT(mtrQalchemistKreshFiber)        setdelete
+	SCPT(mtrQalchemistKwamaCuttle)       setdelete
+	SCPT(mtrQalchemistLuminousRussula)   setdelete
+	SCPT(mtrQalchemistMarshmerrow)       setdelete
+	SCPT(mtrQalchemistMuck)              setdelete
+	SCPT(mtrQalchemistNetchLeather)      setdelete
+	SCPT(mtrQalchemistPearl)             setdelete
+	SCPT(mtrQalchemistRacerPlumes)       setdelete
+	SCPT(mtrQalchemistRatMeat)           setdelete
+	SCPT(mtrQalchemistRedLichen)         setdelete
+	SCPT(mtrQalchemistRoobrush)          setdelete
+	SCPT(mtrQalchemistSaltrice)          setdelete
+	SCPT(mtrQalchemistScales)            setdelete
+	SCPT(mtrQalchemistScrapMetal)        setdelete
+	SCPT(mtrQalchemistScribJelly)        setdelete
+	SCPT(mtrQalchemistShalkResin)        setdelete
+	SCPT(mtrQalchemistSporePod)          setdelete
+	SCPT(mtrQalchemistStoneflowerPetals)  setdelete
+	SCPT(mtrQalchemistTramaRoot)         setdelete
+	SCPT(mtrQalchemistVampireDust)       setdelete
+	SCPT(mtrQalchemistVioletCoprinus)    setdelete
+	SCPT(mtrQalchemistVoidSalts)         setdelete
+	SCPT(mtrQalchemistWickwheat)         setdelete
+	SCPT(mtrQalchemistWillowAnther)      setdelete
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mtrQ)
+	SCPT(mtrQteleport)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5

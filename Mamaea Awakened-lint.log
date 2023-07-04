@@ -1,0 +1,55 @@
+Mamaea Awakened.ESP: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10193005 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1314087 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FA1_AshSetUp)
+	SCPT(FA1_Ash_Script)
+	SCPT(FA1_Bell6)
+	SCPT(FA1_BellReplace)
+	SCPT(FA1_Check4Stats)
+	SCPT(FA1_Items)
+	SCPT(FA1_Offering_bone)
+	SCPT(FA1_Offering_marrow)
+	SCPT(FA1_Offering_meat)
+	SCPT(FA1_SleeperSleep)
+	SCPT(FA1_SpinDisc)
+	SCPT(FA1_Stat3Ghoul)
+	SCPT(FA1_StatueDrop)
+	SCPT(FA1_Statue_Hit)
+	SCPT(FA1_script_LostGuard)
+	SCPT(FA1_script_attackghoul)
+	SCPT(FA1_script_attacktivate)
+	SCPT(FA1_script_gotmask)
+	SCPT(FA1_script_maskoriginal)
+	SCPT(FA1_script_ordinator)
+	SCPT(FA1_script_seekerartifact)
+	SCPT(FA1_script_shrineGnisis)
+	SCPT(FA1_script_zula)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    ac_shrine_gnisis
+	morrowind.esm       ACTI    ac_shrine_gnisis_mv
+	morrowind.esm       CREA    dagoth araynys
+	morrowind.esm       MISC    misc_vivec_ashmask_01
+	morrowind.esm       NPC_    dreamer guard
+	morrowind.esm       NPC_    dreamer priest
+	morrowind.esm       PGRD    gnisis, temple
+	morrowind.esm       PGRD    mamaea, sanctum of black hope
+	morrowind.esm       PGRD    mamaea, shrine of pitted dreams
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+
+[MOD-INF]: ID=62371108813909003(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:dagoth araynys|NAME:You've done well to come this far. I don't think we have anything to talk about, do we? Then let's get on with it.|SCVR:01630|INTV:|BNAM:;Dagoth Araynys [thief-mage]
+  Mamaea Awakened.ESP->|DATA|ONAM:dagoth araynys|NAME:So. You are the one my brother Voryn calls Nerevar. No, say nothing. I do not care if you truly are the Hortator. His time is gone. But you... You've done well to come this far. Did you like my little tests? They weren't for you, you know. My children are devoted, but sometimes they lack understanding of the sublime. They think in the straight lines of the mundane, when they need to be guided by the chords of the Song.|SCVR:01630|INTV:|BNAM:;Dagoth Araynys [thief-mage]  Choice "I've seen worse." 1 "You're all mad. Don't you have better things to do than stack chairs?" 2 "It was interesting, I'll give you that." 3 "I AM Indoril Nerevar reborn." 4
+
+[MOD-INF]: ID=77759932343319425(Greeting:greeting 1)
+  tribunal.esm-------->|DATA|ONAM:dagoth araynys|NAME:I'm ready whenever you are.|BNAM:;Dagoth Araynys [thief-mage]
+  Mamaea Awakened.ESP->|DATA|ONAM:dagoth araynys|NAME:I'm ready whenever you are. I don't think we have anything to talk about, do we? Then let's get on with it. To you goes the first blow.|BNAM:;Dagoth Araynys [thief-mage]
+
+[DUP-INF]: ID=545325463627930906(Greeting:greeting 1)
+  |DATA|ONAM:ash_zombie|NAME:What are you? Where is this place? I'm so tired, LET ME SLEEP!|BNAM:;ash zombie [ash zombie 8]
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!

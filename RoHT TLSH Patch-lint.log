@@ -1,0 +1,21 @@
+RoHT TLSH Patch.esp: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    abolitionists
+	rise of house telvanni.esm    DIAL    gentleman jim stacey
+	rise of house telvanni.esm    DIAL    slavery
+	tribunal.esm        DIAL    advancement
+
+[DUP-INF]: ID=307481458477726961(Topic:advancement)
+  |DATA|ONAM:Vedam Dren|DNAM:Hlaalu|NAME:You are the Grandmaster of House Hlaalu, %PCName.
+
+[MOD-INF]: ID=566815407863731284(Topic:gentleman jim stacey)
+  rise of house telvanni.esm->|DATA|ONAM:simine fralinie|NAME:You are here on House Telvanni's behalf to negotiate business with the Gentleman? The honor is mine, Archmagister %PCName. Please advance to the back room. Here's the key.|SCVR:04JX0RoHT_EdwinnaQuests|INTV:-|SCVR:15IX0RoHT_key_SimineFralinie|INTV:|BNAM:"player"->AddItem, "RoHT_key_SimineFralinie", 1
+  RoHT TLSH Patch.esp-------->|DATA|ONAM:simine fralinie|NAME:You are here on House Telvanni's behalf to negotiate business with the Gentleman? The honour is mine, Archmagister %PCName. Please advance to the back room. Here's the key.|SCVR:04JX0RoHT_EdwinnaQuests|INTV:-|SCVR:15IX0RoHT_key_SimineFralinie|INTV:|BNAM:Player->AddItem, "RoHT_key_SimineFralinie", 1
+
+[DUP-INF]: ID=5796182422325920567(Topic:abolitionists)
+  |DATA|ONAM:onlyhestandsthere|NAME:They are... activists. I prefer to make the case against slavery by example. If the Dunmer know me as kind and helpful, perhaps they will come to see all Argonians the same way.
+
+[MOD-INF]: ID=13803142522058016391(Topic:slavery)
+  rise of house telvanni.esm->|DATA|ONAM:Vedam Dren|NAME:I'm looking forward to our cooperation, %PCName. May it hold all you have promised.|SCVR:04JX3RoHT_TwinLamps|INTV|SCVR:14JX5RoHT_TwinLamps|INTV|BNAM:; RoHT note: Entries in this topic may eventually be overwritten by Nevena's "Twin Lamps and Slave Hunters", so I'm only keeping some insignificant lines here
+  RoHT TLSH Patch.esp-------->|DATA|NAME:I'm looking forward to our cooperation, %PCName. May it hold all you have promised.|SCVR:04JX3RoHT_TwinLamps|INTV|SCVR:14JX5RoHT_TwinLamps|INTV|BNAM:; RoHT note: Entries in this topic may eventually be overwritten by Nevena's "Twin Lamps and Slave Hunters", so I'm only keeping some insignificant lines here

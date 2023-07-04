@@ -1,0 +1,15 @@
+OrdinatorArmourFix.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(HighOrdinatorUniform)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        ARMO    indoril_almalexia_cuirass
+	tribunal.esm        ARMO    indoril_almalexia_helmet
+	tribunal.esm        ARMO    indoril_mh_guard_cuirass
+	tribunal.esm        ARMO    indoril_mh_guard_helmet
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        ENCH    her greaves_en
+
+[MOD-INF]: ID=7532245362007625229(Greeting:greeting 0)
+  bloodmoon.esm---------->|DATA|CNAM:Guard|FNAM:Temple|NAME:Where did you get that! The armor you wear is sacred to our Order. You shall be punished with blood!|SCVR:02sX0WearingOrdinatorUni|INTV|BNAM:;for ordinators when wearing their armor (helmet or cuirass)  Goodbye  SetFight 100  StartCombat player
+  OrdinatorArmourFix.ESP->|DATA|CNAM:Guard|FNAM:Temple|NAME:Where did you get that?! The armor you wear is sacred to our Order. You shall be punished with blood!|SCVR:02sX0WearingOrdinatorUni|INTV|SCVR:14JX4B8_MeetVivec|INTV:2|BNAM:;for ordinators when wearing their armor (helmet or cuirass)  Goodbye  StartCombat player

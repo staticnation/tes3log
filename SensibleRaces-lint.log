@@ -1,0 +1,19 @@
+SensibleRaces.esp: DUP-REC EXP-DEP MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (26) != Actual count (27)
+    [EXP-DEP] Expansion Dependency: Startup Script: ki_racialtoggle_start
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(KI_racialArgonian)
+	SCPT(KI_racialBosmer)
+	SCPT(KI_racialImperial)
+	SCPT(KI_racialKhajiit)
+	SCPT(KI_racialToggle_start)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       RACE    argonian
+	morrowind.esm       RACE    dark elf
+	morrowind.esm       RACE    high elf
+	morrowind.esm       RACE    imperial
+	morrowind.esm       RACE    khajiit
+	morrowind.esm       RACE    nord
+	morrowind.esm       RACE    orc
+	morrowind.esm       RACE    wood elf

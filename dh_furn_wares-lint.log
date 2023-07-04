@@ -1,0 +1,21 @@
+dh_furn_wares.esp: DUP-REC MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Wares-base.esm                266231 (plugin)      82499 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(dhf_is_mannequin_female)
+	SCPT(dhf_is_mannequin_male)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	wares-base.esm      CONT    aa_wares_trader
+	wares-base.esm      CONT    aa_wares_trader_hlaalu
+	wares-base.esm      CONT    aa_wares_trader_ic
+	wares-base.esm      CONT    aa_wares_trader_redo
+	wares-base.esm      CONT    aa_wares_trader_telv
+	wares-base.esm      LEVI    aa_trader_f_ash
+	wares-base.esm      LEVI    aa_trader_f_hlaalu
+	wares-base.esm      LEVI    aa_trader_f_ic
+	wares-base.esm      LEVI    aa_trader_f_legion
+	wares-base.esm      LEVI    aa_trader_f_redo
+	wares-base.esm      LEVI    aa_trader_f_telv
+	wares-base.esm      LEVI    aa_trader_f_temple
+	wares-base.esm      LEVI    aa_trader_illegal

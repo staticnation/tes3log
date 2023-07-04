@@ -1,0 +1,30 @@
+No One is Above the Law (Stable).ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(RFDAddStuff)
+	SCPT(RFDFactionAddTest)
+	SCPT(RFDFactionKickOut)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    rules
+	morrowind.esm       DIAL    rules_redoran
+	tribunal.esm        DIAL    greeting 0
+
+[MOD-INF]: ID=1152587411060828284(Journal:rules_redoran)
+  morrowind.esm------------------------>|DATA|NAME:These are the rules of House Redoran. Steal from my kin, strike my kin unprovoked, or murder my kin, and I shall be cast out and called enemy. I must not break my word of honor. I must know my place, serve my superiors, and do my duty to my House. I must respect the teachings of the Tribunal. I must defend my House, my People, and my Honor.
+  No One is Above the Law (Stable).ESP->|DATA|NAME:These are the rules of House Redoran. Steal, strike unprovoked, or murder outside self-defense, and I shall be cast out and called enemy. I must not break my word of honor. I must know my place, serve my superiors, and do my duty to my House. I must respect the teachings of the Tribunal. I must defend my House, my People, and my Honor.
+
+[MOD-INF]: ID=1553958902285827759(Greeting:greeting 0)
+  morrowind.esm------------------------>|DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 CrimeGoldTurnIn  SetPCCrimeLevel 0  PayFine
+  No One is Above the Law (Stable).ESP->|DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 CrimeGoldTurnIn  SetPCCrimeLevel 0  StartScript NoOneAboveTheLaw  StartScript RFDFactionKickOut  PayFine
+
+[MOD-INF]: ID=2768210666929210763(Greeting:greeting 0)
+  morrowind.esm------------------------>|DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 GetPCCrimeLevel  SetPCCrimeLevel 0  PayFine
+  No One is Above the Law (Stable).ESP->|DATA|CNAM:Guard|NAME:I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.|SCVR:01500|INTV|BNAM:Player->RemoveItem Gold_001 GetPCCrimeLevel  SetPCCrimeLevel 0  StartScript NoOneAboveTheLaw  StartScript RFDFactionKickOut  PayFine
+
+[MOD-INF]: ID=20172142971264027114(Greeting:greeting 0)
+  morrowind.esm------------------------>|DATA|CNAM:Guard|NAME:Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:GotoJail  Goodbye
+  No One is Above the Law (Stable).ESP->|DATA|CNAM:Guard|NAME:Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.|SCVR:01500|INTV|BNAM:StartScript NoOneAboveTheLaw  StartScript RFDFactionKickOut  GotoJail  Goodbye
+
+[MOD-INF]: ID=25215141482939015689(Topic:rules)
+  morrowind.esm------------------------>|DATA|FNAM:Redoran|NAME:Steal from your kin, strike your kin unprovoked, or murder your kin, and you shall be cast out from us and called our enemy. Do not break your word of honor. Know your place, serve your superiors, and do your duty to your House. Respect the teachings of the Tribunal. Defend your House, your People, and your Honor.|BNAM:Journal rules_redoran 1
+  No One is Above the Law (Stable).ESP->|DATA|FNAM:Redoran|NAME:A Redoran should always act honorable. Steal, strike unprovoked, or murder outside self-defense, and you shall be cast out from us and called our enemy. Do not break your word of honor. Know your place, serve your superiors, and do your duty to your House. Respect the teachings of the Tribunal. Defend your House, your People, and your Honor.|BNAM:Journal rules_redoran 1

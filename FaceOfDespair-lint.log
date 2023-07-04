@@ -1,0 +1,57 @@
+FaceOfDespair.esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(add_burialstatue)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    guar_pack
+	morrowind.esm       DIAL    chimer
+	morrowind.esm       DIAL    dragons
+	morrowind.esm       DIAL    guar
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    my imprisonment
+	morrowind.esm       DIAL    nerevar
+	morrowind.esm       DIAL    vivec
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=32281390961219948(Topic:my trade)
+  |DATA|ONAM:Vedam Dren|NAME:I am a noble, a leader and diplomat.
+
+[DUP-INF]: ID=137152282879213361(Topic:dragons)
+  |DATA|ONAM:m'aiq|NAME:Dragons? Oh, they're everywhere! You must fly very high to see most of them, though. The ones nearer the ground are very hard to see, being invisible.
+
+[DUP-INF]: ID=188120737128422991(Topic:khajiit)
+  |DATA|ONAM:ahnassi|NAME:Yes, Ahnassi is %Race. And %PCName is %PCRace. This suits Ahnassi just fine.|SCVR:01533|INTV:-
+
+[DUP-INF]: ID=224115145702628414(Topic:chimer)
+  |DATA|ONAM:artisa arelas|NAME:Chimer -- literally "the People of the North," an archaic and poetic usage -- were the Elven tribes who followed the prophet Veloth out of the southwest of Tamriel to settle in the lands now known as Morrowind. Dunmer fable says that before their skin turned dark with the Curse, the Dark Elves were known as the Chimer.|BNAM:; bard, bookseller, savant
+
+[DUP-INF]: ID=668886872354931319(Topic:my imprisonment)
+  |DATA|ONAM:mastrius|NAME:I have been trapped in this place for centuries, kept here by Azura, damn her meddlesome ways. I had lived for years, feeding off the human cattle until she imprisoned me here, leaving me weak, powerless, and helpless. I tire of feeding off rats to keep me alive. But I may have found a way to escape.|BNAM:Journal "VA_VampCurse" 20
+
+[DUP-INF]: ID=787419786402628286(Topic:background)
+  |DATA|ONAM:bugdul gro-kharbush|NAME:I'm the building foreman for Indarys Manor.
+
+[DUP-INF]: ID=1152220974292963699(Topic:guar)
+  |DATA|ONAM:Briring|NAME
+
+[DUP-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  |DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=1588813549227325295(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:All is silence. The road is straight, without turning, in darkness. Now let there be an end to all things.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:modDisposition -10  goodbye
+
+[DUP-INF]: ID=2094220342252388225(Topic:little advice)
+  |DATA|FNAM:Ashlanders|NAME:No one will ever grow rich hunting. But it is a pure pleasure for itself. Take your time. Sneak up on your prey. Surprise it with a swift, silent arrow. There is no greater pleasure than to drop a cliff racer with a single arrow.|SCVR:02sX4Random100|INTV
+
+[DUP-INF]: ID=24751243121729526233(Topic:vivec)
+  |DATA|ONAM:caius cosades|NAME:Vivec City, named for Vivec, a living god of Morrowind, is the largest settlement on Vvardenfell, and one of the largest cities in the East. Take the silt strider from Balmora to Vivec; it's fast, cheap, and safe. Or, if you're feeling adventurous, walk the road south from Balmora, past Pelagiad, through the Ascadian Isles to Vivec. Be careful. It's easy to lose the road or blunder into beasts when traveling by night or in bad weather. Travel by day to avoid getting lost. Or killed.|SCVR:04JX4A2_1_MeetSulMatuul|INTV|SCVR:14JX3A1_4_MuzgobInformant|INTV:2|BNAM:ShowMap Vivec  ;caius cosades
+
+[DUP-INF]: ID=27372153532436318414(Topic:nerevar)
+  |DATA|ONAM:gilvas barelo|NAME:I hope you find the books useful.|SCVR:04JX3A2_4_MiloGone_books|INTV

@@ -1,0 +1,116 @@
+The Imperial Dwemer Society.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MM_Button_Disconnected)
+	SCPT(MM_PlacerCellArgmg)
+	SCPT(MM_PlacerCellBthung)
+	SCPT(MM_PlacerCellGuild)
+	SCPT(MM_PlacerCellNchuleftingth)
+	SCPT(MM_PlacerCellNchurdamz)
+	SCPT(MM_PlacerDocs)
+	SCPT(MM_WallDisable_00)
+	SCPT(MM_WallDisable_01)
+	SCPT(MM_WallDisable_02)
+	SCPT(MM_WallDisable_03)
+	SCPT(MM_WallDisable_04)
+	SCPT(MM_armourdisplay)
+	SCPT(MM_door_Nchuleftingth)
+	SCPT(MM_door_Nchurdamz)
+	SCPT(MM_door_arkng)
+	SCPT(MM_door_bthungthumz)
+	SCPT(MM_door_impmuseum)
+	SCPT(MM_enableArcher)
+	SCPT(MM_enableSphere)
+	SCPT(MM_enableSpider)
+	SCPT(MM_enableSteam)
+	SCPT(MM_ench_desk_sc)
+	SCPT(MM_foundcellArkng)
+	SCPT(MM_foundcellBthum)
+	SCPT(MM_foundcellIDS)
+	SCPT(MM_foundcellNdamz)
+	SCPT(MM_foundcellNingth)
+	SCPT(MM_heartstone_harvest)
+	SCPT(MM_schedule00)
+	SCPT(MM_schedule05)
+	SCPT(MM_schedule10)
+	SCPT(MM_schedule15)
+	SCPT(MM_schedule20)
+	SCPT(MM_schemBethamez)
+	SCPT(MM_schemBox)
+	SCPT(MM_schemMzuleft)
+	SCPT(MM_schem_armour)
+	SCPT(MM_schem_bow)
+	SCPT(MM_schem_extract)
+	SCPT(MM_schem_head)
+	SCPT(MM_schem_recycler)
+	SCPT(MM_schem_smleter)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    bethamez
+	morrowind.esm       DIAL    blueprints
+	morrowind.esm       DIAL    dwemer
+	morrowind.esm       DIAL    excavation report
+	morrowind.esm       LAND    (-5, -6)
+	morrowind.esm       LEVI    random_dwarven_ingredients
+	morrowind.esm       LEVI    random_dwarven_misc
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       PGRD    arkngthunch-sturdumz
+	morrowind.esm       PGRD    bthungthumz
+	morrowind.esm       PGRD    nchuleftingth, test of pattern
+	morrowind.esm       PGRD    nchurdamz, interior
+	tribunal.esm        CREA    centurion_projectile
+	tribunal.esm        CREA    centurion_sphere
+	tribunal.esm        CREA    centurion_spider
+	tribunal.esm        CREA    centurion_steam
+	tribunal.esm        DIAL    a1_2_antabolisinformant
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    mg_bethamez
+	tribunal.esm        DIAL    mg_excavation
+	tribunal.esm        DIAL    mg_mzuleft
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=5255489245623642(Journal:a1_2_antabolisinformant)
+  |DATA|NAME:Antabolis Informant|QSTN
+
+[MOD-INF]: ID=21695341318391437(Journal:a1_2_antabolisinformant)
+  tribunal.esm-------------------->|DATA|NAME:Hasphat Antabolis gave me a Dwemer key that may be useful in the Arkngthand ruins.|QSTF
+  The Imperial Dwemer Society.ESP->|DATA|NAME:Hasphat Antabolis gave me a Dwemer key that may be useful in the Arkngthand ruins.
+
+[MOD-INF]: ID=130047342226573905(Topic:excavation report)
+  morrowind.esm------------------->|DATA|ONAM:edwinna elbert|NAME:Thank you, %PCName. This report will be helpful, I'm sure.|SCVR:01500|INTV|SCVR:15IX2bk_seniliasreport|INTV:|BNAM:Journal MG_Excavation 100  Player->RemoveItem "bk_SeniliasReport" 1  AddItem "bk_SeniliasReport" 1  ModPCFacRep 10 "Mages Guild"  ModDisposition 10  Player->ModReputation 1
+  The Imperial Dwemer Society.ESP->|DATA|ONAM:edwinna elbert|NAME:Thank you, %PCName. This report will be helpful, I'm sure. Be sure to talk again to Senilias, he might have made new discoveries.|SCVR:01500|INTV|SCVR:15IX2bk_seniliasreport|INTV:|BNAM:Journal MG_Excavation 100  Player->RemoveItem "bk_SeniliasReport" 1  AddItem "bk_SeniliasReport" 1  ModPCFacRep 10 "Mages Guild"  ModDisposition 10  Player->ModReputation 1
+
+[MOD-INF]: ID=661928379152566350(Journal:mg_bethamez)
+  tribunal.esm-------------------->|DATA|NAME:I brought the plans from Bethamez back to Edwinna.|QSTF
+  The Imperial Dwemer Society.ESP->|DATA|NAME:I brought the plans from Bethamez back to Edwinna.
+
+[DUP-INF]: ID=1958550751691917436(Topic:dwemer)
+  |DATA|ONAM:hasphat antabolis|NAME:The Dwemer are the fabled lost Dwarven race whose ruins and splendid artifacts are scattered across Tamriel. Elves use the term "Dwemer," connoting variously "deep-delving," "profound," and "close-counseled"; Imperial usage is "Dwarven," derived in fable from the affectionate regard of the Giant races for their "little" Dwemer friends. There are several Dwemer sites on Vvardenfell, and many have found Dwemer artifacts.|SCVR:34JX3A1_2_AntabolisInformant|INTV: 
+
+[MOD-INF]: ID=5269151592954812899(Journal:mg_excavation)
+  tribunal.esm-------------------->|DATA|NAME:I delivered the excavation report to Edwinna.|QSTF
+  The Imperial Dwemer Society.ESP->|DATA|NAME:I delivered the excavation report to Edwinna. Edwinna suggested I pay Senilias a visit later on to see if he has made new discoveries.|QSTF
+
+[MOD-INF]: ID=7180175991200525309(Journal:mg_mzuleft)
+  tribunal.esm-------------------->|DATA|NAME:I gave the Dwemer scarab plans I found in Mzuleft to Edwinna.|QSTF
+  The Imperial Dwemer Society.ESP->|DATA|NAME:I gave the Dwemer scarab plans I found in Mzuleft to Edwinna.
+
+[MOD-INF]: ID=8002247802714130809(Topic:blueprints)
+  morrowind.esm------------------->|DATA|ONAM:edwinna elbert|NAME:Yes, this is exactly what I was looking for. Excellent work, %PCRank.|SCVR:01500|INTV|SCVR:15IX2misc_dwrv_artifact10|INTV:|BNAM:Journal MG_Mzuleft 100  Player->RemoveItem misc_dwrv_artifact10 1  AddItem misc_dwrv_artifact10 1  ModPCFacRep 10 "Mages Guild"  ModDisposition 10
+  The Imperial Dwemer Society.ESP->|DATA|ONAM:edwinna elbert|NAME:Yes, this is exactly what I was looking for. Excellent work, %PCRank. I will send these blueprints to Hector Pleptus at the Imperial Dwemer Society once I've studied them. Talk to Hector to confirm reception of the blueprints.|SCVR:01500|INTV|SCVR:15IX2misc_dwrv_artifact10|INTV:|BNAM:Journal MG_Mzuleft 100  Player->RemoveItem misc_dwrv_artifact10 1  AddItem misc_dwrv_artifact10 1  ModPCFacRep 10 "Mages Guild"  ModDisposition 10
+
+[MOD-INF]: ID=21250289262982410476(Topic:bethamez)
+  morrowind.esm------------------->|DATA|ONAM:edwinna elbert|NAME:This is truly remarkable, %PCName. These plans are very similar. Perhaps with both of them in my possession, I can discover their secrets. It's a shame Arch-Mage Trebonius doesn't share your dedication to scholarship.|SCVR:01500|INTV|SCVR:15IX2misc_dwrv_artifact20|INTV:|BNAM:Journal MG_Bethamez 100  Player->RemoveItem misc_dwrv_artifact20 1  ModPCFacRep 15 "Mages Guild"  ModDisposition 20  Player->ModReputation 1
+  The Imperial Dwemer Society.ESP->|DATA|ONAM:edwinna elbert|NAME:This is truly remarkable, %PCName. These plans are very similar. Perhaps with both of them in my possession, I can discover their secrets. It's a shame Arch-Mage Trebonius doesn't share your dedication to scholarship. I will forward the schematics to Hector Pleptus at the Imperial Dwemer Society once I have studied them. Talk to him to confirmed reception.|SCVR:01500|INTV|SCVR:15IX2misc_dwrv_artifact20|INTV:|BNAM:Journal MG_Bethamez 100  Player->RemoveItem misc_dwrv_artifact20 1  ModPCFacRep 15 "Mages Guild"  ModDisposition 20  Player->ModReputation 1
+
+[MOD-INF]: ID=23267151031431824447(Journal:mg_excavation)
+  tribunal.esm-------------------->|DATA|NAME:I delivered the excavation report to Edwinna. She told me that the book I found, "Hanging Gardens of Wasten Coridale," is written in both Dwemer and classic Altmer and might be useful to a scholar of Dwemer literature.|QSTF
+  The Imperial Dwemer Society.ESP->|DATA|NAME:I delivered the excavation report to Edwinna. She told me that the book I found, "Hanging Gardens of Wasten Coridale," is written in both Dwemer and classic Altmer and might be useful to a scholar of Dwemer literature. Edwinna suggested I pay Senilias a visit later on to see if he has made new discoveries.|QSTF

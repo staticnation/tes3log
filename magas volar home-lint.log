@@ -1,0 +1,31 @@
+magas volar home.ESP: AUTOSPL DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	mvh_summonsaint1               Magas Volar: Summon Xania
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_bksrt_testscript)
+	SCPT(_mvh_scri_firstdoor)
+	SCPT(_mvh_scri_gateswitch)
+	SCPT(_mvh_scri_goldensaintmonitor)
+	SCPT(_mvh_scri_goldensaintscr)
+	SCPT(_mvh_scri_gsscript_02b)
+	SCPT(_mvh_scri_levitationcrystal)
+	SCPT(_mvh_scri_levitationscript)
+	SCPT(_mvh_scri_teleportspell)
+	SCPT(_mvh_scri_togglealchemy)
+	SCPT(_mvh_scri_unsort_ingred)
+	SCPT(_nvh_scri_Vampire_Aundae)
+	SCPT(amuletDaedraScript)
+	SCPT(magasScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    dremora_special_fyr
+	tribunal.esm        DIAL    greeting 0
+
+[DUP-INF]: ID=1970915763165106390(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=3053416069775816458(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AiWander 0 0 0 40 30 20 0 0 0 0 0 0

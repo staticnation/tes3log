@@ -1,0 +1,88 @@
+FG_Kill Hard-Heart.ESP: DUP-REC MENUMOD MISSAUT MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FG_Baurin_Barrel_Trigger)
+	SCPT(FG_Baurin_Revenge)
+	SCPT(FG_Baurin_Script)
+	SCPT(FG_HardHeartKillList_Timer)
+	SCPT(FG_HardHeartKillPesius_Timer)
+	SCPT(FG_Hard_Heart_Trip)
+	SCPT(FG_SjoringLegion)
+	SCPT(FG_SjoringOusted)
+	SCPT(FG_SjoringPrisonRags)
+	SCPT(FG_SjoringRevenge)
+	SCPT(FG_Sjoring_Crime_Topic)
+	SCPT(FG_Sjoring_Legionner)
+	SCPT(TG_Hard_Heart_Trip)
+	SCPT(lorbumolScript)
+	SCPT(sjoringScript)
+	SCPT(staceyScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    gentleman jim stacey
+	morrowind.esm       DIAL    jobs
+	morrowind.esm       DIAL    orvas dren
+	morrowind.esm       DIAL    sjoring hard-heart
+	morrowind.esm       NPC_    baurin
+	tribunal.esm        DIAL    advancement
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    fg_killhardheart
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    tg_killhardheart
+
+[MOD-INF]: ID=157232741256349268(Topic:sjoring hard-heart)
+  morrowind.esm---------->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:So Sjoring Hard-Heart is dead. Whatever his personal vendetta, he won't trouble our Guild again. The remaining leaders of the Fighters Guild are more sympathetic to us. Since you've saved the Thieves Guild here in Vvardenfell, I think you deserve this. It's the Skeleton Key--the most perfect tool ever created for lockpicking. I found it when I lived in Hammerfell. Use it wisely. Now, I have new jobs for you to do.|SCVR:06DX3sjoring hard-heart|INTV|SCVR:14JX0TG_KillHardHeart|INTV: |BNAM:Journal TG_KillHardHeart 100  Player->AddItem Skeleton_key 1  ModPCFacRep 15 "Thieves Guild"  ModDisposition 15
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:So Sjoring Hard-Heart is dead. Whatever his personal vendetta, he won't trouble our Guild again. The remaining leaders of the Fighters Guild are more sympathetic to us. Since you've saved the Thieves Guild here in Vvardenfell, I think you deserve this. It's the Skeleton Key--the most perfect tool ever created for lockpicking. I found it when I lived in Hammerfell. Use it wisely. Now, I have new jobs for you to do.|SCVR:06DX3sjoring hard-heart|INTV|SCVR:14JX3TG_KillHardHeart|INTV: |BNAM:Journal TG_KillHardHeart 100  Player->AddItem Skeleton_key 1  ModPCFacRep 15 "Thieves Guild"  ModDisposition 15
+
+[MOD-INF]: ID=214594804292603296(Topic:jobs)
+  morrowind.esm---------->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:Actually, this is the final job I'll give you. Take care of the Guild. You've done great things, %PCName. With you here, I think it's safe for me to take a little vacation. Maybe go back to Hammerfell, see the old family. Until I get back, I'm leaving the Guild in your capable hands.|SCVR:34JX3TG_KillHardHeart|INTV:d|BNAM:PCRaiseRank
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:With Sjoring Hard-Heart dead actually, this is the final job I'll give you. Take care of the Guild. You've done great things, %PCName. With you here, I think it's safe for me to take a little vacation. Maybe go back to Hammerfell, see the old family. Until I get back, I'm leaving the Guild in your capable hands.|SCVR:34JX3TG_KillHardHeart|INTV:d|SCVR:46DX2sjoring hard-heart|INTV:|BNAM:Choice "I do not know how to run the guild." 1 "It would be my pleasure, sir gentleman Stacey." 2
+
+[MOD-INF]: ID=239495628700830035(Topic:sjoring hard-heart)
+  morrowind.esm---------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring is already dead? I'm glad to hear it, %PCName. You've saved the Fighters Guild from the corruption of the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX0FG_KillHardHeart|INTV:|SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring behind the bars where he belongs.|SCVR:34JX3FG_KillHardHeart|INTV:n|SCVR:44JX5FG_KillHardHeart|INTV:s|SCVR:56DX1sjoring hard-heart|INTV
+
+[MOD-INF]: ID=297439947228448298(Greeting:greeting 5)
+  morrowind.esm---------->|DATA|ONAM:sjoring hard-heart|NAME:Have you done what I asked? Are the Thieves Guild Bosses taken care of yet?|SCVR:04JX3FG_KillBosses|INTV: |SCVR:14JX4FG_KillBosses|INTV:d
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:sjoring hard-heart|NAME:Have you done what I asked? Are the Thieves Guild Bosses taken care of yet?|SCVR:04JX5FG_KillBosses|INTV: 
+
+[MOD-INF]: ID=726618815414722443(Topic:orders)
+  morrowind.esm---------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:You did quite a job on the local heads of the Thieves Guild. Now it's time to take care of the Master Thief in Vivec.|SCVR:34JX3FG_BigBosses|INTV:d
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:You did quite a job on the local heads of the Thieves Guild. Now it's time to take care of the Master Thief in Vivec.|SCVR:34JX3FG_KillBosses|INTV:d
+
+[MOD-INF]: ID=1368823450872210624(Topic:sjoring hard-heart)
+  morrowind.esm---------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Although Sjoring Hard-Heart is dead, we must not rest easily. I fear there are troubling times ahead, not just for the Fighters Guild, but for all of Tamriel. Be wary and always ready for the threats yet to come. Use your position as Guildmaster to try and protect the Fighters Guild, not by allying with such as the Camonna Tong, but with hard work and high standards.|SCVR:34JX3FG_KillHardHeart|INTV:d
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Although Sjoring Hard-Heart is dead, we must not rest easily. I fear there are troubling times ahead, not just for the Fighters Guild, but for all of Tamriel. Be wary and always ready for the threats yet to come. Use your position as Guildmaster to try and protect the Fighters Guild, not by allying with such as the Camonna Tong, but with hard work and high standards.|SCVR:34JX3FG_KillHardHeart|INTV:d|SCVR:46DX2sjoring hard-heart|INTV:
+
+[MOD-INF]: ID=1389816403228121303(Journal:fg_killhardheart)
+  tribunal.esm----------->|DATA|NAME:Percius Mercius thanked me for killing Sjoring Hard-Heart. He promoted me to Master of the Fighters Guild.|QSTF
+  FG_Kill Hard-Heart.ESP->|DATA|NAME:Percius Mercius thanked me for killing Sjoring Hard-Heart. I refused his proposition to be a guild master of the Fighters Guild.|QSTF
+
+[MOD-INF]: ID=1925031993149376817(Topic:orders)
+  morrowind.esm---------->|DATA|ONAM:sjoring hard-heart|NAME:Just kill the Thieves Guild bosses like I told you. Then we can talk about the future of the Fighters Guild.|SCVR:34JX3FG_KillBosses|INTV: 
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:Just kill the Thieves Guild bosses like I told you. Then we can talk about the future of the Fighters Guild.|SCVR:34JX3FG_KillBosses|INTV: |SCVR:44JX5FG_KillBosses|INTV
+
+[MOD-INF]: ID=2244531533295620046(Greeting:greeting 5)
+  morrowind.esm---------->|DATA|ONAM:sjoring hard-heart|NAME:Our time is almost upon us. What have you done about the Master Thief?|SCVR:04JX3FG_BigBosses|INTV: |SCVR:14JX4FG_BigBosses|INTV:d
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:sjoring hard-heart|NAME:Our time is almost upon us. What have you done about the Master Thief?|SCVR:04JX5FG_BigBosses|INTV: 
+
+[MOD-INF]: ID=2571320421097520523(Topic:sjoring hard-heart)
+  morrowind.esm---------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You must kill the Guildmaster Sjoring Hard-Heart. He'll likely be in the Fighters Guild in Vivec, and he'll be expecting you.|SCVR:04JX3FG_KillHardHeart|INTV: |SCVR:14JX4FG_KillHardHeart|INTV:d
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You must kill the Guildmaster Sjoring Hard-Heart. He'll likely be in the Fighters Guild in Vivec, and he'll be expecting you.|SCVR:04JX3FG_KillHardHeart|INTV: |SCVR:14JX4FG_KillHardHeart|INTV
+
+[MOD-INF]: ID=2601311142807014922(Topic:sjoring hard-heart)
+  morrowind.esm---------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX3FG_KillHardHeart|INTV: |SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster.|SCVR:34JX3FG_KillHardHeart|INTV: |SCVR:56DX3sjoring hard-heart|INTV|BNAM:Choice "It would be an honor." 1 "No you keep this title." 2
+
+[MOD-INF]: ID=14084242313055710359(Topic:orders)
+  morrowind.esm---------->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:I've watched your progress in the Fighters Guild, %PCName. You'll make a fine Guildmaster someday. But with all the unrest in Cyrodiil city, we need allies to make sure there's still a Fighter's Guild here for you. I need you to kill the Thieves Guild bosses.
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:I've watched your progress in the Fighters Guild, %PCName. You'll make a fine Guildmaster someday. But with all the unrest in Cyrodiil city, we need allies to make sure there's still a Fighter's Guild here for you. I need you to kill the Thieves Guild bosses.|SCVR:04JX0FG_KillBosses|INTV:
+
+[MOD-INF]: ID=16943170021506831186(Journal:tg_killhardheart)
+  tribunal.esm----------->|DATA|NAME:Gentleman Jim Stacey thanked me for killing Sjoring Hard-Heart and gave me the Skeleton Key, a priceless artifact.|QSTF
+  FG_Kill Hard-Heart.ESP->|DATA|NAME:Gentleman Jim Stacey thanked me for getting Sjoring Hard-Heart jailed for life and gave me the Skeleton Key, a priceless artifact.|QSTF
+
+[MOD-INF]: ID=31547305661085429731(Topic:sjoring hard-heart)
+  morrowind.esm---------->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:Sjoring Hard-Heart is dead. His vendetta is over.|SCVR:34JX3TG_KillHardHeart|INTV:d
+  FG_Kill Hard-Heart.ESP->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:Sjoring Hard-Heart is dead. His vendetta is over.|SCVR:34JX3TG_KillHardHeart|INTV:d|SCVR:46DX2sjoring hard-heart|INTV:

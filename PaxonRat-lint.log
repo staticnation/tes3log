@@ -1,0 +1,11 @@
+PaxonRat.esp: DUP-REC MENUMOD OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AA1_DialExtras)
+	SCPT(AA1_PaxonBumpScript)
+	SCPT(AA1_PaxonClean)
+	SCPT(AA1_PaxonLevel)
+	SCPT(AA1_PaxonStats)
+	SCPT(AA1_PaxonWarp)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5

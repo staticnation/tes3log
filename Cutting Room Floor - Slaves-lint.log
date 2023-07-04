@@ -1,0 +1,61 @@
+Cutting Room Floor - Slaves.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (52) != Actual count (50)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Pub_Smora_Gateway)
+	SCPT(Pub_Vivec_Lizard)
+	SCPT(TelBranoraSlaveScript)
+	SCPT(brallionScript)
+	SCPT(gatewaySlaveScript)
+	SCPT(molagMarSlaveScript)
+	SCPT(suranSlaveScript)
+	SCPT(telaruhnSlaveScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    get me out
+	morrowind.esm       DIAL    go free
+	morrowind.esm       NPC_    brallion
+	morrowind.esm       NPC_    clibergus urgelian
+	morrowind.esm       NPC_    dranas sarathram
+	morrowind.esm       NPC_    felen maryon
+	morrowind.esm       NPC_    gils drelas
+	morrowind.esm       NPC_    goler andrethi
+	morrowind.esm       NPC_    manara othan
+	morrowind.esm       NPC_    mogak gra-ugruma
+	morrowind.esm       NPC_    nalion
+	morrowind.esm       NPC_    savile imayn
+	morrowind.esm       NPC_    sinyaramen
+	morrowind.esm       NPC_    teegla
+	morrowind.esm       NPC_    therana
+	morrowind.esm       NPC_    urzoth gra-bargamph
+	morrowind.esm       NPC_    yakov
+	morrowind.esm       NPC_    zabarbael
+
+[MOD-INF]: ID=7242622142754312(Topic:go free)
+  morrowind.esm------------------->|DATA|CNAM:Slave|ANAM:Tel Branora|NAME:No. There is no escape.
+  Cutting Room Floor - Slaves.esp->|DATA|CNAM:Slave|ANAM:Tel Branora|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_telbranoraslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=286961629738253393(Topic:get me out)
+  |DATA|ANAM:Pelagiad, South Wall|NAME:You have the key. Will you free me, %PCName?|SCVR:05IX2key_standard_01_pel_fort_prison|INTV:|SCVR:13sX0prisonerFreed|INTV:|BNAM:Choice "Yes, I will free you." 1 "No, rot here in jail." 2
+
+[MOD-INF]: ID=344923501556916651(Topic:go free)
+  morrowind.esm------------------->|DATA|CNAM|NAME:No, there is no escape.|SCVR:05IX3key_telaruhnslaves_01|INTV
+  Cutting Room Floor - Slaves.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_telaruhnslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[MOD-INF]: ID=624284792753415499(Topic:go free)
+  morrowind.esm------------------->|DATA|CNAM:Slave|ANAM:Suran, Suran Slave Market|NAME:No. There is no escape.
+  Cutting Room Floor - Slaves.esp->|DATA|CNAM:Slave|ANAM:Suran, Suran Slave Market|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_suranslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=1577061643167831582(Topic:get me out)
+  |DATA|NAME:You'll need the key to free me of my bonds.|SCVR:03sX0prisonerFreed|INTV:
+
+[MOD-INF]: ID=2411283323124512985(Topic:go free)
+  morrowind.esm------------------->|DATA|CNAM:Slave|ANAM:Sadrith Mora, Gateway Inn|NAME:No. There is no hope for us.
+  Cutting Room Floor - Slaves.esp->|DATA|ONAM:s'rava|CNAM:Slave|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_GatewayInnslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[MOD-INF]: ID=2590123069223445779(Topic:go free)
+  morrowind.esm------------------->|DATA|CNAM|NAME:No. There is no hope for us.
+  Cutting Room Floor - Slaves.esp->|DATA|CNAM|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_molagmarslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[MOD-INF]: ID=19690135432027614893(Topic:go free)
+  morrowind.esm------------------->|DATA|CNAM:Slave|ANAM:Sadrith Mora|NAME:No. There is no hope for us.
+  Cutting Room Floor - Slaves.esp->|DATA|CNAM:Slave|ANAM:Vivec, The Lizard's Head|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_viveclizardheadslave_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2

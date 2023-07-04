@@ -1,0 +1,128 @@
+Tel_Aruhn_Chronicles.ESP: DUP-INF DUP-REC GETSND MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF MOD-IID OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1183353 (plugin)    1567893 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(LLCS_bard_lute)
+	SCPT(LLCS_drummer_s)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AB_TelRootRetracting_s1)
+	SCPT(LLCS_FG_bosmersaved_s)
+	SCPT(LLCS_FG_enable_s)
+	SCPT(LLCS_FG_neria_script)
+	SCPT(LLCS_FG_slavesaved_s)
+	SCPT(LLCS_bard_lute)
+	SCPT(LLCS_berwen_script)
+	SCPT(LLCS_cultist_forcegreet_s)
+	SCPT(LLCS_cup_script)
+	SCPT(LLCS_duneon_door_s)
+	SCPT(LLCS_gamer_script)
+	SCPT(LLCS_scream)
+	SCPT(LLCS_sload_forcegreet_s)
+	SCPT(LLCS_sload_report_s)
+	SCPT(LLCS_test_vidi)
+	SCPT(LLCS_underground_roots_s)
+	SCPT(savileSlaveTrader)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    m'nashi
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       CONT    de_p_desk_01_bildren
+	morrowind.esm       DIAL    abolitionists
+	morrowind.esm       DIAL    ciralinde
+	morrowind.esm       DIAL    davina
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    gothren
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    household slaves
+	morrowind.esm       DIAL    jadier mannick
+	morrowind.esm       DIAL    manilian scerius
+	morrowind.esm       DIAL    menelras
+	morrowind.esm       DIAL    plan
+	morrowind.esm       DIAL    s'bakha
+	morrowind.esm       DIAL    sload soap
+	morrowind.esm       LAND    (14, 5)
+	morrowind.esm       LAND    (14, 6)
+	morrowind.esm       LAND    (15, 5)
+	morrowind.esm       LAND    (15, 6)
+	morrowind.esm       LAND    (16, 5)
+	morrowind.esm       LAND    (16, 6)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       MISC    key_tel_aruhn_slave1
+	morrowind.esm       NPC_    berwen
+	morrowind.esm       NPC_    bralis seralas
+	morrowind.esm       NPC_    menelras
+	morrowind.esm       NPC_    mogak gra-ugruma
+	morrowind.esm       NPC_    nelyn sadri
+	morrowind.esm       NPC_    savile imayn
+	morrowind.esm       NPC_    shagdub gra-murz
+	morrowind.esm       NPC_    shuzug gro-bug
+	morrowind.esm       NPC_    urzoth gra-bargamph
+	morrowind.esm       PGRD    tel aruhn
+	morrowind.esm       PGRD    tel aruhn, underground
+	morrowind.esm       PGRD    yansirramus, shrine
+	oaab_data.esm       LIGH    ab_light@_day1000
+	tamriel_data.esm    DIAL    dunmer
+	tamriel_data.esm    DIAL    greeting 3
+	tamriel_data.esm    DIAL    mages guild
+	tamriel_data.esm    DIAL    orc
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        FACT    hands of almalexia
+
+[MOD-INF]: ID=10009858175861683(Topic:household slaves)
+  morrowind.esm------------>|DATA|ONAM:savile imayn|NAME:The following slaves are available for purchase: S'Bakha, a Khajiit male; Manilian Scerius, an Imperial male; Menelras, a Bosmer male; Ciralinde, an Altmer female; Jadier Mannick, a Breton male, and Davina, a Redguard female.|BNAM:;in case the player has never had this topic added... rare  AddTopic "go free"
+  Tel_Aruhn_Chronicles.ESP->|DATA|ONAM:savile imayn|NAME:The following slaves are available for purchase: S'Bakha, a Khajiit male; Manilian Scerius, an Imperial male; Menelras, a Bosmer male; Ciralinde, an Altmer female; Jadier Mannick, a Breton male, and Davina, a Redguard female; Ubaairra, a Khajiit male; Nem-Rei, an Argonian female.|BNAM:;in case the player has never had this topic added... rare  AddTopic "go free"
+
+[MOD-INF]: ID=100781054114564566(Topic:davina)
+  morrowind.esm------------>|DATA|ONAM:savile imayn|NAME:Davina is now yours. I will have her brought forth from the slavepit. She should be waiting just inside.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV|BNAM:Set davinaBought to 1  Player->RemoveItem Gold_001 1000  AddItem Gold_001 1000  "Davina"->PositionCell 1030 -2660 180 180 "Tel Aruhn, Underground"  Set "Davina".slaveStatus to 2
+  Tel_Aruhn_Chronicles.ESP->|DATA|ONAM:savile imayn|NAME:Davina is now yours. I will have her brought forth from the slave prison. She should be waiting inside.|SCVR:01500|INTV|SCVR:15IX3Gold_001|INTV|BNAM:Set davinaBought to 1  Player->RemoveItem Gold_001 1000  AddItem Gold_001 1000  "Davina"->PositionCell 2961 -4618 1785 -90 "Tel Aruhn, Underground"  Set "Davina".slaveStatus to 2
+
+[MOD-INF]: ID=1215227585220936854(:greeting 1)
+  tribunal.esm------------->|DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+  Tel_Aruhn_Chronicles.ESP->|NAME:Who's there?|DELE:
+
+[DUP-INF]: ID=1470721697254192970(Topic:little advice)
+  |DATA|ONAM:svenja_outside|NAME:Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't...something inside waiting for you. Be ready for a fight.
+
+[DUP-INF]: ID=1906014833141124249(Topic:specific place)
+  |DATA|ONAM:Carnius Magius|NAME:The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock, however, boasts a bar and a Trader's Outpost. All thanks to me, of course.|SCVR:02sX3ColonyState|INTV: |SCVR:12sX0ColonyService|INTV
+
+[MOD-INF]: ID=2976914359150945474(Topic:services)
+  morrowind.esm------------>|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0savile imayn|INTV|SCVR:37XX0Daynas Darys|INTV|SCVR:47XX0Drarayne Girith|INTV|SCVR:57XX0emusette bracques|INTV|BNAM:;Suran
+  Tel_Aruhn_Chronicles.ESP->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0savile imayn|INTV|SCVR:37XX0Daynas Darys|INTV|SCVR:4BLX0Tel Aruhn, Plot and Plaster|INTV|BNAM:;Suran
+
+[DUP-INF]: ID=9288304031305031448(Topic:gothren)
+  |DATA|NAME:Gothren lives in the tower. There's a south-facing door into the Upper Tower at the top of stairs from the upper terrace. You have to fly to get to the upper terrace. You can't get to Gothren through the Tower Entry or the Tower Living Quarters.|SCVR:06DX0gothren|INTV:|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=9560247611969014542(Topic:gothren)
+  |DATA|ANAM:Tel Aruhn, Upper Tower|NAME:Gothren is in the upper level, to the east.|SCVR:06DX0gothren|INTV:|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=10520313452757123850(Topic:m'nashi)
+  bloodmoon.esm------------>|DATA|ONAM:uncle sweetshare|NAME:M'nashi was my assistant!  He helped me make my candy!  He so loved his sugar, M'nashi did.  Loved it a little too much, I'm afraid!  He died, you see.  His, ah, sweet tooth got the better of him.  I buried him, just outside.  We had a lovely little ceremony.  The horkers came and sang for him, they did!  He he he!  Ha ha ha ha ha!|SCVR:04JX3BM_MoonSugar|INTV:
+  Tel_Aruhn_Chronicles.ESP->|DATA|ONAM:uncle sweetshare|ANAM:Abaelun Mine|NAME:M'nashi was my assistant!  He helped me make my candy!  He so loved his sugar, M'nashi did.  Loved it a little too much, I'm afraid!  He died, you see.  His, ah, sweet tooth got the better of him.  I buried him, just outside.  We had a lovely little ceremony.  The horkers came and sang for him, they did!  He he he!  Ha ha ha ha ha!|SCVR:04JX3BM_MoonSugar|INTV:
+
+[MOD-INF]: ID=16212155803018311111(Topic:menelras)
+  morrowind.esm------------>|DATA|ONAM:savile imayn|NAME:I'm sorry but you don't have enough gold to afford my fine slaves.|SCVR:01500|INTV
+  Tel_Aruhn_Chronicles.ESP->|DATA|ONAM:savile imayn|NAME:I'm sorry but you don't have enough gold to afford my fine slaves.|SCVR:01500|INTV|SCVR:15IX4Gold_001|INTV
+
+[MOD-INF]: ID=16212155803018311111(Topic:menelras)
+  morrowind.esm------------>|DATA|ONAM:savile imayn|NAME:I'm sorry but you don't have enough gold to afford my fine slaves.|SCVR:01500|INTV
+  Tel_Aruhn_Chronicles.ESP->|DATA|ONAM:savile imayn|NAME:I'm sorry but you don't have enough gold to afford my fine slaves.|SCVR:01500|INTV|SCVR:15IX4Gold_001|INTV
+[MOD-IID]: ID=32242285152533521976(Topic:ubaairra),ID=12824243412585815675(Topic:nem-rei)
+  Tel_Aruhn_Chronicles.ESP->I'm sorry but you don't have enough gold to afford my fine slaves.

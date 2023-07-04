@@ -1,0 +1,34 @@
+Strange Man at Gindrala Hleran's House Overhaul.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AA_SMScript)
+	SCPT(G93_StrangeMan)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    strange man
+	morrowind.esm       NPC_    dreamer_talker02
+	tribunal.esm        DIAL    a1_sleeperdreamer02
+
+[DUP-INF]: ID=1659348432149450(Journal:a1_sleeperdreamer02)
+  |DATA|NAME:I told Gindrala Hleran that I had to kill the strange man who had invaded her house. She was grateful, and promised to tell everyone how kind and brave I'd been.|QSTF
+
+[MOD-INF]: ID=1130022589237875643(Topic:strange man)
+  morrowind.esm--------------------------------------->|DATA|ONAM:gindrala hleran|NAME:Please. Get him out of my house. He's scaring me.|SCVR:04JX3A1_SleeperDreamer02|INTV|SCVR:16DX0Dreamer_Talker02|INTV:
+  Strange Man at Gindrala Hleran's House Overhaul.ESP->|DATA|ONAM:gindrala hleran|NAME:Please. Get him out of my house. He's scaring me.|SCVR:04JX0A1_SleeperDreamer02|INTV|SCVR:16DX0Dreamer_Talker02|INTV:
+
+[MOD-INF]: ID=2230420380811519217(Topic:strange man)
+  morrowind.esm--------------------------------------->|DATA|ONAM:gindrala hleran|NAME:Goodness. Is he... dead? How unpleasant. Was it very dangerous? I'm sorry. I really have nothing to give you but my thanks. But I'll tell everyone how kind and brave you were to help me.|SCVR:16DX0Dreamer_Talker02|INTV|BNAM:Journal A1_SleeperDreamer02 50  player->modReputation 1
+  Strange Man at Gindrala Hleran's House Overhaul.ESP->|DATA|ONAM:gindrala hleran|NAME:Goodness. Is he... dead? How unpleasant. Was it very dangerous? I'm sorry. I really have nothing to give you but my thanks. But I'll tell everyone how kind and brave you were to help me.|SCVR:04JX0A1_SleeperDreamer02|INTV|SCVR:16DX0Dreamer_Talker02|INTV|SCVR:25IX3key_gindrala|INTV|BNAM:Journal A1_SleeperDreamer02 50  player->modReputation 1  Player->removeitem "key_gindrala" 1
+
+[MOD-INF]: ID=5450236161264522728(Topic:strange man)
+  morrowind.esm--------------------------------------->|DATA|ONAM:gindrala hleran|NAME:He's talking to himself. He won't listen to me. He looks very strange. He stares at me funny. And he seems to have lost his shirt. Please. Get him out of there? He's scaring me.|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0Dreamer_Talker02|INTV:|BNAM:Journal A1_SleeperDreamer02 1  player->additem key_gindrala 1
+  Strange Man at Gindrala Hleran's House Overhaul.ESP->|DATA|ONAM:gindrala hleran|NAME:He's talking to himself. He won't listen to me. He looks very strange. He stares at me funny. And he seems to have lost his shirt. Please. Get him out of there? He's scaring me.|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0Dreamer_Talker02|INTV:|SCVR:24JX4A1_SleeperDreamer02|INTV|BNAM:Journal A1_SleeperDreamer02 1  player->additem key_gindrala 1
+
+[MOD-INF]: ID=7162151183142518854(Topic:strange man)
+  morrowind.esm--------------------------------------->|DATA|ONAM:gindrala hleran|NAME:Thank you again for your help.|SCVR:04JX3A1_SleeperDreamer02|INTV:2
+  Strange Man at Gindrala Hleran's House Overhaul.ESP->|DATA|ONAM:gindrala hleran|NAME:Thank you again for your help.|SCVR:04JX0A1_SleeperDreamer02|INTV:2
+
+[MOD-INF]: ID=7162151183142518854(Topic:strange man)
+  morrowind.esm--------------------------------------->|DATA|ONAM:gindrala hleran|NAME:Thank you again for your help.|SCVR:04JX3A1_SleeperDreamer02|INTV:2
+  Strange Man at Gindrala Hleran's House Overhaul.ESP->|DATA|ONAM:gindrala hleran|NAME:Thank you again for your help.|SCVR:04JX0A1_SleeperDreamer02|INTV:2
+[MOD-IID]: ID=16780112562085623072
+  Strange Man at Gindrala Hleran's House Overhaul.ESP->Thank you again for your help.

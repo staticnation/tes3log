@@ -1,0 +1,47 @@
+FG BeneranBounty Alternative.ESP: DUP-INF DUP-REC EXP-DEP MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	INFO(17581244982911615223)           placeitemcell
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BeneranCuirassMover)
+	SCPT(BeneranDeathJournal)
+	SCPT(BeneranGangAttackPlayer)
+	SCPT(BeneranGangHipies)
+	SCPT(BeneranOrvasMeeting)
+	SCPT(OrvasLetterReadCheck)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    nerer beneran
+	morrowind.esm       NPC_    dalmil varen
+	morrowind.esm       NPC_    gavesu arelas
+	morrowind.esm       NPC_    llero lloran
+	morrowind.esm       NPC_    milynea andrethi
+	morrowind.esm       NPC_    nerer beneran
+	morrowind.esm       NPC_    raynila aryon
+	morrowind.esm       NPC_    varon sadralo
+	morrowind.esm       NPC_    varvsa athram
+	tribunal.esm        DIAL    fg_beneranbounty
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 9
+
+[DUP-INF]: ID=191217264158619624(Topic:nerer beneran)
+  |DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work. Nerer Beneran has been brought to justice. Here's your share of the bounty, %PCName.|SCVR:56DX3nerer beneran|INTV|BNAM:ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 10  Player->AddItem Gold_001 500  Journal FG_BeneranBounty 100
+
+[MOD-INF]: ID=2064631212418219601(Topic:nerer beneran)
+  morrowind.esm-------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Nerer Beneran was a member of House Redoran. He is now the leader of an outlaw band in Sargon which is north of Maar Gan. Find Nerer Beneran and bring him to justice.|SCVR:34JX3FG_Vas|INTV:d|BNAM:Journal FG_BeneranBounty 10
+  FG BeneranBounty Alternative.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Nerer Beneran was a member of House Redoran. He is now the leader of an outlaw band in Sargon which is north of Maar Gan. Find Nerer Beneran and bring him to justice.|SCVR:34JX3FG_Vas|INTV:d|BNAM:Journal FG_BeneranBounty 10  startscript BeneranDeathJournal
+
+[DUP-INF]: ID=2242341882440524098(Journal:fg_beneranbounty)
+  |DATA|NAME:I have been told that Sargon is located far north of Maar Gan and southwest of Vas, and that the trek there is a very long one.
+
+[DUP-INF]: ID=4389297022823619711(Journal:fg_beneranbounty)
+  |DATA|NAME:Percius Mercius thanked me for bringing Nerer Beneran's crimes to an end.|QSTF
+
+[MOD-INF]: ID=17581244982911615223(Topic:nerer beneran)
+  morrowind.esm-------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Like I said, go to the outlaw refuge Sargon and bring Nerer Beneran to justice.|SCVR:34JX3FG_BeneranBounty|INTV: 
+  FG BeneranBounty Alternative.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:I would recognize this cuirass from miles. I used to know Nerer Beneran when I was Master of the Fighters Guild. There is nothing we can do for those that turn rogue but hope they submit themselves before the law to solve the matter peacefully. I will take the cuirass and send it to the House Redoran.|SCVR:25IX0ebony_cuirass_beneran|INTV|SCVR:34JX0FG_BeneranBounty|INTV:7|SCVR:46DX1nerer beneran|INTV|BNAM:Journal FG_BeneranBounty 105  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 5  Player->AddItem Gold_001 500  Player->removeitem "ebony_cuirass_beneran" 1  PlaceItemCell "ebony_cuirass_beneran", "Ald-ruhn, Venim Manor Private Quarters", -619.223022, -86.923813, 103.869614, 300
+
+[DUP-INF]: ID=21101133601380211667(Greeting:greeting 5)
+  |DATA|ONAM:general darius|NAME:Report on the land deed.|SCVR:04JX2IL_WidowLand|INTV:|SCVR:14JX4IL_WidowLand|INTV:d
+
+[DUP-INF]: ID=25249198542886620984(Greeting:greeting 9)
+  |DATA|NAME:I STILL don't like you. And I STILL don't want to talk to you.|BNAM:;last greeting 9, below this unreachable code

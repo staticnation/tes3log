@@ -1,0 +1,53 @@
+Service_Requirements (2).esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_SR_alds_baro_lowerRank)
+	SCPT(_SR_alveno_andules_lowerRank)
+	SCPT(_SR_anis_seloth_lowerRank)
+	SCPT(_SR_anruin_lowerRank)
+	SCPT(_SR_balen_andrano_lowerRank)
+	SCPT(_SR_dabienne_mornardl_raiseRank)
+	SCPT(_SR_emelia_duronia_lowerRank)
+	SCPT(_SR_gadayn_andarys_lowerRank)
+	SCPT(_SR_galuro_belan_lowerRank)
+	SCPT(_SR_ganalyn_saram_lowerRank)
+	SCPT(_SR_garas_seloth_lowerRank)
+	SCPT(_SR_melie_frenck_lowerRank)
+	SCPT(_SR_pierl_rostorard_lowerRank)
+	SCPT(_SR_savard_lowerRank)
+	SCPT(_SR_sedam_omalen_lowerRank)
+	SCPT(_SR_tanar_llervi_raiseRank)
+	SCPT(_SR_telis_salvani_lowerRank)
+	SCPT(_SR_telvon_llethan_lowerRank)
+	SCPT(_SR_thervul_serethi_lowerRank)
+	SCPT(_SR_tuveso_beleth_lowerRank)
+	SCPT(_SR_ulmiso_maloren_lowerRank)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       DIAL    price on your head
+
+[MOD-INF]: ID=234512316206927033(Topic:price on your head)
+  morrowind.esm---------------->|DATA|ONAM:arantamo|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2
+  Service_Requirements (2).esp->|DATA|ONAM:arantamo|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount_SR gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2
+
+[DUP-INF]: ID=611830938156582687(Persuasion:service refusal)
+  |DATA|RNAM:Khajiit|FNAM:Thieves Guild|NAME:You turned in Elmussa Damori who was %Name's friend. %Name gives you nothing until %Name forgives you.|SCVR:01475|INTV:|SCVR:34JX3HH_CaptureSpy|INTV:n
+
+[MOD-INF]: ID=1328358151231324457(Topic:price on your head)
+  morrowind.esm---------------->|DATA|ONAM:rissinia|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2
+  Service_Requirements (2).esp->|DATA|ONAM:rissinia|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount_SR gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2
+
+[DUP-INF]: ID=2890220726556429297(Persuasion:service refusal)
+  |DATA|NAME:You're not the type I like to deal with.
+
+[MOD-INF]: ID=24122315662111218808(Topic:price on your head)
+  morrowind.esm---------------->|DATA|ONAM:phane rielle|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2
+  Service_Requirements (2).esp->|DATA|ONAM:phane rielle|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount_SR gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2
+
+[MOD-INF]: ID=28131227231632925176(Topic:price on your head)
+  morrowind.esm---------------->|DATA|NAME:Smart thinking, %PCRank. I'll take care of everything.|SCVR:01500|INTV|SCVR:12sX0PCHasGoldDiscount|INTV|BNAM:Player->RemoveItem Gold_001 CrimeGoldDiscount  SetPCCrimeLevel 0  PayFineThief  ;StartScript TGDiscountScript
+  Service_Requirements (2).esp->|DATA|NAME:Smart thinking, %PCRank. I'll take care of everything.|SCVR:01500|INTV|SCVR:12sX0PCHasGoldDiscount_|SRIN|BNAM:Player->RemoveItem Gold_001 CrimeGoldDiscount_SR  SetPCCrimeLevel 0  PayFineThief  ;StartScript TGDiscountScript
+
+[MOD-INF]: ID=29318190191983331359(Topic:price on your head)
+  morrowind.esm---------------->|DATA|ONAM:tongue_toad|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2
+  Service_Requirements (2).esp->|DATA|ONAM:tongue_toad|DNAM:Thieves Guild|NAME:Well, word on the street is that you've got about %PCCrimeLevel gold on your head. As you're a Thieves Guild member in good standing, I should be able to fix that for %CrimeGoldDiscount_SR gold. Sound fair to you?|SCVR:01433|INTV|BNAM:Choice "Thanks. I'll pay it." 1 "No thanks. I can take care of it." 2

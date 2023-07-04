@@ -1,0 +1,60 @@
+Missing snow armor.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BrynjolfrScript)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       BODY    bm_shield_wolf
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ARMO    bm wolf shield
+	bloodmoon.esm       BOOK    bk_fur_armor
+	bloodmoon.esm       BOOK    sc_fur_armor
+	bloodmoon.esm       CONT    test_crate_all_armor_bm
+	bloodmoon.esm       DIAL    snow bear armor
+	bloodmoon.esm       DIAL    snow wolf armor
+	bloodmoon.esm       NPC_    bm_snowarmortest
+	bloodmoon.esm       NPC_    bm_snowarmortest_2
+	bloodmoon.esm       NPC_    brynjolfr
+
+[DUP-INF]: ID=453030616165777395(Topic:snow wolf armor)
+  |DATA|NAME:You've got my list of armor requirements and prices, %PCName.  I can't make you a custom piece without the right materials.  Come back when you have enough snow wolf pelts.|SCVR:01500|INTV|SCVR:14JX3BM_FurArmor|INTV: |SCVR:25IX4ingred_snowwolf_pelt_unique|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=840455041025321946(Topic:snow wolf armor)
+  |DATA|NAME:You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.|SCVR:01500|INTV|SCVR:14JX3BM_FurArmor|INTV: |SCVR:25IX4Gold_001|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=848823097148716349(Topic:snow wolf armor)
+  |DATA|NAME:Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Helm.  It came out even better than I expected.  If you need anything else, I'm your man!|SCVR:03sX0SnowWolfHelm|INTV|SCVR:13sX3localdaysPassed|INTV|BNAM:player->additem "BM_wolf_helmet_snow" 1  set SnowWolfHelm to 0  set localDayspassed to 0  set busy to 0  Goodbye
+
+[DUP-INF]: ID=1244467361973820396(Topic:snow bear armor)
+  |DATA|NAME:You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.|SCVR:01500|INTV|SCVR:14JX3BM_FurArmor|INTV: |SCVR:25IX4Gold_001|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=2137324268882516639(Topic:snow wolf armor)
+  |DATA|NAME:Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Helm ready.|SCVR:01500|INTV|SCVR:14JX3BM_FurArmor|INTV: |SCVR:25IX3ingred_snowwolf_pelt_unique|INTV|SCVR:35IX3Gold_001|INTV|BNAM:player->removeitem "ingred_snowwolf_pelt_unique" 2  player->removeitem "gold_001" 2000  set SnowWolfHelm to 1  set LocalDaysPassed to 0  set busy to 1  Goodbye
+
+[MOD-INF]: ID=2361616981187355434(Topic:snow bear armor)
+  bloodmoon.esm---------->|DATA|NAME:So be it, %PCName.  Come talk to me again if you change your mind.|SCVR:01500|INTV|BNAM:Goodbye
+  Missing snow armor.esp->|DATA|NAME:So be it, %PCName.  Come talk to me again if you change your mind.|SCVR:01500|INTV: |BNAM:Goodbye
+
+[DUP-INF]: ID=2633819473694823572(Topic:snow bear armor)
+  |DATA|NAME:Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Bear Helm.  It came out even better than I expected.  If you need anything else, I'm your man!|SCVR:03sX0SnowBearHelm|INTV|SCVR:13sX3localdaysPassed|INTV|BNAM:player->additem "BM_bear_helmet_snow" 1  set SnowBearHelm to 0  set localDayspassed to 0  set busy to 0  Goodbye
+
+[MOD-INF]: ID=4354257353146619625(Topic:snow bear armor)
+  bloodmoon.esm---------->|DATA|NAME:You bring me the snow bear pelts and gold, and I'll make a piece of custom snow bear armor.  I'll have it ready in twenty-four hours.  You've got my list of prices and pelt requirements.  Which piece of armor were you interested in?|SCVR:04JX3BM_FurArmor|INTV: |BNAM:Choice "Snow Bear Cuirass" 1 "Snow Bear Right Pauldron" 2 "Snow Bear Left Pauldron" 3 "Snow Bear Right Gauntlet" 4 "Snow Bear Left Gauntlet" 5 "Snow Bear Greaves" 6 "Snow Bear Boots" 7 "Snow Bear Helm" 8 "Nothing Right Now" 9
+  Missing snow armor.esp->|DATA|NAME:You bring me the snow bear pelts and gold, and I'll make a piece of custom snow bear armor.  I'll have it ready in twenty-four hours.  You've got my list of prices and pelt requirements.  Which piece of armor were you interested in?|SCVR:04JX3BM_FurArmor|INTV: |BNAM:Choice "Snow Bear Cuirass" 1 "Snow Bear Right Pauldron" 2 "Snow Bear Left Pauldron" 3 "Snow Bear Right Gauntlet" 4 "Snow Bear Left Gauntlet" 5 "Snow Bear Greaves" 6 "Snow Bear Boots" 7 "Snow Bear Helm" 8 "Snow Bear Shield" 9 "Nothing Right Now" 10
+
+[DUP-INF]: ID=4702166742190613989(Topic:snow bear armor)
+  |DATA|NAME:Your custom Snow Bear Helm isn't ready yet, %PCName.  Come back later.|SCVR:03sX0SnowBearHelm|INTV|SCVR:13sX4localdaysPassed|INTV|BNAM:Goodbye
+
+[DUP-INF]: ID=14824115881174823039(Topic:snow wolf armor)
+  |DATA|NAME:Your custom Snow Wolf Helm isn't ready yet, %PCName.  Come back later.|SCVR:03sX0SnowWolfHelm|INTV|SCVR:13sX4localdaysPassed|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=16258214972433221663(Topic:snow wolf armor)
+  bloodmoon.esm---------->|DATA|NAME:So be it, %PCName.  Come talk to me again if you change your mind.|SCVR:01500|INTV|BNAM:Goodbye
+  Missing snow armor.esp->|DATA|NAME:So be it, %PCName.  Come talk to me again if you change your mind.|SCVR:01500|INTV: |BNAM:Goodbye
+
+[MOD-INF]: ID=29386163853098932001(Topic:snow wolf armor)
+  bloodmoon.esm---------->|DATA|NAME:You bring me the snow wolf pelts and gold, and I'll make a piece of custom snow wolf armor.  I'll have it ready in twenty-four hours.  You've got my list of prices and pelt requirements.  Which piece of armor were you interested in?|SCVR:04JX3BM_FurArmor|INTV: |BNAM:Choice "Snow Wolf Cuirass" 1 "Snow Wolf Right Pauldron" 2 "Snow Wolf Left Pauldron" 3 "Snow Wolf Right Gauntlet" 4 "Snow Wolf Left Gauntlet" 5 "Snow Wolf Greaves" 6 "Snow Wolf Boots" 7 "Snow Wolf Helm" 8 "Nothing Right Now" 9
+  Missing snow armor.esp->|DATA|NAME:You bring me the snow wolf pelts and gold, and I'll make a piece of custom snow wolf armor.  I'll have it ready in twenty-four hours.  You've got my list of prices and pelt requirements.  Which piece of armor were you interested in?|SCVR:04JX3BM_FurArmor|INTV: |BNAM:Choice "Snow Wolf Cuirass" 1 "Snow Wolf Right Pauldron" 2 "Snow Wolf Left Pauldron" 3 "Snow Wolf Right Gauntlet" 4 "Snow Wolf Left Gauntlet" 5 "Snow Wolf Greaves" 6 "Snow Wolf Boots" 7 "Snow Wolf Helm" 8 "Snow Wolf Shield" 9 "Nothing Right Now" 10
+
+[DUP-INF]: ID=31139237591274818592(Topic:snow bear armor)
+  |DATA|NAME:Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Bear Helm ready.|SCVR:01500|INTV|SCVR:14JX3BM_FurArmor|INTV: |SCVR:25IX3ingred_snowbear_pelt_unique|INTV|SCVR:35IX3Gold_001|INTV|BNAM:player->removeitem "ingred_snowbear_pelt_unique" 2  player->removeitem "gold_001" 2000  set SnowBearHelm to 1  set LocalDaysPassed to 0  set busy to 1  Goodbye

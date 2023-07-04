@@ -1,0 +1,39 @@
+MoonlightOnTheOdaiRiver.esp: AUTOSPL DUP-REC FOGBUG MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1103268 (plugin)    1567893 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	_mor_summont                   Twilight Summon
+	_mor_summonf                   Atronach Summon
+	_mor_summonc                   Clannfear Summon
+    [FOGBUG]: Cells with zero fog density setting:
+	Dark Spring
+	Dark Spring, Chamber of Comprehension
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_MOR_DS_DaedrothDeath)
+	SCPT(_MOR_DS_Galveo)
+	SCPT(_MOR_DS_forbidden)
+	SCPT(_MOR_DS_fragact)
+	SCPT(_MOR_DSreaderatck)
+	SCPT(_MOR_Float)
+	SCPT(_MOR_GalveoNoteFinal)
+	SCPT(_MOR_exitmessage)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    outlander
+	morrowind.esm       DIAL    vvardenfell
+	morrowind.esm       PGRD    west gash region
+	tamriel_data.esm    DIAL    dunmer
+	tamriel_data.esm    DIAL    empire
+	tamriel_data.esm    DIAL    morrowind
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    favor
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        NPC_    belwen
+	tribunal.esm        NPC_    ra'tesh

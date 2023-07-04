@@ -1,0 +1,987 @@
+GHU_Main.esp: DUP-REC JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             7342525 (plugin)   11064795 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(GHU_Bittergreen_06)
+	SCPT(GHU_ContNoReg_Empty)
+	SCPT(GHU_ContRegen_Empty)
+	SCPT(GHU_Kollop_Empty)
+	SCPT(GHU__BeeSwarm)
+	SCPT(GHU__GlowAdam_1)
+	SCPT(GHU__GlowEbony_1)
+	SCPT(GHU__GlowEbony_2)
+	SCPT(GHU__GlowEbony_3)
+	SCPT(GHU__GlowGlass128_1)
+	SCPT(GHU__GlowGlass128_2)
+	SCPT(GHU__GlowGlass128_3)
+	SCPT(GHU__GlowGlass256_1)
+	SCPT(GHU__GlowGlass256_2)
+	SCPT(GHU__GlowGlass256_3)
+	SCPT(GHU__GlowLightBroker)
+	SCPT(GHU__GlowLightOld)
+	SCPT(GHU__Theft)
+	SCPT(GHU__TikiTorch)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (-1, -4)           0x02
+	Ascadian Isles Region (-1, -5)           0x02
+	Ascadian Isles Region (-1, -6)           0x02
+	Ascadian Isles Region (-1, -7)           0x02
+	Ascadian Isles Region (-1, -8)           0x02
+	Ascadian Isles Region (-2, -4)           0x02
+	Ascadian Isles Region (-2, -5)           0x02
+	Ascadian Isles Region (-2, -6)           0x02
+	Ascadian Isles Region (-2, -7)           0x02
+	Ascadian Isles Region (-3, -4)           0x02
+	Ascadian Isles Region (-3, -5)           0x02
+	Ascadian Isles Region (-3, -6)           0x02
+	Ascadian Isles Region (-3, -7)           0x02
+	Ascadian Isles Region (-4, -4)           0x02
+	Ascadian Isles Region (-4, -5)           0x02
+	Ascadian Isles Region (0, -4)            0x02
+	Ascadian Isles Region (0, -5)            0x02
+	Ascadian Isles Region (0, -6)            0x02
+	Ascadian Isles Region (0, -9)            0x02
+	Ascadian Isles Region (1, -10)           0x02
+	Ascadian Isles Region (1, -11)           0x02
+	Ascadian Isles Region (1, -12)           0x02
+	Ascadian Isles Region (1, -14)           0x02
+	Ascadian Isles Region (1, -4)            0x02
+	Ascadian Isles Region (1, -6)            0x02
+	Ascadian Isles Region (1, -7)            0x02
+	Ascadian Isles Region (1, -8)            0x02
+	Ascadian Isles Region (1, -9)            0x02
+	Ascadian Isles Region (2, -12)           0x02
+	Ascadian Isles Region (2, -14)           0x02
+	Ascadian Isles Region (2, -4)            0x02
+	Ascadian Isles Region (2, -5)            0x02
+	Ascadian Isles Region (2, -9)            0x02
+	Ascadian Isles Region (3, -15)           0x02
+	Ascadian Isles Region (3, -4)            0x02
+	Ascadian Isles Region (3, -5)            0x02
+	Ascadian Isles Region (3, -6)            0x02
+	Ascadian Isles Region (3, -7)            0x02
+	Ascadian Isles Region (3, -8)            0x02
+	Ascadian Isles Region (4, -5)            0x02
+	Ascadian Isles Region (4, -6)            0x02
+	Ascadian Isles Region (4, -7)            0x02
+	Ascadian Isles Region (4, -8)            0x02
+	Ascadian Isles Region (4, -9)            0x02
+	Ascadian Isles Region (5, -13)           0x02
+	Ascadian Isles Region (5, -5)            0x02
+	Ascadian Isles Region (5, -6)            0x02
+	Ascadian Isles Region (5, -7)            0x02
+	Ascadian Isles Region (5, -8)            0x02
+	Ascadian Isles Region (5, -9)            0x02
+	Ascadian Isles Region (6, -10)           0x02
+	Ascadian Isles Region (6, -11)           0x02
+	Ascadian Isles Region (6, -12)           0x02
+	Ascadian Isles Region (6, -13)           0x02
+	Ascadian Isles Region (6, -14)           0x02
+	Ascadian Isles Region (6, -8)            0x02
+	Ascadian Isles Region (7, -11)           0x02
+	Ascadian Isles Region (7, -12)           0x02
+	Ascadian Isles Region (7, -13)           0x02
+	Ascadian Isles Region (8, -11)           0x02
+	Ashlands Region (-1, 5)                  0x02
+	Ashlands Region (-1, 6)                  0x02
+	Ashlands Region (-1, 7)                  0x02
+	Ashlands Region (-2, 9)                  0x02
+	Ashlands Region (-3, 10)                 0x02
+	Ashlands Region (-3, 7)                  0x02
+	Ashlands Region (-4, 6)                  0x02
+	Ashlands Region (-4, 7)                  0x02
+	Ashlands Region (-4, 8)                  0x02
+	Ashlands Region (-5, 10)                 0x02
+	Ashlands Region (-5, 11)                 0x02
+	Ashlands Region (-5, 13)                 0x02
+	Ashlands Region (-6, 16)                 0x02
+	Ashlands Region (0, -1)                  0x02
+	Ashlands Region (0, 1)                   0x02
+	Ashlands Region (0, 12)                  0x02
+	Ashlands Region (0, 13)                  0x02
+	Ashlands Region (0, 17)                  0x02
+	Ashlands Region (0, 2)                   0x02
+	Ashlands Region (0, 3)                   0x02
+	Ashlands Region (0, 4)                   0x02
+	Ashlands Region (0, 5)                   0x02
+	Ashlands Region (0, 6)                   0x02
+	Ashlands Region (0, 7)                   0x02
+	Ashlands Region (0, 8)                   0x02
+	Ashlands Region (1, -1)                  0x02
+	Ashlands Region (1, 13)                  0x02
+	Ashlands Region (1, 17)                  0x02
+	Ashlands Region (1, 4)                   0x02
+	Ashlands Region (2, 3)                   0x02
+	Ashlands Region (3, 2)                   0x02
+	Ashlands Region (4, 12)                  0x02
+	Ashlands Region (4, 13)                  0x02
+	Ashlands Region (4, 4)                   0x02
+	Ashlands Region (4, 5)                   0x02
+	Ashlands Region (5, 12)                  0x02
+	Ashlands Region (5, 13)                  0x02
+	Ashlands Region (5, 14)                  0x02
+	Ashlands Region (5, 2)                   0x02
+	Ashlands Region (5, 3)                   0x02
+	Ashlands Region (5, 6)                   0x02
+	Ashlands Region (6, 13)                  0x02
+	Ashlands Region (6, 3)                   0x02
+	Ashlands Region (6, 4)                   0x02
+	Ashlands Region (7, 15)                  0x02
+	Azura's Coast Region (10, -8)            0x02
+	Azura's Coast Region (10, -9)            0x02
+	Azura's Coast Region (11, -10)           0x02
+	Azura's Coast Region (11, -8)            0x02
+	Azura's Coast Region (12, -11)           0x02
+	Azura's Coast Region (12, -12)           0x02
+	Azura's Coast Region (12, 14)            0x06
+	Azura's Coast Region (13, 10)            0x02
+	Azura's Coast Region (13, 12)            0x02
+	Azura's Coast Region (13, 13)            0x02
+	Azura's Coast Region (13, 5)             0x02
+	Azura's Coast Region (14, 1)             0x02
+	Azura's Coast Region (14, 12)            0x02
+	Azura's Coast Region (14, 2)             0x02
+	Azura's Coast Region (14, 8)             0x02
+	Azura's Coast Region (14, 9)             0x02
+	Azura's Coast Region (15, -14)           0x02
+	Azura's Coast Region (15, -15)           0x02
+	Azura's Coast Region (15, -9)            0x02
+	Azura's Coast Region (15, 0)             0x02
+	Azura's Coast Region (15, 10)            0x02
+	Azura's Coast Region (15, 2)             0x02
+	Azura's Coast Region (15, 3)             0x02
+	Azura's Coast Region (15, 4)             0x02
+	Azura's Coast Region (15, 6)             0x02
+	Azura's Coast Region (15, 9)             0x02
+	Azura's Coast Region (16, -1)            0x02
+	Azura's Coast Region (16, -8)            0x02
+	Azura's Coast Region (16, 4)             0x02
+	Azura's Coast Region (17, -4)            0x02
+	Azura's Coast Region (17, 0)             0x02
+	Azura's Coast Region (17, 1)             0x02
+	Azura's Coast Region (17, 2)             0x02
+	Azura's Coast Region (17, 3)             0x02
+	Azura's Coast Region (18, 1)             0x02
+	Azura's Coast Region (18, 6)             0x02
+	Azura's Coast Region (19, -9)            0x02
+	Azura's Coast Region (19, 2)             0x02
+	Azura's Coast Region (19, 3)             0x02
+	Azura's Coast Region (19, 4)             0x02
+	Azura's Coast Region (19, 5)             0x02
+	Azura's Coast Region (8, -9)             0x02
+	Azura's Coast Region (9, -8)             0x02
+	Azura's Coast Region (9, 17)             0x02
+	Azura's Coast Region (9, 18)             0x02
+	Bitter Coast Region (-1, -11)            0x02
+	Bitter Coast Region (-1, -9)             0x02
+	Bitter Coast Region (-2, -8)             0x02
+	Bitter Coast Region (-3, -10)            0x02
+	Bitter Coast Region (-3, -8)             0x02
+	Bitter Coast Region (-3, -9)             0x02
+	Bitter Coast Region (-4, -1)             0x02
+	Bitter Coast Region (-4, -6)             0x02
+	Bitter Coast Region (-4, -8)             0x02
+	Bitter Coast Region (-5, -1)             0x02
+	Bitter Coast Region (-5, -2)             0x02
+	Bitter Coast Region (-5, -6)             0x02
+	Bitter Coast Region (-5, -7)             0x02
+	Bitter Coast Region (-5, -9)             0x02
+	Bitter Coast Region (-5, 0)              0x02
+	Bitter Coast Region (-5, 3)              0x02
+	Bitter Coast Region (-6, -2)             0x02
+	Bitter Coast Region (-6, -3)             0x02
+	Bitter Coast Region (-6, -4)             0x02
+	Bitter Coast Region (-6, 3)              0x02
+	Bitter Coast Region (-7, -1)             0x02
+	Bitter Coast Region (-7, -6)             0x02
+	Bitter Coast Region (-7, 0)              0x02
+	Bitter Coast Region (-7, 1)              0x02
+	Bitter Coast Region (-7, 3)              0x02
+	Bitter Coast Region (-7, 4)              0x02
+	Bitter Coast Region (-8, -1)             0x02
+	Bitter Coast Region (-8, -3)             0x02
+	Bitter Coast Region (-8, 0)              0x02
+	Bitter Coast Region (-8, 4)              0x02
+	Bitter Coast Region (-9, 0)              0x02
+	Bitter Coast Region (0, -10)             0x02
+	Bitter Coast Region (0, -11)             0x02
+	Bitter Coast Region (0, -12)             0x02
+	Grazelands Region (10, 10)               0x02
+	Grazelands Region (10, 11)               0x02
+	Grazelands Region (10, 15)               0x02
+	Grazelands Region (10, 8)                0x02
+	Grazelands Region (10, 9)                0x02
+	Grazelands Region (11, 10)               0x02
+	Grazelands Region (11, 11)               0x02
+	Grazelands Region (11, 13)               0x02
+	Grazelands Region (11, 15)               0x02
+	Grazelands Region (11, 6)                0x02
+	Grazelands Region (11, 7)                0x02
+	Grazelands Region (12, 12)               0x02
+	Grazelands Region (12, 7)                0x02
+	Grazelands Region (12, 8)                0x02
+	Grazelands Region (12, 9)                0x02
+	Grazelands Region (8, 10)                0x02
+	Grazelands Region (8, 13)                0x02
+	Grazelands Region (8, 14)                0x02
+	Grazelands Region (8, 16)                0x02
+	Grazelands Region (8, 5)                 0x02
+	Grazelands Region (8, 7)                 0x02
+	Grazelands Region (8, 8)                 0x02
+	Grazelands Region (8, 9)                 0x02
+	Grazelands Region (9, 11)                0x02
+	Grazelands Region (9, 16)                0x02
+	Grazelands Region (9, 5)                 0x02
+	Grazelands Region (9, 7)                 0x02
+	Grazelands Region (9, 8)                 0x02
+	Molag Mar Region (0, -2)                 0x02
+	Molag Mar Region (1, -2)                 0x02
+	Molag Mar Region (1, -3)                 0x02
+	Molag Mar Region (10, -1)                0x02
+	Molag Mar Region (10, -2)                0x02
+	Molag Mar Region (10, -7)                0x02
+	Molag Mar Region (10, 0)                 0x02
+	Molag Mar Region (10, 2)                 0x02
+	Molag Mar Region (10, 3)                 0x02
+	Molag Mar Region (11, -1)                0x02
+	Molag Mar Region (11, 0)                 0x02
+	Molag Mar Region (11, 1)                 0x02
+	Molag Mar Region (11, 2)                 0x02
+	Molag Mar Region (11, 3)                 0x02
+	Molag Mar Region (12, -5)                0x02
+	Molag Mar Region (12, -6)                0x02
+	Molag Mar Region (13, -4)                0x02
+	Molag Mar Region (14, 0)                 0x02
+	Molag Mar Region (15, -4)                0x02
+	Molag Mar Region (15, -5)                0x02
+	Molag Mar Region (2, -2)                 0x02
+	Molag Mar Region (2, -3)                 0x02
+	Molag Mar Region (3, -2)                 0x02
+	Molag Mar Region (3, -3)                 0x02
+	Molag Mar Region (4, -4)                 0x02
+	Molag Mar Region (4, 0)                  0x02
+	Molag Mar Region (5, -1)                 0x02
+	Molag Mar Region (5, -3)                 0x02
+	Molag Mar Region (5, -4)                 0x02
+	Molag Mar Region (6, -1)                 0x02
+	Molag Mar Region (6, -2)                 0x02
+	Molag Mar Region (6, -3)                 0x02
+	Molag Mar Region (6, -4)                 0x02
+	Molag Mar Region (7, -1)                 0x02
+	Molag Mar Region (7, -2)                 0x02
+	Molag Mar Region (7, -3)                 0x02
+	Molag Mar Region (7, -4)                 0x02
+	Molag Mar Region (7, -5)                 0x02
+	Molag Mar Region (7, -7)                 0x02
+	Molag Mar Region (7, 0)                  0x02
+	Molag Mar Region (7, 2)                  0x02
+	Molag Mar Region (8, -1)                 0x02
+	Molag Mar Region (8, -3)                 0x02
+	Molag Mar Region (8, -5)                 0x02
+	Molag Mar Region (8, -7)                 0x02
+	Molag Mar Region (8, -8)                 0x02
+	Molag Mar Region (8, 0)                  0x02
+	Molag Mar Region (8, 1)                  0x02
+	Molag Mar Region (8, 3)                  0x02
+	Molag Mar Region (9, -1)                 0x02
+	Molag Mar Region (9, -2)                 0x02
+	Molag Mar Region (9, -3)                 0x02
+	Molag Mar Region (9, -5)                 0x02
+	Molag Mar Region (9, -6)                 0x02
+	Molag Mar Region (9, 0)                  0x02
+	Molag Mar Region (9, 2)                  0x02
+	Molag Mar Region (9, 3)                  0x02
+	Molag Mar Region (9, 4)                  0x02
+	Red Mountain Region (-2, 10)             0x02
+	Red Mountain Region (0, 9)               0x02
+	Red Mountain Region (1, 10)              0x02
+	Red Mountain Region (1, 11)              0x02
+	Red Mountain Region (1, 5)               0x02
+	Red Mountain Region (1, 6)               0x02
+	Red Mountain Region (1, 8)               0x02
+	Red Mountain Region (1, 9)               0x02
+	Red Mountain Region (2, 10)              0x02
+	Red Mountain Region (2, 11)              0x02
+	Red Mountain Region (2, 5)               0x02
+	Red Mountain Region (2, 6)               0x02
+	Red Mountain Region (2, 7)               0x02
+	Red Mountain Region (2, 9)               0x02
+	Red Mountain Region (3, 6)               0x02
+	Red Mountain Region (3, 9)               0x02
+	Red Mountain Region (4, 11)              0x02
+	Red Mountain Region (4, 8)               0x02
+	Sheogorad (-1, 21)                       0x02
+	Sheogorad (-2, 20)                       0x02
+	Sheogorad (-2, 21)                       0x02
+	Sheogorad (-2, 24)                       0x02
+	Sheogorad (-3, 21)                       0x02
+	Sheogorad (-3, 24)                       0x02
+	Sheogorad (-4, 22)                       0x02
+	Sheogorad (-7, 18)                       0x02
+	Sheogorad (0, 20)                        0x02
+	Sheogorad (0, 21)                        0x02
+	Sheogorad (1, 19)                        0x02
+	Sheogorad (1, 22)                        0x02
+	Sheogorad (1, 23)                        0x02
+	Sheogorad (2, 19)                        0x02
+	Sheogorad (2, 21)                        0x02
+	Sheogorad (2, 22)                        0x02
+	Sheogorad (3, 17)                        0x02
+	Sheogorad (3, 21)                        0x02
+	Sheogorad (3, 23)                        0x02
+	Sheogorad (3, 24)                        0x02
+	Sheogorad (4, 18)                        0x02
+	Sheogorad (4, 20)                        0x02
+	Sheogorad (4, 23)                        0x02
+	Sheogorad (5, 19)                        0x02
+	Sheogorad (5, 20)                        0x02
+	Sheogorad (5, 21)                        0x02
+	Sheogorad (5, 22)                        0x02
+	Sheogorad (5, 23)                        0x02
+	Sheogorad (6, 20)                        0x02
+	Sheogorad (6, 22)                        0x02
+	Sheogorad (6, 23)                        0x02
+	Sheogorad (7, 17)                        0x02
+	Sheogorad (7, 19)                        0x02
+	Sheogorad (7, 20)                        0x02
+	Sheogorad (7, 21)                        0x02
+	Sheogorad (7, 24)                        0x02
+	Sheogorad (8, 17)                        0x02
+	Sheogorad (8, 18)                        0x02
+	Sheogorad (8, 19)                        0x02
+	Sheogorad (8, 20)                        0x02
+	Sheogorad (8, 21)                        0x02
+	Sheogorad (9, 20)                        0x02
+	West Gash Region (-1, -1)                0x02
+	West Gash Region (-1, -2)                0x02
+	West Gash Region (-1, 0)                 0x02
+	West Gash Region (-1, 1)                 0x02
+	West Gash Region (-1, 2)                 0x02
+	West Gash Region (-1, 3)                 0x02
+	West Gash Region (-10, 10)               0x02
+	West Gash Region (-10, 12)               0x02
+	West Gash Region (-10, 14)               0x02
+	West Gash Region (-10, 16)               0x02
+	West Gash Region (-10, 8)                0x02
+	West Gash Region (-11, 12)               0x02
+	West Gash Region (-11, 13)               0x02
+	West Gash Region (-11, 14)               0x02
+	West Gash Region (-12, 10)               0x02
+	West Gash Region (-12, 11)               0x02
+	West Gash Region (-12, 12)               0x02
+	West Gash Region (-12, 13)               0x02
+	West Gash Region (-12, 14)               0x02
+	West Gash Region (-12, 9)                0x02
+	West Gash Region (-13, 11)               0x02
+	West Gash Region (-13, 12)               0x02
+	West Gash Region (-13, 13)               0x02
+	West Gash Region (-13, 14)               0x02
+	West Gash Region (-14, 13)               0x02
+	West Gash Region (-2, -1)                0x02
+	West Gash Region (-2, -3)                0x02
+	West Gash Region (-2, 0)                 0x02
+	West Gash Region (-2, 1)                 0x02
+	West Gash Region (-2, 3)                 0x02
+	West Gash Region (-2, 4)                 0x02
+	West Gash Region (-3, -1)                0x02
+	West Gash Region (-3, 0)                 0x02
+	West Gash Region (-3, 1)                 0x02
+	West Gash Region (-3, 2)                 0x02
+	West Gash Region (-3, 3)                 0x02
+	West Gash Region (-3, 4)                 0x02
+	West Gash Region (-4, -3)                0x02
+	West Gash Region (-4, 2)                 0x02
+	West Gash Region (-4, 3)                 0x02
+	West Gash Region (-4, 4)                 0x02
+	West Gash Region (-5, 4)                 0x02
+	West Gash Region (-5, 5)                 0x02
+	West Gash Region (-5, 6)                 0x02
+	West Gash Region (-5, 7)                 0x02
+	West Gash Region (-6, 10)                0x02
+	West Gash Region (-6, 11)                0x02
+	West Gash Region (-6, 12)                0x02
+	West Gash Region (-6, 4)                 0x02
+	West Gash Region (-6, 5)                 0x02
+	West Gash Region (-6, 6)                 0x02
+	West Gash Region (-6, 7)                 0x02
+	West Gash Region (-6, 9)                 0x02
+	West Gash Region (-7, 10)                0x02
+	West Gash Region (-7, 11)                0x02
+	West Gash Region (-7, 12)                0x02
+	West Gash Region (-7, 13)                0x02
+	West Gash Region (-7, 14)                0x02
+	West Gash Region (-7, 15)                0x02
+	West Gash Region (-7, 16)                0x02
+	West Gash Region (-7, 17)                0x02
+	West Gash Region (-7, 5)                 0x02
+	West Gash Region (-7, 6)                 0x02
+	West Gash Region (-7, 7)                 0x02
+	West Gash Region (-7, 8)                 0x02
+	West Gash Region (-7, 9)                 0x02
+	West Gash Region (-8, 10)                0x02
+	West Gash Region (-8, 12)                0x02
+	West Gash Region (-8, 13)                0x02
+	West Gash Region (-8, 14)                0x02
+	West Gash Region (-8, 15)                0x02
+	West Gash Region (-8, 16)                0x02
+	West Gash Region (-8, 17)                0x02
+	West Gash Region (-8, 5)                 0x02
+	West Gash Region (-8, 7)                 0x02
+	West Gash Region (-8, 8)                 0x02
+	West Gash Region (-9, 10)                0x02
+	West Gash Region (-9, 12)                0x02
+	West Gash Region (-9, 14)                0x02
+	West Gash Region (-9, 15)                0x02
+	West Gash Region (-9, 8)                 0x02
+	West Gash Region (-9, 9)                 0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    contain_bm_belladonna_0
+	bloodmoon.esm       CONT    contain_bm_stalhrim_01
+	bloodmoon.esm       CONT    flora_bm_belladonna_01
+	bloodmoon.esm       CONT    flora_bm_belladonna_02
+	bloodmoon.esm       CONT    flora_bm_belladonna_03
+	bloodmoon.esm       CONT    flora_bm_holly_01
+	bloodmoon.esm       CONT    flora_bm_holly_02
+	bloodmoon.esm       CONT    flora_bm_holly_04
+	bloodmoon.esm       CONT    flora_bm_holly_05
+	bloodmoon.esm       CONT    flora_bm_holly_06
+	bloodmoon.esm       CONT    flora_bm_wolfsbane_01
+	bloodmoon.esm       CONT    rock_ebony_01
+	bloodmoon.esm       CONT    rock_ebony_01_colony
+	bloodmoon.esm       CONT    rock_ebony_02_colony
+	bloodmoon.esm       CONT    rock_ebony_05_colony
+	bloodmoon.esm       CONT    rock_ebony_06_colony
+	bloodmoon.esm       CONT    rock_ebony_07
+	bloodmoon.esm       CONT    rock_ebony_07_colony
+	morrowind.esm       CONT    cavern_spore00
+	morrowind.esm       CONT    contain_trama_shrub_01
+	morrowind.esm       CONT    contain_trama_shrub_02
+	morrowind.esm       CONT    contain_trama_shrub_03
+	morrowind.esm       CONT    contain_trama_shrub_04
+	morrowind.esm       CONT    contain_trama_shrub_05
+	morrowind.esm       CONT    contain_trama_shrub_06
+	morrowind.esm       CONT    egg_kwama00
+	morrowind.esm       CONT    flora_ash_yam_01
+	morrowind.esm       CONT    flora_ash_yam_02
+	morrowind.esm       CONT    flora_bc_fern_01
+	morrowind.esm       CONT    flora_bc_fern_04_chuck
+	morrowind.esm       CONT    flora_bc_mushroom_01
+	morrowind.esm       CONT    flora_bc_mushroom_02
+	morrowind.esm       CONT    flora_bc_mushroom_03
+	morrowind.esm       CONT    flora_bc_mushroom_04
+	morrowind.esm       CONT    flora_bc_mushroom_05
+	morrowind.esm       CONT    flora_bc_mushroom_06
+	morrowind.esm       CONT    flora_bc_mushroom_07
+	morrowind.esm       CONT    flora_bc_mushroom_08
+	morrowind.esm       CONT    flora_bc_podplant_01
+	morrowind.esm       CONT    flora_bc_podplant_02
+	morrowind.esm       CONT    flora_bc_podplant_03
+	morrowind.esm       CONT    flora_bc_podplant_04
+	morrowind.esm       CONT    flora_bc_shelffungus_01
+	morrowind.esm       CONT    flora_bc_shelffungus_02
+	morrowind.esm       CONT    flora_bc_shelffungus_03
+	morrowind.esm       CONT    flora_bc_shelffungus_04
+	morrowind.esm       CONT    flora_bittergreen_01
+	morrowind.esm       CONT    flora_bittergreen_02
+	morrowind.esm       CONT    flora_bittergreen_03
+	morrowind.esm       CONT    flora_bittergreen_04
+	morrowind.esm       CONT    flora_bittergreen_05
+	morrowind.esm       CONT    flora_bittergreen_06
+	morrowind.esm       CONT    flora_bittergreen_07
+	morrowind.esm       CONT    flora_bittergreen_08
+	morrowind.esm       CONT    flora_bittergreen_09
+	morrowind.esm       CONT    flora_bittergreen_10
+	morrowind.esm       CONT    flora_bittergreen_pod_01
+	morrowind.esm       CONT    flora_black_anther_01
+	morrowind.esm       CONT    flora_black_anther_02
+	morrowind.esm       CONT    flora_black_lichen_01
+	morrowind.esm       CONT    flora_black_lichen_02
+	morrowind.esm       CONT    flora_chokeweed_02
+	morrowind.esm       CONT    flora_comberry_01
+	morrowind.esm       CONT    flora_corkbulb
+	morrowind.esm       CONT    flora_fire_fern_01
+	morrowind.esm       CONT    flora_fire_fern_02
+	morrowind.esm       CONT    flora_fire_fern_03
+	morrowind.esm       CONT    flora_gold_kanet_01
+	morrowind.esm       CONT    flora_gold_kanet_01_uni
+	morrowind.esm       CONT    flora_gold_kanet_02
+	morrowind.esm       CONT    flora_gold_kanet_02_uni
+	morrowind.esm       CONT    flora_green_lichen_01
+	morrowind.esm       CONT    flora_green_lichen_02
+	morrowind.esm       CONT    flora_hackle-lo_01
+	morrowind.esm       CONT    flora_hackle-lo_02
+	morrowind.esm       CONT    flora_heather_01
+	morrowind.esm       CONT    flora_kreshweed_01
+	morrowind.esm       CONT    flora_kreshweed_02
+	morrowind.esm       CONT    flora_kreshweed_03
+	morrowind.esm       CONT    flora_marshmerrow_01
+	morrowind.esm       CONT    flora_marshmerrow_02
+	morrowind.esm       CONT    flora_marshmerrow_03
+	morrowind.esm       CONT    flora_muckspunge_01
+	morrowind.esm       CONT    flora_muckspunge_02
+	morrowind.esm       CONT    flora_muckspunge_03
+	morrowind.esm       CONT    flora_muckspunge_04
+	morrowind.esm       CONT    flora_muckspunge_05
+	morrowind.esm       CONT    flora_muckspunge_06
+	morrowind.esm       CONT    flora_red_lichen_01
+	morrowind.esm       CONT    flora_red_lichen_02
+	morrowind.esm       CONT    flora_rm_scathecraw_01
+	morrowind.esm       CONT    flora_rm_scathecraw_02
+	morrowind.esm       CONT    flora_roobrush_02
+	morrowind.esm       CONT    flora_saltrice_01
+	morrowind.esm       CONT    flora_saltrice_02
+	morrowind.esm       CONT    flora_stoneflower_01
+	morrowind.esm       CONT    flora_stoneflower_02
+	morrowind.esm       CONT    flora_wickwheat_01
+	morrowind.esm       CONT    flora_wickwheat_02
+	morrowind.esm       CONT    flora_wickwheat_03
+	morrowind.esm       CONT    flora_wickwheat_04
+	morrowind.esm       CONT    flora_willow_flower_01
+	morrowind.esm       CONT    flora_willow_flower_02
+	morrowind.esm       CONT    kollop_01
+	morrowind.esm       CONT    kollop_01_pearl
+	morrowind.esm       CONT    kollop_02
+	morrowind.esm       CONT    kollop_02_pearl
+	morrowind.esm       CONT    kollop_03_pearl
+	morrowind.esm       CONT    rock_diamond_01
+	morrowind.esm       CONT    rock_diamond_02
+	morrowind.esm       CONT    rock_diamond_03
+	morrowind.esm       CONT    rock_diamond_04
+	morrowind.esm       CONT    rock_diamond_05
+	morrowind.esm       CONT    rock_diamond_06
+	morrowind.esm       CONT    rock_diamond_07
+	morrowind.esm       CONT    rock_ebony_02
+	morrowind.esm       CONT    rock_ebony_03
+	morrowind.esm       CONT    rock_ebony_04
+	morrowind.esm       CONT    rock_ebony_05
+	morrowind.esm       CONT    rock_ebony_06
+	morrowind.esm       CONT    rock_glass_01
+	morrowind.esm       CONT    rock_glass_02
+	morrowind.esm       CONT    rock_glass_03
+	morrowind.esm       CONT    rock_glass_04
+	morrowind.esm       CONT    rock_glass_05
+	morrowind.esm       CONT    rock_glass_06
+	morrowind.esm       CONT    rock_glass_07
+	morrowind.esm       CONT    tramaroot_01
+	morrowind.esm       CONT    tramaroot_02
+	morrowind.esm       CONT    tramaroot_03
+	morrowind.esm       CONT    tramaroot_04
+	morrowind.esm       CONT    tramaroot_05
+	morrowind.esm       CONT    tramaroot_06
+	morrowind.esm       GMST    ifighttrespass
+	morrowind.esm       LIGH    bc mushroom 128
+	morrowind.esm       LIGH    bc mushroom 177
+	morrowind.esm       LIGH    bc mushroom 256
+	morrowind.esm       LIGH    bc mushroom 64
+	morrowind.esm       LIGH    ebony light
+	morrowind.esm       LIGH    eggsack_glow_256
+	morrowind.esm       LIGH    flame light_64
+	morrowind.esm       LIGH    green light_128
+	morrowind.esm       LIGH    light_tikitorch00
+	morrowind.esm       LIGH    light_tikitorch003
+	morrowind.esm       LIGH    light_tikitorch00_256
+	morrowind.esm       LIGH    light_tikitorch128
+	tamriel_data.esm    ACTI    t_glb_fauna_beeswarm_01
+	tamriel_data.esm    ACTI    t_glb_fauna_beeswarm_02
+	tamriel_data.esm    ACTI    t_glb_fauna_beeswarm_03
+	tamriel_data.esm    ACTI    t_glb_fauna_beeswarm_04
+	tamriel_data.esm    CONT    t_bkm_flora_somnfern01
+	tamriel_data.esm    CONT    t_cyr_fauna_fishchrys01
+	tamriel_data.esm    CONT    t_cyr_fauna_fishchrys02
+	tamriel_data.esm    CONT    t_cyr_fauna_fishleap01
+	tamriel_data.esm    CONT    t_cyr_fauna_fishleap02
+	tamriel_data.esm    CONT    t_cyr_fauna_fishlongf01
+	tamriel_data.esm    CONT    t_cyr_fauna_fishlongf02
+	tamriel_data.esm    CONT    t_cyr_fauna_fishlongf03
+	tamriel_data.esm    CONT    t_cyr_fauna_fishslrst01
+	tamriel_data.esm    CONT    t_cyr_fauna_fishslrst02
+	tamriel_data.esm    CONT    t_cyr_fauna_fishslrst03
+	tamriel_data.esm    CONT    t_cyr_fauna_fishspr01
+	tamriel_data.esm    CONT    t_cyr_fauna_fishspr02
+	tamriel_data.esm    CONT    t_cyr_fauna_fishstr01
+	tamriel_data.esm    CONT    t_cyr_fauna_fishstr02
+	tamriel_data.esm    CONT    t_cyr_flora_alkanet01
+	tamriel_data.esm    CONT    t_cyr_flora_aloevera01
+	tamriel_data.esm    CONT    t_cyr_flora_aloevera02
+	tamriel_data.esm    CONT    t_cyr_flora_aloevera03
+	tamriel_data.esm    CONT    t_cyr_flora_apple01
+	tamriel_data.esm    CONT    t_cyr_flora_apple02
+	tamriel_data.esm    CONT    t_cyr_flora_apple03
+	tamriel_data.esm    CONT    t_cyr_flora_aquilegia01
+	tamriel_data.esm    CONT    t_cyr_flora_bloodlill01
+	tamriel_data.esm    CONT    t_cyr_flora_bogbeac01
+	tamriel_data.esm    CONT    t_cyr_flora_bogbeac02
+	tamriel_data.esm    CONT    t_cyr_flora_bogbeac03
+	tamriel_data.esm    CONT    t_cyr_flora_cairnbol01
+	tamriel_data.esm    CONT    t_cyr_flora_cairnbol02
+	tamriel_data.esm    CONT    t_cyr_flora_cairnbol03
+	tamriel_data.esm    CONT    t_cyr_flora_chokeberr01
+	tamriel_data.esm    CONT    t_cyr_flora_cinnapoly01
+	tamriel_data.esm    CONT    t_cyr_flora_cinnapoly02
+	tamriel_data.esm    CONT    t_cyr_flora_cloudedfn01
+	tamriel_data.esm    CONT    t_cyr_flora_cloudedfn02
+	tamriel_data.esm    CONT    t_cyr_flora_cloudedfn03
+	tamriel_data.esm    CONT    t_cyr_flora_dryadsad01
+	tamriel_data.esm    CONT    t_cyr_flora_dryadsad02
+	tamriel_data.esm    CONT    t_cyr_flora_dryadsad03
+	tamriel_data.esm    CONT    t_cyr_flora_dryadsad04
+	tamriel_data.esm    CONT    t_cyr_flora_elfcup01
+	tamriel_data.esm    CONT    t_cyr_flora_emeticrus01
+	tamriel_data.esm    CONT    t_cyr_flora_emeticrus02
+	tamriel_data.esm    CONT    t_cyr_flora_fig01
+	tamriel_data.esm    CONT    t_cyr_flora_fig02
+	tamriel_data.esm    CONT    t_cyr_flora_fig03
+	tamriel_data.esm    CONT    t_cyr_flora_ginseng01
+	tamriel_data.esm    CONT    t_cyr_flora_ginseng02
+	tamriel_data.esm    CONT    t_cyr_flora_goldenrod01
+	tamriel_data.esm    CONT    t_cyr_flora_grape01
+	tamriel_data.esm    CONT    t_cyr_flora_grape02
+	tamriel_data.esm    CONT    t_cyr_flora_grape03
+	tamriel_data.esm    CONT    t_cyr_flora_greenstcp01
+	tamriel_data.esm    CONT    t_cyr_flora_greenstsh01
+	tamriel_data.esm    CONT    t_cyr_flora_indureta01
+	tamriel_data.esm    CONT    t_cyr_flora_ironrye01
+	tamriel_data.esm    CONT    t_cyr_flora_ironrye02
+	tamriel_data.esm    CONT    t_cyr_flora_ladysmck01
+	tamriel_data.esm    CONT    t_cyr_flora_ladysmnt01
+	tamriel_data.esm    CONT    t_cyr_flora_lillyvall01
+	tamriel_data.esm    CONT    t_cyr_flora_lillyvall02
+	tamriel_data.esm    CONT    t_cyr_flora_lillyvall03
+	tamriel_data.esm    CONT    t_cyr_flora_lillyvall04
+	tamriel_data.esm    CONT    t_cyr_flora_lotus01
+	tamriel_data.esm    CONT    t_cyr_flora_lycovine01
+	tamriel_data.esm    CONT    t_cyr_flora_mandrake01
+	tamriel_data.esm    CONT    t_cyr_flora_monarda01
+	tamriel_data.esm    CONT    t_cyr_flora_morninggl01
+	tamriel_data.esm    CONT    t_cyr_flora_morninggl02
+	tamriel_data.esm    CONT    t_cyr_flora_morninggl03
+	tamriel_data.esm    CONT    t_cyr_flora_motherw01
+	tamriel_data.esm    CONT    t_cyr_flora_peony01
+	tamriel_data.esm    CONT    t_cyr_flora_peony02
+	tamriel_data.esm    CONT    t_cyr_flora_poppad01
+	tamriel_data.esm    CONT    t_cyr_flora_primrose01
+	tamriel_data.esm    CONT    t_cyr_flora_primrose02
+	tamriel_data.esm    CONT    t_cyr_flora_primrose03
+	tamriel_data.esm    CONT    t_cyr_flora_siyat01
+	tamriel_data.esm    CONT    t_cyr_flora_socrata01
+	tamriel_data.esm    CONT    t_cyr_flora_socrata02
+	tamriel_data.esm    CONT    t_cyr_flora_socrata03
+	tamriel_data.esm    CONT    t_cyr_flora_spikerice01
+	tamriel_data.esm    CONT    t_cyr_flora_spikerice02
+	tamriel_data.esm    CONT    t_cyr_flora_spikerice03
+	tamriel_data.esm    CONT    t_cyr_flora_steelblue01
+	tamriel_data.esm    CONT    t_cyr_flora_steelblue02
+	tamriel_data.esm    CONT    t_cyr_flora_stinkhorn01
+	tamriel_data.esm    CONT    t_cyr_flora_stjahnswr01
+	tamriel_data.esm    CONT    t_cyr_flora_summerbol01
+	tamriel_data.esm    CONT    t_cyr_flora_summerbol02
+	tamriel_data.esm    CONT    t_cyr_flora_thunglew01
+	tamriel_data.esm    CONT    t_cyr_flora_tigerlill01
+	tamriel_data.esm    CONT    t_cyr_flora_tigerlill02
+	tamriel_data.esm    CONT    t_cyr_flora_tindpoly01
+	tamriel_data.esm    CONT    t_cyr_flora_tindpoly02
+	tamriel_data.esm    CONT    t_cyr_flora_tindpoly03
+	tamriel_data.esm    CONT    t_cyr_flora_tindpoly04
+	tamriel_data.esm    CONT    t_cyr_flora_tindpoly05
+	tamriel_data.esm    CONT    t_cyr_flora_trinitypl01
+	tamriel_data.esm    CONT    t_cyr_flora_viperbugl01
+	tamriel_data.esm    CONT    t_cyr_flora_wispstalk01
+	tamriel_data.esm    CONT    t_cyr_mine_oregcadam01
+	tamriel_data.esm    CONT    t_cyr_mine_oregcadam02
+	tamriel_data.esm    CONT    t_cyr_mine_oregcadam03
+	tamriel_data.esm    CONT    t_cyr_mine_oregcadam04
+	tamriel_data.esm    CONT    t_cyr_mine_oregcadam05
+	tamriel_data.esm    CONT    t_cyr_mine_oregcadam06
+	tamriel_data.esm    CONT    t_cyr_mine_oregcadam07
+	tamriel_data.esm    CONT    t_cyr_mine_oregcgold01
+	tamriel_data.esm    CONT    t_cyr_mine_oregcgold02
+	tamriel_data.esm    CONT    t_cyr_mine_oregcgold03
+	tamriel_data.esm    CONT    t_cyr_mine_oregcgold04
+	tamriel_data.esm    CONT    t_cyr_mine_oregcgold05
+	tamriel_data.esm    CONT    t_cyr_mine_oregcgold06
+	tamriel_data.esm    CONT    t_cyr_mine_oregcgold07
+	tamriel_data.esm    CONT    t_cyr_mine_oregciron01
+	tamriel_data.esm    CONT    t_cyr_mine_oregciron02
+	tamriel_data.esm    CONT    t_cyr_mine_oregciron03
+	tamriel_data.esm    CONT    t_cyr_mine_oregciron04
+	tamriel_data.esm    CONT    t_cyr_mine_oregciron05
+	tamriel_data.esm    CONT    t_cyr_mine_oregciron06
+	tamriel_data.esm    CONT    t_cyr_mine_oregciron07
+	tamriel_data.esm    CONT    t_cyr_mine_oregcsilv01
+	tamriel_data.esm    CONT    t_cyr_mine_oregcsilv02
+	tamriel_data.esm    CONT    t_cyr_mine_oregcsilv03
+	tamriel_data.esm    CONT    t_cyr_mine_oregcsilv04
+	tamriel_data.esm    CONT    t_cyr_mine_oregcsilv05
+	tamriel_data.esm    CONT    t_cyr_mine_oregcsilv06
+	tamriel_data.esm    CONT    t_cyr_mine_oregcsilv07
+	tamriel_data.esm    CONT    t_els_flora_hibiscus01
+	tamriel_data.esm    CONT    t_els_flora_nightsh01
+	tamriel_data.esm    CONT    t_els_flora_oleander01
+	tamriel_data.esm    CONT    t_els_flora_sugarcane01
+	tamriel_data.esm    CONT    t_els_flora_sugarcane02
+	tamriel_data.esm    CONT    t_els_flora_sugarcane03
+	tamriel_data.esm    CONT    t_els_flora_sugarcane04
+	tamriel_data.esm    CONT    t_els_flora_thornt_01
+	tamriel_data.esm    CONT    t_els_flora_thornt_03
+	tamriel_data.esm    CONT    t_glb_fauna_chickhang01
+	tamriel_data.esm    CONT    t_glb_fauna_fishslrst01
+	tamriel_data.esm    CONT    t_glb_fauna_fishslrst02
+	tamriel_data.esm    CONT    t_glb_fauna_fishslrst03
+	tamriel_data.esm    CONT    t_glb_fauna_ratrst01
+	tamriel_data.esm    CONT    t_glb_fauna_ratrst02
+	tamriel_data.esm    CONT    t_glb_flora_blackberr01
+	tamriel_data.esm    CONT    t_glb_flora_blackberr02
+	tamriel_data.esm    CONT    t_glb_flora_blackberr03
+	tamriel_data.esm    CONT    t_glb_flora_cabbage01
+	tamriel_data.esm    CONT    t_glb_flora_carrot01
+	tamriel_data.esm    CONT    t_glb_flora_fennel01
+	tamriel_data.esm    CONT    t_glb_flora_flamanita01
+	tamriel_data.esm    CONT    t_glb_flora_flamanita02
+	tamriel_data.esm    CONT    t_glb_flora_flax01
+	tamriel_data.esm    CONT    t_glb_flora_flax02
+	tamriel_data.esm    CONT    t_glb_flora_flax03
+	tamriel_data.esm    CONT    t_glb_flora_foxglove01
+	tamriel_data.esm    CONT    t_glb_flora_garlic01
+	tamriel_data.esm    CONT    t_glb_flora_garlic02
+	tamriel_data.esm    CONT    t_glb_flora_garlichan01
+	tamriel_data.esm    CONT    t_glb_flora_garlichan02
+	tamriel_data.esm    CONT    t_glb_flora_lavender01
+	tamriel_data.esm    CONT    t_glb_flora_lotus01
+	tamriel_data.esm    CONT    t_glb_flora_milkthist01
+	tamriel_data.esm    CONT    t_glb_flora_milkthist02
+	tamriel_data.esm    CONT    t_glb_flora_nirnroot01
+	tamriel_data.esm    CONT    t_glb_flora_onion01
+	tamriel_data.esm    CONT    t_glb_flora_onion02
+	tamriel_data.esm    CONT    t_glb_flora_onionhang01
+	tamriel_data.esm    CONT    t_glb_flora_potato01
+	tamriel_data.esm    CONT    t_glb_flora_radish01
+	tamriel_data.esm    CONT    t_glb_flora_strawberr01
+	tamriel_data.esm    CONT    t_glb_flora_wthyacint01
+	tamriel_data.esm    CONT    t_glb_flora_wthyacint02
+	tamriel_data.esm    CONT    t_glb_flora_wthyacint03
+	tamriel_data.esm    CONT    t_glb_flora_wthyacint04
+	tamriel_data.esm    CONT    t_glb_mine_spellstone01
+	tamriel_data.esm    CONT    t_glb_mine_spellstone02
+	tamriel_data.esm    CONT    t_glb_mine_spellstone03
+	tamriel_data.esm    CONT    t_ham_flora_persarine01
+	tamriel_data.esm    CONT    t_ham_flora_persarine02
+	tamriel_data.esm    CONT    t_ham_flora_persarineh1
+	tamriel_data.esm    CONT    t_ham_flora_silverplm01
+	tamriel_data.esm    CONT    t_ham_flora_silverplm02
+	tamriel_data.esm    CONT    t_ham_flora_silverplm03
+	tamriel_data.esm    CONT    t_ham_flora_silverplm04
+	tamriel_data.esm    CONT    t_hr_flora_bjoulsrose01
+	tamriel_data.esm    CONT    t_hr_flora_bjoulsrose02
+	tamriel_data.esm    CONT    t_hr_flora_dragynia01
+	tamriel_data.esm    CONT    t_hr_flora_dragynia02
+	tamriel_data.esm    CONT    t_hr_flora_mistletoe01
+	tamriel_data.esm    CONT    t_hr_flora_redpoppy01
+	tamriel_data.esm    CONT    t_hr_flora_shadowfly01
+	tamriel_data.esm    CONT    t_hr_flora_shadowfly02
+	tamriel_data.esm    CONT    t_hr_flora_shadowfly03
+	tamriel_data.esm    CONT    t_hr_flora_shadowfly04
+	tamriel_data.esm    CONT    t_hr_flora_shadowfly05
+	tamriel_data.esm    CONT    t_hr_flora_shadowfly06
+	tamriel_data.esm    CONT    t_hr_flora_shadowflyh01
+	tamriel_data.esm    CONT    t_hr_flora_wrothggrap01
+	tamriel_data.esm    CONT    t_mw_fauna_eyestarcnt01
+	tamriel_data.esm    CONT    t_mw_fauna_ornadaeggs01
+	tamriel_data.esm    CONT    t_mw_fauna_ornadaeggs02
+	tamriel_data.esm    CONT    t_mw_flora_blackrose01
+	tamriel_data.esm    CONT    t_mw_flora_blackrose02
+	tamriel_data.esm    CONT    t_mw_flora_bloatspore01
+	tamriel_data.esm    CONT    t_mw_flora_bluefoot01
+	tamriel_data.esm    CONT    t_mw_flora_bluefoot02
+	tamriel_data.esm    CONT    t_mw_flora_bluefoot03
+	tamriel_data.esm    CONT    t_mw_flora_bluefoot04
+	tamriel_data.esm    CONT    t_mw_flora_glasswort01
+	tamriel_data.esm    CONT    t_mw_flora_glasswort02
+	tamriel_data.esm    CONT    t_mw_flora_glasswort03
+	tamriel_data.esm    CONT    t_mw_flora_hornlilly01
+	tamriel_data.esm    CONT    t_mw_flora_hornlilly02
+	tamriel_data.esm    CONT    t_mw_flora_hornlilly03
+	tamriel_data.esm    CONT    t_mw_flora_hornlilly04
+	tamriel_data.esm    CONT    t_mw_flora_hornlilly05
+	tamriel_data.esm    CONT    t_mw_flora_meadowrye01
+	tamriel_data.esm    CONT    t_mw_flora_meadowrye02
+	tamriel_data.esm    CONT    t_mw_flora_meadowrye03
+	tamriel_data.esm    CONT    t_mw_flora_meadowrye04
+	tamriel_data.esm    CONT    t_mw_flora_nirthfly01
+	tamriel_data.esm    CONT    t_mw_flora_nirthfly02
+	tamriel_data.esm    CONT    t_mw_flora_nirthfly03
+	tamriel_data.esm    CONT    t_mw_flora_nirthfly04
+	tamriel_data.esm    CONT    t_mw_flora_nirthfly05
+	tamriel_data.esm    CONT    t_mw_flora_redfireflw01
+	tamriel_data.esm    CONT    t_mw_flora_redfireflw02
+	tamriel_data.esm    CONT    t_mw_flora_redfireflw03
+	tamriel_data.esm    CONT    t_mw_flora_templedom01
+	tamriel_data.esm    CONT    t_mw_flora_templedom02
+	tamriel_data.esm    CONT    t_mw_flora_timsacomeb01
+	tamriel_data.esm    CONT    t_mw_flora_timsacomeb02
+	tamriel_data.esm    CONT    t_mw_flora_timsacomeb03
+	tamriel_data.esm    CONT    t_mw_flora_timsacomeb04
+	tamriel_data.esm    CONT    t_mw_flora_timsacomeb05
+	tamriel_data.esm    CONT    t_mw_floraat_oranmoss01
+	tamriel_data.esm    CONT    t_mw_floraat_oranmoss02
+	tamriel_data.esm    CONT    t_mw_floraat_oranmoss03
+	tamriel_data.esm    CONT    t_mw_floraat_uracia_01
+	tamriel_data.esm    CONT    t_mw_floraat_uracia_02
+	tamriel_data.esm    CONT    t_mw_floradp_saltcroc01
+	tamriel_data.esm    CONT    t_mw_floradp_saltrice01
+	tamriel_data.esm    CONT    t_mw_floradp_saltrice02
+	tamriel_data.esm    CONT    t_mw_floradp_saltrice03
+	tamriel_data.esm    CONT    t_mw_florads_sstrap01
+	tamriel_data.esm    CONT    t_mw_florads_sstrap02
+	tamriel_data.esm    CONT    t_mw_floragm_anemtwin01
+	tamriel_data.esm    CONT    t_mw_floragm_grtkpoly01
+	tamriel_data.esm    CONT    t_mw_floragm_grtkpoly02
+	tamriel_data.esm    CONT    t_mw_floragm_grtkpoly03
+	tamriel_data.esm    CONT    t_mw_floragm_grtkpoly04
+	tamriel_data.esm    CONT    t_mw_floragm_umbmorch01
+	tamriel_data.esm    CONT    t_mw_floragm_vilemorc01
+	tamriel_data.esm    CONT    t_mw_floratv_weepveil01
+	tamriel_data.esm    CONT    t_mw_floratv_weepveil02
+	tamriel_data.esm    CONT    t_mw_floratv_weepveil03
+	tamriel_data.esm    CONT    t_mw_floratv_weepveil04
+	tamriel_data.esm    CONT    t_mw_mine_oregold01
+	tamriel_data.esm    CONT    t_mw_mine_oregold02
+	tamriel_data.esm    CONT    t_mw_mine_oregold03
+	tamriel_data.esm    CONT    t_mw_mine_oregold04
+	tamriel_data.esm    CONT    t_mw_mine_oregold05
+	tamriel_data.esm    CONT    t_mw_mine_oregold06
+	tamriel_data.esm    CONT    t_mw_mine_oregold07
+	tamriel_data.esm    CONT    t_mw_mine_oreiron01
+	tamriel_data.esm    CONT    t_mw_mine_oreiron02
+	tamriel_data.esm    CONT    t_mw_mine_oreiron03
+	tamriel_data.esm    CONT    t_mw_mine_oreiron04
+	tamriel_data.esm    CONT    t_mw_mine_oreiron05
+	tamriel_data.esm    CONT    t_mw_mine_oreiron06
+	tamriel_data.esm    CONT    t_sky_fauna_beehveart01
+	tamriel_data.esm    CONT    t_sky_fauna_beehveart02
+	tamriel_data.esm    CONT    t_sky_fauna_beehveart03
+	tamriel_data.esm    CONT    t_sky_fauna_brstlbrst01
+	tamriel_data.esm    CONT    t_sky_fauna_fishbrwnt01
+	tamriel_data.esm    CONT    t_sky_fauna_fishcod01
+	tamriel_data.esm    CONT    t_sky_fauna_fishcod02
+	tamriel_data.esm    CONT    t_sky_fauna_fishpike01
+	tamriel_data.esm    CONT    t_sky_fauna_fishpikep01
+	tamriel_data.esm    CONT    t_sky_fauna_fishsalm01
+	tamriel_data.esm    CONT    t_sky_fauna_spkwrmrst01
+	tamriel_data.esm    CONT    t_sky_flora_apple01
+	tamriel_data.esm    CONT    t_sky_flora_apple02
+	tamriel_data.esm    CONT    t_sky_flora_apple03
+	tamriel_data.esm    CONT    t_sky_flora_aspyrtea01
+	tamriel_data.esm    CONT    t_sky_flora_aspyrtea02
+	tamriel_data.esm    CONT    t_sky_flora_aspyrteah01
+	tamriel_data.esm    CONT    t_sky_flora_bearclaw01
+	tamriel_data.esm    CONT    t_sky_flora_bearclaw02
+	tamriel_data.esm    CONT    t_sky_flora_bksporecp01
+	tamriel_data.esm    CONT    t_sky_flora_bksporecp02
+	tamriel_data.esm    CONT    t_sky_flora_bksporecp03
+	tamriel_data.esm    CONT    t_sky_flora_bleakblh01
+	tamriel_data.esm    CONT    t_sky_flora_bleakblh02
+	tamriel_data.esm    CONT    t_sky_flora_bleakblh03
+	tamriel_data.esm    CONT    t_sky_flora_bleakblh04
+	tamriel_data.esm    CONT    t_sky_flora_bottomwee01
+	tamriel_data.esm    CONT    t_sky_flora_cloudycrn01
+	tamriel_data.esm    CONT    t_sky_flora_cloudycrn02
+	tamriel_data.esm    CONT    t_sky_flora_cloudycrn03
+	tamriel_data.esm    CONT    t_sky_flora_cowbell01
+	tamriel_data.esm    CONT    t_sky_flora_deathbell01
+	tamriel_data.esm    CONT    t_sky_flora_forsythtr01
+	tamriel_data.esm    CONT    t_sky_flora_hollywrea01
+	tamriel_data.esm    CONT    t_sky_flora_honeylill01
+	tamriel_data.esm    CONT    t_sky_flora_honeylill02
+	tamriel_data.esm    CONT    t_sky_flora_honeylill03
+	tamriel_data.esm    CONT    t_sky_flora_honeylill04
+	tamriel_data.esm    CONT    t_sky_flora_honeylill05
+	tamriel_data.esm    CONT    t_sky_flora_honeylill06
+	tamriel_data.esm    CONT    t_sky_flora_ironwood01
+	tamriel_data.esm    CONT    t_sky_flora_ironwood02
+	tamriel_data.esm    CONT    t_sky_flora_ironwood03
+	tamriel_data.esm    CONT    t_sky_flora_lichen01
+	tamriel_data.esm    CONT    t_sky_flora_lichencav01
+	tamriel_data.esm    CONT    t_sky_flora_rustruss01
+	tamriel_data.esm    CONT    t_sky_flora_rustruss02
+	tamriel_data.esm    CONT    t_sky_flora_rustruss03
+	tamriel_data.esm    CONT    t_sky_flora_rustruss04
+	tamriel_data.esm    CONT    t_sky_flora_rustruss05
+	tamriel_data.esm    CONT    t_sky_flora_snowberry01
+	tamriel_data.esm    CONT    t_sky_flora_taragetis01
+	tamriel_data.esm    CONT    t_sky_flora_taragetis02
+	tamriel_data.esm    CONT    t_sky_flora_taragetis03
+	tamriel_data.esm    CONT    t_sky_flora_taragetis04
+	tamriel_data.esm    CONT    t_sky_flora_taragetis05
+	tamriel_data.esm    CONT    t_sky_flora_tremblwee01
+	tamriel_data.esm    CONT    t_sky_flora_trollroot01
+	tamriel_data.esm    CONT    t_sky_flora_trollroot02
+	tamriel_data.esm    CONT    t_sky_flora_vicherb01
+	tamriel_data.esm    CONT    t_sky_flora_vicherb02
+	tamriel_data.esm    CONT    t_sky_flora_vicherbh01
+	tamriel_data.esm    CONT    t_sky_flora_widowkiss01
+	tamriel_data.esm    CONT    t_sky_flora_withwheat01
+	tamriel_data.esm    CONT    t_sky_flora_withwheat02
+	tamriel_data.esm    CONT    t_sky_flora_withwheat03
+	tamriel_data.esm    CONT    t_sky_flora_wormwood01
+	tamriel_data.esm    CONT    t_sky_mine_amber01
+	tamriel_data.esm    CONT    t_sky_mine_orereiron01
+	tamriel_data.esm    CONT    t_sky_mine_orereiron02
+	tamriel_data.esm    CONT    t_sky_mine_orereiron03
+	tamriel_data.esm    CONT    t_sky_mine_orereiron04
+	tamriel_data.esm    CONT    t_sky_mine_orereiron05
+	tamriel_data.esm    CONT    t_sky_mine_orereiron06
+	tamriel_data.esm    CONT    t_sky_mine_orereiron07
+	tamriel_data.esm    CONT    t_sky_mine_orereorich01
+	tamriel_data.esm    CONT    t_sky_mine_orereorich02
+	tamriel_data.esm    CONT    t_sky_mine_orereorich03
+	tamriel_data.esm    CONT    t_sky_mine_orereorich04
+	tamriel_data.esm    CONT    t_sky_mine_orereorich05
+	tamriel_data.esm    CONT    t_sky_mine_orereorich06
+	tamriel_data.esm    CONT    t_sky_mine_orereorich07
+	tamriel_data.esm    CONT    t_sky_mine_orerequiks01
+	tamriel_data.esm    CONT    t_sky_mine_oreresilv01
+	tamriel_data.esm    CONT    t_sky_mine_oreresilv02
+	tamriel_data.esm    CONT    t_sky_mine_oreresilv03
+	tamriel_data.esm    CONT    t_sky_mine_oreresilv04
+	tamriel_data.esm    CONT    t_sky_mine_oreresilv05
+	tamriel_data.esm    CONT    t_sky_mine_oreresilv06
+	tamriel_data.esm    CONT    t_sky_mine_oreresilv07
+	tamriel_data.esm    CONT    t_skynor_set_beehive01
+	tamriel_data.esm    CONT    t_skynor_set_beehive02
+	tamriel_data.esm    CONT    t_val_flora_arrowroot01
+	tamriel_data.esm    CONT    t_val_flora_arrowroot02
+	tamriel_data.esm    CONT    t_val_flora_arrowroot03
+	tamriel_data.esm    CONT    t_val_flora_domicredw01
+	tamriel_data.esm    LIGH    t_glb_light_shroom1_128
+	tamriel_data.esm    LIGH    t_glb_light_spellstone_256
+	tamriel_data.esm    LIGH    t_mw_light_aanthirinmushroom
+	tamriel_data.esm    LIGH    t_mw_light_bloatspore_128
+	tamriel_data.esm    LIGH    t_mw_light_bloatspore_512
+	tribunal.esm        CONT    flora_plant_01
+	tribunal.esm        CONT    flora_plant_02
+	tribunal.esm        CONT    flora_plant_03
+	tribunal.esm        CONT    flora_plant_04
+	tribunal.esm        CONT    flora_plant_05
+	tribunal.esm        CONT    flora_plant_06
+	tribunal.esm        CONT    flora_plant_07
+	tribunal.esm        CONT    flora_plant_08
+	tribunal.esm        CONT    flora_sedge_01
+	tribunal.esm        CONT    flora_sedge_02
+	tribunal.esm        CONT    kollop_03
+	tribunal.esm        CONT    rock_adam_mold15
+	tribunal.esm        CONT    rock_adam_mold16
+	tribunal.esm        CONT    rock_adam_mold17
+	tribunal.esm        CONT    rock_adam_mold18
+	tribunal.esm        CONT    rock_adam_mold19
+	tribunal.esm        CONT    rock_adam_mold20
+	tribunal.esm        CONT    rock_adam_mold21
+	tribunal.esm        CONT    rock_adam_py08
+	tribunal.esm        CONT    rock_adam_py09
+	tribunal.esm        CONT    rock_adam_py10
+	tribunal.esm        CONT    rock_adam_py11
+	tribunal.esm        CONT    rock_adam_py12
+	tribunal.esm        CONT    rock_adam_py13
+	tribunal.esm        CONT    rock_adam_py14
+	tribunal.esm        LIGH    adamantium
+	tribunal.esm        LIGH    green light_256

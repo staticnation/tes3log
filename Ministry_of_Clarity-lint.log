@@ -1,0 +1,73 @@
+Ministry_of_Clarity.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (804) != Actual count (803)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(sx1_captain_script)
+	SCPT(sx1_demiah_script)
+	SCPT(sx1_elam_script)
+	SCPT(sx1_millie_script)
+	SCPT(sx1_portal_Sound)
+	SCPT(sx1_priest_script)
+	SCPT(sx1_scarf_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ash statue
+	morrowind.esm       DIAL    coded message
+	morrowind.esm       DIAL    great houses
+	morrowind.esm       NPC_    alvura othrenim
+	morrowind.esm       NPC_    daynasa telandas
+	morrowind.esm       NPC_    elam andas
+	morrowind.esm       NPC_    folsi thendas
+	morrowind.esm       NPC_    llandras belaal
+	morrowind.esm       NPC_    milie hastien
+	morrowind.esm       NPC_    neldris llervu
+	morrowind.esm       NPC_    nelmil hler
+	morrowind.esm       NPC_    punibi yahaz
+	morrowind.esm       NPC_    relur faryon
+	morrowind.esm       NPC_    vivyne andrano
+	morrowind.esm       PGRD    sanit, shrine
+	morrowind.esm       PGRD    subdun
+	morrowind.esm       PGRD    subdun, shrine
+	morrowind.esm       PGRD    telasero, lower level
+	morrowind.esm       PGRD    telasero, upper level
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+
+[DUP-INF]: ID=32281390961219948(Topic:my trade)
+  |DATA|ONAM:Vedam Dren|NAME:I am a noble, a leader and diplomat.
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=787419786402628286(Topic:background)
+  |DATA|ONAM:bugdul gro-kharbush|NAME:I'm the building foreman for Indarys Manor.
+
+[MOD-INF]: ID=1430113310772418621(Topic:ash statue)
+  morrowind.esm----------->|DATA|ONAM:hanarai assutlanipal|NAME:What? No. Where did you...? Damn!|BNAM:Journal HR_SixthHouseBase 80  SetFight 100  StartCombat Player  SetDisposition 0  Goodbye
+  Ministry_of_Clarity.ESP->|DATA|ONAM:hanarai assutlanipal|NAME:What? No. Where did you...? Damn!|BNAM:Journal HR_SixthHouseBase 80  SetFight 100  StartCombat Player  SetDisposition 0  Goodbye
+
+[DUP-INF]: ID=1656921162306334539(Topic:little secret)
+  |DATA|CNAM:Miner|ANAM:Dissapla Mine|NAME:Smuggling raw glass is a crime. All raw glass belongs to the Emperor, so it's the crime of treason, and punished by death. But... there's so much money to be made selling black market raw glass that it's a rare merchant who'll refuse to buy a piece from you. Of course, if the mine guards catch you stealing raw glass, they just kill you. Which is why we don't steal raw glass.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[DUP-INF]: ID=2076565943043228859(Topic:great houses)
+  |DATA|ONAM:huleeya|NAME:In modern times Morrowind is ruled by five Great Houses: House Hlaalu, House Redoran, House Telvanni, House Indoril, and House Dres. Great Houses culture is partly defined by its roots in ancient Dunmer tribal clans, and partly by later Imperial  influences from other Western cultures. The Great Houses culture is only one of the native Dunmer cultures of Morrowind. The other native culture, the Ashlander culture, is a nomadic barbarian culture largely untouched by Imperial influences.|SCVR:34JX3A1_7HuleeyaInformant|INTV
+
+[MOD-INF]: ID=14849203321598615886(Greeting:greeting 1)
+  tribunal.esm------------>|DATA|ONAM:Thelsa Dral|NAME:Well. Someone finally found me. Your bad luck, really.|BNAM:StartCombat Player  SetFight 90  SetDisposition 0  Goodbye
+  Ministry_of_Clarity.ESP->|DATA|ONAM:Thelsa Dral|NAME:Well. Someone finally found me. Your bad luck, really.|BNAM:StartCombat Player  SetFight 90  SetDisposition 0  Goodbye
+
+[DUP-INF]: ID=16325102782849326701(Topic:latest rumors)
+  |DATA|FNAM:Ashlanders|NAME:The skies are clear all over Morrowind? Even on Red Mountain? I cannot believe it.|SCVR:14JX3C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  tribunal.esm------------>|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+  Ministry_of_Clarity.ESP->|DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[MOD-INF]: ID=21664174012860815518(Topic:coded message)
+  morrowind.esm----------->|DATA|ONAM:galos mathendis|NAME:My patron, Master Aryon, wants this coded message delivered to Divayth Fyr. He lives in Tel Fyr. You might need some help getting there. Why not take these potions of water walking? And these potions of healing. And perhaps a few potions of swift swim as well. If Divayth Fyr responds to this message, please deliver his response back to me.|BNAM:Journal HT_FyrMessage 10  Player->AddItem "bk_MessageFromMasterAryon" 1  Player->AddItem "p_water_walking_s" 4  Player->AddItem "p_swift_swim_q" 4  Player->AddItem "p_restore_health_q" 7  ShowMap "Tel Fyr"
+  Ministry_of_Clarity.ESP->|DATA|ONAM:galos mathendis|NAME:My patron, Master Aryon, wants this coded message delivered to Divayth Fyr. He lives in Tel Fyr. You might need some help getting there. Why not take these potions of water walking? And these potions of healing. And perhaps a few potions of swift swim as well. If Divayth Fyr responds to this message, please deliver his response back to me.|BNAM:Journal HT_FyrMessage 10  Player->AddItem "bk_MessageFromMasterAryon" 1  Player->AddItem "p_water_walking_s" 4  Player->AddItem "p_swift_swim_q" 4  Player->AddItem "p_restore_health_q" 7  ShowMap "Tel Fyr"

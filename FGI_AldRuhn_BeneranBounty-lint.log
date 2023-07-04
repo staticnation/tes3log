@@ -1,0 +1,72 @@
+FGI_AldRuhn_BeneranBounty.esp: DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	morrowind.esm       DIAL    nerer beneran
+	morrowind.esm       DIAL    sargon
+	morrowind.esm       NPC_    dalmil varen
+	morrowind.esm       NPC_    gavesu arelas
+	morrowind.esm       NPC_    llero lloran
+	morrowind.esm       NPC_    milynea andrethi
+	morrowind.esm       NPC_    nerer beneran
+	morrowind.esm       NPC_    raynila aryon
+	morrowind.esm       NPC_    varon sadralo
+	morrowind.esm       NPC_    varvsa athram
+	tribunal.esm        DIAL    fg_beneranbounty
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=56952830155214616(Greeting:greeting 5)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|NAME:I sent you to take care of Nerer Beneran. Have you had any success with that yet?|SCVR:04JX3FG_BeneranBounty|INTV: |SCVR:14JX4FG_BeneranBounty|INTV:d
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|NAME:I sent you to take care of Nordic mercenaries. Have you had any success with that yet?|SCVR:04JX3FG_BeneranBounty|INTV: |SCVR:14JX4FG_BeneranBounty|INTV:d
+
+[MOD-INF]: ID=191217264158619624(Topic:nerer beneran)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work. Nerer Beneran has been brought to justice. Here's your share of the bounty, %PCName.|SCVR:56DX3nerer beneran|INTV|BNAM:ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 10  Player->AddItem Gold_001 500  Journal FG_BeneranBounty 100
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work. Nerer Beneran has been brought to justice. Here's your share of the bounty, %PCName.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:56DX3nerer beneran|INTV|BNAM:ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 10  Player->AddItem Gold_001 500  Journal FG_BeneranBounty 100
+
+[MOD-INF]: ID=1277218841429332127(Topic:nerer beneran)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|NAME:Regretably, you broke the rules of the Fighters Guild and you have been expelled. First make amends, and then I can speak with you about this again.|SCVR:01390|INTV
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|NAME:Regretably, you broke the rules of the Fighters Guild and you have been expelled. First make amends, and then I can speak with you about this again.|SCVR:01390|INTV|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=1510463241152012269(Topic:sargon)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|NAME:I'm sure the Nord sailors that travel along the north coast of Vvardenfell are grateful to you, %PCName.|SCVR:34JX3FG_BeneranBounty|INTV:d
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|NAME:I'm sure the Nord sailors that travel along the north coast of Vvardenfell are grateful to you, %PCName.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_BeneranBounty|INTV:d
+
+[MOD-INF]: ID=2064631212418219601(Topic:nerer beneran)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Nerer Beneran was a member of House Redoran. He is now the leader of an outlaw band in Sargon which is north of Maar Gan. Find Nerer Beneran and bring him to justice.|SCVR:34JX3FG_Vas|INTV:d|BNAM:Journal FG_BeneranBounty 10
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Nerer Beneran was a member of House Redoran. He is now the leader of an outlaw band in Sargon which is north of Maar Gan. Find Nerer Beneran and bring him to justice.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_Vas|INTV:d|BNAM:Journal FG_BeneranBounty 10
+
+[MOD-INF]: ID=2974724689365814680(Journal:fg_beneranbounty)
+  tribunal.esm------------------>|DATA|NAME:Percius Mercius told me there is a bounty for the outlaw Nerer Beneran. He is hiding in the cavern of Sargon.
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|NAME:Percius Mercius told me that a distinguished client from Cyrodiil hired the Fighters Guild to take care of Nordic mercenaries whose presence might cause a conflict with House Redoran. The mercenaries, including their leader Thonthor the Reaver, have a hideout in the cavern of Sargon. I am ordered to kill Thonthor the Reaver and report back to Percius Mercius.
+
+[MOD-INF]: ID=4389297022823619711(Journal:fg_beneranbounty)
+  tribunal.esm------------------>|DATA|NAME:Percius Mercius thanked me for bringing Nerer Beneran's crimes to an end.|QSTF
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|NAME:Percius Mercius thanked me for taking care of Nordic mercenaries.|QSTF
+
+[MOD-INF]: ID=11207138091711711602(Topic:nerer beneran)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:House Redoran offered their thanks to the Fighters Guild for bringing Nerer to justice.|SCVR:34JX3FG_BeneranBounty|INTV:d
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:House Redoran offered their thanks to the Fighters Guild for bringing Nerer to justice.|SCVR:34JX3FG_BeneranBounty|INTV:d|SCVR:54JX0FGI_DialogueKiller|INTV
+
+[MOD-INF]: ID=13685321521738011809(Journal:fg_beneranbounty)
+  tribunal.esm------------------>|DATA|NAME:Fighters Guild: Beneran's Bounty|QSTN
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|NAME:Fighters Guild: Northern Tension|QSTN
+
+[MOD-INF]: ID=17581244982911615223(Topic:nerer beneran)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Like I said, go to the outlaw refuge Sargon and bring Nerer Beneran to justice.|SCVR:34JX3FG_BeneranBounty|INTV: 
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Like I said, go to the outlaw refuge Sargon and bring Nerer Beneran to justice.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX3FG_BeneranBounty|INTV: 
+
+[MOD-INF]: ID=20380242501853911216(Topic:nerer beneran)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Well, if you've already brought Nerer Beneran to justice, %PCName, you have my gratitude and the gratitude of House Redoran. Here's your share of the Bounty.|SCVR:34JX0FG_BeneranBounty|INTV:|SCVR:56DX3nerer beneran|INTV|BNAM:ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 10  Player->AddItem Gold_001 500  Journal FG_BeneranBounty 100
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Well, if you've already brought Nerer Beneran to justice, %PCName, you have my gratitude and the gratitude of House Redoran. Here's your share of the Bounty.|SCVR:04JX0FGI_DialogueKiller|INTV|SCVR:34JX0FG_BeneranBounty|INTV:|SCVR:56DX3nerer beneran|INTV|BNAM:ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 10  Player->AddItem Gold_001 500  Journal FG_BeneranBounty 100
+
+[MOD-INF]: ID=21375104401520320939(Topic:sargon)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|NAME:Regretably, you broke the rules of the Fighters Guild and you have been expelled. First clear your name, and then I can speak with you about this again.|SCVR:01390|INTV
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|NAME:Regretably, you broke the rules of the Fighters Guild and you have been expelled. First clear your name, and then I can speak with you about this again.|SCVR:01390|INTV|SCVR:44JX3FG_Vas|INTV:d|SCVR:54JX4FG_BeneranBounty|INTV:d
+
+[MOD-INF]: ID=22856209292233315718(Topic:sargon)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|NAME:You might want to ask around Maar Gan. I've heard this outlaw refuge is on an island and well-hidden.|SCVR:34JX4FG_BeneranBounty|INTV:d
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|NAME:You might want to ask around Maar Gan. I've heard this refuge is on an island and well-hidden.|SCVR:24JX3FG_Vas|INTV:d|SCVR:34JX4FG_BeneranBounty|INTV:d
+
+[MOD-INF]: ID=32664295793242122409(Topic:orders)
+  morrowind.esm----------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:The Fighters Guild often enacts justice when there is no one else who can do so. I just received a contract straight from Cyrodiil. I need someone to find the murderer and outlaw Nerer Beneran.|SCVR:34JX3FG_Vas|INTV:d
+  FGI_AldRuhn_BeneranBounty.esp->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:The Fighters Guild often enacts justice when there is no one else who can do so. I just received a contract straight from Cyrodiil. I need someone to take care of Nordic mercenaries who may cause trouble for House Redoran.|SCVR:34JX3FG_Vas|INTV:d

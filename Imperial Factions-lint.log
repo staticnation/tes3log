@@ -1,0 +1,148 @@
+Imperial Factions.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(aa_fact_FG_supply01)
+	SCPT(aa_fact_FG_supply02)
+	SCPT(aa_fact_MG_supply01)
+	SCPT(aa_fact_MG_supply02)
+	SCPT(aa_fact_Meph_Tome_Creature)
+	SCPT(aa_fact_TG_lootbag01_script)
+	SCPT(aa_fact_TG_lootbag02_script)
+	SCPT(aa_fact_TG_supply01)
+	SCPT(aa_fact_TG_supply02)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       FACT    east empire company
+	morrowind.esm       CONT    com_chest_02_fg_supply
+	morrowind.esm       CONT    com_chest_02_mg_supply
+	morrowind.esm       DIAL    jobs
+	morrowind.esm       DIAL    join the fighters guild
+	morrowind.esm       DIAL    join the mages guild
+	morrowind.esm       DIAL    join the thieves guild
+	morrowind.esm       FACT    camonna tong
+	morrowind.esm       FACT    census and excise
+	morrowind.esm       FACT    clan aundae
+	morrowind.esm       FACT    clan berne
+	morrowind.esm       FACT    clan quarra
+	morrowind.esm       FACT    fighters guild
+	morrowind.esm       FACT    hlaalu
+	morrowind.esm       FACT    imperial cult
+	morrowind.esm       FACT    imperial knights
+	morrowind.esm       FACT    imperial legion
+	morrowind.esm       FACT    mages guild
+	morrowind.esm       FACT    morag tong
+	morrowind.esm       FACT    redoran
+	morrowind.esm       FACT    telvanni
+	morrowind.esm       FACT    temple
+	morrowind.esm       FACT    thieves guild
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=330985295213459(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:aengoth|NAME:We got some Dwemer Spider Centurions from a friend, and we got Estoril who can fix them up, but we don't have any scrap metal.|SCVR:34JX3TG_Withershins|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:We got some Dwemer Spider Centurions from a friend, and we got Estoril who can fix them up, but we don't have any scrap metal.|SCVR:34JX3TG_Withershins|INTV:d
+
+[MOD-INF]: ID=2419990142116235(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:aengoth|NAME:Eindel, a Bosmer like me, has some fine arrows, the Darts of Judgement.|SCVR:34JX3TG_AldruhnDefenses|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:Eindel, a Bosmer like me, has some fine arrows, the Darts of Judgement.|SCVR:34JX3TG_AldruhnDefenses|INTV:d
+
+[MOD-INF]: ID=4078646376514284(Topic:orders)
+  morrowind.esm--------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:One of the magistrates has been giving the Fighters Guild trouble. I don't want the Fighters Guild to have any more trouble from Rufinus Alleius.|SCVR:34JX3FG_SilenceTaxgirl|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:One of the magistrates has been giving the Fighters Guild trouble. I don't want the Fighters Guild to have any more trouble from Rufinus Alleius.|SCVR:34JX3FG_SilenceTaxgirl|INTV:d
+
+[MOD-INF]: ID=22145416337694702(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:habasi|NAME:Fort Pelagiad's jail holds a member of the Guild, New-Shoes Bragor.|SCVR:34JX3TG_VintageBrandy|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:habasi|DNAM:Thieves Guild|NAME:Fort Pelagiad's jail holds a member of the Guild, New-Shoes Bragor.|SCVR:34JX3TG_VintageBrandy|INTV:d
+
+[MOD-INF]: ID=25630773155356680(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:big helende|NAME:We need to protect ourselves from the Camonna Tong. Maybe we could hire a wizard from the Mages Guild.|SCVR:34JX3TG_GrandmasterRetort|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:big helende|DNAM:Thieves Guild|NAME:We need to protect ourselves from the Camonna Tong. Maybe we could hire a wizard from the Mages Guild.|SCVR:34JX3TG_GrandmasterRetort|INTV:d
+
+[DUP-INF]: ID=31812106825080860(Topic:jobs)
+  |DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:A fellow thief and member of the Guild has gone missing. Would you track down Nads Tharen for me?
+
+[MOD-INF]: ID=60743624357024488(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:big helende|NAME:One of our customers wants a Grandmaster's Retort.|SCVR:04JX0TG_CookbookAlchemy|INTV:|SCVR:16DX2tusamircil|INTV:
+  Imperial Factions.ESP->|DATA|ONAM:big helende|DNAM:Thieves Guild|NAME:One of our customers wants a Grandmaster's Retort.|SCVR:04JX0TG_CookbookAlchemy|INTV:|SCVR:16DX2tusamircil|INTV:
+
+[MOD-INF]: ID=105049630584730967(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:aengoth|NAME:Gandosa Arobar is a Councilor's daughter if you know what I mean. I hear she's got a copy of Boethiah's Pillow Book.|SCVR:34JX3TG_MasterHelm|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:Gandosa Arobar is a Councilor's daughter if you know what I mean. I hear she's got a copy of Boethiah's Pillow Book.|SCVR:34JX3TG_MasterHelm|INTV:d
+
+[MOD-INF]: ID=155811962082013249(Topic:duties)
+  morrowind.esm--------->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:You may be able to assist me, %PCName. I would like to speak with one of the Wise Women of the Ashlanders. Perhaps you could arrange a meeting.|SCVR:34JX3MG_VampVol2|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:You may be able to assist me, %PCName. I would like to speak with one of the Wise Women of the Ashlanders. Perhaps you could arrange a meeting.|SCVR:34JX3MG_VampVol2|INTV:d
+
+[MOD-INF]: ID=192221651782585306(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:aengoth|NAME:There's another book I want you to fetch for me. It's called "Withershins."|SCVR:34JX3TG_BadGandosa|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:There's another book I want you to fetch for me. It's called "Withershins."|SCVR:34JX3TG_BadGandosa|INTV:d
+
+[MOD-INF]: ID=213878862155329909(Topic:orders)
+  morrowind.esm--------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I have a bounty contracted worth 500 gold for Adraria Vandacia.|SCVR:34JX3FG_DebtStoine|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I have a bounty contracted worth 500 gold for Adraria Vandacia.|SCVR:34JX3FG_DebtStoine|INTV:d
+
+[MOD-INF]: ID=292531804432634565(Topic:join the thieves guild)
+  morrowind.esm--------->|DATA|FNAM:Thieves Guild|NAME:You are now a %PCRank in the Thieves Guild. Welcome, brother %PCName. Talk to me when you want some odd jobs to do and when you think you're ready for advancement. If you have a price on your head, there are those you can talk to as well.|SCVR:01500|INTV|BNAM:PCJoinFaction "Thieves Guild"  ModDisposition 5
+  Imperial Factions.ESP->|DATA|FNAM:Thieves Guild|NAME:You are now a %PCRank in the Thieves Guild. Welcome, brother %PCName. Talk to me when you want some odd jobs to do and when you think you're ready for advancement. If you have a price on your head, there are those you can talk to as well. If you are curious about the privileges your rank gives you, ask me about faction ranks.|SCVR:01500|INTV|BNAM:PCJoinFaction "Thieves Guild"  ModDisposition 5  AddTopic "faction rank"
+
+[MOD-INF]: ID=532012418244687968(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:aengoth|NAME:There's a customer who wants a Redoran Master Helm.|SCVR:34JX3TG_LootAldruhn|MGIN
+  Imperial Factions.ESP->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:There's a customer who wants a Redoran Master Helm.|SCVR:34JX3TG_LootAldruhn|MGIN
+
+[MOD-INF]: ID=704571411820512285(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:big helende|NAME:One of our customers wants a Grandmaster's Retort.|SCVR:04JX3TG_CookbookAlchemy|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:big helende|DNAM:Thieves Guild|NAME:One of our customers wants a Grandmaster's Retort.|SCVR:04JX3TG_CookbookAlchemy|INTV:d
+
+[MOD-INF]: ID=1733911399141146687(Topic:join the mages guild)
+  morrowind.esm--------->|DATA|ONAM:nileno dorvayn|NAME:Very well. You are now a member of House Hlaalu. When you are ready, we can discuss business and advancement in House Hlaalu.|SCVR:01500|INTV|BNAM:PCJoinFaction "Hlaalu"
+  Imperial Factions.ESP->|DATA|FNAM:Mages Guild|NAME:You are now a member of the Mages Guild. Welcome, %NextPCRank. When you are ready, you can ask for duties to perform, and once you are ready, you can ask me about advancement in the Guild. If you are curious about the privileges your rank gives you, ask me about faction ranks.|SCVR:01500|INTV|BNAM:PCJoinFaction "Mages Guild"  AddTopic "faction rank"
+
+[MOD-INF]: ID=1986056692116910551(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:big helende|NAME:One of our customers wants the book "Redoran Cooking Secrets."|SCVR:34JX3TG_SadrithMoraDefenses|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:big helende|DNAM:Thieves Guild|NAME:One of our customers wants the book "Redoran Cooking Secrets."|SCVR:34JX3TG_SadrithMoraDefenses|INTV:d
+
+[MOD-INF]: ID=2140577593079311095(Topic:duties)
+  morrowind.esm--------->|DATA|ONAM:ranis athrys|DNAM:Mages Guild|NAME:I believe the Mages Guild has been infiltrated by a Telvanni spy.|SCVR:34JX3MG_KillNecro2|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:ranis athrys|DNAM:Mages Guild|NAME:I believe the Mages Guild has been infiltrated by a Telvanni spy.|SCVR:34JX3MG_KillNecro2|INTV:d
+
+[MOD-INF]: ID=2952330407119326936(Topic:orders)
+  morrowind.esm--------->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I don't have orders for anyone under the rank of Protector. Check what you need for advancement and come back.|SCVR:34JX3FG_DebtStoine|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:lorbumol gro-aglakh|DNAM:Fighters Guild|NAME:I don't have orders for anyone under the rank of Defender. Check what you need for advancement and come back.|SCVR:34JX3FG_DebtStoine|INTV:d
+
+[MOD-INF]: ID=4250324162546318551(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:aengoth|NAME:I got a job for you. Something that might add some clink to your pockets. I've heard the Ald'ruhn Guild of Mages has been left unguarded. I want you to get Anareren's Devil Tanto.
+  Imperial Factions.ESP->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:I got a job for you. Something that might add some clink to your pockets. I've heard the Ald'ruhn Guild of Mages has been left unguarded. I want you to get Anareren's Devil Tanto.
+
+[MOD-INF]: ID=4809295512037720930(Topic:duties)
+  morrowind.esm--------->|DATA|ONAM:ranis athrys|DNAM:Mages Guild|NAME:I believe Tashpi Ashibael in Maar Gan has been practicing Necromancy.|SCVR:34JX3MG_EscortScholar2|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:ranis athrys|DNAM:Mages Guild|NAME:I believe Tashpi Ashibael in Maar Gan has been practicing Necromancy.|SCVR:34JX3MG_EscortScholar2|INTV:d
+
+[MOD-INF]: ID=5275104151157219106(Topic:join the thieves guild)
+  morrowind.esm--------->|DATA|FNAM:Thieves Guild|NAME:You are now a %PCRank in the Thieves Guild. Welcome, sister %PCName. Talk to me when you want some odd jobs to do and when you think you're ready for advancement. If you have a price on your head, there are those you can talk to as well.|SCVR:01500|INTV|SCVR:11380|INTV|BNAM:PCJoinFaction "Thieves Guild"  ModDisposition 5
+  Imperial Factions.ESP->|DATA|FNAM:Thieves Guild|NAME:You are now a %PCRank in the Thieves Guild. Welcome, sister %PCName. Talk to me when you want some odd jobs to do and when you think you're ready for advancement. If you have a price on your head, there are those you can talk to as well. If you are curious about the privileges your rank gives you, ask me about faction ranks.|SCVR:01500|INTV|SCVR:11380|INTV|BNAM:PCJoinFaction "Thieves Guild"  ModDisposition 5  AddTopic "faction rank"
+
+[MOD-INF]: ID=9285243492694821389(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:big helende|NAME:We've been hired to fetch a Dispel potion recipe.
+  Imperial Factions.ESP->|DATA|ONAM:big helende|DNAM:Thieves Guild|NAME:We've been hired to fetch a Dispel potion recipe.
+
+[MOD-INF]: ID=13030265523172521200(Topic:duties)
+  morrowind.esm--------->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:I may have duties for you later, %PCName. Right now I am busy making a Detect Creatures potion for Edwinna in Ald'ruhn.
+  Imperial Factions.ESP->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:I may have duties for you later, %PCName. Talk to me again when you are more experienced and knowledgeable.|SCVR:04JX3MG_Potion|INTV:d
+
+[MOD-INF]: ID=19880206552472026882(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:big helende|NAME:I'd like you to see if you can't get Felen Maryon's staff.|SCVR:34JX3TG_RedoranCookbook|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:big helende|DNAM:Thieves Guild|NAME:I'd like you to see if you can't get Felen Maryon's staff.|SCVR:34JX3TG_RedoranCookbook|INTV:d
+
+[MOD-INF]: ID=22247158973054319524(Topic:duties)
+  morrowind.esm--------->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:When any mage turns to Necromancy, it casts a pale shadow over the whole guild.|SCVR:34JX3MG_WiseWoman|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:When any mage turns to Necromancy, it casts a pale shadow over the whole guild.|SCVR:34JX3MG_WiseWoman|INTV:d
+
+[MOD-INF]: ID=30351133391107816483(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:The Fighters Guild is betraying the Empire for Camonna Tong gold. Percius Mercius, the old guildmaster in Ald'ruhn, might be willing to help us fight.|SCVR:34JX3TG_BrotherThief|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:I have an important mission, so important in fact, I cannot trust anyone but a ringleader to complete it.|SCVR:34JX3TG_BrotherThief|INTV:d
+
+[MOD-INF]: ID=30351133391107816483(Topic:jobs)
+  morrowind.esm--------->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:The Fighters Guild is betraying the Empire for Camonna Tong gold. Percius Mercius, the old guildmaster in Ald'ruhn, might be willing to help us fight.|SCVR:34JX3TG_BrotherThief|INTV:d
+  Imperial Factions.ESP->|DATA|ONAM:stacey|DNAM:Thieves Guild|NAME:I have an important mission, so important in fact, I cannot trust anyone but a ringleader to complete it.|SCVR:34JX3TG_BrotherThief|INTV:d
+[MOD-IID]: ID=20732157115515378
+  Imperial Factions.ESP->The Fighters Guild is betraying the Empire for Camonna Tong gold. Percius Mercius, the old guildmaster in Ald'ruhn, might be willing to help us fight.

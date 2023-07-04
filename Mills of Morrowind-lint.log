@@ -1,0 +1,69 @@
+Mills of Morrowind.esp: DUP-REC GETSND MENUMOD MISSVER MOD-INF OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(SG_dustbowl)
+	SCPT(SG_rotate)
+	SCPT(ab01sgMillLever01Script)
+	SCPT(ab01sgMillLever02Script)
+	SCPT(ab01sgMillLever03Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(SG_dustbowl)
+	SCPT(SG_rotate)
+	SCPT(ab01sgMillPayScript)
+	SCPT(ab01sgMillWork01Script)
+	SCPT(ab01sgMillWork02Script)
+	SCPT(ab01sgMillWork03Script)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LAND    (-20, 17)
+	bloodmoon.esm       LAND    (-20, 18)
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_grass_03.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	morrowind.esm       LAND    (-6, -7)
+	morrowind.esm       LAND    (-6, -8)
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       PGRD    bitter coast region
+	morrowind.esm       PGRD    molag amur region
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[MOD-INF]: ID=135187899394221201(Topic:specific place)
+  morrowind.esm---------->|DATA|NAME:The Buoyant Armiger and Redoran garrisons, the hostels, and other services are all inside the Molag Mar Stronghold, either on the tier top or inside on the lower tiers. Roads lead north to the two pilgrim sites, Mount Assarnibibi and Mount Kand, in the Molag Amur wastes. Silt strider service goes to Suran and Vivec. From the docks get ship passage to Vivec, Tel Branora, and Hla Oad.|SCVR:07XX0dilami androm|INTV|SCVR:17XX0rindral dralor|INTV|INTV|SCVR:3CsX0nolore|INTV:|BNAM:;Molag Mar;
+  Mills of Morrowind.esp->|DATA|NAME:The Buoyant Armiger and Redoran garrisons, the hostels, and other services are all inside the Molag Mar Stronghold, either on the tier top or inside on the lower tiers. Roads lead north to the two pilgrim sites, Mount Assarnibibi and Mount Kand, in the Molag Amur wastes. If you follow the river Nabia you will come to Dustbowl Mill. Silt strider service goes to Suran and Vivec. From the docks get ship passage to Vivec, Tel Branora, and Hla Oad.|SCVR:07XX0dilami androm|INTV|SCVR:17XX0rindral dralor|INTV|INTV|SCVR:3CsX0NoLore|INTV:|BNAM:;Molag Mar;
+
+[MOD-INF]: ID=237003451691414011(Topic:specific place)
+  morrowind.esm---------->|DATA|ANAM:Hla Oad|NAME:Fat Leg's Drop-Off is the only tradehouse in the village. That's where everyone hangs out. See a couple shacks and a ship or two, and you've seen all of Hla Oad. Baleni Salavel at the docks offers passage to Gnaar Mok, Vivec, and Ebonheart.|SCVR:07XX0baleni salavel|INTV|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;Hla Oad;
+  Mills of Morrowind.esp->|DATA|ANAM:Hla Oad|NAME:Fat Leg's Drop-Off is the only tradehouse in the village. That's where everyone hangs out. See a couple shacks and a ship or two, and you've seen all of Hla Oad. Baleni Salavel at the docks offers passage to Gnaar Mok, Vivec, and Ebonheart and Hla Lumber Mill is only a stones throw away to the south from here. Just as the Odai river meets the sea.|SCVR:07XX0baleni salavel|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Hla Oad;

@@ -1,0 +1,30 @@
+SR_2_BoundItems.esp: DUP-REC MISSAUT MISSDSC MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (41) != Actual count (40)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ENCH    bound battle-axe_effect_en
+	morrowind.esm       ENCH    bound boots_effect_en
+	morrowind.esm       ENCH    bound cuirass_effects_en
+	morrowind.esm       ENCH    bound dagger_effect_en
+	morrowind.esm       ENCH    bound gauntlet_left_effect_en
+	morrowind.esm       ENCH    bound gauntlet_right_effect_en
+	morrowind.esm       ENCH    bound helm_effect_en
+	morrowind.esm       ENCH    bound longbow_effect_en
+	morrowind.esm       ENCH    bound longsword_effect_en
+	morrowind.esm       ENCH    bound mace_effect_en
+	morrowind.esm       ENCH    bound shield_effect_en
+	morrowind.esm       ENCH    bound spear_effect_en
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    bound_boots
+	morrowind.esm       ARMO    bound_cuirass
+	morrowind.esm       ARMO    bound_gauntlet_left
+	morrowind.esm       ARMO    bound_gauntlet_right
+	morrowind.esm       ARMO    bound_helm
+	morrowind.esm       ARMO    bound_shield
+	morrowind.esm       WEAP    bound_battle_axe
+	morrowind.esm       WEAP    bound_dagger
+	morrowind.esm       WEAP    bound_longbow
+	morrowind.esm       WEAP    bound_longsword
+	morrowind.esm       WEAP    bound_mace
+	morrowind.esm       WEAP    bound_spear

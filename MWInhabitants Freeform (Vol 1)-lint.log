@@ -1,0 +1,161 @@
+MWInhabitants Freeform (Vol 1).esp: DEP-LST DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [DEP-LST] Deprecated use of Leveled List functions on Bethesda Lists:
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_belladonna_plant
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_bonemeal
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_coda_flower
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_comberry
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_coprinus
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_corkbulb_root
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_gold_kanet
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_hackle-lo_leaf
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_holly
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_kresh_fiber
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_marshmerrow
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_muck
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_pearl
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_roobrush
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_russula
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_scathecraw
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_stoneflower_petals
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_trama_root
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_wickwheat
+	SCPT(MI_AL_Lev_Add_S)                addtolevitem random_willow_anther
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_bonemeal
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_coda_flower
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_comberry
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_coprinus
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_corkbulb_root
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_gold_kanet
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_holly
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_kresh_fiber
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_kwama_cuttle
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_muck
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_pearl
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_roobrush
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_russula
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_scathecraw
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_scrap_metal
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_stoneflower_petals
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_trama_root
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_wickwheat
+	SCPT(MI_EA_Lev_Add_S)                addtolevitem random_willow_anther
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_bonemeal
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_coda_flower
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_comberry
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_coprinus
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_corkbulb_root
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_gold_kanet
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_holly
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_kresh_fiber
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_kwama_cuttle
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_muck
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_pearl
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_roobrush
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_russula
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_scathecraw
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_scrap_metal
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_stoneflower_petals
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_trama_root
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_wickwheat
+	SCPT(MI_EA_Lev_Rem_S)                removefromlevitem random_willow_anther
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MI_AC_Container_Chest_S)
+	SCPT(MI_AC_Container_No_Lock_S)
+	SCPT(MI_AC_Create_Data_S)
+	SCPT(MI_AC_Crime_Cleanup_S)
+	SCPT(MI_AC_Crime_Select_S)
+	SCPT(MI_AC_Dist_NPC_S)
+	SCPT(MI_AC_Item_Remove_S)
+	SCPT(MI_AC_Place_Item_S)
+	SCPT(MI_AC_Town_Info_S)
+	SCPT(MI_AL_Build_Data_S)
+	SCPT(MI_AL_Cleanup_S)
+	SCPT(MI_AL_Count_S)
+	SCPT(MI_AL_Lev_Add_S)
+	SCPT(MI_BH_Build_Data_S)
+	SCPT(MI_BH_Count_S)
+	SCPT(MI_BH_CrimeDiscount_S)
+	SCPT(MI_BH_Main_OLD_S)
+	SCPT(MI_BH_Main_S)
+	SCPT(MI_Container_Search_S)
+	SCPT(MI_DA_Statue_S)
+	SCPT(MI_EA_Build_Data_S)
+	SCPT(MI_EA_Inv_Rem_2_S)
+	SCPT(MI_EA_Inv_Rem_S)
+	SCPT(MI_EA_Lev_Add_S)
+	SCPT(MI_EA_Lev_Rem_S)
+	SCPT(MI_EA_Topic_S)
+	SCPT(MI_FA_Am_I_Defeated_S)
+	SCPT(MI_FA_Boast_Reminder_S)
+	SCPT(MI_FA_Build_Data_S)
+	SCPT(MI_FA_Cleanup_Arena_S)
+	SCPT(MI_FA_Defeat_List_S)
+	SCPT(MI_FA_Detect_Rank_S)
+	SCPT(MI_FA_Flag_S)
+	SCPT(MI_FA_Init_Boast_S)
+	SCPT(MI_FA_NPC_Lose_S)
+	SCPT(MI_FA_NPC_Outcome_S)
+	SCPT(MI_FA_NPC_Win_S)
+	SCPT(MI_FA_Place_0_S)
+	SCPT(MI_FA_Place_1_S)
+	SCPT(MI_FA_Place_2_S)
+	SCPT(MI_FA_Place_3_S)
+	SCPT(MI_FA_Place_4_S)
+	SCPT(MI_FA_Place_5_S)
+	SCPT(MI_FA_Place_6_S)
+	SCPT(MI_FA_Place_7_S)
+	SCPT(MI_FA_Place_NPC_S)
+	SCPT(MI_FA_Quarters_MK_S)
+	SCPT(MI_FA_Show_Defeated_S)
+	SCPT(MI_FA_Training_MK_S)
+	SCPT(MI_FA_start_Boast_S)
+	SCPT(MI_Init_Data_S)
+	SCPT(MI_Init_S)
+	SCPT(MI_Journal_CR_S)
+	SCPT(MI_No_Activate_S)
+	SCPT(MI_SO_Build_Data_S)
+	SCPT(MI_SO_New_Oath_S)
+	SCPT(MI_SO_Tomb_Marker_S)
+	SCPT(MI_SO_Tomb_S)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       ARMO    bm wolf shield
+	bloodmoon.esm       STAT    ex_dae_pillar_01
+	bloodmoon.esm       STAT    ex_dae_wall_256_04
+	bloodmoon.esm       STAT    ex_dae_wall_512_01
+	bloodmoon.esm       STAT    ex_dae_wall_512_04
+	bloodmoon.esm       STAT    ex_dae_wall_512_07
+	bloodmoon.esm       STAT    in_dae_platform_512_01
+	bloodmoon.esm       WEAP    silver staff
+	morrowind.esm       LIGH    light_dae_censer
+	morrowind.esm       STAT    ex_dae_buttress_ruin_01
+	morrowind.esm       STAT    ex_dae_pillar_03
+	morrowind.esm       STAT    ex_dae_wall_512_02
+	morrowind.esm       STAT    ex_dae_wall_512_03
+	morrowind.esm       STAT    ex_dae_wall_512_06
+	morrowind.esm       STAT    ex_dae_wall_512_08
+	morrowind.esm       STAT    ex_dae_wall_512_09
+	morrowind.esm       STAT    in_lava_blacksquare
+	morrowind.esm       WEAP    iron spear
+	tribunal.esm        LIGH    light_com_torch_01_256
+	tribunal.esm        STAT    active_mh_forcefield
+	tribunal.esm        STAT    ex_dae_ruin_platform_01
+	tribunal.esm        STAT    furn_banner_helseth_01
+	tribunal.esm        STAT    furn_banner_helseth_02
+	tribunal.esm        STAT    in_om_plat512
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=310941559979747883(Greeting:greeting 1)
+  |DATA|ONAM:svenja_outside|NAME:The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 20  Goodbye
+
+[DUP-INF]: ID=390119807270132179(Greeting:greeting 1)
+  |DATA|ONAM:louis beauchamp|NAME:You...you mean to tell me you found the entrance to...to Hrothmund's Barrow...and...and uttered the WRONG name? You...you idiot! Get away from me.... You...you're obviously completely incompetent!|SCVR:04JX0BM_Airship_a|INTV: |BNAM:Journal BM_Airship_c 10  SetDisposition 0  Goodbye
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

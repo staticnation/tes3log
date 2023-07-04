@@ -1,0 +1,38 @@
+Passage_to_Mournhold.ESP: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER OVR-REC
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (3, -12)
+	morrowind.esm       LAND    (3, -13)
+	morrowind.esm       LAND    (4, -12)
+	morrowind.esm       LAND    (4, -13)
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=32281390961219948(Topic:my trade)
+  |DATA|ONAM:Vedam Dren|NAME:I am a noble, a leader and diplomat.
+
+[DUP-INF]: ID=1219922361199448922(Topic:background)
+  |DATA|ONAM:savor hlan|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=2102070131674519338(Topic:background)
+  |DATA|ONAM:arnas therethi|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=25693272922242731603(Topic:little secret)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=30825219281734727358(Topic:services)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.

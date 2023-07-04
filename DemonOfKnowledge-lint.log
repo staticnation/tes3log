@@ -1,0 +1,81 @@
+DemonOfKnowledge.ESP: AUTOSPL DUP-REC FOGBUG MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	sx2_scorching_spell01          scorching attack
+	sx2_freezing_spell01           ice attack
+	sx2_shocking_spell01           shock attack
+	sx2_venomous_spell01           venemous attack
+	sx2_void_spell01               void attack
+	sx2_corrosive_spell01          corrosive attack
+    [FOGBUG]: Cells with zero fog density setting:
+	Apocrypha, Twilight Grotto
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(collector_dead)
+	SCPT(sx2_AP_dagger_script)
+	SCPT(sx2_AP_mead_script)
+	SCPT(sx2_YM_script)
+	SCPT(sx2_apoc_sound)
+	SCPT(sx2_book_oracle_out_script)
+	SCPT(sx2_book_panop_out_script)
+	SCPT(sx2_book_shifting_script)
+	SCPT(sx2_book_shrine_script)
+	SCPT(sx2_book_twilight_out_script)
+	SCPT(sx2_collector02_script)
+	SCPT(sx2_collector_script)
+	SCPT(sx2_disable_Levitation)
+	SCPT(sx2_enable_levitation)
+	SCPT(sx2_ghost_script)
+	SCPT(sx2_kill_collector)
+	SCPT(sx2_monsterfight01)
+	SCPT(sx2_monsterfight02)
+	SCPT(sx2_npc_enabler01)
+	SCPT(sx2_npc_enabler02)
+	SCPT(sx2_npc_enabler03)
+	SCPT(sx2_npc_enabler04)
+	SCPT(sx2_npc_enabler05)
+	SCPT(sx2_npc_enabler06)
+	SCPT(sx2_npc_enabler07)
+	SCPT(sx2_npc_enabler08)
+	SCPT(sx2_oghma_script)
+	SCPT(sx2_orrent_enable)
+	SCPT(sx2_papernado_script_01)
+	SCPT(sx2_papernado_script_02)
+	SCPT(sx2_papernado_script_static)
+	SCPT(sx2_portal_script)
+	SCPT(sx2_shack_door_script)
+	SCPT(sx2_tenticle)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    sand
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    tx_bm_snow_rock_01.dds
+	morrowind.esm       LAND    (10, 17)
+	morrowind.esm       LAND    (10, 18)
+	morrowind.esm       LAND    (10, 19)
+	morrowind.esm       LAND    (11, 17)
+	morrowind.esm       LAND    (11, 18)
+	morrowind.esm       LAND    (11, 19)
+	morrowind.esm       LAND    (9, 17)
+	morrowind.esm       LAND    (9, 18)
+	morrowind.esm       LEVC    in_dae_all_lev+0
+	morrowind.esm       LEVC    in_dae_all_lev+2
+	morrowind.esm       LEVC    in_dae_all_lev-2
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    someone in particular

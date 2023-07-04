@@ -1,0 +1,193 @@
+LGNPC_Pelagiad.esp: DUP-REC EXP-DEP MENUMOD MOD-INF OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(lgnpc_pela_enceamulet_sc_01)    hasitemequipped
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(LGNPC_pelagiad_counter_sc_01)
+	SCPT(lgnpc_Pela_CleanThisScript)
+	SCPT(lgnpc_Pub_Pelagiad_Halfway)
+	SCPT(lgnpc_meb_shirtscript_01)
+	SCPT(lgnpc_mebestian_sc_01)
+	SCPT(lgnpc_pela_AngorilRing_Script)
+	SCPT(lgnpc_pela_Guard_Script_01)
+	SCPT(lgnpc_pela_NelosBag_Script)
+	SCPT(lgnpc_pela_ShirtSwitch)
+	SCPT(lgnpc_pela_SpecialCoupon_Script)
+	SCPT(lgnpc_pela_ToniiDoor_Script)
+	SCPT(lgnpc_pela_enceamulet_sc_01)
+	SCPT(lgnpc_pela_enceamulet_sc_02)
+	SCPT(lgnpc_pela_flyer_sc_01)
+	SCPT(lgnpc_pelagiad_counter_sc_02)
+	SCPT(max_lgnpc_adanja_sc_01)
+	SCPT(max_lgnpc_farusea_sc_01)
+	SCPT(max_lgnpc_jernelle_blood_sc)
+	SCPT(max_lgnpc_meb_couponcont_sc)
+	SCPT(max_lgnpc_meb_payday_sc_01)
+	SCPT(max_lgnpc_meb_payday_sc_02)
+	SCPT(max_lgnpc_meb_payday_sc_03)
+	SCPT(max_lgnpc_meb_payday_sc_04)
+	SCPT(max_lgnpc_meb_payday_sc_05)
+	SCPT(max_lgnpc_meb_payday_sc_06)
+	SCPT(max_lgnpc_meb_payday_sc_10)
+	SCPT(max_lgnpc_meb_payday_sc_20)
+	SCPT(max_lgnpc_meb_payday_sc_21)
+	SCPT(max_lgnpc_meb_raoulG_sc)
+	SCPT(max_lgnpc_meb_rat_sc_01)
+	SCPT(max_lgnpc_meb_rat_sc_02)
+	SCPT(max_lgnpc_murberius_sc_01)
+	SCPT(max_lgnpc_pela_job_sc_01)
+	SCPT(max_lgnpc_raoulreceipt_sc)
+	SCPT(max_lgnpc_shadbak_sc_01)
+	SCPT(max_lgnpc_tonii_sc_01)
+	SCPT(max_lgnpc_yakumnote_sc)
+	SCPT(max_lgnpc_ygfa_sc_01)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    blades
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    imperial law
+	bloodmoon.esm       DIAL    service refusal
+	morrowind.esm       CONT    chest_small_01_tgbb
+	morrowind.esm       DIAL    ahnassi
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    altmer
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    ash yam
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    bad people
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    beluelle's silver bowl
+	morrowind.esm       DIAL    bosmer
+	morrowind.esm       DIAL    breton
+	morrowind.esm       DIAL    cave rat
+	morrowind.esm       DIAL    clothes
+	morrowind.esm       DIAL    cyrodiilic brandy
+	morrowind.esm       DIAL    daedra
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    dwemer
+	morrowind.esm       DIAL    enchantments
+	morrowind.esm       DIAL    flin
+	morrowind.esm       DIAL    foyada
+	morrowind.esm       DIAL    frost salts
+	morrowind.esm       DIAL    ghostfence
+	morrowind.esm       DIAL    great houses
+	morrowind.esm       DIAL    greef
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    guild guide
+	morrowind.esm       DIAL    help me
+	morrowind.esm       DIAL    high rock
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    hrordis
+	morrowind.esm       DIAL    imperial
+	morrowind.esm       DIAL    imperial cult
+	morrowind.esm       DIAL    imperial legion
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    kiss
+	morrowind.esm       DIAL    llovyn andus
+	morrowind.esm       DIAL    manat varnan-adda
+	morrowind.esm       DIAL    maurrie and nelos
+	morrowind.esm       DIAL    mazte
+	morrowind.esm       DIAL    moon sugar
+	morrowind.esm       DIAL    n'wah must die
+	morrowind.esm       DIAL    nelos onmar
+	morrowind.esm       DIAL    nels llendo
+	morrowind.esm       DIAL    news
+	morrowind.esm       DIAL    nord
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    pelagiad
+	morrowind.esm       DIAL    price on your head
+	morrowind.esm       DIAL    red mountain
+	morrowind.esm       DIAL    redguard
+	morrowind.esm       DIAL    shein
+	morrowind.esm       DIAL    silt strider
+	morrowind.esm       DIAL    sixth house
+	morrowind.esm       DIAL    skooma
+	morrowind.esm       DIAL    slave
+	morrowind.esm       DIAL    sugar-lips habasi
+	morrowind.esm       DIAL    sujamma
+	morrowind.esm       DIAL    telvanni bug musk
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    thieves guild
+	morrowind.esm       DIAL    valenwood
+	morrowind.esm       DIAL    verethi gang
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       NPC_    adanja
+	morrowind.esm       NPC_    dralas gilu
+	morrowind.esm       NPC_    farusea salas
+	morrowind.esm       NPC_    junal_lei
+	morrowind.esm       NPC_    mash gro-burol
+	morrowind.esm       NPC_    mebestian ence
+	morrowind.esm       NPC_    murberius harmevus
+	morrowind.esm       NPC_    new_shoes bragor
+	morrowind.esm       NPC_    shadbak gra-burbug
+	morrowind.esm       NPC_    yakum hairshashishi
+	morrowind.esm       NPC_    ygfa
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    beds
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    guard
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+
+[MOD-INF]: ID=1926254563774775(Topic:dagoth ur)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:It is the Hour of Wakening. He comes forth in his glory, and his people shall rejoice, and his enemies shall scatter like dust.|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dagoth fovon|INTV:|BNAM:;Sleepers; Journal A2_2_6thHouse >= 50; Dagoth Fovon not dead
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:It is the Hour of Wakening. He comes forth in his glory, and his people shall rejoice, and his enemies shall scatter like dust.|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dagoth fovon|INTV:|SCVR:56DX0Dralas Gilu|INTV|BNAM:;Sleepers; Journal A2_2_6thHouse >= 50; Dagoth Fovon not dead    ; LGNPC Pelagiad  ; re-filtered not to appear
+
+[MOD-INF]: ID=91127355340130582(Greeting:greeting 1)
+  tribunal.esm------->|DATA|ONAM:Dralas Gilu|NAME:I feel as though I've just awakened from a dream... a terrible dream of the Sixth House.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:I feel as though I've just awakened from a dream... a terrible dream of the Sixth House.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:51680|INTV:d|BNAM:; LGNPC Pelagiad  ; intentionally disabled
+
+[MOD-INF]: ID=106822524524143702(Topic:sixth house)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:Do you mean... have I been... under a spell? A curse? And this was caused by Sixth House cultists? Good grief. What have I done... I hope... but I haven't thanked you. Please forgive me. I have nothing to offer but my thanks. But I will tell everyone I know how you have saved my life.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:;Sleepers; Dagoth Fovon dead  player->ModReputation 1  Journal A1_Sleepers_Dralas 1
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:Do you mean... have I been... under a spell? A curse? And this was caused by Sixth House cultists? Good grief. What have I done... I hope... but I haven't thanked you. Please forgive me. I have nothing to offer but my thanks. But I will tell everyone I know how you have saved my life.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:56DX3Dralas Gilu|INTV|BNAM:;Sleepers; Dagoth Fovon dead    ; LGNPC Pelagiad  ; intentionally disabled    player->ModReputation 1  Journal A1_Sleepers_Dralas 1
+
+[MOD-INF]: ID=759714111504811569(Topic:dagoth ur)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0dagoth fovon|INTV:|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10;; Dagoth Fovon not dead
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said, 'All shall greet him as flesh, or as dust. '|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0dagoth fovon|INTV:|SCVR:56DX0Dralas Gilu|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10;; Dagoth Fovon not dead    ; LGNPC Pelagiad  ; re-filtered not to appear
+
+[MOD-INF]: ID=766510841054417088(Topic:sixth house)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:Thank you again. I will tell everyone I know how you have saved my life.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:24JX3A1_Sleepers_Dralas|INTV|BNAM:;Sleepers; Dagoth Fovon dead
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:Thank you again. I will tell everyone I know how you have saved my life.|SCVR:04JX3C3_DestroyDagoth|INTV:2|SCVR:24JX3A1_Sleepers_Dralas|INTV|SCVR:56DX3Dralas Gilu|INTV|BNAM:;Sleepers; Dagoth Fovon dead    ; LGNPC Pelagiad  ; intentionally disabled
+
+[MOD-INF]: ID=1703220502371112246(Topic:dagoth ur)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:The Devil Dagoth Ur is dead, and all his kin. It only proves that no one can avoid death.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:; LGNPC Pelagiad  ; slight modification of official entry
+
+[MOD-INF]: ID=1708521252295971279(Topic:sixth house)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:Thank you again. I will tell everyone I know how you have saved my life.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0dagoth fovon|INTV|SCVR:24JX3A1_Sleepers_Dralas|INTV|BNAM:;Sleepers; Dagoth Fovon dead
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:Thank you again. I will tell everyone I know how you have saved my life.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0dagoth fovon|INTV|SCVR:24JX3A1_Sleepers_Dralas|INTV|SCVR:56DX3Dralas Gilu|INTV|BNAM:;Sleepers; Dagoth Fovon dead    ; LGNPC Pelagiad  ; intentionally disabled
+
+[MOD-INF]: ID=2171077941547022148(Topic:n'wah must die)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:You, foreigner! You must die. Beasts and men, outlander mer, all must die. Flee his wrath and quit this land, if you would live, or your flesh shall feed the earth.|SCVR:04JX3A2_3_CorprusCure|INTV:2|SCVR:11450|INTV:|SCVR:26DX0dagoth fovon|INTV:|BNAM:;sleeper; Journal A2_3_CorprusCure >= 50; not dunmer; Dagoth Fovon not dead  ModFight 10  ModDisposition -10
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:You, foreigner! You must die. Beasts and men, outlander mer, all must die. Flee his wrath and quit this land, if you would live, or your flesh shall feed the earth.|SCVR:04JX3A2_3_CorprusCure|INTV:2|SCVR:11450|INTV:|SCVR:26DX0dagoth fovon|INTV:|SCVR:51680|INTV:d|BNAM:;sleeper; Journal A2_3_CorprusCure >= 50; not dunmer; Dagoth Fovon not dead  ModFight 10  ModDisposition -10    ; LGNPC Pelagiad  ; intentionally disabled
+
+[MOD-INF]: ID=2228820944513115945(Topic:sixth house)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV:|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  ModFight 10  ModDisposition -10
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV:|SCVR:56DX3Dralas Gilu|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10  ModFight 10  ModDisposition -10  ;Topic impossible to reach - done to prevent the sleeper story as a whole, and avoid straightforward deleting. LGNPC.
+
+[MOD-INF]: ID=2238124702247159062(Greeting:greeting 1)
+  tribunal.esm------->|DATA|ONAM:Dralas Gilu|NAME:I feel as though I've just awakened from a dream... a terrible dream of the Sixth House.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0dagoth fovon|INTV
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:I feel as though I've just awakened from a dream... a terrible dream of the Sixth House.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0dagoth fovon|INTV|SCVR:51680|INTV:d|BNAM:; LGNPC Pelagiad  ; intentionally disabled
+
+[MOD-INF]: ID=2474714781646417790(Topic:sixth house)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:Do you mean... have I been... under a spell? A curse? And this was caused by Sixth House cultists? Good grief. What have I done... I hope... but I haven't thanked you. Please forgive me. I have nothing to offer but my thanks. But I will tell everyone I know how you have saved my life.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0dagoth fovon|INTV|BNAM:;Sleepers; Dagoth Fovon dead  player->ModReputation 1  Journal A1_Sleepers_Dralas 1
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:Do you mean... have I been... under a spell? A curse? And this was caused by Sixth House cultists? Good grief. What have I done... I hope... but I haven't thanked you. Please forgive me. I have nothing to offer but my thanks. But I will tell everyone I know how you have saved my life.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:16DX0dagoth fovon|INTV|SCVR:56DX3Dralas Gilu|INTV|BNAM:;Sleepers; Dagoth Fovon dead    ; LGNPC Pelagiad  ; intentionally disabled    player->ModReputation 1  Journal A1_Sleepers_Dralas 1
+
+[MOD-INF]: ID=10767131922673432549(Topic:n'wah must die)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:The slave and foreigner, beast and man, all must die. All mer must accept our dominion, or flee our wrath.|SCVR:04JX3A2_3_CorprusCure|INTV:2|SCVR:11450|INTV|SCVR:26DX0dagoth fovon|INTV:|BNAM:;sleeper; Journal A2_3_CorprusCure >= 50 ;dunmer; Dagoth Fovon not dead
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:The slave and foreigner, beast and man, all must die. All mer must accept our dominion, or flee our wrath.|SCVR:04JX3A2_3_CorprusCure|INTV:2|SCVR:11450|INTV|SCVR:26DX0dagoth fovon|INTV:|SCVR:51680|INTV:d|BNAM:;sleeper; Journal A2_3_CorprusCure >= 50 ;dunmer; Dagoth Fovon not dead    ; LGNPC Pelagiad  ; intentionally disabled
+
+[MOD-INF]: ID=27838159622142612029(Topic:sixth house)
+  morrowind.esm------>|DATA|ONAM:Dralas Gilu|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10
+  LGNPC_Pelagiad.esp->|DATA|ONAM:Dralas Gilu|NAME:The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:11450|INTV|SCVR:56DX3Dralas Gilu|INTV|BNAM:;Sleepers; A1_2_AntabolisInformant >= 10    ; LGNPC Pelagiad  ; intentionally disabled

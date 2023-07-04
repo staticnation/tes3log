@@ -1,0 +1,22 @@
+Tea Merchants.ESP: DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Wares-base.esm                151530 (plugin)      82499 (installed size)
+	F&F_base.esm                 6771269 (plugin)    6799389 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(teaMerchants_Hrojeld)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	f&f_base.esm        LEVC    _aa_travelingtrader_all
+	f&f_base.esm        LEVC    aa_travelingtraders
+	morrowind.esm       DIAL    moon sugar
+	morrowind.esm       DIAL    scathecraw
+	morrowind.esm       PGRD    ascadian isles region
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+
+[MOD-INF]: ID=332876861111019943(Greeting:greeting 9)
+  morrowind.esm----->|DATA|NAME:Hello again, %PCName. How can I help you?
+  Tea Merchants.ESP->|DATA|CNAM:Tea Merchant|NAME:Hi there, I'm %Name, a Tea Merchant and can sell fine teas blended with vibrant flavors.

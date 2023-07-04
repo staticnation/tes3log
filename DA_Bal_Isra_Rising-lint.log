@@ -1,0 +1,88 @@
+DA_Bal_Isra_Rising.esp: AUTOSPL DUP-INF DUP-REC FOGBUG GETSND MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	_da_isra_da_sp1                Agahnim's Footfalls
+    [FOGBUG]: Cells with zero fog density setting:
+	Indarys Manor
+	Indarys Manor, Berendas' House
+	Indarys Manor, Manor Services
+	Indarys Manor, Raram's House
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(MU_Man_Script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DA_IsraStrong_Barracks1)
+	SCPT(DA_IsraStrong_Bartender1)
+	SCPT(DA_IsraStrong_Caravan1)
+	SCPT(DA_IsraStrong_Farmer1)
+	SCPT(DA_IsraStrong_Houses1)
+	SCPT(DA_IsraStrong_Mage1)
+	SCPT(DA_IsraStrong_Mainland1)
+	SCPT(DA_IsraStrong_Market1)
+	SCPT(DA_IsraStrong_Mine1)
+	SCPT(DA_IsraStrong_Payoff1)
+	SCPT(DA_IsraStrong_Smith1)
+	SCPT(DA_IsraStrong_Smuggler1)
+	SCPT(DA_IsraStrong_Tavern1)
+	SCPT(DA_IsraStrong_Taxing1)
+	SCPT(DA_IsraStrong_Temple1)
+	SCPT(DA_ReverseStrong2)
+	SCPT(DA_ReverseStrong3)
+	SCPT(DA_Strong_Expan1)
+	SCPT(Israbarracks1)
+	SCPT(Israbartender1)
+	SCPT(Isracaravan1)
+	SCPT(Israexp1)
+	SCPT(Israfarm1)
+	SCPT(Israhouses1)
+	SCPT(Isramage1)
+	SCPT(Isramainland1)
+	SCPT(Isramarket1)
+	SCPT(Isramarketdummy1)
+	SCPT(Isramine1)
+	SCPT(Israslave1)
+	SCPT(Israsmith1)
+	SCPT(Israsmuggler1)
+	SCPT(Isratavern1)
+	SCPT(Isratemple1)
+	SCPT(Isratempledead1)
+	SCPT(MU_Man_OnLoad)
+	SCPT(MU_Man_S_F_it_scr)
+	SCPT(MU_Man_S_M_it_scr)
+	SCPT(MU_Man_W_F_it_scr)
+	SCPT(MU_Man_W_M_it_scr)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    dwemer_helm
+	morrowind.esm       DIAL    barracks
+	morrowind.esm       DIAL    stronghold
+	morrowind.esm       LAND    (-5, 10)
+	morrowind.esm       LAND    (-5, 9)
+	morrowind.esm       LAND    (-6, 9)
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       NPC_    galmis dren
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=62342927712254319(Greeting:greeting 0)
+  |DATA|ONAM:agronian guy|NAME:I don't want to talk about it.|BNAM:Goodbye
+
+[DUP-INF]: ID=84865067207633690(Voice:attack)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF005.mp3|NAME:Die!
+
+[DUP-INF]: ID=147982510814522589(Voice:attack)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF004.mp3|NAME:HA!|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=227322281661726892(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:What are you doing! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+
+[DUP-INF]: ID=308101740527843772(Topic:stronghold)
+  |DATA|FNAM:Telvanni|ANAM:Sadrith Mora, Telvanni Council House|DNAM:Telvanni|NAME:Speak with Llunela Hleran in the Council House Hermitage.

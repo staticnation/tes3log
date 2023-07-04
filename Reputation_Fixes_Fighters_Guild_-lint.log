@@ -1,0 +1,110 @@
+Reputation_Fixes_Fighters_Guild_.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(sjoringScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    bandits in suran
+	morrowind.esm       DIAL    dura gra-bol
+	morrowind.esm       DIAL    engaer
+	morrowind.esm       DIAL    nerer beneran
+	morrowind.esm       DIAL    orcs at a daedric ruin
+	morrowind.esm       DIAL    rels tenim
+	morrowind.esm       DIAL    rufinus alleius
+	morrowind.esm       DIAL    sarano tomb
+	morrowind.esm       DIAL    sjoring hard-heart
+	morrowind.esm       DIAL    sondaale of shimmerene
+	morrowind.esm       DIAL    thieves guild bosses
+	morrowind.esm       DIAL    vas
+	morrowind.esm       DIAL    verethi gang
+
+[MOD-INF]: ID=7704965455886442(Topic:verethi gang)
+  morrowind.esm------------------------>|DATA|ONAM:eydis fire-eye|NAME:Good work, %PCName. Here's the 1000 septims from the contract.|SCVR:34JX3FG_VerethiGang|INTV: |SCVR:56DX3Dovres Verethi|INTV|BNAM:Journal FG_VerethiGang 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:eydis fire-eye|NAME:Good work, %PCName. Here's the 1000 septims from the contract.|SCVR:34JX3FG_VerethiGang|INTV: |SCVR:56DX3Dovres Verethi|INTV|BNAM:Journal FG_VerethiGang 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  player->modReputation 1  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=19680231976348865(Topic:sondaale of shimmerene)
+  morrowind.esm------------------------>|DATA|ONAM:hrundi|NAME:Good work, %PCName. Here's the 500 septims for this contract.|SCVR:34JX3FG_Telasero|INTV:F|BNAM:Journal FG_Telasero 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:hrundi|NAME:Good work, %PCName. Here's the 500 septims for this contract.|SCVR:34JX3FG_Telasero|INTV:F|BNAM:Journal FG_Telasero 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  player->modReputation 1  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=32478233302529384(Topic:sarano tomb)
+  morrowind.esm------------------------>|DATA|ONAM:eydis fire-eye|NAME:You already killed the Hunger? Then take the 1000 septims for this contract.|SCVR:06DX3hunger_fghl|INTV|SCVR:34JX0FG_HungerLoose|INTV:|BNAM:Journal FG_HungerLoose 100  Player->AddItem Gold_001 1000  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:eydis fire-eye|NAME:You already killed the Hunger? Then take the 1000 septims for this contract.|SCVR:06DX3hunger_fghl|INTV|SCVR:34JX0FG_HungerLoose|INTV:|BNAM:Journal FG_HungerLoose 100  Player->AddItem Gold_001 1000  ModPCFacRep 10 "Fighters Guild"  player->modReputation 1  ModDisposition 10
+
+[MOD-INF]: ID=39981564229741736(Topic:vas)
+  morrowind.esm------------------------>|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim gave a very positive report, %PCName. Since this has helped our reputation with the Buoyant Armigers, I've decided to share the contract reward money with you. Take these 500 septims.|SCVR:34JX3FG_Vas|INTV:U|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->AddItem Gold_001 500  "Ulyne Henim"->Disable
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Ulyne Henim gave a very positive report, %PCName. Since this has helped our reputation with the Buoyant Armigers, I've decided to share the contract reward money with you. Take these 500 septims.|SCVR:34JX3FG_Vas|INTV:U|BNAM:Journal FG_Vas 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  player->modReputation 1  Player->AddItem Gold_001 500  "Ulyne Henim"->Disable
+
+[MOD-INF]: ID=63745851461018789(Topic:engaer)
+  morrowind.esm------------------------>|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Good work, %PCName. Here's the 1000 septims for this bounty.|SCVR:34JX3FG_EngaerBounty|INTV: |SCVR:56DX3engaer|INTV|BNAM:Journal FG_EngaerBounty 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 1000
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:Good work, %PCName. Here's the 1000 septims for this bounty.|SCVR:34JX3FG_EngaerBounty|INTV: |SCVR:56DX3engaer|INTV|BNAM:Journal FG_EngaerBounty 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  player->modReputation 1  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=132761327679524796(Topic:rufinus alleius)
+  morrowind.esm------------------------>|DATA|ONAM:lorbumol gro-aglakh|NAME:You already killed him? I don't know if I ought to believe that. Well, here's the bounty I owe you.|SCVR:34JX0FG_SilenceMagistrate|INTV:|SCVR:56DX3Rufinus Alleius|INTV|BNAM:Journal FG_SilenceMagistrate 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:lorbumol gro-aglakh|NAME:You already killed him? I don't know if I ought to believe that. Well, here's the bounty I owe you.|SCVR:34JX0FG_SilenceMagistrate|INTV:|SCVR:56DX3Rufinus Alleius|INTV|BNAM:Journal FG_SilenceMagistrate 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  player->modReputation 1  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=191217264158619624(Topic:nerer beneran)
+  morrowind.esm------------------------>|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work. Nerer Beneran has been brought to justice. Here's your share of the bounty, %PCName.|SCVR:56DX3nerer beneran|INTV|BNAM:ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 10  Player->AddItem Gold_001 500  Journal FG_BeneranBounty 100
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Good work. Nerer Beneran has been brought to justice. Here's your share of the bounty, %PCName.|SCVR:56DX3nerer beneran|INTV|BNAM:ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 10  player->modReputation 1  Player->AddItem Gold_001 500  Journal FG_BeneranBounty 100
+
+[MOD-INF]: ID=239495628700830035(Topic:sjoring hard-heart)
+  morrowind.esm------------------------>|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring is already dead? I'm glad to hear it, %PCName. You've saved the Fighters Guild from the corruption of the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX0FG_KillHardHeart|INTV:|SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Sjoring is already dead? I'm glad to hear it, %PCName. You've saved the Fighters Guild from the corruption of the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX0FG_KillHardHeart|INTV:|SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  player->modReputation 3  ModDisposition 25
+
+[MOD-INF]: ID=264121051861631065(Topic:verethi gang)
+  morrowind.esm------------------------>|DATA|ONAM:eydis fire-eye|NAME:If you already killed Dovres Verethi, then I guess I ought to go ahead and pay you the 1000 septims.|SCVR:34JX0FG_VerethiGang|INTV:|SCVR:56DX3Dovres Verethi|INTV|BNAM:Journal FG_VerethiGang 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:eydis fire-eye|NAME:If you already killed Dovres Verethi, then I guess I ought to go ahead and pay you the 1000 septims.|SCVR:34JX0FG_VerethiGang|INTV:|SCVR:56DX3Dovres Verethi|INTV|BNAM:Journal FG_VerethiGang 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  player->modReputation 1  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=679917671276097269(Topic:rufinus alleius)
+  morrowind.esm------------------------>|DATA|ONAM:lorbumol gro-aglakh|NAME:Good work. I hope the guards didn't give you any trouble. Here's the 1000 septims I owe you.|SCVR:56DX3Rufinus Alleius|INTV|BNAM:Journal FG_SilenceMagistrate 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  Player->AddItem Gold_001 1000
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:lorbumol gro-aglakh|NAME:Good work. I hope the guards didn't give you any trouble. Here's the 1000 septims I owe you.|SCVR:56DX3Rufinus Alleius|INTV|BNAM:Journal FG_SilenceMagistrate 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 20  player->modReputation 1  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=992166221107817690(Topic:orcs at a daedric ruin)
+  morrowind.esm------------------------>|DATA|ONAM:eydis fire-eye|NAME:If you already killed those Orcs, why did I get this contract? Well, rules are rules. Here's the 500 septims, your share of what the Duke paid.|SCVR:34JX0FG_AlofsFarm|INTV:|SCVR:56DX3burub gra-bamog|INTV|BNAM:Journal FG_AlofsFarm 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:eydis fire-eye|NAME:If you already killed those Orcs, why did I get this contract? Well, rules are rules. Here's the 500 septims, your share of what the Duke paid.|SCVR:34JX0FG_AlofsFarm|INTV:|SCVR:56DX3burub gra-bamog|INTV|BNAM:Journal FG_AlofsFarm 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10  player->modReputation 1  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=1054520043147619122(Topic:rels tenim)
+  morrowind.esm------------------------>|DATA|ONAM:hrundi|NAME:I heard that Rels Tenim is dead. Good work, %PCName. Here's the 200 septims for the contract.|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:hrundi|NAME:I heard that Rels Tenim is dead. Good work, %PCName. Here's the 200 septims for the contract.|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  player->modReputation 1  ModDisposition 15
+
+[MOD-INF]: ID=1315817146980114093(Topic:dura gra-bol)
+  morrowind.esm------------------------>|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I heard that Dura gra-Bol is dead. Here's your 250 septims.|SCVR:34JX3FG_OrcBounty|INTV: |SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:eydis fire-eye|DNAM:Fighters Guild|NAME:I heard that Dura gra-Bol is dead. Here's your 250 septims.|SCVR:34JX3FG_OrcBounty|INTV: |SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  player->modReputation 1  ModDisposition 10
+
+[MOD-INF]: ID=1991218937946728143(Topic:bandits in suran)
+  morrowind.esm------------------------>|DATA|DNAM:Fighters Guild|NAME:You have brought justice to Daldur Sarys and his bandits. House Hlaalu thanks you, %PCName. Here is the bounty money we agreed on.|SCVR:56DX3daldur sarys|INTV|BNAM:Journal FG_SuranBandits 100  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Hlaalu"  ModDisposition 20  Player->AddItem Gold_001 1000
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|DNAM:Fighters Guild|NAME:You have brought justice to Daldur Sarys and his bandits. House Hlaalu thanks you, %PCName. Here is the bounty money we agreed on.|SCVR:56DX3daldur sarys|INTV|BNAM:Journal FG_SuranBandits 100  ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Hlaalu"  player->modReputation 1  ModDisposition 20  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=2601311142807014922(Topic:sjoring hard-heart)
+  morrowind.esm------------------------>|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX3FG_KillHardHeart|INTV: |SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  ModDisposition 25
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.|SCVR:34JX3FG_KillHardHeart|INTV: |SCVR:56DX3sjoring hard-heart|INTV|BNAM:Journal FG_KillHardHeart 100  PCRaiseRank  PCRaiseRank  player->modReputation 3  ModDisposition 25
+
+[MOD-INF]: ID=2940914149935422219(Topic:thieves guild bosses)
+  morrowind.esm------------------------>|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:What? You already killed the bosses of the Thieves Guild? You deserve the rank of %NextPCRank even more than I thought. Congratulations, %PCName, I'm making you my second in command. Now we need to take care of the Master Thief himself.|SCVR:06DX3big helende|INTV|SCVR:16DX3habasi|INTV|SCVR:26DX3aengoth|INTV|SCVR:34JX0FG_KillBosses|INTV:|BNAM:PCRaiseRank  Journal FG_KillBosses 100  ModPCFacRep 15 "Fighters Guild"  ModDisposition 25
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:What? You already killed the bosses of the Thieves Guild? You deserve the rank of %NextPCRank even more than I thought. Congratulations, %PCName, I'm making you my second in command. Now we need to take care of the Master Thief himself.|SCVR:06DX3big helende|INTV|SCVR:16DX3habasi|INTV|SCVR:26DX3aengoth|INTV|SCVR:34JX0FG_KillBosses|INTV:|BNAM:PCRaiseRank  Journal FG_KillBosses 100  ModPCFacRep 15 "Fighters Guild"  player->modReputation 1  ModDisposition 25
+
+[MOD-INF]: ID=6254295691298930079(Topic:engaer)
+  morrowind.esm------------------------>|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:You already killed Engaer? I'm impressed, %PCName. Here's the 1000 septims for the bounty.|SCVR:34JX0FG_EngaerBounty|INTV:|SCVR:56DX3engaer|INTV|BNAM:Journal FG_EngaerBounty 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 1000
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:hrundi|DNAM:Fighters Guild|NAME:You already killed Engaer? I'm impressed, %PCName. Here's the 1000 septims for the bounty.|SCVR:34JX0FG_EngaerBounty|INTV:|SCVR:56DX3engaer|INTV|BNAM:Journal FG_EngaerBounty 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  player->modReputation 1  Player->AddItem Gold_001 1000
+
+[MOD-INF]: ID=10284321213265728830(Topic:rels tenim)
+  morrowind.esm------------------------>|DATA|ONAM:hrundi|NAME:Well, if you've already dealt with Rels Tenim, you certainly deserve the 200 septims.|SCVR:34JX0FG_TenimBounty|INTV:|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:hrundi|NAME:Well, if you've already dealt with Rels Tenim, you certainly deserve the 200 septims.|SCVR:34JX0FG_TenimBounty|INTV:|SCVR:56DX3rels tenim|INTV|BNAM:Journal FG_TenimBounty 100  Player->AddItem Gold_001 200  ModPCFacRep 5 "Fighters Guild"  player->modReputation 1  ModDisposition 15
+
+[MOD-INF]: ID=10883256021598227631(Topic:thieves guild bosses)
+  morrowind.esm------------------------>|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:Good work, %PCName. I'm making you my second in command. Now our allies want us to take care of the Master Thief himself.|SCVR:06DX3big helende|INTV|SCVR:16DX3habasi|INTV|SCVR:26DX3aengoth|INTV|SCVR:34JX3FG_KillBosses|INTV: |BNAM:PCRaiseRank  Journal FG_KillBosses 100  ModPCFacRep 15 "Fighters Guild"  ModDisposition 15
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:sjoring hard-heart|DNAM:Fighters Guild|NAME:Good work, %PCName. I'm making you my second in command. Now our allies want us to take care of the Master Thief himself.|SCVR:06DX3big helende|INTV|SCVR:16DX3habasi|INTV|SCVR:26DX3aengoth|INTV|SCVR:34JX3FG_KillBosses|INTV: |BNAM:PCRaiseRank  Journal FG_KillBosses 100  ModPCFacRep 15 "Fighters Guild"  player->modReputation 1  ModDisposition 15
+
+[MOD-INF]: ID=15865178062262113089(Topic:sarano tomb)
+  morrowind.esm------------------------>|DATA|ONAM:eydis fire-eye|NAME:I am sure the Sarano family is grateful. In the meantime, here's some more tangible gratitude: 1000 septims.|SCVR:06DX3hunger_fghl|INTV|SCVR:14JX0FG_HungerLoose|INTV: |BNAM:Journal FG_HungerLoose 100  Player->AddItem Gold_001 1000  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:eydis fire-eye|NAME:I am sure the Sarano family is grateful. In the meantime, here's some more tangible gratitude: 1000 septims.|SCVR:06DX3hunger_fghl|INTV|SCVR:14JX0FG_HungerLoose|INTV: |BNAM:Journal FG_HungerLoose 100  Player->AddItem Gold_001 1000  ModPCFacRep 10 "Fighters Guild"  player->modReputation 1  ModDisposition 10
+
+[MOD-INF]: ID=17551309881956830497(Topic:orcs at a daedric ruin)
+  morrowind.esm------------------------>|DATA|ONAM:eydis fire-eye|NAME:Alof says the Orcs are gone. Here's 500 septims for the Duke's contract.|SCVR:56DX3burub gra-bamog|INTV|BNAM:Journal FG_AlofsFarm 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:eydis fire-eye|NAME:Alof says the Orcs are gone. Here's 500 septims for the Duke's contract.|SCVR:56DX3burub gra-bamog|INTV|BNAM:Journal FG_AlofsFarm 100  ModPCFacRep 10 "Fighters Guild"  ModDisposition 10  player->modReputation 1  Player->AddItem Gold_001 500
+
+[MOD-INF]: ID=20380242501853911216(Topic:nerer beneran)
+  morrowind.esm------------------------>|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Well, if you've already brought Nerer Beneran to justice, %PCName, you have my gratitude and the gratitude of House Redoran. Here's your share of the Bounty.|SCVR:34JX0FG_BeneranBounty|INTV:|SCVR:56DX3nerer beneran|INTV|BNAM:ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 10  Player->AddItem Gold_001 500  Journal FG_BeneranBounty 100
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Well, if you've already brought Nerer Beneran to justice, %PCName, you have my gratitude and the gratitude of House Redoran. Here's your share of the Bounty.|SCVR:34JX0FG_BeneranBounty|INTV:|SCVR:56DX3nerer beneran|INTV|BNAM:ModPCFacRep 5 "Fighters Guild"  ModPCFacRep 5 "Redoran"  ModDisposition 10  player->modReputation 1  Player->AddItem Gold_001 500  Journal FG_BeneranBounty 100
+
+[MOD-INF]: ID=27281154712155116942(Topic:dura gra-bol)
+  morrowind.esm------------------------>|DATA|ONAM:eydis fire-eye|NAME:You already killed Dura gra-Bol? Well, then, these 250 septims are yours.|SCVR:34JX0FG_OrcBounty|INTV:|SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10
+  Reputation_Fixes_Fighters_Guild_.ESP->|DATA|ONAM:eydis fire-eye|NAME:You already killed Dura gra-Bol? Well, then, these 250 septims are yours.|SCVR:34JX0FG_OrcBounty|INTV:|SCVR:56DX3dura gra-bol|INTV|BNAM:Journal FG_OrcBounty 100  Player->AddItem Gold_001 250  ModPCFacRep 5 "Fighters Guild"  player->modReputation 1  ModDisposition 10

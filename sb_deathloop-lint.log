@@ -1,0 +1,41 @@
+sb_deathloop.esp: DUP-INF DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    murder nerevar
+	morrowind.esm       DIAL    nerevar
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=166552843338625147(Greeting:greeting 1)
+  |DATA|NAME:You have come uninvited. I have nothing to say to you.|BNAM:;Vivec  Goodbye
+
+[DUP-INF]: ID=203602544310701588(Topic:murder nerevar)
+  |DATA|NAME:We did not murder Nerevar. The legend that we murdered Nerevar comes from a story told by a shield-companion to Nerevar, Alandro Sul, who lived among the Ashlanders. The Ashlanders have retained Alandro Sul's account as part of their oral histories. The account is persuasive in some details, implausible in others, and is in any case false. I have two accounts of Nerevar's death here in my library. Read them, and judge for yourself.|SCVR:04JX3B8_MeetVivec|INTV:2|BNAM:;Vivec; Journal "B8_MeetVivec" = 50;
+
+[MOD-INF]: ID=242672632452579098(Greeting:greeting 2)
+  morrowind.esm---->|DATA|NAME:Cover yourself! Are you mad? Have you no decency?|SCVR:01425|INTV:|SCVR:1ARX0Khajiit|INTV|SCVR:2ARX0Argonian|INTV|SCVR:37XX0crassius curio|INTV:|SCVR:4CsX0nolore|INTV:
+  sb_deathloop.esp->|DATA|NAME:Cover yourself! Are you mad? Have you no decency?|SCVR:01425|INTV:|SCVR:1ARX0Khajiit|INTV|SCVR:2ARX0Argonian|INTV|SCVR:37XX0crassius curio|INTV:|SCVR:4CsX0NoLore|INTV:
+
+[DUP-INF]: ID=306605134148807516(Greeting:greeting 5)
+  |DATA|ONAM:hloris farano|NAME:Yes? What can I do for you?
+
+[DUP-INF]: ID=1837713970119754289(Topic:nerevar)
+  |DATA|CNAM:Savant|NAME:Nerevar was a legendary Dunmer general who, in ancient times, defeated the evil Dwarves, Nords, Orcs, and traitor Dunmer at the Battle of Red Mountain. Nerevar was also one of the founders of the First Council of Great Houses, and friend and companion of Vivec, Almalexia, and Sotha Sil, who later became the gods of the Tribunal Temple.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=1844147142793817211(Greeting:greeting 4)
+  |DATA|NAME:I know you. You're %PCName, the notorious outlaw. Look. I don't want any trouble. But you're scaring me. And I can't think straight when I'm scared.|SCVR:01433|INTV|SCVR:18FX0Thieves Guild|INTV|BNAM:;PCCrime >=1000;   ModDisposition -30
+
+[DUP-INF]: ID=2239657872789627356(Greeting:greeting 1)
+  |DATA|NAME:Was there something else?|SCVR:04JX3B8_MeetVivec|INTV|BNAM:;Vivec
+
+[DUP-INF]: ID=2246030530654710114(Greeting:greeting 5)
+  |DATA|ONAM:galero andaram|NAME:Welcome to our little Almsivi chapel. Pardon our informal surroundings, but we are guests here of House Telvanni, and apparently they have no more spacious, well-lit accommodations available for the Temple faithful. Still, we have all the services you'd expect to find a much larger Temple.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=3832139402051823602(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.|SCVR:01433|INTV|BNAM:StartScript BILL_MT_calc_legit_kills  Choice, "Go to Jail.", 2, "Resist Arrest.", 3
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

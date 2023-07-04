@@ -1,0 +1,168 @@
+Armour & Weapon Enhancements.ESP: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Enhancement1)
+	SCPT(Enhancement2)
+	SCPT(Enhancement3)
+	SCPT(Enhancement4)
+	SCPT(Enhancement5)
+	SCPT(Enhancement6)
+	SCPT(EnhancementAnvil)
+	SCPT(EnhancementArtifacts)
+	SCPT(EnhancementBloodmoon1)
+	SCPT(EnhancementBloodmoon2)
+	SCPT(EnhancementBloodmoon3)
+	SCPT(EnhancementBloodmoon4)
+	SCPT(EnhancementBloodmoon5)
+	SCPT(EnhancementBloodmoon6)
+	SCPT(EnhancementBonemold1)
+	SCPT(EnhancementBonemold2)
+	SCPT(EnhancementBonemold3)
+	SCPT(EnhancementBonemold4)
+	SCPT(EnhancementBonemold5)
+	SCPT(EnhancementBonemold6)
+	SCPT(EnhancementChitin1)
+	SCPT(EnhancementChitin2)
+	SCPT(EnhancementChitin3)
+	SCPT(EnhancementChitin4)
+	SCPT(EnhancementChitin5)
+	SCPT(EnhancementChitin6)
+	SCPT(EnhancementDaedric1)
+	SCPT(EnhancementDaedric2)
+	SCPT(EnhancementDaedric3)
+	SCPT(EnhancementDaedric4)
+	SCPT(EnhancementDaedric5)
+	SCPT(EnhancementDaedric6)
+	SCPT(EnhancementDreugh1)
+	SCPT(EnhancementDreugh2)
+	SCPT(EnhancementDreugh3)
+	SCPT(EnhancementDreugh4)
+	SCPT(EnhancementDreugh5)
+	SCPT(EnhancementDreugh6)
+	SCPT(EnhancementDwemer1)
+	SCPT(EnhancementDwemer2)
+	SCPT(EnhancementDwemer3)
+	SCPT(EnhancementDwemer4)
+	SCPT(EnhancementDwemer5)
+	SCPT(EnhancementDwemer6)
+	SCPT(EnhancementEbony1)
+	SCPT(EnhancementEbony2)
+	SCPT(EnhancementEbony3)
+	SCPT(EnhancementEbony4)
+	SCPT(EnhancementEbony5)
+	SCPT(EnhancementEbony6)
+	SCPT(EnhancementGlass1)
+	SCPT(EnhancementGlass2)
+	SCPT(EnhancementGlass3)
+	SCPT(EnhancementGlass4)
+	SCPT(EnhancementGlass5)
+	SCPT(EnhancementGlass6)
+	SCPT(EnhancementImperial1)
+	SCPT(EnhancementImperial2)
+	SCPT(EnhancementImperial3)
+	SCPT(EnhancementImperial4)
+	SCPT(EnhancementImperial5)
+	SCPT(EnhancementImperial6)
+	SCPT(EnhancementIndoril1)
+	SCPT(EnhancementIndoril2)
+	SCPT(EnhancementIndoril3)
+	SCPT(EnhancementIndoril4)
+	SCPT(EnhancementIndoril5)
+	SCPT(EnhancementIndoril6)
+	SCPT(EnhancementIron1)
+	SCPT(EnhancementIron2)
+	SCPT(EnhancementIron3)
+	SCPT(EnhancementIron4)
+	SCPT(EnhancementIron5)
+	SCPT(EnhancementIron6)
+	SCPT(EnhancementMiscellaneous1)
+	SCPT(EnhancementMiscellaneous2)
+	SCPT(EnhancementMiscellaneous3)
+	SCPT(EnhancementMiscellaneous4)
+	SCPT(EnhancementMiscellaneous5)
+	SCPT(EnhancementMiscellaneous6)
+	SCPT(EnhancementNetch1)
+	SCPT(EnhancementNetch2)
+	SCPT(EnhancementNetch3)
+	SCPT(EnhancementNetch4)
+	SCPT(EnhancementNetch5)
+	SCPT(EnhancementNetch6)
+	SCPT(EnhancementNordic1)
+	SCPT(EnhancementNordic2)
+	SCPT(EnhancementNordic3)
+	SCPT(EnhancementNordic4)
+	SCPT(EnhancementNordic5)
+	SCPT(EnhancementNordic6)
+	SCPT(EnhancementOrcish1)
+	SCPT(EnhancementOrcish2)
+	SCPT(EnhancementOrcish3)
+	SCPT(EnhancementOrcish4)
+	SCPT(EnhancementOrcish5)
+	SCPT(EnhancementOrcish6)
+	SCPT(EnhancementSilver1)
+	SCPT(EnhancementSilver2)
+	SCPT(EnhancementSilver3)
+	SCPT(EnhancementSilver4)
+	SCPT(EnhancementSilver5)
+	SCPT(EnhancementSilver6)
+	SCPT(EnhancementSteel1)
+	SCPT(EnhancementSteel2)
+	SCPT(EnhancementSteel3)
+	SCPT(EnhancementSteel4)
+	SCPT(EnhancementSteel5)
+	SCPT(EnhancementSteel6)
+	SCPT(EnhancementTribunal1)
+	SCPT(EnhancementTribunal2)
+	SCPT(EnhancementTribunal3)
+	SCPT(EnhancementTribunal4)
+	SCPT(EnhancementTribunal5)
+	SCPT(EnhancementTribunal6)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       WEAP    silver staff
+	bloodmoon.esm       WEAP    silver war axe
+	morrowind.esm       CONT    crate_01_armorchitin_me
+	morrowind.esm       CONT    crate_01_de_weapons
+	tribunal.esm        CONT    crate_01_armornetch_mel
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       WEAP    bm nordic silver longsword
+	bloodmoon.esm       WEAP    bm nordic silver shortsword
+	morrowind.esm       ARMO    netch_leather_boiled_cuirass
+	morrowind.esm       ARMO    netch_leather_boiled_helm
+	morrowind.esm       ARMO    netch_leather_greaves
+	morrowind.esm       ARMO    netch_leather_helm
+	morrowind.esm       ARMO    netch_leather_shield
+	morrowind.esm       ARMO    netch_leather_towershield
+	morrowind.esm       LEVI    random ashlander weapon
+	morrowind.esm       LEVI    random ebony weapon
+	morrowind.esm       LEVI    random excellent melee weapon
+	morrowind.esm       LEVI    random orcish armor
+	morrowind.esm       LEVI    random_armor_chitin
+	morrowind.esm       LEVI    random_armor_fur
+	morrowind.esm       LEVI    random_armor_glass
+	morrowind.esm       LEVI    random_armor_iron
+	morrowind.esm       LEVI    random_armor_netch_leather
+	morrowind.esm       LEVI    random_armor_steel
+	morrowind.esm       LEVI    random_daedric_weapon
+	morrowind.esm       LEVI    random_de_weapon
+	morrowind.esm       LEVI    random_dwemer_armor
+	morrowind.esm       LEVI    random_dwemer_weapon
+	morrowind.esm       LEVI    random_glass_weapon
+	morrowind.esm       LEVI    random_golden_saint_weapon
+	morrowind.esm       LEVI    random_imp_weapon
+	morrowind.esm       LEVI    random_iron_fur_armor
+	morrowind.esm       LEVI    random_iron_weapon
+	morrowind.esm       LEVI    random_nordic_weapons
+	morrowind.esm       LEVI    random_orcish_weapons
+	morrowind.esm       LEVI    random_silver_weapon
+	morrowind.esm       LEVI    random_steel_weapon
+	morrowind.esm       LEVI    random_weapon_melee_basic
+	morrowind.esm       WEAP    orcish warhammer
+	tribunal.esm        ARMO    netch_leather_boots
+	tribunal.esm        ARMO    netch_leather_cuirass
+	tribunal.esm        ARMO    netch_leather_gauntlet_left
+	tribunal.esm        ARMO    netch_leather_gauntlet_right
+	tribunal.esm        ARMO    netch_leather_pauldron_left
+	tribunal.esm        ARMO    netch_leather_pauldron_right
+	tribunal.esm        WEAP    adamantium_axe
+	tribunal.esm        WEAP    adamantium_shortsword

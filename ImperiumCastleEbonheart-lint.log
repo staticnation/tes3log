@@ -1,0 +1,217 @@
+ImperiumCastleEbonheart.esp: DUP-INF DUP-REC FOGBUG MASTERS MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1384891 (plugin)    1567893 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Ebonheart, Grand Council Chambers Tower
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(IMPRM_Tomb_Chrysamere)
+	SCPT(IMPRM_Tomb_Chrysamere_case2)
+	SCPT(IMPRM_Tomb_LordsMail)
+	SCPT(IMPRM_chapel_limeware)
+	SCPT(IMPRM_door_hidden_tomb)
+	SCPT(imprm_guard_blood)
+	SCPT(imprm_guard_crypt)
+	SCPT(imprm_joncis)
+	SCPT(imprm_joncis_dead)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    furius acilius
+	morrowind.esm       DIAL    joncis dalomax
+	morrowind.esm       NPC_    imperial guard_company
+	morrowind.esm       NPC_    iulus truptor
+	morrowind.esm       NPC_    kaye
+	morrowind.esm       NPC_    lalatia varian
+	morrowind.esm       NPC_    relen hlaalu
+	morrowind.esm       NPC_    rufinus alleius
+	morrowind.esm       NPC_    tuvene arethan
+	morrowind.esm       NPC_    varus vatinius
+	morrowind.esm       PGRD    ebonheart
+	morrowind.esm       PGRD    ebonheart, grand council chambers
+	morrowind.esm       PGRD    ebonheart, imperial chapels
+	morrowind.esm       PGRD    ebonheart, imperial commission
+	morrowind.esm       PGRD    ebonheart, imperial guard garrison
+	tribunal.esm        DIAL    chrysamere
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    il_knightshield
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    lord's mail
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    transport to mournhold
+	tribunal.esm        NPC_    asciene rane
+
+[DUP-INF]: ID=704576176671290(Journal:il_knightshield)
+  |DATA|NAME:I've found the Lord's Mail being held by Furius Acilius in a cave complex below Ebonheart. He apparently used a secret entrance to sneak into the Shrine and steal the mail.
+
+[MOD-INF]: ID=3942400537869054(Greeting:greeting 5)
+  morrowind.esm--------------->|DATA|ONAM:Iulus Truptor|NAME:Very good, %PCName. Congratulations. This was no easy task, I'm sure. I'd like to acknowledge your faithful service with a few tokens of Zenithar's special blessing. Accept them with my thanks, and with the thanks of the Imperial cult. When you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC12_dinner|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem potion_cyro_brandy_01 5  player->additem Right_Hand_of_Zenithar 1  player->additem Left_Hand_of_Zenithar 1  ModPCFacRep, 5, "Imperial Cult"  modDisposition 10  Journal IC12_dinner 50  Goodbye
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Iulus Truptor|NAME:Very good, %PCName. Congratulations. This was no easy task, I'm sure. I'd like to acknowledge your faithful service with a few tokens of Zenithar's special blessing, once passed to me during my almoner days. Accept them with my thanks, and with the thanks of the Imperial cult. When you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC12_dinner|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem potion_cyro_brandy_01 5  removeitem "Right_Hand_of_Zenithar" 1  player->additem Right_Hand_of_Zenithar 1  removeitem "Left_Hand_of_Zenithar" 1  player->additem Left_Hand_of_Zenithar 1  ModPCFacRep, 5, "Imperial Cult"  modDisposition 10  Journal IC12_dinner 50  Goodbye
+
+[MOD-INF]: ID=8731305225273977(Topic:lord's mail)
+  morrowind.esm--------------->|DATA|ONAM:Varus Vatinius|NAME:You've been expelled. Join the Imperial Legion again. Then you can return the Lord's Mail with honor.|SCVR:01390|INTV
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Varus Vatinius|NAME:You've been expelled. Join the Imperial Legion again. Then you can return the Lord's Mail with honor.|SCVR:01390|INTV|SCVR:15IX2lords_cuirass_unique|INTV:|SCVR:22sX1imprm_lords|INTV
+
+[MOD-INF]: ID=8731305225273977(Topic:lord's mail)
+  morrowind.esm--------------->|DATA|ONAM:Varus Vatinius|NAME:You've been expelled. Join the Imperial Legion again. Then you can return the Lord's Mail with honor.|SCVR:01390|INTV
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Varus Vatinius|NAME:You've been expelled. Join the Imperial Legion again. Then you can return the Lord's Mail with honor.|SCVR:01390|INTV|SCVR:15IX2lords_cuirass_unique|INTV:|SCVR:22sX1imprm_lords|INTV
+[MOD-IID]: ID=14499184602368520354
+  ImperiumCastleEbonheart.esp->You've been expelled. Join the Imperial Legion again. Then you can return the Lord's Mail with honor.
+
+[DUP-INF]: ID=31379153556996734(Topic:latest rumors)
+  |DATA|NAME:It was inevitable. The local criminal organization, the Camonna Tong, wasn't going to stand by and let the Thieves Guild set up shop in their territory. It'll be bloody. And the Thieves Guild doesn't stand a chance.|SCVR:0CsX0NoLore|INTV:|BNAM:;default
+
+[DUP-INF]: ID=127057871732231210(Topic:transport to mournhold)
+  |DATA|ONAM:asciene rane|NAME:Well! I certainly didn't mean to pry. I simply can't send you there without good reason. Good day!|SCVR:01500|INTV|BNAM:Goodbye
+
+[MOD-INF]: ID=147793207175513376(Topic:chrysamere)
+  tribunal.esm---------------->|DATA|ONAM:Varus Vatinius|NAME:I will ask one more time: Give me Chrysamere, or be guilty of treason and die by my hand.|SCVR:01500|INTV|BNAM:Choice "Give him Chrysamere." 1 "Nevermind." 3
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Varus Vatinius|NAME:I will ask one more time: Give me Chrysamere, or be guilty of treason and die by my hand.|SCVR:01500|INTV|BNAM:Choice "Give him Chrysamere." 1 "Nevermind." 3
+
+[DUP-INF]: ID=187897543699123537(Topic:lord's mail)
+  |DATA|ONAM:Varus Vatinius|NAME:That cuirass is important to us, %PCRank. Find it quickly.|SCVR:34JX3IL_KnightShield|INTV: 
+
+[MOD-INF]: ID=247483384522915541(Greeting:greeting 5)
+  morrowind.esm--------------->|DATA|ONAM:Iulus Truptor|NAME:Excellent! Once again, you've exceeded our expectations. You are blessed with Zenithar's gift of fine words and generous sentiments. Take this, and wear it with pride. And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC9_Argonian_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  player->additem "Zenithar_Frock" 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC9_Argonian_alms 60  Goodbye
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Iulus Truptor|NAME:Excellent! Once again, you've exceeded our expectations. You are blessed with Zenithar's gift of fine words and generous sentiments. Here, take this. I once wore this shirt when I was fundraising, and it always gave me an upper hand when haggling for alms. Wear it with pride. And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC9_Argonian_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  removeitem "Zenithar_Frock" 1  player->additem "Zenithar_Frock" 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC9_Argonian_alms 60  Goodbye
+
+[MOD-INF]: ID=251206522153139252(Topic:chrysamere)
+  tribunal.esm---------------->|DATA|ONAM:Varus Vatinius|NAME:It is my duty to return Chrysamere to the Legions!|SCVR:01500|INTV|BNAM:SetFight 100  StartCombat Player  Goodbye
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Varus Vatinius|NAME:It is my duty to return Chrysamere to the Legions!|SCVR:01500|INTV|BNAM:SetFight 100  "Duke's Guard" -> SetFight 100  StartCombat Player  Goodbye
+
+[DUP-INF]: ID=276162107680469148(Journal:il_knightshield)
+  |DATA|NAME:I have returned Chrysamere to Varus Vatinius, who was glad to have the powerful weapon returned to the Legion.|QSTF
+
+[DUP-INF]: ID=286311551328583410(Topic:chrysamere)
+  |DATA|ONAM:Varus Vatinius|NAME:Thank you for returning it.|SCVR:04JX3IL_KnightShield|INTV:d
+
+[DUP-INF]: ID=294106160221822345(Topic:lord's mail)
+  |DATA|ONAM:Varus Vatinius|NAME:What? You are dangerously close to treason, %PCName. I will ask you once more: Will you give me the Lord's Mail?|SCVR:01500|INTV|BNAM:Choice "Give him the Lord's Mail." 1 "Nevermind." 2
+
+[DUP-INF]: ID=432918529193293218(Topic:lord's mail)
+  |DATA|ONAM:Varus Vatinius|NAME:You have returned the Lord's Mail. Now you must find Chrysamere.|SCVR:34JX3IL_KnightShield|INTV:2
+
+[DUP-INF]: ID=622117941882424916(Topic:lord's mail)
+  |DATA|FNAM|DNAM:Imperial Legion|NAME:I'm glad you returned the Lord's Mail, %PCRank.|SCVR:34JX3IL_KnightShield|INTV:2
+
+[DUP-INF]: ID=875317795149451008(Greeting:greeting 0)
+  |DATA|FNAM:Royal Guard|NAME:Halt!  The King suspected you might try something treacherous with his champion. He cannot allow this to continue. By order of His Royal Highness King Hlaalu Helseth, Duke of Mournhold, you are ordered to accompany me to the prison until His Highness deems you fit to engage in the agreed-upon contest.|SCVR:02sX0KarrodCheapShot|INTV|SCVR:17XX0karrod|INTV|BNAM:Set KarrodCheapShot to 0  StartScript "GoToJailWhenDone"  Goodbye
+
+[DUP-INF]: ID=1224319899288117550(Greeting:greeting 0)
+  |DATA|CNAM:Guard|ANAM:Chun-Ook, Upper Level|NAME:You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company wouldn't like that at all.|SCVR:01490|INTV|BNAM:StartCombat Player  Goodbye
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[MOD-INF]: ID=1300129912980619548(Topic:lord's mail)
+  morrowind.esm--------------->|DATA|FNAM|DNAM:Imperial Legion|NAME:It's good to see the Lord's Mail in good hands again.|SCVR:05IX3lords_cuirass_unique|INTV
+  ImperiumCastleEbonheart.esp->|DATA|FNAM|DNAM:Imperial Legion|NAME:It's good to see the Lord's Mail in good hands again.|SCVR:05IX3lords_cuirass_unique|INTV|SCVR:12sX1imprm_lords|INTV|SCVR:24JX3IL_KnightShield|INTV:2
+
+[MOD-INF]: ID=1345816464305833843(Topic:transport to mournhold)
+  tribunal.esm---------------->|DATA|ONAM:asciene rane|NAME:You wish to go to the mainland? That's highly irregular. I'm sure you've heard that they've restricted travel to Mournhold. They've been a bit worried about the Blight. Even though it's been reported that the Blight is gone from Vvardenfell, they're still worried about possible contamination. What's your reason for wanting to go to the city?|SCVR:04JX0C3_DestroyDagoth|INTV:2|BNAM:Choice "I fear I've been marked by the Dark Brotherhood, and I wish to investigate." 1 "None of your business." 2
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:asciene rane|NAME:You wish to go to the mainland? That's highly irregular. I'm sure you've heard that they've restricted travel to Mournhold. They've been a bit worried about the Blight. Even though it's been reported that the Blight is gone from Vvardenfell, they're still worried about possible contamination. What's your reason for wanting to go to the city?|SCVR:04JX0C3_DestroyDagoth|INTV:2|SCVR:14JX3TR_DBAttack|INTV:(|BNAM:Choice "I fear I've been marked by the Dark Brotherhood, and I wish to investigate." 1 "None of your business." 2
+
+[DUP-INF]: ID=1423930459746025913(Topic:transport to mournhold)
+  |DATA|ONAM:asciene rane|NAME:Heading back, are you? Hope you've gotten all that business cleared up.|SCVR:04JX3TR_DBAttack|INTV:<|BNAM:Choice "Yes, please." 3 "No, not now." 4
+
+[MOD-INF]: ID=1819715222267013184(Greeting:greeting 5)
+  morrowind.esm--------------->|DATA|ONAM:Iulus Truptor|DNAM:Imperial Cult|NAME:Canctunian Ponius of the East Empire Company has promised to sponsor a mission to the Ashlanders. Such a long-term mission will be quite expensive -- 1000 drakes is a bare minimum. We're concerned that we haven't received the money he pledged, and that he does not reply to our correspondence. We wish you to go to him in the East Empire Company Hall in Ebonheart and persuade him to provide us with the generous pledge as he promised.|SCVR:04JX3IC13_rich|INTV:2|SCVR:14JX4IC14_Ponius|INTV|BNAM:;Iulus Truptor  Journal IC14_Ponius 1
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Iulus Truptor|DNAM:Imperial Cult|NAME:Canctunian Ponius of the East Empire Company has promised to sponsor a mission to the Ashlanders. Such a long-term mission will be quite expensive -- 1000 drakes is a bare minimum. We're concerned that we haven't received the money he pledged, and that he does not reply to our correspondence. We wish you to go to him in the East Empire Company Hall near the docks and persuade him to provide us with the generous pledge as he promised.|SCVR:04JX3IC13_rich|INTV:2|SCVR:14JX4IC14_Ponius|INTV|BNAM:;Iulus Truptor  Journal IC14_Ponius 1
+
+[MOD-INF]: ID=2027090723103015924(Topic:chrysamere)
+  morrowind.esm--------------->|DATA|ONAM:Varus Vatinius|NAME:Have you not found it yet? It must be returned!|SCVR:34JX3IL_KnightShield|INTV:<
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Varus Vatinius|NAME:Have you not found it yet? It must be returned!|SCVR:22sX1imprm_chrym|INTV|SCVR:34JX3IL_KnightShield|INTV:<
+
+[MOD-INF]: ID=2116816273201314971(Topic:chrysamere)
+  morrowind.esm--------------->|DATA|ONAM:Varus Vatinius|NAME:You've been expelled. Join the Imperial Legion again. Then you can return Chrysamere with honor.|SCVR:01390|INTV
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Varus Vatinius|NAME:You've been expelled. Join the Imperial Legion again. Then you can return Chrysamere with honor.|SCVR:01390|INTV|SCVR:14JX3IL_KnightShield|INTV:<|SCVR:22sX1imprm_chrym|INTV
+
+[MOD-INF]: ID=2116816273201314971(Topic:chrysamere)
+  morrowind.esm--------------->|DATA|ONAM:Varus Vatinius|NAME:You've been expelled. Join the Imperial Legion again. Then you can return Chrysamere with honor.|SCVR:01390|INTV
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Varus Vatinius|NAME:You've been expelled. Join the Imperial Legion again. Then you can return Chrysamere with honor.|SCVR:01390|INTV|SCVR:14JX3IL_KnightShield|INTV:<|SCVR:22sX1imprm_chrym|INTV
+[MOD-IID]: ID=8922239631165530756
+  ImperiumCastleEbonheart.esp->You've been expelled. Join the Imperial Legion again. Then you can return Chrysamere with honor.
+
+[MOD-INF]: ID=2399717232665011086(Topic:transport to mournhold)
+  tribunal.esm---------------->|DATA|ONAM:asciene rane|NAME:You wish to go to the mainland? That's highly irregular. I'm sure you've heard that they've restricted travel to Mournhold. They've been a bit worried about the Blight. What's your reason for wanting to go to the city?|BNAM:Choice "I fear I've been marked by the Dark Brotherhood, and I wish to investigate." 1 "None of your business." 2
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:asciene rane|NAME:You wish to go to the mainland? That's highly irregular. I'm sure you've heard that they've restricted travel to Mournhold. They've been a bit worried about the Blight. What's your reason for wanting to go to the city?|SCVR:04JX3TR_DBAttack|INTV:(|BNAM:Choice "I fear I've been marked by the Dark Brotherhood, and I wish to investigate." 1 "None of your business." 2
+
+[DUP-INF]: ID=2741625290245462780(Topic:latest rumors)
+  |DATA|NAME:With all the unrest in Cyrodiil City, a trooper told me they might have to recall the Legions to protect the Emperor.|SCVR:0CsX0NoLore|INTV:|BNAM:;default
+
+[DUP-INF]: ID=2795815632158909175(Journal:il_knightshield)
+  |DATA|NAME:I was told Draramu Hloran is in the Abanabi Caves, southwest of Sadrith Mora.
+
+[DUP-INF]: ID=3161263742734327220(Greeting:greeting 5)
+  |DATA|ONAM:Frald the White|NAME:Hello, %PCRank.|SCVR:04JX3IL_ProtectEntius|INTV:d
+
+[MOD-INF]: ID=3194175251438010364(Topic:furius acilius)
+  morrowind.esm--------------->|DATA|ANAM:Ebonheart, Hawkmoth Legion Garrison|NAME:Hmmm. Try the Imperial Guard Garrison in the Castle. They may know something.|SCVR:0CsX0NoLore|INTV:
+  ImperiumCastleEbonheart.esp->|DATA|ANAM:Ebonheart, Hawkmoth Legion Garrison|NAME:Furius wasn't with us when he was discharged. Try the Imperial Guard Garrison in the Castle. They may know something.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=3246322653208635335(Topic:lord's mail)
+  |DATA|ONAM:Varus Vatinius|NAME:You have found the Lord's Mail! Well done, %PCRank. Give it to me and I will make sure it is well cared for.|SCVR:05IX2lords_cuirass_unique|INTV:|BNAM:Choice "Give him the Lord's Mail." 1 "Nevermind." 3
+
+[DUP-INF]: ID=6618179852210128456(Topic:lord's mail)
+  |DATA|ONAM:Varus Vatinius|NAME:Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 50  ModPCFacRep 5 "Imperial Legion"  ;PCRaiseRank "Imperial Legion" ;should not raise rank here Todd 4/02/02  AddItem "lords_cuirass_unique" 1  Player->RemoveItem "lords_cuirass_unique" 1  Player->Additem "silver_dukesguard_cuirass" 1
+
+[DUP-INF]: ID=10924273023043113826(Topic:my trade)
+  |DATA|ONAM:erich the unworthy|NAME:I'm a lover and a killer. What more is there in life?
+
+[MOD-INF]: ID=11299230292311715876(Greeting:greeting 5)
+  morrowind.esm--------------->|DATA|ONAM:Iulus Truptor|NAME:Excellent! You've far exceeded our expectations. Surely you have a touch of Zenithar in your soul. Please accept this small token of our gratitude and encouragement. And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC_8_Nord_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  player->additem "Shoes_of_Conviction" 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC_8_Nord_alms 60  Goodbye
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Iulus Truptor|NAME:Excellent! You've far exceeded our expectations. Surely you have a touch of Zenithar in your soul. Please accept this small token of our gratitude and encouragement. And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC_8_Nord_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  removeitem "Shoes_of_Conviction" 1  player->additem "Shoes_of_Conviction" 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC_8_Nord_alms 60  Goodbye
+
+[MOD-INF]: ID=12794163651363620849(Topic:furius acilius)
+  morrowind.esm--------------->|DATA|ANAM:Ebonheart, Imperial Guard Garrison|NAME:Always had a chip on his shoulder. No one's seen or heard of him since he was banished. He had used the southwest room here.|SCVR:0CsX0NoLore|INTV:
+  ImperiumCastleEbonheart.esp->|DATA|FNAM:Imperial Legion|ANAM:Ebonheart, Imperial Guard Garrison|NAME:Always had a chip on his shoulder. No one's seen or heard of him since he was discharged. He used the southwest room here. Ensign's privilage, his own bedroom. Can't say anyone misses him.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=12984207252467212599(Journal:il_knightshield)
+  morrowind.esm--------------->|DATA|NAME:I returned the Lord's Mail to Varus Vatinius.
+  ImperiumCastleEbonheart.esp->|DATA|NAME:I returned the Lord's Mail to Varus Vatinius and I have been made a member of the Order of Ebonheart.
+
+[MOD-INF]: ID=15110249272105531728(Topic:lord's mail)
+  morrowind.esm--------------->|DATA|ONAM:Varus Vatinius|DNAM:Imperial Legion|NAME:The Lord's Mail is a cuirass, sometimes called the Armor of Morihaus. It has been kept in a Shrine on the lower level of the Imperial Commission here, but was recently stolen. Take this key. It will allow you entrance to the Shrine.|BNAM:Journal "IL_KnightShield" 10  Player->AddItem "key_ebon_tomb" 1  RemoveItem "key_ebon_tomb" 1
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Varus Vatinius|DNAM:Imperial Legion|NAME:The Lord's Mail is a cuirass, sometimes called the Armor of Morihaus. It had been kept in a shrine on the lower level of the Imperial Commission here, but was recently stolen. Report to the Cavortius Albuttian of the Imperial Guard for further debriefing.|BNAM:Journal "IL_KnightShield" 10
+
+[MOD-INF]: ID=15148161051608012942(Greeting:greeting 5)
+  morrowind.esm--------------->|DATA|ONAM:Iulus Truptor|NAME:Thank you, %PCName. You have exceeded our greatest expectations. I'm afraid we have no more tasks to challenge your remarkable abilities. I suspect you already outstrip your teachers. Perhaps you will consider becoming one of our lay healers or shrine sergeants, if you have not already sampled these duties. I have also passed your name to our Oracle here, Lalatia Varian. She may have tasks suited to your talents. But before you go, I have one last gift for you to remember us by. Goodbye, and good luck.|SCVR:04JX3IC14_Ponius|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  moddisposition 10  player->modreputation 1  player->removeitem gold_001 1000  player->additem zenithar_whispers 1  journal IC14_Ponius 50  ModPCFacRep, 5, "Imperial Cult"  Goodbye
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Iulus Truptor|NAME:Thank you, %PCName. You have exceeded our greatest expectations. I'm afraid we have no more tasks to challenge your remarkable abilities. I suspect you already outstrip your teachers. Perhaps you will consider becoming one of our lay healers or shrine sergeants, if you have not already sampled these duties. I have also passed your name to our Oracle here, Lalatia Varian. She may have tasks suited to your talents. But before you go, I have one last gift for you to remember us by. Goodbye, and good luck.|SCVR:04JX3IC14_Ponius|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  moddisposition 10  player->modreputation 1  player->removeitem gold_001 1000  removeitem "zenithar_whispers" 1  player->additem zenithar_whispers 1  journal IC14_Ponius 50  ModPCFacRep, 5, "Imperial Cult"  Goodbye
+
+[DUP-INF]: ID=16043312532573123088(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:You say you've been attacked by assassins? From your description, it sounds like the work of the Dark Brotherhood. I'm not sure who you angered, but stay away from me. I suppose this should be officially reported, though. Speak to Apelles Matius in Ebonheart about this matter.|SCVR:02sX0DBAttack|INTV|SCVR:17XX0apelles matius|INTV|SCVR:24JX4TR_DBAttack|INTV|BNAM:Journal TR_DBAttack 30  set DBAttack to -1
+
+[MOD-INF]: ID=17130173011493914825(Topic:lord's mail)
+  tribunal.esm---------------->|DATA|ONAM:Varus Vatinius|NAME:Then it is my duty to take the Lord's Mail from you!|SCVR:01500|INTV|BNAM:SetFight 100  StartCombat Player  Goodbye
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Varus Vatinius|NAME:Then it is my duty to take the Lord's Mail from you!|SCVR:01500|INTV|BNAM:SetFight 100  "Duke's Guard" -> SetFight 100  StartCombat Player  Goodbye
+
+[MOD-INF]: ID=18031287202092918345(Topic:joncis dalomax)
+  morrowind.esm--------------->|DATA|ONAM:imsin the dreamer|NAME:I am glad to hear that Joncis is safe. You have my gratitude, %PCName.|SCVR:34JX3IL_RescueKnight|INTV:2|BNAM:Journal IL_RescueKnight 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 15  "joncis dalomax"->disable
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:imsin the dreamer|NAME:I am glad to hear that Joncis is safe. You have my gratitude, %PCName.|SCVR:34JX3IL_RescueKnight|INTV:2|BNAM:Journal IL_RescueKnight 100  ModPCFacRep 5 "Imperial Legion"  ModDisposition 15  "joncis dalomax"->startscript imprm_joncis
+
+[DUP-INF]: ID=18533321852598013334(Topic:chrysamere)
+  |DATA|ONAM:Varus Vatinius|NAME:Well done, %PCName. I applaud you. For what you have accomplished, I will make you a %NextPCRank.|SCVR:01500|INTV|BNAM:Journal "IL_KnightShield" 100  PCRaiseRank "Imperial Legion"  AddItem "claymore_chrysamere_unique" 1  Player->RemoveItem "claymore_chrysamere_unique" 1
+
+[DUP-INF]: ID=19908310741524224999(Topic:chrysamere)
+  |DATA|ONAM:Torasa Aram|NAME:You don't have Chrysamere with you? Then come back with it, and we'll settle the deal.|SCVR:01500|INTV|SCVR:15IX0claymore_chrysamere_unique|INTV:
+
+[DUP-INF]: ID=21088215792134823227(Topic:furius acilius)
+  |DATA|ONAM:Rufinus Alleius|NAME:As I said, ask at the Imperial Guard Garrison.
+
+[MOD-INF]: ID=21933187571824812066(Journal:il_knightshield)
+  tribunal.esm---------------->|DATA|NAME:Varus Vatinius has told me that in order to become a Knight of the Garland, I must prove my worth by returning two legendary artifacts to the Order. First, he would like me to return the Lord's Mail, which recently disappeared from the Shrine in the Imperial Commission in Ebonheart. He has given me the key and permission to inspect the Shrine.
+  ImperiumCastleEbonheart.esp->|DATA|NAME:Varus Vatinius has told me that in order to become a Knight of the Garland, I must prove my worth by returning two legendary artifacts to the Order. First, he would like me to return the Lord's Mail, which recently disappeared from the Shrine in the Imperial Commission in Ebonheart. He has told me to report to Cavortius Albuttian in the Commission guard garrison for a further debriefing.
+
+[DUP-INF]: ID=28081218233080121929(Greeting:greeting 5)
+  |DATA|ONAM:Varus Vatinius|NAME:Have you found the Lord's Mail?|SCVR:04JX2IL_KnightShield|INTV:|SCVR:14JX4IL_KnightShield|INTV:2
+
+[DUP-INF]: ID=28657131431411516608(Topic:chrysamere)
+  |DATA|ONAM:Varus Vatinius|NAME:So you have found Chrysamere, and a fine blade it is! Return it to me and I will make you a %NextPCRank.|SCVR:05IX2claymore_chrysamere_unique|INTV:|SCVR:34JX3IL_KnightShield|INTV:2|BNAM:Choice "Give him Chrysamere." 1 "Nevermind." 2
+
+[MOD-INF]: ID=29350184671256410898(Greeting:greeting 5)
+  morrowind.esm--------------->|DATA|ONAM:Iulus Truptor|NAME:Excellent! Once again, you've exceeded our expectations. Take these gifts as tokens of our gratitude for your faithful and diligent service to the Imperial cult.  And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC10_buckmoth_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  player->additem sc_fphyggisgemfeeder 1  player->additem sc_didalasknack 1  player->additem bookskill_mercantile1 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC10_Buckmoth_alms 60  Goodbye
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Iulus Truptor|NAME:Excellent! Once again, you've exceeded our expectations. Here, this book will teach you a thing or two about how to get the upper hand while fundraising. And take these gifts as tokens of our gratitude for your faithful and diligent service to the Imperial cult.  And when you're ready for your next almoner mission, speak to me again.|SCVR:04JX3IC10_buckmoth_alms|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem gold_001 200  player->additem sc_fphyggisgemfeeder 1  player->additem sc_didalasknack 1  removeitem "bookskill_mercantile1" 1  player->additem bookskill_mercantile1 1  ModPCFacRep, 10, "Imperial Cult"  modDisposition 10  Journal IC10_Buckmoth_alms 60  Goodbye
+
+[MOD-INF]: ID=30914293711765026391(Greeting:greeting 5)
+  morrowind.esm--------------->|DATA|ONAM:Iulus Truptor|NAME:Very good, %PCName. Congratulations. When you're ready for your next almoner mission, speak to me again. But before you do, you might take a look at this book. I've found it helpful. Go ahead. Keep it. I've learned all I can from it.|SCVR:04JX3IC11_shirt|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem common_shirt_04_c 1  player->additem bookskill_mercantile5 1  ModPCFacRep, 5, "Imperial Cult"  modDisposition 10  Journal IC11_shirt 50  Goodbye
+  ImperiumCastleEbonheart.esp->|DATA|ONAM:Iulus Truptor|NAME:Very good, %PCName. Congratulations. When you're ready for your next almoner mission, speak to me again. But before you do, you might take a look at this book. I've found it helpful. Go ahead. Keep it. I've learned all I can from it.|SCVR:04JX3IC11_shirt|INTV|SCVR:11500|INTV|BNAM:;Iulus Truptor  player->removeitem common_shirt_04_c 1  removeitem "bookskill_mercantile5" 1  player->additem bookskill_mercantile5 1  ModPCFacRep, 5, "Imperial Cult"  modDisposition 10  Journal IC11_shirt 50  Goodbye

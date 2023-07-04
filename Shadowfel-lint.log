@@ -1,0 +1,424 @@
+Shadowfel.ESP: DUP-INF DUP-REC FOGBUG GETSND EVLGMST JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Morrowind.esm               80640776 (plugin)   79837557 (installed size)
+    [EVLGMST] Tribunal(11) Bloodmoon(61):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfalarmmessage
+	BM swerewolfpopup
+	BM swerewolfrefusal
+	BM swerewolfrestmessage
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+	TB steleportdisabled
+    [FOGBUG]: Cells with zero fog density setting:
+	Sadrith Mora, Telvanni Council House
+	Sadrith Mora, Telvanni Council House, Chambers
+	Sadrith Mora, Telvanni Council House, Entry
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(OoS_HH_Sound_Spooks_01)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AAHHSpookyCandle_01)
+	SCPT(AAHHSpookyCandle_02)
+	SCPT(AAHHStatueScript)
+	SCPT(Bloodheal)
+	SCPT(HealthyThing)
+	SCPT(OoS_DraugrScript)
+	SCPT(OoS_HH_Banshee)
+	SCPT(OoS_HH_Light_01_Spooks)
+	SCPT(OoS_HH_Light_02_Spooks)
+	SCPT(OoS_HH_Sound_BansheeFire)
+	SCPT(OoS_HH_Sound_Spooks_01)
+	SCPT(OoS_OrderScript)
+	SCPT(OoS_TombDoorScript)
+	SCPT(SmithingWorkbench)
+	SCPT(Smithinganvil)
+	SCPT(Smithingfire)
+	SCPT(Smithinggrind)
+	SCPT(Smithingtanningrack)
+	SCPT(Smithingwater)
+	SCPT(TF_AraraCloset)
+	SCPT(TF_CouncilDoors)
+	SCPT(TF_FelisaCloset)
+	SCPT(TF_GalosCloset)
+	SCPT(TF_MallamCloset)
+	SCPT(TF_RavenCloset)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (0, 0)                   0x02
+	Bitter Coast Region (-10, -2)            0x02
+	Bitter Coast Region (-10, -4)            0x02
+	Bitter Coast Region (-11, -1)            0x02
+	Bitter Coast Region (-11, 0)             0x02
+	Bitter Coast Region (-11, 1)             0x02
+	Bitter Coast Region (-11, 2)             0x02
+	Bitter Coast Region (-11, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	Bitter Coast Region (-5, -1)             0x02
+	Bitter Coast Region (-8, -2)             0x02
+	Bitter Coast Region (-8, -3)             0x02
+	Bitter Coast Region (-8, -4)             0x02
+	Hirstaang Forest Region (-17, 17)        0x02
+	Hirstaang Forest Region (-17, 18)        0x02
+	Isinfier Plains Region (-17, 19)         0x02
+	Isinfier Plains Region (-17, 20)         0x02
+	Sheogorad (-6, 25)                       0x02
+	Sheogorad (-7, 24)                       0x02
+	West Gash Region (-10, 20)               0x02
+	West Gash Region (-11, 20)               0x02
+	West Gash Region (-12, 18)               0x02
+	West Gash Region (-12, 19)               0x02
+	West Gash Region (-12, 20)               0x02
+	West Gash Region (-13, 17)               0x02
+	West Gash Region (-13, 18)               0x02
+	West Gash Region (-14, 16)               0x02
+	West Gash Region (-14, 17)               0x02
+	West Gash Region (-15, 16)               0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 16)               0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	West Gash Region (-17, 16)               0x02
+	West Gash Region (-9, 20)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       DOOR    in_c_door_arched
+	morrowind.esm       LTEX    ac_darkgravel
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_01
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirt_grass_02
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_01
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    ai_clover
+	morrowind.esm       LTEX    ai_dirt
+	morrowind.esm       LTEX    ai_dirtroad
+	morrowind.esm       LTEX    ai_grass
+	morrowind.esm       LTEX    ai_grass_02
+	morrowind.esm       LTEX    ai_grass_cobbles
+	morrowind.esm       LTEX    ai_grass_dirt
+	morrowind.esm       LTEX    ai_grass_rocky
+	morrowind.esm       LTEX    ai_mudflats_01.tga
+	morrowind.esm       LTEX    ai_tilled_dirt
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    gl_dirt_01
+	morrowind.esm       LTEX    gl_dirt_02
+	morrowind.esm       LTEX    gl_dirt_grass_01
+	morrowind.esm       LTEX    gl_dirt_grass_02
+	morrowind.esm       LTEX    gl_dirtroad
+	morrowind.esm       LTEX    gl_grass_01
+	morrowind.esm       LTEX    gl_grass_02
+	morrowind.esm       LTEX    gl_grass_03
+	morrowind.esm       LTEX    gl_grass_04
+	morrowind.esm       LTEX    gl_grass_05
+	morrowind.esm       LTEX    gl_rock_01
+	morrowind.esm       LTEX    gl_rock_02
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    rm_grayrock
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    rm_rock_01
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    rm_rock_03
+	morrowind.esm       LTEX    rm_whiterock
+	morrowind.esm       LTEX    road dirt
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+	morrowind.esm       LTEX    sand_02
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rm_grayrock_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_road
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       STAT    ex_imp_foundation_01
+	morrowind.esm       STAT    flora_bc_tree_03
+	morrowind.esm       STAT    in_impsmall_hall_02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    orders
+	bloodmoon.esm       LAND    (-17, 17)
+	bloodmoon.esm       LAND    (-17, 18)
+	bloodmoon.esm       LAND    (-17, 19)
+	bloodmoon.esm       LAND    (-17, 20)
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_cobblestone_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_dirt_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_grass_01.dds
+	bloodmoon.esm       LTEX    tx_bm_ice_02.dds
+	bloodmoon.esm       LTEX    tx_bm_pine_needles_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_dirt_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_01a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	morrowind.esm       ACTI    active_com_bed_06
+	morrowind.esm       ACTI    furn_bannerd_danger_01
+	morrowind.esm       ACTI    furn_bannerd_welcome_01
+	morrowind.esm       DIAL    haunted house
+	morrowind.esm       DOOR    ex_common_door_01
+	morrowind.esm       LAND    (-10, -2)
+	morrowind.esm       LAND    (-10, -3)
+	morrowind.esm       LAND    (-10, -4)
+	morrowind.esm       LAND    (-10, 20)
+	morrowind.esm       LAND    (-11, -1)
+	morrowind.esm       LAND    (-11, 0)
+	morrowind.esm       LAND    (-11, 1)
+	morrowind.esm       LAND    (-11, 2)
+	morrowind.esm       LAND    (-11, 20)
+	morrowind.esm       LAND    (-11, 3)
+	morrowind.esm       LAND    (-12, 18)
+	morrowind.esm       LAND    (-12, 19)
+	morrowind.esm       LAND    (-12, 20)
+	morrowind.esm       LAND    (-13, 17)
+	morrowind.esm       LAND    (-13, 18)
+	morrowind.esm       LAND    (-14, 16)
+	morrowind.esm       LAND    (-14, 17)
+	morrowind.esm       LAND    (-15, 16)
+	morrowind.esm       LAND    (-15, 17)
+	morrowind.esm       LAND    (-16, 16)
+	morrowind.esm       LAND    (-16, 17)
+	morrowind.esm       LAND    (-17, 16)
+	morrowind.esm       LAND    (-4, 0)
+	morrowind.esm       LAND    (-5, 0)
+	morrowind.esm       LAND    (-6, 25)
+	morrowind.esm       LAND    (-7, 24)
+	morrowind.esm       LAND    (-8, -2)
+	morrowind.esm       LAND    (-8, -3)
+	morrowind.esm       LAND    (-8, -4)
+	morrowind.esm       LAND    (-9, -2)
+	morrowind.esm       LAND    (-9, -3)
+	morrowind.esm       LAND    (-9, -4)
+	morrowind.esm       LAND    (-9, 20)
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava02
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock03
+	morrowind.esm       LTEX    ma_sulphur_rock05
+	morrowind.esm       LTEX    ma_sulphur_rock06
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    ma_sulphur_rock08
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    tx_bc_bank.tga
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_02.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_scrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    wg_mainroad_01
+	tribunal.esm        CONT    chest_small_02_rndgold
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+
+[DUP-INF]: ID=746166170099971(Topic:haunted house)
+  |DATA|ONAM:Kaye|NAME:I don't know the details. You'll have to go talk to Nedhelas in Caldera.
+
+[MOD-INF]: ID=36602314956051470(Topic:orders)
+  morrowind.esm->|DATA|FNAM:Imperial Legion|ANAM:Buckmoth Legion Fort|NAME:Talk to Imsin the Dreamer.|SCVR:07XX0imsin the dreamer|INTV:|SCVR:11460|INTV
+  Shadowfel.ESP->|DATA|FNAM:Imperial Legion|NAME:Talk to Imsin the Dreamer.|SCVR:07XX0imsin the dreamer|INTV:|SCVR:11460|INTV
+
+[DUP-INF]: ID=243872450548217434(Topic:orders)
+  |DATA|FNAM|NAME:Talk to Varus Vatinius in the Grand Council Chambers or Frald the White at the Hawkmoth Legion Garrison.|SCVR:11460|INTV
+
+[DUP-INF]: ID=255104849150502170(Topic:orders)
+  |DATA|ONAM:angoril|DNAM:Imperial Legion|NAME:Things have been very quiet here. Sorry, no pressing business. Check with the Knight Protectors of the other Legion forts.
+
+[MOD-INF]: ID=1012418668314518534(Topic:orders)
+  morrowind.esm->|DATA|FNAM:Imperial Legion|ANAM:Moonmoth Legion Fort|NAME:Talk to Radd Hard-Heart.|SCVR:07XX0radd hard-heart|INTV:|SCVR:11460|INTV
+  Shadowfel.ESP->|DATA|FNAM:Imperial Legion|NAME:Talk to Radd Hard-Heart.|SCVR:07XX0radd hard-heart|INTV:|SCVR:11460|INTV
+
+[MOD-INF]: ID=3463236541192520475(Topic:orders)
+  morrowind.esm->|DATA|FNAM:Imperial Legion|ANAM:Gnisis|NAME:Talk to Darius. He's in the Madach Tradehouse.|SCVR:0BLX0Gnisis, Madach Tradehouse|INTV:|SCVR:11460|INTV
+  Shadowfel.ESP->|DATA|FNAM:Imperial Legion|ANAM:Gnisis|NAME:Talk to Darius. He's in the Madach Tradehouse.|SCVR:11460|INTV
+
+[DUP-INF]: ID=14776268311511532191(Topic:orders)
+  |DATA|FNAM|DNAM:Imperial Legion|NAME:But you are the Knight of the Imperial Dragon! You don't need to take orders.
+
+[MOD-INF]: ID=17545243371364211941(Topic:little advice)
+  tribunal.esm-->|DATA|NAME:If you're heading into the backcountry, always carry a couple of Restore Health, Restore Fatigue, Cure Disease, and Cure Blight potions with you.|SCVR:0CsX0nolore|INTV:|BNAM:;bottom; default
+  Shadowfel.ESP->|DATA|NAME:If you're heading into the backcountry, always carry a couple of Restore Health, Restore Fatigue, Cure Disease, and Cure Blight potions with you.|SCVR:0CsX0NoLore|INTV:|BNAM:;bottom; default

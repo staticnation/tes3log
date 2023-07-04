@@ -1,0 +1,70 @@
+Feminist Nerevarine.ESP: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    dark business
+	morrowind.esm       DIAL    backup plan
+	morrowind.esm       DIAL    boethiah's pillow book
+	morrowind.esm       DIAL    jewels
+	morrowind.esm       DIAL    unholy ritual
+	tribunal.esm        DIAL    eb_unrequited
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    mv_recoverwidowmaker
+	tribunal.esm        DIAL    tg_badgandosa
+
+[DUP-INF]: ID=881211305725862(Topic:boethiah's pillow book)
+  |DATA|ONAM:aengoth|NAME:You've been kicked out of the Guild, %PCName. Better make amends, or no one's going to talk to you.|SCVR:01390|INTV
+
+[MOD-INF]: ID=172327200121925816(Topic:backup plan)
+  morrowind.esm----------->|DATA|ONAM:gadayn andarys|NAME:Well, I figured there was the slight chance she wouldn't be interested in me right away, so I had an alchemist mix up a special potion for me. For anyone else, it will seem a normal health potion, but if Eraldil drinks it, she'll find herself incredibly attracted to me. Perhaps you'll deliver it to her for me?|SCVR:04JX5EB_Unrequited|INTV:2|BNAM:Journal "EB_Unrequited" 60  Choice "I'll deliver the potion for you." 1 "Perhaps you might speak to her cousin, instead." 2
+  Feminist Nerevarine.ESP->|DATA|ONAM:gadayn andarys|NAME:Well, I figured there was the slight chance she wouldn't be interested in me right away, so I had an alchemist mix up a special potion for me. For anyone else, it will seem a normal health potion, but if Eraldil drinks it, she'll find herself incredibly attracted to me. Perhaps you'll deliver it to her for me?|SCVR:04JX5EB_Unrequited|INTV:2|BNAM:Journal "EB_Unrequited" 60  Choice "I'll deliver the potion for you." 1 "Perhaps you might speak to her cousin, instead." 2 "That's despicable. No, and you should leave that woman alone, at once." 3
+
+[DUP-INF]: ID=197939062929113412(Topic:backup plan)
+  |DATA|ONAM:gadayn andarys|NAME:I appreciate the help, friend. Just tell her it's an apology from Gadayn. She should accept it then. Then, once she drinks it, she'll fall into my arms in no time!|SCVR:01500|INTV|BNAM:Journal "EB_Unrequited" 70  Player->AddItem "p_lovepotion_unique" 1
+
+[DUP-INF]: ID=860173121158630926(Topic:dark business)
+  |DATA|ONAM:kjolver|NAME:Very well. Not everybody has the stomach for what I need done. If you change your mind, the offer will still be open.  And I trust you to keep this issue to yourself. Good day, %PCName.|SCVR:01500|INTV|BNAM:Journal "BM_WomanScorned" 20
+
+[MOD-INF]: ID=1059827279277047471(Topic:unholy ritual)
+  morrowind.esm----------->|DATA|ONAM:sason|NAME:I'm certain of it! Please, can't you help? I have very little to offer you in return, only 200 septims, but I am a member of House Redoran, and I will make sure to let them know of the help you have given me. Will you help? I beg you!|SCVR:04JX4MV_CultistVictim|INTV|BNAM:Journal "MV_CultistVictim" 30  Choice "I can help. I'll try and find Malexa and return her to you." 1 "I'm sorry. I can't help you." 2
+  Feminist Nerevarine.ESP->|DATA|ONAM:sason|NAME:I'm certain of it! Please, can't you help? I have very little to offer you in return, only 200 septims, but I am a member of House Redoran, and I will make sure to let them know of the help you have given me. Will you help? I beg you!|SCVR:04JX4MV_CultistVictim|INTV|BNAM:Journal "MV_CultistVictim" 30  Choice "I can help. I'll try and find Malexa and return her to you." 1 "I'm sorry. I can't help you." 2 "I'll help you, but as her husband, it should be your responsibility to protect her." 3
+
+[MOD-INF]: ID=1166228012882422360(Topic:boethiah's pillow book)
+  morrowind.esm----------->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:Did you get the book?|SCVR:05IX3bk_BoethiahPillowBook|INTV|SCVR:34JX3TG_BadGandosa|INTV: |BNAM:Choice "Yes, here it is" 1 "No, not yet" 2
+  Feminist Nerevarine.ESP->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:Did you get the book?|SCVR:05IX3bk_BoethiahPillowBook|INTV|SCVR:34JX3TG_BadGandosa|INTV: |BNAM:Choice "Yes, here it is" 1 "No, not yet" 2 "I did, but blackmailing that woman with her private life doesn't feel right. So I refuse to hand it over." 5
+
+[DUP-INF]: ID=1688455102995032273(Topic:dark business)
+  |DATA|ONAM:kjolver|NAME:Excellent! I knew I was right about you, %PCName. Erna lives in the Skaal Village. You can probably find her at her house. Kill the tramp, and bring me back her ring as proof. You'll be rewarded, and I'll have my Brandr all to myself.|SCVR:01500|INTV|BNAM:Journal "BM_WomanScorned" 30
+
+[DUP-INF]: ID=2905825901273472750(Topic:unholy ritual)
+  |DATA|ONAM:sason|NAME:Thank you! I'm sure they haven't gone far...although I was incapacitated, I don't believe it was that long ago they took her. They've probably taken her to a shrine to perform the ritual; I believe there's one to the west. It's too horrible to think about! Please hurry!|SCVR:01500|INTV|BNAM:Journal "MV_CultistVictim" 40  AddTopic "escape from cultists"
+
+[DUP-INF]: ID=3246023492512728471(Topic:jewels)
+  |DATA|ONAM:maurrie aurmine|NAME:You'll try? Thank you so! I'm sure you'll be able to find him. He mentioned something about having to head north, so I imagine he might be found in Pelagiad. Please, if you find him, give him this glove for me, as a token of my love. I'm certain he will want to find me again.|SCVR:01500|INTV|BNAM:Journal "MV_VictimRomance" 40  AddTopic "Maurrie's glove"  RemoveItem "Extravagant_Glove_Left_Maur" 1  Player->AddItem "Extravagant_Glove_Left_Maur" 1
+
+[DUP-INF]: ID=5354228191367424396(Topic:jewels)
+  |DATA|ONAM:maurrie aurmine|NAME:Have you no heart? No soul? Can you not see that this must be true love? No matter. Though it may take years, I'm certain we will be reunited one day.|SCVR:01500|INTV|BNAM:Journal "MV_VictimRomance" 50  Goodbye
+
+[DUP-INF]: ID=7964235582404211258(Topic:unholy ritual)
+  |DATA|ONAM:sason|NAME:I don't even want to think about what might be going on. It's too horrible.|SCVR:04JX3MV_CultistVictim|INTV:(|SCVR:14JX4MV_CultistVictim|INTV:2
+
+[MOD-INF]: ID=7975255221294828371(Topic:dark business)
+  bloodmoon.esm----------->|DATA|ONAM:kjolver|NAME:My husband Brandr has been running around behind my back with a harlot named Erna the Quiet. I love my husband.  He's my entire world, and that world isn't big enough for both Erna and me. I want Erna dead. But I'm no killer. Will you help me in this errand, %PCName? You'll be well compensated, of course.|SCVR:04JX3BM_WomanScorned|INTV:|SCVR:14JX5BM_WomanScorned|INTV|BNAM:Journal "BM_WomanScorned" 10  Choice "I'll do it.  Business is business, after all." 1 "I'm no assassin, Kjolver.  Get somebody else to do your dirty work." 2
+  Feminist Nerevarine.ESP->|DATA|ONAM:kjolver|NAME:My husband Brandr has been running around behind my back with a harlot named Erna the Quiet. I love my husband.  He's my entire world, and that world isn't big enough for both Erna and me. I want Erna dead. But I'm no killer. Will you help me in this errand, %PCName? You'll be well compensated, of course.|SCVR:04JX3BM_WomanScorned|INTV:|SCVR:14JX5BM_WomanScorned|INTV|BNAM:Journal "BM_WomanScorned" 10  Choice "I'll do it. Business is business, after all." 1 "I'm no assassin, Kjolver. Get somebody else to do your dirty work." 2 "Your husband definitely doesn't love you the way you love him. Forget about him, you deserve someone better." 3
+
+[DUP-INF]: ID=9525116802602111359(Topic:boethiah's pillow book)
+  |DATA|ONAM:aengoth|NAME:Hm. Interesting books these Dunmer have. We're getting paid well for this job. I looked over the emergency supplies here and found a ring and amulet you might like. Just don't tell anyone I gave them to you, eh?|SCVR:01500|INTV|BNAM:Journal TG_BadGandosa 100  Player->RemoveItem bk_BoethiahPillowBook 1  Player->AddItem "Amulet of Far Silence" 1  Player->AddITem "Chameleon Ring" 1  ModPCFacRep 5 "Thieves Guild"  ModDisposition 10
+
+[MOD-INF]: ID=11603173851255815562(Topic:boethiah's pillow book)
+  morrowind.esm----------->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:You already gave me that book.|SCVR:34JX3TG_BadGandosa|INTV:d
+  Feminist Nerevarine.ESP->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:You already gave me that book.|SCVR:34JX3TG_BadGandosa|INTV:d|SCVR:44JX1TG_BadGandosa|INTV:n
+
+[MOD-INF]: ID=27376271801754517649(Topic:boethiah's pillow book)
+  morrowind.esm----------->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:Is that Boethiah's Pillow Book? You didn't happen to find that in Arobar Manor, did you?|SCVR:05IX3bk_BoethiahPillowBook|INTV|SCVR:34JX0TG_BadGandosa|INTV:|BNAM:Choice "I found it in Arobar Manor" 3 "I found it somewhere else" 4
+  Feminist Nerevarine.ESP->|DATA|ONAM:aengoth|DNAM:Thieves Guild|NAME:Is that Boethiah's Pillow Book? You didn't happen to find that in Arobar Manor, did you?|SCVR:05IX3bk_BoethiahPillowBook|INTV|SCVR:34JX0TG_BadGandosa|INTV:|BNAM:Choice "I found it in Arobar Manor" 3 "I found it somewhere else" 4 "I did, but blackmailing that woman with her private life doesn't feel right. So I refuse to hand it over." 5
+
+[DUP-INF]: ID=31089205411193327763(Greeting:greeting 0)
+  |DATA|ONAM:Rat_rerlas|NAME:Squeak?|BNAM:Choice "Stay" 1 "Come" 2
+
+[MOD-INF]: ID=31393271201148415693(Topic:jewels)
+  morrowind.esm----------->|DATA|ONAM:maurrie aurmine|NAME:What's that? Oh, never mind the jewels! I just want to find the bandit again. He was charming, and funny, and I simply must see him again. His name? Nelos...Nelos Onmar...a name that will stay on my lips for eternity. Perhaps you can find him for me? Please, I cannot live without knowing if he could ever love me. I have nothing to offer you in return, but could you not help me for the sake of love?|BNAM:Journal "MV_VictimRomance" 30  AddTopic "Nelos Onmar"  Choice "I will try and find this man, if only for love's sake." 1 "I have no times for your foolish games, girl." 2
+  Feminist Nerevarine.ESP->|DATA|ONAM:maurrie aurmine|NAME:What's that? Oh, never mind the jewels! I just want to find the bandit again. He was charming, and funny, and I simply must see him again. His name? Nelos...Nelos Onmar...a name that will stay on my lips for eternity. Perhaps you can find him for me? Please, I cannot live without knowing if he could ever love me. I have nothing to offer you in return, but could you not help me for the sake of love?|BNAM:Journal "MV_VictimRomance" 30  AddTopic "Nelos Onmar"  Choice "I will try and find this man, if only for love's sake." 1 "I have no times for your foolish games, girl." 2 "He robbed you! Return to your senses! You deserve someone better." 3

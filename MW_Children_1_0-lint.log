@@ -1,0 +1,41 @@
+MW_Children_1_0.esm: DUP-REC FOGBUG GETSND MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1255616 (plugin)    1567893 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Gnisis, Dinadad Hut
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(ab01mwcCatScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(EM_childtopics)
+	SCPT(EM_extras)
+	SCPT(EM_fam1upstart)
+	SCPT(EM_homekids1script)
+	SCPT(EM_homekids2script)
+	SCPT(EM_homekids3script)
+	SCPT(EM_homekids4script)
+	SCPT(EM_homescript1)
+	SCPT(EM_homescript2)
+	SCPT(EM_nanny1script)
+	SCPT(EM_target_script)
+	SCPT(ab01mwcCatScript)
+	SCPT(ab01mwcRockingHorseScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	morrowind.esm       BODY    b_n_orc_f_neck
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	tamriel_data.esm    DIAL    greeting 6
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    little secret

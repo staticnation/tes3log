@@ -1,0 +1,104 @@
+Clean_Mines & Caverns_.esp: DUP-REC FOGBUG GETSND MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	Berendas' House, Trash room
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(_pd_ashir_plank_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AM_MinerScipt)
+	SCPT(BST_MarksGuardianGhostSummon)
+	SCPT(_pd_ashir_plank_script)
+	SCPT(_pd_blockedCrevice)
+	SCPT(_pd_cart_A)
+	SCPT(_pd_cart_B)
+	SCPT(_pd_cart_C)
+	SCPT(_pd_cart_D)
+	SCPT(_pd_ladder_arenim_b_s)
+	SCPT(_pd_ladder_arenim_s)
+	SCPT(_pd_min_mayber_script)
+	SCPT(_pd_shacksteps_yakanalit_b_s)
+	SCPT(_pd_shacksteps_yakanalit_s)
+	SCPT(_pd_shacksteps_zanabi1_b_s)
+	SCPT(_pd_shacksteps_zanabi1_s)
+	SCPT(_pd_shacksteps_zanabi2_b_s)
+	SCPT(_pd_shacksteps_zanabi2_s)
+	SCPT(_pd_shur_Door_ropeLock)
+	SCPT(a_dwrv_walker00_odaScript)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       PGRD    rethan manor, berendas' house
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (19, -4)
+	morrowind.esm       LAND    (19, -5)
+	morrowind.esm       LAND    (20, -3)
+	morrowind.esm       LAND    (20, -4)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       PGRD    abaelun mine
+	morrowind.esm       PGRD    abanabi
+	morrowind.esm       PGRD    abernanit
+	morrowind.esm       PGRD    abinabi
+	morrowind.esm       PGRD    addamasartus
+	morrowind.esm       PGRD    aharnabi
+	morrowind.esm       PGRD    aharunartus
+	morrowind.esm       PGRD    almurbalarammi, shrine
+	morrowind.esm       PGRD    andrethi ancestral tomb
+	morrowind.esm       PGRD    ansi
+	morrowind.esm       PGRD    arenim ancestral tomb
+	morrowind.esm       PGRD    ashir-dan
+	morrowind.esm       PGRD    ashlands region
+	morrowind.esm       PGRD    ashurnibibi, shrine
+	morrowind.esm       PGRD    assumanu
+	morrowind.esm       PGRD    beshara
+	morrowind.esm       PGRD    corprusarium bowels
+	morrowind.esm       PGRD    dissapla mine
+	morrowind.esm       PGRD    dun-ahhe
+	morrowind.esm       PGRD    dunirai caverns
+	morrowind.esm       PGRD    elith-pal mine
+	morrowind.esm       PGRD    halit mine
+	morrowind.esm       PGRD    hassour
+	morrowind.esm       PGRD    hinnabi
+	morrowind.esm       PGRD    ilanipu grotto
+	morrowind.esm       PGRD    mallapi
+	morrowind.esm       PGRD    mannammu
+	morrowind.esm       PGRD    maran-adon
+	morrowind.esm       PGRD    massama cave
+	morrowind.esm       PGRD    mausur caverns
+	morrowind.esm       PGRD    milk
+	morrowind.esm       PGRD    minabi
+	morrowind.esm       PGRD    missamsi
+	morrowind.esm       PGRD    mount kand, cavern
+	morrowind.esm       PGRD    nallit
+	morrowind.esm       PGRD    nammu
+	morrowind.esm       PGRD    nissintu
+	morrowind.esm       PGRD    nund
+	morrowind.esm       PGRD    odaishah
+	morrowind.esm       PGRD    odibaal
+	morrowind.esm       PGRD    odirnamat
+	morrowind.esm       PGRD    panat
+	morrowind.esm       PGRD    pinsun
+	morrowind.esm       PGRD    punammu
+	morrowind.esm       PGRD    rissun
+	morrowind.esm       PGRD    salmantu
+	morrowind.esm       PGRD    salmantu, shrine
+	morrowind.esm       PGRD    sanabi
+	morrowind.esm       PGRD    sanit
+	morrowind.esm       PGRD    sennananit
+	morrowind.esm       PGRD    subdun
+	morrowind.esm       PGRD    sudanit mine
+	morrowind.esm       PGRD    surirulk
+	morrowind.esm       PGRD    tin-ahhe
+	morrowind.esm       PGRD    vassir-didanat cave
+	morrowind.esm       PGRD    yakanalit
+	morrowind.esm       PGRD    yanemus mine
+	morrowind.esm       PGRD    yasamsi
+	morrowind.esm       PGRD    yassu mine
+	morrowind.esm       PGRD    yesamsi
+	morrowind.esm       PGRD    zainsipilu
+	morrowind.esm       PGRD    zanabi
+	morrowind.esm       PGRD    zenarbael

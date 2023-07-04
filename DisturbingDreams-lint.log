@@ -1,0 +1,51 @@
+DisturbingDreams.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DD_AscendedSleeper11_Script)
+	SCPT(DD_AscendedSleeper1_Script)
+	SCPT(DD_AscendedSleeper6_Script)
+	SCPT(DD_AshSlave11_Script)
+	SCPT(DD_AshSlave1_Script)
+	SCPT(DD_AshSlave6_Script)
+	SCPT(DD_AshSlavePrayer_Script)
+	SCPT(DD_AshZombie11_Script)
+	SCPT(DD_AshZombie1_Script)
+	SCPT(DD_AshZombie6_Script)
+	SCPT(DD_DagothGares_Script)
+	SCPT(DD_DreamStart_Script)
+	SCPT(DD_DreamerPriest_Script)
+	SCPT(DD_DreamerProphet_Script)
+	SCPT(DD_HanaraiAssutlanipal_Script)
+	SCPT(DD_Respawn_Script)
+	SCPT(Sleepers)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    sound_crystal_chime
+	morrowind.esm       LIGH    light_com_candle_06_64
+	morrowind.esm       STAT    ex_strongholdruin_wall00
+	morrowind.esm       STAT    furn_6th_dagothsymbol
+	morrowind.esm       STAT    furn_6th_troth_01
+	morrowind.esm       STAT    in_6th_chalk00
+	morrowind.esm       STAT    in_6th_chalk10
+	morrowind.esm       STAT    in_stronghold_dome00
+	morrowind.esm       STAT    terrain_ma_rock32
+	morrowind.esm       STAT    terrain_ma_rock62
+	morrowind.esm       STAT    terrain_rock_ma_01
+	morrowind.esm       STAT    terrain_rock_ma_04
+	morrowind.esm       STAT    terrain_rock_ma_06
+	morrowind.esm       STAT    terrain_rock_ma_09
+	morrowind.esm       STAT    terrain_rock_ma_10
+	morrowind.esm       STAT    terrain_rock_ma_19
+	morrowind.esm       STAT    terrain_rock_ma_39
+	morrowind.esm       STAT    terrain_rock_ma_43
+	morrowind.esm       STAT    terrain_rock_ma_54
+	morrowind.esm       STAT    terrain_rock_ma_55
+	morrowind.esm       STAT    terrain_rock_ma_550
+	morrowind.esm       STAT    terrain_rock_ma_5a
+	morrowind.esm       STAT    terrain_rock_rm_01
+	tribunal.esm        ACTI    sound_cave_wind00
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0

@@ -1,0 +1,15 @@
+Open Inventories.esp: DUP-INF DUP-REC EVLGMST MENUMOD OVR-REC
+    [EVLGMST] Tribunal(1):
+	TB scompanionshare
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(yac_cs_reapircheck)
+	SCPT(yac_cs_reequip)
+	SCPT(yac_cs_startup)
+	SCPT(yac_cs_stripall)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        GMST    scompanionshare
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0

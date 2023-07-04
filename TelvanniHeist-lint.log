@@ -1,0 +1,43 @@
+TelvanniHeist.ESP: DUP-INF DUP-REC MASTERS MENUMOD MISSAUT MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1568563 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(1garekkcut)
+	SCPT(1theranaegg)
+	SCPT(heist1)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       DIAL    jobs
+	morrowind.esm       LAND    (15, -12)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       NPC_    bugrol gro-bagul
+	oaab_data.esm       BOOK    ab_info_candleplacement
+	oaab_data.esm       BOOK    ab_info_cavescaffold
+	oaab_data.esm       BOOK    ab_info_climbingpicks
+	oaab_data.esm       BOOK    ab_info_kwamaaciddrips
+	oaab_data.esm       BOOK    ab_info_kwamaeggboom
+	oaab_data.esm       BOOK    ab_info_kwamaforagertower
+	oaab_data.esm       BOOK    ab_info_scamptallowcandles
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    idle
+
+[DUP-INF]: ID=1709302711210241(Voice:hello)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking to you
+
+[DUP-INF]: ID=45341331184509153(Topic:jobs)
+  |DATA|FNAM:Thieves Guild|NAME:You broke the rules, %PCName. Maybe you can make amends, and maybe not.|SCVR:01390|INTV
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=2583529070786213408(Topic:background)
+  |DATA|ONAM:vonos veri|NAME:I am %name, I serve Almalexia as one of Her Hands.
+
+[DUP-INF]: ID=2638137421067825083(Voice:idle)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;keeps werewolf from talking

@@ -1,0 +1,16 @@
+Silent Assassins.ESP: DUP-INF DUP-REC MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (13) != Actual count (12)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    hit
+
+[DUP-INF]: ID=32137175498021017(Voice:flee)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;to keep werewolves from talking during to you, they should never flee but just to be safe
+
+[DUP-INF]: ID=1732794482128125050(Voice:hit)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Roar!|SCVR:01720|INTV|SCVR:12sX5Random100|INTV
+
+[DUP-INF]: ID=10819118262520816930(Voice:attack)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;this prevents werewolves from talking to you in combat

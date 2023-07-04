@@ -1,0 +1,48 @@
+Imperialist Nerevarine.ESP: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    discuss
+	morrowind.esm       DIAL    initiation rite
+	morrowind.esm       DIAL    nerevarine prophecies
+	morrowind.esm       DIAL    third trial
+	tribunal.esm        DIAL    a2_1_meetsulmatuul
+
+[MOD-INF]: ID=37303085149621366(Topic:discuss)
+  morrowind.esm-------------->|DATA|ONAM:kurapli|NAME:Now that you are a Clanfriend, can I beg you to assist me with a matter of personal vengeance?|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-
+  Imperialist Nerevarine.ESP->|DATA|ONAM:kurapli|NAME:Can I ask you to assist me with a matter of personal vengeance?|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-
+
+[DUP-INF]: ID=304422549727125661(Journal:a2_1_meetsulmatuul)
+  |DATA|NAME:I must go to Urshilaku Burial Caverns to retrieve Bonebiter, the bonemold long bow of Sul-Matuul's ancestor, Sul-Senipul. Sul-Matuul says that the Urshilaku Burial Caverns lie to the south-southeast of Urshilaku camp, halfway between the camp and the slopes of Red Mountain. He warns me that Ashlander ancestral spirits guard these burial chambers.
+
+[MOD-INF]: ID=326995002383219361(Topic:initiation rite)
+  morrowind.esm-------------->|DATA|ONAM:sul-matuul|NAME:This is my father's Bonebiter Bow. You have completed the initiation rite. I name you %PCName, Clanfriend of the Ashlanders. Keep my father's bow, and bear it with honor. You are a friend of our tribe, and may rest in any Urshilaku bed, but do not harm other tribe members, or take their things. And now I will fulfill my other promise. Go to the wise woman's yurt, and Nibani Maesa shall examine you, and test you against the Nerevarine prophecies.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:(|SCVR:15IX3bonebiter_bow_unique|INTV|BNAM:Journal "A2_1_MeetSulMatuul" 45  PCJoinFaction Ashlanders  moddisposition 10
+  Imperialist Nerevarine.ESP->|DATA|ONAM:sul-matuul|NAME:This is my father's Bonebiter Bow. You have completed the initiation rite. I name you %PCName, Hearthfriend of the Ashlanders.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:(|SCVR:15IX3bonebiter_bow_unique|INTV|BNAM:Choice "You sent me into that cave to have me killed. You had no desire of accepting me into your tribe, and I have no desire to be a member of it. Just allow me to talk with the Wise Woman." 1 "Thank you." 2
+
+[MOD-INF]: ID=672721013212133451(Topic:nerevarine prophecies)
+  morrowind.esm-------------->|DATA|ONAM:sul-matuul|NAME:These are serious words, %PCName, words of life and death. I see honor and merit in you, and am proud to name you Clanfriend. But take care what you say and do in the name of the Nerevarine. Now go question Nibani Maesa, and learn all she can tell you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-|SCVR:11500|INTV
+  Imperialist Nerevarine.ESP->|DATA|ONAM:sul-matuul|NAME:These are serious words, %PCName, words of life and death. I see honor and merit in you. But take care what you say and do in the name of the Nerevarine. Now go question Nibani Maesa, and learn all she can tell you.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-|SCVR:11500|INTV
+
+[MOD-INF]: ID=1425631883115876748(Journal:a2_1_meetsulmatuul)
+  morrowind.esm-------------->|DATA|NAME:I completed the initiation rite by bringing Sul-Senipul's Bonebiter Bow to Sul-Matuul. He has named me a Clanfriend of the Ashlanders He has also given me permission to go to the wise woman's yurt and speak with Nibani Maesa, who will examine me and test me against the Nerevarine prophecies.
+  Imperialist Nerevarine.ESP->|DATA|NAME:I completed the initiation rite by bringing Sul-Senipul's Bonebiter Bow to Sul-Matuul. He has named me a Hearthfriend of the Ashlanders He has also given me permission to go to the wise woman's yurt and speak with Nibani Maesa, who will examine me and test me against the Nerevarine prophecies.
+
+[DUP-INF]: ID=1492864292180021985(Topic:third trial)
+  |DATA|ONAM:sul-matuul|NAME:Seek the Third Trial in the Cavern of the Incarnate. You have my blessing, and the blessing of the tribe.|SCVR:04JX3A2_6_Incarnate|INTV
+
+[MOD-INF]: ID=3079029978897331836(:third trial)
+  morrowind.esm-------------->|DATA|ONAM:sul-matuul|NAME:This riddle is Wisdom's Test. Take counsel of the wisdom of the tribes, and you shall find the way. Seek the Cavern of the Incarnate. Gain the moon and star, and bring it to Nibani Maesa. Take with you my blessing, and the blessing of our tribe, Malipu-Ataman's Belt.|SCVR:04JX3A2_6_Incarnate|INTV: |SCVR:11500|INTV|BNAM:;Sul-Matuul; Journal "A2_6_Incarnate" >= 10;  ModDisposition 10  PCRaiseRank  player->modReputation 1  Journal "A2_6_Incarnate" 15  Player->AddItem "Malipu_Ataman's_Belt" 1  AddTopic "eye of the needle"  AddTopic "teeth of the wind"  AddTopic "skin of the pearl"  AddTopic "the dream is the door"  AddTopic  "the star is the key"
+  Imperialist Nerevarine.ESP->|NAME:This riddle is Wisdom's Test. Take counsel of the wisdom of the tribes, and you shall find the way. Seek the Cavern of the Incarnate. Gain the moon and star, and bring it to Nibani Maesa. Take with you my blessing, and the blessing of our tribe, Malipu-Ataman's Belt.|DELE:
+
+[MOD-INF]: ID=3214628176238462343(Topic:nerevarine prophecies)
+  morrowind.esm-------------->|DATA|ONAM:sul-matuul|NAME:Now that you are a Clanfriend, I want to speak plainly. I find it hard to believe that you are the Nerevarine. You are an outlander, but the Nerevarine comes to drive all outlanders from Morrowind. How could an outlander be the Incarnate? The Great Houses stole our lands and mocked us with false gods. The godless outlanders steal our land and our dignity. The Nerevarine is the last hope the Ashlanders have. I will let no outlander steal this hope from us.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-|BNAM:Choice "Continue" 1
+  Imperialist Nerevarine.ESP->|DATA|ONAM:sul-matuul|NAME:I want to speak plainly. I find it hard to believe that you are the Nerevarine. You are an outlander, but the Nerevarine comes to drive all outlanders from Morrowind. How could an outlander be the Incarnate? The Great Houses stole our lands and mocked us with false gods. The godless outlanders steal our land and our dignity. The Nerevarine is the last hope the Ashlanders have. I will let no outlander steal this hope from us.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-|BNAM:Choice "Continue" 1
+
+[DUP-INF]: ID=16981214271045313693(Journal:a2_1_meetsulmatuul)
+  |DATA|NAME:Nibani Maesa says I am not the Nerevarine, but I may become the Nerevarine. It seems she is willing to help me unravel the Nerevarine prophecies and my part in them. She tells me to seek the lost prophecies among the Dissident priests of the Temple. If I bring these lost prophecies to her, she will be my guide. And she gave me copies of the Nerevarine prophecies called 'The Stranger' and 'The Seven Visions'. Now it's time to report back to Caius.|QSTF
+
+[DUP-INF]: ID=17498218802788614295(Topic:initiation rite)
+  |DATA|ONAM:sul-matuul|NAME:You have already completed the initiation rite.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-
+
+[MOD-INF]: ID=26046267772728426298(Topic:nerevarine prophecies)
+  morrowind.esm-------------->|DATA|ONAM:sul-matuul|NAME:You think you fulfill the Nerevarine prophecies. You wish to be tested to see if you are the Nerevarine. No outlander may join the Nerevarine cult. If you were a Clanfriend, an adopted member of the Ashlander tribes, then perhaps. I have an initiation rite in mind. If you pass this rite, I will adopt you as a Clanfriend of the Ashlanders. And then I will submit you to Nibani Maesa, our wise woman, who is skilled in oracles and mysteries, and who will test you against the prophecies.|SCVR:04JX3A2_1_MeetSulMatuul|INTV
+  Imperialist Nerevarine.ESP->|DATA|ONAM:sul-matuul|NAME:You think you fulfill the Nerevarine prophecies. You wish to be tested to see if you are the Nerevarine. No outlander may join the Nerevarine cult. If you were a Hearthfriend, an adopted member of the Ashlander tribes, then perhaps. I have an initiation rite in mind. If you pass this rite, I will adopt you as a Hearthfriend of the Ashlanders. And then I will submit you to Nibani Maesa, our wise woman, who is skilled in oracles and mysteries, and who will test you against the prophecies.|SCVR:04JX3A2_1_MeetSulMatuul|INTV

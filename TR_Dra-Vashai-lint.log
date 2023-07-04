@@ -1,0 +1,31 @@
+TR_Dra-Vashai.ESP: DUP-INF DUP-REC JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Vashai418_2Hours)
+	SCPT(Vashai418slaveScript)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (3, -15)           0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    go free
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    travel together
+
+[DUP-INF]: ID=5161469619064654(Topic:go free)
+  |DATA|CNAM:Slave|NAME:You must find the key to these bracers before I can be freed.|SCVR:03sX3slaveStatus|INTV:
+
+[DUP-INF]: ID=294747312583227810(Topic:go free)
+  |DATA|CNAM:Slave|ANAM:Addamasartus|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_addamasartusslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=300681198467613390(Topic:go free)
+  |DATA|CNAM:Slave|NAME:You freed me, %PCName.|SCVR:03sX0slaveStatus|INTV
+
+[DUP-INF]: ID=807030795185926776(Topic:go free)
+  |DATA|CNAM:Slave|ANAM:Rotheran, Arena|NAME:You have the key. Will you let me go free?|SCVR:05IX3key_rotheranslaves_01|INTV|BNAM:Choice "Unlock the slaves' bracers." 1 "Nevermind." 2
+
+[DUP-INF]: ID=2091021750732311715(Topic:travel together)
+  |DATA|ONAM:urvel dulni|NAME:Do you want me to stay with you? I'd be willing to wait here. I m-mean, it's up to you.|SCVR:04JX3TR_ShrineDead|INTV:(|SCVR:14JX4TR_ShrineDead|INTV:d|BNAM:Choice "Stay with me." 1 "Wait here." 2
+
+[DUP-INF]: ID=2112269131757221074(Topic:go free)
+  |DATA|ONAM:dahleena|NAME:Yes, %Name is free! You are a good friend of %Name. Dahleena leaves when the moons are right.|SCVR:01500|INTV|BNAM:Set slaveStatus to 3  Set FreedSlavesCounter to FreedSlavesCounter + 1  ModDisposition 50  Journal HR_CalderaDisrupt 50

@@ -1,0 +1,9 @@
+Havish Mini Patch.esp: DUP-REC MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (31) != Actual count (28)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ZH_NPC_TG_P2_Guest)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5

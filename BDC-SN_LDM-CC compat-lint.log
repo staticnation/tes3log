@@ -1,0 +1,42 @@
+BDC-SN_LDM-CC compat.ESP: DUP-REC JUNKCEL MASTERS MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Patch for Purists.esm        2722882 (plugin)    2994440 (installed size)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ascadian Isles Region (2, -14)           0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    processus vitellius
+	patch for purists.esm    DIAL    murder of processus vitellius
+	patch for purists.esm    DIAL    recover some gold
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    someone in particular
+
+[MOD-INF]: ID=222445677129166576(Topic:murder of processus vitellius)
+  patch for purists.esm---->|DATA|ONAM:chargen class|NAME:I heard you had been asking around about his murder. I'm glad to see this matter brought to its completion. Here's your reward, %PCName. Good to see there are still some citizens who understand their loyalty to our Emperor.|SCVR:06DX2foryn gilnith|INTV:|SCVR:14JX3MV_DeadTaxman|INTV:<|SCVR:24JX4MV_DeadTaxman|INTV:d|BNAM:Journal "MV_DeadTaxman" 100  RemoveItem "Gold_001" 500  Player->AddItem "Gold_001" 500  Goodbye
+  BDC-SN_LDM-CC compat.ESP->|DATA|ONAM:dialog placeholder|NAME:Justice has been done for Processus Vitellius. I'm glad to see this matter brought to its completion. Here's your reward, %PCName. Good to see there are still some citizens who understand their loyalty to our Emperor.|SCVR:06DX2foryn gilnith|INTV:|SCVR:14JX3MV_DeadTaxman|INTV:<|SCVR:24JX4MV_DeadTaxman|INTV:d|BNAM:Journal "MV_DeadTaxman" 100  RemoveItem "Gold_001" 500  Player->AddItem "Gold_001" 500  Goodbye
+
+[MOD-INF]: ID=242392067944577534(Topic:murder of processus vitellius)
+  morrowind.esm------------>|DATA|ONAM:chargen class|NAME:Murdered? What a waste. Processus was a good man. I had been wondering why we hadn't heard from him in a few days. Still, these are dangerous times we live in, and these sorts of things will happen. Did you happen to find the tax money he'd collected? I hate to be so callous, but I do have a job to do.|SCVR:05IX2bk_seydaneentaxrecord|INTV:|SCVR:15IX4Gold_001|INTV|SCVR:24JX4MV_DeadTaxman|INTV|BNAM:Journal "MV_DeadTaxman" 20  Choice "Yes, but I no longer have the money." 3 "No, he didn't have anything on him." 2
+  BDC-SN_LDM-CC compat.ESP->|DATA|ONAM:dialog placeholder|NAME:Murdered? What a waste. Processus was a good man. I had been wondering why we hadn't heard from him in a few days. Still, these are dangerous times we live in, and these sorts of things will happen. I'll make arrangements for his body to be retrieved and buried. Did you happen to find the tax money he'd collected? I hate to be so callous, but I do have a job to do.|SCVR:05IX2bk_seydaneentaxrecord|INTV:|SCVR:15IX4Gold_001|INTV|SCVR:24JX4MV_DeadTaxman|INTV|BNAM:"processus vitellius"->disable  Journal "MV_DeadTaxman" 20  Choice "Yes, but I no longer have the money." 3 "No, he didn't have anything on him." 2
+
+[MOD-INF]: ID=411922311605125893(Topic:latest rumors)
+  tribunal.esm------------->|DATA|ONAM:arrille|NAME:I heard that Hrisskar upstairs is having some financial troubles. Can't seem to win a wager these days.|SCVR:04JX0MS_Lookout|INTV:
+  BDC-SN_LDM-CC compat.ESP->|DATA|ONAM:arrille|NAME:I heard that Hrisskar upstairs is having some financial troubles. Can't seem to win a wager these days.|SCVR:04JX0ek_bdc_lookout|INTV:
+
+[MOD-INF]: ID=2614031951113657720(Topic:murder of processus vitellius)
+  morrowind.esm------------>|DATA|ONAM:chargen class|NAME:Hope you'll bring that murderer to justice soon.|SCVR:04JX3MV_DeadTaxman|INTV:0|SCVR:14JX4MV_DeadTaxman|INTV:U|SCVR:26DX0foryn gilnith|INTV:
+  BDC-SN_LDM-CC compat.ESP->|DATA|ONAM:dialog placeholder|NAME:I hope you'll bring the murderer to justice soon.|SCVR:04JX3MV_DeadTaxman|INTV:0|SCVR:14JX4MV_DeadTaxman|INTV:U|SCVR:26DX0foryn gilnith|INTV:
+
+[MOD-INF]: ID=4412256843171812107(Topic:murder of processus vitellius)
+  morrowind.esm------------>|DATA|ONAM:chargen class|NAME:Murdered? What a waste. Processus was a good man. I had been wondering why we hadn't heard from him in a few days. Still, these are dangerous times we live in, and these sorts of things will happen. Did you happen to find the tax money he'd collected? I hate to be so callous, but I do have a job to do.|SCVR:05IX2bk_seydaneentaxrecord|INTV:|SCVR:15IX3Gold_001|INTV|SCVR:24JX4MV_DeadTaxman|INTV|BNAM:Journal "MV_DeadTaxman" 20  Choice "Yes, I found 200 septims on his body." 1 "No, he didn't have anything on him." 2
+  BDC-SN_LDM-CC compat.ESP->|DATA|ONAM:dialog placeholder|NAME:Murdered? What a waste. Processus was a good man. I had been wondering why we hadn't heard from him in a few days. Still, these are dangerous times we live in, and these sorts of things will happen. I'll make arrangements for his body to be retrieved and buried. Did you happen to find the tax money he'd collected? I hate to be so callous, but I do have a job to do.|SCVR:05IX2bk_seydaneentaxrecord|INTV:|SCVR:15IX3Gold_001|INTV|SCVR:24JX4MV_DeadTaxman|INTV|BNAM:"processus vitellius"->disable  Journal "MV_DeadTaxman" 20  Choice "Yes, I found 200 septims on his body." 1 "No, he didn't have anything on him." 2
+
+[MOD-INF]: ID=5048125252327530980(Topic:murder of processus vitellius)
+  patch for purists.esm---->|DATA|ONAM:chargen class|NAME:Hope you'll bring that murderer to justice soon.|SCVR:04JX3MV_DeadTaxman|INTV:0|SCVR:14JX4MV_DeadTaxman|INTV:U|SCVR:26DX0foryn gilnith|INTV:
+  BDC-SN_LDM-CC compat.ESP->|DATA|ONAM:dialog placeholder|NAME:I hope you'll bring the murderer to justice soon.|SCVR:04JX3MV_DeadTaxman|INTV:0|SCVR:14JX4MV_DeadTaxman|INTV:U|SCVR:26DX0foryn gilnith|INTV:
+
+[MOD-INF]: ID=11335257311729916544(Topic:murder of processus vitellius)
+  morrowind.esm------------>|DATA|ONAM:foryn gilnith|NAME:You're one of them, huh? Come to kill me? Well, give it your best shot, %PCRace. I've no problem spilling more of the blood of the Emperor's lackeys!|SCVR:01500|INTV|BNAM:Journal "MV_DeadTaxman" 85  SetFight 100  AddTopic "Processus' Ring"  Goodbye
+  BDC-SN_LDM-CC compat.ESP->|DATA|ONAM:dialog placeholder|NAME:You're one of them, huh? Come to kill me? Well, give it your best shot, %PCRace. I've no problem spilling more of the blood of the Emperor's lackeys!|SCVR:01500|INTV|BNAM:Journal "MV_DeadTaxman" 85  SetFight 100  AddTopic "Processus' Ring"  Goodbye

@@ -1,0 +1,40 @@
+sei-mg_stealbook.esp: DUP-INF DUP-REC MOD-INF OVR-REC
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       CONT    de_p_chest_02_sirilonwe
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    chimarvamidium
+	morrowind.esm       DIAL    silt strider
+	morrowind.esm       DIAL    trebonius
+	morrowind.esm       NPC_    sirilonwe
+	tribunal.esm        DIAL    mg_stealbook
+
+[DUP-INF]: ID=85223887638232106(Topic:chimarvamidium)
+  |DATA|DNAM:Mages Guild|NAME:Why, I've never heard of such a book...
+
+[DUP-INF]: ID=123721910514845403(Topic:chimarvamidium)
+  |DATA|DNAM:Mages Guild|NAME:That is most unfortunate, %PCRank. I thought you would be willing to assist a fellow Guild member.|SCVR:01500|INTV|BNAM:ModDisposition -10
+
+[MOD-INF]: ID=145448221388318435(Topic:trebonius)
+  morrowind.esm-------->|DATA|NAME:I don't care what he asked you to do. The best thing for all of us is to ignore that Scuttlehead. Last year he asked me to learn the language of the Silt Striders so we could question them about who they took to different cities.|SCVR:06DX0trebonius artorius|INTV:
+  sei-mg_stealbook.esp->|DATA|NAME:I don't care what he asked you to do. The best thing for all of us is to ignore that scuttlehead. Last year he asked me to learn the language of the Silt Striders so we could question them about who they took to different cities.|SCVR:06DX0trebonius artorius|INTV:|BNAM:set aaa_sirilonweTrebonius to 1  addtopic "silt strider"
+
+[MOD-INF]: ID=436019758954820477(Topic:chimarvamidium)
+  morrowind.esm-------->|DATA|DNAM:Mages Guild|NAME:How did you... I mean where did you get a copy of Chimarvamidium? I've been looking for this book. Perhaps you'd be willing to part with it?|SCVR:45IX2BookSkill_Heavy Armor3|INTV:|BNAM:Choice "Give her the book." 1 "Keep the book." 2
+  sei-mg_stealbook.esp->|DATA|DNAM:Mages Guild|NAME:How did you... I mean where did you get a copy of Chimarvamidium? I've been looking for this book. Perhaps you'd be willing to part with it?|SCVR:03sX0aaa_sirilonweHasBook|INTV:|SCVR:13sX0aaa_sirilonweGaveBook|INTV:|SCVR:45IX2BookSkill_Heavy Armor3|INTV:|BNAM:Choice "Give her the book." 1 "Keep the book." 2
+
+[DUP-INF]: ID=1482322482068823484(Journal:mg_stealbook)
+  |DATA|NAME:Edwinna asked me to steal the book Chimarvamidium from the Mages Guild in Vivec.
+
+[MOD-INF]: ID=4493228852761410466(Topic:chimarvamidium)
+  morrowind.esm-------->|DATA|DNAM:Mages Guild|NAME:Thank you. I won't forget this. Just a suggestion... Keep quiet about this book, %PCName. Some members of the Mages Guild can be very jealous.|SCVR:01500|INTV|SCVR:34JX3MG_ReturnBook|INTV: |BNAM:Player->RemoveItem "BookSkill_Heavy Armor3" 1  AddItem "BookSkill_Heavy Armor3" 1  Journal MG_ReturnBook 30  ModDisposition 20
+  sei-mg_stealbook.esp->|DATA|DNAM:Mages Guild|NAME:Thank you. I won't forget this. Just a suggestion... Keep quiet about this book, %PCName. Some members of the Mages Guild can be very jealous.|SCVR:01500|INTV|SCVR:34JX3MG_ReturnBook|INTV: |BNAM:Player->RemoveItem "BookSkill_Heavy Armor3" 1  AddItem "BookSkill_Heavy Armor3" 1  Journal MG_ReturnBook 30  set aaa_sirilonweReturnedBook to 1  ModDisposition 20
+
+[MOD-INF]: ID=10389277391753425384(Journal:mg_stealbook)
+  tribunal.esm--------->|DATA|NAME:I returned the book Chimarvamidium to Edwinna. She promised to return the book to me later.|QSTF
+  sei-mg_stealbook.esp->|DATA|NAME:I gave the stolen book Chimarvamidium to Edwinna. She promised to return the book to me later.|QSTF
+
+[MOD-INF]: ID=22591291781434814289(Topic:chimarvamidium)
+  morrowind.esm-------->|DATA|DNAM:Mages Guild|NAME:Thank you. I won't forget this. Just a suggestion... Keep quiet about this book, %PCName. Some members of the Mages Guild can be very jealous.|SCVR:01500|INTV|BNAM:Player->RemoveItem "BookSkill_Heavy Armor3" 1  AddItem "BookSkill_Heavy Armor3" 1  ModDisposition 20
+  sei-mg_stealbook.esp->|DATA|DNAM:Mages Guild|NAME:Thank you. I won't forget this. Just a suggestion... Keep quiet about this book, %PCName. Some members of the Mages Guild can be very jealous.|SCVR:01500|INTV|BNAM:Player->RemoveItem "BookSkill_Heavy Armor3" 1  AddItem "BookSkill_Heavy Armor3" 1  set aaa_sirilonweReturnedBook to 1  ModDisposition 20

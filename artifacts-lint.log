@@ -1,0 +1,55 @@
+artifacts.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MuseumScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    bloodworm_helm_unique
+	morrowind.esm       ARMO    dragonbone_cuirass_unique
+	morrowind.esm       ARMO    ebony_shield_auriel
+	morrowind.esm       CLOT    daedric_special
+	morrowind.esm       CLOT    necromancers_amulet_uniq
+	morrowind.esm       ENCH    crescent moon
+	morrowind.esm       ENCH    dragon aura
+	morrowind.esm       ENCH    lord's praise
+	morrowind.esm       ENCH    mehrune's razor_en
+	morrowind.esm       ENCH    warlock's sphere
+	morrowind.esm       ENCH    wind whisper
+	morrowind.esm       ENCH    wrath of magnus
+	morrowind.esm       WEAP    daedric_crescent_unique
+	morrowind.esm       WEAP    dwarven_hammer_volendrung
+	morrowind.esm       WEAP    ebony_bow_auriel
+	morrowind.esm       WEAP    fork_horripilation_unique
+	morrowind.esm       WEAP    katana_bluebrand_unique
+	tribunal.esm        ARMO    bloodworm_helm_unique_x
+	tribunal.esm        ARMO    dragonbone_cuirass_unique_x
+	tribunal.esm        ARMO    ebony_shield_auriel_x
+	tribunal.esm        WEAP    ebony_bow_auriel_x
+
+[MOD-INF]: ID=8913165577333531(Topic:dragonbone mail)
+  tribunal.esm-->|DATA|ONAM:Torasa Aram|NAME:You don't have the Dragonbone Cuirass with you? Then come back with it, and we'll settle the deal.|SCVR:01500|INTV|SCVR:15IX0dragonbone_cuirass_unique|INTV:
+  artifacts.esp->|DATA|ONAM:Torasa Aram|NAME:You don't have the Dragonbone Mail with you? Then come back with it, and we'll settle the deal.|SCVR:01500|INTV|SCVR:15IX0dragonbone_cuirass_unique|INTV:
+
+[MOD-INF]: ID=20994919510562746(Topic:dragonbone mail)
+  tribunal.esm-->|DATA|ONAM:Torasa Aram|NAME:You don't have the Dragonbone Cuirass with you? Then come back with it, and we'll settle the deal.|SCVR:01500|INTV|SCVR:15IX0dragonbone_cuirass_unique|INTV:
+  artifacts.esp->|DATA|ONAM:Torasa Aram|NAME:You don't have the Dragonbone Mail with you? Then come back with it, and we'll settle the deal.|SCVR:01500|INTV|SCVR:15IX0dragonbone_cuirass_unique|INTV:
+
+[DUP-INF]: ID=77799197247101426(Topic:dragonbone mail)
+  |DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0dragonbone|INTV|SCVR:15IX2dragonbone_cuirass_unique|INTV:|BNAM:SetPCCrimeLevel 100000  Set PCThief to 1  Goodbye
+
+[DUP-INF]: ID=101181820810626471(Topic:dragonbone mail)
+  |DATA|ONAM:Torasa Aram|NAME:Yes, we're very honored to have it as part of our collection.|SCVR:03sX3dragonbone|INTV|SCVR:15IX0dragonbone_cuirass_unique|INTV:
+
+[DUP-INF]: ID=278072396162784487(Topic:dragonbone mail)
+  |DATA|ONAM:Torasa Aram|NAME:Ah, the very definition of an artifact.  They don't make them like this anymore, eh %PCName?  So, will you sell it?  I can offer you 30000 gold for it.|SCVR:03sX0dragonbone|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2
+
+[DUP-INF]: ID=572513827623722680(Topic:dragonbone mail)
+  |DATA|ONAM:Torasa Aram|NAME:Ah, the very definition of an artifact.  They don't make them like this anymore, eh %PCName?  So, are you willing to part with it? I can offer you 30000 gold for it.|SCVR:03sX0dragonbone|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate this item." 3
+
+[DUP-INF]: ID=1054428473308476360(Topic:dragonbone mail)
+  |DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3dragonbone_cuirass_unique|INTV|BNAM:player->removeitem "dragonbone_cuirass_unique" 1  set MuseumDonations to MuseumDonations + 1  set dragonbone to 2  "dragonbone_cuirass_unique_x"->Enable  moddisposition 5
+
+[DUP-INF]: ID=1420711014487119208(Topic:dragonbone mail)
+  |DATA|ONAM:Torasa Aram|NAME:You're quite sure about that?  Ah, well.  Perhaps at a later date we can discuss it again.|SCVR:01500|INTV
+
+[DUP-INF]: ID=8100115593153325358(Topic:dragonbone mail)
+  |DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3dragonbone_cuirass_unique|INTV|BNAM:player->removeitem "dragonbone_cuirass_unique" 1  player->additem "gold_001" 30000  set dragonbone to 2  "dragonbone_cuirass_unique_x"->Enable

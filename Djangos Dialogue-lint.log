@@ -1,0 +1,903 @@
+Djangos Dialogue.ESP: DUP-INF DUP-REC MISSVER MOD-INF MOD-IID OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    cyrodiil
+	morrowind.esm       DIAL    empire
+	morrowind.esm       DIAL    greeting 8
+	morrowind.esm       DIAL    house hlaalu
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    intimidate fail
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    ralen hlaalo
+	morrowind.esm       DIAL    zallay subaddamael
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    specific place
+
+[DUP-INF]: ID=264127616264709(Greeting:greeting 7)
+  |DATA|ONAM:burcanius varo|NAME:Good day. I'm Burcanius Varo, publican of the Varo Tradehouse here in Vos. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Burcanius Varo
+
+[MOD-INF]: ID=826321646924279(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Ashlanders|ANAM:Erabenimsun Camp|NAME:Do the old places of the Deep Elves interest you? Then you should go see Nchuleftingth. The walls still glow with strange lights, and terrible things walk and squeal in the passages. it is a bad place, and very dangerous, but it is filled with wonders.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Ashlanders|ANAM:Erabenimsun Camp|NAME:Do the old places of the Deep Elves interest you? Then you should go see Nchuleftingth. The walls still glow with strange lights, and terrible things walk and squeal in the passages. It is a bad place, and very dangerous, but it is filled with wonders.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1874952556747169(Topic:little advice)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|NAME:There's an enchanted transportation system in the old Dunmer strongholds. Created ages ago, but still works. You need a thing called an 'index' to use the system. Not many of them around. Collectors will pay a pretty drake for them.|SCVR:02sX4Random100|INTV: |SCVR:1CsX0nolore|INTV:|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|RNAM:Dark Elf|NAME:There's an enchanted transportation system in the old Dunmer strongholds. Created ages ago, but still works. You need a thing called an 'index' to use the system. Not many of them around. Collectors will pay a pretty drake for them.|SCVR:02sX4Random100|INTV: |SCVR:1CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=1886295746611929(Topic:little advice)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|NAME:If all it takes is a little persuasion, a flask of Telvanni bug musk is what you need. Makes even an Orc charming.|SCVR:02sX4Random100|INTV|SCVR:1ARX0Orc|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:Most Dunmer love making a show out of their supposed cultural superiority. If you ever have to do business with a particularly sanctimonious one, let him say his piece and keep your talk focused on the matter at hand. Ignoring veiled insults and racist sentiments is the only way to get along with the natives.|SCVR:02sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=1934884321254667(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:A suggestion. Get yourself a more suitable outfit. Unless you don't mind being mistaken for a slave or a pauper.|SCVR:01424|INTV|SCVR:11033|INTV: |SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 10; PCClothingMod < 20
+  Djangos Dialogue.ESP->|DATA|NAME:A suggestion. Get yourself a more suitable outfit. Unless you don't mind being mistaken for a slave or a pauper.|SCVR:01424|INTV|SCVR:11033|INTV: |SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 10; PCClothingMod < 20
+
+[MOD-INF]: ID=2230212457795429(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Temple|NAME:Don't be in such a hurry when you're traveling. Take your time. Keep your eyes open. Learn from your experiences. You're on the road to learn about yourself and the world around you.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Temple|NAME:There is no surer sign of decay in a land than to see the rites of religion held in contempt.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=2390217901252541(Topic:my trade)
+  |DATA|CNAM:Agent|NAME:I'm an agent. I work for a House, or a company, or the state, and I do things that need doing. Mostly I handle matters in the business or diplomatic line, things that require mercantile skills, or the arts of speechcraft. I trade in knowledge -- hard facts and rumors. 'Knowledge is power,' as they say. And sometimes I do other sorts of things. Things I can't talk about.|SCVR:0CsX0NoLore|INTV:|BNAM:;Agent; SERVICE; Rumors, Mercantile
+
+[DUP-INF]: ID=3429260295224510(Greeting:greeting 7)
+  |DATA|ONAM:Drarayne Girith|NAME:Good day. I'm Drarayne Girith, publican of the Plot and Plaster here in Tel Aruhn. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Drarayne Girith
+
+[MOD-INF]: ID=4188721575955379(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM|NAME:Welcome to Gnaar Mok, outlander. It's small, but dumpy. And I'm Gnaar Mok's shipmaster, at your service. What's your destination? Or, if by misfortune you are newly arrived in Gnaar Mok, I grieve for you. But I can steer you to the local services, or to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+  Djangos Dialogue.ESP->|DATA|ONAM|NAME:Welcome to Gnaar Mok, outlander. It's small, but dumpy. And I'm Gnaar Mok's shipmaster, at your service. What's your destination? Or, if by misfortune you are newly arrived in Gnaar Mok, I grieve for you. But I can steer you to the local services, or to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=11947179366161203(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Telvanni|NAME:Just because your lord gives you a task, don't assume you should be able to do it. Your lord doesn't really know what you can or can't handle. And most Telvanni lords don't care.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Telvanni|NAME:Before you start to forge artifacts infused with your own magic, first practice casting with items enchanted by more experienced hands. The knowledge you glean - the ease of the cast, the sapping of its power - will prove invaluable when it comes to imitating, and then improving upon them with enchantments of your own.|SCVR:12sX4Random100|INTV:F|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=13077967166187028(Topic:little secret)
+  tribunal.esm--------->|DATA|ANAM:Ald-ruhn|NAME:Have you heard about poor Ienas Sarandas? He lost his patrimony betting on the guar. Sold every piece of the family silverware to pay his debts. A pity. I think it's driven him a bit mad. Wears clothes fit for a lord, and hasn't got a drake for a meal.|SCVR:04JX4Town_Aldruhn|INTV:-|SCVR:1CsX0nolore|INTV:|BNAM:;Ald-ruhn; Journal Ald'ruhn_Saradnus < 45;   Journal town_ald_ienas 1
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald-ruhn|NAME:Have you heard about poor Ienas Sarandas? He lost his patrimony betting on the guar. Sold every piece of the family silverware to pay his debts. A pity. I think it's driven him a bit mad. Wears clothes fit for a lord, and hasn't got a drake for a meal.|SCVR:04JX4Town_Aldruhn|INTV:-|SCVR:1CsX0NoLore|INTV:|BNAM:;Ald-ruhn; Journal Ald'ruhn_Saradnus < 45;   Journal town_ald_ienas 1
+
+[MOD-INF]: ID=15917326493337369(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 12000
+  Djangos Dialogue.ESP->|DATA|NAME:I must say, you cut quite the dash, %PCName. Exactly what I'd expect from the famous outlander %PCClass.|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 80; PCClothingMod >= 12000
+
+[MOD-INF]: ID=16032260275024476(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM:Adondasi Sadalvel|ANAM:Vivec|NAME:These are Vivec's docks, outlander. I'm the shipmaster, and I manage all the seagoing traffic here. Tell me your destination, if you're outward bound. Or if you're new to Vivec, I can steer you to the local services, or to a specific place in Vivec. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+  Djangos Dialogue.ESP->|DATA|ONAM:ano andaram|ANAM:Vivec|NAME:These are Vivec's docks, outlander. I'm the shipmaster, and I manage all the seagoing traffic here. Tell me your destination, if you're outward bound. Or if you're new to Vivec, I can steer you to the local services, or to a specific place in Vivec. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=16531102192603444(Topic:little secret)
+  tribunal.esm--------->|DATA|NAME:Daedra? You know what they are, right? Well, Daedric shrines are where Daedra cults worship Daedra. Bad people who summon bad Daedra. Stay away from them. Why? Because Daedra are nasty. And the folks that worship them are even nastier.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0nolore|INTV:|SCVR:52sX4Random100|INTV
+  Djangos Dialogue.ESP->|DATA|NAME:Daedra? You know what they are, right? Well, Daedric shrines are where Daedra cults worship Daedra. Bad people who summon bad Daedra. Stay away from them. Why? Because Daedra are nasty. And the folks that worship them are even nastier.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0NoLore|INTV:|SCVR:52sX4Random100|INTV
+
+[MOD-INF]: ID=16793076253245962(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM|NAME:You looking for a ship? What's your destination?|SCVR:01630|INTV:
+  Djangos Dialogue.ESP->|DATA|ONAM|NAME:You looking for a ship? What's your destination?|SCVR:01630|INTV:
+
+[MOD-INF]: ID=16793076253245962(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM|NAME:You looking for a ship? What's your destination?|SCVR:01630|INTV:
+  Djangos Dialogue.ESP->|DATA|ONAM|NAME:You looking for a ship? What's your destination?|SCVR:01630|INTV:
+[MOD-IID]: IDs=1546575851430332718,204075192311317145
+  Djangos Dialogue.ESP->You looking for a ship? What's your destination?
+
+[DUP-INF]: ID=18011117566754553(Greeting:greeting 7)
+  |DATA|ONAM:manara othan|NAME:Good day. I'm Manara Othan, publican of The Lizard's Head here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Manara Othan
+
+[MOD-INF]: ID=18087333361045222(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Mage|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+  Djangos Dialogue.ESP->|DATA|CNAM:Mage|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+
+[MOD-INF]: ID=19803228648862137(Topic:little advice)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|NAME:Yes, buying and selling Dwarven artifacts without an Imperial charter is illegal. But I've never heard of anyone pinched for it.|SCVR:02sX4Random100|INTV|SCVR:17XX0hetman abelmawia|INTV:|SCVR:2CsX0nolore|INTV:|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:Most beasts in the wild don't prey on their own. You wouldn't expect it, but that even goes for cliff racers. If you're planning to stay a while around a spot, take what you need from the kills but leave the carcasses right there to rot -- might deter others from swooping in, at least for a time.|SCVR:02sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[DUP-INF]: ID=21817615212011794(Greeting:greeting 7)
+  |DATA|CNAM:Buoyant Armiger|NAME:Dagoth Ur is dead, and the skies are blue over Red Mountain. We were wrong about you, Nerevarine, and are sorry for it. You deserve our gratitude, and the honor due a hero.|SCVR:14JX3C3_DestroyDagoth|INTV:2|BNAM:;buoyant armigers; ghostfence; Journal B8_MeetVivec >= 50; disp 70
+
+[MOD-INF]: ID=22217791936755969(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:Only someone very successful could afford an outfit like that, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 40; PCClothingMod >= 3000
+  Djangos Dialogue.ESP->|DATA|NAME:They say fame is its own reward... but it seems to have gifted you with its fair share of drakes, friend. More power to you.|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 40; PCClothingMod >= 3000
+
+[MOD-INF]: ID=23811261797211995(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:I see from your outfit that you have wealth and taste. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV: |SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 10; PCClothingMod >= 500
+  Djangos Dialogue.ESP->|DATA|NAME:I see from your outfit that you have wealth and taste. What can this %Class do for you?|SCVR:01423|INTV|SCVR:11033|INTV: |SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 10; PCClothingMod >= 500
+
+[MOD-INF]: ID=29403274862814808(Topic:little advice)
+  tribunal.esm--------->|DATA|NAME:If you do the crime, pay the fine, don't do the time. You might think a little hard labor isn't a bad price to pay, but while you're breaking rocks for the Empire, you lose the edge in your useful skills, and it takes a long time to get back to where you were before.|SCVR:02sX4Random100|INTV:<|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:A smith will overplay the slightest damage on a weapon when you're offering to sell. But smiths aren't the sharpest tools in the shed either, and you can be smart. Don't let on that you're selling and get it repaired first -- you'll have a much easier time bartering once your blade shines the right way.|SCVR:02sX4Random100|INTV:A|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=30111573026704475(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Thief|FNAM:Thieves Guild|NAME:Look. If you're the bloody-minded type, tries to complete every task a boss gives you, you're in for a world of hurt. Happens all the time. You breeze through a couple of jobs, then you hit one you can't budge. I can't tell you what to do, but me, I go find something else to do for a while. Sure, nobody likes to admit you can't do a job. You brood over it, lie awake nights figuring how your gonna crack that nut. But patience and good sense is as important as blood and courage in this business.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|CNAM:Thief|FNAM:Thieves Guild|NAME:Look. If you're the bloody-minded type, tries to complete every task a boss gives you, you're in for a world of hurt. Happens all the time. You breeze through a couple of jobs, then you hit one you can't budge. I can't tell you what to do, but me, I go find something else to do for a while. Sure, nobody likes to admit you can't do a job. You brood over it, lie awake nights figuring how your gonna crack that nut. But patience and good sense is as important as blood and courage in this business.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=30684416329734873(Topic:services)
+  morrowind.esm-------->|DATA|NAME|INTV|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;Ghostgate;
+  Djangos Dialogue.ESP->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;Ghostgate;
+
+[MOD-INF]: ID=31644168978961655(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Vos|NAME|INTV|SCVR:17XX0eldrilu dalen|INTV:|SCVR:27XX0burcanius varo|INTV:|SCVR:3CsX0nolore|INTV:|BNAM:;Vos ;
+  Djangos Dialogue.ESP->|DATA|ANAM:Vos|NAME|INTV|SCVR:17XX0eldrilu dalen|INTV:|SCVR:27XX0burcanius varo|INTV:|SCVR:3CsX0NoLore|INTV:|BNAM:;Vos ;
+
+[MOD-INF]: ID=31740478173384819(Greeting:greeting 7)
+  morrowind.esm-------->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:What are you doing here? Can you let %Name go free?|SCVR:03sX0slaveStatus|INTV:
+  Djangos Dialogue.ESP->|DATA|RNAM:Khajiit|CNAM:Slave|NAME:What are you doing here? Can you let %Name go free?|SCVR:03sX0slaveStatus|INTV:
+
+[DUP-INF]: ID=32579729133721148(Topic:house telvanni)
+  |DATA|FNAM:Telvanni|NAME:We live comfortably. Our wizard-lords keep us secure, and otherwise leave us alone. All we want is to be left in peace to do as we wish.|SCVR:01460|INTV:|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=32682216247822752(Topic:background)
+  |DATA|RNAM:Khajiit|CNAM:Thief|NAME:%Name does little jobs. Here and there.|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=37028346479318744(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:Only someone very successful could afford an outfit like that, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 6000
+  Djangos Dialogue.ESP->|DATA|NAME:Only someone very successful could afford an outfit like that, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 80; PCClothingMod >= 6000
+
+[MOD-INF]: ID=47672746471018226(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Nightblade|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+  Djangos Dialogue.ESP->|DATA|CNAM:Nightblade|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+
+[MOD-INF]: ID=54333005743313409(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM|NAME:These are the docks of Ebonheart, outlander. I'm Ebonheart's shipmaster, and I manage all the seagoing traffic here. Tell me your destination, if you're outward bound. Or if you're new to Ebonheart, I can steer you to the local services, or to a specific place in Ebonheart. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+  Djangos Dialogue.ESP->|DATA|ONAM|NAME:These are the docks of Ebonheart, outlander. I'm Ebonheart's shipmaster, and I manage all the seagoing traffic here. Tell me your destination, if you're outward bound. Or if you're new to Ebonheart, I can steer you to the local services, or to a specific place in Ebonheart. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=61927594186111733(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:You want my advice, rookie? I've been around. I've risen to %Rank rank in the Guild by being smart and careful. And if I were you, I'd stay away from Daedric ruins until you have a little more experience, and a heftier kit bag.|SCVR:02sX4Random100|INTV|SCVR:11064|INTV|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:You want my advice, %PCRank? I've been around. I've risen to %Rank rank in the Guild by being smart and careful. And if I were you, I'd stay away from Daedric ruins until you have a little more experience, and a heftier kit bag.|SCVR:02sX4Random100|INTV|SCVR:11064|INTV|SCVR:2CsX0NoLore|INTV:
+
+[DUP-INF]: ID=63442499816874408(Topic:ralen hlaalo)
+  |DATA|RNAM:Dark Elf|ANAM:Balmora|NAME:Hlaalo Manor is on the northwest side of town. Just head southwest from the Temple, go up the first steps you see, then look to your left. Though I don't know why you'd want to go there after what's happened.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=70741606358547098(Topic:house hlaalu)
+  |DATA|CNAM:Noble|NAME:House Hlaalu is one of the three Dunmer Great Houses with holdings on Vvardenfell. House Hlaalu has always been loyal to the Emperor and the Empire. Hlaalu welcomes Imperial law and the Legions, and freedom of trade and religion. We still respect the old Dunmer ways, the ancestors, the Temple, and the noble houses. But times change, and the Empire changes with the times. House Hlaalu hopes to live in peace and harmony with the other races, and share in the growth and prosperity of the Empire.|SCVR:0CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+
+[DUP-INF]: ID=75681631840484552(Topic:little secret)
+  |DATA|NAME:They say they don't have much of a problem here with vampires. From my experience, that's the truth in the settled parts of Vvardenfell. But in the backcountry, you hear rumors. Out near Dagon Fel, Maar Gan, Molag Mar, you hear people talk of running into vampires in Dwemer ruins, and in ancestral tombs. Best to be careful. You don't want to run into those babies. And if you do, you want a nice, crisp copy of Divine Intervention so you can get safe, fast, all in one piece.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=83682873689874546(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ANAM:Ald-ruhn|NAME:Welcome back, %PCName. How can I help you? Maybe you're looking for services here in Ald'ruhn?|SCVR:02sX4Random100|INTV
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald-ruhn|NAME:Welcome back, %PCName. How can I help you? Maybe you're looking for services here in Ald'ruhn?|SCVR:02sX4Random100|INTV:F
+
+[MOD-INF]: ID=91510361932627599(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:Buy a spell of every type that you can find. This will give you the best options later when you're creating your own custom spells.|SCVR:12sX4Random100|INTV:F|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:Buy a spell of every type that you can find. This will give you the best options later when you're creating your own custom spells.|SCVR:12sX4Random100|INTV:-|SCVR:2CsX0NoLore|INTV:
+
+[DUP-INF]: ID=91948449399525979(Greeting:greeting 7)
+  |DATA|RNAM:Khajiit|CNAM:Slave|NAME:What are you doing here? What can %Name do for you?
+
+[MOD-INF]: ID=96322164076299436(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Redoran|NAME:If you accept a task from a superior, you are honor-bound to complete it. But unless there is a deadline, or an issue of honor, you are NOT supposed to die trying. Use common sense. If you find you are not yet ready to face a challenge, be patient, train, outfit yourself, and revisit the task at a later date.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Redoran|NAME:If you accept a task from a superior, you are honor-bound to complete it. But unless there is a deadline, or an issue of honor, you are NOT supposed to die trying. Use common sense. If you find you are not yet ready to face a challenge, be patient, train, outfit yourself, and revisit the task at a later date.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[DUP-INF]: ID=101831915227721950(Greeting:greeting 9)
+  |DATA|ONAM:darvame hleran|ANAM:Seyda Neen|NAME:You looking for a silt strider? What's your destination?
+
+[MOD-INF]: ID=102871757476131592(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:You poor fellow. Can't you afford decent clothes?|SCVR:01424|INTV: |SCVR:11033|INTV: |SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 10; PCClothingMod < 10
+  Djangos Dialogue.ESP->|DATA|NAME:You poor fellow. Can't you afford decent clothes?|SCVR:01424|INTV: |SCVR:11033|INTV: |SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 10; PCClothingMod < 10
+
+[DUP-INF]: ID=102981216766468698(Greeting:greeting 7)
+  |DATA|ONAM:redoran guard female|NAME:I'm an officer of the Imperial law. Move along.
+
+[MOD-INF]: ID=110135702180930460(Topic:specific place)
+  morrowind.esm-------->|DATA|FNAM:Camonna Tong|ANAM:Balmora|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Balmora   Choice "Continue" 1
+  Djangos Dialogue.ESP->|DATA|FNAM:Camonna Tong|ANAM:Balmora|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Balmora   Choice "Continue" 1
+
+[MOD-INF]: ID=111731783792425412(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:Join the Mages Guild. Rise ranks to get good rates for services. And stay in their good graces by minding their rules and performing the required duties.|SCVR:12sX4Random100|INTV|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:Join the Mages Guild. Rise ranks to get good rates for services. And stay in their good graces by minding their rules and performing the required duties.|SCVR:12sX4Random100|INTV: |SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=120872585947869569(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ANAM:Ald-ruhn|NAME:Hello again, %PCName. Good to see you. Are you looking for a specific place here in Ald'ruhn?|SCVR:02sX4Random100|INTV:(
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald-ruhn|NAME:Hello again, %PCName. Good to see you. Are you looking for a specific place here in Ald'ruhn?|SCVR:02sX4Random100|INTV:P
+
+[MOD-INF]: ID=131552644227112359(Topic:little advice)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|NAME:Best bargain for a risk-taker is a jug of sujamma. Makes you strong as an ogrim -- not for long, but long enough.|SCVR:02sX4Random100|INTV:(|SCVR:1CsX0nolore|INTV:|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:Dunmer are very sensitive about necromancy -- especially when it comes to distinguishing one kind from another. A hedge-wizard conjurer tampering with corpses in a cave? That's bad. Priests raising the dead to guard tombs? Perfectly fine. Don't try to argue that they're the same deal. You'll only end up offending the natives, and in this province that can prove fatal.|SCVR:02sX4Random100|INTV:(|SCVR:1CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=140611308994321843(Topic:little secret)
+  tribunal.esm--------->|DATA|NAME:Buy from merchants and traders who like you. You get better prices. Members of your own factions usually like you best.|SCVR:02sX4Random100|INTV:<|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|RNAM:Dark Elf|NAME:We don't much love foreigners here in Vvardenfell, and we don't thank you for interfering. A people should keep to their own, if you take my meaning. And that's not the Empire's way. I look around, I don't see much benefit from uniting the provinces, unless you're a fatcat merchant, or maybe a soldier.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Imperial Legion|INTV|SCVR:38FX0Hlaalu|INTV|SCVR:48FX0Imperial Cult|INTV|SCVR:58FX0Thieves Guild|INTV
+
+[MOD-INF]: ID=151721995257886024(Topic:little advice)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|NAME:I've never seen a successful adventurer who didn't carry a couple of Almsivi Intervention scrolls with him on long expeditions. Two reasons. Emergency exit. And it lets you move a LOT more loot than you can carry on foot. And faster goes without saying.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|RNAM:Dark Elf|NAME:I've never seen a successful adventurer who didn't carry a couple of Almsivi Intervention scrolls with him on long expeditions. Two reasons. Emergency exit. And it lets you move a LOT more loot than you can carry on foot. And faster goes without saying.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[DUP-INF]: ID=154187432275597378(Topic:my trade)
+  |DATA|CNAM:Warrior|NAME:I'm a warrior by trade. I know how to fight, when necessary, but I much rather look so tough that critters give up or run away when they see me. Personally, I favor long blades of all kinds -- they use long blades of many different styles and craftsmanships here in Morrowind -- and I wear medium armor, for a decent balance of protection and mobility. But I train with various weapon types and armor types. And like any good warrior, I'm my own armorer -- don't want to fight with worn weapons in worn armor.|SCVR:0CsX0NoLore|INTV:|BNAM:;Warrior; Longblade, Medium Armor, Armorer
+
+[DUP-INF]: ID=158151035130261577(Greeting:greeting 9)
+  |DATA|ONAM:darvame hleran|ANAM:Seyda Neen|NAME:Good day, outlander. I'm the caravaner for Seyda Neen. Tell me your destination, and I'll tell you if I can help you.
+
+[MOD-INF]: ID=164951480229794220(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|ANAM:Ald-ruhn|NAME|INTV|SCVR:12sX4Random100|INTV:K|SCVR:2CsX0NoLore|INTV:|BNAM:;Ald'ruhn; mages;
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|ANAM:Ald-ruhn|NAME|INTV|SCVR:12sX4Random100|INTV:<|SCVR:2CsX0NoLore|INTV:|BNAM:;Ald'ruhn; mages;
+
+[DUP-INF]: ID=166581282199926857(Greeting:greeting 9)
+  |DATA|ONAM:baleni salavel|ANAM:Hla Oad|NAME:I'm %Name, shipmaster of Hla Oad. What's your destination?
+
+[MOD-INF]: ID=168363113941948225(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Maar Gan|NAME|INTV|SCVR:1CsX0nolore|INTV
+  Djangos Dialogue.ESP->|DATA|ANAM:Maar Gan|NAME|INTV|SCVR:1CsX0NoLore|INTV
+
+[MOD-INF]: ID=168717852551231052(Topic:services)
+  morrowind.esm-------->|DATA|FNAM:Temple|ANAM:Sadrith Mora, Telvanni Council House, Chambers|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Sadrith Mora;
+  Djangos Dialogue.ESP->|DATA|FNAM:Temple|ANAM:Sadrith Mora, Telvanni Council House, Chambers|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Sadrith Mora;
+
+[MOD-INF]: ID=169104681990620045(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:With that outfit, %PCName, you must be doing well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 5; PCClothingMod >= 500
+  Djangos Dialogue.ESP->|DATA|NAME:With that outfit, %PCName, you must be doing well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11630|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|SCVR:51630|INTV|BNAM:;Reputation >= 5; PCClothingMod >= 500
+
+[DUP-INF]: ID=169524792122228113(Topic:latest rumors)
+  |DATA|ANAM:Hla Oad|NAME:It was inevitable. The local criminal organization, the Camonna Tong, wasn't going to stand by and let the Thieves Guild set up shop in their territory. It'll be bloody. And the Thieves Guild doesn't stand a chance.|SCVR:0CsX0NoLore|INTV:|BNAM:;default
+
+[DUP-INF]: ID=171343168140283456(Greeting:greeting 7)
+  |DATA|ONAM:dulnea ralaal|NAME:Good day. I'm Dulnea Ralaal, publican of the Eight Plates here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Dulnea Ralaal
+
+[DUP-INF]: ID=172947430284668223(Greeting:greeting 9)
+  |DATA|ONAM:tonas telvani|ANAM:Tel Mora|NAME:I'm %Name, shipmaster of Tel Mora. What's your destination?
+
+[MOD-INF]: ID=173359977454524012(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:Your outfit is quite impressive, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV: |SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 10; PCClothingMod >= 750
+  Djangos Dialogue.ESP->|DATA|NAME:Your outfit is quite impressive, %PCName. Starting to make a name for yourself too, or so I hear?|SCVR:01423|INTV|SCVR:11033|INTV: |SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|SCVR:51630|INTV|BNAM:;Reputation >= 10; PCClothingMod >= 750
+
+[MOD-INF]: ID=181672323070924613(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:I see by your outfit, %PCName, that your affairs have prospered. Can I help you?|SCVR:01423|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 5; PCClothingMod >= 750
+  Djangos Dialogue.ESP->|DATA|NAME:I see by your outfit, %PCName, that your affairs are prospering. Can I help you?|SCVR:01423|INTV|SCVR:11630|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|SCVR:51630|INTV|BNAM:;Reputation >= 5; PCClothingMod >= 750
+
+[MOD-INF]: ID=191352994964974413(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:Everybody can learn a few spells. You don't need to be a wizard to cast spells. It makes life easier. And when you learn a spell, practice. It's the only way to learn, and it helps to pass the time.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:Ranis Athrys has something against wizards who aren't in the guild. It's not a surprise really - her parents were murdered by the old Telvanni Archmagister, the one before Gothren.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0ranis athrys|INTV
+
+[MOD-INF]: ID=197633482189119760(Topic:my trade)
+  morrowind.esm-------->|DATA|CNAM:Crusader|NAME:I'm what they call a crusader. Crusaders used to be warriors in service to a cult, but now any heavily armored warrior with a good cause calls himself a crusader. My good cause is hunting down necromancers and witches and bandits and other malefactors. And I do well by doing good -- salvage on arms, armor, and goods taken from malefactors earns me a good living. I'm tough and strong, so I wear heavy armor and use blunt weapons. And I won't fight with worn weapons or worn armor, so I'm my own armorer.|SCVR:0CsX0NoLore|INTV:|BNAM:;Crusader; Blunt, Heavy Armor, Armorer
+  Djangos Dialogue.ESP->|DATA|CNAM:Crusader|NAME:I'm what they call a crusader. Crusaders used to be warriors in service to a cult, but now any heavily armored warrior with a good cause calls himself a crusader. My good cause is hunting down necromancers and witches and bandits and other malefactors. And I do well by doing good -- salvage on arms, armor, and goods taken from malefactors earns me a good living.|SCVR:0CsX0NoLore|INTV:|BNAM:;Crusader; Blunt, Heavy Armor, Armorer
+
+[MOD-INF]: ID=197689157159159184(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Imperial Legion|NAME:Don't carry those cheap armorer's hammers around with you. Hammers are dead weight. Buy them, and use them on the spot. If you're a shortblade specialist, and you like to travel light, it's often cheaper to own and carry backup weapons.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Imperial Legion|NAME:Every warrior worth his salt wants a suit of Ebony mail. The locals call it 'Godsblood' for good reason - you'll be defended as if the Divines themselves were watching over you. Of course, they say Daedric plate is even tougher - but evil spirits are trapped inside the metal during forging, and I want no part of that.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=199322001358817888(Topic:little secret)
+  tribunal.esm--------->|DATA|NAME:If someone attacks you first, you have the right to defend yourself. If someone DOESN'T attack you first, you're going to break the law if you attack him.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|CNAM:Archer|NAME:Darts and throwing knives don't pack much of a punch, but they're lightweight, easily concealed and leave you with a free hand for a shield or torch.|SCVR:02sX4Random100|INTV:_|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=202453533291798700(Greeting:greeting 9)
+  |DATA|ONAM:daras aryon|ANAM:Maar Gan|NAME:This is the village of Maar Gan, outlander, in the Ashlands. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Maar Gan, I can help you with local services, or any specific place in Maar Gan you're looking for. Or if you want someone in particular, maybe I know where to look.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=206847122036726324(Topic:background)
+  |DATA|NAME:I am %name, %class and %rank of the %faction.|SCVR:0CsX0NoLore|INTV:|BNAM:;you'll ge this one if they have a rank at all.  ClearInfoActor
+
+[DUP-INF]: ID=219413552320024900(Greeting:greeting 9)
+  |DATA|ONAM|NAME:These are the docks of Molag Mar, outlander. And I'm %Name, shipmaster of Molag Mar. What's your destination? If you like, I can tell you about the local services, or point you to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=224917780573621385(Topic:background)
+  |DATA|CNAM:Thief|NAME:I'm %Name. I do a little of this, a little of that.|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=229525838283789239(Greeting:greeting 9)
+  |DATA|ONAM:nireli farys|NAME:These are the docks of Tel Branora, and I'm the shipmaster. Tell me your destination, if you're outward bound. Or if you're new to Tel Branora, I can steer you to the local services, or to a specific place in Tel Branora. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=235925369116285071(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:Only someone very successful could afford an outfit like that, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 20; PCClothingMod >= 1500
+  Djangos Dialogue.ESP->|DATA|NAME:Only a successful %PCClass could afford that gear, friend. So. What is it you want with me?|SCVR:01423|INTV|SCVR:11033|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 20; PCClothingMod >= 1500
+
+[MOD-INF]: ID=238503076378412623(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Balmora|NAME|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;Balmora
+  Djangos Dialogue.ESP->|DATA|ANAM:Balmora|NAME|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;Balmora
+
+[MOD-INF]: ID=239189792730932595(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ANAM:Ald-ruhn|NAME:You look like you have a question, %PCName. Were you looking for someone in particular here in Ald'ruhn?|SCVR:02sX4Random100|INTV
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald-ruhn|NAME:You look like you have a question, %PCName. Were you looking for someone in particular here in Ald'ruhn?|SCVR:02sX4Random100|INTV:<
+
+[DUP-INF]: ID=240685064921014667(Greeting:greeting 9)
+  |DATA|ONAM:punibi yahaz|ANAM:Gnisis|NAME:This is the village of Gnisis, outlander, in the West Gash. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Gnisis, I can help you with local services, or any specific place in Gnisis you're looking for. Or if you want someone in particular, maybe I know where to look.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=259942865635092117(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Imperial Legion|NAME:Nobody is going to hold your hand in the Legion. In the Imperial cult, they just test your faith and your shoe leather. But here, your superior gives you orders, and you find you're out of your depth, you're supposed to be smart enough to be patient, get some training, experience, and new equipment, and try it again later when you're better prepared.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Imperial Legion|NAME:Nobody is going to hold your hand in the Legion. In the Imperial cult, they just test your faith and your shoe leather. But here, your superior gives you orders, and you find you're out of your depth, you're supposed to be smart enough to be patient, get some training, experience, and new equipment, and try it again later when you're better prepared.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=262162221543512886(Topic:little secret)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|NAME:They say a vampire can hide among us? Nonsense. One look at the face, and you know a vampire. You can't disguise that. You can wear a helmet. But here in Morrowind, we don't trust anyone who won't take off a helmet in public. In Morrowind, someone like that is looking to spend some time in a big, hot fire. What? Well... now that you mention it, I don't think I've ever seen a Telvanni guard with his helmet off. Hmm....|SCVR:02sX4Random100|INTV: |SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|RNAM:Khajiit|NAME:Khajiit are all loyal citizens and we all love the Emperor very, very much. The Mane seems powerful in Elsweyr, yes, but you forget the city governments, the chiefs of the tribes, the Clan Mothers. It is all very complicated at home, and %Name does not want to bore the %PCRace.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=276181128340255511(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Fighters Guild|NAME:You like to poke your nose into doors out in the backcountry? A little suggestion. The places that look like they're made of a golden metal? With spires and towers? Those are Dwarven ruins. They're kinda dangerous -- partly because of the old Dwarven machines in them, and partly because of the kind of things that like to hide out in such old ruins. All the old ruins inside the Ghostfence, for example, are ancient Dwarven ruins. And I hear that vampires like them, too.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Fighters Guild|NAME:You like to poke your nose into doors out in the backcountry? A little suggestion. The places that look like they're made of a golden metal? With spires and towers? Those are Dwarven ruins. They're kinda dangerous -- partly because of the old Dwarven machines in them, and partly because of the kind of things that like to hide out in such old ruins. All the old ruins inside the Ghostfence, for example, are ancient Dwarven ruins. And I hear that vampires like them, too.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=276419872484132471(Persuasion:admire fail)
+  |DATA|ONAM:ghost_npc_conoon chodal|NAME:Honor the ancestors with your heart, not with your tongue.
+
+[DUP-INF]: ID=278826220533428056(Greeting:greeting 9)
+  |DATA|ONAM:sedyni veran|ANAM:Vos|NAME:I'm %Name, shipmaster of Vos. What's your destination?
+
+[MOD-INF]: ID=279211377419581643(Topic:services)
+  morrowind.esm-------->|DATA|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Molag Mar;
+  Djangos Dialogue.ESP->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Molag Mar;
+
+[DUP-INF]: ID=288417238154261537(Greeting:greeting 7)
+  |DATA|ONAM:bacola closcius|NAME:Good day. I'm Bacola Closcius, publican of the South Wall here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Bacola Closcius
+
+[MOD-INF]: ID=291593461020615455(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM|NAME:Good day, stranger. Welcome to Ebonheart, home of Castle Ebonheart, the Duke, the Council, and Hawkmoth Fort, and seat of Imperial government here on Vvardenfell. I'm Ebonheart's shipmaster. I manage the seagoing traffic here. Tell me your destination, if you're outward bound. Or if you're new to Ebonheart, I can steer you to the local services, or to a specific place in Ebonheart. If you're looking for someone in particular, maybe I can help.|SCVR:01630|INTV:
+  Djangos Dialogue.ESP->|DATA|ONAM|NAME:Good day, stranger. Welcome to Ebonheart, home of Castle Ebonheart, the Duke, the Council, and Hawkmoth Fort, and seat of Imperial government here on Vvardenfell. I'm Ebonheart's shipmaster. I manage the seagoing traffic here. Tell me your destination, if you're outward bound. Or if you're new to Ebonheart, I can steer you to the local services, or to a specific place in Ebonheart. If you're looking for someone in particular, maybe I can help.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=297416033127723972(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:Use illusion spells like invisibility to scout an area before you go on the offensive. Often a cunning spellcaster can simply avoid opponents and obstacles, move right to the objective, and leave without taking a scratch.|SCVR:12sX4Random100|INTV: |SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:Use illusion spells like invisibility to scout an area before you go on the offensive. Often a cunning spellcaster can simply avoid opponents and obstacles, move right to the objective, and leave without taking a scratch.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[DUP-INF]: ID=297702379936315197(Greeting:greeting 9)
+  |DATA|ONAM:punibi yahaz|ANAM:Gnisis|NAME:Good day, outlander. I'm the caravaner here in Gnisis. Tell me your destination, and I'll tell you if I can help you.
+
+[DUP-INF]: ID=300163321917712125(Greeting:greeting 9)
+  |DATA|ONAM:darvame hleran|ANAM:Seyda Neen|NAME:This is the seaport village of Seyda Neen, outlander, in the Bitter Coast region. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Seyda Neen, I can help you with local services, or any specific place in Seyda Neen you're looking for. Or if you want someone in particular, maybe I know where to look.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=301001769356439553(Topic:background)
+  |DATA|ONAM:Vedam Dren|NAME:I am Lord Vedam Dren, Duke of Ebonheart and Vvardenfell.|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=301282770163852570(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM:seldus nerendus|NAME:These are the docks of Khuul, and I'm the shipmaster. I manage all the seagoing traffic here. Tell me your destination, if you're outward bound. Or if you're new to Khuul, I can steer you to the local services, or to a specific place in Khuul. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+  Djangos Dialogue.ESP->|DATA|ONAM:talmeni drethan|NAME:These are the docks of Khuul, and I'm the shipmaster. I manage all the seagoing traffic here. Tell me your destination, if you're outward bound. Or if you're new to Khuul, I can steer you to the local services, or to a specific place in Khuul. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=315271751263117992(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Ald Velothi|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Ald Velothi;
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald Velothi|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Ald Velothi;
+
+[DUP-INF]: ID=320311952228188890(Greeting:greeting 9)
+  |DATA|ONAM:seldus nerendus|NAME:Good day, outlander. I'm Khuul's caravaner. Tell me your destination, and I'll tell you if I can help you.
+
+[DUP-INF]: ID=322422437341418749(Topic:services)
+  |DATA|ANAM:Suran|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Suran
+
+[MOD-INF]: ID=326077624287914367(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:Invest in potions to restore your magicka. In hostile territory, these potions can save you a lot of downtime. Even supposing you can find some safe place to get some rest and regain your magicka, who needs the aggravation?|SCVR:12sX4Random100|INTV:(|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:Invest in potions to restore your magicka. In hostile territory, these potions can save you a lot of downtime. Even supposing you can find some safe place to get some rest and regain your magicka, who needs the aggravation?|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=387544811797528689(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Redoran|NAME:If you help someone, they'll remember. If you're loyal to others, they'll be loyal to you. Do the right thing. You know the right thing. Do the right thing, so you'll never regret what you've done.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Redoran|NAME:Did you hear Bolvyn Venim killed another outlander in a duel? The man was an officer in the House Guard, but Bolvyn Venim insulted his ancestors at a meal, so of course the officer had to demand satisfaction. And of course he had no chance against Venim. He may be lacking in honour - but certainly not courage.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:|SCVR:26DX0bolvyn venim|INTV:
+
+[DUP-INF]: ID=388996801820224302(Topic:background)
+  |DATA|ONAM:marasa aren|NAME:I am %name, a %class. What's it to you?|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=389521061191299872(Topic:little secret)
+  tribunal.esm--------->|DATA|NAME:Vampires are not as much of a problem here as back in the West. Here, the Dark Elves burned them out centuries ago, and the Temple makes sure they don't come back.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|SCVR:3ARX0Dark Elf|INTV
+  Djangos Dialogue.ESP->|DATA|NAME:It's bad enough with the blight storms this year, but the Ashlanders are also going crazy, jumping caravans and pilgrims, raiding villages. They ought to send the Legions out and teach them a lesson.|SCVR:02sX4Random100|INTV:#|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|SCVR:34JX4C3_DestroyDagoth|INTV:2
+
+[MOD-INF]: ID=396130461258012491(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM:gals arethi|ANAM:Sadrith Mora|NAME:These are the docks of Sadrith Mora, outlander. And I'm %Name, shipmaster of Sadrith Mora, at your service. What's your destination? And, if you're new to Sadrith Mora, I can tell you about the local services, or point you to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+  Djangos Dialogue.ESP->|DATA|ONAM:gals arethi|ANAM|SCVR:01630|INTV:
+
+[MOD-INF]: ID=396613601281755130(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Hlaalu|NAME:Just because your superior gives you a task, don't assume you should be able to do it. Your superior doesn't really know what you can or can't handle. And some superiors don't care.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Hlaalu|NAME:Every price in this life is open to negotiation. Every price except a prayer, that is. No, I'm not speaking in riddles - I just mean blessings at Temple shrines are always at fixed fees. Damn those dour priests.|SCVR:12sX4Random100|INTV:F|SCVR:2CsX0NoLore|INTV:
+
+[DUP-INF]: ID=419630572326932259(Topic:latest rumors)
+  |DATA|RNAM:Dark Elf|ANAM:Vivec, Telvanni|NAME:I must tell you, all this self-righteous Western clamor against slavery is really tiresome. Our right to own slaves is protected by law -- IMPERIAL law. People who free slaves are breaking the law. It's as simple as that.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=452027941264710687(Topic:little secret)
+  tribunal.esm--------->|DATA|NAME:How do you recognize a Daedric shrine? Well, they've got long, funny names, like Ashurnibibi or Zaintiraris. Some are well-known sites, like Ald Sotha and Bal Fell. And stone and architecture is unmistakable. Big, dark, grey-green stone ruins, funny angles, funny markings and patterns on the stone. Weird oval crooked doors. And inside, all funny angles.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0nolore|INTV:|SCVR:52sX4Random100|INTV:2
+  Djangos Dialogue.ESP->|DATA|NAME:How do you recognize a Daedric shrine? Well, they've got long, funny names, like Ashurnibibi or Zaintiraris. Some are well-known sites, like Ald Sotha and Bal Fell. And stone and architecture is unmistakable. Big, dark, grey-green stone ruins, funny angles, funny markings and patterns on the stone. Weird oval crooked doors. And inside, all funny angles.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0NoLore|INTV:|SCVR:52sX4Random100|INTV
+
+[MOD-INF]: ID=483830357822322499(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM|NAME:Good day, stranger. I'm Ebonheart's shipmaster. Tell me your destination, and we'll see what we can do for you.
+  Djangos Dialogue.ESP->|DATA|ONAM|NAME:Good day, stranger. I'm Ebonheart's shipmaster. Tell me your destination, and we'll see what we can do for you.
+
+[DUP-INF]: ID=495518295322716947(Greeting:greeting 7)
+  |DATA|ONAM:thaeril|NAME:Good day. I'm Thaeril, publican of The Covenant here in Tel Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Thaeril
+
+[DUP-INF]: ID=501815288981727742(Persuasion:admire success)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:You do right to honor the ancestors.
+
+[DUP-INF]: ID=510325816219678438(Topic:services)
+  |DATA|ANAM:Tel Branora|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Tel Branora;
+
+[DUP-INF]: ID=527372282078813986(Greeting:greeting 7)
+  |DATA|ONAM:fara|NAME:Good day. I'm Fara, publican of the Fara's Hole in the Wall here in Sadrith Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Fara
+
+[MOD-INF]: ID=654304522443428863(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ANAM:Sadrith Mora|NAME:No, I don't like you. That's why I don't want to talk to you? Is there ANYONE in Sadrith Moa who likes you?|SCVR:02sX4Random100|INTV:2
+  Djangos Dialogue.ESP->|DATA|ANAM:Sadrith Mora|NAME:No, I don't like you. That's why I don't want to talk to you? Is there ANYONE in Sadrith Mora who likes you?|SCVR:02sX4Random100|INTV:2
+
+[MOD-INF]: ID=666731499111789993(Topic:background)
+  morrowind.esm-------->|DATA|NAME:I am %name, %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+  Djangos Dialogue.ESP->|DATA|RNAM:Breton|CNAM:Spellsword|NAME:I travel from place to place, searching for adventure, and an opportunity to hone my deadly arts. I have heard of an unkillable warrior called Umbra, and have a mind to try her mettle.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=703916010385010941(Topic:little secret)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|NAME:You're an outlander, maybe you don't know about the kinds of Daedric ruins we have here in Morrowind. Daedra cults worship the Bad Daedra. You can learn more about that at the Temple. Anyway, long ago, before the Temple put a stop to it, people used to worship bad Daedra -- Molag Bal, Malacath, Sheogorath, and Mehrunes Dagon -- at Daedra shrines. But lately, since the Empire came in, some people have taken up worshipping the bad Daedra at these old sites. And I warn you. These are dangerous places.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0nolore|INTV:|SCVR:52sX4Random100|INTV:2
+  Djangos Dialogue.ESP->|DATA|RNAM:Dark Elf|NAME:You're an outlander, maybe you don't know about the kinds of Daedric ruins we have here in Morrowind. Daedra cults worship the Bad Daedra. You can learn more about that at the Temple. Anyway, long ago, before the Temple put a stop to it, people used to worship bad Daedra -- Molag Bal, Malacath, Sheogorath, and Mehrunes Dagon -- at Daedra shrines. But lately, since the Empire came in, some people have taken up worshipping the bad Daedra at these old sites. And I warn you. These are dangerous places.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0NoLore|INTV:|SCVR:52sX4Random100|INTV
+
+[MOD-INF]: ID=705214216832129519(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ANAM:Ald-ruhn|NAME:So? You want to know about services in Ald'ruhn? Or what?
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald-ruhn|NAME:So? You want to know about services in Ald'ruhn? Or what?|SCVR:02sX4Random100|INTV:<
+
+[MOD-INF]: ID=707819516231810696(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:Use the spellmaker. It's cheap, and a custom-designed spell tailored to your skills, magicka reservoirs, and spellcasting style will always outperform the standard spells you buy from service casters.|SCVR:12sX4Random100|INTV:<|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:Use the spellmaker. It's cheap, and a custom-designed spell tailored to your skills, magicka reservoirs, and spellcasting style will always outperform the standard spells you buy from service casters.|SCVR:12sX4Random100|INTV:(|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=716021976685527181(Topic:services)
+  morrowind.esm-------->|DATA|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Ebonheart;
+  Djangos Dialogue.ESP->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Ebonheart;
+
+[MOD-INF]: ID=840468963001823562(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Gnisis|NAME:In the center of the village, try the merchants outside the Temple, or see Mehra Drora at the Temple for Temple services. Get Imperial Legions and Imperial cult services at Fort Darius east of the village. Madach is the publican at Madach's Tradehouse here in the village.|SCVR:07XX0fenas madach|INTV|INTV|SCVR:2CsX0nolore|INTV:|SCVR:37XX0mehra drora|INTV|BNAM:;Gnisis;
+  Djangos Dialogue.ESP->|DATA|ANAM:Gnisis|NAME:In the center of the village, try the merchants outside the Temple, or see Mehra Drora at the Temple for Temple services. Get Imperial Legions and Imperial cult services at Fort Darius east of the village. Madach is the publican at Madach's Tradehouse here in the village.|SCVR:07XX0fenas madach|INTV|INTV|SCVR:2CsX0NoLore|INTV:|SCVR:37XX0mehra drora|INTV|BNAM:;Gnisis;
+
+[DUP-INF]: ID=853723616322517471(Greeting:greeting 9)
+  |DATA|ONAM:tonas telvani|ANAM:Tel Mora|NAME:These are the docks of Tel Mora, outlander. And I'm %Name, shipmaster of Tel Mora, at your service. What's your destination? And, if you're new to Tel Mora, I can tell you about the local services, or point you to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=856415837775031315(Topic:latest rumors)
+  |DATA|ANAM:Maar Gan|NAME:Some Ashlanders nearby have been bragging about how they captured a famous noble. I wonder who it is.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=871414048120983285(Greeting:greeting 7)
+  |DATA|ONAM:manse andus|NAME:Good day. I'm Manse Andus, publican of the Andus Tradehouse here in Maar Gan. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Manse Andus
+
+[MOD-INF]: ID=961610326284295759(Topic:my trade)
+  morrowind.esm-------->|DATA|CNAM:Merchant|NAME:I am a merchant. I look for goods that are well-made, that people want to buy, that I can buy and sell at a profit. There are many different kinds of materials I can buy and sell -- animal products, vegetable products, mineral products, even exotic products. Crafts and manufactured goods I deal in include weapons, armor, clothing, books, potions, enchanted items, and various housewares. I travel, talk with people I meet, buy what I like, and sell what people like.|SCVR:0CsX0NoLore|INTV:|BNAM:;Merchant; generic merchants do not have services, and do not buy and sell; they are just merchant quest and scenery characters
+  Djangos Dialogue.ESP->|DATA|NAME:I don't see how the details of my trade concern you.|SCVR:0CsX0NoLore|INTV|INTV
+
+[MOD-INF]: ID=1086921438100814259(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Battlemage|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+  Djangos Dialogue.ESP->|DATA|CNAM:Battlemage|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+
+[DUP-INF]: ID=1121159352437325857(Greeting:greeting 9)
+  |DATA|ONAM:folsi thendas|ANAM:Suran|NAME:Good day, outlander. I'm the caravaner for Suran. Tell me your destination, and I'll tell you if I can help you.
+
+[DUP-INF]: ID=1288914115230518969(Topic:house hlaalu)
+  |DATA|FNAM:Hlaalu|NAME:House Hlaalu has always been loyal to the Emperor and the Empire. Hlaalu welcomes Imperial law and the Legions, and freedom of trade and religion.|SCVR:0CsX0NoLore|INTV:|BNAM:;Dunmer; Balmora
+
+[MOD-INF]: ID=1291253561123713562(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Tel Mora|NAME|INTV|SCVR:1CsX0nolore|INTV
+  Djangos Dialogue.ESP->|DATA|ANAM:Tel Mora|NAME|INTV|SCVR:1CsX0NoLore|INTV
+
+[DUP-INF]: ID=1316215144822713907(Greeting:greeting 7)
+  |DATA|ONAM:ery|NAME:Good day. I'm Ery, publican of the Gateway Inn here in Sadrith Mora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Ery
+
+[DUP-INF]: ID=1346612322168014102(Greeting:greeting 9)
+  |DATA|ONAM|NAME:Good day, outlander. I'm the caravaner for Molag Mar. Tell me your destination, and I'll tell you if I can help you.
+
+[MOD-INF]: ID=1360165051119330796(Topic:specific place)
+  morrowind.esm-------->|DATA|ANAM:Balmora|NAME|INTV|SCVR:1BLX0Balmora, Council Club|INTV|SCVR:2CsX0nolore|INTV:|BNAM:;Balmora   Choice "Continue" 1
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald Velothi|NAME|INTV|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=1425616576295610166(Greeting:greeting 7)
+  |DATA|ONAM:benunius agrudilius|NAME:Good day. I'm Benunius Agrudilius, publican of the Lucky Lockup here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Benunius Agrudilius
+
+[DUP-INF]: ID=1469412633283572447(Topic:latest rumors)
+  |DATA|ANAM:Seyda Neen|NAME:I've heard that the local tax collector, Processus Vitellius, is missing. No surprise, really. He wasn't well liked around here.|SCVR:04JX4MV_DeadTaxman|INTV: |SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=1517359713168414066(Greeting:greeting 7)
+  |DATA|ONAM:drelasa ramothran|NAME:Good day. I'm Drelasa Ramothran, publican of the Halfway Tavern here in Pelagiad. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Drelasa Ramothran
+
+[MOD-INF]: ID=1547883511924722057(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Imperial Cult|NAME:Remember: there's always a welcome for you in the Imperial cult. If you're having a hard time here in Morrowind, outlander, come home to the Imperial cult shrine. We'll find a use for you, and help you feel good while doing good.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Imperial Cult|NAME:We welcome all races within the Imperial Cult. But most Dunmer natives cling to their worship of the Temple. I suppose they are more comfortable with Gods who can be seen, and speak to them in person. But Gods who take human form must also take on human imperfections. The Divines have no such flaws.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=1565076112914532424(Topic:latest rumors)
+  |DATA|ANAM:Ald-ruhn|NAME:Have you seen Ienas Sarandas lately? What a remarkably good-looking young man he is. And so tastefully dressed. I thought I heard something about him having a little money trouble, but you'd never think it to look at him. And I hear he has become a prisoner of strong drink. That would never have happened while his devout, Temple-fearing parents were alive.|SCVR:07XX0daynes redothril|INTV:|SCVR:17XX0llether vari|INTV:|SCVR:2CsX0NoLore|INTV:|SCVR:37XX0bevene releth|INTV:|SCVR:47XX0tiras sadus|INTV:|SCVR:57XX0ienas sarandas|INTV
+
+[MOD-INF]: ID=1584133641041224652(Topic:little advice)
+  tribunal.esm--------->|DATA|NAME:If you take a job that's too hard for you, don't kill yourself. Wait until you're bigger and stronger, then try again.|SCVR:02sX4Random100|INTV:F|SCVR:11630|INTV:|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:If you take a job that's too hard for you, don't kill yourself. Wait until you're bigger and stronger, then try again.|SCVR:02sX4Random100|INTV:F|SCVR:11630|INTV:|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=1588253092529329077(Topic:little secret)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|NAME:What are the most dangerous places in Morrowind? Well, probably the ash vampire citadels inside the Ghost Fence, on Red Mountain. But outside the Ghostfence? I guess the Daedric ruins would be the worst. They're all over the place, and full of bad Daedra, and the crazy folks who summon them. I hear vampires are pretty bad, too, but I've never seen any, personally. And the Dwemer sites are pretty bad, too.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0nolore|INTV:|SCVR:52sX4Random100|INTV:2
+  Djangos Dialogue.ESP->|DATA|RNAM:Dark Elf|NAME:What are the most dangerous places in Morrowind? Well, probably the ash vampire citadels inside the Ghostfence, on Red Mountain. But outside the Ghostfence? I guess the Daedric ruins would be the worst. They're all over the place, and full of bad Daedra, and the crazy folks who summon them. I hear vampires are pretty bad, too, but I've never seen any, personally.|SCVR:0BLX0Balmora|INTV|INTV|SCVR:2BLX0Ald-ruhn|INTV|SCVR:3BLX0Sadrith Mora|INTV|SCVR:4CsX0NoLore|INTV:|SCVR:52sX4Random100|INTV
+
+[MOD-INF]: ID=1596383721925028097(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:You look very impressive in that outfit, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 20; PCClothingMod >= 1000
+  Djangos Dialogue.ESP->|DATA|NAME:You look very impressive in that outfit, %PCName. I suspected a talented %PCClass like yourself would make good, given time.|SCVR:01423|INTV|SCVR:11033|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|SCVR:51630|INTV|BNAM:;Reputation >= 20; PCClothingMod >= 1000
+
+[DUP-INF]: ID=1635528394967920663(Greeting:greeting 7)
+  |DATA|ONAM:redoran guard female|NAME:Excuse me, Nerevarine. I should go about my duties.|SCVR:04JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=1647423652710419192(Greeting:greeting 9)
+  |DATA|ONAM:navam veran|ANAM:Ald-ruhn|NAME:Good day, outlander. I'm the caravaner for Ald'ruhn. Planning a journey? What's your destination?
+
+[MOD-INF]: ID=1650105461312428566(Topic:little advice)
+  tribunal.esm--------->|DATA|NAME:Don't fight when you're tired. Don't try to cast spells when you're tired. You'll fail much more often when you're tired. That's why veterans always carry a couple of Restore Fatigue potions for an emergency.|SCVR:02sX4Random100|INTV:P|SCVR:1CsX0nolore|INTV:|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:Try to sell a weapon to a smith -- they'll grab it, feel its heft, give it a few spins, point out all its flaws and then some, and give you a hard time about it all when it comes to the price, too. Try to sell a weapon to a pawnbroker -- all they'll think about it how much they can sell it for to the smith. And they make a living of it, the traders do, so you better believe they'll take their cut. You want to get the most out of battle spoils? Just skip the middle man.|SCVR:02sX4Random100|INTV:U|SCVR:1CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[MOD-INF]: ID=1723323910251136085(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Telvanni|NAME:Sadrith Mora is the best town to shop for spells.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Telvanni|NAME:It is safer to be feared than loved, if you cannot be both. Where charm or bribery fails, you can always intimidate your target into submission. They'll remember the slight should you ever need to call upon them again, however.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=1763631975270807483(Topic:background)
+  |DATA|RNAM:Khajiit|NAME:%name follows the trade of %class.|SCVR:0CsX0NoLore|INTV:|BNAM:ClearInfoActor
+
+[DUP-INF]: ID=1821141731767616125(Greeting:greeting 9)
+  |DATA|ONAM:baleni salavel|ANAM:Hla Oad|NAME:These are the docks of Hla Oad, outlander. And I'm %Name, shipmaster of Hla Oad, at your service. What's your destination? Or are you new to Hla Oad? I can tell you about the local services, such as they are, or point you to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=1830425214167636072(Topic:little advice)
+  tribunal.esm--------->|DATA|NAME:I've never seen a successful adventurer who didn't carry a couple of Divine Intervention scrolls with him on long expeditions. Two reasons. Emergency exit. And it lets you move a LOT more loot than you can carry on foot. And faster goes without saying.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:You look at the sky like one who's been plagued by cliff racers. If you get attacked on a path you want to travel back through -- leave the carcass in clear view. The pests usually know better than to hang around their dead.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=1876222912775829177(Topic:morrowind lore)
+  morrowind.esm-------->|DATA|NAME:Worn-out weapons and armor work poorly. Repair them yourself, if you have some skill, or take them to a smith for repair.|SCVR:0CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|NAME:Ask the local Dunmer - I'm sure they could tell you more.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1950436122867025594(Topic:my trade)
+  morrowind.esm-------->|DATA|CNAM:Rogue|NAME:I'm a lovable rogue, a silver-tongued devil with a taste for the better things in life. But lovable as I am, some people get upset with me, and so I must fight -- purely in self-defense, you understand. I like light armor and short blades for self defense; heavy armor and heavy weapons just tire you out. But I train with various different weapon types and armor types, so I can improvise when the situation demands it.|SCVR:0CsX0NoLore|INTV:|BNAM:;Rogue; Light Armor, Short Blade
+  Djangos Dialogue.ESP->|DATA|CNAM:Rogue|NAME:I'm a lovable rogue, a silver-tongued devil with a taste for the better things in life. But lovable as I am, some people get upset with me, and so I must fight -- purely in self-defense, you understand. I'm quick on my feet and I can improvise when the situation demands it.|SCVR:0CsX0NoLore|INTV:|BNAM:;Rogue; Light Armor, Short Blade
+
+[DUP-INF]: ID=1951426193437110811(Topic:empire)
+  |DATA|CNAM:Priest Service|FNAM:Temple|NAME:Their armies are great, and so is their lust for fortune.|BNAM:;Temple; priests; monks; healers;
+
+[DUP-INF]: ID=1984834862350528967(Topic:zallay subaddamael)
+  |DATA|NAME:Zallay Subaddamael? I know that name. I believe that is an Ashlander who lives in Aharasaplit Camp on the southwest coast of the island.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=2029221758321562073(Greeting:greeting 9)
+  |DATA|ONAM|NAME:This is the village of Molag Mar, outlander, in the Molag Amur region. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Molag Mar, I can help you with local services, or any specific place in Molag Mar you're looking for. Or if you want someone in particular, maybe I know where to look.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=2081356453141816051(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM:seldus nerendus|NAME:You looking for a ship? What's your destination?
+  Djangos Dialogue.ESP->|DATA|ONAM:talmeni drethan|NAME:You looking for a ship? What's your destination?
+
+[MOD-INF]: ID=2081356453141816051(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM:seldus nerendus|NAME:You looking for a ship? What's your destination?
+  Djangos Dialogue.ESP->|DATA|ONAM:talmeni drethan|NAME:You looking for a ship? What's your destination?
+[MOD-IID]: IDs=1546575851430332718,204075192311317145
+  Djangos Dialogue.ESP->You looking for a ship? What's your destination?
+
+[DUP-INF]: ID=2120145291414916687(Greeting:greeting 9)
+  |DATA|ONAM:navam veran|ANAM:Ald-ruhn|NAME:This is Ald'ruhn, outlander. I'm a caravaner, and I can tell you about silt strider travel if you'll tell me your destination. And if you're new to Ald'ruhn, I can also tell you about local services, or help you find someone in particular. And if you're looking for a specific place in Ald'ruhn, go ahead and ask.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=2122632088405013352(Topic:latest rumors)
+  tribunal.esm--------->|DATA|RNAM:Dark Elf|NAME:Have you noticed, for all its proclamations about protecting the rights of property and preserving law and order, the Imperial legion does little enough to capture and prosecute abolitionists? That's a bit hypocritical, don't you think?|SCVR:0CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|RNAM:Dark Elf|NAME:Have you noticed, for all its proclamations about protecting the rights of property and preserving law and order, the Imperial legion does little enough to capture and prosecute abolitionists? That's a bit hypocritical, don't you think?|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2258716646218356124(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ANAM:Caldera|NAME:This is a pleasure, %PCName. How are you? Did you have a question for me?|SCVR:02sX4Random100|INTV:2
+  Djangos Dialogue.ESP->|DATA|ANAM:Caldera|NAME:This is a pleasure, %PCName. How are you? Did you have a question for me?
+
+[DUP-INF]: ID=2267528022103868317(Persuasion:intimidate success)
+  |DATA|ONAM:cunius pelelius|NAME:Alright, alright. I'll tell you this because I trust you. Take this key. There's a record book in Odral's Helvi chest on the second floor. Stendar have mercy on me if anyone finds out about this.|SCVR:03sX0givenKey|INTV:|SCVR:34JX3HR_CalderaCorrupt|INTV: |BNAM:Player->AddItem key_odral_helvi 1  Set givenKey to 1  Journal HR_CalderaCorrupt 30
+
+[MOD-INF]: ID=2268414651110207892(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ANAM:Ald-ruhn|NAME:I don't know you, and I don't want to. Why don't you just get out of Ald'ruhn?|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:(
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald-ruhn|NAME:I don't know you, and I don't want to. Why don't you just get out of Ald'ruhn?|SCVR:01630|INTV:
+
+[MOD-INF]: ID=2283721782216812426(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:You poor fellow. This outfit... is that all you can afford?|SCVR:01424|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod < 2000
+  Djangos Dialogue.ESP->|DATA|NAME:I hadn't expected someone so famous to be dressed so... humbly.|SCVR:01424|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 80; PCClothingMod < 2000
+
+[MOD-INF]: ID=2349926355106271319(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:You poor fellow. This outfit... is that all you can afford?|SCVR:01424|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |SCVR:51063|INTV|BNAM:;Reputation >= 40; PCClothingMod < 1000
+  Djangos Dialogue.ESP->|DATA|NAME:You seem down on your luck, friend. Don't take offence - Morrowind is a harsh mistress, it takes time to master her wild ways. I'm sure you'll get there.|SCVR:01424|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 40; PCClothingMod < 1000
+
+[DUP-INF]: ID=2399686892009622600(Greeting:greeting 9)
+  |DATA|ONAM:seldus nerendus|NAME:This is the village of Khuul, outlander. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Khuul, I can direct you to the local services, such as they are. Or if you're looking for a specific place or someone in particular, maybe I can help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=2449122240256129515(Greeting:greeting 7)
+  |DATA|ONAM:boderi farano|NAME:Good day. I'm Boderi Farano, publican of the Ald Skar Inn here in Ald'ruhn. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Boderi Farano
+
+[DUP-INF]: ID=2519088302265817520(Topic:cyrodiil)
+  |DATA|CNAM:Savant|NAME:Cyrodiil is the cradle of Human Imperial high culture on Tamriel. It is the largest region of the continent, and most is endless jungle. The Imperial City is in the heartland, the fertile Nibenay Valley. The densely populated central valley is surrounded by wild rain forests drained by great rivers into the swamps of Argonia and Topal Bay. The land rises gradually to the west and sharply to the north. Between its western coast and its central valley are deciduous forests and mangrove swamps.|SCVR:0CsX0NoLore|INTV:|BNAM:;Imperial Legion; Imperial cult; bard, bookseller, savant;
+
+[DUP-INF]: ID=2567811702119319067(Topic:my trade)
+  |DATA|CNAM:Assassin|NAME:I'm an assassin. Killing is my profession. I am discrete, efficient, and reliable. In Morrowind, the assassin's trade is an ancient and honorable profession, restricted by a rigid code of conduct, and operating strictly within the law. Because I am discreet, I prefer short blades for swift, close-and personal work, while the marksman weapons like throwing stars and throwing knives are more suitable for stealth and surprise.|SCVR:0CsX0NoLore|INTV:|BNAM:;Assassin; Short Blade, Misc. Missile
+
+[DUP-INF]: ID=2674613355565124465(Greeting:greeting 7)
+  |DATA|CNAM:Slave|NAME:What are you doing here? What can I do for you?
+
+[MOD-INF]: ID=2749718563149568542(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Vivec|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Vivec;
+  Djangos Dialogue.ESP->|DATA|ANAM:Vivec|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Vivec;
+
+[MOD-INF]: ID=2780212352714513558(Topic:latest rumors)
+  tribunal.esm--------->|DATA|FNAM:Redoran|ANAM:Ald-ruhn|NAME:Morvayn Manor was overrun by corprus monsters. I thought they couldn't get out of the Ghostfence.|SCVR:02sX4Random100|INTV:F|SCVR:14JX4C3_DestroyDagoth|INTV:2|SCVR:2CsX0NoLore|INTV:|BNAM:;random100 <= 66;
+  Djangos Dialogue.ESP->|DATA|FNAM:Redoran|ANAM:Ald-ruhn|NAME:Morvayn Manor was overrun by corprus monsters. I thought they couldn't get out of the Ghostfence?|SCVR:02sX4Random100|INTV:F|SCVR:14JX4C3_DestroyDagoth|INTV:2|SCVR:2CsX0NoLore|INTV:|BNAM:;random100 <= 66;
+
+[DUP-INF]: ID=2792423678156007998(Greeting:greeting 9)
+  |DATA|ONAM:daras aryon|ANAM:Maar Gan|NAME:Good day, outlander. I'm the caravaner here in Maar Gan. Tell me your destination, and I'll tell you if I can help you.
+
+[MOD-INF]: ID=2804783641716124280(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM:Adondasi Sadalvel|ANAM:Vivec|NAME:You looking for a ship? What's your destination?
+  Djangos Dialogue.ESP->|DATA|ONAM:ano andaram|ANAM:Vivec|NAME:You looking for a ship? What's your destination?
+
+[MOD-INF]: ID=2804783641716124280(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM:Adondasi Sadalvel|ANAM:Vivec|NAME:You looking for a ship? What's your destination?
+  Djangos Dialogue.ESP->|DATA|ONAM:ano andaram|ANAM:Vivec|NAME:You looking for a ship? What's your destination?
+[MOD-IID]: IDs=1546575851430332718,204075192311317145
+  Djangos Dialogue.ESP->You looking for a ship? What's your destination?
+
+[MOD-INF]: ID=2899615293236502096(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM:Adondasi Sadalvel|ANAM:Vivec|NAME:Good day, stranger. I'm Vivec's shipmaster. Tell me your destination, and we'll see what we can do for you.
+  Djangos Dialogue.ESP->|DATA|ONAM:ano andaram|ANAM:Vivec|NAME:Good day, stranger. I'm Vivec's shipmaster. Tell me your destination, and we'll see what we can do for you.
+
+[MOD-INF]: ID=2954034802783511538(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:Buy paralyze as soon as you can. Keeps the creatures off you and allows you to cast those more elaborate spells.|SCVR:12sX4Random100|INTV:P|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:Buy paralyze as soon as you can. Keeps the creatures off you and allows you to cast those more elaborate spells.|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=2976914359150945474(Topic:services)
+  morrowind.esm-------->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0savile imayn|INTV|SCVR:37XX0Daynas Darys|INTV|SCVR:47XX0Drarayne Girith|INTV|SCVR:57XX0emusette bracques|INTV|BNAM:;Suran
+  Djangos Dialogue.ESP->|DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0savile imayn|INTV|SCVR:37XX0Daynas Darys|INTV|SCVR:47XX0Drarayne Girith|INTV|SCVR:57XX0emusette bracques|INTV|BNAM:;Suran
+
+[DUP-INF]: ID=2980820873310971254(Topic:ralen hlaalo)
+  |DATA|ANAM:Balmora|NAME:Who?|SCVR:04JX4HH_Retaliation|INTV:d|SCVR:1CsX0nolore|INTV:
+
+[MOD-INF]: ID=3016264761971728343(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:Don't be afraid to invest in armor. Even if you carefully avoid close combat like a smart spellcaster, things go wrong, and armor can save your skin when the unexpected happens.|SCVR:12sX4Random100|INTV:7|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:Don't be afraid to invest in armor. Even if you carefully avoid close combat like a smart spellcaster, things go wrong, and armor can save your skin when the unexpected happens.|SCVR:12sX4Random100|INTV:#|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3029810224114315641(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Morag Tong|NAME:Never take a life carelessly. It cheapens you, and diminishes you. Take life seriously, if taking life is your profession.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Morag Tong|NAME:The Great Houses are in a state of silent, shadowed war, of secret poisons, artful daggers and sleeping men strangled in their beds.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3047192883193230349(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Ashlanders|ANAM:Ahemmusa Camp|NAME:South and west of Kushtashpi, the old Daedric place west of Ahemmusa camp, is the entrance to an old cavern called Sanit. That is where they found two hunter dead, their flesh white and bloated by the corprus. That is not a place where a wise man would go.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Ashlanders|ANAM:Ahemmusa Camp|NAME:South and west of Kushtashpi, the old Daedric place west of Ahemmusa camp, is the entrance to an old cavern called Sanit. That is where they found two hunters dead, their flesh white and bloated by the corprus. That is not a place where a wise man would go.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3062426141146556201(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:Learn the Mark, Recall, Levitation, and Open spells. Mark and Recall are essential for any long-distance travel. There are plenty of places you can't get to without Levitation. And treasure does you no good if it's behind a locked door or in a locked chest.|SCVR:12sX4Random100|INTV|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:Learn the Mark, Recall, Levitation, and Open spells. Mark and Recall are essential for any long-distance travel. There are plenty of places you can't get to without Levitation. And treasure does you no good if it's behind a locked door or in a locked chest.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=3064830113189626130(Topic:house telvanni)
+  morrowind.esm-------->|DATA|CNAM:Noble|NAME:House Telvanni is one of the three Dunmer Great Houses with holdings on Vvardenfell.|SCVR:0CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+  Djangos Dialogue.ESP->|DATA|CNAM:Agent|NAME:The Telvani don't welcome visitors. My business contacts there are mostly outsiders - Hlaalu and Citizens in the foreign districts of port centers. Their townfolk are formal and humorless. But if you mean the High Telvani wizards, the so-called Parliament of Bugs - yes, it is near-impossible for outsiders to meet with their wizards. They all deal through servants, slaves, and agents, local or foreign-trained.|SCVR:0CsX0NoLore|INTV:|SCVR:18FX0Telvanni|INTV|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=3093426243147325471(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 20; PCClothingMod >= 3000
+  Djangos Dialogue.ESP->|DATA|NAME:Fortune seems to have smiled on you, friend. Making a name for yourself as a successful %PCClass, I hear?|SCVR:01423|INTV|SCVR:11033|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 20; PCClothingMod >= 3000
+
+[MOD-INF]: ID=3106740491031930021(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Hla Oad|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Hla Oad;
+  Djangos Dialogue.ESP->|DATA|ANAM:Hla Oad|NAME|INTV|SCVR:1CsX0NoLore|INTV:|SCVR:27XX0Perien Aurelie|INTV|SCVR:37XX0Pallia Ceno|INTV|BNAM:;Hla Oad;
+
+[DUP-INF]: ID=3180567311628915848(Greeting:greeting 9)
+  |DATA|ONAM:selvil sareloth|ANAM:Balmora|NAME:This is the town of Balmora, outlander. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Balmora, I can direct you to the local services, or to a specific place in Balmora. Or if you're looking for someone in particular, maybe I can help.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=3182146312256410879(Greeting:greeting 7)
+  |DATA|ONAM:Agning|NAME:Good day. I'm Agning, publican of the Six Fishes here in Ebonheart. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Agning
+
+[MOD-INF]: ID=3219120251791225772(Topic:little advice)
+  tribunal.esm--------->|DATA|NAME:If you kill yourself trying to complete a job that's too difficult for you, it's nobody's fault but your own.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:P|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:If you kill yourself trying to complete a job that's too difficult for you, it's nobody's fault but your own.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:P|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=3241323702538914393(Topic:little secret)
+  tribunal.esm--------->|DATA|NAME:If you're thinking of traveling up country, near Sheogorad, or out Molag Amur way, or inside the Ghostfence, you need to know about corprus. It's a disease that turns normal creatures into beasts. Turns men into twisted, mad lumps of flesh, superhumanly strong, and full of hatred. You get corprus from fighting with diseased creatures. It's hard to get corprus, but harder to get rid of it. In fact, I hear there is no cure.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|NAME:The Great Houses tend to favour certain races as mercenaries. House Hlaalu employs the brute muscle of Nords and Orcs. The Redoran admire the skill and discipline of the Redguard. Even the reclusive Telvanni have many Altmer and Bosmer in their pay.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:|SCVR:28FX0Telvanni|INTV|SCVR:38FX0Hlaalu|INTV|SCVR:48FX0Redoran|INTV
+
+[MOD-INF]: ID=3274427414239830699(Topic:background)
+  morrowind.esm-------->|DATA|ONAM:vadusa sathryon|NAME:I am %name, a %class. What's it to you?|BNAM:ClearInfoActor
+  Djangos Dialogue.ESP->|DATA|FNAM:Camonna Tong|NAME:I am %name, a %class. What's it to you?|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=4740252483254216877(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:You look very impressive in that outfit, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 80; PCClothingMod >= 4000
+  Djangos Dialogue.ESP->|DATA|NAME:Your reputation precedes you, %PCName. And you've the style to match. How can this humble %Class help you?|SCVR:01423|INTV|SCVR:11033|INTV:P|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 80; PCClothingMod >= 4000
+
+[DUP-INF]: ID=4802266721863511496(Topic:house telvanni)
+  |DATA|CNAM:Noble|NAME:The Telvanni wizard-lords have traditionally isolated themselves, pursuing wisdom and mastery in solitude. But certain ambitious wizards-lords have joined the competition to control and exploit Vvardenfell's land and resources, building towers and bases all along the eastern coast.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=5120133021792918467(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Healer|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+  Djangos Dialogue.ESP->|DATA|CNAM:Healer|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+
+[MOD-INF]: ID=5153114063062417325(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Temple|NAME:I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Temple|NAME:I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=5256213512860226952(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|NAME:Well, you're always welcome to as little advice, for what it's worth. Or whatever you'd like to talk about.|SCVR:01064|INTV|SCVR:12sX4Random100|INTV
+  Djangos Dialogue.ESP->|DATA|NAME:Well, you're always welcome to a little advice, for what it's worth. Or whatever you'd like to talk about.|SCVR:01064|INTV|SCVR:12sX4Random100|INTV
+
+[MOD-INF]: ID=5563164692855523760(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Fighters Guild|NAME:Keep your weapons sharp, your armor in good shape. If you can't afford to have others do it, learn to do it yourself. Get the best quality you can afford. You can be no better than the quality of your tools.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Fighters Guild|ANAM:Balmora|NAME:Lusting after a Daedric weapon? Forget about it, friend. Those things are in the hands of collectors, or under heavy lock and key. Tell you what, though. Ra'Virr, just down the street from here, sells the next best thing. Bound weapons still cost a shiny septim - but the old furball's got a 'sweet' tooth, if you know what I mean. Could be he'd give a discount if you slipped him a taste over the counter.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=5710101312554611886(Greeting:greeting 7)
+  |DATA|ONAM:raril giral|NAME:Good day. I'm Raril Giral, publican of the Black Shalk Cornerclub here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Raril Giral
+
+[DUP-INF]: ID=5935281021213222942(Greeting:greeting 7)
+  |DATA|ONAM:sorosi radobar|NAME:Good day. I'm Sorosi Radobar, publican of The Flowers of Gold here in Vivec. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Sorosi Radobar
+
+[DUP-INF]: ID=6803319322889519433(Greeting:greeting 7)
+  |DATA|ONAM:banor seran|NAME:Good day. I'm Banor Seran, publican of the Council Club here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Banor Seran
+
+[MOD-INF]: ID=6899236491262631178(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV: |SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 10; PCClothingMod >= 1500
+  Djangos Dialogue.ESP->|DATA|NAME:You're a %PCClass on the make, that's plain as day. So, what can I do for you today?|SCVR:01423|INTV|SCVR:11033|INTV: |SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 10; PCClothingMod >= 1500
+
+[MOD-INF]: ID=7534284182983423279(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Thieves Guild|NAME:I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.|SCVR:02sX4Random100|INTV|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Thieves Guild|NAME:I'm %Rank rank in the Guild, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.|SCVR:02sX4Random100|INTV|SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=7719223281835131932(Topic:latest rumors)
+  |DATA|ANAM:Khuul|NAME:Some strange men came through here not long ago. Stopped by Thongar's Tradehouse. Tight-lipped, suspicious bunch.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=7916225451405919152(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:I don't believe I've seen a %PCRace with such a grand outfit in some time. Can I help you?|SCVR:01423|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 5; PCClothingMod >= 1000
+  Djangos Dialogue.ESP->|DATA|NAME:I don't believe I've seen a %PCRace with such a grand outfit in some time. Can I help you?|SCVR:01423|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 5; PCClothingMod >= 1000
+
+[DUP-INF]: ID=8046276851973525109(Greeting:greeting 7)
+  |DATA|ONAM:llorayna sethan|NAME:Good day. I'm Llorayna Sethan, publican of the Sethan's Tradehouse here in Tel Branora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Llorayna Sethan
+
+[MOD-INF]: ID=9230120022186628161(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:Can't you afford a better outfit?|SCVR:01424|INTV|SCVR:11033|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |SCVR:51063|INTV|BNAM:;Reputation >= 20; PCClothingMod <500
+  Djangos Dialogue.ESP->|DATA|NAME:Can't you afford a better outfit? Aren't you %PCName, that outlander I've been hearing so much about?|SCVR:01424|INTV|SCVR:11033|INTV|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |SCVR:51063|INTV|BNAM:;Reputation >= 20; PCClothingMod <500
+
+[MOD-INF]: ID=10298161991897813833(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Spellsword|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+  Djangos Dialogue.ESP->|DATA|CNAM:Spellsword|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+
+[DUP-INF]: ID=10721140832037030122(Topic:zallay subaddamael)
+  |DATA|ONAM:hjoldir|NAME:Zallay Subaddamael? I know that name. I believe that is an Ashlander who lives in Aharasaplit Camp on the southwest coast of the island.
+
+[DUP-INF]: ID=11076147282210315417(Topic:services)
+  |DATA|ANAM:Seyda Neen|NAME:Get food and sundries from Arrille's Tradehouse. That's also where you'll find anyone who offers training. Not much else in the way of services in this damp little squat.|SCVR:07XX0arrille|INTV|SCVR:1CsX0NoLore|INTV|INTV|SCVR:3CsX0NoLore|INTV:|BNAM:;Seyda Neen;
+
+[MOD-INF]: ID=11144107502954827501(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Sadrith Mora|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Sadrith Mora;
+  Djangos Dialogue.ESP->|DATA|ANAM:Sadrith Mora|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Sadrith Mora;
+
+[DUP-INF]: ID=12000132912071322713(Topic:latest rumors)
+  |DATA|RNAM:Dark Elf|ANAM:Sadrith Mora|NAME:I must tell you, all this self-righteous Western clamor against slavery is really tiresome. Our right to own slaves is protected by law -- IMPERIAL law. People who free slaves are breaking the law. It's as simple as that.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=13640318562211919306(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Temple|NAME:Let me warn you. The quests for the Temple at lower ranks are not too difficult. But suddenly after you reach Curate rank, the quests get very, very difficult. Don't be surprised if you have to do a lot of skill-building outside the Temple before you can handle the higher rank quests. These tasks are tests of faith, yes, but they are also tests of good judgement and common sense.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Temple|NAME:Let me warn you. The quests for the Temple at lower ranks are not too difficult. But suddenly after you reach Curate rank, the quests get very, very difficult. Don't be surprised if you have to do a lot of skill-building outside the Temple before you can handle the higher rank quests. These tasks are tests of faith, yes, but they are also tests of good judgement and common sense.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=13756105811994122503(Topic:little advice)
+  tribunal.esm--------->|DATA|NAME:If you find yourself stumbling into trouble when you're tired, stop being so reckless. Keep an eye out. If you're entering unfamiliar territory, and you think it might be hostile, slow down to a walk, look around, catch your breath, and be ready for trouble.|SCVR:02sX4Random100|INTV:Z|SCVR:1CsX0nolore|INTV:|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:Gather any gear from your fallen enemies? Why not try your hand at repairing the notches you've put there yourself. Makes good practice, and you don't risk damaging your own equipment.|SCVR:02sX4Random100|INTV:_|SCVR:1CsX0NoLore|INTV:|BNAM:;bottom; default
+
+[DUP-INF]: ID=14314110052492824030(Greeting:greeting 9)
+  |DATA|ONAM|NAME:I'm %Name, shipmaster of Molag Mar. What's your destination?
+
+[DUP-INF]: ID=14547233552417125516(Greeting:greeting 9)
+  |DATA|ONAM:folsi thendas|ANAM:Suran|NAME:This is the silt strider port for the town of Suran, outlander, in the Ascadian Isles region. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Suran, I can help you with local services, or any specific place in Suran you're looking for. Or if you want someone in particular, maybe I know where to look.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=15018220952982227549(Greeting:greeting 9)
+  |DATA|ONAM:Adondasi Sadalvel|ANAM:Vivec|NAME:Good day, outlander. I'm the caravaner for Vivec. Tell me your destination, and I'll tell you if I can help you.
+
+[MOD-INF]: ID=15770235241721020239(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM|NAME:It's your lucky day, stranger. I'm Gnaar Mok's shipmaster, and I can get you out of this hole. Fast. I imagine any old destination will do, right?
+  Djangos Dialogue.ESP->|DATA|ONAM|NAME:It's your lucky day, stranger. I'm Gnaar Mok's shipmaster, and I can get you out of this hole. Fast. I imagine any old destination will do, right?
+
+[MOD-INF]: ID=15933216522200427592(Topic:little advice)
+  tribunal.esm--------->|DATA|NAME:If you want to improve a skill you're terrible at, it's worth paying for a little training, just to get you started. Sure, you can teach yourself, but it can be slow and frustrating.|SCVR:02sX4Random100|INTV:F|SCVR:1CsX0nolore|INTV:|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:Get your hands on any bonemold gear from the natives? The material's a bit tricky. That said, even if you can't do it yourself, repair fees are a relatively cheap investment. You know how hard it is to bargain with flawed merchandise.|SCVR:02sX4Random100|INTV:K|SCVR:1CsX0NoLore|INTV:|SCVR:2ARX0Dark Elf|INTV|BNAM:;bottom; default
+
+[MOD-INF]: ID=16027228191418416208(Topic:latest rumors)
+  tribunal.esm--------->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0nolore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+  Djangos Dialogue.ESP->|DATA|NAME:I don't gossip with the likes of you.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=16236103082159512960(Greeting:greeting 9)
+  |DATA|ONAM:Adondasi Sadalvel|ANAM:Vivec|NAME:This is the silt strider port for the city of Vivec, outlander. I'm a caravaner, and I manage the silt strider port here. Tell me your destination, if you're looking for a ride. Or if you're new to Vivec, I can help you with local services, or any specific place in Vivec you're looking for. Or if you want someone in particular, maybe I know where to look.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=16828113161949615915(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Witchhunter|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+  Djangos Dialogue.ESP->|DATA|CNAM:Witchhunter|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+
+[MOD-INF]: ID=17088166803242222430(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Ald-ruhn|NAME|INTV|SCVR:1CsX0nolore|INTV
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald-ruhn|NAME|INTV|SCVR:1CsX0NoLore|INTV
+
+[DUP-INF]: ID=17146179082337728636(Persuasion:intimidate fail)
+  |DATA|ONAM:ghost_npc_peakstar|NAME:Speak with disrespect to the spirits, and you will regret it.
+
+[DUP-INF]: ID=17241302462420210952(Greeting:greeting 7)
+  |DATA|ONAM:shenk|NAME:Good day. I'm Shenk, publican of the Shenk's Shovel here in Caldera. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.|BNAM:;Shenk
+
+[DUP-INF]: ID=18035100401834022913(Topic:services)
+  |DATA|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Dagon Fel;
+
+[DUP-INF]: ID=18432257622490827473(Greeting:greeting 9)
+  |DATA|ONAM:sedyni veran|ANAM:Vos|NAME:These are the docks of Vos, outlander. And I'm %Name, shipmaster of Vos, at your service. What's your destination? And, if you're new to Vos, I can tell you about the local services, or point you to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=19535169871985317815(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM:seldus nerendus|NAME:Good day, stranger. I'm Khuul's shipmaster. Tell me your destination, and we'll see what we can do for you.
+  Djangos Dialogue.ESP->|DATA|ONAM:talmeni drethan|NAME:Good day, stranger. I'm Khuul's shipmaster. Tell me your destination, and we'll see what we can do for you.
+
+[MOD-INF]: ID=19576193181192112225(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:You look very impressive in that outfit, %PCName. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 40; PCClothingMod >= 2000
+  Djangos Dialogue.ESP->|DATA|NAME:You look very impressive in that outfit, %PCName. I see your adventures are bearing rich fruit indeed.|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|SCVR:51630|INTV|BNAM:;Reputation >= 40; PCClothingMod >= 2000
+
+[DUP-INF]: ID=20099115652559013257(Greeting:greeting 9)
+  |DATA|ONAM|NAME:You gaze upon the handsome docks of Gnaar Mok, outlander. And I'm Gnaar Mok's shipmaster, at your service. You're outward bound, if you're lucky. What's your destination? Are you by chance new to Gnaar Mok? I grieve for you. But I can steer you to the local services, or to a specific place nearby. If you're looking for someone in particular, I might be able to help.|SCVR:01630|INTV:
+
+[MOD-INF]: ID=20190297191792715473(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ANAM:Ald-ruhn|NAME:Well, if you're looking for someone in particular in Ald'ruhn, maybe I can tell you.
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald-ruhn|NAME:Well, if you're looking for someone in particular in Ald'ruhn, maybe I can tell you.|SCVR:02sX4Random100|INTV
+
+[MOD-INF]: ID=20217129901075023978(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Hlaalu|NAME:If you're having trouble persuading someone, offer a bribe. Don't be so stuffy. Bribes are the lubricant of honest commerce.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Hlaalu|NAME:We've cast our lot with the Empire. Our fortunes will wax and wane with theirs. The Telvanni, on the other hand, have simply ignored Imperial law to secure their position. I'm talking about these rogue settlements, where mages disguised as pilgrims are dropped off by caravans all over the ashlands.|SCVR:02sX4Random100|INTV:7|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=20296323721601031672(Greeting:greeting 8)
+  morrowind.esm-------->|DATA|NAME:With an outfit like that, you must be doing very well for yourself. Can I help you?|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV: |BNAM:;Reputation >= 40; PCClothingMod >= 6000
+  Djangos Dialogue.ESP->|DATA|NAME:Your success seems to have rewarded you with great wealth, friend. Most impressive.|SCVR:01423|INTV|SCVR:11033|INTV:(|SCVR:2ARX0Khajiit|INTV|SCVR:3ARX0Argonian|INTV|SCVR:42sX5Random100|INTV|BNAM:;Reputation >= 40; PCClothingMod >= 6000
+
+[MOD-INF]: ID=20570300713172313681(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ANAM:Ald-ruhn|NAME:Did you have a question for me, %PCName. Is it about my trade? Or did you have something else about Ald'ruhn you wanted to ask?|SCVR:02sX4Random100|INTV: 
+  Djangos Dialogue.ESP->|DATA|ANAM:Ald-ruhn|NAME:Did you have a question for me, %PCName. Is it about my trade? Or did you have something else about Ald'ruhn you wanted to ask?|SCVR:02sX4Random100|INTV:2
+
+[DUP-INF]: ID=20707138201364232320(Greeting:greeting 9)
+  |DATA|ONAM:selvil sareloth|ANAM:Balmora|NAME:Good day, outlander. I'm Balmora's caravaner. Tell me your destination, and I'll tell you if I can help you.
+
+[MOD-INF]: ID=20730227071288310091(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Thieves Guild|NAME:Always carry a jug of sujamma with you. That burst of strength, and the ability to penetrate armor and deal serious damage, will give you the one-time punch to face an opponent you normally can't handle.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Thieves Guild|NAME:Always carry a jug of sujamma with you. That burst of strength, and the ability to penetrate armor and deal serious damage, will give you the one-time punch to face an opponent you normally can't handle.|SCVR:02sX4Random100|INTV:2|SCVR:1CsX0NoLore|INTV:
+
+[MOD-INF]: ID=21295258373038332183(Topic:empire)
+  morrowind.esm-------->|DATA|CNAM:Priest|FNAM:Temple|NAME:Their armies are great, and so is their lust for fortune.|BNAM:;Temple; priests; monks; healers;
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:The Emperor is old, yes, but he's in good health. He has sons to inherit his kingdom. In 2920, there was but one Emperor, Reman, and one son, Juilek. Do I think this Empire will continue forever? No, of course not. All Empires fall or disintegrate, slowly over time, which I think, frankly, is the fate of the Septim Dynasty.
+
+[MOD-INF]: ID=21533210391263926032(Greeting:greeting 7)
+  morrowind.esm-------->|DATA|FNAM:Redoran|NAME:Hello, %PCName. I was happy to hear that Councilor Sarethi has given you his support for the title of Hortator. This conflict between House policy and Temple doctrine is unfortunate, and I hope it is resolved swiftly. Now. How can I help you? Are you looking for someone in particular? Do you need services? Is there some specific place you'd like to visit? Did you want to know about my trade? Do you need a little advice, or the latest rumors? Or a little secret?|SCVR:01460|INTV:|SCVR:14JX3B5_SarethiHort|INTV:2|BNAM:;Redoran; Samefaction = 0; Journal "B5_SarethiHort" >= 50; disp 70
+  Djangos Dialogue.ESP->|DATA|FNAM:Redoran|NAME:Hello, %PCName. I was happy to hear that Councilor Sarethi has given you his support for the title of Hortator. This conflict between House policy and Temple doctrine is unfortunate, and I hope it is resolved swiftly. Now. How can I help you? Are you looking for someone in particular? Do you need services? Is there some specific place you'd like to visit? Did you want to know about my trade? Do you need a little advice, or the latest rumors? Or a little secret?|SCVR:01460|INTV:|SCVR:14JX3B5_SarethiHort|INTV:2|BNAM:;Redoran; Samefaction = 0; Journal "B5_SarethiHort" >= 50; disp 70
+
+[DUP-INF]: ID=22105287401063731514(Greeting:greeting 9)
+  |DATA|ONAM:nireli farys|NAME:Good day, stranger. I'm Tel Branora's shipmaster. Tell me your destination, and we'll see what we can do for you.
+
+[MOD-INF]: ID=22674205512708112924(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Tel Fyr|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Tel Fyr;
+  Djangos Dialogue.ESP->|DATA|ANAM:Tel Fyr|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Tel Fyr;
+
+[MOD-INF]: ID=22696183362373513973(Topic:little secret)
+  tribunal.esm--------->|DATA|NAME:Have you heard of this new secret cult, the Sixth House? They say they sit around in caves, cutting off pieces of their own flesh and eating it. It's that corprus disease -- makes the flesh grow wild and crazy. Cut a piece off, and another piece grows back, bigger and better. Guards say, 'We're looking into it.' Right. That makes me feel better.|SCVR:02sX4Random100|INTV:(|SCVR:14JX3A1_2_AntabolisInformant|INTV: |SCVR:24JX4C3_DestroyDagoth|INTV:2|SCVR:3CsX0nolore|INTV:|SCVR:48FX0Ashlanders|INTV
+  Djangos Dialogue.ESP->|DATA|NAME:Have you heard of this new secret cult, the Sixth House? They say they sit around in caves, cutting off pieces of their own flesh and eating it. It's that corprus disease -- makes the flesh grow wild and crazy. Cut a piece off, and another piece grows back, bigger and better. Guards say, 'We're looking into it.' Right. That makes me feel better.|SCVR:02sX4Random100|INTV:(|SCVR:14JX3A1_2_AntabolisInformant|INTV: |SCVR:24JX4C3_DestroyDagoth|INTV:2|SCVR:3CsX0NoLore|INTV:|SCVR:48FX0Ashlanders|INTV
+
+[MOD-INF]: ID=22717215581011324700(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Khuul|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Khuul;
+  Djangos Dialogue.ESP->|DATA|ANAM:Khuul|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Khuul;
+
+[DUP-INF]: ID=24552316723080523021(Greeting:greeting 9)
+  |DATA|ONAM:gals arethi|ANAM:Sadrith Mora|NAME:I'm %Name, shipmaster of Sadrith Mora. What's your destination?
+
+[MOD-INF]: ID=25082122392266923658(Greeting:greeting 7)
+  morrowind.esm-------->|DATA|RNAM:Khajiit|NAME:What are you doing here? Would you let me go free?|SCVR:03sX0slaveStatus|INTV:
+  Djangos Dialogue.ESP->|DATA|CNAM:Slave|NAME:What are you doing here? Would you let me go free?|SCVR:03sX0slaveStatus|INTV:
+
+[MOD-INF]: ID=25871219932225614115(Greeting:greeting 9)
+  morrowind.esm-------->|DATA|ONAM|NAME:You looking for a ship? What's your destination.
+  Djangos Dialogue.ESP->|DATA|ONAM|NAME:You looking for a ship? What's your destination?
+
+[MOD-INF]: ID=26162168161972518968(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Morag Tong|NAME:In principle, a member is not be given tasks that exceed the member's rank or abilities. In practice, sometimes mistakes are made. You are not expected to fail and die for those mistakes. Use judgement. Be patient. Take the initiative. Train yourself. Equip yourself. Study your target and situation more carefully. Then return to your task when you are ready, and succeed.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0NoLore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Morag Tong|NAME:In principle, a member is not be given tasks that exceed the member's rank or abilities. In practice, sometimes mistakes are made. You are not expected to fail and die for those mistakes. Use judgement. Be patient. Take the initiative. Train yourself. Equip yourself. Study your target and situation more carefully. Then return to your task when you are ready, and succeed.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=26241148101455412669(Topic:services)
+  morrowind.esm-------->|DATA|ANAM:Caldera|NAME|INTV|SCVR:1CsX0nolore|INTV:|BNAM:;Caldera;
+  Djangos Dialogue.ESP->|DATA|ANAM:Caldera|NAME|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;Caldera;
+
+[MOD-INF]: ID=27440159621703420683(Topic:latest rumors)
+  tribunal.esm--------->|DATA|ANAM:Seyda Neen|NAME:These Imperial tax collectors have really started to get on everyone's nerves. Haven't seen the local one in a while, though...not that anyone is complaining.|SCVR:04JX4MV_DeadTaxman|INTV: |SCVR:1CsX0NoLore|INTV:
+  Djangos Dialogue.ESP->|DATA|RNAM:Dark Elf|ANAM:Seyda Neen|NAME:These Imperial tax collectors have really started to get on everyone's nerves. Haven't seen the local one in a while, though...not that anyone is complaining.|SCVR:04JX4MV_DeadTaxman|INTV: |SCVR:1CsX0NoLore|INTV:
+
+[DUP-INF]: ID=27578249051902727234(Topic:little secret)
+  |DATA|ONAM:bashag gro-snagdu|NAME:You thinking about looking around for Dwemer sites? Well, it's your funeral. There's a well-known one called Mzahnch, on an island a ways east of Vivec. You don't look ready for that kind of excitement, but, heck, you don't try, you'll never learn, right?|SCVR:01064|INTV
+
+[MOD-INF]: ID=28177259642621728771(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Imperial Cult|NAME:The services required at lower ranks in the Imperial cult are not very difficult or dangerous. But any task you do for the Oracle, Lalatia Varian, will be very difficult, very dangerous, and suited only for experienced, powerful, well-equipped adventurers.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Imperial Cult|NAME:The services required at lower ranks in the Imperial cult are not very difficult or dangerous. But any task you do for the Oracle, Lalatia Varian, will be very difficult, very dangerous, and suited only for experienced, powerful, well-equipped adventurers.|SCVR:01630|INTV:|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=28846221251116526872(Topic:little secret)
+  tribunal.esm--------->|DATA|FNAM:Camonna Tong|NAME:So, you think House Hlaalu is just an Imperial puppet? Shows what you know. Who really runs House Hlaalu? Not the house council. Those posers do what Orvas Dren tells them. Orvas Dren is the Camonna Tong kingpin. And one day, when the time is right, Orvas Dren, the Camonna Tong, and all right-thinking Dunmer will rise up, murder you outlanders in your beds, and restore Morrowind to its ancient glory.|SCVR:0CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Camonna Tong|NAME:So, you think House Hlaalu is just an Imperial puppet? Shows what you know. Who really runs House Hlaalu? Not the house council. Those posers do what Orvas Dren tells them. Orvas Dren is the Camonna Tong kingpin. And one day, when the time is right, Orvas Dren, the Camonna Tong, and all right-thinking Dunmer will rise up, murder you outlanders in your beds, and restore Morrowind to its ancient glory.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=29891187491864825331(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:A good strategy is to paralyze your opponent, cast some kind of touch spell that does damage for awhile, like poison, then retreat to a farther range to cast your targeted, long range spells. Recast paralyze if the creature isn't dead by the time they reach you again.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:A good strategy is to paralyze your opponent, cast some kind of touch spell that does damage for a while, like poison, then retreat to a farther range to cast your targeted, long range spells. Recast paralyze if the creature isn't dead by the time they reach you again.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=30065136011644315896(Topic:little advice)
+  tribunal.esm--------->|DATA|NAME:When you take a job, you have to have the good sense to hold off until you're stronger if it seems too hard for you.|SCVR:02sX4Random100|INTV:Z|SCVR:11630|INTV:|SCVR:2CsX0nolore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+  Djangos Dialogue.ESP->|DATA|NAME:When you take a job, you have to have the good sense to hold off until you're stronger if it seems too hard for you.|SCVR:02sX4Random100|INTV:Z|SCVR:11630|INTV:|SCVR:2CsX0NoLore|INTV:|SCVR:38FX0Ashlanders|INTV|BNAM:;bottom; default
+
+[DUP-INF]: ID=30261230653266426853(Topic:house telvanni)
+  |DATA|CNAM:Savant|NAME:House Telvanni is one of the three Dunmer Great Houses with holdings on Vvardenfell. The Telvanni wizard-lords have traditionally isolated themselves, pursuing wisdom and mastery in solitude. But certain ambitious wizards-lords, their retainers, and clients have entered whole-heartily into the competition to control and exploit Vvardenfell's land and resources, building towers and bases all along the eastern coast. The Telvanni think that wisdom confers power, and power confers right.|SCVR:08FX0Telvanni|INTV|SCVR:1CsX0NoLore|INTV:|BNAM:;noble; savant; bard; bookseller;
+
+[MOD-INF]: ID=31437326142699821404(Topic:little secret)
+  tribunal.esm--------->|DATA|NAME:Talk to everyone. Talk is cheap. Ask questions. You don't ask, you never learn.|SCVR:0CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|NAME:Why would I share my secrets with you?|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=31479101062352930554(Topic:little advice)
+  tribunal.esm--------->|DATA|FNAM:Mages Guild|NAME:When you think you are just about to encounter some heavy opposition, get those shield-style spells up. The life they save may be your own.|SCVR:12sX4Random100|INTV:2|SCVR:2CsX0nolore|INTV:
+  Djangos Dialogue.ESP->|DATA|FNAM:Mages Guild|NAME:When you think you are just about to encounter some heavy opposition, get those shield-style spells up. The life they save may be your own.|SCVR:12sX4Random100|INTV|SCVR:2CsX0NoLore|INTV:
+
+[MOD-INF]: ID=31790184793267027713(Topic:little advice)
+  tribunal.esm--------->|DATA|CNAM:Sorcerer|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50
+  Djangos Dialogue.ESP->|DATA|CNAM:Sorcerer|ANAM:Balmora|NAME:One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?|SCVR:02sX4Random100|INTV|INTV|SCVR:2CsX0NoLore|INTV:|BNAM:;mages; random 100 >= 50

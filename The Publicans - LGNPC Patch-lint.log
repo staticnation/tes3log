@@ -1,0 +1,21 @@
+The Publicans - LGNPC Patch.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Pub_Aldruhn_Council)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	lgnpc_aldruhn.esp    DIAL    help
+	lgnpc_aldruhn.esp    NPC_    darvam hlaren
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+
+[MOD-INF]: ID=14682489440924976(Greeting:greeting 7)
+  morrowind.esm------------------->|DATA|CNAM:Publican|NAME:What do you want?|BNAM:;publican default
+  The Publicans - LGNPC Patch.ESP->|DATA|CNAM:Publican|NAME:What do you want?|SCVR:07XX0darvam hlaren|INTV|BNAM:;publican default
+
+[MOD-INF]: ID=2184129280216541515(Greeting:greeting 7)
+  morrowind.esm------------------->|DATA|CNAM:Publican|NAME:We rent beds. I have some goods for barter. What do you want?|BNAM:;Drelasa Ramothran
+  The Publicans - LGNPC Patch.ESP->|DATA|CNAM:Publican|NAME:We rent beds. I have some goods for barter. What do you want?|SCVR:07XX0darvam hlaren|INTV|BNAM:;Drelasa Ramothran
+
+[MOD-INF]: ID=17210126821041811174(Topic:help)
+  lgnpc_aldruhn.esp--------------->|DATA|ONAM:darvam hlaren|NAME:I'm running a bit low on stocks, and my regular supplier has been delayed. If you could get me 5 bottles of each of Mazte, Greef and Sujamma today. I'll pay you their face value, plus an extra 500 gold for your trouble.|SCVR:04JX4max_lgnpc_darvam_j|INTV: |BNAM:; LGNPC Ald'ruhn  Journal max_lgnpc_darvam_j 10  Choice "Yes, I will help you." 1 "I'm afraid I don't have the time." 2
+  The Publicans - LGNPC Patch.ESP->|DATA|ONAM:darvam hlaren|NAME:I'm running a bit low on stocks, and my regular supplier has been delayed. If you could get me 5 bottles of each of Mazte, Greef and Sujamma today. I'll pay you their face value, plus an extra 500 gold for your trouble.|SCVR:04JX4max_lgnpc_darvam_j|INTV: |BNAM:; LGNPC Ald'ruhn  Journal max_lgnpc_darvam_j 10  Choice "Yes, I will help you." 1 "I'm afraid I don't have the time." 2

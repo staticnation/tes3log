@@ -1,0 +1,25 @@
+k_weather (louder sounds).esp: DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(k_in_soundscript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Sound_Cave_Drip)
+	SCPT(Sound_Cave_Wind)
+	SCPT(Sound_Creeky_Wood)
+	SCPT(Sound_Daedric_Chant)
+	SCPT(Sound_Dwemer_Ambient)
+	SCPT(Sound_Haunted)
+	SCPT(Sound_Spirit_Whisper)
+	SCPT(k_in_soundscript)
+	SCPT(k_sound_resetscript)
+	SCPT(k_weatherswitch_script)
+	SCPT(kag_marker_script)
+	SCPT(kug_marker_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LIGH    light_dae_brazier00
+	morrowind.esm       CONT    barrel_smuggler_01
+	morrowind.esm       CONT    com_chest_daed_ruin_01
+	morrowind.esm       CONT    crate_smuggler_01
+	morrowind.esm       CONT    egg_kwama00
+	tribunal.esm        LIGH    light_mh_streetlamp_01
+	tribunal.esm        LIGH    light_mh_streetlamp_01_550

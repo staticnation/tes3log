@@ -1,0 +1,22 @@
+Morrowind Housing.ESP: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ABE_Lettertomertenscript)
+	SCPT(AldRuhnHouse)
+	SCPT(zAldRuhnHouse)
+	SCPT(zSadrithHome)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ALCH    potion_skooma_01
+	morrowind.esm       CONT    de_r_closet_01_empty
+	morrowind.esm       MISC    misc_de_fishing_pole
+	morrowind.esm       NPC_    drodos galen
+	morrowind.esm       STAT    furn_de_r_bookshelf_02
+	tribunal.esm        MISC    misc_com_bottle_10
+	tribunal.esm        WEAP    imperial shortsword
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    dralasa nithryon
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=27518247831477521212(Greeting:greeting 5)
+  |DATA|ONAM:Geon Auline|NAME:Hello.  I am Geon Auline, collector of fine artifacts.|SCVR:04JX0MS_EstateSale|INTV:

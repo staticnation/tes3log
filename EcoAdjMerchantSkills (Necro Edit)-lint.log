@@ -1,0 +1,14 @@
+EcoAdjMerchantSkills (Necro Edit).esp: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(HF_MerchantFix)
+	SCPT(HF_MerchantFixT)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       GMST    fbribe1000mod
+	morrowind.esm       GMST    fbribe100mod
+	morrowind.esm       GMST    fbribe10mod
+	morrowind.esm       GMST    ibartersuccessdisposition
+	tribunal.esm        DIAL    greeting 0
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0

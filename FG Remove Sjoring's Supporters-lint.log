@@ -1,0 +1,37 @@
+FG Remove Sjoring's Supporters.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(FG_Bagrat_Aglakh_Note_S)
+	SCPT(FG_LorbumlItemRemoval)
+	SCPT(FG_Lorbumol_Barrel)
+	SCPT(eydisScript)
+	SCPT(lorbumolScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    bitter cup
+	morrowind.esm       DIAL    eydis fire-eye
+	morrowind.esm       DIAL    lorbumol gro-aglakh
+	morrowind.esm       DIAL    rufinus alleius
+	tribunal.esm        DIAL    fg_killcronies
+	tribunal.esm        DIAL    fg_silencemagistrate
+	tribunal.esm        DIAL    fg_silencetaxgirl
+	tribunal.esm        DIAL    greeting 1
+
+[MOD-INF]: ID=120212398643415761(Topic:eydis fire-eye)
+  morrowind.esm---------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You can find her at the Guild of Fighters in Balmora. Kill her and report back to me.|SCVR:34JX3FG_ElithPalSupply|INTV:d|BNAM:Journal FG_KillCronies 10
+  FG Remove Sjoring's Supporters.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:You can find her at the Guild of Fighters in Balmora. Kill her and report back to me but I would like if you did not and go see Gentleman Jim Stacey in Vivec, Foreign Quarter. He may have idea how to change Eydis Fire-Eye's mind. Ask him about "Bitter Cup".|SCVR:34JX3FG_ElithPalSupply|INTV:d|BNAM:Journal FG_KillCronies 10  "stacey"->addtopic "Bitter Cup"
+
+[MOD-INF]: ID=195781222524312234(Topic:eydis fire-eye)
+  morrowind.esm---------------------->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Don't let your conscience trouble you, %PCName. You did the right thing.|SCVR:34JX3FG_KillCronies|INTV:d
+  FG Remove Sjoring's Supporters.ESP->|DATA|ONAM:persius mercius|DNAM:Fighters Guild|NAME:Don't let your conscience trouble you, %PCName. You did the right thing.|SCVR:34JX3FG_KillCronies|INTV:d|SCVR:46DX2eydis fire-eye|INTV:
+
+[MOD-INF]: ID=1447023869487219160(Journal:fg_killcronies)
+  tribunal.esm----------------------->|DATA|NAME:Percius Mercius asked me to kill one of Sjoring Hard-Heart's supporters, Eydis Fire-Eye, the guild steward in Balmora.
+  FG Remove Sjoring's Supporters.ESP->|DATA|NAME:Percius Mercius asked me to kill one of Sjoring Hard-Heart's supporters, Eydis Fire-Eye, the guild steward in Balmora. Alternatively I can go see Gentleman Jim Stacey in Vivec, Foreign Quarter and figure out if Eydis-Fire can be bribed somehow.
+
+[MOD-INF]: ID=1911410961396931476(Topic:rufinus alleius)
+  morrowind.esm---------------------->|DATA|ONAM:persius mercius|NAME:Killing an Imperial Magistrate is a serious offense. All I can suggest is to disobey orders and refuse this contract.
+  FG Remove Sjoring's Supporters.ESP->|DATA|ONAM:persius mercius|NAME:Killing an Imperial Magistrate is a serious offense. All I can suggest is to disobey orders and refuse this contract.|BNAM:Journal FG_SilenceMagistrate 50
+
+[MOD-INF]: ID=9500199841045310204(Journal:fg_killcronies)
+  tribunal.esm----------------------->|DATA|NAME:Percius thanked me for killing Sjoring Hard-Heart's supporters.|QSTF
+  FG Remove Sjoring's Supporters.ESP->|DATA|NAME:Percius thanked me for removing Sjoring Hard-Heart's supporters.|QSTF

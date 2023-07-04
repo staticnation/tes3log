@@ -1,0 +1,34 @@
+Morrowind Achievements.esp: DUP-REC GETSND MENUMOD MISSVER MOD-INF OVR-REC SCRDOOR
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(mwa_stat_global_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mwa_accuracy_script)
+	SCPT(mwa_attribute_total_script)
+	SCPT(mwa_creatures_killed_script)
+	SCPT(mwa_games_loaded_script)
+	SCPT(mwa_skill_total_script)
+	SCPT(mwa_spells_cast_script)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	door_dwrv_load00                     mwa_ach_dwemer_script
+	ex_dae_door_load_oval                mwa_ach_daedric_script
+	in_t_housepod_door_exit              mwa_ach_mushroom_script
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    active_de_bedroll
+	bloodmoon.esm       DOOR    ex_dae_door_load_oval
+	morrowind.esm       CREA    mudcrab_unique
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DOOR    in_t_housepod_door_exit
+	morrowind.esm       NPC_    agronian guy
+	morrowind.esm       NPC_    divayth fyr
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DOOR    door_dwrv_load00
+
+[MOD-INF]: ID=1282210422208319210(Voice:attack)
+  morrowind.esm-------------->|DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]
+  Morrowind Achievements.esp->|DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV|BNAM:;PCRace=2[Breton]  Startscript "mwa_ach_nwah_script"
+
+[MOD-INF]: ID=28709294402365525299(Voice:attack)
+  morrowind.esm-------------->|DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV: 
+  Morrowind Achievements.esp->|DATA|RNAM:Dark Elf|SNAM|SCVR:02sX3Random100|INTV: |BNAM:Startscript "mwa_ach_nwah_script"

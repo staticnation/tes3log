@@ -1,0 +1,176 @@
+Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp: DUP-INF DUP-REC FOGBUG JUNKCEL MENUMOD MISSVER MOD-INF OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	Endusal, Kagrenac's Study
+	Mzahnch Lower Level
+	Nchardumz Lower Level
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(shrineAssarnibibi)
+    [JUNKCEL] Junk Cells:                        Flags
+	Sheogorad (0, 21)                        0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    ac_shrine_assarnibibi
+	morrowind.esm       STAT    ex_common_entrance_02
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       BOOK    sc_paper plain
+	bloodmoon.esm       LTEX    ac_darkgravel
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       BOOK    sc_paper_plain_01_canodia
+	morrowind.esm       DIAL    ash statue
+	morrowind.esm       DIAL    founder's helm
+	morrowind.esm       DIAL    leave vivec city
+	morrowind.esm       DIAL    maiden's token
+	morrowind.esm       DIAL    overdue payment
+	morrowind.esm       INGR    ingred_corprus_weepings_01
+	morrowind.esm       LAND    (0, -7)
+	morrowind.esm       LAND    (0, -8)
+	morrowind.esm       LAND    (0, 21)
+	morrowind.esm       LAND    (18, 3)
+	morrowind.esm       LAND    (2, 4)
+	morrowind.esm       LTEX    ac_darkstone01
+	morrowind.esm       LTEX    ac_darkstone02
+	morrowind.esm       LTEX    ac_darkstone_grass
+	morrowind.esm       LTEX    ac_dirt_grass_01
+	morrowind.esm       LTEX    ac_dirtroad_01
+	morrowind.esm       LTEX    ac_roundstone
+	morrowind.esm       LTEX    ac_scrubplain_02
+	morrowind.esm       LTEX    daedric stone
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    rm_rock_02
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       NPC_    arkming the flayer
+	morrowind.esm       NPC_    durzum gro-shagrak
+	morrowind.esm       NPC_    jine
+	morrowind.esm       NPC_    larienna macrina
+	morrowind.esm       NPC_    sharog gra-ulfish
+	morrowind.esm       NPC_    tanusea veloth
+	tribunal.esm        DIAL    fg_findpudai
+	tribunal.esm        DIAL    fg_telasero
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    mg_paydues
+	tribunal.esm        DIAL    tt_diseasecarrier
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        LTEX    tx_ai_mainroad_01.tga
+
+[MOD-INF]: ID=1642317902423633(Topic:overdue payment)
+  morrowind.esm------------------------------------------>|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|SCVR:05IX3potion_cyro_brandy_01|INTV|BNAM:;Ienas Sarandas;  item = Potion_Cyro_Brandy_01;   Choice "Offer a drink of brandy and a sympathetic ear." 2 "Threaten to take the merchant's goods by violence." 6 "Take no immediate action." 10
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|SCVR:05IX3potion_cyro_brandy_01|INTV|BNAM:;Ienas Sarandas;  item = Potion_Cyro_Brandy_01;   Choice "[Offer a drink of brandy and a sympathetic ear]." 2 "[Threaten to take the merchant's goods by violence]." 6 "[Take no immediate action]." 10
+
+[DUP-INF]: ID=5078651017221499(Greeting:greeting 7)
+  |DATA|ONAM:bivale teneran|NAME:Good day, %PCName. I am Bivale Teneran. I flatter myself that I am the finest clothier in these parts. Shall I tell you about my trade? Or would you be interested in a little work?|SCVR:01630|INTV:|BNAM:;Bivale Teneran: Clothier [Expensive clothes];
+
+[DUP-INF]: ID=6500241059921722(Journal:tt_diseasecarrier)
+  |DATA|NAME:I saw no other recourse but to kill Tanusea Veloth. The temple has lost a kind soul.
+
+[MOD-INF]: ID=17770171059525240(Topic:overdue payment)
+  morrowind.esm------------------------------------------>|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|SCVR:05IX3Potion_Cyro_Whiskey_01|INTV|BNAM:;Ienas Sarandas;  item = Potion_Cyro_Whiskey_01;   Choice "Offer a drink of whiskey and a sympathetic ear." 1 "Threaten to take the merchant's goods by violence." 6; "Take no immediate action." 10
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|SCVR:05IX3Potion_Cyro_Whiskey_01|INTV|BNAM:;Ienas Sarandas;  item = Potion_Cyro_Whiskey_01;   Choice "[Offer a drink of whiskey and a sympathetic ear]." 1 "[Threaten to take the merchant's goods by violence]." 6; "[Take no immediate action]." 10
+
+[MOD-INF]: ID=26982204639176965(Topic:founder's helm)
+  morrowind.esm------------------------------------------>|DATA|ONAM:neminda|DNAM:Redoran|NAME:Good work, %PCName. You have recovered the Founder's Helm and have not brought shame upon House Redoran. Will you give me the Helm now?|SCVR:05IX2bonemold_founders_helm|INTV:|SCVR:34JX3HR_FoundersHelm|INTV: |BNAM:Choice "Yes" 1 "No" 2
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:neminda|DNAM:Redoran|NAME:Good work, %PCName. You have recovered the Founder's Helm and have not brought shame upon House Redoran. Will you give me the Helm now?|SCVR:05IX2bonemold_founders_helm|INTV:|SCVR:34JX3HR_FoundersHelm|INTV: |BNAM:Choice "Yes." 1 "No." 2
+
+[MOD-INF]: ID=62717177107585185(Topic:overdue payment)
+  morrowind.esm------------------------------------------>|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|SCVR:05IX3potion_comberry_brandy_01|INTV|BNAM:;Ienas Sarandas;  item = Potion_Comberry_Brandy_01;   Choice "Offer a drink of brandy and a sympathetic ear." 3 "Threaten to take the merchant's goods by violence." 6 "Take no immediate action." 10
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|SCVR:05IX3potion_comberry_brandy_01|INTV|BNAM:;Ienas Sarandas;  item = Potion_Comberry_Brandy_01;   Choice "[Offer a drink of brandy and a sympathetic ear]." 3 "[Threaten to take the merchant's goods by violence]." 6 "[Take no immediate action]." 10
+
+[DUP-INF]: ID=75802663541506472(Greeting:greeting 7)
+  |DATA|ONAM:ienas sarandas|NAME:Yes? I'm Ienas Sarandas. What do you want?|BNAM:;Ienas Sarandas;
+
+[MOD-INF]: ID=143922153952227323(Topic:overdue payment)
+  morrowind.esm------------------------------------------>|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|SCVR:01363|INTV:2|BNAM:;Ienas Sarandas;  PC Speechcraft >= 50;   Choice "Offer a sympathetic ear and friendly advice." 5 "Threaten to take the merchant's goods by violence." 6 "Take no immediate action." 10
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|SCVR:01363|INTV:2|BNAM:;Ienas Sarandas;  PC Speechcraft >= 50;   Choice "[Offer a sympathetic ear and friendly advice]." 5 "[Threaten to take the merchant's goods by violence]." 6 "[Take no immediate action]." 10
+
+[MOD-INF]: ID=193070821415320794(Journal:fg_telasero)
+  morrowind.esm------------------------------------------>|DATA|NAME:I agree to guide Sondaale of Shimmerene back to the entrance of Telasero.
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|NAME:I agreed to guide Sondaale of Shimmerene back to the entrance of Telasero.
+
+[MOD-INF]: ID=755621398870423083(Topic:overdue payment)
+  morrowind.esm------------------------------------------>|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|BNAM:;Ienas Sarandas;  Disposition >= 60   Choice "Offer a sympathetic ear and friendly advice." 5 "Threaten to take the merchant's goods by violence." 6 "Take no immediate action." 10
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|BNAM:;Ienas Sarandas;  Disposition >= 60   Choice "[Offer a sympathetic ear and friendly advice]." 5 "[Threaten to take the merchant's goods by violence]." 6 "[Take no immediate action]." 10
+
+[MOD-INF]: ID=794119896190795305(Topic:maiden's token)
+  morrowind.esm------------------------------------------>|DATA|ONAM:imsin the dreamer|NAME:Go to Assumanu and recover the maiden's glove. Hurry before Varona Nelas uses the glove for blackmail.|SCVR:01500|INTV
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:imsin the dreamer|NAME:Go to Assumanu and recover the maiden's glove. Hurry, before Varona Nelas uses the glove for blackmail.|SCVR:01500|INTV
+
+[MOD-INF]: ID=1794512819309942055(Topic:overdue payment)
+  morrowind.esm------------------------------------------>|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|BNAM:;Ienas Sarandas;    Choice "Threaten to take the merchant's goods by violence." 6 "Take no immediate action." 10
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|BNAM:;Ienas Sarandas;    Choice "[Threaten to take the merchant's goods by violence]." 6 "[Take no immediate action]." 10
+
+[MOD-INF]: ID=2000627057172059807(Topic:overdue payment)
+  morrowind.esm------------------------------------------>|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|SCVR:05IX3bk_SaryonisSermons|INTV|BNAM:;Ienas Sarandas;  item = bk_SaryonisSermons;   Choice "Offer a quote from 'Saryoni's Sermons' and a sympathetic ear." 4 "Threaten to take the merchant's goods by violence." 6 "Take no immediate action." 10
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:ienas sarandas|NAME:Yes, I do have some overdue payments with local merchants. But I'm afraid I can't pay my debts right now. You see, I'm a little strapped for cash at the moment. But I have certain very attractive prospects underway, and I'm sure I'll be able to pay very soon.|SCVR:05IX3bk_SaryonisSermons|INTV|BNAM:;Ienas Sarandas;  item = bk_SaryonisSermons;   Choice "[Offer a quote from 'Saryoni's Sermons' and a sympathetic ear]." 4 "[Threaten to take the merchant's goods by violence]." 6 "[Take no immediate action]." 10
+
+[DUP-INF]: ID=2104311590222259297(Greeting:greeting 7)
+  |DATA|ONAM:llether vari|NAME:Llether Vari, Enchanter. I am pleased to offer a fine selection of enchanted items. Shall I tell you  about my trade? Or would you perhaps be interested in doing a little work for me?|SCVR:01630|INTV:|BNAM: ;Llether Vari: Enchanter;
+
+[MOD-INF]: ID=2203228434941319493(Journal:tt_diseasecarrier)
+  morrowind.esm------------------------------------------>|DATA|NAME:I convinced Tanusea Veloth with quotes from the sacred texts of the Temple. She agreed to go to the Corprusarium.
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|NAME:I convinced Tanusea Veloth to leave the city of Vivec with quotes from the sacred texts of the Temple. She agreed to go to the Corprusarium.
+
+[MOD-INF]: ID=2402231661156784189(Journal:fg_findpudai)
+  tribunal.esm------------------------------------------->|DATA|NAME:Hrundi asked me to find the Pudai Egg Mine somewhere on or near the island of Sheogorad to the north. Once I find Pudai, I should bring Hrundi the Seven Eggs of Gold rumored to be there.
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|NAME:Hrundi asked me to find the Pudai Egg Mine somewhere on or near the island of Sheogorad to the northwest. Once I find Pudai, I should bring Hrundi the Seven Eggs of Gold rumored to be there.
+
+[DUP-INF]: ID=2915120557314599517(Greeting:greeting 7)
+  |DATA|ONAM:tiras sadus|NAME:Welcome, %PCName. Welcome to the humble shop of Tiras Sadus, trader, and purveyor of quality general merchandise. Shall I tell you about my trade? Or would you perhaps be interested in doing a little work for me?|SCVR:01630|INTV:|BNAM:;Tiras Sadus;
+
+[MOD-INF]: ID=4546198312125118451(Journal:tt_diseasecarrier)
+  tribunal.esm------------------------------------------->|DATA|NAME:Endryn Llethan thanked me for convincing Tanusea Veloth to go to the Corprusarium.|QSTF
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|NAME:Endryn Llethan thanked me for convincing Tanusea Veloth to go to the Corprusarium.
+
+[DUP-INF]: ID=5074126063062632704(Greeting:greeting 7)
+  |DATA|ONAM:bevene releth|NAME:Greetings, sera. Bevene Releth. Clothier. Quality clothes for less. Stylish clothes for any pocketbook. Shall I tell you about my trade? Or would you be interested in a little work?|SCVR:01630|INTV:|BNAM:;Bevene Releth;
+
+[DUP-INF]: ID=7880254142531930604(Greeting:greeting 7)
+  |DATA|ONAM:bevene releth|NAME:Good to see you back, sera. You know my wares. Quality clothes for less. Stylish clothes for any pocketbook. Shall I tell you about my trade? Or would you be interested in a little work?|SCVR:01630|INTV|BNAM:;Bevene Releth;
+
+[MOD-INF]: ID=11198177183109011497(:greeting 7)
+  morrowind.esm------------------------------------------>|DATA|ONAM:daynes redothril|NAME:Go ahead. Look around. You see something you want, let me know. I can also tell you about my trade. And, if you are interested, I might have a little work for you.|SCVR:01630|INTV|BNAM:;Daynes Redothril;
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|NAME:Go ahead. Look around. You see something you want, let me know. I can also tell you about my trade.|DELE:
+
+[MOD-INF]: ID=11340284251448516640(Topic:leave vivec city)
+  morrowind.esm------------------------------------------>|DATA|ONAM:tanusea veloth|NAME:I believe you are a decent %PCRace at heart. I will go to the Corprusarium because you have asked me so kindly.|SCVR:01500|INTV|BNAM:Journal TT_DiseaseCarrier 50  StartScript TeleportTanusea
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:tanusea veloth|NAME:I believe you are a decent %PCRace at heart. I will go to the Corprusarium because you have asked me so kindly.|SCVR:01500|INTV|BNAM:Journal TT_DiseaseCarrier 51  StartScript TeleportTanusea
+
+[MOD-INF]: ID=15205307771592117917(Journal:mg_paydues)
+  tribunal.esm------------------------------------------->|DATA|NAME:Manwe, a Guild member in Punabi, has not paid any Guild dues in three months. Ranis asked me to find Manwe and collect the dues from her. To get to Punabi, I should go south from Balmora and take the road east past Fort Moonmoth. I should cross the bridge northeast of the Fort and continue east until I reach the lake. The old Dunmer stronghold of Marandas is just south of the lake. Punabi is on the trail that leads northeast from the lake.
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|NAME:Manwe, a Guild member in Punabi, has not paid any Guild dues for several years. Ranis asked me to find Manwe and collect the dues from her. To get to Punabi, I should go south from Balmora and take the road east past Fort Moonmoth. I should cross the bridge northeast of the Fort and continue east until I reach the lake. The old Dunmer stronghold of Marandas is just south of the lake. Punabi is on the trail that leads northeast from the lake.
+
+[DUP-INF]: ID=16320155361220027284(Greeting:greeting 7)
+  |DATA|ONAM:llether vari|NAME:My selection of enchanted items is quite extensive. Shall I tell you  about my trade? Or would you perhaps be interested in doing a little work for me?|SCVR:01630|INTV|BNAM: ;Llether Vari: Enchanter;
+
+[MOD-INF]: ID=19829245811768924111(Topic:ash statue)
+  morrowind.esm------------------------------------------>|DATA|ONAM:lloros sarano|DNAM:Redoran|NAME:This ash statue was found in Morvyan Manor? Give it to me, then, and I will destroy it.|SCVR:05IX2misc_6th_ash_hrmm|INTV:|SCVR:34JX3HR_MorvaynManor|INTV: |SCVR:44JX4HR_MorvaynManor|INTV:2|BNAM:Choice "Give him the statue." 1 "Keep the statue." 2
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|DATA|ONAM:lloros sarano|DNAM:Redoran|NAME:This ash statue was found in Morvyan Manor? Give it to me, then, and I will destroy it.|SCVR:05IX2misc_6th_ash_hrmm|INTV:|SCVR:34JX3HR_MorvaynManor|INTV: |SCVR:44JX4HR_MorvaynManor|INTV:2|BNAM:Choice "[Give him the statue]." 1 "[Keep the statue]." 2
+
+[DUP-INF]: ID=22561125242173313063(Greeting:greeting 7)
+  |DATA|ONAM:elam andas|NAME:I am Elam Andas, chief of Vivec's Order of the Watch. Do you have questions about my trade? Or are you here looking for work?|SCVR:01630|INTV:|BNAM:;Elam Andas
+
+[MOD-INF]: ID=26893296782891115177(:greeting 7)
+  morrowind.esm------------------------------------------>|DATA|ONAM:bivale teneran|NAME:Good day, %PCName. Shall I tell you about my trade? Or would you be interested in a little work?|SCVR:01630|INTV|BNAM:;Bivale Teneran: Clothier [Expensive clothes];
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|NAME:Good day, %PCName. Shall I tell you about my trade?|DELE:
+
+[MOD-INF]: ID=28949221712991116603(:greeting 7)
+  morrowind.esm------------------------------------------>|DATA|ONAM:tiras sadus|NAME:Welcome back. Look around for yourself. Inspect my offerings. Or shall I tell you about my trade? Or perhaps... would you be interested in doing a little work for me?|SCVR:01630|INTV|BNAM:;Tiras Sadus;
+  Clean_MPP Supplementals (v1.2, No Cell Name Edits).esp->|NAME:Welcome back. Look around for yourself. Inspect my offerings.|DELE:
+
+[DUP-INF]: ID=31177231023265928026(Greeting:greeting 7)
+  |DATA|ONAM:daynes redothril|NAME:I'm Daynes Redothril, the Pawnbroker. And you are... %PCName? Shall I tell you about my trade? Or would you perhaps be interested in doing a little work for me?|SCVR:01630|INTV:

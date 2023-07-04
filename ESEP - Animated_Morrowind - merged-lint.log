@@ -1,0 +1,48 @@
+ESEP - Animated_Morrowind - merged.esp: DUP-REC GETSND MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1106203 (plugin)    1567893 (installed size)
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(AM_Bard1_script)
+	SCPT(AM_BardBMThirsk1_script)
+	SCPT(AM_BardBMThirsk2_script)
+	SCPT(AM_Drummer_script)
+	SCPT(AM_FishermanDay_script)
+	SCPT(AM_FishermanMorning_script)
+	SCPT(AM_Fisherman_script)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AM_BanditScript)
+	SCPT(AM_Bard1_script)
+	SCPT(AM_BardBMThirsk1_script)
+	SCPT(AM_BardBMThirsk2_script)
+	SCPT(AM_DreamerA_Script)
+	SCPT(AM_MinerEbonyScript)
+	SCPT(AM_MinerEggScript)
+	SCPT(AM_StopMusic2_Script)
+	SCPT(AM_StopMusic_Script)
+	SCPT(BILL_TT_Lette)
+	SCPT(ab01amBeggarBowl10Script)
+	SCPT(ab01amBeggarBowl11Script)
+	SCPT(ab01amBeggarBowl12Script)
+	SCPT(ab01amBeggarBowl13Script)
+	SCPT(ab01amBeggarBowl14Script)
+	SCPT(ab01amBeggarBowl17Script)
+	SCPT(ab01amBeggarBowl1Script)
+	SCPT(ab01amBeggarBowl21Script)
+	SCPT(ab01amBeggarBowl22Script)
+	SCPT(ab01amBeggarBowl23Script)
+	SCPT(ab01amBeggarBowl24Script)
+	SCPT(ab01amBeggarBowl2Script)
+	SCPT(ab01amBeggarBowl5Script)
+	SCPT(ab01amBeggarBowl7Script)
+	SCPT(ab01amBeggarBowl8Script)
+	SCPT(ab01amBeggarBowl9Script)
+	SCPT(ab01amDrum10Script)
+	SCPT(ab01amDrum2Script)
+	SCPT(ab01amDrum8Script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    alms for the poor
+	morrowind.esm       NPC_    lette
+	tamriel_data.esm    DIAL    greeting 3
+	tribunal.esm        NPC_    granny varis

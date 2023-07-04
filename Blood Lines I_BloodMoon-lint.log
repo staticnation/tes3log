@@ -1,0 +1,138 @@
+Blood Lines I_BloodMoon.esp: DUP-INF DUP-REC FOGBUG JUNKCEL MENUMOD MISSVER MOD-INF MOD-IID OVR-REC
+    [FOGBUG]: Cells with zero fog density setting:
+	The Chamber of Perception
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Vampire_Aundae)
+	SCPT(Vampire_Aundae_PC)
+	SCPT(Vampire_Berne)
+	SCPT(Vampire_Berne_PC)
+	SCPT(Vampire_Cure_PC)
+	SCPT(Vampire_Quarra)
+	SCPT(Vampire_Quarra_PC)
+	SCPT(_BL_hair_item)
+	SCPT(_add_sundamage)
+	SCPT(_gradis_kill)
+	SCPT(_grolden_addnote)
+	SCPT(_hlanna_addnote)
+	SCPT(_hlanna_mask_remove)
+	SCPT(_quathra_blast)
+	SCPT(_salgusKill)
+	SCPT(_tadeusKill)
+    [JUNKCEL] Junk Cells:                        Flags
+	Ashlands Region (0, 0)                   0x02
+	Bitter Coast Region (-12, 1)             0x02
+	Bitter Coast Region (-12, 2)             0x02
+	Bitter Coast Region (-12, 3)             0x02
+	Bitter Coast Region (-13, 1)             0x02
+	Bitter Coast Region (-13, 2)             0x02
+	Bitter Coast Region (-13, 3)             0x02
+	Bitter Coast Region (-13, 4)             0x02
+	Bitter Coast Region (-14, 2)             0x02
+	Bitter Coast Region (-14, 4)             0x02
+	Bitter Coast Region (-14, 5)             0x02
+	Bitter Coast Region (-5, -2)             0x02
+	Molag Mar Region (8, 3)                  0x02
+	West Gash Region (-15, 7)                0x02
+	West Gash Region (-16, 7)                0x02
+	West Gash Region (-16, 8)                0x02
+	Wilderness (-15, -8)                     0x02
+	Wilderness (-19, 14)                     0x02
+	Wilderness (-19, 15)                     0x02
+	Wilderness (-20, 15)                     0x02
+	Wilderness (-28, 24)                     0x02
+	Wilderness (-29, 23)                     0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       STAT    ex_de_cave_entrance_01
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	morrowind.esm       DIAL    j'saddha
+	morrowind.esm       DIAL    price on your head
+	morrowind.esm       DIAL    vampires
+	morrowind.esm       DIAL    vampirism
+	morrowind.esm       DIAL    vampirism cure
+	tribunal.esm        DIAL    anonymous writer
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    nerevarine
+
+[DUP-INF]: ID=128279104427445(Topic:latest rumors)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=5178505957589111(Topic:little advice)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=28134581168723745(Topic:vampires)
+  |DATA|ONAM:kaushad|NAME:Vampires are monsters that feed on humanoid blood. Once they were human like you and me, but they get the blood disease from another vampire, and they become vampires themselves. That's why they still exist. Everyone hates them, yet no one wants to come near one. But doesn't prophecy say the Nerevarine has nothing to fear from disease? So you have nothing to worry about, I'm sure.|SCVR:04JX3B3_ZainabBride|INTV
+
+[DUP-INF]: ID=43231692294565986(Topic:price on your head)
+  |DATA|FNAM:Thieves Guild|NAME:You've been expelled from the guild, %PCName. Take care of that, and maybe we can talk.|SCVR:01390|INTV
+
+[MOD-INF]: ID=204941055522042137(:flee)
+  morrowind.esm--------------->|DATA|ONAM:aundae vampire 1
+  Blood Lines I_BloodMoon.esp->|NAME:EMP|TYDE:
+
+[MOD-INF]: ID=204941055522042137(:flee)
+  morrowind.esm--------------->|DATA|ONAM:aundae vampire 1
+  Blood Lines I_BloodMoon.esp->|NAME:EMP|TYDE:
+[MOD-IID]: ID=321254531168523746(Voice:attack),ID=2362831041170712313(Voice:attack),ID=291042261518712192(Voice:hello),ID=168713529445131390(Voice:hello),ID=18455243782797016983(Voice:hello),ID=23344152621510930881(Voice:flee),ID=1352870573219920531(Voice:hit),ID=892211621051427060(Voice:hit)
+  Blood Lines I_BloodMoon.esp->
+
+[DUP-INF]: ID=227322281661726892(Greeting:greeting 0)
+  |DATA|CNAM:Guard|NAME:What are you doing! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+
+[DUP-INF]: ID=291042261518712192(Voice:hello)
+  |DATA|SCVR:03sX0nohello|INTV:
+
+[DUP-INF]: ID=299702217312473358(Voice:hit)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\Hit_vHF012.mp3|NAME:Unngh!
+
+[DUP-INF]: ID=312401251667414385(Topic:j'saddha)
+  |DATA|ONAM:galyn arvel|NAME:We have taken him to friends on the mainland. He will return to his homeland.|SCVR:34JX3HH_TwinLamps1|INTV:d
+
+[DUP-INF]: ID=321254531168523746(Voice:attack)
+  |DATA|SCVR:03sX0noattack|INTV:
+
+[DUP-INF]: ID=487276111250324150(Voice:attack)
+  |DATA|ONAM:aundae vampire 1|SNAM:Vo\v\CrAtk_vDF001.mp3|NAME:Arrgh!|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=1189814713726410206(Topic:anonymous writer)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=1352870573219920531(Voice:hit)
+  |DATA|ONAM:karrod
+
+[DUP-INF]: ID=2195928081229820053(Voice:hello)
+  |DATA|ONAM:Narissa Adus|RNAM:Dark Elf|SNAM:vo\d\f\tHlo_DF002.mp3|NAME:Beware the Black Dart gang, adventurer.|BNAM:;despondent female adventurer who has lost her lover; strong character, but emotionally drained
+
+[DUP-INF]: ID=2677921808100214765(Topic:morrowind lore)
+  |DATA|ONAM:holmar|NAME:Wha?
+
+[DUP-INF]: ID=12045269321106310824(Topic:vampirism)
+  |DATA|ONAM:maela kaushad|NAME:I've heard some say that vampirism is a disease. But no wise woman has ever been able to cure it, and I've never heard of a sorcerer's spell that could cure it. But I admit, I've never encountered a vampire, and never thought about how to cure one. We would destroy them on sight if we could.
+
+[DUP-INF]: ID=19742144401495913234(Topic:nerevarine)
+  |DATA|ONAM:holmar|NAME:Wha?
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=23344152621510930881(Voice:flee)
+  |DATA|SCVR:03sX0noflee|INTV:
+
+[DUP-INF]: ID=24767148812529226840(Topic:vampirism cure)
+  |DATA|ONAM:derar hlervu|NAME:If the lord Molag Bal wishes to help you, he will. He has no greater love for your kind than any other.|SCVR:01600|INTV|SCVR:14JX3MS_VampireCure|INTV
+
+[DUP-INF]: ID=25693272922242731603(Topic:little secret)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.

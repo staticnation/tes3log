@@ -1,0 +1,39 @@
+Fort Winter.ESP: DUP-REC JUNKCEL MASTERS MISSDSC MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Morrowind.esm               80640776 (plugin)   79837557 (installed size)
+    [JUNKCEL] Junk Cells:                        Flags
+	Felsaad Coast Region (-19, 24)           0x02
+	Felsaad Coast Region (-20, 24)           0x02
+	Isinfier Plains Region (-22, 23)         0x02
+	Isinfier Plains Region (-23, 22)         0x02
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    ac_darkgravel
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LAND    (-22, 23)
+	bloodmoon.esm       LAND    (-23, 23)
+	bloodmoon.esm       LTEX    tx_bm_grass_snow_02a.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_03.dds
+	bloodmoon.esm       LTEX    tx_bm_rock_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_01.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_02.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_03.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_05.dds
+	bloodmoon.esm       LTEX    tx_bm_snow_ice_01.dds
+	morrowind.esm       NPC_    imperial guard
+	morrowind.esm       PGRD    tel fyr
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=3375742770827395(Greeting:greeting 5)
+  morrowind.esm--->|DATA|ONAM:omesu hlarys|NAME:I don't get paid to answer questions.|BNAM:goodbye
+  Fort Winter.ESP->|DATA|ONAM:omesu hlarys|NAME|BNAM:goodbye
+
+[MOD-INF]: ID=16113140832821732391(Topic:alles andere)
+  morrowind.esm--->|DATA|ONAM:Imperial Guard|NAME:I am an Imperial guard.|BNAM:ClearInfoActor
+  Fort Winter.ESP->|DATA|ONAM:Imperial Guard|NAME|BNAM:ClearInfoActor
+
+[MOD-INF]: ID=19115280293018318990(Greeting:greeting 5)
+  morrowind.esm--->|DATA|ONAM:hloris farano|NAME:Welcome to the Sadrith Mora Temple. No... we are not Telvanni wizards. Look, I wear the vestments of the Temple. Though I understand your confusion. It is rather dark in here. And cramped. And it certainly doesn't look like a Temple, does it? But we do offers the standard Temple services here.|SCVR:01630|INTV:
+  Fort Winter.ESP->|DATA|ONAM:hloris farano|NAME|SCVR:01630|INTV:

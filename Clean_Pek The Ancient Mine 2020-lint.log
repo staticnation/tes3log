@@ -1,0 +1,74 @@
+Clean_Pek The Ancient Mine 2020.esp: AUTOSPL DUP-INF DUP-REC EXP-DEP MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	pek soothing balm              Balyna's Soothing Balm +
+	pek heal companion             Heal Companion
+	pek heal target                Heal Companion
+	pek frost touch                Pek Frost Touch
+	pek frost target               Pek Frost Target
+	pek fire touch                 Pek Fire Touch
+	pek fire target                Pek Fire Target
+	pek shock target               Pek Shock Target
+	pek shock touch                Pek Shock Touch
+	pek poison target              Pek Poison Target
+	pek poison touch               Pek Poison Touch
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(Pek_Pcald_placemet_Script)      getscale
+	SCPT(Pek_Pcald_placemet_Script)      setscale
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(PekSndCreak)
+	SCPT(PekSndDrip)
+	SCPT(PekSndWaterf)
+	SCPT(PekSndWind)
+	SCPT(Pek_Assist_Miner_Script)
+	SCPT(Pek_Crazy_Miner_Script)
+	SCPT(Pek_s_get_boat)
+	SCPT(Pek_s_get_boat2)
+	SCPT(Pek_s_get_boat_up)
+	SCPT(Pek_s_get_boat_up2)
+	SCPT(Pek_scr_DoorACN)
+	SCPT(SoundTest)
+	SCPT(SoundTestDrip)
+	SCPT(SoundTestWaterf)
+	SCPT(SoundTestWind)
+	SCPT(pek_s_Lift_Init)
+	SCPT(pek_s_Lift_Init2)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CREA    rat
+	morrowind.esm       ACTI    ex_waterfall_mist_s_01
+	morrowind.esm       NPC_    ama nin_disguisemara
+	morrowind.esm       NPC_    bodean
+	morrowind.esm       NPC_    bumbub gro-murgol
+	morrowind.esm       NPC_    chark
+	morrowind.esm       NPC_    cluson
+	morrowind.esm       NPC_    daracy
+	morrowind.esm       NPC_    faric panoit
+	morrowind.esm       NPC_    garzonk gro-mulakh
+	morrowind.esm       NPC_    ghob gra-gholob
+	morrowind.esm       NPC_    glannison
+	morrowind.esm       NPC_    jine
+	morrowind.esm       NPC_    lanald
+	morrowind.esm       NPC_    lesley
+	morrowind.esm       NPC_    marara
+	morrowind.esm       NPC_    murob gra-loghash
+	morrowind.esm       NPC_    noleon sele
+	morrowind.esm       NPC_    relie jeannie
+	morrowind.esm       NPC_    rianciene aurilie
+	morrowind.esm       NPC_    shura gro-urgak
+	morrowind.esm       NPC_    tanel faren
+	morrowind.esm       NPC_    ukawei
+	morrowind.esm       NPC_    ulam gro-shugham
+	morrowind.esm       NPC_    urshamusa rapli
+	tribunal.esm        ACTI    ex_vivec_waterfall_05
+	tribunal.esm        ACTI    ex_waterfall_mist_01
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+
+[DUP-INF]: ID=1215227585220936854(Greeting:greeting 1)
+  |DATA|NAME:Who's there?|SCVR:01480|INTV:|SCVR:1CsX0NoLore|INTV:|BNAM:goodbye  moddisposition -5
+
+[DUP-INF]: ID=16325102782849326701(Topic:latest rumors)
+  |DATA|FNAM:Ashlanders|NAME:The skies are clear all over Morrowind? Even on Red Mountain? I cannot believe it.|SCVR:14JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye

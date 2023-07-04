@@ -1,0 +1,41 @@
+Alice's Almost Instant Stronghold.ESP: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ColonyEstateTimer)
+	SCPT(ColonyTimer)
+	SCPT(ShrineBoethiah)
+	SCPT(Strong_Build1_H)
+	SCPT(Strong_Build1_R)
+	SCPT(Strong_Build1_T)
+	SCPT(Strong_Build2_H)
+	SCPT(Strong_Build2_R)
+	SCPT(Strong_Build2_T)
+	SCPT(Strong_Build3_H)
+	SCPT(Strong_Build3_R)
+	SCPT(Strong_Build3_T)
+	SCPT(Strong_Build_Start_H)
+	SCPT(Strong_Build_Start_R)
+	SCPT(Strong_Build_Start_T)
+	SCPT(glathelScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    mead hall business
+
+[MOD-INF]: ID=98225224317696268(Topic:mead hall business)
+  bloodmoon.esm------------------------->|DATA|ONAM:svenja snow-song|NAME:We have plenty of mead in stock, %PCName, and you can collect the profits every week. Here is the gold we earned this week.|SCVR:01500|INTV|SCVR:14JX3BM_MeadHall_b|INTV|SCVR:23sX3localdaysPassed|INTV|BNAM:player->additem "gold_001" 50  set LocalDaysPassed to 0
+  Alice's Almost Instant Stronghold.ESP->|DATA|ONAM:svenja snow-song|NAME:We have plenty of mead in stock, %PCName, and you can collect the profits every week. Here is the gold we earned this week.|SCVR:01500|INTV|SCVR:14JX3BM_MeadHall_b|INTV|SCVR:23sX3localdaysPassed|INTV|BNAM:player->additem "gold_001" 50  set LocalDaysPassed to 0
+
+[MOD-INF]: ID=146388062228989431(Topic:mead hall business)
+  bloodmoon.esm------------------------->|DATA|ONAM:svenja snow-song|NAME:The hunters have returned, %PCName. Here are the snow bear and snow wolf pelts they were able to secure. The heads of these creatures have been mounted and placed on the walls upstairs, oh great chieftain.|SCVR:01500|INTV|SCVR:13sX3localdaysPassed|INTV|SCVR:24JX0BM_MeadHall_c|INTV: |BNAM:player->additem "ingred_snowbear_pelt_unique" 5  player->additem "ingred_snowwolf_pelt_unique" 5  journal BM_MeadHall_c 20
+  Alice's Almost Instant Stronghold.ESP->|DATA|ONAM:svenja snow-song|NAME:The hunters have returned, %PCName. Here are the snow bear and snow wolf pelts they were able to secure. The heads of these creatures have been mounted and placed on the walls upstairs, oh great chieftain.|SCVR:01500|INTV|SCVR:13sX3localdaysPassed|INTV|SCVR:24JX0BM_MeadHall_c|INTV: |BNAM:player->additem "ingred_snowbear_pelt_unique" 5  player->additem "ingred_snowwolf_pelt_unique" 5  journal BM_MeadHall_c 20
+
+[MOD-INF]: ID=240902503825510288(Topic:mead hall business)
+  bloodmoon.esm------------------------->|DATA|ONAM:svenja snow-song|NAME:The hunters are still out in the wild, %PCName. Remember, snow bears and snow wolves are elusive creatures, and they may take some time to find and kill. Check back in a few days.|SCVR:01500|INTV|SCVR:14JX0BM_MeadHall_c|INTV: |SCVR:23sX4localdaysPassed|INTV
+  Alice's Almost Instant Stronghold.ESP->|DATA|ONAM:svenja snow-song|NAME:The hunters are still out in the wild, %PCName. Remember, snow bears and snow wolves are elusive creatures, and they may take some time to find and kill. Check back in a few days.|SCVR:01500|INTV|SCVR:14JX0BM_MeadHall_c|INTV: |SCVR:23sX4localdaysPassed|INTV
+
+[MOD-INF]: ID=757932010554814205(Topic:mead hall business)
+  bloodmoon.esm------------------------->|DATA|ONAM:svenja snow-song|NAME:The mead has been ordered, great %PCName, but has not yet arrived from Skyrim.  As I mentioned before, it will take a total of seven days for the mead to get here.|SCVR:04JX0BM_MeadHall_b|INTV: |SCVR:13sX4localdaysPassed|INTV|SCVR:21500|INTV
+  Alice's Almost Instant Stronghold.ESP->|DATA|ONAM:svenja snow-song|NAME:The mead has been ordered, great %PCName, but has not yet arrived from Skyrim.  As I mentioned before, it will take a total of seven days for the mead to get here.|SCVR:04JX0BM_MeadHall_b|INTV: |SCVR:13sX4localdaysPassed|INTV|SCVR:21500|INTV
+
+[MOD-INF]: ID=3222013492445325239(Topic:mead hall business)
+  bloodmoon.esm------------------------->|DATA|ONAM:svenja snow-song|NAME:The mead has arrived! We now have plenty to sell. Oh, and I've seen to it that three cases of Skyrim's finest honey wine have been placed upstairs in your quarters, my chieftain. Drink and be merry!|SCVR:01500|INTV|SCVR:14JX0BM_MeadHall_b|INTV: |SCVR:23sX3localdaysPassed|INTV|BNAM:Journal BM_MeadHall_b 20
+  Alice's Almost Instant Stronghold.ESP->|DATA|ONAM:svenja snow-song|NAME:The mead has arrived! We now have plenty to sell. Oh, and I've seen to it that three cases of Skyrim's finest honey wine have been placed upstairs in your quarters, my chieftain. Drink and be merry!|SCVR:01500|INTV|SCVR:14JX0BM_MeadHall_b|INTV: |SCVR:23sX3localdaysPassed|INTV|BNAM:Journal BM_MeadHall_b 20

@@ -1,0 +1,15 @@
+AFFargoth.ESP: DUP-INF DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(AF_FargothBagScript)
+	SCPT(AF_FargothCleanLetters)
+	SCPT(AF_FargothCountLetters)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    fargoth's hiding place
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=496873033139825815(Topic:fargoth's hiding place)
+  |DATA|ONAM:fargoth|NAME:I don't have a hiding place. At least not anymore....|SCVR:04JX0MS_Lookout|INTV:d|BNAM:ModDisposition -10  Goodbye
+
+[DUP-INF]: ID=2971935711263120030(Topic:fargoth's hiding place)
+  |DATA|ONAM:hrisskar flat-foot|NAME:I know the little fetcher's got one somewhere in town. Just not sure where yet. I've already gone through his whole house, so I know he's not hiding it there. I'd like you find out where he's stashing his gold. If you can, I'll give you a share of the wealth. Are you up for it?|SCVR:04JX0MS_Lookout|INTV:|BNAM:Journal "MS_Lookout" 10  Choice "I'll do it." 1 "No thanks." 2

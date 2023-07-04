@@ -1,0 +1,19 @@
+Intervention Improved - Ghostgate - MG.ESP: AUTOSPL DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	uah_mages_teleport             Mages Teleportation
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(UAH_ALMSIVI)
+	SCPT(UAH_CalderaScript)
+	SCPT(UAH_Divine)
+	SCPT(UAH_Mages)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    chimarvamidium
+
+[MOD-INF]: ID=7967257031745615915(Topic:chimarvamidium)
+  morrowind.esm------------------------------>|DATA|ONAM:edwinna elbert|DNAM:Mages Guild|NAME:The book has been returned? Good work, %PCRank. Once I know the locations of some Dwemer ruins, I will be asking you to travel to some dangerous places. These amulets will help you return to safety.|SCVR:34JX3MG_ReturnBook|INTV|BNAM:Journal MG_ReturnBook 100  Player->AddItem "amulet of almsivi intervention" 1  Player->AddItem "amulet of divine intervention" 1  ModDisposition 10  ModPCFacRep 5 "Mages Guild"  Player->ModReputation 1
+  Intervention Improved - Ghostgate - MG.ESP->|DATA|ONAM:edwinna elbert|DNAM:Mages Guild|NAME:The book has been returned? Good work, %PCRank. Once I know the locations of some Dwemer ruins, I will be asking you to travel to some dangerous places. This spell should help you to return to the nearest mages guild. It looks like Divine Intervention spell, but on using it instead of taking to you to the Imperial Cult altar, it takes you to the Mages Guild. Pretty neat right. Its my own invention!|SCVR:34JX3MG_ReturnBook|INTV|BNAM:Journal MG_ReturnBook 100  Player->AddSpell "UAH_Mages_Teleport"  ModDisposition 10  ModPCFacRep 5 "Mages Guild"  Player->ModReputation 1
+
+[MOD-INF]: ID=9005325072360828695(Topic:chimarvamidium)
+  morrowind.esm------------------------------>|DATA|ONAM:edwinna elbert|DNAM:Mages Guild|NAME:The book has been returned? Good work, %PCRank. Once I know the locations of some Dwemer ruins, I will be asking you to travel to some dangerous places. These amulets will help you return to safety.|SCVR:03sX0bookInBox|INTV|SCVR:34JX3MG_ReturnBook|INTV: |BNAM:Journal MG_ReturnBook 100  Player->AddItem "amulet of almsivi intervention" 1  Player->AddItem "amulet of divine intervention" 1  ModDisposition 10  ModPCFacRep 5 "Mages Guild"  Player->ModReputation 1
+  Intervention Improved - Ghostgate - MG.ESP->|DATA|ONAM:edwinna elbert|DNAM:Mages Guild|NAME:The book has been returned? Good work, %PCRank. Once I know the locations of some Dwemer ruins, I will be asking you to travel to some dangerous places. This spell should help you to return to the nearest mages guild. It looks like Divine Intervention spell, but on using it instead of taking to you to the Imperial Cult altar, it takes you to the Mages Guild. Pretty neat right. Its my own invention!|SCVR:03sX0bookInBox|INTV|SCVR:34JX3MG_ReturnBook|INTV: |BNAM:Journal MG_ReturnBook 100  Player->AddSpell "UAH_Mages_Teleport"  ModDisposition 10  ModPCFacRep 5 "Mages Guild"  Player->ModReputation 1

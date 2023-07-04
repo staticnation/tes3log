@@ -1,0 +1,8 @@
+CDE Buff Clipping.esp: EXP-DEP MENUMOD MISSVER NUMRECS
+    [NUMRECS]: number of records in TES3.HEDR (48) != Actual count (47)
+    [EXP-DEP] Expansion Dependency: Startup Scripts: sve_buff_clipping, sve_buff_clipping_msg
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(sve_buff_clipping_msg)          getscale
+	SCPT(sve_buff_clipping_msg)          setscale
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(sve_buff_clipping_msg)

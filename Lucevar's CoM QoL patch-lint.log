@@ -1,0 +1,213 @@
+Lucevar's CoM QoL patch.ESP: DUP-INF DUP-REC MASTERS MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	MW_Children_1_0.esm          1683326 (plugin)    1712269 (installed size)
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    idle
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	mw_children_1_0.esm    SCPT    EM_Kidsschedule2script
+	mw_children_1_0.esm    SCPT    EM_Kidsschedule3script
+	mw_children_1_0.esm    SCPT    EM_Kidsschedule4script
+	mw_children_1_0.esm    SCPT    EM_Kidsschedulescript
+	mw_children_1_0.esm    SCPT    EM_archery1
+	mw_children_1_0.esm    SCPT    EM_archery2
+	mw_children_1_0.esm    SCPT    EM_archery3
+	mw_children_1_0.esm    SCPT    EM_archery4
+	mw_children_1_0.esm    SCPT    EM_archery5
+	mw_children_1_0.esm    SCPT    EM_archery6
+	mw_children_1_0.esm    SCPT    EM_balancing2
+	mw_children_1_0.esm    SCPT    EM_balancing3
+	mw_children_1_0.esm    SCPT    EM_balancing4
+	mw_children_1_0.esm    SCPT    EM_balancing6
+	mw_children_1_0.esm    SCPT    EM_balancing7
+	mw_children_1_0.esm    SCPT    EM_balancing8
+	mw_children_1_0.esm    SCPT    EM_giantscript
+	mw_children_1_0.esm    SCPT    EM_kidfight1
+	mw_children_1_0.esm    SCPT    EM_kidfight10
+	mw_children_1_0.esm    SCPT    EM_kidfight11
+	mw_children_1_0.esm    SCPT    EM_kidfight12
+	mw_children_1_0.esm    SCPT    EM_kidfight13
+	mw_children_1_0.esm    SCPT    EM_kidfight14
+	mw_children_1_0.esm    SCPT    EM_kidfight2
+	mw_children_1_0.esm    SCPT    EM_kidfight3
+	mw_children_1_0.esm    SCPT    EM_kidfight4
+	mw_children_1_0.esm    SCPT    EM_kidfight5
+	mw_children_1_0.esm    SCPT    EM_kidfight6
+	mw_children_1_0.esm    SCPT    EM_kidfight7
+	mw_children_1_0.esm    SCPT    EM_kidfight8
+	mw_children_1_0.esm    SCPT    EM_kidfight9
+	mw_children_1_0.esm    SCPT    EM_mumwalk
+	mw_children_1_0.esm    SCPT    EM_mumwalk2
+	mw_children_1_0.esm    SCPT    EM_mumwalk3
+	mw_children_1_0.esm    SCPT    EM_mumwalk4
+	mw_children_1_0.esm    SCPT    EM_runawayscript
+	mw_children_1_0.esm    SCPT    EM_runawayscript2
+	mw_children_1_0.esm    SCPT    EM_runsimplescript
+	mw_children_1_0.esm    SCPT    EM_snowball1
+	mw_children_1_0.esm    SCPT    EM_snowball2
+	mw_children_1_0.esm    SCPT    EM_snowball3
+	mw_children_1_0.esm    SCPT    EM_snowball4
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	mw_children_1_0.esm    NPC_    1em_child_209
+	mw_children_1_0.esm    NPC_    1em_child_214
+	mw_children_1_0.esm    NPC_    1em_child_215
+	mw_children_1_0.esm    NPC_    1em_child_226
+	mw_children_1_0.esm    NPC_    1em_child_239
+	mw_children_1_0.esm    NPC_    1em_child_240
+	mw_children_1_0.esm    NPC_    1em_child_242
+	mw_children_1_0.esm    NPC_    1em_child_264
+	mw_children_1_0.esm    NPC_    1em_child_265
+	mw_children_1_0.esm    NPC_    1em_child_371
+
+[DUP-INF]: ID=1471329521510147(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:de_kids|FNAM:Temple|SNAM:Vo\EM_vo\Extr\dil\di_hlo033.mp3|NAME:What do you want?|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=18292091220759685(Voice:idle)
+  |DATA|ONAM:dialog placeholder|RNAM:de_kids|FNAM:Temple|SNAM:Vo\EM_vo\Extr\blr\b00046.mp3|NAME:Wow.|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=18601308723588424(Voice:idle)
+  |DATA|ONAM:dialog placeholder|RNAM:re_kids|SNAM:Vo\EM_vo\rem\idl_ang053b.mp3|NAME:Maybe if I asked the teacher for help, she could help me with the problem.|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=29131477316027551(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:or_kids|DNAM:Nerevarine|SNAM:Vo\EM_vo\orm\hlo_duc003.mp3|NAME:Are you that Nerevarine dude?|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=60762079431138905(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:he_kids|SNAM:Vo\EM_vo\hem\mic_yes.mp3|NAME:Yes?|SCVR:02sX3Random100|INTV:Z
+
+[DUP-INF]: ID=91921736017377524(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:or_todd|SNAM:Vo\EM_vo\orb\Hlo_BFF084.mp3|NAME:Can I see your sword?|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=129347952312731712(Voice:idle)
+  |DATA|RNAM:im_todd|SNAM:Vo\EM_vo\imb\brs_dadhelp2.mp3|NAME:I think dad will help me with that if I ask him.|SCVR:02sX4Random100|INTV: 
+
+[DUP-INF]: ID=184622036150103053(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:no_todd|SNAM:Vo\EM_vo\nob\ma_ulikeme1.mp3|NAME:do you like me?|SCVR:02sX3Random100|INTV:#
+
+[DUP-INF]: ID=214553284128518427(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:he_kids|SNAM:Vo\EM_vo\hem\mic_Unice.mp3|NAME:You look nice.|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=264412933572776601(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:ar_kids|SNAM:Vo\EM_vo\arm\sc_Looknice.mp3|NAME:You look nice.|SCVR:02sX3Random100|INTV:(
+
+[DUP-INF]: ID=313751808315410822(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:re_kids|SNAM:Vo\EM_vo\ref\hlo_merk043.mp3|NAME:Don't pretend to care about me, outlander.|SCVR:02sX3Random100|INTV:Z
+
+[DUP-INF]: ID=316720228182754962(Voice:hello)
+  |DATA|RNAM:or_todd|SNAM:Vo\EM_vo\orb\PPI_BFF010.mp3|NAME:When I grow up I'm going to be a sharp shooter.|SCVR:02sX3Random100|INTV:Z
+
+[DUP-INF]: ID=318931218287636990(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:kh_kids|SNAM:Vo\EM_vo\khm\hlo_em049.mp3|NAME:You look nice.|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=416312932094531019(Voice:idle)
+  |DATA|ONAM:dialog placeholder|RNAM:br_kids|SNAM:Vo\EM_vo\brm\DOM_Idl3.mp3|NAME:Ha! Just see if I ever talk to him again!|SCVR:02sX3Random100|INTV:Z
+
+[DUP-INF]: ID=433527980155247514(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:im_kids|SNAM:Vo\EM_vo\imm\mour_lookgod.mp3|NAME:Hey, looking good.|SCVR:02sX3Random100|INTV:F
+
+[DUP-INF]: ID=485020451194536682(Voice:idle)
+  |DATA|ONAM:dialog placeholder|RNAM:re_kids|SNAM:Vo\EM_vo\rem\idl_ang054b.mp3|NAME:I wonder what she would say...|SCVR:02sX3Random100|INTV:F
+
+[DUP-INF]: ID=712017275152704557(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:he_kids|SNAM:Vo\EM_vo\hem\mic_hello.mp3|NAME:Hello.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=927146282552923930(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:de_kids|FNAM:Temple|SNAM:Vo\EM_vo\Extr\dil\di_hlo039.mp3|NAME:Yes friend?|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=1362770641518610232(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:br_kids|SNAM:Vo\EM_vo\brf\Emy_YMaster2.mp3|NAME:Yes, Master.|SCVR:02sX3Random100|INTV|SCVR:11380|INTV:
+
+[DUP-INF]: ID=1510824291221037226(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:kh_kids|SNAM:Vo\EM_vo\khm\hlo_em040.mp3|NAME:I like you.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=1640139212495429569(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:he_todd|SNAM:Vo\EM_vo\heb\Hlo_sla002.mp3|NAME:Good day to you.|SCVR:02sX3Random100|INTV: 
+
+[DUP-INF]: ID=2050018408952619137(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:re_kids|SNAM:Vo\EM_vo\ref\hlo_merk037.mp3|NAME:I can tell that you really care about me.|SCVR:02sX3Random100|INTV:Z
+
+[DUP-INF]: ID=2065024902325869684(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:kh_kids|SNAM:Vo\EM_vo\khf\mil_hlo38.mp3|NAME:You look nice!|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=2422268841574429366(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:de_kids|FNAM:Temple|SNAM:Vo\EM_vo\Extr\dil\di_hlo024.mp3|NAME:Yes, may I help you?|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=2427826620302222239(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:he_kids|SNAM:Vo\EM_vo\hef\ULookNice2.mp3|NAME:You look nice.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=2498926758832617994(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:br_kids|SNAM:Vo\EM_vo\brf\Emy_wounded.mp3|NAME:You are wounded, Friend!|SCVR:01074|INTV:<
+
+[DUP-INF]: ID=2582950942167627612(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:br_todd|SNAM:Vo\EM_vo\brb\Hlo_BFP084.MP3|NAME:Can I see your sword?|SCVR:03sX3knowyou|INTV|SCVR:12sX4Random100|INTV: 
+
+[DUP-INF]: ID=2596513662806813962(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:de_kids|SNAM:Vo\EM_vo\dem\Hlo_Trx036.mp3|NAME:I can tell that you really care about me.|SCVR:02sX3Random100|INTV:2
+
+[DUP-INF]: ID=2596931424696325048(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:he_kids|SNAM:Vo\EM_vo\hef\9timeforU2.mp3|NAME:Of course, I always have time for you.|SCVR:02sX3Random100|INTV:F
+
+[DUP-INF]: ID=2642915784252101074(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:im_kids|DNAM:Nerevarine|SNAM:Vo\EM_vo\imf\hlo_1br005.mp3|NAME:Are you that Nerevarine dude?|SCVR:02sX4Random100|INTV: 
+
+[DUP-INF]: ID=2977531852033611844(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:br_kids|SNAM:Vo\EM_vo\brf\Emy_ILikeU1.mp3|NAME:I like you.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=3156957132320514134(Voice:idle)
+  |DATA|ONAM:dialog placeholder|RNAM|SNAM:Vo\EM_vo\Extr\blr\b00046.mp3|NAME:Wow!|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=3210316621678529339(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:we_kids|SNAM:Vo\EM_vo\wem\hlo_clw037.mp3|NAME:I can tell that you really care about me.|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=4434195632760013409(Voice:idle)
+  |DATA|ONAM:dialog placeholder|RNAM:im_kids|SNAM:Vo\EM_vo\imm\mour_idl005.mp3|NAME:I suppose I could earn some money hoeing fields.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=5382171492888525637(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:de_kids|FNAM:Temple|SNAM:Vo\EM_vo\Extr\dil\di_hlo020.mp3|NAME:I like you.|SCVR:02sX3Random100|INTV:K
+
+[DUP-INF]: ID=8318155981065115759(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM|SNAM:Vo\EM_vo\Extr\blr\b00036.mp3|NAME:You look nice.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=8824183542906427963(Voice:idle)
+  |DATA|ONAM:dialog placeholder|RNAM:he_kids|SNAM:Vo\EM_vo\hef\date.mp3|NAME:I wonder if he would like to go out with me.|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=12199315392991522593(Voice:hello)
+  |DATA|RNAM:de_todd|SNAM:Vo\EM_vo\debm\hlo_is069.mp3|NAME:My mum said I shouldn't talk to strangers. Are you a stranger?|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=12472240672755916506(Voice:idle)
+  |DATA|ONAM:dialog placeholder|RNAM:kh_kids|SNAM:Vo\EM_vo\khm\idl_em020.mp3|NAME:I really like that teacher.|SCVR:02sX3Random100|INTV:<
+
+[DUP-INF]: ID=15361149771981028998(Voice:idle)
+  |DATA|ONAM:dialog placeholder|RNAM:de_kids|FNAM:Temple|SNAM:Vo\EM_vo\Extr\dil\di_hlo027.mp3|NAME:Man, there's some impressive armor there.|SCVR:02sX3Random100|INTV:K
+
+[DUP-INF]: ID=19438214832917829447(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:de_kids|SNAM:Vo\EM_vo\dem\Hlo_Trx071.mp3|NAME:You look good.|SCVR:02sX3Random100|INTV:F
+
+[DUP-INF]: ID=21729287653063824869(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:kh_kids|SNAM:Vo\EM_vo\khf\mil_hlo25.mp3|NAME:I like you.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=23486272631905617468(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:ar_kids|SNAM:Vo\EM_vo\arm\sc_goodseeu2.mp3|NAME:It is good to see you again.|SCVR:02sX3Random100|INTV:Z
+
+[DUP-INF]: ID=26358111141228131339(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:de_kids|FNAM:Temple|SNAM:Vo\EM_vo\Extr\dil\di_hlo018.mp3|NAME:I do not like you.|SCVR:02sX3Random100|INTV:K
+
+[DUP-INF]: ID=26838102803166415857(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:no_todd|SNAM:Vo\EM_vo\nob\ma_ggirl01B.mp3|NAME:I'm a good girl.|SCVR:02sX3Random100|INTV
+
+[DUP-INF]: ID=27354309412169418921(Voice:idle)
+  |DATA|ONAM:dialog placeholder|RNAM:we_kids|SNAM:Vo\EM_vo\wef\idl_celw014.mp3|NAME:Oh... that was nice.|SCVR:02sX3Random100|INTV:P
+
+[DUP-INF]: ID=29474101192682623686(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:re_kids|DNAM:Nerevarine|SNAM:Vo\EM_vo\rem\hlo_ang003.mp3|NAME:Are you that Nerevarine dude?|SCVR:02sX4Random100|INTV: 
+
+[DUP-INF]: ID=30643282211689310551(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM|SNAM:Vo\EM_vo\Extr\blr\b00001.mp3|NAME:Hello, Lady|SCVR:02sX4Random100|INTV|SCVR:11380|INTV
+
+[DUP-INF]: ID=31486279591875028775(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:he_todd|SNAM:Vo\EM_vo\heb\Hlo_sla002.mp3|NAME:Good day to you.|SCVR:02sX4Random100|INTV: 
+
+[DUP-INF]: ID=31917273852125929475(Voice:hello)
+  |DATA|ONAM:dialog placeholder|RNAM:re_kids|SNAM:Vo\EM_vo\rem\hlo_ang053b.mp3|NAME:It's nice to see you.|SCVR:02sX3Random100|INTV:<

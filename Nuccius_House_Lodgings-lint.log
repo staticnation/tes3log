@@ -1,0 +1,19 @@
+Nuccius_House_Lodgings.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(scr_Vodunius_gone)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    vodunius nuccius
+	tribunal.esm        DIAL    ms_nuccius
+
+[MOD-INF]: ID=98057901253811951(Topic:vodunius nuccius)
+  morrowind.esm-------------->|DATA|ONAM:darvame hleran|NAME:Oh. Yes. He steers business my way, and I do him a little favor now and then. Poor fellow. I don't think he's happy here in Morrowind.|BNAM:Journal MS_Nuccius 1
+  Nuccius_House_Lodgings.esp->|DATA|ONAM:darvame hleran|NAME:Oh. Yes. He steers business my way, and I do him a little favor now and then. Poor fellow. I don't think he's happy here in Vvardenfell.|SCVR:04JX5MS_Nuccius|INTV|BNAM:Journal MS_Nuccius 1
+
+[MOD-INF]: ID=167861857297358695(Topic:vodunius nuccius)
+  morrowind.esm-------------->|DATA|ONAM:vodunius nuccius|NAME:Thank you. You're a life-saver. I'll grab the next boat out of here. Thanks again. And I hope your luck here is better than mine was.|SCVR:04JX0MS_Nuccius|INTV|SCVR:11500|INTV|BNAM:Journal MS_Nuccius 100  player->additem Nuccius_Ring 1  player->removeitem gold_001 100  removeitem Nuccius_Ring 1
+  Nuccius_House_Lodgings.esp->|DATA|ONAM:vodunius nuccius|NAME:Thank you. You're a life-saver. I'll grab the next boat out of here. Thanks again, I hope your luck here is better than mine was. With this, and the money I'll get from selling my house, I can finally leave this place.|SCVR:04JX0MS_Nuccius|INTV|SCVR:11500|INTV|BNAM:Journal MS_Nuccius 100  StartScript scr_Vodunius_gone  player->additem Nuccius_Ring 1  player->removeitem gold_001 100  removeitem Nuccius_Ring 1
+
+[MOD-INF]: ID=26386197632853930402(Journal:ms_nuccius)
+  tribunal.esm--------------->|DATA|NAME:I bought a cursed ring from Vodunius Nuccius so he would have enough gold to leave Morrowind. I hope I have better luck with the ring, and with my adventures in Morrowind, than he did.|QSTF
+  Nuccius_House_Lodgings.esp->|DATA|NAME:I bought a cursed ring from Vodunius Nuccius so he would have enough gold to leave Vvardenfell. I hope I have better luck with the ring, and with my adventures in Morrowind, than he did. He plans to sell his old home to help pay for passage to the mainland.|QSTF

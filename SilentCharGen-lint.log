@@ -1,0 +1,11 @@
+SilentCharGen.esp: DUP-REC MASTERS MENUMOD MISSVER NUMRECS OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Morrowind.esm               79821084 (plugin)   79837557 (installed size)
+    [NUMRECS]: number of records in TES3.HEDR (18) != Actual count (17)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CharGenDagger)
+	SCPT(CharGenDoorEnterCaptain)
+	SCPT(CharGenDoorExitCaptain)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    chargen boat guard 2

@@ -1,0 +1,84 @@
+Lustidrike Companion Character.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(a3_Drarenscript)
+	SCPT(a3_Goldensaintscript)
+	SCPT(a3_Mudcrab_IgrewUpInAbrokenHome)
+	SCPT(a3_Mudcrab_disablehouseitems)
+	SCPT(a3_boom)
+	SCPT(a3_catorcscript)
+	SCPT(a3_mudcrab_chestscript)
+	SCPT(a3_mudcrab_destruction)
+	SCPT(a3_mudcrab_door)
+	SCPT(a3_mudcrab_hatscript)
+	SCPT(a3_mudcrab_lustidrikescript)
+	SCPT(a3_mudcrab_particles)
+	SCPT(a3_mudcrab_ringscript)
+	SCPT(a3_mudcrab_sillytopicadder)
+	SCPT(a3_scampscript)
+	SCPT(a3_spoon_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    lustidrike
+	morrowind.esm       DIAL    ald'ruhn
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    flin
+	morrowind.esm       DIAL    greef
+	morrowind.esm       DIAL    mazte
+	morrowind.esm       DIAL    ra'gruzgob
+	morrowind.esm       DIAL    sadrith mora
+	morrowind.esm       DIAL    seyda neen
+	morrowind.esm       DIAL    shein
+	morrowind.esm       DIAL    sujamma
+	morrowind.esm       DIAL    vintage brandy
+	morrowind.esm       DIAL    vivec
+	morrowind.esm       NPC_    draren thiralas
+	morrowind.esm       NPC_    ra'gruzgob
+	tribunal.esm        DIAL    ald daedroth
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    transport to mournhold
+	tribunal.esm        DIAL    transport to vvardenfell
+
+[DUP-INF]: ID=12608017184523465(Topic:sujamma)
+  |DATA|ONAM:lustidrike|NAME:Sorry, pal. You've had enough. Go get some exercise or something.|SCVR:01500|INTV|SCVR:11514|INTV|BNAM:;Lustidrike; CHOICE 1; PC Intelligence < 30;   Goodbye
+
+[MOD-INF]: ID=30983284565264243(Topic:sujamma)
+  morrowind.esm---------------------->|DATA|ONAM:lustidrike|NAME:Free drinks, f'lah. It's on the house. Only you gotta drink it here. Don't want you drinking and flying out there.|BNAM:;Lustidrike;   Choice "Drink a mug of sujamma." 1 "Decline." 2
+  Lustidrike Companion Character.ESP->|DATA|ONAM:lustidrike|NAME:Free drinks, f'lah. It's on the house.|BNAM:;Lustidrike;   Choice "Take a mug of sujamma." 1 "Decline." 2
+
+[DUP-INF]: ID=200672762419814487(Greeting:greeting 1)
+  |DATA|ONAM:ra'gruzgob|NAME:Meow.
+
+[DUP-INF]: ID=949250262920831348(Topic:ra'gruzgob)
+  |DATA|ONAM:ra'gruzgob|NAME:Ra'Gruzgob wants some MORE MOON SUGAR HERE!
+
+[MOD-INF]: ID=1974415012532320253(Greeting:greeting 1)
+  tribunal.esm----------------------->|DATA|ONAM:lustidrike|NAME:Wanna drink, buddy? Got anything you want, so long as it's sujamma.|SCVR:01630|INTV:|BNAM:;Lustidrike [unique scamp]
+  Lustidrike Companion Character.ESP->|DATA|ONAM:lustidrike|NAME:Wanna join me for a drink, buddy? Got anything you want, so long as it's sujamma.|SCVR:01630|INTV:|BNAM:lustidrike->addtopic "Join me"
+
+[DUP-INF]: ID=2267420164175987365(Topic:little secret)
+  |DATA|ONAM:ra'gruzgob|NAME:You find Ra'Gruzgob's little secret? Ra'Gruzgob knows you like it.|SCVR:34JX3MS_RaGruzgob|INTV
+
+[DUP-INF]: ID=2484023613165571715(Topic:ald daedroth)
+  |DATA|CNAM:Scout|ANAM:Sadrith Mora|NAME:Ald Daedroth is a very impressive Daedric ruin in the Sheogorad region of northeast Vvardenfell. The site itself is on a small island between Vvardenfell and Sheogorad island to the north. Tel Mora is the closest settlement. From there you'll have to fly or water-walk; Ald Daedroth is long abandoned, and there's no boat service.|SCVR:0CsX0NoLore|INTV:|BNAM:ShowMap "Ald Daedroth"  ; scout, Sadrith Mora,
+
+[MOD-INF]: ID=5147196212838221077(Topic:sujamma)
+  morrowind.esm---------------------->|DATA|ONAM:lustidrike|NAME:Fine. You're the guest. Whatever you want.|SCVR:01500|INTV|BNAM:;Lustidrike; CHOICE 2;   Goodbye
+  Lustidrike Companion Character.ESP->|DATA|ONAM:lustidrike|NAME:Fine. You're the guest. Whatever you want.|SCVR:01500|INTV|BNAM:;Lustidrike; CHOICE 2;
+
+[MOD-INF]: ID=6916295372987327138(Greeting:greeting 1)
+  tribunal.esm----------------------->|DATA|ONAM:lustidrike|NAME:Back already? Well, go ahead, drink up. It's free.|SCVR:01630|INTV
+  Lustidrike Companion Character.ESP->|DATA|ONAM:lustidrike|NAME:Back already? Well, go ahead, drink up. It's free.|SCVR:01630|INTV|BNAM:lustidrike->addtopic "Join me"
+
+[MOD-INF]: ID=8538311742799224165(Topic:little secret)
+  tribunal.esm----------------------->|DATA|ONAM:ra'gruzgob|NAME:Ra'Gruzgob knows something you'd like. Ra'Gruzgob put it under his pillow. For the sugar-fairy.|SCVR:01500|INTV|BNAM:Journal MS_RaGruzgob 30  Player->RemoveItem "ingred_moon_sugar_01" 1  ModDisposition 10
+  Lustidrike Companion Character.ESP->|DATA|ONAM:ra'gruzgob|ANAM:Ald Daedroth, Antechamber|NAME:Ra'Gruzgob knows something you'd like. Ra'Gruzgob put it under his pillow. For the sugar-fairy.|SCVR:01500|INTV|BNAM:Journal MS_RaGruzgob 30  Player->RemoveItem "ingred_moon_sugar_01" 1  ModDisposition 10
+
+[MOD-INF]: ID=29920284962426431029(Greeting:greeting 1)
+  tribunal.esm----------------------->|DATA|ONAM:lustidrike|NAME:Back again? I dunno, pal. You look like you've had plenty. Or maybe you ALWAYS look that way.|SCVR:01514|INTV|BNAM:;Lustidrike ; PC Intelligence < 30
+  Lustidrike Companion Character.ESP->|DATA|ONAM:lustidrike|NAME:Back again? I dunno, pal. You look like you've had plenty. Or maybe you ALWAYS look that way.|SCVR:01514|INTV|BNAM:lustidrike->addtopic "Join me"
+
+[MOD-INF]: ID=31107208172548216548(Topic:sujamma)
+  morrowind.esm---------------------->|DATA|ONAM:lustidrike|NAME:Sure. Here ya go....|SCVR:01500|INTV|BNAM:;Lustidrike; CHOICE 1;  Cast Lustidrike_Cocktail Player  Goodbye
+  Lustidrike Companion Character.ESP->|DATA|ONAM:lustidrike|NAME:Sure. Here ya go....|SCVR:01500|INTV|BNAM:;Lustidrike; CHOICE 1;  set cocktailcounter to cocktailcounter + 1  player->additem a3_mudcrab_sujamma 1

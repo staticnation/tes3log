@@ -1,0 +1,45 @@
+BitterAndBlighted.ESP: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(MW_BAB_MinersReturnScript)
+	SCPT(kwamaQueenSeydaNeen)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       CREA    kwama queen_abaesen
+	morrowind.esm       DIAL    murder of processus vitellius
+	morrowind.esm       DIAL    processus' ring
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    mv_deadtaxman
+
+[MOD-INF]: ID=132381979266658957(Topic:processus' ring)
+  morrowind.esm--------->|DATA|ONAM:thavere vedrano|NAME:Oh, you've found the ring I gave him. Thank you so much, %PCName. It's good to have something to remember him by, though I'll never see him again. Here, take this. He usually traveled with a couple when he was doing his job, but he didn't this last time. If only he had....|SCVR:05IX2exquisite_ring_processus|INTV:|BNAM:Journal "MV_DeadTaxman" 90  RemoveItem "P_Restore_Health_S" 2  Player->AddItem "P_Restore_Health_S" 2  Player->RemoveItem "exquisite_ring_processus" 1  AddItem "exquisite_ring_processus" 1
+  BitterAndBlighted.ESP->|DATA|ONAM:thavere vedrano|NAME:Oh, you've found the ring I gave him. Thank you so much, %PCName. It's good to have something to remember him by, though I'll never see him again. Here, take this. He usually traveled with a couple when he was doing his job, but he didn't this last time. If only he had....|SCVR:05IX2exquisite_ring_processus|INTV:|SCVR:14JX0MV_DeadTaxman|INTV:x|BNAM:Journal "MV_DeadTaxman" 130  RemoveItem "P_Restore_Health_S" 2  Player->AddItem "P_Restore_Health_S" 2  Player->RemoveItem "exquisite_ring_processus" 1  AddItem "exquisite_ring_processus" 1
+
+[MOD-INF]: ID=215421237372325771(Topic:murder of processus vitellius)
+  morrowind.esm--------->|DATA|ONAM:foryn gilnith|NAME:Well, it's the truth. They've all been gouging us for years. The whole office is corrupt, I tell you. Once of these days, they'll get exposed, I swear it! Here, though. This was his ring. Looks like his woman gave it to him. She should probably have it. She wasn't to blame in all this.|SCVR:01500|INTV|BNAM:Journal "MV_DeadTaxman" 80  RemoveItem "Exquisite_Ring_Processus" 1  Player->AddItem "Exquisite_Ring_Processus" 1  AddTopic "Processus' Ring"
+  BitterAndBlighted.ESP->|DATA|ONAM:foryn gilnith|NAME:Well, it's the truth. They've all been gouging us for years. The whole office is corrupt, I tell you. Once of these days, they'll get exposed, I swear it! Here, though. This was his ring. Looks like his woman gave it to him. She should probably have it. She wasn't to blame in all this.|SCVR:01500|INTV|BNAM:Journal "MV_DeadTaxman" 120  RemoveItem "Exquisite_Ring_Processus" 1  Player->AddItem "Exquisite_Ring_Processus" 1  AddTopic "Processus' Ring"
+
+[MOD-INF]: ID=321671945225437535(Topic:murder of processus vitellius)
+  morrowind.esm--------->|DATA|ONAM:foryn gilnith|NAME:That fetcher? You're damn right I did him in, and a good thing, too. He was skimming a load of money from all of us honest people; overcharging us on our taxes and keeping the difference for himself. He was always flaunting his money around, showing off his new clothes and jewels. So, I killed the bastard, and left his body out there to rot, with all his ill-begotten gold still on him.|SCVR:04JX4MV_DeadTaxman|INTV:F|BNAM:Journal "MV_DeadTaxman" 70  Choice "I believe what you say. I'll say nothing to the authorities." 5 "Sorry, that is no excuse for murder, and your punishment has been decided." 6
+  BitterAndBlighted.ESP->|DATA|ONAM:foryn gilnith|NAME:That fetcher? You're damn right I did him in, and a good thing, too. He was skimming a load of money from all of us honest people; overcharging us on our taxes and keeping the difference for himself. He was always flaunting his money around, showing off his new clothes and jewels. So, I killed the bastard, and left his body out there to rot, with all his ill-begotten gold still on him.|SCVR:04JX4MV_DeadTaxman|INTV:F|SCVR:14JX3MV_DeadTaxman|INTV:0|BNAM:Journal "MV_DeadTaxman" 70  Choice "I believe what you say. I'll say nothing to the authorities." 5 "Sorry, that is no excuse for murder, and your punishment has been decided." 6
+
+[DUP-INF]: ID=419630572326932259(Topic:latest rumors)
+  |DATA|RNAM:Dark Elf|ANAM:Vivec, Telvanni|NAME:I must tell you, all this self-righteous Western clamor against slavery is really tiresome. Our right to own slaves is protected by law -- IMPERIAL law. People who free slaves are breaking the law. It's as simple as that.|SCVR:0CsX0NoLore|INTV:
+
+[MOD-INF]: ID=1023211710410632024(Topic:murder of processus vitellius)
+  morrowind.esm--------->|DATA|ONAM:chargen class|NAME:No? It figures, I suppose. Well, thank you for letting me know what had happened.|SCVR:01500|INTV|BNAM:Journal "MV_DeadTaxman" 40
+  BitterAndBlighted.ESP->|DATA|ONAM:chargen class|NAME:No? It figures, I suppose. Well, thank you for letting me know what had happened.|SCVR:01500|INTV|BNAM:Journal "MV_DeadTaxman" 110
+
+[MOD-INF]: ID=1181614601662221205(Topic:murder of processus vitellius)
+  morrowind.esm--------->|DATA|ANAM:Seyda Neen|NAME:Found his body, huh? Well, it's up to you what to do with that information. I suppose that Socucius Ergalla in the Census and Excise Office would be the one to tell, if that's your inclination.|SCVR:04JX0MV_DeadTaxman|INTV: |SCVR:1CsX0NoLore|INTV:|SCVR:27XX0thavere vedrano|INTV
+  BitterAndBlighted.ESP->|DATA|ANAM:Seyda Neen|NAME:Found his body, huh? Well, it's up to you what to do with that information. I suppose that Socucius Ergalla in the Census and Excise Office would be the one to tell, if that's your inclination.|SCVR:04JX0MV_DeadTaxman|INTV: |SCVR:1CsX0NoLore|INTV:|SCVR:27XX0thavere vedrano|INTV|SCVR:37XX0foryn gilnith|INTV
+
+[MOD-INF]: ID=1616720351991631356(Topic:murder of processus vitellius)
+  morrowind.esm--------->|DATA|ONAM:chargen class|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor.|SCVR:04JX0MV_DeadTaxman|INTV:(
+  BitterAndBlighted.ESP->|DATA|ONAM:chargen class|NAME:Quite a shame. He was a good man, and a loyal servant to the Emperor.|SCVR:04JX0MV_DeadTaxman|INTV:n
+
+[MOD-INF]: ID=2182878901212026068(Topic:murder of processus vitellius)
+  morrowind.esm--------->|DATA|ANAM:Seyda Neen|NAME:Someone finally got him, huh? Well, it's no surprise, I suppose. No one likes a tax collector, especially one who flaunts his wealth while taking our hard-earned cash. Only one who could stomach him at all was Thavere over in the lighthouse. The two of them spent some time together. Shame, really. She seemed like a nice woman.|SCVR:04JX3MV_DeadTaxman|INTV:0|SCVR:14JX5MV_DeadTaxman|INTV:F|SCVR:2CsX0NoLore|INTV:|SCVR:37XX0thavere vedrano|INTV|BNAM:Journal "MV_DeadTaxman" 50
+  BitterAndBlighted.ESP->|DATA|ANAM:Seyda Neen|NAME:Someone finally got him, huh? Well, it's no surprise, I suppose. No one likes a tax collector, especially one who flaunts his wealth while taking our hard-earned cash. Only one who could stomach him at all was Thavere over in the lighthouse. The two of them spent some time together. Shame, really. She seemed like a nice woman.|SCVR:04JX3MV_DeadTaxman|INTV:0|SCVR:14JX5MV_DeadTaxman|INTV:F|SCVR:2CsX0NoLore|INTV:|SCVR:37XX0thavere vedrano|INTV|SCVR:47XX0foryn gilnith|INTV|BNAM:Journal "MV_DeadTaxman" 50
+
+[DUP-INF]: ID=27440159621703420683(Topic:latest rumors)
+  |DATA|ANAM:Seyda Neen|NAME:These Imperial tax collectors have really started to get on everyone's nerves. Haven't seen the local one in a while, though...not that anyone is complaining.|SCVR:04JX4MV_DeadTaxman|INTV: |SCVR:1CsX0NoLore|INTV:

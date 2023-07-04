@@ -1,0 +1,76 @@
+Hide the Skooma (MCP Edit - Purist).esp: DUP-INF DUP-REC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    service refusal
+	tribunal.esm        DIAL    greeting 0
+
+[DUP-INF]: ID=62342927712254319(Greeting:greeting 0)
+  |DATA|ONAM:agronian guy|NAME:I don't want to talk about it.|BNAM:Goodbye
+
+[MOD-INF]: ID=170686103927626649(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Priest Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Priest Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=227322281661726892(Greeting:greeting 0)
+  morrowind.esm--------------------------->|DATA|CNAM:Guard|NAME:What are you doing! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Guard|NAME:What are you doing?! We'll let your actions go for now, but once you're released, stuff like that will get you arrested again.|SCVR:01490|INTV|SCVR:12fX1CharGenState|FLTV|BNAM:;for guards when you steal during chargen. He tells you it's bad and removes crime gold from your head  ;only works until char creation is done  Goodbye  Setfight 10  PayFine  SetPCCrimeLevel 0
+
+[MOD-INF]: ID=277125218205084722(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Trader Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:27XX0helviane desele|INTV|SCVR:37XX0ashumanu eraishah|INTV|SCVR:41500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=287378702993122269(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Apothecary Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Apothecary Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=437731057154051750(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Publican|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=745815156108126115(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Healer Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Healer Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=781926249198433643(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Wise Woman Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Wise Woman Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=1094918899840230767(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Pawnbroker|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Pawnbroker|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=2350820932343717228(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Alchemist Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Alchemist Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=2456544071464426424(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Trader Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:27XX0helviane desele|INTV|SCVR:37XX0ashumanu eraishah|INTV|SCVR:41500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=2797025664259225507(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Wise Woman Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Wise Woman Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=2821782961190224094(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Pawnbroker|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Pawnbroker|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=3034922702178419782(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Publican|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=3576191201815529709(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Priest Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Priest Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=27431251821030328588(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Apothecary Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Apothecary Service|NAME:You will have to get rid of that Moon Sugar if you want any services from me. I don't want any trouble.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2ingred_moon_sugar_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=27861296403221528233(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Alchemist Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Alchemist Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting
+
+[MOD-INF]: ID=29036265711176618107(Persuasion:service refusal)
+  morrowind.esm--------------------------->|DATA|CNAM:Healer Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:
+  Hide the Skooma (MCP Edit - Purist).esp->|DATA|CNAM:Healer Service|NAME:I'm not going to buy that Skooma from you. Get rid of it and then we can trade.|SCVR:0ARX0Khajiit|INTV:|SCVR:15IX2potion_skooma_01|INTV:|SCVR:21500|INTV|BNAM:set MU_MoonSugar_Count to ( Player->GetItemCount "Ingred_moon_sugar_01" )  set MU_Skooma_Count to ( Player->GetItemCount "potion_skooma_01" )  ForceGreeting

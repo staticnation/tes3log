@@ -1,0 +1,164 @@
+TR_Faction.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm            10684550 (plugin)   11064795 (installed size)
+	TR_Mainland.esm            163703637 (plugin)  163244128 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(All_Nerevarine)
+	SCPT(CountTelvanniHortator)
+	SCPT(TR_m0_NecromKeyAPlacer_sc)
+	SCPT(TR_m0_NecromKeyVPlacer_sc)
+	SCPT(TR_m1_T_CouncilorSc)
+	SCPT(TR_m1_T_DralSc)
+	SCPT(TR_m2_T_CouncilorSc)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       FACT    east empire company
+	morrowind.esm       BOOK    bk_brownbook426
+	morrowind.esm       DIAL    ahemmusa nerevarine
+	morrowind.esm       DIAL    erabenimsun nerevarine
+	morrowind.esm       DIAL    fifth trial
+	morrowind.esm       DIAL    name you nerevarine
+	morrowind.esm       DIAL    telvanni bride
+	morrowind.esm       DIAL    telvanni hortator
+	morrowind.esm       DIAL    urshilaku nerevarine
+	morrowind.esm       DIAL    zainab nerevarine
+	morrowind.esm       FACT    ashlanders
+	morrowind.esm       FACT    blades
+	morrowind.esm       FACT    clan aundae
+	morrowind.esm       FACT    clan berne
+	morrowind.esm       FACT    clan quarra
+	morrowind.esm       FACT    fighters guild
+	morrowind.esm       FACT    hlaalu
+	morrowind.esm       FACT    imperial cult
+	morrowind.esm       FACT    imperial knights
+	morrowind.esm       FACT    imperial legion
+	morrowind.esm       FACT    mages guild
+	morrowind.esm       FACT    redoran
+	morrowind.esm       FACT    sixth house
+	morrowind.esm       FACT    telvanni
+	morrowind.esm       FACT    temple
+	morrowind.esm       FACT    thieves guild
+	tr_mainland.esm     DIAL    ashkhan of the obainat
+	tr_mainland.esm     DIAL    rilvin dral
+	tribunal.esm        DIAL    b8_all_nerevarine
+	tribunal.esm        DIAL    chores
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        FACT    royal guard
+
+[MOD-INF]: ID=142899628241688(Topic:nerevarine)
+  tr_mainland.esm->|DATA|ONAM:TR_m4_Mibdinahaz|NAME:I see that Senipal is back in our camp, bringing good tidings from Volenfaryon. Yan-Ahhe also tells me you have the tribe's full support now. We couldn't have weathered this storm without your help, %PCName. Take this icon as a token of my support, so anyone may recognize you as our war leader of the Ishanuran, Nerevarine.|SCVR:04JX0TR_m4_Ish_Nerevarine|INTV:<|BNAM:Journal TR_m4_Ish_Nerevarine 100  player->additem T_De_UNI_FetishIshanuran 1  ModDisposition 30  ModReputation 2
+  TR_Faction.esp-->|DATA|ONAM:TR_m4_Mibdinahaz|NAME:I see that Senipal is back in our camp, bringing good tidings from Volenfaryon. Yan-Ahhe also tells me you have the tribe's full support now. We couldn't have weathered this storm without your help, %PCName. Take this icon as a token of my support, so anyone may recognize you as our war leader of the Ishanuran, Nerevarine.|SCVR:04JX0TR_m4_Ish_Nerevarine|INTV:<|BNAM:Journal TR_m4_Ish_Nerevarine 100  player->additem T_De_UNI_FetishIshanuran 1  ModDisposition 30  ModReputation 2  set TR_Fac_NerevarineCount to ( TR_Fac_NerevarineCount + 1 )
+
+[MOD-INF]: ID=15192301459513027(Topic:urshilaku nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:You have been named Urshilaku Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by all four Ashlander tribes, Urshilaku, Ahemmusa, Zainab, and Erabenimsun, before you have fulfilled the Fifth Trial.|SCVR:04JX3B1_UnifyUrshilaku|INTV:2
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:You have been named Urshilaku Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by four Ashlander tribes before you have fulfilled the Fifth Trial.|SCVR:04JX3B1_UnifyUrshilaku|INTV:2
+
+[MOD-INF]: ID=28791783845511839(Topic:ahemmusa nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:You have been named Ahemmusa Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by all four Ashlander tribes, Urshilaku, Ahemmusa, Zainab, and Erabenimsun, before you have fulfilled the Fifth Trial.|SCVR:04JX3B2_AhemmusaSafe|INTV:2
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:You have been named Ahemmusa Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by four Ashlander tribes before you have fulfilled the Fifth Trial.|SCVR:04JX3B2_AhemmusaSafe|INTV:2
+
+[DUP-INF]: ID=62887053404229539(Topic:telvanni hortator)
+  |DATA|ONAM:nibani maesa|NAME:I do not know the ways of wizards. I have heard they honor the tests of life and death, as we do. The ones who live, live a long time. The ones who die are forgotten. They are old, and strange, and terrible. I know little. But I am afraid. And that is my counsel to you. Be afraid. It is no time to be bold and careless. It is no time to hoard your treasures. With wizards, there are no second chances.|SCVR:34JX3A2_6_Incarnate|INTV:2
+
+[MOD-INF]: ID=97061008048819821(Topic:telvanni hortator)
+  morrowind.esm-->|DATA|ONAM:aryon|NAME:I see you've gathered the votes of all the surviving Telvanni councilors. I, too, am willing to vote for you as Hortator.  That means you are now the Hortator of House Telvanni. And I have something for you. It's called the "Robe of the Hortator." It is an ancient artifact, and hasn't been used in centuries. But I think you'll be pleased. I wish you luck, Hortator. I may even pray for you.|SCVR:04JX4B7_AryonHort|INTV:2|SCVR:12sX2HortatorVotes|INTV|BNAM:Journal "B7_TelvanniHort" 50  Journal "B7_TelvanniHort" 70  Player->ModReputation 4  Player->AddItem hortatorrobe 1
+  TR_Faction.esp->|DATA|ONAM:aryon|NAME:I see you've gathered the votes of all the surviving Telvanni councilors. I, too, am willing to vote for you as Hortator.  That means you are now the Hortator of House Telvanni. And I have something for you. It's called the "Robe of the Hortator." It is an ancient artifact, and hasn't been used in centuries. But I think you'll be pleased. I wish you luck, Hortator. I may even pray for you.|SCVR:04JX4B7_AryonHort|INTV:2|SCVR:12sX2HortatorVotes|INTV: |BNAM:Journal "B7_TelvanniHort" 50  Journal "B7_TelvanniHort" 70  Player->ModReputation 4  Player->AddItem hortatorrobe 1
+
+[MOD-INF]: ID=129062340266084658(Topic:telvanni hortator)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|DNAM:Telvanni|NAME:As sole surviving councilor of House Telvanni, you must declare yourself Hortator of House Telvanni. And when you have been declared Hortator of all three Houses, Redoran, Hlaalu, and Telvanni, then you will have fulfilled the Fourth Trial.|SCVR:02sX2TelvanniDead|INTV|SCVR:34JX3A2_6_Incarnate|INTV:2|BNAM:Journal B7_TelvanniHort 60
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|DNAM:Telvanni|NAME:As sole surviving councilor of House Telvanni, you must declare yourself Hortator of House Telvanni. And when you have been declared Hortator of all three Houses, Redoran, Hlaalu, and Telvanni, then you will have fulfilled the Fourth Trial.|SCVR:02sX2TelvanniDead|INTV|SCVR:34JX3A2_6_Incarnate|INTV:2|BNAM:Journal B7_TelvanniHort 60
+
+[MOD-INF]: ID=183431105217211580(Journal:b8_all_nerevarine)
+  tribunal.esm--->|DATA|NAME:I have been named Nerevarine by all four tribes of the Vvardenfell Ashlanders -- Urshilaku, Ahemmusa, Zainab, and Erabenimsun. Of the Seven Visions of Seven Trials of the Incarnate, I have now fulfilled the Fifth Trial.
+  TR_Faction.esp->|DATA|NAME:I have been named Nerevarine by four tribes of the Ashlanders. Of the Seven Visions of Seven Trials of the Incarnate, I have now fulfilled the Fifth Trial.
+
+[MOD-INF]: ID=183557536996218764(Topic:ahemmusa nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by the four tribes of Vvardenfell. You have fulfilled that part of the prophecy. Urshilaku, Ahemmusa, Zainab, and Erabenimsun, all have named you Nerevarine. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:04JX3B2_AhemmusaSafe|INTV:2|SCVR:14JX3B1_UnifyUrshilaku|INTV:2|SCVR:24JX3B3_ZainabBride|INTV:2|SCVR:34JX3B4_KillWarLovers|INTV:2|BNAM:Journal "B8_All_Nerevarine" 50
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:02sX3TR_Fac_NerevarineCount|INTV|BNAM:Journal "B8_All_Nerevarine" 50
+
+[MOD-INF]: ID=188218893783614073(Topic:nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:In times of great danger, the four Ashlander tribes unite under a single war leader. If you can prove to the Urshilaku, Ahemmusa, Zainab, and Erabenimsun tribes that you are the Nerevarine, and that the tribes must unite against the threat of the Sixth House, then each ashkhan will declare you 'Nerevarine' and war leader of all tribes. You must go to all the tribal ashkhans, but go first to Sul-Matuul, who is your friend, and who will surely grant you the honor.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Nibani Maesa ;Journal "A2_6_Incarnate" >= 50;   Journal "A2_6_Incarnate" 66  addtopic "Urshilaku Nerevarine"  addtopic "Ahemmusa Nerevarine"  addtopic "Zainab Nerevarine"  addtopic "Erabenimsun Nerevarine"
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:In times of great danger, the Ashlander tribes unite under a single war leader. If you can prove to four tribes that you are the Nerevarine, and that the tribes must unite against the threat of the Sixth House, then each ashkhan will declare you 'Nerevarine' and war leader of all tribes. You must go to all the tribal ashkhans, but go first to Sul-Matuul, who is your friend, and who will surely grant you the honor.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Nibani Maesa ;Journal "A2_6_Incarnate" >= 50;   Journal "A2_6_Incarnate" 66  addtopic "Urshilaku Nerevarine"  addtopic "Ahemmusa Nerevarine"  addtopic "Zainab Nerevarine"  addtopic "Erabenimsun Nerevarine"
+
+[MOD-INF]: ID=212441521742418353(Topic:name you nerevarine)
+  morrowind.esm-->|DATA|ONAM:sinnammu mirpal|NAME:You have made this place safe for the Ahemmusa. And so I name you Ahemmusa Nerevarine, War Leader of the Ahemmusa, and Protector of the People. I also give you the Madstone of the Ahemmusa, which shall be a sign to all Dunmer, that you are the Nerevarine, and that the Ahemmusa shall follow you, in all things, even unto death, until the Enemy is defeated, or until you are dead. Now, I can stay only briefly. Soon I must return to Ahemmusa camp and make preparations to relocate here.|SCVR:04JX3B2_AhemmusaSafe|INTV:(|BNAM:; Sinnammu Mirpal; Journal "B2_AhemmusaSafe" >= 40;   Journal "B2_AhemmusaSafe" 50  AiWander 512 6 0 40 30 20 0 0 0 0 0 0  Player->AddItem "Madstone" 1  Player->ModReputation 1  modDisposition 10  StartScript MoveSinnammu
+  TR_Faction.esp->|DATA|ONAM:sinnammu mirpal|NAME:You have made this place safe for the Ahemmusa. And so I name you Ahemmusa Nerevarine, War Leader of the Ahemmusa, and Protector of the People. I also give you the Madstone of the Ahemmusa, which shall be a sign to all Dunmer, that you are the Nerevarine, and that the Ahemmusa shall follow you, in all things, even unto death, until the Enemy is defeated, or until you are dead. Now, I can stay only briefly. Soon I must return to Ahemmusa camp and make preparations to relocate here.|SCVR:04JX3B2_AhemmusaSafe|INTV:(|BNAM:; Sinnammu Mirpal; Journal "B2_AhemmusaSafe" >= 40;   Journal "B2_AhemmusaSafe" 50  AiWander 512 6 0 40 30 20 0 0 0 0 0 0  Player->AddItem "Madstone" 1  Player->ModReputation 1  modDisposition 10  StartScript MoveSinnammu  set TR_Fac_NerevarineCount to ( TR_Fac_NerevarineCount + 1 )
+
+[MOD-INF]: ID=243942581231727101(Topic:fifth trial)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:The Ashlanders are sometimes called the Velothi, for the prophet Veloth who guided us to this land many, many centuries ago. And the Four Tribes are the four tribes of Vvardenfell, the Urshilaku, the Ahemmusa, the Zainab, and the Erabenimsun. It would truly be a miracle to unite these four tribes who have so long raided and warred with one another. But the Nerevarine must be one who performs miracles.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:The Ashlanders are sometimes called the Velothi, for the prophet Veloth who guided us to this land many, many centuries ago. And though there are many more than Four Tribes, tt would truly be a miracle to unite even four who have so long raided and warred with one another. But the Nerevarine must be one who performs miracles.|SCVR:04JX3A2_1_MeetSulMatuul|INTV:-
+
+[MOD-INF]: ID=290382292946215260(Topic:nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:Sul-Matuul has named you Urshilaku Nerevarine. But until you have been named Ahemmusa Nerevarine, Zainab Nerevarine, and Erabenimsun Nerevarine as well, you have not passed the Fifth Trial.|SCVR:04JX3B1_UnifyUrshilaku|INTV:2|BNAM:;Nibani Maesa ;Journal "B1_UnifyUrshilaku" >= 50;
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:Sul-Matuul has named you Urshilaku Nerevarine. But until you have been named Nerevarine by four trbes of the Ashlanders, you have not passed the Fifth Trial.|SCVR:04JX3B1_UnifyUrshilaku|INTV:2|BNAM:;Nibani Maesa ;Journal "B1_UnifyUrshilaku" >= 50;
+
+[MOD-INF]: ID=474769151409031731(Topic:telvanni hortator)
+  morrowind.esm-->|DATA|ONAM:dratha|NAME:So? You've got the votes of all the surviving Telvanni councilors? That's very good news. Now you are officially the Hortator of House Telvanni. Go with Azura's blessing. And do you know about the Robe of the Hortator? If not, you should speak with Master Aryon. It's a clan heirloom created for the Hortator, and you should have it to go with your office.|SCVR:02sX2HortatorVotes|INTV|BNAM:Journal "B7_TelvanniHort" 50
+  TR_Faction.esp->|DATA|ONAM:dratha|NAME:So? You've got the votes of all the surviving Telvanni councilors? That's very good news. Now you are officially the Hortator of House Telvanni. Go with Azura's blessing. And do you know about the Robe of the Hortator? If not, you should speak with Master Aryon. It's a clan heirloom created for the Hortator, and you should have it to go with your office.|SCVR:02sX2HortatorVotes|INTV|BNAM:Journal "B7_TelvanniHort" 50
+
+[MOD-INF]: ID=518828099127173574(Topic:zainab nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by the four tribes of Vvardenfell. You have fulfilled that part of the prophecy. Urshilaku, Ahemmusa, Zainab, and Erabenimsun, all have named you Nerevarine. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:04JX3B3_ZainabBride|INTV:2|SCVR:14JX3B1_UnifyUrshilaku|INTV:2|SCVR:24JX3B2_AhemmusaSafe|INTV:2|SCVR:34JX3B4_KillWarLovers|INTV:2|BNAM:Journal "B8_All_Nerevarine" 50
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:02sX3TR_Fac_NerevarineCount|INTV|BNAM:Journal "B8_All_Nerevarine" 50
+
+[MOD-INF]: ID=1772430844181427661(Topic:telvanni bride)
+  morrowind.esm-->|DATA|ONAM:kaushad|NAME:This is my new bride? I am very pleased with your gift, %PCName... though she is not so generous in the hips as I would like. I promise to make her a happy bride, and to do her honor as a high-born Telvanni lady. And, as I have said, I will now name you Zainab Nerevarine, War Leader of the Zainab, and Protector of the People. I must also give you the Zainab Thong, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Zainab have named you Nerevarine.|SCVR:04JX3B3_ZainabBride|INTV:/|BNAM:;Ashkhan Kaushad; Journal "B3_ZainabBride" >= 47;   Journal "B3_ZainabBride" 50  ModDisposition 20  Player->ModReputation 1  Player->additem "Thong" 1
+  TR_Faction.esp->|DATA|ONAM:kaushad|NAME:This is my new bride? I am very pleased with your gift, %PCName... though she is not so generous in the hips as I would like. I promise to make her a happy bride, and to do her honor as a high-born Telvanni lady. And, as I have said, I will now name you Zainab Nerevarine, War Leader of the Zainab, and Protector of the People. I must also give you the Zainab Thong, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Zainab have named you Nerevarine.|SCVR:04JX3B3_ZainabBride|INTV:/|BNAM:;Ashkhan Kaushad; Journal "B3_ZainabBride" >= 47;   Journal "B3_ZainabBride" 50  ModDisposition 20  Player->ModReputation 1  Player->additem "Thong" 1  set TR_Fac_NerevarineCount to ( TR_Fac_NerevarineCount + 1 )
+
+[MOD-INF]: ID=2124324789138728996(Topic:zainab nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:You have been named Zainab Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by all four Ashlander tribes, Urshilaku, Ahemmusa, Zainab, and Erabenimsun, before you have fulfilled the Fifth Trial.|SCVR:04JX3B3_ZainabBride|INTV:2
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:You have been named Zainab Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by four Ashlander tribes before you have fulfilled the Fifth Trial.|SCVR:04JX3B3_ZainabBride|INTV:2
+
+[MOD-INF]: ID=2247352503238118193(Topic:telvanni hortator)
+  morrowind.esm-->|DATA|ONAM:aryon|NAME:I see you've gathered the votes of all the surviving Telvanni councilors. That means you are now the Hortator of House Telvanni. And I have something for you. It's called the "Robe of the Hortator." It is an ancient artifact, and hasn't been used in centuries. But I think you'll be pleased. I wish you luck, Hortator. I may even pray for you.|SCVR:02sX2HortatorVotes|INTV|BNAM:Journal "B7_TelvanniHort" 50  Journal "B7_TelvanniHort" 70  Player->ModReputation 4  Player->AddItem hortatorrobe 1
+  TR_Faction.esp->|DATA|ONAM:aryon|NAME:I see you've gathered the votes of all the surviving Telvanni councilors. That means you are now the Hortator of House Telvanni. And I have something for you. It's called the "Robe of the Hortator." It is an ancient artifact, and hasn't been used in centuries. But I think you'll be pleased. I wish you luck, Hortator. I may even pray for you.|SCVR:02sX2HortatorVotes|INTV|BNAM:Journal "B7_TelvanniHort" 50  Journal "B7_TelvanniHort" 70  Player->ModReputation 4  Player->AddItem hortatorrobe 1
+
+[MOD-INF]: ID=2474023659324475839(Topic:erabenimsun nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by the four tribes of Vvardenfell. You have fulfilled that part of the prophecy. Urshilaku, Ahemmusa, Zainab, and Erabenimsun, all have named you Nerevarine. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:04JX3B4_KillWarLovers|INTV:2|SCVR:14JX3B1_UnifyUrshilaku|INTV:2|SCVR:24JX3B2_AhemmusaSafe|INTV:2|SCVR:34JX3B3_ZainabBride|INTV:2|BNAM:Journal "B8_All_Nerevarine" 50
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:02sX3TR_Fac_NerevarineCount|INTV|BNAM:Journal "B8_All_Nerevarine" 50
+
+[MOD-INF]: ID=2540886782558121314(Topic:name you nerevarine)
+  morrowind.esm-->|DATA|ONAM:han-ammu|NAME:Thank you, %PCName. I promise that, as ashkhan, I shall do my best to amend the dark reputation of the Erabenimsun. And as my first action as chief, I now name you Erabenimsun Nerevarine, Champion of the Erabenimsun, and Protector of the People. You must also go to wise woman Manirai and get from her the Seizing of the Erabenimsun, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Erabenimsun have named you Nerevarine.|SCVR:04JX3B4_KillWarLovers|INTV:#|BNAM:; Han-Ammu; Journal "B4_KillWarLovers" >= 35  Journal "B4_KillWarLovers" 50  Player->ModReputation 1
+  TR_Faction.esp->|DATA|ONAM:han-ammu|NAME:Thank you, %PCName. I promise that, as ashkhan, I shall do my best to amend the dark reputation of the Erabenimsun. And as my first action as chief, I now name you Erabenimsun Nerevarine, Champion of the Erabenimsun, and Protector of the People. You must also go to wise woman Manirai and get from her the Seizing of the Erabenimsun, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Erabenimsun have named you Nerevarine.|SCVR:04JX3B4_KillWarLovers|INTV:#|BNAM:; Han-Ammu; Journal "B4_KillWarLovers" >= 35  Journal "B4_KillWarLovers" 50  Player->ModReputation 1  set TR_Fac_NerevarineCount to ( TR_Fac_NerevarineCount + 1 )
+
+[MOD-INF]: ID=2596722682133732133(Topic:telvanni hortator)
+  morrowind.esm-->|DATA|ONAM:neloth|NAME:So? You got the votes of all the surviving Telvanni councilors? Yes, I know. That means you are Hortator of House Telvanni. But what makes you think I give a damn? Go pester Master Aryon if you want someone to talk to.|SCVR:02sX2HortatorVotes|INTV|BNAM:Journal B7_TelvanniHort 50
+  TR_Faction.esp->|DATA|ONAM:neloth|NAME:So? You got the votes of all the surviving Telvanni councilors? Yes, I know. That means you are Hortator of House Telvanni. But what makes you think I give a damn? Go pester Master Aryon if you want someone to talk to.|SCVR:02sX2HortatorVotes|INTV|BNAM:Journal B7_TelvanniHort 50
+
+[MOD-INF]: ID=2664515124226204483(Topic:fifth trial)
+  morrowind.esm-->|DATA|ONAM:sul-matuul|NAME:Thus are joined the four tribes of the Ashlanders under one leader, %PCName, the Nerevarine. Ahemmusa, Zainab, Erabenimsun, and Urshilaku, together, will hunt the creatures of Dagoth Ur.|SCVR:04JX3B8_All_Nerevarine|INTV:2
+  TR_Faction.esp->|DATA|ONAM:sul-matuul|NAME:Thus are joined four tribes of the Ashlanders under one leader, %PCName, the Nerevarine. and together we will hunt the creatures of Dagoth Ur.|SCVR:04JX3B8_All_Nerevarine|INTV:2|SCVR:14JX3B1_UnifyUrshilaku|INTV:2
+
+[MOD-INF]: ID=2760712338141454142(Topic:urshilaku nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by the four tribes of Vvardenfell. You have fulfilled that part of the prophecy. Urshilaku, Ahemmusa, Zainab, and Erabenimsun, all have named you Nerevarine. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:04JX3B1_UnifyUrshilaku|INTV:2|SCVR:14JX3B2_AhemmusaSafe|INTV:2|SCVR:24JX3B3_ZainabBride|INTV:2|SCVR:34JX3B4_KillWarLovers|INTV:2|BNAM:Journal "B8_All_Nerevarine" 50
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:02sX3TR_Fac_NerevarineCount|INTV|BNAM:Journal "B8_All_Nerevarine" 50
+
+[MOD-INF]: ID=3255012304291042968(Topic:ashkhan of the obainat)
+  tr_mainland.esm->|DATA|ONAM:TR_m4_Musa Ashadallit|NAME:I also name you Obainat Nerevarine, Champion of the Obainat, and Protector of the People. I give you the Sash of the Obainat. Let it be a sign to all Dunmer, that you are the Nerevarine, and that the Obainat shall follow you, in all things, even to death. May the Sash aid you well in your journey.|SCVR:04JX3TR_m4_Ob_Ancestral_Guidance|INTV:<|SCVR:11500|INTV|BNAM:Journal TR_m4_Ob_Ancestral_Guidance 100  Player->AddItem T_De_UNI_SashObainat 1  ModDisposition 10  Player->ModReputation 2
+  TR_Faction.esp-->|DATA|ONAM:TR_m4_Musa Ashadallit|NAME:I also name you Obainat Nerevarine, Champion of the Obainat, and Protector of the People. I give you the Sash of the Obainat. Let it be a sign to all Dunmer, that you are the Nerevarine, and that the Obainat shall follow you, in all things, even to death. May the Sash aid you well in your journey.|SCVR:04JX3TR_m4_Ob_Ancestral_Guidance|INTV:<|SCVR:11500|INTV|BNAM:Journal TR_m4_Ob_Ancestral_Guidance 100  Player->AddItem T_De_UNI_SashObainat 1  set TR_Fac_NerevarineCount to ( TR_Fac_NerevarineCount + 1 )  ModDisposition 10  Player->ModReputation 2
+
+[MOD-INF]: ID=6591144992537117246(Topic:fifth trial)
+  morrowind.esm-->|DATA|ONAM:sul-matuul|NAME:The Fifth Trial is to join the four tribes of the Ashlanders under the Nerevarine. They must put aside pride and tribal squabbles and together face the blighted hosts of Dagoth Ur. The Urshilaku shall name you Nerevarine, but you must concern yourself with the other tribes: the meek Ahemmusa, the wily Zainab, and the war-loving Erabenimsun. They may not be so quick in naming the Nerevarine as the Urshilaku.|SCVR:04JX3B1_UnifyUrshilaku|INTV|BNAM:;Sul-Matuul; Journal "A2_6_Incarnate" >= 50;
+  TR_Faction.esp->|DATA|ONAM:sul-matuul|NAME:The Fifth Trial is to join four tribes of the Ashlanders under the Nerevarine. They must put aside pride and tribal squabbles and together face the blighted hosts of Dagoth Ur. The Urshilaku shall name you Nerevarine, but you must concern yourself with the other tribes: the meek Ahemmusa, the wily Zainab, the war-loving Erabenimsun, the tenacious Ishanuran, and the foundling Obainat. They may not be so quick in naming the Nerevarine as the Urshilaku.|SCVR:04JX3B1_UnifyUrshilaku|INTV|BNAM:;Sul-Matuul; Journal "A2_6_Incarnate" >= 50;
+
+[MOD-INF]: ID=7095151171620528009(Topic:telvanni hortator)
+  morrowind.esm-->|DATA|ONAM:therana|NAME:You gave all the councilors a hormador? No? That thing you showed me, then? I'm glad, dear, really.|SCVR:02sX2HortatorVotes|INTV|BNAM:Journal "B7_TelvanniHort" 50  Goodbye
+  TR_Faction.esp->|DATA|ONAM:therana|NAME:You gave all the councilors a hormador? No? That thing you showed me, then? I'm glad, dear, really.|SCVR:02sX2HortatorVotes|INTV|BNAM:Journal "B7_TelvanniHort" 50  Goodbye
+
+[DUP-INF]: ID=11402119741660918784(Topic:telvanni hortator)
+  |DATA|ONAM:baladas demnevanni|DNAM:Telvanni|NAME:Speak with Master Aryon, Archmagister. He must give you the Robe of the Hortator.
+
+[MOD-INF]: ID=18847189093137628129(Topic:nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by the four tribes of Vvardenfell. You have fulfilled that part of the prophecy. Urshilaku, Ahemmusa, Zainab, and Erabenimsun, all have named you Nerevarine. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:04JX3B1_UnifyUrshilaku|INTV:2|SCVR:14JX3B2_AhemmusaSafe|INTV:2|SCVR:24JX3B3_ZainabBride|INTV:2|SCVR:34JX3B4_KillWarLovers|INTV:2|BNAM:;Nibani Maesa ;  Journal "B8_All_Nerevarine" 50
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by four tribes of the Ashlanders. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:02sX3TR_Fac_NerevarineCount|INTV|BNAM:;Nibani Maesa ;  Journal "B8_All_Nerevarine" 50
+
+[MOD-INF]: ID=24096222712567117956(Topic:erabenimsun nerevarine)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:You have been named Erabenimsun Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by all four Ashlander tribes, Urshilaku, Ahemmusa, Zainab, and Erabenimsun, before you have fulfilled the Fifth Trial.|SCVR:04JX3B4_KillWarLovers|INTV:2
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:You have been named Erabenimsun Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by four Ashlander tribes before you have fulfilled the Fifth Trial.|SCVR:04JX3B4_KillWarLovers|INTV:2
+
+[MOD-INF]: ID=28005266921576122606(Topic:fifth trial)
+  morrowind.esm-->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by the four tribes of Vvardenfell. You have fulfilled that part of the prophecy. Urshilaku, Ahemmusa, Zainab, and Erabenimsun, all have named you Nerevarine. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:04JX3B1_UnifyUrshilaku|INTV:2|SCVR:14JX3B2_AhemmusaSafe|INTV:2|SCVR:24JX3B3_ZainabBride|INTV:2|SCVR:34JX3B4_KillWarLovers|INTV:2|BNAM:;Nibani Maesa
+  TR_Faction.esp->|DATA|ONAM:nibani maesa|NAME:You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.|SCVR:02sX3TR_Fac_NerevarineCount|INTV|BNAM:;Nibani Maesa
+
+[MOD-INF]: ID=31000125462503519757(Topic:urshilaku nerevarine)
+  morrowind.esm-->|DATA|ONAM:sul-matuul|NAME:Before my hearth and kin, and before the People of the Wastes, I name you Urshilaku Nerevarine, War Leader of the Urshilaku, and Protector of the People. In token of this, I give you the Teeth, which shall be a sign to all Dunmer, that you are the Nerevarine, and that the Urshilaku shall follow you, in all things, even unto death, until the Enemy is defeated, or until you are dead, or until you give this back into my hand.|SCVR:04JX3B1_UnifyUrshilaku|INTV|BNAM:; Sul-Matuul; Journal "B1_UnifyUrshilaku" >= 25;   Journal "B1_UnifyUrshilaku" 50  ModDisposition 10  Player->ModReputation 2  Player->AddItem "Teeth" 1
+  TR_Faction.esp->|DATA|ONAM:sul-matuul|NAME:Before my hearth and kin, and before the People of the Wastes, I name you Urshilaku Nerevarine, War Leader of the Urshilaku, and Protector of the People. In token of this, I give you the Teeth, which shall be a sign to all Dunmer, that you are the Nerevarine, and that the Urshilaku shall follow you, in all things, even unto death, until the Enemy is defeated, or until you are dead, or until you give this back into my hand.|SCVR:04JX3B1_UnifyUrshilaku|INTV|BNAM:; Sul-Matuul; Journal "B1_UnifyUrshilaku" >= 25;   Journal "B1_UnifyUrshilaku" 50  ModDisposition 10  Player->ModReputation 2  Player->AddItem "Teeth" 1  set TR_Fac_NerevarineCount to ( TR_Fac_NerevarineCount + 1 )

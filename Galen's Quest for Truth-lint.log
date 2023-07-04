@@ -1,0 +1,43 @@
+Galen's Quest for Truth.ESP: AUTOSPL DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	aa_ws_galen_heal               Cure Common Disease on Other
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(aa_ws_apparatus_enable)
+	SCPT(aa_ws_galen_script)
+	SCPT(aa_ws_hood_script)
+	SCPT(aa_ws_ink_enable)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       DIAL    corprusarium
+	morrowind.esm       DIAL    divayth fyr
+	morrowind.esm       DIAL    mehra milo
+	morrowind.esm       DIAL    ordinators
+	morrowind.esm       DIAL    tel fyr
+	morrowind.esm       DIAL    the divine disease
+	morrowind.esm       LAND    (5, -14)
+	morrowind.esm       LAND    (6, -14)
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       PGRD    ascadian isles region
+	tribunal.esm        DIAL    dissident priests
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    ai_tilled_dirt
+
+[MOD-INF]: ID=1855866026344123(Topic:the divine disease)
+  morrowind.esm--------------->|DATA|ONAM:divayth fyr|NAME:The magical principles of corprus disease are elusive and miraculous, far more subtle and powerful than any conventional sorcery or enchantment. I'm persuaded that it is in some manner the curse or blessing of a god. Perhaps both a curse and a blessing. The victim, of course, cannot appreciate the marvelous nature of corprus. It saps the mind and destroys the body. But to a wizard, it is a profound and glorious mystery, a riddle worth a long lifetime of study.
+  Galen's Quest for Truth.ESP->|DATA|ONAM:divayth fyr|NAME:The magical principles of corprus disease are elusive and miraculous, far more subtle and powerful than any conventional sorcery or enchantment. I'm persuaded that it is in some manner the curse or blessing of a god. Perhaps both a curse and a blessing. The victim, of course, cannot appreciate the marvelous nature of corprus. It saps the mind and destroys the body. But to a wizard, it is a profound and glorious mystery, a riddle worth a long lifetime of study.|BNAM:journal aa_ws_galen01 5
+
+[MOD-INF]: ID=90545112261530298(Topic:dissident priests)
+  morrowind.esm--------------->|DATA|ONAM:gilvas barelo|NAME:A significant part of the Temple hierarchy might be more inclined to accept and tolerate differences of opinion in dogma. But other parts of the Temple, in particular, the Ordinators under Berel Sala, claim that the threat from Red Mountain and Dagoth Ur can only be resisted with a unified, resolute faith. The people are afraid, so they support the hard line. But if we can show ourselves able to confront Dagoth Ur more effectively than the Ordinators, the Temple and the people will support us.|SCVR:04JX2A2_4_MiloGone|INTV|BNAM:;Gilvas Barelo;   Journal "A2_4_MiloGone" 42
+  Galen's Quest for Truth.ESP->|DATA|ONAM:gilvas barelo|NAME:-------------A significant part of the Temple hierarchy might be more inclined to accept and tolerate differences of opinion in dogma. But other parts of the Temple, in particular, the Ordinators under Berel Sala, claim that the threat from Red Mountain and |DSCV|INTV|BNAM:;Gilvas Barelo;   Journal "A2_4_MiloGone" 42
+
+[MOD-INF]: ID=654326661407412646(Topic:dissident priests)
+  morrowind.esm--------------->|DATA|ANAM:Holamayan Monastery|NAME:Now that Lord Vivec has proclaimed an end to the persecution of the Dissident priests, perhaps we can hope for reconciliation with the Temple.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:;Holamayan; Holamayan Monastery; Journal "A2_4_MiloGone" >= 20
+  Galen's Quest for Truth.ESP->|DATA|ANAM:Holamayan Monastery|NAME:Now that Lord Vivec has proclaimed an end to the persecution of the dissident priests, perhaps we can hope for reconciliation with the Temple.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:;Holamayan; Holamayan Monastery; Journal "A2_4_MiloGone" >= 20

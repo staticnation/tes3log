@@ -1,0 +1,16 @@
+FGI_SadrithMora_Pudai.esp: DUP-INF DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (17) != Actual count (15)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    pudai egg mine
+
+[MOD-INF]: ID=268591172097622974(Topic:pudai egg mine)
+  morrowind.esm------------->|DATA|ONAM:hrundi|NAME:No one knows exactly where the Pudai Egg Mine is. I believe it is somewhere on or near the island of Sheogorad north of here. It is said that there are seven eggs of gold there. If you find Pudai and these eggs, bring them to me. I wouldn't worry too much if you can't find it. No one else has, but it's the only contract I've got right now.|BNAM:Journal FG_FindPudai 10
+  FGI_SadrithMora_Pudai.esp->|DATA|ONAM:hrundi|NAME:No one knows exactly where the Pudai Egg Mine is. I believe it is somewhere on or near the island of Sheogorad north of here. It is said that there are seven eggs of gold there. If you find Pudai and these eggs, bring them to me. I wouldn't worry too much if you can't find it. No one else has, but it's the only contract I've got right now.|SCVR:04JX3FG_EngaerBounty|INTV:d|BNAM:Journal FG_FindPudai 10
+
+[DUP-INF]: ID=293001017149137691(Topic:pudai egg mine)
+  |DATA|ONAM:hrundi|NAME:You've been expelled from the Fighters Guild. Until you make amends, I can't talk to you about this contract.|SCVR:01390|INTV
+
+[MOD-INF]: ID=30688139953226211452(Topic:pudai egg mine)
+  morrowind.esm------------->|DATA|ONAM:hrundi|NAME:Well! These are the Eggs of Gold. I'll tell you I honestly didn't believe they existed. Good work, %PCRank. Our client, a Telvanni, is paying us well. Take these 10,000 septims.|SCVR:01500|INTV|SCVR:15IX3misc_uniq_egg_of_gold|INTV|BNAM:Journal FG_FindPudai 100  Player->RemoveItem misc_uniq_egg_of_gold 7  AddItem misc_uniq_egg_of_gold 7  Player->AddItem Gold_001 10000  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15
+  FGI_SadrithMora_Pudai.esp->|DATA|ONAM:hrundi|NAME:Well! These are the Eggs of Gold. I'll tell you I honestly didn't believe they existed. Good work, %PCRank. Our client, a Telvanni, is paying us well. Take these 10,000 septims.|SCVR:01500|INTV|SCVR:15IX3misc_uniq_egg_of_gold|INTV|BNAM:Journal FG_FindPudai 100  Player->RemoveItem misc_uniq_egg_of_gold 7  AddItem misc_uniq_egg_of_gold 7  Player->AddItem Gold_001 10000  ModPCFacRep 5 "Fighters Guild"  ModDisposition 15  Player->ModReputation 1

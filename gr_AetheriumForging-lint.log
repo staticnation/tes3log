@@ -1,0 +1,10 @@
+gr_AetheriumForging.esp: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(gr_aetherglowshrink)
+	SCPT(gr_aetherium_cuirass_script)
+	SCPT(gr_aetherium_helm_script)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       LEVI    random_diamond
+	morrowind.esm       LEVI    random_ebony
+	morrowind.esm       LEVI    random_rawglass

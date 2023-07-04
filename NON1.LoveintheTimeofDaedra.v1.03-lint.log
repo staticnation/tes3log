@@ -1,0 +1,37 @@
+NON1.LoveintheTimeofDaedra.v1.03.esp: DUP-REC GETSND MENUMOD MISSVER OVR-REC
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(NON1_RalosCompSc2)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(NON1_AncestorReward)
+	SCPT(NON1_BoundSound)
+	SCPT(NON1_BountSound2)
+	SCPT(NON1_GhostGirlBye)
+	SCPT(NON1_GhostGirlCurse)
+	SCPT(NON1_Ralos2Sc)
+	SCPT(NON1_b3d_excalibur_script)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    rock_coastal
+	morrowind.esm       LTEX    sand
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       SNDG    
+	morrowind.esm       DIAL    go free
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       LAND    (10, 24)
+	morrowind.esm       LAND    (10, 25)
+	morrowind.esm       LAND    (10, 26)
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    daedric_scrubruins
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    tx_land_darkstone01.tga
+	morrowind.esm       LTEX    tx_land_darkstone02.tga
+	morrowind.esm       LTEX    tx_rocky_mt.tga
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_rock
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    my trade

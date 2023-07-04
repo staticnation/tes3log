@@ -1,0 +1,62 @@
+dh_homes.esp: DUP-INF DUP-REC MENUMOD MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (245) != Actual count (173)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(dhscr_home_door_01)
+	SCPT(dhscr_home_door_02)
+	SCPT(dhscr_home_door_03)
+	SCPT(dhscr_home_door_04)
+	SCPT(dhscr_home_door_05)
+	SCPT(dhscr_home_door_06)
+	SCPT(dhscr_home_door_07)
+	SCPT(dhscr_home_lightstand)
+	SCPT(dhscr_home_post_01)
+	SCPT(dhscr_home_post_02)
+	SCPT(dhscr_home_post_03)
+	SCPT(dhscr_home_post_04)
+	SCPT(dhscr_home_post_05)
+	SCPT(dhscr_home_post_06)
+	SCPT(dhscr_home_post_07)
+	SCPT(dhscr_home_salesman)
+	SCPT(dhscr_home_well)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        LTEX    ai_grass_cobbles
+	tribunal.esm        LTEX    ai_grass_rocky
+	tribunal.esm        LTEX    rm_rock_01
+	tribunal.esm        LTEX    rock_coastal
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	bloodmoon.esm       LTEX    wg_road
+	morrowind.esm       LAND    (-2, -3)
+	morrowind.esm       LAND    (-3, -3)
+	morrowind.esm       LAND    (2, -14)
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_ai_mudflats_01.tga
+	morrowind.esm       LTEX    tx_bc_mainroad_01.tga
+	morrowind.esm       LTEX    tx_rock_wg_01.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        LTEX    ai_clover
+	tribunal.esm        LTEX    ai_dirt
+	tribunal.esm        LTEX    ai_dirtroad
+	tribunal.esm        LTEX    ai_grass
+	tribunal.esm        LTEX    ai_grass_02
+	tribunal.esm        LTEX    ai_grass_dirt
+	tribunal.esm        LTEX    rm_grayrock
+
+[DUP-INF]: ID=32281390961219948(Topic:my trade)
+  |DATA|ONAM:Vedam Dren|NAME:I am a noble, a leader and diplomat.
+
+[DUP-INF]: ID=190592792723126084(Greeting:greeting 1)
+  |DATA|ONAM:Furius Acilius|NAME:What are you doing here? Those bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay. And you will tell no one!|BNAM:SetFight 100  StartCombat Player  Goodbye

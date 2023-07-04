@@ -1,0 +1,46 @@
+use_curses_for_curses.esp: AUTOSPL DUP-REC MENUMOD MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	curseremove                    Remove Curse
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(BILL_GTs_Cursed_Chest_Curse)
+	SCPT(BILL_MarksDaedraSummonCurse)
+	SCPT(BILL_MarksDaedraSummon_Curse)
+	SCPT(BILL_MarksDwvGhostSummonCurse)
+	SCPT(BILL_MarksDwvGhostSummon_Curse)
+	SCPT(BILL_MarksSpiritSummonCurse)
+	SCPT(BILL_MarksSpiritSummon_Curse)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       WEAP    silver dagger_hanin cursed
+	morrowind.esm       ACTI    furn_imp_altar_cure_01
+	morrowind.esm       ACTI    furn_shrine_aralor_cure_01
+	morrowind.esm       ACTI    furn_shrine_delyn_cure_01
+	morrowind.esm       ACTI    furn_shrine_felms_cure_01
+	morrowind.esm       ACTI    furn_shrine_llothis_cure_01
+	morrowind.esm       ACTI    furn_shrine_meris_cure_01
+	morrowind.esm       ACTI    furn_shrine_nerevar_cure_01
+	morrowind.esm       ACTI    furn_shrine_olms_cure_01
+	morrowind.esm       ACTI    furn_shrine_rilm_cure_01
+	morrowind.esm       ACTI    furn_shrine_roris_cure_01
+	morrowind.esm       ACTI    furn_shrine_seryn_cure_01
+	morrowind.esm       ACTI    furn_shrine_vivec_cure_01
+	morrowind.esm       ARMO    imperial helmet armor_dae_curse
+	morrowind.esm       CONT    chest_tomb_sandas
+	morrowind.esm       CONT    com_chest_daed_cursed
+	morrowind.esm       INGR    ingred_cursed_daedras_heart_01
+	morrowind.esm       INGR    ingred_dae_cursed_diamond_01
+	morrowind.esm       INGR    ingred_dae_cursed_emerald_01
+	morrowind.esm       INGR    ingred_dae_cursed_pearl_01
+	morrowind.esm       INGR    ingred_dae_cursed_raw_ebony_01
+	morrowind.esm       INGR    ingred_dae_cursed_ruby_01
+	morrowind.esm       LEVI    random_scroll_all
+	morrowind.esm       LIGH    light_com_dae_cursed_candle_10
+	morrowind.esm       MISC    misc_dwrv_cursed_coin00
+	morrowind.esm       NPC_    dileno lloran
+	morrowind.esm       NPC_    lalatia varian
+	morrowind.esm       NPC_    sharn gra-muzgob
+	morrowind.esm       WEAP    ebony broadsword_dae_cursed
+	morrowind.esm       WEAP    fiend spear_dae_cursed
+	morrowind.esm       WEAP    glass dagger_dae_cursed
+	tribunal.esm        ACTI    furn_shrine_tribunal_cure_01
+	tribunal.esm        ACTI    furn_shrine_veloth_cure_01

@@ -1,0 +1,18 @@
+Leeches_.esp: DUP-REC MENUMOD MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(leech_LockedDoor_s)
+	SCPT(leech_elva_greet_s)
+	SCPT(leech_leader_greet_s)
+	SCPT(leech_npc_tilse_s)
+	SCPT(leech_pi_dayskip_s)
+	SCPT(leech_pi_door01_s)
+	SCPT(leech_pi_door02_s)
+	SCPT(leech_rockBlock_s)
+	SCPT(leech_rowboat_s)
+	SCPT(leech_sewerDoor_s)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       SNDG    
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors

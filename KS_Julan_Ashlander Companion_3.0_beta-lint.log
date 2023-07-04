@@ -1,0 +1,400 @@
+KS_Julan_Ashlander Companion_3.0_beta.esp: DUP-INF DUP-REC GETSND JUNKCEL MENUMOD MOD-INF OVR-REC SCRDOOR
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(KS_Jul_Knockout)
+	SCPT(KS_JulanScript)
+	SCPT(KS_Sha_Knockout)
+	SCPT(KS_ShaniFountain)
+	SCPT(KS_ShaniScript)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(KS_AssammaSpeech)
+	SCPT(KS_BM_WHtrigger)
+	SCPT(KS_Bloodsound)
+	SCPT(KS_CavernIncarnateDoor)
+	SCPT(KS_DreamNote)
+	SCPT(KS_DreughStuff)
+	SCPT(KS_JulWedHello)
+	SCPT(KS_Jul_Bearhat)
+	SCPT(KS_Jul_NChoiceF)
+	SCPT(KS_Jul_NChoiceM)
+	SCPT(KS_Jul_PCP)
+	SCPT(KS_Jul_RMCheck)
+	SCPT(KS_Jul_Sleep)
+	SCPT(KS_Jul_SpellLearn)
+	SCPT(KS_Jul_StripArmor2)
+	SCPT(KS_Jul_StripArmor3)
+	SCPT(KS_Jul_StripArmor4)
+	SCPT(KS_Jul_TrainCheck2)
+	SCPT(KS_Jul_TrainPlayer1)
+	SCPT(KS_Jul_Traincheck)
+	SCPT(KS_Jul_Traincost)
+	SCPT(KS_JulanAttrib)
+	SCPT(KS_JulanEndMod2)
+	SCPT(KS_JulanNight)
+	SCPT(KS_JulanOriFF)
+	SCPT(KS_JulanOriFM)
+	SCPT(KS_JulanOriMF)
+	SCPT(KS_JulanOriMM)
+	SCPT(KS_JulanSkills)
+	SCPT(KS_Julan_Enable)
+	SCPT(KS_Julan_Magicka)
+	SCPT(KS_Julan_Reset)
+	SCPT(KS_Julan_StartScript)
+	SCPT(KS_Julan_TrainScript)
+	SCPT(KS_Sha_Level)
+	SCPT(KS_Sha_Sleep)
+	SCPT(KS_Sha_WWBoxScript)
+	SCPT(KS_Sha_WWBoxTargetScript)
+	SCPT(KS_ShaniChoice1)
+	SCPT(KS_ShaniChoice2a)
+	SCPT(KS_ShaniChoice2b)
+	SCPT(KS_ShaniChoice2c)
+	SCPT(KS_ShaniShield)
+	SCPT(KS_ShaniSkills)
+	SCPT(KS_ShaniWWAttrib)
+	SCPT(KS_Shani_Amuletscript)
+	SCPT(KS_Shani_Wolfgift)
+	SCPT(KS_Sound_chimes_wood)
+	SCPT(KS_Sound_water_drip)
+	SCPT(KS_WedMusicScript)
+	SCPT(KS_WedRoomScript)
+	SCPT(ks_deleteme)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	in_ci_door_01                        KS_CavernIncarnateDoor
+    [JUNKCEL] Junk Cells:                        Flags
+	Azura's Coast Region (11, 17)            0x02
+	Azura's Coast Region (11, 19)            0x02
+	Azura's Coast Region (12, 18)            0x02
+	Grazelands Region (8, 5)                 0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    antonius nuncius
+	bloodmoon.esm       DIAL    bears
+	bloodmoon.esm       DIAL    berserkers
+	bloodmoon.esm       DIAL    bonewolves
+	bloodmoon.esm       DIAL    captain carius
+	bloodmoon.esm       DIAL    carnius magius
+	bloodmoon.esm       DIAL    castle karstaag
+	bloodmoon.esm       DIAL    draugr
+	bloodmoon.esm       DIAL    dry fort
+	bloodmoon.esm       DIAL    erich the unworthy
+	bloodmoon.esm       DIAL    exile
+	bloodmoon.esm       DIAL    falco galenus
+	bloodmoon.esm       DIAL    flee
+	bloodmoon.esm       DIAL    fort frostmoth
+	bloodmoon.esm       DIAL    fryse hags
+	bloodmoon.esm       DIAL    grahl
+	bloodmoon.esm       DIAL    hire guards
+	bloodmoon.esm       DIAL    horkers
+	bloodmoon.esm       DIAL    investigate a crime
+	bloodmoon.esm       DIAL    korst wind-eye
+	bloodmoon.esm       DIAL    lake fjalding
+	bloodmoon.esm       DIAL    mead
+	bloodmoon.esm       DIAL    mirisa never returned
+	bloodmoon.esm       DIAL    mortrag glacier
+	bloodmoon.esm       DIAL    nord village
+	bloodmoon.esm       DIAL    oneness
+	bloodmoon.esm       DIAL    raven rock
+	bloodmoon.esm       DIAL    reavers
+	bloodmoon.esm       DIAL    restore the power of the skaal
+	bloodmoon.esm       DIAL    rieklings
+	bloodmoon.esm       DIAL    risi ice-mane
+	bloodmoon.esm       DIAL    ristaag
+	bloodmoon.esm       DIAL    ritual of the gifts
+	bloodmoon.esm       DIAL    service refusal
+	bloodmoon.esm       DIAL    skaal
+	bloodmoon.esm       DIAL    slaughter
+	bloodmoon.esm       DIAL    snow
+	bloodmoon.esm       DIAL    snow bears
+	bloodmoon.esm       DIAL    snow wolves
+	bloodmoon.esm       DIAL    solstheim
+	bloodmoon.esm       DIAL    spriggans
+	bloodmoon.esm       DIAL    stalhrim
+	bloodmoon.esm       DIAL    tharsten heart-fang
+	bloodmoon.esm       DIAL    thirsk
+	bloodmoon.esm       DIAL    tusked bristleback
+	bloodmoon.esm       DIAL    uryn maren
+	bloodmoon.esm       DIAL    valbrandr draugr
+	bloodmoon.esm       DIAL    werewolves
+	bloodmoon.esm       DIAL    wolves
+	morrowind.esm       DIAL    accompany you
+	morrowind.esm       DIAL    addhiranirr
+	morrowind.esm       DIAL    admire fail
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       DIAL    adraria vandacia
+	morrowind.esm       DIAL    ahemmusa camp
+	morrowind.esm       DIAL    alms for the poor
+	morrowind.esm       DIAL    anareren's devil tanto
+	morrowind.esm       DIAL    andrano ancestral tomb
+	morrowind.esm       DIAL    armed escort
+	morrowind.esm       DIAL    arobar manor
+	morrowind.esm       DIAL    arrange a meeting
+	morrowind.esm       DIAL    asha-ahhe egg mine
+	morrowind.esm       DIAL    ashalmimilkala
+	morrowind.esm       DIAL    ashkhan kaushad
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    assantus hansar
+	morrowind.esm       DIAL    attack on a guar hide trader
+	morrowind.esm       DIAL    bal molagmer
+	morrowind.esm       DIAL    balmora fighters guild
+	morrowind.esm       DIAL    bastard ashlanders
+	morrowind.esm       DIAL    bet with galbedir
+	morrowind.esm       DIAL    bitter cup
+	morrowind.esm       DIAL    black jinx
+	morrowind.esm       DIAL    blight monsters
+	morrowind.esm       DIAL    blight storms
+	morrowind.esm       DIAL    blight-sick animals
+	morrowind.esm       DIAL    boethiah's pillow book
+	morrowind.esm       DIAL    breton
+	morrowind.esm       DIAL    bribe fail
+	morrowind.esm       DIAL    bribe success
+	morrowind.esm       DIAL    calvario
+	morrowind.esm       DIAL    caryarel
+	morrowind.esm       DIAL    cave rat
+	morrowind.esm       DIAL    ceramic bowl
+	morrowind.esm       DIAL    chapel limeware bowl
+	morrowind.esm       DIAL    cleaver of st. felms
+	morrowind.esm       DIAL    compassion
+	morrowind.esm       DIAL    corprus disease
+	morrowind.esm       DIAL    corruption
+	morrowind.esm       DIAL    crosier of st. llothis
+	morrowind.esm       DIAL    cunius pelelius
+	morrowind.esm       DIAL    dagon fel
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    diamond
+	morrowind.esm       DIAL    disturbing dreams
+	morrowind.esm       DIAL    donate cyrodilic brandy
+	morrowind.esm       DIAL    dratha
+	morrowind.esm       DIAL    dro'sakhar
+	morrowind.esm       DIAL    duel
+	morrowind.esm       DIAL    dunirai caverns
+	morrowind.esm       DIAL    dwemer puzzle box
+	morrowind.esm       DIAL    egg poachers
+	morrowind.esm       DIAL    elith-pal mine
+	morrowind.esm       DIAL    engaer
+	morrowind.esm       DIAL    excavation report
+	morrowind.esm       DIAL    eye of the needle
+	morrowind.esm       DIAL    fake soul gem
+	morrowind.esm       DIAL    false incarnate
+	morrowind.esm       DIAL    felen maryon's staff
+	morrowind.esm       DIAL    festering witch
+	morrowind.esm       DIAL    fighters guild
+	morrowind.esm       DIAL    flesh made whole
+	morrowind.esm       DIAL    flowers
+	morrowind.esm       DIAL    food and drink
+	morrowind.esm       DIAL    forged land deed
+	morrowind.esm       DIAL    gateway
+	morrowind.esm       DIAL    gateway haunting
+	morrowind.esm       DIAL    ghostfence
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    guild dues
+	morrowind.esm       DIAL    han-ammu
+	morrowind.esm       DIAL    hannat zainsubani
+	morrowind.esm       DIAL    hassour zainsubani
+	morrowind.esm       DIAL    haunted house
+	morrowind.esm       DIAL    healer
+	morrowind.esm       DIAL    hire a wizard
+	morrowind.esm       DIAL    history books
+	morrowind.esm       DIAL    hlaalu hortator
+	morrowind.esm       DIAL    hortator
+	morrowind.esm       DIAL    huleeya
+	morrowind.esm       DIAL    ienith
+	morrowind.esm       DIAL    imperial
+	morrowind.esm       DIAL    info refusal
+	morrowind.esm       DIAL    intimidate success
+	morrowind.esm       DIAL    jocien ancois
+	morrowind.esm       DIAL    join house hlaalu
+	morrowind.esm       DIAL    join house telvanni
+	morrowind.esm       DIAL    join the morag tong
+	morrowind.esm       DIAL    join the thieves guild
+	morrowind.esm       DIAL    join us
+	morrowind.esm       DIAL    kiss
+	morrowind.esm       DIAL    lette
+	morrowind.esm       DIAL    linus iulus
+	morrowind.esm       DIAL    llevule andrano
+	morrowind.esm       DIAL    lost kogoruhn
+	morrowind.esm       DIAL    lost prophecies
+	morrowind.esm       DIAL    mabrigash
+	morrowind.esm       DIAL    master barelo
+	morrowind.esm       DIAL    mehra milo
+	morrowind.esm       DIAL    moon-and-star
+	morrowind.esm       DIAL    morag tong
+	morrowind.esm       DIAL    morrowind
+	morrowind.esm       DIAL    mossanon
+	morrowind.esm       DIAL    mushrooms
+	morrowind.esm       DIAL    nels llendo
+	morrowind.esm       DIAL    nerano manor
+	morrowind.esm       DIAL    nerer beneran
+	morrowind.esm       DIAL    nerevar
+	morrowind.esm       DIAL    nerevarine prophecies
+	morrowind.esm       DIAL    new-shoes bragor
+	morrowind.esm       DIAL    okur
+	morrowind.esm       DIAL    ordinators
+	morrowind.esm       DIAL    peakstar
+	morrowind.esm       DIAL    pelagiad
+	morrowind.esm       DIAL    potion recipe
+	morrowind.esm       DIAL    raw ebony
+	morrowind.esm       DIAL    red mountain
+	morrowind.esm       DIAL    redoran cooking secrets
+	morrowind.esm       DIAL    redoran master helm
+	morrowind.esm       DIAL    rels tenim
+	morrowind.esm       DIAL    return to vivec
+	morrowind.esm       DIAL    robbed me
+	morrowind.esm       DIAL    rufinus alleius
+	morrowind.esm       DIAL    safe place
+	morrowind.esm       DIAL    salyn sarethi
+	morrowind.esm       DIAL    sanctus shrine
+	morrowind.esm       DIAL    secret order
+	morrowind.esm       DIAL    services and hospitality
+	morrowind.esm       DIAL    seven graces
+	morrowind.esm       DIAL    shirt and vest
+	morrowind.esm       DIAL    shoes of st. rilms
+	morrowind.esm       DIAL    silver staff of shaming
+	morrowind.esm       DIAL    sixth house
+	morrowind.esm       DIAL    sixth house base
+	morrowind.esm       DIAL    sjoring hard-heart
+	morrowind.esm       DIAL    skin of the pearl
+	morrowind.esm       DIAL    soul sickness
+	morrowind.esm       DIAL    stolen reports
+	morrowind.esm       DIAL    sujamma
+	morrowind.esm       DIAL    talk
+	morrowind.esm       DIAL    tanusea veloth
+	morrowind.esm       DIAL    tashpi ashibael
+	morrowind.esm       DIAL    taunt fail
+	morrowind.esm       DIAL    taunt success
+	morrowind.esm       DIAL    teeth of the wind
+	morrowind.esm       DIAL    telvanni bride
+	morrowind.esm       DIAL    telvanni spy
+	morrowind.esm       DIAL    thief
+	morrowind.esm       DIAL    thoughtful gift
+	morrowind.esm       DIAL    tongue-toad
+	morrowind.esm       DIAL    trade goods wanted
+	morrowind.esm       DIAL    trader
+	morrowind.esm       DIAL    troublesome fools
+	morrowind.esm       DIAL    unsanctioned training
+	morrowind.esm       DIAL    urshilaku camp
+	morrowind.esm       DIAL    venim manor
+	morrowind.esm       DIAL    vintage brandy
+	morrowind.esm       DIAL    vos
+	morrowind.esm       DIAL    white guar
+	morrowind.esm       DIAL    witch nearby
+	morrowind.esm       DIAL    withershins
+	morrowind.esm       DIAL    zainab camp
+	morrowind.esm       DOOR    in_ci_door_01
+	morrowind.esm       NPC_    assamma-idan
+	morrowind.esm       NPC_    kausi
+	morrowind.esm       NPC_    lanabi
+	morrowind.esm       NPC_    mamaea
+	morrowind.esm       NPC_    mausur
+	morrowind.esm       NPC_    nummu
+	morrowind.esm       NPC_    sen
+	morrowind.esm       NPC_    yenammu
+	morrowind.esm       PGRD    ahemmusa camp
+	morrowind.esm       PGRD    ald daedroth
+	morrowind.esm       PGRD    azura's coast region
+	tribunal.esm        DIAL    almalexia
+	tribunal.esm        DIAL    anonymous writer
+	tribunal.esm        DIAL    ashstorms in mournhold
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    barenziah
+	tribunal.esm        DIAL    barilzar's mazed band
+	tribunal.esm        DIAL    bedal alen
+	tribunal.esm        DIAL    boots of the apostle
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    craftsmen
+	tribunal.esm        DIAL    dark brotherhood
+	tribunal.esm        DIAL    discontent in the temple
+	tribunal.esm        DIAL    dissident priests
+	tribunal.esm        DIAL    end of times
+	tribunal.esm        DIAL    fight my champion
+	tribunal.esm        DIAL    forge the blade
+	tribunal.esm        DIAL    forven berano
+	tribunal.esm        DIAL    gavas drin
+	tribunal.esm        DIAL    goblins
+	tribunal.esm        DIAL    great bazaar
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    hands of almalexia
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    helseth
+	tribunal.esm        DIAL    high ordinators
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    hloggar the bloody
+	tribunal.esm        DIAL    ice blade of the monarch
+	tribunal.esm        DIAL    idle
+	tribunal.esm        DIAL    karrod
+	tribunal.esm        DIAL    king llethan's death
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    missing hand
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    must be stopped
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    plot
+	tribunal.esm        DIAL    progress of truth
+	tribunal.esm        DIAL    royal guard
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    shrine of the dead
+	tribunal.esm        DIAL    skull-crusher
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place
+	tribunal.esm        DIAL    staff of magnus
+	tribunal.esm        DIAL    talen vandas
+	tribunal.esm        DIAL    trels varis
+	tribunal.esm        DIAL    warlock's ring
+	tribunal.esm        DIAL    women
+
+[MOD-INF]: ID=2410815898196552(Topic:breton)
+  morrowind.esm----------------------------->|DATA|FNAM:Ashlanders|NAME:Bretons are outlanders, foreigners, Westerners. They don't belong here. They should go back where they came from.|SCVR:0CsX0NoLore|INTV|BNAM:;Bretons
+  KS_Julan_Ashlander Companion_3.0_beta.esp->|DATA|FNAM:Ashlanders|NAME:Bretons are outlanders, foreigners, Westerners. They don't belong here. They should go back where they came from.|SCVR:0CsX0NoLore|INTV:|BNAM:;Bretons
+
+[MOD-INF]: ID=202972562615025726(Topic:return to vivec)
+  morrowind.esm----------------------------->|DATA|ANAM:Holamayan Monastery|NAME:Vevrana Aryon, a monk at the docks outside, can arrange for travel back to Vivec. You can only enter or leave Holamayan at dusk and dawn; the entrance is sealed at all other hours. But please make yourself comfortable here. Rest in our beds, and make good use of our services. You may read our books, but don't take them. Do not abuse our hospitality. Do not take personal items or alchemical apparatus or ingredients or other private property.|SCVR:04JX3A2_4_MiloGone|INTV
+  KS_Julan_Ashlander Companion_3.0_beta.esp->|DATA|ANAM:Holamayan Monastery|NAME:Vevrana Aryon, a monk at the docks outside, can arrange for travel back to Vivec. You can only enter or leave Holamayan at dusk and dawn; the entrance is sealed at all other hours. But please make yourself comfortable here. Rest in our beds, and make good use of our services. You may read our books, but don't take them. Do not abuse our hospitality. Do not take personal items or alchemical apparatus or ingredients or other private property.|SCVR:04JX3A2_4_MiloGone|INTV|SCVR:17XX0KS_Julan|INTV
+
+[DUP-INF]: ID=254122061577413235(Greeting:greeting 1)
+  |DATA|ONAM:Fons Beren|NAME:Hey there, friend! Been out cruising the streets? Because I sure have! The women aren't safe when I'm on the town!|SCVR:02sX2MatchMakeFons|INTV|SCVR:11380|INTV:
+
+[MOD-INF]: ID=472922052261189196(Topic:urshilaku camp)
+  morrowind.esm----------------------------->|DATA|CNAM:Scout|ANAM:Maar Gan|NAME:Urshilaku camp is due north from Maar Gan, but high ridges lie in the way. From Maar Gan head east past the Silt Strider, then take a trail north to the Foyada Bani-Dad. Follow the Foyada northwest to the sea. A shipwreck at the seamouth of the ravine is a landmark. Swim east around the headland. Pass east through the ruins of Assurnabitashpi Shrine. Avoid Daedra here. They're powerful and aggressive. Urshilaku Camp lies east of the ruins, inland in a low hollow.|BNAM:;scout; Maar Gan  Journal A2_1_MeetSulMatuul 5  ShowMap "Urshilaku Camp"
+  KS_Julan_Ashlander Companion_3.0_beta.esp->|DATA|CNAM:Scout|ANAM:Maar Gan|NAME:Urshilaku camp is due north from Maar Gan, but high ridges lie in the way. From Maar Gan head east past the Silt Strider, then take a trail north to the Foyada Bani-Dad. Follow the Foyada northwest to the sea. A shipwreck at the seamouth of the ravine is a landmark. Swim east around the headland. Pass east through the ruins of Assurnabitashpi Shrine. Avoid Daedra here. They're powerful and aggressive. Urshilaku Camp lies east of the ruins, inland in a low hollow.|BNAM:;scout; Maar Gan  ShowMap "Urshilaku Camp"
+
+[DUP-INF]: ID=653427771965712762(Greeting:greeting 1)
+  |DATA|ONAM:Fons Beren|NAME:Well, hello there.  Aren't you a tasty dish?  You must be new to Mournhold.  I'd have recognized that beautiful face otherwise.  Fons Beren at your service, milady.  A man who loves beautful women.|SCVR:01380|INTV|SCVR:12sX0MatchMakeFons|INTV:|BNAM:ModDisposition 30  Set MatchMakeFons to 1
+
+[MOD-INF]: ID=1188798422478225867(Topic:master barelo)
+  morrowind.esm----------------------------->|DATA|ANAM:Holamayan Monastery|NAME:Master Gilvas Barelo is the abbot of our monastery, and the head of our secret order.|SCVR:04JX3A2_4_MiloGone|INTV|SCVR:17XX0gilvas barelo|INTV|BNAM:;Holamayan; Holamayan Monastery; Journal "A2_4_MiloGone" >= 20
+  KS_Julan_Ashlander Companion_3.0_beta.esp->|DATA|ANAM:Holamayan Monastery|NAME:Master Gilvas Barelo is the abbot of our monastery, and the head of our secret order.|SCVR:04JX3A2_4_MiloGone|INTV|SCVR:17XX0gilvas barelo|INTV|SCVR:27XX0KS_Julan|INTV|BNAM:;Holamayan; Holamayan Monastery; Journal "A2_4_MiloGone" >= 20
+
+[DUP-INF]: ID=1372422887257055964(Greeting:greeting 1)
+  |DATA|ONAM:falura llervu|NAME:Yes, %PCName. Are you ready now to travel together to Zainab camp?|SCVR:04JX3B3_ZainabBride|INTV:-|SCVR:14JX4B3_ZainabBride|INTV:/|SCVR:23sX0followNow|INTV:|BNAM:; Falura Llervu; Journal "B3_ZainabBride" >= 45; Journal "B3_ZainabBride" < 47 ; followNow = 0
+
+[MOD-INF]: ID=2084150232529111250(Topic:women)
+  tribunal.esm------------------------------>|DATA|ONAM:Fons Beren|NAME:Well, I suppose that figures.  You know what they say about the cute ones - they always have ugly friends, anyway.  But, ah, let me know if you should happen to run into any cute girls, will you?  I'm sure they'd be anxious to find out what you're going to miss out on...|SCVR:01500|INTV|BNAM:Journal MS_MatchMakeFons 10
+  KS_Julan_Ashlander Companion_3.0_beta.esp->|DATA|ONAM:Fons Beren|NAME:Well, I suppose that figures.  You know what they say about the cute ones - they always have ugly friends, anyway.  But, ah, let me know if you should happen to run into any cute girls, will you?  I'm sure they'd be anxious to find out what you're going to miss out on...|SCVR:01500|INTV|BNAM:Journal MS_MatchMaker 10
+
+[MOD-INF]: ID=2412518277342713616(Topic:services and hospitality)
+  morrowind.esm----------------------------->|DATA|ANAM:Holamayan Monastery|NAME:You're welcome to rest in our beds. Speak with the others here, and you may find they can be of service in various ways.|BNAM:;Holamayan; Holamayan Monastery;
+  KS_Julan_Ashlander Companion_3.0_beta.esp->|DATA|ANAM:Holamayan Monastery|NAME:You're welcome to rest in our beds. Speak with the others here, and you may find they can be of service in various ways.|SCVR:07XX0KS_Julan|INTV|BNAM:;Holamayan; Holamayan Monastery;
+
+[DUP-INF]: ID=2467121059927918346(Greeting:greeting 1)
+  |DATA|ONAM:Fons Beren|NAME:Back again?  You just can't get enough of me, can you?  Don't worry - it happens to all the women at one time or another.|SCVR:02sX3MatchMakeFons|INTV|SCVR:11380|INTV
+
+[DUP-INF]: ID=2538918382060431000(Greeting:greeting 1)
+  |DATA|ONAM:dagoth odros|NAME:Consider, %PCName. Where do your best interests lie? It is not too late to serve....|BNAM:;Dagoth Odros; thief
+
+[MOD-INF]: ID=5648240271138916558(Topic:secret order)
+  morrowind.esm----------------------------->|DATA|ANAM:Holamayan Monastery|NAME:We have adopted the name 'Dissident priests'. We are not ashamed of our disputes with the Temple's hierarchy.|SCVR:04JX3A2_4_MiloGone|INTV|BNAM:;Holamayan; Holamayan Monastery; Journal "A2_4_MiloGone" >= 20
+  KS_Julan_Ashlander Companion_3.0_beta.esp->|DATA|ANAM:Holamayan Monastery|NAME:We have adopted the name 'Dissident priests'. We are not ashamed of our disputes with the Temple's hierarchy.|SCVR:04JX3A2_4_MiloGone|INTV|SCVR:17XX0KS_Julan|INTV|BNAM:;Holamayan; Holamayan Monastery; Journal "A2_4_MiloGone" >= 20
+
+[DUP-INF]: ID=7515207672663932667(Greeting:greeting 1)
+  |DATA|ONAM:dagoth gares|NAME:The Sixth House greets you, Lord Nerevar. Or %PCName, as you call yourself. I am known as Dagoth Gares, priest of Ilunibi Shrine, and minister to Sixth House servants. My Lord, Dagoth Ur, has informed me of your coming. I wish that this time you had come to honor your Lord's friendship, not to betray it.|SCVR:01630|INTV:
+
+[DUP-INF]: ID=16538300371313719685(Greeting:greeting 1)
+  |DATA|ONAM:falura llervu|NAME:Yes, %PCName. We travel together to Zainab camp. When we arrive there, we will speak further about my new bridegroom.|SCVR:04JX3B3_ZainabBride|INTV:-|SCVR:14JX4B3_ZainabBride|INTV:/|SCVR:23sX0followNow|INTV|BNAM:; Falura Llervu; Journal "B3_ZainabBride" >= 45; Journal "B3_ZainabBride" < 47 ; followNow = 1
+
+[DUP-INF]: ID=22977315761337810804(Topic:snow)
+  |DATA|ONAM:Falco Galenus|NAME:It won't keep us from getting our job done.

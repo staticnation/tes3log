@@ -1,0 +1,621 @@
+SSM_Text_Redo.ESP: AUTOSPL DUP-REC EVLGMST MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	strong fire shield             Strong Flame Shield
+	curse fatigue                  Curse Stamina
+	grave curse: fatigue           Grave Curse: Stamina
+	dread curse: fatigue           Dread Curse: Stamina
+	ash curse: fatigue             Ash Curse: Stamina
+	drain unarmored                Drain Evasion
+	drain long blade               Drain Swordplay
+	drain spear                    Drain Polearms
+	drain sneak                    Drain Stealth
+	dire weakness to fire          Dire Weakness to Flame
+	weakness to fire               Weakness to Flame
+	absorb fatigue                 Absorb Stamina
+	absorb fatigue [ranged]        Absorb Stamina [Ranged]
+	resist fire                    Resist Flame
+	fortify unarmored skill        Fortify Evasion Skill
+	fortify long blade skill       Fortify Swordplay Skill
+	fortify sneak skill            Fortify Stealth Skill
+	fortify spear skill            Fortify Polearms Skill
+	variable resist fire           Variable Resist Flame
+	daedric fatigue                Daedric Stamina
+    [EVLGMST] Tribunal(10) Bloodmoon(58):
+	BM fcombatdistancewerewolfmod
+	BM ffleedistance
+	BM fwerewolfacrobatics
+	BM fwerewolfagility
+	BM fwerewolfalchemy
+	BM fwerewolfalteration
+	BM fwerewolfarmorer
+	BM fwerewolfathletics
+	BM fwerewolfaxe
+	BM fwerewolfblock
+	BM fwerewolfbluntweapon
+	BM fwerewolfconjuration
+	BM fwerewolfdestruction
+	BM fwerewolfenchant
+	BM fwerewolfendurance
+	BM fwerewolffatigue
+	BM fwerewolfhandtohand
+	BM fwerewolfhealth
+	BM fwerewolfheavyarmor
+	BM fwerewolfillusion
+	BM fwerewolfintellegence
+	BM fwerewolflightarmor
+	BM fwerewolflongblade
+	BM fwerewolfluck
+	BM fwerewolfmagicka
+	BM fwerewolfmarksman
+	BM fwerewolfmediumarmor
+	BM fwerewolfmerchantile
+	BM fwerewolfmysticism
+	BM fwerewolfpersonality
+	BM fwerewolfrestoration
+	BM fwerewolfrunmult
+	BM fwerewolfsecurity
+	BM fwerewolfshortblade
+	BM fwerewolfsilverweapondamagemult
+	BM fwerewolfsneak
+	BM fwerewolfspear
+	BM fwerewolfspeechcraft
+	BM fwerewolfspeed
+	BM fwerewolfstrength
+	BM fwerewolfunarmored
+	BM fwerewolfwillpower
+	BM iwerewolfbounty
+	BM iwerewolffightmod
+	BM iwerewolffleemod
+	BM iwerewolfleveltoattack
+	BM seditnote
+	BM seffectsummoncreature01
+	BM seffectsummoncreature02
+	BM seffectsummoncreature03
+	BM seffectsummoncreature04
+	BM seffectsummoncreature05
+	BM smagiccreature01id
+	BM smagiccreature02id
+	BM smagiccreature03id
+	BM smagiccreature04id
+	BM smagiccreature05id
+	BM swerewolfpopup
+	TB scompanionshare
+	TB scompanionwarningbuttonone
+	TB scompanionwarningbuttontwo
+	TB scompanionwarningmessage
+	TB sdeletenote
+	TB seffectsummonfabricant
+	TB slevitatedisabled
+	TB smagicfabricantid
+	TB smaxsale
+	TB sprofitvalue
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       MISC    misc_spool_01
+	morrowind.esm       WEAP    firebite club
+	tribunal.esm        WEAP    silver staff
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DOOR    in_v_s_trapdoor_01
+	bloodmoon.esm       LIGH    light_com_candle_09_128
+	bloodmoon.esm       LIGH    light_com_candle_09_off
+	bloodmoon.esm       MISC    misc_com_basket_02
+	bloodmoon.esm       MISC    misc_com_metal_plate_04
+	bloodmoon.esm       MISC    misc_com_metal_plate_05
+	bloodmoon.esm       MISC    misc_com_redware_flask
+	bloodmoon.esm       MISC    misc_com_redware_pitcher
+	bloodmoon.esm       MISC    misc_com_wood_bowl_02
+	bloodmoon.esm       MISC    misc_com_wood_cup_01
+	bloodmoon.esm       MISC    misc_com_wood_cup_02
+	bloodmoon.esm       MISC    misc_com_wood_fork
+	bloodmoon.esm       MISC    misc_com_wood_knife
+	bloodmoon.esm       MISC    misc_com_wood_spoon_01
+	bloodmoon.esm       MISC    misc_hook
+	bloodmoon.esm       REPA    hammer_repair
+	bloodmoon.esm       REPA    repair_journeyman_01
+	bloodmoon.esm       WEAP    daedric mace
+	bloodmoon.esm       WEAP    silver shortsword
+	bloodmoon.esm       WEAP    silver staff of peace
+	morrowind.esm       ALCH    p_cure_poison_s
+	morrowind.esm       ALCH    p_detect_key_s
+	morrowind.esm       ALCH    p_fire resistance_s
+	morrowind.esm       ALCH    p_fire_resistance_b
+	morrowind.esm       ALCH    p_fire_resistance_c
+	morrowind.esm       ALCH    p_fire_resistance_e
+	morrowind.esm       ALCH    p_fire_resistance_q
+	morrowind.esm       ALCH    p_fire_shield_s
+	morrowind.esm       ALCH    p_fortify_fatigue_b
+	morrowind.esm       ALCH    p_fortify_fatigue_c
+	morrowind.esm       ALCH    p_fortify_fatigue_e
+	morrowind.esm       ALCH    p_fortify_fatigue_q
+	morrowind.esm       ALCH    p_fortify_fatigue_s
+	morrowind.esm       ALCH    p_fortify_intelligence_b
+	morrowind.esm       ALCH    p_fortify_intelligence_c
+	morrowind.esm       ALCH    p_fortify_intelligence_e
+	morrowind.esm       ALCH    p_fortify_intelligence_q
+	morrowind.esm       ALCH    p_fortify_intelligence_s
+	morrowind.esm       ALCH    p_fortify_luck_b
+	morrowind.esm       ALCH    p_fortify_luck_c
+	morrowind.esm       ALCH    p_fortify_luck_e
+	morrowind.esm       ALCH    p_fortify_luck_q
+	morrowind.esm       ALCH    p_fortify_luck_s
+	morrowind.esm       ALCH    p_fortify_personality_b
+	morrowind.esm       ALCH    p_fortify_personality_c
+	morrowind.esm       ALCH    p_fortify_personality_e
+	morrowind.esm       ALCH    p_fortify_personality_q
+	morrowind.esm       ALCH    p_fortify_personality_s
+	morrowind.esm       ALCH    p_fortify_speed_b
+	morrowind.esm       ALCH    p_fortify_speed_c
+	morrowind.esm       ALCH    p_fortify_speed_e
+	morrowind.esm       ALCH    p_fortify_speed_q
+	morrowind.esm       ALCH    p_fortify_speed_s
+	morrowind.esm       ALCH    p_fortify_strength_b
+	morrowind.esm       ALCH    p_fortify_strength_c
+	morrowind.esm       ALCH    p_fortify_strength_e
+	morrowind.esm       ALCH    p_fortify_strength_q
+	morrowind.esm       ALCH    p_fortify_strength_s
+	morrowind.esm       ALCH    p_fortify_willpower_b
+	morrowind.esm       ALCH    p_fortify_willpower_c
+	morrowind.esm       ALCH    p_fortify_willpower_e
+	morrowind.esm       ALCH    p_fortify_willpower_q
+	morrowind.esm       ALCH    p_fortify_willpower_s
+	morrowind.esm       ALCH    p_frost_resistance_b
+	morrowind.esm       ALCH    p_frost_resistance_c
+	morrowind.esm       ALCH    p_frost_resistance_e
+	morrowind.esm       ALCH    p_frost_resistance_q
+	morrowind.esm       ALCH    p_frost_resistance_s
+	morrowind.esm       ALCH    p_invisibility_b
+	morrowind.esm       ALCH    p_invisibility_c
+	morrowind.esm       ALCH    p_invisibility_e
+	morrowind.esm       ALCH    p_invisibility_q
+	morrowind.esm       ALCH    p_invisibility_s
+	morrowind.esm       ALCH    p_jump_b
+	morrowind.esm       ALCH    p_jump_c
+	morrowind.esm       ALCH    p_jump_e
+	morrowind.esm       ALCH    p_jump_q
+	morrowind.esm       ALCH    p_jump_s
+	morrowind.esm       ALCH    p_light_b
+	morrowind.esm       ALCH    p_light_c
+	morrowind.esm       ALCH    p_light_e
+	morrowind.esm       ALCH    p_light_q
+	morrowind.esm       ALCH    p_light_s
+	morrowind.esm       ALCH    p_magicka_resistance_b
+	morrowind.esm       ALCH    p_magicka_resistance_c
+	morrowind.esm       ALCH    p_magicka_resistance_e
+	morrowind.esm       ALCH    p_magicka_resistance_q
+	morrowind.esm       ALCH    p_magicka_resistance_s
+	morrowind.esm       ALCH    p_restore_endurance_b
+	morrowind.esm       ALCH    p_restore_endurance_c
+	morrowind.esm       ALCH    p_restore_endurance_e
+	morrowind.esm       ALCH    p_restore_endurance_q
+	morrowind.esm       ALCH    p_restore_endurance_s
+	morrowind.esm       ALCH    p_restore_fatigue_b
+	morrowind.esm       ALCH    p_restore_fatigue_c
+	morrowind.esm       ALCH    p_restore_fatigue_e
+	morrowind.esm       ALCH    p_restore_fatigue_q
+	morrowind.esm       ALCH    p_restore_fatigue_s
+	morrowind.esm       ALCH    p_restore_health_b
+	morrowind.esm       ALCH    p_restore_health_c
+	morrowind.esm       ALCH    p_restore_health_e
+	morrowind.esm       ALCH    p_restore_health_q
+	morrowind.esm       ALCH    p_restore_health_s
+	morrowind.esm       ALCH    p_restore_intelligence_b
+	morrowind.esm       ALCH    p_restore_intelligence_c
+	morrowind.esm       ALCH    p_restore_intelligence_e
+	morrowind.esm       ALCH    p_restore_intelligence_q
+	morrowind.esm       ALCH    p_restore_intelligence_s
+	morrowind.esm       ALCH    p_restore_magicka_b
+	morrowind.esm       ALCH    p_restore_magicka_c
+	morrowind.esm       ALCH    p_restore_magicka_e
+	morrowind.esm       ALCH    p_restore_magicka_q
+	morrowind.esm       ALCH    p_restore_magicka_s
+	morrowind.esm       ALCH    p_restore_personality_b
+	morrowind.esm       ALCH    p_restore_personality_c
+	morrowind.esm       ALCH    p_restore_personality_e
+	morrowind.esm       ALCH    p_restore_personality_q
+	morrowind.esm       ALCH    p_restore_personality_s
+	morrowind.esm       ALCH    p_restore_strength_b
+	morrowind.esm       ALCH    p_restore_strength_c
+	morrowind.esm       ALCH    p_restore_strength_e
+	morrowind.esm       ALCH    p_restore_strength_q
+	morrowind.esm       ALCH    p_restore_strength_s
+	morrowind.esm       ALCH    p_shock_resistance_b
+	morrowind.esm       ALCH    p_shock_resistance_c
+	morrowind.esm       ALCH    p_shock_resistance_e
+	morrowind.esm       ALCH    p_shock_resistance_q
+	morrowind.esm       ALCH    p_shock_resistance_s
+	morrowind.esm       ALCH    p_water_breathing_s
+	morrowind.esm       CONT    chest_goris
+	morrowind.esm       CONT    com_chest_01_misc01
+	morrowind.esm       CONT    com_chest_01_misc02
+	morrowind.esm       CONT    com_chest_01_misc03
+	morrowind.esm       CONT    com_chest_11_k02
+	morrowind.esm       CONT    de_p_chest_02_gold_25
+	morrowind.esm       CONT    de_p_chest_02_gold_50
+	morrowind.esm       CONT    de_p_desk_ministry
+	morrowind.esm       DOOR    ex_dae_door_static
+	morrowind.esm       DOOR    in_v_s_trapdoor_02
+	morrowind.esm       GMST    sagidesc
+	morrowind.esm       GMST    sareades
+	morrowind.esm       GMST    sbarterdialog1
+	morrowind.esm       GMST    sbarterdialog10
+	morrowind.esm       GMST    sbarterdialog11
+	morrowind.esm       GMST    sbarterdialog12
+	morrowind.esm       GMST    sbarterdialog2
+	morrowind.esm       GMST    sbarterdialog3
+	morrowind.esm       GMST    sbarterdialog4
+	morrowind.esm       GMST    sbarterdialog5
+	morrowind.esm       GMST    sbarterdialog6
+	morrowind.esm       GMST    sbarterdialog9
+	morrowind.esm       GMST    sbookskillmessage
+	morrowind.esm       GMST    scantequipweapwarning
+	morrowind.esm       GMST    schooseclassmenu2
+	morrowind.esm       GMST    scontentsmessage1
+	morrowind.esm       GMST    scontentsmessage2
+	morrowind.esm       GMST    scontentsmessage3
+	morrowind.esm       GMST    screateclassmenuhelp1
+	morrowind.esm       GMST    screateclassmenuhelp2
+	morrowind.esm       GMST    scrimehelp
+	morrowind.esm       GMST    scrimemessage
+	morrowind.esm       GMST    sdeletegame
+	morrowind.esm       GMST    sdeletespellerror
+	morrowind.esm       GMST    sdisposecorpsefail
+	morrowind.esm       GMST    sdurationdes
+	morrowind.esm       GMST    seffectabsorbfatigue
+	morrowind.esm       GMST    seffectdamagefatigue
+	morrowind.esm       GMST    seffectdrainfatigue
+	morrowind.esm       GMST    seffectfortifyfatigue
+	morrowind.esm       GMST    seffectrestorefatigue
+	morrowind.esm       GMST    senchantmenthelp10
+	morrowind.esm       GMST    senchantmenthelp4
+	morrowind.esm       GMST    senchantmenthelp6
+	morrowind.esm       GMST    senchantmenthelp8
+	morrowind.esm       GMST    senchantmenthelp9
+	morrowind.esm       GMST    senchantmentmenu11
+	morrowind.esm       GMST    senchantmentmenu12
+	morrowind.esm       GMST    senchantmentmenu7
+	morrowind.esm       GMST    senchantmentmenu8
+	morrowind.esm       GMST    senchantmentmenu9
+	morrowind.esm       GMST    senddesc
+	morrowind.esm       GMST    sexitgame
+	morrowind.esm       GMST    sexpelledmessage
+	morrowind.esm       GMST    sfatdesc
+	morrowind.esm       GMST    sfatigue
+	morrowind.esm       GMST    sfavoriteskills
+	morrowind.esm       GMST    sgoodbye
+	morrowind.esm       GMST    shealthdesc
+	morrowind.esm       GMST    sintdesc
+	morrowind.esm       GMST    sinventorymenu1
+	morrowind.esm       GMST    sinventorymessage1
+	morrowind.esm       GMST    sinventorymessage2
+	morrowind.esm       GMST    sinventorymessage3
+	morrowind.esm       GMST    sinventorymessage4
+	morrowind.esm       GMST    sinventorymessage5
+	morrowind.esm       GMST    sinventoryselectnoingredients
+	morrowind.esm       GMST    sinventoryselectnoitems
+	morrowind.esm       GMST    sinventoryselectnosoul
+	morrowind.esm       GMST    sjournalentry
+	morrowind.esm       GMST    slevelupmenu1
+	morrowind.esm       GMST    slevelupmenu2
+	morrowind.esm       GMST    slevelupmsg
+	morrowind.esm       GMST    sloadgame
+	morrowind.esm       GMST    sloadingmessage14
+	morrowind.esm       GMST    sloadlastsavemsg
+	morrowind.esm       GMST    slockfail
+	morrowind.esm       GMST    slockimpossible
+	morrowind.esm       GMST    slocklevel
+	morrowind.esm       GMST    slocksuccess
+	morrowind.esm       GMST    slucdesc
+	morrowind.esm       GMST    smagdesc
+	morrowind.esm       GMST    smagiccannotrecast
+	morrowind.esm       GMST    smagiccontractdisease
+	morrowind.esm       GMST    smagiccorprusworsens
+	morrowind.esm       GMST    smagicinsufficientcharge
+	morrowind.esm       GMST    smagicinsufficientsp
+	morrowind.esm       GMST    smagicinvalideffect
+	morrowind.esm       GMST    smagicinvalidtarget
+	morrowind.esm       GMST    smagiclocksuccess
+	morrowind.esm       GMST    smagicopensuccess
+	morrowind.esm       GMST    smagicpcresisted
+	morrowind.esm       GMST    smagicskillfail
+	morrowind.esm       GMST    smagictargetresisted
+	morrowind.esm       GMST    smagictargetresistsweapons
+	morrowind.esm       GMST    smagnitudedes
+	morrowind.esm       GMST    smessage1
+	morrowind.esm       GMST    smessage2
+	morrowind.esm       GMST    smessage3
+	morrowind.esm       GMST    smessage4
+	morrowind.esm       GMST    smessage5
+	morrowind.esm       GMST    smessagequestionanswer1
+	morrowind.esm       GMST    snewgame
+	morrowind.esm       GMST    snotifymessage1
+	morrowind.esm       GMST    snotifymessage10
+	morrowind.esm       GMST    snotifymessage11
+	morrowind.esm       GMST    snotifymessage12
+	morrowind.esm       GMST    snotifymessage16
+	morrowind.esm       GMST    snotifymessage16_a
+	morrowind.esm       GMST    snotifymessage17
+	morrowind.esm       GMST    snotifymessage18
+	morrowind.esm       GMST    snotifymessage2
+	morrowind.esm       GMST    snotifymessage20
+	morrowind.esm       GMST    snotifymessage21
+	morrowind.esm       GMST    snotifymessage22
+	morrowind.esm       GMST    snotifymessage23
+	morrowind.esm       GMST    snotifymessage24
+	morrowind.esm       GMST    snotifymessage25
+	morrowind.esm       GMST    snotifymessage26
+	morrowind.esm       GMST    snotifymessage27
+	morrowind.esm       GMST    snotifymessage28
+	morrowind.esm       GMST    snotifymessage29
+	morrowind.esm       GMST    snotifymessage3
+	morrowind.esm       GMST    snotifymessage30
+	morrowind.esm       GMST    snotifymessage34
+	morrowind.esm       GMST    snotifymessage36
+	morrowind.esm       GMST    snotifymessage37
+	morrowind.esm       GMST    snotifymessage39
+	morrowind.esm       GMST    snotifymessage4
+	morrowind.esm       GMST    snotifymessage40
+	morrowind.esm       GMST    snotifymessage41
+	morrowind.esm       GMST    snotifymessage42
+	morrowind.esm       GMST    snotifymessage43
+	morrowind.esm       GMST    snotifymessage44
+	morrowind.esm       GMST    snotifymessage45
+	morrowind.esm       GMST    snotifymessage46
+	morrowind.esm       GMST    snotifymessage47
+	morrowind.esm       GMST    snotifymessage48
+	morrowind.esm       GMST    snotifymessage5
+	morrowind.esm       GMST    snotifymessage50
+	morrowind.esm       GMST    snotifymessage52
+	morrowind.esm       GMST    snotifymessage54
+	morrowind.esm       GMST    snotifymessage59
+	morrowind.esm       GMST    snotifymessage6
+	morrowind.esm       GMST    snotifymessage60
+	morrowind.esm       GMST    snotifymessage61
+	morrowind.esm       GMST    snotifymessage62
+	morrowind.esm       GMST    snotifymessage63
+	morrowind.esm       GMST    snotifymessage64
+	morrowind.esm       GMST    snotifymessage65
+	morrowind.esm       GMST    snotifymessage6a
+	morrowind.esm       GMST    snotifymessage7
+	morrowind.esm       GMST    snotifymessage8
+	morrowind.esm       GMST    snotifymessage9
+	morrowind.esm       GMST    sonetypeeffectmessage
+	morrowind.esm       GMST    sperdesc
+	morrowind.esm       GMST    spotionsuccess
+	morrowind.esm       GMST    spoweralreadyused
+	morrowind.esm       GMST    squestiondeletespell
+	morrowind.esm       GMST    squickmenu5
+	morrowind.esm       GMST    srangedes
+	morrowind.esm       GMST    srepairfailed
+	morrowind.esm       GMST    srepairsuccess
+	morrowind.esm       GMST    srestillegal
+	morrowind.esm       GMST    srestmenu4
+	morrowind.esm       GMST    sreturntogame
+	morrowind.esm       GMST    ssavegame
+	morrowind.esm       GMST    ssavegamedenied
+	morrowind.esm       GMST    ssavemenu1
+	morrowind.esm       GMST    ssavemenuhelp06
+	morrowind.esm       GMST    sservicetrainingwords
+	morrowind.esm       GMST    sskillhandtohand
+	morrowind.esm       GMST    sskilllongblade
+	morrowind.esm       GMST    sskillmaxreached
+	morrowind.esm       GMST    sskillsmenureputationhelp
+	morrowind.esm       GMST    sskillsneak
+	morrowind.esm       GMST    sskillspear
+	morrowind.esm       GMST    sskillunarmored
+	morrowind.esm       GMST    ssleepinterrupt
+	morrowind.esm       GMST    ssoultrapsuccess
+	morrowind.esm       GMST    sspddesc
+	morrowind.esm       GMST    sspellmaking
+	morrowind.esm       GMST    sspellmakinghelp1
+	morrowind.esm       GMST    sspellmakinghelp2
+	morrowind.esm       GMST    sspellmakinghelp3
+	morrowind.esm       GMST    sspellmakinghelp4
+	morrowind.esm       GMST    sspellmakinghelp5
+	morrowind.esm       GMST    sspellmakingmenutitle
+	morrowind.esm       GMST    sstrdesc
+	morrowind.esm       GMST    strapfail
+	morrowind.esm       GMST    strapimpossible
+	morrowind.esm       GMST    strapsuccess
+	morrowind.esm       GMST    swildesc
+	morrowind.esm       GMST    syourgold
+	morrowind.esm       INGR    ingred_corprus_weepings_01
+	morrowind.esm       LIGH    light_com_candle_09
+	morrowind.esm       LIGH    light_com_candle_09_64
+	morrowind.esm       LIGH    light_com_candle_10
+	morrowind.esm       LIGH    light_com_candle_10_64
+	morrowind.esm       LIGH    light_com_candle_10_off
+	morrowind.esm       LIGH    light_com_candle_16
+	morrowind.esm       LIGH    light_com_candle_16_77
+	morrowind.esm       LIGH    light_com_dae_cursed_candle_10
+	morrowind.esm       LIGH    light_com_torch_burnedout_01
+	morrowind.esm       LOCK    pick_apprentice_01
+	morrowind.esm       LOCK    pick_grandmaster
+	morrowind.esm       LOCK    pick_journeyman_01
+	morrowind.esm       LOCK    pick_master
+	morrowind.esm       MGEF    20
+	morrowind.esm       MGEF    25
+	morrowind.esm       MGEF    77
+	morrowind.esm       MGEF    82
+	morrowind.esm       MGEF    88
+	morrowind.esm       MISC    misc_com_basket_01
+	morrowind.esm       MISC    misc_com_redware_bowl
+	morrowind.esm       MISC    misc_com_redware_bowl_01
+	morrowind.esm       MISC    misc_com_redware_plate
+	morrowind.esm       MISC    misc_com_redware_platter
+	morrowind.esm       MISC    misc_com_silverware_fork
+	morrowind.esm       MISC    misc_com_silverware_knife
+	morrowind.esm       MISC    misc_com_silverware_spoon
+	morrowind.esm       MISC    misc_com_wood_bowl_01
+	morrowind.esm       MISC    misc_com_wood_bowl_03
+	morrowind.esm       MISC    misc_com_wood_bowl_04
+	morrowind.esm       MISC    misc_com_wood_bowl_05
+	morrowind.esm       MISC    misc_com_wood_fork_uni1
+	morrowind.esm       MISC    misc_com_wood_fork_uni2
+	morrowind.esm       MISC    misc_com_wood_knife_uni1
+	morrowind.esm       MISC    misc_com_wood_knife_uni2
+	morrowind.esm       MISC    misc_com_wood_spoon_01_uni1
+	morrowind.esm       MISC    misc_com_wood_spoon_01_uni2
+	morrowind.esm       MISC    misc_com_wood_spoon_02
+	morrowind.esm       MISC    misc_de_lute_01
+	morrowind.esm       MISC    misc_dwrv_ark_cube00
+	morrowind.esm       MISC    misc_goblet_dagoth
+	morrowind.esm       MISC    misc_skull10
+	morrowind.esm       PROB    probe_apprentice_01
+	morrowind.esm       PROB    probe_journeyman_01
+	morrowind.esm       PROB    probe_master
+	morrowind.esm       SKIL    0
+	morrowind.esm       SKIL    1
+	morrowind.esm       SKIL    10
+	morrowind.esm       SKIL    11
+	morrowind.esm       SKIL    12
+	morrowind.esm       SKIL    13
+	morrowind.esm       SKIL    14
+	morrowind.esm       SKIL    15
+	morrowind.esm       SKIL    16
+	morrowind.esm       SKIL    17
+	morrowind.esm       SKIL    18
+	morrowind.esm       SKIL    19
+	morrowind.esm       SKIL    20
+	morrowind.esm       SKIL    22
+	morrowind.esm       SKIL    23
+	morrowind.esm       SKIL    24
+	morrowind.esm       SKIL    25
+	morrowind.esm       SKIL    26
+	morrowind.esm       SKIL    3
+	morrowind.esm       SKIL    4
+	morrowind.esm       SKIL    5
+	morrowind.esm       SKIL    6
+	morrowind.esm       SKIL    7
+	morrowind.esm       SKIL    8
+	morrowind.esm       SKIL    9
+	morrowind.esm       SPEL    absorb fatigue
+	morrowind.esm       SPEL    absorb fatigue [ranged]
+	morrowind.esm       SPEL    ash curse: fatigue
+	morrowind.esm       SPEL    curse fatigue
+	morrowind.esm       SPEL    daedric fatigue
+	morrowind.esm       SPEL    dire weakness to fire
+	morrowind.esm       SPEL    drain long blade
+	morrowind.esm       SPEL    drain sneak
+	morrowind.esm       SPEL    drain spear
+	morrowind.esm       SPEL    drain unarmored
+	morrowind.esm       SPEL    dread curse: fatigue
+	morrowind.esm       SPEL    fortify long blade skill
+	morrowind.esm       SPEL    fortify sneak skill
+	morrowind.esm       SPEL    fortify spear skill
+	morrowind.esm       SPEL    fortify unarmored skill
+	morrowind.esm       SPEL    grave curse: fatigue
+	morrowind.esm       SPEL    resist fire
+	morrowind.esm       SPEL    strong fire shield
+	morrowind.esm       SPEL    variable resist fire
+	morrowind.esm       SPEL    weakness to fire
+	morrowind.esm       WEAP    bonemold long bow
+	morrowind.esm       WEAP    chitin club
+	morrowind.esm       WEAP    chitin shortsword
+	morrowind.esm       WEAP    chitin war axe
+	morrowind.esm       WEAP    daedric club
+	morrowind.esm       WEAP    daedric shortsword
+	morrowind.esm       WEAP    daunting mace
+	morrowind.esm       WEAP    demon mace
+	morrowind.esm       WEAP    dwarven halberd
+	morrowind.esm       WEAP    dwarven mace
+	morrowind.esm       WEAP    dwarven shortsword
+	morrowind.esm       WEAP    dwarven spear
+	morrowind.esm       WEAP    dwarven warhammer
+	morrowind.esm       WEAP    ebony mace
+	morrowind.esm       WEAP    ebony shortsword
+	morrowind.esm       WEAP    ebony war axe
+	morrowind.esm       WEAP    firebite sword
+	morrowind.esm       WEAP    flame arrow
+	morrowind.esm       WEAP    grey shaft of holding
+	morrowind.esm       WEAP    iron shortsword
+	morrowind.esm       WEAP    iron war axe
+	morrowind.esm       WEAP    spiked club
+	morrowind.esm       WEAP    steel axe
+	morrowind.esm       WEAP    steel club
+	morrowind.esm       WEAP    steel shortsword
+	morrowind.esm       WEAP    steel spear of impaling thrust
+	morrowind.esm       WEAP    war axe of wounds
+	morrowind.esm       WEAP    wooden staff of peace
+	tribunal.esm        CONT    stolen_goods
+	tribunal.esm        DOOR    ex_t_door_01
+	tribunal.esm        DOOR    velothi_sewer_door
+	tribunal.esm        GMST    fcombatdistancewerewolfmod
+	tribunal.esm        GMST    ffleedistance
+	tribunal.esm        GMST    fwerewolfacrobatics
+	tribunal.esm        GMST    fwerewolfagility
+	tribunal.esm        GMST    fwerewolfalchemy
+	tribunal.esm        GMST    fwerewolfalteration
+	tribunal.esm        GMST    fwerewolfarmorer
+	tribunal.esm        GMST    fwerewolfathletics
+	tribunal.esm        GMST    fwerewolfaxe
+	tribunal.esm        GMST    fwerewolfblock
+	tribunal.esm        GMST    fwerewolfbluntweapon
+	tribunal.esm        GMST    fwerewolfconjuration
+	tribunal.esm        GMST    fwerewolfdestruction
+	tribunal.esm        GMST    fwerewolfenchant
+	tribunal.esm        GMST    fwerewolfendurance
+	tribunal.esm        GMST    fwerewolffatigue
+	tribunal.esm        GMST    fwerewolfhandtohand
+	tribunal.esm        GMST    fwerewolfhealth
+	tribunal.esm        GMST    fwerewolfheavyarmor
+	tribunal.esm        GMST    fwerewolfillusion
+	tribunal.esm        GMST    fwerewolfintellegence
+	tribunal.esm        GMST    fwerewolflightarmor
+	tribunal.esm        GMST    fwerewolflongblade
+	tribunal.esm        GMST    fwerewolfluck
+	tribunal.esm        GMST    fwerewolfmagicka
+	tribunal.esm        GMST    fwerewolfmarksman
+	tribunal.esm        GMST    fwerewolfmediumarmor
+	tribunal.esm        GMST    fwerewolfmerchantile
+	tribunal.esm        GMST    fwerewolfmysticism
+	tribunal.esm        GMST    fwerewolfpersonality
+	tribunal.esm        GMST    fwerewolfrestoration
+	tribunal.esm        GMST    fwerewolfrunmult
+	tribunal.esm        GMST    fwerewolfsecurity
+	tribunal.esm        GMST    fwerewolfshortblade
+	tribunal.esm        GMST    fwerewolfsilverweapondamagemult
+	tribunal.esm        GMST    fwerewolfsneak
+	tribunal.esm        GMST    fwerewolfspear
+	tribunal.esm        GMST    fwerewolfspeechcraft
+	tribunal.esm        GMST    fwerewolfspeed
+	tribunal.esm        GMST    fwerewolfstrength
+	tribunal.esm        GMST    fwerewolfunarmored
+	tribunal.esm        GMST    fwerewolfwillpower
+	tribunal.esm        GMST    iwerewolfbounty
+	tribunal.esm        GMST    iwerewolffightmod
+	tribunal.esm        GMST    iwerewolffleemod
+	tribunal.esm        GMST    iwerewolfleveltoattack
+	tribunal.esm        GMST    scompanionshare
+	tribunal.esm        GMST    scompanionwarningbuttonone
+	tribunal.esm        GMST    scompanionwarningbuttontwo
+	tribunal.esm        GMST    scompanionwarningmessage
+	tribunal.esm        GMST    screateclassmenuwarning
+	tribunal.esm        GMST    sdeletenote
+	tribunal.esm        GMST    seditnote
+	tribunal.esm        GMST    seffectsummoncreature01
+	tribunal.esm        GMST    seffectsummoncreature02
+	tribunal.esm        GMST    seffectsummoncreature03
+	tribunal.esm        GMST    seffectsummoncreature04
+	tribunal.esm        GMST    seffectsummoncreature05
+	tribunal.esm        GMST    seffectsummonfabricant
+	tribunal.esm        GMST    slevitatedisabled
+	tribunal.esm        GMST    smagiccreature01id
+	tribunal.esm        GMST    smagiccreature02id
+	tribunal.esm        GMST    smagiccreature03id
+	tribunal.esm        GMST    smagiccreature04id
+	tribunal.esm        GMST    smagiccreature05id
+	tribunal.esm        GMST    smagicfabricantid
+	tribunal.esm        GMST    smaxsale
+	tribunal.esm        GMST    sprofitvalue
+	tribunal.esm        GMST    steleportdisabled
+	tribunal.esm        GMST    swerewolfalarmmessage
+	tribunal.esm        GMST    swerewolfpopup
+	tribunal.esm        GMST    swerewolfrefusal
+	tribunal.esm        GMST    swerewolfrestmessage
+	tribunal.esm        LIGH    light_com_candle_10_128
+	tribunal.esm        MISC    misc_com_redware_cup
+	tribunal.esm        MISC    misc_com_redware_vase
+	tribunal.esm        WEAP    imperial shortsword
+	tribunal.esm        WEAP    iron mace
+	tribunal.esm        WEAP    steel mace

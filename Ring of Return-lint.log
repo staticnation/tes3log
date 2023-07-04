@@ -1,0 +1,231 @@
+Ring of Return.ESP: AUTOSPL DUP-INF DUP-REC FOGBUG JUNKCEL MASTERS MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Bloodmoon.esm                9631289 (plugin)    9631798 (installed size)
+    [AUTOSPL] Auto-calced Spells:
+	0_vampkiss                     Vampires Kiss
+	0_blind                        Malicath's Blindness
+    [FOGBUG]: Cells with zero fog density setting:
+	Mysterious Cavern
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(0_Ambient_snd)
+	SCPT(0_Caldera_snd)
+	SCPT(0_Caldera_snd2)
+	SCPT(0_Caldera_snd3)
+	SCPT(0_Go_Home)
+	SCPT(0_alchemy)
+	SCPT(0_anex)
+	SCPT(0_bedroom)
+	SCPT(0_carpets)
+	SCPT(0_cellar_done)
+	SCPT(0_cellar_lights)
+	SCPT(0_crassis)
+	SCPT(0_crates)
+	SCPT(0_deed)
+	SCPT(0_door)
+	SCPT(0_dw)
+	SCPT(0_dw_old)
+	SCPT(0_elaninde)
+	SCPT(0_flamp)
+	SCPT(0_inganare)
+	SCPT(0_kitchen)
+	SCPT(0_kitchen2)
+	SCPT(0_largestorage)
+	SCPT(0_livingroom)
+	SCPT(0_malicath_appear)
+	SCPT(0_malicath_turn_1)
+	SCPT(0_mist)
+	SCPT(0_newdoor)
+	SCPT(0_night_time)
+	SCPT(0_porthos)
+	SCPT(0_read)
+	SCPT(0_rubble)
+	SCPT(0_rubble2)
+	SCPT(0_ruccia)
+	SCPT(0_security)
+	SCPT(0_smallstorage)
+	SCPT(0_tapestries)
+	SCPT(0_unpack)
+	SCPT(0_work_counter)
+	SCPT(0_worker)
+	SCPT(Tim)
+    [JUNKCEL] Junk Cells:                        Flags
+	West Gash Region (-1, 2)                 0x02
+    [DUP-DIAL] Duplicate Dialog Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 0
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    barrel_01
+	bloodmoon.esm       CONT    flora_bm_belladonna_01
+	bloodmoon.esm       CONT    flora_bm_holly_01
+	bloodmoon.esm       DOOR    ex_nord_door_02
+	bloodmoon.esm       STAT    flora_bm_shrub_01
+	bloodmoon.esm       STAT    furn_coals_hot
+	bloodmoon.esm       STAT    furn_rope_hook
+	morrowind.esm       ACTI    ex_gg_portcullis_01
+	morrowind.esm       ALCH    p_light_b
+	morrowind.esm       ALCH    p_restore_magicka_e
+	morrowind.esm       BOOK    bk_ngastakvatakvakis_o
+	morrowind.esm       BOOK    bk_pigchildren
+	morrowind.esm       BOOK    bk_vivecandmephala
+	morrowind.esm       BOOK    text_paper_roll_01
+	morrowind.esm       CLOT    exquisite_robe_01
+	morrowind.esm       CONT    chest_small_02
+	morrowind.esm       CONT    com_basket_01
+	morrowind.esm       CONT    com_cupboard_01
+	morrowind.esm       CONT    flora_chokeweed_02
+	morrowind.esm       CONT    flora_comberry_01
+	morrowind.esm       CONT    flora_fire_fern_01
+	morrowind.esm       CONT    flora_gold_kanet_01
+	morrowind.esm       CONT    flora_kreshweed_01
+	morrowind.esm       CONT    flora_kreshweed_02
+	morrowind.esm       CONT    flora_rm_scathecraw_01
+	morrowind.esm       DOOR    ex_common_door_01
+	morrowind.esm       DOOR    in_c_door_arched
+	morrowind.esm       DOOR    in_c_door_wood_square
+	morrowind.esm       DOOR    in_strong_vaultdoor00
+	morrowind.esm       DOOR    in_v_s_trapdoor_02
+	morrowind.esm       LEVC    in_tomb_bone_lev-2
+	morrowind.esm       LEVC    in_vamp_cattle
+	morrowind.esm       MISC    misc_clothbolt_01
+	morrowind.esm       MISC    misc_clothbolt_02
+	morrowind.esm       MISC    misc_com_wood_bowl_01
+	morrowind.esm       STAT    ex_dae_malacath_attack
+	morrowind.esm       STAT    ex_imp_dragonstatue
+	morrowind.esm       STAT    ex_imp_keep_02
+	morrowind.esm       STAT    ex_nord_house_02
+	morrowind.esm       STAT    ex_stronghold_sandpit00
+	morrowind.esm       STAT    flora_bc_fern_02
+	morrowind.esm       STAT    flora_bc_fern_03
+	morrowind.esm       STAT    flora_bc_grass_01
+	morrowind.esm       STAT    flora_bc_grass_02
+	morrowind.esm       STAT    flora_bc_tree_01
+	morrowind.esm       STAT    flora_bush_01
+	morrowind.esm       STAT    flora_grass_03
+	morrowind.esm       STAT    flora_tree_ai_02
+	morrowind.esm       STAT    flora_tree_ai_04
+	morrowind.esm       STAT    flora_tree_ai_06
+	morrowind.esm       STAT    flora_tree_gl_01
+	morrowind.esm       STAT    flora_tree_gl_02
+	morrowind.esm       STAT    flora_tree_wg_01
+	morrowind.esm       STAT    furn_c_t_theif_01
+	morrowind.esm       STAT    furn_com_tapestry_01
+	morrowind.esm       STAT    furn_de_firepit_01
+	morrowind.esm       STAT    furn_de_minercave_grill_01
+	morrowind.esm       STAT    furn_de_rug_02
+	morrowind.esm       STAT    furn_imp_signbase_01
+	morrowind.esm       STAT    furn_planter_01
+	morrowind.esm       STAT    furn_planter_03
+	morrowind.esm       STAT    in_dae_rubble_01a
+	morrowind.esm       STAT    in_dae_rubble_01c
+	morrowind.esm       STAT    in_dae_rubble_pointy
+	morrowind.esm       STAT    in_lava_rock_02
+	morrowind.esm       STAT    in_lava_rock_26
+	morrowind.esm       STAT    in_t_crystal_02
+	morrowind.esm       STAT    terrain_rocks_wg_01
+	morrowind.esm       WEAP    iron sparkaxe
+	tribunal.esm        ACTI    furn_dwrv_steam_00
+	tribunal.esm        BOOK    bookskill_alchemy1
+	tribunal.esm        DOOR    ex_de_ship_trapdoor
+	tribunal.esm        DOOR    ex_nord_door_01
+	tribunal.esm        DOOR    in_dae_door_01
+	tribunal.esm        LTEX    rm_grayrock
+	tribunal.esm        MISC    misc_com_bottle_02
+	tribunal.esm        MISC    misc_de_foldedcloth00
+	tribunal.esm        MISC    misc_de_pot_blue_02
+	tribunal.esm        STAT    ex_mh_canal_grate_01
+	tribunal.esm        STAT    flora_grass_05
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    greeting 4
+	bloodmoon.esm       DIAL    my story
+	bloodmoon.esm       LTEX    tx_bc_rock_03.tga
+	bloodmoon.esm       LTEX    tx_bm_snow_04.dds
+	morrowind.esm       CLOT    common_pants_04
+	morrowind.esm       CLOT    common_pants_04_b
+	morrowind.esm       CLOT    common_pants_05
+	morrowind.esm       CLOT    common_shirt_01
+	morrowind.esm       CLOT    common_shirt_01_u
+	morrowind.esm       CLOT    common_shirt_02
+	morrowind.esm       CLOT    common_shirt_04
+	morrowind.esm       CLOT    common_shirt_04_a
+	morrowind.esm       CLOT    common_shirt_04_b
+	morrowind.esm       CLOT    common_shirt_04_c
+	morrowind.esm       CLOT    common_shirt_05
+	morrowind.esm       CLOT    expensive_pants_01
+	morrowind.esm       CLOT    expensive_shirt_01_e
+	morrowind.esm       CLOT    expensive_shirt_03
+	morrowind.esm       CLOT    expensive_shoes_03
+	morrowind.esm       CLOT    expensive_skirt_03
+	morrowind.esm       CLOT    exquisite_skirt_01
+	morrowind.esm       CLOT    extravagant_shoes_02
+	morrowind.esm       CLOT    extravagant_skirt_01
+	morrowind.esm       CLOT    extravagant_skirt_02
+	morrowind.esm       CREA    skeleton champion
+	morrowind.esm       DIAL    caldera
+	morrowind.esm       DIAL    help me
+	morrowind.esm       LAND    (-1, 2)
+	morrowind.esm       LAND    (-2, 1)
+	morrowind.esm       LAND    (-2, 2)
+	morrowind.esm       LAND    (-8, 4)
+	morrowind.esm       LIGH    light_com_lantern_02_128
+	morrowind.esm       LTEX    rm_redrock
+	morrowind.esm       LTEX    tx_bc_grass.tga
+	morrowind.esm       LTEX    tx_bc_moss.tga
+	morrowind.esm       LTEX    tx_bc_muck_01.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	morrowind.esm       LTEX    tx_bc_rock_04.tga
+	morrowind.esm       LTEX    tx_bc_rockyscrub.tga
+	morrowind.esm       LTEX    tx_bc_undergrowth.tga
+	morrowind.esm       LTEX    tx_rockyscrub_01.tga
+	morrowind.esm       LTEX    wg_cobblestones
+	morrowind.esm       LTEX    wg_dirtroad_01
+	morrowind.esm       LTEX    wg_dirtscrub
+	morrowind.esm       LTEX    wg_mainroad_01
+	morrowind.esm       LTEX    wg_rock
+	morrowind.esm       LTEX    wg_rockydirt
+	morrowind.esm       LTEX    wg_rockyscrub
+	morrowind.esm       LTEX    wg_scrub plain
+	morrowind.esm       NPC_    habasi
+	morrowind.esm       NPC_    surane leoriane
+	morrowind.esm       NPC_    urul gro-ghorak
+	tribunal.esm        CREA    centurion_sphere
+	tribunal.esm        CREA    centurion_spider
+	tribunal.esm        CREA    centurion_steam
+	tribunal.esm        CREA    lich
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    services
+	tribunal.esm        LTEX    rm_rock_01
+
+[DUP-INF]: ID=19137490125553988(Greeting:greeting 1)
+  |DATA|ONAM:Nerile Andaren|NAME:Ah, %PCName. Friend of the Temple, and healer of Mournhold. What can I do for you?|SCVR:04JX0MS_CrimsonPlague|INTV
+
+[DUP-INF]: ID=1288227500790714973(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:Pardon me. But there's a very strange man in my house, and he won't leave. Will you go get him out of there, please?|SCVR:04JX3A2_2_6thHouse|INTV:2|SCVR:16DX0dreamer_02|INTV:
+
+[DUP-INF]: ID=1619018371671630615(Topic:help me)
+  |DATA|ONAM:bugrol gro-bagul|NAME:Hey, you got my note, so go! Don't want to stay out here all day. No fun to sleep on rocks.|SCVR:04JX0MV_Bugrol|INTV
+
+[DUP-INF]: ID=2185346851489019511(Topic:my story)
+  |DATA|ONAM:draugr_aesliip|NAME:I have begun to tell you my story, and how I was cast out.|SCVR:04JX3BM_Draugr|INTV:<|SCVR:14JX4BM_Draugr|INTV:P
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0
+
+[DUP-INF]: ID=3137517782452216666(Greeting:greeting 4)
+  |DATA|ANAM:Raven Rock|NAME:You've got the corprus! There's no cure for that, is there?|SCVR:01580|INTV
+
+[DUP-INF]: ID=3748250542379720869(Topic:business)
+  |DATA|ONAM:Dovor Oren|NAME:It's no concern of yours, %PCRace.|SCVR:04JX3MS_Warlords|INTV
+
+[DUP-INF]: ID=13950144952521118349(Topic:caldera)
+  |DATA|ONAM:elone|NAME:Caldera is a recently chartered Imperial town and mining corporation north of Balmora on the road to Ald'ruhn. The Caldera Mining Company has been granted an Imperial monopoly to remove raw ebony from the rich deposits here. Caldera is a new town, recently built in the Western Imperial style, and most of the citizens are outlanders and new colonists.|BNAM:ShowMap Caldera
+
+[DUP-INF]: ID=20481194642735427051(Greeting:greeting 1)
+  |DATA|NAME:[You have failed your Oath of Silence]|SCVR:34JX3TT_SanctusShrine|INTV|SCVR:44JX4TT_SanctusShrine|INTV:2|BNAM:;ALWAYS LEAVE THIS TOPIC AT THE VERY TOP OF GREETING 1  Journal TT_SanctusShrine 70  Goodbye
+
+[DUP-INF]: ID=30825219281734727358(Topic:services)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.

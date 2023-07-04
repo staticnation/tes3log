@@ -1,0 +1,116 @@
+Different Types of Local Plants for Ajira's Reports.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ajiraReport1)
+	SCPT(ajiraReport10)
+	SCPT(ajiraReport11)
+	SCPT(ajiraReport2)
+	SCPT(ajiraReport3)
+	SCPT(ajiraReport4)
+	SCPT(ajiraReport5)
+	SCPT(ajiraReport6)
+	SCPT(ajiraReport7)
+	SCPT(ajiraReport8)
+	SCPT(ajiraReport9)
+	SCPT(ajiraScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       BOOK    bk_ajira1
+	morrowind.esm       BOOK    bk_ajira2
+	morrowind.esm       DIAL    ampoule pod
+	morrowind.esm       DIAL    ash yam
+	morrowind.esm       DIAL    bet with galbedir
+	morrowind.esm       DIAL    bittergreen petals
+	morrowind.esm       DIAL    black anther
+	morrowind.esm       DIAL    black lichen
+	morrowind.esm       DIAL    chokeweed
+	morrowind.esm       DIAL    coda flower
+	morrowind.esm       DIAL    comberry
+	morrowind.esm       DIAL    corkbulb root
+	morrowind.esm       DIAL    fake soul gem
+	morrowind.esm       DIAL    fire petals
+	morrowind.esm       DIAL    flowers
+	morrowind.esm       DIAL    green lichen
+	morrowind.esm       DIAL    hackle-lo leaf
+	morrowind.esm       DIAL    kresh fiber
+	morrowind.esm       DIAL    marshmerrow
+	morrowind.esm       DIAL    muck
+	morrowind.esm       DIAL    mushrooms
+	morrowind.esm       DIAL    red lichen
+	morrowind.esm       DIAL    roobrush
+	morrowind.esm       DIAL    saltrice
+	morrowind.esm       DIAL    scathecraw
+	morrowind.esm       DIAL    spore pod
+	morrowind.esm       DIAL    stolen reports
+	morrowind.esm       DIAL    trama root
+	morrowind.esm       DIAL    wickwheat
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    mg_stolenreport
+
+[MOD-INF]: ID=1479817701996308(Topic:duties)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Yes, Ajira has more duties for %PCName. Ajira made a bet with Galbedir...|SCVR:34JX3MG_BCShrooms|INTV:d
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Yes, Ajira has more duties for %PCName. Ajira made a bet with Galbedir...|SCVR:34JX3MG_RAAR1|INTV:d
+
+[MOD-INF]: ID=31535256745725028(Topic:duties)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira is very sorry. Ajira has much work to do on these reports so Ajira can win her bet with Galbedir. Maybe you could fetch a new ceramic bowl for Ajira?|SCVR:34JX3MG_Flowers|INTV:d
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira is very sorry. Ajira has much work to do on these reports so Ajira can win her bet with Galbedir. Maybe you could fetch a new ceramic bowl for Ajira?|SCVR:34JX3MG_RAAR2|INTV:d
+
+[MOD-INF]: ID=297948001459427143(Greeting:greeting 5)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|NAME:Ajira must find her stolen reports!|SCVR:01390|INTV:|SCVR:13sX2doOnce|INTV:|SCVR:34JX3MG_Flowers|INTV:d|SCVR:44JX4MG_StolenReport|INTV: 
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|NAME:Ajira must find her stolen reports!|SCVR:01390|INTV:|SCVR:13sX2doOnce|INTV:|SCVR:34JX3MG_RAAR2|INTV:d|SCVR:44JX4MG_StolenReport|INTV: 
+
+[MOD-INF]: ID=866180402770723651(Topic:duties)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Yes, Ajira has duties for you. Before Ajira can be a Journeyman in the Mages Guild, Ajira must study local mushrooms.
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Yes, Ajira has duties for you. Before Ajira can be a Journeyman in the Mages Guild, Ajira must study local plants.
+
+[MOD-INF]: ID=970052703132825174(Topic:bet with galbedir)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira made a bet with Galbedir that Ajira would be a Journeyman before Galbedir. Now Ajira must study these mushrooms and write a report. Ajira wants you to give Galbedir a fake soul gem.|SCVR:34JX3MG_BCShrooms|INTV:d
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira made a bet with Galbedir that Ajira would be a Journeyman before Galbedir. Now Ajira must study these local plants and write a report. Ajira wants you to give Galbedir a fake soul gem.|SCVR:34JX3MG_RAAR1|INTV:d
+
+[MOD-INF]: ID=1221419574578511267(Greeting:greeting 5)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|NAME:Has %PCName found the mushrooms Ajira needs?|SCVR:01390|INTV:|SCVR:34JX2MG_BCShrooms|INTV:|SCVR:44JX4MG_BCShrooms|INTV:d
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|NAME:Has %PCName found the local plants Ajira needs?|SCVR:01390|INTV:|SCVR:34JX2MG_RAAR1|INTV:|SCVR:44JX4MG_RAAR1|INTV:d
+
+[MOD-INF]: ID=1701916392232314398(Greeting:greeting 5)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|NAME:Does %PCName have flowers for Ajira?|SCVR:01390|INTV:|SCVR:34JX2MG_Flowers|INTV:|SCVR:44JX4MG_Flowers|INTV:d
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|NAME:Does %PCName have more local plants for Ajira?|SCVR:01390|INTV:|SCVR:34JX2MG_RAAR2|INTV:|SCVR:44JX4MG_RAAR2|INTV:d
+
+[MOD-INF]: ID=1833615801749422119(Topic:duties)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira must now study local flowers.|SCVR:34JX3MG_Sabotage|INTV:d
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira must now study more local plants.|SCVR:34JX3MG_Sabotage|INTV:d
+
+[MOD-INF]: ID=2219728847161718649(Topic:duties)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira must find her stolen reports!|SCVR:03sX2doOnce|INTV:|SCVR:34JX3MG_Flowers|INTV:d
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira must find her stolen reports!|SCVR:03sX2doOnce|INTV:|SCVR:34JX3MG_RAAR2|INTV:d
+
+[MOD-INF]: ID=2878922371139488232(Topic:stolen reports)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira needs your help very badly. Galbedir stole Ajira's reports on the properties of local mushrooms and flowers. Ajira knows Galbedir did not leave the Mages Guild, so the reports must be nearby.|SCVR:34JX3MG_Flowers|INTV:d|BNAM:Journal MG_StolenReport 10
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira needs your help very badly. Galbedir stole Ajira's reports on the properties of local plants. Ajira knows Galbedir did not leave the Mages Guild, so the reports must be nearby.|SCVR:34JX3MG_RAAR2|INTV:d|BNAM:Journal MG_StolenReport 10
+
+[MOD-INF]: ID=4976244511819622984(Topic:fake soul gem)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira has made a fake soul gem. Take it and put it in Galbedir's desk upstairs. Galbedir should be coming downstairs to talk with Marayn Dren, so no one will see you do this thing.|SCVR:34JX3MG_BCShrooms|INTV:d|BNAM:Journal MG_Sabotage 10  Player->AddItem "misc_fakesoulgem" 1
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Ajira has made a fake soul gem. Take it and put it in Galbedir's desk upstairs. Galbedir should be coming downstairs to talk with Marayn Dren, so no one will see you do this thing.|SCVR:34JX3MG_RAAR1|INTV:d|BNAM:Journal MG_Sabotage 10  Player->AddItem "misc_fakesoulgem" 1
+
+[MOD-INF]: ID=7300276011471223511(Topic:stolen reports)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|NAME:Yes, these are the reports Ajira needs. Ajira thanks you, %PCName. Ajira is your friend always. Ajira worked very hard on these potions for you.|SCVR:01500|INTV|SCVR:15IX2bk_Ajira1|INTV:|SCVR:25IX2bk_Ajira2|INTV:|BNAM:Journal MG_StolenReport 100  Player->RemoveItem "bk_Ajira1" 1  Player->RemoveItem "bk_Ajira2" 1  Player->AddItem p_fire_shield_e 1  Player->AddItem p_frost_shield_e 1  Player->AddItem "p_lightning shield_e" 1  Player->AddItem p_spell_absorption_e 2  ModPCFacRep 5 "Mages Guild"  ModDisposition 10  Player->ModReputation 1
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|NAME:Yes, these are the reports Ajira needs. Ajira thanks you, %PCName. Ajira is your friend always. Ajira worked very hard on these potions for you.|SCVR:01500|INTV|BNAM:Journal MG_StolenReport 100  if ( player->GetItemCount "bk_Ajira1" >= 1 )  Player->RemoveItem "bk_Ajira1" 1  endif  if ( player->GetItemCount "bk_Ajira2" >= 1 )  Player->RemoveItem "bk_Ajira2" 1  endif  if ( player->GetItemCount "bk_Ajira3" >= 1 )  Player->RemoveItem "bk_Ajira3" 1  endif  if ( player->GetItemCount "bk_Ajira4" >= 1 )  Player->RemoveItem "bk_Ajira4" 1  endif  if ( player->GetItemCount "bk_Ajira5" >= 1 )  Player->RemoveItem "bk_Ajira5" 1  endif  if ( player->GetItemCount "bk_Ajira6" >= 1 )  Player->RemoveItem "bk_Ajira6" 1  endif  if ( player->GetItemCount "bk_Ajira7" >= 1 )  Player->RemoveItem "bk_Ajira7" 1  endif  if ( player->GetItemCount "bk_Ajira8" >= 1 )  Player->RemoveItem "bk_Ajira8" 1  endif  if ( player->GetItemCount "bk_Ajira9" >= 1 )  Player->RemoveItem "bk_Ajira9" 1  endif 
+
+[MOD-INF]: ID=21708303161485031644(Topic:stolen reports)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Have you found Ajira's reports?|SCVR:34JX3MG_StolenReport|INTV: |BNAM:Choice "Yes, here they are." 1 "No, not yet" 2
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|DNAM:Mages Guild|NAME:Have you found Ajira's reports?|SCVR:34JX3MG_StolenReport|INTV: |BNAM:set countBkAjira to ( player->GetItemCount "bk_Ajira1" )  set countBkAjira to ( countBkAjira  + ( player->GetItemCount "bk_Ajira2" ) )  set countBkAjira to ( countBkAjira  + ( player->GetItemCount "bk_Ajira3" ) )  set countBkAjira to ( countBkAjira  + ( player->GetItemCount "bk_Ajira4" ) )  set countBkAjira to ( countBkAjira  + ( player->GetItemCount "bk_Ajira5" ) )  set countBkAjira to ( countBkAjira  + ( player->GetItemCount "bk_Ajira6" ) )  set countBkAjira to ( countBkAjira  + ( player->GetItemCount "bk_Ajira7" ) )  set countBkAjira to ( countBkAjira  + ( player->GetItemCount "bk_Ajira8" ) )  set countBkAjira to ( countBkAjira  + ( player->GetItemCount "bk_Ajira9" ) )  set countBkAjira to ( countBkAjira  + ( player->GetItemCount "bk_Ajira10" ) )  set countBkAjira to ( countBkAjira  + ( player->GetItemCount "bk_Ajira11" ) )  if ( countBkAjira >= 2 )  Choice "Yes, here they a
+
+[MOD-INF]: ID=21867155881152921057(Greeting:greeting 5)
+  morrowind.esm------------------------------------------->|DATA|ONAM:ajira|NAME:Ajira must study these flowers and mushrooms. %PCName knows this. Why does %PCName pester Ajira now?|SCVR:01390|INTV:|SCVR:34JX3MG_Flowers|INTV:d
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|ONAM:ajira|NAME:Ajira must study these local plants. %PCName knows this. Why does %PCName pester Ajira now?|SCVR:01390|INTV:|SCVR:34JX3MG_RAAR2|INTV:d
+
+[MOD-INF]: ID=24172144051369430124(Journal:mg_raar1)
+  tribunal.esm-------------------------------------------->|DATA|NAME:Ajira thanked me for bringing her the mushroom samples.|QSTF
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|NAME:Ajira thanked me for bringing her the local plant samples.|QSTF
+
+[MOD-INF]: ID=29463119311147717193(Journal:mg_raar1)
+  tribunal.esm-------------------------------------------->|DATA|NAME:Ajira asked me to bring her samples of four types of Mushrooms: Luminous Russula, Violet Coprinus, Bungler's Bane, and Hypha Facia. They may be found in the swamps of the Bitter Coast. I can get there by following the river Odai south of Balmora until I see a wooden bridge. After I pass the bridge I should look for a way over the hills to the west.
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|NAME:Ajira asked me to bring her samples of four types of plants: Chokeweed, Kreshweed, Muck, and Roobrush. They may be found in the West Gash. I can get there by taking the silt strider to Gnisis.
+
+[MOD-INF]: ID=30634202122356212014(Journal:mg_stolenreport)
+  tribunal.esm-------------------------------------------->|DATA|NAME:Ajira told me that her reports on the mushrooms and flowers of Vvardenfell have been stolen. Ajira thinks that Galbedir stole them. I should look around the Mages Guild here in Balmora for the reports and return them to Ajira.
+  Different Types of Local Plants for Ajira's Reports.esp->|DATA|NAME:Ajira told me that her reports on the local plants of Vvardenfell have been stolen. Ajira thinks that Galbedir stole them. I should look around the Mages Guild here in Balmora for the reports and return them to Ajira.

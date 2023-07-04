@@ -1,0 +1,20 @@
+Character Backgrounds.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSDSC MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1314087 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(mer_bg_forcegreet)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	tribunal.esm        ARMO    iron_helmet
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=1450442414429500(Greeting:greeting 5)
+  |DATA|ONAM:gindrala hleran|NAME:You are the one who took care of that strange man in my house? Thank you. I'll tell everyone how kind and brave you've been.|SCVR:16DX0dreamer_02|INTV
+
+[DUP-INF]: ID=3223324127987614626(Greeting:greeting 5)
+  |DATA|ONAM:hanarai assutlanipal|NAME:It is the Hour of Wakening. Dagoth Ur awakes, and comes forth in his glory, and his people shall rejoice, and his enemies shall scatter like dust.|SCVR:04JX3A1_2_AntabolisInformant|INTV: |SCVR:14JX4C3_DestroyDagoth|INTV:2|BNAM:setdisposition 0  setfight 90  goodbye
+
+[DUP-INF]: ID=28487210471647714045(Greeting:greeting 5)
+  |DATA|ONAM:hanarai assutlanipal|NAME:I feel as though I've just awakened from a dream... a terrible dream of the Sixth House.|SCVR:14JX3C3_DestroyDagoth|INTV:2

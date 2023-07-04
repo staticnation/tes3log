@@ -1,0 +1,15 @@
+Call_Incarnate.ESP: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    not the one
+	morrowind.esm       NPC_    ghost_npc_ane teria
+	morrowind.esm       NPC_    ghost_npc_conoon chodal
+	morrowind.esm       NPC_    ghost_npc_erur-dan
+	morrowind.esm       NPC_    ghost_npc_hort_ledd
+	morrowind.esm       NPC_    ghost_npc_idrenie nerot
+	morrowind.esm       NPC_    ghost_npc_peakstar
+	tribunal.esm        DIAL    greeting 0
+
+[MOD-INF]: ID=254753852702421420(Topic:not the one)
+  morrowind.esm------>|DATA|ONAM:ghost_npc_peakstar|NAME:I am a failed Incarnate. So are all these who remain here with me in the Cavern of the Incarnate. I survived the blight, but I fell in battle with an Ash Vampire. I could not master the arts of war. Nor could I learn the ways of the Great Houses. They would not have accepted me as Hortator. Take these few poor things... they are of no use to me.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;   player->additem peakstar_belt_unique 1  player->additem peakstar_pants_unique 1  Journal "A2_6_Peakstar" 100
+  Call_Incarnate.ESP->|DATA|ONAM:ghost_npc_peakstar|NAME:I am a failed Incarnate. So are all these who remain here with me in the Cavern of the Incarnate. I survived the blight, but I fell in battle with an Ash Vampire. I could not master the arts of war. Nor could I learn the ways of the Great Houses. They would not have accepted me as Hortator. Take these few poor things... they are of no use to me. When you have talked with all the incarnates, talk with me again. I would have another gift for you.|SCVR:04JX3A2_6_Incarnate|INTV:2|BNAM:;Peakstar; Journal "A2_6_Incarnate" <= 50;   player->additem peakstar_belt_unique 1  player->additem peakstar_pants_unique 1  Journal "A2_6_Peakstar" 100

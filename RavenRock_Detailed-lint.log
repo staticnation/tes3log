@@ -1,0 +1,29 @@
+RavenRock_Detailed.ESP: DUP-REC MASTERS MENUMOD MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             9116563 (plugin)   11064795 (installed size)
+	Solstheim Tomb of The Snow Prince.esm   10643693 (plugin)   10637543 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ColonyFactor1_Final)
+	SCPT(ColonyFactor1_Final_Door)
+	SCPT(ColonyFactor2_D)
+	SCPT(ColonyFactor2_Final)
+	SCPT(ColonyFactor2_Final_Door)
+	SCPT(ColonyFactor3_Final)
+	SCPT(ColonyFactor3_Final_Door)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       ACTI    a_furn_com_table_colony
+	bloodmoon.esm       ACTI    act_ex_de_ship_door
+	bloodmoon.esm       ACTI    act_ex_de_ship_trapdoor
+	bloodmoon.esm       ACTI    colony terrain_rock_bm_60_f3
+	bloodmoon.esm       ACTI    colony terrain_rock_bm_64_f3
+	bloodmoon.esm       ACTI    ex_colony_p_residence01c_4
+	bloodmoon.esm       CONT    barrel_01_cheapfood_co
+	bloodmoon.esm       CONT    barrel_02_cheapfood_co
+	bloodmoon.esm       CONT    crate_01_random_pos_co
+	bloodmoon.esm       DOOR    ex_colony_door05a_4
+	bloodmoon.esm       DOOR    ex_colony_door05b_4
+	bloodmoon.esm       DOOR    ex_colony_door05c_4
+	morrowind.esm       LIGH    light_torch_01
+	tamriel_data.esm    ACTI    t_nor_set_signtavern_03
+	tamriel_data.esm    WEAP    t_imp_silver_longbow_01

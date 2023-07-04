@@ -1,0 +1,21 @@
+MW_Inconsistencies.ESP: AUTOSPL DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [AUTOSPL] Auto-calced Spells:
+	dragon fire                    Dragon Fire
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(DragonboneFire)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    lords_cuirass_unique
+	morrowind.esm       CLOT    ring_warlock_unique
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    dragonbone_cuirass_unique
+	morrowind.esm       CREA    centurion_mudan_unique
+	morrowind.esm       CREA    netch_betty
+	morrowind.esm       CREA    netch_betty_ranched
+	morrowind.esm       CREA    netch_bull
+	morrowind.esm       CREA    netch_bull_ranched
+	morrowind.esm       ENCH    lord's praise
+	morrowind.esm       ENCH    warlock's sphere
+	morrowind.esm       INGR    ingred_scrap_metal_01
+	tribunal.esm        CREA    centurion_steam

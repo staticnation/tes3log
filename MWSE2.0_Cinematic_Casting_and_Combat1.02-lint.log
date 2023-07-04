@@ -1,0 +1,12 @@
+MWSE2.0_Cinematic_Casting_and_Combat1.02.esp: EXP-DEP GETSND MISSAUT MISSDSC MISSVER NUMRECS
+    [NUMRECS]: number of records in TES3.HEDR (32) != Actual count (31)
+    [EXP-DEP] Expansion Dependency: Startup Script: sve_3rd_person
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(sve_3rd_person)                 getscale
+	SCPT(sve_3rd_person)                 getspellreadied
+	SCPT(sve_3rd_person)                 getweapondrawn
+	SCPT(sve_3rd_person)                 getweapontype
+	SCPT(sve_3rd_person)                 setdelete
+	SCPT(sve_3rd_person)                 setscale
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(sve_3rd_person)

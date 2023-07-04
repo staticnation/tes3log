@@ -1,0 +1,15 @@
+NoMan's Filled Soul Gem Vending.ESP: DUP-REC MENUMOD MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (80) != Actual count (7)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(SoulGemShopScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=12791257953195520624(Greeting:greeting 5)
+  morrowind.esm----------------------->|DATA|ONAM:galbedir|NAME:Are you here for scrolls, %PCName? Or are you here from some other enchantments? Or even soulgems? Whatever your enchanting needs, you've come to the right place.|SCVR:01390|INTV:|SCVR:11630|INTV
+  NoMan's Filled Soul Gem Vending.ESP->|DATA|ONAM:galbedir|NAME:Are you here for scrolls, %PCName? Or are you here from some other enchantments? You can purchase filled soul gems or unfilled soul gems here. Whatever your enchanting needs, you've come to the right place.|SCVR:01390|INTV:|SCVR:11630|INTV|BNAM:AddTopic "Purchase filled soul gems"
+
+[MOD-INF]: ID=20642322762426321011(Greeting:greeting 5)
+  morrowind.esm----------------------->|DATA|ONAM:galbedir|NAME:Step right up, %PCName, and look over my collection of scrolls. How about the flashy and cheap Taldam's Scorcher to burn your foes? Or Ondusi's Unhinging to open stuck chests and doors? If you're going somewhere dangerous, try some scrolls of Vitality and Vigor to restore your and health and fatigue. If you're in real trouble, you'll want Almsivi Intervention or Divine Intervention to transport you instantly to the nearest Temple or nearest Imperial shrine.|SCVR:01390|INTV:
+  NoMan's Filled Soul Gem Vending.ESP->|DATA|ONAM:galbedir|NAME:Step right up, %PCName, and look over my collection of scrolls. How about the flashy and cheap Taldam's Scorcher to burn your foes? Or Ondusi's Unhinging to open stuck chests and doors? If you're going somewhere dangerous, try some scrolls of Vitality and Vigor to restore your and health and fatigue. If you're in real trouble, you'll want Almsivi Intervention or Divine Intervention to transport you instantly to the nearest Temple or nearest Imperial shrine. Enchanting? Purchase filled soul gems here.|SCVR:01390|INTV:|BNAM:AddTopic "Purchase filled soul gems"

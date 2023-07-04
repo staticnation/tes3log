@@ -1,0 +1,18 @@
+MQE_GarrisonedGhostgate.ESP: DUP-INF DUP-REC JUNKCEL MENUMOD MISSAUT MISSDSC MISSVER NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (97) != Actual count (25)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(_MQE_stage1_gg)
+	SCPT(_MQE_stage2_gg)
+	SCPT(_MQE_stage3_gg)
+	SCPT(_MQE_stage4_gg)
+    [JUNKCEL] Junk Cells:                        Flags
+	Red Mountain Region (2, 5)               0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 1
+
+[DUP-INF]: ID=1588813549227325295(Greeting:greeting 1)
+  |DATA|CNAM:Dreamers|NAME:All is silence. The road is straight, without turning, in darkness. Now let there be an end to all things.|SCVR:04JX3C3_DestroyDagoth|INTV:2|BNAM:modDisposition -10  goodbye
+
+[DUP-INF]: ID=14849203321598615886(Greeting:greeting 1)
+  |DATA|ONAM:Thelsa Dral|NAME:Well. Someone finally found me. Your bad luck, really.|BNAM:StartCombat Player  SetFight 90  SetDisposition 0  Goodbye

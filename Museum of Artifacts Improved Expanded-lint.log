@@ -1,0 +1,461 @@
+Museum of Artifacts Improved Expanded.esp: DUP-REC MENUMOD MISSDSC MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(1jw_mma_housedagothscr)
+	SCPT(1jw_mma_info10script)
+	SCPT(1jw_mma_info11script)
+	SCPT(1jw_mma_info12script)
+	SCPT(1jw_mma_info13script)
+	SCPT(1jw_mma_info14script)
+	SCPT(1jw_mma_info1script)
+	SCPT(1jw_mma_info2script)
+	SCPT(1jw_mma_info3script)
+	SCPT(1jw_mma_info4script)
+	SCPT(1jw_mma_info5script)
+	SCPT(1jw_mma_info6script)
+	SCPT(1jw_mma_info7script)
+	SCPT(1jw_mma_info8script)
+	SCPT(1jw_mma_info9script)
+	SCPT(1jw_mma_mersignscr)
+	SCPT(1jw_mma_mournholdsignscr)
+	SCPT(1jw_mma_secondsignscr)
+	SCPT(1jw_mma_testscript)
+	SCPT(1jw_mma_vvsignscr)
+	SCPT(MuseumAurielBow)
+	SCPT(MuseumAurielShield)
+	SCPT(MuseumBiPolarBlade)
+	SCPT(MuseumBitterMercy)
+	SCPT(MuseumBootsApostle)
+	SCPT(MuseumBootsBlinding)
+	SCPT(MuseumBootsTenPace)
+	SCPT(MuseumBowShadows)
+	SCPT(MuseumChrysamere)
+	SCPT(MuseumDagSym)
+	SCPT(MuseumDaggerFang)
+	SCPT(MuseumDragonBone)
+	SCPT(MuseumEbonyMail)
+	SCPT(MuseumEleidonsward)
+	SCPT(MuseumGoldbrand)
+	SCPT(MuseumHelmBearclaw)
+	SCPT(MuseumHelmBloodworm)
+	SCPT(MuseumIceblade)
+	SCPT(MuseumLordsMail)
+	SCPT(MuseumMaceMolagBal)
+	SCPT(MuseumMaceSlurring)
+	SCPT(MuseumRingPhynaster)
+	SCPT(MuseumRingVampiric)
+	SCPT(MuseumRingWarlock)
+	SCPT(MuseumRobeLich)
+	SCPT(MuseumSaviorsHide)
+	SCPT(MuseumSkullCrusher)
+	SCPT(MuseumSpellBreaker)
+	SCPT(MuseumStaffHasedoki)
+	SCPT(MuseumStaffMagnus)
+	SCPT(MuseumStendarHammer)
+	SCPT(MuseumUmbraSword)
+	SCPT(MuseumVelothJudgment)
+	SCPT(ToF_EMOAHR_MuseumRingHircine)
+	SCPT(ToF_EMOAHR_MuseumScript)
+	SCPT(ToF_EMOA_MuseumDaedricCrescent)
+	SCPT(ToF_EMOA_MuseumMasqueClavicus)
+	SCPT(ToF_EMOA_MuseumMehrunesRazor)
+	SCPT(ToF_EMOA_MuseumRandagulfLeft)
+	SCPT(ToF_EMOA_MuseumRandagulfRight)
+	SCPT(ToF_EMOA_MuseumRingDenstagmer)
+	SCPT(ToF_EMOA_MuseumRingKhajiit)
+	SCPT(ToF_EMOA_MuseumRingMentor)
+	SCPT(ToF_EMOA_MuseumRingSurroundings)
+	SCPT(ToF_EMOA_MuseumRingWind)
+	SCPT(ToF_EMOA_MuseumScourge)
+	SCPT(ToF_EMOA_MuseumScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    masque of clavicus vile
+	morrowind.esm       DIAL    ring of the wind
+	tribunal.esm        BOOK    bk_artifacts_tamriel
+	tribunal.esm        DIAL    auriel's bow
+	tribunal.esm        DIAL    auriel's shield
+	tribunal.esm        DIAL    bipolar blade
+	tribunal.esm        DIAL    bloodworm helm
+	tribunal.esm        DIAL    boots of blinding speed
+	tribunal.esm        DIAL    boots of the apostle
+	tribunal.esm        DIAL    bow of shadows
+	tribunal.esm        DIAL    chrysamere
+	tribunal.esm        DIAL    cuirass of the savior's hide
+	tribunal.esm        DIAL    dagger of symmachus
+	tribunal.esm        DIAL    dragonbone cuirass
+	tribunal.esm        DIAL    ebony mail
+	tribunal.esm        DIAL    eleidon's ward
+	tribunal.esm        DIAL    fang of haynekhtnamet
+	tribunal.esm        DIAL    goldbrand
+	tribunal.esm        DIAL    helm of oreyn bearclaw
+	tribunal.esm        DIAL    ice blade of the monarch
+	tribunal.esm        DIAL    lord's mail
+	tribunal.esm        DIAL    mace of molag bal
+	tribunal.esm        DIAL    mace of slurring
+	tribunal.esm        DIAL    ring of phynaster
+	tribunal.esm        DIAL    robe of the lich
+	tribunal.esm        DIAL    skull-crusher
+	tribunal.esm        DIAL    spear of bitter mercy
+	tribunal.esm        DIAL    spell breaker
+	tribunal.esm        DIAL    staff of hasedoki
+	tribunal.esm        DIAL    staff of magnus
+	tribunal.esm        DIAL    ten pace boots
+	tribunal.esm        DIAL    umbra sword
+	tribunal.esm        DIAL    vampiric ring
+	tribunal.esm        DIAL    veloth's judgement
+	tribunal.esm        DIAL    warlock's ring
+	tribunal.esm        PGRD    mournhold, museum of artifacts
+	tribunal.esm        WEAP    bipolar blade_x
+	tribunal.esm        WEAP    glass dagger_symmachus_unique_x
+
+[MOD-INF]: ID=170060793014256(Topic:auriel's shield)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Another shield for our fine collection.  Are you willing to sell it, %PCName? I can offer 13500 gold for it.|SCVR:03sX0aurielshield|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Another shield for our fine collection.  Are you willing to sell it, %PCName? I can offer 8,500 gold for it.|SCVR:03sX0aurielshield|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=1349553444937427(Topic:umbra sword)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. It will be safe here, I assure you.|SCVR:01500|INTV|SCVR:15IX0longsword_umbra_unique|INTV|BNAM:set umbrasword to 2  player->removeitem "longsword_umbra_unique" 1  player->additem "gold_001" 30000  "longsword_umbra_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. It will be safe here, I assure you.|SCVR:01500|INTV|SCVR:15IX0longsword_umbra_unique|INTV|BNAM:set umbrasword to 2  player->removeitem "longsword_umbra_unique" 1  player->additem "gold_001" 30000  "longsword_umbra_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=8374360613721709(Topic:dagger of symmachus)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX2glass dagger_symmachus_unique|INTV:|BNAM:player->removeitem "glass dagger_symmachus_unique" 1  player->additem "gold_001" 10000  set dagsym to 2  "glass dagger_symmachus_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX2glass dagger_symmachus_unique|INTV:|BNAM:player->removeitem "glass dagger_symmachus_unique" 1  player->additem "gold_001" 10000  set dagsym to 2  "glass dagger_symmachus_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=12708125786764466(Topic:bow of shadows)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Well, this is a piece I never thought I'd see.  Did you know that the assassin Dram was said to have wielded this bow?  I would be honored to have this on display. I can offer you 21000 gold for it.|SCVR:03sX0bowshadows|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Well, this is a piece I never thought I'd see.  Did you know that the assassin Dram was said to have wielded this bow?  I would be honored to have this on display. I can offer you 21000 gold for it.|SCVR:03sX0bowshadows|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=14006415183118868(Topic:fang of haynekhtnamet)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Ah, yes.  The blade forged from a dragon fang, surpassed in its wonder only by its difficulty to pronounce.  Do you wish to sell this to the museum? Or perhaps donate it? I can offer you 16000 gold if you choose to sell it.|SCVR:03sX0daggerfang|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Ah, yes.  The blade forged from a dragon fang, surpassed in its wonder only by its difficulty to pronounce.  Do you wish to sell this to the museum? Or perhaps donate it? I can offer you 16000 gold if you choose to sell it.|SCVR:03sX0daggerfang|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=15506533540610320(Topic:warlock's ring)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:I do not wish to know what you must have been through to acquire this ring.  If it has outlived its usefulness to you, perhaps you would be willing to sell it to the museum? Or perhaps you would like to donate it? I can offer you 11000 gold, should you decide to sell it.|SCVR:03sX0ringwarlock|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:I do not wish to know what you must have been through to acquire this ring.  If it has outlived its usefulness to you, perhaps you would be willing to sell it to the museum? Or perhaps you would like to donate it? I can offer you 11000 gold, should you decide to sell it.|SCVR:03sX0ringwarlock|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=15801574972347619(Topic:boots of blinding speed)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What? How is it that you have these? They belong to the museum now! GUARDS!|SCVR:03sX0bootsblinding|INTV|SCVR:15IX2boots of blinding speed[unique]|INTV:|BNAM:SetPCCrimeLevel 10000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What? How is it that you have these? They belong to the museum now! GUARDS!|SCVR:03sX0bootsblinding|INTV|SCVR:15IX2boots of blinding speed[unique]|INTV:|BNAM:SetPCCrimeLevel 10001  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=24906930421715589(Topic:veloth's judgement)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:It's a remarkable item to add to our collection.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3daedric warhammer_ttgd|INTV|BNAM:set velothjudgment to 2  player->removeitem "daedric warhammer_ttgd" 1  player->additem "gold_001" 15000  "daedric warhammer_ttgd_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:It's a remarkable item to add to our collection.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3daedric warhammer_ttgd|INTV|BNAM:set velothjudgment to 2  player->removeitem "daedric warhammer_ttgd" 1  player->additem "gold_001" 15000  "daedric warhammer_ttgd_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=30301884192782798(Topic:umbra sword)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Intriguing. I've never seen a sword like this. And you say you got it where? Hmm. Well, it's certainly worthy of the museum's attention. Do you wish to part with it? If so, I can give you 30000 gold, should you decide to sell it.|SCVR:03sX0umbrasword|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Intriguing. I've never seen a sword like this. And you say you got it where? Hmm. Well, it's certainly worthy of the museum's attention. Do you wish to part with it? If so, I can give you 30000 gold, should you decide to sell it.|SCVR:03sX0umbrasword|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=69702323051336646(Topic:warlock's ring)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0ringwarlock|INTV|SCVR:15IX2ring_vampiric_unique|INTV:|BNAM:SetPCCrimeLevel 100000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0ringwarlock|INTV|SCVR:15IX2ring_vampiric_unique|INTV:|BNAM:SetPCCrimeLevel 22000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=77799197247101426(Topic:dragonbone cuirass)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0dragonbone|INTV|SCVR:15IX2dragonbone_cuirass_unique|INTV:|BNAM:SetPCCrimeLevel 100000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0dragonbone|INTV|SCVR:15IX2dragonbone_cuirass_unique|INTV:|BNAM:SetPCCrimeLevel 180000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=101181820810626471(Topic:dragonbone cuirass)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Yes, we're very honored to have it as part of our collection.|SCVR:03sX3dragonbone|INTV|SCVR:15IX0dragonbone_cuirass_unique|INTV:
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Yes, we're very honored to have it as part of our collection.|SCVR:03sX0dragonbone|INTV|SCVR:15IX0dragonbone_cuirass_unique|INTV:
+
+[MOD-INF]: ID=110818748366111580(Topic:mace of slurring)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What? How is it that you have this? This is part of the museum's collection! GUARDS!|SCVR:03sX0maceslurring|INTV|SCVR:15IX0Mace of Slurring|INTV|BNAM:SetPCCrimeLevel 10000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What? How is it that you have this? This is part of the museum's collection! GUARDS!|SCVR:03sX0maceslurring|INTV|SCVR:15IX0Mace of Slurring|INTV|BNAM:SetPCCrimeLevel 20000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=116735188533230492(Topic:mace of molag bal)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:It will occupy a place of honor in our collection.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3mace of molag bal_unique|INTV|BNAM:set macemolagbal to 2  player->removeitem "mace of molag bal_unique" 1  player->additem "gold_001" 17500  "mace of molag bal_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:It will occupy a place of honor in our collection.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3mace of molag bal_unique|INTV|BNAM:set macemolagbal to 2  player->removeitem "mace of molag bal_unique" 1  player->additem "gold_001" 12500  "mace of molag bal_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=128391262268073001(Topic:eleidon's ward)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0eleidonsward|INTV|SCVR:15IX2towershield_eleidon_unique|INTV:|BNAM:SetPCCrimeLevel 100000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0eleidonsward|INTV|SCVR:15IX2towershield_eleidon_unique|INTV:|BNAM:SetPCCrimeLevel 200000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=128597572810620812(Topic:lord's mail)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you so much.  This should be adequate payment.|SCVR:01500|INTV|SCVR:15IX3lords_cuirass_unique|INTV|BNAM:player->removeitem "lords_cuirass_unique" 1  player->additem "gold_001" 30000  set lordsmail to 2  "lords_cuirass_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you so much.  This should be adequate payment.|SCVR:01500|INTV|SCVR:15IX3lords_cuirass_unique|INTV|BNAM:player->removeitem "lords_cuirass_unique" 1  player->additem "gold_001" 30000  set lordsmail to 2  "lords_cuirass_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=144398162662511070(Topic:spell breaker)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:A wonderful shield, and very resistant to magicka, from what I understand.  May we add this to our collection? I can offer you 30000 gold in exchange for it.|SCVR:03sX0spellbreaker|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:A wonderful shield, and very resistant to magicka, from what I understand.  May we add this to our collection? I can offer you 30000 gold in exchange for it.|SCVR:03sX0spellbreaker|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=152731857410004742(Topic:auriel's bow)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. It's rare to find an item for our collection with such a distinctive aroma.|SCVR:01500|INTV|SCVR:15IX3ebony_bow_auriel|INTV|BNAM:set aurielbow to 2  player->removeitem "ebony_bow_auriel" 1  player->additem "gold_001" 15000  "ebony_bow_auriel_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. It's rare to find an item for our collection with such a distinctive aroma.|SCVR:01500|INTV|SCVR:15IX3ebony_bow_auriel|INTV|BNAM:set aurielbow to 2  player->removeitem "ebony_bow_auriel" 1  player->additem "gold_001" 15000  "ebony_bow_auriel_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=215722304160130119(Topic:robe of the lich)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What? How is it that you have this? This belongs to the Museum! GUARDS!|SCVR:03sX0robelich|INTV|SCVR:15IX2robe_lich_unique|INTV:|BNAM:SetPCCrimeLevel 10000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What? How is it that you have this? This belongs to the Museum! GUARDS!|SCVR:03sX0robelich|INTV|SCVR:15IX2robe_lich_unique|INTV:|BNAM:SetPCCrimeLevel 22000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=244882320109814575(Topic:chrysamere)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0chrysamere|INTV|SCVR:15IX2claymore_chrysamere_unique|INTV:|BNAM:SetPCCrimeLevel 100000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0chrysamere|INTV|SCVR:15IX2claymore_chrysamere_unique|INTV:|BNAM:SetPCCrimeLevel 95000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=268743772639232318(Topic:auriel's shield)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.  We shall display it proudly.|SCVR:01500|INTV|SCVR:15IX3ebony_shield_auriel|INTV|BNAM:set aurielshield to 2  player->removeitem "ebony_shield_auriel" 1  player->additem "gold_001" 13500  "ebony_shield_auriel_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.  We shall display it proudly.|SCVR:01500|INTV|SCVR:15IX3ebony_shield_auriel|INTV|BNAM:set aurielshield to 2  player->removeitem "ebony_shield_auriel" 1  player->additem "gold_001" 8500  "ebony_shield_auriel_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=268859891876731686(Topic:dagger of symmachus)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:You don't have the Dagger of Symmachus with you? Well, please go get it, and we can complete our arrangement.|SCVR:01500|INTV|SCVR:15IX0glass dagger_symmachus_unique|INTV:
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:You don't have the Dagger of Symmachus with you? Well, please go get it, and we can complete our arrangement.|SCVR:01500|INTV|SCVR:15IX0glass dagger_symmachus_unique|INTV:
+
+[MOD-INF]: ID=276061280022672315(Topic:staff of magnus)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0staffmagnus|INTV|SCVR:15IX2staff_magnus_unique|INTV:|BNAM:SetPCCrimeLevel 120000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0staffmagnus|INTV|SCVR:15IX2staff_magnus_unique|INTV:|BNAM:SetPCCrimeLevel 210000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=286387697168921748(Topic:cuirass of the savior's hide)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Yes, thank you for allowing us to add it to our collection.|SCVR:03sX3saviorshide|INTV|SCVR:15IX0cuirass_savior_unique|INTV:
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Yes, thank you for allowing us to add it to our collection.|SCVR:03sX0saviorshide|INTV|SCVR:15IX0cuirass_savior_unique|INTV:
+
+[MOD-INF]: ID=291353248463165805(Topic:spear of bitter mercy)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Incredible.  So little is known about the Spear, I'm at a loss for words.  They say it was used in the fall of the Battlespire, you know... Do you wish to sell it to the museum? I can offer you 30000 gold for it.|SCVR:03sX0bittermercy|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Incredible.  So little is known about the Spear, I'm at a loss for words.  They say it was used in the fall of the Battlespire, you know... Do you wish to sell it to the museum? I can offer you 30000 gold for it.|SCVR:03sX0bittermercy|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=298729528207731191(Topic:boots of blinding speed)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. They'll certainly be one of our more amusing artifacts, I'm sure.|SCVR:01500|INTV|SCVR:15IX0boots of blinding speed[unique]|INTV|BNAM:set bootsblinding to 2  player->removeitem "boots of blinding speed[unique]" 1  player->additem "gold_001" 250  "boots of blinding speed_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. They'll certainly be one of our more amusing artifacts, I'm sure.|SCVR:01500|INTV|SCVR:15IX0boots of blinding speed[unique]|INTV|BNAM:set bootsblinding to 2  player->removeitem "boots of blinding speed[unique]" 1  player->additem "gold_001" 250  "boots of blinding speed_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=301129782526315866(Topic:mace of molag bal)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Simply beautiful.  Are you willing to part with it? I can offer you 17500 gold for it.|SCVR:03sX0macemolagbal|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Simply beautiful.  Are you willing to part with it? I can offer you 12,500 gold for it.|SCVR:03sX0macemolagbal|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=317131157378318821(Topic:robe of the lich)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Splendid. I must say I feel more comfortable with this in the Museum's collection than I would knowing it was somewhere out in the world.|SCVR:01500|INTV|SCVR:15IX3robe_lich_unique|INTV|BNAM:set robelich to 2  player->removeitem "robe_lich_unique" 1   player->additem "gold_001" 11000  "robe_lich_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Splendid. I must say I feel more comfortable with this in the Museum's collection than I would knowing it was somewhere out in the world.|SCVR:01500|INTV|SCVR:15IX3robe_lich_unique|INTV|BNAM:set robelich to 2  player->removeitem "robe_lich_unique" 1   player->additem "gold_001" 11000  "robe_lich_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=472643062081716165(Topic:ten pace boots)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Remarkable boots... what the wind must feel like while running in them! Do you wish to part with them, %PCName? I can offer you 30000 gold in exchange for them.|SCVR:03sX0bootstenpace|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Remarkable boots... what the wind must feel like while running in them! Do you wish to part with them, %PCName? I can offer you 30000 gold in exchange for them.|SCVR:03sX0bootstenpace|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=492121693103813757(Topic:chrysamere)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you.  This will take a prominent place in our collection, as I'm sure it will be very popular for our visitors.|SCVR:01500|INTV|SCVR:15IX3claymore_chrysamere_unique|INTV|BNAM:player->removeitem "claymore_chrysamere_unique" 1  player->additem "gold_001" 30000  set chrysamere to 2  "claymore_chrysamere_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you.  This will take a prominent place in our collection, as I'm sure it will be very popular for our visitors.|SCVR:01500|INTV|SCVR:15IX3claymore_chrysamere_unique|INTV|BNAM:player->removeitem "claymore_chrysamere_unique" 1  player->additem "gold_001" 30000  set chrysamere to 2  "claymore_chrysamere_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=572513827623722680(Topic:dragonbone cuirass)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Ah, the very definition of an artifact.  They don't make them like this anymore, eh %PCName?  So, are you willing to part with it? I can offer you 30000 gold for it.|SCVR:03sX0dragonbone|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate this item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Ah, the very definition of an artifact.  They don't make them like this anymore, eh %PCName?  So, are you willing to part with it? I can offer you 30000 gold for it.|SCVR:03sX0dragonbone|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate this item." 3
+
+[MOD-INF]: ID=572723979410527496(Topic:staff of magnus)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:The Staff of Magnus.  Quite a prize, indeed.  Are you willing to part with it? I can offer you 30000 gold in exchange for it.|SCVR:03sX0staffmagnus|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:The Staff of Magnus.  Quite a prize, indeed.  Are you willing to part with it? I can offer you 30000 gold in exchange for it.|SCVR:03sX0staffmagnus|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=617815238173874368(Topic:spear of bitter mercy)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. Perhaps now that it will reside here, we'll have an opportunity to study it and learn more about it.|SCVR:01500|INTV|SCVR:15IX0spear_mercy_unique|INTV|BNAM:set bittermercy to 2  player->removeitem "spear_mercy_unique" 1  player->additem "gold_001" 30000  "spear_mercy_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. Perhaps now that it will reside here, we'll have an opportunity to study it and learn more about it.|SCVR:01500|INTV|SCVR:15IX0spear_mercy_unique|INTV|BNAM:set bittermercy to 2  player->removeitem "spear_mercy_unique" 1  player->additem "gold_001" 30000  "spear_mercy_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=633148821632421532(Topic:ring of phynaster)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0ringphynaster|INTV|SCVR:15IX2ring_phynaster_unique|INTV:|BNAM:SetPCCrimeLevel 10000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0ringphynaster|INTV|SCVR:15IX2ring_phynaster_unique|INTV:|BNAM:SetPCCrimeLevel 18000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=719321321284016850(Topic:helm of oreyn bearclaw)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.  You are a true friend of the museum.|SCVR:01500|INTV|SCVR:15IX3helm_bearclaw_unique|INTV|BNAM:set helmbearclaw to 2  player->removeitem "helm_bearclaw_unique" 1  player->additem "gold_001" 30000  "helm_bearclaw_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.  You are a true friend of the museum.|SCVR:01500|INTV|SCVR:15IX3helm_bearclaw_unique|INTV|BNAM:set helmbearclaw to 2  player->removeitem "helm_bearclaw_unique" 1  player->additem "gold_001" 30000  "helm_bearclaw_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=990914675153962768(Topic:robe of the lich)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Information is scarce at best when it comes to this artifact. Some have said it was pulled from a lich when it was defeated; others say it was developed by an evil mage who wanted the power of a lich without the.... drawbacks. Either way, it is a powerful item indeed. Do you wish to part with it? I can offer you 11000 gold for it.|SCVR:03sX0robelich|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Information is scarce at best when it comes to this artifact. Some have said it was pulled from a lich when it was defeated; others say it was developed by an evil mage who wanted the power of a lich without the.... drawbacks. Either way, it is a powerful item indeed. Do you wish to part with it? I can offer you 11000 gold for it.|SCVR:03sX0robelich|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=1065281441673720930(Topic:ring of phynaster)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Ah, Phynaster's Ring.  I trust it has served you as well as it served him all those years ago.  Are you interested in selling it to the Museum? Or perhaps donating it? I can offer you 9000 gold if you choose to sell it.|SCVR:03sX0ringphynaster|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Ah, Phynaster's Ring.  I trust it has served you as well as it served him all those years ago.  Are you interested in selling it to the Museum? Or perhaps donating it? I can offer you 9000 gold if you choose to sell it.|SCVR:03sX0ringphynaster|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=1229381203042418964(Topic:warlock's ring)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Unless Syrabane himself comes to collect the ring, it will retain a place in our collection for a long time to come.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3ring_warlock_unique|INTV|BNAM:set ringwarlock to 2  player->removeitem "ring_warlock_unique" 1  player->additem "gold_001" 11000  "ring_warlock_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Unless Syrabane himself comes to collect the ring, it will retain a place in our collection for a long time to come.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3ring_warlock_unique|INTV|BNAM:set ringwarlock to 2  player->removeitem "ring_warlock_unique" 1  player->additem "gold_001" 11000  "ring_warlock_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=1290654591120919625(Topic:staff of hasedoki)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0staffhasedoki|INTV|SCVR:15IX2staff_hasedoki_unique|INTV:|BNAM:SetPCCrimeLevel 100000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0staffhasedoki|INTV|SCVR:15IX2staff_hasedoki_unique|INTV:|BNAM:SetPCCrimeLevel 75000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=1358526002583916845(Topic:eleidon's ward)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:This will make a wonderful addition to our collection, I'm sure.|SCVR:01500|INTV|SCVR:15IX3towershield_eleidon_unique|INTV|BNAM:player->removeitem "towershield_eleidon_unique" 1  player->additem "gold_001" 30000  set eleidonsward to 2  "towershield_eleidon_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:This will make a wonderful addition to our collection, I'm sure.|SCVR:01500|INTV|SCVR:15IX3towershield_eleidon_unique|INTV|BNAM:player->removeitem "towershield_eleidon_unique" 1  player->additem "gold_001" 30000  set eleidonsward to 2  "towershield_eleidon_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=1393828035162102205(Topic:goldbrand)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Very well. I doubt any amount of money can adequately compensate for the loss of such a weapon, but here you go.|SCVR:01500|INTV|SCVR:15IX3katana_goldbrand_unique|INTV|BNAM:set goldbrand to 2  player->removeitem "katana_goldbrand_unique" 1  player->additem "gold_001" 30000  "katana_goldbrand_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Very well. I doubt any amount of money can adequately compensate for the loss of such a weapon, but here you go.|SCVR:01500|INTV|SCVR:15IX3katana_goldbrand_unique|INTV|BNAM:set goldbrand to 2  player->removeitem "katana_goldbrand_unique" 1  player->additem "gold_001" 30000  "katana_goldbrand_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=1437120201389518329(Topic:mace of slurring)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Yes, it's a rather...odd piece. From what I've gathered, it was crafted near the end of the Second Age by Kyanka, a slightly deranged Altmer weaponsmith and enchanter. He had a rather warped sense of humor, and apparently delighted at the thought of reducing opponents to a gibbering mess before crushing them to death. The mace has, admittedly, seen little use. Do you wish to part with it? I can offer you 10000 gold for it.|SCVR:03sX0maceslurring|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Yes, it's a rather...odd piece. From what I've gathered, it was crafted near the end of the Second Age by Kyanka, a slightly deranged Altmer weaponsmith and enchanter. He had a rather warped sense of humor, and apparently delighted at the thought of reducing opponents to a gibbering mess before crushing them to death. The mace has, admittedly, seen little use. Do you wish to part with it? I can offer you 10000 gold for it.|SCVR:03sX0maceslurring|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=1620046783013117225(Topic:ebony mail)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:I'd heard of the Ebony Mail, but never seen it.  It would fit well in our collection; will you part with it? I can offer you 30000 gold for it.|SCVR:03sX0ebonymail|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 3 "Keep the item." 4 "Donate the item." 5
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:I'd heard of the Ebony Mail, but never seen it.  It would fit well in our collection; will you part with it? I can offer you 30000 gold for it.|SCVR:03sX0ebonymail|INTV|BNAM:Choice: "Sell the item." 3 "Keep the item." 4 "Donate the item." 5
+
+[MOD-INF]: ID=1637423502208768062(Topic:ice blade of the monarch)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Ah, the Ice Blade.  Often have I heard tales of it...  one wonders what might have become of it, had the assassination succeeded.  Well, no matter.  Do you wish to sell it? Or maybe donate it? I can offer you 30000 gold if you choose to sell.|SCVR:03sX0iceblade|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Ah, the Ice Blade.  Often have I heard tales of it...  one wonders what might have become of it, had the assassination succeeded.  Well, no matter.  Do you wish to sell it? Or maybe donate it? I can offer you 30000 gold if you choose to sell.|SCVR:03sX0iceblade|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=1885719759292979293(Topic:auriel's bow)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Auriel's Bow... interesting.  Is that ash yams I smell? I can offer you 15000 gold, if you wish.|SCVR:03sX0aurielbow|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate this item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Auriel's Bow... interesting.  Is that ash yams I smell? I can offer you 15000 gold, if you wish.|SCVR:03sX0aurielbow|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate this item." 3
+
+[MOD-INF]: ID=1911429497207094310(Topic:ten pace boots)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you for allowing us to add them to our collection.|SCVR:03sX3bootstenpace|INTV|SCVR:15IX0tenpaceboots|INTV:
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you for allowing us to add them to our collection.|SCVR:03sX0bootstenpace|INTV|SCVR:15IX0tenpaceboots|INTV:
+
+[MOD-INF]: ID=1936325098655232666(Topic:boots of blinding speed)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Well, they're certainly... interesting, aren't they? An odd combination of enchantments, to be sure. Do you wish to sell them to the museum? It's not much, but I can offer you 250 gold for them.|SCVR:03sX0bootsblinding|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item" 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Well, they're certainly... interesting, aren't they? An odd combination of enchantments, to be sure. Do you wish to sell them to the museum? It's not much, but I can offer you 250 gold for them.|SCVR:03sX0bootsblinding|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item" 3
+
+[MOD-INF]: ID=2051315960798828772(Topic:boots of the apostle)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:I am truly honored, %PCName. Thank you.|SCVR:01500|INTV|SCVR:15IX0boots_apostle_unique|INTV|BNAM:set bootsapostle to 2  player->removeitem "boots_apostle_unique" 1  player->additem "gold_001" 27500  "boots_apostle_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:I am truly honored, %PCName. Thank you.|SCVR:01500|INTV|SCVR:15IX0boots_apostle_unique|INTV|BNAM:set bootsapostle to 2  player->removeitem "boots_apostle_unique" 1  player->additem "gold_001" 27500  "boots_apostle_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=2087221386833312649(Topic:boots of the apostle)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Worn by Tiber Septim; supposedly a gift to Talos Stormcrown from the Greybeards. Wonderous, %PCName. Simply wonderous. And you're willing to sell them to the museum? Well, then I can offer you 27500 gold as compensation.|SCVR:03sX0bootsapostle|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Worn by Tiber Septim; supposedly a gift to Talos Stormcrown from the Greybeards. Wonderous, %PCName. Simply wonderous. And you're willing to sell them to the museum? Well, then I can offer you 27500 gold as compensation.|SCVR:03sX0bootsapostle|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=2200286261221825718(Topic:skull-crusher)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0skullcrusher|INTV|SCVR:15IX2warhammer_crusher_unique|INTV:|BNAM:SetPCCrimeLevel 80000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0skullcrusher|INTV|SCVR:15IX2warhammer_crusher_unique|INTV:|BNAM:SetPCCrimeLevel 48000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=2247223941848930002(Topic:ice blade of the monarch)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:I personally don't believe the rumors that the blade chooses who wields it, and I think it will be quite safe here in our display case.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3claymore_iceblade_unique|INTV|BNAM:set iceblade to 2  player->removeitem "claymore_iceblade_unique" 1  player->additem "gold_001" 30000  "claymore_iceblade_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:I personally don't believe the rumors that the blade chooses who wields it, and I think it will be quite safe here in our display case.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3claymore_iceblade_unique|INTV|BNAM:set iceblade to 2  player->removeitem "claymore_iceblade_unique" 1  player->additem "gold_001" 30000  "claymore_iceblade_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=2563119136295338406(Topic:ring of phynaster)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Yes, thank you for allowing us to add it to our collection.|SCVR:03sX3ringphynaster|INTV|SCVR:15IX0ring_phynaster_unique|INTV:
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Yes, thank you for allowing us to add it to our collection.|SCVR:03sX0ringphynaster|INTV|SCVR:15IX0ring_phynaster_unique|INTV:
+
+[MOD-INF]: ID=2636582932423629427(Topic:vampiric ring)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:YWhat?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0ringvampiric|INTV|SCVR:15IX2ring_vampiric_unique|INTV:|BNAM:SetPCCrimeLevel 100000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0ringvampiric|INTV|SCVR:15IX2ring_vampiric_unique|INTV:|BNAM:SetPCCrimeLevel 32000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=2686254322987123513(Topic:ring of phynaster)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Excellent.  Small though it is, it shall hold a prominent place in our collection.|SCVR:01500|INTV|SCVR:15IX3ring_phynaster_unique|INTV|BNAM:set ringphynaster to 2  player->removeitem "ring_phynaster_unique" 1   player->additem "gold_001" 9000  "ring_phynaster_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Excellent.  Small though it is, it shall hold a prominent place in our collection.|SCVR:01500|INTV|SCVR:15IX3ring_phynaster_unique|INTV|BNAM:set ringphynaster to 2  player->removeitem "ring_phynaster_unique" 1   player->additem "gold_001" 9000  "ring_phynaster_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=2739129846195455050(Topic:vampiric ring)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Created for evil purposes or not, the ring still has a place in our collection.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3ring_vampiric_unique|INTV|BNAM:set ringvampiric to 2  player->removeitem "ring_vampiric_unique" 1  player->additem "gold_001" 16000  "ring_vampiric_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Created for evil purposes or not, the ring still has a place in our collection.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3ring_vampiric_unique|INTV|BNAM:set ringvampiric to 2  player->removeitem "ring_vampiric_unique" 1  player->additem "gold_001" 16000  "ring_vampiric_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=2821616131900621344(Topic:bipolar blade)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Legend has it that a nobleman sank his fortune into creating a blade of supreme power. Two smiths on opposite ends of Tamriel created each half of the blade, unaware of the other, with the hope that no one man, save the owner of the blade, would know its true power. Unfortunately, the smiths were not given enough instruction, and created halves with enchantments that completely negated each other. Do you wish to part with it, %PCName? I can offer you 20000 for it.|SCVR:03sX0bipolarblade|INTV|SCVR:15IX3Bipolar Blade|INTV|SCVR:24JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Legend has it that a nobleman sank his fortune into creating a blade of supreme power. Two smiths on opposite ends of Tamriel created each half of the blade, unaware of the other, with the hope that no one man, save the owner of the blade, would know its true power. Unfortunately, the smiths were not given enough instruction, and created halves with enchantments that completely negated each other. Do you wish to part with it, %PCName? I can offer you 20000 for it.|SCVR:03sX0bipolarblade|INTV|SCVR:15IX3Bipolar Blade|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=2880221322115254937(Topic:helm of oreyn bearclaw)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0helmbearclaw|INTV|SCVR:15IX2helm_bearclaw_unique|INTV:|BNAM:SetPCCrimeLevel 120000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0helmbearclaw|INTV|SCVR:15IX2helm_bearclaw_unique|INTV:|BNAM:SetPCCrimeLevel 125000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=3020915147272730304(Topic:bow of shadows)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.  A wonderful addition indeed.|SCVR:01500|INTV|SCVR:15IX3longbow_shadows_unique|INTV|BNAM:set bowshadows to 2  player->removeitem "longbow_shadows_unique" 1  player->additem "gold_001" 21000  "longbow_shadows_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.  A wonderful addition indeed.|SCVR:01500|INTV|SCVR:15IX3longbow_shadows_unique|INTV|BNAM:set bowshadows to 2  player->removeitem "longbow_shadows_unique" 1  player->additem "gold_001" 21000  "longbow_shadows_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=3096922269256759809(Topic:ten pace boots)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:I hope they are content to be here in the museum, rather than running through Morrowind's countryside. Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX0tenpaceboots|INTV|BNAM:set bootstenpace to 2  player->removeitem "tenpaceboots" 1  player->additem "gold_001" 30000  "tenpaceboots_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:I hope they are content to be here in the museum, rather than running through Morrowind's countryside. Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX0tenpaceboots|INTV|BNAM:set bootstenpace to 2  player->removeitem "tenpaceboots" 1  player->additem "gold_001" 30000  "tenpaceboots_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=3229225752603223727(Topic:goldbrand)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0goldbrand|INTV|SCVR:15IX2katana_goldbrand_unique|INTV:|BNAM:SetPCCrimeLevel 120000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0goldbrand|INTV|SCVR:15IX2katana_goldbrand_unique|INTV:|BNAM:SetPCCrimeLevel 150000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=3240932492137114962(Topic:dagger of symmachus)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:The ceremonial dagger of General Symmachus? How did you come to possess this? What a local treasure! If you're willing to part with it, I can offer you 10,000 gold for it.|SCVR:03sX0dagsym|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:The ceremonial dagger of General Symmachus? How did you come to possess this? What a local treasure! If you're willing to part with it, I can offer you 10,000 gold for it.|SCVR:03sX0dagsym|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=3274729511317194319(Topic:skull-crusher)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Hilbongard's masterpiece, the Skull Crusher.  I am impressed, %PCName.  This is quite a find.  Do you wish to turn it over to the museum? If you wish to sell it, I can offer you 24000 gold in exchange.|SCVR:03sX0skullcrusher|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 5 "Keep the item." 6 "Donate the item." 7
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Hilbongard's masterpiece, the Skull Crusher.  I am impressed, %PCName.  This is quite a find.  Do you wish to turn it over to the museum? If you wish to sell it, I can offer you 24000 gold in exchange.|SCVR:03sX0skullcrusher|INTV|BNAM:Choice: "Sell the item." 5 "Keep the item." 6 "Donate the item." 7
+
+[MOD-INF]: ID=4425297181038511463(Topic:cuirass of the savior's hide)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3cuirass_savior_unique|INTV|BNAM:player->removeitem "cuirass_savior_unique" 1  player->additem "gold_001" 30000  set saviorshide to 2  "cuirass_savior_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3cuirass_savior_unique|INTV|BNAM:player->removeitem "cuirass_savior_unique" 1  player->additem "gold_001" 30000  set saviorshide to 2  "cuirass_savior_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=4518264931008617688(Topic:ebony mail)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you.  I assure you it will be well cared for.|SCVR:01500|INTV|SCVR:15IX3ebon_plate_cuirass_unique|INTV|BNAM:player->removeitem "ebon_plate_cuirass_unique" 1  player->additem "gold_001" 30000  set ebonymail to 2  "ebon_plate_cuirass_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you.  I assure you it will be well cared for.|SCVR:01500|INTV|SCVR:15IX3ebon_plate_cuirass_unique|INTV|BNAM:player->removeitem "ebon_plate_cuirass_unique" 1  player->additem "gold_001" 30000  set ebonymail to 2  "ebon_plate_cuirass_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=6572169072733132689(Topic:mace of slurring)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. It will take up a, err, special place in our museum. Somewhere upstairs, perhaps. Somewhere dark, as well.|SCVR:01500|INTV|SCVR:15IX0Mace of Slurring|INTV|BNAM:set maceslurring to 2  player->removeitem "mace of slurring" 1  player->additem "gold_001" 10000  "mace of slurring_x"->enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName. It will take up a, err, special place in our museum. Somewhere upstairs, perhaps. Somewhere dark, as well.|SCVR:01500|INTV|SCVR:15IX0Mace of Slurring|INTV|BNAM:set maceslurring to 2  player->removeitem "mace of slurring" 1  player->additem "gold_001" 10000  "mace of slurring_x"->enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=7072316452306422316(Topic:ice blade of the monarch)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0iceblade|INTV|SCVR:15IX2claymore_iceblade_unique|INTV:|BNAM:SetPCCrimeLevel 100000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0iceblade|INTV|SCVR:15IX2claymore_iceblade_unique|INTV:|BNAM:SetPCCrimeLevel 95000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=7906306902369311051(Topic:bipolar blade)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Very well. It will take up a place in our collection. Likely a place towards the back. Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX0Bipolar Blade|INTV|BNAM:set bipolarblade to 2  player->removeitem "bipolar blade" 1  player->additem "gold_001" 20000  "bipolar blade_x"->enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Very well. It will take up a place in our collection. Likely a place towards the back. Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX0Bipolar Blade|INTV|BNAM:set bipolarblade to 2  player->removeitem "bipolar blade" 1  player->additem "gold_001" 20000  "bipolar blade_x"->enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=8100115593153325358(Topic:dragonbone cuirass)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3dragonbone_cuirass_unique|INTV|BNAM:player->removeitem "dragonbone_cuirass_unique" 1  player->additem "gold_001" 30000  set dragonbone to 2  "dragonbone_cuirass_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3dragonbone_cuirass_unique|INTV|BNAM:player->removeitem "dragonbone_cuirass_unique" 1  player->additem "gold_001" 30000  set dragonbone to 2  "dragonbone_cuirass_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=9450231651037932278(Topic:chrysamere)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Well, well.  The Paladin's Blade.  A wonderful find, to be sure.  Do you wish to part with it? I can offer you 30000 gold for it.|SCVR:03sX0chrysamere|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 4 "Keep the item." 5 "Donate the item" 6
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Well, well.  The Paladin's Blade.  A wonderful find, to be sure.  Do you wish to part with it? I can offer you 30000 gold for it.|SCVR:03sX0chrysamere|INTV|BNAM:Choice: "Sell the item." 4 "Keep the item." 5 "Donate the item" 6
+
+[MOD-INF]: ID=9911230473036018388(Topic:staff of hasedoki)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:I wonder whether or not the stories are true.  Is the soul of Hasedoki really contained in this staff?  Either way, are you prepared to part with it? I can offer you 30000 gold, if you choose to sell it.|SCVR:03sX0staffhasedoki|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:I wonder whether or not the stories are true.  Is the soul of Hasedoki really contained in this staff?  Either way, are you prepared to part with it? I can offer you 30000 gold, if you choose to sell it.|SCVR:03sX0staffhasedoki|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=11358108702981723542(Topic:staff of magnus)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Quite an addition for our collection.  It is one of the oldest artifacts in all of Tamriel, to my knowledge.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3staff_magnus_unique|INTV|BNAM:set staffmagnus to 2  player->removeitem "staff_magnus_unique" 1  player->additem "gold_001" 30000  "staff_magnus_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Quite an addition for our collection.  It is one of the oldest artifacts in all of Tamriel, to my knowledge.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3staff_magnus_unique|INTV|BNAM:set staffmagnus to 2  player->removeitem "staff_magnus_unique" 1  player->additem "gold_001" 30000  "staff_magnus_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=11508281353216618467(Topic:cuirass of the savior's hide)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Ahh... Hircine's Hide.  What a prize!  Are you willing to part with it? I can offer you 30000 gold for it.|SCVR:03sX0saviorshide|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Ahh... Hircine's Hide.  What a prize!  Are you willing to part with it? I can offer you 30000 gold for it.|SCVR:03sX0saviorshide|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=15586255921142611383(Topic:dagger of symmachus)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:You don't have the Dagger of Symmachus with you? Well, please go get it, and we can complete our arrangement.|SCVR:01500|INTV|SCVR:15IX0glass dagger_symmachus_unique|INTV:
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:You don't have the Dagger of Symmachus with you? Well, please go get it, and we can complete our arrangement.|SCVR:01500|INTV|SCVR:15IX0glass dagger_symmachus_unique|INTV:
+
+[MOD-INF]: ID=17052181021948511835(Topic:fang of haynekhtnamet)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:I'm very proud to have this remarkable piece for our collection.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3dagger_fang_unique|INTV|BNAM:set daggerfang to 2  player->removeitem "dagger_fang_unique" 1  player->additem "gold_001" 16000  "dagger_fang_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:I'm very proud to have this remarkable piece for our collection.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3dagger_fang_unique|INTV|BNAM:set daggerfang to 2  player->removeitem "dagger_fang_unique" 1  player->additem "gold_001" 16000  "dagger_fang_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=18834140672386429974(Topic:helm of oreyn bearclaw)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:I must admit, I am only vaguely familiar with this piece.  I shall have to do a bit more research on it.  Would you be willing to sell it? Or perhaps donate it? I can offer you 30000 if you choose to sell it.|SCVR:03sX0helmbearclaw|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:I must admit, I am only vaguely familiar with this piece.  I shall have to do a bit more research on it.  Would you be willing to sell it? Or perhaps donate it? I can offer you 30000 if you choose to sell it.|SCVR:03sX0helmbearclaw|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=19272243251910730688(Topic:staff of hasedoki)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:If Hasedoki's life-force is indeed contained within this staff, I hope it is content to remain here in the museum.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3staff_hasedoki_unique|INTV|BNAM:set staffhasedoki to 2  player->removeitem "staff_hasedoki_unique" 1  player->additem "gold_001" 30000  "staff_hasedoki_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:If Hasedoki's life-force is indeed contained within this staff, I hope it is content to remain here in the museum.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3staff_hasedoki_unique|INTV|BNAM:set staffhasedoki to 2  player->removeitem "staff_hasedoki_unique" 1  player->additem "gold_001" 30000  "staff_hasedoki_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=20673223402256129057(Topic:bipolar blade)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What? How is it that you have this? It belongs to the museum! GUARDS!|SCVR:03sX0bipolarblade|INTV|SCVR:15IX2Bipolar Blade|INTV:|BNAM:SetPCCrimeLevel 20000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What? How is it that you have this? It belongs to the museum! GUARDS!|SCVR:03sX0bipolarblade|INTV|SCVR:15IX2Bipolar Blade|INTV:|BNAM:SetPCCrimeLevel 40000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=22356163842721019050(Topic:spell breaker)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0spellbreaker|INTV|SCVR:15IX2spell_breaker_unique|INTV:|BNAM:SetPCCrimeLevel 100000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0spellbreaker|INTV|SCVR:15IX2spell_breaker_unique|INTV:|BNAM:SetPCCrimeLevel 115000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=26226171391658512896(Topic:lord's mail)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Well, this is quite a find. Do you wish to part with it? I can offer you 30000 gold if you choose to sell it.|SCVR:03sX0lordsmail|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice "Sell the item." 4 "Keep the item." 5 "Donate the item." 6
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Well, this is quite a find. Do you wish to part with it? I can offer you 30000 gold if you choose to sell it.|SCVR:03sX0lordsmail|INTV|BNAM:Choice "Sell the item." 4 "Keep the item." 5 "Donate the item." 6
+
+[MOD-INF]: ID=26555133412287610893(Topic:skull-crusher)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Excellent.  This will make a wonderful addition to our collection.|SCVR:01500|INTV|SCVR:15IX3warhammer_crusher_unique|INTV|BNAM:set skullcrusher to 2  player->removeitem "warhammer_crusher_unique" 1  player->additem "gold_001" 24000  "warhammer_crusher_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Excellent.  This will make a wonderful addition to our collection.|SCVR:01500|INTV|SCVR:15IX3warhammer_crusher_unique|INTV|BNAM:set skullcrusher to 2  player->removeitem "warhammer_crusher_unique" 1  player->additem "gold_001" 24000  "warhammer_crusher_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=27749258522366224097(Topic:mace of molag bal)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0macemolagbal|INTV|SCVR:15IX3mace of molag bal_unique|INTV:|BNAM:SetPCCrimeLevel 25000  Set PCThief to 1  Goodbye
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!|SCVR:03sX0macemolagbal|INTV|SCVR:15IX2mace of molag bal_unique|INTV:|BNAM:SetPCCrimeLevel 25000  Set PCThief to 1  Goodbye
+
+[MOD-INF]: ID=27873291821363631188(Topic:vampiric ring)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:A powerful ring, indeed.  Do you no longer wish to keep it? If you wish to sell it, I'm prepared to offer you 16000 gold for it.|SCVR:03sX0ringvampiric|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:A powerful ring, indeed.  Do you no longer wish to keep it? If you wish to sell it, I'm prepared to offer you 16000 gold for it.|SCVR:03sX0ringvampiric|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=28120121522139219390(Topic:eleidon's ward)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What a wonderful shield that is!  Are you interested in selling it to the museum? Or perhaps donating it? I can offer 30000 gold if you choose to sell it.|SCVR:03sX0eleidonsward|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What a wonderful shield that is!  Are you interested in selling it to the museum? Or perhaps donating it? I can offer 30000 gold if you choose to sell it.|SCVR:03sX0eleidonsward|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=28548300551487621743(Topic:spell breaker)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3spell_breaker_unique|INTV|BNAM:player->removeitem "spell_breaker_unique" 1  player->additem "gold_001" 30000  set spellbreaker to 2  "spell_breaker_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3spell_breaker_unique|INTV|BNAM:player->removeitem "spell_breaker_unique" 1  player->additem "gold_001" 30000  set spellbreaker to 2  "spell_breaker_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=28668222101212311937(Topic:veloth's judgement)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Quite a weapon, isn't it?  I'd be honored to add it to our collection.  Is that your wish? If you choose to sell it, I can offer you 15000 gold in exchange for it.|SCVR:03sX0velothjudgment|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Quite a weapon, isn't it?  I'd be honored to add it to our collection.  Is that your wish? If you choose to sell it, I can offer you 15000 gold in exchange for it.|SCVR:03sX0velothjudgment|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=29582259711944123963(Topic:goldbrand)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:What an incredible weapon.  Are you sure you wish to part with it? I can offer you 30000 gold for it.|SCVR:03sX0goldbrand|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:What an incredible weapon.  Are you sure you wish to part with it? I can offer you 30000 gold for it.|SCVR:03sX0goldbrand|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+
+[MOD-INF]: ID=31445312003212313716(Topic:bloodworm helm)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:While I admit I find it repulsive, it's an intriguing piece for our collection.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3bloodworm_helm_unique|INTV|BNAM:set helmbloodworm to 2  player->removeitem "bloodworm_helm_unique" 1  player->additem "gold_001" 17000  "bloodworm_helm_unique_x"->Enable
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:While I admit I find it repulsive, it's an intriguing piece for our collection.  Thank you, %PCName.|SCVR:01500|INTV|SCVR:15IX3bloodworm_helm_unique|INTV|BNAM:set helmbloodworm to 2  player->removeitem "bloodworm_helm_unique" 1  player->additem "gold_001" 17000  "bloodworm_helm_unique_x"->Enable  Set ToF_MuseumSales To ( ToF_MuseumSales + 1 )
+
+[MOD-INF]: ID=32038133091407024968(Topic:bloodworm helm)
+  tribunal.esm------------------------------>|DATA|ONAM:Torasa Aram|NAME:Said to have been left behind by the Worm King himself.  Evil, but beautiful. If you wish to sell it, %PCName, I can give you 17000 gold for it.|SCVR:03sX0helmbloodworm|INTV|SCVR:14JX0TR_Blade|INTV:(|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3
+  Museum of Artifacts Improved Expanded.esp->|DATA|ONAM:Torasa Aram|NAME:Said to have been left behind by the Worm King himself.  Evil, but beautiful. If you wish to sell it, %PCName, I can give you 17000 gold for it.|SCVR:03sX0helmbloodworm|INTV|BNAM:Choice: "Sell the item." 1 "Keep the item." 2 "Donate the item." 3

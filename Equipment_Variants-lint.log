@@ -1,0 +1,702 @@
+Equipment_Variants.ESP: DUP-REC MASTERS MISSVER OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Wares-base.esm                131281 (plugin)      82499 (installed size)
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       CONT    com_chest_02_v_armor04
+	bloodmoon.esm       CONT    com_chest_02_v_trader03
+	bloodmoon.esm       CONT    com_chest_02_v_weapon08
+	bloodmoon.esm       CONT    com_chest_gustav
+	bloodmoon.esm       CONT    crate_01_iron_weapons2
+	bloodmoon.esm       CONT    crate_01_steel_armor
+	bloodmoon.esm       CONT    crate_01_vivec_fg
+	bloodmoon.esm       NPC_    afer flaccus_guard
+	bloodmoon.esm       NPC_    antonius nuncius
+	bloodmoon.esm       NPC_    bm_reaver_30
+	bloodmoon.esm       NPC_    bm_reaver_50
+	bloodmoon.esm       NPC_    bm_reaver_archer_10
+	bloodmoon.esm       NPC_    bm_reaver_archer_30
+	bloodmoon.esm       NPC_    bm_reaver_archer_50
+	bloodmoon.esm       NPC_    bm_roguenecro2
+	bloodmoon.esm       NPC_    bm_roguenecro3
+	bloodmoon.esm       NPC_    capiton popillius
+	bloodmoon.esm       NPC_    cimber valerius
+	bloodmoon.esm       NPC_    coventina celata
+	bloodmoon.esm       NPC_    falco galenus
+	bloodmoon.esm       NPC_    francois marquardt
+	bloodmoon.esm       NPC_    garnas uvalen_guard
+	bloodmoon.esm       NPC_    gratian caerellius_guar
+	bloodmoon.esm       NPC_    kjolver
+	bloodmoon.esm       NPC_    manabi virith
+	bloodmoon.esm       NPC_    manolos virith
+	bloodmoon.esm       NPC_    s'virr
+	bloodmoon.esm       NPC_    sorian
+	bloodmoon.esm       NPC_    svenja snow-song
+	bloodmoon.esm       NPC_    svenja_outside
+	bloodmoon.esm       NPC_    swims-in-swells
+	bloodmoon.esm       NPC_    ulfgar the unending
+	bloodmoon.esm       NPC_    ulfgar_ghost
+	bloodmoon.esm       NPC_    veresa alver
+	morrowind.esm       CONT    barrel_01_manicky
+	morrowind.esm       CONT    chest_andrano01
+	morrowind.esm       CONT    chest_tomb_andrano02
+	morrowind.esm       CONT    chest_tomb_gladroon
+	morrowind.esm       CONT    chest_tomb_gladroon2
+	morrowind.esm       CONT    chest_tomb_sandas
+	morrowind.esm       CONT    com_basket_arille's
+	morrowind.esm       CONT    com_chest_01_misc03
+	morrowind.esm       CONT    com_chest_02_fg_supply
+	morrowind.esm       CONT    com_chest_02_lucretinau
+	morrowind.esm       CONT    com_chest_02_v_alusaron
+	morrowind.esm       CONT    com_chest_02_v_armor01
+	morrowind.esm       CONT    com_chest_02_v_armor03
+	morrowind.esm       CONT    com_chest_02_v_armor06
+	morrowind.esm       CONT    com_chest_02_v_armor08
+	morrowind.esm       CONT    com_chest_02_v_armor11
+	morrowind.esm       CONT    com_chest_02_v_fonas
+	morrowind.esm       CONT    com_chest_02_v_shadbak
+	morrowind.esm       CONT    com_chest_02_v_weapon03
+	morrowind.esm       CONT    com_chest_02_v_weapon04
+	morrowind.esm       CONT    com_chest_02_v_weapon06
+	morrowind.esm       CONT    com_chest_02_v_weapon09
+	morrowind.esm       CONT    com_chest_02_weap_12_ot
+	morrowind.esm       CONT    com_closet_01_fg
+	morrowind.esm       CONT    contain_corpse_indie
+	morrowind.esm       CONT    contain_corpse_nord
+	morrowind.esm       CONT    crate_01_anruin
+	morrowind.esm       CONT    crate_01_armorchitin_me
+	morrowind.esm       CONT    crate_01_arrille
+	morrowind.esm       CONT    crate_01_silver_weapons
+	morrowind.esm       CONT    crate_01_sirollus_02
+	morrowind.esm       CONT    crate_01_v_ralentilvur
+	morrowind.esm       CONT    crate_02_balenandrano
+	morrowind.esm       CONT    crate_02_lagius
+	morrowind.esm       CONT    crate_02_thorek_longswo
+	morrowind.esm       CONT    crate_02_thorek_shortsw
+	morrowind.esm       CONT    de_p_chest_02_arynioret
+	morrowind.esm       CONT    de_p_chest_02_darvan hl
+	morrowind.esm       CONT    de_p_chest_02_helvi
+	morrowind.esm       CONT    de_p_chest_02_verethi
+	morrowind.esm       CONT    de_p_desk_prison
+	morrowind.esm       CONT    de_r_closet_01_tuveso1
+	morrowind.esm       CONT    de_r_closet_bagarn
+	morrowind.esm       CONT    dwrv_chest00_arenara2
+	morrowind.esm       CONT    dwrv_chest00_kjeld
+	morrowind.esm       CONT    dwrv_chest00_kjeld2
+	morrowind.esm       CONT    test_crate_all_armor
+	morrowind.esm       CONT    test_crate_all_weapons
+	morrowind.esm       NPC_    a shady smuggler
+	morrowind.esm       NPC_    ababael timsar-dadisun
+	morrowind.esm       NPC_    adding
+	morrowind.esm       NPC_    adosi darano
+	morrowind.esm       NPC_    adraria vandacia
+	morrowind.esm       NPC_    aebondeius jucanis
+	morrowind.esm       NPC_    aengoth
+	morrowind.esm       NPC_    aerin
+	morrowind.esm       NPC_    agarond
+	morrowind.esm       NPC_    agronian guy
+	morrowind.esm       NPC_    ainab yassabisun
+	morrowind.esm       NPC_    albecius colollius
+	morrowind.esm       NPC_    ales julalanie
+	morrowind.esm       NPC_    alfhedil elf-hewer
+	morrowind.esm       NPC_    allding
+	morrowind.esm       NPC_    allimir
+	morrowind.esm       NPC_    almsi oren
+	morrowind.esm       NPC_    alnas sendu
+	morrowind.esm       NPC_    alonisea varys
+	morrowind.esm       NPC_    alvis teri
+	morrowind.esm       NPC_    alvur hleran
+	morrowind.esm       NPC_    alynu aralen
+	morrowind.esm       NPC_    an_deesei
+	morrowind.esm       NPC_    anas ulven
+	morrowind.esm       NPC_    andril othran
+	morrowind.esm       NPC_    anel rethelas
+	morrowind.esm       NPC_    angahran
+	morrowind.esm       NPC_    ano andaram
+	morrowind.esm       NPC_    ano vando
+	morrowind.esm       NPC_    aralosea romori
+	morrowind.esm       NPC_    arantamo
+	morrowind.esm       NPC_    aras girendas
+	morrowind.esm       NPC_    arathor
+	morrowind.esm       NPC_    areas
+	morrowind.esm       NPC_    arelvam sadrano
+	morrowind.esm       NPC_    aren maren
+	morrowind.esm       NPC_    arenara
+	morrowind.esm       NPC_    arnskar
+	morrowind.esm       NPC_    aroa nethalen
+	morrowind.esm       NPC_    arsyn salas
+	morrowind.esm       NPC_    arvama rathri
+	morrowind.esm       NPC_    arven nalyn
+	morrowind.esm       NPC_    arver rethul
+	morrowind.esm       NPC_    arvs raram
+	morrowind.esm       NPC_    assaba-bentus
+	morrowind.esm       NPC_    audania afronia
+	morrowind.esm       NPC_    aundae vampire 2
+	morrowind.esm       NPC_    aundae vampire 5
+	morrowind.esm       NPC_    aurnie vanne
+	morrowind.esm       NPC_    azuk gro-rugob
+	morrowind.esm       NPC_    badala velothren
+	morrowind.esm       NPC_    balan
+	morrowind.esm       NPC_    baleni salavel
+	morrowind.esm       NPC_    balis sari
+	morrowind.esm       NPC_    balsa girith
+	morrowind.esm       NPC_    baradras
+	morrowind.esm       NPC_    barirrid
+	morrowind.esm       NPC_    baurin
+	morrowind.esm       NPC_    bedrir
+	morrowind.esm       NPC_    belas othren
+	morrowind.esm       NPC_    benar neleth
+	morrowind.esm       NPC_    berel sala
+	morrowind.esm       NPC_    berela andrano
+	morrowind.esm       NPC_    berengeval
+	morrowind.esm       NPC_    berne vampire 1
+	morrowind.esm       NPC_    berne vampire 5
+	morrowind.esm       NPC_    bevadar bels
+	morrowind.esm       NPC_    big helende
+	morrowind.esm       NPC_    bilos andrethi
+	morrowind.esm       NPC_    bjadmund
+	morrowind.esm       NPC_    bolayn rethan
+	morrowind.esm       NPC_    boldrisa andrano
+	morrowind.esm       NPC_    bolnor andrani
+	morrowind.esm       NPC_    bolyn elval
+	morrowind.esm       NPC_    bormir
+	morrowind.esm       NPC_    boss crito
+	morrowind.esm       NPC_    bralsea seloth
+	morrowind.esm       NPC_    brara morvayn
+	morrowind.esm       NPC_    brasteir
+	morrowind.esm       NPC_    brelayne verano
+	morrowind.esm       NPC_    brelyn indarys
+	morrowind.esm       NPC_    brevasu heran
+	morrowind.esm       NPC_    breves omoril
+	morrowind.esm       NPC_    brevosi indalen
+	morrowind.esm       NPC_    breyns othravel
+	morrowind.esm       NPC_    breyns randas
+	morrowind.esm       NPC_    briring
+	morrowind.esm       NPC_    brithroth
+	morrowind.esm       NPC_    bronosa nedalor
+	morrowind.esm       NPC_    broris fals
+	morrowind.esm       NPC_    brothes oran
+	morrowind.esm       NPC_    bugdurash gra-gashel
+	morrowind.esm       NPC_    bugharz gro-ular
+	morrowind.esm       NPC_    bugrol gro-bagul
+	morrowind.esm       NPC_    bula gra-muk
+	morrowind.esm       NPC_    bulfim_gra_shugarz
+	morrowind.esm       NPC_    bum gra-logob
+	morrowind.esm       NPC_    buoyant armiger_wander
+	morrowind.esm       NPC_    burul gro-orbuma
+	morrowind.esm       NPC_    cania mico
+	morrowind.esm       NPC_    celria
+	morrowind.esm       NPC_    chanil_lee
+	morrowind.esm       NPC_    chrelm
+	morrowind.esm       NPC_    chuna
+	morrowind.esm       NPC_    cinda
+	morrowind.esm       NPC_    cirges adrard
+	morrowind.esm       NPC_    cirwedh
+	morrowind.esm       NPC_    clecentor aerius
+	morrowind.esm       NPC_    clibergus urgelian
+	morrowind.esm       NPC_    cristus lync
+	morrowind.esm       NPC_    dalse adren
+	morrowind.esm       NPC_    dalyne arvel
+	morrowind.esm       NPC_    dandsa
+	morrowind.esm       NPC_    daric bielle
+	morrowind.esm       NPC_    daroder helni
+	morrowind.esm       NPC_    daroso sethri
+	morrowind.esm       NPC_    darvynea hleran
+	morrowind.esm       NPC_    dathman mochtuis
+	morrowind.esm       NPC_    davis nelaram
+	morrowind.esm       NPC_    davur githendas
+	morrowind.esm       NPC_    daynasa tharen
+	morrowind.esm       NPC_    daynil farandas
+	morrowind.esm       NPC_    delyna mandas
+	morrowind.esm       NPC_    derayna llervu
+	morrowind.esm       NPC_    deval beleth
+	morrowind.esm       NPC_    devas irano
+	morrowind.esm       NPC_    dhaunayne aundae
+	morrowind.esm       NPC_    dinor thilandas
+	morrowind.esm       NPC_    direr arano
+	morrowind.esm       NPC_    direr velendas
+	morrowind.esm       NPC_    divayth fyr
+	morrowind.esm       NPC_    dolmesa sarano
+	morrowind.esm       NPC_    dolvasie veloren
+	morrowind.esm       NPC_    dondir
+	morrowind.esm       NPC_    dovres verethi
+	morrowind.esm       NPC_    dovrosi varyon
+	morrowind.esm       NPC_    dralas gilu
+	morrowind.esm       NPC_    dramis maryon
+	morrowind.esm       NPC_    drandryn omoran
+	morrowind.esm       NPC_    dranos sandus
+	morrowind.esm       NPC_    draron benelas
+	morrowind.esm       NPC_    drathyn andavel
+	morrowind.esm       NPC_    dravil omavel
+	morrowind.esm       NPC_    dreamer guard
+	morrowind.esm       NPC_    dreamer priest
+	morrowind.esm       NPC_    dreamer prophet
+	morrowind.esm       NPC_    dredase arvel
+	morrowind.esm       NPC_    dredyni salvani
+	morrowind.esm       NPC_    drerel indaren
+	morrowind.esm       NPC_    dreynis nothro
+	morrowind.esm       NPC_    dreyns nelas
+	morrowind.esm       NPC_    dridyn berethi
+	morrowind.esm       NPC_    drireri berano
+	morrowind.esm       NPC_    dro'sakhar
+	morrowind.esm       NPC_    dro'zaymar
+	morrowind.esm       NPC_    drorayni tharam
+	morrowind.esm       NPC_    dryngheid
+	morrowind.esm       NPC_    dudley
+	morrowind.esm       NPC_    dular gro-buzga
+	morrowind.esm       NPC_    dunius valodius
+	morrowind.esm       NPC_    dunsalipal dun-ahhe
+	morrowind.esm       NPC_    dur gro-grambak
+	morrowind.esm       NPC_    dura gra-bol
+	morrowind.esm       NPC_    durus marius
+	morrowind.esm       NPC_    durz gra-rimph
+	morrowind.esm       NPC_    durz gro-olor
+	morrowind.esm       NPC_    edd theman
+	morrowind.esm       NPC_    edryno arethi
+	morrowind.esm       NPC_    edwinna elbert
+	morrowind.esm       NPC_    eiruki hearth-healer
+	morrowind.esm       NPC_    elegal
+	morrowind.esm       NPC_    elmussa damori
+	morrowind.esm       NPC_    elnyea norvayn
+	morrowind.esm       NPC_    eloe
+	morrowind.esm       NPC_    elone
+	morrowind.esm       NPC_    elphiron
+	morrowind.esm       NPC_    emelin
+	morrowind.esm       NPC_    emul-ran
+	morrowind.esm       NPC_    ena
+	morrowind.esm       NPC_    enar dralor
+	morrowind.esm       NPC_    eradan
+	morrowind.esm       NPC_    ereven velas
+	morrowind.esm       NPC_    eris telas
+	morrowind.esm       NPC_    erns maren
+	morrowind.esm       NPC_    esar-don dunsamsi
+	morrowind.esm       NPC_    estinan
+	morrowind.esm       NPC_    fainertil
+	morrowind.esm       NPC_    faldan
+	morrowind.esm       NPC_    falion
+	morrowind.esm       NPC_    falvis tunel
+	morrowind.esm       NPC_    fanasa ienith
+	morrowind.esm       NPC_    fandus puruseius
+	morrowind.esm       NPC_    fara
+	morrowind.esm       NPC_    farare othril
+	morrowind.esm       NPC_    farena arelas
+	morrowind.esm       NPC_    farmin
+	morrowind.esm       NPC_    farvam faram
+	morrowind.esm       NPC_    fasile charascel
+	morrowind.esm       NPC_    favel gobor
+	morrowind.esm       NPC_    felayn andral
+	morrowind.esm       NPC_    felmena falavel
+	morrowind.esm       NPC_    felsu telas
+	morrowind.esm       NPC_    fendros varys
+	morrowind.esm       NPC_    fendryn drelvi
+	morrowind.esm       NPC_    fentula pevengius
+	morrowind.esm       NPC_    feril salmyn
+	morrowind.esm       NPC_    ferise varo
+	morrowind.esm       NPC_    fevyn ralen
+	morrowind.esm       NPC_    fiiriel
+	morrowind.esm       NPC_    filbeneth
+	morrowind.esm       NPC_    fjol
+	morrowind.esm       NPC_    fjori the stout
+	morrowind.esm       NPC_    folvalie omalor
+	morrowind.esm       NPC_    folyni dran
+	morrowind.esm       NPC_    fomesa tharys
+	morrowind.esm       NPC_    forvse nerethi
+	morrowind.esm       NPC_    fothyna herothran
+	morrowind.esm       NPC_    fovus faravel
+	morrowind.esm       NPC_    frik
+	morrowind.esm       NPC_    frink ruuz
+	morrowind.esm       NPC_    frinnius posuceius
+	morrowind.esm       NPC_    fruscia abitius
+	morrowind.esm       NPC_    gaeldol
+	morrowind.esm       NPC_    galam llendu
+	morrowind.esm       NPC_    galas drenim
+	morrowind.esm       NPC_    galdal omayn
+	morrowind.esm       NPC_    galdres ienith
+	morrowind.esm       NPC_    galmir
+	morrowind.esm       NPC_    galtis guvron
+	morrowind.esm       NPC_    galtis serethi
+	morrowind.esm       NPC_    galvene othrobar
+	morrowind.esm       NPC_    galviso heran
+	morrowind.esm       NPC_    gam-kur
+	morrowind.esm       NPC_    garer danoran
+	morrowind.esm       NPC_    garisa llethri
+	morrowind.esm       NPC_    gashna gro-mogduk
+	morrowind.esm       NPC_    gathal llethri
+	morrowind.esm       NPC_    geel_lah
+	morrowind.esm       NPC_    gelduin
+	morrowind.esm       NPC_    geor matreinace
+	morrowind.esm       NPC_    ghamonk gro-agadbu
+	morrowind.esm       NPC_    ghorlorz gro-moghakh
+	morrowind.esm       NPC_    gilan daynes
+	morrowind.esm       NPC_    gilas llervu
+	morrowind.esm       NPC_    gilmyn andrilo
+	morrowind.esm       NPC_    gils drelas
+	morrowind.esm       NPC_    gils oril
+	morrowind.esm       NPC_    gilyan sedas
+	morrowind.esm       NPC_    gilyne omoren
+	morrowind.esm       NPC_    giren avilo
+	morrowind.esm       NPC_    girvani sedas
+	morrowind.esm       NPC_    girynu gilnith
+	morrowind.esm       NPC_    glasha gra-magar
+	morrowind.esm       NPC_    glob gra-ghasharzol
+	morrowind.esm       NPC_    gluronk gra-shula
+	morrowind.esm       NPC_    godrod hairy-breeks
+	morrowind.esm       NPC_    gogrek
+	morrowind.esm       NPC_    golar omoran
+	morrowind.esm       NPC_    golmerea othravel
+	morrowind.esm       NPC_    gonk gra-gurub
+	morrowind.esm       NPC_    goras andrelo
+	morrowind.esm       NPC_    grazob gra-kharz
+	morrowind.esm       NPC_    gulvilie arinith
+	morrowind.esm       NPC_    guril retheran
+	morrowind.esm       NPC_    haakon
+	morrowind.esm       NPC_    hairan
+	morrowind.esm       NPC_    haki
+	morrowind.esm       NPC_    haki the halt
+	morrowind.esm       NPC_    haleneri salor
+	morrowind.esm       NPC_    halof
+	morrowind.esm       NPC_    hamlof red-tooth
+	morrowind.esm       NPC_    hamvir
+	morrowind.esm       NPC_    hassour zainsubani
+	morrowind.esm       NPC_    hathei
+	morrowind.esm       NPC_    heddvild
+	morrowind.esm       NPC_    herd
+	morrowind.esm       NPC_    hickim
+	morrowind.esm       NPC_    hides_his_eyes
+	morrowind.esm       NPC_    hisin deep-raed
+	morrowind.esm       NPC_    hjoldir
+	morrowind.esm       NPC_    hlaalu guard
+	morrowind.esm       NPC_    hlaalu guard_outside
+	morrowind.esm       NPC_    hodlismod
+	morrowind.esm       NPC_    hoki
+	morrowind.esm       NPC_    horstar home-wrecker
+	morrowind.esm       NPC_    horulia jannus
+	morrowind.esm       NPC_    hreirek the lean
+	morrowind.esm       NPC_    hrondar highlander
+	morrowind.esm       NPC_    hrundi
+	morrowind.esm       NPC_    hurnfing
+	morrowind.esm       NPC_    hylf the harrier
+	morrowind.esm       NPC_    hyring
+	morrowind.esm       NPC_    idhdean tailas
+	morrowind.esm       NPC_    idronea sadri
+	morrowind.esm       NPC_    idros givyn
+	morrowind.esm       NPC_    idula moren
+	morrowind.esm       NPC_    ienaso adren
+	morrowind.esm       NPC_    ilasour tansumiran
+	morrowind.esm       NPC_    ildos rothren
+	morrowind.esm       NPC_    ilver aralas
+	morrowind.esm       NPC_    iner raledran
+	morrowind.esm       NPC_    inganar
+	morrowind.esm       NPC_    ingwold
+	morrowind.esm       NPC_    irbran kirbatha
+	morrowind.esm       NPC_    irgola
+	morrowind.esm       NPC_    irvama othrelas
+	morrowind.esm       NPC_    irwaen
+	morrowind.esm       NPC_    ivela uvenim
+	morrowind.esm       NPC_    jathlanie
+	morrowind.esm       NPC_    jeanne
+	morrowind.esm       NPC_    jolding
+	morrowind.esm       NPC_    jonis
+	morrowind.esm       NPC_    joslin
+	morrowind.esm       NPC_    kashtes ilabael
+	morrowind.esm       NPC_    ken
+	morrowind.esm       NPC_    khagra gro-lurkul
+	morrowind.esm       NPC_    knurguri
+	morrowind.esm       NPC_    laire
+	morrowind.esm       NPC_    lalaine essagan
+	morrowind.esm       NPC_    lambug gra-lurn
+	morrowind.esm       NPC_    landa
+	morrowind.esm       NPC_    larisus dergius
+	morrowind.esm       NPC_    leles birian
+	morrowind.esm       NPC_    levus musilchiotus
+	morrowind.esm       NPC_    lidebras
+	morrowind.esm       NPC_    lirielle stoine
+	morrowind.esm       NPC_    llaalam madalas
+	morrowind.esm       NPC_    llanas drilvi
+	morrowind.esm       NPC_    llandrale varam
+	morrowind.esm       NPC_    llandras belaal
+	morrowind.esm       NPC_    llanel brenos
+	morrowind.esm       NPC_    llaren terano
+	morrowind.esm       NPC_    llaro llethri
+	morrowind.esm       NPC_    llathise dralas
+	morrowind.esm       NPC_    llavelea nelvani
+	morrowind.esm       NPC_    llemisa marys
+	morrowind.esm       NPC_    lleris rathryon
+	morrowind.esm       NPC_    llero lloran
+	morrowind.esm       NPC_    llerusa hlaalu
+	morrowind.esm       NPC_    llevena sendas
+	morrowind.esm       NPC_    lliram alvor
+	morrowind.esm       NPC_    lliros tures
+	morrowind.esm       NPC_    lloden tenim
+	morrowind.esm       NPC_    llondresa reloth
+	morrowind.esm       NPC_    lorbumol gro-aglakh
+	morrowind.esm       NPC_    lorchel
+	morrowind.esm       NPC_    lord cluttermonkey
+	morrowind.esm       NPC_    lucan ostorius
+	morrowind.esm       NPC_    lugdum gro-lagdub
+	morrowind.esm       NPC_    lugrub gro-ogdum
+	morrowind.esm       NPC_    lunia menanius
+	morrowind.esm       NPC_    lurius lalelius
+	morrowind.esm       NPC_    lurog gro-khagdum
+	morrowind.esm       NPC_    m'aiq
+	morrowind.esm       NPC_    madrale thirith
+	morrowind.esm       NPC_    maering
+	morrowind.esm       NPC_    maesa gabinia
+	morrowind.esm       NPC_    mals faralen
+	morrowind.esm       NPC_    malsa ules
+	morrowind.esm       NPC_    manel amori
+	morrowind.esm       NPC_    maner uvaren
+	morrowind.esm       NPC_    manicky
+	morrowind.esm       NPC_    manis virmaulese
+	morrowind.esm       NPC_    manos othreleth
+	morrowind.esm       NPC_    maralie ares
+	morrowind.esm       NPC_    margonet
+	morrowind.esm       NPC_    maros gimayn
+	morrowind.esm       NPC_    masque
+	morrowind.esm       NPC_    matuk gro-magrish
+	morrowind.esm       NPC_    meanen
+	morrowind.esm       NPC_    mebestian ence
+	morrowind.esm       NPC_    mehrunesworshipper_m02
+	morrowind.esm       NPC_    melsu indalas
+	morrowind.esm       NPC_    melvure rindu
+	morrowind.esm       NPC_    mertisi andavel
+	morrowind.esm       NPC_    mervs uvayn
+	morrowind.esm       NPC_    meryaran
+	morrowind.esm       NPC_    methulu ienith
+	morrowind.esm       NPC_    meven uvaren
+	morrowind.esm       NPC_    miluru andus
+	morrowind.esm       NPC_    milvonu terandas
+	morrowind.esm       NPC_    milyn faram
+	morrowind.esm       NPC_    minasi bavani
+	morrowind.esm       NPC_    mindeli saren
+	morrowind.esm       NPC_    minedhel
+	morrowind.esm       NPC_    miraso seran
+	morrowind.esm       NPC_    mivanu andrelo
+	morrowind.esm       NPC_    moghakh gro-bar
+	morrowind.esm       NPC_    monsey
+	morrowind.esm       NPC_    movisa andas
+	morrowind.esm       NPC_    mugdul gro-yagarz
+	morrowind.esm       NPC_    murag gro-atumph
+	morrowind.esm       NPC_    murzush gra-bulfim
+	morrowind.esm       NPC_    muvrulea daryon
+	morrowind.esm       NPC_    muzgonk gro-borbog
+	morrowind.esm       NPC_    nachael
+	morrowind.esm       NPC_    nag gro-shumba
+	morrowind.esm       NPC_    nalmila thelas
+	morrowind.esm       NPC_    nalosi alari
+	morrowind.esm       NPC_    nalsie radas
+	morrowind.esm       NPC_    nalur indrano
+	morrowind.esm       NPC_    nannithon
+	morrowind.esm       NPC_    nargol gra-uftharz
+	morrowind.esm       NPC_    nathala herendas
+	morrowind.esm       NPC_    nathyne uvelas
+	morrowind.esm       NPC_    nedeni tenim
+	morrowind.esm       NPC_    neldris llervu
+	morrowind.esm       NPC_    nervana verelas
+	morrowind.esm       NPC_    nethyn valno
+	morrowind.esm       NPC_    nidryne redas
+	morrowind.esm       NPC_    nilioniel
+	morrowind.esm       NPC_    nilos talds
+	morrowind.esm       NPC_    nireli farys
+	morrowind.esm       NPC_    nistacey
+	morrowind.esm       NPC_    nivel madryon
+	morrowind.esm       NPC_    norus marvel
+	morrowind.esm       NPC_    novor gorvas
+	morrowind.esm       NPC_    novrynea falen
+	morrowind.esm       NPC_    odron omoran
+	morrowind.esm       NPC_    ogrumbu gro-bugarn
+	morrowind.esm       NPC_    olfin gro-logrob
+	morrowind.esm       NPC_    omesu hlarys
+	morrowind.esm       NPC_    orbul gra-lumob
+	morrowind.esm       NPC_    ordinator wander_ilpe_1
+	morrowind.esm       NPC_    ordinator wander_ilpe_2
+	morrowind.esm       NPC_    ormax geles
+	morrowind.esm       NPC_    pallia ceno
+	morrowind.esm       NPC_    pegasai
+	morrowind.esm       NPC_    persius mercius
+	morrowind.esm       NPC_    pierlette rostorard
+	morrowind.esm       NPC_    pilus amatius
+	morrowind.esm       NPC_    pritia plalocius
+	morrowind.esm       NPC_    procyon nigilius
+	morrowind.esm       NPC_    quarra vampire 2
+	morrowind.esm       NPC_    quarra vampire 4
+	morrowind.esm       NPC_    quarra vampire 5
+	morrowind.esm       NPC_    ra'zhid
+	morrowind.esm       NPC_    radene hlaalu
+	morrowind.esm       NPC_    raflod the braggart
+	morrowind.esm       NPC_    raig
+	morrowind.esm       NPC_    rakoslod
+	morrowind.esm       NPC_    raldenu ieneth
+	morrowind.esm       NPC_    raryn daren
+	morrowind.esm       NPC_    raynila aryon
+	morrowind.esm       NPC_    raynilie andromo
+	morrowind.esm       NPC_    relam arinith
+	morrowind.esm       NPC_    relas arothan
+	morrowind.esm       NPC_    relinda
+	morrowind.esm       NPC_    rels tenim
+	morrowind.esm       NPC_    remasa othril
+	morrowind.esm       NPC_    rilasi ralvayn
+	morrowind.esm       NPC_    rindral dralor
+	morrowind.esm       NPC_    rirns uveran
+	morrowind.esm       NPC_    rissinia
+	morrowind.esm       NPC_    rithleen
+	morrowind.esm       NPC_    rithrannir
+	morrowind.esm       NPC_    rogdul gro-bularz
+	morrowind.esm       NPC_    rothis nethan
+	morrowind.esm       NPC_    rovone arvel
+	morrowind.esm       NPC_    rumare
+	morrowind.esm       NPC_    ruthrisu andoril
+	morrowind.esm       NPC_    s'radirr
+	morrowind.esm       NPC_    salver lleran
+	morrowind.esm       NPC_    sanyon
+	morrowind.esm       NPC_    sarayn sadus
+	morrowind.esm       NPC_    sargon santumatus
+	morrowind.esm       NPC_    sarnir the clerk
+	morrowind.esm       NPC_    saruse hloran
+	morrowind.esm       NPC_    sarvur sadri
+	morrowind.esm       NPC_    saryn sarothril
+	morrowind.esm       NPC_    sason
+	morrowind.esm       NPC_    satyana
+	morrowind.esm       NPC_    savard
+	morrowind.esm       NPC_    sedrane arvel
+	morrowind.esm       NPC_    sedyni veran
+	morrowind.esm       NPC_    selmen relas
+	morrowind.esm       NPC_    selvia famalius
+	morrowind.esm       NPC_    selvura andrano
+	morrowind.esm       NPC_    serer andrano
+	morrowind.esm       NPC_    shagar gra-snagarz
+	morrowind.esm       NPC_    shanit ashar-don
+	morrowind.esm       NPC_    shat gro-shazog
+	morrowind.esm       NPC_    shin assemmus
+	morrowind.esm       NPC_    shotherra
+	morrowind.esm       NPC_    sifknir
+	morrowind.esm       NPC_    siltalaure
+	morrowind.esm       NPC_    sitialius catanius
+	morrowind.esm       NPC_    sjarnfid
+	morrowind.esm       NPC_    sloomalah
+	morrowind.esm       NPC_    smokeskin_killer
+	morrowind.esm       NPC_    snadir
+	morrowind.esm       NPC_    snaglak gro-yak
+	morrowind.esm       NPC_    snowy granius
+	morrowind.esm       NPC_    sodres nerethi
+	morrowind.esm       NPC_    sottilde
+	morrowind.esm       NPC_    stenet
+	morrowind.esm       NPC_    sticey
+	morrowind.esm       NPC_    stlubo otiustiris
+	morrowind.esm       NPC_    sulen sarandus
+	morrowind.esm       NPC_    sulesa
+	morrowind.esm       NPC_    surus velvus
+	morrowind.esm       NPC_    suvryn doves
+	morrowind.esm       NPC_    talamu sethandas
+	morrowind.esm       NPC_    talare arvel
+	morrowind.esm       NPC_    talsi uvayn
+	morrowind.esm       NPC_    tanur llaram
+	morrowind.esm       NPC_    tappius esdrecus
+	morrowind.esm       NPC_    tarani dralno
+	morrowind.esm       NPC_    tarar doran
+	morrowind.esm       NPC_    taros dral
+	morrowind.esm       NPC_    tasellis burtilius
+	morrowind.esm       NPC_    tavynu tedran
+	morrowind.esm       NPC_    tens nolar
+	morrowind.esm       NPC_    tereri irethi
+	morrowind.esm       NPC_    teryne hlaalu
+	morrowind.esm       NPC_    thalestris
+	morrowind.esm       NPC_    thalurea thirvayn
+	morrowind.esm       NPC_    thelama indalas
+	morrowind.esm       NPC_    thelvamu sarano
+	morrowind.esm       NPC_    thengil
+	morrowind.esm       NPC_    thief dead 00
+	morrowind.esm       NPC_    thoromlallor
+	morrowind.esm       NPC_    throknolf the craven
+	morrowind.esm       NPC_    thunmund
+	morrowind.esm       NPC_    thurisea thando
+	morrowind.esm       NPC_    tibdan shalarnetus
+	morrowind.esm       NPC_    tidras deltis
+	morrowind.esm       NPC_    tidros indaram
+	morrowind.esm       NPC_    tilore andrethi
+	morrowind.esm       NPC_    tininnus scinia
+	morrowind.esm       NPC_    tinti
+	morrowind.esm       NPC_    todwendy
+	morrowind.esm       NPC_    tonasi belas
+	morrowind.esm       NPC_    torosi othreloth
+	morrowind.esm       NPC_    tralan
+	morrowind.esm       NPC_    treram milar
+	morrowind.esm       NPC_    trivon llaren
+	morrowind.esm       NPC_    tumsa darethi
+	morrowind.esm       NPC_    tusamircil
+	morrowind.esm       NPC_    tuvenie varam
+	morrowind.esm       NPC_    tyronius
+	morrowind.esm       NPC_    uleni heleran
+	morrowind.esm       NPC_    ulisamsi saddarnuran
+	morrowind.esm       NPC_    ultis salam
+	morrowind.esm       NPC_    ulyne henim
+	morrowind.esm       NPC_    umbra
+	morrowind.esm       NPC_    unila berendas
+	morrowind.esm       NPC_    uram gro-glorzuf
+	morrowind.esm       NPC_    ureval dralayn
+	morrowind.esm       NPC_    urven davor
+	morrowind.esm       NPC_    urzog gro-shadbuk
+	morrowind.esm       NPC_    urzul gra-agum
+	morrowind.esm       NPC_    uvisea benethran
+	morrowind.esm       NPC_    val
+	morrowind.esm       NPC_    vala herennius
+	morrowind.esm       NPC_    valund
+	morrowind.esm       NPC_    valyne vedaren
+	morrowind.esm       NPC_    varasa dreloth
+	morrowind.esm       NPC_    vares reram
+	morrowind.esm       NPC_    varis ginith
+	morrowind.esm       NPC_    varon sadralo
+	morrowind.esm       NPC_    vaves virith
+	morrowind.esm       NPC_    vavran reni
+	morrowind.esm       NPC_    vedran balen
+	morrowind.esm       NPC_    velfred
+	morrowind.esm       NPC_    velsa orethi
+	morrowind.esm       NPC_    vevos nerethi
+	morrowind.esm       NPC_    vevul alver
+	morrowind.esm       NPC_    vianis tiragrius
+	morrowind.esm       NPC_    viccia claevius
+	morrowind.esm       NPC_    vilamon
+	morrowind.esm       NPC_    vilval relvani
+	morrowind.esm       NPC_    vilvyni uveran
+	morrowind.esm       NPC_    vinnus laecinnius
+	morrowind.esm       NPC_    viras guls
+	morrowind.esm       NPC_    virgerd
+	morrowind.esm       NPC_    vistha_kai
+	morrowind.esm       NPC_    volene llervu
+	morrowind.esm       NPC_    vonden mano
+	morrowind.esm       NPC_    vuldronu girith
+	morrowind.esm       NPC_    wadarkhu
+	morrowind.esm       NPC_    warrior dead 00
+	morrowind.esm       NPC_    wayn
+	morrowind.esm       NPC_    wulf
+	morrowind.esm       NPC_    yadba gro-khash
+	morrowind.esm       NPC_    yam gro-muzgur
+	morrowind.esm       NPC_    yanniss
+	morrowind.esm       NPC_    yargol gro-bashnag
+	morrowind.esm       NPC_    yazgash gra-boga
+	tribunal.esm        CONT    com_chest_02_v_armor07
+	tribunal.esm        CONT    com_chest_02_v_armor09
+	tribunal.esm        CONT    com_chest_02_v_indalen
+	tribunal.esm        CONT    com_chest_02_v_sosia
+	tribunal.esm        CONT    com_chest_02_v_trader02
+	tribunal.esm        CONT    com_chest_02_v_weapon05
+	tribunal.esm        CONT    crate_01_armornetch_mel
+	tribunal.esm        NPC_    ahnia
+	tribunal.esm        NPC_    alam merys
+	tribunal.esm        NPC_    anrel
+	tribunal.esm        NPC_    armion
+	tribunal.esm        NPC_    bels uvenim
+	tribunal.esm        NPC_    catia sosia
+	tribunal.esm        NPC_    db_assassin1b
+	tribunal.esm        NPC_    db_assassin1c
+	tribunal.esm        NPC_    drathas nerus
+	tribunal.esm        NPC_    ekkhi
+	tribunal.esm        NPC_    forven berano
+	tribunal.esm        NPC_    gaenor_b
+	tribunal.esm        NPC_    hession
+	tribunal.esm        NPC_    hloggar the bloody
+	tribunal.esm        NPC_    plitinius mero
+	tribunal.esm        NPC_    shunari eye-fly
+	tribunal.esm        NPC_    sjoring hard-heart
+	tribunal.esm        NPC_    soscean

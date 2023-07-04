@@ -1,0 +1,26 @@
+sei-MG_potion.esp: DUP-REC MISSAUT MISSDSC MISSVER MOD-INF OVR-REC
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    ancestral tomb
+	morrowind.esm       DIAL    bloat
+	morrowind.esm       DIAL    detect creatures potion
+	morrowind.esm       DIAL    ectoplasm
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    mg_potion
+
+[MOD-INF]: ID=164524821272239103(Topic:detect creatures potion)
+  morrowind.esm----->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:Yes, of course, friend. Take this potion back to Edwinna, along with my apologies. Speak with me again next time you are here. I may have some duties for you, %PCRank.|SCVR:01450|INTV|SCVR:34JX3MG_Potion|INTV: |BNAM:Journal MG_Potion 50  Player->AddItem P_Detect_Creatures_S 1  ModDisposition 5
+  sei-MG_potion.esp->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:Yes, of course, friend. Take this potion back to Edwinna, along with my apologies. Speak with me again next time you are here. I may have some duties for you, %PCRank.|SCVR:01450|INTV|SCVR:34JX3MG_Potion|INTV:(|BNAM:Journal MG_Potion 50  Player->AddItem P_Detect_Creatures_S 1
+
+[MOD-INF]: ID=2462225274809610844(Topic:detect creatures potion)
+  morrowind.esm----->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:Yes, of course, soft-skin. Take this potion back to Edwinna, along with my apologies. Speak with me again next time you are here. I may have some duties for you, %PCRank.|SCVR:34JX3MG_Potion|INTV: |BNAM:Journal MG_Potion 50  Player->AddItem P_Detect_Creatures_S 1  ModDisposition 5
+  sei-MG_potion.esp->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:Yes, of course, %PCRank. Take this potion back to Edwinna, along with my apologies. Speak with me again next time you are here. I may have some duties for you..|SCVR:34JX3MG_Potion|INTV:(|BNAM:Journal MG_Potion 50  Player->AddItem P_Detect_Creatures_S 1
+
+[MOD-INF]: ID=3261911888271042070(Topic:ancestral tomb)
+  morrowind.esm----->|DATA|ONAM:skinkintreesshade|NAME:I only know of one that has been somewhat abandoned in recent years. The Tharys Ancestral Tomb is just northeast of Seyda Neen. There are tombs closer to Vivec, but the Dunmer might take offense at your explorations.|BNAM:Journal MG_Potion 30
+  sei-MG_potion.esp->|DATA|ONAM:skinkintreesshade|NAME:I only know of one that has been somewhat abandoned in recent years. The Tharys Ancestral Tomb is just southwest of Balmora. There are tombs closer to Vivec, but the Dunmer might take offense at your explorations.|SCVR:04JX3MG_Potion|INTV|SCVR:14JX4MG_Potion|INTV
+
+[MOD-INF]: ID=13030265523172521200(Topic:duties)
+  morrowind.esm----->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:I may have duties for you later, %PCName. Right now I am busy making a Detect Creatures potion for Edwinna in Ald'ruhn.
+  sei-MG_potion.esp->|DATA|ONAM:skinkintreesshade|DNAM:Mages Guild|NAME:I may have duties for you later, %PCName. Right now I am busy making a Detect Creatures potion for Edwinna in Ald'ruhn. It is taking some time, because we have run out of a crucial ingredient.

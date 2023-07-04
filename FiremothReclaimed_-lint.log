@@ -1,0 +1,93 @@
+FiremothReclaimed_.esp: DUP-INF DUP-REC FOGBUG GETSND MASTERS MENUMOD MISSVER MOD-INF OVR-REC
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	Tamriel_Data.esm             8787443 (plugin)   11064795 (installed size)
+	OAAB_Data.esm                1384891 (plugin)    1567893 (installed size)
+    [FOGBUG]: Cells with zero fog density setting:
+	Firemoth, Tomb
+    [GETSND] GetSoundPlaying possibly used to detect events:
+	SCPT(fm_aronil_s)
+	SCPT(fm_hjrondir_s)
+	SCPT(fm_mara_s)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(fm_grurn_s)
+	SCPT(fm_lightn_expl_scr)
+	SCPT(fm_sailor_s)
+	SCPT(fm_seyda_clutter_s)
+	SCPT(fm_undead_hjrondir_s)
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       LTEX    sand
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       LTEX    sand_02
+	morrowind.esm       LAND    (-7, -10)
+	morrowind.esm       LAND    (-7, -11)
+	morrowind.esm       LAND    (-7, -9)
+	morrowind.esm       LAND    (-8, -10)
+	morrowind.esm       LAND    (-8, -11)
+	morrowind.esm       LAND    (-8, -9)
+	morrowind.esm       LAND    (-9, -10)
+	morrowind.esm       LAND    (-9, -11)
+	morrowind.esm       LAND    (-9, -9)
+	morrowind.esm       LTEX    al_ash_01
+	morrowind.esm       LTEX    al_ash_02
+	morrowind.esm       LTEX    al_ash_03
+	morrowind.esm       LTEX    al_ash_04
+	morrowind.esm       LTEX    al_road_01
+	morrowind.esm       LTEX    ma_crackedearth
+	morrowind.esm       LTEX    ma_lava
+	morrowind.esm       LTEX    ma_lava02
+	morrowind.esm       LTEX    ma_lava03
+	morrowind.esm       LTEX    ma_lava04
+	morrowind.esm       LTEX    ma_lava05
+	morrowind.esm       LTEX    ma_lava06
+	morrowind.esm       LTEX    ma_lavacrust.tga
+	morrowind.esm       LTEX    ma_lavaflow
+	morrowind.esm       LTEX    ma_lavaridge
+	morrowind.esm       LTEX    ma_lavarock
+	morrowind.esm       LTEX    ma_rock04
+	morrowind.esm       LTEX    ma_sandstone02
+	morrowind.esm       LTEX    ma_sulphur_rock01
+	morrowind.esm       LTEX    ma_sulphur_rock02
+	morrowind.esm       LTEX    ma_sulphur_rock03
+	morrowind.esm       LTEX    ma_sulphur_rock05
+	morrowind.esm       LTEX    ma_sulphur_rock06
+	morrowind.esm       LTEX    ma_sulphur_rock07
+	morrowind.esm       LTEX    ma_sulphur_rock08
+	morrowind.esm       LTEX    ma_sulphur_rock09
+	morrowind.esm       LTEX    scrub plain
+	morrowind.esm       LTEX    tx_bc_dirt.tga
+	morrowind.esm       LTEX    tx_bc_mud.tga
+	morrowind.esm       LTEX    tx_bc_rock_01.tga
+	tamriel_data.esm    DIAL    mara
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    latest rumors
+
+[DUP-INF]: ID=128279104427445(Topic:latest rumors)
+  |DATA|ONAM:denegor|NAME:Oh yeah, sure. Heard ya the f-f-first time.
+
+[DUP-INF]: ID=13568231434823734(Greeting:greeting 1)
+  |DATA|ONAM:lich_relvel|NAME:Weakling! You dare to cross my threshold? You, then, will be the first to fall, before the undead army sweeps across this land like a plague, cleansing it of your flesh.  Die, mortal!|BNAM:StartCombat Player  SetFight 100  Goodbye
+
+[DUP-INF]: ID=735826820143959524(Topic:latest rumors)
+  |DATA|NAME:The wild rats have been a real problem in Mournhold lately.|SCVR:0CsX0NoLore|INTV:
+
+[DUP-INF]: ID=770014512186212797(Topic:mara)
+  |DATA|CNAM:Priest|FNAM:Imperial Cult|NAME:Mara, Goddess of Love, is the Mother-Goddess, patron of the bountiful earth, and source of mortal compassion and understanding. She is associated with Nir of the 'Anuad', the female principle of the cosmos that gave birth to creation.|BNAM:;Imperial cult priests; monks; healers;
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[DUP-INF]: ID=2606929671165928504(Topic:latest rumors)
+  |DATA|FNAM:Ashlanders|NAME:So. You are Nerevarine. When will you go to Red Mountain to face the Devil Dagoth Ur?|SCVR:14JX3B8_All_Nerevarine|INTV:2
+
+[MOD-INF]: ID=3009629748474023429(Greeting:greeting 1)
+  tribunal.esm----------->|DATA|ONAM:chargen captain|NAME:I am %name. My background is not important. From time to time it is my duty to welcome certain visitors to Morrowind.
+  FiremothReclaimed_.esp->|DATA|ONAM:chargen captain|NAME:I am %name. My background is not important. From time to time it is my duty to welcome certain visitors to Morrowind.|SCVR:04JX4A1_1_FindSpymaster|INTV
+
+[MOD-INF]: ID=16027228191418416208(Topic:latest rumors)
+  tribunal.esm----------->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0nolore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+  FiremothReclaimed_.esp->|DATA|NAME:The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.|SCVR:0CsX0NoLore|INTV:|SCVR:14JX3C3_DestroyDagoth|INTV:2
+
+[DUP-INF]: ID=16325102782849326701(Topic:latest rumors)
+  |DATA|FNAM:Ashlanders|NAME:The skies are clear all over Morrowind? Even on Red Mountain? I cannot believe it.|SCVR:14JX3C3_DestroyDagoth|INTV:2

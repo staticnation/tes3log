@@ -1,0 +1,7 @@
+DaedricArmor_beastleggings.esp: DUP-REC EXP-DEP MISSAUT MISSDSC MISSVER OVR-REC
+    [EXP-DEP] Expansion Dependency: Tribunal Functions:
+	SCPT(daedric_boots_script)           setdelete
+	SCPT(daedric_leggings_script)        setdelete
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       ARMO    daedric_boots

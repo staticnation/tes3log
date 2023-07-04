@@ -1,0 +1,16 @@
+QMS-Fallacy of Justice.esp: DUP-INF DUP-REC MENUMOD MISSAUT MISSDSC MISSVER OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(ek_aranosc)
+	SCPT(ek_fatlegthug_sc)
+	SCPT(ek_niden)
+	SCPT(ek_nidentravel)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       NPC_    direr arano
+	tribunal.esm        DIAL    greeting 5
+
+[DUP-INF]: ID=1775638752664725774(Greeting:greeting 5)
+  |DATA|ONAM:galsa gindu|DNAM:Redoran|NAME:Are you here to discuss your stronghold?
+
+[DUP-INF]: ID=23102102162409030873(Greeting:greeting 5)
+  |DATA|ONAM:aryon|NAME:What brings you to Tel Vos, %PCName?

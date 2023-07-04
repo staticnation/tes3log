@@ -1,0 +1,81 @@
+Helvil Horror - Olaf's Edit.esp: DUP-INF DUP-REC MASTERS MENUMOD MISSVER OVR-REC SCRDOOR
+    MASTERS: out of sync with the masters installed in your Data Files directory:
+	OAAB_Data.esm                1384891 (plugin)    1567893 (installed size)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(HH_uwu_sc)
+	SCPT(TDM_GhoulFix)
+	SCPT(TDM_HH_AshlanderTroubleSc)
+	SCPT(TDM_HH_CannibalBody)
+	SCPT(TDM_HH_CannibalSc)
+	SCPT(TDM_HH_Companion)
+	SCPT(TDM_HH_EnableMe)
+	SCPT(TDM_HH_NewItem)
+	SCPT(TDM_HH_NewItem2)
+	SCPT(TDM_HH_RingEnable)
+	SCPT(TDM_Kwama_Queen)
+	SCPT(TDM_Kwama_StripScrip)
+	SCPT(TDM_RingBook)
+    [SCRDOOR] Bethesda doors that have had scripts attached to them:
+	in_v_s_jaildoor_frelene              freleneCellDoor
+    [DUP-REC] Duplicate Records:
+	From Master         Type    Name
+	morrowind.esm       ACTI    in_lava_1024
+	morrowind.esm       ACTI    in_lava_256
+	morrowind.esm       DOOR    in_v_s_jaildoor_frelene
+	morrowind.esm       INGR    ingred_6th_corprusmeat_05
+	morrowind.esm       LIGH    light_logpile_128
+	morrowind.esm       MISC    misc_com_bucket_boe_unib
+	morrowind.esm       STAT    ex_dae_pillar_02_ruin
+	morrowind.esm       STAT    ex_dae_ruin_01
+	morrowind.esm       STAT    ex_de_docks_center
+	morrowind.esm       STAT    furn_6th_ashaltar
+	morrowind.esm       STAT    furn_6th_ashpillar
+	morrowind.esm       STAT    furn_6th_ashstatue
+	morrowind.esm       STAT    furn_6th_corpus_plate_01
+	morrowind.esm       STAT    furn_6th_dagothsymbol
+	morrowind.esm       STAT    furn_6th_tallbanner
+	morrowind.esm       STAT    furn_6th_troth_01
+	morrowind.esm       STAT    furn_6th_troth_02
+	morrowind.esm       STAT    in_moldcave_exit00
+	morrowind.esm       STAT    in_moldcave_lroom2_00
+	morrowind.esm       STAT    in_moldcave_lroom3_02
+	morrowind.esm       STAT    in_moldcave_lroom4_02
+	morrowind.esm       STAT    in_moldcave_lroom4_05
+	morrowind.esm       WEAP    6th bell hammer
+	oaab_data.esm       MISC    ab_misc_6thashstatue02
+	oaab_data.esm       STAT    ab_furn_mvskeleton_01
+	oaab_data.esm       STAT    ab_fx_aciddrip
+	oaab_data.esm       STAT    ab_fx_blood10
+	oaab_data.esm       STAT    ab_fx_blood13
+	oaab_data.esm       STAT    ab_fx_blood14
+	oaab_data.esm       STAT    ab_in_bonepile01
+	oaab_data.esm       STAT    ab_in_bonepile02
+	oaab_data.esm       STAT    ab_in_bonepileflat256
+	oaab_data.esm       STAT    ab_in_daeledge03
+	oaab_data.esm       WEAP    ab_w_sixthknife
+	oaab_data.esm       WEAP    ab_w_sixthspear
+	tribunal.esm        ACTI    sound_cave_wind00
+	tribunal.esm        ARMO    steel_gauntlet_left
+	tribunal.esm        ARMO    steel_gauntlet_right
+	tribunal.esm        DOOR    ex_cave_door_01
+	tribunal.esm        STAT    ex_dae_ruin_platform_01
+	tribunal.esm        STAT    in_moldcave_21
+	tribunal.esm        STAT    in_moldcave_lroom4_01
+	tribunal.esm        STAT    in_moldtrans_00
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    admire success
+	morrowind.esm       NPC_    todd
+	oaab_data.esm       ARMO    ab_a_steelhelmopen
+	oaab_data.esm       LTEX    ab_tx_dwrvroad
+	tribunal.esm        DIAL    greeting 0
+	tribunal.esm        DIAL    latest rumors
+
+[DUP-INF]: ID=501815288981727742(Persuasion:admire success)
+  |DATA|ONAM:ghost_npc_ane teria|NAME:You do right to honor the ancestors.
+
+[DUP-INF]: ID=2024114207272511002(Topic:latest rumors)
+  |DATA|ONAM:svenja_outside|NAME:Rumors? Are you mad? There's no time for such nonsense!
+
+[DUP-INF]: ID=2820158182898026047(Greeting:greeting 0)
+  |DATA|ONAM:Rat_pack_rerlas|NAME:Squeak!|SCVR:01500|INTV|BNAM:AIFollow "player" 0 0 0 0

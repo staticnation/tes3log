@@ -1,0 +1,74 @@
+Nerevarine Unchained.esp: DUP-REC MENUMOD MISSVER MOD-INF OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(CharGen)
+	SCPT(CharGenBed)
+	SCPT(CharGenBoatNPC)
+	SCPT(CharGenBoatWomen)
+	SCPT(CharGenClassNPC)
+	SCPT(CharGenCustomsDoor)
+	SCPT(CharGenDagger)
+	SCPT(CharGenDialogueMessage)
+	SCPT(CharGenDoorEnterCaptain)
+	SCPT(CharGenDoorExit)
+	SCPT(CharGenDoorExitCaptain)
+	SCPT(CharGenDoorGuardTalker)
+	SCPT(CharGenFatigueBarrel)
+	SCPT(CharGenJournalMessage)
+	SCPT(CharGenNameNPC)
+	SCPT(CharGenRaceNPC)
+	SCPT(CharGenStatsSheet)
+	SCPT(CharGenStuffRoom)
+	SCPT(CharGenWalkNPC)
+	SCPT(CharGen_Ring_Keley)
+	SCPT(PP_CrowAppear)
+	SCPT(PP_CrowDisappear)
+	SCPT(PP_DisableWallScript)
+	SCPT(PP_EscapeAttemptMessage)
+	SCPT(PP_GDeadScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       BOOK    bk_a1_1_directionscaiuscosades
+	morrowind.esm       BOOK    bk_a1_1_packagedecoded
+	morrowind.esm       CLAS    slave
+	morrowind.esm       DIAL    balmora
+	morrowind.esm       DIAL    caius cosades
+	morrowind.esm       DIAL    morrowind
+	morrowind.esm       DIAL    the empire
+	morrowind.esm       DIAL    uriel septim
+	morrowind.esm       NPC_    hrargal the crow
+	morrowind.esm       NPC_    virene mene
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+
+[MOD-INF]: ID=23291351271929511(:caius cosades)
+  morrowind.esm------------>|DATA|ONAM:chargen captain|NAME:Report to Caius Cosades in Balmora. I can't tell you where to find him, but you are to go to the South Wall Cornerclub and ask for him. Someone there can direct you to him.
+  Nerevarine Unchained.esp->|NAME:Report to Caius Cosades in Balmora. I can't tell you where to find him, but you are to go to the South Wall Cornerclub and ask for him. Someone there can direct you to him.|DELE:
+
+[MOD-INF]: ID=28358841968027303(:duties)
+  morrowind.esm------------>|DATA|ONAM:chargen captain|NAME:You know your duties. Take that package to Caius Cosades in Balmora.|SCVR:04JX4A1_1_FindSpymaster|INTV|SCVR:14JX3A1_1_FindSpymaster|INTV|BNAM:;journal gets set to 12 when you give spymaster package. Captian is in legion so he should mention other stuff after this ;that is part of legion.
+  Nerevarine Unchained.esp->|NAME:You know your duties. Take that package to Caius Cosades in Balmora.|DELE:
+
+[MOD-INF]: ID=38488615252471229(:balmora)
+  morrowind.esm------------>|DATA|ONAM:chargen captain|NAME:Balmora is north of Seyda Neen. The road passes Pelagiad village and Fort Pelagiad, crosses a deep ravine, passes Fort Moonmoth, then turns west across the Odai River and into Balmora. The South Wall cornerclub is in southeast Balmora, on the east side of the river. For more detailed directions, talk to Elone the Scout at Arrille's Tradehouse here in Seyda Neen. But take my advice. You're new here. Take the silt strider to Balmora. Fast, cheap, safe. Cross the bridge and head east. Can't miss it.|BNAM:ShowMap Balmora  ShowMap Pelagiad  ShowMap "Moonmoth Legion Fort"
+  Nerevarine Unchained.esp->|NAME:Balmora is north of Seyda Neen. The road passes Pelagiad village and Fort Pelagiad, crosses a deep ravine, passes Fort Moonmoth, then turns west across the Odai River and into Balmora. The South Wall cornerclub is in southeast Balmora, on the east side of the river. For more detailed directions, talk to Elone the Scout at Arrille's Tradehouse here in Seyda Neen. But take my advice. You're new here. Take the silt strider to Balmora. Fast, cheap, safe. Cross the bridge and head east. Can't miss it.|DELE:
+
+[MOD-INF]: ID=103402350204808451(:greeting 1)
+  tribunal.esm------------->|DATA|ONAM:chargen captain|NAME:First, let me take your identification papers. Thank you. Word of your arrival only reached me yesterday. I am %name. But my background is not important. I'm here to welcome you to Morrowind.|SCVR:05IX3chargen statssheet|INTV|BNAM:player->removeitem "chargen statssheet", 1  set state to -1
+  Nerevarine Unchained.esp->|NAME:First, let me take your identification papers. Thank you. Word of your arrival only reached me yesterday. I am %name. But my background is not important. I'm here to welcome you to Morrowind.|DELE:
+
+[MOD-INF]: ID=1729913769476329813(:duties)
+  morrowind.esm------------>|DATA|ONAM:chargen captain|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|SCVR:04JX0A1_1_FindSpymaster|INTV:|BNAM:Journal, "A1_1_FindSpymaster", 1  player->AddItem, "bk_A1_1_DirectionsCaiusCosades", 1  player->AddItem,  "bk_a1_1_caiuspackage", 1  player->Additem, "Gold_001", 87  addtopic "Caius Cosades"  Addtopic "South Wall"  addtopic "specific place"  addtopic "someone in particular"  addtopic "services"  addtopic "my trade"  addtopic "little secret"  addtopic "latest rumors"  addtopic "little advice"
+  Nerevarine Unchained.esp->|NAME:This package came with the news of your arrival. You are to take it to Caius Cosades, in the town of Balmora. Go to the South Wall Cornerclub, and ask for Caius Cosades -- they'll know where to find him. Serve him as you would serve the Emperor himself. I also have a letter for you, and a disbursal to your name.|DELE:
+
+[MOD-INF]: ID=2124530673720831903(:the empire)
+  morrowind.esm------------>|DATA|ONAM:chargen captain|NAME:Yes, of course this is the Empire. This is Vvardenfell District of the province of Morrowind. And Morrowind has been part of the Empire for over 400 years. The current emperor is Uriel Septim, 24th of the Septim line. You haven't been in prison that long, have you? Nothing wrong with your head, is there? The men said you were acting a little strange when you they brought you in from the ship.
+  Nerevarine Unchained.esp->|NAME:Yes, of course this is the Empire. This is Vvardenfell District of the province of Morrowind. And Morrowind has been part of the Empire for over 400 years. The current emperor is Uriel Septim, 24th of the Septim line. You haven't been in prison that long, have you? Nothing wrong with your head, is there? The men said you were acting a little strange when you they brought you in from the ship.|DELE:
+
+[MOD-INF]: ID=2769862822480624623(:uriel septim)
+  morrowind.esm------------>|DATA|ONAM:chargen captain|NAME:Yes, Uriel Septim is still the emperor. According to my instructions, he personally authorized your release from prison and your delivery here. It's all very mysterious. But that's the way the Empire works. Silence. Secrecy. Let not the left hand know what the right hand is doing.
+  Nerevarine Unchained.esp->|NAME:Yes, Uriel Septim is still the emperor. According to my instructions, he personally authorized your release from prison and your delivery here. It's all very mysterious. But that's the way the Empire works. Silence. Secrecy. Let not the left hand know what the right hand is doing.|DELE:
+
+[MOD-INF]: ID=3253423749290424070(:morrowind)
+  morrowind.esm------------>|DATA|ONAM:chargen captain|NAME:Yes. You're in Morrowind. I don't know why you're here. Or why you were released from prison and shipped here. But your authorization comes directly from Emperor Uriel Septim VII himself. And I don't need to know any more than that. When you leave this office, you are a free man. But before you go, I have instructions on your duties. Instructions from the Emperor. So pay careful attention.
+  Nerevarine Unchained.esp->|NAME:Yes. You're in Morrowind. I don't know why you're here. Or why you were released from prison and shipped here. But your authorization comes directly from Emperor Uriel Septim VII himself. And I don't need to know any more than that. When you leave this office, you are a free man. But before you go, I have instructions on your duties. Instructions from the Emperor. So pay careful attention.|DELE:

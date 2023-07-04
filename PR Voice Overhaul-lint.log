@@ -1,0 +1,68 @@
+PR Voice Overhaul.esp: DUP-INF DUP-REC MENUMOD MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (3197) != Actual count (3193)
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(Vampire_Aundae)
+	SCPT(Vampire_Berne)
+	SCPT(Vampire_Quarra)
+	SCPT(irarakScript)
+	SCPT(mararaScript)
+	SCPT(mertaScript)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	bloodmoon.esm       DIAL    flee
+	morrowind.esm       DIAL    intruder
+	morrowind.esm       DIAL    thief
+	tribunal.esm        DIAL    attack
+	tribunal.esm        DIAL    hello
+	tribunal.esm        DIAL    hit
+	tribunal.esm        DIAL    idle
+
+[DUP-INF]: ID=8365116839732275(Voice:intruder)
+  |DATA|SCVR:03sX0nointruder|INTV:
+
+[MOD-INF]: ID=32137175498021017(Voice:flee)
+  bloodmoon.esm--------->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;to keep werewolves from talking during to you, they should never flee but just to be safe
+  PR Voice Overhaul.esp->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:; Werewolves never flee. Additional check.
+
+[DUP-INF]: ID=61167382261530863(Voice:intruder)
+  |DATA|ONAM:aundae vampire 1
+
+[DUP-INF]: ID=289151215526575827(Voice:hello)
+  |DATA|ONAM:clendil|SNAM:vo\w\m\Hlo_WM088.mp3|NAME:I'm listening.|BNAM:;clendil
+
+[DUP-INF]: ID=316071306933054274(Voice:idle)
+  |DATA|RNAM:Nord|ANAM:Thirsk|SNAM:vo\n\m\bIdl_NM021.mp3|NAME:Uh-huh.|SCVR:02sX5Random100|INTV|BNAM:;to yourself, thoughtful
+
+[DUP-INF]: ID=548912703529910651(Voice:idle)
+  |DATA|RNAM|SNAM:Vo\i\m\tIdl_IM013.mp3|NAME
+
+[DUP-INF]: ID=1589666621815410347(Voice:flee)
+  |DATA|RNAM:Argonian|SNAM:vo\k\m\bFle_KM001.mp3|NAME:Help! A beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;scared
+
+[MOD-INF]: ID=1732794482128125050(Voice:hit)
+  bloodmoon.esm--------->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Roar!|SCVR:01720|INTV|SCVR:12sX5Random100|INTV
+  PR Voice Overhaul.esp->|DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growls!|SCVR:01720|INTV|SCVR:12sX5Random100|INTV|BNAM:; Werewolf; Random 66 - 99.
+
+[DUP-INF]: ID=2063323517166171236(Voice:attack)
+  |DATA|RNAM:Argonian|SNAM:vo\k\m\bAtk_KM001.mp3|NAME:Kill the beast!|SCVR:02sX5Random100|INTV|SCVR:11650|INTV|BNAM:;shouting, full of confidence
+
+[DUP-INF]: ID=2377424419402128586(Voice:hello)
+  |DATA|RNAM:Argonian|SNAM:vo\a\m\Hlo_AM139.mp3|NAME:Hiss!|SCVR:01600|INTV|BNAM:;PCVampirism=0
+
+[DUP-INF]: ID=2839423402756528244(Voice:idle)
+  |DATA|SCVR:03sX0noidle|INTV:
+
+[DUP-INF]: ID=6949268301164428670(Voice:thief)
+  |DATA|ONAM:aundae vampire 1
+
+[DUP-INF]: ID=10394141353026432359(Voice:thief)
+  |DATA|SCVR:03sX0nothief|INTV:
+
+[DUP-INF]: ID=10819118262520816930(Voice:attack)
+  |DATA|SNAM:Vo\ww\scrm.mp3|NAME:Growl!|SCVR:01720|INTV|BNAM:;this prevents werewolves from talking to you in combat
+
+[DUP-INF]: ID=20663142531895113518(Voice:hit)
+  |DATA|SNAM:Vo\ww\roar.mp3|NAME:Growl!|SCVR:01720|INTV|SCVR:12sX5Random100|INTV:<
+
+[DUP-INF]: ID=31178177932621116826(Voice:idle)
+  |DATA|ONAM:Falco Galenus|SNAM:Vo\i\m\bIdl_IM002.mp3|NAME:Ah... ah... AH... CHOOOO!

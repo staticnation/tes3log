@@ -1,0 +1,128 @@
+LGNPC_TelMora.esp: DUP-REC MENUMOD OVR-REC
+    [MENUMOD] Scripts not checking menumode:
+	SCPT(lgnpc_tm_DisableSadelaAreth)
+	SCPT(lgnpc_tm_DisableTinasoAlan)
+	SCPT(lgnpc_tm_TelMoraUpperTower)
+	SCPT(max_lgnpc_FedrusRamori)
+	SCPT(max_lgnpc_NatesseReturn)
+	SCPT(max_lgnpc_elphiron_sc_01)
+	SCPT(max_lgnpc_gelduin_sc_01)
+	SCPT(max_lgnpc_liette_sw_sc_01)
+	SCPT(max_lgnpc_radras_day_sc)
+	SCPT(max_lgnpc_tm_FleshScript)
+	SCPT(max_lgnpc_tm_corprus_sc)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       DIAL    abolitionists
+	morrowind.esm       DIAL    ahemmusa
+	morrowind.esm       DIAL    ahemmusa camp
+	morrowind.esm       DIAL    alchemy
+	morrowind.esm       DIAL    altmer
+	morrowind.esm       DIAL    argonian
+	morrowind.esm       DIAL    ash storm
+	morrowind.esm       DIAL    ashlander challenges
+	morrowind.esm       DIAL    ashlander courtesy
+	morrowind.esm       DIAL    ashlander customs
+	morrowind.esm       DIAL    ashlander gifts
+	morrowind.esm       DIAL    ashlander nomadic camp style
+	morrowind.esm       DIAL    ashlanders
+	morrowind.esm       DIAL    ashlanders hate foreigners
+	morrowind.esm       DIAL    ashlands
+	morrowind.esm       DIAL    azura's coast
+	morrowind.esm       DIAL    bad people
+	morrowind.esm       DIAL    big helende
+	morrowind.esm       DIAL    blight disease
+	morrowind.esm       DIAL    bosmer
+	morrowind.esm       DIAL    breton
+	morrowind.esm       DIAL    dagon fel
+	morrowind.esm       DIAL    dagoth ur
+	morrowind.esm       DIAL    disturbing dreams
+	morrowind.esm       DIAL    dratha
+	morrowind.esm       DIAL    dunmer
+	morrowind.esm       DIAL    erabenimsun camp
+	morrowind.esm       DIAL    fighters guild
+	morrowind.esm       DIAL    fortify potions
+	morrowind.esm       DIAL    foyada
+	morrowind.esm       DIAL    foyada mamaea
+	morrowind.esm       DIAL    geographic regions
+	morrowind.esm       DIAL    ghostfence
+	morrowind.esm       DIAL    ghostgate
+	morrowind.esm       DIAL    grazelands
+	morrowind.esm       DIAL    great houses
+	morrowind.esm       DIAL    greeting 2
+	morrowind.esm       DIAL    greeting 6
+	morrowind.esm       DIAL    guild guide
+	morrowind.esm       DIAL    house telvanni
+	morrowind.esm       DIAL    imperial
+	morrowind.esm       DIAL    inner sea
+	morrowind.esm       DIAL    join house telvanni
+	morrowind.esm       DIAL    khajiit
+	morrowind.esm       DIAL    killing and murder
+	morrowind.esm       DIAL    lette
+	morrowind.esm       DIAL    lost kogoruhn
+	morrowind.esm       DIAL    mabrigash
+	morrowind.esm       DIAL    make amends
+	morrowind.esm       DIAL    master aryon
+	morrowind.esm       DIAL    mistress dratha
+	morrowind.esm       DIAL    molag amur
+	morrowind.esm       DIAL    moon-and-star
+	morrowind.esm       DIAL    more blight storms
+	morrowind.esm       DIAL    morrowind
+	morrowind.esm       DIAL    mount kand
+	morrowind.esm       DIAL    necromancers
+	morrowind.esm       DIAL    nerevar
+	morrowind.esm       DIAL    nerevarine cult
+	morrowind.esm       DIAL    nerevarine prophecies
+	morrowind.esm       DIAL    nord
+	morrowind.esm       DIAL    orc
+	morrowind.esm       DIAL    orvas dren
+	morrowind.esm       DIAL    padomaic ocean
+	morrowind.esm       DIAL    peakstar
+	morrowind.esm       DIAL    red mountain
+	morrowind.esm       DIAL    redguard
+	morrowind.esm       DIAL    sadrith mora
+	morrowind.esm       DIAL    sea of ghosts
+	morrowind.esm       DIAL    settlements in morrowind
+	morrowind.esm       DIAL    sheogorad
+	morrowind.esm       DIAL    silt strider
+	morrowind.esm       DIAL    sugar-lips habasi
+	morrowind.esm       DIAL    swamp fever
+	morrowind.esm       DIAL    tel aruhn
+	morrowind.esm       DIAL    tel branora
+	morrowind.esm       DIAL    tel fyr
+	morrowind.esm       DIAL    tel mora
+	morrowind.esm       DIAL    tel vos
+	morrowind.esm       DIAL    telvanni tower
+	morrowind.esm       DIAL    temple
+	morrowind.esm       DIAL    the blight
+	morrowind.esm       DIAL    thieves guild
+	morrowind.esm       DIAL    troubles for house telvanni
+	morrowind.esm       DIAL    urshilaku camp
+	morrowind.esm       DIAL    valenwood
+	morrowind.esm       DIAL    visiting an ashlander camp
+	morrowind.esm       DIAL    vos
+	morrowind.esm       DIAL    vvardenfell
+	morrowind.esm       DIAL    vvardenfell district
+	morrowind.esm       DIAL    zainab
+	morrowind.esm       DIAL    zainab camp
+	morrowind.esm       NPC_    borwen
+	morrowind.esm       NPC_    elphiron
+	morrowind.esm       NPC_    gelduin
+	morrowind.esm       NPC_    natesse
+	tribunal.esm        DIAL    ald daedroth
+	tribunal.esm        DIAL    background
+	tribunal.esm        DIAL    business
+	tribunal.esm        DIAL    camonna tong
+	tribunal.esm        DIAL    duties
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    greeting 7
+	tribunal.esm        DIAL    latest rumors
+	tribunal.esm        DIAL    little advice
+	tribunal.esm        DIAL    little secret
+	tribunal.esm        DIAL    morrowind lore
+	tribunal.esm        DIAL    my trade
+	tribunal.esm        DIAL    nerevarine
+	tribunal.esm        DIAL    services
+	tribunal.esm        DIAL    someone in particular
+	tribunal.esm        DIAL    specific place

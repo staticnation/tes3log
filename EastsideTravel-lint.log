@@ -1,0 +1,13 @@
+EastsideTravel.ESP: DUP-REC JUNKCEL MISSAUT MISSDSC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (55) != Actual count (27)
+    [JUNKCEL] Junk Cells:                        Flags
+	Azura's Coast Region (10, 16)            0x02
+	Grazelands Region (11, 15)               0x02
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	tribunal.esm        DIAL    greeting 9
+	tribunal.esm        DIAL    my trade
+
+[MOD-INF]: ID=43631973834029895(Topic:my trade)
+  morrowind.esm------>|DATA|NAME:I'm a caravaner. I can transport you by silt strider to various destinations for a modest fee.|SCVR:0CsX0NoLore|INTV:|BNAM:;Caravaner; Destinations [like location infos], Silt Strider,
+  EastsideTravel.ESP->|DATA|NAME:I'm a caravaner. I can transport you by silt strider or Pack-Guar to various destinations for a modest fee.|SCVR:0CsX0NoLore|INTV:|BNAM:;Caravaner; Destinations [like location infos], Silt Strider,

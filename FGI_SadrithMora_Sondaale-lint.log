@@ -1,0 +1,55 @@
+FGI_SadrithMora_Sondaale.esp: DUP-INF DUP-REC MISSVER MOD-INF NUMRECS OVR-REC
+    [NUMRECS]: number of records in TES3.HEDR (21) != Actual count (19)
+    [OVR-REC] Overridden Records:
+	From Master         Type    Name
+	morrowind.esm       BOOK    bk_notefromsondaale
+	morrowind.esm       DIAL    sondaale of shimmerene
+	tribunal.esm        DIAL    greeting 1
+	tribunal.esm        DIAL    greeting 5
+	tribunal.esm        DIAL    travel together
+
+[MOD-INF]: ID=1010169941828641(Greeting:greeting 5)
+  morrowind.esm---------------->|DATA|ONAM:sondaale of shimmerene|NAME:I am lost and frightened. Would you please travel together with me back outside?|SCVR:34JX4FG_Telasero|INTV:F|BNAM:Journal FG_Telasero 30
+  FGI_SadrithMora_Sondaale.esp->|DATA|ONAM:sondaale of shimmerene|NAME:Ah, please! Not again, don't even approach me, terrible creature! Wait, you are not one of them, are you? Are you my guide from the Fighters Guild? Even if you are not, I need some help. I am lost and frightened. Would you please travel together with me back outside?|SCVR:34JX4FG_Telasero|INTV:F|BNAM:Journal FG_Telasero 30
+
+[MOD-INF]: ID=9473587057001458(Topic:travel together)
+  morrowind.esm---------------->|DATA|ONAM:sondaale of shimmerene|NAME:Get me out of here.|SCVR:01500|INTV|BNAM:;AiFollow Player 0 76432 -52880 1385 0  AiFollow Player 0 0 0 0 0  Journal FG_Telasero 50
+  FGI_SadrithMora_Sondaale.esp->|DATA|ONAM:sondaale of shimmerene|NAME:Get me out of here. This place and all those creatures make me scared.|SCVR:01500|INTV|BNAM:;AiFollow Player 0 76432 -52880 1385 0  AiFollow Player 0 0 0 0 0  Journal FG_Telasero 50
+
+[MOD-INF]: ID=19680231976348865(Topic:sondaale of shimmerene)
+  morrowind.esm---------------->|DATA|ONAM:hrundi|NAME:Good work, %PCName. Here's the 500 septims for this contract.|SCVR:34JX3FG_Telasero|INTV:F|BNAM:Journal FG_Telasero 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500
+  FGI_SadrithMora_Sondaale.esp->|DATA|ONAM:hrundi|NAME:Good work, %PCName. Here's the 500 septims for this contract.|SCVR:34JX3FG_Telasero|INTV:F|BNAM:Journal FG_Telasero 100  ModPCFacRep 5 "Fighters Guild"  ModDisposition 10  Player->AddItem Gold_001 500  Player->ModReputation 2
+
+[MOD-INF]: ID=130541660653534768(Topic:sondaale of shimmerene)
+  morrowind.esm---------------->|DATA|ONAM:hrundi|NAME:Go to Telasero, which is between Suran and the Silt Strider port near Molag Mar. Speak with Sondaale of Shimmerene and escort her through Telasero. She lacks the field experience of Larienna Macrina, so she will likely need more protection.|BNAM:Journal FG_Telasero 10  "sondaale of shimmerene"->Enable  ShowMap Telasero
+  FGI_SadrithMora_Sondaale.esp->|DATA|ONAM:hrundi|NAME:Go to Telasero, which is between Suran and the Silt Strider port near Molag Mar. Speak with Sondaale of Shimmerene and escort her through Telasero. She lacks the field experience of Larienna Macrina, so she will likely need more protection.|SCVR:04JX3FG_DuniraiSupply|INTV:d|BNAM:Journal FG_Telasero 10  "sondaale of shimmerene"->Enable  ShowMap Telasero
+
+[DUP-INF]: ID=250662577148408456(Topic:sondaale of shimmerene)
+  |DATA|ONAM:hrundi|NAME:Last I heard, she was trying to get permission to study in the city of Sotha Sil.|SCVR:34JX3FG_Telasero|INTV:d
+
+[MOD-INF]: ID=1647172851283631214(Greeting:greeting 5)
+  morrowind.esm---------------->|DATA|ONAM:sondaale of shimmerene|DNAM:Fighters Guild|NAME:Are you my guide from the Fighters Guild? I am sorry I went ahead on my own. Please, let us travel together back outside.|SCVR:34JX3FG_Telasero|INTV: |SCVR:44JX4FG_Telasero|INTV:2|BNAM:Journal FG_Telasero 30
+  FGI_SadrithMora_Sondaale.esp->|DATA|ONAM:sondaale of shimmerene|DNAM:Fighters Guild|NAME:Ah, please! Not again, don't even approach me, terrible creature! Wait, you are not one of them, are you? Are you my guide from the Fighters Guild? I am lost and frightened. Would you please travel together with me back outside?|SCVR:34JX3FG_Telasero|INTV: |SCVR:44JX4FG_Telasero|INTV:2|BNAM:Journal FG_Telasero 30
+
+[MOD-INF]: ID=1928280813149921891(Topic:sondaale of shimmerene)
+  morrowind.esm---------------->|DATA|ONAM:hrundi|NAME:I heard Sondaale of Shimmerene was dead. You idiot! You won't be getting any more contracts from me.|SCVR:56DX3sondaale of shimmerene|INTV|BNAM:Journal FG_Telasero 110  ModDisposition -10
+  FGI_SadrithMora_Sondaale.esp->|DATA|ONAM:hrundi|NAME:I heard Sondaale of Shimmerene was dead. You idiot! You won't be getting any more contracts from me.|SCVR:44JX3FG_DuniraiSupply|INTV:d|SCVR:56DX3sondaale of shimmerene|INTV|BNAM:Journal FG_Telasero 110  ModDisposition -10
+
+[MOD-INF]: ID=3186080982378213358(Topic:travel together)
+  morrowind.esm---------------->|DATA|ONAM:sondaale of shimmerene|NAME:I will wait here until you think it is safe.|SCVR:01500|INTV|BNAM:AiWander 128 6 0 40 30 20 0 0 0 0 0 0
+  FGI_SadrithMora_Sondaale.esp->|DATA|ONAM:sondaale of shimmerene|NAME:I will wait here until you think it is safe. But please, don't leave me alone for too long. I am frightened.|SCVR:01500|INTV|BNAM:AiWander 128 6 0 40 30 20 0 0 0 0 0 0
+
+[MOD-INF]: ID=9087203292266728231(Topic:travel together)
+  morrowind.esm---------------->|DATA|ONAM:sondaale of shimmerene|NAME:Can you guide me back outside?|BNAM:Choice "Follow me" 1 "Wait here" 2
+  FGI_SadrithMora_Sondaale.esp->|DATA|ONAM:sondaale of shimmerene|NAME:Can you guide me back outside? I do not wish to stay here, among all those awful creatures.|BNAM:Choice "Follow me" 1 "Wait here" 2
+
+[MOD-INF]: ID=9287280852144018976(Greeting:greeting 1)
+  tribunal.esm----------------->|DATA|ONAM:sondaale of shimmerene|NAME:Thank you for your help, %PCName. It looked to me like the place was safe.|SCVR:04JX0FG_Telasero|INTV:F|BNAM:Journal FG_Telasero 75
+  FGI_SadrithMora_Sondaale.esp->|DATA|ONAM:sondaale of shimmerene|NAME:Thank you for your help, %PCName. It looked to me like the place was safe. Now I doubt that I will ever forget what a nightmare I have seen in this terrible place.|SCVR:04JX0FG_Telasero|INTV:F|BNAM:ModDisposition +50  Journal FG_Telasero 75
+
+[MOD-INF]: ID=12272317842355814908(Topic:sondaale of shimmerene)
+  morrowind.esm---------------->|DATA|ONAM:hrundi|NAME:Sondaale of Shimmerene is dead? How do you know? Well, that's a shame. I don't have any more work for you, %PCName.|SCVR:34JX0FG_Telasero|INTV:|SCVR:56DX3sondaale of shimmerene|INTV
+  FGI_SadrithMora_Sondaale.esp->|DATA|ONAM:hrundi|NAME:Sondaale of Shimmerene is dead? How do you know? Well, that's a shame. I don't have any more work for you, %PCName.|SCVR:34JX0FG_Telasero|INTV:|SCVR:44JX3FG_DuniraiSupply|INTV:d|SCVR:56DX3sondaale of shimmerene|INTV
+
+[DUP-INF]: ID=22196257592020926573(Topic:sondaale of shimmerene)
+  |DATA|ONAM:hrundi|NAME:You've been expelled from the Fighters Guild. Until you make amends, I can't talk to you about this contract.|SCVR:01390|INTV
